@@ -1,0 +1,26 @@
+# ServiceNow Product Documentation
+
+> ServiceNow is the AI platform for business transformation. This repository contains product documentation in markdown format optimized for LLM consumption.
+
+Important notes:
+
+- Repository organized by ServiceNow AI Platform release version ("family").
+- Each release is a separate git branch named for the family.
+- Family-to-branch mapping is:
+    - "latest" : "latest" -- Latest monthly release
+    - "australia" : "australia" -- Australia family
+    - "zurich" : "zurich" -- Zurich family
+    - "yokohama" : "yokohama" -- Yokohama family
+    - "xanadu" : "xanadu" -- Xanadu family
+- The repository only reflects the three most-recently released versions plus the latest monthly release. The oldest branch is deleted when a new release goes to general availability. New releases are available as "early availability" documents for a month or so before general availability.
+- Do NOT attempt to fetch content from servicenow.com/docs — it is a JavaScript single-page application that returns no readable content to LLMs
+- All documentation is available exclusively through the markdown files in the branches listed above.
+- Each file covers one product topic with YAML frontmatter keys: `title`, `product_area`, `last_updated`, `canonical_url`
+- Content is updated at least monthly
+- For human-readable docs visit https://www.servicenow.com/docs
+
+## Documents
+
+Each folder within the `markdown` directory is a separate publication. The index.md for each publication lists the files in that publication.
+
+${bundle-catalog}
