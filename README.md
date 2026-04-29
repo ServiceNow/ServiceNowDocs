@@ -7,10 +7,10 @@ Australia release family documentation.
 ## Refresh cadence
 
 This repository is updated whenever the ServiceNow AI Platform documentation
-is republished to [https://www.servicenow.com/docs](the product documentation site),
+is republished to [the product documentation site,
 normally at least monthly, sometimes more often.
 
-> NOTE: This repository does not contain any media objects (images, etc.). As it is intended for LLM consumption and not human viewing, images are omitted. Human readers can find all images and other media objects at the official [https://www.servicenow.com/docs](product documentation site).
+> NOTE: This repository does not contain any media objects (images, etc.). As it is intended for LLM consumption and not human viewing, images are omitted. Human readers can find all images and other media objects at the official [product documentation site](https://www.servicenow.com/docs).
 
 ## List of publications
 
