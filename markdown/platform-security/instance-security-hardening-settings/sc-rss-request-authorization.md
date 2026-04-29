@@ -1,0 +1,121 @@
+---
+title: Require authorization for RSS requests
+description: Use the glide.basicauth.required.rss property to designate if incoming RSS requests should require basic authentication.
+locale: en-US
+release: australia
+product: Instance Security Hardening Settings
+classification: instance-security-hardening-settings
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [API and web service, Hardening settings, Platform Security]
+---
+
+# Require authorization for RSS requests
+
+Use the **glide.basicauth.required.rss** property to designate if incoming RSS requests should require basic authentication.
+
+The **glide.basicauth.required.rss** system property controls basic authorization for inbound RSS requests. If **glide.basicauth.required.rss** isn't set to the recommended value of **true**, then Basic Authentication for RSS format export processor is disabled. This also could be combined with a wrong role within the guest\_user related property, this will lead to unauthenticated access to instance data.
+
+Ensure the property **glide.basicauth.required.rss**exists in the System Properties \[sys\_properties\] table and is set to **true**.
+
+**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+
+## More information
+
+<table id="table_ajc_b43_3kb"><thead><tr><th>
+
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.basicauth.required.rss**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+&lt;none&gt;
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.5
+-   CVSS rating: High
+-   Security risk details: Unauthenticated access to RSS export data, when combined with misconfigured guest user role, poses a significant risk of unauthorized data exposure.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while processing RSS requests on the instance.
+-   It restricts any guest users who are currently accessing this data. If applicable, you may need to create a new account for users who need access to this content, with necessary access control permissions.
+
+ To learn more, see [RSS feed generator](https://www.servicenow.com/docs/access?context=c_RSSFeedGenerator&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[API and web service](sc-api-web-service.md)
+

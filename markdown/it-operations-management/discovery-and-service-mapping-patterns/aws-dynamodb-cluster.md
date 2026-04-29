@@ -1,0 +1,87 @@
+---
+title: Amazon DynamoDB Cluster pattern-based discovery
+description: Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+locale: en-US
+release: australia
+product: Discovery and Service Mapping Patterns
+classification: discovery-and-service-mapping-patterns
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+keywords: [AWS, Discovery, ITOM, Pattern]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+---
+
+# Amazon DynamoDB Cluster pattern-based discovery
+
+Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+
+## Pattern-based discovery and mapping requirements
+
+-   **Verify the AWS discovery prerequisites**
+
+    For more information, see the prerequisites section in [AWS discovery using patterns](../discovery/reference/data-discovered-aws-patterns.md).
+
+-   **Remove resources from the Resource Inclusion List table**
+
+    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [AWS Resource Inventory discovery with Patterns](../service-mapping/reference/aws-resource-inventory.md).
+
+-   **Enable the relevant pattern**
+
+    The pattern for this service is disabled by default. Starting with Visibility Content version 6.28.0, activating or deactivating a pattern won't be considered a customization, and it will continue to receive updates. Patterns that were previously activated or deactivated will reset to the latest predefined version after upgrading while retaining the last active field value. For more information on enabling patterns, see [Activate a disabled pattern](../service-mapping/task/activate-disabled-pattern.md).
+
+-   **Configure the Discovery schedule to support GovCloud**
+
+    Discovering AWS GovCloud \(US\) accounts requires using a datacenter URL when setting up an AWS service account. For more information, see [Create AWS service accounts](../it-operations-management/task/create-aws-service-accounts.md).
+
+
+## Data stored in CMDB tables
+
+Discovery and Service Mapping Patterns application populates data in the CMDB when running the Amazon AWS - DynamoDB Cluster - Extended Inventory \(LP\) pattern.
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The name assigned to the DynamoDB Accelerator \(DAX\) cluster.|
+|Cluster ID \[cluster\_id\]|The Amazon Resource Name \(ARN\) uniquely identifying the DAX cluster.|
+|Cluster Status \[cluster\_status\]|The current operational status of the DAX cluster.|
+|Cluster Type \[cluster\_type\]|Cluster type: DynamoDB Cluster.|
+|Fully qualified domain name \[fqdn\]|The endpoint address used to connect to the DAX cluster.|
+|Install Status \[install\_status\]|Install status of the resource. Default value is Installed.|
+|Node Count \[node\_count\]|The total number of nodes in the DAX cluster.|
+|Operational status \[operational\_status\]|Operational status of the resource. Default value is Operational.|
+|Description \[short\_description\]|Description of the cluster: DynamoDB Cluster.|
+|Vendor \[vendor\]|Name of the vendor: Amazon.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|The unique identifier of the DAX node within the cluster.|
+|Serial Number \[serial\_number\]|Unique identifier of the node in the following format: **&lt;cluster\_arn&gt;/node/&lt;node\_id&gt;**.|
+|Node Status \[node\_status\]|The current operational status of the node. For example: available, joining, or deleting.|
+|Fully qualified domain name \[fqdn\]|The endpoint address used to connect to the specific DAX node.|
+|Install Status \[install\_status\]|Install status of the node. Default value is Installed.|
+|Operational Status \[operational\_status\]|Operational status of the node. Default value is Operational.|
+|Cluster \[cluster\]|References the Cloud Database Cluster \[cmdb\_ci\_cloud\_db\_cluster\] table.|
+|Description \[short\_description\]|Description of the node: DynamoDB Cluster Node.|
+
+## CI relationships
+
+The Amazon AWS - DynamoDB Cluster - Extended Inventory \(LP\) pattern creates these relationships to support Amazon DynamoDB Cluster discovery.
+
+|CI|Relationship|CI|
+|---|------------|---|
+|Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+|Cluster Node \[cmdb\_ci\_cluster\_node\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+|Cluster Node \[cmdb\_ci\_cluster\_node\]|Cluster of::Cluster|Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|
+|Cluster Node \[cmdb\_ci\_cluster\_node\]|References|Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|
+
+## AWS tag discovery
+
+The pattern collects tags and populates them in the Key Value \[cmdb\_key\_value\] table.
+
+|Field|Description|
+|-----|-----------|
+|Key \[key\]|Tag name.|
+|Value \[value\]|Tag value.|
+
+**Parent Topic:**[AWS discovery using patterns](../discovery/reference/data-discovered-aws-patterns.md)
+

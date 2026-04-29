@@ -1,0 +1,121 @@
+---
+title: Configure Individual Life Servicing
+description: Review the components that are installed with the Individual Life Servicing application and modify as needed for your organization's business needs.
+locale: en-US
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
+---
+
+# Configure Individual Life Servicing
+
+Review the components that are installed with the Individual Life Servicing application and modify as needed for your organization's business needs.
+
+## Before you begin
+
+Make sure that the Configure Individual Life Servicing application is installed. For more information, see [Install Individual Life Servicing](install-individual-life-servicing.md).
+
+Role required: sn\_ins\_indiv\_life.admin or admin
+
+## Procedure
+
+1.  Import your financial accounts, financial products, financial institutions, and transactions data into ServiceNow tables.
+
+    For more information, see [Import your financial data using import sets](../../fso-common/task/import-financial-accounts-products-institutions.md).
+
+2.  Review the installed components and modify them or add new ones as applicable.
+
+<table><thead><tr><th align="left" id="d27819e129">
+
+Task
+
+</th><th align="left" id="d27819e132">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d27819e141">
+
+**Configure service definitions**
+
+</td><td>
+
+[Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable unique flows and views for policy service case and task. You should configure service definitions for:-   Individual Life Servicing
+-   Individual Life Underwriting
+
+
+</td></tr><tr><td id="d27819e172">
+
+**Configure record producers**
+
+</td><td>
+
+[Create or modify record producers](../../fso-common/task/create-modify-record-producers-fso-apps.md) to define request forms.
+
+</td></tr><tr><td id="d27819e191">
+
+**Create flows**
+
+</td><td>
+
+[Create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
+
+</td></tr><tr><td id="d27819e214">
+
+**Configure playbooks**
+
+</td><td>
+
+[Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.
+
+</td></tr><tr><td id="d27819e236">
+
+**Configure CSM Configurable Workspace**
+
+</td><td>
+
+[Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
+
+</td></tr><tr><td id="d27819e263">
+
+**Modify interceptors and workspace record type selectors**
+
+</td><td>
+
+[Modify interceptors and workspace record type selectors](../../fso-common/concept/configure-request-types-fso.md) to configure policy request types.
+
+</td></tr><tr><td id="d27819e282">
+
+**Configure user groups**
+
+</td><td>
+
+[Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
+
+</td></tr><tr><td id="d27819e301">
+
+**Configure assignment rules**
+
+</td><td>
+
+[Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
+
+</td></tr><tr><td id="d27819e317">
+
+**Configure Service Level Agreements \(SLAs\)**
+
+</td><td>
+
+[Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
+
+</td></tr><tr><td id="d27819e337">
+
+**Configure Document Processor**
+
+</td><td>
+
+[Configure Document Processor](../../fso-common/concept/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.
+
+</td></tr></tbody>
+</table>

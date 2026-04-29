@@ -1,0 +1,25 @@
+---
+title: Dynamic approval forms
+description: When you are looking at an approval request, the form has a context-appropriate summary of the item to be approved.
+locale: en-US
+release: australia
+product: Approvals
+classification: approvals
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Classic approvals, Build workflows]
+---
+
+# Dynamic approval forms
+
+When you are looking at an approval request, the form has a context-appropriate summary of the item to be approved.
+
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](../../flow-designer/reference/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+
+For example, if you're looking at a Change Management approval request, you will see details from the relevant change request. For a Service Catalog approval request, you will get details of the request.
+
+![](../image/ApproveChange.png "Change request approval example")
+
+![](../image/ApproveRequest.png "Service Catalog approval example")
+

@@ -1,0 +1,74 @@
+---
+title: Investment Portal
+description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+locale: en-US
+release: australia
+product: PPM Collaboration
+classification: ppm-collaboration
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Investment Portal
+
+Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+
+**Important:**
+
+Starting with the Australia release, the Investment Portal is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use Portfolio Planning module in Strategic Planning \(for Pro license\) or Portfolio Planning Workspace \(for standard license\) to experience a more interactive and strategically aligned way to manage portfolios.
+
+Tracking and managing your investments \(both projects and demands\) and then creating investment reports and sharing them through email is time consuming and inefficient. To generate a report you must obtain the status of projects and demands from project and demand managers, produce the report, and then email it.
+
+With Investment Portal you can create an investment board through filter definition, and share it with other stakeholders. You can save time on new investments by creating, cloning, or modifying boards as needed. Filtering makes it easy to surface information on the fly and for reporting.
+
+Here are a few examples showing how Investment Portal can make managing and reporting more efficient:
+
+-   If you are launching an application store, you can monitor overall program progress and surface projects that are creating bottlenecks.
+-   For a new business application you can review and edit the investment roadmap for the next few weeks, months, or years.
+-   For a key strategic initiative, you can review what was accomplished in the previous year and plan for the next eighteen months.
+
+Investment Portal is divided into the following sections:
+
+-   **Banner icons**
+
+    You can edit, copy, delete, bookmark, and share your investment board with other members and groups using the banner icons on the header of Investment Portal. See [Track your key investments](../task/use-investment-portal.md) for more information.![banner icons](../image/banner-icons.png)
+
+-   **Investment widgets**
+
+    You can view important metrics like total cost, actual cost, and budget with investment widgets that can be [configured](../task/configure-investment-metrics.md).
+
+    ![Screen capture of investment widgets](../image/investment-portal-widgets.png)
+
+-   **Key tabs**
+
+    You can track important aspects of your projects and demands in one location using the following tabs.
+
+    -   **Overview**: A high-level summary of your projects and demands. The information in the grid is based on the project and demand form fields.
+    -   **Timeline**: Key milestones in a Gantt view. Gantt view provides an overview of projects using graphical elements such as lines and bars to show dependencies and lengths of tasks.
+
+        The Work Breakdown Structure \(WBS\) in the tab displays only milestones and key milestones.
+
+    -   **Financials**: A detailed breakdown of project and demand costs in yearly, monthly, and quarterly formats, and based on cost plans associated to your projects and demands.
+
+        The tab is displayed only to the user who has the it\_project\_manager role.
+
+
+**Note:**
+
+Investment Portal’s loading time directly depends on number of demands or projects and their related entities like cost plans and breakdowns, that match with the defined query. Typically, the board's performance is optimal with approximately 50 projects or demands, with each project containing 10 to 15 cost plans.
+
+The application doesn't restrict the number of records being fetched. So, users are recommended to define the query in such a way that optimal number of records are fetched to ensure that the performance is not affected.
+
+-   **[View all your investment boards in one location](my-investments-tabs.md)**  
+Display all your important investment boards in a single location using the My Investment views page.
+-   **[Create an investment board](../task/create-an-investment-report.md)**  
+View the projects and demands that are important to you by creating a personalized investment board using filter criteria you define.
+-   **[Track your key investments](../task/use-investment-portal.md)**  
+Track and analyze the cost, schedule, and scope of your investments in one place using Investment Portal.
+-   **[Configure your investment metrics as widgets](../task/configure-investment-metrics.md)**  
+Configure investment metrics based on your business requirements. These metrics appear as widgets on the Investment Portal page.
+
+**Parent Topic:**[Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
+

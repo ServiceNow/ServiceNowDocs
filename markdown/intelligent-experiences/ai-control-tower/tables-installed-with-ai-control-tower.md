@@ -1,0 +1,42 @@
+---
+title: Tables installed with AI Control Tower
+description: Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
+locale: en-US
+release: australia
+product: AI Control Tower
+classification: ai-control-tower
+topic_type: reference
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+---
+
+# Tables installed with AI Control Tower
+
+Certain Tables or fields are installed along with the activation of the AI Control Tower core plugin.
+
+The following table is provided to understand the AI assessment and AI task fields.
+
+| | | |
+|---|---|---|
+|Asset|ai\_asset|Reference|
+|Risk classification|risk\_score|choice|
+|Status|approval\_status|choice|
+
+| | | |
+|---|---|---|
+|Sys ID|sys\_id|SYS\_ID|
+|AI asset|asset|Reference|
+|Parent Task|parent\_task|Reference \(ai\_gov\_review\_task\)|
+|State|state| |
+|Type|type|Choice|
+|Close Notes|close\_note| |
+
+| | | |
+|---|---|---|
+|Sys ID|sys\_id|SYS\_ID|
+|Parent Task|parent\_task|Reference|
+|Approval|approval|Reference \(sysapproval\)|
+|State|state| |
+|Type|type|Choice|
+

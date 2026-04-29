@@ -1,0 +1,28 @@
+---
+title: Updating and synchronizing signatories
+description: As a legal user or fulfiller, update and sync signatory details when the contract submission has failed, or contract document cannot be sent due to incomplete signatory information.
+locale: en-US
+release: australia
+product: Legal Service Delivery
+classification: legal-service-delivery
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
+---
+
+# Updating and synchronizing signatories
+
+As a legal user or fulfiller, update and sync signatory details when the contract submission has failed, or contract document cannot be sent due to incomplete signatory information.
+
+**Note:** If you are using Contract Management Pro version 1.2.1 and the document is stored on your ServiceNow instance, signatories are automatically updated when you send the document for signature or resubmit the contract request.
+
+-   **[Resolve the failure to send contract documents for signature \(starting Contract Management Pro 1.2.1\)](snlc-sync-doc-user.md)**  
+Update signatory details in an external contract document when there is a failure in sending the document for signature due to a mismatch between the signatory information in the contract request and the contract document.
+-   **[Resolve the failure to submit a self-serve contract](snlc-sync-signatories-fulfiller.md)**  
+As a legal user, resubmit a contract request that was not submitted due to incomplete signatory information by updating and syncing signatory information.
+-   **[Resolve an error during send for signature](snlc-sync-signatories-user.md)**  
+As a legal user or fulfiller, update and synchronize signatory details when send for signature fails due to a mismatch between signatory information in the contract request and contract document.
+
+**Parent Topic:**[Work on NDA legal requests](snlc-work-on-contract-request.md)
+

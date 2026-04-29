@@ -1,0 +1,111 @@
+---
+title: Update associated Decision tables for HAM flows
+description: Update associated Decision tables for Hardware Asset Management \(HAM\) flows to trigger a new or customized HAM flow.
+locale: en-US
+release: australia
+product: Hardware Asset Management
+classification: hardware-asset-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+---
+
+# Update associated Decision tables for HAM flows
+
+Update associated Decision tables for Hardware Asset Management \(HAM\) flows to trigger a new or customized HAM flow.
+
+## Before you begin
+
+Role required: admin, decision\_table\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Definition** &gt; **Decision Tables**.
+
+2.  Open a decision table that you want to update.
+
+3.  On the flow page, select the Add icon \(![Add icon](../image/add_content_icon.png)\) in the Decision table section.
+
+4.  Select **Add condition column**.
+
+5.  In the NEW CONDITION COLUMN dialog box, fill in the conditions according to the conditions that you want to trigger the flow.
+
+6.  Select **Done**.
+
+    A new row is created and the condition shows up in the Decision table section.
+
+7.  In the Flow column, select the flow that you have created.
+
+8.  Select **Save**.
+
+9.  Navigate to the Decisions \(sys\_decision\_question\) table and search the updated Decision table that you updated.
+
+10. Update the **Order** field with a value less than 100.
+
+
+**Parent Topic:**[Using Hardware Asset Management](../concept/using-ham-classic.md)
+
+**Related topics**  
+
+
+[Work with hardware normalization](../concept/Work-with-hardware-normalization.md)
+
+[Manage asset bundles from your inventory](create-bundled-assets.md)
+
+[Manage your inventory through pallet assets](../concept/pallets-for-inventory-management.md)
+
+[Manage loaner assets](manage-loaner-asset.md)
+
+[Donate assets to charity organizations](../concept/donate-asset-to-charity-organizations.md)
+
+[Use Advanced Shipment Notification](advanced-shipment-notification.md)
+
+[Manage RMA requests](../concept/manage-rma-req.md)
+
+[Create an inventory stock order request](create-inventory-stock-order.md)
+
+[Create a disposal order](create-disposal-order.md)
+
+[Use a hardware asset request flow](hardware-request-flow.md)
+
+[Audit hardware asset inventory](../concept/ham-inventory-audit.md)
+
+[Request a Hardware Asset Refresh](hardware-asset-refresh.md#)
+
+[Manage your expiring contracts for leased hardware assets](manage-your-leased-hw-asts-expiring-contract.md)
+
+[Reclaim hardware assets](../concept/manage-asset-reclaim.md)
+
+[View RFID information of assets](view-rfid-info.md)
+
+[Manage the lifecycle of hardware models with calculated lifecycle templates](../concept/manage-ham-lifecycle-temp.md)
+
+[Receive asset warranty details from Lenovo](../concept/receive-warranty-details-lenovo.md)
+
+[Manage stockrooms](../concept/manage-your-stockrooms.md)
+
+[Track shipments using the integration framework](../concept/tracking-shipments-using-integration-framework.md)
+
+[Track asset location using indoor maps](track-asset-location-using-indoor-maps.md)
+
+[Assess performance of Hardware Asset Management](../concept/suc-goal-act-hw.md)
+
+[Manage refresh of assets using Zero Touch Refresh](../concept/refresh-hardware-uisng-ztr.md)
+
+[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
+
+[Manage Hardware Asset Management subscriptions](../concept/managing-ham-subscriptions.md)
+
+[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace](../concept/manage-repair-of-defective-ham-assets.md)
+
+[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows](../concept/manage-asset-picking-stockroom-ham-ws.md)
+
+[Manage hardware asset tasks using the Mobile Agent application](../concept/manage-hardware-asset-tasks-mobile-agent.md)
+
+[Manage asset put away using the Hardware Asset Workspace](../concept/manage-asset-putaway-stockroom-hardware-asset-workspace.md)
+
+[Audit your hardware assets by using Asset Attestation](../concept/audit-hardware-assets-attestation.md)
+
+[Acknowledge receipt of assets on the Employee Center portal](receive-assets-employee-center.md)
+

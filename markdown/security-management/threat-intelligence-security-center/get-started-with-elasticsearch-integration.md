@@ -1,0 +1,22 @@
+---
+title: Get started with Elasticsearch integration
+description: The Elasticsearch enrichment integration searches your logs and adds relevant sighting information to your observables.
+locale: en-US
+release: australia
+product: Threat Intelligence Security Center
+classification: threat-intelligence-security-center
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configure Sighting Search, Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+---
+
+# Get started with Elasticsearch integration
+
+The Elasticsearch enrichment integration searches your logs and adds relevant sighting information to your observables.
+
+-   **[Configure and enable Elasticsearch integration](../task/tisc-elasticsearch-integration.md)**  
+Elasticsearch is a distributed, RESTful search and analytics engine that easily integrates with Security Operations.
+
+**Parent Topic:**[Configure Sighting Search](../task/configure-sighting-search.md)
+

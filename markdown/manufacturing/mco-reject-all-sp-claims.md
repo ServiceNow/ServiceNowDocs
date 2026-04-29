@@ -1,0 +1,38 @@
+---
+title: Reject a claims
+description: Reject a claims that was raised by the dealer.
+locale: en-US
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Reviewing and approving the sales promotion claims, Sales promotion claim management, Sales promotion, Agent management, Use, Manufacturing Commercial Operations]
+---
+
+# Reject a claims
+
+Reject a claims that was raised by the dealer.
+
+## Before you begin
+
+Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_operations\_admin\) or claims agent \(sn\_claim\_cmn.claims\_agent\)
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales promotion**.
+
+    **Note:** To learn how to create and navigate to the Review &amp; approve form, see [Create a sales promotion claim case](mco-create-sls-pro-claim-case.md).
+
+2.  Select **Review &amp; approve** from **Activities**.
+
+3.  Reject the claims by selecting **![Reject](../../../reuse/icons/product-icons/close-outline-24.svg)**.
+
+4.  Add **Notes**.
+
+5.  Select **Complete**.
+
+6.  view the sales promotion summary details by selecting **Claim Summary**.
+
+
+**Parent Topic:**[Reviewing and approving the sales promotion claims](../concept/mco-approve-sales-promotion-claims.md)
+

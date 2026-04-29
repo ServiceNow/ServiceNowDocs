@@ -1,0 +1,110 @@
+---
+title: Add milestones for roadmap items
+description: Track key outcomes of your planning items \(such as demands and projects\) by creating milestones for them, directly from the roadmap view.
+locale: en-US
+release: australia
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
+breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Add milestones for roadmap items
+
+Track key outcomes of your planning items \(such as demands and projects\) by creating milestones for them, directly from the roadmap view.
+
+## Before you begin
+
+Role required: sn\_align\_core.apw\_user
+
+## About this task
+
+Select a roadmap item and create a milestone for it. Use the roadmap side panel to fill in the details and submit.
+
+For free-form roadmaps, milestones are supported only if the source table is Planning Item \[sn\_align\_core\_planning\_item\] or one of its extensions.
+
+**Important:**
+
+You can’t add a project milestone from the roadmap view. Creating or updating project milestones may impact the associated project plans. So, it’s recommended to create or update project milestones using Project Workspace in Project Portfolio Management \(PPM\).
+
+However, any existing milestones of the project are visible on the roadmap if you've integrated [Portfolio Planning with Project Portfolio Management](../concept/portfolio-planning-integration-with-execution-applications.md).
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
+
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d169017e126">
+
+Roadmap type
+
+</th><th align="left" id="d169017e129">
+
+Navigation
+
+</th></tr></thead><tbody><tr><td id="d169017e135">
+
+**Portfolio plan roadmap**
+
+</td><td>
+
+1.  From the Portfolio Plans tab, select a portfolio plan.
+2.  From the Planning section, select **Roadmap**.
+
+
+</td></tr><tr><td id="d169017e156">
+
+**Free-form roadmap**
+
+</td><td>
+
+From the Free-form Roadmaps tab, select a roadmap.
+
+</td></tr></tbody>
+</table>2.  From the roadmap view, click a planning item to which you want to add the milestone.
+
+    The side panel opens showing the item details.
+
+3.  Select the Milestones tab.
+
+    Alternatively, you can click **Full details** and select the Milestones tab from the full details page.
+
+4.  Select the Add milestone icon \(![Add milestone icon.](../../alignment-planner-workspace/images/icon-add.png)\).
+
+    If the item doesn't have any milestones, select **New milestone**.
+
+5.  On the form, fill in the fields.
+
+    For field information, see [Planning item milestone form](../reference/planning-item-milestone-form-portfolio-planning.md).
+
+6.  Select **Save**.
+
+    When you go back to the Milestones tab, you can see the milestone listed there.
+
+7.  Repeat steps 2 through 6 to add more milestones to your items.
+
+
+## Result
+
+-   Milestones that you created are indicated on the roadmap item bars.
+
+    Here’s an image of a sample roadmap with the roadmap items indicating that they have milestones.![Planning item-level milestones.](../../spw-roadmap/images/roadmap-item-milestones.png)
+
+-   Pointing your cursor over these milestone indicators shows the details such as the milestone name, type, and due date.
+-   Clicking one of these indicators opens the Milestones tab of the Item details side panel. Here, you can see a list of all the milestones for this planning item.
+
+## What to do next
+
+Learn more about managing milestones:
+
+-   [Customizing milestone display on roadmap](../reference/customizing-milestone-display-roadmap-portfolio-planning.md)
+-   [Item milestone errors in Portfolio Planning Workspace](../concept/error-state-for-planning-item-milestones-portfolio-planning.md)
+-   [Update roadmap item milestones](update-roadmap-item-milestones-portfolio-planning-workspace.md)
+
+-   **[Update roadmap item milestones](update-roadmap-item-milestones-portfolio-planning-workspace.md)**  
+Update or delete the milestones that you added to your planning items \(such as demands, scrum epics, or programs\) so that they reflect any change of plans.
+
+**Parent Topic:**[Planning roadmaps in Portfolio Planning](../concept/planning-roadmaps-in-portfolio-planning.md)
+

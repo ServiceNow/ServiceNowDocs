@@ -1,0 +1,39 @@
+---
+title: Configuring Operational Resilience
+description: Configure the Operational Resilience application to identify risks, failed controls, monitor services and processes, and ensure a complete resilience of your organization.
+locale: en-US
+release: australia
+product: Operational Resilience Dashboard
+classification: operational-resilience-dashboard
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Operational Resilience, Governance, Risk, and Compliance]
+---
+
+# Configuring Operational Resilience
+
+Configure the Operational Resilience application to identify risks, failed controls, monitor services and processes, and ensure a complete resilience of your organization.
+
+## Operational Resilience configuration overview
+
+A typical configuration of the Operational Resilience application consists of the following steps:
+
+1.  Download the Operational Resilience application in your instance. For instructions, see [Install Operational Resilience application](../task/download-opres.md).
+2.  Pillar configuration: Configure the pillars in Operational Resilience. You can also add new pillars or modify the existing pillars, but it is suggested to retain the pillars that come with the base system. For information, see [Setting up pillars, entity types, entity filters, and entities](setting-up-hierarchy.md).
+3.  Entity type and entity filter configuration: Activate the entity types and entity filters. For information, see [Set up pillars and entity types from Workspace UI](../task/set-up-from-ws.md).
+4.  Main node configurations: Update the main node configurations that are available with the base system or add more main node configurations. For information, see [Configure the Main node configurations](../task/set-up-main-node.md).
+5.  Properties: Configure the properties to suit your business needs. For information, see [Configure Operational Resilience properties](../task/configure-opres-prop.md).
+6.  Dashboard customization: Customize the dashboard by adding or removing reports as needed to suit your requirements. For more information, see [Using the flexible data model](flexible-data-model-changes.md) and [Landing page and dashboard views](../../grc-operational-res-ws/concept/setup-homepage.md).
+
+## Sample Main node configurations
+
+For creating new Main node configurations in the Operational Resilience application, refer to the following end-to-end examples:
+
+-   To create a Services to dependencies sample Main node configuration, see [Sample Services to dependencies configuration](../task/configure-ser-to-dep-main-node-config.md).
+-   To create an Application service to dependencies sample Main node configuration, see [Sample Application service to dependencies configuration](../task/configure-app-ser-to-dep-config.md).
+-   To configure an end-to-end workflow for a business service and fetch its CSDM dependencies and red flags data to Operational Resilience, see [Sample end-to-end workflow for a business service](../task/configure-end-to-end-wf-bs.md).
+-   To configure an end-to-end workflow for a service and fetch its CSDM dependencies and red flags data to Operational Resilience, see [Sample end-to-end workflow for services](../task/conf-end-to-end-wf-for-ser.md).
+
+For other general administrative setup tasks, see [Completing general administrative tasks](admin-module-tasks.md).
+

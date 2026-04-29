@@ -1,0 +1,40 @@
+---
+title: Enable appointment booking slot recommendation
+description: Appointment booking slot recommendations help users quickly select the best available appointment times based on your configured scheduling rules.
+locale: en-US
+release: australia
+product: Field Service Scheduling
+classification: field-service-scheduling
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Appointment slot recommendation, Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
+---
+
+# Enable appointment booking slot recommendation
+
+Appointment booking slot recommendations help users quickly select the best available appointment times based on your configured scheduling rules.
+
+## Before you begin
+
+Role required: appointment\_booking\_admin
+
+## Procedure
+
+1.  Navigate to **All** and search for `sys_properties.list`.
+
+2.  Search for the property `sn_adv_apptmnt.show_recommended_slots`.
+
+3.  Set the **Value** as follows:
+
+    -   Enter true to **enable** slot recommendations.
+
+    -   Enter false to **disable** slot recommendations.
+
+4.  Select **Update**.
+
+
+## Result
+
+Appointment booking slot recommendation is enabled or disabled based on your selection, and you will see recommended appointment slots accordingly.
+

@@ -1,0 +1,103 @@
+---
+title: Create a child alias to set up multiple Jira integration profiles
+description: Create a child alias to set up multiple Jira integration profiles with unique connections and manage different configurations for each integration profile.
+locale: en-US
+release: australia
+product: SaaS License Management
+classification: saas-license-management
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+keywords: [child alias, child alias for jira]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+---
+
+# Create a child alias to set up multiple Jira integration profiles
+
+Create a child alias to set up multiple Jira integration profiles with unique connections and manage different configurations for each integration profile.
+
+## Before you begin
+
+Role required: sam\_integrator
+
+## Procedure
+
+1.  Create a Jira integration profile.
+
+    For more information about creating an integration profile, see [Integrating with Jira Software Cloud](../concept/integrate-with-jira.md).
+
+2.  Open the connection &amp; credential record set on the integration profile.
+
+3.  Open the parent alias record \(sn\_jira\_spoke.Jira\).
+
+4.  Set the configuration template to the appropriate template based on the selected process in the profile.
+
+    |Process selected on the profile|Configuration template|
+    |-------------------------------|----------------------|
+    |Both **Download activity** and **Reclaim subscriptions** check boxes are selected|Jira Subscription Activity and Reclaim|
+    |Only **Download activity** check box is selected|Jira Subscription and Activity|
+    |Only **Reclaim subscriptions** check box is selected|Jira Subscription and Reclaim|
+    |Both **Download activity** and **Reclaim subscriptions** check boxes aren’t selected|Jira Subscription|
+
+5.  Save the parent alias record.
+
+6.  Select the **Child Aliases** tab.
+
+7.  Select **New**.
+
+    **Tip:** If the **New** button isn't visible, change the scope to the respective application of the alias from the application scope.
+
+8.  Reload the Connection &amp; Credential Aliases page.
+
+9.  On the new child alias form that opens up, provide a name of your choice for the alias.
+
+10. Select **Submit**.
+
+11. Open the child alias record that you created, select **Create New Connection &amp; Credential**.
+
+12. Configure the connection and credential in the same way that you have done for the parent integration.
+
+13. After the connection is configured, return to the integration profile and then select the newly created child alias on the **Connection &amp; Credential** field.
+
+14. Select **Save** and publish the integration profile.
+
+
+**Parent Topic:**[SaaS License Management](../concept/sam-subscription-management.md)
+
+**Related topics**  
+
+
+[Request SaaS License Management](request-saas-license-management.md)
+
+[SaaS License Management setup for large companies](../concept/saas-setup-large-companies.md)
+
+[SaaS Overview dashboard](../concept/saas-overview-dashboard.md)
+
+[Integrate with SaaS applications](../concept/create-integration-profile.md)
+
+[Integrate with SSO providers](../concept/saas-sso-integration.md)
+
+[Playbook for SaaS integrations](../concept/playbook-saas-integrations.md)
+
+[Viewing your SaaS and SSO subscriptions](../concept/usage-summary-saas.md)
+
+[Review a software reclamation rule](add-reclamation-rule-sub.md)
+
+[Reclaiming user subscriptions](../concept/reclaiming-user-subscriptions-saas.md)
+
+[Create a child alias to set up multiple integration profiles](../reuse/create-child-alias-saas.md)
+
+[Create a child alias to set up multiple Cisco Webex integration profiles](create-child-alias-webex.md)
+
+[Create a child alias to set up multiple Confluence Cloud integration profiles](create-child-alias-confluence.md)
+
+[Associate a user with subscription records](map-user-data.md)
+
+[Disconnect SSO apps](disconnect-azure-ad-apps.md)
+
+[Delete an integration profile](../concept/delete-saas-integration.md)
+
+[Subscription identifiers for SaaS and SSO applications](../concept/subscription-identifiers.md#)
+
+[Subscription exclusions for SaaS and SSO applications](../concept/subscription-exclusions.md#)
+

@@ -1,0 +1,117 @@
+---
+title: Remove assignments for host vulnerable items in bulk
+description: Remove yourself or your groups from the  Assigned to  and  Assignment group  fields on the findings if you determine that the records aren’t within your scope for remediation, or if you think that records have been incorrectly assigned to you or to your groups.
+locale: en-US
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
+---
+
+# Remove assignments for host vulnerable items in bulk
+
+Remove yourself or your groups from the  **Assigned to ** and  **Assignment group ** fields on the findings if you determine that the records aren’t within your scope for remediation, or if you think that records have been incorrectly assigned to you or to your groups.
+
+## Before you begin
+
+Role required:
+
+-   sn\_vul.vulnerability\_analyst, sn\_vul.vulnerability\_admin, or sn\_vul.remediation\_owner for host vulnerable items \(VITs\)
+-   sn\_vul.app\_sec\_manager, sn\_vul.app\_security\_champion for application vulnerable items \(AVITs\)
+-   sn\_vul\_container.vulnerability\_analyst, sn\_vul\_container.vulnerability\_admin, or sn\_vul\_container.remediation\_owner for container vulnerable items \(CVITs\)
+-   sn\_vulc.admin, sn\_vulc.remediation\_owner for configuration test results \(CTRs\)
+
+## About this task
+
+The  unassign  feature is applicable for records in any state other than Closed or Resolved. When you remove assignments for host vulnerable items using the bulk edit feature, only relevant records are updated.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
+
+2.  On the List page, under Host Vulnerable items, open the Active or All list.
+
+3.  Perform one of the following:
+
+    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the [Record Selection](../../vr-vulnerability-manager-workspace/task/vmws-bulk-edit-unassign.md#record-slection-field-unassign) field.
+    -   Apply filters if you want to use the **All Vulnerable Items that match filter** option in the [Record Selection](../../vr-vulnerability-manager-workspace/task/vmws-bulk-edit-unassign.md#record-slection-field-unassign) field.
+4.  Select the **Bulk Edit** button.
+
+5.  On the form, fill in the fields to remove assignments in bulk.
+
+<table id="table_t4d_4bd_5s"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Record Selection
+
+</td><td>
+
+Records to update. Choices are:-   Only Selected Items: Select this option if you want to update the records you selected using the check box.
+-   All Vulnerable Items that match filter: Select this option if you want to update the filtered records.
+-   Remediation Task: Select this option if you want to update the records in a remediation task and then select the desired remediation task in the **Remediation task** field.
+-   Vulnerability Entry: Select this option if you want to update the records specific to a common vulnerable entry \(CVE\) and then select the CVE in the **Vulnerability Entry** field.
+**Note:**
+
+-   Records with invalid CI or CI decommissioned aren’t updated.
+-   Only the records in the Open, Under Investigation, Awaiting Implementation, or Deferred state are updated.
+
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+Select the state as Do Not Update.
+
+</td></tr><tr><td>
+
+Unassign
+
+</td><td>
+
+All the selected vulnerable items are unassigned from assignment group and remediation owner. **Note:**
+
+-   This field appears when you select the State as Do Not Update.
+-   When you unassign records, a remediation task is created which is sent for approval.
+
+
+</td></tr><tr><td>
+
+Work notes
+
+</td><td>
+
+Text that you enter to describe the changes.
+
+</td></tr></tbody>
+</table>6.  Click  **Edit**.
+
+    A remediation task is created with the selected host vulnerable items \(VITs\).
+
+    Your request is submitted for approval and the approver receives an email notification about your request.
+
+    The state of the host vulnerable items \(VITs\) and remediation task \(VUL\) transitions to In Review. If a remediation task is updated with this feature, the  **Assigned to ** and **Assignment group ** fields on all of its associated VITs are also cleared upon approval of your request.
+
+
+## Result
+
+In the Security Exposure Management Workspace, on the List page, navigate to **Exception Requests** &gt; **All** and open the corresponding state change approval record \(VCA\#\) and check the status of your request in the Approval state column:
+
+|Approval state|Result|
+|--------------|------|
+|Approved|The **Assigned to** and  **Assignment group** fields of all the host vulnerable items are cleared.|
+|Rejected|The **Assigned to** and  **Assignment group** fields of all the host vulnerable items are not updated.|
+
+In the **Activity stream** of a record or remediation task, you can view the entire workflow of your request.
+
+**Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](../concept/sem-using-bulk-edit.md)
+

@@ -1,0 +1,23 @@
+---
+title: Change a Log Analytics alert rule in Health Log Analytics
+description: You can alter a Log Analytics alert rule that you have defined.
+locale: en-US
+release: australia
+product: Health Log Analytics
+classification: health-log-analytics
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Use alert rules to control when HLA generates alerts, Controlling alert generation, prioritization, and anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
+---
+
+# Change a Log Analytics alert rule in Health Log Analytics
+
+You can alter a Log Analytics alert rule that you have defined.
+
+## Before you begin
+
+Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
+
+**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace. For the new procedure, see the corresponding topic in the Service Operations Workspace for ITOM documentation: [Change a Log Analytics alert rule in Health Log Analytics](hla-op-defined-alert-modify-sow.md).
+

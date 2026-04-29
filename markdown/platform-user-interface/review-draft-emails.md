@@ -1,0 +1,62 @@
+---
+title: Review email drafts from the full email composer
+description: View emails saved for later or create a new email while saving your current draft automatically from the full email composer.
+locale: en-US
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Full email composer, Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+---
+
+# Review email drafts from the full email composer
+
+View emails saved for later or create a new email while saving your current draft automatically from the full email composer.
+
+## Before you begin
+
+Role required: workspace\_user
+
+## Procedure
+
+1.  Open a Workspace record in your instance.
+
+2.  Open the full email composer by selecting the More actions icon \(![More actions icon](../image/x-more-actions-icon.png)\) from the record view, and then select **Compose Email**.
+
+3.  **Note:** Instead of a button to save email drafts manually, drafts save automatically.
+
+    Access your drafts by selecting the drafts icon \(![Drafts icon](../image/x-mini-drafts-icon.png)\) from the email footer.
+
+    A modal opens with a list of actions and email drafts.
+
+    ![View drafts modal](../image/xs2-drafts-modal.png)
+
+4.  Select an action or recent draft.
+
+    -   View all of your email drafts by selecting **Manage drafts**.
+    -   Create a new draft while saving your current draft automatically by selecting **Create new email**.
+5.  Create a new draft while saving your current draft automatically by selecting **Create new email**.
+
+6.  Open a draft after previewing it.
+
+    1.  Select a draft from the Email drafts list.
+
+        A preview of the draft opens.
+
+    2.  Select **Apply**.
+
+7.  Open a draft from the Manage drafts modal.
+
+    1.  Open the Manage drafts modal by selecting **Manage drafts** from the menu.
+
+    2.  Select a draft from the list.
+
+8.  Delete multiple drafts from the Manage drafts modal.
+
+    1.  Open the Manage drafts modal by selecting **Manage drafts** from the menu.
+
+    2.  Select drafts from the list.
+
+    3.  Select **Delete**.
+
+

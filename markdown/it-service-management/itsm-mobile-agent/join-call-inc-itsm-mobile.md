@@ -1,0 +1,48 @@
+---
+title: Join an active conference call from an incident
+description: You can join an active conference call from an incident to discuss about the resolution of an incident.
+locale: en-US
+release: australia
+product: ITSM Mobile Agent
+classification: itsm-mobile-agent
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Collaboration with incidents, My incidents, Managing incidents and tasks using My Work applet, ITSM Mobile Agent, IT Service Management]
+---
+
+# Join an active conference call from an incident
+
+You can join an active conference call from an incident to discuss about the resolution of an incident.
+
+## Before you begin
+
+Role required: itil, itil\_admin, or admin
+
+## Procedure
+
+1.  Open ITSM Mobile Agent app.
+
+2.  In **My work** tab, tap **See All**.
+
+    ![My work.](../image/my-work-itsm-mobile.png)
+
+3.  Open the incident where the conference call is originated.
+
+4.  Tap **Collaborate**.
+
+    ![My work.](../image/incident-collaborate-itsm-mobile.png)
+
+5.  Tap on the active conference call.
+
+    ![My work.](../image/active-call-inc-itsm-mobile.png)
+
+6.  Tap on the conference call.
+
+7.  Tap **Join call**.
+
+    ![Join active conf call](../image/join-call-inc-itsm-mobile2.png)
+
+
+**Parent Topic:**[Collaboration with incidents](../concept/collaboration-incident-itsm-mobile.md)
+

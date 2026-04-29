@@ -1,0 +1,46 @@
+---
+title: View and edit your product requests
+description: View all your product requests, track their statuses, and edit your existing requests. You can also manage the approvers for your request.
+locale: en-US
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Using Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# View and edit your product requests
+
+View all your product requests, track their statuses, and edit your existing requests. You can also manage the approvers for your request.
+
+## Before you begin
+
+**Important:**
+
+Starting with the Xanadu release, the legacy Technology Reference Model module has been deprecated from Enterprise Architecture \(formerly Application Portfolio Management\). However, if you’re an existing user of Enterprise Architecture \(formerly Application Portfolio Management\), you can still use the legacy Technology Reference Model module. If you’re a new activation user, the legacy Technology Reference Model module isn’t available.
+
+You can leverage the same functionality by using the Enterprise Architecture Workspace. To learn more, see [View or update your TRM requests](eaw-task/eaw-view-update-trm-requests.md).
+
+Role required: sn\_apm.apm\_user
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Enterprise Architecture** &gt; **Technology Reference Model** &gt; **My Product Requests**.
+
+    You can see all your product requests and their approval status.
+
+2.  Click the name of an existing product request that you want to edit.
+
+3.  On the Request TRM Product form, fill in the details.
+
+    For field information, see [Request TRM product form](../reference/trm-product-request-form.md).
+
+4.  In the Approvers section, add or edit approvers for your request.
+
+    -   To add a new approver, click **New**.
+    -   To manage approvers for your request, click **Edit**.
+5.  Submit the changes by clicking **Update**.
+
+
+**Parent Topic:**[Using Enterprise Architecture \(formerly Application Portfolio Management\)](../concept/using-apm.md)
+
