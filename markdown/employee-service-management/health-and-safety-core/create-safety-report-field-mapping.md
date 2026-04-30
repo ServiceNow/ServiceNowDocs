@@ -1,0 +1,179 @@
+---
+title: Create a safety report field mapping
+description: Create a safety report field mapping to map fields in your reporting PDF template to the corresponding fields in the Health and Safety records.
+locale: en-US
+release: xanadu
+product: Health and Safety Core
+classification: health-and-safety-core
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 5
+breadcrumb: [Configure settings, Health and Safety Core, Health and Safety, Employee Service Management]
+---
+
+# Create a safety report field mapping
+
+Create a safety report field mapping to map fields in your reporting PDF template to the corresponding fields in the Health and Safety records.
+
+## Before you begin
+
+-   The imported reporting PDF template, that you want to create the mapping for, must be fillable.
+-   The Health and Safety table to be mapped is enabled for report field mapping. For more information, see [Enable a Health and Safety table for configuring report field mapping](enable-hs-table-report-field-mapping.md).
+
+Role required: sn\_ohs\_im.report\_mapping\_manager
+
+## About this task
+
+The report field mapping enables you to do the following:
+
+-   Import your own PDF templates that you need to use for reporting such as for regional conformance or industry-specific needs.
+-   Map the fields in your reporting PDF template with the fields in safety records, such as an incident, observation, and injury and illness.
+-   Using the PDF template, generate reports from safety records with fields auto-populated, making the reporting process more efficient.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
+
+2.  Select the configuration icon \(![Configuration icon](../../hs-risk-management/image/icon-config.png)\).
+
+3.  In the **Configuration** tab, select **Report field mappings** and then **All**.
+
+4.  Create a report field mapping or modify an existing one.
+
+    -   To create a report field mapping, select **New**.
+    -   To review an existing one, open the one that you want to configure.
+5.  On the form, fill in the fields.
+
+<table id="table_hs_report_mapping"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+System-generated unique number for the report field mapping.
+
+</td></tr><tr><td>
+
+Location
+
+</td><td>
+
+Location that this report field mapping applies to.
+
+</td></tr><tr><td>
+
+Short description
+
+</td><td>
+
+Brief description about the report field mapping.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+State of the report field mapping.-   **Draft**: Select to perform mappings in the Form Field Mapping tab.​
+-   **Published**: Select to publish and mark this mapping available for use.
+
+Only the published mappings are available to select during report generation.
+
+-   **Obsolete**: Select to mark this mapping as obsolete.
+
+
+</td></tr><tr><td>
+
+Mapping table
+
+</td><td>
+
+Health and Safety table to map PDF fields to, for example, Health and Safety incident \[sn\_ohs\_im\_incident\] or Injury and illness \[sn\_ohs\_im\_injury\_illness\].Only the tables enabled for report field mapping appear in this field.
+
+</td></tr><tr><td>
+
+PDF document
+
+</td><td>
+
+PDF template that you need to use for reporting and map the safety record fields to. Select **Attach file** to import the reporting PDF template.
+
+</td></tr></tbody>
+</table>6.  Select **Save**.
+
+    The **Form field mapping** tab appears. The **Field mappings** section shows all fields extracted from the imported PDF. A preview of the attached PDF is available alongside the **Field mappings**.
+
+7.  In the **Field Mappings** section, map Health and Safety fields to each field extracted from the PDF.
+
+    **Tip:** In the PDF preview, select a fillable field to highlight the corresponding field in the Field Mappings list. Alternatively, select a field in the Field Mappings list and it’s highlighted on the PDF preview.
+
+<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d63486e308">
+
+Option
+
+</th><th align="left" id="d63486e311">
+
+Steps
+
+</th></tr></thead><tbody><tr><td id="d63486e317">
+
+**Using the Health and Safety field list**
+
+</td><td>
+
+In the list available with each field name, select a Health and Safety field to map to.The list displays fields from the selected Health and Safety mapping table.
+
+However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US).
+
+</td></tr><tr><td id="d63486e343">
+
+**Using a custom script**
+
+</td><td>
+
+Select the more options icon \(![More options icon](../../wsd-for-mobile/images/more-options-icon.png)\) beside the field mapping and then select **Add script**. The **Edit script** dialog box includes a few examples for your reference. You must provide the correct table, field names, and so on, in your script, and modify as you require for the mapping.
+
+**Note:** This scripting is done within the Health and Safety application scope.
+
+Each mapping can be scripted using the script capability on each field. It enables the field to be mapped in a certain way using a custom logic or perform any type of data transformation on the field value, as needed.
+
+</td></tr></tbody>
+</table>8.  Check that the field mappings are active.​
+
+    To deactivate a field mapping, select the more options icon \(![More options icon](../../wsd-for-mobile/images/more-options-icon.png)\) beside the field mapping and then select **Deactivate**.
+
+9.  Select **Save**.
+
+
+## Result
+
+-   The fields in the imported reporting PDF template are mapped to the fields in the selected mapping table.
+-   The published report field mapping is available to select during a report generation in mapped safety table records. For example, see [Generate a report for a safety incident, observation, or injury](generate-report-safety-incident-obsv-injury.md).
+
+**Parent Topic:**[Setting up Health and Safety Core](../../hs-core/concept/setting-up-hs-core.md)
+
+**Related topics**  
+
+
+[Install Health and Safety Core](../../hs-core/task/install-hs-core.md)
+
+[Set up your workplace location data](configure-hs-workplace-location-data.md)
+
+[Enable a Health and Safety table for configuring report field mapping](enable-hs-table-report-field-mapping.md)
+
+[Configure groups for Health and Safety](configure-groups-health-and-safety.md)
+
+[Configure scheduled job to generate frequency rates](configure-job-generate-frequency-rates.md)
+
+[Assign Health and Safety profile to a user](assign-hs-profile-user.md)
+
+[Add a Health and Safety visitor](hs-add-health-safety-visitor.md)
+

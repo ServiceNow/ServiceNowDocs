@@ -1,0 +1,86 @@
+---
+title: Publisher overview for Microsoft in the Software Asset Workspace
+description: View license usage information related to Microsoft in the publisher overview for Microsoft in the Software Asset Workspace.
+locale: en-US
+release: xanadu
+product: Software Asset Management
+classification: software-asset-management
+topic_type: reference
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+---
+
+# Publisher overview for Microsoft in the Software Asset Workspace
+
+View license usage information related to Microsoft in the publisher overview for Microsoft in the Software Asset Workspace.
+
+From the Software Asset Workspace, access the Microsoft publisher overview by navigating to **License usage** &gt; **Publishers** and then selecting **Microsoft** from the list of available software publishers.
+
+Results are updated whenever a new reconciliation result is available.
+
+![Microsoft publisher overview.](../image/publisher-overview-microsoft.png)
+
+You can view a summary of your license usage information in the Summary section of the Microsoft publisher overview.
+
+<table id="table_amj_kvh_rpb"><thead><tr><th>
+
+Report
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+True-up cost
+
+</td><td>
+
+Cost to be compliant based on the average price of rights in your Microsoft software entitlements.
+
+</td></tr><tr><td>
+
+Potential savings
+
+</td><td>
+
+Potential cost savings for your Microsoft licenses.
+
+</td></tr><tr><td>
+
+Actual savings
+
+</td><td>
+
+Actual cost savings for your Microsoft licenses.
+
+</td></tr><tr><td>
+
+Unlicensed entities
+
+</td><td>
+
+Summary of your unlicensed entities.This summary includes the following information:
+
+-   **Unlicensed installs**: Total number of unlicensed Microsoft software installations. Select the number to view the complete list of unlicensed Microsoft software installations.
+-   **Installs requiring action**: Total number of Microsoft software installations that you must take action on. Select the number to view the complete list of these Microsoft software installations.
+-   **Unlicensed subscriptions**: Total number of unlicensed Microsoft subscriptions. Select the number to view the complete list of unlicensed Microsoft subscriptions.
+-   **Unlicensed client access**: Total number of unlicensed Microsoft client access records. Select the number to view the complete list of unlicensed Microsoft client access records.
+
+</td></tr><tr><td>
+
+Progress indicators
+
+</td><td>
+
+Summary of your license compliance progress.This summary includes the following indicators:
+
+-   **Ignored installs**: Total number of Microsoft software installations that were ignored during reclamation. Select the number to view the complete list of ignored Microsoft software installations.
+-   **Removal candidates**: Total number of Microsoft removal candidates. Select the number to view the list of all software removal candidates.
+
+</td></tr></tbody>
+</table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](workbench-publisherfields-workspace.md).
+
+**Parent Topic:**[Software Asset Management publisher pack for Microsoft](../concept/microsoft-publisher-pack.md)
+

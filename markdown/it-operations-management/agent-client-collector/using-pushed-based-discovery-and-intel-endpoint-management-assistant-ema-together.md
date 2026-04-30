@@ -1,0 +1,23 @@
+---
+title: Using push-based Discovery and Intel Endpoint Management Assistant \(EMA\) together
+description: ACC-V can collect data for uses cases with the Intel vPro platform when the Intel EMA application is installed on Windows endpoints. You can install the Intel EMA application from the ServiceNow store. Attributes are stored in the CMDB when enabled. Currently, data for Intel EMA can only be fetched for Windows endpoints.
+locale: en-US
+release: xanadu
+product: Agent Client Collector
+classification: agent-client-collector
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Using Agent Client Collector for Visibility, Agent Client Collector for Visibility, Agent Client Collector, IT Operations Management]
+---
+
+# Using push-based Discovery and Intel Endpoint Management Assistant \(EMA\) together
+
+ACC-V can collect data for uses cases with the Intel vPro® platform when the Intel ® EMA application is installed on Windows endpoints. You can install the Intel EMA application from the ServiceNow store. Attributes are stored in the CMDB when enabled. Currently, data for Intel EMA can only be fetched for Windows endpoints.
+
+The Intel EMA application enables customers to configure access to the Intel Instance from their ServiceNow instance. For example, IT Support groups can open a remote console and perform some actions like power cycle from a ServiceNow incident.
+
+![ACC-V can collect data for uses cases with the Intel vPro platform installed.](../image/intel_SN_platform.png "Intel + ServiceNow platform")
+
+**Parent Topic:**[Using Agent Client Collector for Visibility](acc-v-using-agent-client-collector-for-visibility.md)
+

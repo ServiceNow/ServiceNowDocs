@@ -1,0 +1,95 @@
+---
+title: Manage tools
+description: Manage the tools information that you imported from the MITRE TAXII collections. Tools are legitimate software that are used by threat actors to perform attacks.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 5
+breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
+---
+
+# Manage tools
+
+Manage the tools information that you imported from the MITRE TAXII collections. Tools are legitimate software that are used by threat actors to perform attacks.
+
+## Before you begin
+
+Role required:
+
+-   sn\_ti.admin: delete access
+-   sn\_ti.read: read access
+-   sn\_ti.write: create, write access
+
+## About this task
+
+Tools enable you to know how and when threat actors use them for executing campaigns. Unlike malware, these tools or software packages are often found on a system and have legitimate purposes for power users, administrators, network administrators, or even normal users.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Repository** &gt; **Tools**.
+
+    You can view the listed tools.
+
+2.  Click a tool to view all the associated information.
+
+    In the following illustration, you can view the details for the CARROTBALL tool, its ID, source, and other related information.![View the details for the tools and their related information.](../image/mitre-tools-overview.gif)
+
+3.  To view how these objects are related, click **Show Relationships**.
+
+
+## What to do next
+
+Use the [techniques module](view-techniques.md) to add or modify the tools data.
+
+**Parent Topic:**[MITRE-ATT&amp;CK administration](../concept/mitre-att-ck-administration.md)
+
+**Related topics**  
+
+
+[Get started with MITRE-ATT&amp;CK framework](../reference/get-started-with-mitre.md)
+
+[Understand the MITRE to STIX data model](../reference/understand-the-mitre-to-stix-data-model-mapping.md)
+
+[Domain separation and MITRE-ATT&amp;CK](../reference/domain-separation-and-mitre-att-ck.md)
+
+[Set up the MITRE-ATT&amp;CK framework](setup-mitre-profile.md)
+
+[Manage matrices](view-mitre-collection.md)
+
+[Manage techniques](view-techniques.md)
+
+[Manage mitigations](manage-mitigations.md)
+
+[Manage groups](manage-groups-threat-intel.md)
+
+[Manage malware](manage-malware.md)
+
+[Manage MITRE relationships](manage-mitre-relationships.md)
+
+[Manage CVE and technique mapping](manage-cve-and-technique-mapping.md)
+
+[Extend the MITRE-ATT&amp;CK data](view-and-extend-information.md)
+
+[Define the data source and detection tool mapping](manage-mitre-att-ck-data-sources.md)
+
+[Define the data source and data component mapping](map-the-data-source-and-data-components.md)
+
+[Define the technique detection coverage](define-technique-coverage.md)
+
+[Map your technique detection coverage to a technique](map-technique-coverage.md)
+
+[Define the mitigation coverage](define-the-mitigation-coverage.md)
+
+[Map your mitigation coverage to a technique](map-your-mitigation-coverage-to-a-technique.md)
+
+[Create and map detection rules](create-detection-rules.md)
+
+[Auto-extract technique rules for importing MITRE-ATT&amp;CK information](../concept/auto-extract-technique-rules.md#)
+
+[Review threat group and MITRE-ATT&amp;CK techniques mapping](review-threat-group-and-techniques-mapping.md)
+
+[Threat group to technique heatmap definition](threat-group-to-technique-heatmap-definition.md)
+
+[Review the MITRE-ATT&amp;CK system properties](configure-mitre-att-ck-properties.md)
+

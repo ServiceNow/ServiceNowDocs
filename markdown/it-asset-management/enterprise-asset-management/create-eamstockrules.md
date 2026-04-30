@@ -1,0 +1,127 @@
+---
+title: Create a stock rule for enterprise assets
+description: Create a stock rule to automatically resupply a stockroom based on vendor purchase orders or transfer orders.
+locale: en-US
+release: xanadu
+product: Enterprise Asset Management
+classification: enterprise-asset-management
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 3
+breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+---
+
+# Create a stock rule for enterprise assets
+
+Create a stock rule to automatically resupply a stockroom based on vendor purchase orders or transfer orders.
+
+## Before you begin
+
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
+
+## About this task
+
+Stock rules control what happens when the inventory of a particular asset in a particular stockroom reaches a specified threshold. When available asset quantity drops below a specified quantity, the stock rule automatically creates an enterprise stock order request. Once the enterprise stock order request is created, the enterprise manager goes through the process of sourcing and receiving that order.
+
+If a stock rule is created for an enterprise model that reaches the threshold limit, a notification is sent to the stockroom manager and a stock order request is automatically created.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Inventory** &gt; **Stock rules**.
+
+2.  Select **New**.
+
+    The Create New Stock Rule page opens.
+
+3.  On the form, fill in the details.
+
+<table id="table_d53_4bj_psb"><thead><tr><th>
+
+ 
+
+</th><th>
+
+ 
+
+</th></tr></thead><tbody><tr><td>
+
+Model
+
+</td><td>
+
+Product model to which the rule applies.
+
+</td></tr><tr><td>
+
+Threshold
+
+</td><td>
+
+Quantity that the stock must reach to trigger restocking. For example, enter a threshold of 10 for a laptop computer that should be restocked when inventory drops below 10 in the specified stockroom.**Note:** If a stock rule is created for an enterprise model that reaches the threshold limit, a notification is sent to the stockroom manager and a stock order request is automatically created.
+
+</td></tr><tr><td>
+
+Restocking option
+
+</td><td>
+
+Location where additional supplies should come from.If Procurement is not active, then restocking option is Stockroom only. Otherwise, select one of the following:
+
+-   Stockroom: creates a transfer order to obtain the asset from another stockroom.
+-   Vendor: sends an email to the stockroom manager to order from a vendor. In addition to the email notification, a purchase order and purchase order line item are created.
+
+
+</td></tr><tr><td>
+
+Stockroom
+
+</td><td>
+
+Current physical location of the asset.
+
+</td></tr><tr><td>
+
+Order size
+
+</td><td>
+
+Minimum order quantity for stockroom transfers or vendor purchases. ServiceNow calculates the smallest multiple of the order size needed to restock the item above the threshold. For example, there are 3 laptops in stock with a threshold of 10 and the Stockroom option selected. If the order size is set to 4, the system creates a transfer order for 8 laptops to exceed the threshold and satisfy the rule \(3 in stock + 8 ordered = 11\). When restocking from a vendor, ServiceNow sends an email to the stockroom manager showing the total number of items to order, as multiples of the order size.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Indicates whether this stock rule active \(check box is selected\). Clearing this check box prevents the stock rule from restocking automatically.
+
+</td></tr><tr><td>
+
+OT stock rule
+
+</td><td>
+
+**Important:** This option is available with Enterprise Asset Management version 9.0 and later.
+
+Indicates whether the stock rule was created in the OT Asset Workspace.This check box appears on the stock rule form only for hardware models in both the OT Asset Workspace and Enterprise Asset Workspace. However, only the OT asset manager can select or deselect this check box in the OT Asset Workspace.
+
+</td></tr></tbody>
+</table>4.  Select **Save**.
+
+
+## Result
+
+-   The stock rule that you created appears in the **Stock rules** tab.
+-   If the restocking option was set to **Vendor**, the **Stock orders** tab will be displayed. All the stock orders that are created using this stock rule are listed under the Stock orders tab.
+
+    **Important:** The Stock orders tab is available with Enterprise Asset Management version 9.0 and later.
+
+-   If the restocking option was set to **Stockroom**, the **Transfer orders** tab will be displayed. All the transfers orders created using this stock rule are listed under the **Transfer orders** tab.
+
+    **Important:** The Transfer orders tab is available with Enterprise Asset Management version 9.0 and later.
+
+    For stock orders created through the restocking by a vendor, the stock order tab shows all stock orders generated by that stock rule. But for transfer orders, the tab only displays transfer orders after the upgrade.
+
+
+**Parent Topic:**[Create and manage enterprise asset inventory](../concept/managing-enterprise-asset-inventory.md)
+

@@ -1,0 +1,40 @@
+---
+title: Create a new custom approval summarizer
+description: After you add a new table that has approvals to an instance, you can add a custom activity formatter by creating a new UI macro and then add it to the appropriate form.
+locale: en-US
+release: xanadu
+product: Approvals
+classification: approvals
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Summarizers, Approval summarizer formatter, Classic approvals, Build workflows]
+---
+
+# Create a new custom approval summarizer
+
+After you add a new table that has approvals to an instance, you can add a custom activity formatter by creating a new UI macro and then add it to the appropriate form.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+approval\_summarizer can only be used on approval forms in the global scope.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System UI** &gt; **UI Macros**
+
+2.  Click **New**.
+
+3.  Give the macro a name that follows the summarizer naming convention: `approval_summarizer_<tablename>`
+
+4.  Complete the rest of the form and click **Submit**.
+
+5.  [Create a formatter and add it to a form](https://www.servicenow.com/docs/access?context=t_CreateAFormatter&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US) and add it to the appropriate form.
+
+    To learn more about activity formatters, see [Activity formatter](https://www.servicenow.com/docs/access?context=c_ActivityFormatter&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+
+

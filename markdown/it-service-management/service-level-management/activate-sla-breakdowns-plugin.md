@@ -1,0 +1,75 @@
+---
+title: Activate SLA Breakdown definitions
+description: You can activate the SLA Breakdowns plugin \(com.snc.sla.breakdowns\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+locale: en-US
+release: xanadu
+product: Service Level Management
+classification: service-level-management
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Service Level Management plugins, Configuring Service Level Management, Service Level Management, IT Service Management]
+---
+
+# Activate SLA Breakdown definitions
+
+You can activate the SLA Breakdowns plugin \(com.snc.sla.breakdowns\) if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+SLA Breakdowns plugin \(com.snc.sla.breakdowns\) activates these related plugins if they are not already active.
+
+<table id="table_lhs_r4d_ndb"><thead><tr><th>
+
+Plugin
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Service level management\[com.snc.sla\]
+
+</td><td>
+
+Provides the core SLA functionality.SLA Definitions provide conditions to start, pause, stop, cancel and reset Task SLAs against any Task type.
+
+ In addition, you can specify a schedule on the definition to define the working hours and also a workflow to run against each Task SLA which is typically used to generate notifications.
+
+</td></tr></tbody>
+</table>## Procedure
+
+1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
+
+2.  Find the plugin using the filter criteria and search bar.
+
+    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
+
+3.  Select **Install** to start the installation process.
+
+    **Note:** When domain separation and delegated admin are enabled in an instance, the administrative user must be in the **global** domain. Otherwise, the following error appears: `Application installation is unavailable because another operation is running: Plugin Activation for <plugin name>.`
+
+    You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/plugins/task/find-components.html).
+
+
+-   **[Installed with SLA breakdown definitions](installed-with-sla-breakdowns.md#)**  
+Several types of components are installed with the SLA breakdown definitions.
+
+**Parent Topic:**[Service Level Management plugins](../concept/sla-plugins.md)
+
+**Related topics**  
+
+
+[Activate Service Level Management](../task/activate-sla-plugin.md)
+
+[Activate SLA timeline](../task/t_ActivateSLATimeline.md)
+
+[Activate Service Level Management - SLA Timer Config API](../task/activate-sla-timer-config-api.md)
+
+[List of plugins \(Xanadu\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+

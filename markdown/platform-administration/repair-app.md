@@ -1,0 +1,46 @@
+---
+title: Repair a ServiceNow application
+description: Repair a ServiceNow application by reinstalling it.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Use, Legacy Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+---
+
+# Repair a ServiceNow application
+
+Repair a ServiceNow application by reinstalling it.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
+
+2.  Select the **Installed** option.
+
+    All the installed apps are displayed.
+
+3.  Select an application tile to navigate to the details page of the application.
+
+4.  In the **Quick Actions** list, select **Repair**.
+
+
+## Result
+
+The application and its dependencies are reinstalled.
+
+**Note:**
+
+-   When repairing an application with a customization, the customization is repaired as well, unless it's linked to a source control repository.
+-   It is assumed the complete set of customizations for an application is within the application customization. When repairing, installing, or upgrading the underlying application or plugin that has an associated app customization, changes made outside of that application customization are overwritten.
+
+    With a repair, all the files with sys\_update\_xml records are added to the remote update set. The remote update set is named with the format: "Repair/Upgrade app &lt;app scope name&gt; at &lt;timestamp&gt;".
+
+
+**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+

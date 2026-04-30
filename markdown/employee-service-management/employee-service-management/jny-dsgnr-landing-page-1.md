@@ -1,0 +1,59 @@
+---
+title: Journey designer
+description: The ServiceNow Journey designer application enables employees and managers in your organization to initiate and manage journeys to drive employee engagement and productivity.
+locale: en-US
+release: xanadu
+topic_type: concept
+last_updated: "2024-08-07"
+reading_time_minutes: 1
+---
+
+# Journey designer
+
+The ServiceNow® Journey designer application enables employees and managers in your organization to initiate and manage journeys to drive employee engagement and productivity.
+
+Journey designer Getting started
+
+Journey designer uses Journey Accelerator and Lifecycle Events to create a unified journey experience for employees and managers in the Employee Center. Journeys offer a unique user experience. In the back-end, records are created using Journey designer, Journey Accelerator, and Lifecycle Events components to pull together a customized journey for employees.
+
+<table id="jny-dsgn-info-model-table" class="nav-card"><tbody><tr><td>
+
+[Explore ![](../image/icon-explore-02.png) Learn how Journey designer helps facilitate journey creation, management, and completion.](jny-dsgnr-explore.md)
+
+</td><td>
+
+[Install ![](../../../common/image/icon-install.png) Install the Journey designer app and its features.](jny-inst-config-overview.md)
+
+</td><td>
+
+[Configure ![](../../../common/image/icon-set-up.png) Configure Journey designer](jny-dsgnr-configuration.md)
+
+</td></tr><tr><td>
+
+[Use ![](../../../common/image/icon-workspace.png) Managers, mentors, and employees work with journeys from the Employee Center.](jny-working-with-journeys.md)
+
+</td><td>
+
+[Integrate ![](../../../common/image/icon-integrate.png) Extend Journey designer capabilities by integrating with other applications.](jny-integrations-1.md)
+
+</td><td>
+
+[Journey plan configuration review and approval process ![](../image/workflow-collaboration.jpg) Create, manage, and use Journey designer plan configuration templates](jny-process-owners-maint.md)
+
+</td></tr><tr><td>
+
+[Journeys on Now Mobile ![](../image/icon-hrsd-mobile.png)](journeys-mobile-now.md)
+
+</td><td>
+
+[Analytics and Reporting Solutions ![](../image/icon-report.png) Monitor journey data in reports and dashboards.](../reference/jny-report-dashboards.md)
+
+</td><td>
+
+[Reference ![](../../../common/image/icon-reference.png) Get details about components like roles, fields, tables, and properties.](../reference/jny-dsnr-reference.md)
+
+</td></tr></tbody>
+</table>## Request apps on the Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+

@@ -1,0 +1,24 @@
+---
+title: Invoice error staging table
+description: The Invoice error \[sn\_spend\_intg\_import\_error\] staging table temporarily stores important data on errors before this data is sent to the primary table.
+locale: en-US
+release: xanadu
+product: Source-to-Pay Integration Framework
+classification: source-to-pay-integration-framework
+topic_type: reference
+last_updated: "2024-09-04"
+reading_time_minutes: 1
+breadcrumb: [Outbound staging tables for Accounts Payable Operations, Outbound staging tables for Source-to-Pay Operations, Source-to-Pay integration framework, Source-to-Pay integration with third-party applications, Source-to-Pay Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+---
+
+# Invoice error staging table
+
+The Invoice error \[sn\_spend\_intg\_import\_error\] staging table temporarily stores important data on errors before this data is sent to the primary table.
+
+|Field|Data type|Description|
+|-----|---------|-----------|
+|Supplier invoice number|String|Unique invoice number created by the supplier.|
+|Supplier invoice line number|String|Unique identifier for each line item on a supplier invoice.|
+|Sales order number|String|Unique identifier for a customer's purchase.|
+|Sales order line number|String|Unique identifier for each item on a sales order.|
+

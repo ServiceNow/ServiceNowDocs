@@ -1,0 +1,68 @@
+---
+title: Building no-code applications
+description: Create and manage custom applications in a simple, no-code environment.
+locale: en-US
+release: xanadu
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 3
+breadcrumb: [Developing your application, Building applications]
+---
+
+# Building no-code applications
+
+Create and manage custom applications in a simple, no-code environment.
+
+[Creator Studio](../../creator-studio/concept/creator-studio-landing.md)
+
+Have you ever wanted to create an application, but you don't know how to code? Then Creator Studio was designed for you!
+
+## Which builder should I use to create an app?
+
+![Different builders available for different skill levels](../../creator-studio/image/mmasset0020724-appengine-landing.svg "Types of builders")
+
+**Want to build an app easily, without code?**
+
+Creator Studio specializes in helping you craft request-fulfillment applications without writing code. For example, an application to request office supplies by filling out a form, and someone approves or denies your request. For more information, see [Exploring Creator Studio](../../creator-studio/concept/exploring-creator-studio.md).
+
+**Need a more general app but still want low-code options?**
+
+App Engine Studio lets you build a broader range of apps than Creator Studio without being a programming pro. For more information, see [Exploring App Engine Studio](../../app-engine-studio/concept/exploring-aes.md).
+
+**Are you a developer who wants more control in a centralized user interface?**
+
+Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](../../servicenow-studio/concept/exploring-servicenow-studio.md).
+
+**Are you a developer who wants to use industry-standard development tools and processes?**
+
+The ServiceNow IDE and ServiceNow SDK support developing applications in source code with ServiceNow Fluent, creating JavaScript modules, and using third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code.
+
+The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK uses Visual Studio Code Desktop locally. For more information, see [Building applications in source code](building-applications-source-code.md).
+
+## Related applications and features
+
+-   **[App Engine Management Center](../../app-engine-studio/concept/monitor-requests-using-aemc.md)**
+
+    Track and manage your Creator Studio requests, deployments, applications, and collaborative developers using App Engine Management Center \(AEMC\).
+
+-   **[App Engine Studio](../../app-engine-studio/concept/aes-overview.md)**
+
+    Open Creator Studio apps in AES to build more custom experiences, such as email notifications and additional security.
+
+-   **[Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=xanadu&pubname=xanadu-servicenow-platform&ft:locale=en-US)**
+
+    Create or edit a catalog item using a visual and guided experience.
+
+-   **[Form Builder](../../../administer/form-builder/concept/form-view-configuration.md)**
+
+    Visually create, configure, and customize the different form views for your users using the form editor in Form Builder.
+
+-   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=xanadu&pubname=xanadu-build-workflows&ft:locale=en-US)**
+
+    Integrate workflow authoring, configuring, and monitoring into a single-page experience.
+
+-   **[Workspace](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=xanadu&pubname=xanadu-platform-user-interface&ft:locale=en-US)**
+
+    Address customer requests and issues in a workspace, which provides a suite of tools where agents, case managers, help desk professionals, and managers work with tools to resolve customer needs.
+
+

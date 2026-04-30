@@ -1,0 +1,274 @@
+---
+title: Create product offerings
+description: Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings become available to order agents when creating leads, opportunities, quotes, and orders.
+locale: en-US
+release: xanadu
+product: Sales and Order Management
+classification: sales-and-order-management
+topic_type: task
+last_updated: "2024-05-30"
+reading_time_minutes: 4
+breadcrumb: [Configuring product offerings and catalogs, Configuring Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+---
+
+# Create product offerings
+
+Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings become available to order agents when creating leads, opportunities, quotes, and orders.
+
+## Before you begin
+
+Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+
+## Procedure
+
+1.  In the CSM Configurable Workspace, select the **List** ![](../image/Lists.png) view.
+
+2.  Navigate to **Offerings** &gt; **Product Offerings** and select **New**.
+
+    **Note:** You can also create a product offering from the product specification.
+
+3.  In the Details tab, fill in the fields.
+
+<table id="table_customer_order_workspace"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+System-assigned number for the product offering.
+
+</td></tr><tr><td>
+
+Name
+
+</td><td>
+
+Alternative name for the product offering to help differentiate it from similar product names.
+
+</td></tr><tr><td>
+
+Display Name
+
+</td><td>
+
+Name of the product offering that is added.
+
+</td></tr><tr><td>
+
+Offering Type
+
+</td><td>
+
+Type of product offer. Select one of the following:-   Product: A product entity that an agent can add to an order using the CSM Configurable Workspace.
+-   Entitlement: An entity such as a warranty or subscription that can be added to an order by an agent.
+
+
+</td></tr><tr><td>
+
+Offering sub-type
+
+</td><td>
+
+Type of entitlement:-   Warranty
+-   Extended warranty
+-   License
+-   Subscription
+
+
+</td></tr><tr><td>
+
+Product specification
+
+</td><td>
+
+Functional view of a product offering that drives order fulfillment.
+
+</td></tr><tr><td>
+
+Product model
+
+</td><td>
+
+Name of the product model.
+
+</td></tr><tr><td>
+
+Create contract
+
+</td><td>
+
+Option indicating to agents that entitlement contracts can be added to the product order. If selected, service contracts are created after order fulfillment. Used when entitlements are managed as contracts.
+
+</td></tr><tr><td>
+
+Sellable
+
+</td><td>
+
+Option indicating that the product offering can be sold as a standalone item. If selected, the product offering can be sold as a standalone item. If not selected, the product offering can be sold as part of bundle but not as a standalone item.
+
+</td></tr><tr><td>
+
+Pricing method
+
+</td><td>
+
+Pricing method for the product:-   One-time: A single fee for the product.
+-   Recurring: A fee that occurs at scheduled intervals. You can set the periodicity for a recurring fee.
+
+
+</td></tr><tr><td>
+
+Periodicity
+
+</td><td>
+
+Recurring pricing: Monthly or annually.
+
+</td></tr><tr><td>
+
+Copy child specification characteristics
+
+</td><td>
+
+Option that when selected copies all child specification characteristics in a specification hierarchy. For example, if the product offer has an associated product specification, selecting this option indicates that the characteristics are inherited from the child specifications in addition to the parent specification.Displays when a product specification for a composite product is entered and the product offering is saved.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Short description of the product offering. The description helps the order agent understand the product when placing an order.
+
+</td></tr><tr><td>
+
+Offering Catalog
+
+</td><td>
+
+Catalog that contains the product offering.
+
+</td></tr><tr><td>
+
+Start Date
+
+</td><td>
+
+Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(![](../image/field-calendar.png)\) to choose the start date and time, then select **OK**.
+
+</td></tr><tr><td>
+
+End Date
+
+</td><td>
+
+Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(![](../image/field-calendar.png)\) to choose the end date and time, then select **OK**.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+State of the product offering. States include In Draft, Published, Retired, and Archived. You can update product offerings In Draft state.
+
+</td></tr><tr><td>
+
+Distribution channel
+
+</td><td>
+
+Option to set and lock in a distribution channel. For example, you can specify web as a channel. You can specify multiple channels.If you're using the Service Exchange Order Management for Providers application, enter Service Exchange.
+
+</td></tr><tr><td>
+
+Owner
+
+</td><td>
+
+Person responsible for the product offering.
+
+</td></tr><tr><td>
+
+Monthly recurring charges
+
+</td><td>
+
+Charges that recur every month. Monthly recurring charges are supported for backward compatibility. Use price lists to define prices.
+
+</td></tr><tr><td>
+
+Non recurring charges
+
+</td><td>
+
+Charges that are applied once. Supported for backward compatibility. Use price lists to define prices.
+
+</td></tr><tr><td>
+
+Code
+
+</td><td>
+
+System-generated alphanumeric number based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry specific product codes.
+
+</td></tr><tr><td>
+
+Version
+
+</td><td>
+
+Version number that is assigned to this product offering version.
+
+</td></tr><tr><td>
+
+Initial version
+
+</td><td>
+
+Name of the initial version of the product offering.
+
+</td></tr><tr><td>
+
+Previous version
+
+</td><td>
+
+Several versions of a product offering can exist. This field lets you view previous versions.
+
+</td></tr><tr><td>
+
+Contract term
+
+</td><td>
+
+Length of the contract:-   12 months
+-   24 months
+-   36 months
+-   48 months
+-   60 months
+
+
+</td></tr></tbody>
+</table>4.  Select **Save** and then select **Publish**.
+
+
+## What to do next
+
+-   [Create product characteristics and characteristic options](som-product-config-add-characteristics.md)
+-   [Add product visuals](som-product-config-add-visuals.md)
+-   [Add product catalog categories](som-product-config-offering-categories.md)
+-   [Add related contracts to product offerings](som-product-config-related-contracts.md)
+-   [Add a unit of measure to a product offering](som-product-config-add-unit-of-measure.md)
+-   [Create a product offering version](som-product-config-create-new-version.md)
+-   [Create product offering relationship groups](som-product-config-relationship-groups.md)
+

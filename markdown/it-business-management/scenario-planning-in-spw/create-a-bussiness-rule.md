@@ -1,0 +1,67 @@
+---
+title: Create a business rule to apply a custom table map configuration
+description: Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
+locale: en-US
+release: xanadu
+product: Scenario Planning in SPW
+classification: scenario-planning-in-spw
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Create a table map, Create custom mapping configurations, Configuring Strategic Planning with PPM, Agile 2.0, and SAFe, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Create a business rule to apply a custom table map configuration
+
+Create a business rule to enable import for your new custom table map configuration from Agile Development 2.0, SAFe, and PPM applications.
+
+## Before you begin
+
+Role required: sn\_align\_core\_apw.admin
+
+## About this task
+
+After you create a custom table map in Strategic Planning integrations, create a business rule similar to 'Sync Data from Execution to Alignment' business rule in the rm\_epic or dmn\_demand tables.
+
+**Note:** Ensure that the business rule is created in the execution application, such as Agile Development 2.0, SAFe, or PPM.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Definition** &gt; **Business Rules**.
+
+2.  From the list of available business rules, locate and open the Sync Data from Execution to Alignment rule.
+
+3.  From the context menu \(![Context menu icon.](../images/context-menu-icon.png)\), perform an Insert and Stay operation on this business rule.
+
+    If you have not enabled the **Insert and Stay** action in your ServiceNow instance, see [Allow insert options on records](https://www.servicenow.com/docs/access?context=advanced-form-administration&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US).
+
+4.  On the business rule form, edit the following fields.
+
+<table id="table_hpg_yjj_hmb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Unique name for the business rule. For example, if your new table map is to map demands, name this rule as Sync Demands with Strategic Planning.
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Select the table for which you've created the custom map.For example, Feature \[sn\_safe\_feature\].
+
+</td></tr></tbody>
+</table>5.  Click **Update**.
+
+

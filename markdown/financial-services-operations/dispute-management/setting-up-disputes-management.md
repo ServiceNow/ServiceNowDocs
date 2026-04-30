@@ -1,0 +1,62 @@
+---
+title: Setting up Dispute Management
+description: Set up your Dispute Management implementation by installing the required plugins.
+locale: en-US
+release: xanadu
+product: Dispute Management
+classification: dispute-management
+topic_type: concept
+last_updated: "2024-09-27"
+reading_time_minutes: 2
+breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Setting up Dispute Management
+
+Set up your Dispute Management implementation by installing the required plugins.
+
+## Configuration overview
+
+-   [Install Financial Services Card Operations](../../fso-card-operations/task/install-fso-card-ops.md)
+
+    Set up your implementation for Financial Services Card Operations by installing the application, importing financial services data, and reviewing and configuring the application's components.
+
+-   [Set up Visa Spoke](https://www.servicenow.com/docs/access?context=set-up-visa-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
+    Install Visa Spoke if Visa is your card payment network provider. Use the spoke to manage card disputes with Visa Resolve Online \(VROL\). Leverage Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
+
+-   [Install Financial Services Operations Integration with Visa](../../fso-visa-spoke/task/install-financial-services-operations-integration-with-visa.md)
+
+    Install the Visa Integration plugin if Visa is your card payment network provider. This plugin installs Visa Spoke which is a dependent plugin if it is not already installed. Manage dispute lifecycle with events like case creation and submit questionnaires amongst others. Data model elements to capture the information used at sub-flows.
+
+-   [Install the Dispute Rules Content Pack for Visa](../../dispute-content-pack-for-visa/task/install-dispute-rules-content-pack-for-visa.md)
+
+    Dispute Rules Content Pack for Visa provides the questionnaire for intake of a dispute and dispute categorization rules as per Visa guidelines. Run chargeback eligibility rules based on Visa Core Rules and Visa Product and Service Rules.
+
+-   [Set up Verifi Spoke](https://www.servicenow.com/docs/access?context=set-up-verifi-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
+    Use Verifi Spoke to integrate with the Verifi CDRN API suite and perform API calls to perform early dispute resolution.
+
+-   [Set up Mastercard spoke](https://www.servicenow.com/docs/access?context=set-up-mastercard-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
+    Install Mastercard Spoke if Mastercard is your card payment network provider. Use the spoke to manage card disputes with Mastercard. Leverage Mastercard spoke actions, to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
+
+-   [Set up Ethoca spoke](https://www.servicenow.com/docs/access?context=set-up-ethoca-spoke&version=xanadu&pubname=xanadu-integrate-applications&ft:locale=en-US)
+
+    Use the Ethoca spoke to integrate with Ethoca Consumer Clarity APIs.
+
+-   [Install the Dispute Rules Content Pack for Mastercard](../../dispute-content-pack-for-mastercard/task/configuring-the-dispute-rules-content-pack-for-mastercard.md#)
+
+    Dispute Rules Content Pack for Mastercard provides the questionnaire for intake of a dispute and dispute categorization rules as per Mastercard guidelines. Run chargeback eligibility rules based on Mastercard Rules.
+
+-   [Install the Dispute Content Pack for US Regulations](../../dispute-content-pack-US-regulation/task/install-the-dispute-content-pack-for-us-regulations.md)
+
+    Dispute Content Pack for US Regulations is designed to support monitoring dispute cases effectively and take necessary actions. This application provides SLA definitions pertaining to Regulation E \(Reg E\) and Regulation Z \(Reg Z\) and tracks the dispute cases during the life cycle. Provides SLA definitions for dispute management applications and landing page metrics to track dispute cases that are under risk or breached.
+
+-   \(Optional\) [Install Now Assist for Financial Services Operations \(FSO\)](../../fso-common/task/configure-now-assist-for-fso.md)
+
+    Install Now Assist for Financial Services Operations \(FSO\) to leverage generative AI capabilities to generate dispute summarization.
+
+
+**Parent Topic:**[Dispute Management](dispute-management.md)
+

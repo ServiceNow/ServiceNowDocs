@@ -1,0 +1,48 @@
+---
+title: Activate schedule flows
+description: Activate the schedule flow that interacts with Workday Learning to pull user profile information and tasks into a ServiceNow application.
+locale: en-US
+release: xanadu
+product: HR Service Delivery
+classification: hr-service-delivery
+topic_type: task
+last_updated: "2024-08-12"
+reading_time_minutes: 1
+breadcrumb: [Configure HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+---
+
+# Activate schedule flows
+
+Activate the schedule flow that interacts with Workday Learning to pull user profile information and tasks into a ServiceNow application.
+
+## Before you begin
+
+Role required: sn\_lrn\_workday.admin
+
+## Procedure
+
+1.  Open **Run Trigger Workday Learning Integration**.
+
+2.  Navigate to **Flow Designer** &gt; **Designer**.
+
+3.  Click **Activate**.
+
+4.  In the **Trigger** field, specify the time and interval at which you want to automatically run the scheduled flow.
+
+    This flow in turn triggers the subflows to automate tasks. To customize the sample flow, copy it to the required application scope.
+
+    Available subflows include:
+
+    |Subflow|Description|
+    |-------|-----------|
+    |Assign Course to Workday Learning|Assigns learning courses to the ServiceNow users.|
+    |Pull Courses from Workday Learning|Retrieves details of the learning courses and maps courses from Workday Learning to ServiceNow.|
+    |Pull User Activity from Workday Learning|Retrieves user course activity data from Workday Learning and saves it in the ServiceNow instance.|
+    |Track Approval for Workday Learning|Retrieves details of learning todos from Workday Learning and saves it in the ServiceNow instance.|
+    |Workday Learning User Mapping|Maps users between Workday Learning and ServiceNow instance.|
+
+    **Note:** These subflows are editable. If you want to make changes to the configurations that are shipped along with HR Service Delivery Integration with Workday Learning
+
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Use transform maps](../concept/use-transform-maps-wd-learning.md).
+
+

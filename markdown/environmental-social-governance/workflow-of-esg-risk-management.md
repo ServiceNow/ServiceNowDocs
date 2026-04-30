@@ -1,0 +1,30 @@
+---
+title: Workflow of ESG risk management
+description: To perform risk assessments for your material topics and your entities, the ESG administrator, the ESG risk manager, and the ESG data owner must perform a set of defined steps.
+locale: en-US
+release: xanadu
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 2
+breadcrumb: [Integrating ESG Management with Advanced risk assessment, Integrating ESG Management with other applications, Environmental, Social, and Governance Management]
+---
+
+# Workflow of ESG risk management
+
+To perform risk assessments for your material topics and your entities, the ESG administrator, the ESG risk manager, and the ESG data owner must perform a set of defined steps.
+
+The following steps are necessary to successfully perform your ESG risk assessments.
+
+1.  The system administrator enables the **Migrate to Advanced Risk Assessments** property located under **Advanced Risk Assessment &gt; Administration &gt; Properties**.
+2.  As an ESG administrator, complete the following tasks.
+    1.  Configure the two risk assessment methodologies \(RAMs\) that are provided by default. One RAM is designed for evaluating material topics, while the other is tailored for assessing entities. When you configure the methodologies, you specify the risks that you want to assess such as inherent risk and residual risk. To understand each of these types, refer to [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+    2.  Configure the factors for the risk assessments. Factors are questions that appear during the risk assessment to which the risk assessor responds. To understand more about factors and their types, refer to [Factors in Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=factors&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+3.  As an ESG risk manager, complete the following tasks.
+    1.  Create risk statements and associate entities with the risk statement. To learn how to create a risk statement, refer to [Create a risk statement](https://www.servicenow.com/docs/access?context=t_CreateRiskState&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+    2.  Create risks. To learn how to create a risk, refer to [Generate a risk from a risk statement](https://www.servicenow.com/docs/access?context=t_GenRiskFromRiskFrameProfile&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+    3.  Create a risk assessment scope to define and identify risks for an entity, identify assessors and approvers for assessments, define the frequency of assessments, and initiate the risk assessment. To learn about how to create a risk assessment scope, refer to [Create a risk assessment scope and initiate assessments](https://www.servicenow.com/docs/access?context=create-risk-assess-scope&version=xanadu&pubname=xanadu-governance-risk-compliance&ft:locale=en-US).
+4.  For risk-based assessments, as an ESG data owner, from the Tasks pane in the ESG Workspace, respond to an assessment, review, and submit the assessment for approval if the approvers are defined. If there are no approvers defined, the risk score is rolled up to the risks and entities.
+5.  For object-based assessments, as an ESG program manager, from the Tasks pane in the ESG Workspace, respond to the assessment, review, and submit for the assessment for approval if the approvers are defined.
+
+**Parent Topic:**[Integrating ESG Management with Advanced risk assessment](esg-risk-management.md)
+

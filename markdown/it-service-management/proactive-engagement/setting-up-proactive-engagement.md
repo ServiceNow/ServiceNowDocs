@@ -1,0 +1,59 @@
+---
+title: Setting up Proactive Engagement
+description: Setting up Proactive Engagement enhances the issue resolution capabilities of the organisation to help employees resolve their digital experience issues.
+locale: en-US
+release: xanadu
+product: Proactive Engagement
+classification: proactive-engagement
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Configuring Proactive Engagement, Proactive Engagement, IT Service Management]
+---
+
+# Setting up Proactive Engagement
+
+Setting up Proactive Engagement enhances the issue resolution capabilities of the organisation to help employees resolve their digital experience issues.
+
+## Before you begin
+
+**Note:** Proactive Engagement integrates with ServiceNow DEX to proactively detect the digital experience issues.
+
+-   Activate the Glide Virtual Agent plugin \(Id: com .glide.cs.chatbot\).
+-   Install the ServiceNow Proactive Engagement application from the ServiceNow® Store.
+-   Activate the Remedial actions framework plugin to use remedial actions as a resolution type.
+-   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do).
+-   Review the Proactive Engagement application listing in the ServiceNow® Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+
+**Note:**
+
+To view the Virtual Agent notifications:
+
+-   Set the system property **com.glide.cs.notification\_newuser\_webclient** to **True**.
+-   Navigate to **sys\_cs\_live\_agent\_setup.do?sys\_id=f0acbc4c5f091300e6333654de7313c8** and **enable** the notifications for all users.
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
+
+2.  Find the Proactive Engagement application \(com.snc.proactive\_engagement\) using the filter criteria and search bar.
+
+    **Note:** You can search for the application by its name or ID. If you cannot find the application, you must request it from the ServiceNow® Store. In the list next to the **Install**, the available versions are displayed.
+
+3.  Select a version from the list and select **Install**.
+
+    **Note:** Any dependencies that are installed along with the application are also listed.
+
+4.  If you are prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
+
+5.  If demo data is available and you want to install it, select the **Load demo data** check box.
+
+    Demo data comprises the sample records that describe application features for the common use cases. Load the demo data when you first install the application on a development or test instance.
+
+6.  Select **Install**.
+
+
+**Parent Topic:**[Configuring Proactive Engagement](configuring-proactive-engagement.md)
+

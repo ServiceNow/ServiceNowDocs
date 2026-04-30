@@ -1,0 +1,139 @@
+---
+title: Create an incident task
+description: Create an incident task to communicate with and request work from assignment groups other than the one that is mentioned for the incident.
+locale: en-US
+release: xanadu
+product: Incident Management
+classification: incident-management
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Manage, Incident Management, IT Service Management]
+---
+
+# Create an incident task
+
+Create an incident task to communicate with and request work from assignment groups other than the one that is mentioned for the incident.
+
+## Before you begin
+
+Role required: itil, sn\_incident\_write, or admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
+
+2.  Open the incident record.
+
+3.  In the **Incident Tasks** related list, click **New**.
+
+    If you do not see the **Incident Tasks** related list, you need to add it. For information on how to a related list, refer [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=xanadu&pubname=xanadu-platform-administration&section=t_AddARelatedList&ft:locale=en-US).
+
+    Alternatively, you can also right-click on the header form and on the context menu, select the **Create Incident Task**.
+
+4.  On the form, fill in the fields.
+
+<table id="table_jdm_2hn_23b"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+Unique system-generated incident task number.
+
+</td></tr><tr><td>
+
+Incident
+
+</td><td>
+
+Incident with which the task is associated.
+
+</td></tr><tr><td>
+
+Configuration item
+
+</td><td>
+
+The affected CI.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+The state moves and tracks incident task through several stages of resolution.
+
+</td></tr><tr><td>
+
+Priority
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Assignment group
+
+</td><td>
+
+The group who works on the incident task. If you leave it blank, the incident is automatically assigned.
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+The user to whom the incident task is assigned to work on.**Note:** If the **Assignment group** changes, the **Assigned to** field is cleared.
+
+</td></tr><tr><td>
+
+Short description
+
+</td><td>
+
+A brief description of the incident task.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Detailed explanation on the incident task.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Notes
+
+</td></tr><tr><td>
+
+Work notes list
+
+</td><td>
+
+Users who receive notifications about this incident task when work notes are added. **Note:** You can the add me icon ![Add me icon](../image/add-me.png) to add yourself to the work notes list.
+
+</td></tr><tr><td>
+
+Work notes
+
+</td><td>
+
+Information about how to resolve the incident task, or steps taken to resolve it, if applicable.
+
+</td></tr></tbody>
+</table>5.  Click **Submit**.
+
+

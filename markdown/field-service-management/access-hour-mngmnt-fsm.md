@@ -1,0 +1,29 @@
+---
+title: Field Service Management Access Hours Management
+description: With Field Service Management Access Hours Management, you can schedule work order tasks only during the explicitly defined access hours.
+locale: en-US
+release: xanadu
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+---
+
+# Field Service Management Access Hours Management
+
+With Field Service Management Access Hours Management, you can schedule work order tasks only during the explicitly defined access hours.
+
+Field Service Management Access Hours Management enables you to schedule work order tasks based on the access hours defined in the task. For example, if the access hours mentioned for a work order task are 8 a.m. to 12 p.m., the system takes into account those times while assigning an agent to work on the task. The Access hour feature is enabled for dynamic scheduling. However, administrators or dispatchers can also manually assign work order tasks.
+
+-   **[Assigning work order task with defined access hours](assign-wot-access-hour.md)**  
+Assign work order tasks either automatically within defined access hours through dynamic scheduling or manually outside those hours.
+
+**Parent Topic:**[Using dynamic scheduling](using-dynamic-scheduling.md)
+
+**Related topics**  
+
+
+[Configuring the auto-population of access hours in a work order task](configuring-access-hours.md)
+
+[Assigning work order task with defined access hours](assign-wot-access-hour.md)
+

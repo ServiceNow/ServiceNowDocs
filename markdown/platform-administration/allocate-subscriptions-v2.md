@@ -1,0 +1,44 @@
+---
+title: Allocate subscriptions in Subscription Management
+description: Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer the ServiceNow AI Platform]
+---
+
+# Allocate subscriptions in Subscription Management
+
+Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to Subscription Management in one of the following ways.
+
+    -   Navigate to **Admin** &gt; **Subscription Management**.
+    -   Navigate to **All** &gt; **Subscription Management** &gt; **Subscription Management**.
+2.  Select a product with subscriptions that you want to allocate.
+
+3.  Allocate subscriptions by adding recommended groups based on role type.
+
+    1.  On the details page, select **Add groups**.
+
+    2.  Select the check box next to one or more groups.
+
+        The User group includes all user accounts in the `sys_user` table. The Active user group excludes users who haven't logged in to the instance in the last 365 days, users assigned Web service access only, or users with an empty User ID.
+
+    3.  Select **Add groups**.
+
+
+## Result
+
+Subscriptions are allocated to all group members that grant each member entitlement to use the product. Subscribed users are updated during a daily scheduled job, so it might take up to a day for the changes to be reflected in Subscription Management.
+
+**Parent Topic:**[Managing per-user subscriptions in Subscription Management](../concept/managing-user-subscriptions-v2.md)
+

@@ -1,0 +1,38 @@
+---
+title: Setting up Employee Relations
+description: Set up HR Service Delivery Employee Relations \(ER\) so that your agents can engage with your employees, answer questions, create ER cases, create related records, and resolve issues.
+locale: en-US
+release: xanadu
+product: HR Service Delivery
+classification: hr-service-delivery
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+---
+
+# Setting up Employee Relations
+
+Set up HR Service Delivery Employee Relations \(ER\) so that your agents can engage with your employees, answer questions, create ER cases, create related records, and resolve issues.
+
+To set up ER:
+
+-   Activate the required plugins. For more information, see [Activate Employee Relations](../task/activate-hr-employee-relations.md#).
+-   Configure case restrictions. For details on case restrictions, see [HR Service Delivery Employee Relations case restrictions](hr-er-case-restriction.md).
+-   Create a COE security policy. For information on COE security policies, see [Create a COE security policy](../task/hr-create-coe-security-policy.md).
+-   Configure allegation types and subtypes. For more information, see [HR Service Delivery employee relations allegation types and subtypes](hr-er-allegation-types.md).
+-   Configure assignment rules. For details on assignment rules, see [HR Service Delivery Employee Relations assignment rules](hr-er-assign-rules.md).
+-   Configure matching rules. For more information, see [HR Service Delivery Employee Relations matching rules](hr-er-matching-rules.md).
+-   Set up interview question templates. For information on interview question templates, see [Create an interview question template](hr-er-interview-1.md#).
+
+**Note:** For additional information on tables and roles installed, see [Components installed with HR Service Delivery Employee Relations](../task/activate-hr-employee-relations.md#).
+
+## Employee Relations catalog items
+
+The base system provides the following ER catalog items:
+
+-   Accommodation Request
+-   Report Discrimination
+-   Report Misconduct
+-   Performance improvement plan\(PIP\)
+

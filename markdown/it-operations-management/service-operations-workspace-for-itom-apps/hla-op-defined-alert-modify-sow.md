@@ -1,0 +1,44 @@
+---
+title: Modify a defined Log Analytics alert rule
+description: You can modify a Log Analytics alert rule that you have defined.
+locale: en-US
+release: xanadu
+product: Service Operations Workspace for ITOM Apps
+classification: service-operations-workspace-for-itom-apps
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Adding, changing, or deleting Log Analytics alert rules, Using Service Operations Workspace for ITOM Log Analytics, Using Service Operations Workspace for ITOM, Service Operations Workspace for ITOM, ITOM Health, IT Operations Management]
+---
+
+# Modify a defined Log Analytics alert rule
+
+You can modify a Log Analytics alert rule that you have defined.
+
+## Before you begin
+
+This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, and the Health Log Analytics Viewer application, Version 20.0.4 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+
+Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
+
+## Procedure
+
+1.  Open the **Log viewer** using one of the following methods:
+
+    -   Navigate to **Workspaces** &gt; **Service Operations Workspace** and select the Log Viewer icon \(![Log viewer icon.](../image/icon-log-viewer-sow.png)\).
+    -   While viewing log entries for an alert on the **Surrounding logs** tab, select **Log viewer**.
+2.  Open a defined alert.
+
+    1.  Select the selection icon \(![Selection icon.](../image/icon-selection-sow.png)\) at the top right of the **Log viewer** tab, and then choose **Manage my defined alerts** from the drop-down list.
+
+    2.  From the **Defined alerts** table, select the alert rule that you want to modify.
+
+3.  On the form, update the settings.
+
+    For a description of the settings, see [Add a Log Analytics alert rule](hla-op-alert-rule-add-sow.md).
+
+4.  Select **Save** to save your changes.
+
+
+**Parent Topic:**[Adding, changing, or deleting Log Analytics alert rules](../../service-operations-workspace-itom/concept/hla-alert-rules-manage-sow-itom.md)
+

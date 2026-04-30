@@ -1,0 +1,275 @@
+---
+title: Inbound Purchase Order staging table
+description: The Inbound Purchase Order \[sn\_fcms\_intg\_imp\_order\] staging table temporarily stores important data about purchase orders before this data is sent to the primary table.
+locale: en-US
+release: xanadu
+product: Source-to-Pay Integration Framework
+classification: source-to-pay-integration-framework
+topic_type: reference
+last_updated: "2025-01-30"
+reading_time_minutes: 6
+breadcrumb: [Inbound staging tables for Sourcing and Procurement Operations, Inbound staging tables for Source-to-Pay Operations, Source-to-Pay integration framework, Source-to-Pay integration with third-party applications, Source-to-Pay Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+---
+
+# Inbound Purchase Order staging table
+
+The Inbound Purchase Order \[sn\_fcms\_intg\_imp\_order\] staging table temporarily stores important data about purchase orders before this data is sent to the primary table.
+
+The following table lists fields for the Inbound Purchase Order \[sn\_fcms\_intg\_imp\_order\] staging table.
+
+<table id="table_c23_ss5_hzb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Data type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Blanket order end date
+
+</td><td>
+
+String
+
+</td><td>
+
+Date on which the blanket order is expected to end.If you're unsure of the delivery date of the product, you can provide an estimated time frame, which then creates a blanket order.
+
+</td></tr><tr><td>
+
+Blanket order start date
+
+</td><td>
+
+String
+
+</td><td>
+
+Date on which the blanket order is expected to start.If you're unsure of the delivery date of the product, you can provide an estimated time frame, which then creates a blanket order.
+
+</td></tr><tr><td>
+
+Business owner
+
+</td><td>
+
+String
+
+</td><td>
+
+The user who placed the order.
+
+</td></tr><tr><td>
+
+Cost center
+
+</td><td>
+
+String
+
+</td><td>
+
+Cost center that incurs the expense of the order.
+
+</td></tr><tr><td>
+
+ERP PO number
+
+</td><td>
+
+String
+
+</td><td>
+
+Purchase order number from the ERP system. This is a mandatory field.
+
+</td></tr><tr><td>
+
+ERP source
+
+</td><td>
+
+String
+
+</td><td>
+
+ERP source from which data is imported. For purchase order, receipt, and invoice integrations, the ERP source is determined through the legal entity associated with these records.This is a mandatory field.
+
+</td></tr><tr><td>
+
+Legal entity
+
+</td><td>
+
+String
+
+</td><td>
+
+Legal entity corresponding to a purchase.
+
+</td></tr><tr><td>
+
+Order type
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of the purchase order- Standard or Blanket.
+
+</td></tr><tr><td>
+
+Payment term
+
+</td><td>
+
+String
+
+</td><td>
+
+The agreed upon time and conditions under which a payment to a supplier is made.
+
+</td></tr><tr><td>
+
+PO amount
+
+</td><td>
+
+String
+
+</td><td>
+
+Total amount of the purchase order.
+
+</td></tr><tr><td>
+
+PO amount currency
+
+</td><td>
+
+String
+
+</td><td>
+
+Currency of the purchase order.
+
+</td></tr><tr><td>
+
+PO status
+
+</td><td>
+
+String
+
+</td><td>
+
+Status of the purchase order.
+
+</td></tr><tr><td>
+
+Purchasing organization
+
+</td><td>
+
+String
+
+</td><td>
+
+The organization making the purchase order.
+
+</td></tr><tr><td>
+
+Supplier company name
+
+</td><td>
+
+String
+
+</td><td>
+
+Supplier company name for which the purchase order is generated.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Inbound staging tables for Sourcing and Procurement Operations](../concept/spo-inbound-staging-tables.md)
+
+**Related topics**  
+
+
+[CMDB Model Category Stage inbound staging table](spo-prod-cate-inbound-table.md)
+
+[CMDB Service Model Stage inbound staging table](spo-serv-mod-inbound-table.md)
+
+[CMN Location Stage inbound staging table](spo-loc-inbound-table.md)
+
+[Catalog Import staging table](catalog-import-staging-table.md)
+
+[Catalog Error staging table](catalog-error.md)
+
+[Cost Center Stage inbound staging table](spo-cost-center-inbound-table.md)
+
+[Department Stage inbound staging table](spo-dept-inbound-table.md)
+
+[ERP Plant Address Mapping Stage inbound staging table](spo-erp-plant-address-inbound-table.md)
+
+[FX Currency Stage inbound staging table](spo-fx-currency-inbound-table.md)
+
+[FX Rate Stage inbound staging table](spo-fx-rate-inbound-table.md)
+
+[Fixed asset details stage inbound table](fixed-asset-details-stage-inbound-table.md)
+
+[GL Account Stage inbound staging table](spo-gl-account-inbound-table.md)
+
+[Import Availability Updates inbound staging table](spo-import-avail-inbound-table.md)
+
+[Availability Error staging table](availability-error-staging-table.md)
+
+[Inbound Cost Allocation staging table](spo-cost-alloc-inbound-table.md)
+
+[Inbound Invoice staging table](spo-inbound-invoice-table.md)
+
+[Inbound Purchase Order Line staging table](spo-inbound-pol-table.md)
+
+[Inbound Receipt staging table](spo-inbound-receipt-table.md)
+
+[Legal Entity Stage inbound staging table](spo-legal-entity-inbound-table.md)
+
+[Office Location Stage inbound staging table](spo-office-loc-inbound-table.md)
+
+[Order Acknowledgement staging table](order-acknowledgement-staging-table.md)
+
+[Order Acknowledgement Error staging table](order-acknowledgement-error.md)
+
+[Payment Terms Stage inbound staging table](spo-pay-terms-inbound-table.md)
+
+[Price Import staging table](price-import-staging-table.md)
+
+[Price Error outbound staging table](price-error-staging-table.md)
+
+[Product Model Stage inbound staging table](spo-prod-mod-inbound-table.md)
+
+[Purchase Entity Stage inbound staging table](spo-purch-entity-inbound-table.md)
+
+[Purchase Line Stage inbound staging table](spo-purch-line-stage-inbound-table.md)
+
+[Purchase Requisition staging table](purchase-requisition-staging-table.md)
+
+[Spend Shipment Import inbound staging table](spend-shipment-import-inbound-table.md)
+
+[Shipment Error staging table](shipment-error-staging-table.md)
+
+[Supplier Product Stage inbound staging table](spo-supp-prod-inbound-table.md)
+
+[Third Party Sourcing Registration staging table](third-party-sourcing-registration-staging-table.md)
+
+[Third Party Unit Mapping staging table](third-party-unit-mapping-staging-table.md)
+
+[Third Party Unit staging table](third-party-unit-staging-table.md)
+

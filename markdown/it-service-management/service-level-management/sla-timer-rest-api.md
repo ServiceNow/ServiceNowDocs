@@ -1,0 +1,25 @@
+---
+title: Script Includes installed with SLA Timer Config API
+description: When SLA Timer Config API is activated, script includes are installed.
+locale: en-US
+release: xanadu
+product: Service Level Management
+classification: service-level-management
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Activate Service Level Management - SLA Timer Config API, Service Level Management plugins, Configuring Service Level Management, Service Level Management, IT Service Management]
+---
+
+# Script Includes installed with SLA Timer Config API
+
+When SLA Timer Config API is activated, script includes are installed.
+
+SLA Timer Config API adds the following script includes.
+
+|Script include|Description|
+|--------------|-----------|
+|SLATimerConfigAPI|This script includes provides various functions to process and identify the task SLA that is about to breach.|
+
+**Parent Topic:**[Activate Service Level Management - SLA Timer Config API](../task/activate-sla-timer-config-api.md)
+

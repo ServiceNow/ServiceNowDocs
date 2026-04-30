@@ -1,0 +1,220 @@
+---
+title: Managing financials for planning items in Portfolio Planning
+description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your planning items at required cadence in Portfolio Planning Workspace.
+locale: en-US
+release: xanadu
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 11
+breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Managing financials for planning items in Portfolio Planning
+
+Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your planning items at required cadence in Portfolio Planning Workspace.
+
+The comprehensive financials view helps you to understand planned and actual costs, Forecast \(previously EAC - Estimate At Completion\), Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on, for the selected item. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
+
+Export the financials data from Cost or Baselines comparison view as Microsoft Excel or a CSV file and share it with your stakeholders to review the financial performance of your planning items and portfolio.
+
+## Cost view
+
+Forecast your planned costs, create, and manage cost plans and expense lines to track the financial performance of your planning items, review the latest costs and actuals.
+
+![Financials screen.](../../spw-financials/images/financials-screen.png)
+
+In the Cost screen, you can:
+
+-   As a Project Manager, you have the enhanced visibility and ability to manage the financial data across multiple project levels. Cost view of financials shows cost plans and expense lines from sub-projects, allowing you to track the finances.
+-   The parent project widgets display the consolidated values of forecasted costs and expenses.
+-   Identify and manage costs using the **Project/Demand** column for any sub project or demand directly from Cost view of the parent planning item.
+-   Re-forecast all the cost plan values for future fiscal periods by double-clicking to edit the value in the least time scale view, either by month or by period.
+-   Manage cost plans for your planning items. For more information, see [Add, edit, or delete cost plans](../task/create-cost-plan-pp.md).
+-   Add or edit expense lines for your planning items to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](../task/create-expense-line-pp.md).
+-   Generate labor costs for the fiscal period. For more information, see [Generate labor costs](../task/gen-labor-costs-pp.md).
+-   Create and compare baselines to capture the financial snapshot of your planning items. For more information, see [Create and compare financial baselines for demands and projects](../task/create-compare-baselines-pp.md).
+-   [Configure widgets](../../spw-financials/task/configure-financial-widgets.md) to get a high-level overview of the financial data for your planning item.
+-   All financial details from sub-projects will be aggregated and displayed in the parent project's cost plans and widgets.
+
+**Tip:** Cost view gives you enhanced user experience to customize the left pane columns by using the personalize icon \(![Personalize gear icon.](../../alignment-planner-workspace/images/icon-personalize.png)\) and by saving user preferences to retain the customizations made to hide, view, or adjust columns, time scope viewing, and so on.
+
+## Display modes
+
+On the financials page for a planning item in Portfolio Planning Workspace, you have Display Mode drop-down switch between different modes to view different formats of financial information of your planning items. These views provide the relevant and focused information which helps project managers and funding users to work on the financial planning.
+
+-   Forecast
+-   Budget vs forecast
+-   Planned vs actual
+-   Planned
+
+Users with financial funding role \[sn\_align\_ws.spw.funding\_user\] will see Budget allocation option instead of the Budget vs forecast.
+
+<table id="table_pnt_1wr_bgc"><thead><tr><th>
+
+Mode
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+Forecast
+
+</td><td>
+
+View Actuals, Remaining estimates, and Forecast for the entire scope of the planning items.Use the time scale to view the actuals for the past fiscal periods and planned costs for the current and future fiscal periods.
+
+</td></tr><tr><td>
+
+Budget vs forecast
+
+</td><td>
+
+View the Budget, Actuals, and Variance for the fiscal periods and Forecast values for the entire scope of the planning items.Using this mode, you can:
+
+-   Compare the latest forecasts with the approved budget at different time scales.
+-   View the budget vs actual for past fiscal periods and budget vs planned for current and future fiscal periods at fiscal period level.
+
+</td></tr><tr><td>
+
+Budget allocation \(funding role\)
+
+</td><td>
+
+View the Budget, Actuals, and Variance for the fiscal periods and Forecast values for the entire scope of the planning items. Using this mode, funding users can:
+
+-   View the latest forecast and enter the budget that can they be approved to the work item.
+-   Analyze the variance for the past fiscal periods and work on budget allocation for future fiscal periods.
+-   Compare latest forecast with approved budget and revise the budget, if required.
+
+</td></tr><tr><td>
+
+Planned vs actual
+
+</td><td>
+
+Compare the planned costs with actual expense for the past and current fiscal periods, and view planned costs for the future fiscal periods.
+
+</td></tr><tr><td>
+
+Planned
+
+</td><td>
+
+View only planned costs for the full range and manage the planned costs using the inline editing feature.
+
+</td></tr></tbody>
+</table>**Note:**
+
+-   If you do not see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](../task/enable-fin-budget-ppw.md) and [configure the budget attribute](../task/config-budget-allocation-attribute-ppw.md) at instance level.
+-   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget of your planning items](../task/fin-migrate-budget-scheduled-job-ppw.md).
+
+The last selected view is saved as user preferences.
+
+|User role|Default mode|Role-level access|
+|---------|------------|-----------------|
+|sn\_align\_ws.spw\_funding\_user|Budget Allocation|Allocate and approve budget, manage cost plans and expenses lines.|
+|sn\_align\_ws.spw\_financial\_user|Forecast|Manage cost plans and expense lines.|
+|business\_stakeholder|Forecast|View financial data.|
+
+## Baseline view
+
+[Create a baseline](../../spw-financials/task/create-compare-baselines.md#ol_tgp_v2k_2zb) to capture a snapshot of the financial changes for your planning items. You can create on-demand baselines or at a cadence using a scheduler job.
+
+**Note:** Baselines created on the parent project includes the cost plans and expense lines from all of the child projects. This integrated calculation provides a better breakdown of the financial performance of the projects and sub-projects.
+
+[Compare baselines](../../spw-financials/task/create-compare-baselines.md#ol_lrh_3gk_2zb) to compare the difference in costs between latest status against a baseline or between any two baselines.
+
+**Note:** Each baseline is tagged with a number based on the order that they’re created. The Current Financials baseline captures the financials data in real-time and is always represented with a flag icon \(![Flag icon to indicate current baseline.](../../spw-financials/images/fin-current-baseline-flag.png)\).
+
+The baselines comparison view helps you to understand the variances between the two baselines.
+
+![Baselines comparison view.](../../spw-financials/images/fin-baselines-comparison.png)
+
+Use the widgets when you compare baselines to view:
+
+-   Two dedicated widgets for each baseline displaying the EAC.
+-   Third widget displays the total variance between the EAC values of the selected baselines.
+-   Fourth widget displays the top three variances contributing to the overall variance by cost type.
+
+The widgets and the header rows are color-coded to help you identify the selected baselines.
+
+**Tip:** Switch between different baselines from the comparison view by selecting the name of a baseline from one of the widgets.
+
+When you compare baselines, you get the list of cost plans with their associated costs types, EAC at full scope, and a breakdown view of actual expenses and planned costs.
+
+By default, the time scale of the breakdown view is set to Month.
+
+-   Use the **Time scale** option to view the comparison breakdown view at monthly, quarter, and yearly levels.
+-   Select **Time scope** to filter fiscal periods, data in the widgets, and the comparison table.
+
+The widgets and the header rows are color-coded to help you identify the selected baselines.
+
+**Tip:** Select the name of a baseline from the first or second widget to compare different baselines.
+
+Let's take an example of the comparison view of two baselines: 2023-10-01, Baseline A, and Current Financials, Baseline B.
+
+## How actuals, planned, and EAC are compared between two baselines captured at different timestamps
+
+For a selected baseline, based on the creation date, the table shows Actuals values for the past fiscal periods from the created date and Planned values for the current and future fiscal periods.
+
+Consider a planning item scoped from July 2023 to June 2024. Baseline A is created on 2023-10-01. If you compare the Current Financials baseline in December 2023 to the baseline captured in October 2023:
+
+1.  The baseline comparison view show Actuals vs Actuals columns from July 2023 to September 2023.
+
+    ![Baseline comparison of actual vs actual costs.](../../spw-financials/images/fin-baselines-actuals-vs-actuals.png)
+
+2.  Planned vs Actuals for October 2023 and November 2023.
+
+    ![Baseline comparison of planned vs actual costs.](../../spw-financials/images/fin-baselines-planned-vs-actuals.png)
+
+3.  Planned vs Planned from December 2023 to June 2024.
+
+    ![Baseline comparison of planned vs planned costs.](../../spw-financials/images/fin-baselines-planned-vs-planned.png)
+
+
+**Note:** The columns are defined to calculate EAC, which is the sum of Actual costs till the last fiscal period and Planned costs from current to future fiscal periods.
+
+## Budget allocation
+
+Portfolio managers can manage and approve the budget for planning items. The approved budget helps project managers to plan and meet the expenses to execute work.
+
+Plan and approve the budget for a shorter planning cycle at monthly, quarterly, or yearly level using the lean budgeting and funding feasibility. Lean budgeting helps Portfolio managers to track the value in return for the approved budget and to better plan the budget for future fiscal periods.
+
+**Note:** If the budget is allocated monthly, the total budget is rolled up to quarterly and yearly level. Similarly, if the budget is allocated at a quarterly or yearly level, the equal breakdown happens till monthly level.
+
+For more information on how to allocate, approve, and handle budget for planning items, see, [Manage budget of your planning items in Strategic Planning](../../spw-financials/task/fin-manage-budget-spw.md).
+
+**Tip:** In the budget allocation view, Portfolio managers review the EAC to understand the financial projections made by Project managers and use the **Copy cost as budget** option to allocate the entire planned cost as budget.
+
+Choose the cost type as the attribute to allocate and approve the budget for individual cost types such as labor, non-labor.
+
+Project managers can view the approved budget at the required time scale using the Budget vs forecast option from the display modes. As the work progresses and the actuals are captured, you can compare the budget and actual costs using the Budget vs forecast mode and reforecast the planned costs where the actuals are exceeding the budget using the inline edit feature at the required time scale.
+
+Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, and for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
+
+You can migrate the budget of existing active projects and demands items from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
+
+-   Migrate budget of active projects from Classic UI to Next Experience. For more information, see [Migrate budget of active projects to Next Experience](../../project-management/task/fin-migrate-budget-project-ppm.md).
+-   Migrate budget of active demands from Classic UI to Next Experience. For more information, see [Migrate budget of active demands to Next Experience](../../planning-and-policy/task/fin-migrate-budget-demand.md).
+
+**Note:** The migrated budget is captured in the `sn_invst_pln_invst_budget` table to enable the lean budgeting for required time scope.
+
+## Benefit plans
+
+Monetary benefit plans capture potential benefits accrued while executing a planning item. Non-monetary benefit plans capture the potential non-financial benefits accrued while executing a planning item. You can create and manage [monetary benefit plans](../task/fin-manage-monetary-benefit-plans-ppw.md) and [non-monetary benefit plans](../task/fin-manage-non-monetary-benefit-plans-ppw.md) to capture the potential benefits of your planning items.
+
+## Simple financials
+
+Simple financials gives you the ability to enter the preliminary high-level planned capex, opex, benefit and so on from the Details page without capturing the costs plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
+
+![Simple financials view in the Details page of Strategic Planning workspace.](../../spw-financials/images/fin_simple_financials_spw-ppw.png)
+
+Using the baseline feature, you can capture these simple financial values in a baseline and compare them against any existing baseline. You can:
+
+-   Reforecast simple financials and compare the by selecting the Current Financials from the list of baselines.
+-   Capture the planned and actual expenses as the project progresses and compare any financial baseline with a simple financials baseline to track the financial performance of the planning item.
+

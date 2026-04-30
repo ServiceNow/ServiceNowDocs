@@ -1,0 +1,44 @@
+---
+title: Create document references from document record
+description: Link the document record to other records in any other table or record.
+locale: en-US
+release: xanadu
+product: Document Management Services
+classification: document-management-services
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Document references, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Create document references from document record
+
+Link the document record to other records in any other table or record.
+
+## Before you begin
+
+Role required: none
+
+## Procedure
+
+1.  Navigate to **Documents** &gt; **Documents**.
+
+2.  Select the document.
+
+3.  In the **Document References** tab, select **New**.
+
+    In the dialog box, the **Document** field reflects the document you selected.
+
+4.  In the **Target Record** field, select the Lookup documents using list icon ![Lookup documents using list icon](../image/lookup-icom.png).
+
+5.  In the Select the document dialog box, for the **Table name** field, select the table for the record you want to link the document to.
+
+6.  In the **Document** field, select the Lookup using list icon \(![Lookup using list icon](../image/lookup-icom.png)\) and select the record to which you are linking the document.
+
+7.  Select **OK**.
+
+8.  Select **Submit**.
+
+
+**Parent Topic:**[Document references](../concept/doc-mgt-references.md)
+

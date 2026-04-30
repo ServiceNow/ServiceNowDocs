@@ -1,0 +1,108 @@
+---
+title: Share a dashboard in Strategic Planning
+description: Share a dashboard with stakeholders, planning managers, portfolio managers, or product managers to provide visibility into work progress and foster collaboration. You can grant either view-only rights or both view and edit rights to a shared dashboard.
+locale: en-US
+release: xanadu
+product: Strategic Planning
+classification: strategic-planning
+topic_type: task
+last_updated: "2025-04-09"
+reading_time_minutes: 2
+breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Share a dashboard in Strategic Planning
+
+Share a dashboard with stakeholders, planning managers, portfolio managers, or product managers to provide visibility into work progress and foster collaboration. You can grant either view-only rights or both view and edit rights to a shared dashboard.
+
+## Before you begin
+
+Role required: sn\_align\_core.ap\_read\_only
+
+## About this task
+
+Users or groups you want to share the dashboard with must have the appropriate roles assigned to access shared dashboards:
+
+<table id="table_n3t_gxw_bfc"><thead><tr><th>
+
+Dashboard
+
+</th><th>
+
+Role required
+
+</th></tr></thead><tbody><tr><td>
+
+-   Strategy Execution Dashboard
+-   Execution Dashboard
+
+</td><td>
+
+sn\_align\_core.ap\_read\_only**Note:** To view data in financial-related and capacity-planning-related widgets, users must have the appropriate roles.
+
+</td></tr><tr><td>
+
+-   Product Idea Dashboard
+-   Product Feedback Dashboard
+
+</td><td>
+
+pf\_read
+
+</td></tr></tbody>
+</table>## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Dashboards**.
+
+    By default, the Execution Dashboard appears on the Dashboards page.
+
+2.  From the Change dashboard drop-down, select the dashboard you want to share.
+
+    ![select a dashboard in strategic planning.](../Images/change-dashboard-drop-down.png)
+
+    The selected dashboard appears.
+
+3.  From the dashboard header, select the More actions icon \(![More actions icon in the portfolio plan header.](../../alignment-planner-workspace/images/more-actions.png)\) and then select **Share**.
+
+4.  On the Share Dashboard window, fill the details.
+
+    1.  Enter a user name or group name in the **Grant access to** field to provide access to individual users or user groups, respectively.
+
+        You can also select a role to grant dashboard access to all users assigned that role.
+
+    2.  Select **Allow recipients to add, edit, or delete sharing permissions associated with this dashboard** to enable users to grant access to new users and modify or remove existing permissions.
+
+    3.  Select **Add as viewer** or **Add as editor** as required.
+
+        **Note:** You can select **Add as editor** only if you have the sn\_align\_core.apw\_user role assigned to you.
+
+        The selected users, groups, and roles appear under **Manage Access**.
+
+        You can also manage sharing permissions by selecting a user, group, or role and enabling the **Can share** option.
+
+    4.  Select **Confirm**.
+
+    ![share dashboard in strategic planning.](../Images/share-dashboard-spw.gif)
+
+
+## Result
+
+The roles, groups, and users you have shared the dashboard with appear when you reopen the dialog, along with the rights you have given them.
+
+## What to do next
+
+You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can share list for each user, group, or role.
+
+**Parent Topic:**[Using Dashboards in Strategic Planning Workspace](../concept/using-dashboards-spw.md)
+
+**Related topics**  
+
+
+[View a dashboard in Strategic Planning](view-dashboard-spw.md)
+
+[Create a dashboard in Strategic Planning](create-dashboard-spw.md)
+
+[Duplicate a dashboard in Strategic Planning](copy-dashboard-spw.md)
+
+[Add a Platform Analytics dashboard to Strategic Planning Workspace](add-platform-dashboard-to-spw.md)
+

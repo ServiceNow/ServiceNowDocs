@@ -1,0 +1,49 @@
+---
+title: Configure case action status
+description: The case action status feature enables customer service agents to easily identify cases that need attention and quickly prioritize their work.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+---
+
+# Configure case action status
+
+The case action status feature enables customer service agents to easily identify cases that need attention and quickly prioritize their work.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+Visual indicators in the Action Status column on the case list highlight case status:
+
+-   A blue indicator highlights cases that require attention, such as cases that have been updated by customers or internal users and are waiting for input or review.
+-   A red indicator highlights cases that are blocked, such as cases that have open related task records or are waiting for customer feedback.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
+
+2.  On the Getting Started page of the guided setup, click **Get Started**
+
+3.  In the Case Management category, view the list of tasks to configure the feature.
+
+    |Task|Description|
+    |----|-----------|
+    |Activate Case Action Status|Activate the Case Action Status plugin \(com.snc.csm\_action\_status\) plugin to enable the case action status feature.|
+    |Configure actionable case flows|Enable or disable the actionable case flows that are provided with the Case Action Status plugin.|
+
+4.  To perform a task, click **Configure**.
+
+    This button opens the page in your instance where the configuration is completed.
+
+
+**Related topics**  
+
+
+[Case action status overview](../concept/customer-service-case-action-status.md)
+

@@ -1,0 +1,102 @@
+---
+title: Authentication
+description: The authentication category covers the main elements of modern authentication to confirm an entity and its claims are authentic and correct, resistant to impersonation and prevent interception of passwords.
+locale: en-US
+release: xanadu
+product: Instance Security Hardening Settings
+classification: instance-security-hardening-settings
+topic_type: reference
+last_updated: "2024-08-01"
+reading_time_minutes: 6
+breadcrumb: [Hardening settings, Platform Security]
+---
+
+# Authentication
+
+The authentication category covers the main elements of modern authentication to confirm an entity and its claims are authentic and correct, resistant to impersonation and prevent interception of passwords.
+
+The ASVS standard builds on the [NIST 800-63b \(https://pages.nist.gov/800-63-3/sp800-63b.html\)](https://pages.nist.gov/800-63-3/sp800-63b.html) specification for this section.
+
+Authentication includes password policy, controls and storage, proper implementation of authenticators and proper implementation of out of band or one time verifiers.
+
+-   **[Activate role-based multi-factor authentication \[Updated in Security Center 1.3\]](sc-activate-role-based-multi-factor-authentication.md)**  
+Use the **glide.authenticate.multifactor** property to enforce role-based multi-factor authentication \(MFA\) for all users assigned to specific roles.
+-   **[Anti-CSRF token \(instance security hardening\)](../../security/reference/anti-csrf-token.md)**  
+Use the **glide.security.use\_csrf\_token** property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
+-   **[Enable account recovery \[Updated in Security Center 1.3 and 1.5\]](sc-account-recovery.md)**  
+The **glide.sso.acr.enabled** property controls the account recovery feature.
+-   **[Require obfuscation of classic mobile app UI \[Updated in Security Center 1.3\]](sc-classic-mobile-app-ui-obfuscation.md)**  
+Use the **glide.ui.m.blur\_ui\_when\_backgrounded** property to obfuscate all fields from the snapshot as the image is saved during the backgrounding process.
+-   **[Disable password-less authentication](sc-disable-password-less-authentication.md)**  
+Use the **glide.login.no\_blank\_password** property to prevent users from logging into the ServiceNow AI Platform with blank passwords, or by leaving the **Password** field empty.
+-   **[Do not apply password policy at login \[Updated in Security Center 1.5 and removed in 2.0\]](sc-do-not-apply-password-policy-at-login.md)**  
+Manage how password complexity is handled in your instance.
+-   **[Enable a deny-list password validation check](sc-enable-blacklisted-passwords-validation-check.md)**  
+Manage the deny-list passwords in the Excluded Password table.
+-   **[Enable Captcha for External User Registration \[Updated in Security Center 1.3 and 1.5\]](sc-enable-captcha-external-user-registration.md)**  
+The **sn\_ext\_usr\_reg.captchaEnabled** controls if CAPTCHA will be validated for external user registration.
+-   **[Enable CAPTCHA in password reset](sc-enable-captcha-in-password-reset.md)**  
+Use the **password\_reset.captcha.ignore** property to enable or disable requiring a CAPTCHA challenge when a user resets their password.
+-   **[Enable email OTP for multi-factor authentication](sc-enable-email-otp-for-multi-factor-authentication.md)**  
+Manage how two-factor authentication is applied on your instance.
+-   **[Enable password reset policy checks \[Updated in Security Center 2.0\]](sc-enable-password-reset-policy-checks.md)**  
+Use the **glide.enable.password\_policy** property to enable password policy checks whenever a user changes their password using the user interface.
+-   **[Enable policy based session access for mobile \[New in Security Center 1.5\]](sc-enable-policy-based-session-access-for-mobile.md)**  
+Use the The Zero Trust- Policy Based Session Access plugin to control if users authenticating through a mobile app will have their roles reduced.
+-   **[Enable SSL in LDAP authentication \[Updated in Security Center 1.5 and 2.0\]](sc-enable-ssl-in-ldap-authentication.md)**  
+Manage the encryption of LDAP authentication requests on your instance.
+-   **[Minimize external user registration link expiration duration \[Updated in Security Center 1.3 and 1.5\]](sc-external-user-registration-link-expiration.md)**  
+Manage the number of days that a registration link can be accessed.
+-   **[Managing unlock timeout after failed logins \[Updated in Security Center 1.3\]](sc-managing-failed-login-attempts.md)**  
+Two script actions are available that enable a site administrator to manage the number of times a user can provide an incorrect password before being locked out from the ServiceNow AI Platform. You can enable either of these script actions to manage failed login attempts.
+-   **[Maximize failed login unlock timeout duration \[Updated in Security Center 1.3\]](sc-managing-unlock-timeout-after-failed-logins.md)**  
+A script action is available that enables site administrators to manage the number of times a user can provide an incorrect password before being locked out from the ServiceNow AI Platform. You can enable this script action to manage failed login attempts.
+-   **[Require obfuscation of mobile app UI \[Updated in Security Center 1.3\]](sc-mobile-app-ui-obfuscation.md)**  
+Configure the **glide.sg.blur\_ui\_when\_backgrounded** property so that the UI of the app is blurred when the app is running in the background.
+-   **[Notify users during password reset/change process \[Removed in Security Center 1.5\]](sc-password-reset-change-notification-process.md)**  
+Use this property to enable end users to reset or change passwords using a self-service process.
+-   **[Remove credentials from Welcome page](sc-remove-credentials-welcome-page.md)**  
+Modify the default content on the Welcome page to remove the default credentials.
+-   **[Minimize reset password max SMS per day \[Updated in Security Center 1.3\]](sc-reset-password-max-sms-per-day.md)**  
+Manage the maximum number of SMS codes sent for verification per day by user.
+-   **[Minimize reset password request expiration duration \[Updated in Security Center 1.3\]](sc-reset-password-request-expiration.md)**  
+The **password\_reset.request.expiry** denotes the time period in minutes during which a user must perform the password reset process.
+-   **[Limit Invalid Password Reset Attempts \[Updated in Security Center 1.3 and updated in 2.0\]](sc-reset-password-request-max-attempts.md)**  
+The **password\_reset.request.max\_attempt** is used to control the maximum number of unsuccessful attempts that a user can reset or change their password before being locked out for a specified period of time.
+-   **[Control Lockout Time for Invalid Password Reset Attempts \[Updated in Security Center 1.3 and 2.0\]](sc-reset-password-request-max-attempts-window.md)**  
+The **password\_reset.request.max\_attempt\_window** property controls the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the **password\_reset.request.max\_attempt** property.
+-   **[Maximize reset password request retry window duration \[Updated in Security Center 1.3\]](sc-reset-password-request-retry-window.md)**  
+The **password\_reset.request.retry\_window** property controls the number of minutes before the count for password reset attempts refreshes.
+-   **[Minimize reset password request success window duration \[Updated in Securty Center 1.3\]](sc-reset-password-request-success-window.md)**  
+The **password\_reset.request.success\_window** property controls the number of minutes a user must wait to reset or change their password again after successfully resetting the password. The user will be blocked to reset the password again for the specified duration.
+-   **[Maximize reset password request unlock window duration \[Updated in Security Center 1.3\]](sc-reset-password-request-unlock-window.md)**  
+The **password\_reset.request.unlock\_window** property controls the number of minutes a user must wait to start a reset request after the last successful unlock account action.
+-   **[Maximize reset password SMS complexity \[Updated in Security Center 1.3\]](sc-reset-password-sms-complexity.md)**  
+The **password\_reset.sms.default\_complexity** property controls the minimum required SMS code verification size required during password reset.
+-   **[Minimize reset password SMS expiracy duration \[Updated in Security Center 1.3\]](sc-reset-password-sms-expiracy.md)**  
+Control the number of minutes remaining before the SMS code expires.
+-   **[Maximize reset password SMS pause window duration \[Updated in Security Center 1.3\]](sc-reset-password-sms-pause-window.md)**  
+Manage the time duration in minutes that a user must wait before they can request a new password reset code.
+-   **[Maximize reset password verification delay duration \[Updated in Security Center 1.3\]](sc-reset-password-verification-delay.md)**  
+Configure the delay, in milliseconds, that a user must wait before submitting a new password reset request.
+-   **[Minimize SAML notBefore or notOnOrAfter constraint duration \[Updated in Security Center 1.3 and 1.5\]](sc-saml-notbefore-or-notonorafter-constraint.md)**  
+Configure this property to add a grace period in which SAML requests and responses are considered valid.
+-   **[Disable creating users from incoming emails \[Updated in Securty Center 1.3\]](sc-restrict-emails-by-domain.md)**  
+Use the **glide.user.trusted\_domain** property to specify the comma-separated list of trusted domains used in the creation of users from incoming emails.
+-   **[Activate role based multi-factor authentication \[Updated in Security Center 1.3\]](sc-role-based-multi-factor-authentication.md)**  
+Use the **glide.authenticate.multifactor** property to enforce role-based multi-factor authentication \(MFA\) for all users assigned to specific roles.
+-   **[Set minimal password length \[Removed in Security Center 2.0\]](sc-set-minimal-password-length.md)**  
+Set the minimum length for a user password on your instance.
+-   **[Set OTP lifetime for password reset to 1 hour \[Updated in Security Center 2.0\]](sc-set-otp-lifetime-for-password-reset-to-12-hours-or-less.md)**  
+Control the time duration of the link in the password reset email.
+-   **[Minimize one-time out of band verifier lifetime duration \[Updated in Security Center 1.3\]](sc-short-one-time-out-of-band-verifier-lifetime.md)**  
+Manage the time duration for out-of-band verifiers.
+-   **[Enforce device encryption and passcode requirements \[New in Security Center 1.3\]](sc-enforce-device-encryption-and-passcode-requirements.md)**  
+The **glide.sg.device\_encryption\_enabled** property enforces the Federal Information Processing Standard \(FIPS 140-2\) Encryption. Mobile device encryption and passcode ensure that an unauthorized user cannot access the content of a device even if the device is physically obtained.
+-   **[Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]](sc-require-captcha-for-guest-walk-up-experience-in-customer-service-application.md)**  
+The captcha for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a captcha verification.
+-   **[Enable SMS code notification for enrollment and verification \[Updated in Security Center 1.3\]](sc-sms-code-notification-for-enrollment-and-verification.md)**  
+The **password\_reset.sms.use\_notify** property controls the usage of SMS code notifications for password reset.
+
+**Parent Topic:**[Hardening settings](security-hardening-settings.md)
+

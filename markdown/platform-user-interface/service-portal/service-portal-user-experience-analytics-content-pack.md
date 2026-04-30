@@ -1,0 +1,36 @@
+---
+title: Analytics and Reporting Solutions for Service Portal
+description: Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides metric visualizations to better understand the Service Portal user experience and identify how to improve it.
+locale: en-US
+release: xanadu
+product: Service Portal
+classification: service-portal
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Using portal analytics, Service Portal, Configure UIs and portals, Configure user experiences]
+---
+
+# Analytics and Reporting Solutions for Service Portal
+
+Platform Analytics Solutions contain prepackaged Performance Analytics and Reporting content for use with other ServiceNow AI Platform products. This Platform Analytics Solution provides metric visualizations to better understand the Service Portal user experience and identify how to improve it.
+
+## Required roles
+
+The following roles and tasks are associated with this Solution:
+
+-   ServiceNow AI Platform administrator \(admin\): Install and activate this Analytics and Reporting Solution and make any necessary changes to system properties.
+-   Performance Analytics administrator \(pa\_admin\): Review the indicators, breakdowns, widgets, and dashboards. Set up and start data collection. Share the dashboards with appropriate stakeholders.
+
+For information about additional roles, see [User Experience Analytics roles](../../../build/service-portal/reference/sp-analytics-roles.md).
+
+-   **[User Experience Analytics for Service Portal](../../../build/service-portal/concept/sp-analytics.md)**  
+The User Experience Analytics application provides views for monitoring usage analytics of your Service Portal applications. Visualize metrics and interactions to better understand the Service Portal user experience and identify how to improve it.
+
+**Parent Topic:**[Using portal analytics](../../../build/service-portal/concept/using-portal-analytics.md)
+
+**Related topics**  
+
+
+[Analytics and Reporting Solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics&version=xanadu&pubname=xanadu-now-intelligence&ft:locale=en-US)
+

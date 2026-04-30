@@ -1,0 +1,67 @@
+---
+title: Submit a time card for a demand task
+description: The resources assigned to a demand task create and submit a time card or time sheet to record the time spent on a demand task. The reported hours are used to calculate the actual cost and effort for a demand task.
+locale: en-US
+release: xanadu
+product: Demand Management
+classification: demand-management
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Submit a time card for a demand task
+
+The resources assigned to a demand task create and submit a time card or time sheet to record the time spent on a demand task. The reported hours are used to calculate the actual cost and effort for a demand task.
+
+## Before you begin
+
+Role required: timecard\_user
+
+## About this task
+
+The resource submits the time card or time sheet to record and track the work performed on a demand task. An appropriate approver then has to approve the submitted time card or time sheet.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Time Sheets** &gt; **Time Sheet Portal**.
+
+2.  Create a time card.
+
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d141154e76">
+
+Demand task assignment
+
+</th><th align="left" id="d141154e79">
+
+To create a time card
+
+</th></tr></thead><tbody><tr><td id="d141154e85">
+
+**If a demand task is assigned to you**
+
+</td><td>
+
+1.  Navigate to the task that you want to add to the time sheet.
+2.  Click the **Add to Time Sheet** link in the task.
+
+
+</td></tr><tr><td id="d141154e106">
+
+**If a demand task is assigned to you as an additional assignee**
+
+</td><td>
+
+1.  Click the **Add unassigned tasks to Time Sheet** link next to Logged Time Cards
+2.  In the **Add unassigned tasks to Time Sheet** window, search for and select the demand task from the **Select a Task** list.
+
+
+</td></tr></tbody>
+</table>3.  Fill in the hours for each day spent working on the demand task.
+
+4.  Click **Submit**.
+
+
+**Parent Topic:**[Create a demand](t_CreatingDemands.md)
+

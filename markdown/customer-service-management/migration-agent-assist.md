@@ -1,0 +1,24 @@
+---
+title: Agent assist
+description: Learn about how the Workspace Agent assist functions with Configurable Workspace.
+locale: en-US
+release: xanadu
+topic_type: concept
+last_updated: "2025-02-04"
+reading_time_minutes: 1
+breadcrumb: [Migrate to CSM Configurable Workspace, Migrating to Configurable Workspace, CSM Configurable Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+---
+
+# Agent assist
+
+Learn about how the Workspace Agent assist functions with Configurable Workspace.
+
+Agent assist provides agents with automatic search results that show possible solutions for records they open. Configure Agent assist in Configurable Workspace by configuring a record page with a Glide form data source and a Contextual Sidebar. For more information, see [Agent assist Overview](https://developer.servicenow.com/dev.do#!/reference/now-experience/utah/now-components/sn-agent-assist-uib/overview) on the ServiceNow Developer Site.
+
+**Note:** You may need to log in to the Developer Site to see the content.
+
+For more information about using contextual search for Agent Assist, see the following topics:
+
+-   [Contextual search](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=xanadu&pubname=xanadu-platform-administration&ft:locale=en-US)
+-   
+

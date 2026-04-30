@@ -1,0 +1,476 @@
+---
+title: Spendint API - POST /sn\_spend\_intg/spendint/invoice
+description: Accepts invoices from third-party providers.
+locale: en-US
+release: xanadu
+product: Sourcing and Procurement Operations
+classification: sourcing-and-procurement-operations
+topic_type: reference
+last_updated: "2024-08-01"
+reading_time_minutes: 6
+breadcrumb: [Spendint API, Integrating Sourcing and Procurement Operations with other applications, Sourcing and Procurement Operations, Finance and Supply Chain]
+---
+
+# Spendint API - POST /sn\_spend\_intg/spendint/invoice
+
+Accepts invoices from third-party providers.
+
+If the purchase order and purchase order lines are in the Pending Submission status, and the sales order and sales order lines are not populated, then the shipment and invoice posting from the third-party reseller is not allowed. It is only allowed when the status of the purchase order and purchase order lines are Ordered. Also, there is no sequential restriction on shipment and invoice posting.
+
+After an invoice is submitted, the invoice and invoice lines are mapped to a purchase order. On a successful mapping, the state of the invoice is set as follows:
+
+-   Awaiting Delivery: When no receipts exist, the order is partially delivered, or the invoice requires approval.
+-   Invoice Confirmed: When the purchase order is delivered and the amount invoiced matches the purchase order total amount.
+-   Requires Review: When the purchase order is delivered and the amount invoiced does not match the purchase order total amount.
+
+When a valid invoice is posted for a line item, the same invoice cannot be updated.
+
+If the provided invoice does not have a purchase order number, the invoice is rejected and you see an error message that states that one or more of the provided invoices does not have a purchase order number. If the provided invoice has a purchase order number, but it doesn't match the purchase order or no purchase order exists, you see an error message. The message states that one or more invoices do not have a corresponding purchase order that matches the purchase order number of the invoice. Also, if the amount invoiced sent from the third-party reseller does not match with the invoiced amount, the invoice is rejected.
+
+## Status tables
+
+To know the status of the invoice request, make a REST call into the ServiceNow database using the Table REST API. The response from the API lists the records where the invoice creation failed. For invoice response, query the Invoice Error table with the following parameter:
+
+`sysparm_query=outbound_error.supplier_id=<supplier_id>^outbound_error.state=20`
+
+The details on the customer ID, supplier ID, error type, unique import set ID, and state can be found in the Outbound Status table, which is the parent error table.
+
+## URL format
+
+`/api/sn_spend_intg/spendint/invoice`
+
+## Supported request parameters
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+<table id="table_jhz_gck_ymb" class="rest_api_query_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+mode
+
+</td><td>
+
+Support for asynchronous and synchronous modes for third-party integration.Data type: String
+
+ Valid values:
+
+-   async: Asynchronous mode.
+-   sync: Synchronous mode.
+
+ Default: async
+
+</td></tr></tbody>
+</table><table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+currency
+
+</td><td>
+
+Required. Currency for subtotal, tax, and shipping. The subtotal, tax, and shipping should be in the same currency.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+customer\_id
+
+</td><td>
+
+Identifier for the customer.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+discounts
+
+</td><td>
+
+Discounts that are applied toward the invoice. This is an editable field.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+invoice\_date
+
+</td><td>
+
+Required. Date on which the customer was invoiced.Data type: String
+
+ Maximum length: 40
+
+ Format: YYYY-MM-DD
+
+</td></tr><tr><td>
+
+invoice\_lines
+
+</td><td>
+
+List of objects that define the lines that are being invoiced for purchases within this order.Data type: Array
+
+ ```
+"invoice_lines": [
+  {
+    "invoiced_line_amount": "String",
+    "invoiced_quantity": "String",
+    "line_number": "String",
+    "supplier_invoice_line_number": "String",
+    "sales_order_line_number": "String"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+invoice\_lines.invoiced\_line\_amount
+
+</td><td>
+
+Required. Total cost, excluding taxes and shipping, that a customer is being invoiced for a given purchase order line.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+invoice\_lines.invoiced\_quantity
+
+</td><td>
+
+Required. Quantity of goods or services that a customer is being invoiced for.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+invoice\_lines.line\_number
+
+</td><td>
+
+Required. Purchase order line number that is generated by the customer for a particular purchase.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+invoice\_lines.sales\_order\_line\_number
+
+</td><td>
+
+Required. Sales order line number that is generated by the supplier.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+invoice\_lines.supplier\_invoice\_line\_number
+
+</td><td>
+
+Required. Identification number that is generated by a supplier for this invoice line.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+other\_charges
+
+</td><td>
+
+Other additional charges associated to the invoice. This is an editable field.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+order\_number
+
+</td><td>
+
+Required. Purchase order number that is provided by the customer for this order.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+remit\_to\_address
+
+</td><td>
+
+Required. Location to which a payment is made.Data type: String
+
+ Maximum length: 1000
+
+</td></tr><tr><td>
+
+sales\_order\_number
+
+</td><td>
+
+Required. Number or value that is generated by the supplier for this order.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+shipping
+
+</td><td>
+
+Required. Total shipping cost for the entire purchase.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+subtotal
+
+</td><td>
+
+Required. Total amount of money to be paid to the supplier excluding tax and shipping charges.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+supplier\_id
+
+</td><td>
+
+Required. Identifier for the reseller or supplier that the customer can place orders with.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+supplier\_invoice\_number
+
+</td><td>
+
+Required. Identification number that is generated by a supplier for this invoice.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+supplier\_tax\_id
+
+</td><td>
+
+Tax identifier that is associated to the third party reseller. This is an editable field.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+tax
+
+</td><td>
+
+Required. Total amount of taxes that are billed for the purchase.Data type: String
+
+ Maximum length: 40
+
+</td></tr><tr><td>
+
+tax\_rate
+
+</td><td>
+
+Tax rate percentage that is applied for the order. This is an editable field.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+third\_party\_import\_id
+
+</td><td>
+
+Identifier that enables a third party to pass a string value to uniquely identify a set of imported data.Data type: String
+
+ Maximum length: 100
+
+</td></tr><tr><td>
+
+total\_amount\_invoiced
+
+</td><td>
+
+Required. Total amount of money to be paid to the supplier including tax and shipping charges.Data type: String
+
+ Maximum length: 40
+
+</td></tr></tbody>
+</table>## Headers
+
+The following request and response headers apply to this HTTP action only or apply to this action in a distinct way.
+
+<table class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>**Note:** Only the **application/json** data format is supported for Procurement Integration Framework.
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+## Status codes
+
+The following status codes apply to this HTTP action.
+
+|Status code|Description|
+|-----------|-----------|
+|success|Successful. The request was successfully processed.|
+|failure|Unsuccessful. The request was processed with errors.|
+
+## Response body parameters \(JSON\)
+
+These response body parameters are received when queried in synchronous mode.
+
+<table id="table_jh4_bhk_ymb"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+error\_response\_body
+
+</td><td>
+
+Description of the errors, listed by the sales order line number, sales order number, supplier invoice number, supplier invoice line number, and the error message.Data type: Array
+
+</td></tr><tr><td>
+
+error\_response\_body.error\_message
+
+</td><td>
+
+Detailed error message.Data type: String
+
+</td></tr><tr><td>
+
+status\_code
+
+</td><td>
+
+Response status such as "success" or "failure."Data type: String
+
+</td></tr></tbody>
+</table>## cURL request
+
+```
+curl "https://instance.service-now.com/api/sn_spend_intg/spendint/invoice" \
+--request POST \
+--header "Accept:application/json" \
+--user 'username':'password'
+{"root":[{
+  "customer_id": "Customer - A",
+  "supplier_id": "SUP-123456",
+  "third_party_import_id": "undefined",
+  "supplier_invoice_number": "QAAP89873220071",
+  "supplier_tax_id": "TIN000000",
+  "order_number": "POL7987633",
+  "sales_order_number": "SO0000000081",
+  "invoice_date": "YYYY-MM-DD",
+  "subtotal": "6000",
+  "tax_rate": "10%",
+  "tax": "600",
+  "shipping": "120",
+  "other_charges": "100",
+  "discounts": "200",
+  "total_amount_invoiced": "6620",
+  "remit_to_address": "1640 Camino Del Rio North #202, San Diego,CA",
+  "currency": "USD",
+  "invoice_lines": [
+    {
+      "supplier_invoice_line_number": "QA789A867877ABN32251",
+      "line_number": "POL587667",
+      "sales_order_line_number": "SOL00000081",
+      "invoiced_quantity": "45",
+      "invoiced_line_amount": "4000"
+    },
+    {
+      "line_number": "POL587668",
+      "supplier_invoice_line_number": "78987323",
+      "sales_order_line_number": "SOL98769",
+      "invoiced_quantity": "12",
+      "invoiced_line_amount": "2000"
+    }
+  ]
+}
+]}
+```
+
+Possible responses:
+
+```
+// Success response:
+{
+    "result": {
+        "response": "success"
+    }
+}
+
+// Error response:
+{
+    "result": {
+        "response": [
+            {
+                "customer_id": "Customer - A",
+                "supplier_id": "SUP-123456",
+                "third_party_import_id": "undefined",
+                "status_code": "failure",
+                "error_response_body": [
+                    {
+                        "sales_order_line_number": "SOL00000081",
+                        "sales_order_number": "SO0000000081",
+                        "supplier_invoice_number": "QAAP89873220071",
+                        "supplier_invoice_line_number": "QA789A867877ABN32251",
+                        "error_message": "The invoice do not have a corresponding purchase order which matches the purchase order number of the invoice provided\n"
+                    }
+                ]
+            }
+        ]
+    }
+}
+```
+
+**Parent Topic:**[Spendint API](../concept/spendint-api.md)
+

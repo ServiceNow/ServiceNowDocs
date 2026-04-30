@@ -1,0 +1,87 @@
+---
+title: Create a work schedule for an agent or technician
+description: Users with the agent schedule administrator role can create one or more work schedules for a customer service agent or a field service technician.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2024-09-13"
+reading_time_minutes: 1
+breadcrumb: [Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+---
+
+# Create a work schedule for an agent or technician
+
+Users with the agent schedule administrator role can create one or more work schedules for a customer service agent or a field service technician.
+
+## Before you begin
+
+Role required: agent\_schedule\_manager, agent\_schedule\_admin
+
+## About this task
+
+A work schedule includes a date range and a schedule type, such as day shift or evening shift. Agents and technicians can have multiple work schedules.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Agent Schedule** &gt; **Work Schedule**.
+
+2.  Click **New**.
+
+3.  Fill in the fields on the Agent Work Schedule form, as necessary.
+
+<table id="table_agv_ftc_nr"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+From Date
+
+</td><td>
+
+The first day of the work schedule.
+
+</td></tr><tr><td>
+
+To Date
+
+</td><td>
+
+The last day of the work schedule.
+
+</td></tr><tr><td>
+
+User
+
+</td><td>
+
+The selected agent or technician.
+
+</td></tr><tr><td>
+
+Work Schedule
+
+</td><td>
+
+The selected schedule from the Schedules list.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+The type of work that the agent or technician is performing during this schedule: -   Primary work
+-   Other
+An agent can have only one primary schedule for a specific range of dates. Primary schedules cannot overlap.
+
+</td></tr></tbody>
+</table>4.  Click **Submit**.
+
+
+**Parent Topic:**[Scheduling and dispatching work order tasks to agents](../../field-service-management/concept/scheduling-and-dispatching-agents.md)
+

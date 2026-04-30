@@ -1,0 +1,149 @@
+---
+title: Bulk edit host vulnerable items with patches and solutions
+description: Recommend a patch or solution for multiple host vulnerable items concurrently using the bulk edit feature in the Security Exposure Management Workspace.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 4
+breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
+---
+
+# Bulk edit host vulnerable items with patches and solutions
+
+Recommend a patch or solution for multiple host vulnerable items concurrently using the bulk edit feature in the Security Exposure Management Workspace.
+
+## Before you begin
+
+Role required:
+
+-   sn\_vul.vulnerability\_analyst, sn\_vul.vulnerability\_admin, or sn\_vul.remediation\_owner for host vulnerable items \(VITs\)
+-   sn\_vul.app\_sec\_manager, sn\_vul.app\_security\_champion for application vulnerable items \(AVITs\)
+-   sn\_vul\_container.vulnerability\_analyst, sn\_vul\_container.vulnerability\_admin, or sn\_vul\_container.remediation\_owner for container vulnerable items \(CVITs\)
+-   sn\_vulc.admin, sn\_vulc.remediation\_owner for configuration test results \(CTRs\)
+
+## About this task
+
+In the Bulk edit modal, while adding a preferred solution and patch, you can also unassign or assign multiple host vulnerable items \(VITs\) to an assignment group simultaneously.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
+
+    **Note:** The selected records must be in the Open, Under Investigation, or Awaiting Implementation state.
+
+2.  On the List page, under Host Vulnerable items, open the Active or All list.
+
+3.  Perform one of the following:
+
+    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the **Record Selection** field.
+    -   Apply filters if you want to use the **All Vulnerable Items that match filter** option in the **Record Selection** field.
+    -   Select the check box next to each item if you want to use the **Only Selected Items** option in the Record Selection field of Bulk Edit modal.
+    -   Apply filters if you want to use the **All Vulnerable Items that match filter** option in the Record Selection field of Bulk Edit modal.
+4.  Select the **Bulk Edit** button.
+
+5.  On the Bulk Edit modal, fill in the fields to recommend a patch or solution for multiple host vulnerable items.
+
+<table id="table_t4d_4bd_5s"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td id="record-slection-field">
+
+Record Selection
+
+</td><td>
+
+Records to update. Choices are:-   Only Selected Items: Select this option if you want to update the records you selected using the check box.
+-   All Vulnerable Items that match filter: Select this option if you want to update the filtered records.
+-   Remediation Task: Select this option if you want to update the records in a remediation task and then select the desired remediation task in the **Remediation task** field.
+-   Vulnerability Entry: Select this option if you want to update the records specific to a common vulnerable entry \(CVE\) and then select the CVE in the **Vulnerability Entry** field.
+**Note:**
+
+-   Records with invalid CI or CI decommissioned aren’t updated.
+-   Only the records \(VITs\) in the Open, Under Investigation, or Awaiting Implementation state are updated.
+
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+Change for the **State** of the host vulnerable items. You can add preferred solution and patch only when you choose the following states.-   Do Not Update
+-   Open
+-   Under Investigation
+-   Awaiting Implementation
+
+
+</td></tr><tr><td>
+
+Preferred Solution
+
+</td><td>
+
+Solution that is targeted for remediating all the vulnerable items selected for bulk edit. Select the change for the **Preferred Solution** field in the vulnerable item. Choices are from a lookup list of available preferred solutions for the VITs selected.**Note:**
+
+-   The set of available preferred solutions is an intersection of all potential solutions of the vulnerabilities across all selected VITs.
+-   When selecting **Record selection** &gt; **Vulnerability Entry** for a bulk edit, all VITs for the vulnerability will be set to the selected preferred solution.
+
+**Note:** This operation doesn’t set the **Preferred solution** at the vulnerability entry level. Setting the **Preferred solution** at the vulnerability entry level would set the **Preferred solution** for all new VITs going forward. The bulk edit only modifies the current set of VITs.
+
+-   Distinct vulnerabilities across the selection criteria are limited to 500. If there are more than 500 distinct vulnerabilities, a warning message is displayed asking you to select VITs with different criteria for setting the **Preferred solution**.
+-   The total number of solutions that can be shown in the lookup list is limited to 170. If there are more than 170 solutions, a warning message is displayed.
+
+The updated value is shown in the Vulnerable item list view.
+
+</td></tr><tr><td>
+
+Preferred patch
+
+</td><td>
+
+Patch that is targeted for remediating all the vulnerability items selected for bulk edit.**Note:**
+
+-   You must install Patch Orchestration to view the list preferred patches.
+-   The set of available preferred patches is an intersection of all potential patches across all selected VITs.
+-   Distinct vulnerabilities across the selection criteria are limited to 500. If there are more than 500 distinct vulnerabilities, a warning message displays asking you to select VITs with different criteria for setting the **Preferred patch**.
+-   The total number of patches that can be shown in the lookup list is limited to 170. If there are more than 170 patches, a warning message is displayed.
+
+</td></tr><tr><td>
+
+Unassign
+
+</td><td>
+
+All the selected items are unassigned for assignment group and remediation owner.**Note:**
+
+-   This field appears when you select the State as Do Not Update.
+-   When you unassign records, a remediation task is created which is sent for approval. For more information, see [Remove assignments for host vulnerable items in bulk](../../vr-vulnerability-manager-workspace/task/vmws-bulk-edit-unassign.md)
+
+
+</td></tr><tr><td>
+
+Assignment group
+
+</td><td>
+
+Assignment group for the records. All the active assignment groups appear in this field.**Note:** This field is deactivated when you select the Unassign check box.
+
+</td></tr><tr><td>
+
+Work notes
+
+</td><td>
+
+Text that you enter to describe the changes.
+
+</td></tr></tbody>
+</table>6.  Select **Edit**.
+
+
+## Result
+
+A bulk edit asynchronous job updates the selected host vulnerable items \(VITs\). The preferred solution and patch are added to the relevant host vulnerable items \(VITs\). Open a host vulnerable item, and view the preferred solution and patch in the Remediation section of the Details tab.
+

@@ -1,0 +1,63 @@
+---
+title: Work on an invoice inquiry case
+description: Work on an invoice inquiry case to resolve an issue raised by the suppliers or employees.
+locale: en-US
+release: xanadu
+product: Accounts Payable Operations
+classification: accounts-payable-operations
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 2
+breadcrumb: [Invoice inquiry cases, Using Invoice Case Management, Using Accounts Payable Operations, Accounts Payable Operations, Finance and Supply Chain]
+---
+
+# Work on an invoice inquiry case
+
+Work on an invoice inquiry case to resolve an issue raised by the suppliers or employees.
+
+## Before you begin
+
+Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
+
+## About this task
+
+An invoice case with a category of Inquiry is referred to as an invoice inquiry case.
+
+Typically, an invoice inquiry case is automatically created when you receive an inquiry email. However, the agent can also manually create an invoice inquiry case from the Source-to-Pay Workspace. For more information, see [Create an invoice inquiry case manually](create-inquiry-case.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Accounts Payable Workspace**.
+
+2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
+
+3.  Do one of the following:
+
+    -   Navigate to **Lists** &gt; **My Work** &gt; **My open invoice inquiry cases**.
+    -   Navigate to **Lists** &gt; **All Work** &gt; **All open invoice inquiry cases**.
+4.  Open an invoice inquiry case to work on.
+
+5.  Do one of the following:
+
+    -   To assign the case to yourself, select **Assign to me**.
+    -   If the case is assigned to you by the Accounts Payable Specialist, you can start working on the case by selecting **Accept**.
+    The case moves to the **Work in progress** state.
+
+6.  Do one of the following:
+
+    -   Request more information about the invoice inquiry case from the requester. For more information, see [Request additional information from the requester for an invoice inquiry case](request-caller-info-inquiry-case.md).
+
+        The state of the case updates to Awaiting requester info.
+
+    -   Submit the invoice inquiry case for an internal review. For more information, see [Submit an invoice inquiry case for an internal review](submit-inquiry-case-internal-review.md).
+
+        The state of the case updates to Awaiting internal info.
+
+    -   Create an invoice task and assign it to a user or group to resolve the invoice inquiry case. For more information, see [Create an invoice task](create-apm-task.md).
+7.  Close an invoice inquiry case when all the activities and tasks for resolving the case are completed.
+
+    For more information, see [Close an invoice inquiry case](close-inquiry-case.md).
+
+
+**Parent Topic:**[Invoice inquiry cases](../concept/work-with-inquiry-cases.md)
+

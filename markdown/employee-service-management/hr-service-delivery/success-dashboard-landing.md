@@ -1,0 +1,52 @@
+---
+title: HR Success Dashboard indicators
+description: HR Success Dashboard indicators provides service and performance insights to the HR leadership team and process owners. You can measure the performance of the HR implementation using the different KPIs.
+locale: en-US
+release: xanadu
+product: HR Service Delivery
+classification: hr-service-delivery
+topic_type: reference
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [HR Service Delivery, Employee Service Management]
+---
+
+# HR Success Dashboard indicators
+
+HR Success Dashboard indicators provides service and performance insights to the HR leadership team and process owners. You can measure the performance of the HR implementation using the different KPIs.
+
+Success Dashboard is available for HR Service Delivery and IT Service Management via the following applications:
+
+-   HR Success Dashboard indicators
+-   ITSM Success Dashboard indicators
+
+    For more information on the ITSM dashboard, see [ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-dashboard-indicator-landing&version=xanadu&pubname=xanadu-it-service-management&ft:locale=en-US).
+
+
+## Request apps on the Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## Get started
+
+<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+
+[Explore ![Explore](../../../common/image/icon-explore.png) Learn about HR Success Dashboard indicators concepts and features.](explore-success-dashboard.md)
+
+</td><td>
+
+[Configure ![Configure](../../../common/image/icon-set-up.png) Configure environment, tools, and user access.](configure-success-dashboard.md)
+
+</td></tr><tr><td>
+
+[Use ![Use](../../../common/image/icon-workspace.png) Learn how you can use HR Success Dashboard indicators.](using-success-dashboard.md#)
+
+</td><td>
+
+[Reference ![Reference](../../../common/image/icon-reference.png) Get details about ITSM Success Dashboard the HR Success Dashboard indicators components such as roles and dependent applications.](success-dashboard-reference.md)
+
+</td></tr></tbody>
+</table>## Troubleshoot and get help
+
+[Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+

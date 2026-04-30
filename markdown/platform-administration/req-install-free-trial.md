@@ -1,0 +1,64 @@
+---
+title: Request and install free application trial
+description: Request and install a free application trial of an application before procuring the application directly from your ServiceNow instance, without navigating to ServiceNow Store.
+locale: en-US
+release: xanadu
+topic_type: task
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Use, Legacy Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+---
+
+# Request and install free application trial
+
+Request and install a free application trial of an application before procuring the application directly from your ServiceNow instance, without navigating to ServiceNow Store.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Obtain approval from the vendor to try the application.
+
+    **Note:** Some applications require vendor approval to try the application.
+
+    1.  Navigate to **System Application** &gt; **All Available Applications** &gt; **Available To Obtain From Store**.
+
+    2.  Search for the required application and click the application record.
+
+    3.  Click **Request Trial**.
+
+    4.  Enter your Now Support credentials.
+
+    5.  Click **Sign in**.
+
+    A confirmation message is displayed that the trial request is sent to the vendor. Once the vendor approves the request, you will be notified through an email.
+
+2.  Navigate to **System Application** &gt; **All Available Applications** &gt; **Available To Obtain From Store**.
+
+    **Note:** If the application requires vendor approval, perform these steps after you have been notified through email that your request is approved.
+
+3.  Search for the required application and click the application record.
+
+4.  Click **Try**.
+
+5.  In the pop-up window, review information in these tabs and click **Continue**:
+
+    -   **Usage Analytics and Contact**
+    -   **Platform Licenses**
+    -   **Terms and Conditions**
+
+        **Note:** Select the **I read and accept terms of use above** check box.
+
+        You can download the terms and conditions documents.
+
+    In the **Confirmation** tab, a confirmation message is displayed that the application can be installed.
+
+    An application trial is available for 30 days. A green indicator indicates the trial expiration date. After the trial period has expired, a red indicator is displayed to indicate that the trial period has expired.
+
+6.  Click **Go to install**.
+
+
+**Parent Topic:**[Using Legacy Application Manager](using-legacy-application-manager.md)
+

@@ -1,0 +1,86 @@
+---
+title: Configuration Compliance imported data for Microsoft Defender for Cloud Integration
+description: Configuration Compliance imports policies, tests, authoritative sources, and test results from third-party integrations and stores them in modules for viewing.
+locale: en-US
+release: xanadu
+product: Configuration Compliance
+classification: configuration-compliance
+topic_type: concept
+last_updated: "2024-08-01"
+reading_time_minutes: 4
+breadcrumb: [Microsoft Defender for Cloud Integration for Security Operations, Configuration Compliance integrations, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+---
+
+# Configuration Compliance imported data for Microsoft Defender for Cloud Integration
+
+Configuration Compliance imports policies, tests, authoritative sources, and test results from third-party integrations and stores them in modules for viewing.
+
+**Note:** Starting with v14.9 of Configuration Compliance, the following terms have been renamed:
+
+|Terminology prior to v14.9|Terminology v14.9 onwards|
+|--------------------------|-------------------------|
+|Test Result Group|Remediation Task|
+|Group Rules|Remediation Task Rules|
+|Policy|Test group|
+
+## Test groups
+
+A group of configuration tests constitutes a test group. Test groups are related to authoritative documents and test records, and they can be modified to meet the needs of your organization. One configuration test can belong to multiple test groups.
+
+If the Microsoft Defender for Cloud Integration is installed, test groups are retrieved and populated by the scheduled job, **Policy Definitions Integration**. You can view the scheduled job by navigating to **All** &gt; **Microsoft Defender for Cloud Integration** &gt; **Administration** &gt; **Integrations** &gt; **Policy Definitions Integration**.
+
+**Note:** If you choose to run the integration manually, run the **Policy Definitions Integration** first.
+
+## Tests
+
+Tests are libraries of data records that organize scans of computing assets. Configuration tests define how assets must be governed.
+
+A Configuration Compliance test is the mechanism third-party integration applications use to group assets by test results type.
+
+If the Microsoft Defender for Cloud Integration is installed, the scheduled job, **Assessment Metadata Integration**, retrieves the tests. You can view the scheduled job by navigating to **Integration** &gt; **Primary Integrations** &gt; **Assessment Metadata Integration**.
+
+**Note:** If you choose to run the integration manually, run the **Assessment Metadata Integration** after the **Policy Definitions Integration**.
+
+Starting with v15.0 of Configuration Compliance, the test group to which a test belongs to populates in the **Test Groups** column of the Tests list.
+
+## Authoritative sources
+
+Configuration Compliance uses authoritative sources and citations when generating vulnerability alerts for tests. Authoritative sources usually map to sections of published industry standards, such as **ISO 27001** and **PCI DSS 3.2.1**.
+
+These source records contain references to information about known software and hardware configuration issues from experts in the field of computer security. They define requirements for security policies and procedures.
+
+If the Microsoft Defender for Cloud Integration is installed, the scheduled job, **Compliance Standards &amp; Controls**, retrieves the authoritative sources and citations. You can view this scheduled job by navigating to **All** &gt; **Microsoft Defender for Cloud Integration** &gt; **Integrations** &gt; **Compliance Standards &amp; Controls Integration**.
+
+**Note:** If you choose to run the integration manually, run the **Compliance Standards &amp; Controls Integration** after the **Assessment Metadata Integration**.
+
+## Assets
+
+The **Assessment integration** provides vital information such as resource tags and cloud attributes. This information is displayed in the Discovered Item form.  It is used primarily for filtering in  Configuration Compliance Assignment and Remediation Task Rules.
+
+-   Resource tags: All cloud resource tags are imported as host tags as part of the  **Assessment integration**. The cloud tags for any cloud resource type are stored here, whether the resource is a host or not.
+    -   Tag storage is not case-sensitive. If a  Tokyo  tag is created, then a  **TOKYO**  tag cannot be stored in the Host tag table. **Tokyo** and **TOKYO** are considered to be the same host tag. Whichever tag was imported first wins.
+    -   Using host tags as a group key in a remediation task rule can have unexpected results. Host tags are intended for use only in the condition builder.
+-   Cloud attributes for assets: Following are the cloud attributes that the integrations retrieve from Microsoft Defender for Cloud:
+    -   Cloud Account
+    -   Cloud Region
+    -   Cloud Resource Type
+    -   Cloud Service Provider
+
+## Test results
+
+Configuration Compliance does not calculate the test results, but imports them as part of a third-party integration. Once they are viewable in Configuration Compliance, they are remediated using **Remediation Tasks**.
+
+If the Microsoft Defender for Cloud integration is installed, the scheduled job, **Assessment Integration**, retrieves the test results. You can view this scheduled job by navigating to **All** &gt; **Microsoft Defender for Cloud Integration** &gt; **Integrations** &gt; **Assessment Integration**.
+
+The **Assessment Integration** import is the only integration that uses the **Start Time** parameter in the **Integration Details** tab. All other Configuration Compliance imports bring in all available data regardless of **Start Time**.
+
+When the **Assessment Integration** import is complete, an event is started to trigger end-of-import calculations.
+
+The **Assessment Integration** pulls the data assessments only if there is a status change from the last successful integration run for the last one day by default. So, if the assessment fails continuously for the past few days, the integration will not fetch the assessment as there is no status change for the assessment. To keep the test results up to date with the defender assessments, a new **Comprehensive Assessment Integration** is added which pulls the data from the past seven days. It runs weekly and pulls all the test results, which are not passed.
+
+## CI lookup rules for identifying CIs from Microsoft Defender for Cloud integrations
+
+When data is imported from a third-party integration, Configuration Compliance automatically uses resource data to search for matches in the Configuration Management Database \(CMDB\), using CI Lookup Rules. These rules are used to identify the configuration items \(CIs\) and add them to the test result record to aid in remediation. Base system CI lookup rules are available for Resource ID, Name, and S3 Bucket. For more information on CI lookup rules, see [CI lockup rules for Microsoft Defender for Cloud Integration for Security Operations](../../../vulnerability-config-compliance/reference/cloud-ci-look-up-for-ms-paloalto.md).
+
+**Parent Topic:**[Microsoft Defender for Cloud Integration for Security Operations](cc_asc_overview.md)
+

@@ -1,0 +1,57 @@
+---
+title: Xanadu API Reference
+locale: en-US
+release: xanadu
+bundle: crapiref
+doc_type: toc
+---
+
+# Xanadu API Reference
+
+- [API implementation and reference](api-implementation-reference.md)
+  - [API implementation](api-implementation.md)
+    - [Scripting](scripts/c_Script.md)
+      - [Available script types](scripts/r_17Scripts.md)
+      - [Glide class overview](scripts/r_GlideClassOverview.md)
+        - [Glide stack](scripts/r_GlideStack.md)
+      - [Execution order of scripts and engines](scripts/r_ExecutionOrderScriptsAndEngines.md)
+      - [Script evaluation of fields by data type](scripts/r_ScriptingOfFieldTypes.md)
+      - [Scripting alert, info, and error messages](scripts/r_ScriptingAlertInfoAndErrorMsgs.md)
+      - [Now Assist for code generation](scripts/now-assist-code-landing.md)
+        - [Exploring code generation](scripts/exploring-now-assist-code.md)
+          - [General guidelines for code generation](scripts/general-guidelines-code-generation.md)
+        - [Configuring code generation](scripts/configuring-now-assist-code.md)
+          - [Install Now Assist for code generation](scripts/install-now-assist-code-app.md)
+          - [Tracking AI-generated code](scripts/tracking-ai-generated-code.md)
+            - [Configure how long to indicate AI-generated code](scripts/tracking-ai-generated-code.md)
+            - [Turn off tracking AI-generated code](scripts/tracking-ai-generated-code.md)
+        - [Generate scripts with AI-powered code generation](scripts/generate-code.md)
+          - [Generate scripts from text](scripts/generate-code.md)
+          - [Generate scripts from code](scripts/generate-code.md)
+        - [Edit code with Now Assist](scripts/edit-code-now-assist.md)
+        - [Code generation reference](scripts/now-assist-code-reference.md)
+          - [Code generation properties](scripts/now-assist-code-properties.md)
+          - [Code generation roles](scripts/now-assist-code-roles.md)
+      - [JavaScript syntax editor](scripts/c_SyntaxEditor.md)
+        - [Syntax editor plugin](scripts/c_SyntaxEditorPlugin.md)
+          - [Syntax editor JavaScript support](scripts/r_EdtJvaScptWSyntxEdtr.md)
+          - [Syntax editor keyboard shortcuts and actions](scripts/r_SyntxEdtrKybrdSrtctsActn.md)
+          - [Syntax editor macros](scripts/r_SyntaxEditorMacros.md)
+          - [Create or modify a script macro](scripts/t_ManageScriptMacros.md)
+        - [Context menu in the syntax editor](scripts/context-menu-syntax-editor.md)
+        - [Script syntax error checking](scripts/c_ScriptSyntaxErrorChecking.md)
+        - [Searching for errors by line](scripts/c_SearchingForErrorsByLine.md)
+          - [Navigate to a line number](scripts/t_NavigateToALineNumber.md)
+      - [HTML syntax editor](scripts/html-syntax-editor.md)
+      - [Code editor](scripts/monaco-editor.md)
+      - [Server-side scripting](scripts/c_ServerScripting.md)
+        - [Glide Server APIs](scripts/p_GlideServerAPIs.md)
+          - [GlideAggregate](scripts/p_GlideServerAPIs.md)
+            - [GlideAggregate examples](scripts/p_GlideServerAPIs.md)
+          - [GlideRecord](scripts/p_GlideServerAPIs.md)
+          - [Using GlideRecordSecure](scripts/p_GlideServerAPIs.md)
+          - [GlideSystem](scripts/p_GlideServerAPIs.md)
+          - [GlideDateTime](scripts/p_GlideServerAPIs.md)
+            - [GlideDate and GlideDateTime examples](scripts/p_GlideServerAPIs.md)
+            - [Set a duration field value in script](scripts/p_GlideServerAPIs.md)
+            - [Date and time format guidelines](scripts/p_GlideServerAPIs.md)

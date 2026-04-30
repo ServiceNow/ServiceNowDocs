@@ -1,0 +1,46 @@
+---
+title: Client software distribution extension points
+description: The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
+locale: en-US
+release: xanadu
+product: Integration Hub
+classification: integration-hub
+topic_type: reference
+last_updated: "2024-08-01"
+reading_time_minutes: 1
+breadcrumb: [Client software distribution extension framework, Client Software Distribution using Integration Hub, Integration Hub available solutions, Building integrations in Integration Hub, Integration Hub, Creating integrations with applications]
+---
+
+# Client software distribution extension points
+
+The client software distribution \(CSD\) extension points create the customization code for the specific provider and the extension keys.
+
+The purpose of the extension points is to associate extension keys with a specific provider, and then create a script that sets input variables for your custom deployment and revocation flows. Another extension point script tells CSD if the provider has the capability to revoke software. If this is the case, CSD enables the UI action that triggers revocation from the provider.
+
+## SetDeploymentData
+
+The script associated with this extension key must set the **csdExtensionResult** object with these attributes:
+
+-   **deploymentWorkflowInputs** : Object that specifies the deployment flow input variables.
+-   **softwareModel**: Software model sys\_id.
+-   **deploymentType**: An integer. Use **1** for deployment to a user and **2** for deployment to a device.
+-   **softwareApplication**: Software application sys\_id.
+
+## CheckRevocable
+
+The script associated with this extension key gets the input parameter **csdExtensionInputs.softwareConfiguration**, which is a Client Software Distribution record in the Software Configuration \[sn\_client\_sf\_dist\_software\_config\] table. All providers' software configurations are extended from this table, but may have different attributes.
+
+This script must set the **csdExtensionResult** object to **true** or **false**, depending on whether the software configuration specifies uninstallation.
+
+## SetRevocationData
+
+The script associated with this extension key gets the input parameter **csdExtensionInputs.softwareConfiguration**, which is a Client Software Distribution record in the Software Configuration \[sn\_client\_sf\_dist\_software\_config\] table. All providers' software configurations are extended from this table, but may have different attributes.
+
+The script must set the **csdExtensionResult** object with these attributes:
+
+-   **revocationWorkflowInput** : Object that specifies the revocation flow input variables.
+-   **softwareModel**: Software model sys\_id.
+-   **deploymentType**: An integer. Use **1** for deployment to a user and **2** for deployment to a device.
+
+**Parent Topic:**[Client software distribution extension framework](../concept/csd-ext-framewrk.md)
+
