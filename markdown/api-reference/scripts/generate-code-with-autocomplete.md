@@ -1,0 +1,48 @@
+---
+title: Generate code with autocomplete
+description: The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+locale: en-US
+release: yokohama
+product: Scripts
+classification: scripts
+topic_type: task
+last_updated: "2026-04-29"
+reading_time_minutes: 1
+breadcrumb: [Now Assist for code generation, Scripting, API implementation, API implementation and reference]
+---
+
+# Generate code with autocomplete
+
+The autocomplete feature of Now Assist for Code provides you with contextually relevant code suggestions.
+
+## Before you begin
+
+Role required: now.assist.creator
+
+## Procedure
+
+1.  Navigate to any script enabled with Now Assist for Code.
+
+2.  Start coding in the script editor.
+
+    When you stop typing, a code suggestion is displayed in grey within a few seconds.
+
+    **Note:** Retrieval-Augmented Generation \(RAG\) enhances auto-complete suggestions and minimizes inaccuracies or hallucinations.
+
+3.  Review the AI-generated code suggestions and either accept or reject them:
+
+    -   Press the **tab** key to accept the code suggestion.
+
+        If you accept the code suggestion, it's added to the script.
+
+    -   Press the **esc** key to reject the code suggestion or continue typing.
+
+        If you reject the code suggestion, it isn't added to the script.
+
+4.  After accepting the code suggestions, select **Update** to save the script.
+
+    The code suggestion is saved within the script.
+
+    **Note:** To disable autocomplete for your session, in the script editor select **Code with Now Assist** from the status bar at the bottom of the editor, and then clear **Autocomplete**.
+
+

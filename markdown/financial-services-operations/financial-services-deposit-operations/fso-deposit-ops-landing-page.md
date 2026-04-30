@@ -1,0 +1,47 @@
+---
+title: Financial Services Deposit Operations
+description: ServiceNow Financial Services Business Deposit Operations and Financial Services Personal Deposit Operations are a pair of applications in ServiceNow Financial Services Deposit Operations that enable your financial organization to digitize end-to-end management of origination, servicing, and closure of deposit accounts.
+locale: en-US
+release: yokohama
+product: Financial Services Deposit Operations
+classification: financial-services-deposit-operations
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Using banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Financial Services Deposit Operations
+
+ServiceNow® Financial Services Business Deposit Operations and Financial Services Personal Deposit Operations are a pair of applications in ServiceNow® Financial Services Deposit Operations that enable your financial organization to digitize end-to-end management of origination, servicing, and closure of deposit accounts.
+
+## Request apps on the Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+
+[Explore ![](../../../common/image/icon-explore.png) Learn about how customers, relationship managers, and agents use Deposit Operations.](explore-fso-deposit-ops.md)
+
+</td><td>
+
+[Set up ![](../../../common/image/icon-set-up.png)](config-fso-deposit-ops.md) Set up Financial Services Deposit Operations.
+
+</td><td>
+
+[Use ![](../../../common/image/icon-workspace.png) Submit and manage deposit service requests.](using-deposit-ops.md)
+
+</td></tr><tr><td>
+
+[Analytics and Reporting ![](../image/icon-report.png) Monitor key statistics and track performance with preconfigured dashboard.](fso-deposit-ops-reference.md)s
+
+</td><td>
+
+[Process Mining ![](../image/icon-process-opt.png) Visualize process and identify improvement opportunities.](../../fso-common/concept/fso-process-optz-content-pack.md)
+
+</td><td>
+
+[Reference ![](../../../common/image/icon-reference.png) Get details about components such as roles, tables, plugins, and installed store applications.](fso-deposit-ops-reference.md)
+
+</td></tr></tbody>
+</table>

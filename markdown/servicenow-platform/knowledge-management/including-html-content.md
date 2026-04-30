@@ -1,0 +1,29 @@
+---
+title: Managing HTML content in knowledge articles
+description: You can manage HTML content in knowledge articles by using the HTML editor.
+locale: en-US
+release: yokohama
+product: Knowledge Management
+classification: knowledge-management
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Editing functions for knowledge articles in the HTML editor, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Managing HTML content in knowledge articles
+
+You can manage HTML content in knowledge articles by using the HTML editor.
+
+You can perform the following functions for HTML content in knowledge articles:
+
+-   Insert a hyperlink by using the insert/edit link icon \(![Insert/edit link icon](../../../use/using-forms/image/TinyMCEV4Link.png)\) available on the HTML toolbar. For more information, see [Link to a website in HTML fields](https://www.servicenow.com/docs/access?context=t_LinkingToAWebsiteInHTMLFields&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   Insert an image by using the insert/edit image icon \(![Insert/edit image icon](../../../use/using-forms/image/TinyMCEV4Image.png)\) available on the HTML toolbar. For more information, see [Embed images in HTML fields](https://www.servicenow.com/docs/access?context=t_EmbeddingImagesInHTMLFields&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   Embed a video from the video library, an attachment, or URL by using the insert/edit video icon \(![Insert/edit video icon](../../../use/using-forms/image/TinyMCEV4Video.png)\) available on the HTML toolbar. You can also add videos to the video library. For more information, see [Embed videos in HTML fields](https://www.servicenow.com/docs/access?context=t_EmbeddingVideoInHTMLFields&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   Copy content from external sources and paste them as simple text into the editor. For more information, see [Paste content into the HTML editor](https://www.servicenow.com/docs/access?context=paste-html-editor&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+-   View and edit the HTML source code by using the source code icon \(![Source code icon](../../../use/using-forms/image/TinyMCEV4Code.png)\) available on the HTML toolbar. For more information, see [Extended functions](https://www.servicenow.com/docs/access?context=r_ExtendedFunctions&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+
+    **Note:** To insert or edit a code snippet, see [Format a code snippet automatically in knowledge articles](../task/insert-code-html-editor.md).
+
+-   Expand the HTML field to use the full form view for easier editing by using the fullscreen icon \(![Fullscreen icon](../../../use/using-forms/image/TinyMCEV4FullScreen.png)\). For more information, see [Extended functions](https://www.servicenow.com/docs/access?context=r_ExtendedFunctions&version=yokohama&pubname=yokohama-platform-administration&ft:locale=en-US).
+

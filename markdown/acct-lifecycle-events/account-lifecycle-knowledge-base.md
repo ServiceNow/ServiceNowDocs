@@ -1,0 +1,31 @@
+---
+title: Account onboarding Knowledge Base
+description: Several Knowledge Base articles are provided for account onboarding.
+locale: en-US
+release: yokohama
+topic_type: concept
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Using account onboarding, Account onboarding, Customer Success Management]
+---
+
+# Account onboarding Knowledge Base
+
+Several Knowledge Base articles are provided for account onboarding.
+
+Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Knowledge Bases** and click **Account Lifecycle Events**. The following knowledge base articles are available:
+
+-   How to create a Data Validation Assist record: This article provides instructions on how to create a Data Validation Assist record that can be used to automate the validation process during the Data import stage.
+-   How to configure the trigger of the onboarding case &amp; the playbook: This article provides instructions on how to configure the trigger for the account onboarding case and the playbook.
+-   How to create remote choice definition in Service Exchange for Providers: This article describes how as a provider, you can define remote choice fields that will allow consumers to retrieve choice data from their instances in real time.
+-   How to create remote records producer in a remote catalog in Service Exchange for Providers: This article describes how to create remote record producers as part of creating a remote catalog in the Service Exchange for Providers application.
+-   How to create a remote task to sync data: This article describes how you can create remote tasks to sync data between different ServiceNow® instances.
+-   How to create an Activity Definition: This article describes lists the steps required to create an activity definition and add it to the account onboarding playbook.
+-   How to attach KB to the related Knowledge tab of any ALE Task: This article describes how to automatically attach a knowledge article to the Related Knowledge tab of any account onboarding task.
+-   How to complete the Data Import Task: This article provides step-by-step instructions on how to complete your data import task successfully.
+-   Account Lifecycle Events PAD Activities Overview: This article provides an overview of the nine Playbooks activity definitions used to create the activities inside the Account Lifecycle Events \(ALE\) playbook.
+-   A Consumer's Guide to Installing Service Bridge and Registering with Providers: This article provides instructions on how to configure the Service Bridge application on the consumer instance and how consumers can register their instances with a provider.
+-   How to configure Account Lifecycle Events data import task: This article describes the steps required to configure the Account Lifecycle Events data import tasks so that the agents can successfully gather and upload the information needed to onboard the account.
+
+**Note:** All customers can view these Knowledge Base articles. If you want to restrict access to an article, navigate to the article and in the Cannot Read field, select the user role who will not be able to access the article.
+

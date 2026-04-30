@@ -1,0 +1,79 @@
+---
+title: Add course items to collection
+description: After you create a collection, add course items as groupings of courses that are orchestrated within ServiceNow.
+locale: en-US
+release: yokohama
+product: Learning Core
+classification: learning-core
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Create a content collection, Manage Learning, Using My Learning, Learning, Talent Development, Employee Service Management]
+---
+
+# Add course items to collection
+
+After you create a collection, add course items as groupings of courses that are orchestrated within ServiceNow®.
+
+## Before you begin
+
+Role required: sn\_lc.learning\_admin, sn\_lc.learning\_course\_catalog\_admin
+
+Create a content collection. For more information, see [Create a content collection](create-content-collection.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Learning** &gt; **Content** &gt; **Collection**.
+
+2.  Select the collection that you want to add course items to.
+
+3.  On the **Course Collection Items** tab, select **New**.
+
+4.  On the form, fill in the fields:
+
+<table id="id_ecx_zpx_2tb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Collection
+
+</td><td>
+
+Associated course collection.
+
+</td></tr><tr><td>
+
+Course
+
+</td><td>
+
+Course item to be added to the selected collection.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Order that defines the start of a new section.
+
+ All learning courses that have order greater than this defined order will be displayed under this section.
+
+</td></tr><tr><td>
+
+Mandatory
+
+</td><td>
+
+If it is mandatory for the course item to be added to the collection.
+
+</td></tr></tbody>
+</table>
+**Parent Topic:**[Create a content collection](create-content-collection.md)
+

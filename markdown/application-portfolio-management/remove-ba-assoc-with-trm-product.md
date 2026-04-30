@@ -1,0 +1,46 @@
+---
+title: Remove business applications associated with a Technology Reference Model product
+description: You can remove the business applications associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current business applications are associated with the TRM products.
+locale: en-US
+release: yokohama
+topic_type: task
+last_updated: "2025-06-27"
+reading_time_minutes: 1
+breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# Remove business applications associated with a Technology Reference Model product
+
+You can remove the business applications associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current business applications are associated with the TRM products.
+
+## Before you begin
+
+Role required: sn\_apm.apm\_user
+
+## Procedure
+
+1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
+
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon ![Technology portfolio icon](../../image/eaw-image/technology-portfolio-icon.png).
+
+3.  In the **TRM catalog** tab, select **TRM product list** from the View list.![TRM view list drop-down list.](../../image/eaw-image/trm-product-view-dropdown.png)
+
+4.  Select the expand row icon \(![Expand Row icon](../../image/ExpandIcon.png)\) next to the TRM product that you want to remove the business application for.
+
+5.  Select the TRM product.
+
+6.  Select **Business Applications**.
+
+7.  Select the check box next to the business applications that you want to remove and select **Remove**.
+
+    A confirmation message appears.
+
+8.  Select **Remove**.
+
+
+## Result
+
+The business application is removed from the TRM product.
+
+**Parent Topic:**[Working with an application portfolio](../../concept/eaw-concept/eaw-app-portfolio.md)
+

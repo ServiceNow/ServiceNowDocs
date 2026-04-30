@@ -1,0 +1,110 @@
+---
+title: Setup the color banding table
+description: Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
+locale: en-US
+release: yokohama
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Configure customer success, Customer success, Customer Success Management]
+---
+
+# Setup the color banding table
+
+Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
+
+## Before you begin
+
+Role required: sn\_acct\_lc.ale\_success\_agent
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Success Configurations** &gt; **Color Bandings**.
+
+2.  Click **New** to create a new color banding and enter the following details:
+
+<table id="table_cnr_qkd_zdc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Type
+
+</td><td>
+
+Select the type of color banding being created. This can be:-   Global: Use this type to create color banding that is applicable to all engagements.
+-   Metric based: This type is used to create color banding that is applicable to all engagements associated with the selected data source.
+
+
+</td></tr><tr><td>
+
+Min
+
+</td><td>
+
+Enter the minimum value that will be applicable to the color banding being created.
+
+</td></tr><tr><td>
+
+Max
+
+</td><td>
+
+Enter the maximum value that will be applicable to the color banding being created.
+
+</td></tr><tr><td>
+
+Data source
+
+</td><td>
+
+For metric based type, select the data source for which the color banding is to be created. The color banding will be applicable to all engagements associated with the data source.
+
+</td></tr><tr><td>
+
+Color
+
+</td><td>
+
+Select the color for the color field to be used to show the health score.For example, you can create a color banding with the following parameters:
+
+-   Min: 70
+-   Max: 100
+-   Color: Green
+The green color is applied to all applicable engagements with a health score that falls between 70 and 100.
+
+</td></tr><tr><td>
+
+Highlighted color
+
+</td><td>
+
+This is the color used to highlight the health score and perceived health of an engagement.
+
+</td></tr><tr><td>
+
+Context
+
+</td><td>
+
+Specify the context for which the color banding configuration is applicable. A single data source can have multiple configurations based on the context.
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+Select the category for the Min and Max ranges you have specified. This can be used to identify if the values meet the threshold, fall below, or exceed the threshold. The categories you can select are:-   Poor
+-   Neutral
+-   Good
+-   Over
+
+
+</td></tr></tbody>
+</table>

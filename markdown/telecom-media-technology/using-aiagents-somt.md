@@ -1,0 +1,32 @@
+---
+title: Using agentic workflows in Now Assist for Sales CRM for Telecommunications
+description: Use the Now Assist for Sales CRM for Telecommunications to complete tasks autonomously.
+locale: en-US
+release: yokohama
+topic_type: concept
+last_updated: "2025-10-27"
+reading_time_minutes: 1
+breadcrumb: [Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology]
+---
+
+# Using agentic workflows in Now Assist for Sales CRM for Telecommunications
+
+Use the Now Assist for Sales CRM for Telecommunications to complete tasks autonomously.
+
+Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+
+**Important:** By default, all agentic workflows and AI agent records are read only.
+
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and then proceed with the following steps:
+
+-   Activate the agentic workflow.
+-   Activate all agents within the agentic workflow.
+-   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
+
+Once you [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the agentic workflow, adjust the settings according to your requirements. Next, you [activate](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the duplicated agentic workflow. You can also [test](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US) the agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
+
+Looking for an AI agent?
+
+-   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=yokohama&pubname=yokohama-intelligent-experiences&ft:locale=en-US).
+-   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+

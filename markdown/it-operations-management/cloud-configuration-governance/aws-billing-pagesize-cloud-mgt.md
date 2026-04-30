@@ -1,0 +1,36 @@
+---
+title: Configure the download size of AWS billing data
+description: A single set of cloud billing data can be large. The MID Server, therefore, sends the data to the ECC queue in manageable chunks. You can optionally configure a system property to limit the size of each chunk to avoid performance issues caused by large data transfers.
+locale: en-US
+release: yokohama
+product: Cloud Configuration Governance
+classification: cloud-configuration-governance
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Define the schedule for downloading AWS billing data, Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+---
+
+# Configure the download size of AWS billing data
+
+A single set of cloud billing data can be large. The MID Server, therefore, sends the data to the ECC queue in manageable chunks. You can optionally configure a system property to limit the size of each chunk to avoid performance issues caused by large data transfers.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Open the System properties table by entering `sys_properties.list` in the application filter.
+
+2.  Filter the list to open the `sn_cmp.billing.page_size` property.
+
+    The default value is 3 MB.
+
+3.  Modify the value as needed.
+
+    The maximum is 5 MB.
+
+4.  Save the property.
+
+

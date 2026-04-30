@@ -1,0 +1,95 @@
+---
+title: Criteria for matching email to inbound actions
+description: The system matches incoming email to the conditions of the active inbound actions.
+locale: en-US
+release: yokohama
+topic_type: concept
+last_updated: "2026-03-07"
+reading_time_minutes: 1
+breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Criteria for matching email to inbound actions
+
+The system matches incoming email to the conditions of the active inbound actions.
+
+The default inbound actions create or update task record under these conditions.
+
+![Flowchart showing how inbound email actions are classified as forward, reply, or new based on subject line, record matching, and email headers](../image/inbound-email-action-type.png "Default matching criteria")
+
+If you customize or deactivate the default inbound actions, the system checks the conditions of the active inbound actions. If the system cannot find an inbound action with matching conditions, it sets the state to **Processed**.
+
+![Work flow for matching email to custom inbound actions](../image/processing-email-no-matching-inbound-action.png "Custom matching criteria")
+
+<table id="table_axb_pk4_m4"><thead><tr><th>
+
+Inbound email action type
+
+</th><th>
+
+Required matching criteria
+
+</th><th>
+
+Name of default action \(Incident table\)
+
+</th><th>
+
+Result of default action
+
+</th></tr></thead><tbody><tr><td>
+
+Forward
+
+</td><td>
+
+The email contains the following conditions: -   A subject starting with a recognized forward prefix \(even if a watermark or an In-Reply-To header is present\).
+-   From &lt;user email&gt; appears anywhere in the email body.
+
+</td><td>
+
+Create Incident \(Forwarded\)
+
+</td><td>
+
+Create new record
+
+</td></tr><tr><td>
+
+Reply
+
+</td><td>
+
+The email contains one of the following conditions and the table specified in the email matches the table of the inbound action: 1.  A valid watermark that matches an existing record.
+2.  A subject line starting with a recognized reply prefix \(when neither a watermark nor an In-Reply-To header is present\) and a valid record number that matches an existing record.
+3.  An In-Reply-To email header \(when no watermark is present\) that matches an existing record.
+
+</td><td>
+
+Update Incident \(BP\)
+
+</td><td>
+
+Update existing record
+
+</td></tr><tr><td>
+
+New
+
+</td><td>
+
+The email does not meet the conditions for either a reply or forward type inbound email action
+
+</td><td>
+
+Create Incident
+
+</td><td>
+
+Create new record
+
+</td></tr></tbody>
+</table>If more than one inbound action is available for a particular type, the instance uses the Table field to match the email to a particular table. If there is also more than one action for the inbound action's table, the instance uses the **Order** field to determine the order in which the actions run.
+
+**Parent Topic:**[Inbound email actions](actions-inbound-email.md)
+

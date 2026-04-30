@@ -1,0 +1,33 @@
+---
+title: Third-party registration for PIF and PFTF
+description: Onboard a supplier through the third-party registration process before you get started with Source-to-Pay Integration Framework \(PIF\) or Procurement File Transfer Framework \(PFTF\).
+locale: en-US
+release: yokohama
+product: Sourcing and Procurement Operations
+classification: sourcing-and-procurement-operations
+topic_type: reference
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Spendint API, Integrating Sourcing and Procurement Operations with other applications, Sourcing and Procurement Operations, Finance and Supply Chain]
+---
+
+# Third-party registration for PIF and PFTF
+
+Onboard a supplier through the third-party registration process before you get started with Source-to-Pay Integration Framework \(PIF\) or Procurement File Transfer Framework \(PFTF\).
+
+Navigate to **All** &gt; **Procurement Integrations** &gt; **Setup** &gt; **Third-Party Registration**. For third-party registration, following are the fields:
+
+|Field|Description|
+|-----|-----------|
+|Provider name|Unique identifier for the supplier.|
+|Supplier|Name of the supplier in the ServiceNow records.|
+|Customer id|Unique identifier for the customer.|
+|Import catalog|Supplier is allowed to import catalog, which includes price and availability.|
+|Post order|Supplier is allowed to post orders.|
+|Import invoice|Supplier is allowed to import invoices.|
+|Allow purchase order revision|Supplier allows purchase orders to be revised after confirmation.|
+|Import shipment|Supplier is allowed to import shipments.|
+|Allow multi location order|Supplier allows orders to be split for multi-location shipping.|
+
+**Parent Topic:**[Spendint API](../../../integrate/inbound-rest/concept/spendint-api.md)
+

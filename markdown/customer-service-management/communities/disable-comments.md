@@ -1,0 +1,54 @@
+---
+title: Disable comments
+description: Disable comments on a blog, document, video, event, or question to avoid users from posting comments.
+locale: en-US
+release: yokohama
+product: Communities
+classification: communities
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Moderate a community, Communities, Customer Service Management]
+---
+
+# Disable comments
+
+Disable comments on a blog, document, video, event, or question to avoid users from posting comments.
+
+## Before you begin
+
+Role required: sn\_communities.forum\_moderator, sn\_communities.community\_moderator, sn\_communities.moderation\_admin, or sn\_communities.forum\_admin
+
+## About this task
+
+There are two ways of disabling comments on the community content. You can disable comments while posting new content or restrict users from posting comments on existing content.
+
+**Note:** You can disable replies on an existing question to restrict users from posting further comments. You can’t post a new question when replies are disabled.
+
+## Procedure
+
+1.  Navigate to the community home page.
+
+    -   To disable comments on new community content:
+        1.  Choose the content type that you want to post.
+        2.  Fill the details.
+
+            **Note:** Disable Comments check box is visible only after filling details on the form.
+
+        3.  Select the **Disable Comments** check box.
+        4.  Select **Publish**.
+    -   To disable comments on existing community content:
+        1.  Choose the content that you want to disable the comments for.
+        2.  Select the more options icon \(![More options icon.](../images/moreoptions-icon.png)\) and then select**Edit**.
+        3.  Select the **Disable Comments** check box.
+        4.  Select **Save**.
+    A confirmation message appears stating that you have disabled comments. The comments on the existing content are displayed. You can’t edit an existing comment or post a new comment. All community and forum administrators and the content author receive an email notification when you disable or enable comments.
+
+
+**Parent Topic:**[Moderate a community](moderate-communities.md)
+
+**Related topics**  
+
+
+[Post and respond to content in the community](post-respond-content.md)
+

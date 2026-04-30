@@ -1,0 +1,250 @@
+---
+title: Work item form in RPA Hub
+description: Use the Work item form to view more details of the executed work items.
+locale: en-US
+release: yokohama
+product: RPA Hub
+classification: rpa-hub
+topic_type: reference
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+keywords: [mark as sensitive data rpa hub]
+breadcrumb: [RPA Hub reference, RPA Hub, Robotic Process Automation \(RPA\) Hub, Data and Automation]
+---
+
+# Work item form in RPA Hub
+
+Use the Work item form to view more details of the executed work items.
+
+<table id="table_g5y_gbx_2rb"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the work item.
+
+</td></tr><tr><td>
+
+Work Queue
+
+</td><td>
+
+Name of the queue.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Status of the work item.
+
+</td></tr><tr><td>
+
+Exception Type
+
+</td><td>
+
+Type of the exception:-   **Application** - For example, if an issue persists with an associated application such as SAP.
+-   **Business** - For example, if an issue requires a manual intervention to fix it.
+
+ The auto retry functionality retries the work items based on the exception type.
+
+ If the **Exception Type** field is **Application**, then the work item is auto retried.
+
+ Roles required to edit this field: RPA robot.
+
+</td></tr><tr><td>
+
+Started On
+
+</td><td>
+
+Start date and time of the work item.
+
+</td></tr><tr><td>
+
+Completed On
+
+</td><td>
+
+Completion date and time of the work item.
+
+</td></tr><tr><td>
+
+Attempts Count
+
+</td><td>
+
+Number of times the work item is picked for auto retry.The minimum value is 0.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Details
+
+</td></tr><tr><td>
+
+Priority
+
+</td><td>
+
+Priority of the work item:-   **Critical**
+-   **High**
+-   **Medium**
+-   **Low**
+
+The assigned robot executes the bot process as per the defined priority in the work queue.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+String field to define the type of work item.
+
+</td></tr><tr><td>
+
+Stage
+
+</td><td>
+
+Custom field for the robot to maintain different stages of the transaction.
+
+</td></tr><tr><td>
+
+SLA
+
+</td><td>
+
+Time and date that the SLA was started.
+
+</td></tr><tr><td>
+
+Robot
+
+</td><td>
+
+Name of the robot that is assigned to the work queue.
+
+</td></tr><tr><td>
+
+Created
+
+</td><td>
+
+Creation date and time of the work item.
+
+</td></tr><tr><td>
+
+Last Started Time
+
+</td><td>
+
+Last start time of the work item.
+
+</td></tr><tr><td>
+
+Deferred Till
+
+</td><td>
+
+Work item that is not picked until the specified date and time.
+
+</td></tr><tr><td>
+
+Completed By
+
+</td><td>
+
+Name of the robot who has completed the work item.
+
+</td></tr><tr><td>
+
+Remarks
+
+</td><td>
+
+Remarks updated by the robot runtimes.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Content
+
+</td></tr><tr><td>
+
+Request Content
+
+</td><td>
+
+Non sensitive content which is displayed in plain text in the Work Item form and can be used for work item processing.
+
+</td></tr><tr><td>
+
+Sensitive Request Content
+
+</td><td>
+
+Sensitive request content which is encrypted and masked in the Work Item form and can be used for work item processing.When the work item is picked, the sensitive data is decrypted and passed to the RPA Desktop Design Studio or robots.
+
+With this option, you can pass sensitive information through queues. For example, credit card details are encrypted.
+
+</td></tr><tr><td>
+
+Response Content
+
+</td><td>
+
+Content that is added or updated when a work item is picked after the transaction.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Transaction Activity
+
+</td></tr><tr><td>
+
+Work notes
+
+</td><td>
+
+Work notes for the work item.
+
+</td></tr><tr><td>
+
+Additional Comments
+
+</td><td>
+
+Comments for updating this work item.
+
+</td></tr><tr><td>
+
+Activity
+
+</td><td>
+
+Transaction logs for the selected work item.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[RPA Hub reference](rpa-hub-reference.md)
+
+**Related topics**  
+
+
+[Manage your work items](../task/manage-work-queue-items.md)
+
+[Queue form in RPA Hub](queue-form.md)
+
+[Using auto-retry functionality for your failed work items in RPA Hub](../concept/auto-retry-wqi-rpa.md)
+
+[Queue implementation in RPA Hub](../concept/queues-implement-rpa.md)
+

@@ -1,0 +1,32 @@
+---
+title: Activate the Record Generator
+description: Activate the record generator to the portal case and display the new guided playbook to the user. Portal users can navigate through the playbook steps to complete the case intake.
+locale: en-US
+release: yokohama
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+---
+
+# Activate the Record Generator
+
+Activate the record generator to the portal case and display the new guided playbook to the user. Portal users can navigate through the playbook steps to complete the case intake.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Playbook Experience** &gt; **Record Generators**.
+
+2.  In the list, select the **Table name** - **sn\_onboarding\_case** with **Process Definition** name - **Onboarding with Self-Service**.
+
+3.  Select **Edit**.
+
+4.  Select the **Active** check box.
+
+5.  Select **Update**.
+
+

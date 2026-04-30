@@ -1,0 +1,52 @@
+---
+title: Export a report to PDF
+description: Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the Compliance Workspace. This feature enables the stakeholders who may not have access to the application can still access the data.
+locale: en-US
+release: yokohama
+product: Regulatory Change Management Service Portal
+classification: regulatory-change-management-service-portal
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
+---
+
+# Export a report to PDF
+
+Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the Compliance Workspace. This feature enables the stakeholders who may not have access to the application can still access the data.
+
+## Before you begin
+
+Role required: sn\_grc\_case\_mgmt.grc\_case\_analyst. A user with the sn\_comp\_case.compliance\_​case\_analyst role contains the sn\_grc\_case\_mgmt.grc\_case\_analyst role.
+
+## About this task
+
+You can export compliance data to PDF reports for easy sharing with audit teams, partners, or internal committees, eliminating the requirement for application access. A compliance administrator can select a predefined template or create a customized document template to generate reports. For more information, see [Configure a PDF document template](https://www.servicenow.com/docs/access?context=configure-editable-pdf&version=yokohama&pubname=yokohama-employee-service-management&ft:locale=en-US).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Regulatory Change Management** &gt; **Compliance Workspace**.
+
+2.  Select the list icon ![](../../grc-ai-risk-compliance/image/list-icon-airc-ws.png).
+
+3.  To generate a compliance case report, select **All cases**.
+
+4.  To generate a compliance request report, select **All requests**.
+
+5.  Open the compliance case or compliance request that you want to export as a PDF report.
+
+6.  Select the more actions icon ![](../../grc-workspace-audit/image/MoreActionsIcon.jpg).
+
+7.  Select **Export PDF**.
+
+    The **Export PDF** button appears only when a document template is specified in the record type.
+
+8.  Select the template to generate a PDF report.
+
+9.  Select **Export**.
+
+    A PDF report is generated and is available in the **Attachments** section of the record to download.
+
+10. To download a local copy of the PDF report, select the more actions icon ![](../../grc-compliance-case-mgmt/image/more-actions-vertical-icon.png) on the PDF report, and select **Download**.
+
+

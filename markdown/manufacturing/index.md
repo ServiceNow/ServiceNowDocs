@@ -1,0 +1,55 @@
+---
+title: Yokohama Manufacturing
+locale: en-US
+release: yokohama
+bundle: mftg
+doc_type: toc
+---
+
+# Yokohama Manufacturing
+
+- [Manufacturing Commercial Operations]()
+  - [Exploring Manufacturing Commercial Operations]()
+    - [MCO core features]()
+      - [Sales promotion](mco-sls-prom-clms.md)
+      - [Recall campaign](mco-rcl-clms.md)
+      - [Repair claims](mco-warranty-clms.md)
+    - [Agents workspace](mco-landing-page.md)
+    - [Manufacturing Commercial Operations Dealer portal](mco-dealer-portal.md)
+    - [Additional features](additional-features.md)
+  - [Configuring Manufacturing Commercial Operations](configuring-manufacturing-foundation.md)
+    - [Set up your environment](setup-your-environment.md)
+      - [Getting started with Manufacturing Commercial Operations](getting-started-mco.md)
+        - [Install Manufacturing Commercial Operations](install-manufacturing-commercial-operations-core.md)
+        - [Plugins installed with Manufacturing Commercial Operations]()
+      - [Set up additional requirements (optional)](set-up-additional-plugins.md)
+        - [Installing Customer Service Management for MCO](mco-install-cust-ser-mgmt.md)
+          - [Configure the Business Portal](mco-business-portal-configure.md)
+        - [Install and configure Order Management](mco-install-som.md)
+        - [Install and configure Service Exchange for Providers and Consumers](mco-install-configure-sb-providers.md)
+    - [Set up Manufacturing Commercial Operations](mco-setup.md)
+      - [Create a warranty contract](create-warranty-contracts.md)
+        - [Related list for a warranty contract](related-list-for-an-warranty-contract.md)
+          - [Create an entitlement](mco-create-entitlements.md)
+          - [Create an asset](mco-create-assets-covered.md)
+          - [Create terms and conditions for a contact](mco-create-terms-and-conditions.md)
+          - [Create a contact](mco-create-contract-contact.md)
+          - [Create a case](create-new-case.md)
+        - [Create a labor code](create-labor-code.md)
+        - [Configuring product models](mco-product-models.md)
+          - [Modify a product model](mco-create-prod-mod.md)
+        - [Configuring assets](mco-assets.md)
+        - [Create an install base item](mco-create-install-base-item.md)
+          - [Related list for an install base item](mco-related-list-intall-base.md)
+    - [Set up dealer](set-up-dealer.md)
+      - [Create an internal business location](mco-create-internal-business-location.md)
+      - [Create a channel partner](mco-create-channel-partner.md)
+      - [Adding and associating company records](adding-company-records.md)
+      - [Adding staff members](adding-staff-members.md)
+        - [Add members to an internal business location](mco-internal-business-location.md)
+        - [Add members to an channel partner](mco-add-members-to-an-channel-partner.md)
+      - [Assign roles](assign-mco-roles.md)
+    - [Set up sales promotion](mco-set-up-sls-prom.md)
+      - [Create promotion type](create-promotion-type.md)
+      - [Create promotion questionnaire](mco-create-input-set.md)
+        - [Create an MCO input attribute](mco-input-attributes.md)

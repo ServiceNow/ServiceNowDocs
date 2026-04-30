@@ -1,0 +1,383 @@
+---
+title: Security Exposure Management Workspace Health dashboard
+description: The Vulnerability Response Health dashboard is a tool designed to empower organizations with comprehensive insights into the implementation and usage of their Security Exposure Management applications.
+locale: en-US
+release: yokohama
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 6
+breadcrumb: [Explore, Unified Security Exposure Management, Security Operations]
+---
+
+# Security Exposure Management Workspace Health dashboard
+
+The Vulnerability Response Health dashboard is a tool designed to empower organizations with comprehensive insights into the implementation and usage of their Security Exposure Management applications.
+
+The overall health assessment is determined by aggregating various critical factors across configuration, implementation, integration, performance, data, and process. View the aggregate dashboard for each category for the following applications:
+
+-   Vulnerability Response
+-   Application Vulnerability Response
+-   Container Vulnerability Response
+-   ​Configuration Compliance​
+
+## Installing the SecOps Vulnerability Response Health Dashboard
+
+To install and configure the SecOps Vulnerability Response Health Dashboard for Vulnerability Response applications in your ServiceNow AI Platform instance, navigate to the ServiceNow® Store and activate the SecOps Health Analytics \(sn\_sec\_analytics\) plugin.
+
+## Required ServiceNow AI Platform roles
+
+Roles required: sn\_sec\_analytics.admin, sn\_sec\_analytics.read
+
+## Scheduled job
+
+To view the scheduled job, navigate to **All** &gt; **System Scheduler** &gt; **Scheduled Jobs** &gt; **Collect health dashboard metrics**. The 'Collect health dashboard metrics' scheduled job is run daily at 00:00 hours. It generates the data for the SecOps Vulnerability Response Health dashboard. You can choose to run the scheduled job manually as well.
+
+## Accessing the SecOps Vulnerability Response Health Dashboard
+
+To access the SecOps Vulnerability Response Health Dashboard,
+
+1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
+
+2.  Select the **Dashboards** icon.
+3.  Select **SecOps Vulnerability Response Health Dashboard** from the drop-down list.
+
+## Use cases
+
+For examples of how people in your organization would use this dashboard, see these use cases.
+
+<table id="table_hk1_msm_hpb"><thead><tr><th>
+
+User
+
+</th><th>
+
+Dashboard use
+
+</th></tr></thead><tbody><tr><td>
+
+Vulnerability admin
+
+</td><td>
+
+Helps you gain an understanding of the health score of the Unified Security Exposure Management applications. It’s also helpful to highlight the areas that need improvement. The Vulnerability Response Health Dashboard deals with the implementation and usage health only. It doesn’t assist with management of findings.
+
+</td></tr><tr><td>
+
+Support admin
+
+</td><td>
+
+Helps you to identify the performance, customization, and configuration issues using KPIs. Based on the application health, you can perform an extra analysis or provide a recommendation to the users.
+
+</td></tr><tr><td>
+
+Implementation partner
+
+</td><td>
+
+Helps you to evaluate the Unified Security Exposure Management implementation health for configurations, add-ons, customizations, and integrations, and provide improvement recommendations for the users.
+
+</td></tr></tbody>
+</table>## The SecOps Vulnerability Response Health Dashboard tabs
+
+To view the SecOps Vulnerability Response Health dashboard, navigate to **Security Operation Health** &gt; **Vulnerability Response Health**. Each color in the dashboard represents the following:
+
+-   Green: Safe
+-   Yellow: Warning
+-   Red: Critical
+
+This dashboard communicates the overall health score for the configuration and remediation health of the Unified Security Exposure Management applications.![SecOps - VR Health dashboard - Summary tab](../../vulnerability-response/image/secops-vr-health-dashboard-summary.png)
+
+This dashboard displays the configuration and integration health of your implementation. It provides a holistic overview of the implementation performance.![SecOps - VR Health dashboard - System Health tab](../../vulnerability-response/image/secops-vr-health-dashboard-system-health.png)
+
+This dashboard displays the data health of the Unified Security Exposure Management applications.![SecOps - VR Health dashboard - Remediation Health tab](../../vulnerability-response/image/secops-vr-health-dashboard-rem-health-tab.png)
+
+This dashboard displays the trends for the findings ingestion performance metrics for the past 30 days for the Unified Security Exposure Management applications.![SecOps - VR Health dashboard - Trends tab](../../vulnerability-response/image/secops-vr-health-dashboard-trends.png)
+
+## Reports
+
+**Note:** The threshold values are a part of the base system. You can configure the values based on your requirements.
+
+|Title|Description|
+|-----|-----------|
+|Overall health|Overall health score for the Unified Security Exposure Management applications. For more information, see the reports for the metrics.|
+|Configuration|Overall configuration health of the Unified Security Exposure Management applications.|
+|Implementation health|Overall implementation health of the Unified Security Exposure Management applications.|
+|Integration health|Overall integration health of the Unified Security Exposure Management applications.|
+|Performance|Overall performance health score of the VR applications.|
+|Data health|Overall data health of the Unified Security Exposure Management applications.|
+|Process health|Overall process health score of the Unified Security Exposure Management applications.|
+
+|Title|Description|Considerations for improving performance|Threshold warning|Threshold critical|
+|-----|-----------|----------------------------------------|-----------------|------------------|
+|Configuration|
+|Auto-delete rules|Displays the number of enabled auto-delete rules.|Review and resolve the inactive auto-delete rules.|3|1|
+|Auto-close stale records|Closes stale detections automatically. For more information, see the[Closing stale detections and findings automatically using auto-close rules](../../security-exposure-management-administration/concept/sem-closing-stale-findings-automatically.md).|Reduce the volume of stale detections. Enable this option to close the stale detections that aren’t closed by the scanners.|3|1|
+|Implementation health|
+|Customized script includes|Number of 'script includes' customized.|Minimize customized 'script includes' for easier upgrades.|10|12|
+|Business rules on the detections table|Number of customized business rules in the detection table.|Minimize business rules for easier upgrades.|4|8|
+|Customized business rules|Number of customized business rules before creation of records in the CMDB.|Use the default business rules on records.|5|8|
+|Upgrade conflicts|Conflicts such as business rules and scripts identified on an upgrade.|Review and resolve the upgrade conflicts.|10|15|
+|PA installed but not activated|Indicates if the Performance Analytics dashboard is not enabled.|Activate the PA dashboard.|10|15|
+|Integration health|
+|Disabled integrations|Number of integrations that have been disabled.|Review and enable the required integrations.|6|9|
+|Failed integration runs in the past week|Number of integration runs that weren’t successful in the past week.|Review and resolve the cause of the failed integration runs.|9|12|
+|Performance|
+|Slow business rules and scripts|Business rules and scripts whose average execution time greater than 10 ms and execution count greater than 10,000.|Review and resolve the slow-running business rules.|10|15|
+|Stalled integrations|Number of integrations that were timed-out before completion.|Review and resolve the cause of the stalled integrations.|10|15|
+|Failed or stalled background jobs|Failed or timed-out background jobs in the past week.|Review and resolve the cause of the failed jobs.|5|10|
+|Slow queries|Queries whose average execution time is greater than 10 ms and execution count is greater than 10,000.|Review and resolve the slow-running business rules.|10|15|
+
+<table id="table_s4x_2hj_nvb"><thead><tr><th>
+
+Title
+
+</th><th>
+
+Description
+
+</th><th>
+
+Considerations for improving performance
+
+</th><th>
+
+Threshold warning
+
+</th><th>
+
+Threshold critical
+
+</th></tr></thead><tbody><tr><td colspan="5">
+
+Data Health
+
+</td></tr><tr><td>
+
+Discovered item matching rate
+
+</td><td>
+
+Number of discovered items matched to existing CIs.
+
+</td><td>
+
+Review the health of your CMDB and the CI lookup rules logic.
+
+</td><td>
+
+50
+
+</td><td>
+
+20
+
+</td></tr><tr><td>
+
+Unmatched CIs in discovered items
+
+</td><td>
+
+Discovered items in unmatched state.
+
+</td><td>
+
+Review the health of your CMDB and the CI lookup rules logic.
+
+</td><td>
+
+9
+
+</td><td>
+
+12
+
+</td></tr><tr><td>
+
+Unused CI lookup rules
+
+</td><td>
+
+CI lookup rules that aren’t associated with any discovered item.
+
+</td><td>
+
+Change the status of the unused CI lookup rules to inactive.
+
+</td><td>
+
+4
+
+</td><td>
+
+6
+
+</td></tr><tr><td>
+
+Discovered item with no CI
+
+</td><td>
+
+Discovered item with no configuration item.
+
+</td><td>
+
+Review and reapply CI lookup rules.
+
+</td><td>
+
+9
+
+</td><td>
+
+12
+
+</td></tr><tr><td>
+
+Defective active records
+
+</td><td>
+
+Records without a configuration item or vulnerability.
+
+</td><td>
+
+Retire the CIs using the CMDB CI Lifecycle Management option.**Note:** Deleting CIs directly can result in orphan VITs.
+
+</td><td>
+
+40
+
+</td><td>
+
+60
+
+</td></tr><tr><td>
+
+Remediation tasks without assignment group
+
+</td><td>
+
+Active remediation tasks whose assignment group is yet to be assigned.
+
+</td><td>
+
+Assign remediation tasks to an assignment group and review the existing assignment rules.
+
+</td><td>
+
+40
+
+</td><td>
+
+60
+
+</td></tr><tr><td>
+
+Closed records without substate
+
+</td><td>
+
+Records that are closed without a substate.
+
+</td><td>
+
+Provide information in the Reason field while closing the records.
+
+</td><td>
+
+40
+
+</td><td>
+
+50
+
+</td></tr><tr><td colspan="5">
+
+Process Health
+
+</td></tr><tr><td>
+
+Active records without risk score
+
+</td><td>
+
+Active records with a risk score of 0 or with no risk score assigned.
+
+</td><td>
+
+Review and resolve the risk rules.
+
+</td><td>
+
+40
+
+</td><td>
+
+60
+
+</td></tr><tr><td>
+
+Unassigned active records
+
+</td><td>
+
+Records without an assignment group.
+
+</td><td>
+
+Assign a group to the records and review the existing assignment rules.
+
+</td><td>
+
+30
+
+</td><td>
+
+50
+
+</td></tr><tr><td>
+
+Items without Remediation Target
+
+</td><td>
+
+Items without a remediation target date.
+
+</td><td>
+
+Review and resolve the remediation target rules. These rules must include all the records.
+
+</td><td>
+
+30
+
+</td><td>
+
+50
+
+</td></tr><tr><td>
+
+Ungrouped active records
+
+</td><td>
+
+Records that aren’t included in a remediation task rule.
+
+</td><td>
+
+Review the remediation task rules.
+
+</td><td>
+
+40
+
+</td><td>
+
+60
+
+</td></tr></tbody>
+</table>|Title|Description|
+|-----|-----------|
+|Last 30 days vulnerable item ingestion performance metrics|Average time taken to ingest vulnerable items and process multiple rules in the past 30 days.|
+

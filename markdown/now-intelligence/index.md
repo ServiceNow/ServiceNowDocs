@@ -1,0 +1,57 @@
+---
+title: Yokohama Platform Analytics
+locale: en-US
+release: yokohama
+bundle: par
+doc_type: toc
+---
+
+# Yokohama Platform Analytics
+
+- [Platform Analytics](c_performanceAnalyticsAndReporting.md)
+  - [Platform Analytics experience](par-workspace.md)
+    - [Platform Analytics Migration Center](data-migration.md)
+      - [Perform full data migration](data-migration-perform.md)
+        - [Evaluate full data migration](data-migration-evaluate.md)
+        - [Relaunch data migration](data-migration-relaunch.md)
+        - [Migrated artifact locations](data-migration-artefact-locations.md)
+        - [Migration log locations](data-migration-log-locations.md)
+      - [Migrate a selection of Core UI dashboards](data-migration-perform-partial.md)
+      - [Block migration of specific artifacts](data-migration-block-specific.md)
+      - [Content not migrated or migrated in compatibility mode](data-mig-unmigrated-content.md)
+      - [Roll back migrated dashboards](roll-back-single-db.md)
+      - [Migrate non-responsive dashboards](migrate-non-responsive-dbs.md)
+    - [Dashboards](analytics-center-dashboards.md)
+      - [Explore](ac-elements.md)
+        - [Dashboards in the library](find-dashboard-library.md)
+          - [Finding Next Experience dashboards](find-next-exp-db.md)
+        - [Dashboard elements](dashboard-elements.md)
+        - [Differences between Core UI and Platform Analytics dashboards](differences-between-core-ui-ne-dbs.md)
+        - [Different approaches to dashboards](approaches-dashboards.md)
+      - [Create, share, edit, and more](common-dashboard-tasks.md)
+        - [Create a dashboard in-line](create-db-in-ac.md)
+        - [Edit a dashboard](edit-db-in-ac.md)
+          - [Edit dashboard elements](edit-db-elements-in-ac.md)
+          - [Add images to dashboard cards](add-images-db-cards-ac.md)
+        - [Share a dashboard](share-db-in-ac.md)
+        - [Duplicate a dashboard](duplicate-db.md)
+          - [Duplicate a dashboard tab](duplicate-db.md)
+        - [Print a dashboard](printer-friendly-db-ac.md)
+        - [Export a Platform Analytics dashboard](export-pae-dashboard-ppt.md)
+        - [Schedule the export of dashboards and data visualizations](schedule-export-dboards-data-viz.md)
+        - [Bookmark a dashboard](bookmark-dashboard-ac.md)
+        - [Delete a dashboard](delete-db-in-ac.md)
+          - [Configure dashboard deletion actions in the Workflow Studio](delete-db-in-ac-wf.md)
+      - [Configure](configuring-dashboards.md)
+        - [Configure dashboard details](config-db-in-ac.md)
+        - [Configure dashboard settings](configure-ac-db-settings.md)
+        - [Configure dashboard tab cache timeout](configure-ac-db-timeout.md)
+        - [Dashboard categories](db-categories.md)
+          - [Create dashboard categories](db-categories-create.md)
+          - [Assign dashboard categories](db-categories-assign.md)
+          - [Manage dashboard categories](db-categories-manage.md)
+        - [Certify a dashboard](certify-db-ac.md)
+        - [Set dashboards as home for all users](set-pae-dashboards-as-home-for-all-users.md)
+          - [Set a specific Platform Analytics dashboard as home for all users](set-specific-pae-db-as-home-for-all-users.md)
+          - [Set a specific Platform Analytics dashboard as home for specific users](set-one-pae-db-as-home-for-specified-users.md)
+        - [Move an in-line dashboard to another instance](move-pae-db-with-update-set.md)

@@ -1,0 +1,30 @@
+---
+title: Exploring Now Assist for IT Operations Management \(ITOM\)
+description: The Now Assist for IT Operations Management \(ITOM\) application uses generative AI to provide alert analyses. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+locale: en-US
+release: yokohama
+product: Now Assist for IT Operations Management
+classification: now-assist-for-it-operations-management
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+keywords: [generative AI for IT Operations Management, generative AI for ITOM]
+breadcrumb: [Now Assist for ITOM, IT Operations Management]
+---
+
+# Exploring Now Assist for IT Operations Management \(ITOM\)
+
+The Now Assist for IT Operations Management \(ITOM\) application uses generative AI to provide alert analyses. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+
+Alert analysis is a crucial feature that completely transforms the alert triage process and can help achieve faster, seamless alert management. Powered by generative AI, it uses a large language model \(LLM\) to generate human-readable alert titles and detailed descriptions based on enriched and actionable alert data. The AI-generated alert information facilitates quick alert triage and effective analysis for your team, which can lead to a substantial reduction in resolution time.
+
+Alert analysis enhances the efficiency and effectiveness of alert management.
+
+Key features include:
+
+-   Automatic generation of clear, easy-to-understand alert descriptions.
+-   Availability of the analysis in the Alert form and Express List.
+-   Ability to refresh and regenerate data using card refresh.
+
+**Note:** Currently, Now Assist for ITOM only analyzes tag-based, CMDB, Log Analytics, Mixed, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
+

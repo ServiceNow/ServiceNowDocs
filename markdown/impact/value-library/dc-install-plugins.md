@@ -1,0 +1,148 @@
+---
+title: Install Data Collection Content Pack dependent plugins
+description: Install the dependent plugins for Data Collection Content Pack apps
+locale: en-US
+release: yokohama
+product: Value Library
+classification: value-library
+topic_type: task
+last_updated: "2025-02-18"
+reading_time_minutes: 1
+breadcrumb: [Data Collection Toolkit, Value Management, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+---
+
+# Install Data Collection Content Pack dependent plugins
+
+Install the dependent plugins for Data Collection Content Pack apps
+
+## Before you begin
+
+Role required: admin
+
+-   Install the ServiceNow Impact store application in your ServiceNow instance before you enable Value Management data collection apps plugins.
+-   Install at least one dependency plugin to enable data collection jobs in Impact value management data collection apps. The only exception is Strategic Portfolio Management, which requires both dependency plugins to be installed to enable data collection functionality.
+
+**Note:** Install the ServiceNow Impact store application in your ServiceNow instance before you enable Data Collection Content Pack plugins.
+
+## Procedure
+
+1.  Navigate to **System Definitions** &gt; **Plugins**.
+
+2.  Search for the plugins that are required for the respective content pack installation.
+
+3.  Ensure that all dependent plugins are installed before activating the Data Collection content pack jobs.
+
+    The following dependent plugins must be installed to support the functionality of Data Collection apps:
+
+<table id="choicetable_jpr_lyl_k2c"><thead><tr><th align="left" id="d46238e108">
+
+Data Collection Content Pack
+
+</th><th align="left" id="d46238e111">
+
+Dependent plugins
+
+</th></tr></thead><tbody><tr><td id="d46238e117">
+
+**IT Operations Management \(ITOM\)**
+
+</td><td>
+
+Event Management Core \(sn\_em\_ai\)
+
+</td></tr><tr><td id="d46238e126">
+
+**HR Service Delivery \(HRSD\)
+
+**
+
+</td><td>
+
+Human Resources Scoped App: Core \(com.sn\_hr\_core\)
+
+</td></tr><tr><td id="d46238e138">
+
+**Strategic Portfolio Management \(SPM\)
+
+**
+
+</td><td>
+
+-   PPM Standard \(com.snc.financial\_planning\_pmo\)
+-   Goal Framework \(sn\_gf\)
+
+
+</td></tr><tr><td id="d46238e159">
+
+**Application Portfolio Management \(APM\)**
+
+</td><td>
+
+Enterprise Architecture \(com.snc.apm\)
+
+</td></tr><tr><td id="d46238e169">
+
+**App Engine**
+
+</td><td>
+
+App Engine Studio \(sn\_app\_eng\_studio\)
+
+</td></tr><tr><td id="d46238e178">
+
+**Customer Service \(CSM\)**
+
+</td><td>
+
+Customer Service Management\(com.sn\_customerservice\)
+
+</td></tr><tr><td id="d46238e187">
+
+**Security Operations \(SecOps\)
+
+**
+
+</td><td>
+
+-   Security Incident Response Dependencies \(Id: com.snc.si\_dep\)
+-   Vulnerability Response Dependencies \(Id: com.snc.vul\_dep\)
+-   Security Incident Response \(sn\_si\)
+-   Vulnerability Response \(sn\_vul\)
+
+
+</td></tr><tr><td id="d46238e214">
+
+**Hardware Asset Management \(HAM\)**
+
+</td><td>
+
+Hardware Asset Management \(sn\_hamp\)
+
+</td></tr><tr><td id="d46238e223">
+
+**Software Asset Management \(SAM\)
+
+**
+
+</td><td>
+
+-   Major Incident Management plugin\(com.snc.incident.mim\)
+-   SaaS License Management plugin \(com.sn\_sam\_saas\_int\)
+
+
+</td></tr><tr><td id="d46238e244">
+
+**Integrated Risk Management \(IRM\)
+
+**
+
+</td><td>
+
+-   GRC: Policy and Compliance Management \(sn\_compliance\)
+-   GRC: Advanced Risk \(sn\_risk\_advanced\)
+-   ServiceNow Audit \(sn\_audit\)
+-   ServiceNow risk assessment \(sn\_risk\_assessment\)
+
+
+</td></tr></tbody>
+</table>

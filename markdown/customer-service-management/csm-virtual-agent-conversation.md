@@ -1,0 +1,204 @@
+---
+title: Get help using virtual agent conversations
+description: Predefined Customer Service Virtual Agent chatbot conversations help your customers complete common self-service tasks, such as getting help with a product or checking the status of a case. Use predefined NLU with your virtual agent chatbot topics to enable the chatbot to assess user intent and provide the best response based on the conversation's context.
+locale: en-US
+release: yokohama
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 5
+breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+---
+
+# Get help using virtual agent conversations
+
+Predefined Customer Service Virtual Agent chatbot conversations help your customers complete common self-service tasks, such as getting help with a product or checking the status of a case. Use predefined NLU with your virtual agent chatbot topics to enable the chatbot to assess user intent and provide the best response based on the conversation's context.
+
+## Before you begin
+
+Role required: sn\_customerservice.customer, sn\_customerservice.consumer
+
+If you’re an anonymous user not logged in to the application, you can get help by entering keywords for an issue and choose to get transferred to a live agent.
+
+A user with a proxy\_contact role can also check the case status for a customer.
+
+## About this task
+
+The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task. If you have a question or an issue with an existing product or order, the virtual agent searches the keyword and displays relevant knowledge articles that can help resolve the issue. If there are no relevant articles, it creates a case.
+
+ServiceNow NLU enables discovery of the chatbot topics based on either the keywords entered in the chat or the user-intent and matches an entity with the user input. If there’s a match, it also makes the entity available to the topic.
+
+## Procedure
+
+1.  Navigate to the Customer Service Management portal.
+
+2.  Select **Chat**.
+
+    You can select **Show Me Everything** to display all available topics or enter keywords to narrow down the results to relevant topics.
+
+3.  If you’re a logged-in user, enter keywords to get help on a case, an issue, or an order.
+
+    -   If an NLU is enabled, it guides you through the right topic based on the utterance.
+    -   If an NLU isn’t enabled, it displays topics based on the match for the entered keywords. You can make a selection from all available topics displayed.
+    **Note:** Contact your administrator to determine whether the topics are NLU-enabled.
+
+4.  Use
+
+<table id="choicetable_cfq_4xm_rgb"><thead><tr><th align="left" id="d267940e143">
+
+To
+
+</th><th align="left" id="d267940e146">
+
+Follow these steps
+
+</th></tr></thead><tbody><tr><td id="d267940e152">
+
+**Check the status of a case**
+
+</td><td>
+
+1.  Initiate checking the case status.
+    -   If you’re using the virtual agent conversation without enabling NLU, select **Check Case Status**.
+    -   If you’re using NLU in your virtual agent conversation, enter an utterance to check the status of a case.
+
+**Note:** If you provide a case number, you’ll be presented with the details of the case.
+
+2.  Select a case from the case list that you would like to get help for.
+3.  When the case information displays, you can do one of the following:
+    -   Add a comment
+    -   Attach a picture
+    -   Check another case
+    -   Contact an agent.
+
+
+</td></tr><tr><td id="d267940e212">
+
+**Get help with a product**
+
+</td><td>
+
+Enter a keyword for your issue. The chatbot returns a list of related knowledge articles to help resolve your issue. If there are no matching articles associated with the description, a case is automatically created with the following information:
+
+-   Case identification number
+-   Short description
+-   State
+-   Priority
+ Take any of the following additional actions:
+
+-   Update the product and asset
+-   Add a comment
+-   Attach a picture
+-   Contact an agent
+
+
+</td></tr><tr><td id="d267940e261">
+
+**Get help with an order**
+
+</td><td>
+
+1.  Initiate checking the status of your order.
+    -   If you’re using the virtual agent conversation without enabling NLU, select **Get Help with Order**.
+    -   If you’re using NLU in your virtual agent conversation, enter an utterance to get help on an order.
+
+**Note:** If you provide an order number, you’ll be presented with the details of the order.
+
+2.  Select an order from the list of your orders that you would like to get help for.
+3.  Take any of the following additional actions:
+    -   Add a comment
+    -   Attach a picture
+    -   Contact an agent
+
+
+</td></tr><tr><td id="d267940e318">
+
+**Get help**
+
+</td><td>
+
+If you’re an anonymous user not logged in to the application, enter keywords for your issue. The chatbot returns a list of related knowledge articles that have been made public. If there are no matching articles that would help resolve the issue, you can choose to be transferred to a live agent.
+
+</td></tr><tr><td id="d267940e340">
+
+**Submit Request**
+
+</td><td>
+
+1.  Initiate submitting your request for one of the catalog items.
+    -   If you’re using the virtual agent conversation without enabling NLU, select **Show Me Everything** and then select **Submit a request**.
+    -   If you’re using NLU in your virtual agent conversation, enter an utterance. For example, open a request that identifies an associated NLU intent.
+2.  Select the catalog item. The Search Catalog Item topic block searches for the catalog item and displays a link based on your search. For more information about search catalog item, see [ITSM Virtual Agent](https://www.servicenow.com/docs/access?context=itsm-virtual-agent&version=yokohama&pubname=yokohama-it-service-management&ft:locale=en-US)
+
+**Note:** Wherever the topic is opened, the records display on the same portal.
+
+3.  Select the link displayed and exit the virtual agent if you don’t have any further request.
+
+
+</td></tr><tr><td id="d267940e389">
+
+**Create Case**
+
+</td><td>
+
+Creates a case from Virtual Agent. You need the following fields to create a case:
+
+-   short\_description \(required\)
+-   description
+-   account\_sys\_id
+-   contact\_sys\_id
+-   consumer\_sys\_id
+The values of the fields can be empty. If the account, contact, and consumer fields are empty, the logged-in user details are populated. The topic block returns the variable case\_sys\_id from the topic block.
+
+</td></tr><tr><td id="d267940e419">
+
+**Update Case**
+
+</td><td>
+
+Updates a case from Virtual agent. You need the following two fields to update a case:
+
+ -   case\_sys\_id \(required\) - must be a valid case ID. If the ID is valid, then the following four options are displayed:
+    -   Add product information is displayed only if enable\_product\_update is set to true.
+    -   Add a comment
+    -   Attach an image
+    -   Cancel
+-   enable\_product\_update - If set to true, the Add product information option is displayed. It updates the asset and model information.
+The topic block returns the variable case\_sys\_id
+
+</td></tr><tr><td id="d267940e456">
+
+**Log a complaint**
+
+</td><td>
+
+Select this option to create a complaint case from Virtual Agent. Provide a brief description of the complaint and review the contextual search results. If the results don’t provide an answer, enter the following information to create a case:
+
+-   Complaint type
+-   Product or location
+-   Category and subcategory \(if applicable\)\(
+-   Date
+-   Complaint details
+-   Expected resolution
+ After the case is created, you can add a comment to the case or add attachments.
+
+**Note:** This option is available with the [Case Playbook for Complaints](../concept/csm-playbook-complaint-overview.md) application.
+
+</td></tr><tr><td id="d267940e511">
+
+**Request a callback**
+
+</td><td>
+
+Request a callback when the wait time to reach agents is long or agents are unavailable.
+
+</td></tr></tbody>
+</table>5.  To exit a chat conversation, select **I'm done**.
+
+
+**Related topics**  
+
+
+[Customer Service Virtual Agent conversations](../concept/csm-virtual-agent-chatbot.md)
+
+[Maximizing code reuse with topic blocks](https://www.servicenow.com/docs/access?context=topic-blocks-overview&version=yokohama&pubname=yokohama-conversational-interfaces&ft:locale=en-US)
+

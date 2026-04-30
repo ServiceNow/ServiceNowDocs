@@ -1,0 +1,135 @@
+---
+title: User resolution rule fields
+description: Fields on the User Resolutions Rules page help you create a rule to map the User field in the Software Subscription \[samp\_sw\_subscription\] table to an associated user in the User \[sys\_user\] table within the ServiceNow AI Platform.
+locale: en-US
+release: yokohama
+product: Software Asset Management
+classification: software-asset-management
+topic_type: reference
+last_updated: "2025-01-30"
+reading_time_minutes: 2
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+---
+
+# User resolution rule fields
+
+Fields on the User Resolutions Rules page help you create a rule to map the **User** field in the Software Subscription \[samp\_sw\_subscription\] table to an associated user in the User \[sys\_user\] table within the ServiceNow AI Platform.
+
+<table id="table_cn2_pzs_xcc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Display name
+
+</td><td>
+
+Name of the user resolution rule.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option for enabling the user resolution rule. If this check box is cleared, this rule isn't applied to resolve user subscriptions.
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+Category of the integration profile that the user resolution rule applies to.-   **SaaS**
+-   **SSO**
+
+By default, this field value is set to **SaaS**.
+
+</td></tr><tr><td>
+
+Source table
+
+</td><td>
+
+Table that contains subscription records.Select **Software Subscription \[samp\_sw\_subscription\]**.
+
+This field appears only when **SaaS** is selected from **Category**.
+
+</td></tr><tr><td>
+
+Look up table
+
+</td><td>
+
+This field is automatically set to **User**.
+
+</td></tr><tr><td>
+
+Applies to
+
+</td><td>
+
+One or multiple integration profiles to which the user resolution rule applies to.This field appears only when **SaaS** is selected from **Category**.
+
+</td></tr><tr><td>
+
+Source field
+
+</td><td>
+
+A field in the Software Subscription \[samp\_sw\_subscription\] table used for lookup against the User \[sys\_user\] table, such as User principal name and External user id.As other columns might not contain sufficient data, select either **User principal name** or **External user id**.
+
+This field appears only when **SaaS** is selected from **Category**.
+
+</td></tr><tr><td>
+
+Look up field
+
+</td><td>
+
+The field against which you want to match the Source field value. For example, if you select **User principal name** in **Source field** and **Email** in **Look up field**, Software Asset Management tries to match these two fields. The match must be exact. If it isn’t, you can change the value to **User ID** in **Look up field**.
+
+**Note:** User resolution rules created for non-indexed Look up fields in the sys\_user table are automatically marked as inactive. This applies to both manually created and AI-generated user resolution rules.
+
+</td></tr><tr><td>
+
+Apply transform on input
+
+</td><td>
+
+Option to apply transformations to the **Source field** value.-   **None**: The **Source field** value is matched exactly with the **Lookup field** value.
+-   **Remove domain**: If you have selected **Email** in **Look up field**, the first part of the email address \(before the @ symbol\), which is the User ID or name, is matched with the Source field value.
+-   **Replace domain**: When you have selected **Email** in **Look up field** and you want to replace the domain name, that is, the second part of the email address \(after the @ symbol\). For example, replace `example.com` with `exampletest.com`.
+-   **Run script**: This option is available only to administrators for updating the script.
+
+</td></tr><tr><td>
+
+New domain
+
+</td><td>
+
+The new domain that you want to add after the @ symbol when **Email** is selected in **Look up field**.This field appears only when **Replace domain** is selected from **Apply transform on input**.
+
+</td></tr><tr><td>
+
+Script
+
+</td><td>
+
+**Important:** This field is available only to administrators.
+
+ If the mapping still fails after replacing or removing the domain or the logic is complex, the script can be updated to achieve the desired result.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Software Asset Management references](references.md)
+
+**Related topics**  
+
+
+[Associate a user with subscription records](../task/map-user-data.md)
+

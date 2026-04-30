@@ -1,0 +1,50 @@
+---
+title: Security Exposure Management Workspace Watch Topics
+description: The Watch topics page in the Security Exposure Management Workspace enables you to create and edit a watch topic. A Watch topic is a set of data visualizations which enables you to monitor a filtered set of records findings \(VITs, AVITs, CVITs and CTRs\) over time on a dashboard that might be of a particular interest or priority to your organization.
+locale: en-US
+release: yokohama
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
+---
+
+# Security Exposure Management Workspace Watch Topics
+
+The Watch topics page in the Security Exposure Management Workspace enables you to create and edit a watch topic. A Watch topic is a set of data visualizations which enables you to monitor a filtered set of records findings \(VITs, AVITs, CVITs and CTRs\) over time on a dashboard that might be of a particular interest or priority to your organization.
+
+Role required:
+
+-   sn\_vul.vulnerability\_analyst, or sn\_vul.vulnerability\_admin for host vulnerable items \(VITs\)
+-   sn\_vul.app\_sec\_manager for application vulnerable items \(AVITs\)
+-   sn\_vul\_container.vulnerability\_analyst or sn\_vul\_container.vulnerability\_admin for container vulnerable items \(CVITs\)
+-   sn\_vulc.admin for configuration test results \(CTRs\)
+
+The data displayed on the data visualizations on the watch topics are dynamically updated as vulnerability data changes upon import. Use the dashboards to monitor the trends, scope, and types of vulnerabilities and your configuration items for the selected watch topic. This information helps you determine how the vulnerabilities in each watch topic impact your environment. The Watch Topics page consists of four modules - Host Vulnerabilities, Container Vulnerabilities, Application Vulnerabilities, Configuration Test Results, and Inactive. For more information on the related items tabs and their visualizations in a watch topic, see [Related items list and visualizations in a watch topic](../../vulnerability-response/concept/vr-ws-wtopic-related-items-v18.md).
+
+The following watch topics are provided with the base system in the Host Vulnerabilities module on the Watch Topics page:
+
+-   Vulnerabilities on External Facing Assets
+-   Vulnerabilities with Exploits Available
+-   Vulnerabilities on Windows Servers
+-   Vulnerabilities on LINUX Servers
+-   Critical Overdue Vulnerabilities
+-   Critical Vulnerabilities not in Remediation Tasks
+
+**Note:** If a data visualization shows that there are no records for that category, but you can see a list of records when you click the graph icon, check the column with the watch topic name on the list that is displayed. Verify that the value for all the records listed in the column of the watch topic, for example, Internet-facing, is `false`. This value in this example indicates that there are no internet-facing records for this watch topic.
+
+To start the remediation or when a critical need arises for the records that are in a watch topic, you can create a Remediation Effort from a watch topic. For more information, see [Create a remediation effort in the Vulnerability Manager Workspace](../../vulnerability-response/task/vr-ws-create-rev16.md).
+
+**Related topics**  
+
+
+[Related items list and visualizations in a watch topic](../../vulnerability-response/concept/vr-ws-wtopic-related-items-v18.md)
+
+[Use watch topics in the Vulnerability Manager Workspace](../../vulnerability-response/task/vr-ws-wtopic-ui-options.md)
+
+[Create a watch topic in the Vulnerability Manager Workspace](../../vulnerability-response/task/vr-ws-create-wt.md)
+
+[Edit or delete a watch topic in the Vulnerability Manager Workspace](../../vr-vulnerability-manager-workspace/task/edit-delete-watch-topic.md)
+
+[Deactivate or activate a watch topic](../../vr-vulnerability-manager-workspace/task/activate-deactivate-watch-topic.md)
+

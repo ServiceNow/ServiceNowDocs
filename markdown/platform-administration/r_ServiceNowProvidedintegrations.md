@@ -1,0 +1,37 @@
+---
+title: ServiceNow provided integrations
+description: ServiceNow provides many integrations as part of the platform.
+locale: en-US
+release: yokohama
+topic_type: reference
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# ServiceNow provided integrations
+
+ServiceNow provides many integrations as part of the platform.
+
+These integrations are considered part of the platform and are provided at no additional charge.
+
+|Integration|Type|Integration Point|
+|-----------|----|-----------------|
+|Altiris \(version 6.5\)|[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)|CMDB|
+|Google Maps|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)|Varies|
+|Google Custom Search|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)|Knowledge|
+|Integration — IBM Watson Conversation Service|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)|Varies|
+|Microsoft SMS / SCCM|[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=yokohama&pubname=yokohama-servicenow-platform&ft:locale=en-US)|CMDB|
+|Verizon eBonding|[Web services](https://www.servicenow.com/docs/access?context=r_AvailableWebServices&version=yokohama&pubname=yokohama-api-reference&ft:locale=en-US)|Incident|
+
+-   **[Set up Google Maps API](../../../administer/navigation-and-ui/task/set-up-google-maps-api.md)**  
+You enable the geolocation feature using the appropriate entries from a Google Maps API for Business license, or a Google Maps JavaScript API Key.
+-   **[Microsoft SCCM integration](../../cmdb/concept/c_MicrosoftSCCMIntegration.md)**  
+The Microsoft SCCM integration is a one direction import of SCCM data into the ServiceNow Configuration Management Database \(CMDB\).
+-   **[Migrate the Verizon eBonding Integration to a Production System](../../incident/concept/c_MigrVerizoneBondIntegToAProdSys.md)**  
+This topic outlines the tasks required for moving the Verizon eBonding integration from a Dev/Test environment to a Production environment.
+-   **[Legacy: Altiris integration 2.0](../../cmdb/concept/c_AltirisIntegration2.0.md)**  
+The Altiris integration is deprecated in the Istanbul release.
+
+**Parent Topic:**[Integration options](../../concept/c_IntegrationOptions.md)
+

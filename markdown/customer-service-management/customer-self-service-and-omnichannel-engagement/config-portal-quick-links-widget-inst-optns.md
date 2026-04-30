@@ -1,0 +1,54 @@
+---
+title: Add and configure the Portal Quick Links widget
+description: Add a Portal Quick Links widget to the portal and modify its presentation and behavior. You can use the Portal Quick Links widget to display knowledge articles, external URLs, catalog items, or custom pages on your portal.
+locale: en-US
+release: yokohama
+product: Customer Self-service and Omnichannel Engagement
+classification: customer-self-service-and-omnichannel-engagement
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Portal Quick Links widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+---
+
+# Add and configure the Portal Quick Links widget
+
+Add a Portal Quick Links widget to the portal and modify its presentation and behavior. You can use the Portal Quick Links widget to display knowledge articles, external URLs, catalog items, or custom pages on your portal.
+
+## Before you begin
+
+The UI Components for Customer Portals plugin must have been activated. For more information, see[Activate the UI Components for Customer Portals plugin](activate-config-portal-widget.md).
+
+If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](create-page-configurable-portal-widget.md).
+
+Role required: sp\_admin or admin
+
+## Procedure
+
+1.  Navigate to the **All** &gt; **Service Portal** &gt; **Service Portal Configuration**.
+
+2.  Select **Designers**.
+
+3.  On the Service Portal Designer page, search for and select the page to which you want to add the widget.
+
+4.  Select the **Widgets** tab.
+
+5.  In the Layouts section, drag the Container layout onto the portal edit page.
+
+6.  On the container, add a set of columns by selecting the plus button \(![Plus button](../image/portal-plus-icon.png)\)
+
+7.  On the Widgets pane, in the **Filter Widget** field, enter `Portal Quick Links`.
+
+8.  Drag the widget onto the container.
+
+9.  In the Edit page, select the Portal Quick Links widget.
+
+10. Select the Pencil icon \(![Pencil icon](../image/icon-pencil-ac.png)\).
+
+11. On the Instance form, fill in the fields.
+
+    For a description of the field values, see [Portal Quick Links widget instance options form](../reference/r-portal-quick-links-instan-options.md).
+
+12. Select **Save**.
+
+

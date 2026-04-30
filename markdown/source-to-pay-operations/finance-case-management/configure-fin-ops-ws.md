@@ -1,0 +1,28 @@
+---
+title: Configure the Finance Operations Workspace landing page
+description: Configure the landing page of the Finance Operations Workspace
+locale: en-US
+release: yokohama
+product: Finance Case Management
+classification: finance-case-management
+topic_type: concept
+last_updated: "2025-04-29"
+reading_time_minutes: 1
+breadcrumb: [Configuring Finance Operations Workspace, Configuring Finance Case Management, Finance Case Management, Finance and Supply Chain applications, Finance and Supply Chain]
+---
+
+# Configure the Finance Operations Workspace landing page
+
+Configure the landing page of the Finance Operations Workspace
+
+Use UI Builder to configure the landing page, define different audiences for the landing page, and even add, remove, or modify the different content However, it’s recommended that you create a duplicate of the landing page before modifying it.
+
+For more information on how to configure using UI Builder, see [Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=yokohama&pubname=yokohama-application-development&ft:locale=en-US).
+
+**Parent Topic:**[Configuring Finance Operations Workspace](configuring-fin-ops-ws.md)
+
+**Related topics**  
+
+
+[Configuring knowledge bases from the Finance Operations Workspace](configure-kb-fin-ops-ws.md#)
+

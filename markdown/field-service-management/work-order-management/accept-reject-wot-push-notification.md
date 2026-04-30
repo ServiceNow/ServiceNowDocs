@@ -1,0 +1,57 @@
+---
+title: Accept or reject requests from push notifications
+description: As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
+locale: en-US
+release: yokohama
+product: Work Order Management
+classification: work-order-management
+topic_type: task
+last_updated: "2025-01-30"
+reading_time_minutes: 1
+breadcrumb: [Push notifications on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+---
+
+# Accept or reject requests from push notifications
+
+As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
+
+## Before you begin
+
+Role required: wm\_agent
+
+## Procedure
+
+1.  Navigate to the push notification received on your mobile device.
+
+2.  Tap the push notification.
+
+3.  Process the request.
+
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d24813e70">
+
+To
+
+</th><th align="left" id="d24813e73">
+
+Do this
+
+</th></tr></thead><tbody><tr><td id="d24813e79">
+
+**Accept working on the work order task notification**
+
+</td><td>
+
+Click **Accept**
+
+</td></tr><tr><td id="d24813e91">
+
+**Reject the task notification**
+
+</td><td>
+
+Click **Reject** **Note:** If you reject the task notification, the task assignment is deleted and the task returns to the **Pending Dispatch** state.
+
+</td></tr></tbody>
+</table>
+**Parent Topic:**[Push notifications on Mobile Agent](../concept/actionable-push-notifications.md)
+
