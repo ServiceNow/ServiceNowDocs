@@ -7,7 +7,6 @@ Important notes:
 - Repository organized by ServiceNow AI Platform release version ("family").
 - Each release is a separate git branch named for the family.
 - Family-to-branch mapping is:
-    - "latest" : "latest" -- Latest monthly release
     - "australia" : "australia" -- Australia family
     - "zurich" : "zurich" -- Zurich family
     - "yokohama" : "yokohama" -- Yokohama family
@@ -20,6 +19,8 @@ Important notes:
 - For human-readable docs visit https://www.servicenow.com/docs
 
 ## Documents
+
+Xanadu version ("xanadu" branch) documentation.
 
 Each folder within the `markdown` directory is a separate publication. The index.md for each publication lists the files in that publication.
 
