@@ -1,0 +1,29 @@
+---
+title: Configure Finance Operations Workspace
+description: Plan and configure your implementation for Finance Operations Workspace.
+locale: en-US
+release: zurich
+product: Finance Case Management
+classification: finance-case-management
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Configure, Finance Case Management, Finance and Supply Chain applications, Finance and Supply Chain]
+---
+
+# Configure Finance Operations Workspace
+
+Plan and configure your implementation for Finance Operations Workspace.
+
+-   **[Configure the Finance Operations Workspace landing page](configure-fin-ops-ws.md)**  
+Configure the landing page of the Finance Operations Workspace
+-   **[Configure knowledge bases from the Finance Operations Workspace](configure-kb-fin-ops-ws.md#)**  
+Configure a knowledge base so that guest users can publish the knowledge base articles from the Finance Operations Workspace.
+
+**Parent Topic:**[Configure Finance Case Management](config-fin-case-mgmt.md)
+
+**Related topics**  
+
+
+[Install Finance Case Management](../task/install-fin-case-mgmt.md)
+
