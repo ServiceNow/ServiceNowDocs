@@ -21,6 +21,8 @@ Important notes:
 
 ## Documents
 
+Yokohama version ("yokohama" branch) documentation.
+
 Each folder within the `markdown` directory is a separate publication. The index.md for each publication lists the files in that publication.
 
 ${bundle-catalog}
