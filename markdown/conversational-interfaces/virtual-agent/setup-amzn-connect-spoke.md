@@ -1,0 +1,28 @@
+---
+title: Set up the Amazon Connect spoke for Conversational IVR
+description: Set up the Amazon Connect spoke to integrate your ServiceNow instance with Amazon Connect.
+locale: en-US
+release: zurich
+product: Virtual Agent
+classification: virtual-agent
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Configure Conversational IVR with Amazon Connect, Configuring Conversational IVR with Amazon Connect, Conversational IVR with Amazon Connect, Integrating Virtual Agent with Voice channels, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+---
+
+# Set up the Amazon Connect spoke for Conversational IVR
+
+Set up the Amazon Connect spoke to integrate your ServiceNow instance with Amazon Connect.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  To set up the Amazon Connect spoke for Conversational IVR with Amazon Connect, see [Setup Amazon Connect spoke](https://www.servicenow.com/docs/access?context=setup-amzn-connect&version=zurich&pubname=zurich-integrate-applications&ft:locale=en-US).
+
+
+**Parent Topic:**[Configure Conversational IVR with Amazon Connect](configure-va-ivr.md)
+

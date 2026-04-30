@@ -1,0 +1,185 @@
+---
+title: Standard chat
+description: With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+locale: en-US
+release: zurich
+topic_type: concept
+last_updated: "2025-07-16"
+reading_time_minutes: 5
+breadcrumb: [Now Assist panel, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
+---
+
+# Standard chat
+
+With the Now Assist panel standard chat, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+
+**Note:** Next Experience must be enabled to use the Now Assist panel. For more information, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US).
+
+## Now Assist panel overview
+
+Agents can use the Now Assist panel to interact with and get assistance from generative AI. On the Now Assist panel, you can increase your productivity and efficiency by using the generative AI experience to summarize a chat, case, incident, or generate resolution notes.
+
+Conversational aspects of the Now Assist panel, such as skill detection, are powered by Now LLM Service.
+
+**Note:** Now Assist skills must be enabled to appear on the Now Assist panel. For more information, see [Now Assist skills](../../now-assist-skills/concept/now-assist-skills.md).
+
+Let's get started by selecting the Now Assist icon ![Now Assist sparkle icon](../../../common/image/icon-ai-sparkle.png) to display the Now Assist panel.![Now Assist panel icon.](../images/now-assist-panel-icon.png)
+
+If a number in a square appears, it indicates how many messages you missed when the Now Assist panel was closed.
+
+![Now Assist panel with callouts.](../images/now-assist-panel-screenshot-2.png "Now Assist panel")
+
+![Now Assist panel showing active chats, updates, and closed chats.](../images/now-assist-panel-chats.png)
+
+The Now Assist panel includes:
+
+<table id="table_yzf_wkw_hzb"><thead><tr><th>
+
+Item number
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+1 - Enter modal button
+
+</td><td>
+
+Expands the chat into a 90% screen-size window.
+
+</td></tr><tr><td>
+
+2 - ![Pushpin icon](../images/now-assist-panel-pushpin.png)
+
+</td><td>
+
+Positions, or pins, the Now Assist panel to the screen.
+
+</td></tr><tr><td>
+
+3 - Display chats button
+
+</td><td>
+
+Displays the Chats window.
+
+</td></tr><tr><td>
+
+4 - Option buttons
+
+</td><td>
+
+Displays the available options.
+
+</td></tr><tr><td>
+
+5 - Copy message button
+
+</td><td>
+
+Copies the Now Assist panel message.
+
+</td></tr><tr><td>
+
+6 - Reply to Now Assist... field
+
+</td><td>
+
+Enter actions.
+
+</td></tr><tr><td>
+
+Voice Input
+
+ ![Voice input microphone on Now Assist panel.](../images/now-assist-panel-voice-input.png)
+
+</td><td>
+
+If Voice Input is activated, select the microphone icon or the keyboard shortcut to use your voice to interact with the Now Assist panel. After you speak, there’s a pause while the system transcribes the text and then displays it on the screen. See [Enable voice input for Now Assist panel](../../now-assist-admin/task/enable-voice-input-for-now-assist-panel.md) for information on enabling Voice Input. See [Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&version=zurich&pubname=zurich-platform-user-interface&ft:locale=en-US) for the Now Assist menu \(Voice Input mode\) shortcuts for Microsoft and macOS.
+
+</td></tr><tr><td>
+
+8 - Active chats
+
+</td><td>
+
+All active chats display in the Active chats section. in the Active chats section of the Now Assist. You can create additional chats by selecting the + icon in the heading.
+
+</td></tr><tr><td>
+
+9 - Updates
+
+</td><td>
+
+Displays important updates and reminders.
+
+</td></tr><tr><td>
+
+10 - Closed chats
+
+</td><td>
+
+Displays all closed chats. If you select one of the closed chats, you can see that chat's history.
+
+</td></tr></tbody>
+</table>Now Assist panel is available on Next Experience and ServiceNow Studio. The following screenshots show the Now Assist panel in a workspace and on Core UI screens under Next Experience.
+
+<table id="table_smr_n2b_xyb"><tbody><tr><td>
+
+Next Experience
+
+</td><td>
+
+Core UI
+
+</td></tr><tr><td>
+
+![Now Assist panel on Next Experience.](../images/now-assist-panel-overview-example.png)
+
+</td><td>
+
+![Now Assist panel on a Core UI incident form.](../images/now-assist-panel-overview-ui16-example.png)
+
+</td></tr></tbody>
+</table>## Navigating from the Now Assist panel
+
+Navigate from the Now Assist panel without leaving the current conversation by entering a navigation request in the **Ask Now Assist to...** field. If you enter "navigate me to active incidents," Now Assist displays a button that enables you to view the active incidents.
+
+## Chat summarization
+
+Quickly learn the details of a chat by reading a chat summarization. The chat summarization gives you enough details about the chat so that your requester doesn't have to repeat the same information to you.
+
+To generate a chat summarization from the Now Assist panel, select **Chat Summarization** or enter `summarize chat` in the **Ask Now Assist to** field.
+
+**Note:** You can also generate a chat summarization by using the `/summarize` quick action in Agent Chat.
+
+## Case or incident summarization
+
+Quickly learn the details of a case or incident by reading a case summarization. The summarization gives you enough details about the interaction so that your requester doesn't have to repeat the same information to you.
+
+You can generate a case or incident summarization from the Now Assist panel for Now Assist for CSM, Now Assist for HRSD, or Now Assist for ITSM:
+
+-   For Now Assist for CSM, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
+-   For Now Assist for HRSD, select **Summarize record** or enter `summarize a record` in the **Ask Now Assist to** field.
+-   For Now Assist for ITSM, select **Summarize incident** or enter `summarize an incident` in the **Ask Now Assist to** field.
+
+## Conversation Help
+
+Get specific and accurate answers to your queries by using the Get Help skill option on the Now Assist panel. This skill is available to everyone entitled to Now Assist capabilities.
+
+For more information about the Now Assist Conversational Help skill which represents as Get Help on the Now Assist panel, see [Now Assist Conversational Help](../../now-assist-skills/concept/conversational-help-skills.md).
+
+## Resolution notes generation
+
+Quickly learn the details of how an interaction was resolved by generating and reading resolution notes.
+
+To generate resolution notes from the Now Assist panel, select **Generate resolutions notes** or enter `generate resolutions notes` in the **Ask Now Assist to** field.
+
+## Streaming responses
+
+After you enter a question or request on the Now Assist panel, Now Assist gathers information from Knowledge Base articles, external content, product documentation, catalog items, and workflows and combines them into a synthesized, comprehensive answer. Instead of waiting for the entire message to render, the synthesized response streams in real time and stops streaming after the entire message has been delivered. An animated sparkle icon \(![Now Assist sparkle icon](../../../common/image/icon-ai-sparkle.png)\) appears while the response is generated and changes to the static sparkle icon after the response has fully loaded.
+
+**Parent Topic:**[Now Assist panel](now-assist-panel-overview.md)
+

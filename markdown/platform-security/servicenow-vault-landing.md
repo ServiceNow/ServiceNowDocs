@@ -1,0 +1,40 @@
+---
+title: ServiceNow Vault
+description: ServiceNow Vault provides a single location to review and implement security tools for advanced security and privacy requirements.
+locale: en-US
+release: zurich
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+---
+
+# ServiceNow Vault
+
+ServiceNow Vault provides a single location to review and implement security tools for advanced security and privacy requirements.
+
+## Get started
+
+<table id="table_y4v_jsw_rfc" class="nav-card presentation"><tbody><tr><td>
+
+[Explore ServiceNow Vault![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about ServiceNow Vault and its features.](../concept/exploring-servicenow-vault.md)
+
+</td><td>
+
+[Configure ServiceNow Vault![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Get started with installing and configuring ServiceNow Vault](../concept/configuring-servicenow-vault.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Vault dashboard![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Learn how to use the ServiceNow Vault dashboard to review your data security.](../concept/vault-dashboard.md)
+
+</td><td>
+
+[ServiceNow Vault tools![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn about the tools used with ServiceNow Vault](../concept/vault-tools.md)
+
+</td></tr></tbody>
+</table>-   **[Exploring ServiceNow Vault](../concept/exploring-servicenow-vault.md)**  
+Learn more about ServiceNow Vault and review the benefits it can provide for your data protection needs.
+-   **[Configuring ServiceNow Vault](../concept/configuring-servicenow-vault.md)**  
+Learn how to install and configure ServiceNow Vault
+-   **[ServiceNow Vault console dashboard](../concept/vault-dashboard.md)**  
+Use the ServiceNow Vault console dashboard to track and manage your ServiceNow Vault security tools.
+

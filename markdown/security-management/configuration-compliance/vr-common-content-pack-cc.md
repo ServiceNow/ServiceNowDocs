@@ -1,0 +1,47 @@
+---
+title: Aggregated reports framework for Configuration Compliance
+description: Using aggregated reports framework, you can create reports for the data that involves complex and long-running on-the-fly queries for better performance.Finish the following sentence with a short statement on the business use case for this Solution. For example: This Analytics and Reporting Solution helps you track trends in incidents and plan your incident management strategy going forward.
+locale: en-US
+release: zurich
+product: Configuration Compliance
+classification: configuration-compliance
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Analytics and reporting, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+---
+
+# Aggregated reports framework for Configuration Compliance
+
+Using aggregated reports framework, you can create reports for the data that involves complex and long-running on-the-fly queries for better performance.
+
+The aggregated reports framework improves the performance by:
+
+-   using lesser resources and rendering reports faster,
+-   aggregating the data and reusing aggregations and breakdowns \(Group By\) and
+-   reducing the queries to the database
+
+When you have more than one million configuration test results, use the aggreated reports framework alongside the standard reports.
+
+## Required roles
+
+The following roles and tasks are associated with this solution:
+
+-   ServiceNow AI Platform administrator \(admin\): Install and activate this Platform Analytics Solution and make any necessary changes to system properties.
+-   Performance Analytics administrator \(pa\_admin\): Review the aggregations, widgets, and dashboards. Set up and start data collection. Share the dashboards with appropriate stakeholders.
+-   Admin \(sn\_vul\_cmn.admin\): Create aggregations.
+-   VR write\(sn\_vul\_cmn.write\): Edit the data in the Aggregations and Aggregated Results.
+-   VR read \(sn\_vul\_cmn.read\): Review the data in the Aggregations and Aggregated Results.
+-   Vulnerability analyst \(sn\_vul.vulnerability\_analyst\): Review Aggregated Results.
+
+**Related topics**  
+
+
+[Configure an aggregation for source data](../../vulnerability-response/task/configure-indicator-for-source-data.md)
+
+[Run multiple aggregations simultaneously](../../vulnerability-response/task/run-multiple-aggregations.md)
+
+[Configure the number of aggregations that can run simultaneously](../../vulnerability-response/task/create-config-arf-processor.md)
+
+[Create a report using an aggregation](../../vulnerability-response/task/generate-report.md)
+

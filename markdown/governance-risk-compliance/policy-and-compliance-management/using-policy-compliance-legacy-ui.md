@@ -1,0 +1,19 @@
+---
+title: Classic UI for Policy and Compliance Management
+description: You can continue to use the Classic environment to perform all Policy and Compliance Management activities.
+locale: en-US
+release: zurich
+product: Policy and Compliance Management
+classification: policy-and-compliance-management
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
+---
+
+# Classic UI for Policy and Compliance Management
+
+You can continue to use the Classic environment to perform all Policy and Compliance Management activities.
+
+As a compliance manager or compliance user with specific roles you can perform Policy and Compliance Management related tasks such as manage control objectives, policies, policy exceptions and extensions, issues, and others.
+

@@ -1,0 +1,121 @@
+---
+title: Components installed with Omnichannel Callback
+description: Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.
+locale: en-US
+release: zurich
+product: Omnichannel Callback
+classification: omnichannel-callback
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Omnichannel Callback reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+---
+
+# Components installed with Omnichannel Callback
+
+Several types of components are installed with activation of the Omnichannel Callback plugin, including user roles, scheduled jobs, and tables.
+
+## Scheduled jobs installed
+
+<table id="table_wrn_11n_vvb"><thead><tr><th>
+
+Scheduled job
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Callback Scheduler - Scheduled
+
+</td><td>
+
+Executes the callback task of type Scheduled a minute before the scheduled start time.
+
+</td></tr><tr><td>
+
+Callback Scheduler - ASAP
+
+</td><td>
+
+Executes the callback task of type ASAP after creation of the callback task or at the next retry attempt.
+
+</td></tr><tr><td>
+
+Omnichannel Callback Close expired tasks
+
+</td><td>
+
+Marks the callback tasks as Closed Abandoned in the following scenarios.
+
+-   ASAP callback: If the current time is past the expiry time or the number of callback attempts exceeds the maximum retry attempts.
+-   Scheduled callback: When the callback task is not closed one hour after the scheduled end time.
+
+</td></tr></tbody>
+</table>## Tables installed
+
+<table id="table_yrn_11n_vvb"><thead><tr><th>
+
+Table
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Callback Properties
+
+ \[sn\_omni\_callback\_st\_callback\_properties\]
+
+</td><td>
+
+Lists the callback properties that determine the callback behavior.
+
+</td></tr><tr><td>
+
+Callback
+
+ \[sys\_cs\_callback\]
+
+</td><td>
+
+Lists the callback tasks of type Scheduled and ASAP.
+
+</td></tr></tbody>
+</table>## Roles installed
+
+<table id="table_xdc_5b3_jhc"><thead><tr><th>
+
+Roles
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Callback Admin
+
+ \[sn\_omni\_callback.callback\_admin\]
+
+</td><td>
+
+With this role, users can view, update, and create the Callback records and execute callback API.
+
+</td></tr><tr><td>
+
+Callback Writer
+
+ \[sn\_omni\_callback.callback\_writer\]
+
+</td><td>
+
+With this role, users can view and update the Callback Task records.
+
+</td></tr></tbody>
+</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US) and contact your account representative.
+
+**Parent Topic:**[Omnichannel Callback reference](../concept/omnichannel-callback-reference.md)
+

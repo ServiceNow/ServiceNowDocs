@@ -1,0 +1,30 @@
+---
+title: Track a publication
+description: Access a list of recipients for a publication and see which recipients have viewed the content.
+locale: en-US
+release: zurich
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
+---
+
+# Track a publication
+
+Access a list of recipients for a publication and see which recipients have viewed the content.
+
+## Before you begin
+
+Role required: sn\_publications.author or sn\_publications.admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Targeted Communications** &gt; **Active Publications**.
+
+2.  Open the desired publication.
+
+3.  Select the **Publication Recipients** related list.
+
+    For each recipient on this list, you can see if the customer has viewed the article.
+
+

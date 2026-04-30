@@ -1,0 +1,38 @@
+---
+title: View Channel Partner information on partner workspace
+description: View consolidated channel partner information through the multiple tabs on workspace.
+locale: en-US
+release: zurich
+product: Sales and Order Management
+classification: sales-and-order-management
+topic_type: task
+last_updated: "2026-04-29"
+reading_time_minutes: 1
+breadcrumb: [Create Channel Partner record, Partner Workspace, Partner Relationship Management, Configure, Sales Customer Relationship Management]
+---
+
+# View Channel Partner information on partner workspace
+
+View consolidated channel partner information through the multiple tabs on workspace.
+
+## Before you begin
+
+Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_partner\_agent
+
+## Procedure
+
+1.  Navigate to the **CSM/FSM Configurable Workspace** and select the list view.
+
+    To learn more about the CSM/FSM Configurable Workspace, see [CSM Configurable Workspace overview](https://www.servicenow.com/docs/access?context=csm-config-workspace-overview&version=zurich&pubname=zurich-customer-service-management&ft:locale=en-US).
+
+2.  Select **Channel Partners** from the Partner Relationship Management module.
+
+3.  Open a channel partner record from the list.
+
+    You can view all the information related to cases, child channel partners, sold products, or install base items associated with the channel partner.
+
+    To learn more about the components on the channel partner record, see [Channel Partner components on workspace](../reference/channel-partner-components.md).
+
+
+**Parent Topic:**[Create Channel Partner record](create-channel-partner-record.md)
+

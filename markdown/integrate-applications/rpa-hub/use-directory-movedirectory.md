@@ -1,0 +1,48 @@
+---
+title: Use the MoveDirectory component
+description: Move a directory and its contents to a new location by using the MoveDirectory component in RPA Desktop Design Studio.
+locale: en-US
+release: zurich
+product: RPA Hub
+classification: rpa-hub
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Directory, Utilities, Automation components, RPA Desktop Design Studio, Robotic Process Automation \(RPA\) Hub, Workflow Data Fabric]
+---
+
+# Use the MoveDirectory component
+
+Move a directory and its contents to a new location by using the MoveDirectory component in RPA Desktop Design Studio.
+
+## Before you begin
+
+Role required: none
+
+## About this task
+
+You can configure the properties for the MoveDirectory component. For more information about these properties, see [Properties of the Directory components](../reference/util-directory-prop.md).
+
+## Procedure
+
+1.  In the Toolbox pane, navigate to **Utilities** &gt; **Directory**.
+
+2.  Drag the MoveDirectory component to the Design surface.
+
+3.  To configure the input fields, see [Configure port properties](configure-input-port-properties.md).
+
+4.  Connect the data and control ports of the MoveDirectory component to the corresponding ports of the other components as described in the following table.
+
+    |Port type|Purpose of connection|Mandatory?|
+    |---------|---------------------|----------|
+    |Data In \(sourceDirPath\)|Takes the path to the source directory from a previously executed component.|Yes|
+    |Data IN \(destDirPath\)|Takes the path to the destination directory from a previously executed component.|Yes|
+    |Data In \(overwrite\)|Takes the Boolean response on whether the method should overwrite the same directory in the destination folder from a previously executed component.|No|
+    |Control In|Connects to the Control Out port of one or more components.|Yes|
+    |Control Out|Connects to the Control In port of another component or the default end component.|No. Connecting the port is optional.|
+
+5.  To test the component, under the **DESIGN** tab, click **Run**.
+
+
+**Parent Topic:**[Directory](../concept/directory.md)
+

@@ -1,0 +1,56 @@
+---
+title: Test index performance for slow queries
+description: After the Index Suggestion Engine \(ISE\) generates an index suggestion for a slow query, you can test the index to see if it improves execution time. If you're evaluating an index suggestion on a non-production instance, you can run this test after creating the index to get immediate results on index performance.
+locale: en-US
+release: zurich
+product: Platform Performance
+classification: platform-performance
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer]
+---
+
+# Test index performance for slow queries
+
+After the Index Suggestion Engine \(ISE\) generates an index suggestion for a slow query, you can test the index to see if it improves execution time. If you're evaluating an index suggestion on a non-production instance, you can run this test after creating the index to get immediate results on index performance.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+This test is an optional assessment of the index. The test isn’t part of the 14-day index evaluation process that automatically occurs after you create an index.
+
+**Note:** Index test results from your non-production instance might not necessarily predict similar performance results on your production instance.
+
+## Procedure
+
+1.  Open the Index Suggestion record for the index that you want to test:
+
+    1.  Navigate to **System Diagnostics** &gt; **Index Suggestion** &gt; **Index Suggestions &gt; In progress**.
+
+    2.  In the Index Suggestions table, select the table associated with the index suggestion you want to view in the **Table Name** column.
+
+2.  In the Index Suggestion record, select **Test Performance** to start the performance test.
+
+3.  When the Test Index Suggestion progress indicator shows that testing is complete, select **Go to Result**.
+
+4.  In the Query Performance Test Results form, compare the **Average with index** and **Average without index** fields to see if the index improved the query time.
+
+    |Field|Description|
+    |-----|-----------|
+    |Index Suggestion|Name of the index suggestion.|
+    |Created|Date and time this performance test was run.|
+    |Average with Index \(ms\)|Query time using the index suggestion.|
+    |Average without Index \(ms\)|Query time before using the index suggestion.|
+    |Forced|Check box indicating whether the database is using the index. If this box is selected, the database is forced to use the index suggestion, but only for this test. If the box is cleared, the database is using the index.|
+
+5.  Select the back arrow to navigate back to the Index Suggestion record for the table.
+
+    The result of this index performance test doesn’t change the index state recorded in the Index Suggestion record.
+
+
+**Parent Topic:**[Resolving slow queries](../concept/resolving-slow-queries.md)
+

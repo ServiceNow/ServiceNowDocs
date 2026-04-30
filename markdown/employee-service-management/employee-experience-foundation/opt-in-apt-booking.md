@@ -1,0 +1,34 @@
+---
+title: Opt in to unified appointment booking
+description: Opt in to unified appointment booking and enable it for the Employee Center.
+locale: en-US
+release: zurich
+product: Employee Experience Foundation
+classification: employee-experience-foundation
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Appointment Booking, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+---
+
+# Opt in to unified appointment booking
+
+Opt in to unified appointment booking and enable it for the Employee Center.
+
+## About this task
+
+If you are using IT Service Management with Employee Center Pro, the default appointment booking experience in the Employee Center is the [Walk-up Experience](https://www.servicenow.com/docs/access?context=walkup-experience-landing-page&version=zurich&pubname=zurich-it-service-management&ft:locale=en-US). You can opt in to unified appointment booking to allow bookings based on user criteria, categories, and reasons.
+
+**Note:** If you are not using the ITSM Walk-up Experience with Employee Center Pro, unified appointment booking is opted in by default.
+
+## Before you begin
+
+Role required: sn\_hr\_core.walkup\_admin, sn\_walkup.walkup\_manager
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Employee Center** &gt; **Appointment Booking** &gt; **Setup**.
+
+2.  Select the **Yes, opt in to unified appointment booking** check box, then select **Opt-in**.
+
+

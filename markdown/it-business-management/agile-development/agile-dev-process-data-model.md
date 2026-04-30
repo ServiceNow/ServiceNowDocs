@@ -1,0 +1,23 @@
+---
+title: Agile Development process data model
+description: Learn about the relationship between tables that Agile Development 2.0 uses to manage the agile process, represent releases, and represent product backlog items to be included in a sprint.
+locale: en-US
+release: zurich
+product: Agile Development
+classification: agile-development
+topic_type: reference
+last_updated: "2026-04-29"
+reading_time_minutes: 1
+breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
+---
+
+# Agile Development process data model
+
+Learn about the relationship between tables that Agile Development 2.0 uses to manage the agile process, represent releases, and represent product backlog items to be included in a sprint.
+
+The following diagram displays the Agile Development tables as well as their relationships to other tables.
+
+![Agile development process relation diagram](../image/AgileProcessDataModel.png "Agile development process relationship diagram")
+
+**Parent Topic:**[Agile Development 2.0 reference](agile-development-2-reference.md)
+

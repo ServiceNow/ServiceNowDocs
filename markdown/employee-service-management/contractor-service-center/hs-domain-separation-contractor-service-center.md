@@ -1,0 +1,45 @@
+---
+title: Domain separation and Contractor Service Center
+description: Domain separation is supported for Contractor Service Center. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+locale: en-US
+release: zurich
+product: Contractor Service Center
+classification: contractor-service-center
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Reference, Contractor Service Center, Health and Safety, Employee Service Management]
+---
+
+# Domain separation and Contractor Service Center
+
+Domain separation is supported for Contractor Service Center. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+## Support level: Basic
+
+
+
+-   Business logic: Ensure that data goes into the proper domain for the application’s service provider use cases.
+-   The application supports domain separation at run time. The domain separation includes separation from the user interface, cache keys, reporting, rollups, and aggregations.
+-   The owner of the instance must set up the application to function across multiple tenants.
+
+Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
+
+For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+
+## Domain-separated tables overview
+
+All tables in the Contractor Service Center can be domain-separated and include the required domain separation field.
+
+## How domain separation works in Contractor Service Center
+
+-   Each table in Contractor Service Center includes the domain separation fields **Domain** and **Domain path**.
+-   Customers can use these fields to configure domain separation in their implementation of Contractor Service Center r.
+
+**Parent Topic:**[Contractor Service Center reference](hs-contractor-service-center-reference.md)
+
+**Related topics**  
+
+
+[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=zurich&pubname=zurich-platform-security&ft:locale=en-US)
+

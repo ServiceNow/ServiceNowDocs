@@ -1,0 +1,52 @@
+---
+title: Convert provisional credit to final credit
+description: Convert the provisional credit that was issued previously to a customer to a final credit issuance.
+locale: en-US
+release: zurich
+product: Dispute Management
+classification: dispute-management
+topic_type: task
+last_updated: "2025-11-21"
+reading_time_minutes: 1
+breadcrumb: [Chargeback, Processing a Mastercard dispute, Resolving disputes with Mastercard, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Convert provisional credit to final credit
+
+Convert the provisional credit that was issued previously to a customer to a final credit issuance.
+
+## Before you begin
+
+Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
+
+2.  Select the lists icon \(![lists icon](../../../use/reporting/image/inline-data-vis-96px-list.png)\).
+
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
+
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+
+5.  Select the **Playbook** tab.
+
+6.  In the **Processing** tab, select the transaction ID.
+
+7.  Select the  **Convert provisional credit to final credit ** activity.
+
+8.  On the form, fill in the required fields.
+
+9.  Select **Add file** to attach supporting documents to the task.
+
+    **Note:** You must upload a single `.zip` file whenever you submit documents to Mastercard.
+
+10. Select **Close task**.
+
+
+**Parent Topic:**[Chargeback in Mastercard transaction disputes](../concept/chargeback-stage-mastercard.md)
+

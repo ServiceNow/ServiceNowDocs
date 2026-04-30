@@ -1,0 +1,44 @@
+---
+title: Domain separation and Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy
+description: Domain separation is supported in Enterprise Architecture. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+locale: en-US
+release: zurich
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Explore- Legacy, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+---
+
+# Domain separation and Enterprise Architecture \(formerly Application Portfolio Management\) - Legacy
+
+Domain separation is supported in Enterprise Architecture. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+## Support level: Basic
+
+
+
+-   Business logic: Ensure that data goes into the proper domain for the application’s service provider use cases.
+-   The application supports domain separation at run time. The domain separation includes separation from the user interface, cache keys, reporting, rollups, and aggregations.
+-   The owner of the instance must set up the application to function across multiple tenants.
+
+Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
+
+For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=zurich&pubname=zurich-platform-security&ft:locale=en-US).
+
+## How domain separation works in Enterprise Architecture
+
+While domain separation in Enterprise Architecture is at the "Data only" level, there are a few factors to help you in your use of domain separation:
+
+-   Data can be domain separated.
+-   The domain column is present for base system application tables and Enterprise Architecture tables.
+-   Domains are created and domain-specific configuration is managed by instance owner.
+-   Tenant domains can manage their own application data.
+-   Application properties are tied to the domain.
+-   Business logic and processes can be domain-separated by instance owner. Business rules and policies can be created in specific domains by tenants.
+-   Business logic and processes can be administered by tenant domain.
+
+**Related topics**  
+
+
+[Set up domain separation for Enterprise Architecture users - Legacy](../task/set-up-domain-separation-for-apm-users.md)
+

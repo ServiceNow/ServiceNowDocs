@@ -1,0 +1,96 @@
+---
+title: Create a Google BigQuery connection
+description: Establish a zero copy connection to the Google BigQuery data warehouse service in Workflow Data Fabric Hub.
+locale: en-US
+release: zurich
+product: Workflow Data Fabric Hub
+classification: workflow-data-fabric-hub
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Google BigQuery, Primary connectors, Manage zero copy connections, Workflow Data Fabric Hub, Workflow Data Fabric]
+---
+
+# Create a Google BigQuery connection
+
+Establish a zero copy connection to the Google BigQuery data warehouse service in Workflow Data Fabric Hub.
+
+## Before you begin
+
+Role required: df\_connection\_admin
+
+## About this task
+
+Work with your data source admin to create a connection to Google BigQuery. For additional information about connecting to Google BigQuery, refer to the [Google BigQuery documentation](https://cloud.google.com/iam/docs/service-account-creds).
+
+## Procedure
+
+1.  Navigate to the available primary connectors in Workflow Data Fabric Hub in one of the following ways:
+
+    -   Navigate to **All** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+2.  Find the Google BigQuery connector and select **Connect**.
+
+3.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name and description|
+    |Connection label|Unique name for this connection. This helps in identifying the connection within your system.|
+    |Connection name|System-generated name based on the Connection label. This field cannot be modified once the connection is established.|
+    |Short description|Description of the connection explaining what it is about.|
+
+4.  Enter the full Google Cloud service account JSON key used for authentication.
+
+    You can obtain the JSON key from the Google Cloud Console when you create a service account.
+
+<table id="choicetable_nbh_ccm_rfc"><thead><tr><th align="left" id="d188030e198">
+
+Option
+
+</th><th align="left" id="d188030e201">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d188030e207">
+
+**Upload service account key**
+
+</td><td>
+
+1.  Select **Attach Service Account Key \(JSON\)**.
+2.  Browse and select the file.
+
+
+</td></tr><tr><td id="d188030e228">
+
+**Enter service key contents manually**
+
+</td><td>
+
+Copy and paste the contents of the file, ensuring the content begins with `{` and contains fields like `"type"`,`"project_id"`, and `"private_key"`, and ends with `}`.For example:
+
+ ```
+{
+"type": "service_account",
+"project_id": "your-project-id",
+...
+"private_key": "-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n",
+...
+}
+```
+
+</td></tr></tbody>
+</table>5.  Select **Connect**.
+
+
+## Result
+
+A test connection is made to the external data source, verifying that the connection details are correct and the data source is accessible.
+
+## What to do next
+
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+
+If the connection fails, verify the connection details with your data source administrator and try again.
+

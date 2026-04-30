@@ -1,0 +1,70 @@
+---
+title: Jumpstart Your Strategic Portfolio Management – Resource Management Workspace
+description: The Jumpstart Your Strategic Portfolio Management \(SPM\) – Resource Management Workspace Accelerator provides a demonstration of the possibilities and capabilities of Resource Management Workspaces within SPM.
+locale: en-US
+release: zurich
+product: Accelerator and Initiative List
+classification: accelerator-and-initiative-list
+topic_type: reference
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
+---
+
+# Jumpstart Your Strategic Portfolio Management – Resource Management Workspace
+
+The Jumpstart Your Strategic Portfolio Management \(SPM\) – Resource Management Workspace Accelerator provides a demonstration of the possibilities and capabilities of Resource Management Workspaces within SPM.
+
+## Accelerator overview
+
+Jumpstart Your Strategic Portfolio Management – Resource Management Workspace provides Impact customers with a comprehensive overview of the possibilities and capabilities of the Resource Management Workspace in SPM. Our goal is to demonstrate how customers can understand how to prepare and implement Resource Management Workspace, ensuring correct setup of foundation data enabling a consolidated view of their resource allocations and resource request. Additionally, this Accelerator offers key resources and leading practice guides on getting started.
+
+For more information on Resource Management, see [Resource Management classic](https://www.servicenow.com/docs/access?context=c_ResourceManagement&version=zurich&pubname=zurich-it-business-management&ft:locale=en-US).
+
+**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+
+Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+
+## What you get
+
+-   **Session preparation**
+    -   Provision a temporary instance
+    -   Activate and configure the applicable components of Resource Management Workspaces within SPM
+-   **Customer coaching session \#1 \(up to 90 minutes\)**
+
+    Includes the following:
+
+    -   Overview &amp; demonstration of Resource Management Workspaces
+    -   Review setting Resource Management Workspaces within SPM up for success
+        -   Installation &amp; configuration
+        -   High level discussion on Foundation data
+    -   Walkthrough of key capabilities
+    -   Suggestions for re-implementation next steps
+    -   30 days access to the temporary instance is provided
+-   **Customer coaching session \#2 \(optional upon customer request, up to 60 minutes\)**
+
+    Opportunity for Q&amp;A related to Resource Management Workspace within SPM
+
+
+## Requested customer resources
+
+One or more customer resource is requested. The specific number of resources provided is Accelerator and customer specific.
+
+|Customer resource|Responsibilities|Required|Optional|
+|-----------------|----------------|--------|--------|
+|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
+|System Administrators|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
+|Stakeholders|Primary stakeholders responsible for Resource Management. E.g., Project Manager/Resource Manager – Individuals who are responsible for making requests for resources and/or collaborate on the allocation and planning of resources.|✓| |
+|Developers|Writes code for the ServiceNow platform.| |✓|
+|Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
+
+## Requested information / access
+
+Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+
+## Exclusions
+
+This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
+
+ServiceNow resources are not responsible for implementing recommendations on customer’s non-production or production instances.
+

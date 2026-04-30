@@ -1,0 +1,92 @@
+---
+title: Set up Conversational Integration with Alexa
+description: Set up the Conversational Integration with Alexa application so that you can engage customers in conversations with bots.
+locale: en-US
+release: zurich
+product: Virtual Agent
+classification: virtual-agent
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Configure Conversational Integration with Alexa, Conversational Integration with Alexa, Integrating Virtual Agent with Voice channels, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+---
+
+# Set up Conversational Integration with Alexa
+
+Set up the Conversational Integration with Alexa application so that you can engage customers in conversations with bots.
+
+## Before you begin
+
+-   Get ServiceNow entitlements for the following products and applications:
+
+    -   Integration Hub
+    -   Conversational Integration with Alexa
+    For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
+
+-   Install the following applications on your ServiceNow instance:
+    -   Integration Hub
+    -   Conversational Integration with Alexa
+-   Complete the Alexa settings.
+    1.  Create your Amazon Developer account.
+
+        For more information, see the [Alexa documentation](https://developer.amazon.com/en-GB/docs/alexa/ask-overviews/create-developer-account.html).
+
+    2.  [Create an Alexa skill](create-alexa-skill.md).
+
+        For more information, see the [Alexa documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/steps-to-build-a-custom-skill.html).
+
+    3.  [Build an Alexa skill model](build-alexa-skill.md).
+
+        For more information, see the [Alexa documentation](https://developer.amazon.com/en-GB/docs/alexa/conversations/build-model.html).
+
+    4.  Configure an Alexa skill.
+
+        For more information, see [Configure an Alexa skill](confgure-alexa-for-snow-instance.md)
+
+        .
+
+    5.  [Test an Alexa skill on the developer console](test-alexa-skill.md).
+
+        For more information, see the [Alexa documentation](https://developer.amazon.com/en-US/docs/alexa/devconsole/test-your-skill.html).
+
+    6.  [Account linking with Alexa](../concept/account-linking-alexa.md).
+
+        For more information, see the [Alexa documentation](https://developer.amazon.com/en-US/docs/alexa/account-linking/account-linking-for-custom-skills.html).
+
+
+Role required: external\_app\_install\_admin, va\_admin, or admin
+
+## Procedure
+
+1.  Associate a provider channel identity record with your Alexa account.
+
+    For more information, see [Create a provider channel identity record for Alexa](create-provider-channel-id-record-alexa.md).
+
+2.  Associate inbound message records with a message auth record.
+
+    For more information, see [Set up message authentication for Alexa](setup-message-auth-alexa.md).
+
+
+-   **[Create an Alexa skill](create-alexa-skill.md)**  
+Create an Alexa-hosted skill using the Alexa developer console. Creating an Alexa skill helps you prepare to use the Alexa app.
+-   **[Configure an Alexa skill](confgure-alexa-for-snow-instance.md)**  
+Configure your Alexa skill to talk to your ServiceNow instance.
+-   **[Build an Alexa skill model](build-alexa-skill.md)**  
+Build your Alexa-hosted skill on the Alexa developer console. Building a saved Alexa skill model helps you prepare the skill for testing.
+-   **[Get the Alexa skill ID](get-skill-id.md)**  
+Get the Alexa Skill ID from your Alexa developer console after configuring the skill. The Skill ID is the Alexa identifier for the application.
+-   **[Test an Alexa skill on the developer console](test-alexa-skill.md)**  
+Test your Alexa skill using the Alexa simulator and developer account once the installation is complete and the skill is built.
+-   **[Test a skill on the Alexa mobile app](test-skill-mobile.md)**  
+Test your Alexa skill using the Alexa mobile app.
+-   **[Test a skill on the Alexa Echo or Echo Show screen device](test-skill-echo-show.md)**  
+Test your Alexa skill using the Alexa Echo or Echo Show screen device.
+-   **[Supported Alexa intents](../reference/alexa-intents.md)**  
+Use the Alexa intents supported by Conversational Integration with Alexa to receive an appropriate response during custom chat integrations with Alexa.
+-   **[Create a provider channel identity record for Alexa](create-provider-channel-id-record-alexa.md)**  
+Create a provider channel identity record to connect to your Alexa account.
+-   **[Set up message authentication for Alexa](setup-message-auth-alexa.md)**  
+Define a token in your ServiceNow instance to set up a message authentication with your Alexa account.
+
+**Parent Topic:**[Configure Conversational Integration with Alexa](../concept/configure-amazon-alexa.md)
+

@@ -1,0 +1,79 @@
+---
+title: Update configuration items with the network partition identifier for the Qualys Integration
+description: Create unique configuration items \(CIs\) for assets in your environment that share IP addresses. Identify the distinct assets across your environment and automatically update the CIs on your existing discovered item, vulnerable item, and detection records to give you more details about your vulnerabilities.
+locale: en-US
+release: zurich
+product: Configuration Compliance
+classification: configuration-compliance
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 3
+breadcrumb: [Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+---
+
+# Update configuration items with the network partition identifier for the Qualys Integration
+
+Create unique configuration items \(CIs\) for assets in your environment that share IP addresses. Identify the distinct assets across your environment and automatically update the CIs on your existing discovered item, vulnerable item, and detection records to give you more details about your vulnerabilities.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+By default in the Vulnerability Response application, one way to identify your assets is by IP address. In certain cases, assets can share IP addresses, but they are stored as one CI in your CMDB.
+
+For example, as shown in the following tables, multiple assets \(CI\)s in your environment can share IP addresses but have unique network and repository ids. However, by default, these assets are typically identified and stored as a single CI `(CI 1)` during the IP address lookup.
+
+|Source|IP address|NETWORK\_ID|Configuration item|
+|------|----------|-----------|------------------|
+|Qualys Vulnerability Integration: Assets and Fixed and Open Vulnerabilities Integrations|123.12.12.141|03712|CI 1|
+| |123.12.12.141|03713|CI 1|
+
+|Source|IP address|REPOSITORY\_ID|Configuration item|
+|------|----------|--------------|------------------|
+|Qualys Vulnerability Integration: Assets and Fixed and Open Vulnerabilities Integrations|123.12.12.141|12|CI 1|
+| |123.12.12.141|13|CI 1|
+
+You can create individual CIs for assets that have the same IP address so that you can identify them as distinct assets. Starting from a fresh data import, you can update your existing CIs with more granularity that includes the network partition identifier \[network\_partition\_identifier\] by running the scheduled job, **Update existing discovered items with network partition identifier**.
+
+This scheduled job is deactivated by default. Activate this feature for the Assets and Fixed and Open Vulnerabilities Integrations for Qualys Vulnerability Integration in the Setup Assistant to view this identifier on your records.
+
+When activated, this scheduled job adds the Network Partition Identifier \[network\_partition\_identifier\] to existing CI records from imported data. Existing CIs created by the IRE are also updated. The scheduled job also creates CIs that include the network partition identifier starting with the next import. Alternatively, you can launch the job on-demand to update your existing data.
+
+Starting with v14.0 of Vulnerability Response and v12.1 of the Qualys Vulnerability Integration Vulnerability Integration, the CMDB CI Class Models \(1.0.21.\) is supported. The class models have the network partition identifier \[network\_partition\_identifier\] in the Identification and Reconciliation \(IRE\) identification rules.
+
+|Option|Description|
+|------|-----------|
+|Run the scheduled jobs on-demand.|Update your existing discovered items. CIs for your existing Qualys Vulnerability Integration data are created or updated to include the network partition identifier granularity. Discovered items, vulnerable items, and detection records are all updated with the new CIs.|
+|Wait for imports of fresh data from the integrations with the next scheduled jobs.|Create CIs for each new asset using the network partition identifier starting with the next scheduled job. CI, vulnerable item, and detection records are all updated to include the new granularity. New CIs are created when an exact match is not found.|
+
+## Procedure
+
+1.  Navigate to **Vulnerability Response** &gt; **Setup Assistant** &gt; **Integration Configuration** &gt; **Scanner Integrations**.
+
+2.  Choose Qualys Vulnerability Integration.
+
+3.  **Edit** the required integration.
+
+4.  Choose **Host Detection Configuration**.
+
+5.  Choose **Enable Lookup By Network Partition** check box from the **Lookup By Network Partition** section.![Qulays Lookup By Network Partition check box](../../../secops-integration-vr/qualys/image/qualys-update-by-network-partition.png)
+
+6.  Click **Finish**.
+
+    |Source|IP address|NETWORK\_ID|CI for assets without network partition identifier|CIs Assets with network partition identifier|
+    |------|----------|-----------|--------------------------------------------------|--------------------------------------------|
+    |Qualys Vulnerability Integration: Assets and Fixed and Open Vulnerabilities Integrations|123.12.12.141|03712|CI 1|CI 1|
+    | |123.12.12.141|03713|CI 1|CI 2|
+
+    |Source|IP address|REPOSITORY\_ID|CI for assets without network partition identifier|CIs Assets with network partition identifier|
+    |------|----------|--------------|--------------------------------------------------|--------------------------------------------|
+    |Qualys: Assets and Fixed and Open Vulnerabilities Integrations|123.12.12.141|12|CI 1|CI 1|
+    | |123.12.12.141|13|CI 1|CI 2|
+
+    The IP Address and Incomplete IP Address CI identification lookup rules include the network partition identifier attribute automatically for a data import from the Assets and Fixed and Open Vulnerabilities Integrations for Qualys Vulnerability Integration.
+
+    After you activate the scheduled job and save the records, you alternatively can update your existing discovered items with CIs that include the network partition identifier by launching scheduled jobs on-demand. The CIs on your existing discovered item, vulnerable item, and detection records are automatically updated.
+
+

@@ -1,0 +1,58 @@
+---
+title: Create an SAP S/4HANA connection
+description: Establish a zero copy connection to an SAP S/4HANA system in Workflow Data Fabric Hub.
+locale: en-US
+release: zurich
+product: Workflow Data Fabric Hub
+classification: workflow-data-fabric-hub
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [SAP S/4HANA, Primary connectors, Manage zero copy connections, Workflow Data Fabric Hub, Workflow Data Fabric]
+---
+
+# Create an SAP S/4HANA connection
+
+Establish a zero copy connection to an SAP S/4HANA system in Workflow Data Fabric Hub.
+
+## Before you begin
+
+Role required: df\_connection\_admin
+
+## About this task
+
+## Procedure
+
+1.  Navigate to the available primary connectors in Workflow Data Fabric Hub in one of the following ways:
+
+    -   Navigate to **All** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+    -   Navigate to **Admin** &gt; **Workflow Data Fabric Hub** &gt; **Available connectors** &gt; **Primary connectors**.
+2.  Find the SAP S/4HANA connector and select **Connect**.
+
+3.  On the form, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Name and description|
+    |Connection label|Unique name for this connection. This helps in identifying the connection within your system.|
+    |Connection name|System-generated name based on the Connection label. This field cannot be modified once the connection is established.|
+    |Short description|Description of the connection explaining what it is about.|
+    |Connection attributes|
+    |Instance URL|URL of your local instance.|
+    |Authentication methods|
+    |ServiceNow username|Username of the current user accessing your local instance.|
+    |ServiceNow user password|Password of the current user accessing your local instance.|
+
+4.  Select **Connect**.
+
+
+## Result
+
+A test connection is made to the external data source, verifying that the connection details are correct and the data source is accessible.
+
+## What to do next
+
+If the connection succeeds, configure data steward access on the **Access Control** tab. See [Manage access to an established connection using roles](manage-access-connection-wdf.md).
+
+If the connection fails, verify the connection details with your data source administrator and try again.
+

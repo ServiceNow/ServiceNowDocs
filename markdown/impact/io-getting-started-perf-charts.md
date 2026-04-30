@@ -1,0 +1,43 @@
+---
+title: Getting started with Performance charts
+description: Follow these steps to generate Performance charts using Instance Observer.
+locale: en-US
+release: zurich
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Performance, Overview of Instance Observer, Platform Health, Using Impact, Impact]
+---
+
+# Getting started with Performance charts
+
+Follow these steps to generate Performance charts using Instance Observer.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
+
+2.  From the **Performance** menu, select the telemetry option to evaluate.
+
+    ![The Performance menu listing all of the telemetry charts available.](../image/io-perf-menu.png)
+
+3.  Select the reporting options:
+
+4.  -   Instance
+-   Date range
+-   Metrics \(The metrics available depend on the report selected.\)
+-   Options and add-ons
+5.  Select **Get Snapshot**.
+
+    **Note:** Options available on Report and Charts:
+
+    -   Select a data point to view additional actions or remove the entry.
+    -   Right-click to isolate a data point.
+    -   Select and drag across the chart to drill down.
+    -   Download to PNG, SVG, or CSV files or view transactions on the instance.
+    -   Change the report type.
+

@@ -1,0 +1,53 @@
+---
+title: Create a queue for order issues
+description: Create a queue for the Chat service channel that routes order issues.
+locale: en-US
+release: zurich
+product: Advanced Work Assignment
+classification: advanced-work-assignment
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Tutorial: Route interactions by context, Configure reasons for rejecting work items, Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
+---
+
+# Create a queue for order issues
+
+Create a queue for the Chat service channel that routes order issues.
+
+## Before you begin
+
+Role required: awa\_admin or admin
+
+## Procedure
+
+1.  From the Queues list view, click **New**.
+
+2.  Enter the following information in the fields listed:
+
+    -   Name: Order Support
+    -   Service channel: Chat
+    -   Condition mode: Advanced
+3.  In the **Script** field, enter this script:
+
+    ```
+    (function executeCondition(/* glide record */ current) {  
+    	var contextTable = current.getValue('context_table');
+    	var interactionBlobRecord = new GlideRecord(contextTable);
+    	interactionBlobRecord.addQuery('sys_id',current.getValue('context_document'));
+    	interactionBlobRecord.query();
+    
+    	if(interactionBlobRecord.next()){
+    		var jsonBlob = JSON.parse(interactionBlobRecord.getValue('value'));
+    		if(jsonBlob.liveagent_csp_category == 'order')
+    			return true;
+    	}
+    	return false;
+    })(current);
+    ```
+
+4.  Click **Submit**.
+
+
+**Parent Topic:**[Tutorial: Route interactions by context](context-routing-tutorial.md)
+

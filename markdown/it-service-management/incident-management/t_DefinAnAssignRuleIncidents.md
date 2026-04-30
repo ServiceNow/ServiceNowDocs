@@ -1,0 +1,32 @@
+---
+title: Define assignment rules for incidents
+description: Define assignment rules to identify the right group or the user which is skilled to work on an incident.
+locale: en-US
+release: zurich
+product: Incident Management
+classification: incident-management
+topic_type: task
+last_updated: "2025-07-31"
+reading_time_minutes: 1
+breadcrumb: [Configure, Incident Management, IT Service Management]
+---
+
+# Define assignment rules for incidents
+
+Define assignment rules to identify the right group or the user which is skilled to work on an incident.
+
+## Before you begin
+
+Role required: assignment\_rule\_admin or admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Policy** &gt; **Rules** &gt; **Assignment**.
+
+2.  Create assignment rules by following the steps provided in [Create an assignment rule](https://www.servicenow.com/docs/access?context=t_AssignmentModuleRule&version=zurich&pubname=zurich-platform-administration&ft:locale=en-US).
+
+3.  Click **Submit**.
+
+
+**Parent Topic:**[Configuring Incident Management](../concept/incident-configuration.md)
+
