@@ -8,4 +8,4 @@ doc_type: toc
 
 # Australia Cloud Governance Suite
 
-- [Cloud Governance Suite](cgs-landing-page.md)
+- [Cloud Governance Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/cloud-governance-suite/cgs-landing-page.md)
