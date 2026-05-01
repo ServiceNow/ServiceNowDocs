@@ -28,7 +28,7 @@ See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandbox
 
     View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when the sandbox was last accessed, and when the sandbox was allocated.
 
--   **[Create a sandbox template](https://www.servicenow.com/docs/access?context=create-sandbox-template&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
+-   **[Using sandbox templates](https://www.servicenow.com/docs/access?context=create-sandbox-template&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
 
     Enable your delegated developers to reuse the data so that they can test their changes without manually inputting the data every time.
 

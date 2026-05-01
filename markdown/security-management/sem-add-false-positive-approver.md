@@ -4,7 +4,7 @@ description: Users added to the False Positive, Unassign, Exception Approver gro
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---

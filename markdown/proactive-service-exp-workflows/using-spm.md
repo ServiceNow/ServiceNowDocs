@@ -3,8 +3,6 @@ title: Using Customer Service Problem Management
 description: By using Customer Service Problem Management, you can help diagnose and resolve the service problem cases identified in customer complaints.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

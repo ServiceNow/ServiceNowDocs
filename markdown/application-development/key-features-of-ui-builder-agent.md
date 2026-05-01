@@ -4,7 +4,7 @@ description: The UI Builder agent introduces three key features to enhance user 
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Explore, UI generation, Builder library, Developing your application, Building applications]
 ---

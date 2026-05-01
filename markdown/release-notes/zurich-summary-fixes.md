@@ -4,7 +4,7 @@ description: If you are thinking about upgrading to the Zurich family, problem \
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 36
 breadcrumb: [Learn about the Zurich release, Zurich release notes]
 ---

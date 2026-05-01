@@ -43,7 +43,7 @@ Role required: password\_reset\_admin
 
 7.  Verify the appearance of the end-user pages.
 
-<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d281370e178">
+<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d281587e178">
 
 **If the reset pages are Public Access**
 
@@ -51,7 +51,7 @@ Role required: password\_reset\_admin
 
 On the **Password Reset Details** tab, click the **Public URL**.
 
-</td></tr><tr><td id="d281370e193">
+</td></tr><tr><td id="d281587e193">
 
 **If the reset pages are not Public Access**
 

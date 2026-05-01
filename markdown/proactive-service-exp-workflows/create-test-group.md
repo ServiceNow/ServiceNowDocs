@@ -3,8 +3,6 @@ title: Create a test group
 description: Create a test group to combine various tests that can assist in troubleshooting issues encountered by specific types of services or product models. For instance, grouping a speed test and a ping test together can effectively help in diagnosing internet-related problems.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

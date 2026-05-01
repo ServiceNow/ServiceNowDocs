@@ -3,8 +3,6 @@ title: Configuring Customer Service Problem Management
 description: With Customer Service Problem Management \(CSPM\) define the tests to diagnose the service problems. Implement targeted solutions based on test results to resolve those problems.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

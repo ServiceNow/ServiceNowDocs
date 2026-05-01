@@ -6,7 +6,7 @@ release: zurich
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Guided Tour Designer, Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---

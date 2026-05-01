@@ -51,7 +51,7 @@ Each Activity in a playbook is associated to an activity definition. DevOps has 
 -   DevOps Associate Services AD
 -   DevOps Summary AD
 
-For more information, see [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) and [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information, see [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) and [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
 
 The DevOps table **sn\_devops\_capability\_activity\_mapping** has been created to maintain associations between Activity definitions and capabilities. This table configuration is used to dynamically render the stages and activities for a tool. You can update the conditions as needed to either enable or disable a particular activity for a tool.
 

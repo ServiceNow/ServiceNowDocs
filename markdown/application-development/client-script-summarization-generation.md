@@ -4,7 +4,7 @@ description: Use client script summary generation to get both a high-level summa
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Use, UI generation, Builder library, Developing your application, Building applications]
 ---

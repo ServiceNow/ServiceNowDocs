@@ -37,7 +37,7 @@ To create and use a REST web service workflow activity:
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the REST web service Execution Command.
 
-<table id="choicetable_g3y_2sq_vz"><tbody><tr><td id="d338014e146">
+<table id="choicetable_g3y_2sq_vz"><tbody><tr><td id="d338231e146">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -45,7 +45,7 @@ To create and use a REST web service workflow activity:
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d338014e162">
+</td></tr><tr><td id="d338231e162">
 
 **REST message**
 
@@ -53,7 +53,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Name of an existing REST message to use in this activity.
 
-</td></tr><tr><td id="d338014e171">
+</td></tr><tr><td id="d338231e171">
 
 **REST message function**
 
@@ -61,7 +61,7 @@ Name of an existing REST message to use in this activity.
 
 REST message function to use for this activity.
 
-</td></tr><tr><td id="d338014e180">
+</td></tr><tr><td id="d338231e180">
 
 **Endpoint**
 
@@ -69,7 +69,7 @@ REST message function to use for this activity.
 
 Endpoint URL for the REST web service this activity uses. Enter an endpoint in this field to override the endpoint configured in the REST message. Click the lock to open the input field.
 
-</td></tr><tr><td id="d338014e189">
+</td></tr><tr><td id="d338231e189">
 
 **Variable substitutions**
 
@@ -77,7 +77,7 @@ Endpoint URL for the REST web service this activity uses. Enter an endpoint in t
 
 Name-value pairs to pass to the REST endpoint. You can create these parameters manually, or drag input variables into the parameter fields, and then assign a value. Parameters defined in the REST message that use **$\{\}** can be assigned data from this activity template. Use the **Additional attribute** column to configure the system to not escape the text. By default the text sent to the REST message is escaped. If the users have provided variables using [Variable substitution in outbound REST messages](https://www.servicenow.com/docs/access?context=c_VariableSubstitutionREST&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) in the REST message, then the **Name** column is automatically populated.
 
-</td></tr><tr><td id="d338014e212">
+</td></tr><tr><td id="d338231e212">
 
 **Additional Headers**
 
@@ -85,7 +85,7 @@ Name-value pairs to pass to the REST endpoint. You can create these parameters m
 
 Additional HTTP header parameters for the REST message selected. You can also use these values to override parameters inherited from the REST message.
 
-</td></tr><tr><td id="d338014e221">
+</td></tr><tr><td id="d338231e221">
 
 **Additional Query Parameters**
 
@@ -93,7 +93,7 @@ Additional HTTP header parameters for the REST message selected. You can also us
 
 Additional query parameters for the REST message selected. You can also use these values to override parameters inherited from the REST message.
 
-</td></tr><tr><td id="d338014e230">
+</td></tr><tr><td id="d338231e230">
 
 **Use MID Server**
 
@@ -101,7 +101,7 @@ Additional query parameters for the REST message selected. You can also use thes
 
 Check box that determines if a MID Server should be used to invoke the REST web service.**Note:** If the REST web service message function defines a MID Server, that MID Server is used instead of the one selected here.
 
-</td></tr><tr><td id="d338014e242">
+</td></tr><tr><td id="d338231e242">
 
 **Required MID Server capabilities**
 
@@ -109,7 +109,7 @@ Check box that determines if a MID Server should be used to invoke the REST web 
 
 MID Server with the appropriate [MID Server capabilities](../../../product/mid-server/reference/r_MIDServerCapabilities.md) for connecting to the REST endpoint. By default, the system selects a MID Server with REST capabilities. This field is available when the **Use MID Server** check box is selected.
 
-</td></tr><tr><td id="d338014e262">
+</td></tr><tr><td id="d338231e262">
 
 **Timeout**
 
@@ -117,7 +117,7 @@ MID Server with the appropriate [MID Server capabilities](../../../product/mid-s
 
 Allowed duration of the REST web service request before it times out, in seconds. The default is **10**.
 
-</td></tr><tr><td id="d338014e274">
+</td></tr><tr><td id="d338231e274">
 
 **Authentication**
 
@@ -130,7 +130,7 @@ Determines what type of authentication is required for the endpoint. The options
 -   **Override with OAuth Authentication credentials**: Uses [OAuth 2.0](https://www.servicenow.com/docs/access?context=c_OAuthApplications&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) credentials to override the credentials in the REST message definition. The REST message selected for this activity must have its [OAuth 2.0 tutorial - create a REST message](https://www.servicenow.com/docs/access?context=t_OAuthDemoCreateRESTMessage&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) set to **OAuth 2.0** and its [OAuth profiles and scopes](https://www.servicenow.com/docs/access?context=c_OAuthProviderAndScope&version=zurich&pubname=zurich-api-reference&ft:locale=en-US) configured appropriately.
 
 
-</td></tr><tr><td id="d338014e331">
+</td></tr><tr><td id="d338231e331">
 
 **Credentials**
 
@@ -138,7 +138,7 @@ Determines what type of authentication is required for the endpoint. The options
 
 Required REST endpoint basic authentication credentials. This field is available when **Override with Basic Authentication credentials** is selected in the **Authentication** field. Only basic authentication credentials appear in the selection list, which includes credentials stored on the instance and credential IDs from an external storage system. If you are using credentials stored in a CyberArk safe, you can override the default safe defined in the MID Server configuration file. See [Configure the MID Server for CyberArk](https://www.servicenow.com/docs/access?context=c_CyberArkIntegrationConfiguration&version=zurich&pubname=zurich-platform-security&ft:locale=en-US) for details. Add the name of a different safe as a prefix to the credential ID, separated by a colon. For example, **newsafe:orch-test-f5**.
 
-</td></tr><tr><td id="d338014e353">
+</td></tr><tr><td id="d338231e353">
 
 **Protocol Profile**
 
@@ -146,7 +146,7 @@ Required REST endpoint basic authentication credentials. This field is available
 
 Certificate authentication to use. This field is available when the selections in the **Authentication** are either **Override with Certificate Authentication credentials** or **Override with Both Basic and Certificate Authentication credentials**.
 
-</td></tr><tr><td id="d338014e371">
+</td></tr><tr><td id="d338231e371">
 
 **OAuth profile**
 

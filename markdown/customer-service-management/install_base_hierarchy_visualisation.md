@@ -4,7 +4,7 @@ description: Use the Install Base Hierarchy tab on the CSM Configurable Workspac
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Install base items, Configure Install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---

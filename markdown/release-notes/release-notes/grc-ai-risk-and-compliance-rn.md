@@ -45,7 +45,7 @@ See [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-r
 
     Use the AI Risk and Compliance content accelerator icon on the AI Risk and Compliance workspace to activate the pre-configured content packs. Content Accelerator includes regulatory packs such as the EU Artificial Intelligence Act and NIST AI Risk Management Framework, offering citations, control objectives, and risk statements. The unified content hub helps to streamline scoping, reduce manual navigation between frameworks, and promote consistent use of regulatory content accelerator packs. This feature supports AI Risk and Compliance team in meeting relevant business requirements, maintaining team consistency, and speeding up the activation and management of global regulatory frameworks.
 
--   **[Automatic creation of AI cases and inquiries from an inbound email](https://www.servicenow.com/docs/access?context=automatic-creation-cases-inquiries-from-email&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US)**
+-   **[Automatic creation of AI cases and inquiries from inbound email](https://www.servicenow.com/docs/access?context=automatic-creation-cases-inquiries-from-email&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US)**
 
     Report AI cases or raise AI inquiries by sending an email to a dedicated email address. Your email automatically creates a new AI Case or AI Inquiry record in the system. This feature remove manual work and scattered reporting methods, ensuring every case or inquiry is automatically captured, categorized, and tracked.
 

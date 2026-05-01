@@ -6,7 +6,7 @@ release: zurich
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 7
 breadcrumb: [Time Card management, Working with Task table, Table admin, Tables and data, Configure core features, Administer]
 ---

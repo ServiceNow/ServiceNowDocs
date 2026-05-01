@@ -4,7 +4,7 @@ description: Fields added to the Material Topic \(sn\_esg\_material\_topic\) tab
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [ESG Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

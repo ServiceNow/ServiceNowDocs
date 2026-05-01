@@ -4,7 +4,7 @@ description: Create and activate an approval rule by selecting a rule type, choo
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---

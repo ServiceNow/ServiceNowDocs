@@ -179,7 +179,7 @@ Enhance data segregation and security to ensure that only authorized users can a
 
 Use the AI Risk and Compliance content accelerator icon on the AI Risk and Compliance workspace to activate the pre-configured content packs. Content Accelerator includes regulatory packs such as the EU Artificial Intelligence Act and NIST AI Risk Management Framework, offering citations, control objectives, and risk statements. The unified content hub helps to streamline scoping, reduce manual navigation between frameworks, and promote consistent use of regulatory content accelerator packs. This feature supports AI Risk and Compliance team in meeting relevant business requirements, maintaining team consistency, and speeding up the activation and management of global regulatory frameworks.
 
--   **[Automatic creation of AI cases and inquiries from an inbound email](https://www.servicenow.com/docs/access?context=automatic-creation-cases-inquiries-from-email&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US)**
+-   **[Automatic creation of AI cases and inquiries from inbound email](https://www.servicenow.com/docs/access?context=automatic-creation-cases-inquiries-from-email&version=zurich&pubname=zurich-governance-risk-compliance&ft:locale=en-US)**
 
 Report AI cases or raise AI inquiries by sending an email to a dedicated email address. Your email automatically creates a new AI Case or AI Inquiry record in the system. This feature remove manual work and scattered reporting methods, ensuring every case or inquiry is automatically captured, categorized, and tracked.
 
@@ -2856,7 +2856,7 @@ Developer Sandboxes
 
 View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when the sandbox was last accessed, and when the sandbox was allocated.
 
--   **[Create a sandbox template](https://www.servicenow.com/docs/access?context=create-sandbox-template&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
+-   **[Using sandbox templates](https://www.servicenow.com/docs/access?context=create-sandbox-template&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
 
 Enable your delegated developers to reuse the data so that they can test their changes without manually inputting the data every time.
 
@@ -5737,7 +5737,7 @@ Ask your questions about using UI Builder to the UI Builder agent. The UI Builde
 Accelerate troubleshooting and resolve test failures quickly by using ATF troubleshooting agent on covered metadata.
 
 
--   **[Application development with Figma MCP server](https://www.servicenow.com/docs/access?context=accelerate-design-to-development-with-figma-mcp-server&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
+-   **[MCP connections and Build Agent](https://www.servicenow.com/docs/access?context=accelerate-design-to-development-with-figma-mcp-server&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
 
 You can now connect the Build Agent to the Figma MCP server. The Figma MCP server enables the Build Agent to access the structured data within Figma files. This connection accelerates the transition from application design to development, helping to make the developer workflow more efficient.
 

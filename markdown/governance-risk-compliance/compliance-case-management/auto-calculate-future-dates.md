@@ -6,7 +6,7 @@ release: zurich
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---

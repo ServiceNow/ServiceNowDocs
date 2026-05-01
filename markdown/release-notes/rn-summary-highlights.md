@@ -3200,7 +3200,7 @@ Playbooks in Workflow Studio
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
-See [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) for more information.
+See [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

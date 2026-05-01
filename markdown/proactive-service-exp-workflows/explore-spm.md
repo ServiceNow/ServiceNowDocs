@@ -3,8 +3,6 @@ title: Exploring Customer Service Problem Management
 description: Learn how you, as a service provider, can use the Customer Service Problem Management \(CSPM\) application to streamline the resolution process for handling service-related problems experienced by your customers.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

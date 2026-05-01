@@ -4,7 +4,7 @@ description: Connect the Figma MCP server to the Build Agent to accelerate the t
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Explore, Build Agent, AI in custom applications, Developing your application, Building applications]
 ---

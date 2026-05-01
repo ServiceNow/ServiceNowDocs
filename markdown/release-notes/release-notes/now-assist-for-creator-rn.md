@@ -108,7 +108,7 @@ See [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-
     Accelerate troubleshooting and resolve test failures quickly by using ATF troubleshooting agent on covered metadata.
 
 
--   **[Application development with Figma MCP server](https://www.servicenow.com/docs/access?context=accelerate-design-to-development-with-figma-mcp-server&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
+-   **[MCP connections and Build Agent](https://www.servicenow.com/docs/access?context=accelerate-design-to-development-with-figma-mcp-server&version=zurich&pubname=zurich-application-development&ft:locale=en-US)**
 
     You can now connect the Build Agent to the Figma MCP server. The Figma MCP server enables the Build Agent to access the structured data within Figma files. This connection accelerates the transition from application design to development, helping to make the developer workflow more efficient.
 

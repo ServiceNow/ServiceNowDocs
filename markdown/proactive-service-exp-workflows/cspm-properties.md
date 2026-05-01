@@ -3,8 +3,6 @@ title: Customer Service Problem Management properties
 description: Customer Service Problem Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

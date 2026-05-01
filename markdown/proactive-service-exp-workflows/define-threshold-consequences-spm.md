@@ -3,8 +3,6 @@ title: Define measure consequences for the threshold rules
 description: Set actions or responses to trigger when the test measure results fall outside the predefined acceptable limits.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

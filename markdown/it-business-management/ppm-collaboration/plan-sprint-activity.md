@@ -6,7 +6,7 @@ release: zurich
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0 integration with Project Portfolio Management, Explore, Project Portfolio Management, Strategic Portfolio Management]
 ---

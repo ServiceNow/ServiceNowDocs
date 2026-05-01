@@ -6,7 +6,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Use, Telecommunications Service Operations Management]
 ---

@@ -6,7 +6,7 @@ release: zurich
 product: Financial Management
 classification: financial-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 keywords: [Showback statements, Invoice]
 breadcrumb: [Financial Charging - Legacy, Financial Management - Legacy, Project Portfolio Management, Strategic Portfolio Management]

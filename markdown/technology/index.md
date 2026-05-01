@@ -8,5 +8,5 @@ doc_type: toc
 
 # Zurich Technology
 
-- [Technology Industry]()
-- [Technology Provider Service Management]()
+- [Technology Industry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/technology/technology-overview.md)
+- [Technology Provider Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/technology/technology-provider-service-mgt-overview.md)

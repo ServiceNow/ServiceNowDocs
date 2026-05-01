@@ -3,8 +3,6 @@ title: Create a test definition
 description: Create a test definition to define tests that can help troubleshoot a problem encountered by a particular type of service or product model. For example, use a speed test to troubleshoot the internet-related issues.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

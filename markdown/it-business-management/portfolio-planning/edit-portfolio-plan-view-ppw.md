@@ -6,7 +6,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Manage portfolio plan views, Portfolio Planning, Strategic Portfolio Management]
 ---

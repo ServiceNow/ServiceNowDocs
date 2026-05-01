@@ -3,8 +3,6 @@ title: Create a service problem case from the workspace
 description: Create a service problem case for a customer raised issue so that an agent can work on it and resolve the service-related problem.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

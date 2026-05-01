@@ -3,8 +3,6 @@ title: Setting up a test group
 description: Define tests for a particular service type, product model, or inventory to troubleshoot the service-related problems.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -4,7 +4,7 @@ description: Track the AI agent use and efficiency gain on your instance through
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 19
 breadcrumb: [Reference, Now Assist AI agents, Enable AI experiences]
 ---
