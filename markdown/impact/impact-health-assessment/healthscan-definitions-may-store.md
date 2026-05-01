@@ -6,7 +6,7 @@ release: zurich
 product: Impact Health Assessment
 classification: impact-health-assessment
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 8
 breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
 ---

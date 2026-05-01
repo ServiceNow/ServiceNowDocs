@@ -4,7 +4,7 @@ description: Enable data collection and analysis from external tables by integra
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Define a table data source, Define the data source, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
 ---

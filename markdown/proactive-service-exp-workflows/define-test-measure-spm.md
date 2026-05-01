@@ -3,8 +3,6 @@ title: Define test measure definitions for a service test
 description: Define unique test metrics, such as parameters and criteria to run the test on a given service during testing. These metrics help promote that the service meets the desired standards and requirements to provide a satisfactory user experience.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

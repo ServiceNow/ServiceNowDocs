@@ -69,7 +69,7 @@ The property for the playbook generation is set in the Process Mining system pro
 
     In Workflow Studio, the name, and Now Assist prompt is displayed. You can choose to edit them and regenerate the preview.
 
-    For information on Playbooks on Workflow Studio, see [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+    For information on Playbooks on Workflow Studio, see [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
 
 
 **Parent Topic:**[Analyzing and getting process insights](../concept/analyze-get-process-insights.md)

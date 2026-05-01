@@ -6,7 +6,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 3
 breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

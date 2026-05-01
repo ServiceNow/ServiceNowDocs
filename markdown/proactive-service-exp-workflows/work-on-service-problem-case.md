@@ -3,8 +3,6 @@ title: Diagnose and resolve a service problem case
 description: As a customer service agent, review, diagnose, resolve, and close a service problem case for the service-related issue experienced by the customer.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5

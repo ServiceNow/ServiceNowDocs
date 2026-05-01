@@ -20,7 +20,7 @@ Create a custom pipeline to move changes from your development environment to pr
 
 Role required: releaseops.pipeline\_admin and playbook.admin or pd\_author
 
-For more information about playbooks, see [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
+For more information about playbooks, see [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US).
 
 ## Procedure
 

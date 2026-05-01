@@ -4,7 +4,7 @@ description: The Overview dashboard provides a centralized view of your Code Sig
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Health and Status Dashboard, Code Signing, Platform Security]
 ---

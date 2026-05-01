@@ -3,8 +3,6 @@ title: Activate Customer Service Problem Management
 description: Activate the Customer Service Problem Management plugin \(sn\_sprb\_mgmt\) for Customer Service Problem Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and activate related ServiceNow Store applications and plugins if they aren't already installed.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 2

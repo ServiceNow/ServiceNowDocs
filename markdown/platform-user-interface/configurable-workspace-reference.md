@@ -4,7 +4,7 @@ description: Find additional details and support about creating, customizing, an
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

@@ -3,8 +3,6 @@ title: Integrating Customer Service Problem Management with southbound external 
 description: If you have a Customer Service Problem Management subscription, you can submit outbound service test run requests to various external systems by integrating the Customer Service Problem Management application with the external southbound systems.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1

@@ -6,7 +6,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 3
 breadcrumb: [Telecommunications Network Inventory function catalog, Reference, Telecommunications Network Inventory]
 ---

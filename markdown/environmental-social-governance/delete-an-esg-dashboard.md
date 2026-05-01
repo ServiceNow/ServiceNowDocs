@@ -4,7 +4,7 @@ description: You can delete a dashboard that is no longer useful. The Analytics 
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Monitoring assessment data using ESG Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

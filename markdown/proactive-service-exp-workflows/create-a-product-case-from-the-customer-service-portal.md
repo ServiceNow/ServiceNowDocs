@@ -3,8 +3,6 @@ title: Create a service problem case from the Customer Service Portal
 description: Customers can create a service problem case to report an issue about the service from the Customer Service Portal.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

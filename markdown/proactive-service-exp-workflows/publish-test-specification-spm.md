@@ -3,8 +3,6 @@ title: Publish test definitions
 description: Publish the test definitions to ensure that agents only see the approved versions of test definitions for execution. This also helps maintain consistency and control over both current and future test versions.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

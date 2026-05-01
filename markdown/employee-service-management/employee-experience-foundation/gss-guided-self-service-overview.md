@@ -56,7 +56,7 @@ Playbook provides a visual representation of step-by-step process involved in se
 
 Understand the basics of playbooks and workflow studio. Ensure you have working knowledge of the following processes:
 
--   [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
+-   [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
 -   [Playbook builder](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
 -   [Using Workflow Studio](https://www.servicenow.com/docs/access?context=building-workflow-studio-components&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)
 -   [Getting started with Playbooks](https://www.servicenow.com/docs/access?context=getting-started-processes&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US)

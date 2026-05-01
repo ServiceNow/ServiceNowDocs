@@ -4,7 +4,7 @@ description: During Impact Guided Setup automated registration, a status is prov
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Configure the Impact Store Application, Configuring Impact, Impact]
 ---

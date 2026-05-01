@@ -6,7 +6,7 @@ release: zurich
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [NIST CSF Use Case Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---

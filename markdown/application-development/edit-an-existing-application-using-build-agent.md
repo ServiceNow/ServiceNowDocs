@@ -4,7 +4,7 @@ description: Learn to use Build Agent to update or enhance ServiceNow applicatio
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Use, Build Agent, AI in custom applications, Developing your application, Building applications]
 ---

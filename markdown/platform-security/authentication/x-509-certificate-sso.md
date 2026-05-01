@@ -6,7 +6,7 @@ release: zurich
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [SAML 2.0 configuration using Multi-Provider SSO, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---

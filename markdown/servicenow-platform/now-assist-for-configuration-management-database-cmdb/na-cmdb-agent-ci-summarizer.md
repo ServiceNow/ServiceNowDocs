@@ -43,15 +43,15 @@ For more information, see [Working in the Now Assist panel](https://www.servicen
 
 3.  Provide feedback, copy the summary text to the clipboard, or refresh the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d375029e159">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d375246e159">
 
 Option
 
-</th><th align="left" id="d375029e162">
+</th><th align="left" id="d375246e162">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d375029e168">
+</th></tr></thead><tbody><tr><td id="d375246e168">
 
 **Provide feedback for the summary**
 
@@ -59,7 +59,7 @@ Procedure
 
 If you think that the summary was helpful, select thumbs-up ![](../../configuration-management/image/icon-thumbs-up.png). If you think that the summary wasn’t helpful, select thumbs-down ![](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d375029e183">
+</td></tr><tr><td id="d375246e183">
 
 **Copy the summary**
 
@@ -67,7 +67,7 @@ If you think that the summary was helpful, select thumbs-up ![](../../configurat
 
 Select the copy to clipboard icon ![](../../configuration-management/image/icon-clipboard.png) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d375029e195">
+</td></tr><tr><td id="d375246e195">
 
 **Refresh the summary**
 

@@ -6,7 +6,7 @@ release: zurich
 product: Synthetic Monitoring
 classification: synthetic-monitoring
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---

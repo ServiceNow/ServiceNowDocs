@@ -98,7 +98,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
 -   When migrating legacy NLU topics, ensure that you optimize topic descriptions so that the topic is clearly described and aligned with the intent and expected results.
 
-    For details, see [LLM description and instruction guidelines for Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-llm-description-guidelines&version=zurich&pubname=zurich-conversational-interfaces&ft:locale=en-US).
+    For details, see .
 
 -   You can customize the look of your assistant and the chat experience during guided setup.
 

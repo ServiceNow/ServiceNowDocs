@@ -6,7 +6,7 @@ release: zurich
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Reference, Agile Development 2.0, Strategic Portfolio Management]
 ---

@@ -4,7 +4,7 @@ description: Use the UI Builder agent to learn about features and functionality,
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 4
 breadcrumb: [Use, UI generation, Builder library, Developing your application, Building applications]
 ---

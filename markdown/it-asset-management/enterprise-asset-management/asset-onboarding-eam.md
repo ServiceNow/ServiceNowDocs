@@ -17,7 +17,7 @@ Playbooks provide a step-by-step guidance for setting up your assets with import
 
 ## Playbook overview
 
-A playbook takes a workflow and breaks it into multiple lanes. The workflow for a playbook is generally created using the [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Each lane in a playbook includes:
+A playbook takes a workflow and breaks it into multiple lanes. The workflow for a playbook is generally created using the [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US). Each lane in a playbook includes:
 
 -   A list of activities that you review.
 -   Status indicators that display the current state of each activity.

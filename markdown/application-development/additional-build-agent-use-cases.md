@@ -4,7 +4,7 @@ description: Along with creating and enhancing applications, Build Agent can be 
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Use, Build Agent, AI in custom applications, Developing your application, Building applications]
 ---

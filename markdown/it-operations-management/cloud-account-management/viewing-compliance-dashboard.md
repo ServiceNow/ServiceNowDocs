@@ -6,7 +6,7 @@ release: zurich
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 keywords: [Compliance dashboard Cloud Workspace, Compliance dashboard CW, Benefits of Compliance dashboard, Personas in Cloud Workspace for Compliance dashboard]
 breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]

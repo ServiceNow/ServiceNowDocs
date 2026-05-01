@@ -4,7 +4,7 @@ description: Read-only field protections have been moved from the client side to
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Activate, Configure, Customer Success Management]
 ---

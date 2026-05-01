@@ -6,7 +6,7 @@ release: zurich
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Role required: Windows Local Administrator
 
 1.  Follow either procedure.
 
-<table id="choicetable_or2_xw4_tx"><tbody><tr><td id="d361692e55">
+<table id="choicetable_or2_xw4_tx"><tbody><tr><td id="d361909e55">
 
 **Use an EXE file from the command line**
 
@@ -38,7 +38,7 @@ C:\Program Files\ServiceNow\uninstall\
 2.  Double-click the `unins000.exe` file.
 
 
-</td></tr><tr><td id="d361692e78">
+</td></tr><tr><td id="d361909e78">
 
 **Use an MSI file from the command line**
 

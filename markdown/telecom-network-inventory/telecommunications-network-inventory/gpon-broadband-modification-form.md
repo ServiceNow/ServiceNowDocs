@@ -6,7 +6,7 @@ release: zurich
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Reference, Telecommunications Network Inventory]
 ---

@@ -3,8 +3,6 @@ title: Define a characteristic for the test definition
 description: Add a characteristic for a test to determine the properties that are required to run and evaluate the test.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

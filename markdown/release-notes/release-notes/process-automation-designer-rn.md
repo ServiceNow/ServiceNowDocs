@@ -20,7 +20,7 @@ The ServiceNow® Playbooks builder within the ServiceNow® Workflow Studio appli
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
-See [Exploring playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) for more information.
+See [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=zurich&pubname=zurich-build-workflows&ft:locale=en-US) for more information.
 
 **Important:** Playbooks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 

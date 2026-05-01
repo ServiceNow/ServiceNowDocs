@@ -4,7 +4,7 @@ description: Create personal notifications, which are subscriptions to notificat
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer]
 ---

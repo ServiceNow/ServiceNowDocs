@@ -3,8 +3,6 @@ title: Define the relationship between the test definitions
 description: Define relationships for a test definition to connect and associate it with other test specifications. This process ensures comprehensive testing coverage and that the tests are aligned with the testing goals.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1

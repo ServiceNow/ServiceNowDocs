@@ -4,7 +4,7 @@ description: Enable customers to view and track the list of product inventories 
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 4
 breadcrumb: [Business Portal, Customer communication, Use, Customer Service Management]
 ---

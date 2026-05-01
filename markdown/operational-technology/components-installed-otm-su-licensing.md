@@ -4,7 +4,7 @@ description: Several types of components are installed with activation of the OT
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

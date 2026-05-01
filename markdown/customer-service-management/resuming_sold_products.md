@@ -4,7 +4,7 @@ description: Resume sold products to create a resume order on the CSM Configurab
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

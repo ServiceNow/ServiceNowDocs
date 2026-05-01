@@ -6,7 +6,7 @@ release: zurich
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
 ---

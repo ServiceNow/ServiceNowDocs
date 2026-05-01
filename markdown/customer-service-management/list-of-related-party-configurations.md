@@ -4,7 +4,7 @@ description: Related party configurations for different entities that are provid
 locale: en-US
 release: zurich
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Create related party configurations, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---

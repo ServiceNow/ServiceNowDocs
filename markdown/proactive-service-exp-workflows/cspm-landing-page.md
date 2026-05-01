@@ -3,8 +3,6 @@ title: Customer Service Problem Management
 description: Efficiently identify and resolve service problems experienced by the customers with the ServiceNow Customer Service Problem Management \(CSPM\) application. Technology, media, and telecommunications \(TMT\) service providers can streamline their service management processes and ensure a seamless experience for their customers by leveraging this application.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1

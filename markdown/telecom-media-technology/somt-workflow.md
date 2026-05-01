@@ -4,7 +4,7 @@ description: The Sales CRM for Telecommunications workflow shows the end-to-end 
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 5
 breadcrumb: [Explore, Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---

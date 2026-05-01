@@ -4,7 +4,7 @@ description: Automatically generate a data binding and formula using natural lan
 locale: en-US
 release: zurich
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 2
 breadcrumb: [Use, UI generation, Builder library, Developing your application, Building applications]
 ---

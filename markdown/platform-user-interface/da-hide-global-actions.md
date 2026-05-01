@@ -4,7 +4,7 @@ description: Configure global actions to exclude specified tables, views, pages,
 locale: en-US
 release: zurich
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

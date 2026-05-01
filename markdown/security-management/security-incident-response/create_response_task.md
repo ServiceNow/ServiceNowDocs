@@ -6,7 +6,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-01"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Tasks, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

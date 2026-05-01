@@ -3,8 +3,6 @@ title: Customer Service Problem Management data model
 description: Customer Service Problem Management \(CSPM\) provides a framework that enables you to follow a structured approach to handle and resolve customer-reported issues. The framework ensures a seamless and satisfactory customer experience.
 locale: en-US
 release: zurich
-product: Customer Service Problem Management
-classification: customer-service-problem-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 3
