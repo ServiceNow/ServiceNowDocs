@@ -1,15 +1,15 @@
 ---
-title: Activate Group Action Framework for Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+title: Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications
 description: Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Order Enrichment AI agent, AI agents in SOMT, Use agentic workflows, Now Assist for Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Order enrichment AI agent, AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Activate Group Action Framework for Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+# Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications
 
 Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 

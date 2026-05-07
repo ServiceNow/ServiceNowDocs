@@ -17,7 +17,7 @@ Associate a skill to an achievement credential template in Achievements and Cred
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_lep.achievement\_manager
 
 ## Procedure
 

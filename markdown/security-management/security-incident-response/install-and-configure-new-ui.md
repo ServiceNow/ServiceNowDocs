@@ -30,6 +30,4 @@ Role required: admin
 
 2.  After installation is complete, you can open the Security Analyst Workspace by navigating to **Security Incident** &gt; **Incidents \(New UI\)**
 
-    ![Security Incident navigation bar](../image/nav-bar.png)
-
 

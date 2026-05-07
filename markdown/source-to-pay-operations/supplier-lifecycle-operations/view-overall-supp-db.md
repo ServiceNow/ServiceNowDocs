@@ -17,7 +17,7 @@ You can view the Overall supplier dashboard to get the enterprise-wide insights 
 
 ## Before you begin
 
-Role required: admin, sn\_slm.supplier\_manager
+Role required: sn\_slm.admin, sn\_slm.supplier\_manager
 
 ## Procedure
 

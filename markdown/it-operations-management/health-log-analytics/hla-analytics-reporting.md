@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [analytics and reporting, IT issues predicted, cost savings, valuable insights, predictive analytics, issue prevention, user impact analysis, organizational savings, performance metrics, reporting dashboards, business value, proactive monitoring]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 

@@ -7,7 +7,7 @@ product: Scripts
 classification: scripts
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Useful scripts, Scripting, API implementation, API implementation and reference]
 ---
 
@@ -224,26 +224,25 @@ function toggleTimerByFieldName(fieldName){
           timerImg.src="images/timer_stop.gifx";}}}}}
 ```
 
-## Modify GlideDateTime field value
-
-The following example uses a server-side script to access a **GlideDateTime** field.
+## Modify GlideDateTime field values
 
 The following server-side script example shows how to modify values using the GlideDateTime API. The same concept also applies to the GlideDate object.
+
+**Note:** The following script is only intended for global applications.
 
 ```
 //You first need a GlideDateTime object
 //this can be from instantiating a new object "var gdt = new GlideDateTime()"
 //or getting the object from a GlideDateTime field
-//getting the field value (for example: var gdt = current.start_date) 
-//only returns the string value, not the object
-//to get the object use var gdt = current.start_date.getGlideObject();
+//getting the field value (for example: var gdt = current.start_date) only returns the string value, not the object
+//to get the object use var gdt = current.start_date.getGlideObject(); (GlideElement)
 //now gdt is a GlideDateTime object
 var gdt = current.start_date.getGlideObject();
  
 //All methods can use negative values to subtract intervals
  
 //add 1 hour (60 mins * 60 secs)
-gdt.addSecondsLocalTime(3600);
+gdt.addSeconds(3600);
  
 //add 1 day
 gdt.addDaysLocalTime(1);
@@ -254,12 +253,28 @@ gdt.addDaysLocalTime(-1);
 //add 3 weeks
 gdt.addWeeksLocalTime(3);
  
-//subtract 6 months.
+//subtract 6 months
 gdt.addMonthsLocalTime(-6);
  
 //add 1 year, representing the date and time using the UTC timezone instead of the local user's timezone.
 gdt.addYearsUTC(1);
+ 
+//set the value of the GlideDateTime object to the current session timezone/format
+GlideSession.get().setTimeZoneName('US/Eastern');
+gdt.setDisplayValue('2018-2-28 00:00:00');
+gs.info('In ' + GlideSession.get().getTimeZoneName() + ": " + gdt.getDisplayValue());
 ```
+
+See also:
+
+-   [GlideDateTime](../../glide-server-apis/topic/p_GlideServerAPIs.md#)
+-   [GlideDate - Global](../../../app-store/dev_portal/API_reference/GlideDate/concept/GlideDateAPI.md#)
+-   [GlideDate - Scoped](../../../app-store/dev_portal/API_reference/glideDateScoped/concept/c_GlideDateScopedAPI.md#)
+-   [GlideDateTime - Global](../../../app-store/dev_portal/API_reference/GlideDateTime/concept/c_GlideDateTimeAPI.md#)
+-   [GlideDateTime - Scoped](../../../app-store/dev_portal/API_reference/glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)
+-   [GlideElement - Global](../../../app-store/dev_portal/API_reference/GlideElement_global/concept/c_GlideElementAPI.md#)
+-   [GlideElement - Scoped](../../../app-store/dev_portal/API_reference/glideElement/concept/c_GlideElementScopedAPI.md#)
+-   [GlideTime - Scoped](../../../app-store/dev_portal/API_reference/glideTimeScoped/concept/c_GlideTimeScopedAPI.md#)
 
 -   **[Approval assignment scripts](r_UsefulApprovalAssignmentScripts.md)**  
 This is a searchable version of the useful approval and assignment scripts.

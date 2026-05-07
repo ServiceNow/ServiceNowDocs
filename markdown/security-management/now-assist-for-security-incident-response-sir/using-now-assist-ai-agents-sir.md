@@ -39,8 +39,6 @@ Agentic workflows and their AI agents use [role masking](https://www.servicenow.
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
 <table id="table_fsq_52h_m2c"><thead><tr><th>
 
 Agentic workflow name

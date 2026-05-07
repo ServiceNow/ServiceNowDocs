@@ -295,6 +295,7 @@ A list of links to key CMDB dashboards and tools. You can [add a link](../task/c
 -   [Relationship Health Dashboard](../task/t_ViewRelationshipsHealth.md): View the Relationship Health Dashboard with CMDB Health scores for CI relationship.
 -   [Create CI](../task/create-ci-manual-cmdb-workspace.md): Create a new CI while enforcing Identification and Reconciliation Engine \(IRE\) processes and other requirements that result in a valid and unique CI.
 -   [Data Certification Dashboard](data-cert-dashboard-workspace.md): View Data Certification instances, tasks and status such as past due certification tasks. Drill down to specific tasks to reassign them for faster resolution.
+-   [CMDB Coverage Dashboard](../../cmdb-coverage/concept/cmdb-coverage.md): Show details of CMDB discovery completeness by correlating IP addresses from IPAM systems with discovered configuration items \(CIs\).
 
 <table id="table_wks_yz3_krb"><thead><tr><th>
 

@@ -7,9 +7,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, read, update, operation, entity, entities]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Managing how models read and update the ERP system
@@ -92,7 +92,7 @@ When you add mapped fields or parameters as outputs and successfully read or upd
 
 After all parameters are defined and you have built and run the read or update operation, build a flow in Workflow Studio that uses the defined parameters.
 
-Enter any filter criteria by specifying a value when you select the parameter in the **Mandatory Field** of the flow's action. For more information, see .
+Enter any filter criteria by specifying a value when you select the parameter in the **Mandatory Field** of the flow's action. For more information, see [Building flows to read or update the ERP system](erp-canvas-build-flow-operation.md).
 
 **Parent Topic:**[Building and managing models to work with ERP data](work-with-erp-data-models.md)
 

@@ -17,9 +17,9 @@ View a Now Assist summary of past incidents on the same or related Configuration
 
 ## Before you begin
 
--   Install the ITOM plugin in the Now Assist feature. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
--   Ensure that the Alert investigation skill is active. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
--   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for IT Operations Management \(ITOM\)](../concept/now-assist-itom.md).
+-   Install the ITOM plugin in the Now Assist feature. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
+-   Ensure that the Alert investigation skill is active. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
+-   View important information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application in [Now Assist for ITOM](../concept/now-assist-itom.md).
 
 For comprehensive information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 

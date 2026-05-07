@@ -47,7 +47,7 @@ Runbook tasks enable you to pause playbook progress until a task is resolved. To
 
 5.  Define when you want the runbook task to occur, either at the beginning or end of the selected playbook stage.
 
-    1.  In the **Wait for runbook activity** field, select the Lookup using list icon![Lookup using list icon.](../../../administer/ui-builder/image/lookup-using-list-icon.png).
+    1.  In the **Wait for runbook activity** field, select the Lookup using list icon![](../../../administer/ui-builder/image/lookup-using-list-icon.png).
 
         A dialog appears that displays the selected playbook stage and the options available for when the runbook task can occur.
 

@@ -89,7 +89,7 @@ Managed Support
 
 </td></tr><tr><td>
 
-[Instance Observer](../concept/io-overview.md) Features
+[Monitoring instance health with Instance Observer](../concept/io-overview.md) Features
 
 </td><td align="left">
 

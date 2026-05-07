@@ -34,15 +34,15 @@ Role required: none
 
 5.  Select either **Credit Card** or **Purchase Order** as your payment type.
 
-<table id="choicetable_rcj_45l_bdc"><thead><tr><th align="left" id="d276403e168">
+<table id="choicetable_rcj_45l_bdc"><thead><tr><th align="left" id="d278405e168">
 
 Payment type
 
-</th><th align="left" id="d276403e171">
+</th><th align="left" id="d278405e171">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d276403e177">
+</th></tr></thead><tbody><tr><td id="d278405e177">
 
 **Credit card**
 
@@ -53,7 +53,7 @@ Procedure
 3.  Select **Pay**.
 
 
-</td></tr><tr><td id="d276403e206">
+</td></tr><tr><td id="d278405e206">
 
 **Purchase order**
 

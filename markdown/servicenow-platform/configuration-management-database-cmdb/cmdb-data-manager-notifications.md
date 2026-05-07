@@ -108,7 +108,7 @@ Recipients
 
 </td><td>
 
-The task's approval approvers \(from sysapproval\_approver where state=requested\).
+The task's approval approvers, based on records in the Approvals \[sysapproval\_approver\] table, where **State**=**Requested**.
 
 </td></tr><tr><td>
 

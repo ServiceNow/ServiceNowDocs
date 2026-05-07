@@ -27,7 +27,7 @@ This task guides you on how to schedule assessment and validation tasks manually
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../assessment-engine/image/list-icon.png).
+2.  Select the list icon ![](../image/list-icon-mrm.png).
 
 3.  From the list, navigate to **Models** &gt; **Monitor**.
 

@@ -1,17 +1,17 @@
 ---
 title: Create a theme using Now Assist
-description: Use Now Assist to generate themes from your brand image. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+description: Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a theme using Now Assist
 
-Use Now Assist to generate themes from your brand image. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
+Use Now Assist to generate themes from your brand image or brand guidelines. This AI-powered workflow extracts color palettes automatically, creating visually consistent themes without requiring brand color codes.
 
 ## Before you begin
 
@@ -50,16 +50,16 @@ For information on granular roles, see [Granular admin roles](https://www.servic
 
     |Option|Action|
     |------|------|
-    |**Upload brand image**|AI automatically extracts a color palette from your image.|
+    |**Upload brand image or brand guidelines PDF**|AI automatically extracts a color palette from your image or brand guidelines PDF.|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
 
-    ![Theme Creation wizard showing the option to upload a brand image or handpick colors to generate a color palette.](../image/tb-nap-wizard-flow-2.png "Generate theme colors using AI or manual selection")
+    ![Theme Creation wizard showing the option to upload an image or PDF file or handpick colors to generate a color palette.](../image/tb-nap-wizard-flow-2-ap2.png "Generate theme colors using AI or manual selection")
 
-7.  If you chose to upload a brand image, generate your theme colors using AI.
+7.  If you chose to upload a brand image or brand guidelines file, generate your theme colors using AI.
 
-    1.  Upload your brand image.
+    1.  Upload your brand image or brand guidelines file.
 
-        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.![Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.](../image/tb-nap-wizard-upload-image.png)
+        Supported formats for image files are JPEG, JPG, PNG, and SVG with a maximum size of 20 MB. Supported formats for brand guidelines are PDF with a maximum size of 20 MB. ![Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.](../image/tb-nap-wizard-upload-image.png)
 
     2.  Select **Generate Palette**.
 

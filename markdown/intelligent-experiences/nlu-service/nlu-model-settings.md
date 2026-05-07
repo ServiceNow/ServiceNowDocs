@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -48,6 +48,4 @@ Test results include a model threshold recommendation only if they meet the foll
 Test results with a recommended threshold contain a second graphic. The second graphic shows the prediction percentages with the recommended thresholds applied.
 
 Applying the threshold recommendation may improve the prediction percentages of your model. Select **Apply recommendations** to change the threshold. The system automatically retrains the model, and the test results show the prediction percentages with the new threshold.
-
-**Parent Topic:**[Model management](model-management-phases.md)
 

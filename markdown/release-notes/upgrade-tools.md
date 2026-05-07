@@ -4,7 +4,7 @@ description: Learn about ServiceNow products and tools that can improve your upg
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-07"
 reading_time_minutes: 2
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---
@@ -52,17 +52,13 @@ In addition to upgrade-related products, you can also use ServiceNow's upgrade t
 
 ## Best practices
 
-Visit the ServiceNow Customer Success Center website for information on upgrade value and best practices.
+Visit the ServiceNow [Best Practices](https://mynow.servicenow.com/now/best-practices/home) website for more information on how to accelerate outcomes with expert-curated best practices.
 
--   **[Upgrade value calculator](https://www.servicenow.com/success/value-calculator-upgrades.html)**
+-   **[Upgrade quickly and maintain platform health](https://mynow.servicenow.com/now/best-practices/success-packs/core-platform-upgrade)**
 
-    Determine the potential business value of staying current with ServiceNow upgrades.
+    Plan and execute smooth ServiceNow AI Platform upgrades, reduce risk, cut costs, and adopt new features faster across your ServiceNow instance.
 
--   **[Playbook: Upgrade quickly and maintain platform health](https://www.servicenow.com/success/playbook/upgrade-fast.html)**
-
-    Use upgrade processes and tools to conduct your upgrades, and learn how to make changes to your baseline system when required.
-
--   **[Balance value and risk with platform customizations](https://www.servicenow.com/success/playbook/innovate-at-scale.html)**
+-   **[Balance value and risk with platform customizations](https://mynow.servicenow.com/now/best-practices/assets/businesssmart-customization)**
 
     Learn when and how to customize your instance to maximize value and minimize upgrade impact.
 
@@ -71,9 +67,9 @@ Visit the ServiceNow Customer Success Center website for information on upgrade 
 
 ## Resources
 
--   **[ServiceNow Customer Success Center](https://www.servicenow.com/success.html)**
+-   **[ServiceNow Impact success plans](https://www.servicenow.com/impact.html)**
 
-    Browse prescriptive content and tools such as playbooks, checklists, and quick answers to gain more value from your ServiceNow implementation.
+    Receive long-term adoption guidance and support with an Impact success plan tailored to you.
 
 -   **[Expert services](https://www.servicenow.com/services/expert-services.html)**
 

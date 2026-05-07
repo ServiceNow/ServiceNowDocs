@@ -27,15 +27,15 @@ The manage contract repository agentic workflow uses AI agents to extract key co
 
 1.  Open a contract repository record where you want to review the extract information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d78835e68">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d81814e68">
 
 Method
 
-</th><th align="left" id="d78835e71">
+</th><th align="left" id="d81814e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d78835e77">
+</th></tr></thead><tbody><tr><td id="d81814e77">
 
 **Contract Workspace**
 
@@ -48,7 +48,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d78835e124">
+</td></tr><tr><td id="d81814e124">
 
 **Workspace used by your application**
 
@@ -60,7 +60,7 @@ Steps
 4.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d78835e151">
+</td></tr><tr><td id="d81814e151">
 
 **Email notification**
 

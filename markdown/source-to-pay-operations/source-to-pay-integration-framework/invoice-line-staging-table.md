@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: reference
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Inbound staging tables for Accounts Payable Operations, Inbound staging tables, Source-to-Pay integration framework, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -35,15 +35,15 @@ The following table lists the fields for the invoice line \[sn\_ap\_ic\_invoice\
 **Related topics**  
 
 
-[Invoice import inbound staging table](../../sourcing-procurement-operations/reference/inbound-invoice-import-staging-table.md)
+[Invoice import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-import-staging-table.md)
 
 [Import error staging table](import-error-staging-table.md)
 
-[Invoice line import inbound staging table](../../sourcing-procurement-operations/reference/inbound-invoice-line-staging-table.md)
+[Invoice line import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-line-staging-table.md)
 
 [Invoice payment detail import inbound table](invoice-payment-detail-staging-table.md)
 
-[Organization tax details inbound staging table](../../supplier-lifecycle-operations/reference/slo-org-tax-details-inbound-table.md)
+[Organization tax details inbound staging table](../../source-to-pay-integrations/reference/slo-org-tax-details-inbound-table.md)
 
 [Invoice tax line staging table](../../source-to-pay-operations/reference/inbound-invoice-tax-line-staging-table-apo.md)
 

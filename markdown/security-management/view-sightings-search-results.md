@@ -27,8 +27,6 @@ Role required: sn\_si.analyst
 
 2.  Select the **Sightings Search Results** tab from **Show IoC** Related List group to view the list of sightings searches.
 
-    ![View Sightings Search Results](../image/ViewSIghtingsSearchResults.png)
-
     **Note:** This data can be shared with Trusted Security Circle.
 
     |Result|Description|
@@ -44,11 +42,9 @@ Role required: sn\_si.analyst
 
     To view the details of a single search:
 
-3.  Click on a Sightings Search in the **Sightings Search Results** list.
+3.  Select a Sightings Search reult in the **Sightings Search Results** list.
 
     The Sightings Search Result form displays.
-
-    ![Sightings Search Result details](../image/SightingsSearchResultDetails.png)
 
     |Detail|Description|
     |------|-----------|

@@ -18,6 +18,8 @@ Reference topics provide additional information about configuration properties, 
 
 -   **[Topic blocks to request catalog items through conversational experience](../concept/request-topic-blocks-va-llm.md)**  
 You can design a topic conversation in Virtual Agent powered Now LLM by including reusable topic blocks to perform request submission tasks.
+-   **[What makes catalog items non-conversational in premium chat](../concept/catalog-conv-limitations.md)**  
+Let's understand what determines whether a catalog item can deliver a fully conversational experience in the Premium Chat interface.
 
 **Parent Topic:**[Now Assist in Conversational Catalog Request](../concept/now-assist-in-conversational-catalog-request.md)
 

@@ -94,7 +94,7 @@ For example, to facet knowledge article search results based on the Department f
 
 **Note:** Each dot-walk reference level imposes a performance impact on indexing. Avoid using multi-level references unless necessary.
 
-To learn about **dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](../concept/field-settings-ais.md#).
+To learn about **dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](../task/enable-ref-table-field-index-ais.md).
 
 
  Facets work best when created from fields of the following types with relatively few unique values:

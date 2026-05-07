@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -75,15 +75,4 @@ If your model has issues or conflicts, the **Intents** page displays cards showi
 Select a card to see a filtered list of intents with that issue. Resolving issues ensures that your intents meet the requirements and work as intended.
 
 For more information, see [Resolve intent issues](../task/resolve-intent-issues.md).
-
--   **[Create an NLU intent](../task/create-nlu-intent.md)**  
-Create an intent for your Natural Language Understanding \(NLU\) model. Intents provide your model with a system action to perform when it receives user input.
--   **[Reusing intents from prebuilt NLU models](reusing-predefined-nlu-intents.md)**  
-Reuse Natural Language Understanding \(NLU\) intents by importing them from a prebuilt NLU model to other models. Reusing intents saves time when building your models.
--   **[Import an NLU intent](../task/import-nlu-intent.md)**  
-As you create intents for your Natural Language Understanding \(NLU\) model, you can also import and reuse intents from other models in the same application scope. Reusing intents saves time when building new models.
--   **[Resolve intent issues](../task/resolve-intent-issues.md)**  
-Use the issue cards to identify intents that have conflicts, need reviewing, or need more utterances. Resolving intent issues ensures the intents in your Natural Language Understanding \(NLU\) models work properly.
-
-**Parent Topic:**[Build and train your model](managing-model-content.md)
 

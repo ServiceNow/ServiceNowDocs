@@ -4,8 +4,8 @@ description: Elements refer to the visual objects you can place on a dashboard, 
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-04-22"
+reading_time_minutes: 4
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -13,9 +13,9 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Elements refer to the visual objects you can place on a dashboard, including filters.
 
-Dashboards contain a combination of visual elements or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
+Dashboards contain a combination of visual elements or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Now Assist Context Menu, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
 
-![Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard](../../../administer/user-exp-analytics/image/uxa-view-funnnel-pa.png)
+![Add new element menu showing filter group, heading, image, list, Now Assist Context Menu, Process Mining Map, Rich text, and Usage Insights Funnel. Not shown: Data visualization, divider, Filter, Workbench](../image/add-new-element-menu.png)
 
 -   **[Data visualization](../../performance-analytics/concept/analytics-center-data-visualizations.md)**
 
@@ -49,9 +49,13 @@ Dashboards contain a combination of visual elements or funnels to show data. Ava
 
     Lists show table records. They support Platform Analytics filters and drilling down from data visualizations by default.
 
+-   **Now Assist Context Menu**
+
+    The Now Assist Context Menu enables viewers of the dashboard to create AI-generated summaries or insights based on the data in the dashboards or tabs.
+
 -   **Rich text**
 
-    Rich text elements hold text that you can format either as text or as html, including font selection, text size, highlighting, and hyperlinks. Note that to edit in HTML markup, you open the HTML editor in the Configuration panel, and select the code tag icon &lt; &gt;.
+    Rich text elements hold text that you can format either as text or as HTML, including font selection, text size, highlighting, and hyperlinks. Note that to edit in HTML markup, you open the HTML editor in the Configuration panel, and select the code tag icon &lt; &gt;.
 
 -   **Workbench**
 

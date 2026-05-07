@@ -7,7 +7,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 27
+reading_time_minutes: 29
 keywords: [Patterns, Azure, Cloud, Discovery]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -205,143 +205,142 @@ The Azure - Marketplace LB \(LP\) pattern discovers the following Azure Marketpl
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer​\]|
-    |object\_id|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the load balancer.|
-    |location|The path of the load balancer.|
-    |state|The current state of the load balancer.|
-    |install\_status|Resource provisioning status.|
-    |ip\_address​|IP Address of the load balancer.|
-    |fqdn|The fully qualified domain name of the load balancer.|
-    |dns\_name|The DNS name of the load balancer.|
-    |comments|Identifier for internal usage \(deletion strategy\).|
-    |Cloud LB IP Address \[cmdb\_ci\_cloud\_lb\_ipaddress\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |lb\_id​|A unique identifier for the load balancer.|
-    |ip\_address​|IP address of the load balancer.|
-    |ip\_address\_type|The type of the IP Address, which can be private or public.|
-    |fqdn|The fully qualified domain name of the load balancer.|
-    |comments|Identifier for internal usage \(deletion strategy\).|
-    |install\_status​|Resource provisioning status.|
-    |Load Balancer Pool \[cmdb\_ci\_lb\_pool​\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the load balancer pool.|
-    |location|Path of the load balancer pool.|
-    |install\_status​|Resource provisioning status.|
-    |comments|Identifier for internal usage \(deletion strategy\).|
-    |Load Balancer Service \[cmdb\_ci\_lb\_service\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the load balancer service.|
-    |location|Path of the load balancer service.|
-    |port|The TCP port that the load balancer service listens to.|
-    |install\_status|Resource provisioning status.|
-    |comments|Identifier for internal usage \(deletion strategy\).|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the load balancer.|
+    |Location \[location\]|The path of the load balancer.|
+    |State \[state\]|The current state of the load balancer.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |IP Address \[ip\_address\]|IP Address of the load balancer.|
+    |Fully qualified domain name \[fqdn\]|The fully qualified domain name of the load balancer.|
+    |DNS Name \[dns\_name\]|The DNS name of the load balancer.|
+    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
+
+    |Field|Description|
+    |-----|-----------|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |IP Address \[ip\_address\]|IP address of the load balancer.|
+    |IPAddress Type \[ipaddress\_type\]|The type of the IP address. Possible values are private or public.|
+    |Fully qualified domain name \[fqdn\]|The fully qualified domain name of the load balancer.|
+    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+
+    |Field|Description|
+    |-----|-----------|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the load balancer pool.|
+    |Location \[location\]|Path of the load balancer pool.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
+
+    |Field|Description|
+    |-----|-----------|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the load balancer service.|
+    |Location \[location\]|Path of the load balancer service.|
+    |Port \[port\]|The TCP port that the load balancer service listens to.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
 
 -   **Resources discovered by the Microsoft Azure - Network and Subnet \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Network \[cmdb\_ci\_network\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the cloud network.|
-    |location|Path of the network.|
-    |state|The current state of the network.|
-    |install\_status​|Resource provisioning status.|
-    |cidr|CIDR representation of the network. For example, 10.0.0.0/24.|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet​\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the cloud subnet.|
-    |location|Identifier for internal usage \(deletion strategy\).|
-    |state|The current state of the subnet.|
-    |install\_status|Resource provisioning status.|
-    |cidr|CIDR representation of the subnet. For example, 10.0.0.0/24.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the cloud network.|
+    |Location \[location\]|Path of the network.|
+    |State \[state\]|The current state of the network.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |CIDR \[cidr\]|CIDR representation of the network. For example, 10.0.0.0/24.|
+
+    |Field|Description|
+    |-----|-----------|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the cloud subnet.|
+    |Location \[location\]|Identifier for internal usage \(deletion strategy\).|
+    |State \[state\]|The current state of the subnet.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |CIDR \[cidr\]|CIDR representation of the subnet. For example, 10.0.0.0/24.|
 
 -   **Resources discovered by the Microsoft Azure - NIC \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the network interface.|
-    |location|Path of the network interface.|
-    |install\_status|Resource provisioning status.|
-    |state|The current state of the network interface.|
-    |public\_ip|The address of the Elastic IP address bound to the network interface.|
-    |private\_ip​|The IPv4 address of the network interface within the subnet.|
-    |primary|True/False. Defines if the network interface is the primary network interface or not.|
-    |mac\_address|The MAC address of the network interface.|
-    |public\_dns​|The public DNS name of the network interface.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the network interface.|
+    |Location \[location\]|Path of the network interface.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |State \[state\]|The current state of the network interface.|
+    |Public IP \[public\_ip\]|The address of the Elastic IP address bound to the network interface.|
+    |Private IP \[private\_ip\]|The IPv4 address of the network interface within the subnet.|
+    |Primary \[primary\]|True/False. Defines if the network interface is the primary network interface or not.|
+    |MAC Address \[mac\_address\]|The MAC address of the network interface.|
+    |Public DNS \[public\_dns\]|The public DNS name of the network interface.|
 
 -   **Resources discovered by the Microsoft Azure - Private Gateway \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the private gateway.|
-    |location|Path of the private gateway.|
-    |connection\_type|Type of VPN connection the gateway supports.|
-    |operational\_status|The state of the resource.|
-    |install\_status​|Resource provisioning status.|
-    |Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the endpoint.|
-    |location|Path of the endpoint.|
-    |connection\_type​|Type of VPN connection the gateway supports.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the private gateway.|
+    |Location \[location\]|Path of the private gateway.|
+    |Connection Type \[connection\_type\]|Type of VPN connection the gateway supports.|
+    |Operational status \[operational\_status\]|The state of the resource.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+
+    |Field|Description|
+    |-----|-----------|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the endpoint.|
+    |Location \[location\]|Path of the endpoint.|
 
 -   **Resources discovered by the Microsoft Azure - Public IP \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the IP address.|
-    |location|Path of the IP address.|
-    |state|The current state of the IP address.|
-    |public\_ip\_address|The address of the Elastic IP address.|
-    |public\_dns​|The public DNS name.|
-    |install\_status|Resource provisioning status.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the IP address.|
+    |Location \[location\]|Path of the IP address.|
+    |State \[state\]|The current state of the IP address.|
+    |Public IP Address \[public\_ip\_address\]|The address of the Elastic IP address.|
+    |Public DNS \[public\_dns\]|The public DNS name.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
 
 -   **Resources discovered by the Microsoft Azure - Resource Group \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|
-    |object\_id|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the resource group.|
-    |location|Path of the resource group.|
-    |state|The current state of the resource group.|
-    |install\_status​|Resource provisioning status.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the resource group.|
+    |Location \[location\]|Path of the resource group.|
+    |State \[state\]|The current state of the resource group.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
 
 -   **Resources discovered by the Microsoft Azure - Route Table \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Route Table \[cmdb\_ci\_route\_table\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the route table.|
-    |location|Path of the route table.|
-    |install\_status|Resource provisioning status.|
-    |state|The current state of the route table.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the route table.|
+    |Location \[location\]|Path of the route table.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |State \[state\]|The current state of the route table.|
 
 -   **Resources discovered by the Microsoft Azure - Security Group \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Compute Security Group \[cmdb\_ci\_compute\_security\_group​\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the security group.|
-    |location|Path of the security group.|
-    |state|The current state of the security group.|
-    |install\_status|Resource provisioning status.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the security group.|
+    |Location \[location\]|Path of the security group.|
+    |State \[state\]|The current state of the security group.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
 
 -   **Resources discovered by the Microsoft Azure - SQL Server \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |location|Path of the VM instance.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Location \[location\]|Path of the VM instance.|
 
 <table id="table_x1d_tw1_23c"><thead><tr><th>
 
@@ -382,29 +381,21 @@ References the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table.
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|
-    |object\_id​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the storage account.|
-    |location|Path of the storage account.|
-    |sku\_name|The name of the SKU \(for backup frequency\).|
-    |install\_status​|Resource provisioning status.|
-    |state|The current state of the storage account.|
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The Name or ID if no Name is specified for the storage account.|
+    |Location \[location\]|Path of the storage account.|
+    |Sku Name \[sku\_name\]|The name of the stock keeping unit \(SKU\) for backup frequency.|
+    |Install Status \[install\_status\]|Resource provisioning status.|
+    |State \[state\]|The current state of the storage account.|
 
 -   **Resources discovered by the Microsoft Azure - Storage Containers \(LP\) pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |object\_id|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |name|The Name or ID if no Name is specified for the storage volume.|
-    |location|Path of the storage volume.|
-    |volume\_id|Identifier that holds the volume ID as the value.|
-    |volume\_container​|The container name.|
-    |comments|Identifier for internal usage \(deletion strategy\).|
-    |status|The status of the resource.|
-    |Block Endpoint \[cmdb\_ci\_endpoint\_block\]|
-    |name|The Name or ID if no Name is specified for the block endpoint.|
-    |object\_id|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Name \[name\]|The name of the storage container.|
+    |Object ID \[object\_id\]|A unique identifier for the storage container.|
+    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
+    |Install Status \[install\_status\]|Resource provisioning status.|
 
 -   **Resources discovered by the Microsoft Azure - Storage Volume \(LP\) pattern**
 
@@ -416,13 +407,9 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
+</th></tr></thead><tbody><tr><td>
 
-Storage Volume \[cmdb\_ci\_storage\_volume\]​
-
-</td></tr><tr><td>
-
-object\_id​
+Object ID \[object\_id\]
 
 </td><td>
 
@@ -430,7 +417,7 @@ A unique identifier, allocated by Microsoft Azure for this resource.
 
 </td></tr><tr><td>
 
-name
+Name \[name\]
 
 </td><td>
 
@@ -438,7 +425,7 @@ The Name or ID if no Name is specified for the storage volume.
 
 </td></tr><tr><td>
 
-volume\_id​
+Volume ID \[volume\_id\]
 
 </td><td>
 
@@ -451,7 +438,7 @@ The volume type. For example:-   `gp2` for General Purpose SSD
 
 </td></tr><tr><td>
 
-location
+Location \[location\]
 
 </td><td>
 
@@ -459,7 +446,7 @@ Path of the storage volume.
 
 </td></tr><tr><td>
 
-state
+State \[state\]
 
 </td><td>
 
@@ -467,7 +454,7 @@ The current state of the storage volume.
 
 </td></tr><tr><td>
 
-install\_status​
+Install Status \[install\_status\]
 
 </td><td>
 
@@ -475,7 +462,7 @@ Resource provisioning status.
 
 </td></tr><tr><td>
 
-size
+Size \[size\]
 
 </td><td>
 
@@ -483,15 +470,15 @@ The size of the volume.
 
 </td></tr><tr><td>
 
-size\_bytes
+Size bytes \[size\_bytes\]
 
 </td><td>
 
-The size of the volume \(bytes\).
+The size of the volume in bytes.
 
 </td></tr><tr><td>
 
-storage\_type
+Storage type \[storage\_type\]
 
 </td><td>
 
@@ -499,7 +486,7 @@ For example, hard-coded value "block".
 
 </td></tr><tr><td>
 
-comments
+Comments \[comments\]
 
 </td><td>
 
@@ -510,40 +497,36 @@ Identifier for internal usage \(deletion strategy\).
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Service Account \[cmdb\_ci\_cloud\_service\_account​\]|
-    |object\_id​ ​ ​ ​ ​ ​ ​|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |account\_id|The unique identifier \(ID\) of the account.|
-    |name|The Name or ID if no Name is specified for the service account.|
-    |datacenter\_type|cmdb\_ci\_azure\_datacenter|
-    |discovery\_credentials|Reference field to the related Microsoft Azure credentials.|
-    |datacenter\_url|The URL of the datacenter.|
-    |parent\_account|Reference to the primary account, if it exists.|
-    |is\_master\_account​|The Boolean attribute indicating if this is the primary account or not.|
-
+    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
+    |Account Id \[account\_id\]|The unique identifier \(ID\) of the account.|
+    |Name \[name\]|The Name or ID if no Name is specified for the service account.|
+    |Datacenter Type \[datacenter\_type\]|cmdb\_ci\_azure\_datacenter|
+    |Discovery credentials \[discovery\_credentials\]|Reference field to the related Microsoft Azure credentials.|
+    |Datacenter URL \[datacenter\_url\]|The URL of the datacenter.|
+    |Parent account \[parent\_account\]|Reference to the primary account, if it exists.|
+    |Is management account \[is\_master\_account\]|The Boolean attribute indicating if this is the primary account or not.|
 
 -   **Resources discovered by the Microsoft Azure WebSite \(LP\) pattern and Microsoft Azure WebSite pattern**
 
     |Field|Description|
     |-----|-----------|
-    |Cloud Resource \[cmdb\_ci\_cloud\_webserver\]|
-    |Name​ \[name\]|The name of the Azure web server.|
-    |Object ID \[object\_id\]|The ID of Azure web server.|
-    |IP Address \[ip\_address\]​|The IP address of the web server.|
-    |FQDN \[fqdn\]|The fully qualified domain name \(FQDN\) of the web server.|
+    |Name \[name\]|The name of the Azure web server.|
+    |Object ID \[object\_id\]|The ID of the Azure web server.|
+    |IP Address \[ip\_address\]|The IP address of the web server.|
+    |Fully qualified domain name \[fqdn\]|The fully qualified domain name \(FQDN\) of the web server.|
     |Vendor \[vendor\]|The vendor is Microsoft.|
     |Install Status \[install\_status\]|The install status of the web server.|
     |State \[state\]|The operational state of the web server.|
-    |Operational Status \[operational\_status\]|The operational status of the web server.|
-    |IP Address \[cmdb\_ci\_ip\_address\]|
+    |Operational status \[operational\_status\]|The operational status of the web server.|
+
+    |Field|Description|
+    |-----|-----------|
     |Name \[name\]|The IP address of the web server.|
     |IP Address \[ip\_address\]|The IP address of the web server.|
-    |FQDN \[fqdn\]|The fully qualified domain name \(FQDN\).|
+    |Fully qualified domain name \[fqdn\]|The fully qualified domain name \(FQDN\).|
     |Vendor \[vendor\]|The vendor is Microsoft.|
     |Install Status \[install\_status\]|The install status.|
-    |Operational Status \[operational\_status\]|The operational status.|
-    |Key Value \[cmdb\_key\_value\]|
-    |Key \[key\]|The Azure Key Value name.|
-    |Value \[value\]|The Azure Key Value value.|
+    |Operational status \[operational\_status\]|The operational status.|
 
 -   **Resources discovered using the Azure DataBase \(LP\) pattern**
 
@@ -554,7 +537,7 @@ Identifier for internal usage \(deletion strategy\).
     |Object ID \[object\_id\]|The identification name of the database.|
     |Operational Status \[operational\_status\]|The operational status of the database.|
     |Type \[type\]|The type of database you created.|
-    |State \[state\]|The state of the database: Whether it’s Available or Terminated.|
+    |State \[state\]|The state of the database: Whether it's Available or Terminated.|
     |Vendor \[vendor\]|The vendor name is Azure.|
     |Version \[version\]|The version of the database.|
     |Category \[category\]|The stock keeping unit \(SKU\) family.|
@@ -605,7 +588,7 @@ Configuration item \[configuration\_item\]
 
 </td><td>
 
-cmdb\_ci\_cloud\_database
+References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table.
 
 </td></tr></tbody>
 </table>    |Field|Description|
@@ -622,28 +605,35 @@ cmdb\_ci\_cloud\_database
 
 -   **Resources discovered by the Azure - Marketplace LB \(LP\) pattern**
 
+    The Azure - Marketplace LB \(LP\) pattern introduces the following CI class that extends an existing CMDB class.
+
+    |CI class|Extends from|
+    |--------|------------|
+    |Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+
     |Field|Description|
     |-----|-----------|
     |Name \[name\]|Name of the Cloud resource, usually the marketplace offering or SKU name.|
     |Object ID \[object\_id\]|A unique resource ID of the Cloud resource.|
-    |Resource Type \[resource\_type\]|Service in Cloud Marketplace.​ For example: microsoft.compute/virtualmachines.|
-    |Plan Name \[plan\_name\]|Billing or SKU plan for a resource from the Cloud Marketplace.​ For example: Pay as You Go.|
-    |Market \[market\]|International Organization for Standardization \(ISO\) code of the geographical market where the resource is sold in the specified market. For example: US or EU.|
+    |Resource Type \[resource\_type\]|Service in Cloud Marketplace. For example: microsoft.compute/virtualmachines.|
+    |Plan Name \[plan\_name\]|Billing or SKU plan for a resource from the Cloud Marketplace. For example: Pay as You Go.|
+    |Market \[market\]|International Organization for Standardization \(ISO\) code of the geographical market where the resource is sold. For example: US or EU.|
     |Organization Id \[organization\_id\]|A unique identifier for the organization or publisher that owns the marketplace resource.|
 
     |Field|Description|
     |-----|-----------|
     |Product Code \[product\_code\]|A unique product code of the resource within the Cloud Marketplace.|
     |Publisher Name \[publisher\_name\]|Organization or individual responsible for creating and offering the product or service.|
-    |Version \[version\]|Release number or iteration of the product​.|
+    |Version \[version\]|Release number or iteration of the product.|
     |Deployed On \[deployed\_on\]|References the Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\] table.|
 
-    |Field|Description|
-    |-----|-----------|
-    |Key \[key\]|Azure Key Value name.|
-    |Value \[value\]|Azure Key Value value.|
-
 -   **Resources discovered by the Azure - Sub Account \(LP\) pattern extension: Azure Management Groups**
+
+    The Azure - Sub Account \(LP\) pattern extension introduces the following CI class that extends an existing CMDB class.
+
+    |CI class|Extends from|
+    |--------|------------|
+    |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|Cloud Account Group \[cmdb\_ci\_cloud\_account\_group\]|
 
 <table id="table_rwt_pws_p2c"><thead><tr><th>
 
@@ -716,96 +706,98 @@ References the direct parent Azure Management Group \[cmdb\_ci\_azure\_managemen
 </table>
 ## CI relationships
 
+The Microsoft Azure patterns create the following relationships and references to support Microsoft Azure discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
+
 -   **Relationships discovered using the Microsoft Azure - Application LB \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_cloud\_load\_balancer|Owns::Owned by|cmdb\_ci\_cloud\_lb\_ipaddress|
-    |cmdb\_ci\_cloud\_load\_balancer|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_lb\_service|Hosted on::Hosts|cmdb\_ci\_cloud\_load\_balancer|
-    |cmdb\_ci\_cloud\_subnet|Contains::Contained by|cmdb\_ci\_cloud\_load\_balancer|
-    |cmdb\_ci\_lb\_pool|Hosted on::Hosts|cmdb\_ci\_cloud\_load\_balancer|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_cloud\_load\_balancer|
+    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Owns::Owned by|Cloud LB IPAddress \[cmdb\_ci\_cloud\_lb\_ipaddress\]|
+    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Load Balancer Service \[cmdb\_ci\_lb\_service\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
+    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
+    |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
 
 -   **Relationships discovered using the Microsoft Azure - Network and Subnet \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_network|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_network|Contains::Contained by|cmdb\_ci\_cloud\_subnet|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_network|
+    |Cloud Network \[cmdb\_ci\_network\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Cloud Network \[cmdb\_ci\_network\]|Contains::Contained by|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Network \[cmdb\_ci\_network\]|
 
 -   **Relationships discovered using the Microsoft Azure - NIC \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_nic|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_nic|
-    |cmdb\_ci\_cloud\_subnet|Contains::Contained by|cmdb\_ci\_nic|
+    |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
+    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
 
 -   **Relationships discovered using the Microsoft Azure - Private Gateway \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_endpoint\_vpg|Implement End Point To::Implement End Point From|cmdb\_ci\_virtual\_pvt\_gateway|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_virtual\_pvt\_gateway|
-    |cmdb\_ci\_virtual\_pvt\_gateway|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_network|Use End Point To::Use End Point From|cmdb\_ci\_endpoint\_vpg|
+    |Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|Implement End Point To::Implement End Point From|Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|
+    |Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Cloud Network \[cmdb\_ci\_network\]|Use End Point To::Use End Point From|Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|
 
 -   **Relationships discovered using the Microsoft Azure - Public IP \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_cloud\_public\_ipaddress|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_nic|Contains::Contained by|cmdb\_ci\_cloud\_public\_ipaddress|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_cloud\_public\_ipaddress|
+    |Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|Contains::Contained by|Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|
 
 -   **Relationships discovered using the Microsoft Azure - Resource Group \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_azure\_datacenter|Contains::Contained by|cmdb\_ci\_resource\_group|
+    |Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|Contains::Contained by|Resource Group \[cmdb\_ci\_resource\_group\]|
 
 -   **Relationships discovered using the Microsoft Azure - Route Table \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_route\_table|Contains::Contained by|cmdb\_ci\_route|
-    |cmdb\_ci\_route\_table|Contains::Contained by|cmdb\_ci\_network|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_route\_table|
-    |cmdb\_ci\_azure\_datacenter|Contains::Contained by|cmdb\_ci\_route\_table|
+    |Route Table \[cmdb\_ci\_route\_table\]|Contains::Contained by|Route \[cmdb\_ci\_route\]|
+    |Route Table \[cmdb\_ci\_route\_table\]|Contains::Contained by|Cloud Network \[cmdb\_ci\_network\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Route Table \[cmdb\_ci\_route\_table\]|
+    |Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|Contains::Contained by|Route Table \[cmdb\_ci\_route\_table\]|
 
 -   **Relationships discovered using the Microsoft Azure - Security Group \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_cloud\_subnet|Uses::Used by|cmdb\_ci\_compute\_security\_group|
-    |cmdb\_ci\_network|Contains::Contained by|cmdb\_ci\_compute\_security\_group|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_compute\_security\_group|
-    |cmdb\_ci\_compute\_security\_group|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
+    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Uses::Used by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
+    |Cloud Network \[cmdb\_ci\_network\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
+    |Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 
 -   **Relationships discovered using the Microsoft Azure - Storage Account \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_cloud\_storage\_account|
-    |cmdb\_ci\_cloud\_storage\_account|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|
+    |Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 
 -   **Relationships discovered using the Microsoft Azure - Storage Containers \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_endpoint\_block|Implement End Point To::Implement End Point From|cmdb\_ci\_storage\_volume|
-    |cmdb\_ci\_cloud\_storage\_account|Contains::Contained by|cmdb\_ci\_storage\_volume|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_storage\_volume|
-    |cmdb\_ci\_storage\_volume|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
+    |Block Endpoint \[cmdb\_ci\_endpoint\_block\]|Implement End Point To::Implement End Point From|Storage Volume \[cmdb\_ci\_storage\_volume\]|
+    |Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
+    |Storage Volume \[cmdb\_ci\_storage\_volume\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 
 -   **Relationships discovered using the Microsoft Azure - Storage Volume \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_resource\_group|Contains::Contained by|cmdb\_ci\_storage\_volume|
-    |cmdb\_ci\_storage\_volume|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
+    |Storage Volume \[cmdb\_ci\_storage\_volume\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 
 -   **Relationships discovered using the Microsoft Azure - Sub Account \(LP\) pattern**
 
@@ -815,39 +807,47 @@ References the direct parent Azure Management Group \[cmdb\_ci\_azure\_managemen
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_cloud\_webserver|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_cloud\_webserver|Owns::Owned|cmdb\_ci\_ip\_address|
-    |cmdb\_key\_value|Reference only|cmdb\_ci\_cloud\_webserver|
+    |Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
+
+    |CI|Field|Referenced CI|
+    |---|-----|-------------|
+    |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|
 
 -   **Relationships discovered using the Azure DataBase \(LP\) Pattern.**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_cloud\_database|Owns:Owned By|cmdb\_ci\_ip\_address|
-    |cmdb\_ci\_cloud\_database|Contains::Contained by|cmdb\_ci\_database|
-    |cmdb\_ci\_cloud\_database|Hosted On::Hosted|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_database|Provisioned From::Provisioned|cmdb\_ci\_compute\_template|
-    |cmdb\_ci\_database|Provisioned From::Provisioned|cmdb\_ci\_cloud\_hardware\_type|
-    |cmdb\_ci\_compute\_template|Hosted On::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_ci\_compute\_template|Hosted On::Hosts|cmdb\_ci\_cloud\_hardware\_type|
+    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
+    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Contains::Contained by|Database \[cmdb\_ci\_database\]|
+    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Database \[cmdb\_ci\_database\]|Provisioned From::Provisioned|Compute Template \[cmdb\_ci\_compute\_template\]|
+    |Database \[cmdb\_ci\_database\]|Provisioned From::Provisioned|Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|
+    |Compute Template \[cmdb\_ci\_compute\_template\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Compute Template \[cmdb\_ci\_compute\_template\]|Hosted on::Hosts|Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|
 
 -   **Relationships discovered using the Azure DataBase \(LP\) pattern extension: Azure SQL Managed Instance license**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |cmdb\_ci\_cloud\_database|Runs on::Runs|cmdb\_ci\_serverless\_hardware|
-    |cmdb\_ci\_serverless\_hardware|Hosted on::Hosts|cmdb\_ci\_azure\_datacenter|
-    |cmdb\_key\_value|Reference only|cmdb\_ci\_cloud\_database|
+    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Runs on::Runs|Serverless Hardware \[cmdb\_ci\_serverless\_hardware\]|
+    |Serverless Hardware \[cmdb\_ci\_serverless\_hardware\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+
+    |CI|Field|Referenced CI|
+    |---|-----|-------------|
+    |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Cloud DataBase \[cmdb\_ci\_cloud\_database\]|
 
 -   **Relationships discovered using the Azure - Marketplace LB \(LP\) pattern**
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |Deployed Marketplace Product ​\[cmdb\_ci\_deployed\_marketplace\_product\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-    |Deployed Marketplace Product ​\[cmdb\_ci\_deployed\_marketplace\_product\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_sevice\_account\]|
-    |Deployed Marketplace Product ​\[cmdb\_ci\_deployed\_marketplace\_product\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Marketplace Product Details \[marketplace\_product\_details\]|References|Deployed Marketplace Product ​\[cmdb\_ci\_deployed\_marketplace\_product\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Deployed Marketplace Product ​\[cmdb\_ci\_deployed\_marketplace\_product\]|
+    |Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
+    |Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
+    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|
+
+    |CI|Field|Referenced CI|
+    |---|-----|-------------|
+    |Marketplace Product Details \[marketplace\_product\_details\]|Deployed On \[deployed\_on\]|Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|
 
 -   **Relationships discovered using the Azure - Sub Account \(LP\) pattern extension: Azure Management Groups**
 
@@ -856,9 +856,12 @@ References the direct parent Azure Management Group \[cmdb\_ci\_azure\_managemen
     |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|Contains::Contained by|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
     |Cloud Organizations \[cmdb\_ci\_cloud\_org\]|Contains::Contained by|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
     |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|Contains::Contained by|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
-    |**\***Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|References|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
 
-    **\***Only references the direct parent-child management group relationship.
+    |CI|Field|Referenced CI|
+    |---|-----|-------------|
+    |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]\*|Parent \[parent\]|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
+
+    \*Only references the direct parent-child management group relationship.
 
 
 ## Events discovered by Discovery during horizontal discovery

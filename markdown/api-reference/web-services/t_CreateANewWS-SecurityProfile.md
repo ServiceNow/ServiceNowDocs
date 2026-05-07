@@ -40,8 +40,6 @@ Role required: web\_service\_admin or admin
     |User name|Enter the user name that all web services requests must contain. This field is only visible when the profile action is **Username**.|
     |User password|Enter the password that all web services requests must contain. This field is only visible when the profile action is **Username**|
 
-    ![WS-Security Profile](../image/WS-SecurityProfile.png)
-
 4.  Click **Submit**.
 
 

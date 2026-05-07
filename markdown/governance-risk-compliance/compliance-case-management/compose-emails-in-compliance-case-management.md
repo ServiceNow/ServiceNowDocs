@@ -27,7 +27,7 @@ You can compose and send emails regarding your cases and requests to multiple st
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  To compose an email, use the following options.
 

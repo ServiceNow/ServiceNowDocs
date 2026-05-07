@@ -7,7 +7,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [Generate project summary, Now Assist skill, Now Assist, Gen AI, Generative AI, Email project summary, Strategic Portfolio Management, SPM]
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ Demonstration of project insights generation skill in Project Workspace.
 
 ## Before you begin
 
-The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](configure-now-assist-for-spm.md).
+The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
 
 Role required: it\_project\_manager
 
@@ -36,7 +36,7 @@ When a project is created in the work in progress state, the project insight gen
 
 2.  From the planning page, select the more actions icon \(![More actions icon.](../../innovation-management/image/more-options-icon.png)\) and then select **Configure project insights**.
 
-    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure Now Assist Admin features](configure-now-assist-for-spm.md). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent.
+    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent.
 
 3.  From the Configure project insights modal, in Choose topics step, select **Next**.
 
@@ -44,7 +44,7 @@ When a project is created in the work in progress state, the project insight gen
 
 4.  In Personalize content step, add your requirements and select **Next**.
 
-    You can define your tone, writing style, and priority entities. For example, identify risks of this project. Provide a formal summary in bullet points.
+    You can define your tone, writing style, and priority entities. For example, identify risks of this project. Please provide a formal summary in bullet points.
 
 5.  In Set frequency step, select the **Cadence** as Weekly, Bi-weekly, or Monthly according to your requirement.
 

@@ -28,7 +28,7 @@ There are three different ways to assign findings using:
 
 -   User Group: Assign findings directly to a selected user group.
 -   User Group Field: Assign any assignment group field available using the cmdb\_ci table. Assign based on the assignment group field available using the cmdb\_ci table.
--   Script: Use a script to define assignment conditions. This option requires coding or advanced ServiceNow® expertise. For more information on how to use the script editor to define complex conditions, see the [KB0965240](https://support.servicenow.com/kb?id=kb_article_view_popup&sysparm_article=KB0965240) KB article.
+-   Script: Use a script to define assignment conditions. This option requires coding or advanced ServiceNow® expertise. For more information on how to use the script editor to define complex conditions, see the [KB0965240](https://support.servicenow.com/kb?id=kb_article_view_popup&sysparm_article=KB0965240) article.
 
     **Note:** The options for assigning rules using the User group and User group field gets updated based on the tables selected in the **Applies to** field.
 

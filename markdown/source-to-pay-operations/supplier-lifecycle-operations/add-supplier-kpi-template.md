@@ -38,7 +38,7 @@ The **Supplier** related tab for a KPI template displays the following informati
 
     The Add supplier dialog box is displayed which shows the list of existing suppliers. You can select suppliers from this list to generate template-corresponding KPIS for the selected suppliers.
 
-5.  Select **Add**. ![Selected button to add a new supplier.](../image/add-supplier-to-kpi.png)
+5.  Select **Add**.
 
     Template-corresponding KPIs are created for the added suppliers and the newly added supplier is shown in the **Suppliers** related tab for the KPI template. Also, corresponding KPI collection tasks are created for the suppliers.
 

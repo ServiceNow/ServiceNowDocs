@@ -111,8 +111,6 @@ For information about all the details, related lists and actions that are availa
 
 [Manage workplace cases and tasks](manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)
 
-[Assign an unassigned case or task](assign-an-unassigned-case-or-task-agentmobile.md)
-
 [Print workplace cases](print-workplace-cases-mobile.md)
 
 [Print workplace tasks](print-workplace-tasks-mobile.md)

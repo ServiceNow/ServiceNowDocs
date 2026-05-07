@@ -35,7 +35,7 @@ The PPM Standard plugin installs Financial Management and Project Portfolio Suit
 
 ## PPM Standard additions
 
-PPM Standard adds the portfolio workbench, that you can use to perform all aspects of financial planning. You can also perform financial planning and budgeting using UI actions on related lists, but the workbench is the preferred method. See  for more information. See  for information on how to plan end-to-end finances for projects and portfolios, including tracking actual costs and creating budgets as part of the Financial Management application.
+You can perform financial planning and budgeting using UI actions on related lists.
 
 ## Get started with project management
 
@@ -59,7 +59,7 @@ The support for use of multiple currencies provides conversions for budget items
 
 [Portfolio Management](../../project-management/concept/c_PortfolioManagement.md)
 
-[Financial Management - Legacy](../../it-finance/concept/c_ITFinance.md)
+[c_ITFinance]
 
 [Project Portfolio Management](../../project-portfolio-suite/concept/c_ProjectPortfolioSuite.md)
 

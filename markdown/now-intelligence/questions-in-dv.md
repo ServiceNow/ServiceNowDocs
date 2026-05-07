@@ -55,7 +55,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 2.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d219136e182">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d225252e182">
 
 **Use the question as a filter**
 
@@ -63,7 +63,7 @@ Use a question as a filter, a group by, or an alternative group by.
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d219136e200">
+</td></tr><tr><td id="d225252e200">
 
 **Add the question as a __group by__**
 
@@ -71,7 +71,7 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of the field list.
 
-</td></tr><tr><td id="d219136e221">
+</td></tr><tr><td id="d225252e221">
 
 **Add the question as an alternative group by**
 
@@ -79,7 +79,7 @@ Under **Group by**, select **+ Add**. Then select **Questions** at the bottom of
 
 Under **Group by**, select **Add alternative group by**. Then select **Questions**.
 
-</td></tr><tr><td id="d219136e239">
+</td></tr><tr><td id="d225252e239">
 
 **Add the question as a column or row in a pivot table**
 

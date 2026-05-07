@@ -56,7 +56,7 @@ The following widgets are available, showing various metrics. You can view the d
 
     This section shows the number of AI systems, categorized by the providers.
 
-    **Note:** The AI system by provider donut chart doesn’t display the **Other** category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
+    **Note:** The AI system by provider donut chart doesn’t display the Other category when there are more than five providers, which can cause a mismatch between the number of metric labels and the items shown in the list when selecting a metric label.
 
 -   **Compliance**
 

@@ -36,15 +36,15 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 4.  Specify any number of attributes for the question and select **Save** after every change.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d121068e141">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d123360e141">
 
 Attribute
 
-</th><th align="left" id="d121068e144">
+</th><th align="left" id="d123360e144">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121068e150">
+</th></tr></thead><tbody><tr><td id="d123360e150">
 
 **Required**
 
@@ -52,7 +52,7 @@ Description
 
 If the assessor must answer the question to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d121068e167">
+</td></tr><tr><td id="d123360e167">
 
 **Conditionally visible**
 
@@ -66,7 +66,7 @@ A setting on any question type that lets template builders control when a questi
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d121068e196">
+</td></tr><tr><td id="d123360e196">
 
 **Justification**
 
@@ -81,7 +81,7 @@ A setting that lets template builders request additional text comments \(justifi
 </td></tr></tbody>
 </table>5.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d121068e238">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d123360e238">
 
 **Question description**
 
@@ -93,7 +93,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  ![Confirmation of the description text. You can update the text.](../image/sae-q-description-confirmation.png)
 
-</td></tr><tr><td id="d121068e263">
+</td></tr><tr><td id="d123360e263">
 
 **Guidance**
 

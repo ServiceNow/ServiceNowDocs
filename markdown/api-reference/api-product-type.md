@@ -7,7 +7,7 @@ product: API Reference
 classification: api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 68
+reading_time_minutes: 73
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -15,7 +15,7 @@ breadcrumb: [API reference, API implementation and reference]
 
 Find APIs to use with your ServiceNow products.
 
-Browse the table below to view which Server, REST, and Client APIs are supported by a specific ServiceNow product. All products and APIs display by default in alphabetical order. To see only APIs of those products you are interested in, select one or more product names in the **Product** filter drop-down on this page. Once you select a product in the filter, only the APIs for your selection\(s\) display in the table. Clear filter criteria by deselecting options in the filter drop-down.
+Browse the table below to view which Server, REST, and Client APIs are supported by a specific ServiceNow product. All products and APIs display by default in alphabetical order. To see only APIs of those products you're interested in, select one or more product names in the **Product** filter drop-down on this page. Once you select a product in the filter, only the APIs for your selection\(s\) display in the table. Clear filter criteria by deselecting options in the filter drop-down.
 
 In the APIs column, simply hover over a link to read a short description about an API's functionality, or click the link to view its full reference documentation. An asterisk\* indicates that the API is offered in all ServiceNow products.
 
@@ -163,11 +163,10 @@ Customer Service Management \(CSM\)
     -   [Case API](../../../integrate/inbound-rest/concept/case-api.md#)
     -   [Consumer API](../../../integrate/inbound-rest/concept/consumer-api.md#)
     -   [Contact API](../../../integrate/inbound-rest/concept/contact-api.md#)
-    -       -   [CSM Attachment API](../../../integrate/inbound-rest/concept/attachment_csm-api.md#)
+    -   [CSM Attachment API](../../../integrate/inbound-rest/concept/attachment_csm-api.md#)
     -   [Customer Central API](../../../integrate/inbound-rest/concept/cust_central-api.md#)
     -   [Entitlement API](../../../integrate/inbound-rest/concept/entitlement-api.md#)
     -   [Install Base Item API](../../../integrate/inbound-rest/concept/integrations-api.md#)
-    -   [LeadtoCashCore - Scoped](../../../app-store/dev_portal/API_reference/LeadtoCashCoreScoped/concept/LeadToCashCoreAPI.md#)
     -   [openframe API](../../../integrate/inbound-rest/concept/openframe-api.md#)
     -   [Order API](../../../integrate/inbound-rest/concept/order_csm-api.md#)
     -   [Service Contract API](../../../integrate/inbound-rest/concept/servicecontract-api.md#)
@@ -185,6 +184,27 @@ Customer Service Management \(CSM\)
 
 [openFrameAPI - Client](../../../app-store/dev_portal/API_reference/openFrameAPI/concept/c_openFrameAPI.md#)
 
+
+</td></tr><tr><td>
+
+Customer Service Problem Management
+
+</td><td>
+
+-   **REST**
+
+[Service Test Management Open API](../../../integrate/inbound-rest/concept/service-test-management-api.md#)
+
+
+</td></tr><tr><td>
+
+Sales Customer Relationship Management
+
+</td><td>
+
+-   **Server**
+    -   [ConsolidationService - Scoped, Gobal](../../../app-store/dev_portal/API_reference/ConsolidationService/concept/ConsolidationServiceAPI.md#)
+    -   [LeadtoCashCore - Scoped](../../../app-store/dev_portal/API_reference/LeadtoCashCoreScoped/concept/LeadToCashCoreAPI.md#)
 
 </td></tr><tr><td>
 
@@ -315,6 +335,16 @@ Event Management
     -   [Event - Global](../../../app-store/dev_portal/API_reference/Event/concept/EventAPI.md#)
     -   [IEventSender - Global](../../../app-store/dev_portal/API_reference/IEventSender/concept/IEventSenderAPI.md#)
     -   [SNEventSenderProvider - Global](../../../app-store/dev_portal/API_reference/SNEventSenderProvider/concept/SNEventSenderProviderAPI.md#)
+
+</td></tr><tr><td>
+
+Field Service Management for Telecommunications
+
+</td><td>
+
+-   **REST**
+    -   [Appointment Open API](../../../integrate/inbound-rest/concept/appointment-open-api.md#)
+    -   [Work Order Management API](../../../integrate/inbound-rest/concept/work-order-mgmt-api.md#)
 
 </td></tr><tr><td>
 
@@ -621,19 +651,6 @@ Glide API – UI – Next Experience
 
 </td></tr><tr><td>
 
-Field Service Management
-
-</td><td>
-
--   **REST**
-
-[Appointment API](../../../integrate/inbound-rest/concept/appointment-api.md#)
-
-[Appointment Open API](../../../integrate/inbound-rest/concept/appointment-open-api.md#)
-
-
-</td></tr><tr><td>
-
 HR Service Delivery
 
 </td><td>
@@ -656,32 +673,6 @@ Instance Scan
 -   **Server**
     -   [Findings - Scoped, Global](../../../app-store/dev_portal/API_reference/Findings/concept/FindingsAPI.md#)
     -   [LinterCheckAstNode - Scoped, Global](../../../app-store/dev_portal/API_reference/LinterCheckAstNode/concept/LinterCheckAstNodeAPIBoth.md#)
-
-</td></tr><tr><td>
-
-Integration Hub
-
-</td><td>
-
--   **Server**
-
-[PersonalAuthAPI - Scoped](../../../app-store/dev_portal/API_reference/PersonalAuthAPI/concept/PersonalAuthAPIScoped.md#)
-
--   **REST**
-
-[Continuous Integration/Continuous Delivery \(CICD\) API](../../../integrate/inbound-rest/concept/cicd-api.md#)
-
-
-</td></tr><tr><td>
-
-Interaction Management
-
-</td><td>
-
--   **REST**
-
-[Interaction Management API](../../../integrate/inbound-rest/concept/interaction-management-api.md#)
-
 
 </td></tr><tr><td>
 
@@ -722,6 +713,21 @@ IT Service Management
     -   [OCTimer - Global](../../../app-store/dev_portal/API_reference/OCTimer/concept/c_OCTimerAPI.md#)
     -   [RemedialActionEngine - Scoped](../../../app-store/dev_portal/API_reference/RemedialAction/concept/RemedialActionScopedAPI.md#)
     -   [Proactive Engagement API](../../../integrate/inbound-rest/concept/proactive-engagement-api.md#)
+
+</td></tr><tr><td>
+
+Integration Hub
+
+</td><td>
+
+-   **Server**
+
+[PersonalAuthAPI - Scoped](../../../app-store/dev_portal/API_reference/PersonalAuthAPI/concept/PersonalAuthAPIScoped.md#)
+
+-   **REST**
+
+[Continuous Integration/Continuous Delivery \(CICD\) API](../../../integrate/inbound-rest/concept/cicd-api.md#)
+
 
 </td></tr><tr><td>
 
@@ -880,7 +886,7 @@ ServiceNow AI Platform
     -   [RenderProperties - Scoped](../../../app-store/dev_portal/API_reference/RenderPropertiesScoped/concept/RenderProperties-Scoped-API.md#)
     -   [RequestAuthAPI - Scoped](../../../app-store/dev_portal/API_reference/RequestAuthAPI/concept/RequestAuthAPI.md#)
     -   [ResponseTemplate - Scoped, Global](../../../app-store/dev_portal/API_reference/ResponseTemplate/concept/ResponseTemplateAPI.md#)
-    -   [../../../Chunk1307456755.md\#](../../../Chunk1307456755.md#)
+    -   [../../../Chunk13151134.md\#](../../../Chunk13151134.md#)
     -   [RESTAPIRequestBody - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceRequestBody/concept/c_ScriptableServiceRequestBody.md#)
     -   [RESTAPIResponse - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceResponseBuilder/concept/c_ScriptableServiceResponseBuilder.md#)
     -   [RESTAPIResponseStream - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceResponseStreamWriter/concept/c_ScriptableServiceRespStreamWriter.md#)
@@ -926,42 +932,6 @@ ServiceNow AI Platform
 
 </td></tr><tr><td>
 
-ServiceNow AI Platform Legacy Capabilities
-
-</td><td>
-
--   **Server**
-    -   [ConnectActionResponse - Global](../../../app-store/dev_portal/API_reference/ConnectActionResponse/concept/c_ConnectActionResponseAPI.md#)
-    -   [GlideConversation - Global](../../../app-store/dev_portal/API_reference/GlideConversation/concept/c_GlideConversationAPI.md#)
-
-</td></tr><tr><td>
-
-ServiceNow AI Platform - Security
-
-</td><td>
-
--   **Server**
-    -   [OAuthUtil - Global](../../../app-store/dev_portal/API_reference/OAuthUtil/concept/c_OAuthUtilScriptInclude.md#)
-    -   [SCIM2Client - Scoped](../../../app-store/dev_portal/API_reference/SCIM2Client/concept/SCIM2ClientAPI.md#)
-    -   [SCIM2ClientUtil - Scoped](../../../app-store/dev_portal/API_reference/SCIM2ClientUtil/concept/SCIM2ClientUtilAPI.md#)
-    -   [StandardCredentialsProvider - Scoped, Global](../../../app-store/dev_portal/API_reference/StardardCredentialsProvider/Concept/standard-credentials-provider-api.md#)
-    -   [CertificateEncryption - Scoped](../../../app-store/dev_portal/API_reference/CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#)
-    -   [ConnectionInfo - Scoped, Global](../../../app-store/dev_portal/API_reference/ConnectionInfo/Concept/connection-info-api.md#)
-    -   [ConnectionInfoProvider - Scoped, Global](../../../app-store/dev_portal/API_reference/ConnectionInfoProvider/Concept/connection-info-provider-api.md#)
-    -   [KMFCryptoOperation - Scoped, Global](../../../app-store/dev_portal/API_reference/KMFCryptoOperationBoth/concept/KMFCryptoOperationBothAPI.md#)
-    -   [DCManager - Global](../../../app-store/dev_portal/API_reference/DCManager/concept/DCManagerAPIGlobal.md#)
-    -   [ScopedDCManager - Scoped](../../../app-store/dev_portal/API_reference/DCManagerScoped/concept/DCManagerAPIScoped.md#)
--   **REST**
-    -   [Data Classification API](../../../integrate/inbound-rest/concept/data-classification-api.md#)
-    -   [System for Cross-domain Identity Management \(SCIM\) API](../../../integrate/inbound-rest/concept/scim-api.md#)
-    -   [User Role Inheritance API](../../../integrate/inbound-rest/concept/user-role-inheritance-api.md#)
--   **Client**
-
-[ScopedSessionDomain - Client](../../../app-store/dev_portal/API_reference/ScopedSessionDomain/concept/ScopedSessionDomainAPI.md#)
-
-
-</td></tr><tr><td>
-
 Order Management for Telecommunications, Media, and Technology
 
 </td><td>
@@ -985,7 +955,6 @@ Order Management for Telecommunications, Media, and Technology
     -   [Product Order Open API](../../../integrate/inbound-rest/concept/tmf622_product_ordering-api.md#)
     -   [Service Catalog Open API](../../../integrate/inbound-rest/concept/service-catalog-open-api.md#)
     -   [Service Order Open API](../../../integrate/inbound-rest/concept/service-order-open-api.md#)
-    -   [Service Test Management Open API](../../../integrate/inbound-rest/concept/service-test-management-api.md#)
     -   [Technical Service Qualification Open API](../../../integrate/inbound-rest/concept/ts-qualification-api.md#)
     -   [Trouble Ticket Open API](../../../integrate/inbound-rest/concept/trouble-ticket-open-api.md#)
 
@@ -1064,6 +1033,23 @@ Sourcing and Procurement Operations
 
 </td></tr><tr><td>
 
+Product Support for Technology
+
+</td><td>
+
+-   **Server**
+    -   [EventProcessorUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/EventProcessorUtilOOB/concept/EventProcessorUtilOOBScopedAPI.md#)
+    -   [EventQueueProcessorOOB - Scoped](../../../app-store/dev_portal/API_reference/EventQueueProcessorOOB/concept/EventQueueProcessorOOBScopedAPI.md#)
+    -   [HermesEventPublisherOOB - Scoped](../../../app-store/dev_portal/API_reference/HermesEventPublisherOOB/concept/HermesEventPublishOOBScopedAPI.md#)
+    -   [OpenMessageBusEventPublisherOOB - Scoped](../../../app-store/dev_portal/API_reference/OpenMessageBusEventPublisherOOB/concept/OpenMsgBusEvtPubScopedAPI.md#)
+    -   [TroubleTicketNotificationUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#)
+-   **REST**
+
+[Trouble Ticket Open API](../../../integrate/inbound-rest/concept/trouble-ticket-open-api.md#)
+
+
+</td></tr><tr><td>
+
 Project Portfolio Management
 
 </td><td>
@@ -1098,6 +1084,20 @@ Security Operations
 
 [TISC API](../../../integrate/inbound-rest/concept/tisc-api.md#)
 
+
+</td></tr><tr><td>
+
+Sales CRM for Telecommunications
+
+</td><td>
+
+-   **REST**
+    -   [Product Catalog Open API](../../../integrate/inbound-rest/concept/product-catalog-open-api.md#)
+    -   [Product Order Open API](../../../integrate/inbound-rest/concept/tmf622_product_ordering-api.md#)
+    -   [Product Inventory Open API](../../../integrate/inbound-rest/concept/product-inventory-open-api.md#)
+    -   [Service Order Open API](../../../integrate/inbound-rest/concept/service-order-open-api.md#)
+    -   [Quote Management API](../../../integrate/inbound-rest/concept/quote-management-api.md#)
+    -   [Technical Service Qualification Open API](../../../integrate/inbound-rest/concept/ts-qualification-api.md#)
 
 </td></tr><tr><td>
 
@@ -1170,6 +1170,42 @@ ServiceNow Voice
 
 </td></tr><tr><td>
 
+ServiceNow AI Platform - Security
+
+</td><td>
+
+-   **Server**
+    -   [OAuthUtil - Global](../../../app-store/dev_portal/API_reference/OAuthUtil/concept/c_OAuthUtilScriptInclude.md#)
+    -   [SCIM2Client - Scoped](../../../app-store/dev_portal/API_reference/SCIM2Client/concept/SCIM2ClientAPI.md#)
+    -   [SCIM2ClientUtil - Scoped](../../../app-store/dev_portal/API_reference/SCIM2ClientUtil/concept/SCIM2ClientUtilAPI.md#)
+    -   [StandardCredentialsProvider - Scoped, Global](../../../app-store/dev_portal/API_reference/StardardCredentialsProvider/Concept/standard-credentials-provider-api.md#)
+    -   [CertificateEncryption - Scoped](../../../app-store/dev_portal/API_reference/CertificateEncryptionScoped/concept/c_CertificateEncryptionScopedAPI.md#)
+    -   [ConnectionInfo - Scoped, Global](../../../app-store/dev_portal/API_reference/ConnectionInfo/Concept/connection-info-api.md#)
+    -   [ConnectionInfoProvider - Scoped, Global](../../../app-store/dev_portal/API_reference/ConnectionInfoProvider/Concept/connection-info-provider-api.md#)
+    -   [KMFCryptoOperation - Scoped, Global](../../../app-store/dev_portal/API_reference/KMFCryptoOperationBoth/concept/KMFCryptoOperationBothAPI.md#)
+    -   [DCManager - Global](../../../app-store/dev_portal/API_reference/DCManager/concept/DCManagerAPIGlobal.md#)
+    -   [ScopedDCManager - Scoped](../../../app-store/dev_portal/API_reference/DCManagerScoped/concept/DCManagerAPIScoped.md#)
+-   **REST**
+    -   [Data Classification API](../../../integrate/inbound-rest/concept/data-classification-api.md#)
+    -   [System for Cross-domain Identity Management \(SCIM\) API](../../../integrate/inbound-rest/concept/scim-api.md#)
+    -   [User Role Inheritance API](../../../integrate/inbound-rest/concept/user-role-inheritance-api.md#)
+-   **Client**
+
+[ScopedSessionDomain - Client](../../../app-store/dev_portal/API_reference/ScopedSessionDomain/concept/ScopedSessionDomainAPI.md#)
+
+
+</td></tr><tr><td>
+
+ServiceNow AI Platform Legacy Capabilities
+
+</td><td>
+
+-   **Server**
+    -   [ConnectActionResponse - Global](../../../app-store/dev_portal/API_reference/ConnectActionResponse/concept/c_ConnectActionResponseAPI.md#)
+    -   [GlideConversation - Global](../../../app-store/dev_portal/API_reference/GlideConversation/concept/c_GlideConversationAPI.md#)
+
+</td></tr><tr><td>
+
 Service Portal
 
 </td><td>
@@ -1218,9 +1254,39 @@ Telecommunications Network Inventory
 </td><td>
 
 -   **REST**
+    -   [DCIM Metric Data Feed API](../../../integrate/inbound-rest/concept/dcim-metric-data-feed-api.md#)
+    -   [Resource Inventory Open API](../../../integrate/inbound-rest/concept/resource-inventory-api.md#)
 
-[Resource Inventory Open API](../../../integrate/inbound-rest/concept/resource-inventory-api.md#)
+</td></tr><tr><td>
 
+tTelecommunications Service Operations Management
+
+</td><td>
+
+-   **Server**
+    -   [EventProcessorUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/EventProcessorUtilOOB/concept/EventProcessorUtilOOBScopedAPI.md#)
+    -   [EventQueueProcessorOOB - Scoped](../../../app-store/dev_portal/API_reference/EventQueueProcessorOOB/concept/EventQueueProcessorOOBScopedAPI.md#)
+    -   [HermesEventPublisherOOB - Scoped](../../../app-store/dev_portal/API_reference/HermesEventPublisherOOB/concept/HermesEventPublishOOBScopedAPI.md#)
+    -   [OpenMessageBusEventPublisherOOB - Scoped](../../../app-store/dev_portal/API_reference/OpenMessageBusEventPublisherOOB/concept/OpenMsgBusEvtPubScopedAPI.md#)
+    -   [TMFTopicEventAPIUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/TMFTopicEventAPIUtilOOB/concept/tmftopiceventapiutiloobScopedAPI.md#)
+    -   [TopicAPIUtilsOOB - Scoped](../../../app-store/dev_portal/API_reference/TopicAPIUtilsOOB/concept/TopicAPIUtilsOOBAPIScoped.md#)
+    -   [TopicSubscriptionUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/TopicSubscriptionUtilOOB/concept/TopicSubscriptionUtilAPIScoped.md#)
+    -   [TopicUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/TopicUtilOOB/concept/TopicUtilOOBAPIScoped.md#)
+    -   [TroubleTicketNotificationUtilOOB - Scoped](../../../app-store/dev_portal/API_reference/TroubleTicketNotificationUtilOOB/concept/TroubleTicketNotifScopedAPI.md#)
+-   **REST**
+    -   [Party Management Open API](../../../integrate/inbound-rest/concept/tmf-party-management-open-api.md#)
+    -   [Alarm Management Open API](../../../integrate/inbound-rest/concept/alarm-open-api.md#)
+    -   [Event Notification Management Open API](../../../integrate/inbound-rest/concept/event_open-api.md#)
+    -   [Product Catalog Open API](../../../integrate/inbound-rest/concept/product-catalog-open-api.md#)
+    -   [Product Inventory Open API](../../../integrate/inbound-rest/concept/product-inventory-open-api.md#)
+    -   [Product Order Open API](../../../integrate/inbound-rest/concept/tmf622_product_ordering-api.md#)
+    -   [Quote Management API](../../../integrate/inbound-rest/concept/quote-management-api.md#)
+    -   [Service Catalog Open API](../../../integrate/inbound-rest/concept/service-catalog-open-api.md#)
+    -   [Service Order Open API](../../../integrate/inbound-rest/concept/service-order-open-api.md#)
+    -   [Service Test Management Open API](../../../integrate/inbound-rest/concept/service-test-management-api.md#)
+    -   [Technical Service Qualification Open API](../../../integrate/inbound-rest/concept/ts-qualification-api.md#)
+    -   [Trouble Ticket Open API](../../../integrate/inbound-rest/concept/trouble-ticket-open-api.md#)
+    -   [Work Order Management API](../../../integrate/inbound-rest/concept/work-order-mgmt-api.md#)
 
 </td></tr><tr><td>
 
@@ -1273,6 +1339,28 @@ Virtual Agent
 
 </td></tr><tr><td>
 
+Workplace Service Delivery
+
+</td><td>
+
+-   **REST**
+    -   [Workplace Connector Webhook API](../../../integrate/inbound-rest/concept/workplace_connector_webhook-api.md#)
+    -   [WSD Extra Service Request API](../../../integrate/inbound-rest/concept/wsd_extra_serv_req-api.md#)
+    -   [WSD Extra Service API](../../../integrate/inbound-rest/concept/wsd_extra_service-api.md#)
+    -   [WSD Group Reservation API](../../../integrate/inbound-rest/concept/wsd_grp_reserv-api.md#)
+    -   [WSD Multi Reservation API](../../../integrate/inbound-rest/concept/wsd_multi_reserv-api.md#)
+    -   [WSD Presence API](../../../integrate/inbound-rest/concept/wsd_presence-api.md#)
+    -   [WSD Recurring Reservation API](../../../integrate/inbound-rest/concept/wsd_recur_reserv-api.md#)
+    -   [WSD Reservable API](../../../integrate/inbound-rest/concept/wsd_reservable-api.md#)
+    -   [WSD Reservation API](../../../integrate/inbound-rest/concept/wsd_reservation-api.md#)
+    -   [WSD Reservation Invitees API](../../../integrate/inbound-rest/concept/wsd_reservation_invitees-api.md#)
+    -   [WSD Search API](../../../integrate/inbound-rest/concept/wsd_search-api.md#)
+    -   [WSD Shift API](../../../integrate/inbound-rest/concept/wsd_shift-api.md#)
+    -   [WSD Unified Search API](../../../integrate/inbound-rest/concept/wsd_unified-search-api.md#)
+    -   [WSD User API](../../../integrate/inbound-rest/concept/wsd_user-api.md#)
+
+</td></tr><tr><td>
+
 Workflow \(legacy\)
 
 </td><td>
@@ -1287,25 +1375,6 @@ Workflow \(legacy\)
     -   [WorkflowModelManagerAjax - Global](../../../app-store/dev_portal/API_reference/WorkflowModelManagerAjax/concept/c_WorkflowModelManagerAjaxAPI.md#)
     -   [WorkflowScheduler - Global](../../../app-store/dev_portal/API_reference/WorkflowScheduler/concept/c_WorkflowSchedulerAPI.md#)
     -   [WorkflowTimeline - Global](../../../app-store/dev_portal/API_reference/WorkflowTimeLine/concept/c_WorkflowTimelineAPI.md#)
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
--   **REST**
-    -   [Workplace Connector Webhook API](../../../integrate/inbound-rest/concept/workplace_connector_webhook-api.md#)
-    -   [WSD Extra Service Request API](../../../integrate/inbound-rest/concept/wsd_extra_serv_req-api.md#)
-    -   [WSD Extra Service API](../../../integrate/inbound-rest/concept/wsd_extra_service-api.md#)
-    -   [WSD Group Reservation API](../../../integrate/inbound-rest/concept/wsd_grp_reserv-api.md#)
-    -   [WSD Multi Reservation API](../../../integrate/inbound-rest/concept/wsd_multi_reserv-api.md#)
-    -   [WSD Recurring Reservation API](../../../integrate/inbound-rest/concept/wsd_recur_reserv-api.md#)
-    -   [WSD Reservable API](../../../integrate/inbound-rest/concept/wsd_reservable-api.md#)
-    -   [WSD Reservation API](../../../integrate/inbound-rest/concept/wsd_reservation-api.md#)
-    -   [WSD Reservation Invitees API](../../../integrate/inbound-rest/concept/wsd_reservation_invitees-api.md#)
-    -   [WSD Search API](../../../integrate/inbound-rest/concept/wsd_search-api.md#)
-    -   [WSD Shift API](../../../integrate/inbound-rest/concept/wsd_shift-api.md#)
 
 </td></tr></tbody>
 </table>

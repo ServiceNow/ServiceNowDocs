@@ -19,7 +19,7 @@ Semantic table configuration supports regular tables, database views, and Workfl
 
 **Warning:** Adding a table to the semantic data layer and enabling semantic generation on that table can negatively impact both initial load time and runtime performance of Query Generation.
 
-Role required: admin, now\_assist\_explorer\_admin, sn\_query\_gen.admin
+Role required: sn\_query\_gen.admin or higher
 
 ## Procedure
 

@@ -1,50 +1,38 @@
 ---
 title: View Enrichment Results
-description: Use this section to view the observables enrichment results such as Threat Lookup Results, Sightings, and Observable Enrichment Results from TISC in SIR workspace.
+description: TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
 locale: en-US
 release: australia
 product: Security Incident Response
 classification: security-incident-response
-topic_type: task
-last_updated: "2026-03-12"
+topic_type: concept
+last_updated: "2026-04-16"
 reading_time_minutes: 1
 breadcrumb: [Working with TISC Context, TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # View Enrichment Results
 
-Use this section to view the observables enrichment results such as Threat Lookup Results, Sightings, and Observable Enrichment Results from TISC in SIR workspace.
+TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
 
-## Before you begin
+Security analysts can detect, investigate, and respond to security incidents more effectively from the workspace.
 
-Role required: sn\_si.analyst
+TISC Context in Security Incident Response Workspace allows security analysts to add security incidents or observables to TISC cases directly from the workspace. You can also view enrichment results and observables related information such as threat actors, attack patterns, and campaigns.
 
-## Procedure
+Using this section, you can do the following:
 
-1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace** &gt; **Security Incidents** &gt; **All**.
+1.  Associate observables to a TISC case.
+2.  View associated observables information.
+3.  View observables enrichment results.
 
-2.  Locate and open any specific security incident that you are investigating.
+For more detailed information and procedures, see the following sections. For more information on how the integration works between TISC and Security Incident Response Workspace, see [TISC integration with SIR Workspace](../concept/tisc-integration-with-sir-workspace.md) in [Threat Intelligence Security Center](../reference/tisc-landing-page.md).
 
-    This can also be done by searching for the incident ID or browsing from Quick Filters section or filtering through incident state.
+## Observable Information
 
-3.  Once the incident is open, navigate to **TISC Context** tab.
-
-    **Viewing Enrichment Results:**
-
-    Within the incident details, you can view related information in several sections.
-
-    1.  Select one or more observables.
-
-    2.  Click on **View Enrichment Results** button.
-
-        This section displays the details that are related to the selected observables.
-
-        |Name|Description|
-        |----|-----------|
-        |Threat Lookup Results|Lists all the associated threat lookup results for selected TISC observables.|
-        |Sightings|Lists all the associated sightings for selected TISC observables.|
-        |Observable Enrichment Results|Lists all the associated observable enrichment results for selected TISC observables.|
-
+|Type|Description|
+|----|-----------|
+|Sightings|Lists all the associated sightings for selected TISC observables.|
+|Observable Enrichment Results|Lists all the associated observable enrichment results for selected TISC observables.|
 
 **Parent Topic:**[Working with TISC Context](../../secops-analyst-workspace/concept/working-with-tisc-context.md)
 

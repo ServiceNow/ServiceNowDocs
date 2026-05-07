@@ -33,7 +33,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 6.  On the invoice processing case form, select **Reset to Received**.
 
-    ![image.apo-reset-received]A message appears asking you for a confirmation.
+    ![Reset invoice to received state](../image/apo-reset-received.png)A message appears asking you for a confirmation.
 
 7.  Select **Yes**.
 

@@ -7,7 +7,7 @@ product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Health Log Analytics, HLA, HLA alerts, alert generation, alert metrics, anomaly, anomalies, anomalous, pattern, keywords, correlator, correlation]
 breadcrumb: [Exploring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
@@ -20,9 +20,9 @@ Health Log Analytics identifies patterns in your log data and learns pattern beh
 
 Anomalies are abnormal or unexpected behavior that occur when activities deviate from established baselines. There are many kinds of anomalies. In this example, the system tracks the baseline rate \(the average number of events per minute\) for a specific log pattern. When this typically inactive log generates a spike in events, the system detects the deviation from the baseline and generates an alert.
 
-![Anomaly has a spike in the rate of events in a typically inactive log pattern.](../image/anomaly-spike.png "Anomalous behavior")
+![Anomaly seen as a spike in the rate of messages of a particular type.](../image/anomaly-spike.png "Anomalous behavior")
 
-Health Log Analytics uses various methods to detect anomalies and generate alerts to help you respond to them quickly.
+Health Log Analytics uses various methods to detect anomalies and generate alerts.
 
 ## Alert metrics
 
@@ -30,9 +30,9 @@ Health Log Analytics monitors multiple metrics in the log stream to detect anoma
 
 As an operator, you can provide feedback about the generated alerts. Your feedback "teaches" Health Log Analytics that a specific alert is significant or irrelevant to you. The application then either raises the priority of the alert metric or mutes it to reduce noise.
 
--   A significant alert is more likely to be included in a Log Analytics group when the associated metric behaves anomalously. For more information, see [Mark an alert as significant in Health Log Analytics](../task/hla-op-alert-make-significant.md)
--   Mute an alert for a specified source to eliminate distracting new alerts for unimportant issues. When a metric is muted, Health Log Analytics removes the current alert and any other alerts based on that metric from the feed. It also stops generating new alerts from that metric. For more information, see [Mute an unimportant alert in Health Log Analytics](../task/hla-op-alert-mute.md).
--   When the situation changes, you can return a significant metric to its default significance. You can also reactivate a muted metric to cause the system to start generating alerts again. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](../task/hla-op-alert-restore-user-defined.md).
+-   A significant alert is more likely to be included in a Log Analytics group when the associated metric behaves anomalously. For more information, see [Mark an alert as significant in Health Log Analytics](../task/hla-op-alert-make-significant-sow.md).
+-   Mute an alert for a specified source to eliminate distracting new alerts for unimportant issues. When a metric is muted, Health Log Analytics removes the current alert and any other alerts based on that metric from the feed. It also stops generating new alerts from that metric. For more information, see [Mute an unimportant alert in Health Log Analytics](../task/hla-op-alert-mute-sow.md).
+-   When the situation changes, you can return a significant metric to its default significance. You can also reactivate a muted metric to cause the system to start generating alerts again. For more information, see [Restore normal importance to an alert metric in Health Log Analytics](../task/hla-op-alert-restore-user-defined-sow.md).
 
 ## Lexical keywords
 
@@ -44,7 +44,7 @@ For information about managing global keywords, see [Add, edit, or delete lexica
 
 ## Correlations
 
-Log correlators are keys or values in log data that detect correlations between alerts. For example, a log correlator could detect when the ID of a particular network device occurs simultaneously in multiple warnings across different service instances. For more information, see [Identifying related alerts in log data by using log correlators](hla-op-correlator-what-is-a.md).
+Log correlators are keys or values in log data that detect correlations between alerts. For example, a log correlator could detect when the ID of a particular network device occurs simultaneously in multiple warnings across different service instances. For more information, see [Identifying related alerts in log data by using log correlators in Health Log Analytics](hla-op-correlator-what-is-a.md).
 
 ## Advanced alert filtering
 
@@ -52,7 +52,7 @@ Add advanced log alert filters to scan alerts for conditions that you specify. T
 
 ## Custom alert rules
 
-Define a Log Analytics alert rule when you encounter log data that should generate an alert. The alert rule generates an alert for a specified metric with a threshold that you specify and sets the properties of the generated alert. For more information, see [Define a Log Analytics alert rule in Health Log Analytics](../task/hla-op-alert-rule-add.md).
+Define a Log Analytics alert rule when you encounter log data that should generate an alert. The alert rule generates an alert for a specified metric with a threshold that you specify and sets the properties of the generated alert. For more information, see [About Log Analytics alert rules](../../health-log-analytics-admin/concept/hla-custom-alert-rules.md).
 
 **Parent Topic:**[Exploring Health Log Analytics](../../health-log-analytics-admin/concept/hla-exploring.md)
 

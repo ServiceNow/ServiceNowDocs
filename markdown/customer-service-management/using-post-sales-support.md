@@ -17,7 +17,7 @@ Customer contracts, customer contract lines, and entitlements can be created in 
 
 -   Via workflows: You can create customer contracts, customer contract lines, and entitlements by using the contracts and entitlements workflow. For more information, see [Creating contracts and entitlements using workflows](create-cont-ent-workflows-csm.md).
 
-    **Note:** When a customer contract line or entitlement is created via the Sales and Order Management workflow, the account/consumer/household details are copied from the sold product and it inherits the state of the sold product. Further, when the state of the contract line changes, the same state is synced back to the parent sold product.
+    **Note:** When a customer contract line or entitlement is created via the Sales Customer Relationship Management workflow, the account/consumer/household details are copied from the sold product and it inherits the state of the sold product. Further, when the state of the contract line changes, the same state is synced back to the parent sold product.
 
 -   Via API integrations:
     -   [Service Contract API](https://www.servicenow.com/docs/access?context=servicecontract-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)

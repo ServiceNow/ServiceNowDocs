@@ -18,7 +18,7 @@ Reference topics provide additional information about ServiceNow Service Operati
 For information about components installed with Service Operations Workspace for ITOM, see [Service Operations Workspace for ITOM reference](https://www.servicenow.com/docs/access?context=sow-reference-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
 
 -   **[Terminology in Service Operations Workspace for ITSM](terminology-used-in-sow-for-itsm.md)**  
-You can familiarize yourself with the most used terms in Service Operations Workspace for ITSM.
+
 -   **[Additional roles for SOW admin](../reference/additional-roles-sow-admin.md)**  
 You can add various user roles to Service Operations Workspace \(SOW\) Admin role to perform SOW configurations.
 -   **[Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](../reference/sow-itsm-itom-version.md)**  

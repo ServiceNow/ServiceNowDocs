@@ -1,6 +1,6 @@
 ---
 title: Using UI generation
-description: Quickly generate multi-page experiences using natural language with Now Assist.
+description: UI generation in Now Assist for Creator enables developers to build ServiceNow portal experiences faster using natural language. Instead of manually configuring each page, module, or data binding, you describe what you need, and Now Assist for Creator it for you.
 locale: en-US
 release: australia
 product: Now Assist for Creator
@@ -13,24 +13,26 @@ breadcrumb: [UI generation, Use generative AI, Now Assist for Creator, Vibe codi
 
 # Using UI generation
 
-Quickly generate multi-page experiences using natural language with Now Assist.
+UI generation in Now Assist for Creator enables developers to build ServiceNow portal experiences faster using natural language. Instead of manually configuring each page, module, or data binding, you describe what you need, and Now Assist for Creator it for you.
 
 When UI generation is enabled, the option to create an AI-Generated experience \(![Now Assist icon.](../../../common/image/icon-ai-sparkle.png)\) appears in the UI Builder dialog.
 
-Developers must be assigned ui\_builder\_admin role to use UI generation.
+Learn how to use Now Assist for Creator in UI Builder to generate experiences, configure components, and accelerate development using natural language.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
--   **[Experience generation](../task/generate-ui.md)**  
-Use experience generation to create a multi-page experience using natural language with Now Assist.
--   **[Client script summarization](../task/client-script-summarization-generation.md)**  
-Use client script summary generation to get both a high-level summary and a detailed explanation of a client script.
--   **[Generate a data binding and formula](../task/generate-data-bindings-and-formulas.md)**  
-Automatically generate a data binding and formula using natural language with correct syntax.
+-   **[Create an AI-generated experience](../task/generate-ui.md#)**  
+Use Now Assist in UI Builder to generate a multi-page experience from a natural language description of what you want to build.
 -   **[Using UI Builder agent](using-ui-builder-agent.md#)**  
 Use the UI Builder agent to learn about features and functionality, understand your page setup, and accelerate page configuration.
+-   **[Summarize a client script using Now Assist](../task/client-script-summarization-generation.md)**  
+Use the client script summarization skill to generate a plain-language summary of a client script directly in the UI Builder editor.
+-   **[Generate a data binding and formula](../task/generate-data-bindings-and-formulas.md)**  
+Automatically generate a data binding and formula using natural language with correct syntax.
+-   **[Configure an event handler with Now Assist](../task/configure-an-event-handler-with-now-assist.md)**  
+Use Now Assist in UI Builder to configure event handlers. At present, you can configure Open page or URL, Open or close modal, and View load requested event handlers.
 -   **[Generate modules using Now Assist](../task/generate-ai-modules.md)**  
 Use Now Assist to generate modules for your application by entering natural language prompts instead of manually configuring them.
+-   **[UI Generation use cases](../task/ui-generation-use-cases.md)**  
+Learn how UI Generation capabilities in Now Assist for Creator support developers in creating and configuring UI Builder experiences using natural language.
 
 **Parent Topic:**[UI generation](ui-generation-landing.md)
 

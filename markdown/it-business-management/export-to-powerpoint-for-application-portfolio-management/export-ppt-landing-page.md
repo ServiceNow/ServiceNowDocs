@@ -23,19 +23,19 @@ Export to PowerPoint overview video. Approximately two minutes long.
 
 <table id="id_cqr_1l4_55b" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore.](../../../common/image/icon-explore.png) Learn about Export to PowerPoint add-in features.](explore-export-to-ppt.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn about Export to PowerPoint add-in features.](explore-export-to-ppt.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-set-up.png) Install and configure the Export to PowerPoint add-in.](configure-export-to-ppt.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and configure the Export to PowerPoint add-in.](configure-export-to-ppt.md)
 
 </td></tr><tr><td>
 
-[Use ![Use.](../../../reuse/images/request.png) Use Export to PowerPoint to generate and download your project status report.](using-export-to-ppt.md)
+[Use ![](../../../reuse/icons/brand-icons/bus-manage.svg) Use Export to PowerPoint to generate and download your project status report.](using-export-to-ppt.md)
 
 </td><td>
 
-[Reference ![Reference.](../../../common/image/icon-reference.png) Get details about components installed, form fields, tables, roles, and general guidelines.](../reference/export-ppt-reference.md)
+[Reference ![](../../../reuse/icons/brand-icons/bus-whitepaper.svg) Get details about components installed, form fields, tables, roles, and general guidelines.](../reference/export-ppt-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**

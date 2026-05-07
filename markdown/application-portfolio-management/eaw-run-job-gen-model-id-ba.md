@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-02-25"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run a scheduled job to generate an application model for business applications

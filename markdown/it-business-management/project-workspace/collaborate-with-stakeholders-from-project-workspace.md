@@ -31,15 +31,15 @@ Browse and upload files from your computer. Add comments and tag stakeholders fo
 
 2.  Attach files to your project or project task.
 
-<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d133177e82">
+<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d130870e82">
 
 Option
 
-</th><th align="left" id="d133177e85">
+</th><th align="left" id="d130870e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d133177e91">
+</th></tr></thead><tbody><tr><td id="d130870e91">
 
 **Project**
 
@@ -54,7 +54,7 @@ If you have attachment, select the Add file icon \(![Add File icon.](../image/ic
     2.  Browse and upload a file.
 
 
-</td></tr><tr><td id="d133177e135">
+</td></tr><tr><td id="d130870e135">
 
 **Project task**
 
@@ -75,15 +75,15 @@ If you have attachment, select the Add File icon \(![Add File icon.](../image/ic
 
     You can add comments directly at the project level or for a project task.
 
-<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d133177e188">
+<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d130870e188">
 
 Option
 
-</th><th align="left" id="d133177e191">
+</th><th align="left" id="d130870e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d133177e197">
+</th></tr></thead><tbody><tr><td id="d130870e197">
 
 **Project**
 
@@ -97,7 +97,7 @@ If you want to address your comments to a user, @-mention their name in the comm
 3.  Select **Post Comments**.
 
 
-</td></tr><tr><td id="d133177e230">
+</td></tr><tr><td id="d130870e230">
 
 **Project task**
 

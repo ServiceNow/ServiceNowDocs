@@ -1,15 +1,15 @@
 ---
-title: Now Assist for Sales and Order Management for Telecommunications \(SOMT\) AI agent collection order fulfillment AI agent
+title: Now Assist for Sales CRM for Telecommunications AI agent collection order fulfillment AI agent
 description: Use the order fulfillment AI agent to identify the tasks required for domain orders by using historical data from similar orders.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales and Order Management for Telecommunications \(SOMT\) AI agent collection order fulfillment AI agent
+# Now Assist for Sales CRM for Telecommunications AI agent collection order fulfillment AI agent
 
 Use the order fulfillment AI agent to identify the tasks required for domain orders by using historical data from similar orders.
 
@@ -25,7 +25,7 @@ When a domain order is created, if a fulfillment process isn’t defined for tha
 
 To modify the order fulfillment AI agent, [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
 
-The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for Now Assist for Sales and Order Management for Telecommunications \(SOMT\)](../task/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
+The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](../task/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
 
 Role required: sn\_somt\_gen\_ai.sales\_and \_order\_fulfillment\_ai\_agent
 

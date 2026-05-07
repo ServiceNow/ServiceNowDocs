@@ -27,15 +27,15 @@ If you have the Legal Virtual Agent Conversations application installed on your 
 
 1.  Open privacy assessment intake form, using one of the following options.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d630356e85">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d640373e85">
 
 Option
 
-</th><th align="left" id="d630356e88">
+</th><th align="left" id="d640373e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d630356e94">
+</th></tr></thead><tbody><tr><td id="d640373e94">
 
 **Using __Employee Center__**
 
@@ -47,7 +47,7 @@ Description
 4.  Select **Privacy Assessment**.
 
 
-</td></tr><tr><td id="d630356e137">
+</td></tr><tr><td id="d640373e137">
 
 **Using __Legal Service Portal__**
 

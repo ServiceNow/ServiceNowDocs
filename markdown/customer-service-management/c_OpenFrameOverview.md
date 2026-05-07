@@ -111,7 +111,7 @@ Select and drag the OpenFrame window header.
 In the CSM Configurable Workspace, you can:
 
 -   Integrate OpenFrame with the Interaction Management System \(IMS\) and interaction records. This enables agents to manage the phone interaction life cycle.
--   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voice channel. You would need to be enable this in the CSM Configurable Workspace to manage the voice channel. For more information, see [Interaction Controls Component](interaction-controls-component.md) and [Interaction Controls Component \(ICC\) call features](interaction-controls-component-icc-call-interaction-features.md).
+-   Use the native voice control capability from the Interaction Controls Component \(ICC\) plugin to integrate to the contact center voice channel. You must enable this in the CSM Configurable Workspace to manage the voice channel. For more information, see [Interaction Controls Component \(ICC\) for voice calls](contact-center-integration-with-icc.md) and [Interaction Controls Component \(ICC\) call features](interaction-controls-component-icc-call-interaction-features.md).
 
 ## Creating an OpenFrame configuration
 

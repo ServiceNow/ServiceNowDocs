@@ -21,6 +21,14 @@ Choose one of the tiles to get started.
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
+[Dynamic Guidance](dynamic-guidance.md)
+
+ [![](../../../get-started/servicenow-overview/image/icon-now-assist.png)](dynamic-guidance.md)
+
+ [Generates an engaging voice and text based, step by step, real-time guidance, dynamically, across platforms.](dynamic-guidance.md)
+
+</td><td>
+
 [In-product help](inproduct-help.md)
 
  [![](../image/icon-adoption-embedded-help.png)](inproduct-help.md)
@@ -50,6 +58,10 @@ Choose one of the tiles to get started.
  [![](../image/icon-adoption-guided-tours.png)](../../help-guided-tours/concept/guided-tours.md)
 
  [Use guided tours to provide step-by-step walkthroughs of applications within your instance.](../../help-guided-tours/concept/guided-tours.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>For additional getting started information, see the following Getting Started with Adoption Services video.

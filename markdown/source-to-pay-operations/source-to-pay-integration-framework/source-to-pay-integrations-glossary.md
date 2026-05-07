@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
+keywords: [glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 breadcrumb: [Reference, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
@@ -18,7 +18,7 @@ Learn about the terms and concepts used in Source-to-Pay \(S2P\) integrations.
 
 Glossary terms are grouped alphabetically.
 
-[A](source-to-pay-integrations-glossary.md#) \| [C](source-to-pay-integrations-glossary.md#) \| [D](source-to-pay-integrations-glossary.md#) \| [E](source-to-pay-integrations-glossary.md#) \| [I](source-to-pay-integrations-glossary.md#) \| [M](source-to-pay-integrations-glossary.md#) \| [P](source-to-pay-integrations-glossary.md#) \| [R](source-to-pay-integrations-glossary.md#) \| [S](source-to-pay-integrations-glossary.md#) \| [T](source-to-pay-integrations-glossary.md#) \| [W](source-to-pay-integrations-glossary.md#)
+[A](../../../Chunk956191298.md#) \| [C](source-to-pay-integrations-glossary.md#) \| [D](source-to-pay-integrations-glossary.md#) \| [E](source-to-pay-integrations-glossary.md#) \| [I](source-to-pay-integrations-glossary.md#) \| [M](source-to-pay-integrations-glossary.md#) \| [P](source-to-pay-integrations-glossary.md#) \| [R](source-to-pay-integrations-glossary.md#) \| [S](source-to-pay-integrations-glossary.md#) \| [T](source-to-pay-integrations-glossary.md#) \| [W](source-to-pay-integrations-glossary.md#)
 
 **Parent Topic:**[Source-to-Pay integrations reference](../reference/s2p-integrations-reference.md)
 
@@ -26,16 +26,6 @@ Glossary terms are grouped alphabetically.
 
 
 [Source-to-Pay integrations with Oracle reference](../reference/s2p-integration-oracle-reference.md)
-
-## A
-
-### API \(Application Programming Interface\)
-
-A set of rules that allows different software entities to communicate with each other.
-
-### Asynchronous Integration
-
-A type of integration where the systems involved communicate without waiting for an immediate response.
 
 ## C
 
@@ -68,10 +58,6 @@ The electronic interchange of business information using a standardized format.
 ### Integration
 
 A process by which the ServiceNow platform can be made to work with a third-party application or web service.
-
-### Invoice
-
-A document issued by a seller to a buyer, indicating the products, quantities, and agreed prices for products or services provided.
 
 ## M
 
@@ -135,5 +121,5 @@ A ServiceNow partner that provides native voice and SMS capabilities to compleme
 
 ### workflow
 
-Defined sequence of steps automating processes in Sales and Order Management.
+Defined sequence of steps automating processes in Sales Customer Relationship Management.
 

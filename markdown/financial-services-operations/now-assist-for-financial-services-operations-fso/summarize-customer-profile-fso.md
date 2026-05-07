@@ -37,15 +37,15 @@ The Customer profile summarization skill provides a concise, comprehensive summa
 
 3.  After the summary is generated, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d41696e117">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d43844e117">
 
 Option
 
-</th><th align="left" id="d41696e120">
+</th><th align="left" id="d43844e120">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d41696e126">
+</th></tr></thead><tbody><tr><td id="d43844e126">
 
 **Refresh the customer summary**
 
@@ -53,7 +53,7 @@ Procedure
 
 Select the refresh icon \(![Refresh icon.](../../fso-common/image/icon-refresh.png)\) to generate another customer summary.
 
-</td></tr><tr><td id="d41696e141">
+</td></tr><tr><td id="d43844e141">
 
 **Provide feedback for the summary**
 
@@ -61,7 +61,7 @@ Select the refresh icon \(![Refresh icon.](../../fso-common/image/icon-refresh.p
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../customer-service-management/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../customer-service-management/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d41696e164">
+</td></tr><tr><td id="d43844e164">
 
 **View the information about the case summary**
 
@@ -69,7 +69,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 If you want to review details about the summary, select the more info icon \(![More info icon.](../../customer-service-management/image/icon-more-info.png)\).
 
-</td></tr><tr><td id="d41696e179">
+</td></tr><tr><td id="d43844e179">
 
 **Expand or collapse the summary**
 

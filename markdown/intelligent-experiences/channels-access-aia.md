@@ -33,7 +33,7 @@ The final step of the AI agent guided setup includes options for where you can i
 
     You can also use Now Assist to generate the messages for you by selecting **Generate messages**. You can change the messages after they're generated.
 
-    ![Select channels and access page](../image/channels-access-aia.png)
+    ![Select channels and access page](../image/select-aia-channels.png)
 
 3.  Activate the AI agent.
 
@@ -41,9 +41,9 @@ The final step of the AI agent guided setup includes options for where you can i
 
     If you don't see this option, you may need to scroll.
 
-    ![Select channels and access page.](../image/aia-channels-access-activation.png)
+    ![Select channels and access page.](../image/aia-channels-activation.png)
 
-    **Note:** If you have installed the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) on your ServiceNow AI Agent Studio instance, then agent learning and voice agents won't work if the assistant is in AI-native mode.
+    **Note:** If you have installed the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) on your ServiceNow AI Agent Studio instance, then agent learning and voice agents won't work if the assistant is in Premium Chat mode.
 
 4.  Select **Save and test**.
 

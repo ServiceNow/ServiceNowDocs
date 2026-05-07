@@ -27,15 +27,15 @@ By default, the Rank By Score list ranks demands and projects based on system-ge
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d189463e58">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d185389e58">
 
 Location
 
-</th><th align="left" id="d189463e61">
+</th><th align="left" id="d185389e61">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d189463e67">
+</th></tr></thead><tbody><tr><td id="d185389e67">
 
 **From application navigator**
 
@@ -45,7 +45,7 @@ Steps
 2.  From the **Portfolio** list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d189463e100">
+</td></tr><tr><td id="d185389e100">
 
 **From the portfolio list**
 
@@ -59,15 +59,15 @@ Steps
 </td></tr></tbody>
 </table>2.  Adjust the rank automatically or manually.
 
-<table id="choicetable_zyz_csk_nlb"><thead><tr><th align="left" id="d189463e145">
+<table id="choicetable_zyz_csk_nlb"><thead><tr><th align="left" id="d185389e145">
 
 Action
 
-</th><th align="left" id="d189463e148">
+</th><th align="left" id="d185389e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d189463e154">
+</th></tr></thead><tbody><tr><td id="d185389e154">
 
 **Adjust the rank automatically**
 
@@ -82,7 +82,7 @@ For example, if the ranks after moving or canceling some projects are 1, 2, and 
 4.  Click **Rank By Visual Sort** to rank projects and demands based on the attribute you chose.
 
 
-</td></tr><tr><td id="d189463e192">
+</td></tr><tr><td id="d185389e192">
 
 **Adjust the ranks manually**
 

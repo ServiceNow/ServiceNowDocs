@@ -32,15 +32,15 @@ Update the details of a planning item using the Prioritization, Kanban, and Hier
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d201068e122">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d196720e122">
 
 Choice
 
-</th><th align="left" id="d201068e125">
+</th><th align="left" id="d196720e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d201068e131">
+</th></tr></thead><tbody><tr><td id="d196720e131">
 
 **Update planning item details**
 
@@ -55,7 +55,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
  For field information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
 
-</td></tr><tr><td id="d201068e174">
+</td></tr><tr><td id="d196720e174">
 
 **Attach files to planning item**
 
@@ -63,7 +63,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d201068e189">
+</td></tr><tr><td id="d196720e189">
 
 **Delete planning item**
 

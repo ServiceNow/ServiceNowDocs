@@ -21,7 +21,7 @@ Role required: none
 
 You can toggle the template bar, which hides or shows it for all forms. The template bar is shown by default.
 
-![Template bar](../image/UI16TemplateBar.png)
+![image.template-bar]
 
 ## Procedure
 

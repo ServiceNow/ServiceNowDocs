@@ -27,29 +27,33 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select **Unified Navigation App**.
+2.  From the UI Builder home page, select **Experiences**.
 
-3.  In the Variants section, select the More options icon ![](../../ui-builder/image/three-dot-icon.png) for the Unified Navigation Landing Page - Admin Role and select **Duplicate**.
+3.  In the search experiences field, enter `Unified Navigation App`.
+
+4.  In the Variants section, select the More options icon ![](../../ui-builder/image/three-dot-icon.png) for the Next Experience Landing Page - Admin Role and select **Duplicate**.
 
     The main variant of the landing page is read-only. To edit, you work in a copy.
 
-    ![UI Builder unified navigation landing page more options menu with Duplicate highlighted](../image/duplicate-unified-nav-landing.png)
+    ![UI Builder Next Experience landing page more options menu with Duplicate highlighted](../image/duplicate-unified-nav-landing.png)
 
-4.  In the Unified Navigation Landing Page - Admin Role Copy Content Body outline, select Container 5 and select the Client State Parameters icon ![](../../ui-builder/image/uib-client-state-icon.png).
+5.  In the variant creation modal, keep all fields as-is and select **Create**.
 
-5.  In the Client state parameters section, toggle the **hideResourcesSection** value off.
+6.  In the Next Experience Landing Page - Admin Role Copy Content Body outline, select **Client State Parameters**.
+
+7.  In the Client state parameters section, clear the **hideResourcesSection** initial value check box.
 
     This action enables the landing page footer.
 
-    ![Animated gif of the Client state parameters dialogue section with the hideResourcesSection Initial value toggled on and then toggled off.](../image/disable-hideresourcessection-param.gif)
+    ![](../image/disable-hideresourcessection-param.png)
 
-6.  Select the **X** to close the Client state parameters section.
+8.  Select the **Apply**.
 
     The default footer is visible with two link sets: Frequent visits and Learn more.
 
-7.  To configure the links in the footer, select Link set 1 or Link set 2 under Container 5.
+9.  To configure the links in the footer, select Link set 1 or Link set 2 under Container 5.
 
-8.  In the Config section, edit the links.
+10. In the Config section, edit the links.
 
     For more information, see [Link set UIB Setup](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/shared-components/now-link-set/uib-setup) in the ServiceNow Developer documentation.
 

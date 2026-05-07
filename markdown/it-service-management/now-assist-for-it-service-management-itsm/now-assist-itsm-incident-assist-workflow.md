@@ -16,17 +16,7 @@ breadcrumb: [ITSM, Use agentic AI in IT Service Management, Now Assist for IT Se
 
 Use the Incident assist agentic workflow to get answers to questions about an incident, including caller assets, recent incidents, similar resolved incidents, and on-call experts.
 
-**Important:** The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. If you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy.
-
-To deactivate the skill:
-
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
-2.  Select the **Now Assist Skills** tab.
-3.  Go to **Technology** &gt; **ITSM**.
-4.  Select the Ask questions about an incident by using the Now Assist panel skill.
-5.  Select **Deactivate skill**.
-
-For more information, see [Incident assist skill](../task/now-assist-itsm-incident-assist.md)
+**Important:** Starting with the Australia Patch 2, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use. For more information, see [Incident assist skill](../task/now-assist-itsm-incident-assist.md)
 
 As an IT support agent, use the Incident assist agentic workflow to ask questions about an incident. Based on your question, the workflow routes to the appropriate specialist AI agent, which retrieves data from the incident record and related tables and returns a direct answer in the Now Assist panel.
 

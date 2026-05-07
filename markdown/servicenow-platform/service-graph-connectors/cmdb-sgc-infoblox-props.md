@@ -95,7 +95,9 @@ sn\_infoblox\_integ.included\_network\_regex
 
 </td><td>
 
-Enter the list of IP addresses to be imported. Specify the list in pipe-delimited string format.-   Type: string
+Enter the list of IP addresses to be imported. Specify the list in pipe-delimited string format.For information about configuring this property to prevent system property cache invalidation, see the [Configure Service Graph Connector for Infoblox \[KB2523896\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2523896) article in the Now Support Knowledge Base.
+
+-   Type: string
 -   Default value: empty
 -   Location: System Property \[sys\_properties\] table
 
@@ -105,7 +107,9 @@ sn\_infoblox\_integ.excluded\_network\_regex
 
 </td><td>
 
-Enter the list of IP addresses to be excluded from the import. Specify the list in pipe-delimited string format.-   Type: string
+Enter the list of IP addresses to be excluded from the import. Specify the list in pipe-delimited string format.For information about configuring this property to prevent system property cache invalidation, see the [Configure Service Graph Connector for Infoblox \[KB2523896\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2523896) article in the Now Support Knowledge Base.
+
+-   Type: string
 -   Default value: empty
 -   Location: System Property \[sys\_properties\] table
 

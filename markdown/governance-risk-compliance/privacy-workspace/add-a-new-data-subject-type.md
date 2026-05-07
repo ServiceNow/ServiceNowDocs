@@ -6,7 +6,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_privacy.manager or sn\_privacy.analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Privacy Workspace, select the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Processing activities** &gt; **All processing activities**.
 

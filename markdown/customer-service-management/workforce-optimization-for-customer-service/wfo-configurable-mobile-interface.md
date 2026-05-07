@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Mobile Experience for Workforce Optimization for Customer Service

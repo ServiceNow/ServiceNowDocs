@@ -17,7 +17,7 @@ The Introduction to Instance Observer Accelerator provides guidance on understan
 
 ## Accelerator overview
 
-Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Instance Observer](../concept/io-overview.md) for more information on the feature.
+Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Monitoring instance health with Instance Observer](../concept/io-overview.md) for more information on the feature.
 
 **Note:** This Accelerator is available for the Impact Guided package.
 
@@ -25,7 +25,7 @@ Introduction to Instance Observer provides Impact Guided customers with an overv
 
 -   **Session Preparation**
 
-    Assess customer's Instance Observer data​
+    The Technical Accelerator Consultant assesses customer's Instance Observer data​
 
 -   **Customer Coaching Session \#1 \(Up to 60 minutes\)**
 

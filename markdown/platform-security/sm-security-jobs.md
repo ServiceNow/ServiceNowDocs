@@ -1,17 +1,17 @@
 ---
-title: Run secrets management security jobs
-description: Schedule a secrets management job to perform encryption tasks on secrets fields on your instance.
+title: Run Secrets Management security jobs
+description: Schedule a Secrets Management job to perform encryption tasks on secrets fields on your instance.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Secrets management dashboard, Secrets Management, Platform Security]
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
-# Run secrets management security jobs
+# Run Secrets Management security jobs
 
-Schedule a secrets management job to perform encryption tasks on secrets fields on your instance.
+Schedule a Secrets Management job to perform encryption tasks on secrets fields on your instance.
 
 ## Before you begin
 
@@ -111,7 +111,7 @@ Job Mode
 
 Select from-   **Password2 to Secrets Management**
 
-Encrypt all password2 fields within your secrets groups using the cryptographic modules defined each group's module access policy.
+Encrypt all Password2 fields within your secrets groups using the cryptographic modules defined in each group's module access policy.
 
 -   **Secrets Management to Password2**
 
@@ -155,5 +155,5 @@ Displays information about the job progress. Summary also displays records that 
 
 The job queries all data that should match the selected secret group. If all the data found by the query is already in the group, the job makes no changes. If the query finds data that is not yet in the group, the job re-encrypts this data within the Secret Group. \(If the instance can decrypt it, which may not be the case for client side-encrypted secrets\).
 
-**Parent Topic:**[Secrets management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
 

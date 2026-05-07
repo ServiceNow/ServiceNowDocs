@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP software info tab field descriptions
-description: The software info tab in Zero Copy Connector for ERP contains information about the selected ERP \(Enterprise Resource Planning\) system.
+description: The software info tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the selected ERP system.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, information, software]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP software info tab field descriptions
 
-The software info tab in Zero Copy Connector for ERP contains information about the selected ERP \(Enterprise Resource Planning\) system.
+The software info tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the selected ERP system.
 
 For process details, see [View Zero Copy Connector for ERP software information](../task/view-erp-system-information.md).
 

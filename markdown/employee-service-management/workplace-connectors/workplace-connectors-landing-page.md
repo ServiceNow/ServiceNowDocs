@@ -19,19 +19,19 @@ Workplace Connectors is a generic framework using which data from the badging or
 
 <table id="table_sbm_3nx_zvb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore workplace connectors icon](../../../common/image/icon-explore.png) Learn about Workplace Connectors concepts and features](explore-workplace-connectors.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Connectors concepts and features](explore-workplace-connectors.md)
 
 </td><td>
 
-[Configure ![Configure workplace connectors icon](../../../common/image/icon-configure.png) Configure Workplace Connectors](configure-workplace-connectors.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure Workplace Connectors](configure-workplace-connectors.md)
 
 </td><td>
 
-[Setup ![Manage](../../../common/image/icon-workspace.png) Setup Workplace Connectors.](setup-workplace-connectors.md)
+[Setup ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Setup Workplace Connectors.](setup-workplace-connectors.md)
 
 </td></tr><tr><td colspan="2">
 
-[Reference ![Reference workplace connectors icon](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties](workplace-connectors-references.md)
+[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties](workplace-connectors-references.md)
 
 </td><td>
 

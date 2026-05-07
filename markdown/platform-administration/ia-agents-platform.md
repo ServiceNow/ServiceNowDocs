@@ -59,7 +59,7 @@ IA Operational Data Workflow Agent
 
 </td><td>
 
-Enables a streamlined data import process for operational data, that is, user groups, locations, users, and departments by creating data sources, import sets, and transform maps.
+Automates bulk data imports into ServiceNow for departments, users, locations, and groups. Supports both file-based and LDAP-based imports. Reduces the time and effort needed to migrate operational data during implementation.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ SSO Configuration Agent
 
 </td><td>
 
-Configures Single Sign-On \(SSO\) authentication for SSO providers such as Azure and Okta using SAML and OpenID Connect \(OIDC\) protocols for ServiceNow instances.It collects and validates identity provider details, creates authentication configurations, and guides a user through review, testing, and activation to ensure an accurate SSO setup experience.
+Automates Single Sign-On setup \(OIDC and SAML\) in ServiceNow using identity provider configuration data. Supports Q&amp;A and troubleshooting throughout the setup process.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Now Assist for Setup references](ia-reference.md)

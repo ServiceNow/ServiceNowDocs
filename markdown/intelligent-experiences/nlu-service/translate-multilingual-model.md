@@ -106,5 +106,3 @@ If you chose to enable the model without translation, you must manually enter tr
 
 Entering training utterances and reviewing secondary models can be delegated to users who have the nlu\_editor role. For more information, see [Assign an NLU editor to a model](assign-nlu-editor-to-model.md) and [Resolve intent issues](resolve-intent-issues.md).
 
-**Parent Topic:**[Multilingual model management](../concept/multilingual-model-managent.md)
-

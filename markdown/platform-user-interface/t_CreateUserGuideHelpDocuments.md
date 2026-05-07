@@ -35,13 +35,9 @@ Role required: admin
 
     3.  Click **Submit**.
 
-        ![User guide help page](../image/UserGuidePage.png)
-
 2.  Create help page sections and associate them with the page.
 
     1.  Navigate to **System User Guide** &gt; **Administration** &gt; **Help Page Sections** and click **New**.
-
-        ![User guide section definition](../image/UserGuideSection.png)
 
     2.  Give your section a unique and concise title, and then click **Submit**.
 
@@ -62,8 +58,6 @@ Role required: admin
         |Application|Application scope for this record. This field is read-only and defaults to the **Global** scope.|
         |Page|Help page on which this section appears. You can use the lookup field to change the page on which a section appears.|
         |Section|Name of the section to display on the selected page.|
-
-        ![Placing sections on a help page](../image/UserGuideSectionToPage.png)
 
     7.  Click **Submit**.
 
@@ -89,13 +83,9 @@ Role required: admin
         |Short description|Brief description of the content of this document. This description is used as the title for the document on the help page.|
         |Text|Document content, including graphics and tables. You can format your entry, create bulleted or numbered lists, and attach images.|
 
-        ![User guide help document](../image/UserGuideDocument.png)
-
     5.  Click **Submit**.
 
     6.  Repeat the process to create the necessary help documents for that section.
-
-        ![Section record with help documents](../image/UserGuideSectionAndContent.png)
 
 
 **Parent Topic:**[System user guide](../concept/c_SystemUserGuide.md)

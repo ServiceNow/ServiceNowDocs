@@ -74,6 +74,10 @@ ServiceNow resources for AI-assisted development:
 
     [Get Build Agent on the ServiceNow Store](https://store.servicenow.com/store/app/0b1eae7ec3a4b690bc9a989f0501316c)
 
+-   **Community article on learning prompting from Build Agent**
+
+    [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
+
 -   **Vibe coding with ServiceNow Build Agent: The future of AI-powered app development**
 
     [Community blog on getting started with Build Agent](https://www.servicenow.com/community/now-assist-for-creator-articles/zurich-release-vibe-coding-with-servicenow-build-agent-the/ta-p/3408806)

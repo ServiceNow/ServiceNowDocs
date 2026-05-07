@@ -27,15 +27,15 @@ Role required: wm\_dispatcher
 
 3.  Search for field service agents or skills.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d136484e99">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d139071e99">
 
 Search criteria
 
-</th><th align="left" id="d136484e102">
+</th><th align="left" id="d139071e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d136484e108">
+</th></tr></thead><tbody><tr><td id="d139071e108">
 
 **Agent name**
 
@@ -43,7 +43,7 @@ Description
 
 Type an agent name in the **Search resources** field and select the Search \(![Search.](../image/search_icon.png)\) icon.
 
-</td></tr><tr><td id="d136484e126">
+</td></tr><tr><td id="d139071e126">
 
 **Rank Resources**
 
@@ -53,7 +53,7 @@ Rank resources by level of importance.1.  Select the Rank Resources ![Rank resou
 2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](activate-dynamic-scheduling-plugin.md).
 
 
-</td></tr><tr><td id="d136484e175">
+</td></tr><tr><td id="d139071e175">
 
 **Date**
 

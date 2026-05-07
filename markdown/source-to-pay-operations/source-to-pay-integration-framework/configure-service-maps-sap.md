@@ -39,7 +39,7 @@ If the application requires multiple SAP instances, create separate integration 
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Look up Legal Entities from SAP S4 HANA OData](../image/sap-integration-full-pull.png "Look up Legal Entities from SAP S4 HANA OData")
+    ![Look up Legal Entities from SAP S4 HANA OData](../../source-to-pay-operations/image/sap-integration-full-pull.png "Look up Legal Entities from SAP S4 HANA OData")
 
 4.  To modify the Integration service record, select **here**.
 

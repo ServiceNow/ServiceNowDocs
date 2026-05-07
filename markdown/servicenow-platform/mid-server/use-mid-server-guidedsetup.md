@@ -43,38 +43,39 @@ Each configuration activity provides the following resources to help you:
 
 2.  Take one of the following actions:
 
-    -   If none of the MID Server installation and configuration tasks are complete, click **Get Started**.
-    -   If you have completed any of the MID Server installation and configuration tasks, click **Continue** to return to the task list.
+    -   If none of the MID Server installation and configuration tasks are complete, select **Get Started**.
+    -   If you have completed any of the MID Server installation and configuration tasks, select **Continue** to return to the task list.
     -   Select the MID Server icon in the progress bar on the left side of the category screen to display the MID Server category pane at any time.
 
         ![MID Server installation progress indicator](../image/SelectMIDGuidedSetup.png "Continuing MID Server guided setup from the progress bar")
 
-3.  Click **Continue**.
+3.  Select **Continue**.
 
-    The IT Operations Management Guided Setup category screen appears. The controls for starting the MID Server tasks are at the top of the list. These task must be completed before you can set up the other applications that rely on the MID Server.
+    The IT Operations Management Guided Setup category screen appears. The controls for starting the MID Server tasks are at the top of the list. Complete these tasks before setting up other applications that rely on the MID Server.
 
     ![MID Server Guided Setup category](../image/MIDServerGuidedSetupCategory.png)
 
-4.  In the MID Server pane, click **Get Started**.
+4.  In the MID Server pane, select **Get Started**.
 
     The MID Server task list appears with a description of each task.
 
     ![MID Server Guided Setup task list](../image/MIDServerGuidedSetupList.png)
 
-5.  Click **Configure** to create the MID Server user and follow the instructions in the help pane that appears on the right side of the screen.
+5.  Select **Configure** to create the MID Server user and follow the instructions in the help pane that appears on the right side of the screen.
 
-    **Important:** If you configured MID Servers manually prior to starting Guided Setup, select from that information to complete each specific task.
+    **Important:** If you configured MID Servers manually before starting Guided Setup, select from that information to complete each specific task.
 
-6.  When you have provided the requested information for the MID Server user, click **Submit**, and then click **Mark as Complete** at the bottom of the help pane.
+6.  When you have provided the requested information for the MID Server user, select **Submit**, and then select **Mark as Complete** at the bottom of the help pane.
 
     The view returns to the task list. Notice that the circular progress indicator for the category shows 33% of the MID Server configuration complete. The progress indicator on the left side of the screen shows the completion percentage for all the IT Operations Management tasks.
 
     ![MID Server Guided Setup completion percentage](../image/MIDServerGuidedInProgress.png)
 
-7.  Click **Configure** for the next task, **Download &amp; Install MID**.
+7.  Select **Configure** for the next task, **Download &amp; Install MID**.
 
-    Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
+    -   Java 21.0.7 is bundled with the MID Server installer package and is installed on the host for all new MID Servers. The installer automatically configures Java 21.0.7 to run in your environment. No additional configuration is required. This version supports both 64-bit Windows MID Servers and 64-bit Linux MID Servers. The MID Server requires a minimum JRE version 17.0.10, and recommended version 21.0.7. If you are using a lower version than 17.0.10, you may see encryption related issues.
 
+    -   For information about the system requirements to host MID Servers, see [MID Server system requirements](../reference/r_MIDServerSystemRequirements.md)
 8.  Validate your new MID Server.
 
 

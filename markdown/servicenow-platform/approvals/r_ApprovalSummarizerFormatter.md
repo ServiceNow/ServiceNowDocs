@@ -15,11 +15,9 @@ breadcrumb: [Classic approvals, Exploring Service Administration, Service Admini
 
 The approval summarizer formatter creates the summary at the bottom of an approval form.
 
-The approval summarizer displays different information depending on what is being approved, such as a change request or a service catalog request. Following are two examples.
+The approval summarizer displays full information for the record used to request approval.
 
-![](../image/SummaryOfAChangeRequest.png "Summary of a change request")
-
-![](../image/SummaryOfACatalogRequest.png "Summary of a catalog request")
+![The approval summarizer displays information from the original request directly in the approval request.](../image/SummaryOfAChangeRequest.png "Summary of a change request")
 
 The **Reject** button allows the approver to deny one or more requested items in a multi-item request, before approving the overall request. If a requested item is denied, the workflow for that item never starts. The approver can then choose to **Accept** the item.
 

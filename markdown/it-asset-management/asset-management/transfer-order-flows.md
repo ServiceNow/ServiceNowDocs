@@ -7,7 +7,7 @@ product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [transfer order flow, transfer order line flow]
 breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
@@ -37,23 +37,11 @@ In the asset life cycle automation process, when multiple assets are transferred
 **Related topics**  
 
 
-[Transfer assets using transfer orders](../task/t_TransferAssetsUsingTransferOrders.md)
+[Transfer order tasks](work-with-transfer-orders.md)
 
-[Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md)
-
-[Delete a transfer order](../task/t_DeleteATransferOrder.md)
-
-[Delete a transfer order line](../task/t_DeleteATransferOrderLine.md)
-
-[Return items received in a transfer order](../task/t_ReturnItemsRecInXferOrder.md)
-
-[Create a customized template task](../task/create-customized-template-task.md)
-
-[Create a template subtask](../task/create-template-subtask.md)
+[Customize transfer order line tasks](customize-transfer-order-line-tasks.md)
 
 [Transfer order line asset tracking](../reference/r_TransferOrderLineAssetTracking.md)
 
-[Perform bulk updates for transfer order lines](../task/create-bulk-transfer.md)
-
-[Transfer assets using transfer orders](../task/t_TransferAssetsUsingTransferOrders.md)
+[t_TransferAssetsUsingTransferOrders]
 

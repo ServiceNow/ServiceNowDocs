@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [My purchases on Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 

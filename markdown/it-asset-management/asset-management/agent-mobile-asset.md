@@ -129,10 +129,6 @@ On the app, you can use the same functionalities when you are offline. For more 
     -   Tap a verification task to open it and then tap **Scan**.
     You can scan multiple assets together. After you open a verification task, the verification task shows the number of assets that are verified, not verified, or expected to be verified. Click **Expected**, **Verified**, or **Not verified** to view the respective types of assets.
 
-    Here is an example of a **Verification** tab that shows expected, verified, and not verified assets.
-
-    ![Verification tab.](../../hardware-asset-management/image/expected-assets.png)
-
 3.  Tap **Review** &gt; **Submit**.
 
     A pop-up message appears and shows the successful verification of the scanned assets. The lists of verified and not verified assets are updated.

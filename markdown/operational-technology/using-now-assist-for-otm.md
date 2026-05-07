@@ -1,6 +1,6 @@
 ---
 title: Using the OT Manager Foundation
-description: You can search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information using the OT Manager Foundation.
+description: You can search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information using the Operational Technology \(OT\) Manager Foundation.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,10 +11,10 @@ breadcrumb: [OT Manager Foundation, Operational Technology]
 
 # Using the OT Manager Foundation
 
-You can search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information using the OT Manager Foundation.
+You can search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information using the Operational Technology \(OT\) Manager Foundation.
 
 -   **[Search for related records in an OT CMDB table](../task/search-related-records-ot-cmdb-tables-now-assist-otm.md)**  
 Search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information available in an OT CMDB table.
 
-**Parent Topic:**[OT Manager Foundation](now-assist-for-otm-landing.md)
+**Parent Topic:**[Operational Technology \(OT\) Manager Foundation](now-assist-for-otm-landing.md)
 

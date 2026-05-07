@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP Quote to Cash content pack process extensions
-description: The Zero Copy Connector for ERP Quote to Cash content pack contains process extensions that you may need when interacting with an SAP system.
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains process extensions that you may need when interacting with an SAP system.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, process, extension, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Quote to Cash content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Quote to Cash content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Quote to Cash content pack process extensions
 
-The Zero Copy Connector for ERP Quote to Cash content pack contains process extensions that you may need when interacting with an SAP system.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains process extensions that you may need when interacting with an SAP system.
 
 ## Quote to Cash content pack process extensions
 

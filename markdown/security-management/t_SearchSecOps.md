@@ -19,7 +19,7 @@ Role required: sn\_si.read or higher
 
 ## Procedure
 
-1.  Click the search icon \(![Search](../../security-incident-response/image/SearchIcon.png)\) in the upper right-hand corner of the screen.
+1.  Select the search icon \(![](../../security-incident-response/image/SearchIcon.png)\) in the upper right-hand corner of the screen.
 
 2.  Type in the criteria you want to search by, and press **Enter**.
 

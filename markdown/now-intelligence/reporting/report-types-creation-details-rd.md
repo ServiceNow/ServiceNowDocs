@@ -7,15 +7,13 @@ product: Reporting
 classification: reporting
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report types
 
 Learn about the different types of reports that you can create, and when and how to create them.
-
-Report creation in Core UI requires the report\_admin role. To visualize data in Platform Analytics experience, see [Creating data visualizations](../concept/creating-data-visualizations.md).
 
 Watch this four-minute video to learn how to create and configure a report visualization.
 
@@ -123,10 +121,4 @@ Provides visual interpretation of numerical data by indicating the number of dat
 |![Data visualization geomap type - icon](../image/inline-data-vis-geomap.png)|[Map reports](../concept/c_MapReport.md#)|Displays data on a geographical map image.|
 |![Data visualization pivot table type - large](../image/inline-data-vis-96px-pivot-table.png)|[Pivot tables](../concept/c_PivotTables.md#)|Aggregates data from a table to display the source of summarized data. This functionality is expanded in [multilevel pivot reports](../concept/c_MultilevelPivotCharts.md#).|
 |![Data visualization pyramid type - large](../image/inline-data-vis-96px-pyramid.png)|[Pyramid reports](../concept/c_CreateFunnelAndPyramidCharts.md#)|Visualizes a variation on a bar report using pyramid sections instead of rectangles. \(Found in the Other reports section.\)|
-
-## Choosing a report type
-
-Choose a report type based on the story that you want data to tell.
-
-![Report type uses](../image/data-vis-diagram.png)
 

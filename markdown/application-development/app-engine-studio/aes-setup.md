@@ -1,6 +1,6 @@
 ---
 title: Configuring App Engine Studio and related apps
-description: App Engine Studio \(AES\) guided setup walks you through the implementation process, one step at a time. As you finish each setup procedure, you're prompted to begin the next one.
+description: App Engine Studio \(AES\) configuration involves installing the application and completing guided setup, which walks you through the implementation process, one step at a time. After you finish each setup procedure, you're prompted to begin the next one.
 locale: en-US
 release: australia
 product: App Engine Studio
@@ -13,38 +13,37 @@ breadcrumb: [App Engine Studio, Building low-code applications, Developing your 
 
 # Configuring App Engine Studio and related apps
 
-App Engine Studio \(AES\) guided setup walks you through the implementation process, one step at a time. As you finish each setup procedure, you're prompted to begin the next one.
+App Engine Studio \(AES\) configuration involves installing the application and completing guided setup, which walks you through the implementation process, one step at a time. After you finish each setup procedure, you're prompted to begin the next one.
 
-When you have finished configuring AES, you have the option of configuring other products related to AES:
+## Configuring App Engine Studio
 
--   App Engine Management Center \(AEMC\)
--   Application Intake
--   Pipelines and Deployments
+Configure App Engine Studio \(AES\) by installing the application on your development instance \(and any other non-production instances on which users will develop applications\) and completing guided setup. See the following resources for more information:
 
-Each of these products has its own guided setup. If you have already configured one or more of the products and you are prompted to configure it again, you can simply ignore that instruction. The following diagram illustrates the preferred method for implementing AES and associated applications:
-
-![AES implementation](../image/aes-config-infographic-smaller.png "AES implementation")
-
-AES implementation usually follows these steps.
-
-1.  On a development instance, install AES and the Pipelines and Deployments plugin. For more information, see [Installing App Engine Studio](../task/install-aes.md).
-2.  Complete the AES guided setup. For more information, see [Configure App Engine Studio](configure-aes.md).
-3.  On your production instance:
-    1.  Complete the Application Intake guided setup. For more information, see [Configure Application Intake](../task/config-app-intake.md).
-    2.  Complete the Pipelines and Deployments guided setup. For more information, see [Configure Pipelines and Deployments](../../pipelines-and-deployments/task/config-p-and-d.md).
-4.  On a development instance, complete the first non-production task of the Pipelines and Deployments guided setup.
-5.  On your test instance, install Pipelines and Deployments.
-6.  Complete both non-production tasks of the Pipelines and Deployments guided setup on the test instance.
-7.  In all the other non-production instances in your pipeline:
-    1.  Install Pipelines and Deployments.
-    2.  Complete the first non-prod tasks of the Pipelines and Deployments guided setup.
-8.  Repeat step 7 across all non-production instances, as needed.
-9.  Install the AEMC plugin on each instance in your pipeline. For more information, see [Configure the App Engine Management Center](../task/configure-aemc.md).
-
-    AEMC allows admins to manage app development from intake through production on your production instance.
-
+-   [Installing App Engine Studio](../task/install-aes.md)
+-   [Configure App Engine Studio](configure-aes.md)
 
 **Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Create a clone preserver](https://www.servicenow.com/docs/access?context=create-new-clone-preserver&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Cloning instances with AES](cloning-aes-applications.md).
+
+## Configuring related applications
+
+After you finish configuring AES, you have the option to configure other applications related to AES. Each of these applications has its own guided setup. If you have already configured one or more of the applications and you're prompted to configure it again, you can simply ignore that instruction. For more information about the applications related to AES and configuring them, see the following list.
+
+-   **[App Engine Management Center \(AEMC\)](../../app-engine-management-center/concept/configuring-aemc.md)**
+
+    App Engine Management Center AEMC contains all of the features that you need to manage application development within your organization, from idea submission to deployment. Using AEMC, admins can manage requests for new apps and delegate development and collaboration permissions. Admins can also oversee the entire deployment process with insights into individual deployment requests, test suites, and scheduled deployments.
+
+-   **[Application Intake](../task/config-app-intake.md)**
+
+    Application Intake enables citizen developers to submit ideas for applications. Application Intake requests can be viewed in AEMC, where admins can approve or reject the requests.
+
+-   **[Pipelines and Deployments](../../pipelines-and-deployments/task/config-p-and-d.md)**
+
+    Pipelines and Deployments enables release managers and App Engine admins to build custom pipelines across multiple instances. You can also connect the testing suites and frameworks that your organization uses to verify that applications are stable and compatible before they reach production.
+
+-   **[ReleaseOps](../../release-ops/concept/configuring-releaseops.md)**
+
+    ReleaseOps improves the existing pipelines deployment process by supporting the deployment of update sets, leveraging the automation capabilities of ServiceNow Playbooks, and enabling both scheduled and on-demand releases.
+
 
 -   **[AES and domain separation](aes-domain-sep.md)**  
 Domain separation is unsupported for App Engine Studio \(AES\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.

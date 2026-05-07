@@ -40,16 +40,14 @@ You can create and view file type observables for a security incident. The suspi
 
 3.  To upload the secure attachments manually:
 
-    -   Click **Upload Secure Attachment**.
-    -   On the Upload Secure Attachments, Click **Choose file** to upload one or more files. Each file is considered as a single observable record.
-    -   Click **Create File Observables** to create the file type observables such as one is the file type and other one is the file hash which is a unique identifier.
-    ![This image describes the file contents of the observables.](../image/file-observable.png "File type observables")
-
+    -   Select **Upload Secure Attachment**.
+    -   On the Upload Secure Attachments, select **Choose file** to upload one or more files. Each file is considered as a single observable record.
+    -   Select **Create File Observables** to create the file type observables such as one is the file type and other one is the file hash which is a unique identifier.
     Select the file type observable to process for further integrations such as sandbox, threat lookup. In addition, you can also download the attachments from the file type observable.
 
     **Note:**
 
-    The threat lookup \(VirusTotal\) retrieves the file from the secured attachments for the new file type observables and the below system properties are not applicable for the new file type observables.
+    The threat lookup \(VirusTotal\) retrieves the file from the secured attachments for the new file type observables and the following system properties are not applicable for the new file type observables.
 
     -   sn\_ti.scan.delete\_attachment\_after\_hash
     -   sn\_ti.scan.use\_file\_hash
@@ -59,12 +57,12 @@ You can create and view file type observables for a security incident. The suspi
 
     |System property|Description|
     |---------------|-----------|
-    |glide.email.inbound.max\_total\_attachment\_size\_bytes|If you are forwarding the phishing email directly, use this system properties value to increase the file size from 18MB to a desired file size.|
-    |com.glide.attachment.max\_get\_size|If you are forwarding the phishing email as an attachment, use this system property value to create the below system properties under global scope to increase the file size from 5MB to the desired size.|
+    |glide.email.inbound.max\_total\_attachment\_size\_bytes|If you're forwarding the phishing email directly, use this system properties value to increase the file size from 18MB to a desired file size.|
+    |com.glide.attachment.max\_get\_size|If you're forwarding the phishing email as an attachment, use this system property value to create the following system properties under global scope to increase the file size from 5MB to the desired size.|
 
-    You can also create a new file type observable as follows:
+    You can also create file type observable as follows:
 
-    1.  Click **New**.
+    1.  Select **New**.
     2.  Select the **Observable type Category: File**
-    3.  Click **Upload** to attach a file.
+    3.  Select **Upload** to attach a file.
 

@@ -6,7 +6,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 3
 breadcrumb: [Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -50,5 +50,9 @@ Although no mandatory configuration is required, you can perform the following a
 -   **Configure reminders for target actuals**
 
     Configure reminders to automatically notify target owners and contributors to update actuals for their targets before the due date, based on the check-in frequency defined for each target. For details, see [Configure reminders for target actuals](../task/configure-reminders-for-target-actuals-strategy.md).
+
+-   **Configure Goal insights generation**
+
+    Activate the Goal insights generation scheduled job and configure the filter criteria to automatically generate AI-driven insights for a defined set of goals at a scheduled frequency. For details, see [Goal insights generation job](configure-goal-insights-generation-job.md).
 
 

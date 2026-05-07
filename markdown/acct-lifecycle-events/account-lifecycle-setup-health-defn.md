@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manage engagements, Customer success, Configure, Customer Success Management]
+breadcrumb: [Manage engagements, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Calculate the engagement health score

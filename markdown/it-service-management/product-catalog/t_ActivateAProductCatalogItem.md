@@ -29,7 +29,7 @@ You can activate the item from either the list view or the record.
 
 2.  Complete one of the following actions.
 
-<table id="choicetable_wlj_fwj_k5"><tbody><tr><td id="d299179e92">
+<table id="choicetable_wlj_fwj_k5"><tbody><tr><td id="d301054e92">
 
 **Activate one or more items from the list view**
 
@@ -37,7 +37,7 @@ You can activate the item from either the list view or the record.
 
 Select the check box next to one or more items in the record list and select **Activate** below the list.
 
-</td></tr><tr><td id="d299179e109">
+</td></tr><tr><td id="d301054e109">
 
 **Activate from the record**
 

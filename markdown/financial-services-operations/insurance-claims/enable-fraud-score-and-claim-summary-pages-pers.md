@@ -31,15 +31,15 @@ Role required: admin
 
 4.  Set the variant conditions on the following record pages.
 
-<table id="choicetable_zrz_43y_dyb"><thead><tr><th align="left" id="d52104e91">
+<table id="choicetable_zrz_43y_dyb"><thead><tr><th align="left" id="d53617e91">
 
 Claims page variant
 
-</th><th align="left" id="d52104e94">
+</th><th align="left" id="d53617e94">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d52104e100">
+</th></tr></thead><tbody><tr><td id="d53617e100">
 
 **Record page for the adjuster task**
 
@@ -47,7 +47,7 @@ Navigation to page records
 
 To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
-</td></tr><tr><td id="d52104e127">
+</td></tr><tr><td id="d53617e127">
 
 **Claim workspace page**
 
@@ -55,7 +55,7 @@ To access the record page for the adjuster task, navigate to: **CSM Configurable
 
 To access the Claim workspace page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Claim workspace** &gt; **Claim Workspace Default**.
 
-</td></tr><tr><td id="d52104e148">
+</td></tr><tr><td id="d53617e148">
 
 **Fraud score page**
 
@@ -63,7 +63,7 @@ To access the Claim workspace page for updates, navigate to page collection: **C
 
 To access the Fraud score page for updates, navigate to page collection: **CSM default record post-Details** &gt; **Fraud score** &gt; **Default**.
 
-</td></tr><tr><td id="d52104e169">
+</td></tr><tr><td id="d53617e169">
 
 **Claim Summary page**
 

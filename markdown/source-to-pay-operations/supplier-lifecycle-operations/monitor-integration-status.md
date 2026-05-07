@@ -28,8 +28,6 @@ Role required: admin
         Transform History: Select this option to view the transform history, related errors, and log.
 
     -   Import log: Select this option to view the import log.
-    ![This page shows you that the transform run was successful.](../image/integration-status.png)
-
 2.  Select **All**.
 
 3.  In the navigation filter, enter the name of the SLO inbound table for which you want to check the integration status.
@@ -37,8 +35,6 @@ Role required: admin
     For example, to check the integration status of the Supplier location inbound table, enter **sn\_fcms\_intg\_supplier\_location\_inbound\_list.do**.
 
     The Supplier location inbounds page appears.
-
-    ![Page showing the Supplier location inbounds.](../image/slo-staging-inbound.png)
 
 4.  Verify the following:
 

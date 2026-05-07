@@ -30,7 +30,7 @@ Role required: resource\_user, resource\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **Resource Management Workspace**.
+1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**.
 
 2.  Select the Resource cards icon \(![Resource cards icon.](../images/rmw-resource-cards-L1-icon.png)\) from the menu and open a resource card.
 

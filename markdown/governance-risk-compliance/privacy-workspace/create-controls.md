@@ -42,15 +42,15 @@ You can add or manage controls to a processing activity in the following ways:
 
 4.  To add a control to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d101988e123">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d104307e123">
 
 Option
 
-</th><th align="left" id="d101988e126">
+</th><th align="left" id="d104307e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d101988e132">
+</th></tr></thead><tbody><tr><td id="d104307e132">
 
 **To create a control**
 
@@ -58,7 +58,7 @@ Description
 
 Click **New** and fill in the form.For details see, [Create a control](../../grc-policy-and-compliance/concept/c_GRCControls.md).
 
-</td></tr><tr><td id="d101988e154">
+</td></tr><tr><td id="d104307e154">
 
 **To add a control by using the existing control objectives**
 
@@ -69,7 +69,7 @@ Click **New** and fill in the form.For details see, [Create a control](../../grc
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d101988e181">
+</td></tr><tr><td id="d104307e181">
 
 **To select a control from the list of recommended controls**
 

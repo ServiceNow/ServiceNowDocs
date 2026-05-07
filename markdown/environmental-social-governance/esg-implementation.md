@@ -32,7 +32,7 @@ You can install the Operational Sustainability Management application \(sn\_esg\
 -   **[Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)](../task/complete-the-entitlements-for-esg-management.md)**  
 After you install the Operational Sustainability Management application from the ServiceNow® Store, you must complete the entitlements to gain complete access to the application and use it.
 -   **[Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application](../task/setup-checklist-esg.md)**  
-This checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
+This checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation.
 
 **Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](configuring-esg.md)
 

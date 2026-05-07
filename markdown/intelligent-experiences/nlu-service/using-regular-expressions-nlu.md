@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -58,21 +58,4 @@ For further information on regular expressions, see the following external links
 -   [Java Regular Expression Tester](https://www.freeformatter.com/java-regex-tester.html#documentation)
 -   [Pattern \(Java Platform SE7\)](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)
 -   [Java regex match abbreviations](https://blog.softhints.com/java-regex-extract-abbriviations/)
-
-**Parent Topic:**[NLU entities](entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity](../task/create-nlu-entities.md)
-
-[Create a mapped entity](../task/create-mapped-entity-lookup-source.md)
-
-[Create a pattern entity](../task/create-pattern-entity.md)
-
-[Create a system-derived entity](../task/create-system-derived-entity.md)
-
-[Create an open-ended entity](../task/create-open-ended-entity.md)
-
-[Import entities](../task/import-common-entities-nlu.md)
 

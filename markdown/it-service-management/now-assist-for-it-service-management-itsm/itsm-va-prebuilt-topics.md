@@ -63,7 +63,7 @@ Use the Now Assist for ITSM Virtual Agent to monitor your device's performance a
 
 </td></tr><tr><td>
 
-\(DEMO\) Explain change riskExplain change risk
+\(DEMO\) Explain change risk
 
 </td><td>
 
@@ -74,7 +74,7 @@ Quickly generate the explanation of the calculated risk rating for a change requ
 
 <table id="table_us4_xc3_nbc"><tbody><tr><td>
 
-\(DEMO\) Check IT Ticket Status \(Template\)Check IT Ticket Status
+\(DEMO\) Check IT Ticket Status \(Template\)
 
 </td><td>
 
@@ -96,7 +96,7 @@ Raise the urgency of your IT ticket for a faster resolution. Escalating a ticket
 
 </td></tr><tr><td>
 
-\(DEMO\) Open IT Ticket \(Template\)-LLMOpen IT Ticket
+\(DEMO\) Open IT Ticket \(Template\)-LLM
 
 </td><td>
 
@@ -134,7 +134,7 @@ For more information about the password reset process, see [Password Reset for V
 
 <table id="table_zc2_s23_nbc"><tbody><tr><td>
 
-Change Password\(DEMO\) Change Password \(Template\)-LLM
+\(DEMO\) Change Password \(Template\)-LLM
 
 </td><td>
 
@@ -144,7 +144,7 @@ Request to change your user password.
 
 </td></tr><tr><td>
 
-\(DEMO\) Reset Password \(Template\) - LLMReset Password
+\(DEMO\) Reset Password \(Template\) - LLM
 
 </td><td>
 
@@ -152,7 +152,7 @@ Request to reset your user password.
 
 </td></tr><tr><td>
 
-\(DEMO\) Unlock Account \(Template\) - LLMUnlock Account
+\(DEMO\) Unlock Account \(Template\) - LLM
 
 </td><td>
 
@@ -254,7 +254,7 @@ Actionable notification
 
 </th></tr></thead><tbody><tr><td>
 
-\(DEMO\) Add Comment To Incident-LLMAdd Comment To Incident
+\(DEMO\) Add Comment To Incident-LLM
 
 </td><td>
 
@@ -262,7 +262,7 @@ Notification: Incident on behalf of callerSent to end users whenever an incident
 
 </td></tr><tr><td>
 
-\(DEMO\) Close Incident-LLMClose Incident
+\(DEMO\) Close Incident-LLM
 
 </td><td>
 
@@ -270,7 +270,7 @@ Notification: Incident resolvedSent to end users whenever one of their incidents
 
 </td></tr><tr><td>
 
-\(DEMO\) Mark Incident Unresolved-LLMMark Incident Unresolved
+\(DEMO\) Mark Incident Unresolved-LLM
 
 </td><td>
 
@@ -278,7 +278,7 @@ Notification: Incident resolvedSent to end users whenever one of their incidents
 
 </td></tr><tr><td>
 
-\(DEMO\) View And Add Comments-LLMView Comments
+\(DEMO\) View And Add Comments-LLM
 
 </td><td>
 
@@ -286,7 +286,7 @@ Notification: Incident commentedSent to end users whenever a comment is added to
 
 </td></tr><tr><td>
 
-\(DEMO\) Resolve Incident-LLMResolve Incident
+\(DEMO\) Resolve Incident-LLM
 
 </td><td>
 
@@ -310,7 +310,7 @@ Actionable notification
 
 </th></tr></thead><tbody><tr><td>
 
-Approve Sysapproval ApproverApprove Sysapproval Approver
+Approve Sysapproval Approver
 
 </td><td rowspan="3">
 
@@ -325,7 +325,7 @@ Sent to the approver about a newly created task that needs review and approval.
 
 </td></tr><tr><td>
 
-\(DEMO\) Reject Sysapproval Approver-LLMReject Sysapproval Approver
+\(DEMO\) Reject Sysapproval Approver-LLM
 
 </td></tr><tr><td>
 

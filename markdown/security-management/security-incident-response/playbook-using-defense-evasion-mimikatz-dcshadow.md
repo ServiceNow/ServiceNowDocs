@@ -34,8 +34,6 @@ Role required:
 
 4.  In Action 4, if the user provided a valid business justification, perform the following steps:
 
-    ![Response task to check whether the user provided a valid business justification](../image/playbook-mimikatz-dcshadow-overview.png "T1003 - Defense Evasion - Mimikatz DCShadow playbook")
-
     1.  In Action 5, document the findings so far.
 
     2.  In Action 6, initiate a post incident review.
@@ -43,8 +41,6 @@ Role required:
         In Action 7, after the post incident review, the flow ends.
 
 5.  In Action 8, if the user didn’t provide a valid business justification, perform the following steps:
-
-    ![Response tasks when the user didn't provide a valid business justification.](../image/playbook-mimikatz-dcshadow-investigate.png "Using the T1003 - Defense Evasion - Mimikatz DCShadow playbook")
 
     1.  In Action 9, lock down or quarantine all the accounts, computers, and other devices involved.
 

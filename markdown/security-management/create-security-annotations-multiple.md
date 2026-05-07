@@ -27,13 +27,11 @@ Role required: admin
 
 3.  From the **Actions on selected rows** drop-down menu, choose **Add security annotation**.
 
-    ![Creating multiple security annotations for observables.](../image/SecurityAnnotMultiObs.png)
-
 4.  Enter an annotation.
 
     Annotations can be in any text format.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Security annotations](../concept/security-annotations.md)

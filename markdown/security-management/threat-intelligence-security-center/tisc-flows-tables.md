@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with automated flows, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Automated flows tables
@@ -40,6 +40,12 @@ The following tables helps you to understand the relationship tables between ent
 
 
 [Automated IOC Enrichment](../task/tisc-ioc-enrichment.md)
+
+[Automated sharing of high-risk IOC's with trusted partners](../task/tisc-automated-sharing-flow.md)
+
+[Automatically add threat intelligence to a TAXII collection](../task/tisc-taxii-automated-flow.md)
+
+[Create vulnerability assessment for zero day](../task/tisc-create-vul-assess.md)
 
 [Analyze, assess, and disseminate observables](../task/tisc-disseminate-observables.md)
 

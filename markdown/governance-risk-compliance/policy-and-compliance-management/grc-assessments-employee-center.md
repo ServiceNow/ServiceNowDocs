@@ -35,14 +35,6 @@ The **Risk identification questionnaires** tile is available only if GRC: Advanc
 
 2.  Select **My GRC Assessments** in the **My active items** pane of the Home page.
 
-    ![Employee Center home page.](../image/EmpCenterHomePage_1.png "Employee Center home page")
-
-    The Control attestations tile is highlighted listing all your attestations that are active and due. It also displays the number of control attestations that are overdue and they’re enlisted first in the list.
-
-    ![My GRC assessments in employee center.](../image/MyGRCAssessEmpCent.png "My GRC assessments in the Employee Center")
-
-    There’s a pagination limitation of displaying only 15 items at a time.
-
 3.  Select **Show More Requests** to display more requests.
 
 4.  Select the control attestation item in the list that you want to attest.

@@ -7,7 +7,7 @@ product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Strategic Portfolio Management]
 ---
 
@@ -90,8 +90,6 @@ A program helps you to logically group related projects or demands under a singl
 Use a rate model to derive date-effective, criteria-driven hourly rates for calculating planned and actual resource costs for a project or demand.
 -   **[Time Card Management](../../../administer/task-table/concept/time-card-management.md)**  
 The Time Card Management feature enables time card users such as task assignees to report and track their time for the assigned tasks.
--   **[Financial Management - Legacy](../../it-finance/concept/c_ITFinance.md)**  
-Use the ServiceNow® Financial Management application to allocate, track, and report on expenses in your organization.
 -   **[Monetary and non-monetary benefit plans](../../project-portfolio-suite-with-financials/concept/monetary-non-monetary-benefit-plans.md)**  
 Benefit plans capture the potential benefits accrued by the work item when the work item is executed. You can create benefit plans to specify the estimated benefits in a category for a fiscal period.
 -   **[Strategic Spend Tracking for PPM](../../itbm-business-outcomes/concept/ppm-strategic-spend-tracking-overview.md)**  

@@ -17,7 +17,7 @@ The Manager Workspace landing page provides managers with real-time alerts and k
 
 The Manager Workspace landing page showcases the various available widgets.
 
-![manager dashboard enhanced with new widgets](../image/manager-dashboard-landing-page.png "Manager Dashboard Landing page")
+![manager dashboard with new widgets](../image/manager-workspace-landing-page.png "Manager dashboard landing page")
 
 The landing page provides the real-time data of the current workload and the team performance.
 
@@ -49,14 +49,14 @@ The landing page provides the real-time data of the current workload and the tea
 
 ## AI widgets on Manager Dashboard
 
-The Manager Dashboard now includes new AI‑powered widgets — Sentiment Analysis and Trending Topics to provide supervisors with faster, actionable insights into customer sentiment and agent performance.
+The Manager Dashboard now includes Sentiment Analysis and Trending Topic widgets that give supervisors visibility into customer sentiment and agent performance.
 
-The Manager Dashboard in the Manager Workspace \(Enterprise SKU\) now features a new **AI Insights** tab. This tab introduces AI‑driven widgets that provide deeper, real‑time visibility into customer sentiment signals, trending interaction themes, and quality evaluations. It follows existing UI and loading standards, and its tab‑switching behavior matches current dashboard interactions.
+The Manager Dashboard in Manager Workspace includes an **AI Insights** tab. This tab contains AI widgets that surface customer sentiment signals, trending interaction themes, and quality evaluations. The tab follows existing UI and loading standards, and its tab-switching behavior is consistent with current dashboard interactions.
 
 To improve clarity and navigation, the dashboard is now structured into two tabs.
 
 -   **Operational Insights**– Contains all existing widgets, regrouped without functional changes.
--   **AI Insights** – A dedicated tab exclusive to Enterprise SKU users, offering Sentiment Analysis and Trending Topics widgets.
+-   **AI Insights** – A dedicated tab exclusive to the users, offering Sentiment Analysis and Trending Topics widgets.
 
 The **AI Insights** tab introduces the following capabilities:
 

@@ -7,7 +7,7 @@ product: Discovery
 classification: discovery
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Port probes, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -203,7 +203,7 @@ Windows Classification \[discovery\_classy\_windows\]
 epmap \(port 135\)
 
 </td></tr></tbody>
-</table>This table shows you other common ports and protocols that Discovery uses.
+</table>This table shows you other common ports and protocols that Discovery uses. All ports listed in the [Default port probes and default IP services](r_DiscoveryPortsAndProtocols.md#table_eqr_tv5_d2b) table are also included in the following table.
 
 |Name|Service name|Port|Details|Creates|Protocol|
 |----|------------|----|-------|-------|--------|
@@ -212,13 +212,17 @@ epmap \(port 135\)
 |dns|Domain Name Service|53|To resolve the name of each IP Address| |TCP/UDP|
 |epmap|Microsoft RPC \(WMI, DCOM\)|135|Windows Systems| |TCP|
 |ftp| |21| | |TCP|
+|ftps|FTP over SSL \(control channel\)|990|tls\_ssl\_certs \(SSL\)| |TCP|
+|ftps-data|FTP over SSL \(data channel\)|989|tls\_ssl\_certs \(SSL\)| |TCP|
 |hp-pdl-datastr|Printer PDL Data Stream|9100|HP Printers| |TCP|
 |http|HyperText Transfer Protocol|80|Web Servers|cmdb\_ci\_web\_server|TCP|
 |https|HyperText Transfer Protocol over Secure Socket|443|Secure Web Servers|cmdb\_ci\_web\_server|TCP|
+|https-alt|HTTPS alternate port|8443|tls\_ssl\_certs \(SSL\)| |TCP|
 |IBM DB2| |50000| | |TCP|
 |IBM MQSeries| |1414| | |TCP|
 |IBM Websphere| |9080| | |TCP|
-|IBM Web sphere SSL| |9443| | |TCP|
+|IBM WebSphere SSL| |9443| | |TCP|
+|imap|Internet Message Access Protocol|143|StartTLS \(tls\_ssl\_certs\)| |TCP|
 |IMAPS| |993| | |TCP|
 |pip \(Internet Print Protocol\)|IP Phone/ Session Initiation Protocol|5060| | |TCP|
 |LDAP| |389| | |TCP|
@@ -232,12 +236,14 @@ epmap \(port 135\)
 |nfs| |2049| | |TCP/UDP|
 |Oracle TNS| |1521| | |TCP|
 |POP3| |110| | |TCP|
+|popssl|Post Office Protocol 3 over SSL|995|tls\_ssl\_certs \(SSL\)| |TCP|
 |postgresql| |5432| |cmdb\_ci\_database|TCP|
 |printer|Printer|515|Printers| |TCP|
 |sip|SIP \(Session Initiation Protocol\)|5060| | |TCP|
 |slp|Service Location Protocol \(SLP\)|427| | |TCP/UDP|
-|smtp|TCP|25| | | |
-|smux \(SNMP multiplexing\)| |199| | | |
+|smtp|Simple Mail Transfer Protocol|25| | |TCP|
+|smtp-submission|SMTP Submission \(StartTLS\)|587|StartTLS \(tls\_ssl\_certs\)| |TCP|
+|smux \(SNMP multiplexing\)| |199| | |UDP|
 |snmp|Simple Network Management Protocol|161|Network Devices| |UDP|
 |snmptrap| |162| | |UDP|
 |ssh|Secure Shell Service|22|Unix Systems| |TCP|
@@ -248,6 +254,8 @@ epmap \(port 135\)
 |vmapp6\_https| |9443| | |TCP|
 |vmapp\_https|vCenter Server Appliance Web Interface using https|5480| | |TCP|
 |wbem\_https|CIM-XML via HTTPS\(WBEM\)|5989|CIM Classification| |TCP|
+|winrm|Windows Remote Management|5985|Windows Systems| |TCP|
+|winrm\_ssl|Windows Remote Management over SSL|5986|Windows Systems| |TCP|
 |wins|Windows Internet Name Service|137|NetBIOS Name Resolver| |UDP|
 
 ## Windows and dynamic ports

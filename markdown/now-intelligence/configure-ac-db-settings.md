@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [How to schedule dashboard refresh interval, How to change dashboard background colors, Where to set up dashboard insights]
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -53,9 +53,13 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
             You can manually refresh the cached data for either the whole dashboard or a data visualization by refreshing either the dashboard or the visualization, respectively.
 
-    -   In the **Presentation** section, edit the background color of one or more tabs on the dashboard.
+    -   In the **Presentation** section, set the margins of each element and edit the background color of one or more tabs on the dashboard.
 
-        Select a color from a list of preconfigured colors, or use the color palette to specify a color.
+        Select a color from a list of preconfigured colors, or use the color palette to specify a color. If there are multiple tabs, you can choose to customize the backgrounds of each tab.
+
+    -   In the **Dashboard Summary** section, choose whether to enable AI summary generation.
+
+        When you select **AI summary generation**, viewers see a banner with a button to generate a summary of the contents of the dashboard, including the visualizations, filters, and other elements. The summary also includes highlights and what has changed in the dashboard since the last summary generation request. You can also add the Now Assist Context Menu as an individual component to dashboard or individual dashboard tabs.
 
     -   Choose whether and which analytics to show in the **Insights** section.
 

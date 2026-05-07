@@ -29,7 +29,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 4.  Select the required flow from the list.
 
-    ![Overview of the Award Purchase flow](../image/coupa-integration-use-flow.png "Award Purchase flow")
+    ![Overview of the Award Purchase flow](../../source-to-pay-operations/image/coupa-integration-use-flow.png "Award Purchase flow")
 
 5.  In the **Trigger** field, specify the time and interval at which you want to run the scheduled flow automatically.
 

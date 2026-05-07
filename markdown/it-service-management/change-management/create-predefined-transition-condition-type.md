@@ -23,9 +23,7 @@ Role required: change\_manager
 
 1.  Navigate to **All** &gt; **Application** &gt; **Module** &gt; **Change Model Condition Types**.
 
-    A list of transition conditions for change requests appears.
-
-2.  Click **New**.
+2.  On the Change Model Condition Types page, select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -33,10 +31,10 @@ Role required: change\_manager
     |-----|-----------|
     |Name|Unique name for the condition type. This name is displayed in the **Requires** field on the Model State Transition Condition form.|
     |Description|Detailed description of the condition type.|
-    |Condition Type|Type of condition. The available options are **condition** or **script**.|
+    |Condition Type|Type of condition. The available options are condition or script.|
     |Table name|Table name that the condition is based on.|
     |Condition \(Condition builder\)|Conditions that must be fulfilled for processing the transition.|
-    |Condition \(Script\)|Script that must be fulfilled for processing the transition. If passed, it returns a value of **true**.|
+    |Condition \(Script\)|Script that must be fulfilled for processing the transition. If passed, it returns a value of true. This field is available only if script is selected from **Condition Type**.|
 
 4.  Click **Submit**.
 

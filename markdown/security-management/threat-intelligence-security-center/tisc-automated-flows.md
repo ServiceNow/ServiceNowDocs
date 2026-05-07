@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Working with automated flows
@@ -36,6 +36,12 @@ Create flows that run with TISC roles. In TISC the flows are created for the fol
 
 -   **[Automated IOC Enrichment](../task/tisc-ioc-enrichment.md)**  
 Learn how to automate enrichment of IOC’s using flows when they match a certain criterion.
+-   **[Automated sharing of high-risk IOC's with trusted partners](../task/tisc-automated-sharing-flow.md)**  
+Learn how to automate sharing of high-risk IOC's with trusted partners.
+-   **[Automatically add threat intelligence to a TAXII collection](../task/tisc-taxii-automated-flow.md)**  
+Learn how to automatically add threat intelligence to a TAXII server collection.
+-   **[Create vulnerability assessment for zero day](../task/tisc-create-vul-assess.md)**  
+Create a vulnerability assessment to evaluate and document security risks from zero day vulnerabilities in your environment. Use this when you want to assess the potential impact of newly discovered vulnerabilities that lack available patches.
 -   **[Analyze, assess, and disseminate observables](../task/tisc-disseminate-observables.md)**  
 Learn how to analyze and disseminate observables which are related to threat.
 -   **[Analyze and assess threat IoC’s](../task/tisc-analyze-ioc.md)**  

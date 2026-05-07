@@ -6,7 +6,7 @@ release: australia
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Employee Health Screening, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 3.  Take one of the following actions.
 
-<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d757040e149">
+<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d768028e149">
 
 **If you agree to all statements**
 
@@ -46,7 +46,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 Select the **I acknowledge that I meet all the above criteria** check box.
 
-</td></tr><tr><td id="d757040e161">
+</td></tr><tr><td id="d768028e161">
 
 **If you can't agree to one or more of the statements**
 
@@ -55,7 +55,7 @@ Select the **I acknowledge that I meet all the above criteria** check box.
 Exit the form without submitting it.
 
 </td></tr></tbody>
-</table>    ![Health verification confirmation screen with QR code, instructions, and a link to reserve a workspace.](../image/health-conf-round15.png "Confirmation screen")
+</table>
 
     The confirmation screen shows your status for all of your organization's entry requirements. A large green check mark at the top of the page indicates that you've completed all requirements. To complete any unfulfilled requirements, click the link next to the requirement. Some requirements may not have a link. If you need help with completing the requirements, contact your organization.
 

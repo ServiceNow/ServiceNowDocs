@@ -1,5 +1,5 @@
 ---
-title: Set up Telecom Visibility
+title: Configure Telecom Visibility
 description: Telecom Visibility provides foundational capabilities that support both Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation. It includes shared logic, enhanced CI class models, and Identification and Reconciliation Engine \(IRE\) updates tailored for telecom network elements.
 locale: en-US
 release: australia
@@ -11,7 +11,7 @@ reading_time_minutes: 2
 breadcrumb: [Configure, Telecommunications Service Operations Management]
 ---
 
-# Set up Telecom Visibility
+# Configure Telecom Visibility
 
 Telecom Visibility provides foundational capabilities that support both Telecom Discovery and Telecom Discrepancy Identification &amp; Reconciliation. It includes shared logic, enhanced CI class models, and Identification and Reconciliation Engine \(IRE\) updates tailored for telecom network elements.
 
@@ -35,7 +35,7 @@ The following capabilities are included with the Telecom Visibility subscription
 |Plugin Name|Plugin ID|Plugin Description|Store App|
 |-----------|---------|------------------|---------|
 |Service Graph Connector for Nokia Altiplano|sn\_tsom\_altiplano\_connector|Service Graph Connector for Nokia Altiplano|Yes|
-|Service Graph Connector for Cisco Meraki|sn\_tsom\_meraki\_connector|Service Graph Connector for Cisco Meraki|Yes|
+|Service Graph Connector for Cisco Meraki Telco SD-WAN|sn\_tsom\_meraki\_connector|Service Graph Connector for Cisco Meraki|Yes|
 |Service Graph Connector for Fortinet|sn\_tsom\_fortinet\_connector|Service Graph Connector for Fortinet|Yes|
 |Service Graph Connector for Arista VeloCloud|sn\_tsom\_vcloud\_connector|Service Graph Connector for Arista VeloCloud|Yes|
 |Telecommunications Discovery Patterns|sn\_tsom\_patterns|Telecommunication Discovery Patterns|Yes|

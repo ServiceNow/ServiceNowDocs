@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Fulfiller experience, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Fulfiller experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Generating AI summary and next steps
@@ -69,5 +69,5 @@ You can also choose specific menu actions based on the category of the search re
 
 ![](../image/incident-now-assist-panel-ai-native.png)
 
-**Parent Topic:**[Fulfiller experience in AI-native IT Service Management](fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](fulfiller-experience-ai-native-itsm.md)
 

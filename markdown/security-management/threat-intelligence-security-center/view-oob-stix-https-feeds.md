@@ -1,6 +1,6 @@
 ---
 title: View STIX HTTPs Feeds
-description: View the configured STIX HTTPs feeds in the base system.
+description: View and manage STIX threat intelligence feeds that provide security data to your ServiceNow instance. Use this to monitor feed status and troubleshoot connection issues.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -13,7 +13,7 @@ breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Thre
 
 # View STIX HTTPs Feeds
 
-View the configured STIX HTTPs feeds in the base system.
+View and manage STIX threat intelligence feeds that provide security data to your ServiceNow instance. Use this to monitor feed status and troubleshoot connection issues.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select **Integrations** icon.
 
 3.  Select **STIX HTTPs**.
 
@@ -35,7 +35,9 @@ Role required: sn\_sec\_tisc.admin
     |MITRE - ICS ATT&amp;CK|This data collection holds STIX objects from ICS ATT&amp;CK.|[https://raw.githubusercontent.com/mitre/cti/master/ics-attack/ics-attack.json](https://raw.githubusercontent.com/mitre/cti/master/ics-attack/ics-attack.json)|
     |MITRE - Enterprise ATT&amp;CK|This data collection holds STIX objects from Enterprise ATT&amp;CK.|[https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json](https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json)|
 
-4.  Click **Edit** to edit the feed and make necessary updates.
+4.  Select **Edit** to edit the feed and make necessary updates.
+
+5.  Select **Save** to apply the changes.
 
 
 **Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)

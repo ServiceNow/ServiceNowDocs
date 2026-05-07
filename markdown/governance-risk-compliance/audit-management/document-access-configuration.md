@@ -26,7 +26,7 @@ Workspace users with the following roles can access the Cloud file configuration
 
 ## Cloud file configuration module
 
-If you are the Workspace administrator with the sn\_grc\_workspace.admin role, you can update the following fields in the Cloud file configuration module to configure the permissions as shown in the example.
+If you're the Workspace administrator with the sn\_grc\_workspace.admin role, you can update the following fields in the Cloud file configuration module to configure the permissions as shown in the example.
 
 ![File access permissions.](../image/cloud-file-config-file-access-permission.png)
 

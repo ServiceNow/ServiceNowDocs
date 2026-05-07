@@ -1,6 +1,6 @@
 ---
 title: Create an API Key in n8n environment
-description: Creating a API key in n8n environment using your n8n instance.
+description: Creating an API key in n8n environment using your n8n instance.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI d
 
 # Create an API Key in n8n environment
 
-Creating a API key in n8n environment using your n8n instance.
+Creating an API key in n8n environment using your n8n instance.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: admin \(authenticated user with the appropriate administrative pe
 
 ## Result
 
-The n8n API Key is created.
+An API Key is created in the n8n environment.
 
 ## What to do next
 

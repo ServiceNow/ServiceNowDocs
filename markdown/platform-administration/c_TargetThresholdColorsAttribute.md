@@ -52,14 +52,18 @@ If a target field is not specified, the target of 100 is assumed.
 
 2.  Select **Configure Dictionary** from the pop-up menu.
 
-3.  In the Dictionary Entry form, add the following attribute:
+3.  Select **Dictionary Entry** &gt; **View** &gt; **Advanced** to make the **Attributes** field available.
 
-    **target\_field=percent\_complete\_target**
+4.  In the **Attributes** field, enter **target\_field=\[target\_field\_name\]**
 
-4.  Update the dictionary record.
+    ```
+    target_field=target_percent_complete
+    ```
+
+5.  Update the dictionary record.
 
     In the list, a gray bar appears behind the colored bar to indicate the target value. The gray target bar appears only if you defined a target field.
 
-    ![Percent complete](../image/PercentComplete4.png)
+    ![Feature task list with the % complete column color-coded based on comparison to the Target % complete column.](../image/PercentComplete4.png)
 
 

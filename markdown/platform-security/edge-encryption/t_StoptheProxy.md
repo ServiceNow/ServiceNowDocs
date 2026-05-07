@@ -23,7 +23,7 @@ Role required: admin
 
 1.  Stop the proxy server.
 
-<table id="choicetable_nfz_zhb_tt"><tbody><tr><td id="d126454e72">
+<table id="choicetable_nfz_zhb_tt"><tbody><tr><td id="d130277e72">
 
 **On a Linux machine**
 
@@ -31,7 +31,7 @@ Role required: admin
 
 Execute `./shutdown.sh`
 
-</td></tr><tr><td id="d126454e84">
+</td></tr><tr><td id="d130277e84">
 
 **On a Windows machine**
 

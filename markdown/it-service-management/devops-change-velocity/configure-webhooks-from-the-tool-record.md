@@ -6,7 +6,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-20"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -29,15 +29,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner in DevOps Change Veloc
 
     **Note:** You can also select the a Project, Plan, or Repository record and configure the corresponding webhooks for them specifically.
 
-<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d230735e95">
+<table id="choicetable_wsy_mkv_w1c"><thead><tr><th align="left" id="d232607e95">
 
 Options
 
-</th><th align="left" id="d230735e98">
+</th><th align="left" id="d232607e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d230735e104">
+</th></tr></thead><tbody><tr><td id="d232607e104">
 
 **Auto configure with existing token**
 
@@ -45,15 +45,15 @@ Description
 
 Configures a webhook with your existing token.
 
-</td></tr><tr><td id="d230735e113">
+</td></tr><tr><td id="d232607e113">
 
 **Auto configure with new token**
 
 </td><td>
 
-Configures a webhook with a new token.
+Configures a webhook with a new token.**Note:** The SN\_DEVOPS\_INTEGRATION\_TOKEN secret must be manually updated with the new token to ensure successful authentication.
 
-</td></tr><tr><td id="d230735e122">
+</td></tr><tr><td id="d232607e124">
 
 **Configure manually**
 

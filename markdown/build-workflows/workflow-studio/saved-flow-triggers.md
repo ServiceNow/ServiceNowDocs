@@ -8,7 +8,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Saved flow triggers
@@ -121,7 +121,7 @@ Flow that runs synchronously in the current session. Use this option to provide 
 **Related topics**  
 
 
-[Create a saved record based trigger](../task/create-saved-trigger.md)
+[Create a saved record-based trigger](../task/create-saved-trigger.md)
 
 [Edit a saved trigger](../task/edit-saved-trigger.md)
 

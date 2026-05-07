@@ -46,5 +46,5 @@ Use a cable template to instantiate cable and strand records using design and as
 
 [Network inventory templates](using-templates-tni.md)
 
-[Model your workflow](telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](telecommunications-network-inventory-workflow.md)
 

@@ -29,7 +29,7 @@ Role required: admin
 
 2.  Select the device or type of application that you want to monitor and detect issues in the CI selection window.
 
-    For more information on CI selection, see [Specify the configuration item for metric rules](../digital-end-user-experience/task/specify-metric-rule-applications.md).
+    For more information on CI selection, see [Specify metric rule CI](../digital-end-user-experience/task/specify-metric-rule-applications.md).
 
 3.  Select **Next**.
 
@@ -37,7 +37,7 @@ Role required: admin
 
     ![Add criteria](images/metric_rule_add_criteria.png)
 
-    For more information on Alert criteria, see [Define alert metric criteria](../digital-end-user-experience/task/define-alert-metric-criteria.md).
+    For more information on Alert criteria, see [Define alert criteria](../digital-end-user-experience/task/define-alert-metric-criteria.md).
 
 5.  Select **Next**.
 

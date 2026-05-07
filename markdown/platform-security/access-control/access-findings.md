@@ -1,6 +1,6 @@
 ---
 title: Access findings
-description: Access findings feature displays the potential vulnerabilities that are discovered the last time access checks were ran on your ServiceNow AI Platform.
+description: Access Findings is the proactive detection and remediation layer within Access Management Console. It runs eight out-of-box access checks against your instance on a daily schedule, surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow.
 locale: en-US
 release: australia
 product: Access Control
@@ -13,7 +13,7 @@ breadcrumb: [Access Management]
 
 # Access findings
 
-Access findings feature displays the potential vulnerabilities that are discovered the last time access checks were ran on your ServiceNow AI Platform.
+Access Findings is the proactive detection and remediation layer within Access Management Console. It runs eight out-of-box access checks against your instance on a daily schedule, surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP Monitor field descriptions
-description: The Zero Copy Connector for ERP Monitor enables you to track ERP transactions and their progress.
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Monitor enables you to track ERP transactions and their progress.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,14 +9,14 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, monitor, transaction, action, log, status]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Monitor field descriptions
 
-The Zero Copy Connector for ERP Monitor enables you to track ERP transactions and their progress.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Monitor enables you to track ERP transactions and their progress.
 
-For process details, see .
+For process details, see [Monitor Zero Copy Connector for ERP transactions and logged errors](../task/monitor-erp-data-hub-logged-extraction-and-remote-lookup-transactions.md).
 
 <table id="table_uk4_144_2dc"><thead><tr><th>
 
@@ -58,7 +58,7 @@ Source
 
 </td><td>
 
-Source table in Zero Copy Connector for ERP. For example, sn\_erp\_integration\_etl\_extraction\_task or sn\_erp\_integration\_remote\_table.
+Source table in Zero Copy Connector for ERP. For example, sn\_erp\_integration\_remote\_table.
 
 </td></tr><tr><td>
 

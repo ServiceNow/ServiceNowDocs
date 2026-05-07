@@ -56,7 +56,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d69412e186">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d72542e186">
 
 **If a single routing policy matches**
 
@@ -67,7 +67,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d69412e207">
+</td></tr><tr><td id="d72542e207">
 
 **If multiple routing policies are eligible**
 
@@ -75,7 +75,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d69412e216">
+</td></tr><tr><td id="d72542e216">
 
 **If there is no routing policy found**
 
@@ -83,7 +83,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d69412e225">
+</td></tr><tr><td id="d72542e225">
 
 **If single policy matches and approval needed flag is true**
 

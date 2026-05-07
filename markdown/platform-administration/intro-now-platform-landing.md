@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 3
 ---
 
 # Administer the ServiceNow AI Platform
@@ -49,6 +49,18 @@ Learn about the ServiceNow AI Platform and these important applications:
 
     A central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 
+-   **ServiceNow Store**
+
+    Listings of ready-to-use applications, integrations, and products to help you accelerate your digital transformation.
+
+-   **Application Manager**
+
+    One location to install, update, and manage licensed applications and plugins for your instance.
+
+-   **Now Assist for Setup**
+
+    A guided experience to install, configure, and deploy certain ServiceNow products.
+
 -   **Subscription Management**
 
     A centralized management experience to help you understand your subscriptions and entitlements.
@@ -67,6 +79,10 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 -   **ServiceNow AI Platform tables and data**
 
     Learn how to work with ServiceNow AI Platform records in the classic environment.
+
+-   **Instance Clone**
+
+    Copy data and metadata from one ServiceNow instance \(source instance\) to another ServiceNow instance \(target instance\).
 
 -   **Search administration**
 
@@ -99,7 +115,7 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
     Identify ServiceNow AI Platform health issues and incorrectly configured settings.
 
--   **Events**
+-   **System Events and Scheduled Jobs dashboard**
 
     Monitor system events and determine which the system should process them.
 
@@ -114,27 +130,4 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
     Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center or the latest experience, Upgrade Console.
 
-
-## Applications and features
-
--   [Core configuration](../../core-configuration/concept/p_CoreConfigurationOverview.md)
--   [Admin Center](../../admin-center/concept/admin-center-intro.md)
--   [Subscription Management](../../subscription-management/reference/subscription-management-landing-page-v2.md)
--   [User administration](../../roles/concept/c_UserAdministration.md)
--   [Table administration](../../table-administration/concept/c_TableAdministration.md)
--   [Data management](../../managing-data/concept/c_DataManagement.md)
--   [Field administration](../../reference-pages/concept/c_IntroductionToFields.md)
--   [Form administration](../../form-administration/concept/form-administration.md)
--   [List administration](../../core-configuration/concept/p_ListAdministration.md)
--   [Search administration](../../search-administration/reference/search-administration.md)
--   [Currency administration](../../currency/concept/currency.md)
--   [Time configuration](../../time/time-configuration-landing.md)
--   [Dynamic Translation](../../dynamic-translation/concept/dynamic-translation-overview.md)
--   [System Localization](../../localization/concept/system-localization-landing.md)
--   [State Management](../../state-model/concept/state-model.md)
--   [Integrate with third-party applications and data sources](../../../integrate/concept/c_IntegrateWThirdPartyAppsDataSrces.md)
--   [Events](https://www.servicenow.com/docs/access?context=events&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Metrics](../../../use/reporting/concept/c_MetricDefinitionSupport.md)
--   [Platform performance](../../core-configuration/concept/platform-performance-landing.md)
--   [Upgrading the Now Platform](upgrade-now-platform.md)
 

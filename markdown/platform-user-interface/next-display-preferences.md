@@ -22,7 +22,7 @@ Role required: none
 
 1.  Navigate to **User Menu** &gt; **Preferences** &gt; **Display**.
 
-    The user menu is represented by your user icon or initials in the Next Experience Unified Navigation.
+    In the Next Experience Unified Navigation, the user menu appears as your user icon or initials.
 
 2.  Select the toggle next to each option to turn the preference on or off.
 

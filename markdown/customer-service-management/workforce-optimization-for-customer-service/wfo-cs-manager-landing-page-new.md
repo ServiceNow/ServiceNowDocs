@@ -8,14 +8,14 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Workforce Optimization for Customer Service manager workspace landing page
 
 Monitor your teams' work and organizational performance using Workforce Optimization for Customer Service.
 
-![Manager Workspace landing page and widgets](../../../product/workforce-optimization-for-customer-service-configurable/image/Manager-Workspace-landing-page.jpg "Manager Workspace landing page")
+![Manager Workspace landing page and widgets](../../../product/workforce-optimization-for-customer-service-configurable/image/manager-workspace-landing-page.png "Manager Workspace landing page")
 
 ## End user and roles
 

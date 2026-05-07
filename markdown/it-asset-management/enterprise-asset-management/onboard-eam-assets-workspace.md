@@ -66,15 +66,15 @@ Date by when the asset onboarding should be complete.This field is optional.
 </td></tr></tbody>
 </table>5.  Determine whether you want to onboard assets of an existing model or a new model.
 
-<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d115058e170">
+<table id="choicetable_t5m_rzp_pbc"><thead><tr><th align="left" id="d117474e170">
 
 Type of asset model
 
-</th><th align="left" id="d115058e173">
+</th><th align="left" id="d117474e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d115058e179">
+</th></tr></thead><tbody><tr><td id="d117474e179">
 
 **Existing model**
 
@@ -82,7 +82,7 @@ Action
 
 In the **Model** field, select the asset model.
 
-</td></tr><tr><td id="d115058e191">
+</td></tr><tr><td id="d117474e191">
 
 **New model**
 

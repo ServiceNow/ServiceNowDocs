@@ -52,7 +52,7 @@ All users who can access the CAM Workspace can also access the POA&amp;Ms landin
 
 ## Access the POA&amp;Ms landing page
 
-To access the POA&amp;Ms page, navigate to **All** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(![POA&Ms icon.](../image/cam-poams-icon.png)\).
+To access the POA&amp;Ms page, navigate to **Workspaces** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(![POA&Ms icon.](../image/cam-poams-icon.png)\).
 
 **Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](cam-ws-continuous-auth-monitor.md)
 

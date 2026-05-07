@@ -27,15 +27,15 @@ Datasets are critical inputs for AI systems and models. Requesting a dataset ini
 
 1.  Request a dataset using one of the following options.
 
-<table><thead><tr><th align="left" id="d74306e71">
+<table><thead><tr><th align="left" id="d76638e71">
 
 Option
 
-</th><th align="left" id="d74306e74">
+</th><th align="left" id="d76638e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74306e80">
+</th></tr></thead><tbody><tr><td id="d76638e80">
 
 **Employee Center**
 
@@ -46,7 +46,7 @@ Description
 3.  Select the **Request a dataset** card.
  **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d74306e131">
+</td></tr><tr><td id="d76638e131">
 
 **AI Control Tower**
 

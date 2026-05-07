@@ -17,6 +17,7 @@ The ServiceNow® Mobile Platform application enables you to access your ServiceN
 -   Speak with an AI-powered voice assistant directly from your mobile device.
 -   Use the enhanced mobile offline capabilities, including seamless online-to-offline continuity.
 -   Assign the new mobile\_admin role to administrators who specifically configure mobile applications.
+-   Enable multiple users to securely access a single ServiceNow account from shared mobile devices.
 
 See [Mobile Platform](https://www.servicenow.com/docs/access?context=mobile-config-navigation&version=australia&pubname=australia-mobile&ft:locale=en-US) for more information.
 
@@ -34,6 +35,12 @@ See [Mobile Platform](https://www.servicenow.com/docs/access?context=mobile-conf
 -   **[Dedicated mobile\_admin role for mobile configuration](https://www.servicenow.com/docs/access?context=mobile-admin-role&version=australia&pubname=australia-mobile&ft:locale=en-US)**
 
     Assign the new mobile\_admin role to administrators who configure mobile applications, granting them precisely the permissions needed to complete their tasks. This new role helps reduce reliance on the broader admin role for controlled, secure access of your ServiceNow® account.
+
+-   **[Enable multiple users to work on a shared device](https://www.servicenow.com/docs/access?context=multi-user-single-instance&version=australia&pubname=australia-mobile&ft:locale=en-US)**
+
+    Enable multiple users to securely log into a ServiceNow single account from shared mobile devices. This feature is beneficial in environments where devices are not personal, as it offers secure and personalized access through user-configured PINs, eliminating the need for repetitive full authentications.
+
+    **Note:** From the Australia version and above, the terms instance and instances have been renamed as account and accounts on mobile devices. Accounts are a reflection of platform instances on a mobile device and work in the same way, only the terminology has changed.
 
 -   **[Configurable timing for PIN application timeout](https://www.servicenow.com/docs/access?context=pin-timeout&version=australia&pubname=australia-mobile&ft:locale=en-US)**
 

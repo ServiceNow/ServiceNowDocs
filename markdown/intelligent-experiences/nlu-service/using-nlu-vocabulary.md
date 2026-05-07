@@ -6,16 +6,14 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-04-21"
+reading_time_minutes: 5
 breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
 # NLU vocabulary
 
 Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
-
-![This image shows a robot serving a platter of linked molecules. The robot and everything else is saying 'NLU Vocabulary' in 6 different languages.](../images/using-nlu-vocabulary-parent-topic.png)
 
 ## Vocabulary usage and context
 
@@ -122,21 +120,6 @@ The regex pattern that you can use is `\bIT\b`. The `\b` is a word boundary mark
 Regex details: You can turn off case sensitivity in a pattern by using `(?i)`. You can end that mode by using a minus sign as in `(?-i)`. For example, `(?i)te(?-i)st` should match both test and TEst, but not teST or TEST.
 
 For more information, see [Using regular expressions in entities](using-regular-expressions-nlu.md).
-
--   **[Create a regular vocabulary item](../task/create-regular-vocabulary-item.md)**  
-Add a word or phrase that your users might use, and match that vocabulary item to a synonym. Your model uses the synonym during intent prediction.
--   **[Create a pattern vocabulary item](../task/create-pattern-vocabulary-item.md)**  
-Use regular expression \(regex\) encoding to establish a pattern format for vocabulary items such as email addresses, phone numbers, and record naming conventions. You can create your own patterns for the vocabulary data in your instance.
--   **[Create a list vocabulary source](../task/create-static-list-source.md)**  
-Create a list of words or phrases to act as a vocabulary source. The values in the list source are replaced by the synonym if they are detected in a user utterance.
--   **[Create a table vocabulary source](../task/create-table-lookup-source.md)**  
-Use the values from a ServiceNow table as a vocabulary source. Your Natural Language Understanding \(NLU\) models use your provided synonym to interpret utterances that contain values from the chosen source fields of the table.
--   **[Sync a table vocabulary source](../task/sync-table-vocabulary-source.md)**  
-Synchronize your table vocabulary sources to obtain the latest changes to the ServiceNow source table. Synchronizing your vocabulary sources ensures your NLU models have the latest values when predicting intents.
--   **[Pre-built vocabulary](prebuilt-vocabulary.md)**  
-Use ServiceNow® pre-built vocabulary for software and hardware terms so the system recognizes their multiple variations in utterances.
-
-**Parent Topic:**[Build and train your model](managing-model-content.md)
 
 **Related topics**  
 

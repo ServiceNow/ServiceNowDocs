@@ -1,6 +1,6 @@
 ---
 title: User presence
-description: User presence is a Core UI feature that lets you see who is online when you are working in an instance.
+description: User presence is a Core UI feature that lets you see who is online when you're working in an instance.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, 
 
 # User presence
 
-User presence is a Core UI feature that lets you see who is online when you are working in an instance.
+User presence is a Core UI feature that lets you see who is online when you're working in an instance.
 
 Your avatar appears in the form header next to your name, and in multiple other places such as in activity streams, Visual Task Boards, live feeds, and Connect conversations. A dot on the avatar of the user represents online status.
 
@@ -23,15 +23,13 @@ Users can add an avatar image to their live feed profile. If no image is uploade
 
 **Note:** Live Feed does not use images uploaded to User \(sys\_user\) records.
 
-When you are viewing a record in a form, such as an incident, you can see if other users are viewing the same record.
+When you're viewing a record in a form, such as an incident, you can see if other users are viewing the same record.
 
 ![User presence in a form.](../image/UserPresenceViewingRecord.png "User presence in a form")
 
 If multiple users are viewing the record, the avatar is represented by the number of users. Point your cursor to the number to see the names and avatars of the users.
 
-When you are in a Connect conversation or entering comments in an activity stream, you can see information about the activity of the other participant, for example if they are viewing or typing.
-
-![Connect window highlighting the fact that you can see when another user is typing.](../image/UserPresenceChatActivity.png "User presence in a conversation")
+When you're in a Connect conversation or entering comments in an activity stream, you can see information about the activity of the other participant, for example if they are viewing or typing.
 
 An administrator can disable user presence globally.
 

@@ -46,7 +46,7 @@ You can open the work item from the success message to add more information.
 
 -   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)](../../now-assist-spm/task/refine-text-with-write-planning-item-skill.md).
 
-    This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+    This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see .
 
 -   [Schedule work items into iterations in EAP Backlog](schedule-work-items-into-iterations-in-eap-backlog.md).
 

@@ -1,6 +1,6 @@
 ---
-title: APIs used by Microsoft- Azure &amp; Copilot
-description: Explore the AWS APIs used in AI service Graph Connector for Amazon.
+title: APIs used by Azure and Copilot
+description: Explore the APIs used in AI Service Graph Connector for Azure and Copilot.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -11,11 +11,11 @@ reading_time_minutes: 1
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# APIs used by Microsoft- Azure &amp; Copilot
+# APIs used by Azure and Copilot
 
-Explore the AWS APIs used in AI service Graph Connector for Amazon.
+Explore the APIs used in AI Service Graph Connector for Azure and Copilot.
 
-The table lists all the Amazon API endpoints used by the connector.
+The table lists all the API endpoints used by the connector.
 
 ## New Azure Foundry — Discovery &amp; Usage
 
@@ -266,7 +266,7 @@ List Thread Runs from ML Service
 Lists all thread runs within a specific thread in an AzureML workspace
 
 </td></tr></tbody>
-</table>## AWS APIs used for Copilot
+</table>## APIs used for Copilot
 
 <table id="table_jnz_xcr_m3c"><tbody><tr><td>
 

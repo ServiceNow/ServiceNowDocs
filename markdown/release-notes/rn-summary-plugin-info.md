@@ -4,8 +4,8 @@ description: Cumulative release notes summary on plugin information for Australi
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 18
+last_updated: "2026-05-04"
+reading_time_minutes: 21
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -27,11 +27,20 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+AI Agent Advisor \(sn\_agent\_miner\): AI Agent Advisor is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them.
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
-com.sn\_ai\_disc and sn\_sgc\_central: Enables the AI connections page in the AI Control Tower configuration and Enables Service Graph Connector feature in AI connections page.
+-   com.sn\_ai\_disc - Enables the AI connections page in the AI Control Tower configuration.
+-   sn\_sgc\_central - Enables the Service Graph Connector \(SGC\) feature in the AI connections page.
 
 </td></tr><tr><td>
 
@@ -156,7 +165,7 @@ Customer Success Advanced \(app-cust-succ-adv\): New pro plus plugin for custome
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
@@ -173,11 +182,28 @@ Australia Early Availability
 
 </td></tr><tr><td>
 
-Data Management
+Data Catalog
 
 </td><td>
 
--   Data Archiving\(com.glide.db.columnar.archive\): Enables you to archive data in object storage and set up scheduled jobs to migrate archive tables.
+-   Data Catalog UI \(sn\_dcg\_ui\): Provides the self-service search and discovery interface for browsing and viewing data assets in the catalog.
+-   Data Catalog Core \(sn\_dcg\_core\): Provides the core data model and business logic for catalog asset management, classifications, and lineage.
+-   Metadata Collectors \(sn\_meta\_collectors\): Enables automated metadata collection from external data platforms to populate and synchronize catalog content.
+-   Metadata Collectors Core \(sn\_dcg\_cc\): Provides connectivity services for integrating Data Catalog with external data sources and platforms.
+-   Workflow Data Fabric Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for managing external data source connections used by Workflow Data Fabric and Data Catalog.
+
+</td></tr><tr><td>
+
+Data products
+
+</td><td>
+
+-   Data Products \(sn\_data\_product\): Enables data stewards to create data interfaces and package them into governed data products for sharing and consumption across the organization.
+-   ServiceNow Data Catalog \(UI\) \(sn\_dcg\_ui\): Provides the self-service search and discovery interface for consumers to browse and access data products and data interfaces in the Data Catalog.
+-   ServiceNow Data Catalog \(Core\) \(sn\_dcg\_core\): Provides the core data model and business logic for catalog asset management, classifications, and lineage.
+-   ServiceNow Data Catalog - Metadata Collectors \(UI\) \(sn\_meta\_collectors\): Provides the interface for configuring and running metadata collectors that synchronize schema information from external data platforms to the Data Catalog.
+-   ServiceNow Data Catalog - Metadata Collectors \(Core\) \(sn\_dcg\_cc\): Provides the core connectivity services for integrating external data platforms with the Data Catalog through metadata collection.
+-   Connect Hub \(sn\_wdf\_connect\_hub\): Provides the central hub for configuring and managing zero-copy connectors that establish live data pathways between ServiceNow and external data sources.
 
 </td></tr><tr><td>
 
@@ -196,7 +222,7 @@ Enterprise Service Management Foundation
 -   Now Assist for Setup \(sn\_ia\): Simplifies instance management with a modular admin home dashboard and enables the Core Business Suite guided setup experience.
 -   Implementation Agent Content \(sn\_ia\_content\): Provides content assets for the Implementation Agent guided setup experience.
 -   Implementation Agent Common \(sn\_ia\_common\): Provides common components shared across the Implementation Agent framework.
--   AI-native IT Service Management \(sn\_ai\_itsm\_cont\): Provides a tailored service desk with a central workspace, AI agent chat, an Employee Hub, and Now Assist to streamline ITSM and enhance productivity.
+-   Simplified IT Service Management \(sn\_ai\_itsm\_cont\): Provides a tailored service desk with a central workspace, AI agent chat, an Employee Slate, and Now Assist to streamline ITSM and enhance productivity.
 -   Core Business Suite Foundation: Provides streamlined employee and supplier case and knowledge management to improve service request management across departments. For detailed plugin information for Core Business Suite, see [Core Business Suite release notes](../core-business-suite/cbs-rn.md).
     -   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -264,6 +290,22 @@ Legal and Contracts Common Utilities \(sn\_lco\_cmn\): Common utilities plugin f
 
 </td></tr><tr><td>
 
+MCP Server Console
+
+</td><td>
+
+Model Context Protocol Server \(sn\_mcp\_server\): MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers.
+
+</td></tr><tr><td>
+
+Now Assist Center
+
+</td><td>
+
+Now Assist Center \(sn\_na\_center\): Now Assist Center is an AI-enablement workspace designed to help customers accelerate and maximize adoption of AI throughout the ServiceNow AI Platform by acting as a centralized portal for all Now Assist AI capabilities.
+
+</td></tr><tr><td>
+
 Now Assist for Creator
 
 </td><td>
@@ -316,7 +358,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- \(\): 
+ 
 
 </td></tr><tr><td>
 
@@ -385,7 +427,7 @@ Zero Copy Connectors
 
 </td><td>
 
-Zero Copy Connectors Primary \(sn\_zcc\_primary\):New plugin that includes primary connectors only.
+-   Zero Copy Connectors Primary \(sn\_zcc\_primary\): New plugin that includes primary connectors only.
 
 </td></tr></tbody>
 </table>## Deprecated plugins in Australia
@@ -414,7 +456,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- \(\): 
+ 
 
 </td></tr><tr><td>
 
@@ -601,6 +643,15 @@ Conversational Help Skills: Planned for deprecation in May 2026. Install the Ext
 
 </td></tr><tr><td>
 
+Now Assist for Creator
+
+</td><td>
+
+-   App generation \(sn\_ae\_gen\_ai\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+-   Test generation \(sn\_text2test\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+
+</td></tr><tr><td>
+
 Now Assist in Document Intelligence
 
 </td><td>
@@ -613,7 +664,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- \(\): Planned for deprecation in . 
+ 
 
 </td></tr><tr><td>
 
@@ -640,7 +691,8 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
-Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. [Form Builder](https://www.servicenow.com/docs/access?context=access-form-builder&version=australia&pubname=australia-application-development&ft:locale=en-US) is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   Form designer \(com.glide.ui.ng.fd\): Planned for deprecation in the C release. [Form Builder](https://www.servicenow.com/docs/access?context=access-form-builder&version=australia&pubname=australia-application-development&ft:locale=en-US) is the recommended replacement for all form configurations. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   ServiceNow Subscription Management \(com.snc.usage\_admin.snc\): Planned for deprecation in August 2026. Update to the most recent version of the Subscription Management application through the Application Manager. For more information about the Subscription Management application, see [Subscription Management](https://www.servicenow.com/docs/access?context=subscription-management-landing-page-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -698,7 +750,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- \(\):
+ 
 
 </td></tr><tr><td>
 
@@ -719,12 +771,20 @@ Operational Sustainability Management \(formerly Environmental, Social, and Gove
 
 </td></tr><tr><td>
 
+Telecommunications Service Operations Management \(TSOM\)
+
+</td><td>
+
+Service Graph Connector for Meraki \(sn\_tsom\_meraki\_connector\):The application has been renamed to Service Graph Connector for Meraki Telco SD-WAN.
+
+</td></tr><tr><td>
+
 Zero Copy Connectors
 
 </td><td>
 
 -   Workflow Data Fabric Hub \(sn\_data\_fabric\): Renamed to Zero Copy Connector Hub \(sn\_data\_fabric\).
--   [Australia Patch 1](../quality/australia-patch-1.md)Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now contains primary and community connectors. Previously contained all connectors in a single package.
+-   [Australia Patch 1](../quality/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now contains primary and community connectors. Previously contained all connectors in a single package.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)

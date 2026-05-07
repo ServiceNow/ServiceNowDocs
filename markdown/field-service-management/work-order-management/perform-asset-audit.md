@@ -36,6 +36,8 @@ Role required: wm\_agent
     -   Space fields are displayed.
     -   Users can select any stockroom.
 
+For more information, see [Stockroom audit access by role](https://www.servicenow.com/docs/access?context=stockroom-audit-access-eam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+
 ## Procedure
 
 1.  Open the ServiceNow Agent mobile application.
@@ -69,5 +71,5 @@ Role required: wm\_agent
 
 ## Result
 
-The asset audit is complete, enuring that the assets in the technician's personal stockroom and the system are in sync.
+The asset audit is complete, ensuring that the assets in the technician's personal stockroom and the system are in sync.
 

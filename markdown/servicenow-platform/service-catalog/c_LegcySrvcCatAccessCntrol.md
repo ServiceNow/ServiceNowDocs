@@ -29,6 +29,18 @@ Access controls are checked in the following order: roles, then scripts, then Co
 
 **Note:** The functionality described here is superseded by access controls using user criteria. Migrate to user criteria for a more flexible and reusable way to define access controls.
 
+A User Criteria record is considered empty if none of the following attributes are defined:
+
+-   Roles
+-   Groups
+-   Departments
+-   Location
+-   Company
+-   Script \(or any other user attribute conditions\)
+
+    **Note:** An empty User Criteria matches only authenticated users. Unauthenticated users are no longer matched by an empty User Criteria. Note that this behavior applies only to the Australia release.
+
+
 -   **[Service Catalog administration](../task/t_ServiceCatalogAdministration.md)**  
 Service Catalog enables an administrator to configure the service catalog.
 -   **[Restrict access](../task/t_ContrlAccessByCDGUOrLoc.md#)**  

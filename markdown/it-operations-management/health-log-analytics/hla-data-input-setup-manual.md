@@ -47,67 +47,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Rsyslog or Beats](hla-data-input-rsyslog-beats.md)
+Agent Client Collector
 
 </td><td>
 
-The data input streams log data into your instance using Rsyslog or Beats.
-
-</td></tr><tr><td>
-
-[Splunk](hla-data-input-splunk.md)
-
-</td><td>
-
-The data input streams log data into your instance using Splunk.
-
-</td></tr><tr><td>
-
-[Splunk Polling](hla-data-input-splunk-polling.md)
-
-</td><td>
-
-The data input periodically pulls log data from Splunk by using a query.
-
-</td></tr><tr><td>
-
-[Elasticsearch](hla-data-input-elastic.md)
-
-</td><td>
-
-The data input pulls log data from Elasticsearch indexes into your instance.
-
-</td></tr><tr><td>
-
-[TCP](hla-data-input-tcp.md)
-
-</td><td>
-
-The data input sends raw log messages to your instance directly over a TCP/SSL socket.
-
-</td></tr><tr><td>
-
-[UDP](hla-data-input-udp.md)
-
-</td><td>
-
-The data input streams raw log messages to your ServiceNow instance directly over a UDP socket.
-
-</td></tr><tr><td>
-
-[GCP PubSub](hla-data-input-gcp-pubsub.md)
-
-</td><td>
-
-The data input receives log messages that are published to a Google Cloud Pub/Sub topic and streams them to your ServiceNow instance.
-
-</td></tr><tr><td>
-
-[MID Server](hla-data-input-mid-server.md)
-
-</td><td>
-
-The data input collects MID Server log files and streams them to your instance.
+The data input streams log messages to your ServiceNow instance using the ServiceNow Agent Client Collector.This data input is supported for use with the [Agent Client Collector Log Analytics](../../agent-client-collector/concept/acc-log-analytics.md) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 </td></tr><tr><td>
 
@@ -127,43 +71,11 @@ The data input streams log data from Amazon S3 \(Simple Storage Service\) bucket
 
 </td></tr><tr><td>
 
-[Microsoft Azure Log Analytics](hla-data-input-azure.md)
-
-</td><td>
-
-The data input streams log data from Microsoft Azure Log Analytics to your ServiceNow instance.
-
-</td></tr><tr><td>
-
-[Microsoft Azure Event Hubs](hla-data-input-event-hubs.md)
-
-</td><td>
-
-The data input streams events from Microsoft Azure Event Hubs to your ServiceNow instance.
-
-</td></tr><tr><td>
-
 [Apache Kafka](hla-data-input-kafka.md)
 
 </td><td>
 
 The data input streams log data from Apache Kafka to your ServiceNow instance.
-
-</td></tr><tr><td>
-
-[REST API](hla-data-input-rest-api.md)
-
-</td><td>
-
-The data input streams log data to your ServiceNow instance in JSON format.
-
-</td></tr><tr><td>
-
-[ServiceNow System Logs Retriever](hla-data-input-glide-syslog.md)
-
-</td><td>
-
-The data input streams log data from the ServiceNow System Log table to the Health Log Analytics AI engine.**Note:** Only a single ServiceNow System Logs Retriever data input can exist in the system, and only users with the admin role can create and configure it. This data input doesn't run on a MID Server.
 
 </td></tr><tr><td>
 
@@ -183,24 +95,112 @@ The data input enables Health Log Analytics to process Edge Delta log messages s
 
 </td></tr><tr><td>
 
+[Elasticsearch](hla-data-input-elastic.md)
+
+</td><td>
+
+The data input pulls log data from Elasticsearch indexes into your instance.
+
+</td></tr><tr><td>
+
+[GCP PubSub](hla-data-input-gcp-pubsub.md)
+
+</td><td>
+
+The data input receives log messages that are published to a Google Cloud Pub/Sub topic and streams them to your ServiceNow instance.
+
+</td></tr><tr><td>
+
+[Microsoft Azure Event Hubs](hla-data-input-event-hubs.md)
+
+</td><td>
+
+The data input streams events from Microsoft Azure Event Hubs to your ServiceNow instance.
+
+</td></tr><tr><td>
+
+[Microsoft Azure Log Analytics](hla-data-input-azure.md)
+
+</td><td>
+
+The data input streams log data from Microsoft Azure Log Analytics to your ServiceNow instance.
+
+</td></tr><tr><td>
+
+[MID Server](hla-data-input-mid-server.md)
+
+</td><td>
+
+The data input collects MID Server log files and streams them to your instance.
+
+</td></tr><tr><td>
+
+[REST API](hla-data-input-rest-api.md)
+
+</td><td>
+
+The data input streams log data to your ServiceNow instance in JSON format.
+
+</td></tr><tr><td>
+
+[Rsyslog or Beats](hla-data-input-rsyslog-beats.md)
+
+</td><td>
+
+The data input streams log data into your instance using Rsyslog or Beats.
+
+</td></tr><tr><td>
+
+[ServiceNow System Logs Retriever](hla-data-input-glide-syslog.md)
+
+</td><td>
+
+The data input streams log data from the ServiceNow System Log table to the Health Log Analytics AI engine.**Note:** Only a single ServiceNow System Logs Retriever data input can exist in the system, and only users with the admin role can create and configure it. This data input doesn't run on a MID Server.
+
+</td></tr><tr><td>
+
+[Splunk](hla-data-input-splunk.md)
+
+</td><td>
+
+The data input streams log data into your instance using Splunk.
+
+</td></tr><tr><td>
+
+[Splunk Polling](hla-data-input-splunk-polling.md)
+
+</td><td>
+
+The data input periodically pulls log data from Splunk by using a query.
+
+</td></tr><tr><td>
+
+[TCP](hla-data-input-tcp.md)
+
+</td><td>
+
+The data input sends raw log messages to your instance directly over a TCP/SSL socket.
+
+</td></tr><tr><td>
+
+[UDP](hla-data-input-udp.md)
+
+</td><td>
+
+The data input streams raw log messages to your ServiceNow instance directly over a UDP socket.
+
+</td></tr><tr><td>
+
 [Vector Agent](hla-data-input-vector-agent.md)
 
 </td><td>
 
 The data input enables Health Log Analytics to process log messages that are streaming into your ServiceNow instance via a Vector Agent.
 
-</td></tr><tr><td>
-
-Agent Client Collector
-
-</td><td>
-
-The data input streams log messages to your ServiceNow instance using the ServiceNow Agent Client Collector.This data input is supported for use with the [Agent Client Collector Log Analytics](../../agent-client-collector/concept/acc-log-analytics.md) application, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
-
 </td></tr></tbody>
-</table>    **Note:** Selecting **Test connection** at the end of the procedure ensures that your data input is configured correctly. You can only publish a data input configuration when the connection between the MID Server and the data repository has been established.
+</table>    **Note:** Testing the connection to the MID Server at the end of the data input setup procedure ensures that your data input is configured correctly. You can only publish a data input configuration when the connection between the MID Server and the data repository has been established.
 
-2.  Identify and address streaming issues to ensure that the data input is streaming log data to the MID Server from all sources.
+2.  Identify and address streaming issues to confirm that the data input is streaming log data to the MID Server from all sources.
 
     For more information, see [Identify and resolve a log streaming issue in Health Log Analytics](hla-data-input-streaming.md).
 

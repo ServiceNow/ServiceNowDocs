@@ -51,7 +51,7 @@ Role required: sn\_sec\_tisc.admin
 
 10. Select either **Upload a sample file** or **Feed data from feed URL**.
 
-    This sample data will fetch the first ten records by default, this total number of records to be retrieved can be modified with the system property `sn_sec_tisc.feed_field_mapping_sample_count`.
+    This sample data will fetch the first ten records by default, this total number of records to be retrieved can be modified with the system property \[`sn_sec_tisc.feed_field_mapping_sample_count`\].
 
     The list view displays a code editor preserving the original structure and formatting of raw data.
 
@@ -63,7 +63,7 @@ Role required: sn\_sec\_tisc.admin
 
     When working with Text feeds, the delimiter is essential for correctly parsing the data into individual fields.
 
-    In this scenario, the text feed uses the pipe operator \(\|\) as the delimiter which separates each value in the sample text data into distinct columns. Correctly identifying and applying this delimiter is essential to ensure accurate field mapping and successful data ingestion.
+    In this scenario, the text feed uses the pipe operator \(\|\) as the delimiter which separates each value in the sample text data into distinct columns. Correctly identifying and applying this delimiter is essential to confirm accurate field mapping and successful data ingestion.
 
     Regular expressions\(RegEx\) are also supported as delimiters for the text feed, providing additional flexibility when parsing complex feed data and not support for the JSON and CSV feeds.
 

@@ -29,7 +29,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 3.  You can perform the following actions on a change request based on your role.
 
-<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d145296e105">
+<table id="choicetable_yhp_ddv_tt"><tbody><tr><td id="d147843e105">
 
 **Approve or reject a change request**
 
@@ -37,7 +37,7 @@ As part of processing a change request, ensure that you have [detected any chang
 
 Open the approval record and click **Approve** to approve the change request or **Reject** to reject it.The change request changes to the **Scheduled** state if it is approved or to **New** state if it is rejected.
 
-</td></tr><tr><td id="d145296e129">
+</td></tr><tr><td id="d147843e129">
 
 **Implement a change request**
 
@@ -45,7 +45,7 @@ Open the approval record and click **Approve** to approve the change request or 
 
 Click **Implement** to put the change request into action.The change request state changes to **Implement**. The workflow creates two change tasks: **Implement** and **Post-implementation testing**. Review the change tasks and assign them to a user or group, as appropriate.
 
-</td></tr><tr><td id="d145296e153">
+</td></tr><tr><td id="d147843e153">
 
 **Review a change request**
 
@@ -53,7 +53,7 @@ Click **Implement** to put the change request into action.The change request sta
 
 Click **Review** after reviewing the details on the change request. The change request is moved to the **Review** state. All open change tasks are set to **Canceled**.
 
-</td></tr><tr><td id="d145296e174">
+</td></tr><tr><td id="d147843e174">
 
 **Close a change request**
 
@@ -61,7 +61,7 @@ Click **Review** after reviewing the details on the change request. The change r
 
 Click **Close** after entering the **Close code** and **Close notes** in the **Closure Information** section.The change request is closed.
 
-</td></tr><tr><td id="d145296e198">
+</td></tr><tr><td id="d147843e198">
 
 **Cancel a change request**
 

@@ -48,6 +48,8 @@ The Domain Separation plugin has two new tables to give service providers more f
 
 [Add a domain field to a table](../task/t_AddADomainFieldToATable.md)
 
+[View upgraded processes or records in the global domain](../task/t_view-upgraded-overriden-domains.md)
+
 [View domain relationships](../task/t_ViewDomainRelationships.md)
 
 [Create a domain-specific choice list](../task/t_CreateADomainSpecificChoiceList.md)

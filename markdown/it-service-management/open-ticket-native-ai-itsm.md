@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Open an IT ticket in Employee Center
@@ -37,15 +37,15 @@ Role required: none
 
 6.  Perform one of the following actions.
 
-<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d237035e121">
+<table id="choicetable_mky_ybb_xhc"><thead><tr><th align="left" id="d239038e121">
 
 Choice
 
-</th><th align="left" id="d237035e124">
+</th><th align="left" id="d239038e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d237035e130">
+</th></tr></thead><tbody><tr><td id="d239038e130">
 
 **If the related content is relevant**
 
@@ -53,7 +53,7 @@ Description
 
 Select **Solution found**.
 
-</td></tr><tr><td id="d237035e142">
+</td></tr><tr><td id="d239038e142">
 
 **If the related content is not relevant**
 
@@ -65,5 +65,5 @@ Select **Solution found**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Employee experience in AI-native IT Service Management](../concept/employee-experience-native-ai-itsm.md)
+**Parent Topic:**[Employee experience in Simplified IT Service Management](../concept/employee-experience-native-ai-itsm.md)
 

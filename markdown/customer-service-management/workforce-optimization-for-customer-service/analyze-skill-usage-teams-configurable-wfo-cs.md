@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Channel Management, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Channel Management, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Analyze skills for your teams in Workforce Optimization for Customer Service

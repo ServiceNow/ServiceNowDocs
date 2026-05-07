@@ -39,15 +39,15 @@ For information on adding an action for a safety inspection or audit through Mob
 
 3.  Create an action from an inspection or audit record or the Actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d712942e146">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d723632e146">
 
 Option
 
-</th><th align="left" id="d712942e149">
+</th><th align="left" id="d723632e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d712942e155">
+</th></tr></thead><tbody><tr><td id="d723632e155">
 
 **From an inspection record**
 
@@ -58,7 +58,7 @@ Steps
 3.  In the **Inspection actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d712942e188">
+</td></tr><tr><td id="d723632e188">
 
 **From an audit record**
 
@@ -69,7 +69,7 @@ Steps
 3.  In the **Audit actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d712942e221">
+</td></tr><tr><td id="d723632e221">
 
 **From the Findings tab**
 

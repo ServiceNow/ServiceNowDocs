@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -43,7 +43,7 @@ Add an existing visualization to highlight an insight, add context to your explo
 
     ![Data visualization tile with Explore with AI button highlighted.](../image/explore-icon-dv-tile.png)
 
-    **Note:** If the data visualization shows data from a protected scope that is not supported in Query Generation and AI Data Explorer, there is no Explore with AI icon. For more information, see .
+    **Note:** If the data visualization shows data from a protected scope that is not supported in Query Generation and AI Data Explorer, there is no Explore with AI icon. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](../concept/enable-aide-secure-scope-apps.md).
 
 7.  From the Explore options, select **Add to exploration**.
 

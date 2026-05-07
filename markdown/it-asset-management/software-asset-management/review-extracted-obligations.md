@@ -17,7 +17,7 @@ Use the contract playbook to review, edit, approve, or reject obligations automa
 
 ## Before you begin
 
-Role required: sn\_cm\_obligation.obligation\_fulfiller, sam\_admin/sam\_user, and now\_assist\_panel\_user
+Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller, sam\_admin/sam\_user, and now\_assist\_panel\_user
 
 ## About this task
 

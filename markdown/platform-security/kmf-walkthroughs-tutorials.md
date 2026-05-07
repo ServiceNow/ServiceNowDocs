@@ -98,8 +98,6 @@ Attachments can also be encrypted and only visible to users who are granted acce
 
 12. Log in as a user who has access to the table but doesn't have access to the configured encryption module.
 
-    ![image.fe-short-description-encryption]
-
     When you access the incident number, the data in the Short description will not be visible.
 
 
@@ -230,9 +228,7 @@ Method
 The **Single Module** option is used to apply the policies for one module. **Multiple Modules** is used to apply the policies across multiple modules.
 
 </td></tr></tbody>
-</table>    ![image.fe-efc-table]
-
-7.  Select **Save**.
+</table>7.  Select **Save**.
 
     Establish a Module Access Policy \(MAP\) to assign access to the cryptographic module. Refer to [Create a module access policy](../task/create-module-access-policy.md) for additional information.
 
@@ -262,8 +258,6 @@ The **Single Module** option is used to apply the policies for one module. **Mul
 13. As user with access to the encryption module, navigate to **Incidents** and add an attachment to the form.
 
     Once the attachment is uploaded, it will be available from the Activities screen.
-
-    ![image.fe-attachment-available-per-role]
 
 14. Log in as a user that doesn't have access to the module.
 

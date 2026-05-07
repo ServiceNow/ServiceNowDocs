@@ -1,5 +1,5 @@
 ---
-title: Configure a Cribl data input in Health Log Analytics
+title: Configure a Cribl data input in Health Log Analytics manually
 description: Configure a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
 locale: en-US
 release: australia
@@ -12,7 +12,7 @@ keywords: [Cribl, data input, configuration, ServiceNow, Health Log Analytics, H
 breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure a Cribl data input in Health Log Analytics
+# Configure a Cribl data input in Health Log Analytics manually
 
 Configure a dedicated Cribl data input to enable Health Log Analytics to process Cribl log messages streaming into your ServiceNow instance.
 

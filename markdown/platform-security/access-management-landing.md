@@ -38,9 +38,9 @@ Access Management enables you to have access to ServiceNow® instance securely.
 
 </td><td>
 
-[Data Filtration![Filter](../../../reuse/icons/brand-icons/bus-filter.svg)](../../security/concept/data-filtration-landing.md)
+Data Filtration![Filter](../../../reuse/icons/brand-icons/bus-filter.svg)
 
- [Use data filtration to control access to tables and records based on subject attributes when performing read queries.](../../security/concept/data-filtration-landing.md)
+ Use data filtration to control access to tables and records based on subject attributes when performing read queries.
 
 </td><td>
 

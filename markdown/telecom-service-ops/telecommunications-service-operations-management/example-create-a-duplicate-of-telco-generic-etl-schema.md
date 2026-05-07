@@ -8,7 +8,7 @@ classification: telecommunications-service-operations-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Builder, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Duplicate Telecom Discovery Builder, Configure Telecom Discovery Builder, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Example - Duplicate the Telco Generic ETL Schema

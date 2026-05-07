@@ -8,7 +8,7 @@ classification: visual-task-boards
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Visual Task Boards, Configure UIs and portals, Configure user experiences]
 ---
 
 # Exploring Visual Task Boards
@@ -89,5 +89,5 @@ SLA \(service-level agreement\) indicators alert board members if any cards on t
 -   **[Visual Task Board accessibility](accessibility-vtb.md)**  
 Accessibility improvements in Visual Task Boards include skip links and the ability to view card details.
 
-**Parent Topic:**[Personalize your experience](../../../administer/general/concept/personalize-your-experience.md)
+**Parent Topic:**[Configure UIs and portals](../../../administer/general/concept/configure-uis-and-portals.md)
 

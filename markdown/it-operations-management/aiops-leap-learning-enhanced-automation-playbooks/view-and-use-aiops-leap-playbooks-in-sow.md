@@ -1,6 +1,6 @@
 ---
-title: Use AIOps LEAP playbooks in Service Operations Workspace \(SOW\)
-description: AIOps LEAP playbooks are available for use in the SOW interface.
+title: Use LEAP playbooks in Service Operations Workspace \(SOW\)
+description: LEAP playbooks are available for use in the SOW interface.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,12 +8,12 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Use AIOps LEAP playbooks in Service Operations Workspace \(SOW\)
+# Use LEAP playbooks in Service Operations Workspace \(SOW\)
 
-AIOps LEAP playbooks are available for use in the SOW interface.
+LEAP playbooks are available for use in the SOW interface.
 
 ## Before you begin
 
@@ -21,11 +21,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AIOps LEAP**.
+1.  Navigate to **All** &gt; **LEAP**.
 
 2.  Select the required automation opportunity.
 
-3.  [Generate AIOps LEAP playbooks](generate-playbooks.md).
+3.  [Generate LEAP playbooks](generate-playbooks.md).
 
 4.  Open the SOW interface using the Workspaces menu.
 

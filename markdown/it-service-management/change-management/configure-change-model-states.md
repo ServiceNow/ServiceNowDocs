@@ -17,6 +17,8 @@ Configure states for change models and define transition between multiple states
 
 ## Before you begin
 
+The change model for which you want to define the states should already exist. For more information, see [Create a Change model](create-a-change-model.md).
+
 Role required: change\_manager
 
 ## Procedure
@@ -130,6 +132,12 @@ Option to make the condition active.
 </td></tr></tbody>
 </table>    6.  Select **Save**.
 
+
+## What to do next
+
+Attach a process with defined conditions that enable transition between change model states. See [Attach a process for Change model states](../concept/attach-process-change-model.md).
+
+Create change templates based on the change model. For more information, see [Create and propose a change template](create-change-template.md).
 
 **Parent Topic:**[Create a Change model](create-a-change-model.md)
 

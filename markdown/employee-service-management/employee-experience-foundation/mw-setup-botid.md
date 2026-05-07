@@ -8,7 +8,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-01-06"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Configure bot ID and AI assistant
@@ -17,15 +17,17 @@ Specify the bot ID to configure Moveworks AI assistant on Employee Center portal
 
 ## Before you begin
 
-Ensure you have the appropriate entitlements for the application.
+Confirm that you have the appropriate entitlements for the application.
+
+**Note:** To save the page with Bot ID, verify that the your application scope is selected to Moveworks for Employee Center.
 
 Role required: admin
 
 ## About this task
 
-Ensure you copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots**. For more information, see [Embedded AI Assistant Installation-ServiceNow](https://help.moveworks.com/docs/moveworks-for-web-installation-servicenow).
+Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots**. For more information, see [Embedded AI Assistant Installation-ServiceNow](https://help.moveworks.com/docs/moveworks-for-web-installation-servicenow).
 
-**Note:** You don't need to perform other steps or provide any REST API details.
+**Note:** You need not perform other steps or provide any REST API details.
 
 ## Procedure
 
@@ -39,7 +41,37 @@ Ensure you copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Mana
 
     ![Example for illustration purpose only, Embedded AI Assistant setup for Moveworks](../images/mw-embed-ai-botid.png "Example: Embedded AI Assistant setup for Moveworks")
 
-4.  Click **Save configuration**.
+    You can configure initialization options according to your requirement. For example, for custom width and height,
+
+    ```
+    
+    "styles": {
+       "bottom": "20px",
+       "right": "20px",
+       "width": "400px",
+       "height": "600px"
+    }
+    
+    ```
+
+    For complete configuration with branding,
+
+    ```
+    
+    {
+    "styles": {
+       "bottom": "30px",
+       "right": "30px",
+       "z_index": "9999"
+    },
+    "theme": {
+       "primary_color": "#5550DD",
+       "font_family": "Arial, sans-serif"
+    }
+    }
+    ```
+
+4.  Select **Save configuration**.
 
 
 ## Result
@@ -52,7 +84,7 @@ You can perform the following actions:
 
 -   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Moveworks on employee portal](../concept/mw-employee-chat-ui.md).
 -   Test basic functionality by invoking the assistant and asking a sample question.
--   Check system properties and verify that all Moveworks-specific properties are configured properly.
+-   Check system properties and verify that all Moveworks specific properties are configured properly.
 
 **Related topics**  
 

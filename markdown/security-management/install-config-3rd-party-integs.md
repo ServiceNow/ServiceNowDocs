@@ -4,7 +4,7 @@ description: You can activate the plugins for third-party integrations and confi
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration Configurations, ServiceNow Security Operations integration development guidelines, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -25,21 +25,21 @@ Role required: sn\_sec\_cmn.admin
 
     ![Sample third-party integrations](../image/tiles.png)
 
-2.  To install the plugin for a given integration, click **Install Plugin**.
+2.  To install the plugin for a given integration, select **Install Plugin**.
 
-    1.  On the System Plugin form, review the plugin details and click the **Activate/Upgrade** related link.
+    1.  On the System Plugin form, review the plugin details and select the **Activate/Upgrade** related link.
 
-    2.  Click **Activate**.
+    2.  Select **Activate**.
 
         When the activation is complete, the Security Integration screen reopens and the button for the integration you activated is labeled **Configure**.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
     **Note:** If you are configuring the Qualys Vulnerability Integration, see [Installation of Vulnerability Response and supported applications](../../vulnerability-response/concept/cj-vr-setup.md).
 
 4.  Enter the **API Key**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Security Operations Integration Configurations](../concept/third-party-integrations.md)

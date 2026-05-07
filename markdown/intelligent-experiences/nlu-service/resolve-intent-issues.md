@@ -97,5 +97,3 @@ Utterances designated as `Irrelevant` or `Not relevant`may also conflict with tr
 
 Continue to resolve all conflicts. When finished, train your model to see a list of updated conflicts, if any. Resolve all intent issues prior to testing and publishing your model.
 
-**Parent Topic:**[NLU intents](../concept/intents.md)
-

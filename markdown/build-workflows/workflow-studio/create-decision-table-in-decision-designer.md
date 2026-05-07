@@ -265,7 +265,7 @@ Option to filter the list of reference records in the result column when the res
 
     For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
 
-17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![Decision rule row menu options.](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
+17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 

@@ -23,7 +23,7 @@ Role required: compliance\_admin, compliance\_manager, or sn\_compliance.user
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(![List](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Issues** &gt; **All issues**.
 

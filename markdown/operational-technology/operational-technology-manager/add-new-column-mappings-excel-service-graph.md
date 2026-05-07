@@ -6,7 +6,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -70,8 +70,6 @@ Roles required:
 
 15. From the ETL Transform Map Assistant page, in the Prepare Source Data for Mapping section, select **Preview and prepare data**.
 
-    ![Preview and prepare data.](../image/prepare-source-data.png)
-
     If the column isn’t visible, repeat the steps 11 through 14.
 
 16. Select **Mark as Complete**.
@@ -102,8 +100,6 @@ Roles required:
 
 21. From the Data pane, drag the data pill to the Comments **Source Column** field.
 
-    ![Map to hardware.](../image/map-cmdb.png)
-
     You can also select the source column icon \( ![Source column icon.](../image/source-column-icon.png) \) to select the data-mapping field for it.
 
     The Source Column includes the data pill.
@@ -130,11 +126,7 @@ Roles required:
 
     5.  Select **Mark as Complete**.
 
-        ![After the Test and Rollback Integration Results successfully runs, confirm that the Excel sheet is updated.](../image/test-rollback-integration.png)
-
     6.  Select **Perform Rollback**.
-
-        ![Select Perform Rollback.](../image/rollback-options-plc.png)
 
     7.  If the ETL isn’t activated, select **Activate**.
 

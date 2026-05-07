@@ -30,11 +30,11 @@ The Administrators can configure system-enforced limits on asset management rule
 
 ## Rules execution
 
-Only active rules are evaluated during scheduled runs; inactive rules are skipped. The scheduled job 'Run AI Asset Management Rules’ is executed for every 6 hours, but AI stewards can trigger immediate execution on any active rule using the **Run Now** action. Rules that are no longer needed can be deleted. If an asset is qualified for a rule, it will be automatically moved under managed assets.
+Only active rules are evaluated during scheduled runs; inactive rules are skipped. The scheduled job 'Run AI Asset Management Rules’ is executed for every 6 hours, but AI stewards can trigger immediate execution on any active rule using the Run Now action. Rules that are no longer needed can be deleted. If an asset is qualified for a rule, it will be automatically moved under managed assets.
 
 ## References
 
-For information on managed and unmanaged assets, see [Assets list- managed and unmanaged assets](assets-list-managing-and-unmanaging-assets.md)
+For information on managed and unmanaged assets, see [Assets list managed and unmanaged assets](assets-list-managing-and-unmanaging-assets.md)
 
 For information on creating rules, see [Create an Automation rule](../task/create-automation-rules.md)
 

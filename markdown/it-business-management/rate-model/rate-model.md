@@ -33,8 +33,6 @@ The rate model associated with a project or demand evaluates the rate lines to f
 
 The rate is returned in the functional currency specified in the matching rate line.
 
-![Flow diagram of rate model processing](../image/rate-model-processing-flowdiagram.png "Rate model processing flow diagram")
-
 The following video describes how to set up a rate model and the evaluation method to find and return the hourly rate for a request.Video explaining how to work with rate models
 
 When a rate is requested, the rate model uses the following process.

@@ -67,5 +67,5 @@ This team of workplace agents can find open maintenance cases and optimize it fo
 
 [Workplace Concierge agentic workflow](workplace-concierge-ai-agent.md)
 
-[Overview of Autonomous L1 Agent for Workplace Cases](implement-autonomous-l1-agent-for-workplace.md)
+[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
 

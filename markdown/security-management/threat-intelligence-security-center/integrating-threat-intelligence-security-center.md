@@ -1,25 +1,23 @@
 ---
-title: Integrating Threat Intelligence Security Center
+title: Integrate
 description: Use this section to understand the Threat Intelligence Security Center integrations.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-15"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
 
-# Integrating Threat Intelligence Security Center
+# Integrate
 
 Use this section to understand the Threat Intelligence Security Center integrations.
 
-The **Integrations** section includes the following sub modules.
-
 <table id="table_fsv_gqq_tzb"><thead><tr><th>
 
-Module Name
+Module
 
 </th><th>
 
@@ -31,29 +29,31 @@ Description
 
 </td><td>
 
-All the available threat intelligence feeds and Enrichment integrations are shown as tiles/cards here. The users will not have any ability to create a new feed or integration from this section.
+View all available threat intelligence feeds and enrichment integrations as tiles. Use other sections to create feeds or integrations.
 
 </td></tr><tr><td>
 
-**Threat Feeds**
+**Intel Feeds**
 
 </td><td>
 
-This section contains the details related to Threat Intelligence feeds only and the users will have ability to configure new threat intelligence feed\(s\) from this section.
+View details about threat intelligence feeds and configure new feeds.The available feeds are:
 
-</td></tr><tr><td>
-
-**Enrichments Integrations**
-
-</td><td>
-
-This section contains the details related to Enrichment integrations only and the users will have ability to configure available enrichment integrations from this section.**Note:** Enrichment integrations section is only visible if at least one enrichment integration plug in is installed.
+-   All Feeds - Shows all configured threat intelligence feeds
+-   STIX TAXII - Supports configuration of feeds using the STIX/TAXII protocol
+-   STIX HTTPS - Ingests STIX formatted data over HTTPS
+-   MISP - Integrates feeds from MISP \(Malware Information Sharing Platform\)
+-   Text - Supports ingestion of plain text-based threat data
+-   CSV - Import threat intelligence data in CSV format
+-   JSON - Supports ingestion of structured data in JSON format
+-   RSS - Configure RSS feeds for automated ingestion of updates
+-   Custom - Configure custom feed types such as MISP, CrowdStrike
 
 </td></tr></tbody>
 </table>-   **[Threat Intelligence Security Center Catalog](threat-intelligence-security-center-catalogue.md)**  
-The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application for you to enable them after adding the required information, and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
+The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application. You can enable them after adding the required information and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
 -   **[Threat Intelligence Feeds](threat-intelligence-feeds.md)**  
-Use Threat Intelligence Feeds to add, edit, or remove Threat Intelligence feed data source.
+Configure threat intelligence data sources to automatically import security indicators into your ServiceNow instance. Use feeds to keep threat data current and enhance security monitoring capabilities.
 -   **[TISC Integrations](tisc-integrations.md)**  
 This section provides instructions for configuring and enabling the Threat Intelligence integrations.
 

@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows in Oracle EBS, Use, Source-to-Pay integration with Oracle EBS, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -31,7 +31,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Overview of the Create or update purchase order flow](../image/oracle-ebs-create-po-flow.png "Create or update purchase order flow")
+    ![Overview of the Create or update purchase order flow](../../source-to-pay-operations/image/oracle-ebs-create-po-flow.png "Create or update purchase order flow")
 
 5.  Activate the flow or subflow.
 
@@ -46,9 +46,9 @@ Role required: sn\_fcms\_intg.integration\_user
     -   **Status** is **Pending Submission**
     **Note:** Do not modify the trigger condition.
 
-    ![Trigger conditions for create purchase order](../image/oracle-ebs-create-po.png)
+    ![Trigger conditions for create purchase order](../../source-to-pay-operations/image/oracle-ebs-create-po.png)
 
-    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md)
+    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md)
 
     You have successfully copied and executed the flow.
 

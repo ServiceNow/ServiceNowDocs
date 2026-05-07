@@ -39,15 +39,15 @@ You can edit the overlay option in the floor map by configuring the decision tab
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d39369e116">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d42227e116">
 
 Action
 
-</th><th align="left" id="d39369e119">
+</th><th align="left" id="d42227e119">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d39369e125">
+</th></tr></thead><tbody><tr><td id="d42227e125">
 
 **Add a new overlay**
 
@@ -61,7 +61,7 @@ Details
 6.  In the Condition section, add the metric values and color code.
 
 
-</td></tr><tr><td id="d39369e174">
+</td></tr><tr><td id="d42227e174">
 
 **Edit an existing overlay**
 
@@ -73,7 +73,7 @@ Details
 4.  In the Condition section, edit the metric values and color code.
 
 
-</td></tr><tr><td id="d39369e207">
+</td></tr><tr><td id="d42227e207">
 
 **Delete an overlay**
 

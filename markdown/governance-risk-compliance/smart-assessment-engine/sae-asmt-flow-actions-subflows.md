@@ -1,6 +1,6 @@
 ---
-title: Flow actions for fulfillment subflow definitions
-description: If you define your own fulfillment subflows for the Smart Assessment Engine application in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with the different aspects of the fulfillment or inventory maintenance, which can help bring some consistency in how data is retrieved and updated.
+title: Trigger Smart Assessment flow action
+description: Use the Trigger Smart Assessment flow action in Workflow Studio to generate and assign assessments from a published Smart Assessment Engine template.
 locale: en-US
 release: australia
 product: Smart Assessment Engine
@@ -11,11 +11,11 @@ reading_time_minutes: 1
 breadcrumb: [Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
-# Flow actions for fulfillment subflow definitions
+# Trigger Smart Assessment flow action
 
-If you define your own fulfillment subflows for the Smart Assessment Engine application in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with the different aspects of the fulfillment or inventory maintenance, which can help bring some consistency in how data is retrieved and updated.
+Use the Trigger Smart Assessment flow action in Workflow Studio to generate and assign assessments from a published Smart Assessment Engine template.
 
-The fulfillment flows in the demo data that was shipped with the ServiceNow AI Platform use the flow actions in the following table.
+The Trigger Smart Assessment flow action is available in Workflow Studio after the Smart Assessment Connected \(com.sn\_smart\_asmt\_conn\) plugin is activated.
 
 <table id="table_fl5_gx4_v4b"><thead><tr><th>
 
@@ -27,35 +27,13 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Trigger Smart Assessment action
+Trigger Smart Assessment
 
 </td><td>
 
-Flow action to create and assign an assessment. The flow action takes the customer order line, configuration item \(CI\), and sold product as input, and creates the install base item and installed product.
+Flow action that generates and assigns assessment instances from a published assessment template. The flow action takes the assessment template, assessors, scope items, and optional settings such as due date, duration, duplicate handling, and assessment group as input and creates one or more assessment instances. Each scope item specifies a table and record that the assessment is applied to.
 
-</td></tr><tr><td>
-
-Update Configuration Item
-
-</td><td>
-
-Flow action that includes a prescriptive way to update the configuration items order fulfillment subflow. The flow action takes the sold product, product model ID, and comments as input, and updates the corresponding configuration item that is based on the install base Item.
-
-</td></tr><tr><td>
-
-Get Child Sold Product
-
-</td><td>
-
-Flow action that includes a prescriptive way to retrieve the sold products that are relevant to a specification in a customer order. The flow action takes the specification and the parent sold product as input and retrieves the child sold product from the respective hierarchy. Using this flow action helps with the product inventory updates that occur at the end of the fulfillment process.
-
-</td></tr><tr><td>
-
-Get Customer Order Characteristic Value
-
-</td><td>
-
-Flow action that takes the customer order line Item and characteristic as input and returns a characteristic value from the customer order line item. If the characteristic isn’t present in the customer order line item, it returns the default value for the characteristic from the respective order line item offering.
+ For details on the input fields, see [Trigger Smart Assessment action form](sae-smart-asmnt-action-form.md).
 
 </td></tr></tbody>
 </table>**Related topics**  

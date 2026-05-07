@@ -114,13 +114,13 @@ Role required: admin and sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident Response** &gt; **Administration** &gt; **Process Selection**.
 
-2.  Click the search icon to list the available process definitions.
+2.  Select the search icon to list the available process definitions.
 
     ![Process definition selector](../image/ProcessorSelector.png)
 
 3.  Select a process definition.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 #### Create a custom Security Incident Response process definition script include
@@ -139,7 +139,7 @@ The sn\_si.ProcessDefinition main script include controls process definitions. *
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-2.  Click **New.**
+2.  Select **New.**
 
 3.  Fill in the fields, as appropriate.
 
@@ -218,9 +218,7 @@ Defines the server-side script to run when called from other scripts.The script 
 For information on script contents, see [Process Definition script include](setup-assistant-reference.md#).
 
 </td></tr></tbody>
-</table>    ![Process Definition script include form](../image/ProcessDefinition-ScriptInclude.png)
-
-4.  Click **Submit.**
+</table>4.  Select **Submit.**
 
 
 **Related topics**  
@@ -383,15 +381,15 @@ To change states in bulk, do the following:
 
 ##### Procedure
 
-1.  Navigate to **All** &gt; **Process Selection**.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Administration** &gt; **Process Selection**.
 
 2.  Highlight the **State** field for the incidents or tasks you want to change.
 
-3.  Double-click the **State** field in the first record, select the new **State,** and click the green check mark \(![Green check mark](../../vulnerability-response/image/GreenCheckMarkIcon.png)\) to complete the change.
+3.  Double-click the **State** field in the first record, select the new **State,** and select the green check mark \(![Green check mark](../../vulnerability-response/image/GreenCheckMarkIcon.png)\) to complete the change.
 
     ![Corrected definition example](../image/CorrectedDefinition.png)
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 ## Create a security incident group
@@ -415,7 +413,7 @@ It is a good practice to create as many groups as needed in your organization. I
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Groups** or **Security Incident** &gt; **Setup** &gt; **Groups**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -427,21 +425,21 @@ It is a good practice to create as many groups as needed in your organization. I
 
     1.  If the **Type** field is not visible, configure the form to add it.
 
-    2.  Click the lock icon beside the **Type** field.
+    2.  Select the lock icon beside the **Type** field.
 
-    3.  Click the reference lookup icon \(![lookup icon](../image/SearchIcon.png)\)
+    3.  Select the reference lookup icon \(![lookup icon](../image/SearchIcon.png)\)
 
     4.  Search for and select the **security incident** type.
 
-5.  Right-click the form header and select **Save**.
+5.  Select and hold \(or right-click\) the form header and select **Save**.
 
 6.  In the **Roles** related list, add the roles that each member of this group receives.
 
-    For example, if you are making a group for Security Incident Response team members, add sn\_si.analyst. If you are making a group for Security Incident Response administrators, add sn\_si.admin.
+    For example, if you're making a group for Security Incident Response team members, add sn\_si.analyst. If you're making a group for Security Incident Response administrators, add sn\_si.admin.
 
 7.  In the **Group Members** related list, add users to this group.
 
-8.  Click **Update**.
+8.  Select **Update**.
 
 
 ## Create a security incident calculator group
@@ -915,11 +913,9 @@ Role required: sn\_si.basic
 
 1.  If it is not already open, open the security incident you want to repair SLAs for.
 
-2.  Click the form header context menu and select **Repair SLAs**:
+2.  Select the form header context menu and select **Repair SLAs**:
 
-    ![Repair SLAs from the form header menu](../image/HamburgerRepainSLAs.png)
-
-3.  Click **OK** in the Warning confirmation box.
+3.  Select **OK** in the Warning confirmation box.
 
     For more information, see [Repair SLAs](https://www.servicenow.com/docs/access?context=c_RepairSLAs&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
 
@@ -1033,7 +1029,7 @@ When an employee encounters a suspicious email, they should forward it as an att
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Email Processing** &gt; **User Reported Phishing**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields, as needed.
 
@@ -1042,7 +1038,7 @@ When an employee encounters a suspicious email, they should forward it as an att
     |Name|Name for this email matching rule. For example, User Reported Phishing.|
     |Conditions|Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to validate whether an email sent to your company phishing email address is a phishing attack. See the following example.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ### Example

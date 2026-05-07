@@ -41,8 +41,6 @@ Role required: sn\_cmdb\_admin or admin
 
 [Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
 
-[View metrics for CIs in a Dependency Views map](view-ci-metrics.md)
-
 [Perform actions on nodes in a Dependency Views map](t_PerformActionsOnNGBSMMap.md)
 
 [Export a Dependency Views map](t_ExportAnNGBSMMap.md)

@@ -7,7 +7,7 @@ product: Dependency Views
 classification: dependency-views
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -57,8 +57,6 @@ Administrators can configure the setting for the default layout of the map and n
 [Change the layout of Dependency Views map](t_ChangeLayoutNGBSMMap.md)
 
 [Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
-
-[View metrics for CIs in a Dependency Views map](view-ci-metrics.md)
 
 [Perform actions on nodes in a Dependency Views map](t_PerformActionsOnNGBSMMap.md)
 

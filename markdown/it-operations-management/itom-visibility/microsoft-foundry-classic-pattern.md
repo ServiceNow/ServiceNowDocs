@@ -297,7 +297,7 @@ The following dependency views display the relationships between Microsoft Found
 
 ## CI relationships
 
-The Microsoft Foundry patterns create the following relationships to support Microsoft Foundry discovery.
+The Microsoft Foundry patterns create the following relationships and references to support Microsoft Foundry discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI/Table|Relationship|CI/Table|
 |--------|------------|--------|
@@ -310,15 +310,18 @@ The Microsoft Foundry patterns create the following relationships to support Mic
 |Azure AI Foundry \[cmdb\_ci\_azure\_ai\_foundry\]|Contains::Contained by|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
 |Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
 |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI Function \[cmdb\_ci\_function\_ai\]|
-|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|References|AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]|
-|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|References|AI Function \[cmdb\_ci\_function\_ai\]|
-|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|References|AI Model Product Model \[cmdb\_ai\_model\_product\_model\]|
-|Key Value \[cmdb\_key\_value\]|References|Azure AI Foundry \[cmdb\_ci\_azure\_ai\_foundry\]|
-|Key Value \[cmdb\_key\_value\]|References|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
+
+|CI/Table|Field|Referenced CI/Table|
+|--------|-----|-------------------|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|Model \[model\]|AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\]|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|AI prompts \[ai\_prompts\]|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|AI models \[ai\_models\]|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|Configuration Item \[ci\]|AI Function \[cmdb\_ci\_function\_ai\]|
+|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|Model \[model\]|AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]|
+|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|Configuration Item \[ci\]|AI Function \[cmdb\_ci\_function\_ai\]|
+|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|Model \[model\]|AI Model Product Model \[cmdb\_ai\_model\_product\_model\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Azure AI Foundry \[cmdb\_ci\_azure\_ai\_foundry\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Azure AI Project \[cmdb\_ci\_azure\_ai\_project\]|
 
 ## Azure tag discovery
 

@@ -1,52 +1,52 @@
 ---
-title: Home page in TISC Workspace
-description: The TISC home page serves the landing page and provides a summary of Feeds Overview, Trending Threats, and Intelligence Sharing enabling visualization of threat intelligence data.
+title: TISC Workspace
+description: View a centralized dashboard of threat intelligence data including feeds overview, trending threats, and intelligence sharing metrics. Monitor your security posture with trending intelligence data.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Explore, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Home page in TISC Workspace
+# TISC Workspace
 
-The TISC home page serves the landing page and provides a summary of **Feeds Overview**, **Trending Threats**, and **Intelligence Sharing** enabling visualization of threat intelligence data.
+View a centralized dashboard of threat intelligence data including feeds overview, trending threats, and intelligence sharing metrics. Monitor your security posture with trending intelligence data.
 
 ## Before you begin
 
-Role required: sn\_sec\_tisc.analyst
+Access to the Home page is required to visualize threat intelligence data.
 
-On the Home page, you can perform the following procedure to visualize the threat intelligence data.
+Role required: sn\_sec\_tisc.analyst
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workspaces** &gt; **Threat Intelligence Security Center**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **Threat intelligence Security Center**.
 
     The TISC Home page is displayed.
 
-    ![TISC home page](../image/tisc-homepage-view.png)
+    ![Screen shot showing the TISC home page dashboard with threat intelligence trending data and charts.](../image/tisc-homepage-view.png)
 
-2.  View the TISC home page with different widgets data.
+2.  Review the TISC home page widgets.
 
     The home page view consists of three different tabs: **Feeds Overview**, **Trending Threats**, and **Intelligence Sharing**. The content on the home page comes from various sources such as observables, indicators, and data feeds.
 
-    1.  **Feeds Overview**: This tab provides a high level overview of different sources that the data is ingested and sources that are configured for the data ingestion.
+    1.  Select the **Feeds Overview** tab to view different sources where data is ingested and sources configured for data ingestion.
 
         |Widget Name|Description|Action|
         |-----------|-----------|------|
-        |Number of Sources|Displays the number of sources by status such as draft, enabled, and disabled in the system.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Active Sources by Source Type|Displays the distribution of active sources by source type.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Active Sources by Feed Format|Displays the number of enabled sources by Feed Type.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Total Active Observables \(30 days\)|Displays the top 10 sources by volume of intelligence records that were created in the last 30 days.|When this widget is clicked, the KPI details page of the widget for the selected filter is opened in a new tab.|
-        |Active Observables by Type|Displays the top total volume of observable aggregates that were created in the last 30 days.|When this widget is clicked, the KPI details page of the widget for the selected filter is opened in a new tab.|
-        |Active Indicators by Pattern Type|Displays the total volume of Indicator aggregates by pattern type that were created in the last 30 days.|When this widget is clicked, the KPI details page of the widget for the selected filter is opened in a new tab.|
-        |Total Active Indicators \(30 days\)|Displays the total volume of indicator aggregates that were created in the last 30 days.|When this widget is clicked, the KPI details page of the widget for the selected filter is opened in a new tab.|
-        |Top Sources by False Positives Count \(30 days\)|Displays the total volume by of False Positive observables that were created in the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
+        |Number of Sources|Displays the number of sources by status such as draft, enabled, and turned off in the application.|Selecting this widget opens the list page with filtered records.|
+        |Active Sources by Source Type|Displays the distribution of active sources by source type.|Selecting this widget opens the list page with filtered records.|
+        |Active Sources by Feed Format|Displays the number of enabled sources by Feed Type.|Selecting this widget opens the list page with filtered records.|
+        |Total Active Observables \(30 days\)|Displays the top 10 sources by volume of intelligence records that were created in the last 30 days.|Selecting this widget opens the KPI details page for the selected filter in a new tab.|
+        |Active Observables by Type|Displays the top total volume of observable aggregates that were created in the last 30 days.|Selecting this widget opens the KPI details page for the selected filter in a new tab.|
+        |Active Indicators by Pattern Type|Displays the total volume of Indicator aggregates by pattern type that were created in the last 30 days.|Selecting this widget opens the KPI details page for the selected filter in a new tab.|
+        |Total Active Indicators \(30 days\)|Displays the total volume of indicator aggregates that were created in the last 30 days.|Selecting this widget opens the KPI details page for the selected filter in a new tab.|
+        |Top Sources by False Positives Count \(30 days\)|Displays the total volume of False Positive observables that were created in the last 30 days.|Selecting this widget opens the list page with filtered records.|
 
-    2.  **Trending Threats**: This tab provides a high level overview of the trending threats.
+    2.  Select the **Trending Threats** tab to view trending threats.
 
 <table id="table_qtn_zpy_g1c"><thead><tr><th>
 
@@ -94,7 +94,7 @@ Displays the observables count that were created in the last 30 days distributed
 
 </td><td>
 
-When this widget is clicked, the KPI details page of the widget for the selected filter is opened in a new tab.
+Selecting this widget opens the KPI details page for the selected filter in a new tab.
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Displays the observables count that were created in the last 30 days distributed
 
 </td><td>
 
-When this widget is clicked, the KPI details page of the widget for the selected filter is opened in a new tab.
+Selecting this widget opens the KPI details page for the selected filter in a new tab.
 
 </td></tr><tr><td>
 
@@ -135,24 +135,24 @@ Displays the top 10 sectors ranked by activities reported that were created in t
 
 Select a sector in the chart and this opens the list view filtered by the selected sector.-   A bar chart highlighting sectors \(such as Commercial, Government, Aerospace, and so on\) most targeted by threats.
 -   Shows the frequency of targeting per sector.
--   Useful for understanding industry-specific threat trends and prioritization.
+-   Use this to understand industry specific threat trends and prioritization.
 
 
 </td></tr></tbody>
-</table>    3.  **Intelligence Sharing**: This tab provides a high level overview of the intelligence sharing.
+</table>    3.  Select the **Intelligence Sharing** tab to view intelligence sharing information.
 
         |Widget Name|Description|Action|
         |-----------|-----------|------|
-        |Inbound Intel - Record Count \(30 days\)|Displays the number of inbound intel records received in the last 30 days, categorized by type \(Observable, Object, Indicator\).|When this widget is clicked, the list page is opened with the filtered records.|
-        |Outbound Intel - Record Count \(30 days\)|Displays the number of outbound intel records shared in the last 30 days, categorized by type \(Observable, Object, Indicator\).|When this widget is clicked, the list page is opened with the filtered records.|
-        |Inbound Intel - Distribution by Status \(30 days\)|Displays the distribution of inbound intelligence records by status over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Outbound Intel - Distribution by Status \(30 days\)|Displays the distribution of outbound intelligence records by status over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Inbound Intel - Top Sharing Profile \(30 days\)|Displays the top profiles based on inbound intel received over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Outbound Intel - Top Shared Profile \(30 days\)|Displays the top profiles based on outbound intel shared over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Inbound Intel - Most Shared Types \(30 days\)|Displays the most frequently received intel types \(Object, Indicator, Observable\) over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Outbound Intel - Most Shared Types \(30 days\)|Displays the most frequently shared intel types \(Object, Indicator, Observable\) over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Inbound Intel - Distribution by Format \(30 days\)|Displays the format distribution \(e.g., MISP, STIX\) of inbound intel over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
-        |Outbound Intel - Distribution by Format \(30 days\)|Displays the format distribution \(e.g., MISP, STIX\) of outbound intel over the last 30 days.|When this widget is clicked, the list page is opened with the filtered records.|
+        |Inbound intelligence - Record Count \(30 days\)|Displays the number of inbound intelligence records received in the last 30 days, categorized by type \(Observable, Object, Indicator\).|Selecting this widget opens the list page with filtered records.|
+        |Outbound intelligence - Record Count \(30 days\)|Displays the number of outbound intelligence records shared in the last 30 days, categorized by type \(Observable, Object, Indicator\).|Selecting this widget opens the list page with filtered records.|
+        |Inbound intelligence - Distribution by Status \(30 days\)|Displays the distribution of inbound intelligence records by status over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Outbound intelligence - Distribution by Status \(30 days\)|Displays the distribution of outbound intelligence records by status over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Inbound intelligence - Top Sharing Profile \(30 days\)|Displays the top profiles based on inbound intelligence received over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Outbound intelligence - Top Shared Profile \(30 days\)|Displays the top profiles based on outbound intelligence shared over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Inbound intelligence - Most Shared Types \(30 days\)|Displays the most frequently received intelligence types \(Object, Indicator, Observable\) over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Outbound intelligence - Most Shared Types \(30 days\)|Displays the most frequently shared intelligence types \(Object, Indicator, Observable\) over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Inbound intelligence - Distribution by Format \(30 days\)|Displays the format distribution \(for example, MISP, STIX\) of inbound intelligence over the last 30 days.|Selecting this widget opens the list page with filtered records.|
+        |Outbound intelligence - Distribution by Format \(30 days\)|Displays the format distribution \(for example, MISP, STIX\) of outbound intelligence over the last 30 days.|Selecting this widget opens the list page with filtered records.|
 
 
 **Parent Topic:**[Explore](../reference/threat-intelligence-security-center-overview.md)
@@ -160,5 +160,5 @@ Select a sector in the chart and this opens the list view filtered by the select
 **Related topics**  
 
 
-[TISC Key terminology](../concept/tisc-key-terminology.md)
+[TISC Key terminology](../reference/tisc-key-terminology.md)
 

@@ -78,6 +78,4 @@ Role required: sn\_msi.workspace\_admin
 
 15. Validate MS Teams Connection.
 
-    ![MS Teams flow designer sub flows](../image/msteams-flow-designer-subflows.png)
-
 

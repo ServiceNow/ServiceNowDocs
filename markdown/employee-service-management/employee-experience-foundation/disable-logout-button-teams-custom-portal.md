@@ -6,7 +6,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Embed a custom portal, Configuring Employee Center, HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, Unified Employee Experience, Employee Service Management]
 ---
@@ -22,8 +22,6 @@ Role required: admin
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **CSS**.
-
-    ![CSS list](../images/system-css.png)
 
 2.  Click on your custom CSS.
 

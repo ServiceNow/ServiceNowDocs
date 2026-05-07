@@ -1,6 +1,6 @@
 ---
 title: Configuring Health Log Analytics
-description: As an Administrator, set up and configure Health Log Analytics for Operators to use, and carry out administration tasks to ensure that the system runs efficiently.
+description: As an administrator, set up and configure Health Log Analytics for operators to use, and carry out administration tasks to confirm that the system runs efficiently.
 locale: en-US
 release: australia
 product: Health Log Analytics
@@ -14,7 +14,7 @@ breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 
 # Configuring Health Log Analytics
 
-As an Administrator, set up and configure Health Log Analytics for Operators to use, and carry out administration tasks to ensure that the system runs efficiently.
+As an administrator, set up and configure Health Log Analytics for operators to use, and carry out administration tasks to confirm that the system runs efficiently.
 
 ## Configuration overview
 
@@ -30,19 +30,19 @@ Setup and configuration tasks:
 
     Install the Health Log Analytics application.
 
-2.  Set up log data inputs for streaming raw log messages to your ServiceNow instance.
+2.  Set up log data inputs for streaming raw log messages from external sources into your ServiceNow instance.
 
-    Use any of the following methods:
+    You're encouraged to integrate data inputs with Health Log Analytics from the Integrations Launchpad. This tool provides a unified interface for convenient integration setup:
 
     -   [Set up integrations for Health Log Analytics from the Integrations Launchpad](hla-data-input-setup-integrations.md).
 
-        You're encouraged to set up data input integrations from the Integrations Launchpad, which provides a unified interface for convenient integration.
+        Alternatively, you can set up data inputs in one of the following ways:
 
     -   [Set up data inputs in Health Log Analytics using guided setup](../task/hla-data-input-setup-guided.md).
     -   [Set up data inputs in Health Log Analytics manually](../task/hla-data-input-setup-manual.md).
 3.  [Identify and resolve a log streaming issue in Health Log Analytics](../task/hla-data-input-streaming.md).
 
-    Identify and address log streaming issues to ensure that the data inputs you have configured are streaming data properly to your instance.
+    Identify and address log streaming issues to confirm that the data inputs you have configured are streaming data properly to your instance.
 
 4.  [Edit raw log data before processing in Health Log Analytics](../task/hla-data-input-preprocess.md).
 

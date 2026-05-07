@@ -4,7 +4,7 @@ description: This use case illustrates how the ServiceNow Financial Services Ope
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -15,15 +15,13 @@ This use case illustrates how the ServiceNow Financial Services Operations \(FSO
 
 Any system that can handle making REST API calls can implement this scenario to create customer cases in FSO. In this scenario, the fields consumer, financial account, category, short description, and notes are sent from the external system.
 
-![FSO case flow showing requests from external systems.](../image/fso-external_case_req.png)
-
 The table that is accessed in this scenario is the Loan Service Case \[sn\_bom\_loan\_service\].
 
 The following diagram shows the flow of the REST API calls for this scenario and provides brief remarks on the processing.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
-![Flow diagram shows how an agent creates a loan case record and the flow of various REST API calls for processing. the case.](../image/fso-external_case_req-swim_diagram.png)
+
 
 </td><td>
 

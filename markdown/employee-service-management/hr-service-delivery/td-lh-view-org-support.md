@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # View organizations you support

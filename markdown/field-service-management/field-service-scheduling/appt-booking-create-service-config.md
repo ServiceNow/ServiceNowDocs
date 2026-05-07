@@ -115,6 +115,18 @@ This option is available when the Task Table is selected as work\_order and Fiel
 -   **Appointment configuration method**: This is the default option. It calculates availability based on the availability method setting in the appointment booking application configuration.
 For more information on appointment availability methods, see [Learn about appointment availability settings](../reference/appt-booking-task-assignment.md).
 
+</td></tr><tr><td>
+
+Allow overbooking
+
+</td><td>
+
+Option to allow overbooking of appointments for the configured slots.**Note:**
+
+-   This option is available when Use appointment schedule is selected.
+-   Only users with the roles defined in the roles\_allowed\_to\_overbook system property can enable overbooking of appointments.
+
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 General Information

@@ -41,15 +41,15 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d279629e149">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d269920e149">
 
 Choice
 
-</th><th align="left" id="d279629e152">
+</th><th align="left" id="d269920e152">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d279629e158">
+</th></tr></thead><tbody><tr><td id="d269920e158">
 
 **Reorder a single planning item**
 
@@ -59,7 +59,7 @@ Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-wo
 
  ![Prioritization page single row reorder](../images/backlog-v2-single-reorder.gif)
 
-</td></tr><tr><td id="d279629e183">
+</td></tr><tr><td id="d269920e183">
 
 **Reorder multiple planning items at once**
 
@@ -69,7 +69,7 @@ Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-wo
 2.  Use the Rearrange rows icon \(![Rearrange rows icon.](../../alignment-planner-workspace/images/icon-rearrange.png)\) to drag and drop the rows to the required position.
  ![Prioritization page multi-row reorder](../images/backlog-v2-multi-row-reorder.gif)
 
-</td></tr><tr><td id="d279629e223">
+</td></tr><tr><td id="d269920e223">
 
 **Reorder multiple planning items using the Rank items option**
 

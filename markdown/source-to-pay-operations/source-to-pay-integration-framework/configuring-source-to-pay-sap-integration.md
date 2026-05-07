@@ -24,7 +24,7 @@ Verify that you have performed the following:
     -   [Set up the SAP ECC RFC spoke](https://www.servicenow.com/docs/csh?topicname=setup-sap-ecc-rfc&amp;amp;amp;version=yokohama&amp;amp;amp;pubname=yokohama-integrate-applications)
     -   [Setup the SAP S4 HANA Public Cloud spoke](https://www.servicenow.com/docs/csh?topicname=setup-sap-s4hana-cloud-spk&amp;amp;amp;version=yokohama&amp;amp;amp;pubname=yokohama-integrate-applications)
     -   [Set up SAP S4 HANA OData spoke](https://www.servicenow.com/docs/csh?topicname=set-up-sap-s4-hana-odata-spoke&amp;amp;version=yokohama&amp;amp;pubname=yokohama-integrate-applications)
--   Activated the Source-to-Pay integration framework from ServiceNow Store. The Source-to-Pay integration with SAP uses the Source-to-Pay integration framework to pull tasks from SAP into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](source-to-pay-integration-framework.md).
+-   Activated the Source-to-Pay integration framework from ServiceNow Store. The Source-to-Pay integration with SAP uses the Source-to-Pay integration framework to pull tasks from SAP into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](../../source-to-pay-operations/concept/source-to-pay-integration-framework.md).
 
 
 ## Primary Data Integration Dependencies with SAP Dependencies

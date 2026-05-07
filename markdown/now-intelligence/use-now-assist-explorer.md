@@ -23,6 +23,8 @@ Help Now Assist understand your intent and what you hope to get from the data ex
 Edit text that the AI generated, or share your thoughts in AI Data Explorer by adding text to an exploration.
 -   **[Add an existing visualization to an exploration](../task/import-data-viz-list-exploration.md)**  
 You can add a data visualization or a list to a new or existing AI Data Explorer exploration from a dashboard, the data visualization library, or other areas of your workspace.
+-   **[View recommended actions in AI Data Explorer](../task/expl-view-recommended-actions.md)**  
+Receive AI recommendations of actions to take based on your current exploration in AI Data Explorer.
 -   **[Summarize an exploration](../task/summarize-exploration.md)**  
 Use AI to generate a summary of an exploration. If you update the exploration, you can regenerate the summary.
 -   **[Duplicate an exploration](../task/nowass-expl-duplicate-exploration.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 ---
 
 # Now Assist for IT Service Management \(ITSM\) release notes
@@ -14,9 +14,14 @@ The ServiceNow® Now Assist for IT Service Management \(ITSM\) application bring
 
 ## Now Assist for IT Service Management \(ITSM\) highlights for the Australia release
 
+[Australia Patch 2](../quality/australia-patch-2.md)
+
+-   Track which knowledge articles and catalog items support successful virtual agent deflections instead of transferring to human agents using the ITSM Virtual Agent Analytics dashboard.
+-   Use the ITSM MCP server to query and retrieve any information within the context of an incident.
+
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   Answer incident-related questions with context-aware agents using the Incident assist agentic workflow.
+-   Answer incident-related questions with context-aware agents using the incident assist agentic workflow.
 -   Submit a catalog item for an account unlock using the voice AI agent.
 -   Generate summaries and responses for Request Management records.
 -   Use the Knowledge Article Advanced Editor page to create and edit articles.
@@ -30,17 +35,26 @@ See [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/d
 
 To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
 
-1.  Go to **Admin** &gt; **Now Assist Admin**.
+1.  Go to **Admin** &gt; **Now Assist admin**.
 2.  Select **Now Assist Skills**.
 3.  Select **Platform**.
 4.  Select **Knowledge**.
 5.  Make sure the knowledge content recommendation skill is active.
 
-The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](../quality/australia-patch-1.md), if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](../quality/australia-patch-1.md), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+
+Starting with the [Australia Patch 2](../quality/australia-patch-2.md), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
 ## New in the Australia release
 
-[Australia Patch 1](../quality/australia-patch-1.md)
+-   **[ITSM Virtual Agent resources analytics](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-resources&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+
+    Identify which knowledge article or catalog item resources support successful deflections and which ones are unable in preventing the transfer to a live agent using the **Resources** tab in the ITSM Virtual Agent dashboard to gain visibility into the ITSM Virtual Agent usage and effectiveness.
+
+-   **[ITSM MCP server](https://www.servicenow.com/docs/access?context=now-assist-itsm-mcp-server&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+
+    Retrieve and modify incident details, search similar incidents, or lookup users and assignment groups by connecting the ITSM MCP server to any AI-enabled MCP client, such as Moveworks, or Claude.
+
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
@@ -51,13 +65,17 @@ The Incident assist agentic workflow is active by default and includes all the c
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
+-   **[ITSM Virtual Agent resources analytics](https://www.servicenow.com/docs/access?context=now-assist-itsm-conversational-dashboard-resources&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+
+    Identify which knowledge article or catalog item resources support successful deflections and which ones are unable in preventing the transfer to a live agent using the **Resources** tab in the ITSM Virtual Agent dashboard to gain visibility into the ITSM Virtual Agent usage and effectiveness.
+
 -   **[Incident assist agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
     Answer incident-related questions using context-aware agents. Handle queries about incident details and get information about related records.
 
 -   **[Enhancements to the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
-    The features in the \[DEPRECATED\] Incident assist skill are available in the Incident assist agentic workflow. You may turn off this skill and use the agentic workflow that has enhanced capabilities.
+    The features in the \[DEPRECATED\] incident assist skill are available in the incident assist agentic workflow. You may turn off this skill and use the agentic workflow that has enhanced capabilities.
 
 -   **[Creating a catalog item for unlocking accounts using the voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
@@ -88,13 +106,14 @@ The Incident assist agentic workflow is active by default and includes all the c
     -   Catalog task summarization
     -   Request activity response generation
     -   Requested item activity response generation
+    -   Catalog task activity response generation
 -   **[Summarize Request Management records](https://www.servicenow.com/docs/access?context=summarize-request-related-skill&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
     View an aggregate of all relevant updates and progress indicators in a single, dynamic summary.
 
 -   **[Generate a response to request activity](https://www.servicenow.com/docs/access?context=summarize-request-related-activity-response-generation&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
-    Generate a response in record activity streams of requests and requested items.
+    Generate a response in record activity streams of requests, requested items, and catalog tasks.
 
 -   **[DEX issue diagnosis and resolution agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
@@ -119,7 +138,7 @@ The Incident assist agentic workflow is active by default and includes all the c
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Renaming the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
-    The Incident assist skill has been renamed to **\[DEPRECATED\] Incident assist**.
+    The incident assist skill has been renamed to **\[DEPRECATED\] Incident assist**.
 
 -   **[Renaming demo voice AI agents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
@@ -150,20 +169,24 @@ The Incident assist agentic workflow is active by default and includes all the c
 
     |Existing name|Updated name|
     |-------------|------------|
-    |Add Comment To Incident|\(DEMO\) Add Comment To Incident-LLM|
+    |Add Comment To incident|\(DEMO\) Add Comment To incident-LLM|
     |Approve Sysapproval Approver|\(DEMO\) Approve Sysapproval Approver-LLM|
     |Change Password|\(DEMO\) Change Password \(Template\) - LLM|
     |Check IT Ticket Status|\(DEMO\) Check IT Ticket Status \(Template\)|
-    |Close Incident|\(DEMO\) Close Incident-LLM|
+    |Close incident|\(DEMO\) Close incident-LLM|
     |Explain change risk|\(DEMO\) Explain change risk|
-    |Mark Incident Unresolved|\(DEMO\) Mark Incident Unresolved-LLM|
+    |Mark incident Unresolved|\(DEMO\) Mark incident Unresolved-LLM|
     |Open IT Ticket|\(DEMO\) Open IT Ticket \(Template\)-LLM|
     |Reject Sysapproval Approver|\(DEMO\) Reject Sysapproval Approver-LLM|
     |Reset Password|\(DEMO\) Reset Password \(Template\) - LLM|
-    |Resolve Incident|\(DEMO\) Resolve Incident-LLM|
+    |Resolve incident|\(DEMO\) Resolve incident-LLM|
     |Unlock Account|\(DEMO\) Unlock Account \(Template\) - LLM|
     |View And Add Comments|\(DEMO\) View And Add Comments-LLM|
 
+
+## Deprecated features
+
+Starting with the [Australia Patch 2](../quality/australia-patch-2.md) release, the [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US) is deprecated, moved to the **Archived** folder and is no longer available for use.
 
 ## Activation information
 

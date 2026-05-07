@@ -171,7 +171,7 @@ Make an item available in service catalog for catalog item requests.
 -   **[Create a question for a catalog item in Catalog Builder](create-question-cat-builder.md)**  
 Specify a question that the requester should answer before submitting the catalog item.
 -   **[Edit a question in Catalog Builder](edit-question-cat-builder.md)**  
-Edit an existing question if you want to improve it by adding dynamic form behavior.
+Edit an existing question if you want to improve it by adding UI policies.
 -   **[Edit a catalog item in Catalog Builder](edit-cat-item-cat-builder.md)**  
 Make changes to an existing catalog item if you have permissions to edit the item.
 -   **[Transfer catalog items using update sets](transfer-catalog-items-using-update-sets.md)**  

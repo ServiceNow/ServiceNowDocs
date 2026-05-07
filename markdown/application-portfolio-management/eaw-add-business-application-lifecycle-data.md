@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add business application lifecycle data using the bubble chart
@@ -29,15 +29,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the bubble for the relevant application that you want to add business application life-cycle data for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d80360e111">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d72889e111">
 
 Bubble type
 
-</th><th align="left" id="d80360e114">
+</th><th align="left" id="d72889e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d80360e120">
+</th></tr></thead><tbody><tr><td id="d72889e120">
 
 **Single bubble**
 
@@ -48,7 +48,7 @@ Action
 
 ![Add lifecycle data button highlighted.](../../image/eaw-image/bubble-chart-menu-add-lifecycle-data.png)
 
-</td></tr><tr><td id="d80360e158">
+</td></tr><tr><td id="d72889e158">
 
 **Grouped bubble**
 

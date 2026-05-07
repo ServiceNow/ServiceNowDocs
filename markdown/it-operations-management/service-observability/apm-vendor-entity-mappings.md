@@ -7,7 +7,7 @@ product: Service Observability
 classification: service-observability
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
@@ -197,6 +197,17 @@ You can use either the Dynatrace Classic query or Grail \(DQL\) query, however b
 |**Compute**|Host|Hosts|
 |**Databases**|MySQL|MySQL database instances|
 | |PostgreSQL|PostgreSQL database instances|
+
+## LogicMonitor entity mapping
+
+Resources are returned using the Get Devices API, using specific property values on the entities as a filter.
+
+|Service Observability entity category|Service Observability entity dashboard|LogicMonitor resource|
+|-------------------------------------|--------------------------------------|---------------------|
+|**Application**|Service|Entities with the `predef.externalResourceType` auto property set to `Service`|
+|**Compute**|Host|Entities with the `predef.externalResourceType` auto property set to `PhysicalServer`, `Container`, or `VirtualMachine`|
+|**Databases**|MySQL|Entities with the `system.categories` custom property set to `MySQL`|
+| |PostgreSQL|Entities with the `system.categories` custom property set to `PostgreSQL`|
 
 ## New Relic entity mapping
 

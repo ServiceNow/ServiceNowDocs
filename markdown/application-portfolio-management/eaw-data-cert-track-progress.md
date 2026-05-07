@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Track progress of a certification policy
@@ -15,7 +15,7 @@ Monitor and review the certification policy status to track completion progress 
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst
+Role required: sn\_apm.apm\_analyst
 
 ## Procedure
 

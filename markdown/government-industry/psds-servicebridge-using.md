@@ -41,8 +41,8 @@ Remote Catalog items are ordered from the consumer instance, and create provider
 
 The process for agency providers to create a remote catalog is as follows:
 
-1.  Create a remote record producer in a remote catalog. For information on how to do this, see [Create a remote record producers in a remote catalog in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
-2.  Create variables for remote record producers. For information on how to do this, [Create variables for remote record producers in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-assign-variables-ser-defn&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+1.  Create a remote record producer in a remote catalog. For information on how to do this, see [Create a remote record producers in a remote catalog in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+2.  Create variables for remote record producers. For information on how to do this, [Create variables for remote record producers in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-assign-variables-ser-defn&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 3.  Associate flows to the record producers.
 
 Remote tasks enable you to assign and synchronize the task's data on separate instances so that you can quickly fulfill the service requests from your constituents. Some examples of the consumer requests are as follows:
@@ -50,7 +50,7 @@ Remote tasks enable you to assign and synchronize the task's data on separate in
 1.  Request help for issues that your constituents are having.​
 2.  Request to assign the existing tasks to you so that you can support your constituent's issues​.
 
-For information on how to create a remote task definition that triggers the assignment of a remote task, see [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+For information on how to create a remote task definition that triggers the assignment of a remote task, see [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 ## Service Exchange request fulfillment process
 

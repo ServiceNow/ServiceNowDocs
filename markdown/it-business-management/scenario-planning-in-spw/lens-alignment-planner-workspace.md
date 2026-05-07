@@ -25,7 +25,7 @@ Each lens in Strategic Planning consists of a structure that is made up of entit
 
 The planning item types associated with the bottom entity of a lens represent the type of work that can be planned using these portfolio plans.
 
-![Lens structure](../images/lens-structure.png "Sample lens structure")
+![Lens structure](../../portfolio-planning/images/lens-structure-pp.png "Sample lens structure")
 
 For example, the Organization lens has a Company, Business Unit, and Department as its entities. As the head of the Support department, you can create a portfolio plan at the department level. Then, you can prioritize the work that is assigned to the department and plan a roadmap for the prioritized work. This work can be in the form of epics, projects, demands, or any other custom type.
 

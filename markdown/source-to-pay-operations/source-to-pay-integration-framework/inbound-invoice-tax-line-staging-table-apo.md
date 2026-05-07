@@ -31,15 +31,15 @@ The following table lists the fields for the invoice tax line inbound \[sn\_shop
 **Related topics**  
 
 
-[Invoice import inbound staging table](../../sourcing-procurement-operations/reference/inbound-invoice-import-staging-table.md)
+[Invoice import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-import-staging-table.md)
 
 [Import error staging table](../../accounts-payable-operations/reference/import-error-staging-table.md)
 
-[Invoice line import inbound staging table](../../sourcing-procurement-operations/reference/inbound-invoice-line-staging-table.md)
+[Invoice line import inbound staging table](../../source-to-pay-integrations/reference/inbound-invoice-line-staging-table.md)
 
 [Invoice payment detail import inbound table](../../accounts-payable-operations/reference/invoice-payment-detail-staging-table.md)
 
-[Organization tax details inbound staging table](../../supplier-lifecycle-operations/reference/slo-org-tax-details-inbound-table.md)
+[Organization tax details inbound staging table](../../source-to-pay-integrations/reference/slo-org-tax-details-inbound-table.md)
 
 [Invoice staging table](../../accounts-payable-operations/reference/invoice-staging-table.md)
 

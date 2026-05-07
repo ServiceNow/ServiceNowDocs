@@ -37,15 +37,15 @@ Your third-party contacts are external users at the third-party organization. Th
 
 3.  Manage the access to the portal for your third-party contacts.
 
-<table id="choicetable_x4v_zdv_2bc"><thead><tr><th align="left" id="d76840e103">
+<table id="choicetable_x4v_zdv_2bc"><thead><tr><th align="left" id="d79176e103">
 
 Option
 
-</th><th align="left" id="d76840e106">
+</th><th align="left" id="d79176e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76840e112">
+</th></tr></thead><tbody><tr><td id="d79176e112">
 
 **Deactivate the account**
 
@@ -55,7 +55,7 @@ Deactivate the account by clearing the **Active** check box.
 
  After you deactivate the account, the third-party contact can't log in or appear in the list of associated contacts.
 
-</td></tr><tr><td id="d76840e130">
+</td></tr><tr><td id="d79176e130">
 
 **Resend Invite**
 
@@ -65,7 +65,7 @@ Resend an email invitation for accessing the third-party contact portal by selec
 
  The email contains a link to the third-party portal and login credentials.
 
-</td></tr><tr><td id="d76840e148">
+</td></tr><tr><td id="d79176e148">
 
 **Delete Contact**
 
@@ -73,7 +73,7 @@ Resend an email invitation for accessing the third-party contact portal by selec
 
 Remove the snc\_external role from the third-party contact and deactivate the third-party contact by selecting the **Delete Contact** related link.
 
-</td></tr><tr><td id="d76840e160">
+</td></tr><tr><td id="d79176e160">
 
 **Locked out**
 
@@ -83,7 +83,7 @@ Lock out the third-party contact by selecting the **Locked out** option.
 
  After you lock out the third-party contact, that person can't log in anymore. This option enables the third-party contact to lose access while still being active. This action can be useful as a precautionary measure while the third-party contact's password is being reset.
 
-</td></tr><tr><td id="d76840e179">
+</td></tr><tr><td id="d79176e179">
 
 **Set password**
 
@@ -91,7 +91,7 @@ Lock out the third-party contact by selecting the **Locked out** option.
 
 Generate a new password and send it to the third-party contact by selecting **Set Password**.
 
-</td></tr><tr><td id="d76840e191">
+</td></tr><tr><td id="d79176e191">
 
 **Reset a password**
 

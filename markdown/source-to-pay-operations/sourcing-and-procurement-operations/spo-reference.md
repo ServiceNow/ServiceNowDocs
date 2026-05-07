@@ -15,10 +15,14 @@ breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 
 Reference topics provide additional information about Sourcing and Procurement Operations, including lists, forms, rules, components, parameters, roles, and personas.
 
+-   **[Base system procurement case type reference](base-system-procurement-case-types.md)**  
+Procurement Case Management provides 13 base system case types that classify procurement work.
 -   **[Create New Pipeline Project form](create-pipeline-project-form.md)**  
 Use the Create New Pipeline Project form to provide details about the pipe project.
 -   **[Pipeline project record tabs and UI actions](pipeline-form-tabs-actions.md)**  
 View project financial details, add existing procurement objects to pipeline projects, or create new procurement objects from the Pipeline project record form.
+-   **[Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md)**  
+Purchase requisitions, purchase orders, and sourcing requests move through a series of states as they progress through the procurement lifecycle. Each state reflects the current stage of processing and determines what actions are available.
 -   **[SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)**  
 Describes the data model and state synchronization between SPO and ITAM for purchase orders, purchase requisitions,sourcing requests, shipments, and receipts.
 -   **[Domain separation and Sourcing and Procurement Operations](../concept/psm-domain-separation.md)**  

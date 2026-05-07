@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-24"
 reading_time_minutes: 3
-breadcrumb: [Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure the Discovery Console for OT

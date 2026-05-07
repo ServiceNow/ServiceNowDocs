@@ -1,6 +1,6 @@
 ---
 title: AI Search Admin console
-description: The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and enable AI Search solutions across different types of search applications.
+description: The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 locale: en-US
 release: australia
 product: AI Search
@@ -14,7 +14,7 @@ breadcrumb: [ServiceNow Store applications and integrations, AI Search, Search a
 
 # AI Search Admin console
 
-The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and enable AI Search solutions across different types of search applications.
+The AI Search Admin console application provides AI Search administrators with a no-code management tool to configure, test, and activate AI Search solutions across different types of search applications.
 
 AI Search Admin Console. 
 
@@ -50,7 +50,7 @@ For more information about the home page and its controls, see [AI Search Admin 
 ## AI Search Admin console benefits
 
 -   Prebuilt AI Search configurations for Service Portal, Now Mobile, Virtual Agent, and other applications that support AI Search.
--   Step-by-step assistance to enable Now Assist Genius Results.
+-   Step-by-step assistance to activate Now Assist Genius Results.
 -   Easy access to pages that have various configuration settings.
 -   Performance Analytics indicators to track and monitor the search applications.
 

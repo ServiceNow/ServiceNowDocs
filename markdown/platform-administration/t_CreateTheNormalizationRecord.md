@@ -13,6 +13,10 @@ breadcrumb: [Normal values, Field normalization and transformation, Administer, 
 
 Regardless of the normalization method selected, all field normalization requires a list of existing variants and a normal value that is configured to replace these variants in forms and in queries.
 
+## Before you begin
+
+Role required: none
+
 ## About this task
 
 Normalize a field by selecting aliases for a normal field value or by creating rules that use condition statements to match field variants with a normal value.
@@ -46,10 +50,6 @@ Special Cases
 
     After the normalization record is submitted, the platform runs the Pending value collection job in the **Data Jobs** related list automatically to gather all the current values \(Pending Values\) for the field being normalized.
 
-    ![Run data job](../image/NormalizeForm1.png)
-
     Click the **Pending Values** related list to view values for the normalized field that have been entered manually, imported into the platform, or created by Discovery.
-
-    ![Pending values list](../image/NormalizeForm2.png)
 
 

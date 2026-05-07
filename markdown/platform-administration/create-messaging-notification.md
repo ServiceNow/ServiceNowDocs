@@ -21,11 +21,11 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Notification** &gt; **Messaging** &gt; **Messaging Notifications**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in or modify the fields as appropriate.
 
-    ![Identifying the notification](../image/EmailNotifFormTop.png)
+    ![Messaging notification form showing Name, Table, Category, and Description fields](../image/email-notification-form.png)
 
 <table id="table_tlr_5hd_rdb"><thead><tr><th>
 
@@ -41,7 +41,7 @@ Name
 
 </td><td>
 
-Enter a unique name for the notification. Use descriptive names to ensure that your users are able to easily distinguish between notifications.
+Enter a unique name for the notification. Use descriptive names to confirm that your users can easily distinguish between notifications.
 
 </td></tr><tr><td>
 
@@ -70,13 +70,13 @@ Enter a description for this notification.
 </td></tr></tbody>
 </table>    **Note:** Notification records are shared between messaging, email, and push notifications. Some fields on the form are not relevant to messaging notification records. Leave fields not described here at their default values.
 
-4.  Click**Advanced view** under **Related links** to switch the advanced view.
+4.  Select**Advanced view** under **Related links** to switch the advanced view.
 
     **Note:** Switching to the Advanced view saves the current record.
 
 5.  Open the **When to send** tab and complete the form.
 
-    ![Specifying when to send the notification.](../image/email_notification_when_to_send.png)
+    ![When to send tab showing Send when, Weight, Conditions, and Advanced condition fields](../image/when-to-send-tab.png)
 
     **Note:** If the same trigger generates multiple notifications, the system only sends one notification. The system considers all other notifications, even if they have a different subject and body, as duplicates. The Ignore Duplicates business rule controls this functionality.
 

@@ -8,7 +8,7 @@ classification: telecommunications-service-operations-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Install Horizontal Discovery and set up Discovery Patterns

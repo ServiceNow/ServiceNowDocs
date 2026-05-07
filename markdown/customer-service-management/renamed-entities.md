@@ -1,6 +1,6 @@
 ---
 title: Service Model Foundation renamed Entities
-description: The renamed entities dispaly several Service Model Foundation entities that are renamed, including the previous and current names.
+description: The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
 locale: en-US
 release: australia
 topic_type: reference
@@ -11,7 +11,9 @@ breadcrumb: [Reference, Customer Service Management]
 
 # Service Model Foundation renamed Entities
 
-The renamed entities dispaly several Service Model Foundation entities that are renamed, including the previous and current names.
+The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
+
+**Note:** The entity name changes are available in the Business Location 5.2.0 store app.
 
 |Table name|Previous label|New label|
 |----------|--------------|---------|
@@ -30,6 +32,8 @@ The renamed entities dispaly several Service Model Foundation entities that are 
 ## Field label renaming
 
 The following foreign key field labels have been updated across impacted entities.
+
+**Note:** The entity name changes are available in the Business Locations 5.2.0 store app.
 
 |Table name|Field name|Previous label|New label|
 |----------|----------|--------------|---------|

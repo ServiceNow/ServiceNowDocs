@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-23"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Core Business Suite release notes
@@ -64,7 +64,7 @@ Install Core Business Suite by requesting it from the ServiceNow Store. Visit th
 
 ## Related ServiceNow applications and features
 
--   **[Setup Hub](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **[Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
 
     Provides a modular and personalized admin home dashboard that helps centralize instance management and helps with faster completion of critical tasks. It supports context-aware insights and recommended next actions.
 

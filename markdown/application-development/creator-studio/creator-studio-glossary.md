@@ -117,5 +117,5 @@ A number assigned to the app that increases with each subsequent time it's deplo
 
 ## workflow
 
-Defined sequence of steps automating processes in Sales and Order Management.
+Defined sequence of steps automating processes in Sales Customer Relationship Management.
 

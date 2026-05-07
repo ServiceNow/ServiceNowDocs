@@ -89,7 +89,7 @@ Create a new Certificate entry with the type of "Trust Store Cert" and attach a 
 
 ## Protocol Profile
 
-![](../image/CertExchange.png "Certificate Exchange")
+![Certificate exchange workflow](../image/CertExchange.png "Certificate Exchange")
 
 -   When a client requests the server certificate for authentication, a certificate signing request \(CSR\) is generated.
 -   To respond to a CSR, the server generates two unique cryptographic keys: A public key, which is used to encrypt messages to the server and a private key, which is used to decrypt messages. Both keys are kept in the Key Store.

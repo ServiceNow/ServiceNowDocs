@@ -15,6 +15,12 @@ breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure
 
 Use the ServiceNow Contracts add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
 
+## About this task
+
+The following video walks you through the process of configuring dynamic tables using Microsoft Word add-in for ServiceNow Contracts.
+
+The video walks you through the process of configuring dynamic tables using Microsoft Word add-in for ServiceNow Contracts. 
+
 ## Before you begin
 
 The Microsoft Word add-in for ServiceNow Contracts must be configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](cncore-config-word-addin.md).
@@ -61,15 +67,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  In the **Table display configuration** section, set the display properties to define how the data appears within the table in the contract document and then select **Next**.
 
-<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d509725e302">
+<table id="choicetable_cv4_gdw_bcc"><thead><tr><th align="left" id="d518468e325">
 
 Field
 
-</th><th align="left" id="d509725e305">
+</th><th align="left" id="d518468e328">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d509725e311">
+</th></tr></thead><tbody><tr><td id="d518468e334">
 
 **Sort by**
 
@@ -77,7 +83,7 @@ Description
 
 The criteria by which to sort the data.
 
-</td></tr><tr><td id="d509725e320">
+</td></tr><tr><td id="d518468e343">
 
 **Sorting order**
 
@@ -85,7 +91,7 @@ The criteria by which to sort the data.
 
 Sorts the data either in ascending or descending order.
 
-</td></tr><tr><td id="d509725e329">
+</td></tr><tr><td id="d518468e352">
 
 **Enable hierarchy**
 
@@ -93,7 +99,7 @@ Sorts the data either in ascending or descending order.
 
 Option to group the data based on parent-child relationships.
 
-</td></tr><tr><td id="d509725e338">
+</td></tr><tr><td id="d518468e361">
 
 **Parent field**
 
@@ -101,7 +107,7 @@ Option to group the data based on parent-child relationships.
 
 The parent field for the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d509725e353">
+</td></tr><tr><td id="d518468e376">
 
 **Hierarchy column\(s\)**
 
@@ -109,7 +115,7 @@ The parent field for the hierarchy view.This field appears only when **Enable hi
 
 The columns for which data should be displayed in the hierarchy view.This field appears only when **Enable hierarchy** has been selected.
 
-</td></tr><tr><td id="d509725e367">
+</td></tr><tr><td id="d518468e390">
 
 **Row indentation**
 

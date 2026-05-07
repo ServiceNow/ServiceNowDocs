@@ -14,7 +14,7 @@ The ServiceNow® Recommended Actions for Operational Technology Service Manageme
 
 ## Recommended Actions for OTSM highlights for the Australia release
 
-Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
+-   Use the AI Enhanced Recommended Actions for OTSM feature to access external sources related to an OT incident and review why the document is relevant to the incident.
 
 See [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=recommended-actions-for-otsm&version=australia&pubname=australia-operational-technology&ft:locale=en-US) and [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=ai-enhanced-ra-otsm-landing&version=australia&pubname=australia-operational-technology&ft:locale=en-US) for more information.
 

@@ -29,13 +29,13 @@ Role required: sn\_fcms\_intg.admin
 
 4.  Select **Run job** to trigger the flow or subflow.
 
-    ![Select and run the subflows](../image/sap-ariba-run-job.png "Run subflows in SAP Ariba")
+    ![Select and run the subflows](../../source-to-pay-operations/image/sap-ariba-run-job.png "Run subflows in SAP Ariba")
 
 5.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 6.  From the Workflow Studio home page, select the **Operations** tab and then select **Flows** tab.
 
-    ![List of executed flows in SAP Ariba](../image/sap-ariba-flow-execution.png "Flow execution in SAP Ariba")
+    ![List of executed flows in SAP Ariba](../../source-to-pay-operations/image/sap-ariba-flow-execution.png "Flow execution in SAP Ariba")
 
     The list of flow executions appear. You can look up the status of the flows or subflows that you triggered. If there were any errors during execution, you can view them under the processing message column.
 
@@ -43,7 +43,7 @@ Role required: sn\_fcms\_intg.admin
 
 8.  Select the More icon ![More icon](../../sourcing-procurement-operations/image/more_vertical_icon.png) corresponding to the flow, subflow, or application name, use the filter condition, and select **Apply**.
 
-    ![Filter the subflows](../image/sap-ariba-filter-flow.png "Filter flow, subflow, or application")
+    ![Filter the subflows](../../source-to-pay-operations/image/sap-ariba-filter-flow.png "Filter flow, subflow, or application")
 
     You can view the flows or subflows that you triggered.
 

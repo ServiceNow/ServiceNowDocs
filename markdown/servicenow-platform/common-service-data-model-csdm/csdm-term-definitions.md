@@ -49,7 +49,7 @@ An item whose financial value is tracked.
 
 </td><td>
 
-Many \(but not all\) assets are CIs and vice versa. Assets have a life cycle with financial considerations, for example, Microsoft 365.
+Many, but not all, assets are CIs and many, but not all, CIs are assets. Assets have a life cycle with financial considerations, for example, Microsoft 365.
 
 </td></tr><tr><td>
 

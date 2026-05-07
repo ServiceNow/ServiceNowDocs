@@ -17,7 +17,7 @@ View and edit control tests and assessment procedures in a hierarchical data gri
 
 ## Before you begin
 
-Role required: sn\_grc\_cam.sca or sn\_grc\_cam.isso \(to edit effectiveness\)
+Role required: sn\_grc\_cam.sca or sn\_grc\_cam.isso
 
 ## About this task
 

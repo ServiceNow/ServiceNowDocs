@@ -75,7 +75,7 @@ Priority
 
 </td><td>
 
-Severity of the preventive action. Optionss are:-   Critical
+Severity of the preventive action. Options are:-   Critical
 -   Major
 -   Moderate
 -   Minor
@@ -86,7 +86,7 @@ State
 
 </td><td>
 
-Sate of the preventive action:-   New
+State of the preventive action:-   New
 -   On hold
 -   In progress
 -   Closed complete

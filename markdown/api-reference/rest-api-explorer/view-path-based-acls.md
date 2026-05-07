@@ -23,7 +23,7 @@ Role required: security\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **REST API \(SysWS operation\)**.
+1.  Navigate to **All** &gt; **System Web Services** &gt; **Scripted REST APIs**.
 
 2.  Select the **REST resource ACLs related list** tab.
 

@@ -60,15 +60,15 @@ Role required: sp\_admin or admin
 
 6.  Review the benchmark results.
 
-<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d58522e237">
+<table id="choicetable_drv_ynr_jdc"><thead><tr><th align="left" id="d59820e237">
 
 Option
 
-</th><th align="left" id="d58522e240">
+</th><th align="left" id="d59820e240">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d58522e246">
+</th></tr></thead><tbody><tr><td id="d59820e246">
 
 **Benchmark details**
 
@@ -78,7 +78,7 @@ From the Benchmark results list, select a widget or AJAX API to view additional 
 
  ![Performance results for each widget on the page from the Benchmark details view](../image/performance-analyzerbenchmark-details.png)
 
-</td></tr><tr><td id="d58522e265">
+</td></tr><tr><td id="d59820e265">
 
 **Preview**
 

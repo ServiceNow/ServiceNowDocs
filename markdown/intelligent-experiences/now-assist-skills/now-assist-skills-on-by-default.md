@@ -6,7 +6,7 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-29"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist skills, Generative AI, Gen AI]
 breadcrumb: [Now Assist AI assets, Enable AI experiences]
@@ -35,12 +35,14 @@ Starting with the Zurich Patch 4 release, some Now Assist skills, agents, and ag
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](now-assist-skills-on-by-default.md).
-
 **Note:** Some workflow skills support Now Assist functionality. Deactivating these skills may negatively impact some features.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](../../ai-implementation/concept/ai-native-sku-overview.md).
 
-|Product|Type|Asset name|Effective date|Release notes|
-|-------|----|----------|--------------|-------------|
+## Now Assist AI assets that are on by default
+
+[Release notes](https://www.servicenow.com/docs/access?context=new-features-changes&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+
+|Product|Type|Asset name|Effective date|
+|-------|----|----------|--------------|
 

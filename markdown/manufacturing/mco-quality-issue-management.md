@@ -15,8 +15,32 @@ Quality issue management \(QIM\) application enables manufacturers to capture, t
 
 The Quality Issue Management consists of two integrated applications that work together to support your quality management needs:
 
-|Features|Description|
-|--------|-----------|
-|[Manufacturing quality management](mco-manufacturing-quality-management.md)| |
-|[Remediation core](mco-remediation-management.md)| |
+## Manufacturing quality management
+
+Manufacturing quality management enables teams to track and resolve Non-Conformances \(NCs\) and Quality Issues \(QIs\) across products, assets, and operations by capturing problems, coordinating investigations, and fostering stakeholder collaboration.
+
+Product non-conformance
+
+The Product non-conformance \(PNC\) workspace provides a streamlined mechanism to capture and address deviations when they occur.
+
+The PNC workspace supports:
+
+-   Review and Route: Assign issues to the appropriate stakeholders.
+-   Correction Actions: Implement measures to resolve non-conformance.
+-   Containment Actions: Avoid further impact while corrective actions are in progress.
+-   Closure Reporting: Document resolution and formally close the issue.
+
+Product quality investigation
+
+Product quality investigation \(PQI\) is an organized method used to find, examine, and address problems with a product or service. Problems include defects, non-conformance, or customer complaints. QI needs comprehensive investigation with multiple stakeholders.
+
+The PQI workspace supports:
+
+-   Root Cause Analysis: Identify the underlying causes of defects.
+-   Long-Term Resolution: Implement corrective and preventive actions.
+-   Continuous Improvement: Enhance processes to avoid recurrence.
+
+## Remediation core
+
+The Remediation core enables organizations to identify root causes and implement structured remediation plans for both operations and finances. It supports quick fixes and long-term solutions to resolve issues efficiently and sustainably.
 

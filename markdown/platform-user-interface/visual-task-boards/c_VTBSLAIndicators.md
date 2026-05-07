@@ -8,7 +8,7 @@ classification: visual-task-boards
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
 ---
 
 # Visual Task Board SLA indicators

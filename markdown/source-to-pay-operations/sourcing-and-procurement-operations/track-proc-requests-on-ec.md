@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Tracking your procurement requests in Employee Center

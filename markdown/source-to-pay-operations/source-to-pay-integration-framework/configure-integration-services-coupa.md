@@ -42,7 +42,7 @@ If the application requires multiple Coupa ERP instances, create separate web se
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Look up Legal Entities from Coupa](../image/coupa-fulllpull.png "Look up Legal Entities from Coupa")
+    ![Look up Legal Entities from Coupa](../../source-to-pay-operations/image/coupa-fulllpull.png "Look up Legal Entities from Coupa")
 
 4.  On the integration service record, fill in the fields.
 

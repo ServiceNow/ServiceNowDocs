@@ -25,7 +25,7 @@ Filter groups can contain dynamically updated records, a series of static record
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Groups** &gt; **Filter Groups**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -94,7 +94,7 @@ Condition
 Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the criteria to be filtered.
 
 </td></tr></tbody>
-</table>4.  Right-click the form header and select **Save**.
+</table>4.  Select and hold \(or right-click\) the form header and select **Save**.
 
     An **Advanced Conditions** tab appears.
 
@@ -108,29 +108,29 @@ Use the [condition builder](https://www.servicenow.com/docs/access?context=c_Con
 
 5.  To define more conditions for your filter group:
 
-    1.  Click **Advanced Conditions**.
+    1.  Select **Advanced Conditions**.
 
     2.  Insert a new row into the **Additional Filter Group Conditions** embedded list to select other prebuilt filter groups that you want to combine with the filter group being updated.
 
         If you want the selected filter group to filter records based on a reference field, a mapped field is automatically selected when the current record is saved.
 
-        **Note:** The **Mapped field** value cannot be edited from the **Additional Filter Group Conditions** embedded list. To change the field, click the information icon ![Information](../../vulnerability-response/image/i-icon.png) to open the record.
+        **Note:** The **Mapped field** value cannot be edited from the **Additional Filter Group Conditions** embedded list. To change the field, select the information icon ![Information](../../vulnerability-response/image/i-icon.png) to open the record.
 
-    3.  Click **Update**.
+    3.  Select **Update**.
 
 6.  To manually add more CIs or tasks to the filter group:
 
-    1.  Click the **Manually Added CIs** or **Manually Added Tasks** tab.
+    1.  Select the **Manually Added CIs** or **Manually Added Tasks** tab.
 
-    2.  Click **Edit**.
+    2.  Select **Edit**.
 
     3.  Select the CIs or tasks you want to add.
 
-    4.  Click **Save**.
+    4.  Select **Save**.
 
 7.  To view the CIs or tasks that match your selection criteria:
 
-    1.  Click the **Matching CIs** or **Matching Tasks** tab.
+    1.  Select the **Matching CIs** or **Matching Tasks** tab.
 
     2.  If you changed the criteria, refresh the list by right-clicking in the form header and selecting **Refresh List**.
 

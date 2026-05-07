@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Swap agent shifts in Workforce Optimization for Customer Service
@@ -36,5 +36,5 @@ Role required: sn\_shift\_planning.admin
     The team calendar displays the updated schedule.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

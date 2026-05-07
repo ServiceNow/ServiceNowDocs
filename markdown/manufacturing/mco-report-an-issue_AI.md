@@ -37,7 +37,7 @@ The Enhance non conformance description AI skill evaluates the non-conformance d
 
 3.  In the **Describe the issue** field, enter the issue description in your own words.
 
-    The description is evaluated for 5W2H that is what where, when, who, why, and how. Based on the information provided.
+    The description is evaluated for 5W2H that is what, where, when, who, why, and how. Based on the information provided.
 
     1.  Select **Suggestions for improvement** to get assistance from Now Assist ![](../../../common/image/icon-ai-sparkle.png).
 
@@ -47,7 +47,7 @@ The Enhance non conformance description AI skill evaluates the non-conformance d
 
     4.  Select **Continue**.
 
-4.  Proceed without entering the detials in the **Follow-up** activity.
+4.  Proceed without entering the details in the **Follow-up** activity.
 
     -   Now Assist ![](../../../common/image/icon-ai-sparkle.png) analyzes the issue description and attachments to auto-populate answers to the follow-up questions.
     -   You can edit the auto-populated answers by selecting the form fields and **Continue**.

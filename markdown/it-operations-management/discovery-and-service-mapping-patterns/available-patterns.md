@@ -99,8 +99,8 @@ The Discovery and Service Mapping Patterns application uses the Linux Server pat
 Discovery and Service Mapping Patterns finds Oracle Analytics Server \(formerly Oracle Business Intelligence Enterprise Edition\) components on Windows and Linux servers in your environment. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Oracle Catalog discovery](../reference/oracle-catalog-discovery.md)**  
 The Discovery and Service Mapping Patterns application uses the **Get Catalog info** pattern extension of the Oracle DB on Unix and Oracle DB on Windows patterns to find Oracle Catalog objects. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Oracle Database 12c discovery](../reference/oracle-cdb-pdb-discovery.md)**  
-The ServiceNow Discovery application can discover pluggable databases \(PDBs\) and container databases \(CDBs\), which are features of Oracle Database 12c. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Oracle pluggable database and container database discovery](../reference/oracle-cdb-pdb-discovery.md)**  
+The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../reference/oracle-glas-discovery.md)**  
 The ServiceNow Discovery application uses the Oracle verified GLAS Data Collection pattern to discover Oracle GLAS data. This data includes discovered Oracle Database, Middleware, and Java configuration items.
 -   **[Oracle GoldenGate discovery](oracle-golden-gate-discovery.md)**  

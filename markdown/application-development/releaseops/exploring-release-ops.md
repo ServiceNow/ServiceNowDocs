@@ -6,7 +6,7 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 5
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, ServiceNow large scale deployments]
 breadcrumb: [ReleaseOps, Deploying applications, Building applications]
@@ -71,7 +71,7 @@ A tester is responsible for signing off on ATF test failures that occur to enabl
 
 The following workflow illustrates the sample pipeline workflow installed with ReleaseOps. Your pipeline manager can customize it as needed.
 
-![This infographic displays the sample pipeline workflow.](../image/ro-workflow.png "ReleaseOps sample pipeline workflow")
+![Flowchart showing the ReleaseOps assessment playbook workflow from start to deployment.](../image/releaseops-sample-pipeline-workflow-MMASSET0021906.png "ReleaseOps sample pipeline workflow")
 
 In the traditional development to test to production workflow:
 

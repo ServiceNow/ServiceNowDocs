@@ -23,7 +23,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the lists icon \(![Lists icon.](../../assessment-engine/image/list-icon.png)\).
+2.  Select the ![List icon](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  Select Authority documents in the Compliance library list.
 

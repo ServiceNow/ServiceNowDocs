@@ -33,7 +33,7 @@ Developer Sandboxes overview video
 [Administer![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Administer and allocate Developer Sandboxes](../task/administering-sandboxes.md)
 
 </td></tr></tbody>
-</table>Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes help enhance Git-based workflows of the modern software development life cycle by reducing conflicts and enabling faster time to production.
+</table>Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes help enhance Git-based workflows of the software development life cycle by reducing conflicts and enabling faster time to production.
 
 Effective management of Developer Sandboxes enables companies to do the following:
 

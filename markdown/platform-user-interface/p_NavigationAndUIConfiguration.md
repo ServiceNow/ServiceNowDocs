@@ -13,8 +13,8 @@ breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user exper
 
 Change appearance, navigation menus, CSS, and utilize cutting edge interface tools.
 
--   **[Response time indicator](../../../use/common-ui-elements/concept/c_ResponseTimeIndicator.md)**  
-A response time indicator may appear at the bottom right of forms and in the list view for List v2.
+-   **[Response time indicator icon](../../../use/common-ui-elements/concept/c_ResponseTimeIndicator.md)**  
+A response time indicator icon may appear at the bottom right of forms and in the list view in the classic environment.
 -   **[Navigation stack](../../navigation-and-ui/concept/c_NavigationStack.md)**  
 The navigation stack is the portion of the ServiceNow suite of applications that determines where a user is redirected after the update of a record.
 -   **[Navigation action cancellation](../../form-administration/concept/c_CancelingNavigationActions.md)**  

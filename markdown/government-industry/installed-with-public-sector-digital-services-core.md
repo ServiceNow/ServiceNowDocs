@@ -25,9 +25,9 @@ The following plugins are activated when you enable the Public Sector Digital Se
 
 Demo data is available for this feature.
 
-**Note:** For information about the roles installed when you activate the Public Sector Digital Services Core plugin, as well as other Public Sector Digital Services applications, see [Roles installed with graPublic Sector Digital Services](roles-installed-with-public-sector-digital-services.md).
+**Note:** For information about the roles installed when you activate the Public Sector Digital Services Core plugin, as well as other Public Sector Digital Services applications, see [Roles installed with Public Sector Digital Services](roles-installed-with-public-sector-digital-services.md).
 
--   **[Roles installed with graPublic Sector Digital Services](roles-installed-with-public-sector-digital-services.md)**  
+-   **[Roles installed with Public Sector Digital Services](roles-installed-with-public-sector-digital-services.md)**  
 The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 -   **[Properties installed with Public Sector Digital Services](properties-installed-with-psds.md)**  
 Use the system properties that are added with the activation of the Public Sector Digital Services application to configure access control to application data.

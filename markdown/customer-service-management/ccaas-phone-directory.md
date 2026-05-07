@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [icc\_search\_limit ServiceNow, icc\_search\_limit, ICC phone directory, ICC address book]
-breadcrumb: [ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Phone directory

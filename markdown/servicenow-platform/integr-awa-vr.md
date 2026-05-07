@@ -46,7 +46,7 @@ Role required: sn\_cti\_amzn\_cct.admin
 
 6.  Set up AWA queue to route Amazon Connect phone calls.
 
-    To setup AWA, see 
+    To setup AWA, see [Get started with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=implement-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
 
 
 ## What to do next

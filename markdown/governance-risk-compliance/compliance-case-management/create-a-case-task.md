@@ -27,7 +27,7 @@ After a case is reported to the compliance team, a compliance case analyst can c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  In the List section, select **All Cases**.
 

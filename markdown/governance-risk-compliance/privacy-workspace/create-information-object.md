@@ -23,7 +23,7 @@ Role required: sn\_privacy.admin
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Privacy Workspace, select the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Privacy elements** &gt; **AllInformation objects**.
 

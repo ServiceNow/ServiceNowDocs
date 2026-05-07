@@ -273,20 +273,23 @@ On the Dependency Views map, you can view discovered Amazon Bedrock resources an
 
 ## CI relationships
 
-The Amazon AWS - Bedrock Agents pattern creates the following relationships to support Amazon Bedrock discovery.
+The Amazon AWS - Bedrock Agents pattern creates the following relationships and references to support Amazon Bedrock discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI/Table|Relationship|CI/Table|
 |--------|------------|--------|
 |AI Function \[cmdb\_ci\_function\_ai\]|Deployed as::Deployment of|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|
 |AI Function \[cmdb\_ci\_function\_ai\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|
-|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|References|AI Function \[cmdb\_ci\_function\_ai\]|
-|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|References|AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]|
-|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|References|AI Function \[cmdb\_ci\_function\_ai\]|
-|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|References|AI Model Product Model \[cmdb\_ai\_model\_product\_model\]|
-|Key Value \[cmdb\_key\_value\]|References|AI Function \[cmdb\_ci\_function\_ai\]|
+
+|CI/Table|Field|Referenced CI/Table|
+|--------|-----|-------------------|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|Model \[model\]|AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\]|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|AI prompts \[ai\_prompts\]|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|AI models \[ai\_models\]|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|
+|AI System Digital Asset \[alm\_ai\_system\_digital\_asset\]|Configuration Item \[ci\]|AI Function \[cmdb\_ci\_function\_ai\]|
+|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|Model \[model\]|AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\]|
+|AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]|Configuration Item \[ci\]|AI Function \[cmdb\_ci\_function\_ai\]|
+|AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\]|Model \[model\]|AI Model Product Model \[cmdb\_ai\_model\_product\_model\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AI Function \[cmdb\_ci\_function\_ai\]|
 
 ## AWS tag discovery
 

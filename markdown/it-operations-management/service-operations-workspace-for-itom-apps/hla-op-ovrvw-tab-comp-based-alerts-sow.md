@@ -65,5 +65,5 @@ For a detailed description of Component-based alerts, see [Types of Health Log A
     ![Meaningful log properties shows relative frequency of occurrence for property values.](../image/meaningful-log-properties-card-sow.png "Meaningful log properties")
 
 
-**Parent Topic:**[Take action on a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
+**Parent Topic:**[Start remediation of a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
 

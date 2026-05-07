@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 4
 ---
 
 # Telecommunications, Media, and Technology \(TMT\)
@@ -18,7 +18,7 @@ TMT brings together legacy systems, streamlines service fulfillment workflows th
 
 -   **Key benefits**
     -   Reduce operational costs through process automation and system consolidation.
-    -   Accelerate time-to-market with out-of-the-box workflows for service activation and order management.
+    -   Accelerate time-to-market with default workflows for service activation and order management.
     -   Improve customer experience with real-time visibility, intelligent alerting, and proactive issue resolution across the entire customer life cycle.
     -   Improve agent efficiency with real-time visibility across systems that enables first-contact resolution and reduces escalations.
 
@@ -46,11 +46,27 @@ Telecommunications Service Management \(TSM\) breaks down siloed legacy systems 
 
 -   [Now Assist for Telecommunications, Media, and Technology](../../tmt-spmc/reference/now-assist-spmc.md)
 -   [Customer Success Management](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
--   [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+-   [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 -   [Product Support for Technology](https://www.servicenow.com/docs/access?context=assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
 -   [Customer Service Problem Management](../../tmt-spmc/reference/cspm-landing-page.md)
 -   [Service Test Management](../../tmt-service-test-management/reference/stm-landing-page.md)
 -   [Telecommunications Customer 360](../../tmt-telecom-customer-360/concept/c360-land-page.md)
+
+</td></tr><tr><td>
+
+Additional capabilities
+
+</td><td>
+
+Telecommunications applications that enable you to automate operations and manage your infrastructure include network inventory, service operations, portfolio planning, field work, ad order management.
+
+</td><td>
+
+-   [Telecommunications Network Inventory](../../tmt-telecom-network-inventory/concept/telecom-network-inventory.md)
+-   [Telecommunications Service Operations Management](../../tmt-telecom-service-operations-mgt/concept/telecommunications-service-operations-management.md)
+-   [Sales Customer Relationship Management for Telecommunications](../../tmt-somt/concept/somt.md)
+-   [Field Service Management for Telecommunications](../../tmt-field-service-management/concept/field-service-management-telecommunications.md)
+-   [Strategic Portfolio Management for Telecommunications](../../tmt-spmt/concept/spmt-overview.md)
 
 </td></tr><tr><td>
 
@@ -64,73 +80,25 @@ Technology Provider Service Management \(TPSM\) automates work for technology pr
 
 -   [Now Assist for Telecommunications, Media, and Technology](../../tmt-spmc/reference/now-assist-spmc.md)
 -   [Customer Success Management](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
--   [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+-   [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 -   [Product Support for Technology](https://www.servicenow.com/docs/access?context=assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
 
 </td></tr></tbody>
-</table>For information on other telecommunication applications, see [List of applications](telecom-media-tech-landing.md#section_olz_s1v_j5b).
+</table>## Developer reference
 
-## List of applications
+<table id="id_pjw_hng_bjc"><tbody><tr><td>
 
-<table id="table_cry_rvq_pvb" class="nav-card"><tbody><tr><td>
-
-[Customer Service Problem Management![](../../../reuse/icons/brand-icons/bus-customer-happy.svg)Streamline the resolution process for handling service-related problems.](../../tmt-spmc/reference/cspm-landing-page.md)
+APIs
 
 </td><td>
 
-[Customer Success Management ![](../image/bus-events-tmt.svg) Streamline, automate, and measure critical workflows across the enterprise.](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+**TMF APIs for TMT**
+
+Open Digital Architecture-aligned REST APIs available across TMT solutions — a shared API surface for integrations.
 
 </td><td>
 
-[Field Service Management for Telecommunications![](../../../reuse/icons/brand-icons/bus-field-service-technician.svg)Manage field service workflows for telecommunications industry customers.](../../tmt-field-service-management/concept/field-service-management-telecommunications.md)
-
-</td></tr><tr><td>
-
-[Now Assist for Sales and Order Management for Telecommunications![](../../../reuse/icons/brand-icons/bus-artificial-intelligence.svg)Automate enrichment, fulfillment, and order management tasks.](../../tmt-spmc/reference/somt-now-assist.md)
-
-</td><td>
-
-[Now Assist for Telecommunications, Media, and Technology![](../../../reuse/icons/brand-icons/bus-1-1-meetings.svg)Summarize service problem cases, generate case resolution notes, and summarize tests.](../../tmt-spmc/reference/now-assist-spmc.md)
-
-</td><td>
-
-[Product Support for Technology![](../image/bus-workflow-tmt.svg) Deliver end-to-end workflows to resolve network-related incidents and proactively notify impacted customers.](https://www.servicenow.com/docs/access?context=assurance-workflows&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US)
-
-</td></tr><tr><td>
-
-[Sales and Order Management for Telecommunications![](../image/bus-customer-and-contract-management-tmt.svg)Capture, manage, and fulfill customer and external service orders.](../../tmt-spmc/concept/somt.md)
-
-</td><td>
-
-[Service Exchange ![](../../../reuse/icons/brand-icons/bus-service-portal.svg)Connect customers and providers without custom integration to track service requests directly between instances.](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
-
-</td><td>
-
-[Service Test Management![](../../../reuse/icons/brand-icons/bus-find-an-app.svg)Define, execute, and monitor service tests in real time.](../../tmt-service-test-management/reference/stm-landing-page.md)
-
-</td></tr><tr><td>
-
-[Strategic Portfolio Management for Telecommunications![](../../../reuse/icons/brand-icons/bus-case-study.svg)Define and customize tasks and requirements for fiber rollout and 5G projects.](../../tmt-spmt/concept/spmt-overview.md)
-
-</td><td>
-
-[Telecommunications Customer 360![](../../../reuse/icons/brand-icons/bus-discover.svg)Get a unified view of customer data aggregated from different platforms.](../../tmt-telecom-customer-360/concept/c360-land-page.md)
-
-</td><td>
-
-[Telecommunications Network Inventory ![](../image/bus-server-tmt.svg) Build and monitor physical and logical networks and provisioned services.](https://www.servicenow.com/docs/access?context=telecom-network-inventory&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US)
-
-</td></tr><tr><td>
-
-[Telecommunications Service Operations Management![](../image/bus-siem-tmt.svg) Proactively monitor the health of networks and services to prevent downtime.](https://www.servicenow.com/docs/access?context=telecommunications-service-operations-management&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
+[Browse API reference](../reference/tmt-api-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -6,8 +6,8 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-04-30"
+reading_time_minutes: 8
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -82,13 +82,40 @@ To enable the connector to access your Microsoft SharePoint Online source system
 
     3.  For each of the following permissions, enter the permission name into the **Select permissions** search field, then locate and select the option for the permission.
 
-        -   GroupMember.Read.All
-        -   Sites.Read.All
+<table id="table_wls_w2k_cjc"><thead><tr><th>
 
-            **Note:** The Microsoft SharePoint Online external content connector only uses the Sites.Read.All permission to perform automatic site discovery for crawl configuration and one-time crawls. If you plan to specify the sites to crawl manually, you don't need to select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](create-user-mapping-crawl-external-content-connector.md).
+Permission
 
-        -   User.Read.All
-    4.  Select **Add permissions**.
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+GroupMember.Read.All
+
+</td><td>
+
+The connector needs this permission to read group memberships from Microsoft Entra ID.
+
+</td></tr><tr><td>
+
+Sites.Read.All
+
+</td><td>
+
+The connector needs this permission to perform automatic site discovery for crawl configuration and one-time crawls.**Note:** If you plan to specify the sites to crawl manually, don't select this permission. For more information on specifying sites for the connector to crawl, see [Configure crawl settings for a Microsoft SharePoint Online external content connector](configure-crawl-settings-spo-ext-cont-connector.md). To learn more about one-time crawls, see [Create a content crawl for an external content connector](create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](create-user-mapping-crawl-external-content-connector.md).
+
+</td></tr><tr><td>
+
+User.Read.All
+
+</td><td>
+
+The connector needs this permission to read users from Microsoft Entra ID. User information includes user type and account enablement status.
+
+</td></tr></tbody>
+</table>    4.  Select **Add permissions**.
 
         The new Microsoft Graph permissions appear in the application's Configured permissions list.
 
@@ -97,6 +124,8 @@ To enable the connector to access your Microsoft SharePoint Online source system
         ![Request API permissions dialog box in Microsoft Entra admin center showing SharePoint tile.](../image/ms-entra-request-api-permissions-sharepoint.png)
 
     6.  In the **Select permissions** search field, enter either `Sites.FullControl.All` or `Sites.Selected`, then locate and select the option for the specified permission.
+
+        The connector needs one of these permissions to read content and permission details from your Microsoft SharePoint Online tenant.
 
         **Important:**
 

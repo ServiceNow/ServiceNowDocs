@@ -34,7 +34,7 @@ If you express dissatisfaction or explicitly request human assistance at any poi
 
 1.  Log in to the Business Portal.
 
-2.  Select the **Now Assist** icon to launch the Now Assist chat panel.
+2.  Launch the Now Assist chat panel by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
 
     Now Assist uses the context of the current page to tailor its responses and offer support. For example, launching it from an invoice details page offers help in the context of that invoice.
 
@@ -76,7 +76,7 @@ If you express dissatisfaction or explicitly request human assistance at any poi
     |**Receive a credit note for the missing quantity**|Request a credit for the disputed quantity|
     |**Receive or order the remaining quantity**|Request delivery of the remaining items|
 
-    If you are not satisfied with the resolution options, you can request to be transferred to a human agent. The AI agent uses sentiment analysis to detect dissatisfaction. You can also explicitly ask to chat with a human agent. For example, you can enter `I'd like to speak with an agent`.
+    If you're not satisfied with the resolution options, you can request to be transferred to a human agent. The AI agent uses sentiment analysis to detect dissatisfaction. You can also explicitly ask to chat with a human agent. For example, you can enter `I'd like to speak with an agent` or select **Connect with a live agent**.
 
     Depending on the resolution option you select, a credit note is issued or an order for the outstanding items is created. The invoice case state is updated to Closed.
 

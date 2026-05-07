@@ -27,7 +27,7 @@ The user who owns the restricted resource must authorize access. The user can al
 
 The Authorization code grant flow process consists of these three steps:
 
-![](../../../product/discovery/image/AuthCodeGrantFlow1.png)
+![Authorization code grant flow process](../../../product/discovery/image/AuthCodeGrantFlow1.png)
 
 In step one, the client application or website initiates a REST API call in the form of a GET request to the instance via the user agent. Typically, the REST call is initiated when the end user clicks a button or a link on the client application or website to request an access token. In the client application, the end user also has to specify the authorization URL, token URL, client ID, and client secret. For an explanation of these items, see the field descriptions in this topic: [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=australia&pubname=australia-api-reference&ft:locale=en-US). If the client asks for a grant type, the end user must select **Authorization Code**.
 
@@ -49,7 +49,7 @@ Example response from the instance to the client application, providing an autho
 https/http://{callbackURL}?code={the actual auth code}
 ```
 
-![](../../../product/discovery/image/AuthCodeGrantFlow2.png)
+![Client application sends auth code to ServiceNow instance, which in turn sends a token](../../../product/discovery/image/AuthCodeGrantFlow2.png)
 
 Now that the client application has the authorization code, the client uses the code to request the access token. The authorization code proves that the user has consented in step 1.
 
@@ -63,7 +63,7 @@ The endpoint on the instance returns an access token and a refresh token. The re
 
 You can manage the tokens, including revoking the token, in the instance. See [Manage OAuth tokens](../task/t_ManageTokens.md).
 
-![](../../../product/discovery/image/AuthCodeGrantFlow3.png)
+![Client application sends a token to ServiceNow instance, which then sends a JSON payload of data](../../../product/discovery/image/AuthCodeGrantFlow3.png)
 
 The client application uses the access token to authenticate to the REST API. After authenticating the client application, the REST API returns the requested data in a JSON payload.
 

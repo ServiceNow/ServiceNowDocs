@@ -59,7 +59,7 @@ Completing work order on ServiceNow Agent can include one or more of the followi
 
     Field Service agents, managers ,and dispatchers can all use push notifications to stay informed of any updates related to tasks, groups, or individual agents.
 
--   [Chat on ServiceNow Agent](get-help-needed-complete-jobs.md#)
+-   [Start a Sidebar discussion on the Mobile Agent application](../task/start-sidebar-mobile.md)
 
     Connect with your customers or peers using the Mobile Agent app to get more information when you are at a task location.
 

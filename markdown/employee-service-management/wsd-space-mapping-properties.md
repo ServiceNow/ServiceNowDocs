@@ -174,7 +174,7 @@ sn\_wsd\_space\_map.default\_label\_on\_map\_reservation
 Default value used to display labels on map on the reservation portal search page.**Note:** This property is displayed only when any of the following properties are enabled in Workplace Space Mapping and Workplace Core respectively:
 
 -   sn\_wsd\_space\_map.display\_seat\_assignment: Displays the permanent seat assignments on the location directory. For more information, see [Properties installed with Workplace Space Mapping](wsd-space-mapping-properties.md)
--   sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details:Determines whether reservation details appear when users point to booked spaces on the floor plan in Workplace Service Portal. For more information, see [Properties installed with Workplace Core](../../workplace-service-delivery/reference/properties-installed-with-workplace-service-delivery.md).
+-   sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details:Determines whether reservation details appear when users select booked spaces on the floor plan in Workplace Service Portal. For more information, see [Properties installed with Workplace Core](../../workplace-service-delivery/reference/properties-installed-with-workplace-service-delivery.md).
     -   Type: true\|false
     -   Default value: false
 

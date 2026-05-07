@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 5
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -17,9 +17,7 @@ As an operational risk manager, you can visualize the risk details and better un
 
 ## Overview of the heatmap workbench
 
-A risk heatmap is a graphical representation of your risk data where the individual values that are contained in a matrix are represented in colors that denote a meaning. You can use risk heatmaps to see your risk assessment results in a convenient, visually attractive, and succinct format. Starting in version 14.0, you can launch the risk heatmap workbench with the launch workbench icon \( ![Launch Workbench icon.](../image/risk_heatmap_workbench.png)\).
-
-![Launch risk heatmap workbench from the risk workspace.](../image/heatmap-launcher.png)
+A risk heatmap is a graphical representation of your risk data where the individual values that are contained in a matrix are represented in colors that denote a meaning. You can use risk heatmaps to see your risk assessment results in a convenient, visually attractive, and succinct format. Starting in version 14.0, you can launch the risk heatmap workbench with the launch workbench ![Launch Workbench icon.](../image/risk_heatmap_workbench.png) icon.
 
 ## Features of the heatmap workbench
 
@@ -40,8 +38,6 @@ By pointing to each risk, you can quickly get details about the risk. For exampl
 ## Reporting in the heatmap workbench
 
 The heatmap workbench is the primary tool that you use for risk reporting and analysis. By looking at the Risk movement and Risk trend, you can visualize your organization's risk profile and share that information with your stakeholders.
-
-![Risk movement trend.](../image/risk-movement-trend.png)
 
 You can view the risk movement from inherent \(risk level without controls or mitigating actions\), to residual risk \(leftover risk after the implementation of controls\), finally to target risk \(risk level that you want to achieve in future\) on the heatmap workbench. This information helps you to analyze the assigned controls to mitigate if the risks are effective or not. The risk movement is available only for RAMs where the residual risk has the same factors as an inherent risk.
 

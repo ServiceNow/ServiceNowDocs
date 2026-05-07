@@ -39,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d338142e154">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d344220e154">
 
 Field
 
-</th><th align="left" id="d338142e157">
+</th><th align="left" id="d344220e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d338142e163">
+</th></tr></thead><tbody><tr><td id="d344220e163">
 
 **Connection Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name of your New Relic connection. This name helps you identify it later. For example, New Relic Prod.
 
-</td></tr><tr><td id="d338142e178">
+</td></tr><tr><td id="d344220e178">
 
 **Connection URL**
 
@@ -63,7 +63,7 @@ Name of your New Relic connection. This name helps you identify it later. For ex
 
 URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The connection URL might vary by region or account.
 
-</td></tr><tr><td id="d338142e193">
+</td></tr><tr><td id="d344220e193">
 
 **API Key**
 
@@ -71,7 +71,7 @@ URL of the New Relic AI API: `https://nrai-streaming.service.newrelic.com`. The 
 
 New Relic API key.
 
-</td></tr><tr><td id="d338142e204">
+</td></tr><tr><td id="d344220e204">
 
 **Header Name**
 

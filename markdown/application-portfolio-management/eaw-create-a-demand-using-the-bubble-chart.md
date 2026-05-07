@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a demand using the bubble chart
@@ -31,15 +31,15 @@ Use a demand as a step to identify cost-saving opportunities on the business app
 
 4.  Select the bubble for the relevant application that you want to create a demand for perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d34997e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d33513e92">
 
 Bubble type
 
-</th><th align="left" id="d34997e95">
+</th><th align="left" id="d33513e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d34997e101">
+</th></tr></thead><tbody><tr><td id="d33513e101">
 
 **Single bubble**
 
@@ -50,7 +50,7 @@ Action
 
 ![Create demand button highlighted.](../../image/eaw-image/bubble-chart-menu-create-demand.png)
 
-</td></tr><tr><td id="d34997e139">
+</td></tr><tr><td id="d33513e139">
 
 **Grouped bubble**
 

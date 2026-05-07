@@ -1,19 +1,21 @@
 ---
 title: ServiceNow Studio release notes
-description: TheServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # ServiceNow Studio release notes
 
-TheServiceNowÂ® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
+The ServiceNowÂ® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. ServiceNow Studio was enhanced and updated in the Australia release.
 
 ## ServiceNow Studio highlights for the Australia release
 
+-   As of version 29.1.4, when opening a file that supports preview in ServiceNow Studio, the interface defaults to the preview pane instead of the underlying record form, providing immediate visual context for the file content.
+-   As of version 29.1.4, when creating an application, the **Create with Now Assist** option opens Build Agent by default instead of the Now Assist for app generation skill.
 -   Create and edit full-stack applications conversationally with Build Agent, an autonomous AI agent.
 -   Build pages for workspaces or custom web experiences in your applications by adding UI Builder files to your application in ServiceNow Studio.
 
@@ -29,9 +31,13 @@ ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. Itâ€
 
     Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
+-   **Create an application with Build Agent**
+
+    Begin a chat with Build Agent directly from the app creation workflow. This setting can be configured in user preferences.
+
 -   **[Add UI Builder files to your apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-file-navigator-taxonomy&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
-    Build pages by adding UI Builder components, controllers, experiences, page collections, and UI interactions into your ServiceNow Studio apps.
+    Add UI Builder components, controllers, experiences, page collections, and UI interactions into your ServiceNow Studio apps.
 
 -   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
@@ -46,6 +52,11 @@ ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. Itâ€
 
 
 ## Changed in this release
+
+-   **[Preview an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=preview-app-file&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+    Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
+
 
 -   **[Integrated tab groupings](https://www.servicenow.com/docs/access?context=qs-open-apps-files-across-scopes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
@@ -70,9 +81,17 @@ ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
     Work with access controls and roles for apps and files in ServiceNow Studio.
 
+-   **[App generation](https://www.servicenow.com/docs/access?context=sns-now-assist-app-gen-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+    Create applications through a conversation with generative AI.
+
+-   **[Build Agent](https://www.servicenow.com/docs/access?context=build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+    Use Build Agent, an autonomous AI agent, for creating and updating ServiceNowÂ® applications.
+
 -   **[Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
-    Use Creator Studio to create an application without how to code.
+    Use Creator Studio to create an application without writing code.
 
 -   **[Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
 
@@ -98,17 +117,13 @@ ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
     Add mobile experiences in a Mobile App Builder within ServiceNow Studio.
 
--   **[App generation](https://www.servicenow.com/docs/access?context=sns-now-assist-app-gen-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
-
-    Create applications through a conversation with generative AI.
-
 -   **[Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
 
     Edit cross-functional processes and consolidate them into automated task-oriented views.
 
 -   **[ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
-    ReleaseOps automates deployment of changes across your pipeline, which helps increase predictability and reliability of deployments and reduce the risk of releasing changes to production.
+    ReleaseOps automates deployment of changes across your pipeline, which helps increase predictability and reliability of deployments and helps reduce the risk of releasing changes to production.
 
 -   **[Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 

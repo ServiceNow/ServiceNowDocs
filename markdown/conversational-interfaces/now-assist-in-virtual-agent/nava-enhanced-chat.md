@@ -7,7 +7,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 26
+reading_time_minutes: 25
 keywords: [Using, Now Assist, Virtual Agent, AI Search, Multi-turn catalog ordering, genius results, generative AI]
 breadcrumb: [Using Now Assist in Virtual Agent, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -155,14 +155,6 @@ If Now Assist Guardian is enabled and your request contains profane content, the
 
 ![Ask a follow up from the portal's synthesized response leads to a Virtual Agent chat where you can enter additional content.](../../virtual-agent/images/enhanced-chat-ask-follow-up-example.png "Example of Ask a follow up in Virtual Agent")
 
-Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(![Thumbs up icon.](../../virtual-agent/images/llm-thumbs-up-like.png)\). If the response wasn't helpful, select the dislike thumbs down icon \(![Thumbs down icon.](../../virtual-agent/images/llm-thumbs-down-dislike.png)\). When you select the thumbs up or thumbs down icon, you are prompted to provide detailed feedback by selecting one or more reason check boxes. You can also select **Other** to add comments or suggestions \(up to 300 characters\). After making your selection, select **Submit** to submit your feedback or select **X** to close the dialog without submitting feedback. All submitted feedback is captured, stored, and made available through analytic dashboards.
-
-![image.feedback-panel-granular]
-
-Depending on the context of the response, an additional go to search results icon \(![Go to search results icon.](../image/nass-search-result-icon.png)\) may appear in the feedback icons panel. This icon appears alongside synthesized responses in Virtual Agent, clarifying questions in Virtual Agent, and regular search results or Virtual Agent fallback topics whenever a synthesized response is unavailable. Selecting the go to search results icon \(![Go to search results icon.](../image/nass-search-result-icon.png)\) redirects you to the search results page and begins a search query using the last five chat utterances you entered.Additionally, a copy message icon \(![](../image/dw-feedback-copy-message-icon.png)\) appears on received Virtual Agent responses.
-
-![The feedback panel includes thumbs up, thumbs down, go to search results, and copy message icon.](../image/dw-feedback-panel-zp4.png "Example of feedback panel in enhanced chat")
-
 Responses generated in Now Assist in Virtual Agent can come from a combination of catalog items, Virtual Agent topics, subflows and actions, knowledge articles, attachments, external content sources, and people citations. Inline citations appear at the end of the relevant synthesized response sentence. Selecting an inline citation results in a popover containing either a link to an article or source, or a description and action to start the action. The following options may appear as synthesized response in-line citations depending on what search results are returned:
 
 -   Catalog
@@ -173,6 +165,14 @@ Responses generated in Now Assist in Virtual Agent can come from a combination o
 -   Extended entities and additional records
 
 **Note:** Q&amp;A Knowledge Base and external content connection citations also appear within the expandable **Show sources** option.
+
+## Response feedback
+
+Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(![Thumbs up icon.](../../virtual-agent/images/llm-thumbs-up-like.png)\). If the response wasn't helpful, select the dislike thumbs down icon \(![Thumbs down icon.](../../virtual-agent/images/llm-thumbs-down-dislike.png)\). When you select the thumbs up or thumbs down icon, you are prompted to provide detailed feedback by selecting one or more reason check boxes. You can also select **Other** to add comments or suggestions \(up to 300 characters\). After making your selection, select **Submit** to submit your feedback or select **X** to close the dialog without submitting feedback. All submitted feedback is captured, stored, and made available through analytic dashboards.
+
+![Thumbs down granular feedback dialog.](../image/feedback-panel-granular.png "Example of additional feedback panel from thumbs down icon")
+
+Depending on the context of the response, an additional go to search results icon \(![Go to search results icon.](../image/nass-search-result-icon.png)\) may appear in the feedback icons panel. This icon appears alongside synthesized responses in Virtual Agent, clarifying questions in Virtual Agent, and regular search results or Virtual Agent fallback topics whenever a synthesized response is unavailable. Selecting the go to search results icon \(![Go to search results icon.](../image/nass-search-result-icon.png)\) redirects you to the search results page and begins a search query using the last five chat utterances you entered.Additionally, a copy message icon \(![](../image/dw-feedback-copy-message-icon.png)\) appears on received Virtual Agent responses.
 
 ## Agentic conversations
 

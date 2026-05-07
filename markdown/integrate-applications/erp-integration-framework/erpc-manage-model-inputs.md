@@ -1,20 +1,20 @@
 ---
 title: Manage input parameters for a Zero Copy Connector for ERP model operation
-description: Specify how fields on the ERP system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record from Zero Copy Connector for ERP.
+description: Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record from Zero Copy Connector for ERP.
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, input, parameter, operation, read, create, update, crud]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Manage input parameters for a Zero Copy Connector for ERP model operation
 
-Specify how fields on the ERP system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record from Zero Copy Connector for ERP.
+Specify how fields on the ERP \(Enterprise Resource Planning\) system map to input parameters and their values to define the inputs for an operation that reads, creates, or updates the system of record from Zero Copy Connector for ERP.
 
 ## Before you begin
 
@@ -49,7 +49,7 @@ If you're already in the process of managing a model and ready to specify inputs
     -   The Operation parameters section.
     -   The Table/Functioncall section, where you define the parameters the operation uses. The Table section appears for read operations, and the Functioncall section appears for BAPI \(Business Application Programming Interface\) operations.
 
-        Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed.
+        Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP semantic mapping](../reference/erp-semantic-mapping.md).
 
         Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](erp-edit-mapped-value-name-in-model-manager.md).
 

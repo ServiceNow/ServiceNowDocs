@@ -1,33 +1,16 @@
 ---
-title: CRM and Industry Products
-description: ServiceNow Customer Relationship Management \(CRM\) helps you sell, fulfill and service on one unified platform. ServiceNow CRM consists of Sales and Order Management, Field Service Management and Customer Service Management and their related industry extensions. Industry Products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
+title: Industry Products
+description: Industry products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
 ---
 
-# CRM and Industry Products
+# Industry Products
 
-ServiceNow® Customer Relationship Management \(CRM\) helps you sell, fulfill and service on one unified platform. ServiceNow CRM consists of Sales and Order Management, Field Service Management and Customer Service Management and their related industry extensions. Industry Products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
-
-## CRM products
-
-<table id="table_x5b_bxc_1fc" class="nav-card"><tbody><tr><td>
-
-[Customer Service Management ![](../../../reuse/icons/brand-icons/bus-customer-service-agent.svg)Manage customer cases, resolve problems, and track interactions across multiple channels.](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
-
-</td><td>
-
-[Field Service Management![](../../../reuse/icons/brand-icons/bus-field-service-technician.svg) Manage work orders, assets, or locations, and dispatch agents to perform field work.](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
-
-</td><td>
-
-[Sales and Order Management![](../../../reuse/icons/brand-icons/bus-transaction.svg)Manage your sales cycle, including order management, lead and opportunity management, quote generation, contract renewals, and invoicing.](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)
-
-</td></tr></tbody>
-</table>## Industry products
+Industry products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

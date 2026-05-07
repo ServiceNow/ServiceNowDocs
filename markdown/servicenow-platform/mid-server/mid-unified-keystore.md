@@ -87,6 +87,8 @@ MIIDKzCCAhOgAwIBAgIEPqMQqDANBgkqhkiG9w0BAQsFADBGMQswCQYDVQQGEwJV
 
 [Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
 
+[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+
 [MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
 
 [Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
@@ -194,19 +196,19 @@ The **manage-certificates** has the following functions and the scripts must be 
 
 -   **Enable mutual authentication​**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -m`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -m`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -m`
 
 -   **Remove mutual authentication and restore back basic authentication**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -b <myUserName myPassword>`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -b <myUserName myPassword>`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -b <myUserName myPassword>`
 
 -   **Add new certificates and certificate chains with a specified alias​**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -a <alias> <fileName>`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -a <alias> <fileName>`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -a <alias> <fileName>`
 
@@ -236,7 +238,7 @@ The **manage-certificates** has the following functions and the scripts must be 
 
 -   **Display certificate details for the specified alias**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -g <alias> ​`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -g <alias> ​`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -g <alias> ​`
 
@@ -244,7 +246,7 @@ The **manage-certificates** has the following functions and the scripts must be 
 
 -   **List all existing aliases**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -l`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -l`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -l`
 
@@ -252,7 +254,7 @@ The **manage-certificates** has the following functions and the scripts must be 
 
 -   **Delete certificates using an alias​**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -d <alias>`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -d <alias>`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -d <alias>`
 
@@ -260,7 +262,7 @@ The **manage-certificates** has the following functions and the scripts must be 
 
 -   **Remove all entries from the keystore**
 
-    For Windows, use the command: `bin/scripts/manage-certificates.bat -r ​`
+    For Windows, use the command: `bin\scripts\manage-certificates.bat -r ​`
 
     For Linux, use the command: `./bin/scripts/manage-certificates.sh -r ​`
 

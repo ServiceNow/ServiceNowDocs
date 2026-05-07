@@ -171,7 +171,7 @@ sn-docintel-iframe
 
 Accounts Payable Operations integration with Document Intelligence
 
- com.sn\_ap\_ic
+ \[sn\_ap\_ic\]
 
 </td><td>
 
@@ -191,7 +191,7 @@ Document Intelligence
 
 Invoice Case Management
 
- \[com.sn\_ap\_cm\]
+ \[sn\_ap\_cm\]
 
 </td><td>
 
@@ -210,7 +210,7 @@ Includes demo data and relatedServiceNow Store applications and plugins.
 
 Accounts Payable Invoice Processing
 
- \[com.sn\_ap\_apm\]
+ \[sn\_ap\_apm\]
 
 </td><td>
 
@@ -218,8 +218,8 @@ Enables Accounts Payable specialists to ingest invoice documents and extract inv
 
 </td><td>
 
--   Invoice Case Management \[com.sn\_ap\_cm\]
--   Accounts Payable Operations integration with Document Intelligence \[com.sn\_ap\_ic\]
+-   Invoice Case Management \[sn\_ap\_cm\]
+-   Accounts Payable Operations integration with Document Intelligence \[sn\_ap\_ic\]
 
 </td></tr></tbody>
 </table>

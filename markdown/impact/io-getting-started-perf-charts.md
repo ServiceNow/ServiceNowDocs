@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Performance, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Performance, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Getting started with Performance charts
@@ -28,8 +28,8 @@ Role required: admin
 3.  Select the reporting options:
 
 4.  -   Instance
--   Date range
 -   Metrics \(The metrics available depend on the report selected.\)
+-   Date range
 -   Options and add-ons
 5.  Select **Get Snapshot**.
 

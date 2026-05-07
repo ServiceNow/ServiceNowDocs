@@ -19,11 +19,11 @@ Welcome your guests and off-site employees with a smoother, more hassle-free exp
 
 <table id="table_s3z_wrb_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Visitor Management concepts and features.](workplace-visitor-mgmt-ovw.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Visitor Management concepts and features.](workplace-visitor-mgmt-ovw.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Configure the application and setup the visitor-related settings.](configure-visitor-mgmt.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure the application and setup the visitor-related settings.](configure-visitor-mgmt.md)
 
 </td><td>
 
@@ -31,15 +31,15 @@ Welcome your guests and off-site employees with a smoother, more hassle-free exp
 
 </td></tr><tr><td>
 
-[Manage ![Manage](../../../common/image/icon-managing.png) Manage visitor registrations.](manage-visitor-registrations.md)
+[Manage ![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage visitor registrations.](manage-visitor-registrations.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions ![Analytics and Reporting Solutions](../../human-resources/image/icon-report.png) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-for-visitor-mgmt.md)
+[Analytics and Reporting Solutions ![Analytics and Reporting Solutions](../../../reuse/icons/brand-icons/bus-elevate.svg) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-for-visitor-mgmt.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](workplace-visitor-mgmt-references.md)
+[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties.](workplace-visitor-mgmt-references.md)
 
 </td></tr></tbody>
 </table>## Additional resources

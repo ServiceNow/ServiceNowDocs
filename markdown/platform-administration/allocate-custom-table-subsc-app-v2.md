@@ -29,15 +29,15 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 
     When possible, Subscription Management displays recommendations for product subscriptions with available custom table entitlements in the **Recommended Product** column. Subscription Management can't display product subscription recommendations for some unmapped custom tables, which therefore aren't shown in the **Unmapped custom applications** tab. For more information about mapping missing custom tables to product subscriptions, see [Map a missing custom table to a product subscription in Subscription Management](map-missing-custom-table-sub-mgt.md)
 
-<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d155951e145">
+<table id="choicetable_iph_zpv_2yb"><thead><tr><th align="left" id="d159037e145">
 
 Option
 
-</th><th align="left" id="d155951e148">
+</th><th align="left" id="d159037e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155951e154">
+</th></tr></thead><tbody><tr><td id="d159037e154">
 
 **Map to a recommended product**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d155951e181">
+</td></tr><tr><td id="d159037e181">
 
 **Map to a product of your choice**
 

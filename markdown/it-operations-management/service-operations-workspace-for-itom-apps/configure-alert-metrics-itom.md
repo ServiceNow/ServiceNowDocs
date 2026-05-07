@@ -36,3 +36,5 @@ Role required: evt\_mgmt\_admin
 4.  Select **Submit**.
 
 
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

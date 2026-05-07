@@ -27,7 +27,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **AI connector for Microsoft** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
 5.  Select the Microsoft Copilot check box.
 
@@ -37,7 +37,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 7.  Expand Create Copilot connection section.
 
-8.  Click **Continue**.
+8.  Select **Continue**.
 
 9.  Setup page appears
 
@@ -53,15 +53,15 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     5.  Enter the OAuth token URL \(Tenant id\).
 
-    6.  Click **Create and test connection**
+    6.  Select **Create and test connection**
 
-    7.  Click **Continue**.
+    7.  Select **Continue**.
 
 11. **Configure import schedule**
 
-    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out of the box inactive.
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped base system inactive.
 
-        Ensure to execute the Discovery-scheduled job first.
+        Verify to execute the Discovery-scheduled job first.
 
     2.  Set the run frequency.
 
@@ -69,12 +69,12 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Click **Continue**.
+    4.  Select **Continue**.
 
-    5.  Click **View all connections** to view the newly created connection.
+    5.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-AI connection is created for Copilot.
+An AI connection is created for Copilot.
 

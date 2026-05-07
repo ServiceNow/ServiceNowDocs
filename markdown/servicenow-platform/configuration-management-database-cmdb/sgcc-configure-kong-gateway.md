@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in Kong Gateway data into your Configuratio
 
 ## Before you begin
 
-Install API Service Graph Connector for Kong Gateway version 2.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install API Service Graph Connector for Kong Gateway version 2.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 If setting up the Prometheus connection, enable the Prometheus plugin on Kong Gateway and verify that any required credentials are available. To learn more about the Prometheus plugin, see [Prometheus](https://developer.konghq.com/plugins/prometheus) on the Kong Developer documentation site.
 

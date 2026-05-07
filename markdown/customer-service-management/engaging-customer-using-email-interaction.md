@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Use emails, Customer communication, Use, Customer Service Management]
+breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Engaging with the customer using email interaction

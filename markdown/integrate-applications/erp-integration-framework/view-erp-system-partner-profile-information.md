@@ -1,6 +1,6 @@
 ---
 title: View Zero Copy Connector for ERP partner profile information
-description: In Zero Copy Connector for ERP, view partner profile information including number and type.
+description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\), view partner profile information including number and type.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, information, detail]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View Zero Copy Connector for ERP partner profile information
 
-In Zero Copy Connector for ERP, view partner profile information including number and type.
+In Zero Copy Connector for ERP \(Enterprise Resource Planning\), view partner profile information including number and type.
 
 ## Before you begin
 

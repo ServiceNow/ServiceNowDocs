@@ -4,9 +4,9 @@ description: Reference topics provide additional information about using Build A
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-02"
+last_updated: "2026-04-29"
 reading_time_minutes: 1
-keywords: [reference]
+keywords: [reference, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -14,8 +14,10 @@ breadcrumb: [Build Agent, Vibe coding and AI app development on the ServiceNow A
 
 Reference topics provide additional information about using Build Agent to create and edit apps, as well as ServiceNow metadata.
 
+Reference topics provide metadata compatibility information and example prompts to support your development workflow. Use the following topics alongside the task and concept documentation to get the most out of Build Agent.
+
 -   **[Supported metadata in Build Agent](build-agent-supported-metadata.md)**  
-Work with a range of ServiceNow metadata and app types in Build Agent.
+Metadata and app file types are ServiceNow Fluent plugins that Build Agent can process and manage. Use this reference when determining compatibility for your development workflow.
 -   **[Example prompts](build-agent-example-prompts.md)**  
 Explore example prompts for building apps, as well as adding governance, UI and other ServiceNow metadata to help you get started with prompting Build Agent.
 

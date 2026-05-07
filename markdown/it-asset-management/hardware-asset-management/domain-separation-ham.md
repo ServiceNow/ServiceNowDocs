@@ -41,8 +41,6 @@ In HAM, domain separation occurs in two stages: data separation and process sepa
 
 The [Recommended practice](https://www.servicenow.com/docs/access?context=bp-domain-sep-recommended&version=australia&pubname=australia-platform-security&ft:locale=en-US) is to avoid customizing the base system domain configuration record.
 
-![Multi-tenant support for IT Asset Management](../image/ham-multitenant.png "Mutli-Tenant support for IT Asset Management")
-
 ## Required plugins
 
 -   Service Catalog – Domain Separation \(com.glideapp.servicecatalog.domain\_separation\)

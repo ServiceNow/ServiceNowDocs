@@ -33,15 +33,15 @@ You can dispute one or more transactions that are associated with an account by 
 
 3.  Create a case from the dispute service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d32304e124">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d34452e124">
 
 Option
 
-</th><th align="left" id="d32304e127">
+</th><th align="left" id="d34452e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d32304e133">
+</th></tr></thead><tbody><tr><td id="d34452e133">
 
 **Dispute case from the dispute case list**
 
@@ -51,7 +51,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d32304e163">
+</td></tr><tr><td id="d34452e163">
 
 **Dispute case from an interaction record**
 
@@ -73,15 +73,15 @@ Steps
 
 7.  Under the **Initiate** playbook stage, fill in the required fields and any other related information.
 
-<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d32304e252">
+<table id="choicetable_kl5_cxp_cbc"><thead><tr><th align="left" id="d34452e252">
 
 Activity
 
-</th><th align="left" id="d32304e255">
+</th><th align="left" id="d34452e255">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32304e261">
+</th></tr></thead><tbody><tr><td id="d34452e261">
 
 **Select transaction**
 
@@ -100,7 +100,7 @@ Provide information on the account or consumer and the dispute, such as:
 
  **Note:** If the transaction is part of another dispute case, it is flagged with a link to the case and information on the case outcome.
 
-</td></tr><tr><td id="d32304e302">
+</td></tr><tr><td id="d34452e302">
 
 **Select dispute reason**
 
@@ -110,7 +110,7 @@ Fill out a series of questions to arrive at the category and reason code.
 
  **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it and then select **Retrigger** to reload the activity.
 
-</td></tr><tr><td id="d32304e329">
+</td></tr><tr><td id="d34452e329">
 
 **Add more transactions**
 
@@ -137,7 +137,7 @@ The **Fill additional transaction questions** activity is displayed if you add a
 
 **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it, then select **Continue** to proceed to the next activity.
 
-</td></tr><tr><td id="d32304e401">
+</td></tr><tr><td id="d34452e401">
 
 **Resume dispute case**
 
@@ -147,7 +147,7 @@ This activity is displayed if the case was created using Now Assist for Financia
 
 If the conversation ends before the case is submitted, an agent can resume the intake and review or select the dispute's account and transaction details in this activity.
 
-</td></tr><tr><td id="d32304e424">
+</td></tr><tr><td id="d34452e424">
 
 **Fill dispute questionnaire**
 
@@ -155,7 +155,7 @@ If the conversation ends before the case is submitted, an agent can resume the i
 
 Continue completing the dispute questionnaire in this activity.
 
-</td></tr><tr><td id="d32304e433">
+</td></tr><tr><td id="d34452e433">
 
 **Fill additional transaction questions**
 
@@ -163,7 +163,7 @@ Continue completing the dispute questionnaire in this activity.
 
 This activity displays if multiple transactions are selected.
 
-</td></tr><tr><td id="d32304e442">
+</td></tr><tr><td id="d34452e442">
 
 **Document upload**
 
@@ -171,7 +171,7 @@ This activity displays if multiple transactions are selected.
 
 Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-</td></tr><tr><td id="d32304e451">
+</td></tr><tr><td id="d34452e451">
 
 **Customer signature required**
 
@@ -191,7 +191,7 @@ Upload any supporting documentation at this step, such as order details, invoice
 
  **Note:** In order for users to view the Written Statement of Unauthorized Debit \(WSUD\) document, the Document Templates \[sn\_doc\] plugin must be activated.
 
-</td></tr><tr><td id="d32304e485">
+</td></tr><tr><td id="d34452e485">
 
 **Submit dispute**
 

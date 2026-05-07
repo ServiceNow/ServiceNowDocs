@@ -15,7 +15,7 @@ breadcrumb: [Procurement, Asset Management, IT Service Management]
 
 A service catalog request can contain multiple items that must be sourced.
 
-![Methods of sourcing requested items](../image/source_request_type.png "Methods of sourcing requested items")
+![image.mmassert0021870-source-request-type-source-request-type]
 
 **Note:** Only items with an assigned model can be sourced. You can’t source bundles.
 

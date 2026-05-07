@@ -25,7 +25,7 @@ Role required: admin or tia\_admin
 
 2.  In the **Models** list, click the more options menu of the model you want to export.
 
-    ![Export model button in the Models list.](../images/export-ti-modelT1.png)
+    ![image.export-ti-modelT1]
 
 3.  Click **Export model**.
 

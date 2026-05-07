@@ -33,7 +33,7 @@ Role required: admin
 
 5.  To enable this feature and set a maximum limit of concurrent sessions, go to the **Plugin Files** tab, find the following properties, and change the setting values.
 
-<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d256538e101">
+<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d262321e101">
 
 **glide.authenticate.limit.concurrent.interactive.sessions**
 
@@ -41,7 +41,7 @@ Role required: admin
 
 You can enable the ability to limit concurrent sessions by setting the value to **True**. By default, this property is set to **False**, which means there is no limit on the number of interactive sessions a user can have active.**Note:** To disable this feature, set this property back to **False**.
 
-</td></tr><tr><td id="d256538e122">
+</td></tr><tr><td id="d262321e122">
 
 **glide.authenticate.max.concurrent.interactive.sessions**
 
@@ -52,7 +52,7 @@ You can set the maximum number of concurrent active interactive sessions a user 
 </td></tr></tbody>
 </table>6.  You can also amend the following properties, if necessary.
 
-<table id="choicetable_upr_nc5_3z"><tbody><tr><td id="d256538e141">
+<table id="choicetable_upr_nc5_3z"><tbody><tr><td id="d262321e141">
 
 **glide.authenticate.session.types.to.limit.concurrency**
 
@@ -64,7 +64,7 @@ This property limits session types. By default, only the web browser sessions ha
 -   Non-interactive \(10\)
 You can configure and set the value to '1' for web browser, '2' for mobile browser, or '1,2' for both.**Note:** Only web and mobile browser sessions can have a limit. There are no limits for sessions that originate from the ServiceNow mobile app or non-interactive sessions.
 
-</td></tr><tr><td id="d256538e173">
+</td></tr><tr><td id="d262321e173">
 
 **glide.authenticate.limit.concurrent.sessions.across.all.nodes**
 

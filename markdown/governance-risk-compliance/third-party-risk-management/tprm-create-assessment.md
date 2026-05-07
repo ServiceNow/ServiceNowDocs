@@ -28,7 +28,7 @@ Assessments can be created on-demand or can recur on a specified schedule. When 
 1.  Navigate to one of the following locations:
 
     -   **All** &gt; **Third-party Risk Management** &gt; **External Risk Assessments** &gt; **All Assessments**.
-    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **External Risk Assessments** &gt; **All Assessments**.
+    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **External Risk Assessments** &gt; **All Assessments**.
     **Important:** Smart assessments must be viewed in the Vendor Management Workspace.
 
 2.  Create an external assessment by selecting **New** and fill in the form.

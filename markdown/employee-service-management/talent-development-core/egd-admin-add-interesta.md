@@ -17,7 +17,7 @@ As a Talent Development Core admin, you can add **Interests** that help employee
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin, sn\_egd\_core.content\_manager
 
 ## Procedure
 

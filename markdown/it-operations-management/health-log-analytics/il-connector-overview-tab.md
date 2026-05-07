@@ -18,6 +18,8 @@ Review the log data streaming status and streaming sources of an active integrat
 
 ## Before you begin
 
+For an overview of this feature, see [Monitoring log data flow and optimizing integration settings in Health Log Analytics](../concept/hla-integration-overview-tab.md).
+
 Confirm that the integration has been activated on the Integrations Launchpad. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](../concept/hla-data-input-setup-integrations.md).
 
 For MID-less or OpenTelemetry Protocol \(OTLP\) integrations, verify that the **mid.hla.itom\_gateway\_streaming.enabled** property is set to true in the MID Server properties to enable displaying the ITOM Gateway component on the Overview screen.

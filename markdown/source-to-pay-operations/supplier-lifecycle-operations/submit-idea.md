@@ -31,7 +31,7 @@ Role required: sn\_slm.contact
 
 3.  In the portal header, select **Raise a request**.
 
-4.  Select the **Submit an idea** catalog item under the General category.![Auto-populated Supplier field in the form for submitting an idea.](../image/submit-idea-supplier-collaboration-portal.png)
+4.  Select the **Submit an idea** catalog item under the General category.
 
     The **Supplier** field is auto-populated with the supplier you have currently selected. This field is available from the Xanadu December 2024 release onwards.
 

@@ -7,7 +7,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist for SPM supported versions, Now Assist for SPM licensing requirements, Now Assist for SPM application information]
 breadcrumb: [Explore, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -40,18 +40,16 @@ This store app has the following dependencies:
 -   Enterprise Agile Planning
 -   Demand workbench
 
-For more information, see [Configure Now Assist Admin features](../task/configure-now-assist-for-spm.md).
+For more information, see [Configure Now Assist Admin features](configuring-na-spm.md).
 
 **Related topics**  
 
 
 [Exploring Now Assist for Strategic Portfolio Management \(SPM\)](exploring-now-assist-for-spm.md)
 
-[Configure Now Assist Admin features](../task/configure-now-assist-for-spm.md)
-
 [Using Now Assist for Strategic Portfolio Management \(SPM\)](using-now-assist-for-spm.md)
 
 [Now Assist for SPM reference](../reference/now-assist-spm-reference.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
 

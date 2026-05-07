@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Analyze applications using the bubble chart
@@ -39,7 +39,7 @@ You can also generate insights into business applications using Now Assist. For 
 
         **Note:**
 
-        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Create or edit a bubble chart for application strategies](../setup-bubble-chart-for-appln-strategy.md).
+        -   For details on how to add the X and Y-axis indicators of the bubble chart, see [Add or edit an application indicator](eaw-create-indicator.md).
         -   For a bubble to be displayed on the bubble chart, the indicator scores for the selected fiscal period must be available for both X and Y-axis indicators.
     -   Bubble size: The bubble size is based on indicators related to business applications. The indicator scores determine the size of the bubble.
 

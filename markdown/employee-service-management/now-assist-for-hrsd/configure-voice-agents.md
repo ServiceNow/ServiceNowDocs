@@ -39,15 +39,15 @@ Install the following plugins:
 
 3.  For the following AI voice agents, perform these additional configuration steps.
 
-<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d593491e125">
+<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d603126e125">
 
 AI agent
 
-</th><th align="left" id="d593491e128">
+</th><th align="left" id="d603126e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d593491e134">
+</th></tr></thead><tbody><tr><td id="d603126e134">
 
 **HR Case assistant**
 
@@ -58,7 +58,7 @@ Steps
 3.  Select **Index selected tables**.
 
 
-</td></tr><tr><td id="d593491e176">
+</td></tr><tr><td id="d603126e176">
 
 **Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Requester**
 
@@ -76,6 +76,8 @@ Steps
 </td></tr></tbody>
 </table>
 ## What to do next
+
+Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect. For more information, see [Test a voice assistant](https://www.servicenow.com/docs/access?context=test-a-voice-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
 Assign roles to admins and users to grant them access to Voice features. See [Components installed with voice](../reference/components-installed-voice-agents.md).
 

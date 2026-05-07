@@ -6,8 +6,8 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-04-29"
-reading_time_minutes: 2
+last_updated: "2026-05-06"
+reading_time_minutes: 3
 breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -17,6 +17,8 @@ Use Now Assist to generate modules for your application by entering natural lang
 
 ## Before you begin
 
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](install-ui-generation.md) and [Grant UI Builder admin role](grant-ui-builder-admin-role.md).
+
 Role required: admin
 
 ## About this task
@@ -25,7 +27,9 @@ Use Now Assist to generate modules by providing prompts in natural language. The
 
 ## Procedure
 
-1.  From the application navigator, select **All**, and then select **Create menu** ![Add Action, Flow Logic, or Subflow after Icon](../../flow-designer/images/add-action-icon.png).
+1.  From the application navigator, select **All**, and then select **Create menu**.
+
+    ![image.ui_gen_module_gen_create_menu]
 
     The module creation page opens.
 
@@ -59,7 +63,7 @@ Use Now Assist to generate modules by providing prompts in natural language. The
 9.  Review the generated modules and do one of the following:
 
     -   To confirm the module and modify its fields, select **Accept and Edit**.
-    -   To discard the generated module and try a different prompt, select **Reject** .
+    -   To discard the generated module and try a different prompt, select **Reject**.
     After you select **Accept and Edit**, the AI indicator disappears.
 
 10. After accepting the module, edit the configuration fields as needed.
@@ -74,6 +78,12 @@ Use Now Assist to generate modules by providing prompts in natural language. The
 ## Result
 
 The modules are added to your application menu and are ready for use.
+
+Module generation issues
+
+|Symptom|Cause|Resolution|
+|-------|-----|----------|
+|Module generation creates the wrong module type|The prompt did not clearly indicate the intended module type.|Specify the module type explicitly in the prompt \(for example, "Create a list module" or "Create a URL module"\). Alternatively, select a module type from the available options before entering the prompt.|
 
 ## Create five modules
 

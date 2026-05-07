@@ -6,9 +6,9 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
-breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure a Fortinet SD-WAN Service Graph Connector

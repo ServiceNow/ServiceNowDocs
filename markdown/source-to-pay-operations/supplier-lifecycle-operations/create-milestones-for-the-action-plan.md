@@ -17,7 +17,7 @@ Create milestones for the affected KPIs in the action plan.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kpi.admin
 
 ## Procedure
 

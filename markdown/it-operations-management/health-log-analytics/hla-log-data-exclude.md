@@ -18,6 +18,8 @@ If an extracted string of data is not descriptive enough or contains redundant t
 
 ## Before you begin
 
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+
 Role required: evt\_mgmt\_admin
 
 ## Procedure

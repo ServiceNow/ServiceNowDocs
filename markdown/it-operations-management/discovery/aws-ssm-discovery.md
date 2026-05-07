@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 5
 breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,8 +16,6 @@ breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM
 AWS Systems Manager \(SSM\) Agent discovery introduces a streamlined, agent-based approach to discovering Amazon Elastic Compute Cloud \(EC2\) using AWS SSM. This integration enhances Discovery by leveraging SSM agents to reduce dependency on traditional MID Server configurations, simplify credential management, and improve scalability across multi-region environments.
 
 ## Workflow
-
-![AWS SSM Agent discovery process](../image/aws-ssm-agent-discovery-process.svg "AWS SSM discovery workflow")
 
 The overall process from a high level is as follows:
 

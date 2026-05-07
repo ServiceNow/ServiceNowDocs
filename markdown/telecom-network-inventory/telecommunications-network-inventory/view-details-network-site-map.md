@@ -41,15 +41,15 @@ Use the geo map to do the following:
 
 4.  View the details of the site by performing the following actions on the map pane.
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d24927e172">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d27640e172">
 
 Action
 
-</th><th align="left" id="d24927e175">
+</th><th align="left" id="d27640e175">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d24927e181">
+</th></tr></thead><tbody><tr><td id="d27640e181">
 
 **View the details of a site.**
 
@@ -59,7 +59,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 
  **Note:** If you select the datacenter on the map pane, select **View floor map** to view the floor map. The **View Floor Map** automatically populates the campus only. You must manually select a building and floor to view the corresponding floor map.
 
-</td></tr><tr><td id="d24927e222">
+</td></tr><tr><td id="d27640e222">
 
 **View the details of the sites in the same location.**
 
@@ -69,7 +69,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 2.  Select next or previous buttons to view the details about other site.
 
 
-</td></tr><tr><td id="d24927e243">
+</td></tr><tr><td id="d27640e243">
 
 **View the physical and logical connections and topology details**
 
@@ -86,7 +86,7 @@ These connection elements appear as dashed lines between the sites.
 3.  Select a line to view the details on the details pane. The bar chart graph shows the available connection elements.
 
 
-</td></tr><tr><td id="d24927e283">
+</td></tr><tr><td id="d27640e283">
 
 **View the cable route between sites**
 
@@ -98,7 +98,7 @@ These connection elements appear as dashed lines between the sites.
 
 **Note:** You must only select **Cables** to view the cable route.
 
-</td></tr><tr><td id="d24927e322">
+</td></tr><tr><td id="d27640e322">
 
 **View the capacity information**
 
@@ -117,7 +117,7 @@ Select a site and view the capacity information on the details pane. The bar cha
 -   Card Bandwidth
  Select the a bar on the graph to redirect to the corresponding capacity metrics list.
 
-</td></tr><tr><td id="d24927e369">
+</td></tr><tr><td id="d27640e369">
 
 **View the change requests**
 

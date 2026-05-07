@@ -18,6 +18,7 @@ The Playbook builder within the ServiceNow® Workflow Studio application enables
 -   Enable runtime users to launch a playbook on demand.
 -   Test playbooks with the Automated Test Framework.
 -   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
+-   Use AI agents as activities in your playbook to automate tasks.
 
 See [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information.
 
@@ -43,12 +44,25 @@ After you upgrade to Australia, update the Workflow Studio application in the Se
 
     The Automated Test Framework can be used to create automated tests to confirm your playbooks run as planned.
 
+-   **[Use AI agents as a playbook activity](https://www.servicenow.com/docs/access?context=ai-agent-as-activity&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+
+    Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
+
 
 ## Changed in this release
 
 -   **[Required role update](https://www.servicenow.com/docs/access?context=user-access-playbooks&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
 
     Any tasks that previously required only the admin role now require the playbook.admin role instead.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 ## Activation information

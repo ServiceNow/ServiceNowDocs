@@ -113,6 +113,12 @@ See [Data management for Customer Service Management](https://www.servicenow.com
 
     Added core primitives to support price and quantity ramps, enabling flexible, time‑based changes across the sold product lifecycle. The feature delivers scalable pricing aligned with usage, simplifies post-sale workflows, and improves revenue forecasting without custom scripts.
 
+-   **[Install base data model enhancements](https://www.servicenow.com/docs/access?context=create-install-base-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
+
+    Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
+
 -   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
     Create future‑dated subscription products in a **Pending Activation** state to improve the Add‑Order‑to‑Sold‑Product process. It also ensures lifecycle accuracy, predictable billing, and fair access for customers while improving revenue recognition for businesses.
@@ -121,6 +127,8 @@ See [Data management for Customer Service Management](https://www.servicenow.com
 -   **[Service Model Foundation renamed Entities](https://www.servicenow.com/docs/access?context=renamed-entities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
     Renamed Service Model Foundation entities to improve clarity and maintain consistency across the platform. Review your existing configurations, scripts, or integrations that reference these entities and update them accordingly.
+
+    **Note:** The entity name changes are available in the Business Location 5.2.0 store app.
 
 
 ## Deprecated features
@@ -136,7 +144,7 @@ CSM is a ServiceNow AI Platform application that is available with activation of
 
 Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
-Sales and Order Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=australia&pubname=australia-order-management&ft:locale=en-US).
+Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=australia&pubname=australia-order-management&ft:locale=en-US).
 
 ## Plugin information
 
@@ -188,7 +196,7 @@ Starting with the Australia release, data management for Customer Service Manage
 
 -   **[Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    The Sales and Order Management applications enable you to manage the product sales and order fulfillment life cycles in your organization. It includes pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
+    The Sales Customer Relationship Management applications enable you to manage the product sales and order fulfillment life cycles in your organization. It includes pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
 
 
 **Parent Topic:**[Customer Service Management release notes](customer-service-mgmt-rn-landing.md)

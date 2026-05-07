@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
 # Now Assist for Enterprise Architecture reference

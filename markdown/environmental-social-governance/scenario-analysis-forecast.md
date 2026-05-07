@@ -31,7 +31,7 @@ After creating an analysis record, a standard forecast graph and adjustable para
 
 The following example shows a generated standard forecast.
 
-![IStandard forecast. For the text description, refer to the text that preceded this example.](../images/standard-forecast.png "Example of importing a template")
+![Standard forecast. For the text description, refer to the text that preceded this example.](../images/standard-forecast.png "Example of importing a template")
 
 You can create forecast interventions, to explore different possible outcomes by updating input parameters. A graph is generated showing the standard forecast and the new adjusted forecast.
 

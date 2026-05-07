@@ -9,7 +9,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [SPO, ITAM, sourcing request, state mapping, sourcing request, purchase order, SR, PO]
-breadcrumb: [SPO and ITAM data model mappings, Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [SPO ITAM data model mappings, Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # SPO SR state mappings to ITAM PO

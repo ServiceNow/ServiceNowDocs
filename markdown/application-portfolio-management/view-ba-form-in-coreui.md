@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Open business application form in Core UI from EA Workspace
@@ -31,7 +31,7 @@ Role required: admin
 
 6.  Select the more actions icon \(![More actions icon.](../../image/icon-three-dot-menu-eaw.png)\) and select **View form in Core UI**.
 
-    For field information, see [Business Application Form](../../reference/business-application-form.md).
+    For field information, see [Business application form](../../reference/eaw-reference/eaw-apprat-business-application-form.md).
 
 
 **Parent Topic:**[Working with an application portfolio](../../concept/eaw-concept/eaw-work-with-application-portfolio.md)

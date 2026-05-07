@@ -57,6 +57,8 @@ Role required: Anyone with access to data can create a visualization of that dat
 12. Select **Add this source** to use the filtered source for your visualization.
 
 
+-   **[Add a dynamic JavaScript filter](../../par-for-workspace/task/create-dynamic-js-filter-pae.md)**  
+Add a dynamic JavaScript statement for evaluation as part of a report visualization's filter criteria.
 -   **[Related list conditions example](filter-dv-condition-builder-rel-list.md)**  
 Related list conditions enable you to include a relationship with another table in the filter.
 

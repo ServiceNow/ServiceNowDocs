@@ -27,9 +27,13 @@ For more information on support levels, see [Application support for domain sepa
 **Related topics**  
 
 
+[Base system procurement case type reference](../reference/base-system-procurement-case-types.md)
+
 [Create New Pipeline Project form](../reference/create-pipeline-project-form.md)
 
 [Pipeline project record tabs and UI actions](../reference/pipeline-form-tabs-actions.md)
+
+[Purchase requisition, purchase order, and sourcing request states](../reference/pr-po-sr-states.md)
 
 [SPO and ITAM data model mappings](itam-spo-data-model.md)
 

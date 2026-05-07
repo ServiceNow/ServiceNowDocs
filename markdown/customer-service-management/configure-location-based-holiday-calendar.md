@@ -25,15 +25,15 @@ Location‑based holiday calendars streamline workforce scheduling by aligning r
 
 1.  Navigate to **All** &gt; **Location Schedules** and perform one of the following actions:
 
-<table id="choicetable_l4w_jrb_m3c"><thead><tr><th align="left" id="d146207e73">
+<table id="choicetable_l4w_jrb_m3c"><thead><tr><th align="left" id="d148994e73">
 
 Option
 
-</th><th align="left" id="d146207e76">
+</th><th align="left" id="d148994e76">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d146207e82">
+</th></tr></thead><tbody><tr><td id="d148994e82">
 
 **Create a configuration from an existing event configuration**
 
@@ -43,7 +43,7 @@ Description
 -   Right-click the form header and select Insert and Stay.
 A copy of the selected event type configuration is created.
 
-</td></tr><tr><td id="d146207e99">
+</td></tr><tr><td id="d148994e99">
 
 **Create a new event configuration**
 

@@ -25,10 +25,6 @@ Field Service Capacity and Reservations Management provides the following benefi
 -   Better management of workloads by assigning the appropriate amount of work to the Field Service agents and contractor companies.
 -   Stay compliant with contractor company requirements by adhering to their stated capacity.
 
-The image below is an example of the different states that agent capacities go through, starting with defining the agent's work capacity, and the reservation of a percentage of agent's time. Then ending with the release of the allocated capacity based on the agent's schedule.
-
-![image.capacity-reservation-management]
-
 **Related topics**  
 
 

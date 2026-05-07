@@ -85,5 +85,3 @@ Result: A banner appears at the top of the screen confirming the user feedback f
 
 Your feedback data is stored in the **ml\_labeled\_data** table, which is also used by other ServiceNow products. This table can also house multiple sources, such as Virtual Agent chat logs that can be used for future predictions.
 
-**Parent Topic:**[Build and train your model](managing-model-content.md)
-

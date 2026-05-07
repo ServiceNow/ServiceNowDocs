@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 3
 breadcrumb: [Standard ticket page, Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -55,7 +55,7 @@ Active
 
 </td><td>
 
-Option to specify if the ticket configuration is active.
+Whether the ticket configuration is active.
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ State field
 
 </td><td>
 
-Any field of the task-extended table. By default, this field is mapped to the **State** field of the task-extended table. You have to configure the form to add this field.**Note:** You can’t add fields for any of the following information:
+Any field of the task-extended table. By default, this field maps to the **State** field of the task-extended table. You have to configure the form to add this field.**Note:** You cannot add fields for any of the following information:
 
 -   Number
 -   Short description
@@ -102,7 +102,7 @@ Description field
 
 </td><td>
 
-A field that the sp\_admin can select from the fields of the ticket record \(for example, sc\_req\_item, incident\), which is displayed as description on the Standard Ticket Page.
+Field that the sp\_admin can select from the fields of the ticket record \(for example, sc\_req\_item, incident\), which is displayed as description on the Standard Ticket Page.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Advanced
 
 </td><td>
 
-Option to specify that a widget should be displayed in the info region.
+Whether a widget is displayed in the info region.
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Info widget
 
 </td><td>
 
-Widget that should be displayed in the info region. This field appears only when the **Advanced** check box is selected.
+Widget displayed in the info region. This field appears only when the **Advanced** check box is selected.
 
 </td></tr><tr><td>
 
@@ -126,7 +126,7 @@ Info widget parameters
 
 </td><td>
 
-Name value pair to specify the widget parameters. This field appears only when the **Advanced** check box is selected.
+Name value pair for the widget parameters. This field appears only when the **Advanced** check box is selected.
 
 </td></tr><tr><td>
 
@@ -134,9 +134,9 @@ Info fields
 
 </td><td>
 
-Fields that should be displayed in the info region. This field disappears when you select the **Advanced** check box.**Note:**
+Fields displayed in the info region. This field disappears when you select the **Advanced** check box.**Note:**
 
--   You can’t add fields for any of the following information:
+-   You cannot add fields for any of the following information:
     -   Number
     -   Short description
     -   Created date
@@ -144,7 +144,7 @@ Fields that should be displayed in the info region. This field disappears when y
     -   Watch list
     -   State
     -   Any user input such as comments and work notes
--   A field of the workflow type isn’t supported for any table. Only for the Requested Item \[sc\_req\_item\] table, the workflow type field is supported, for example, the **Stage** field. This field is displayed at the last irrespective of the field position in the configuration.
+-   A field of the workflow type is not supported for any table. Only for the Requested Item \[sc\_req\_item\] table, the workflow type field is supported, for example, the **Stage** field. This field is displayed at the last irrespective of the field position in the configuration.
 
 
 </td></tr><tr><td class="sub-head" colspan="2">
@@ -157,7 +157,7 @@ Action widget
 
 </td><td>
 
-Widget to specify the actions available in the Action region.**Note:**
+Widget for the actions available in the Action region.**Note:**
 
 If the field is configured, it takes precedence over the standard ticket actions.
 

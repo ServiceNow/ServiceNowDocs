@@ -63,18 +63,18 @@ A set of related questions within a questionnaire template.**Note:** There can b
 1.  Navigate to one of the following locations:
 
     -   **All** &gt; **Third-party Risk Management** &gt; **Assessment setup** &gt; **Questionnaire Templates** or **Third-party Risk Management** &gt; **Assessment Setup** &gt; **Document Request Templates**.
-    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
+    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
 2.  Complete one of the following options to create a new template or copy an existing template.
 
-<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d256393e205">
+<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d258712e205">
 
 Option
 
-</th><th align="left" id="d256393e208">
+</th><th align="left" id="d258712e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d256393e214">
+</th></tr></thead><tbody><tr><td id="d258712e214">
 
 **Create a new template**
 
@@ -92,7 +92,7 @@ Any other templates associated with this template are shown as related links or 
 
 .
 
-</td></tr><tr><td id="d256393e254">
+</td></tr><tr><td id="d258712e254">
 
 **Copy and customize an existing template**
 

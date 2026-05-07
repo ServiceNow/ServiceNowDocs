@@ -29,7 +29,7 @@ After the policy exception is submitted, as a compliance manager you can do the 
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the ![List icon](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  Click **All policy exceptions** in the Policy exceptions list.
 

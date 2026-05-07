@@ -42,7 +42,7 @@ Telecom Visibility helps communication service providers \(CSPs\) and telecom op
 1.  Telecommunications Horizontal Discovery Patterns: Discovers telecom devices \(xNFs\) such as routers and switches using SNMP/CLI. Enables accurate inventory updates by scanning live network infrastructure. Supports vendor-specific patterns including:
     -   Cisco \(ASR1K, 7613, Nexus 9000, Nexus 3548\)
     -   Juniper \(MX80, MX104, MX240, MX460\)
-2.  Service Graph Connectors \(SGCs\) for TSOM: Prebuilt integrations with EMS/NMS/controllers to import inventory data via APIs. Supports:
+2.  Service Graph Connectors \(SGC s\) for TSOM: Prebuilt integrations with EMS/NMS/controllers to import inventory data via APIs. Supports:
     -   Scheduled or on-demand discovery
     -   Multi-instance configurations
     -   Integration with systems like Nokia Altiplano \(GPON networks\)
@@ -105,7 +105,7 @@ CMDB 360 - Visualize:
 **Related topics**  
 
 
-[Set up Telecom Visibility](../task/configuring-tsom-visibility.md)
+[Configure Telecom Visibility](../task/configuring-tsom-visibility.md)
 
 [Discovery Admin Workspace](https://www.servicenow.com/docs/access?context=discovery-admin-workspace&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
 

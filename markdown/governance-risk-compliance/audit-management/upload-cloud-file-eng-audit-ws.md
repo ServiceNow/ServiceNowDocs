@@ -23,7 +23,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(![Tasks icon](../image/new-task-icon.png)\).
 
     The list displays the engagements that are assigned to you.
 
@@ -33,7 +33,7 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 5.  In the Upload files to cloud pop-up, browse through your local system and select the file to upload.
 
-6.  Click the **Upload** button.
+6.  Select the **Upload** button.
 
     Before selecting the Upload option if you cancel the action, the file would still be selected in the pop-up but not uploaded. Unless you select the **Upload** button, the file will not be uploaded to cloud.
 
@@ -43,6 +43,6 @@ Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
 7.  To remove the invalid character in the file name, select the ![More actions icon](../../../reuse/icons/product-icons/ellipsis-vertical-outline-24.svg) icon and rename the file correctly.
 
-8.  Click the file's URL link attached to the record in the **Cloud files** tab to navigate to the cloud file in Microsoft.
+8.  Select the file's URL link attached to the record in the **Cloud files** tab to navigate to the cloud file in Microsoft.
 
 

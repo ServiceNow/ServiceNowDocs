@@ -35,7 +35,7 @@ Role required: sn\_grc.manager
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d166493e97">
+<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d168874e97">
 
 **To add an upstream entity dependency**
 
@@ -43,7 +43,7 @@ Role required: sn\_grc.manager
 
 Drag an eligible upstream entity from the list of eligible entities on the right and drop it on the top half of the entity in the center of the page.
 
-</td></tr><tr><td id="d166493e106">
+</td></tr><tr><td id="d168874e106">
 
 **To add a downstream entity dependency**
 

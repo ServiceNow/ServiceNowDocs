@@ -41,7 +41,7 @@ Name
 
 </td><td>
 
-Name the change model based on the process associated with the change model. For example, the following types of change models can be created:-   Normal
+Name the change model based on the process associated with the change model. For example, the following change models can be created for the traditional types of ITIL changes:-   Normal
 -   Standard
 -   Emergency
 
@@ -92,7 +92,7 @@ Implementation states
 
 </td><td>
 
-Implementation state for the change model. For more information on states, see [State model and transitions](../concept/c_ChangeStateModel.md).If you are using Mass CI Update with change models, verify that the **Implementation states** field in the model is set to the state in which you want the changes to take effect.
+Implementation state for the change model. For more information on states, see [Legacy: State model and transitions](../concept/c_ChangeStateModel.md).If you are using Mass CI Update with change models, verify that the **Implementation states** field in the model is set to the state in which you want the changes to take effect.
 
 </td></tr></tbody>
 </table>4.  In the **Security** tab, fill in the fields.
@@ -208,11 +208,11 @@ User groups that can approve templates created using this change model.
 
 ## What to do next
 
-Configure states for the change model you create. For more information, see [Configure change model states](configure-change-model-states.md).
+[Configure change model states](configure-change-model-states.md).
 
-Manage the templates created using the change model through options in the **Change Templates** tab. For more information, see [Create and propose a change template](create-change-template.md).
+[Create and propose a change template](create-change-template.md).
 
-Configure categories that helps to classify available templates in the Create a change request page. For more information, see [Configure template categories](configure-template-categories.md).
+[Configure template categories](configure-template-categories.md).
 
 -   **[Configure change model states](configure-change-model-states.md)**  
 Configure states for change models and define transition between multiple states.
@@ -221,7 +221,7 @@ Create predefined transition conditions to reuse the conditions for your change 
 -   **[Attach a process for Change model states](../concept/attach-process-change-model.md)**  
 You can attach a process with defined conditions to the Change model states to enable state transitions.
 -   **[Create and propose a change template](create-change-template.md)**  
-Create, customize, and then propose for publication a change template aligned to a change model to standardize common change requests and not have to create them manually.
+Create, customize, and then propose for publication a change template aligned to a change model to make change creation faster, and promote data quality and consistency.
 
 **Parent Topic:**[Configuring Change Management](../concept/configure-change-management.md)
 

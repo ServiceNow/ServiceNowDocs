@@ -19,7 +19,7 @@ The list view has pre applied filters such as Assigned to Me, Assigned to Team, 
 
 Using these list categories and filtered lists, analysts can quickly find the required Security Incidents and Response Tasks records that they need to work on.
 
-To get to the list view, you need to click the list icon \(![list view icon](../image/listview-icon.png)\). When you click a record in a list view, the record opens in a new tab.
+To get to the list view, select the list icon \(![list view icon](../image/listview-icon.png)\). When you select a record in a list view, the record opens in a new tab.
 
 ## List types
 

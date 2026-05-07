@@ -37,7 +37,7 @@ The Tasks tab displays the details of all the tasks associated with a major secu
     View and update multiple task records using in the form of lists. Using these list categories and filters, you can quickly find and track the tasks you need to work on in a major security incident.
 
 
-![Tasks List view](../image/msim-tasks-list-view.png "List view") ![]( "List view")
+![Tasks List view](../image/msim-tasks-list-view.png "List view")
 
 The labeled activities are summarized and displayed in the Overview section of the major security incident. A trend chart graph is available on the Overview section to view the consolidated task activities state.
 

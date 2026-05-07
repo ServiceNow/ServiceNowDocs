@@ -83,6 +83,14 @@ State of the planning item in the Strategic Planning or Portfolio Planning Backl
 
 </td></tr><tr><td>
 
+Execution URL
+
+</td><td>
+
+Link to the project's execution record in the Project Workspace.
+
+</td></tr><tr><td>
+
 MoSCoW
 
 </td><td>

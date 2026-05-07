@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Create a schedule plan
@@ -65,5 +65,5 @@ The schedule plan is created in Draft state.
 
 [Publish a schedule plan for visibility into team coverage](generate-preview-schedule-plan-configurable-wfo-cs.md).
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

@@ -40,15 +40,15 @@ The agent verifies the prerequisites at the beginning of the agentic workflow. I
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d274705e154">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d280041e154">
 
 Situation
 
-</th><th align="left" id="d274705e157">
+</th><th align="left" id="d280041e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d274705e163">
+</th></tr></thead><tbody><tr><td id="d280041e163">
 
 **Change request number is known**
 
@@ -59,7 +59,7 @@ Steps
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d274705e195">
+</td></tr><tr><td id="d280041e195">
 
 **Open change request**
 

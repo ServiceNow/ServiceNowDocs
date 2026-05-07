@@ -17,6 +17,10 @@ The Privacy Management solution provides you with a framework to manage your pri
 
 Before planning your privacy program, confirm that you set up the privacy libraries according to the privacy regulations that you plan to implement. For more information on the library setup, refer to [Manage the Privacy Management library](privacy-library-setup.md).
 
+The following figure demonstrates the Privacy Management solution.
+
+![Privacy management solution overview.](../image/privacy-mgmt-workflow.png "Privacy management solution overview")
+
 The Privacy Management solution is described as follows.
 
 ## Create a library

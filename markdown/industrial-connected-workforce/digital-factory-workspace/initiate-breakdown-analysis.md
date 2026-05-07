@@ -21,7 +21,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Lists** \(![image.list-view-icon-dark]\).
+1.  Navigate to **Workspaces** &gt; **Digital Factory Workspace** &gt; **Select Lists view icon** \(![](../image/icon-list-menu-icw.png)\).
 
 2.  From the list of breakdowns, select the breakdown task for which you want to initiate the root cause analysis.
 

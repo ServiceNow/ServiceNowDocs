@@ -22,7 +22,7 @@ Configure the variables in the billing card.
 -   **[Configure the insights card variables](../task/c360-configure-insights-card.md)**  
 Configure the variables in the insights card.
 -   **[Configure the products card variables](../task/c360-configure-products-card.md)**  
-Configure the variables in the product card.
+Configure the variables that control what data the products card displays and how users can search and filter sold products.
 -   **[Configure the all tasks card variables](../task/c360-configure-tasks-card.md)**  
 Configure the variables in the all tasks card.
 

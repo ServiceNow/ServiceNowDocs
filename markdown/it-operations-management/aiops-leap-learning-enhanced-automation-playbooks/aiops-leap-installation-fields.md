@@ -1,6 +1,6 @@
 ---
 title: LEAP Installer fields
-description: Description of the field values that you configure while installing AIOps LEAP.
+description: Description of the field values that you configure while installing LEAP.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,12 +8,12 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AIOps LEAP reference, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
 # LEAP Installer fields
 
-Description of the field values that you configure while installing AIOps LEAP.
+Description of the field values that you configure while installing LEAP.
 
 <table id="table_egn_x3m_s2c"><thead><tr><th>
 
@@ -29,7 +29,7 @@ Run frequency
 
 </td><td>
 
-Frequency to run AIOps LEAP on the required table.
+Frequency to run LEAP on the required table.
 
 </td></tr><tr><td>
 
@@ -37,7 +37,7 @@ Group records from this table \*
 
 </td><td>
 
-Table name to run AIOps LEAP query to filter records for grouping.
+Table name to run LEAP query to filter records for grouping.
 
 </td></tr><tr><td>
 

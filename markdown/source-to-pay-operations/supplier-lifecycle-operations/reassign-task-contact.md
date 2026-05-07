@@ -38,15 +38,15 @@ The **Reassign** option is displayed only for the following task types:
 
 2.  Do one of the following.
 
-<table><thead><tr><th align="left" id="d152419e110">
+<table><thead><tr><th align="left" id="d156995e110">
 
 To
 
-</th><th align="left" id="d152419e113">
+</th><th align="left" id="d156995e113">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d152419e119">
+</th></tr></thead><tbody><tr><td id="d156995e119">
 
 **Open a task from the portal header**
 
@@ -64,7 +64,7 @@ The Supplier Task List is displayed.
 2.  Select the task that you want to reassign to a different contact.
 
 
-</td></tr><tr><td id="d152419e153">
+</td></tr><tr><td id="d156995e153">
 
 **Open a task from the My active items widget**
 
@@ -72,7 +72,7 @@ The Supplier Task List is displayed.
 
 Select the Tasks tile, which opens the The My To-dos page.
 
-</td></tr><tr><td id="d152419e162">
+</td></tr><tr><td id="d156995e162">
 
 **Open a task from the My tasks widget**
 
@@ -81,7 +81,7 @@ Select the Tasks tile, which opens the The My To-dos page.
 Select the task that you want to reassign to a different contact.
 
 </td></tr></tbody>
-</table>3.  Select **Reassign**.![Selected button for reassigning task.](../image/reassign-task-supplier-collaboration-portal.png)
+</table>3.  Select **Reassign**.
 
 4.  In the **Assign to** field, search for and select the contact that you want to reassign this task to.
 

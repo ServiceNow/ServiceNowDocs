@@ -9,7 +9,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [Now Assist Security Operations]
-breadcrumb: [Configure Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Skill inputs for Now Assist for Sourcing and Procurement Operations \(SPO\)

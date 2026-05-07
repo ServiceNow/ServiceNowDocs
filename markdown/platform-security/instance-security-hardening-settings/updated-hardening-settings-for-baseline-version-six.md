@@ -384,7 +384,7 @@ Ensure that the **SNC User Lockout Check with Auto Unlock** script action \(foun
 
 </td></tr><tr><td>
 
-
+Enable updated version of MultiSSO plugin
 
 </td><td>
 

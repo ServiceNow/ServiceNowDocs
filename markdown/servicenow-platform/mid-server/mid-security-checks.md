@@ -127,6 +127,8 @@ Self-hosted or on-prem instances must add the following parameter for the **conf
 
 [Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
 
+[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
+
 [MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
 
 [Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)

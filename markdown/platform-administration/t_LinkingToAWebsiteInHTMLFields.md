@@ -21,7 +21,7 @@ Role required: the role necessary to update the record that contains the HTML fi
 
 1.  Move the cursor to the position where the link is to appear.
 
-2.  Click the insert/edit link icon \(![Insert or edit link icon](../image/TinyMCEV4Link.png)\) in the HTML toolbar.
+2.  Select the insert/edit link icon \(![Insert or edit link icon](../image/TinyMCEV4Link.png)\) in the HTML toolbar.
 
 3.  Enter information in each field.
 
@@ -55,9 +55,9 @@ Enter the text you want to display for the link.
 
 </td><td>
 
-Select the target window for the URL.For files, the **None \(use implicit\)** selection is generally the best choice. However, if you are linking to a complete web page, choose **New window \(\_blank\)** so the browser opens the link in a new tab or window.
+Select the target window for the URL.For files, the **None \(use implicit\)** selection is generally the best choice. However, if you're linking to a complete web page, choose **New window \(\_blank\)** so the browser opens the link in a new tab or window.
 
 </td></tr></tbody>
-</table>4.  Click **OK** to insert the link into the field.
+</table>4.  Select **OK** to insert the link into the field.
 
 

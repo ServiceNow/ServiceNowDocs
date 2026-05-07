@@ -20,31 +20,18 @@ See [Adoption services](https://www.servicenow.com/docs/access?context=adoption-
 
 ## New in the Australia release
 
--   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **[Using Dynamic Guidance](https://www.servicenow.com/docs/access?context=using-dynamic-guidance&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
 
-    text
+    Dynamic Guidance provides an assistance that is fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
 
 
-## UI changes
+## Deprecated features
 
--   **Coral theme**
-
-    Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
-
-    For existing customers who upgrade to Australia, use [Theme Builder to publish Coral theme to your instance](https://www.servicenow.com/docs/access?context=tb-apply-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) or [add Coral theme to the Next Experience UX Parent App Theme table](https://www.servicenow.com/docs/access?context=configure-presentation-order-of-themes&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
-
--   **Easy discoverability of [Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
-
-    Guided Tours are now prominently displayed on the Help Center, making them easier to find. Based on your role, you will have access to guided tours that provide an interactive experience, allowing you to engage directly with the application.
-
--   **[Onboarding modals](https://www.servicenow.com/docs/access?context=next-experience-onboarding&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
-
-    The images in the Onboarding modals now match the theme of the instance that you choose, whether dark, light, or coral to provide a visually cohesive experience.
-
+Starting with the Australia release, Guided Setup is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Activation information
 
-Adoption Services is active by default with the plugins. You don’t need to activate this feature.
+Adoption Services is active by default with the plugins. Do not activate this feature.
 
 ## Accessibility information
 

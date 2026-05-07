@@ -26,4 +26,6 @@ Digital Factory Workspace helps standardize processes and improve efficiency on 
 Industrial Knowledge Management for Industrial Connected Workforce \(ICW\) enables you to organize and manage your knowledge resources in a single place.
 -   **[Industrial Connected Workforce Mobile Experience](../../icw-mobile-experience/concept/icw-mobile-exp-landing-page.md)**  
 Use Industrial Connected Workforce Mobile Experience to streamline your factory shop floor processes.
+-   **[AI Enhanced recommended actions for Industrial Connected Workforce](../../icw-ai-enhanced-recommended-actions/reference/ai-enhanced-ra-icw-landing.md)**  
+The AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) feature accesses external sources related to a deviation, and contextualizes how the document is relevant to the deviation.
 

@@ -27,7 +27,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **LangGraph** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
     Setup instructions page displays.
 
@@ -49,15 +49,15 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     5.  To use a MID Server, select the MID Server check box.
 
-    6.  Click **Create and test connection**.
+    6.  Select **Create and test connection**.
 
-    7.  Click **Continue**.
+    7.  Select **Continue**.
 
 7.  Configure import schedule
 
-    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
 
-        **Note:** Ensure to execute the Discovery-scheduled job first.
+        **Note:** promote to execute the Discovery-scheduled job first.
 
     2.  Set the run frequency.
 
@@ -65,12 +65,12 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Click **Continue**.
+    4.  Select **Continue**.
 
-    5.  Click **View all connections** to view the newly created connection.
+    5.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-AI connection is created for LangGraph.
+An AI connection is created for LangGraph.
 

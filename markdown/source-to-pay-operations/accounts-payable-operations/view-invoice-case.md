@@ -31,7 +31,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 5.  Select **View invoice processing case**.
 
-    ![image.apo-view-inv-process-case]
+    ![View invoice processing case](../image/apo-view-inv-process-case.png)
 
 
 ## Result

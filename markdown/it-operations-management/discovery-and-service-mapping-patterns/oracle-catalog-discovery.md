@@ -7,7 +7,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -72,4 +72,11 @@ This relationship is created to support Oracle Catalog discovery.
 |​Oracle Catalog \[cmdb\_ci\_db\_ora\_catalog​\]|Contains::Contained by|Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]|
 
 **Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+
+**Related topics**  
+
+
+[Oracle pluggable database and container database discovery](oracle-cdb-pdb-discovery.md)
+
+[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](oracle-glas-discovery.md)
 

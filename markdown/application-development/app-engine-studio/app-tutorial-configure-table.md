@@ -89,7 +89,7 @@ Tutorial video that demonstrates how to create and configure a data table to cap
 
     **Forms** view enables you to create your table as a form. You can choose other views depending on the type of data that your table stores.
 
-3.  Remove any unnecessary fields from your table by hovering over the field, then selecting the delete field icon \(![Delete form element.](../../../administer/form-builder/image/fb-delete-icon.png)\).
+3.  Remove any unnecessary fields from your table by hovering over the field, then selecting the delete field icon \(![](../../../administer/form-builder/image/fb-delete-icon.png)\).
 
     **Note:** When you create a table from an extended table, the table comes with preconfigured fields. You can choose to keep or remove any preconfigured fields in your own table.
 

@@ -27,7 +27,7 @@ Network interfaces are used for the interconnection of signaling, or for the Int
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  From the list icon \(![List icon.](../../tmt-order-mgt/image/Lists.png), go to **Inventory** &gt; **Network Interfaces**.
+2.  From the list icon \(![List](../../tmt-assurance-workflows/image/lists_icon-proactive.png)\)\(, go to **Inventory** &gt; **Network Interfaces**.
 
 3.  Select **New**.
 
@@ -212,5 +212,5 @@ Optical wavelength of a port.
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

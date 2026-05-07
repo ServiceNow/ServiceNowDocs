@@ -36,7 +36,7 @@ For example, your organization might have many data centers. You can define a pa
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+1.  Navigate to **All** &gt; **CAM Workspace** and then select the lists icon \(![Lists icon.](../image/ws-list-icon.png)\).
 
 2.  From the Authorization boundaries in the RMF list on the left pane, select an authorization boundary record on the right pane.
 

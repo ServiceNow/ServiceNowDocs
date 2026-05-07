@@ -26,9 +26,12 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 ## What You Get
 
 -   **Session Preparation**
-    -   Provision a temporary instance
-    -   Install required CSDM plugins
-    -   Assessment of current CSDM alignment via Instance scan
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Installs required CSDM plugins
+    -   Assesses current CSDM alignment via Instance scan
 -   **Customer Coaching Session \#1 \(up to 90 minutes\)**
 
     Includes the following:

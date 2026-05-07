@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
 keywords: [Now, Assist, Microsoft, Teams, Virtual, Agent, Integration, MS, MSTeams]
 breadcrumb: [Install, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
@@ -26,11 +26,11 @@ Create a self-configured bot for Microsoft Copilot. For more information, see [S
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Select **Now Assist in Virtual Agent \(default\)**.
+2.  Under **Now Assist in Virtual Agent \(default\)**, select the **Edit** button.
 
-3.  Under the **Display experience** tab, select **Channels**.
+3.  Under the **Settings** tab, select **Display experiences**, then select **Channels**.
 
 4.  Choose the self-configured bot for the Teams channel experience you want to activate by selecting the **Select row** check box next to its name.
 

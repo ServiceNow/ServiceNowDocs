@@ -29,7 +29,7 @@ When a PaCE policy is mapped to a deployable instance, and if the policy is not 
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Compliance library** &gt; **Control objectives**.
 

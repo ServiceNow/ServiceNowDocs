@@ -31,7 +31,7 @@ Role required: sn\_fcms\_intg.admin, sn\_shop.procurement\_specialist, connectio
 
     For example, select the **Create or Update Sourcing Event in SAP Ariba** flow.
 
-    ![Overview of the Create or Update Sourcing Event in SAP Ariba flow](../image/sap-ariba-trigger.png "Create or Update Sourcing Event in SAP Ariba")
+    ![Overview of the Create or Update Sourcing Event in SAP Ariba flow](../../source-to-pay-operations/image/sap-ariba-trigger.png "Create or Update Sourcing Event in SAP Ariba")
 
 5.  In the Trigger field, specify the condition for the flow to run.
 

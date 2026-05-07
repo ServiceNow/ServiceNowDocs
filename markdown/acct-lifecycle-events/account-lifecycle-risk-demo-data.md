@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Define risk criteria, Manage engagements, Customer success, Configure, Customer Success Management]
+breadcrumb: [Define risk criteria, Manage engagements, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Sample risk definitions

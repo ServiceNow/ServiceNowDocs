@@ -46,7 +46,7 @@ When using patterns, the clear text never leaves your network. When the proxy se
 
 3.  Define the **Edge pattern input type**.
 
-<table id="choicetable_nkx_mdv_s1b"><tbody><tr><td id="d34375e126">
+<table id="choicetable_nkx_mdv_s1b"><tbody><tr><td id="d36802e126">
 
 **Basic**
 
@@ -58,7 +58,7 @@ A series of character types. In the **Basic Pattern Input** tab, click **Add** a
 
  Click **X** to delete the last character in the pattern.
 
-</td></tr><tr><td id="d34375e159">
+</td></tr><tr><td id="d36802e159">
 
 **Advanced**
 

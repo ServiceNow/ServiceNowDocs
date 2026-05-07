@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference - HR Service Delivery with Ultimate Kronos Group, HR Service Delivery with Ultimate Kronos Group, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, HR Service Delivery with Ultimate Kronos Group, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with HR Service Delivery Integration with Ultimate Kronos Group

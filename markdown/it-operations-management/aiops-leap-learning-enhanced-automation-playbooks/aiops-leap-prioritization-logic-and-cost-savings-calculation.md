@@ -1,6 +1,6 @@
 ---
-title: AIOps LEAP prioritization logic and cost savings calculation
-description: AIOps LEAP uses built-in prioritization logic to identify the highest-impact automation opportunities. This logic helps you focus on the most valuable automation tasks. The calculations provide an estimate of potential cost and time savings. It's best to validate these values in a non-production environment before implementing them in production.
+title: LEAP prioritization logic and cost savings calculation
+description: LEAP uses built-in prioritization logic to identify the highest-impact automation opportunities. This logic helps you focus on the most valuable automation tasks. The calculations provide an estimate of potential cost and time savings. It's best to validate these values in a non-production environment before implementing them in production.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,12 +8,12 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Exploring AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Exploring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# AIOps LEAP prioritization logic and cost savings calculation
+# LEAP prioritization logic and cost savings calculation
 
-AIOps LEAP uses built-in prioritization logic to identify the highest-impact automation opportunities. This logic helps you focus on the most valuable automation tasks. The calculations provide an estimate of potential cost and time savings. It's best to validate these values in a non-production environment before implementing them in production.
+LEAP uses built-in prioritization logic to identify the highest-impact automation opportunities. This logic helps you focus on the most valuable automation tasks. The calculations provide an estimate of potential cost and time savings. It's best to validate these values in a non-production environment before implementing them in production.
 
 The automation priority is calculated by combining the following key factors:
 
@@ -56,8 +56,8 @@ These factors are given values. Example values for  criticality:
 **Note:**
 
 -   You can modify the values in the LEAP settings page. However, the calculations will differ when you change the values.
--   The values in the LEAP settings page should be modified before activating AIOps LEAP.
--   If you modify the values in the LEAP settings page, you need to rerun the calculation. For this, you must deactivate and reactivate the AIOps LEAP installer skill.
+-   The values in the LEAP settings page should be modified before activating LEAP.
+-   If you modify the values in the LEAP settings page, you need to rerun the calculation. For this, you must deactivate and reactivate the LEAP installer skill.
 
 Each factor is weighted. For example, say that Criticality = 0.8, Major Incident = 0.2, and Impact = 0.4.
 
@@ -69,7 +69,7 @@ The  average of all ticket scores  in the group becomes the  Business Impa
 
 ## Projected cost or time savings impact
 
-AIOps LEAP estimates how much time and cost can be saved by automating a group of incidents with historical ticket data.
+LEAP estimates how much time and cost can be saved by automating a group of incidents with historical ticket data.
 
 The key inputs for cost and time savings are the following:
 
@@ -77,7 +77,7 @@ The key inputs for cost and time savings are the following:
 -   Average Manual Work Notes Count \(AWNC\)
 -   Overhead Factor \(OHF\) : varies by incident priority based on the priorities table
 
-AIOps LEAP uses the following formulas to calculate the projected cost or time savings:
+LEAP uses the following formulas to calculate the projected cost or time savings:
 
 -   `Projected Cost Savings = ∑ (FOI × OHF) × AWNC × Cost per Work Note`
 -   `Projected Time Savings = ∑ (FOI × OHF) × AWNC × Agent Time per Entry`
@@ -86,7 +86,7 @@ Each ticket’s projected savings is calculated. The  average for the group 
 
 ## Determining overall priority
 
-After calculating the values for the business impact and the projected cost/time savings, AIOps LEAP assigns a priority level to each automation opportunity using this matrix:
+After calculating the values for the business impact and the projected cost/time savings, LEAP assigns a priority level to each automation opportunity using this matrix:
 
 |Business impact|Projected cost/time savings|Automation priority|
 |---------------|---------------------------|-------------------|
@@ -98,11 +98,11 @@ After calculating the values for the business impact and the projected cost/time
 |Low|Medium|Low|
 |Low|Low|Very Low|
 
-These prioritized automation opportunities are displayed on the AIOps LEAP home page.
+These prioritized automation opportunities are displayed on the LEAP home page.
 
 ## Tracking the actual cost and time savings
 
-After automation is implemented, AIOps LEAP tracks  actual cost and time savings and displays them on the  LEAP Value Dashboard, helping you measure impact and make decisions.
+After automation is implemented, LEAP tracks  actual cost and time savings and displays them on the  LEAP Value Dashboard, helping you measure impact and make decisions.
 
 Key metrics:
 

@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [explore, sourcing and procurement operations, SPO]
 breadcrumb: [Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -95,6 +95,8 @@ To learn more about configuring and using Sourcing and Procurement Operations, s
 -   [Use Sourcing and Procurement Operations](using-spo.md)
 -   [Sourcing and Procurement Operations reference](../reference/spo-reference.md)
 
+-   **[Shopping Hub](shopping-hub-overview.md)**  
+Shopping Hub \(sn\_spend\_uib\) is a self-service procurement portal that employees use to purchase products and services. It supports browsing internal catalog items and supplier catalogs, submitting purchase requests, and tracking orders from checkout through fulfillment.
 -   **[My purchases on Shopping Hub](my-purchases.md)**  
 As a shopper, you can view all the purchases made from your shopping account by selecting My purchases from your Shopping Hub profile.
 -   **[Shopping Hub Mobile](shoppinghub-mobile.md)**  

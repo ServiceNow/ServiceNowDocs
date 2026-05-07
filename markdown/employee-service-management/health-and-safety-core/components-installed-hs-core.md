@@ -6,7 +6,7 @@ release: australia
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-05-01"
 reading_time_minutes: 10
 breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -441,6 +441,7 @@ Can view Health and Safety incidents
 
 </td><td>
 
+-   cmdb\_read
 -   sn\_hs\_rm.risk\_category\_reader
 -   sn\_hs\_rm.hazard\_reader
 -   sn\_hs\_rm.template\_reader

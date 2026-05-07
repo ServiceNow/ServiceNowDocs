@@ -7,7 +7,7 @@ product: MID Server
 classification: mid-server
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -116,6 +116,8 @@ The properties accept comma separated lists with operators. The first name in th
 [Rekey a MID Server](../task/t_RekeyAMIDServer.md)
 
 [Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)
+
+[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)
 
 [Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)
 

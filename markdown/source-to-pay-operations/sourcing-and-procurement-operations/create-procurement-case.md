@@ -270,3 +270,8 @@ Reason why the case was created.
 
 **Parent Topic:**[Using Procurement Case Management](../concept/using-pcm.md)
 
+**Related topics**  
+
+
+[Base system procurement case type reference](../reference/base-system-procurement-case-types.md)
+

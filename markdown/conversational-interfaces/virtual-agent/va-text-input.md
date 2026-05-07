@@ -324,6 +324,7 @@ No-code condition statement or low-code script that specifies a condition for le
 |Mobile UI|Not supported|Supported|None.|
 |Now Assist panel|Not supported|Supported|None.|
 |Microsoft Teams|Supported|Supported|None.|
+|Google chat|Supported|Supported|None.|
 |Slack|Not supported|Supported|Slack users can edit text previously entered in a conversation. However, Virtual Agent processes messages as they are first entered. If aSlack user edits text input, such as a comment to update a case, then Virtual Agent does not evaluate the edited update.|
 |Workplace|Not supported|Supported|None.|
 |Facebook Messenger|Not supported|Supported|The maximum character limit is 5000 characters.|

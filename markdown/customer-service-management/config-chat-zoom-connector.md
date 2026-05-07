@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Chat Zoom Connector, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Chat Zoom Connector, Chat channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Configure Chat Zoom Connector

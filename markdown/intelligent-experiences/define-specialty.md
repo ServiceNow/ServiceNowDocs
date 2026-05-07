@@ -21,9 +21,9 @@ Role required: sn\_aia.admin
 
 The first step of the guided setup enables you to define the fundamentals of the AI agent. The description, AI agent role, and list of steps fields are used by the LLM to understand how to use the AI agent, by itself or as part of an agentic workflow. Descriptions, AI agent roles, and list of steps should be clear and well-defined. For guidelines for writing these fields, see [Writing effectively for agentic AI](../concept/gg-creating-aia.md). For an example AI agent, see [Example AI agent](../concept/example-aia.md).
 
-![AI Agent Guided Setup showcasing the different stages of configuring an AI agent.](../image/create-aia-new.png)
+![AI Agent Guided Setup showcasing the different stages of configuring an AI agent.](../image/create-aia-new1.png)
 
-**Note:** If you have the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) installed on your ServiceNow instance, then the AI-native experience may differ from the standard experience. If you plan to use an AI agent in the AI-native mode, make sure to test so it works as expected.
+**Note:** If you have the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) installed on your ServiceNow instance, then the Premium Chat experience may differ from the standard experience. If you plan to use an AI agent in the Premium Chat mode, make sure to test so it works as expected.
 
 ## Procedure
 

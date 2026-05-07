@@ -33,8 +33,6 @@ When clicked, lists and forms display for codeless user experience, facilitating
 
     **Note:** Double-click the record to use the M2M record.
 
-    ![Advanced configuration](../image/AdvancedMapPage.gif)
-
 4.  In the **Name** field, enter a unique name for your Map Page.
 
 5.  Click the menu icon \(![Menu icon](../../workspace/image/menu-icon.png)\) and select **Save**.

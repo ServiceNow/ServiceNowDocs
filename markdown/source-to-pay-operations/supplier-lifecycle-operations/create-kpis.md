@@ -17,7 +17,7 @@ You can add new KPIs for a supplier without using the existing KPI templates. Ad
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kpi.admin
 
 ## Procedure
 

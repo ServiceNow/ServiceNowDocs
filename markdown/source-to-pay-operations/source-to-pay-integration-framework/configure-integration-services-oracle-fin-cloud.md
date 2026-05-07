@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Configure integration services for Oracle Financial Cloud
@@ -40,7 +40,7 @@ If the application requires multiple Oracle Financial Cloud ERP instances, creat
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Configure integration services for Oracle Financial Cloud](../image/oracle-fin-integration-service.png "Configure integration services for Oracle Financial Cloud")
+    ![Configure integration services for Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-integration-service.png "Configure integration services for Oracle Financial Cloud")
 
 4.  On the integration service record, fill in the fields.
 

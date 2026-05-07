@@ -53,21 +53,27 @@ To use IBM Netcool\_V2 connector, configure a connector instance for the MID Ser
 
 4.  In the Connector Parameters section, specify the value of the required Netcool parameters.
 
-<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d182680e250">
+<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d186450e250">
 
 Connector
 
-</th><th align="left" id="d182680e253">
+</th><th align="left" id="d186450e253">
 
 Required parameters
 
-</th></tr></thead><tbody><tr><td id="d182680e259">
+</th></tr></thead><tbody><tr><td id="d186450e259">
 
 **IBM Netcool\_V2**
 
 </td><td>
 
-**port**: The port number on which IBM Netcool is running. For example: 8080**initial\_sync\_in\_days**: The number of days of data fetched on first pull. The default value is 3, but can be changed according to your requirements.
+-   **additional\_alert\_columns**: comma separated list of columns to include in event additional information from net cool alert. Specify here if the desired columns are not already part of event.
+-   **debug**: Boolean flag to enable debug logs. Default: false.
+-   **initial\_sync\_in\_days**: The number of days of data fetched on first pull. The default value is 3, but can be changed according to your requirements.
+-   **message\_key\_delimiter**: Separate hierarchical parts of a message key, enabling structured namespacing.
+-   **port**: The port number on which IBM Netcool is running. For example: 8080.
+-   **Protocol**: Protocol to use when connecting to the Netcool server. Default: https.
+
 
 </td></tr></tbody>
 </table>5.  Verify that Netcool servers are up and running:

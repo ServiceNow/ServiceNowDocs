@@ -30,7 +30,7 @@ Web Search AI choices are available in the OneExtend Definition Configs related 
 
 For more information on how to work with the **AI Search answers** OneExtend capability, see [Configure AI search answers capability for web search](../../generative-ai-controller/task/configure-ai-search-answers-capability-for-web-search.md).
 
-For more information on how to add web search as a tool in the Now Assist Skill Kit, see [Add a web search](../task/add-web-search.md).
+For more information on how to add web search as a tool in the Now Assist Skill Kit, see [Add a web search tool](../task/add-web-search.md).
 
 **Parent Topic:**[Now Assist Skill Kit reference](na-skill-kit-reference.md)
 

@@ -44,10 +44,9 @@ To review and refine your vibe-coded app from Build Agent in ServiceNow Studio, 
 
     -   Use the Build Agent panel to edit metadata for your application.
     -   Toggle the panel as needed to avoid covering important information.
-    -   Use Build Agent to create Automated Test Framework \(ATF\) tests.
 6.  Test and validate the app.
 
-    -   Use the ServiceNow Studio integration with the ATF to run the tests.
+    -   Use Build Agent to create and run Automated Test Framework \(ATF\) tests.
     -   Verify that your refined app functions correctly.
 
 ## When to choose the ServiceNow IDE or ServiceNow Studio

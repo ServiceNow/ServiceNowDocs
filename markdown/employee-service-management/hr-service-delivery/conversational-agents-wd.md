@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Use HCM AI agents for HR Service Delivery Advanced Integration with Workday
@@ -43,7 +43,7 @@ The Employee details updater AI agent enables you to update personal information
 
 The View paychecks AI agent enables you to view paycheck summaries for the selected period.
 
-**Parent Topic:**[Using](using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

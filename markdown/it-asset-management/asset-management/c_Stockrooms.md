@@ -41,7 +41,5 @@ Stock rules are defined criteria stating that when the inventory of a particular
 
 [Manage transfer order](manage-transfer-orders.md)
 
-[Example Asset Management process](../task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../reference/org-mgmt.md#)
 

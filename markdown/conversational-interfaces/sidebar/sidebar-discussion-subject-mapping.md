@@ -21,7 +21,13 @@ Role required: admin
 
 ## Procedure
 
-1.  On the Sidebar Discussion Subject Mapping screen, fill in the fields:
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
+
+2.  Select Sidebar.
+
+3.  In the Discussion subject mapping section, select **View settings**.
+
+4.  On the Sidebar Discussion Subject Mapping screen, select **New** to create a new record or select an existing record and fill in the fields:
 
 <table id="table_tnb_j4y_42c"><thead><tr><th>
 
@@ -82,4 +88,6 @@ Domain
 Domain for the record.
 
 </td></tr></tbody>
-</table>
+</table>5.  Select **Save**.
+
+

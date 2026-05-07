@@ -28,7 +28,7 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Administration** &gt; **Post Incident Review - Assessments Setup**.
 
-2.  In the **Assessment Trigger Conditions Configure** section, click **Configure**.
+2.  In the **Assessment Trigger Conditions Configure** section, select **Configure**.
 
     **Note:** On the Assessment Configurations form, and within the Assessments Configurations section, the **Generate assessments** check box is selected by default.
 
@@ -40,12 +40,10 @@ Role required: sn\_si.admin
 
     2.  In the **Fulfilment** field, specify the fulfilment type.
 
-    3.  To configure a condition, click the rule record and define conditions in the **Condition** field.
+    3.  To configure a condition, select the rule record and define conditions in the **Condition** field.
 
         **Note:**
 
         -   If you create a rule without defining a condition in the **Condition** field, then the condition is evaluated as true and the rule is applicable for all security incidents.
         -   You can define a specific rule to make the assessments either mandatory or optional, and the assessments are not generated for the remaining security incidents, which don't match the defined rules.
-        ![Screenshot for assessment trigger conditions](../image/assmt-trigger-conditions.png "Trigger conditions")
-
 

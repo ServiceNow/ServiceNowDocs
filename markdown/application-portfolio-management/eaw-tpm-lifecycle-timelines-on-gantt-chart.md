@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Gantt view of TPM and TRM lifecycle timelines, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Gantt view of TPM and TRM lifecycle timelines, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TPM lifecycle timelines on Gantt chart
@@ -53,7 +53,7 @@ Similarly, the TPM phase start date of the business application is considered as
 
 ## TPM risk calculation
 
-The TPM view also displays the upcoming TPM risks associated with any application services, based on their lifecycle dates. To calculate the risk associated with an application service, run the **Populate Technology Lifecycle Risks** scheduled job. For more details, see [Schedule a job to generate TPM technology risk](../../task/schedule-job-generate-tpm-risk.md). To learn more about technology lifecycle risk, see [Technology risk calculation](../technology-risks-calculation.md).
+The TPM view also displays the upcoming TPM risks associated with any application services, based on their lifecycle dates. To calculate the risk associated with an application service, run the **Populate Technology Lifecycle Risks** scheduled job. For more details, see [Schedule a job to generate TPM technology risk](../../task/eaw-task/eaw-schedule-job-generate-tpm-risk.md). To learn more about technology lifecycle risk, see .
 
 The hardware model and software product risk scores are derived from the TPM Technology Risk table \(sn\_apm\_tpm\_technology\_risk\). The risk values are rolled up to the application service level. The highest risk value of hardware models and software products associated with a single application service is considered the risk value of that application service. For example, application service A consists of two hardware models and three software products. The two hardware models have moderate risk while the two software products have low risk. However, one software product has high risk. In this scenario, the risk value of the application service is considered high.
 

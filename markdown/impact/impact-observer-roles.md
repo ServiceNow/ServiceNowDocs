@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Instance Observer reference, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Roles installed with Instance Observer

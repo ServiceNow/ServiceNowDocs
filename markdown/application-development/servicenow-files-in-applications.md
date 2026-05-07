@@ -37,15 +37,26 @@ These files are stored in the \[sys\_attachment\] and \[sys\_attachment\_doc\] t
 
 Files in ServiceNow applications serve several key functions:
 
-**Record documentation**: Files can be attached to incidents, change requests, knowledge articles, and other records to provide supporting documentation, screenshots, or evidence. For example, a user reporting an IT issue might attach a screenshot showing an error message.
+-   **Record documentation**
 
-**Knowledge management**: Knowledge base articles often include attached PDFs, images, or other documents that provide detailed instructions or reference materials for end users and support teams.
+    Files can be attached to incidents, change requests, knowledge articles, and other records to provide supporting documentation, screenshots, or evidence. For example, a user reporting an IT issue might attach a screenshot showing an error message.
 
-**Workflow automation**: Files can trigger or be part of automated workflows. For instance, a business rule might process an uploaded spreadsheet, or a workflow could generate and attach reports to records automatically.
+-   **Knowledge Management**
 
-**Service Catalog**: When users request services through the service catalog, they can upload required documents like purchase requisitions, approval forms, or specifications that are then processed as part of the fulfillment workflow.
+    Knowledge base articles often include attached PDFs, images, or other documents that provide detailed instructions or reference materials for end users and support teams.
 
-**Integration and import**: Files are used to import data into ServiceNow \(like CSV imports for bulk updates\) or as outputs from integrations with external systems.
+-   **Workflow automation**
+
+    Files can trigger or be part of automated workflows. For instance, a business rule might process an uploaded spreadsheet, or a workflow could generate and attach reports to records automatically.
+
+-   **Service Catalog**
+
+    When users request services through the service catalog, they can upload required documents like purchase requisitions, approval forms, or specifications that are then processed as part of the fulfillment workflow.
+
+-   **Integration and import**
+
+    Files are used to import data into ServiceNow \(like CSV imports for bulk updates\) or as outputs from integrations with external systems.
+
 
 The platform provides APIs and scripting capabilities to programmatically create, read, update, and manage attachments, making files a flexible component of custom ServiceNow applications.
 

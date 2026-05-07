@@ -1,6 +1,6 @@
 ---
 title: Prompts
-description: Explore prompts in detail with examples.
+description: Explore the prompts in detail with examples.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enabl
 
 # Prompts
 
-Explore prompts in detail with examples.
+Explore the prompts in detail with examples.
 
 A prompt is a question or instruction provided to an AI system, indicating what you want it to accomplish. Prompts are commonly used in tools like ChatGPT or image generators.
 

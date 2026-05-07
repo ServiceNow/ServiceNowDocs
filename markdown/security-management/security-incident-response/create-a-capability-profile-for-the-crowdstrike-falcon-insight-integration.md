@@ -1,17 +1,17 @@
 ---
-title: Create a capability profile for the CrowdStrike Falcon Insight integration
+title: Create a capability profile
 description: Create a profile and select the CrowdStrike Falcon Insight capabilities that you want the profile to run.
 locale: en-US
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Create a capability profile for the CrowdStrike Falcon Insight integration
+# Create a capability profile
 
 Create a profile and select the CrowdStrike Falcon Insight capabilities that you want the profile to run.
 
@@ -23,9 +23,9 @@ Role required: sn\_si.admin
 
 Consider why you want to create a profile before you add CrowdStrike Falcon Insight capabilities to it. The following table lists the capabilities that you must add to a profile when you want the profile to perform certain queries or actions.
 
-You can create a single profile that runs queries for system details, lists logged-in users, fetches running services, fetches running processes, fetches network statistics, isolates the host, and removes the isolated host. Alternatively, you can create multiple profiles, each with its own single capability.
+You can create a single profile that runs queries for Host details, lists logged-in users, fetches running services, fetches running processes, fetches network statistics, isolates the host, and removes the isolated host. Alternatively, you can create multiple profiles, each with its own single capability.
 
-**Note:** Isolate host, remove isolation, and get file capabilities can’t be merged with any other capabilities while creating a profile.
+**Note:** Isolate host, remove isolation, and get file capabilities cannot be merged with any other capabilities while creating a profile.
 
 <table id="table_sqk_k1h_p4b"><thead><tr><th>
 
@@ -83,7 +83,7 @@ Obtain a file from a host endpoint
 
 1.  Navigate to **All** &gt; **CrowdStrike Falcon Insight Integration** &gt; **CrowdStrike Capability Profiles**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -109,7 +109,7 @@ Active
 
 </td><td>
 
-Indicates if the profile is active or not.When the profile is active, it automatically triggers when a security incident is created that matches the filtering conditions that you’ve specified in the configuration.
+Indicates whether the profile is active.When the profile is active, it automatically triggers when a security incident is created that matches the filtering conditions that you have specified in the configuration.
 
 </td></tr><tr><td>
 
@@ -145,17 +145,17 @@ CrowdStrike Falcon Insight Capabilities
 
 </td><td>
 
-Capabilities of the CrowdStrike Falcon Insight profile.Select the capabilities that you want for this profile from the **Available** to the **Selected**column.
+Capabilities of the CrowdStrike Falcon Insight profile.Select the capabilities that you want for this profile from the **Available** to the **Selected** column.
 
 </td></tr></tbody>
-</table>    The following example shows a complete form for a profile with the Get System Details capability.
+</table>    The following example shows a complete form for a profile with the Get Host Details capability.
 
     ![Falcon Insight Profile Details.](../image/falcon-insight-profile-details.png)
 
-4.  Click **Next**.
+4.  Select **Next**.
 
 
 ## What to do next
 
-Now you can[configure your profile](configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md). Ensure that you have [reviewed the concepts for configuring profiles and trigger conditions](../concept/define-trigger-conditions.md) before you configure the profile.
+Now you can [configure your profile](configure-profiles-and-security-incidents-for-the-crowdstrike-falcon-insight-integration.md). Verify that you have [reviewed the concepts for configuring profiles and trigger conditions](../concept/define-trigger-conditions.md) before you configure the profile.
 

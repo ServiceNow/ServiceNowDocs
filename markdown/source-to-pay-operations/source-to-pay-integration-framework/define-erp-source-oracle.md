@@ -50,7 +50,7 @@ Each ERP instance requires a unique ERP source configuration. Therefore, 10 ERP 
         |Active|Option to activate the ERP source.|
         |Amount Precisions|Amount precision of the ERP source. For example, 2.|
 
-        ![Define a new ERP source configuration for Oracle EBS](../image/oracle-ebs-new-erp-source.png "Define a new ERP source configuration for Oracle EBS")
+        ![Define a new ERP source configuration for Oracle EBS](../../source-to-pay-operations/image/oracle-ebs-new-erp-source.png "Define a new ERP source configuration for Oracle EBS")
 
     3.  Select **Submit**.
 

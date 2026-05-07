@@ -1,18 +1,23 @@
 ---
-title: Customer self-service for Sales and Order Management release notes
+title: Customer self-service for Sales Customer Relationship Management release notes
 description: The ServiceNow Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
-# Customer self-service for Sales and Order Management release notes
+# Customer self-service for Sales Customer Relationship Management release notes
 
 The ServiceNow® Business Portal application enables your B2B customers to place orders, request quotes, and get support for orders and invoices through a self-service web portal. Business Portal was enhanced and updated in the Australia release.
 
 ## Business Portal highlights for the Australia release
+
+[Australia Patch 2](../quality/australia-patch-2.md)
+
+-   Resume and submit invoice cases in draft state.
+-   Review invoice case line details relevant to how your case was created.
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
@@ -30,6 +35,17 @@ See [Customer self-service for Sales Customer Relationship Management](https://w
 **Important:** Business Portal is included with Customer Service Portal, which is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+[Australia Patch 2](../quality/australia-patch-2.md)
+
+-   **[Resume and submit invoice cases in draft state](https://www.servicenow.com/docs/access?context=resume-invoice-case-creation&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+
+    Pick up an invoice case where you left off by resuming draft invoice cases from the Business Portal. Use the Process tab on the Standard Ticket page to continue editing invoice case and invoice case line disputes, then submit for further processing.
+
+-   **[Context-aware invoice case line list view](https://www.servicenow.com/docs/access?context=invoice-case-header-list-view&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+
+    Review invoice case line details that are relevant to how your case was created. The Business Portal displays request source-aware columns in the invoice case line list view, showing specific details when a case is raised for a single invoice or when it spans multiple invoices.
+
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
@@ -95,6 +111,10 @@ The Business Portal application \(sn\_b2b\_portal\) is automatically installed w
 
     The Case Management for Invoice Operations application enables customer service agents to create and manage cases for specific lines from a single invoice or for multiple invoices.
 
+-   **[Now Assist for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+    Use the ServiceNow® Now Assist for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
+
+
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

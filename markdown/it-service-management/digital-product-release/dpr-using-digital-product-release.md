@@ -19,6 +19,8 @@ Use Digital Product Release Workspace to perform these tasks to manage the relea
 
 -   **[Request a new product or service](../task/dpr-request-product.md)**  
 Request a new product or service to manage features and enhancements.
+-   **[../task/dpr-config-product-release-setting.md](../task/dpr-config-product-release-setting.md)**  
+
 -   **[Manage product hierarchy using Included products](../task/dpr-manage-included-products.md)**  
 Add products that you manage​ as Included products within a product or service to create a product hierarchy.
 -   **[Create a release for a product or service](../task/dpr-create-release.md)**  

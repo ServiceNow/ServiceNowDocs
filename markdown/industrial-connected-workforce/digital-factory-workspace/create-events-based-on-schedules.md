@@ -35,11 +35,7 @@ Role required: sn\_icw\_std.standard\_author
 
 5.  Select **Save**.
 
-    ![image.schedule-plan]
-
 6.  For custom schedules, select **Custom schedule** to configure the scheduled plan.
-
-    ![Page for configuring custom schedule](../../icw-industrial-standards/image/custom-schedule.png)
 
 7.  To create a shift-based schedule, enable the **Shift** option before filling in the Custom schedule form fields.
 

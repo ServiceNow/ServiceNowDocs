@@ -7,8 +7,8 @@ product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Channel Management, Using, Workforce Optimization for Customer Service, Customer Service Management]
+reading_time_minutes: 2
+breadcrumb: [Channel Management, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Using Voice with Workforce Optimization for Customer Service
@@ -33,12 +33,6 @@ With the Voice application, you can:
 **Note:** You can integrate any third-party telephony service with the [ServiceNowVoice](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) application. By default, ServiceNowVoice provides you with the ability to integrate with the Amazon Connect application.
 
 You can visualise the metrics from the Amazon Connect phone queues that are routed through Voice using the Channel Management application in Workforce Optimization for Customer Service. The Voice application uses [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to report data from the Amazon Connect queues.
-
-## Voice Amazon Connect integration workflow
-
-Here's how the Voice integrates with Amazon Connect:
-
-![Infographic displaying how the ServiceNow Voice application reduces customer interaction from human agents who use the Amazon Connect integration. For the text description, refer to...](../image/amazon-connect-integration.png)
 
 ## Benefits of using Voice with Workforce Optimization for Customer Service
 

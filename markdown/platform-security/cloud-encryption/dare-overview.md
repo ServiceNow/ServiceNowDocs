@@ -26,7 +26,7 @@ Cloud Encryption offers:
 
 The following diagram shows how Cloud Encryption works.
 
-![Cloud Encryption overview diagram.](../image/cloud-encryption-diagram.png "Cloud Encryption Overview")
+![Cloud Encryption overview diagram](../../encryption/image/ce-cloud-encryption-overview.svg)
 
 The Cloud Encryption Key Management module consists of the following submodules:
 

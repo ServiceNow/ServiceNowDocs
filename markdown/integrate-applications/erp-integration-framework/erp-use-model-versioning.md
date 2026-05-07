@@ -1,6 +1,6 @@
 ---
 title: Using model versioning
-description: Use model versioning in Zero Copy Connector for ERP to determine the version of a model on development and production instances.
+description: Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, version, variant, history]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using model versioning
 
-Use model versioning in Zero Copy Connector for ERP to determine the version of a model on development and production instances.
+Use model versioning in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to determine the version of a model on development and production instances.
 
 ## Before you begin
 

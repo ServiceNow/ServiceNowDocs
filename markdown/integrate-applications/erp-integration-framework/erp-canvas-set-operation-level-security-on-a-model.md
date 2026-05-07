@@ -9,7 +9,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, model, security, operation, model security, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Set operation-level security on a model
@@ -18,7 +18,7 @@ Control access to model operations with user roles and groups.
 
 You must have the sn\_erp\_integration.erp\_admin role to create and edit models.
 
-New permission rules for model operations require you to have a specified role or be part of a specified user group to execute model operations. Each model operation must have at least one user role or one user group specified. You can add multiple user roles and groups as needed.
+In Zero Copy Connector for ERP \(Enterprise Resource Planning\), new permission rules for model operations require you to have a specified role or be part of a specified user group to execute model operations. Each model operation must have at least one user role or one user group specified. You can add multiple user roles and groups as needed.
 
 On a single model, different operations can have different permissions. For example, a financial data model can have some users with only read access to review data, but they can't update or create a financial record. For that same model, other users or groups can be given access to update and create financial records.
 

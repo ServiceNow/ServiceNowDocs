@@ -27,15 +27,15 @@ Role required: sn\_ins\_group\_life.admin or admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table><thead><tr><th align="left" id="d33864e103">
+<table><thead><tr><th align="left" id="d36012e103">
 
 Task
 
-</th><th align="left" id="d33864e106">
+</th><th align="left" id="d36012e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33864e115">
+</th></tr></thead><tbody><tr><td id="d36012e115">
 
 **Configure service definitions**
 
@@ -45,7 +45,7 @@ Description
 -   Group Life and Disability Underwriting
 
 
-</td></tr><tr><td id="d33864e147">
+</td></tr><tr><td id="d36012e147">
 
 **Configure record producers**
 
@@ -53,7 +53,7 @@ Description
 
 [Create or modify record producers](../../fso-common/task/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d33864e167">
+</td></tr><tr><td id="d36012e167">
 
 **Create flows**
 
@@ -61,7 +61,7 @@ Description
 
 [Create flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d33864e189">
+</td></tr><tr><td id="d36012e189">
 
 **Configure playbooks**
 
@@ -69,7 +69,7 @@ Description
 
 [Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d33864e211">
+</td></tr><tr><td id="d36012e211">
 
 **Configure CSM Configurable Workspace**
 
@@ -77,7 +77,7 @@ Description
 
 [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d33864e238">
+</td></tr><tr><td id="d36012e238">
 
 **Modify interceptors and workspace record type selectors**
 
@@ -85,7 +85,7 @@ Description
 
 [Modify interceptors and workspace record type selectors](../../fso-common/concept/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d33864e257">
+</td></tr><tr><td id="d36012e257">
 
 **Configure user groups**
 
@@ -93,7 +93,7 @@ Description
 
 [Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d33864e276">
+</td></tr><tr><td id="d36012e276">
 
 **Configure assignment rules**
 
@@ -101,7 +101,7 @@ Description
 
 [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d33864e293">
+</td></tr><tr><td id="d36012e293">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -109,7 +109,7 @@ Description
 
 [Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d33864e312">
+</td></tr><tr><td id="d36012e312">
 
 **Configure Document Processor**
 

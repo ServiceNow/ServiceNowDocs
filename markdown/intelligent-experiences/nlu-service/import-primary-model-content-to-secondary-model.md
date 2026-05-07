@@ -58,5 +58,3 @@ You can import primary model content to only one secondary model at a time.
 
 Make sure that each of your secondary models receive the new content from the primary model. Review all the new, translated content before publishing the secondary models.
 
-**Parent Topic:**[Multilingual model management](../concept/multilingual-model-managent.md)
-

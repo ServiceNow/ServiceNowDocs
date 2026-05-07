@@ -35,7 +35,7 @@ Role required: admin
 
 5.  In the Plugin Files related list, find the following property, and change the setting value:
 
-<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d52688e112">
+<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d56271e112">
 
 **glide.customurl.enabled**
 

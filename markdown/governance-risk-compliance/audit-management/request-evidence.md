@@ -33,7 +33,7 @@ An evidence can be requested in the following three ways:
 -   By creating an evidence record from the **My Evidence** module.
 -   From the Entity, Control, Audit Task, Control Test Issue, and Other Issues related lists in an engagement record. To request evidence from these sources, navigate to **Audit** &gt; **Engagements** &gt; **My Engagements**. Open the engagement record, and select the related list from which you want to request evidence. From the **Action on selected rows** list, select **Request Evidence**. Here, you can either create a new evidence request or add more requests to an existing evidence request. The Evidence request is created but not evidence request tasks.
 
-    Select **Create a new evidence request task** in the **Request evidence** page to create request task.![New evidence form.](../../grc-workspace-audit/image/request_evidence_itam.png)
+    Select **Create a new evidence request task** in the **Request evidence** page to create request task.![](../image/evidence-request.png)
 
 -   From the following tables: Entity, Control, Control Objective, Control Test, Engagement, Issue. However, when the users request evidence from these tables, the evidence request is created not the actual evidence request task. The users must go to the evidence request record that is generated and then add evidence request tasks.
 
@@ -43,7 +43,7 @@ In this procedure, the method to request evidence from the **My Evidence** modul
 
 1.  Navigate to **Audit** &gt; **My Evidence Request**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -232,7 +232,7 @@ The object from where the evidence is initiated. Add this to the above table.
 
     The Evidence Collection Details related list appears. This related list is used to list the items for which evidence is requested.
 
-5.  Click **New**.
+5.  Select **New**.
 
 6.  On the form, fill in the fields.
 
@@ -244,11 +244,11 @@ The object from where the evidence is initiated. Add this to the above table.
     |Assigned to|User responsible for providing evidence.|
     |Evidence collection instructions|Instructions for providing evidence. For example, list of supporting documents, files, and so on.|
 
-7.  Click **OK**.
+7.  Select **OK**.
 
-8.  Click **Submit**.
+8.  Select **Submit**.
 
-9.  Click **Request Evidence**.
+9.  Select **Request Evidence**.
 
     When an evidence request is already in the Work in Progress state, and a new evidence collection detail is added, then evidence request task is sent to the assignee immediately.
 

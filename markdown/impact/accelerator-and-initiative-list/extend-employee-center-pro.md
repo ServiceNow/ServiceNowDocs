@@ -29,8 +29,10 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 
 -   **Session Preparation**
 
-    -   Provision a temporary instance 
-    -   Activate Employee Center Pro plugins
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance 
+    -   Activates Employee Center Pro plugins
     ​
 
 -   **Customer Coaching Session \#1 \(Up to 90 minutes\)**

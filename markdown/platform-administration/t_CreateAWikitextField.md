@@ -19,11 +19,9 @@ Role required: personalize\_form
 
 ## Procedure
 
-1.  Create a new field with the **Type** set to **Wiki**.
+1.  Create a field with the **Type** set to **Wiki**.
 
-2.  Click **Wikitext** to begin editing.
-
-    ![Wiki plugin wikitext](../image/WikiPluginWikitext.png)
+2.  On the form with the new Wiki type field, select **Wikitext** to begin editing.
 
     The Wikitext field appears on the form.
 

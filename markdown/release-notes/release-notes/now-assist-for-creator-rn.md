@@ -4,8 +4,8 @@ description: The ServiceNow Now Assist for Creator application includes generati
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-04-30"
+reading_time_minutes: 7
 ---
 
 # Now Assist for Creator release notes
@@ -14,11 +14,16 @@ The ServiceNow® Now Assist for Creator application includes generative AI skill
 
 ## Now Assist for Creator highlights for the Australia release
 
+[Australia Patch 2](../quality/australia-patch-2.md)
+
+-   Upload brand guidelines as a PDF using the theme creation workflow to generate themes that align with your brand.
+-   The app generation and test generation plugins are being planned for deprecation in a future release.
+-   Learn about Build Agent updates in the new [Build Agent release notes](build-agent-rn.md).
+
 [Australia Patch 1](../quality/australia-patch-1.md)
 
 -   Generate readable documentation throughout the app development lifecycle using the new release lifecycle documentation AI agent.
 -   Generate themes and color palettes from brand images using the new theme generation workflow in Theme Builder.
--   Learn about Build Agent updates in the new .
 
 Australia early availability \(March\)
 
@@ -37,6 +42,11 @@ Australia early availability \(March\)
 -   To upgrade the Build Agent application, upgrade the Now Assist for Creator application \(sn\_now\_creator\), which includes the Build Agent Pro plugin \(sn\_build\_agent\_pro\). To upgrade the Build Agent \(Trial\) app, upgrade the sn\_build\_agent plugin.
 
 ## New in the Australia release
+
+-   **[Upload brand guidelines to generate theme colors](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+
+    Upload brand guidelines as a PDF to the Theme Builder theme creation workflow to generate themes aligned with your brand.
+
 
 -   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=release-lifecycle-documentation-agent-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
@@ -92,6 +102,12 @@ Install Now Assist for Creator by requesting it from the ServiceNow Store. Visit
 
     -   App Life Cycle AI Agents \(com.sn\_app\_lc\_agents\): Scoped app: AI agent definition, script includes, REST API, system properties
     -   App Life Cycle AI Agents - Global \(com.glide.app\_lifecycle\_agents.global\): Hosted global plugin: UI actions, UI scripts, global utilities
+-   **Plugins planned for deprecation**
+
+    The following plugins are planned for deprecation in a future release:
+
+    -   App generation \(sn\_ae\_gen\_ai\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
+    -   Test generation \(sn\_text2test\): Planned for deprecation in September 2026. The Build Agent plugin provides the latest experience for this functionality.
 
 ## Related ServiceNow applications and features
 

@@ -29,7 +29,7 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 
 2.  Do either of the following.
 
-<table id="choicetable_pjv_3lx_ft"><tbody><tr><td id="d102441e71">
+<table id="choicetable_pjv_3lx_ft"><tbody><tr><td id="d101408e71">
 
 **On the Gantt chart**
 
@@ -39,7 +39,7 @@ Removing the dependency also deletes the dependency record in the Planned Task R
 -   Double-click the relationship and then select **Delete** on the **Planned Task Relationship** form that appears.
 
 
-</td></tr><tr><td id="d102441e98">
+</td></tr><tr><td id="d101408e98">
 
 **On the WBS list**
 

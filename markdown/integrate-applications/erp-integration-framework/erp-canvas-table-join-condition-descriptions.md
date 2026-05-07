@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP table join conditions field descriptions
-description: The Table join condition form in Zero Copy Connector for ERP enables you to create and edit join conditions for tables in a ERP \(Enterprise Resource Planning\) model.
+description: The Table join condition form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit join conditions for tables in an ERP model.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, table, join, condition]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP table join conditions field descriptions
 
-The Table join condition form in Zero Copy Connector for ERP enables you to create and edit join conditions for tables in a ERP \(Enterprise Resource Planning\) model.
+The Table join condition form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit join conditions for tables in an ERP model.
 
 Table joins link different tables through shared fields. Joins enable you to access data from multiple tables based on logical relationships between them. The relationship can be conditional, which you specify using join conditions. Use inner joins or outer joins. An inner join returns records that have matching values in both tables. Outer joins combine left and right join results to return all rows with matches or NULLS.
 

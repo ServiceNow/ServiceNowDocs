@@ -77,5 +77,3 @@ Select a CSV or XLSX \(Excel Workbook\) file with your additional utterances to 
 
 Click **Import**. The system adds your utterances to the test set. After importing, rerun any tests that use the test set.
 
-**Parent Topic:**[Multi-model Batch Testing](../concept/batch-testing-nlu.md)
-

@@ -46,8 +46,8 @@ Secrets Management has two available versions. Secrets Management Core is includ
 Use ServiceNow Secrets Management for granular management of access to your passwords to fit your business needs.
 -   **[Configuring client accessible secrets](client-access-secret-landing.md)**  
 Learn how to configure your instance to use client accessible secrets.
--   **[Secrets management dashboard](secrets-dashboard.md)**  
-Use the secrets management dashboard to review the secret groups configured on your instance, and learn about any security issues.
+-   **[Secrets Management dashboard](secrets-dashboard.md)**  
+Use the Secrets Management dashboard to review the secret groups configured on your instance and learn about any security issues.
 
 **Parent Topic:**[Platform Security](../../general/concept/platsec-sublanding.md)
 

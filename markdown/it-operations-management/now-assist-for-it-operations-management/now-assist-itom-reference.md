@@ -21,5 +21,5 @@ Table that lists applications installed with the Now Assist for IT Operations Ma
 -   **[Questions for the analyze alert impact agentic workflow](../reference/questions-now-assist-workflows.md)**  
 Questions to ask about alerts in the Now Assist for IT Operations Management \(ITOM\) analyze alert impact agentic workflow.
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\)](now-assist-itom.md)
+**Parent Topic:**[Now Assist for ITOM](now-assist-itom.md)
 

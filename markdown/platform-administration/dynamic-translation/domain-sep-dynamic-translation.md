@@ -92,6 +92,8 @@ You can override a translator configuration TC1 from Domain B. After overriding,
 
 The Exclusion Framework module in Dynamic Translation supports domain separation. Each domain on an instance can have its own set of Exclusion Framework rules, so the rules are specific to one domain. Activation of Exclusion Framework on an instance applies to all domains on the instance. For more information see [Exclusion Framework in Dynamic Translation](dyn-translation-exclusion-framework.md).
 
+**Parent Topic:**[Reference for Dynamic Translation](../reference/reference-for-dynamic-translation.md)
+
 **Related topics**  
 
 

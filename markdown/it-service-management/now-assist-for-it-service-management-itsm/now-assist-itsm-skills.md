@@ -907,11 +907,12 @@ Input fields
 
 </td><td>
 
--   Description
 -   Short description
+-   Description
 -   Priority
 -   Work notes
--   Comments
+-   Additional comments
+-   Updated
 
 </td></tr></tbody>
 </table>## Requested item summarization skill
@@ -987,11 +988,12 @@ Input fields
 
 </td><td>
 
--   Description
 -   Short description
+-   Description
 -   Priority
 -   Work notes
--   Comments
+-   Additional comments
+-   Updated
 
 </td></tr></tbody>
 </table>## Catalog task summarization skill
@@ -1035,6 +1037,44 @@ Input fields
 -   Additional comments
 -   Work notes
 -   Approval
+
+</td></tr></tbody>
+</table>## Catalog task activity response generation skill
+
+The catalog task activity response generation skill includes the inputs that identify the table and fields that are used when the catalog task activity response is generated.
+
+In this release, you can't modify the input data source. The data source contains the tables and fields that the skill relies on.
+
+The following table lists the inputs for the catalog task activity response generation skill.
+
+<table id="table_rvy_lx5_y3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Catalog task \[sc\_task\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Short description
+-   Description
+-   Priority
+-   Work notes
+-   Additional comments
+-   Updated
 
 </td></tr></tbody>
 </table>

@@ -30,8 +30,6 @@ For detailed information and use cases on using financials in Next Experience, s
 1.  Existing projects that have only project baselines but no investment baselines. With the migration, project baseline will be migrated to investment baseline and you can view the migrated baseline from the `sn_invst_pln_invst_investment_baseline` table list view.
 2.  Existing projects that have both project and investment baselines, you need to run the scheduled job to populate the fields for investment currency in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](../../spw-financials/task/multi-currency-scheduled-job-spw.md).
 
-![Flow chart explaining the logical flow of migrating a financial baseline from classic to Next Experience.](../../pw-financials/images/fin_baseline_migration_logical_flow_no_background.png)
-
 ## Before you begin
 
 The data in project currency fields will be migrated to investment currency fields on migrating baselines for customers using multicurrency.
@@ -44,15 +42,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d47898e164">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d49751e165">
 
 Choice
 
-</th><th align="left" id="d47898e167">
+</th><th align="left" id="d49751e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47898e173">
+</th></tr></thead><tbody><tr><td id="d49751e174">
 
 **Using list actions**
 
@@ -63,7 +61,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d47898e203">
+</td></tr><tr><td id="d49751e204">
 
 **Using related links**
 
@@ -73,7 +71,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d47898e224">
+</td></tr><tr><td id="d49751e225">
 
 **Activate a scheduled job**
 

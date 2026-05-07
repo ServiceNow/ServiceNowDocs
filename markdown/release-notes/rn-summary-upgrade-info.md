@@ -4,7 +4,7 @@ description: Cumulative release notes summary on upgrade information for Austral
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-05-04"
 reading_time_minutes: 25
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -30,6 +30,14 @@ AI Control Tower
 </td><td>
 
 Not applicable.
+
+</td></tr><tr><td>
+
+AI Desktop Actions
+
+</td><td>
+
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download AI Desktop Actions installer](https://www.servicenow.com/docs/access?context=download-agentic-desktop-installer&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -159,6 +167,14 @@ Customer Engagement Sequences
 </td><td>
 
 If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon ![](../../reuse/icons/product-icons/phone-fill-24.svg) doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
+
+</td></tr><tr><td>
+
+Dispute Rules Content Pack for Mastercard
+
+</td><td>
+
+The Australia release adds 14 new data fields to the Authorization and Financial Transaction tables to support the new eligibility rules. The `transactionAmountLocal` field already exists in the Financial Transaction table but is being extended to the Financial Transaction Authorization table in this release. No other pre-existing fields are affected. After upgrading, confirm that the new fields are available and populated on your instance. For a full list of new fields, see New in this release.
 
 </td></tr><tr><td>
 
@@ -329,33 +345,15 @@ Now Assist for IT Service Management \(ITSM\)
 
 To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
 
-1.  Go to **Admin** &gt; **Now Assist Admin**.
+1.  Go to **Admin** &gt; **Now Assist admin**.
 2.  Select **Now Assist Skills**.
 3.  Select **Platform**.
 4.  Select **Knowledge**.
 5.  Make sure the knowledge content recommendation skill is active.
 
-The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](../quality/australia-patch-1.md), if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](../quality/australia-patch-1.md), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
 
-</td></tr><tr><td>
-
-Now Assist for Vulnerability Response
-
-</td><td>
-
-To access the new AI native experience in the Vulnerability Response or Unified Security Exposure Management \(USEM\) workspaces, you must upgrade to the Australia release.
-
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
-For existing customers who have not upgraded to Australia, generative AI skills, agents, and workflows are supported in the Vulnerability Response workspaces and are included with the Now Assist for Vulnerability Response application.
+Starting with the [Australia Patch 2](../quality/australia-patch-2.md), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
 </td></tr><tr><td>
 
@@ -363,7 +361,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 
@@ -478,7 +476,7 @@ Service Exchange \(Legacy\) version: Before you upgrade to the Australia release
 -   Service Exchange version 1.x.x: When upgrading, consult the [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.
 -   Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.
 -   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.
--   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales and Order Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+-   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
 -   When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:
     -   Yokohama
     -   Zurich

@@ -181,7 +181,7 @@ Opened for / Approver view
 
 </td><td colspan="2">
 
-\(Employee Service Center only\) Configuration of the HR ticket page header for the person that the HR case was opened for and any approvers. **Note:** The HR ticket page is where users can view the details of an HR case in the Employee Center. See  for more information.
+Different view of the HR case \(with different fields\) based on role.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Subject person / Task assignee view
 
 </td><td colspan="2">
 
-\(Employee Center only\) Configuration of the HR ticket page header for the subject person of the HR case and any task assignees. **Note:** The HR ticket page is where users can view the details of an HR case in the Employee Center. See  for more information.
+Different view of the HR case \(with different fields\) based on role.
 
 </td></tr><tr><td>
 
@@ -206,15 +206,10 @@ Show case to subject person
 </td><td colspan="2">
 
 \(Employee Service Center Employee Center only\) Option to show the HR case to the subject person when it is created, including:-   HR tasks assigned to the subject person
-
-**Note:** The ticket page of the Employee Center shows all to-dos and requests for an HR case when the Opened for and Subject person are identical. If you want the Subject person to only see tasks assigned to them, change the Opened for person to someone different \(possibly the Subject person's manager\).
-
 -   Child HR cases where the subject person is also the opened for
 -   Child HR cases when the subject person has a task assigned
 -   Requests where the subject person is the requested for
  If the HR case has one or more child cases, the child cases are automatically rolled up with the parent case up to three generations. HR child cases that are rolled up with the parent do not appear as separate requests on the requests page. Non-HR child cases appear both as a separate request and as part of the roll-up on the parent case.
-
- **Note:** The HR ticket page is where users can view the details of an HR case in the Employee Center. See  for more information.
 
 </td></tr><tr><td>
 
@@ -223,6 +218,22 @@ Template
 </td><td colspan="2">
 
 HR case template to use with the HR service.**Note:** The HR case template automatically populates fields on the HR case form when a request for that service is made. See [Configure an HR case template](configure-hr-case-template.md) for more information.
+
+</td></tr><tr><td>
+
+Automatically move attachments
+
+</td><td colspan="2">
+
+Option to enable the movement of attachments to a document repository.**Note:** This option appears if the Employee Document Management \[com.sn\_employee\_document\_management\] plugin is activated.
+
+</td></tr><tr><td>
+
+Employee Document Type
+
+</td><td colspan="2">
+
+Option to specify a document type into which you want to move attachments.**Note:** This option appears if the **Automatically move attachments** check box is enabled.
 
 </td></tr><tr><td>
 

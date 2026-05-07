@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 2
 ---
 
 # Extend ServiceNow AI Platform capabilities
@@ -45,45 +45,23 @@ Choose one of these tiles to get started.
 
 Control your organization's infrastructure by tracking assets, services, and the relationships between them in the CMDB. Use configuration strategies and consistent modeling in the CMDB to work with all ServiceNow products on the ServiceNow AI Platform.
 
-![Configuration Management Database illustration](../image/manage_cmdb.png)
-
 ## Manage Instance Data Sources
 
 Ensure clear oversight of all data in your instances, databases, and third-party applications using ServiceNow tools to manage data retrieval, storage, sharing, standardization, and monitoring.
-
-![Instance data source management illustration](../image/manage_instance_data.png)
 
 ## Manage Content
 
 Give your users access to the information that they need quickly and easily using the content management suite with products for document and knowledge base management.
 
-![Knowledge management image](../image/manage_content.png)
-
 ## Manage Services
 
 Give your customers tailored catalogs for products and create portals for service requests using the ServiceNow® Service Catalog application. Combine this application with the Self-Service plugin to provide your users with quick access to the tools at their disposal.
-
-![Service catalog item](../image/servicecatalog-chatbotembeddedportals-3.png)
 
 ## Manage People and Work
 
 Supervise personnel, assignments, and tasks all on the ServiceNow AI Platform using tools to centralize communications, connect agents and users across apps, assess and associate skills with people, and assign tasks based on available personnel.
 
-![Work assignment illustration](../image/work_assignment.png)
-
 ## Legacy Capabilities
 
 Explore the various ServiceNow Legacy options for past releases of the ServiceNow AI Platform, including automated work processes, communications process management, and voice and text messaging integrations.
-
-## Applications and features
-
--   [Configuration Management Database \(CMDB\)](../../../product/configuration-management/concept/c_ITILConfigurationManagement.md)
--   [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Interaction management](../../interaction/concept/interaction-management.md)
--   [Live Feed core UI](../../../use/live-feed/concept/c_GetStartedWithLiveFeed.md)
--   [E-signature](../../../product/human-resources/concept/e-signature.md)
--   [ServiceNow Voice](../../../product/cloud-call-center/concept/cloud-call-center-overview.md)
--   [Password Reset](../../login/reference/password-reset-landing-page.md)
--   [Skills Management](../../../product/skills-management/reference/skills-management.md)
--   [Service Catalog](../../../product/service-catalog-management/concept/service-catalog.md)
 

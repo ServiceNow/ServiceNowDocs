@@ -104,7 +104,7 @@ Source types that are not associated with the keyword. Health Log Analytics does
 
 3.  Edit a global keyword.
 
-    1.  Click the keyword that you want to edit in the list.
+    1.  Select the keyword that you want to edit in the list.
 
     2.  On the form, edit the relevant fields.
 
@@ -118,8 +118,6 @@ Source types that are not associated with the keyword. Health Log Analytics does
 
     3.  Select **OK**.
 
-
-**Parent Topic:**[Influence anomaly detection in Health Log Analytics with lexical keywords](../concept/hla-log-anomaly-detection.md)
 
 **Related topics**  
 

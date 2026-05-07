@@ -6,7 +6,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -73,7 +73,7 @@ This integration is supported on Paris and Orlando releases.
 
 </td></tr><tr><td>
 
-Verify that you are licensed for the Falcon Sandbox Private API key, and obtain the CrowdStrike Falcon X Sandbox full API key.
+Verify that you're licensed for the Falcon Sandbox Private API key, and obtain the CrowdStrike Falcon X Sandbox full API key.
 
 </td><td>
 
@@ -92,18 +92,18 @@ This integration supports the Falcon Sandbox Private Cloud only.
 
 2.  When the installation is complete, navigate to Security Operations &gt; Integrations &gt; Integration Configurations.
 
-3.  Search for the CrowdStrike Falcon X Sandbox integration tile, and click **Configure**.
+3.  Search for the CrowdStrike Falcon X Sandbox integration tile, and select **Configure**.
 
 4.  Enter the following details to complete the configuration:
 
     |Field|Description|
     |-----|-----------|
     |**Name**|Name of this integration, for example, `demo-1`. While this is a unique name to identify the sandbox configuration, you can only configure one integration per ServiceNow instance.|
-    |**CrowdStrike Falcon Sandbox Base URL**|Sandbox base URL. This URL is available after you configure the sandbox.For example, `https://servicenow.falcon-sandbox.com` is a base URL.|
+    |**CrowdStrike Falcon Sandbox Base URL**|Sandbox base URL. This URL is available after you configure the sandbox. For example, `https://servicenow.falcon-sandbox.com` is a base URL.|
     |**Client ID**|OAuth2 API client ID. For more information see, [API Clients and Keys](https://falcon.crowdstrike.com/login/?next=%2Fsupport%2Fapi-clients-and-keys).|
     |**Client Secret**|OAuth2 API client secret key. For more information see, [API Clients and Keys](https://falcon.crowdstrike.com/login/?next=%2Fsupport%2Fapi-clients-and-keys).|
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     After the sandbox is successfully validated and submitted, it is saved on the Security Integrations page as a tile. You can now view the Sandbox module in the application navigator.
 

@@ -50,7 +50,7 @@ The Request elevated access catalog item is available only to the secondary cont
 
 8.  Select the add attachments icon \(![Add attachments icon.](../image/attachments-icon.png)\) to add attachments, such as documents and image files, to the request.
 
-9.  Select **Submit**.![Selected button for requesting elevated access.](../image/elevated-access-supplier-collaboration-portal.png)
+9.  Select **Submit**.
 
     If more than one primary contact exists for a supplier, then approval tasks are created and assigned to all the primary contacts. When any one of the primary contacts approves or rejects the approval task from the My To-dos page, the approval tasks assigned to the other primary contacts are automatically canceled.
 

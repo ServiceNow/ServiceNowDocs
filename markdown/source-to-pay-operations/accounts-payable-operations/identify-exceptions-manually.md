@@ -41,7 +41,7 @@ The **Check exceptions** option is available for all invoices that are in **Exce
 
 6.  On the invoice processing case form, select **Check exceptions**.
 
-    ![image.apo-check-exception]
+    ![Check exceptions](../image/apo-check-exception.png)
 
 7.  Select **Yes**.
 

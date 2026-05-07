@@ -62,5 +62,3 @@ To deploy your new vocabulary item, train and publish your model again.
 
 Add more vocabulary items to improve model coverage and accuracy.
 
-**Parent Topic:**[NLU vocabulary](../concept/using-nlu-vocabulary.md)
-

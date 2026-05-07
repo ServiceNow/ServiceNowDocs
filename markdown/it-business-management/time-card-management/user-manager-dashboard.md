@@ -41,8 +41,6 @@ The Time sheet exceptions report lists the users who did not submit/create their
 
 The report is generated from the time\_sheet\_exception table. It requires the schedule job **Time Sheet Exceptions** to be running to get the up-to date information.
 
-![Screenshot for Time Sheet Exceptions report](../image/TimeSheetExceptions.png "Time sheet exceptions report")
-
 ## Total approved hours
 
 It displays the total approved hours in all categories displayed in **Time by category** report.
@@ -52,8 +50,6 @@ It displays the total approved hours in all categories displayed in **Time by ca
 ## Time by category report
 
 The bar chart report displays the time approved against each category for the selected users whose manager in User profile is the current user.
-
-![Screenshot for Time by Category report](../image/TimeByCategory.png "Time by category report")
 
 **Parent Topic:**[Time Card Management](time-card-management.md)
 

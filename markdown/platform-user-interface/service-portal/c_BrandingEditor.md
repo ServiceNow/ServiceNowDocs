@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 2
 breadcrumb: [Defining portal styles, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -15,11 +15,11 @@ breadcrumb: [Defining portal styles, Configuring Service Portal, Service Portal,
 
 Use Branding Editor to give your portal its own look and feel.
 
-To access the Branding Editor, navigate to **Service Portal** &gt; **Service Portal Configuration**, then click **Branding Editor**.
+To access the Branding Editor, navigate to **Service Portal** &gt; **Service Portal Configuration**, then select **Branding Editor**.
 
-Select the portal you want to customize the theme for from the portal list. Then use the options on the Quick Setup and Theme Colors tabs to customize your portal.
+From the portal list, select the portal you want to customize the theme for. Then use the options on the Quick Setup and Theme Colors tabs to customize your portal.
 
-![Branding Editor](../image/BrandEditor.png "Branding Editor")
+![Branding Editor.](../image/BrandEditor.png "Branding Editor")
 
 <table id="table_bq1_v4h_2z"><thead><tr><th>
 
@@ -51,7 +51,7 @@ Logo padding
 
 </td><td>
 
-Where you want the logo to sit in location to the edge of the header. This information is stored in the CSS variables section on the portal form.
+Where you want the logo to sit in relation to the edge of the header. This information is stored in the CSS variables section on the portal form.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Homepage background color
 
 </td><td>
 
-Add a color for your background. You can type in a color name, hex color, decimal \(RGB\), or select from the color palate.
+Add a color for your background. You can type in a color name, hex color, decimal \(RGB\), or select from the color palette.
 
 </td></tr><tr><td>
 
@@ -109,12 +109,12 @@ Background image
 Upload an image to appear in the background of your homepage. This image is stored in the container for the widget on your homepage.
 
 </td></tr></tbody>
-</table>For any colors on the theme tab, you can use the standard color name, hex code, decimal \(RGB\) code, or select the color from the color palate. All the color definitions are stored in the CSS variables field of the portal form. The theme preview updates in real time as you make changes.
+</table>For any colors on the theme tab, you can use the standard color name, hex code, decimal \(RGB\) code, or select the color from the color palette. All the color definitions are stored in the CSS variables field of the portal form. The theme preview updates as you make changes.
 
 |Field|Description|
 |-----|-----------|
 |Navbar|Use the fields in this section to customize the colors for the header menu.|
-|Brand|Use the fields in this section to customize the page colors. For example, the page background or the widget background.|
+|Brand|Use the fields in this section to customize the page color, for example, the page background or the widget background.|
 |Text|Use the fields in this section to customize the color of the text on a page.|
 
 Changes made to the theme colors in the Branding Editor appear in the CSS variables field of the portal form in the platform UI.

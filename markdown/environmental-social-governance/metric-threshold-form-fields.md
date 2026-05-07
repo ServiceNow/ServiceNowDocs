@@ -4,7 +4,7 @@ description: Describes the fields in the Metric Threshold form.
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

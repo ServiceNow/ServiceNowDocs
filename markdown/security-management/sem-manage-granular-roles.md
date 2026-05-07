@@ -29,15 +29,15 @@ Role required: admin
 
 1.  To manage granular roles for users and groups, choose one to continue.
 
-<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d44910e105">
+<table id="choicetable_m51_vw5_tlb"><thead><tr><th align="left" id="d47355e105">
 
 Option
 
-</th><th align="left" id="d44910e108">
+</th><th align="left" id="d47355e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44910e114">
+</th></tr></thead><tbody><tr><td id="d47355e114">
 
 **Edit the granular roles for a user or group**
 
@@ -45,7 +45,7 @@ Description
 
 Assign or remove granular roles for users or groups, or edit granular roles so that only select users within a group have expanded or limited permissions.An example follows the table.
 
-</td></tr><tr><td id="d44910e126">
+</td></tr><tr><td id="d47355e126">
 
 **Create a new role**
 

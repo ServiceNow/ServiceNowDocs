@@ -14,6 +14,8 @@ The ServiceNow® Industrial Connected Workforce \(ICW\) Core is the foundational
 
 ## ICW Core highlights for the Australia release
 
+-   Use the AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) feature to access external sources related to a deviation and review why the document is relevant to the incident.
+-   Use the action plan skill available with AI Enhanced recommended actions for \(ICW\) to create and organize resolution action items related to deviation.
 -   Standardize your industrial data across equipment hierarchies, functional locations, calendars, and workforce structures to drive operational consistency.
 -   Strengthen governance of industrial task records, worker skills, and operational compliance across your organization.
 -   Accelerate cross‑application task creation and record synchronization with expanded workflow orchestration.

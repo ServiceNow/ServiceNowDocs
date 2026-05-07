@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture]
 ---
 
 # Now Assist for Enterprise Architecture \(EA\)
@@ -85,5 +85,5 @@ Use the AI agents in Enterprise Architecture to help complete tasks autonomously
 -   **[Now Assist for Enterprise Architecture reference](../reference/now-assist-ea-reference.md)**  
 Reference information to provide additional information about tables, roles, and properties installed with Now Assist for Enterprise Architecture \(EA\).
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\)](../../application-portfolio-management/concept/application-portfolio-management-landing-page.md)
+**Parent Topic:**[Enterprise Architecture](../../application-portfolio-management/concept/application-portfolio-management-landing-page.md)
 

@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 3
 breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
@@ -87,7 +87,7 @@ The DCIM User role is intended for your customers. This role inherits the Remote
 
 DCIM Users submit their Remote Hands in the **Customer Service Management portal \(CSM\)**. To learn more, see [Submit a Remote Hands Request](../task/submit-remote-hands-request.md).![CSM portal](../image/csm-portal.png)
 
-The Remote Hands Agent can review the submitted remote hands request, by navigating to: **CSM/FSM Configurable Workspace** &gt; **Select list icon \(![Lists icon.](../image/ni-workspace-list-icon.png)** &gt; **Remote Hands Cases**
+The Remote Hands Agent can review the submitted remote hands request, by navigating to: **CSM/FSM Configurable Workspace** &gt; **Select list icon \(![list icon](../image/ni-workspace-list-icon.png)** &gt; **Remote Hands Cases**
 
 The following sections are made available:
 

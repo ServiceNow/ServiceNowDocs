@@ -539,7 +539,7 @@ Dashboard for asset contract renewals
 Legal Simple Contracts is being deprecated.
 
 -   For new customers, it is now hidden and no longer available.
--   For existing customers, it will continue to function and remain supported.
+-   For existing customers, it will continue to function, but is no longer supported.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 

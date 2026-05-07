@@ -327,5 +327,3 @@ False
 </td></tr></tbody>
 </table>To get more feedback data from Virtual Agent \(VA\) chat logs, refer to the **Procuring additional VA feedback data on demand** section in the [Expert Feedback Loop documentation](../concept/nlu-expert-feedback-loop.md).
 
-**Parent Topic:**[Exploring Natural Language Understanding](../concept/nlu-explore.md)
-

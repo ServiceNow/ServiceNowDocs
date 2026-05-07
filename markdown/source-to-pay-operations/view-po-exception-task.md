@@ -25,12 +25,14 @@ Role required: sn\_poem\_core.operational\_buyer
     -   **Workspaces** &gt; **Source-to-Pay Workspace**.
 2.  Select the **Purchase order management** tab.
 
-3.  Select a task from Incoming tasks or All tasks section.
+3.  From the Incoming tasks or All tasks section, select a task.
 
-    The purchase order exception task is displayed. Add comments or attachments as needed, and then mark the task complete.
 
-    **Note:** For tasks of the Upload Documents action type, the **Mark Complete** button is not available until a file is attached.
+## Result
 
+The purchase order exception task is displayed. Add comments or attachments as needed, and then mark the task complete.
+
+**Note:** For tasks of the Upload Documents action type, the **Mark Complete** button is not available until a file is attached.
 
 **Parent Topic:**[Source-to-Pay Workspace](../concept/purch-order-mgmt-ws.md)
 

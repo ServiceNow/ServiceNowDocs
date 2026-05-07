@@ -7,7 +7,7 @@ product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -59,4 +59,6 @@ Role required: evt\_mgmt\_admin
 
     ![List that displays all the views.](../image/select-view-dropdown-2.png)
 
+
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
 

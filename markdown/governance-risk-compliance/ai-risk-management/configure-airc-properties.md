@@ -6,7 +6,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---

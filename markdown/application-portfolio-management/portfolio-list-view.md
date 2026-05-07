@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring Portfolio list view
@@ -44,8 +44,8 @@ The Business Architecture section within the Portfolio page of the Enterprise Ar
 The Application Portfolio section within the Portfolio page of the Enterprise Architecture Workspace helps you to manage business applications, application services, digital integrations, and digital interfaces.
 -   **[Exploring the information portfolio](eaw-concept/eaw-information-portfolio.md)**  
 Use the information portfolio to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use. You can also connect the different layers where data exists and map the layers. Mapping helps to retrieve the information and track the information flow.
--   **[Exploring the AI Portfolio](eaw-concept/eaw-exploring-the-ai-portfolio.md)**  
-The AI Portfolio section within the Portfolio page of the Enterprise Architecture Workspace helps you in managing structured governance, traceability, and lifecycles of AI assets.
+-   **[eaw-concept/eaw-exploring-the-ai-portfolio.md](eaw-concept/eaw-exploring-the-ai-portfolio.md)**  
+
 -   **[Manage your entities](eaw-concept/eaw-my-entities.md)**  
 The My entities section within the Portfolio page of the Enterprise Architecture Workspace helps you to manage all your own entities.
 

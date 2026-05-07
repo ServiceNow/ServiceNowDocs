@@ -38,7 +38,7 @@ Role required: admin.
 
     1.  Find and install the Now Actions app in the Slack App Directory.
 
-    2.  Click Authorize when prompted.
+    2.  Select Authorize when prompted.
 
     3.  Enter a customized name, app description, and icon.
 
@@ -54,13 +54,13 @@ Role required: admin.
 
     1.  Navigate to **System Notification** → **Messaging Integration Configuration**.
 
-    2.  Click the **Install** button next to Slack.
+    2.  Select the **Install** button next to Slack.
 
     3.  In the JSON Configuration pop-up, paste in the JSON configuration you copied in earlier steps.
 
 3.  Check for installation verification.
 
-    The Slack workspace should appear below the Slack heading on the Notification Integration page.
+    The Slack workspace should appear following the Slack heading on the Notification Integration page.
 
     ![Slack workspace installed](../image/slackinstalled.png)
 

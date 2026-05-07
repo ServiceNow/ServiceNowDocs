@@ -1,6 +1,6 @@
 ---
-title: Take action on a Log Analytics alert from the Overview tab
-description: Start the Log Analytics alert remediation process from the Overview tab in the Service Operations Workspace. This tab provides information on the alerts, log data associated with the anomalous behavior, CIs that generated the triggering metric, and services impacted by the alerts.
+title: Start remediation of a Log Analytics alert from the Overview tab
+description: Begin the remediation process of a Log Analytics alert from the alert Overview tab. This tab provides information on the alert, the log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 locale: en-US
 release: australia
 product: Service Operations Workspace for ITOM Apps
@@ -8,12 +8,13 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Health Log Analytics, alert remediation, Overview tab, Service Operations Workspace, log analytics alerts, alert management, playbook, remediation tasks, alert investigation, anomalous behavior]
 breadcrumb: [Log Analytics in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
-# Take action on a Log Analytics alert from the Overview tab
+# Start remediation of a Log Analytics alert from the Overview tab
 
-Start the Log Analytics alert remediation process from the **Overview** tab in the Service Operations Workspace. This tab provides information on the alerts, log data associated with the anomalous behavior, CIs that generated the triggering metric, and services impacted by the alerts.
+Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, the log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
 ## Before you begin
 

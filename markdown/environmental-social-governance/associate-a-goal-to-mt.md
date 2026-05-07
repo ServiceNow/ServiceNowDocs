@@ -29,15 +29,15 @@ You can add or remove goals from a material topic only when the material topic i
 
 3.  To add a goal, do the following:
 
-    1.  Click the Goals related list.
+    1.  Select the Goals related list.
 
-    2.  Click **Add**.
+    2.  Select **Add**.
 
     3.  Select the goals to add.
 
-    4.  Click **Add**.
+    4.  Select **Add**.
 
-    5.  Click **Save**.
+    5.  Select **Save**.
 
 
 ## Result

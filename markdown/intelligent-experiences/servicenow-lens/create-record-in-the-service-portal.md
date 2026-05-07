@@ -57,15 +57,15 @@ Role required: lens\_user
 
 9.  Perform any one of the set of steps given below.
 
-<table id="choicetable_eml_wsz_33c"><thead><tr><th align="left" id="d51649e181">
+<table id="choicetable_eml_wsz_33c"><thead><tr><th align="left" id="d55873e181">
 
 Method
 
-</th><th align="left" id="d51649e184">
+</th><th align="left" id="d55873e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51649e190">
+</th></tr></thead><tbody><tr><td id="d55873e190">
 
 **Extract data from a single screenshot and auto-fill the form**
 
@@ -75,13 +75,15 @@ Steps
 
 The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
+![Enter specific instructions.](../image/lens-vendor-form-capture.png "Enter specific instructions")
+
 2.  Select **Analyze**.
 
 ServiceNow AI Lens confirms that the catalog item form is filled.
 
 ![New vendor registration form filled.](../image/lens-new-vendor-reg-form-filled.png "New Vendor Registration form fields auto-filled")
 
-</td></tr><tr><td id="d51649e240">
+</td></tr><tr><td id="d55873e254">
 
 **Extract data from multiple screenshots and auto-fill the form**
 
@@ -92,6 +94,8 @@ ServiceNow AI Lens confirms that the catalog item form is filled.
 You can resize the scanner window by dragging its borders.
 
 2.  \(Optional step\). To provide instructions to extract the data from the document in a specific way, select the Edit icon \(![Instructions icon.](../image/lens-instructions-icon.png)\), and enter the instructions.
+
+![Enter specific instructions.](../image/lens-vendor-form-capture.png "Enter specific instructions")
 
 The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
@@ -108,9 +112,14 @@ Repeat the step to capture more screenshots, if required.
 ![View the number of screenshots you've captured](../image/lens-venform-multi-capture.png "View the number of screenshots you've captured")
 
 5.  \(Optional step\) To remove a screenshot that you had captured, select the Delete icon.
+
+![Remove captured screenshot](../image/lens-vendor-form-remove-scrnsht.png "Remove captured screenshot")
+
 6.  To complete the capture, select the Done icon \(![Capture complete icon.](../image/lens-capture-done-icon.png)\).
 
 The ServiceNow AI Lens preview window displays the screenshots that you've captured.
+
+![Preview of multiple captured screenshots](../image/lens-vendor-form-multi-scrnshts-captured.png "Preview of multiple captured screenshots")
 
 7.  Select **Analyze**.
 
@@ -125,15 +134,15 @@ The catalog item form is auto-filled.
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](../reference/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d51649e405">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d55873e461">
 
 Option
 
-</th><th align="left" id="d51649e408">
+</th><th align="left" id="d55873e464">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d51649e414">
+</th></tr></thead><tbody><tr><td id="d55873e470">
 
 **If the auto-filled text looks good**
 
@@ -141,7 +150,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d51649e426">
+</td></tr><tr><td id="d55873e482">
 
 **If the auto-filled text requires changes**
 

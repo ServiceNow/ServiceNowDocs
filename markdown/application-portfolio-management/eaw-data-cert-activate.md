@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Activate a certification policy
@@ -15,7 +15,7 @@ Activate a certification policy to add it to the active certification runs. This
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst, com.snc\_apm\_analyst
+Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 
 ## Procedure
 

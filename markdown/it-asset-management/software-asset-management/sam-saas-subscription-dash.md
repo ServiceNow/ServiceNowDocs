@@ -49,9 +49,5 @@ Only Adobe software products that are recognized as subscription software are sh
     User Name \| Email ID \| Subscription Name \| Subscription Cost \| List of devices assigned to users \| List of Adobe suite of products \| Last Access Time
 
 
-## SaaS subscription reports
-
-![](../image/SAMDash365.png "Office 365 and Adobe Cloud")
-
 **Parent Topic:**[Software Asset Management publisher pack for Adobe](adobe-publisher-pack.md)
 

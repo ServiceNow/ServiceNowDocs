@@ -7,7 +7,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -22,15 +22,7 @@ Role required: itil
 
 ## About this task
 
-**Important:** The features in the \[DEPRECATED\] Incident assist skill are available in the Incident assist workflow. You can turn off this skill and use the [Incident assist agentic workflow](../concept/now-assist-itsm-incident-assist-workflow.md) that has enhanced capabilities.
-
-To turn off the skill:
-
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
-2.  Select the **Now Assist Skills** tab.
-3.  Go to **Technology** &gt; **ITSM**.
-4.  Select the Ask questions about an incident by using the Now Assist panel skill.
-5.  Select **Deactivate skill**.
+**Important:** Starting with the Australia Patch 2, the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
 \[DEPRECATED\] Incident assist topics in the Now Assist panel include:
 

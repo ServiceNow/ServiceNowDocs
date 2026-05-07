@@ -27,7 +27,7 @@ You can specify the related areas, such as policies, citations, control objectiv
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  Select **All Cases**.
 

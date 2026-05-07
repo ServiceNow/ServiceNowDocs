@@ -17,11 +17,11 @@ You can create a list report with question columns based on a data source or tab
 
 ## Before you begin
 
-Roles required: report\_admin
+Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 

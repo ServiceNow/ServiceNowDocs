@@ -31,13 +31,9 @@ You can enable SWID tags in the Discovery Configuration Console. With SWID tag e
 
 **Note:** Base64 package is a prerequisite for any UNIX or Linux servers to scan SWID tag files using File-based Discovery.
 
-![File-based Discovery filtering flow](../image/FileBasedDiscoveryFlowDiagram.png "File-based Discovery filtering flow")
-
 File-based Discovery inserts any file not matched by the normalization process into the Unidentified File Set \[cmdb\_unidentified\_file\_set\] table. You can update the records in this table and provide additional details for previously unidentified files. If you provide values for the **Product** and **Publisher** fields for a file, settings in SAMP can enable File-based Discovery to use that file for installed software matching in future discoveries.
 
-**Note:** You can disable File-based Discovery at any time by changing the setting in the [Discovery Configuration Console](c_DiscoveryConfigurationConsole.md#). If you disable File-based Discovery before scan results are returned, the file data is ignored.
-
-![File-based Discovery table schema](../image/FBDFileMatchingFlowDiagram.png "File-based Discovery table schema")
+You can disable File-based Discovery at any time by changing the setting in the [Discovery Configuration Console](c_DiscoveryConfigurationConsole.md#). If you disable File-based Discovery before scan results are returned, the file data is ignored.
 
 **Note:**
 

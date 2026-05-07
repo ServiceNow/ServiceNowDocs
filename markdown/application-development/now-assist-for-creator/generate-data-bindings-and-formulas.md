@@ -6,8 +6,8 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-04-29"
-reading_time_minutes: 2
+last_updated: "2026-05-06"
+reading_time_minutes: 3
 breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -18,8 +18,10 @@ Automatically generate a data binding and formula using natural language with co
 ## Before you begin
 
 1.  Install UI Generation application \(28.1 – Zurich or later\). For more information, see [Install UI generation](install-ui-generation.md).
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Creator** and activate the Data Binding Generation skill.
-3.  Select a large language model \(LLM\) provider.
+2.  Make sure that you have the ui\_builder\_admin role. For more information, see [Grant UI Builder admin role](grant-ui-builder-admin-role.md).
+
+3.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Creator** and activate the Data Binding Generation skill.
+4.  Select a large language model \(LLM\) provider.
 
 Role required: ui\_builder\_admin
 
@@ -79,6 +81,10 @@ Learn to use Data Binding Generation in ServiceNow® UI Builder with Now Assist 
 ## Result
 
 Data binding and formula are generated.
+
+|Symptom|Cause|Resolution|
+|-------|-----|----------|
+|Data binding generation returns incorrect syntax|The prompt is ambiguous or uses terms not recognized as synonyms.|Refine the prompt using more specific language. Refer to the Formula Operators table for supported synonyms. Try selecting an example from the Data Binding popover.|
 
 **Parent Topic:**[Using UI generation](../concept/using-ui-generation.md)
 

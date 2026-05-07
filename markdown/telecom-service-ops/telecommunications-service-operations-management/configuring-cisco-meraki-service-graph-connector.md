@@ -6,9 +6,9 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
-breadcrumb: [Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure Cisco Meraki Service Graph Connector
@@ -19,7 +19,7 @@ Configure the Cisco Meraki Service Graph Connector \(SGC\) to import physical an
 
 You must authenticate before initiating discovery. During the authentication process, the discovery service receives an access token, which it then uses for bulk or specific discovery operations. The integration uses Cisco Meraki REST APIs to discover managed elements such as network equipment, interfaces, and services.
 
-This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](../reference/cisco-meraki-service-graph-connector-api-endpoints.md).
+This integration uses REST APIs \(via a MID Server\) to promote the CMDB reflects accurate, up-to-date telecom inventory aligned with the TM Forum-based data model. For a list of API references, see [Cisco Meraki Service Graph Connector API Endpoints](../reference/cisco-meraki-service-graph-connector-api-endpoints.md).
 
 **Note:** A valid Telecommunications Service Operations Management subscription is required to use this connector.
 
@@ -28,7 +28,7 @@ This integration uses REST APIs \(via a MID Server\) to ensure the CMDB reflects
 |Plugin|Plugin ID|
 |------|---------|
 |Telecom Service Operations Core|sn\_tsom\_core|
-|Service Graph Connector for Meraki|sn\_tsom\_meraki\_connector|
+|Service Graph Connector for Meraki Telco SD-WAN|sn\_tsom\_meraki\_connector|
 
 **Note:** External requirements:
 

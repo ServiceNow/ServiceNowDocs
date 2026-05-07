@@ -6,8 +6,8 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-04-29"
-reading_time_minutes: 4
+last_updated: "2026-05-06"
+reading_time_minutes: 3
 breadcrumb: [Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
@@ -21,7 +21,7 @@ To enable a bot with LLM-based capabilities and experience the LLM-based convers
 
 You can integrate Virtual Agent with Microsoft Teams either with your Now Virtual Agent bot or the Self-configured bot.
 
-To integrate Microsoft Teams with the Now Virtual Agent, see [Integrating Virtual Agent with Microsoft Teams](va-integ-msteams.md).
+To integrate Microsoft Teams with the Now Virtual Agent, see [Integrate Virtual Agent with Microsoft Teams](../task/va-integ-msteams.md).
 
 To integrate Microsoft Teams with a Self-configured bot, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](va-integ-teams-self-configured-bot.md).
 
@@ -63,10 +63,8 @@ The Now Assist provides a new AI Search experience in channels with the followin
     ![Now Assist displaying the question and answer card with the sparkle image, legal disclaimer, and the description and citation for the question asked.](../images/msteams-llm-QnA-card.png "Generative AI QnA Card")
 
 
-For more information about enabling LLM for your bots integrated with Microsoft Teams, see [Enable Now Assist in Virtual Agent for Microsoft Teams](../task/enable-na-llm-teams.md).
+For more information about enabling LLM for your bots integrated with Microsoft Teams, see .
 
--   **[Enable Now Assist in Virtual Agent for Microsoft Teams](../task/enable-na-llm-teams.md)**  
-Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Microsoft Teams.
 -   **[Integrating Now Assist in Virtual Agent with Microsoft Copilot](ms-copilot-na-va.md)**  
 Integrate your Now Assist Virtual Agent with Microsoft Copilot using Conversational Integration with Microsoft Teams to leverage the generative AI conversational experience.
 -   **[Synthesized response in Microsoft Teams conversations](msteams-synthesized-response.md)**  

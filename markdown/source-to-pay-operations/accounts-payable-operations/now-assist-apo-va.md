@@ -28,7 +28,9 @@ Then, see all your available options by selecting **Show all my options** as sho
 
 ## Using a predefined topic to submit a request
 
-As a fulfiller, you can submit an invoice inquiry by selecting **Show all my options** &gt; **Submit a request**. You could also directly start entering the instructions.
+As a fulfiller, you can submit a request by selecting **Show all my options** &gt; **Submit a request** \(general\) or choose to create invoice inquiry \( APO specific\). You could also directly start entering the instructions.
+
+![Topic block in NAVA shows Invoice inquiry](../image/apo-topic-block-nava.png)
 
 Then, enter `Invoice inquiry` in the chat, select an inquiry type, and create an invoice case by selecting **Yes, submit** as shown in the following example.
 
@@ -52,7 +54,7 @@ You can connect to a live agent by selecting **Accounts payable team**.
 
 Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes fulfillers more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses. For more information, see .
+As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 
 For detailed information on Now Assist in Virtual Agent in general, and Now Assist for APO in particular, see [Exploring Now Assist for Accounts Payable Operations \(APO\)](exploring-now-assist-apo.md).
 

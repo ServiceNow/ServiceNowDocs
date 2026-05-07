@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-21"
 reading_time_minutes: 2
 breadcrumb: [AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,9 +25,9 @@ Role required: sp\_admin or admin
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you are upgrading to Australia as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record.
+If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record.
 
-If you leave AI Search disabled, the portal uses the legacy search experience.
+If you leave AI Search inactive, the portal uses the legacy search experience.
 
 ## Procedure
 

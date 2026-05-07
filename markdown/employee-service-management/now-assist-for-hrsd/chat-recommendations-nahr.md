@@ -7,7 +7,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -16,6 +16,8 @@ breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD
 Generate a reply based on the context of the chat conversation using Now Assist icon. Chat reply recommendations can help provide agents with quick replies to common questions.
 
 ## Before you begin
+
+[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
 
 Role required: admin
 
@@ -26,7 +28,7 @@ You can do these actions by using the Now Assist icon:
 -   Generate a recommended reply that is based on the context of the conversation.
 -   Refine the recommendation by elaborating or shortening the response.
 
-**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin.
+**Note:** The Chat reply recommendation skill can be found in the **HRSD** tab under the **Employee** group in Now Assist Admin. To learn how to activate this skill, see [Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
 
 **Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
@@ -44,15 +46,15 @@ You can do these actions by using the Now Assist icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d385821e155">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d392791e189">
 
 Chat message window
 
-</th><th align="left" id="d385821e158">
+</th><th align="left" id="d392791e192">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d385821e166">
+</th></tr></thead><tbody><tr><td id="d392791e200">
 
 **Typed response**
 
@@ -64,7 +66,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d385821e186">
+</td></tr><tr><td id="d392791e220">
 
 **Left blank**
 

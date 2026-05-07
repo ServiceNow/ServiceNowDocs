@@ -1,6 +1,6 @@
 ---
 title: View and troubleshoot IDoc messages
-description: When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information.
+description: When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message, details, information, troubleshoot]
-breadcrumb: [Create and change SAP business entities with IDoc, Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Create and change SAP business entities with IDoc, Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View and troubleshoot IDoc messages
 
-When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information.
+When working with SAP business entities that can only be created or changed using IDoc, view outbound messages for details and troubleshooting information in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 

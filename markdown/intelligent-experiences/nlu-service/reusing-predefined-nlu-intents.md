@@ -6,7 +6,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-16"
 reading_time_minutes: 2
 breadcrumb: [NLU intents, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
@@ -23,11 +23,7 @@ The prebuilt models are read-only, but contain validated intents that you can re
 
 Each of the prebuilt Virtual Agent models uses language that's pertinent to their respective business unit \(BU\). The NLU that processes this language, built from a word corpus of 3 million words, is context-aware of general linguistic patterns and both ServiceNow and user-defined vocabularies.
 
-![Examples of how Virtual Agent NLU is context-aware of general linguistic patterns and both ServiceNow and user-defined vocabularies.](../images/prebuilt-va-model-nlu-vocabulary.png)
-
 The prebuilt models map to common conversation topics used by Virtual Agent chatbots across each of the three BUs. Those topics correspond with intents that perform BU-specific actions.
-
-![The prebuilt Virtual Agent NLU models map their intents to common conversation topics used by Virtual Agent chatbots across each of the three business units.](../images/prebuilt-va-model-convo-flows.png)
 
 For more NLU and Virtual Agent context, refer to the following product documentation:
 
@@ -68,6 +64,4 @@ The prebuilt Virtual Agent models are set to read-only and can't be edited. Howe
 To reuse the intents from a prebuilt Virtual Agent model, choose the prebuilt model when importing intents. See [Import an NLU intent](../task/import-nlu-intent.md).
 
 NLU models and their intents and entities are associated to an application scope. The scope can't be changed later, so verify your target application scope before you begin.
-
-**Parent Topic:**[NLU intents](intents.md)
 

@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 4
 breadcrumb: [Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,10 +30,8 @@ The Home page offers the following benefits:
 -   Shows the risk profile for the top entities. This consolidated view enables easier reporting.
 -   Enables customization to suit your needs. For example, you can configure your own color codes for heatmaps and reports. For more information, see [Operational risk heatmap for Advanced Risk Assessment in the Risk Workspace](risk-heatmaps-in-ws.md)
 -   Provides quick links for performing key tasks such as scheduling risk assessments, creating new key risk indicators, and so on.
--   Provides data in a way that you can click and view the details.
+-   Provides data in a way that you can select and view the details.
 -   Shows the classic risk assessment scores if the Advanced Risk application is not enabled.
-
-![Risk workspace home page.](../image/risk-workspace-home-page.jpg "Risk Workspace home page without Advanced Risk enabled")
 
 ## Roles and user enhancements in the Risk Workspace
 

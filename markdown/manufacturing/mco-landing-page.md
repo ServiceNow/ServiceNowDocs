@@ -13,7 +13,7 @@ breadcrumb: [Explore, Manufacturing Commercial Operations]
 
 Manufacturing Commercial Operations enables OEMs or manufacturers to use Agents workspace as a landing page to create sales promotion and recall campaigns. It also enables the agents to view, submit, review, and approve claims.
 
-![MCO Workspace](../image/Agents_workspace_portal.png "MCO workspace landing page")
+![MCO Workspace](../image/Agents_workspace_portal.png "CSM/FSM workspace landing page")
 
 The agent workspace landing page includes different sections and components.
 

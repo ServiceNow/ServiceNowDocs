@@ -27,7 +27,7 @@ All existing controls are termed as standard controls. You can convert a standar
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, click the List icon \(![List](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Compliance library** &gt; **All controls**.
 

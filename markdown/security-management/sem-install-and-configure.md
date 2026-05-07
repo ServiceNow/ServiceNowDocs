@@ -1,17 +1,17 @@
 ---
 title: Install Unified Security Exposure Management
-description: Before you run the Unified Security Exposure Management application in your ServiceNow AI Platform instance, you must get entitlement and download the application from the ServiceNow Store, install it on your ServiceNow AI Platform instance, and complete a few installation steps in Setup Assistant.
+description: Before you run the Unified Security Exposure Management application in your ServiceNow AI Platform instance, you must get entitlement and download the application from the ServiceNow Store and install it on your ServiceNow AI Platform instance.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 3
 breadcrumb: [Installing Security Exposure Management Workspace applications, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install Unified Security Exposure Management
 
-Before you run the Unified Security Exposure Management application in your ServiceNow AI Platform instance, you must get entitlement and download the application from the ServiceNow Store, install it on your ServiceNow AI Platform instance, and complete a few installation steps in Setup Assistant.
+Before you run the Unified Security Exposure Management application in your ServiceNow AI Platform instance, you must get entitlement and download the application from the ServiceNow Store and install it on your ServiceNow AI Platform instance.
 
 ## Before you begin
 
@@ -30,56 +30,40 @@ Role required: admin
 
 1.  To get entitlement and download the Unified Security Exposure Management core application, navigate to the ServiceNow Store.
 
-2.  In the upper right of the page, click **Log In**.
+    In the ServiceNow Store, you must verify that you have entitlements \(or licenses\) to the application and its dependent applications. After you have logged in, you can use the menu in the upper right with your initials to manage entitlements and opt-in.
 
-3.  In the dialog that is displayed, enter your Now Support credentials and click **Login**.
+2.  In the upper right of the page, select **Log In**.
 
-4.  On the page that is displayed, if not selected, click the **ServiceNow Products** tab.
+3.  In the dialog that is displayed, enter your Now Support credentials and select **Login**.
 
-5.  To view the associated applications that you are eligible for with the Unified Security Exposure Management application, on the product list page, click the **Unified Security Exposure Management** product.
+4.  On the page that is displayed, if not selected, select the **ServiceNow Products** tab.
 
-    The Eligible tab lists all the applications you are eligible for if you opt-in. For more information on an application, click a link.
+5.  To view the associated applications that you're eligible for with the Unified Security Exposure Management application, on the product list page, select the **Unified Security Exposure Management** product.
 
-6.  To get the Unified Security Exposure Management application, click **Opt-in**.
+6.  To get the Unified Security Exposure Management application, select **Opt-in**.
 
-7.  To agree to the terms and conditions, at the prompt, select the check box and click **Accept**.
+7.  Select **Request Install** to download the application.
 
-    A message is displayed that indicates you have successfully opted-in for the application. With the ServiceNow Products tab selected and displayed, a green check mark replaces the plus sign to the right of the Unified Security Exposure Management application.After you have accepted the terms and conditions and managed entitlements for any of the applications on the **ServiceNow Products** tab, on the Products List page, you can click the plus sign \(+\) to get entitlement and opt-in for the other applications on this page with a single click.
+8.  Log in to the ServiceNow AI Platform instance that you want to install the Unified Security Exposure Management application on.
 
-8.  Skip to step 10 to install the application on your ServiceNow AI Platform instance.
+9.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-9.  Alternatively, to manage your entitlement for the Unified Security Exposure Management application on other ServiceNow AI Platform instances, follow these steps.
-
-    1.  If the Manage Entitlement button is not displayed, click the Unified Security Exposure Management application on the Product List to display it.
-
-    2.  With the Eligible tab selected, click **Manage Entitlement**.
-
-    3.  In the Manage Entitlements for USEM dialog that is displayed, choose one.
-
-    4.  Click **OK** or **Cancel** to continue.
-
-        You are ready to activate plugins and install the application on your ServiceNow AI Platform instance\(s\).
-
-10. Log in to the ServiceNow AI Platform instance that you want to install the Unified Security Exposure Management application on.
-
-11. Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
-
-12. From the applications listed, locate the Unified Security Exposure Management application, select a version from the choice list, and click **Install**.
+10. From the applications listed, locate the Unified Security Exposure Management application, select a version from the list, and select **Install**.
 
     The Application installation dialog is displayed. Any dependencies that will be installed are displayed.
 
-13. If you want demo data, select the Load demo data check box and click **Install**.
+11. After installation is successfully completed, select **Close**.
 
-    **Note:** If you do not select the **Load demo data** check box, demo data is not available to install from the **Application Manager** later. For information on how to install or reinstall demo data after the initial installation, see the [Workaround to install demo data if application is already installed \[KB0722909\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0722909) article in the Now Support Knowledge Base.
+12. Navigate to **Workspaces** &gt; **Security Exposure Management**.
 
-    This installation may take some time. A message is displayed in the Install dialog after the application is successfully installed.
+13. Select **Administration**
 
-14. Click **Close**.
+14. Follow the instructions on the forms in each section.
 
-15. After installation is successfully completed, navigate to **Workspaces** &gt; **Security Exposure Management**.
+    **Note:**
 
-16. Select **Administration**
+    If you want to use a version of a supported application that is compatible with Unified Security Exposure Management \(USEM\), see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](../../vulnerability-response/concept/migrating-to-usem.md) for more information about USEM and the Unified Security Exposure Management migration.
 
-17. Follow the instructions on the forms in each section.
+    If you do not intend to upgrade to Unified Security Exposure Management, install a version that is lower than v30.x of an application and for upgrades to its supported third-party integration applications.
 
 

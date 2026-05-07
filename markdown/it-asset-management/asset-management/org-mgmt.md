@@ -7,7 +7,7 @@ product: Asset Management
 classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
 ---
 
@@ -37,8 +37,6 @@ It includes managing your vendors and manufacturers, as well as managing locatio
 [Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
 
 [Manage transfer order](../concept/manage-transfer-orders.md)
-
-[Example Asset Management process](../task/t_AssetManagementProcess.md)
 
 ## Create a new vendor or manufacturer
 

@@ -37,15 +37,15 @@ If an action task is the Assessment type, the Action task owner must take an ass
 
 6.  Depending on your Action task type, select one of the following options.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d228814e117">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d230989e117">
 
 Choice
 
-</th><th align="left" id="d228814e120">
+</th><th align="left" id="d230989e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d228814e126">
+</th></tr></thead><tbody><tr><td id="d230989e126">
 
 **If the task is of type Assessment**
 
@@ -57,7 +57,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d228814e159">
+</td></tr><tr><td id="d230989e159">
 
 **If the task is of type Investigation or Others**
 

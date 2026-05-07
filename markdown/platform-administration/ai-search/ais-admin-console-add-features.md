@@ -28,7 +28,7 @@ Expand AI Search functionality by installing the AI Search Integration Hub spoke
 
 1.  Navigate to **All** &gt; **AI Search Admin** &gt; **AI Search Admin Home**.
 
-2.  In the Add features to AI Search section, select Install for the application you want to add to AI Search.
+2.  In the Add features to AI Search section, select **Install** for the application you want to add to AI Search.
 
 
 **Parent Topic:**[Using AI Search Admin console](../concept/using-ais-admin-console.md)

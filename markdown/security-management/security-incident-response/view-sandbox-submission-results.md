@@ -6,7 +6,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -21,21 +21,19 @@ Role required: sn\_si.analyst
 
 ## Procedure
 
-1.  Open the security incident that you are working with and verify that the sandbox submission is successful.
-
-    ![Review the activities section for successful sandbox submissions.](../../../security-incident-response/image/work-notes.png)
+1.  Open the security incident that you're working with and verify that the sandbox submission is successful.
 
 2.  Review the Work notes for more information and learn how to proceed if you can't verify that the scan is successful.
 
-3.  Either click the complete results link in the Work notes or at the bottom of the security incident, navigate to **Show All Related Lists**&gt; **Sandbox Submission Results**.
+3.  Either select the complete results link in the Work notes or at the bottom of the security incident, navigate to **Show All Related Lists**&gt; **Sandbox Submission Results**.
 
-    Results are displayed in the Sandbox Submission Results tab.
+    Results are displayed in the **Sandbox Submission Results** tab.
 
-4.  Click open any record to view the complete sandbox analysis.
+4.  Select open any record to view the complete sandbox analysis.
 
     ![Review the sandbox submission results.](../image/sandbox-submission-results-new.png)
 
-5.  Click **Resubmit to Sandbox** to reprocess the observable.
+5.  Select **Resubmit to Sandbox** to reprocess the observable.
 
 
 ## Result

@@ -30,8 +30,6 @@ Role required:
 
 3.  In Action 3, you need to investigate the file name and path to determine whether it is a known or non-malicious file/application.
 
-    ![Response tasks to determine whether it is a known or non-malicious file/application.](../image/playbook-office365-investigate.png "Office 365 Malicious File Detected playbook")
-
 4.  In Action 4, you need to submit the file to Sandbox for analyzing the results.
 
 5.  In Action 5, based on the investigation done so far, you need to check whether the file or hash is malicious or not.
@@ -49,8 +47,6 @@ Role required:
     If the end user provided a valid business justification, a manual response task is created in Action 5 and the flow ends.
 
 9.  In Action 9, if the user didn’t provide a valid business justification then Actions 10, 11, and 12 are executed.
-
-    ![Response tasks if there was no valid business justification for the malicious file](../image/playbook-office365-justification.png "Business justification for the malicious file")
 
 10. In Action 10, since there was no valid business justification, you can forward the malicious file or hash to the Threat Intel Team for review.
 

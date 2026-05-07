@@ -38,18 +38,26 @@ See [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&versi
     -   Submit Exception Request Builder
     -   Submit Fraud Bundle Dispute Questionnaire
     -   Look up Dispute Financial Details Request Builder
-    -   Submit Exception Request Builder
+    -   Look up Dispute Financial Details Response Parser
     -   Submit Fraud Report Request Builder
+    -   Look up Fraud Report Details Response Parser
     -   Look up Fraud Report Details Request Builder
     -   Look up Transaction Details Request Builder
     -   Look up Dispute Details Request Builder
+    -   Look up Dispute Details Response Parser
+    -   Look up Dispute Filing Details Response Parser
+    -   Look up Transaction Details Response Parser
+    -   Look up Transaction Details from Case Response Parser
+    -   Look up All Transaction Details Response Parser
     -   Create Dispute Pre Arbitration Response
     -   Look up Dispute Pre Arbitration Details Request Builder
     -   Look up Dispute Pre Arbitration Response Details Request Builder
+    -   Look up Dispute Pre Arbitration Details Response Parser
     -   Look up Dispute Response Details Request Builder
     -   Submit Dispute Questionnaire
-    -   Look up Dispute Response Details Request Builder
-    -   Initiate Dispute from Transaction or Case
+    -   Look up Dispute Pre Arbitration Response Details Response Parser
+    -   Look up Dispute Response Details Response Parser
+    -       -   Initiate Dispute from Transaction or Case
     -   Create Dispute Pre Arbitration
 
 ## Activation information

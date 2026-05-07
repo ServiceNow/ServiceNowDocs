@@ -31,11 +31,7 @@ Role required: admin
 
 3.  Save the page.
 
-    ![Overview help page with Help Panels to welcome pages](../image/OverviewHelpPageIstanbul.png "Overview Help Page form")
-
 4.  Click **New** in the **Overview Help Panel** related list and complete the form using the fields in the table.
-
-    ![Overview Help Panel form](../image/OverviewHelpPanelIstanbul.png "Overview Help Panel form")
 
 5.  Click **Submit**.
 

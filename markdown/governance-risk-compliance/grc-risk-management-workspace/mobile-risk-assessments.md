@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 2
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -31,19 +31,13 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Assessments applet highlighted.](../image/mobile_Risk_overview-app-redo.png)
-
     The Assessments screen is displayed with a list of records.
-
-    ![Assessment list of records.](../image/mobile_risk_assessment_list.jpg)
 
 3.  See [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To reassign a risk assessment directly from the list of records, with the Assessments screen displayed, swipe left on a record to open the menu.
-
-    ![Swipe action on an assessment record.](../image/mobile_risk_assessment_swipe.jpg)
 
 5.  Tap **Reassign**, and, tap the **Assigned to** field.
 
@@ -55,17 +49,15 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
 9.  Choose one from the following table to continue.
 
-    ![Assessment record details.](../image/mobile_risk_assment_rcd.jpg)
-
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d49570e218">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d52070e179">
 
 Option
 
-</th><th align="left" id="d49570e221">
+</th><th align="left" id="d52070e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49570e227">
+</th></tr></thead><tbody><tr><td id="d52070e188">
 
 **Reassign**
 
@@ -73,7 +65,7 @@ Description
 
 With the record displayed, review the details and tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to reassign the assessment.
 
-</td></tr><tr><td id="d49570e242">
+</td></tr><tr><td id="d52070e203">
 
 **Tap a screen icon at the bottom of the screen.**
 

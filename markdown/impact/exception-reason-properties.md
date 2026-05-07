@@ -31,12 +31,12 @@ Role required: sn\_se.scan\_engine\_admin, sn\_se.scan\_engine\_read\_user, sn\_
 
     If `enable_exception_reason_approvals_in_production` is set to `false`, exceptions can only be approved in the instances in which they are raised.
 
+    **Note:** This setting is only applicable to development instances.
+
 3.  Approval groups will approve or reject exception requests and receive notifications.
 
     -   Use the`Enable approvals in production` setting to control whether exceptions can be approved in production instances or only in development environments.
     -   Approval group\(s\) displays the group or groups that will approve or reject exception reasons and also receive notifications when new approvals are requested.
-    **Note:** This setting is only applicable to development instances.
-
 4.  Select whether to **Exclude approved exception reasons from technical debt**.
 
     When enabled, findings with approved exception reasons will be excluded from technical debt metrics.

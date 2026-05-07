@@ -17,7 +17,7 @@ As part of the Human Resources setup process, you define positions to describe e
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_core.admin
 
 ## About this task
 

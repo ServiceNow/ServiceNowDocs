@@ -27,7 +27,7 @@ You can add multiple causes to a compliance case or event and define a primary c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  From the list, select **All Cases**.
 

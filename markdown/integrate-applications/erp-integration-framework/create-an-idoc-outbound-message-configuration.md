@@ -1,6 +1,6 @@
 ---
 title: Create an IDoc outbound message configuration in Zero Copy Connector for ERP
-description: Use IDoc outbound message configurations to create and change some SAP business entities.
+description: Use IDoc outbound message configurations to create and change some SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message]
-breadcrumb: [Create and change SAP business entities with IDoc, Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Create and change SAP business entities with IDoc, Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an IDoc outbound message configuration in Zero Copy Connector for ERP
 
-Use IDoc outbound message configurations to create and change some SAP business entities.
+Use IDoc outbound message configurations to create and change some SAP business entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 

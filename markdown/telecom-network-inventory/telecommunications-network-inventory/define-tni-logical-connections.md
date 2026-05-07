@@ -99,5 +99,5 @@ The **Overview** tab in the logical connection record displays a consolidated de
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

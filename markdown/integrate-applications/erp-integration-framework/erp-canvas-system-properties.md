@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP system properties
-description: Review the system properties for Zero Copy Connector for ERP.
+description: Review the system properties for Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, property, properties]
-breadcrumb: [Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP system properties
 
-Review the system properties for Zero Copy Connector for ERP.
+Review the system properties for Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 These properties are available for Zero Copy Connector for ERP.
 

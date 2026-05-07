@@ -81,7 +81,7 @@ Users
 -   View tasks assigned to you
 -   View area tasks
 -   View recently updated articles
--   Select or change the functional location via the pin icon \(![image.pin-icon-white-background]\)
+-   Select or change the functional location via the pin icon \(![Pin icon.](../image/pin-icon-white-background.png)\)
 
 </td><td>
 
@@ -134,7 +134,7 @@ Shows inactive tasks in the user's functional location that were deactivated wit
 
  To filter the task list, select the filter icon \(![Filter icon](../image/filter-icon.png)\). You can filter by task type or by specific attributes within a selected task type.
 
- ![image.mobile-homepage-latest]
+ ![Tasks shown on the ICW Mobile Experience under My Tasks and Area Tasks on the Home page](../image/mobile-homepage-latest.png)
 
  Within an individual task record, excluding guided tasks, the **Related** tab contains two tabs:
 
@@ -158,6 +158,8 @@ The Industrial Connected Workforce Mobile Experience gives operators a single pl
 The Industrial Standards Library or Standards hub in the Industrial Connected Workforce Mobile Experience is a collection of published standards and knowledge articles available within your organization.
 -   **[AI Search in Industrial Connected Workforce Mobile Experience](ai-search-in-icw-mobile-experience.md)**  
 Access the AI Search for Industrial Connected Workforce Mobile Experience by using the search bar on the home page. The system interprets queries to return the most relevant results across configured record types, such as standards, tasks, and knowledge articles.
+-   **[Recommended Actions in the Industrial Connected Workforce Mobile Experience](recommended-actions-icw-mobile-experience.md)**  
+The Recommended Actions feature in Industrial Connected Workforce Mobile Experience \(ICW Mobile\) displays suggested actions directly in the Recommendations tab of a task. These suggestions are based on the current context of the task and are intended to support you during manufacturing processes by providing relevant guidance at the point of need.
 
 **Parent Topic:**[Industrial Connected Workforce Mobile Experience](icw-mobile-exp-landing-page.md)
 

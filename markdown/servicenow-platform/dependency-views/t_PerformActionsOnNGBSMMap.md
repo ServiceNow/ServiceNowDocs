@@ -126,8 +126,6 @@ Starting at the selected icon, loads the next level of the map, past the setting
 
 [Filter the view of a Dependency Views map](t_FilterViewNGBSMMap.md)
 
-[View metrics for CIs in a Dependency Views map](view-ci-metrics.md)
-
 [Export a Dependency Views map](t_ExportAnNGBSMMap.md)
 
 [View collapsed nodes in a Dependency Views map](t_ViewCollapsedNodesInNGBSM.md)

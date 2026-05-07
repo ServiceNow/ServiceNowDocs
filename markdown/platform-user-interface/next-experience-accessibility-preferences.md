@@ -16,6 +16,8 @@ Set up Next Experience accessibility preferences to achieve a UI that's most acc
 
 ## Before you begin
 
+Next Experience includes a guided tour that introduces the available accessibility preferences and where to find them. The guided tour is available from the Help Center ![Help Center in Unified navigation header.](../../../administer/core-configuration/image/help-icon-new.png) and provides an in-context walkthrough of the preferences and related settings.
+
 Role required: none
 
 ## Procedure

@@ -17,7 +17,7 @@ Logs module provides a variety of logs that you can use to troubleshoot and debu
 
 <table id="table_vcy_yrq_dsb" class="nav-card"><tbody><tr><td>
 
-[System Logs![Logs](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)](../../system-logs/concept/system-logs.md)
+[System Logs![](../../../reuse/icons/brand-icons/bus-actionable-analytics.svg)](../../system-logs/concept/system-logs.md)
 
  [The System Logs module provides a variety of logs that you can use to troubleshoot and debug transactions and events that take place within the instance.](../../system-logs/concept/system-logs.md)
 

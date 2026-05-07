@@ -1,5 +1,5 @@
 ---
-title: Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)
+title: Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)
 description: Use the AI agents for SPM to monitor project tasks autonomously.
 locale: en-US
 release: australia
@@ -11,7 +11,7 @@ reading_time_minutes: 1
 breadcrumb: [Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
-# Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)
+# Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)
 
 Use the AI agents for SPM to monitor project tasks autonomously.
 

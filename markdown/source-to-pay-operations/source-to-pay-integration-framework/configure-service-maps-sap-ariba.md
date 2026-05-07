@@ -7,7 +7,7 @@ product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Source-to-Pay integration with SAP Ariba, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
@@ -128,6 +128,8 @@ The order in which the entity should be displayed.
 
 
 [ERP source configuration for SAP Ariba](erp-source-configuration-sap-ariba.md)
+
+[Define ERP source configuration for SAP Ariba](../task/define-erp-source-sap-ariba.md)
 
 [Look up primary data in SAP Ariba](look-up-primary-data-sap-ariba.md)
 

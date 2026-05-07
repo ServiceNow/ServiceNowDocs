@@ -7,7 +7,7 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -28,13 +28,13 @@ The ServiceNow system includes a range of predefined reports that provide data o
 -   **[View a report](../task/t_RunAReport.md#)**  
 Open a report in the Report Designer to view current data in an existing report.
 -   **[Create a report](../task/t_CreateYourOwnReport.md#)**  
-Create a Core UI report to visualize and analyze current instance data or temporary data that you have imported.
+On instance upgraded to Australia, you can create Core UI reports in the legacy Report Designer tool to visualize and analyze current instance data or temporary data that you have imported.
 -   **[View the Reports list](../reference/r_ViewTheReportsList.md#)**  
 View a list of reports and create reports from the Reports list.
 -   **[Copy a report](../task/copy-report.md)**  
 Users who cannot create their own global reports can modify a global report, and then save a personal version of the report.
 -   **[Delete a report](../task/delete-report.md#)**  
-Delete reports that are no longer used.
+Delete Core UI reports that are no longer used.
 -   **[Distribute reports](c_DistributeReports.md)**  
 Distribute reports to provide business information to other users.
 -   **[Reports on Service Portal](service-portal-reporting-widget.md#)**  

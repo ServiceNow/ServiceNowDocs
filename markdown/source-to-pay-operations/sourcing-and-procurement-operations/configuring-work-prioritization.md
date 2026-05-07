@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-04-01"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [configure work prioritization, decision table configuration, priority rules, procurement administrator, work prioritization setup, purchase requisition priority, sourcing request priority, procurement case priority, sourcing and procurement operations, SPO]
 breadcrumb: [Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---

@@ -121,7 +121,7 @@ Create a record producer
 
     In our tutorial, we create several questions to collect details about employees' travel requests.
 
-    1.  In the correct question container, hover over the plus icon \(![Add icon](../image/plus-icon.png)\), then select **+ Insert**.
+    1.  In the correct question container, hover over the plus icon \(![](../image/plus-icon.png)\), then select **+ Insert**.
 
         In our tutorial, we insert this question in the General Information container.
 
@@ -135,7 +135,7 @@ Create a record producer
 
     4.  Select **Continue to Choices** to complete additional configurations for the question.
 
-    5.  In the **Available choices** section, hover over the plus icon \(![Add icon](../image/plus-icon.png)\), then select **+ Insert**.
+    5.  In the **Available choices** section, hover over the plus icon \(![](../image/plus-icon.png)\), then select **+ Insert**.
 
     6.  In the **Display name** field, enter `Customer meeting`.
 

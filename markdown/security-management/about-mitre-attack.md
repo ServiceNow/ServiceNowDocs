@@ -13,17 +13,13 @@ breadcrumb: [Threat Intelligence, Enterprise security case management applicatio
 
 The MITRE-ATT&amp;CK framework is a knowledge base of common tactics, techniques, and procedures \(TTP\) that your organization can access to develop specific threat models and methodologies against cyberattacks.
 
-## Overview
-
 The MITRE Adversarial Tactics, Techniques, and Common Knowledge \(ATT&amp;CK\) framework documents and tracks various adversarial techniques that are used during different stages of a cyberattack.
 
 By using the MITRE-ATT&amp;CK framework's knowledge base, the cyberthreat intelligence community can quickly identify threats and coordinate cyberattack responses.
 
 ## MITRE-ATT&amp;CK and Security Operations
 
-See the following diagram to learn how the MITRE-ATT&amp;CK information flows with Security Operations applications.
-
-![How MITRE ATT&CK works with Security Operations' applications.](../image/mitre-attack-architecture.png)
+Learn how the MITRE-ATT&amp;CK information flows with Security Operations applications.
 
 -   The [pre-loaded TAXII client](../task/setup-mitre-profile.md) connects to the TAXII server to ingest the [data collections](../task/view-mitre-collection.md) to Threat Intelligence.
 -   Existing [Security Information and Event Manager \(SIEM\) integrations](auto-extract-technique-rules.md#) ingest their threat data \(alerts and events\), with relevant TTPs and are [associated with security incidents](../task/associate-mitre-with-sir.md#).
@@ -31,9 +27,9 @@ See the following diagram to learn how the MITRE-ATT&amp;CK information flows wi
 -   If any third-party source contains the MITRE-ATT&amp;CK information, then [Threat Intelligence extracts the technique information](../task/create-detection-rules.md) and enriches the data in the Threat Intelligence repository for correlation and analysis.
 -   MITRE-ATT&amp;CK also shares [CVE context information](mitre-att-ck-heatmap-and-navigator.md#) for each technique. Your security team can review the exploited techniques in Vulnerability Response to determine if your business-critical assets are threatened.
 
-## MITRE-ATT&amp;CK matrices, tactics, and techniques
+## MITRE-ATT&amp;CK matrixes, tactics, and techniques
 
-The core of the MITRE-ATT&amp;CK framework is a matrix of adversary tactics and techniques. The sequence of the tactics represents what an adversary is trying to accomplish at the stage of an incident. When your security team understands this sequence, you have an opportunity to anticipate an adversary's next move and break the kill chain. ATT&amp;CK consists of the following matrices:
+The core of the MITRE-ATT&amp;CK framework is a matrix of adversary tactics and techniques. The sequence of the tactics represents what an adversary is trying to accomplish at the stage of an incident. When your security team understands this sequence, you have an opportunity to anticipate an adversary's next move and break the kill chain. ATT&amp;CK consists of the following matrixes:
 
 -   Enterprise ATT&amp;CK: Describes the behaviors and actions that an adversary takes to compromise and operate in an enterprise network and cloud.
 
@@ -57,8 +53,6 @@ Using Security Incident Response, your security team can manage the life cycle o
 By integrating Security Incident Response with the MITRE-ATT&amp;CK framework, security incidents are handled as links in a larger enterprise-wide attack.
 
 ## How your organization can benefit from MITRE-ATT&amp;CK in Security Operations
-
-![Benefits of using MITRE ATT&CK](../image/mitre-attack-architecture_benefits.png)
 
 Using the MITRE-ATT&amp;CK framework can help your organization do the following:
 

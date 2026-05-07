@@ -1,15 +1,15 @@
 ---
-title: Enterprise Architecture \(formerly Application Portfolio Management\) use case
+title: Enterprise Architecture use case
 description: Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework, Configuring Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2025-07-31"
+reading_time_minutes: 4
+breadcrumb: [Enterprise Architecture and CSDM framework, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Architecture \(formerly Application Portfolio Management\) use case
+# Enterprise Architecture use case
 
 Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 
@@ -17,7 +17,7 @@ Enterprise Architecture lets you define a single, version-agnostic entity that r
 
 Starting with the Xanadu release, most Enterprise Architecture \(formerly Application Portfolio Management\) capabilities are available through the Enterprise Architecture Workspace.
 
-Features such as data certification, application assessments, and total cost of ownership \(TCO\) are now accessed and managed from the Enterprise Architecture Workspace, not from the legacy APM pages. To learn more about Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](ea-workspace.md).
+Features such as data certification, application assessments, and total cost of ownership \(TCO\) are now accessed and managed from the Enterprise Architecture Workspace, not from the legacy APM pages. To learn more about Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](../ea-workspace.md).
 
 ## Enterprise Architecture use case
 
@@ -81,5 +81,5 @@ The following information is used to determine the EOL impact to business applic
     The Software Model Life cycle table is named \[sam\_sw\_model\_lifecycle\].
 
 
-**Parent Topic:**[Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework](apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](apm-use-case-product-view.md)
 

@@ -40,7 +40,7 @@ Update users on the latest communication on an incident through selected communi
 -   **[Run an incident communication plan report](../task/t_RunAnIncidentAlertReport.md)**  
 Run an incident communication plan report to view the status of communication plans. You can track the progress of the plan and intervene to improve the overall efficiency and effectiveness of the communication process.
 -   **[Subscribe to incident communication notifications](../task/t_SubscribeToANotification.md)**  
-Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
+Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
 
 **Parent Topic:**[Incident Communications Management](c_IncidentAlertManagement.md)
 

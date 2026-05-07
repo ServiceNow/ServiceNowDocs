@@ -19,9 +19,18 @@ When you create a table, ServiceNow automatically generates the underlying datab
 
 ServiceNow uses reference fields to connect tables together.
 
--   One-to-many: Most common relationship. Example: One user can have many incidents assigned to them. You add a reference field on the "many" side \(incident\) pointing to the "one" side \(user\).
--   Many-to-many: Requires an intermediate table. Example: Users can have multiple roles, and roles can be assigned to multiple users. You create a junction table with two reference fields.
--   Related lists: Automatically appear on forms to show connected records from other tables based on reference fields.
+-   **One-to-many**
+
+    Most common relationship. Example: One user can have many incidents assigned to them. You add a reference field on the "many" side \(incident\) pointing to the "one" side \(user\).
+
+-   **Many-to-many**
+
+    Requires an intermediate table. Example: Users can have multiple roles, and roles can be assigned to multiple users. You create a junction table with two reference fields.
+
+-   **Related lists**
+
+    Automatically appear on forms to show connected records from other tables based on reference fields.
+
 
 ## Table extension \(inheritance\)
 

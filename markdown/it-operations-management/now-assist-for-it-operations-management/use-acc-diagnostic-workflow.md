@@ -18,7 +18,7 @@ Enable and use AI agents to examine agent behavior through the Agent Client Coll
 ## Before you begin
 
 -   Ensure that the Now Assist panel is enabled on your instance. For details, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
--   Ensure that Now Assist for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
+-   Ensure that Now Assist for IT Operations Management \(ITOM\) is installed on your instance. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
 -   Enable the Agent Client Collector diagnostic workflow in AI Agent Studio.
     1.  Select **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
     2.  On the **Agentic workflows** tab, select **Agent Client Collector \(ACC\) Diagnostic**.

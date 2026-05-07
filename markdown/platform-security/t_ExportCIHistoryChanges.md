@@ -33,7 +33,7 @@ You can export a snapshot of the CI to an XML, PDF \(Portal\), or PDF \(Landscap
 
 4.  Select the bubble representing the time for which you want to export a snapshot of the CI.
 
-5.  Click the export icon \(![](../image/ExportCIHistoryChanges.png)\).
+5.  Click the export icon \(![export icon](../image/ExportCIHistoryChanges.png)\).
 
 6.  Select the file format to use for the export.
 

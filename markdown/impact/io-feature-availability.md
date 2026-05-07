@@ -7,7 +7,7 @@ topic_type: reference
 last_updated: "2026-04-06"
 reading_time_minutes: 2
 keywords: [Feature availability, Impact Package]
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Feature availability based on package

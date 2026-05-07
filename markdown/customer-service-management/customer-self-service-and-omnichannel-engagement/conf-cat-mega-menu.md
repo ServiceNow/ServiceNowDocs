@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Mega Menu widget, Portal Polaris Header widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the category of a Portal Mega Menu widget

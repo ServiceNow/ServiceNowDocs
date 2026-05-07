@@ -59,9 +59,11 @@ A document verification task is created.
 
 If Document Intelligence is integrated, once a document verification task is created, a record is also created on a Document Intelligence task if the following criteria are met:
 
--   The OCR processing needed checkbox is selected.
+-   The **OCR processing needed** check box is selected.
 -   The document verification task has a document attached.
--   The document verification task shows a current stated of Submitted.
+-   The document verification task shows a current state of Submitted.
+
+The **External ID** field in the document verification task is populated with the ID of the Document Intelligence use case that processes and extracts the data.
 
 ## What to do next
 

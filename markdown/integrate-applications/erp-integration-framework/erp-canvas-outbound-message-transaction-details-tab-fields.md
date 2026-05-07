@@ -1,6 +1,6 @@
 ---
 title: Outbound message transaction details tab fields
-description: The outbound message transaction details tab in Zero Copy Connector for ERP contains information about the transaction including ID numbers, transaction time, and the source.
+description: The outbound message transaction details tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the transaction including ID numbers, transaction time, and the source.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, transaction, detail]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Outbound message transaction details tab fields
 
-The outbound message transaction details tab in Zero Copy Connector for ERP contains information about the transaction including ID numbers, transaction time, and the source.
+The outbound message transaction details tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about the transaction including ID numbers, transaction time, and the source.
 
 For process details, see [View and troubleshoot IDoc messages](../task/view-and-troubleshoot-idoc-messages.md).
 
@@ -50,7 +50,7 @@ Source
 
 </td><td>
 
-Source of the transaction, for example, an ETL extraction task.
+Source of the transaction.
 
 </td></tr><tr><td>
 

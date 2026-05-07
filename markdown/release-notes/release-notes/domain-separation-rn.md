@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 ---
 
 # Domain Separation release notes
@@ -14,6 +14,8 @@ The ServiceNow® Domain Separation application enables you to separate data, pro
 
 ## Domain Separation highlights for the Australia release
 
+-   Use the new AI agent to manage domain visibility through natural language. Query, validate, add, and remove visibility settings without navigating complex admin interfaces.
+
 -   System and domain administrators can now review a dedicated dashboard of process overrides that were affected by global process upgrades. Filter and sort overrides by date and process type to prioritize review and take action.
 -   Domain visibility queries now complete in under one second for large instances — a 70% improvement for MSPs managing thousands of domains and users.
 
@@ -21,7 +23,11 @@ See for more information.
 
 ## New in the Australia release
 
--   **Upgraded Process Overrides Report**
+-   **[AI Agent for Domain Visibility Management](https://www.servicenow.com/docs/access?context=domain-sep-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    Use the new AI agent to manage domain visibility through natural language conversations. Domain administrators can ask the agent to query visibility by user, validate that visibility is not redundant or oversized, and take direct actions to add or remove visibility settings. The agent supports end-to-end workflows so administrators can complete multistage visibility management tasks without leaving the conversational interface. Install the Domain Separation AI Agent plugin to enable this capability.
+
+-   **Global Domain Upgraded Process Overrides Report**
 
     System and domain administrators can now track and review process overrides that are affected by global process upgrades. A new admin dashboard provides a comprehensive list of impacted overrides with filtering and sorting by date and process type. Use the scriptable API to build custom integrations or automations on top of the override tracking data.
 

@@ -29,7 +29,7 @@ Select a tile to get started.
 
 </td><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Integrate Conversational Integration with Microsoft Teams with Virtual Agent.](va-integ-msteams.md)
+[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Integrate Conversational Integration with Microsoft Teams with Virtual Agent.](../task/va-integ-msteams.md)
 
 </td></tr><tr><td>
 
@@ -58,8 +58,8 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 Use the Conversational Integration with Microsoft Teams application to connect your end users with Virtual Agent or live agents through your company’s Microsoft Teams account.
 -   **[Install Conversational Integration with Microsoft Teams](../task/teams-install.md)**  
 You can install the Microsoft Teams \(sn\_va\_teams\) application to integrate with Now Virtual Agent if you have the admin role.
--   **[Integrating Virtual Agent with Microsoft Teams](va-integ-msteams.md)**  
-Enables ServiceNow Virtual Agent to integrate with Microsoft Teams application.
+-   **[Integrate Virtual Agent with Microsoft Teams](../task/va-integ-msteams.md)**  
+Enable ServiceNow Virtual Agent to integrate with the Microsoft Teams application.
 -   **[Configure Virtual Agent for Microsoft Teams](../task/configure-va-msteams-settings.md)**  
 Configure your Microsoft Teams bots that are integrated with Virtual Agent to enable notifications, to link ServiceNow user profiles, and to set up system messages and contextual actions.
 -   **[Using Now Assist in Virtual Agent conversations with Microsoft Teams](na-va-llm-teams.md)**  

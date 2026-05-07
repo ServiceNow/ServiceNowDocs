@@ -7,7 +7,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
@@ -22,11 +22,15 @@ Use the conversational experience of Now Assist in Virtual Agent to create a dem
 -   **[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](../task/identify-similar-demand-records.md)**  
 Detect similar demand records using the identify similar records Now Assist skill. The skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 -   **[Summarize demands with the demand summarization skill](../task/demand-summarization-skill.md)**  
-Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 -   **[Generate targets for a goal in Strategic Planning Workspace using Now Assist for SPM](../task/generate-targets-for-goal.md)**  
 Generate measurable targets for your goals in Strategic Planning Workspace using Now Assist for SPM.
 -   **[Generate insights for a goal in Strategic Planning Workspace using Now Assist for SPM](../task/generate-insights-for-goal.md)**  
 Review AI-generated insights to identify at-risk goals, assess forecasted statuses, and act on recommendations before goals fall off track.
+-   **[View portfolio insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace using Now Assist for SPM](../task/view-portfolio-insights.md)**  
+View AI-generated insights for a portfolio plan in Strategic Planning Workspace or Portfolio Planning Workspace to identify planning items at risk of schedule delays, analyze root causes, and review recommended actions.
+-   **[Assess the status of an epic using Now Assist for Strategic Portfolio Management \(SPM\)](../task/assess-epic-status-now-assist-eap.md)**  
+Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). Now Assist returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
 -   **[Generate multiple stories at once in EAP using Now Assist for SPM](../task/generate-stories-from-epics-now-assist-eap.md)**  
 Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
 -   **[Generate a story from an epic using Now Assist for SPM in EAP](../task/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
@@ -53,11 +57,19 @@ Generate an AI‑assisted project status report with predicted health indicators
 Improve record quality by enabling AI-assisted text refinement in the text fields of Product idea, Demands, Epic, Projects, Capability, Features, Stories, Project tasks, Risks, Strategic priorities, Goals, Targets, Initiatives, Feedback, Milestones, and Story forms.
 -   **[Generate and track project details from AI insights page](../task/track-project-ai-insights-page.md)**  
 Generate and monitor project insights directly from AI insights page in Project Workspace.
+-   **[Generate a project plan using project plan generation skill](../task/generate-projects-using-nowassist.md)**  
+Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
+-   **[Generate tasks for a project using project plan generation skill](../task/generate-tasks-using-now-assist.md)**  
+Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
+-   **[Generate, accept, and reject risks using risk generation skill](../task/generate-risks-using-ai-na-spm.md)**  
+Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
+-   **[Assign a resource using AI resource finder](../task/assign-resources-using-resource-finder-na.md)**  
+Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
 
 **Parent Topic:**[Now Assist for Strategic Portfolio Management \(SPM\)](now-assist-spm.md)
 
 **Related topics**  
 
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
 

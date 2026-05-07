@@ -4,14 +4,17 @@ description: Build Agent is available in ServiceNow Studio \(UI-first, declarati
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-02"
+last_updated: "2026-04-30"
 reading_time_minutes: 3
+keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Accessing Build Agent in ServiceNow Studio and the ServiceNow IDE
 
 Build Agent is available in ServiceNow Studio \(UI-first, declarative workflows\) and the ServiceNow IDE \(code-first, autonomous full-stack development\).
+
+You can also access Build Agent on a Personal Development Instance \(PDI\). For more information, see [Exploring Build Agent](exploring-build-agent.md).
 
 ## Opening Build Agent
 

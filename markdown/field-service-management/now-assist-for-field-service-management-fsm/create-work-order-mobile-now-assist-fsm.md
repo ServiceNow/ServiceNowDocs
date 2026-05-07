@@ -26,18 +26,24 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
 ## Procedure
 
-1.  Navigate to **My Work**.
+1.  Tap Now Assist from the navigation bar.
 
-2.  Tap the plus icon ![](../image/mobile-plus-icon.png).
+2.  Navigate to **My Work**.
 
-3.  Tap **Ask Now Assist**.
+3.  Tap the plus icon ![](../image/mobile-plus-icon.png).
 
-4.  Tap **Create work order**, or ask Now Assist to create a work order.
+4.  Tap **Ask Now Assist**.
+
+5.  Tap **Create work order**, or ask Now Assist to create a work order.
 
     ![The Create work order workflow in Now Assist Virtual Agent on the mobile app.](../image/now-assist-mobile-create-wo.png)
 
-5.  Provide a description of the issue for the work order.
+6.  Provide a description of the issue for the work order.
 
     The work order is created.
+
+7.  Upload a photo of the issue instead of providing a text description.
+
+    The AI agent extracts relevant information from the image to populate work order fields.
 
 

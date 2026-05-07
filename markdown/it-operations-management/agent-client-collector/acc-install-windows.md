@@ -7,7 +7,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [ACC installation on a Windows machine, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
@@ -24,6 +24,10 @@ Install the Agent Client Collector on a Windows machine manually when you want t
     2.  Turn off **IE Enhanced Security Configuration**.
     3.  Download the installation file.
     4.  Change the extension of the installation file from `.man` to `.msi`
+
+Ensure that .NET Framework 4.6.2 or later is installed on the target machine.
+
+**Note:** If the .NET Framework is not running effectively, use use the legacy VBSript installer by running the following command on the target machine: `msiexec /i <msi_file_path> /quiet /qn /norestart USE_VBS_CA=1 ACC_API_KEY=<key_value> ACC_MID=wss://<mid_ip>:<websocket_port>/ws/events ACC_ALLOW_LIST=False`
 
 Enable golden image mode for cloning additional agents by setting the msi property **GOLDEN\_IMAGE=true**.
 

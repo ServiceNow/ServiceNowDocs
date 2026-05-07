@@ -7,7 +7,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Microsoft Teams Graph Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -72,19 +72,26 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Click the **Connections** tab.
+2.  Select the **Integrations** tab.
 
-3.  Configure the **Microsoft Teams Spoke** connection.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-    1.  Locate the **Microsoft Teams Spoke** connection alias and click **View Details**.
+4.  Configure the **Microsoft Teams Spoke** connection.
 
-        **Note:** Don't click **Add Connection**.
+    1.  Locate the **Microsoft Teams Spoke** connection alias and select **View Details**.
 
-    2.  Click **Edit** or if you are configuring the spoke for the first time, click **Configure**.
+        -   To configure the default connection and credential alias record that is shipped along with the Microsoft Teams spoke, select **View Details**.
 
-    3.  On the **Configure Connection** form, fill in the fields.
+            ![Connection for the Microsoft Teams Spoke](../image/ms-teams-spoke-tile.jpg)
+
+        -   To manage more than one Microsoft Teams spoke connection records, you should create a child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
+
+        ![Initial connection configuration](../image/ms-teams-spoke-configure.jpg)
+
+    2.  On the form, fill in these fields:
 
 <table id="table_shd_vqw_byb"><thead><tr><th>
 
@@ -116,7 +123,7 @@ API Version
 
 </td><td>
 
-The value is set to **v1.0** by default.If you are using any other API version, update the version number here.
+The value is set to **v1.0** by default.If you're using any other API version, update the version number here.
 
 </td></tr><tr><td>
 
@@ -167,19 +174,26 @@ OAuth Redirect URL
 OAuth callback endpoint. Enter `https://<instance-name>.service-now.com/oauth_redirect.do`.
 
 </td></tr></tbody>
-</table>    4.  Click **Configure and Get OAuth Token**.
+</table>        ![Configure a connection for the Microsoft Teams spoke](../image/ms-teams-spoke-conf-connection.jpg)
 
-4.  Configure the **Microsoft Teams Graph Client Credentials** connection.
+    3.  Select **Save and Get OAuth Token**.
+
+5.  Configure the **Microsoft Teams Graph Client Credentials** connection.
 
     Except the Look up Schedules action, all the other calendar and webhook management spoke actions use this connection record.
 
-    1.  Locate the **Microsoft Teams Graph Client Credentials** connection alias and click **View Details**.
+    1.  Locate the **Microsoft Teams Graph Client Credentials** connection alias and select **View Details**.
 
-        **Note:** Don't click **Add Connection**.
+        -   To configure the default connection and credential alias record that is shipped along with the Microsoft Teams Graph Client Credentials, select **View Details**.
 
-    2.  Click **Edit** or if you are configuring the spoke for the first time, click **Configure**.
+            ![Connection for the Microsoft Teams Graph Client Connection](../image/ms-teams-gphcc-tile.jpg)
 
-    3.  On the form, fill in the fields.
+        -   To manage more than one Microsoft Teams Graph Client Credentials connection records, you should create a child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+        If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
+
+        ![Initial connection configuration](../image/ms-teams-gphcc-configure.jpg)
+
+    2.  On the form, fill in these fields:
 
 <table id="table_bwd_xpw_byb"><thead><tr><th>
 
@@ -211,7 +225,7 @@ API Version
 
 </td><td>
 
-The value is set to **v1.0** by default.If you are using any other API version, update the version number here.
+The value is set to **v1.0** by default.If you're using any other API version, update the version number here.
 
 </td></tr><tr><td>
 
@@ -238,10 +252,12 @@ OAuth Client Secret
 Client secret created during application registration.
 
 </td></tr></tbody>
-</table>    4.  Click **Configure and Get OAuth Token**.
+</table>        ![Configure a connection for the Microsoft Teams Graph Client Credentials](../image/ms-teams-gphcc-conf-connection.jpg)
+
+    3.  Select **Save and Get OAuth Token**.
 
 
 ### Result
 
-The spoke connections are configured and the spoke ready to be used.
+The Microsoft Teams Graph spoke is set up and Microsoft Teams account is integrated with your ServiceNow instance.
 

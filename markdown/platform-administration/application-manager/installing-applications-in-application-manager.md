@@ -50,15 +50,15 @@ This topic describes how to install an application or plugin. For information ab
 
 6.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d214838e205">
+<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d217329e205">
 
 Installation option
 
-</th><th align="left" id="d214838e208">
+</th><th align="left" id="d217329e208">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d214838e214">
+</th></tr></thead><tbody><tr><td id="d217329e214">
 
 **Install now**
 
@@ -68,7 +68,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d214838e238">
+</td></tr><tr><td id="d217329e238">
 
 **Install later**
 

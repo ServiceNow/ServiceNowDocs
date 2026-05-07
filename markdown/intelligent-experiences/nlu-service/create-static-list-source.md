@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -85,6 +85,4 @@ Add the rest of the break room names and alternatives.
 You must retrain the model after updating a list vocabulary source. For more information, see [Train and try your NLU model](test-train-nlu-model.md).
 
 Then you can use the list vocabulary source when annotating a training utterance. Use the @ symbol with the handle to refer to this vocabulary source.
-
-**Parent Topic:**[NLU vocabulary](../concept/using-nlu-vocabulary.md)
 

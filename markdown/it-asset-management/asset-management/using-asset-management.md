@@ -31,8 +31,6 @@ Stockrooms are places to which assets are assigned.
 Manage pre-allocated assets, which are the assets that the vendor still owns, but has agreed to store in a customer stockroom for just-in-time procurement.
 -   **[Manage transfer order](manage-transfer-orders.md)**  
 Manage the asset movement from one stockroom to the other using transfer order.
--   **[Example Asset Management process](../task/t_AssetManagementProcess.md)**  
-The best method for managing assets depends on business needs and how your business is organized.
 -   **[Use Organization Management](../reference/org-mgmt.md#)**  
 The Organization Management application provides an easy way to perform such asset management tasks as updating users and adding vendors.
 

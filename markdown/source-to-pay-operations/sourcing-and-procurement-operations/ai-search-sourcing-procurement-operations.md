@@ -76,6 +76,8 @@ For more information, see [AI Search](https://www.servicenow.com/docs/access?con
 **Related topics**  
 
 
+[Shopping Hub](shopping-hub-overview.md)
+
 [My purchases on Shopping Hub](my-purchases.md)
 
 [Shopping Hub Mobile](shoppinghub-mobile.md)

@@ -30,7 +30,7 @@ When you write content for your users, keep the following limitations in mind.
 -   Any changes you make to embedded help are not automatically deployed to another instance.
 -   Changes to the embedded help table are not captured in update sets, update\_sync=false is set intentionally.
 
-**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspaces](../../adoption-services/task/create-help-center-content.md).
+**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](../../adoption-services/task/create-help-center-content.md).
 
 ## Procedure
 
@@ -64,7 +64,7 @@ Page
 
 Enter the UI page this content provides help for, without the .do file extension.![Page name in the URL](../image/embedded-help-url-page.png)
 
-**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspaces](../../adoption-services/task/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
+**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](../../adoption-services/task/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
 
 </td></tr><tr><td>
 

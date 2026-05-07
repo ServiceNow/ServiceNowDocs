@@ -29,7 +29,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 2.  Select **GRC tasks** in the **My active items** pane of the Home page.
 
-3.  Select the Tasks ![Tasks icon.](../../grc-workspace-audit/image/TasksIcon.jpg) icon on the left pane.
+3.  Select the Tasks ![Electronic signature](../../grc-workspace-vrm/image/icon-tprm-ws-tasks.png) icon on the left pane.
 
 4.  Select the attestation records in the list view of the Tasks page that you'd like to group.
 

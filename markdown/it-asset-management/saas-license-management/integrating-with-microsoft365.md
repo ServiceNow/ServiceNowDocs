@@ -205,15 +205,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d221663e712">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d224041e712">
 
 Interface
 
-</th><th align="left" id="d221663e715">
+</th><th align="left" id="d224041e715">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d221663e721">
+</th></tr></thead><tbody><tr><td id="d224041e721">
 
 **Core UI**
 
@@ -224,7 +224,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d221663e763">
+</td></tr><tr><td id="d224041e763">
 
 **Software Asset Workspace**
 
@@ -245,7 +245,7 @@ Action
 
     A draft integration profile is created. In the **Download Subscription Subflow** tab, the **Connection &amp; Credential** field appears and is automatically set to **sn\_ms\_365\_spoke.Microsoft\_365\_Graph**. In the **Calculate Activity Subflow** tab, the **Connection &amp; Credential** field appears and is automatically set to **sn\_ms\_365\_spoke.Microsoft\_365\_Dynamics**.
 
-5.  Under the **Download Subscription Subflow** tab, beside the **Connection &amp; Credential** field, select the preview \(![preview icon](../image/preview-icon.png)\) icon.
+5.  Under the **Download Subscription Subflow** tab, beside the **Connection &amp; Credential** field, select the preview icon ![](../image/preview-icon.png).
 
 6.  Under the **Please Enter the Credential Information** section, enter the values you received from [Set up Microsoft Azure Active Directory](integrating-with-microsoft365.md#).
 
@@ -261,7 +261,7 @@ Action
 
 8.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your Microsoft 365 account.
 
-9.  Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview \(![Preview](../image/preview-icon.png)\) icon.
+9.  Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview icon ![](../image/preview-icon.png).
 
 10. Select **Create New connection and credential alias**.
 

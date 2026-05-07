@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP partner profile tab column descriptions
-description: The partner profile tab on a system record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
+description: The partner profile tab on a system record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, tab, field, inbound, outbound, communication]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP partner profile tab column descriptions
 
-The partner profile tab on a system record in Zero Copy Connector for ERP contains information that defines inbound and outbound communications with a partner.
+The partner profile tab on a system record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
 
 For process details, see [View Zero Copy Connector for ERP partner profile information](../task/view-erp-system-partner-profile-information.md).
 

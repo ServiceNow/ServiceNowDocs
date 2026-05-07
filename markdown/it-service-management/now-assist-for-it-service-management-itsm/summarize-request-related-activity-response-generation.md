@@ -1,5 +1,5 @@
 ---
-title: Generate a response to request activity by using Now Assist for IT Service Management \(ITSM\)
+title: Generate a response to Request Management records by using Now Assist for IT Service Management \(ITSM\)
 description: Automatically generate a response in request-related record activity streams using the activity response generation skills for requests and requested items. Add responses to work notes or comments to enhance the quality of your interactions with the user.
 locale: en-US
 release: australia
@@ -12,7 +12,7 @@ keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI skills, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Generate a response to request activity by using Now Assist for IT Service Management \(ITSM\)
+# Generate a response to Request Management records by using Now Assist for IT Service Management \(ITSM\)
 
 Automatically generate a response in request-related record activity streams using the activity response generation skills for requests and requested items. Add responses to work notes or comments to enhance the quality of your interactions with the user.
 
@@ -20,9 +20,19 @@ Automatically generate a response in request-related record activity streams usi
 
 Role required: itil
 
+## About this task
+
+Activity response generation for Request Management involves individual skills used to generate responses in the following record types:
+
+-   Requests
+-   Requested items
+-   Catalog tasks
+
+These Request Management activity response generation skills provide you with responses in work notes or comments. These responses are generated from the information entered in the corresponding record fields. For more information about which fields are referenced, see [Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](../reference/now-assist-itsm-skills.md).
+
 ## Procedure
 
-1.  Navigate to a request or a requested item record in the SOW or Core UI where you want to generate work notes or comments using Now Assist.
+1.  Navigate to a request, requested item, or catalog task record in the SOW or Core UI where you want to generate work notes or comments using Now Assist.
 
 2.  Do the following in the **Work notes** or **Comments** field:
 

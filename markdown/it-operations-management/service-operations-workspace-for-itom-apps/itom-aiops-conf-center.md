@@ -6,7 +6,7 @@ release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -33,4 +33,6 @@ The AIOps configuration center provides a single interface to configure and admi
 -   Govern teams and approvals for service creation and on-call schedules.
 
 The AIOps configuration center consolidates all administrative tasks needed to set up and operate ITOM AIOps effectively—making it easier to streamline monitoring, improve incident response, and maintain service reliability.
+
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](configure-sow-itom.md)
 

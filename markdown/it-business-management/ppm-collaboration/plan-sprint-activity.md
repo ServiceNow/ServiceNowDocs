@@ -6,7 +6,7 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Agile Development 2.0 integration with Project Portfolio Management, Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,15 +31,15 @@ Role required: scrum\_admin, scrum\_master, or scrum\_sprint\_planner
 
 4.  Use either of options to view all the active stories assigned to the team, but not assigned to any sprint in the Backlog section.
 
-<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d115333e94">
+<table id="choicetable_pgt_smy_p1b"><thead><tr><th align="left" id="d113697e94">
 
 Action
 
-</th><th align="left" id="d115333e97">
+</th><th align="left" id="d113697e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d115333e103">
+</th></tr></thead><tbody><tr><td id="d113697e103">
 
 **Using the drag feature**
 
@@ -47,7 +47,7 @@ Description
 
 This option can be used to move stories within the backlog, move stories from the backlog to any sprint, or move stories from one sprint to another. Point to a story in the backlog and drag it to the required location.
 
-</td></tr><tr><td id="d115333e115">
+</td></tr><tr><td id="d113697e115">
 
 **Using the keyboard**
 

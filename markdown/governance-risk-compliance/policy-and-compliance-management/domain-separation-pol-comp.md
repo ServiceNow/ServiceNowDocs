@@ -50,9 +50,9 @@ While GRC supports separation of data, separation of logic and process is not fu
 
     ```
     * Global
-                 * Top
-                   * Domain A
-                   * Domain B
+                      * Top
+                          * Domain A
+                          * Domain B
     ```
 
 

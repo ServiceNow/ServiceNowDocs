@@ -7,7 +7,7 @@ product: Service Level Management
 classification: service-level-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Service Level Agreement \(SLA\) definition, Configure Service Level Agreement \(SLA\), Configuring Service Level Management, Service Level Management, IT Service Management]
 ---
 
@@ -59,7 +59,7 @@ Type
 
 </td><td>
 
-Select the type of agreement being defined: **SLA**, **OLA**, or **Underpinning contract**. **Note:** Type is used for reporting purposes only.
+The type of agreement being defined: **SLA**, **OLA**, or **Underpinning contract**. **Note:** Type is used for reporting purposes only.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Target
 
 </td><td>
 
-Select the target of the agreement being defined: **None**, **Response**, or **Resolution**. Target is used for filtering, searching, and reporting purposes only.**Note:** This feature is available only in new instances starting with Jakarta or a later release.
+The target of the agreement being defined: **None**, **Response**, or **Resolution**. Target is used for filtering, searching, and reporting purposes only.**Note:** This feature is available only in new instances starting with Jakarta or a later release.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Flow
 
 </td><td>
 
-Select the flow to run when the SLA definition attaches to a Task record. Selecting a flow disables the **Workflow** field.
+The flow to run when the SLA definition attaches to a Task record. Selecting a flow disables the **Workflow** field.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Workflow
 
 </td><td>
 
-Select the workflow to run when the SLA definition attaches to a Task record. Selecting a workflow disables the **Flow** field.
+The workflow to run when the SLA definition attaches to a Task record. Selecting a workflow disables the **Flow** field.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Vendor
 
 </td><td>
 
-Select the vendor associated with the SLA definition.
+The vendor associated with the SLA definition.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Duration type
 
 </td><td>
 
-Specify the method for calculating the duration of the SLA. The duration can either be a **User specified duration**, or a **Relative Duration**, such as **Breach on Due Date** or **End of next business day**.
+The method for calculating the duration of the SLA. The duration can be a **User specified duration** where the working hour and time zone specifies the duration before the SLA is marked as breached.The second type of duration is **Relative Duration**, where a date and time in the future is configured. For example, **Breach on Due Date** or **End of next business day** can be selected. If the date and time in the **Due Date** field is outside the schedule for the task SLA, the breach time is set to the next available scheduled time. For more information, see [SLA duration types](../concept/c_SLADuration.md).
 
 </td></tr><tr><td>
 
@@ -131,7 +131,7 @@ Duration
 
 </td><td>
 
-Specify the length of time the SLA runs before it is marked **Breached**. This field appears when the duration is **User specified duration**.**Note:** The number of days specified in this field is converted to 24-hour blocks. If the **Schedule** field identifies a schedule with eight-hour days, a duration of **1 Day** sets the SLA to breach three business days later.
+The length of time the SLA runs before it is marked **Breached**. This field appears when the duration is **User specified duration**.**Note:** The number of days specified in this field is converted to 24-hour blocks. If the **Schedule** field identifies a schedule with eight-hour days, a duration of **1 Day** sets the SLA to breach three business days later.
 
 </td></tr><tr><td>
 
@@ -139,7 +139,9 @@ Relative duration works on
 
 </td><td>
 
-Specify the record that the relative duration should be calculated for. Select either **Task record** or **SLA record**. This field appears only when the relative duration is specified.
+The record that the relative duration should be calculated for. The working hours, date and time zone recorded for relative duration are dependent on either the schedule of related **Task record** or the defined **SLA record**.
+
+This field appears only when the relative duration is selected in Duration type field. For more information, see [SLA duration types](../concept/c_SLADuration.md).
 
 </td></tr><tr><td>
 
@@ -147,14 +149,14 @@ Schedule source
 
 </td><td>
 
-Specify the schedule to be used when creating task SLAs. You can specify one of the following options:-   **No schedule**: If the **No Schedule** option is selected, the SLA calculates the schedule duration based on a 24 x 7 schedule.
--   **SLA definition**: If the **SLA definition** option is selected, the **Schedule** choice list appears.
+The schedule to be used when creating task SLAs. You can specify one of the following options:-   **No schedule**: If the **No Schedule** option is selected, the SLA calculates the schedule duration based on a 24 x 7 schedule.
+-   **SLA definition**: If the **SLA definition** option is selected, the **Schedule** list appears.
 
 **Schedule**: Specify the hours during which the SLA timer runs.
 
 -   **Task field**: This option title is determined from the option selected in the Table field, for example, if the Incident option is selected in the Table field, this option becomes the Incident field. If the **Task table field** option is selected, the **Schedule source field** list appears.
 
-Schedule source field: Select the appropriate field from the task such as an incident or problem that provides the schedule. For example, **Configuration item** &gt; **Schedule**.
+**Schedule source field**: Select the appropriate field from the task such as an incident or problem that provides the schedule. For example, **Configuration item** &gt; **Schedule**.
 
 </td></tr><tr><td>
 
@@ -162,15 +164,15 @@ Timezone Source
 
 </td><td>
 
-Specify the time zone source to be used when creating task SLAs. You can specify one of the following time zones:-   **The caller's timezone**.
--   **The SLA definition's timezone**: If the **The SLA definition's timezone** option is selected, the **Timezone** choice list appears.
+The time zone source to be used when creating task SLAs. One of the following time zones can be specified:-   **The caller's timezone**.
+-   **The SLA definition's timezone**: If the **The SLA definition's timezone** option is selected, the **Timezone** list appears.
 
 **Timezone**: Specify a time zone for the SLA. The time zone can be the system time zone or active standard geographical time zones.
 
 -   **The CI location's timezone**.
 -   **The task's location's timezone**.
 -   **The caller's location's timezone**.
-
+For more information, see [Time zones in SLAs](../concept/c_TimeZonesInSLAs.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -182,7 +184,7 @@ Start condition
 
 </td><td>
 
-Define the conditions under which the SLA is attached. From the **When to cancel** list, you can choose the conditions under which the SLA is canceled.
+Defines the conditions under which the SLA is attached. From the **When to cancel** list, you can choose the conditions under which the SLA is canceled.
 
 -   **Start conditions are not met** option: If one or more of the specified start conditions change, the SLA is canceled. This option is selected by default.
 -   **Cancel conditions are met** option: The start condition must be met only once, thereafter the SLA is canceled only when the cancel condition is met.
@@ -212,7 +214,7 @@ Stop condition
 
 </td><td>
 
-Define the conditions under which the SLA completes. If all these conditions match, then the task SLA completes regardless of whether it is breached.
+Defines the conditions under which the SLA completes. If all these conditions match, then the task SLA completes regardless of whether it is breached.
 
 </td></tr><tr><td>
 

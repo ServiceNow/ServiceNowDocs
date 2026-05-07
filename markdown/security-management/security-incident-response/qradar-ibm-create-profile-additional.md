@@ -25,15 +25,15 @@ Role required: sn\_si.admin
 
 2.  Follow the instructions below to complete the configuration for updating offenses when the security incident is created.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d255493e72">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d259778e72">
 
 Option or Field
 
-</th><th align="left" id="d255493e75">
+</th><th align="left" id="d259778e75">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d255493e81">
+</th></tr></thead><tbody><tr><td id="d259778e81">
 
 **Update Offenses upon SIR Incident Creation**
 
@@ -41,7 +41,7 @@ Description
 
 Select this option if you want to update the offense status and add additional comments when a security incident is created from the offense. This can occur for both the initial triggering offenses that create the security incident, as well as aggregated offenses.
 
-</td></tr><tr><td id="d255493e90">
+</td></tr><tr><td id="d259778e90">
 
 **Initial Offense Status Update**
 
@@ -51,7 +51,7 @@ You can select:-   Open: The status of the offense is set to **Open** and a comm
 -   Hidden: The status of the offense is set to **Hidden** and this offense is hidden in the IBM QRadar dashboard.
 
 
-</td></tr><tr><td id="d255493e117">
+</td></tr><tr><td id="d259778e117">
 
 **Initial Comments posted back to Offense**
 
@@ -59,7 +59,7 @@ You can select:-   Open: The status of the offense is set to **Open** and a comm
 
 Based on the stage you have selected, the initial comments as defined in the IBM QRadar console are displayed here.
 
-</td></tr><tr><td id="d255493e129">
+</td></tr><tr><td id="d259778e129">
 
 **Pull Closed Offenses**
 
@@ -69,7 +69,7 @@ Select this option if you want the integration to fetch **Closed** offenses from
 
 By default, closed offenses are ignored and open offenses are retrieved from IBM QRadar during polling.
 
-</td></tr><tr><td id="d255493e156">
+</td></tr><tr><td id="d259778e156">
 
 **Close out offenses upon SIR Incident Closure**
 
@@ -77,7 +77,7 @@ By default, closed offenses are ignored and open offenses are retrieved from IBM
 
 Select this option if you want to use the automated offense closure option. When the security incident is closed in ServiceNow with a relevant close code, the offense status is updated in IBM QRadar to **Closed** with closure comments. **Note:** The close code specified for the security incident must correspond to the closing reason specified in the IBM QRadar dashboard. The offense is closed in IBM QRadar only if a corresponding closing reason is found. If a corresponding reason is not found, the offense is closed with a default close code.
 
-</td></tr><tr><td id="d255493e183">
+</td></tr><tr><td id="d259778e183">
 
 **Closure Comments Posted back to Offense**
 
@@ -85,7 +85,7 @@ Select this option if you want to use the automated offense closure option. When
 
 The closure comments as defined in the IBM QRadar dashboard are displayed here.
 
-</td></tr><tr><td id="d255493e195">
+</td></tr><tr><td id="d259778e195">
 
 **Default closing reason when security incident closes**
 

@@ -14,7 +14,7 @@ breadcrumb: [Agent management, Use, Manufacturing Commercial Operations]
 The Agents workspace enables you to create and view remediation action plans.
 
 -   **[Create a remediation action plan](mco-create-remediation-action-plan.md)**  
-a the remediation action plan for product quality investigation case.
+Create a remediation action plan for product quality investigation case.
 
 **Parent Topic:**[Agent management](mco-agent-management.md)
 

@@ -1,37 +1,39 @@
 ---
 title: View assistants
-description: View and mange all existing chat and voice assistants on your instance.
+description: View and manage all existing chat and voice assistants on your instance.
 locale: en-US
 release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [Now Assist, Virtual Agent, LLM, Large language model]
 breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
 # View assistants
 
-View and mange all existing chat and voice assistants on your instance.
+View and manage all existing chat and voice assistants on your instance.
 
 ## Before you begin
 
 See [Configuring assistants overview](configure-now-assist-va.md).
 
-To view the **Assistants** tab in Assistant Designer, verify that the Now Assist for Platform plugin and/or the Now Assist for Creator plugin is installed. The plugins come with Now Assist products such as Now Assist for ITSM, Now Assist for CSM, and others.
+To view the **Assistants** tab in Assistant Designer, verify that the Now Assist for Platform plugin is installed. The plugin comes with Now Assist products such as Now Assist for ITSM, Now Assist for CSM, and others.
 
 **Note:**
 
 -   With the Now Assist for Platform plugin, you can see all Now Assist in Virtual Agent and Now Assist panel assistants.
 -   If you only have the Now Assist for Creator plugin installed, only the Now Assist panel - Developer assistant is shown.
+-   When the **com.snc.ex\_ai\_portal** \(Employee Slate\) app is installed, the default Employee Slate assistant is available, and it is automatically displayed with Employee Slate, a portal-based employee experience. For more information, see [Employee Slate](https://www.servicenow.com/docs/access?context=employee-slate-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
 
-|Assistant type|Activate|Deactivate|Edit|Test|Delete|
-|--------------|--------|----------|----|----|------|
+|Default assistants|Activate|Deactivate|Edit|Test|Delete|
+|------------------|--------|----------|----|----|------|
 |Now Assist in Virtual Agent \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist panel - Platform \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist - Developer|Yes|Yes|Yes|Yes|No|
+|Employee Slate assistant \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist Voice Deployment|Yes|Yes|Yes|No|No|
 
 Role required: virtual\_agent\_admin or admin
@@ -40,7 +42,7 @@ Role required: virtual\_agent\_admin or admin
 
 By default, chat assistants and voice assistants are shown as cards. Voice assistants show a voice label and icon on the card. Voice assistants can only be edited. They can’t be tested in Assistant Designer at the moment.
 
-![View chat and voice assistants in card view.](../image/NAinVA-card-view-122025.png "Assistant card view")
+![View chat and voice assistants in card view.](../image/NAinVA-employee-slate-052026.png "Assistant card view")
 
 Assistants are shown in card view and in map view.
 
@@ -58,7 +60,7 @@ Assistants are shown in card view and in map view.
         -   Edit triggers the assistant edit flow, but all fields are read-only.
     -   Assistants from the global domain can be edited, activated, deactivated, or deleted as long as you're in the global domain. To switch domains, open a new browser tab and navigate to anywhere that has Unified Navigation and select the globe icon to switch domains. For more information, see [Exploring Next Experience pickers](https://www.servicenow.com/docs/access?context=next-experience-pickers&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). If the domain plugin is installed, these options are available:
         -   **Domain scope: Default** determines the domain that you are in.
-        -   **Application scope: Global** determines the store app pr plugin scope that you are in.
+        -   **Application scope: Global** determines the store app or plugin scope that you are in.
         -   **Update set: Default \[Global\]** determines where updates are made on the instance are saved.
     -   For more information on domain separation, see [Exploring domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
@@ -97,12 +99,15 @@ To change the LLM provider for all assistants on the instance, select **Customiz
 6.  [Display your chat assistant on a portal, channel, or mobile app](display-assistant-portal-channel.md).
 7.  For Now Assist panel assistants, see [Display your assistant on Platform or ServiceNow Studio](display-nap-assistant.md).
 8.  [Brand an assistant](brand-assistant.md).
-9.  [Manage an assistant chat experience](manage-assistant-chat-experience.md).
-10. [Enable additional chat features](additional-chat-features.md).
+9.  [Enable additional chat features](additional-chat-features.md).
+10. [Manage an assistant chat experience](manage-assistant-chat-experience.md).
 11. [Review chat assistant settings](review-assistant-settings.md).
 12. [Test a chat assistant](test-assistant.md).
 13. [Edit a chat assistant](edit-assistant.md).
+14. [Manage response feedback](manage-sentiment-survey.md).
 4.  To set up your voice assistant, see [Create a voice assistant](configure-voice-assistants.md).
+
+    To test your voice assistant, see [Test a voice assistant](test-a-voice-assistant.md).
 
 5.  Select the ellipsis to activate, deactivate, or delete an assistant.
 

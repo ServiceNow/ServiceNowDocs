@@ -81,7 +81,7 @@ Equipment owner
 |Task differentiation|Distinguishes between forecasted and completed tasks.|
 |Expiration capability|Automatically expires unused standards.|
 |Offset flexibility|Supports flexible scheduling to accommodate production changes.|
-|Incomplete schedule indicator|Flags schedules with missing configuration using the icon \(![image.incomplete-schedule-icon]\). Hovering over the icon displays the message "Schedule has incomplete configuration."|
+|Incomplete schedule indicator|Flags schedules with missing configuration using the icon \(![Incomplete schedule icon.](../image/incomplete-schedule-icon.png)\). Hovering over the icon displays the message "Schedule has incomplete configuration."|
 
 **Parent Topic:**[Scheduling standards](scheduling-standards.md)
 

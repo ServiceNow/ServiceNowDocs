@@ -15,6 +15,10 @@ breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Complian
 
 Use the request workflow in the Compliance Case Management application to raise and manage compliance requests within an organization. By using this workflow, your compliance requests are addressed effectively and efficiently by your compliance team.
 
+The following diagram shows the workflow of a compliance request in the GRC: Compliance Case Management application.
+
+![Workflow of a compliance request.](../image/compliance-request-workflow.png "GRC: Compliance Case Management workflow")
+
 The different stages of a compliance request are described as follows:
 
 -   Raise a compliance request

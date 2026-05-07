@@ -648,11 +648,11 @@ Lifecycle phase
 
 </td><td>
 
-Phase of the life cycle.-   **General Availability**
--   **End of Sale**
--   **End of Support**
--   **End of Extended Support**
--   **End of Life**
+Phase of the life cycle for a hardware model.-   **General Availability:** The date when the hardware becomes generally available through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. The hardware is considered current/active and receiving support from the manufacturer.
+-   **End of Sale:**The last date to order the hardware through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. After end of sale date, the hardware is no longer available for sale.
+-   **End of Support**: The last date upon which the manufacturer provides standard/regular support for the hardware as entitled by active service contracts. After this date, the manufacturer may continue to provide active support for certain issues in a limited capacity, the scope of which may vary across different manufacturers according to their lifecycle and/or support policies.
+-   **End of Extended Support:** Up until this date, the manufacturer extends limited support for the hardware \(after standard/regular support expires\), for a defined period according to manufacturer policy.
+-   **End of Life:**The date which indicates the hardware is at the end of its useful life \(from the manufacturer’s point of view\). The manufacturer stops marketing, selling, or sustaining the hardware.
 
 </td></tr><tr><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Scheduling in Workforce Optimization for Customer Service
+title: Schedule in Workforce Optimization for Customer Service
 description: By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 locale: en-US
 release: australia
@@ -8,10 +8,10 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
-# Scheduling in Workforce Optimization for Customer Service
+# Schedule in Workforce Optimization for Customer Service
 
 By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
 

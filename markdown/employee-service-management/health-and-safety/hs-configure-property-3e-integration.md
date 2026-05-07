@@ -6,9 +6,9 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-11-28"
 reading_time_minutes: 1
-breadcrumb: [3E integration, Integration with third party services, Health and Safety, Employee Service Management]
+breadcrumb: [3E Protect, 3E, Integration with third-party services, Health and Safety, Employee Service Management]
 ---
 
 # Configure the property for 3E integration
@@ -34,5 +34,5 @@ The \[sn\_hs\_connector\_co.3e\_source\] property value is the unique identifier
 3.  Select **Save**.
 
 
-**Parent Topic:**[Integration of 3E with Health and Safety Environmental Management](../concept/hs-integration.md)
+**Parent Topic:**[3E Protect](../../hs-integration-third-party/concept/hs-3e-protect.md)
 

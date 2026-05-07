@@ -29,15 +29,15 @@ You also choose how often you will poll for future tickets that match the ticket
 
 2.  Choose one to schedule how and when tickets are pulled from the Secureworks CTP portal.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d451781e72">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d459723e72">
 
 Option
 
-</th><th align="left" id="d451781e75">
+</th><th align="left" id="d459723e75">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d451781e81">
+</th></tr></thead><tbody><tr><td id="d459723e81">
 
 **Ongoing ticket ingestion selected**
 
@@ -45,7 +45,7 @@ Description
 
 Based on the default setting, the ServiceNow AI Platform instance pulls from the Secureworks CTP portal for new tickets every five minutes. Security incidents are created if tickets are found and incident generation filtering criteria are matched. To balance ticket ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d451781e99">
+</td></tr><tr><td id="d459723e99">
 
 **-   Ongoing ticket ingestion selected
 -   Set initial ticket ingestion time

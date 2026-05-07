@@ -15,6 +15,8 @@ breadcrumb: [Test generation references, Test generation, Use generative AI, Now
 
 Leverage the full potential of Test generation by following these design considerations.
 
+Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Test generation records and components
 
 Test generation application has the following records and components.

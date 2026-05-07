@@ -126,7 +126,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 10. You have the following choices available to you during this step.
 
-<table id="choicetable_ats_cqp_vvb"><tbody><tr><td id="d45657e379">
+<table id="choicetable_ats_cqp_vvb"><tbody><tr><td id="d48288e379">
 
 **Batch map fields using Automap**
 
@@ -134,7 +134,7 @@ Maximum number of digits to allow in the record number. This value determines th
 
 Select **Automap** to automatically map your spreadsheet fields to displayed fields in the selected target table. Automap maps source entities to similarly named target entities. For a target entity that has already been mapped, selecting **Automap** doesn't change its value. An automapped field has a wand icon on its data pill.
 
-</td></tr><tr><td id="d45657e394">
+</td></tr><tr><td id="d48288e394">
 
 **Map fields by dragging and dropping**
 
@@ -142,7 +142,7 @@ Select **Automap** to automatically map your spreadsheet fields to displayed fie
 
 Map fields from your import to your target table by dragging data pills representing columns in the imported spreadsheet to the **Value** column in the target table. You can also map fields by using the pill picker to the right of each target table field.
 
-</td></tr><tr><td id="d45657e409">
+</td></tr><tr><td id="d48288e409">
 
 **Map fields using the data picker**
 
@@ -150,7 +150,7 @@ Map fields from your import to your target table by dragging data pills represen
 
 Map data by using the pill picker \(![Pill picker.](../../../administer/integrationhub/images/pill-picker-green.png)\) on the right side of the target table. You can enter more than one value in the **Value** column, you can also enter text.
 
-</td></tr><tr><td id="d45657e430">
+</td></tr><tr><td id="d48288e430">
 
 **Add transform options**
 
@@ -160,7 +160,7 @@ Add transform options for each of the individual mapped spreadsheet fields by cl
 
 **Note:** Not all the transform functions available in Flow Designer are available.
 
-</td></tr><tr><td id="d45657e454">
+</td></tr><tr><td id="d48288e454">
 
 **Activate data record matching**
 
@@ -172,7 +172,7 @@ Specify fields where the system should check for matching data and, if found, up
 -   If the **Match** toggle switch for the **Order number** field is off, the system doesn't check for matching data. If the source data has a record with the same order number, the system creates a new record in the target table. In this case, the target table will have two records, both with an order number of 743.
 
 
-</td></tr><tr><td id="d45657e493">
+</td></tr><tr><td id="d48288e493">
 
 **Configure reference and choice field behavior**
 
@@ -187,7 +187,7 @@ Configure behavior for **Choice** and **Reference** field types.1.  Click the ge
 4.  Click **Done**.
 
 
-</td></tr><tr><td id="d45657e555">
+</td></tr><tr><td id="d48288e555">
 
 **Add new field columns to target table**
 

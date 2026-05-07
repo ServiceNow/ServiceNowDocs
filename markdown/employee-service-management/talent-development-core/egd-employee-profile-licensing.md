@@ -17,7 +17,7 @@ Talent Development Core uses the Employee Profile licensing feature to license u
 
 ## Before you begin
 
-Role required: sn\_employee.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## Procedure
 

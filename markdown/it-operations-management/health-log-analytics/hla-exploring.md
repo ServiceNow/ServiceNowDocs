@@ -118,12 +118,12 @@ The diagram shows the Health Log Analytics workflow from collecting the data thr
 
 |Benefit|Feature|User|
 |-------|-------|----|
-|Simplify data input setup using the guided setup.|[Guided setup](../task/hla-data-input-setup-guided.md)|Administrator|
+|Use predictiveLog Analytics alerts to handle emerging IT issues before they escalate and impact users.|[Analyzing and resolving Log Analytics alerts](../../health-log-analytics-operator/concept/hla-analyzing-resolving-hla-alert.md)|Operator|
 |Set up log data connector integrations quickly and conveniently from the Integrations Launchpad.|[Log data connector integrations](hla-data-input-setup-integrations.md)|Administrator|
 |Shorten onboarding time by installing content packs.|[Content packs](hla-content-packs.md)|Administrator|
 |Save time and reduce errors by migrating data input configurations between instances.|[Data input migration](hla-data-input-migration.md)|Administrator|
 |Identify the root cause of an alert by analyzing the logs that surround the anomaly.|[Surrounding logs](../../health-log-analytics-operator/concept/hla-op-surrounding-logs-view-concept.md)|Operator|
-|Visualize anomalous log data on the Log viewer.|[Log viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept.md)|Operator|
+|Visualize anomalous log data.|[Log viewer](../../health-log-analytics-operator/concept/hla-op-logs-log-viewer-concept.md)|Operator|
 |Detect relationships in log data.|[Log correlators](../../health-log-analytics-operator/concept/hla-op-correlator-what-is-a.md)|Operator|
 |Assign higher or lower significance to alerts.|[Mute alert metrics](../../health-log-analytics-operator/concept/hla-op-alert-significance.md)|Operator|
 |Reduce noise by creating log filters.|[Log alert filters](../../health-log-analytics-operator/concept/hla-op-adv-alert-filtering.md)|Operator|

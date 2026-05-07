@@ -41,15 +41,15 @@ If you’re creating a cost plan for a demand with the PPM Standard Multicurrenc
 
     **Note:** If the **Cost Plans** tab isn’t visible, select **More** and then select **Cost Plans**.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d194390e136">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d190314e136">
 
 Choice
 
-</th><th align="left" id="d194390e139">
+</th><th align="left" id="d190314e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d194390e145">
+</th></tr></thead><tbody><tr><td id="d190314e145">
 
 **To create a cost plan**
 
@@ -63,7 +63,7 @@ For a description of the field names, see [Create cost plan form](../reference/c
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d194390e181">
+</td></tr><tr><td id="d190314e181">
 
 **To edit a cost plan**
 
@@ -71,7 +71,7 @@ For a description of the field names, see [Create cost plan form](../reference/c
 
 Select the name of the cost plan, edit the required details and select **Save**.
 
-</td></tr><tr><td id="d194390e193">
+</td></tr><tr><td id="d190314e193">
 
 **To view and manage cost plan breakdowns**
 
@@ -84,7 +84,7 @@ Select the name of the cost plan, edit the required details and select **Save**.
     -   To delete a fiscal record, select **Delete** from the More Actions option in the fiscal period record form.
 
 
-</td></tr><tr><td id="d194390e231">
+</td></tr><tr><td id="d190314e231">
 
 **To create cost plan breakdowns**
 
@@ -96,7 +96,7 @@ Select the name of the cost plan, edit the required details and select **Save**.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d194390e272">
+</td></tr><tr><td id="d190314e272">
 
 **To delete a cost plan**
 

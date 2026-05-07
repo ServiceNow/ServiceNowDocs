@@ -15,6 +15,8 @@ breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 
 As the Service Mapping administrator, you support companies in their efforts to map and maintain critical application services so that they remain service-aware.
 
+-   **[AI capabilities in Service Mapping](ai-workflows-service-mapping.md)**  
+Service Mapping AI capabilities helps Service Mapping Administrators speed-up mapping processes and manage team flows more efficiently.
 -   **[Create a service instance from various data sources](../task/unified-map-create-service-instance.md)**  
 Search for mapped and unmapped services to unify. The flow is available using the Service Mapping workspace.
 -   **[Edit a unified service](../task/unified-map-edit-unified-service.md)**  

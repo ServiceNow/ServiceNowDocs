@@ -28,7 +28,6 @@ New hardening settings have been released with Security Center baseline version 
 -   [Restrict Global App Development by Role](../reference/sc-restrict-global-app-development-by-role.md)
 -   [Enable ACLs for Encoded Query in Simple List Widget](../reference/sc-enable-acls-for-encoded-query-in-simple-list-widget.md)
 -   [Invalidate Session After OAuth Token Expiration \[New in Security Center 2.0\]](../reference/sc-invalidate-session-after-oauth-token-expiration.md)
--   
 -   [Restrict Impersonation to Admin](../reference/sc-restrict-impersonation-to-admin.md)
 
 **Parent Topic:**[New hardening settings](hardening-settings-new.md)

@@ -51,7 +51,7 @@ You can order different types of risk intelligence reports such as credit risk r
 
     **Note:** You can create a risk intelligence request through the third-party record page with the following actions.
 
-    1.  In Vendor Management Workspace, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **All third parties**.
+    1.  In Vendor Management Workspace, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **All third parties**.
     2.  Select the relevant third party to get to the third-party record page.
     3.  On the **Risk Intelligence report request** tab, select **New** and specify the **Provider** and **Request type**.
     4.  Select **Save**.

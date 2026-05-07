@@ -1,23 +1,23 @@
 ---
-title: AIOps LEAP settings fields
-description: AIOps LEAP settings page field values helps estimate cost and time savings when automation is used. The default values can be modified as per your organizational requirement for savings calculations.
+title: LEAP settings fields
+description: LEAP settings page field values help estimate cost and time savings when automation is used. These settings support cost predictability with the fixed pricing model.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-14"
 reading_time_minutes: 1
-breadcrumb: [AIOps LEAP reference, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# AIOps LEAP settings fields
+# LEAP settings fields
 
-AIOps LEAP settings page field values helps estimate cost and time savings when automation is used. The default values can be modified as per your organizational requirement for savings calculations.
+LEAP settings page field values help estimate cost and time savings when automation is used. These settings support cost predictability with the fixed pricing model.
 
 ## LEAP settings fields
 
-<table id="table_ory_tlf_nhc"><thead><tr><th>
+<table><thead><tr><th>
 
 Field name
 
@@ -47,7 +47,7 @@ Overhead factor for P1 records
 
 </td><td>
 
-Overhead factors are multipliers that are used for high-priority incidents and represent hidden costs. Priority 1 incidents often require more coordination, communication, and escalation—beyond just the direct work notes. For P1 incidents, the base cost is multiplied by 1.8 to reflect the additional impact.
+Overhead factors are multipliers that are used for high-priority incidents and represent hidden costs. Priority 1 incidents often require more coordination, communication, and escalation — beyond just the direct work notes. For P1 incidents, the base cost is multiplied by 1.8 to reflect the additional impact.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Groups with resolution steps in initial run
 
 </td><td>
 
-This value specifies the number of groups for which resolution steps are generated in the first run of AIOps LEAP.
+This value specifies the number of groups for which resolution steps are generated in the first run of LEAP.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Minimum incident-to-group ratio for remapping eligibility
 
 </td><td>
 
-AIOps LEAP can remap incidents to better groups when improved patterns are observed. This ratio determines the minimum incident-to-group size needed for remapping eligibility. Higher values means more selective remapping.
+LEAP can remap incidents to better groups when improved patterns are observed. This ratio determines the minimum incident-to-group size needed for remapping eligibility. Higher values means more selective remapping.
 
 </td></tr></tbody>
 </table>

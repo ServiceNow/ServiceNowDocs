@@ -17,6 +17,10 @@ You can use the Virtual Agent API to integrate many of the same features that ar
 
 For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see [Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
 
+## Version 4.3.0
+
+**Support for premium chat in Virtual Agent API**
+
 ## Version 4.1.1
 
 **Support for synthesized response in Virtual Agent API**

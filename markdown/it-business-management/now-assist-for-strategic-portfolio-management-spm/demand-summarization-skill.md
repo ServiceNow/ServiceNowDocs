@@ -1,6 +1,6 @@
 ---
 title: Summarize demands with the demand summarization skill
-description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 locale: en-US
 release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
@@ -14,7 +14,7 @@ breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now As
 
 # Summarize demands with the demand summarization skill
 
-Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 
 This video explains how you can summarize your demand records using Now Assist for SPM in Next Experience for Demand Management. 
 
@@ -30,15 +30,15 @@ If you have custom roles that require access to this skill, update the ACLs \(ac
 
 1.  Access a demand record in one of the following ways.
 
-<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d185941e120">
+<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d181852e120">
 
 Option
 
-</th><th align="left" id="d185941e123">
+</th><th align="left" id="d181852e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d185941e129">
+</th></tr></thead><tbody><tr><td id="d181852e129">
 
 **Demand in Next Experience for Demand Management**
 
@@ -49,7 +49,7 @@ Steps
 3.  Navigate to the **Details** tab.
 
 
-</td></tr><tr><td id="d185941e170">
+</td></tr><tr><td id="d181852e170">
 
 **Demand in classic Demand Management**
 

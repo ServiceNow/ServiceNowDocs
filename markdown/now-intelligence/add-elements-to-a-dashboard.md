@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -49,6 +49,8 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 -   **[Add Workbench widgets to an in-line dashboard](add-workbench-dashboard.md)**  
 You can place Core UI workbench widgets on an inline dashboard. They are added in compatibility mode.
+-   **[Add the Now Assist Context Menu](add-nacm.md)**  
+Use the NACM to enable viewers of a dashboard to generate a summary of the contents of a dashboard or dashboard tab.
 
 **Parent Topic:**[Edit Platform Analytics dashboards](edit-db-in-ac.md)
 

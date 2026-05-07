@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 11
 ---
 
 # Strategic Planning release notes
@@ -16,7 +16,7 @@ The ServiceNow® Strategic Planning application helps you accomplish end-to-end 
 
 -   Create and manage demands from the Next Experience for Demand Management in Strategic Planning. Guide demand managers and users through predefined stages and actions for each demand process using Playbooks in Next Experience for Demand Management.
 -   Link AI systems to a demand using a playbook activity in Next Experience for Demand Management. Generate a concise summary of a demand using the demand summarization skill.
--   Use boards in Strategy and Goals to group and manage strategic priorities and objectives for your organization.
+-   Use boards in Strategy and Goals to group and manage strategic priorities and objectives for your organization. Use the goal insights skill to generate insights for goals to gain predictive, actionable visibility into goal health.
 -   Send notifications to target owners or contributors to ensure timely updates of target actuals. Define targets across multiple organizational levels with the Assigned entity field in the target form.
 -   Consistent financial reporting across all baselines by support of investment currency on migrated financial baselines.
 -   Simplified user experience and focus on investment level financials view on investment currency fields for new customers. Complete and accurate currency data in all financial baselines for existing customers are now upgraded to include investment currency values.
@@ -26,6 +26,20 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
 **Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **Epic status assessment**
+
+    Automatically evaluate epic health across six risk dimensions using the Epic status assessment skill in Enterprise Agile Planning. Now Assist analyzes story health, blocked stories, dependencies, progress, timeline, and ownership to return a red, yellow, or green status with plain-English reasoning. Portfolio managers can quickly assess epic risks without manually reviewing stories, timelines, and assignments by selecting the **Epic status** button on the epic record page.
+
+-   **[AI-generated insights for portfolio plans](https://www.servicenow.com/docs/access?context=view-portfolio-insights&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+    Gain AI-generated insights for planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
+
+    Users with the sn\_align\_core.apw\_admin role assigned can configure severity scoring for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
+
+-   **[Story generation for epics in Agile Development 2.0 and EAP](https://www.servicenow.com/docs/access?context=generate-stories-quickly-for-eap-and-agile-2-0&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+    Generate a complete user story, including title, description, and acceptance criteria, directly from an epic instead of creating one. By providing one or two lines of context, you can generate a story and edit inline before saving. This skill is available in both Agile Development 2.0 and EAP.
 
 -   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
@@ -64,6 +78,10 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
         -   As the goal or process owner, send notifications to target owners or contributors to ensure timely updates of target actuals.
         -   Target owners and contributors receive reminder notifications for check-in updates before the due date.
         -   With Now Assist for Strategic Portfolio Management \(SPM\), generate measurable targets for your goals to reduce the effort of defining clear success criteria, and gain actionable insights to identify at‑risk goals, assess forecasted status, and act on AI‑driven recommendations.
+-   **[AI-generated insights for goals](https://www.servicenow.com/docs/access?context=generate-insights-for-goal&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+    -   Generate AI‑powered insights using the goal insights skill to gain predictive, actionable visibility into goal health. By analyzing the goal, goal targets, subgoals, and aligned work, the system delivers data‑driven insights that help goal owners and contributors manage risks proactively and improve goal outcomes. Insights include AI-forecasted status, confidence of achieving the goal, targets at risk, and aligned work or recommendations that have been delayed or stalled.
+    -   View the AI-forecasted status for goals and targets in the grid, generated automatically via the Goal insights generation scheduled job, along with the rationale for the generated status.
+    -   Configure run frequency and set of goals to run the Goal insights generation scheduled job as need. The job is inactive by default.
 -   **[Portfolio plan goals enhancements](https://www.servicenow.com/docs/access?context=managing-goals-in-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
     -   Owners and contributors are notified when they’re mentioned in a goal, target, or when comments are added.
     -   Define targets across multiple organizational levels with the Assigned entity field in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
@@ -71,6 +89,9 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
     -   Visualize planning items in lanes with the new Kanban tab in the Planning page and access the Hierarchy tab directly from the same location. These tabs replace the previous access point in the Prioritization tab, offering a more streamlined way to view and manage planning items.
     -   Save filter views specific to the Kanban tab and the Hierarchy tab without affecting views in the Prioritization tab.
     -   View planning items in the new Hierarchy tab on the Planning page, now sorted using global rank when available. Drag and drop is supported for lowest‑level items, enabling you to rerank them within their groups.
+    -   Share a portfolio plan using the Copy link option. This provides access to existing users who have access to the portfolio plan.
+    -   Expand or collapse portfolio plan header to maximize screen space while planning.
+    -   Edit the default view within a portfolio plan and save changes using the Save view option.
 -   **[Hierarchy tab for EAP teams](https://www.servicenow.com/docs/access?context=eap-hierarchy-tab&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
     Gain visibility into how your work connects to broader organizational goals by viewing the complete work item hierarchy directly in the EAP workspace. Expand any epic to see its capabilities, features, and stories across Solution Trains, ARTs, and Agile Teams without switching between multiple screens or running separate reports.
@@ -132,6 +153,15 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
 -   **[Hierarchy and List views in Prioritization](https://www.servicenow.com/docs/access?context=managing-backlog-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
     The **Kanban** and **Hierarchy** views have been removed from the Prioritization page and are now available as separate tabs in the Planning page. This change improves navigation by consolidating all planning-related views in one place.
+
+
+## Changed in this release
+
+[Australia Patch 2](../quality/australia-patch-1.md)
+
+-   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+    The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
 
 
 ## Activation information

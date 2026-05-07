@@ -42,5 +42,5 @@ Starting from Tokyo release, if you intend to associate your Microsoft Teams ten
 4.  Select **Override** to associate the instance with a new tenant.![Microsoft Teams override installation.](../images/msteams-new-override.png)
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](../concept/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](va-integ-msteams.md)
 

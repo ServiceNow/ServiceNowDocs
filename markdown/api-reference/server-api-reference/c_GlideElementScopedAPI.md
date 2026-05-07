@@ -1,13 +1,13 @@
 ---
 title: GlideElement - Scoped
-description: The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Indicates whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Returns the value of the specified attribute from the dictionary.Returns the Boolean value of the specified attribute from the dictionary.Returns the choice list for a specified field.Returns the choice label for the current choice.Returns the clear text value for Password \(2 way encrypted\) fields in scoped applications.Returns the formatted display value of a specified field from an associated GlideRecord object.Gets the display value of the field in the language passed as a parameter.Returns the field's element descriptor.Returns the phone number in international format.Returns the HTML value of a field.Returns either the most recent journal entry or all journal entries.Returns the object label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Gets the table name for a reference element.Returns a GlideRecord object for a given reference element.Returns the name of the table on which the field resides.Returns the value of a specified field from a GlideRecord object.Determines if a field is null.Sets the value of a date/time element to the specified number of milliseconds since January 1, 1970 00:00:00 GMT.Sets the display value of the field.Adds an error message. Available in Fuji patch 3.Sets the field to the specified phone number.Sets the value of a field.Converts the value of a GlideRecord field to a string.
+description: The scoped GlideElement API provides a number of convenient script methods for dealing with fields and their values. Scoped GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Indicates whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Returns the value of the specified attribute from the dictionary.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Returns the choice list for a specified field.Returns the choice label for the current choice.Returns the clear text value for Password \(2 way encrypted\) fields in scoped applications.Returns the formatted display value of a specified field from an associated GlideRecord object.Gets the display value of the field in the language passed as a parameter.Returns the field's element descriptor.Retrieves the platform object associated with the field's value.Returns the phone number in international format.Returns the HTML value of a field.Returns either the most recent journal entry or all journal entries.Returns the object label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Gets the table name for a reference element.Returns a GlideRecord object for a given reference element.Returns the name of the table that contains the field.Returns the value of a specified field from a GlideRecord object.Determines if a field is null.Sets the value of a date/time element to the specified number of milliseconds since January 1, 1970 00:00:00 GMT.Sets the display value of the field.Adds an error message to the associated field.Sets the field to the specified phone number.Sets the value of a field.Converts the value of a GlideRecord field to a string.
 locale: en-US
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 20
+reading_time_minutes: 21
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -266,41 +266,46 @@ Output:
 
 Returns the value of the specified attribute from the dictionary.
 
-If the attribute is a boolean attribute, use getBooleanAttribute\(String\) to get the value as a boolean rather than as a string.
+For Boolean attributes, you can use the getBooleanAttribute\(\) method to return the value as a Boolean instead of a string.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|Attribute name|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
 |Type|Description|
 |----|-----------|
-|String|Attribute value|
+|String|Value of the specified attribute.|
+
+The following example shows how to get the value of the **tree\_picker** attribute in the **location** column of the User \[sys\_user\] table as a string.
 
 ```
-doit();
-function doit() {
-  var now_GR = new GlideRecord('sys_user');
-  now_GR.query("user_name","admin");
-  if (now_GR.next()) {
-    gs.info("we got one");
-    gs.info(now_GR.location.getAttribute("tree_picker"));
-  }
+var now_GR = new GlideRecord('sys_user');
+now_GR.query("user_name","admin");
+
+if (now_GR.next()) {
+   gs.info("The value of the tree_picker attribute in the location column is " + now_GR.location.getAttribute("tree_picker"));
 }
+```
+
+Output:
+
+```
+The value of the tree_picker attribute in the location column is true
 ```
 
 ## Scoped GlideElement - getBooleanAttribute\(String attributeName\)
 
-Returns the Boolean value of the specified attribute from the dictionary.
+Returns a specified Boolean-type attribute from the dictionary as a Boolean value.
 
-To get the value as a string, use getAttribute\(string\).
+To return the attribute value as a string, use the getAttribute\(\) method.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|Attribute name|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
 |Type|Description|
 |----|-----------|
-|Boolean|Boolean value of the attribute. Returns false if the attribute does not exist.|
+|Boolean|Specifies the value of the attribute as Boolean true or false.|
 
 The following example shows how to get Boolean values of the **ignore\_filter\_on\_new** attribute for two fields.
 
@@ -550,6 +555,65 @@ grInc.query('priority', '1');
  
 var field = grInc.getElement('priority');
 var ed = field.getED();
+```
+
+## Scoped GlideElement - getGlideObject\(\)
+
+Retrieves the platform object associated with the field's value.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|Object|A platform object corresponding to the field's data type, such as GlideDateTime. You can use this object for type-specific operations on the value. For example, date arithmetic, formatting, and timezone conversions that are not available when accessing the field value as a plain string.|
+
+The following example shows how to calculate the duration between the opened date and Service Level Agreement \(SLA\) due date of an incident record.
+
+```
+// Query an incident record with both opened_at and sla_due populated
+var incGr = new GlideRecord('incident');
+incGr.addQuery('opened_at', '!=', '');
+incGr.addQuery('sla_due', '!=', '');
+incGr.setLimit(1);
+incGr.query();
+
+if (incGr.next()) {
+    gs.info("Incident: " + incGr.getValue('number'));
+    gs.info("Opened at: " + incGr.getValue('opened_at'));
+    gs.info("SLA due: " + incGr.getValue('sla_due'));
+
+    var duration = calcDateDelta(incGr.opened_at, incGr.sla_due);
+    if (duration) {
+        gs.info("Duration in seconds: " + duration.getNumericValue() / 1000);
+        gs.info("Duration display value: " + duration.getDisplayValue());
+    }
+}
+
+function calcDateDelta(start, end) {
+    var realStart = start.getGlideObject();
+    var realEnd = end.getGlideObject();
+
+    // Use GlideDuration to calculate the difference between two GlideDateTime objects
+    var startMS = realStart.getNumericValue();
+    var endMS = realEnd.getNumericValue();
+    var deltaMS = endMS - startMS;
+
+    // Create a GlideDuration from the millisecond difference
+    var duration = new GlideDuration(deltaMS);
+    return duration;
+}
+```
+
+Output:
+
+```
+Incident: INC0000031
+Opened at: 2025-03-06 00:18:03
+SLA due: 2025-03-06 08:18:03
+Duration in seconds: 28800
+Duration display value: 8 Hours
 ```
 
 ## Scoped GlideElement - getGlobalDisplayValue\(\)
@@ -826,7 +890,7 @@ if (grUSER.isValidRecord())
 
 ## Scoped GlideElement - getTableName\(\)
 
-Returns the name of the table on which the field resides.
+Returns the name of the table that contains the field.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -834,28 +898,28 @@ Returns the name of the table on which the field resides.
 
 |Type|Description|
 |----|-----------|
-|String|Name of the table. The returned value may be different from the table Class that the record is in. See Tables and Classes in the product documentation.|
+|String|Name of the table that contains the field that is called on. The returned value might be different from the table class that the record is in. For more information, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
 
 ```
 if (current.approver.getTableName() == "sysapproval_approver") {
-  if (current.approver == email.from_sys_id)  {
-     current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
- 
-   // if it's been cancelled, it's cancelled.
-  var doit = true;
-  if (current.state=='cancelled')
-      doit = false;
- 
-  if (email.body.state != undefined)
-     current.state= email.body.state;
- 
-   if (doit)
-      current.update();
-} else {
-   gs.log("Approval for task ("+current.sysapproval.getDisplayValue()+") rejected because user sending 
-           email( "+email.from+") does not match the approver ("+current.approver.getDisplayValue()+")");
-}
- 
+    if (current.approver == email.from_sys_id) {
+        current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
+
+        // if it's been cancelled, it's cancelled.
+        var doit = true;
+        if (current.state == 'cancelled')
+            doit = false;
+
+        if (email.body.state != undefined)
+            current.state = email.body.state;
+
+        if (doit)
+            current.update();
+    } else {
+        gs.log("Approval for task " + current.sysapproval.getDisplayValue() +
+            " rejected because user sending email " + email.from +
+            " does not match the approver " + current.approver.getDisplayValue());
+    }
 }
 ```
 
@@ -990,7 +1054,7 @@ gs.info(glideRecord.urgency);
 
 ## Scoped GlideElement - setError\(String errorMessage\)
 
-Adds an error message. Available in Fuji patch 3.
+Adds an error message to the associated field.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -998,14 +1062,24 @@ Adds an error message. Available in Fuji patch 3.
 
 |Type|Description|
 |----|-----------|
-|void| |
+|None| |
+
+The following example shows how to set an error message on Priority 1 incidents with empty short descriptions.
 
 ```
-var glideRecord = new GlideRecord('incident');
-glideRecord.query('priority','1');
-glideRecord.next();
- 
-glideRecord.short_description.setError('Error text');
+var now_GR = new GlideRecord('incident');
+now_GR.addQuery('priority', '1');
+now_GR.query();
+
+if (now_GR.next()) {
+    var shortDesc = now_GR.short_description.toString();
+
+    if (!shortDesc || shortDesc.trim() === '') {
+        now_GR.short_description.setError(
+            'A short description is required for all Priority 1 incidents. Please provide a brief summary of the issue.'
+        );
+    }
+}
 ```
 
 ## Scoped GlideElement - setPhoneNumber\(Object phoneNumber, Boolean strict\)

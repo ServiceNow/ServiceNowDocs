@@ -7,7 +7,7 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
 ---
 
@@ -366,11 +366,11 @@ Lifecycle phase
 
 </td><td>
 
-Phase of the lifecycle.-   **General Availability**
--   **End of Sale**
--   **End of Support**
--   **End of Extended support**
--   **End of Life**
+Phase of the life cycle for a enterprise model.-   **General Availability:** The date when the enterprise model becomes generally available through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. The enterprise model is considered current/active and receiving support from the manufacturer.
+-   **End of Sale:**The last date to order the enterprise model through the manufacturer’s sales channels, including its worldwide subsidiaries, affiliates, and country distributors. After end of sale date, the enterprise model is no longer available for sale.
+-   **End of Support**: The last date upon which the manufacturer provides standard/regular support for the enterprise model as entitled by active service contracts. After this date, the manufacturer may continue to provide active support for certain issues in a limited capacity, the scope of which may vary across different manufacturers according to their lifecycle and/or support policies.
+-   **End of Extended Support:** Up until this date, the manufacturer extends limited support for the enterprise model \(after standard/regular support expires\), for a defined period according to manufacturer policy.
+-   **End of Life:**The date which indicates the enterprise model is at the end of its useful life \(from the manufacturer’s point of view\). The manufacturer stops marketing, selling, or sustaining the enterprise model.
 
 </td></tr><tr><td>
 

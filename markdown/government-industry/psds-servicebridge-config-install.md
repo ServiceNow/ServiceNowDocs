@@ -59,7 +59,7 @@ Set up a new provider record.
 **Note:** To create a new company record, select \[magnifying glass\] to open the Companies related list, and select **New**. On the form, fill in the fields. Select **Submit** to save and associate the Company record to the Provider record.
 
 
-See [Set up a Service Exchange provider record](https://www.servicenow.com/docs/access?context=service-bridge-v2-new-provider&version=australia&pubname=australia-service-bridge&ft:locale=en-US).**Note:** If a new Company record has not yet been created, navigate to **User Administration** &gt; **Companies** and select **New**. Enter the Company details, then select **Submit**.
+See [Set up a Service Exchange provider record](https://www.servicenow.com/docs/access?context=service-bridge-v2-new-provider&version=australia&pubname=australia-service-exchange&ft:locale=en-US).**Note:** If a new Company record has not yet been created, navigate to **User Administration** &gt; **Companies** and select **New**. Enter the Company details, then select **Submit**.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Assign Service Exchange roles for providers.
 
 </td><td>
 
-See [User roles for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-personas&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+See [User roles for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-personas&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Create catalog personas.
 
 </td><td>
 
-See [Create catalog personas](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-catalog-persona&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+See [Create catalog personas](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-catalog-persona&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Create remote choice definitions.
 
 </td><td>
 
-See [Create remote choice definitions in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-choice-fld-defs&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+See [Create remote choice definitions in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-choice-fld-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Create remote catalog items.
 
 </td><td>
 
-See [Create remote catalogs in Service Exchange for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-catalog&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+See [Create remote catalogs in Service Exchange for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-catalog&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Create remote task definitions.
 
 </td><td>
 
-See [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+See [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Create transforms.
 
 </td><td>
 
-See [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+See [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Update Authorized Users settings.
 
 </td><td>
 
-See [Update settings for authorized users](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-settings&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+See [Update settings for authorized users](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-settings&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>

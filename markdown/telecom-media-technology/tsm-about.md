@@ -13,11 +13,9 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 
 Telecommunications Service Management \(TSM\) unites customer service and network operations on a single AI-powered platform, enabling communication service providers to resolve issues faster, reduce costs, and improve customer satisfaction.
 
-Service and network operations leaders face challenges from organizational silos that create disconnects between teams and customers. Frontline agents handle high volumes of customer requests while back-office teams lack essential information to resolve problems efficiently. This results in slow service, missed SLAs, and strained customer relationships.
+Service and network operations leaders face challenges from organizational silos that create disconnects between teams and customers. Front line agents handle high volumes of customer requests while back-office teams lack essential information to resolve problems efficiently. This results in slow service, missed SLAs, and strained customer relationships.
 
 TSM addresses these challenges by breaking down siloed legacy systems with a unified AI platform that brings together service and network operations. Built-in industry standards, AI capabilities, and integrations enable faster adoption and reduced operational costs.
-
-![TSM workflow diagram showing the process flow](../image/tsm-workflow-mmasset0021665.png)
 
 ## TSM benefits
 
@@ -35,7 +33,7 @@ TSM addresses these challenges by breaking down siloed legacy systems with a uni
     -   Enable rapid onboarding of customers and partners for faster value realization.
     -   Connect the full value chain for unified service and resolution.
     -   Track products and services, notify customers about issues proactively.
-    -   Accelerate ROI with pre-built blueprints to boost engagement and adoption.
+    -   Accelerate ROI with prebuilt blueprints to boost engagement and adoption.
 
 ## TSM capabilities
 
@@ -45,7 +43,6 @@ TSM combines purpose-built applications with CSM and core platform capabilities 
 |-----------|-----|
 |[Now Assist for Telecommunications, Media and Technology \(TMT\)](../../tmt-spmc/reference/now-assist-spmc.md)|Use AI-powered industry workflows to supercharge insights, actions, and self-service experiences.|
 |[Customer Service Problem Management](../../tmt-spmc/reference/cspm-landing-page.md)|Efficiently identify and resolve service problems with a streamlined service management process.|
-|[Strategic Portfolio Management for Telecommunications](../../tmt-spmt/concept/spmt-overview.md)|Deliver business outcomes and value by aligning work to strategy.|
 |[Customer Success Management](../../tmt-account-lifecycle/reference/account-lifecycle-events-landing.md)|Drive adoption, mitigate risk, and maximize customer value with proactive success strategies, real-time health monitoring, and intelligent automation.|
 |[Service Exchange](../../tmt-service-bridge/concept/tmt-service-bridge-both-landing-page.md)|Quickly connect enterprise customers and suppliers running ServiceNow® to optimize work across the value chain.|
 |[Product Support for Technology](../../tmt-assurance-workflows/concept/assurance-workflows.md)|Proactively notify customers of service disruptions and provide real-time resolution tracking.|

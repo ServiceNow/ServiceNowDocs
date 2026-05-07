@@ -33,7 +33,7 @@ To learn more about quick checkout and sourcing checkout processes, see [Order a
 
 Now Assist in Virtual Agent provides your users with an interactive generative Artificial Intelligence \(AI\) experience. A friendly, natural language conversation is easier to understand and makes requesters more comfortable with talking to a bot. To learn how a conversation powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses. For more information, see .
+As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see [Using Now Assist Analytics](https://www.servicenow.com/docs/access?context=using-now-assist-analytics&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 
 For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SPO in particular, see [Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo-exploring.md).
 

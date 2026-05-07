@@ -25,7 +25,7 @@ As the TPR manager, TPR assessor, or owner of the due diligence request, you may
 
 ## Procedure
 
-1.  In the Vendor Management Workspace, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
+1.  In the Vendor Management Workspace, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
 
 2.  Select the relevant **DDR** number.
 

@@ -6,9 +6,9 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Generate onboarding ramp-up plan agentic workflow, Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 4
+breadcrumb: [Generate onboarding ramp-up plan, Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Review and edit onboarding ramp-up plans using Now Assist
@@ -26,15 +26,7 @@ The configuration tasks in the following topics must be completed:
 -   [Set Onboarding ramp up trigger to use Employee Center portal](set-trigger-emp-center.md).
 -   [Activate Onboarding ramp-up trigger](activate-trigger-rampup.md)
 -   [Activate the associated Now Assist skills](turn-on-nowassist-skills.md)
--   [Display AI agent output in Virtual Agent conversations](enable-ai-agent-output-va.md)
--   [Add Employee Center to Now Assist in Virtual Agent](enable-na-va-ec.md)
-
-To trigger this agentic workflow, the **Trigger onboarding rampup agent** scheduled job runs nightly to search for Journey records associated with a new employee's onboarding journey. This scheduled job targets Journey records for new employees who are starting their onboarding journey within five days. Specifically, this scheduled job selects the **Initiate onboarding ai** check box in the Journey record to initiate the agentic workflow when the following conditions are true:
-
--   The **State** field in the Journey record is set to **Ready**.
--   The **Journey accelerator plan type** field in the corresponding Journey Configuration record is set to **Agentic AI Onboarding Plan Type**.
--   The **Type** field in the corresponding Journey Configuration record is set to **Blank** or **Onboarding**.
--   The date in the **Employment start date** field in the HR profile record of the onboarding employee is equal to or greater than the system date by up to the number of days specified in the **sn\_jny.agent\_conversation\_head\_start\_days** property. The default number of days specified in the **sn\_jny.agent\_conversation\_head\_start\_days** property is five.
+-   [Add Employee Center to the Now Assist in Virtual Agent display experience](enable-na-va-ec.md)
 
 Role required: manager
 
@@ -62,15 +54,15 @@ A manager receives a notification from Now Assist in Virtual Agent after they ac
 
 4.  Converse with Now Assist in Virtual Agent to convey the changes you want made to the ramp-up plan.
 
-<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d198515e304">
+<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d202817e234">
 
 Option
 
-</th><th align="left" id="d198515e307">
+</th><th align="left" id="d202817e237">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198515e313">
+</th></tr></thead><tbody><tr><td id="d202817e243">
 
 **Create a stage**
 
@@ -78,7 +70,7 @@ Description
 
 Tell Now Assist in Virtual Agent to add a stage with a title of your choice. You can also add courses or tasks to the stage you’re creating in a single request. For example, type `Create a stage named Data Science` to create a stage titled, "Data Science."
 
-</td></tr><tr><td id="d198515e333">
+</td></tr><tr><td id="d202817e263">
 
 **Delete a stage**
 
@@ -86,7 +78,7 @@ Tell Now Assist in Virtual Agent to add a stage with a title of your choice. You
 
 Tell Now Assist in Virtual Agent to delete a stage that you want removed from the ramp-up plan. Deleting a stage also deletes the courses or tasks that are nested in that stage.
 
-</td></tr><tr><td id="d198515e348">
+</td></tr><tr><td id="d202817e278">
 
 **Add a course or task**
 
@@ -94,7 +86,7 @@ Tell Now Assist in Virtual Agent to delete a stage that you want removed from th
 
 Tell Now Assist in Virtual Agent to add a course or task to an existing or new stage. For example, type `Add a task named "Knowledge transfer from Adam Clark" to the Data Science stage` to add a task to the new hire's onboarding journey that appears in the Data Science stage.
 
-</td></tr><tr><td id="d198515e368">
+</td></tr><tr><td id="d202817e298">
 
 **Delete a course or task**
 
@@ -102,7 +94,7 @@ Tell Now Assist in Virtual Agent to add a course or task to an existing or new s
 
 Tell Now Assist in Virtual Agent to delete a course or task that you want removed from a stage in the ramp-up plan.
 
-</td></tr><tr><td id="d198515e384">
+</td></tr><tr><td id="d202817e316">
 
 **Create a one-on-one meeting**
 
@@ -110,7 +102,7 @@ Tell Now Assist in Virtual Agent to delete a course or task that you want remove
 
 Tell Now Assist in Virtual Agent to create a one-on-one meeting for the new hire with the employee you specify.For example, type `Add 1:1 meeting with Abel Tuter` to schedule a one-on-one meeting between the new hire and Abel Tuter as part of the ramp-up plan.
 
-</td></tr><tr><td id="d198515e404">
+</td></tr><tr><td id="d202817e336">
 
 **Delete a one-on-one meeting**
 
@@ -118,7 +110,7 @@ Tell Now Assist in Virtual Agent to create a one-on-one meeting for the new hire
 
 Tell Now Assist in Virtual Agent to delete a one-on-one meeting that you want removed from the ramp-up plan.For example, type `Delete 1:1 meeting with Abel Tuter` to remove a scheduled one-on-one meeting between the new hire and Abel Tuter from the ramp-up plan.
 
-</td></tr><tr><td id="d198515e424">
+</td></tr><tr><td id="d202817e358">
 
 **Update a field in the Journey Accelerator Plan record**
 
@@ -126,7 +118,7 @@ Tell Now Assist in Virtual Agent to delete a one-on-one meeting that you want re
 
 Tell Now Assist in Virtual Agent to update a field in the Journey Accelerator Plan record to a value that you specify.
 
-</td></tr><tr><td id="d198515e445">
+</td></tr><tr><td id="d202817e379">
 
 **Create a task**
 

@@ -406,12 +406,10 @@ Role required: admin
 
 2.  Select your Map Page.
 
-3.  Click **Try It**.
+3.  Select **Try It**.
 
-4.  In your Map Page, click **Filter**.
+4.  In your Map Page, select **Filter**.
 
-    Your map filter appears.
-
-    ![Map filter](../image/ExampleMapFilter.png)
+    Your map filter displays.
 
 

@@ -13,29 +13,23 @@ breadcrumb: [Field normalization and transformation, Administer, Field administr
 
 A raw field is a custom field created by an administrator to show the original \(raw\) input in a field on a form after it has been normalized or transformed.
 
-## About this task
+## Before you begin
 
-An administrator might add a custom field to a form to show the original, or raw, value of a normalized field.
-
-This is a read-only field that might be called something like **Raw CPU type** or **Original Name**. In the following example, the **CPU type** field was normalized to **Xeon** from an original, raw value of **Xeon L3350**.
-
-![Normalized and raw fields](../image/NormalizedAndRawFields.png)
+Role required: admin
 
 ## Procedure
 
-1.  In the form containing the field that is being normalized or transformed, right-click in the header bar.
+1.  In the form containing the field that is being normalized or transformed, select and hold \(or right-click\) in the header bar.
 
 2.  Select **Personalize** &gt; **Form Layout**.
 
-3.  Complete the Create new field form at the bottom of the page, and then click **Add**.
+3.  Complete the Create new field form at the bottom of the page, and then select **Add**.
 
     -   **Name**: Type the field label. In this case, use Raw + &lt;field label&gt;.
     -   **Type**: Select a data type from the list for this field.
     -   **Field length**: Select the character limit for this field. The default is 40.
-4.  Move the new field adjacent to the normalized field using the direction arrows in the slushbucket.
+4.  Move the new field adjacent to the normalized field using the direction arrows.
 
-5.  Click **Save**.
-
-    ![Normalize raw field](../image/NormalizeRawField1.png)
+5.  Select **Save**.
 
 

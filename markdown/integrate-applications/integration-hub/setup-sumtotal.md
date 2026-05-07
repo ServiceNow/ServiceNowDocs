@@ -1,6 +1,6 @@
 ---
 title: Set up the SumTotal spoke
-description: Integrate your ServiceNow instance with the SumTotal application host so the SumTotal spoke can perform actions on the SumTotal server.Integrate your ServiceNow instance with the SumTotal host by setting up the connection and credential record.
+description: Integrate your ServiceNow instance with the SumTotal application host so the SumTotal spoke can perform actions on the SumTotal server.Integrate your ServiceNow instance with the SumTotal host by setting up the connection and credential record.Configure a connection to your SumTotal account. The SumTotal spoke connection and credential aliases use these connections to perform actions in the SumTotal application.
 locale: en-US
 release: australia
 product: Integration Hub
@@ -123,25 +123,43 @@ Redirect URI
 URL of the location after the app is successfully authorized and granted an access token.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
-    The SumTotal OAuth client is created.
 
-6.  Log in to your ServiceNow instance.
+### Result
 
-7.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer.**
+The SumTotal OAuth client is created.
 
-8.  Click Connections.
+## Configure a SumTotal spoke connection
 
-9.  To search for the SumTotal connections record, enter `SumTotal`.![Search SumTotal connection record in Flow Designer.](../image/search-sumtotal-conn.png)
+Configure a connection to your SumTotal account. The SumTotal spoke connection and credential aliases use these connections to perform actions in the SumTotal application.
 
-10. In the SumTotal connection card, click **View Details**.
+### Before you begin
 
-11. On the Connections page, click **Configure**.![Configure button to configure connection and credential.](../image/sumtotal-click-configure.png)
+Role required: admin
 
-12. In the Configure Connection form, fill the details.
+### Procedure
 
-<table id="table_stt_t2k_qwb"><thead><tr><th>
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Select the **Integrations** tab.
+
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
+
+4.  Locate the alias for **SumTotal** and select **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the SumTotal spoke, select**View Details**.
+
+        ![Connection for the SumTotal spoke](../image/sumtotal-spoke-tile.png)
+
+    -   To manage more than one Sumtotal spoke connection records, you should create child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
+
+    ![Initial connection configuration](../image/sumtotal-spoke-configure.png)
+
+5.  In the form, fill these details.
+
+<table id="table_ory_gzd_w3c"><thead><tr><th>
 
 Field
 
@@ -191,17 +209,15 @@ Client secret generated and copied from the SumTotal host.
 
 </td></tr><tr><td>
 
-OAuth Token URL
+OAuth Redirect URL
 
 </td><td>
 
-URL to the token to access the SumTotal host. URL should be entered in the format https://\{site-url\}/apisecurity/connect/token.
+OAuth callback endpoint in this format: `https://<instance-name>.service-now.com/oauth_redirect.do`.
 
 </td></tr></tbody>
-</table>    ![Configure the SumTotal connection record.](../image/sumtotal-config-temp.png)
+</table>    ![Configure a connection for the SumTotal spoke](../image/sumtotal-spoke-conf-connection.png)
 
-13. Click **Configure and Get OAuth Token**.
-
-    The spoke is configured and ready to be used.
+6.  Select **Save and Get OAuth Token**.
 
 

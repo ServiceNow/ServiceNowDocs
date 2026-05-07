@@ -26,7 +26,7 @@ Case tasks help you to collaborate with multiple teams to investigate, perform i
 -   **[Add an impacted area to a privacy case](../task/add-impacted-areas.md)**  
 Add the impacted areas or objects that are affected by the privacy case or event in the Privacy Case Management application.
 -   **[Add PI information objects to a privacy case](../task/add-pi-information-objects-to-a-privacy-case.md)**  
-Add \[PI\] information objects to a privacy case to identify the types of personal data compromised during a breach.
+To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 -   **[Add key stakeholders to a privacy case](../task/add-keystakeholders-to-privacy-case.md)**  
 Add key stakeholders to a privacy case to identify the key members who are responsible for the data that is lost during the breach. You can then send the respective breach assessments to the stakeholders based on their responsibilities.
 -   **[Add a related area to a privacy case](../task/add-related-areas.md)**  

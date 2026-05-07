@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,7 @@ A risk manager can define the risk appetite and tolerance for the risk statement
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list icon ![List icon.](../image/list-icon-riskworkspace.png) and navigate to the risk statement.
+2.  Select the list ![List icon.](../image/list-icon-riskworkspace.png) icon, and navigate to the risk statement.
 
 3.  Define the risk appetite for a new or an existing risk statement:
 

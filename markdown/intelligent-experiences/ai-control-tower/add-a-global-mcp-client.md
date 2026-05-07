@@ -1,6 +1,6 @@
 ---
 title: Add a Global MCP client
-description: Adding a Global MCP client from the AI gateway configuration page.
+description: Add a Global Model Context Protocol \(MCP\) client from the AI Gateway configuration page.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 
 # Add a Global MCP client
 
-Adding a Global MCP client from the AI gateway configuration page.
+Add a Global Model Context Protocol \(MCP\) client from the AI Gateway configuration page.
 
 ## Before you begin
 
@@ -25,22 +25,22 @@ Role required: AI steward
 
 2.  Select **Add**.
 
-3.  Enter then Client ID.
+3.  Enter the Client ID.
 
 4.  Select **Next**.
 
-5.  Select Metadata sync mode.
+5.  Select the Metadata sync mode.
 
-    It is preferable to select Live.
+    Selecting the **Live** mode is preferred.
 
 6.  Change the Security controls according to the requirements of the agent builder.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
     A Global MCP client is created.
 
 
 ## Result
 
-The MCP client is created and appears in the Global MCP client tab.
+The MCP client is created and appears in the **Global MCP client** tab.
 

@@ -8,14 +8,14 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Import set tables in HR Service Delivery Integration with Workday Learning
 
 Import set tables into HR Service Delivery Integration with Workday Learning
 
--   **[HR Service Delivery Integration with Workday Learning todos staging](../task/wdl-todos.md)**  
+-   **[HR Service Delivery Integration with Workday Learning to-dos staging](../task/wdl-todos.md)**  
 Import workday learning todos.
 -   **[HR Service Delivery Integration with Workday Learning user course activity staging](../task/wdl-user-course-activity.md)**  
 Import workday learning user course activity staging information.

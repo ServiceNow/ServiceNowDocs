@@ -7,8 +7,8 @@ product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Import Models and Templates, Use, Telecommunications Network Inventory]
+reading_time_minutes: 2
+breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
 
 # Import templates
@@ -45,7 +45,7 @@ After you create an import template request, a detailed summary is generated tha
 
 6.  Download the demo data and the template by selecting **Create Excel Template**.
 
-    The template is created based on the Import template template \[sn\_ni\_adv\_import\_template\_template\] table. You can customize the template and update it as required.
+    The template is created based on the Import template template \[sn\_ni\_adv\_import\_template\_template\] table. You can customize the [Import template excel](../reference/import-template-excel.md) and update it as required.
 
 7.  Select **Import**.
 
@@ -61,5 +61,12 @@ The **Import Results** tab appears next to the Details tab where you can view, a
 -   Redirect to the generated inventory template from the **Import Results** tab.
 -   Delete a record. To learn more, see [Delete a record](delete-inventory-record.md).
 
-**Parent Topic:**[Import Models and Templates](../concept/import-models-and-templates.md)
+**Parent Topic:**[Import models and templates](../concept/import-models-and-templates.md)
+
+**Related topics**  
+
+
+[import]
+
+[Import templates](import-templates.md)
 

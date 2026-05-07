@@ -29,9 +29,9 @@ For more information on roll up records, see [Rollup Framework for MSIM](../conc
 
 2.  Navigate to **Lists** view, which is displayed in the left pane of the workspace.
 
-3.  Click **Accepted** to select the promoted major security incident records.
+3.  Select **Accepted** to select the promoted major security incident records.
 
-4.  Click the **Linked Records** tab.
+4.  Select the **Linked Records** tab.
 
     This section displays the linked records and its related records, which are linked to the Major Security Incident.
 
@@ -39,7 +39,7 @@ For more information on roll up records, see [Rollup Framework for MSIM](../conc
 
 6.  Select the record to unlink from the list view of records.
 
-7.  Click **Unlink Record**.
+7.  Select **Unlink Record**.
 
     ![Unlink Record remediation task.](../image/unlink-record.png "Unlink Record")
 
@@ -47,7 +47,7 @@ For more information on roll up records, see [Rollup Framework for MSIM](../conc
 
     ![Unlink Record warning message.](../image/unlink-record-msg.png "Unlink Record Warning Message")
 
-9.  Click **Unlink Record**.
+9.  Select **Unlink Record**.
 
     The record is unlinked and once unlinked, the changes can't be reverted. The list view of Linked Records will be refreshed after unlinking.
 

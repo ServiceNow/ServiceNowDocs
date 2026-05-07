@@ -70,7 +70,7 @@ The following groups set and execute AI policy in an organization:
     Implementation and operations teams are responsible for securely deploying and managing AI features in alignment with governance policies. The Now Assist admin configures and manages Now Assist capabilities, ensuring that AI features are properly mapped to workflows and governed according to enterprise standards. Platform owners and ServiceNow admins oversee the deployment process, making sure that all configurations comply with established policies and technical requirements. Meanwhile, AI developers build, extend, and integrate AI features into business workflows, working closely with admins and platform teams to deliver scalable, compliant, and effective AI solutions. Together, these roles translate governance policies into secure, functional AI implementations.
 
 
-For more information about AI governance user roles, see [AI Risk and Compliance roles](../../ai-governance-workspace/reference/roles-installed-with-ai-risk-and-compliance.md) and [Assign the data steward role](../../now-assist-admin/task/assign-data-steward-role.md).
+For more information about AI governance user roles, see  and [Assign the data steward role](../../now-assist-admin/task/assign-data-steward-role.md).
 
 For more resources about AI governance, see the following Best Practices topics:
 

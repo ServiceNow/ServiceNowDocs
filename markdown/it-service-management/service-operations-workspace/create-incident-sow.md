@@ -23,15 +23,15 @@ Role required: itil or admin
 
 1.  Perform one of the following actions to start creating an incident.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d232260e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d234135e52">
 
 Option
 
-</th><th align="left" id="d232260e55">
+</th><th align="left" id="d234135e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d232260e61">
+</th></tr></thead><tbody><tr><td id="d234135e61">
 
 **From the List menu**
 
@@ -42,7 +42,7 @@ Description
 3.  Click **New Incident**.
 
 
-</td></tr><tr><td id="d232260e100">
+</td></tr><tr><td id="d234135e100">
 
 **From an incident list**
 
@@ -60,7 +60,7 @@ Description
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d232260e140">
+</td></tr><tr><td id="d234135e140">
 
 **From an interaction**
 

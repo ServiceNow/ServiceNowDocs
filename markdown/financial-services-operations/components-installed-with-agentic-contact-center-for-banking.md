@@ -17,8 +17,8 @@ Learn about the components that are installed with the activation of Agentic Con
 
 |Role title \[name\]|Description|Contains roles|
 |-------------------|-----------|--------------|
-|CSR Banking Business Agent \[sn\_fso\_csr.business\_agent\]|This role grants access to AI-assisted CSR experiences for business banking and wealth customers.|sn\_bom.account\_contributor|
-|CSR Banking Personal Agent \[sn\_fso\_csr.personal\_agent\]|This role grants access to AI-assisted CSR experiences for personal banking and wealth customers.|sn\_bom.consumer\_contributor|
+|CSR Banking Business Agent \[sn\_fso\_csr.business\_agent\]|This role grants access to AI-assisted CSR experiences for business banking and wealth customers.Users with this role can view and edit account cases within the scope of their granted access for case types, including cases created by other agents or submitted through the portal.|sn\_bom.account\_contributor|
+|CSR Banking Personal Agent \[sn\_fso\_csr.personal\_agent\]|This role grants access to AI-assisted CSR experiences for personal banking and wealth customers.Users with this role can view and edit consumer cases within the scope of their granted access for case types, including cases created by other agents or submitted through the portal.|sn\_bom.consumer\_contributor|
 
 **Parent Topic:**[Agentic Contact Center for Banking reference](../concept/agentic-contact-center-for-banking-reference.md)
 

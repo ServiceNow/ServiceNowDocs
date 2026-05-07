@@ -34,15 +34,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d121302e135">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d125281e135">
 
 Option
 
-</th><th align="left" id="d121302e138">
+</th><th align="left" id="d125281e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121302e144">
+</th></tr></thead><tbody><tr><td id="d125281e144">
 
 **Apply ACLs to namespaces**
 
@@ -55,7 +55,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d121302e186">
+</td></tr><tr><td id="d125281e186">
 
 **Apply ACLs to defined topics**
 
@@ -98,7 +98,7 @@ You can now create a secure connection to the Hermes Messaging Service.
 
 ## What to do next
 
-.
+[Check the status of and connection to the Hermes Kafka cluster](https://www.servicenow.com/docs/access?context=run-hermes-messaging-service-diagnostics&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
 **Parent Topic:**[Configuring Log Export Service \(LES\)](../concept/les-configure.md)
 

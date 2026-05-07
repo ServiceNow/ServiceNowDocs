@@ -8,7 +8,7 @@ classification: self-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service Delegation, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Delegation, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add the Delegates related list to a user profile

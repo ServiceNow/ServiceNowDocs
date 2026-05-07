@@ -153,5 +153,5 @@ A conversational bot platform that provides user assistance through conversation
 
 ### workflow
 
-Defined sequence of steps automating processes in Sales and Order Management.
+Defined sequence of steps automating processes in Sales Customer Relationship Management.
 

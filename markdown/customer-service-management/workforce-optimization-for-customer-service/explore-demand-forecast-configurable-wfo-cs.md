@@ -40,10 +40,6 @@ When you create Demand Forecast configurations, the application creates these me
 
 ## Analyzing Demand Forecast resource prediction
 
-Watch this video to see how you can model demand scenarios and view updated demand on the calendar.
-
-Demand Forecast - model demand scenarios.
-
 As a manager with the forecast admin role, you can create forecast parameters in the Manager Workspace. [Modify forecast parameters to visualize forecast data](../task/modify-demand-forecast-parameters-configurable-wfo.md) and preview time-series data before publishing it. You can create any number of forecasts to preview the time-series data in real time.
 
 You can also make manual adjustments to tweak the forecast and analyze the forecast pattern. Overlay the manual adjustments on the visualized forecast data and view the time-series data to analyze the forecast model. For example, you have a specific pattern for the upcoming week that has a national holiday in the middle of the week where you need more agents. Because you expect the sales to go up, you can manually tweak the forecast to increase it by 10% and analyze that data.

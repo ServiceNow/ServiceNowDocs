@@ -1,17 +1,17 @@
 ---
 title: Upload a public key for Secrets Management
-description: Upload a public key for to encrypt your secrets.
+description: Upload a public key to encrypt your secrets in Secrets Management.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Secrets management dashboard, Secrets Management, Platform Security]
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
 # Upload a public key for Secrets Management
 
-Upload a public key for to encrypt your secrets.
+Upload a public key to encrypt your secrets in Secrets Management.
 
 ## Before you begin
 
@@ -19,7 +19,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Secrets Management** &gt; **Secret Groups**, and open the secret group record.
+1.  Navigate to **All** &gt; **Secrets Management** &gt; **Secret Groups** and open the secret group record.
 
 2.  In the record, select the **Manage Client Side Access** button.
 
@@ -40,5 +40,5 @@ Role required: admin
 7.  Select **Submit** to save the identity group record.
 
 
-**Parent Topic:**[Secrets management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
 

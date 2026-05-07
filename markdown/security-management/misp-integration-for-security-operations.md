@@ -21,12 +21,6 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 MISP, which stands for Malware Information Sharing Platform, lets you exchange and share threat intelligence and Indicators of Compromise \(IoCs\) about the targeted malware and attacks within your community of trusted members. You can also share MISP information with private or open communities. By exchanging MISP information, you can investigate targeted attacks faster, improve the detection ratio, and reduce the number of false positives in your environment.
 
-## MISP and Security Operations
-
-See the following example to learn how the MISP information flows with Security Operations applications.
-
-![How MISP integrates with the Security Operations applications.](../image/misp-overview.png "MISP and Security Operations overview")
-
 ## Key features
 
 This integration includes the things that you can do with the MISP key features:

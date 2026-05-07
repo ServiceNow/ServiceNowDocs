@@ -1,6 +1,6 @@
 ---
 title: View anomaly alerts
-description: Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from the regular IT alerts, and are not displayed in the Service Operations Workspace. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
+description: Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from regular IT alerts. They appear in the Service Operations Workspace but not in Express List. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
 locale: en-US
 release: australia
 product: Metric Intelligence
@@ -13,7 +13,7 @@ breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations 
 
 # View anomaly alerts
 
-Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from the regular IT alerts, and are not displayed in the Service Operations Workspace. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
+Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from regular IT alerts. They appear in the Service Operations Workspace but not in Express List. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
 
 ## Before you begin
 

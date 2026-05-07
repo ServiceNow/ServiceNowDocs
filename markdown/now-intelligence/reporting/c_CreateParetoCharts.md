@@ -17,7 +17,7 @@ Pareto charts help you identify the most important dimension in a large set of d
 
 Pareto charts contain both bar and line graphs. The bars display the data in descending order from left to right, and the line graph shows the cumulative totals from each category in the same order. The left Y axis is the record count, and the right Y axis is the cumulative percentage of the total number of records evaluated. The blue line at the 80% mark helps determine which data is the most influential in the process. The data to the left of the intersection of the line graph and the 80% mark have the greatest effect on the overall outcome.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Create a Pareto bar data visualization](../task/create-dv-pareto-vd.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](../../performance-analytics/concept/explore-data-vis-library.md).
 
 The figure below shows that five callers account for 80% of the incident calls, while seven account for the other 20%.
 
@@ -31,11 +31,11 @@ Create a Pareto report to identify the most important factors in a large set of 
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](../../dashboards/reference/differences-between-core-ui-ne-dbs.md).
 
@@ -43,7 +43,7 @@ Role required: report\_admin
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d132672e227">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d136683e266">
 
 **Data source**
 
@@ -51,7 +51,7 @@ Role required: report\_admin
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d132672e246">
+</td></tr><tr><td id="d136683e285">
 
 **Table**
 
@@ -59,7 +59,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 
-</td></tr><tr><td id="d132672e265">
+</td></tr><tr><td id="d136683e304">
 
 **External import**
 
@@ -67,7 +67,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d132672e290">
+</td></tr><tr><td id="d136683e329">
 
 **MetricBase**
 

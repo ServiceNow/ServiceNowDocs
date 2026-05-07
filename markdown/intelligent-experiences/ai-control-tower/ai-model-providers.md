@@ -52,7 +52,7 @@ The AI model providers configured by your organization such as Perplexity, IBM W
 
 For more information on Now LLM Service- LTS model, see [Long term stable models](../../general/concept/long-term-stable-models.md)
 
-For information on exploring the scenarios configuring third-party LLMs for all the regions, see [Explore Third-party LLMs and regions](exploring-third-party-llms-and-data-routing-configuration.md)
+For information on exploring the scenarios configuring third-party LLMs for all the regions, see [Explore the third-party LLMs and regions](exploring-third-party-llms-and-data-routing-configuration.md)
 
 For information about configuring third-party LLMs through Data routing configuration for APJC region, see [Configure third-party LLMs using AI Control Tower](../task/configure-third-party-llms-using-ai-control-tower.md)
 

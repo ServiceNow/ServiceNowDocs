@@ -8,7 +8,7 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Standard tables and fields, Reference, ERP Semantic Mining overview, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Standard tables and fields, Reference, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # Standard remote tables for ERP Semantic Mining
@@ -45,8 +45,8 @@ For more details on working with remote tables, see [Remote tables](https://www.
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
 -   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   [Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   [Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
 -   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
 -   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
 -   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)

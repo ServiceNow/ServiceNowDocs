@@ -17,7 +17,7 @@ DevOps Change Velocity enables you to use fit-for-purpose change models that all
 
 ## DevOps Change model overview
 
-**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see [Change models](../../change-management/concept/change-models.md). The legacy Change Management - State Model is also supported. For more information, see [State model and transitions](../../change-management/concept/c_ChangeStateModel.md).
+**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see [Change models](../../change-management/concept/change-models.md). The legacy Change Management - State Model is also supported. For more information, see [Legacy: State model and transitions](../../change-management/concept/c_ChangeStateModel.md).
 
 **Important:** The DevOps and DevOps Simplified change models are not supported for Argo CD and Split tool change requests.
 
@@ -393,7 +393,7 @@ In DevOps Change Velocity, the following considerations are made to send a callb
 
 -   The implementation states is used to send a callback to the third-party orchestration tool. If only one implementation state is present in the change model, then an absolute comparison is made. When the change created by a change model reaches the implementation state that is set, a call back is sent to the third-party orchestration tool.
 
-    **Note:** In change models, the Implementation states field can have one or more states. You can define the implementation states for each change model. For more information, see [State model and transitions](../../change-management/concept/c_ChangeStateModel.md).
+    **Note:** In change models, the Implementation states field can have one or more states. You can define the implementation states for each change model. For more information, see [Legacy: State model and transitions](../../change-management/concept/c_ChangeStateModel.md).
 
 -   If multiple implementation states are present in the change model, a call back is sent to the third-party orchestration tool in the state where implementation state is reached first.
 -   If there’s no implementation state set on the change model, then the model states are checked for the **Implement** state. If the Implement state is present, then that is considered for call back to the third-party orchestration tool. If there’s no implement state in the model states as well, then the value present in the **sn\_devops.change\_request.implement\_state** property is considered. The value of the system property is -1 by default, which is the implement state.

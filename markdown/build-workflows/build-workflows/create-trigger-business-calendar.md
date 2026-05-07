@@ -86,6 +86,7 @@ Domain scope of the flow. For more information about domain separation, see [Dom
     |Field|Description|
     |-----|-----------|
     |Accessible from|Choice between whether the trigger data should be accessible only from the specified application or all application scopes.|
+    |Protection|Option to make the trigger read-only.|
     |Category|Category where your trigger is displayed.|
     |Trigger annotation|Annotation for your trigger that the user can see before they select it.|
 
@@ -150,7 +151,7 @@ Specify the condition if you want to exclude certain business calendar entries f
 
 ## Result
 
-The scheduled trigger is created and published. You can use the trigger in any of your flows. For information about creating a flow, see [Create a flow in Workflow Studio](create-flow.md).
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
 
 **Parent Topic:**[Create a saved scheduled trigger](create-scheduled-trigger.md)
 

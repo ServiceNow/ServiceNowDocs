@@ -15,9 +15,9 @@ Implement the following steps to set up a specific application or plugin with No
 
 ## Before you begin
 
-Before performing this task you must request for the entitlement for Now Assist for Setup and install it.
+Before performing this task you must install Now Assist for Setup application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
-**Note:** Request for the entitlement and installation of Now Assist for Setup is the first step to experience automatic product installations and implementation of default configurations on your ServiceNow instance.
+This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, and ESM, and Pro+ SKUs for ITSM and HRSD.
 
 Role required: admin
 

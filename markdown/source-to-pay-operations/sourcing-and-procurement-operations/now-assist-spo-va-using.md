@@ -9,7 +9,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Use Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Use the Now Assist for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat
@@ -120,7 +120,7 @@ If the Virtual Agent is unable to search for your specific request, the followin
 
 Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes requesters more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see . Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses. For more information, see .
+As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. To learn more, see [Using Now Assist Analytics](https://www.servicenow.com/docs/access?context=using-now-assist-analytics&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Now Assist in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with Now Assist query responses.
 
 For detailed information on Now Assist in Virtual Agent in general, and Now Assist for SPO in particular, see [Explore Now Assist for Sourcing and Procurement Operations \(SPO\)](now-assist-spo-exploring.md).
 

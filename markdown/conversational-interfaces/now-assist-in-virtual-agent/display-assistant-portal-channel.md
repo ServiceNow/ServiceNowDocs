@@ -6,8 +6,8 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2025-05-14"
+reading_time_minutes: 8
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
@@ -27,11 +27,24 @@ Role required: virtual\_agent\_admin or admin
 
 You must configure at least one display experience for an assistant before activation.
 
+-   Display experiences are the different places where a user can find and interact with an assistant.
+-   The chat experience configuration defines how users interact with an assistant during a conversation, including message behavior, response generation, and fallback handling.
+    -   Standard chat is a condensed conversational support experience in a chat widget.
+    -   Enhanced chat is a conversational experience that includes a dynamic, movable, and resizable chat window, plus access to multiple active conversations.
+    -   Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
+
+        **Note:** Premium chat is only available for the default Employee Slate assistant and the Now Assist panel - Platform assistant.
+
+
 ## Procedure
 
 1.  In **Portals**, select one or more portals from the **Add Portal** drop-down list or integrate with your preferred messaging channels to display a chat assistant.
 
-    ![Select a portal for where you want your assistant to appear.](../image/NAinVA-add-portal-122025.png "Options for where Virtual Agent appears")
+    **Note:** If you have access to the default Employee Slate assistant, Employee Slate is available from within the portal list. Selecting Employee Slate prompts you to add premium chat.
+
+    -   Standard chat and enhanced chat are not options for Employee Slate.
+    -   Employee Slate can be removed/unmapped from the default Employee Slate assistant and added to any Now Assist in Virtual Agent assistant.
+    ![Select a portal for where you want your assistant to appear.](../image/NAinVA-display-exp-052026.png "Options for where an assistant appears")
 
     One portal can only include one assistant. Any portal in the list that is already used is unavailable for selection.
 
@@ -51,7 +64,7 @@ You must configure at least one display experience for an assistant before activ
 
         **Note:** Customer Service Management \(CSM\) portals don't have the enhanced chat option.
 
-    2.  Select the ellipsis to remove a portal or edit settings to toggle between enhanced chat and standard chat.
+    2.  Select the ellipsis to remove a portal or edit settings to toggle between chat experiences.
 
         ![Ellipsis shows edit portal settings or remove a portal.](../image/NAinVA-remove-portal-122025.png "Edit experience or remove a portal")
 
@@ -102,7 +115,7 @@ You must configure at least one display experience for an assistant before activ
 
         ![Prominent action button override.](../image/NAinVA-prominent-action-override-122025.png "Prominent action button override")
 
-        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see  and .
+        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see [Using the prominent action button](https://www.servicenow.com/docs/access?context=using-prominent-action-button&version=australia&pubname=australia-mobile&ft:locale=en-US) and [Configuring a prominent action button](https://www.servicenow.com/docs/access?context=configuring-prominent-action-button&version=australia&pubname=australia-mobile&ft:locale=en-US).
 
     5.  The **Custom apps section** is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
 

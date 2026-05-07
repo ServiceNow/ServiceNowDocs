@@ -1,6 +1,6 @@
 ---
 title: CrowdStrike Falcon EDR integration
-description: Integration with CrowdStrike Falcon EDR enables continuous monitoring and real-time alerting based on intelligence from TISC.
+description: Configure CrowdStrike Falcon EDR integration to enable continuous endpoint monitoring and receive real-time security alerts based on Threat Intelligence data from TISC.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -14,12 +14,12 @@ breadcrumb: [TISC Security Tools integrations, TISC Integrations, Integrate, Thr
 
 # CrowdStrike Falcon EDR integration
 
-Integration with CrowdStrike Falcon EDR enables continuous monitoring and real-time alerting based on intelligence from TISC.
+Configure CrowdStrike Falcon EDR integration to enable continuous endpoint monitoring and receive real-time security alerts based on Threat Intelligence data from TISC.
 
-This integration can help streamline security operations and reduce any potential risk to the organization's business.
+This integration streamlines security operations.
 
 -   **[Configure Crowdstrike Falcon EDR integration](../task/config-cs-edr-integration.md)**  
-Before you can use the CrowdStrike Falcon EDR integration, you must download it from the ServiceNow Store Store and add the appropriate Client ID and Client Secret.
+Download and configure the CrowdStrike Falcon EDR integration to enable endpoint detection and response capabilities in your ServiceNow instance.
 -   **[Send observables to EDR](../task/send-to-edr.md)**  
 Send observables to the EDR security tool.
 

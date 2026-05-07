@@ -65,7 +65,7 @@ In this procedure, the method to request evidence from the **My Evidence** modul
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the ![List icon](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  Navigate to **Evidence requests** &gt; **My request**.
 

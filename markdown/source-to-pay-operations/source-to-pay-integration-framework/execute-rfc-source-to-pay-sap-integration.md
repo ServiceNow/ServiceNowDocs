@@ -27,7 +27,7 @@ Step 4 - Create ERP Source is an ERP source configuration table.
 
 Step 5 - Create a Service, add flow and give the necessary inputs in the fields.
 
-![Figure 0-1: Flow chart illustrating RFC Execution.](../image/rfc-execution.png)
+![Figure 0-1: Flow chart illustrating RFC Execution.](../../source-to-pay-operations/image/rfc-execution.png)
 
 **Name**: ZSN\_BAPI\_GET\_DATA
 

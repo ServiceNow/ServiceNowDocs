@@ -4,7 +4,7 @@ description: Analyze the execution of an AI agent so you can see that it functio
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 3
 breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 ---
@@ -37,11 +37,11 @@ When manually testing performance, you can see how the AI agent interacts with t
 
     If you want to test user access security controls, see [Test AI agent user access](test-aia-access.md).
 
-4.  Select an agentic workflow or AI agent that you want to test by searching the name of a workflow or choosing from the drop-down menu.
+4.  Under **Choose a testing mode**, select the testing mode either as **Premium Chat** or **Standard**.
 
-5.  Under **Choose a testing mode**, select the testing mode either as **AI Native** or **Standard**.
+    **Note:** The Premium Chat testing mode is exclusively accessible when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard testing playground.
 
-    **Note:** The AI-native testing mode is exclusively accessible when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard testing playground.
+5.  Select an agentic workflow or AI agent that you want to test by searching the name of a workflow or choosing from the drop-down menu.
 
 6.  In the Version drop-down list, select the version of the AI agent you want to test.
 
@@ -51,7 +51,7 @@ When manually testing performance, you can see how the AI agent interacts with t
 
     **Note:** In the task summary, include a reference number or specific record for better results during your testing.
 
-    ![Complete the testing form](../image/test-aia-manually.png)
+    ![Complete the testing form](../image/test-aia-manually-new.png)
 
 8.  Select **Continue to Test Chat Response**.
 

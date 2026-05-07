@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Design and assign your network services, Explore, Telecommunications Network Inventory]
 ---
@@ -92,8 +92,6 @@ You can expand the pills in the diagram to see all underlying connection element
 
 </td></tr></tbody>
 </table>## Design and Assign workflow for logical connection
-
-![Infographic showing the workflow diagram of design and assign playbook for logical connection. To learn more, see following text.](../image/MMASSET0020713-design-assign-playbook-logical-connection.png "Design and Assign playbook workflow for logical connection")
 
 The Design and Assign function for a logical connection has the following workflow.
 

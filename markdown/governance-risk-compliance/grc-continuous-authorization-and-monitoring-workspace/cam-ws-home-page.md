@@ -17,7 +17,7 @@ The CAM Workspace is a centralized hub where you can continuously monitor and ma
 
 ## Accessing the Home page
 
-Navigate to **All** &gt; **CAM Workspace**.
+Navigate to **Workspaces** &gt; **CAM Workspace**.
 
 ![CAM home page displaying the overall status of the CAM objects.](../image/cam-ws-home-page.png)
 

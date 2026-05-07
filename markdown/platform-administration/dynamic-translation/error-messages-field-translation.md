@@ -85,3 +85,5 @@ Unable to translate.
 |When there is no valid subflow associated with the translator configuration.|Either a detect or a translate subflow is required for a valid translator configuration.|
 |When multiple language code mappings are selected for the same language code|Multiple language code mappings cannot be selected for the same language code\(s\): xx.|
 
+**Parent Topic:**[Reference for Dynamic Translation](reference-for-dynamic-translation.md)
+

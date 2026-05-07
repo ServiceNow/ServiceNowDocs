@@ -1,18 +1,20 @@
 ---
-title: System requirements and limitations in Agentic Desktop
-description: Be aware of system requirements and a few limitations when you’re using the Agentic Desktop application.
+title: System requirements and limitations in AI Desktop Actions
+description: Be aware of system requirements and a few limitations when you’re using the AI Desktop Actions application for defined desktop actions.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2025-11-18"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [reference]
-breadcrumb: [Reference, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
 ---
 
-# System requirements and limitations in Agentic Desktop
+# System requirements and limitations in AI Desktop Actions
 
-Be aware of system requirements and a few limitations when you’re using the Agentic Desktop application.
+Be aware of system requirements and a few limitations when you’re using the AI Desktop Actions application for defined desktop actions.
+
+**Note:** These system requirements and limitations apply to only defined desktop actions that are created in the AI Desktop Actions Windows application.
 
 ## Hardware requirements
 
@@ -27,15 +29,22 @@ Be aware of system requirements and a few limitations when you’re using the Ag
 -   Windows 11 operating system is used.
 -   A .NET 9.0 runtime v9.0.10 and .NET 9 Desktop Runtime v9.0.10 is installed.
 -   No extended monitors are connected.
--   Add the end users who interact with the Execution workspace of Agentic Desktop to the Remote Desktop Users group on the target machine and provide Remote Desktop access permissions for seamless automation execution.
+-   Add the end users who interact with the Execution workspace of AI Desktop Actions to the Remote Desktop Users group on the target machine and provide Remote Desktop access permissions for seamless automation execution.
 
     If your organization uses Group Policy, add the end users to a Microsoft Active Directory group that is permitted to use Remote Desktop through Group Policy on each target machine where desktop actions run.
 
     -   Local changes to the Remote Desktop Users group are temporary unless they align with Microsoft Active Directory entitlements.
     -   If the user is not entitled, Group Policy refresh automatically removes them from the group.
 -   Theme must match between the systems used for recording and execution.
+-   Confirm that your firewall allows bidirectional traffic between the AI Desktop Actions application and your ServiceNow instance on the following ports:
+    -   Port 80 for HTTP and WebSocket \(`ws://`\) traffic
+    -   Port 443 for HTTPS and encrypted WebSocket \(`wss://`\) traffic
 
-**Note:** Screen resolution and scaling must be the same between the systems used for recording and execution of desktop actions that are created prior to Agentic Desktop v1.0.1.
+        If your organization uses non-standard ports for HTTP or HTTPS, confirm the correct ports with your IT administrator before proceeding.
+
+-   Confirm that you have registered the `snada://` custom URI protocol to enable the browser to launch the AI Desktop Actions application.
+
+**Note:** Screen resolution and scaling must be the same between the systems used for recording and execution of desktop actions that are created before AI Desktop Actions v1.0.1.
 
 ## Limitations
 
@@ -49,11 +58,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-RPA Attended robot and Agentic Desktop parallel execution
+RPA Attended robot and AI Desktop Actions parallel execution
 
 </td><td>
 
-To avoid conflicts, do not run the Agentic Desktop Execution workspace and RPA Attended Desktop mode at the same time.
+To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
 
 </td></tr><tr><td>
 
@@ -104,5 +113,5 @@ Sensitive information
 The sensitive information isn’t masked during recording. Confirm that you don’t record any sensitive information.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agentic Desktop reference](agentic-desktop-reference.md)
+</table>**Parent Topic:**[AI Desktop Actions reference](agentic-desktop-reference.md)
 

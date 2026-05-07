@@ -1,15 +1,15 @@
 ---
-title: Now Assist for Sales and Order Management for Telecommunications \(SOMT\) AI agent Move order voice AI agent
+title: Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
 description: Use this agent to automatically create a customer move order capture journey.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales and Order Management for Telecommunications \(SOMT\) AI agent Move order voice AI agent
+# Now Assist for Sales CRM for Telecommunications AI agent Move order voice AI agent
 
 Use this agent to automatically create a customer move order capture journey.
 

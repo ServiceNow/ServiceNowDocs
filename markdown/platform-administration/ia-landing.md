@@ -1,6 +1,6 @@
 ---
 title: Now Assist for Setup
-description: Now Assist for Setup centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
+description: Now Assist for Setup provides a guided experience to install, configure, and deploy ServiceNow products. It automates installation, applies best-practice configurations, tracks progress, and packages changes for production, which reduces complexity, minimizes manual effort, and significantly shortens time to deployment.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 
 # Now Assist for Setup
 
-Now Assist for Setup centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
+Now Assist for Setup provides a guided experience to install, configure, and deploy ServiceNow products. It automates installation, applies best-practice configurations, tracks progress, and packages changes for production, which reduces complexity, minimizes manual effort, and significantly shortens time to deployment.
 
 ## Get started
 
@@ -38,7 +38,7 @@ Now Assist for Setup centralizes your instance management with a modular, person
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 
 -   **[Explore Now Assist for Setup](ia-explore.md)**  
-Now Assist for Setup provides a modular, personalized Admin Home dashboard that centralizes instance management and improves administrative efficiency.
+Now Assist for Setup simplifies installing, configuring, and deploying ServiceNow products by automating setup, applying best practices, tracking progress, and packaging changes for production.
 -   **[Administer Now Assist for Setup](ia-administer.md)**  
 Explore this section to learn more about setting up an application and Now Assist admin with Now Assist for Setup.
 -   **[Configure in Now Assist for Setup](ia-config-landing.md)**  

@@ -33,7 +33,7 @@ By starting a chat session, supplier contacts can interact directly with supplie
 
 2.  Select the Open chat window icon \(![Open chat window icon](../image/open-chat-window-icon.png)\) to start a chat session.
 
-3.  Select **Show me everything**, and then select **Live Agent Support**.![Open chat session with a live agent.](../image/start-chat-supplier-collaboration-portal.png)
+3.  Select **Show me everything**, and then select **Live Agent Support**.
 
     The "Routing you to a live agent…" message is displayed.
 

@@ -29,7 +29,7 @@ Role required: sn\_shop.procurement\_administrator
 
 4.  Select **Choose File** to import the source Excel spreadsheet.
 
-    ![Load data to ERP user mapping table for Oracle EBS](../image/oracle-ebs-load-data.png "Load data to ERP user-mapping table for Oracle EBS")
+    ![Load data to ERP user mapping table for Oracle EBS](../../source-to-pay-operations/image/oracle-ebs-load-data.png "Load data to ERP user-mapping table for Oracle EBS")
 
 5.  If appropriate, specify the Work sheet and Header row number.
 

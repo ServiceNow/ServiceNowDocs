@@ -6,8 +6,8 @@ release: australia
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2025-07-31"
+reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -117,6 +117,33 @@ AI agents assist hiring managers in creating requisitions more efficiently and a
 </td><td>
 
 Job requisition creation AI agent
+
+</td></tr><tr><td>
+
+Generate onboarding ramp-up plan agentic workflow
+
+</td><td>
+
+Accelerate onboarding with the Generate onboarding ramp-up plan workflow, which creates personalized and team-specific plans for every new hire. Powered by AI agents, it tailors learning paths, team tasks, and 1:1 introductions to help employees ramp up faster, build stronger connections, and reach productivity sooner.
+
+</td><td>
+
+-   Ramp up plan generation AI agent
+-   Ramp up plan gather inputs AI agent
+-   Ramp up plan reviewer AI agent
+
+</td></tr><tr><td>
+
+Offboarding knowledge transfer plan generation agentic workflow
+
+</td><td>
+
+Automate the knowledge transfer process during employee offboarding with the Offboarding knowledge transfer plan generation agentic workflow. Powered by AI agents, it discovers documents authored by the departing employee, organizes them into categories, and generates a structured knowledge transfer summary. The departing employee can review and approve the summary before sharing it with the manager and successors.
+
+</td><td>
+
+-   Offboarding knowledge transfer gather inputs AI agent
+-   Knowledge transfer reviewer AI agent
 
 </td></tr></tbody>
 </table><table id="table_qxx_bcg_vfc"><thead><tr><th>
@@ -266,10 +293,9 @@ For more information about duplicating an agentic workflow, implementing access 
 -   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
 -   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
 -   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 

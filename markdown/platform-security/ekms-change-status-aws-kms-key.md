@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Using External Key Management Service, External Key Management Service, Field Encryption, Encryption]
 ---
 
@@ -32,28 +32,10 @@ AWS KMS keys can have different statuses that control whether they can be used f
 
 1.  Access AWS Key Management Service.
 
-    1.  Log in to AWS through your Okta profile.
-
-    2.  Navigate to AWS Key Management Service \(KMS\).
-
-    3.  Locate the key that is configured in your ServiceNow EKMS setup.
-
-        Reference your EKMS configuration in ServiceNow to identify the correct key by its external key identifier or key region.
-
 2.  Review the current key status.
 
-    AWS KMS keys can have the following statuses:
-
-    -   **Enabled** - Key is active and can be used for all encryption and decryption operations.
-    -   **Disabled** - Key can't be used for encryption or decryption until re-enabled.
-    -   **Pending deletion** - Key is scheduled for deletion and can't be used.
-    -   **Deleted** - Key has been permanently deleted \(appears after minimum 7-day waiting period\).
 3.  Change the key status based on your requirements.
 
-    -   To enable a disabled key: Select the key, select **Key actions**, and choose **Enable**.
-    -   To disable an enabled key: Select the key, select **Key actions**, and choose **Disable**.
-    -   To cancel a scheduled deletion: Select the key, select **Key actions**, and choose **Cancel key deletion**.
-    -   To schedule a key for deletion: Select the key, select **Key actions**, choose **Schedule key deletion**, and specify the waiting period \(7 to 30 days\).
     **Warning:** Disabling or deleting a key will prevent ServiceNow from encrypting new data and decrypting existing data. Verify that you have a plan for data migration or key recovery before disabling or scheduling deletion.
 
 4.  Wait for the scheduled synchronization job to process the key status change.
@@ -62,7 +44,7 @@ AWS KMS keys can have different statuses that control whether they can be used f
 
 5.  Verify the key status updated in EKMS.
 
-    See Check External Key Management Service key status.
+    See [Check External Key Management Service key status](ekms-check-key-status.md).
 
     The AWS key status is synchronized with EKMS.
 
@@ -82,9 +64,9 @@ While the key is disabled, you can't encrypt or decrypt data in encrypted fields
 
 Important considerations after changing key status:
 
--   **If you disabled the key:** New data cannot be encrypted, and existing encrypted data cannot be decrypted until the key is re-enabled. Plan for how encrypted fields should be handled during this time.
+-   **If you disabled your AWS key:** New data cannot be encrypted, and existing encrypted data cannot be decrypted until the key is re-enabled. Plan for how encrypted fields should be handled during this time.
 -   **If you enabled a previously disabled key:** Encryption and decryption operations resume once the synchronization job updates the key status in EKMS \(within 30 minutes\). Test your EKMS Configuration by clicking the **Test** button. Then verify that all encrypted fields are accessible.
--   **If you scheduled the key for deletion:** You have 7 to 30 days \(depending on your deletion schedule\) to cancel the deletion before the key is permanently deleted. After permanent deletion, encrypted data can't be recovered.
+-   **If you scheduled the key for deletion:** You have 7 to 30 days \(depending on your deletion schedule within AWS\) to cancel the deletion before the key is permanently deleted. After permanent deletion, encrypted data can't be recovered.
 -   **If you canceled a scheduled deletion:** Remember to enable the key if it was disabled. Canceling deletion does not automatically enable the key.
 
 **Important:** The automatic synchronization job runs every 30 minutes. EKMS automatically detects status changes within 30 minutes of when they occur in AWS.

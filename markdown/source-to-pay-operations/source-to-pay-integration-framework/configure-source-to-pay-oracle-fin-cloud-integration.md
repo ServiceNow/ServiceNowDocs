@@ -6,9 +6,9 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
-breadcrumb: [Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Configure the Source-to-Pay integration with Oracle Financial Cloud
@@ -21,7 +21,7 @@ Verify that you have performed the following:
 
 -   Activated the Source-to-Pay integration with the Oracle Financial Cloud application from ServiceNow Store. This automatically activates the Oracle Financial Cloud Spoke.
 -   Set up [Oracle EBS Spoke](https://www.servicenow.com/docs/csh?topicname=oracle-fin-cloud&version=zurich&pubname=zurich-integrate-applications).
--   Activated the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Oracle Financial Cloud uses the Source-to-Pay integration framework to pull tasks from Oracle Financial Cloud into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](source-to-pay-integration-framework.md).
+-   Activated the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Oracle Financial Cloud uses the Source-to-Pay integration framework to pull tasks from Oracle Financial Cloud into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](../../source-to-pay-operations/concept/source-to-pay-integration-framework.md).
 
 
 ## Primary Data Integration with Oracle Financial Cloud's Dependencies

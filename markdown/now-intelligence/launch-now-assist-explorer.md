@@ -38,7 +38,7 @@ Role required: now\_assist\_explorer\_user to create or edit explorations, any r
     -   The data visualization or list must display table data.
     -   Supported table data sources include database views and Workflow Data Fabric tables.
     -   The table or database view must be included in the Query Generation semantic layer. For more information, see [Add a table to the semantic data layer](add-table-semantic-layer.md#).
-    -   The data cannot be from a secure scope.
+    -   If the data is from an application with a protected scope, access to that scope must be configured. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](../concept/enable-aide-secure-scope-apps.md).
     The results are shown in a new exploration. If you have an exploration open in another tab, you have the option to display the results there instead.
 
     The exploration opens in a floating panel. You can expand the dialog to a full screen or move the exploration to a new tab.

@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Publish a schedule plan for visibility into team coverage
@@ -59,5 +59,5 @@ You can also unpublish a schedule make updates, and then publish it again.
 
 All the schedules that are in **Draft** state move to **Published** state. You can view the published schedule on the team calendar for the assigned agents. You can also analyze the scheduling gaps and staffing information by switch between the day, week, and monthviews in the drop-down. Agents can view their published schedules and approved leaves on MS Outlook after synchronizing their team calendars and events with Microsoft Outlook.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

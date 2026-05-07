@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Guest user access for Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Guest user access for Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure ACL for guest access

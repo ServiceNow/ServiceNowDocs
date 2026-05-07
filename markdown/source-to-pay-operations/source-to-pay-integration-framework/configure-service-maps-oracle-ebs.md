@@ -42,7 +42,7 @@ If the application requires multiple Oracle EBS ERP instances, create separate w
 
 3.  In the Integration Services list, select the service that you want to configure.
 
-    ![Look up Legal Entities from Oracle EBS](../image/oracle-ebs-fullpull.png "Look up Legal Entities from Oracle EBS")
+    ![Look up Legal Entities from Oracle EBS](../../source-to-pay-operations/image/oracle-ebs-fullpull.png "Look up Legal Entities from Oracle EBS")
 
 4.  On the integration service record, fill in the fields.
 

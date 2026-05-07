@@ -41,3 +41,5 @@ Role required: evt\_mgmt\_admin
 
 [Create on-call shift for your team](https://www.servicenow.com/docs/access?context=on-call-scheduling-in-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
 
+**Parent Topic:**[On-call scheduling in Service Operations Workspace for ITOM](../concept/oncall-schedule-escalation.md)
+

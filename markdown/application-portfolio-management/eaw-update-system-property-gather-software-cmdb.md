@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Technology Portfolio Management \(TPM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Technology Portfolio Management \(TPM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Update the system property to gather software products from a CMDB table
@@ -45,7 +45,7 @@ You can include other CMDB tables that contain software products, to fetch and v
 
 [Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](../../concept/eaw-concept/eaw-tpm.md)
 
-[Run a scheduled job to generate TPM lifecycle data](../run-scheduled-job-update-tpm-data.md)
+[Update TPM data for a business application or application service](update-tpm-data.md)
 
-[Schedule a job to generate TPM lifecycle data](../schedule-job-generate-tpm-data.md)
+[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](eaw-restart-tpm-scheduled-job.md)
 

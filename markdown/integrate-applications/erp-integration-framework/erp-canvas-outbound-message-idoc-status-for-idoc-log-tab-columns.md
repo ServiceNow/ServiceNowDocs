@@ -1,6 +1,6 @@
 ---
 title: Outbound message IDoc status for IDoc log tab fields
-description: The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP contains detailed information about an individual message.
+description: The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains detailed information about an individual message.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, idoc, status, log]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Outbound message IDoc status for IDoc log tab fields
 
-The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP contains detailed information about an individual message.
+The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains detailed information about an individual message.
 
 For process details, see [View and troubleshoot IDoc messages](../task/view-and-troubleshoot-idoc-messages.md).
 

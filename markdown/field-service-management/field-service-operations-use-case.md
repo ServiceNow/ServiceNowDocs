@@ -23,7 +23,7 @@ ServiceNow helped the vendor complete the upgrade quickly, reducing phone calls 
 
 ## Field Service operations workflow diagram
 
-![image.FSM-operations-workflow]
+![Field Service Management operations workflow. For text description, refer to the following table.](../image/FSM-operations-workflow.png)
 
 ## Field Service operations workflow steps
 

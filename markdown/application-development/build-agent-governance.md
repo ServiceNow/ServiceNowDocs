@@ -1,17 +1,18 @@
 ---
 title: Build Agent governance
-description: Governance controls in Build Agent help ensure code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
+description: Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-04-01"
 reading_time_minutes: 1
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Build Agent governance
 
-Governance controls in Build Agent help ensure code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
+Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
 
 Governance addresses the following:
 
@@ -26,6 +27,7 @@ Some ways that Build Agent enforces governance include:
 -   Enforce ACLs and role-based access for generated apps, which Build Agent can do.
 -   Validate AI-generated scripts for security vulnerabilities.
 -   Apply code optimization and review before publishing.
+-   While creating agents and skills, Build Agent asks which users and roles it should operate as, as well as which users are allowed to access the agents or skills.
 
 For more information on governance, vibe coding and other ServiceNow development tools, see [Governance for vibe coding and AI-assisted app development](../../vibe-coding/concept/vc-governance.md).
 

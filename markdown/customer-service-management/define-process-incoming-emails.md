@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure process rules for incoming emails, Email to case, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure process rules for incoming emails, Email to case, Email channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Define rules to process incoming emails

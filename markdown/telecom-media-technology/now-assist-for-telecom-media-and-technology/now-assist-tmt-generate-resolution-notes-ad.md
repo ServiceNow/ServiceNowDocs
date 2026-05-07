@@ -41,15 +41,15 @@ The resolution notes generation for ADR skill enables you to generate resolution
 
 6.  After you're finished summarizing the key findings, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d20646e140">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d24070e140">
 
 Option
 
-</th><th align="left" id="d20646e143">
+</th><th align="left" id="d24070e143">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d20646e149">
+</th></tr></thead><tbody><tr><td id="d24070e149">
 
 **Provide feedback for the summary**
 
@@ -59,7 +59,7 @@ Procedure
 -   If you think that the resolution plan wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d20646e182">
+</td></tr><tr><td id="d24070e182">
 
 **Copy the case summary**
 
@@ -67,7 +67,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the resolution plan for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d20646e197">
+</td></tr><tr><td id="d24070e197">
 
 **View the information about the case summary**
 

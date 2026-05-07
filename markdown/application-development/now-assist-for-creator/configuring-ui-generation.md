@@ -16,7 +16,9 @@ breadcrumb: [UI generation, Use generative AI, Now Assist for Creator, Vibe codi
 Configure and install UI generation.
 
 -   **[Install UI generation](../task/install-ui-generation.md)**  
-Install the ServiceNow® Now Assist for Creator application from the ServiceNow® Store to get Now Assist for UI generation.
+Install the Now Assist for Creator application from the ServiceNow® Store to enable UI generation.
+-   **[Grant UI Builder admin role](../task/grant-ui-builder-admin-role.md)**  
+Assign the UI Builder administrator role to a user by editing the user record and adding the ui\_builder\_admin role.
 -   **[Configure UI Builder Agent](../task/configure-ui-builder-agent.md#)**  
 The UI Builder Agent is a Now Assist AI agent that assists low-code developers working in UI Builder by responding to questions, information requests, and page editing instructions.
 

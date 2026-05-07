@@ -23,7 +23,7 @@ Change requests are represented by a span. The duration of the span is defined b
 
 **Note:** To show the blackout and maintenance windows of the change in the calendar view, the **Configuration item** field for the change must be populated. The change schedule view is only able to display related Blackout and Maintenance windows for the primary CI \(Configuration item\) defined for each change request.
 
-![change schedules view](../image/change-schedule-view-annotated.png "Change Schedule timeline page")
+![Change Schedule page with highlighted callouts. For the text descriptions, refer to the table that follows.](../image/change-schedule-view-annotated.png "Change Schedule timeline page")
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 

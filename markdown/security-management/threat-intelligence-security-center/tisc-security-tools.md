@@ -18,7 +18,7 @@ TISC Security Firewall prevents unauthorized access to the network. Palo Alto Ne
 Within TISC, by integrating with other security tools such as Palo Alto Networks enhances overall organization's network security.
 
 -   **[Palo Alto Networks integration](palo-alto-networks-integration.md)**  
-Palo Alto Networks integration once configured enables the threat analyst to add malicious IP addresses, URLs, and domains to External Dynamic List \(EDL\) or remove these entries from EDL once confirmed as non-malicious or clean.
+Palo Alto Networks integration after configuration enables the threat analysts to add malicious IP addresses, URLs, and domains to External Dynamic List \(EDL\) or remove these entries from EDL after confirmation as non-malicious or clean.
 
 **Parent Topic:**[TISC Security Tools integrations](tisc-edr-integrations.md)
 

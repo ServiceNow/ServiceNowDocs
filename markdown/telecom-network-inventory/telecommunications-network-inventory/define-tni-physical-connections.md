@@ -95,5 +95,5 @@ The physical connection data includes the link types, bandwidths, ports, sites, 
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

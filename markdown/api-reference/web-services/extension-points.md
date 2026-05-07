@@ -71,7 +71,7 @@ The term application code refers to:
 
     |Application|Extension point topic|
     |-----------|---------------------|
-    |Coaching|Coaching troubleshooting|
+    |Coaching|[Resolve Coaching issues](https://www.servicenow.com/docs/access?context=cf-coaching-troubleshooting&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|
     |Continual Improvement Management|[Improvement with other applications](https://www.servicenow.com/docs/access?context=cim-integration&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|
     |Customer Service Management|[Extension points in Customer Service Management](https://www.servicenow.com/docs/access?context=extension-points-customer-service&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
     |[Creating custom user roles](https://www.servicenow.com/docs/access?context=creating-custom-csm-user-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|

@@ -36,7 +36,7 @@ You can view the related activity for each recommendation by selecting the summa
 
 1.  Navigate to one of the following locations:
 
-    -   **Workspaces** &gt; **Compliance Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Regulatory alerts**.
+    -   **Workspaces** &gt; **Compliance Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Regulatory alerts**.
     -   **Workspaces** &gt; **Compliance Workspace** and select the Regulatory Change Management dashboard icon ![](../../grc-rcm/image/reg-change-icon.png) and then in the Activity overview, Tracking, or Trends section, select any segment or value in an Alerts related widget to open the list of regulatory alerts with that state.
 2.  Select the regulatory alert that you want and review the recommendations by selecting the **Recommendations** tab.
 

@@ -25,16 +25,14 @@ Role required: ml\_admin
 
 2.  In Step 1 of the configuration, select one of the following options from the Close code source list:
 
-    -   Default close code: Select this option to specify the default security incident close codes that must be used by the training model to identify malicious emails and legitimate ones. Click the lock icon and select one or more False positive codes or Confirmed phishing codes.
+    -   Default close code: Select this option to specify the default security incident close codes that must be used by the training model to identify malicious emails and legitimate ones. Select the lock icon and select one or more False positive codes or Confirmed phishing codes.
     -   Custom close code: Select the Custom close code option if you want to define close codes from custom fields that may be used as part of your existing incident response procedures. To define a close code, select a field from the security incident table and specify one or more filter conditions.
-    ![User Reported Phishing: ML Config: Close codes](../image/cj-sir-ml-urp-config5.png)
-
 3.  In Step 2, import historical data that can be used to train the model.
 
     Select the Data Source for importing the historical data. This can be:
 
-    -   User reported phishing email table: You can see the number of records that can be imported as historical data. Select this option and click **Import**.
-    -   Custom data source: You can attach a single formatted CSV file that contains historical data records. Select the file and click **Import**.
+    -   User reported phishing email table: You can see the number of records that can be imported as historical data. Select this option and select **Import**.
+    -   Custom data source: You can attach a single formatted CSV file that contains historical data records. Select the file and select **Import**.
     **Note:** The CSV file that you import must contain the following headers:
 
     -   Label
@@ -42,9 +40,9 @@ Role required: ml\_admin
     -   Body text
     Each record must contain a Malicious or Legitimate tag in the Label column in the CSV file.
 
-    Click **Cancel Import** to stop importing the data. The import process is canceled and all records that have been imported so far are deleted.
+    Select **Cancel Import** to stop importing the data. The import process is canceled and all records that have been imported so far are deleted.
 
-4.  After you have imported the historical data, click the link to refresh the page.
+4.  After you have imported the historical data, select the link to refresh the page.
 
     You can then either import more training data or continue with the next step.
 
@@ -52,23 +50,21 @@ Role required: ml\_admin
 
     **Note:** The default values for maximum and minimum number of training records are displayed. These thresholds can be modified in the Platform Machine Learning Properties page. Contact Customer Support for assistance.
 
-6.  If the training data is sufficient, click **Train model**.
+6.  If the training data is sufficient, select **Train model**.
 
-    You can update the inputs for training in the screen below.
-
-    ![User Reported Phishing: ML Config: Inputs](../image/cj-sir-ml-urp-config4.png)
+    You can update the inputs for training.
 
 7.  Prediction inputs that you can modify include:
 
     -   What are you interested in predicting?
     -   What input data is helpful to predict the output field?
     -   What historical data do you want to use to train the solution and how frequently do you want to retrain it?
-    The default values for these inputs are displayed. You can modify them and click either of the following:
+    The default values for these inputs are displayed. You can modify them and select either of the following:
 
     -   **Update**: Updates the training model definition.
     -   **Update &amp; Retrain**: Updates the training model definition and retrains the model \(Triggers the **Train Model** function\).
-8.  Finally, when you have completed training the model, click the **Activate Prediction** check box.
+8.  Finally, when you have completed training the model, select the **Activate Prediction** check box.
 
-    Predictions are now provided on every user reported phishing record using that model. If you would like to stop providing predictions on the user reported phishing records, clear the **Activate Prediction** check box and click **Deactivate**.
+    Predictions are now provided on every user reported phishing record using that model. If you would like to stop providing predictions on the user reported phishing records, clear the **Activate Prediction** check box and select **Deactivate**.
 
 

@@ -24,15 +24,15 @@ Role required: none
 
 1.  Create an include or exclude list by performing the appropriate procedure.
 
-<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d388778e90">
+<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d395301e90">
 
 Task
 
-</th><th align="left" id="d388778e93">
+</th><th align="left" id="d395301e93">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d388778e99">
+</th></tr></thead><tbody><tr><td id="d395301e99">
 
 **Create an include list**
 
@@ -45,7 +45,7 @@ For example: `--set IncludeLabelsAndAnnotations="label1,label2"`
 -   When using the k8s\_informer.yaml file, add values under the environment variable INCLUDE\_LABELS\_AND\_ANNOTATIONS.
 
 
-</td></tr><tr><td id="d388778e121">
+</td></tr><tr><td id="d395301e121">
 
 **Create an exclude list**
 

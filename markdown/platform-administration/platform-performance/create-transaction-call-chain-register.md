@@ -23,15 +23,15 @@ Role required: admin
 
 1.  Navigate to the Transaction Log or Slow Transactions list, select the problematic transaction, and enable recording of the call chain.
 
-<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d121939e54">
+<table id="choicetable_nc2_kmn_f4b"><thead><tr><th align="left" id="d125053e54">
 
 Type of Log
 
-</th><th align="left" id="d121939e57">
+</th><th align="left" id="d125053e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d121939e63">
+</th></tr></thead><tbody><tr><td id="d125053e63">
 
 **Transaction Log**
 
@@ -43,7 +43,7 @@ Steps
 4.  In the Transaction Log Entry form, select **Open Record**, then select **Record call chain of next occurrence**.
 
 
-</td></tr><tr><td id="d121939e101">
+</td></tr><tr><td id="d125053e101">
 
 **Slow Transactions**
 

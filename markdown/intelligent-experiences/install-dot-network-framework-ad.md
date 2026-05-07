@@ -1,27 +1,27 @@
 ---
-title: Download and install .Net Desktop Runtime for Agentic Desktop
+title: Download and install .Net Desktop Runtime for AI Desktop Actions
 description: Reduce setup time and prevent installation errors by downloading and installing .Net Desktop Runtime following the instructions.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-02-03"
-reading_time_minutes: 1
-breadcrumb: [Configure, Agentic Desktop, Enable AI experiences]
+reading_time_minutes: 2
+breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Download and install .Net Desktop Runtime for Agentic Desktop
+# Download and install .Net Desktop Runtime for AI Desktop Actions
 
 Reduce setup time and prevent installation errors by downloading and installing .Net Desktop Runtime following the instructions.
 
 ## Before you begin
 
-Ensure that you have installed the Agentic Desktop MSI. For more information, see [Download Agentic Desktop installer](download-agentic-desktop-installer.md).
+Ensure that you have installed the AI Desktop Actions MSI. For more information, see [Download AI Desktop Actions installer](download-agentic-desktop-installer.md).
 
 Role required: admin
 
 ## About this task
 
-The Agentic Desktop installer guides you through installation of .NET Desktop Runtime during the setup.
+The AI Desktop Actions installer guides you through installation of .NET Desktop Runtime during the setup.
 
 ## Procedure
 
@@ -116,5 +116,7 @@ The Agentic Desktop installer guides you through installation of .NET Desktop Ru
 
 ## What to do next
 
-Use Agentic Desktop to design desktop actions. For more information, see [Desktop actions in Agentic Desktop](../concept/desktop-actions-designer-workspace-ad.md).
+Use AI Desktop Actions to design desktop actions. For more information, see [Defined path desktop actions in AI Desktop Actions](../concept/desktop-actions-designer-workspace-ad.md).
+
+**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](../concept/ad-defined-path-da.md)
 

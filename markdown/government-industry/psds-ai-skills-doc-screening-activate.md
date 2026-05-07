@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Activate Now Assist skills, Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -33,8 +33,6 @@ Activate the Document screening Al skill to use Now Assist for PSDS gen-AI to sc
 
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
-
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 -   Confirm that the following applications and plugins are installed:
 

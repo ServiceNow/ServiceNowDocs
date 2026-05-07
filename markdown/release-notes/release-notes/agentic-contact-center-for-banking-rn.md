@@ -36,6 +36,8 @@ See [Agentic Contact Center for Banking](https://www.servicenow.com/docs/access?
 
     This application includes roles that grant access to AI-assisted CSR experiences for business and personal banking and wealth customers.
 
+    These roles enable CSR agents to view and edit all cases within their granted access scope, including cases created by other agents or submitted via the self-service portal. Banking Personal CSR Agents access all consumer cases and Banking Business CSR Agents access all account cases—both limited to their granted case types. The Now Assist AI agent inherits this scoped access for more relevant analysis.
+
 
 ## Activation information
 

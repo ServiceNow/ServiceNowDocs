@@ -1,21 +1,21 @@
 ---
-title: Understanding client side Secrets Management
+title: Understanding client-side Secrets Management
 description: Learn how use Secrets Management to manage access to secrets and groups.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
 breadcrumb: [Exploring Secrets Management, Secrets Management, Platform Security]
 ---
 
-# Understanding client side Secrets Management
+# Understanding client-side Secrets Management
 
 Learn how use Secrets Management to manage access to secrets and groups.
 
 ## Terminology
 
-Client side secrets management is designed to provide a method for managing secrets without the use of proxies, and without giving ServiceNow access to your decrypted data. To understand this process, begin with the following encryption terms.
+Client-side secrets management is designed to provide a method for managing secrets without the use of proxies, and without giving ServiceNow access to your decrypted data. To understand this process, begin with the following encryption terms.
 
 <table id="table_qft_qw1_vvb"><thead><tr><th>
 
@@ -63,12 +63,12 @@ Private key
 
 </td><td>
 
-The private key is one half of the asymmetric key pair. This key is stored in a keystore on your MID server. ServiceNow has not access to this key.
+The private key is one half of the asymmetric key pair. This key is stored in a keystore on your MID Server. ServiceNow has no access to this key.
 
  Combined with the public key, the asymmetric key pair is used to decrypt your secrets.
 
 </td></tr></tbody>
-</table>## Client side encryption process
+</table>## Client-side encryption process
 
 <table id="table_ibg_vvh_vvb"><tbody><tr><td>
 

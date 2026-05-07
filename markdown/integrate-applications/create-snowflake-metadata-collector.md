@@ -1,0 +1,328 @@
+---
+title: Create a Snowflake metadata collector
+description: Create a collector to import metadata from Snowflake.
+locale: en-US
+release: australia
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [Snowflake metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
+---
+
+# Create a Snowflake metadata collector
+
+Create a collector to import metadata from Snowflake.
+
+## Before you begin
+
+Before you begin, verify the following:
+
+-   A MID Server is setup for the collectors. For more information, see [MID Server for metadata collectors](../concept/mid-server-for-metadata-collectors-dc.md).
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the Snowflake collector](prepare-to-run-the-snowflake-collector.md).
+-   Role required: connection-admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
+
+2.  Select the Connect Hub ![Connect Hub icon](../../../build/workflow-data-fabric/image/wdf-connect-hub-icon.png) icon in the left sidebar.
+
+3.  Select **Create** &gt; **Metadata collector**.
+
+4.  From the System list, select **Snowflake**.
+
+5.  Complete the form.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection name|Unique identifier for the connection. This field cannot be modified once the connection is established.|
+    |Short description|Purpose and details of the connection.|
+
+6.  Configure the authentication options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Authenticate using username and password|
+    |Username|Username to use to make the JDBC connection.|
+    |Password|Password of the user.|
+    |Authenticate using a private key|
+    |Username|Username to use to make the JDBC connection.|
+    |Snowflake private key file|Upload the private key file to use for authentication.|
+    |Private key file password|Password for the private key file, if the key is encrypted and a password is set.|
+
+7.  Select from **Collect all schemas** and **Specify which schema to collect**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+8.  Enter the Snowflake connection details.
+
+<table id="table_pjv_hr4_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Server
+
+</td><td>
+
+Hostname of the database server to connect to.
+
+</td></tr><tr><td>
+
+Server port
+
+</td><td>
+
+Port of the database server \(if not the default\).
+
+</td></tr><tr><td>
+
+Database
+
+</td><td>
+
+Name of the database to connect to. Specify multiple databases by adding one value per line.
+
+</td></tr><tr><td>
+
+Snowflake Role
+
+</td><td>
+
+The role used to execute the query.
+
+</td></tr><tr><td>
+
+Excluded database
+
+</td><td>
+
+Name or regular expression indicating databases not to catalog when the Database field is empty.**Note:** This parameter is ignored if the Database field is specified.
+
+</td></tr></tbody>
+</table>9.  Configure the statistics and sampling options.
+
+<table id="table_ocr_gc4_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Collect Data Metric Function Information
+
+</td><td>
+
+Option to harvest metadata about data metric functions and their associations to tables.
+
+</td></tr><tr><td>
+
+Data Metric Observation Count
+
+</td><td>
+
+Number of most recent data metric observations to harvest. Ignored unless Collect Data Metric Function Information is enabled. Default: 1
+
+</td></tr><tr><td>
+
+Enable column statistics collection
+
+</td><td>
+
+Option to harvest column statistics, that is, data profiling. **Note:** Activating this option may extend the collector running time because the collector reads table data to gather profiling metadata.
+
+</td></tr><tr><td>
+
+Target sample size for column statistics
+
+</td><td>
+
+Number of rows sampled for computing column statistics and string-value histograms. For example, to sample 1000 rows, set the value to 1000. Default: 100000
+
+ **Note:** Applies only if Enable column statistics collection is enabled.
+
+</td></tr><tr><td>
+
+Collect Snowflake Table Usage Information
+
+</td><td>
+
+Option to harvest metadata about Snowflake table usage in queries, including popularity. For each table in the database, calculates the percentage of tables queried no fewer times than the subject table.
+
+</td></tr><tr><td>
+
+Table Usage Lookback Days
+
+</td><td>
+
+Number of days in the past from which to begin harvesting table usage. Default: 7 days
+
+</td></tr><tr><td>
+
+Disable Lineage collection
+
+</td><td>
+
+Option to skip harvesting intra-database lineage metadata.
+
+</td></tr><tr><td>
+
+Disable Extended Metadata collection
+
+</td><td>
+
+Option to skip harvesting extended metadata for data asset types such as database, schema, table, columns, functions, stored procedures, user-defined types, and synonyms. Basic metadata for these data asset types is still harvested.
+
+</td></tr></tbody>
+</table>10. Configure the harvesting scope and limits options.
+
+<table id="table_kbn_4lp_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Collect Snowflake Tag Information
+
+</td><td>
+
+Option to harvest metadata about Snowflake tags in or associated with the database specified in the database setting.
+
+</td></tr><tr><td>
+
+Collect All Snowflake Tag Information
+
+</td><td>
+
+Option to harvest metadata about Snowflake tags regardless of the database in which they reside.
+
+</td></tr><tr><td>
+
+Collect Snowflake Policy Information
+
+</td><td>
+
+Option to harvest metadata about Snowflake masking and row-access policies in or associated with the database specified in the database setting.
+
+</td></tr><tr><td>
+
+Collect All Snowflake Policy Information
+
+</td><td>
+
+Option to harvest metadata about Snowflake masking and row-access policies regardless of the database in which they reside.
+
+</td></tr><tr><td>
+
+Collect Streamlit App Information
+
+</td><td>
+
+Option to harvest metadata about Snowflake Streamlit applications.
+
+</td></tr><tr><td>
+
+Enable Sample String Values collection
+
+</td><td>
+
+Option to harvest sample values and histograms for columns containing string data. **Note:** Applies only if Enable column statistics collection is enabled.
+
+</td></tr><tr><td>
+
+Exclude system functions
+
+</td><td>
+
+Option to exclude built-in system functions from harvesting.
+
+</td></tr></tbody>
+</table>11. Configure the connection and reliability options.
+
+<table id="table_yhb_plp_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Snowflake Warehouse
+
+</td><td>
+
+Snowflake warehouse to use when connecting. Default: User's assigned default warehouse
+
+</td></tr><tr><td>
+
+Server environment
+
+</td><td>
+
+Friendly name for the environment in which your database server runs. Useful when the server name is localhost and you need to differentiate it from other environments.
+
+</td></tr><tr><td>
+
+Database ID
+
+</td><td>
+
+Unique identifier for this database, used to generate the database ID when the database name is not sufficiently unique.
+
+</td></tr><tr><td>
+
+JDBC properties
+
+</td><td>
+
+JDBC driver properties passed to the driver connection.
+
+</td></tr><tr><td>
+
+SQL parsing timeout
+
+</td><td>
+
+Timeout in seconds for SQL parsing during lineage collection. Default: 60
+
+</td></tr></tbody>
+</table>12. Select **Save**.
+
+
+## Result
+
+The metadata collector is created and appears on the Connectors page with a Configured status. It is now ready to connect to the source system and harvest metadata.
+
+## What to do next
+
+After creating the collector, you can perform any of the following tasks:
+
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](../concept/manage-data-catalog.md).
+
+**Parent Topic:**[Snowflake metadata collector](../concept/snowflake-metadata-collector.md)
+

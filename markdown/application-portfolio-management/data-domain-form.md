@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\) reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Data Domain form
@@ -56,12 +56,10 @@ Leaf Node
 Indicator that the data domain is at the lowest level of the hierarchy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](apm-reference.md)
+</table>**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference/eaw-reference.md)
 
 **Related topics**  
 
-
-[Create a data domain](../task/create-data-domain-info-architecture.md)
 
 [Add or edit a data domain from the Portfolio page](../task/eaw-task/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.md)
 

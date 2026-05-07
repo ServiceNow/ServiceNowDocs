@@ -5,7 +5,8 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [AI search, LLM status, semantic layer]
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -15,7 +16,7 @@ The health page shows the state of the Now LLM and AI Search, along with the sta
 
 ## Health page overview
 
-Navigate to **All** &gt; **Query Generation** &gt; **Health page** to see the state of Query Generation dependencies. The admin role is required.
+Navigate to **All** &gt; **Query Generation** &gt; **Health page** to see the state of Query Generation dependencies. Role required: sn\_query\_generation.admin or higher
 
 ![Health page showing Query Generation dependencies.](../image/querygen-health-page.png)
 
@@ -55,23 +56,11 @@ The state of Query Generation skills and the LLMs they use. Also the state of AI
 
 </td><td>
 
-For Query Generation skills, if any are inactive, navigate to Now Assist Admin. Activate skills there as described in [Query Generation skills](../task/enable-query-generation.md). If you have error messages, contact Now Support.For AI Search, consult your organization's AI Search administrators.
+For Query Generation skills, if any are inactive, navigate to Now Assist Admin. Activate skills there as described in [Query Generation skills](../task/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
 
 </td></tr><tr><td>
 
-System properties
-
-</td><td>
-
-The state of relevant system properties that can be modified by an administrator and that exist on the sys\_properties table
-
-</td><td>
-
-Navigate to the Properties \[sys\_properties\] table and change the value of the property in question. Update only the required properties that start with sn\_query\_gen. \*\*
-
-</td></tr><tr><td>
-
-Query Generation components
+Query Generation - Semantic Layer status
 
 </td><td>
 
@@ -79,7 +68,7 @@ The health of the various Query Generation components
 
 </td><td>
 
-If there are no components present,run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components.
+If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://www.servicenow.com/docs/access?context=indexing-content-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -104,6 +93,18 @@ Installed products that use Query Generation and their statusThe Now Assist Expl
 </td><td>
 
 You might have to reactivate the skill or upgrade the product.
+
+</td></tr><tr><td>
+
+System properties
+
+</td><td>
+
+The state of relevant system properties that can be modified by an administrator and that exist on the sys\_properties table
+
+</td><td>
+
+Navigate to the Properties \[sys\_properties\] table and change the value of the property in question. Update only the required properties that start with sn\_query\_gen. \*\*
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Tuning the semantic layer](../../ai-data-explorer/concept/semantic-layer-tuning-overview.md)

@@ -17,6 +17,8 @@ Export your project as a file from Project Workspace. Use this file to provide p
 
 ## Before you begin
 
+**Note:** Export to PowerPoint is available only in the GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data center environments.
+
 For Microsoft PowerPoint:
 
 -   Install the Export to PowerPoint for Strategic Portfolio Management application from the ServiceNow store. For more information, see [Install Export to PowerPoint for Strategic Portfolio Management](../../export-to-ppt/task/install-export-to-ppt.md).

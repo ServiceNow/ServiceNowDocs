@@ -27,7 +27,7 @@ Role required: admin
 
 3.  Search for `sn_ap_apm.exception.engine.max_parallel_thread_count` and open the system property.
 
-    ![image.apo-system-properties]The system property `sn_ap_apm.exception.engine.max_parallel_thread_count` opens as a record. The **Value** field displays the default value as 4. This value indicates 4 worker threads of your instance will be used by the exception engine scheduler when it executes. You can edit the record in editing mode.
+    ![System properties of APO](../image/apo-system-properties.png)The system property `sn_ap_apm.exception.engine.max_parallel_thread_count` opens as a record. The **Value** field displays the default value as 4. This value indicates 4 worker threads of your instance will be used by the exception engine scheduler when it executes. You can edit the record in editing mode.
 
 4.  In the **Value** field, you can enter the value as 6, or 8.
 

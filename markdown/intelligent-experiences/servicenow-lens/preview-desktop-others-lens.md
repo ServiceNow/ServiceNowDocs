@@ -7,7 +7,7 @@ product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use, ServiceNow AI Lens, Enable AI experiences]
 ---
 
@@ -48,7 +48,7 @@ By using Lens actions, you can perform one of the following tasks:
 
 ## Procedure
 
-1.  From your system, launch the ServiceNow AI Lens application.
+1.  From your system, launch the ServiceNow AI Lens desktop application.
 
 2.  On the login page, in the **Instance URL** field, enter the ServiceNow instance URL.
 
@@ -60,6 +60,10 @@ By using Lens actions, you can perform one of the following tasks:
 
     Your account must have the lens\_user role.
 
+    **Note:**
+
+    -   If your administrator has enabled auto-login, you can skip signing in every time you launch ServiceNow AI Lens. After your first login, ServiceNow AI Lens automatically takes you to the home page on subsequent launches as long as your session is active. If your session expires or you sign out, ServiceNow AI Lens shows the login screen again. For more information, see [Set up auto-login for ServiceNow AI Lens](configure-instance-url-and-auto-login.md).
+    -   On macOS, when you launch ServiceNow AI Lens desktop app for the first time, your Mac asks whether ServiceNow AI Lens can store your login credentials. Select **Always Allow** to avoid entering your credentials every time you open the application.
 5.  On the onboarding journey widget, complete the onboarding and select **Got it**.
 
     ![Onboarding journey widget with three pages to show you the highlights of the application.](../image/onboarding-widget-lens.png)
@@ -69,6 +73,8 @@ By using Lens actions, you can perform one of the following tasks:
 6.  Select a Lens action.
 
 7.  Select **Proceed with Lens**.
+
+    ![Proceed with Lens button.](../image/lens-actions-home-screen.png)
 
     Lens scanner opens in a separate window.
 
@@ -88,11 +94,17 @@ By using Lens actions, you can perform one of the following tasks:
 
         The default character limit is 500. Users with the admin role can increase this limit to up to 5000 characters by navigating to the `sn_lens_user_prompt_max_length` system property.
 
+        ![Capture data from a single screen](../image/lens-action-submit-form.png "Capture data from a single screen")
+
         **Note:** This is an optional step.
+
+        **Tip:** Use the Upload file icon \(![File Upload icon.](../image/lens-file-upload-icon.png)\) to upload a file from which data is extracted. For more information, see [sn-lens-standalone-app.md\#upload-files-steps](sn-lens-standalone-app.md#upload-files-steps)
 
     2.  Select **Analyze**.
 
         The ServiceNow AI Lens preview window displays the extracted output in an editable form.
+
+        ![Preview of extracted output displayed](../image/lens-action-form-preview-window.png "Preview of extracted output displayed in an editable form")
 
 11. Extract data from multiple screenshots.
 
@@ -110,11 +122,13 @@ By using Lens actions, you can perform one of the following tasks:
 
         The first screenshot is captured.
 
-    4.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon \).
+    4.  Place the ServiceNow AI Lensscannerwindow over another document or page and then select the Capture icon ![Capture icon.](../image/capture-icon.png)\).
 
         The second screenshot is captured.
 
         Repeat the step to capture more screenshots, if required.
+
+        ![Display of the number of screenshots captured.](../image/lens-action-multi-capture-scrnshts.png "Display of the number of screenshots captured")
 
         **Note:**
 
@@ -130,23 +144,27 @@ By using Lens actions, you can perform one of the following tasks:
 
             **Note:** You must have the admin role to set the system properties.
 
-    5.  To complete the capture, select the Done icon \(\).
+    5.  To complete the capture, select the Done icon \(![Capture complete icon.](../image/lens-capture-done-icon.png)\).
 
     6.  Select **Analyze**.
 
         The data is extracted from the screenshots and the form that you can update and submit is shown.
 
+        ![Data extracted from multiple screenshots and editable form shown.](../image/lens-multi-scrnsht-submit-form.png "Data extracted from multiple screenshots and editable form shown")
+
+        ![Lens action data preview.](../image/lens-action-data-preview.png "Lens action data preview")
+
 12. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d110200e600">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d119388e751">
 
 Task
 
-</th><th align="left" id="d110200e603">
+</th><th align="left" id="d119388e754">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d110200e609">
+</th></tr></thead><tbody><tr><td id="d119388e760">
 
 **Filling form**
 
@@ -156,7 +174,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d110200e630">
+</td></tr><tr><td id="d119388e781">
 
 **Previewing extracted data**
 

@@ -6,7 +6,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Manage issues, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -33,11 +33,11 @@ There are multiple methods you can use to report an issue using the Service Port
 
     2.  Press the Return key.
 
-    ![Service Portal](../image/service-portal1.png "Service Portal home page")
+
 
 2.  In the screen header, navigate to **GRC** &gt; **My Issues** to view issues already assigned to you.
 
-    ![My issues](../image/my-issues.png "My issues")
+
 
 3.  Click **Report an Issue**.
 

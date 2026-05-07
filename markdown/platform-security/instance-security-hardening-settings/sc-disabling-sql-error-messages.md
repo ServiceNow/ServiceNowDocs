@@ -36,7 +36,7 @@ Ensure that the **glide.db.loguser** system property is set to **false**.
 
 ## More information
 
-<table id="table_ajc_b43_3kb"><thead><tr><th>
+<table id="table_ajc_b43_3kc"><thead><tr><th>
 
 Attribute
 

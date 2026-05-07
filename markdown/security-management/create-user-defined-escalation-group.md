@@ -21,7 +21,7 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Groups** &gt; **Escalations**.
 
-2.  Click**New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -33,11 +33,9 @@ Role required: sn\_si.admin
 
     ![Escalation](../image/EscalationGroup.png)
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     An escalation group is available for all security incidents in the initial group. You can create multiple groups.
-
-    ![Scans](../image/EscalationGroupList.png)
 
 
 **Parent Topic:**[Security Operations user-defined escalation](../concept/user-defined-escalation.md)

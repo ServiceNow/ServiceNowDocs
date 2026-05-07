@@ -7,7 +7,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -316,6 +316,21 @@ SYS.DBA\_MINING\_MODELS
     -   Nutanix
     -   IBM
     -   Hyper-V
+-   **For virtual machines: Collect hardware data**
+
+    To populate the CPUQ folder in your GLAS report download, run the Oracle-provided hardware script on each target virtual machine. The following table lists the required script and credentials for each operating system.
+
+    |Operating system|Script|Required credentials|
+    |----------------|------|--------------------|
+    |Windows|cpuq.cmd|Username and password|
+    |Linux or UNIX|cpuq.sh|Root username and password|
+
+    Access to the operating system command line is required. Use **Command Prompt** on Windows systems and a UNIX Shell on Linux or UNIX systems.
+
+    1.  Log in to the target virtual machine using the required credentials.
+    2.  Open the command-line interface for the operating system.
+    3.  Run the hardware script for the operating system.
+    4.  Repeat for each target virtual machine.
 
 ## Database CI relationships
 
@@ -491,4 +506,11 @@ After Discovery finishes discovering the components of your database or middlewa
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** to view and access the Oracle GLAS Data Collection.
 
 **Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+
+**Related topics**  
+
+
+[Oracle Catalog discovery](oracle-catalog-discovery.md)
+
+[Oracle pluggable database and container database discovery](oracle-cdb-pdb-discovery.md)
 

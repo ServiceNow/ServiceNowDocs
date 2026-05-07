@@ -31,7 +31,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 4.  Select the **Type** of matching criterion.
 
-<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d221993e115">
+<table id="choicetable_at3_1ch_cw"><tbody><tr><td id="d225074e115">
 
 **Simple Match**
 
@@ -39,7 +39,7 @@ The assignment workbench uses configurable matching criteria, such as skills and
 
 Creates a one-to-one match. For example, match the time zone of an agent with the time zone of a task location.
 
-</td></tr><tr><td id="d221993e124">
+</td></tr><tr><td id="d225074e124">
 
 **Aggregate**
 
@@ -47,7 +47,7 @@ Creates a one-to-one match. For example, match the time zone of an agent with th
 
 Takes a simple query as an input and provides aggregate results. The query returns a set of users.
 
-</td></tr><tr><td id="d221993e133">
+</td></tr><tr><td id="d225074e133">
 
 **Scripted**
 

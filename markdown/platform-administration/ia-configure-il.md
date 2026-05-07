@@ -15,7 +15,7 @@ Implement the following steps to understand the configuration page flow to start
 
 ## Before you begin
 
-Before performing this task, you must install Now Assist for Setup from the ServiceNow store, and setup the application you want to configure.
+Before performing this task you must install Now Assist for Setup application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
 Role required: admin
 
@@ -45,11 +45,11 @@ Role required: admin
 
 4.  Expand the left panel configurations to view the pre-configured configurations.
 
-    **Note:** The configurations that are pre-configured are marked with a checkmark. You can modify the default configurations that are preconfigured and marked with a Magic icon.
+    **Note:** The configurations that are pre-configured are marked with a checkmark and a magic wand. You can modify the default configurations that are preconfigured and marked with a Magic icon.
 
 5.  Select a configuration that needs to be configured.
 
-    Select each individual configurations that aren't pre-configured and complete the configurations.
+    Select each individual configurations that aren't pre-configured and complete the configurations. You need to expand each configuration to make its console items selectable.
 
     **Note:** Every application has different configurations that are either pre-configured or need to be configured.
 
@@ -57,13 +57,11 @@ Role required: admin
 
     This step packages the current batch of configuration changes into an update set XML file. A new XML file is created every time you make any configuration changes.
 
-    **Note:** This step is applicable if you have selected either ITSM or CSM as the product module.
-
-7.  Select **Configure with Now Assist** to start the configuration using Now Assist agent.
+7.  Select **Configure with Now Assist** to start AI-assisted configuration or receive guided assistance with Now Assist.
 
     **Note:** As a pre-req, install Now Assist for Setup \(app-ia-now-assist\) app for the **Configure with Now Assist** button to show up on the Configuration Console page.
 
-    The Now Assist agent shows up and starts the configuration process.
+    The Now Assist panel shows up and starts the agentic configuration process.
 
     **Note:** The **Configure with Now Assist** button appears only for console items that are backed by AI capabilities.
 
@@ -81,6 +79,10 @@ Role required: admin
         **Note:** The Lock icon disappears as soon as the pre-requisite console item is marked as completed.
 
     If a new update is available, the system displays a banner on the Configuration Console page.
+
+    **Note:** Select How this works link to find more information about the console items. The following modal shows up with these options on selecting the help link.
+
+    ![Screenshot showing the help link modal](../image/ia-help-link-modal.png)
 
 10. Select **Mark as configured** when you complete the configuration process of a configuration.
 

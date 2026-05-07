@@ -25,15 +25,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d25675e101">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d27965e101">
 
 Option
 
-</th><th align="left" id="d25675e104">
+</th><th align="left" id="d27965e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d25675e110">
+</th></tr></thead><tbody><tr><td id="d27965e110">
 
 **To add a space**
 
@@ -42,7 +42,7 @@ Action
 -   Click **New**. The Facility Space interceptor page displays. Select the type of space you are creating.![Facility Space interceptor page displays list of space types.](../image/SpaceInterceptor.png)
 
 
-</td></tr><tr><td id="d25675e133">
+</td></tr><tr><td id="d27965e133">
 
 **To edit the details of a space**
 
@@ -193,15 +193,15 @@ Select this check box if the space can be occupied. See [Space roll up calculati
 
 6.  Continue with one of the following options.
 
-<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d25675e433">
+<table id="choicetable_zlc_rp4_ht"><thead><tr><th align="left" id="d27965e433">
 
 Option
 
-</th><th align="left" id="d25675e436">
+</th><th align="left" id="d27965e436">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d25675e442">
+</th></tr></thead><tbody><tr><td id="d27965e442">
 
 **To add the space**
 
@@ -210,7 +210,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d25675e460">
+</td></tr><tr><td id="d27965e460">
 
 **To update the space details**
 

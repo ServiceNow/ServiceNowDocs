@@ -265,8 +265,6 @@ Associated email communication that has been sent.
 </td></tr></tbody>
 </table>## Sourcing event workflow
 
-![Sourcing event workflow](../image/ne-workflow.png)
-
 The default states that are available for a sourcing event are listed.
 
 -   Draft

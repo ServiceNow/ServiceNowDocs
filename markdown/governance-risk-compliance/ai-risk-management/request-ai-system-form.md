@@ -7,7 +7,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Request an AI use case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -116,6 +116,26 @@ Managed by
 </td><td>
 
 User responsible for managing the AI system. **Note:** By default, this field is automatically populated with the requestor or submitter of the request.
+
+</td></tr><tr><td>
+
+Business application
+
+</td><td>
+
+Select one or more business applications to associate with the AI system.
+
+ This field is available only when Enterprise Architecture \(EA\) is installed and business applications are configured.
+
+ Associating a business application creates an association between the AI system and the selected application.
+
+ For more information, see [AI Control Tower integration with Enterprise Architecture](https://www.servicenow.com/docs/access?context=eaw-aict&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+
+ **Note:**
+
+-   You can select multiple business applications.
+-   If you do not select a business application, intake and onboarding continue without interruption.
+-   Retired business applications are not available for selection.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

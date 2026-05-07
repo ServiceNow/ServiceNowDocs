@@ -97,7 +97,7 @@ To perform the ERP Source configuration for SAP, follow these steps:
 
         Set up subflows for the source configuration to lookup material group details from SAP.
 
-    ![ERP Source Configuration of S4 HANA](../image/sap-integration-source-config.png "ERP Source Configuration of S4 HANA")
+    ![ERP Source Configuration of S4 HANA](../../source-to-pay-operations/image/sap-integration-source-config.png "ERP Source Configuration of S4 HANA")
 
     **Note:** Similarly, you can select SAP ECC configuration to view the list of services.
 

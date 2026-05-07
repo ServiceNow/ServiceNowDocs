@@ -16,9 +16,11 @@ View a summary of accessibility updates and improvements completed for the Austr
 
 ## Release Highlights
 
-The Australia release focuses on enhancing usability for everyone—especially users who navigate by keyboard, rely on assistive technologies, or have low vision or cognitive differences. Key improvements include a user preference that auto-focuses page alerts, improved semantic markup in Service Portal Designer for better screen reader navigation, reflow support for the Create a Change Request page, and a Format Painter plugin for TinyMCE.
+The Australia release focuses on enhancing usability for everyone—especially users who navigate by keyboard, rely on assistive technologies, or have low vision or cognitive differences. Key improvements include a new guided tour that showcases accessibility preferences, a new user preference that auto-focuses page alerts, improved semantic markup in Service Portal Designer for better screen reader navigation, reflow support for the Create a Change Request page, and a Format Painter plugin for TinyMCE.
 
 -   **New features and other improvements**
+
+    **Learn about Accessibility Preferences with a guided tour:**Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
 
     **New Accessibility Preference: Enable Auto-focus on page alerts.**Enable this user preference to automatically move keyboard focus to page alerts, so you won’t miss critical messages while navigating with a keyboard or screen reader.
 

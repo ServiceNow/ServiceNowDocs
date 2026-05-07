@@ -245,7 +245,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance. The consumer can create a remote task to sync data and update the value of the virtual field in the associated target task record.
 
- The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-bridge&ft:locale=en-US) or by using the `updateVirtualField` API.
+ The target field can be updated either by using the Virtual Inbound option described in the [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-exchange&ft:locale=en-US) or by using the `updateVirtualField` API.
 
 </td></tr></tbody>
 </table>8.  Click **Submit**.
@@ -367,7 +367,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
 
  When a source table doesn’t contain a field that exists on a target table, the field is configured as a virtual field. The values specified for the virtual field are passed from the source instance to the target instance.
 
- The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-bridge&ft:locale=en-US) or by using the `updateVirtualField API`.
+ The target field can be updated either by using the Virtual Outbound option described in the [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-exchange&ft:locale=en-US) or by using the `updateVirtualField API`.
 
 </td></tr></tbody>
 </table>11. Click **Submit**.
@@ -383,7 +383,7 @@ Select this check box to enable virtual inbound field mapping. A virtual field i
     |Consumer condition|Customer company or account that you want this remote task definition to be entitled to.|
     |Remote task definition|Name of this remote task definition record. This name is auto-filled.|
 
-    For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-entitlements&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+    For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-entitlements&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 14. Click **Publish**.
 

@@ -41,7 +41,7 @@ The Customer voice quality issue resolution agentic workflow has the following d
 
 ## Configure the Customer voice quality issue resolution agentic workflow
 
-This agentic workflow requires a third-party agent, the RADCOM ticket handling agent, to retrieve the customer experience profile. To use the third-party agent, you must create an external agent by following the steps listed in the  section.
+This agentic workflow requires a third-party agent, the RADCOM ticket handling agent, to retrieve the customer experience profile. To use the third-party agent, you must create an external agent by following the steps listed in the [Create an external AI agent](https://www.servicenow.com/docs/access?context=create-external-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) section.
 
 ## Test the agentic workflow
 

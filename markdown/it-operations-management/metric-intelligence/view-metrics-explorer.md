@@ -25,10 +25,7 @@ The Insights Explorer provides a canvas to which you can drag various metrics fo
 
 Insights Explorer displays metric boundaries according to the most recently configured model. Therefore, legacy anomalies from a previous build may still appear as anomalies, even though according to the current boundaries, the alert does not qualify as an anomaly.
 
-You can also access the Insights Explorer from the following maps:
-
--   View metrics in a Dependency Views map
--   [View metrics from a business service map](t_EMViewDashboard.md)
+You can also access the Insights Explorer from the business service map. For details, see [View metrics from a business service map](t_EMViewDashboard.md).
 
 ![Dashboard for Metric Intelligence metrics, where you can display charts for selected CI metrics.](../image/InsightsExplorerLondon.png "Insights Explorer")
 

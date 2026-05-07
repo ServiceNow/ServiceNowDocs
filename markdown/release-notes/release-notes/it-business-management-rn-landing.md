@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 ---
 
 # Strategic Portfolio Management release notes
@@ -22,8 +22,6 @@ The ServiceNow® Data Separation application enables organizations to restrict a
 The ServiceNow® Goal Framework for SPM application enables you to automate the actual value of your targets for the goals that are defined using the ServiceNow® Goal Framework application. Goal Framework for SPM was enhanced and updated in the Australia release.
 -   **[Goal Framework release notes](goal-framework-rn.md)**  
 The ServiceNow® Goal Framework application enables your business to create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes. Goal Framework was enhanced and updated in the Australia release.
--   **[Now Assist for Strategic Portfolio Management \(SPM\) release notes](now-assist-for-spm-rn.md)**  
-The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories for epics, generate project insights, create demands through conversations, and quickly gain updates into projects. Now Assist for Strategic Portfolio Management \(SPM\) was enhanced and updated in the Australia release.
 -   **[Portfolio Planning release notes](portfolio-planning-rn.md)**  
 The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Australia release.
 -   **[Project Portfolio Management release notes](project-portfolio-management-rn.md)**  

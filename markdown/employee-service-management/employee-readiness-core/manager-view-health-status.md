@@ -6,7 +6,7 @@ release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Employee Health and Safety Status, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -30,8 +30,6 @@ All users can view the health and safety status of their direct reports. However
     The status page shows whether each user has completed all requirements for returning to the workplace.
 
     **Note:** A user is **Cleared** or **Not Cleared** based on the health and safety requirements of their current location.
-
-    ![User view of health and safety status for their direct reports.](../image/health-status-manager.png)
 
 2.  View the specific list of requirements that a user has cleared or not cleared by clicking **View Details**.
 

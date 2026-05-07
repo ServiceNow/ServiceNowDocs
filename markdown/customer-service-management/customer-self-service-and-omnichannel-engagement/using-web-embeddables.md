@@ -1,6 +1,6 @@
 ---
 title: Configure Web Embeddables
-description: Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
+description: Web Embeddables capability enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
 locale: en-US
 release: australia
 product: Customer Self-service and Omnichannel Engagement
@@ -13,11 +13,13 @@ breadcrumb: [Set up self-service, Configure, Customer Service Management]
 
 # Configure Web Embeddables
 
-Web Embeddables enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
+Web Embeddables capability enables you to embed the ServiceNow components into external websites outside of the ServiceNow environment. You can use the default components or create your own custom components to interact with the ServiceNow platform, using dedicated APIs that allow for real-time data exchange and functionality without requiring users to directly access the ServiceNow instance.
 
 The Web Embeddables homepage displays modules, components, and provides an overview on how to configure and embed components. It also shows Frequently Asked Questions that provide insights into the most common queries asked by users.
 
-![Web Embeddables homepage featuring steps for embedding components, exploring components, and an FAQs section.](../image/web-embeddables-homepage.png "Web Embeddables homepage")
+## Web Embeddables overview
+
+Web Embeddables overview video 
 
 You can configure and embed the following ServiceNow components on the third-party websites.
 
@@ -31,5 +33,7 @@ You can configure and embed the following ServiceNow components on the third-par
 -   Catalog browse: Allows you to browse and search catalog items from different catalogs and categories within a third-party website.
 -   Object list: Enables you to display records from different tables with their related actions in a list format.
 
-![Screenshot displaying steps to configure and embed a Web Embeddables component on an external site.](../image/we-end-to-end-workflow.svg "Web Embeddables end-to-end flow")
+## Web Embeddables end-to-end flow
+
+![Screenshot displaying steps to configure and embed a Web Embeddables component on an external site.](../image/we-end-to-end-workflow.svg)
 

@@ -43,8 +43,6 @@ To customize a Next Experience landing page for different audiences and use case
 
     1.  From the left vertical bar, select the context menu and then select **Duplicate variant**.
 
-        ![Duplicate the Next Experience default landing page](../image/duplicate-landing-page.png)
-
     2.  In the **Name** field, enter a name for the page variant.
 
     3.  Next to the **Audiences** field, select **Add** and then select an audience from the list.

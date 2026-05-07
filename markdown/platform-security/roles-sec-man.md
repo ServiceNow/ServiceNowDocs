@@ -1,19 +1,19 @@
 ---
-title: Secrets management roles
-description: Secrets management adds these roles.Assign non-admin secrets roles to other users. Secrets administrators have the same privileges as secrets manager and viewer.Grant this role to users who must be able to perform any of the following functions.Grant this role to users who must be able to view secret and secret group records.
+title: Secrets Management roles
+description: Secrets Management adds these roles.Assign non-admin secrets roles to other users. Secrets administrators have the same privileges as secrets manager and viewer.Grant this role to users who must be able to perform any of the following functions.Grant this role to users who must be able to view secret and secret group records.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Secrets management dashboard, Secrets Management, Platform Security]
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
-# Secrets management roles
+# Secrets Management roles
 
-Secrets management adds these roles.
+Secrets Management adds these roles.
 
-**Parent Topic:**[Secrets management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
 
 ## Secrets administrator \[sn\_secrets.admin\]
 
@@ -38,7 +38,7 @@ None.
 -   A user must have both the admin and security\_admin roles to be assigned the sn\_secret.admin role.
 -   Avoid granting an admin role when more targeted roles are available.
 
-## Secrets manager \[sn\_secrets.secret\_manager\]
+## Secrets Management \[sn\_secrets.secret\_manager\]
 
 Grant this role to users who must be able to perform any of the following functions.
 

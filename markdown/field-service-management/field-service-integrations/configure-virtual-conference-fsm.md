@@ -27,15 +27,15 @@ This task provides general steps to set up the Field Service Management Virtual 
 
 1.  Configure the conference call bridge.
 
-<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d48873e89">
+<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d51392e89">
 
 To
 
-</th><th align="left" id="d48873e92">
+</th><th align="left" id="d51392e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d48873e98">
+</th></tr></thead><tbody><tr><td id="d51392e98">
 
 **Set up the Zoom meeting**
 
@@ -53,7 +53,7 @@ The conference call details of the Zoom meetings are stored in the Notify Confer
 
 For more information, see [Configure a provider in Notify](https://www.servicenow.com/docs/access?context=configure-providers-for-provider-selectors&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
-</td></tr><tr><td id="d48873e168">
+</td></tr><tr><td id="d51392e168">
 
 **Set up the Microsoft Teams meeting**
 

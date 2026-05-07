@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -18,6 +18,8 @@ Create a list of table records that can be drilled down to from chart interactio
 Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](../concept/report-view-access-control.md) and [Platform Analytics roles](../../par-for-workspace/reference/platform-analytics-roles.md).
 
 ## About this task
+
+**Warning:** If you want to change which columns are shown on a new List, first save the visualization. Otherwise, the default columns are removed. Ignore this warning if you do not want to keep any of the default columns.
 
 In the Zurich release, this List replaces the simple list visualization. On migration, all simple lists are migrated to the new List.
 
@@ -38,6 +40,8 @@ In the Zurich release, this List replaces the simple list visualization. On migr
 4.  Select **Add data source**.
 
     You can only select Table data sources, such as the Incident \[incident\] table.
+
+    The list appears, populated with a default selection of columns depending on the default view of the selected table. You can change the columns in the Columns and rows section. Save the List before changing the column selection.
 
 5.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
@@ -255,9 +259,9 @@ Columns
 
 </td><td>
 
-Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default. These columns are not included as selected columns in the configuration panel until you save the data visualization for the first time.
+Select the columns from the table that you want to display in the visualization.**Note:** The List shows some columns by default after you select the data source. These columns are not included as selected columns in the configuration panel until you save the data visualization for the first time. If you add columns without first saving the list data visualization, these default columns are removed.
 
-On upgraded instances, this feature to show default columns as selected cannot be used with List visualizations that were created on Zurich before Platform Analytics experience bundle 7.2.1 was installed.
+If you're editing the columns on an existing List visualization, and you see columns on the List but no selected columns in the configuration panel, manually add those columns that you want to keep. Any columns that you do not add are removed when you apply your changes. This issue occurs only on List visualizations that were created on Zurich before Platform Analytics experience bundle 7.2.1 was installed.
 
 </td></tr><tr><td>
 

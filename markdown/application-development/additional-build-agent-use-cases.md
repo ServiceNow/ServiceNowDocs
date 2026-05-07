@@ -6,6 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-04-01"
 reading_time_minutes: 1
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -21,7 +22,7 @@ Furthermore, Build Agent can automate the creation of readme files for source co
 
 ## Learning assistance
 
-Developers can use the Build Agent as a resource for learning ServiceNow application development practices. You can inquire about a wide range of topics, including development techniques, available APIs, and the overall functionality of the ServiceNow platform.
+Developers can use the Build Agent as a resource for learning ServiceNow application development practices. You can ask about a wide range of topics, including development techniques, available APIs, and the overall functionality of the ServiceNow platform.
 
 The Build Agent is designed for supporting continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts. This approach makes it easier for developers to grasp and apply general guidelines in their work.
 
@@ -41,6 +42,9 @@ Some sample use cases for app development with Build Agent include the following
 -   Building a mobile-first experience
 -   Training new developers on the ServiceNow AI Platform
 -   Extending existing applications
+-   Designing agentic workflows that chain actions across ServiceNow tables, approvals, and integrations
+-   Creating custom AI agents tailored to your organization's specific workflows, such as service desk, HR, or IT operations
+-   Generating skills that extend Now Assist with domain-specific capabilities
 
 **Parent Topic:**[Exploring Build Agent](exploring-build-agent.md)
 

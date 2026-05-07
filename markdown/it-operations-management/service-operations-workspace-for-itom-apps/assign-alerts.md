@@ -37,15 +37,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d511535e134">
+<table id="choicetable_qy3_vpd_qbc"><thead><tr><th align="left" id="d520413e134">
 
 Assignment
 
-</th><th align="left" id="d511535e137">
+</th><th align="left" id="d520413e137">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d511535e143">
+</th></tr></thead><tbody><tr><td id="d520413e143">
 
 **Yourself**
 
@@ -53,7 +53,7 @@ Actions
 
 Select **Assign to you** and then select **OK**.
 
-</td></tr><tr><td id="d511535e158">
+</td></tr><tr><td id="d520413e158">
 
 **Someone else**
 
@@ -65,7 +65,7 @@ Select **Assign to you** and then select **OK**.
 4.  Select the **Assign &lt;number&gt; alerts** button.
 
 
-</td></tr><tr><td id="d511535e194">
+</td></tr><tr><td id="d520413e194">
 
 **Assignment group**
 

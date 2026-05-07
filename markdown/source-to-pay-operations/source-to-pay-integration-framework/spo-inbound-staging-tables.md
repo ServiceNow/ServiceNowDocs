@@ -95,7 +95,7 @@ The Third Party Unit \[sn\_fcms\_intg\_imp\_uom\] staging table temporarily stor
 **Related topics**  
 
 
-[Inbound staging tables for Supplier Lifecycle Operations](../../supplier-lifecycle-operations/concept/slo-inbound-staging-tables.md)
+[Inbound staging tables for Supplier Lifecycle Operations](slo-inbound-staging-tables.md)
 
 [Inbound staging tables for Accounts Payable Operations](../../accounts-payable-operations/concept/inbound-staging-tables-for-apo.md)
 

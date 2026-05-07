@@ -35,17 +35,17 @@ You can add a specific configuration item to a phase only once, although it can 
 
     The list displays all CIs that are associated with the selected phase.
 
-5.  Select a phase from the **Phase** list to add or remove configuration items of any CI class.
+5.  Select a phase from the **Phase** list to add or remove configuration items.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d74095e110">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d76328e110">
 
 Option
 
-</th><th align="left" id="d74095e113">
+</th><th align="left" id="d76328e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d74095e119">
+</th></tr></thead><tbody><tr><td id="d76328e119">
 
 **Add existing CIs to the release phase**
 
@@ -56,7 +56,7 @@ Steps
 3.  Select **Add**.
  The selected configuration items are added to the phase.
 
-</td></tr><tr><td id="d74095e149">
+</td></tr><tr><td id="d76328e149">
 
 **Remove associated CIs from a phase**
 

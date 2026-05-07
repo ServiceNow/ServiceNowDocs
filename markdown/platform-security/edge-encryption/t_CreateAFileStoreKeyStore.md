@@ -31,7 +31,7 @@ This step creates both the key storage and the encryption key.
 
 2.  Add the encryption key to the file.
 
-<table id="choicetable_sm3_f1b_tt"><tbody><tr><td id="d215133e88">
+<table id="choicetable_sm3_f1b_tt"><tbody><tr><td id="d219928e88">
 
 **AES 128**
 
@@ -39,7 +39,7 @@ This step creates both the key storage and the encryption key.
 
 Place the encryption key, exactly 16 bytes, into the file.
 
-</td></tr><tr><td id="d215133e97">
+</td></tr><tr><td id="d219928e97">
 
 **AES 256**
 

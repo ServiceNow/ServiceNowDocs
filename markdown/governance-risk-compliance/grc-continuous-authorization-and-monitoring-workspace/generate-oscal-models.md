@@ -29,7 +29,7 @@ Role required:
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(![List](../image/ws-list-icon.png)\).
 
 3.  Select Authorization packages from the **RMF** list.
 
@@ -37,15 +37,13 @@ Role required:
 
     **Note:** The authorization package must be in the Implement, Assess, Authorize, or Monitor state to generate OSCAL SSP.
 
-5.  To export OSCAL SSP, select **Generate OSCAL SSP**.
+5.  Navigate to the Controls tab.
 
-    **Note:** If you’re using the Xanadu version, start from Step 5 in [Export data in OSCAL format](https://www.servicenow.com/docs/bundle/xanadu-governance-risk-compliance/page/product/grc-cam-workspace/task/generate-oscal-models.html).
-
-6.  Select **Proceed** in the pop-up window to commence generating the report.
+6.  On the Controls tab, from the Generate OSCAL dropdown list, select **Generate OSCAL SSP**.
 
     A message appears stating that the word file is being generated. A zip is generated which contains JSON files along with some diagrams. You’ll have to refresh the page before you download the JSON files.
 
-7.  Select the **Download OSCAL SSP** from the **Generate OSCAL SSP** drop-down list to download the SSP zip file.![Dowload oscal-ssp-zip.](../image/cam-oscal-ssp-without-zip.gif)
+7.  Select More icon and then select **Download OSCAL SSP** from the **Generate OSCAL SSP** drop-down list to download the SSP zip file.![Dowload oscal-ssp-zip.](../image/cam-oscal-ssp-without-zip.png)
 
     **Important:** Verify that the pop-up blocker is turned off for the URL so that the SSP zip file is automatically downloaded to your local repository.
 

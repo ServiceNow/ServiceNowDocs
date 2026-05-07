@@ -1,15 +1,15 @@
 ---
-title: Configuring the employee experience in AI-native IT Service Management
+title: Configuring the employee experience in Simplified IT Service Management
 description: Enable an AI-first comprehensive employee experience focused on a simplified portal with an AI-first chat approach to find answers, order items, check status, and create incidents.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Configure integrations and ITSM experiences in AI-native IT Service Management, Configure, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
 
-# Configuring the employee experience in AI-native IT Service Management
+# Configuring the employee experience in Simplified IT Service Management
 
 Enable an AI-first comprehensive employee experience focused on a simplified portal with an AI-first chat approach to find answers, order items, check status, and create incidents.
 
@@ -19,7 +19,7 @@ The following experiences are available after configuring the employee experienc
 -   Now Assist Virtual Agent enhanced with prebuilt AI agents for requesters, enabling incident creation, status checks, and approvals in their preferred channels such as Microsoft Teams.
 -   Prebuilt content such as taxonomy, catalog items, and record producers to resolve common IT issues and requests.
 
-For information about available AI agents for employee configurations, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+For information about available AI agents for employee configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 ## Service channels
 
@@ -67,7 +67,7 @@ Routing requests from emails. Email action helps in registering requests or issu
 
 </td><td>
 
-Email actions are preconfigured with AI-native ITSM.
+Email actions are preconfigured with Simplified ITSM.
 
 </td><td>
 
@@ -110,7 +110,7 @@ The Virtual Agent platform provides user assistance through conversations within
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|Catalog items|Services or product offerings available for your users.|Prebuilt catalog items and record producer with fulfillment workflows covering common IT issues and requests are active. For information about prebuilt catalog items, see [Catalog items installed with AI-native IT Service Management](../reference/catalog-items-base-system.md).|Review and edit a catalog item or create a catalog item using the native catalog builder experience. For information about adding a catalog item using Catalog Builder, see [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
+|Catalog items|Services or product offerings available for your users.|Prebuilt catalog items and record producer with fulfillment workflows covering common IT issues and requests are active. For information about prebuilt catalog items, see [Catalog items installed with Simplified IT Service Management](../reference/catalog-items-base-system.md).|Review and edit a catalog item or create a catalog item using the native catalog builder experience. For information about adding a catalog item using Catalog Builder, see [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
 
 ## Surveys
 
@@ -144,7 +144,7 @@ Preconfigured employee satisfaction surveys to gather feedback post incident res
 
 </td><td>
 
-Create or edit an existing survey using Survey Designer. For information about configuring surveys, see [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for survey configuration, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Create or edit an existing survey using Survey Designer. For information about configuring surveys, see [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for survey configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>

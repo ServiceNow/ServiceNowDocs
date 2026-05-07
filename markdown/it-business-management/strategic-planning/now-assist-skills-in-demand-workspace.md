@@ -17,7 +17,7 @@ Now Assist for Strategic Portfolio Management \(SPM\) provides AI-powered skills
 
 ## Demand summarization
 
-The demand summarization skill reviews the fields of a demand record and helps generate a clear summary. Use this skill to quickly understand the key details of a demand without reviewing individual fields, comments, and work notes.
+The demand summarization skill reviews the fields and related lists of a demand record and helps generate a clear summary. Use this skill to quickly understand the key details of a demand without reviewing individual fields, comments, and work notes.
 
 The generated summary is displayed in a summary card on the demand record. You can copy the summary for further use.
 

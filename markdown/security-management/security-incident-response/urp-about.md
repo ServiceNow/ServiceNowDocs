@@ -1,6 +1,6 @@
 ---
 title: Create security incidents from User Reported Phishing emails
-description: Use this feature to create security incidents from user reported phishing emails.The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality available. See Create rules to validate user-reported phishing attacks.As a user with the sn\_si.admin role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to security@acme.com are categorized as user reported phishing emails.Define the header information that must be captured from user reported phishing emails.User reported phishing emails are converted to security incidents based on the email matching rules that have been defined.The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents.Phishing email records stored in the sn\_si\_phishing\_email table are converted to security incidents records.You can view security incidents associated with the phishing email records in the Security Analyst Workspace.This section covers some of the frequently asked questions about the enhanced User Reported Phishing feature.
+description: Use this feature to create security incidents from user reported phishing emails.The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality. See Create rules to validate user-reported phishing attacks.As a user with the sn\_si.admin role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to security@acme.com are categorized as user reported phishing emails.Define the header information that must be captured from user reported phishing emails.User reported phishing emails are converted to security incidents based on the email matching rules that have been defined.The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents.Phishing email records stored in the sn\_si\_phishing\_email table are converted to security incidents records.You can view security incidents associated with the phishing email records in the Security Analyst Workspace.This section covers some of the frequently asked questions about the enhanced User Reported Phishing feature.
 locale: en-US
 release: australia
 product: Security Incident Response
@@ -66,7 +66,7 @@ View the security incident record details including the Related Lists, Worknotes
 
 ## Required components and plugins
 
-The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality available. See **Create rules to validate user-reported phishing attacks**.
+The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality. See **Create rules to validate user-reported phishing attacks**.
 
 **Important Installation Instructions**
 
@@ -89,10 +89,6 @@ This enhancement replaces the existing User Reported Phishing design. The new de
 
 -   The **User Reported Phishing** inbound actions available prior to the Security Incident Response 9.0 release are now disabled. Security incidents are no longer created through the disabled inbound actions.
 -   The Security Operations spoke application must be installed for the new design to take effect. This includes the [Transform user-reported phishing emails to security incidents](urp-about.md#) flow which is available in an inactive state by default. Activate this flow to create security incidents from the phishing email records.
-
-The following image shows the differences between the old and the new designs:
-
-![User Reported Phishing: Differences](../image/urp-diff-image.png)
 
 To use the enhanced User Reported Phishing feature, the following plugins and components are required:
 
@@ -170,7 +166,7 @@ Use these options to configure the following user reported phishing settings.
     -   Enter a string that identifies the beginning of the email header.
     -   Enter a string that identifies the end of the email header.
 
-        **Note:** Apply these settings only to headers captured as part of the email body of the phishing email. For instance, if the **PhishAlarm** plugin \(previously known as Wombat\) has configured with the Microsoft Outlook client, when the user clicks the **Report Phish** button, the email headers are captured as per the configuration defined here. The header information is not captured if the phishing email is forwarded as an attachment.
+        **Note:** Apply these settings only to headers captured as part of the email body of the phishing email. For instance, if the **PhishAlarm** plugin \(previously known as Wombat\) has configured with the Microsoft Outlook client, when the user selects the **Report Phish** button, the email headers are captured as per the configuration defined here. The header information is not captured if the phishing email is forwarded as an attachment.
 
 3.  Specify filters to eliminate headers that are not required for investigating the security incident.
 

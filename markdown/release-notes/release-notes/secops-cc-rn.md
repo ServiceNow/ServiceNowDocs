@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-04-06"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Configuration Compliance release notes
@@ -33,6 +33,10 @@ The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing asset
 For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Australia release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 
 ## New in the Australia release
+
+-   **[Tenable compliance test uniqueness key](https://www.servicenow.com/docs/access?context=cc-tenable-compliance-test-uniqueness-key&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+
+    You can now configure which identifier the system uses to uniquely match incoming Tenable compliance test records. Previously, compliance tests were identified by the check\_id field, which caused records to be overwritten when multiple tests shared the same control identifier. You can now select the identifier that best matches how your Tenable data is structured \(**compliance\_control\_id**, **check\_id**, or **compliance\_functional\_id**\), ensuring test records are accurately preserved during ingestion.
 
 -   **[Qualys parameter to ignore passed test results](https://www.servicenow.com/docs/access?context=Qualys-cc-Integration&version=australia&pubname=australia-security-management&ft:locale=en-US)**
 

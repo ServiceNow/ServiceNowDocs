@@ -67,7 +67,7 @@ Here are some example queries and description of how they works in Knowledge Gra
 
 ## Aggregate or Sorting Queries
 
-These queries allow users to perform simple statistics and sorting directly in the Virtual Agent or Now Assist panel.
+These queries let users perform simple statistics and sorting directly in the Virtual Agent or Now Assist panel.
 
 Here are some example queries and description of how they works in Knowledge Graph.
 
@@ -75,13 +75,13 @@ Here are some example queries and description of how they works in Knowledge Gra
 |-------|-----------|
 |Count of incidents grouped by priority.|Counts the records in incident table grouped by priority column.|
 |Count of problems grouped by stage.|Counts the records in problem table grouped by stage column.|
-|Count case task assigned to group “Dev – Knowledge Graph”.|Counts the records in case task table that are assigned to assignment group = Dev – Knowledge Graph.|
+|Count case task assigned to group “Dev - Knowledge Graph ”.|Counts the records in case task table that are assigned to assignment group = Dev – Knowledge Graph.|
 |List in progress hr cases by ordered by created date.|Lists the HR cases from HR cases table ordered by the created date field.|
 |Show top 5 users by number of incident assigned to them.|Lists the top 5 user by number of incidents from the incident table assigned to them.|
 
 ## Unsupported Query Categories
 
-ServiceNow's Knowledge Graph does not support the following types of queries:
+Knowledge Graph does not support the following types of queries:
 
 ## Queries Missing References or with Misspellings
 
@@ -120,4 +120,8 @@ Here are a few examples of unsupported queries:
 -   Incident SLA
 -   How can I request a windsurf license?
 -   How to install global protect for PC?
+
+## CMDB query support
+
+Knowledge Graph supports CI Relationship \(Rel CI\) queries, enabling natural language questions about CMDB configuration item dependencies and infrastructure topology. For more details see [Configuration item relationships and Knowledge Graph](ci-relationships-knowledge-graph.md)
 

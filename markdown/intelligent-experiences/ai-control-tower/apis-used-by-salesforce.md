@@ -1,6 +1,6 @@
 ---
 title: APIs used by Salesforce
-description: Explore the Salesforce APIs used in AI service Graph Connector for Salesforce. The table lists all the Salesforce API endpoints used by the connector.
+description: Explore the APIs used in AI Service Graph Connector for Salesforce.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Salesforce, Service Graph Connectors for AI Control Tower, Enterpri
 
 # APIs used by Salesforce
 
-Explore the Salesforce APIs used in AI service Graph Connector for Salesforce. The table lists all the Salesforce API endpoints used by the connector.
+Explore the APIs used in AI Service Graph Connector for Salesforce.
 
 The following table lists all the Salesforce API endpoints used by the connector.
 

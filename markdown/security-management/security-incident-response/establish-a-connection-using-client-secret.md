@@ -29,7 +29,7 @@ Role required: admin
 
     **Note:** This template contains the delegated API permission required for the MSTeams integration.
 
-4.  From the Related Links section, click Create **New Connection &amp; Credential**.
+4.  From the Related Links section, select Create **New Connection &amp; Credential**.
 
     | | |
     |---|---|

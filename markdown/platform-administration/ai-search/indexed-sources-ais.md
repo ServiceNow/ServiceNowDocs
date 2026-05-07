@@ -44,7 +44,7 @@ Indexing large source tables, such as the Task \[task\] table and tables that ex
 
 ## Indexed source attributes and field settings
 
-You can configure attributes and field settings for an indexed source to control indexing behavior for source records. Attributes control the indexed source's behavior at the record level, while field settings define its behavior for individual fields on indexed records. For more information, including lists of available attributes and field settings, see [Indexed source attributes for AI Search](indexed-source-attributes-ais.md#) and [Field settings for AI Search](field-settings-ais.md#).
+You can configure attributes and field settings for an indexed source to control indexing behavior for source records. Attributes control the indexed source's behavior at the record level, while field settings define its behavior for individual fields on indexed records. For more information, including lists of available attributes and field settings, see [Indexed source attributes for AI Search](indexed-source-attributes-ais.md) and [Field settings for AI Search](field-settings-ais.md).
 
 ## Indexing content from an indexed source
 
@@ -74,9 +74,9 @@ The AI Search generalized RAG \(Retrieval-Augmented Generation\) framework offer
 Prevent AI Search from indexing content found in your knowledge blocks.
 -   **[Activate indexing of catalog variable content on Catalog Item records](../task/activate-catalog-variable-indexing.md)**  
 Activate indexing of searchable content from variables on Catalog Item records. Configure the set of Catalog Items eligible for catalog variable indexing and the set of variables to index.
--   **[Indexed source attributes for AI Search](indexed-source-attributes-ais.md#)**  
+-   **[Indexed source attributes for AI Search](indexed-source-attributes-ais.md)**  
 An indexed source attribute defines indexing behavior for all records from an indexed source.
--   **[Field settings for AI Search](field-settings-ais.md#)**  
+-   **[Field settings for AI Search](field-settings-ais.md)**  
 A field setting controls indexing behavior for a specified field \(column\) on all records from an indexed source.
 -   **[Indexing content from AI Search indexed sources](indexing-content-ais.md)**  
 AI Search indexes records on indexed source tables to make their content searchable.

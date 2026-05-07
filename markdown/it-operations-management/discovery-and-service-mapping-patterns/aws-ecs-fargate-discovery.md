@@ -7,7 +7,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -24,6 +24,17 @@ Starting with Discovery and Service Mapping Patterns version 1.18.0, the Amazon 
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## Amazon ECS data model
+
+The Amazon AWS - ECS pattern introduces the following CI classes that extend an existing CMDB class.
+
+|CI class|Extends from|
+|--------|------------|
+|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
 
 ## Prerequisites
 
@@ -52,7 +63,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     1.  In the ServiceNow AI Platform navigation bar, navigate to **All** &gt; **Configuration** &gt; **Identification/Reconciliation**, and select **CI Identifiers**.
     2.  Search for and open the VM Object record.
-    3.  Select the **Related Entries** tab and make sure it’s configured as shown in the VM Object Related Entry figure. If it isn’t, specify a new related entry: In the Related Entries related list, select **New**, fill out the form, and then select **Submit**.
+    3.  Select the **Related Entries** tab and make sure it's configured as shown in the VM Object Related Entry figure. If it isn't, specify a new related entry: In the Related Entries related list, select **New**, fill out the form, and then select **Submit**.
 
         ![Related entry configuration](../image/vm-object-related-entry.png "VM Object Related Entry")
 
@@ -87,7 +98,7 @@ Discovery populates the data in the CMDB when running the Amazon AWS - ECS patte
 |Object ID \[object\_id\]|The ARN that identifies the task.|
 |Name \[name\]|A user-generated string used to identify the task.|
 |Launch Type \[launch\_type\]|The launch type on which the task runs.|
-|Operational status \[operation\_status\]|The health status of the task, determined by the health of the essential containers in it.|
+|Operational status \[operational\_status\]|The health status of the task, determined by the health of the essential containers in it.|
 |CPU \[cpu\]|The number of CPU units used by the task, as stated in the task definition.|
 |Memory \[memory\]|The amount of memory, in MiB, used by the task, as stated in the task definition.|
 
@@ -128,6 +139,7 @@ The ARN that identifies the virtual machine \(VM\) instance. **Note:** Complete 
 |-----|-----------|
 |Key \[key\]|The Tag key.|
 |Value \[value\]|The Tag value.|
+|Configuration item \[configuration\_item\]|References the discovered CI that the tag is associated with.|
 
 |Field|Description|
 |-----|-----------|
@@ -152,36 +164,81 @@ In this example, the AWS Cloud ECS Cluster CI is hosted on an AWS Datacenter. It
 
 ## CI relationships
 
-These relationships are created to support Amazon ECS resource discovery.
+The Amazon AWS - ECS pattern creates the following relationships and references to support Amazon ECS resource discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
-|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Uses::Used by|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
-|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Runs::Runs on|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|
-|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Runs::Runs on|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|
-|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Hosted on::Hosts|AWS datacenters|
-|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Uses::Used by|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|
-|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Hosted on::Hosts|AWS Datacenters|
+|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Used by::Uses|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
+|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 |AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Runs on::Runs|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
-|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Runs on::Runs|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
+|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|Uses::Used by|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|
+|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]\*|Runs on::Runs|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
+|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]\*|Runs on::Runs|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
 |AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Runs on::Runs|Docker Container \[cmdb\_ci\_docker\_container\]|
 |AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Uses::Used by|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|
-|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Hosted on::Hosts|AWS Datacenters|
-|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Runs on::Runs|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
-|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 |AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|Used by::Uses|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|
 |AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|Used by::Uses|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|
-|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|Hosted on::Hosts|AWS Datacenters|
-|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+|Docker Container \[cmdb\_ci\_docker\_container\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+|Docker Container \[cmdb\_ci\_docker\_container\]|Used by::Uses|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
 |Container Repository \[cmdb\_ci\_container\_repository\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 |Container Repository Entry \[cmdb\_ci\_container\_repository\_entry\]|Hosted on::Hosts|Container Repository \[cmdb\_ci\_container\_repository\]|
-|Docker Container \[cmdb\_ci\_docker\_container\]|Hosted on::Hosts|AWS Datacenters|
-|Docker Container \[cmdb\_ci\_docker\_container\]|Runs::Runs on|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|
-|Docker Container \[cmdb\_ci\_docker\_container\]|Used by::Uses|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
 |Docker Image \[cmdb\_ci\_docker\_image\]|Provisioned From::Provisioned|Container Repository Entry \[cmdb\_ci\_container\_repository\_entry\]|
 |Docker Image \[cmdb\_ci\_docker\_image\]|Instantiates::Instantiated by|Docker Container \[cmdb\_ci\_docker\_container\]|
 
-**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+\*The launch type determines which relationship is created. For Fargate launch type tasks, the relationship is created with the AWS Cloud ECS Cluster. For EC2 launch type tasks, the relationship is created with the Virtual Machine Instance.
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]|
+
+## AWS tag discovery
+
+The Amazon AWS - ECS pattern collects tags and populates them in the Key Value \[cmdb\_key\_value\] table.
+
+<table id="table_tag_discovery_ecs"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Key \[key\]
+
+</td><td>
+
+The Tag key.
+
+</td></tr><tr><td>
+
+Value \[value\]
+
+</td><td>
+
+The Tag value.
+
+</td></tr><tr><td>
+
+Configuration item \[configuration\_item\]
+
+</td><td>
+
+References one of the following CIs that the tag is associated with: -   AWS Cloud ECS Cluster \[cmdb\_ci\_cloud\_ecs\_cluster\]
+-   Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]
+-   AWS Cloud ECS TaskDefinition \[cmdb\_ci\_cloud\_ecs\_task\_definition\]
+-   AWS Cloud ECS Task \[cmdb\_ci\_cloud\_ecs\_task\]
+-   AWS Cloud ECS Service \[cmdb\_ci\_cloud\_ecs\_service\]
+
+</td></tr></tbody>
+</table>**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
 

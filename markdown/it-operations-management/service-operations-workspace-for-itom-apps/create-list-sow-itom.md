@@ -48,3 +48,5 @@ Create custom groupings of records listed under the **Lists** tab, such as incid
     The list appears in the **My Lists** tab.
 
 
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

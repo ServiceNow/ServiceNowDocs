@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [Workflow Data Fabric Home, Workflow Data Fabric]
 ---
@@ -26,6 +26,14 @@ Workflow Data Fabric addresses a common enterprise challenge: Data is scattered 
 
     Where Connection Admins create and manage connections to external systems. From Connect Hub, admins configure credentials and authentication, set up metadata collectors, and grant Data Stewards access to work with connected data.
 
+-   **Data Catalog**
+
+    The self-service discovery layer where consumers browse and evaluate Data Products, Data Interfaces, and other cataloged assets. The Data Catalog displays trust scores, lineage, and governance metadata, enabling consumers to request access and confirm data usability before building on it.
+
+-   **Data Workbench**
+
+    The interface in Workflow Data Fabric Home where Data Stewards create Data Interfaces and Data Products. The Data Workbench is also used to define mappings, set ACLs, and publish or promote assets.
+
 
 For more information, see [Workflow Data Fabric Home navigation](workflow-data-fabric-tutorial.md).
 
@@ -41,6 +49,18 @@ For more information, see [Workflow Data Fabric Home navigation](workflow-data-f
 
 For more information, see [Workflow Data Fabric Home roles](../reference/installed-with-workflow-data-fabric.md).
 
+## Workflow Data Fabric Home benefits
+
+|Benefit|Feature|Users|
+|-------|-------|-----|
+|Discover and reuse existing data connections.|Data Catalog, Connect Hub|All users|
+|Find data assets through marketplace-style browsing with trust scores, lineage, and semantic search.|Data Catalog|WDF Consumer, WDF Builder|
+|Get AI-guided recommendations.|Now Assist for Workflow Data Fabric|All users|
+|Package related Data Interfaces with business meaning, documentation, and governance metadata.|Data Workbench, Data products|WDF Consumer, Data Steward|
+|Support single table, JOIN, UNION, bi-directional synchronization, and aggregation patterns.|Data Workbench, Data interfaces|Data Steward|
+|Continuously discover schemas, build lineage, and enrich governance metadata without manual effort.|Metadata collectors|Data Steward, WDF Consumer|
+|Provide trusted, contextualized data that AI agents and workflows can safely consume.|Data products, Metadata|WDF Operator|
+
 ## What to explore next
 
 To learn more about configuring and using Workflow Data Fabric Home, see:
@@ -48,5 +68,7 @@ To learn more about configuring and using Workflow Data Fabric Home, see:
 -   [Configuring Workflow Data Fabric Home](configuring-workflow-data-fabric.md)
 -   [Now Assist for Workflow Data Fabric \(WDF\)](now-assist-for-workflow-data-fabric-landing.md)
 -   [Connect to external systems](connecthub-connect-to-external-systems.md)
+-   [Data Catalog](../../../administer/workflow-data-fabric/concept/data-catalog.md)
+-   [Data Products](../../../administer/data-products/concept/data-products.md)
 -   [Workflow Data Fabric Home Reference](workflow-data-fabric-reference.md)
 

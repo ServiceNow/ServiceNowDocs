@@ -18,13 +18,15 @@ Mapping raw log data that streams into your instance determines how the data is 
 
 ## Before you begin
 
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
 By default, Health Log Analytics tries to [auto-map](../concept/hla-data-input-automapping.md) every incoming log line to the correct tag. If properties aren't discovered automatically, map the data input sources manually by defining a JavaScript function.
 
-In the JavaScript function, you are required to map only the service instance \(here called application service\). Mapping the component and the source type is optional: Health Log Analytics tries to extract their values from the log data automatically. If the attempt fails, it assigns the default values. If you map the component but not the source type or vice versa, the system tries to extract the missing value from the log data. If it fails, it assigns the component value to the source type or vice versa, depending on which one you have mapped. This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+In the JavaScript function, you're required to map only the service instance \(here called application service\). Mapping the component and the source type is optional: Health Log Analytics tries to extract their values from the log data automatically. If the attempt fails, it assigns the default values. If you map the component but not the source type or vice versa, the system tries to extract the missing value from the log data. If it fails, it assigns the component value to the source type or vice versa, depending on which one you have mapped. This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 **Note:**
 

@@ -39,15 +39,15 @@ When a Now Assist skill is enabled, the Now Assist icon ![](../../../administer/
 
     **Note:** If Now Assist doesn't recognize the entered text, it displays a list of the Service Graph Connectors installed on your instance by their discovery source names, such as `SG-Infoblox`. You can then select a connector for further diagnosis.
 
-<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d198224e206">
+<table id="choicetable_x5w_r4d_zcc"><thead><tr><th align="left" id="d201391e206">
 
 Option
 
-</th><th align="left" id="d198224e209">
+</th><th align="left" id="d201391e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198224e215">
+</th></tr></thead><tbody><tr><td id="d201391e215">
 
 **Connector name**
 
@@ -59,7 +59,7 @@ After you enter a connector name, you can select a data source that is associate
 
 ![Diagnosing a failed import set with a connector name.](../image/now-assist-sgc-diagnose-connector.png)
 
-</td></tr><tr><td id="d198224e251">
+</td></tr><tr><td id="d201391e251">
 
 **Data source name**
 
@@ -69,7 +69,7 @@ Data source name for a connector to diagnose. For example, `SG-Infoblox IP Addre
 
 ![Diagnosing a failed import set with a data source name.](../image/now-assist-sgc-diagnose-data-source.png)
 
-</td></tr><tr><td id="d198224e271">
+</td></tr><tr><td id="d201391e271">
 
 **Import set**
 

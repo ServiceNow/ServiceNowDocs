@@ -31,7 +31,7 @@ The External user self-registration configuration must be enabled.
 
 3.  On the Account sign up form, fill in the fields.
 
-    First name, Last name, Email, and Supplier name are required fields.![Registration form for Account sign up.](../image/supplier-collaboration-portal-self-register.png)
+    First name, Last name, Email, and Supplier name are required fields.
 
     **Note:** The **Supplier name** field has been added in the Xanadu December 2024 upgrade. This field is available only after **M2M mapping between supplier contact and suppliers** is enabled.
 

@@ -116,7 +116,7 @@ Role required: none
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_w54_wkq_fs"><tbody><tr><td id="d92842e459">
+<table id="choicetable_w54_wkq_fs"><tbody><tr><td id="d93899e459">
 
 **Assign an existing tag**
 
@@ -124,7 +124,7 @@ Role required: none
 
 Begin typing the tag name and select the tag.
 
-</td></tr><tr><td id="d92842e468">
+</td></tr><tr><td id="d93899e468">
 
 **Create a tag**
 

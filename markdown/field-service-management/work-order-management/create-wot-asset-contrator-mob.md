@@ -31,7 +31,7 @@ Role required: wm\_ext\_agent or wm\_ext\_manager
     -   Enter the asset code in **Asset Tag**.
 4.  Tap the asset record and do one of the following actions.
 
-<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d85645e103">
+<table id="choicetable_hzl_5p3_dwb"><tbody><tr><td id="d88280e103">
 
 **To create a work order for this asset**
 

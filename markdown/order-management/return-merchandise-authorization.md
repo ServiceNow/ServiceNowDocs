@@ -1,0 +1,31 @@
+---
+title: Return Merchandise Authorization
+description: Return Merchandise Authorization \(RMA\) enables the return, replacement, and repair for install base items. It offers simplified processes, decreased turnaround time, and a unified workflow.
+locale: en-US
+release: australia
+topic_type: concept
+last_updated: "2026-05-06"
+reading_time_minutes: 1
+breadcrumb: [Order operations, Explore, Sales Customer Relationship Management]
+---
+
+# Return Merchandise Authorization
+
+Return Merchandise Authorization \(RMA\) enables the return, replacement, and repair for install base items. It offers simplified processes, decreased turnaround time, and a unified workflow.
+
+The RMA Case Management application includes the RMA case type. This case type provides the ability to reference multiple install base items as case line items on an RMA case record.
+
+Using case line items, multiple issues can be tracked for the same RMA case. Also, the issues can be resolved in each case line item independently before resolving and closing the RMA case.
+
+## Related links
+
+-   [Activate the Return Merchandise Authorization plugin](activate-return-merchandise-authorization-plugin.md)
+-   [Return Merchandise Authorization Case Management](../reference/return-merchandise-authorization-case-management-reference.md)
+
+**Related topics**  
+
+
+[Activate the Return Merchandise Authorization plugin](activate-return-merchandise-authorization-plugin.md)
+
+[Return Merchandise Authorization Case Management](../reference/return-merchandise-authorization-case-management-reference.md)
+

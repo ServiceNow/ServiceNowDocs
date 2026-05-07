@@ -26,9 +26,7 @@ By default, when the URL parameter is present, the description element will be f
 -   \{1\} - field label
 -   \{2\} - field value
 
-This default format string can be overridden using the property **glide.rss.description\_format**. An example of the formatted RSS feed can be seen in the following screen capture from Firefox:
-
-![](../image/RssFormat.png "RSS Format")
+This default format string can be overridden using the property **glide.rss.description\_format**.
 
 **Parent Topic:**[RSS feed generator](c_RSSFeedGenerator.md)
 

@@ -21,7 +21,7 @@ Role required: sn\_sec\_cmn.write
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Duplication Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the form, as appropriate:
 
@@ -94,9 +94,9 @@ Description
 Describes the purpose and application of this duplication rule; when it should be used, for example a rule designed for IP-based observable, or security incidents from the firewall.
 
 </td></tr></tbody>
-</table>4.  Right-click in the record header and select **Save** or click **Update**.
+</table>4.  Select and hold \(or right-click\) in the record header and select **Save** or select **Update**.
 
-5.  To set duplication actions, if you have chosen **Update duplicate record**, click **New** to create duplication actions for each field you want to update in the incident.
+5.  To set duplication actions, if you have chosen **Update duplicate record**, select **New** to create duplication actions for each field you want to update in the incident.
 
 6.  Fill in or edit the fields on the form, to describe how to update the field:
 
@@ -183,11 +183,7 @@ Active
 Select this check box to activate the action.
 
 </td></tr></tbody>
-</table>    ![Duplication actions with relationship](../image/DuplicationActionsRelationship.png)
-
-7.  Click **Submit**.
-
-    ![Duplication rule](../image/DuplicationRule.png)
+</table>7.  Select **Submit**.
 
 
 **Parent Topic:**[Shared data transformation](../concept/shared-data-transformation.md)

@@ -1,6 +1,6 @@
 ---
 title: Use agentic AI for the OT Manager Foundation
-description: Use the Operational Technology Manager \(OTM\) AI agent within an agentic workflow to complete tasks autonomously.
+description: Use the Operational Technology \(OT\) Manager Foundation AI agent within an agentic workflow to complete tasks autonomously.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [OT Manager Foundation, Operational Technology]
 
 # Use agentic AI for the OT Manager Foundation
 
-Use the Operational Technology Manager \(OTM\) AI agent within an agentic workflow to complete tasks autonomously.
+Use the Operational Technology \(OT\) Manager Foundation AI agent within an agentic workflow to complete tasks autonomously.
 
 <table id="table_ofm_rf1_l2c"><thead><tr><th>
 
@@ -72,5 +72,5 @@ Agentic workflows and their AI agents use [role masking](https://www.servicenow.
 -   **[Import the OT device spreadsheet into OT CMDB agentic workflow](now-assist-otm-aiagents-import-ot-device-workflow.md)**  
 Use the Import OT device spreadsheet into OT CMDB agentic workflow to automate the upload, validation, and import of your OT device data into the OT CMDB.
 
-**Parent Topic:**[OT Manager Foundation](now-assist-for-otm-landing.md)
+**Parent Topic:**[Operational Technology \(OT\) Manager Foundation](now-assist-for-otm-landing.md)
 

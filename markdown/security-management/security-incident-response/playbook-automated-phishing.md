@@ -30,8 +30,6 @@ The following are the stages of the process definition and corresponds to the se
 
 Each stage has activities within it.
 
-![Automated phishing playbook overview](../image/automated-phishing.gif "Automated Phishing playbook")
-
 Once you mark a task complete in a stage, you can move to the next task. You can save a task at any point in time and return to the playbook at a later date and time. After you complete all the tasks in a stage, you can move to the next stage. The status is reflected in the left-hand panel as you keep completing tasks and stages. An Activity log on the right-hand side of the playbook shows all the data that you have entered for each task.
 
 After you complete all the tasks, you’re asked to review the details you entered in all the stages. You can choose to edit any field or click Finish to complete the process of creating the entitlement.

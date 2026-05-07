@@ -7,7 +7,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
@@ -26,7 +26,7 @@ Ensure that Now Assist for SPM is installed in your instance and that the follow
 -   Acceptance criteria generation
 -   Refine records
 
-For more information, see [Configure Now Assist Admin features](configure-now-assist-for-spm.md).
+For more information, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
 
 Role required: scrum\_story\_editor
 

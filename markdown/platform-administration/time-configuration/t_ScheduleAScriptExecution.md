@@ -90,7 +90,7 @@ Condition
 
 </td><td>
 
-A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for scheduled report emails and Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed.For more information, see [Script sandbox](https://www.servicenow.com/docs/access?context=script-sandbox&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for scheduled report emails and Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed.For more information, see [Script sandbox evaluator](https://www.servicenow.com/docs/access?context=script-sandbox&version=australia&pubname=australia-api-reference&ft:locale=en-US).
 
 After upgrade, jobs with conditional scripts that contain these disallowed API components finish with errors.
 

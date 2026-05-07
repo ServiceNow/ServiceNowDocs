@@ -15,8 +15,6 @@ breadcrumb: [Explore, Workforce Optimization for Customer Service, Customer Serv
 
 Learn how you can review and assess the quality of completed interactions and tasks. Enhance your teams' skills set by assigning them training based on the assessments and add skills to their profile when they get trained.
 
-![Infographic displaying how predictive intelligence assesses agent skills and recommends training for agents. For more information, see the text the follows.](../image/coaching_wfo_cs.png)
-
 Here's an example of how Workforce Optimization for Customer Service uses Predictive Intelligence to recommend skills for agents:
 
 <table id="table_dsl_tmr_cmb"><thead><tr><th>
@@ -104,11 +102,7 @@ When a task requires the skill Firewall, Agent A is automatically considered for
 Over time, the Predictive Intelligence machine learning algorithms learn which skills were assigned to the agents to resolve the cases.
 
 </td></tr></tbody>
-</table>The infographic shows how you can use Predictive Intelligence to recommend skills for your agents.
-
-![Infographic displaying work assigned to agents based on their skills by using Predictive Intelligence and Skill Recommendation application.](../image/csm_skills_recommendation_flow.png)
-
-As a coach, you can:
+</table>As a coach, you can:
 
 -   Use surveys to evaluate your team's performance.
 -   Recognize improvement opportunities and assign training tasks.

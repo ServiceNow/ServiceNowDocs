@@ -26,7 +26,7 @@ Key Features of the Integration
 
 ## Supported Industry Products
 
-This integration supports all Industry Products, each extending the value of data models, frameworks, and capabilities required for work order management in Field Service Management. For more information, see [CRM and Industry Products](https://www.servicenow.com/docs/access?context=industry-products-landing&version=australia&pubname=australia-industry-products&ft:locale=en-US).
+This integration supports all Industry Products, each extending the value of data models, frameworks, and capabilities required for work order management in Field Service Management. For more information, see [Industry Products](https://www.servicenow.com/docs/access?context=industry-products-landing&version=australia&pubname=australia-industry-products&ft:locale=en-US).
 
 ## Access to work orders and work order tasks
 

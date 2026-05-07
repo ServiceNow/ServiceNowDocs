@@ -1,6 +1,6 @@
 ---
-title: Optimizing Sales and Order Management through Contract Lifecycle Automation
-description: Sales and Order Management integration with Contract Management Pro enables seamless integration between sales professionals and legal teams by enabling sales agents to create legal sales contracts from a quote.
+title: Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation
+description: Sales Customer Relationship Management integration with Contract Management Pro enables seamless integration between sales professionals and legal teams by enabling sales agents to create legal sales contracts from a quote.
 locale: en-US
 release: australia
 product: Contract Management Pro
@@ -11,11 +11,11 @@ reading_time_minutes: 5
 breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Optimizing Sales and Order Management through Contract Lifecycle Automation
+# Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation
 
-Sales and Order Management integration with Contract Management Pro enables seamless integration between sales professionals and legal teams by enabling sales agents to create legal sales contracts from a quote.
+Sales Customer Relationship Management integration with Contract Management Pro enables seamless integration between sales professionals and legal teams by enabling sales agents to create legal sales contracts from a quote.
 
-## Benefits of integrating Contract Management Pro and Sales and Order Management
+## Benefits of integrating Contract Management Pro and Sales Customer Relationship Management
 
 The integration provides the following benefits:
 
@@ -36,7 +36,7 @@ The integration provides the following benefits:
 |Order Management|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 |Order to cash operations|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 |Post Sales Support|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
-|Sales and Order Management workflows \(lead-to-cash core\)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
+|Sales Customer Relationship Management workflows \(lead-to-cash core\)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 |Customer Life Cycle Management Workflows|![Yes](../../../reuse/images/icon-check-mark-green.png)|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 |Contract lifecycle management|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 |Contract document authoring|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
@@ -44,11 +44,11 @@ The integration provides the following benefits:
 |Contract document Analysis using generative AI|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 |Contract document metadata extraction using generative AI|![No](../../../reuse/images/icon-error-red-x.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|![Yes](../../../reuse/images/icon-check-mark-green.png)|
 
-## Workflow for Sales and Order Management
+## Workflow for Sales Customer Relationship Management
 
 The following figure shows an example workflow of how an sales agent, sales operation specialist, and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the lead-to-cash workflow. It also provides sales operation professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-![SOM - CM Pro workflow](../image/SOM-CMPro-solution-workflow.png "Sales and Order Management and Contract Management Pro workflow")
+![SOM - CM Pro workflow](../image/mmassest0021242-SOM-CMPro-workflow.png "Sales Customer Relationship Management and Contract Management Pro workflow")
 
 In this workflow:
 
@@ -73,7 +73,7 @@ The following roles are required to initiate, view, and manage contract executio
 -   **Contract configurator**: This role is assigned with Sales Ops specialist role and it enables sales ops specialists to configure data required for contract initiation and its related tasks.
 -   **Contract user**: This role is required to initiate and track contract execution.
 
-## Requirements for integrating Sales and Order Management and Contract Management Pro
+## Requirements for integrating Sales Customer Relationship Management and Contract Management Pro
 
 1.  [Install Quote Management](https://www.servicenow.com/docs/access?context=installing-quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US).
 2.  [Install Contract Management Pro](../task/cncore-install-cmpro.md).

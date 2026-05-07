@@ -57,8 +57,6 @@ Change the ASP code to redirect users to the proper ServiceNow instance.
 </asp>
 ```
 
-![](../image/ASPPortalRedirectCode.png "ASP Portal Redirect")
-
 The following C\# code handles the OnClick button event for the form. The code:
 
 -   Creates the cookie "SM\_USER"

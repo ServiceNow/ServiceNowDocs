@@ -76,7 +76,7 @@ Problem solving methodology
 </td><td>
 
 Select the type of methodology to solve the problem:-   8D: A comprehensive, team-based approach for complex issues \(plan, team, describe, contain, root cause, correct, prevent, recognize\)
--   4D: A phased a phased approach for solving issues \(Describe, contain, correct, close\)
+-   4D: A phased approach for solving issues \(Describe, contain, correct, close\)
 -   Other
 
 </td></tr><tr><td>

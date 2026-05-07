@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph connector for LangGraph
-description: Use the  AI Service Graph Connector for LangGraph to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the  AI Service Graph Connector for LangGraph to create AI connections to discover and imports AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets from LangGraph into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discov
 
 # AI Service Graph connector for LangGraph
 
-Use the  AI Service Graph Connector for LangGraph to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for LangGraph to create AI connections to discover and imports AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets from LangGraph into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 
 ## Download apps from the Store
 

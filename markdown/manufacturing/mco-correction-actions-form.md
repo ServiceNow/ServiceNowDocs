@@ -107,7 +107,7 @@ Remediation item
 
 </td><td>
 
-Rmediation item record associated with the action.
+Remediation item record associated with the action.
 
 </td></tr><tr><td>
 

@@ -19,7 +19,7 @@ Users can search, sort, filter, and edit data in lists. Lists may be embedded in
 
 The list interface consists of a title bar, filters and breadcrumbs, columns of data, and a footer. Each column in a list corresponds to a field on the table.
 
-A [Response time indicator](../../common-ui-elements/concept/c_ResponseTimeIndicator.md) \(![Response time indicator](../image/Response_time_indicator_UI15.png)\) may appear at the bottom right of some lists to indicate the processing time required to display the list.
+A [Response time indicator icon](../../common-ui-elements/concept/c_ResponseTimeIndicator.md) \(![Response time indicator](../image/Response_time_indicator_UI15.png)\) may appear at the bottom right of some lists to indicate the processing time required to display the list.
 
 ![Record list](../image/800px-UI16_list_view.png "Record list")
 

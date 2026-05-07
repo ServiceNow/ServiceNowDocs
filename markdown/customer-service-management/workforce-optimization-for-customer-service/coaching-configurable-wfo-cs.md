@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Coaching in Workforce Optimization for Customer Service
@@ -185,15 +185,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Do any of the following.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d152120e658">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d154969e658">
 
 To
 
-</th><th align="left" id="d152120e661">
+</th><th align="left" id="d154969e661">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d152120e667">
+</th></tr></thead><tbody><tr><td id="d154969e667">
 
 **Perform adhoc assessments**
 
@@ -205,7 +205,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d152120e703">
+</td></tr><tr><td id="d154969e703">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -343,15 +343,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d152120e1038">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d154969e1038">
 
 To
 
-</th><th align="left" id="d152120e1041">
+</th><th align="left" id="d154969e1041">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d152120e1047">
+</th></tr></thead><tbody><tr><td id="d154969e1047">
 
 **Add a skill**
 
@@ -362,7 +362,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d152120e1077">
+</td></tr><tr><td id="d154969e1077">
 
 **Update a skill level**
 
@@ -389,8 +389,6 @@ The skill gets automatically added to the agent.
 Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in catalogs. Assign learning tasks and track completion.
 
 **Important:** Coaching with Learning is available when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Customer Service](../task/request-configurable-wfo-cs.md).
-
-Coaching with Learning
 
 ### Create a learning catalog
 

@@ -23,16 +23,16 @@ Role required: Workspace user \(Organization user or Organization editor\).
 
 1.  Navigate to **Settings** &gt; **API Keys in LangSmith**.
 
-2.  Click **+API Key**.
+2.  Select**+API Key**.
 
     API Key is created.
 
 3.  Save the API Key.
 
-    **Note:** Ensure that the API Key grants access to the workspace where you intend to explore AI assets and usage details. Store the API key in a secure and private location.
+    **Note:** Verify that the API Key grants access to the workspace where you intend to explore AI assets and usage details. Store the API key in a secure and private location.
 
 
 ## Result
 
-The API Key is created.
+An API Key is created.
 

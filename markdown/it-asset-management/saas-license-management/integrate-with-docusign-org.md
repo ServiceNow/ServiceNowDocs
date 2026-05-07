@@ -44,7 +44,7 @@ Docusign Role required: admin
 
 2.  Go to the Admin tab.
 
-    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 14](integrate-with-docusign-org.md#docusign-prod-login).
+    -   If you already have an API integration key from a previous integration ready for use in production, skip to [step 15](integrate-with-docusign-org.md#docusign-prod-login).
     -   If you don't have your API integration key saved, you must generate a new one.
 3.  On the side navigation pane, select **Account Profile** and copy the **Organization ID** to secure it for later use.
 
@@ -54,27 +54,29 @@ Docusign Role required: admin
 
 6.  On the Add Integration Key form, enter a unique name for your application in the **App Name** field and select **CREATE APP**.
 
+7.  On the profile page of your application, select **Third-party integration key** in the **Integration Type** field.
+
+8.  Copy the value of the **Integration Key** and secure it for later use.
+
     **Important:** You must request the Docusign support team for enabling the Data feed API on the integration key that you’re generating. If you’re using an Enterprise Pro plan, the Data feed API is free for you with organization management. If you’re using a low-tier plan, you can opt for organization management as an add-on. For further information, contact the Docusign support team.
-
-7.  Copy the value of the **Integration Key** and secure it for later use.
-
-8.  On the profile page of your application, select **Third-party integration key** in the **Integration Type** field.
 
 9.  Select **Save**.
 
-10. Locate the application that you have created in the App Name list.
+10. In the **Apps and Integration Keys** section, locate the application that you just created in the App Name list.
 
 11. Select **Actions** &gt; **Select Go-Live account**.
 
-    A window pops up prompting you to enter the credentials for your Docusign production account.
+    A Docusign login window pops up prompting you to enter the credentials for your Docusign account.
 
-12. Enter the Docusign production account credentials to which you want to promote your integration key.
+12. Enter your Docusign credentials.
 
-    The **Go Live Status** field changes to **Pending approval**.
+13. Select a production account on the window that pops up prompting you to choose a production account to which you want to promote your integration key.
 
-13. After the integration is approved, the **Go Live Status** changes to **View in production**.
+    The **Go Live Status** field changes to **Pending approval**. For a successful Go-Live review, your app must meet the requirements for Go-Live for each API that it uses. For more information on the Go-Live review stages, see [Docusign documentation](https://developers.docusign.com/platform/go-live/).
 
-14. Log in to your Docusign production account and verify that the same integration key is present in the production account.
+14. After the integration is approved, the **Go Live Status** changes to **View in production**.
+
+15. Log in to your Docusign production account and verify that the same integration key has been promoted to the production account.
 
 
 ## Generate RSA keypair for Docusign integration
@@ -181,15 +183,15 @@ If you’re using Software Asset Workspace, the option to create the Docusign in
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d94822e798">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d97129e816">
 
 Interface
 
-</th><th align="left" id="d94822e801">
+</th><th align="left" id="d97129e819">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d94822e807">
+</th></tr></thead><tbody><tr><td id="d97129e825">
 
 **Core UI**
 
@@ -200,7 +202,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d94822e849">
+</td></tr><tr><td id="d97129e867">
 
 **Software Asset Workspace**
 
@@ -280,7 +282,7 @@ The frequency at which envelope consumption gets renewed.For example, if you ent
 
     The **Download subscriptions** check box is selected by default and you can't clear it.
 
-    The **Download Consumption** check box is selected by default.
+    The **Download Consumption** check box is selected by default. You can check the detailed consumption data in the Docusign consumption table. The data in this consumption table is in UTC time zone.
 
 4.  Select **Submit**.
 

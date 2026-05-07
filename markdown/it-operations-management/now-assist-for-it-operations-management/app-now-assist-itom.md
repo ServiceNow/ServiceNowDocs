@@ -20,8 +20,9 @@ Table that lists applications installed with the Now Assist for IT Operations Ma
 |----------------|-----------|
 |Now Assist for Platform \(sn\_genai\_platform\)|Enables Now Assist skills and Features across various BU applications.|
 |AI agents for AIOps \(sn\_aiops\_ai\_agents\)|Enables IT operations with AI Agents that can help autonomously triage alerts, assess business and technical impact, investigate root causes, and recommend or execute remediation steps. These agents operate within coordinated agentic workflows.|
+|AI Agents for Service Mapping \(sn\_sm\_gen\_ai\)|Provides autonomous AI Specialists for Service Mapping. It automates the creation of ML-based service maps from Application Service Candidates and the connection of Business Applications to discovered Application Services in the CMDB.|
 |AI agents for Observability \(sn\_obs\_aia\)|Helps IT operators assess business and application service impact, and formulate probable cause theories. Helps prioritize investigations by analyzing data from ServiceNow and collaborating with third-party AI agents from leading APM and observability vendors.|
-|AIOps LEAP \(sn\_itom\_leap\)|AIOps LEAP \(Learning-Enhanced Automation Playbook\) leverages AI-driven insights to mine historical incident data, dynamically prioritize tasks, and generate actionable resolution playbooks.|
+|LEAP \(sn\_itom\_leap\)|LEAP \(Learning-Enhanced Automation Playbook\) leverages AI-driven insights to mine historical incident data, dynamically prioritize tasks, and generate actionable resolution playbooks.|
 
 **Parent Topic:**[Now Assist for ITOM reference](../concept/now-assist-itom-reference.md)
 

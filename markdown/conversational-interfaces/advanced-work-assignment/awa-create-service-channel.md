@@ -7,7 +7,7 @@ product: Advanced Work Assignment
 classification: advanced-work-assignment
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Configure, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
 ---
 
@@ -38,6 +38,8 @@ For each channel, you can change certain default settings, such as the default c
 
 You can also create a service channel record from the Service Channel module, but you must [create a queue](awa-create-queue.md), [assignment rule](awa-create-assignment-rule.md), and [eligible assignment pool](awa-specify-assignment-eligibility.md) to route work through the service channel. For more information, see [Set up a custom service channel](setup-custom-channel.md).
 
+In addition to task-based and interaction-based tables, AWA now supports routing of non-task and non-interaction tables such as Lead, Opportunity, Quote, and Order. Before configuring a service channel for one of these tables, ensure that the table has a corresponding record in the Document Type \[awa\_document\_type\] table.
+
 ## Procedure
 
 1.  Navigate to the service channel settings through one of the following navigation paths:
@@ -67,7 +69,9 @@ Name
 
 </td><td>
 
-Name of the selected base system service channel to be configured:-   Chat
+Name of the selected base system service channel to be configured:
+
+-   Chat
 -   Chat - Asynchronous
 -   Case
 -   Facebook Messenger
@@ -75,7 +79,7 @@ Name of the selected base system service channel to be configured:-   Chat
 -   Line
 -   Walk-up
 -   WhatsApp
-
+ For custom service channels routing non-task and non-interaction tables, enter a descriptive name.
 
 </td></tr><tr><td>
 
@@ -91,7 +95,9 @@ Application
 
 </td><td>
 
-Name of the application.-   Chat: Global
+Name of the application.
+
+-   Chat: Global
 -   Chat - Asynchronous: Global
 -   Case: Advanced Work Assignment for CSM
 -   Facebook Messenger: Conversational Integration with Facebook Messenger
@@ -115,7 +121,9 @@ Short description
 
 </td><td>
 
-Brief description of the service channel:-   Chat: Live Agent Chat Interactions
+Brief description of the service channel:
+
+-   Chat: Live Agent Chat Interactions
 -   Chat - Asynchronous: Asynchronous Live Agent Chat Interactions
 -   Case: Cases for Agents
 -   Facebook Messenger: Live Agent Facebook Messenger Interactions
@@ -131,7 +139,7 @@ Table
 
 </td><td>
 
-Table that stores the service channel records.
+Table that stores the service channel records. In addition to task-based and interaction-based tables, AWA supports the following non-task and non-interaction tables: Lead, Opportunity, Quote, and Order \(including extensions of these tables\). To route a non-task or non-interaction table, the table must have a corresponding record in the Document Type \[awa\_document\_type\] table.
 
 </td></tr><tr><td>
 
@@ -139,7 +147,9 @@ Advanced condition
 
 </td><td>
 
-If enabled, the advanced conditions that apply to the channel. For example:-   Chat: **\[Type\] \[is\] \[Chat\]**
+If enabled, the advanced conditions that apply to the channel. For example:
+
+-   Chat: **\[Type\] \[is\] \[Chat\]**
 -   Chat - Asynchronous: **\[Subtype\] \[is\] \[mweb\]**, **\[Type\] \[is\] \[Messaging\]**
 -   Facebook Messenger: **\[Subtype\] \[is\] \[Facebook Messenger\]**
 -   Line: **\[Subtype\] \[is\] \[Line\]**
@@ -153,7 +163,7 @@ Assign to field
 
 </td><td>
 
-Field that references the user assigned to the item. In both Case and Interaction \(and most other tables\), this field is the **Assigned to** \(assigned\_to\) field.
+Field that references the user assigned to the item. In both Case and Interaction \(and most other tables\), this field is the **Assigned to** \(assigned\_to\) field. For non-task and non-interaction tables, verify that this field is correctly mapped to the field that stores the assigned user on that table."
 
 </td></tr><tr><td>
 
@@ -169,7 +179,9 @@ Type
 
 </td><td>
 
-Indicator of whether a communication service channel is handled as a synchronous or asynchronous conversation channel. This field appears when you select **Interaction** in the **Table** field.-   Chat
+Indicator of whether a communication service channel is handled as a synchronous or asynchronous conversation channel. This field appears when you select **Interaction** in the **Table** field.
+
+-   Chat
 -   Phone
 -   Messaging
 -   Other
@@ -222,7 +234,9 @@ Default capacity
 
 </td><td>
 
-Number of items automatically assigned to agents \(pending overrides\). -   Case: The default is 2.
+Number of items automatically assigned to agents \(pending overrides\).
+
+-   Case: The default is 2.
 -   Chat: The default is 4.
 -   Chat: Asynchronous: The default is 4.
 -   Facebook Messenger: The default is 4.
@@ -230,7 +244,7 @@ Number of items automatically assigned to agents \(pending overrides\). -   Case
 -   Line: The default is 4.
 -   Walk-up: The default is 1.
 -   WhatsApp: The default is 4.
-
+ For non-task and non-interaction tables, the default is 1.
 
 </td></tr><tr><td>
 
@@ -238,7 +252,9 @@ Utilization condition
 
 </td><td>
 
-Condition that determines what constitutes an active item that counts toward agent workload/capacity. For example, the record state is New, Open, or Awaiting Info.-   For chat: The state is not Closed Complete or Closed Abandoned
+Condition that determines what constitutes an active item that counts toward agent workload/capacity. For example, the record state is New, Open, or Awaiting Info.
+
+-   For chat: The state is not Closed Complete or Closed Abandoned
 -   For Chat - Asynchronous: The state is Closed Complete or Closed Abandoned
 -   For case: The state is New or Open
 -   For Facebook Messenger: The state is New or Work in Progress
@@ -246,7 +262,7 @@ Condition that determines what constitutes an active item that counts toward age
 -   For Line: The state is New or Work in Progress
 -   For walk-up: The state is not On Hold, Closed Complete, or Closed Abandoned
 -   For WhatsApp: The state is New or Work in Progress
-
+ For non-task and non-interaction tables, define a utilization condition appropriate for the record states used by that table.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -266,7 +282,7 @@ Stop logging at
 
 </td><td>
 
-Date and time that logging should stop.This field appears if **Enable logging** is enabled.
+Date and time that logging should stop. This field appears if **Enable logging** is enabled.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** or **Update**.
@@ -275,6 +291,8 @@ Date and time that logging should stop.This field appears if **Enable logging** 
 
 
 ## What to do next
+
+For service channels that use history-based affinity routing, AWA reads the assigned-to field from the service channel configuration to determine prior agent assignments. If no assigned-to field is configured on the service channel, AWA defaults to the assigned\_to field. This applies to all table types, including non-task and non-interaction tables.
 
 -   [Override the agent capacity](awa-change-agent-capacity.md) for selected agents or groups.
 -   [Create or modify an inbox layout](awa-modify-inbox-layout.md) for the service channel.

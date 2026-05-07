@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Sales and Order Management for Telecommunications \(SOMT\) release notes
-description: The ServiceNow Now Assist for Sales and Order Management for Telecommunications \(SOMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for SOMT was enhanced and updated in the Australia release.
+title: Now Assist for Sales CRM for Telecommunications release notes
+description: The ServiceNow Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -8,11 +8,11 @@ last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 
-# Now Assist for Sales and Order Management for Telecommunications \(SOMT\) release notes
+# Now Assist for Sales CRM for Telecommunications release notes
 
-The ServiceNow® Now Assist for Sales and Order Management for Telecommunications \(SOMT\) application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for SOMT was enhanced and updated in the Australia release.
+The ServiceNow® Now Assist for Sales CRM for Telecommunications application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. Now Assist for Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 
-## Now Assist for SOMT highlights for the Australia release
+## Now Assist for Sales CRM for Telecommunications highlights for the Australia release
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
@@ -22,9 +22,9 @@ The ServiceNow® Now Assist for Sales and Order Management for Telecommunication
 
 See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com/docs/access?context=somt-now-assist&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
 
-**Important:** Now Assist for SOMT is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Now Assist for Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Now Assist for SOMT features
+## Now Assist for Sales CRM for Telecommunications features
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
@@ -48,7 +48,7 @@ See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for SOMT plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 ## Related ServiceNow applications and features
 

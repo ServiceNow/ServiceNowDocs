@@ -373,11 +373,13 @@ After you publish a policy:
 -   On the Policies page, in the Published policies list view, select a policy to see policy details on a policy form. Select **View Policy** to see the settings in all of the policy form pages.
 -   On the Policies page, in the Published policies list view, select a policy that you want to deactivate. On a policy form select **Deactivate Policy** to temporarily prevent the policy from running.
 -   Select **View Open Tasks** in the Open Policy Tasks tile to track the processing of policy tasks in the CMDB Data Management Task Control list view. The Success Percent column shows the percentage of CIs in the task for which the task is completed. A CI is counted as complete in an archival task only after the archival process has been fully completed for the CI \(and isn't counted as complete while the CI is initially staged for archival for example\).
--   For **On demand** policies, the system generates a scheduled job prefixed with the policy name. To run such task:
-    1.  Navigate to **System Definition** &gt; **Scheduled Jobs**.
-    2.  Select the scheduled job for the task policy that you want to run.
-    3.  On the scheduled job form, select **Execute Now**.
--   Users log into [CMDB Workspace](../concept/cmdb-workspace.md)or to [Service Graph Workspace](../concept/sg-workspace.md) to [review and process attestation tasks](review-data-manager-attes-task.md) assigned to them.
--   Users log into [CMDB Workspace](../concept/cmdb-workspace.md)or to [Service Graph Workspace](../concept/sg-workspace.md) to [review and process non-attestation tasks](data-manager-review-task-wrkspc.md) assigned to them.
--   You can use update sets to transfer a policy between instances, in which case that policy is set as draft on the destination instance. You can later continue to configure the draft policy, and then publish it when it's ready.
+-   Run a policy on-demand. In general, the system generates a scheduled job for on-demand policies, prefixed with the policy name.
+
+    -   Run the scheduled job:
+        1.  Navigate to **System Definition** &gt; **Scheduled Jobs**.
+        2.  Select the scheduled job for the task policy that you want to run.
+        3.  On the scheduled job form, select **Execute Now**.
+-   Users log in to [CMDB Workspace](../concept/cmdb-workspace.md)or to [Service Graph Workspace](../concept/sg-workspace.md) to [review and process attestation tasks](review-data-manager-attes-task.md) assigned to them.
+-   Users log in to [CMDB Workspace](../concept/cmdb-workspace.md)or to [Service Graph Workspace](../concept/sg-workspace.md) to [review and process non-attestation tasks](data-manager-review-task-wrkspc.md) assigned to them.
+-   You can use update sets to transfer a policy between instances, in which case that policy is imported as a draft policy at the destination instance. You can later continue to configure the draft policy at the destination instance and then [publish it when it's ready](data-manager-publish-draft-policy.md).
 

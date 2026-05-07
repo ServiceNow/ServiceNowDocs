@@ -1,6 +1,6 @@
 ---
 title: Setup checklist for the GRC Audit Management application
-description: This checklist includes the setup tasks that you are required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation. Optional setup procedures are also included to enhance Audit Management functionality.
+description: This checklist includes the setup tasks that you're required to complete in your ServiceNow AI Platform instance. When you have completed these tasks, the base system is ready for operation. Optional setup procedures are also included to enhance the Audit Management functionality.
 locale: en-US
 release: australia
 product: Audit Management
@@ -13,7 +13,7 @@ breadcrumb: [Configuring Audit Management, Audit Management, Governance, Risk, a
 
 # Setup checklist for the GRC Audit Management application
 
-This checklist includes the setup tasks that you are required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation. Optional setup procedures are also included to enhance Audit Management functionality.
+This checklist includes the setup tasks that you're required to complete in your ServiceNow AI Platform® instance. When you have completed these tasks, the base system is ready for operation. Optional setup procedures are also included to enhance the Audit Management functionality.
 
 ## Before you begin
 
@@ -21,11 +21,11 @@ Role required: admin
 
 Consider creating and printing a PDF of this checklist topic. You can then check off tasks as you complete them.
 
-To generate a PDF, click the save as PDF icon \(![Save as PDF.](../image/pdf.png)\) at the top of the topic.
+To generate a PDF of this topic, select the download icon at the top of the topic, and then select **Save as PDF**.
 
 ## Procedure
 
-1.  Click the **Selected topic**.
+1.  Select the **Selected topic**.
 
     |Item|Description|
     |----|-----------|

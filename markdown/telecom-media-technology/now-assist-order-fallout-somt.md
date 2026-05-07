@@ -1,15 +1,15 @@
 ---
-title: Now Assist for Sales and Order Management for Telecommunications \(SOMT\) AI agent Order fallout AI agent
+title: Now Assist for Sales CRM for Telecommunications AI agent Order fallout AI agent
 description: Use the AI agent to automatically create the fallout records based on reported issues on the task's notes.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [AI agents in SOMT, Use agentic workflows, Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Now Assist for Sales and Order Management for Telecommunications \(SOMT\) AI agent Order fallout AI agent
+# Now Assist for Sales CRM for Telecommunications AI agent Order fallout AI agent
 
 Use the AI agent to automatically create the fallout records based on reported issues on the task's notes.
 

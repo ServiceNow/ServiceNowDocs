@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -30,6 +30,8 @@ As a shopper, you can view all the purchases you made from your shopping account
 
 **Related topics**  
 
+
+[Shopping Hub](shopping-hub-overview.md)
 
 [My purchases on Shopping Hub](my-purchases.md)
 

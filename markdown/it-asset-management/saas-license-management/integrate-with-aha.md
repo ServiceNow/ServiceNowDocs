@@ -74,15 +74,15 @@ If you’re using Software Asset Workspace, the option to create the Aha! integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d288518e382">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d291080e382">
 
 Interface
 
-</th><th align="left" id="d288518e385">
+</th><th align="left" id="d291080e385">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d288518e391">
+</th></tr></thead><tbody><tr><td id="d291080e391">
 
 **Core UI**
 
@@ -93,7 +93,7 @@ Action
 3.  Select **Aha Integration Profile**.
 
 
-</td></tr><tr><td id="d288518e433">
+</td></tr><tr><td id="d291080e433">
 
 **Software Asset Workspace**
 

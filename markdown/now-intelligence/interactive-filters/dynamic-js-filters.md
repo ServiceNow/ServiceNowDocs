@@ -7,7 +7,7 @@ product: Interactive Filters
 classification: interactive-filters
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -25,31 +25,14 @@ Add a dynamic JavaScript statement for evaluation as part of a report visualizat
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### About this task
 
 JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
 
-### Procedure
+This table lists the operators supported by each field type that supports JavaScript filters. Field types that are not in this table do not support JavaScript filters and the **Value** field in the condition builder for those field types does not have the option to paste your own statements.
 
-1.  Perform one of the following actions:
-
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **View / Run**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports**.
-2.  Open the report visualization that you want to add the dynamic filter to.
-
-3.  Select the filter icon \(![](../../reporting/image/icon-filter.png)\) to expand the condition builder.
-
-4.  Construct your filter condition.
-
-    These combinations of field types and operators allow you to specify a dynamic JavaScript statement.
-
-    **Note:**
-
-    -   The "between" operator provides two fields that can support the same or different JavaScript URLs.
-    -   The "is" operator can return an array of data elements of the expected type. In this case the operator is treated as the "is one of" operator.
-    -   List fields do not support dynamic JavaScript filters.
 <table id="table_qhw_2dn_1vb"><thead><tr><th>
 
 Field type
@@ -271,7 +254,26 @@ Field Name
 Textual representation of a complete or partial field name value.For the "is one of" operator, the expected return type would be either a comma-delimited list of field name values or an array containing each field name that should be included in the results.
 
 </td></tr></tbody>
-</table>5.  Choose a field type and operator and enter a JavaScript statement.
+</table>### Procedure
+
+1.  Perform one of the following actions:
+
+    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **View / Run**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports**.
+2.  Open the report visualization that you want to add the dynamic filter to.
+
+3.  Select the filter icon \(![](../../reporting/image/icon-filter.png)\) to expand the condition builder.
+
+4.  Construct your filter condition.
+
+    These combinations of field types and operators allow you to specify a dynamic JavaScript statement.
+
+    **Note:**
+
+    -   The "between" operator provides two fields that can support the same or different JavaScript URLs.
+    -   The "is" operator can return an array of data elements of the expected type. In this case the operator is treated as the "is one of" operator.
+    -   List fields do not support dynamic JavaScript filters.
+5.  Choose a field type and operator and enter a JavaScript statement.
 
     -   For a one-line JavaScript statement, use the format `javascript:<JavaScript_Statement>;`.
     -   For a JavaScript statement that calls a script include, use the format `javascript:new <Record_Name>().<Function_Name>();` in which `Record_Name` corresponds to the record name of the script include and `Function_Name` is the function in the script include that returns the value compared in the filter.

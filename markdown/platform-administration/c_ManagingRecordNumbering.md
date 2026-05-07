@@ -15,7 +15,7 @@ In the base system, several tables are numbered, including Incident, Problem, Ch
 
 Administrators can manage record numbering by navigating to **System Definition** &gt; **Number Maintenance**. The current number format for a table, including the prefix \(such as **INC** for incidents or **CHG** for changes\), is stored in a record on the Number \[sys\_number\] table.
 
-![](../image/Number1.png "Number table")
+![A sample of number records, organized alphabetically by prefix.](../image/Number1.png "Number table")
 
 You can renumber auto-incremented tables that extend the task table or manage numbering with a database field named **Number this field**.
 

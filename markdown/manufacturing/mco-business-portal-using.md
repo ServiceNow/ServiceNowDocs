@@ -1,6 +1,6 @@
 ---
 title: Using the Business Portal in Manufacturing Commercial Operations
-description: Customers can use the Business Portal to browse product catalogs and create product orders in Sales and Order Management for Manufacturing Commercial Operations.The Business Portal uses the product catalog to let customers browse and configure products. Customers can also build orders and submit them for fulfillment.View orders using the Business Portal in Manufacturing Commercial Operations.
+description: Customers can use the Business Portal to browse product catalogs and create product orders in Sales Customer Relationship Management for Manufacturing Commercial Operations.The Business Portal uses the product catalog to let customers browse and configure products. Customers can also build orders and submit them for fulfillment.View orders using the Business Portal in Manufacturing Commercial Operations.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Order Management, Additional workflows, Use, Manufacturing Commerci
 
 # Using the Business Portal in Manufacturing Commercial Operations
 
-Customers can use the Business Portal to browse product catalogs and create product orders in Sales and Order Management for Manufacturing Commercial Operations.
+Customers can use the Business Portal to browse product catalogs and create product orders in Sales Customer Relationship Management for Manufacturing Commercial Operations.
 
 The Business Portal is a self-service web portal in Manufacturing Commercial Operations based on the Service Portal application.
 

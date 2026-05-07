@@ -6,8 +6,8 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-04-29"
-reading_time_minutes: 4
+last_updated: "2026-05-06"
+reading_time_minutes: 5
 breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -41,7 +41,7 @@ This feature answers your questions about the UI Builder. It provides informatio
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Experience generation](../task/generate-ui.md).
+    For more information about creating an experience, see [Create an AI-generated experience](../task/generate-ui.md#).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -84,7 +84,7 @@ This feature provides insights into how a page is constructed, including its des
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Experience generation](../task/generate-ui.md).
+    For more information about creating an experience, see [Create an AI-generated experience](../task/generate-ui.md#).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -128,7 +128,7 @@ This feature enables you to easily modify and enhance your page. You can apply d
 
 2.  Create a new experience or navigate to an existing one.
 
-    For more information about creating an experience, see [Experience generation](../task/generate-ui.md).
+    For more information about creating an experience, see [Create an AI-generated experience](../task/generate-ui.md#).
 
 3.  Create a new page or navigate to an existing one.
 
@@ -149,4 +149,15 @@ For example: ![In the Now Assist panel, request a page modification.](../image/u
 
 -   The UI Builder agent operates only within UI Builder.
 -   This feature is available only when you’re viewing a page in the page editor.
+
+|Symptom|Cause|Resolution|
+|-------|-----|----------|
+|UI Builder Agent does not respond|The UI Builder Agent skill is disabled, or the user is outside of UI Builder.|Enable the UI Builder Agent in Now Assist Admin. The agent operates only within UI Builder and is not available in other areas of the platform.|
+
+**Related topics**  
+
+
+[UI Builder Agent](uib-builder-agent-concept.md)
+
+[Use case: Using UI Builder Agent](use-case-ui-builder-agent.md)
 

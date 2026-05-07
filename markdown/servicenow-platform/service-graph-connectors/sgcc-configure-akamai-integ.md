@@ -19,7 +19,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 -   Install Service Graph Connector for Akamai API Security version 1.0.0 from the ServiceNow Store.
 
-    For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 -   Create a service account on the Akamai platform and generate client credentials to enable data retrieval using the Service Graph Connector for Akamai API Security.
 

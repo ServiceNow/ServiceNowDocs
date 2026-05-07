@@ -1,6 +1,6 @@
 ---
-title: Create Additional Incident Data Fields
-description: Create your Additional Incident Data Fields for the DLP incidents. You can create different types of Additional Incident Data Fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
+title: Create additional incident data fields
+description: Create Additional Incident Data Fields for the DLP incidents. You can create different types of fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
 locale: en-US
 release: australia
 product: Data Loss Prevention
@@ -11,9 +11,9 @@ reading_time_minutes: 5
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
 
-# Create Additional Incident Data Fields
+# Create additional incident data fields
 
-Create your Additional Incident Data Fields for the DLP incidents. You can create different types of Additional Incident Data Fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
+Create Additional Incident Data Fields for the DLP incidents. You can create different types of fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
 
 ## Before you begin
 
@@ -22,11 +22,13 @@ Role required:
 -   sn\_dlir.admin
 -   sn\_dlir.analyst and sn\_dlir.analyst\_read
 
-**Important:** Additional Incident Data Fields for DLP incidents are supported only on the San Diego version or later.
+**Important:** Additional incident data fields for DLP incidents are supported only on the San Diego version or later.
 
 ## About this task
 
-Additional Incident Data Fields are associated with Field level restrictions, so if there are any Field level restrictions then it applies to Additional Incident Data Fields on the DLP Ops portal and End user portal.
+Additional Incident Data Fields are not stored as columns on the DLP incident table. Unlike standard table-level fields, they cannot be queried directly through list views, reports, or scripts that reference incident table fields.
+
+Additional Incident Data Fields view differs by role. DLP Analysts can view and set field values in the DLP Ops portal. DLP End Users can set field values, but fields that contain no value are hidden from them in the DLP Workspace. For example, an unchecked **Check box** or a **Choice** field with no selection is not displayed to end users.
 
 ## Procedure
 
@@ -68,12 +70,12 @@ If you select the Additional Incident Data Fields type as **Choice**, then after
 To create an Additional Incident Data Fields choice option:
 
     1.  Open the required Additional Incident Data Fields.
-    2.  In the Custom Choice Field Options section, click **New**.
+    2.  In the Custom Choice Field Options section, select **New**.
     3.  In the Option Name field, define the required option name.
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 -   **Date**
 -   **Date/Time**
- **Note:** After you select a type for your new Additional Incident Data Fields, you are not allowed to modify it. If you want to modify the type, then you have to create a new Additional Incident Data Fields again with the required type.
+ **Note:** After you select a type for your new Additional Incident Data Fields, you can't modify it. If you want to modify the type, you must create a new Additional Incident Data Fields again with the required type. For **Check box** and **Choice** field types, DLP end users will not see the field in the DLP Workspace unless it contains a value \(a checked box or a selected choice\).
 
 </td></tr><tr><td>
 
@@ -100,7 +102,7 @@ Description
 Description for the Additional Incident Data Fields you created.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[DLP Incident Response Administration](../concept/data-loss-prevention-administration.md)

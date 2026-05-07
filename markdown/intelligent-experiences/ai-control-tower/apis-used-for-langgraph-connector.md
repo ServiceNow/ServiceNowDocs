@@ -1,6 +1,6 @@
 ---
 title: APIs used for LangGraph connector
-description: Explore the AWS APIs used in AI service Graph Connector for LangGraph.The table lists all the LangSmith API endpoints used by the connector.
+description: Explore the AWS APIs used in AI service Graph Connector for LangGraph.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [LangGraph, Service Graph Connectors for AI Control Tower, Enterpris
 
 # APIs used for LangGraph connector
 
-Explore the AWS APIs used in AI service Graph Connector for LangGraph.The table lists all the LangSmith API endpoints used by the connector.
+Explore the AWS APIs used in AI service Graph Connector for LangGraph.
 
 The following table lists all the LangSmith API endpoints used by the connector.
 
@@ -78,7 +78,7 @@ https://api.smith.langchain.com /api/v1/runs/stats
 Gets stats on a particular run, including LLM invocations
 
 </td></tr></tbody>
-</table>This table lists all the LangGraph Agent Deployment APIs used by the connector. The “endpoint\_url” below will be specific to each deployment and will be discovered at runtime by the app.
+</table>This table lists all the LangGraph Agent Deployment APIs used by the connector. The “endpoint\_url” following will be specific to each deployment and will be discovered at runtime by the app.
 
 <table id="table_gjp_zkq_m3c"><tbody><tr><td>
 

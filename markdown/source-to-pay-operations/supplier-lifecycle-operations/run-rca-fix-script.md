@@ -25,7 +25,7 @@ The RCAs that are generated after the installation are in the **Requested** stat
 
 To automate the RCA approvals for any record, you can run the **SCP\_BULK\_RCAs\_Approval.xml** script where the source scope is Supplier Collaboration Portal.
 
-Download the **SCP\_BULK\_RCAs\_Approval.xml** file from the [ServiceNow Store](https://store.servicenow.com/store/frame/app?pp=1a96d3851bab6010593876a61a4bcb01).![Location of the XML file fix script for RCA approvals.](../image/xml-file-store.png)
+Download the **SCP\_BULK\_RCAs\_Approval.xml** file from the [ServiceNow Store](https://store.servicenow.com/store/frame/app?pp=1a96d3851bab6010593876a61a4bcb01).
 
 **Note:** This file is a standalone script to reduce the manual effort involved.
 

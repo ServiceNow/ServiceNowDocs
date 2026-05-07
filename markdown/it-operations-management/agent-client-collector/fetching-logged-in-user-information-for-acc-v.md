@@ -24,19 +24,15 @@ You can automatically populate Assigned to for Windows endpoint devices and macO
 
 -   **sn\_acc\_vis\_content.set\_assigned\_to**
 -   **sn\_acc\_vis\_content.assigned\_to\_user\_order**
--   **sn\_acc\_vis.column\_name\_for\_user\_mapping**
+-   **sn\_acc\_vis\_content.column\_name\_for\_user\_mapping**
 
 ## Procedure
 
 1.  Create higher user privileges to fetch the logged in user details.
 
-    Use Log on As Local System User instead of the default ServiceNow user for running the Agent Client Collector.
+    Use Log on As Local System User instead of the default ServiceNow user for running the Agent Client Collector. When working in a macOS environment, use the default ServiceNow user.
 
-    These commands are executed on the Windows machine:
-
-    -   wmic COMPUTERSYSTEM GET USERNAME
-    -   From osquery: SELECT l.user FROM logged\_in\_users l JOIN users u ON l.sid = u.uuid WHERE u.type != 'special'
-    This command is executed on the macOS machine: SELECT distinct\(l.user\) FROM logged\_in\_users l JOIN users u ON l.user = u.username
+    Ensure that you have Powershell to run the internal commands on your machines that fetch the logged in user details.
 
 2.  User names match is performed on the user records in the sys\_user table.
 

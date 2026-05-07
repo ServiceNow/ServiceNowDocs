@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -67,9 +67,4 @@ The following available ServiceNow Store application is installed separately fro
 
     Discover user intents from requests, incidents, or cases to help maximize deflection with Virtual Agent and NLU. For more information, see [Install Intent Discovery](install-intent-discovery.md).
 
-
--   **[Components installed with NLU Workbench - Advanced Features](../reference/installed-with-nlu-wrkbnch-adv-features.md)**  
-Several types of components are installed with activation of the com.snc.nlu.workbench.advanced plugin, including tables.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](../concept/nlu-workbench-advanced-features.md)
 

@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Data capture and validation, Set up playbook, Account onboarding, Customer Success Management, Customer Success Management]
 ---
 
 # Configure data validation using the Data Validation Assist table

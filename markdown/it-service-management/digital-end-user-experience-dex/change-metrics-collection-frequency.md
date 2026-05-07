@@ -8,7 +8,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Collecting DEX metrics, Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Collecting DEX metrics, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Change metrics collection frequency
@@ -43,6 +43,4 @@ Role required: sn\_dex\_admin
 
 9.  Select **Republish**.
 
-
-**Parent Topic:**[Collecting DEX metrics](../concept/managing-metrics-collection.md)
 

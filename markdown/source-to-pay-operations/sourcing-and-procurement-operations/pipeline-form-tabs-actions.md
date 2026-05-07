@@ -131,7 +131,11 @@ Use this drop-down list to create new objects for the pipeline project. Availabl
 **Related topics**  
 
 
+[Base system procurement case type reference](base-system-procurement-case-types.md)
+
 [Create New Pipeline Project form](create-pipeline-project-form.md)
+
+[Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md)
 
 [SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
 

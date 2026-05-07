@@ -21,9 +21,7 @@ Role required: admin or normalizer
 
 Normal values should be clear and unambiguous.
 
-After the platform runs the data job, the **Pending Values** related list on the Data normalization jobs form is populated with all the unique values for the field in the database. Examine the values in the list and decide which normalizing method is best for the existing data. For example, define an alias for a small pool of values and a rule for a large pool of values. The following screenshot shows the pending values for CPU types in Linux servers in a network. The list contains several choices for Intel Xeon CPUs, which might be normalized as **Xeon**.
-
-![](../image/NormalizationPendingValues2.png "Normalization pending values 2")
+After the platform runs the data job, the **Pending Values** related list on the Data normalization jobs form is populated with all the unique values for the field in the database. Examine the values in the list and decide which normalizing method is best for the existing data. For example, define an alias for a small pool of values and a rule for a large pool of values..
 
 ## Procedure
 
@@ -37,8 +35,6 @@ After the platform runs the data job, the **Pending Values** related list on the
 
 5.  In the Normal Value form, create normal values for the variants in the **Pending Values** related list.
 
-    These are the values the platform uses to replace the variants configured as aliases.
-
-    ![Normalization normal values](../image/NormalizationNormalValues1.png)
+    Pending values are used to replace the variants configured as aliases.
 
 

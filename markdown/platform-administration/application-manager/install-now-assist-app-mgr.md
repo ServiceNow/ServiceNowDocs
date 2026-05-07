@@ -62,15 +62,15 @@ Role required: admin, sn\_appclient.app\_client\_user, or sn\_appclient.app\_cli
 
 8.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_rdn_4qs_tgc"><thead><tr><th align="left" id="d62786e294">
+<table id="choicetable_rdn_4qs_tgc"><thead><tr><th align="left" id="d65461e294">
 
 Installation option
 
-</th><th align="left" id="d62786e297">
+</th><th align="left" id="d65461e297">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d62786e303">
+</th></tr></thead><tbody><tr><td id="d65461e303">
 
 **Install now**
 
@@ -80,7 +80,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d62786e327">
+</td></tr><tr><td id="d65461e327">
 
 **Install later**
 

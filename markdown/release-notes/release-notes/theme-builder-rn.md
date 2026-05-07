@@ -24,6 +24,11 @@ See [Working with themes in Next Experience](https://www.servicenow.com/docs/acc
 
 ## New in the Australia release
 
+-   **[Upload brand guidelines to generate theme colors](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+
+    Upload brand guidelines as a PDF to the Theme Builder theme creation workflow in the Now Assist panel to generate themes aligned with your brand.
+
+
 -   **[AI-powered color palette theme creation](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
 
     Use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires Now Assist for Creator.

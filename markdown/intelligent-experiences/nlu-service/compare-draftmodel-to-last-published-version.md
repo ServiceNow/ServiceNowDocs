@@ -65,5 +65,3 @@ In this example procedure, you've cloned the model from a pre-built read-only HR
 
 Use the information in the test panel to see if the changes you make will improve the model's performance. Once you are satisfied with your changes, test your model before publishing. Then, publish your model to replace the current published version.
 
-**Parent Topic:**[Test and publish your model](../concept/testing-your-model.md)
-

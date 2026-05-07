@@ -1,6 +1,6 @@
 ---
-title: AI-native IT Service Management
-description: AI-native IT Service Management provides an AI-native solution for simplified and automated implementation, and unified user experience across multiple ITSM applications.
+title: Simplified IT Service Management
+description: Simplified IT Service Management provides an AI-native solution for simplified and automated implementation, and unified user experience across multiple ITSM applications.
 locale: en-US
 release: australia
 topic_type: reference
@@ -9,19 +9,19 @@ reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
 
-# AI-native IT Service Management
+# Simplified IT Service Management
 
-AI-native IT Service Management provides an AI-native solution for simplified and automated implementation, and unified user experience across multiple ITSM applications.
+Simplified IT Service Management provides an AI-native solution for simplified and automated implementation, and unified user experience across multiple ITSM applications.
 
 ## Get started
 
 <table id="table_pv2_ctf_53c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![Exploring AI-native IT Service Management concepts and features](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about AI-native IT Service Management concepts and features.](../concept/exploring-ai-native-itsm.md)
+[Explore![Exploring AI-native IT Service Management concepts and features](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Simplified IT Service Management concepts and features.](../concept/exploring-ai-native-itsm.md)
 
 </td><td>
 
-[Configure![Configuring AI-native IT Service Management](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure AI-native IT Service Management using guided and conversational setup process.](../concept/configuring-ai-native-itsm.md)
+[Configure![Configuring AI-native IT Service Management](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure IT Service Management using guided and conversational setup process.](../concept/configuring-ai-native-itsm.md)
 
 </td><td>
 

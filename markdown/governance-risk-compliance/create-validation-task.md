@@ -25,7 +25,7 @@ You can create a validation task for a model when it is in the Pre-deployment or
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../assessment-engine/image/list-icon.png).
+2.  Select the list icon ![](../image/list-icon-mrm.png).
 
 3.  Select the model for which you want to create a validation task.
 

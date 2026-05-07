@@ -6,7 +6,7 @@ release: australia
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -57,7 +57,7 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 **Note:**
 
--   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+-   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/concept/configuring-na-spm.md).
 -   If there is more content to summarize, you can remove some content and retry.
 -   Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 

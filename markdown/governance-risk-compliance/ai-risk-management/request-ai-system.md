@@ -44,15 +44,15 @@ For example, a financial institution wants to improve its loan approval process 
 
 1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d105152e178">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d107471e178">
 
 Option
 
-</th><th align="left" id="d105152e181">
+</th><th align="left" id="d107471e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d105152e187">
+</th></tr></thead><tbody><tr><td id="d107471e187">
 
 **Request an AI system using AI Risk and Compliance**
 
@@ -62,7 +62,7 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 2.  Select the **Request an AI use case** card.
 **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d105152e237">
+</td></tr><tr><td id="d107471e237">
 
 **Request an AI system using AI Control Tower**
 
@@ -88,7 +88,7 @@ Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashb
 
 ## What to do next
 
-After submitting an AI use case request, the next steps depend on your role in the life cycle.
+After submitting an AI use case request, next steps vary depending on your role.
 
 AI Product Owner or Requester \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_user\]: Provide additional information as requested during intake and onboarding, including details about the AI system, related models, datasets, and intended business outcomes. You may be asked to complete impact assessment questionnaires and support reviews as the AI system progresses through assessment and validation.
 

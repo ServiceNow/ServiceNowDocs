@@ -27,7 +27,7 @@ Role required: sn\_kmf.cryptographic\_manager and security\_admin
 
 2.  From the Field Encryption Settings, select either **ServiceNow Generated Keys** or **Customer Supplied Keys** from the **Key Source** list.
 
-    ![](../image/field-encryption-settings-choices.png "Key source selection")
+    ![Key source selection](../image/field-encryption-settings-choices.png "Key source selection")
 
     This option changes the `com.glide.encryption.cle_kmf.key_source` property to either **ServiceNow Generated Keys** or **Customer Supplied Keys**.
 

@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -66,21 +66,4 @@ In this example scenario, you've created an intent that's titled \#CheckITTicket
 
     The pattern entity saves and appears in the **Associated Entities** tab. The model can use the pattern entity to interpret variations of the annotated utterance. For example, the model can match the \#CheckITTicketStatus intent if a user enters any incident record number.
 
-
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity](create-nlu-entities.md)
-
-[Create a mapped entity](create-mapped-entity-lookup-source.md)
-
-[Create a system-derived entity](create-system-derived-entity.md)
-
-[Create an open-ended entity](create-open-ended-entity.md)
-
-[Import entities](import-common-entities-nlu.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
 

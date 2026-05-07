@@ -22,7 +22,7 @@ The Dispute Rules Content Pack for Visa application:
 -   Provides an intake questionnaire for Visa card related disputes and guides on the dispute reason code for the disputed transactions.
 -   Determines eligibility for the disputed transactions based on the **Visa Core Rules and Visa Product and Service Rules**.
 
-The Dispute Rules Content Pack for Visa contains the latest chargeback eligibility rules as of the August store release.
+The Dispute Rules Content Pack for Visa contains the latest chargeback eligibility rules as of the April store release.
 
 ## Key benefits
 

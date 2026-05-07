@@ -7,7 +7,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [Now Assist, generative AI]
 breadcrumb: [Configurations, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
 ---
@@ -36,34 +36,23 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
 
 ## Security &amp; privacy
 
--   **Secure policies violation**
+-   **Data integrity incident detection**
 
-    These configuration settings control the Security policy violations chart, which shows violations of policies detected in LLM responses. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
+    These configuration settings control the Data integrity incident detection chart, which is designed to help show potential violations of certain LLM guardrail policies in LLM responses. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
 
     **Note:** If you inactivate the chart, past data shows on the chart for 90 days.
 
     You can configure these settings:
 
-    -   **Security policies** – Predefined ServiceNow policies to track for violations. These policies are based on industry best practices and can't be modified.
-        -   **Physical Chemical Biological Harm** – Detect recipes, parts lists, or methods that could cause real-world harm. For example, explosives, toxins, or bio agents.
-        -   **Policy Circumvention** – Detect jailbreak techniques. For example, disabling safety instructions or acting as an unfiltered model.
-        -   **Untrusted Links Or Downloads** – Detect linking to executable files or malware, directing users to run unverified downloads or macros, or asking users to disable their antivirus protection. Heuristic red flags include EXE, BAT, PS1, and APK files, along with macro-enabled documents.
-        -   **Intellectual Property Proprietary** – Detect verbatim reproduction of paywalled or proprietary text or code beyond fair use.
-        -   **Malware Exploits Hacking** – Detect exploited payloads, brute force attacks, evasion, persistence, keyloggers, or “ready-to-run” steps.
-        -   **Refusal Appropriateness** – When a request conflicts with policy, refusal should be safe and brief. Detect under- and over-refusal. For example, refusing benign content.
-        -   **Code And Command Safety** – Detect destructive and insecure commands. For example, don't allow “try this risky one-liner,” disabling security, or running unvetted code.
-        -   **Social Engineering Deception** – Detect impersonation and phishing scripts, credential harvesting, and manipulative pretexts.
-        -   **Fraud Misinformation Illegal Facilitation** – Detect how-to guides for illegal or deceptive practices. For example, for market manipulation, fraud templates, or evading audit. Benign corrections of misinformation are allowed, but not fabrication.
-        -   **System Integrity Prompt Containment** – Detect output of system prompts, hidden policies, and internal configurations or tokens.
-        -   **Legal Regulatory Compliance** – Detect guidance to evade regulations or practice without a license. For example, prescriptions, export control, or money laundering evasion.
+    -   **Categories** – Security and content moderation policies grouped into categories that reflect industry practices that align with [OWASP Top 10 Risk &amp; Mitigations for LLMs and Gen AI Apps](https://genai.owasp.org/llm-top-10/) and the [OpenAI model specification](https://model-spec.openai.com/2025-12-18.html).
     -   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data.
     -   **Max skill calls per execution** – The amount of AI usage per call. The minimum is 10 calls; the default is 1,000 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
--   **Agent goal hijack**
+-   **Agent goal deviation**
 
-    These configuration settings control the Agent output deviation chart, which shows when AI agents deviate from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
+    These configuration settings control the Agent goal deviation chart, which shows when AI agents may be deviating from their intended role or objective. For example, unauthorized actions or prompt injection attempts. To show data for this chart on the dashboard, select **Configure**, and then select **Active**. If you want to discontinue collecting data for the chart, deselect **Active**.
 
-    **Note:** If you inactivate the chart, past data shows on the chart for 90 days.
+    **Note:** If you inactivate the chart, past data shows on the chart for 90 days. Due to the probabilistic nature of the data model, not all occurrences may be identified.
 
     You can configure these settings:
 
@@ -72,22 +61,22 @@ By default, all Now Assist traffic is managed within ServiceNow datacenters. If 
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the AI agent's or skill's response diverges from the expected output. Multiple analysis uses the results from 3 or more LLMs to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 -   **Output screening**
 
-    These configuration settings control the AI agent output with PII detected and High-risk AI agent output charts, which show when agents' LLM output contains PII or security-vulnerable patterns. To show data for these charts on the dashboard, select **Configure**, select **Active**, and then select a setting for the data to collect. If you want to discontinue collecting data for the charts, deselect **Active**.
+    These configuration settings control the AI agent output with PII detected and Agentic output injection detection charts, which show when agents' LLM output contains potential PII or potential security-vulnerable patterns. To show data for these charts on the dashboard, select **Configure**, select **Active**, and then select a setting for the data to collect. If you want to discontinue collecting data for the charts, deselect **Active**.
 
     **Note:** If you inactivate the charts, past data collected shows on the charts for 90 days.
 
     You can configure these settings:
 
-    -   **Output Security Vulnerability** – Collect and show data in the High-risk AI agent output chart. The data is collected by scanning LLM output for known vulnerable patterns and potential corresponding attack vectors. For example, HTML tags can have scripts associated with them to generate cross-site script attacks \(XSS\), or stacked SQL queries that can result in SQL injection attacks.
-    -   **Output Extended PII** – Collect more PII data occurrences and show in the AI agent output with PII detected chart. The data is collected by scanning LLM output for additional PII data patterns beyond those specified in Data Privacy. These PII data patterns are U.S. CA drivers license, U.S. taxpayer ID, U.S. passport number, and vehicle ID number.
-    -   **Output PII Violation** – Collect and show data in the AI agent output with PII detected chart. The data is collected by scanning LLM output for default PII sensitive data patterns specified in Data Privacy. For example, U.S. phone number or credit card number.
+    -   **Output Security Vulnerability** – Collect and show data in the Agentic output injection detection chart. The data is collected by analyzing LLM output for known potential vulnerable patterns and potential corresponding attack vectors. For example, HTML tags shouldn't have scripts associated with them for cross-site script attacks \(XSS\), or stacked SQL queries could result in SQL injection attacks.
+    -   **Output Extended PII** – Collect more potential PII data occurrences and show in the AI agent output with PII detected chart. The data is collected by analyzing LLM output for additional potential PII data patterns beyond those specified in Data Privacy. These PII data patterns include U.S. CA drivers license, U.S. passport number, and vehicle ID number.
+    -   **Output PII Violation** – Collect and show data in the AI agent output with PII detected chart. The data is collected by analyzing LLM output for potential PII sensitive data patterns specified in Data Privacy. For example, U.S. phone number or credit card number.
 -   **Sensitive data input and anonymization**
 
     This section shows the data patterns enabled in Data Privacy to detect and anonymize information in LLM prompts. Use this view as a quick reference when troubleshooting Sensitive data detected and Sensitive data anonymized charts. This feature requires the Data privacy plugin to be installed. For more information on how the data is sent and stored, see [User data usage policy for Now Assist](https://www.servicenow.com/docs/bundle/australia-intelligent-experiences/page/administer/now-assist-admin/concept/user-data-usage-policy-now-assist.html).
 
 -   **Score weight**
 
-    This setting controls how the security categories that comprise the score are weighted. You can change the default weights or remove security categories from the score by deactivating them. The score formula is an average across all managed AI assets.
+    This setting controls how the LLM guardrail categories that comprise the score are weighted. You can change the default weights or remove categories from the score by deactivating them. The score formula is an average across all managed AI assets.
 
     ![AI asset security score configuration with default weights shown.](../image/sp-tab-ai-score-config.png)
 

@@ -7,7 +7,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
 
@@ -28,9 +28,7 @@ The graphs show important statistics about the software that is being tracked. I
 
 **Note:** If you are not seeing data in the Overview dashboard, verify the **glide.cms.enable.responsive\_grid\_layout** system property is set to true.
 
-## Overview
-
-![Software Asset Analytics dashboard](../image/dashboard-analytic-overview.png "Software Asset Analytics dashboard")
+## Overview of analytics dashboard
 
 <table id="table_vgl_c3y_tz"><thead><tr><th>
 
@@ -130,8 +128,6 @@ Heat map of software product lifecycles that are reaching their end of life cycl
 
 </td></tr></tbody>
 </table>## License Summary
-
-![License Summary tab shows information pertaining to licenses](../image/SAMDashLicSumNew.png "License Summary tab")
 
 <table id="table_y3q_r3y_tz"><thead><tr><th>
 
@@ -288,8 +284,6 @@ Total software spend by publisher.
 
 Compliance summary consists of time-series data using Performance Analytics to show the compliance trends over time. The source for compliance analysis data is the Product Result \[samp\_product\_result\] table.
 
-![Compliance Summary tab](../image/dashboard-analytics-compliance-summary.png "Compliance Summary tab")
-
 |Report|Description|
 |------|-----------|
 |True-up Cost|Cost to be compliant based on the average prices for entitlements for the rights.|
@@ -310,8 +304,6 @@ Compliance summary consists of time-series data using Performance Analytics to s
 ## Removal Summary
 
 The source for removal summary data is the Reclamation Candidate \[samp\_sw\_reclamation\_candidate\] table.
-
-![Removal Summary tab](../image/removal-summary-tab.png)
 
 <table id="table_ixc_kkc_fbb"><thead><tr><th>
 

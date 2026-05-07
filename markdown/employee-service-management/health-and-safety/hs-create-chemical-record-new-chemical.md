@@ -6,8 +6,8 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2025-11-27"
+reading_time_minutes: 1
 breadcrumb: [Chemical management, Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
 
@@ -50,21 +50,6 @@ When the **Create chemical** form is,
 The **Chemical hazard identification**, **Chemical ingredients**, **Chemical ingredients**, **Chemical items**, **Risk assessments**, **Documents**, and **Service provider requests** tabs appear for this chemical record.
 
 The new chemical record is added to the **Chemicals** list in the **Environmental Management** list view.
-
-## What to do next
-
-To complete the chemical record manually,
-
--   In the **Details** tab, fill in the form. For more information, see [Chemical form](../reference/hs-chemical-form.md).
--   In the **Chemical hazard identification** tab, select **New**. In the **Chemical hazard identification** form, select the hazard category, hazard statements, and precautionary statements.
--   In the **Chemical ingredients** tab, select **New** to add the name of the substance, its concentration, and function. For more information, see [Chemical ingredient form](../reference/hs-chemical-ingredient-form.md). If the substance does not exists in the chemical ingredient form, select **Create substance** to create a record under the **Substance** list in the **Environmental Management** list view.
--   In the **Chemical items** tab, update information about the chemical such as the responsible group, contact person, storage conditions. For more information, see [Chemical item form](../reference/hs-chemical-item-form.md).
--   In the **Risk assessments** tab, add existing risk assessments or select **New** to create risk assessment. For more information, see [Risk assessment form](../../hs-risk-management/reference/hs-risk-assessment-form.md).
--   In the **Documents** tab, select **Add** to add existing Health and Safety documents or select **New** to create a Health and Safety document. For more information, see [Add a new Health and Safety related document](../../ohs-incident-management/task/add-hs-related-document.md). The chemical safety data sheet can also be requested from this tab. For more information, see [Request a safety data sheet \(SDS\)](hs-request-safety-data-sheet-sds.md).
--   In the actions tab, select **New** to add any actions for the safety meeting. For more information, see [Health and Safety action form](../../ohs-incident-management/reference/hs-action-form.md)
--   The **Service provider requests** tab displays the requests submitted to the 3E service provider.
-
-**Note:** The sync option can be used on any related list in a chemical record to obtain information from the 3 E database. For more info, see [Sync chemical information with the 3E database](hs-sync-chemical-data-with-3E.md).
 
 **Parent Topic:**[Chemical management](../concept/hs-using-chemical-management.md)
 

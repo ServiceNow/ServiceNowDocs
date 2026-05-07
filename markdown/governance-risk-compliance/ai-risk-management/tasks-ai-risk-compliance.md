@@ -59,7 +59,7 @@ The **My items** section helps you to access various items that have been assign
 
 ## Watchlist
 
-The **Watchlist** section helps you to access all the cases and tasks to whom I am added under watch list.
+The **Watchlist** section lets you access all the cases and tasks where you're added to the watchlist.
 
 ## Edit list
 

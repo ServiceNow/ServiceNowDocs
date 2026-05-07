@@ -44,7 +44,7 @@ To learn more about facets, see [Create a facet in an AI Search application conf
     |Name|index\_translated\_reference\_fields|
     |Value|false|
 
-    **Note:** To re-enable translation for facets, so that knowledge article reference field values appear in the user's session language when translated field values are available, set the index\_translated\_reference\_fields attribute's value back to **true**, its default value. For more information on the index\_translated\_reference\_fields attribute, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md#).
+    **Note:** To re-enable translation for facets, so that knowledge article reference field values appear in the user's session language when translated field values are available, set the index\_translated\_reference\_fields attribute's value back to **true**, its default value. For more information on the index\_translated\_reference\_fields attribute, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md).
 
 5.  Select **Submit**.
 

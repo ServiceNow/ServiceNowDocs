@@ -8,7 +8,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate onboarding ramp-up plan agentic workflow, Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Generate onboarding ramp-up plan, Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Onboarding ramp-up trigger

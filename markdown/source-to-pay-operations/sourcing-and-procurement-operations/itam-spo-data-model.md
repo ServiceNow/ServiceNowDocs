@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -37,9 +37,13 @@ Lists the field mappings between ITAM receipt line records and SPO receipt recor
 **Related topics**  
 
 
+[Base system procurement case type reference](../reference/base-system-procurement-case-types.md)
+
 [Create New Pipeline Project form](../reference/create-pipeline-project-form.md)
 
 [Pipeline project record tabs and UI actions](../reference/pipeline-form-tabs-actions.md)
+
+[Purchase requisition, purchase order, and sourcing request states](../reference/pr-po-sr-states.md)
 
 [Domain separation and Sourcing and Procurement Operations](psm-domain-separation.md)
 

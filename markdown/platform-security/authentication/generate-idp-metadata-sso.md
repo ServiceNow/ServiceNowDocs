@@ -27,7 +27,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 1.  Choose your installed SSO plugin:
 
-<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d35811e84">
+<table id="choicetable_eqz_pd4_pdb"><tbody><tr><td id="d39257e84">
 
 **Multi-Provider SSO**
 
@@ -35,7 +35,7 @@ The IdP needs SP metadata for the instance to authenticate and forward requests.
 
 Navigate to **Multi-Provider SSO** &gt; **Identity Providers**. Choose an IdP and click the **Generate Metadata** button. The integration automatically generates the instance's SP metadata from the system property settings.
 
-</td></tr><tr><td id="d35811e105">
+</td></tr><tr><td id="d39257e105">
 
 **SAML 2 SSO**
 

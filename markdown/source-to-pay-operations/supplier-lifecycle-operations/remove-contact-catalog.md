@@ -39,7 +39,7 @@ Role required: sn\_slm.contact or sn\_slm.admin
 
 6.  In the **Delegate tasks to** field, search for and select a contact to whom you want to reassign the tasks that are currently assigned to the contact being removed.
 
-7.  In the **Reason for offboarding** field, enter the reason for removing the contact.![Filled-in form for deactivating a user account.](../image/remove-supplier-supplier-collaboration-portal.png)
+7.  In the **Reason for offboarding** field, enter the reason for removing the contact.
 
 8.  Select **Submit**.
 

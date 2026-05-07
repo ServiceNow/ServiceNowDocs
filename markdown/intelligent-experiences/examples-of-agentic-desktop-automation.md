@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2025-10-12"
 reading_time_minutes: 1
 keywords: [use]
-breadcrumb: [Agentic Desktop, Enable AI experiences]
+breadcrumb: [AI Desktop Actions, Enable AI experiences]
 ---
 
 # Examples of creating desktop actions

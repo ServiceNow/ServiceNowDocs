@@ -30,14 +30,16 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
 3.  Select whether to **Enforce real time validation**.
 
-    Users designated in **Real Time Message Visibility** will be required to correct findings at the Error or Warning level before saving the form, as long as those findings do not have approved exception reasons.
+    Users designated in **Real Time Message Visibility** will be required to correct findings at the Error or Warning level before saving the form. Approved exception requests for Recommend level findings can bypass this requirement.
 
 4.  Select whether to **Exclude suggestion finding**, which hides Suggestion level findings from real-time display, showing only Review, Warning, and Error levels.
 
-    The Excluded tables area lists which tables are being excluded from real-time scanning. To add a table to this list, click at the bottom, and enter its name. You cannot remove default tables from this list.
+    The Excluded tables area lists which tables are being excluded from real-time scanning. To add a table to this list, select the field and enter the name. You cannot remove default tables from this list.
 
     **Note:** The tables listed here will be included in scheduled scans but will not display findings in real-time.
 
-5.  Enter a number for the **Maximum Lines for Real-Time Scan**. This sets the maximum number of code lines that can be scanned in real-time. Scripts exceeding this limit will not be scanned during editing.
+5.  Enter a number for the **Maximum Lines for Real-Time Scan**.
+
+    This sets the maximum number of code lines that can be scanned in real-time. Scripts exceeding this limit will not be scanned during editing.
 
 

@@ -6,8 +6,8 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-04-17"
+reading_time_minutes: 2
 breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -17,7 +17,7 @@ Users who cannot create their own global reports can modify a global report, and
 
 ## Before you begin
 
-Role required: report\_admin. On upgraded instances, other users may have the right to copy a report using these instructions based on access control.
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. On upgraded instances, other users may have the right to copy a report using these instructions based on access control. To create Core UI reports in the Australia release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
 
 ## About this task
 

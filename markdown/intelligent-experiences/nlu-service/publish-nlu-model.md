@@ -54,5 +54,3 @@ If your model is already published, you can publish it again. However, you must 
     **Result:** The most recent version of your NLU model is published. The model is active and available for use in other ServiceNow applications, such as Virtual Agent. Publishing also replaces any older versions of the model that are currently in use by those applications.
 
 
-**Parent Topic:**[Test and publish your model](../concept/testing-your-model.md)
-

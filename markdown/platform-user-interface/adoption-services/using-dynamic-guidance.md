@@ -1,6 +1,6 @@
 ---
 title: Using Dynamic Guidance
-description: Get familiar with Dynamic Guidance.
+description: Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
 locale: en-US
 release: australia
 product: Adoption Services
@@ -14,13 +14,15 @@ breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
 
 # Using Dynamic Guidance
 
-Get familiar with Dynamic Guidance.
+Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
 
 ## Before you begin
 
 Role required: sn\_dyn\_guidance\_user
 
-How to use Dynamic Guidance
+Google must be turned on in AI control tower for Dynamic Guidance to work.
+
+## How to use Dynamic Guidance
 
 ## Procedure
 
@@ -32,7 +34,7 @@ How to use Dynamic Guidance
 
     1.  Launch Help Center from the instance to find Dynamic Guidance as your voice-enabled guide.
 
-        ![image.ads-dynamic-guide]
+        ![Dynamic guidance](../image/ads-dynamic-guide.png)
 
     2.  Select **Start**.
 
@@ -42,7 +44,7 @@ How to use Dynamic Guidance
 
     2.  Select Dynamic Guidance.
 
-        ![image.launch-dg-nap]
+        ![Invoke Dynamic Guidance via Now assist panel](../image/launch-dg-nap.png)
 
     3.  Invoke the help agent from Now Assist panel via skill named 'Ask Dynamic Guidance for help'.
 
@@ -62,7 +64,7 @@ How to use Dynamic Guidance
 
 9.  Ask your question verbally to hear a conversational response real-time.
 
-    ![image.ads-dynamic-guidance-hello]
+    ![Dynamic guidance live](../image/ads-dynamic-guidance-hello.png)
 
     **Note:** The response will be relevant and according to the instance screen you use.
 

@@ -187,7 +187,6 @@ The following conditions must be met when a user requests a catalog item in the 
 -   The UI page variable type is ignored in Virtual Agent like the UI page is ignored in Service Portal. For more information, see [Types of service catalog variables](../reference/r_VariableTypes.md).
 -   To support the custom variables, users must associate topic blocks with the custom variables to represent them in the conversational interfaces. If the users don't associate topic blocks, the catalog item containing the custom variables, becomes non-conversational.
 -   If you know that a variable makes a catalog item non-conversational, you can remove such variable from the conversational interfaces by selecting **Remove from Conversational Interfaces** option. Find the option in the Availability tab of the question form in ServiceNow AI Platform.
--   Use the **sn\_now\_assist\_cr.enable\_question\_grouping** property to group semantically related questions and prompt them together to reduce conversation turns. The property is inactive by default.
 -   The field messages aren't shown to the requester in the following scenarios:
 
     -   If the field message appears for the question that's already answered.

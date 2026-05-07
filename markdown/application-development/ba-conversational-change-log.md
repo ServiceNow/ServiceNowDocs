@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 1
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -15,11 +16,11 @@ After Build Agent completes the changes you request, you can find information ab
 
 Use the conversation change log to do the following actions:
 
--   View the changes you've made since a checkpoint
+-   View the changes you have made since a checkpoint
 -   Roll back changes to the previous checkpoint
 -   Approve and deploy changes to an update set
 
-Checkpoints are groups of changes that you've made to an application that you can revert back to at any point during your conversation with Build Agent. Checkpoints are created automatically after you approve each task plan.
+Checkpoints are groups of changes that you have made to an application that you can revert back to at any point during your conversation with Build Agent. Checkpoints are created automatically after you approve each task plan.
 
 ![The conversational change log shows changes Build Agent has made to an application](../../servicenow-studio/image/sn-studio-ba-convo-change-log.png)
 

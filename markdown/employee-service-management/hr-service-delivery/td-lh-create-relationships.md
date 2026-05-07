@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Create support relationships

@@ -8,7 +8,7 @@ classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Explore, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Explore, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Identifying ERP candidates to replatform with Zero Copy Connector for ERP

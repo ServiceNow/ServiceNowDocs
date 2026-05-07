@@ -7,7 +7,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [Pattern, WMI, SQL instance, SQL DB On Windows, SQL Cluster]
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -91,6 +91,14 @@ The following procedure enables appropriate visibility of the SQL clusters.
 ## Microsoft SQL Server Always On availability groups support
 
 Starting from Discovery and Service Mapping Patterns version 1.27.0, the MSSql DB On Windows pattern extension **Collect MSSQL HADR - Availability Group Info** supports the discovery of Microsoft SQL Server Always On availability groups.
+
+The Collect MSSQL HADR - Availability Group Info pattern extension introduces the following CI classes that extend existing CMDB classes:
+
+|CI class|Extends from|
+|--------|------------|
+|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|Cluster \[cmdb\_ci\_cluster\]|
+|MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Endpoint \[cmdb\_ci\_endpoint\]|
+|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|MSSQL Cluster Node \[cmdb\_ci\_mssql\_cluster\_node\]|
 
 ![Collect MSSQL HADR - Availability Group Info pattern extension relationships](../../service-mapping/image/mssql-ag-pattern-model.png "Data model of Collect MSSQL HADR - Availability Group Info")
 
@@ -221,7 +229,7 @@ The install status of the instance:**Installed**- The instance is currently runn
     |-----|-----------|
     |Name \[name\]|The name of the database. For example: msdb.|
     |Install Status \[install\_status\]|The install status of the database.|
-    |Instance Name \[instance\_name\]|The instance name.|
+    |Instance name \[instance\_name\]|References the MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\] table.|
 
 -   **MSSQL Cluster Node \[cmdb\_ci\_mssql\_cluster\_node\]**
 
@@ -279,7 +287,7 @@ CI \[ci\]
 
 </td><td>
 
-Reference to MSFT SQL instance record \[cmdb\_ci\_db\_mssql\_instance\]
+Reference the MSFT SQL instance \[cmdb\_ci\_db\_mssql\_instance\] table.
 
 </td></tr><tr><td>
 
@@ -290,7 +298,7 @@ Installed On \[installed\_on\]
 Reference to the Windows server record \[cmdb\_ci\_win\_server\]**Note:** This field isn’t populated for standalone deployments.
 
 </td></tr></tbody>
-</table>-   **MSSQL components Info \[mssql\_components\_info\]**
+</table>-   **MSSQL Components Info \[mssql\_components\_info\]**
 
 <table id="table_o3b_lwk_zxb"><thead><tr><th>
 
@@ -338,7 +346,7 @@ CI \[ci\]
 
 </td><td>
 
-Reference to the MSFT SQL instance record.
+Reference the MSFT SQL instance \[cmdb\_ci\_db\_mssql\_instance\] table.
 
 </td></tr><tr><td>
 
@@ -469,157 +477,46 @@ Failover state.Possible values:
     |Listener ID \[listener\_id\]|Resource globally unique identifier \(GUID\) from Windows Server Failover Clustering \(WSFC\) cluster.|
     |IP Subnet Mask \[ip\_subnet\_mask\]|IP subnet mark for the IPv4 address, if any, that’s configured for the availability group listener.|
     |Availability Group \[availability\_group\]|References the MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\] table.|
-    |Primary Replica \[primary\_replica\]|References the MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\] table.|
 
 
 ## CI relationships
 
-The MSSql DB On Windows pattern creates CI relationships to support Microsoft SQL Server and Cluster discovery.
-
-<table id="table_vwx_gdc_lrb"><thead><tr><th>
-
-CI
-
-</th><th>
-
-Relationship
-
-</th><th>
-
-CI
-
-</th></tr></thead><tbody><tr><td>
-
-Windows Server
-
- \[cmdb\_ci\_win\_server\]
-
-</td><td>
-
-Runs::Runs on
-
-</td><td>
-
-MSSQL Cluster
-
-\[cmdb\_ci\_mssql\_cluster\]
-
-​
-
-</td></tr><tr><td>
-
-MSFT SQL instance​
-
- \[cmdb\_ci\_db\_mssql\_instance\]​
-
-</td><td>
-
-Runs::Runs on
-
-</td><td>
-
-MSSQL Cluster
-
- \[cmdb\_ci\_mssql\_cluster\]​
-
-</td></tr><tr><td>
-
-MSSQL Cluster Node​
-
- \[cmdb\_ci\_mssql\_cluster\_node\]​
-
-</td><td>
-
-Cluster::Cluster of​
-
- References \[cluster\]
-
-</td><td>
-
-MSSQL Cluster
-
- \[cmdb\_ci\_mssql\_cluster\]​
-
-</td></tr><tr><td>
-
-Windows Server​
-
- \[cmdb\_ci\_win\_server\]​
-
-</td><td>
-
-Hosts::Hosted by​
-
- Reference \[server\]
-
-</td><td>
-
-MSSQL Cluster Node​
-
- \[cmdb\_ci\_mssql\_cluster\_node\]​
-
-</td></tr><tr><td>
-
-MSFT SQL instance​
-
- \[cmdb\_ci\_db\_mssql\_instance\]
-
-</td><td>
-
-Runs on::Runs
-
-</td><td>
-
-Windows Server​
-
- \[cmdb\_ci\_win\_server\]​
-
-</td></tr><tr><td>
-
-MSFT SQL instance​
-
- \[cmdb\_ci\_db\_mssql\_instance\]
-
-</td><td>
-
-Contains::Contained by​
-
-</td><td>
-
-MS SQL Database​
-
- \[cmdb\_ci\_db\_mssql\_database\]​
-
-</td></tr><tr><td>
-
-MSSQL Service Info \[mssql\_sqlservice\_info\]
-
- **Note:** This relationship is created only when the Pattern uses the WMI queries.
-
-</td><td>
-
-References
-
-</td><td>
-
-MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]
-
-</td></tr></tbody>
-</table>The MSSql DB On Windows pattern creates CI relationships using the **Collect MSSQL HADR - Availability Group Info** pattern extension.
+The MSSql DB On Windows pattern creates the following relationships and references to support Microsoft SQL Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI|Relationship|CI|
 |---|------------|---|
-|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|Extends from|Cluster \[cmdb\_ci\_cluster\]|
+|Windows Server \[cmdb\_ci\_win\_server\]|Runs::Runs on|MSSQL Cluster \[cmdb\_ci\_mssql\_cluster\]|
+|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]​|Runs::Runs on|MSSQL Cluster \[cmdb\_ci\_mssql\_cluster\]​|
+|MSSQL Cluster Node​ \[cmdb\_ci\_mssql\_cluster\_node\]​|Cluster::Cluster of​|MSSQL Cluster \[cmdb\_ci\_mssql\_cluster\]​|
+|MSSQL Cluster Node​ \[cmdb\_ci\_mssql\_cluster\_node\]​|Hosted on::Hosts|Windows Server​ \[cmdb\_ci\_win\_server\]​|
+|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]|Runs on::Runs|Windows Server​ \[cmdb\_ci\_win\_server\]​|
+|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]|Runs on::Runs|MSSQL Cluster Node​ \[cmdb\_ci\_mssql\_cluster\_node\]​|
+|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]|Contains::Contained by​|MS SQL Database​ \[cmdb\_ci\_db\_mssql\_database\]​|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|MSSQL Cluster Node​ \[cmdb\_ci\_mssql\_cluster\_node\]​|Cluster \[cluster\]|MSSQL Cluster \[cmdb\_ci\_mssql\_cluster\]​|
+|MSSQL Cluster Node​ \[cmdb\_ci\_mssql\_cluster\_node\]​|Server \[server\]|Windows Server​ \[cmdb\_ci\_win\_server\]​|
+|MSSQL Service Info \[mssql\_sqlservice\_info\]\*|CI \[ci\]|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]|
+|MSSQL Components Info \[mssql\_components\_info\]|CI \[ci\]|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]|
+|MS SQL Database​ \[cmdb\_ci\_db\_mssql\_database\]​|Instance name \[instance\_name\]|MSFT SQL instance​ \[cmdb\_ci\_db\_mssql\_instance\]|
+
+\*This reference is created only when the pattern uses the WMI queries.
+
+The MSSql DB On Windows pattern creates the following relationships and references using the **Collect MSSQL HADR - Availability Group Info** pattern extension. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
+
+|CI|Relationship|CI|
+|---|------------|---|
 |MSFT SQL instance \[cmdb\_ci\_db\_mssql\_instance\]​|Member of::Members|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|
-|MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Extends from|Endpoint \[cmdb\_ci\_endpoint\]|
-|MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|References|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
-|MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|References|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|
 |MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Used by::Uses|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
 |MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Contains::Contained by|MS SQL Database \[cmdb\_ci\_db\_mssql\_database\]|
 |MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Cluster of::Cluster|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
-|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Extends from|MSSQL Cluster Node \[cmdb\_ci\_mssql\_cluster\_node\]​|
-|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Hosted on::Hosts|Windows Servers \[cmdb\_ci\_win\_server\]​|
-|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|References|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
+|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Hosted on::Hosts|Windows Server \[cmdb\_ci\_win\_server\]​|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|MSSQL Availability Group Listener \[cmdb\_ci\_mssql\_ag\_listener\]|Availability Group \[availability\_group\]|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
+|MSSQL Availability Group Replica \[cmdb\_ci\_mssql\_ag\_replica\]|Availability Group \[availability\_group\]|MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\]|
 
 **Parent Topic:**[Database discovery](../concept/database-discovery.md)
 

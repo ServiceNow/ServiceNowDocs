@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Sign up for your preferred shifts
@@ -64,5 +64,5 @@ You can receive notifications when your manager makes a schedule plan available 
     All shifts you have added for sign up will be submitted.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

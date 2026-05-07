@@ -55,6 +55,10 @@ See [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=
 
     Displays the number of unread email messages on interaction tabs in CSM Configurable Workspace. Hovering over a tab displays a tooltip with a preview of the most recent email.
 
+-   **[Activity timer log](https://www.servicenow.com/docs/access?context=csm-config-ws-time-tracking&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    Track the time that agents spend working on cases and interactions in CSM Configurable Workspace. View a time log report to see detailed records of the time spent on projects and tasks.
+
 
 ## Changed in this release
 

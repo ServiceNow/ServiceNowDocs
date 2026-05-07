@@ -37,7 +37,7 @@ Publish an asset to the hardware catalog so that you can procure the asset by us
 **Related topics**  
 
 
-[Model your workflow](telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](telecommunications-network-inventory-workflow.md)
 
 [Data model](uses-for-network-inventory-data.md)
 

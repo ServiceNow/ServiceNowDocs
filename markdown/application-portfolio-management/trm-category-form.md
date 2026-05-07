@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\) reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM Category form
@@ -23,12 +23,10 @@ Add a new request or edit an existing request to create a TRM category.
 |Parent Category|Select a parent category to add the category to a hierarchical structure. Look up and select a category from the TRM Categories page.|
 |Owner|Owner of the TRM category, responsible for maintaining consistent technology compliance standards for that TRM category.|
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](apm-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference/eaw-reference.md)
 
 **Related topics**  
 
-
-[Add or edit a TRM category](../task/add-edit-trm-category.md)
 
 [Manage TRM categories](../concept/eaw-concept/eaw-configure-trm-categories.md)
 

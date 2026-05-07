@@ -15,6 +15,10 @@ breadcrumb: [Explore, Privacy Case Management, Privacy Management, Governance, R
 
 The Privacy Case Management solution provides you a framework to manage any privacy breaches reported by the users. The solution provides an end-to-end workflow for the privacy team to triage the reported breach and perform the required investigation and analysis, gather evidence, record the key stakeholders, impacted areas, and regulatory violations, if any.
 
+The following image shows the workflow of the Privacy Case Management application.
+
+![Life cycle of a privacy case after it is created.](../image/privacy-case-mgmt-workflow.png "Privacy Case Management workflow")
+
 The life cycle of a privacy case is explained as follows:
 
 1.  A case can be reported by the business users from the Employee Center or users can also reach out to the privacy teams using other modes such as phone call or email, after which the privacy team can create the case on behalf of the user from the Privacy Workspace and attach the related details.

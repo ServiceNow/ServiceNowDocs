@@ -114,7 +114,7 @@ Empty state action label
 
 </td><td>
 
-Open Employee Hub
+Open Employee Slate
 
 </td></tr><tr><td>
 

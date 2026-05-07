@@ -1,25 +1,23 @@
 ---
 title: Set up checklist for the GRC Mobile application
-description: The following checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform instance and on your mobile device. Complete these set up tasks prior to using the GRC Mobile application to view the Risk Management application on your mobile device.
+description: The following checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform instance and on your mobile device. Complete these set up tasks before using the GRC Mobile application to view the Risk Management application on your mobile device.
 locale: en-US
 release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 5
 breadcrumb: [Configure, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Set up checklist for the GRC Mobile application
 
-The following checklist includes the set up tasks that you are required to complete in your ServiceNow AI Platform® instance and on your mobile device. Complete these set up tasks prior to using the GRC Mobile application to view the Risk Management application on your mobile device.
+The following checklist includes the set up tasks that you're required to complete in your ServiceNow AI Platform® instance and on your mobile device. Complete these set up tasks before using the GRC Mobile application to view the Risk Management application on your mobile device.
 
 ## Before you begin
 
 As an option, print this checklist and use it to guide you through the set up tasks that are required for the GRC Mobile application. Verify that each item on the list is completed so that you can log in to the GRC Mobile application and add a ServiceNow AI Platform instance.
-
-Time to complete this task: 15-20 minutes.
 
 Roles required: admin, sn\_risk.manager
 
@@ -41,7 +39,7 @@ As a user with the admin role, verify that you have the GRC core applications in
 
  **Note:** The GRC core applications and the ServiceNow AI Platform instance should be from the same family release.
 
- 1.  To verify the GRC: GRC Profile Dependencies core application is installed on your instance, navigate to **Plugins** and search for GRC Profile.
+ 1.  To verify the GRC: Profile Dependencies core application is installed on your instance, navigate to **Plugins** and search for GRC Profile.
 2.  If the GRC Profile core application is not already installed, click **Install** to install it.
 3.  After the GRC Profile application is installed, install either the Policy and Compliance Management core application, or the Risk Management core application, or both the Policy and Compliance Management and Risk Management applications. These are the two GRC applications that you can view with the GRC Mobile application.
 
@@ -92,8 +90,6 @@ As a user with the admin role, in your ServiceNow AI Platform instance verify th
 </td><td>
 
 As a mobile user with the sn\_risk.manager role, verify that you have installed the most current ServiceNow® Agent application on your mobile device.
-
- ![Agent mobile app.](../../../common/image/mobile-vr-agent_app-8182.png "Agent mobile app")
 
  The most current Agent app is available on the Apple iOS App Store and the Google Play Store.
 

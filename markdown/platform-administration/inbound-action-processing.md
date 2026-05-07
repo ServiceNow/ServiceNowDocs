@@ -17,7 +17,7 @@ The system determines which inbound actions to run by comparing the inbound emai
 
 The system follows this processing flow to determine whether to run an inbound action.
 
-![Inbound action processing work flow](../image/inbound-action-processing.png "Inbound action processing work flow")
+![Inbound action processing workflow](../image/inbound-action-processing.png "Inbound action processing workflow")
 
 The system only runs an inbound action when:
 
@@ -110,8 +110,8 @@ The following examples illustrate how the instance matches randomized watermarks
 
 |Subject Line or Body Contents|Matching Results|
 |-----------------------------|----------------|
-|Ref:MSG0000008\_ aLJc130zDhCVuh3spXmt|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSG0000008\_ aLJc130zDhCVuh3spXmt. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in .|
-|Ref:MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in .|
+|Ref:MSG0000008\_ aLJc130zDhCVuh3spXmt|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSG0000008\_ aLJc130zDhCVuh3spXmt. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](inbound-action-type-criteria.md).|
+|Ref:MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh|The instance recognizes this string as a watermark and searches the Email Watermarks \[sys\_watermark\] table for a record with the number MSGWTR0000008\_wfLLz42IxCgUvG2JlYnh. If this watermark exists, the instance matches the email to the associated record. If this watermark does not exist, the system processes inbound email messages as described in [Criteria for matching email to inbound actions](inbound-action-type-criteria.md).|
 
 ## Matching record numbers in the Subject line or Body
 

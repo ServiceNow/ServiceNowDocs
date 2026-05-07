@@ -17,7 +17,7 @@ User segment groups allow you to specify values for a group of users, or with mu
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_core.admin
 
 ## About this task
 

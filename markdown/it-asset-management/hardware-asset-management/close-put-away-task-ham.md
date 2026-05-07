@@ -35,15 +35,15 @@ You can bulk close selected Asset put away tasks that are open and assigned to y
 
 2.  Open the put away task either from the Inventory overview section or the **All Stockrooms** tab.
 
-<table id="choicetable_t5y_1ct_xfc"><thead><tr><th align="left" id="d270299e107">
+<table id="choicetable_t5y_1ct_xfc"><thead><tr><th align="left" id="d272649e107">
 
 Option
 
-</th><th align="left" id="d270299e110">
+</th><th align="left" id="d272649e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d270299e116">
+</th></tr></thead><tbody><tr><td id="d272649e116">
 
 **From the Inventory overview section**
 
@@ -53,7 +53,7 @@ Description
 2.  Select the **Number** link to open the Asset put away task.
 
 
-</td></tr><tr><td id="d270299e140">
+</td></tr><tr><td id="d272649e140">
 
 **From the __All Stockrooms__ tab.**
 

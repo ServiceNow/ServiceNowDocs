@@ -22,7 +22,7 @@ Role required: now\_assist\_panel\_user
 
 **Note:** If you have users that only need to edit \(not create\) apps, they can be assigned the delegated\_developer or now\_assist\_panel\_user roles.
 
-To add a workspace to an application using the app generation skill, enable the Now Assist for Creator experience generation skill. For more information, see [Experience generation](../../../administer/ui-generation/task/generate-ui.md).
+To add a workspace to an application using the app generation skill, enable the Now Assist for Creator experience generation skill. For more information, see [Create an AI-generated experience](../../../administer/ui-generation/task/generate-ui.md#).
 
 ## About this task
 

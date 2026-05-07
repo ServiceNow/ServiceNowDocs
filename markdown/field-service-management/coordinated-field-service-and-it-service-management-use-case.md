@@ -25,7 +25,7 @@ Field Service Management tracks parts used, expenses, and completion times on a 
 
 ## Field Service IT workflow diagram
 
-![image.FSM-it-workflow]
+![Field Service Management IT workflow from opening an incident to analyzing the audit reports. For more text description, refer to the following table.](../image/FSM-it-workflow.png)
 
 ## IT Field Service workflow steps
 

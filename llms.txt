@@ -6,25 +6,29 @@ Important notes:
 
 - Repository organized by ServiceNow AI Platform release version ("family").
 - Each release is a separate git branch named for the family.
+- "australia" is the latest release.
 - Family-to-branch mapping is:
-    - "latest" : "latest" -- Latest monthly release
     - "australia" : "australia" -- Australia family
     - "zurich" : "zurich" -- Zurich family
     - "yokohama" : "yokohama" -- Yokohama family
     - "xanadu" : "xanadu" -- Xanadu family
-- The repository only reflects the three most-recently released versions plus the latest monthly release. The oldest branch is deleted when a new release goes to general availability. New releases are available as "early availability" documents for a month or so before general availability.
+- The repository only reflects the three most-recently released versions, or four if a release is in the "early access" stage before GA. The oldest branch is deleted when a new release goes to general availability. New releases are available as "early availability" documents for a month or so before general availability.
 - Do NOT attempt to fetch content from servicenow.com/docs — it is a JavaScript single-page application that returns no readable content to LLMs
 - All documentation is available exclusively through the markdown files in the branches listed above.
 - Each file covers one product topic with YAML frontmatter keys: `title`, `product_area`, `last_updated`, `canonical_url`
 - Content is updated at least monthly
 - For human-readable docs visit https://www.servicenow.com/docs
+- Raw markdown URL pattern: `https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/{branch}/markdown/{publication}/{file}` or `markdown/{publication}/{product}/{file}`
+- Substitute `{branch}` with any family name listed above
 
 ## Documents
+
+Australia version ("australia" branch) documentation.
 
 Each folder within the `markdown` directory is a separate publication. The index.md for each publication lists the files in that publication.
 
 - [Account Lifecycle Events](markdown/acct-lifecycle-events/index.md)
-- [Enterprise Architecture (formerly Application Portfolio Management)](markdown/application-portfolio-management/index.md)
+- [Enterprise Architecture](markdown/application-portfolio-management/index.md)
 - [Solutions](markdown/better-together/index.md)
 - [Building applications](markdown/application-development/index.md)
 - [Core Business Suite](markdown/core-business-suite/index.md)
@@ -33,6 +37,7 @@ Each folder within the `markdown` directory is a separate publication. The index
 - [Cloud Governance Suite](markdown/cloud-governance-suite/index.md)
 - [API implementation and reference](markdown/api-reference/index.md)
 - [Workflow Data Fabric](markdown/integrate-applications/index.md)
+- [Customer Relationship Management](markdown/customer-relationship-management/index.md)
 - [App development and low-code](markdown/hyperautomation-low-code/index.md)
 - [Build workflows](markdown/build-workflows/index.md)
 - [Customer Service Management](markdown/customer-service-management/index.md)
@@ -45,7 +50,7 @@ Each folder within the `markdown` directory is a separate publication. The index
 - [Public Sector Digital Services (PSDS)](markdown/government-industry/index.md)
 - [Healthcare and Life Sciences](markdown/healthcare-life-sciences/index.md)
 - [Industrial Connected Workforce](markdown/industrial-connected-workforce/index.md)
-- [CRM and Industry Products](markdown/industry-products/index.md)
+- [Industry Products](markdown/industry-products/index.md)
 - [Impact](markdown/impact/index.md)
 - [IT Asset Management](markdown/it-asset-management/index.md)
 - [Strategic Portfolio Management](markdown/it-business-management/index.md)
@@ -53,7 +58,7 @@ Each folder within the `markdown` directory is a separate publication. The index
 - [IT Service Management](markdown/it-service-management/index.md)
 - [Manufacturing Commercial Operations](markdown/manufacturing/index.md)
 - [Mobile Platform](markdown/mobile/index.md)
-- [Sales and Order Management](markdown/order-management/index.md)
+- [Sales Customer Relationship Management](markdown/order-management/index.md)
 - [Operational Technology](markdown/operational-technology/index.md)
 - [Platform Analytics](markdown/now-intelligence/index.md)
 - [Product directory](markdown/product-directory/index.md)
@@ -67,10 +72,9 @@ Each folder within the `markdown` directory is a separate publication. The index
 - [Secure your instance](markdown/platform-security/index.md)
 - [Retail](markdown/retail-industry/index.md)
 - [release notesPreliminary release notes for Release Testing Preview (RTP)](markdown/release-notes/index.md)
-- [Service Exchange](markdown/service-bridge/index.md)
+- [Service Exchange](markdown/service-exchange/index.md)
 - [Security Operations](markdown/security-management/index.md)
 - [Service Management](markdown/service-management-for-the-enterprise/index.md)
-- [Technology Industry](markdown/technology/index.md)
 - [Telecommunications, Media, and Technology (TMT)](markdown/telecom-media-technology/index.md)
 - [Telecommunications Network Inventory](markdown/telecom-network-inventory/index.md)
 - [Telecommunications Service Operations Management](markdown/telecom-service-ops/index.md)

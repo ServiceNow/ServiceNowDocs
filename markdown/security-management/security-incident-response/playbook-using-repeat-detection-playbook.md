@@ -28,8 +28,6 @@ Role required:
 
 2.  In Action 2, the playbook looks up the Task Observable records on the table `sn_ti_m2m_task_observable` that match the incident based on the Message ID.
 
-    ![Look up task observable records based on Message ID.](../image/playbook-repeat-detection-observables.png "Repeat Detection playbook")
-
 3.  In Action 3, the playbook compares the Task Observables and Email body using the Levenshtein algorithm for incidents that matched the Message ID.
 
 4.  In Action 4, based on the investigation done so far, the playbook checks whether the matching incident is found based on the Message ID or not.
@@ -43,8 +41,6 @@ Role required:
 7.  In Action 9, the playbook checks whether the matching incident is found or not.
 
     In Action 10, if the matching incident is found, the playbook automatically updates the worknote that a match has been found based on the automation for Repeat Detection. In Action 11, the flow ends.
-
-    ![When the matching incident is found, the worknotes is updated.](../image/playbook-repeat-detection-worknotes.png "Matching incident")
 
 8.  In Action 12, the playbook looks up the Task Observable records on the table `sn_ti_m2m_task_observable` that match the incident based on the Address.
 

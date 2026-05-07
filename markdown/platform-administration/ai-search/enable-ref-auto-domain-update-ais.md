@@ -21,7 +21,7 @@ Role required: ais\_admin
 
 ## About this task
 
-This topic provides steps for configuring a **dot\_walk\_fields** field setting to enable automatic indexing of domain field values for records in referenced tables. For more general instructions on defining field settings, see [Create a field setting for an AI Search indexed source](../concept/field-settings-ais.md#).
+This topic provides steps for configuring a **dot\_walk\_fields** field setting to enable automatic indexing of domain field values for records in referenced tables. For more general instructions on defining field settings, see [Create a field setting for an AI Search indexed source](create-field-setting-ais.md).
 
 ## Procedure
 

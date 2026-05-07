@@ -131,14 +131,6 @@ Agentic Contact Center for Banking
 
 </td></tr><tr><td>
 
-Agentic Desktop
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-agenticdesktop-release-notes.html)
-
-</td></tr><tr><td>
-
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -155,6 +147,14 @@ Agile Development 2.0
 
 </td></tr><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aiagentadvisor-release-notes.html)
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -163,11 +163,11 @@ AI Control Tower
 
 </td></tr><tr><td>
 
-AI-native IT Service Management
+AI Desktop Actions
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-ainativeitservicemanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-aidesktopactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -691,11 +691,11 @@ Customer Engagement Sequences
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customerselfserviceforsalesandordermanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -712,6 +712,14 @@ Customer Success Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-customersuccessmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+Data Catalog
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-datacatalog-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -752,6 +760,14 @@ Data Privacy
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-dataprivacy-release-notes.html)
+
+</td></tr><tr><td>
+
+Data products
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-dataproducts-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -931,6 +947,14 @@ Employee Relations
 
 </td></tr><tr><td>
 
+Employee Slate
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-employeeslate-release-notes.html)
+
+</td></tr><tr><td>
+
 EMR Help
 
 </td><td>
@@ -1051,11 +1075,11 @@ Financial Services Operations Integration with Mastercard
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi CDRN
+Financial Services Operations Integration with Verifi
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-financialservicesoperationsintegrationwithverificdrn-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-financialservicesoperationsintegrationwithverifi-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1411,6 +1435,14 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
+IT Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-itservicemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
 ITSM Mobile Agent
 
 </td><td>
@@ -1747,6 +1779,14 @@ Now Assist Analytics
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistcenter-release-notes.html)
+
+</td></tr><tr><td>
+
 Now Assist for App Engine
 
 </td><td>
@@ -1899,14 +1939,6 @@ Now Assist for Manufacturing Commercial Operations \(MCO\)
 
 </td></tr><tr><td>
 
-Now Assist for Operational Sustainability Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforoperationalsustainabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Operational Sustainability Management Management
 
 </td><td>
@@ -1939,11 +1971,11 @@ Now Assist for Retail Service Management \(RSM\)
 
 </td></tr><tr><td>
 
-Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+Now Assist for Sales CRM for Telecommunications
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforsalesandordermanagementfortelecommunicationssomt-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforsalescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2048,6 +2080,14 @@ Now Assist for Workplace Service Delivery \(WSD\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforworkplaceservicedeliverywsd-release-notes.html)
+
+</td></tr><tr><td>
+
+Now Assist for Zero Copy Connector
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2571,11 +2611,11 @@ Sales Agreement Management
 
 </td></tr><tr><td>
 
-Sales and Order Management for Telecommunications \(SOMT\)
+Sales CRM for Telecommunications
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-salesandordermanagementfortelecommunicationssomt-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-yokohama-australia/australia-yokohama-salescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 

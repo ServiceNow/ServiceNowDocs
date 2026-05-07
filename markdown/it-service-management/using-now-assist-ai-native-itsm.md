@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Fulfiller experience, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Fulfiller experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Using the Service Desk Team Dashboard
@@ -27,5 +27,5 @@ You can filter performance data by assignment group and date range.
 
 ![](../image/service-desk-dash-ai-native.png)
 
-**Parent Topic:**[Fulfiller experience in AI-native IT Service Management](fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](fulfiller-experience-ai-native-itsm.md)
 

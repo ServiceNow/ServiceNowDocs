@@ -34,7 +34,7 @@ Use Industrial Connected Workforce Mobile Experience to streamline your factory 
 [Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Look up additional technical details about ICW Mobile Experience.](../reference/industrial-connected-workforce-mobile-experience-reference.md)
 
 </td></tr></tbody>
-</table>ICW Mobile Experience extends the Digital Factory Workspace to mobile devices, enabling shop floor operators to create and execute guided tasks, log deviations and actions, escalate issues to breakdowns, initiate breakdown analyses, and report safety incidents directly from the factory floor. The mobile agent also provides access to the Standards hub and search capability, allowing operators to find standards, knowledge articles, and tasks without returning to a desktop workstation.
+</table>ICW Mobile Experience extends the Digital Factory Workspace to mobile devices, enabling shop floor operators to create and execute guided tasks, log deviations and actions, escalate issues to breakdowns, initiate breakdown analyzes, and report safety incidents directly from the factory floor. The mobile agent also provides access to the Standards hub and search capability, allowing operators to find standards, knowledge articles, and tasks without returning to a desktop workstation.
 
 -   **[Exploring Industrial Connected Workforce Mobile Experience](exploring-icw-mobile-experience.md)**  
 The Industrial Connected Workforce Mobile Experience enables shop floor operators to execute tasks, request standards, and access knowledge within their organization through mobile devices.

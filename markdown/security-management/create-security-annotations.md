@@ -4,7 +4,7 @@ description: Annotations on CIs allow you to track activity across incidents. Yo
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -21,19 +21,17 @@ Role required: admin
 
 1.  From a security incident or the Configuration Item table, open a CI.
 
-2.  Right click in the header and choose **View** &gt; **Security**.
+2.  Select and hold \(or right-click\) in the header and choose **View** &gt; **Security**.
 
-    ![Security Annotations for a configuration item](../image/SecurityAnnotationCI.png)
-
-3.  In the **Security Annotations** related list tab, click **New**.
+3.  In the **Security Annotations** related list tab, select **New**.
 
 4.  Enter an annotation.
 
     Annotations can be in any text format.
 
-5.  Click **Submit.**
+5.  Select **Submit.**
 
-    **Note:** You can add the same annotation to multiple CIs by selecting CIs on the list, choose **Add security annotation**, enter an annotation in any text format, and click **Submit**.
+    **Note:** You can add the same annotation to multiple CIs by selecting CIs on the list, choose **Add security annotation**, enter an annotation in any text format, and select **Submit**.
 
 
 **Parent Topic:**[Security annotations](../concept/security-annotations.md)

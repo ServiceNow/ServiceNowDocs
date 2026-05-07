@@ -1,6 +1,6 @@
 ---
 title: Working with UI interaction demo data
-description: Demo UI interactions give you simple, ready‑made examples that demonstrate common UI Interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
+description: Demo UI interactions give you simple, ready‑made examples that demonstrate common UI interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
 locale: en-US
 release: australia
 product: UI Builder
@@ -13,7 +13,7 @@ breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI 
 
 # Working with UI interaction demo data
 
-Demo UI interactions give you simple, ready‑made examples that demonstrate common UI Interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
+Demo UI interactions give you simple, ready‑made examples that demonstrate common UI interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
 
 ## Key considerations for working with demo interactions
 
@@ -97,7 +97,7 @@ Opens a modeless dialog with a form for creating a new record without leaving th
 
 </td><td>
 
-Teaches you how to invoke record creation in-context using UI Interactions.
+Teaches you how to invoke record creation in-context using UI interactions.
 
 </td><td>
 
@@ -121,7 +121,7 @@ Bulk reassignment
 
 </td></tr><tr><td>
 
-DEMO Open modal to display table, sys\_id, form view
+DEMO Open modal with record info
 
 </td><td>
 
@@ -152,7 +152,18 @@ Demonstrates Workspace‑aware actions, helping you automate save and finish pat
 Save‑and‑finish workflow
 
 </td></tr></tbody>
-</table>## Viewing demo data in UI Builder
+</table>## Load demo data
+
+Demo data should be loaded only in a development or test instance to prevent conflict with production data.
+
+1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
+2.  Enter `sn-interaction-builder` into the search bar.
+3.  Select **Load demo data**.
+
+    ![Application Manager page for devsnc/sn‑interaction‑builder with Load demo data.](../image/uib-uii-demo-data-plugin.png "Load demo data")
+
+
+## Viewing demo data in UI Builder
 
 1.  From the UI Builder home page, select the **UI interactions** tab to view the list of available interactions.
 2.  Use either the list filter from the Label column to search for interactions that begin with DEMO or enter `DEMO` in the search field.

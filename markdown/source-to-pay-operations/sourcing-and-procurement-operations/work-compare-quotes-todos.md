@@ -31,15 +31,15 @@ Role required: sn\_shop.shopper
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d111159e91">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d117594e100">
 
 Action
 
-</th><th align="left" id="d111159e94">
+</th><th align="left" id="d117594e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111159e100">
+</th></tr></thead><tbody><tr><td id="d117594e109">
 
 **Checkout now**
 
@@ -47,7 +47,7 @@ Description
 
 Select the quote that works best for you and proceed to checkout. The quick checkout pane is displayed, with the details for your purchase already filled in. For more information on how to proceed, see [Order a product](order-a-product.md).
 
-</td></tr><tr><td id="d111159e119">
+</td></tr><tr><td id="d117594e128">
 
 **Reject all quotes**
 

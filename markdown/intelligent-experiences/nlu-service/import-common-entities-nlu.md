@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 1
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -63,22 +63,8 @@ In this example procedure, you are importing several entities to a new model.
 
 Use the imported entities to annotate the utterances of the model. Train your model to save your changes.
 
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
 **Related topics**  
 
-
-[Create a simple entity](create-nlu-entities.md)
-
-[Create a mapped entity](create-mapped-entity-lookup-source.md)
-
-[Create a pattern entity](create-pattern-entity.md)
-
-[Create a system-derived entity](create-system-derived-entity.md)
-
-[Create an open-ended entity](create-open-ended-entity.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
 
 [Import an NLU intent](import-nlu-intent.md)
 

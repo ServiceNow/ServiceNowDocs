@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 ---
 
 # Industrial Connected Workforce Mobile Experience release notes
@@ -14,6 +14,8 @@ The ServiceNow® Industrial Connected Workforce Mobile Experience \(ICW Mobile\)
 
 ## ICW Mobile highlights for the Australia release
 
+-   Use the AI Enhanced recommended actions for Industrial Connected Workforce Mobile Experience \(ICW Mobile\) feature to access external sources related to a deviation and review why the document is relevant to the incident.
+-   Use the action plan skill available with AI Enhanced recommended actions for ICW Mobile to create and organize resolution action items related to deviation.
 -   Empower shop floor workers with new mobile task views and production‑day filtering to focus on what needs immediate attention.
 -   Access and navigate published standards on any device with an enhanced Standards Hub optimized for small‑screen navigation.
 -   Report issues faster with streamlined creation of actions, deviations, and breakdown reports directly from the shop floor.
@@ -25,6 +27,24 @@ See [Exploring Industrial Connected Workforce Mobile Experience](https://www.ser
 **Important:** ICW Mobile is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## ICW Mobile features
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-icw-mobile&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+
+    Contextualize an external document to get an explanation of why the document is relevant to the selected deviation.
+
+-   **[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](https://www.servicenow.com/docs/access?context=generate-action-plan-ai-enhanced-ra-icw-mobile&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+
+    Create an action plan to help resolve your ICW deviation using relevant documentation.
+
 
 -   **[Mobile Task Management](https://www.servicenow.com/docs/access?context=using-icw-mobile-experience&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
 

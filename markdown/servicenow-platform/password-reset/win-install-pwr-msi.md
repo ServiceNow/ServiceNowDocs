@@ -6,7 +6,7 @@ release: australia
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Install Password Reset Windows Application, Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

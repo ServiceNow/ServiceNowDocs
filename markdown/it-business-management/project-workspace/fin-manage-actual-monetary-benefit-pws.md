@@ -26,15 +26,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 2.  Capture actual monetary benefits using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d237191e86">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d230081e86">
 
 Option
 
-</th><th align="left" id="d237191e89">
+</th><th align="left" id="d230081e89">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d237191e95">
+</th></tr></thead><tbody><tr><td id="d230081e95">
 
 **Using Monetary benefit plan related list**
 
@@ -45,7 +45,7 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d237191e125">
+</td></tr><tr><td id="d230081e125">
 
 **Using finanicals record page**
 

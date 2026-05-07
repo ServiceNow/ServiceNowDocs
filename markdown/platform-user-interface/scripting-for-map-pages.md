@@ -165,8 +165,6 @@ while (count.next()) {
 
 Marker labels allow you to add dynamic text to markers. This example displays the active incident count at each location.
 
-![](../image/MapMarkerLabels.png "Map marker labels")
-
 ```
 //get the instances url so we can link back to it
 var uri = gs.getProperty("glide.servlet.uri");

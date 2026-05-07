@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add an existing business capability to a business application
@@ -35,15 +35,15 @@ Role required: sn\_apm.apm\_user
 
 8.  In the Add business capabilities window, add the relevant business capabilities or particular sub capabilities.
 
-<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d113278e146">
+<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d97670e146">
 
 Options
 
-</th><th align="left" id="d113278e149">
+</th><th align="left" id="d97670e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d113278e155">
+</th></tr></thead><tbody><tr><td id="d97670e155">
 
 **Add parent business capabilities to the business application**
 
@@ -55,7 +55,7 @@ In the **Available items** box, select the check box next to a business capabili
 
  ![Selected business capabilities that are to be added to the business application.](../../image/eaw-image/business-capability-added-to-ba.png)
 
-</td></tr><tr><td id="d113278e183">
+</td></tr><tr><td id="d97670e183">
 
 **Add specific sub capabilities to the business application**
 

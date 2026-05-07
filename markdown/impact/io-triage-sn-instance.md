@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Triage a ServiceNow instance
@@ -71,5 +71,5 @@ Role required: admin
 -   **[Triaged instance data](../concept/io-triage.md)**  
 You can triage your instance to get instant information on transactions, jobs, nodes utilization, semaphores, schedulers and update sets. Minimal use of this feature is recommended as use of this consumes resources on your instance.
 
-**Parent Topic:**[Instance Observer](../concept/io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](../concept/io-overview.md)
 

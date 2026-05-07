@@ -17,6 +17,8 @@ Summarize a Virtual Agent chat history in the Now Assist for HR Service Delivery
 
 ## Before you begin
 
+[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md)
+
 Role required: sn\_hr\_core.case\_writer
 
 ## About this task

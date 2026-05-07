@@ -31,9 +31,5 @@ Using the Certificate Inventory and Management, you can [Run Certificate Discove
 
 To Import Certificates or Discovery CA Trust with more than 1500 certificates, create the discovery schedule with more than one serverless patterns configured. Each pattern execution supports a maximum of 1500 certificates discovery.
 
-![execution pattern](../image/multiple-serverless-executions.png)
-
-To discover all the certificates, the limit \(defaults to 1500\) and start\_offset \(defaults to 0\), must be configured accordingly. For example, to fetch up to 6,000 certificates, add four serverless patterns with start\_offset 0, 1500, 3000, and 4500. Start\_offset and limit parameters are configured as shown.
-
-![pattern config](../image/execution-patterns-config.png)
+To discover all the certificates, the limit \(defaults to 1500\) and start\_offset \(defaults to 0\), must be configured accordingly. For example, to fetch up to 6,000 certificates, add four serverless patterns with start\_offset 0, 1500, 3000, and 4500.
 

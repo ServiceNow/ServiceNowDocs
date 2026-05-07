@@ -54,6 +54,8 @@ Many journeys have similar task types for multiple users. You can update similar
 Journey owners and mentors with the **Can add personalized message** permission can send a personal message to the employee assigned to a journey.
 -   **[Display learning recommendations to the Manager creating a journey](jny-dsgnr-learning-recom-manager-ml.md)**  
 Enable manager who is creating a journey for an employee, to add relevant learning recommendations for the employee in the Employee Center.
+-   **[Add tasks to an activity set using Journey designer](../task/add-tasks-activity-set.md)**  
+Add tasks to a Lifecycle Events activity set to personalize an employee’s journey. Adding tasks gives you the flexibility to tailor journeys to individual employee needs without modifying the underlying journey configuration.
 -   **[Journeys on Now Mobile](journeys-mobile-now.md)**  
 Journeys are created in the ServiceNow® Journey designer application to help employees navigate multi-step transitions, such as onboarding, maternity leave, or an interdepartmental transfer. The Now Mobile application enables users to perform journey-related tasks from the convenience of their mobile device.
 

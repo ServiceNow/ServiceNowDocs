@@ -6,7 +6,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-16"
 reading_time_minutes: 2
 breadcrumb: [Natural Language Understanding, Enable AI experiences]
 ---
@@ -14,8 +14,6 @@ breadcrumb: [Natural Language Understanding, Enable AI experiences]
 # Virtual Agent and NLU Workbench integration
 
 Virtual Agent administrators can access and update their NLU models from within the Virtual Agent Designer user interface.
-
-![Diagram of NLU and Virtual Agent authoring.](../images/nlu-va-integration.png)
 
 **Note:** If you have Now Assist in Virtual Agent, you can continue to use your existing NLU topics and migrate them into new LLM topics using the topic migration feature within Virtual Agent Designer. For more information on topic migration, see [Migrate NLU topics to LLM topics](https://www.servicenow.com/docs/access?context=migrate-nlu-llm&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
@@ -56,6 +54,4 @@ Publishing a topic with a mapped intent fails for the following reasons:
 -   Model isn't trained, or training is in progress.
 -   The last trained model is already published with a VA topic.
 -   The intent is not enabled in the model.
-
-**Parent Topic:**[Natural Language Understanding](nlu-landing.md)
 

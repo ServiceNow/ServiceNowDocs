@@ -36,7 +36,7 @@ Validation reports are only generated when errors or warnings are present. If no
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then go to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then go to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and open the request record you want.
 

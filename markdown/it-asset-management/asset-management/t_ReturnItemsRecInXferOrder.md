@@ -1,19 +1,19 @@
 ---
 title: Return items received in a transfer order
-description: When you receive a transfer order and if there’s a problem with all or some of the items, you can return the transfer order.
+description: Return items from a received transfer order when all or some of the delivered assets are defective or incorrect.
 locale: en-US
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+reading_time_minutes: 1
+breadcrumb: [Transfer order tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Return items received in a transfer order
 
-When you receive a transfer order and if there’s a problem with all or some of the items, you can return the transfer order.
+Return items from a received transfer order when all or some of the delivered assets are defective or incorrect.
 
 ## Before you begin
 
@@ -31,9 +31,9 @@ Items in a transfer order must be received before they can be returned.
 
 2.  Select a transfer order that is in the **Received** stage.
 
-3.  Click the transfer order line **Number** of the item to return.
+3.  Select the transfer order line **Number** of the item to return.
 
-4.  Click **Return**.
+4.  Select **Return**.
 
 5.  Enter a quantity to return.
 
@@ -64,26 +64,5 @@ Items in a transfer order must be received before they can be returned.
     If you return another defective model from the same, original order, the two defective returns are merged into one line item.
 
 
-**Parent Topic:**[Manage transfer order](../concept/manage-transfer-orders.md)
-
-**Related topics**  
-
-
-[Transfer order flow](../concept/transfer-order-flows.md)
-
-[Transfer assets using transfer orders](t_TransferAssetsUsingTransferOrders.md)
-
-[Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md)
-
-[Delete a transfer order](t_DeleteATransferOrder.md)
-
-[Delete a transfer order line](t_DeleteATransferOrderLine.md)
-
-[Create a customized template task](create-customized-template-task.md)
-
-[Create a template subtask](create-template-subtask.md)
-
-[Transfer order line asset tracking](../reference/r_TransferOrderLineAssetTracking.md)
-
-[Perform bulk updates for transfer order lines](create-bulk-transfer.md)
+**Parent Topic:**[Transfer order tasks](../concept/work-with-transfer-orders.md)
 

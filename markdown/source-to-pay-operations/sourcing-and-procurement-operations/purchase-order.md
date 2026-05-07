@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -336,5 +336,7 @@ Purchase Order History
 List of purchase orders before the current revision. This related list is visible if the purchase order has revisions.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
+</table>For a list of all purchase order states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md).
+
+**Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
 

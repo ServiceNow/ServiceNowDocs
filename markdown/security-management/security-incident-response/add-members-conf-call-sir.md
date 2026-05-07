@@ -31,7 +31,7 @@ Role required: sn\_si.analyst,sn\_si.manager
 
     ![Add participants in SIR conference call.](../image/sir-conference-call.png)
 
-    -   Select the meeting options icon ![Add members to active conference call.](../image/more-actions-icon.png)for the active conference call and select **Add participants**.
+    -   Select the meeting options icon ![Add members to active conference call.](../../security-incident-response/image/more-actions-icon.png)for the active conference call and select **Add participants**.
     -   Select **Copy invite** on the **Conference calls** section, and share the invite with the required participants.
 
 **Parent Topic:**[Collaborate using conference call or chat in Security Incident Response](../concept/collab-sir-call-chat.md)

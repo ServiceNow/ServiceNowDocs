@@ -571,7 +571,7 @@ A unique identifier for external data imports.
 
 [Invoice payment detail import inbound table](../../accounts-payable-operations/reference/invoice-payment-detail-staging-table.md)
 
-[Organization tax details inbound staging table](../../supplier-lifecycle-operations/reference/slo-org-tax-details-inbound-table.md)
+[Organization tax details inbound staging table](slo-org-tax-details-inbound-table.md)
 
 [Invoice tax line staging table](../../source-to-pay-operations/reference/inbound-invoice-tax-line-staging-table-apo.md)
 

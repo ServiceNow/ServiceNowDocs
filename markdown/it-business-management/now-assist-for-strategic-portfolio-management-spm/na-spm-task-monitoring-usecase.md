@@ -7,8 +7,8 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [AI agents, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
+reading_time_minutes: 1
+breadcrumb: [Use AI agents, Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
 
 # Strategic Portfolio Management AI agents for the monitor project tasks agentic workflow
@@ -36,7 +36,7 @@ If you want to change this agentic workflow, you can [duplicate it](https://www.
 
 ## Monitor project tasks agentic workflow
 
-Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure Now Assist Admin features](../task/configure-now-assist-for-spm.md).
+Autonomously generate a project insights email using AI agents. To use Monitor project tasks, make sure that the project insights generation skill is active. For more information on how to activate the skill, see [Configure Now Assist Admin features](configuring-na-spm.md).
 
 To access the Monitor project tasks agentic workflow:
 

@@ -1,6 +1,6 @@
 ---
 title: Enabling playbook restart
-description: Give agents and fulfillers the ability to restart a playbook, stage, or activity.
+description: Learn how playbook restart during runtime works and how restart rules control the behavior of stages and activities during a restarted run.
 locale: en-US
 release: australia
 product: Workflow Studio
@@ -13,40 +13,29 @@ breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workfl
 
 # Enabling playbook restart
 
-Give agents and fulfillers the ability to restart a playbook, stage, or activity.
+Learn how playbook restart during runtime works and how restart rules control the behavior of stages and activities during a restarted run.
 
-In the Workflow Studio Playbooks builder, Playbooks administrators enable restart for Playbook Experience agents and fulfillers. Playbooks can be restarted from the beginning, or from certain activities or stages during runtime. Playbooks administrators also define what each activity and stage does when an agent restarts.
+Playbook restart lets agents and fulfillers in Playbook Experience restart a playbook from the beginning, or from a specific stage or activity. Playbooks administrators enable restart in Workflow Studio and define restart rules for each stage and activity.
 
-## Workflow Studio
+Restart is automatically enabled for new playbooks. For existing playbooks, an administrator must enable restart manually. Once enabled, restart cannot be disabled.
 
-In Workflow Studio, Playbooks admins [enable restart for playbooks](../task/enable-define-restart.md), and define the rules for what an activity or stage does during restart:
+## Restart rules
 
--   **Skip on restart**: The stage or activity only runs during a playbook's initial run. It does not run on restart.
+When you configure restart for a stage or activity, you define what it does when a playbook is restarted. The following rules are available:
 
-    **Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
+|Rule|Description|
+|----|-----------|
+|Skip on restart|The stage or activity runs only during the initial run. It does not run when the playbook is restarted. Use this rule when you don't want new tasks or records to be created during a restarted run, because the original execution and its resulting record are still relevant.|
+|Run always|The stage or activity runs during both the initial run and any restarted run.|
+|Skip on first run|The stage or activity runs only during a restarted run. It never runs during the initial run.|
 
--   **Run always**: The stage or activity always runs, whether during an initial or restarted run.
--   **Skip on first run**: The stage or activity runs only on restart. It never runs during an initial run.
+## Restart states
 
-## Playbook Experience
+The state of a playbook, stage, or activity determines whether it can be restarted.
 
-During runtime, [agents and fulfillers can restart playbooks](../task/restart-a-playbook.md) from the beginning, or from certain stages or activities.
+A playbook can only be restarted when it is in an active state. The only active state is In Progress. Playbooks in a terminal state — Complete, Error, or Cancelled — cannot be restarted.
 
-**Note:** Playbooks in an active state can be restarted:
-
--   **In Progress**
-
-Playbooks in a terminal state cannot be restarted:
-
--   **Complete**
--   **Error**
--   **Cancelled**
-
-![Restarting a playbook during runtime](../images/restart-playbook-pe.png)
-
-The opposite is true for activities and stages. Activities and stages must be complete or in an error state before they can be restarted.
-
-![Restarting a stage during runtime](../images/restart-stage-pe.png)
+The opposite is true for stages and activities. A stage or activity can only be restarted when it is in a complete or error state.
 
 ## Design considerations
 
@@ -62,7 +51,12 @@ Follow these design considerations when configuring restart for your playbook, s
 
 
 -   **[Configure restart for Playbooks](../task/enable-define-restart.md)**  
-Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
+Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 
 **Parent Topic:**[Creating and managing Playbooks](creating-managing-playbooks.md)
+
+**Related topics**  
+
+
+[Configure restart for Playbooks](../task/enable-define-restart.md)
 

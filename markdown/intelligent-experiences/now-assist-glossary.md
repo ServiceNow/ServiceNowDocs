@@ -55,7 +55,7 @@ AI governance refers to the set of policies, procedures, and standards that guid
 
 An AI steward within ServiceNow AI Platform is a governance role responsible for overseeing the life cycle of AI assets, including models, data sets, and prompts. You can use AI stewards in AI Control Tower to coordinate governance activities between legal, security, compliance, and innovation teams for the responsible deployment of AI agents, skills, and models across the platform.
 
-## Citation
+## citation
 
 Small, interactable number next to AI-generated content in the Now Assist panel that cites the source of the information.
 

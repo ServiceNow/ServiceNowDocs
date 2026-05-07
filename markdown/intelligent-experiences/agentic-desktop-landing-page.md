@@ -1,29 +1,50 @@
 ---
-title: Agentic Desktop
-description: ServiceNow Agentic Desktop enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and business applications without APIs.
+title: AI Desktop Actions
+description: ServiceNow AI Desktop Actions enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop and web environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and web applications without APIs.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2025-10-12"
-reading_time_minutes: 3
+reading_time_minutes: 5
 breadcrumb: [Enable AI experiences]
 ---
 
-# Agentic Desktop
+# AI Desktop Actions
 
-ServiceNow® Agentic Desktop enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and business applications without APIs.
+ServiceNow® AI Desktop Actions enables you to design, configure, and manage desktop actions that automate repetitive tasks in your desktop and web environment. AI agents can autonomously and semi-autonomously process instructions, generate execution plans, and run desktop actions across legacy systems, thick client applications, and web applications without APIs.
 
-Agentic Desktop is a client application that is installed on the Windows operating system. Agentic Desktop offers two workspaces, the Design workspace for design experience and the Execution workspace for the runtime experience. Design workspace enables you to automate multi-step processes with intelligence and adaptability. Execution workspace enables AI agents to execute desktop actions in an isolated desktop session.
+-   Automating multi-step desktop or web tasks that involve conditional logic, so agents can focus on work that needs a human touch.
+-   Adapting to changes in application state and UI in real-time, reducing the need to maintain rigid scripts.
+-   Helping detect and recover from errors by evaluating context and trying alternative approaches when something doesn't go as expected.
+
+## Types of desktop actions
+
+There are two types of desktop actions: defined path and adaptive path. Both enable AI agents to automate tasks on behalf of users, but they differ in how steps are designed and executed, what applications they support, and how they handle variation in the user interface.
+
+-   **[Adaptive desktop actions for web-based tasks](../concept/web-agents-overview.md)**
+
+    With adaptive path desktop actions, you describe what task you want to accomplish on web at a high level in the tool configuration. The AI agent processes the request, generates an execution plan, and dynamically determines the specific steps needed to complete the task.
+
+    Best for: Tasks that require flexibility, decision-making, or adaptation to changing UI elements.
+
+-   **[Defined desktop actions for desktop and web-based tasks](../concept/desktop-actions.md)**
+
+    With defined path desktop actions, you record or capture a fixed sequence of steps in the AI Desktop Actions Windows application. The AI agent executes these predefined steps in order without deviation.
+
+    Best for: Repeatable tasks with consistent steps and predictable UI interactions.
+
+
+For more information, see [When to use adaptive vs. defined path desktop actions](../concept/adaptive-vs-fixed-desktop-action.md).
 
 ## Get started
 
 <table id="table_l3z_3x3_ygc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Agentic Desktop concepts and features](../concept/explore-agentic-desktop.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about AI Desktop Actions concepts and features](../concept/explore-agentic-desktop.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up Agentic Desktop to automate desktop tasks](../task/configure-agentic-desktop.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set up AI Desktop Actions to automate desktop tasks](../task/configure-agentic-desktop.md)
 
 </td><td>
 
@@ -35,17 +56,19 @@ Agentic Desktop is a client application that is installed on the Windows operati
 
 </td><td>
 
-[Use ![](../../../administer/document-intelligence/image/icon-use-docintel.png) Use the Agentic Desktop application to execute automations using AI agents.](../concept/use-agentic-desktop.md)
+[Use ![](../../../administer/document-intelligence/image/icon-use-docintel.png) Use the AI Desktop Actions application to execute automations using AI agents.](../concept/use-agentic-desktop.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about the Agentic Desktop properties and components](agentic-desktop-reference.md)
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about the AI Desktop Actions properties and components](agentic-desktop-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**
 
+-   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
 -   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
 -   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Helpful resources
 

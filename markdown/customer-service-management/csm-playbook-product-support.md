@@ -145,7 +145,9 @@ The playbook stage picker enables agents to see the entire product support workf
 -   Use the filter in the stage picker to filter activities by the assigned user or the activity state.
 -   Select an activity to display the details in the playbook work area.
 
-The following example shows the different stages and activities in a playbook. ![Focused view of the various stages and activities in the product case playbook lifecycle, along with the case details.](../image/playbook-product-support.png)
+The following example shows the different stages and activities in a playbook.
+
+![Focused view of the various stages and activities in the product case playbook lifecycle, along with the case details.](../image/create-new-onboarding-case.png)
 
 ## Using the Playbook Actions menu
 

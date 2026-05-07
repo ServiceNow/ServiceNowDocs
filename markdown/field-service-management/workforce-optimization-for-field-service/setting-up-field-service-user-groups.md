@@ -277,7 +277,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table><tbody><tr><td id="d105061e429">
+<table><tbody><tr><td id="d107490e429">
 
 **Roles**
 
@@ -287,7 +287,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-</td></tr><tr><td id="d105061e458">
+</td></tr><tr><td id="d107490e458">
 
 **Group Members**
 
@@ -297,7 +297,7 @@ Assign one or more agents from the list of available agents to the user group.
 
  For more information on assigning group members, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-</td></tr><tr><td id="d105061e477">
+</td></tr><tr><td id="d107490e477">
 
 **Groups**
 
@@ -305,7 +305,7 @@ Assign one or more agents from the list of available agents to the user group.
 
 Create a child user group.
 
-</td></tr><tr><td id="d105061e486">
+</td></tr><tr><td id="d107490e486">
 
 **Skills**
 
@@ -315,7 +315,7 @@ Assign one or more skills from the list of available skills to the user group.
 
  For more information on assigning skills, see [Manage Field Service and Customer Service skills](../reference/field-service-manager-agent-skills.md).
 
-</td></tr><tr><td id="d105061e508">
+</td></tr><tr><td id="d107490e508">
 
 **Locations Covered**
 
@@ -325,7 +325,7 @@ Assign one or more locations from the list of locations to the user group.
 
  For more information on assigning locations to a group, see [Assign a location to a group](../../work-management/concept/c_TerritoryManagement.md#).
 
-</td></tr><tr><td id="d105061e531">
+</td></tr><tr><td id="d107490e531">
 
 **Covered by Dispatch Groups**
 
@@ -333,7 +333,7 @@ Assign one or more locations from the list of locations to the user group.
 
 If dispatch groups have been created, assign one, or more dispatch groups to the agent user group.
 
-</td></tr><tr><td id="d105061e543">
+</td></tr><tr><td id="d107490e543">
 
 **Product Models**
 
@@ -365,7 +365,7 @@ Role required: wm\_admin
 
 5.  Use the following tabs to add additional information to the agent user group.
 
-<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d105061e666">
+<table id="choicetable_d42_kbh_3xb"><tbody><tr><td id="d107490e666">
 
 **Roles**
 
@@ -375,7 +375,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-</td></tr><tr><td id="d105061e695">
+</td></tr><tr><td id="d107490e695">
 
 **Group Members**
 
@@ -385,7 +385,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
  For more information on assigning group members, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-</td></tr><tr><td id="d105061e714">
+</td></tr><tr><td id="d107490e714">
 
 **Groups**
 
@@ -393,7 +393,7 @@ Assign one or more qualifiers from the list of available qualifiers to the user 
 
 Create a child user group.
 
-</td></tr><tr><td id="d105061e723">
+</td></tr><tr><td id="d107490e723">
 
 **Locations Covered**
 
@@ -429,7 +429,7 @@ Role required: admin
 
     For more information about Field Service Roles, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md).
 
-<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d105061e870">
+<table id="choicetable_qrz_byd_hxb"><tbody><tr><td id="d107490e870">
 
 **Roles**
 
@@ -439,7 +439,7 @@ Assign one or more roles from the list of available roles to the user group.
 
  For more information on roles and assigning them to user groups, see [Roles installed with Field Service Management](../../planning-and-policy/reference/r_UserRoleInstallWFieldSrvMgmnt.md) and [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
 
-</td></tr><tr><td id="d105061e899">
+</td></tr><tr><td id="d107490e899">
 
 **Group Members**
 
@@ -449,7 +449,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
  For more information on assigning group members, see [Add a user to a group](https://servicenow.com/docs/bundle/utah-platform-administration/page/administer/users-and-groups/task/t_CreateAGroup.html).
 
-</td></tr><tr><td id="d105061e918">
+</td></tr><tr><td id="d107490e918">
 
 **Groups**
 
@@ -457,7 +457,7 @@ Assign one or more dispatchers from the list of available dispatchers to the use
 
 Create a child user group.
 
-</td></tr><tr><td id="d105061e927">
+</td></tr><tr><td id="d107490e927">
 
 **Locations Covered**
 
@@ -467,7 +467,7 @@ Assign one or more locations from the list of locations to the dispatcher user g
 
  For more information on assigning locations to a group, see [Assign a location to a group](https://servicenow.com/docs/bundle/utah-field-service-management/page/product/work-management/concept/c_TerritoryManagement.html#t_AssignALocationToAGroup).
 
-</td></tr><tr><td id="d105061e946">
+</td></tr><tr><td id="d107490e946">
 
 **Assignment Groups Covered\|**
 

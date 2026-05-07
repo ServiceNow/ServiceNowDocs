@@ -17,8 +17,6 @@ Use the Workplace Agent for mobile to perform workplace case or task related act
 
 -   **[Manage workplace cases and tasks](../task/manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)**  
 Track the workplace cases and tasks that are assigned to you and your assignment group. Know the number of cases that are open, critical, and breached at any time. View the details of the case and perform an action accordingly.
--   **[Assign an unassigned case or task](../task/assign-an-unassigned-case-or-task-agentmobile.md)**  
-Work on an unassigned case or task. Assign the case or task to yourself or to another agent.
 -   **[Edit or view case details on the Workplace Agent for mobile app](../task/edit-or-view-case-details-agentmobile.md)**  
 Update a workplace case at any time on the go. The application provides you with all the edit-related options to make relevant changes whenever you want to edit.
 -   **[Print workplace cases](../task/print-workplace-cases-mobile.md)**  

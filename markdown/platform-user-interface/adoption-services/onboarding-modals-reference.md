@@ -6,7 +6,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---

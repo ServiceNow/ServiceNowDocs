@@ -7,7 +7,7 @@ product: UI Builder
 classification: ui-builder
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Working with UI interaction demo data, UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
@@ -17,13 +17,15 @@ Create a duplicate of a demo UI interaction example to work with a separate, edi
 
 ## Before you begin
 
+Demo data is available after loading it once from the demo data plugin \(sn-interaction-builder\). For instructions, see [Working with UI interaction demo data](../concept/working-with-demo-interactions.md).
+
 Role required: ui\_builder\_admin
 
 ## About this task
 
 Demo UI interaction records define sample UI logic and scripts used to demonstrate common interaction patterns.
 
-When you duplicate demo data, you create a separate copy that you can run or customize without impacting the original record. The duplicated interaction is independent of the original demo and can be safely modified. Demo interactions appear in the UI interactions list like any other interaction, allowing you to open, review, or duplicate them for use in your own scope.
+When you duplicate demo data, you create a separate copy. You can run or customize this copy without impacting the original record. The duplicated interaction is independent of the original demo and can be safely modified. Demo interactions appear in the UI interactions list like any other interaction, allowing you to open, review, or duplicate them for use in your own scope.
 
 **Note:** The Cascade Delete demo interaction example must be duplicated in the global scope for its first server script step to run correctly. This requirement is unique to Cascade Delete; all other demo interaction examples function normally when duplicated in your application scope.
 

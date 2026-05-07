@@ -58,5 +58,3 @@ To duplicate an entire model group, or one of the models in a group, see [Multil
 
 To transfer a model to a different instance, see [Add an NLU model to an update set](add-model-update-set.md).
 
-**Parent Topic:**[Creating models](../concept/creating-models.md)
-

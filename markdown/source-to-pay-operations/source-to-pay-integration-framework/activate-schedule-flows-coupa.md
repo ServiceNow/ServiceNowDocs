@@ -58,7 +58,7 @@ Role required: sn\_coupa\_spoke.Coupa Admin
 
     If you want to change the configurations that are shipped along with Source-to-Pay Integration with Coupa, you can edit the subflows.
 
-    Once data is pulled into staging tables, the transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, the transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md).
 
 
 **Parent Topic:**[Configure Source-to-Pay integration with Coupa](../concept/configuring-source-to-pay-coupa-integration.md)

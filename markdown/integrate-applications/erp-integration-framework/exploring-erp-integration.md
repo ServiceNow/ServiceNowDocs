@@ -1,20 +1,20 @@
 ---
 title: Exploring Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP \(enterprise resource planning\) enables you to connect to an ERP system to read, update, create, and extract data for use on the ServiceNow AI Platform.
+description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to connect to an ERP system to read, update, create, and extract data for use on the ServiceNow AI Platform.
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, benefit, feature]
-breadcrumb: [Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Exploring Zero Copy Connector for ERP
 
-Zero Copy Connector for ERP \(enterprise resource planning\) enables you to connect to an ERP system to read, update, create, and extract data for use on the ServiceNow AI Platform.
+Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to connect to an ERP system to read, update, create, and extract data for use on the ServiceNow AI Platform.
 
 ## Zero Copy Connector for ERP overview
 
@@ -35,9 +35,9 @@ The unified data model of the ServiceNow AI Platform helps with the seamless int
 |-------|-------|
 |Configure connections to the system of record|[Working with ERP systems in Zero Copy Connector for ERP](erp-canvas-work-with-systems.md)|
 |Build ERP models to create read, update, and create operations and organize mirrored ERP data|[Building and managing models to work with ERP data](work-with-erp-data-models.md)|
-|Work with and query remote tables to view ERP data on the system of record||
-|Configure extraction tables to pull custom data from the ERP system regularly||
-|Use ERP data in ServiceNow Studio, Workflow Studio flows and playbooks, Table Builder, UI Builder, and Workspace Builder.||
+|Work with and query remote tables to view ERP data on the system of record|[Using ERP remote tables in Zero Copy Connector for ERP](erp-canvas-work-with-remote-tables.md)|
+|Configure extraction tables to pull custom data from the ERP system regularly|[Extracting and transforming data in Zero Copy Connector for ERP](erp-canvas-extraction-tables.md)|
+|Use ERP data in ServiceNow Studio, Workflow Studio flows and playbooks, Table Builder, UI Builder, and Workspace Builder.|[Next steps after extracting data from your ERP system using Zero Copy Connector for ERP](erpi-next-steps-replatforming.md)|
 
 ## Helpful resources
 
@@ -52,10 +52,16 @@ Some ServiceNow resources that can provide you with helpful information are:
     Watch [Clean core ERP with App Engine](https://www.youtube.com/watch?v=oz0eIWupiqs&t=1033s).
 
 
+-   **[Exploring Zero Copy Connector for ERP systems](exploring-erp-systems.md)**  
+Create an ERP \(Enterprise Resource Planning\) system in Zero Copy Connector for ERP to connect to an external ERP system.
+-   **[Exploring Zero Copy Connector for ERP content packs](exploring-erp-content-packs.md)**  
+Use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs to view examples and create an ERP model faster.
+-   **[Exploring Zero Copy Connector for ERP models](exploring-erp-models.md)**  
+Build ERP \(Enterprise Resource Planning\) models in Zero Copy Connector for ERP to create read, update, and create operations and organize mirrored ERP data.
+-   **[Exploring Zero Copy Connector for ERP remote tables and extraction tables](exploring-erp-remote-tables-and-extraction-tables.md)**  
+Configure remote tables and extraction tables to work with data from the ERP \(Enterprise Resource Planning\) system of record.
 -   **[Identifying ERP candidates to replatform with Zero Copy Connector for ERP](erpi-and-ecm-together.md)**  
 Zero Copy Connector for ERP enables you to connect to your ERP \(Enterprise Resource Planning\) system of record, and to organize its data.
--   **[zero-copy-connector-for-erp-tutorial-po-lookup.md](zero-copy-connector-for-erp-tutorial-po-lookup.md)**  
-
 
 **Parent Topic:**[Zero Copy Connector for ERP](erp-integration-overview.md)
 

@@ -27,8 +27,6 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
 
 2.  Open the help page for the current version.
 
-    ![Overview help page record](../image/OverviewHelpPageIstanbul.png "Overview help page record")
-
 3.  In the **Overview Help Panels** related list, click **New**.
 
 4.  Create a panel with these values:
@@ -40,8 +38,6 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
     -   **Text**: Enter a description of the feature, emphasizing the highlights in this version. In this example, the text describes the ability to create activities and share them in the ServiceNow store.
     **Note:** Buttons for custom panels do not have icons on them.
 
-    ![Workflow Editor panel](../image/OverviewHelpExample1.png "Workflow editor panel")
-
 5.  Save the record.
 
 6.  Create another panel with these values:
@@ -51,8 +47,6 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
     -   **Roles**: **assessment\_admin**. Only users with this role are able to see this panel.
     -   **Image**: This is an example of a bubble chart that you want the assessment administrators to see.
     -   **Text**: Enter a description of the chart to display to the users, emphasizing the advantages of this type of chart.
-    ![Assessment reports panel](../image/OverviewHelpPanelHelsinki.png "Assessment reports panel")
-
 7.  Save the record.
 
 8.  Log in as a user with the assessment\_admin role.
@@ -61,13 +55,9 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
 
     The overview help page for the current version appears, with the control button for the auditing dashboard displayed for the user in the order configured.
 
-    ![Overview help page for the assessment administrator](../image/OverviewHelpExamplePageIstanbul.png "Overview help page for the assessment administrator")
-
 10. Click the button to display the assessment report panel.
 
     The image you selected for your custom panel appears with the title and description you defined.
-
-    ![Assessment report panel](../image/OverviewHelpExample6.png "Assessment report panel")
 
 11. Log out and log in again as a user with the activity\_admin role.
 
@@ -75,13 +65,9 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
 
     The overview help page for the current version appears, with the control button for the Workflow Editor tabs displayed for the user in the order configured.
 
-    ![Overview help page for the Orchestration user](../image/OverviewHelpExample7.png "Overview help page for the Orchestration user")
-
 13. Click the button to display the Orchestration activities panel.
 
     The image you selected for your custom panel appears with the title and description you defined.
-
-    ![Orchestration panel](../image/OverviewHelpExample5.png "Orchestration panel")
 
 
 **Parent Topic:**[Overview help pages](../concept/overview-help-pages.md)

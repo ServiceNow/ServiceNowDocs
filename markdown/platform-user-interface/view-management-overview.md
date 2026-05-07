@@ -13,13 +13,7 @@ breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and
 
 A view defines the elements that appear when a user opens a form or a list, and you can switch the view from the default for lists and forms.
 
-When the system displays a form or list it usually displays only a subset of the fields belonging to the underlying table. For example, this is the Incident form in the **Self-Service View**:
-
-![](../image/SelfServiceView.png "Self service view")
-
-This is the Incident form in the **Metrics View**:
-
-![](../image/MetricsView.png "Metrics view")
+When the system displays a form or list it usually displays only a subset of the fields belonging to the underlying table.
 
 Administrators and users with the personalize role have permission to perform the key tasks related to views:
 
@@ -31,23 +25,13 @@ Administrators and users with the personalize role have permission to perform th
 
 Users with the admin or view\_changer roles can change views.
 
-## Views included with the base system
-
 Several views are included with the base system, including the Default view and Advanced view.
 
 **Warning:** Do not delete any of the base system views.
 
 ## Switching views
 
-To switch between list views, click the list context menu at the top left corner of the list, and then select **Views** &gt; **\[Desired View\]**.
-
-![](../image/ListViewDropdown.png "List view list")
-
-To switch between the list view in list v3, click the context menu, then select **Change view** &gt; **\[Desired View\]**.
-
-To switch between form views, click the context menu at the left side of the form header, and then select **Views** &gt; **\[Desired View\]**:
-
-![](../image/FormViewDropdown.png "Form view list")
+To switch between list views, click the list context menu at the top left corner of the list, and then select **View** &gt; **\[Desired View\]**.
 
 Switching views submits the form, which saves all changes and triggers any **onSubmit** client scripts that apply. You cannot switch form views on a new form that has not been saved yet.
 

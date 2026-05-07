@@ -43,7 +43,7 @@ Role required: personalize\_list or admin
 
     **Note:** These options apply to all lists, not just the view you’re personalizing.
 
-<table id="choicetable_qgk_vbz_3r"><tbody><tr><td id="d40300e171">
+<table id="choicetable_qgk_vbz_3r"><tbody><tr><td id="d42208e171">
 
 **Display long text on more than one line**
 
@@ -51,7 +51,7 @@ Role required: personalize\_list or admin
 
 Select the **Wrap column text** check box. Clear the check box to display text on one line.In Core UI, this option is also available in the **Lists** section of the [system settings](../../../administer/navigation-and-ui/reference/r_UI16BannerFrame.md).
 
-</td></tr><tr><td id="d40300e202">
+</td></tr><tr><td id="d42208e202">
 
 **Condense the vertical space between rows**
 
@@ -59,7 +59,7 @@ Select the **Wrap column text** check box. Clear the check box to display text o
 
 Select the **Compact rows** check box. Clear the check box to use standard row spacing.
 
-</td></tr><tr><td id="d40300e214">
+</td></tr><tr><td id="d42208e214">
 
 **Highlight list rows as the cursor passes over them**
 
@@ -67,7 +67,7 @@ Select the **Compact rows** check box. Clear the check box to use standard row s
 
 Select the **Active row highlighting** check box. Clear the check box to restore the static, alternate row highlighting.
 
-</td></tr><tr><td id="d40300e226">
+</td></tr><tr><td id="d42208e226">
 
 **Use updated field status indicators**
 
@@ -80,7 +80,7 @@ Select the **Modern cell coloring** check box.In Core UI, this option is also av
 
     **Note:** These options apply to all lists, not just the view you’re personalizing.
 
-<table id="choicetable_ofx_lcz_3r"><tbody><tr><td id="d40300e272">
+<table id="choicetable_ofx_lcz_3r"><tbody><tr><td id="d42208e272">
 
 **Allow the list editor to open for the list**
 
@@ -88,7 +88,7 @@ Select the **Modern cell coloring** check box.In Core UI, this option is also av
 
 Select the **Enable list edit** check box. Clear the check box to prevent the list editor from opening for the list.
 
-</td></tr><tr><td id="d40300e284">
+</td></tr><tr><td id="d42208e284">
 
 **Open the list editor with a double-click**
 

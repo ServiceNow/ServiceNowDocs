@@ -67,7 +67,5 @@ Dispose of those consumable assets that are no longer required in your stockroom
 
 [Manage transfer order](manage-transfer-orders.md)
 
-[Example Asset Management process](../task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../reference/org-mgmt.md#)
 

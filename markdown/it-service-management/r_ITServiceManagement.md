@@ -1,16 +1,16 @@
 ---
 title: IT Service Management
-description: The IT Service Management \(ITSM\) solution provides scalable workflows to manage and deliver IT services to your users all through a single cloud-based platform.
+description: Use IT Service Management \(ITSM\) to manage and resolve IT service requests, incidents, problems, and changes through automated workflows on the .
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-04-22"
+reading_time_minutes: 9
 ---
 
 # IT Service Management
 
-The IT Service Management \(ITSM\) solution provides scalable workflows to manage and deliver IT services to your users all through a single cloud-based platform.
+Use IT Service Management \(ITSM\) to manage and resolve IT service requests, incidents, problems, and changes through automated workflows on the .
 
 The ITSM solution can help increase your agents' productivity, resolve issues quickly, and improve user satisfaction. Also, powered by platform native AI, you can quickly accelerate technology changes and view recommended actions for incoming tickets or requests and drive self-service and automation through enterprise chatbot technology. The ServiceNow AI Platform® also provides users access to ITSM via mobile or web-portal interfaces.
 
@@ -109,11 +109,6 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 
 ## Get started
 
--   Set up the service management module for a modern ITSM experience. To learn more, see [Customer Success Center](https://www.servicenow.com/success.html).
--   Learn about the different ITSM packages that work for your business on the [ServiceNow Products website](https://www.servicenow.com/products/itsm.html).
--   Take an ITSM course to manage and deliver services to your users. To sign up, go to [ServiceNow training and certification](https://www.servicenow.com/services/training-and-certification.html).
--   Read the product documentation, beginning with [IT Service Management](r_ITServiceManagement.md).
-
 ## Learn
 
 -   [What is a service desk?](https://www.servicenow.com/products/itsm/what-is-a-service-desk.html)
@@ -124,6 +119,8 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 -   [What is ITSM?](https://www.servicenow.com/products/itsm/what-is-itsm.html)
 -   [What is Workforce Optimization for ITSM?](https://www.servicenow.com/products/workforce-optimization.html)
 
+## Get help
+
 ## Applications and features
 
 -   [Machine learning solutions for IT Service Management](../concept/machine-learning-itsm.md)
@@ -131,7 +128,7 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 -   [Asset Management](../../asset-management/concept/c_AssetManagement.md)
 -   [Benchmarks](../../benchmarks/reference/r_Benchmarks.md)
 -   [Change Management](../../change-management/concept/c_ITILChangeManagement.md)
--   [Coaching](../../cf-coaching/reference/cf-coaching-landing.md)
+-   Coaching
 -   [Collaboration services](../../itsm-tcm/concept/collab-services-tcm.md)
 -   [Continual Improvement Management](../../continual-improvement-management/concept/cim-landing-page.md)
 -   [Contract Management](../../contract-management/concept/c_ContractManagement.md)
@@ -148,12 +145,14 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 -   [ITSM Mobile Agent](../../incident-management/concept/itsm-mobile-agent.md)
 -   [ITSM Success Dashboard](../../itsm-success-dashboard/concept/success-dashboard-indicator-landing.md)
 -   [ITSM Platform Analytics Solutions](../../../use/dashboards/application-content-packs/itsm-dashboards-content-pack.md)
+-   ITSM Predictive Intelligence Workbench
 -   [On-call scheduling](../../../administer/on-call-scheduling/concept/c_OnCallScheduling.md)
 -   [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
 -   [Operational Technology Change Management](https://www.servicenow.com/docs/access?context=operational-technology-change-management-landing-page&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
 -   [Procurement](../../procurement/concept/c_Procurement.md)
 -   [Product Catalog](../../product-catalog/concept/c_ProductCatalog.md)
 -   [Problem Management](../../problem-management/concept/c_ProblemManagement.md)
+-   Recommendation Framework
 -   [Release Management](../../release-management/concept/c_ITILReleaseManagement.md)
 -   [Request Management](../../planning-and-policy/concept/c_RequestManagement.md)
 -   [Service Operations Workspace for ITSM](../../service-operations-workspace/concept/sow-landing-page.md)
@@ -162,6 +161,7 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 -   Site Reliability Operations
 -   [Task Outage](../../task-outage/concept/task-outage.md)
 -   [Task Intelligence for ITSM](../../task-intelligence-for-itsm/concept/c-itsm-task-intelligence.md)
+-   
 -   [Walk-up Experience](../../walk-up-experience/reference/walkup-experience-landing-page.md)
 -   [Workforce Optimization for ITSM](../../configurable-workforce-optimization-itsm/reference/workforce-optimization-itsm-landing-page.md)
 

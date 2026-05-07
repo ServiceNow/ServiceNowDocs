@@ -58,9 +58,9 @@ Consider the Talent Screening processing activity, which includes SHL, HireVue, 
 
 Enabling this filter scopes the lineage map strictly to the nodes that belong to Talent Screening. To explore the broader data landscape, toggle the filter off to access the global map, where you can see how HireVue and Tableau connect to and support other processing activities beyond Talent Screening.
 
-![[Part of processing activity checkbox selected]](../image/processing-activity-enabled.png "Part of processing activity option enabled")
+![image.processing-activity-enabled]
 
-![Part of processing activity checkbox disabled](../image/processing-activity-disabled.png "Part of processing activity option disabled")
+![image.processing-activity-disabled]
 
 ## How Part of processing activity works
 

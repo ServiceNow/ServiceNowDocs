@@ -6,7 +6,7 @@ release: australia
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-21"
 reading_time_minutes: 5
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Aggregate API provides endpoints that allow you to compute aggregate statistics about existing table and column data.
 
-This API uses [GlideAggregate - Scoped](../../../app-store/dev_portal/API_reference/glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#) calls and only honors read-only queries if read access is defined for the table being called on based on role ownership.
+This API uses [GlideAggregate](../../../app-store/dev_portal/API_reference/glideAggregateScoped/concept/c_GlideAggregateScopedAPI.md#) calls and only honors read-only queries if read access is defined for the table being called on based on role ownership.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

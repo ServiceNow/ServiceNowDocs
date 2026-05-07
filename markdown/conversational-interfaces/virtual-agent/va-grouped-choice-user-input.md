@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-29"
 reading_time_minutes: 5
 breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
 ---
@@ -225,6 +225,7 @@ List prompt
 |Mobile UI|Not supported|Not applicable|
 |Now Assist panel|Supported|None|
 |Microsoft Teams|Not supported|Not applicable|
+|Google chat|Not supported|Not applicable|
 |Slack|Not supported|Not applicable|
 |Workplace|Not supported|Not applicable|
 |Facebook Messenger|Not supported|Not applicable|

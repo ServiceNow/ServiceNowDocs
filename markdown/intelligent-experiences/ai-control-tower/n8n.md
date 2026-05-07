@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for n8n
-description: Use the  AI Service Graph Connector for n8n to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents.
+description: Use the  AI Service Graph Connector for n8n to create AI connections to discover and import AI assets such as AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discov
 
 # AI Service Graph Connector for n8n
 
-Use the  AI Service Graph Connector for n8n to create AI connections to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents.
+Use the  AI Service Graph Connector for n8n to create AI connections to discover and import AI assets such as AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower.
 
 ## Download apps from the Store
 
@@ -34,7 +34,5 @@ Roles required in the ServiceNow environment:
 
 ## Prerequisites from n8n
 
-Create a n8n API key using your n8n instance.
-
-For more information on creating a n8n API Key, see [Create an API Key in n8n environment](../task/create-a-api-key-for-n8n.md)
+Create a n8n API key using your n8n instance. For creating a n8n API Key, see [Create an API Key in n8n environment](../task/create-a-api-key-for-n8n.md)
 

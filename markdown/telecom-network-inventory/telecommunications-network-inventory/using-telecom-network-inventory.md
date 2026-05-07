@@ -44,10 +44,8 @@ As an inventory catalog manager, you can use a series of forms to define the met
 As an inventory template manager, you create templates using functions you access from the Lists view in the Network Inventory Workspace. These templates contain the detailed business guidance rules so that you can properly configure your equipment. During this process, you also specify the relationships between each inventory template.
 -   **[Create inventory template relationship](creating-inventory-templates-telco-equipment.md)**  
 Use this sequence as a guide when creating inventory templates for your equipment and establishing the proper template relationships in the Telecommunications Network Inventory application.
--   **[Import Models and Templates](import-models-and-templates.md)**  
+-   **[Import models and templates](import-models-and-templates.md)**  
 Import models and templates to ensure consistency, reusability and reduce errors. You can import pre-defined template excels to streamline the tasks using the Telecommunications Network Inventory application.
--   **[Export hierarchy of models and templates](../task/export-hierarchy-of-models-and-template.md)**  
-Export a hierarchy of models, inventory templates, and all related records efficiently using the application.
 -   **[Instantiating your network inventory by using design and assign](instantiate-asset-using-template-relationship-model.md)**  
 By instantiating your network inventory in the Telecommunications Network Inventory application, you can generate and validate your inventory records at the site level. You can also generate your individual network instances from your defined inventory templates and models and then verify that they’re properly configured.
 -   **[Viewing your network inventory configuration items with CMDB or Service Graph Workspace](viewing-network-inventory-using-cmdb-workspace.md)**  

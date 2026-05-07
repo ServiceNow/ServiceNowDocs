@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 101
-keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
+keywords: [glossary terms, ACL, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms, glossary terms]
 ---
 
 # ServiceNow AI Platform glossary
@@ -41,7 +41,7 @@ An account hierarchy represents the legal entity structure of the accounts and t
 
 ### account
 
-A customer or organization record in ServiceNow Sales and Order Management.
+A customer or organization record in ServiceNow Sales CRM.
 
 ### Accounts Payable
 
@@ -581,7 +581,7 @@ A case that is linked to and is a part of a parent case, inheriting its context 
 
 Cases that are associated with a major case, created one-to-one for each business account \(B2B\) or consumer \(B2C\) impacted by the major case issue. It contains customer-specific information for each customer affected by the major case issue.
 
-### Citation
+### citation
 
 Small, interactable number next to AI-generated content in the Now Assist panel that cites the source of the information.
 
@@ -1604,10 +1604,6 @@ The end-to-end handling of invoices from receipt to payment.
 ### Invoice processing
 
 The end-to-end handling of invoices from receipt to payment.
-
-### Invoice
-
-A document issued by a seller to a buyer, indicating the products, quantities, and agreed prices for products or services provided.
 
 ### item
 
@@ -3203,7 +3199,7 @@ A record that stores the workflow configuration when published or checked out. O
 
 ### workflow
 
-Defined sequence of steps automating processes in Sales and Order Management.
+Defined sequence of steps automating processes in Sales Customer Relationship Management.
 
 ### workspace
 

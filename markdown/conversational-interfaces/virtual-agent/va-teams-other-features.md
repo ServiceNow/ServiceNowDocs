@@ -24,7 +24,7 @@ Starting with Version 4.0.1, when a user chats with a live agent and sends a mes
 
 A user can understand how emojis look like in a chat conversation and in the Agent Workspace from the following examples.
 
-![Emojis appear in line with text as the user enters them.](../images/msteams-user-chat-emojis.png "Emojis in a chat conversation")
+![Emojis appear in line with text as the user selects them.](../images/msteams-user-chat-emojis.png "Emojis in a chat conversation")
 
 ![Live agents may see slightly different emojis in Agent Workspace.](../images/msteams-agent-chat-emojis.png "Emojis in Agent Workspace")
 

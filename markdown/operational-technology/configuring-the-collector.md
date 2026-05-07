@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Operational Technology \(OT\) Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Configure the OT Discovery Collector

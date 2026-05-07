@@ -1,6 +1,6 @@
 ---
-title: Target tables for Microsoft
-description: Target tables for storing Service Graph Connector for Azure and copilot data.
+title: Target tables for Azure and Copilot
+description: Target tables for storing Service Graph Connector for Azure and Copilot data.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -11,9 +11,9 @@ reading_time_minutes: 1
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Target tables for Microsoft
+# Target tables for Azure and Copilot
 
-Target tables for storing Service Graph Connector for Azure and copilot data.
+Target tables for storing Service Graph Connector for Azure and Copilot data.
 
 Both Azure Foundry and Copilot data sources use the following main target tables:
 

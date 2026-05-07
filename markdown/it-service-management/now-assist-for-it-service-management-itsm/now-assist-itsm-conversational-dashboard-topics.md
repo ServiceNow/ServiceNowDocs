@@ -9,14 +9,14 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent topics analytics
 
 As a business stakeholder or a service desk manager, you can analyze the pattern of interactions when users ask questions using the ITSM Virtual Agent.
 
-By understanding what topics are most frequently discussed, you can analyze high-impact areas, identify emerging issues, and ensure that your ITSM Virtual Agent is equipped to handle the most common user needs.
+By looking at what topics are most frequently discussed, you can analyze high-impact areas, identify emerging issues, and ensure that your ITSM Virtual Agent is equipped to handle the most common user needs.
 
 ## Track metrics for the Topics analytics - Overview
 
@@ -54,5 +54,4 @@ Chat interactions by topic
 Detailed breakdown of chat interactions organized by topic groups. Shows grouped topics with interaction counts, who they were opened for, and who they were assigned to. This table provides granular visibility into conversation patterns and helps track topic-specific performance. Use the **Show all** links to expand topic groups and view all related interactions. This data is essential for understanding workload distribution and identifying which topics may need additional automation or agent training.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use ITSM Virtual Agent Analytics dashboard](using-itsm-conversational-analytics-dashboard.md)
-
+</table>

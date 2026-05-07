@@ -35,15 +35,15 @@ Use the **Planning** tab to manage this hierarchy from a single view. For more i
 
 4.  Add or modify test plans and test execution suites in the Test plan work item hierarchy.
 
-<table id="choicetable_lwp_mjz_sfb"><thead><tr><th align="left" id="d303595e111">
+<table id="choicetable_lwp_mjz_sfb"><thead><tr><th align="left" id="d290747e111">
 
 Option
 
-</th><th align="left" id="d303595e114">
+</th><th align="left" id="d290747e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d303595e120">
+</th></tr></thead><tbody><tr><td id="d290747e120">
 
 **To add a test cycle**
 
@@ -53,7 +53,7 @@ Description
 2.  Right-click and select **Add Test Cycle**, or click the add icon \(![Add icon](../images/add.png)\).
 
 
-</td></tr><tr><td id="d303595e147">
+</td></tr><tr><td id="d290747e147">
 
 **To edit a test cycle in a form**
 
@@ -63,7 +63,7 @@ Description
 2.  Right-click and select **Edit**.
 
 
-</td></tr><tr><td id="d303595e168">
+</td></tr><tr><td id="d290747e168">
 
 **To delete a test cycle with its test execution suites**
 
@@ -73,7 +73,7 @@ Description
 2.  Right-click and select **Delete**.
 
 
-</td></tr><tr><td id="d303595e189">
+</td></tr><tr><td id="d290747e189">
 
 **To add a test execution suite**
 
@@ -83,7 +83,7 @@ Description
 2.  Right-click and select **Add Execution Suite**, or click the add icon \( ![Add icon](../images/add.png)\).
 
 
-</td></tr><tr><td id="d303595e217">
+</td></tr><tr><td id="d290747e217">
 
 **To edit a test execution suite in a form**
 
@@ -93,7 +93,7 @@ Description
 2.  Right-click and select **Edit**.
 
 
-</td></tr><tr><td id="d303595e238">
+</td></tr><tr><td id="d290747e238">
 
 **To add tests to a test execution suite**
 
@@ -103,7 +103,7 @@ Description
 2.  Right-click and select **Add tests**.
 
 
-</td></tr><tr><td id="d303595e259">
+</td></tr><tr><td id="d290747e259">
 
 **To add test sets to a test execution suite**
 
@@ -113,7 +113,7 @@ Description
 2.  Right-click and select **Add test sets**.
 
 
-</td></tr><tr><td id="d303595e280">
+</td></tr><tr><td id="d290747e280">
 
 **To hide or display columns**
 
@@ -126,15 +126,15 @@ Description
 </td></tr></tbody>
 </table>5.  View the summary or adjust the duration of a task in the Gantt chart.
 
-<table id="choicetable_kbs_3kz_sfb"><thead><tr><th align="left" id="d303595e313">
+<table id="choicetable_kbs_3kz_sfb"><thead><tr><th align="left" id="d290747e313">
 
 Option
 
-</th><th align="left" id="d303595e316">
+</th><th align="left" id="d290747e316">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d303595e322">
+</th></tr></thead><tbody><tr><td id="d290747e322">
 
 **To view the summary of a task**
 
@@ -142,7 +142,7 @@ Description
 
 Point to a task to see the details of the task in a pop-up.
 
-</td></tr><tr><td id="d303595e343">
+</td></tr><tr><td id="d290747e343">
 
 **To change the planned start or end dates of a task**
 
@@ -150,7 +150,7 @@ Point to a task to see the details of the task in a pop-up.
 
 Click the task, and drag the left or right edge of the task bar to the required date.
 
-</td></tr><tr><td id="d303595e352">
+</td></tr><tr><td id="d290747e352">
 
 **To move a task to a new date**
 
@@ -158,7 +158,7 @@ Click the task, and drag the left or right edge of the task bar to the required 
 
 Click the task, and drag the whole task bar to a new date.
 
-</td></tr><tr><td id="d303595e361">
+</td></tr><tr><td id="d290747e361">
 
 **To zoom the calendar in or out**
 

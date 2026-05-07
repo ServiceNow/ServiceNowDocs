@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 6
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -146,7 +146,7 @@ For more information on statuses, see [Risk Assessment workflow changes from 19.
 
 15. If you want to modify the assessment, select **Edit**.
 
-16. To view the activities taking place for the assessment, select the Activity log icon ![Activity log icon.](../image/activity-log.jpg).
+16. To view the activities taking place for the assessment, select the Activity log ![Activity log icon.](../image/activity-log.jpg) icon.
 
 17. If you have defined approvers, then select **Submit**.
 

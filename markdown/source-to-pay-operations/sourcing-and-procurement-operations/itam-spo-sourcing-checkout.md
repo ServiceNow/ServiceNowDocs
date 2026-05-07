@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create SR or PR via ITAM Workspace, Sourcing and Procurement Operations integration with IT Asset Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Create SR or PR via ITAM Workspace, Sourcing Procurement Operations integration Asset, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create sourcing request from the ITAM Workspace

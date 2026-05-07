@@ -7,7 +7,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Playbook for successful VPN attempts from service accounts, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -32,8 +32,6 @@ Role required:
 
 3.  In Action 3, check whether the service account owner provided a valid business justification.
 
-    ![Response task to check whether the service account owner provided a valid business justification.](../image/playbook-successful-vpn-attempts-overview.png "Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook")
-
 4.  In Action 4, if the service account owner provided a valid business justification, perform the following steps:
 
     1.  In Action 5, add the Source IP to the allow list if necessary.
@@ -43,8 +41,6 @@ Role required:
     3.  In Action 7, initiate a post incident review.
 
         In Action 8, after the post incident review, the flow ends.
-
-    ![Response task to check if the service account owner provided a valid business justification.](../image/playbook-successful-vpn-attempts-investigate.png "Using the Successful VPN Attempts from the Service Accounts - Corp/Cloud playbook")
 
 5.  In Action 9, if the service account owner didn’t provide a valid business justification, perform the following steps:
 

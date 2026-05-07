@@ -59,7 +59,7 @@ Learn about the RPA bot generation skill available with Now Assist for Creator.
 -   **[Test generation](../../../administer/test-generation/concept/test-generation-intro.md)**  
 Simplify your automated test authoring by leveraging the power of ServiceNow's Test generation skill available with Now Assist for Creator. Simply describe your test requirements, and Test generation generates the test for you. You can then review the generated test before accepting it or make any edits with an updated prompt.
 -   **[UI generation](../../../administer/ui-generation/concept/ui-generation-landing.md)**  
-Use ServiceNow® Now Assist for UI generation to quickly create experiences by describing what you want using natural language.
+UI generation in Now Assist for Creator uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
 
 **Parent Topic:**[Now Assist for Creator](../../../administer/flow-designer/concept/now-assist-for-creator-landing.md)
 

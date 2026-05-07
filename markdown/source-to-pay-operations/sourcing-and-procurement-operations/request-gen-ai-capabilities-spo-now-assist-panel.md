@@ -9,7 +9,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [generative AI, gen AI, genai, artificial intelligence]
-breadcrumb: [Use Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Request the generative AI capabilites in Now Assist for Sourcing and Procurement Operations \(SPO\) by using Now Assist panel
@@ -45,15 +45,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
     -   Sourcing event summarization for fulfillers
 4.  After you request the generative AI capabilities, you can summarize procurement-related records.
 
-<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d81287e183">
+<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d88211e192">
 
 Option
 
-</th><th align="left" id="d81287e186">
+</th><th align="left" id="d88211e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d81287e192">
+</th></tr></thead><tbody><tr><td id="d88211e201">
 
 **Summarize a record**
 

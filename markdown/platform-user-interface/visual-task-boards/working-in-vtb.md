@@ -8,7 +8,7 @@ classification: visual-task-boards
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Visual Task Boards, Configure UIs and portals, Configure user experiences]
 ---
 
 # Using Visual Task Boards
@@ -34,5 +34,5 @@ Visual Task Board task cards can represent a personal task or a record on a tabl
 -   **[Visual Task Board checklists](c_VisualTaskBoardChecklists.md)**  
 Checklists help you track the progress of tasks on your Visual Task Board.
 
-**Parent Topic:**[Personalize your experience](../../../administer/general/concept/personalize-your-experience.md)
+**Parent Topic:**[Configure UIs and portals](../../../administer/general/concept/configure-uis-and-portals.md)
 

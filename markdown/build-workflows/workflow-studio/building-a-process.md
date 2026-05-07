@@ -15,7 +15,7 @@ breadcrumb: [Playbooks, Workflow Studio, Build workflows]
 
 Playbooks are ServiceNow AI Platform® representations of cross-enterprise processes for your organization. Create and activate a playbook to run your digitized business process on the ServiceNow AI Platform.
 
-Each playbook that you design in Workflow Studio has a trigger, a sequence of stages, and a sequence of activities. To learn about the building blocks of a playbook and how you can create an manage a playbook, see [Understanding the playbook components](playbook-building-blocks.md) and [Creating and managing Playbooks](creating-managing-playbooks.md).
+Each playbook that you design in Workflow Studio has a trigger, a sequence of stages, and a sequence of activities. To learn about the building blocks of a playbook and how you can create and manage a playbook, see [Understanding the playbook components](playbook-building-blocks.md) and [Creating and managing Playbooks](creating-managing-playbooks.md).
 
 -   **[Building your first playbook](getting-started-processes.md)**  
 Learn the basics of designing an automated process for your organization. Get an overview of how Workflow Studio Playbooks work in the ServiceNow AI Platform®.

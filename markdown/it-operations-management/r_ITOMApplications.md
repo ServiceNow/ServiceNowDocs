@@ -84,7 +84,7 @@ The ServiceNow Product Documentation doesn't provide information on prices, pack
 -   [ITOM Visibility](itom-visibility-landing-page.md)
 -   [Visibility: Discovery](../../discovery/reference/r-discovery.md)
 -   [Visibility: Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md)
--   [ITOM AIOps](itom-health-landing-page.md)
+-   
 -   [Health: Event Management](../../event-management/concept/c_EM.md)
 -   [Health: Health Log Analytics](../../health-log-analytics-admin/reference/hla-landing-page.md)
 -   [Health: Agent Client Collector](../../agent-client-collector/concept/acc-landing-page.md)

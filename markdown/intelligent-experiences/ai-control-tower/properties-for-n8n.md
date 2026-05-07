@@ -1,6 +1,6 @@
 ---
 title: Properties for n8n
-description: Service Graph Connector for n8n properties control the behavior of the connector.
+description: Service Graph Connector for n8n  properties control the behavior of the connector.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI d
 
 # Properties for n8n
 
-Service Graph Connector for n8n properties control the behavior of the connector.
+Service Graph Connector for n8n  properties control the behavior of the connector.
 
 ## System properties
 

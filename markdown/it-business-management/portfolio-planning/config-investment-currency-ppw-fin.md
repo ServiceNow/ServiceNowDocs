@@ -30,15 +30,15 @@ Select investment currency as an additional currency, which can be different fro
 
     In the **Currency** field, the current system currency is displayed. For example, if your Functional currency is in USD, the field is displayed as **USD \(Functional\)**.
 
-<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d260231e110">
+<table id="choicetable_d3h_yqx_jhc"><thead><tr><th align="left" id="d251822e110">
 
 Planning item type
 
-</th><th align="left" id="d260231e113">
+</th><th align="left" id="d251822e113">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d260231e119">
+</th></tr></thead><tbody><tr><td id="d251822e119">
 
 **Demands**
 
@@ -55,7 +55,7 @@ Edit investment currency modal is displayed with options to select investment cu
 3.  Define investment currency for the future artifact using the **Investment currency for converted artefact** list.
 
 
-</td></tr><tr><td id="d260231e165">
+</td></tr><tr><td id="d251822e165">
 
 **Other planning items**
 

@@ -33,7 +33,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 5.  Select the down arrow icon \(![Down arrow icon](../image/down-arrow-icon.png)\) and then select **Request info**.
 
-    ![image.apo-request-add-info]The Request info dialog box is displayed.
+    ![Request additional information](../image/apo-request-add-info.png)The Request info dialog box is displayed.
 
 6.  In the **Reason** field, enter the information that you need from the requester.
 

@@ -52,6 +52,20 @@ See [Telecommunications Customer 360](https://www.servicenow.com/docs/access?con
 
     Manage multiple task types including service problem cases, cases, customer orders, work orders, complaint cases, and invoice cases in a unified view. View details such as case numbers, descriptions, state, sold products, and priority levels across all task records.
 
+-   **[Interaction record](https://www.servicenow.com/docs/access?context=c360-view-inter-record&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+
+    View customer phone interaction records, verify and open records to view details.
+
+
+## Changed in this release
+
+-   **[Products](https://www.servicenow.com/docs/access?context=c360-products-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+    -   Filter the list of sold products displayed by product characteristic values.
+    -   Modify configurations, suspend, resume, or disconnect one or more sold products and their services.
+-   **[Customer history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+
+    The **Interaction history** card has been renamed to **Customer history**. Phone interactions, chat messages, cases, contracts, work orders, and other activity types that have been configured are displayed.
+
 
 ## Activation information
 

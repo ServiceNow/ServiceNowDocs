@@ -19,14 +19,14 @@ The Zero Touch request flow uses the Service Exchange application to connect pro
 
 Providers must perform the following tasks to communicate about the request details with your organization:
 
-1.  [Install Service Exchange for Providers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-provider&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
-2.  [Register a Service Exchange consumer](https://www.servicenow.com/docs/access?context=service-bridge-v2-onboarding&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
-3.  [Create and publish remote record producers in a Remote Catalog](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+1.  [Install Service Exchange for Providers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-provider&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+2.  [Register a Service Exchange consumer](https://www.servicenow.com/docs/access?context=service-bridge-v2-onboarding&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+3.  [Create and publish remote record producers in a Remote Catalog](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 ## Service Exchange setup for your service catalog requests
 
 Perform the following steps to receive updates on the catalog requests from your provider:
 
-1.  [Install Service Exchange for Consumers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-customer&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
-2.  [Activate the remote record producers published by the provider](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-consumer-settings&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+1.  [Install Service Exchange for Consumers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-customer&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+2.  [Activate the remote record producers published by the provider](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-consumer-settings&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 

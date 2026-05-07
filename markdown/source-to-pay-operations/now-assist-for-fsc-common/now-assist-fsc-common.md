@@ -8,7 +8,7 @@ classification: now-assist-for-fsc-common
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Now Assist for Finance and Supply Chain, Finance and Supply Chain]
+breadcrumb: [Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 
 # Now Assist for Common Finance and Supply Chain features

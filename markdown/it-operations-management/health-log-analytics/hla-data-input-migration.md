@@ -20,7 +20,7 @@ The migrated configuration includes mapping and all other relevant settings, exc
 
 This feature is supported in the Health Log Analytics application, Version 25.0.17 - November 2022 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
-Starting with Health Log Analytics Version - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see
+Starting with Health Log Analytics Version 38.0.17 - December 2025, you can also export all source types related to one or more selected log sources to the update set together. For more information, see [Export source types to an update set by log source in Health Log Analytics](../task/hla-export-sourcetypes-by-source.md).
 
 For general information about update sets in the ServiceNow AI Platform, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
 

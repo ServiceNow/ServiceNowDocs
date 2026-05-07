@@ -26,7 +26,7 @@ Role required: admin and sn\_msi.workspace\_admin.
 
     ![Rollup record configuration](../image/roll-up-record-config.png "Rollup Record Configuration section")
 
-3.  Click **New**.
+3.  Select **New**.
 
     ![Rollup record configuration page](../image/roll-up-record-config-page.png)
 

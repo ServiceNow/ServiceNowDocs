@@ -23,7 +23,7 @@ Add the Automation plan, Activity experience and submit. Once submitted, edit th
 
 ## Automation Plan
 
-The Automation Plan associates the backend action/subflow built using the flow designer. This example uses **Submit to Sandbox - ESCM Activity**sub-flow.
+The Automation Plan associates the backend action/subflow built using the flow designer. This example uses the **Submit to Sandbox - ESCM Activity** sub-flow.
 
 ![Activity definitions](../image/sandbox.png)
 

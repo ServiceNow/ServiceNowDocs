@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Submit a catalog item request in Employee Center
@@ -23,7 +23,7 @@ Role required: none
 
 2.  Select **Browse catalogs**.
 
-    The commonly requested catalog items are displayed. For information about catalog items available in the base system, see [Catalog items installed with AI-native IT Service Management](../reference/catalog-items-base-system.md).
+    The commonly requested catalog items are displayed. For information about catalog items available in the base system, see [Catalog items installed with Simplified IT Service Management](../reference/catalog-items-base-system.md).
 
 3.  Select a catalog item and specify the required details.
 
@@ -32,5 +32,5 @@ Role required: none
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Employee experience in AI-native IT Service Management](../concept/employee-experience-native-ai-itsm.md)
+**Parent Topic:**[Employee experience in Simplified IT Service Management](../concept/employee-experience-native-ai-itsm.md)
 

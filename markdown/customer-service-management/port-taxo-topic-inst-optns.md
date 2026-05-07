@@ -16,7 +16,7 @@ Instance options enable you to configure the Portal Taxonomy Topic widget on a p
 |Instance option|Description|
 |---------------|-----------|
 |Title|Required title of a Portal Taxonomy Topic widget. The default text is `Browse topics`.|
-|Description|Required subtitle that appears below the title. The default text is `Navigate through topics to explore our services and resources`.|
+|Description|Required subtitle that appears after the title. The default text is `Navigate through topics to explore our services and resources`.|
 
 <table id="table_hpn_kb1_fzb"><thead><tr><th>
 

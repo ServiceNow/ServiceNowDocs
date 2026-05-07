@@ -17,7 +17,7 @@ Review the tasks that are assigned to you and approve or reject them.
 
 ## Before you begin
 
-Role required: sn\_slm.contact or admin
+Role required: sn\_slm.contact or sn\_slm.admin
 
 ## Procedure
 

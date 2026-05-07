@@ -6,7 +6,7 @@ release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -22,8 +22,6 @@ Create and activate requirements that users must fulfill before they can return 
 Due to the ability to set different health and safety requirements for different locations, a user might be cleared for their current travel or location but not for a specific location. For example, a user might be cleared for an active reservation but not travel to a campus across their country.
 
 **Note:** If a user has an active travel and active reservation, that reservation takes precedence.
-
-![My Health and Safety Status page.](../image/my-status-links-32.png)
 
 -   **[Set up Employee Health and Safety Status properties](../task/config-emp-core-properties.md)**  
 Set up Employee Health and Safety Status properties to configure the email notifications that are sent to visitors.

@@ -30,5 +30,3 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](../../health-log-analytics-admin/task/hla-source-types.md).
 
 
-**Parent Topic:**[Influence anomaly detection in Health Log Analytics with lexical keywords](../../health-log-analytics-admin/concept/hla-log-anomaly-detection.md)
-

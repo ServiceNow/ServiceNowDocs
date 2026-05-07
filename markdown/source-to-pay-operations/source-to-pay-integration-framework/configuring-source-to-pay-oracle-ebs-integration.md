@@ -21,7 +21,7 @@ Verify that you have performed the following:
 
 -   Activated the Source-to-Pay integration with the Oracle EBS application from ServiceNow Store. This automatically activates the Oracle EBS Spoke.
 -   Set up [Oracle EBS Spoke](https://www.servicenow.com/docs/csh?topicname=setup-oebs-spoke&version=yokohama&pubname=yokohama-integrate-applications).
--   Activated the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Oracle EBS uses the Source-to-Pay integration framework to pull tasks from Oracle EBS into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](source-to-pay-integration-framework.md).
+-   Activated the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Oracle EBS uses the Source-to-Pay integration framework to pull tasks from Oracle EBS into ServiceNow. For more information on the Source-to-Pay integration framework, see [Source-to-Pay integration framework](../../source-to-pay-operations/concept/source-to-pay-integration-framework.md).
 
 
 ## Primary Data Integration with Oracle EBS's Dependencies

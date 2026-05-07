@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # ERP source configuration for Oracle Financial Cloud
@@ -80,7 +80,7 @@ To perform the ERP Source configuration for Oracle Financial Cloud, follow these
 
         Set up subflows for the source configuration to lookup plant addresses from Oracle Financial Cloud.
 
-    ![ERP Source Configuration of Oracle Financial Cloud](../image/oracle-fin-erp-source-config.png "ERP Source Configuration of Oracle Financial Cloud")
+    ![ERP Source Configuration of Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-erp-source-config.png "ERP Source Configuration of Oracle Financial Cloud")
 
 6.  Configure a scheduled job to synchronize primary data updates from Oracle Financial Cloud.
 7.  Set up the interval in the lookup Cost Center scheduled job to periodically synchronize primary data updates from the ERP, for posting services to work.

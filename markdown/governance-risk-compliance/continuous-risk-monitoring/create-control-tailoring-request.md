@@ -25,7 +25,7 @@ Roles required: sn\_irm\_cont\_auth.admin, sn\_irm\_cont\_auth.info\_system\_sec
 
 Control tailoring requests allow you to propose changes to baseline controls without reverting the package to the Select step. You can add new controls, change control applicability \(Applicable to Not Applicable or vice versa\), or modify hybrid and inherited control configurations. All changes require AO approval before taking effect.
 
-When you submit the request, the AO receives an email notification. After approval, an item generation job applies the changes to baseline controls and updates related controls accordingly. Controls not affected by the request remain in their current state.
+When you submit the request, the AO receives an email notification. After approval, the system applies the changes to baseline controls and updates related controls accordingly. Controls not affected by the request remain in their current state.
 
 ## Procedure
 

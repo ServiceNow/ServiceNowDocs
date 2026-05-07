@@ -51,7 +51,7 @@ The preliminary or estimated date when the work is initially planned to begin. T
 
 This date is changed to **Planned start date** when the demand is converted to a project.**Note:**
 
--   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see  and [Properties installed with Project Management](../../project-management/reference/r_InstalledWithProjectManagement.md).
+-   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see [Properties installed with Project Management](../../project-management/reference/r_InstalledWithProjectManagement.md).
 -   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
 
 

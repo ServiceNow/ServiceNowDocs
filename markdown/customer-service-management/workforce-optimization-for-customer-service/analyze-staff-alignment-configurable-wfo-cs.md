@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Analyze staff alignment using Demand Forecast
@@ -41,15 +41,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d41594e117">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d44061e117">
 
 To analyze staff alignment
 
-</th><th align="left" id="d41594e120">
+</th><th align="left" id="d44061e120">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d41594e126">
+</th></tr></thead><tbody><tr><td id="d44061e126">
 
 **For each day**
 
@@ -68,7 +68,7 @@ The time slots are color-coded as below to show the coverage of agents in a part
 |Red|The number of agents you have scheduled are less than the demand you have for that interval.|
 |Grey|The demand for the number of agents and the number of agents scheduled is zero for that interval.|
 
-</td></tr><tr><td id="d41594e208">
+</td></tr><tr><td id="d44061e208">
 
 **For a given week**
 
@@ -87,7 +87,7 @@ The **Total coverage/demand** row has indicators for the staff alignment.
 2.  Click any of the indications displayed in the **Total coverage/demand** row to analyze further details on the forecast.
  You can also view the coverage and demand for every hour for each group.
 
-</td></tr><tr><td id="d41594e291">
+</td></tr><tr><td id="d44061e291">
 
 **For a given month**
 
@@ -126,5 +126,5 @@ Up to four weeks starting the week containing this date appear on the team calen
     ![Demand Forecast to analyze staff alignment.](../image/demand_forecast_and_scheduling.gif)
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

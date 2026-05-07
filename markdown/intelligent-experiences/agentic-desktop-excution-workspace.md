@@ -1,15 +1,15 @@
 ---
-title: Agentic Desktop Execution workspace
+title: AI Desktop Actions Execution workspace
 description: Execution workspace enables you to test, run, and monitor your desktop actions. It enables you to observe how your automations interact with desktop applications, including handling situations where human input is needed.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2025-11-17"
 reading_time_minutes: 3
-breadcrumb: [Explore, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Defined desktop actions for desktop, Explore, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Agentic Desktop Execution workspace
+# AI Desktop Actions Execution workspace
 
 Execution workspace enables you to test, run, and monitor your desktop actions. It enables you to observe how your automations interact with desktop applications, including handling situations where human input is needed.
 
@@ -24,11 +24,11 @@ This session acts as a virtual environment where the automations run in isolatio
 
 **Note:**
 
-To avoid conflicts, do not run the Agentic Desktop Execution workspace and RPA Attended Desktop mode at the same time.
+To avoid conflicts, do not run the AI Desktop Actions Execution workspace and RPA Attended Desktop mode at the same time.
 
-![Agentic Desktop Execution workspace displaying "Listening for instructions" message for desktop session activation.](../image/execution-workspace-ready-ad.png "Execution workspace before executing automation")
+![AI Desktop Actions Execution workspace displaying "Listening for instructions" message for desktop session activation.](../image/execution-workspace-ready-ad.png "Execution workspace before executing automation")
 
-![Agentic Desktop showing the Shipping Management app with fields on a Windows 10 background.](../image/execution-workspace-ad.png "Execution workspace running the automation")
+![AI Desktop Actions showing the Shipping Management app with fields on a Windows 10 background.](../image/execution-workspace-ad.png "Execution workspace running the automation")
 
 ## Execution workspace features
 

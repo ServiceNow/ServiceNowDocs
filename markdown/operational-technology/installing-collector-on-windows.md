@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-27"
 reading_time_minutes: 2
-breadcrumb: [Configure the OT Discovery Collector, Operational Technology \(OT\) Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the OT Discovery Collector, OT Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Install the OT Discovery Collector on a Windows system

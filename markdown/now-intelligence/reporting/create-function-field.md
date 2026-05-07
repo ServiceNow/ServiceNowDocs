@@ -25,7 +25,7 @@ Each function field requires a label, a return type, and a definition. The defin
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  Select the report that you want to add a function field to.
 

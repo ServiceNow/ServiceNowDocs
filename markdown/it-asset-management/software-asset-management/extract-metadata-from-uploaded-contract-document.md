@@ -50,16 +50,16 @@ Use the Manage contract repository agentic workflow to extract metadata and key 
 
 9.  Select **Initiate contract extraction** and select one of these options in the confirmation message:
 
-    -   To mark your confirmation and proceed with metadata extraction from signed contract, select **OK**.
-    -   To dismiss the metadata extraction from signed contract, select **Cancel**.
-    After you confirm and proceed with metadata extraction, a confirmation message appears indicating metadata extraction initiated for the signed contract.
+    -   To mark your confirmation and proceed with extraction from signed contract, select **OK**.
+    -   To dismiss the extraction from signed contract, select **Cancel**.
+    After you confirm and proceed with extraction, a confirmation message appears indicating extraction initiated for the signed contract.
 
-    After metadata extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
+    After extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
 
 
 ## Result
 
-After metadata extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
+After extraction is completed, a confirmation message appears on the contract form and **Playbook** tab is displayed.
 
 ## What to do next
 

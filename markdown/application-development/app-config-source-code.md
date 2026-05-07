@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-20"
-reading_time_minutes: 7
+reading_time_minutes: 4
 breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -229,7 +229,7 @@ A map of the client-side source files to the output paths for static asset files
 
 </td></tr><tr><td>
 
-tableDefaultLanguage
+defaultLanguage
 
 </td><td>
 
@@ -325,159 +325,6 @@ String
 A path to a `tsconfig.json` file with custom options for transpiling TypeScript into JavaScript during the build process. Specifying a `tsconfigPath` generates diagnostic results from TypeScript using the `tsconfig.json` file.**Warning:** You can't use this parameter and the `modulePaths` parameter. Configuring both results in an error.
 
 Default: `.`
-
-</td></tr><tr><td>
-
-applicationRuntimePolicy
-
-</td><td>
-
-String
-
-</td><td>
-
-The runtime policy. For more information about runtime policies, see [Runtime access tracking](../../applications/concept/c_RuntimeAccessTracking.md).Valid values:
-
--   none: The system does not track runtime access requests.
--   tracking: During development, the system creates a Cross-Scope Privilege record for each runtime access request. After installation, the system no longer tracks new runtime access requests.
--   enforcing: During development, the system creates a Cross-Scope Privilege record for each runtime access request. After installation, the system no longer tracks new runtime access requests.
-
-Default: none
-
-</td></tr><tr><td>
-
-networkPolicies
-
-</td><td>
-
-Array
-
-</td><td>
-
-A list of network access policy \[sys\_arp\_network\_policy\] definitions.-   policyType: Required. The type of network policy.
-
-Valid values: csp\_script\_src, csp\_connect\_src, now\_inbound\_scoped, now\_inbound\_global, now\_outbound.
-
--   status: Required. The enforcement status of the policy.
-
-Valid values: requested, allowed, denied
-
--   $id: A unique ID for the metadata object in the format `Now.ID['String' or Number]`.
--   active: Flag that indicates whether the policy is active.
--   host: Host address including the scheme, hostname, and optional port but not including the path.
--   scheme: The protocol scheme. Required if the policy type is now\_inbound\_global and must be empty for all other types.
-
-Valid values: http, https, ws, wss
-
--   path: A list of paths. Each path must start with a slash `(/)`. Use the `/*` suffix to allow for sub-paths \(`/api/*`\). If the policy type is now\_inbound\_scoped, provide either a path or resource.
--   resource: A resource identifier for cross-scope access if the policy type is now\_inbound\_scoped. For example, `processor.subprocessor.context`. Provide either a path or resource.
--   shortDescription: A short description of what the policy does.
-
-```json
-"networkPolicies": [
-  { 
-      "policyType": "String",
-      "status": "String",
-      "$id": "String" or Number,
-      "active": Boolean,
-      "host": "String",
-      "scheme": "String",
-      "path": [Array],
-      "resource": "String",
-      "shortDescription": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-wildcardPolicy
-
-</td><td>
-
-Object
-
-</td><td>
-
-A wildcard, or exemption, policy \[sys\_arp\_segment\_policy\] definition.-   $id: A unique ID for the metadata object in the format `Now.ID['String' or Number]`.
--   active: Flag that indicates whether the policy is active.
--   network: The network pillar configuration that includes the network wildcard selections.
-
-Valid values for `networkWildcard`: now\_outbound, now\_inbound\_global, now\_inbound\_scoped, csp\_connect\_src, csp\_script\_src
-
--   scripting: The scripting pillar configuration that includes the scripting wildcard selections.
-
-Valid values for `scriptingWildcard`: sys\_script\_include, scriptable
-
--   arl: The application resource limit \(ARL\) pillar configuration that includes the network wildcard selections.
-
-Valid values for `arlWildcard`: scheduled\_job\_limit, event\_handler, api\_transaction\_limit, interactive\_transaction\_limit
-
--   record: Flag that indicates whether to allow record pillar access.
--   shortDescription: A short description of what the policy does.
-
-```json
-"wildcardPolicy": {
-  "$id": "String" or Number,
-  "active": Boolean,
-  "network": {
-      "active": Boolean,
-      "networkWildcard": [Array]
-  },
-  "scripting": {
-      "active": Boolean,
-      "scriptingWildcard": [Array]
-  },
-  "arl": {
-      "active": Boolean,
-      "arlWildcard": [Array]
-  },
-  "record": Boolean,
-  "shortDescription": "String"
-}
-```
-
-</td></tr><tr><td>
-
-performancePolicy
-
-</td><td>
-
-Object
-
-</td><td>
-
-A performance quota template \[sys\_app\_resource\_limit\_template\] definition.-   $id: A unique ID for the metadata object in the format `Now.ID['String' or Number]`.
--   apiTransactionLimit: The API transaction quota percentage.
-
-Default: 30
-
--   eventHandlerLimit: The event handler quota percentage.
-
-Default: 20
-
--   interactiveTransactionLimit: The interactive transaction quota percentage.
-
-Default: 30
-
--   mode: The enforcement mode for quota thresholds. If this parameter is not set, the value is determined by the value of the `applicationRuntimePolicy` parameter.
--   scheduledJobLimit: The scheduled job quota percentage.
-
-Default: 20
-
--   name: A name for the performance quota template.
-
-```json
-"performancePolicy": {
-  "$id": "String" or Number,
-  "apiTransactionLimit": Number,
-  "eventHandlerLimit": Number,
-  "interactiveTransactionLimit": Number,
-  "mode": "String",
-  "scheduledJobLimit": Number,
-  "name": "String"
-}
-```
 
 </td></tr></tbody>
 </table>## Application configuration in source code

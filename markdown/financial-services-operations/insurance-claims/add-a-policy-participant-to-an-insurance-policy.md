@@ -23,33 +23,31 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Definition** &gt; **Tables**.
+1.  Open an insurance policy table.
 
-2.  Open an insurance policy table.
+2.  Open an insurance policy record in the table.
 
-3.  Open an insurance policy record in the table.
+3.  Select the **Policy Participants** related list, and select **New**.
 
-4.  Select the **Policy Participants** tab, and select **New**.
-
-5.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Consumer \(for Personal insurance policies\)|Consumer record that is the insured entity.|
     |Account \(for Commercial insurance policies\)|Account record that is the insured entity.|
 
-6.  Select **Save**.
+5.  Select **Save**.
 
-7.  In the Policy Participant Role related list, select **New**.
+6.  In the Policy Participant Role related list, select **New**.
 
-8.  Enter the following field values.
+7.  Enter the following field values.
 
     |Field|Value|
     |-----|-----|
     |Policy participant|&lt;customer record&gt;|
     |Role|&lt;insured&gt;|
 
-9.  Select **Save**.
+8.  Select **Save**.
 
 
 ## What to do next

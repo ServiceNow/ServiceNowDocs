@@ -7,7 +7,7 @@ product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Generate recommendation for similar control objective, Use generative AI skills, Now Assist, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -125,9 +125,9 @@ Provides a view of activities related to the recommendation card. In the Analyze
 
         A guidance message is shown for UCF recommendations indicating two things:
 
-        -   Changing your selection for a UCF control objective automatically dismisses the previously retained UCF recommendation.
-        -   Unretained UCF recommendations will be automatically dismissed when you request review, as they cannot be deactivated.
-        Any UCF recommendations that were accepted but not retained are automatically dismissed at this point.
+        -   If you change which UCF control objective is retained as primary, the previously retained UCF recommendation is automatically dismissed.
+        -   UCF recommendations that are not retained as primary will be automatically dismissed when you request review, as they cannot be deactivated.
+        Any UCF recommendations that were accepted as duplicate but not retained as primary are automatically dismissed from the rationalization process at this point.
 
     4.  Alternatively, select **Create** to use generative AI to create a common control objective.
 

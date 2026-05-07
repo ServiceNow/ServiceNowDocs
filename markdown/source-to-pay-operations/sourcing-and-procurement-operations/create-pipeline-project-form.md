@@ -265,7 +265,11 @@ The unique identifier of the previous related project or sourcing record, used f
 **Related topics**  
 
 
+[Base system procurement case type reference](base-system-procurement-case-types.md)
+
 [Pipeline project record tabs and UI actions](pipeline-form-tabs-actions.md)
+
+[Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md)
 
 [SPO and ITAM data model mappings](../concept/itam-spo-data-model.md)
 

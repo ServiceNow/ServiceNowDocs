@@ -49,8 +49,6 @@ You can link any change request record to a project task, regardless of the chan
 
 On the Project Task form, a notification appears at the top specifying that the task is linked to one or more change requests.
 
-![Screenshot for task with Linked Change](../image/TaskWithLinkedChange "Example for Task designated for linked change requests in the related list")
-
 **Parent Topic:**[Create a project task from a project](t_CreateATaskFromAProject.md)
 
 **Related topics**  

@@ -23,15 +23,15 @@ Role required: inventory\_admin
 
 1.  Create a stock rule.
 
-<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d191439e57">
+<table id="choicetable_ggf_c2c_tfc"><thead><tr><th align="left" id="d193756e57">
 
 Interface
 
-</th><th align="left" id="d191439e60">
+</th><th align="left" id="d193756e60">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d191439e66">
+</th></tr></thead><tbody><tr><td id="d193756e66">
 
 **Core UI**
 
@@ -41,7 +41,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d191439e102">
+</td></tr><tr><td id="d193756e102">
 
 **Hardware Asset Workspace**
 

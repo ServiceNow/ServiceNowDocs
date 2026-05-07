@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Initiate a contract request, Sourcing and Procurement Operations integration with Contract Management Pro, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Initiate a contract request, Source-to-Pay Operations integration Contract Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Initiate a contract request from the playbook

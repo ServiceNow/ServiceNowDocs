@@ -27,19 +27,19 @@ Role required: sn\_si.basic
 
 1.  [Create a new security incident](t_ManuallyCreateSecurityIncident.md) or open an existing one if you intend to attach new files to it.
 
-2.  Click the paperclip icon in the form header and attach one or more files.
+2.  Select the paperclip icon in the form header and attach one or more files.
 
-3.  When you have completed your entries on the form, right-click the form header and click **Save**.
+3.  When you have completed your entries on the form, select and hold \(or right-click\) the form header and select **Save**.
 
     After the record has been saved, a **Lookup attachments** button appears.
 
-4.  Click **Lookup attachments**.
+4.  Select **Lookup attachments**.
 
     **Note:** The work notes under **Incident Details** report the progress of the lookup process.
 
-5.  You can click the lookup number at the end of the message to view the lookup record.
+5.  You can select the lookup number at the end of the message to view the lookup record.
 
-    You can click the Lookup reference link to view detailed results.
+    You can select the Lookup reference link to view detailed results.
 
     ![Lookup request message](../image/LookupRequestFromSI.png)
 

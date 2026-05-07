@@ -7,7 +7,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -37,6 +37,8 @@ The flow of working with optional activities:
 [Activity definitions](activity-definitions.md)
 
 [Add and configure an activity in a playbook](../task/add-configure-activity.md)
+
+[Use AI agent as an activity](../task/ai-agent-as-activity.md)
 
 [Automation Assets](automation-assets.md)
 

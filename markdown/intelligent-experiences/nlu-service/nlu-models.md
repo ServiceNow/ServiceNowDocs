@@ -6,7 +6,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-15"
 reading_time_minutes: 4
 breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
 ---
@@ -78,6 +78,4 @@ For more information, see the [AI Search](https://www.servicenow.com/docs/access
 ## What you can do next
 
 To learn more about model content and the model life-cycle, see [Model management](model-management-phases.md).
-
-**Parent Topic:**[Exploring Natural Language Understanding](nlu-explore.md)
 

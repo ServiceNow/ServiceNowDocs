@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Import wrap-up codes, CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---
 
 # Enable Now Assist to generate wrap up code and notes summary

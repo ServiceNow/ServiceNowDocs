@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Monitoring calls, ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Monitoring calls, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Agent help request for voice calls
@@ -25,6 +25,8 @@ The following are some key functionality:
 -   View supervisor name and phone number with clear **Coaching** or **Barge In** labels
 -   Track help-request metrics including reason, frequency, duration, and supervisor involvement
 -   Automatically cancel help requests when completing Consult or Blind transfer actions
+-   Configure phone directory to show or hide Agents, Queues, or External tabs based on CCaaS provider settings. Agents see tabs enabled by the CCaaS provider, preventing transfers to unsupported numbers.
+-   While handling a customer call, agents can now see accurate availability status for other agents, supporting informed transfer decisions. Agent availability status updates in the transfer list and phone directory in real-time during call transfers.
 
 ## Dependencies
 
@@ -46,6 +48,8 @@ Persona:
 
     Responds to help requests and performs coaching or barge in actions with appropriate permissions.
 
+
+See 
 
 Review the following scenarios to understand how the feature works.
 

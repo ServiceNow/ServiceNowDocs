@@ -18,13 +18,15 @@ The Discovery Admin Workspace URL Discovery Insights dashboard displays captured
 
 To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** &gt; **URL Discovery Insights**.
 
+![URL Discovery insights dashboard](../image/url-disco-insights-dash.png)
+
 ## Prerequisites
 
 -   **Verify that you have the required setup**
     -   Australia, Zurich, or YP6 or later version of the ServiceNow AI Platform
-    -   Agent Client Collector for Visibility - Content \(ACC-VC\) v1.7.0
-    -   URL Discovery and Monitoring v1.0.2
-    -   Discovery Admin Workspace v1.14.0
+    -   Agent Client Collector for Visibility - Content \(ACC-VC\) v1.7.0 or later
+    -   URL Discovery and Monitoring v1.0.0 or later
+    -   Discovery Admin Workspace v1.14.0 or later
 -   **Enable the data collection**
 
     Role required: discovery\_admin or admin
@@ -100,9 +102,21 @@ Displays the distribution of targeted URL visits grouped by URL category since a
 
 This section lists the targeted URLs visited across managed devices since a given date. Targeted URLs are those configured for monitoring in **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings** &gt; **URL Discovery**. For more information, see [Discovery Admin Workspace Settings](discovery-admin-workspace-setup.md).
 
-You can select a URL from the list to view detailed information about it. The filter icon \(![filter icon](../image/filter-icon-daw.png)\) enables you to apply fixed filters or create custom filters that can be saved and reused.
+Select a URL from the list to view detailed information about it. Select the filter icon \(![filter icon](../image/filter-icon-daw.png)\) to apply filters to the table.
 
 ## Other URLs visited
 
-This section lists URLs visited that are not in the targeted URLs list. It is populated only when broad URL discovery is enabled. You can select a URL from the list to view detailed information about it. Selecting **Add to target discovery**\_. The filter icon \(![filter icon](../image/filter-icon-daw.png)\) enables you to apply fixed filters or create custom filters that can be saved and reused.
+The Broad URLs visited list displays URLs accessed on managed devices that are not in the targeted URLs list and is populated only when broad URL discovery is enabled. The list includes the URL and the number of hits recorded for each domain. To add a URL to your targeted discovery list, select the check box next to the URL and select **Add to targeted discovery**. In the dialog, enter the following information:
+
+|Field|Description|
+|-----|-----------|
+|Internal or External|Indicates whether the domain is internal or external. The default value is External.|
+|Category|The URL category to assign to the domain.|
+|Product|The product associated with the domain.|
+|Publisher|The publisher of the product associated with the domain.|
+|Application Service|The application service associated with the domain.|
+
+Select **Save** to add the URL to the Targeted URL discovery. The URL is then monitored and appears in the **Targeted URLs visited** tab.
+
+Select the filter icon \(![filter icon](../image/filter-icon-daw.png)\) to apply filters to the table.
 

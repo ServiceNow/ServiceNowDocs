@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Creating Taxonomies, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Creating Taxonomies, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Bulk import Taxonomies

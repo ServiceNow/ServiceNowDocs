@@ -33,19 +33,19 @@ To add Third-party Risk Management \(TPRM\) specific information such as third-p
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire templates**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire templates**.
 
 2.  Complete one of the following options to create a new template or copy an existing template and customize.
 
-<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d91179e169">
+<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d93494e169">
 
 Option
 
-</th><th align="left" id="d91179e172">
+</th><th align="left" id="d93494e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91179e178">
+</th></tr></thead><tbody><tr><td id="d93494e178">
 
 **Create a new template**
 
@@ -59,7 +59,7 @@ For more information about the field descriptions, see [Create New TPRM SAE ques
 3.  Select Save.
  **Note:** For Issue-generation rules to work as expected when applied to an SAE assessment template, at least one question with Enable preferred response must be set to true.
 
-</td></tr><tr><td id="d91179e232">
+</td></tr><tr><td id="d93494e232">
 
 **Copy and customize an existing template**
 

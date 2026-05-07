@@ -1,6 +1,6 @@
 ---
 title: View MISP Feeds
-description: View the MISP Feeds that are configured in the base system.
+description: View configured MISP feeds to monitor threat intelligence sources and verify feed status in your ServiceNow instance.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -13,7 +13,7 @@ breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Thre
 
 # View MISP Feeds
 
-View the MISP Feeds that are configured in the base system.
+View configured MISP feeds to monitor threat intelligence sources and verify feed status in your ServiceNow instance.
 
 ## Before you begin
 
@@ -23,22 +23,26 @@ Role required: sn\_sec\_tisc.analyst
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select the **Integrations** icon.
 
 3.  Select **MISP**.
 
-    The MISP feeds within the base system are described in the following table.
+    The MISP feeds within the base system are described in this table.
 
     |Threat Feed|Description|URL|
     |-----------|-----------|---|
-    |DigitalSide Threat Intel OSINT Feed|Data source to fetch Open Source Cyber Threat Intelligence information from DigitalSide Threat-Intel OSINT feed, which is mostly based on malware analysis and compromised URLs, IPs and domains.|[https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/manifest.json](https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/manifest.json)|
+    |DigitalSide Threat Intel OSINT Feed|Data source to fetch Open Source Cyberthreat Intelligence information from DigitalSide Threat-Intel OSINT feed, which is mostly based on malware analysis and compromised URLs, IPs and domains.|[https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/manifest.json](https://osint.digitalside.it/Threat-Intel/digitalside-misp-feed/manifest.json)|
     |URLhaus IOCs|URLhaus is a project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution.|[https://urlhaus.abuse.ch/downloads/misp/manifest.json](https://urlhaus.abuse.ch/downloads/misp/manifest.json)|
     |Malware Bazaar|MalwareBazaar is a project from abuse.ch with the goal of sharing malware samples with the infosec community, AV vendors and threat intelligence providers.|[https://bazaar.abuse.ch/downloads/misp/manifest.json](https://bazaar.abuse.ch/downloads/misp/manifest.json)|
     |ThreatFox IOCs|ThreatFox is a free platform from abuse.ch with the goal of sharing indicators of compromise \(IOCs\) associated with malware with the infosec community, AV vendors and threat intelligence providers.|[https://threatfox.abuse.ch/downloads/misp/manifest.json](https://threatfox.abuse.ch/downloads/misp/manifest.json)|
 
-    **Note:** For MISP feed types, the REST endpoint URLs that end with `/manifest.json` are supported.
+    **Note:**
 
-4.  Click **Edit** to edit the feed.
+    Only REST endpoint URLs ending with \[`/manifest.json`\] are supported for MISP feed types.
+
+4.  Select **Edit** to edit the feed and make necessary updates.
+
+5.  Select **Save** to apply the changes.
 
 
 **Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)

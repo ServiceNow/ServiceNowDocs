@@ -28,7 +28,7 @@ Role required: resource\_user, resource\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **Resource Management Workspace**
+1.  Navigate to **Workspaces** &gt; **Resource Management Workspace**
 
 2.  Select the Resource cards icon \(![Resource cards icon.](../images/rmw-resource-cards-L1-icon.png)\) from the menu and open a resource card.
 
@@ -78,7 +78,7 @@ The actual hours captured by Tom are retained even though the task is reassigned
 
 ## What to do next
 
-You can allocate the unassigned work and approve the reassigned work. For more information, see [View, assign, and approve unassigned work using Resource Management Workspace](allocate-resources-rmw.md).
+You can allocate the unassigned work and approve the reassigned work. For more information, see [Assign and approve unassigned work using Resource Management Workspace](allocate-resources-rmw.md).
 
 **Parent Topic:**[Using Resource Management Workspace](../concept/using-rmw.md)
 

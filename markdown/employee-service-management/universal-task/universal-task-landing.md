@@ -33,19 +33,19 @@ Predefined task types enable agents to quickly task employees to get the informa
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about how employees, agents, and managers use Universal Task.](explore-universal-task.md)
+[Explore ![Explore](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how employees, agents, and managers use Universal Task.](explore-universal-task.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Plan and configure your implementation.](set-up-universal-task.md)
+[Configure ![Configure](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](set-up-universal-task.md)
 
 </td></tr><tr><td>
 
-[Use ![Use](../../../common/image/icon-workspace.png) Work on universal tasks.](use-universal-task.md)
+[Use ![Use](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Work on universal tasks.](use-universal-task.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](universal-task-reference.md)
+[Reference ![Reference](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties.](universal-task-reference.md)
 
 </td></tr></tbody>
 </table>## Additional resources

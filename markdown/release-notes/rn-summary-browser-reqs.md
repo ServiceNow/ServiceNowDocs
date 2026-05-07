@@ -4,7 +4,7 @@ description: Cumulative release notes summary on browser requirements for Austra
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-05-04"
 reading_time_minutes: 3
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -25,11 +25,27 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+The AI Agent Advisor application supports various browsers, including Google Chrome and Microsoft Edge. AI Agent Advisor isn’t supported in Internet Explorer. For more information, see Browser support.
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
-The AI Control Tower application supports all the browsers.
+The AI Control Tower application supports all browsers.
+
+</td></tr><tr><td>
+
+AI Desktop Actions
+
+</td><td>
+
+Now Assist AI agents support various browsers, including Google Chrome and Microsoft Edge. Now Assist AI agents aren't supported in Internet Explorer.
 
 </td></tr><tr><td>
 
@@ -129,6 +145,14 @@ Now Assist AI agents support various browsers, including Google Chrome and Micro
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+The Now Assist Center application supports various browsers, including Google Chrome and Microsoft Edge. Now Assist Center isn’t supported in Internet Explorer.
+
+</td></tr><tr><td>
+
 Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
@@ -141,7 +165,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 

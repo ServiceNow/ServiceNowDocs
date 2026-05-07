@@ -23,11 +23,7 @@ In the previous version of Issue Auto Resolution for HR, all the noncritical HR 
 
 When an employee submits a human resource \(HR\) case via an email or portal, the Issue Auto Resolution first checks whether the **sn\_iar\_hr.hr\_intent\_solution\_enable** property value is set to **True**. If the property value is **True**, the Issue Auto Resolution checks if the corresponding intent for the topic map is active or not in the **Auto-resolution configuration** record. When the property value is **False**, then Issue Auto Resolution continues to perform the normal AI search.
 
-The following example shows how an employee receives a Virtual Agent topic recommendation when the employee submits an HR case via email.
-
-![New Virtual Agent topic introduced in IAR flow.](../image/iar-new-va-flow.png "VA topic in Issue Auto Resolution flow")
-
-The process is as follows:
+The Virtual Agent process is as follows:
 
 1.  An HR case is submitted by the employee through an email.
 2.  The employee receives an email with the Virtual Agent topic recommendation in it.
@@ -37,8 +33,4 @@ The process is as follows:
 ## Enhanced recommendations preview on email for AI search flow
 
 The new recommendations section displays the titles of the knowledge articles and catalog items in the email. The ![IAR knowledge article icon.](../image/iar-knowledge-article.png) icon indicates that the recommendation title is a catalog item. The ![IAR catalog item icon.](../image/iar-catalog-item.png) icon indicates that the recommendation title is a knowledge article.
-
-The following example shows how the new recommendations preview section looks in the email you receive when the HR case gets AI search results as recommendations.
-
-![](../image/iar-new-email-preview.png "New recommendations preview on email")
 

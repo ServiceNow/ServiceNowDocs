@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Instance performance telemetry reports
@@ -170,5 +170,5 @@ There are several database growth reports that are available that show how the i
 |Database by Size \(Including Shards\)|Various metrics on how the database has either grown or decreased over the selected, including shards. Total DBI Size align with primary shards, this is calculated every 4 hours and can be used to visualize database growth over time.|
 |Top 20 Tables \(By Size\)|Lists table name, size \(GB\), 1 day growth and rate, and the 7 day growth rate.|
 
-**Parent Topic:**[Instance Observer](../concept/io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](../concept/io-overview.md)
 

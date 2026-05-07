@@ -1,6 +1,6 @@
 ---
 title: Subscribe to incident communication notifications
-description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
+description: Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
 locale: en-US
 release: australia
 product: Incident Communications Management
@@ -13,7 +13,7 @@ breadcrumb: [Managing Incident Communications, Incident Communications Managemen
 
 # Subscribe to incident communication notifications
 
-Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans.
+Subscribe to incident communication notifications to get periodic information about issues related to incident communication plans. The timely incident communication notification or incident alerts \(IA\) helps address issues within the defined SLA.
 
 ## Before you begin
 

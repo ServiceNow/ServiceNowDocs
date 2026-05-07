@@ -4,8 +4,8 @@ description: Cumulative release notes summary on deprecation information for Aus
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 9
+last_updated: "2026-05-04"
+reading_time_minutes: 10
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -29,7 +29,7 @@ AI Control Tower
 
 </td><td>
 
--   Non-SGC way \(legacy way\) to make connection will be deprecated and New button on the Non-SGC connection display table will be removed to block users from creating new connections by the legacy way in March GA and decommissioned by May release.
+-   The ability to add hyperscalers from the AICT configuration section is no longer available. You can find any previously created hyperscaler connections in the AI connections section, under Legacy connections.
 
 </td></tr><tr><td>
 
@@ -38,6 +38,14 @@ API
 </td><td>
 
 -   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
+
+</td></tr><tr><td>
+
+Adoption Services
+
+</td><td>
+
+Starting with the Australia release, Guided Setup is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 
@@ -91,6 +99,21 @@ Data Separation
 
 -   This application is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 -   Alternatively, you can use Data Filters and access control lists \(ACLs\) to configure data separation for your use cases. For details on how to enable data separation for different use cases using data filters and ACLs, see the [Managing data separation using data filters and ACLs \[KB0558290\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1772519) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Developer Sandboxes
+
+</td><td>
+
+Data generation profiles and templates will no longer available in Developer Sandboxes as of the Brazil release. When you upgrade, the following will happen:
+
+-   All data generation metadata and non-metadata records are automatically deleted.
+-   The data generation plugin is no longer discoverable.
+-   All references to data generation will be removed from sandbox templates.
+-   Sandbox initialization will operate independently of data generation logic.
+
+**Note:** You can use the Now Assist Data Kit instead of data generation profiles.
 
 </td></tr><tr><td>
 
@@ -167,6 +190,16 @@ Next Experience Components
 
 </td></tr><tr><td>
 
+Now Assist
+
+</td><td>
+
+[Australia Patch 1](../quality/australia-patch-1.md)
+
+-   Starting with [Australia Patch 1](../quality/australia-patch-1.md) release, Conversational Help Skills is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+</td></tr><tr><td>
+
 Now Assist AI Agents
 
 </td><td>
@@ -177,12 +210,19 @@ Now Assist AI Agents
 
 </td></tr><tr><td>
 
+Now Assist for IT Service Management \(ITSM\)
+
+</td><td>
+
+Starting with the [Australia Patch 2](../quality/australia-patch-2.md) release, the [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US) is deprecated, moved to the **Archived** folder and is no longer available for use.
+
+</td></tr><tr><td>
+
 Now Assist in Virtual Agent
 
 </td><td>
 
--   -   
-
+ 
 
 </td></tr><tr><td>
 

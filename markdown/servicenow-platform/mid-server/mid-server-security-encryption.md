@@ -49,10 +49,12 @@ The command audit log records the commands run by the MID Server for the Discove
 Rekey a MID Server to generate a new private key. Private keys are used to decrypt automation credentials, so that MID Servers can transmit information securely. Key pairs are initially generated when a MID Server is validated, and MID Servers should be rekeyed periodically to meet security requirements.
 -   **[Add SSL certificates for the MID Server](../task/add-ssl-certificates.md#)**  
 Configure the MID Server to connect to a source over SSL.
+-   **[Specify an external TrustStore for the MID Server](../task/mid-external-truststore.md)**  
+The MID Server JVM can utilize a TrustStore external to the MID installation directory so any certificates added to the TrustStore are not overwritten during an upgrade. It is important that this TrustStore file reside outside of the MID installation directory, and the Truststore location can be specified by adding additional parameters to the MID Server's `wrapper-override.conf` file.
 -   **[MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)**  
 The MID Server utilizes SSH clients to perform many discovery actions. During the SSH handshake, both the client and server first determine which algorithms both parties support, then client picks the highest priority algorithm. For the Host Key Algorithm, the client picks highest priority algorithm which both parties support that matches the key type.
 -   **[Attach a script file to a file synchronized MID Server](../task/mid-server-script-attach.md#)**  
-You can attach a script file to synchronize to a connected MID Server. Windows Internet Explorer enhanced security blocks downloaded files that it determines are potentially dangerous. However synchronizing the files avoids this security problem.
+You can attach a script file to synchronize to a connected MID Server.
 -   **[MID Server FIPS Enforced Mode](mid-fips-enforced.md#)**  
 The MID Server supports the National Security Cloud \(NSC\) IL-5 environment, which requires all utilized cryptography to be FIPS validated. The MID server can be run in FIPS Enforced Mode, where only cryptographic algorithms which are FIPS validated are utilized.
 -   **[MID Server Governance](mid-timeout.md)**  

@@ -1,6 +1,6 @@
 ---
 title: View a Security Incident Response runbook
-description: Runbooks give you access to procedures related to tasks you are working on.
+description: Runbooks give you access to procedures related to tasks you're working on.
 locale: en-US
 release: australia
 product: Security Incident Response
@@ -13,7 +13,7 @@ breadcrumb: [View information in a security incident, Managing security incident
 
 # View a Security Incident Response runbook
 
-Runbooks give you access to procedures related to tasks you are working on.
+Runbooks give you access to procedures related to tasks you're working on.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: sn\_si.knowledge\_admin
 
     ![View runbook](../image/viewRunbook.png)
 
-3.  To create a runbook, click **New**.
+3.  To create a runbook, select **New**.
 
     For more information, see [Create a runbook](../reference/setup-assistant-reference.md#).
 

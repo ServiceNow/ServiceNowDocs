@@ -7,8 +7,8 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Approve a request from Employee Center, Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+reading_time_minutes: 2
+breadcrumb: [Approve a request from Employee Center, Sourcing Procurement Operations integration Employee, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Approval email notification templates

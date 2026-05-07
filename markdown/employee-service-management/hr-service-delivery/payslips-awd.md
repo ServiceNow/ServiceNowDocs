@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Report an issue with your payslip
@@ -39,7 +39,7 @@ Report an issue with your Workday payslip from Employee Center.
     An HR case is created that is in Ready state.
 
 
-**Parent Topic:**[Using](../concept/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](../concept/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

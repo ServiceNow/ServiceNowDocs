@@ -55,7 +55,7 @@ Each ERP instance requires a unique ERP source configuration. Therefore, 10 ERP 
         |Active|Option to activate the ERP source.|
         |Amount Precisions|Amount precision of the ERP source. For example, 2.|
 
-        ![Define a new ERP source configuration for S4 HANA OData](../image/sap-integration-new-erp-source.png "Define a new ERP source configuration for S4 HANA OData")
+        ![Define a new ERP source configuration for S4 HANA OData](../../source-to-pay-operations/image/sap-integration-new-erp-source.png "Define a new ERP source configuration for S4 HANA OData")
 
     3.  Select **Submit**.
 

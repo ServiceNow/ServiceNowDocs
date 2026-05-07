@@ -16,10 +16,10 @@ Set up and configure Data Management.
 
 ## Configuration overview
 
-Data Management is a ServiceNow AI Platform capability that is active by default. You can take advantage of secondary object storage for archive records and attachments by upgrading to RaptorDB Professional V2 and installing the data archiving plugin.
+Data Management is a ServiceNow AI Platform capability that is active by default. You can take advantage of object storage for archive records and attachments by upgrading to RaptorDB Professional V2 and installing Live Archive.
 
--   **[Activate data archiving to object storage](../task/activate-columnar-storage.md)**  
-You can activate the Data Archiving \(com.glide.db.columnar.archive\) plugin for Data Management if you have the admin role.
+-   **[Install Live Archive](../task/install-data-archiving-plugin.md)**  
+Install Live Archive to archive data in object storage.
 
 **Parent Topic:**[Data Management](c_DataManagement.md)
 

@@ -7,7 +7,7 @@ product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -270,7 +270,7 @@ Ranking
 Question type with options as answers. The options must be ranked.
 
 </td></tr></tbody>
-</table>5.  Point to **Save** and then click **Save and Publish**.
+</table>5.  Point to **Save** and then select **Save and Publish**.
 
     The state of the template changes to Published.
 
@@ -281,7 +281,11 @@ The assessment template with the questions is ready to be sent to the entity own
 
 ## What to do next
 
-Map the assessment responses to a processing activity. For more information, see [Map the processing activity fields to a question response](copy-responses-to-ropa.md).
+After the template is published, send it to the entity or processing activity owners to collect responses. For more information, see [Send a privacy assessment to an entity](send-privacy-assessmt-entity.md) and [Respond to a privacy screening assessment](respond-to-privacy-assmnt.md).
+
+After responses are submitted, review and approve the assessment. For more information, see [Review a privacy assessment](review-a-privacy-assessment.md).
+
+To map assessment responses to a processing activity, see [Map the processing activity fields to a question response](copy-responses-to-ropa.md).
 
 -   **[Write a processing activity script](configure-a-processing-activity-script.md)**  
 Write custom scripts on the assessment templates to update the processing activity fields using a script. The script runs when the assessment response is completed. You can write multiple scripts for both screening assessments and impact assessments.
@@ -295,4 +299,9 @@ Map the risk statements to the responses of the assessment questions to automati
 Map some of the processing activity fields with the responses of the assessment questions to update the processing activity details based on the assessment response.
 
 **Parent Topic:**[Configuring Privacy Management](../concept/configure-privacy-mgmt.md)
+
+**Related topics**  
+
+
+[Smart assessments in Privacy Management](../concept/smart-assessments-in-privacy-management.md)
 

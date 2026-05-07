@@ -19,6 +19,8 @@ KPIs for Service Catalog.
 |------------------|-----------|
 |Catalog Item best practice deviations|Number of deviations from the best practices for active catalog items.|
 |Catalog item VA render type|Catalog items distributed by how they will be rendered on a Virtual Agent bot.|
-|Catalog item fulfilment automation level distribution|Distribution of the catalog items that are fulfilled automatically.|
+|Catalog item fulfillment automation level distribution|Distribution of the catalog items that are fulfilled automatically.|
 |Catalog item translation coverage|Language wise distribution of the catalog items that are translated.|
+
+For more information on the service catalog KPIs see, [Monitoring aggregated catalog item data](https://www.servicenow.com/docs/access?context=monitor-aggregated-catalog-item-data&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 

@@ -27,9 +27,9 @@ Role required: sn\_slm.contact
 
 2.  In the search bar, enter your search query.
 
-3.  Navigate to the Contact us for help section.
+3.  Navigate to the **Contact us for help** section.
 
-4.  Select the **Request help** option. ![Selected option to raise a Universal Request.](../image/ur-request-help-slo.png)
+4.  Select the **Request help** option.
 
 5.  In the Request Help form, fill in the request details.
 
@@ -41,7 +41,7 @@ Role required: sn\_slm.contact
 
     2.  From the Select department for your issue drop-down, select a department related to your issue.
 
-7.  Select **Submit**.![Request Help form.](../image/create-universal-request.png)
+7.  Select **Submit**.
 
 
 ## Result

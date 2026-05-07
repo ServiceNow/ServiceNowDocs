@@ -248,9 +248,9 @@ The **Unassign** UI action is supported in both the classic environment and the 
 
 2.  To clear the **Assigned to** and **Assignment group** fields in the classic view, at the top of the record, select **Unassign**.
 
-3.  Alternatively, navigate to a vulnerable item \(VIT, AVIT, or CVIT\) record in the IT Remediation workspace that is assigned to you or your groups and click **Unassign** in the More options menu \(![The three dots of the More options menu](../../secops-analyst-workspace/image/more-actions-icon.png)\) to clear the assignment fields.
+3.  Alternatively, navigate to a vulnerable item \(VIT, AVIT, or CVIT\) record in the IT Remediation workspace that is assigned to you or your groups and click **Unassign** in the More options menu \(![The three dots of the More options menu](../../security-incident-response/image/more-actions-icon.png)\) to clear the assignment fields.
 
-4.  For remediation task records in the workspace that are assigned to you or your groups, open a record select **Unassign** in the More options menu \(![The three dots of the More options menu](../../secops-analyst-workspace/image/more-actions-icon.png)\) to clear the assignment fields.
+4.  For remediation task records in the workspace that are assigned to you or your groups, open a record select **Unassign** in the More options menu \(![The three dots of the More options menu](../../security-incident-response/image/more-actions-icon.png)\) to clear the assignment fields.
 
 5.  In the Unassign dialog for both vulnerable items and remediation tasks, provide work notes and select **Submit**.
 

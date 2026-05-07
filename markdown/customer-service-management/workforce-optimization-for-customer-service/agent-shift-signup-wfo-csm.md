@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Enable your teams to sign up for work shifts
@@ -118,15 +118,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d142767e373">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d145554e373">
 
 To
 
-</th><th align="left" id="d142767e376">
+</th><th align="left" id="d145554e376">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d142767e382">
+</th></tr></thead><tbody><tr><td id="d145554e382">
 
 **Auto-assign agents**
 
@@ -134,7 +134,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d142767e397">
+</td></tr><tr><td id="d145554e397">
 
 **Assign agents manually**
 
@@ -212,5 +212,5 @@ Schedule plan is closed for agents to sign up.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

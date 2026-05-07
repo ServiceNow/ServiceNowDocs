@@ -29,8 +29,6 @@ Discovery classification can be broken down into three types: device classificat
 
     When Discovery identifies a computer CI, it triggers an active processes probe to explore the computer CI further. Discovery compares the results of the active processes probe to the process classification conditions to determine if there is a match.
 
-    ![CI classification workflow](../image/ComputerCIClassificationWorkflow.png "Computer CI classification workflow")
-
     Starting with the Madrid release, the horizontal discovery process can classify devices using HTTP.
 
     Of all protocols that Discovery uses \(including WMI, SSH, and SNMP\), HTTP is the lowest priority by default. Discovery uses HTTP classification only if:
@@ -51,8 +49,6 @@ Discovery classification can be broken down into three types: device classificat
     Discovery classifies processes during the last phase of discovery: the exploration phase, after identifying devices in the Computer \[cmdb\_ci\_computer\] table and its extensions. Just like device classification, process classification has its own classification criteria and also has the ability to launch probes. Unlike device classification, process classification creates child configuration items \(CI\) with Runs on::Runs relationships. By default, Discovery includes classifications for most common processes.
 
     If a process matches the classification criteria, Discovery determines whether to run the process handler script. The process handler script modifies the parameter data to help Discovery identify whether the process represents an existing or new application CI. Discovery process handlers prevent the creation of duplicate CIs by filtering out parameters known to have inconsistent values before process classification occurs. Every time Discovery adds or updates an application CI, it also determines the application dependency mapping of the application CI to other CIs in the CMDB.
-
-    ![Process classification workflow](../image/ProcessClassificationWorkflow.png "Process classification workflow")
 
 -   **IP address \(IP scan\) classification**
 

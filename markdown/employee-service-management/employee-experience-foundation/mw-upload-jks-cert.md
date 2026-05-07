@@ -8,7 +8,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Upload Java KeyStore certificate
@@ -19,7 +19,9 @@ Upload a Java KeyStore certificate and specify the password that's sent in Movew
 
 Ensure you have the encrypted email from Moveworks to set up secure connection.
 
-**Note:** Follow the instructions available at [Contact Moveworks support](https://help.moveworks.com/docs/support#how-to-contact-moveworks-support) to receive encrypted email.
+You can generate a self-signed JWT certificate \(valid for 2 years\) for use with Moveworks for Web. For more information, see [JWT Certificate Generation Guide \(Mac and Windows\)](https://docs.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#jwt-certificate-generation-guide-mac--windows)
+
+**Note:** You must've purchased Moveworks and implemented it for the self-signing to work.
 
 Role required: admin or OAuth admin
 
@@ -37,7 +39,7 @@ Certificate authentication creates encrypted communication between your ServiceN
 
 3.  Open the certificate record and upload the certificate file.
 
-    1.  Select the **Attachment** option.
+    1.  Select the **Manage Attachments** \(![](../../workplace-central/images/attachment-icon.png)\) icon.
     2.  Upload your **moveworks.jks** file.
 4.  Enter the password in the **Key Store Password** field.
 
@@ -53,9 +55,13 @@ Certificate authentication creates encrypted communication between your ServiceN
 
 6.  Navigate to **System Definition** &gt; **JWT Providers**.
 
-    1.  Find the `Moveworks JWT Provider` entry in the list and open it.
+    1.  In the Signing configuration field, verify if `Moveworks JWT Provider` is selected.
 
-    2.  Enter the same **Key Store Password** in the **Signing Key** field.
+    2.  Select the info icon \(![preview icon](../../wsd-reservation-management/image/info-icon.png)\).
+
+    3.  Select **Open Record** in the pop-up.
+
+    4.  In the Moveworks JWT key window, enter the same **Key Store Password** in the **Signing Key** field.
 
 7.  Select **Save** or **Update**.
 

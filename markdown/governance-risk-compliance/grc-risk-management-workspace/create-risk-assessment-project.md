@@ -23,7 +23,7 @@ Role required: sn\_risk\_advanced.project\_user or sn\_risk\_workspace.operation
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![list icon.](../../assessment-engine/image/list-icon.png) icon.
+2.  Select the list ![list icon.](../image/list-icon-risk-workspace.png) icon.
 
 3.  From the list, navigate to **Risk assessment projects** and select **New**.
 

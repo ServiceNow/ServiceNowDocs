@@ -35,15 +35,15 @@ Role required: sn\_wsd\_visitor.staff
 
 5.  Perform any of the following actions based on your preference.
 
-<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d539155e114">
+<table id="choicetable_x42_ksz_n3c"><thead><tr><th align="left" id="d548168e114">
 
 Action
 
-</th><th align="left" id="d539155e117">
+</th><th align="left" id="d548168e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d539155e123">
+</th></tr></thead><tbody><tr><td id="d548168e123">
 
 **View visitor details**
 
@@ -60,7 +60,7 @@ The following details are displayed on the panel:
 -   Visit details like the date, time, location, and purpose
 **Note:** You can set the visibility of the details panel as persistent by selecting the expand details panel icon \(![image.visitor-expand-details-icon]\).
 
-</td></tr><tr><td id="d539155e161">
+</td></tr><tr><td id="d548168e161">
 
 **View other visitor states**
 
@@ -74,7 +74,7 @@ The following details are displayed on the panel:
     -   No Show
 
 
-</td></tr><tr><td id="d539155e196">
+</td></tr><tr><td id="d548168e196">
 
 **Select multiple visitors**
 
@@ -82,7 +82,7 @@ The following details are displayed on the panel:
 
 Use the `Command` or `Ctrl` key to select multiple visitors.You can perform actions like check-in, check-out, or print badges for all the selected visitors.
 
-</td></tr><tr><td id="d539155e213">
+</td></tr><tr><td id="d548168e213">
 
 **Complete pre-check tasks**
 
@@ -103,7 +103,7 @@ The First name and Last name are required.
 
 The visitor might have to provide a signature based on the configuration set by the admin.
 
-</td></tr><tr><td id="d539155e258">
+</td></tr><tr><td id="d548168e258">
 
 **Check-in a visitor**
 
@@ -120,7 +120,7 @@ Alternatively, you can drag the visitor card into the checked in visitors column
 
  You can undo a check-in by selecting **Undo Check-In** from the context menu in the details panel.
 
-</td></tr><tr><td id="d539155e292">
+</td></tr><tr><td id="d548168e292">
 
 **Start a break**
 
@@ -130,7 +130,7 @@ Alternatively, you can drag the visitor card into the checked in visitors column
 2.  On the details panel, from the context menu, select **Start break**.
  Visitors who are on break are displayed in the checked-out column.
 
-</td></tr><tr><td id="d539155e316">
+</td></tr><tr><td id="d548168e316">
 
 **End a break**
 
@@ -140,7 +140,7 @@ Alternatively, you can drag the visitor card into the checked in visitors column
 2.  On the details panel, from the context menu, select **End break**.
  Visitors who end their break are moved to the checked-in column.
 
-</td></tr><tr><td id="d539155e340">
+</td></tr><tr><td id="d548168e340">
 
 **Print visitor badges**
 
@@ -154,7 +154,7 @@ A badge with the visitor details is displayed in a new browser tab.
 3.  Print the badge by using your web browser's print options.
 
 
-</td></tr><tr><td id="d539155e366">
+</td></tr><tr><td id="d548168e366">
 
 **Check-out a visitor**
 
@@ -165,7 +165,7 @@ A badge with the visitor details is displayed in a new browser tab.
 
 Alternatively, you can drag the visitor card into the checked out visitors column.
 
-</td></tr><tr><td id="d539155e389">
+</td></tr><tr><td id="d548168e389">
 
 **Create a visit**
 

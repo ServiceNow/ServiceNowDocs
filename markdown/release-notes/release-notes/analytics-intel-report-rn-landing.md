@@ -12,6 +12,8 @@ reading_time_minutes: 1
 
 Platform Analytics has new and updated features in the Australia release.
 
+-   **[Now Assist in Platform Analytics release notes](now-assist-platform-analytics-rn.md)**  
+Now Assist in Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics. Now Assist in Platform Analytics applications were enhanced and updated in the Australia release.
 -   **[Performance Analytics release notes](performance-analytics-rn.md)**  
 The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Australia release.
 -   **[Platform Analytics experience release notes](platform-analytics-experience-rn.md)**  

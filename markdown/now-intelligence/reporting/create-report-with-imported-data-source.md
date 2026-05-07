@@ -42,7 +42,7 @@ Importing report data in this way is useful when you have information that is ma
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
@@ -105,7 +105,7 @@ Importing report data in this way is useful when you have information that is ma
 
     4.  Navigate to **All** &gt; **System Security** &gt; **Access Control \(ACL\)**.
 
-        The admin role with the elevated security\_admin role is required. If you are not an admin, consider passing the table name to a ServiceNow AI Platform administrator along with a request for the desired roles to have report\_view read permission.
+        The admin role with the elevated security\_admin role is required. If you're not an admin, consider passing the table name to a ServiceNow AI Platform administrator along with a request for the desired roles to have report\_view read permission.
 
     5.  Create report\_view ACLs for roles that you want to be able to read the report, as described in [Report\_view access control](../concept/report-view-access-control.md).
 

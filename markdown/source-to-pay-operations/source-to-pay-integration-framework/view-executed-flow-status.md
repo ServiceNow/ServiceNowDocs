@@ -25,7 +25,7 @@ Role required: admin
 
 2.  From the Workflow Studio home page, select the **Operations** tab and then select **Flows** tab.
 
-    ![View the execution status of a flow](../image/coupa-integration-execution-status.png "Execution status of the flows")
+    ![View the execution status of a flow](../../source-to-pay-operations/image/coupa-integration-execution-status.png "Execution status of the flows")
 
 
 ## Result

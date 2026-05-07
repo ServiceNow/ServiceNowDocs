@@ -33,7 +33,7 @@ For information about AI asset lifecycle process, see [AI asset lifecycle](ai-as
 
 To view AI assets by lifecycle stages, see [View AI assets by life-cycle stage](../task/view-ai-assets-lifecycle-stage.md)
 
-For information about Off-boarding and creating offboard requests for AI assets, see [Create offboarding requests for AI assets](../task/create-ai-asset-offboarding-request.md)
+For information about offboarding and creating offboard requests for AI assets, see [Create offboarding requests for AI assets](../task/create-ai-asset-offboarding-request.md)
 
 ![Playbooks on Configurations screen.](../image/aict-config-playbooks.png "Playbooks templates list")
 

@@ -6,8 +6,8 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2025-03-18"
+reading_time_minutes: 3
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
@@ -17,7 +17,7 @@ Add chat features to your chat assistant.
 
 ## Before you begin
 
-See [Manage an assistant chat experience](manage-assistant-chat-experience.md).
+See [Brand an assistant](brand-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 
@@ -31,13 +31,15 @@ By default, all chat features, except web search mode, are turned on.
 
 1.  **Allow web search** to let users switch to search the web directly from chat, enhancing access to external info.
 
-    ![Turn different chat features for your assistant on or off.](../image/NAinVA-chat-features-122025.png "Additional chat features")
+    **Note:** For premium chat, web search mode and web search fallback are dependent on one another. If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available, and can be turned on or off.
+
+    ![Turn different chat features for your assistant on or off.](../image/NAinVA-chat-features-0426.png "Additional chat features")
 
     Web search mode enables users to search the internet by selecting a globe icon within the chat window. The default web search provider, at the instance level, is Google Gemini.
 
     **Warning:**
 
-    Certain API features that process data via third-party providers may route traffic to a datacenter outside of your region or location for these API features. See [KB2596322](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2596322) for a list of third-party APIs. Please consider your organization's data policies before using this feature.
+    Certain API features that process data via third-party providers may route traffic to a data center outside of your region or location for these API features. See [KB2596322](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2596322) for a list of third-party APIs. Please consider your organization's data policies before using this feature.
 
     If the instance is self-hosted or regulated, the warning message won't be shown.
 
@@ -71,5 +73,5 @@ By default, all chat features, except web search mode, are turned on.
 
 ## What to do next
 
-See [Review chat assistant settings](review-assistant-settings.md).
+See [Manage an assistant chat experience](manage-assistant-chat-experience.md).
 

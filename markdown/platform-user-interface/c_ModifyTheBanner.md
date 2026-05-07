@@ -25,8 +25,6 @@ The DIV that contains the **glide.product.name** property is only shown if the p
 
 **Note:** The My Company record overrides the properties.
 
-![Classic environment banner.](../image/Banner.png "Banner")
-
 ## Window title
 
 These properties are used to set the window title as follows:

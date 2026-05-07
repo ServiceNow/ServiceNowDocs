@@ -6,8 +6,8 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-04-21"
+reading_time_minutes: 5
 breadcrumb: [Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -41,13 +41,11 @@ Grouping languages is optional but helps with organizing various language versio
 
 ## Primary and secondary model interactions
 
-To ensure consistency within a model group, the names of intents and entities in all secondary models are the same as the content in the primary model. New intents can only be created in a primary model. Creating an intent in a primary model adds the intent to all the secondary models within the model group, but without any utterances in them. New intents are disabled by default. New entities can also be created in secondary models for languages that support entities. Adding an entity in a primary model creates it across all secondary models within the model group, if valid.
-
-![Diagram for interaction between primary models, secondary models, and content.](../images/multilingual-model01.png "Interaction between primary models, secondary models, and content")
+To ensure consistency within a model group, the names of intents and entities in all secondary models are the same as the content in the primary model. New intents can only be created in a primary model. Creating an intent in a primary model adds the intent to all the secondary models within the model group, but without any utterances in them. New intents are inactive by default. New entities can also be created in secondary models for languages that support entities. Adding an entity in a primary model creates it across all secondary models within the model group, if valid.
 
 When you add an intent to a primary model, the intent is added to all of its secondary models. Every intent in a secondary model is mapped to its corresponding intent in the primary model. The mapping of intents ensures that any application that uses these intents can access all the secondary intents through their corresponding primary intents.
 
-When you delete an intent or entity in a primary model, its corresponding intents and entities are also deleted in its secondary models. Therefore, the secondary models must always follow the status of the primary model content. Although you can't delete intents in secondary models, you can disable them.
+When you delete an intent or entity in a primary model, its corresponding intents and entities are also deleted in its secondary models. Therefore, the secondary models follow the status of the primary model content. Although you can't delete intents in secondary models, you can deactivate them.
 
 For more information on intent interactions, see [Import primary model content to a secondary model](../task/import-primary-model-content-to-secondary-model.md).
 
@@ -57,7 +55,7 @@ Whenever you translate a model or add intents and entities to secondary models, 
 
 ![Models page in the NLU Workbench with secondary models that need reviewing.](../images/multilingual-model02.png "Viewing secondary models that need reviewing")
 
-If every intent in a secondary model is disabled, then the **Train** and **Try** buttons are also disabled in the model. However, even if only one intent is enabled in the model, then you can train and test the model. Ensure that some intents are enabled in your secondary models to translate them.
+If every intent in a secondary model is deactivated, then the **Train** and **Try** buttons are also deactivated in the model. However, even if only one intent is enabled in the model, then you can train and test the model. Ensure that some intents are enabled in your secondary models to translate them.
 
 **Note:** When training and testing, prediction scores for similar utterances across primary and secondary models can be different. The context comes across differently among languages due to inherent structural variations.
 
@@ -75,21 +73,8 @@ Following is a list of system behaviors you may encounter when you duplicate the
 -   All intents are duplicated. The duplicated intent maintains the same **Enabled** status as the original intent.
 -   When duplicating a primary model, you can duplicate a set of secondary models, or all of the secondary models along with it. This action creates a model group comprised of duplicated versions with the respective original models marked as the source models.
 -   When duplicating a model group, you can choose an existing secondary model to be the primary model for the duplicated group.
--   If you select a secondary model in an existing model group as a new primary model while duplicating the group, all the disabled entities are enabled for the duplicated version of the secondary model. The secondary model becomes the primary model in the new duplicated model group.
+-   If you select a secondary model in an existing model group as a new primary model while duplicating the group, all the deactivated entities are enabled for the duplicated version of the secondary model. The secondary model becomes the primary model in the new duplicated model group.
 -   If you duplicate a primary model without any secondary model, the duplicated version becomes a separate primary model.
 
 For more information, see [Duplicate an NLU model](../task/clone-nlu-model.md).
-
--   **[Model language grouping](../reference/model-language-grouping.md)**  
-Language grouping makes it easier to manage your multilingual Natural Language Understanding \(NLU\) models. You can review existing language groups and designate new language groups.
--   **[Translate a multilingual model](../task/translate-multilingual-model.md)**  
-Add a language to an existing NLU model by translating it. Use one of several translation options to add a secondary model in a supported language.
--   **[Enable or disable a secondary model intent](../task/enable-disable-secondary-model-intent.md)**  
-Enable and disable intents in your Natural Language Understanding \(NLU\) models to make them active or inactive. Disable intents while editors or admins edit, review, or update its content and translations.
--   **[Assign an NLU editor to a model](../task/assign-nlu-editor-to-model.md)**  
-Assign an editor to review your Natural Language Understanding \(NLU\) model translations and edit model content. Delegate the maintenance, testing, and optimization of model content to an editor.
--   **[Import primary model content to a secondary model](../task/import-primary-model-content-to-secondary-model.md)**  
-When content in your primary NLU model is updated, you can import the updates directly to secondary models.
-
-**Parent Topic:**[Natural Language Understanding](nlu-landing.md)
 

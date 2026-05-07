@@ -83,5 +83,3 @@ The **Try model** results also display thumbs-up and thumbs-down icons for you t
 -   To adjust the model's confidence threshold, use the **Settings** tab on the model's overview page. For more information, see [NLU model settings](../concept/nlu-model-settings.md).
 -   If you're satisfied with the results of your testing, [Publish your NLU model](publish-nlu-model.md).
 
-**Parent Topic:**[Build and train your model](../concept/managing-model-content.md)
-

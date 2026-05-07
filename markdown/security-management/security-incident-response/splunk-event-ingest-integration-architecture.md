@@ -85,7 +85,7 @@ The basic data flow is illustrated in the following figures. In each figure, you
 -   **[Copy Splunk Enterprise Event Ingestion profiles from one instance to another using export/import functionality](../task/export-and-import-splunk-event-profile-data.md)**  
 You can export and import Splunk Enterprise Event Ingestion profiles settings from one ServiceNow AI Platform instance to a different ServiceNow AI Platform instance.
 -   **[Copy an event profile for the Splunk Enterprise Event Ingestion integration](../task/splunk-event-ingest-copy-a-profile.md)**  
-Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
+Copy an existing profile and its associated settings instead of creating new profiles. If you're creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
 -   **[Set up ServiceNow Event Ingestion Integration add-on](../task/splunk-event-ingest-setup-prereqs.md)**  
 Install and set up the ServiceNow Event Ingestion Integration add-on in your Splunk enterprise console or Splunk Cloud instance.
 -   **[Using ServiceNow Event Ingestion Integration add-on](../task/use-v2-addon.md)**  

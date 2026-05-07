@@ -19,6 +19,8 @@ You can easily migrate common customizations and configurations for various feat
 
 **Important:** You should run the migration in your non-production instance. If the migration to SOW for ITSM works as expected in the non-production instance, you can move the migration changes to a production instance using an update set.
 
+Migrate from ITSM Agent Workspace 
+
 Perform the following steps in your non-production instance.
 
 1.  Install the Migration Utility for Service Operations Workspace application. See [Install the Migration Utility for Service Operations Workspace](../task/install-migration-utility-for-sow.md).

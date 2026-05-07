@@ -6,7 +6,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,17 +35,15 @@ Define the conditions that automatically trigger the CrowdStrike Falcon Insight 
 
     1.  Select the **Define Incident Criteria** option.
 
-    2.  To define the conditions, in the Filter Conditions section, select a field and its corresponding requirement.![Aautomation condition.](../image/falcon-insight-automation.png)
+    2.  To define the conditions, in the Filter Conditions section, select a field and its corresponding requirement.
 
-    3.  In the **New Criteria** field, enter the new criteria and then define the **OR** or the **AND** condition.![Automation condition and adding a new criteria.](../image/falcon-insight-automation-criteria.png)
+    3.  In the **New Criteria** field, enter the new criteria and then define the **OR** or the **AND** condition.
 
     **Approvals**
 
     To provide an extra level of control when you’re using the CrowdStrike Falcon Insight capabilities, select the **Require Approval** option. The approvals option in the profile configuration appears only for the Isolate Host and Remove Host Isolation capabilities.
 
     **Note:** The approval authority is assigned to the user with the sn\_si.admin role. You can also reassign this approval authority to an approval group. For more information, see [set up an approval group](create-approval-group.md).
-
-    ![Provide additional level of control using the approval option.](../image/falcon-insight-approval.png)
 
     **Additional Configuration**
 

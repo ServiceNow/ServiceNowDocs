@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 4
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -17,7 +17,7 @@ Improve record quality by enabling AI-assisted text refinement in the text field
 
 ## Before you begin
 
-The Refine record skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](configure-now-assist-for-spm.md).
+The Refine record skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
 
@@ -55,15 +55,15 @@ This task is explained using Strategic Planning Workspace as the example.
 
 7.  When you're finished refining the content, you can replace the existing content with generated content, provide feedback, or copy it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d145206e206">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d142561e190">
 
 Option
 
-</th><th align="left" id="d145206e209">
+</th><th align="left" id="d142561e193">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d145206e215">
+</th></tr></thead><tbody><tr><td id="d142561e199">
 
 **Provide feedback for the generated text**
 
@@ -71,7 +71,7 @@ Procedure
 
 If you think that the generated text was helpful, select the helpful icon \(![Helpful icon.](../images/icon-helpful-feedback.png)\). If you think that the generated text wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../images/icon-nt-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d145206e238">
+</td></tr><tr><td id="d142561e222">
 
 **Copy the text**
 
@@ -111,8 +111,6 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../images/icon-co
 
 
 [Exploring Now Assist for Strategic Portfolio Management \(SPM\)](../concept/exploring-now-assist-for-spm.md)
-
-[Configure Now Assist Admin features](configure-now-assist-for-spm.md)
 
 [Skill inputs for Now Assist for Strategic Portfolio Management \(SPM\)](../reference/skill-inputs-for-now-assist-for-spm.md)
 

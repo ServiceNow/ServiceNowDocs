@@ -7,7 +7,7 @@ product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -61,16 +61,13 @@ Microsoft implies both Microsoft OneDrive and Microsoft SharePoint.
 
         **Note:** To set up connection, you require the following delegated Microsoft Azure App permissions:
 
-        -   email
-        -   openid
-        -   profile
-        -   Files.ReadWrite
-        -   offline\_access
-        -   User.Read
-        -   User.ReadBasic.All
-        -   Sites.ReadWrite.All
-        In addition, you require Sites.Read.All permission. It allows the application to read content across SharePoint sites. This is needed to verify that the user has permission to access the document located in the specified SharePoint site URL, validate whether the user has provided a valid site url and has access to the site they are accessing.
-
+        -   openid: Enables secure user authentication through Microsoft’s identity platform, ensuring that access to the Policy Redlining application is verified and trusted.
+        -   profile: Provides access to the user’s basic profile information \(such as their name\). This information is used to personalize the redlining experience and display relevant user details within the interface.
+        -   Files.ReadWrite: Allows the application to create, read, and update any files the user has permission to access. This is essential for opening, modifying, and saving policy documents during the redlining process on behalf of the authenticated user.
+        -   offline\_access: Grants the ability to refresh access tokens even when the user is not actively logged in. This ensures continuous access to Microsoft resources without requiring frequent re-authentication.
+        -   User.Read: Allows the application to retrieve the signed-in user’s basic profile details. This is required for assigning or validating file permissions specific to that user during redlining activities.
+        -   Sites.Read.All: Allows the application to read content across SharePoint sites. This is needed to verify that the user has permission to access the document located in the specified SharePoint site URL, Validate if user has provided a valid site url, validate if user has access to the site they are accessing.
+        -   Sites.ReadWrite.All: Allows the application to read and write content across SharePoint sites. This is needed to create and update files in SharePoint document libraries. This is needed to verify that the user has permission to access the document located in the specified SharePoint site URL, Validate if user has provided a valid site url, validate if user has access to the site they are accessing.
     -   **Connection with Google Drive**
 
         To set up Google Drive as a cloud hosting service and to create or update the policy text document that resides in Google Drive, you must:

@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Use the Console pages, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Use the Console pages, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Sensors page
@@ -91,5 +91,5 @@ The Actions menu in the Sensor Information page lets you access the following ac
 
 ## What to do next
 
-See the [Discovery Sensor for Operational Technology \(OT\)](ot-discovery-sensor-landing.md) section for procedures you can do with Sensors.
+See the [Discovery Sensor for OT](ot-discovery-sensor-landing.md) section for procedures you can do with Sensors.
 

@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Shapes to create a modeling diagram, Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # ArchiMate shapes
@@ -68,7 +68,6 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |![Constraint](../../image/eaw-image/modeling/archimate-icon-constraint.png)|Constraint|
 |![Driver](../../image/eaw-image/modeling/archimate-icon-driver.png)|Driver|
 |![Goal](../../image/eaw-image/modeling/archimate-icon-goal.png)|Goal|
-|![Influence](../../image/eaw-image/modeling/archimate-icon-influence.png)|Influence|
 |![Meaning](../../image/eaw-image/modeling/archimate-icon-meaning.png)|Meaning|
 |![Outcome](../../image/eaw-image/modeling/archimate-icon-outcome.png)|Outcome|
 |![Principle](../../image/eaw-image/modeling/archimate-icon-pricnciple.png)|Principle|
@@ -78,7 +77,6 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 
 |Shape|Name|
 |-----|----|
-|![Distribution network](../../image/eaw-image/modeling/archimate-icon-distribution-network-box.png)|Distribution Network|
 |![Equipment](../../image/eaw-image/modeling/archimate-icon-equipment.png)|Equipment|
 |![Facility](../../image/eaw-image/modeling/archimate-icon-facility.png)|Facility|
 |![Material](../../image/eaw-image/modeling/archimate-icon-material.png)|Material|
@@ -99,7 +97,6 @@ You can also adjust the size of shapes by selecting a shape and then drag any of
 |![Infrastructure function](../../image/eaw-image/modeling/archimate-icon-infra-function.png)|Infrastructure Function|
 |![Infrastructure interface](../../image/eaw-image/modeling/archimate-icon-infra-interface.png)|Infrastructure Interface|
 |![Technology service](../../image/eaw-image/modeling/archimate-icon-infra-service.png)|Technology Service|
-|![Network](../../image/eaw-image/modeling/archimate-icon-technology-network.png)|Network|
 |![Network box](../../image/eaw-image/modeling/archimate-icon-technology-networkbox.png)|Network Box|
 |![Node](../../image/eaw-image/modeling/archimate-icon-node.png)|Node|
 |![System software](../../image/eaw-image/modeling/archimate-icon-system-software.png)|System Software|

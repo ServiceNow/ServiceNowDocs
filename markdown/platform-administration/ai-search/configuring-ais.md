@@ -92,6 +92,8 @@ For more information about using the guided setup interface, see [Using guided s
 
 -   **[Assign roles to AI Search administrators and users](../task/assign-ais-admin-role.md)**  
 Grant users the ais\_admin, ais\_external\_content, ais\_high\_security\_admin, and search\_application\_admin roles so they can configure and manage settings and content for AI Search and search applications.
+-   **[Activate the Platform Multimodal Service plugin](../task/activate-platform-multimodal-service-plugin.md)**  
+Enable automatic generation of searchable captions for images found in indexed attachments.
 -   **[Indexed sources in AI Search](indexed-sources-ais.md)**  
 Indexed sources designate ServiceNow AI Platform® tables and external document sets with alphanumeric text and string field content that you want to make searchable. AI Search ingests text and string fields from table records or external documents and stores their searchable alphanumeric content in its search index.
 -   **[Search sources in AI Search](search-sources-ais.md)**  

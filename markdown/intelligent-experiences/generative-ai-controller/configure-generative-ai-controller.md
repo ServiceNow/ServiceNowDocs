@@ -23,13 +23,12 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   OpenAI
 -   Google AI Studio
 -   Google Vertex AI
--   Aleph Alpha
 -   IBM watsonx
 -   Amazon Bedrock
 
 -   **[Configure API credentials](../concept/configuring-api-credentials-for-generative-ai-capabilities.md)**
 
-    Configure your large language model \(LLM\) credentials to use third-party integrations with OpenAI, Azure OpenAI, Google Cloud, Aleph Alpha, IBM watsonx, Amazon Bedrock, and generic models to control the third-party integration.
+    Configure your large language model \(LLM\) credentials to use third-party integrations with OpenAI, Azure OpenAI, Google Cloud, IBM watsonx, Amazon Bedrock, and generic models to control the third-party integration.
 
 -   **[Configure a generic LLM connector](configure-a-generic-llm-connector.md)**
 

@@ -49,5 +49,5 @@ Display key metrics and AI-generated insights from workplace data sources using 
 
 [Workplace Concierge agentic workflow](workplace-concierge-ai-agent.md)
 
-[Overview of Autonomous L1 Agent for Workplace Cases](implement-autonomous-l1-agent-for-workplace.md)
+[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
 

@@ -25,7 +25,7 @@ In base system topics, the read-only **ServiceNow Help** check box is selected. 
 
 When a user navigates to a UI page for which custom content exists, the custom content displays instead of the base system content.
 
-**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspaces](../../adoption-services/task/create-help-center-content.md).
+**Note:** Embedded help records are also used to create content for the Help Center within a configurable workspace. For more information, see [Create Help Center content for configurable workspace](../../adoption-services/task/create-help-center-content.md).
 
 ## Procedure
 
@@ -59,7 +59,7 @@ Page
 
 </td><td>
 
-The UI page this topic corresponds to. Typically, you do not change the page name.**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspaces](../../adoption-services/task/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
+The UI page this topic corresponds to. Typically, you do not change the page name.**Note:** If you are using the embedded help record to display in the Help Center, as described in [Create Help Center content for configurable workspace](../../adoption-services/task/create-help-center-content.md), enter the same value in the Name and Page fields, replacing spaces with underscores in the Page field.
 
 </td></tr><tr><td>
 

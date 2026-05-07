@@ -153,5 +153,4 @@ NLU Feedback Admin
 Data labelling \(NLU feedback\) Admin role - to manage data labelling across models also ability to optimize models
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install NLU Workbench - Advanced Features](../task/install-nlu-workbench-adv-features.md)
-
+</table>

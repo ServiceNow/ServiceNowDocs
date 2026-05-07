@@ -21,8 +21,8 @@ Create applications with help from agentic AI. For more information, see [Vibe c
 
 Create or open an application record.
 
--   Create: If creating an application directly, use [Guided App Creator](https://developer.servicenow.com/dev.do#!/learn/courses/rome/app_store_learnv2_buildmyfirstapp_rome_build_my_first_application/app_store_learnv2_buildmyfirstapp_rome_guided_app_creator_and_servicenow_studio/app_store_learnv2_buildmyfirstapp_rome_guided_app_creator_and_servicenow_studio_objectives) to create the application. Guided App Creater allows you to create tables from spreadsheets, roles, and security rules. Design options are also available.
--   Open: If developers do not have the admin role, the ServiceNow System Administrator needs to create the application and grant developers a delegated development role. Developers then use Studio to open the application for editing.
+-   Create: If creating an application directly, use [ServiceNow Studio](../../servicenow-studio/concept/servicenow-studio-landing.md) to create the application.
+-   Open: If developers do not have the admin role, the ServiceNow System Administrator needs to create the application and grant developers a delegated development role. Developers then use ServiceNow Studio to open the application for editing.
 
 **Note:** The application scope and table name are sometimes referred to as the internal names for these objects and cannot be changed once they are created. However, the application name and table label can be changed. Application users see the internal names in the URL only. If possible, internal names should always be consistent with what the user sees.
 

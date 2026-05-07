@@ -39,7 +39,7 @@ Install the Order Management application from the ServiceNow Store. This applica
 
 </td><td>
 
-Create product offerings and the associated product catalogs that can be used by Sales and Order Management agents for pre-sales activities, order capture, and post-sales engagement.
+Create product offerings and the associated product catalogs that can be used by Sales Customer Relationship Management \(Sales CRM\) agents for pre-sales activities, order capture, and post-sales engagement.
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Create product offerings and the associated product catalogs that can be used by
 
 </td><td>
 
-Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales and Order Management.
+Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings. Product pricing is used by your sales and order agents when creating opportunities, quotes, and sales orders in Sales CRM.
 
 </td></tr></tbody>
 </table>

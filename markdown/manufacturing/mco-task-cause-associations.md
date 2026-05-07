@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a product non-conformance case, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Create a root cause analysis, Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
 ---
 
 # Associating a task cause
@@ -73,5 +73,5 @@ Type of task cause.-   Possible
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Related lists for Non-conformance](mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Create a root cause analysis](mco-root-cause-analysis-task.md)
 

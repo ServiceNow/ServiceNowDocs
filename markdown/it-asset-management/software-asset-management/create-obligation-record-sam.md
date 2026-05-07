@@ -32,7 +32,7 @@ Recurring obligation tasks are automatically created from the obligation record.
 
 2.  Select **Software contracts**.
 
-3.  Select the active contract record.
+3.  Select an active contract record.
 
 4.  Select the **Obligations** tab.
 

@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Confluence Cloud spoke v1.2.6 is the latest version.
+Confluence Cloud spoke v2.0.1 is the latest version.
 
 ## Supported versions
 
@@ -33,8 +33,7 @@ This spoke was built for the Confluence Cloud REST API.
 
 ## Spoke requirements
 
--   Atlassian site admin account
--   OAuth 2.0 application and OAuth 2.0 token
+Atlassian site admin account
 
 ## Spoke dependencies
 
@@ -142,7 +141,7 @@ Remove Member From Group By Group ID
 
 Removes a user from the specified group.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
 User Management
 
@@ -153,6 +152,14 @@ Look up Group Memberships For User
 </td><td>
 
 Retrieves information about the groups that the user is a member of.
+
+</td></tr><tr><td>
+
+Report Personal Data
+
+</td><td>
+
+Reports a user’s personal data for the specified apps.
 
 </td></tr></tbody>
 </table>**Note:** This spoke has a Look up User action and Software Asset Management related actions only.

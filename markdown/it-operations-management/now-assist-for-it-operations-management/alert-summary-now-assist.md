@@ -30,5 +30,5 @@ Key features include:
 -   Availability of the analysis in the Alert form and Express List.
 -   Ability to refresh and regenerate data using card refresh.
 
-**Note:** Currently, Now Assist for ITOM only analyzes tag-based, CMDB, Log Analytics, Mixed, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
+**Note:** Currently, Now Assist for ITOM only supports tag-based, CMDB, Log Analytics, Mixed, Automated, and Network Traffic-based alert groups. For all other alert group types, it only analyzes the parent alert.
 

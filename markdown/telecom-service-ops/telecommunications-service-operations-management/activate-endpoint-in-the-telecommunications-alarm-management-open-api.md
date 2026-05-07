@@ -30,10 +30,14 @@ You activate the subscribed endpoints of the Telecommunications Alarm Management
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  On the **Connections** tab, select **Telecommunications Alarm Management Open API**.
+2.  Select the **Integrations** tab, then select **Connections**.
 
-3.  Open the endpoint record that you want to activate.
+3.  Switch the toggle to **Inbound**.
 
-4.  Select **Activate**.
+4.  Select **Telecommunications Alarm Management Open API**.
+
+5.  Open the endpoint record that you want to activate.
+
+6.  Select **Activate**.
 
 

@@ -8,7 +8,7 @@ classification: self-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Delegation

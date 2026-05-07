@@ -27,6 +27,7 @@ Build Agent can do the following:
 -   Convert plain language prompts into production-ready apps.
 -   Handle UI design, database schema, business logic, integrations, and testing automatically.
 -   Include audit trails, security controls, and governance for enterprise compliance.
+-   Build a custom AI agent, agentic workflow, or AI skill for the ServiceNow AI Platform.
 -   Integrates with Now Assist for Creator and App Engine for enterprise-grade workflows.
 
 ## Now Assist for Creator and using AI to build out apps

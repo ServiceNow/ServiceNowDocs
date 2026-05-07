@@ -29,11 +29,11 @@ See [Usage Insights](https://www.servicenow.com/docs/bundle/australia-now-intell
 
     Create custom events without code directly in your application using the Usage Insights page overlay. Use event descriptions to provide greater visibility and clarity on Usage Insights events.
 
--   **[Funnels.](https://www.servicenow.com/docs/access?context=create-funnel&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Access Funnels from Platform Analytics](https://www.servicenow.com/docs/access?context=create-funnel&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
 
     Access funnels you create in Usage Insights directly in the Platform Analytics UI to view this data along with your organization's other business metrics.
 
--   **[Dashboards.](https://www.servicenow.com/docs/access?context=uxa-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **[Customize Dashboards](https://www.servicenow.com/docs/access?context=uxa-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
 
     Customize dashboards or pages for Platform Analytics directly in Usage Insights.
 

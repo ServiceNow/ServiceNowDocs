@@ -16,8 +16,6 @@ Updates are available for the following Conversational Interfaces applications o
 
 -   **[Advanced Work Assignment \(AWA\) release notes](advanced-work-assignment-rn.md)**  
 The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assigns work items to your agents based on their availability, capacity, and, optionally, skills. AWA was enhanced and updated in the Australia release.
--   **[Now Assist in Virtual Agent release notes](now-assist-va-rn.md)**  
-The ServiceNow®  application &lt;describe main product benefits&gt;.  was enhanced and updated in the Australia release.
 -   **[Sidebar release notes](sidebar-rn.md)**  
 The ServiceNow® Sidebar application enables agents and subject matter experts to collaborate on user issues. Sidebar was enhanced and updated in the Australia release.
 -   **[Virtual Agent release notes](virtual-agent-rn.md)**  

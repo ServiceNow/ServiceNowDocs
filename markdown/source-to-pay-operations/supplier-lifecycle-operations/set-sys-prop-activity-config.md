@@ -17,7 +17,7 @@ Set the **sn\_supplier\_sp.allow\_all\_apps\_configuration** property to make ac
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_slm.admin
 
 ## About this task
 
@@ -27,7 +27,7 @@ If you set this system property to **true**, you can create or modify an activit
 
 1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Administration** &gt; **Properties**.
 
-2.  Select the check box for the **Allow "Activity Configurations" and "Filters" to be picked from all application scopes \(sn\_supplier\_sp.allow\_all\_apps\_configuration\)** property.![Selected check box for allowing "Activity Configurations" and "Filters" to be picked from all application scopes.](../image/set-property-configure-activity-configuration.png)
+2.  Select the check box for the **Allow "Activity Configurations" and "Filters" to be picked from all application scopes \(sn\_supplier\_sp.allow\_all\_apps\_configuration\)** property.
 
     By default, the check box for this property is deselected \(set to No\).
 

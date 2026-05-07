@@ -54,27 +54,27 @@ Specify a group of buckets into which you want to recategorize data.
 
 ### Before you begin
 
-Role required: pa\_data\_collector or admin
+Role required: pa\_data\_collector or higher
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Breakdowns** &gt; **Bucket Groups**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Enter a **Name** that clearly identifies the bucket group, like `Age Ranges in Days`.
 
-4.  Double-click **Insert a new row** to add a new bucket.
+4.  Double-tap **Insert a new row** to create a bucket.
 
-5.  Enter a **Name** for the first bucket, then press Enter or click the green check icon.
+5.  Enter a **Name** for the first bucket, then press Enter or tap the green check icon.
 
-6.  Double-click in the **Start** and **End** columns to enter the starting and ending values for the range.
+6.  Double-tap in the **Start** and **End** columns to enter the starting and ending values for the range.
 
     Records that match the end value are excluded from the bucket. Therefore, set the end value of one bucket and the start value of the next bucket to be the same. Records that exactly match that value are sorted into the bucket that has that value as the start value.
 
     **Warning:** If the end value of one bucket does not match the start value of the next bucket, you have a 'hole' where records are not sorted into any bucket. For example, if you have a bucket that ends at 20 and the next bucket starts at 21, records for which the script returns a value between 20.0000~ and 20.9999~ do not get sorted into any buckets.
 
-7.  Click **Submit** after all the bucket ranges have been defined.
+7.  Press **Submit** after all the bucket ranges have been defined.
 
 
 ### Incident Age Ranges bucket group
@@ -95,7 +95,7 @@ var days=function(x,y){return diff(x,y)/(24*60*60*1000);};
 days(current.opened_at, score_end);
 ```
 
-You create a new bucket group named Incident Age Ranges \(Days\). In this bucket group, you define a set of buckets that start at the desired date and end at the beginning of the next bucket. For example, the 06–30 Days bucket starts at 6 and ends at 31:
+You create a bucket group named Incident Age Ranges \(Days\). In this bucket group, you define a set of buckets that start at the desired date and end at the beginning of the next bucket. For example, the 06–30 Days bucket starts at 6 and ends at 31:
 
 ![The 06–30 day bucket](../image/bucket.png)
 
@@ -105,7 +105,7 @@ At the end, you have a bucket group with five buckets corresponding to the age r
 
 ![Bucket groups](../image/BucketGroups.png)
 
-The Script Mapping example shows a breakdown that uses this bucket group and script.
+**Note:** The Script Mapping example shows a breakdown that uses this bucket group and script.
 
 ### What to do next
 

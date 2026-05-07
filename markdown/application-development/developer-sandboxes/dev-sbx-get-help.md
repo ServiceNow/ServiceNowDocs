@@ -6,7 +6,7 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-14"
 reading_time_minutes: 1
 breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -23,7 +23,7 @@ How to get help from your admin
 
 ## Helpful resources
 
-Some ServiceNow resources that can provide you with helpful information are:
+ServiceNow resources that can provide you with helpful information include:
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-partner.svg) Developer Sandboxes: FAQ and Getting Started Guide**
 

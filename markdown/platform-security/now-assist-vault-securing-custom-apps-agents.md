@@ -1,5 +1,5 @@
 ---
-title: Securing custom apps with Vault agents agentic workflow
+title: Securing custom apps with the Vault agents agentic workflow
 description: Use the securing custom apps with Vault agents agentic workflow to get recommended data classifications and available protections for a custom application.
 locale: en-US
 release: australia
@@ -7,10 +7,10 @@ topic_type: concept
 last_updated: "2026-03-23"
 reading_time_minutes: 1
 keywords: [Now Assist, agentic AI]
-breadcrumb: [Use agentic AI, Now Assist for Vault]
+breadcrumb: [Use agentic AI, ServiceNow Vault]
 ---
 
-# Securing custom apps with Vault agents agentic workflow
+# Securing custom apps with the Vault agents agentic workflow
 
 Use the securing custom apps with Vault agents agentic workflow to get recommended data classifications and available protections for a custom application.
 

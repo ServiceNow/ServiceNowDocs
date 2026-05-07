@@ -1,20 +1,20 @@
 ---
 title: Add an IDoc entity to a model operation
-description: Specify the IDoc entity that a Zero Copy Connector for ERP model uses for an update or create operation.
+description: Specify the IDoc entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for an update or create operation.
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an IDoc entity to a model operation
 
-Specify the IDoc entity that a Zero Copy Connector for ERP model uses for an update or create operation.
+Specify the IDoc entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for an update or create operation.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Explore the API for interacting with Zero Copy Connector for ERP models. For det
 
 3.  Select the model that you want to add an IDoc operation entity to.
 
-    If you need to create a model, see [Create a new ERP model](erpc-add-new-data-model.md).
+    If you need to create a model, see [Create a model](erpc-add-new-data-model.md).
 
 4.  Select the **Manage model** button.
 
@@ -43,8 +43,6 @@ Explore the API for interacting with Zero Copy Connector for ERP models. For det
 7.  Select **Select entity**.
 
 8.  In **Select type**, select **IDoc**.
-
-    The drop-down list in the **Select type** field only displays the types supported by the ERP system's software version specified on the model record. For example, if **SAP SuccessFactors Cloud** is set in the **ERP software** field for the model, the only entity type available is OData.
 
 9.  In **Select message**, enter an IDoc message type, for example ORDERS.
 

@@ -1,6 +1,6 @@
 ---
 title: Enterprise Service Management Foundation
-description: Enterprise Service Management Foundation combines the Core Business Suite and the AI-native IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
+description: Enterprise Service Management Foundation combines the Core Business Suite and the Simplified IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
 locale: en-US
 release: australia
 topic_type: concept
@@ -12,16 +12,16 @@ breadcrumb: [Solutions]
 
 # Enterprise Service Management Foundation
 
-Enterprise Service Management Foundation combines the Core Business Suite and the AI-native IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
+Enterprise Service Management Foundation combines the Core Business Suite and the Simplified IT Service Management to deliver unified service experiences across IT, HR, finance, legal, workplace services, and procurement. The integrated solution streamlines service delivery and reduces administrative overhead for growing organizations.
 
-## Combined benefits of integrating Core Business Suite with AI-native IT Service Management
+## Combined benefits of integrating Core Business Suite with Simplified IT Service Management
 
-Enterprise Service Management Foundation \(ESM Foundation\) brings together the Core Business Suite and the AI-native IT Service Management to create a comprehensive service delivery platform.
+Enterprise Service Management Foundation \(ESM Foundation\) brings together the Core Business Suite and the Simplified IT Service Management to create a comprehensive service delivery platform.
 
 The integration eliminates service silos and provides employees with a unified experience for all their service requests, while enabling organizations to leverage AI-assisted automation and intelligent routing across service domains.
 
-|Feature|Core Business Suite only|AI-native IT Service Management only|ESM Foundation \(both together\)|
-|-------|------------------------|------------------------------------|--------------------------------|
+|Feature|Core Business Suite only|Simplified IT Service Management only|ESM Foundation \(both together\)|
+|-------|------------------------|-------------------------------------|--------------------------------|
 |Unified employee portal experience|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
 |Cross-departmental request routing|![Yes](../../reuse/images/icon-check-mark-green.png)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
 |Multi-channel support \(chat, email\)|![No](../../reuse/images/icon-error-red-x.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|![Yes](../../reuse/images/icon-check-mark-green.png)|
@@ -29,7 +29,7 @@ The integration eliminates service silos and provides employees with a unified e
 
 ## Workflow for ESM Foundation
 
-Using Core Business Suite with AI-native IT Service Management together provides the following benefits:
+Using Core Business Suite with Simplified IT Service Management together provides the following benefits:
 
 -   Streamline service delivery across IT, HR, finance, legal, workplace services, and procurement on a unified platform.
 -   Leverage AI-assisted automation for incident triage, resolution recommendations, and intelligent routing.
@@ -139,9 +139,9 @@ Source-to-Pay Operations
 End-to-end procurement management with supplier portal content integration.
 
 </td></tr></tbody>
-</table>## AI-native IT Service Management capabilities
+</table>## Simplified IT Service Management capabilities
 
-AI-native IT Service Management provides request management support across the entire service delivery lifecycle, enhancing administrator, employee, and fulfiller experiences.
+Simplified IT Service Management provides request management support across the entire service delivery lifecycle, enhancing administrator, employee, and fulfiller experiences.
 
 <table id="table_ai_native_capabilities"><thead><tr><th>
 
@@ -241,7 +241,7 @@ Data-driven decision making with comprehensive service visibility.
 ESM Foundation plugin is available in the ServiceNow® Store. The following capabilities are included in the Enterprise Service Management Foundation solution.
 
 1.  Core Business Suite Foundation - provides unified service delivery across HR, legal, workplace services, finance, health and safety, and procurement
-2.  AI-native IT Service Management - enables AI-powered IT service management with intelligent automation and assistance
+2.  Simplified IT Service Management - enables AI-powered IT service management with intelligent automation and assistance
 3.  Employee Center - provides unified portal experience for all employee services
 4.  Now Assist for ITSM - delivers AI-powered skills and agentic workflows for service automation
 5.  Virtual Agent - enables conversational AI support and guided interactions
@@ -257,7 +257,7 @@ Get started with ESM Foundation by completing the following implementation and c
 
 1.  Install Now Assist for Setup to enable modular admin home dashboard access
 2.  Install and configure Core Business Suite with default configurations for all required business units
-3.  Install AI-native IT Service Management with guided setup and default presets
+3.  Install Simplified IT Service Management with guided setup and default presets
 4.  Configure Employee Center portal to provide unified access to all service domains
 5.  Set up Service Catalog items and request forms for each business unit \(HR, legal, workplace services, finance, health and safety, procurement.
 6.  Configure automated routing rules and assignment groups for cross-departmental service delivery

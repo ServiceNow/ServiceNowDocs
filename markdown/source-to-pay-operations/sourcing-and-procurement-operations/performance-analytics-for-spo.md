@@ -37,6 +37,8 @@ Visually analyze how your team is performing on sourcing requests, purchase requ
 **Related topics**  
 
 
+[Shopping Hub](shopping-hub-overview.md)
+
 [My purchases on Shopping Hub](my-purchases.md)
 
 [Shopping Hub Mobile](shoppinghub-mobile.md)

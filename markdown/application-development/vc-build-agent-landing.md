@@ -31,7 +31,7 @@ Build Agent is not a one-shot vibe coding tool, but enables enterprise-grade AI-
 -   Better documentation of existing applications through automated documentation
 -   Increased developer productivity across skill levels
 -   Reduction in overall development cost
--   Automated testing with ATF test suite generation
+-   Automated testing with Automated Test Framework \(ATF\) test suite generation and execution
 
 ## Additional use cases
 
@@ -45,6 +45,9 @@ Some sample use cases for app development with Build Agent include the following
 -   Building a mobile-first experience
 -   Training new developers on the ServiceNow AI Platform
 -   Extending existing applications
+-   Designing agentic workflows that chain actions across ServiceNow tables, approvals, and integrations
+-   Creating custom AI agents tailored to your organization's specific workflows, such as service desk, HR, or IT operations
+-   Generating skills that extend Now Assist with domain-specific capabilities
 
 ## Accessing Build Agent
 
@@ -56,6 +59,8 @@ You can access Build Agent in both ServiceNow Studio and the ServiceNow IDE.
 Use Build Agent on the ServiceNow AI Platform to vibe code and create apps by executing complex configuration and development tasks through conversational prompts. This approach simplifies editing and creating ServiceNow applications and metadata such as tables, relationships, and access controls, without manual navigation.
 -   **[Build Agent and ServiceNow AI Platform tools](vc-build-agent-studio-vs-ide.md)**  
 Compare how Build Agent behaves in ServiceNow Studio \(UI-first, declarative workflows\) versus the ServiceNow IDE \(code-first, autonomous full-stack development\), so you can choose the right environment for your task and audience.
+-   **[Creating custom agentic workflows, in-app agents, and skills with Build Agent](vc-build-agents-in-ba.md)**  
+Use Build Agent to create and deploy custom agentic workflows, AI agents, and skills that add agentic experiences to your ServiceNow custom applications, supported by the built-in governance framework.
 -   **[Limitations of AI-assisted app generation with Build Agent](vc-build-agent-limitations.md)**  
 Build Agent accelerates AI-assisted app development, but it also has some limitations that you should understand before using it. These constraints span feature coverage, platform compatibility, and governance requirements, all of which affect how and when you can use the tool effectively in vibe coding workflows.
 -   **[Vibe-coded app refinement in ServiceNow Studio](vc-refine-sns.md)**  

@@ -17,7 +17,7 @@ Create and configure the document template that enables you to collect e-signatu
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_slm.admin
 
 ## About this task
 

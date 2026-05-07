@@ -139,7 +139,7 @@ POST
 [https://pan.dev/prisma-cloud/api/cspm/post-alerts/](https://pan.dev/prisma-cloud/api/cspm/post-alerts/)
 
 </td></tr></tbody>
-</table>For Prisma Comprehension Alert integration, the filters in the above POST body must be replaced as follows:
+</table>For Prisma Comprehensive Alert integration, the filters in the above POST body must be replaced as follows:
 
 ```
 "filters": [

@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Creating a universal request from an HR case, Universal Request for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating a universal request, Universal Request for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure field mappings
@@ -17,7 +17,7 @@ Map fields to copy the primary details from an HR case to a universal request \(
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_uni\_req.universal\_request\_write
 
 ## Procedure
 

@@ -24,3 +24,8 @@ To enable on-call scheduling for alerts, first incorporate the Alert table \[em\
 
 Use the Teams menu \(![Teams icon](../image/icon-sow-itom-teams.png)\) in Service Operations Workspace to view all teams. Select a team card to view and manage a team's schedule, define escalation policies, and team preferences for the selected shift. This feature verifies that your team knows who is on call, is accountable, and is confident that critical alerts or incidents are acknowledged. For information on creating a shift, see [Create on-call shift for your team](https://www.servicenow.com/docs/access?context=on-call-scheduling-in-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
 
+-   **[Add alert table to enable on-call scheduling for Service Operations Workspace for ITOM](../task/add-alert-table-oncall.md)**  
+Enable on-call scheduling by incorporating the Alert table \[em\_alert\] into the Trigger Rule Table Config list. This allows for creating shifts and implementing escalation triggers and policies, ensuring teams can promptly respond to alerts and maintain operational continuity.
+
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](configure-sow-itom.md)
+

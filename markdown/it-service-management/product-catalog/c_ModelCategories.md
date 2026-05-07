@@ -17,8 +17,6 @@ Model categories associate CI classes with asset classes. Model categories are p
 
 The model category configuration determines if the ServiceNow platform creates an asset from a CI, and, if so, what class of asset. Asset classes in the base system are **Hardware**, **Software License**, and **Consumable**. You can associate a model category to many models and a model to many model categories. For example, a specific model of a computer can be a **Computer** and a **Server**.
 
-![Models diagram](../image/ModelsDiagram.png "Models diagram")
-
 Any item that is provided as a service or sold to your customer is tracked as an Install Base Item \(IBI\). The Model category table associates Asset class, CI class, and Install Base Item \(IBI\) class.
 
 **Note:** The Install Base Item class field is available on the Model category form only when the Customer Service Install Base Management \[com.snc.install\_base\] plugin is installed. Currently, only the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] is supported when the Healthcare and Life Sciences Service Management Core application is installed. For more details, see [Medical device install base item table](https://www.servicenow.com/docs/access?context=hcls-clinical-device-ib-item&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US). When an IBI class is created, it associates with an asset when the asset exists, otherwise an asset is created.

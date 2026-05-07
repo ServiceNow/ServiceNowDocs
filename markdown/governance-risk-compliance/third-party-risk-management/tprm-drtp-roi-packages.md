@@ -22,7 +22,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and then create an Excel download request by selecting **New**.
 

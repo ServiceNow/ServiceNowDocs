@@ -30,7 +30,7 @@ Role required: admin
 4.  Open the Notification Action form and choose between the following options to reach the Notification Action form:
 
     -   If there are no existing notification actions under Notification Actions related list, do the following.
-        1.  Click **New Provider Action** under Notification Actions related list.
+        1.  Select **New Provider Action** under Notification Actions related list.
         2.  Select the type of notification action you would like to create from the Notification Action wizard.
 
             **Note:** Scriptable Action, Flow Action and Virtual Agent are the only types of notification actions available.
@@ -48,7 +48,7 @@ Role required: admin
     |Active|Option to activate the actionable prompt record.|
     |Script|Script to implement the actionable notification.|
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
 **Parent Topic:**[Create provider notification](../concept/create-provider-notification-using.md)

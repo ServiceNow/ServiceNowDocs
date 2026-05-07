@@ -1,19 +1,20 @@
 ---
 title: Product Catalog Management and Pricing Management release notes
-description: The ServiceNow Sales and Order Management applications include the ServiceNow Product Catalog Management and ServiceNow Pricing Management features, which enable you to create and manage the product offerings, catalogs, pricing, and discounting strategies used in your organization. These foundational features were enhanced and updated in the Australia release.
+description: The ServiceNow Sales CRM applications include the ServiceNow Product Catalog Management and ServiceNow Pricing Management features, which enable you to create and manage the product offerings, catalogs, pricing, and discounting strategies used in your organization. These foundational features were enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-04-21"
+reading_time_minutes: 5
 ---
 
 # Product Catalog Management and Pricing Management release notes
 
-The ServiceNow® Sales and Order Management applications include the ServiceNow® Product Catalog Management and ServiceNow® Pricing Management features, which enable you to create and manage the product offerings, catalogs, pricing, and discounting strategies used in your organization. These foundational features were enhanced and updated in the Australia release.
+The ServiceNow® Sales CRM applications include the ServiceNow® Product Catalog Management and ServiceNow® Pricing Management features, which enable you to create and manage the product offerings, catalogs, pricing, and discounting strategies used in your organization. These foundational features were enhanced and updated in the Australia release.
 
 ## Product Catalog Management and Pricing Management highlights for the Australia release
 
+-   In the Sales CRM Pricing API, support pricing requests using custom external IDs or codes for objects such as product offerings, price lists, and unit of measure instead of ServiceNow sys\_ids.
 -   Support pricing calculations for renewals of products with price and quantity ramps.
 -   Provide visibility into how the final price for a derived product is determined using adjustment records.
 -   Set up pricing floor and ceiling controls for product offerings to keep pricing within acceptable ranges.
@@ -35,11 +36,19 @@ Pricing Management v16.0.0 provides a default pricing plan that includes changes
     Create product families to provide hierarchical classification similar to category trees. For example, you can use product families to roll up or aggregate measurable items, such as revenue forecasts for reporting or business insights.
 
 
+-   **[Support manual pricing adjustments in the Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+
+    Pass manual pricing adjustments as part of a pricing request payload using the Pricing API. External systems can include adjustment values directly in a pricing run, rather than fetch manual adjustments from the pricing database when running pricing calculations.
+
+-   **[Support external IDs in the Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+
+    Submit pricing requests that use custom external IDs or codes to reference objects from external systems, such as product offerings, price lists, and cost books. Set a request-level flag that indicates external IDs are to be used for these objects rather than sys\_ids. For additional information, see [External ID support in Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=external-ids-pricingapi&version=australia&pubname=australia-order-management&ft:locale=en-US).
+
 -   **[Renewal pricing for products with price and quantity ramps](https://www.servicenow.com/docs/access?context=defining-products-with-ramps&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
     Calculate renewal pricing for products with price and quantity ramps, using per year, per term, and price only uplift calculation methods.
 
--   **Derived pricing support for sold products**
+-   **[Derived pricing support for sold products](https://www.servicenow.com/docs/access?context=configuring-related-product-pricing&version=australia&pubname=australia-order-management&ft:locale=en-US)**
     -   Use the `DerivedProductPriceExtensionPoint` extension to determine whether a source line for a quote or sold product and a target line are pairs.
     -   Use the `getAccountLevelDerivedPricedProductsLookupData(pricingEngineContext)` method to control the records scanned by the pricing engine to determine account-level derived prices for sold products.
     -   The pricing engine does the following:
@@ -82,13 +91,13 @@ Pricing Management v16.0.0 provides a default pricing plan that includes changes
 
 ## Activation information
 
-The Product Catalog Management and Pricing Management features are included with Sales and Order Management store applications and don’t need activation. Depending on your entitlements, you can install the Product and Pricing Rules application for pricing and product eligibility matrixes from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+The Product Catalog Management and Pricing Management features are included with Sales Customer Relationship Management store applications and don’t need activation. Depending on your entitlements, you can install the Product and Pricing Rules application for pricing and product eligibility matrixes from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Related ServiceNow applications and features
 
 -   **[CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales and Order Management transactions such as quotes and orders.
+    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions such as quotes and orders.
 
 -   **[Quote Management](https://www.servicenow.com/docs/access?context=quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
@@ -99,5 +108,5 @@ The Product Catalog Management and Pricing Management features are included with
     The Sales Agreement Management application captures the scope and conditions from a quote for future sales transactions over a specified period between a buyer and a seller.​
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

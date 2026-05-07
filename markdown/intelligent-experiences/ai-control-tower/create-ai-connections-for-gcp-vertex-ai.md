@@ -28,7 +28,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **GCP Vertex AI** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
     Review setup instructions page displays
 
@@ -36,7 +36,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 6.  Check the option **I have read the setup instructions**.
 
-7.  Click **Continue**.
+7.  Select **Continue**.
 
 8.  Create **X.509** certificate.
 
@@ -46,13 +46,13 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 11. Enter the **Key store password**.
 
-12. Click **+Add file**.
+12. Select **+Add file**.
 
 13. Select the JKS file.
 
 14. Select **Upload** to upload the JKS file.
 
-15. Click **Save**.
+15. Select**Save**.
 
     The JKS file is added.
 
@@ -76,15 +76,15 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This field is needed only if you're looking to discover agents related to one organization. This is valid only if the service account email has organization level access.
 
-    7.  Click **Create and test connection**.
+    7.  Select **Create and test connection**.
 
-    8.  Click **Continue**.
+    8.  Select **Continue**.
 
 18. Configure import schedule
 
-    1.  Ensure that both the parent scheduled jobs, Discovery and Execution are active as they are shipped out inactive.
+    1.  Promote that both the parent scheduled jobs, Discovery and Execution are active as they are shipped out inactive.
 
-        **Note:** Ensure to execute the Discovery scheduled job first.
+        **Note:** promote to execute the Discovery scheduled job first.
 
     2.  Set the run frequency.
 
@@ -92,12 +92,12 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Click **Continue**.
+    4.  Select **Continue**.
 
-    5.  Click **View all connections** to view the newly created connection.
+    5.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-AI connection is created for GCP Vertex AI.
+An AI connection is created for GCP Vertex AI.
 

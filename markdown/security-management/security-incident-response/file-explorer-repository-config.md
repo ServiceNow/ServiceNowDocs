@@ -23,7 +23,7 @@ Role required: sn\_msi.workspace\_admin
 
 1.  Navigate to **All** &gt; **Major Security Incident** &gt; **File Explorer** &gt; **File Repository Configuration**.
 
-2.  Fill the following fields as described in the following table:
+2.  On the form, fill in the fields.
 
 <table id="table_xcc_rjh_zpb"><thead><tr><th>
 
@@ -47,7 +47,7 @@ Provider
 
 </td><td>
 
-Name of the provider that is the third-party file hosting repository provider. For example,Microsoft SharePoint.
+Name of the provider that is the third-party file hosting repository provider. For example, Microsoft SharePoint.
 
 </td></tr><tr><td colspan="2">
 
@@ -88,17 +88,13 @@ Select the File Explorer REST tenant record. For more information on the tenant 
 </td></tr></tbody>
 </table>3.  Select **Save**.
 
-4.  Click **Test Connection** tab to test the connection and validate the file repository drive configuration properties.
+4.  Select **Test Connection** tab to test the connection and validate the file repository drive configuration properties.
 
     **Note:** Before **Activating** the file repository, make sure that the corresponding document library at Microsoft SharePoint doesn't have any folder or file data.
 
-5.  Click **Activate** to activate the file repository.
-
-    ![File Repository Drive](../image/file-explorer-drive-config.png)
+5.  Select **Activate** to activate the file repository.
 
 6.  Select the **Troubleshooting** check box to verify the file repository **Execution Details** and verify the **Fetch State** is complete and make sure that the Microsoft SharePoint Drive Subscriptions is created and state is complete.
-
-    ![File explorer execution details](../image/file-exp-drive-execution-details.png)
 
     **Note:** Using the **Test Connection** button, either MSI Administrator or MSI Manager can only validate the file repository configuration.
 

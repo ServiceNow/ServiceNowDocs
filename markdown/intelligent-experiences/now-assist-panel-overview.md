@@ -34,7 +34,7 @@ With the Now Assist panel standard chat, you can get assistance from generative 
 -   **[Enhanced chat](now-assist-panel-enhanced.md)**  
 Now Assist panel enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Use Now Assist panel enhanced chat to improve your productivity and efficiency by leveraging generative AI to perform tasks such as summarize a chat, case, or incident, request help, generate resolution notes, among others.
 -   **[Premium chat](now-assist-panel-premium.md)**  
-Now Assist panel premium chat provides a full-featured conversational AI experience that combines generative AI chat skills with advanced capabilities to speed up issue resolution. Premium chat is the default experience for new installations and upgrades.
+Now Assist panel premium chat is an AI chat experience built into your ServiceNow environment that lets you ask questions, get answers from your organization's knowledge, and take action on records — all in one place. It supports file uploads, web search, and multi-step agentic tasks, so you can handle more complex requests without leaving the panel.
 
 **Parent Topic:**[Now Assist Experiences](now-assist-experiences.md)
 

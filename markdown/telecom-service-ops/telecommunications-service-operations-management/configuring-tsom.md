@@ -31,7 +31,7 @@ Telecommunications Service Operations Management \(TSOM\) requires configuring m
     |Service Graph Connector for VeloCloud|sn\_tsom\_vcloud\_connector|Telecom Visibility|
 
 2.  Enable alarm ingestion: Activate the Telecommunications API notifications and set up topic subscriptions to receive alarms from external systems. For more information, see [Configuring Telecommunications API notifications](configuring-telecommunications-api-notifications.md).
-3.  Set up visibility or Event Management by following the appropriate setup wizards. See [Set up Telecom Visibility](../task/configuring-tsom-visibility.md) and [Fault Management: Events and alerts](fault-management-events-and-alerts.md).
+3.  Set up visibility or Event Management by following the appropriate setup wizards. See [Configure Telecom Visibility](../task/configuring-tsom-visibility.md) and [Fault Management: Events and alerts](fault-management-events-and-alerts.md).
 
 Each step is modular and can be configured based on your environment and available integrations.
 

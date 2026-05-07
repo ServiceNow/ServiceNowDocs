@@ -6,8 +6,8 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2025-03-18"
+reading_time_minutes: 7
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
 
@@ -25,11 +25,12 @@ Role required: virtual\_agent\_admin or admin
 
 When editing a chat assistant, actions may differ.
 
-|Assistant type|Activate|Deactivate|Edit|Test|Delete|
-|--------------|--------|----------|----|----|------|
+|Default assistants|Activate|Deactivate|Edit|Test|Delete|
+|------------------|--------|----------|----|----|------|
 |Now Assist in Virtual Agent \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist panel - Platform \(default\)|Yes|Yes|Yes \(except for name and description\)|Yes|No|
 |Now Assist panel - Developer|Yes|Yes|Yes \(with limited configuration\)|Yes|No|
+|Employee Slate assistant \(default\)|Yes|Yes|Yes|Yes|No|
 |Now Assist Voice Deployment \(default\)|Yes|Yes|Yes|No|No|
 
 ## Procedure
@@ -54,12 +55,12 @@ When editing a chat assistant, actions may differ.
     -   Additional chat features: web search mode, response streaming, document uploads, closed chats, and voice input \(for Now Assist panel Platform assistant\).
 3.  From the Overview page, select the appropriate button or link to make your edits.
 
-    ![Overview page when editing an assistant.](../image/NAinVA-edit-overview-122025.png "Overview page when editing an assistant") ![]( "Overview page when editing an assistant")
+    ![Overview page when editing an assistant.](../image/NAinVA-edit-overview-122025.png "Overview page when editing an assistant")
 
     The main action buttons include:
 
     -   **Save**: Saves updates made to the assistant configuration.
-    -   **Test assistant**: Test panel is an overlay. At the moment, voice assistants can’t be tested.
+    -   **Test assistant**: Test panel is an overlay. For more information about testing a chat assistant, see [Test a chat assistant](test-assistant.md).
     -   **Activate/Deactivate**: Turn on or off an assistant. One or more display experiences must be selected to activate an assistant.
     1.  To edit chat features, select the **Edit chat features** link. The **Settings** &gt; **Additional chat features** page is displayed. For more information about web search mode, response streaming, document uploads, closed chats and voice input, see [Enable additional chat features](additional-chat-features.md).
     2.  Customize assistant settings by selecting **Go to settings** link. For more information, see [Create a chat assistant](create-assistant.md).
@@ -74,9 +75,9 @@ When editing a chat assistant, actions may differ.
     -   In **Knowledge Graphs**, edit your Knowledge Graph schema to represent semantic relationships in your data. For more information, see [Add a Knowledge Graph schema to a chat assistant](add-kg-schema-assistant.md).
     -   In **Asset types**, add assets or migrate NLU topics. For more information, see [Add assets to a chat assistant](add-assets.md).
     -   In **Asset visibility**, all assets that are assigned to the assistant are shown.
-        -   Discoverable: The asset can be matched to the user utterances.
-        -   Visible: The asset is visible to the end user when **Show me everything** is selected.
-        -   Promoted: Promoted assets are shown on the assistant as the top welcome pill buttons when the user accesses the assistant. The maximum number of promoted assets is 6.
+        -   Discoverable: Discoverable assets can be found and used by your assistant when they match what a user says.
+        -   Visible: Visible assets appear when users select **Show me everything** in the assistant.
+        -   Promoted: Promoted assets give users quick access to your most helpful options. Features up to 6 at the start of every chat.
             -   The number of manually promoted assets is shown.
             -   The assets that have been manually promoted are shown, including asset name, asset description, asset type, and the condition label.
             -   The manually promoted assets can be reordered.
@@ -92,7 +93,8 @@ When editing a chat assistant, actions may differ.
 
     -   In **AI agent support**, you can prioritize AI agents during skills discovery. For more information, see [Use agentic support for a chat assistant](use-agentic-support.md).
     -   In **Display experiences**, you can select at least one portal, or integrate with your preferred messaging channels, to display your assistant. For more information, see [Display your chat assistant on a portal, channel, or mobile app](display-assistant-portal-channel.md).
-    -   In **Branding**, the option selected only applies to the standard chat experience. For more information, see [Brand an assistant](brand-assistant.md).
+    -   In **Branding**, configure branding for standard, enhanced, or premium chat experiences. For more information, see [Brand an assistant](brand-assistant.md).
+    -   In **Chat features**, by default, all chat experiences except web search, are turned on. For more information, see [Enable additional chat features](additional-chat-features.md).
     -   In **Chat experience**, you can edit your greeting and closing messages, and fallback options. For more information, see [Manage an assistant chat experience](manage-assistant-chat-experience.md).
-    -   In **Additional chat experience**, by default, all chat experiences except web search, are turned on. For more information, see [Enable additional chat features](additional-chat-features.md).
+    -   In **Response feedback**, when a user rates a response, a response feedback form appears. Configure the options so that users can share feedback regarding what worked about the response, or what needs improvement. For more information, see [Manage response feedback](manage-sentiment-survey.md).
 

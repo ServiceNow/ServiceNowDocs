@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -97,6 +97,4 @@ In this example procedure, you add an NLU editor to a secondary model that needs
 Assign more editors to the model, if necessary. You can assign up to four editors to a model at one time. To add more editors, or remove editors, repeat the above procedure.
 
 As an NLU admin, ensure that your editors have what they need to properly review and edit models.
-
-**Parent Topic:**[Multilingual model management](../concept/multilingual-model-managent.md)
 

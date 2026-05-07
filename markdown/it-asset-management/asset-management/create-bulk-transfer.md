@@ -7,8 +7,8 @@ product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+reading_time_minutes: 2
+breadcrumb: [Transfer order tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Perform bulk updates for transfer order lines
@@ -54,26 +54,5 @@ Role required: asset\_system\_admin or inventory\_user
 7.  Return to the Bulk Update - Transfer Order Line dialog box to continue this process until you close all the tasks required for completing the transfer order line.
 
 
-**Parent Topic:**[Manage transfer order](../concept/manage-transfer-orders.md)
-
-**Related topics**  
-
-
-[Transfer order flow](../concept/transfer-order-flows.md)
-
-[Transfer assets using transfer orders](t_TransferAssetsUsingTransferOrders.md)
-
-[Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md)
-
-[Delete a transfer order](t_DeleteATransferOrder.md)
-
-[Delete a transfer order line](t_DeleteATransferOrderLine.md)
-
-[Return items received in a transfer order](t_ReturnItemsRecInXferOrder.md)
-
-[Create a customized template task](create-customized-template-task.md)
-
-[Create a template subtask](create-template-subtask.md)
-
-[Transfer order line asset tracking](../reference/r_TransferOrderLineAssetTracking.md)
+**Parent Topic:**[Transfer order tasks](../concept/work-with-transfer-orders.md)
 

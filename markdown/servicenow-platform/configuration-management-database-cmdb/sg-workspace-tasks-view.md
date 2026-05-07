@@ -62,7 +62,7 @@ Lists any attestation tasks assigned to you or to an assignment group that you b
 
 This card shows records from the CMDB Data Management Task \[cmdb\_data\_management\_task\] table, in which **policy.cmdb\_policy\_type** = **Attestation** \(in addition to other filters\).
 
-Review and process these attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks. For information about reviewing and processing attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md).
+Review and process these attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks. For information about reviewing and processing attestation tasks, see [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md).
 
 ## Life-cycle tasks
 

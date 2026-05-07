@@ -6,7 +6,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ To activate metric collection, ensure that the MID Server that retrieves metrics
 
 -   For PLAINTEXT in the Credential field, create a Basic authentication credential.
 
-    Select the Search icon \(![](../image/search-icon.png)\) next to the Credential field.
+    Select the Search icon \(![search icon](../image/search-icon.png)\) next to the Credential field.
 
 -   ServiceNow does not support discovery for Kafka. Therefore, create the CI entry manually in the respective table.
 
@@ -41,7 +41,7 @@ Role required: evt\_mgmt\_admin
 
 5.  For a SASL\_PLAINTEXT, SSL, or SASL\_SSL authentication credential, in the Credential field, create a Kafka SSL credential.
 
-    1.  Select the Search icon \(![](../image/search-icon.png)\) next to the Credential field.
+    1.  Select the Search icon \(![search icon](../image/search-icon.png)\) next to the Credential field.
     2.  On the Credentials screen, select **New**.
     3.  From the list of available credentials, select **Kafka SSL Credentials**.
 

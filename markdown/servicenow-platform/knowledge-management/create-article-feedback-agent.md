@@ -42,7 +42,7 @@ A feedback task is created in the following ways:
 
 5.  Create the knowledge article by either selecting an article template or using the default template.
 
-<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d481273e155">
+<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d484878e155">
 
 **Selected article template**
 
@@ -58,7 +58,7 @@ Select an article template to create a knowledge article using defined fields an
 3.  Select **Create Article**.
  The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](../concept/article-versioning.md) and [Knowledge article templates](../concept/knowledge-article-templates.md).
 
-</td></tr><tr><td id="d481273e200">
+</td></tr><tr><td id="d484878e200">
 
 **Default Standard template**
 

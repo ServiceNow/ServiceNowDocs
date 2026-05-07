@@ -79,5 +79,5 @@ The third-party LLMs are configured with the Global data routing configuration f
 
 For information about Data routing, Fallback, and Spillover, see [Explore AI model providers](../concept/ai-model-providers.md)
 
-For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore Third-party LLMs and regions](../concept/exploring-third-party-llms-and-data-routing-configuration.md)
+For information about scenarios for configuring third-party LLMs for regulated markets and AMS &amp; EMEA regions, see [Explore the third-party LLMs and regions](../concept/exploring-third-party-llms-and-data-routing-configuration.md)
 

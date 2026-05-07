@@ -1,6 +1,6 @@
 ---
 title: Add PI information objects to a privacy case
-description: Add \[PI\] information objects to a privacy case to identify the types of personal data compromised during a breach.
+description: To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 locale: en-US
 release: australia
 product: Privacy Workspace
@@ -13,7 +13,7 @@ breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk,
 
 # Add PI information objects to a privacy case
 
-Add \[PI\] information objects to a privacy case to identify the types of personal data compromised during a breach.
+To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  Select **All Cases**.
 
@@ -37,10 +37,14 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 6.  Select **Add**.
 
-7.  Select the information objects you want to add.
+7.  Select the information object\(s\) you want to add to the privacy case.
 
 8.  Select **Add**.
 
+
+## What to do next
+
+After adding PI information objects, add key stakeholders to the privacy case. For more information, see [Add key stakeholders to a privacy case](add-keystakeholders-to-privacy-case.md).
 
 **Parent Topic:**[Using Privacy Case Management](../concept/using-pcm.md)
 

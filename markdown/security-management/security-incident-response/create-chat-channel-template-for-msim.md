@@ -23,7 +23,7 @@ Role required: sn\_msi.workspace\_admin
 
 1.  Navigate to **Major Security Incident Management** &gt; **Chat Channel** &gt; **Channel Templates**.
 
-2.  On the Chat Channel Configuration form, click **New** in the form header.
+2.  On the Chat Channel Configuration form, select **New** in the form header.
 
 3.  On the form, fill in the fields.
 
@@ -78,11 +78,11 @@ Major Security Incident \(sn\_msi\_incident\).
 </td></tr></tbody>
 </table>    ![Chat Team Configuration](../../security-incident-response/image/channel-templates-config.png)
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 5.  Navigate to Chat Channel Configuration section.
 
-6.  Click **New** to create a new Chat Channel Configuration.
+6.  Select **New** to create a new Chat Channel Configuration.
 
 7.  Enter the **Chat Team Configuration** and **Channel Name**.
 

@@ -44,7 +44,7 @@ HR cases can be automatically assigned to your agents via an HR case template, a
 -   **[Labor unions](labor-unions.md)**  
 Use Labor Unions to define the details about unions within your company.
 -   **[Configure an HR badge](../task/CreateModHRBadges.md)**  
-Use **Badges** to create or modify existing identification badges used to quickly identify the organization of the **Assigned to** person for the **Activity** on the **HR Ticket** page.
+Use **Badges** to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the **HR Ticket** page.
 -   **[Response templates for HR Service Delivery](hr-templated-snippets.md#)**  
 You can use response templates with HR Service Delivery to resolve cases faster and more efficiently.
 -   **[HR synonym dictionary](../task/hr-synonym-dictionary.md)**  

@@ -6,6 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 2
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 

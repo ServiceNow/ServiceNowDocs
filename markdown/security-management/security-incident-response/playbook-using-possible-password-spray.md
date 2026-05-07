@@ -40,8 +40,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 4.  In Action 6, you need to validate the IP reputation using Open-Source Intelligence \(OSINT\) tools and the traffic pattern from these IPs in the last seven days.
 
-    ![Response tasks to validate the IP reputation using the OSINT tools.](../image/playbook-password-spray-ip.png "Possible Password Spray playbook")
-
 5.  In Action 7, you need to identify the usernames that successfully logged in using the Password Spray attack.
 
 6.  In Action 8, you need to identify the number of failed logins and patterns.
@@ -58,8 +56,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 9.  In Action 11, if this is case of Possible Password Spray attack, perform the following actions:
 
     1.  In Action 12, you need to coordinate with appropriate teams to lock out any necessary accounts and investigate malicious activity.
-
-        ![Response tasks to lock out any necessary accounts and investigate malicious activity.](../image/playbook-password-spray-pattern.png "Possible Password Spray playbook")
 
     2.  In Action 13, you need to initiate a post-incident review of the Possible Password Spray attack.
 

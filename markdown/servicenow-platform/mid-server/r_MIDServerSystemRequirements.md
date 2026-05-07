@@ -6,7 +6,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-26"
 reading_time_minutes: 16
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,6 +31,8 @@ Use these minimum system requirements to allocate resources for computers hostin
     -   Windows Server 2019
     -   Windows Server 2022
     -   Windows Server 2025
+    On Windows, MID Server requires Microsoft .NET Framework 4.5 or later.
+
 -   **Linux**
 
     The MID Server is supported on these Linux versions for virtual machines and 64-bit systems:

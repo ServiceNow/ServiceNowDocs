@@ -1,6 +1,6 @@
 ---
 title: Using Omnichannel Callback for Customer Service Management
-description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
+description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 # Using Omnichannel Callback for Customer Service Management
 
-The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
+The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there's a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CSM Configurable Workspace
 
 For more information, see [Omnichannel Callback](https://www.servicenow.com/docs/access?context=omnichannel-callback&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
@@ -27,10 +27,10 @@ The callback workflow proceeds as follows:
 6.  The agent can choose to review the callback context such as knowledge base article views, searches, and Virtual Agent conversation before calling the customer.
 7.  The agent calls the customer.
     -   If the customer accepts the call, the interaction is marked as complete when the call ends.
-    -   If the customer doesn’t accept the call, the agent can retry the callback later.
+    -   If the customer doesn't accept the call, the agent can retry the callback later.
 8.  The agent can decide to close the interaction or queue the callback again manually from the workspace.
 
-![Callback flow diagram](../image/Omni-callback-flow.png "Callback flow diagram")
+![Callback flow diagram](../image/callback-flow-diagram.png "Callback flow diagram")
 
 ## Callback requests
 
@@ -55,9 +55,9 @@ The callback workflow proceeds as follows:
 
 In addition to customer-scheduled callbacks, agents can now create callbacks on behalf of customers from CSM Configurable Workspace. Agent-scheduled callbacks can be created from any omnichannel interaction \(chat, voice, email, messaging\) or case records. Agents can schedule, reschedule, and cancel callbacks.
 
-![](../image/agent-scheduled-callback-workflow.png "Agent-scheduled callback flow")
-
 The following diagram shows the agent-scheduled callback workflow.
+
+![](../image/agent-scheduled-callback-workflow.png "Agent-scheduled callback flow")
 
 -   **Agent-scheduled callback workflow**
 

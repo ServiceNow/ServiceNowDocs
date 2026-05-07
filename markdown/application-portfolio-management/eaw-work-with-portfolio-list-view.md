@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with Portfolio list view
@@ -23,8 +23,8 @@ Manage business units, departments, goals, value streams, value stream stages, b
 Manage all your business applications, business capabilities, information objects, application services and also, manage their associated architectural artifacts in the Enterprise Architecture Workspace.
 -   **[Working with information portfolio](eaw-work-with-info-portfoliodita.md)**  
 Information portfolio helps to capture information from the assets of your organization as information objects. You can categorize the information assets and determine its business application use.
--   **[Working with AI Portfolio](eaw-working-with-ai-portfolio.md)**  
-Manage AI System Digital Assets, AI Model Digital Assets, AI Dataset Digital Assets, and AI Prompt Digital assets in the Enterprise Architecture Workspace.
+-   **[eaw-working-with-ai-portfolio.md](eaw-working-with-ai-portfolio.md)**  
+
 -   **[Working with your entities](eaw-work-with-your-entities.md)**  
 Manage all your Enterprise Architecture Workspace entities from a single place.
 

@@ -1,6 +1,6 @@
 ---
 title: Standard remote tables for Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
+description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) accesses several standard remote tables for ERP models.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, standard, remote, table, model]
-breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Standard remote tables for Zero Copy Connector for ERP
 
-Zero Copy Connector for ERP accesses several standard remote tables for ERP \(Enterprise Resource Planning\) models.
+Zero Copy Connector for ERP \(Enterprise Resource Planning\) accesses several standard remote tables for ERP models.
 
 The following remote tables are available through Zero Copy Connector for ERP and ERP Semantic Mining.
 
@@ -44,8 +44,8 @@ For more details on working with remote tables, see [Remote tables](https://www.
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
 -   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   [Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   [Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
 -   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
 -   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
 -   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)

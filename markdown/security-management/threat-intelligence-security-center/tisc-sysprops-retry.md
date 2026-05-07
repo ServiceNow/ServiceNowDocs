@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with Webhooks, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # System properties for Webhooks

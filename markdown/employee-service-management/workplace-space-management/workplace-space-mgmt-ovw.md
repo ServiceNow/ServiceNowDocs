@@ -19,19 +19,19 @@ Efficiently supervise every single location of your organization by using the Se
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Space Management concepts and features](explore_wsm.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Space Management concepts and features](explore_wsm.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Install and Configure Workplace Space Management](configure-space-management.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and Configure Workplace Space Management](configure-space-management.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage](../../../common/image/icon-managing.png) Manage Workplace Space Management location records](Creating-workplace-location-records-using-spce-mgmt.md)
+[Manage ![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage Workplace Space Management location records](Creating-workplace-location-records-using-spce-mgmt.md)
 
 </td><td>
 
-[References ![References](../../../common/image/icon-reference.png) Learn about Workplace Space Management roles, properties, and components](workplace-space-mgmt-references.md) 
+[References ![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn about Workplace Space Management roles, properties, and components](workplace-space-mgmt-references.md) 
 
 </td></tr></tbody>
 </table>## Additional resources

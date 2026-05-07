@@ -20,7 +20,7 @@ The ServiceNow® Workforce Optimization application enables you to efficiently r
 -   Assist agents during live customer calls by opening the agent’s active phone interaction in Manager Workspace. NVC enables supervisors to silently monitor calls, whisper‑coach the agent, or join the conversation directly.
 -   Analyze the help requested interactions segmented by different channels, such as Chat, Email, Messaging, Phone and Video.
 
-See [Exploring Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=explore-configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See  for more information.
 
 **Important:** Workforce Optimization for Customer Service is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -38,7 +38,7 @@ See [Exploring Workforce Optimization for Customer Service](https://www.servicen
 
     -   New **AI Insights** tab on the Manager Dashboard in the Manager Workspace \(Enterprise SKU\).
     -   The AI powered widgets: Sentiment Analysis, Trending Topics, and Auto QA. These widgets provide deeper, real‑time visibility into customer sentiment signals, trending interaction themes, and quality evaluations.
--   **[Manager dashboard for operational Insights](https://www.servicenow.com/docs/access?context=manager-dashboard-for-operational-insights&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   ****
 
     Decouple the existing Manager Dashboard to make it available as a standalone feature.
 

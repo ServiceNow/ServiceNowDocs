@@ -17,10 +17,6 @@ The use of rules to normalize a field is intended for large lists of variant fie
 
 Always test your rules before applying them to all the existing records in the database. Prior to creating the rule, make sure to generate the list of [Pending Values](../concept/c_FieldNormalization.md) and create a [normal value](../concept/c_FieldNormalization.md) for the field. A normalized field can have a combination of aliases and rules.
 
-The rules in this example are based on the following Pending Values:
-
-![](../image/NormalizationRules3.png "Normalization rules 3")
-
 ## Procedure
 
 1.  In a Normalization record, open the **Normal Values** related list.

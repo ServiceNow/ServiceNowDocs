@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Use a flow or subflow in Oracle Financial Cloud \(Outbound\)
@@ -31,7 +31,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     For example, select **Fetch currencies from Oracle Financial Cloud** subflow.
 
-    ![Use a flow or subflow in Oracle Financial Cloud](../image/oracle-fin-use-subflow.png "Use a flow or subflow in Oracle Financial Cloud")
+    ![Use a flow or subflow in Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-use-subflow.png "Use a flow or subflow in Oracle Financial Cloud")
 
 5.  In the Trigger field, specify the time and interval at which you want to run the scheduled flow automatically.
 

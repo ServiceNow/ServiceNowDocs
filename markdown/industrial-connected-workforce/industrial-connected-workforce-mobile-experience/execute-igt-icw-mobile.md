@@ -39,13 +39,13 @@ Role required: sn\_icw\_igt.user
 
 6.  Follow the instructions, and after answering all questions, select **Submit**.
 
-    If a question requires scanning a bar code or QR code, it will be marked with the scan icon \(![image.barcode-icon]\).
+    If a question requires scanning a bar code or QR code, it will be marked with the scan icon \(![Scan icon](../image/barcode-icon.png)\).
 
 7.  Navigate to the three-dot menu and then tap **Add attachment** to provide additional information while executing the task.
 
 8.  Navigate to the three-dot menu and then tap **Follow up actions** to access the list of follow-up actions or to create a follow-up action directly from the task.
 
-9.  If you are working in offline mode, save your progress by navigating to the three-dot menu and selecting **Save**.
+9.  If you're working in offline mode, save your progress by navigating to the three-dot menu and selecting **Save**.
 
     When you save while offline, the IGT progress is stored in the outbox on your device. Your changes are saved even if you close the app. When your device reconnects, the saved changes are automatically uploaded to the server.
 

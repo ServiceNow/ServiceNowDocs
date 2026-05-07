@@ -27,9 +27,6 @@ This example uses Eclipse SDK Version: 3.4.2 for managing the source code and ex
     -   If using wsdl2java run "java -version" on the command line and this will be the version to specify for the project specific JRE.
     -   If using the Axis2 Codegen plugin use default JRE.
 
-        ![](../image/JavaProject.png "Java Project")
-
-
 ## Generate your Axis2 client code
 
 -   From a command line in the bin directory of the axis folder:

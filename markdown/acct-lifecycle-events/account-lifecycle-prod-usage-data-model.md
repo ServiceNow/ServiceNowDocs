@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Create a product capability, Customer success, Configure, Customer Success Management]
+breadcrumb: [Create a product capability, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Product and capability usage records

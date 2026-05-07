@@ -506,7 +506,7 @@ For more information, see [Debugging scripts](../../debugging/concept/script-deb
 
 This example demonstrates how to modify a GlideDateTime field value using a server-side script.
 
-Given a GlideDateTime field or script object, show a variety of ways to easily modify value. The same concept also applies to the GlideDate object.
+The following server-side script example shows how to modify values using the GlideDateTime API. The same concept also applies to the GlideDate object.
 
 **Note:** The following script is only intended for global applications.
 
@@ -515,7 +515,7 @@ Given a GlideDateTime field or script object, show a variety of ways to easily m
 //this can be from instantiating a new object "var gdt = new GlideDateTime()"
 //or getting the object from a GlideDateTime field
 //getting the field value (for example: var gdt = current.start_date) only returns the string value, not the object
-//to get the object use var gdt = current.start_date.getGlideObject();
+//to get the object use var gdt = current.start_date.getGlideObject(); (GlideElement)
 //now gdt is a GlideDateTime object
 var gdt = current.start_date.getGlideObject();
  
@@ -543,7 +543,6 @@ gdt.addYearsUTC(1);
 GlideSession.get().setTimeZoneName('US/Eastern');
 gdt.setDisplayValue('2018-2-28 00:00:00');
 gs.info('In ' + GlideSession.get().getTimeZoneName() + ": " + gdt.getDisplayValue());
-
 ```
 
 See also:
@@ -553,6 +552,8 @@ See also:
 -   [GlideDate - Scoped](../../../app-store/dev_portal/API_reference/glideDateScoped/concept/c_GlideDateScopedAPI.md#)
 -   [GlideDateTime - Global](../../../app-store/dev_portal/API_reference/GlideDateTime/concept/c_GlideDateTimeAPI.md#)
 -   [GlideDateTime - Scoped](../../../app-store/dev_portal/API_reference/glideDateTimeScoped/concept/c_GlideDateTimeScoped.md#)
+-   [GlideElement - Global](../../../app-store/dev_portal/API_reference/GlideElement_global/concept/c_GlideElementAPI.md#)
+-   [GlideElement - Scoped](../../../app-store/dev_portal/API_reference/glideElement/concept/c_GlideElementScopedAPI.md#)
 -   [GlideTime - Scoped](../../../app-store/dev_portal/API_reference/glideTimeScoped/concept/c_GlideTimeScopedAPI.md#)
 
 ## Using custom queues to process events

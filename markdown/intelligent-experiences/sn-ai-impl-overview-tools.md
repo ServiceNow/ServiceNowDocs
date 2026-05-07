@@ -47,7 +47,7 @@ For more information about these tools, see:
 
 -   [AI Control Tower](../../ai-governance-workspace/concept/ai-control-tower-landing.md)
 -   [AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Now Assist Guardian](../../now-assist-platform/concept/now-assist-guardian.md)
+-   
 
 ## Data management
 

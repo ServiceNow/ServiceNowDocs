@@ -25,13 +25,13 @@ Role required: sn\_sec\_tisc.admin
 
 2.  Select **Custom**.
 
-    **Note:** By default, the MISP feed is disabled, you must edit the configuration to enable the feed.
+    **Note:** By default, the MISP feed is inactive. You must edit the configuration to enable the feed.
 
-    ![Premium feed - MISP.](../image/tisc-misp-premium-feed.png)
+    ![Integrations interface showing threat intelligence feeds with MISP Feed enabled and CrowdStrike Feed inactive.](../image/tisc-misp-premium-feed.png)
 
 3.  Select the **Edit** button on the **MISP Feed** card.
 
-4.  Drill down to the **Configuration Details** section.
+4.  Navigate to the **Configuration Details** section.
 
 5.  Update the **REST endpoint URL** field.
 
@@ -45,13 +45,13 @@ Role required: sn\_sec\_tisc.admin
 
 8.  Select **Edit Settings**.
 
-    ![MISP edit additional settings.](../image/tisc-misp-additional-settings-edit.png)
+    ![Edit Additional Settings dialog showing filters for MISP events including creator organization, tag name, threat level, and distribution level fields.](../image/tisc-misp-additional-settings-edit.png)
 
 9.  Select the required filters.
 
     **Note:** All the filters configured will be applied in conjunction while ingesting the events.
 
-    The following section provides a detailed explanation of each available option. Review each option in the following table to understand how the filters can be applied to optimize which MISP events are ingested into the TISC library.
+    The following section explains each available option. Review each option in the following table to understand how filters optimize which MISP events are ingested into the TISC library.
 
 10. Select the required values from the following available filters.
 
@@ -81,7 +81,7 @@ Creator org name or ID
 
 </td><td>
 
-Enter a comma-separated list of organization names and/or IDs associated with the event.**Note:** If the organization name contains leading or trailing spaces, enclose the name in double quotes to ensure proper processing.
+Enter a comma-separated list of organization names and/or IDs associated with the event.**Note:** If the organization name contains leading or trailing spaces, enclose the name in double quotes to confirm proper processing.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Select a distribution level to limit events. Leaving this field empty includes e
 </td></tr></tbody>
 </table>    **Note:**
 
-    Once you've defined the **Additional Settings** following the instructions above, you can duplicate the feed when creating another. For more information, see Step 13.
+    After you have defined the **Additional Settings** following the instructions earlier, you can duplicate the feed when creating another. For more information, see Step 13.
 
 11. Select **Update** on the **Additional Settings** dialog box to save the modified additional settings.
 
@@ -124,7 +124,7 @@ Select a distribution level to limit events. Leaving this field empty includes e
     -   **Unpublished events**: Compared against the **Last updated timestamp**.
     An event is retrieved only if its relevant timestamp is later than the configured **Fetch data from** date.
 
-    Using the appropriate timestamp for each event status ensures accurate retrieval of both newly published events and recently updated unpublished events.
+    Using the appropriate timestamp for each event status helps verify accurate retrieval of both newly published events and recently updated unpublished events.
 
 13. Select **Duplicate** to duplicate the feed.
 
@@ -135,7 +135,7 @@ Select a distribution level to limit events. Leaving this field empty includes e
     -   Each MISP event imported into the TISC library, whether as a **Threat Report** or **Threat Event**, includes an associated **External Reference** record.
     -   This record is accessible via the **Related Records** tab and provides a direct URL link to the corresponding MISP event on the MISP server. This also enables a quick access to the original event data.
     -   For details on how MISP events, along with their associated attributes and objects, are mapped to TISC entities, refer to [KB2197697](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2197697).
-    -   Entity types that aren’t included in the mapping described in the KB article aren't ingested into the TISC Library.
+    -   Entity types that aren't included in the mapping described in the KB article aren't ingested into the TISC Library.
 
 **Parent Topic:**[View Custom Feed](view-oob-custom-feeds.md)
 

@@ -38,15 +38,15 @@ The following procedure describes how to summarize a record through chat in the 
 
 5.  When you're finished summarizing a record, you can copy the summary or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d203811e152">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d205384e152">
 
 Option
 
-</th><th align="left" id="d203811e155">
+</th><th align="left" id="d205384e155">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d203811e161">
+</th></tr></thead><tbody><tr><td id="d205384e161">
 
 **Provide feedback about the summary**
 
@@ -54,7 +54,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../../product/now-assist-itsm/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../../product/now-assist-itsm/image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d203811e184">
+</td></tr><tr><td id="d205384e184">
 
 **Copy the record summary**
 

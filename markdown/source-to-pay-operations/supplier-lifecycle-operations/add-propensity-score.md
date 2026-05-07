@@ -17,7 +17,7 @@ The propensity score is used to identify the likelihood of a supplier to accept 
 
 ## Before you begin
 
-Role required: sn\_slm.manager or admin
+Role required: sn\_slm.manager or sn\_slm.admin
 
 **Important:** Check your entitlements to determine whether you have access to Supplier Payment Optimization.
 

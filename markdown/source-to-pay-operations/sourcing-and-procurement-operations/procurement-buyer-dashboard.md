@@ -7,8 +7,8 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
-breadcrumb: [Performance Analytics for Sourcing and Procurement Operations, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
+reading_time_minutes: 5
+breadcrumb: [Preconfigured metrics and dashboards, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Procurement Buyer Dashboard

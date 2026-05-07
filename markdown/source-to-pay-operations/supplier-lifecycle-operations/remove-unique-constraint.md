@@ -31,8 +31,6 @@ Role required: admin
 
 4.  Select **Email Domain** from the **Columns tab** to open the Dictionary Entry of `sn_slm_email_domain` table.
 
-    ![Email domain dictionary view of the sn_slm_email_domain table](../image/email-domain.png)
-
 5.  Select the form context menu icon \(![](../image/context-menu.png)\) and select **Configure** &gt; **Form Layout**.
 
 6.  From the **Available** list of fields, select the **Unique** field and move it to the **Selected** column.

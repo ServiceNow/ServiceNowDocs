@@ -33,15 +33,15 @@ Run these scheduled jobs on demand to upgrade your existing active and inactive 
 
 2.  Execute the appropriate scheduled job for your demands.
 
-<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d242844e86">
+<table id="choicetable_ndl_hwg_2nb"><thead><tr><th align="left" id="d235584e86">
 
 Demand type
 
-</th><th align="left" id="d242844e89">
+</th><th align="left" id="d235584e89">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d242844e95">
+</th></tr></thead><tbody><tr><td id="d235584e95">
 
 **Active demands**
 
@@ -51,7 +51,7 @@ Steps
 2.  Select **Execute Now**.
  The job copies all amounts in the cost-related fields of the demands to demand currency. The Baseline, Cost Plan, Cost Plan Breakdown, Benefit Plan, and Benefit Plan Breakdown fields also change to the demand currency. You can’t edit the demand currency after the values are copied because the financial costs exist.
 
-</td></tr><tr><td id="d242844e122">
+</td></tr><tr><td id="d235584e122">
 
 **Inactive demands**
 

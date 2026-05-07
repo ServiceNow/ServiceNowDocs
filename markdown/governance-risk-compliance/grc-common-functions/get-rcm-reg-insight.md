@@ -38,7 +38,7 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 1.  Navigate to one of the following locations:
 
-    -   **Workspaces** &gt; **Compliance Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Regulatory alerts**.
+    -   **Workspaces** &gt; **Compliance Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Regulatory alerts**.
     -   **Workspaces** &gt; **Compliance Workspace**, select the Regulatory Change Management dashboard icon ![](../../grc-rcm/image/reg-change-icon.png) and then in the Activity overview, Tracking, or Trends section, select any segment or value in an Alerts related widget to open the list of regulatory alerts with that state.
 2.  Select any regulatory alert in the New or In Progress state.
 
@@ -54,15 +54,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d363250e255">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d365549e255">
 
 Option
 
-</th><th align="left" id="d363250e258">
+</th><th align="left" id="d365549e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d363250e264">
+</th></tr></thead><tbody><tr><td id="d365549e264">
 
 **Add enriched insights**
 
@@ -77,7 +77,7 @@ In the Now Assist panel, ask the agent to enrich a regulatory alert with web sou
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d363250e302">
+</td></tr><tr><td id="d365549e302">
 
 **Recommend impacted areas**
 

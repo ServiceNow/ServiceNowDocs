@@ -39,15 +39,15 @@ Role required: sn\_msi.workspace\_manager
 
 7.  On the Report subsection elements form, fill in the fields.
 
-<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d463858e138">
+<table id="choicetable_mmr_gym_ysb"><thead><tr><th align="left" id="d472049e138">
 
 Field
 
-</th><th align="left" id="d463858e141">
+</th><th align="left" id="d472049e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d463858e147">
+</th></tr></thead><tbody><tr><td id="d472049e147">
 
 **Name**
 
@@ -61,7 +61,7 @@ Name of the Report template subsection element. For example, Scope.**Note:** The
 -   **Active Team Trend:** Depicts the active teams trend in a graphical representation.
 
 
-</td></tr><tr><td id="d463858e181">
+</td></tr><tr><td id="d472049e181">
 
 **Type**
 
@@ -73,7 +73,7 @@ The report subsection element type. The available types are:-   Free Form Text
 -   List
 
 
-</td></tr><tr><td id="d463858e205">
+</td></tr><tr><td id="d472049e205">
 
 **Table**
 
@@ -81,7 +81,7 @@ The report subsection element type. The available types are:-   Free Form Text
 
 Name of the report template table.
 
-</td></tr><tr><td id="d463858e214">
+</td></tr><tr><td id="d472049e214">
 
 **Active**
 
@@ -89,7 +89,7 @@ Name of the report template table.
 
 Select the check box to create a report section for the selected template in the MSIM workspace.**Note:** If the check box is unselected, the MSI Manager can’t create a report section for this template in the MSIM workspace.
 
-</td></tr><tr><td id="d463858e227">
+</td></tr><tr><td id="d472049e227">
 
 **Show by default in the report**
 
@@ -97,7 +97,7 @@ Select the check box to create a report section for the selected template in the
 
 Select this check box if you want to include the section within the report to quickly render the elements.
 
-</td></tr><tr><td id="d463858e236">
+</td></tr><tr><td id="d472049e236">
 
 **MSI Report Template**
 
@@ -105,7 +105,7 @@ Select this check box if you want to include the section within the report to qu
 
 The MSI Report Template name for which you’re dividing the report into sections.
 
-</td></tr><tr><td id="d463858e245">
+</td></tr><tr><td id="d472049e245">
 
 **Order**
 
@@ -113,7 +113,7 @@ The MSI Report Template name for which you’re dividing the report into section
 
 The order in which the report sections will be rendered.
 
-</td></tr><tr><td id="d463858e254">
+</td></tr><tr><td id="d472049e254">
 
 **Description**
 

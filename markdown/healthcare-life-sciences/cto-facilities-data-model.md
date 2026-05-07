@@ -1,6 +1,6 @@
 ---
 title: Care Team Operations for Facilities data model tables
-description: The Healthcare Facilities Case \[sn\_cto\_facilities\_case\] enables streamlined support for environmental services support use cases.
+description: The Healthcare Facilities Case \[sn\_cto\_facilities\_case\] enables streamlined support for facilities management use cases.
 locale: en-US
 release: australia
 topic_type: reference
@@ -11,7 +11,7 @@ breadcrumb: [Reference, Care Team Operations for Facilities, Healthcare Operatio
 
 # Care Team Operations for Facilities data model tables
 
-The Healthcare Facilities Case **\[sn\_cto\_facilities\_case\]** enables streamlined support for environmental services support use cases.
+The Healthcare Facilities Case **\[sn\_cto\_facilities\_case\]** enables streamlined support for facilities management use cases.
 
 It extends the Healthcare Operations Core **\[sn\_hco\_case\]** case.
 

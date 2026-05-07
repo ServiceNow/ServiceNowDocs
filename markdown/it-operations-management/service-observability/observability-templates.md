@@ -29,6 +29,8 @@ Templates used to create Cisco ThousandEyes synthetics dashboard in Service Obse
 Templates used to create Datadog dashboards in Service Observability. You can edit these templates as needed.
 -   **[Dynatrace templates for Service Observability](dynatrace-templates.md)**  
 Templates used to create Dynatrace dashboards in Service Observability. You can edit these templates as needed.
+-   **[LogicMonitor templates for Service Observability](logic-monitor-templates.md)**  
+Templates used to create LogicMonitor dashboards in Service Observability. You can edit these templates as needed.
 -   **[New Relic templates for Service Observability](new-relic-templates.md)**  
 Templates used to create New Relic dashboards in Service Observability. You can edit these templates as needed.
 -   **[Prometheus templates for Service Observability](prometheus-templates.md)**  

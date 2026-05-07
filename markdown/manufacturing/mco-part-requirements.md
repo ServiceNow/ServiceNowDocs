@@ -21,9 +21,11 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Action**.
 
-2.  Select the corresponding campaign record in which you want to generate the part requirements. Move the corrective action to **Ready for use**.
+2.  Select the corresponding campaign record in which you want to generate the part requirements.
 
-3.  Select the corrective action record to generate part requirements.
+3.  Move the corrective action to **Ready for use**.
+
+4.  Select the corrective action record to generate part requirements.
 
     If the Corrective action charges with **Type** is set to **Part** and the **Status** is set to **In Use**, then the following fields are automatically populated.
 

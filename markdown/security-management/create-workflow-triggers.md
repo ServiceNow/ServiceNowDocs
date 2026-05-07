@@ -40,7 +40,7 @@ Roles required:
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Workflow Triggers**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -109,7 +109,7 @@ Filter group
 Select the filter group to use for defining workflow triggers. This field appears only if the **Use filter groups** check box is selected.
 
 </td></tr></tbody>
-</table>4.  When you have completed your entries, right-click in the form header and select **Save**.
+</table>4.  When you have completed your entries, select and hold \(or right-click\) in the form header and select **Save**.
 
     ![WorkflowTriggers with filters example](../image/WorkflowTriggerFilters.png)
 
@@ -117,15 +117,15 @@ Select the filter group to use for defining workflow triggers. This field appear
 
 5.  To add workflows, perform these steps.
 
-    1.  In the **Workflows** tab, click **Edit**.
+    1.  In the **Workflows** tab, select **Edit**.
 
     2.  Use the condition builder, if needed, to locate the workflows you want to select, or use the slushbucket to select workflows and move them to the Workflows List.
 
-    3.  Click **Save**.
+    3.  Select **Save**.
 
     The selected workflows are added.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
 **Parent Topic:**[Security Operations workflow triggers](../concept/workflow-triggers.md)

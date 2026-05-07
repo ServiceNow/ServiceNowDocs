@@ -59,7 +59,7 @@ Disables smart detection.
     -   **true**: Disable smart detection.
     -   **false**: Enable smart detection.
 -   Location: [Add to System Properties \[sys\_properties\]](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) table.
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
+-   Learn more: [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Comma-separated list of discovery sources that are excluded in smart detection p
  -   Type: string
 -   Default value: Manual Entry
 -   Location: System property
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
+-   Learn more: [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Number of days \(discovery window\) that smart detection uses to determine wheth
  -   Type: integer
 -   Default value: 30
 -   Location: System property
--   Learn more: [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
+-   Learn more: [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md)
 
 </td></tr></tbody>
 </table>

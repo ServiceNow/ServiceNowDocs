@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure, Customer Success Management]
+breadcrumb: [Customer Success Management, Customer Success Management]
 ---
 
 # Activate Customer Success Management

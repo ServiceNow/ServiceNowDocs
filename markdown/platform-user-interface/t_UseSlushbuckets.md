@@ -47,8 +47,6 @@ Information fields for the highlighted available item appear beneath some list c
 
     The list of available items is filtered as you type.
 
-    ![List collector with a search for "Bo" that is showing search results for items containing "bo"](../image/SlushbucketRelatedList.png "Filter Items")
-
 -   To move items one position, select the items and click the up or down icon.
 
 -   To move an item multiple positions, select consecutive items above or below the item then click the up or down icon. In this example, to move **Assigned to** to the top of the selections order, complete the following steps.
@@ -56,8 +54,6 @@ Information fields for the highlighted available item appear beneath some list c
     1.  Hold the Shift key and click **Short description** then **Number**.
 
     2.  Click the down icon.
-
-        ![Arrange items](../image/PersonalizeListLayout.png "Arrange items")
 
 
 -   **[Set the number of list collector items visible in the available column](t_SetNumSlushbucketItemsVisible.md)**  

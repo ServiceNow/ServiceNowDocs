@@ -88,7 +88,7 @@ Priority
 </td><td>
 
 Select the priority of the task to determine when the task is performed. The priority can be one of the following values:-   **None**
--   **1-Critical**
+-   **1 - Critical**
 -   **2 - High**
 -   **3 - Moderate**
 -   **4 - Low**

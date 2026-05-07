@@ -24,7 +24,7 @@ With this application, you can perform the following:
 -   Create or update Supplier payment details in Oracle Financial Cloud
 -   Create, update, or deactivate Suppliers in Oracle Financial Cloud
 
-![Overview of the Source-to-Pay integration with Oracle Financial Cloud](../image/oracle-fin-integration-overview.png "Overview of the Source-to-Pay integration with Oracle Financial Cloud")
+![Overview of the Source-to-Pay integration with Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-integration-overview.png "Overview of the Source-to-Pay integration with Oracle Financial Cloud")
 
 ## Prerequisites
 

@@ -1,5 +1,5 @@
 ---
-title: Roles installed with graPublic Sector Digital Services
+title: Roles installed with Public Sector Digital Services
 description: The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 24
 breadcrumb: [Components and roles installed, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Roles installed with graPublic Sector Digital Services
+# Roles installed with Public Sector Digital Services
 
 The Public Sector Digital Services application uses roles to provide access to information, identify internal and external users, and establish different types of relationships between users. These roles control access to public sector data through UI-based features such as forms and lists.
 

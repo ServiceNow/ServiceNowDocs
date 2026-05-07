@@ -26,7 +26,7 @@ Role required: sn\_sec\_cmn.admin
     -   BSD-based OS
     -   POSIX-based OS
     -   Windows OS
-2.  Click **New**.
+2.  Select **New**.
 
     ![Operating system groups](../image/os-groups.png)
 
@@ -42,17 +42,17 @@ Role required: sn\_sec\_cmn.admin
     |Filter group|Select the filter group for locating matching records in the selected table. This field displays only if you selected the **Use filter group** check box.|
     |Condition|The [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) fields display only if you did not select the **Use filter group** check box.|
 
-4.  Right-click in the form header and select **Save**.
+4.  Select and hold \(or right-click\) in the form header and select **Save**.
 
     The Operating System Related Scripts related list opens.
 
     ![Operating System Related Scripts](../image/os-related-scripts.png)
 
-5.  Click **New**.
+5.  Select **New**.
 
-6.  Select scripts that correspond with the workflows you are using to get running processes, services, and/or network statistics.
+6.  Select scripts that correspond with the workflows you're using to get running processes, services, and/or network statistics.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 
 **Parent Topic:**[Security Operations common functionality](../concept/sec-ops-common-functionality.md)

@@ -60,7 +60,7 @@ In another example scenario where you're replacing a manual triage process for r
 
 The metric values the system applied to the solution are shown in the following image. The coverage metric value increased from 35.99 to 55.98. However, the precision metric decreased from 80.18 to 64.97. This could be because you set the coverage metric to a relatively high value of 70, or perhaps because of how the data you're training is distributed.
 
-![The estimated precision, recall, and coverage values the system assigned to the solution based on your Coverage input value of 70%.](../images/metric-coverage-example-result.png)
+![image.metric-coverage-example-result]
 
 ## Recall configuration example
 

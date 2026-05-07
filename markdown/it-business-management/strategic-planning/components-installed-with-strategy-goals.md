@@ -6,7 +6,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Reference, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -79,5 +79,11 @@ Option to define the number of days before the due date to send the reminder for
 -   For **Yearly**, it's 10 days.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Strategy and Goals reference](strategy-goals-reference.md)
+</table>## Scheduled jobs installed with Strategic Planning Workspace
+
+|Scheduled job|Description|
+|-------------|-----------|
+|Goal insights generation job|Generates goal insights automatically for the set of goals that match the defined goal filter criteria.|
+
+**Parent Topic:**[Strategy and Goals reference](strategy-goals-reference.md)
 

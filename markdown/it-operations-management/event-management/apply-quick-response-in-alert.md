@@ -37,7 +37,7 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
 
     If the link that you require is not available, perform one of these actions.
 
-<table id="choicetable_ehj_lwd_lz"><tbody><tr><td id="d636658e125">
+<table id="choicetable_ehj_lwd_lz"><tbody><tr><td id="d645931e125">
 
 **For Remediation, define a remediation task using an Alert rule based on the selected alert**
 
@@ -54,7 +54,7 @@ If you select a remediation link when invoking a Quick Response, a workflow is e
 7.  Click **Update**.
  For further information, see [Migrate an alert action rule to an alert management rule](t_EMCreateAlertRule.md).
 
-</td></tr><tr><td id="d636658e204">
+</td></tr><tr><td id="d645931e204">
 
 **For Launch Application, create a web application link using an Alert rule based on the selected alert**
 

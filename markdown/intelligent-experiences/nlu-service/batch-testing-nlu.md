@@ -61,10 +61,3 @@ You can also export the test results to a CSV file by clicking **Export**. The f
 
 For more information on understanding your test results, see [Test and publish your model](testing-your-model.md).
 
--   **[Create a test set](../task/import-batch-test-set.md)**  
-To create or add to an NLU test set, you can upload a file of test utterances matched with correct intents. Use the test set to assess the performance of your model.
--   **[Run a multi-model batch test](../task/run-batch-test.md)**  
-Test multiple Natural Language Understanding \(NLU\) models against a test set. Evaluate the quality of your models and refine them to improve intent prediction.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
-

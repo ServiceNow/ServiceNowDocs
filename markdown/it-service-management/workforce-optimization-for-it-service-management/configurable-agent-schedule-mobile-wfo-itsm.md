@@ -6,7 +6,7 @@ release: australia
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-23"
 reading_time_minutes: 2
 breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -14,8 +14,6 @@ breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Servic
 # Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM
 
 Using the ITSM Mobile Agent app, shift planning agents can access their schedule. They can request time off to get their manager's approval or swap shifts with their peers and receive notifications for those requests and approvals.
-
-Workforce Optimization for ITSM Mobile Agent
 
 **Important:** The ITSM Mobile Agent for Workforce Optimization for ITSM features are available with the ITSM Mobile Agent 5.0 store application. For more information, see [Activate Workforce Optimization for ITSM](../task/activate-configurable-workforce-optimization-itsm.md).
 

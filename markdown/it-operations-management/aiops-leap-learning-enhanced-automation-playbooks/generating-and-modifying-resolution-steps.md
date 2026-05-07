@@ -1,25 +1,25 @@
 ---
-title: Generate and modify resolution steps in AIOps LEAP
-description: Learn how to generate, edit, and track AI-generated resolution steps for automation opportunities in AIOps LEAP.
+title: Generate and modify resolution steps in LEAP
+description: Learn how to generate, edit, and track AI-generated resolution steps for automation opportunities in LEAP.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Generate and modify resolution steps in AIOps LEAP
+# Generate and modify resolution steps in LEAP
 
-Learn how to generate, edit, and track AI-generated resolution steps for automation opportunities in AIOps LEAP.
+Learn how to generate, edit, and track AI-generated resolution steps for automation opportunities in LEAP.
 
 ## About this task
 
 Resolution steps are actions designed to resolve issues identified by an automation opportunity. During the initial run, GAF generate these steps by analyzing work notes and historical resolutions.
 
-The **Generate resolution steps** button creates resolution steps as required. As your system processes new incidents and records, regenerate these steps to maintain solution accuracy. AIOps LEAP provides three search capabilities: AI search, KB search, and web search.
+The **Generate resolution steps** button creates resolution steps as required. As your system processes new incidents and records, regenerate these steps to maintain solution accuracy. LEAP provides three search capabilities: AI search, KB search, and web search.
 
 -   AI search: Scans records within your existing instance to identify relevant resolutions.
 -   KB search: Searches knowledge base resources external to your organization to suggest more effective resolution steps.
@@ -36,9 +36,9 @@ Role required: System admin
 
 ## Procedure
 
-1.  Select **Workspaces** &gt; **AIOps LEAP**.
+1.  Select **Workspaces** &gt; **LEAP**.
 
-2.  On the AIOps LEAP landing page, select the required automation opportunity.
+2.  On the LEAP landing page, select the required automation opportunity.
 
 3.  If resolution steps are unavailable in the Overview section, select **Generate resolution steps**.
 

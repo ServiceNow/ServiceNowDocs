@@ -1,17 +1,17 @@
 ---
-title: Agentic Desktop Design workspace
-description: The Design workspace is an interactive environment within Agentic Desktop that enables you to create desktop actions by recording and configuring user interactions with desktop applications. The workspace provides a visual canvas where you can design multi-screen automation workflows that capture business processes across different applications.
+title: AI Desktop Actions Design workspace
+description: The Design workspace is an interactive environment within AI Desktop Actions that enables you to create desktop actions by recording and configuring user interactions with desktop applications. The workspace provides a visual canvas where you can design multi-screen automation workflows that capture business processes across different applications.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2025-11-09"
-reading_time_minutes: 5
-breadcrumb: [Explore, Agentic Desktop, Enable AI experiences]
+reading_time_minutes: 6
+breadcrumb: [Defined desktop actions for desktop, Explore, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Agentic Desktop Design workspace
+# AI Desktop Actions Design workspace
 
-The Design workspace is an interactive environment within Agentic Desktop that enables you to create desktop actions by recording and configuring user interactions with desktop applications. The workspace provides a visual canvas where you can design multi-screen automation workflows that capture business processes across different applications.
+The Design workspace is an interactive environment within AI Desktop Actions that enables you to create desktop actions by recording and configuring user interactions with desktop applications. The workspace provides a visual canvas where you can design multi-screen automation workflows that capture business processes across different applications.
 
 **Important:** Access to the Design workspace and Execution workspace depends on the user’s role.
 
@@ -20,13 +20,13 @@ The Design workspace is an interactive environment within Agentic Desktop that e
 
 You don’t open the Execution workspace directly. It launches automatically when you test or run a desktop action.
 
-## Agentic Desktop home page
+## AI Desktop Actions home page
 
 The home page provides an intuitive interface to help you quickly create, track, and manage your desktop actions. You can easily find and manage your existing desktop actions and monitor their status.
 
-![Agentic Desktop home page with Create desktop action UI action, search and filter options, and cards of existing desktop actions.](../image/home-page-actions-ad.png "Agentic Desktop home page")
+![AI Desktop Actions home page with Create desktop action UI action, search and filter options, and cards of existing desktop actions.](../image/home-page-actions-ad.png "AI Desktop Actions home page")
 
-When you log in to Agentic Desktop, the home page is the first screen you see. The home page lets you interact with various functionalities.
+When you log in to AI Desktop Actions, the home page is the first screen you see. The home page lets you interact with various functionalities.
 
 -   **Create desktop action**
 
@@ -48,16 +48,22 @@ When you log in to Agentic Desktop, the home page is the first screen you see. T
 
     You can modify a desktop action by selecting the **Edit** option for each card. Any changes you make are saved and reflected on the home page.
 
+-   **First-time user onboarding**
+
+    When you open AI Desktop Actions for the first time, an onboarding wizard guides you through steps to create and activate a desktop action.
+
+    Select **Skip intro** to bypass the onboarding wizard and go to the home page. Select the **Don't show this again** option to prevent the wizard from appearing the next time you open the app. After completing the onboarding wizard, select **Get started** to start creating desktop actions.
+
 -   **Access to profile and documentation**
 
     A dedicated section enables you to view your profile information, access product documentation, and check the product version.
 
 
-## Agentic Desktop Design tab
+## AI Desktop Actions Design tab
 
 The Design workspace provides a no-code environment for creating, managing, and testing your desktop actions. You can either auto-capture or manually record a series of steps you perform on your computer, such as clicking buttons, entering text, selecting from drop-down, or interacting with different applications. You can then save this sequence as a reusable desktop action.
 
-![Agentic Desktop Design tab that shows interface elements like Design, Details tabs, Screens and steps panel, and a captured currency converter screen with numbered annotations.](../image/design-tab-overview-ad.png "Design tab")
+![AI Desktop Actions Design tab that shows interface elements like Design, Details tabs, Screens and steps panel, and a captured currency converter screen with numbered annotations.](../image/design-tab-overview-ad.png "Design tab")
 
 <table id="table_dqh_1bz_ghc"><thead><tr><th>
 
@@ -235,15 +241,15 @@ Screen capture options
 </table>**Related topics**  
 
 
-[Desktop actions in Agentic Desktop](desktop-actions-designer-workspace-ad.md)
+[Defined path desktop actions in AI Desktop Actions](desktop-actions-designer-workspace-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in Agentic Desktop](../task/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](../task/auto-create-desktop-action-ad.md)
 
-[Automate repetitive tasks by manually capturing steps in Agentic Desktop](../task/manual-create-desktop-action-ad.md)
+[Automate repetitive tasks by manually capturing steps in AI Desktop Actions](../task/manual-create-desktop-action-ad.md)
 
-[Example: Automate badge request management using Agentic Desktop](example-badging-magmt-concept-ad.md#)
+[Example: Automate badge request management using AI Desktop Actions](example-badging-magmt-concept-ad.md#)
 
-[Example: Automate shipping management tasks using Agentic Desktop](example-shipping-magmt-concept-ad.md#)
+[Example: Automate shipping management tasks using AI Desktop Actions](example-shipping-magmt-concept-ad.md#)
 
-[Screen, anchor, and step properties in Agentic Desktop](../reference/screen-anchor-and-action-properties-ad.md)
+[Screen, anchor, and step properties in AI Desktop Actions](../reference/screen-anchor-and-action-properties-ad.md)
 

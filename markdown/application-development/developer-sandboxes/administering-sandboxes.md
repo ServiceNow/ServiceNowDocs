@@ -18,7 +18,7 @@ If you have permission, you can allocate and retire the sandboxes you've created
 
 ## Configuration overview
 
-1.  [Create a sandbox template](create-sandbox-template.md)
+1.  [Using sandbox templates](create-sandbox-template.md)
 
     Create a template to reuse generated data in your sandbox.
 

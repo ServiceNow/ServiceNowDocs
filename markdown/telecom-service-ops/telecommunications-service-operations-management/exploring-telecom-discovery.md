@@ -7,8 +7,8 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Telecom Visibility, Explore, Telecommunications Service Operations Management]
+reading_time_minutes: 2
+breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom Discovery
@@ -30,8 +30,6 @@ With Telecom Discovery, you can:
 -   Enrich CMDB data using Service Graph Connectors and specialized discovery patterns.
 -   Identify discrepancies between discovered network data and inventory records.
 -   Support automation use cases through consistent and accurate infrastructure visibility.
-
-## Telecom Discovery architecture
 
 ## Integration with ITOM Visibility
 
@@ -58,4 +56,11 @@ This approach enables CSPs to stay agile and reduce time to value when expanding
 -   Telecommunication Discovery Patterns\(sn\_tsom\_patterns\): Provides patterns for SNMP-based discovery of standalone routers, switches, and xNFs. Includes Cisco and Juniper-specific discovery logic.
 -   Service Graph Connector for Nokia Altiplano\(sn\_sgc\_altiplano\_connector\): Enables data collection from the Nokia Altiplano Access SDN Controller via REST APIs.
 -   Telecom Core\(sn\_tsom\_core\): Delivers foundational capabilities such as discrepancy identification, remediation logic, and shared telecom discovery features.
+
+**Related topics**  
+
+
+[Configure Telecom Visibility](../task/configuring-tsom-visibility.md)
+
+[Use Telecom Discovery patterns](using-telecom-discovery-patterns.md)
 

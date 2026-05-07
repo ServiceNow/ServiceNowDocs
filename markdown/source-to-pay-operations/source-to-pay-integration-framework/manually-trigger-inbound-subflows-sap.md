@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Configure, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -29,7 +29,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 3.  In the Integration Services list, select the subflows that you want to manually trigger.
 
-    ![Manually trigger flows or subflows in SAP (Inbound)](../image/sap-integration-manual-trigger-flow.png "Manually trigger flows or subflows in SAP")
+    ![Manually trigger flows or subflows in SAP (Inbound)](../../source-to-pay-operations/image/sap-integration-manual-trigger-flow.png "Manually trigger flows or subflows in SAP")
 
 4.  Select **Run job** to trigger the flow or subflow.
 
@@ -45,7 +45,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     You can view the flows or subflows that you triggered.
 
-    ![View the list of Flows or subflows in Workflow Studio](../image/sap-integration-manual-trigger-ws.png "Flows or subflows in Workflow Studio")
+    ![View the list of Flows or subflows in Workflow Studio](../../source-to-pay-operations/image/sap-integration-manual-trigger-ws.png "Flows or subflows in Workflow Studio")
 
 9.  You can use the trigger condition as a part of the base system to execute the flow or subflow.
 

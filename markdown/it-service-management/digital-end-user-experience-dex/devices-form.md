@@ -49,7 +49,10 @@ Last logged in name
 
 Name of the person who had last logged in to the device.When the user isn’t a ServiceNow user, the name appears as `"-"`.
 
-**Note:** When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
+**Note:**
+
+-   When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
+-   The device list, including last logged-in user details, refreshes every 25 minutes.
 
 </td></tr><tr><td>
 
@@ -59,7 +62,10 @@ Last logged in user ID
 
 User ID of the person who had last logged in to the device.When the user isn’t a ServiceNow user, the name appears as `"-"`.
 
-**Note:** When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
+**Note:**
+
+-   When you select the user’s link, it redirects to the Users page in Service Operations Workspace.
+-   The device list, including last logged-in user ID, refreshes every 25 minutes.
 
 </td></tr><tr><td>
 

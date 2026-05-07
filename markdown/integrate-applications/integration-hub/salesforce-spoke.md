@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Salesforce spoke v2.4.2 is the latest version.
+Salesforce spoke v2.4.3 is the latest version.
 
 ## Supported version
 

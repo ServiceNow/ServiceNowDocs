@@ -1,13 +1,13 @@
 ---
 title: GlideAggregate - Scoped
-description: The GlideAggregate API enables creating database aggregation queries.Creates a GlideAggregate object on the specified table.Adds an aggregate to a database query.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a query to the aggregate.Adds a not null query to the aggregate.Adds a null query to the aggregate.Adds a trend for a specified field. Use a trend to show patterns over a period of time.Returns the value of an aggregate from the current record.Gets the query necessary to return the current aggregate.Retrieves the encoded query.Retrieves the number of rows in the GlideAggregate object.Retrieves the table name associated with this GlideAggregate object.Returns the value of the specified field.Provides the name of a field to use in grouping the aggregates.Determines if there are any more records in the GlideAggregate object.Moves to the next record in the GlideAggregate.Orders the aggregates using the value of the specified field. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field.Sorts the aggregates in descending order based on the specified field. The field will also be added to the group-by list.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Sets whether to group the return results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
+description: The GlideAggregate API enables creating database aggregation queries.Creates a GlideAggregate object on the specified table.Adds an aggregate to a database query.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a query to the aggregate.Adds a not null query to the aggregate.Adds a null query to the aggregate.Adds a trend for a specified field. Use a trend to show patterns over a period of time.Returns the value of an aggregate from the current record.Gets the query necessary to return the current aggregate.Retrieves the encoded query.Retrieves the number of rows in the GlideAggregate object.Retrieves the table name associated with this GlideAggregate object.Returns the value of the specified field.Provides the name of a field to use in grouping the aggregates.Determines if there are any more records in the GlideAggregate object.Moves to the next record in the GlideAggregate.Orders the aggregates using the value of the specified field. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field.Sorts the aggregates in descending order based on the specified field. The field will also be added to the group-by list.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Activates or deactivates the running of business rules for aggregate queries.Sets whether to group the return results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
 locale: en-US
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 15
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -969,6 +969,64 @@ database count: 1
 Hardware count: 1
 inquiry count: 7
 software count: 1
+```
+
+## Scoped GlideAggregate - setAggregateWorkflow\(Boolean workflow\)
+
+Activates or deactivates the running of business rules for aggregate queries.
+
+The session-level workflow setting \(`gs.getSession().setWorkflow()`\) overrides this method. When you deactivate the session workflow, query business rules do not run regardless of this method's setting.
+
+**Warning:** Disabling the running of business rules, script engines, and audit can have a significant impact on your ServiceNow® instance and how it operates. Ensure that you thoroughly test this change before deploying it to production.
+
+<table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+workflow
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether business rules are active for the current GlideAggregate query.Valid values:
+
+-   `true`: Activates business rules for the current query.
+-   `false`: Deactivates business rules for the current query.
+
+Default: `false`
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to activate business rules for an aggregate query.
+
+```
+var incidentGA = new GlideAggregate('incident');
+incidentGA.setAggregateWorkflow(true); // activate business rules for this aggregate
+incidentGA.addAggregate('COUNT', 'sys_mod_count');
+incidentGA.query();
+```
+
+The output includes business rule execution logs if the glide.businessrule.callstack property is in the System Properties \[sys\_properties\] table and set to `true`. Set this property to `false` when not needed to avoid performance impact.
+
+```
+BUSINESS RULE - About to execute business rule 'incident query' on incident:<span class = "session-log-bold-text"> </span>
+BUSINESS RULE - Finished executing business rule 'incident query' on incident:<span class = "session-log-bold-text"> </span>
 ```
 
 ## Scoped GlideAggregate - setGroup\(Boolean b\)

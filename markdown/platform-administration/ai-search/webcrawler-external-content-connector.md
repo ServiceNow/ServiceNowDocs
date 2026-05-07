@@ -6,8 +6,8 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-04-21"
+reading_time_minutes: 2
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Configure, External Content Connectors, ServiceNow Store applicatio
 # Webcrawler external content connector
 
 The Webcrawler external content connector retrieves pages and subdomains from a public website and makes their content and metadata searchable in AI Search applications. This connector can crawl content from predefined public web sources or your own custom web sources.
+
+**Note:** This external content connector is not included in the External Content Connectors Application Suite application. To use this connector, you must install it separately. For details on installation, see [Install External Content Connectors](../task/install-ext-cont-connectors.md).
 
 Connector administrators can run or schedule content crawls to retrieve updated content from pages and subdomains found on the selected website. Scheduled content crawls can run on a daily, weekly, or monthly basis. Content crawls feed their data to AI Search for indexing.
 

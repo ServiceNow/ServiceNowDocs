@@ -23,7 +23,7 @@ Role required: ui\_builder\_admin
 
 An event handler lets you configure an action, components, data resource, or declarative action on your page. For example, you can map an event to your page to add an alert notification when the page successfully loads or you can add an event handler for a button component to perform an action when a user clicks it. The event handler could also be a modal on your page that asks a user to verify that the user wants to delete the record. For more information, see [Manage actions in UI Builder pages](../concept/work-events.md).
 
-**Note:** You can also use Now Assist in UI Builder to configure event handlers. For more, information, see 
+**Note:** You can also use Now Assist in UI Builder to configure event handlers. For more, information, see [Configure an event handler with Now Assist](../../ui-generation/task/configure-an-event-handler-with-now-assist.md)
 
 ## Procedure
 

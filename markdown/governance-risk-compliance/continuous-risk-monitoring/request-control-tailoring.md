@@ -25,7 +25,7 @@ CAM admins, System owners, ISSOs, and ISSMs can create control tailoring request
 
 After you request approval for a control tailoring request, the system assigns it to the Authorizing Official \(AO\) configured for the authorization package and sends an email notification. The AO reviews only the delta changes in the Requested Changes tab and can approve, request more information, or reassign to a different AO. If more information is needed, the request returns to the submitter for modifications before resubmission.
 
-On approval, changes are applied to baseline controls. Only modified controls transition to new states while unchanged controls retain their current state. All control tailoring activities are recorded in the authorization package work notes.
+After approval, changes are applied to baseline controls. Only modified controls transition to new states while unchanged controls retain their current state. All control tailoring activities are recorded in the authorization package work notes.
 
 ## Control state transitions
 
@@ -37,5 +37,5 @@ When you change a hybrid control to inherited or fully inherited, the system upd
 
 ## Package status during approval
 
-While a control tailoring request is pending approval, the proposed baseline changes do not take effect until the AO approves the request. Only one new control tailoring request is allowed per package at a time.
+While a control tailoring request is pending approval, the proposed baseline changes do not take effect until the AO approves the request. After approval, the system applies the changes to baseline controls and updates related controls accordingly. Only one control tailoring request in New state is allowed per package at a time.
 

@@ -29,15 +29,15 @@ Only skill administrators can create or edit skills. Skill managers can assign s
 
 2.  Assign a skill level to a user or add a skill along with the skill level.
 
-<table id="choicetable_rhd_lv2_hhb"><thead><tr><th align="left" id="d120129e75">
+<table id="choicetable_rhd_lv2_hhb"><thead><tr><th align="left" id="d122503e75">
 
 To
 
-</th><th align="left" id="d120129e78">
+</th><th align="left" id="d122503e78">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d120129e84">
+</th></tr></thead><tbody><tr><td id="d122503e84">
 
 **Assign a skill proficiency level to a user**
 
@@ -52,7 +52,7 @@ Do this
 4.  Select **OK**.
 The skill level for the skill is assigned to the user. You can also select an existing skill level and select a higher or lower skill level for the user.
 
-</td></tr><tr><td id="d120129e119">
+</td></tr><tr><td id="d122503e119">
 
 **Create new skill**
 

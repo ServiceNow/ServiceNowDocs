@@ -27,7 +27,7 @@ If you only need to create one fourth-nth party record or don't have time to sen
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All fourth parties**.
+2.  Select the list icon![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All fourth parties**.
 
 3.  Select **New**.
 

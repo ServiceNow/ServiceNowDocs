@@ -1,6 +1,6 @@
 ---
 title: Install Accounts Payable Invoice Processing
-description: You can install the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 release: australia
 product: Accounts Payable Operations
@@ -13,15 +13,15 @@ breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 
 # Install Accounts Payable Invoice Processing
 
-You can install the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Accounts Payable Invoice Processing application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   The Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) application installs the following dependent plugins:
-    -   Invoice Case Management \(com.sn\_ap\_cm\)
-    -   Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\)
+-   The Accounts Payable Invoice Processing \(sn\_ap\_apm\) application installs the following dependent plugins:
+    -   Invoice Case Management \(sn\_ap\_cm\)
+    -   Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\)
 
 Role required: admin
 
@@ -40,7 +40,7 @@ For more information, see [Components installed with Accounts Payable Invoice Pr
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Accounts Payable Operations application \(com.sn\_ap\_apm\) using the filter criteria and search bar.
+2.  Find Accounts Payable Invoice Processing \(sn\_ap\_apm\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

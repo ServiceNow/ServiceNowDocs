@@ -6,8 +6,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-29"
-reading_time_minutes: 10
+last_updated: "2026-05-06"
+reading_time_minutes: 11
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ The Settings page enables you to customize and manage high-level Discovery prope
 
 To access the Discovery Admin Workspace Settings page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Settings**.
 
-**Note:** The capabilities described here are available in Discovery Admin Workspace v1.13.0. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available in Discovery Admin Workspace v1.13.0 or later. Specific version requirements are noted for individual features where applicable.
 
 ## General
 
@@ -126,7 +126,7 @@ Discovery notifications enable administrators to receive real-time alerts or dai
 
     Enables you to configure where your team receives Discovery notifications to respond quickly to urgent anomalies, errors, and failures.
 
-    To integrate your Microsoft Teams channel or email for notifications, select **Configure** the first time you set up the integration, or use the **Edit** icon \(![Edit credentials icon.](../../../reuse/itom/image/workspace-icon-edit.png)\) to update it at any time. For Microsoft Teams, enter a channel name and URL in the corresponding fields.
+    To integrate your Microsoft Teams channel or email for notifications, select **Configure** the first time you set up the integration, or use the edit icon \(![Edit credentials icon.](../../../reuse/itom/image/workspace-icon-edit.png)\) to update it at any time. For Microsoft Teams, enter a channel name and URL in the corresponding fields.
 
     **Note:** The channel name is unique to Discovery Admin Workspace, but the channel URL must be obtained directly from Microsoft Teams.
 
@@ -155,13 +155,13 @@ Discovery notifications enable administrators to receive real-time alerts or dai
 
 ## URL discovery
 
-The URL Discovery settings control how ACC-VC collects web usage data from managed Windows and macOS devices. You can enable broad URL monitoring and manage targeted URLs to monitor from this page.
+The URL Discovery settings control how Agent Client Collector for Visibility \(ACC-VC\) collects web usage data from managed Windows and macOS devices. You can enable broad URL monitoring and manage targeted URLs to monitor from this page.
 
 **Important:** This feature requires the Australia, Zurich, or YP6 or later version of the ServiceNow AI Platform. Other app dependencies include:
 
--   ITOM URL Discovery v1.0.2.
+-   ITOM URL Discovery v1.1.0.
 -   Discovery Admin Workspace v1.14.0.
--   Agent Client Collector for Visibility \(ACC-VC\) v1.7.0.
+-   Agent Client Collector for Visibility \(ACC-VC\) v1.8.0.
 
 The browser extension must be enabled on the host.
 
@@ -169,13 +169,26 @@ The browser extension must be enabled on the host.
 
     Enables full monitoring of web usage data from managed devices. Use the **Discover all URLs** toggle to enable data to be captured for all URLs that are visited. This feature is inactive by default, data is captured only for your targeted URLs. When enabled, data is captured for all URLs accessed on Chrome-based browsers across managed devices, in addition to any targeted URLs. Data is kept for a maximum of 30 days. Data is deleted if a URL is removed or if the discovery type is changed.
 
-    **Warning:** Enabling this feature captures data for all URLs accessed on managed devices. This method may not be compliant with EU GDPR and other privacy regulations. Review your company policies before enabling.
+    **Warning:** Enabling this feature captures data for all URLs accessed on managed devices. This method may not be compliant with EU General Data Protection Regulation \(GDPR\) and other privacy regulations. Review your company policies before enabling.
 
 -   **Targeted URL discovery**
 
-    The Targeted URL Discovery list displays the URLs and URL patterns configured for monitoring. When broad URL discovery is turned off, the system captures data only for domains in this list.
+    The Targeted URL Discovery list displays the URL or URL domain configured for monitoring. When broad URL discovery is turned off, the system captures data only for domains in this list.
 
-    To add an individual URL or bulk URLs to the list, select **Add new**. Complete the fields in the Add new URL form. Edit an individual URL by selecting the URL or URL pattern hyperlink. Select the filter icon \(![filter icon](../image/filter-icon-daw.png)\) to apply filters to the table.
+    Select **Add new** to add URLs to the monitored list. In the Add new URL dialog, select **Individual** or **Bulk** to choose how to add URLs.
+
+    -   Individual: Complete the fields in the Add new URL form and select **Save**.
+    -   Bulk: Add multiple URLs at once using a file upload. The bulk upload follows a three-step process:
+        1.  Download template: Select a template to download.
+        2.  Add file: Select a `.csv` or `.xlsx` file to upload. Select **+ Add another file** to include additional files. Select **Next** when at least one file is attached.
+        3.  Review: Review the parsed URL entries in the snapshot preview table before submitting. The table displays the URL pattern, Internal or External classification, Category, Product, Publisher, and Application Service for each entry, along with a total URL count. Select **Add** to submit all URLs. Select **Cancel** at any step to close the dialog without saving.
+    Edit an individual URL by selecting the URL or URL domain hyperlink.
+
+    **Note:** No changes are applied until you select **Save**.
+
+    To remove a URL from the targeted monitoring list, select the corresponding check box and then select **Remove**. Confirm the removal when prompted. The URL is removed from the list immediately and is no longer actively monitored. Historical monitoring data for the removed URL is retained for 30 days before being deleted.
+
+    Select the filter icon \(![filter icon](../image/filter-icon-daw.png)\) to apply filters to the table.
 
 -   **URL Discovery Insights**
 
@@ -185,6 +198,4 @@ The browser extension must be enabled on the host.
 
     Select the link icon to access the Agent Client Collectors \[sn\_agent\_cmdb\_ci\_agent\] table.
 
-
-**Note:** No changes are applied until you select **Save**.
 

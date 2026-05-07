@@ -52,15 +52,15 @@ For more information, see [Document Intelligence workspace with Now Assist](../c
 
     For information on using the draw tool, see [Extract fields using the draw tool](../concept/use-draw-mode-to-extract-fields.md#).
 
-<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d64413e206">
+<table id="choicetable_k5x_lfh_b2c"><thead><tr><th align="left" id="d70178e206">
 
 Option
 
-</th><th align="left" id="d64413e209">
+</th><th align="left" id="d70178e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64413e215">
+</th></tr></thead><tbody><tr><td id="d70178e215">
 
 **Edit the field value or answer**
 
@@ -74,7 +74,7 @@ To make a change:
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d64413e256">
+</td></tr><tr><td id="d70178e256">
 
 **Mark the field value or answer as missing in the document**
 
@@ -88,7 +88,7 @@ If you can’t find an appropriate match, mark it as missing in the document.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d64413e300">
+</td></tr><tr><td id="d70178e300">
 
 **Mark the field value or answer as reviewed**
 

@@ -37,6 +37,8 @@ With resource assignments, you can:
 Create an attribute-based resource assignment in the Project Workspace application for any project or project task.
 -   **[Update resource assignment from Project Workspace](../task/update-resource-assignment-pw.md)**  
 Update a resource assignment that is associated with a project or project task.
+-   **[Assign a resource using AI resource finder](../../project-workspace/task/assign-resources-using-resource-finder-pw.md)**  
+Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
 -   **[Manage resources from resource page in Project Workspace](../task/manage-resource-assignment-pw.md)**  
 View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page shows all project-associated resources and their assignments to support forecasting and visualization of resource demands.
 -   **[Access, assign, and approve unassigned work in Project Workspace](../task/assign-approve-unassigned-work-pw.md)**  

@@ -25,13 +25,13 @@ Role required: admin
 
 2.  Run the Filter option to filter out the list by **Application**: Major Security Incident Management and **Table**: sn\_si\_incident.
 
-    ![UI Actions for linking reocrds](../image/ui-actions-step3.png)
+    ![UI Actions for linking records](../image/ui-actions-step3.png)
 
 3.  Select each UI action one by one and save the details for the source table.
 
     ![Change source table](../image/ui-action-change-source-table-step3.png)
 
-4.  Repeat the same steps as above for the following UI actions:
+4.  Repeat the steps for the following UI actions:
 
     -   Link to Major Security incident
     -   Proposed Major Security Incident

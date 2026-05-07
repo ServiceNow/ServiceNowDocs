@@ -22,7 +22,7 @@ Users with the Financial Admin \(`financial_mgmt_admin`\) and Financial User \(`
 -   **[Create a CI rate card](../task/t_CreateACIRateCard.md)**  
 You can add a CI rate card that specifies an hourly rate and associate a rate code.
 -   **[Add a condition to a CI rate card](../task/t_AddAConditionToACIRateCard.md)**  
-If you are adding a condition to a CI rate card, use the **Update CI List** related link to create the relationship between the configuration item or items and the rate card.
+If you're adding a condition to a CI rate card, use the **Update CI List** related link to create the relationship between the configuration item or items and the rate card.
 -   **[CI rate card costs](c_CIRateCardCosts.md#)**  
 CI rate card costs generate expense lines for configuration items on the associated rate card
 -   **[Aggregate CI costs](c_AggregateCICosts.md)**  

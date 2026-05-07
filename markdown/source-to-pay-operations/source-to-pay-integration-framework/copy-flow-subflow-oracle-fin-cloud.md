@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Use schedule flows in Oracle Financial Cloud, Use, Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Copy a flow or subflow in Oracle Financial Cloud
@@ -31,7 +31,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Copy a flow or subflow in Oracle Financial Cloud](../image/oracle-fin-copy-subflow.png "Copy a flow or subflow in Oracle Financial Cloud")
+    ![Copy a flow or subflow in Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-copy-subflow.png "Copy a flow or subflow in Oracle Financial Cloud")
 
 5.  Activate the flow or subflow.
 
@@ -46,7 +46,7 @@ Role required: sn\_fcms\_intg.integration\_user
     -   **Status** is **Pending Submission**
     **Note:** Do not modify the trigger condition.
 
-    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md)
+    **Note:** Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md)
 
     You have successfully copied and executed the flow.
 

@@ -7,7 +7,7 @@ product: Now Assist in Document Intelligence
 classification: now-assist-in-document-intelligence
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
 breadcrumb: [Reference, Now Assist in Document Intelligence, Enable AI experiences]
 ---
@@ -52,7 +52,13 @@ Page count limit
 
 </td><td>
 
-If image mode is turned on for the use case, the page count limit is 10 pages per file.
+Image mode supports 10 to 50 pages per file, although this isn’t a hard limit. The 50-page limit serves as a suggested upper boundary, and actual performance may vary based on the following factors:
+
+-   Model constraints: Some models have specific limits on the number of images per request. For instance, some models may limit requests to a maximum of 20 images.
+-   File complexity and size: Documents with dense text or large images consume more tokens and memory, which can impact processing time and efficiency.
+-   Platform payload limits: There is a 32MB upper limit for the data passed to the language model. Since image sizes can vary considerably, the exact number of pages that can be processed within this limit cannot be determined in advance.
+
+ Since these constraints vary based on your configuration, document characteristics, and the model used, it is essential to test your documents by gradually increasing the page count to identify the effective limits for your specific use case.
 
  If image mode is turned off, the page count limit is:
 

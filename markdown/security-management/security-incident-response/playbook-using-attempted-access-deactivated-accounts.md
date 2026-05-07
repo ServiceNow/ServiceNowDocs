@@ -1,6 +1,6 @@
 ---
 title: Use the Attempted Access to Deactivated Accounts playbook
-description: Use this playbook when an employee whose account is terminated, disabled, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
+description: Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 locale: en-US
 release: australia
 product: Security Incident Response
@@ -13,7 +13,7 @@ breadcrumb: [Playbook for Attempted Access to Deactivated Accounts, Flow-based P
 
 # Use the Attempted Access to Deactivated Accounts playbook
 
-Use this playbook when an employee whose account is terminated, disabled, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
+Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 
 ## Before you begin
 

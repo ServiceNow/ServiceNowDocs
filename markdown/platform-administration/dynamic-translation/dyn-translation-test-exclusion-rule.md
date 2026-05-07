@@ -44,15 +44,15 @@ You can test iteratively to refine your exclusion pattern.
 
 2.  Select the appropriate option for the first question, **Do you want to test an existing or new exclusion rule?**
 
-<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d190465e136">
+<table id="choicetable_smp_tfm_tfc"><thead><tr><th align="left" id="d193457e136">
 
 Option
 
-</th><th align="left" id="d190465e139">
+</th><th align="left" id="d193457e139">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d190465e145">
+</th></tr></thead><tbody><tr><td id="d193457e145">
 
 **Existing exclusion rule**
 
@@ -60,7 +60,7 @@ Description
 
 If you choose this option, the next field opens: **Which exclusion pattern would you like to test?** Select your pattern from the list, or use the field's search function.The information icon \(![Information icon.](../../localization-framework/image/information-icon.png)\) offers a read-only summary of the selected rule.
 
-</td></tr><tr><td id="d190465e163">
+</td></tr><tr><td id="d193457e163">
 
 **New exclusion rule**
 

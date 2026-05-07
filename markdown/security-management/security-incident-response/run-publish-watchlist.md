@@ -29,18 +29,14 @@ Role required: sn\_si.analyst
 
 2.  Select **Observables** from the **Related List** tab.
 
-3.  Click **Publish to Watchlist** in the **Actions on selected rows...** drop-down menu.
+3.  Select **Publish to Watchlist** in the **Actions on selected rows...** drop-down menu.
 
-    ![Run Publish to Watchlist](../image/RunPublish2Watchlist.png)
-
-    The dialog box appears.
-
-    ![Publish to Watchlist dialog box](../image/Publish2WatchlistDiaglogBox.png)
+    The Publish to Watchlist dialog box appears.
 
 4.  Enter or choose the implementation.
 
     **Note:** A workflow is triggered by the [Security Operations Integration- Publish to Watchlist capability](../concept/pubish-to-watchlist-capability.md) when you select the CrowdStrike Falcon Host implementation.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 

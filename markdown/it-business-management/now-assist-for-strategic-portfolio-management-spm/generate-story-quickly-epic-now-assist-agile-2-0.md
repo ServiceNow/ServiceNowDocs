@@ -28,6 +28,10 @@ Generate a complete user story directly from an epic using the Quick story gener
 
 Role required: scrum\_story\_creator
 
+## About this task
+
+AI quick story generation in Agile 2.0 
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agile Development** &gt; **Epics**.

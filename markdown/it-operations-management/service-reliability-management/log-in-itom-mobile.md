@@ -29,7 +29,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 2.  Enter the address of your instance manually or with a QR code.
 
-<table id="choicetable_o5x_tby_q2c"><tbody><tr><td id="d327989e120">
+<table id="choicetable_o5x_tby_q2c"><tbody><tr><td id="d333633e120">
 
 **Manual entry**
 
@@ -37,7 +37,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Replace `example.service-now.com` with the address of your instance. You don't need to include `service-now.com`. For example, enter `nebula-dev` for `nebula-dev.service-now.com`.
 
-</td></tr><tr><td id="d327989e149">
+</td></tr><tr><td id="d333633e149">
 
 **QR code**
 

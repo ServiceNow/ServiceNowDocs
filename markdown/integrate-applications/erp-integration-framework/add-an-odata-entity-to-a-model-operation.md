@@ -1,6 +1,6 @@
 ---
 title: Add an OData entity to a model operation
-description: Specify the OData entity that a Zero Copy Connector for ERP model uses for a read, update, or create operation.
+description: Specify the OData entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData entity to a model operation
 
-Specify the OData entity that a Zero Copy Connector for ERP model uses for a read, update, or create operation.
+Specify the OData entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 
 ## Before you begin
 
@@ -42,9 +42,9 @@ You must have already added the read, write, or create operation before you can 
 
 8.  In **Select type**, select **OData**.
 
-    The drop-down list in the **Select type** field only displays the types supported by the ERP system's software version specified on the model record. For example, if **SAP SuccessFactors Cloud** is set in the **ERP software** field for the model, the only entity type available is OData.
-
 9.  In **Select service**, specify the OData service to use.
+
+    If you don't see the service you need, add the service by selecting **+ Add service manually**. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](erp-add-a-service-manually.md).
 
 10. Wait for the **OData Endpoints** field to load and then in **Select the endpoints**, specify an endpoint.
 

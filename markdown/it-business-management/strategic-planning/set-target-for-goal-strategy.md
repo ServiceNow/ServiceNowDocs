@@ -42,15 +42,15 @@ A SMART target can be defined as S = Specific, M = Measurable, A = Attainable, R
 
 3.  Add a target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d140863e146">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d138277e146">
 
 Option
 
-</th><th align="left" id="d140863e149">
+</th><th align="left" id="d138277e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d140863e155">
+</th></tr></thead><tbody><tr><td id="d138277e155">
 
 **From the Goals page**
 
@@ -58,7 +58,7 @@ Steps
 
 Next to the goal that you want to add a target for, select the row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\) and select **Add target**.
 
-</td></tr><tr><td id="d140863e173">
+</td></tr><tr><td id="d138277e173">
 
 **From the Strategy page**
 

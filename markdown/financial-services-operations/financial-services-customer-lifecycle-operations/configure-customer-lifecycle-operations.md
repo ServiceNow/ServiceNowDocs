@@ -25,15 +25,15 @@ Role required: sn\_bom\_clo\_b2b.admin or sn\_bom\_clo\_b2c.admin
 
 1.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d45622e112">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d47408e112">
 
 Task
 
-</th><th align="left" id="d45622e115">
+</th><th align="left" id="d47408e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45622e121">
+</th></tr></thead><tbody><tr><td id="d47408e121">
 
 **Configure CSM Configurable Workspace**
 
@@ -41,7 +41,7 @@ Description
 
 [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) to customize your workspace to suit your business needs.
 
-</td></tr><tr><td id="d45622e146">
+</td></tr><tr><td id="d47408e146">
 
 **Configure playbooks**
 
@@ -49,7 +49,7 @@ Description
 
 [Edit or create a new playbook](../../fso-common/task/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d45622e168">
+</td></tr><tr><td id="d47408e168">
 
 **Configure service definitions**
 
@@ -57,7 +57,7 @@ Description
 
 [Configure service definitions](../../fso-common/task/configure-service-definitions.md) to enable unique flows and views for Customer Lifecycle Operations service cases and tasks.You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d45622e193">
+</td></tr><tr><td id="d47408e193">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -65,7 +65,7 @@ Description
 
 [Configure the installed SLAs](../../fso-common/task/configure-sla-definitions-fso-cases.md) to configure SLA timings for Customer Lifecycle Operations service cases and tasks.
 
-</td></tr><tr><td id="d45622e216">
+</td></tr><tr><td id="d47408e216">
 
 **Configure user groups**
 
@@ -73,7 +73,7 @@ Description
 
 [Configure user groups](../../fso-common/task/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d45622e235">
+</td></tr><tr><td id="d47408e235">
 
 **Configure assignment rules**
 
@@ -81,7 +81,7 @@ Description
 
 [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d45622e251">
+</td></tr><tr><td id="d47408e251">
 
 **Configure Document Processor**
 

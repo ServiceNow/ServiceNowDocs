@@ -23,11 +23,11 @@ Now Assist for Setup provides a centralized, guided installation experience for 
 
 </td><td>
 
-Configure![Configuration console for ITOM Visibility](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configuration console for ITOM Visibility
+[Configure![ITOM Configuration console for Discovery](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configuration console for ITOM Visibility](../concept/itom-conf-console.md)
 
 </td><td>
 
-Reference![Information about forms](../../../reuse/icons/brand-icons/bus-learn.svg)Information about forms
+
 
 </td></tr></tbody>
 </table>## Helpful resources

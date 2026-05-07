@@ -28,7 +28,7 @@ On the Purchase Order Management, navigate to **Lists** &gt; **My work** &gt; **
 |Activity stream|Displays processing activities, comments, and changes to the state of the exception. You can filter activities by post types, field changes, and flagged activities.|
 |Contextual side panel|Includes options to add attachments and templates related to the purchase order exception.|
 
-**Note:** Purchase order exceptions are automatically archived three years from their creation date and will no longer be available for editing or action.
+**Note:** Inactive purchase order exceptions are archived one year after their creation date and are not available for editing or action. Archived purchase order exceptions are permanently deleted after three years.
 
 **Parent Topic:**[Source-to-Pay Workspace](purch-order-mgmt-ws.md)
 

@@ -95,15 +95,15 @@ Recalculate remediation target date
 
     -   In Workspace, this option appears in the Recalculate target date section
     -   In Classic view, use the **Target recalculation method** field.
-<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d407126e405">
+<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d414404e405">
 
 Choice
 
-</th><th align="left" id="d407126e408">
+</th><th align="left" id="d414404e408">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d407126e414">
+</th></tr></thead><tbody><tr><td id="d414404e414">
 
 **Default calculation**
 
@@ -111,7 +111,7 @@ Description
 
 Retains the existing RT date. The recalculated date isn’t applied.
 
-</td></tr><tr><td id="d407126e423">
+</td></tr><tr><td id="d414404e423">
 
 **Recalculate from risk change date**
 
@@ -119,7 +119,7 @@ Retains the existing RT date. The recalculated date isn’t applied.
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the new risk rating.
 
-</td></tr><tr><td id="d407126e432">
+</td></tr><tr><td id="d414404e432">
 
 **Recalculate from risk change date and always set to earliest target date**
 
@@ -127,7 +127,7 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d407126e441">
+</td></tr><tr><td id="d414404e441">
 
 **Recalculate from risk change date and set to earliest target date only when risk rating increases**
 

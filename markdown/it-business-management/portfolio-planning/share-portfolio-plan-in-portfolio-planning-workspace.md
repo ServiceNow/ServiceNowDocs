@@ -7,7 +7,7 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -37,6 +37,10 @@ When you share a portfolio plan with an individual user or a group, they can acc
 
 3.  From the portfolio plan header in the Planning page, select the **Share portfolio plan** icon \(![Share portfolio plan with users and groups](../../alignment-planner-workspace/images/icon-share-pp.png)\).
 
+    **Note:** Alternatively, you can select Share actions icon \(![Share actions of a portfolio plan.](../../alignment-planner-workspace/images/share-actions-pp.png)\) and then select **Copy link** to copy a direct link to the portfolio plan that you can share with other users. The link provides access only to users who already have the required permissions.
+
+    ![Copy link to share a portfolio plan.](../../alignment-planner-workspace/images/copy-link-portfolio-plan.png)
+
 4.  On the Share portfolio plan form, select users to share the portfolio plan with and set their access appropriately.
 
     1.  In the **Members or Groups** field, enter the names of individual users or groups.
@@ -61,7 +65,7 @@ The selected individual and group users are notified of the portfolio plan shari
 
 You can change the access level or remove access for a user or a group.
 
-1.  On the Share portfolio plan form, select **Manage access**.
+1.  From the portfolio plan header, select Share actions icon \(![Share actions of a portfolio plan.](../../alignment-planner-workspace/images/share-actions-pp.png)\) and then select **Manage access**.
 2.  From the user or group card, select the Action Menu icon \(![Action menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\).
 3.  Select the right access level or select **Remove**.
 

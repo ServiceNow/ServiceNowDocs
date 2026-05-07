@@ -43,15 +43,15 @@ The customer interaction context summary skill provides a structured, context-aw
 
 3.  After the summary is generated, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d52740e150">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d54253e150">
 
 Option
 
-</th><th align="left" id="d52740e153">
+</th><th align="left" id="d54253e153">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d52740e159">
+</th></tr></thead><tbody><tr><td id="d54253e159">
 
 **Provide feedback for the summary**
 
@@ -59,7 +59,7 @@ Procedure
 
 If you think the summary was helpful, select the helpful icon \(![](../../customer-service-management/image/icon-helpful.png)\). If you think the summary wasn't helpful, select the not helpful icon \(![](../../customer-service-management/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help improve future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d52740e180">
+</td></tr><tr><td id="d54253e180">
 
 **View the information about the case summary**
 
@@ -67,7 +67,7 @@ If you think the summary was helpful, select the helpful icon \(![](../../custom
 
 To review details about the summary, select the more info icon \(![](../../customer-service-management/image/icon-more-info.png)\).
 
-</td></tr><tr><td id="d52740e194">
+</td></tr><tr><td id="d54253e194">
 
 **Expand or collapse the summary**
 

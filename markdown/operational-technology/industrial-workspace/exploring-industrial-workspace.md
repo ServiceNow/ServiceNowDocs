@@ -84,7 +84,7 @@ Equipment Model Manager
 
 </td><td>
 
-When you select the **Equipment Model** \(![](../image/equip-model-manager-button.png)\) icon, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
+When you select the **Equipment Model** \(![](../../mftg-manufacturing-process-mgr/image/equip-model-manager-button.png)\) icon, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
 
 </td></tr></tbody>
 </table>-   **[Operational Technology Action-Oriented Landing Page](oper-tech-task-oriented-landing-page.md)**  

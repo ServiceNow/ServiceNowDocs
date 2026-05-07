@@ -23,8 +23,6 @@ The following preferences \(**Field Normalization** &gt; **Administration** &gt;
 |Decoration URL|Enter the URL for the help/information link associated with the Field Normalization decoration. This link opens the page presented to users who do not have rights to see the normalization or transformation record. The default link opens a ServiceNow Wiki page with a general explanation of Field Normalization. The purpose of this page is to explain to normal users why a field value they entered was changed automatically.|
 |Restrict decorations to roles|Use this preference to define the user roles that can view the reference icon \(decoration\) adjacent to a normalized field. This decoration displays transformation and normalization records to users with the normalizer role. For all other users, it opens the URL specified in the Decoration URL preference. If this preference does not specify any roles, then all roles can see the decoration.|
 
-![](../image/NormalizationPreferences.png "Normalization preferences")
-
 ## Field Normalization business rules
 
 The following business rules were created for this plugin:

@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Generate thresholds for key alerts

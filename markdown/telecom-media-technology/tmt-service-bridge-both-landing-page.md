@@ -17,39 +17,39 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 
 <table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the benefits of Service Exchange and how it is used.](https://www.servicenow.com/docs/access?context=service-bridge-v2-exploring-service-bridge&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the benefits of Service Exchange and how it is used.](https://www.servicenow.com/docs/access?context=service-bridge-v2-exploring-service-bridge&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td><td>
 
-[Configure for providers![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Learn how to install and configure Service Exchange for providers.](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-provider&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Configure for providers![](../../../reuse/icons/brand-icons/bus-optimize-manage.svg)Learn how to install and configure Service Exchange for providers.](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-provider&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td><td>
 
-[Configure for consumers![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to install and configure Service Exchange for consumers.](https://www.servicenow.com/docs/access?context=service-bridge-v2-install&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Configure for consumers![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Learn how to install and configure Service Exchange for consumers.](https://www.servicenow.com/docs/access?context=service-bridge-v2-install&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td></tr><tr><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-switch.svg)Extend Service Exchange capabilities by integrating with other applications.](https://www.servicenow.com/docs/access?context=service-bridge-v2-omt-intg&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Integrate![](../../../reuse/icons/brand-icons/bus-switch.svg)Extend Service Exchange capabilities by integrating with other applications.](https://www.servicenow.com/docs/access?context=service-bridge-v2-omt-intg&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td><td>
 
-[Create remote record producers![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Offer catalog items to a consumer using remote catalog.](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Create remote record producers![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Offer catalog items to a consumer using remote catalog.](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-rec-prod&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td><td>
 
-[Configure outbound FDS for providers![](../../../reuse/icons/brand-icons/bus-transaction.svg)Configure outbound foundation data sync \(FDS\) settings for provider instances.](https://www.servicenow.com/docs/access?context=service-bridge-v2-using-foundation-data-sync&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Configure outbound FDS for providers![](../../../reuse/icons/brand-icons/bus-transaction.svg)Configure outbound foundation data sync \(FDS\) settings for provider instances.](https://www.servicenow.com/docs/access?context=service-bridge-v2-using-foundation-data-sync&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td></tr><tr><td>
 
-[Configure outbound FDS for consumers![](../../../reuse/icons/brand-icons/bus-transaction-data.svg)Configure outbound foundation data sync settings \(FDS\) for consumer instances.](https://www.servicenow.com/docs/access?context=using-provider-bound-fds-consumer&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Configure outbound FDS for consumers![](../../../reuse/icons/brand-icons/bus-transaction-data.svg)Configure outbound foundation data sync settings \(FDS\) for consumer instances.](https://www.servicenow.com/docs/access?context=using-provider-bound-fds-consumer&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td><td>
 
-[Create remote task definitions![](../../../reuse/icons/brand-icons/bus-learn.svg)Create remote task definitions to define the task types that can be shared across connected instances.](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Create remote task definitions![](../../../reuse/icons/brand-icons/bus-learn.svg)Create remote task definitions to define the task types that can be shared across connected instances.](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-work-order.svg)Get additional details about Service Exchange, including data model, error log, and cloning instances.](https://www.servicenow.com/docs/access?context=service-bridge-v2-reference&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Reference![](../../../reuse/icons/brand-icons/bus-work-order.svg)Get additional details about Service Exchange, including data model, error log, and cloning instances.](https://www.servicenow.com/docs/access?context=service-bridge-v2-reference&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 </td></tr></tbody>
 </table>## Additional resources

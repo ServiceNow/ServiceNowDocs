@@ -1,6 +1,6 @@
 ---
 title: Explore Access findings
-description: Access findings feature displays the potential vulnerabilities that are discovered the last time access checks were ran on your ServiceNow AI Platform.
+description: Access Findings runs eight out-of-box access checks against your instance on a daily schedule, letting you know when misconfigurations are detected. It also provides a complete remediation workflow that includes AI-powered guidance.
 locale: en-US
 release: australia
 product: Access Control
@@ -13,9 +13,9 @@ breadcrumb: [Access findings, Access Management]
 
 # Explore Access findings
 
-Access findings feature displays the potential vulnerabilities that are discovered the last time access checks were ran on your ServiceNow AI Platform.
+Access Findings runs eight out-of-box access checks against your instance on a daily schedule, letting you know when misconfigurations are detected. It also provides a complete remediation workflow that includes AI-powered guidance.
 
-To include a robust security scanning capability designed to automatically detect and report potential vulnerabilities in your instance there are two core components working in tandem: **Access checks** and **Access findings**.
+Access Findings include two core components that work in tandem: **Access checks** and **Access findings**.
 
 Together, these features provide a continuous, automated audit of your instance's security posture, helping you identify risks in real-time rather than waiting for manual reviews. To effectively manage your instance security, it is helpful to understand the distinct roles of checks and findings.
 

@@ -6,7 +6,7 @@ release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Emergency Outreach, Emergency Response Management, Employee Service Management]
 ---
@@ -24,8 +24,6 @@ Role required: none
 ## Procedure
 
 -   To reply to an email notification, select a response from the message and email it.
-
-    ![Email notification with choices that the user can select to report status.](../image/voluntary_health_checkin_email.png)
 
 -   To reply to a mobile push notification:
 

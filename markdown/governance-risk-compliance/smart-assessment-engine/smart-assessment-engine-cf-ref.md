@@ -7,7 +7,7 @@ product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -19,7 +19,7 @@ Reference topics provide the detailed descriptions of tables, properties, forms,
 
 Roles determine the permissions and access in the Smart Assessment Engine application.
 
-[Flow actions for fulfillment subflow definitions](../reference/sae-asmt-flow-actions-subflows.md)
+[Trigger Smart Assessment flow action](../reference/sae-asmt-flow-actions-subflows.md)
 
 If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance, which can help bring some consistency in how data is retrieved and updated.
 
@@ -27,7 +27,7 @@ If you define your own fulfillment subflows in Workflow Studio, you can use the 
 
 Roles determine the permissions and access in the Smart Assessment Engine application.
 
-[Flow actions for fulfillment subflow definitions](../reference/sae-asmt-flow-actions-subflows.md)
+[Trigger Smart Assessment flow action](../reference/sae-asmt-flow-actions-subflows.md)
 
 If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance, which can help bring some consistency in how data is retrieved and updated.
 
@@ -43,7 +43,7 @@ Use the Trigger smart assessment action form to add assessment actions to a flow
 
 Roles determine the permissions and access in the Smart Assessment Engine application.
 
-[Flow actions for fulfillment subflow definitions](../reference/sae-asmt-flow-actions-subflows.md)
+[Trigger Smart Assessment flow action](../reference/sae-asmt-flow-actions-subflows.md)
 
 If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance, which can help bring some consistency in how data is retrieved and updated.
 
@@ -67,7 +67,7 @@ You can use the assessment template migration form to specify the legacy metric 
 
 Roles determine the permissions and access in the Smart Assessment Engine application.
 
-[Flow actions for fulfillment subflow definitions](../reference/sae-asmt-flow-actions-subflows.md)
+[Trigger Smart Assessment flow action](../reference/sae-asmt-flow-actions-subflows.md)
 
 If you define your own fulfillment subflows in Workflow Studio, you can use the standard flow actions that are available in the ServiceNow AI Platform. Each action deals with different aspects of the fulfillment or inventory maintenance, which can help bring some consistency in how data is retrieved and updated.
 

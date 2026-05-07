@@ -92,7 +92,13 @@ Create stories, features, epics, or capabilities for teams to add work to their 
 Streamline breaking down work by creating child work items directly from the parent record page in Enterprise Agile Planning workspace.
 -   **[Create stories for work items in EAP](../task/create-single-or-multiple-child-items-for-epic-in-eap.md)**  
 Create stories directly from a work item's form. Create them manually or save time by generating them using Now Assist in the Enterprise Agile Planning \(EAP\) workspace.
--   **[Generate acceptance criteria for stories using Now Assist for Strategic Portfolio Management \(SPM\)](../task/generate-acceptance-criteria-for-eap-stories.md)**  
+-   **[Assess the status of an epic using Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/task/assess-epic-status-now-assist-eap.md)**  
+Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). Now Assist returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
+-   **[Generate a story from an epic using Now Assist for SPM in EAP](../../now-assist-spm/task/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
+Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and Now Assist generates a story title, description, and acceptance criteria that you can review and edit before saving.
+-   **[Generate multiple stories at once in EAP using Now Assist for SPM](../../now-assist-spm/task/generate-stories-from-epics-now-assist-eap.md)**  
+Breakdown epics and features into stories using the Now Assist panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, Now Assist generates stories.
+-   **[Generate acceptance criteria for EAP stories using Now Assist for Strategic Portfolio Management \(SPM\)](../../now-assist-spm/task/eap-generate-acceptance-criteria-for-stories.md)**  
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 -   **[Create a copy of work items in EAP Backlog](../task/create-copy-of-work-items-in-eap-backlog.md)**  
 For creating work items with details similar to an existing item, save time and effort by creating a copy of the existing item.

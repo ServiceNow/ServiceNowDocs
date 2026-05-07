@@ -335,7 +335,11 @@ Resource Managers can use this information to plan the resources and manage assi
 Create a custom resource card to view resources and unassigned tasks, and work on resource mapping for your persistent and focused portfolios.
 -   **[Create resource assignments and operation resource assignments in Resource Management Workspace](../task/create-ra-rmw.md)**  
 Create and assign resource assignments and operation resource assignments from Resource Management Workspace.
--   **[View, assign, and approve unassigned work using Resource Management Workspace](../task/allocate-resources-rmw.md)**  
+-   **[View unassigned tasks using Resource Management Workspace](../task/view-unassigned-work-rmw.md)**  
+Filter unassigned tasks to view custom requests to match with your organization's priorities and planning, and assign them to resources.
+-   **[Assign unassigned work using Resource finder](../task/assign-resources-using-resource-finder.md)**  
+Assign resource using the AI suggestions which match the skill-set and primary attributes requirements.
+-   **[Assign and approve unassigned work using Resource Management Workspace](../task/allocate-resources-rmw.md)**  
 Filter the unassigned work to view priority requests and assign them to resources. Quickly connect with the requester via Microsoft Teams to get additional insights and approve the assigned work using the inline editing feature.
 -   **[Move a resource assignment](../task/move-ra-rmw.md)**  
 Move a resource assignment to a different start and end dates depending on the availability of the resource.

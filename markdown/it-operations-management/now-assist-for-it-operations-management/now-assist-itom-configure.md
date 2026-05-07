@@ -27,5 +27,5 @@ You can activate the Now Assist skills for use in Now Assist for IT Operations M
 -   **[Configuring agents for Now Assist for ITOM](itom-ai-agent-configuration.md)**  
 Configure observability agents for the analyze alert impact agentic workflow. Once configured, they gather information to help you investigate alerts.
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\)](now-assist-itom.md)
+**Parent Topic:**[Now Assist for ITOM](now-assist-itom.md)
 

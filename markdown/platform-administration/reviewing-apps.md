@@ -20,6 +20,8 @@ You can leave a review on any ServiceNow Store solution that you have used. Eith
 
 You can view published reviews by selecting **Ratings and Reviews** from the app details navigation panel.
 
+The ability to leave reviews is only available to commercial customers at this time.
+
 -   **[Review an app](../task/review-an-app.md)**  
 Use your Now Support credentials to log in to the ServiceNow Store and leave a review on any app or integration you have used.
 -   **[Submit a guest review](../task/submit-a-guest-review.md)**  

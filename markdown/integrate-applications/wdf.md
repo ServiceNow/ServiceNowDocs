@@ -33,7 +33,7 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 </td><td>
 
-
+[Build data assets![](../../../reuse/icons/brand-icons/bus-case-and-knowledge-management.svg)Learn about data products and data interfaces](../../../administer/data-products/concept/data-products.md)
 
 </td><td>
 

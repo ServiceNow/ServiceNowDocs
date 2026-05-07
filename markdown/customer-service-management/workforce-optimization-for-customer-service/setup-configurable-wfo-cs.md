@@ -7,7 +7,7 @@ product: Workforce Optimization for Customer Service
 classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
@@ -19,6 +19,8 @@ Enable Workforce Optimization for Customer Service and configure settings to use
 Workforce Optimization for Customer Service solution is highly modular, offering a wide range of capabilities such as Channel Management, Scheduling, Coaching, and Teams applications in CSM Manager Workspace. The Workforce Optimization for CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to the Channel Management, Scheduling, Coaching, and Teams applications in Workforce Optimization for Customer Service.
 -   **[Components installed with Workforce Optimization for Customer Service](../reference/components-installed-configurable-wfo-cs.md)**  
 Several types of components are installed with activation of the CSM Configurable Workspace \(sn\_csm\_wfo\_workspa\) plugin, including user roles, key performance indicators \(KPIs\), scheduled jobs, properties, and tables.
+-   **[Decouple Channel Management dependencies from WFO](../../customer-service-management/concept/decouple-channel-management-dependencies-from-wfo.md)**  
+Decouple Channel Management from core Workforce Optimization \(WFO\) modules to support modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement.
 -   **[Work Scheduler components in Workforce Optimization for Customer Service reference](../reference/work-scheduler-wfo-cs-reference.md)**  
 Workforce Optimization for ITSM has properties to configure the Work scheduler default behavior.
 -   **[Domain separation in Workforce Optimization for Customer Service](domain-separation-configurable-wfo-cs.md)**  

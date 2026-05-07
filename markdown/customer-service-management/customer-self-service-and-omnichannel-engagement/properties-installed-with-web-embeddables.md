@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Activate Web Embeddables, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Activate Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Properties installed with Web Embeddables

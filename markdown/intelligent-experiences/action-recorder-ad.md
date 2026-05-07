@@ -1,17 +1,17 @@
 ---
-title: Action recorder in Agentic Desktop
-description: With Action recorder, you can auto-capture steps to automate repetitive tasks in Agentic Desktop. You can save the steps that you perform on the application elements as a reusable desktop action of type UI block.
+title: Action recorder in AI Desktop Actions
+description: With Action recorder, you can auto-capture steps to automate repetitive tasks in AI Desktop Actions. You can save the steps that you perform on the application elements as a reusable desktop action.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-02-11"
 reading_time_minutes: 2
-breadcrumb: [Explore, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Defined desktop actions for desktop, Explore, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Action recorder in Agentic Desktop
+# Action recorder in AI Desktop Actions
 
-With Action recorder, you can auto-capture steps to automate repetitive tasks in Agentic Desktop. You can save the steps that you perform on the application elements as a reusable desktop action of type UI block.
+With Action recorder, you can auto-capture steps to automate repetitive tasks in AI Desktop Actions. You can save the steps that you perform on the application elements as a reusable desktop action.
 
 Action recorder helps you record your interactions with desktop applications to create automated workflows. By recording steps, you can automate tasks that replicate your interactions. The recorded actions are displayed as screenshots in the Design workspace with anchors and steps automatically added.
 
@@ -48,9 +48,9 @@ You can capture maximum of 50 steps using the recorder in a recording session. W
 **Related topics**  
 
 
-[Agentic Desktop Design workspace](agentic-desktop-overview.md)
+[AI Desktop Actions Design workspace](agentic-desktop-overview.md)
 
-[Automate repetitive tasks by auto-capturing steps in Agentic Desktop](../task/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](../task/auto-create-desktop-action-ad.md)
 
-[Create badge desktop action in Agentic Desktop](example-badging-magmt-concept-ad.md#)
+[Create badge desktop action in AI Desktop Actions](example-badging-magmt-concept-ad.md#)
 

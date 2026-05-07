@@ -31,8 +31,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     The home screen for the Enterprise Asset Management application opens.
 
-    ![Enterprise Asset Management home screen in the ServiceNow Mobile Agent application.](../image/eam-mobile-agent-app-home-screen.png)
-
 3.  Tap **Asset disposal**.
 
     The Asset disposal screen opens, where you can view all open verification and departure tasks for your enterprise asset disposal orders.
@@ -63,7 +61,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     8.  After you scan or enter the asset tag value for all desired enterprise assets, go to the **Review** tab to verify the complete list.
 
-        If you want to remove any enterprise assets from the list, tap the Delete icon \(![Delete icon.](../image/delete-icon-mobile-agent-app.png)\) for that enterprise asset.
+        If you want to remove any enterprise assets from the list, tap the Delete icon ![](../image/delete-icon-mobile-agent-app.png) for that enterprise asset.
 
     9.  Tap **Submit**.
 
@@ -99,7 +97,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     8.  After you scan or enter the asset tag value for all desired enterprise assets, go to the **Review** tab to verify the complete list.
 
-        If you want to remove any enterprise assets from the list, tap the Delete icon \(![Delete icon.](../image/delete-icon-mobile-agent-app.png)\) for that enterprise asset.
+        If you want to remove any enterprise assets from the list, tap the Delete icon ![](../image/delete-icon-mobile-agent-app.png) for that enterprise asset.
 
     9.  Tap **Submit**.
 

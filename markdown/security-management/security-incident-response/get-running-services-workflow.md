@@ -34,8 +34,6 @@ Workflow activities include:
 -   [Get Running Services - WMI Enrichment activity](../../security-operations-integrations/reference/get-running-services-via-pwrshell-activity.md)
 -   [Create Enrichment Data records Flow Action](../../security-operations-common/concept/create-enrich-data-records.md)
 
-![Security Incident Response - Get Running Services workflow diagram](../image/get-running-services-workflow.png "Get Running Services")
-
 ## Procedure
 
 1.  Open a security incident.
@@ -44,7 +42,7 @@ Workflow activities include:
 
 3.  Add a Windows-based configuration item \(server, laptop, or similar\).
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     Security Incident Response provides running services information in the **Related Links** &gt; **Security Incident Enrichments**tab. For more information, see [Security Operations enrichment data mapping](../../security-operations-common/concept/enrichment-data-mapping.md).
 

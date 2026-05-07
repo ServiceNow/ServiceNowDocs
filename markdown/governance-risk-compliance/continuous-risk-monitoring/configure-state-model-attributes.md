@@ -17,7 +17,7 @@ Add existing Governance, Risk, and Compliance state model attributes to add spec
 
 ## Before you begin
 
-With CAM, you get the following form button attributes:
+With CAM, you get the following UI button attributes:
 
 -   Generate ATO Letter: Generates Authority to Operate \(ATO\) letter document.
 -   Generate Executive Summary: Generate an Executive Summary document.

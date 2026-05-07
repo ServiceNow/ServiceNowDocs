@@ -9,7 +9,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, security network communication, snc, security, data, communication, connection]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use an SNC \(Secure Network Communication\) connection in Zero Copy Connector for ERP
@@ -29,7 +29,7 @@ SNC is used to:
 SNC operates within the SAP NetWeaver Application Server \(AS\) environment. It uses the GSS-API \(Generic Security Services Application Program Interface\) to integrate with external security libraries and products. Commonly used security libraries include Kerberos-based solutions and SAP's own Secure Login Library \(SLL\).
 
 -   **[Configure an SNC connection in Zero Copy Connector for ERP](../task/erpc-configure-an-snc-connection-in-erp-canvas.md)**  
-Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
+Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 
 **Parent Topic:**[Configuring Zero Copy Connector for ERP](erp-integration-configuration-overview.md)
 

@@ -1,12 +1,11 @@
 ---
 title: Segments in the Query Generation semantic layer
-description: Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.Manual segments are admin-created saved searches with friendly names that bridge natural language questions and database filters for the Query Generation semantic layer.Follow these suggestions to help you use segments in the semantic layer effectively.
+description: Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
-keywords: [manual segments, query generation, semantic layer, saved searches]
+reading_time_minutes: 7
 breadcrumb: [Tuning the semantic layer, Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -26,8 +25,18 @@ There are two types of segments:
 
 -   **Manual Segments**
 
-    Created by admins via the Manual Segment Config table. Names are user-friendly— for example, "Critical Open Incidents".
+    Created by admins via the Manual Segment Config table. Names are user-friendly— for example, "Critical Open Incidents". Manual segments use a two-table data model with automatic synchronization and can be shipped with applications via plugins.
 
+
+| |Manual Segments|Automated Segments|
+|---|---------------|------------------|
+|Created by|Admin, shipped via update set|System-generated from reports, dashboards, filters, modules|
+|Name quality|User-friendly, tuned for search|Often technical—for example, "Incidents.Open"|
+|Search priority|5% boost over automated \(adjustable in**sn\_query\_gen.segments.manual\_segment\_scale\_factor**\)|Standard scoring|
+|LLM treatment|Retain all filters unless irrelevant|Critique each filter individually|
+|Prompt label|`user_defined_segment`|`automated_segment`|
+|Lifecycle|Fully controlled by admin|Tied to source record activity/usage|
+|Shipped with app|Yes \(update set\)|No \(generated at runtime\)|
 
 ## How segments work
 
@@ -39,12 +48,51 @@ In the LLM call, the system passes the Name, Description, Entity, and Filters. T
 |----|-------|------|
 |1: Input|Capture user's natural language query|Raw query text|
 |2: Search|Find semantically similar prebuilt segments|Subset of relevant segments|
-|3: Context|Provide segment metadata to LLM|Structured segment data|
-|4: Generate|Combine segment logic with new conditions|Complete executable query|
+|3: Scoring|Rank the set of relevant segments based on their semantic similarity scores|The subset of relevant segments, now ranked and sorted|
+|4: Context|Provide segment metadata to LLM|Structured segment data|
+|5: Generate|Combine segment logic with new conditions|Complete executable query|
+
+## How manual segments work
+
+Manual segments serve two roles at query time:
+
+-   **Entity discovery**
+
+    On first-time queries with no previous context, segment matches can add or boost entities in the entity list. A match against a manual segment name helps identify the intended entity by adding or boosting it in the candidate list. If a user asks "Show me critical open incidents" and a manual segment named "Critical Open Incidents" exists on the Incident \[incident\] table, the `incident` entity gets boosted in the results.
+
+-   **Filter provision**
+
+    Matching segments are formatted into the LLM prompt context. The LLM sees:
+
+    ```
+    **Related Segments**:
+    - **Critical Open Incidents** (user_defined_segment)
+      - description : High priority incidents that are open and unresolved
+      - entity : incident
+      - filter : { conditions : [{"field":"incident.priority","operator":"=","value":"1"}, ...] }
+    ```
+
+    The LLM then decides whether to reuse the segment's filters fully or partially when constructing the query. Manual segments are labeled `user_defined_segment` in the prompt, which tells the LLM to retain all filters unless completely irrelevant.
+
+
+## Manual segment scoring boost
+
+Manual segments receive a priority boost. When the engine searches for relevant segments, it scores each result by semantic similarity—how closely the segment's name and description match the user's question. By default, manual segments receive a 5% boost applied on top of their raw similarity score.
+
+The boost factor is configurable via the system property **sn\_query\_gen.segments.manual\_segment\_scale\_factor**. Increasing it, for example to `1.10`, elevates manual segments more strongly. Setting it to `1.0` removes the boost entirely.
+
+In practice, automated segments often have names that partially match user utterances. For example, a report called "Open Incidents" may score similarly to a manual segment called "Critical Open Incidents". The boost ensures that your handmade, domain-tuned segments surface ahead of system-generated ones when both are close matches.
+
+## How segment scoring works
+
+1.  AI Search returns a raw semantic similarity score \(0.0–1.0\) for each candidate segment.
+2.  Segments below the match threshold \(default `0.70`\) are discarded.
+3.  Manual segment scores are multiplied by the scale factor \(default `1.05`\).
+4.  Results are sorted by boosted score and capped at the result limit.
 
 ## Automatic segment sources
 
-The system auto-generates segments from existing ServiceNow data sources on a schedule. The Query Generation Sync Segments job creates segments automatically, running at installation and then weekly by default.
+The system auto-generates segments from existing data sources on a schedule. The Query Generation Sync Segments job creates segments automatically, running at installation and then weekly by default.
 
 |Source|What it pulls|
 |------|-------------|
@@ -86,76 +134,29 @@ You can change the time spans for indicator sources by applying a multiplier usi
 
 You can disable segment creation altogether, or for individual source types. You might disable segment generation to troubleshoot, or if segments from a source are "noisy." Each source type has a corresponding **sn\_query\_gen.segments.disable.\*** system property. Disable segments for that source by setting the corresponding system property to **true**. All existing segments created from sources of that type are excluded from AI Data Explorer search results. No new segments of that type are created. During the next Sync Segments job, all segments of that type are deactivated. For more information, see [Query Generation properties](querygen-properties.md).
 
+-   **[Guidelines for segments](general-guidelines-segments.md)**  
+Follow these suggestions to help you use segments in the semantic layer effectively.
+-   **[Create a manual segment](../task/querygen-create-segment-manually.md)**  
+Manual segments are admin-created saved searches with friendly names that bridge natural language questions and database filters for the Query Generation semantic layer.
+-   **[Manual segment data model and sync behavior](manual-segment-data-model-sync.md)**  
+Manual segments use a two-table data model with automatic synchronization between the configuration table and the runtime table used for search operations.
+-   **[Shipping manual segments via plugins](shipping-manual-segments-plugins.md)**  
+Business unit application developers can ship manual segments with their applications to provide domain-specific saved searches that work from the moment the app is installed.
+
+**Parent Topic:**[Tuning the semantic layer](../../ai-data-explorer/concept/semantic-layer-tuning-overview.md)
+
 **Related topics**  
 
+
+[Create a manual segment](../task/querygen-create-segment-manually.md)
+
+[Manual segment data model and sync behavior](manual-segment-data-model-sync.md)
+
+[Shipping manual segments via plugins](shipping-manual-segments-plugins.md)
+
+[Guidelines for segments](general-guidelines-segments.md)
 
 [Roles, tables, and scheduled jobs included with Query Generation](tables-sched-jobs-query-gen.md)
 
 [Query Generation properties](querygen-properties.md)
-
-## Create a manual segment
-
-Manual segments are admin-created saved searches with friendly names that bridge natural language questions and database filters for the Query Generation semantic layer.
-
-### Before you begin
-
-Role required: sn\_query\_gen.admin or higher
-
-### About this task
-
-Create manual segments in the following circumstances:
-
--   Your organization has standard terminology that maps to specific filters \(for example, "Sev1", "VIP", "overdue"\)
--   Users repeatedly ask the same filtered question and the system does not automatically pick up the right filter
--   You want to encode business logic that cannot be inferred from field values alone \(for example, "at-risk accounts" = combination of multiple conditions\)
--   The special terminology of your organization is not translated accurately to filter conditions
-
-**Tip:** The name and description are what AI search matches against. Use natural phrasing your users would say. Keep one segment per concept. Test by asking the question and checking if the segment appears in the logs.
-
-### Procedure
-
-1.  Navigate to **Query Generation** &gt; **Administration** &gt; **Manual Segment Config**.
-
-2.  Press **New**.
-
-3.  In the Manual Segment Config form, fill in the following information.
-
-    |Field|Description|
-    |-----|-----------|
-    |Table Name|The table \(entity\) the segment applies to. Must have an active entity in the semantic layer. The system looks for the entity table first, then the segment within that table.|
-    |Name|User-friendly name describing the segment in plain language a user would use when asking a question. No abbreviations or internal codes. Maximum 255 characters. For example, "Critical Open Incidents" instead of "P1\_OPEN\_INC".|
-    |Description|An optional short phrase that expands on the name using similar, commonly used terms. Helps the LLM determine when to apply the segment. Use this to disambiguate similar segments or provide additional context. Maximum 4,000 characters.|
-    |Filter|Encoded query defining the segment's filter conditions. Uses the condition builder \(v2\). Maximum 4,000 characters, although filters longer than 2,000 characters may be truncated in the LLM prompt.|
-    |Active|Whether the system uses the segment. Defaults to selected. When cleared, the segment is deactivated and excluded from search.|
-
-4.  Press **Submit**.
-
-    A business rule fires asynchronously and syncs the record into the `sn_query_gen_segment` table, which is queried at search time.
-
-
-### Result
-
-The manual segment is active and available for Query Generation searches.
-
-### Manual segments for the incident table
-
-The following examples show well-crafted manual segments for the `incident` table:
-
-|Name|Description|Table|Filter|
-|----|-----------|-----|------|
-|Critical Open Incidents|High priority incidents that are currently open and unresolved. Includes all assignment groups.|`incident`|`priority=1^state!=7^state!=8`|
-|My Team's Overdue Incidents|Incidents assigned to the current user's group that have passed their SLA due date.|`incident`|`assignment_group=javascript:getMyGroups()^sla_due<javascript:gs.nowDateTime()^state!=7`|
-|Recent P1 and P2 Escalations|Priority 1 and 2 incidents escalated in the last 7 days.|`incident`|`priority<=2^escalation=1^sys_updated_on>=javascript:gs.daysAgoStart(7)`|
-
-## General guidelines
-
-Follow these suggestions to help you use segments in the semantic layer effectively.
-
--   Test segments by asking natural language questions that should match them. The segment should appear in **Query Generation** &gt; **Logs**.
--   Monitor query logs to verify segments are being matched correctly and to identify the most valuable segments.
--   Disable noisy auto-generated segments rather than trying to overfit with multiple manual ones.
--   Use natural phrasing that matches how your users actually speak.
--   Keep one segment per concept to avoid confusion.
--   Refine segment names and descriptions based on user feedback and usage patterns
--   Consider creating manual segments for recurring questions that are not handled well by the existing segments.
 

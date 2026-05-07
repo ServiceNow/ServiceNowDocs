@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Administer, Now Assist for Setup, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -15,14 +15,14 @@ Upload a batch update set to promote validated configuration changes from a non-
 
 ## Before you begin
 
-Before performing this task you must request for the entitlement for Now Assist for Setup and install it.
+Before performing this task you must install Now Assist for Setup application from [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
-**Note:** Request for the entitlement and installation of Now Assist for Setup is the first step to experience automatic product installations and implementation of default configurations on your ServiceNow instance.
+This application is available to all users with Foundation SKUs for ITSM, CBS, ITOM, and ESM, and Pro+ SKUs for ITSM and HRSD.
 
 The following conditions should be met:
 
 -   Preset and manual configurations are completed and verified in the non-production instance.
--   The batch update set is packaged in the non-production instance, and the XML file is downloaded.
+-   The batch update set is packaged in the non-production instance, and the XML file is downloaded. These update set files are then uploaded in the production instances. See [Understand the Configuration page flow in Now Assist for Setup](ia-configure-il.md) for more information.
 -   The production instance version is compatible with the source non-production instance.
 
 The following task is performed on a production instance only after the above conditions are met:
@@ -80,6 +80,8 @@ Role required: admin
     **Note:** This step is applicable only if there are any errors in the update set batch file. You are then required to resolve the errors in the batch file and then proceed with the **Commit Update Set Batch** option. The **Commit Update Set Batch** option appears once the errors are resolved in the batch file.
 
 9.  Navigate back to the Product Hub page to see the progress.
+
+    The extraction of these update sets are done on the Configuration Console page. See [Understand the Configuration page flow in Now Assist for Setup](ia-configure-il.md) for more information.
 
 10. Once the update set commit completes, you can either select **Upload another update set** or **Configure** depending on the requirement.
 

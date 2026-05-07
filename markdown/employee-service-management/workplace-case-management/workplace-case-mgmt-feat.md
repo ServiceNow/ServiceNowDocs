@@ -19,27 +19,27 @@ Fulfilling employee workplace requests involves multiple, complex back-end proce
 
 <table id="table_lxp_xlf_ptb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Case Management concepts and features.](workplace-case-mgmt-ovw.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Case Management concepts and features.](workplace-case-mgmt-ovw.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Configure workplace services and related settings using which employees can submit workplace requests.](workplace-case-mgmt-setup.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure workplace services and related settings using which employees can submit workplace requests.](workplace-case-mgmt-setup.md)
 
 </td><td>
 
-[Request ![Request](../../workplace-service-delivery/images/icon-request.png) Request workplace-related services. Raise a general enquiry, office reconfiguration, and more.](request-workplace-services.md)
+[Request![](../../../reuse/icons/brand-icons/bus-start-discussion.svg) Request workplace-related services. Raise a general query, office reconfiguration, and more.](request-workplace-services.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage](../../../common/image/icon-managing.png) Manage workplace cases, approvals and more.](manage-workplace-cases.md)
+[Manage![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage workplace cases, approvals and more.](manage-workplace-cases.md)
 
 </td><td>
 
-[Integrate ![Integrate](../../../common/image/icon-integrate.png) Extend the Workplace Case Management abilities by integrating with other applications.](wsd-intergration-with-universal-request.md)
+[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Extend the Workplace Case Management abilities by integrating with other applications.](wsd-intergration-with-universal-request.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions ![Analytics and Reporting Solutions](../../human-resources/image/icon-report.png) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-case-mgmt.md)
+[Analytics and Reporting Solutions ![Analytics and Reporting Solutions](../../../reuse/icons/brand-icons/bus-elevate.svg) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-case-mgmt.md)
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Fulfilling employee workplace requests involves multiple, complex back-end proce
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](workpalce-case-mgmt-references.md)
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties.](workpalce-case-mgmt-references.md)
 
 </td><td>
 

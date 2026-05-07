@@ -17,7 +17,6 @@ Configure the credentials and connections for your preferred generative AI servi
 
 You can use several different models and generative AI service providers to integrate into your custom flows, scripts, and topics.
 
--   Aleph Alpha
 -   [Amazon Bedrock](../task/configure-api-credentials-for-amazon-bedrock.md)
 -   [Azure OpenAI](../task/configure-api-credentials-for-azure-openai.md)
 -   [Google - AI Studio](../task/configure-api-credentials-for-google-makersuite.md)

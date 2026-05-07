@@ -1,6 +1,6 @@
 ---
 title: Surveys
-description: With Surveys, you can create, send, and collect responses for basic surveys. If installed, you can also use the Survey widget to set up a survey within Service Portal.
+description: 
 locale: en-US
 release: australia
 topic_type: reference
@@ -10,8 +10,6 @@ breadcrumb: [Assessments and Surveys, Exploring Service Administration, Service 
 ---
 
 # Surveys
-
-With Surveys, you can create, send, and collect responses for basic surveys. If installed, you can also use the Survey widget to set up a survey within Service Portal.
 
 Two versions of the application are supported, Surveys, which is the latest version, and Legacy Surveys. Survey improves the user interface and extends the capabilities of the Legacy Surveys application.
 

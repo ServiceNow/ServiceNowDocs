@@ -17,7 +17,7 @@ The VoiceTranscriptObject scriptable API provides methods to save third-party vo
 
 When calling the `VoiceTranscriptObject` class, use the `sn_cs` namespace identifier.
 
-![](../../../../../integrate/inbound-rest/image/vir-agent_workspace.png)
+![Agent Workspace page with customer details and conversations displayed.](../../../../../integrate/inbound-rest/image/vir-agent_workspace.png)
 
 ## Availability
 

@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -231,8 +231,6 @@ The corresponding score for the calculated ALE:-   Low
 5.  To add children risk statements, click the **Risk Statements** related list, and click **New**.
 
 6.  Fill in the fields on the form, as appropriate and click **Submit**.
-
-    ![shows how the risk statement has its own related list of children risk statements](../image/risk-statements-related.png)
 
 7.  Repeat until you have added all the children risk statements related to this risk statement.
 

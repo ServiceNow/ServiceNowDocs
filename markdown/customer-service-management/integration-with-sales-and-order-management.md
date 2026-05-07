@@ -1,6 +1,6 @@
 ---
-title: Integration with Sales and Order Management
-description: Integrate Service Model Foundation with Sales and Order Management to enable business locations to operate as sellers. This integration triggers sales quote generation, order capture, and fulfillment.
+title: Integration with Sales Customer Relationship Management
+description: Integrate Service Model Foundation with Sales Customer Relationship Management to enable business locations to operate as sellers. This integration triggers sales quote generation, order capture, and fulfillment.
 locale: en-US
 release: australia
 topic_type: concept
@@ -9,9 +9,9 @@ reading_time_minutes: 2
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Integration with Sales and Order Management
+# Integration with Sales Customer Relationship Management
 
-Integrate Service Model Foundation with Sales and Order Management to enable business locations to operate as sellers. This integration triggers sales quote generation, order capture, and fulfillment.
+Integrate Service Model Foundation with Sales Customer Relationship Management to enable business locations to operate as sellers. This integration triggers sales quote generation, order capture, and fulfillment.
 
 ## Integrate with Order Management
 

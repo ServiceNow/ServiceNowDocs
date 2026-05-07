@@ -17,7 +17,7 @@ As a Career Conversations admin, you can add or update talking points that are u
 
 ## Before you begin
 
-Role required: sn\_egd\_act.admin or admin
+Role required: sn\_egd\_act.admin
 
 ## Procedure
 

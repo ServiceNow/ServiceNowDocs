@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Choice list field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -129,9 +129,9 @@ Role required: personalize\_choices
 
 1.  Navigate to a form on which the field appears.
 
-2.  Right-click the field label and select **Show Choice List**.
+2.  Select and hold \(or right-click\) the field label and select **Show Choice List**.
 
-3.  Click **New**.
+3.  Select **New**.
 
 4.  Complete the form.
 
@@ -191,9 +191,11 @@ Label
 
 Enter the label to appear in the choice list.
 
- You can use JavaScript, including calls to script includes, to define the label. For example, the JavaScript label in the following example changes the **-- None --** value of the **Time zone** choice list in a user record to use the time zone value of the instance.
+ You can use JavaScript, including calls to script includes, to define the label. For example, the JavaScript label in the following example changes the **-- None --** value of the **Time zone** choice list in a user record to use the time zone value of the instance:
 
- ![New record creation](../image/DefNullLabelChoice.png)
+```
+javascript:"System (" + gs.getSysTimeZone() + ")"
+```
 
 </td></tr><tr><td>
 
@@ -209,7 +211,7 @@ Dependent value
 
 </td><td>
 
-Leave blank.
+Leave empty.
 
 </td></tr><tr><td>
 
@@ -217,10 +219,10 @@ Hint
 
 </td><td>
 
-Leave blank.**Note:** When field type is set to **List \(Glide List\)** the hint won't display.
+Leave empty.**Note:** When field type is set to **List \(Glide List\)** the hint won't display.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## Delete all choice list options
@@ -292,13 +294,13 @@ Role required: admin
 
 In the following example, the **Network** category has been deactivated, so it appears in blue for records that still contain the inactive value.
 
-![Choice list invalid](../image/ChoiceListInvalid2.png)
+![Incident list with a blue inactive "Network" value the Category column.](../image/ChoiceListInvalid2.png)
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **UI Properties**.
 
-2.  Clear the check box for the **Display missing choice list entries** property.
+2.  Activate the check box for the **Display missing choice list entries** property.
 
 
 ## Add search option to a choice field
@@ -325,10 +327,4 @@ Role required: admin
 
 5.  Update the Dictionary Entry form and reload the page containing the choice list.
 
-
-### Result
-
-The choice list contains a search field that users can use to filter the list of choices.
-
-![State field with the list open and a search field at the top of the list](../image/ChoiceFieldSearch.png "Choice field search")
 

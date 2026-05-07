@@ -44,6 +44,8 @@ After submission, the same information appears in the report view, including rat
 
 3.  From the Pages section, select **Generate status report**.
 
+    You can create an AI status report from an existing template using **Generate from template**. To display AI-generated field data in the document, the template must include dynamic tokens. Without dynamic tokens, only the executive summary is displayed in the status report document.
+
     The system invokes LLM to pre-populate the form with predicted fields and an executive summary.
 
 4.  Review the AI-generated fields:
@@ -54,6 +56,10 @@ After submission, the same information appears in the report view, including rat
     -   Dimension health such as schedule/cost/resources/scope \(predicted\)
     -   Executive summary \(generated from project data for the reporting period\)
     -   Rationale/analysis sections explaining each prediction \(for example, schedule health analysis, cost health analysis\).
+    Overall status analysis is displayed in bullet points with highlighted key values and color coding based on the LLM response. The bullet point format with highlighting and coloring applies to all individual health sections such as AI scope health analysis, AI schedule health analysis and so on. The same format appears in the saved status report document.
+
+    A new Project health analysis column has been added to the project workspace list view. When you publish an AI status report, the health analysis rolls up to the project level and appears in this column. If you publish a standard status report \(non-AI\), the project health analysis column is cleared.
+
 5.  Edit any fields as needed.
 
 6.  Select **Submit**.

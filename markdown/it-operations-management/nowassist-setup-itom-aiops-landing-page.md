@@ -1,6 +1,6 @@
 ---
-title: Now Assist for Setup \(ITOM AIOps\)
-description: Now Assist for Setup \(ITOM\) centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
+title: Now Assist for Setup \(AIOps\)
+description: Now Assist for Setup in ITOM centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
 locale: en-US
 release: australia
 topic_type: reference
@@ -9,9 +9,9 @@ reading_time_minutes: 1
 breadcrumb: [Now Assist for Setup \(ITOM\), IT Operations Management]
 ---
 
-# Now Assist for Setup \(ITOM AIOps\)
+# Now Assist for Setup \(AIOps\)
 
-Now Assist for Setup \(ITOM\) centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
+Now Assist for Setup in ITOM centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
 
 ## Get started
 
@@ -21,10 +21,18 @@ Now Assist for Setup \(ITOM\) centralizes your instance management with a modula
 
 </td><td>
 
-[Install![Install the applications required for ITOM AIOps](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install ITOM AIOps](../task/install-nowassist-setup-itom-aiops.md)
+Install![Install the applications required for ITOM AIOps](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install ITOM AIOps
+
+</td></tr><tr><td>
+
+[Configure Event Management![Configure Event Management](../../../reuse/icons/brand-icons/bus-manager.svg)Configure Event Management](../concept/aiops-conf-console.md)
+
+</td><td>
+
+Setup AI Specialist![Setup AI Specialist](../../../reuse/icons/brand-icons/bus-it-leader.svg)Setup AI Specialist
 
 </td></tr></tbody>
-</table>Now Assist Setup for ITOM AIOps provides a guided setup experience to install and configure ITOM AIOps capabilities. It helps administrators quickly deploy required applications, access setup tasks, and begin using AI-driven operations management features.
+</table>Now Assist setup in ITOM provides a guided setup experience to install and configure Now Assist AIOps capabilities. It helps administrators quickly deploy required applications, access setup tasks, and begin using AI-driven operations management features.
 
 ## Helpful resources
 
@@ -46,7 +54,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) Best Practices**
+-   **![](../../../reuse/icons/dcx-icons/dcx-icon.svg) General guidelines**
 
     [Best Practices](https://mynow.servicenow.com/now/best-practices/home)
 

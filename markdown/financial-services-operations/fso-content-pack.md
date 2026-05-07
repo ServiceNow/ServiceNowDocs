@@ -21,7 +21,7 @@ The following roles and tasks are associated with this Platform Analytics Soluti
 -   Performance Analytics administrator \(pa\_admin\): Review the indicators, breakdowns, widgets, and dashboards. Set up and start the data collection. Share the dashboards with appropriate stakeholders.
 -   Performance Analytics viewer \(pa\_viewer\): View Performance Analytics dashboards.
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
 
 -   **[Activate the Platform Analytics solution for Financial Services Operations](../../dashboards/application-content-packs/fso-install.md)**  
 Activate the content pack ServiceNow Store application for the Platform Analytics.

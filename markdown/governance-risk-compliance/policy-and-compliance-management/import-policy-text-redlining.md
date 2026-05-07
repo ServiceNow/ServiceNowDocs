@@ -27,7 +27,7 @@ You can import the content only when you’re the policy owner and the policy mu
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(![Lists icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Compliance Workspace, select the List icon \(![](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

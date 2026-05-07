@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Docusign eSignature spoke v4.2.2 is the latest version.
+Docusign eSignature spoke v4.3.0 is the latest version.
 
 ## Spoke dependencies
 

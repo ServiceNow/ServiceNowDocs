@@ -61,5 +61,3 @@ Use the results to adjust and improve your models. Then, run the test again to a
 
 Batch testing may affect confidence threshold recommendations. For more information, see [NLU model settings](../concept/nlu-model-settings.md).
 
-**Parent Topic:**[Multi-model Batch Testing](../concept/batch-testing-nlu.md)
-

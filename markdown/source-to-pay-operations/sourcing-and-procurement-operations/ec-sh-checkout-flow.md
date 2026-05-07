@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Purchasing from punchout or third-party suppliers, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Purchasing punchout third-party suppliers, Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Shopper checkout experiences based on installed applications

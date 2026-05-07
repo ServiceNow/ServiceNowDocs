@@ -1,6 +1,6 @@
 ---
 title: Exploring Developer Sandboxes
-description: Developer Sandboxes enable delegated developers and admins to request, access, and manage individual sandbox environments on top of the same underlying development instance.
+description: Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
 locale: en-US
 release: australia
 product: Developer Sandboxes
@@ -14,7 +14,7 @@ breadcrumb: [Developer Sandboxes, Developing your application, Building applicat
 
 # Exploring Developer Sandboxes
 
-Developer Sandboxes enable delegated developers and admins to request, access, and manage individual sandbox environments on top of the same underlying development instance.
+Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
 
 ![Developer Sandboxes architecture and workflow. For the text description, refer to the following sections.](../image/dev-sbx-infographic1-updated.png "How Developer Sandboxes work")
 
@@ -44,7 +44,9 @@ The Sandbox Management home dashboard displays the total, available, and allocat
 
 Check your entitlements to determine whether you have access to Developer Sandboxes. For more information, see [Developer Sandboxes entitlements](dev-sbx-entitlements.md).
 
-Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. After a clone, sandboxes on an instance are automatically re-created with the same name, but without the previous work. For details, see [Cloning and upgrading considerations for Developer Sandboxes](dev-sbx-clone-upgrade-info.md).
+Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. Sandboxes are recreated in a base state, so you must restore backed up update sets. For details, see [Cloning and upgrading considerations for Developer Sandboxes](dev-sbx-clone-upgrade-info.md).
+
+**Note:** Build Agent it not yet supported in Developer Sandboxes.
 
 ## Integrate sandboxes with source control
 
@@ -59,7 +61,7 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 |Sandbox managers|Sandbox managers can administer the lifecycle of all sandboxes without full admin privileges.|
 |Sandbox users|Sandbox users can request and view Developer Sandboxes.|
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you allow it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](dev-sbx-installing.md).
 
 **Note:** Instances with vanity URLs support SSO.
 
@@ -123,7 +125,7 @@ Reuse sandbox templates
 
 </td><td>
 
-Enables the optional setup of a repository configuration. You can create a template once, and reuse any existing templates when creating sandboxes. For more information, see [Create a sandbox template](../task/create-sandbox-template.md).
+Enables the optional setup of a repository configuration. You can create a template once, and reuse any existing templates when creating sandboxes. For more information, see [Using sandbox templates](../task/create-sandbox-template.md).
 
 </td><td>
 

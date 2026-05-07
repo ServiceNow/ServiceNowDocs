@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Working with Webhooks, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure webhooks
@@ -35,15 +35,15 @@ For example, whenever a new observable is added in threat intelligence then a pa
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d44269e106">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d46714e106">
 
 Field
 
-</th><th align="left" id="d44269e109">
+</th><th align="left" id="d46714e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44269e115">
+</th></tr></thead><tbody><tr><td id="d46714e115">
 
 **Name**
 
@@ -51,7 +51,7 @@ Description
 
 Enter a webhook name.
 
-</td></tr><tr><td id="d44269e124">
+</td></tr><tr><td id="d46714e124">
 
 **Description**
 
@@ -59,7 +59,7 @@ Enter a webhook name.
 
 Add the description of the webhook.
 
-</td></tr><tr><td id="d44269e133">
+</td></tr><tr><td id="d46714e133">
 
 **Configuration Details**
 
@@ -67,7 +67,7 @@ Add the description of the webhook.
 
  
 
-</td></tr><tr><td id="d44269e141">
+</td></tr><tr><td id="d46714e141">
 
 **Use REST message**
 
@@ -75,7 +75,7 @@ Add the description of the webhook.
 
 Select **Use REST Message** check box if you need to use REST Message/REST Method functionality that is provided by ServiceNow AI Platform.If this check box is not selected, then the application uses the endpoint provided in Webhook URL to send the event information. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on ServiceNow AI Platform documentation.
 
-</td></tr><tr><td id="d44269e166">
+</td></tr><tr><td id="d46714e166">
 
 **REST message**
 
@@ -85,7 +85,7 @@ Select the REST Message record from the list of REST message records which are a
 
 **Note:** The REST message and REST method fields are mandatory when you select the REST message.
 
-</td></tr><tr><td id="d44269e187">
+</td></tr><tr><td id="d46714e187">
 
 **REST method**
 
@@ -93,7 +93,7 @@ Select the REST Message record from the list of REST message records which are a
 
 Select REST Method from the list of available REST Methods configured for the selected REST Message. For more information, see [Outbound REST web service](https://servicenow.com/docs/bundle/vancouver-api-reference/page/integrate/outbound-rest/concept/c_OutboundRESTWebService.html) on the ServiceNow AI Platform documentation.**Note:** Only POST Rest methods are supported for webhooks.
 
-</td></tr><tr><td id="d44269e205">
+</td></tr><tr><td id="d46714e205">
 
 **Webhook URL**
 
@@ -101,7 +101,7 @@ Select REST Method from the list of available REST Methods configured for the se
 
 A webhook endpoint is a URL that receives webhook event notifications.
 
-</td></tr><tr><td id="d44269e214">
+</td></tr><tr><td id="d46714e214">
 
 **Authentication Required**
 
@@ -109,7 +109,7 @@ A webhook endpoint is a URL that receives webhook event notifications.
 
 Select this check box if the authentication is required.**Note:** This is only applicable when Webhook URL is being used to retrieve the data.
 
-</td></tr><tr><td id="d44269e225">
+</td></tr><tr><td id="d46714e225">
 
 **Authentication Type**
 
@@ -117,7 +117,7 @@ Select this check box if the authentication is required.**Note:** This is only a
 
 The authentication type for the webhook.**Note:** As of now, only Basic authentication type is supported.
 
-</td></tr><tr><td id="d44269e236">
+</td></tr><tr><td id="d46714e236">
 
 **Username**
 
@@ -125,7 +125,7 @@ The authentication type for the webhook.**Note:** As of now, only Basic authenti
 
 Provide a username to your authentication type.
 
-</td></tr><tr><td id="d44269e246">
+</td></tr><tr><td id="d46714e246">
 
 **Password**
 
@@ -133,7 +133,7 @@ Provide a username to your authentication type.
 
 Provide a password to your authentication type.
 
-</td></tr><tr><td id="d44269e255">
+</td></tr><tr><td id="d46714e255">
 
 **Headers to be passed with request**
 

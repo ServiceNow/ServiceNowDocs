@@ -25,8 +25,7 @@ Discovery supports database encryption and full-disk encryption. See [Database E
 
 **Introduction**
 
- -   Australia
--   [Exploring Discovery](../concept/c_GetStartedWithDiscovery.md)
+ [Exploring Discovery](../concept/c_GetStartedWithDiscovery.md)
 
 </td><td>
 

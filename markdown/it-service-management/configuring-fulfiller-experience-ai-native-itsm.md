@@ -1,24 +1,24 @@
 ---
-title: Configuring the fulfiller experience in AI-native IT Service Management
+title: Configuring the fulfiller experience in Simplified IT Service Management
 description: Enable an AI-first fulfiller experience for simplified incident and request management.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Configure integrations and ITSM experiences in AI-native IT Service Management, Configure, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]
 ---
 
-# Configuring the fulfiller experience in AI-native IT Service Management
+# Configuring the fulfiller experience in Simplified IT Service Management
 
 Enable an AI-first fulfiller experience for simplified incident and request management.
 
 The following experiences are available after configuring the fulfiller experience:
 
 -   Simplified fulfiller experience with a unified record view and AI-embedded workflows.
--   Improved triage and resolution of incidents by leveraging historical resolution patterns to inform decision-making, thereby enabling Service Desk agents to focus on resolving complex issues.
+-   Improved triage and resolution of incidents by leveraging historical resolution patterns to inform decision-making, thereby enabling service desk agents to focus on resolving complex issues.
 
-For information about available AI agents for fulfiller configurations, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+For information about available AI agents for fulfiller configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 ## Incident Management
 
@@ -54,7 +54,7 @@ Incident form is preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](../../incident-management/concept/working-incident-record-form.md) and [Forms](https://www.servicenow.com/docs/access?context=form-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](../../incident-management/concept/working-incident-record-form.md) and [Forms](https://www.servicenow.com/docs/access?context=form-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -70,7 +70,7 @@ Incident list and related lists are preconfigured.
 
 </td><td>
 
-Review and update list layouts based on business requirements. For information about updating these fields, see [Working with incident record form](../../incident-management/concept/working-incident-record-form.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident list configuration, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Review and update list layouts based on business requirements. For information about updating these fields, see [Working with incident record form](../../incident-management/concept/working-incident-record-form.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident list configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ None
 
 </td><td>
 
-For information about incident categories and subcategories, see[Incident categories and subcategories](../../incident-management/reference/r_CategorizingIncidents.md).For information about the Incident Category Configuration AI Agent that provides conversational AI-native experience for incident category configurations, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+For information about incident categories and subcategories, see[Incident categories and subcategories](../../incident-management/reference/r_CategorizingIncidents.md).For information about the Incident Category Configuration AI Agent that provides conversational AI-native experience for incident category configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ For information about incident assignment rules, [Define assignment rules for in
 
  For information about business rules, see [Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
 
- For information about the Incident routing configuration agent that provides conversational AI-native experience for incident routing configurations, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+ For information about the Incident routing configuration agent that provides conversational AI-native experience for incident routing configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ SLAs and their associated flows are preconfigured for Incident Management. Respo
 
 </td><td>
 
-Review and update the definitions, flows, and notifications that are available with Service Level Management according to the incident process. For information about SLAs, see [Service Level Agreement \(SLA\) definition](../../service-level-management/concept/c_SLADefinitions.md).For information about the SLA Management AI Agent that provides conversational AI-native experience for SLA configuration, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Review and update the definitions, flows, and notifications that are available with Service Level Management according to the incident process. For information about SLAs, see [Service Level Agreement \(SLA\) definition](../../service-level-management/concept/c_SLADefinitions.md).For information about the SLA Management AI Agent that provides conversational AI-native experience for SLA configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Request Management
@@ -189,7 +189,7 @@ Requested item form, list, and related lists are preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirements. For information about requested items, see [Request Management architecture](../../planning-and-policy/concept/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for requested item form and list configurations, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirements. For information about requested items, see [Request Management architecture](../../planning-and-policy/concept/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for requested item form and list configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -205,7 +205,7 @@ Catalog task form, list and related lists are preconfigured.
 
 </td><td>
 
-Review the form layout and update based on business need. For information about catalog tasks, see [Request Management architecture](../../planning-and-policy/concept/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for catalog task form and list configurations, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Review the form layout and update based on business need. For information about catalog tasks, see [Request Management architecture](../../planning-and-policy/concept/request-management-architecture.md).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for catalog task form and list configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating a request notification, see [View request notifications](https://www.servicenow.com/docs/access?context=view-request-notification&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in AI-native IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating a request notification, see [View request notifications](https://www.servicenow.com/docs/access?context=view-request-notification&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Analytics

@@ -31,7 +31,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Copy of a Award Purchase flow](../image/coupa-integration-copy-flow.png "Copy of a Award Purchase flow")
+    ![Copy of a Award Purchase flow](../../source-to-pay-operations/image/coupa-integration-copy-flow.png "Copy of a Award Purchase flow")
 
 5.  Activate the flow or subflow:
 
@@ -39,7 +39,7 @@ Role required: sn\_fcms\_intg.integration\_user
     -   Activate the copied flow after making the required changes.
 6.  Use the **Trigger Condition** for the flow or subflow.
 
-    **Note:** After data is pulled into staging tables, the transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md).
+    **Note:** After data is pulled into staging tables, the transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md).
 
     You have successfully copied and executed the flow.
 

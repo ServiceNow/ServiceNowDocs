@@ -1,6 +1,6 @@
 ---
-title: Create a saved record based trigger
-description: Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
+title: Create a saved record-based trigger
+description: Create a reusable trigger definition that responds to a record-based event. When a record is created or updated in a specific table, the trigger activates and starts the flows where it is used. You can allow flow authors to select the saved trigger, view its conditions, or add their own conditions.
 locale: en-US
 release: australia
 topic_type: task
@@ -8,17 +8,13 @@ last_updated: "2026-03-12"
 reading_time_minutes: 3
 ---
 
-# Create a saved record based trigger
+# Create a saved record-based trigger
 
-Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
+Create a reusable trigger definition that responds to a record-based event. When a record is created or updated in a specific table, the trigger activates and starts the flows where it is used. You can allow flow authors to select the saved trigger, view its conditions, or add their own conditions.
 
 ## Before you begin
 
 Role required: trigger\_designer, flow\_designer, or admin
-
-## About this task
-
-Create a reusable trigger definition that responds to a record based event. When a record is created or updated in a specific table, the trigger is activated and it starts the flows where the trigger is used.
 
 ## Procedure
 
@@ -50,9 +46,9 @@ Trigger type
 
 </td><td>
 
-Type of trigger to start your flow. Under **Record**, select any of the following:-   **Created**
--   **Updated**
--   **Created or updated**
+Type of trigger to start your flow. Under **Record**, select any of the following:-   **Created**: Starts the flow when a record is created in the specified table.
+-   **Updated**: Starts the flow when a record is updated.
+-   **Created or updated**: Starts the flow on either event.
 For more information about trigger types, see [Workflow Studio flow trigger types](../reference/flow-triggers.md).
 
 </td></tr><tr><td>
@@ -77,6 +73,7 @@ Application to create the trigger. The default is Global.The application scope d
     |Field|Description|
     |-----|-----------|
     |Accessible from|Choice between whether the trigger data should be accessible only from the specified application or all application scopes.|
+    |Protection|Option to make the trigger read-only.|
     |Category|Category where your trigger is displayed.|
     |Trigger annotation|Annotation for your trigger that the user can see before they select it.|
 
@@ -121,10 +118,14 @@ You can select if you want users to view and modify these options when they use 
 If a user modifies the advanced options, any future modifications that you make to these options in the trigger don't affect the user modified settings.
 
 </td></tr></tbody>
-</table>    **Tip:** Your changes are saved automatically in Workflow Studio. Use the undo and redo buttons as you need.
+</table>    **Tip:** Your changes are saved automatically in Workflow Studio.
 
 7.  Make the trigger available by selecting **Publish**.
 
+
+## Result
+
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
 
 **Parent Topic:**[Building triggers](../concept/building-triggers.md)
 

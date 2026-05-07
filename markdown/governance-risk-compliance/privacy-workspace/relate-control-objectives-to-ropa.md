@@ -40,15 +40,15 @@ You can relate control objectives to an assessment question only if the question
 
 2.  Click and open the required assessment template.
 
-<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d72405e110">
+<table id="choicetable_rlk_wqh_sqb"><thead><tr><th align="left" id="d74738e110">
 
 Type of questions
 
-</th><th align="left" id="d72405e113">
+</th><th align="left" id="d74738e113">
 
 Steps to map controls
 
-</th></tr></thead><tbody><tr><td id="d72405e119">
+</th></tr></thead><tbody><tr><td id="d74738e119">
 
 **Boolean, Template**
 
@@ -63,7 +63,7 @@ To create and apply controls for a response, perform the following steps.1.  Sel
 4.  Click **Save**.
 
 
-</td></tr><tr><td id="d72405e154">
+</td></tr><tr><td id="d74738e154">
 
 **Choice, Image scale, Numeric, Ranking**
 

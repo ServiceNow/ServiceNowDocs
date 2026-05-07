@@ -49,15 +49,15 @@ You can create a part requirement with or without the context of a work order ta
 
 2.  Request and source parts.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d65199e151">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d67797e151">
 
 From
 
-</th><th align="left" id="d65199e154">
+</th><th align="left" id="d67797e154">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65199e160">
+</th></tr></thead><tbody><tr><td id="d67797e160">
 
 **My Work**
 
@@ -71,7 +71,7 @@ Do this
 6.  Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **Create Part Requirement**.
 
 
-</td></tr><tr><td id="d65199e212">
+</td></tr><tr><td id="d67797e212">
 
 **Inventory**
 
@@ -171,15 +171,15 @@ You can create part requests from **My work** and **Inventory** screens with the
 
 2.  Request parts with or without a work order task, or from your own requests or parts requirements lists.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d65199e624">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d67797e624">
 
 To request parts from
 
-</th><th align="left" id="d65199e627">
+</th><th align="left" id="d67797e627">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65199e633">
+</th></tr></thead><tbody><tr><td id="d67797e633">
 
 **Work order task**
 
@@ -191,7 +191,7 @@ Do this
 4.  Tap **Create part request**.
 
 
-</td></tr><tr><td id="d65199e672">
+</td></tr><tr><td id="d67797e672">
 
 **Work order task with existing part requirements**
 
@@ -204,7 +204,7 @@ Do this
 5.  Tap **Request parts**.
  **Note:** The **Request parts** option appears only when you have pending part requirements. Note that you can request parts without selecting a part requirement.
 
-</td></tr><tr><td id="d65199e726">
+</td></tr><tr><td id="d67797e726">
 
 **Missing work order task**
 
@@ -214,7 +214,7 @@ Do this
 2.  Tap **Create part request**.
 
 
-</td></tr><tr><td id="d65199e750">
+</td></tr><tr><td id="d67797e750">
 
 **My requests**
 
@@ -224,7 +224,7 @@ Do this
 2.  Tap **My requests** and then **Create part request**.
 
 
-</td></tr><tr><td id="d65199e778">
+</td></tr><tr><td id="d67797e778">
 
 **My part requirements**
 
@@ -248,15 +248,15 @@ Do this
 
 6.  Add parts to the part request either directly or from a part requirement.
 
-<table id="choicetable_wrg_txw_stb"><thead><tr><th align="left" id="d65199e853">
+<table id="choicetable_wrg_txw_stb"><thead><tr><th align="left" id="d67797e853">
 
 To
 
-</th><th align="left" id="d65199e856">
+</th><th align="left" id="d67797e856">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d65199e862">
+</th></tr></thead><tbody><tr><td id="d67797e862">
 
 **Add parts directly**
 
@@ -270,7 +270,7 @@ Do this
 6.  \(Optional\) View available substitutes of the selected part model by selecting **Include substitute**.
  **Note:** To add multiple parts, repeat these steps.
 
-</td></tr><tr><td id="d65199e908">
+</td></tr><tr><td id="d67797e908">
 
 **Add from part requirements**
 

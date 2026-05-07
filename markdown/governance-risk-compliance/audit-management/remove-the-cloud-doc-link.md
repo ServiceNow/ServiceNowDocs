@@ -23,7 +23,7 @@ Role required: sn\_audit.admin, sn\_grc\_workspace.user
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(![](../image/new-task-icon.png)\).
 
 3.  Select an engagement in the Engagements list.
 

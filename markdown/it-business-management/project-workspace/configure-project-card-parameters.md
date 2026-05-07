@@ -39,8 +39,6 @@ The project workspace overview page **My Projects Space** displays the projects 
     The parameters displayed are derived from the records in \[pm\_home\_page\_card\] table. In \[pm\_home\_page\_card\] table, each project state is assigned some parameters to be displayed.
 
 
-![Project card in project workspace.](../image/ProjectWorkspaceCard.png "Project card example")
-
 You can configure the information which is displayed in row 2 and row3 on a card.
 
 ## Procedure
@@ -73,8 +71,6 @@ You can configure the information which is displayed in row 2 and row3 on a card
         |Content|JSON field to add the parameters to be displayed under the selected section for the selected state.|
 
         The following screenshot shows a JSON example of adding Risks, Issues, Actions, and Overdue tasks parameters under **Updates** heading for Open state.
-
-        ![Example project card configuration](../image/ProjectWorkspaceCardConfiguration.png "Example JSON for Row 3 configuration")
 
     3.  Click **Submit**.
 

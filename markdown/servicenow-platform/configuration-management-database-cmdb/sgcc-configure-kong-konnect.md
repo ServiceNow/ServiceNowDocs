@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in Kong Konnect data into your CMDB.
 
 ## Before you begin
 
-Install API Service Graph Connector for Kong Konnect version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install API Service Graph Connector for Kong Konnect version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 

@@ -28,7 +28,7 @@ Install App Engine Studio \(AES\) by verifying that the application or the produ
 -   **[Install AES from the ServiceNow Store for the first time](../task/download-aes-first-time.md)**  
 Install App Engine Studio \(AES\) from the ServiceNow Store for the first time. The installation involves several easy steps. Some steps are performed on the ServiceNow Store and some in your ServiceNow AI Platform instance.
 -   **[Install the AES product and integrations](../task/aes-install-product-integrations.md)**  
-Install the App Engine Studio \(AES\) product to ensure you get all the dependencies, integrations, and tools, such as templates and builders.
+Install the App Engine Studio \(AES\) product to verify that you get all the dependencies, integrations, and tools, such as templates and builders.
 -   **[Update a previously installed AES version](../task/update-aes-previously-downloaded.md)**  
 If you previously installed App Engine Studio \(AES\) from the ServiceNow Store and if a new version is available, then update the version in your instance.
 -   **[Upgrade your AES instance to the next family release](../task/upgrade-aes-next-family-release.md)**  

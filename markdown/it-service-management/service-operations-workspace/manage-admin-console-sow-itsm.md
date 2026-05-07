@@ -35,15 +35,15 @@ The Admin Center consists of the following tabs:
 
 3.  Select any of the following options.
 
-<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d217275e138">
+<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d219136e138">
 
 Option
 
-</th><th align="left" id="d217275e141">
+</th><th align="left" id="d219136e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d217275e147">
+</th></tr></thead><tbody><tr><td id="d219136e147">
 
 **Migrate configurations and customizations from ITSM Agent Workspace to SOW for ITSM**
 
@@ -51,7 +51,7 @@ Description
 
 On the **Overview** tab, from the **Initial Setup** section, select the **Migrate from ITSM Agent Workspace to SOW** option. For information about this migration utility, see [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](../concept/migration-from-itsm-aw-sow.md).
 
-</td></tr><tr><td id="d217275e187">
+</td></tr><tr><td id="d219136e187">
 
 **Configure the landing page**
 
@@ -72,7 +72,7 @@ On the **Overview** tab, from the **Initial Setup** section, select the **Migrat
         -   For tier 1 agents, visibility of the Getting started section that provides an overview of key features in Service Operations Workspace.
 For information about landing page customizations, see [Customizing Service Operations Workspace for ITSM to align with your requirements](../concept/customize-sow-landing-page.md).
 
-</td></tr><tr><td id="d217275e302">
+</td></tr><tr><td id="d219136e302">
 
 **Configure the availability and order of contextual side panel tabs for record pages**
 
@@ -86,7 +86,7 @@ For information about landing page customizations, see [Customizing Service Oper
 
 **Note:** Ensure that the user's scope is set to that of the app route.
 
-</td></tr><tr><td id="d217275e356">
+</td></tr><tr><td id="d219136e356">
 
 **Configure the SOW properties**
 
@@ -100,7 +100,7 @@ For information about landing page customizations, see [Customizing Service Oper
     -   Hide contextual side panel for specific table and tab combinations: Allows admins to define specific table and tab pairs in Service Operations Workspace \(SOW\) where the page default contextual side panel is hidden, prioritizing the embedded contextual side panel within the tab content instead. For more information, see [Hide contextual side panel](hide-contextual-side-panel-sow.md).
 
 
-</td></tr><tr><td id="d217275e470">
+</td></tr><tr><td id="d219136e470">
 
 **Configure SOW vs Classic UI16 redirection**
 
@@ -112,7 +112,7 @@ Enables you to configure the redirection of the classic UI16 module navigation l
 -   Custom configuration
 For more information, see [Redirect UI16 module links to Service Operations Workspace](redirect-ui16-module-links-sow.md).
 
-</td></tr><tr><td id="d217275e511">
+</td></tr><tr><td id="d219136e511">
 
 **Configure the incident record page**
 
@@ -141,7 +141,7 @@ For more information, see [Redirect UI16 module links to Service Operations Work
 
  For information about incident record page customizations, see [Customize the incident record page](../concept/customize-the-incident-record-page.md#).
 
-</td></tr><tr><td id="d217275e674">
+</td></tr><tr><td id="d219136e674">
 
 **Configure the Major Incident Management features**
 
@@ -158,7 +158,7 @@ For more information, see [Redirect UI16 module links to Service Operations Work
     -   Timeline configurations for post incident report.
 For more information on the configurations of features in Major Incident Management in Admin Center, see [Configuring Major Incident Management in Service Operations Workspace](../concept/configuring-mim-in-sow.md).
 
-</td></tr><tr><td id="d217275e748">
+</td></tr><tr><td id="d219136e748">
 
 **Configure the Problem Management features**
 
@@ -170,7 +170,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Problem task record: configure the problem task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://www.servicenow.com/docs/access?context=learn-by-example-edit-form-component&version=australia&pubname=australia-application-development&ft:locale=en-US)
 
 
-</td></tr><tr><td id="d217275e799">
+</td></tr><tr><td id="d219136e799">
 
 **Configure the Change Management features**
 
@@ -200,7 +200,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Change task record: Configure the change task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://www.servicenow.com/docs/access?context=learn-by-example-edit-form-component&version=australia&pubname=australia-application-development&ft:locale=en-US).
 
 
-</td></tr><tr><td id="d217275e995">
+</td></tr><tr><td id="d219136e990">
 
 **Configure the On-Call Scheduling features**
 
@@ -220,7 +220,7 @@ For more information on the configurations of features in Major Incident Managem
 
 **Note:** You can restart a skipped configuration.
 
-</td></tr><tr><td id="d217275e1127">
+</td></tr><tr><td id="d219136e1122">
 
 **Configure the Service Reliability Management sections**
 
@@ -236,7 +236,7 @@ For more information on the configurations of features in Major Incident Managem
 
 For information about Service Reliability Management configurations, see [Service Operations Workspace setup for SRM](https://www.servicenow.com/docs/access?context=sr-sow-admin-setup&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
 
-</td></tr><tr><td id="d217275e1196">
+</td></tr><tr><td id="d219136e1191">
 
 **Configure the Notify features**
 

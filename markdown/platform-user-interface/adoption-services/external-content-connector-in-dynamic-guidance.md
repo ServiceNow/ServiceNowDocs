@@ -23,5 +23,8 @@ The architecture consists of three main components working together:
 
 -   Dynamic Guidance- The user interacts with Dynamic Guidance through a voice interface. When the Generative AI application determines that it needs to search the knowledge base, it uses the search\_knowledge\_base tool.
 -   RAG API handler- This middleware component receives the search query from Gemini and processes it to retrieve relevant documentation from XCC.
+
+    **Note:** XCC uses AI search which, is enabled by default on all customer instances. See [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+
 -   XCC Search \(External Content Connectors ServiceNow® Docs\)- The XCC system searches the crawled ServiceNow® documentation and returns relevant content to the RAG API handler, which then provides it to Gemini for generating accurate responses.
 

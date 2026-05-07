@@ -31,15 +31,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation task from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d349126e70">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d355534e70">
 
 Method
 
-</th><th align="left" id="d349126e73">
+</th><th align="left" id="d355534e73">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d349126e79">
+</th></tr></thead><tbody><tr><td id="d355534e79">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the obligation task.
 
 
-</td></tr><tr><td id="d349126e127">
+</td></tr><tr><td id="d355534e127">
 
 **Workspace used by your application**
 

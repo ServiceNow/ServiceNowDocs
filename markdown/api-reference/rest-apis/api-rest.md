@@ -7,7 +7,7 @@ product: REST APIs
 classification: rest-apis
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -145,8 +145,6 @@ The Identification and Reconciliation API provides endpoints that use the Identi
 The Import Set API provides endpoints that allow you to interact with import set tables.
 -   **[Install Base Item API](../../../integrate/inbound-rest/concept/integrations-api.md#)**  
 The Install Base Item API provides endpoints to access and manage install base items records within a ServiceNow instance.
--   **[Interaction Management API](../../../integrate/inbound-rest/concept/interaction-management-api.md#)**  
-The Interaction Management API provides endpoints to create interactions.
 -   **[Knowledge Management REST API](../../../integrate/inbound-rest/concept/knowledge-api.md#)**  
 The Knowledge Management API provides endpoints for searching, viewing, and fetching lists of the most-viewed and featured knowledge articles.
 -   **[lead API](../../../integrate/inbound-rest/concept/lead-api.md#)**  
@@ -187,6 +185,8 @@ The Resource Inventory Open API provides endpoints to create, retrieve, and dele
 The Response Templates API provides endpoints to handle records in the Response Templates \[sn\_templated\_snip\_note\_template\] table.
 -   **[Sales Agreement API](../../../integrate/inbound-rest/concept/sales_agreement-api.md#)**  
 The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.
+-   **[Sales CRM Pricing API](../../../integrate/inbound-rest/concept/sales-crm-pricing-api.md)**  
+The Sales CRM Pricing API provides methods to calculate prices for transaction lines containing products.
 -   **[SAM-Software Usage Data Integration API](../../../integrate/inbound-rest/concept/sam_soft_us_int-api.md#)**  
 The SAM-Software Usage Data Integration API provides endpoints to create and update records in the Software Usage \[samp\_sw\_usage\] table.
 -   **[Scorecards API](../../../integrate/inbound-rest/concept/c_PerformanceAnalyticsAPI.md#)**  
@@ -207,6 +207,8 @@ The Service Test Management Open API provides endpoints to create and retrieve s
 The SG Services API provides endpoints to create and manage application services and the upstream relationships between them.
 -   **[Spendint API](../../../integrate/inbound-rest/concept/spendint-api.md#)**  
 The Spendint API provides endpoints that push the catalog, price, availability, order, shipment, and invoice information from a third party to the ServiceNow instance. This API is part of the Source-to-Pay Integration Framework application.
+-   **[SyntheticsAsyncBulkCreate API](../../../integrate/inbound-rest/concept/synth-async-api.md#)**  
+The SyntheticsAsyncBulkCreate API provides endpoints to manage asynchronous synthetic monitor creation.
 -   **[SyntheticsBulkCreate API](../../../integrate/inbound-rest/concept/synthetics-bulk-create-api.md#)**  
 The SyntheticsBulkCreate API provides an endpoint to create multiple synthetic monitors in a single synchronous operation.
 -   **[System for Cross-domain Identity Management \(SCIM\) API](../../../integrate/inbound-rest/concept/scim-api.md#)**  
@@ -247,6 +249,8 @@ The Workplace Service Delivery \(WSD\) Extra Service Request API provides endpoi
 The Workplace Service Delivery \(WSD\) Group Reservation API provides endpoints for managing group reservations.
 -   **[WSD Multi Reservation API](../../../integrate/inbound-rest/concept/wsd_multi_reserv-api.md#)**  
 The Workplace Service Delivery \(WSD\) Multi Reservation API provides endpoints for managing reservations with multiple workplace locations.
+-   **[WSD Presence API](../../../integrate/inbound-rest/concept/wsd_presence-api.md#)**  
+The WSD Presence API enables users to manage their in-office presence schedule, including weekly routines, one-time exceptions, and collaborator visibility.
 -   **[WSD Recurring Reservation API](../../../integrate/inbound-rest/concept/wsd_recur_reserv-api.md#)**  
 The Workplace Service Delivery \(WSD\) Recurring Reservation API provides endpoints for managing reservations that occur at the same time, but have different dates.
 -   **[WSD Reservable API](../../../integrate/inbound-rest/concept/wsd_reservable-api.md#)**  
@@ -263,6 +267,10 @@ The Workplace Service Delivery \(WSD\) Reservation Invitees API provides endpoin
 The Workplace Service Delivery \(WSD\) Search API provides endpoints to search for available locations and workplace items such as reservables, reservable modules, and available shifts.
 -   **[WSD Shift API](../../../integrate/inbound-rest/concept/wsd_shift-api.md#)**  
 The Workplace Service Delivery \(WSD\) Shift API provides an endpoint that returns shift time spans for a specified date and time.
+-   **[WSD Unified Search API](../../../integrate/inbound-rest/concept/wsd_unified-search-api.md#)**  
+The WSD Unified Search API provides an endpoint to search across workplace users and locations.
+-   **[WSD User API](../../../integrate/inbound-rest/concept/wsd_user-api.md#)**  
+The WSD User API is a Scripted REST API which returns the authenticated user's workplace context, including their assigned workspace location, in-office presence schedule, collaborators, and past and future reservations.
 
 **Parent Topic:**[API reference](api-reference.md)
 

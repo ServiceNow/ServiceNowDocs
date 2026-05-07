@@ -25,7 +25,7 @@ Role required: procurement\_admin or procurement\_user
 
 2.  Open a purchase order.
 
-3.  In the **Purchase order line items** related list, click **New**.
+3.  In the **Purchase order line items** related list, select **New**.
 
 4.  Complete the form.
 
@@ -220,7 +220,7 @@ Select this check box to create a requisition for an item that is not present in
 -   This field isn't visible on the form if you haven't published a procurement integration profile. For more information, see [Integrating with external procurement applications](../concept/integrate-ext-proc-ser.md).
 -   If you select only a software model in the Product model field, this check box gets displayed on the form.
 -   If you select an item in the Product Catalog field, the check box gets automatically unchecked.
--   If you haven't selected any item in the Product Catalog field, this check box is automatically checked, which indicates you are submitting a non-catalog request.
+-   If you haven't selected any item in the Product Catalog field, this check box is automatically checked, which indicates you're submitting a non-catalog request.
 
 
 </td></tr><tr><td>
@@ -240,13 +240,13 @@ Short description
 A few words or short phrase describing the purchase order line item.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
-    The purchase order reopens with the line item listed. The purchase order and line item are in **Requested**s status.
+    The purchase order reopens with the line item listed. The purchase order and line item are in **Requested** status.
 
 6.  Continue adding purchase order line items for this vendor, as needed.
 
-7.  After you initiate the order with the vendor and are ready to show that the order was placed, click **Order**.
+7.  After you initiate the order with the vendor and are ready to show that the order was placed, select **Order**.
 
     The status of the purchase order and line items change to **Ordered**.
 

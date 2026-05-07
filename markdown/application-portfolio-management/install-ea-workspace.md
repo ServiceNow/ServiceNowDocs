@@ -5,8 +5,8 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+reading_time_minutes: 2
+breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Install Enterprise Architecture Workspace
@@ -54,6 +54,8 @@ The following roles help you to configure and use the Enterprise Architecture Wo
 The following tables are added with activation of Enterprise Architecture Workspace.
 -   **[Granular admin role changes in Enterprise Architecture](../reference/eaw-reference/eaw-gran-admin-role-changes.md)**  
 Understand the transition from global admin usage to feature‑specific granular admin roles, outlining the intent, architectural principles, and governance expectations defined by the Granular Admin Directive.
+-   **[Application plugin installation sequence for Enterprise Architecture Workspace](../reference/eaw-reference/eaw-plugin-activation-sequence.md)**  
+The following table provides the list of plugins for Enterprise Architecture Workspace, a high-level description of each plugin, and the dependencies that are required before installing each plugin.
 
 **Parent Topic:**[Configuring Enterprise Architecture Workspace](../concept/eaw-concept/configure-eaw.md)
 

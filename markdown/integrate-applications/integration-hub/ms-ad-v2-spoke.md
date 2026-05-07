@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Active Directory v2 spoke v2.5.2 is the latest version.
+Microsoft Active Directory v2 spoke v2.5.3 is the latest version.
 
 ## Supported versions
 

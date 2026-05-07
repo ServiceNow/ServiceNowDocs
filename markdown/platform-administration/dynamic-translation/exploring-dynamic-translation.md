@@ -6,7 +6,7 @@ release: australia
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-14"
 reading_time_minutes: 5
 breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -59,5 +59,7 @@ To manage and deliver multilingual content at scale, see [Localization Workspace
 |Set your preferred translation services|[Dynamic Translation spoke](dynamic-translation-spoke.md) and integrating with third-party services|Administrator|
 |Use an API and enable machine translation for multiple languages|[DynamicTranslation API](dyn-translation-apis.md)|Administrator|
 |Translate text in conversations between end users and agents|[Dynamic Translation for Agent Chat](../../conversational-interfaces/concept/ci-dtac-overview.md)|End user, agent|
-|From the Zurich release, support for certain regulated markets is available.|For information see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.|Administrator, end user, agent|
+|Regulated market support|From the Zurich release, support for certain regulated markets is available. For information see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.|Administrator, end user, agent|
+|Self-hosted \(on-premise\) support|Dynamic Translation is available to self-hosted \(on-premise\) customers who permit integrations to machine translation vendors.|Administrator|
+|Domain separation support|For information about domain separation with Dynamic Translation, see [Domain separation and Dynamic Translation](domain-sep-dynamic-translation.md)|Administrator|
 

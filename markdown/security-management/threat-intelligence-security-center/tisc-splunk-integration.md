@@ -1,6 +1,6 @@
 ---
 title: Configure and enable Splunk integration
-description: The Splunk Enrichment integration searches your logs and adds relevant sighting information.
+description: Configure the Splunk Enrichment integration to automatically search your logs and add relevant sighting information to threat intelligence data.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -8,25 +8,26 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Get started with Splunk Search integration, Configure Sighting Search, Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Get started with Sighting Search Configurations, Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure and enable Splunk integration
 
-The Splunk Enrichment integration searches your logs and adds relevant sighting information.
+Configure the Splunk Enrichment integration to automatically search your logs and add relevant sighting information to threat intelligence data.
 
 ## Before you begin
 
-Before you can use the Splunk Search, you must download it from the ServiceNow Store.
-
 Role required: sn\_sec\_tisc.admin
 
--   The Threat Intelligence Security Center plugin must be installed and activated before you can use the Splunk Search integration.
--   Obtain the Splunk and obtain the Splunk Search and obtain the API Base URL, Link URL, Username and Password from your Splunk instance.
+**Important:**
+
+-   Download the Splunk Search app from the ServiceNow Store to get started.
+-   Install and activate the Threat Intelligence Security Center plugin to enable the Splunk Search integration.
+-   From your Splunk instance, copy the API Base URL, Link URL, Username, and Password.
 
 ## Procedure
 
-1.  Using your instance, access **Threat Intelligence Security Center**.
+1.  In your instance, navigate to **Threat Intelligence Security Center**.
 
 2.  [Download the integration from the ServiceNow Store](../../security-incident-response/reference/download-app-first-time.md).
 
@@ -34,43 +35,43 @@ Role required: sn\_sec\_tisc.admin
 
 4.  Select **Integrations** &gt; **Enrichment Integrations** &gt; **All Integrations**.
 
-5.  Alternatively, you can navigate to **Integrations** &gt; **Enrichment Integrations** &gt; **All Integrations** &gt; **Sighting Search**
+5.  Navigate to **Integrations** &gt; **Enrichment Integrations** &gt; **All Integrations** &gt; **Sighting Search**
 
     The configured integrations appear as a series of cards.
 
-6.  In the **Splunk Search** card, click **Configure New Enrichment** to configure **Splunk Search** integration.
+6.  In the **Splunk Search** card, select **Configure New Enrichment** to configure **Splunk Search** integration.
 
-7.  Fill in the fields on the Configure New Enrichment form.
+7.  Complete the fields on the Configure New Enrichment form.
 
     |Field|Description|
     |-----|-----------|
-    |Name|Enter a name for the sighting search configuration.|
+    |Name|Name for the sighting search configuration.|
     |Vendor Name|Name of the vendor. The details of the selected vendor is populated by default. For example, Splunk.|
     |Integration Type|Type of integration that you selected. For example, Threat Lookup.|
-    |Description|Enter the description for the Splunk integration. For example, The Splunk enrichment integration aids in the investigation of a observable by supporting the querying of logs in your Splunk deployment in relation to potentially malicious indicators..|
+    |Description|Description for the Splunk integration. For example, The Splunk enrichment integration aids in the investigation of an observable by supporting the querying of logs in your Splunk deployment in relation to potentially malicious indicators.|
     |**Integration Configuration**|
-    |Splunk API Base URL|The base URL you acquired from the Splunk site.|
-    |Link URL|\[Optional\] The Link URL that links to the Splunk web interface, when available.|
-    |Username|Your Intel Elasticsearch username.|
-    |Password|Your Intel Elasticsearch password.|
-    |Max Rows|The maximum number of rows you want to search.|
-    |Earliest Result \(days\)|The earliest results you want to see in number of days.|
-    |Include raw data samples in search results|Select this to include samples of raw data in your sightings search results. The amount of data returned depends on your setting in the number of rows of raw data property in [Security Incident Response properties](https://servicenow.com/docs/bundle/vancouver-security-management/page/product/security-incident-response/reference/installed-with-sir.html).|
-    |On Premises Deployment|The On Premises Deployed environment.|
-    |MID Server|Select Any to use any active MID Server, or select a specific MID Server name.|
+    |Splunk API Base URL|Base URL from the Splunk site.|
+    |Link URL|\[Optional\] The URL that links to the Splunk web interface, when available.|
+    |Username|Your Intel Splunk username.|
+    |Password|Your Intel Splunk password.|
+    |Max Rows|Maximum number of rows to search.|
+    |Earliest Result \(days\)|Displays earliest results in number of days.|
+    |Include raw data samples in search results|When selected, includes samples of raw data in sightings search results. The amount of data returned depends on your setting in the number of rows of raw data property in [Security Incident Response properties](https://servicenow.com/docs/bundle/vancouver-security-management/page/product/security-incident-response/reference/installed-with-sir.html).|
+    |On Premises Deployment|Indicates whether the deployment is on premises.|
+    |MID Server|Select **Any** option to use any active MID Server, or select a specific MID Server name.|
 
-    **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the Workflow Editor.
+    **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Flow Designer** &gt; **Flows** and make necessary changes in the workflow editor, if required.
 
-8.  Click **Save**.
+8.  Select **Save** to apply the changes.
 
-    The integration details are validated, and by default the Splunk integration's status is disabled.
+    The integration details are validated, and by default the Splunk integration's status is turned off.
 
-9.  Click **Enable** to enable the Splunk integration.
+9.  Select **Enable** to enable the Splunk integration.
 
 
-## Result
+## What to do next
 
-After it is configured, Splunk can be selected for performing sighting search on observables in Threat Intelligence Security Center.
+After you configure the integration, you can select Splunk to perform sighting searches on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[Get started with Splunk Search integration](../concept/get-started-with-splunk-search-integration.md)
+**Parent Topic:**[Get started with Sighting Search Configurations](../concept/tisc-get-sighting-configs.md)
 

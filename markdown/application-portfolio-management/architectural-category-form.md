@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\) reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Architectural category form
@@ -21,7 +21,7 @@ Architectural category enables Enterprise architects to categorize and manage ar
 |Description|Description of the category.|
 |Parent Category|Hierarchical category. Select the parent category from the Architectural Categories page.|
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](apm-reference.md)
+**Parent Topic:**[Enterprise Architecture Workspace reference](eaw-reference/eaw-reference.md)
 
 **Related topics**  
 

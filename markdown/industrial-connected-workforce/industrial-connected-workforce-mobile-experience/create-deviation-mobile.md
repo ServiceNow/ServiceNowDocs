@@ -7,7 +7,7 @@ product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
 
@@ -72,6 +72,11 @@ The opened deviation can be:
 -   Canceled
 
 **Note:** The actions Close, Cancel, and Reopen are restricted to users with the sn\_icw.deviation\_expert role. Other actions are supported for both the sn\_icw.deviation\_user and sn\_icw.deviation\_expert role.
+
+-   **[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](use-ai-enhanced-ra-icw-mobile.md)**  
+With the AI Enhanced recommended actions for Industrial Connected Workforce Mobile Experience, you can contextualize an external document to get an explanation of why the document is relevant to a deviation.
+-   **[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](generate-action-plan-ai-enhanced-ra-icw-mobile.md)**  
+Generate an action plan to document and track remediation steps for an Industrial Connected Workforce Mobile Experience \(ICW Mobile\) deviation. Action plans help you organize tasks, assign responsibilities, and monitor progress toward resolution.
 
 **Parent Topic:**[Using the Industrial Connected Workforce Mobile Experience](../concept/using-icw-mobile-experience.md)
 

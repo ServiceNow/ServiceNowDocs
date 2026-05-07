@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Get started with Elasticsearch integration, Configure Sighting Search, Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Get started with Sighting Search Configurations, Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure and enable Elasticsearch integration
@@ -20,6 +20,8 @@ Elasticsearch is a distributed, RESTful search and analytics engine that easily 
 Before you can use the Elasticsearch, you must download it from the ServiceNow Store.
 
 Role required: sn\_sec\_tisc.admin
+
+**Important:**
 
 -   The Threat Intelligence Security Center plugin must be installed and activated before you can use the Elasticsearch integration.
 -   Obtain the Elasticsearch API Base URL, Kibana Base URL, Username, and Password under your Elasticsearch profile.
@@ -38,7 +40,7 @@ Role required: sn\_sec\_tisc.admin
 
     **Note:** The configured integrations appear as a series of cards.
 
-6.  In the **Elasticsearch** card, click **Configure New Enrichment** to configure **Elasticsearch** integration.
+6.  In the **Elasticsearch** card, select **Configure New Enrichment** to configure **Elasticsearch** integration.
 
 7.  Fill in the fields on the Configure New Enrichment form.
 
@@ -62,16 +64,16 @@ Role required: sn\_sec\_tisc.admin
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the Workflow Editor.
 
-8.  Click **Save**.
+8.  Select **Save**.
 
-    The integration details are validated, and by default the Elasticsearch integration's status is disabled.
+    The integration details are validated, and by default the Elasticsearch integration's status is turned off.
 
-9.  Click **Enable** to enable the Elasticsearch integration.
+9.  Select **Enable** to enable the Elasticsearch integration.
 
 
 ## Result
 
 After it is configured, Elasticsearch can be selected for performing sighting search on observables in Threat Intelligence Security Center.
 
-**Parent Topic:**[Get started with Elasticsearch integration](../concept/get-started-with-elasticsearch-integration.md)
+**Parent Topic:**[Get started with Sighting Search Configurations](../concept/tisc-get-sighting-configs.md)
 

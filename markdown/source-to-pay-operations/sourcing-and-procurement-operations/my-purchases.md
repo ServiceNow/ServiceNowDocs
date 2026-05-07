@@ -45,6 +45,8 @@ As a shopper, you can now specify decimal quantity values for service-based prod
 **Related topics**  
 
 
+[Shopping Hub](shopping-hub-overview.md)
+
 [Shopping Hub Mobile](shoppinghub-mobile.md)
 
 [Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)

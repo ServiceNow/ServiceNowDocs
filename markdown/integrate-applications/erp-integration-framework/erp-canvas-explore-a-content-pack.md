@@ -1,6 +1,6 @@
 ---
 title: Explore a Zero Copy Connector for ERP content pack
-description: Explore a Zero Copy Connector for ERP content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
+description: Explore a Zero Copy Connector for ERP \(Enterprise Resource Planning\) content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, contents, model, process, extension]
-breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Explore a Zero Copy Connector for ERP content pack
 
-Explore a Zero Copy Connector for ERP content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
+Explore a Zero Copy Connector for ERP \(Enterprise Resource Planning\) content pack to see what it contains, including models and process extensions. Content pack models and process extensions are examples.
 
 ## Before you begin
 

@@ -36,8 +36,6 @@ Role required:
 
         If the user has been identified from the CMDB, a manual response task is created in Action 5 and the flow ends.
 
-        ![Response task if the user has not been identified in the Windows Events Logs Cleared playbook](../../secops-analyst-workspace/image/playbook-windows-event-user-identify.png "T1070 - Windows Events Logs Cleared playbook")
-
     3.  In Action 6, if the user has not been identified from the CMDB, perform the following steps:
 
         1.  In Action 7, create an incident to identify the system owner and the individual who deleted the logs.
@@ -59,8 +57,6 @@ Role required:
 5.  In Action 17, reach out to the user for validation of their business justification.
 
     You can use the provided email template to contact the user.
-
-    ![Response task if the user has been identified in the Windows Events Logs Cleared playbook](../../secops-analyst-workspace/image/playbook-windows-event-user-not-identified.png "Using the T1070 - Windows Events Logs Cleared playbook")
 
 6.  In Action 18, check whether a valid business justification is provided or not.
 

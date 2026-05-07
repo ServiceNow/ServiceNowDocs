@@ -4916,7 +4916,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3262e1766">
+</td><td id="d3273e1766">
 
 List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 
@@ -7010,7 +7010,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d3262e1766">
+</td><td id="d3273e1766">
 
 List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 

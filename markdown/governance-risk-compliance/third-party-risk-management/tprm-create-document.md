@@ -33,7 +33,7 @@ The document management system in TPRM enables you to create, version, and refer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **All Documents**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **All Documents**.
 
 2.  Create a document record by selecting **New**.
 

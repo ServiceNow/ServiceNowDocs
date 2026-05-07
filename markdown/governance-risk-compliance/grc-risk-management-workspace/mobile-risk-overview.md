@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 3
 breadcrumb: [Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -29,17 +29,11 @@ With the GRC Mobile application, you can perform the following Risk Management a
 -   Assign unassigned tasks to your team with the Indicator Tasks, Issues, and Remediation Tasks applets.
 -   Manage and reassign your team's overdue tasks with the Assessments and overdue Issues applets.
 
-The following figure illustrates how you log in to your ServiceNow AI Platform instance from your mobile device and the landing screen that is displayed after you log in.
-
-![Landing page for the Risk Mobile app.](../image/mobile_Risk_overview-app-redo.png "Landing page for the Risk Mobile app")
-
 For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the GRC Mobile application, see [Set up checklist for the GRC Mobile application](../task/mobile-setup-risk-app.md). For instructions about how to log in, see [Log in to the GRC Mobile application](../task/mobile-login-risk-mobileapp.md).
 
 -   **Applications**
 
     Applications are the ServiceNow® software components such as Policy and Compliance Management, Risk Management, and Audit Management that provide specific features and functionalities within your ServiceNow AI Platform instance. After you install these core applications and the GRC Mobile app on your ServiceNow AI Platform instance, these applications are displayed as icons on the bottom of your Android or iOS mobile device after you log in.
-
-    ![Icons on the bottom of the device screen.](../image/risk-icons.jpg "Icons on the bottom of the device screen")
 
 -   **Folders**
 

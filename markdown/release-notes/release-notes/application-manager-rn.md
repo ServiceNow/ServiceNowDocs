@@ -26,7 +26,7 @@ Application Manager is active by default on instances on the Australia release. 
 
 ## New in the Australia release
 
--   **[Now Assist suites for version compatibility](https://www.servicenow.com/docs/access?context=now-assist-app-mgr&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Now Assist suites for version compatibility**
 
     Use the Application Manager to install and update Now Assist applications with suites of compatible application versions. Now Assist suites help verify that new Now Assist applications and versions remain compatible with the ones already installed to your instance.
 

@@ -8,7 +8,7 @@ classification: telecommunications-network-inventory
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
+breadcrumb: [Modeling your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # Design and assign
@@ -49,7 +49,7 @@ When you complete the task, the following processing takes place:
 
 You can create a set of network inventory records to fulfill an order request for Gigabyte Passive Optical Networks \(GPON\) broadband by using the design and assign function. To learn more, see [Design and assign GPON broadband service](gpon-broadband-service.md).
 
-**Parent Topic:**[Model your workflow](telecommunications-network-inventory-workflow.md)
+**Parent Topic:**[Modeling your workflow](telecommunications-network-inventory-workflow.md)
 
 **Related topics**  
 

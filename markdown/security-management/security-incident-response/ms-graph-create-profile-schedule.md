@@ -31,15 +31,15 @@ As a user with the sn\_si.admin role, you configure these polling intervals on a
 
 2.  Choose one to schedule how and when alerts are pulled from the Microsoft Azure tenant.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d287850e84">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d292245e84">
 
 Option
 
-</th><th align="left" id="d287850e87">
+</th><th align="left" id="d292245e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287850e93">
+</th></tr></thead><tbody><tr><td id="d292245e93">
 
 **__Ongoing Alert Ingestion selected__**
 
@@ -47,7 +47,7 @@ Description
 
 Based on the default setting, the ServiceNow AI Platform instance pulls from the Microsoft Azure tenant for new alerts every five minutes. Security incidents are created if triggered alerts are found and incident generation filtering criteria are matched. To balance alert ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d287850e111">
+</td></tr><tr><td id="d292245e111">
 
 **-   Ongoing Alert Ingestion selected
 -   Set initial alert ingestion time
@@ -73,7 +73,7 @@ Initial ingestion timeIf you want to schedule the initial ingestion at a specifi
 -   In the Initial alert ingestion time field, enter 04 05 00. In the Next alert ingestion \(estimated\) time field, the time of the next alert ingestion is displayed.
 
 
-</td></tr><tr><td id="d287850e175">
+</td></tr><tr><td id="d292245e175">
 
 **__One Time Retrieval field selected__**
 

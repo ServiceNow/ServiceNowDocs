@@ -1,19 +1,19 @@
 ---
 title: Use Now Assist to search the CMDB
-description: The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then generates a keyword search, a single-table search with dot walks, or a multi-table searches that involve relationship navigation, depending on the information you provided. The workflow can infer CI relationship data to generate an appropriate query.
+description: The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 locale: en-US
 release: australia
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-10"
 reading_time_minutes: 3
 breadcrumb: [Use agentic workflows, Now Assist for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use Now Assist to search the CMDB
 
-The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then generates a keyword search, a single-table search with dot walks, or a multi-table searches that involve relationship navigation, depending on the information you provided. The workflow can infer CI relationship data to generate an appropriate query.
+The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 
 ## Before you begin
 
@@ -27,9 +27,11 @@ Role required: sn\_cmdb\_user and now\_assist\_panel\_user
 
 The Search CMDB agentic workflow can perform the following types of search:
 
--   CMDB searches that are keyword searches for specific CIs. You can search using name, IP address, serial number, MAC address, or asset tag. For example, "Search the CMDB for Linux Servers", or "List all IPs".
+-   Keyword searches for a specific CI. You can search using name, IP address, serial number, MAC address, or asset tag. For example, "search the CMDB for 192.168.1.1".
 -   CMDB searches that are single-table queries \(including dot walk conditions for one level\). For example,"What servers does Wile E. Coyote own?" or "Search the CMDB for operational windows servers that aren't assigned to anyone".
--   Starting with Now Assist for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs, for example, "Search for servers that depend on databases".
+-   Starting with Now Assist for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs \(searches that traverse the cmdb\_rel\_ci\), for example, "Search for servers that depend on databases".
+
+**Note:** The **sn\_cmdb\_gen\_ai.cmdb\_rel\_ci.search.enabled** system property is a Boolean that controls relational search \(search queries that traverse the cmdb\_rel\_ci\). The default value is true. Set the value to false to disable relational search.
 
 ## Procedure
 
@@ -47,15 +49,15 @@ The Search CMDB agentic workflow can perform the following types of search:
 
 5.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d70104e232">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d72474e233">
 
 Option
 
-</th><th align="left" id="d70104e235">
+</th><th align="left" id="d72474e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d70104e241">
+</th></tr></thead><tbody><tr><td id="d72474e242">
 
 **Provide feedback for the summary**
 
@@ -63,7 +65,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up ![](../../configuration-management/image/icon-thumbs-up.png). If you think that it wasn’t helpful, select thumbs-down ![](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d70104e256">
+</td></tr><tr><td id="d72474e257">
 
 **Copy the summary**
 
@@ -71,7 +73,7 @@ If you think that the response was helpful, select thumbs-up ![](../../configura
 
 Select the copy to clipboard icon ![](../../configuration-management/image/icon-clipboard.png) to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d70104e267">
+</td></tr><tr><td id="d72474e268">
 
 **Refresh the summary**
 

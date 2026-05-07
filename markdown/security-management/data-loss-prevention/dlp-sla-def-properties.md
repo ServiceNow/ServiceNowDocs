@@ -196,7 +196,7 @@ Conditions under which the active SLA is completed and a new SLA is established 
 
 [Create repeat offender identification rules](../task/repeat-offender-identification-rules.md)
 
-[Create Additional Incident Data Fields](../task/create-custom-fields-dlp.md)
+[Create additional incident data fields](../task/create-custom-fields-dlp.md)
 
 [Configure advanced settings](../task/configure-advanced-settings-dlp.md)
 

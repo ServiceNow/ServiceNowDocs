@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Download the `SCP_Contact_User_Access.xml` file from the ServiceNow Store.![Location of the XML file fix script to enable access to the portal.](../image/xml-scp-access.png)
+Download the `SCP_Contact_User_Access.xml` file from the ServiceNow Store.
 
 After you download the script file, perform the following steps.
 

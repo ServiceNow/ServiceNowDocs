@@ -74,6 +74,8 @@ For more information about specific Azure and Azure Key Vault procedures, see th
 
 [Add SSL certificates for the MID Server](add-ssl-certificates.md#)
 
+[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+
 [MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
 
 [Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#)

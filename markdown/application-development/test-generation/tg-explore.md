@@ -7,13 +7,15 @@ product: Test Generation
 classification: test-generation
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Test generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Exploring Test generation
 
 If you are new to Test generation application, read this overview to learn what the app can do.
+
+Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Follow the gif to create tests from natural language leveraging AI power.
 

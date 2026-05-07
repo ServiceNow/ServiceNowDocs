@@ -35,15 +35,15 @@ You can also create planned work records through the Planned Work Management Wor
 
 2.  Create planned work records.
 
-<table id="choicetable_nqq_y3j_35b"><thead><tr><th align="left" id="d72669e129">
+<table id="choicetable_nqq_y3j_35b"><thead><tr><th align="left" id="d75267e129">
 
 To
 
-</th><th align="left" id="d72669e132">
+</th><th align="left" id="d75267e132">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d72669e138">
+</th></tr></thead><tbody><tr><td id="d75267e138">
 
 **Create planned work records for all the schedules defined for matching records**
 
@@ -53,7 +53,7 @@ Do this
 2.  In the related links section, select **Associate plan with filtered records**.
 
 
-</td></tr><tr><td id="d72669e159">
+</td></tr><tr><td id="d75267e159">
 
 **Create planned work records for an individual schedule defined for matching records**
 

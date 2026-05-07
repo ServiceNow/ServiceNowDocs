@@ -60,8 +60,6 @@ To sum the residual values of all assets in a fixed asset:
 
 [Manage transfer order](manage-transfer-orders.md)
 
-[Example Asset Management process](../task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../reference/org-mgmt.md#)
 
 ## Use depreciation with fixed assets

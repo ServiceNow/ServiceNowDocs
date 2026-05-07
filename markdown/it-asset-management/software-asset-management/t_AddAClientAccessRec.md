@@ -6,7 +6,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 9
 breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
@@ -262,7 +262,7 @@ Company of the users or devices that are granted access to the associated server
             **Note:** If you are using an Oracle Database Server software model, double-click **Insert a new row...** in the **Database user** field of the Client Access User Breakdowns list instead.
 
         3.  When prompted, search for and select a user that you want to assign a user-based CAL to.
-        4.  Select the Save icon \(![Save icon.](../image/save-icon.png)\).
+        4.  Select the Save icon ![](../image/save-icon.png).
 
             The **Device**, **Active**, **User Type**, and **Source** fields populate automatically for the specified user. However, you can modify the **Device**, **Active**, and **User type** fields as needed.
 
@@ -274,7 +274,7 @@ Company of the users or devices that are granted access to the associated server
         1.  Select the **Devices** tab.
         2.  In the **Device** field of the Client Access Device Breakdowns list, double-click **Insert a new row...**.
         3.  When prompted, search for and select a device that you want to assign a device CAL to.
-        4.  Select the Save icon \(![Save icon.](../image/save-icon.png)\).
+        4.  Select the Save icon ![](../image/save-icon.png).
 
             The **Active** and **Source** fields populate automatically for the specified device. However, you can modify the **Active** field as needed.
 
@@ -293,7 +293,7 @@ Company of the users or devices that are granted access to the associated server
 
     3.  When prompted, search for and select a CI that the associated server is installed on.
 
-    4.  Select the Save icon \(![Save icon.](../image/save-icon.png)\).
+    4.  Select the Save icon ![](../image/save-icon.png).
 
         The **Active** field populates automatically for the specified CI. However, you can modify this field as needed.
 

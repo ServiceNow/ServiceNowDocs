@@ -7,7 +7,7 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 18
+reading_time_minutes: 19
 breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -17,7 +17,7 @@ Area reports show trends over time for related attributes. Spline reports show h
 
 For example, you can create an area or spline reports for incident counts, to show how the number of incidents changes over time. The incident count often increases during the first few months after a product upgrade is deployed. Over time, the number of reported incidents decreases as users become more accustomed to the changes in the product.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Use cases for different time series visualization types](../reference/time-series-visualization-types.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](../../performance-analytics/concept/explore-data-vis-library.md).
 
 ![Area reports](../image/AreaChart.png "Area reports")
 
@@ -35,19 +35,21 @@ Create an area or spline report to show trends over time for related attributes.
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 For an area report use case, [Time series data visualization example](../../par-for-workspace/task/dv-example-line.md).
 
+On instances that are upgraded to Australia, Core UI report features are maintained, but are not updated. For best results, use Platform Analytics experience data visualizations. For more information, see [Exploring the Data Visualizations library](../../performance-analytics/concept/explore-data-vis-library.md).
+
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d106146e222">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d109690e280">
 
 **Data source**
 
@@ -55,7 +57,7 @@ For an area report use case, [Time series data visualization example](../../par-
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d106146e241">
+</td></tr><tr><td id="d109690e299">
 
 **Table**
 
@@ -63,7 +65,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 
-</td></tr><tr><td id="d106146e260">
+</td></tr><tr><td id="d109690e318">
 
 **External import**
 
@@ -71,7 +73,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d106146e285">
+</td></tr><tr><td id="d109690e343">
 
 **MetricBase**
 

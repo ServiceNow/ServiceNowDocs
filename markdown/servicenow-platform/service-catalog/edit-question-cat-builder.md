@@ -1,6 +1,6 @@
 ---
 title: Edit a question in Catalog Builder
-description: Edit an existing question if you want to improve it by adding dynamic form behavior.
+description: Edit an existing question if you want to improve it by adding UI policies.
 locale: en-US
 release: australia
 product: Service Catalog
@@ -13,7 +13,7 @@ breadcrumb: [Creating or editing catalog item template, Catalog Builder, Service
 
 # Edit a question in Catalog Builder
 
-Edit an existing question if you want to improve it by adding dynamic form behavior.
+Edit an existing question if you want to improve it by adding UI policies.
 
 ## Before you begin
 
@@ -39,13 +39,13 @@ You can’t edit the questions that belong to single-row and multi-row variable 
 
 4.  Deactivate a question.
 
-    1.  Point to the question and select the deactivate icon \(![Deactivate icon.](../image/deactivate-quest.png)\).
+    1.  Move to the question and select the deactivate icon \(![Deactivate icon.](../image/deactivate-quest.png)\).
 
     2.  In the dialog box, select **Deactivate**.
 
 5.  Edit a question.
 
-    1.  Point to the question and select the edit icon \(![Edit icon.](../image/edit-quest-builder.png)\).
+    1.  Move to the question and select the edit icon \(![Edit icon.](../image/edit-quest-builder.png)\).
 
     2.  Make the required changes and select **Save**.
 

@@ -31,20 +31,20 @@ Role required: admin
 
     The screen with the Sidebar configuration options appears.
 
-    ![Sidebar admin settings.](../image/sidebar-admin-settings.png)
-
 4.  Configure the options.
 
     |Field|Description|
     |-----|-----------|
+    |Enable enhanced chat|Slide the toggle switch to activate or deactivate.|
     |Emojis|Slide the toggle switch to activate or deactivate emojis.|
+    |Enable standalone discussions|Slide the toggle switch to activate or deactivate.|
 
     |Field|Description|
     |-----|-----------|
     |Automatic Task and Interaction record activation|Slide the toggle switch to activate Sidebar discussions for interaction and task-based records.|
     |Custom selection|Select **View settings** to display the Sidebar Enabled Tables screen.|
     |Requester mapping|Select **View settings** to display the [Sidebar requester mapping](sidebar-requester-mapping.md). The requester is the person requesting the record and any updates about unread messages in related Sidebar discussions will be sent to the requester.|
-    |Discussion subject mapping|To change the default subject for Sidebar discussions, select **View settings** to display the Discussion subject mapping. This screen enables admins to configure which field populates the discussion title in Sidebar discussions.|
+    |Discussion subject mapping|To change the default subject for Sidebar discussions, select **View settings** to display the Discussion subject mapping. This screen enables admins to configure which field populates the discussion title in Sidebar discussions. See [Sidebar discussion subject mapping](sidebar-discussion-subject-mapping.md) for more information.|
 
 <table id="table_t2c_tfd_nsb"><thead><tr><th>
 

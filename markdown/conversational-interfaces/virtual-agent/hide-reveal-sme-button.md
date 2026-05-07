@@ -27,15 +27,15 @@ By default, the greeting portion of a Virtual Agent conversation includes a **Sh
 
 1.  Use either of the following methods, depending on whether you are working with LLM or NLU topics.
 
-<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d144557e87">
+<table id="choicetable_dwk_ccn_b1c"><thead><tr><th align="left" id="d147482e87">
 
 Topic discovery type
 
-</th><th align="left" id="d144557e90">
+</th><th align="left" id="d147482e90">
 
 Method
 
-</th></tr></thead><tbody><tr><td id="d144557e96">
+</th></tr></thead><tbody><tr><td id="d147482e96">
 
 **LLM**
 
@@ -55,7 +55,7 @@ var hideShowMeEverything = String(vaInputs.now_assist_topics_skill_active_value.
 7.  On the Flow tab, select **Save**.
 
 
-</td></tr><tr><td id="d144557e168">
+</td></tr><tr><td id="d147482e168">
 
 **NLU**
 

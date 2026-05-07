@@ -229,6 +229,8 @@ Generate a summary of a subflow with Now Assist for Creator.
 View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
 -   **[Test a subflow](../task/test-subflow.md)**  
 You can test a subflow alone, or when added to a flow. When testing a subflow alone, you must define the inputs that the subflow uses in its actions. Because a subflow does not have a trigger, testing a subflow runs the actions using the defined input values. Unless updated, subsequent tests use the same inputs defined in the initial test run.
+-   **[Test conversational subflow](../task/test-conversational-subflow.md)**  
+Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
 **Parent Topic:**[Workflow Studio flows, subflows, and actions](../../workflow-studio/reference/workflow-studio-flows-subflows-and-actions-landing.md)
 

@@ -17,17 +17,17 @@ You can edit imported Excel spreadsheets \(`.xlsx` files\) of data maintained ou
 
 ## Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ## About this task
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  Select the name of a report that uses to imported data source to open the report in the Report Designer.
 
-3.  On the **Data** tab, click the pencil icon \(![](../../dashboards/image/EditWidgetButton.png)\) next to the name of the external import.
+3.  On the **Data** tab, select the pencil icon \(![](../../dashboards/image/EditWidgetButton.png)\) next to the name of the external import.
 
 4.  In the **Edit external import** dialog box you can make these changes:
 
@@ -49,9 +49,9 @@ Role required: report\_admin
 
         Change the visibility for the uploaded file: Only you, Everyone, or Custom. Select **Custom** to specify users, groups, or roles.
 
-        If you select **Custom**, click **Next** to choose who can use the data in the imported file and click **Submit**.
+        If you select **Custom**, select **Next** to choose who can use the data in the imported file and select **Submit**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 ## Result

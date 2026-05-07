@@ -15,8 +15,6 @@ breadcrumb: [Exploring, Health Log Analytics, ITOM AIOps, IT Operations Manageme
 
 Anomalous behavior in a CI or a service can indicate an important issue. For example, a spike in the frequency or number of messages of a particular type can indicate a problem.
 
-## Understanding anomalies
-
 To build models of expected behavior, Health Log Analytics monitors the log stream to learn baselines for patterns, metrics, and gauges over various time periods. Time periods can be hourly, daily, weekly, or unlimited. Behavior that departs from the learned models is considered anomalous behavior.
 
 ## Types of log property
@@ -36,16 +34,14 @@ To build models of expected behavior, Health Log Analytics monitors the log stre
 
 ## How anomalies appear in Health Log Analytics
 
-The Anomaly card illustrates the anomalous activity that led to the alert.
+The Anomaly card illustrates the anomalous activity that led to the alert. The chart shows:
 
--   The blue line shows the recent anomalous activity.
--   On some charts, the lightly shaded area indicates the expected \(learned baseline\) behavior.
+-   Recent anomalous activity
+-   Expected behavior \(the learned baseline\)
+-   Baseline values from one day earlier
+-   Baseline values from the previous week
 
-    A peach-shaded area represents the baseline values for the same hour one day earlier. A pink-shaded area shows the values for the same period in the previous week.
-
--   Click the information icon to see how the anomaly was identified: ![Information icon](../image/icon-info.png).
-
-In this example, the peach-shaded area shows the same data for the same hour one day earlier. The spike in the metric value \(events per minute\) is clearly visible.
+In this example, the system tracks the baseline rate \(the average number of events per minute\) for a specific log pattern. When this typically inactive log generates a spike in events, the system detects the deviation from the baseline and generates an alert.
 
 ![Anomaly card identifies and illustrates anomalous behavior.](../image/anomaly-spike.png "Anomaly card")
 

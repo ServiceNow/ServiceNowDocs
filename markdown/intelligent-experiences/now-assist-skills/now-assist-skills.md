@@ -6,8 +6,8 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-03-29"
-reading_time_minutes: 8
+last_updated: "2026-04-27"
+reading_time_minutes: 10
 keywords: [Now Assist, Now Assist skills, Generative AI, Gen AI, Security operations, IT operations, ITSM, IT Service management, Customer service management, CSM, Strategic portfolio management, SPM, Field service management, FSM, Financial services operations, FSO, HR Service Delivery, HRSD, Sourcing and procurement operations, SPO]
 breadcrumb: [Now Assist AI assets, Enable AI experiences]
 ---
@@ -25,6 +25,47 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 **Note:** Some workflow skills support Now Assist functionality. Deactivating these skills may negatively impact some features.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](../../ai-implementation/concept/ai-native-sku-overview.md).
+
+## Now Assist skills overview
+
+Now Assist skills are discrete, reusable generative AI capabilities that perform a specific type of work within a workflow. A skill focuses on a single, well‑defined task, such as summarizing content, generating text, analyzing records, or providing recommendations, and returns an output that can be reviewed, used, or acted on by a user or workflow.
+
+Skills are the foundational AI building blocks used across Now Assist experiences, workflows, and products. They enable AI‑powered assistance without requiring custom model development.
+
+## What a skill does
+
+Skills are designed to:
+
+-   Perform one focused action
+
+    A skill handles a specific task, such as summarizing a record, generating a response, or analyzing data, rather than completing an end to end workflow.
+
+-   Operate within an existing workflow or product context
+
+    Skills are used in the context of where users work, such as records, tasks, forms, or panels, and act on the data available in that context.
+
+-   Use generative AI safely and securely
+
+    Skills run on the ServiceNow AI Platform and respect data boundaries, access controls, and domain separation.
+
+-   Return usable output
+
+    The output of a skill can be reviewed by the user, edited if needed, or used to support downstream actions in a workflow.
+
+
+## How users interact with skills
+
+Depending on the product and configuration, users can interact with skills in different ways:
+
+-   Triggering a skill from a contextual UI, such as a panel or record.
+-   Using a skill as part of a workflow driven experience.
+-   Receiving output generated automatically by a workflow or agentic process.
+
+In all cases, skills are designed to assist, not replace, user decision making by reducing manual effort.
+
+**Note:** Some skills are turned on by default, depending on the product and release. Other skills require explicit enablement or configuration in the Now Assist admin experience. Deactivating certain skills may impact dependent features or workflows.
+
+## Available skills by workflow
 
 <table id="table_yz3_mqd_dbc"><thead><tr><th class="filter">
 
@@ -103,7 +144,7 @@ Technology
 
 </td><td>
 
-[Now Assist for Operational Sustainability \(formerly ESG\)](https://www.servicenow.com/docs/access?context=now-assist-for-esg&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://www.servicenow.com/docs/access?context=esg-landing-page&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
 
 </td><td>
 
@@ -144,8 +185,7 @@ Technology
 -   [Regulatory alert impacted policies](https://www.servicenow.com/docs/access?context=create-recommendation-reg-alert&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
 -   [Risk assessment summarization](https://www.servicenow.com/docs/access?context=generate-risk-assessment-summary-genai&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
 -   [Risk event summarization](https://www.servicenow.com/docs/access?context=generate-risk-event-summary-in-the-risk-workspace&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
-
-[Risk event summarization in the classic UI](https://www.servicenow.com/docs/access?context=generate-a-risk-event-summary&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+-   [Risk event summarization in the classic UI](https://www.servicenow.com/docs/access?context=generate-a-risk-event-summary&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
 
 
 </td></tr><tr><td>
@@ -208,6 +248,19 @@ Technology
 </td><td>
 
 [Search for a related record](https://www.servicenow.com/docs/access?context=search-related-records-ot-cmdb-tables-now-assist-otm&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+
+</td></tr><tr><td>
+
+Technology
+
+</td><td>
+
+[Now Assist for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+
+</td><td>
+
+-   [OT incident summarization](https://www.servicenow.com/docs/access?context=summarize-ot-incident-now-assist&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+-   [OT resolution notes generation](https://www.servicenow.com/docs/access?context=generate-resolution-notes-ot-incident&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
 
 </td></tr><tr><td>
 
@@ -327,6 +380,7 @@ Customer
 </td><td>
 
 -   [Activity response generation](https://www.servicenow.com/docs/access?context=generate-a-recommendation-to-respond-to-an-activity&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   [Automated quality assurance](https://www.servicenow.com/docs/access?context=quality-assurance-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
 -   [Case summarization](https://www.servicenow.com/docs/access?context=now-assist-csm-summarize-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
 -   [Chat recommendation](https://www.servicenow.com/docs/access?context=generate-chat-reply-recommendations&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
 -   [Chat summarization](https://www.servicenow.com/docs/access?context=now-assist-csm-summarize-chat&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
@@ -422,7 +476,7 @@ Customer
 -   [Internal play summary](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-plays&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
 -   [KB generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-knowledge-article&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
 -   [Resolution notes generation](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   -   [Risk signal and issues summary](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-risk-signals-issues&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
+-   [Risk signal and issues summary](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-risk-signals-issues&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
 -   [Service problem case summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-case&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
 -   [Success initiative summary](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-success-init&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
 -   [Test summarization](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-test&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
@@ -571,6 +625,7 @@ Platform
 -   [Complete record generation](../../now-assist-data-kit/concept/now-assist-data-kit-landing.md)
 -   [Conversational Help](conversational-help-skills.md)
 -   [Document summarization](https://www.servicenow.com/docs/access?context=generate-document-summary-now-assist&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   [Dynamic Guidance](https://www.servicenow.com/docs/access?context=dynamic-guidance&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
 -   [Extract information from documents](now-assist-extract-information-from-documents.md)
 -   [GAF skills](../../now-assist-ai-agents/task/configure-gaf.md)
 -   [Knowledge content recommendation](now-assist-platform-knowledge.md)

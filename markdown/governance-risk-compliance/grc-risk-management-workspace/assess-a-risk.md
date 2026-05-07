@@ -29,7 +29,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
 2.  Open the assessment and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d372872e108">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d375181e108">
 
 **If you are unable to answer the questions**
 
@@ -41,7 +41,7 @@ Risk assessments do not appear in the **Self-Service** &gt; **My assessments &am
 
  The list of assessments refreshes when you reassign an assessment to another user.
 
-</td></tr><tr><td id="d372872e141">
+</td></tr><tr><td id="d375181e141">
 
 **If you are able to answer the questions**
 

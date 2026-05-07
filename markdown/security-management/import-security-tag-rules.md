@@ -4,7 +4,7 @@ description: You can import security tag rules from other tables in your deploym
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Security Operations common functionality, Security Operations]
 ---
@@ -23,7 +23,7 @@ Role required: admin
 
 2.  Choose or [create a security tag](create-class-group-and-tags.md).
 
-3.  Click the **Import security tag rules** related link.
+3.  Select the **Import security tag rules** related link.
 
     ![Import security tag rules](../image/ImportSecTagRules.png)
 
@@ -83,7 +83,7 @@ Upload a file with delimited values. The values are parsed into security tags.
  Add values for the security tag rules using new line, or pipe delimiters.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**
+</table>5.  Select **Submit**
 
 
 **Parent Topic:**[Set up security tag groups and tags](create-class-group-and-tags.md)

@@ -1,6 +1,6 @@
 ---
-title: Understand the AIOps LEAP value dashboard
-description: Learn how to use the AIOps LEAP value dashboard to view the analysis of automation opportunities and cost and time savings achieved using automation for IT operations management.
+title: Monitor automation opportunities using the LEAP value dashboard
+description: Use the dashboard to track automation opportunities, cost savings, and operational efficiency metrics.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,51 +8,70 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+keywords: [LEAP dashboard, automation opportunities, cost savings, operational efficiency]
+breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Understand the AIOps LEAP value dashboard
+# Monitor automation opportunities using the LEAP value dashboard
 
-Learn how to use the AIOps LEAP value dashboard to view the analysis of automation opportunities and cost and time savings achieved using automation for IT operations management.
+Use the dashboard to track automation opportunities, cost savings, and operational efficiency metrics.
 
 ## Before you begin
 
 Role required: admin
 
+## About this task
+
+The LEAP value dashboard provides real-time insights into automation opportunities within your IT operations. Use this dashboard to justify automation investments and track the return on automation initiatives.
+
 ## Procedure
 
-1.  Select the AIOps LEAP dashboard icon ![](../images/dashboard-icon.png) to view records analyzed and grouped into automation opportunities.
+1.  Navigate to the LEAP dashboard by selecting the dashboard icon ![](../images/dashboard-icon.png).
 
-    The dashboard provides a comprehensive overview of estimated time and cost savings achievable with automation.
+    The dashboard displays records analyzed and grouped into automation opportunities.
 
-    ![LEAP value dashboard](../images/leap-value-dashboard.png)
+    ![LEAP value dashboard showing automation metrics and opportunities](../images/leap-value-dashboard.png)
+
+    The dashboard opens, displaying automation metrics and grouping statistics.
 
 2.  Review the Grouping statistics section.
 
-    1.  Check the total number of records analyzed.
+    1.  Review the total number of records analyzed.
 
-    2.  View the number of groups created and the average group size.
+        This metric shows the volume of data processed by LEAP.
 
-    3.  Identify large groups \(those exceeding the designated threshold for automation opportunities\).
+    2.  Check the number of groups created and average group size.
 
-    4.  Refer to the duration of the records used to present the statistics along with the last GAF run.
+        Groups represent similar incidents that can be automated together.
 
-        This section helps you understand how incidents are grouped for automation.
+    3.  Identify large groups that exceed the automation threshold.
+
+        Large groups indicate high-value automation opportunities.
+
+    4.  Note the record duration and last GAF run timestamp.
+
+        This information shows the data freshness and analysis scope.
 
 3.  Review the Automation Value section.
 
-    1.  Check the predicted cost and time savings from automation.
+    1.  Review the predicted cost and time savings from automation.
 
-    2.  View the number of playbooks created and tickets resolved.
+        These projections help justify automation investments.
 
-    This section demonstrates the impact of automation on operational efficiency.
+    2.  Check the number of playbooks created and tickets resolved.
 
-4.  If required, contact your LEAP administrator to modify LEAP settings for tailored savings based on organizational requirements.
+        These metrics demonstrate actual automation implementation and success.
 
-    LEAP administrators can adjust dashboard settings to align with business goals.
+    You can see the quantified benefits of your automation initiatives.
+
+4.  Contact your LEAP administrator to customize settings when dashboard metrics do not align with organizational requirements.
+
+    LEAP administrators can adjust calculation parameters, thresholds, and time ranges to match your business context.
 
 
 ## Result
 
-By following these steps, administrators can effectively use the AIOps LEAP value dashboard to monitor automation opportunities, analyze grouping and automation values, and optimize cost and time savings for your IT operations.
+The dashboard displays current automation metrics including potential cost savings, time savings, and automation opportunities. Use these metrics to prioritize automation initiatives and demonstrate ROI to stakeholders.
+
+If the dashboard shows no data, verify that LEAP has processed incident records within the specified time range and that the GAF analysis has completed successfully.
 

@@ -31,7 +31,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d144452e97">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d147415e97">
 
 **Create new table**
 
@@ -41,7 +41,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d144452e121">
+</td></tr><tr><td id="d147415e121">
 
 **Create from an extensible table**
 

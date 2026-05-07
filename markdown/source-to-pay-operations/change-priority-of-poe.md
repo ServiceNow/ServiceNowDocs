@@ -1,6 +1,6 @@
 ---
 title: Change the priority level of a purchase order exception
-description: Adjust the priority level of a purchase order exception manually to reflect its urgency and business impact. This capability allows procurement teams to manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
+description: Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management
 
 # Change the priority level of a purchase order exception
 
-Adjust the priority level of a purchase order exception manually to reflect its urgency and business impact. This capability allows procurement teams to manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
+Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an exception that you want to work on.
 
-4.  Select the More actions icon ![](../image/pom-more-actions-icon.png).
+4.  Select the More actions icon \(![](../image/pom-more-actions-icon.png)\).
 
 5.  Select **Change priority level**.
 

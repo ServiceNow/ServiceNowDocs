@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create new indicator form
@@ -135,7 +135,7 @@ var results = {};
     ```
 
 -   **Query Condition**: Allows you to select a table to run filters on to obtain data.
--   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://www.servicenow.com/docs/access?context=t_CreatMetricTypesAndGenAssessRecs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). To view results of survey assessments within APM, see [Generate survey assessments and view results within APM](../../task/generate-survey-assessments-results-apm.md).
+-   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table.
 -   **Indicators**: Allows you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
 
 For example, if the parent indicator is number of issues, the dependent indicators can be number of incident counts, number of problems, and changes. These dependent indicators are child indicators and the number of incidents, problems, and changes recorded are consolidated up to the parent indicator as the number of issues.
@@ -149,7 +149,7 @@ Indicator
 
 The **Indicator** field appears when **Performance Analytics** is selected from the **Data source** list.Indicators are statistics that are used to measure current conditions and forecast trends.
 
- **Note:** If the collection frequency of the application indicator isn’t greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`. For more information, see [Collection of PA indicator score data](../../concept/application-assessment.md#CollectionPAIndicators).
+ **Note:** If the collection frequency of the application indicator isn’t greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`.
 
 </td></tr><tr><td>
 

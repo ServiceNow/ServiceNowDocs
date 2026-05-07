@@ -218,7 +218,7 @@ Enterprise Architecture quick start tests require enabling the Enterprise Archit
 |Enterprise Architecture: Test for Indicator Score and Application Score generation|Verify the creation of indicator, scoring profile, and generation of indicator scores and application scores.|Paris|
 |Enterprise Architecture: Business Application with Information Object and Data Domain|Verify the creation of business application, information object, and addition of the CRUD operations in relation attributes.|Quebec|
 
-To learn more about Enterprise Architecture \(formerly Application Portfolio Management\), see Application Portfolio Management.
+To learn more about Enterprise Architecture \(formerly Application Portfolio Management\), see [Enterprise Architecture](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US) .
 
 ## Assessments and Surveys
 
@@ -2631,8 +2631,6 @@ Financial Management quick start tests require activating the Financial Manageme
 |Test|Description|Release version|
 |----|-----------|---------------|
 |Verify FM Cost Allocation Flow|Verify the cost allocation flow in financial modeling.|Madrid|
-
-To learn more about Financial Management, see Financial Management.
 
 ## Granular Delegation
 

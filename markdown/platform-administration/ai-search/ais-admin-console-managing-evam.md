@@ -35,7 +35,7 @@ The following table describes the tasks that you can do to set up the search res
 |Configure navigation actions|Set up actions that users can take directly from the search results, such as navigating to a related page. For more information, see [Card details field](../reference/ais-edit-view-config-form.md).|
 
 -   **[Create or edit an EVAM view definition](../task/ais-admin-console-evam-configurations.md)**  
-Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results are displayed in the portal or workspace.
+Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results appear in the portal or workspace.
 -   **[Create a copy of an EVAM view configuration](../task/copy-evam-viewconfig-ais-admin-console.md)**  
 Modify the search results of your AI Search application by creating a copy of an existing Entity View Action Mapper \(EVAM\) view and then changing the copy. Copying an EVAM is more efficient than creating an EVAM, especially when the changes are minimal.
 -   **[Track how your EVAM view configurations are used](../task/ais-admin-console-evam-viewusage.md)**  

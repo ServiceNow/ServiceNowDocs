@@ -32,7 +32,7 @@ Login to your ServiceNow instance to perform the following procedure.
 
 3.  Enter the password associated with the JKS file in **Key store password**.
 
-4.  Click the attachments icon \(![Attachments icon](../../../administer/integrationhub-store-spokes/image/attachments-icon.png)\) and attach the JKS certificate you had generated.
+4.  Select the attachments icon \(![Attachments icon](../../../administer/integrationhub-store-spokes/image/attachments-icon.png)\) and attach the JKS certificate you had generated.
 
     For more information, see [Configure OAuth application in Microsoft Azure](https://www.servicenow.com/docs/access?context=configure-oauth-application-in-microsoft-azure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
 

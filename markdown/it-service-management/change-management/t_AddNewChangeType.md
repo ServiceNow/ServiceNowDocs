@@ -164,5 +164,5 @@ In addition to the three types of change available by default, you can add new c
 
 [Change types](../concept/change-types.md)
 
-[Add a state to the state model](t_AddANewState.md#)
+[Legacy: Add a state to the state model](t_AddANewState.md#)
 

@@ -73,7 +73,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
         -   Select the condition value and provide a new value.
         -   Update both the operator and the condition value.
     -   To modify a result, select the result value and provide a new value.
-5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![Decision rule row menu options.](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
+5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 
@@ -129,7 +129,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d159348e563">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d161882e562">
 
 **Reorder by changing the Rank number**
 
@@ -141,7 +141,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d159348e596">
+</td></tr><tr><td id="d161882e595">
 
 **Reorder by dragging and dropping a row**
 

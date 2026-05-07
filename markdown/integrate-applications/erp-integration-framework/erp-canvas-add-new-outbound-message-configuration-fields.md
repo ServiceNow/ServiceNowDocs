@@ -1,6 +1,6 @@
 ---
 title: Outbound message configuration fields
-description: The add new outbound message configuration record in Zero Copy Connector for ERP contains information that defines IDoc outbound messages.
+description: The add new outbound message configuration record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines IDoc outbound messages.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, erp data, connect, outbound, message]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Outbound message configuration fields
 
-The add new outbound message configuration record in Zero Copy Connector for ERP contains information that defines IDoc outbound messages.
+The add new outbound message configuration record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines IDoc outbound messages.
 
 For process details, see [Create an IDoc outbound message configuration in Zero Copy Connector for ERP](../task/create-an-idoc-outbound-message-configuration.md).
 

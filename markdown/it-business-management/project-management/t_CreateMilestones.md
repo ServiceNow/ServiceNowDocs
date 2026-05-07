@@ -32,10 +32,6 @@ Role required: it\_project\_manager
     You can also convert a task to milestone through [Planning console tasks](../reference/r_PlanningConsoleTasks.md).
 
 
-## Result
-
-![Milestone example](../image/milestone_between_two_tasks.png "Milestone")
-
 **Parent Topic:**[Starting a project](t_CreateAProject.md)
 
 **Related topics**  

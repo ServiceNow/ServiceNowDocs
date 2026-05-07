@@ -36,7 +36,7 @@ An entity type provides you a method to group Entities together. An entity type 
     -   **Audit** &gt; **Scoping** &gt; **Entity Types**.
 2.  Do one of the following actions.
 
-<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d228317e139">
+<table id="choicetable_wn5_ds3_4w"><tbody><tr><td id="d230492e139">
 
 **To create a new entity type**
 
@@ -44,7 +44,7 @@ An entity type provides you a method to group Entities together. An entity type 
 
 Click **New**.
 
-</td></tr><tr><td id="d228317e151">
+</td></tr><tr><td id="d230492e151">
 
 **To edit an entity type**
 
@@ -52,7 +52,7 @@ Click **New**.
 
 Open the entity type from the list.
 
-</td></tr><tr><td id="d228317e160">
+</td></tr><tr><td id="d230492e160">
 
 **To delete an entity type**
 

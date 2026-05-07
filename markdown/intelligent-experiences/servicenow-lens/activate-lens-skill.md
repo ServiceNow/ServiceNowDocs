@@ -31,8 +31,12 @@ Activate the ServiceNow AI Lens skill to start using generative AI to scan and a
 
 4.  On the tile for the ServiceNow AI Lens skill, select **Turn on**.
 
+    ![ServiceNow AI Lens skill card that displays the skill to be turned on.](../image/sn-lens-card.png)
+
 5.  On the Successfully activated dialog box, select **Back to skills**.
 
 6.  On the ServiceNow AI Lens card, verify that the ServiceNow AI Lens skill is activated.
+
+    ![ServiceNow AI Lens skill is active.](../image/sn-lens-skill-activated.png)
 
 

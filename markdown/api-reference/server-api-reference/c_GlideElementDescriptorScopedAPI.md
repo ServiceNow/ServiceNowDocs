@@ -1,13 +1,13 @@
 ---
 title: GlideElementDescriptor - Scoped, Global
-description: The GlideElementDescriptor API provides information about individual fields in a glide record.Returns the encryption type used for attachments on the element's table.Returns the element's encryption type.Returns the element's internal data type.Returns the element's label.Returns the element's length.Returns the element's name.Returns the element's plural label.Returns true if an encrypted attachment has been added to the table.Returns true if the element is an automatically generated or system field.Returns true if the element is defined as a dropdown choice in its dictionary definition.Returns true if an element is encrypted.Determines whether the element is mandatory and must contain a value before the record can be saved.Returns true if the element is a virtual element.
+description: The GlideElementDescriptor API provides information about individual fields in a glide record.Returns the encryption type used for attachments on the element's table.Returns the element's encryption type.Returns the element's internal data type.Returns the element's label.Returns the element's length.Returns the element's name.Returns the element's plural label.Returns true if an encrypted attachment has been added to the table.Returns true if the element is an automatically generated or system field.Returns true if the element is defined as a dropdown choice in its dictionary definition.Returns true if an element is encrypted.Returns whether the field represented by this descriptor is configured for field encryption.Determines whether the element is mandatory and must contain a value before the record can be saved.Returns true if the element is a virtual element.
 locale: en-US
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 6
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -404,6 +404,78 @@ Output:
 
 ```
 false
+```
+
+## GlideElementDescriptor - isEncrypted\(\)
+
+Returns whether the field represented by this descriptor is configured for field encryption.
+
+Use this method to programmatically detect encrypted fields before reading or writing sensitive data, or to enforce access policies based on a field's encryption status.
+
+Required plugins: Field Encryption Starter \(com.glide.field.encryption.starter\). Without this plugin, isEncrypted\(\) returns false.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_kx1_tmp_z3c" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the field is configured for field encryption.
+
+ Valid values:
+
+-   true: Field is configured for field encryption.
+-   false: Field isn't encrypted, or the Field Encryption Starter \(com.glide.field.encryption.starter\) plugin isn't active.
+
+</td></tr></tbody>
+</table>The following server-side script uses isEncrypted\(\) to check whether the short\_description field on the Incident table is encrypted before logging its value. Copy this into a Background Script or Business Rule on your instance to test.
+
+**Note:** Use the [GlideRecord - getED\(\)](../../GlideRecord/concept/c_GlideRecordAPI.md#) or [Scoped GlideElement - getED\(\)](../../glideElement/concept/c_GlideElementScopedAPI.md#) method to obtain a GlideElementDescriptor object.
+
+```
+// Retrieve a sample Incident record
+var gr = new GlideRecord('incident');
+gr.setLimit(1);
+gr.query();
+
+if (gr.next()) {
+    // Get the GlideElement for the field you want to inspect
+    var element = gr.getElement('short_description');
+
+    // Retrieve the descriptor from the element
+    var descriptor = element.getED();
+
+    // Check whether the field is configured for Field Encryption
+    if (descriptor.isEncrypted()) {
+        gs.info('short_description is encrypted. Value: ' + element.getDisplayValue());
+    } else {
+        gs.info('short_description is NOT encrypted. Value: ' + gr.getValue('short_description'));
+    }
+}
+```
+
+Output \(unencrypted\):
+
+```
+short_description is NOT encrypted. Value: Unable to connect to network
+```
+
+Output \(encryption enabled on the field\):
+
+```
+short_description is encrypted. Value: Unable to connect to network
 ```
 
 ## GlideElementDescriptor - isMandatory\(\)

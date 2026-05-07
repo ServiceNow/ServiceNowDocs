@@ -39,8 +39,8 @@ The Google Cloud VPC Access spoke requires a custom app that you create in Googl
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Google Identity and Access Spoke](gidentityaccess-spoke-1.md)
--   [Google Cloud Virtual Network Spoke](gcloudvirntwrk-spoke-1.md)
+-   [Google Identity and Access Spoke](gidentityaccess-spoke.md)
+-   [Google Cloud Virtual Network Spoke](gcloudvirntwrk-spoke.md)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)

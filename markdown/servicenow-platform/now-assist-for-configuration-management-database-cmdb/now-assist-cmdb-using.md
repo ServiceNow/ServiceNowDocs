@@ -66,7 +66,7 @@ Search CMDB
 
 </td><td>
 
-The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then generates a keyword search, a single-table search with dot walks, or a multi-table searches that involve relationship navigation, depending on the information you provided. The workflow can infer CI relationship data to generate an appropriate query. For more information, see [Use Now Assist to search the CMDB](../../now-assist-cmdb/task/na-cmdb-awf-search.md).
+The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query. For more information, see [Use Now Assist to search the CMDB](../../now-assist-cmdb/task/na-cmdb-awf-search.md).
 
 </td><td>
 
@@ -156,7 +156,7 @@ The Create configuration item agentic workflow accepts your natural language req
 -   **[Getting advice from Now Assist on CMDB governance](../../now-assist-cmdb/concept/na-cmdb-awf-governance.md)**  
 Data governance can be an overwhelming task. The Provide advice on CMDB governance agentic workflow supports data admins and owners by methodically working through the many-faceted process of improving CMDB data accuracy, completeness, and health. The objective is to help users to trust the data that they use for their work.
 -   **[Use Now Assist to search the CMDB](../../now-assist-cmdb/task/na-cmdb-awf-search.md)**  
-The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then generates a keyword search, a single-table search with dot walks, or a multi-table searches that involve relationship navigation, depending on the information you provided. The workflow can infer CI relationship data to generate an appropriate query.
+The Search CMDB agentic workflow enables you to search for CIs by specifying any of several attributes of the CI of interest. The workflow accepts your natural language request, verifies your search goal, and then, depending on the information you provided, generates a keyword search, a single-table search with dot walks, or a multi-table search that involves relationship navigation. The workflow can infer CI relationship data to generate an appropriate query.
 
 **Parent Topic:**[Now Assist for Configuration Management Database \(CMDB\)](now-assist-landing-cmdb.md)
 

@@ -12,7 +12,7 @@ reading_time_minutes: 11
 
 Manage software licenses, hardware assets, and cloud assets with intuitive work flows and life cycle visibility.
 
-![IT Asset Management](../image/updated-itam-overview.svg "IT Asset Management")
+![IT Asset Management](../image/itamlandingpage-overview.svg "IT Asset Management")
 
 ## Take command of your software, hardware, and cloud assets
 

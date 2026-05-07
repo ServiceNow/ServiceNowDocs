@@ -1,6 +1,6 @@
 ---
 title: Set up the Udemy spoke
-description: Enable your ServiceNow instance to connect to the Udemy instance by setting up a connection and credential record for the Udemy spoke. The Udemy instance uses the record to authenticate the requests from the ServiceNow instance.
+description: Create an Udemy API key and configure a Udemy spoke connection to enable your ServiceNow instance to authenticate with Udemy and access data.Create a Udemy API key to authenticate ServiceNow requestsCreate a Udemy spoke connection to connect to the Udemy instance.
 locale: en-US
 release: australia
 product: Integration Hub
@@ -13,7 +13,7 @@ breadcrumb: [Udemy Spoke, Integration Hub spokes, Build integrations, Integratio
 
 # Set up the Udemy spoke
 
-Enable your ServiceNow instance to connect to the Udemy instance by setting up a connection and credential record for the Udemy spoke. The Udemy instance uses the record to authenticate the requests from the ServiceNow instance.
+Create an Udemy API key and configure a Udemy spoke connection to enable your ServiceNow instance to authenticate with Udemy and access data.
 
 ## Before you begin
 
@@ -22,45 +22,67 @@ Enable your ServiceNow instance to connect to the Udemy instance by setting up a
 -   Ensure that you have the admin access to the Udemy instance.
 -   Role required: admin.
 
-## Procedure
+## Create a Udemy API key
 
-1.  Generate an Application Programming Interface \(API\) key from your Udemy instance.
+Create a Udemy API key to authenticate ServiceNow® requests
 
-    1.  Log in to your Udemy instance.
+### Before you begin
 
-    2.  Navigate to **Manage** &gt; **Settings**.![Navigation to API key.](../image/udemy-spoke-config-log-in.png)
+Role required: admin
 
-    3.  Under Settings, select LMX/LXP integrations.![LMS/LXP integration link.](../image/udemy-spoke-lms.png)
+### Procedure
 
-    4.  Click **Copy** to copy the client ID.
+1.  Log in to your Udemy instance.
 
-    5.  Click **Copy** to copy the client secret.![Client ID and Client secret.](../image/udemy-spoke-client-id-secret.png)
+2.  Navigate to **Manage** &gt; **Settings**.![Navigation to API key.](../image/udemy-spoke-config-log-in.png)
 
-    6.  Go to [GET /api-2.0/organizations/\{organization\_id\}/courses/list/](https://servicenow-integration.udemy.com/developers/organization/courses/methods/organizationcourseslist-list/get/).
+3.  Under Settings, select LMX/LXP integrations.![LMS/LXP integration link.](../image/udemy-spoke-lms.png)
 
-    7.  In the Your Client Id field, paste the client ID you had copied.
+4.  Select **Copy** to copy the client ID.
 
-    8.  In the Your Client Secret field, paste the client secret you had copied.![Generate the API key.](../image/udemy-api-key.png)
+5.  Select **Copy** to copy the client secret.![Client ID and Client secret.](../image/udemy-spoke-client-id-secret.png)
 
-        The API key is generated and displayed in the **Authorization** field. Copy and record the value for later use.
+6.  Go to [GET /api-2.0/organizations/\{organization\_id\}/courses/list/](https://servicenow-integration.udemy.com/developers/organization/courses/methods/organizationcourseslist-list/get/).
 
-2.  Create a connection and credential record to connect to the Udemy instance.
+7.  In the Your Client Id field, paste the client ID you had copied.
 
-    1.  Log in to your ServiceNow instance.
+8.  In the Your Client Secret field, paste the client secret you had copied.![Generate the API key.](../image/udemy-api-key.png)
 
-    2.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-    3.  Select Connections.
+### Result
 
-    4.  In the Search all connections field, enter `Udemy`.![Enter Udemy in the search field.](../image/udemy-spokes-search-udemy-conn.png)
+The API key is generated and displayed in the **Authorization** field. Copy this value to use when configuring the Udemy spoke connection.
 
-    5.  In the Udemy connection card, select **View Details**.
+## Create a connection for the Udemy spoke
 
-    6.  Click **Configure**.![Configure button for connection and credentials.](../image/udemy-spoke-click-configure.png)
+Create a Udemy spoke connection to connect to the Udemy instance.
 
-    7.  Fill the form with the details.
+### Before you begin
 
-<table id="table_ufq_kjv_ywb"><thead><tr><th>
+-   Role required: admin
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
+
+2.  Select the **Integrations** tab.
+
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
+
+4.  Locate the alias for **Udemy** and select **View Details**.
+
+    -   To configure the default connection and credential alias record that is shipped along with the Udemy spoke, select **View Details**.
+
+        ![Connection for the Udemy spoke](../image/udemy-spoke-tile.png)
+
+    -   To manage more than one Udemy spoke connection records, you should create child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
+
+    ![Initial connection configuration](../image/udemy-spoke-configure.png)
+
+5.  On the form, fill in these fields:
+
+<table id="table_whp_kcp_x3c"><thead><tr><th>
 
 Field
 
@@ -132,8 +154,12 @@ Credential Name
 Custom name of the connection and credential record.
 
 </td></tr></tbody>
-</table>    8.  Click **Configure Connection**.
+</table>    ![Configure a connection for the Udemy spoke.](../image/udemy-spoke-connection-config.png)
 
-        The connection and credential record is created.
+6.  Select **Save**.
 
+
+### Result
+
+The Udemy spoke is set up and your Udemy is integrated with the ServiceNow instance.
 

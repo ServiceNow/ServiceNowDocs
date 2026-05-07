@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Task plan template, Configure, Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Task plan template, Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Configure the task plan template
@@ -37,7 +37,7 @@ Role required: admin
         |oper|is|
         |Value|Select the specification from the list of records for domain order.|
 
-        ![image.task-plan-condition]
+        ![task plan template.](../image/task-plan-condition.png)
 
     -   Select **+New condition set** to add a new condition.
 

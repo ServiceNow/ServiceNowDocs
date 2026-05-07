@@ -7,7 +7,7 @@ product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Use the risk assessment playbook, Create a supplier, Using Source-to-Pay Workspace, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -16,8 +16,6 @@ breadcrumb: [Use the risk assessment playbook, Create a supplier, Using Source-t
 If you have installed only the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] plugin, the Perform risk assessment playbook triggers the flow that includes activities to verify the eligibility of the supplier by creating risk assessments.
 
 The Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] plugin automatically installs the Vendor Risk Management \[sn\_vdr\_risk\_asmt\] plugin.
-
-![Risk assessment flow when only VRM is installed.](../image/risk-flow-slo-vrm.png "Risk assessment flow when only VRM is installed")
 
 In this flow, the following occurs:
 

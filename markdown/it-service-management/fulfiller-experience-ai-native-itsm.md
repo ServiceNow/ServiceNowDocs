@@ -1,21 +1,21 @@
 ---
-title: Fulfiller experience in AI-native IT Service Management
-description: The AI-native IT Service Management fulfiller experience consists of simplified incident and request management with AI recommendations.
+title: Fulfiller experience in Simplified IT Service Management
+description: The Simplified IT Service Management fulfiller experience consists of simplified incident and request management with AI recommendations.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI-native IT Service Management, IT Service Management]
+breadcrumb: [Simplified IT Service Management, IT Service Management]
 ---
 
-# Fulfiller experience in AI-native IT Service Management
+# Fulfiller experience in Simplified IT Service Management
 
-The AI-native IT Service Management fulfiller experience consists of simplified incident and request management with AI recommendations.
+The Simplified IT Service Management fulfiller experience consists of simplified incident and request management with AI recommendations.
 
 ## Fulfiller experience key features
 
-These are the fulfiller experience key features with AI-native IT Service Management.
+These are the fulfiller experience key features with Simplified IT Service Management.
 
 -   Automatically create an incident or request from a chat.
 -   Provide incident and chat summaries and suggest next steps.
@@ -24,11 +24,11 @@ These are the fulfiller experience key features with AI-native IT Service Manage
 -   Automatically capture conversation summary when a live chat is handed off to a fulfiller.
 -   Provide a Service Desk Manager dashboard.
 
-## AI-native IT Service Management landing page
+## Simplified IT Service Management landing page
 
-You can access the AI-native IT Service Management landing page from Service Operations Workspace.
+You can access the Simplified IT Service Management landing page from Service Operations Workspace.
 
-The AI-native ITSM landing page contains these main metrics.
+The Simplified ITSM landing page contains these main metrics.
 
 -   Assigned to you: Incidents and requests that are assigned to you.
 -   Overdue: Incidents and requests that are breaching or about to breach.
@@ -45,5 +45,5 @@ You can generate AI summary, key actions taken, proposed next steps, and related
 -   **[Using the Service Desk Team Dashboard](using-now-assist-ai-native-itsm.md)**  
 Service desk managers can use the Service Desk Team Dashboard to view key performance metrics, including incident and requested item backlog, and team MTTR.
 
-**Parent Topic:**[AI-native IT Service Management](../reference/ai-native-it-service-desk-landing-page.md)
+**Parent Topic:**[Simplified IT Service Management](../reference/ai-native-it-service-desk-landing-page.md)
 

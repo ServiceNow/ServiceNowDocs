@@ -36,7 +36,7 @@ Role required: security\_admin
     -   90 days
     -   120 days
     -   180 days
-    ![image.sgt-scan-scripting]
+    ![Scan for scripting users](../image/sgt-scan-scripting.png)
 
     The default value is **180 days**.
 
@@ -59,7 +59,7 @@ Role required: security\_admin
     |Created by|User who initiated the scan|
     |Action|Actions the scan took|
 
-    ![image.sgt-view-scans]
+    ![View scan](../image/sgt-view-scans.png)
 
 7.  Select the scan record to open the scan results page.
 
@@ -72,7 +72,7 @@ Role required: security\_admin
     -   Users that have scripted table — a detailed list of active scripters, showing each user's Name, Last scripted date, Title, and Department.
     **Note:** If the **Users that have scripted count** is zero and the table shows `No data to display`, no users in the ServiceNow AI Platform have scripted within the selected time period.
 
-    ![image.sgt-view-scans-result]
+    ![Scan results page](../image/sgt-view-scans-result.png)
 
 8.  Review the results and identify users who require action.
 

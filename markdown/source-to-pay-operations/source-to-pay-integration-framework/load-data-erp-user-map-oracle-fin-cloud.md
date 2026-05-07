@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Load data to ERP user-mapping table for Oracle Financial Cloud
@@ -29,7 +29,7 @@ Role required: sn\_shop.procurement\_administrator
 
 4.  Select **Choose File** to import the source Excel spreadsheet.
 
-    ![Load data to ERP user-mapping table for Oracle Financial Cloud](../image/oracle-fin-load-data-erp.png "Load data to ERP user-mapping table for Oracle Financial Cloud")
+    ![Load data to ERP user-mapping table for Oracle Financial Cloud](../../source-to-pay-operations/image/oracle-fin-load-data-erp.png "Load data to ERP user-mapping table for Oracle Financial Cloud")
 
 5.  If appropriate, specify the Work sheet and Header row number.
 

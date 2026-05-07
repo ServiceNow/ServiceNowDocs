@@ -17,7 +17,7 @@ Create multidimensional entities by combining two or more entities from differen
 
 ## Before you begin
 
-Roles required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, and sn\_risk\_workspace.operational\_risk\_manager
+Roles required: sn\_grc.manager, sn\_risk\_workspace.IT\_risk\_manager, or sn\_risk\_workspace.operational\_risk\_manager
 
 The Composite Entity Management application and Risk Workspace must be installed to create a composite entity.
 

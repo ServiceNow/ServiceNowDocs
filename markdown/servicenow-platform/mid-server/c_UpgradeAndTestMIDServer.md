@@ -29,7 +29,7 @@ Upgrade MID Servers manually, or automatically through the instance. MID Server 
 
 -   **MID Server operating system compatibility**
 
-    Upgrading Windows or Linux MID Servers with 32-bit operating systems isn't supported. For more information, see [\[KB0863694\]](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0863694).
+    Upgrading Windows or Linux MID Servers with 32-bit operating systems is not supported. For supported operating systems and other host requirements, see [MID Server system requirements](../reference/r_MIDServerSystemRequirements.md).
 
 
 The MID Server can't upgrade on a Windows host if the Windows Application Experience service is turned off. For information on the error that is displayed and instructions for re-enabling this service, see [KB0597552](https://support.servicenow.com/kb_view.do?sysparm_article=KB0597552#appex&_ga=2.137899701.402632408.1615226320-1555493315.1610383440).

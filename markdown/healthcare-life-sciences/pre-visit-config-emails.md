@@ -1,0 +1,74 @@
+---
+title: Configuring the Pre-Visit Management email notifications
+description: Configure the Pre-Visit Management email notifications sent to patients about pre-visit activities for procedure requests.
+locale: en-US
+release: australia
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configure, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+---
+
+# Configuring the Pre-Visit Management email notifications
+
+Configure the Pre-Visit Management email notifications sent to patients about pre-visit activities for procedure requests.
+
+**Important:**
+
+Starting with the Yokohama release, Pre-Visit Management is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+Pre-Visit Management includes the following email notifications.
+
+<table id="table_gfz_zww_pqb"><thead><tr><th>
+
+Notification
+
+</th><th>
+
+Condition
+
+</th><th>
+
+Recipient
+
+</th></tr></thead><tbody><tr><td>
+
+Patient to dos
+
+</td><td>
+
+A procedure request case was reviewed by a patient service representative.
+
+</td><td>
+
+Patient
+
+</td></tr><tr><td>
+
+Patient todos - assigned
+
+</td><td>
+
+A document task was created for the patient.
+
+</td><td>
+
+Patient
+
+</td></tr><tr><td>
+
+Patient appointment booked
+
+</td><td>
+
+An appointment for the procedure is booked for the patient.
+
+</td><td>
+
+Patient
+
+</td></tr></tbody>
+</table>As a user with the sn\_previsit.admin role, you can configure the email notifications for the Pre-Visit Management application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+

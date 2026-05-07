@@ -400,6 +400,22 @@ An option to validate that the `keys.ts` file is up to date for continuous integ
 
 false
 
+</td></tr><tr><td>
+
+--errorOnConflict
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+An option to treat sys\_id conflicts between ServiceNow Fluent code and metadata XML as errors instead of warnings.
+
+</td><td>
+
+false
+
 </td></tr></tbody>
 </table>For example:
 
@@ -1160,49 +1176,22 @@ View documentation and examples for a ServiceNow Fluent API.
 The `explain` command has the following structure:
 
 ```cmd
-now-sdk explain <api> [source]
+now-sdk explain <topic> [--list <keyword>] [--format <output type>] [--peek <flag>]
 ```
 
 |Parameter|Type|Description|Default value|
 |---------|----|-----------|-------------|
-|api|String|The name of a ServiceNow Fluent API, such as Table or Acl.|—|
+|topic|String|A keyword or topic name to search for to view related ServiceNow Fluent API, guide, or skill documentation, such as `table-api` or `table-guide`. To get a list of available topics, use the `--list` parameter.|—|
 
-<table id="table_vx2_vvr_rzb"><thead><tr><th>
+|Parameter|Type|Description|Default value|
+|---------|----|-----------|-------------|
+|--list, -l|Boolean|An option to view a list of available topics, which you can filter by providing a topic name or keyword, such as `now-sdk explain flow --list`. The list returned includes matches that contain the keyword and possibly related matches.|—|
+|--format|Boolean|An option to format the output for the terminal \(`pretty`\) or as Markdown \(`raw`\).|pretty|
+|--peek, -p|Boolean|An option to display a short description of a topic instead of the complete topic content. You can use this parameter with the `--list` parameter to display summaries of the listed topics.|—|
 
-Parameter
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th><th>
-
-Default value
-
-</th></tr></thead><tbody><tr><td>
-
-source
-
-</td><td>
-
-String
-
-</td><td>
-
-The path to the directory that contains the `package.json` file for your application. The `package.json` should be in the base directory of your application.
-
-</td><td>
-
-Current working directory
-
-</td></tr></tbody>
-</table>For example:
+For example:
 
 ```cmd
-now-sdk explain UiPage
+now-sdk explain uipage-api --format raw
 ```
 

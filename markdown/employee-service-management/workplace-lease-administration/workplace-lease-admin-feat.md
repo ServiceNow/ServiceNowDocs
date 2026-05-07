@@ -19,23 +19,23 @@ The ServiceNow® Workplace Lease Administration enables you to create, manage an
 
 <table id="table_sbm_3nx_zvb" class="nav-card"><tbody><tr><td>
 
-[Explore Learn about Workplace Lease Administration concepts and features](explore-lease-administration.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Lease Administration concepts and features](explore-lease-administration.md)
 
 </td><td>
 
-[Configure Configure Workplace Lease Administration](config-lease-administration.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure Workplace Lease Administration](config-lease-administration.md)
 
 </td><td>
 
-[Use Use Workplace Lease Administration to add workplace contracts and track them](use-lease-administration.md)
+[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Use Workplace Lease Administration to add workplace contracts and track them](use-lease-administration.md)
 
 </td></tr><tr><td>
 
-[Manage Manage workplace contracts and renewals](manage-lease-contracts.md)
+[Manage ![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage workplace contracts and renewals](manage-lease-contracts.md)
 
 </td><td>
 
-[Reference Get details about components like fields, tables, and properties](workplace-lease-references.md)
+[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties](workplace-lease-references.md)
 
 </td><td>
 

@@ -4,9 +4,9 @@ description: Scan Engine Manageability definitions measure the extent to which S
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 26
-breadcrumb: [Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
+breadcrumb: [View and modify Scan Engine definitions, Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
 ---
 
 # Scan Engine definitions: Manageability

@@ -53,7 +53,7 @@ The following table lists the SLO outbound staging tables and the application th
 | |sn\_spend\_intg\_supplier\_contact\_outbound​|
 | |sn\_spend\_intg\_supplier\_payment\_outbound\_stage​|
 
-The same set of fields exist in both the SLO inbound and SLO outbound staging tables. For more information about the mandatory fields in the staging tables and their descriptions, see [Inbound staging tables for Supplier Lifecycle Operations](slo-inbound-staging-tables.md).
+The same set of fields exist in both the SLO inbound and SLO outbound staging tables. For more information about the mandatory fields in the staging tables and their descriptions, see [Inbound staging tables for Supplier Lifecycle Operations](../../source-to-pay-integrations/concept/slo-inbound-staging-tables.md).
 
 -   **[Add supplier inbound data in an Excel file](../task/import-external-data-into-slo.md)**  
 You can import supplier inbound table data in an Excel file.

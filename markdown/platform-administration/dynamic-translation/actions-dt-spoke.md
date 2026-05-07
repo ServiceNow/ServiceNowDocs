@@ -72,3 +72,5 @@ When an error occurs, error codes populate with the reason for the error. Refer 
 -   [Dynamic Translation - Scoped](https://www.servicenow.com/docs/access?context=DynamicTranslation&version=australia&pubname=australia-api-reference&ft:locale=en-US)
 -   [Dynamic Translation - Client](https://www.servicenow.com/docs/access?context=DynamicTranslationClientAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
 
+**Parent Topic:**[Reference for Dynamic Translation](reference-for-dynamic-translation.md)
+

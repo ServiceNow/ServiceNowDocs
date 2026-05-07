@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -72,21 +72,4 @@ Your utterances can reference a vocabulary source by using the @ handle. If you 
 ![How to reference a vocabulary source from within an utterance.](../images/create-simple-entity0.png "Example utterance using a vocabulary source")
 
 For more information, see [NLU vocabulary](../concept/using-nlu-vocabulary.md).
-
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
-**Related topics**  
-
-
-[Create a mapped entity](create-mapped-entity-lookup-source.md)
-
-[Create a pattern entity](create-pattern-entity.md)
-
-[Create a system-derived entity](create-system-derived-entity.md)
-
-[Create an open-ended entity](create-open-ended-entity.md)
-
-[Import entities](import-common-entities-nlu.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
 

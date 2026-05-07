@@ -4,8 +4,8 @@ description: In preparation for your upgrade, review the upgrade and migration t
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-29"
-reading_time_minutes: 119
+last_updated: "2026-05-06"
+reading_time_minutes: 118
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---
 
@@ -42,6 +42,18 @@ AI Control Tower
 </td><td>
 
 Not applicable.
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+AI Desktop Actions
+
+</td><td>
+
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download installer](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=australia&ft:locale=en-US).
 
 </td><td>
 
@@ -223,6 +235,18 @@ Customer Engagement Sequences
 </td><td>
 
 If you configured sequences with the Schedule call activity on a release before Zurich, the activity is now labeled **Schedule call - Deprecated** in the activity picker in Workflow Studio. Existing sequences continue to work, but the Call icon ![](../../../reuse/icons/product-icons/phone-fill-24.svg) doesn't appear on the **Callback number** field on the Sequence Steps page during runtime. To enable the click-to-call capability, update the Customer Engagement Sequences application to use the new Schedule call activity.
+
+</td><td>
+
+Australia
+
+</td></tr><tr><td>
+
+Dispute Rules Content Pack for Mastercard
+
+</td><td>
+
+The Australia release adds 14 new data fields to the Authorization and Financial Transaction tables to support the new eligibility rules. The `transactionAmountLocal` field already exists in the Financial Transaction table but is being extended to the Financial Transaction Authorization table in this release. No other pre-existing fields are affected. After upgrading, confirm that the new fields are available and populated on your instance. For a full list of new fields, see New in this release.
 
 </td><td>
 
@@ -439,37 +463,15 @@ Now Assist for IT Service Management \(ITSM\)
 
 To use the Knowledge Article Advanced Editor page in the generate a knowledge article skill, you must activate the knowledge content recommendation skill. Follow these steps to activate the skill.
 
-1.  Go to **Admin** &gt; **Now Assist Admin**.
+1.  Go to **Admin** &gt; **Now Assist admin**.
 2.  Select **Now Assist Skills**.
 3.  Select **Platform**.
 4.  Select **Knowledge**.
 5.  Make sure the knowledge content recommendation skill is active.
 
- The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US), if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US).
+ The incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] incident assist skill, with enhancements. When you upgrade to [Australia Patch 1](https://servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US), if you have the \[DEPRECATED\] incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=australia&ft:locale=en-US).
 
-</td><td>
-
-Australia
-
-</td></tr><tr><td>
-
-Now Assist for Vulnerability Response
-
-</td><td>
-
-To access the new AI native experience in the Vulnerability Response or Unified Security Exposure Management \(USEM\) workspaces, you must upgrade to the Australia release.
-
--   **[ServiceNow product tiers](https://servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
-
-The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
-
-    -   Foundation: AI basics to deliver insights
-    -   Advanced: AI to boost productivity across relevant use cases
-    -   Prime: Act autonomously with all AI assets, and create your own
-Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
-
-
- For existing customers who have not upgraded to Australia, generative AI skills, agents, and workflows are supported in the Vulnerability Response workspaces and are included with the Now Assist for Vulnerability Response application.
+ Starting with the [Australia Patch 2](https://servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
 </td><td>
 
@@ -654,7 +656,7 @@ Service Exchange \(Legacy\) version: Before you upgrade to the Australia release
 -   Service Exchange version 1.x.x: When upgrading, consult the [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to find out how to migrate your Service Exchange applications.
 -   Service Exchange version 2.x.x: New entitlements that require the latest compatibility version cannot be activated until both consumers and providers upgrade to Service Exchange version 2.x.x. New entitlements configured with a lower compatibility version can be activated. Older active entitlements continue to work but new ones can’t be activated.
 -   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility. If the versions diverge, a scan check will report version mismatches and the Health Dashboard will show a version mismatch issue. After upgrading, run and validate the post‑upgrade scan suite to identify and resolve any post‑upgrade issues.
--   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales and Order Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
+-   If you have upgraded to Service Exchange version 2.0.55 before upgrading the platform to the Australia release and your instance has Sales Customer Relationship Management plug-in version 1.0.4 installed, the new Deny ACLs aren't installed. After upgrading to the Australia release, select Repair to reinstall the Service Exchange application to ensure Deny ACLs are installed.
 -   When you install the Service Exchange application, the Service Exchange Global script include is automatically installed or updated on the following platform versions:
     -   Yokohama
     -   Zurich
@@ -1214,7 +1216,7 @@ Product Catalog Management and Pricing Management
 
 </td><td>
 
-If you used attribute characteristics in the Standard Price Adjustment matrix in the initial release of the Sales and Order Management applications, and you're upgrading to the May 2024 release of Sales and Order Management applications, you must run a scheduled job that corrects the format of the automatically generated **Code** values. Run the **Schedule job to modify code field on characteristic records that contain special characters** on demand job to replace any character that is not a letter \(a-z, A-Z\), a number \(0-9\), an underscore \(\_\), or a dollar sign \($\) with an underscore \(\_\). This job corrects the **Code** value so that it doesn’t start or end with an underscore, doesn’t begin with a digit, and contains no consecutive underscores.
+If you used attribute characteristics in the Standard Price Adjustment matrix in the initial release of the Sales Customer Relationship Management applications, and you're upgrading to the May 2024 release of Sales Customer Relationship Management applications, you must run a scheduled job that corrects the format of the automatically generated **Code** values. Run the **Schedule job to modify code field on characteristic records that contain special characters** on demand job to replace any character that is not a letter \(a-z, A-Z\), a number \(0-9\), an underscore \(\_\), or a dollar sign \($\) with an underscore \(\_\). This job corrects the **Code** value so that it doesn’t start or end with an underscore, doesn’t begin with a digit, and contains no consecutive underscores.
 
 </td><td>
 
@@ -2534,7 +2536,7 @@ Product Catalog Management and Pricing Management
 
 </td><td>
 
-After upgrading to the May 2025 release of Sales and Order Management applications, you must run a scheduled job that automatically enables the **Allow multiple configurations** option when your catalog admin creates product offerings with an associated product specification. This job is called **Scheduled job with an upgrade script to set 'allow\_multiple\_configurations' to true on an Offering**. When multiple product offering configurations are allowed in configurable opportunities, quotes, or orders, agents can create multiple instances of a child product offering and define custom configurations for each offering instance.
+After upgrading to the May 2025 release of Sales Customer Relationship Management applications, you must run a scheduled job that automatically enables the **Allow multiple configurations** option when your catalog admin creates product offerings with an associated product specification. This job is called **Scheduled job with an upgrade script to set 'allow\_multiple\_configurations' to true on an Offering**. When multiple product offering configurations are allowed in configurable opportunities, quotes, or orders, agents can create multiple instances of a child product offering and define custom configurations for each offering instance.
 
 **Note:** The **Allow multiple configurations** option is always enabled \(set to true\) for all product offerings that have an associated product specification. However, if the product specification has a child hierarchy, this option is honored only for orders placed through the TMF APIs. For specifications without a hierarchy, the flag is honored across all ordering channels.
 
@@ -2611,7 +2613,7 @@ Service Exchange
 -   Service Exchange 2.x.x, which was first released with the Xanadu release, does not support migration of Service Exchange \(Legacy\) versions. If you are using a Service Exchange \(Legacy\) version, before you upgrade to the Yokohama release, you must follow instructions in the [Service Exchange for Providers \(Legacy\) - Migration Utility \[KB1499823\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823) article in the Now Support Knowledge Base to migrate your configuration data.
 -   If you are upgrading from Service Exchange version 1.x.x, follow the steps in [Upgrade Guide - Service Exchange for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) to migrate your Service Exchange applications.
 -   Due to the introduction of mismatched version support, new entitlements cannot be activated until both the consumers and providers upgrade to Service Exchange version 2.x.x. Older active entitlements will continue to work but new ones cannot be activated.
--   If you upgrade to Service Exchange version 2.0.55 with Sales and Order Management plug-in version 1.0.4 before upgrading the platform to the Yokohama release, the new Deny ACLs will not be installed. To ensure the Deny ACLs get installed, after upgrading to Yokohama, you must click Repair to reinstall the Service Exchange application.
+-   If you upgrade to Service Exchange version 2.0.55 with Sales Customer Relationship Management plug-in version 1.0.4 before upgrading the platform to the Yokohama release, the new Deny ACLs will not be installed. To ensure the Deny ACLs get installed, after upgrading to Yokohama, you must click Repair to reinstall the Service Exchange application.
 
 </td><td>
 
@@ -2846,6 +2848,18 @@ Yokohama
 
 </td></tr><tr><td>
 
+AI Desktop Actions
+
+</td><td>
+
+Upgrade the currently installed AI Desktop Actions Software Installers \(MSIs\) by downloading and installing the newer version of the application. Make sure to close the current execution and close the desktop app before staring the installation for upgrade. For more information, see [Download installer](https://servicenow.com/docs/access?context=download-agentic-desktop-installer&family=zurich&ft:locale=en-US).
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
 AI Search
 
 </td><td>
@@ -2902,7 +2916,7 @@ CPQ Configurator
 
 </td><td>
 
-If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading, you must set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true to be able to use the configurator in Sales and Order Management workflows.
+If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading, you must set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true to be able to use the configurator in Sales Customer Relationship Management workflows.
 
 .
 
@@ -2997,7 +3011,7 @@ Zurich
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
@@ -3282,6 +3296,8 @@ Now Assist for IT Service Management \(ITSM\)
 When you upgrade to the Zurich Patch 4 release, any customizations you may have made to the Now Assist context menu \(NACM\) won’t be preserved. For more information, see the Community article [Upgrade information for the NACM support in Now Assist for ITSM](https://www.servicenow.com/community/itsm-articles/upgrade-scenario-for-resolution-notes-generation-skill-in-itsm/ta-p/3415789).
 
  The Incident assist agentic workflow is active by default and includes all the capabilities of the \[DEPRECATED\] Incident assist skill, with enhancements. When you upgrade to the [Zurich Patch 8](https://servicenow.com/docs/access?context=zurich-patch-8&family=zurich&ft:locale=en-US) release, if you have the \[DEPRECATED\] Incident assist skill activated, consider deactivating it to avoid redundancy. For more information, see [Incident assist skill](https://servicenow.com/docs/access?context=now-assist-itsm-incident-assist&family=zurich&ft:locale=en-US).
+
+ Starting with the [Australia Patch 2](https://servicenow.com/docs/access?context=zurich-patch-9&family=zurich&ft:locale=en-US), the Incident assist skill has been deprecated, moved to the **Archive** section, and is no longer available for use.
 
 </td><td>
 
@@ -3573,30 +3589,6 @@ Zurich
 
 </td></tr><tr><td>
 
-Service Exchange
-
-</td><td>
-
--   Service Exchange version 2.x.x: Which was first released with the Xanadu release, doesn’t support migration of Service Exchange \(Legacy\) versions.
-
-Service Exchange \(Legacy\) version: Before you upgrade to the Zurich release, follow instructions in the [Service Bridge for Providers \(Legacy\) - Migration Utility \[KB1499823\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1499823) article in the Now Support Knowledge Base to migrate your configuration data.
-
--   Service Exchange version 1.x.x: When upgrading, follow the steps in the [Upgrade Guide - Service Bridge for Providers and Consumers application \(v2.x.x release\) \[KB1700387\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1700387) article in the Now Support Knowledge Base to migrate your Service Exchange applications.
--   Service Exchange version 2.x.x: Due to the introduction of mismatched version support, new entitlements can’t be activated until both the consumers and providers upgrade to Service Exchange version 2.x.x. Older active entitlements continue to work but new ones can’t be activated.
--   When you upgrade to Service Exchange version 2.0.55 with Sales and Order Management plug-in version 1.0.4, before upgrading the platform to the Zurich release, new Deny ACLs aren't installed. To ensure the Deny ACLs get installed, after upgrading to Zurich, select Repair to reinstall the Service Exchange application.
--   When using Service Exchange for Providers and Service Exchange for Consumers in a single instance, you must upgrade both applications simultaneously to the same version to maintain compatibility.
--   When you install the Service Exchange application, the Service Exchange Global Script Include is automatically installed or updated on the following platform versions:
-    -   Washington DC patch 9
-    -   Xanadu patch 4
-    -   Yokohama
-    -   Zurich
-
-</td><td>
-
-Zurich
-
-</td></tr><tr><td>
-
 Service Observability
 
 </td><td>
@@ -3819,9 +3811,9 @@ Vulnerability Response
 
 </td><td>
 
-If you are currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
+If you're currently using Vulnerability Response, and you do not intend to upgrade to Unified Security Exposure Management \(USEM\), install a version below v30.x of Vulnerability Response and for upgrades to supported third-party integration applications.
 
- The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=zurich&ft:locale=en-US) is deprecated. If you are currently using the Vulnerability Response with Wiz integrations, after updating to new version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. Please review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+ The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&family=zurich&ft:locale=en-US) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to new version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. Review more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
 
  For more information about the released versions of the Vulnerability Response application as well as the third-party and ServiceNow applications that are compatible with the Zurich release, see the [Vulnerability Response Compatibility Matrix and Release Schema Changes \[KB0856498\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0856498) article in the Now Support Knowledge Base.
 

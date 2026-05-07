@@ -17,7 +17,7 @@ Place security on a COE to prevent a group from accessing another group's cases.
 
 ## Before you begin
 
-Role required: admin, sn\_hr\_core.admin, sn\_hr\_le.admin
+Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 
 ## Procedure
 

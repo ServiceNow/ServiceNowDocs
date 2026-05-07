@@ -33,6 +33,6 @@ Role required: sn\_shift\_planning.agent
 
     -   To approve the request, click **Approve**.
     -   To reject the request, click **Reject**.
-    If you approve a shift swap, the application moves the request to your manager's approval queue. For more information, refer to [Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md).
+    If you approve a shift swap, the application moves the request to your manager's approval queue. For more information, refer to [Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md).
 
 

@@ -30,7 +30,7 @@ Ensure that you have a Microsoft 365 account with admin privileges \(admin.micro
 
 1.  [Install Conversational Integration with Microsoft Teams](../task/teams-install.md).
 2.  Add integrations.
-    -   **[Integrate with Virtual Agent](va-integ-msteams.md).**
+    -   **[Integrate with Virtual Agent](../task/va-integ-msteams.md).**
 
         Manage and configure Virtual Agent settings.
 
@@ -46,7 +46,7 @@ Ensure that you have a Microsoft 365 account with admin privileges \(admin.micro
 To learn more about configuring and using Conversational Integration with Microsoft Teams, see:
 
 -   [Configure Virtual Agent for Microsoft Teams](../task/configure-va-msteams-settings.md).
--   [Enable Now Assist in Virtual Agent for Microsoft Teams](../task/enable-na-llm-teams.md).
+-   .
 -   [Integrate Now Assist in Virtual Agent with Microsoft Teams](../../now-assist-in-va/concept/integrating-now-assist-va-msteams.md).
 -   [Integrate Now Assist in Virtual Agent with Microsoft Copilot](ms-copilot-na-va.md).
 

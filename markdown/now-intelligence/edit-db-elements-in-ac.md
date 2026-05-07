@@ -4,7 +4,7 @@ description: You can edit the contents of a dashboard or dashboard tab, includin
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 5
 keywords: [Performance Analytics widgets, add Performance Analytics widgets, reports, add reports to dashboard]
 breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -40,15 +40,15 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
 6.  Perform any of the following actions on the element.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d86773e173">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d89898e173">
 
 Action
 
-</th><th align="left" id="d86773e176">
+</th><th align="left" id="d89898e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86773e182">
+</th></tr></thead><tbody><tr><td id="d89898e182">
 
 **Configure an element**
 
@@ -58,7 +58,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 **Note:** There are role and ownership requirements for editing a component that is shared from a library. If you aren’t allowed to edit an element, create a local version that is not linked to the library and edit that one. For more information, see [Edit a copy of a shared dashboard element](editing-local-copy-saved-dv.md).
 
-</td></tr><tr><td id="d86773e219">
+</td></tr><tr><td id="d89898e219">
 
 **Resize the element**
 
@@ -66,7 +66,7 @@ Focus on the element and select **Configure**. The configuration panel opens.Con
 
 Focus on the element. To increase its height, press **Resize**. To decrease its height, press Shift-**Resize**. To change its width or overall size, select a corner of the element and drag it.
 
-</td></tr><tr><td id="d86773e234">
+</td></tr><tr><td id="d89898e234">
 
 **Add an element to the Library**
 
@@ -83,7 +83,7 @@ Role required for data visualization: itil, report\_user, viz\_creator, or highe
 4.  Select **Add to library**.
 The data visualization is available in the Visualization library for use on other dashboards.
 
-</td></tr><tr><td id="d86773e280">
+</td></tr><tr><td id="d89898e280">
 
 **Delete an element from the dashboard**
 
@@ -96,7 +96,7 @@ The data visualization is available in the Visualization library for use on othe
 
  **Note:** There’s no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d86773e316">
+</td></tr><tr><td id="d89898e316">
 
 **Move an element between or above tabs**
 
@@ -105,12 +105,12 @@ The data visualization is available in the Visualization library for use on othe
 When you have multiple tabs, you can move elements from tab to another or to the pane above the tabs.1.  Focus on the element that you want to delete.
 2.  In the header, select the More actions menu icon \(![More actions icon](../image/context-menu-db-element-ac.png)\) and select **Move above the tabs** or **Move to a different tab**.
 
-![Menu in header of filter with Move above the tabs, Move to a different tab, Add to library, Duplicate, and Delete actions.](../../par-for-workspace/image/db-element-menu-admin.png)
+![Menu in header of filter with Move above the tabs, Move to a different tab, Add to library, Duplicate, and Delete actions.](../../par-for-workspace/image/db-element-menu-itil.png)
 
 3.  When you choose **Move to a different tab**, choose the tab and select **Move**.
 
 
-</td></tr><tr><td id="d86773e359">
+</td></tr><tr><td id="d89898e359">
 
 **Configure a data visualization to follow or not follow filters**
 
@@ -118,7 +118,7 @@ When you have multiple tabs, you can move elements from tab to another or to the
 
 Data visualizations follow filters by default. A data visualization follows filters in the same tab as itself or above the tabs. Data visualizations either follow all such tabs that target their data sources, or none.For configuration instructions, see [Configure a data visualization to follow filters or not](../../par-for-workspace/task/configure-dv-follow-filters-or-not.md).
 
-</td></tr><tr><td id="d86773e377">
+</td></tr><tr><td id="d89898e377">
 
 **Set drilldown options**
 

@@ -77,7 +77,7 @@ Sandbox enabled
 
 The script include is available to scripts invoked from the script sandbox, such as a query condition.**Important:** Script includes should only be made available to the script sandbox if necessary.
 
-For information about the script sandbox, see [Script sandbox](script-sandbox.md).
+For information about the script sandbox, see [Script sandbox evaluator](script-sandbox.md).
 
 </td></tr><tr><td>
 

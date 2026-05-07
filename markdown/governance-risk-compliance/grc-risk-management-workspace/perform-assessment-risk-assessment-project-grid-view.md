@@ -65,19 +65,15 @@ Role required: sn\_grc.business\_user, sn\_risk\_workspace.IT\_risk\_manager, an
 
 8.  Respond to all the factors in Inherent assessment for each risk within the project.
 
-    The application automatically saves your responses and calculates the overall risk score.![Assess risks in the grid view](../image/grid-control-assessment.gif)
+    The application automatically saves your responses and calculates the overall risk score.
 
 9.  To assess controls, select **Yes** in the Applicable column under Control assessment, and then respond to the control effectiveness.
-
-    ![Assess controls in grid view.](../image/grid-control-assessment.gif)
 
 10. To assess residual and target assessment, select **Yes** in the Applicable column.
 
     The application automatically calculates the final computed scores for individual assessments.
 
 11. Select a risk response strategy and create a risk response task.
-
-    ![Create risk response tasks in the grid view.](../image/grid-risk-response-task.gif)
 
 12. To view the complete summary of the assessment, select **View summary**.
 

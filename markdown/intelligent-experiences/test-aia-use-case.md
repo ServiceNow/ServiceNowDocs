@@ -4,7 +4,7 @@ description: Test your agentic workflow in AI Agent Studio to analyze how it fun
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 3
 breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
 ---
@@ -39,9 +39,9 @@ When manually testing performance, you can see how the agentic workflow and its 
 
 4.  Select an agentic workflow that you want to test by entering the name of a workflow or choosing from the drop-down menu.
 
-5.  Under **Choose a testing mode**, select the testing mode either as **AI Native** or **Standard**.
+5.  Under **Choose a testing mode**, select the testing mode either as **Premium Chat** or **Standard**.
 
-    **Note:** The AI-native testing mode is exclusively accessible when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard testing playground.
+    **Note:** The Premium Chat testing mode is exclusively accessible when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard testing playground.
 
 6.  In the Version drop-down list, select the version of the AI agent you want to test.
 
@@ -51,7 +51,7 @@ When manually testing performance, you can see how the agentic workflow and its 
 
     **Note:** In the task summary, include a reference number for a specific record for better results during your testing.
 
-    ![Complete the testing form.](../image/test-aw-manually.png)
+    ![Complete the testing form.](../image/test-aw-manually-new.png)
 
 8.  Select **Continue to Test Chat Response**.
 

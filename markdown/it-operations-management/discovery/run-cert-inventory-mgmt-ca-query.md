@@ -49,16 +49,6 @@ In Certificate discovery, the Certificate Authorities \(CA\) pattern uses specif
 
         Each Certificate Authority \(CA\) requires specific form field entries. For more information, see [API Key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-        See the following examples of forms for each CA.
-
-        ![godaddy](../image/goDaddy.png "GoDaddy form")
-
-        ![digicert](../image/Digicert.png "DigiCert form")
-
-        ![entrust](../image/Entrust.png "Entrust form")
-
-        ![sectigo](../image/Sectigo.png "Sectigo form")
-
 3.  Create a Discovery schedule with the following fields.
 
     For more information on setting up your Discovery schedules, see [Schedule a horizontal discovery](t_CreateADiscoverySchedule.md#).

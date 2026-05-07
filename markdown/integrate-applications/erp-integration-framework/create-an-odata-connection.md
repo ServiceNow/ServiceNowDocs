@@ -1,20 +1,20 @@
 ---
 title: Create an OData connection in Zero Copy Connector for ERP
-description: Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
+description: Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, connection, http]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an OData connection in Zero Copy Connector for ERP
 
-Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
+Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 
@@ -24,7 +24,12 @@ For information about OData connections in Zero Copy Connector for ERP, see [Con
 
 ## About this task
 
-An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. The property must be enabled on the correct scope.After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\) System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
+An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables.
+
+-   The property must be enabled on the correct scope.
+-   After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.
+-   The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\)
+-   System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
 
 ## Procedure
 
@@ -54,7 +59,7 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
 6.  Create a model and, after saving, open the model record.
 
-    For more information, see [Create a new ERP model](erpc-add-new-data-model.md).
+    For more information, see [Create a model](erpc-add-new-data-model.md).
 
 7.  Select **Manage model**.
 
@@ -69,8 +74,6 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 10. Select **Select entity**.
 
     1.  In **Select type**, choose **OData**.
-
-        The drop-down list in the **Select type** field only displays the types supported by the ERP system's software version specified on the model record. For example, if **SAP SuccessFactors Cloud** is set in the **ERP software** field for the model, the only entity type available is OData.
 
     2.  In **Select service**, search for and select a service, for example **API\_BUSINESS\_PARTNER \(Remote API for business partner\)** in the OData service catalog.
 

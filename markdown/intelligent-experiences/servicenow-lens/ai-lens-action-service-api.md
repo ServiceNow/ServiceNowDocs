@@ -152,6 +152,22 @@ Additional JSON input parameters that you want to pass in the pre-processing scr
    }
 ```
 
+</td></tr><tr><td>
+
+additionalContext
+
+</td><td>
+
+Object
+
+</td><td>
+
+An optional parameter that you can use to pass any extra key–value information from the client to the server during the Lens action call. Example
+
+```
+{IsFileUploadEnabled: true}
+```
+
 </td></tr></tbody>
 </table><table id="table_w4d_qzt_lgc" class="returns"><thead><tr><th>
 
@@ -221,8 +237,11 @@ var inputJSON = {
       },
       "required" : [ "short_description", "comments" ],
    }
+var additionalContext = {
+      IsFileUploadEnabled: true};
+
  // Call the method
-var result = new sn_app_lens_core. AILensActionService().invokeLens(lensActionId, attachmentIds, userPrompt, imageArr, inputJSON);
+var result = new sn_app_lens_core. AILensActionService().invokeLens(lensActionId, attachmentIds, userPrompt, imageArr, inputJSON, skipACL, additionalContext);
  
 // Handle the response
 if (result.status === 'success') {

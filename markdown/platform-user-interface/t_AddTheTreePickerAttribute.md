@@ -29,8 +29,6 @@ Role required: personalize\_dictionary
 
     If there are multiple attributes, use a comma to separate them without any spaces between.
 
-    ![Tree picker attribute](../image/TreePickerAttribute.png)
-
 
 **Parent Topic:**[Tree picker](../concept/c_TreePicker.md)
 

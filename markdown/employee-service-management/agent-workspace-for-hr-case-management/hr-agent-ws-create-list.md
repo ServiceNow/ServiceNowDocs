@@ -98,7 +98,7 @@ Select Source
 
 </td><td>
 
-The table that your **My Lists** is based on.Enter letters or the name of the table to start a search, then select q table.
+The table that your **My Lists** is based on.Enter letters or the name of the table to start a search, then select a table.
 
 </td></tr><tr><td>
 

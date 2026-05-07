@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sourcing and Procurement Operations integration with IT Asset Management, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Asset, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace

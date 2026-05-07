@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add relationship form
@@ -61,5 +61,5 @@ Options for capturing the type of operation or a combination of operations that 
 **Related topics**  
 
 
-[Relate a business application to an information object](../../task/relate-business-app-information-object.md)
+[Manage information objects of a business application in EA Workspace](../../task/eaw-task/eaw-associate-info-obj-ba.md)
 

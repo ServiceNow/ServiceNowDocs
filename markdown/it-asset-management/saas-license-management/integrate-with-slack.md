@@ -81,7 +81,7 @@ Role required: Refer to the [Minimal user permissions](integrate-with-slack.md#)
 
 13. Activate your application.
 
-    1.  From the left navigation pane, navigate to **Settings** &gt; **Manage Distribution**.
+    1.  From the side navigation pane, navigate to **Settings** &gt; **Manage Distribution**.
 
     2.  Under Share Your App with Other Workspaces, expand the Remove Hard Coded Information section.
 
@@ -176,15 +176,15 @@ If you’re using Software Asset Workspace, the option to create the Slack integ
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d228500e895">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d230876e895">
 
 Interface
 
-</th><th align="left" id="d228500e898">
+</th><th align="left" id="d230876e898">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d228500e904">
+</th></tr></thead><tbody><tr><td id="d230876e904">
 
 **Core UI**
 
@@ -195,7 +195,7 @@ Action
 3.  Select **Slack Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d228500e946">
+</td></tr><tr><td id="d230876e946">
 
 **Software Asset Workspace**
 

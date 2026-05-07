@@ -1,6 +1,6 @@
 ---
-title: AIOps Learning Enhanced Automation Platform \(LEAP\)
-description: AIOps LEAP application uses AI-driven insights and automation to help manage IT operations.
+title: Learning Enhanced Automation Platform \(LEAP\)
+description: LEAP application uses AI-driven insights and automation to help manage IT operations.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -11,27 +11,27 @@ reading_time_minutes: 3
 breadcrumb: [Now Assist for ITOM, IT Operations Management]
 ---
 
-# AIOps Learning Enhanced Automation Platform \(LEAP\)
+# Learning Enhanced Automation Platform \(LEAP\)
 
-AIOps LEAP application uses AI-driven insights and automation to help manage IT operations.
+LEAP application uses AI-driven insights and automation to help manage IT operations.
 
 ## Get started
 
 <table id="table_nhy_dhw_l2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about AIOps LEAP benefits, features, and capabilities.](exploring-aiops-leap.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about LEAP benefits, features, and capabilities.](exploring-aiops-leap.md)
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure AIOps LEAP.](configuring-aiops-leap.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install and configure LEAP.](configuring-aiops-leap.md)
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-service-aware-cmdb.svg)Create problem records and playbooks using AIOps LEAP.](../task/using-aiops-leap.md)
+[Use![](../../../reuse/icons/brand-icons/bus-service-aware-cmdb.svg)Create problem records and playbooks using LEAP.](../task/using-aiops-leap.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get detailed information on important skill configuration during AIOps LEAP installation.](../reference/references-aiops-leap.md)
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get detailed information on important skill configuration during LEAP installation.](../reference/references-aiops-leap.md)
 
 </td></tr></tbody>
 </table>## Supported LLMs for Now Assist for ITOM

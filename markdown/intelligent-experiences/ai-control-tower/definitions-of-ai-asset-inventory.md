@@ -1,6 +1,6 @@
 ---
 title: Definitions of AI asset inventory
-description: Explore AI asset inventory, and AI assets.
+description: Define the AI asset inventory, and AI assets.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 
 # Definitions of AI asset inventory
 
-Explore AI asset inventory, and AI assets.
+Define the AI asset inventory, and AI assets.
 
 ## AI asset inventory overview
 

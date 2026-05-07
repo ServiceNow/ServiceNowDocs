@@ -4,8 +4,9 @@ description: Modify existing ServiceNow applications using natural language prom
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-02"
-reading_time_minutes: 4
+last_updated: "2026-04-30"
+reading_time_minutes: 3
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -26,7 +27,7 @@ Role required: admin
 You can edit an application with Build Agent in both ServiceNow Studio and the ServiceNow IDE. If you're using the ServiceNow IDE, the application must be open in your workspace. You can add it to the workspace in the following ways:
 
 -   Applications created with Build Agent are automatically added to the workspace in which they were created. They can also be opened in other workspace in the ServiceNow IDE.
--   For applications that were not developed using the ServiceNow IDE or SDK, you must convert them into Fluent format to enable development within the Build Agent. You can prompt the Build Agent to use the Open App tool to locate the desired application. Alternatively, you can search for an application directly within the Build Agent, and it will automatically utilize the Open App tool. The Open App tool can find an application, convert it to Fluent format, and then add the converted app to your workspace.
+-   For applications that were not developed using the ServiceNow IDE, ServiceNow Studio, or the ServiceNow SDK, you must convert them into Fluent format to enable development within the Build Agent. You can prompt the Build Agent to use the Open App tool to locate the application you want. Alternatively, you can search for an application directly within the Build Agent, and it will automatically use the Open App tool. The Open App tool can find an application, convert it to Fluent format, and then add the converted app to your workspace.
 -   Clone an existing application created with the ServiceNow IDE or ServiceNow SDK from a Git repository. For more information, see [Clone a Git repository with the ServiceNow IDE](../../servicenow-ide/task/clone-git-repository-servicenow-ide.md).
 
 ## Procedure
@@ -55,15 +56,19 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
     Build Agent starts updating the application.
 
-6.  Approve the changes:
+6.  Review the changes in the Change Log in a tab in ServiceNow Studio and continue iterating to refine the app.
+
+    For more information on the change log, see [Build Agent conversation change log](../concept/ba-conversational-change-log.md).
+
+    Review updates to generated tables, flows, and scripts, and preview any user interfaces created in your application. You can interact with the preview to make additional edits, for example, select a button in the **Preview** tab and tell Build Agent to `Change the color of the button to purple`.
+
+7.  Approve the changes:
 
     1.  If prompted, select **Review all edits** to view the changes.
 
     2.  If you’re happy with the changes, select **Approve plan**.
 
-7.  Prompt and **Approve** Build Agent to build and deploy the application to an update set if it doesn't do so automatically.
-
-    You can preview the code files before approval, but to view the actual metadata output, you must build and install the application on the instance.
+8.  Prompt and **Approve** Build Agent to build and deploy the application to an update set if it doesn't do so automatically.
 
 
 ## Result
@@ -73,10 +78,6 @@ The application is built and installed.
 **Note:** Even though this process is standard, be sure to follow the on-screen instructions, as the Build Agent functions interactively.
 
 ## What to do next
-
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent conversation change log](../concept/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](../../servicenow-studio/task/qs-find-app-app-file-using-navigator-panel.md).
-
-For information on deploying your application, see [Vibe coding, AI-assisted development, and deployment](../../vibe-coding/concept/vc-and-deployment.md).
 
 If you want to view source code, open the ServiceNow IDE and select the **File Explorer** view from the Activity bar. The ServiceNow Fluent application code and other source code in the `src` directory appears.
 

@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -16,8 +16,6 @@ breadcrumb: [Exploring Natural Language Understanding, Natural Language Understa
 NLU Workbench is installed with these roles.
 
 To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
-
-**Parent Topic:**[Exploring Natural Language Understanding](../concept/nlu-explore.md)
 
 ## NLU user \[nlu\_user\]
 

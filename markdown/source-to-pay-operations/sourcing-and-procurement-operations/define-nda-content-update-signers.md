@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Routing NDAs to suppliers, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Routing NDAs to suppliers, Working with playbooks, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Define NDA content and update the list of signers

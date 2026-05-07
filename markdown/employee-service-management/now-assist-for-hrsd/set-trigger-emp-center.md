@@ -8,7 +8,7 @@ classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate onboarding ramp-up plan agentic workflow, Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Generate onboarding ramp-up plan, Use agentic workflows, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Set Onboarding ramp up trigger to use Employee Center portal
@@ -21,18 +21,24 @@ Role required: admin
 
 ## Procedure
 
-1.  In the **Filter navigator** enter `sn_aia_trigger_configuration.list`.
+1.  Navigate to the **All** menu, and enter `sn_aia_trigger_configuration.list` in the navigation filter.
 
-2.  Select and open **Onboarding ramp-up trigger** from the **AIA Trigger Configurations** list.
+    The AIA Trigger Configuration \[sn\_aia\_trigger\_configuration\] table appears.
 
-3.  Select the **Active** check box.
+2.  Select **Onboarding ramp-up trigger** from the list of AI agent triggers.
 
-    **Note:** The **Active** check box is not made available by default. Configure the **Form Layout** from the context menu, and move `Active` from **Available** to **Selected**.
+3.  Add the **Active** and **Portal** fields to the form if they aren’t available.
 
-4.  Add `Employee Center` to the **Portal** field.
+    1.  Select and hold \(or right-click\) the form header and select **Configure** &gt; **Form layout**.
 
-    **Note:** The **Portal** field is not made available by default. Configure the **Form Layout** from the context menu, and move `Portal` from **Available** to **Selected**.
+    2.  Select **Active** and **Portal** from the Available list, and then select the **Add** icon to move the fields to the Selected list.
 
-5.  Click **Save**.
+    3.  Select **Save**.
+
+4.  Select the **Active** check box.
+
+5.  Set the **Portal** field to **Employee Center**.
+
+6.  Select **Update**.
 
 

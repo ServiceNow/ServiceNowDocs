@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -77,19 +77,4 @@ Use the **Settings** tab to edit the name, short description, and confidence thr
 ![Settings tab of an example model.](../images/managing-model-contentT1.png)
 
 For more information on the confidence threshold, see [Test and publish your model](testing-your-model.md). For more information on Settings, see [NLU model settings](nlu-model-settings.md).
-
--   **[NLU intents](intents.md)**  
-Intents drive your models' responses by matching a system action to user inputs. Models with good intents help Virtual Agent and Search respond to your users accurately.
--   **[NLU entities](entities.md)**  
-Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
--   **[NLU vocabulary](using-nlu-vocabulary.md)**  
-Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
--   **[Test set creation and management](nlu-test-set-creation-management.md)**  
-Use the default test set of your NLU model to test the model's performance and accuracy. Manage your test set over time by building or updating its content in the NLU Workbench.
--   **[Train and try your NLU model](../task/test-train-nlu-model.md)**  
-Train and try your model iteratively so that its intents and entities are validated, compiled, and saved to your model.
--   **[Test panel feedback](test-model-panel-feedback.md)**  
-When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
-
-**Parent Topic:**[Model management](model-management-phases.md)
 

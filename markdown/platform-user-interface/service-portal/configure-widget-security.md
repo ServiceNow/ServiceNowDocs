@@ -37,15 +37,15 @@ When you configure widget security, configure the page security accordingly so t
 
 3.  On the form, configure the widget security.
 
-<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d33333e103">
+<table id="choicetable_n5r_xyt_hkb"><thead><tr><th align="left" id="d35556e103">
 
 Option
 
-</th><th align="left" id="d33333e106">
+</th><th align="left" id="d35556e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d33333e112">
+</th></tr></thead><tbody><tr><td id="d35556e112">
 
 **Restrict the widget to authenticated users**
 
@@ -53,7 +53,7 @@ Procedure
 
 Clear the **Public** check box and leave the **Roles** field blank.
 
-</td></tr><tr><td id="d33333e127">
+</td></tr><tr><td id="d35556e127">
 
 **Restrict the widget to certain roles**
 
@@ -65,7 +65,7 @@ Clear the **Public** check box and leave the **Roles** field blank.
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d33333e172">
+</td></tr><tr><td id="d35556e172">
 
 **Restrict which tables public widgets can access for guest users**
 

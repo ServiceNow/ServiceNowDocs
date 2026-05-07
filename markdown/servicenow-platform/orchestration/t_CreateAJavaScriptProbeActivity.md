@@ -31,7 +31,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the JavaScript probe activity Execution Command.
 
-<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d198523e112">
+<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d201690e112">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 Use the variables you created to configure the command that Orchestration executes on the MID server.
 
-</td></tr><tr><td id="d198523e128">
+</td></tr><tr><td id="d201690e128">
 
 **Script type**
 
@@ -49,7 +49,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 -   MID Server script include
 
 
-</td></tr><tr><td id="d198523e146">
+</td></tr><tr><td id="d201690e146">
 
 **Script**
 
@@ -57,7 +57,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 
 Custom JavaScript to run with this probe. **Note:** This field is available when the **Script type** selected is **Custom JavaScript**.
 
-</td></tr><tr><td id="d198523e164">
+</td></tr><tr><td id="d201690e164">
 
 **MID Server script include**
 
@@ -65,7 +65,7 @@ Custom JavaScript to run with this probe. **Note:** This field is available when
 
 Script for the MID Server to run with this probe. **Note:** This field is available when the **Script type** selected is **MID Server script include**.
 
-</td></tr><tr><td id="d198523e182">
+</td></tr><tr><td id="d201690e182">
 
 **Select MID Server by host**
 
@@ -73,7 +73,7 @@ Script for the MID Server to run with this probe. **Note:** This field is availa
 
 MID Server on which the probe runs.
 
-</td></tr><tr><td id="d198523e192">
+</td></tr><tr><td id="d201690e192">
 
 **Required MID Server capabilities**
 
@@ -81,7 +81,7 @@ MID Server on which the probe runs.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d198523e201">
+</td></tr><tr><td id="d201690e201">
 
 **Parameters**
 

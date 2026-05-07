@@ -45,7 +45,7 @@ Before starting this procedure, ensure that the External Credential Storage plug
     -   If you want CyberArk to look up the credential by IP address, using an alternate safe, specify the credential ID in this format: **&lt;safe&gt;:**.
     -   If you want CyberArk to look up the credential for an alternate platform ID in the same safe, use this format: **::&lt;platform ID&gt;**
     -   If you want CyberArk to look up the credential in a configured safe by the IP address rather than the credential ID, leave this field blank. This is the best practice for handling installations in which each server has a unique credential. Without this type of lookup, you must create a credential ID record in your instance for every server in your environment.
-    **Note:** The credential ID must match the value in the **Name** field for the CyberArk account. The **Credential ID** field has a limit of 180 characters.
+    **Note:** The credential ID must match the value in the **Name** field for the CyberArk account. The **Credential ID** field has a limit of 160 characters.
 
 7.  If you are storing SNMPv3 credentials in CyberArk and are using the privacy protocol and privacy key, configure the ID as follows:
 
@@ -54,6 +54,8 @@ Before starting this procedure, ensure that the External Credential Storage plug
         The **Privacy Credential ID** field appears.
 
     2.  Enter the **Name** of the CyberArk SNMPv3 privacy account in the **Privacy Credential ID** field.
+
+    **Note:** Character limits for Credential ID and Privacy Credential ID vary by vault. ServiceNow supports up to 180 characters. CyberArk supports 160. Verify the limit in your vault.
 
 8.  Click **Submit**.
 

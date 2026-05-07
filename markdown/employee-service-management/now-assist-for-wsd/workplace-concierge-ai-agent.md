@@ -78,7 +78,7 @@ Add the Workplace Concierge to an email thread or a calendar invite.
 
 [Workplace Advisor Overview](workplace-advisor-overview.md)
 
-[Overview of Autonomous L1 Agent for Workplace Cases](implement-autonomous-l1-agent-for-workplace.md)
+[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
 
 [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
 

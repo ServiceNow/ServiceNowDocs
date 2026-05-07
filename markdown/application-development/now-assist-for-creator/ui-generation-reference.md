@@ -17,8 +17,8 @@ Reference topics provide additional information about configuration properties, 
 
 -   **[UI generation roles](../reference/ui-generation-roles.md)**  
 The following roles are installed for use with UI generation.
--   **[UI generation properties](../reference/ui-generation-properties.md)**  
-You can adjust how UI generation functions on an instance using several advanced properties.
+-   **[Roles and permissions matrix](../reference/roles-and-permissions-matrix.md)**  
+Learn about the roles required to access each UI Generation feature.
 -   **[Natural language synonyms for formula operators](../reference/natural-language-synonyms-for-formula-operators.md)**  
 Data Binding Generation enables Now Assist to recognize property names by using a set of frequently used synonyms.
 

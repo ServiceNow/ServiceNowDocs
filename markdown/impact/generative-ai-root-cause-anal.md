@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Generative AI, root cause analysis, Telemetry signals]
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Generative AI powered Root cause analysis
@@ -72,5 +72,5 @@ Configure Root Cause Correlation \(RCC\) alerts to start receiving the Root Caus
 -   **[Use the Root cause analysis history](utilizing-rcc-reports-perform-root-cause-analysis.md)**  
 Check the Root cause analysis \(RCA\) History page to investigate the issues that caused an alert to trigger or performance to degrade to Critical or Warning.
 
-**Parent Topic:**[Instance Observer](io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](io-overview.md)
 

@@ -19,11 +19,9 @@ Role required: template\_editor\_global or admin
 
 ## About this task
 
-Create a template using the Template form.
+Create a template using the Template form. 
 
-Templates allow users to more quickly and uniformly complete records.
-
-The video above shows you how to complete the procedure below to create a template using the Template form.
+Templates enable users to more quickly and uniformly complete records.
 
 ## Procedure
 
@@ -116,10 +114,6 @@ Template that links a child table with the template for the parent table. In the
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-
-## What to do next
-
-See [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
 
 **Parent Topic:**[Using form templates](../concept/c_Templates.md)
 

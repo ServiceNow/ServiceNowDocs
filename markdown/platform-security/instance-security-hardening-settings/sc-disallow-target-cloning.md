@@ -101,7 +101,7 @@ References
 
 </td><td>
 
--   
+-   [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
 -   [Register target instance \(legacy\)](https://www.servicenow.com/docs/access?context=t_CreateACloneTarget&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
 
 </td></tr><tr><td>

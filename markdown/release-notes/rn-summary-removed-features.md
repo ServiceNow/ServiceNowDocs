@@ -4,7 +4,7 @@ description: Cumulative release notes summary on features that were removed from
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-05-04"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -31,9 +31,9 @@ AI Control Tower
 
 [Australia Patch 1](../quality/australia-patch-1.md) The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
 
-Early Availability
+[Early availability](../quality/australia-all-other-fixes.md)
 
--   Non-SGC way \(legacy way\) to make connection will be deprecated and New button on the Non-SGC connection display table will be removed to block users from creating new connections by the legacy way in March GA and decommissioned by May release.
+-   Adding legacy AI connections via Service Graph Connectors \(SGC\) is deprecated. In AI connections, under Legacy connections, the **New** button has been removed to block users from creating new connections using SGC.
 
 
 </td></tr><tr><td>
@@ -66,8 +66,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
--   -   
-
+ 
 
 </td></tr><tr><td>
 

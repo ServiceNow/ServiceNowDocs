@@ -85,5 +85,3 @@ Default test sets can be downloaded or moved as follows.
 -   Default test sets can be moved with update sets. When you add an NLU model to an update set, its default test set is added, including test utterances, expected intents, and sources. For more information, see [Add an NLU model to an update set](../task/add-model-update-set.md).
 -   When using the **Export model as CSV** function in the **All existing models** table, the default test set is not included. For more information, see [Export an NLU model](../task/export-nlu-model.md).
 
-**Parent Topic:**[Build and train your model](managing-model-content.md)
-

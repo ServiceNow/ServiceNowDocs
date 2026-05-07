@@ -37,7 +37,7 @@ Features may vary between the Impact Store Application and the Impact Delivery I
 
 </td><td>
 
-[Instance Observer](io-overview.md)
+[Monitoring instance health with Instance Observer](io-overview.md)
 
  ![](../../../reuse/icons/brand-icons/bus-performance-forecasting-1.svg) Track your instance health and performance in near real-time, while also providing historical insights.
 

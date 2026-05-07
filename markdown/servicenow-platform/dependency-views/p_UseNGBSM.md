@@ -25,8 +25,6 @@ Use the **Saved Views** module to delete a previously saved view.
 You can select from different layout options for your Dependency Views map.
 -   **[Filter the view of a Dependency Views map](../task/t_FilterViewNGBSMMap.md)**  
 Filter a Dependency Views map to display specific types or categories of configuration items.
--   **[View metrics for CIs in a Dependency Views map](../task/view-ci-metrics.md)**  
-Operational Intelligence processes metrics data for CIs, calculates statistics and aggregations, and detects metrics anomalies. A Dependency Views map lets you switch to metrics mode to directly access the Insights Explorer that displays metrics data for CIs on the map.
 -   **[Perform actions on nodes in a Dependency Views map](../task/t_PerformActionsOnNGBSMMap.md)**  
 You can view various related items for the nodes in a Dependency Views map.
 -   **[Export a Dependency Views map](../task/t_ExportAnNGBSMMap.md)**  

@@ -34,6 +34,7 @@ The ServiceNow® ITOM Visibility application provides a unified, connected view 
     -   [Service Graph Connector for Microsoft Azure](https://www.servicenow.com/docs/r/store-release-notes/page/release-notes/store/platform-capabilities/store-platcap-rn-service-graph-connector-ms-azure.html)
     -   [Service Graph Connector for GCP](https://www.servicenow.com/docs/r/store-release-notes/page/release-notes/store/platform-capabilities/store-platcap-rn-service-graph-connector-gcp.html)
     -   [Tag Governance](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-tag-governance.html)
+    -   [AI Agent Topology Mapping](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-agent-topology-mapping.html)
 
 See [ITOM Visibility](https://www.servicenow.com/docs/access?context=itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
 
@@ -84,7 +85,7 @@ ITOM Visibility is available with activation of the Discovery \(com.snc.discover
 
 ## Related ServiceNow applications and features
 
--   **[ITOM Health](https://www.servicenow.com/docs/access?context=itom-health-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   ****
 
     The ServiceNow® ITOM AIOps product includes the ServiceNow® Event Management and ServiceNow® Metric Intelligence applications, which help you track and maintain the health of services in your organization.
 

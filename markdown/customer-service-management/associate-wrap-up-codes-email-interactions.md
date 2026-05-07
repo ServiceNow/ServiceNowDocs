@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure wrap-up codes for email interactions, Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure wrap-up codes for email interactions, Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Associate wrap-up codes with email interactions

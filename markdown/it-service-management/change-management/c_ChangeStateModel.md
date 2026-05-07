@@ -1,5 +1,5 @@
 ---
-title: State model and transitions
+title: Legacy: State model and transitions
 description: Change Management offers a state model to move and track change requests through several states.
 locale: en-US
 release: australia
@@ -7,13 +7,15 @@ product: Change Management
 classification: change-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
-# State model and transitions
+# Legacy: State model and transitions
 
 Change Management offers a state model to move and track change requests through several states.
+
+**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](../task/create-a-change-model.md).
 
 ![State transitions in a normal change request](../image/change-state-model.png "Example of state transitions for a normal change request")
 
@@ -166,9 +168,9 @@ By default, there are two attributes to manage a change request:
 -   allow\_ci\_modification – Allows to modify the CI. Attributes are only considered if they are included in a model. If the `allow_ci_modification` attribute is not added to a model, it defaults to its initial state.
 -   allow\_implementation – Indicates that the change will be implemented. By enabling `allow_implementation`, this feature replaces the implementation states field currently present on the Change model. Both the states listed in the implementation states field and the attribute will be respected.
 
--   **[Add a state to the state model](../task/t_AddANewState.md#)**  
+-   **[Legacy: Add a state to the state model](../task/t_AddANewState.md#)**  
 You can add a new state to the existing state model for different change types based on the requirements of your organization.
--   **[Configure state model transitions](../task/t_ConfigStateModelTransit.md)**  
+-   **[Legacy: Configure state model transitions](../task/t_ConfigStateModelTransit.md)**  
 You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
 **Parent Topic:**[Configuring Change Management](configure-change-management.md)

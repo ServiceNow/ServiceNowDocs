@@ -16,7 +16,7 @@ Use generative AI logs and Workflow Studio to troubleshoot issues with Now Assis
 
 The first troubleshooting option is to view generative AI logs.
 
-1.  Select **All** enter `sys_generative_ai_log_list.do` in the **Filter**, and press **enter** or **return** on your keyboard. \\
+1.  Select **All** enter `sys_generative_ai_log_list.do` in the **Filter**, and press **enter** or **return** on your keyboard.
 2.  Open any record to view details.
 
 A second option is to enable a system property and use Workflow Studio. The com.glide.oneapi.flow\_debug property enables debugging capabilities for flows built with OneAPI so you can receive reporting and insights into flow execution.

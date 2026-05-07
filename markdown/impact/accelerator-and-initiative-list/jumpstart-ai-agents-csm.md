@@ -24,9 +24,12 @@ This accelerator provides  Impact customers with an overview and applied demon
 ## What you get
 
 -   **Session preparation**
-    -   Provision a temporary instance
-    -   Activate related plug-ins
-    -   Activate and configure AI Agents
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates related plug-ins
+    -   Activates and configures AI Agents
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:

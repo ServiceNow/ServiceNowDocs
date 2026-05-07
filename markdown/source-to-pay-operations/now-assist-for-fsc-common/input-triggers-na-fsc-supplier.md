@@ -9,7 +9,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist Security Operations]
-breadcrumb: [Customize supplier summarization skill, Configure, Features, Now Assist for Finance and Supply Chain, Finance and Supply Chain]
+breadcrumb: [Customize supplier summarization skill, Configure, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 
 # Skill inputs for Supplier summarization for fulfillers skill

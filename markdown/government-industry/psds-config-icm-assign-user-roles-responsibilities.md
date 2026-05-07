@@ -19,7 +19,7 @@ Assign roles to members of your investigative organization Investigative Case Ma
 
 There are a few guidelines for assigning roles to users:
 
--   Determine who will be working on the investigative cases for the organization, and what actions each user would be taking on the case. For more information on the roles available in Investigative Case Management and to determine which makes sense for each user, see [Roles installed with graPublic Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md) and [Investigative Case Management Personas](../reference/psds-data-model-icm-personas.md)
+-   Determine who will be working on the investigative cases for the organization, and what actions each user would be taking on the case. For more information on the roles available in Investigative Case Management and to determine which makes sense for each user, see [Roles installed with Public Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md) and [Investigative Case Management Personas](../reference/psds-data-model-icm-personas.md)
 -   Create as many users as needed in your organization.
 
 Role required: admin

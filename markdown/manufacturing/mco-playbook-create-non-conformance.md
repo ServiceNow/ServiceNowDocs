@@ -1,6 +1,6 @@
 ---
 title: Create a product non-conformance case
-description: Create a non-conformance case for the products that have issue.
+description: Create a non-conformance case for the products that have issue using the playbook experience.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Product non-conformance, Agent management, Use, Manufacturing Comme
 
 # Create a product non-conformance case
 
-Create a non-conformance case for the products that have issue.
+Create a non-conformance case for the products that have issue using the playbook experience.
 
 ## Before you begin
 
@@ -65,19 +65,25 @@ Role required: Quality Issue Management Admin, product non-conformance resolver 
         2.  Select **Mark Complete**.
         When you select **Mark Complete**, all activities in Understand the Issue are marked complete. The Apply correction and Batch containment activities display simultaneous.
 
-4.  Apply a correction.
+4.  **Apply a correction.**
 
-    1.  Select the **Apply Correction** Activity.
+    1.  Select the **Apply Correction** activity.
 
     2.  Select **Add** to add new correction action.
 
     3.  Select edit to view and edit the correction actions form.
 
-        You can [Create a correction action](mco-correction-actions.md) and
+        You can add [Correction actions form](../reference/mco-correction-actions-form.md) and [CoPQ expense line form](../reference/mco-copq-expense-line-form.md) details.
 
-    4.  Select **Continue**&gt;**Mark complete**.
+    4.  Select the **Create work order** activity.
 
-5.  If there are similar issues that are in the same location, apply a batch containment.
+        You can add [Work order form](../reference/work-order-form.md) details.
+
+    5.  Select **Save**.
+
+    6.  Select **Continue**&gt;**Mark complete**.
+
+5.  **Apply a batch containment.**
 
     1.  Identify the impact.
 
@@ -102,7 +108,7 @@ Role required: Quality Issue Management Admin, product non-conformance resolver 
         5.  Select **Add file**, to add any attachments.
         6.  Select **Save**.
         7.  Select **Mark Complete**.
-6.  Manage the outcome.
+6.  **Manage the Outcome**.
 
     On per-closure checklist, review all the details. It shows the activities that are completed or pending.
 
@@ -120,9 +126,6 @@ Role required: Quality Issue Management Admin, product non-conformance resolver 
         4.  To close, select **Solved**.
         5.  Add **Resolution notes**.
         6.  Select **Close**.
-
--   **[Related lists for Non-conformance](mco-related-lists-product-non-conformance.md)**  
-In the workspace, you can use the product non-conformance related list to log the report.
 
 **Parent Topic:**[Product non-conformance](../concept/mco-product-non-conformances.md)
 

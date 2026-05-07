@@ -38,7 +38,7 @@ You can perform the listed activities in any sequence.
 
 2.  To perform model validation from the Model Risk Workspace, navigate to **All** &gt; **Model Risk Workspace** and do the following:
 
-    1.  Select the list icon ![](../../assessment-engine/image/list-icon.png).
+    1.  Select the list icon ![](../image/list-icon-mrm.png).
 
     2.  From the list, navigate to **Models** &gt; **Pre-deployment**.
 

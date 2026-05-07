@@ -19,7 +19,7 @@ Set up scheduled import jobs to pull in Microsoft Defender for Endpoint data int
 
 Complete the following tasks:
 
--   Install Service Graph Connector for Microsoft Defender Endpoint version 1.1.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Install Service Graph Connector for Microsoft Defender Endpoint version 1.1.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 -   Verify that you have an active subscription to Microsoft Defender for Endpoint.
 -   Verify that you have created an Azure application to get programmatic access to Microsoft Defender for Endpoint. See [Create an app to access Microsoft Defender for Endpoint without a user](https://learn.microsoft.com/en-us/defender-endpoint/api/exposed-apis-create-app-webapp?view=o365-worldwide) in the Microsoft 365 documentation.
 -   Obtain the tenant ID, client ID, and client secret details for the Microsoft Defender for Endpoint administrator account.

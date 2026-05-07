@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [alert remediation, log analytics alert, overview tab, health log analytics, alert resolution, service operations workspace, alert investigation, remediation process, alert troubleshooting, log analytics operator, alert management, playbook remediation, alert response, anomaly remediation, operator workflow]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -16,8 +17,6 @@ breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, I
 Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, the log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
 ## Before you begin
-
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace.
 
 Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 

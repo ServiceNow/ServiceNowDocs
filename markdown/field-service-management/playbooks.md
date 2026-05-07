@@ -4,7 +4,7 @@ description: Playbooks provide step-by-step guidance for your Field Service team
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Explore, Field Service Management]
 ---
@@ -21,7 +21,7 @@ A playbook takes a workflow and breaks it into multiple stages. Each stage inclu
 -   Status indicators that display the current state of each activity or step.
 -   Check boxes and counters that indicate where an agent is in the workflow.
 
-The following image illustrates the Appointment Booking Playbook workflow created using a playbook.![Workflow displaying the steps to book appointments, Start Process, Display Rules, Collect Data, Send Confirmation Email, and Appointment Feedback. Each step has one or more tasks associated with it.](../image/Playbooks-fsm.png)
+The following image illustrates the Appointment Booking Playbook workflow created using a playbook.
 
 ## Playbooks for the ServiceNow Agent
 

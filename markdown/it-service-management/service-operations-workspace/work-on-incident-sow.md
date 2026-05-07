@@ -27,15 +27,15 @@ Role required: itil, sn\_service\_desk\_agent
 
 2.  Perform any of the following actions on the incident record page.
 
-<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d72279e71">
+<table id="choicetable_hvj_ccg_vsb"><thead><tr><th align="left" id="d74512e71">
 
 Option
 
-</th><th align="left" id="d72279e74">
+</th><th align="left" id="d74512e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72279e80">
+</th></tr></thead><tbody><tr><td id="d74512e80">
 
 **Create a change request**
 
@@ -43,7 +43,7 @@ Description
 
 Select **Create change request**. See [Create a change request in Service Operations Workspace](create-change-sow.md).
 
-</td></tr><tr><td id="d72279e99">
+</td></tr><tr><td id="d74512e99">
 
 **Create an incident task**
 
@@ -51,7 +51,7 @@ Select **Create change request**. See [Create a change request in Service Operat
 
 From the drop-down next to **Create incident task**, select **Create incident task**.
 
-</td></tr><tr><td id="d72279e114">
+</td></tr><tr><td id="d74512e114">
 
 **Create an outage**
 
@@ -59,7 +59,7 @@ From the drop-down next to **Create incident task**, select **Create incident ta
 
 From the drop-down next to **Create outage**, select **Create outage**.
 
-</td></tr><tr><td id="d72279e129">
+</td></tr><tr><td id="d74512e129">
 
 **Create a problem**
 
@@ -67,7 +67,7 @@ From the drop-down next to **Create outage**, select **Create outage**.
 
 From the drop-down next to **Create problem**, select **Create problem**. See [Create a problem in Service Operations Workspace](create-problem-sow.md).
 
-</td></tr><tr><td id="d72279e152">
+</td></tr><tr><td id="d74512e152">
 
 **Create a request**
 
@@ -75,7 +75,7 @@ From the drop-down next to **Create problem**, select **Create problem**. See [C
 
 From the drop-down next to **Create request**, select **Create request**. See [Create a catalog request in Service Operations Workspace](create-catalog-request-sow.md).
 
-</td></tr><tr><td id="d72279e180">
+</td></tr><tr><td id="d74512e180">
 
 **Resolve the incident**
 
@@ -83,7 +83,7 @@ From the drop-down next to **Create request**, select **Create request**. See [C
 
 Select **Resolve** and provide the resolution code and notes.
 
-</td></tr><tr><td id="d72279e192">
+</td></tr><tr><td id="d74512e192">
 
 **Assign the incident to you**
 
@@ -91,7 +91,7 @@ Select **Resolve** and provide the resolution code and notes.
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d72279e204">
+</td></tr><tr><td id="d74512e204">
 
 **Book a walk-up appointment**
 
@@ -99,7 +99,7 @@ Select **Assign to me**.
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Book Walk-up Appointment**.
 
-</td></tr><tr><td id="d72279e225">
+</td></tr><tr><td id="d74512e225">
 
 **Compose an email**
 
@@ -107,7 +107,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Compose Email**.
 
-</td></tr><tr><td id="d72279e246">
+</td></tr><tr><td id="d74512e246">
 
 **Copy the record page URL to easily access the record**
 
@@ -115,7 +115,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Copy URL**. You can then share the URL with other agents.
 
-</td></tr><tr><td id="d72279e268">
+</td></tr><tr><td id="d74512e268">
 
 **Copy the incident**
 
@@ -123,7 +123,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Copy Incident**.
 
-</td></tr><tr><td id="d72279e289">
+</td></tr><tr><td id="d74512e289">
 
 **Promote the incident to major incident**
 
@@ -131,7 +131,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Promote to Major Incident**.
 
-</td></tr><tr><td id="d72279e310">
+</td></tr><tr><td id="d74512e310">
 
 **Propose the incident as major incident**
 
@@ -139,7 +139,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Propose Major Incident**.
 
-</td></tr><tr><td id="d72279e331">
+</td></tr><tr><td id="d74512e331">
 
 **Report knowledge gap**
 
@@ -147,7 +147,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Report Knowledge Gap** to create a Knowledge Feedback Task \(KFT\) record. When the record is created, the success message containing the link to the KFT record, is displayed. You can select the link to open the KFT record on a separate tab within the incident view. You can also view the KFT record from the Knowledge Gaps related list on the **Related records** tab. You can use the KFT record to create a knowledge article.
 
-</td></tr><tr><td id="d72279e357">
+</td></tr><tr><td id="d74512e357">
 
 **Delete the incident**
 
@@ -155,7 +155,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 Select the **More actions** icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and then select **Delete**.
 
-</td></tr><tr><td id="d72279e378">
+</td></tr><tr><td id="d74512e378">
 
 **View recommendations for the incident**
 
@@ -163,7 +163,7 @@ Select the **More actions** icon \(![more actions icon](../../itsm-workspace/ima
 
 From the contextual side panel, select the **Recommendations** icon \(![recommendations icon](../image/recommendation-icon.png)\). See [Recommendation Framework in Service Operations Workspace](../concept/recommendation-framework-sow.md).
 
-</td></tr><tr><td id="d72279e404">
+</td></tr><tr><td id="d74512e404">
 
 **View record information and perform relevant actions**
 
@@ -188,7 +188,7 @@ If the logged-in user is a member of multiple assignment groups, the following s
     -   If the user is not a member of that assignment group, the **Assigned to** field becomes empty.
 For more information, see [Viewing incident record information using the Contextual side panel](../concept/view-inc-record-info-contextual-sidepanel.md).
 
-</td></tr><tr><td id="d72279e495">
+</td></tr><tr><td id="d74512e495">
 
 **Attach a record that helps in quick resolution of the change**
 
@@ -198,7 +198,7 @@ For more information, see [Viewing incident record information using the Context
 2.  Search for a resource and perform the required action, for example, link the change to an incident.
 
 
-</td></tr><tr><td id="d72279e522">
+</td></tr><tr><td id="d74512e522">
 
 **Reach out to experts on-call**
 
@@ -206,7 +206,7 @@ For more information, see [Viewing incident record information using the Context
 
 From the contextual side panel, select the **Experts on-call** icon \(![experts on-call icon](../image/experts-on-call.png)\). See [On-call support for an incident in Service Operations Workspace](../concept/on-call-sow.md#).
 
-</td></tr><tr><td id="d72279e547">
+</td></tr><tr><td id="d74512e547">
 
 **View dynamic tracking of an on-call escalation**
 
@@ -214,7 +214,7 @@ From the contextual side panel, select the **Experts on-call** icon \(![experts 
 
 From the contextual side panel, select the **On-call escalations** icon ![on-call escalations icon](../image/on-call-escalation.png)\). See [On-call support for an incident in Service Operations Workspace](../concept/on-call-sow.md#).
 
-</td></tr><tr><td id="d72279e572">
+</td></tr><tr><td id="d74512e572">
 
 **Collaborate using Microsoft Teams**
 
@@ -222,7 +222,7 @@ From the contextual side panel, select the **On-call escalations** icon ![on-cal
 
 From the contextual side panel, select the **Collaborate** icon \(![collaborate icon](../image/collaborate-sidebar.png)\). See [ServiceNow integrations with Microsoft Teams in Service Operations Workspace](../concept/msteams-sow.md).
 
-</td></tr><tr><td id="d72279e609">
+</td></tr><tr><td id="d74512e609">
 
 **Add attachments**
 
@@ -230,7 +230,7 @@ From the contextual side panel, select the **Collaborate** icon \(![collaborate 
 
 From the contextual side panel, select the **Attachments** icon \(![attachments icon](../../itsm-workspace/image/attachment-icon.png)\).**Note:** The added attachments are displayed in the activity stream in the **Compose** section.
 
-</td></tr><tr><td id="d72279e634">
+</td></tr><tr><td id="d74512e634">
 
 **Action library**
 
@@ -238,7 +238,7 @@ From the contextual side panel, select the **Attachments** icon \(![attachments 
 
 From the contextual side panel, select the **Action library** \(![](../../digital-end-user-experience/image/icon-action-library.png)\) icon to open a sidepanel that contains all the DEX actions that you can perform on the CIs such as clearing the cache.**Note:** You can perform DEX actions on the affected CIs or caller CIs that are associated with the incident record. The caller CIs are the CIs that are assigned to the caller.
 
-</td></tr><tr><td id="d72279e656">
+</td></tr><tr><td id="d74512e656">
 
 **Create templates for reuse**
 
@@ -246,7 +246,7 @@ From the contextual side panel, select the **Action library** \(![](../../digita
 
 From the contextual side panel, select the **Templates** icon \(![templates icon](../image/template-icon.png)\) and create a template or reuse an existing one.
 
-</td></tr><tr><td id="d72279e674">
+</td></tr><tr><td id="d74512e674">
 
 **Playbook**
 
@@ -254,7 +254,7 @@ From the contextual side panel, select the **Templates** icon \(![templates icon
 
 From the contextual side panel, select the **Playbook** icon \(![Playbook icon](../image/playbook_icon.png)\) to open the playbook and execute the remedial actions on a separate panel. For more information, see [Remedial actions using Playbook](../concept/remedial-actions-playbook.md).
 
-</td></tr><tr><td id="d72279e699">
+</td></tr><tr><td id="d74512e699">
 
 **Response templates**
 

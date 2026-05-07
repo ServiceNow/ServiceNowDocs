@@ -6,7 +6,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 4
 breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
@@ -54,13 +54,9 @@ Examples of validation conditions:
 
 ## State model attributes
 
-Attributes add special capabilities to workflow states without requiring custom code. CAM authorization package has several attributes:
+Attributes add special capabilities to workflow states without requiring custom code. Attributes control features like approval requirements, report generation, related list actions, and UI page visibility for specific workflow states.
 
--   **Required approval**: Indicates that the step requires approval before proceeding
--   **Generate SSP**: Enables System Security Plan report generation
--   **Generate SAR**: Enables Security Assessment Report generation
--   **Generate OSCAL SSP**: Enables OSCAL format System Security Plan \(SSP\) export
--   **Generate POAM**: Enables Plan of Action and Milestones report generation
+For a complete list of available attributes, see [Add existing attributes to a GRC workflow state](../task/configure-state-model-attributes.md).
 
 ## Workflow limitations
 

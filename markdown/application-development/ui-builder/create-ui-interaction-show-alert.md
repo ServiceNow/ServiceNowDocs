@@ -7,7 +7,7 @@ product: UI Builder
 classification: ui-builder
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [UI interactions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
@@ -61,13 +61,19 @@ In this task, you create a UI interaction and define its behavior using the diag
 
     2.  Browse the available steps by category, or search by name.
 
+        When you add a first step between the Start and End nodes, the **And** branch appears in an Unavailable section within the toolbox. The **And** branch cannot be added until at least one step has been added to the main branch. When you insert a step between two existing steps, steps with no outgoing events, such as navigation steps, appear in an Unavailable section within the toolbox. These steps cannot be inserted before an existing step and must be added through an **And** branch, where they connect directly to the End node.
+
     3.  Select a step to add it to the canvas.
+
+        Add a step between the start and end nodes, or insert one before any existing step. By default, when inserting a new step before an existing one, the flow continues with the topmost outgoing event. To change it, select the event node and choose a different event.
+
+        **Note:** Each event supports a single outgoing branch. If you swap an event, any downstream bindings that depend on it reset to their default values, and a visual indicator shows the reset.
 
     4.  Configure the step properties in the configuration panel.
 
     5.  Repeat to add additional steps in sequence.
 
-        To run steps in parallel, select the plus icon ![](../../../reuse/icons/product-icons/plus-outline-24.svg) to add a parallel branch. Branches execute in order from top to bottom. To define conditional paths, add an **If/Else** step. Conditions can be defined using formula building or a script. Branches are evaluated top to bottom and the first branch that evaluates to true executes.
+        To run steps in parallel, select the select the **And** step from the toolbox. Branches execute in order from top to bottom. To define conditional paths, add an **If/Else** step from the Logic section of the toolbox. When you insert an **If/Else** step before an existing step, the system preserves the downstream flow in the Else branch.Conditions can be defined using formula building or a script. Branches are evaluated top to bottom and the first branch that evaluates to true executes.
 
     6.  If your interaction requires data at runtime, define inputs by selecting the Inputs pill and adding the data your interaction needs.
 
@@ -75,7 +81,11 @@ In this task, you create a UI interaction and define its behavior using the diag
 
     7.  Select **Save**.
 
-    8.  You can remove a step from the interaction at any time by selecting the delete icon ![](../image/uib-delete-event-mapping-icon.png).
+    8.  Delete a step from the interaction at any time by selecting the delete icon ![](../image/uib-delete-event-mapping-icon.png).
+
+    9.  To delete an event on the diagram, select the delete icon ![](../image/uib-delete-event-mapping-icon.png) on the event.
+
+        Deleting an event removes the connection and any downstream steps.
 
 
 ## Result

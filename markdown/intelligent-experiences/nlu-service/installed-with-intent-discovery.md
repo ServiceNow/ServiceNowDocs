@@ -76,5 +76,4 @@ Discovery Report Definition\[sn\_nlu\_discovery\_report\_definition\]
 Includes the necessary information for generating reports.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Intent Discovery](../task/install-intent-discovery.md)
-
+</table>

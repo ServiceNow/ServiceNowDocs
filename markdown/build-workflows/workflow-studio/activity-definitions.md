@@ -157,6 +157,8 @@ A UI Layout describes what properties and components to use when an activity ren
 
 [Add and configure an activity in a playbook](../task/add-configure-activity.md)
 
+[Use AI agent as an activity](../task/ai-agent-as-activity.md)
+
 [Automation Assets](automation-assets.md)
 
 [Start with delay input properties](../reference/start-with-delay-properties.md)

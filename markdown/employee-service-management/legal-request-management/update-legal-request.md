@@ -31,15 +31,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 4.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d718411e96">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d729098e96">
 
 Action
 
-</th><th align="left" id="d718411e99">
+</th><th align="left" id="d729098e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d718411e105">
+</th></tr></thead><tbody><tr><td id="d729098e105">
 
 **Modify the request details**
 
@@ -53,7 +53,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The legal request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d718411e141">
+</td></tr><tr><td id="d729098e141">
 
 **Cancel the request**
 
@@ -71,15 +71,15 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d718411e192">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d729098e192">
 
 Option
 
-</th><th align="left" id="d718411e195">
+</th><th align="left" id="d729098e195">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d718411e201">
+</th></tr></thead><tbody><tr><td id="d729098e201">
 
 **If the Attachments tab is visible**
 
@@ -90,7 +90,7 @@ Steps
 -   To remove an attached file, select the delete icon \(![Delete icon.](../../legal-digital-forensics/image/delete-icon.png)\).
 
 
-</td></tr><tr><td id="d718411e240">
+</td></tr><tr><td id="d729098e240">
 
 **If the Documents tab is visible**
 

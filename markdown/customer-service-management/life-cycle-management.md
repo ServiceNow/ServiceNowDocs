@@ -51,7 +51,7 @@ Active
 
 </td><td>
 
--   Modifications to the customer contract can be done manually, via integration and via Sales and Order Management workflow.
+-   Modifications to the customer contract can be done manually, via integration and via Sales Customer Relationship Management workflow.
 -   The start date can't be modified.
 -   The end date can be extended and should be greater than the current date.
 -   customer contract line items can be added.

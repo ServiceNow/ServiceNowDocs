@@ -41,7 +41,7 @@ See [Omnichannel](https://www.servicenow.com/docs/access?context=omnichannels-co
     -   Playbook intake: Enable your users to submit cases using the Playbook guided experience. Systematically capture case details and display stages, and activities involved in resolving the case.
     -   Catalog browse: Browse and search Service Catalog items from different catalogs and categories within a third-party website.
     -   Object list: Display records from different tables with their related actions in a list format.
--   **[Using Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **[Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
     Manage Amazon Connect calls in the CSM Configurable Workspace voice Interaction record. The integration supports inbound and outbound call flows, presence management, and transfers without switching applications.
 
@@ -51,8 +51,10 @@ See [Omnichannel](https://www.servicenow.com/docs/access?context=omnichannels-co
 
 -   **[Agent help request for voice calls](https://www.servicenow.com/docs/access?context=agent-help-request-for-voice-calls&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
-    Empower agents to request supervisor assistance during calls by selecting the **Help Request** button. Agents can specify reasons why they are calling for help to provide more context to the supervisor before the supervisor responds, and receive notifications when supervisors coach or join. All help request data is captured for reporting for data-driven coaching.
+    Empower agents to request supervisor assistance during calls by selecting the **Help Request** button. Agents can specify reasons why they are calling for help to provide more context to the supervisor before the supervisor responds, and receive notifications when supervisors coach or join. All help request data is captured for reporting for data-driven coaching. Some other key features include the following:
 
+    -   Configure phone directory to show or hide Agents, Queues, or External tabs based on CCaaS provider settings. Agents see tabs enabled by the CCaaS provider, preventing transfers to unsupported numbers.
+    -   While handling a customer call, agents can now see accurate availability status for other agents, supporting informed transfer decisions. Agent availability status updates in the transfer list and phone directory in real-time during call transfers.
 -   **[Use AI to generate wrap up code and notes summary](https://www.servicenow.com/docs/access?context=ai-generated-wrap-up-codes-and-notes-summary&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
     Automatically suggest a wrap-up code and generate an interaction summary based on conversation transcripts by using Now Assist, which reduces manual documentation time and contributes to consistent record-keeping. Choose automatic or agent-initiated generation to fit your workflow.

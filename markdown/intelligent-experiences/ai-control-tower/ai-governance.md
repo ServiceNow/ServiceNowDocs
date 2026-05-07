@@ -18,7 +18,7 @@ The AI Control Tower dashboard displays a comprehensive overview of the AI statu
 
 The AI Control Tower dashboard's left navigation view has **Home**, **AI assets**, and **Configuration** icons.
 
-The table below illustrates how the navigation view in AI Control Tower appears for different persona.
+The table following illustrates how the navigation view in AI Control Tower appears for different persona.
 
 <table id="table_xxq_2n5_bgc"><thead><tr><th>
 

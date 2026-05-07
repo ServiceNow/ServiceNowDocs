@@ -1,6 +1,6 @@
 ---
-title: Sales and Order Management for Telecommunications \(SOMT\) release notes
-description: The ServiceNow Sales and Order Management for Telecommunications \(SOMT\) application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales and Order Management for Telecommunications \(SOMT\) was enhanced and updated in the Australia release.
+title: Sales CRM for Telecommunications release notes
+description: The ServiceNow Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -8,17 +8,18 @@ last_updated: "2026-03-17"
 reading_time_minutes: 1
 ---
 
-# Sales and Order Management for Telecommunications \(SOMT\) release notes
+# Sales CRM for Telecommunications release notes
 
-The ServiceNow® Sales and Order Management for Telecommunications \(SOMT\) application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales and Order Management for Telecommunications \(SOMT\) was enhanced and updated in the Australia release.
+The ServiceNow® Sales CRM for Telecommunications application enables you to capture, manage, and fulfill product and service orders from enterprise customers. Sales CRM for Telecommunications was enhanced and updated in the Australia release.
 
-## Sales and Order Management for Telecommunications \(SOMT\) highlights for the Australia release
+## Sales CRM for Telecommunications highlights for the Australia release
 
+-   Sales and Order Management for Telecommunications \(SOMT\) is now known as Sales Customer Relationship Management for Telecommunication \(Sales CRM for Telecommunications\) to align with the updated product taxonomy. There is no change to functionality or existing customer configurations.
 -   Provide customers with the option to configure product workflows using the data-driven catalog subflow as an alternative to Flow Designer, giving more options for implementing product configurations.
 
 See [Sales Customer Relationship Management for Telecommunications](https://www.servicenow.com/docs/access?context=somt&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
 
-**Important:** Sales and Order Management for Telecommunications \(SOMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
@@ -35,12 +36,12 @@ Install Order Management for telecom, media, and tech by requesting it from the 
 
 -   **[CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales and Order Management transactions, such as quotes and orders.
+    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 
 
 -   **[Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    The Pricing Management application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales and Order Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
+    The Pricing Management application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales Customer Relationship Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
 
 -   **[Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 

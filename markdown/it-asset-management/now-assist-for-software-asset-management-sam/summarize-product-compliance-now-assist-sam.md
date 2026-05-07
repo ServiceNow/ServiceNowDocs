@@ -47,15 +47,15 @@ When you run reconciliation with grouping, product summarization and recommended
 
 6.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d165913e145">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d168255e145">
 
 Action
 
-</th><th align="left" id="d165913e148">
+</th><th align="left" id="d168255e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d165913e154">
+</th></tr></thead><tbody><tr><td id="d168255e154">
 
 **Copy to clipboard icon**
 
@@ -63,7 +63,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d165913e163">
+</td></tr><tr><td id="d168255e163">
 
 **Refresh icon**
 
@@ -71,7 +71,7 @@ Copies the summary to a clipboard.
 
 Regenerates the product summary and recommended actions.
 
-</td></tr><tr><td id="d165913e172">
+</td></tr><tr><td id="d168255e172">
 
 **Feedback**
 

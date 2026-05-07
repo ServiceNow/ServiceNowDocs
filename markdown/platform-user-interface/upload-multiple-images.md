@@ -35,8 +35,6 @@ Role required: image\_admin or content\_admin
         |**Image**|Select **Click to add...** to upload an image. If an image is already uploaded, click **\[Update\]** to upload a new version of the image or **\[Delete\]** to remove the image.|
         |**Format**, **Size bytes**, **Height**, and **Width**|View current image metadata. This information is automatically populated when the image is uploaded.|
 
-        ![](../image/product-doc-page.png "Upload image")
-
 2.  To upload multiple images at once, complete the following steps:
 
     1.  Create a .zip file that contains only [acceptable image file types](../concept/c_StoringImagesInTheDatabase.md#AcceptableImageFileTypes).
@@ -48,8 +46,6 @@ Role required: image\_admin or content\_admin
     3.  Click **Choose File** then select the file.
 
     4.  Click **Upload**.
-
-        ![Zip upload](../image/mulitple-image-upload.png)
 
     A message indicates that the files are uploaded to the database, and the images list is sorted by updated date in descending order \(the uploaded images appear first\).
 

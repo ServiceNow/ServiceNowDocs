@@ -6,7 +6,7 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -14,10 +14,6 @@ breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Stu
 # Get entitlement for AES apps
 
 Install App Engine Studio \(AES\) by verifying that the application or the product and its associated applications have valid ServiceNow entitlements. An entitlement means you have a license to install the product.
-
-This video shows you how to perform the following procedure.
-
-Get entitlement for AES apps
 
 ## Before you begin
 
@@ -33,17 +29,15 @@ Role required: admin
 
 2.  Select **Sign In** and log in using your Now Support credentials.
 
-    Integrations and other types of content appear on the **Certified Apps** tab.
-
 3.  Select the **ServiceNow Products** tab to view all available ServiceNow products.
+
+    ![ServiceNow Store page showing the Explore navigation menu and App Engine Studio product listing.](../image/servicenow-store-products-a.png)
 
 4.  Select **App Engine Studio**.
 
-    **Note:** When you have obtained entitlement to the core product, the applications listed under it are also entitled.
-
-    ![ServiceNow Store App Engine Studio button](../image/store-opt-in-1.jpg)
-
     The page lists all the applications that are associated with the AES product you're entitling.
+
+    ![App Engine Studio store listing, including some of the specific applications included in the App Engine Studio product.](../image/aes-apps-in-this-product.png)
 
 5.  Verify that you have entitlement to the product and applications by selecting **Opt-in**.
 
@@ -53,9 +47,7 @@ Role required: admin
 
     Opting in to entitlement is a one-time process for each product.
 
-    ![Terms and Conditions](../image/terms-conditions.png)
-
-    A check mark appears next to the product name, and the **Manage Entitlement** button appears. The button indicates that you are subscribed to the product and its associated applications.
+    A check mark appears next to the product name, and the **Manage Entitlement** button appears. The button indicates that you're subscribed to the product and its associated applications.
 
 7.  Change the instances affected by the entitled applications by selecting the **Manage Entitlement** button and then specifying one of the following options:
 

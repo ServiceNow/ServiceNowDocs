@@ -7,7 +7,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
 last_updated: "2026-03-24"
-reading_time_minutes: 15
+reading_time_minutes: 16
 keywords: [virtual agent, designer, topic, controls]
 breadcrumb: [Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
@@ -87,6 +87,9 @@ For LLM topics, the **Select assistant** list enables you to filter the assets b
 
 -   Now Assist in Virtual Agent \(default\)
 -   Now Assist Panel - Platform \(default\)
+
+    For the Now Assist Panel - Platform \(default\) assistant, if you want AI agents to be Discoverable, Visible, or Promoted, set the **Value** field in the system property **sn\_aia.enable\_aiagents\_discovery** to **True**. If the **Value** field is set to **False**, then AI agents can't be set as Discoverable, Visible, or Promoted. To enable this property, you must contact ServiceNow support.
+
 
 ![Select an assistant.](../images/vad-home-assist.png)
 

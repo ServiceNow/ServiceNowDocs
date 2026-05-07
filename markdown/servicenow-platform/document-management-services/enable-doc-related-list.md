@@ -23,7 +23,7 @@ Role required: admin
 
 1.  Navigate to the record, \(for example, Incident, Interaction, and so on\).
 
-2.  Select the Additional Actions icon \(![Additional actions icon](../image/additional-actions-icon.png)\) and select **Configure** &gt; **Related Lists** .
+2.  Select the Additional Actions icon \(![Additional actions icon](../image/additional-actions-icon.png)\) and select **Configure** &gt; **Related Lists**.
 
 3.  Move **Documents** from the Available list to the Selected list.
 

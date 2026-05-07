@@ -65,15 +65,15 @@ For more information about the features and actions that you can perform in the 
 
 6.  Perform your changes.
 
-<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d347952e242">
+<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d354322e242">
 
 Action
 
-</th><th align="left" id="d347952e245">
+</th><th align="left" id="d354322e245">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d347952e251">
+</th></tr></thead><tbody><tr><td id="d354322e251">
 
 **Edit the case's form fields**
 
@@ -85,7 +85,7 @@ In the **Details** tab, do the following:1.  Edit the field that you want to cha
 2.  Select **Save** to update the changes.
 
 
-</td></tr><tr><td id="d347952e316">
+</td></tr><tr><td id="d354322e316">
 
 **Add a comment or work notes**
 
@@ -98,7 +98,7 @@ In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity*
 5.  Select **Save** to update the changes.
 
 
-</td></tr><tr><td id="d347952e359">
+</td></tr><tr><td id="d354322e359">
 
 **View the activities performed on the case until the current date**
 
@@ -106,7 +106,7 @@ In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity*
 
 In the **Details** tab, go to the **Activity** panel.
 
-</td></tr><tr><td id="d347952e374">
+</td></tr><tr><td id="d354322e374">
 
 **View the __Requested for__employee details or send an email to them**
 
@@ -124,7 +124,7 @@ If no employee is specified in the **Requested for** field, then the employee de
     3.  To send the email, select **Send email**.
 You can also view draft emails using the **View drafts** option.
 
-</td></tr><tr><td id="d347952e433">
+</td></tr><tr><td id="d354322e433">
 
 **View knowledge base articles related to the case**
 
@@ -136,7 +136,7 @@ Select the Knowledge Articles \(![Knowledge Articles icon.](../images/casemgmt-k
 -   To mark the article as useful, select **Helpful**.
 
 
-</td></tr><tr><td id="d347952e474">
+</td></tr><tr><td id="d354322e474">
 
 **View or upload attachments to the case**
 
@@ -146,7 +146,7 @@ Select the Attachment icon \(![Attachments icon.](../images/casemgmt-attachement
 -   To upload a file, select **Select**.
 
 
-</td></tr><tr><td id="d347952e503">
+</td></tr><tr><td id="d354322e503">
 
 **View the template of the case or add a template**
 
@@ -161,7 +161,7 @@ To create a template, refer to:
 -   [Create a Workplace task template](../../workplace-case-mgmt/task/wsd-task-template.md)
 
 
-</td></tr><tr><td id="d347952e564">
+</td></tr><tr><td id="d354322e564">
 
 **View the workplace location specified in the case; View the 'From' and 'To' location of a move case; View the asset location of a maintenance case**
 
@@ -175,7 +175,7 @@ Select the Location icon \(![Location icon.](../images/casemgmt-locationicon.png
 -   For a maintenance case, the **Workplace location** panel displays the location of the asset specified in the case. If an asset isn’t specified, then the workplace location selected in the case is specified.
 
 
-</td></tr><tr><td id="d347952e625">
+</td></tr><tr><td id="d354322e625">
 
 **View the fulfillment instructions**
 
@@ -183,7 +183,7 @@ Select the Location icon \(![Location icon.](../images/casemgmt-locationicon.png
 
 Select the fulfillment Instructions icon \(![Fulfillment instructions icon.](../images/casemgmt-fulfimenticon.png)\).To add fulfillment instructions, refer to [Add Fulfillment instructions](../../workplace-case-mgmt/task/add-fulfillment-instructions.md).
 
-</td></tr><tr><td id="d347952e649">
+</td></tr><tr><td id="d354322e649">
 
 **View or add checklist items**
 
@@ -194,7 +194,7 @@ Select the Checklist icon \(![](../images/casemgmt-checklisticon.png)\).-   Mark
 -   Add a checklist item if necessary. If there are no checklist items, you can add them.
 
 
-</td></tr><tr><td id="d347952e675">
+</td></tr><tr><td id="d354322e675">
 
 **View the child cases or add a child case**
 
@@ -204,7 +204,7 @@ Go to the **Child Cases** tab.1.  View the child cases created with the case. Pe
 2.  To create a child case, select **New**. Refer to [Create a child case and a child task](create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d347952e705">
+</td></tr><tr><td id="d354322e705">
 
 **View the child tasks or add a child task**
 
@@ -214,7 +214,7 @@ Go to the **Child Tasks** tab.-   View the child tasks created with the case. Pe
 -   To create a child case, select **New**. Refer to [Create a child case and a child task](create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d347952e735">
+</td></tr><tr><td id="d354322e735">
 
 **View the details of approvers**
 
@@ -222,7 +222,7 @@ Go to the **Child Tasks** tab.-   View the child tasks created with the case. Pe
 
 Go to the **Approvers** tab.
 
-</td></tr><tr><td id="d347952e747">
+</td></tr><tr><td id="d354322e747">
 
 **Vew the case SLAs and add an SLA**
 
@@ -232,7 +232,7 @@ Go to the **Case SLAs** tab.-   View the SLA details associated with the case.
 -   Select **New** to add an SLA.
 To create the SLA definition, refer to [Create an SLA Definition](../../workplace-case-mgmt/task/create-sla-defn-case-mgmt.md).
 
-</td></tr><tr><td id="d347952e779">
+</td></tr><tr><td id="d354322e779">
 
 **View the attached knowledge base articles**
 
@@ -240,7 +240,7 @@ To create the SLA definition, refer to [Create an SLA Definition](../../workplac
 
 Go to the **Attached Knowledge** tab. View or add articles.
 
-</td></tr><tr><td id="d347952e791">
+</td></tr><tr><td id="d354322e791">
 
 **View the knowledge base articles viewed by the user**
 
@@ -248,7 +248,7 @@ Go to the **Attached Knowledge** tab. View or add articles.
 
 Go to the **KB Articles Read by User** tab. View or add articles.
 
-</td></tr><tr><td id="d347952e804">
+</td></tr><tr><td id="d354322e804">
 
 **View the related cases**
 
@@ -256,7 +256,7 @@ Go to the **KB Articles Read by User** tab. View or add articles.
 
 Go to the **Related cases** tab. View the cases or add a case if necessary. Refer to [Create a child case and a child task](create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d347952e823">
+</td></tr><tr><td id="d354322e823">
 
 **For a maintenance case, view the associated workplace cases**
 
@@ -264,7 +264,7 @@ Go to the **Related cases** tab. View the cases or add a case if necessary. Refe
 
 Go to the **Workplace Cases** tab. View the cases or add a case if necessary. Refer to [Create a child case and a child task](create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d347952e842">
+</td></tr><tr><td id="d354322e842">
 
 **View the workplace service items requested with the case**
 

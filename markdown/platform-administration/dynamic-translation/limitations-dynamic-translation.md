@@ -30,3 +30,5 @@ For information about languages supported by Google for translation, see the Goo
 
 For information about languages supported by Microsoft for translation, see the Microsoft [documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support).
 
+**Parent Topic:**[Reference for Dynamic Translation](reference-for-dynamic-translation.md)
+

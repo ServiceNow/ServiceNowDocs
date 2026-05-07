@@ -1,17 +1,17 @@
 ---
 title: Sales promotion
-description: Original equipment manufacturers \(OEMs\) come up with sales promotions \(discounts\) based on specific criteria or targeted promotions to a set of customers. After the OEM proposes a sales promotion, the channel partner extent these promotions and discounts to the end customers during sales transactions. the OEM must reimburse the additional discounts or offers provided by the dealers during the sales process​.
+description: OEMs create sales promotions and discounts targeted to specific criteria or customers. Channel partners extend these promotions to end customers during sales transactions, and the OEM reimburses dealers for the discounts offered.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
 # Sales promotion
 
-Original equipment manufacturers \(OEMs\) come up with sales promotions \(discounts\) based on specific criteria or targeted promotions to a set of customers. After the OEM proposes a sales promotion, the channel partner extent these promotions and discounts to the end customers during sales transactions. the OEM must reimburse the additional discounts or offers provided by the dealers during the sales process​.
+OEMs create sales promotions and discounts targeted to specific criteria or customers. Channel partners extend these promotions to end customers during sales transactions, and the OEM reimburses dealers for the discounts offered.
 
 This feature enables the seamless collaboration between OEMs and their dealers to manage sales promotions and claims. The sales promotion framework enables the OEMs to publish and manage the promotional campaigns efficiently. The dealer portal enables the dealers to submit claims for reimbursement post product sales transactions.​ There are three parts to the sales promotion​.
 
@@ -19,41 +19,48 @@ This feature enables the seamless collaboration between OEMs and their dealers t
 -   Creation of claim against the promotion by the dealer.
 -   Review and reimbursement for the claim by the OEM.
 
-![Sales promotion workflow](../image/sales-promotion-wf.png "Sales promotion workflow")
+![Sales promotion workflow](../image/salespromotion-claim-wf.png "Sales promotion workflow")
 
-|Entity|Description|
-|------|-----------|
-|Create sales promotion|OEM creates the sales promotion campaign.|
-|Associate products|OEM adds the products applicable for the sales promotion campaign.|
-|Set up incentive|Set up the incentive for the dealers.|
-|Add dealers|Add the dealers who are eligible for the sales promotion campaign.|
-|Set up questionnaires|Configure the promotion questionnaires.|
-|Set up checklist|Configure the checklist template.|
-|Publish|OEM publishes the sales promotion campaign for the applicable dealers.|
-|Create sales promotion claim|Dealer agent creates the promotion claim for the applicable customers.|
-|Search serial number|Add the product, which is applicable for sales promotion campaign.|
-|Select applicable promotion|Select the applicable promotion from the list of promotions.|
-|Fill in claimed amount|Update the claimed amount for the selected promotion.|
-|Fill in questionnaires|Update the promotion questionnaires.|
-|Add attachments|Add the attachments, if necessary.|
-|Submit claim case|Dealer agent submits the claim to OEM.|
-|Sales promotion claim case|Claims agent can view the list of sales promotion submitted by dealer.|
-|Review sales promotion case line|Claims agent reviews the claims.|
-|Verify checklist|Verifies the checklist.|
-|Approve|Approves the claims if it matches all the required criteria.|
-|Expense line|Expense line is generated for the approved claims.|
-|Process payment|Payment is processed.|
-|Close sales promotion claim|Claim is closed.|
-|Reject claim|Rejects the claims if it doesn’t match the required criteria.|
+1.  Create sales promotion: OEM creates the sales promotion campaign.
+2.  Associate products: OEM adds the products applicable for the sales promotion campaign.
+3.  Set up incentive: Set up the incentive for the dealers.
+4.  Add dealers: Add the dealers who are eligible for the sales promotion campaign.
+5.  Set up questionnaires: Configure the promotion questionnaires.
+6.  Set up checklist: Configure the checklist template.
+7.  Publish: OEM publishes the sales promotion campaign for the applicable dealers.
+8.  Create sales promotion claim: The dealer agent creates the promotion claim for the applicable customers.
+9.  Search serial number: Add the product, which is applicable for sales promotion campaign.
+10. Select applicable promotion: Select the applicable promotion from the list of promotions.
+11. Fill in the claimed amount: Update the claimed amount for the selected promotion.
+12. Fill in the questionnaires: Update the promotion questionnaires.
+13. Add attachments: Add the attachments, if necessary.
+14. Submit claim case: The dealer agent submits the claim to the OEM.
+15. Sales promotion claim case: A claims agent can view the list of sales promotion submitted by the dealer.
+16. Review sales promotion case line: A claims agent reviews the claims.
+17. Verify checklist: Verifies the checklist.
+18. Approve: Approves the claims if it matches all the required criteria.
+19. Expense line: Expense line is generated for the approved claims.
+20. Process payment: The payment is processed.
+21. Close sales promotion claim: The claim is closed.
+22. Reject claim: Rejects the claims if it doesn’t match the required criteria.
 
-**Related topics**  
+## Working with sales promotion
 
+Use the following to configure, use, and manage the sales promotions in MCO.
 
-[Sales promotion campaign data model](../reference/sales-promotion-campaign-claims.md)
+Review the entities and relationships within the [Sales promotion campaign data model](../reference/sales-promotion-campaign-claims.md) application, including tables added or modified by the sales promotion plugin.
 
-[Set up sales promotion](mco-set-up-sls-prom.md)
-
-[Sales promotion management](mco-sls-pro-mgmt.md)
-
-[Sales promotion claim management](mco-sls-pro-clm-mgmt.md)
+1.  Configure the sales promotion: Complete the following tasks to set up sales promotion in your environment.
+    1.  Install Sales promotion claim management \[sn\_sls\_prm\_clm\_mgt\]: [Installing applications, plugins, and products](https://www.servicenow.com/docs/access?context=installing-apps-app-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    2.  Set up product models and parts: [Configuring product models](mco-product-models.md)
+    3.  Set up assets and install base items: [Configuring assets](mco-assets.md) and [Create an install base item](mco-create-install-base-item.md)
+    4.  Set up dealers: [Set up dealer](set-up-dealer.md)
+    5.  Assign recall roles: [Assign roles](assign-mco-roles.md)
+    6.  [Set up sales promotion](mco-set-up-sls-prom.md)
+2.  Work with sales promotion \(OEM\): Use the Agents \(CSM/FSM\) workspace to create and manage sales promotion campaigns and review claims.
+    -   [Sales promotion management](mco-sls-pro-mgmt.md)
+    -   [Sales promotion claim management](mco-sls-pro-clm-mgmt.md)
+3.  Work with sales promotion \(Dealer\): Use the Dealer portal to submit and track sales promotion claims.
+    -   [Submit a sales promotion claim](../task/mco-sales-promotion-single-claim.md)
+    -   [Upload a bulk sales promotion claim](../task/mco-sales-promotion-bulk-upload.md)
 

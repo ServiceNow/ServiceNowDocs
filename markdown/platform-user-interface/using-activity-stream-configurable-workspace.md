@@ -4,7 +4,7 @@ description: Learn how to use Activity stream features on a Configurable Workspa
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

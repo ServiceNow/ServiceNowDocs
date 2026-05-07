@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP scheduled extraction field descriptions
-description: The Scheduled extraction form in Zero Copy Connector for ERP enables you to create and edit jobs to extract data at regular intervals.
+description: The Scheduled extraction form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit jobs to extract data at regular intervals.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,14 +9,14 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, data, interval, pull]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP scheduled extraction field descriptions
 
-The Scheduled extraction form in Zero Copy Connector for ERP enables you to create and edit jobs to extract data at regular intervals.
+The Scheduled extraction form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit jobs to extract data at regular intervals.
 
-For process details, see .
+For process details, see [Create a scheduled extraction in Zero Copy Connector for ERP](../task/erpc-create-a-scheduled-extraction.md).
 
 <table id="table_rgs_xr5_bdc"><thead><tr><th>
 

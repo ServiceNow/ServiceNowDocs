@@ -7,7 +7,7 @@ product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Unified service map in SOW ITOM, Impact path in SOW ITOM, Impact tree in SOW ITOM, Relation between CIs and alerts]
 breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -54,11 +54,19 @@ You can also investigate a wider view of the service topology on the service map
 
     ![The application map along with the CI relationships appears.](../image/sow-service-map-page.png)
 
-    **Note:** Depending on the size of the service, the unified map either shows the full map \(if it contains up to 60 CIs\) or an Impact Path leading to the most critical alert \(for maps with over 60 CIs\). For large maps, you can reveal more CIs by clearing the existing selecting and navigating to the **Showing more nodes** optimization option.
+    **Note:**
+
+    Depending on the size of the service, the unified map either shows the full map \(if it contains up to 60 CIs\) or an Impact Path leading to the most critical alert \(for maps with over 60 CIs\). For large maps, you can reveal more CIs by clearing the existing selecting and navigating to the **Showing more nodes** optimization option.
+
+    **Impact Path** shows alerts on the selected CI and all CIs within its impact subtree.
 
     ![Option to change how many CIs you want to view in the map.](../image/sow-service-map-nodes.png)
 
-    If the impact path panel is closed, you can open it by selecting the Impact path icon \(![Impact path icon](../image/icon-sow-impact-path.png)\).
+    If the **Impact path** panel is closed, you can open it by selecting the Impact path icon \(![Impact path icon](../image/icon-sow-impact-path.png)\).
+
+    To view active alerts directly associated with the selected CI, select the Related items icon \(![Related items icon](../image/icon-service-map-related-items.png)\) in the right pane, then select **Active Alerts**.
+
+    ![View active alerts directly associated with the selected CI.](../image/sow-service-map-related-items.png)
 
 5.  Navigate between alerts by selecting an alert card.
 
@@ -74,4 +82,6 @@ You can also investigate a wider view of the service topology on the service map
 
     ![Alert details page.](../image/sow-servicemap-alert-details-page.png)
 
+
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
 

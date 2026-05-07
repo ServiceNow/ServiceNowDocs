@@ -31,7 +31,7 @@ The **Elevate access** option is available only to the primary supplier contact 
 
 2.  In the Contacts widget, select a contact to open the contact's profile page.
 
-3.  Select **Elevate access**.![Selected button for elevating access.](../image/elevate-access-supplier-collaboration-portal.png)
+3.  Select **Elevate access**.
 
     The Elevate access dialog box is displayed.
 

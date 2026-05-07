@@ -35,7 +35,7 @@ Think of it like building a house: the data model is your foundation and framing
     -   Use indexed fields for frequently searched/filtered columns.
     -   Consider table partitioning for very large data sets.
 -   Required vs Optional fields: Mark fields as mandatory only when truly necessary for data integrity.
--   Choice lists: Define standardized dropdown options to ensure data consistency rather than allowing free text.
+-   Choice lists: Define standardized dropdown options to help ensure data consistency rather than allowing free text.
 
 ## Application scope
 
@@ -43,8 +43,8 @@ Tables belong to an application scope - a namespace that isolates your app's dat
 
 ## Design process
 
-1.  Identify entities: What "things" does your app need to track? \(Customers, Orders, Products, etc.\)
-2.  Define attributes: What information about each entity do you need to store?
+1.  Identify entities: What "things" must your app track? \(Customers, Orders, Products, etc.\)
+2.  Define attributes: What information about each entity must you store?
 3.  Map relationships: How do these entities connect to each other?
 4.  Choose parent tables: Will you extend existing tables or create standalone ones?
 5.  Create tables and fields: Use ServiceNow Studio to build your schema.

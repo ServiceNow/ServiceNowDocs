@@ -37,7 +37,7 @@ Components installed with Public Sector Digital Services applications
 </td><td>
 
 -   [Components and Roles installed with Public Sector Digital Services Core](../reference/installed-with-public-sector-digital-services-core.md)
--   [Roles installed with graPublic Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md)
+-   [Roles installed with Public Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md)
 -   [Persona-based Roles in Public Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md#section_np1_nbp_3hc)
 -   [Plugins installed with Public Sector Digital Services Core](../reference/plugins-installed-with-psds.md)
 -   [Properties installed with Public Sector Digital Services](../reference/properties-installed-with-psds.md)

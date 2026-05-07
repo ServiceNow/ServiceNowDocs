@@ -1,39 +1,41 @@
 ---
-title: Desktop actions in Agentic Desktop
+title: Defined path desktop actions in AI Desktop Actions
 description: Desktop actions enable you to automate repetitive tasks on your desktop and web applications. This capability helps you streamline repetitive tasks, improve efficiency, and integrate desktop application workflows into your ServiceNow processes.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2025-11-01"
 reading_time_minutes: 7
-breadcrumb: [Agentic Desktop, Enable AI experiences]
+breadcrumb: [AI Desktop Actions, Enable AI experiences]
 ---
 
-# Desktop actions in Agentic Desktop
+# Defined path desktop actions in AI Desktop Actions
 
 Desktop actions enable you to automate repetitive tasks on your desktop and web applications. This capability helps you streamline repetitive tasks, improve efficiency, and integrate desktop application workflows into your ServiceNow processes.
 
-## Types of desktop actions
+Desktop actions are tools that AI agents use to interact with web and desktop applications. When you configure an AI agent and select desktop action as a tool, you define whether the AI agent follows a defined path \(fixed steps designed in AI Desktop Actions\) or an adaptive path \(high-level goal described in the tool configuration\). Unlike adaptive path desktop actions that dynamically plan execution, defined path desktop actions enable AI agents to execute preconfigured workflows through a fixed sequence of steps.
+
+## Types of defined desktop actions
 
 AI agents use these desktop actions to interact with desktop applications, perform UI-based tasks, and automate end-to-end workflows. There are two types of desktop actions that can be added as tools to AI agents:
 
--   **UI blocks**
+-   **On-screen task**
 
-    The UI block actions help you simulate humans interacting with UI elements on your thick client applications, legacy systems, or SaaS applications without APIs. These actions include clicking buttons, typing into text boxes, selecting from dropdown menus, and more. These desktop actions make it easier to automate repetitive tasks. They encapsulate repeatable UI interactions, such as screens, anchors, and steps. You can create, manage, and test your desktop actions using the no-code Design workspace.
+    These desktop actions help you simulate humans interacting with UI elements on your thick client applications, legacy systems, or SaaS applications without APIs. These actions include clicking buttons, typing into text boxes, selecting from dropdown menus, and more. These desktop actions make it easier to automate repetitive tasks. They encapsulate repeatable UI interactions, such as screens, anchors, and steps. You can create, manage, and test your desktop actions using the no-code Design workspace.
 
     Example: Filling in fields on a payroll application, updating inventory in a point-of-sale system, or submitting a request through a desktop insurance claims app.
 
-    You can access and view the existing desktop actions in the ServiceNow instance by navigating to **All** &gt; **Agentic Desktop** &gt; **Desktop Actions**. You can see the details of related desktop action applications, AI agents, and desktop action execution records for UI block, and AI agents and desktop action execution records for non-UI block desktop actions.
+    You can access and view the existing desktop actions in the ServiceNow instance by navigating to **All** &gt; **AI Desktop Actions** &gt; **Desktop Actions**. You can see the details of related desktop action applications, AI agents, and desktop action execution records for on-screen task, and AI agents and desktop action execution records for background desktop actions.
 
--   **Non-UI block**
+-   **Background task**
 
-    The non-UI block actions include pre-built connectors that enable your AI agents to interact with various applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area, providing a collection of related methods. You can't create non-UI block actions.
+    These desktop actions include prebuilt connectors that enable your AI agents to interact with various applications and system components in the background. These connectors streamline automation by offering actions for common tasks, reducing the need for complex scripting. Each connector focuses on a specific application or system area, providing a collection of related methods. You can't create background task desktop actions.
 
     Example: Reading data from Microsoft Excel, extracting emails from Microsoft Outlook, generating a PDF, compressing files into a ZIP, fetching records from a database, or sending a system notification.
 
-    Non-UI block actions are supported for the following applications:
+    Background task desktop actions are supported for the following applications:
 
-    **Note:** For the AI agents to perform non-UI block automations, the following applications must already be installed on the end-user's system.
+    **Note:** For the AI agents to perform Background task automations, the following applications must already be installed on the end-user's system.
 
 <table id="table_i2q_4lb_hhc"><thead><tr><th>
 
@@ -102,7 +104,7 @@ Enables AI agents to perform standard actions on the PDF documents. For example,
 -   ConvertToImages
 -   Merge
 -   Split
-**Note:** Password-protected files aren't supported.
+**Note:** Password-protected files aren't supported. You can't manipulate e-signed PDFs such as performing merge and split. This action corrupts the PDF files.
 
 </td></tr><tr><td>
 
@@ -166,11 +168,11 @@ Enables AI agents to perform standard Windows system operations. For example, st
 
 **Note:** If your automation requires manual inputs, such as entering an OTP or CAPTCHA, you must provide instructions to the AI Agent to wait for user input during execution. Otherwise, the automation can't proceed.
 
-You can create desktop actions of type UI block in the following ways:
+You can create on-screen desktop actions in the following ways:
 
 -   **[Auto-capture screens and steps](../task/auto-create-desktop-action-ad.md)**
 
-    With Action recorder, you can record your interactions with desktop applications to create automated workflows. It records every step you take, including clicks, keystrokes, and data entry, along with visual and contextual information. By recording steps, you can automate tasks that replicate your interactions. You can save the recorded screens and steps as a reusable desktop action. For more information, see [Action recorder in Agentic Desktop](action-recorder-ad.md).
+    With Action recorder, you can record your interactions with desktop applications to create automated workflows. It records every step you take, including clicks, keystrokes, and data entry, along with visual and contextual information. By recording steps, you can automate tasks that replicate your interactions. You can save the recorded screens and steps as a reusable desktop action. For more information, see [Action recorder in AI Desktop Actions](action-recorder-ad.md).
 
 -   **[Manually capture screens and steps](../task/manual-create-desktop-action-ad.md)**
 
@@ -224,17 +226,17 @@ Desktop actions support a wide range of desktop application interactions, includ
 **Related topics**  
 
 
-[Agentic Desktop Design workspace](agentic-desktop-overview.md)
+[AI Desktop Actions Design workspace](agentic-desktop-overview.md)
 
-[Action recorder in Agentic Desktop](action-recorder-ad.md)
+[Action recorder in AI Desktop Actions](action-recorder-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in Agentic Desktop](../task/auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](../task/auto-create-desktop-action-ad.md)
 
-[Automate repetitive tasks by manually capturing steps in Agentic Desktop](../task/manual-create-desktop-action-ad.md)
+[Automate repetitive tasks by manually capturing steps in AI Desktop Actions](../task/manual-create-desktop-action-ad.md)
 
-[Add details to desktop actions in Agentic Desktop](../task/add-details-desktop-action-ad.md)
+[Add details to desktop actions in AI Desktop Actions](../task/add-details-desktop-action-ad.md)
 
-[Test and activate a desktop action in Agentic Desktop](../task/test-activate-desktop-action-ad.md)
+[Test and activate a desktop action in AI Desktop Actions](../task/test-activate-desktop-action-ad.md)
 
 [Add a desktop action to an AI agent](../../../administer/now-assist-ai-agents/task/add-desktop-action-ai-agent.md)
 

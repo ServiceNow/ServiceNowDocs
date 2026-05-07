@@ -16,6 +16,8 @@ The Unified Employee Experience has new and updated applications and features in
 The ServiceNow® Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Australia release.
 -   **[Employee Center Pro release notes](ec-pro-rn.md)**  
 The ServiceNow® Employee Center Pro application provides a central hub for departmental services with unified system access and actionable content experiences. Employee Center Pro was enhanced and updated in the Australia release.
+-   **[Employee Slate release notes](employee-slate-rn.md)**  
+Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
 -   **[Now Assist for Employee Center Pro release notes](now-assist-for-employee-center-pro-rn.md)**  
 The ServiceNow® Now Assist for Employee Center Pro application offers the portal experience with all the employee communications and engagement tools. Now Assist for Employee Center Pro is a new application in the Australia release.
 

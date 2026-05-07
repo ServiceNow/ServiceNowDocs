@@ -23,7 +23,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, sn\_compliance
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the lists \(![List icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\) icon.
+2.  Select the lists \(![List icon.](../../grc-cam-workspace/image/ws-list-icon.png)\) icon.
 
 3.  Select **All entities** from the Scoping list on the left pane and click the entity record for which you completed the CRI tiering questionnaire.
 

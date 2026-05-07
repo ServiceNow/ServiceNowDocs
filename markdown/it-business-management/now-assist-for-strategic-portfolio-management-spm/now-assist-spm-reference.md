@@ -20,9 +20,9 @@ Reference information to provide additional information about tables, roles, and
 
 [Exploring Now Assist for Strategic Portfolio Management \(SPM\)](../concept/exploring-now-assist-for-spm.md)
 
-[Configure Now Assist Admin features](../task/configure-now-assist-for-spm.md)
+[Configure Now Assist Admin features](../concept/configuring-na-spm.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
 
 [Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
 

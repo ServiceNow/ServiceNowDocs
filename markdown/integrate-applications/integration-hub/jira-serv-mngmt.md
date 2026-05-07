@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Jira Service Management spoke v1.2.0 is the latest version.
+Jira Service Management spoke v2.0.0 is the latest version.
 
 ## Spoke requirements
 
@@ -70,6 +70,18 @@ Look up Service Desk IDs \(Metadata\)
 </td><td>
 
 Retrieves the list of all service desk IDs from the specified JIRA instance.
+
+</td></tr><tr><td>
+
+User Management
+
+</td><td>
+
+Report Personal Data
+
+</td><td>
+
+Reports the user's personal data for your apps.
 
 </td></tr><tr><td rowspan="8">
 

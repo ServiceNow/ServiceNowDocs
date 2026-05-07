@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  Select the report with the function field to deactivate.
 

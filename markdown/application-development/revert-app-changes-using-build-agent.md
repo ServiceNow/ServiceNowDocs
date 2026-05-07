@@ -1,17 +1,18 @@
 ---
 title: Revert app changes with Build Agent
-description: Restore your development to a previous state when you need to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
+description: Restore your development to a previous state when you want to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-04-02"
 reading_time_minutes: 1
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Revert app changes with Build Agent
 
-Restore your development to a previous state when you need to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
+Restore your development to a previous state when you want to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
 
 ## Before you begin
 

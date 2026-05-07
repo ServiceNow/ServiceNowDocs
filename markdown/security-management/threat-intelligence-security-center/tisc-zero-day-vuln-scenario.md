@@ -1,5 +1,5 @@
 ---
-title: Automated creation of zero day vulnerability from RSS feed
+title: Automated creation of zero day vulnerability
 description: A zero day vulnerability scenario demonstrates how TISC detects and manages vulnerabilities that have not yet received CVE assignments.
 locale: en-US
 release: australia
@@ -8,10 +8,10 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Configure Tagging Rules in TISC, About Rules Engine in TISC, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure Tagging Rules in TISC, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
-# Automated creation of zero day vulnerability from RSS feed
+# Automated creation of zero day vulnerability
 
 A zero day vulnerability scenario demonstrates how TISC detects and manages vulnerabilities that have not yet received CVE assignments.
 
@@ -30,11 +30,13 @@ Zero Day Vulnerability Processing - Vulnerability Source Record Creation.
 A Vulnerability Source record is automatically created when:
 
 -   an RSS feed record is associated with a specific Zero Day taxonomy value.
--   an RSS feed record is updated and contains new entities such as CWE IDs, CVE IDs, CPEs, or Product IDs.
+-   an RSS feed which is associated with the zero day taxonomy is updated and contains new entities such as CWE IDs, CVE IDs, CPEs, or Product IDs.
 
 **Record identification**: Each Vulnerability Source record is uniquely identified using the RSS feed GUID, ensuring traceability to the original source.
 
-TISC automatically populates the following fields of Vulnerability Source:
+The processing layer creates a zero day vulnerability record for the corresponding vulnerability source record, only when the vulnerability record doesn’t exists.
+
+TISC automatically populates the following fields of Vulnerability Source and Vulnerability record:
 
 |Field|Description|
 |-----|-----------|

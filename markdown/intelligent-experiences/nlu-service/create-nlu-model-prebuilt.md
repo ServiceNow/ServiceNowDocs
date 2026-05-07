@@ -84,5 +84,3 @@ Add more intents and training utterances to continue building the model. Update 
 
 Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](../concept/nlu-test-set-creation-management.md).
 
-**Parent Topic:**[Creating models](../concept/creating-models.md)
-

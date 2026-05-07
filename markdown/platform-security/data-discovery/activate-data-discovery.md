@@ -36,7 +36,7 @@ The following items are installed with data discovery:
 -   Roles
 -   Tables
 
-For more information on the roles and tables installed, see [Data Discovery roles](../reference/data-discovery-roles.md#) and [Default data patterns](../reference/default-data-patterns.md).
+For more information on the roles and tables installed, see [Data Discovery roles](../reference/data-discovery-roles.md#) and [Default regular expression data patterns](../reference/default-data-patterns.md).
 
 ## Procedure
 

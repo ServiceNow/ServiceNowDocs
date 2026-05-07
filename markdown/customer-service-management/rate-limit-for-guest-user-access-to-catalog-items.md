@@ -114,7 +114,5 @@ Select **public**.**Note:** Appears only when you select **Users with role** at 
 </table>**Related topics**  
 
 
-[Enabling guest users to submit a catalog item on the Customer Service Portal](../task/configure-guestusers-submit-catalogitem-csm-portal.md)
-
-[Apply rate limit on REST APIs](../task/apply-ratelimit-for-restapis-csm-portal.md)
+[configure-guestusers-submit-catalogitem-csm-portal]
 

@@ -50,6 +50,11 @@ For the Platform Now Assist release notes, see [Now Assist release notes](../ana
 
 ## UI changes
 
+-   **[Manually test the execution of an AI agent](https://www.servicenow.com/docs/access?context=test-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Manually test the execution of an agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    The **AI Native** radio button in the Choose a testing mode section on the AI agent and agentic workflow manual testing playgrounds has been renamed to **Premium Chat**.
+
+
 ## Changed in this release
 
 -   **[Create an external AI agent with the Agent2Agent protocol](https://www.servicenow.com/docs/access?context=create-a2a-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**

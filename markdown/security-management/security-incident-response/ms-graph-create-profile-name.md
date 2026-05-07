@@ -6,7 +6,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Create a profile, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_si.admin
 
 1.  To create a profile for an alert in your ServiceNow AI Platform instance, navigate to **Microsoft Graph Security API Integration** &gt; **Microsoft Graph Security API Profile**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields.
 
@@ -59,7 +59,7 @@ Source
 
 </td><td>
 
-The Microsoft Azure tenant that you configured to ingest alerts. If you have multiple tenants configured, select the appropriate tenant for the alert types that you are planning to ingest for the profile. You are required to enter a value.
+The Microsoft Azure tenant that you configured to ingest alerts. If you have multiple tenants configured, select the appropriate tenant for the alert types that you're planning to ingest for the profile. You're required to enter a value.
 
 </td></tr><tr><td>
 

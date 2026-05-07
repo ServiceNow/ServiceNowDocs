@@ -15,9 +15,9 @@ Learn how to configure your instance to use client accessible secrets.
 
 Use this example implementation to configure Secrets Management without using proxies, or giving ServiceNow access to your decrypted data.
 
-For more detail on using client-side Secrets Management to manage access to passwords and groups, see [Understanding client side Secrets Management](understand-sec-man.md).
+For more detail on using client-side Secrets Management to manage access to passwords and groups, see [Understanding client-side Secrets Management](understand-sec-man.md).
 
-These instructions assume you have a MID server configured on your local network. For information on this process see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+These instructions assume you have a MID Server configured on your local network. For information on this process see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
 ## Process overview
 
@@ -31,11 +31,11 @@ These instructions assume you have a MID server configured on your local network
 
 -   **3. [Create a secret group with criteria](../task/client-access-example-3.md)**
 
-    Create a group for your secrets. Secret groups to organize your secrets into groups. Using these groups you can apply access policies to those secrets at a group level. Then associate your secrets group to an identity group, and add your MID server to that identity group.
+    Create a group for your secrets. Secret groups are used to organize your secrets into groups. Using these groups enables you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group and add your MID Server to that identity group.
 
 -   **4. [Upload the public/private keypair to the MID Server](../task/client-access-example-5.md)**
 
-    Upload your public/private keypair to your MID server. This keypair enables the MID server to handle authentication requests from your instance.
+    Upload your public/private keypair to your MID Server. This keypair enables the MID Server to handle authentication requests from your instance.
 
 -   **5. [Create credentials and test credential encryption](../task/client-access-example-4.md)**
 
@@ -55,7 +55,7 @@ Create encryption keys and a certificate using terminal commands on your local e
 -   **[Add your certificate to the ServiceNow Trusted Key Store](../task/client-access-example-2.md)**  
 Upload your key and certificate to the ServiceNow Trusted Key Store.
 -   **[Create a secret group with criteria](../task/client-access-example-3.md)**  
-Create a group for your secrets. Secret groups to organize your secrets into groups, and enable you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group, and add your MID Server to that identity group.
+Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
 -   **[Upload the public/private keypair to the MID Server](../task/client-access-example-5.md)**  
 Upload your public/private keypair to your MID Server. This keypair enables the MID Server to handle authentication requests from your instance.
 -   **[Create credentials and test credential encryption](../task/client-access-example-4.md)**  

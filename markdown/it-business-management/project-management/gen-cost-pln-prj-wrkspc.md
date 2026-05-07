@@ -28,15 +28,15 @@ Generate labor costs based on the planning attributes configured for financials 
 
 2.  Generate labor costs using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d54213e103">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d55850e103">
 
 Choice
 
-</th><th align="left" id="d54213e106">
+</th><th align="left" id="d55850e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d54213e112">
+</th></tr></thead><tbody><tr><td id="d55850e112">
 
 **Using link from Financials Summary view**
 
@@ -47,7 +47,7 @@ Description
 3.  Select **Generate Labor Costs**.
 
 
-</td></tr><tr><td id="d54213e145">
+</td></tr><tr><td id="d55850e145">
 
 **Using related links**
 
@@ -55,7 +55,7 @@ Description
 
 Select the **Generate Labor Costs** related link.
 
-</td></tr><tr><td id="d54213e157">
+</td></tr><tr><td id="d55850e157">
 
 **Activate a scheduled job**
 

@@ -25,7 +25,7 @@ Provide users the information that they need to start working by creating custom
 -   **[Configure per-user landing pages in Next Experience](../task/configure-per-user-ui16-landing-page-in-next-experience.md)**  
 Users on new Next Experience instances see the Next Experience landing page. Users on upgraded instances see the landing pages that they had before, in the Next Experience UI. You can also configure user-specific landing pages.
 -   **[Configure a user-selected start page](../task/configure-user-selected-start-page-preference.md)**  
-Configure a user-selected start page, other than the default landing page, to appear when you log in to ServiceNow.
+Configure a user-selected start page to override the administrator‑configured default landing page to appear when you log in to ServiceNow.
 -   **[Configure a Core UI global landing page in Next Experience enabled instances](../task/use-ui16-landing-page-in-next-experience.md)**  
 Set a Core UI landing page for all users so users on instances with Next Experience enabled see the same landing page as users on upgraded instances. Upgraded users see the landing pages they had before in the Next Experience UI.
 -   **[Configure a Next Experience landing page footer](../task/configure-next-experience-landing-page-footer.md)**  

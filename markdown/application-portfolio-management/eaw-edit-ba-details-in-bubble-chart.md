@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Edit business application details in bubble chart view
@@ -27,15 +27,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the business application that you want to edit details for.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d26330e86">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d26893e86">
 
 Bubble type
 
-</th><th align="left" id="d26330e89">
+</th><th align="left" id="d26893e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d26330e95">
+</th></tr></thead><tbody><tr><td id="d26893e95">
 
 **Single bubble**
 
@@ -43,7 +43,7 @@ Action
 
 Select a single bubble. The side panel appears and the business application details are displayed.**Note:** Select **Full details** to view more details about the business application.
 
-</td></tr><tr><td id="d26330e109">
+</td></tr><tr><td id="d26893e109">
 
 **Grouped bubble**
 

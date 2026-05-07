@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows in Oracle EBS, Use, Source-to-Pay integration with Oracle EBS, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -31,7 +31,7 @@ Manually trigger flows or subflows in Oracle EBS \(Inbound\)
 
 3.  In the Integration Services list, select the subflows that you want to manually trigger.
 
-    ![Manually trigger flows or subflows in Oracle EBS (Inbound)](../image/manual-trigger-flow-oracle.png "Manually trigger flows or subflows in Oracle EBS")
+    ![Manually trigger flows or subflows in Oracle EBS (Inbound)](../../source-to-pay-operations/image/manual-trigger-flow-oracle.png "Manually trigger flows or subflows in Oracle EBS")
 
 4.  Select **Run job** to trigger the flow or subflow.
 
@@ -47,7 +47,7 @@ Manually trigger flows or subflows in Oracle EBS \(Inbound\)
 
     You can view the flows or subflows that you triggered.
 
-    ![View the list of Flows or subflows in Workflow Studio](../image/manual-trigger-ws-oracle.png "Flows or subflows in Workflow Studio")
+    ![View the list of Flows or subflows in Workflow Studio](../../source-to-pay-operations/image/manual-trigger-ws-oracle.png "Flows or subflows in Workflow Studio")
 
 9.  You can use the trigger condition as a part of the base system to execute the flow or subflow.
 

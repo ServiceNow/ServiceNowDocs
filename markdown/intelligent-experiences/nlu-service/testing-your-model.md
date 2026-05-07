@@ -113,12 +113,3 @@ For more information about test sets, see:
 
 For information about the process of testing, see [Test your model](../task/test-your-model.md).
 
--   **[Test your model](../task/test-your-model.md)**  
-Test your Natural Language Understanding \(NLU\) model against its default test set. Testing helps determine how your model is performing with the current content.
--   **[Publish your NLU model](../task/publish-nlu-model.md)**  
-Publish your Natural Language Understanding \(NLU\) model to activate it and make it available for use in other applications that consume NLU.
--   **[Compare draft and published versions of your NLU model](../task/compare-draftmodel-to-last-published-version.md)**  
-Compare a draft trained Natural Language Understanding \(NLU\) model to its most recent published version. Test and review the changes to make sure that your draft model will have increased performance.
-
-**Parent Topic:**[Model management](model-management-phases.md)
-

@@ -50,15 +50,15 @@ Role required: sn\_lg\_ops.request\_config
 
 2.  Create or modify an external app configuration.
 
-<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d432088e203">
+<table id="choicetable_tdc_kmg_dtb"><thead><tr><th align="left" id="d439572e203">
 
 Option
 
-</th><th align="left" id="d432088e206">
+</th><th align="left" id="d439572e206">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d432088e212">
+</th></tr></thead><tbody><tr><td id="d439572e212">
 
 **To create an external app configuration**
 
@@ -68,7 +68,7 @@ Steps
 2.  On the Integration Type page, select the **External Storage** link.
 
 
-</td></tr><tr><td id="d432088e236">
+</td></tr><tr><td id="d439572e236">
 
 **To modify an existing external app configuration**
 

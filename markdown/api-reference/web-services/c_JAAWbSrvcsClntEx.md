@@ -20,9 +20,6 @@ Examples demonstrating an integration with Axis2 Version 1.4.
 -   An "elementFormDefault" value of qualified means that an unqualified element is in the default namespace defined on an ancestor. If it is "unqualified" then an unqualified element is in the empty namespace \(xmlns=""\). The default is "unqualified".
 -   To Resolve the Axis Client deserialization failure you should go to **System Properties** &gt; **Web Services** and uncheck the property that sets the elementFormDefault attribute of the embedded XML schema to the value of unqualified. Save the property setting and regenerate your Axis2 client code if your client code was generated before changing this property.
 
-    ![](../image/ElementFormDefaultProperty.png "Element Form Default Property")
-
-
 -   **[Java Apache Axis2 web services client examples insert](c_JAAWbSrvcsClntExInst.md)**  
 An example class to insert an incident record.
 -   **[Java Apache Axis2 web services client examples update](c_JAAWbSrvcsClntExUpdt.md)**  

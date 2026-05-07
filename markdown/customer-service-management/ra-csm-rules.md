@@ -26,7 +26,7 @@ The Recommended Actions application includes one context record, case context, t
 
 ## Apply rules to tables extended from the context table
 
-The rule created in the parent context are inherited by the extended context when you select the [Apply to tables extended from the context table](ra-csm-rules.md#apply-context-extended-table) check box in a rule. The rules inherited from the parent context appear in the Inherited Rules related list of the extended context. Therefore, the recommendations of these rules are passed on to the extended context. Along with the recommendations of the context table, the recommendations of the active rules from the parent context are inherited by the extended context.
+A rule created in the parent context is inherited by the extended context when you select the [Apply to tables extended from the context table](ra-csm-rules.md#apply-context-extended-table) check box in a rule. The rules inherited from the parent context appear in the Inherited Rules related list of the extended context. Therefore, the recommendations of these rules are passed on to the extended context. Along with the recommendations of the context table, the recommendations of the active rules from the parent context are inherited by the extended context.
 
 ## Rule form
 

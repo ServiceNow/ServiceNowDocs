@@ -35,6 +35,14 @@ Saving section for later.
     -   Connect events to interactions without additional scripting.
     -   Centralize logic for consistent updates and fewer errors.
     -   Previously, Declarative Actions using UXF Client Actions required manual wiring on each page leading to complexity and upgrade risks. UI Interactions replace this with reusable, declarative event mapping.
+-   **Update an existing UI interaction flow \(link to edit topic\)**
+
+    As of UI Builder version 29.2, the UI interaction diagram editor now supports in-place editing, giving you more flexibility when modifying existing interactions without rebuilding downstream flows.
+
+    -   Insert new steps, If/Else logic, or And branches anywhere in an existing diagram.
+    -   Swap the outgoing event on a step to change which event continues the flow.
+    -   Delete events and their downstream steps directly from the diagram.
+    -   View which toolbox items are unavailable for a specific location, with guidance on why.
 
 ## Changed in this release
 

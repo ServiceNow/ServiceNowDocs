@@ -16,23 +16,23 @@ The ServiceNow® AI Control Tower application provides a centralized workspace f
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   Customize the AI security score calculation to reflect your security requirements.
--   Use new security metrics to monitor your LLM and AI agent output for security policy violations, PII, and other potential threats.
--   Gain visibility into MCP server access by ServiceNow AI agents and registered third-party MCP clients.
+-   Customize the AI asset security score calculation to reflect your security requirements.
+-   Use new security metrics to monitor your LLM and AI agent output for potential security and content policy violations, potential PII, and other potential threats.
+-   Gain visibility into MCP client-server interactions routed through this instance's AI Gateway.
 -   Configure and create automation rules to set AI assets as managed assets.
 -   Manage the end-to-end life cycles of your agentic AI systems.
 -   Define the intended use and purpose of an AI system so that you can determine its benefits and risks.
 
-Early Availability
+[Early availability](../quality/australia-all-other-fixes.md)
 
 -   AI assets—including AI models, AI systems, prompts, datasets, and MCP servers can be categorized as either managed or unmanaged.
 -   AI connections are introduced in AI Control Tower using Service Graph Connectors \(SGC\).
--   The AI model providers supported by ServiceNow contains providers such as Now LLM Service, AWS Claude, Now LLM LTS model etc.
--   The AI model providers configured by your organization contains providers such as Perplexity, IBM Watson etc.
--   AI Gateway offers Global MCP clients, which once created can be used across all MCP severs.
+-   The AI model providers supported by ServiceNow contains providers such as Now LLM Service, AWS Claude, Now LLM LTS model, and so on.
+-   The AI model providers configured by your organization contains providers such as Perplexity, IBM Watson, and so on.
+-   AI Gateway offers Global MCP clients, which once created can be used across all MCP servers.
 -   A Gateway offers MCP Catalog to choose while adding MCP servers into AI Control Tower.
 
-For more information on AI Control Tower See [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+For more information on AI Control Tower, see [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 **Important:** AI Control Tower is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -42,16 +42,16 @@ Not applicable.
 
 ## New in the Australia release
 
--   **[Security &amp; Privacy tab in AI Control Tower](https://www.servicenow.com/docs/access?context=security-privacy-tab&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
-    -   Customize the AI security score by weighting security categories that comprise the score. The score formula was changed to an average across all AI assets. The score was renamed to AI asset security score.
-    -   Measure whether your model's output or behavior violates predefined security policies using the security policy violations chart.
-    -   Review potential threats in AI agent output in agent goal hijack, output with PII detected, and high-risk output charts.
+-   **[Security &amp; privacy tab in AI Control Tower](https://www.servicenow.com/docs/access?context=security-privacy-tab&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+    -   Customize the AI asset security score by weighting LLM guardrail categories that comprise the score. The score formula was changed to an average across all AI assets. The score was renamed to the AI asset security score.
+    -   Measure whether your model's output or behavior potentially violates predefined LLM guardrail policies using the Data integrity incident detection chart.
+    -   Review potential threats in AI agent output in Agent goal deviation, output with PII detected, and Agentic output injection detection charts.
     -   Monitor MCP server access by AI Gateway with these new charts: Clients connecting to MCP servers, authorized access attempts, and failed access attempts.
-    -   The Prompt injection, Offensive content, and Sensitive data tabs have been removed and replaced by Access and Guardrails tabs. Metrics have been reorganized into those two tabs.
+    -   The Prompt injection, Offensive content, and Sensitive data tabs have been removed and replaced by the **Access** and **Guardrails** tabs. Metrics have been reorganized into those two tabs.
     -   In **Configurations**, under **Data**, the **Data privacy** tab was renamed to **Security &amp; privacy**. In that tab, the data leak detection and anonymization section was renamed to sensitive data input and anonymization.
 -   **[Data section on Configurations page](https://www.servicenow.com/docs/access?context=data&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
-    Enable and set up security policy violations, agent goal hijack, and output screening metrics to measure the integrity of your data model and potential threats in LLM output.
+    Enable and set up data integrity incident detection, agent goal deviation, and output screening metrics to measure the integrity of your data model and potential threats in LLM output.
 
 -   **[Manage agentic AI system life cycles](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
@@ -91,9 +91,9 @@ Not applicable.
 
 -   **[Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](https://www.servicenow.com/docs/access?context=enterprise-ai-discovery&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
-    AI connections are created using AI Service Graph Connectors. AI connections are combination of hyperscalars, AI apps, and agentic AI frameworks.
+    AI connections are created using AI Service Graph Connectors. AI connections are a combination of hyperscalers, AI apps, and agentic AI frameworks.
 
-    The AI Service Graph Connectors available from March 2026
+    The AI Service Graph Connectors are available from March 2026
 
     -   [AWS](https://www.servicenow.com/docs/access?context=aws_0&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
     -   [Microsoft](https://www.servicenow.com/docs/access?context=microsoft&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)- Azure Foundry and Copilot
@@ -101,7 +101,7 @@ Not applicable.
     -   [n8n](https://www.servicenow.com/docs/access?context=n8n&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
     -   [LangGraph](https://www.servicenow.com/docs/access?context=langgraph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
     -   [Salesforce](https://www.servicenow.com/docs/access?context=salesforce&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   **[Assets list- managed and unmanaged assets](https://www.servicenow.com/docs/access?context=assets-list-managing-and-unmanaging-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **[Assets list managed and unmanaged assets](https://www.servicenow.com/docs/access?context=assets-list-managing-and-unmanaging-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
     Managed assets benefit from AI Control Tower features such as governance, lifecycle management, value assessment, risk classification, security, and privacy. Unmanaged assets, on the other hand, do not have access to these AI Control Tower capabilities.
 
@@ -137,14 +137,14 @@ Not applicable.
 
 [Australia Patch 1](../quality/australia-patch-1.md) The Autonomous vs. supervised AI tools chart has been removed from the Security &amp; privacy tab.
 
-Early Availability
+[Early availability](../quality/australia-all-other-fixes.md)
 
--   Non-SGC way \(legacy way\) to make connection will be deprecated and New button on the Non-SGC connection display table will be removed to block users from creating new connections by the legacy way in March GA and decommissioned by May release.
+-   Adding legacy AI connections via Service Graph Connectors \(SGC\) is deprecated. In AI connections, under Legacy connections, the **New** button has been removed to block users from creating new connections using SGC.
 
 
 ## Deprecated features
 
--   Non-SGC way \(legacy way\) to make connection will be deprecated and New button on the Non-SGC connection display table will be removed to block users from creating new connections by the legacy way in March GA and decommissioned by May release.
+-   The ability to add hyperscalers from the AICT configuration section is no longer available. You can find any previously created hyperscaler connections in the AI connections section, under Legacy connections.
 
 ## Activation information
 
@@ -156,20 +156,16 @@ Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [
 
     The following plugins are new in Australia:
 
-    com.sn\_ai\_disc and sn\_sgc\_central: Enables the AI connections page in the AI Control Tower configuration and Enables Service Graph Connector feature in AI connections page.
-
-
-## Additional requirements
-
-Not applicable.
+    -   com.sn\_ai\_disc - Enables the AI connections page in the AI Control Tower configuration.
+    -   sn\_sgc\_central - Enables the Service Graph Connector \(SGC\) feature in the AI connections page.
 
 ## Browser requirements
 
-The AI Control Tower application supports all the browsers.
+The AI Control Tower application supports all browsers.
 
 ## Accessibility information
 
-The AI Control Tower application supports all the platform accessibility features.
+The AI Control Tower application supports all platform accessibility features.
 
 ## Localization information
 

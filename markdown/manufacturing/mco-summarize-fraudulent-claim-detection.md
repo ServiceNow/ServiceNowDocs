@@ -1,5 +1,5 @@
 ---
-title: Summarize fraudulent claim detection using Now Assist for Manufacturing Commercial Operations \(MCO\)
+title: Summarize fraudulent claim detection using agents
 description: Automatically detect fraudulent claims by identifying duplicates, similar claim patterns, reused dealer images, mismatched or incomplete supporting documents, usage inconsistencies, and abnormal claim spikes.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 1
 breadcrumb: [Use generative AI, Now Assist for MCO, Manufacturing Commercial Operations]
 ---
 
-# Summarize fraudulent claim detection using Now Assist for Manufacturing Commercial Operations \(MCO\)
+# Summarize fraudulent claim detection using agents
 
 Automatically detect fraudulent claims by identifying duplicates, similar claim patterns, reused dealer images, mismatched or incomplete supporting documents, usage inconsistencies, and abnormal claim spikes.
 

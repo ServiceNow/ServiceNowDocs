@@ -7,7 +7,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
 
@@ -29,8 +29,6 @@ To narrow your results based on products or publishers across all tabs, use the 
 The **Overview**, **License Usage Summary**, and **Denial Summary** tabs are updated daily or whenever a new reconciliation result is available. You can save charts in PNG or JPG formats for viewing them locally and for sharing.
 
 ## Overview tab
-
-![Overview tab of the Engineering Applications dashboard showing reports on top used products, top active users, and top idle users](../image/overview-dashboard.png)
 
 This tab gives an overview of the high-level metrics of all engineering applications. You can filter the results in this tab by various date options.
 
@@ -149,8 +147,6 @@ Based on the count of users using products by location.
 </td></tr></tbody>
 </table>## License Usage Summary tab
 
-![License Usage Summary tab in the Engineering Applications dashboard](../image/license-summary.png)
-
 This tab lets you view data based on a license type \(floating, network, or token\). You can filter the data in this tab by date, license type, and license management server.
 
 <table id="table_agx_mgc_2jb"><thead><tr><th>
@@ -211,8 +207,6 @@ All the license management servers that OpenLM or Open iT connect with.
 
 </td></tr></tbody>
 </table>## Denials Summary tab
-
-![Denials Summary tab in the Engineering Applications dashboard](../image/denials-summary.png)
 
 You can filter the data in this tab by date, user, or user group.
 

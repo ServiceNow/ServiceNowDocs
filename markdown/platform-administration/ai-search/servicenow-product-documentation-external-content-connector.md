@@ -6,7 +6,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-21"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -15,6 +15,8 @@ breadcrumb: [Configure, External Content Connectors, ServiceNow Store applicatio
 # ServiceNow product documentation external content connector
 
 The ServiceNow® product documentation external content connector retrieves topics from the ServiceNow product documentation and makes their content and metadata searchable in AI Search applications.
+
+**Note:** This external content connector is not included in the External Content Connectors Application Suite application. To use this connector, you must install it separately. For details on installation, see [Install External Content Connectors](../task/install-ext-cont-connectors.md).
 
 The system automatically schedules monthly content crawls to retrieve updated content from the product documentation for a family release that you specify. Search administrators can run one-time content crawls to update content ahead of schedule.
 

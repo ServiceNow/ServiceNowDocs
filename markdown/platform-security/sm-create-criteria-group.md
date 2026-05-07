@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Secrets management dashboard, Secrets Management, Platform Security]
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
 # Create a secret group with criteria
@@ -25,7 +25,7 @@ Secrets within this type of secret group must all share common criteria. For gro
 
 2.  Select **New**.
 
-3.  At the **What type of Secret Group would you like to create?** prompr, select **Secret Group with Criteria**.
+3.  At the **What type of Secret Group would you like to create?** prompt, select **Secret Group with Criteria**.
 
 4.  In the **Secret Group** form, fill in the fields.
 
@@ -158,7 +158,7 @@ Table shared by the secrets to be assigned to this group. This field is only ava
 
 </td></tr><tr><td>
 
-Target Scope
+Application Scope
 
 </td><td>
 
@@ -170,7 +170,7 @@ Secret Column
 
 </td><td>
 
-Table column that contains the pasword2 secrets you include in this group. The fields available in this list are determined by the table selected in the **Target Table** field.**Note:** If there are no columns on the select table that contain secrets, this field only displays `– None --` as a selection.
+Table column that contains the Password2 secrets you include in this group. The fields available in this list are determined by the table selected in the **Target Table** field.**Note:** If there are no columns on the select table that contain secrets, this field only displays `– None --` as a selection.
 
 </td></tr><tr><td>
 
@@ -186,7 +186,7 @@ Filter value
 
 </td><td>
 
-The value you want to use as a filter. This filter applies to the field select in the **Filter Column** field.
+Value to filter by, based on the column selected in the **Filter Column** field.
 
 </td></tr></tbody>
 </table>
@@ -196,9 +196,9 @@ The value you want to use as a filter. This filter applies to the field select i
 
 ## What to do next
 
-After creating your group, any new records matching the criteria will be encrypted. To encrypt existing records using this group's cryptographic module, you must run a security job. For details, see [Run secrets management security jobs](sm-security-jobs.md).
+After creating your group, any new records matching the criteria will be encrypted. To encrypt existing records using this group's cryptographic module, you must run a security job. For details, see [Run Secrets Management security jobs](sm-security-jobs.md).
 
 Client-accessible groups need a customer-provided public key to encrypt your secrets. For steps on uploading this key, see [Upload a public key for Secrets Management](sm-upload-key.md).
 
-**Parent Topic:**[Secrets management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
 

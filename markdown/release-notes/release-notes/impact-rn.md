@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Impact release notes
@@ -43,6 +43,17 @@ The Impact Store Application configuration requires a sequence of tasks in a uni
 
     Assess your CSDM maturity, improve CSDM Data modeling, and accelerate your portal’s user experience with the help of usage insights and virtual agent experience design provided by the architecture Accelerators.
 
+-   **[Alert card to capture long pending jobs](https://www.servicenow.com/docs/access?context=io-long-pending-job-alert-card&version=australia&pubname=australia-impact&ft:locale=en-US)**
+
+    Get timely notifications of pending jobs based on their lateness duration and act on them to reduce the risk of downstream failures and SLA misses. The Long Pending Jobs alert card identifies jobs that breach predefined lateness thresholds.
+
+-   **[Configure IO alert notifications for a ServiceNow instance](https://www.servicenow.com/docs/access?context=io-receive-notification-customer-conf-webhook&version=australia&pubname=australia-impact&ft:locale=en-US)**
+
+    Receive timely notifications on failures in customer-configured webhook integrations caused by invalid URLs or credentials that go unnoticed until runtime.
+
+    -   All URLs are now validated before integrations.
+    -   Daily system notifications are indicated by a bell icon and through email notifications.
+    -   Alert Console alerts provide real-time visibility.
 -   **[Roles installed with Impact](https://www.servicenow.com/docs/access?context=impact-roles&version=australia&pubname=australia-impact&ft:locale=en-US)**
 
     Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.

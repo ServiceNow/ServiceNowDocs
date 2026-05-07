@@ -4,7 +4,7 @@ description: Certify a dashboard to indicate that it is company-approved and rec
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-29"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -34,7 +34,7 @@ Role required: admin or dashboard\_admin
 
 ## Result
 
-On the dashboard overview, the tile is marked **Certified**.
+In the Dashboards library, the dashboard's entry is marked **Certified** in the Certified column.
 
 ![Certified dashboard example](../image/certified-db-ac.png)
 

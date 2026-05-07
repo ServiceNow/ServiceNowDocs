@@ -9,7 +9,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, oauth, odata, configure, code, provider]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure OAuth authorization code flow to use in Zero Copy Connector for ERP
@@ -22,7 +22,7 @@ Role required: admin
 
 **Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). At this time, OAuth cannot be used for tables, BAPI, or RFC.
 
-To understand OAuth, see [Set up OAuth](https://www.servicenow.com/docs/access?context=t_SettingUpOAuth&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [OAuth Inbound](https://www.servicenow.com/docs/access?context=oauth-inbound&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To understand OAuth, see [Set up OAuth](https://www.servicenow.com/docs/access?context=t_SettingUpOAuth&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [OAuth Inbound](https://www.servicenow.com/docs/access?context=oauth-inbound&version=australia&pubname=australia-platform-security&ft:locale=en-US) .
 
 Consult with your SAP administrator:
 
@@ -33,7 +33,7 @@ Consult with your SAP administrator:
 
 ## Procedure
 
-1.  If you have already set up OAuth \(for example, with REST via platform features\), you can use it in Zero Copy Connector for ERP and skip to step 3.
+1.  If you have already set up OAuth \(for example, with REST via platform features\), you can use it in Zero Copy Connector for ERP \(Enterprise Resource Planning\) and skip to step 3.
 
 2.  To set up OAuth, register your application by navigating to **All** &gt; **System OAuth** &gt; **Application Registry**.
 

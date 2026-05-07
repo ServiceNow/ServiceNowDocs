@@ -6,7 +6,7 @@ release: australia
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-20"
 reading_time_minutes: 4
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -19,13 +19,40 @@ Configuration information on GitHub Actions, such as, secrets, workflows, and li
 
 Create secrets \(credentials\) in GitHub repository or GitHub organization. Secrets are environment variables \(encrypted\) that you create in an organization or repository. These secrets are available to use in GitHub Actions workflows. For more information, see [Encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 
-|Secret|Description|
-|------|-----------|
-|SN\_INSTANCE\_URL|ServiceNow instance URL. For example, https://&lt;instance\_name&gt;.service-now.com.|
-|SN\_ORCHESTRATION\_TOOL\_ID|Sys\_id for the GitHub tool created in ServiceNow instance.|
-|SN\_DEVOPS\_INTEGRATION\_TOKEN|Secret token for the GitHub tool created in DevOps \(`devops-integration-token` parameter\). To access your secret token navigate to your GitHub tool record in ServiceNow \(**All &gt; Tools &gt; Orchestration Tools**\), and select **Copy token** in the Classic UI.|
+<table id="table_i1t_zt5_h5b"><thead><tr><th>
 
-## Workflows in the GitHub repository
+Secret
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+SN\_INSTANCE\_URL
+
+</td><td>
+
+ServiceNow instance URL. For example, https://&lt;instance\_name&gt;.service-now.com.
+
+</td></tr><tr><td>
+
+SN\_ORCHESTRATION\_TOOL\_ID
+
+</td><td>
+
+Sys\_id for the GitHub tool created in ServiceNow instance.
+
+</td></tr><tr><td>
+
+SN\_DEVOPS\_INTEGRATION\_TOKEN
+
+</td><td>
+
+Secret token for the GitHub tool created in DevOps \(`devops-integration-token` parameter\). To access your secret token navigate to your GitHub tool record in ServiceNow \(**All &gt; Tools &gt; Orchestration Tools**\), and select **Copy token** in the Classic UI.**Note:** The SN\_DEVOPS\_INTEGRATION\_TOKEN secret must be manually updated with the new token to ensure successful authentication.
+
+</td></tr></tbody>
+</table>## Workflows in the GitHub repository
 
 Create a YAML file to define workflow configuration in your GitHub repository.
 

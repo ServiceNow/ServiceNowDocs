@@ -1,6 +1,6 @@
 ---
 title: Configure the products card variables
-description: Configure the variables in the product card.
+description: Configure the variables that control what data the products card displays and how users can search and filter sold products.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Configure variables, Setup, Configure, Telecommunications Customer 
 
 # Configure the products card variables
 
-Configure the variables in the product card.
+Configure the variables that control what data the products card displays and how users can search and filter sold products.
 
 ## Before you begin
 
@@ -27,13 +27,14 @@ Role required: sn\_telecom\_c360.admin
 
     |Variable|Description|
     |--------|-----------|
-    |Product data table|The table to retrieve product list items from. Must be the sold product table \(`sn_install_base_sold_product`\) or a child table extending from this table. Custom tables that extend from the sold product table are also supported.|
+    |Product data table|Table used to retrieve product list items. Must be the sold product table \(`sn_install_base_sold_product`\) or a child table extending from this table. Custom tables that extend from the sold product table are also supported.|
     |Product data table query|Query condition that filters the product table to the current context record. By default, products that have a parent sold product are excluded.|
-    |Primary filter|The field from the product data table used as the primary filter at the top of the card. The default filter is product location.|
-    |Heading field|The field to display as the heading of each product list item. The default is set to the sold product name.|
-    |Subheading field|The field to display as the subheading of each product list item. The default is set to the product specification category.|
-    |Product search field|The search criteria to be used to filter the list of sold products displayed.|
-    |Avatar field|The field to use for the product avatar image.By default, the product model category image is displayed. If no value is specified, a default image is displayed.|
+    |Primary filter|Field used as the primary filter at the top of the card. Defaults to product location.|
+    |Heading field|Field displayed as the heading of each product list item. Defaults to the sold product name.|
+    |Subheading field|Field displayed as the subheading of each product list item. Defaults to the product specification category.|
+    |Product search field|Search criteria used to filter the list of sold products displayed.|
+    |Avatar field|Field used for the product avatar image. Defaults to the product model category image. If no value is specified, a default image appears.|
+    |Enable search on product characteristics|Flag that enables search by product characteristics. Select this flag to enable search against product characteristic values in addition to the product search field. Search is performed against characteristic values only.|
 
 
 **Parent Topic:**[Configure the Telecommunications Customer 360 variables](../concept/c360-configure-variables.md)

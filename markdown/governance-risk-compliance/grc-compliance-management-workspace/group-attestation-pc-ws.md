@@ -6,7 +6,7 @@ release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -56,8 +56,6 @@ In Configurable Workspace, you can only group control attestations, and not risk
     If a few of the assessments among the selected assessments couldn’t be grouped by the selected criterion, then the **Group previews** displays the number of assessments that couldn’t be grouped. Nevertheless, as there are other assessments in your selection that could be grouped by the selected **Group by** criterion, the **Group** button is active for you to select and group the rest, where the grouping is successful.
 
     On the other hand, if all the assessments that you selected are invalid, for example, risk assessments or privacy assessments, then the **Group** button is inactive as grouping isn’t possible for such assessments.
-
-    ![UI message with link to the grouped assessments.](../../grc-policy-and-compliance/image/group-assess-ui-message.png)
 
     **Note:** You can group the assessments that are in **Ready to take** or **In progress** state, but not the assessments that are in **Complete** or **Canceled** state.
 

@@ -37,7 +37,7 @@ Manage your ServiceNow® Virtual Agent bot branding and customize the bot messag
 
 4.  To integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for ServiceNow Virtual Agent icon against the ServiceNow Virtual Agent bot or select the **Add integration** drop-down on the top-right of the Manage Microsoft Teams channel page and select **Integrate with ServiceNow Virtual Agent**.![Manage Microsoft Teams channel view in Conversational Interfaces general settings. The Add integration for ServiceNow Virtual Agent icon and the Integrate with Servicenow Virtual Agent dropdown are highlighted.](../images/add-integration-icon.png)
 
-5.  Select the Manage Bot icon ![Manage bot icon.](../images/manage-bot-icon.png) and select **Manage Virtual Agent**.
+5.  Select the Manage Bot icon ![](../images/manage-bot-icon.png) and select **Manage Virtual Agent**.
 
     You’re redirected to the Bot Configuration page for the selected bot.
 
@@ -50,5 +50,5 @@ Manage your ServiceNow® Virtual Agent bot branding and customize the bot messag
     For more information, see [Create bot messages](create-bot-messages.md#).
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](../concept/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](va-integ-msteams.md)
 

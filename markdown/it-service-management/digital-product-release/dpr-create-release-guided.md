@@ -38,7 +38,7 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 4.  In the **Release details** step, provide basic information about the release, including the release name, owner, and a brief description.
 
-5.  Select **Release validates a new product version** to determine whether the release validates a version.
+5.  Select **Validates product or service version** to determine whether the release validates a version.
 
     The versions and templates in the next step are determined by this field.
 
@@ -46,9 +46,9 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
     -   Templates with the validate version setting on are only available to select.
 6.  In the **Version details** step, select a product or service from the **Primary product or service** and select an existing version or enter a new version number.
 
-    The existing versions listed for a product or service are based on the **Release validates a new product version** field.
+    The existing versions listed for a product or service are based on the **Validates product or service version** field.
 
-    **Note:** If a new version number was entered, it’s automatically created and associated with the release.
+    **Note:** If a new version number is entered, it’s automatically created and associated with the release.
 
     Any Included products associated with the selected product or service are listed.
 
@@ -67,7 +67,7 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 7.  In the **Release template** step, select a release template to apply to the release.
 
-    The templates listed are based on the **Release validates a new product version** field. If it’s selected, the templates with the validate version setting on are only available to choose.
+    The templates listed are based on the **Validates product or service version** field. If it’s selected, the templates with the validate version setting on are only available to choose.
 
     A release structure is generated based on the selected release template. For more information about a release template, see [Create a release template](dpr-create-release-template.md#).
 

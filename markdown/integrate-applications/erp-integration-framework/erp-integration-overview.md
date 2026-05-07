@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP
-description: Zero Copy Connector for ERP \(enterprise resource planning\) is a ServiceNow scoped application that enables you to retrieve and update ERP data from a system of record, such as SAP.
+description: Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow scoped application that enables you to retrieve and update ERP data from a system of record, such as SAP.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -14,13 +14,15 @@ breadcrumb: [Workflow Data Fabric]
 
 # Zero Copy Connector for ERP
 
-Zero Copy Connector for ERP \(enterprise resource planning\) is a ServiceNow scoped application that enables you to retrieve and update ERP data from a system of record, such as SAP.
+Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow scoped application that enables you to retrieve and update ERP data from a system of record, such as SAP.
 
 **Note:** This scoped application was previously named ERP Data Hub and ERP Canvas.
 
 Legacy systems of record, such as SAP, can have old, complex custom code and data. The old information requires more time and effort to move to newer versions of the system of record. Use Zero Copy Connector for ERP to find and replace custom code with digitized workflows, resulting in a clean ERP core. This is the process of ERP modernization.
 
 The replatforming of legacy code enables innovation on top of the system of record without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the system of record and can work on other projects, such as migration.
+
+![Infographic that visually shows querying SAP and identifying data models to simplify ERP.](../image/erpc-landing-page-infographic.png)
 
 Use models as the foundation for ERP apps. These models include ERP system data in remote tables and extraction tables. The models enable you to perform read, update, and create operations on the ERP system. After you create models, you can use the extracted and transformed data to build apps that access the models. For example, use ServiceNow Studio or Creator Studio to build apps, or use the ERP data in flows within Workflow Studio.
 

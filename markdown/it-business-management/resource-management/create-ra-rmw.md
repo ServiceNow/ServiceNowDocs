@@ -27,15 +27,15 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 3.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d231638e98">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d224717e98">
 
 Option
 
-</th><th align="left" id="d231638e101">
+</th><th align="left" id="d224717e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d231638e107">
+</th></tr></thead><tbody><tr><td id="d224717e107">
 
 **Create a resource assignment**
 
@@ -46,7 +46,7 @@ Procedure
 
 For a description of the field names, see [New Resource Assignment form](../concept/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d231638e143">
+</td></tr><tr><td id="d224717e143">
 
 **Create operational resource assignment**
 

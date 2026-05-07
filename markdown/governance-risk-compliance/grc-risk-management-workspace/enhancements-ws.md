@@ -21,7 +21,7 @@ The new workspace offers the following views for the users.
 
 -   **List view**
 
-    The list view shows a simplified list of all the modules. You can access the list view by clicking the List icon \(![List view icon.](../image/list-view.jpg)\).
+    The list view shows a simplified list of all the modules. You can access the list view by clicking the List icon \(![List view icon.](../image/list-icon-risk-workspace.png)\).
 
 -   **Record view**
 
@@ -36,11 +36,11 @@ The new workspace offers the following views for the users.
 
 -   **Contextual side panel for records**
 
-    The Contextual side panel of a record provides detailed related information for the records. For example, for a risk, you can see the parent and child hierarchy. You can display and close the Contextual side panel by clicking the reference icon \(![Contextual side panel icon.](../image/information-icon.jpg)\).
+    The Contextual side panel of a record provides detailed related information for the records. For example, for a risk, you can see the parent and child hierarchy. You can display and close the Contextual side panel by clicking the reference icon \(![Contextual side panel icon.](../image/information-icon-latest.png)\).
 
 -   **Tasks**
 
-    Tasks is a centralized task inbox that shows your tasks and your group's tasks. You can access your tasks by clicking the Tasks icon \(![Tasks icon.](../image/work-queue.jpg) \).
+    Tasks is a centralized task inbox that shows your tasks and your group's tasks. You can access your tasks by clicking the Tasks icon \(![Tasks icon.](../../assessment-engine/image/task-icon.png) \).
 
 -   **360° relationship view**
 

@@ -1,36 +1,47 @@
 ---
-title: Plugins for Conversational Integration with Google chat
+title: Activate plugins for Conversational Integration with Google chat
 description: Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin and the Conversational Integration with Google chat \[sn\_va\_google-chat\] plugin.
 locale: en-US
 release: australia
 product: Virtual Agent
 classification: virtual-agent
-topic_type: reference
-last_updated: "2026-03-12"
+topic_type: task
+last_updated: "2026-04-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Conversational Integration with Google chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+keywords: [Activate, Plugins, Conversational Integration, Google Chat, Virtual Agent]
+breadcrumb: [Install Conversational Integration with Google chat, Conversational Integration with Google chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Plugins for Conversational Integration with Google chat
+# Activate plugins for Conversational Integration with Google chat
 
 Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin and the Conversational Integration with Google chat \[sn\_va\_google-chat\] plugin.
 
-You must have either the virtual\_agent\_admin or admin role and the external\_app\_install\_admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+## Before you begin
 
-**Note:** Ensure that you have performed the following steps before verifying the activation of additional plugins required for Google chat.
+Role required: virtual\_agent\_admin or admin and external\_app\_install\_admin.
 
--   Installing of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin.
+## About this task
 
-    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](../task/activate-virtual-agent.md).
+Activate and install multiple plugins and applications to finish installing Conversational Integration with Google chat. For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).\)
 
--   Downloading the Google chat app from the ServiceNow® Store.
+## Procedure
 
-    For more information about downloading the app, Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+1.  Install the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin.
 
--   Installing the Google chat \[sn\_va\_google-chat\] plugin in your ServiceNow instance.
+    For more information on activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](activate-virtual-agent.md).
 
-    For more information about installing Google chat, see [Installing Conversational Integration with Google chat](../task/installing-ci-google-chat.md).
+2.  Download the Google chat app from the ServiceNow® Store.
+
+    For more information about downloading the app, Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html)..
+
+3.  Install the Google chat \[sn\_va\_google-chat\] plugin in your ServiceNow instance.
+
+    For more information about installing Google chat, see [Integrate Virtual Agent with Google chat using the self-configured bot](installing-ci-google-chat.md).
 
 
-**Parent Topic:**[Exploring Conversational Integration with Google chat](../concept/exploring-ci-google-chat.md)
+## What to do next
+
+[Configuring your Conversational Integration with Google chat](../concept/configure-va-google-chat.md)
+
+**Parent Topic:**[Install Conversational Integration with Google chat](../concept/install-ci-google-chat.md)
 

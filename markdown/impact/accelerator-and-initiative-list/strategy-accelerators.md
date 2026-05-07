@@ -24,7 +24,7 @@ Accelerator outputs and formats have common standardized features, but may diffe
 -   ![Blue plus sign icon](../image/blueplus.png) = Includes additional unique accelerator-specific features
 
 |Accelerator|Guided package|Guided +Strategic Value|Advanced package|Total package|Restricted and protected environments|
-|:---------:|:------------:|:---------------------:|:--------------:|:-----------:|:------------------------------------|
+|:---------:|:------------:|:---------------------:|:--------------:|:-----------:|:-----------------------------------:|
 |[Adopt AI Governance](adopt-ai-governance.md)| |✓|✓|✓| |
 |[Center of Excellence &amp; Innovation Design](CoEI-design.md#)​| |✓|✓|![Green check mark icon](../image/dark-green-checks.png)| |
 |[Center of Excellence and Innovation Maturity Assessment Accelerator](coei-maturity-assessment-accelerator.md)| |✓|✓|✓| |
@@ -40,7 +40,6 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |[ITSM Maturity Assessment](itsm-maturity-assessment.md)| |✓|✓|✓| |
 |[LSD Maturity Assessment](lsd-maturity-assessment.md)| |✓|✓|✓| |
 |[OCM: Preparing for Change](ocm-preparing-for-change.md)| |✓|✓|✓| |
-|[On-Demand Value Report](on-demand-value-report.md)|✓|\*|\*|\*| |
 |[Portfolio Governance](portfolio-governance.md)​| |✓|✓|✓| |
 |[PPM Maturity Assessment](ppm-maturity-assessment.md)| |✓|✓|✓| |
 |[ServiceNow Governance](servicenow-governance.md)| | | |✓| |

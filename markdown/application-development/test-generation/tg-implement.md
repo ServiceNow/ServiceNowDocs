@@ -17,6 +17,8 @@ Simplify and automate your testing process with Test generation. Describe your d
 
 ## Before you begin
 
+Starting with the Australia release, Test generation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: admin or now.assist.creator
 
 ## Procedure

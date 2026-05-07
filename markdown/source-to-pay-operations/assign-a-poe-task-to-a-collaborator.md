@@ -29,7 +29,7 @@ Role required: sn\_poem\_core.operational\_buyer
 
     ![Assigning a purchase order exception task](../image/pom-create-poe-task.png)
 
-5.  On the Create a new task form, fill in the fields.
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -49,12 +49,12 @@ Role required: sn\_poem\_core.operational\_buyer
 
     **Note:**
 
-    To activate the **Submit task** button, fill in the **Action type**, **Sub type**, and **Assign to** fields, and then save your changes.
+    To activate the **Submit task** button, complete the **Action type**, **Sub type**, and **Assign to** fields, then save your changes.
 
 
 ## Result
 
-The task is assigned to the assignee. You cannot make any changes to the record until the assignee completes the task.
+The task is assigned to the assignee. You can't make any changes to the record until the assignee completes the task.
 
 **Parent Topic:**[Resolving purchase order exceptions](../concept/resolving-purchase-order-exceptions.md)
 

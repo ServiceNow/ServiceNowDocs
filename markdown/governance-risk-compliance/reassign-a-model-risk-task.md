@@ -23,7 +23,7 @@ Model validators \[sn\_model\_risk\_mgmt.model\_validator\] can also reassign ta
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../assessment-engine/image/list-icon.png).
+2.  Select the list icon ![](../image/list-icon-mrm.png).
 
 3.  Navigate to the right location based on the type of task.
 

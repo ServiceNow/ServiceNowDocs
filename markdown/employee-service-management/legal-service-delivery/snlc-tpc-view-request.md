@@ -23,15 +23,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d231590e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d236327e74">
 
 Method
 
-</th><th align="left" id="d231590e77">
+</th><th align="left" id="d236327e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d231590e83">
+</th></tr></thead><tbody><tr><td id="d236327e83">
 
 **__Employee Center__**
 
@@ -42,7 +42,7 @@ Actions
 3.  Open your submitted third-party contract review request.
 
 
-</td></tr><tr><td id="d231590e116">
+</td></tr><tr><td id="d236327e116">
 
 **__Legal Service Portal__**
 

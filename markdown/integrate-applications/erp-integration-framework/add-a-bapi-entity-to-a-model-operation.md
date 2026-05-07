@@ -1,6 +1,6 @@
 ---
 title: Add a BAPI entity to a model operation
-description: Specify the BAPI entity that a Zero Copy Connector for ERP model uses for a read, update, or create operation.
+description: Specify the BAPI entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, bapi, entity, model, operation]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add a BAPI entity to a model operation
 
-Specify the BAPI entity that a Zero Copy Connector for ERP model uses for a read, update, or create operation.
+Specify the BAPI entity that a Zero Copy Connector for ERP \(Enterprise Resource Planning\) model uses for a read, update, or create operation.
 
 ## Before you begin
 
@@ -45,8 +45,6 @@ Video that shows how to add and delete a model operation entity in Zero Copy Con
     ![Add operation entities on the manage models tab.](../image/erpc-manage-entities-manager-ys22.png)
 
 8.  In **Select type**, select **Function call \(BAPIs\)**.
-
-    The drop-down list in the **Select type** field only displays the types supported by the ERP system's software version specified on the model record. For example, if **SAP SuccessFactors Cloud** is set in the **ERP software** field for the model, the only entity type available is OData.
 
 9.  In **Select entity**, specify the BAPI to use.
 

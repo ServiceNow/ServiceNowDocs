@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure punchout for third-party site purchases, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Configure punchout third-party site purchases, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Add third-party catalog data in an Excel file

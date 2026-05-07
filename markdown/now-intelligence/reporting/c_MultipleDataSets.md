@@ -39,25 +39,25 @@ Add up to five extra datasets to visualize data from multiple sources in a singl
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 The property **glide.ui.doctype** must be enabled.
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  Create a report of a type that supports multiple datasets, or select an existing report of one of these types.
 
     You can add additional sets to bar, horizontal bar, line, column, area, and spline reports.
 
-3.  Click the **Show report structure** icon \(![Show report structure](../image/Form_ShowReportStructureIcon.png)\).
+3.  Select the **Show report structure** icon \(![Show report structure](../image/Form_ShowReportStructureIcon.png)\).
 
     ![Add dataset example: Open Show report structure from a bar report](../image/show-report-structure-add-dataset.png)
 
 4.  Select **Add dataset**.
 
-5.  On the **Data** tab, provide a custom name for the additional data set to appear in the legend of the report, select a data source, and click the **Configure** tab.
+5.  On the **Data** tab, provide a custom name for the additional data set to appear in the legend of the report, select a data source, and select the **Configure** tab.
 
     ![Add dataset example: Name the dataset from the Data tab](../image/add-dataset-group-by-example.png)
 
@@ -71,7 +71,7 @@ The property **glide.ui.doctype** must be enabled.
 
 7.  On the **Style** tab, specify the following fields the same way that you would configure a standalone report.
 
-8.  Click **Save dataset**.
+8.  Select **Save dataset**.
 
 
 ### Result

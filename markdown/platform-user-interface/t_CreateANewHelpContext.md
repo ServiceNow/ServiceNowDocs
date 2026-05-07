@@ -63,8 +63,6 @@ Document
 
 Click the reference lookup icon \(![Reference lookup icon](../image/IconReferencelookup.png)\) to open the document selection dialog box \(pictured\). Select the table and document \(record\) for this help context.
 
- ![Help context document select](../image/select-the-document.png)
-
  This field is only visible if you have selected **Record** as the **Type**.
 
 </td></tr><tr><td>

@@ -1,6 +1,6 @@
 ---
 title: Create a theme with AI in Theme Builder
-description: Use an AI-powered theme creation from within Theme Builder to generate themes from brand images, preview, and refine results all within the updated Create a theme wizard.
+description: Use an AI-powered theme creation from within Theme Builder to generate themes from brand images , preview, and refine results all within the updated Create a theme wizard.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Theme creation with AI, Configuring Next Experience with Theme Buil
 
 # Create a theme with AI in Theme Builder
 
-Use an AI-powered theme creation from within Theme Builder to generate themes from brand images, preview, and refine results all within the updated Create a theme wizard.
+Use an AI-powered theme creation from within Theme Builder to generate themes from brand images , preview, and refine results all within the updated Create a theme wizard.
 
 ## Before you begin
 
@@ -41,16 +41,16 @@ For information on granular roles, see [Granular admin roles](https://www.servic
 
     |Option|Action|
     |------|------|
-    |**Upload brand image**|AI automatically extracts a color palette from your image.|
+    |**Upload brand image**|AI automatically extracts a color palette from your image .|
     |**Select __Handpick my colors__**|Manually choose your theme colors|
 
     ![Theme Creation wizard showing the option to upload a brand image or handpick colors to generate a color palette.](../image/tb-nap-wizard-flow-2.png "Generate theme colors using AI or manual selection")
 
-5.  If you chose to upload a brand image, generate your theme colors using AI.
+5.  If you chose to upload a brand image , generate your theme colors using AI.
 
-    1.  Upload your brand image.
+    1.  Upload your brand image .
 
-        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.![Theme Creation wizard showing a brand image uploaded to generate a color palette using AI.](../image/tb-nap-wizard-upload-image.png)
+        Supported formats are JPEG, JPG, PNG, and SVG with a maximum size of 1 MB.
 
     2.  Select **Generate Palette**.
 

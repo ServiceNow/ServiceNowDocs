@@ -60,7 +60,7 @@ The Field Service Management mobile application runs on the ServiceNow mobile pl
 
 </td><td align="left">
 
-[Chat on ServiceNow Agent](get-help-needed-complete-jobs.md#) -   Call customers directly from the app if more information is needed
+[Start a Sidebar discussion on the Mobile Agent application](../task/start-sidebar-mobile.md) -   Call customers directly from the app if more information is needed
 -   Connect with peers by calling or sending them a text message
 
 </td></tr><tr><td align="left">

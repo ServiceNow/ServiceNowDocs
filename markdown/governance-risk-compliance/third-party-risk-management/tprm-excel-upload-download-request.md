@@ -27,7 +27,7 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Digital resilience third-party registers**.
 
 2.  Select **Excel download/upload requests** and then create an Excel download/upload request by selecting **New**.
 
@@ -41,15 +41,15 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
 5.  Select the records that you want from the list and perform one of the following steps.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d113434e159">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d115736e159">
 
 Step
 
-</th><th align="left" id="d113434e162">
+</th><th align="left" id="d115736e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d113434e168">
+</th></tr></thead><tbody><tr><td id="d115736e168">
 
 **Export to excel**
 
@@ -57,7 +57,7 @@ Description
 
 When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, simply select the **Export to Info Excel** to export those records as a Microsoft Excel file.
 
-</td></tr><tr><td id="d113434e186">
+</td></tr><tr><td id="d115736e186">
 
 **Export to info register**
 
@@ -82,15 +82,15 @@ When making a download request for a Excel master template record, select **Expo
 
 7.  To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d113434e318">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d115736e318">
 
 Step
 
-</th><th align="left" id="d113434e321">
+</th><th align="left" id="d115736e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d113434e327">
+</th></tr></thead><tbody><tr><td id="d115736e327">
 
 **Select __File Type__.**
 
@@ -102,7 +102,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d113434e357">
+</td></tr><tr><td id="d115736e357">
 
 **Select __Delivery Type__.**
 
@@ -112,7 +112,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d113434e379">
+</td></tr><tr><td id="d115736e379">
 
 **Select __Export.__**
 

@@ -7,7 +7,7 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Advanced Core UI reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -33,7 +33,7 @@ You can define a report drilldown to enable reporting users to view subsets of t
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 The report that you want to define a drilldown for must exist.
 
@@ -43,7 +43,7 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; ****.
+1.  Navigate to **All** &gt; **Reports**.
 
 2.  Select the report you want to add a drilldown to.
 
@@ -74,5 +74,5 @@ This topic refers to Reporting in the Core UI. If your instance is migrated to P
 
 The user can drill down from the top-level report to the specified drilldown report visualizations.
 
-**Note:** All users can view report visualizations, such as pie charts and column reports. However, the last level of a drilldown is a list. Platform access control lists determine user access to list information. Users may see a message indicating that rows were removed from the list by Security constraints. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** All users can view report visualizations, such as pie charts and column reports. However, the last level of a drilldown is always a list. Platform access control lists determine user access to list information. Users may see a message indicating that rows were removed from the list by Security constraints. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 

@@ -27,5 +27,5 @@ Access your Configurable Workspace experience in UI Builder for editing.
 -   **[Redirect to the Service Operations Workspace home page](redirect-sow-landing-page-itom.md)**  
 Enable quick task prioritization by directing agents to the homepage immediately upon logging into the ServiceNow instance. This improves workflow efficiency by granting agents immediate access to essential tools and information, facilitating the timely resolution of critical tasks and issues.
 
-**Parent Topic:**[Service Operations Workspace for ITOM](../concept/sow-landing-page-itom.md)
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](../concept/configure-sow-itom.md)
 

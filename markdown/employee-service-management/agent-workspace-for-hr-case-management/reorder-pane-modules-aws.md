@@ -17,7 +17,7 @@ Quickly access the navigation pane modules in HR Agent Workspace. For example, H
 
 ## Before you begin
 
-Role required: admin or ui\_builder\_admin
+Role required: ui\_builder\_admin
 
 ## Procedure
 

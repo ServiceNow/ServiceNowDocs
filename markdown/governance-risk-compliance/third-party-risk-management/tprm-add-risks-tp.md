@@ -33,7 +33,7 @@ To understand the difference between a control objective and a control, see [Rel
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon \(![List icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\) and then navigate to **Third parties** &gt; **All third parties** or **Engagements** &gt; **All engagements**.
+2.  Select the list icon \(![List icon.](../../grc-cam-workspace/image/ws-list-icon.png)\) and then navigate to **Third parties** &gt; **All third parties** or **Engagements** &gt; **All engagements**.
 
 3.  Select the third party or engagement that you want.
 

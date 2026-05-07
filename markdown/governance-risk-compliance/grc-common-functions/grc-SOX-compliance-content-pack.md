@@ -6,7 +6,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [SOX content pack, GRC content packs, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -67,11 +67,11 @@ The SOX Compliance Dashboard displays an overview of all controls, attestations,
     -   Issues Closure Rate
     -   Control Issues by Policy
 
-![Compliance overview](../image/SOX-compliance-overview.png "Compliance Overview")
 
-![Attestation Overview](../image/SOX-control-attestation-overview.png "Attestation Overview")
 
-![Control Issue Overview](../image/SOX-control-issue-overview.png "Control Issue Overview")
+
+
+
 
 ## SOX Risk Dashboard
 
@@ -113,11 +113,11 @@ The SOX Risk Dashboard displays an overview of all risks, assessments, and risk 
     -   Issues Closure Rate
     -   Risks Issues by Policy
 
-![Risk Overview](../image/SOX-risk-overview.png "Risk Overview")
 
-![Assessment Overview](../image/SOX-risk-assessment-overview.png "Assessment Overview")
 
-![Risk Issue Overview](../image/SOX-risk-issue-overview.png "Risk Issue Overview")
+
+
+
 
 ## SOX Audit Dashboard
 
@@ -144,7 +144,7 @@ The SOX Audit Dashboard displays an overview of all audits and audit issues. Nav
     -   Issues by Owner
     -   Pending Issues by Entity
 
-![Audit Overview](../image/SOX-audit-overview.png "Audit Overview")
+
 
 ![Issue Overview](../image/SOX-issue-overview.png "Issue Overview")
 

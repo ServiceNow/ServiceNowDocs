@@ -6,7 +6,7 @@ release: australia
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Configure Emergency Outreach notifications, Emergency Outreach, Emergency Response Management, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 Response options appear in the Emergency Outreach email notification that employees receive.
 
-![Email notification message](../image/voluntary_health_checkin_email.png "Email message with responses")
+
 
 ## Procedure
 
@@ -42,8 +42,6 @@ Response options appear in the Emergency Outreach email notification that employ
     The easiest way to change the order is to use the list edit feature in the list of response options. You can also open each option to update the order number. Responses appear in numerical order.
 
     1.  In the **Order** list, double-click the order value to update.
-
-        ![List edit open to change the number value](../image/list-edit-change-order-number.png)
 
     2.  Enter the number and click the green check mark icon.
 

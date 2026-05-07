@@ -27,7 +27,7 @@ To perform an object risk assessment, a prior knowledge of risk is not necessary
 
 1.  Navigate to my **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Click the Work queue \(![Work queue.](../image/work-queue.jpg)\)
+2.  Select the task ![Task icon.](../../grc-common-workspace/image/tasks-icon-new.png) icon.
 
 3.  Under **My pending tasks**, under Advanced risk assessments, open the object risk assessment assigned to you.
 
@@ -40,11 +40,11 @@ To perform an object risk assessment, a prior knowledge of risk is not necessary
 
     For more information, see [Perform advanced risk assessment in the Risk Workspace](perform-ara-workspace.md).
 
-5.  Click **Save**.
+5.  Select **Save**.
 
 6.  If you have configured risk response in your risk assessment methodology, select the appropriate risk response strategy and click **Define risk response**.
 
-7.  To send the assessment for review, click **Review and submit**.
+7.  To send the assessment for review, select **Review and submit**.
 
     The assessment home page is displayed. You can review the summary of your assessment.
 

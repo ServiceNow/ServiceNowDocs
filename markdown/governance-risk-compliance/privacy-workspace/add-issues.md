@@ -23,7 +23,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  Select **All Cases**.
 
@@ -31,15 +31,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 5.  Select the Issues related list and do one of the following.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d158577e102">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d160782e100">
 
 Option
 
-</th><th align="left" id="d158577e105">
+</th><th align="left" id="d160782e103">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d158577e111">
+</th></tr></thead><tbody><tr><td id="d160782e109">
 
 **To add an existing issue**
 
@@ -50,7 +50,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d158577e137">
+</td></tr><tr><td id="d160782e135">
 
 **To create an issue**
 

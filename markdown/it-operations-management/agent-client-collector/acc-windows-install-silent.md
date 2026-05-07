@@ -1,6 +1,6 @@
 ---
 title: Install the Agent Client Collector on a Windows machine using silent installation
-description: Install the Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
+description: Install Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
 locale: en-US
 release: australia
 product: Agent Client Collector
@@ -13,7 +13,7 @@ breadcrumb: [ACC installation on a Windows machine, ACC deployment - servers, Co
 
 # Install the Agent Client Collector on a Windows machine using silent installation
 
-Install the Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
+Install Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
 
 ## About this task
 
@@ -178,6 +178,18 @@ Boolean
 </td><td>
 
 Indicates whether the user password expires \(false\) or never expires \(true\).Default = false
+
+</td></tr><tr><td>
+
+SN\_PROG\_ROOT
+
+</td><td>
+
+String
+
+</td><td>
+
+Indicates the installation path for the agent's application files. Enclose the path in quotes.For example: SN\_PROG\_ROOT="D:\\ServiceNow\\agent-client-collector"
 
 </td></tr></tbody>
 </table>    The configured MID Server values are automatically added to the `acc.yml` file. The agent connects to the first available MID Server in the list.

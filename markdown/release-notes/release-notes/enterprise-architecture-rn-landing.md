@@ -14,8 +14,6 @@ Enterprise Architecture \(formerly Application Portfolio Management\) has new an
 
 -   **[Enterprise Architecture release notes](enterprise-architecture-rn.md)**  
 The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. Enterprise Architecture was enhanced and updated in the Australia release.
--   **[Now Assist for Enterprise Architecture \(EA\) release notes](now-assist-for-ea-rn.md)**  
-The ServiceNow® Now Assist for Enterprise Architecture \(EA\) application introduces generative AI skills into the Enterprise Architecture Workspace. Now Assist for Enterprise Architecture \(EA\) was enhanced and updated in the Australia release.
 
 **Parent Topic:**[Features and changes by product](../new-features-changes.md)
 

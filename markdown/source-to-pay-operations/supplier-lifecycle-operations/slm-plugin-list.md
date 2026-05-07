@@ -60,6 +60,8 @@ Provides a common architecture to track data objects related to a supplier used 
 
 Supplier Case Management\[com.snc.sn\_supplier\_mgmt\]
 
+Plugin scope name: sn\_supplier
+
 </td><td>
 
 Onboard suppliers, manage supplier relationships, monitor risk, compliance, and performance across the supplier life cycle.

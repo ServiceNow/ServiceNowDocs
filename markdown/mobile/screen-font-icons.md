@@ -84,7 +84,7 @@ Use screen font icons for lists or section destinations. You can use them to rep
 |Newspaper|f1ea|New York|![Newspaper example](../image/mab-icon-screen-newpaper.png)| |
 |Paperclip|e939|New York|![Paperclip example](../image/mab-icon-screen-paperclip.png)| |
 |Paper Plane|f1d8|New York|![Paper Plane example](../image/mab-icon-screen-paprplan.png)|![Reversed Paper Plane example](../image/mab-icon-screen-paprplanrtl.png)|
-|Plus|f0f3|New York|![Plus example](../image/mab-icon-screen-plus.png)| |
+|Plus|f0fe|New York|![Plus example](../image/mab-icon-screen-plus.png)| |
 |Question Circle|f059|New York|![Question Circle example](../image/mab-icon-screen-quescircle.png)| |
 |Save|f0c7|New York|![Save example](../image/mab-icon-screen-save.png)| |
 |Search|3944|New York|![Search example](../image/mab-icon-screen-search.png)| |

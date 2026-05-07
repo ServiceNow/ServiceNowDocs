@@ -46,8 +46,6 @@ Although the **Due date** field is auto-populated for a task type, you can alway
 
     For example, let's say that you enter 3 as the due date for the task type Mark complete. If you create a Mark complete task on September 12, the due date will be in three days from this date; that is, September 15.
 
-    ![Configure due dates for tasks](../image/configure-task-due-date.png)
-
 3.  Select **Save**.
 
 

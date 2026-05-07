@@ -8,7 +8,7 @@ classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [OSCAL Assessment Plan export and import, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # OSCAL Assessment Plan field mapping
@@ -247,5 +247,5 @@ The href uses the package UUID. If the package was imported, it uses the UUID fr
 
 Custom properties contain CAM-specific data not natively supported by OSCAL standards. These properties use the ServiceNow namespace \(identified by "ns:servicenow" in the JSON\). Custom properties include engagement-specific fields such as fieldwork dates, budget information, and control test methods. Documentation of all custom properties is available on the ServiceNow product documentation site.
 
-**Parent Topic:**[OSCAL Assessment Plan export and import](oscal-assessment-plan-import-export.md)
+**Parent Topic:**[CAM OSCAL](../../grc-cam-workspace/concept/oscal-cam-ws.md)
 

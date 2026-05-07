@@ -33,15 +33,15 @@ Manage your time cards by performing actions such as submitting the time card, v
 
 4.  Manage your time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d216995e82">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d211474e82">
 
 Action
 
-</th><th align="left" id="d216995e85">
+</th><th align="left" id="d211474e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d216995e91">
+</th></tr></thead><tbody><tr><td id="d211474e91">
 
 **Submit time card**
 
@@ -49,7 +49,7 @@ Steps
 
 Tap **Submit time card**.**Note:** This option is available only when hours are posted for a day against the task.
 
-</td></tr><tr><td id="d216995e106">
+</td></tr><tr><td id="d211474e106">
 
 **View your time card**
 
@@ -57,7 +57,7 @@ Tap **Submit time card**.**Note:** This option is available only when hours are 
 
 Tap **View time card** to view the time card details such as task, hours, resource plan, and notes.
 
-</td></tr><tr><td id="d216995e118">
+</td></tr><tr><td id="d211474e118">
 
 **View notes associated with your time cards**
 
@@ -67,7 +67,7 @@ To view notes associated with the time card:-   Tap **Time card notes**.
 -   Tap back icon to go back to the time sheet.
 
 
-</td></tr><tr><td id="d216995e139">
+</td></tr><tr><td id="d211474e139">
 
 **Add notes to your time cards**
 
@@ -78,7 +78,7 @@ To add notes to the time card:-   Tap **Time card notes**.
 -   Enter the information in the text box and click **Submit**.
 
 
-</td></tr><tr><td id="d216995e170">
+</td></tr><tr><td id="d211474e170">
 
 **Delete a time card**
 

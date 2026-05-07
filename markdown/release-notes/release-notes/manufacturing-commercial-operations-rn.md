@@ -14,10 +14,10 @@ The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agen
 
 ## Manufacturing Commercial Operations highlights for the Australia release
 
--   The product non-conformance management is an AI-powered unified portal that enables from submission to resolution with quality inputs, duplicate detection, and faster actions.
--   The product non-conformance submission is an AI playbook portal that enables in refinement, prediction, extraction, duplicate detection, and pre-submission corrections.
--   The product non-conformance resolution is an AI playbook resolution that enables context-aware recommendations, early corrections, reduced manual analysis.
--   The data model for the recall management Agentic AI workflow.
+-   QIM now integrates with FSM, enabling work order creation directly from NC and QI records for on-site verification, containment, or remediation action.
+-   Enable detect potential fraudulent claims component to detect duplicate warranty claims.
+-   Enable the recall manager to plan and execute phases and sub-phases recall campaigns using the plan and execute recall campaign phases and sub-phases AI agent.
+-   Enable a non-conformance description to verify that the requirements are clearly stated.
 
 See [Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=manufacturing-overview&version=australia&pubname=australia-manufacturing&ft:locale=en-US) for more information.
 
@@ -25,21 +25,24 @@ See [Manufacturing Commercial Operations](https://www.servicenow.com/docs/access
 
 ## New in the Australia release
 
--   ****
+-   **[FSM integration](https://www.servicenow.com/docs/access?context=mco-fsm-integration&version=australia&pubname=australia-manufacturing&ft:locale=en-US)**
 
-    It’s a unified, AI-assisted life-cycle management from submission to resolution, helping teams capture quality inputs, identify duplicates early, take faster informed actions, and maintain control throughout.
+    QIM integrates with FSM to support quality actions that require on-site intervention. When an NC or QI record identifies a need for field verification, containment, or remediation action, you can create an FSM work order directly from within QIM.
 
--   ****
 
-    Dealers can submit product non-conformance issues through the dealer portal.
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
--   ****
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
-    It’s a playbook-driven resolution workflow that provides context-aware recommendations based on historical data. AI guidance identifies correction actions early, reducing manual analysis and enabling focus on validation, execution, and closure.
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   ****
 
-    Recall management data model for parts availability and parts groups enable OEMs to manage complex product recalls by structuring parts, assets, and customer data for identification, grouping, tracking, and allocation across recall phases.
+-   **[Summarize fraudulent claim detection using agents](https://www.servicenow.com/docs/access?context=mco-summarize-fraudulent-claim-detection&version=australia&pubname=australia-manufacturing&ft:locale=en-US)**
+
+    Use the detect potential fraudulent claims to analyze dealer warranty claims for duplicate claims, mismatched parts and supporting documents/images, reused images/documents, similar claims within specified periods or for same end customers across assets, and product usage inconsistencies.
 
 
 ## Activation information
@@ -69,7 +72,7 @@ ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Mic
 
     The ServiceNow Field Service Management application enables you to manage work orders and related tasks, resources, skills, assets, and locations.
 
--   **[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US)**
+-   **[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
 
     ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that makes it easy to collaborate and process requests while giving users the convenience of working in their own ServiceNow instance
 
@@ -77,9 +80,6 @@ ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Mic
 
     Align work with strategy to deliver products and services in a way that supports your business goals and priorities. The ServiceNow Strategic Portfolio Management \(SPM\) application enables you to use digital transformation to drive customer value.
 
-
--   **[Now Assist for Manufacturing Commercial Operations \(MCO\) release notes](now-assist-for-mco-rn.md)**  
-The ServiceNow® Now Assist for Manufacturing Commercial Operations \(MCO\) application brings platform AI capabilities. Now Assist for Manufacturing Commercial Operations \(MCO\) was enhanced and updated in the Australia release.
 
 **Parent Topic:**[Features and changes by product](new-features-changes.md)
 

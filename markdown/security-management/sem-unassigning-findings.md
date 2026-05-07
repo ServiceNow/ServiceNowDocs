@@ -23,7 +23,7 @@ Use the **Unassign** option when a finding or remediation task is not relevant t
 
 ## Unassigning from findings and remediation tasks
 
-You can unassign records in any state except Closed or Resolved, using the **Unassign** button or the More options menu \(![Vertical dots](../../secops-analyst-workspace/image/more-actions-icon.png)\).
+You can unassign records in any state except Closed or Resolved, using the **Unassign** button or the More options menu \(![Vertical dots](../../security-incident-response/image/more-actions-icon.png)\).
 
 **Supported Records**:
 

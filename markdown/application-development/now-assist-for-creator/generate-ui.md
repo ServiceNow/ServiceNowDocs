@@ -1,54 +1,205 @@
 ---
-title: Experience generation
-description: Use experience generation to create a multi-page experience using natural language with Now Assist.
+title: Create an AI-generated experience
+description: Use Now Assist in UI Builder to generate a multi-page experience from a natural language description of what you want to build.After Now Assist generates an experience, review the read-only preview to verify the proposed configuration before saving and opening the experience in UI Builder.After saving an AI-generated experience, open it in a browser to confirm that all pages, navigation, charts, and record links are functioning correctly.
 locale: en-US
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 7
 breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Experience generation
+# Create an AI-generated experience
 
-Use experience generation to create a multi-page experience using natural language with Now Assist.
+Use Now Assist in UI Builder to generate a multi-page experience from a natural language description of what you want to build.
 
 ## Before you begin
 
+Make sure that you install UI generation and that you have the ui\_builder\_admin role. For more information, see [Install UI generation](install-ui-generation.md) and [Grant UI Builder admin role](grant-ui-builder-admin-role.md).
+
 Role required: ui\_builder\_admin
+
+## About this task
+
+You can access the experience generation feature from the UI Builder homepage. You describe the experience you want in natural language—including the name, table, navigation style, and any chart preferences. Now Assist generates a fully connected experience for you to review and save.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+1.  In the application navigator, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
     ![UI Builder Home page.](../image/ui-generation-landing.png "UI Builder Home page")
 
-2.  From the UI Builder Home page, select **Create**.
+2.  Select **Create** in the upper-right corner of the page.
 
-3.  Select **AI-Generated experience**.
+3.  Select **Experience** from the menu that appears.
+
+    A dialog titled Create experience with Now Assist? appears, presenting two options: **AI-Generated experience** and **Continue with Now Assist**.
+
+4.  Select **AI-Generated experience**.
+
+    The Experience Generation interface opens. The interface is split into two panels: a left panel containing the **Now Assist directions** input field, and a right panel that displays guidance on what information to provide.
 
     ![Create an experience form.](../image/ui-generation-create.png "Create an experience form")
 
-4.  In the **Create an experience form**, enter a description of the experience you would like to generate.
+5.  In the **Now Assist directions** field, type a description of the experience you want to create.
 
-    **Tip:** Select **Try an example** to insert different experience examples to see what good Now Assist directions include.
+    Write your description in plain language. Your description can include any combination of the following details:
 
-5.  Select **Generate preview**.
+    -   The name of the experience
+    -   The ServiceNow table your users will work on
+    -   The navigation style \(for example, tabbed navigation\)
+    -   Chart type and data grouping preferences \(for example, a pie chart grouped by state\)
+    You can provide as little or as much detail as you want. The LLM infers any details you omit and applies smart defaults to produce a complete, valid experience.
 
-6.  Review the experience and complete one of the following steps:
+    **Tip:** If you're unsure what to write, select **Try an example** to populate the field with a sample description.
 
-    -   To proceed in creating your experience, select **Save and edit experience**.
-    -   To create a new experience, reword your description and select **Regenerate preview**.
-    When you select **Save and edit experience**, the experience settings page indicates the UI was generated with Now Assist.
+    Example description:
 
-7.  Review the main page for your new experience.
+    ```
+    Create an experience called "Change Request Tracker" for tracking Change
+    Requests, that uses a tabbed navigation, and that shows a Pie chart that
+    groups the data by "state".
+    ```
 
-    ![Main page for your new experience](../image/ui-generation-main-page.png "Main page for your new experience")
+6.  Select **Generate preview**.
 
-    **Note:** In addition to the name of your new experience, the screen includes the URL, app shell, and the roles of users who can view the experience. Any pages or variants you create for the experience appear in the **Pages and variants** section.
+    Your description is submitted to ServiceNow's LLM. A Generating preview indicator appears in the right panel while the experience configuration is being processed. The right panel header changes to **Experience preview \(Read-only\)** and shows a **Generated by Now Assist** label when generation is complete.
 
+
+## Result
+
+The experience preview appears in the right panel. It displays the proposed experience name, navigation type, page structure, chart parameters, and a live data sample from the identified ServiceNow table. The **Regenerate preview** and **Save and edit experience** buttons are set to active.
 
 **Parent Topic:**[Using UI generation](../concept/using-ui-generation.md)
 
+**Related topics**  
+
+
+[Experience Generation](../concept/concept-experience-generation.md)
+
+[Use case: Create an AI-generated experience](../concept/use-case-experience-generation.md)
+
+## Review and save an experience preview
+
+After Now Assist generates an experience, review the read-only preview to verify the proposed configuration before saving and opening the experience in UI Builder.
+
+### Before you begin
+
+Role required: ui\_builder\_admin
+
+### About this task
+
+The experience preview is a structured summary of what Now Assist proposes to create. It shows the LLM's interpretation of your natural language description. It shows the experience name, navigation style, page types, chart parameters, and a live data sample from the identified ServiceNow table. You can save the experience as-is or update your description and regenerate the preview.
+
+### Procedure
+
+1.  In the **Experience preview** panel, review the experience name at the top of the panel.
+
+    The experience name is derived directly from your description. Verify that it matches your intent before saving.
+
+2.  Review the **Navigation** section to confirm the navigation style is correct.
+
+    For example, **Navigation: Tabs** indicates that the experience uses a tabbed navigation style, which supports working across multiple tasks for short periods of time.
+
+3.  Review the **Describe the parameters for your pages** section to verify the page types and chart parameters.
+
+    1.  Check the parameter tags displayed at the top of the section \(for example, **Chart type: pie**, **Chart title**, and **Group by: state**\) to confirm the chart configuration is correct.
+
+    2.  Verify that the three page type cards—**Landing page**, **Filtered list**, and **Simple record**—are shown, confirming that a complete multi-page workspace structure will be created.
+
+4.  Review the **Table** section to confirm that Now Assist identified the correct ServiceNow table.
+
+    The table name and its system name \(for example, **Change Request \(change\_request\)**\) are displayed along with a live sample of records from that table. Use the data sample to verify that the correct table has been selected.
+
+5.  Do one of the following based on your review:
+
+    -   If the preview matches your intent, select **Save and edit experience** to create the experience and open it in UI Builder.
+    -   If the preview does not match your intent, update the text in the **Now Assist directions** field on the left panel and select **Regenerate preview** to generate a new preview with your updated description.
+
+### Result
+
+After selecting **Save and edit experience**, UI Builder creates the experience and opens the page list view. The page list shows the experience name, URL path, application scope, app shell, and three generated pages: Home \(landing page\), List, and Record. A banner at the top confirms that Now Assist generated the experience and prompts you to check it for accuracy.
+
+## Verify the generated experience
+
+After saving an AI-generated experience, open it in a browser to confirm that all pages, navigation, charts, and record links are functioning correctly.
+
+### Before you begin
+
+Role required: ui\_builder\_admin
+
+### About this task
+
+When Now Assist saves a generated experience, it creates three connected pages and wires them to the selected ServiceNow table. Before distributing the experience to users, verify that each page loads correctly and that navigation between pages works as expected. A banner in UI Builder reminds you that the experience was generated by Now Assist and may require review before use.
+
+### Procedure
+
+1.  From the experience page list in UI Builder, select the URL path link displayed under the experience name to open the experience in a new browser tab.
+
+    The landing page of the experience opens. It displays the experience title, a record count widget, a pie chart \(or other configured chart\) grouped by the requested field, and a list of records from the selected table.
+
+2.  On the landing page, verify the following:
+
+    1.  Confirm that the experience title displayed at the top of the page matches the name you requested.
+
+    2.  Confirm that the chart is present and displays data grouped by the correct field \(for example, grouped by state\).
+
+    3.  Select a slice on the pie chart and confirm that the list only shows the records matching that slice's value.
+
+    4.  Confirm that the record list displays columns and data from the correct table.
+
+3.  In the left navigation sidebar, select the link to the list page to navigate to the filtered list view.
+
+    The list page opens, showing all records from the selected table with sortable columns, filter controls, and action buttons including **Edit**, **Export**, and **New**.
+
+4.  On the list page, select a record number link to open a specific record.
+
+    The record page opens, displaying the full detail view for that record, including all field sections, tabs, and the activity panel. A breadcrumb tab showing the record number appears in the tab bar, confirming that tabbed navigation is working.
+
+5.  On the record page, select the plus sign \(**+**\) in the tab bar to verify that the create form for a new record opens correctly.
+
+
+### Result
+
+If all pages load correctly, display the expected data, and navigation between pages works as expected, the generated experience is ready for further customization or distribution. If any element is missing or incorrect, open the experience in UI Builder to make edits, or return to the Experience Generation interface to regenerate with a revised description.
+
+<table id="tbl_troubleshooting"><thead><tr><th>
+
+Symptom
+
+</th><th>
+
+Cause
+
+</th><th>
+
+Resolution
+
+</th></tr></thead><tbody><tr><td>
+
+AI-Generated experience option not visible in UI Builder.
+
+</td><td>
+
+The `ui_builder_admin` role is not assigned, or the Experience Generation skill is not active.
+
+</td><td>
+
+Assign the ui\_builder\_admin role to the user. Navigate to **Now Assist Admin** &gt; **Features** &gt; **Creator** and verify that the Experience generation skill is active.
+
+</td></tr><tr><td>
+
+Generated experience does not match the prompt
+
+</td><td>
+
+Prompt lacks sufficient detail about table, chart type, or navigation structure.
+
+</td><td>
+
+Include experience name, chart type, navigation style, and table name in the prompt. Use **Try an example** to understand expected prompt structure.
+
+</td></tr></tbody>
+</table>

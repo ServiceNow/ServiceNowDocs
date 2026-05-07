@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in MuleSoft Anypoint Platform data into you
 
 ## Before you begin
 
-Install API Service Graph Connector for MuleSoft version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install API Service Graph Connector for MuleSoft version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 Obtain the Connected App credentials from your MuleSoft Anypoint Platform administrator. Make a note of the following details:
 

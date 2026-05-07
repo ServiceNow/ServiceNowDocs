@@ -20,7 +20,7 @@ This playbook triggers when an employee whose account is terminated, disabled, o
 -   **[Set up the Attempted Access Deactivated Account playbook](../task/playbook-setup-attempted-access-deactivated-accounts.md)**  
 Use the following steps to set up the Attempted Access Deactivated Account playbook.
 -   **[Use the Attempted Access to Deactivated Accounts playbook](../task/playbook-using-attempted-access-deactivated-accounts.md)**  
-Use this playbook when an employee whose account is terminated, disabled, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
+Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 
 **Parent Topic:**[Flow-based Playbooks](playbook-flow-based.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace
+title: Review attestation tasks in CMDB Workspace or in Service Graph Workspace
 description: Review attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies. Check the physical existence of IT infrastructure or applications associated with CIs in the attestation task and then process those CIs as appropriate.
 locale: en-US
 release: australia
@@ -11,7 +11,7 @@ reading_time_minutes: 7
 breadcrumb: [CIs attestation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Review CMDB Data Manager attestation tasks in CMDB Workspaceor in Service Graph Workspace
+# Review attestation tasks in CMDB Workspaceor in Service Graph Workspace
 
 Review attestation tasks that are assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies. Check the physical existence of IT infrastructure or applications associated with CIs in the attestation task and then process those CIs as appropriate.
 
@@ -30,7 +30,7 @@ Canceling an attestation task is available only for tasks that are in the 'In pr
 
 ## About this task
 
-After you receive notifications about attestation tasks assigned to you, check the actual IT infrastructure or applications that you own, and then process the CIs in the task accordingly. Initially, all the CIs in the attestation task are listed in a Not Yet Reviewed list and therefore require a review. Attested CIs are then moved to an Attested CIs list, while CIs you reject are moved to a separate Rejected CIs list. After processing all the CIs in the task, you can submit and complete the task. For general information about attestation and the flow of attestation, see [CIs attestation](../concept/attesting-cis.md).
+After you receive notifications about CMDB Data Manager attestation tasks assigned to you, check the actual IT infrastructure or applications that you own, and then process the CIs in the task accordingly. Initially, all the CIs in the attestation task are listed in a Not Yet Reviewed list and therefore require a review. Attested CIs are then moved to an Attested CIs list, while CIs you reject are moved to a separate Rejected CIs list. After processing all the CIs in the task, you can submit and complete the task. For general information about attestation and the flow of attestation, see [CIs attestation](../concept/attesting-cis.md).
 
 As you process the CIs in the task, only the fields **Attestation Status** \(values: **Attested**, **Rejected**, **Not Yet Reviewed**\), **Attested By**, and **Attested Date** are automatically updated. Also, details of your activities are captured in the activity stream of the task.
 
@@ -39,7 +39,7 @@ As you process the CIs in the task, only the fields **Attestation Status** \(val
 1.  Navigate to either workspace:
 
     -   Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **My Work** in the CMDB Workspace menu bar.
-    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, in the navigation panel select the Tasks icon, and then, in the Tasks navigation panel, select **Certification**.
+    -   Navigate to **Workspaces** &gt; **Service Graph Workspace**, in the navigation panel select the Tasks icon, and then, in the Tasks navigation panel, select **Attestation**.
     Any attestation tasks that are assigned to you or to assignment groups you belong to, appear in the **Attestation tasks** tab in the My tasks section. Attestation tasks are associated with details such as the due dates and short descriptions for those tasks. Assignment groups that you are a member of, are also listed.
 
 2.  Select a task to review from the Attestation tasks list.

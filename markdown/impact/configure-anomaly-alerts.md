@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Anomalies detection, Performance, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Anomalies detection, Performance, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Configure anomaly alerts
@@ -28,8 +28,8 @@ Role required: admin
 3.  Select the reporting options:
 
     -   Instance
-    -   Date range
     -   Metrics
+    -   Date range
     -   Options:
         -   Self Service Alerts
         -   Diagnostic Events

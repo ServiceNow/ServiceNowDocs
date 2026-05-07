@@ -7,8 +7,8 @@ product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+reading_time_minutes: 1
+breadcrumb: [Transfer order tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Delete a transfer order line
@@ -32,28 +32,10 @@ The inventory\_user, asset, or procurement\_user role can only access the Transf
     Alternatively, you can cancel a transfer order or a transfer order line while it is in **Requested** or **Shipment Preparation** stage. Once all the lines are canceled, the transfer order is automatically canceled.
 
 
-**Parent Topic:**[Manage transfer order](../concept/manage-transfer-orders.md)
+**Parent Topic:**[Transfer order tasks](../concept/work-with-transfer-orders.md)
 
 **Related topics**  
 
-
-[Transfer order flow](../concept/transfer-order-flows.md)
-
-[Transfer assets using transfer orders](t_TransferAssetsUsingTransferOrders.md)
-
-[Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md)
-
-[Delete a transfer order](t_DeleteATransferOrder.md)
-
-[Return items received in a transfer order](t_ReturnItemsRecInXferOrder.md)
-
-[Create a customized template task](create-customized-template-task.md)
-
-[Create a template subtask](create-template-subtask.md)
-
-[Transfer order line asset tracking](../reference/r_TransferOrderLineAssetTracking.md)
-
-[Perform bulk updates for transfer order lines](create-bulk-transfer.md)
 
 [Delete a transfer order](t_DeleteATransferOrder.md)
 

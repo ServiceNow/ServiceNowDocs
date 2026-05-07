@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Setting up primary data for ShoppingHub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Setting up primary data Shopping, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Lead time calculations
@@ -268,8 +268,6 @@ For a supplier product, the total lead time is calculated as:
 
     Total lead time = \[Purchasing time for the supplier product\] + \[Shipping time of the supplier product\].
 
-
-![Total lead time for a supplier product](../image/total-lead-time.png)
 
 The total lead time of a supplier product is recalculated every time the values of the above fields on the supplier product form are updated.
 

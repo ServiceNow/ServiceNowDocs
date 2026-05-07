@@ -24,7 +24,7 @@ You can test assistants directly from the Asset library.
 4.  From the Assistant list, select the assistant that you want to test. The assets available to the selected assistant is shown under All assets.
 5.  Select **Test assistant**.
 
-![Test in enhanced chat from the Assistant Designer Asset library's Test assistant drop-down menu.](../images/full-page-VAD-home-page-test-2.png)
+![Test options shown in the Assistant Designer Asset library's Test assistant drop-down menu.](../images/full-page-VAD-home-page-test-2.png)
 
 Depending on the chat experience set up for the assistant, you can test using [Standard chat](../../now-assist-in-va/concept/nava-standard-chat.md) experience or [Enhanced chat](../../now-assist-in-va/concept/nava-enhanced-chat.md) experience. For more information about setting up the chat experience for an assistant, see [Manage an assistant chat experience](../../now-assist-in-va/task/manage-assistant-chat-experience.md).
 
@@ -34,8 +34,8 @@ Depending on the chat experience set up for the assistant, you can test using [S
 
 For all the Now Assist for Virtual Agent assistants and the Now Assist Panel - Platform Assistant, when testing the assistant:
 
--   If the assistant has the Standard Chat experience configured for any display location, you can choose between Standard Chat and Enhanced Chat.
--   If the assistant only has the Enhanced Chat experience configured across all display locations, when you select **Test Assistant**, you're directed to test the Enhanced Chat experience.
+-   If the assistant has the Standard Chat experience configured for any display location, you can choose between Standard Chat, Enhanced Chat, or Integrated Chat.
+-   If the assistant only has the Enhanced Chat or Integrated Chat experience configured across all display locations, when you select **Test Assistant**, you can choose between those options.
 
 For the Now Assist Panel - Developer Assistant, when testing the assistant by selecting **Test Assistant**, you're directed to test the Standard Chat experience.
 

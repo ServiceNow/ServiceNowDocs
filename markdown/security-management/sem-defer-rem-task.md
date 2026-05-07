@@ -4,7 +4,7 @@ description: If you identify a finding or remediation task for which a fix is no
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Exception Management Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -50,8 +50,6 @@ Until
 </td><td>
 
 Select the date when the Defer state expires and the remediation task is reactivated.
-
- The maximum deferral period is determined by the **Duration** setting in the Exception Management Configuration \(default: 365 days\).
 
  After the record is submitted, if [email notifications](../../vulnerability-response/task/t_DefineEmailNotifications.md) are defined, members of the group receive an email when the expiration date is within one week. When the defer date expires, the remediation task is set back to **Open** and a second email notification is sent out.
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use agentic AI, Now Assist for Zero Copy Connector, Workflow Data Fabric]
 ---
@@ -18,44 +18,11 @@ Use the Explore ERP models AI agent team in Now Assist for Zero Copy Connector t
 
 The Explore ERP models agentic workflow uses a team of AI agents to answer user questions about working with ERP database tables and identifying models configured in ERP content packs.
 
-The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for ZCC.
+## Prerequisites for the Explore ERP models agentic workflow
 
-## Prerequisites and setup
-
-You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://www.servicenow.com/docs/access?context=configuring-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
-## Role masking
-
-Required role: sn\_erp\_integration.erp\_admin.
-
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
-## Check status of assistants
-
-Now Assist in Virtual Agent and Now Assist panel must be on. For information about how to check the status of assistants, see [Manage LLM virtual agents on the Assistants screen](https://www.servicenow.com/docs/access?context=manage-llm-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-
-## Activate conversational skills
-
-In Now Assist in Virtual Agent, check that **Now Assist Q&amp;A**, **Now Assist Topics**, and **AI agents** are activated.
-
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
-2.  Select an assistant such as Now Assist in Virtual Agent \(default\).
-3.  Select **Now Assist skills** in left side menu.
-4.  Ensure that **Now Assist Q&amp;A**, **Now Assist Topics**, and **AI agents** are activated. Activate if necessary.
-
-## Set large language model \(LLM\) provider and check connection
-
-Set a large language model \(LLM\) provider and have a least one connection. For more information about available providers and setting a provider, see [Manage AI models](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
-1.  To check for an active connection, navigate to **All** &gt; **Integration Hub** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
-2.  Select an alias, for example, **Azure OpenAI**.
-3.  Select the **Connections** tab.
-4.  At least one connection should be listed with **Active** set to **true**.
-
-    ![Azure OpenAI connection and credential alias record with connections tab displayed showing one active connection.](../images/erp-data-explorer-workflow4.png)
-
-    **Note:** For more information about creating a connection and making it active, see [Get started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US).
-
+-   The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for ZCC.
+-   You must have the Knowledge Graph plugin installed. For more information, see [Configuring Knowledge Graph](https://www.servicenow.com/docs/access?context=configuring-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   Follow the steps in [Now Assist for Zero Copy Connector agentic workflow prerequisites](now-assist-erp-ai-agents-prereqs.md) before using the Explore ERP models agentic workflow.
 
 ## AI agents used in the Explore ERP models agentic workflow
 
@@ -68,8 +35,6 @@ The following agents are used in the Explore ERP models agentic workflow.
 |ERP output formatter AI agent|Refines and formats the information from the ERP action invoker AI agent.|
 
 ## Accessing the Explore ERP models agentic workflow
-
-Trainn guide for accessing the Explore ERP models agentic workflow. 
 
 Users with the sn\_aia\_admin role can access the workflow.
 
@@ -88,25 +53,27 @@ Users with the sn\_aia\_admin role can access the workflow.
 
 ## Using the Explore ERP models agentic workflow
 
-Select the Now Assist icon \(![](../images/now-assist-sparkle-icon-dark.png)\) from anywhere in your instance to open the Now Assist panel.
+In this example, use the Explore ERP models agentic workflow to run a specific model.
 
-Ask for information in plain language. For example, `I want to run the Order Details model`.
+1.  Select the Now Assist icon \(![](../images/now-assist-sparkle-icon-dark.png)\) from anywhere in your instance to open the Now Assist panel.
+2.  Ask for information in plain language. For example, `I want to run the Order Details model`.
 
-![Now Assist panel with question typed in.](../images/erp-data-explorer-workflow7.png)
+    ![Now Assist panel with question typed in.](../images/erp-data-explorer-workflow7.png)
 
-Select the **Explore ERP models** option.
+3.  Select the **Explore ERP models** option.
 
-![Now Assist panel with explore ERP models option highlighted.](../images/erp-data-explorer-workflow8.png)
+    ![Now Assist panel with explore ERP models option highlighted.](../images/erp-data-explorer-workflow8.png)
 
-Select **Go to the ERP Model**.
+4.  Select **Go to the ERP Model**.
 
-![Now Assist panel with go to the erp model option highlighted.](../images/erp-data-explorer-workflow9.png)
+    ![Now Assist panel with go to the erp model option highlighted.](../images/erp-data-explorer-workflow9.png)
 
-If there are mandatory fields, provide the correct information in the specified format. You have the option to also include additional fields.
+5.  If there are mandatory fields, provide the correct information in the specified format. You have the option to also include additional fields.
 
-Now Assist provides the information you requested.
+    Now Assist provides the information you requested.
 
-![Now assist panel with answer to question displayed.](../images/erp-data-explorer-workflow11.png)
+    ![Now Assist panel with order details listed.](../images/erp-data-explorer-workflow11.png)
+
 
 Your conversation is saved until you start a new chat. If the conversation ends unexpectedly, start a new chat by selecting the New chat icon \(![New chat icon.](../../../common/image/icon-zoom-in.png)\).
 

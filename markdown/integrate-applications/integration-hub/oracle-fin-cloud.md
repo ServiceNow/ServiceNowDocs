@@ -35,7 +35,7 @@ This spoke was built for Oracle Financial Cloud API version 11.13.18.05.
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Utility Actions Spoke](utilityact-spoke.md)
+-   [Utility Actions Spoke](utilityact-spoke-1.md)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)

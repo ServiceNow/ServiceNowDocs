@@ -1,6 +1,6 @@
 ---
 title: Explore Now Assist AI asset discovery
-description: Explore the syncing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
+description: Explore the synchronizing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,16 +13,19 @@ breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 
 # Explore Now Assist AI asset discovery
 
-Explore the syncing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
+Explore the synchronizing process of AI assets including models, datasets, prompts, skills, and agentic AI components into the AI Asset Inventory of AI Control Tower.
 
 The AI systems are synchronized from source Now Assist skill config record \(sn\_nowassist\_skill\_config\).
 
-1.  The out of the box skill meets the following conditions for an AI system:
-    1.  If active, insert.
-    2.  If not active, insert only if it belongs to the custom skill category and is published.
+1.  The default skill meets the following conditions for an AI system:
+    1.  If active, insert
+    2.  If not active, insert only if it belongs to the custom skill category and is published
 2.  If the skill exists in AI Control Tower and the source Now Assist skill config record is updated, those changes are applied to the AI system record in AI Control Tower. The state for the AI system is mapped as follows based on source Now Assist skill config record state:
 
     1.  Active: Mark as Deployed
+
+        **Note:** All the active models are being marked as deployed; however, in environments like GCC \(Government Community Cloud\) and others, this status means they have not yet been used and are still available for deployment.
+
     2.  Published or Draft: Mark as In Development
     3.  Retired: Mark as Retired
     4.  Deleted: No update is made
@@ -234,5 +237,5 @@ usecase-agent mapping
 All usecase-agent mappings
 
 </td></tr></tbody>
-</table>For more information on Model, dataset, prompt, and skill sync process, see [KB2674041](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2674041) article in the Now Support Knowledge Base.
+</table>For more information on model, dataset, prompt, and skill sync process, see [KB2674041](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2674041) article in the Now Support Knowledge Base.
 

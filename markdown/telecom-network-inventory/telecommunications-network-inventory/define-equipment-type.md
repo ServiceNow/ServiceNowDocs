@@ -31,15 +31,15 @@ You can create the equipment instances that have the inventory category set as E
 
     You can create the following equipment types by selecting the options from the List menu.
 
-<table id="choicetable_mds_dxq_qxb"><thead><tr><th align="left" id="d67201e109">
+<table id="choicetable_mds_dxq_qxb"><thead><tr><th align="left" id="d70535e109">
 
 Option
 
-</th><th align="left" id="d67201e112">
+</th><th align="left" id="d70535e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67201e118">
+</th></tr></thead><tbody><tr><td id="d70535e118">
 
 **IP Routers, IP Switches, IP Firewalls, IP Load Balancers, Servers, or Virtual Machines**
 
@@ -47,7 +47,7 @@ Description
 
 Creates a record that you’ve selected. To learn more about the fields in the form, see [Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](../reference/router-form.md).
 
-</td></tr><tr><td id="d67201e140">
+</td></tr><tr><td id="d70535e140">
 
 **Kubernetes Clusters**
 
@@ -55,7 +55,7 @@ Creates a record that you’ve selected. To learn more about the fields in the f
 
 Creates a Kubernetes cluster instance. To learn more about the fields in the form, see [Kubernetes discovery using patterns](https://www.servicenow.com/docs/access?context=kubernetes-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
 
-</td></tr><tr><td id="d67201e159">
+</td></tr><tr><td id="d70535e159">
 
 **Kubernetes Pods**
 
@@ -119,5 +119,5 @@ Review and update a network asset instance for your telecommunications equipment
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

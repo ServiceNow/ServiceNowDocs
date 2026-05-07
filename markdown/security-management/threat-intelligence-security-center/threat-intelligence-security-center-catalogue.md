@@ -1,6 +1,6 @@
 ---
 title: Threat Intelligence Security Center Catalog
-description: The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application for you to enable them after adding the required information, and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
+description: The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application. You can enable them after adding the required information and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -13,9 +13,9 @@ breadcrumb: [Integrate, Threat Intelligence Security Center, Security Operations
 
 # Threat Intelligence Security Center Catalog
 
-The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application for you to enable them after adding the required information, and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
+The Threat Intelligence Security Center Catalog is a curated list of Threat Intelligence feeds and enrichment integrations available in the application. You can enable them after adding the required information and schedule the feed to automatically ingest Threat Intelligence data on a set frequency.
 
-As a sn\_sec\_tisc.admin, you can also search and edit the existing source configurations, enable or disable, and delete the configurations from the Catalog. Any new data source is added to the Catalog, that will appear as a new configuration card on the Catalog.
+As a sn\_sec\_tisc.admin, you can search and edit existing source configurations, enable or disable them, and delete configurations from the Catalog. When you add a data source to the Catalog, it appears as a new configuration card.
 
 Role required:
 
@@ -24,11 +24,11 @@ Role required:
 
 ![TISC Catalog](../image/tisc-catolog.png)
 
-**Note:** The cards on the catalog are differentiated by its label which is present at the top of the card Threat Feed/Enrichment.
+**Note:** The cards on the catalog are differentiated by their label at the top of the card: **Threat Feed/Enrichment**.
 
 ## Actions on the Catalog view
 
-The Catalog view enables you to perform the following actions.
+You can perform the following actions:
 
 <table id="table_ols_yx1_nzb"><thead><tr><th>
 
@@ -40,22 +40,22 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-All
+Filter items
 
 </td><td>
 
-Use this dropdown menu to filter feeds and integrations based on their current state. You can filter based on the following states:-   **All**: Displays all the feeds and integrations on the page. This is the default option.
+Use this **dropdown menu** to filter feeds and integrations based on their current state. You can filter based on the following states:-   **All**: Displays all the feeds and integrations on the page. This is the default option.
 -   **Enabled**: Displays all the feeds and integrations that are in an enabled state.
--   **Disabled**: Displays all the feeds and integrations that are in a disabled state.
+-   **Disabled**: Displays all the feeds and integrations that are in an inactive state.
 -   **Draft**: Displays all the feeds and integrations that are in a draft state.
 
 </td></tr><tr><td>
 
-![Refresh](../image/enrich-refresh-icon.png)
+Refresh list
 
 </td><td>
 
-Use this action to refresh the Catalog.
+Use the refresh icon ![Refresh](../image/enrich-refresh-icon.png) to refresh the list.
 
 </td></tr><tr><td>
 
@@ -74,10 +74,10 @@ Search in catalog
 
 </td><td>
 
-Use this action to search for feeds/ integrations based on the name and description within the catalog.
+Use this action to search for feeds and integrations based on the name and description within the catalog.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrating Threat Intelligence Security Center](integrating-threat-intelligence-security-center.md)
+</table>**Parent Topic:**[Integrate](integrating-threat-intelligence-security-center.md)
 
 **Related topics**  
 

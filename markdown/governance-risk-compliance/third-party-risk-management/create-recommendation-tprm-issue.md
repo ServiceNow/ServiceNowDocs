@@ -42,7 +42,7 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Questionnaire requests** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Questionnaire requests** &gt; **All**.
 
 2.  Select an **Assessment instance** in the Responses received, Generating responses, or Completed state that you want to generate recommendations for.
 

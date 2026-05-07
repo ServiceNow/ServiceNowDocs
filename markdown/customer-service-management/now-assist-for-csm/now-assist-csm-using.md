@@ -62,6 +62,10 @@ Visualize and interpret customer sentiment across cases using the sentiment anal
 Identify clusters of related records and visualize their volumes and sentiment trends over time using the trending topics dashboard and GenAI-generated insights.
 -   **[Generate activity stream responses](../task/generate-a-recommendation-to-respond-to-an-activity.md)**  
 Generate recommendations for work notes or comments in a case record using Now Assist and add them to enhance the quality of your interactions with the user.
+-   **[Use automated quality assurance dashboard as a live agent](use-quality-assurance-dashboard-as-an-agent.md)**  
+The automated quality assurance dashboard provides GenAI-generated quality insights for individual agents, including time-based filters, trend analysis, category and parameter breakdowns, with a detailed list of reviewed cases.
+-   **[Use automated quality assurance dashboard as a manager](../task/use-quality-assurance-dashboard-as-a-manager.md)**  
+Access the automated quality assurance dashboard from the CSM Configurable Workspace to view detailed agent performance metrics and quality assurance scoring data.
 -   **[Create a case based on service definition recommendations](../task/use-service-definition-rec.md)**  
 Use Now Assist to view AI-predicted service recommendations based on the context of an interaction record, such as the short description or description, and create cases based on these recommendations.
 -   **[Using Troubleshooting steps identification AI agent](troubleshooting-steps-identification-ai-agent.md)**  

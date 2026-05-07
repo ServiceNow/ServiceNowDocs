@@ -1,6 +1,6 @@
 ---
 title: Fulfilling requests in Care Team Operations for Environmental Services
-description: Healthcare Facilities cases can be fulfilled one of two ways, depending on what plugin you have installed.
+description: Healthcare EVS cases can be fulfilled one of two ways, depending on what plugin you have installed.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Care Team Operations for Environmental Services, Healthcare Operati
 
 # Fulfilling requests in Care Team Operations for Environmental Services
 
-Healthcare Facilities cases can be fulfilled one of two ways, depending on what plugin you have installed.
+Healthcare EVS cases can be fulfilled one of two ways, depending on what plugin you have installed.
 
 For Care Team Operations for Environmental Services to create work orders from Healthcare EVS cases, the Field Service Management \[com.snc.work\_management\] plugin must be installed.
 

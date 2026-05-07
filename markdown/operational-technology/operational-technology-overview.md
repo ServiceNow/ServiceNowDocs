@@ -65,11 +65,11 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
     Creates the foundational data and relationships that enable your organization to use the ServiceNow® OT solution.
 
--   [OT Manager Foundation](../../now-assist-otm/concept/now-assist-for-otm-landing.md)
+-   [Operational Technology \(OT\) Manager Foundation](../../now-assist-otm/concept/now-assist-for-otm-landing.md)
 
     Helps streamline processes in the Industrial Workspace related to your OT device data.
 
--   
+-   [Operational Technology Discovery](../../operational-technology-discovery/concept/operational-technology-discovery-landing.md)
 
     Amplifies the visibility of devices in your OT environment.
 

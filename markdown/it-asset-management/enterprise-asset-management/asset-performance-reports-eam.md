@@ -6,7 +6,7 @@ release: australia
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-23"
 reading_time_minutes: 8
 breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
 ---
@@ -47,6 +47,7 @@ Asset performance involves assessing how effectively and efficiently assets fulf
 
 ## Considerations, requirements, and limitations
 
+-   The **First Used** field on EAM assets must contain a valid timestamp for accurate asset performance tracking. Assets with missing or invalid First Used values are excluded from performance calculations, creating gaps in lifecycle and utilization reporting.
 -   Asset key performance indicators \(KPIs\) aren't calculated for pallets, consumable, and bundle assets.
 -   Asset KPIs aren't calculated by default.
 -   To track the asset KPIs that include Asset availability, MTBF, and MTTR, you must perform the following configurations:

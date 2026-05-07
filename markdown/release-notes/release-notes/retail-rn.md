@@ -14,6 +14,7 @@ The ServiceNow® retail applications streamline frontline operations and custome
 
 ## Retail highlights for the Australia release
 
+-   Enables real-time tracking and monitoring of published store plans with visibility from overall plan status to individual store tasks.
 -   Enable HQ users and regional managers to create operational store plans involving cases and tasks for multiple stores through a guided, streamlined user experience.
 -   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
 -   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
@@ -23,6 +24,8 @@ See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operatio
 **Important:** Retail is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+This section describes new features and enhancements in this release.
 
 -   **[Manage store plans](https://www.servicenow.com/docs/access?context=rahi-retail-manage-store-plans&version=australia&pubname=australia-retail-industry&ft:locale=en-US)**
 

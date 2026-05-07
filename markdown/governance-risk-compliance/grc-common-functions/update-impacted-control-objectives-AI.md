@@ -28,7 +28,7 @@ Confirm that the control objective is active.
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the List icon \(![List icon.](../../assessment-engine/image/list-icon.png)\).
+2.  Select the List icon \(![](../../assessment-engine/image/list-icon.png)\).
 
 3.  Select **Compliance change recommendations** &gt; **Control objectives**.
 

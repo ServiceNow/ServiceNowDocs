@@ -32,7 +32,7 @@ When creating an on-demand internal assessment, TPR managers or TPR assessors ca
 1.  Navigate to one of the following locations:
 
     -   **All** &gt; **Third-party Risk Management** &gt; **Internal Risk Assessments** &gt; **All Assessments**.
-    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Internal Risk Assessments** &gt; **All Assessments**.
+    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Internal Risk Assessments** &gt; **All Assessments**.
 2.  Create an internal assessment by selecting **New** and fill in the form.
 
     For descriptions of all these fields, see [Create new internal assessment form](../reference/create-int-assess-form.md).
@@ -41,15 +41,15 @@ When creating an on-demand internal assessment, TPR managers or TPR assessors ca
 
 4.  Associate existing questionnaires with the assessment by performing one of the following.
 
-<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d345447e155">
+<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d347711e155">
 
 Option
 
-</th><th align="left" id="d345447e158">
+</th><th align="left" id="d347711e158">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d345447e164">
+</th></tr></thead><tbody><tr><td id="d347711e164">
 
 **Add a template in the Classic UI**
 
@@ -59,7 +59,7 @@ Description
 2.  Select **Edit**, select the questionnaires you want to use, and then select **Save**.
 
 
-</td></tr><tr><td id="d345447e188">
+</td></tr><tr><td id="d347711e188">
 
 **Add a template in the Vendor Management Workspace**
 

@@ -19,7 +19,7 @@ Role required: none
 
 ## Procedure
 
-1.  In your local environment, open Terminal \(On Mac or Linux\), or Command Line \(in Windows\).
+1.  In your local environment, open Terminal \(on Mac or Linux\), or Command Line \(in Windows\).
 
 2.  Using the terminal, use `cd` to move into the folder where you want to store your encryption keys.
 
@@ -39,16 +39,16 @@ Role required: none
 
     -   Country Name
     -   State of Province Name
-    -   Locality Name \(eg, city\)
-    -   Organization Name \(eg, company\)
-    -   Organizational Unit name \(eg, section\)
-    -   Common Name \(eg, fully qualified host name\)
+    -   Locality Name \(for example, city\)
+    -   Organization Name \(for example, company\)
+    -   Organizational Unit name \(for example, section\)
+    -   Common Name \(for example, fully qualified host name\)
     -   Email address
-    Work with your security team to ensure you enter the correct certificate information.
+    Work with your security team to verify that you enter the correct certificate information.
 
     ![Prompts displayed by openssl](../images/client-side-1.png)
 
-5.  Check the folder you that chose in step 2 to verify that the private key and public certificate have been created.
+5.  Check the folder you that you chose in step 2 to verify that the private key and public certificate have been created.
 
     If you used the same file names as in the step 3 example, you should see the following files:
 

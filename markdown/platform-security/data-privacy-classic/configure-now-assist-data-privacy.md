@@ -32,7 +32,7 @@ Role required: now\_assist\_data\_privacy\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Data Privacy \(Classic\)** &gt; **Privacy Policy Advanced Configuration**.![image.dpna-config]
+1.  Navigate to **All** &gt; **Data Privacy \(Classic\)** &gt; **Privacy Policy Advanced Configuration**.
 
     If you previously used the Sensitive Data Handler to help de-identify data for generative AI, you may already see a privacy policy configured. Your previously configured regular expressions have been migrated as part of your upgrade. If you already have a data policy for Now Assist, skip to step 6.
 
@@ -56,7 +56,7 @@ Role required: now\_assist\_data\_privacy\_admin
 
     Open the existing record with the Now Assist data channel if one is already present.
 
-7.  To add a data pattern to de-identify, select **Select Data Patterns**.![image.dpna-patterns]
+7.  To add a data pattern to de-identify, select **Select Data Patterns**.
 
 8.  To create your own data pattern, see [Configure Data Discovery patterns](../task/configure-data-discovery-patterns.md).
 
@@ -64,8 +64,6 @@ Role required: now\_assist\_data\_privacy\_admin
 
 
 ## Result
-
-![image.dpna-drilldown]
 
 Data caught by the regular expressions selected in the data patterns is de-identified for generative AI applications. In this example policy, it is configured to catch a series of active data patterns and then use the data extraction data channel.
 

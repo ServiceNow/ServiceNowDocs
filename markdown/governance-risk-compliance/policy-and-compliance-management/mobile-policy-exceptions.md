@@ -54,15 +54,15 @@ Time to complete this task: 5-10 minutes.
 
 5.  On the menu that is displayed, choose one from the following table to continue.
 
-<table id="choicetable_khx_51t_xhb"><thead><tr><th align="left" id="d276137e178">
+<table id="choicetable_khx_51t_xhb"><thead><tr><th align="left" id="d278434e178">
 
 Option
 
-</th><th align="left" id="d276137e181">
+</th><th align="left" id="d278434e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276137e187">
+</th></tr></thead><tbody><tr><td id="d278434e187">
 
 **Tap the menu icon \(![Swipe menu icon.](../../grc-common/image/mobile-top-menu-rotated.png)\)**
 
@@ -83,7 +83,7 @@ Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_d
 -   Cancel the operation and return to the exception record list.
 
 
-</td></tr><tr><td id="d276137e251">
+</td></tr><tr><td id="d278434e251">
 
 **Approve**
 
@@ -91,7 +91,7 @@ Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_d
 
 In the Additional comments field, enter comments. Comments are optional for approvals. Tap the calendar icon to edit the Valid to date. Tap **OK** followed by the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d276137e272">
+</td></tr><tr><td id="d278434e272">
 
 **Reject**
 
@@ -106,15 +106,15 @@ In the Additional comments field, enter comments. Comments are required for reje
 
 7.  On the menu for policy extension that is displayed, choose one to continue.
 
-<table id="choicetable_rt2_ldt_xhb"><thead><tr><th align="left" id="d276137e318">
+<table id="choicetable_rt2_ldt_xhb"><thead><tr><th align="left" id="d278434e318">
 
 Option
 
-</th><th align="left" id="d276137e321">
+</th><th align="left" id="d278434e321">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276137e327">
+</th></tr></thead><tbody><tr><td id="d278434e327">
 
 **Approve the extension**
 
@@ -122,7 +122,7 @@ Description
 
 In the Additional comments field, enter comments. Comments are optional for approvals.In the Requested extension field, tap the calendar icon to edit the date. Tap **OK** followed by the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d276137e351">
+</td></tr><tr><td id="d278434e351">
 
 **Reject the extension**
 
@@ -137,15 +137,15 @@ In the Additional comments field, enter comments. Comments are required for reje
 
     ![Policy Exception record details.](../image/mobile-exception-record.png)
 
-<table id="choicetable_zfb_gdt_xhb"><thead><tr><th align="left" id="d276137e393">
+<table id="choicetable_zfb_gdt_xhb"><thead><tr><th align="left" id="d278434e393">
 
 Option
 
-</th><th align="left" id="d276137e396">
+</th><th align="left" id="d278434e396">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d276137e402">
+</th></tr></thead><tbody><tr><td id="d278434e402">
 
 **Details tab**
 
@@ -160,7 +160,7 @@ Tap the **Control Objective** field to display a list of control objectives. Tap
 -   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Approve or reject the pending policy exception request, or edit it and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
 
-</td></tr><tr><td id="d276137e437">
+</td></tr><tr><td id="d278434e437">
 
 **Activity Stream tab**
 
@@ -170,7 +170,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
 
-</td></tr><tr><td id="d276137e467">
+</td></tr><tr><td id="d278434e467">
 
 **Related Lists**
 
@@ -182,7 +182,7 @@ With the Related lists tab selected, follow these steps.
 2.  On the list that is displayed, tap an item to open the record and view more details.
  At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Approve or reject the pending policy exception request, or edit and request more information. Follow the steps described in the preceding table. If the extension request menu is displayed, follow the steps described in the preceding table to approve or reject the extension request.
 
-</td></tr><tr><td id="d276137e500">
+</td></tr><tr><td id="d278434e500">
 
 **Screen icons at the bottom of the screen.**
 

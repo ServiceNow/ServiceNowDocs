@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Fulfilling request for copy of contract in playbook, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Fulfilling request copy contract playbook, Working with playbooks, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Fulfill request for copy of contract in playbook

@@ -4,7 +4,7 @@ description: The ServiceNow Australia release includes new products and applicat
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-03"
+last_updated: "2026-05-05"
 reading_time_minutes: 4
 ---
 

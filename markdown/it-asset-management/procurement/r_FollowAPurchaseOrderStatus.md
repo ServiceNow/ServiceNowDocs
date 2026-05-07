@@ -15,12 +15,12 @@ breadcrumb: [Create a purchase order, Procurement purchase order management for 
 
 Purchase orders follow a specific life cycle. The **Status** field on the purchase order record is always read-only.
 
-![Purchase order status](../image/PurchaseOrderStatus.png "Purchase order status")
+![Purchase Order status](../image/mmasset0021989-purchase-order-status.png "Purchase order status")
 
 |Status|Description|
 |------|-----------|
 |Requested|The status is **Requested** when you create a purchase order.|
-|Ordered|The status changes to **Ordered** when you add [purchase order line items](../task/t_CreateAPurchaseOrderLineItem.md), and click **Order**.|
+|Ordered|The status changes to **Ordered** when you add [purchase order line items](../task/t_CreateAPurchaseOrderLineItem.md), and select **Order**.|
 |Pending Delivery|When you [create assets before receiving them](../task/t_CreateAssetReserveForRequester.md) as a purchase order line item, the status of purchase orders and purchase order line items changes to **Pending Delivery** status.|
 |Received|When ordered assets arrive in the specified stockroom and you click **Receive**, the status of purchase orders and purchase order line items changes to **Received**.|
 |Canceled|You can cancel a purchase order if its status is **Requested**, **Ordered**, or **Pending Delivery**. For more information, see [Cancel a purchase order](../task/t_CancelAPurchaseOrder.md).|

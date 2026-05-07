@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 6
 breadcrumb: [Exploring ITOM/OT SU Licensing, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
 
@@ -31,7 +31,7 @@ ServiceNow® charges for the following IT Operations Management products:
 
 -   **ITOM Visibility**
 
-    The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](../../discovery/reference/r-discovery.md), ServiceNow® [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md), Certificate Inventory and Management, Service Graph Connectors, CMDB 360, and Firewall Audits and Reporting. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports.
+    The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](../../discovery/reference/r-discovery.md), [Firewall Audits and Reporting](../../discovery/reference/firewall-audit-reporting.md), [Certificate Inventory and Management](../../discovery/reference/cert-inventory-mgmt.md), [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md), [AI Agent Topology Mapping](../../ai-agent-topology-mapping/concept/ai-agent-topology-mapping-landing.md), [ITOM Content Service](../../discovery/concept/discovery-content-services.md), [Tag Governance](../reference/landing-page-tag-governance.md), [Cloud Discovery Workspace](../../cloud-operations-workspace/reference/cow-landing-page.md), and [Cloud License Estimator](../../cloud-license-estimator/Concept/cloud-license-estimator-landing.md) applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The [Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-available&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [CMDB 360](https://www.servicenow.com/docs/access?context=multisource-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) applications provide data to ITOM Visibility.
 
     In addition, Service Graph Connectors populate the CMDB by bringing in data from third-party monitoring and management systems. CMDB 360 enables you to track how the CMDB contains various discovery sources at the CI attribute level. Use Certificate Inventory and Management to avoid service outages due to expired TLS certificates. Firewall Audits and Reporting helps you to discover and manage your firewall security policies to heighten the security awareness for firewall audits.
 

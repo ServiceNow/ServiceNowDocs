@@ -60,7 +60,7 @@ By default, AI Search indexes alphanumeric content and metadata from all text an
 
 ## What to do next
 
-To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md#) and [Field settings for AI Search](../concept/field-settings-ais.md#).
+To control how your new indexed source processes source records and fields during indexing, configure its indexed source attributes and field settings. For more information, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md) and [Field settings for AI Search](../concept/field-settings-ais.md).
 
 To make content from source records searchable, perform a full table index for your new indexed source. For details on this procedure, see [Perform a full table index or reindex for a single AI Search indexed source](index-single-source-ais.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Set up self-service
-description: Creating a self-service portal helps customers resolve issues independently. You can integrate features like knowledge bases, chatbots, and appointment booking for easy access to information.
+description: Creating a self-service portal helps the customers resolve issues independently. You can integrate features like knowledge bases, chatbots, and appointment booking for easy access to information.
 locale: en-US
 release: australia
 product: Customer Self-service and Omnichannel Engagement
@@ -13,7 +13,7 @@ breadcrumb: [Configure, Customer Service Management]
 
 # Set up self-service
 
-Creating a self-service portal helps customers resolve issues independently. You can integrate features like knowledge bases, chatbots, and appointment booking for easy access to information.
+Creating a self-service portal helps the customers resolve issues independently. You can integrate features like knowledge bases, chatbots, and appointment booking for easy access to information.
 
 <table id="table_gg4_j41_l1c" class="nav-card"><tbody><tr><td>
 
@@ -29,20 +29,18 @@ Creating a self-service portal helps customers resolve issues independently. You
 
 </td></tr><tr><td>
 
-[Communities![](../../../reuse/icons/brand-icons/bus-community.svg)Use Communities to interact, learn, share knowledge, troubleshoot issues, and stay informed about the latest developments and innovations within the Customer Service Management ecosystem.](../../customer-communities/reference/servicenow-communities.md)
+[Business and Consumer Portal![](../image/business-consumer-portal.png)Set up the Business and Consumer Portal to provide self-service capabilities through configurable portal widgets.](../task/configure-business-portal.md)
 
 </td><td>
 
-[Knowledge Management![](../../../reuse/icons/brand-icons/bus-case-and-knowledge-management.svg)Create and share knowledge bases containing articles that provide users with information such as self-help, troubleshooting, and task resolution.](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Configurable Portal Widgets![](../image/config-portal-widgets-icon.png)Configure the behavior, content, and layout of a portal by configuring instance options on Configurable Portal widgets.](csm-configurable-portal-widget.md)
 
 </td><td>
 
-[Service catalog![](../../../reuse/icons/brand-icons/bus-service-catalog.svg)Create service catalogs to provide your customers with self-service opportunities to request items such as service and product offerings.](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[Web Embeddables![](../../../reuse/icons/brand-icons/bus-visual-task-boards.svg)Embed ServiceNow components into external websites to interact with the ServiceNow platform without requiring users to access the ServiceNow instance.](using-web-embeddables.md)
 
 </td></tr></tbody>
-</table>![overview of self service topics and how the relate to each other](../image/workflow-self-service.png "Self-service overview")
-
--   **[Customer and Consumer Service Portals](../task/configure-csm-service-portals.md)**
+</table>-   **[Customer and Consumer Service Portals](../task/configure-csm-service-portals.md)**
 
     Create and enable self-service portals for your customers to support their needs efficiently. Integrate these portals with knowledge bases, communities, service catalogs, and chatbots. Additionally, provide features like walk-up experiences and appointment booking to enhance their self-service options.
 
@@ -58,16 +56,12 @@ Creating a self-service portal helps customers resolve issues independently. You
 
     Install and set up the Conversational Appointment Booking application to enable customers to book, reschedule, or cancel appointments through Virtual Agent conversations.
 
--   **[Communities](../../customer-communities/reference/servicenow-communities.md)**
+-   **[Configurable Portal Widgets](csm-configurable-portal-widget.md)**
 
-    With the Communities application, you can engage with your employees, customers, partners, and prospects. Share knowledge and troubleshoot issues, and stay informed about the latest developments in the Customer Service Management ecosystem. Get quick responses by posting questions, reviewing blogs or videos, and searching previous discussions.
+    Use Configurable Portal widgets to configure widget behavior, visual appearance, and content. Update the information presented on widgets through instance options to reduce the work required to implement and maintain widgets for your users.
 
--   **[Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **[Web Embeddables](using-web-embeddables.md)**
 
-    Create and share knowledge bases using the Knowledge Management application. Use the knowledge base to share articles that provide your users with information such as self-help, problem-solving, and task resolution.
-
--   **[Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
-
-    Use the Service Catalog application to create and customize service catalogs so that your customers can request items such as services and product offerings. Additionally, you can standardize request fulfillment to maintain the accuracy and availability of the items in the catalogs.
+    Use Web Embeddables to embed ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform through dedicated APIs that enable real-time data exchange without requiring users to directly access the ServiceNow instance.
 
 

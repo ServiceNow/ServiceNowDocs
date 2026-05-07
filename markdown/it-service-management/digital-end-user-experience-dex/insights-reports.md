@@ -114,11 +114,11 @@ Last time the record was updated.
 |Field|Description|
 |-----|-----------|
 |Device|Name of the monitored digital device, like a laptop or a desktop.|
-|Assigned to|Owner of the device.|
+|User|Owner of the device.|
+|Event Name|Name of the event monitored on this device.|
+|Event Count|Number of the registered events on this device.|
 |OS Type|OS that manages and controls the device hardware, as well as enables the execution of applications such as Windows or macOS.|
 |Log Level|Selects the severity level of the log event being monitored, such as Debug, Error, Fault, Info, or Warning.|
-|Monitoring Config|Name of the event monitored on this device.|
-|Event Count|Number of the registered events on this device.|
 
 ## File management
 

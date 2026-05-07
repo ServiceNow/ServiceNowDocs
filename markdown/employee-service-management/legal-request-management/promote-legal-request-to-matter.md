@@ -33,15 +33,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d64103e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d66666e112">
 
 Option
 
-</th><th align="left" id="d64103e115">
+</th><th align="left" id="d66666e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64103e121">
+</th></tr></thead><tbody><tr><td id="d66666e121">
 
 **As an assignee**
 
@@ -53,7 +53,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d64103e150">
+</td></tr><tr><td id="d66666e150">
 
 **As a collaborator**
 
@@ -66,15 +66,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Promote a legal request to a legal matter by creating a new matter or adding it to an existing matter.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d64103e180">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d66666e180">
 
 Option
 
-</th><th align="left" id="d64103e183">
+</th><th align="left" id="d66666e183">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d64103e189">
+</th></tr></thead><tbody><tr><td id="d66666e189">
 
 **Create a new matter**
 
@@ -86,7 +86,7 @@ Steps
     -   To create a legal matter record without any predefined data, leave the Matter template field empty and select **OK**.
 
 
-</td></tr><tr><td id="d64103e224">
+</td></tr><tr><td id="d66666e224">
 
 **Add to an existing matter**
 

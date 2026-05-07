@@ -48,3 +48,5 @@ Role required: evt\_mgmt\_user, evt\_mgmt\_operator, or evt\_mgmt\_admin
     For information on the fields, see [Application service details page](../../service-operations-workspace-itom/reference/app-service-details.md).
 
 
+**Parent Topic:**[Service Operations Workspace](../../service-operations-workspace-itom/concept/workspace-dashboard-use.md)
+

@@ -17,8 +17,6 @@ Assign roles to control access to features, capabilities, and data in the Manufa
 
 Role required: admin or sn\_mfg\_cmn.manufacturing\_operations\_admin
 
-## About this task
-
 ## Procedure
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.

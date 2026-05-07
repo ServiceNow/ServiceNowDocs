@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Gantt view of TPM and TRM lifecycle timelines, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Gantt view of TPM and TRM lifecycle timelines, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM lifecycle timelines on Gantt chart
@@ -33,7 +33,7 @@ The TRM view also displays the status of the TRM phases of the software products
 
 If no TRM product lifecycle data is available for an application service, then the TRM phase for that service is displayed as **Not assessed**.
 
-Also, if a TRM product phase doesn’t have the **Production approved** check box \(**Enterprise Architecture Workspace** &gt; **Setup** &gt; **TRM Phases**\) selected, then the TRM phase column displays the status of the application service having that TRM phase as **Unapproved**. For details on how to approve a TRM phase, see [Add or edit a TRM phase](../../task/define-trm-phases.md).
+Also, if a TRM product phase doesn’t have the **Production approved** check box \(**Enterprise Architecture Workspace** &gt; **Setup** &gt; **TRM Phases**\) selected, then the TRM phase column displays the status of the application service having that TRM phase as **Unapproved**. For details on how to approve a TRM phase, see [Approve or reject TRM requests](../../task/eaw-task/eaw-approve-trm-req.md).
 
 Only when the TRM phase is marked as production approved and the phase start date has already passed, the TRM phase for the application service is displayed in the TRM phase column. For example, the TRM phase **Divest** is marked as production approved and has a start date of 01-12-2023. The current date is 10-12-2023. In such a scenario, all application services associated with the TRM phase have their phase status as **Divest** in the TRM phase column.
 
@@ -51,7 +51,7 @@ If you have TRM products that aren't aligned with TRM phases and standards, then
 |TRM Product Name|Not applicable|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with full version isn’t available for current date.|
 |TRM Product Name|Lifecycle phase|Product lifecycle|The software version isn’t approved for production.|TRM lifecycle with version and edition information isn’t production approved.|
 
-For details on TRM technical debts, see [Manage Technology Reference Model \(TRM\) technical debt](../../task/trm-technical-debt-calc.md).
+For details on TRM technical debts, see [Manage TRM technical debt](eaw-manage-trm-technical-debt.md).
 
 You can schedule the **Populate TRM technical debts in the EA Workspace** job to update the TRM technical debt data in the EA Workspace. For more information, see [Run a scheduled job to update TRM technical debt data in EA Workspace](../../task/eaw-task/eaw-run-job-trm-tech-debts.md).
 
@@ -77,13 +77,13 @@ For details on how to create a TRM product, see [Add a TRM product in Enterprise
 
 For details on how to create a TRM product lifecycle request, see [Add a TRM product lifecycle](../../task/eaw-task/eaw-create-trm-prod-lifecycle-req.md).
 
-For details on how to approve or reject a TRM product or lifecycle request, see [Approve or reject a TRM product or product lifecycle request](../../task/approve-reject-trm-request.md).
+For details on how to approve or reject a TRM product or lifecycle request, see [Approve or reject TRM requests](../../task/eaw-task/eaw-approve-trm-req.md).
 
 ## Color coding
 
 The colors of the TRM lifecycle timeline bars are based on their TRM phase status. To see the colors associated with each TRM phase status, select the **Legend** button \(![Legend button.](../../image/eaw-image/legend-icon.png)\).
 
-You can also change the TRM phase colors according to your requirement. For details on how to modify existing TRM phase colors, see [Add or edit a TRM phase](../../task/define-trm-phases.md).
+You can also change the TRM phase colors according to your requirement. For details on how to modify existing TRM phase colors, see [Add or edit a TRM phase](../../task/eaw-task/eaw-create-trm-phase.md).
 
 **Parent Topic:**[Gantt view of TPM and TRM lifecycle timelines](eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Use ERP Data action details for flows
-description: After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP \(Enterprise Resource Planning\) data into the ServiceNow AI Platform.
+description: After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP data into the ServiceNow AI Platform.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,14 +9,14 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, flow, reference]
-breadcrumb: [Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use ERP Data action details for flows
 
-After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP \(Enterprise Resource Planning\) data into the ServiceNow AI Platform.
+After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs. You can then build a flow with the action to incorporate ERP data into the ServiceNow AI Platform.
 
-For information on using the Use ERP Data action to retrieve ERP data, see .
+For information on using the Use ERP Data action to retrieve ERP data, see [Building flows to read or update the ERP system](../concept/erp-canvas-build-flow-operation.md).
 
 ## Roles and availability
 

@@ -1,6 +1,6 @@
 ---
 title: Set up the Jira Service Management spoke
-description: Integrate the ServiceNow instance and Jira Service Management by using the Basic Auth credentials to authenticate ServiceNow requests.Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
+description: Integrate the ServiceNow instance and Jira Service Management by using OAuth 2.0 to authenticate ServiceNow requests.Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
 locale: en-US
 release: australia
 product: Integration Hub
@@ -13,7 +13,7 @@ breadcrumb: [Jira Service Management Spoke, Integration Hub spokes, Build integr
 
 # Set up the Jira Service Management spoke
 
-Integrate the ServiceNow instance and Jira Service Management by using the Basic Auth credentials to authenticate ServiceNow requests.
+Integrate the ServiceNow instance and Jira Service Management by using OAuth 2.0 to authenticate ServiceNow requests.
 
 ## Before you begin
 
@@ -21,54 +21,34 @@ Integrate the ServiceNow instance and Jira Service Management by using the Basic
 -   Activate the Jira Service Management spoke.
 -   Role required: admin.
 
-## Generate an Atlassian account API token
+## About this task
 
-Generate an Atlassian account API token to authenticate requests for spokes associated with an Atlassian account.
+**Important:**
+
+Starting with the Australia release, instructions for generating and using API tokens have been removed from our documentation to align with Atlassian's Acceptable Use Policy. See the Atlassian blog, [Building Secure and Scalable Integrations: Our Guidance for Third-Party Apps](https://www.atlassian.com/blog/developer/building-secure-and-scalable-integrations-our-guidance-for-third-party-apps) for more information.
+
+## Obtain the value of Cloud ID
+
+Obtain the value of Cloud ID of the Jira Cloud instance. This value is required during the configuration of the connection record in your ServiceNow instance.
 
 ### Before you begin
 
-Make sure you have an Atlassian account.
-
-Role required: Atlassian administrator credentials
-
-### About this task
-
-Complete these steps from your Atlassian account. See the [Atlassian Developer](https://developer.atlassian.com/docs/) portal documentation for instructions on generating your API token.
-
-**Note:** This procedure is applicable only if you are using the Jira Cloud subscription.
+Role required: admin
 
 ### Procedure
 
-1.  Log in to [Atlassian Start](https://start.atlassian.com/) as an admin.
+1.  Log in to [Atlassian Administration](https://admin.atlassian.com/) as an admin.
 
-2.  Go to your account profile photo and select **Account Settings**.
+2.  Click **Select** against the required organization.
 
-    ![Atlassian Start page with the drop down menu of the selected profile picture. Account Settings option emphasized.](../image/jira-basic-settings.png)
+3.  From the **Jira Software** product, click **Manage product access**.
 
-3.  Go to **Security**.
+    A new window is opened and the URL is in this format: `https://admin.atlassian.com/s/<Cloud-ID>/apps`.
 
-4.  In the API token section, select **Create and manage API tokens**.
-
-5.  Click **Create API token**.
-
-6.  On the form, provide an integration name for the **Label** field.
-
-7.  Click **Create**.
-
-    ![The Create an API token modal with the Create button emphasized.](../image/jira-token.png)
-
-    The API token is generated.
-
-8.  Click **Copy** and record the value of the API token for later use.
-
-    ![Confirmation modal of Your new API token with the Copy button emphasized.](../image/jira-api-token.png)
+4.  Copy the value of the Cloud ID for later use.
 
 
-### What to do next
-
-Use your API token to configure the cloud connection for the Jira spoke.
-
-## Configure a connection for a Jira Service Management spoke
+## Configure a connection for the Jira Service Management spoke
 
 Add and configure a Jira Service Management connection to authenticate ServiceNow requests in a Jira Service Management spoke.
 
@@ -78,80 +58,19 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **Process Automation** &gt; **Workflow Studio**.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Select **Integrations**.
+2.  Click the **Integrations** tab.
 
-3.  Select the **Connections** tab.
+3.  Under **Connections**, the **Outbound** connections are displayed by default.
 
-4.  Use the search box to find the **Jira\_SM** connection alias.
+4.  Locate the **Jira\_SM** connection alias and click **View Details**.
 
-5.  Select **View Details**.
+    -   To configure the default connection and credential alias record that is shipped along with the Jira Service Management spoke, click **View Details**.
+    -   To manage more than one Jira Service Management spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
+    If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    ![Jira Service Management alias.](../image/jira-sm-alias.png)
-
-6.  Configure a cloud connection.
-
-    1.  Add or edit a cloud connection.
-
-        -   To set up an existing connection, select **Configure** or **Edit**.
-
-            ![Jira Service Management connection button.](../image/jira-sm-alias-configure.png)
-
-        -   To create and configure a new connection, select **Add Connection**.
-
-        **Note:** To support multiple connections through a spoke, see [Supporting multiple connections](../../integrationhub/concept/support-multiple-connections.md).
-
-    2.  On the configuration form, fill in the fields for a cloud connection.
-
-<table id="table_hhb_hxk_nzb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Value
-
-</th></tr></thead><tbody><tr><td>
-
-Connection Name
-
-</td><td>
-
-For example, `jira_sm_cloud_conn`.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-The instance URL in this format: `<provider-domain-name>.atlassian.net`.
-
-</td></tr><tr><td>
-
-User Name
-
-</td><td>
-
-Your Atlassian admin account email address.
-
-</td></tr><tr><td>
-
-Password
-
-</td><td>
-
-The API token generated in [Generate an Atlassian account API token](setup-jira-serv-mgmt.md#).
-
-</td></tr></tbody>
-</table>        ![Jira Service Management connection form.](../image/jira-sm-connection-form.png)
-
-    3.  Confirm your configuration.
-
-        -   For an existing connection, select **Edit Connection**.
-        -   For a new connection, select **Create Connection**.
-    4.  Repeat these steps for a server connection with the following information.
+5.  On the **Connection** form, fill in the fields.
 
 <table id="table_tfv_3d5_h5b"><thead><tr><th>
 
@@ -159,7 +78,7 @@ Field
 
 </th><th>
 
-Value
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -167,7 +86,7 @@ Connection Name
 
 </td><td>
 
-For example, `jira_sm_server_conn`.
+Name to uniquely identify the connection. For example, `Jira Spoke OAuth basic conn`.
 
 </td></tr><tr><td>
 
@@ -175,23 +94,19 @@ Connection URL
 
 </td><td>
 
-The Jira server instance URL.
+URL of your Jira instance in this format: `https://api.atlassian.com/ex/jira/{cloud-id}/`. Replace `{cloud-id}` with value of the Cloud ID you had obtained previously.
 
 </td></tr><tr><td>
 
-User Name
+Scopes
 
 </td><td>
 
-The admin user's user name.
-
-</td></tr><tr><td>
-
-Password
-
-</td><td>
-
-The admin user's password.
+By default, these scopes are provided `read:jira-user, read:servicedesk-request, write:servicedesk-request, manage:servicedesk-customer, read:jira-work, read:me, read:account, offline_access`. You can modify the scopes as per your requirement.**Note:** After the scopes are modified and saved, whenever you edit the connection record, the scopes are reset to the default scopes.
 
 </td></tr></tbody>
-</table>
+</table>    ![](../image/jira-sm-conn-temp.jpg)
+
+6.  Click **Save and Get OAuth Token**.
+
+

@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Customer success, Configure, Customer Success Management]
+breadcrumb: [Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Create a product adoption roadmap
@@ -41,7 +41,7 @@ Use this task to create a visual roadmap that helps you communicate product adop
 
     -   **From scratch**: Manually configure all roadmap settings and add products or capabilities.
     -   **Template**: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Create a product adoption roadmap template](account-lifecycle-create-par-roadmap-temp.md) for details.
-    -   **Now Assist**: Generate a roadmap using Now Assist. See  for details.
+    -   **Now Assist**: Generate a roadmap using Now Assist. See [Generate a product adoption roadmap using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-par-roadmap&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for details.
 
         **Note:** The Now Assist option is displayed only if:
 

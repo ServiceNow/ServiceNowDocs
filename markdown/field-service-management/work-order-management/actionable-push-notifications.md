@@ -28,3 +28,5 @@ Push notifications provide several advantages:
 
 [Configure actionable push notifications](https://www.servicenow.com/docs/access?context=actionable-push-notification&version=australia&pubname=australia-mobile&ft:locale=en-US)
 
+[Mobile push notification components](https://www.servicenow.com/docs/access?context=configure-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US)
+

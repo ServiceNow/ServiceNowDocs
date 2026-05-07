@@ -42,8 +42,6 @@ After you submit a supplier onboarding request, the application creates a new ca
 
 **Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-![Playbook tab on the Case Details page.](../image/playbook-tab.png "Playbook tab on the Case Details page")
-
 The Supplier onboarding playbook includes the following stages:
 
 -   Registration: Includes activities to register the supplier.

@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in Boomi Cloud API Management data into you
 
 ## Before you begin
 
-Install API Service Graph Connector for Boomi Cloud API Management version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install API Service Graph Connector for Boomi Cloud API Management version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 Obtain the API credentials from your Boomi Cloud API Management administrator. Make a note of the following details:
 

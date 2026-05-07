@@ -25,7 +25,7 @@ Role required: sn\_si.admin
 
     ![Creating an Activity Action](../image/activity-ctions.png)
 
-2.  Click **New**.
+2.  Select **New**.
 
     Refer to the [ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=now-platform-landing&version=australia&pubname=australia-now-platform&ft:locale=en-US) documentation to know how to create these actions. In this example, Skip is implemented as a server script.
 

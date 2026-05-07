@@ -41,5 +41,3 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |Success|Activity successfully assigned an Office 365 license to a user.|
 |Failure|Activity failed to assigned an Office 365 license to a user, or the activity failed to connect to Azure AD.|
 
-**Parent Topic:**[Azure AD activity pack](../concept/c_AzureADActivityPack.md)
-

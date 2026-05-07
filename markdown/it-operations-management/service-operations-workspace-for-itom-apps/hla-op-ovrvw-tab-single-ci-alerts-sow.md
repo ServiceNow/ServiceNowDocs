@@ -8,6 +8,7 @@ classification: service-operations-workspace-for-itom-apps
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [Health Log Analytics, Overview tab, log analytics alerts, Service Operations Workspace, anomaly detection, identified issue, configuration items, impacted services, meaningful log properties, anomalous behavior, alert investigation, surrounding logs]
 breadcrumb: [Start remediation of a Log Analytics alert, Log Analytics in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -25,20 +26,21 @@ For a detailed description of Log Analytics alerts, see [Types of Health Log Ana
 
     ![Identified issue appears here and in alert title.](../image/identified-issue-card-loganalytics-alert-sow.png "Identified issue")
 
-    Select **View surrounding logs** to view the log lines that were generated one minute before and one minute after the alert. See [Analyze log lines around the anomaly to help find the root cause](../task/hla-op-surrounding-logs-view.md).
+    Select **View surrounding logs** to view the log lines that were generated one minute before and one minute after the alert. See [Analyze log lines that surround an anomaly in Health Log Analytics](../task/hla-op-surrounding-logs-view-sow.md).
 
 -   **Anomaly**
 
     This card illustrates the anomalous activity that led to the alert.
 
-    -   The blue line shows the recent anomalous activity.
-    -   On some charts, the lightly shaded area indicates the expected \(learned baseline\) behavior.
+    The chart shows:
 
-        A peach-shaded area represents the baseline values for the same hour one day earlier. A pink-shaded area shows the values for the same period in the previous week.
+    -   Recent anomalous activity
+    -   Expected behavior \(the learned baseline\)
+    -   Baseline values from one day earlier
+    -   Baseline values from the previous week
+    In this example, the blue line represents the current average number of events per minute. The orange-shaded area represents the baseline values for the same hour in the previous week.
 
-    In this example, the peach-shaded area shows the data for the same hour one day earlier. The drop in the metric value \(events per minute\) is clearly visible.
-
-    ![Anomaly card identifies and illustrates anomalous behavior.](../image/anomaly-day-earlier-sow.png "Anomaly card")
+    ![Baseline values for same hour in previous week.](../image/anomaly-week-earlier.png "Anomaly card with baseline values one week earlier")
 
     For more information on the kinds of anomalies that you might encounter, see [Types of anomalous behavior in Health Log Analytics](hla-op-anomalous-behavior-types.md).
 
@@ -65,5 +67,5 @@ For a detailed description of Log Analytics alerts, see [Types of Health Log Ana
     ![Meaningful log properties shows relative frequency of occurrence for property values.](../image/meaningful-log-properties-card-sow.png "Meaningful log properties")
 
 
-**Parent Topic:**[Take action on a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
+**Parent Topic:**[Start remediation of a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Alerts in Instance Observer]
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Alerts in Instance Observer
@@ -114,8 +114,14 @@ Use the Instance Observer alerting feature to receive notifications on the perfo
 Get started with the popular alerts that are most widely used to receive notifications about your instance performance if you’re new to the Instance Observer \(IO\) alerting system. The most popular alerts appear on the first page of your Configure Alerts page.
 -   **[Instance Observer Notifications](i-o-notifications.md)**  
 Notifications for alerts and other system activity are displayed on the Instance Observer banner.
+-   **[Configure long pending jobs alert by job priority](../task/io-long-pending-jobs.md)**  
+Get notifications when jobs that are pending exceed your defined overdue thresholds by configuring the **Long Pending Jobs** alert. Set up conditions by job priority to take action on groups of jobs—such as all discovery jobs or system cleanup jobs—in one go, rather than managing them individually.
+-   **[Configure IO alert notifications for a ServiceNow instance](../task/io-receive-notification-customer-conf-webhook.md)**  
+Set up a basic integration between Instance Observer \(IO\) and ServiceNow to route IO alert notifications to a ServiceNow instance.
+-   **[Configure IO alert notifications for a third-party application](../task/io-receive-notification-third-party.md)**  
+Set up a basic integration between Instance Observer \(IO\) and third-party integrations to route IO alert notifications to an external system in addition to emails and SMS.
 -   **[Custom payload in alerts integration](../reference/custom-payload-help-guide-impact.md)**  
 Instance Observer integrations enable you to define and manage custom JSON request payload for ServiceNow and third-party integrations.
 
-**Parent Topic:**[Instance Observer](io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](io-overview.md)
 

@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Working with playbooks, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Sourcing intake guided experience with playbooks
@@ -20,8 +20,6 @@ The sourcing intake playbook and the negotiation setup playbook embedded in the 
 Here's a quick breakdown of the playbooks and their associated tasks.
 
 ## Sourcing intake playbook
-
-![Sourcing intake playbook](../image/pb-sourcing-intake.png)
 
 The sourcing request playbook, also known as the sourcing intake playbook, enables you to:
 
@@ -41,8 +39,6 @@ The sourcing request playbook, also known as the sourcing intake playbook, enabl
 
 
 ## Negotiation setup playbook
-
-![Negotiation setup playbook](../image/pb-nego-setup.png)
 
 The sourcing event playbook, also known as the negotiation setup playbook, enables you to:
 

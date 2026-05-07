@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 2
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ User criteria records define conditions that are evaluated against user records.
 User criteria is a platform feature used in Service Portal. Learn more about user criteria in the ServiceNow AI Platform:
 
 -   Service Catalog: [Set security for items and categories](https://www.servicenow.com/docs/access?context=c_ServiceCatalogAccessControls&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
--   Knowledge management: [Control access at the knowledge base level through user criteria](https://www.servicenow.com/docs/access?context=t_SelectUserCriteria&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Knowledge Management: [Control access at the knowledge base level through user criteria](https://www.servicenow.com/docs/access?context=t_SelectUserCriteria&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
 **Important:** After making user criteria additions or changes, you may need to log out and log back in to clear the prior configuration.
 
@@ -30,9 +30,9 @@ User criteria in Service Portal replaces role-based permissions. After activatin
 
 ## User criteria checks
 
-User criteria uses the following checks in Service Portal to verify user access.
+User criteria uses the following checks in Service Portal to confirm user access.
 
-![User criteria check flow chart describing how the system verifies whether a user can access an item.](../image/UserCriteriaCheck.png)
+![User criteria check flow chart describing how the system confirms whether a user can access an item.](../image/UserCriteriaCheck.png)
 
 ## Page access user criteria
 
@@ -44,7 +44,7 @@ The following diagram shows how the system decides whether a user can access a p
 
 The following diagram shows how the system determines whether a user has access to a particular widget or widget instance.
 
-![Flow chart detailing the process the system uses to verify a user's ability to access a widget.](../image/WidgetAccess2.png)
+![Flow chart detailing the process the system uses to confirm a user's ability to access a widget.](../image/WidgetAccess2.png)
 
 -   **[Activate the user criteria for Service Portal plugin](../task/activate-user-criteria.md)**  
 You can activate the Service Portal User Criteria Support plugin \(com.glide.service-portal.user-criteria\) if you have the admin role.

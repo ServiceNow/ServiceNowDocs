@@ -1,0 +1,27 @@
+---
+title: BCM properties
+description: You can configure the BCM properties in the Properties module.
+locale: en-US
+release: australia
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
+---
+
+# BCM properties
+
+You can configure the BCM properties in the **Properties** module.
+
+If you are the Business Continuity Management application user, you can view the properties for the Business Continuity Management application in **Properties** in **General Administration**.
+
+You can view the **Properties** menu option in **General Administration** as shown in the example.
+
+![General Administration module.](../image/gen-admin-module.png)
+
+You can select the **Properties** module to view and configure the BCM application properties as shown in the example.![Properties module.](../image/properties-module.png)
+
+For more information on BCM properties, see [Properties installed with BCM](../reference/properties-bcm.md).
+
+**Parent Topic:**[General administration setup for BCM](set-up-bcm-bcmadmin-tasks.md)
+

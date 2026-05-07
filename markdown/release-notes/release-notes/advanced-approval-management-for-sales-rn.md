@@ -1,6 +1,6 @@
 ---
 title: Advanced Approval Management release notes
-description: The ServiceNow Advanced Approval Management application enables you to define workflows for approving Sales and Order Management entities, such as customer quotes. Advanced Approval Management is a new application in the Australia release.
+description: The ServiceNow Advanced Approval Management application enables you to define workflows for approving Sales Customer Relationship Management entities, such as customer quotes. Advanced Approval Management is a new application in the Australia release.
 locale: en-US
 release: australia
 topic_type: reference
@@ -10,7 +10,7 @@ reading_time_minutes: 3
 
 # Advanced Approval Management release notes
 
-The ServiceNow® Advanced Approval Management application enables you to define workflows for approving Sales and Order Management entities, such as customer quotes. Advanced Approval Management is a new application in the Australia release.
+The ServiceNow® Advanced Approval Management application enables you to define workflows for approving Sales Customer Relationship Management entities, such as customer quotes. Advanced Approval Management is a new application in the Australia release.
 
 ## Advanced Approval Management highlights for the Australia release
 
@@ -87,5 +87,5 @@ Install Advanced Approval Management by requesting it from the ServiceNow Store.
     The Quote Management application enables sales teams to create, configure, and manage customer quotes so that they accurately reflect products, pricing, and discounts throughout the sales cycle. Sales agents can submit quotes for approval using workflows defined in the Advanced Approval Management application.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

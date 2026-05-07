@@ -146,7 +146,7 @@ Discover and Store Data
 Finds the data from the server and then updates the records in the Application, Collection, and Deployment tables.
 
 </td></tr></tbody>
-</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](csd-app-2-1.md) is installed.
+</table>**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
 
 ## Spoke actions
 
@@ -258,7 +258,7 @@ Retrieves the MECM Script Execution Response from the MECM server.
 
 </td></tr><tr><td rowspan="4">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](csd-app-2-1.md) is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
 
 </td><td>
 
@@ -471,7 +471,7 @@ The MECM spoke adds the MECM application to your instance. The application inclu
 |Deployments|Displays the list of deployments from the Microsoft Endpoint Configuration Manager server.|Deployment \[sn\_ms\_epcfgmgr\_spk\_deployment\]|
 |Collections|Displays the list of collections from the Microsoft Endpoint Configuration Manager server.|Collection \[sn\_ms\_epcfgmgr\_spk\_collection\]|
 
-**Note:** These modules are available only when the [Client Software Distribution 2.0 application](csd-app-2-1.md) is installed.
+**Note:** These modules are available only when the [Client Software Distribution 2.0 application](csd-app-2.md) is installed.
 
 ## Connection and credential alias requirements
 

@@ -91,5 +91,5 @@ The link to the user's social media account.
 **Related topics**  
 
 
-[Social media integration](../concept/social-media-integration.md)
+[Social media communication channel](../concept/social-media-integration.md)
 

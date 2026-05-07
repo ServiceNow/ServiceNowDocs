@@ -8,7 +8,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Create metric rules, Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Creating a metric rule, Alert rules, Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Add an alert action
@@ -18,7 +18,7 @@ Set up an alert action with Proactive Engagement for Digital End-User Experience
 ## Before you begin
 
 -   Confirm that the Proactive Engagement plugin \(sn\_pren\) for Digital End-User Experience \(DEX\) is installed.
--   Make sure that the configuration items for the metric rule are specified and the alert metric criteria are defined. For more information, see [Specify the configuration item for metric rules](specify-metric-rule-applications.md) and [Define alert metric criteria](define-alert-metric-criteria.md).
+-   Make sure that the configuration items for the metric rule are specified and the alert metric criteria are defined. For more information, see [Specify metric rule CI](specify-metric-rule-applications.md) and [Define alert criteria](define-alert-metric-criteria.md).
 
 Role required: sn\_dex.admin
 

@@ -8,7 +8,7 @@ classification: self-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Service catalog requests, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog requests, Self-Service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add new request items

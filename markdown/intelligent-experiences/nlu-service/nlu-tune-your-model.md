@@ -27,5 +27,3 @@ When the Expert Feedback Loop has feedback waiting for your review, **You have u
 
 For more information, see [NLU Expert Feedback Loop](nlu-expert-feedback-loop.md)
 
-**Parent Topic:**[Model management](model-management-phases.md)
-

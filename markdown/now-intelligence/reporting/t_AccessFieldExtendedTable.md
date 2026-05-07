@@ -18,7 +18,7 @@ Learn how to include fields from tables that extend the Task table in a single r
 
 ## Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 To include the columns in the report that are unique to the extended tables, a user with the admin role must enable a system property \[glide.ui.list.allow\_extended\_fields\]:
 
@@ -36,7 +36,7 @@ The video shows how to create a report with data from multiple tables using the 
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the Data tab, name the report `Active Incidents and Problems of Priority 1 or 2`, select the Source type Table, and select the table Task \[task\].
 

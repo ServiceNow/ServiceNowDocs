@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sourcing intake guided experience with playbooks, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing intake guided experience playbooks, Working with playbooks, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Set up negotiations with suppliers and manage qualifications in playbook
@@ -27,15 +27,15 @@ Ensure that you’ve selected the appropriate sourcing approach. For details, se
 
 2.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d169912e75">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d175579e75">
 
 Decision
 
-</th><th align="left" id="d169912e78">
+</th><th align="left" id="d175579e78">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d169912e84">
+</th></tr></thead><tbody><tr><td id="d175579e84">
 
 **Create a type of work**
 
@@ -43,7 +43,7 @@ Action
 
 On the Create a type of work pop-up window, select the required case or task, and add it to the sourcing event.
 
-</td></tr><tr><td id="d169912e93">
+</td></tr><tr><td id="d175579e93">
 
 **Complete qualification**
 

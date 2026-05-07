@@ -59,7 +59,7 @@ Sandbox template
 
 </td><td>
 
-Template selected for the sandbox.For information on configuring templates to generate reusable data, see [Create a sandbox template](create-sandbox-template.md).
+Template selected for the sandbox.For information on configuring templates to generate reusable data, see [Using sandbox templates](create-sandbox-template.md).
 
 </td></tr><tr><td>
 
@@ -85,5 +85,5 @@ Developer Sandboxes starts the process of provisioning the sandbox.
 
 Once allocated, developers can access their sandbox by pre-pending the **Sandbox alias** value to the instance name followed by `devsandboxes`. For example, `https://samsbox.[instance].devsandboxes.servicenow.com`.
 
-Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you allow it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](../concept/dev-sbx-installing.md).
+Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](../concept/dev-sbx-installing.md).
 

@@ -17,7 +17,7 @@ As an Talent admin you can add or manage **Aspiration Types**, which are used to
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## Procedure
 

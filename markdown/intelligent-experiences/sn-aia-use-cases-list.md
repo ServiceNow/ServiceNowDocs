@@ -1,18 +1,20 @@
 ---
 title: Now Assist agentic workflows
-description: You can customize Now Assist agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
+description: Agentic workflows are AI‑driven workflow orchestrations that use one or more AI agents to achieve a specific outcome. They go beyond single‑step automation by dynamically planning, executing, and adapting actions based on context, data, and intermediate results.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2025-12-05"
-reading_time_minutes: 6
+last_updated: "2026-04-27"
+reading_time_minutes: 7
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [Now Assist AI assets, Enable AI experiences]
 ---
 
 # Now Assist agentic workflows
 
-You can customize Now Assist agentic workflows to meet the needs of your users in different workflows. For example, you can use agentic AI to help resolve tasks, execute routine but variable procedures, and investigate root causes or analytical trends.
+Agentic workflows are AI‑driven workflow orchestrations that use one or more AI agents to achieve a specific outcome. They go beyond single‑step automation by dynamically planning, executing, and adapting actions based on context, data, and intermediate results.
+
+Unlike traditional workflows that follow a fixed, predefined path, agentic workflows are designed to handle routine but variable procedures, such as investigation, remediation, and analysis, where the exact steps may differ from case to case.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](../../ai-implementation/concept/ai-native-sku-overview.md).
 
@@ -22,9 +24,41 @@ Agentic workflows use multiple AI agents to achieve specific outcomes. Different
 
 For more information about the in-product agentic AI experience, see [In-product agentic AI](in-product-agentic-ai.md). You can create UI actions for your agentic workflows in AI Agent Studio. Open the agentic workflow, navigate to the [Select channels and access](../task/channels-access-aw.md) step in the guided setup, and create a UI action.
 
-## Workflow and product agentic workflows
+## What an agentic workflow does
 
-The following table describes the available AI agents agentic workflows that are included in Now Assist applications.
+Agentic workflows are designed to:
+
+-   Achieve an outcome, not just complete a task
+
+    The workflow focuses on resolving a business problem or completing a goal, rather than executing a single action.
+
+-   Coordinate multiple AI agents and skills
+
+    Agentic workflows can invoke generative AI skills and AI agents as needed to gather information, reason over data, take action, and verify results.
+
+-   Adapt to variability
+
+    Workflows can adjust execution paths based on conditions, findings, or system responses, making them suitable for non deterministic scenarios such as troubleshooting or analysis.
+
+-   Operate across systems and records
+
+    Agentic workflows interact with the ServiceNow AI Platform and connected systems to read data, update records, and trigger downstream actions.
+
+
+## How agentic workflows are used
+
+Agentic workflows are commonly used to:
+
+-   Resolve tasks that follow a repeatable decision pattern but vary in execution.
+-   Investigate issues by gathering and analyzing contextual data.
+-   Execute remediation steps based on findings.
+-   Assist users with analytical or exploratory workflows.
+
+Depending on the product and configuration, agentic workflows can be triggered automatically or initiated by a user through a contextual UI or action.
+
+## Available agentic workflows by product
+
+The following table describes the available agentic workflows that are included in Now Assist applications.
 
 <table id="table_tw1_t4n_g2c"><thead><tr><th class="filter">
 
@@ -35,6 +69,14 @@ Product
 Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
+
+[Build Agent](https://www.servicenow.com/docs/access?context=build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)
+
+</td><td>
+
+[Create in-app agents, skills, and workflows](https://www.servicenow.com/docs/access?context=create-custom-ai-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)
+
+</td></tr><tr><td>
 
 [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 
@@ -63,7 +105,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-Now Assist for Creator
+[Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
 
 </td><td>
 
@@ -340,7 +382,6 @@ Help manage public information requests
 -   [Help manage workplace reservations](https://www.servicenow.com/docs/access?context=manage-workplace-reservations-agent-ai&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
 -   [Manage temporary space closures](https://www.servicenow.com/docs/access?context=maintenance-meeting-room-agent-ai&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
 -   [Optimize cleaning activities](https://www.servicenow.com/docs/access?context=optimize-cleaning-activities-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   Process images for new tasks
 -   [Workplace Concierge](https://www.servicenow.com/docs/access?context=workplace-concierge-ai-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
 
 </td></tr><tr><td>

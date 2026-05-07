@@ -4,7 +4,7 @@ description: Cumulative release notes summary on additional requirements for Aus
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-05-04"
 reading_time_minutes: 5
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -25,11 +25,19 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Control Tower
+AI Desktop Actions
 
 </td><td>
 
-Not applicable.
+The following are required to use AI Desktop Actions:
+
+-   Operating system: Microsoft Windows 11.
+-   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
+-   No extended monitors are connected.
+
+You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+
+You must enable Next Experience UI Framework before you can use the Now Assist panel.
 
 </td></tr><tr><td>
 
@@ -57,19 +65,11 @@ This application requires Financial Services Card Operations \(sn\_bom\_credit\_
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi CDRN
+Financial Services Operations Integration with Verifi
 
 </td><td>
 
 The system property sn\_bom\_credit\_card.is\_verifi\_integration\_enabled must be set to true, so that it will be shipped as false out of the box.
-
-</td></tr><tr><td>
-
-Knowledge Graph
-
-</td><td>
-
-Ensure that your instance is upgraded to XP7.
 
 </td></tr><tr><td>
 
@@ -91,6 +91,14 @@ Next Experience UI Framework must be enabled before you can use the Now Assist p
 
 </td></tr><tr><td>
 
+Now Assist for FSM
+
+</td><td>
+
+The Now Assist for FSM application requires Field Service Management.
+
+</td></tr><tr><td>
+
 Now Assist in Document Intelligence
 
 </td><td>
@@ -103,7 +111,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 
@@ -204,6 +212,14 @@ Telecommunications Network Inventory
 </td><td>
 
 You must install Customer service install base management \(sn\_cs\_sm\_request\) plugin and Remote Hands plugin from the ServiceNow Store to use the Remote Hands feature.
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+SAP ECC and SAP S/4 HANA are currently the only available systems that integrate with Zero Copy Connector for ERP.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)

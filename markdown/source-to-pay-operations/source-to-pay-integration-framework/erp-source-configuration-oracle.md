@@ -96,7 +96,7 @@ To perform the ERP Source configuration for Oracle EBS, follow these steps:
 
         Set up subflows for the source configuration to lookup invoices from Oracle EBS.
 
-    ![ERP Source Configuration of Oracle EBS](../image/oracle-ebs-source-config.png "ERP Source Configuration of Oracle EBS")
+    ![ERP Source Configuration of Oracle EBS](../../source-to-pay-operations/image/oracle-ebs-source-config.png "ERP Source Configuration of Oracle EBS")
 
 6.  Configure a scheduled job to synchronize primary data updates from Oracle EBS.
 7.  Set up the interval in the lookup Cost Center scheduled job to periodically synchronize primary data updates from the ERP, for posting services to work.

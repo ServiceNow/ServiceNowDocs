@@ -103,6 +103,8 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
         -   Canadian French
         -   British English
         -   Mexican Spanish
+        -   Thai
+        -   Hindi
         See [Multilingual support for voice assistants](https://www.servicenow.com/docs/access?context=multi-lingual-support-for-voice-assistants&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
 
     2.  Add a personalized welcome message to greet the callers calling into the voice assistant.
@@ -143,7 +145,7 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
         If the caller can't be uniquely identified through the primary method, the system automatically retries using the fallback method.
 
-    3.  Enable the caller access to AI voice agents by selecting the authentication type and methods used.
+    3.  Enable caller access to AI voice agents by selecting the authentication type, First factor, and Second factor methods.
 
         Caller authentication verifies the caller’s identity before allowing access to AI voice agents that require authentication.
 
@@ -151,14 +153,16 @@ Add tags to track analytics for the voice assistant. For example: HR Business Un
 
         -   Multi-factor authentication \(MFA\) requires callers to successfully complete more than one verification method configured before the system grants access. MFA is required by default.
         -   Single factor authentication requires the user to complete the configured verification method. To enable single factor authentication, you must set the `glide.voice.authenticate.mfa_mandatory` system property to `false`.
-        Select from the following authentication methods.
+        Select from the following **First factor** authentication methods.
 
         -   Knowledge-based authentication \(KBA\)
         -   Okta Verify push notification
         -   SMS verification code
         -   Authenticator app time-based One Time Password \(TOTP\)
         -   Soft PIN
-        **Note:** KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://www.servicenow.com/docs/access?context=knowledge-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+        Select from the following **Second factor** authentication methods.
+
+        **Note:** The option selected as the First factor is not available in the Second factor dropdown. KBA authentication, for example, employee security questions, requires you to configure the questions and response fields at platform level and explicitly map them to the voice assistant before they can be selected here. To ensure secure and consistent verification, KBA authentication factor must use numeric data only, for example, date of birth, Social Security Number, or employee Id. Additionally, the source table used must reference the `sys_user` table so that caller identity can be validated reliably across the platform. See [Knowledge-based authentication \(Security Questions\)](https://www.servicenow.com/docs/access?context=knowledge-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
 
     4.  Select **Save and continue**.
 

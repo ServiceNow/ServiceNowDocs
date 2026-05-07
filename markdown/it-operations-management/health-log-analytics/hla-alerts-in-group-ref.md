@@ -29,7 +29,7 @@ Number
 
 </td><td>
 
-The number of the alert that appears in the list of alerts on the Operator Workspace dashboard. To view detailed information for an alert on the **Details** tab, click the alert number.
+The number of the alert that appears in the list of alerts on the Operator Workspace dashboard. To view detailed information for an alert on the **Details** tab, select the alert number.
 
  This field is automatically set.
 
@@ -73,7 +73,7 @@ Priority group that indicates the order in which to resolve alerts. Choices are 
 -   **Moderate**
 -   **Low**
 
- The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
+The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
 
 </td></tr><tr><td>
 

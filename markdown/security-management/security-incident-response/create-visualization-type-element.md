@@ -52,9 +52,5 @@ Role required: sn\_msi.workspace\_manager
 10. Select **Submit**.
 
 
-## Report template subsection element type for a Technical Status Report
-
-![Report subsection element - Duration counters](../image/visualization-type.png "Report subsection element type")
-
 **Parent Topic:**[Create Report Subsection Element template](create-report-subsection-element-template.md)
 

@@ -21,6 +21,7 @@ This framework is specific to Facilities Management, focusing on the physical en
 |Environmental/Facility Conditions|Requests for repairs, routine maintenance, and inspections to confirm the physical state of buildings and grounds meets standards.|
 |Safety and Security|Requests for installation and maintenance of surveillance systems, access control systems, and emergency response planning.|
 |Utilities and building infrastructure|Requests for maintenance and management of essential services such as electricity, water, HVAC systems, and communication networks.|
+|Structural integrity|Requests for structural inspections, repairs, and maintenance to ensure the building remains safe and sound over time.|
 
 <table id="table_rfc_rzw_zfc"><thead><tr><th>
 

@@ -17,14 +17,13 @@ Monitor and analyze SD-WAN network alerts across customers and devices, with vie
 
 ## Access the SD-WAN Alerts Dashboard
 
-1.  Navigate to **All** &gt; **Platform Analytics &gt; Dashboards**.
-2.  In the search field, enter SD-WAN Alerts Dashboard. By default, the **Alert Summary** tab is selected.
+Access the SD-WAN Alerts Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for or selecting SD-WAN Alerts Dashboard. By default, the **Alert Summary** tab is selected.
 
 ## Alert Summary
 
-The Alert Summary provides an overview of SD-WAN alert activity filtered by severity, state, customer, or CI. Use the **Apply** and **Reset** buttons to update or clear the filters.
+The **Alert Summary** tab provides the capability to filter SD-WAN alert activity by severity, state, customer, or CI.
 
-![SD-WAN alert summary](../images/sd-wan-alert-dashboard.png)
+![SD-WAN Alert Summary tab](../images/sd-wan-alert-dashboard.png)
 
 |Title|Type|Description|
 |-----|----|-----------|
@@ -34,9 +33,9 @@ The Alert Summary provides an overview of SD-WAN alert activity filtered by seve
 
 ## Alert Categorization
 
-Alert Categorization displays SD-WAN alerts grouped by customer and severity.
+The **Alert Categorization** tab displays SD-WAN alerts grouped by customer and severity.
 
-![SD-WAN alert categorization](../images/Events-Dashboard.png)
+![SD-WAN Alert Categorization](../images/Events-Dashboard.png)
 
 |Title|Type|Description|
 |-----|----|-----------|

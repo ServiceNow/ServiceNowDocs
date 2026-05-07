@@ -15,6 +15,8 @@ breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compl
 
 Perform a comprehensive external risk assessment when calculating multiple ratings and scores by using the Third-party Risk Management application. You can gain a deeper understanding of the overall calculation process and learn how user-defined parameters and configurations influence the results of the questionnaires.
 
+The following video provides an overview of assessment scoring using the classic assessment engine.Overview explaining how assessment scoring is calculated in the classic assessment engine. 
+
 ## Risk rating scale
 
 Every time that you create a questionnaire, the system applies a default risk rating. You can configure the risk rating scale, which includes the categories, minimum, and maximum values, to meet your specific questionnaire needs that can vary for each assessment. For example, you can define risk rating values as colors rather than **1-Very High** through **5-Very Low**.

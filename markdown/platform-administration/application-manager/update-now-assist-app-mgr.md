@@ -64,15 +64,15 @@ Role required: admin or sn\_appclient.app\_client\_user
 
 8.  Update the application now or schedule installation for a later time.
 
-<table id="choicetable_vcm_ndz_tgc"><thead><tr><th align="left" id="d180068e307">
+<table id="choicetable_vcm_ndz_tgc"><thead><tr><th align="left" id="d183139e307">
 
 Installation option
 
-</th><th align="left" id="d180068e310">
+</th><th align="left" id="d183139e310">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d180068e316">
+</th></tr></thead><tbody><tr><td id="d183139e316">
 
 **Install now**
 
@@ -82,7 +82,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d180068e340">
+</td></tr><tr><td id="d183139e340">
 
 **Install later**
 

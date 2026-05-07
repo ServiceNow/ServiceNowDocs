@@ -8,7 +8,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Explore, Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Playbook, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook builder

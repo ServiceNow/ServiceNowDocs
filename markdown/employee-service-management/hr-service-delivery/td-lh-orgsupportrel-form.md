@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Leader Hub reference, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Org Support Relationships table

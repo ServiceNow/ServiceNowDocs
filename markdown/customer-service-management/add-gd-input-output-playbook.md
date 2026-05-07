@@ -82,7 +82,7 @@ Start rule
 Defines when to start the process the activity. Select one of the following:-   When stage starts: Your stage starts running as soon as the playbook starts.
 -   After specific activities: Your stage starts running after specified stage\(s\) have finished running.
 
-Starts after:
+Starts after
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ Defines how the activity runs when the playbook is restarted. -   Skip on restar
 
 
 </td></tr></tbody>
-</table>6.  In the Automation tab, fill in the following fields.
+</table>6.  In the Automation tab, fill in the following fields and select **Save and close** button.
 
 <table id="table_rqy_cbj_c3c"><thead><tr><th>
 
@@ -169,7 +169,12 @@ Outputs of the action, subflow, or flow that is driving the activity.
 </td></tr></tbody>
 </table>    **Note:** The activity provides a refresh capability that allows you to update to the latest decision tree version while preserving existing input mappings and adding any new input fields that were introduced in the newer version.
 
-7.  Select **Save and close**.
+7.  In the UI Layout tab for knowledge articles, fill in the following fields and select **Save and control**.
+
+    |Field|Description|
+    |-----|-----------|
+    |Article height|Default height of the article.|
+    |Collapse knowledge article|When selected, the article appears collapsed in the playbook.|
 
 8.  In the main header, select **Activate**.
 
@@ -178,7 +183,7 @@ Outputs of the action, subflow, or flow that is driving the activity.
 
 ## Result
 
-The decision tree is added to the playbook. Depending on the context of the case, customer service agents can access the decision trees from cases on Agent Workspace.
+The decision tree is added to the playbook. Depending on the context of the case, customer service agents can access the decision trees from cases on Agent Workspace. An agent can restart this activity by selecting the **Restart Activity** option in a playbook. For more information on how to restart an activity, see [Restart a playbook](https://www.servicenow.com/docs/access?context=restart-a-playbook&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
 
 **Related topics**  
 

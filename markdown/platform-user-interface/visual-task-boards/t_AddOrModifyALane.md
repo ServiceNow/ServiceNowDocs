@@ -8,7 +8,7 @@ classification: visual-task-boards
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
+breadcrumb: [Creating Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Configure UIs and portals, Configure user experiences]
 ---
 
 # Add or modify Visual Task Board lanes
@@ -33,7 +33,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_chv_rys_kv"><tbody><tr><td id="d43703e107">
+<table id="choicetable_chv_rys_kv"><tbody><tr><td id="d45283e107">
 
 **Create a new lane**
 
@@ -43,7 +43,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 2.  Enter a title for the lane, then press the Enter key.
  The **Add Lane** option is always available for freeform and flexible boards. It is available for guided boards only if the lanes are based on a reference field, such as **Assigned to**.
 
-</td></tr><tr><td id="d43703e137">
+</td></tr><tr><td id="d45283e137">
 
 **Edit a lane name**
 
@@ -53,7 +53,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 2.  Enter a title for the lane, then press the Enter key.
 
 
-</td></tr><tr><td id="d43703e155">
+</td></tr><tr><td id="d45283e155">
 
 **Rearrange lanes**
 
@@ -61,7 +61,7 @@ Unlike guided boards, the lanes on a freeform or flexible task board do not matc
 
 Select a lane header and drag the lane to the desired drop zone. To cancel the move, press the Escape key while you drag the lane.You can also change the lane order from the board configuration menu.
 
-</td></tr><tr><td id="d43703e167">
+</td></tr><tr><td id="d45283e167">
 
 **Hide a lane**
 
@@ -71,7 +71,7 @@ Select a lane header and drag the lane to the desired drop zone. To cancel the m
 2.  Select **Hide Lane**.
 
 
-</td></tr><tr><td id="d43703e194">
+</td></tr><tr><td id="d45283e194">
 
 **Unhide a lane**
 
@@ -82,7 +82,7 @@ Select a lane header and drag the lane to the desired drop zone. To cancel the m
 3.  Select the hidden lane in the **Lane Configuration** section.
 
 
-</td></tr><tr><td id="d43703e228">
+</td></tr><tr><td id="d45283e228">
 
 **Delete a lane**
 
@@ -93,7 +93,7 @@ Select a lane header and drag the lane to the desired drop zone. To cancel the m
 3.  In the confirmation dialog box, click **Delete**. When you delete a lane on a freeform or flexible board, all the cards in the deleted lane are archived.
  The **Delete Lane** option is always available for freeform and flexible boards. It is available for guided boards only if the lanes are based on a reference field, and only for lanes that contain no cards.
 
-</td></tr><tr><td id="d43703e261">
+</td></tr><tr><td id="d45283e261">
 
 **Exclude Child Table Records**
 

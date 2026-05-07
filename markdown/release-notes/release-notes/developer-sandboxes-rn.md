@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Developer Sandboxes release notes
@@ -15,7 +15,6 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 ## Developer Sandboxes highlights for the Australia release
 
 -   Upgrading an instance recreates sandboxes and backs up any update sets.
--   Cloning automatically recreates sandboxes on an instance.
 -   A new plugin supports clone preservation when cloning an instance with sandboxes.
 
 See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
@@ -50,10 +49,6 @@ See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandbox
 
     After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
--   **[Cloning enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&version=australia&pubname=australia-application-development&ft:locale=en-US)**
-
-    After a clone, sandboxes on an instance are automatically re-created with the same name, but without the previous work.
-
 -   **[Queuing for successive sandbox creation](https://www.servicenow.com/docs/access?context=allocating-sandboxes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
     To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
@@ -70,6 +65,17 @@ See [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandbox
 
     Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
+
+## Deprecated features
+
+Data generation profiles and templates will no longer available in Developer Sandboxes as of the Brazil release. When you upgrade, the following will happen:
+
+-   All data generation metadata and non-metadata records are automatically deleted.
+-   The data generation plugin is no longer discoverable.
+-   All references to data generation will be removed from sandbox templates.
+-   Sandbox initialization will operate independently of data generation logic.
+
+**Note:** You can use the Now Assist Data Kit instead of data generation profiles.
 
 ## Activation information
 

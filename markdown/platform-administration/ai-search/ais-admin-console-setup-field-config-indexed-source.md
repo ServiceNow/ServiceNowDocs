@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-A field setting controls the indexing behavior for a specified field \(column\) on all records from an indexed source. For more information, see [Field settings for AI Search](../concept/field-settings-ais.md#).
+A field setting controls the indexing behavior for a specified field \(column\) on all records from an indexed source. For more information, see [Field settings for AI Search](../concept/field-settings-ais.md).
 
 ## Procedure
 

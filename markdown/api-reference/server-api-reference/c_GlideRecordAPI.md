@@ -1,6 +1,6 @@
 ---
 title: GlideRecord - Global
-description: The GlideRecord API is used for database operations.Creates an instance of the GlideRecord class for the specified table.Adds a filter to return active records.Changes the domain used for the query from the user's domain to the domain of the provided GlideRecord.Adds an encoded query to other queries that may have been set.Queries one or more dot-walked fields from a form or script in a single request.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a filter to return inactive records. Inactive records have the active flag set to false.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records where the specified field is not null.Adds a filter to return records where the specified field is null.Adds a query using an encoded query string. Use this method to bypass query access.Specifies an orderBy column. Use this method to bypass query access.Specifies a descending orderBy column. Use this method to bypass query access.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.Adds a query using an encoded query string. Use this method to enforce query access based on the user.Specifies an orderBy column. Use this method to enforce query access based on the user.Specifies a descending orderBy column. Use this method to enforce query access based on the user.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request.Provides atomic add and subtract operations on a specified number field at the database level for the current GlideRecord object.Sets the values of the specified encoded query terms and applies them to the current GlideRecord.Apply a template record from the Template table \[sys\_template\] to the current record. If the specified template is not found, no action is taken.Enables or disables the update to the fields sys\_updated\_by, sys\_updated\_on, sys\_mod\_count, sys\_created\_by, and sys\_created\_on. This is often used for manually updating field values on a record while leaving historical information unchanged.Determines if the access control rules \(which includes the user's role\) permit inserting new records in this table.Determines if the access control rules \(which includes the user's role\) permit deletion of records in this table.Indicates whether the Access Control Rules \(ACLs\) permit the current user to read the current record within the associated GlideRecord table. This method evaluates all available ACLs for the specific resource.Determines if the access control rules \(which includes the user's role\) permit updates to records in this table.Determines whether any of the fields in the record have changed.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes a single record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns true if any record has a matching value in the specified column. If found, it also moves to the first record that matches, essentially executing next\(\) until the record is returned.Returns the specified record in the current GlideRecord object.Returns the dictionary attributes on the specified field.Returns the table's label.Retrieves the display value for the current record or the display value of an attribute in a dynamic attribute store.Returns the GlideElementDynamicAttribute object for the specified dynamic attribute store path.Returns a GlideElementDynamicAttribute object that contains the dynamic attribute located at the specified table field and attribute path.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Returns the element's descriptor.Retrieves the GlideElement for a specified field.Retrieves the query condition of the current result set as an encoded query string.Retrieves the field value for the display field of the current record and adds escape characters for use in Jelly scripts.Retrieves a Java ArrayList of fields in the current record.Retrieves the field's label.Retrieves the link for the current record.Retrieves the row number of the current record within the table.Retrieves the plural label of the GlideRecord table.Retrieves the class \(table\) name for the current record.Retrieves a list of names and display values of related lists associated with the current GlideRecord.Retrieves a list of names and display values of tables that are referred to by the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the row number set by saveLocation\(\) or setLocation\(\).Retrieves the table name associated with this GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of a specified field or the string value of an attribute in a dynamic attribute store.Determines if the current GlideRecord has any attachments.Determines if there are any more records in the GlideRecord.Creates an empty record within the current GlideRecord that is suitable for population before an insert.Inserts a new record with the field values that have been set for the current record.Inserts a new record and also inserts or updates any related records with the provided information.Checks a table for the type\\class of table.Determines whether the current record has been inserted into the database.Determines if the current GlideRecord table exists.Determines if the specified field is defined in the current GlideRecord table.Determines if the current record is valid.Creates a GlideRecord, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), intended to be used in cases where the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies a field name, or path to an attribute within a dynamic attribute store, to use to order the query set. To order by multiple fields, call this method multiple times with different field values.Specifies the field, or an attribute in a dynamic attribute store, to use to order the query set in descending order.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Used in domain-separated instances. Similar to query\(\), runs the query against the table based on the filters specified by addQuery\(\) and addEncodedQuery\(\), but ignores domains.Sets the current record to be the record that was saved with saveLocation\(\). If saveLocation\(\) has not been called, the current record is set to the first record of the GlideRecord.Saves the current row number so you can return to this location using the restoreLocation\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted.Sets a specified field, or an attribute in a dynamic attribute store, to a specified display value.Sets the value of the dynamic attribute located at a specified path.Sets the value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets the display value of the dynamic attribute located at a specified path.Sets the display value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets one or more dynamic attribute values with values specified in the passed GlideDynamicAttributeStore object.Updates the record even if fields have not changed.Sets the maximum number of records to return in the GlideRecord from a query.Sets the current row location to the specified value.Generates a new GUID and sets it as the unique ID \(sys\_id\) for the current record.Generates a new GUID and sets it as the unique ID for the current record, when inserting a new record.Stops a GlideRecord query from running a COUNT\(\*\) query.Enables or disables using the reference field's display name when querying a reference field.Disables or enables the running of any engines \(approval rules / assignment rules\).Sets the specified field, or an attribute in a dynamic attribute store, to a specified value.Enables or disables the running of business rules that might normally be triggered by subsequent actions. If the e parameter is set to false, an insert/update will not be audited. Auditing only happens when the parameter is set to true for a GlideRecord operation.Updates the GlideRecord with any changes that have been made. If the record does not exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
+description: The GlideRecord API is used for database operations.Creates an instance of the GlideRecord class for the specified table.Adds a filter to return active records.Changes the domain used for the query from the user's domain to the domain of the provided GlideRecord.Adds an encoded query to other queries that may have been set.Queries one or more dot-walked fields from a form or script in a single request.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a filter to return inactive records. Inactive records have the active flag set to false.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records where the specified field is not null.Adds a filter to return records where the specified field is null.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request.Adds a query using an encoded query string. Use this method to bypass query access.Specifies an orderBy column. Use this method to bypass query access.Specifies a descending orderBy column. Use this method to bypass query access.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.Adds a query using an encoded query string. Use this method to enforce query access based on the user.Specifies an orderBy column. Use this method to enforce query access based on the user.Specifies a descending orderBy column. Use this method to enforce query access based on the user.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.Provides atomic add and subtract operations on a specified number field at the database level for the current GlideRecord object.Sets the values of the specified encoded query terms and applies them to the current GlideRecord.Apply a template record from the Template table \[sys\_template\] to the current record. If the specified template is not found, no action is taken.Enables or disables the update to the fields sys\_updated\_by, sys\_updated\_on, sys\_mod\_count, sys\_created\_by, and sys\_created\_on. This is often used for manually updating field values on a record while leaving historical information unchanged.Determines if the access control rules \(which includes the user's role\) permit inserting new records in this table.Determines if the access control rules \(which includes the user's role\) permit deletion of records in this table.Indicates whether the Access Control Rules \(ACLs\) permit the current user to read the current record within the associated GlideRecord table. This method evaluates all available ACLs for the specific resource.Determines if the access control rules \(which includes the user's role\) permit updates to records in this table.Determines whether any of the fields in the record have changed.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes a single record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns true if any record has a matching value in the specified column. If found, it also moves to the first record that matches, essentially executing next\(\) until the record is returned.Returns the specified record in the current GlideRecord object.Returns the dictionary attributes on the specified field.Returns the table's label.Retrieves the display value for the current record or the display value of an attribute in a dynamic attribute store.Returns the GlideElementDynamicAttribute object for the specified dynamic attribute store path.Returns a GlideElementDynamicAttribute object that contains the dynamic attribute located at the specified table field and attribute path.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Returns the element's descriptor.Retrieves the GlideElement for a specified field.Retrieves the query condition of the current result set as an encoded query string.Retrieves the field value for the display field of the current record and adds escape characters for use in Jelly scripts.Retrieves a Java ArrayList of fields in the current record.Retrieves the field's label.Retrieves the link for the current record.Retrieves the row number of the current record within the table.Retrieves the plural label of the GlideRecord table.Retrieves the class \(table\) name for the current record.Retrieves a list of names and display values of related lists associated with the current GlideRecord.Retrieves a list of names and display values of tables that are referred to by the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the row number set by saveLocation\(\) or setLocation\(\).Retrieves the table name associated with this GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of a specified field or the string value of an attribute in a dynamic attribute store.Determines if the current GlideRecord has any attachments.Determines if there are any more records in the GlideRecord.Creates an empty record within the current GlideRecord that is suitable for population before an insert.Inserts a new record with the field values that have been set for the current record.Inserts a new record and also inserts or updates any related records with the provided information.Checks a table for the type\\class of table.Determines whether the current record has been inserted into the database.Determines if the current GlideRecord table exists.Determines if the specified field is defined in the current GlideRecord table.Determines if the current record is valid.Creates a GlideRecord, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), intended to be used in cases where the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies a field name, or path to an attribute within a dynamic attribute store, to use to order the query set. To order by multiple fields, call this method multiple times with different field values.Specifies the field, or an attribute in a dynamic attribute store, to use to order the query set in descending order.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Used in domain-separated instances. Similar to query\(\), runs the query against the table based on the filters specified by addQuery\(\) and addEncodedQuery\(\), but ignores domains.Sets the current record to be the record that was saved with saveLocation\(\). If saveLocation\(\) has not been called, the current record is set to the first record of the GlideRecord.Saves the current row number so you can return to this location using the restoreLocation\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted.Sets a specified field, or an attribute in a dynamic attribute store, to a specified display value.Sets the value of the dynamic attribute located at a specified path.Sets the value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets the display value of the dynamic attribute located at a specified path.Sets the display value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets one or more dynamic attribute values with values specified in the passed GlideDynamicAttributeStore object.Updates the record even if fields have not changed.Sets the maximum number of records to return in the GlideRecord from a query.Sets the current row location to the specified value.Generates a new GUID and sets it as the unique ID \(sys\_id\) for the current record.Generates a new GUID and sets it as the unique ID for the current record, when inserting a new record.Stops a GlideRecord query from running a COUNT\(\*\) query.Enables or disables using the reference field's display name when querying a reference field.Disables or enables the running of any engines \(approval rules / assignment rules\).Sets the specified field, or an attribute in a dynamic attribute store, to a specified value.Enables or disables running business rules that might normally be triggered by subsequent actions.Updates the GlideRecord with any changes that have been made. If the record does not exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
 locale: en-US
 release: australia
 product: Server API Reference
@@ -509,6 +509,174 @@ var target = new GlideRecord('incident');
 ### Scoped equivalent
 
 To use the addNullQuery\(\) method in a scoped application, use the corresponding scoped method: [addNullQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
+
+## GlideRecord - addQuery\(String name, Object operator, Object value\)
+
+Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request.
+
+If you're familiar with SQL, this method is similar to the "where" clause. You can make one or more addQuery\(\) calls in a single query. For this method the queries are AND'ed. If any of the query statements need to be OR'ed, use the class [GlideQueryCondition](../../GlideQueryCondition/concept/c_GlideQueryConditionAPI.md#).
+
+addQuery\(\) is typically called with three parameters; table field, operator, and comparison value. It can be called with only two parameters, table field and comparison value, such as `myObj.addQuery('category','Hardware');`. The operator in this case is assumed to be "equal to".
+
+For additional information on using queries, see [Querying tables in script](../../../../../script/server-scripting/concept/c_UsingGlideRecordToQueryTables.md#).
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+
+**Note:** To enforce query access based on the user, use[addUserQuery\(\)](c_GlideRecordAPI.md#).
+
+<table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Table field name or path to an attribute within a dynamic attribute store element.Format of the attribute path: `dyn_att_field->attr_name`
+
+-   `dyn_att_field`: Name of a dynamic attribute store field on the table.
+-   `attr_name`: Name of the dynamic attribute.
+
+Table: Dynamic Attribute \[dynamic\_attribute\]
+
+
+See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+operator
+
+</td><td>
+
+Object
+
+</td><td>
+
+Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   NOT IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOES NOT CONTAIN
+-   INSTANCEOF
+
+**Note:** Use CONTAINS instead of the LIKE operator.
+
+Dynamic schema operators:
+
+-   =
+-   !=
+-   &lt;
+-   &gt;
+-   &lt;=
+-   &gt;=
+-   BETWEEN
+-   CONTAINS
+-   DOES\_NOT\_CONTAIN
+-   ENDSWITH
+-   GT\_FIELD
+-   GT\_OR\_EQUALS\_FIELD
+-   IN
+-   ISEMPTY
+-   ISNOTEMPTY
+-   IS\_NOT\_NULL
+-   IS\_NULL
+-   LIKE
+-   LT\_FIELD
+-   LT\_OR\_EQUALS\_FIELD
+-   MATCHES
+-   NOT\_IN
+-   NOT\_LIKE
+-   NOT\_MATCHES
+-   NSAMEAS
+-   SAMEAS
+-   STARTSWITH
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|GlideQueryCondition|Reference to the GlideQueryCondition that was added to the GlideRecord.|
+
+The following example shows how to call this method.
+
+```
+var rec = new GlideRecord('incident');
+rec.addQuery('active',true);
+rec.addQuery('sys_created_on', ">", "2010-01-19 04:05:00");
+rec.query();
+while (rec.next()) { 
+ rec.active = false;
+ gs.print('Active incident ' + rec.number + ' closed');
+ rec.update();
+}
+```
+
+The following example shows how to use the `IN` operator.
+
+```
+var que = new GlideRecord('incident');
+que.addQuery('number','IN','INC00001,INC00002');
+que.query();
+while(que.next()) {
+ //do something....
+}
+```
+
+The following example shows how to call this method using attributes in a dynamic attribute store.
+
+```
+var gr_Inc = new GlideRecord('incident');
+gr_Inc.addQuery('inc_dynamic_schema->avg_mpg', 'GT_FIELD', 'inc_dynamic_schema2->avg_mpg'); 
+gr_Inc.query();
+while(gr_Inc.next()) {
+    gs.info(gr_Inc.number + " Gas Mileage 1: " + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema->avg_mpg') +  " GT_FIELD Gas Mileage 2 :" + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema2->avg_mpg'));
+}
+```
+
+### Scoped equivalent
+
+To use the addQuery\(\) method in a scoped application, use the corresponding scoped method: [addQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
 
 ## GlideRecord - addSystemEncodedQuery\(String query\)
 
@@ -1135,174 +1303,6 @@ Output:
 Active user Luddy
 Active user Kunde
 ```
-
-## GlideRecord - addQuery\(String name, Object operator, Object value\)
-
-Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request.
-
-If you're familiar with SQL, this method is similar to the "where" clause. You can make one or more addQuery\(\) calls in a single query. For this method the queries are AND'ed. If any of the query statements need to be OR'ed, use the class [GlideQueryCondition](../../GlideQueryCondition/concept/c_GlideQueryConditionAPI.md#).
-
-addQuery\(\) is typically called with three parameters; table field, operator, and comparison value. It can be called with only two parameters, table field and comparison value, such as `myObj.addQuery('category','Hardware');`. The operator in this case is assumed to be "equal to".
-
-For additional information on using queries, see [Querying tables in script](../../../../../script/server-scripting/concept/c_UsingGlideRecordToQueryTables.md#).
-
-Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
-
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-
-**Note:** To enforce query access based on the user, use[addUserQuery\(\)](c_GlideRecordAPI.md#).
-
-<table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-name
-
-</td><td>
-
-String
-
-</td><td>
-
-Table field name or path to an attribute within a dynamic attribute store element.Format of the attribute path: `dyn_att_field->attr_name`
-
--   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `attr_name`: Name of the dynamic attribute.
-
-Table: Dynamic Attribute \[dynamic\_attribute\]
-
-
-See also [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-
-</td></tr><tr><td>
-
-operator
-
-</td><td>
-
-Object
-
-</td><td>
-
-Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
-
--   =
--   !=
--   &gt;
--   &gt;=
--   &lt;
--   &lt;=
-
-Strings \(must be in upper case\):
-
--   =
--   !=
--   IN
--   NOT IN
--   STARTSWITH
--   ENDSWITH
--   CONTAINS
--   DOES NOT CONTAIN
--   INSTANCEOF
-
-**Note:** Use CONTAINS instead of the LIKE operator.
-
-Dynamic schema operators:
-
--   =
--   !=
--   &lt;
--   &gt;
--   &lt;=
--   &gt;=
--   BETWEEN
--   CONTAINS
--   DOES\_NOT\_CONTAIN
--   ENDSWITH
--   GT\_FIELD
--   GT\_OR\_EQUALS\_FIELD
--   IN
--   ISEMPTY
--   ISNOTEMPTY
--   IS\_NOT\_NULL
--   IS\_NULL
--   LIKE
--   LT\_FIELD
--   LT\_OR\_EQUALS\_FIELD
--   MATCHES
--   NOT\_IN
--   NOT\_LIKE
--   NOT\_MATCHES
--   NSAMEAS
--   SAMEAS
--   STARTSWITH
-
-</td></tr><tr><td>
-
-value
-
-</td><td>
-
-Object
-
-</td><td>
-
-Value on which to query \(not case-sensitive\).
-
-</td></tr></tbody>
-</table>|Type|Description|
-|----|-----------|
-|GlideQueryCondition|Reference to the GlideQueryCondition that was added to the GlideRecord.|
-
-The following example shows how to call this method.
-
-```
-var rec = new GlideRecord('incident');
-rec.addQuery('active',true);
-rec.addQuery('sys_created_on', ">", "2010-01-19 04:05:00");
-rec.query();
-while (rec.next()) { 
- rec.active = false;
- gs.print('Active incident ' + rec.number + ' closed');
- rec.update();
-}
-```
-
-The following example shows how to use the `IN` operator.
-
-```
-var que = new GlideRecord('incident');
-que.addQuery('number','IN','INC00001,INC00002');
-que.query();
-while(que.next()) {
- //do something....
-}
-```
-
-The following example shows how to call this method using attributes in a dynamic attribute store.
-
-```
-var gr_Inc = new GlideRecord('incident');
-gr_Inc.addQuery('inc_dynamic_schema->avg_mpg', 'GT_FIELD', 'inc_dynamic_schema2->avg_mpg'); 
-gr_Inc.query();
-while(gr_Inc.next()) {
-    gs.info(gr_Inc.number + " Gas Mileage 1: " + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema->avg_mpg') +  " GT_FIELD Gas Mileage 2 :" + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema2->avg_mpg'));
-}
-```
-
-### Scoped equivalent
-
-To use the addQuery\(\) method in a scoped application, use the corresponding scoped method: [addQuery\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
 
 ## GlideRecord - addValue\(String field, Number value\)
 
@@ -2850,15 +2850,13 @@ To use the getElement\(\) method in a scoped application, use the corresponding 
 
 Retrieves the query condition of the current result set as an encoded query string.
 
-For details, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
-
 |Name|Type|Description|
 |----|----|-----------|
 |None| | |
 
 |Type|Description|
 |----|-----------|
-|String| |
+|String|An [encoded query string](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
 
 This example shows how to obtain the current encoded query to use later to create a read ACL role.
 
@@ -5583,15 +5581,15 @@ used_car.insert();
 
 To use the setValue\(\) method in a scoped application, use the corresponding scoped method: [setValue\(\)](../../glideRecordScoped/concept/c_GlideRecordScopedAPI.md#).
 
-## GlideRecord - setWorkflow\(Boolean e\)
+## GlideRecord - setWorkflow\(Boolean enable\)
 
-Enables or disables the running of business rules that might normally be triggered by subsequent actions. If the **e** parameter is set to false, an insert/update will not be audited. Auditing only happens when the parameter is set to true for a GlideRecord operation.
+Enables or disables running business rules that might normally be triggered by subsequent actions.
 
 **Note:** The setWorkflow\(\) method is ignored when subsequently using either the deleteProblem\(\) or deleteMultiple\(\) methods to cascade delete.
 
 **Warning:** Disabling the running of business rules can have a significant impact on your ServiceNow® instance and how it operates. Ensure that you thoroughly test this change before deploying it to production.
 
-<table id="table_xdz_skw_dt" class="parameters"><thead><tr><th>
+<table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
 Name
 
@@ -5605,7 +5603,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-e
+enable
 
 </td><td>
 
@@ -5613,15 +5611,17 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether to enable or disable the running of business rules.Valid values:
+Flag that indicates whether to enable or disable the running of business rules, script engines, and audit.Valid values:
 
--   true: Enable business rules
--   false: Disable business rules
+-   true: Enables running business rules, script engines, or audits.
+-   false: Disables running business rules, script engines, or audits.
+
+Default: true
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|void| |
+|None| |
 
 ```
 doit('name1','name2'); 

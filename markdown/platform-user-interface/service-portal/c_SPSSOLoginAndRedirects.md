@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 5
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -19,17 +19,17 @@ Only users who understand SSO, URL redirects, and the ServiceNow platform should
 
 ## Single sign-on and Service Portal
 
-To use single sign-on with Service Portal, you must enable the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
+To use single sign-on with Service Portal, you must activate the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
 
 If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see [Multiple-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-To redirect users to the SSO Identify Provider \(IdP\) login page without first redirecting them to the portal login page, you can configure the **glide.service\_portal.sso.early\_redirect.portals** system property. For more information, see [Service Portal properties](properties-service-portal.md). If your portal uses a customized version of the Login widget, you must update the `sp_sso_early_redirection` UI macro as needed to redirect users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
+You can configure the **glide.service\_portal.sso.early\_redirect.portals** system property to redirect users to the SSO Identify Provider \(IdP\) login page. This bypasses the portal login page. For more information, see [Service Portal properties](properties-service-portal.md). If your portal uses a customized version of the Login widget, you must update the `sp_sso_early_redirection` UI macro as needed to redirect users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
 
 **Note:** Service Portal has a known issue related to using Multi-Provider SSO and Okta. For more information about this issue and a workaround, see the [Service Portal: After enabling Multi SSO, end users are able to access navpage.do through OKTA if they are already logged in \[KB0687717\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0687717) article in the Now Support Knowledge Base.
 
 ## Require authentication for a Service Portal page
 
-If you want to require authentication for a Service Portal page, ensure that the **Public** flag on the page record is not selected. For more information, see [Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#). If a user navigates to a non-public page, they are redirected to the login page for the requested portal.
+If you want to require authentication for a Service Portal page, confirm that the **Public** flag on the page record is not selected. For more information, see [Create and edit a page using the Service Portal Designer](../task/t_ConfigureAPage.md#). If a user navigates to a non-public page, they are redirected to the login page for the requested portal.
 
 Because every page request is routed through the **$sp** page, this page must be public. The following values in the Public Pages `sys_public` table define the page as public:
 

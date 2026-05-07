@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration Employee, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Approve a request from Employee Center
@@ -33,15 +33,15 @@ Role required: sn\_shop.procurement\_specialist
 
 4.  Do one of these actions.
 
-<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d28697e94">
+<table id="choicetable_drb_mxq_flb"><thead><tr><th align="left" id="d30608e103">
 
 Action
 
-</th><th align="left" id="d28697e97">
+</th><th align="left" id="d30608e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28697e103">
+</th></tr></thead><tbody><tr><td id="d30608e112">
 
 **Request clarification**
 
@@ -49,7 +49,7 @@ Description
 
 Opens a confirmation dialog box, where you can enter your questions regarding the selected purchase requestion lines or sourcing request. An email notification is sent to the requester that some clarification is sought for the purchase, and a provide clarification to-do is created for their action.**Note:** This correspondence is tracked through the activity stream of the approval plan here in Employee Center. The same is also tracked through the activity stream of the corresponding purchase requisition or sourcing request in Shopping Hub.
 
-</td></tr><tr><td id="d28697e120">
+</td></tr><tr><td id="d30608e129">
 
 **Reject**
 
@@ -57,7 +57,7 @@ Opens a confirmation dialog box, where you can enter your questions regarding th
 
 Opens a confirmation dialog box, where you can enter your reason for rejecting only the selected purchase requestion lines. An email notification is sent to the requester with this information.
 
-</td></tr><tr><td id="d28697e129">
+</td></tr><tr><td id="d30608e138">
 
 **Reject all**
 
@@ -65,7 +65,7 @@ Opens a confirmation dialog box, where you can enter your reason for rejecting o
 
 Opens a confirmation dialog box, where you can enter your reason for rejecting all the purchase requestion lines or sourcing request. An email notification is sent to the requester with this information.**Note:** You’re redirected here if you select **Reject** on the approval email notification.
 
-</td></tr><tr><td id="d28697e143">
+</td></tr><tr><td id="d30608e152">
 
 **Approve**
 
@@ -73,7 +73,7 @@ Opens a confirmation dialog box, where you can enter your reason for rejecting a
 
 Opens a confirmation dialog box, where you can approve only the selected purchase requestion lines. An email notification is sent to the requester with this information.
 
-</td></tr><tr><td id="d28697e153">
+</td></tr><tr><td id="d30608e162">
 
 **Approve all**
 

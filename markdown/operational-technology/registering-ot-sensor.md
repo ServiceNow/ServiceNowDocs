@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-24"
 reading_time_minutes: 2
-breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Sensor for OT, Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Register the Discovery Sensor for OT

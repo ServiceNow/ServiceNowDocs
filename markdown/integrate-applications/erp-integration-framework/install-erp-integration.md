@@ -1,6 +1,6 @@
 ---
 title: Install Zero Copy Connector for ERP
-description: Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) application \(sn\_erp\_integration\) from the ServiceNow Store.
+description: Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) application \(from the ServiceNow Store.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, install, store]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Install Zero Copy Connector for ERP
 
-Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) application \(sn\_erp\_integration\) from the ServiceNow Store.
+Install the Zero Copy Connector for ERP \(Enterprise Resource Planning\) application \(from the ServiceNow Store.
 
 ## Before you begin
 
@@ -42,12 +42,17 @@ Role required: admin
 
 8.  When complete, confirm the installation of Zero Copy Connector for ERP.
 
-9.  Select **Close** to return to the ServiceNow Store
+9.  Select **Close** to return to the ServiceNow Store.
 
 
 ## What to do next
 
-An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables. The property must be enabled on the correct scope.After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\) System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
+An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the **sn\_erp\_integration.enableModelModification** property for you to edit, customize, and clone ERP models and tables.
+
+-   The property must be enabled on the correct scope.
+-   After enabling the property, Zero Copy Connector for ERP retrieves all tables and BAPIs \(Business Application Programming Interface\) to use when managing models.
+-   The property must be configured for either a non-production or production state. \(Enabling the property on a production instance can create metadata records when new models and fields are added in Zero Copy Connector for ERP.\)
+-   System properties are maintained in the System Property table \[sys\_properties\], which you can access by entering `sys_properties.list` directly in the Navigator Filter.
 
 **Parent Topic:**[Configuring Zero Copy Connector for ERP](../concept/erp-integration-configuration-overview.md)
 

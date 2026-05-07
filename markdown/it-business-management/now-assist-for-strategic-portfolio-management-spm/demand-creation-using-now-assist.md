@@ -7,7 +7,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Create a demand,]
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -23,7 +23,7 @@ Use the conversational experience of Now Assist in Virtual Agent to create a dem
 Ensure that the following tasks are completed:
 
 -   Install an application that supports Virtual Agent.
--   Complete configuring the conversational experiences for demand creation. For more information, see [Configure Now Assist Admin features](configure-now-assist-for-spm.md).
+-   Complete configuring the conversational experiences for demand creation. For more information, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
 
 Role required: none
 

@@ -21,7 +21,7 @@ Role required: admin, function\_field\_admin
 
 ## Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  Select a report based on the table that you want to add a function field to.
 

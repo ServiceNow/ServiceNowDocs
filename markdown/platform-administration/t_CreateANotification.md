@@ -565,7 +565,7 @@ Adding the **$\{URI\}** parameter to an outbound email body or template creates 
 -   **[Email unsubscribe links](../concept/email-unsubscribe.md)**  
 Administrators can enable your users to stop receiving particular email messages by adding unsubscribe links to notifications.
 -   **[Scripting for email notifications](../../../script/server-scripting/concept/c_ScriptingForEmailNotifications.md)**  
-Email scripts enable you to use business rule-like scripting within an outbound email message.
+Use mail scripts to add business rule-like scripting to outbound email messages.
 -   **[Baseline email notifications](../../reference-pages/reference/r_BaselineEmailNotifications.md)**  
 The baseline system provides several email notifications.
 -   **[Notification example: notify an assignment group of updates to Priority 1 Incidents](t_Ex4Priority1IncUpdateNotif.md)**  

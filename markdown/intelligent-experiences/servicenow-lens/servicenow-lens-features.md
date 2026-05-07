@@ -7,7 +7,7 @@ product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
 ---
 
@@ -23,9 +23,29 @@ ServiceNow AI Lens offers the following features:
 
     For example, ServiceNow AI Lens can scan an email and auto-fill the fields on the Incident form.
 
+    ![Scan and capture data from screenshot](../image/lens-scanner-incident-capture.png "Scan and capture data from email")
+
+-   **Use ServiceNow AI Lens from your browser or the desktop application**
+
+    Get started with ServiceNow AI Lens directly from your browser — no downloading or installation required. Capture your screen and let ServiceNow AI Lens analyze the contents and auto-fill your form fields. For the full range of capabilities, open the ServiceNow AI Lens desktop application if it is already installed, or download and install it.
+
+    ![Capture browser contents](../image/lens-feature-lite.png "Capture browser contents")
+
+-   **Upload files**
+
+    Get actionable insights from the files that you upload. You can upload files by adding or dragging and dropping.
+
+    For example, upload the copies of all the expense bills of all your business trips in the last six months, and instruct to organize all the expense amounts under their respective headings such as food, airfare, cab, and laundry, and show you the preview.
+
+    ![File upload window](../image/lens-feature-upload-files.png "File upload window")
+
 -   **Provide instructions to analyze data in a specific way**
 
     Provide instructions to analyze the data in the screenshots or files in a way that you want after selecting the Edit \(![Edit icon](../image/lens-instructions-icon.png)\) icon and enter additional instructions. For example, you can capture screenshots or upload copies of all the expense bills of all your business trips in the last six months and provide instructions to arrange the expense bill amounts date-wise and expense head-wise.
+
+    ![Field to provide additional instructions.](../image/lens-scanner-additional-instructions.png "Enter instructions while you capture screenshots")
+
+    ![Provide instructions after capturing screenshots or uploading files](../image/lens-prev-window-instructions.png "Provide instructions after capturing screenshots or uploading files")
 
 -   **Capture multiple screenshots**
 
@@ -33,9 +53,17 @@ ServiceNow AI Lens offers the following features:
 
     For example, ServiceNow AI Lens can scan multiple bills so that you can submit a consolidated invoice report.
 
+    ![Icon showing the number of screenshots captured](../image/lens-scanner-multiple-scrnshts-capturd.png "Icon showing the number of screenshots captured")
+
+    ![Preview window showing consolidated bills](../image/lens-scanner-analyze-multiple-scrns.png "Preview window showing consolidated bills")
+
 -   **Launch from ServiceNow instance**
 
     Launch ServiceNow AI Lens from a ServiceNow instance to fill the extracted data automatically into the form fields while you’re creating or updating records.
+
+    ![Create with Lens button on the ServiceNow instance.](../image/luanch-from-sn-instance.png)
+
+    ![Update with Lens button on the ServiceNow instance.](../image/update-with-lens.png)
 
 -   **Use Lens actions to customize Lens behavior**
 
@@ -43,7 +71,13 @@ ServiceNow AI Lens offers the following features:
 
     For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a particular table. You can also define form fields that must be populated.
 
+    ![Home screen showing Lens actions](../image/lens-action-overview.png "Home screen showing Lens actions")
 
+-   **Auto-map Excel sheet column headers with ServiceNow table columns**
+
+    Define a Lens action that specifically lets ServiceNow AI Lens to auto-map the column headers of an Excel sheet with the columns of a ServiceNow table. Review and update the mapping, if required, and then insert the Excel sheet data into the table.
+
+    ![Excel sheet column headers auto-mapped with table columns](../image/lens-feature-excel-mapping.png "Excel sheet column headers auto-mapped with table columns")
 
 -   **ServiceNow AI Lens in Virtual Agent**
 
@@ -67,9 +101,11 @@ ServiceNow AI Lens offers the following features:
 
     Use ServiceNow AI Lens as a standalone application for previewing extracted data or getting insights. You must connect to a ServiceNow instance before you start using ServiceNow AI Lens. For more information, see [Extract and analyze data with ServiceNow AI Lens desktop app](../task/sn-lens-standalone-app.md).
 
+    ![ServiceNow AI Lens login screen as a standalone application.](../image/standalone-lens.png)
+
 -   **Autofill form fields in the Now Mobile® application**
 
-    Trigger ServiceNow AI Lens from Now Mobile® application to extract data from artifacts and autofill fields in a form on the Now Mobile® application.. For more information on creating or updating records in the Now Mobile® application, see [ServiceNow AI Lens for mobile](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&version=australia&pubname=australia-mobile&ft:locale=en-US).You can add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster. For more information, see [Configure Lens launcher button](https://www.servicenow.com/docs/access?context=configure-lens-launcher-button&version=australia&pubname=australia-mobile&ft:locale=en-US).
+    Trigger ServiceNow AI Lens from Now Mobile® application to extract data from artifacts and autofill fields in a form on the Now Mobile® application.. For more information on creating or updating records in the Now Mobile® application, see [ServiceNow AI Lens for mobile](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&version=australia&pubname=australia-mobile&ft:locale=en-US).You can add a ServiceNow AI Lens button to input form screens to allow users to quickly extract data from attachments and complete forms faster. For more information, see [Configure a Lens launcher button](https://www.servicenow.com/docs/access?context=configure-lens-launcher-button&version=australia&pubname=australia-mobile&ft:locale=en-US).
 
 -   **Autofill Catalog Item forms in Service Portal**
 

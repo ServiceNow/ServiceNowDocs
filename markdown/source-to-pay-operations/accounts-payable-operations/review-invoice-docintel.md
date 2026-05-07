@@ -35,7 +35,7 @@ If Document Intelligence encounters an extraction error, the invoice processing 
 
 5.  Select **View invoice processing case**.
 
-    ![image.apo-view-inv-process-case]
+    ![View invoice processing case](../image/apo-view-inv-process-case.png)
 
     The invoice processing case opens and displays the following notification at the top:
 

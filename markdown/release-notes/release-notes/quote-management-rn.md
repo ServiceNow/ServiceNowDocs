@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Quote Management release notes
@@ -19,7 +19,7 @@ The ServiceNow® Quote Management enables your sales agents to generate and mana
 -   Improve quote data consistency by validating contract start and end dates across quote headers, parent lines, and child lines, preventing date conflicts during updates.
 -   Enable greater flexibility in managing amendment quotes by splitting active ramp segments into shorter intervals, adjusting quantities, and maintaining accurate line types throughout the quote life cycle.
 -   Enhance quote approval workflows with automated reminders, escalations, override capabilities, and ad-hoc approvals for greater control and accountability throughout the approval process.
--   Summarize a quote for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
+-   [Australia Patch 1](../quality/australia-patch-1.md)Summarize a quote with Now Assist for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
 
 See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
 
@@ -50,7 +50,7 @@ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-mana
     Capture the deal type \(Direct or Indirect deals\) and align it with different routes to market for consistency, compliance, and operational efficiency across systems and teams.
 
 
--   **[Summarize a quote using quote summarization with Now Assist](https://www.servicenow.com/docs/access?context=summarize-quote&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Australia Patch 1](../quality/australia-patch-1.md)[Summarize a quote using quote summarization with Now Assist](https://www.servicenow.com/docs/access?context=summarize-quote&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
     Generate a summary of a quote to:
 
@@ -60,8 +60,6 @@ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-mana
     -   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
     -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
     -   Support internal handoffs by summarizing the quoted offer for internal teams.
-    For more information, see the .
-
 
 ## Changed in this release
 
@@ -82,7 +80,7 @@ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-mana
     -   Add ad-hoc approvers to an approval request outside the configured approval workflow when additional review is needed.
     -   Override an approval to advance a quote when permitted by your organization's approval configuration.
 
-See [Advanced Approval Management release notes](advanced-approval-management-for-sales-rn.md)for more information.
+See [Advanced Approval Management release notes](advanced-approval-management-for-sales-rn.md) for more information.
 
 ## Activation information
 
@@ -96,16 +94,16 @@ Install Quote Management by requesting it from the ServiceNow Store. Visit the [
 
 -   **[CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales and Order Management transactions, such as quotes and orders.
+    The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 
 -   **[Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    The [Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US) application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales and Order Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
+    The [Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US) application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales Customer Relationship Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
 
 -   **[Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
     The Sales Agreement application captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

@@ -15,6 +15,8 @@ breadcrumb: [Customize UI Builder pages using components, Working in UI Builder,
 
 Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
 
+-   **[Add carousel badge item count](../task/add-carousel-badge-item-count.md)**  
+How to create a dynamic carousel item count \(displayed in the badge\) where the items in the carousel are controlled by a repeater pulling its data from a data resource.
 -   **[Create dynamic filtered card displays](../task/comp-ex-dynamic-filtered-card.md)**  
 Create an interactive card layout to display records, add a dropdown to filter visible cards by name, and configure each card to open the full record in another UI Builder page when selected.
 -   **[Create and customize alert messages in UI Builder](comp-ex-alert-overview.md#)**  

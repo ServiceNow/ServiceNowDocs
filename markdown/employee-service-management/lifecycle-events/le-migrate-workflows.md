@@ -17,7 +17,7 @@ Lifecycle Events customers upgrading from the Washington DC or Xanadu release to
 
 ## Before you begin
 
-Role required: admin \[sn\_hr\_le.admin\]
+Role required: sn\_hr\_le.admin
 
 ## About this task
 

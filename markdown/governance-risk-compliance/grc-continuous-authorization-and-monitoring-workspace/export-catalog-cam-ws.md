@@ -28,7 +28,7 @@ Role required:
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the CAM Workspace, select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the CAM Workspace, select the List icon \(![List](../image/ws-list-icon.png)\).
 
 3.  Select Control objectives from the **Compliance** list.
 
@@ -36,7 +36,7 @@ Role required:
 
 5.  Select **OSCAL Export**.
 
-    **OSCAL Export** pop-window displays.![Export OSCAL of control objectives.](../image/cam-export-oscal-control-objective.gif)
+    **OSCAL Export** pop-window appears.
 
 6.  In the pop-up window, enter the **Title** and **Version** and then select **Export**.
 

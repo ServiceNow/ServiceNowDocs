@@ -36,8 +36,6 @@ The **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property determ
 
 When entering multiple tables, separate the table names with a comma \(,\) but with no space between each table.
 
-![Interview Question Template system property](../image/hr-er-sys-property.png)
-
 ### Template tags
 
 Template tags are a way to organize your interview templates and a way to filter them when looking for the correct template. Template tags allow you to find relevant questions easier and faster.
@@ -56,12 +54,9 @@ There are two types of template tags you can create:
 
     -   Customer category = Involved party type
     -   Custom tags:
-
         -   Complainant
         -   Subject of allegation
         -   Witness
-        ![Interview question template tags](../image/agent-ws-hr-template-tag-ex.png)
-
     Involved party type becomes the top-level category in the organization with the tags being a way to organize the type of person you are interviewing.
 
 
@@ -104,15 +99,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d292513e462">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d298127e450">
 
 Field
 
-</th><th align="left" id="d292513e465">
+</th><th align="left" id="d298127e453">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d292513e471">
+</th></tr></thead><tbody><tr><td id="d298127e459">
 
 **Active**
 
@@ -120,7 +115,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d292513e483">
+</td></tr><tr><td id="d298127e471">
 
 **Name**
 
@@ -128,7 +123,7 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d292513e492">
+</td></tr><tr><td id="d298127e480">
 
 **Application**
 
@@ -136,7 +131,7 @@ The name that identifies the interview question template.
 
 The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
 
-</td></tr><tr><td id="d292513e508">
+</td></tr><tr><td id="d298127e496">
 
 **Table**
 
@@ -144,7 +139,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d292513e521">
+</td></tr><tr><td id="d298127e509">
 
 **Question template body**
 

@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a product non-conformance case, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a root cause analysis
@@ -38,7 +38,10 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 6.  Select **Save**.
 
 
-**Parent Topic:**[Related lists for Non-conformance](mco-related-lists-product-non-conformance.md)
+-   **[Associating a task cause](mco-task-cause-associations.md)**  
+Associate a cause to a RCA for the root cause analysis of the product non-conformance.
+
+**Parent Topic:**[Product Non-conformance without playbook](mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

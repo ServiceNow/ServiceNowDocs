@@ -35,11 +35,11 @@ This functionality allows the security administrator to copy profiles that have 
 
     You can select multiple profiles for export.
 
-3.  From the Actions menu, click **Export**.
+3.  From the Actions menu, select **Export**.
 
-4.  Once the export complete message appears, click **Download**.
+4.  Once the export complete message appears, select **Download**.
 
-    The following illustration shows exporting a Splunk profile \(Manual Profile 2\) from your ServiceNow AI Platform instance \(psand.service-now.com\).![Exporting Splunk profiles.](../image/splunk-event-ingestion-export.gif)
+    The following illustration shows exporting a Splunk profile \(Manual Profile 2\) from your ServiceNow AI Platform instance \(psand.service-now.com\). ![Exporting splunk profile](../image/Splunk_V2_export.png)
 
     The exported payload.xml file is downloaded on your computer. The file contains the profile name, correlation rules, mappings, filters, aggregation criteria, field translations, fetched sample data, scheduling, and configuration tile source information. When you select and download multiple profiles, they appear in the same payload.xml file.
 
@@ -47,17 +47,17 @@ This functionality allows the security administrator to copy profiles that have 
 
 5.  Navigate to **Splunk Integration** &gt; **Splunk Event Profiles**.
 
-6.  Click **Import**.
+6.  Select **Import**.
 
-7.  Click **Choose file** and select the xml file on your computer.
+7.  Select **Choose file** and select the xml file on your computer.
 
-8.  Click **Upload**.
+8.  Select **Upload**.
 
-9.  Click **Close and Reload Profiles**.
+9.  Select**Close and Reload Profiles**.
 
     The following illustration shows importing a Splunk profile \(Manual Profile 2\) from the ServiceNow AI Platform instance \(psand.service-now.com\) to another ServiceNow AI Platform instance \(ppsand.service-now.com\).
 
-    ![Importing Splunk profiles.](../image/splunk-event-import.gif)
+    ![Importing splunk profile](../image/splunk_v2_import.png)
 
     You have successfully imported the profile from another ServiceNow AI Platform instance.
 
@@ -67,7 +67,7 @@ This functionality allows the security administrator to copy profiles that have 
 
 11. Navigate to **Security Operations** &gt; **Integration Configurations**.
 
-12. Select the Splunk Enterprise Event Ingestion configuration tile, and click **Update**.
+12. Select the Splunk Enterprise Event Ingestion configuration tile, and select **Update**.
 
 13. Review and update the Source and MID Server details as required.
 

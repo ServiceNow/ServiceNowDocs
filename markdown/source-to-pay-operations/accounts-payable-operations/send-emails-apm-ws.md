@@ -37,7 +37,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist, sn\_ap\_apm.admin, sn\
 
 5.  Select the more actions icon \(![More actions](../../supplier-lifecycle-operations/image/more-actions-icon.png)\) and select **Compose Email**.
 
-    ![image.apo-compose-mail]
+    ![Compose email](../image/apo-compose-mail.png)
 
 6.  Do one of the following:
 

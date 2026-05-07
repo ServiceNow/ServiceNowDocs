@@ -7,7 +7,7 @@ product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -40,7 +40,7 @@ A copy of the selected work item is created, with the information in the require
 
 ## What to do next
 
-From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)](../../now-assist-spm/task/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)](../../now-assist-spm/task/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see .
 
 **Parent Topic:**[Manage team backlog in EAP](../concept/using-eap.md)
 

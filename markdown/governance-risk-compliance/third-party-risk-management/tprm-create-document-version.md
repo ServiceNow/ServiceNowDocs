@@ -32,7 +32,7 @@ Alternatively, you can provide the link to a document in the URL field. You then
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png)\) and then navigate to **All Documents**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png)\) and then navigate to **All Documents**.
 
 2.  Select the document record that you want and then the **Versions** tab.
 

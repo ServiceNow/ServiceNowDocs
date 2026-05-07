@@ -31,15 +31,15 @@ The project status report shows snapshot status of RIDAC \(Risk, Issues, Decisio
 
 1.  Open a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d57046e74">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d58364e74">
 
 Option
 
-</th><th align="left" id="d57046e77">
+</th><th align="left" id="d58364e77">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d57046e83">
+</th></tr></thead><tbody><tr><td id="d58364e83">
 
 **From project workspace**
 
@@ -51,7 +51,7 @@ Steps
 4.  Select a status report from the list to view its contents.
 
 
-</td></tr><tr><td id="d57046e119">
+</td></tr><tr><td id="d58364e119">
 
 **From project record**
 
@@ -63,7 +63,7 @@ Steps
 4.  Select a status report from the list.
 
 
-</td></tr><tr><td id="d57046e161">
+</td></tr><tr><td id="d58364e161">
 
 **From Project Status form**
 
@@ -78,7 +78,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>    **Note:** You can also open a project status report from the portfolio workbench. Open a portfolio in the portfolio workbench and select **Track Portfolio**. Right-click a project in the **Timeline View** and select **Status Report** from the context menu.
+</table>    **Note:** You can also open a project status report from the portfolio workbench. Open a portfolio in the portfolio workbench and select Track portfolio. Right-click a project in the **Timeline View** and select **Status Report** from the context menu.
 
 2.  Review project status in the following sections.
 

@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sourcing intake guided experience with playbooks, Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing intake guided experience playbooks, Working with playbooks, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Review details and request clarification on a sourcing request in playbook

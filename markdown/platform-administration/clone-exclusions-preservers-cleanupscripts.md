@@ -46,7 +46,7 @@ All cleanup scripts run in the global scope irrespective of the scope in which y
 |Configure Email Accounts|Migrates email accounts that existed on the source instance to the target instance if they aren’t enabled there. This script also migrates the email properties to the target instance.|
 |Disable emails|Disables email on the target instance. A default data preserver maintains other email settings from the target instance.|
 |Install deactivated plugin|Enables the Domain Separation plugin for instances that use this feature.|
-|Regenerate all text indexes|Rebuilds text indexes on the target instance after a clone. Text indexes aren’t cloned from the source to the target instance.|
+|Regenerate all text indexes|Rebuilds text indexes on the target instance after a clone. Text indexes are cloned from the source instance and then regenerated to reflect only the preserved data.|
 |Schedule drop backup tables|Schedules the deletion of the data that is contained in the target instance database before the clone. This original data is preserved for 24 hours following a clone to enable you to roll back an instance to the pre-clone state. If the target instance is downgraded as part of the clone, backup data isn’t available.|
 
 **Note:** After the clone completes, all active cleanup scripts are combined together as a scheduled job named **Execute Clone Cleanup Script: Execute Cleanup Scripts Sequentially** and run until completion in the global scope.

@@ -32,7 +32,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     |Created|Date and time when the metric was added to the list.|
 
 
-**Parent Topic:**[Mute an unimportant alert in Health Log Analytics](hla-op-alert-mute.md)
+**Parent Topic:**[Mute an unimportant alert in Health Log Analytics](hla-op-alert-mute-sow.md)
 
 **Related topics**  
 

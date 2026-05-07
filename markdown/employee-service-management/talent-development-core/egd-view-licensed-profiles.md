@@ -17,7 +17,7 @@ You can view a list of profiles that are licensed for Talent Development.
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

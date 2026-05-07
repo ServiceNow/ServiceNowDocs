@@ -19,7 +19,9 @@ Role required: admin
 
 ## About this task
 
-A condition consists of three parts. ![Condition builder with the Active field, the is operator, and the true value highlighted.](../image/condition-builder.png)
+A condition consists of three parts: field, operator, and value.
+
+![Condition builder with the Active field, the is operator, and the true value highlighted.](../image/condition-builder.png)
 
 |Part|Description|
 |----|-----------|
@@ -35,7 +37,7 @@ A condition consists of three parts. ![Condition builder with the Active field, 
 
 3.  To remove a condition, select the delete icon \(X\) next to the condition.
 
-    ![Example AND condition in List v2](../image/ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png "Example AND condition in List v2 filter")
+    ![Example AND condition](../image/ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png "Example AND condition")
 
 
 -   **[Condition builder](../concept/c_ConditionBuilder.md)**  

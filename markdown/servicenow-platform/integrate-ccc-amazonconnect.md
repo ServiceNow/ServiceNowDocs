@@ -221,7 +221,7 @@ To use the native voice control in ServiceNow Workspace, follow the steps in the
 
 **Note:** If a queue with the same ServiceNow Voice External ID is already mapped to an Amazon Connect queue, update the Provider Queue ID field on the existing record instead of creating a duplicate queue.
 
-See [Interaction Controls Component \(ICC\) for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+See [Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>

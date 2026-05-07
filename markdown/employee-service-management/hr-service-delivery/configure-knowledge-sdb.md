@@ -1,6 +1,6 @@
 ---
-title: Configure the Knowledge Base articles
-description: Include the HR only Knowledge Base articles while determining the Self-solved using Knowledge KPI in the HR Success Dashboard indicators.
+title: Configure tracked Knowledge Base for the self-solved KPI
+description: By default, the Self-solved using Knowledge KPI in the HR Success Dashboard tracks articles views only in the Human Resources General knowledge base. If your organization uses a different knowledge base or multiple knowledge bases, complete these steps to update the scope.
 locale: en-US
 release: australia
 product: HR Service Delivery
@@ -11,9 +11,9 @@ reading_time_minutes: 1
 breadcrumb: [Configure HR Success Dashboard indicators, HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
 ---
 
-# Configure the Knowledge Base articles
+# Configure tracked Knowledge Base for the self-solved KPI
 
-Include the HR only Knowledge Base articles while determining the **Self-solved using Knowledge** KPI in the HR Success Dashboard indicators.
+By default, the **Self-solved using Knowledge** KPI in the HR Success Dashboard tracks articles views only in the Human Resources General knowledge base. If your organization uses a different knowledge base or multiple knowledge bases, complete these steps to update the scope.
 
 ## Before you begin
 

@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Use bubble chart view
@@ -27,6 +27,8 @@ Create or edit the life cycle of a business application to manage the business a
 You can make updates to the business application record directly from the list, without leaving the bubble chart view.
 -   **[Change the number of bubbles displayed on the bubble chart](../../task/eaw-task/eaw-update-sys-prop-change-number-of-bubbles.md)**  
 Customize the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to change the number of bubbles displayed on the application rationalization bubble chart page.
+-   **[Use case: How indicator scores appear on the bubble chart](eaw-bubble-chart-use-case.md)**  
+Understand how application indicator scores are calculated and displayed as bubbles on the Application Rationalization bubble chart.
 
 **Parent Topic:**[Working with application rationalization](eaw-work-with-app-rat.md)
 

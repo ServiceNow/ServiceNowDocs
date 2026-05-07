@@ -150,7 +150,7 @@ Description
 Description of the goal.
 
 </td></tr></tbody>
-</table>4.  Click **Save**.
+</table>4.  Select **Save**.
 
 
 ## What to do next
@@ -162,7 +162,7 @@ The progress or percentage complete value of goals is auto-calculated using diff
 -   **[Migrate existing goals data to Goal Framework](migrate-existing-goals-to-new-data-model.md)**  
 With the admin role, you can migrate the existing goals data to the Goal Framework tables by running the scheduled job.
 -   **[Display the priorities and goals on the project form](configure-project-form.md)**  
-If you are an existing user, configure the project form to upgrade to the Goal Framework. The benefit of the Goal Framework is that it enables you to set targets for goals. You can also define strategic priorities and associated goals as part of the organization's strategic plans.
+If you're an existing user, configure the project form to upgrade to the Goal Framework. The benefit of the Goal Framework is that it enables you to set targets for goals. You can also define strategic priorities and associated goals as part of the organization's strategic plans.
 -   **[Map a goal to a material topic](associate-a-goal-to-mt.md)**  
 Map a goal to a material topic so that you can track the actions being taken for the chosen topic. Based on this mapping exercise, you can act on the goals with the most significant material impact.
 -   **[Associate entities to goals](associate-entities-to-goals.md)**  

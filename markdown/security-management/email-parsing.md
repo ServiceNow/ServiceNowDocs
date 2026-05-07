@@ -39,7 +39,7 @@ For example, a malware detector could send you an email report about all systems
 
 ![Malicious email example](../image/EvilBunnyEmail.png "Sample malicious email")
 
-In this example, when the **Record Separator** is set within your **Email Transform**as **=================**, it splits the email into four sections that are evaluated separately. This creates a Security Incident for each of the three affected systems.
+In this example, when the **Record Separator** is set within your **Email Transform** as **=================**, it splits the email into four sections that are evaluated separately. This creates a Security Incident for each of the three affected systems.
 
 **Note:** The header section is detected but does not have any affected systems so, it is used in all three records and does not create a fourth record.
 
@@ -54,7 +54,7 @@ In this example, three records are created, even though there are four sections 
 -   **[Create email parsers in Security Operations](../task/parsing-emails.md)**  
 Email Parsing creates Security Operations records from your email for security, vulnerability, and observables to expedite threat response and remediation.
 -   **[Edit email records in Security Operations](../task/edit-email-records.md)**  
-Add or create transforms in your existing email event records.
+Edit transforms in your existing email event records.
 
 **Parent Topic:**[Security Operations email processing](email-processing.md)
 

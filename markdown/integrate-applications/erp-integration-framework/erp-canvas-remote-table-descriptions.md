@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP remote table form field descriptions
-description: The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
+description: The Remote table form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit remote tables in the ERP model.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,14 +9,14 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP remote table form field descriptions
 
-The Remote table form in Zero Copy Connector for ERP enables you to create and edit remote tables in the ERP \(Enterprise Resource Planning\) model.
+The Remote table form in Zero Copy Connector for ERP \(Enterprise Resource Planning\) enables you to create and edit remote tables in the ERP model.
 
-For process details, see .
+For process details, see [View and edit ERP remote table details with Zero Copy Connector for ERP](../task/erpi-find-tables.md).
 
 <table id="table_ep5_44s_wxb"><thead><tr><th>
 

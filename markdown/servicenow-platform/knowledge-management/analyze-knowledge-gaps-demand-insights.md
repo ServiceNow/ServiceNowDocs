@@ -42,15 +42,15 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
 
 4.  Analyze the sample to create a knowledge gap feedback task or ignore the tasks within a collection.
 
-<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d293186e130">
+<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d296381e130">
 
 Action
 
-</th><th align="left" id="d293186e133">
+</th><th align="left" id="d296381e133">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d293186e139">
+</th></tr></thead><tbody><tr><td id="d296381e139">
 
 **Report a knowledge gap to create a feedback task**
 
@@ -68,7 +68,7 @@ The **Description** field is automatically populated with frequently appearing w
 4.  Click **Submit**.
 
 
-</td></tr><tr><td id="d293186e179">
+</td></tr><tr><td id="d296381e179">
 
 **Ignore a collection to avoid its tasks from being reported as knowledge gaps**
 

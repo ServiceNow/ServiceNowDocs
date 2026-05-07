@@ -27,7 +27,7 @@ When you create a network topology record, it creates a corresponding configurat
 
 1.  Navigate to **Workspaces** &gt; **Network Inventory Workspace**.
 
-2.  From the list icon \(![List icon.](../../tmt-order-mgt/image/Lists.png)\), go to **Inventory** &gt; **Network Topology**.
+2.  From the list icon \(![List icon](../../tmt-assurance-workflows/image/lists_icon-proactive.png), go to **Inventory** &gt; **Network Topology**.
 
 3.  Select **New**.
 

@@ -131,14 +131,6 @@ Agentic Contact Center for Banking
 
 </td></tr><tr><td>
 
-Agentic Desktop
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-agenticdesktop-release-notes.html)
-
-</td></tr><tr><td>
-
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -155,6 +147,14 @@ Agile Development 2.0
 
 </td></tr><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aiagentadvisor-release-notes.html)
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
@@ -163,11 +163,11 @@ AI Control Tower
 
 </td></tr><tr><td>
 
-AI-native IT Service Management
+AI Desktop Actions
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-ainativeitservicemanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-aidesktopactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -691,11 +691,11 @@ Customer Engagement Sequences
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customerselfserviceforsalesandordermanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -712,6 +712,14 @@ Customer Success Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-customersuccessmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+Data Catalog
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-datacatalog-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -752,6 +760,14 @@ Data Privacy
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataprivacy-release-notes.html)
+
+</td></tr><tr><td>
+
+Data products
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-dataproducts-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -931,6 +947,14 @@ Employee Relations
 
 </td></tr><tr><td>
 
+Employee Slate
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-employeeslate-release-notes.html)
+
+</td></tr><tr><td>
+
 EMR Help
 
 </td><td>
@@ -1051,11 +1075,11 @@ Financial Services Operations Integration with Mastercard
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi CDRN
+Financial Services Operations Integration with Verifi
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithverificdrn-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-financialservicesoperationsintegrationwithverifi-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1411,6 +1435,14 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
+IT Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-itservicemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
 ITSM Mobile Agent
 
 </td><td>
@@ -1747,6 +1779,14 @@ Now Assist Analytics
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistcenter-release-notes.html)
+
+</td></tr><tr><td>
+
 Now Assist for App Engine
 
 </td><td>
@@ -1899,14 +1939,6 @@ Now Assist for Manufacturing Commercial Operations \(MCO\)
 
 </td></tr><tr><td>
 
-Now Assist for Operational Sustainability Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforoperationalsustainabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Operational Sustainability Management Management
 
 </td><td>
@@ -1939,11 +1971,11 @@ Now Assist for Retail Service Management \(RSM\)
 
 </td></tr><tr><td>
 
-Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+Now Assist for Sales CRM for Telecommunications
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsalesandordermanagementfortelecommunicationssomt-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforsalescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2048,6 +2080,14 @@ Now Assist for Workplace Service Delivery \(WSD\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforworkplaceservicedeliverywsd-release-notes.html)
+
+</td></tr><tr><td>
+
+Now Assist for Zero Copy Connector
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2571,11 +2611,11 @@ Sales Agreement Management
 
 </td></tr><tr><td>
 
-Sales and Order Management for Telecommunications \(SOMT\)
+Sales CRM for Telecommunications
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-salesandordermanagementfortelecommunicationssomt-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/delta-zurich-australia/australia-zurich-salescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 

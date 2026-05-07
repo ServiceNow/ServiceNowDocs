@@ -19,3 +19,11 @@ There are two pathways to trigger a breach assessment: it can be initiated direc
 
 In the event of a breach, any specific criteria, for example, a server being compromised with personal data, may prompt the initiation of a breach assessment before creating a privacy case. The primary objective of this assessment is to quickly determine the nature of the compromised data. For example, if the incident is related to security incident, the security analysts are tasked with filling out the breach assessment, providing details on the incident type, impacted locations, and any existing mitigation measures like encryption. Subsequently, privacy analysts review the assessment, delving into the specifics of the incident. Based on this analysis, a privacy case may be created to prevent future occurrences and manage legal obligations linked to the breach.
 
+## Workflow of a privacy breach assessment
+
+While a breach assessment can be initiated from the Employee Center, it can also be initiated from an application. The following image illustrates the breach assessment workflow using the example of a security incident.
+
+**Note:** This image uses security incident purely as an example for a better understanding of the workflow.
+
+![Steps for the creation of privacy case for a business app security breach using breach assessment.](../image/breach-asmt-workflow.png "Privacy breach assessment workflow")
+

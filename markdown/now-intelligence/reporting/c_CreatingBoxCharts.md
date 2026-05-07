@@ -7,7 +7,7 @@ product: Reporting
 classification: reporting
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Report types, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -19,7 +19,7 @@ Use box charts to report multiple data sets from different sources that are rela
 
 For example, use a box chart to view the age range of all customers who attended a convention. The box chart helps you determine where most ages are grouped. With this information, you can attempt to increase attendance levels at future events by targeting advertisements at the age groups that had lower attendance levels.
 
-**Note:** This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Create a box plot data visualization](../task/create-dv-box-plot.md).
+**Note:** On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Exploring the Data Visualizations library](../../performance-analytics/concept/explore-data-vis-library.md).
 
 ![Box report](../image/BoxChart.png "Box chart")
 
@@ -42,7 +42,7 @@ Create a box report to show the distribution of values in a data set.
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### About this task
 
@@ -50,13 +50,13 @@ Box reports enable you to show data organized by statistical averages.
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d145249e212">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d149583e251">
 
 **Data source**
 
@@ -64,7 +64,7 @@ Box reports enable you to show data organized by statistical averages.
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d145249e231">
+</td></tr><tr><td id="d149583e270">
 
 **Table**
 
@@ -72,7 +72,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 
-</td></tr><tr><td id="d145249e250">
+</td></tr><tr><td id="d149583e289">
 
 **External import**
 
@@ -80,7 +80,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d145249e275">
+</td></tr><tr><td id="d149583e314">
 
 **MetricBase**
 

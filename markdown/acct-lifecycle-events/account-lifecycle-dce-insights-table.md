@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure DCE Visualizations, Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+breadcrumb: [Configure DCE Visualizations, Set up the Data Context Engine, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # DCE Insights tables

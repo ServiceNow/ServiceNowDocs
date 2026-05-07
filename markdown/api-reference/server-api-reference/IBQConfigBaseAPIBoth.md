@@ -1,6 +1,6 @@
 ---
 title: IBQConfigBase API - Scoped
-description: Script include that must be extended for Sales and Order Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.Creates a parent record which gets added to the record\_id of the Inbound Request \[sn\_tmt\_core\_inbound\_queue\_list\] record before processing the request.Determines whether a flow should run in sync or async mode.Defines the logic for processing an inbound request record.Sets the execute\_after value and updates state to Pending on the current inbound request record to configure the order in which records are processed in the Inbound Request table.
+description: Script include that must be extended for Sales Customer Relationship Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.Creates a parent record which gets added to the record\_id of the Inbound Request \[sn\_tmt\_core\_inbound\_queue\_list\] record before processing the request.Determines whether a flow should run in sync or async mode.Defines the logic for processing an inbound request record.Sets the execute\_after value and updates state to Pending on the current inbound request record to configure the order in which records are processed in the Inbound Request table.
 locale: en-US
 release: australia
 product: Server API Reference
@@ -13,7 +13,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 # IBQConfigBase API - Scoped
 
-Script include that must be extended for Sales and Order Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.
+Script include that must be extended for Sales Customer Relationship Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.
 
 The Sales and Service API Core \(com.sn\_tmt\_core\) plugin must be activated for IBQConfigBase script include to be available in an instance. This script include belongs to the `sn_tmt_core` namespace and requires the admin role.
 

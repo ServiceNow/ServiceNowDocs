@@ -7,7 +7,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 25
+reading_time_minutes: 26
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v2.9.0 is the latest version.
+Workday HR spoke v2.11.1 is the latest version.
 
 ## Supported versions
 
@@ -1027,6 +1027,7 @@ The Workday HR spoke provides sample subflows to demonstrate automating Workday 
 |Look up job Requisition|Retrieves all the existing job requisition information from Workday application into Job Requisition table.|
 |Update Job Requisition|Retrieves the changes made to the existing job requisition in Workday using the UpdateJobRequisition webhook and stores the changes in the Job Requisition table.|
 |Look up Using WQL Stream|Retrieves Workday HR data using a WQL \(Workday Query Language\) stream query.|
+|Sample Sequences to Make a WQL Call|Constructs a Workday Query Language \(WQL\) query based on the specified inputs.|
 
 ## Spoke actions that use Workday SOAP APIs
 

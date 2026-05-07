@@ -9,7 +9,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, sample, example, snippit, glide, query, code]
-breadcrumb: [Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Sample Glide query for ERP data in Zero Copy Connector for ERP

@@ -6,7 +6,7 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
@@ -23,18 +23,24 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
+1.  Navigate to **All** &gt; **Application Manager**.
 
 2.  Search for `App Engine Studio`.
 
-    ![Install the AES product](../image/aes-activate-plugin-as1.png)
+3.  Select the App Engine Studio product card.
 
-3.  Select the **Proceed to update** button.
+    ![App Engine Studio product card highlighted in the Application Manager.](../image/aes-activate-plugin-as1.png)
 
-4.  In the Review Installation Details modal, locate the select the App Engine Studio application and select the version that you want to update to.
+4.  Select the **Proceed to update** button.
 
-5.  Select **Proceed**.
+5.  In the Review Installation Details modal, locate the App Engine Studio application and select the version that you want to update to.
 
+6.  Select **Proceed**.
+
+7.  Select when you want the installation to occur.
+
+    -   To have the installation occur immediately, select the option to install now, then select **Install**.
+    -   To have the installation occur at a specified time, select the option to install later, then select the date and time when you want the installation to occur and select **Schedule**.
 
 ## Result
 

@@ -4,8 +4,8 @@ description: Cumulative release notes summary on activation information for Aust
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 51
+last_updated: "2026-05-04"
+reading_time_minutes: 53
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -25,11 +25,27 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configuring AI Agent Advisor](https://www.servicenow.com/docs/access?context=configuring-ai-agent-advisor&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
 Install AI Control Tower by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+AI Desktop Actions
+
+</td><td>
+
+AI Desktop Actions is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using AI Desktop Actions, see [Configure AI Desktop Actions](https://www.servicenow.com/docs/access?context=configure-agentic-desktop&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -49,14 +65,6 @@ AI Search is a ServiceNow AI Platform feature that is active by default.
 
 </td></tr><tr><td>
 
-AI-native IT Service Management
-
-</td><td>
-
-Request the entitlement for AI-native IT Service Management from the ServiceNow Store and then install it. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
 API
 
 </td><td>
@@ -65,20 +73,25 @@ The following APIs are available by default:
 
 -   ATF Code Coverage API
 -   Attachment API
+-   GlideAggregate
 -   GlideDate
 -   GlideTime
 -   GlideElement
+-   GlideElementDescriptor
 -   GlideElementDynamicAttributeStore
 -   GlideForm
 -   GlideForm \(Next Experience\)
 
 The following APIs require plugin activation:
 
--   MIDHermesProducer requires the MID Hermes API \(com.glide.mid.hermes\_api\) plugin.
--   Help Request API requires the Interactions Management \(com.glide.interaction\) plugin.
 -   CopyDynamicSchemaAPI API requires the Dynamic Schema Support \(com.glide.dynamic\_schema\) plugin.
+-   Help Request API requires the Interactions Management \(com.glide.interaction\) plugin.
+-   MIDHermesProducer requires the MID Hermes API \(com.glide.mid.hermes\_api\) plugin.
 -   Party Management Open API requires the Customer Service Base Entities \(com.snc.cs\_base\) plugin.
 -   Wrap Up API requires the requires the Interactions Management \(com.glide.interaction.awa\) plugin.
+-   WSD Presence API requires the Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin.
+-   WSD Unified Search API requires the Workplace Service Delivery Core \(com.sn\_wsd\_core\) plugin.
+-   WSD User API requires the Workplace Service Delivery Concierge \(com.sn\_wsd\_concierge\), Workplace Service Delivery Core \(com.sn\_wsd\_core\), and Workplace Service Delivery Reservation \(com.sn\_wsd\_rsv\) plugins.
 
 </td></tr><tr><td>
 
@@ -110,7 +123,7 @@ Adoption Services
 
 </td><td>
 
-Adoption Services is active by default with the plugins. You don’t need to activate this feature.
+Adoption Services is active by default with the plugins. Do not activate this feature.
 
 </td></tr><tr><td>
 
@@ -216,7 +229,9 @@ Build Agent
 
 </td><td>
 
- 
+Build Agent is a ServiceNow AI Platform feature that is active by default.
+
+**Note:** Build Agent is dependent on Now Assist for Creator. For more information, see [Now Assist for Creator release notes](../now-platform-app-engine/now-assist-for-creator-rn.md).
 
 </td></tr><tr><td>
 
@@ -446,11 +461,19 @@ Install Customer Success Management by requesting it from the ServiceNow Store. 
 
 </td></tr><tr><td>
 
-Customer self-service for Sales and Order Management
+Customer self-service for Sales Customer Relationship Management
 
 </td><td>
 
 The Business Portal application \(sn\_b2b\_portal\) is automatically installed when you install the Customer Service Portal \(sn\_csm\_portal\). Install the Customer Service Portal by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+Data Catalog
+
+</td><td>
+
+Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -460,7 +483,7 @@ Data Management
 
 Data Management and system archiving are ServiceNow AI Platform capabilities that are active by default.
 
-The ability to store archive data in object storage is available with activation of the Data Archiving \(com.glide.db.columnar.archive\) plugin, which requires a separate subscription. For details, see .
+The ability to store archive data in object storage is available with the installation of Live Archive, which requires a separate subscription. For details, see .
 
 </td></tr><tr><td>
 
@@ -472,7 +495,7 @@ CSM is a ServiceNow AI Platform application that is available with activation of
 
 Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
-Sales and Order Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=australia&pubname=australia-order-management&ft:locale=en-US).
+Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=australia&pubname=australia-order-management&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -481,6 +504,14 @@ Data Privacy
 </td><td>
 
 Data Privacy is available with activation of the Data Privacy plugin \(`sn_dp_store_app`\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Data products
+
+</td><td>
+
+Install Data products by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -568,6 +599,14 @@ Install Employee Center Pro by requesting it from the ServiceNow Store. Visit th
 
 </td></tr><tr><td>
 
+Employee Slate
+
+</td><td>
+
+Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
+
+</td></tr><tr><td>
+
 Encryption
 
 </td><td>
@@ -581,6 +620,8 @@ Enterprise Architecture
 </td><td>
 
 Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://www.servicenow.com/docs/access?context=application-portfolio-management-landing-page&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+
+Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -606,7 +647,7 @@ Enterprise Service Management Foundation
 
 </td><td>
 
-Enterprise Service Management Foundation is available in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). For more details on the individual products, see [Core Business Suite release notes](../core-business-suite/cbs-rn.md) and [AI-native IT Service Management release notes](../it-service-management/ai-native-it-service-desk-rn.md).
+Enterprise Service Management Foundation is available in the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html). For more details on the individual products, see [Core Business Suite release notes](../core-business-suite/cbs-rn.md) and [IT Service Management release notes](../it-service-management/ai-native-it-service-desk-rn.md).
 
 </td></tr><tr><td>
 
@@ -615,6 +656,14 @@ Event Management
 </td><td>
 
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+External Content Connectors
+
+</td><td>
+
+Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -650,7 +699,7 @@ Install Financial Services Operations Integration with Mastercard by requesting 
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi CDRN
+Financial Services Operations Integration with Verifi
 
 </td><td>
 
@@ -729,6 +778,14 @@ Hermes Messaging Service
 </td><td>
 
 Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application. For details, see [Activating the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+IT Service Management
+
+</td><td>
+
+Request the entitlement for IT Service Management from the ServiceNow Store and then install it. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -882,7 +939,7 @@ Knowledge Graph
 
 </td><td>
 
-Knowledge Graph is a ServiceNow AI Platform feature that is active by default.
+Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
 
 </td></tr><tr><td>
 
@@ -923,6 +980,14 @@ Localization Workspace
 </td><td>
 
 Install Localization Workspace by requesting it from the ServiceNow Store. See [Localization Workspace on the ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/03226056b7125210a5e5911cde11a950). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+MCP Server Console
+
+</td><td>
+
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1048,6 +1113,22 @@ Now Assist AI agents are available with activation of any Now Assist plugin from
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+Now Assist Center is available from the ServiceNow Store. For more information about the installation of Now Assist Center, see [Configuring Now Assist Center](https://www.servicenow.com/docs/access?context=configuring-now-assist-center&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+
+</td></tr><tr><td>
+
+Now Assist for App Engine
+
+</td><td>
+
+Install Now Assist for App Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Now Assist for Collaborative Work Management \(CWM\)
 
 </td><td>
@@ -1080,11 +1161,11 @@ Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is a
 
 </td></tr><tr><td>
 
-Now Assist for Enterprise Architecture \(EA\)
+Now Assist for FSM
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for FSM plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1112,22 +1193,6 @@ Install Now Assist for Legal Service Delivery \(LSD\) by requesting it from the 
 
 </td></tr><tr><td>
 
-Now Assist for Manufacturing Commercial Operations \(MCO\)
-
-</td><td>
-
-Now Assist features are available with activation of Now Assist for MCO \(com.sn.mfg.gen.ai\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
-</td></tr><tr><td>
-
-Now Assist for Operational Sustainability Management
-
-</td><td>
-
-Install Now Assist for Operational Sustainability by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
 Now Assist for Operational Technology Service Management \(OTSM\)
 
 </td><td>
@@ -1136,11 +1201,11 @@ Install Now Assist for OTSM by requesting it from the ServiceNow Store. Visit th
 
 </td></tr><tr><td>
 
-Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+Now Assist for Sales CRM for Telecommunications
 
 </td><td>
 
-Now Assist features are available with activation of the Now Assist for SOMT plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1160,14 +1225,6 @@ Install for Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assi
 
 </td></tr><tr><td>
 
-Now Assist for Strategic Portfolio Management \(SPM\)
-
-</td><td>
-
-Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
-</td></tr><tr><td>
-
 Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td><td>
@@ -1178,11 +1235,11 @@ Now Assist features are available with activation of the Now Assist for TMT plug
 
 </td></tr><tr><td>
 
-Now Assist for Vulnerability Response
+Now Assist for Zero Copy Connector
 
 </td><td>
 
-Install applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Now Assist for Zero Copy Connector by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -1238,11 +1295,19 @@ For more information, see [Configuring Now Assist in Document Intelligence](http
 
 </td></tr><tr><td>
 
+Now Assist in Platform Analytics
+
+</td><td>
+
+Now Assist applications for Platform Analytics are either included by default or you can install them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Now Assist in Virtual Agent
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 
@@ -1397,7 +1462,7 @@ Product Catalog Management and Pricing Management
 
 </td><td>
 
-The Product Catalog Management and Pricing Management features are included with Sales and Order Management store applications and don’t need activation. Depending on your entitlements, you can install the Product and Pricing Rules application for pricing and product eligibility matrixes from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+The Product Catalog Management and Pricing Management features are included with Sales Customer Relationship Management store applications and don’t need activation. Depending on your entitlements, you can install the Product and Pricing Rules application for pricing and product eligibility matrixes from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -1422,6 +1487,8 @@ Project Workspace
 </td><td>
 
 Install Project Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+Now Assist features are available with activation of the [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1505,6 +1572,14 @@ SQL API is a ServiceNow feature that is available with the activation of SQL API
 
 </td></tr><tr><td>
 
+Sales CRM for Telecommunications
+
+</td><td>
+
+Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Sales Forecasting
 
 </td><td>
@@ -1518,14 +1593,6 @@ Sales Territory Management​
 </td><td>
 
 Install Sales Territory Management​ by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
-Sales and Order Management for Telecommunications \(SOMT\)
-
-</td><td>
-
-Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -1582,6 +1649,14 @@ Service Portal
 </td><td>
 
 Service Portal is a ServiceNow AI Platform feature that is active by default.
+
+</td></tr><tr><td>
+
+ServiceNow AI Lens
+
+</td><td>
+
+ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure ServiceNow AI Lens](https://www.servicenow.com/docs/access?context=install-sn-lens&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1702,14 +1777,6 @@ Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store
 
 </td></tr><tr><td>
 
-Synthetic monitoring
-
-</td><td>
-
-Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
 Telecommunications Customer 360
 
 </td><td>
@@ -1819,6 +1886,14 @@ Workforce Optimization for CSM
 </td><td>
 
 Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 

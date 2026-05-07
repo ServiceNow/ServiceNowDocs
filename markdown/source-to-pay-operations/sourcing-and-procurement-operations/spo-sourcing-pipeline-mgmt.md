@@ -57,6 +57,8 @@ The Pipeline management tab enables you to get insights into savings and pipelin
 **Related topics**  
 
 
+[Shopping Hub](shopping-hub-overview.md)
+
 [My purchases on Shopping Hub](my-purchases.md)
 
 [Shopping Hub Mobile](shoppinghub-mobile.md)

@@ -21,8 +21,6 @@ Role required: admin
 
 You can generate maps using basic JavaScript, and they are flexible enough to display even the most complicated of queries. These maps use standard Google Maps API for Business or Google Maps JavaScript API Key mapping features, including various link types to records in your instance. Use of this feature requires installation of the Google Maps plugin.
 
-![Map page](../image/MapPage.jpg "Map page")
-
 **Important:** Starting May 2026, Google is deprecating the use of Client ID for authenticating requests to Google Maps. From this date onward, API keys will be the only supported authentication method. If your application continues to use client-id \(for example, via the **google.maps.method property**\), Google Maps requests will fail. For more information, see [Client ID Migration Guide](https://developers.google.com/maps/premium/migrate-client-id).
 
 Update your configuration to authenticate using an API key only \(that is, set **google.maps.method** to `key`\). Refer to the descriptions of **google.maps.key** and **google.maps.key.geocoding** properties for more information on API key–based authentication.
@@ -33,15 +31,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d106103e127">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d109081e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d106103e133">
+</th><th align="left" id="d109081e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d106103e139">
+</th></tr></thead><tbody><tr><td id="d109081e124">
 
 **Existing license available**
 
@@ -56,7 +54,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d106103e213">
+</td></tr><tr><td id="d109081e198">
 
 **No license available**
 

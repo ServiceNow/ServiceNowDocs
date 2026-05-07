@@ -20,7 +20,7 @@ Use the ServiceNow® Now Assist for ITOM application to view alert or incident a
 
 Alert analyses include human-readable briefs of the alert and additional technical information to help you investigate the alert more effectively. The analyses are provided in English, irrespective of the language used in the alert description.
 
-For more information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application, see [Now Assist for IT Operations Management \(ITOM\)](now-assist-itom.md).
+For more information about the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application, see [Now Assist for ITOM](now-assist-itom.md).
 
 **Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
@@ -55,5 +55,5 @@ Use the analyze Service Observability dashboard skill to view an analysis of a s
 -   **[Analyze service health in Service Observability](analyze-service-health-in-service-observability.md)**  
 Use the Analyze Service Health skill to view an analysis of all Service Observability dashboards for the selected service.
 
-**Parent Topic:**[Now Assist for IT Operations Management \(ITOM\)](now-assist-itom.md)
+**Parent Topic:**[Now Assist for ITOM](now-assist-itom.md)
 

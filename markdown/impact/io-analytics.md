@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Analytics
@@ -35,5 +35,5 @@ Track the response time of applications to gauge their performance. You can dril
 -   **[Analyze user experience and monitor application performance in Instance Observer](../task/io-app-mon-perf-analy.md)**  
 Get visibility into the operational metrics of applications and their performance. You can find out the number of applications per instance, the number of pages within each application, page-level response time, user interaction frequency with each application, and page access frequency by users within each application.
 
-**Parent Topic:**[Instance Observer](io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](io-overview.md)
 

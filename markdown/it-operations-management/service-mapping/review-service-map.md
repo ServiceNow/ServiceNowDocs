@@ -51,15 +51,15 @@ To see documentation for another review phase, click the relevant box in the dia
 
 3.  On the application service map, check that all essential CIs comprising the application service are discovered and mapped correctly.
 
-<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d256859e275">
+<table id="choicetable_zzx_gvd_ht"><thead><tr><th align="left" id="d261939e275">
 
 Purpose
 
-</th><th align="left" id="d256859e278">
+</th><th align="left" id="d261939e278">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d256859e284">
+</th></tr></thead><tbody><tr><td id="d261939e284">
 
 **Verify that there are no missing CI connections.**
 
@@ -69,7 +69,7 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
  If connections and CIs to which they lead are missing, the map does not reflect the real state of the service instance and its operation. Inaccurate data can also be transferred to Event Management, causing imprecise monitoring.
 
-</td></tr><tr><td id="d256859e308">
+</td></tr><tr><td id="d261939e308">
 
 **Verify that there are no CIs that do not belong in the service.**
 
@@ -77,7 +77,7 @@ Pay attention to CIs with no connectors from it to other CIs. For example, in th
 
 Check all CIs comprising the application service map to identify CIs not belonging to this application service. Typically, it is applications supporting internal services. For example, Microsoft Internet Information Services \(IIS\) connecting to Active Directory, may be not part of the application service.
 
-</td></tr><tr><td id="d256859e317">
+</td></tr><tr><td id="d261939e317">
 
 **Check that the connections between CIs are correct.**
 
@@ -85,7 +85,7 @@ Check all CIs comprising the application service map to identify CIs not belongi
 
 [View CI connection attributes in an application service map in classic Service Mapping](view-connector-properties.md).
 
-</td></tr><tr><td id="d256859e333">
+</td></tr><tr><td id="d261939e333">
 
 **Check that clusters are reflected correctly.**
 
@@ -113,7 +113,7 @@ This type of cluster appears as a CI with a plus sign and the number of CIs in t
 
 ![OS cluster](../image/MapClustersOSClusters.png)
 
-</td></tr><tr><td id="d256859e388">
+</td></tr><tr><td id="d261939e388">
 
 **Check that inclusions are reflected correctly.**
 

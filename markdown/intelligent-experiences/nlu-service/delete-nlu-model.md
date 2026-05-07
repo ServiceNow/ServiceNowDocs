@@ -49,5 +49,3 @@ Deleting an NLU model removes the model and its contents, including its default 
     The system deletes your model and reloads the page.
 
 
-**Parent Topic:**[Creating models](../concept/creating-models.md)
-

@@ -251,11 +251,7 @@ Sent Emails
 Associated email communication that has been sent.
 
 </td></tr></tbody>
-</table>## Sourcing and negotiation workflow
-
-![Sourcing and negotiation workflow](../image/sourcing-workflow.png)
-
-## Negotiation state flows
+</table>## Negotiation state flows
 
 The status of the purchase line and the sourcing request updates automatically depending on the status of the negotiation. Negotiations are grouped by supplier.
 

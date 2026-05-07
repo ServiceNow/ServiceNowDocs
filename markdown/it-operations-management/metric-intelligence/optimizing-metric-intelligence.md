@@ -26,7 +26,7 @@ For performance reasons, you might want to disable the collection of events from
 -   **[Configure anomaly score thresholds](../../event-management/task/cnfgr-anomaly-score-thresholds.md)**  
 Metric Intelligence scores anomalies on a range 0-10. This range is broken down to the five levels of event severities, each represented by a different color in the Insights Explorer and in the Anomaly Map. You can configure the anomaly score threshold for each level of severity.
 -   **[View anomaly alerts](../../event-management/task/view-metrics-anomaly-alerts.md)**  
-Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from the regular IT alerts, and are not displayed in the Service Operations Workspace. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
+Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from regular IT alerts. They appear in the Service Operations Workspace but not in Express List. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
 -   **[View metric charts in Agent Workspace](../../event-management/task/view-metric-charts-workspace.md)**  
 Agent Workspace for Metric Intelligence provides easy access to metric charts for a CI. On an alert form, you can drill down to important metric charts for the CI that is associated with the alert.
 -   **[Configure metric charts for Agent Workspace](../../event-management/task/configure-metric-chart-workspace.md)**  

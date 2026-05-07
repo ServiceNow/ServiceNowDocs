@@ -1,6 +1,6 @@
 ---
 title: Create a secret group with criteria
-description: Create a group for your secrets. Secret groups to organize your secrets into groups, and enable you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group, and add your MID Server to that identity group.
+description: Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform
 
 # Create a secret group with criteria
 
-Create a group for your secrets. Secret groups to organize your secrets into groups, and enable you to apply access policies to those secrets at a group level. Then associate your secrets group to an identity group, and add your MID Server to that identity group.
+Secret groups organize secrets and apply access policies at the group level. Associate a secret group with an identity group to control MID Server access.
 
 ## Before you begin
 
@@ -106,7 +106,7 @@ Role required: admin, sn\_kmf.admin, sn\_secrets.admin
 
 26. Select **Submit**.
 
-27. Navigate back to **All** &gt; **Secrets Management** &gt; **Secret Groups with Criteria**, and open the record you created in step 2.
+27. Navigate back to **All** &gt; **Secrets Management** &gt; **Secret Groups with Criteria** and open the record you created in step 2.
 
 28. Enable the **Active** field.
 

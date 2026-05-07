@@ -7,8 +7,8 @@ product: Asset Management
 classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+reading_time_minutes: 1
+breadcrumb: [Reference, Asset Management, IT Asset Management]
 ---
 
 # Summary of transfer order line tasks
@@ -72,26 +72,4 @@ Delivered
 After the **Received** task is closed, this task is created. After you close the **Delivered** task, the transfer order line is completed. On the asset form, the **State** field value remains **In stock** and the **Substate** field value is updated to **Reserved**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Manage transfer order](../concept/manage-transfer-orders.md)
-
-**Related topics**  
-
-
-[Transfer order flow](../concept/transfer-order-flows.md)
-
-[Transfer assets using transfer orders](../task/t_TransferAssetsUsingTransferOrders.md)
-
-[Delete a transfer order](../task/t_DeleteATransferOrder.md)
-
-[Delete a transfer order line](../task/t_DeleteATransferOrderLine.md)
-
-[Return items received in a transfer order](../task/t_ReturnItemsRecInXferOrder.md)
-
-[Create a customized template task](../task/create-customized-template-task.md)
-
-[Create a template subtask](../task/create-template-subtask.md)
-
-[Transfer order line asset tracking](r_TransferOrderLineAssetTracking.md)
-
-[Perform bulk updates for transfer order lines](../task/create-bulk-transfer.md)
-
+</table>

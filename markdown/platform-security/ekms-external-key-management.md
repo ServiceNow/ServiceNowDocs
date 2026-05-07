@@ -38,7 +38,9 @@ EKMS uses a key wrapping chain to secure data. See the EKMS key wrapping diagram
 5.  Data Encryption Keys \(DEKs\) for a cryptographic module are wrapped by the EKEK and stored in the module key table. The DEKs are what encrypts your field data.
 6.  Field data is encrypted using the cryptographic module's DEKs.
 
-![External Key Management Service diagram](../image/ekms-diagram.png)This architecture ensures that your instance never has direct access to decrypt the data without access to the external AWS key.
+![External Key Management Service diagram](../image/ekms-diagram.png)
+
+This architecture ensures that your instance never has direct access to decrypt the data without access to the external AWS key.
 
 ## Key status synchronization
 

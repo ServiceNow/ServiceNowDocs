@@ -55,9 +55,9 @@ For more information, see [CPQ Configurator](https://www.servicenow.com/docs/acc
 
     Configure a custom namespace at the tenant level to align Salesforce fields and references with your managed package. When a custom namespace is set, CPQ uses it for all generated Salesforce fields and all field lookups instead of the default LGK\_ prefix. If no custom namespace is configured, the system defaults to LGK\_ to preserve compatibility with existing tenants.
 
--   **Dynamic selection of SOM catalog items in the CPQ admin UI**
+-   **Dynamic selection of Sales CRM catalog items in the CPQ admin UI**
 
-    Select product offerings, product specifications, and product characteristic values directly in the CPQ admin UI without manually entering system IDs. Search and select SOM catalog items using built-in UI selectors when configuring products, creating product rules, or setting up pickers, advanced product actions, BOM enrichments, and library functions.
+    Select product offerings, product specifications, and product characteristic values directly in the CPQ admin UI without manually entering system IDs. Search and select Sales CRM catalog items using built-in UI selectors when configuring products, creating product rules, or setting up pickers, advanced product actions, BOM enrichments, and library functions.
 
 -   **[Node cloning for solution configuration](https://www.servicenow.com/docs/access?context=node-cloning-for-solution-configuration&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
@@ -107,10 +107,10 @@ Japanese Localization for CPQ admin UI: The CPQ admin UI supports internationali
 
 ## Related ServiceNow applications and Features
 
--   **[Sales and Order Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
-    Sales and Order Management applications enable you to manage the product sales life cycle in your organization. This includes pre-sales leads and opportunities, sales quote generation, order capture, order fulfillment, order and invoice cases, and post-sales order changes and contract renewals.
+    Sales Customer Relationship Management applications enable you to manage the product sales life cycle in your organization. This includes pre-sales leads and opportunities, sales quote generation, order capture, order fulfillment, order and invoice cases, and post-sales order changes and contract renewals.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

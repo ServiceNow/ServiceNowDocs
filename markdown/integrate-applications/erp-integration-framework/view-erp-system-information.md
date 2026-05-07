@@ -1,6 +1,6 @@
 ---
 title: View Zero Copy Connector for ERP software information
-description: In Zero Copy Connector for ERP, view software information including ERP family, database type, and more.
+description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\) , view software information including ERP family, database type, and more.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, software, information, detail]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View Zero Copy Connector for ERP software information
 
-In Zero Copy Connector for ERP, view software information including ERP family, database type, and more.
+In Zero Copy Connector for ERP \(Enterprise Resource Planning\) , view software information including ERP family, database type, and more.
 
 ## Before you begin
 

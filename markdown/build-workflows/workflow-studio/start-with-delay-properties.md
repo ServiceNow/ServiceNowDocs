@@ -106,6 +106,8 @@ Schedule used to calculate an end date that occurs during your hours of operatio
 
 [Add and configure an activity in a playbook](../task/add-configure-activity.md)
 
+[Use AI agent as an activity](../task/ai-agent-as-activity.md)
+
 [Automation Assets](../concept/automation-assets.md)
 
 [Optional activities](../concept/optional-activities.md#)

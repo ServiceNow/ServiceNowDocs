@@ -7,7 +7,7 @@ product: MID Server
 classification: mid-server
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 40
+reading_time_minutes: 41
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -956,6 +956,12 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
     -   Type: true \| false
     -   Default value: false
+-   **mid.powershell\_api.wmi.cimsession\_operation\_timeoutsec**
+
+    Sets the duration in seconds that the CIM session waits for a CIM operation to complete. The default value is 0, which means that the default timeout for the server is used.
+
+    -   Type: integer
+    -   Default value: 0
 -   **mid.powershell\_api.winrm.use\_ssl**
 
     Requires the use of SSL certificates for HTTPS connections using WinRM.
@@ -998,7 +1004,7 @@ By default, the MID Server is configured to search for SSH commands in the follo
     -   Default value: true
 -   **mid.powershell.path**
 
-    Enables an administrator to point to a specific PowerShell on a MID Server in cases where more than one PowerShell is installed. Supply the path to the folder containing the PowerShell executable, for example, `C:\mypowershell` or `C:\mypowershell\`. ServiceNow automatically appends the string powershell.exe to the path. Configure this parameter when both a 32-bit and 64-bit PowerShells are active on the same MID Server, and it becomes necessary to launch the correct PowerShell for the context. 64-bit Windows employs file system redirection and the MID Server runs as a 32-bit application. If trying to specify a path in %WinDir%\\System32, Windows automatically redirects to %WinDir%\\SysWOW64. To avoid redirection, specify the path as %WinDir%\\Sysnative. For example, instead of C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\, specify C:\\WINDOWS\\sysnative\\WindowsPowerShell\\v1.0\\.
+    Enables an administrator to point to a specific PowerShell on a MID Server in cases where more than one PowerShell is installed. Supply the path to the folder containing the PowerShell executable, for example, `C:\mypowershell` or `C:\mypowershell\`. ServiceNow automatically appends the string powershell.exe to the path. Starting in Australia, this path can now point to a PowerShell 7 executable. Configure this parameter when both a 32-bit and 64-bit PowerShells are active on the same MID Server, and it becomes necessary to launch the correct PowerShell for the context. 64-bit Windows employs file system redirection and the MID Server runs as a 32-bit application. If trying to specify a path in %WinDir%\\System32, Windows automatically redirects to %WinDir%\\SysWOW64. To avoid redirection, specify the path as %WinDir%\\Sysnative. For example, instead of C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\, specify C:\\WINDOWS\\sysnative\\WindowsPowerShell\\v1.0\\.
 
     **Note:** On a 64-bit version of Windows XP, a Microsoft hotfix may be required to enable this.
 
@@ -1006,6 +1012,24 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
     -   Type: string \(path\)
     -   Default value: none
+-   **mid.powershell.prefer\_7\_plus**
+
+    Set this parameter to true enables auto-detection of local PowerShell installations. To be detected a PowerShell executable must be resolvable from the host's PATH environment variable. The first executable found meeting the version requirement is used.
+
+    -   Type: true \| false
+    -   Default value: false
+-   **mid.powershell.prefer\_7\_plus\_remote**
+
+    Discoveries using WMI can attempt to use PowerShell 7 by setting this parameter to true. Setting this parameter to true to enables auto-detection of remote PowerShell installations. To be detected a PowerShell executable must be resolvable from the target's PATH environment variable. The first executable found meeting the version requirement is used.
+
+    If your scripts require access to this executable's path, it can be retrieved from the local PowerShell session global variable: `$global:powershellExecutableRemote`. Test to verify it is present. If present, this path is a plain String and has not been escaped for the presence of spaces or special characters. Callers are expected to handle this for their specific use cases. This variable is only set for WMI discoveries.
+
+    Discoveries using the WinRM protocol can attempt to use PowerShell 7 setting this parameter to true.
+
+    None of the preceding configuration parameters will be heeded if JEA Discovery has been enabled for the MID Server via the `mid.powershell.jea.endpoint`. This parameter supersedes all other sources of ConfigurationName for use in WinRM discoveries.
+
+    -   Type: true \| false
+    -   Default value: false
 -   **mid.powershell.enforce\_utf8**
 
     Enable this parameter to force commands on a target Windows system to return UTF-8 encoded output. Disabling it allows the target system to use its default encoding. This parameter is only valid when PowerShell is enabled.

@@ -18,7 +18,7 @@ The ServiceNow® Sales Forecasting application helps you project your future sal
 -   Define individual forecast owners and rollup owners based on their unique forecasting hierarchies.
 -   Enable multiple forecast models to define and manage forecasting rules.
 -   Support multiple rollup periods \(weekly, monthly, quarterly\) simultaneously.
--   Support for submitting forecasts by both territory and product family.
+-   Support for submitting forecasts by primary and secondary hierarchies.
 -   Enable forecast owners to submit and adjust forecasts at base forecast source.
 
 See [Sales Forecasting](https://www.servicenow.com/docs/access?context=sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
@@ -69,5 +69,5 @@ Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the 
     The Opportunity Management application provides sales agents and account executives with product recommendations for customers based on a needs analysis. Seamlessly convert sales opportunities to quotes when the customer is ready.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

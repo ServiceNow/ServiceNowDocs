@@ -33,7 +33,7 @@ Role required: itil
 
 [Service Operations Workspace for ITSM user interface](../concept/service-operations-workspace-ui.md)
 
-[Service Operations Workspace for ITSM for ITSM landing page](../concept/sow-ui-landing-page.md)
+[Service Operations Workspace for ITSM landing page](../concept/sow-ui-landing-page.md)
 
 [Exploring Recommended Actions for ITSM in Service Operations Workspace](../concept/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)
 

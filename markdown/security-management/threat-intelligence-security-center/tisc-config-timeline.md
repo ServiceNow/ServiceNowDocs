@@ -8,7 +8,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configure tooltips for nodemaps, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure tooltips for nodemaps, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Configure Custom Event Types for Timeline
@@ -33,15 +33,15 @@ Analysts can add, edit, or remove events associated with the intelligence record
 
 3.  Fill in the fields as appropriate.
 
-<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d380295e107">
+<table id="choicetable_zrg_dgj_fhc"><thead><tr><th align="left" id="d385068e107">
 
 Field
 
-</th><th align="left" id="d380295e110">
+</th><th align="left" id="d385068e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d380295e116">
+</th></tr></thead><tbody><tr><td id="d385068e116">
 
 **Event Name**
 
@@ -49,7 +49,7 @@ Description
 
 A unique name that identifies the specific activity or event occurrence recorded on the timeline.This serves as a primary label for each event, to help you quickly understand the node created, status updated, or any additional details.
 
-</td></tr><tr><td id="d380295e127">
+</td></tr><tr><td id="d385068e127">
 
 **Description**
 
@@ -57,7 +57,7 @@ A unique name that identifies the specific activity or event occurrence recorded
 
 Description of the event type to provide context of the event.
 
-</td></tr><tr><td id="d380295e136">
+</td></tr><tr><td id="d385068e136">
 
 **Status**
 
@@ -65,7 +65,7 @@ Description of the event type to provide context of the event.
 
 Indicates the current status of an event on the timeline.
 
-</td></tr><tr><td id="d380295e145">
+</td></tr><tr><td id="d385068e145">
 
 **Icon**
 
@@ -73,7 +73,7 @@ Indicates the current status of an event on the timeline.
 
 An icon that appears on the timeline to visually represent events of this type.
 
-</td></tr><tr><td id="d380295e155">
+</td></tr><tr><td id="d385068e155">
 
 **Color**
 

@@ -23,7 +23,7 @@ Canceling a life-cycle task is available only for tasks that are in the 'Not sta
 
 ## About this task
 
--   To review attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](review-data-manager-attes-task.md).
+-   To review attestation tasks, see [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](review-data-manager-attes-task.md).
 -   To review certification tasks, see [Review certification tasks](data-certific-review-tasks.md).
 
 ## Procedure

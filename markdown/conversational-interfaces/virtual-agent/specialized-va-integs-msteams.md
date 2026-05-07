@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Integrate VA with Teams, Conversational Integration with Microsoft Teams, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -32,5 +32,5 @@ Create a self-configured single tenant bot with Microsoft Teams for integration 
 -   **[Enable Microsoft Teams integration in ServiceNow Protected Platform \(SPP\)](enable-msteams-integ-spp.md)**  
 When installing Conversational Integration with Microsoft Teams, the ServiceNow AI Platform® makes the instance configuration simpler by dynamically determining the bot type for commercial and SPP \(ServiceNow Protected Platform\) environments from the Tokyo release.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](../task/va-integ-msteams.md)
 

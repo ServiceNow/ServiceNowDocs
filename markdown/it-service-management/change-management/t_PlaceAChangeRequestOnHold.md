@@ -55,7 +55,7 @@ Change tasks inherit some state conditions from the parent change request they a
 **Related topics**  
 
 
-[State model and transitions](../concept/c_ChangeStateModel.md)
+[Legacy: State model and transitions](../concept/c_ChangeStateModel.md)
 
 [Create a change request](t_CreateAChange.md)
 

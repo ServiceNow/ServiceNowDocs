@@ -25,7 +25,7 @@ See [Policy and Compliance Management](https://www.servicenow.com/docs/access?co
 
 -   **[Control objective workflow](https://www.servicenow.com/docs/access?context=concept_cob_workflow&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
 
-    Aftr upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. This feature is controlled by the Enable Control Objective Workflow property under Policy and Compliance &gt; Properties and is disabled by default.
+    After upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. This feature is controlled by the Enable Control Objective Workflow property under Policy and Compliance &gt; Properties and is disabled by default.
 
     Key highlights:
 

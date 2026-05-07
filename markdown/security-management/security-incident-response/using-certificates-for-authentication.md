@@ -17,7 +17,7 @@ Request an access token with a certificate credential.
 
 ## Before you begin
 
-1.  You can either use a self-signed certificate or CA issued certificate. You can create a self-signed certificate by executing the PowerShell script as outlined in[Setting up an Azure AD app for app-only access](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread#setting-up-an-azure-ad-app-for-app-only-access). The script generates two files: .PFX file and .CER file.
+1.  You can either use a self-signed certificate or CA issued certificate. You can create a self-signed certificate by executing the PowerShell script as outlined in [Setting up an Azure AD app for app-only access](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread#setting-up-an-azure-ad-app-for-app-only-access). The script generates two files: .PFX file and .CER file.
 
     **Note:** Ensure that you are aware of the password that is used to encrypt private key to generate the .PFX file and .CER file.
 
@@ -32,9 +32,9 @@ Role required: admin
 
 1.  Navigate to **App registrations** in Azure AD portal.
 
-2.  Click **Certificates &amp; secrets** from the **Manage** section.
+2.  Select **Certificates &amp; secrets** from the **Manage** section.
 
-3.  In the **Certificates** tab, click **Upload Certificate**.
+3.  In the **Certificates** tab, select **Upload Certificate**.
 
 4.  On the form, fill these values.
 
@@ -43,7 +43,7 @@ Role required: admin
     |Upload a certificate \(public key\) with one of the following file types: .cer, .pem, .crt|.CER file you had generated using the PowerShell script.|
     |Description|Description of the certificate.|
 
-5.  Click **Add**.
+5.  Select **Add**.
 
     The certificate is uploaded and its details are displayed under the **Certificates** tab.
 

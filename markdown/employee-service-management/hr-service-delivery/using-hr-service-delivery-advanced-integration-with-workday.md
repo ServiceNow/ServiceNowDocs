@@ -1,5 +1,5 @@
 ---
-title: Using
+title: Using HR Service Delivery Advanced Integration with Workday
 description: Understand how you can use HR Service Delivery Advanced Integration with Workday to process advanced employee information at ServiceNow.
 locale: en-US
 release: australia
@@ -11,7 +11,7 @@ reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Using
+# Using HR Service Delivery Advanced Integration with Workday
 
 Understand how you can use HR Service Delivery Advanced Integration with Workday to process advanced employee information at ServiceNow.
 

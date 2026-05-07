@@ -29,13 +29,13 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
 ## Procedure
 
-1.  With the mapping form displayed, click the link to open the script editor.
+1.  With the mapping form displayed, select the link to open the script editor.
 
-    ![Click here link for script editor highlighted.](../image/214_SplunkFieldTranslationExampleCMDB_1.png)
+    ![Format a field value](../image/214_SplunkFieldTranslationExampleCMDB_1.png)
 
 2.  From the choice list, select a destination field for the value that you want to edit.
 
-3.  Alternatively, in the SIR Incident Field Mapping section, click the bracket icon `[{}]` next to a field to open the script editor for that field.
+3.  Alternatively, in the SIR incident Field Mapping section, select the bracket icon `[{}]` next to a field to open the script editor for that field.
 
     In certain instances, a script include may be appropriate for the Configuration item field. For an alert, for example, a value for the Configuration item may not be matched.
 
@@ -45,7 +45,7 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
     ![Script editor.](../image/214_SplunkFieldTranslationExampleCMDB.png)
 
-4.  Enter any changes to then script, and click **Update** to save your changes.
+4.  Enter any changes to then script, and select **Update** to save your changes.
 
     The Splunk Field Translations table is displayed.
 

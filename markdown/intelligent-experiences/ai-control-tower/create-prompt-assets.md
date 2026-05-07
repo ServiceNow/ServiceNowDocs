@@ -7,7 +7,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
 breadcrumb: [Creating AI assets, Use, AI Control Tower, Enable AI experiences]
 ---
@@ -109,33 +109,7 @@ Prompt information
 Input that you want to provide to AI models.
 
 </td></tr></tbody>
-</table>6.  Select **Next**.
-
-7.  In the Related assets section of the Add prompt form, associate the prompt with related AI models.
-
-    Related AI models include any AI models that you can provide the prompt to. These AI models can process inputs from the prompt and help generate appropriate outputs.
-
-    Depending on if the related AI model is currently available in your asset inventory, proceed with one of the following options:
-
-    -   To associate the prompt with a related AI model that is currently available, use the following steps:
-
-        1.  Select the Add from inventory drop-down menu on the header of the AI models list.
-        2.  Select **Add from inventory**.
-        3.  In the Add from inventory dialog box, select the check box for the related AI model that you want to associate the prompt with.
-
-            **Note:** If you want to associate the prompt with multiple related AI models, select the check box for each model.
-
-        4.  Select **Add**.
-        The dialog box closes and the selected AI model appears in the AI models list.
-
-    -   To associate the prompt with a related AI model that is not currently available, use the following steps:
-
-        1.  Select the Add from inventory drop-down menu on the header of the AI models list.
-        2.  Select **Create**.
-        3.  Create the AI model by following the proceeding steps in [Create AI model assets](create-ai-model-assets.md).
-        The new AI model appears in the AI models list.
-
-8.  Select **Submit for review**.
+</table>6.  Select **Submit for review**.
 
     **Note:** If you aren’t ready to submit the prompt for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the prompt from the list. When the AI asset record opens, continue editing the prompt details.
 

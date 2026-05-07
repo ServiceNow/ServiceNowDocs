@@ -24,8 +24,11 @@ Introduction to Instance Readiness Assessment provides Impact customers with an 
 ## What you get
 
 -   **Session preparation**
-    -   Run the Instance Readiness Assessment
-    -   Review Instance Observer related metrics
+
+    The Technical Accelerator Consultant:
+
+    -   Runs the Instance Readiness Assessment
+    -   Reviews Instance Observer related metrics
 -   **Customer coaching session \#1 \(up to 60 minutes\)**
 
     Includes the following:

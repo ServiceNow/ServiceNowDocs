@@ -43,8 +43,6 @@ Role required: personalize\_dictionary
 
     The form reopens, with the reference field as a choice list.
 
-    ![Reference choices](../image/Referencechoice.png)
-
     **Note:**
 
     The **glide.ui.max\_ref\_dropdown** system property determines whether a reference field is displayed as a choice list or a reference icon. When the number of available choices exceeds the value of this property, a reference icon displays instead of a choice list. The default value of this property is 25. This property affects the entire instance, however you can override this property on an individual field by using the **max\_ref\_dropdown** dictionary attribute. Modifying dictionary attributes requires the personalize\_dictionary role.

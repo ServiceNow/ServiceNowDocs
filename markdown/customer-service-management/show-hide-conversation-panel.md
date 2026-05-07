@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [ICC call control features, ICC for voice calls, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [ICC call control features, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Show or hide the conversation panel

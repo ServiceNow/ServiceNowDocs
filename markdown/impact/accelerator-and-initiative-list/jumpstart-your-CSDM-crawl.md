@@ -17,7 +17,7 @@ This accelerator provides an overview of the Crawl phase of the CSDM maturity jo
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM: Crawl provides impact customers with an overview and applied demonstration of the Common Service Data Model \(CSDM\) Crawl phase. This accelerator supports the customer’s CSDM maturity journey by breaking down specific action items to enhance understanding of the Crawl phase. As a result, customers can populate and rationalize their Business applications and Application services. This enables a more service-aware CMDB for use throughout additional workflows of ServiceNow.The offering also includes key resources and leading practice guides to help customers get started with the Crawl phase of the CSDM Maturity journey.
+Jumpstart Your CSDM: Crawl provides impact customers with an overview and applied demonstration of the Common Service Data Model \(CSDM\) Crawl phase. This accelerator supports the customer’s CSDM maturity journey by breaking down specific action items to enhance the understanding of the Crawl phase. As a result, customers can populate and rationalize their Business applications and Application services. This enables a more service-aware CMDB for use throughout additional workflows of ServiceNow.The offering also includes key resources and leading practice guides to help customers get started with the Crawl phase of the CSDM Maturity journey.
 
 Customers must first complete the [Jumpstart Your CSDM: Foundation](jumpstart-csdm.md) accelerator before taking this one, as this offering builds on the Foundation phase of the CSDM maturity journey.
 
@@ -26,8 +26,11 @@ Customers must first complete the [Jumpstart Your CSDM: Foundation](jumpstart-cs
 ## What you get
 
 -   **Session Preparation**
-    -   Provision a temporary instance 
-    -   Activate and configure related plugins
+
+    The Technical Accelerator Consultant
+
+    -   Provisions a temporary instance 
+    -   Activates and configures related plugins
 -   **Customer Coaching Session \#1 \(up to 90 min\)**
 
     Includes the following:

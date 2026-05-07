@@ -151,6 +151,8 @@ The ConnectionInfo API enables you to get connection attribute information throu
 The ConnectionInfoProvider API provides methods to select connection information through the connection alias.
 -   **[Console - Scoped, Global](../../../app-store/dev_portal/API_reference/Console/concept/ConsoleAPI.md#)**  
 The Console API provides methods to log messages to the system log, create and stop timers, create and log counters, log stack traces, and group/organize related content.
+-   **[ConsolidationService - Scoped, Gobal](../../../app-store/dev_portal/API_reference/ConsolidationService/concept/ConsolidationServiceAPI.md#)**  
+The ConsolidationService API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.
 -   **[Conversation - Scoped](../../../app-store/dev_portal/API_reference/Conversation/concept/c_ConversationScopedAPI.md#)**  
 The Conversation API enables you to create or modify Connect conversations.
 -   **[CopyDynamicSchemaAPI - Scoped, Global](../../../app-store/dev_portal/API_reference/CopyDynamicSchema/concept/CopyDynamicSchemaAPI.md#)**  
@@ -470,7 +472,7 @@ The HttpRequestAuthedData\(\) API provides methods to access and set values in a
 -   **[HttpRequestData - Scoped](../../../app-store/dev_portal/API_reference/HttpRequestData/concept/HttpRequestDataAPI.md#)**  
 The HttpRequestData API provides methods to build and manipulate a REST request before applying a signature and sending it to an endpoint.
 -   **[IBQConfigBase API - Scoped](../../../app-store/dev_portal/API_reference/IBQConfigBase/concept/IBQConfigBaseAPIBoth.md#)**  
-Script include that must be extended for Sales and Order Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.
+Script include that must be extended for Sales Customer Relationship Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.
 -   **[ICalUtilSNC - Global](../../../app-store/dev_portal/API_reference/ICalUtilSNC/concept/c_ICalUtilSNCAPI.md#)**  
 The ICalUtilSNC script include provides functions to generate iCalendar compliant events.
 -   **[IdentificationEngine - Scoped](../../../app-store/dev_portal/API_reference/IdentificationEngineScoped/concept/IdentificationEngineScopedAPI.md#)**  

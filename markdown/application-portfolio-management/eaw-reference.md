@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Enterprise Architecture Workspace reference
@@ -167,6 +167,12 @@ Use the document template form to create document template that can be used in t
 Define and manage a data domain to organize related information objects within a hierarchical structure. Data domains help categorize data discovered in database catalogs by ServiceNow Discovery. A data catalog lists all the catalog objects, or databases, discovered for an instance of a database.
 -   **[Filter conditions](eaw-filter-conditions-reference.md)**  
 Filter and sort options define which records appear in a custom list and the order in which they are displayed.
+-   **[Architectural category form](../architectural-category-form.md)**  
+Architectural category enables Enterprise architects to categorize and manage artifacts efficiently.
+-   **[Data Domain form](../data-domain-form.md)**  
+Define and manage a data domain to organize related information objects within a hierarchical structure. Data domains help categorize data discovered in database catalogs by ServiceNow Discovery. A data catalog lists all the catalog objects, or databases, discovered for an instance of a database.
+-   **[TRM Category form](../trm-category-form.md)**  
+Add a new request or edit an existing request to create a TRM category.
 
 **Parent Topic:**[Enterprise Architecture Workspace](../../concept/ea-workspace.md)
 

@@ -19,7 +19,7 @@ The ServiceNow® Now Assist for Setup application centralizes instance managemen
 -   Introduces Product Hubs to centralize discovery, installation, and configuration of entitled Now Assist products through guided, modular setup flows.
 -   Delivers an intuitive, customizable experience with streamlined access to critical tools based on user entitlements.
 
-See [Setup Hub](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See [Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
 
 **Important:** Now Assist for Setup is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 

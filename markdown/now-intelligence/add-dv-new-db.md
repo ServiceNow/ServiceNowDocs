@@ -28,15 +28,15 @@ Role required: You must have a role that allows access to the data in the visual
 
     ![The Add to Dashboard menu on a data visualization.](../../par-for-workspace/image/dv-add-viz-to-db.png)
 
-<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d69996e102">
+<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d73086e102">
 
 Option
 
-</th><th align="left" id="d69996e105">
+</th><th align="left" id="d73086e105">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d69996e111">
+</th></tr></thead><tbody><tr><td id="d73086e111">
 
 **Add to new dashboard**
 
@@ -44,7 +44,7 @@ Result
 
 A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](../../dashboards/task/create-db-in-ac.md).
 
-</td></tr><tr><td id="d69996e130">
+</td></tr><tr><td id="d73086e130">
 
 **Add to existing dashboard**
 

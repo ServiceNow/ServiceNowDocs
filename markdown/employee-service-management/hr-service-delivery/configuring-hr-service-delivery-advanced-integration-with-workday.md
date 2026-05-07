@@ -1,5 +1,5 @@
 ---
-title: Configuring
+title: Configure HR Service Delivery Advanced Integration with Workday
 description: Configure HR Service Delivery Advanced Integration with Workday.
 locale: en-US
 release: australia
@@ -11,7 +11,7 @@ reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Configuring
+# Configure HR Service Delivery Advanced Integration with Workday
 
 Configure HR Service Delivery Advanced Integration with Workday.
 

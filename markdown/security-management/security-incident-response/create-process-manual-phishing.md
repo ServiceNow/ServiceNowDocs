@@ -21,27 +21,25 @@ Role required: sn\_si.admin or sn\_si.manager
 
 ## Procedure
 
-1.  Click **All** &gt; **Process Automation Designer** &gt; **** &gt; **New** and select **Playbook**.
+1.  Select **All** &gt; **Process Automation Designer** &gt; **** &gt; **New** and select **Playbook**.
 
     For example, Manual Phishing Playbook Template V1.
 
 2.  Enter a name for the playbook, the description, and the application for which the playbook is being created.
 
-3.  Click **Select a trigger**.
+3.  Select **Select a trigger**.
 
 4.  Select **Define your own conditions for when your process runs**, and select the trigger condition for when your playbook must run.
 
-5.  Click **Set your trigger conditions**.
+5.  Select **Set your trigger conditions**.
 
 6.  Choose the conditions to define when your playbook must run by selecting a table and filling in the conditions.
 
     For example, the trigger condition is when a security incident of category Phishing is created.
 
-    ![Manual phishing playbook](../image/manual-phishing-playbook.gif "Manual Phishing")
+7.  Select **Go to Designer**.
 
-7.  Click **Go to Designer**.
-
-8.  To start designing your automated process, click **Add a new stage**.
+8.  To start designing your automated process, select **Add a new stage**.
 
     The stage properties pane opens on the right side of the UI.
 
@@ -49,25 +47,23 @@ Role required: sn\_si.admin or sn\_si.manager
 
     The **Run condition** and **Indicate when to start** fields imply when the stage would run.
 
-10. Click **Save and close**.
+10. Select **Save and close**.
 
-11. To add another stage, click **Add another stage**.
+11. To add another stage, select **Add another stage**.
 
     Similarly, you can create as many stages as you want. In this example, you can create a stage for Analysis, Contain, Eradicate, and Review respectively. In the following example, **Analysis** stage starts immediately and has no run condition. **Contain** stage start after the previous stage is completed and has a run condition that is based on the outcome of an activity in the previous stage.
 
     After adding the stages, you need to add process activities for each stage.
 
-12. Click **Add another activity** under a particular stage \(For example, Analysis stage\).
+12. Select **Add another activity** under a particular stage \(For example, Analysis stage\).
 
     The Add activity pop-up opens.
 
     1.  In the Add activity pop-up, select the required activity definition.
 
-13. Click **Create a new activity**.
+13. Select **Create a new activity**.
 
     After an activity definition is added, it can be further configured similar to stages. Similarly, you can create other process activities under each stage.
-
-    ![Manual Phishing Activity](../image/automated-phishing.gif "Manual Phishing Activity")
 
 14. In the Activity properties pane, add a run condition and indicate when to start the activity.
 
@@ -75,7 +71,7 @@ Role required: sn\_si.admin or sn\_si.manager
 
     All the input required for this activity \(Includes inputs in the automation plan that are configured\) will be shown. You can override the values or use the preconfigured values.
 
-16. Click **View all properties** and enable the **Advanced properties** toggle to display all the activity experience fields from the activity definition.
+16. Select **View all properties** and enable the **Advanced properties** toggle to display all the activity experience fields from the activity definition.
 
 
 -   **[Add parallel activities](../concept/parallel-activities.md)**  

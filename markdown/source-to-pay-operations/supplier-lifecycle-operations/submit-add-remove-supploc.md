@@ -61,7 +61,7 @@ Role required: sn\_slm.contact
 
 8.  If you do not find the required supplier location in the **Search a location** search field, select the **Add new** check box.
 
-9.  On the Supplier Location form, fill in the fields.![Filled-in form for updating location details.](../image/add-location-supplier-collaboration.png)
+9.  On the Supplier Location form, fill in the fields.
 
     For a description of the field values, see [Add New Location form](../reference/supplier-location-form.md).
 

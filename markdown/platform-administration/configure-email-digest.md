@@ -34,15 +34,15 @@ When you [create or update a notification](t_CreateANotification.md), use the **
 
 3.  Select the **Digest type**.
 
-<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d253567e165">
+<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d256220e165">
 
 Digest Type
 
-</th><th align="left" id="d253567e168">
+</th><th align="left" id="d256220e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d253567e174">
+</th></tr></thead><tbody><tr><td id="d256220e174">
 
 **Single target record**
 
@@ -50,7 +50,7 @@ Description
 
 Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a single target record, for example INC001 only.
 
-</td></tr><tr><td id="d253567e190">
+</td></tr><tr><td id="d256220e190">
 
 **Multiple target record**
 

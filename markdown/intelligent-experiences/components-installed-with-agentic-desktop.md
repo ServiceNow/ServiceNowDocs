@@ -1,19 +1,19 @@
 ---
-title: Components installed with Agentic Desktop
+title: Components installed with AI Desktop Actions
 description: Several types of components are installed with activation of the sn\_desktop\_agents plugin, including user roles and tables.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2025-11-13"
 reading_time_minutes: 1
-breadcrumb: [Reference, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Components installed with Agentic Desktop
+# Components installed with AI Desktop Actions
 
 Several types of components are installed with activation of the sn\_desktop\_agents plugin, including user roles and tables.
 
-## Roles installed
+## Roles used
 
 <table id="table_y3j_1x3_hhc"><thead><tr><th>
 
@@ -33,7 +33,7 @@ AI Agent Admin \[sn\_aia.admin\]
 
 </td><td>
 
-Enables you to create, manage, and test desktop actions in Agentic Desktop and deploy them as tools in AI Agent Studio.
+Enables you to create, manage, and test desktop actions in AI Desktop Actions and deploy them as tools in AI Agent Studio.
 
 </td><td>
 
@@ -74,7 +74,7 @@ Desktop action\[sn\_desktop\_core\_action\]
 
 </td><td>
 
-Stores details, such as input and output parameters and number of screens for desktop actions of type UI block.
+Stores details, such as input and output parameters and number of screens for on-screen desktop actions.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Agentic Desktop\[com.sn\_desktop\_agents\]
+AI Desktop Actions\[com.sn\_desktop\_agents\]
 
 </td><td>
 
@@ -129,12 +129,20 @@ Contains configuration of desktop action tool used by AI Agent Studio to discove
 
 </td></tr><tr><td>
 
-Agentic Desktop Core\[com.sn\_desktop\_core\]
+AI Desktop Actions Core\[com.sn\_desktop\_core\]
 
 </td><td>
 
-Packages tables, custom functionality specific to Agentic Desktop application, and Agentic Desktop download interface within a scoped application.
+Packages tables, custom functionality specific to AI Desktop Actions application, and AI Desktop Actions download interface within a scoped application.
+
+</td></tr><tr><td>
+
+Now Assist AI web agents\[sn\_naa\]
+
+</td><td>
+
+Contains system property, default AI agent and agentic workflow named Web Automation Agent and Web Automation respectively, and functionality to perform adaptive automation on web.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Agentic Desktop reference](agentic-desktop-reference.md)
+</table>**Parent Topic:**[AI Desktop Actions reference](agentic-desktop-reference.md)
 

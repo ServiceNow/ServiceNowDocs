@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use Now Assist for Sourcing and Procurement Operations \(SPO\), Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Use, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Summarize a record by using Now Assist for Sourcing and Procurement Operations \(SPO\) in Shopping Hub
@@ -83,15 +83,15 @@ Select a purchase order record to view it.
     -   Your next steps: Lists the actions that the shoppers need to take next.
 6.  When you finish summarizing a record, you can add it to the activity, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d149082e233">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d153625e242">
 
 Option
 
-</th><th align="left" id="d149082e236">
+</th><th align="left" id="d153625e245">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d149082e242">
+</th></tr></thead><tbody><tr><td id="d153625e251">
 
 **Expand or collapse the summary**
 
@@ -99,7 +99,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d149082e263">
+</td></tr><tr><td id="d153625e272">
 
 **Provide feedback for the summary**
 
@@ -107,7 +107,7 @@ Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) o
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d149082e286">
+</td></tr><tr><td id="d153625e295">
 
 **Copy the record summary**
 
@@ -115,7 +115,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../supplier-lifecycle-operations/image/icon-copy.png)\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d149082e301">
+</td></tr><tr><td id="d153625e310">
 
 **View the information about the record summary**
 

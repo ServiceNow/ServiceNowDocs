@@ -1,17 +1,18 @@
 ---
-title: Connect Figma MCP server to Build Agent
-description: Connect the Figma MCP server to the Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications on the ServiceNow AI Platform.Create an OAuth application in Figma to enable the Figma MCP server to authenticate users via OAuth and grant the Build Agent access to Figma designs.Set up an OAuth application registry and credentials to enable the ServiceNow IDE to connect to your Figma.Connect the Figma MCP \(Model Context Protocol\) server to the Build Agent to make the Figma designs accessible for application creation.
+title: Connect Build Agent to a Figma MCP server
+description: Connect the Figma Model Context Protocol Server Console \(MCP\) server to the Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications on the ServiceNow AI Platform.Create an OAuth application in Figma to enable the Figma MCP server to authenticate users via OAuth and grant the Build Agent access to Figma designs.Set up an OAuth application registry and credentials to enable the ServiceNow IDE to connect to your Figma.Connect the Figma MCP \(Model Context Protocol\) server to the Build Agent to make the Figma designs accessible for application creation.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 8
+keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Connect Figma MCP server to Build Agent
+# Connect Build Agent to a Figma MCP server
 
-Connect the Figma MCP server to the Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications on the ServiceNow AI Platform.
+Connect the Figma Model Context Protocol Server Console \(MCP\) server to the Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications on the ServiceNow AI Platform.
 
 ## Before you begin
 
@@ -19,11 +20,12 @@ Role required: admin
 
 ## About this task
 
-Connecting the Figma MCP \(Model Context Protocol\) server to the Build Agent enables the Build Agent to access design data from Figma files. This connection helps the Build Agent understand the design and its intent, enabling it to create applications that match the design.
+Connecting the Figma MCP server to the Build Agent enables the Build Agent to access design data from Figma files. The connection helps the Build Agent understand the design and its intent, enabling it to create applications that match the design.
 
 Visit the Figma Developer Portal to connect the Figma MCP server to the Build Agent. Create an OAuth app to obtain your Client ID and Client Secret. Then, configure the ServiceNow IDE to handle the OAuth process using the credentials.
 
-For more information on Build Agent and the Figma MCP server, see [Application development with Figma MCP server](../concept/accelerate-design-to-development-with-figma-mcp-server.md).
+-   For more information on Build Agent and the Figma MCP server, see [MCP connections and Build Agent](../concept/accelerate-design-to-development-with-figma-mcp-server.md).
+-   For details on connecting to other supported MCP servers, see [Connect Build Agent to a supported MCP server](ba-connct-mcp-server.md).
 
 ## Procedure
 
@@ -33,7 +35,7 @@ For more information on Build Agent and the Figma MCP server, see [Application d
 
 3.  [Connect Figma MCP server to Build Agent](connect-figma-mcp-server-to-build-agent.md#)
 
-    ![A process flow diagram showing the integration from Figma through OAuth authentication, connecting to the Figma MCP server, then the Build Agent, and finally resulting in application generation](../image/build-agent-process-flow.png "Application generation workflow using Figma and Build Agent")
+    ![Flowchart showing the build agent process from Figma to application generation. For detailed process steps, refer to the surrounding text.](../image/build-agent-process-flow.png "Application generation workflow using Figma and Build Agent")
 
 
 **Parent Topic:**[Configure Build Agent](configure-build-agent.md)
@@ -61,15 +63,15 @@ The Figma MCP \(Model Context Protocol\) server uses OAuth for authentication an
 
 4.  Enter the following information in the form.
 
-<table id="choicetable_pbb_nhf_dhc"><thead><tr><th align="left" id="d68784e254">
+<table id="choicetable_pbb_nhf_dhc"><thead><tr><th align="left" id="d71515e335">
 
 Field
 
-</th><th align="left" id="d68784e257">
+</th><th align="left" id="d71515e338">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68784e263">
+</th></tr></thead><tbody><tr><td id="d71515e344">
 
 **Name**
 
@@ -77,7 +79,7 @@ Description
 
 Name for your application; for example, ServiceNow Integration.
 
-</td></tr><tr><td id="d68784e272">
+</td></tr><tr><td id="d71515e353">
 
 **Choose an owner for your app**
 
@@ -155,7 +157,7 @@ Role required: admin
 
 9.  Select the **OAuth Entity Scopes** tab.
 
-10. Double-click \(or use the keyboard shortcut\) **Insert a new row** to add a new row.
+10. Double-click \(or use the keyboard shortcut\) **Insert a new row** to add a row.
 
 11. In the new row, enter the following values.
 

@@ -229,7 +229,11 @@ SLES
 
 6.  Configure sudoers.
 
-    Configuration is typically automated by your Linux sysadmin. To configure manually if you want to ensure correctness before full configuration, run the following.
+    Configuration is typically automated by your Linux sysadmin. To manually configure ensuring correctness before full configuration, run the following to create a new sudoers file for the agent service user:
+
+    `visudo -f /etc/sudoers.d/01_servicenow`
+
+7.  Add the sudoers configuration according to your Linux distribution.
 
     -   When installing agents on a deb/ubuntu system, run the following:
 
@@ -255,7 +259,7 @@ SLES
         Defaults:ACC_USERS !requiretty
         ```
 
-7.  Configure the agent to run as a service.
+8.  Configure the agent to run as a service.
 
     1.  Safeguard resource consumption by adding the indicated values to the `/usr/lib/systemd/system/acc.service` file.
 

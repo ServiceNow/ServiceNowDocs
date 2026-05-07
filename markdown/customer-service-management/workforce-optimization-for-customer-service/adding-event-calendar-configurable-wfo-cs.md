@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Add events to the team calendar
@@ -35,15 +35,15 @@ You can create custom event types and add or remove the desired fields. For more
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d106263e118">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d108997e118">
 
 To
 
-</th><th align="left" id="d106263e121">
+</th><th align="left" id="d108997e121">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d106263e127">
+</th></tr></thead><tbody><tr><td id="d108997e127">
 
 **Create a meeting, training, or time-off request.**
 
@@ -68,7 +68,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d106263e233">
+</td></tr><tr><td id="d108997e233">
 
 **Create a work shift**
 
@@ -85,5 +85,5 @@ In the **Attendees** field, start typing the name of each of the attendees for t
 </table>6.  Click **Save**.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

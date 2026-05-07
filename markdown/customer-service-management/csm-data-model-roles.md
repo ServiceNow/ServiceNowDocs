@@ -825,5 +825,5 @@ No
 </table>**Related topics**  
 
 
-[Granular admin roles](granular-admin-roles.md)
+[Service Model Foundation Granular admin roles](granular-admin-roles.md)
 

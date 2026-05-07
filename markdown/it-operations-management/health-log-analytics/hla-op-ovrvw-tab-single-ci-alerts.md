@@ -25,31 +25,29 @@ For a detailed description of Log Analytics alerts , see [Types of Health Log An
 
     ![Identified issue appears here and in alert title.](../image/identified-issue-card-loganalytics-alert.png "Identified issue")
 
-    -   Click the information icon \(![Information icon.](../image/icon-info.png)\) to see how the issue was identified.
-    -   Click **View surrounding logs** to view the log lines that were generated one minute before and one minute after the alert. See [Analyze log lines around the anomaly to help find the root cause](../task/hla-op-surrounding-logs-view.md).
+    -   Select **Details** for more information about the alert.
+    -   Select **View surrounding logs** to view the log lines that were generated one minute before and one minute after the alert. See [Analyze log lines that surround an anomaly in Health Log Analytics](../task/hla-op-surrounding-logs-view-sow.md).
 -   **Configuration Items**
 
     To view more detailed information on the CI that is associated with the alert, click the **Configuration Items** tab or click **View more** in the Configuration Items section. See [Operator phase 1: Analyze and acknowledge an alert](../../event-management-operator/task/operator-phase-acknowledge-analyze.md).
 
 -   **Impacted services**
 
-    To view detailed information on the services that are impacted by the alerts, click the **Impacted services** tab. See [Operator phase 1: Analyze and acknowledge an alert](../../event-management-operator/task/operator-phase-acknowledge-analyze.md).
+    To view detailed information on the services that are impacted by the alerts, select the **Impacted services** tab. See [Operator phase 1: Analyze and acknowledge an alert](../../event-management-operator/task/operator-phase-acknowledge-analyze.md).
 
 -   **Anomaly**
 
-    The Anomaly card illustrates the anomalous activity that led to the alert.
+    The Anomaly card illustrates the anomalous activity that led to the alert. The chart shows:
 
-    -   The blue line shows the recent anomalous activity.
-    -   On some charts, the lightly shaded area indicates the expected \(learned baseline\) behavior.
-
-        A peach-shaded area represents the baseline values for the same hour one day earlier. A pink-shaded area shows the values for the same period in the previous week.
-
-    -   Click the information icon to see how the anomaly was identified: ![Information icon](../image/icon-info.png).
-    In this example, the peach-shaded area shows the same data for the same hour one day earlier. The spike in the metric value \(events per minute\) is clearly visible.
+    -   Recent anomalous activity
+    -   Expected behavior \(the learned baseline\)
+    -   Baseline values from one day earlier
+    -   Baseline values from the previous week
+    In this example, the system tracks the baseline rate \(the average number of events per minute\) for a specific log pattern. When this typically inactive log generates a spike in events, the system detects the deviation from the baseline and generates an alert.
 
     ![Anomaly card identifies and illustrates anomalous behavior.](../image/anomaly-spike.png "Anomaly card")
 
-    In this example, the pink-shaded area represents the baseline values for the same hour in the previous week.
+    In this example, the blue line represents the current average number of events per minute. The orange-shaded area represents the baseline values for the same hour in the previous week.
 
     ![Baseline values for same hour in previous week.](../image/anomaly-week-earlier.png "Anomaly card with baseline values one week earlier")
 
@@ -63,13 +61,13 @@ For a detailed description of Log Analytics alerts , see [Types of Health Log An
 
 -   **Top alerts**
 
-    The Top alerts card displays summaries of data from the **Similar alerts** and **Repeated alerts** tabs. The Total results value is the sum of the two values. Click **More details** to open the **Alert Insight Similar Alerts** tab. For details, see [Information on the Alert Insight Similar Alerts tab](hla-op-alrt-inst-simlr-alrts-tab.md).
+    The Top alerts card displays summaries of data from the **Similar alerts** and **Repeated alerts** tabs. The Total results value is the sum of the two values. select **More details** to open the **Alert Insight Similar Alerts** tab. For details, see [Information on the Alert Insight Similar Alerts tab](hla-op-alrt-inst-simlr-alrts-tab.md).
 
     ![Top alerts shows counts of total, similar, and repeated alerts.](../image/top-alerts-card.png "Top alerts")
 
 -   **Top incidents**
 
-    The Top incidents card displays summaries of data from the **Incidents on CI** and **Incidents on related CIs** tabs. The Total results value is the sum of the two values. Click **More details** to open the **Incidents on CI** tab.
+    The Top incidents card displays summaries of data from the **Incidents on CI** and **Incidents on related CIs** tabs. The Total results value is the sum of the two values. select **More details** to open the **Incidents on CI** tab.
 
     ![Top incidents shows counts of total results, incidents on CI, and incidents on related CIs.](../image/top-incidents-card.png "Top incidents")
 

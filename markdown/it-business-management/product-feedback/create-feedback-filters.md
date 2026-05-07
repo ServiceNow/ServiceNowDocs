@@ -29,8 +29,6 @@ Project managers can retain the feedback filters, share them with team members o
 
 2.  Select **Feedback** and then select **New filter** to create a new filter.
 
-    ![Animated tour of the feedback filters in Feedback application.](../image/product-feedback-filters.gif)
-
 3.  On the form, fill in the **Feedback filter name**.
 
     You can choose the filters or set up new filter condition if needed.

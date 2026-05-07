@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,8 +18,6 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 ## Before you begin
 
 Verify that you have completed the setup steps described in [Set up checklist for the GRC Mobile application](mobile-setup-risk-app.md).
-
-![Risk mobile app menu map.](../image/mobile_Risk_overview-app-redo.png "GRC Mobile application")
 
 Role required: GRC Risk manager \(sn\_risk.manager\)
 
@@ -33,7 +31,7 @@ Time to complete this task: 5-7 minutes.
 
     ![Now Agent app icon.](../../grc-common/image/mobile-agentapp-NY.png)
 
-    If you are not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
+    If you're not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 
 2.  If the ServiceNow AI Platform instance with the Risk Management core application is not already added to your mobile device, follow these steps to add it.
 

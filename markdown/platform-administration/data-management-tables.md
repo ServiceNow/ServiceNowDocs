@@ -19,7 +19,7 @@ View a list of all tables on your instance and the number of active data managem
 -   Determine which tables have grown the most in size over the last thirty days by checking the **Growth \(30 days\)** column.
 -   Determine how many archive, cleanup, and one-time delete rules are active for each table by checking the **Active rules** column.
 
-By default, the list of tables is filtered to show tables over 100 MB in size.
+By default, the list of live tables and live archive tables is filtered to show tables over 100 MB in size.
 
 ![Tables view in the Data Management Console.](../image/dmc-tables.png "Viewing tables in the Data Management Console")
 
@@ -38,5 +38,7 @@ Access table information in the Data Management Console in one of the following 
 
 -   Monitor data usage for physical tables, including the Task \[task\] table.
 -   Monitor data usage for logical tables, including the Incident \[incident\], Problem \[problem\], and Change Request \[change\_request\] tables.
+-   Review storage breakdowns across tables in a unified view. Use this data to identify which tables contain the most archived data to adjust rule conditions or schedules.
+-   Estimate future object storage requirements by accounting for the compression in columnar storage. Base your storage forecasts on actual object storage growth rates rather than primary database removal rates, as these metrics don't correlate directly.
 -   Access data usage and rule details by selecting a table in the list. See [Viewing data usage by table](data-management-table-data.md).
 

@@ -7,9 +7,9 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent Customer satisfaction analytics
@@ -85,6 +85,4 @@ This metric provides a holistic view of customer experience across your entire s
 You can drill down into the data by selecting the thumbs-up or thumbs-down icon and then selecting the filter icon in the KPI details page. You can then see the breakdown of the thumbs-up or thumbs-down feedback data based on the different portals, such as Now Assist panel or Now Assist in Virtual Agent, in which it was given.
 
 ![Number of chat messages that received feedback from different portals](../image/now-assist-itsm-va-csat-feedback-drilldown.png)
-
-**Parent Topic:**[Use ITSM Virtual Agent Analytics dashboard](using-itsm-conversational-analytics-dashboard.md)
 

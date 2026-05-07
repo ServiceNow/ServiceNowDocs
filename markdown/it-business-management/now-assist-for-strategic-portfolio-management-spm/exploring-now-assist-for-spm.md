@@ -7,7 +7,7 @@ product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 11
 keywords: [Explore Now Assist for SPM, Now Assist for SPM overview, Now Assist for SPM skills, Feedback summarization, Multi feedback summarization, Project Doc Summarization and Actions, Planning Item Doc Summarization and Actions, or EAP Doc Summarization and Actions]
 breadcrumb: [Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -19,6 +19,20 @@ Use ServiceNow® Now Assist skills and AI agents in multiple SPM workspaces to t
 ## Skills
 
 The Now Assist for SPM application includes the generative AI skills and features that enable your product, project, portfolio, and demand managers to leverage Now Assist skills so that they can streamline their processes and workflows.
+
+-   **[Assess the status of an epic using Now Assist for Strategic Portfolio Management \(SPM\)](../task/assess-epic-status-now-assist-eap.md)**
+
+    Use Now Assist to automatically evaluate epic health across six risk dimensions: story health, blocked stories, dependencies, progress, timeline, and ownership. The skill returns a red, yellow, or green status with plain-English reasoning, giving portfolio managers a consolidated risk view without manually reviewing stories, timelines, and assignments.
+
+    Trigger the skill by selecting the **Epic status** button on the epic record page. The assessment is displayed in an AI-generated summary card at the top of the Details tab.
+
+-   **[Portfolio insights skill](../task/view-portfolio-insights.md)**
+
+    Gain AI-generated insights for planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments.
+
+    Select the **Portfolio insights** button on the planning page of a portfolio plan. The insights for the portfolio plan are displayed in an AI-generated summary card.
+
+    ![Portfolio insights summary card displaying AI-generated root causes and actions.](../images/view-portfolio-insights-spw.gif)
 
 -   **[Quick story generation](../task/generate-stories-quickly-for-eap-and-agile-2-0.md)**
 
@@ -38,11 +52,13 @@ The Now Assist for SPM application includes the generative AI skills and feature
 
     Generate insights for goals to gain predictive, actionable visibility into goal health using the Goal insights skill. The skill analyzes the goal, its targets, subgoals, and aligned work, then delivers concise, data‑driven insights—including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations—helping goal owners and contributors proactively manage risks and improve goal outcomes. You can trigger the skill by selecting the **Goal insights** or **Show insights** on the grid view or goals' full details page respectively.
 
+    **Note:** When you generate insights for a goal, insights are also generated individually for each of its targets.
+
     ![Generate goal insights in Strategic Planning Workspace using Goal insights skill.](../images/generate-goal-insights.gif)
 
 -   **[Summarize demands with the demand summarization skill](../task/demand-summarization-skill.md)**
 
-    Generate a concise, structured summary of any demand using the demand summarization Now Assist skill. The skill reviews the demand fields and helps create a clear summary of the demand. You can trigger the skill by selecting the **Summarize** button on the demand form.
+    Generate a concise, structured summary of any demand using the demand summarization Now Assist skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand. You can trigger the skill by selecting the **Summarize** button on the demand form.
 
     The generated summary is displayed in a summary card in the demand form.
 
@@ -126,18 +142,18 @@ An administrator can use the Now Assist Admin console in Strategic Planning Work
 
 ## AI agents
 
-The ServiceNow AI agents use LLMs \(Large Language Models\) to process tasks, from basic responses to complex problem-solving and optimize the live agent workflows. For more information on Now Assist AI agents, see [Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md).
+The ServiceNow AI agents use LLMs \(Large Language Models\) to process tasks, from basic responses to complex problem-solving and optimize the live agent workflows. For more information on Now Assist AI agents, see [Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md).
 
 **Related topics**  
 
 
 [Exploring Now Assist Admin](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
 
-[Configure Now Assist Admin features](../task/configure-now-assist-for-spm.md)
+[Configure Now Assist Admin features](configuring-na-spm.md)
 
 [Using Now Assist for Strategic Portfolio Management \(SPM\)](using-now-assist-for-spm.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](using-na-spm-ai-agents.md)
 
 [Now Assist for SPM reference](../reference/now-assist-spm-reference.md)
 

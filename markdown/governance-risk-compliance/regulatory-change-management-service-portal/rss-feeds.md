@@ -7,7 +7,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Integrate, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -51,6 +51,10 @@ Establishing a robust connection to obtain your feeds requires you to perform th
 5.  [Managing feed request responses](managing-feed-request-response.md)
 
 **Note:** If you encounter issues while trying to obtain your RSS feeds, refer to [General guidelines for RSS feeds](general-guidelines-rss-feeds.md).
+
+The following image shows the workflow of RSS feeds are set up to ensure they pull the feed responses.
+
+![Image displaying the configurations steps of RSS feeds.](../image/rss-feed-setup.png "Workflow of setting up and pulling RSS feeds")
 
 -   **[General guidelines for RSS feeds](general-guidelines-rss-feeds.md)**  
 When an RSS feed isn't working, common errors or issues often stem from improper formatting, server issues, or misconfiguration. An RCM administrator can remediate some of the common errors that users may encounter.

@@ -1,6 +1,6 @@
 ---
 title: Integrating with Computer Telephony Integration \(CTI\)
-description: Integrate Customer Service Management with Computer Telephony Integration \(CTI\). This integration enables the Customer Service application to support inbound and outbound telephone calls.
+description: Integrate Customer Service Management \(CSM\) with Computer Telephony Integration \(CTI\) to enable and support voice features in your Workspace.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,19 +11,35 @@ breadcrumb: [Integrate, Customer Service Management]
 
 # Integrating with Computer Telephony Integration \(CTI\)
 
-Integrate Customer Service Management with Computer Telephony Integration \(CTI\). This integration enables the Customer Service application to support inbound and outbound telephone calls.
+Integrate Customer Service Management \(CSM\) with Computer Telephony Integration \(CTI\) to enable and support voice features in your Workspace.
 
-Starting with the Australia release, the Computer Telephony Integration \(CTI\) plugin is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+CTI helps integrate a telephony system to your ServiceNow Workspace via OpenFrame and Interaction Controls Component \(ICC\). Any third-party Contact Center as a Service \(CCaaS\) platform \(like Amazon Connect or Genesys\) can integrate to the ServiceNow CRM Platform. CCaaS can integrate their voice call controls and workflows into their provisioned ServiceNow instance to enable agents to handle phone calls directly within their Workspace.
 
-Customer service agents can do the following with CTI:
+CTI enables and supports the following capabilities:
 
--   Make an outgoing call to a phone number.
--   Receive an incoming call from a phone number or from another user within the system.
--   Transfer a call to another user within the system.
--   Place a call on mute.
--   Set their availability status.
+-   **Screen pop:**
 
-CTI does not require any specific user role except the OpenFrame user \(sn\_openframe\_user\) role. Roles are based on the application using CTI.
+    When a call comes in, the Interaction record automatically opens in the ServiceNow instance.
+
+-   **Click-to-dial:**
+
+    When an agent selects a phone number in ServiceNow, the call is placed via CCaaS without any interruption.
+
+-   **Presence sync:**
+
+    The agent status \(Available, Away, Not Available\), as updated by the agent in the ServiceNow Workspace, is reflected in CCaaS.
+
+-   **Call controls in the UI:**
+
+    Hold, transfer, mute, and disconnect controls are available directly in the ServiceNow Workspace, without the agent needing to interact with the phone system separately.
+
+
+Developers can use the CTI framework to integrate voice features using one or both approaches. As CTI is an integration concept rather than a product, it has no associated role. To enable CTI integration, developers must assign the sn\_openframe\_user role to agents who use the integrated voice features. In either approach, CTI serves as the underlying mechanism that connects the CCaaS platform to the provisioned ServiceNow instance.
+
+-   OpenFrame embeds an external CCaaS provider’s telephony interface directly within the ServiceNow Workspace via an iFrame.
+-   ICC delivers ServiceNow native voice call controls in a separate window within the CSM Configurable Workspace, when enabled.
+
+When using CTI the user must have the OpenFrame user \(sn\_openframe\_user\) role.
 
 For more information, see the following topics:
 

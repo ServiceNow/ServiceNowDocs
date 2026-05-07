@@ -1,27 +1,27 @@
 ---
-title: AI agents and agentic workflows in AI-native IT Service Management
-description: Use conversational AI-native experience for administrators, employees, and fulfillers using AI-native IT Service Management \(AI-native ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
+title: AI agents and agentic workflows in Simplified IT Service Management
+description: Use conversational AI-native experience for administrators, employees, and fulfillers using Simplified IT Service Management \(Simplified ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-31"
 reading_time_minutes: 4
-breadcrumb: [Reference, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Reference, Simplified IT Service Management, IT Service Management]
 ---
 
-# AI agents and agentic workflows in AI-native IT Service Management
+# AI agents and agentic workflows in Simplified IT Service Management
 
-Use conversational AI-native experience for administrators, employees, and fulfillers using AI-native IT Service Management \(AI-native ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
+Use conversational AI-native experience for administrators, employees, and fulfillers using Simplified IT Service Management \(Simplified ITSM\). AI agents and agentic workflows provide a step-by-step approach to configure ITSM workflows with validated inputs and preview.
 
 ## AI agents for ITSM workflow configurations
 
 These AI agents help administrators configure ITSM workflows seamlessly from a single admin UI page using natural language.
 
-For information about admin configurations applicable for AI-native ITSM, see [Platform module configuration in Setup Hub](https://www.servicenow.com/docs/access?context=ia-config-platform-il&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about admin configurations applicable for Simplified ITSM, see [Platform module configuration in Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-config-platform-il&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-For information about employee configurations in AI-native ITSM, see [Configuring the employee experience in AI-native IT Service Management](../concept/configuring-employee-experience-ai-native-itsm.md).
+For information about employee configurations in Simplified ITSM, see [Configuring the employee experience in Simplified IT Service Management](../concept/configuring-employee-experience-ai-native-itsm.md).
 
-For information about fulfiller configurations in AI-native ITSM, see [Configuring the fulfiller experience in AI-native IT Service Management](../concept/configuring-fulfiller-experience-ai-native-itsm.md).
+For information about fulfiller configurations in Simplified ITSM, see [Configuring the fulfiller experience in Simplified IT Service Management](../concept/configuring-fulfiller-experience-ai-native-itsm.md).
 
 <table id="table_ckp_xzv_t3c"><thead><tr><th>
 
@@ -192,10 +192,10 @@ These AI agents help fulfillers with their ITSM tasks using natural language.
 
 |Agentic workflow|Description|
 |----------------|-----------|
-|Wrap-up and resolve incident|Manages and resolves incidents and incident tasks autonomously. Helps service desk agents in generating resolution notes, attaching the Knowledge Base \(KB\) article, and attaching a Known Error \(KE\) article to the incident record. For information about this agentic workflow, see [IT Service Management AI agent collection Wrap-up and resolve incident agentic workflow](../../now-assist-itsm/concept/now-assist-itsm-wrap-up-resolve-incident-aw.md).|
+|Investigate and resolve ITSM incidents|Provides recommendations to resolve an incident based on the incident number. Checks for related catalog items, Knowledge articles, and similar resolved incidents to generate resolution steps for the incident. For information about this agentic workflow, see [IT Service Management AI agent collection Investigate and resolve ITSM incidents agentic workflow](../../now-assist-itsm/concept/now-assist-itsm-aiagents-incident-resolver-workflow.md).|
 |Triage and categorize ITSM incidents|Assigns incident categories and subcategories based on its short description. After categorizing the incident, assigns the service, service offering, and configuration item \(CI\) related to the incident. It also automatically links incidents to major incidents or known problems. For information about this agentic workflow, see [IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow](../../now-assist-itsm/concept/now-assist-itsm-aiagents-catincidents-usecase.md).|
 
-**Parent Topic:**[AI-native IT Service Management reference](../concept/ai-native-it-service-desk-reference.md)
+**Parent Topic:**[Simplified IT Service Management reference](../concept/ai-native-it-service-desk-reference.md)
 
 **Related topics**  
 

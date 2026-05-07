@@ -47,7 +47,7 @@ The Primary Data Integration with Oracle supports the following subflows and sys
 
 **System Properties for Primary Data Integration with Oracle**
 
-Use these system properties to configure settings for the Primary Data Integration with Oracle from the System Properties page. For more information, see [Source-to-Pay integrations with Oracle reference](../reference/s2p-integration-oracle-reference.md).
+Use these system properties to configure settings for the Primary Data Integration with Oracle from the System Properties page. For more information, see [Source-to-Pay integrations with Oracle reference](../../source-to-pay-operations/reference/s2p-integration-oracle-reference.md).
 
 Role required:
 
@@ -207,7 +207,7 @@ These subflows are read-only. To modify a flow or subflow, create a copy and the
 
 **System Properties for Supplier Lifecycle Operations Integration with Oracle**
 
-Use these system properties to configure settings for the Supplier Lifecycle Operations Integration with Oracle from the System Properties page. For more information, see [Source-to-Pay integrations with Oracle reference](../reference/s2p-integration-oracle-reference.md).
+Use these system properties to configure settings for the Supplier Lifecycle Operations Integration with Oracle from the System Properties page. For more information, see [Source-to-Pay integrations with Oracle reference](../../source-to-pay-operations/reference/s2p-integration-oracle-reference.md).
 
 Role required:
 

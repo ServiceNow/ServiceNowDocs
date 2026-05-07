@@ -195,6 +195,18 @@ API
 
 </td></tr><tr><td>
 
+LogicMonitor
+
+</td><td>
+
+API
+
+</td><td>
+
+Access token
+
+</td></tr><tr><td>
+
 New Relic
 
 </td><td>
@@ -298,6 +310,7 @@ Service Observability supports the following observability vendors:
 -   Cisco ThousandEyes synthetic tests
 -   Datadog
 -   DynatraceSaaS and on-premise \(both Classic and Grail environments\)
+-   LogicMonitor
 -   Microsoft Azure Monitor
 -   New Relic
 -   Prometheus on-premise

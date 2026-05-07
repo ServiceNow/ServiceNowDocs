@@ -1,19 +1,19 @@
 ---
-title: Enable AI agents to securely access SSH parameters in Agentic Desktop
+title: Enable AI agents to securely access SSH parameters in AI Desktop Actions
 description: Enable AI agents to securely access credentials, such as usernames and passwords, through Desktop Action Parameter records. This approach protects sensitive values during desktop action execution without exposing them in agent instructions.Create a Parameter record with a name that you can reference in your instructions so the AI agent can securely sign in to the SSH server and execute commands.Create Parameter Value records for storing the actual username and password values so that AI agents can securely connect to the SSH server.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-02-16"
-reading_time_minutes: 2
-breadcrumb: [Configure, Agentic Desktop, Enable AI experiences]
+reading_time_minutes: 3
+breadcrumb: [Defined desktop actions, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Enable AI agents to securely access SSH parameters in Agentic Desktop
+# Enable AI agents to securely access SSH parameters in AI Desktop Actions
 
 Enable AI agents to securely access credentials, such as usernames and passwords, through Desktop Action Parameter records. This approach protects sensitive values during desktop action execution without exposing them in agent instructions.
 
-**Note:** Currently, Parameter and Parameter Value records are only supported for SSH connector, non-UI block desktop actions.
+**Note:** Currently, Parameter and Parameter Value records are only supported for SSH connector, background task desktop actions.
 
 Only the users with the sn\_aia.admin role can create Parameter records for various parameters that the AI agent securely accesses during desktop action execution. To store both a username and a password, the AIA admin must create two separate Parameter records, one for the username "un\_username\_group" and one for the password "un\_password\_group".
 
@@ -35,6 +35,8 @@ The following example shows how an AI agent instruction can reference stored par
 
 Ensure that you use the exact names of the Parameter records. Parameter record names are case sensitive. For example, "UserName" and "username" are treated as different values.
 
+**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](ad-defined-path-da.md)
+
 ## Create Parameter records for SSH credentials
 
 Create a Parameter record with a name that you can reference in your instructions so the AI agent can securely sign in to the SSH server and execute commands.
@@ -49,7 +51,7 @@ Role required: sn\_aia.admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Agentic Desktop** &gt; **Desktop Action Parameters**.
+1.  Navigate to **All** &gt; **AI Desktop Actions** &gt; **Desktop Action Parameters**.
 
 2.  Select **New** to create a Parameter record.
 
@@ -72,7 +74,7 @@ Role required: sn\_aia.admin or now\_assist\_panel\_user
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Agentic Desktop** &gt; **Desktop Action Parameters**.
+1.  Navigate to **All** &gt; **AI Desktop Actions** &gt; **Desktop Action Parameters**.
 
 2.  Select a Parameter record from the list.
 

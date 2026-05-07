@@ -37,8 +37,6 @@ Role required: sam\_admin
 
     The cluster setup appears.
 
-    ![Cluster 360](../image/cluster360.png)
-
 7.  View the following details on the cluster.
 
     -   Infrastructure: View entities such as hosts, virtual machines \(VMs\), host affinity rules, and software installations in the cluster. Select an entity to view the complete list. For example, select **Software Installs** to view all software installations. You can group the software installations by normalized publisher, normalized product, or by software model results. You can also select any software installation from the list such as SQL Server to view all SQL Server software installations in that cluster.

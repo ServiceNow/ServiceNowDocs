@@ -6,7 +6,7 @@ release: australia
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-27"
 reading_time_minutes: 6
 breadcrumb: [MID Server upgrades, MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,12 +23,12 @@ The pre-upgrade runs two sets of tests: **Mandatory tests**and **Alert tests**. 
 
 Pre-upgrade validation tests check the following mandatory tests:
 
--   At least 1 GB of free disk space
+-   At least 2 GB of free disk space
 -   Access to the download site at install.service-now.com
 -   Verify the digital signature of a sample downloaded file
 -   Permission to execute, which involves the following:
-    -   Extract a Zip archiver to a temp folder
-    -   Copy file from temp folder to the agent folder
+    -   Extract a Zip archiver to the upgrade temp folder: agent/work/upgrade\_temp
+    -   Copy files from the upgrade temp folder to the agent folder
     -   Read a text file and validate the content
     -   Delete the pre-upgrade check contents
 -   MID Server host machine is not a 32 bit system
@@ -38,7 +38,7 @@ On Windows MID Servers, the pre-upgrade validation runs the following alert test
 
 -   Any MID Server Upgrade blocker services is running on the host machine
 -   Status of Application Experience on the host machine
--   The MID Server must run as a non-administrator user. If the current **Log On As user** account for the MID Server is **LocalSystem** or is a user that is part of the Administrators group, then the upgrade fails and generates an error log.
+-   For security best practice, run the MID Server as a non-administrator user. If the current **Log On As** user account for the MID Server is **LocalSystem** or is a user that is part of the Administrators group, the upgrade does not fail, but this configuration is not recommended.
 
 ## Errors that block the upgrade
 
@@ -46,7 +46,7 @@ These messages describe failing a mandatory test and are published to the MID Se
 
 -   **Not enough free disk space. The system reports &lt;n&gt; bytes free**
 
-    This message is displayed when less than 1 GB of free disk space is detected on the MID Server host. This error is also written to the MID Server agent log.
+    This message is displayed when less than 2 GB of free disk space is detected on the MID Server host. This error is also written to the MID Server agent log.
 
 -   **Unable to download updates from the install server**
 

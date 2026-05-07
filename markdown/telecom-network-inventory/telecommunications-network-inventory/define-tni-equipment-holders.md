@@ -95,5 +95,5 @@ When you create an equipment holder record, it creates a corresponding configura
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

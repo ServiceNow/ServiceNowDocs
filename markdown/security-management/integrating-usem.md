@@ -111,7 +111,7 @@ Rapid7
 
 </td><td>
 
-[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/7f9ee14647a72690def56992e36d43b8)
+[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/b349ebae1be06a50a85b16db234bcbb6)
 
 </td><td>
 
@@ -135,7 +135,7 @@ Qualys
 
 </td><td>
 
-[Qualys Integration for Security Operations](https://store.servicenow.com/store/app/ce8ead02c323aa10ef46d0af0501315e)
+[Qualys integration for Security Operations](https://store.servicenow.com/store/app/9f3b6f2a1b246a50a85b16db234bcb13)
 
 </td><td>
 
@@ -185,7 +185,7 @@ Microsoft
 
 </td><td>
 
-[Vulnerability Response Integration with Microsoft Threat and Vulnerability Management](https://store.servicenow.com/store/app/b98ee10e47ebea1039e06507e26d4387)
+[Microsoft Defender Integration for Security Exposure Management](https://store.servicenow.com/store/app/df09276e1be06a50a85b16db234bcbe5)
 
 </td><td>
 
@@ -605,7 +605,7 @@ Palo Alto
 
 </td><td>
 
-[Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute](https://store.servicenow.com/store/app/d4ae2dc6536faa1072c95a01a0490e35)
+[Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute](https://store.servicenow.com/store/app/e95be36a1b246a50a85b16db234bcbf6)
 
 </td><td>
 
@@ -853,7 +853,7 @@ Rapid 7
 
 </td><td>
 
-[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/7f9ee14647a72690def56992e36d43b8)
+[Rapid7 Integration for Security Operations](https://store.servicenow.com/store/app/b349ebae1be06a50a85b16db234bcbb6)
 
 </td><td>
 
@@ -1285,7 +1285,7 @@ Qualys
 
 </td><td>
 
-[Qualys Integration for Security Operations](https://store.servicenow.com/store/app/ce8ead02c323aa10ef46d0af0501315e)
+[Qualys Integration for Security Operations](https://store.servicenow.com/store/app/9f3b6f2a1b246a50a85b16db234bcb13)
 
 </td><td>
 
@@ -1357,7 +1357,7 @@ Tenable
 
 </td><td>
 
-[Vulnerability Response Integration with Tenable](https://store.servicenow.com/store/app/ce8e6186476f6e10392d3369126d43c2)
+[Vulnerability Response Integration with Tenable](https://store.servicenow.com/store/app/861aa3e21b246a50a85b16db234bcb7c)
 
 </td><td>
 
@@ -1481,7 +1481,7 @@ Microsoft
 
 </td><td>
 
-[Microsoft Defender for Cloud Integration for Security Operations](https://store.servicenow.com/store/app/a68eed0a972f66903fa8b84bf253af7e)
+[Microsoft Defender for Security Exposure Management](https://store.servicenow.com/store/app/df09276e1be06a50a85b16db234bcbe5)
 
 </td><td>
 
@@ -1505,7 +1505,7 @@ Palo Alto
 
 </td><td>
 
-[Vulnerability Response Integration with Palo Alto Prisma Cloud](https://store.servicenow.com/store/app/d98e210a47eb221082f632c4f16d4372)
+[Vulnerability Response Integration with Palo Alto Prisma Cloud](https://store.servicenow.com/store/app/b139a3ae1be06a50a85b16db234bcbd0)
 
 </td><td>
 
@@ -1629,7 +1629,7 @@ Veracode
 
 </td><td>
 
-[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/89588e41c323ee505ce25ddf05013120)
+[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/e109a36e1be06a50a85b16db234bcbc7)
 
 </td><td>
 
@@ -1679,7 +1679,7 @@ Microfocus
 
 </td><td>
 
-[Fortify Application Vulnerability Integration](https://store.servicenow.com/store/app/c68e2142c323aa10ef46d0af0501310e)
+[Fortify Application Vulnerability Integration](https://store.servicenow.com/store/app/e1a9af221b246a50a85b16db234bcbbe)
 
 </td><td>
 
@@ -1855,7 +1855,7 @@ Invicti
 
 </td><td>
 
-[Invicti Application Vulnerability Integration](https://store.servicenow.com/store/app/c8635e664717aa1002872f46736d43b0)
+[Invicti Application Vulnerability Integration](https://store.servicenow.com/store/app/12e18770473176d095ebf235126d4324)
 
 </td><td>
 
@@ -2099,7 +2099,7 @@ Veracode
 
 </td><td>
 
-[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/89588e41c323ee505ce25ddf05013120)
+[Vulnerability Response Integration with Veracode](https://store.servicenow.com/store/app/e109a36e1be06a50a85b16db234bcbc7)
 
 </td><td>
 

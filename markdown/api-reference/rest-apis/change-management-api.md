@@ -10544,7 +10544,7 @@ Name-value pairs representing the field\(s\) to update in the associated change 
 
 encrypted\_fields
 
-</td><td id="d3077e945">
+</td><td id="d3088e945">
 
 List of comma-separated fields to encrypt. These fields are encrypted before they are stored in the associated record. When specified, the endpoint calls the GlideRecord setDisplayValue\(\) method, instead of calling the setValue\(\) method.Because of this, you can also use this parameter to pass display values for non-encrypted fields, such as reference or choice fields, instead of passing sys\_ids or values.
 

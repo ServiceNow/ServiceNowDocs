@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Case view component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Case view component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Sample code to handle the Case view component

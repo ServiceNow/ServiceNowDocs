@@ -17,7 +17,7 @@ All the response tasks associated with a security incident are displayed within 
 
 The analyst will be able to:
 
--   create a new response task
+-   create response task
 -   assign response tasks to self or others
 -   delete response tasks
 

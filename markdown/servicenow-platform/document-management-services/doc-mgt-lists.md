@@ -31,8 +31,6 @@ Lists entries are a mapping of a template document with a document list. Only te
 
 **Note:** Users can link only documents that they have access to.
 
-![Document list entries](../image/list-entries.png "List entries")
-
 -   **[Group document templates in a list for creating and linking documents to a target record](../task/create-doc-list.md)**  
 Group document templates in a list to enable all the template documents in the list to automatically be created and linked to the target record when the list is referenced.
 -   **[Add a document template to a document list](../task/add-list-entry-to-doc-list.md)**  

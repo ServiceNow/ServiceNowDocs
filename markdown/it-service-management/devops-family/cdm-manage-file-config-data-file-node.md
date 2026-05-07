@@ -37,15 +37,15 @@ App developers and members of the authoring group of the app can access the file
 
 2.  Open a DevOps Config app or a component library to add a file node to its config data model.
 
-<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d95092e114">
+<table id="choicetable_mr1_r1p_1yb"><thead><tr><th align="left" id="d97482e114">
 
 Option
 
-</th><th align="left" id="d95092e117">
+</th><th align="left" id="d97482e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95092e123">
+</th></tr></thead><tbody><tr><td id="d97482e123">
 
 **Adding a file node in an app**
 
@@ -56,7 +56,7 @@ Steps
 3.  Select **Edit config data** to [open a changeset.](cdm-changeset-cr-u.md)
 
 
-</td></tr><tr><td id="d95092e162">
+</td></tr><tr><td id="d97482e162">
 
 **Adding a file node in a component library**
 
@@ -96,15 +96,15 @@ Steps
 
     **Note:** All actions on the file node or its file attachment can only be done via the More actions menu on the file node.
 
-<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d95092e306">
+<table id="choicetable_o2f_b2n_1yb"><thead><tr><th align="left" id="d97482e306">
 
 Action
 
-</th><th align="left" id="d95092e309">
+</th><th align="left" id="d97482e309">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d95092e315">
+</th></tr></thead><tbody><tr><td id="d97482e315">
 
 **Rename the file node**
 
@@ -114,7 +114,7 @@ Steps
 2.  In the Rename dialog box, enter a new name of the file node in the **Node name** field.
  If the file node is included in the collection, it’s renamed there as well.
 
-</td></tr><tr><td id="d95092e342">
+</td></tr><tr><td id="d97482e342">
 
 **Extract variables**
 
@@ -126,7 +126,7 @@ Steps
 
  You can then resolve all the extracted variables. Define the extracted variables and then select **Apply variables** from the form context menu. This action replaces all extracted variables in the file content with the defined variable values.
 
-</td></tr><tr><td id="d95092e372">
+</td></tr><tr><td id="d97482e372">
 
 **Delete the file node**
 
@@ -141,7 +141,7 @@ Steps
 -   If the file node was created in a previously committed changeset and is deleted in the currently opened changeset, then the file node is deleted from the config data but the file attachment remains in the system.
 
 
-</td></tr><tr><td id="d95092e410">
+</td></tr><tr><td id="d97482e410">
 
 **Download the file attachment**
 
@@ -149,7 +149,7 @@ Steps
 
 Select the more actions icon next to the file node, and then select **Download file** from the menu.Alternatively, you can download the file by selecting the file node and then selecting **Download** on the File information pane.
 
-</td></tr><tr><td id="d95092e428">
+</td></tr><tr><td id="d97482e428">
 
 **Replace the file attachment**
 
@@ -159,7 +159,7 @@ Select the more actions icon next to the file node, and then select **Download f
 2.  In the Replace file dialog box, attach a file from your system, and select **Replace file**.
 
 
-</td></tr><tr><td id="d95092e452">
+</td></tr><tr><td id="d97482e452">
 
 **Override an included file node**
 

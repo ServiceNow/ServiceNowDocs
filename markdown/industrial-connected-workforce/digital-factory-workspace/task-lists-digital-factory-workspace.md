@@ -98,7 +98,7 @@ Done
 Shows inactive tasks in the user's functional location that were deactivated within the last seven days. Tasks in this list are sorted by the closed field.
 
 </td></tr></tbody>
-</table>Additionally, by switching to the **My Lists** tab, you can create custom lists that better suit your needs. You can set complex filtering conditions for the lists of tasks by using the condition builder. The condition builder provides the following date/time dynamic filter options for shifts and production days on date/time fields such as **Due date**:
+</table>Additionally, by switching to the **My Lists** tab, you can create custom lists according to your requirement. You can set complex filtering conditions for the lists of tasks by using the condition builder. The condition builder provides the following date/time dynamic filter options for shifts and production days on date/time fields such as **Due date**:
 
 -   My current shift
 -   My next shift
@@ -106,8 +106,6 @@ Shows inactive tasks in the user's functional location that were deactivated wit
 -   My current production day
 -   My next production day
 -   My previous production day
-
-![image.filter-by-shifts]
 
 Within an individual task record, excluding guided tasks, two tabs provide access to associated tasks.
 

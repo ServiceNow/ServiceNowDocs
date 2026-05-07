@@ -1,6 +1,6 @@
 ---
 title: Properties of Azure Foundry
-description: System properties for AI Service Graph Connector for Microsoft \(Azure Foundry specific\).
+description: System properties for AI Service Graph Connector for Azure Foundry.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Create AI connection for Azure Foundry, Microsoft, Service Graph Co
 
 # Properties of Azure Foundry
 
-System properties for AI Service Graph Connector for Microsoft \(Azure Foundry specific\).
+System properties for AI Service Graph Connector for Azure Foundry.
 
 <table id="table_fzn_bjj_m3c"><thead><tr><th>
 
@@ -41,9 +41,9 @@ sn\_ai\_msft\_integ.usage\_first\_run\_lookback\_days
 
 </td><td>
 
-Number of days to look back for usage data on first run \(when no last\_success\_import\_time exists\).Type: integer
+Number of days to look back for usage data on first run \(when no last\_success\_import\_time exists\).Type: Integer
 
-Default value:30
+Default value: 30
 
 Location: System Property \[sys\_properties\] table
 

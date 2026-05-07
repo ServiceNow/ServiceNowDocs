@@ -23,7 +23,7 @@ When you first navigate to the Vault console on a new instance, the console is i
 
 ## Procedure
 
-1.  Install ServiceNow Vault by going to the [ServiceNow Store](https://store.servicenow.com/store/app/fcd8d60a1b47ae94c34d2135624bcb74) and selecting **Install**.
+1.  Install ServiceNow Vault by going to the [ServiceNow Store](https://store.servicenow.com/store/app/fcd8d60a1b47ae94c34d2135624bcb74) and selecting **Buy**.
 
     Alternatively, you can also complete installation by navigating to **All** &gt; **Application Manager** &gt; **Vault Console**.
 

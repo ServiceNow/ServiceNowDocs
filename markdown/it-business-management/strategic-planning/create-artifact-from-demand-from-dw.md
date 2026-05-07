@@ -45,7 +45,7 @@ Role required: it\_demand\_manager
 
 3.  Select **Save**.
 
-4.  Create the entity by selecting the appropriate option from the More Actions option.![Example of Create Project in the More Actions option.](../images/demand-create-entity.png)
+4.  Create the entity by selecting the appropriate option from the More Actions option.![Create Project in the More Actions option.](../images/demand-create-entity.png)
 
     Depending on the category and type of the demand, options related to the entity you can create become available.
 

@@ -23,9 +23,9 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Overview**.
 
-2.  Click **Add content** in the top left corner of the page to open the widget selection control.
+2.  Select **Add content** in the top left corner of the page to open the widget selection control.
 
-3.  In the first selection box, click **Treemap**.
+3.  In the first selection box, select **Treemap**.
 
 4.  In the second selection box, select the treemap you want to insert from the following list:
 
@@ -39,9 +39,7 @@ Role required: sn\_si.admin
 
     **Note:** For the Security Incident - Service Impact treemap, select **Security Incident** in the third selection box. This selection provides a drop-down list with multiple data categories.
 
-    ![Security Incident treemap category list](../image/Treemap_Category.png)
-
-6.  At the bottom of the screen, click the location on the screen you want to add the gauge.
+6.  At the bottom of the screen, select the location on the screen you want to add the gauge.
 
 7.  Close the **Add content** box.
 

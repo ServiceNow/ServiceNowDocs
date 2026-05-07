@@ -29,15 +29,15 @@ Adding site access for workers also helps the safety team to know who's checked 
 
 2.  Open a contractor worker record to grant the site access to.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d415227e79">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d422800e79">
 
 Option
 
-</th><th align="left" id="d415227e82">
+</th><th align="left" id="d422800e82">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d415227e88">
+</th></tr></thead><tbody><tr><td id="d422800e88">
 
 **From a contractor company record**
 
@@ -49,7 +49,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to grant the site access to.
 
 
-</td></tr><tr><td id="d415227e133">
+</td></tr><tr><td id="d422800e133">
 
 **From Health and Safety user profile list**
 

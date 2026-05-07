@@ -16,6 +16,7 @@ The ServiceNow® Workflow Studio flows, subflows, and actions application enable
 
 -   Compare two flow histories to see what content was added, removed, and updated.
 -   Summarize flow execution details to identify errors and suggest potential fixes.
+-   Test conversation-enabled actions and subflows from a conversation.
 -   Use an AI agent from a flow.
 
 See [Exploring flows](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US), [Exploring subflows](https://www.servicenow.com/docs/access?context=exploring-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US), and [Exploring actions](https://www.servicenow.com/docs/access?context=exploring-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information.
@@ -41,6 +42,14 @@ The Australia release introduces enhanced protections for read‑only fields acr
 -   **[Flow execution analysis](https://www.servicenow.com/docs/access?context=flow-execution-analysis-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
     Analyze flow execution details to identify errors and suggest potential fixes.
+
+-   **[Test conversational action](https://www.servicenow.com/docs/access?context=test-conversational-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+
+    Test a conversational action to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
+
+-   **[Test conversational subflow](https://www.servicenow.com/docs/access?context=test-conversational-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+
+    Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
 -   **[Use an AI agent action](https://www.servicenow.com/docs/access?context=use-an-ai-agent-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
 

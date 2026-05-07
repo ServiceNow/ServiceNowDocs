@@ -7,7 +7,7 @@ product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -188,7 +188,5 @@ Analysis of the root cause of the issue.
 11. Enter your information in the **Comments** field of the Send additional information pop-up.
 
 12. Click the **Send** button.
-
-    ![List view of issue triage page.](../image/IssueTriageActivityEmpCenter.png "List view of issue triage page")
 
 

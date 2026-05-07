@@ -64,7 +64,7 @@ Quickly model equipment and design complex templates
 
 </td><td>
 
-[Model your workflow](telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](telecommunications-network-inventory-workflow.md)
 
 </td></tr><tr><td>
 

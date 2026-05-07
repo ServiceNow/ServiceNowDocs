@@ -1,6 +1,6 @@
 ---
 title: Connect Zero Copy Connector for ERP to SAP using OData and HTTP
-description: Extract data securely from ERP OData v2 APIs using ETL for use in remote tables and extraction tables. OData connects to SAP via HTTP.
+description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables. OData connects to SAP via HTTP.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, http, connection]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Connect Zero Copy Connector for ERP to SAP using OData and HTTP
 
-Extract data securely from ERP OData v2 APIs using ETL for use in remote tables and extraction tables. OData connects to SAP via HTTP.
+Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables. OData connects to SAP via HTTP.
 
 **Important:**
 
@@ -28,7 +28,7 @@ Extract data using OData and an HTTP connection. To give users OData access, see
 
 ## Enabling download of XML files
 
-The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension hasn't been added to this property. For more information, see [Restrict attachment file extensions](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=australia&pubname=australia-platform-administration&section=t_RestrictingFileExtensions&ft:locale=en-US).
+The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension hasn't been added to this property. For more information, see [Security settings properties](https://www.servicenow.com/docs/access?context=r_GeneralSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
 ## New properties
 
@@ -208,11 +208,11 @@ For an ERP system, there are separate heartbeat indicators for RFC and HTTP. Whe
 For more information about using OData in Zero Copy Connector for ERP, see [Create an OData connection in Zero Copy Connector for ERP](../task/create-an-odata-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](../reference/erp-data-hub-odata-query-capabilities.md).
 
 -   **[OData capabilities supported by Zero Copy Connector for ERP](../reference/erp-data-hub-odata-query-capabilities.md)**  
-Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP.
+Details about the OData v2 query capabilities supported in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 -   **[Create an OData connection in Zero Copy Connector for ERP](../task/create-an-odata-connection.md)**  
-Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables.
+Create an OData v2 connection to link to SAP via HTTP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 -   **[Add an OData service manually in Zero Copy Connector for ERP](../task/erp-add-a-service-manually.md)**  
-When adding an entity to a model using OData, if the service you need isn't listed, add the service manually.
+When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 -   **[Obtain data from SAP SuccessFactors using OData v2 APIs](obtain-data-from-successfactors-using-odata-v2-apis.md)**  
 Access talent management data from SAP SuccessFactors using OData V2 APIs.
 -   **[Configure OAuth authorization code flow to use in Zero Copy Connector for ERP](../task/configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp.md)**  

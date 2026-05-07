@@ -44,6 +44,8 @@ When adding a flow, subflow, or action, a non-usable activity definition is crea
 
 [Add and configure an activity in a playbook](../task/add-configure-activity.md)
 
+[Use AI agent as an activity](../task/ai-agent-as-activity.md)
+
 [Start with delay input properties](../reference/start-with-delay-properties.md)
 
 [Optional activities](optional-activities.md#)

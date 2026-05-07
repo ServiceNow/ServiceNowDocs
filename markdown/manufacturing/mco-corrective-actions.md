@@ -35,9 +35,9 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
     **Ready to use** option is displayed.
 
-    **Note:** Atleast one "In use" corrective action is required to initiate the recall campaign to In-progress.
+    **Note:** At least one "In use" corrective action is required to initiate the recall campaign to In-progress.
 
-    Corrective action must contain atleast one action charge line to move it to In use.
+    Corrective action must contain at least one action charge line to move it to In use.
 
 
 -   **[Corrective action charges](mco_corrective_action_charges.md)**  

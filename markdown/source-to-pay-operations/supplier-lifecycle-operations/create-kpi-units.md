@@ -21,7 +21,7 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Supplier Lifecycle Operations** &gt; **Source-to-Pay Workspace**.
+1.  Navigate to **All**.
 
 2.  In the navigation filter, enter `sn_kpi_unit.LIST`.
 

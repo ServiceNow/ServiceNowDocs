@@ -1,6 +1,6 @@
 ---
 title: Summarize demands with demand summarization skill
-description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 locale: en-US
 release: australia
 product: Strategic Planning
@@ -14,7 +14,7 @@ breadcrumb: [Manage demands, Next Experience for Demand Management in Strategic 
 
 # Summarize demands with demand summarization skill
 
-Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 
 This video explains how you can summarize your demand records using Now Assist for SPM in Next Experience for Demand Management. 
 
@@ -34,7 +34,7 @@ If you have custom roles that require access to this skill, update the ACLs \(ac
 
 3.  Navigate to the **Details** tab.
 
-4.  Select the **Summarize** button to generate a summary of the demand.![Use the Summarize button to generate a concise summary of the demand.](../images/demand-summarize-button.png)
+4.  Select the **Summarize** button to generate a summary of the demand.
 
 
 ## Result

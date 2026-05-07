@@ -29,7 +29,7 @@ In the Vendor Management Workspace, the Third-party risk \(TPR\) manager or due 
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
+2.  Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
 
 3.  Select the due diligence request that you want.
 
@@ -51,29 +51,29 @@ In the Vendor Management Workspace, the Third-party risk \(TPR\) manager or due 
 
 8.  After confirming that you received all required information, navigate to the third-party element list by using one of the following options.
 
-<table id="choicetable_kwv_3zd_43c"><thead><tr><th align="left" id="d135043e200">
+<table id="choicetable_kwv_3zd_43c"><thead><tr><th align="left" id="d137204e200">
 
 Option
 
-</th><th align="left" id="d135043e203">
+</th><th align="left" id="d137204e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135043e209">
+</th></tr></thead><tbody><tr><td id="d137204e209">
 
 **Third-party elements list**
 
 </td><td>
 
-Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third-party Elements** &gt; **All third-party elements**.
+Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Third-party Elements** &gt; **All third-party elements**.
 
-</td></tr><tr><td id="d135043e232">
+</td></tr><tr><td id="d137204e232">
 
 **Engagement record**
 
 </td><td>
 
-1.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All engagements** &gt; **All third-party elements**.
+1.  Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All engagements** &gt; **All third-party elements**.
 2.  Select the engagement you want and then navigate to the **Engagement elements** tab.
 
 

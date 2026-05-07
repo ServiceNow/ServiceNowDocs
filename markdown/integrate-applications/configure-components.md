@@ -61,15 +61,15 @@ Enhance the automation logic with text instructions, either in an empty activity
 
 4.  Do any of the following options for a desired action.
 
-<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d407254e213">
+<table id="choicetable_vmv_2f1_5rb"><thead><tr><th align="left" id="d258409e213">
 
 Option
 
-</th><th align="left" id="d407254e216">
+</th><th align="left" id="d258409e216">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d407254e222">
+</th></tr></thead><tbody><tr><td id="d258409e222">
 
 **Search for a component that is available within the Toolbox**
 
@@ -77,7 +77,7 @@ Action
 
 Enter the text in the **Filter by Name** field.
 
-</td></tr><tr><td id="d407254e234">
+</td></tr><tr><td id="d258409e234">
 
 **Edit the configuration or settings of a component**
 
@@ -89,7 +89,7 @@ Either double-click the component title bar or click the settings icon \(![Setti
 
  The settings icon \(![Settings icon.](../image/component-settings-icon.png)\) doesn't appear for all components.
 
-</td></tr><tr><td id="d407254e279">
+</td></tr><tr><td id="d258409e279">
 
 **Edit the properties of a component**
 
@@ -97,7 +97,7 @@ Either double-click the component title bar or click the settings icon \(![Setti
 
 Change the required property in the Properties pane.
 
-</td></tr><tr><td id="d407254e288">
+</td></tr><tr><td id="d258409e288">
 
 **Set a breakpoint**
 
@@ -105,7 +105,7 @@ Change the required property in the Properties pane.
 
 Right-click the component title bar and select **Breakpoint** For more information on Breakpoints, see [Set a breakpoint to pause a component in RPA Desktop Design Studio](set-breakpoint-rpa-studio.md).
 
-</td></tr><tr><td id="d407254e311">
+</td></tr><tr><td id="d258409e311">
 
 **Start the workflow execution from a selected component**
 
@@ -113,7 +113,7 @@ Right-click the component title bar and select **Breakpoint** For more informati
 
 Right-click the component title bar and select **Run From Here**.
 
-</td></tr><tr><td id="d407254e323">
+</td></tr><tr><td id="d258409e323">
 
 **Handle the errors at a component level**
 
@@ -121,7 +121,7 @@ Right-click the component title bar and select **Run From Here**.
 
 Right-click the component title bar and select **Error Handler** To learn more about handling errors, see [Handle errors in RPA Desktop Design Studio](error-handling-rpa-studio.md).
 
-</td></tr><tr><td id="d407254e348">
+</td></tr><tr><td id="d258409e348">
 
 **Delete a component**
 
@@ -129,7 +129,7 @@ Right-click the component title bar and select **Error Handler** To learn more a
 
 Right-click the component title bar and select **Delete**.
 
-</td></tr><tr><td id="d407254e360">
+</td></tr><tr><td id="d258409e360">
 
 **Skip a component in an automation**
 
@@ -145,7 +145,7 @@ To enable the automation to skip a component, right-click the component title ba
 -   You can't use the **Skip This** option on the **Start**, **End**, or any event-related component.
 
 
-</td></tr><tr><td id="d407254e438">
+</td></tr><tr><td id="d258409e438">
 
 **Execute a single component**
 

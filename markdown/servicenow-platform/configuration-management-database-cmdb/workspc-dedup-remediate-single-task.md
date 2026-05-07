@@ -39,15 +39,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d254647e154">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d257824e154">
 
 Choice
 
-</th><th align="left" id="d254647e157">
+</th><th align="left" id="d257824e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d254647e163">
+</th></tr></thead><tbody><tr><td id="d257824e163">
 
 **Remediate manuallyUse the Duplicate CI Remediator**
 
@@ -57,7 +57,7 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](reconcile-dup-task.md).
 
-</td></tr><tr><td id="d254647e188">
+</td></tr><tr><td id="d257824e188">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -67,7 +67,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d254647e220">
+</td></tr><tr><td id="d257824e220">
 
 **Remediate using a template**
 

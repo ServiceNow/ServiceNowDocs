@@ -302,7 +302,7 @@ Role required: sn\_mcp\_client.admin
     2.  Select **Allow** to allow the client to connect to the server.
 7.  Add tools from the Quickstart Server to an AI agent.
 
-    For more information about this step, see [Add an MCP server to an AI agent](../../model-context-protocol-client/task/add-mcp-server-tool.md).
+    For more information about this step, see [Add an MCP server tool to an AI agent](../../model-context-protocol-client/task/add-mcp-server-tool.md).
 
     1.  In AI Agent Studio, select the **Create and manage** tab.
     2.  From the AI agents tab, select an existing agent or create one.

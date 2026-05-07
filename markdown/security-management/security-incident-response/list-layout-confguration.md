@@ -26,10 +26,7 @@ The list layout configurations were already shipped for existing known tables sh
 **Note:**
 
 -   If you want to render the custom view for the existing tables, you can update respective table record in list layout configuration with custom list view.
--   For new task tables, you can create a new List Layout configuration to render the custom list view and labels. For more detailed procedure, see on how to [Step 4. Create a view for a new Linked Record Tab for a Security Case](../task/creating-a-view-for-the-new-linked-record-tab.md)
-
-    ![List layout label](../image/list-layout-label.png)
-
+-   For new task tables, you can create List Layout configuration to render the custom list view and labels. For more detailed procedure, see on how to [Step 4. Create a view for a new Linked Record Tab for a Security Case](../task/creating-a-view-for-the-new-linked-record-tab.md)
 
 **Parent Topic:**[Rollup Framework for MSIM](roll-up-framework-for-major-security-incident-management.md)
 

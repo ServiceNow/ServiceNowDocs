@@ -6,7 +6,7 @@ release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 2
 breadcrumb: [Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configure and customize the migration to SOW, Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM, Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
@@ -22,8 +22,6 @@ When performing the migration, you must have selected the **Relative list declar
 Role required: admin
 
 ## About this task
-
-At the end of the migration process, a confirmation message specifies if the migration is successful or not. You can review the migration information and perform the post-migration steps to ensure successful migration of your configuration or customization.
 
 ## Procedure
 
@@ -41,20 +39,18 @@ At the end of the migration process, a confirmation message specifies if the mig
 
         If the migration is successfully completed and not visible in the UI or not working properly the cross-check the conditions in Advance view.
 
-2.  If the migration fails, perform the following steps.
+2.  1.  On the migration completion page in SOW Admin Center, select **View migration details**.
 
-    1.  On the migration completion page in SOW Admin Center, select **View migration details**.
+2.  Select the **Go to system logs** \(![System logs icon](../../service-builder/image/sb-service-triangle.png)\) icon.
 
-    2.  Select the **Go to system logs** \(![System logs icon](../../service-builder/image/sb-service-triangle.png)\) icon.
+3.  Review the logs to determine which items failed during migration.
 
-    3.  Review the logs to determine which items failed during migration.
+4.  Based on each failed item, identify which step has failed and perform the steps mentioned in the following topics.
 
-    4.  Based on each failed item, identify which step has failed and perform the steps mentioned in the following topics.
-
-        -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-script-aw-sow.md)
-        -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-server-script-aw-sow.md)
-        -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-action-aw-sow.md)
-        -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-ui-component-aw-sow.md)
+    -   [Migrate the client script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-script-aw-sow.md)
+    -   [Migrate the server script from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-server-script-aw-sow.md)
+    -   [Migrate the client action from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-client-action-aw-sow.md)
+    -   [Migrate the UI component from ITSM Agent Workspace to Service Operations Workspace](migrate-related-list-ui-component-aw-sow.md)
 
 **Parent Topic:**[Migration of Related list declarative actions from ITSM Agent Workspace to Service Operations Workspace for ITSM](../reference/related-list-declarative-actions-aw-sow.md)
 

@@ -105,7 +105,7 @@ Script
 
 </td><td>
 
-A script to specify advanced assignment rule functionality. The current.variable\_pool set of variables is available.**Note:** Make sure the input in the script is correct, and that the input type matches the field type in the Assignment Rule script. For example, if the assignment rule script sets the value of an Integer field, and the value in the script is set to String, the assignment rule may yield unexpected results.
+A script to specify advanced assignment rule functionality. The script should evaluate to the sys\_id of a user or user group. The `current.variable_pool` set of variables is available. **Note:** Make sure the input in the script is correct, and that the input type matches the field type in the Assignment Rule script. For example, if the assignment rule script sets the value of an Integer field, and the value in the script is set to String, the assignment rule may yield unexpected results.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

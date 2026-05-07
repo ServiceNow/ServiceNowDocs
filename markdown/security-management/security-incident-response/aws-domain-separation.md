@@ -31,7 +31,14 @@ For more information on support levels, see [Application support for domain sepa
 
 The AWS Security Hub integration with ServiceNow Security Incident Response \(SIR\) supports domain separation, enabling you to route AWS Security Hub findings into the appropriate domain-scoped security incidents.
 
--   -   Replicate the following scheduled jobs for every domain:
+Follow these steps to achieve domain separation:
+
+-   Create a user with the sn\_si.admin role in the respective domain.
+
+    **Note:** When you create the profile, use the domain picker to select a domain. Do not create the user in the parent domain and later change the domain of the profile. You should have a user for each domain for your profile with the sn\_si.admin role. Use this user to create or modify settings in the profile.
+
+-   Disable existing scheduled jobs.
+-   Replicate the following scheduled jobs for every domain:
     -   AWS SecurityHub Process Raw Data
     -   AWS SecurityHub Profile Process
     -   AWS SecurityHub AdditionalOptions Sync

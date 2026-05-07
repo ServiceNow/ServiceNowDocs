@@ -31,15 +31,15 @@ Role required: facilities admin
 
 3.  Continue with one of the following options.
 
-<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d33888e127">
+<table id="choicetable_WorkbenchAccess"><thead><tr><th align="left" id="d36178e127">
 
 Option
 
-</th><th align="left" id="d33888e130">
+</th><th align="left" id="d36178e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d33888e136">
+</th></tr></thead><tbody><tr><td id="d36178e136">
 
 **To see all requests assigned to you**
 
@@ -47,7 +47,7 @@ Action
 
 Select **Assigned to me** check box.
 
-</td></tr><tr><td id="d33888e148">
+</td></tr><tr><td id="d36178e148">
 
 **To search for a request**
 

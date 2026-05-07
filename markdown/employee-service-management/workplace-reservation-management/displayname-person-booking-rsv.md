@@ -19,7 +19,7 @@ Display the name of a person who booked a space on the floor map.
 
 On the floor map, when a space is booked, an option to display the name of the person who reserved the space is available.
 
-Ensure that the following plugins are installed:
+Verify that the following plugins are installed:
 
 -   Workplace Core
 -   Indoor Mapping
@@ -31,7 +31,7 @@ Role required: admin
 
 1.  In the navigation filter search context, enter **sys\_properties.list**.
 
-    List of properties in the System Properties \[sys\_properties\] table appears.
+    The System Properties \[sys\_properties\] table displays a list of properties.
 
 2.  Search for **sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details** and set the Workplace Core property **sn\_wsd\_core.floor\_plan.portal.show\_reservation\_details** to **true**.
 
@@ -41,7 +41,7 @@ Role required: admin
 
 4.  On the Map view, select the location, building, and a floor where you have made the reservation.
 
-5.  Select the map gear settings icon \(![Floor map gear settings icon.](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\) to view Display options.
+5.  Select the map gear icon \(![Floor map gear settings icon.](../../workplace-safety-mgmt/images/wsd-gear-settings-icon.png)\) to view Display options.
 
 6.  Select **Show name of the person who booked the space**.
 
@@ -49,9 +49,9 @@ Role required: admin
 
     Reserved or booked spaces show the name of person who booked the space.
 
-8.  Select a reserved space to open the Space details page
+8.  Select a reserved space to open the Space details page.
 
-    Name of the person who booked or reserved the space is shown.
+    The name of the person who booked or reserved the space is shown.
 
 
 **Parent Topic:**[Configure Workplace Reservation Management portal](../concept/wsd-reservation-setup.md)

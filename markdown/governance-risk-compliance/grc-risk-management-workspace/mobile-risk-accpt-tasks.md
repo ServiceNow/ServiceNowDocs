@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -31,19 +31,13 @@ Approve or reject a pending request from the list of records. Alternatively, vie
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Risk Acceptance Tasks highlighted.](../image/mobile_Risk_applet_callout_Risk_Acceptance_rd_Tasks.png)
-
     The Risk Acceptance Tasks screen is displayed with a list of records.
-
-    ![Risk acceptance records.](../image/mobile-risk-acc.jpg)
 
 3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To approve or reject a request directly from the list, with the Risk Acceptance Tasks screen displayed, swipe left on a record to open the menu.
-
-    ![Swipe action on Risk Acceptance record.](../image/mobile-risk-accept-swipe.jpg)
 
 5.  On the menu that is displayed, choose one to continue.
 
@@ -60,19 +54,17 @@ Approve or reject a pending request from the list of records. Alternatively, vie
 
 9.  Tap the task record that is displayed to open it.
 
-    On the record that is displayed, choose one from the following table to continue.
+10. On the record that is displayed, choose one from the following table to continue.
 
-    ![Risk acceptance task details.](../image/mobile-risk-accpttask-details.jpg)
-
-<table id="choicetable_mw5_22s_c3b"><thead><tr><th align="left" id="d154662e260">
+<table id="choicetable_mw5_22s_c3b"><thead><tr><th align="left" id="d156881e223">
 
 Option
 
-</th><th align="left" id="d154662e263">
+</th><th align="left" id="d156881e226">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154662e269">
+</th></tr></thead><tbody><tr><td id="d156881e232">
 
 **Details tab**
 
@@ -82,7 +74,7 @@ With the Details tab selected, to approve or reject the request, at the top left
 
 two times to navigate back to the Risk Acceptance Task record. With the Risk Acceptance Task screen displayed, tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\) to approve or reject the request. Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d154662e293">
+</td></tr><tr><td id="d156881e256">
 
 **Activity Stream tab**
 
@@ -92,7 +84,7 @@ With the Activity Stream tab selected, follow these steps.1.  View the work note
 2.  Navigate back to the Risk Acceptance Task record as described in the preceding option and tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\) to approve or reject the request.
 
 
-</td></tr><tr><td id="d154662e323">
+</td></tr><tr><td id="d156881e286">
 
 **Tap a screen icon at the bottom of the screen.**
 

@@ -29,15 +29,15 @@ Consider scheduling the update job to run during non-business hours to minimize 
 
 3.  Determine whether to schedule the update job for a later time or run it right away.
 
-<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d254275e88">
+<table id="choicetable_vjl_krf_vtb"><thead><tr><th align="left" id="d256928e88">
 
 Option
 
-</th><th align="left" id="d254275e91">
+</th><th align="left" id="d256928e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d254275e97">
+</th></tr></thead><tbody><tr><td id="d256928e97">
 
 **Schedule the update job**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Update**. Note that you must select **Update** to successfully schedule the job.
 
 
-</td></tr><tr><td id="d254275e127">
+</td></tr><tr><td id="d256928e127">
 
 **Run the update job now**
 

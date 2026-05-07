@@ -162,9 +162,7 @@ Who will receive:
 
 What will it contain:
 
-If you want to modify the email contents such as body of the email which includes the Subject or Message HTML, you must have the System Administrator role access or assigned as System Administrator and not an MSI Administrator.
-
-![Notification SI proposed to MSI](../../security-incident-response/image/notification-si-proposed-msi.png)
+If you want to modify the email contents such as body of the email which includes the Subject or Message HTML, you must have the System administrator role access or assigned as System administrator and not an MSI administrator.
 
 **Notification: Security Incident promoted \(SI\) as Major Security Incident \(MSI\)**
 
@@ -177,9 +175,7 @@ This notification is triggered when a security incident is promoted and when the
 
 **What will it contain**
 
-If you want to modify the email contents such as body of the email, which includes the Subject or Message HTML, you must have the System Administrator role access or assigned as System Administrator and not an MSI Administrator.
-
-![Notification SI Promoted to MSI](../../security-incident-response/image/notification-si-promoted-msi.png)
+If you want to modify the email contents such as body of the email, which includes the Subject or Message HTML, you must have the System administrator role access or assigned as System administrator and not an MSI administrator.
 
 ## Configure MSI closure activities
 

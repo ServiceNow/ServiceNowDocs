@@ -1,6 +1,6 @@
 ---
 title: Edit and delete ERP systems
-description: After creating an ERP system, you can edit system details or delete the system at any time.
+description: After creating an ERP \(Enterprise Resource Planning\) system, you can edit system details or delete the system at any time.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,16 +9,16 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, edit, delete, remove]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Edit and delete ERP systems
 
-After creating an ERP system, you can edit system details or delete the system at any time.
+After creating an ERP \(Enterprise Resource Planning\) system, you can edit system details or delete the system at any time.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_erp\_integration.erp\_admin
 
 ## Procedure
 

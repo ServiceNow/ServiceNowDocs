@@ -1,6 +1,6 @@
 ---
 title: Health Log Analytics Overview dashboard
-description: The Health Log Analytics Overview dashboard uses Performance Analytics to provide a trend of historical data as well as regular reports.
+description: The Health Log Analytics Overview dashboard has been replaced with the HLA Operational dashboard.
 locale: en-US
 release: australia
 product: Health Log Analytics
@@ -13,9 +13,9 @@ breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics an
 
 # Health Log Analytics Overview dashboard
 
-The Health Log Analytics Overview dashboard uses Performance Analytics to provide a trend of historical data as well as regular reports.
+The Health Log Analytics Overview dashboard has been replaced with the HLA Operational dashboard.
 
-From the Xanadu release onward, the Health Log Analytics Overview dashboard has been deprecated and replaced with the HLA Operational dashboard. The HLA Operational dashboard uses Performance Analytics to enable you to monitor log data, alerts, and error rate information in Service Operations Workspace and address issues as they occur in the system. For more information, see [HLA Operational dashboard](hla-operational-dashboard.md).
+The HLA Operational dashboard uses Performance Analytics to enable you to monitor log data, alerts, and error rate information in Service Operations Workspace and address issues as they occur in the system. For more information, see [HLA Operational dashboard](hla-operational-dashboard.md).
 
 **Parent Topic:**[Platform Analytics Solutions for Health Log Analytics](hla-content-pack.md)
 

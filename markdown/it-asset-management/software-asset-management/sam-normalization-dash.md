@@ -24,8 +24,6 @@ The Normalization and Content Service dashboard tab is accessed by navigating to
 
 Normalization chart results are updated daily when the **SAM — Discovery Model Normalization** job is run. You can save charts in PNG or JPG formats.
 
-![SAMNormalizationDashboard](../image/sam-normalization-dash.png "Normalization and Content Service dashboard")
-
 |Report|Source list|Description|
 |------|-----------|-----------|
 |Overall Normalization Rates for Licensable Software|Software Installs Normalization Rates|Overall normalization status count for all licensable products.|
@@ -34,8 +32,6 @@ Normalization chart results are updated daily when the **SAM — Discovery Model
 ## Central Data Service Download Status related list
 
 The Central Data Service Download Status related list is updated daily when the **SAM — Central Data Service Download Status** job is run.
-
-![SAMNormDashStatus](../image/sam-norm-dash-cds.png "Central Data Service Download Status related list")
 
 |Field|Description|
 |-----|-----------|

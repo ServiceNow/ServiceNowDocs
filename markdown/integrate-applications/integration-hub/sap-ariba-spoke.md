@@ -143,7 +143,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)
 -   Flow Designer Action Step - Script on MID \(com.glide.hub.action\_step.script\_mid\)
--   [Utility Actions Spoke](utilityact-spoke.md)
+-   [Utility Actions Spoke](utilityact-spoke-1.md)
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
 

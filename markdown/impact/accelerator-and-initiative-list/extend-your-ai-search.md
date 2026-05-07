@@ -25,8 +25,10 @@ Extend your AI Search provides Impact customers with advanced tools and insights
 
 -   **Session Preparation**
 
-    -   Provision a temporary instance 
-    -   If applicable, activate and configure related plug-ins
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance 
+    -   If applicable, activates and configures related plug-ins
     ​
 
 -   **Customer Coaching Session \#1 \(Up to 90 minutes\)**

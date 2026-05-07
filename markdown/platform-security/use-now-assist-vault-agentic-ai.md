@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-23"
 reading_time_minutes: 2
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Now Assist for Vault]
+breadcrumb: [ServiceNow Vault]
 ---
 
 # Use agentic AI in Now Assist for Vault
@@ -31,13 +31,13 @@ You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure Open
 
 ## Security
 
-Enable security settings to run AI agents and agentic workflows using Access Control Lists \(ACLs\) and user identities. You can configure and manage the ACLs in AI Agent Studio. See [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+Enable security settings to run AI agents and agentic workflows using access control lists \(ACLs\) and user identities. You can configure and manage the ACLs in AI Agent Studio. See [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
 
 ## Installed agents
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
--   **[Securing custom apps with Vault agents agentic workflow](now-assist-vault-securing-custom-apps-agents.md)**  
+-   **[Securing custom apps with the Vault agents agentic workflow](now-assist-vault-securing-custom-apps-agents.md)**  
 Use the securing custom apps with Vault agents agentic workflow to get recommended data classifications and available protections for a custom application.
 -   **[Access Observer configuration agentic workflow](now-assist-vault-access-observer-config.md)**  
 Use the Access Observer configuration agentic workflow to view, create, deactivate, and delete Access Observer settings for a particular field.
@@ -46,5 +46,5 @@ Use the summarize Access Observer logs agentic workflow to review and summarize 
 -   **[Field encryption with Vault module agentic workflow](now-assist-vault-field-encryption-module.md)**  
 Use the field encryption with Vault module agentic workflow to encrypt specific fields and configure secure access to users with designated roles.
 
-**Parent Topic:**[Now Assist for Vault](now-assist-vault-landing.md)
+**Parent Topic:**[ServiceNow Vault](../../vault/reference/servicenow-vault-landing.md)
 

@@ -30,11 +30,7 @@ Role required: admin
 
 For example, when a related list is created for the incident table called `u_custom_comments`:
 
-![](../image/HierarchicalIncident.png "Hierarchical Incident")
-
-And `u_comment_items` is created as a related list for `u_custom_comments`:
-
-![](../image/HierarchicalCustomComments.png "Hierarchical Custom Comments")
+And `u_comment_items` is created as a related list for `u_custom_comments`
 
 -   **[WSDL Schema with related records](../reference/r_WSDLSchemaWithRelatedRecords.md)**  
 When a WSDL for the target Incident table is requested with an additional parameter of **hierarchical=true**, the WSDL schema for the Insert function will reflect available related records that may participate in the hierarchical data payload.

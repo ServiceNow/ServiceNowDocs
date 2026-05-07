@@ -32,7 +32,7 @@ You can enable \(show\) or disable \(hide\) an application menu or module in the
 -   **[Tags](../concept/c_Tags.md)**  
 Tags are text labels that you can associate with items like records and pages. Tags enable you to group and organize the items. Tags can be visible to any user \(global\), visible only to specific groups or users \(shared\), or visible to a single user \(private\).
 -   **[User presence](../../navigation/concept/c_UserPresence.md)**  
-User presence is a Core UI feature that lets you see who is online when you are working in an instance.
+User presence is a Core UI feature that lets you see who is online when you're working in an instance.
 
 **Parent Topic:**[Working in Core UI](../../../get-started/servicenow-overview/concept/working-in-ui16-and-ui15.md)
 

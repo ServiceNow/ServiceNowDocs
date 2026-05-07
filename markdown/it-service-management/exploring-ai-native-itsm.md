@@ -1,28 +1,28 @@
 ---
-title: Exploring AI-native IT Service Management
-description: AI-native IT Service Management \(AI-native ITSM\) provides simplified and automated implementation for administrators, and unified user experience for employees and fulfillers.
+title: Exploring Simplified IT Service Management
+description: Simplified IT Service Management \(Simplified ITSM\) provides simplified and automated implementation for administrators, and unified user experience for employees and fulfillers.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [AI-native IT Service Management, IT Service Management]
+breadcrumb: [Simplified IT Service Management, IT Service Management]
 ---
 
-# Exploring AI-native IT Service Management
+# Exploring Simplified IT Service Management
 
-AI-native IT Service Management \(AI-native ITSM\) provides simplified and automated implementation for administrators, and unified user experience for employees and fulfillers.
+Simplified IT Service Management \(Simplified ITSM\) provides simplified and automated implementation for administrators, and unified user experience for employees and fulfillers.
 
-## AI-native ITSM users
+## Simplified ITSM users
 
 |User|Description|
 |----|-----------|
-|Administrator|Implements and sets up AI-native ITSM.|
+|Administrator|Implements and sets up Simplified ITSM.|
 |Employee or requester|Requests help, submits tickets, checks status, uses the employee portal, browses the catalog, or accesses knowledge.|
 |Fulfiller or service desk agent|Resolves incidents and requests through a simplified, AI-first workspace that supports guided actions and faster issue resolution.|
 
-## AI-native ITSM benefits
+## Simplified ITSM benefits
 
 <table id="table_sn3_2dg_5hc"><thead><tr><th>
 

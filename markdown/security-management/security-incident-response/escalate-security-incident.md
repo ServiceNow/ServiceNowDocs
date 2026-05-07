@@ -27,17 +27,13 @@ You must have an escalation group created to see this button. See [Create a Secu
 
 2.  Open the incident you want to escalate.
 
-3.  Click on the **Escalate** button.
-
-    ![Escalate button](../image/EscalateButton.png)
+3.  Select the **Escalate** button.
 
 4.  Choose an escalation group.
 
 5.  Enter a reason for the escalation.
 
-    ![Escalate](../image/EscalateForm.png)
-
-6.  Click **Submit.**
+6.  Select **Submit.**
 
     Updates **Assignment Group** and **Assigned to** on the security incident.
 

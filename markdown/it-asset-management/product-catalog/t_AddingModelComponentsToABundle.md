@@ -25,7 +25,7 @@ Role required: model\_manager and asset
 
 2.  Open a bundle record.
 
-3.  In the **Model Components** related list, click **New**.
+3.  In the **Model Components** related list, select **New**.
 
 4.  Select the **Model category** of the component, such as **Computer**.
 
@@ -33,7 +33,7 @@ Role required: model\_manager and asset
 
 6.  Select the **Is main component** check box if this component is the one that other components are attached to.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 8.  Repeat steps 3–7 to add more components to the bundle.
 

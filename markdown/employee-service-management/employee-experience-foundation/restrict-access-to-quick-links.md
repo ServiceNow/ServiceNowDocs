@@ -31,15 +31,15 @@ Role required: sp\_admin, taxonomy\_manager or taxonomy\_admin and user\_criteri
 
 3.  Click the **Available For** tab.
 
-<table id="choicetable_ght_h1l_mqb"><thead><tr><th align="left" id="d366360e98">
+<table id="choicetable_ght_h1l_mqb"><thead><tr><th align="left" id="d372983e98">
 
 To
 
-</th><th align="left" id="d366360e101">
+</th><th align="left" id="d372983e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d366360e107">
+</th></tr></thead><tbody><tr><td id="d372983e107">
 
 **Add a new user criteria**
 
@@ -50,7 +50,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d366360e141">
+</td></tr><tr><td id="d372983e141">
 
 **Edit an existing user criteria**
 

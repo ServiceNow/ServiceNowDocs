@@ -17,7 +17,7 @@ Use the **sn\_hr\_le.log\_level** system property to enable logging for Lifecycl
 
 ## Before you begin
 
-Role required: admin \[sn\_hr\_le.admin\]
+Role required: sn\_hr\_le.admin
 
 ## Procedure
 

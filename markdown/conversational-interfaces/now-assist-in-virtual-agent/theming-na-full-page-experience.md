@@ -6,7 +6,7 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 3
 breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -17,7 +17,11 @@ You can customize the look and feel of the Now Assist in Virtual Agent enhanced 
 
 As a Virtual Agent admin or admin, you can customize the default enhanced chat theming variables. Information on how to customize theming can be found in [Create a portal theme](https://www.servicenow.com/docs/access?context=c_CustomCSS&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
 
-**Note:** For the variables, `nass` refers to enhanced chat.
+**Note:**
+
+The chat header logo is shared between standard and enhanced chat, and it’s determined by the selected standard chat branding profile. You can’t configure a separate chat header logo for each experience. Updating the chat header logo in one experience updates it for the other. To view the branding profile, navigate to **Assistant Designer** &gt; **Assistants** &gt; **Branding**.
+
+For the variables, `nass` refers to enhanced chat.
 
 For more information about enhanced chat, see [Enhanced chat](../concept/nava-enhanced-chat.md).
 

@@ -17,7 +17,7 @@ Service Bridge is a core technology that enables secure integration and real-tim
 
 For information on configuring the data transfer between the Impact Store Application and the Impact Delivery Instance see [Configure the Impact Store Application](configuring-impact-platform.md).
 
-For more information on Service Bridge, see [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US).
+For more information on Service Bridge, see [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
 
 For more information on Impact table mapping, see [Table and field level mapping](table-field-level-mapping.md) and [Dependent applications installed with the Impact Store App](../reference/data-sync-idi-store.md).
 

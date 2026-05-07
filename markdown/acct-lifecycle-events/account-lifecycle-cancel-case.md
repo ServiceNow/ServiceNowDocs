@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up playbook, Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Set up playbook, Account onboarding, Customer Success Management, Customer Success Management]
 ---
 
 # Close or cancel an account onboarding case

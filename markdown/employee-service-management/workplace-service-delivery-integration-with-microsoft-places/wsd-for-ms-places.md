@@ -19,15 +19,15 @@ Manage all your workplace service requests from the WSD for Microsoft places app
 
 <table id="table_qld_tw1_gvb" class="nav-card"><tbody><tr><td>
 
-[ExploreLearn about WSD for Microsoft places](explore-wsd-ms-places.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about WSD for Microsoft places](explore-wsd-ms-places.md)
 
 </td><td>
 
-[ConfigureInstall WSD for Microsoft places to get started](config-wsd-for-ms-places.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install WSD for Microsoft places to get started](config-wsd-for-ms-places.md)
 
 </td><td>
 
-[ReferencesKnow about the key features of](wsd-for-ms-places-references.md)Know about the key features of WSD for Microsoft places
+[References ![](../../../reuse/icons/brand-icons/bus-learn.svg) Know about the key features of](wsd-for-ms-places-references.md)Know about the key features of WSD for Microsoft places
 
 </td></tr></tbody>
 </table>

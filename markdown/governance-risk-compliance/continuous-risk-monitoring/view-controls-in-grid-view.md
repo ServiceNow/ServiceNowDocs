@@ -21,7 +21,7 @@ Role required: sn\_grc\_cam.manager, sn\_grc\_cam.admin, or sn\_grc\_cam.isso
 
 ## About this task
 
-The Controls tab displays a hierarchical data grid where you can expand controls to show their requirements underneath. The grid view enables you to edit multiple controls without navigating between record forms, improving efficiency when documenting implementation statements or performing bulk operations.
+The Controls tab displays a hierarchical data grid where you can expand controls to view their requirements. The grid view enables you to edit multiple controls without navigating between records. This enables you to add implementation statements or perform bulk operations.
 
 ## Procedure
 
@@ -44,9 +44,9 @@ The Controls tab displays a hierarchical data grid where you can expand controls
 
 **Edit implementation statements:**
 
--   Double-click the **Implementation Statement** cell
+-   Select the **Implementation Statement** cell
 -   Enter or modify the text
--   Implementation statements are editable only when control state is Draft and the authorization package is in Implement step
+-   Implementation statements are editable only when control state is in Draft and the authorization package is in Implement step
 
 **Edit attestation respondents:**
 

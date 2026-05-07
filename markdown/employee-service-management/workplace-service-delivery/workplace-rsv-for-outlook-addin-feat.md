@@ -19,19 +19,19 @@ Reserve a workplace space in less than a minute without using the Reservation po
 
 <table id="table_nwr_bbk_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore Learn about Workplace Reservations for Microsoft Outlook Add-in concepts and features.](workplace-rsv-for-outlook-addin-ovw.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Reservations for Microsoft Outlook Add-in concepts and features.](workplace-rsv-for-outlook-addin-ovw.md)
 
 </td><td>
 
-[Configure Configure the application and setup the manifest files.](configure-workplace-rsv-for-outlook-addin.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure the application and setup the manifest files.](configure-workplace-rsv-for-outlook-addin.md)
 
 </td></tr><tr><td>
 
-[Reserve Make a reservation using the Workplace Reservations for Microsoft Outlook Add-in.](../task/make-reservation-using-outlook-add-in.md)
+[Reserve![](../../../reuse/icons/brand-icons/bus-headset.svg) Make a reservation using the Workplace Reservations for Microsoft Outlook Add-in.](../task/make-reservation-using-outlook-add-in.md)
 
 </td><td>
 
-[Reference Get details about components like fields, tables, and properties.](workplace-rsv-for-outlook-addin-reference.md)
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties.](workplace-rsv-for-outlook-addin-reference.md)
 
 </td></tr></tbody>
 </table>

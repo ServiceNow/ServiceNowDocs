@@ -23,7 +23,7 @@ Roles required: SPC Admin Group or SPC Analyst Group
 
 2.  Select a profile record.
 
-3.  Select the more actions menu icon \(![More actions menu icon](../../secops-analyst-workspace/image/more-actions-icon.png)\) and select **Delete asset profile**.
+3.  Select the more actions menu icon \(![More actions menu icon](../../security-incident-response/image/more-actions-icon.png)\) and select **Delete asset profile**.
 
 4.  In the dialog select **Review policies** to view any policies this profile is linked to.
 

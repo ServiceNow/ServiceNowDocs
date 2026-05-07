@@ -58,11 +58,13 @@ CAM OSCAL supports the following models:
     -   Hybrid Control: These are partially inherited from the parent authorization package.
 
 -   **[Export in OSCAL format](oscal-support-cam.md)**  
-CAM supports the Open Security Controls Assessment Language \(OSCAL\) used by the National Institute of Standards and Technology \(NIST\) that provides control-related information in standardized machine-readable formats. CAM supports Catalog, Profile, and SSP models.
+CAM supports the Open Security Controls Assessment Language \(OSCAL\) used by the National Institute of Standards and Technology \(NIST\) that provides control-related information in standardized machine-readable formats. CAM supports Catalog, Profile, SSP, and Assessment Plan \(AP\) models.
 -   **[Import in OSCAL format](import-oscal.md)**  
 The CAM OSCAL import offers a playbook-style experience designed to streamline the integration of security control data.
 -   **[OSCAL Assessment Plan export and import](../../grc-cam/concept/oscal-assessment-plan-import-export.md)**  
 The OSCAL Assessment Plan \(AP\) model enables you to import testing plans from external tools and export engagement data for auditors and authorizers.
+-   **[OSCAL Assessment Plan field mapping](../../grc-cam/concept/oscal-ap-field-mapping.md)**  
+CAM exports engagement and control test data to OSCAL Assessment Plan format using the following field mappings.
 -   **[OSCAL namespace](oscal-namespace.md)**  
 To include CAM specific information, custom properties with a unique namespace are used to add impact and tailor the content as needed.
 

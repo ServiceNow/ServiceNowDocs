@@ -1,6 +1,6 @@
 ---
 title: Create a remediation action plan
-description: a the remediation action plan for product quality investigation case.
+description: Create a remediation action plan for product quality investigation case.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Remediation action plans, Agent management, Use, Manufacturing Comm
 
 # Create a remediation action plan
 
-a the remediation action plan for product quality investigation case.
+Create a remediation action plan for product quality investigation case.
 
 ## Before you begin
 

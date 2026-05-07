@@ -33,3 +33,5 @@ Preserve text such as product names or technical terms during machine translatio
 
 [Integration with other translation services](integration-with-other-translation-services.md)
 
+[Reference for Dynamic Translation](../reference/reference-for-dynamic-translation.md)
+

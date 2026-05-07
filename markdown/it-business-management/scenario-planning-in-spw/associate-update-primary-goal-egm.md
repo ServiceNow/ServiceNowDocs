@@ -36,15 +36,15 @@ After you associate planning items with goals or targets, you can check these re
 
 1.  Open the required planning item form using one of the following options.
 
-<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d200617e115">
+<table id="choicetable_ncp_ty2_fqb"><thead><tr><th align="left" id="d196269e115">
 
 Option
 
-</th><th align="left" id="d200617e118">
+</th><th align="left" id="d196269e118">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d200617e124">
+</th></tr></thead><tbody><tr><td id="d196269e124">
 
 **From the Portfolio Plans tab**
 
@@ -60,7 +60,7 @@ The side panel opens with the **Details** tab.
 
 Alternatively, you can select **Full details** and open the item's record page. Select the **Details** tab from the record page.
 
-</td></tr><tr><td id="d200617e189">
+</td></tr><tr><td id="d196269e189">
 
 **From the Free-form Roadmaps tab**
 

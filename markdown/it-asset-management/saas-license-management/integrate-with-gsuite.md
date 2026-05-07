@@ -201,15 +201,15 @@ If you’re using Software Asset Workspace, the option to create the Google Work
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d47834e674">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d50136e674">
 
 Interface
 
-</th><th align="left" id="d47834e677">
+</th><th align="left" id="d50136e677">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d47834e683">
+</th></tr></thead><tbody><tr><td id="d50136e683">
 
 **Core UI**
 
@@ -220,7 +220,7 @@ Action
 3.  Select **Google Workspace Integration Profile**.
 
 
-</td></tr><tr><td id="d47834e725">
+</td></tr><tr><td id="d50136e725">
 
 **Software Asset Workspace**
 

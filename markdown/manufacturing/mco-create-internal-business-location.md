@@ -33,13 +33,13 @@ The manager of an internal business location can access all the cases for accoun
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal Business Locations**.
 
-2.  Click **New** on the Internal Business Locations list.
+2.  Select **New** on the Internal Business Locations list.
 
 3.  On the Internal business location form, fill in the fields.
 
     For a description of the field values, see [Internal business location form](../reference/mco-internal-business-location-form.md).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     The location is added to the Internal Business Locations list.
 

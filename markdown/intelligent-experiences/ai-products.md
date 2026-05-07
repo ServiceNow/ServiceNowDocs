@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 11
 ---
 
 # Enable AI experiences
@@ -30,7 +30,7 @@ Choose one of these tiles to get started.
 
 </td></tr><tr><td>
 
-[Now Assist Admin console![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use a personalized generative AI assistant and skills to enhance your work on the ServiceNow AI Platform.](../../now-assist-platform/concept/platform-now-assist-landing.md)
+[Now Assist Admin![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use a personalized generative AI assistant and skills to enhance your work on the ServiceNow AI Platform.](../../now-assist-platform/concept/platform-now-assist-landing.md)
 
 </td><td>
 
@@ -86,7 +86,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-[Agentic Desktop ![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) Design, configure, and manage desktop actions that automate repetitive tasks in your desktop environment.](../../../product/agentic-desktop/reference/agentic-desktop-landing-page.md)
+[AI Desktop Actions ![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) Design, configure, and manage desktop actions that automate repetitive tasks in your desktop environment.](../../../product/agentic-desktop/reference/agentic-desktop-landing-page.md)
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Choose one of these tiles to get started.
 
 </td><td>
 
-
+[Now Assist Center![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Set up and manage your AI solutions from a single workspace.](../../now-assist-center/concept/now-assist-center-landing-page.md)
 
 </td></tr></tbody>
 </table>## Now Assist
@@ -174,4 +174,15 @@ You can use Now Assist in Document Intelligence skills to extract information an
 Achieve faster response and task-solving times for your Agents, by using Task Intelligence. This tool lets you engineer ML solutions that handle data and track the efficacy of those solutions. Build, train, edit, and retrain machine-learning models in the Admin Console, and export them for use across the ServiceNow AI Platform. Follow up with the Analytics dashboard, where you can track your models' performance and effects on your business, and determine which predictions are best for future reuse.
 
 ![The Task Intelligence Admin Console displays the available models, key metrics, and helpful information.](../../task-intelligence/images/ti-admin-console.gif)
+
+## Now Assist Center
+
+Set up, deploy, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform from a single workspace that consolidates the various Now Assist applications into a single, guided, conversational environment.
+
+-   Use Now Assist Center to access and manage Now Assist AI capabilities from a single, unified workspace without switching between tools.
+-   Describe business objectives in plain language and let the platform translate those objectives into deployable AI solutions, complete with guided configuration steps and automated workflows.
+-   Work with a conversational admin companion to complete setup and advanced configuration tasks through natural language, even when you do not know where settings live or which steps come first.
+-   Rely on built‑in governance and safety controls to protect data, filter content, and guard against prompt injection so that your AI solutions are deployed efficiently, consistently, and responsibly.
+
+![The Now Assist Center workspace displays features that allow you to access and manage your Now Assist solutions from a single place.](../../now-assist-center/image/now-assist-center-overview.png)
 

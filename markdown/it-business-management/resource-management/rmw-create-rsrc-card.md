@@ -29,15 +29,15 @@ Role required: resource\_user, resource\_manager, it\_project\_manager
 
 4.  Enter the following details.
 
-<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d165154e95">
+<table id="choicetable_vrh_l2z_bcc"><thead><tr><th align="left" id="d161737e95">
 
 Field
 
-</th><th align="left" id="d165154e98">
+</th><th align="left" id="d161737e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d165154e104">
+</th></tr></thead><tbody><tr><td id="d161737e104">
 
 **Name**
 
@@ -45,7 +45,7 @@ Description
 
 Unique name for the filter card.Name the resource card inline with the purpose and filter condition to easily identify and access your view.
 
-</td></tr><tr><td id="d165154e115">
+</td></tr><tr><td id="d161737e115">
 
 **Filter by**
 
@@ -55,7 +55,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 -   Work type - filter and view resources working on a demand, project, or an epic and their respective details.
 
 
-</td></tr><tr><td id="d165154e133">
+</td></tr><tr><td id="d161737e133">
 
 **Start Date**
 
@@ -63,7 +63,7 @@ Unique name for the filter card.Name the resource card inline with the purpose a
 
 Select the start date in the required date range to view resources.
 
-</td></tr><tr><td id="d165154e142">
+</td></tr><tr><td id="d161737e142">
 
 **End Date**
 
@@ -71,7 +71,7 @@ Select the start date in the required date range to view resources.
 
 Select the end date in the required date range to view resources.
 
-</td></tr><tr><td id="d165154e152">
+</td></tr><tr><td id="d161737e152">
 
 **Description**
 
@@ -107,7 +107,7 @@ A resource board view with the list of resources matching the filter condition w
 
 Enable the **Unassigned tasks** toggle and build a filter condition to view unassigned tasks in the Unassigned tasks bottom tray.
 
-For more information on how to filter and view unassigned work, and handle resource assignments, see [View, assign, and approve unassigned work using Resource Management Workspace](allocate-resources-rmw.md).
+For more information on how to filter and view unassigned work, and handle resource assignments, see [Assign and approve unassigned work using Resource Management Workspace](allocate-resources-rmw.md).
 
 **Parent Topic:**[Using Resource Management Workspace](../concept/using-rmw.md)
 

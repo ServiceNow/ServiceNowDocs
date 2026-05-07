@@ -1,5 +1,5 @@
 ---
-title: View TISC Context in Security Incident Workspace
+title: Enable security incidents for vulnerabilities
 description: Access threat intelligence context for security incidents directly within the Security Incident Response Workspace. TISC context helps you understand related threats and make informed decisions during incident response.
 locale: en-US
 release: australia
@@ -12,7 +12,7 @@ keywords: [TISC context,security incident,vulnerability,threat intelligence]
 breadcrumb: [TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# View TISC Context in Security Incident Workspace
+# Enable security incidents for vulnerabilities
 
 Access threat intelligence context for security incidents directly within the Security Incident Response Workspace. TISC context helps you understand related threats and make informed decisions during incident response.
 

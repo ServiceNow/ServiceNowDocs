@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in AWS API Gateway data into your CMDB.
 
 ## Before you begin
 
-Install API Service Graph Connector for AWS API Gateway version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install API Service Graph Connector for AWS API Gateway version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 The authentication mechanism used by the connector is AWS Signature Type \(HMAC Authentication Technique\) with AWS Security Token Service \(STS\) token. For information about permissions, see the [API Service Graph Connector for AWS API Gateway - Setup Instructions \[KB1962734\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1962734) article in the Now Support Knowledge Base.
 

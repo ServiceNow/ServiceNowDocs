@@ -1,6 +1,6 @@
 ---
-title: Script sandbox
-description: The script sandbox is an environment with restricted rights in which client-generated scripts run when they’re made available to the script sandbox.
+title: Script sandbox evaluator
+description: The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 locale: en-US
 release: australia
 product: Scripts
@@ -8,32 +8,25 @@ classification: scripts
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Sandbox environment, Server-side scripting, Scripting, API implementation, API implementation and reference]
 ---
 
-# Script sandbox
+# Script sandboxevaluator
 
-The script sandbox is an environment with restricted rights in which client-generated scripts run when they’re made available to the script sandbox.
+The script sandbox evaluator helps prevent executing untrusted scripts on an instance by limiting the APIs available to scripts.
 
-The script sandbox helps prevent unauthorized or unauthenticated users from executing privileged script on your instance. There are two cases that allow the client to send scripts to the server for evaluation \(client-generated scripts\).
+Scripts that run in the script sandbox evaluator can use features supported by the JavaScript engine and the sandbox environment, except for certain restricted methods. Untrusted scripts are processed by the script sandbox evaluator under the following conditions:
 
--   Filters or queries: It’s legal to send a filter to the server such as: `assigned_to=javascript:getMyGroups()`.
--   System API: The API call AJAXEvaluate allows the client to run arbitrary scripts on the server and receive a response.
+-   A script has been granted a guarded-script exemption \(manually or automatically\).
+-   When guarded script is in Phase 1: Detection, and a script is sent to the server by an authenticated user.
 
-The script being evaluated via either of these two entry points runs within a reduced-rights sandbox with the following characteristics:
+For more information about guarded-script exemptions and enforcement phases, see [Guarded script evaluator](guarded-script.md).
 
--   Only those business rules marked **Client callable** are available within the sandbox.
--   Only script includes marked **Sandbox enabled** are available within the sandbox.
--   Certain API calls \(largely but not entirely limited to ones dealing with direct database access\) aren’t allowed.
--   Data can’t be inserted, updated, or deleted from within the sandbox. Any calls to current.update\(\), for example, are ignored.
+## Restricted methods with the script sandboxevaluator
 
-**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Australia release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
+The script sandboxevaluator doesn't permit the following methods. Scripts using these methods fail to execute in the sandbox.
 
-## Restricted methods with the script sandbox
-
-These methods aren’t supported in client-generated scripts in the script sandbox.
-
-**Note:** The GlideSystem \(gs\) methods log\(\), logError\(\), and logWarning\(\) can be enabled with script sandboxing by setting the **glide.security.sandbox\_no\_logging** system property to `false`.
+**Note:** The GlideSystem \(gs\) methods log\(\), logError\(\), and logWarning\(\) can be enabled for use with the script sandboxevaluator by setting the **glide.security.sandbox\_no\_logging** system property to `false`.
 
 <table id="table_ntx_d3s_mcb"><thead><tr><th>
 
@@ -107,9 +100,7 @@ ScopedGlideSystem \(gs\)
 
 </td></tr><tr><td>
 
-GlideDateGlideDateTime
-
-GlideTime
+GlideDateTime
 
 </td><td>
 
@@ -117,13 +108,12 @@ GlideTime
 -   addDays\(\)
 -   addDaysLocalTime\(\)
 -   addDaysUTC\(\)
--   addMonthsLocalTime\(\)
 -   addMonths\(\)
+-   addMonthsLocalTime\(\)
 -   addSeconds\(\)
 -   addWeeks\(\)
 -   addYears\(\)
 -   compareTo\(\)
--   getByFormat\(\)
 -   getDate\(\)
 -   getDayOfWeek\(\)
 -   getDayOfWeekUTC
@@ -141,19 +131,13 @@ GlideTime
 -   getDaysInMonthLocalTime\(\)
 -   getDisplayValueInternal\(\)
 -   getDisplayValue\(\)
--   getHourLocalTime\(\)
 -   getLocalDate\(\)
--   getLocalTime\(\)
--   getMinutesLocalTime\(\)
--   getMinutesUTC\(\)
 -   getMonthLocalTime\(\)
 -   getMonthNoTZ\(\)
 -   getMonthUTC\(\)
 -   getNumericValue\(\)
--   getSeconds\(\)
 -   getTime\(\)
 -   getTZOffset\(\)
--   getValue\(\)
 -   getYear\(\)
 -   getUserTimeZone\(\)
 -   getWeekOfYearLocalTime\(\)
@@ -175,6 +159,31 @@ GlideTime
 
 </td></tr><tr><td>
 
+GlideDate
+
+</td><td>
+
+GlideDate supports the same methods as GlideDateTime, as well as: -   getByFormat\(\)
+-   getDayOfMonthNoTZ\(\)
+-   getMonthNoTZint\(\)
+-   parseDate\(\)
+
+</td></tr><tr><td>
+
+GlideTime
+
+</td><td>
+
+GlideTime supports the same methods as GlideDateTime, as well as: -   getByFormat\(\)
+-   getHourLocalTime\(\)
+-   getHourOfDayLocalTime\(\)
+-   getHourOfDayUTC\(\)
+-   getMinutesLocalTime\(\)
+-   getMinutesUTC\(\)
+-   getSeconds\(\)
+
+</td></tr><tr><td>
+
 GlideSchedule
 
 </td><td>
@@ -185,5 +194,10 @@ GlideSchedule
 -   whenNext\(\)
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Server-side scripting](c_ServerScripting.md)
+</table>**Parent Topic:**[Script sandbox environment](script-sandbox-environment.md)
+
+**Related topics**  
+
+
+[Guarded script evaluator](guarded-script.md)
 

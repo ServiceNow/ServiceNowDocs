@@ -1,6 +1,6 @@
 ---
 title: Datasets
-description: Explore datasets in detail with examples.
+description: Explore the datasets in detail with examples.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enabl
 
 # Datasets
 
-Explore datasets in detail with examples.
+Explore the datasets in detail with examples.
 
 A dataset is a collection of data used to train or evaluate an AI model. You can think of it as a large spreadsheet with rows representing examples and columns for features or labels. Datasets can also come in other formats, such as images, audio, or video. They help models learn patterns and decide.
 

@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-23"
 reading_time_minutes: 5
 breadcrumb: [Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,21 +17,21 @@ Configure the ServiceNow AI Search application for Service Portal so that portal
 
 ## AI Search features
 
--   **Powerful and flexible search**
+-   **Flexible search**
 
-    Unlike the legacy Zing search that was used in previous releases, AI Search is faster and more assistive. Portal users can find answers more quickly and easily with features like auto-complete search queries, natural language support, and typo handling.
+    Unlike the legacy Zing search that was used in previous releases, AI Search provides enhanced search capabilities. Portal users can find answers with features like auto-complete search queries, natural language support, and typo handling.
 
-    ![Search suggestions example](../image/ais-search-suggestions.png "Search suggestions")
+    ![Search suggestions example.](../image/ais-search-suggestions.png "Search suggestions")
 
-    ![Typo handling example](../image/ais-typo-handling.png "Typo handling")
+    ![Typo handling example.](../image/ais-typo-handling.png "Typo handling")
 
 -   **Relevant and actionable search results**
 
     With AI Search enabled in Service Portal, the portal search engine captures information about the user — such as their role, location, department, assets, and search history — and returns search results that are relevant and personalized.
 
-    AI Search also includes genius results that enable users to take action directly from the search results list.
+    AI Search also includes genius results that enables users to take action directly from the search results list.
 
-    ![Genius result example](../image/ais-genius-result.png "Genius result")
+    ![Genius result example.](../image/ais-genius-result.png "Genius result")
 
 -   **Intelligent search refinement**
 
@@ -52,9 +52,9 @@ AI Search is a ServiceNow AI Platform feature that is active by default.
 
 AI Search is enabled in Service Portal for all new and zBoot customers by default.
 
-If you are upgrading to Australia as an existing customer, AI Search is disabled in Service Portal by default. You can enable it by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](../task/enable-ais-sp.md).
+If you're upgrading to Australia as an existing customer, AI Search is inactive in Service Portal by default. You can enable it by updating the portal record. For more information, see [Enable and configure AI Search in Service Portal](../task/enable-ais-sp.md).
 
-**Note:** Search widgets that you cloned or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](../task/reclassify-search-widgets.md).
+**Note:** Search widgets that you copied or customized before a system upgrade may not be compatible with AI Search. You can resolve this issue by running a fix script that reclassifies search widget instances. For more information, see [Reclassify cloned or customized search widgets](../task/reclassify-search-widgets.md).
 
 ## Configuring AI Search for Service Portal
 
@@ -87,7 +87,7 @@ You can customize the look and feel of the AI Search experience in Service Porta
 
 ## Browser support
 
-With AI Search enabled in Service Portal, users must log in with a modern browser such as Google Chrome, Mozilla Firefox, Microsoft Edge \(Chromium\), or Apple Safari.
+With AI Search enabled in Service Portal, users must log in with a browser such as Google Chrome, Mozilla Firefox, Microsoft Edge \(Chromium\), or Apple Safari.
 
 -   **[Enable and configure AI Search in Service Portal](../task/enable-ais-sp.md)**  
 Enable and define the AI Search experience in your portal.

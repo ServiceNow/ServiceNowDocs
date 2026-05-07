@@ -1,6 +1,6 @@
 ---
 title: Install Accounts Payable Operations integration with Document Intelligence
-description: Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) is installed automatically along with Accounts Payable Invoice Processing \(com.sn\_ap\_apm\).
+description: Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) is installed automatically along with Accounts Payable Invoice Processing \(sn\_ap\_apm\).
 locale: en-US
 release: australia
 product: Accounts Payable Operations
@@ -13,7 +13,7 @@ breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 
 # Install Accounts Payable Operations integration with Document Intelligence
 
-Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) is installed automatically along with Accounts Payable Invoice Processing \(com.sn\_ap\_apm\).
+Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) is installed automatically along with Accounts Payable Invoice Processing \(sn\_ap\_apm\).
 
 ## Required plugins
 
@@ -24,7 +24,7 @@ To use the flows for extracting data from the invoice document received as an em
 For more information, see [Install Document Intelligence](https://www.servicenow.com/docs/access?context=install-document-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 -   **[Components installed with Accounts Payable Operations integration with Document Intelligence](../reference/installed-with-docintel-apm.md)**  
-Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
+Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
 -   **[Invoice Processing use case](docintel-invoice-process-usecase.md)**  
 Accounts Payable Operations integration with Document Intelligence provides the **DO NOT USE - Invoice Processing** use case.
 -   **[Configuring the invoice ingestion flows using Accounts Payable Operations integration with Document Intelligence](config-apo-docintel-integration.md)**  

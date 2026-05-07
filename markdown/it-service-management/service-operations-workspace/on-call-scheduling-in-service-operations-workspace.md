@@ -110,7 +110,7 @@ Use any one of the multiple channels such as Slack, Microsoft Teams, mobile push
 
 </td><td>
 
-[Edit delivery channel](../concept/work-on-a-notification-preference-rule-in-sow.md)To configure delivery channels, see:
+[Manage delivery channel](../concept/work-on-a-notification-preference-rule-in-sow.md)To configure delivery channels, see:
 
 -   For Slack: [Setting up Slack as a contact method](../../../administer/on-call-scheduling/reference/slack-setup-oncall.md)
 -   For SMS and voice message: [Setting up SMS and voice messaging as contact methods](../../../administer/user-administration/concept/c_UseNotifyWithOnCallScheduling.md)
@@ -133,7 +133,7 @@ rota\_admin, admin
 
 [Service Operations Workspace for ITSM user interface](../concept/service-operations-workspace-ui.md)
 
-[Service Operations Workspace for ITSM for ITSM landing page](../concept/sow-ui-landing-page.md)
+[Service Operations Workspace for ITSM landing page](../concept/sow-ui-landing-page.md)
 
 [Exploring Recommended Actions for ITSM in Service Operations Workspace](../concept/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)
 

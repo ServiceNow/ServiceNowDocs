@@ -30,6 +30,7 @@ Use this checklist to verify that AI Data Explorer is properly configured and re
 2.  Try a simple question such as "Open incidents" to verify end-to-end functionality.
 3.  Verify that tables you want to use are added to the semantic layer and that . Task extended tables and some base tables are added by default, but custom tables that are not task-based might have to be added manually.
 4.  To check if a table is already in the semantic layer, navigate to **Query generation** &gt; **Entities**. If the table is in the list and marked as active, it is already configured.
+5.  If you want to access data in a protected scope, configure ACLs and Restricted Caller Access \(RCA\) records to grant access to the scope to AI Data Explorer.
 
 ## User access
 
@@ -48,6 +49,8 @@ Grant users who need access to AI Data Explorer the **now-assist-explorer-user**
 
 
 [Add a table to the semantic data layer](../../par-for-workspace/task/add-table-semantic-layer.md#)
+
+[Enabling access to protected scope applications for AI Data Explorer and Query Generation](../../par-for-workspace/concept/enable-aide-secure-scope-apps.md)
 
 [Query Generation Health page](../../par-for-workspace/reference/querygen-health-page.md)
 

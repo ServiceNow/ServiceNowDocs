@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 ---
 
 # Operational Sustainability Management \(formerly Environmental, Social, and Governance\) release notes
@@ -34,6 +34,11 @@ See [Operational Sustainability Management \(formerly Environmental, Social, and
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
+-   **[Document intelligence for utility invoices](https://www.servicenow.com/docs/access?context=ai-driven-document-intelligence-for-utility-invoices&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)**
+
+    After upgrading Now Assist for Operational Sustainability Management to version 22.0.1, the system automatically extracts unit values from invoices and updates metric data accordingly. This automation reduces manual data entry and improves data accuracy.
+
+
 -   **[Integrating Operational Sustainability Management with Socialsuite](https://www.servicenow.com/docs/access?context=integrate-operational-sustainability-with-SocialSuite&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)**
 
     After upgrading Operational Sustainability Management to version 22.0.1, streamline sustainability reporting and compliance processes by conducting CSRD-compliant double materiality assessments in Socialsuite and automatically syncing the results with Operational Sustainability Management. This integration supports impact and financial materiality assessments following Global Reporting Initiative \(GRI\) and European Sustainability Reporting Standards \(ESRS\) standards.
@@ -42,6 +47,13 @@ See [Operational Sustainability Management \(formerly Environmental, Social, and
 
     After upgrading Operational Sustainability Management to version 22.0.1, you can configure thresholds with multiple levels and ranges for granular monitoring. Duplicate and modify existing thresholds to streamline creation. When thresholds are breached, automated actions trigger immediately.
 
+
+-   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 
 ## Plugin information
 
@@ -63,9 +75,6 @@ See [Operational Sustainability Management \(formerly Environmental, Social, and
 ## Activation information
 
 Install Operational Sustainability Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
-
--   **[Now Assist for Operational Sustainability Management release notes](now-assist-for-operational-sustainability-management-rn.md)**  
-The ServiceNow® Now Assist for Operational Sustainability Management application brings generative AI to Operational Sustainability Management. Now Assist for Operational Sustainability Management was enhanced and updated in the Australia release.
 
 **Parent Topic:**[Features and changes by product](new-features-changes.md)
 

@@ -6,14 +6,16 @@ release: australia
 product: Health and Safety
 classification: health-and-safety
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2025-11-28"
+reading_time_minutes: 7
 breadcrumb: [Reference, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
 
 # Chemical form
 
 Field description for a chemical form that the chemical manager uses to create a chemical by manually completing the form.
+
+For more information on creating a chemical record, see [Create a chemical record for a new chemical](../task/hs-create-chemical-record-new-chemical.md).
 
 <table id="table_nyj_jhr_lhc"><thead><tr><th>
 
@@ -73,7 +75,7 @@ External ID
 
 </td><td>
 
-Obtained from the 3E database or the manufacturer.
+Obtained from the 3E database or the manufacturer.**Note:** This field is automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](../task/hs-configure-property-3e-integration.md).
 
 </td></tr><tr><td>
 
@@ -163,11 +165,20 @@ Sensitive
 
 Option to mark the record as containing sensitive information. Only users with the sensitive role can view this record.
 
-</td></tr><tr><td colspan="2">
+</td></tr></tbody>
+</table>## Hazard information
 
-Hazard information
+The fields in this section of the chemical form are automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](../task/hs-configure-property-3e-integration.md).
 
-</td></tr><tr><td>
+<table id="table_vqh_rvv_z3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
 
 NFPA health hazard rating
 
@@ -229,7 +240,7 @@ HMIS personal protection
 
 </td><td>
 
-Letter code that indicates what personal protective equipment \(PPE\) workers should wear when handling the chemical. For example, in our provided choice list "B" means safety glasses and gloves, and "H" means full face shield, apron, and gloves.**Note:** HMIS \(Hazardous Materials Identification System\) is designed for workplace or facility use. HMIS is a standardized labeling system used in North America.
+Letter code that indicates what personal protective equipment \(PPE\) workers should wear when handling the chemical. For example, in our provided list "B" means safety glasses and gloves, and "H" means full face shield, apron, and gloves.**Note:** HMIS \(Hazardous Materials Identification System\) is designed for workplace or facility use. HMIS is a standardized labeling system used in North America.
 
 </td></tr><tr><td>
 
@@ -239,238 +250,44 @@ HMIS chronic health hazard
 
 Indicator that flags chemicals causing long-term health effects from repeated exposure, such as cancer, organ damage, or reproductive harm. This is separate from immediate/acute hazards.**Note:** HMIS \(Hazardous Materials Identification System\) is designed for workplace or facility use. HMIS is a standardized labeling system used in North America.
 
-</td></tr><tr><td colspan="2">
-
-Locale settings
-
-</td></tr><tr><td>
-
-Primary country
-
-</td><td>
-
-Country where the chemical record fields and associated information is requested from the 3E database.
-
-</td></tr><tr><td>
-
-Primary language
-
-</td><td>
-
-Language in which the chemical record fields and associated information is requested from the 3E database.
-
-</td></tr><tr><td colspan="2">
-
-Properties
-
-</td></tr><tr><td>
-
-Odor
-
-</td><td>
-
-Qualitative description of the detectable smell of the chemical under normal conditions. For example: Odorless, pungent, or sweet.
-
-</td></tr><tr><td>
-
-ph
-
-</td><td>
-
-Measure of the acidity or alkalinity of the chemical.
-
-</td></tr><tr><td>
-
-Melting point \(°C\)
-
-</td><td>
-
-Temperature in Celsius at which the chemical transitions from solid to liquid state.
-
-</td></tr><tr><td>
-
-Melting point \(°F\)
-
-</td><td>
-
-Temperature in Fahrenheit at which the chemical transitions from solid to liquid state.
-
-</td></tr><tr><td>
-
-Flash point \(°C\)
-
-</td><td>
-
-Lowest temperature in Celsius at which the chemical produces enough vapor to ignite.
-
-</td></tr><tr><td>
-
-Flash point \(°F\)
-
-</td><td>
-
-Lowest temperature in Fahrenheit at which the chemical produces enough vapor to ignite.
-
-</td></tr><tr><td>
-
-Boiling point \(°C\)
-
-</td><td>
-
-Temperature in Celsius at which the chemical transitions from liquid to vapor state.
-
-</td></tr><tr><td>
-
-Boiling point \(°F\)
-
-</td><td>
-
-Temperature in Fahrenheit at which the chemical transitions from liquid to vapor state.
-
-</td></tr><tr><td>
-
-Boiling point range
-
-</td><td>
-
-Temperature range over which the chemical transitions from liquid to vapor state.
-
-</td></tr><tr><td>
-
-Vapor density
-
-</td><td>
-
-Measure of how heavy the chemical's vapor is relative to air.
-
-</td></tr><tr><td>
-
-Vapor pressure
-
-</td><td>
-
-Force exerted by the chemical's vapor on its surroundings at a given temperature.
-
-</td></tr><tr><td>
-
-Vapor pressure unit
-
-</td><td>
-
-Unit of measurement used to express the chemical's vapor pressure value.
-
-</td></tr><tr><td>
-
-Dynamic viscosity
-
-</td><td>
-
-Measure of the chemical's resistance to flow under applied force.
-
-</td></tr><tr><td>
-
-Dynamic viscosity unit
-
-</td><td>
-
-Unit of measurement used to express the chemical's dynamic viscosity value.
-
-</td></tr><tr><td>
-
-Lower explosive limit \(LEL\)\(%\)
-
-</td><td>
-
-Minimum vapor concentration in air, expressed as a percentage, at which the chemical can ignite.
-
-</td></tr><tr><td>
-
-Upper explosive limit \(UEL\)\(%\)
-
-</td><td>
-
-Maximum vapor concentration in air, expressed as a percentage, at which the chemical can ignite.
-
-</td></tr><tr><td>
-
-Density
-
-</td><td>
-
-Mass of the chemical per unit volume at a specified temperature.
-
-</td></tr><tr><td>
-
-Density unit
-
-</td><td>
-
-Unit of measurement used to express the chemical's density value.
-
-</td></tr><tr><td>
-
-Solubility
-
-</td><td>
-
-Degree to which the chemical dissolves in a solvent, typically water.
-
-</td></tr><tr><td>
-
-Specific gravity
-
-</td><td>
-
-Ratio of the chemical's density to the density of a reference substance, typically water.
-
-</td></tr><tr><td>
-
-Molecular weight \(g/mol\)
-
-</td><td>
-
-Combined atomic mass of all atoms in one molecule of the chemical, expressed in grams per mole.
-
-</td></tr><tr><td>
-
-Percent volatile \(%\)
-
-</td><td>
-
-Percentage of the chemical's composition that evaporates under standard conditions.
-
-</td></tr><tr><td>
-
-Auto ignition temperature \(°C\)
-
-</td><td>
-
-Lowest temperature in Celsius at which the chemical ignites spontaneously without an external ignition source.
-
-</td></tr><tr><td>
-
-Auto ignition temperature \(°F\)
-
-</td><td>
-
-Lowest temperature in Fahrenheit at which the chemical ignites spontaneously without an external ignition source.
-
-</td></tr><tr><td>
-
-Additional comments \(customer visible\)
-
-</td><td>
-
-Supplementary notes about the chemical's physical properties visible to customers.
-
-</td></tr><tr><td>
-
-Work Notes
-
-</td><td>
-
-Notes about the chemical.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
+</table>|Field|Description|
+|-----|-----------|
+|Primary country|Country where the chemical record fields and associated information is requested from the 3E database.|
+|Primary language|Language in which the chemical record fields and associated information is requested from the 3E database.|
+
+## Properties
+
+The fields in this section of the chemical form are automatically populated if you have an integration with the 3E database. For more information, see [Configure the property for 3E integration](../task/hs-configure-property-3e-integration.md).
+
+|Field|Description|
+|-----|-----------|
+|Odor|Qualitative description of the detectable smell of the chemical under normal conditions. For example: Odorless, pungent, or sweet.|
+|ph|Measure of the acidity or alkalinity of the chemical.|
+|Melting point \(°C\)|Temperature in Celsius at which the chemical transitions from solid to liquid state.|
+|Melting point \(°F\)|Temperature in Fahrenheit at which the chemical transitions from solid to liquid state.|
+|Flash point \(°C\)|Lowest temperature in Celsius at which the chemical produces enough vapor to ignite.|
+|Flash point \(°F\)|Lowest temperature in Fahrenheit at which the chemical produces enough vapor to ignite.|
+|Boiling point \(°C\)|Temperature in Celsius at which the chemical transitions from liquid to vapor state.|
+|Boiling point \(°F\)|Temperature in Fahrenheit at which the chemical transitions from liquid to vapor state.|
+|Boiling point range|Temperature range over which the chemical transitions from liquid to vapor state.|
+|Vapor density|Measure of how heavy the chemical's vapor is relative to air.|
+|Vapor pressure|Force exerted by the chemical's vapor on its surroundings at a given temperature.|
+|Vapor pressure unit|Unit of measurement used to express the chemical's vapor pressure value.|
+|Dynamic viscosity|Measure of the chemical's resistance to flow under applied force.|
+|Dynamic viscosity unit|Unit of measurement used to express the chemical's dynamic viscosity value.|
+|Lower explosive limit \(LEL\)\(%\)|Minimum vapor concentration in air, expressed as a percentage, at which the chemical can ignite.|
+|Upper explosive limit \(UEL\)\(%\)|Maximum vapor concentration in air, expressed as a percentage, at which the chemical can ignite.|
+|Density|Mass of the chemical per unit volume at a specified temperature.|
+|Density unit|Unit of measurement used to express the chemical's density value.|
+|Solubility|Degree to which the chemical dissolves in a solvent, typically water.|
+|Specific gravity|Ratio of the chemical's density to the density of a reference substance, typically water.|
+|Molecular weight \(g/mol\)|Combined atomic mass of all atoms in one molecule of the chemical, expressed in grams per mole.|
+|Percent volatile \(%\)|Percentage of the chemical's composition that evaporates under standard conditions.|
+|Auto ignition temperature \(°C\)|Lowest temperature in Celsius at which the chemical ignites spontaneously without an external ignition source.|
+|Auto ignition temperature \(°F\)|Lowest temperature in Fahrenheit at which the chemical ignites spontaneously without an external ignition source.|
+|Additional comments \(customer visible\)|Supplementary notes about the chemical's physical properties visible to customers.|
+|Work Notes|Notes about the chemical.|
+
+**Parent Topic:**[Health and Safety Environmental Management reference](../concept/hs-reference-environmental-management.md)
 

@@ -19,6 +19,7 @@ Discovering java installation data using Agent Client Collector for Visibility -
 
 -   Install the latest version of Agent Client Collector for Visibility - Content.
 -   Install file-based discovery.
+-   Ensure that a MID Server is installed in your environment.
 -   Enable the Oracle Global License Advisory Services \(GLAS\) hardware data collection policy.
 
 Role required: discovery\_admin
@@ -49,6 +50,4 @@ Role required: discovery\_admin
 ## Result
 
 When running Discovery for java installation, data is discovered through file-based discovery and is stored in the `ora_java_audit` table. For details on the data stored in this table, see [Data collected during Agent Client Collector for Visibility - Content file-based Discovery](../reference/data-collected-file-based-discovery.md).
-
-**Parent Topic:**[Application patterns for the Agent Client Collector](../concept/application-patterns-acc.md)
 

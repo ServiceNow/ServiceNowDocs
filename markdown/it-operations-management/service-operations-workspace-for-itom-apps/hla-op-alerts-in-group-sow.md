@@ -99,7 +99,7 @@ Priority group that indicates the order in which to resolve alerts. Choices are 
 -   **High**
 -   **Moderate**
 -   **Low**
- The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
+The priority group value is more important than severity alone. For example, a high priority and low severity alert should be addressed before a low priority and high severity alert. For information on how priority is calculated, see [Alert priority](../../event-management/concept/alert-priority.md).
 
 </td></tr><tr><td>
 

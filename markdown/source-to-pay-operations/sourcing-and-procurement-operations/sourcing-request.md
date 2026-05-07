@@ -332,5 +332,7 @@ For more information on NEGs and NEs, see [Negotiations](negotiations.md) and [S
 
 For information on how a supplier tiering assessment task influences SR states, see [Sourcing and Procurement Operations integration with Third-party Risk Management](../concept/better-together-with-vrm.md).
 
+For a list of all sourcing request states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md).
+
 **Parent Topic:**[Sourcing and Purchasing Automation](purchase-experience-workflow.md)
 

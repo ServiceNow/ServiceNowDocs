@@ -27,11 +27,11 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **AWS** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
     **Note:** The Review the setup instructions page appears and verifies to follow all the prerequisites.
 
-5.  Click **Continue**.
+5.  Select **Continue**.
 
     Setup page appears.
 
@@ -42,7 +42,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
     -   Amazon Bedrock
     -   Amazon Bedrock AgentCore
     -   Amazon SageMaker
-8.  Click **Submit**.
+8.  Select **Submit**.
 
 9.  **Configure Bedrock**
 
@@ -58,9 +58,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** The region information is available in the navigation bar of the AWS management console.
 
-    5.  Click **Update and test connection**.
+    5.  Select **Update and test connection**.
 
-    6.  Click **Continue**.
+    6.  Select **Continue**.
 
 10. **Configure Bedrock import schedule**
 
@@ -84,9 +84,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     5.  Enter the **Log Group Names**.
 
-    6.  Click **Create and test connection**.
+    6.  Select **Create and test connection**.
 
-    7.  Click **Continue**.
+    7.  Select **Continue**.
 
 12. **Configure CloudWatch logs import schedule for Bedrock**
 
@@ -98,7 +98,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Click **Continue**.
+    4.  Select **Continue**.
 
 13. **Configure SageMaker**
 
@@ -110,9 +110,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     4.  Enter the **AWS Region**.
 
-    5.  Click **Create and test connection**.
+    5.  Select **Create and test connection**.
 
-    6.  Click **Continue**.
+    6.  Select **Continue**.
 
 14. **Configure SageMaker import schedule**
 
@@ -126,7 +126,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    5.  Click **Continue**.
+    5.  Select **Continue**.
 
 15. **Configure CloudWatch monitoring for SageMaker**
 
@@ -138,9 +138,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     4.  Enter the **AWS Region**.
 
-    5.  Click **Create and test connection**.
+    5.  Select **Create and test connection**.
 
-    6.  Click **Continue**.
+    6.  Select **Continue**.
 
 16. **Configure CloudWatch monitoring import schedules for SageMake**
 
@@ -154,10 +154,10 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    5.  Click **Continue**.
+    5.  Select **Continue**.
 
 
 ## Result
 
-AI connection is created for AWS.
+An AI connection is created for AWS.
 

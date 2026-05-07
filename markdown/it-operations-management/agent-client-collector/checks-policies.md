@@ -92,7 +92,7 @@ A check doesn't execute if the laptop or agent is down during its scheduled exec
 
     For example: Check A runs once a day and is scheduled to run daily at 9:54am. The laptop was asleep or the agent was not connected from 9am until 1pm. At 1:17pm, the laptop is awake and the agent starts and connects. The agent noticed that check A did not run at 9:54am and schedules it to run between 1:17pm-2:17pm. The check ends up running at 1:37pm. However, the next time check A runs is at 9:54am, its originally scheduled time.
 
-    This scenario takes effect only for checks running at an interval of every 60 minutes or less frequently. Checks that run more often than every 60 minutes at their scheduled interval starting from whenever the agent is up.
+    This scenario takes effect only for checks running at an interval of every 60 minutes or more frequently. Checks that run less often than every 60 minutes run at their previous interval time.
 
 
 ## Policies

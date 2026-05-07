@@ -4,8 +4,8 @@ description: ServiceNow Activity Management helps customer-focused teams to plan
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-31"
-reading_time_minutes: 2
+last_updated: "2026-04-10"
+reading_time_minutes: 3
 ---
 
 # Activity Management release notes
@@ -16,6 +16,7 @@ ServiceNow® Activity Management helps customer-focused teams to plan, execute, 
 
 -   Enable email activity capture into ServiceNow Customer Relationship Management \(CRM\) software using the CRM Outlook Add-in.
 -   Define, plan, capture, and track customer interactions such as discovery calls, demos, and customer business reviews \(CBRs\) across different channels such as emails, calls, meetings, and more.
+-   Manage tasks and appointments for leads, opportunities, and more directly from a touchpoint record, in addition to opportunity.
 
 See [Activity Management](https://www.servicenow.com/docs/access?context=explore-activity-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
 
@@ -33,6 +34,10 @@ CRM Outlook Add-in
 
     Create a new lead or contact directly from an email when no matching CRM record exists, and automatically attach the originating email to the newly created record to preserve engagement history.
 
+-   **[Centralize customer communications for the entire team](https://www.servicenow.com/docs/access?context=view-associated-emails-crm&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+
+    Make email‑based customer interactions visible to account, lead, or opportunity teams by associating emails with the ServiceNow CRM records instead of them being isolated in your personal inbox.
+
 
 CRM Touchpoints
 
@@ -47,6 +52,13 @@ CRM Touchpoints
 -   **[Activity capture and tracking](https://www.servicenow.com/docs/access?context=using-activity-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
     Capture emails, calls, meetings, and tasks within touchpoints such as discovery, demo, business value assessment, or CBRs in a single system of record. Track metrics such as primary channel and time spent for every interaction, giving leadership visibility into the activity volume per sales representative.
+
+
+## Changed in this release
+
+-   **[Account and Contact field auto-population](https://www.servicenow.com/docs/access?context=create-crm-touchpoint&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+
+    Reduce manual data entry when creating touchpoints by automatically populating the Account and Contact fields when you select an Associated Entity and Associated Record of type Contact, Account, Lead, or Opportunity. Associated Entity and Associated Record fields become read-only after the touchpoint record is created.
 
 
 ## Activation information
@@ -64,10 +76,14 @@ Install CRM Outlook Add-in and CRM Touchpoints by requesting them from the Servi
 
 ## Related ServiceNow applications and features
 
+-   **[Lead Management](https://www.servicenow.com/docs/access?context=lead-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+
+    The  ServiceNow® Lead Management enables your sales agents and sales development representatives to create leads and nurture them into opportunities. Create touchpoints on lead records to capture and track engagement activities such as discovery calls and qualification meetings throughout the lead life cycle.
+
 -   **[Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
 
     The  ServiceNow® Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers. Create touchpoints on opportunity records to track sales activities such as demos, business value assessments, and stakeholder meetings as deals progress through the pipeline.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Import your device spreadsheet into OT CMDB, Use agentic AI in the OTM application, OT Manager Foundation, Operational Technology]
+breadcrumb: [Import your device spreadsheet into OT CMDB, Use agentic AI, OT Manager Foundation, Operational Technology]
 ---
 
 # Upload, validate, and import the OT device inventory spreadsheet

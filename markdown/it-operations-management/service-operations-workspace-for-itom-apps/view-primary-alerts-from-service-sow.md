@@ -48,3 +48,5 @@ Role required: evt\_mgmt\_admin
     View details about an alert by selecting its number in the **Number** column.
 
 
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

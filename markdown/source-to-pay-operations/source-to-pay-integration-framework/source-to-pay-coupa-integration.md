@@ -24,7 +24,7 @@ With this application, you can perform the following:
 -   Look up Currency details from Coupa to Source-to-Pay integration framework
 -   Look up Supplier details from Coupa to Source-to-Pay integration framework
 
-![Overview of Source-to-pay integration with Coupa](../image/coupa-integration-overview.png "Overview of the Source-to-Pay integration with Coupa")
+![Overview of Source-to-pay integration with Coupa](../../source-to-pay-operations/image/coupa-integration-overview.png "Overview of the Source-to-Pay integration with Coupa")
 
 ## Prerequisites
 

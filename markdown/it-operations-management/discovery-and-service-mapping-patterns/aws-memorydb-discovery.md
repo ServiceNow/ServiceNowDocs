@@ -1,19 +1,19 @@
 ---
 title: AWS MemoryDB for Redis discovery with Patterns
-description: The Discovery application uses the AWS MemoryDB for Redis pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources requires installing the Discovery and Service Mapping Patterns application from the Store.
+description: The Discovery application uses the Amazon AWS MemoryDB pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # AWS MemoryDB for Redis discovery with Patterns
 
-The ® Discovery application uses the AWS MemoryDB for Redis pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources requires installing the Discovery and Service Mapping Patterns application from the ® Store.
+The ® Discovery application uses the Amazon AWS MemoryDB pattern and extensions to find AWS MemoryDB for Redis. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 ## Request apps on the Store
 
@@ -50,159 +50,47 @@ Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servi
 
 ## Data collected during AWS MemoryDB for Redis horizontal discovery
 
-<table id="table_olj_wwb_x5b"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
-
-Main CI \[cmdb\_ci\_cloud\_database\] 
-
-</td></tr><tr><td>
-
-ARN
-
-</td><td>
-
-The Amazon Resource Name of a single node in the cluster. The values are populated in the Object ID \[object\_id\] column.
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-The name of a single node in the cluster.
-
-</td></tr><tr><td>
-
-FQDN
-
-</td><td>
-
-The Fully Qualified Domain Name of each node in the cluster.
-
-</td></tr><tr><td>
-
-TCP \_Port
-
-</td><td>
-
-The TCP port that a single node in the cluster is getting traffic from.
-
-</td></tr><tr><td>
-
-Type
-
-</td><td>
-
-The type of database is MemoryDB.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Database Cluster \[cmdb\_ci\_cloud\_db\_cluster\]
-
-</td></tr><tr><td>
-
-ARN
-
-</td><td>
-
-The Amazon Resource Name of the cluster. The values are populated in the Object ID \[object\_id\] column.
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-The name of the cluster.
-
-</td></tr><tr><td>
-
-FQDN
-
-</td><td>
-
-The Fully Qualified Domain Name of the cluster.
-
-</td></tr><tr><td>
-
-TCP \_Port
-
-</td><td>
-
-The TCP port that the cluster is getting traffic from.
-
-</td></tr></tbody>
-</table><table id="table_nxq_dcc_x5b"><thead><tr><th>
-
-CI
-
-</th><th>
-
-Relationship Type
-
-</th><th>
-
-CI
-
-</th></tr></thead><tbody><tr><td>
-
-\[cmdb\_ci\_appl\]
-
-</td><td>
-
-Extends from
-
-</td><td>
-
-\[cmdb\_ci\]
-
-</td></tr><tr><td>
-
-\[cmdb\_ci\_cloud\_database\]
-
-</td><td>
-
-Extends from
-
-</td><td>
-
-\[cmdb\_ci\_db\_instance\]
-
-</td></tr><tr><td>
-
-\[cmdb\_ci\_cloud\_db\_cluster\]
-
-</td><td>
-
-Cluster::Cluster of
-
-</td><td>
-
-\[cmdb\_ci\_cloud\_db\_cluster\]
-
-</td></tr><tr><td>
-
-\[cmdb\_ci\_cloud\_db\_cluster\]
-
-</td><td>
-
-Reference only
-
- \(configuration\_item\)
-
-</td><td>
-
-\[cmdb\_key\_value\]
-
-</td></tr></tbody>
-</table>**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
+Discovery populates the data in the CMDB when running the Amazon AWS MemoryDB pattern.
+
+|Field|Description|
+|-----|-----------|
+|Object ID \[object\_id\]|The Amazon Resource Name of a single node in the cluster.|
+|Name \[name\]|The name of a single node in the cluster.|
+|Fully qualified domain name \[fqdn\]|The Fully Qualified Domain Name of each node in the cluster.|
+|TCP port\(s\) \[tcp\_port\]|The TCP port that a single node in the cluster is getting traffic from.|
+|Type \[type\]|The type of database. Value is set to **memorydb**.|
+
+|Field|Description|
+|-----|-----------|
+|Cluster ID \[cluster\_id\]|The Amazon Resource Name of the cluster.|
+|Name \[name\]|The name of the cluster.|
+|Fully qualified domain name \[fqdn\]|The Fully Qualified Domain Name of the cluster.|
+|TCP port\(s\) \[tcp\_port\]|The TCP port that the cluster is getting traffic from.|
+
+## CI relationships
+
+The AWS MemoryDB for Redis pattern creates the following relationships and references to support AWS MemoryDB for Redis discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
+
+|CI|Relationship|CI|
+|---|------------|---|
+|Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|Cluster of::Cluster|Cloud DataBase \[cmdb\_ci\_cloud\_database\]|
+|Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
+
+|CI|Field|Referenced CI|
+|---|-----|-------------|
+|Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\]|
+
+## AWS tag discovery
+
+The AWS MemoryDB for Redis pattern collects tags and populates them in the Key Value \[cmdb\_key\_value\] table.
+
+|Field|Description|
+|-----|-----------|
+|Key \[key\]|Tag name.|
+|Value \[value\]|Tag value.|
+|Configuration item \[configuration\_item\]|References the Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\] table.|
+
+**Parent Topic:**[AWS discovery using patterns](../../discovery/reference/data-discovered-aws-patterns.md)
 
 **Related topics**  
 

@@ -33,7 +33,7 @@ The **Update email** option is available only to the primary supplier contact an
 
 2.  In the Contacts widget, select a contact to open the contact's profile page.
 
-3.  Select **Update email**.![Selected button for updating supplier's email address.](../image/update-supplier-contact-supplier-portal.png)
+3.  Select **Update email**.
 
 4.  In the **Email** field, enter or update the email address of the contact.
 

@@ -18,6 +18,8 @@ Explore the many-to-many relationships between source types and log sources to h
 
 ## Before you begin
 
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+
 Role required: evt\_mgmt\_admin
 
 ## About this task
@@ -28,7 +30,7 @@ Health Log Analytics uses source types to parse logs and utilizes log sources as
 
 1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Mapping** &gt; **Data Input Mapping**.
 
-2.  Ensure that log data is streaming into your instance, and then open a data input mapping record.
+2.  Verify that log data is streaming into your instance, and then open a data input mapping record.
 
 3.  View the associations between the log sources and the source types.
 

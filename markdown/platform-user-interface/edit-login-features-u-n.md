@@ -1,6 +1,6 @@
 ---
 title: Configure login theming in Next Experience
-description: Customize Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
+description: Configure Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs a
 
 # Configure login theming in Next Experience
 
-Customize Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
+Configure Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
 
 ## Before you begin
 
@@ -35,10 +35,22 @@ This procedure is specific to login pages and does not apply if you are using Si
 
     1.  Navigate to **System UI** &gt; **Welcome Page Content**.
 
-    2.  Add a property that contains the login content you want to display.
+    2.  Select **New** to create a welcome page content record or open an existing one that you want to display on the login page.
 
-        For the syntax of the isLoggedIn\(\) condition, see [GlideSession - Global](https://www.servicenow.com/docs/access?context=c_GlideSessionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    3.  In the Condition field, enter !gs.getSession\(\).isLoggedIn\(\)the content displays only on the login page before a user signs in
 
+        The content displays only on the login page before a user signs in.
+
+    4.  In the Text field, enter the welcome message or login information you want users to see.
+
+    5.  Select the Active check box.
+
+    6.  Select **Update**.
+
+
+## Result
+
+The welcome text appears on the Next Experience login page when users are not logged in and is hidden after authentication.
 
 **Parent Topic:**[Working with themes in Next Experience](../concept/next-experience-theming.md)
 

@@ -1,19 +1,19 @@
 ---
 title: Automate CrowdStrike Falcon Sandbox submissions using Flow Designer
-description: The CrowdStrike Falcon X Sandbox integration includes flow templates created using the Workflow Studio that work with security incident records.
+description: Automate your file or URL submissions by using the CrowdStrike Falcon X Sandbox integration and Workflow Studio as part of your incident response workflow. The integration includes flow templates that you can use for your security incident records.
 locale: en-US
 release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Automate CrowdStrike Falcon Sandbox submissions using Flow Designer
 
-The CrowdStrike Falcon X Sandbox integration includes flow templates created using the Workflow Studio that work with security incident records.
+Automate your file or URL submissions by using the CrowdStrike Falcon X Sandbox integration and Workflow Studio as part of your incident response workflow. The integration includes flow templates that you can use for your security incident records.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ You can modify these sample flows to trigger an automated submission under diffe
 
 The sandbox integration consists of two base system flows that are deactivated by default.
 
--   **Submit file when category is phishing**: This flow submits a file to the sandbox for malware analysis when the security incident category is defined as phishing. You must attach a file to the observable record on the security incident. If you are using the User Reported Phishing \(URP\) functionality, any email attachment is automatically parsed and added to the SIR incident record as an observable record. No further action is required to automate the submission.
+-   **Submit file when category is phishing**: This flow submits a file to the sandbox for malware analysis when the security incident category is defined as phishing. You must attach a file to the observable record on the security incident. If you're using the User Reported Phishing \(URP\) functionality, any email attachment is automatically parsed and added to the SIR incident record as an observable record. No further action is required to automate the submission.
 -   **Submit when file type for observable is exe**: This flow submits a file to the sandbox for malware analysis when the security incident observable is an exe. Similar to the phishing category flow, a you must attach a file to an observable record on the security incident. You can do this manually by uploading the file or automatically if a phishing email attachment, or other mechanism that is creating the incident, is associated with the observable records.
 
 When the flows are configured and incident conditions satisfy the parameters, the sandbox submissions trigger automatically when you review the security incident. Review the Work note that indicates that a submission has been initiated, a tag appears if enabled in the configuration, and a pending submission results record.
@@ -66,7 +66,7 @@ You can refer the subflows to troubleshoot issues with sandbox submissions. An E
 
     ![Activate the base system flow or customize your flow.](../image/flow-activate.png)
 
-4.  Click **Activate** and then click **OK** when the confirmation message appears.
+4.  Select **Activate** and then select **OK** when the confirmation message appears.
 
 
 ## What to do next

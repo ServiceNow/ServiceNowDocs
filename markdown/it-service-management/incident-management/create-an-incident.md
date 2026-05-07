@@ -206,7 +206,7 @@ Attachments
 
 </td><td>
 
-Attachments related to the incident that helps in incident resolution such as screenshots or pdfs. Select the Attachment \(![image.add-attachment-incident]\) to add and manage the attachments.
+Attachments related to the incident that helps in incident resolution such as screenshots or pdfs. Select the Attachment \(![Attachment icon](../../digital-product-release/image/dpr-icon-attachment.png)\) to add and manage the attachments.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

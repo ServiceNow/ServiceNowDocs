@@ -44,10 +44,12 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 
 -   **[Configure Now Assist in Conversational Catalog Request](../task/configure-gen-ai-catalog-item.md#)**  
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.
+-   **[Prefill in conversational catalog request](prefill-in-conversational-catalog-request.md)**  
+The generalized prefill capability for conversational catalog request automatically populates catalog item form fields using data sourced from the requesting user's profile and from the active chat conversation history. This reduces manual data entry for requesters, improves form completion accuracy, and accelerates time-to-submission for service requests raised through the conversational interface.
+-   **[Catalog item render types](virtual-agent-render-type.md)**  
+A render type determines how a catalog item's form can be rendered to requesters. For example, in Virtual Agent a catalog item can be rendered as a conversation, window, or pop-up.
 -   **[Fulfillers can request catalog items for others](fulfillers-request-catalog-items-for-others.md)**  
 The experience for fulfillers streamlines the process of making catalog requests on behalf of others. This tailored workflow leverages parent context, such as incidents or cases, to improve efficiency, accuracy, and traceability of requests.
--   **[Virtual Agent render type](virtual-agent-render-type.md)**  
-A catalog item can be rendered in Virtual Agent as a conversation, window, or pop-up.
 -   **[Conversational catalog request reference](../reference/conversational-catalog-request-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 

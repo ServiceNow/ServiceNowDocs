@@ -30,15 +30,15 @@ Dependencies for free-form roadmaps are available only if the roadmap's source t
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d230380e99">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d223593e99">
 
 Roadmap type
 
-</th><th align="left" id="d230380e102">
+</th><th align="left" id="d223593e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d230380e108">
+</th></tr></thead><tbody><tr><td id="d223593e108">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d230380e129">
+</td></tr><tr><td id="d223593e129">
 
 **Free-form roadmap**
 
@@ -67,15 +67,15 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 4.  From the side panel, locate your dependency and use the More actions icon \(![More actions icon.](../../alignment-planner-workspace/images/icon-more-actions.png)\) to edit or delete.
 
-<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d230380e186">
+<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d223593e186">
 
 Choice
 
-</th><th align="left" id="d230380e189">
+</th><th align="left" id="d223593e189">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230380e195">
+</th></tr></thead><tbody><tr><td id="d223593e195">
 
 **Edit dependency**
 
@@ -86,7 +86,7 @@ Steps
 
 For field information, see [Dependency form](../../alignment-planner-workspace/reference/dependency-form.md).
 
-</td></tr><tr><td id="d230380e231">
+</td></tr><tr><td id="d223593e231">
 
 **Delete dependency**
 

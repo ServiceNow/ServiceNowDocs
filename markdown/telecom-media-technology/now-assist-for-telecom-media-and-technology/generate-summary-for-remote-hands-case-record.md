@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Now Assist for TMT, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -39,15 +39,15 @@ This skill available in CSM/FSM Configurable Workspace and in Core UI
 
 4.  After you're finished summarizing a Remote Hands case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d35692e92">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d42278e92">
 
 Option
 
-</th><th align="left" id="d35692e95">
+</th><th align="left" id="d42278e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35692e101">
+</th></tr></thead><tbody><tr><td id="d42278e101">
 
 **View more or less summary details**
 
@@ -57,7 +57,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
 
 
-</td></tr><tr><td id="d35692e131">
+</td></tr><tr><td id="d42278e131">
 
 **Provide feedback for the summary**
 
@@ -67,7 +67,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d35692e164">
+</td></tr><tr><td id="d42278e164">
 
 **Copy the case summary**
 
@@ -75,7 +75,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the Remote Hands case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d35692e179">
+</td></tr><tr><td id="d42278e179">
 
 **View the information about the case summary**
 

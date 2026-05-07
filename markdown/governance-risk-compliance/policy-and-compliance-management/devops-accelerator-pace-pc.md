@@ -39,14 +39,6 @@ GRC: DevOps Accelerator plugin maps the relationship between PaCE policies and c
 
     As part of DevOps accelerator, the mapping relationships between control objectives and PaCE policies are shipped to the customers. The relationship is captured in Control objective to items \[sn\_compliance\_control\_objective\_item\] table, where the **Control objective** column and **Item record** column, which is the PaCE policy, list the data.
 
-    ![Control objective to item table.](../image/DevOpsMappingPC.png "Control objective to item table")
-
--   **DevOps policy to control objective staging table**
-
-    ![DevOps accelerator staging table.](../image/DevOpsStagingPC.png "DevOps accelerator staging table")
-
-    There is a staging table as a part of DevOps accelerator, which is DevOps policy to control objective staging \[sn\_grc\_devops\_policy\_control\_objective\_staging\] table. A user with Compliance admin role can view the table.
-
 
 For CAM and CIS, the sys IDs of the control objectives map with the DevOps policy sys IDs. However, for UCF the source ID of the control objective imported from the Shared List is mapped with the DevOps policy sys ID.
 

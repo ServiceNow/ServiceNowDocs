@@ -6,8 +6,8 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-04-28"
+reading_time_minutes: 4
 breadcrumb: [Installing, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
@@ -33,7 +33,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-App Engine Studio admin
+App Engine admin
 
  \[app\_engine\_admin\]
 
@@ -70,6 +70,20 @@ Administers the use, sharing, and activation or deactivation of templates.
 
 </td></tr><tr><td>
 
+App Engine Studio admin
+
+ \[sn\_app\_eng\_studio.admin\]
+
+</td><td>
+
+Granular admin role that grants access to App Engine Studio and enables administrative access to App Engine Studio tables. You can combine this role with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+
+</td><td>
+
+sn\_app\_eng\_studio.user
+
+</td></tr><tr><td>
+
 App Engine Studio user
 
  \[sn\_app\_eng\_studio.user\]
@@ -87,7 +101,14 @@ Builds applications in App Engine Studio.
 -   sn\_g\_app\_creator.app\_creator
 
 </td></tr></tbody>
-</table>## Tables installed
+</table>**Note:** Additional granular admin roles are installed with App Engine Studio dependent applications, including:
+
+-   Collaboration request admin \[sn\_collab\_request.collaboration\_request\_admin\]
+-   AES Table Builder Wizard admin \[sn\_table\_bldr\_wzd.table\_bldr\_wzd\_admin\]
+
+You can combine these granular admin roles with other roles to provide the level of access needed for a user's function. For more information about roles in App Engine Studio, see [Configure AES personas and roles](../concept/aes-personas-roles.md). For more information about granular admin roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+
+## Tables installed
 
 <table id="table_fbz_45z_vdb"><thead><tr><th>
 
@@ -105,7 +126,7 @@ App Details
 
 </td><td>
 
-Details about the operations that a developer used to create an application in App Engine Studio. This table is updated automatically as developers build applications in App Engine Studio.
+Details about the operations that a developer used to create an application in App Engine Studio. The table is updated automatically as developers build applications in App Engine Studio.
 
 </td></tr><tr><td>
 
@@ -145,7 +166,7 @@ Pipeline
 
 </td><td>
 
-Configurations for deploying applications to different environments. There can be only one active pipeline at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing deployments using Pipelines and Deployments](../concept/manage-deployments-using-p-and-d-aemc.md).
+Configurations for deploying applications to different environments. Only one pipeline can be active at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing deployments using Pipelines and Deployments](../concept/manage-deployments-using-p-and-d-aemc.md).
 
 </td></tr><tr><td>
 
@@ -208,14 +229,14 @@ Taxonomy Details
 Details about application files that a developer creates in App Engine Studio. This table includes configurations to support the default user experience for App Engine Studio.
 
 </td></tr></tbody>
-</table>**Note:** The following data preservers are added for tables related to pipelines:
+</table>**Note:** Data preservers are added for the following tables related to pipelines:
 
 -   Environment
 -   Pipeline
 -   Pipeline Environment Order
 -   Pipeline Types
 
-The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Data preservation on cloning target instances](https://www.servicenow.com/docs/access?context=data-preservation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Create a clone preserver](https://www.servicenow.com/docs/access?context=create-new-clone-preserver&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 **Parent Topic:**[Installing App Engine Studio](../task/install-aes.md)
 

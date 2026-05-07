@@ -8,7 +8,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Metrics collection and metric rules, Configure, Digital End-User Experience, IT Service Management]
+breadcrumb: [Configure, Digital End-User Experience, IT Service Management]
 ---
 
 # Collecting DEX metrics
@@ -27,11 +27,4 @@ Collecting metrics helps you proactively identify and resolve problems with your
 You can view and manage the metrics collected under DEX policies, such as an agent policy. Modify the metrics that you want to collect for a CI or scenario, or change how often a metric is collected.
 
 For details on how to create an agent policy, see [Create an agent policy](../task/create-agent-policy.md).
-
--   **[Change metrics collection frequency](../task/change-metrics-collection-frequency.md)**  
-Change how often the DEX metrics are collected for specific criteria.
--   **[Modify collected metrics under a child policy](../task/modify-collected-metrics.md)**  
-Turn off an existing DEX metric for certain configuration item \(CI\) criteria by creating a child policy.
-
-**Parent Topic:**[Managing DEX metrics collection and metric rules](dex-metrics-metric-rules-management.md)
 

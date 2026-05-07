@@ -1,6 +1,6 @@
 ---
 title: AI Service Graph Connector for Microsoft
-description: Use the  AI Service Graph Connector for Microsoft  plugin to create AI connections for Azure Foundry and Copilot to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+description: Use the  AI Service Graph Connector for Microsoft  to create AI connections for Azure Foundry and Copilot to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discov
 
 # AI Service Graph Connector for Microsoft
 
-Use the  AI Service Graph Connector for Microsoft  plugin to create AI connections for Azure Foundry and Copilot to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents within your ServiceNow AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for Microsoft  to create AI connections for Azure Foundry and Copilot to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 
 ## Download apps from the store
 
@@ -36,10 +36,10 @@ Roles required in the ServiceNow environment:
 
 **Setting up Azure Foundry:**
 
--   To get the OAuth credentials, refer to the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad).
--   The Azure client application needs at least 'User. Contributor' role on AI Hub \(ML services\) API. Refer [documentation for Azure Hub roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/hub-rbac-foundry?view=foundry-classic#default-roles-for-the-hub) It also requires a workspace to be created.
--   The Azure client application needs at least an 'Azure AI User' role on the Azure Foundry \(Cognitive Services\) API. Refer [documentation for Azure Foundry roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-foundry?view=foundry&preserve-view=true#built-in-roles) It also requires an account \(resource name\) to be created.
--   Enable both Discovery and Execution import schedules to discover agents and retrieve execution data.
+-   To get the OAuth credentials, refer to the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad)
+-   The Azure client application needs at least 'User. Contributor' role on AI Hub \(ML services\) API. Refer [documentation for Azure Hub roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/hub-rbac-foundry?view=foundry-classic#default-roles-for-the-hub) It also requires a workspace to be created
+-   The Azure client application needs at least an 'Azure AI User' role on the Azure Foundry \(Cognitive Services\) API. Refer [documentation for Azure Foundry roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-foundry?view=foundry&preserve-view=true#built-in-roles) It also requires an account \(resource name\) to be created
+-   Enable both Discovery and Execution import schedules to discover agents and retrieve execution data
 
 ## Prerequisites from Copilot environment
 

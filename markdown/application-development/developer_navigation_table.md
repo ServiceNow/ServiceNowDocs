@@ -339,17 +339,5 @@ Copy an instance
 
 [Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 
-</td></tr><tr><td>
-
-Personalize your experience
-
-</td><td>
-
- 
-
-</td><td>
-
-[Personalize your experience](https://www.servicenow.com/docs/access?context=personalize-your-experience&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
-
 </td></tr></tbody>
 </table>

@@ -6,7 +6,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Create anonymization policies, Data anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
@@ -23,15 +23,15 @@ Role required: data\_privacy\_admin and admin
 
 1.  Assign anonymization techniques for data tables or columns, user specific data, or real time data.![The bulk assign techniques form.](../image/bulk-assign-technique.png)
 
-<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d257316e41">
+<table id="choicetable_ywk_ywc_dwb"><thead><tr><th align="left" id="d263099e41">
 
 Option
 
-</th><th align="left" id="d257316e44">
+</th><th align="left" id="d263099e44">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d257316e50">
+</th></tr></thead><tbody><tr><td id="d263099e50">
 
 **Select __Bulk Assign Techniques__**
 
@@ -39,7 +39,7 @@ Description
 
 Applies anonymization to all data records in the chosen data class. Select the data type and the anonymization technique to apply to all entries with the selected data type. Repeat this step for additional bulk assignments of different data types.See [Supported field types for anonymization](../../security/reference/data-privacy-supported-data-types.md) for a list of data types.
 
-</td></tr><tr><td id="d257316e72">
+</td></tr><tr><td id="d263099e72">
 
 **Select an __anonymization technique__ for each data column record**
 

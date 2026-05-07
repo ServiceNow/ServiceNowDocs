@@ -88,4 +88,5 @@ Enables dynamic translation for messages that contain urls com.glide.cs.dynamic.
 Enables dynamic translation for messages that contain URLs.Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://www.servicenow.com/docs/access?context=dynamic-lang-detection-translation-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Reference for Dynamic Translation](reference-for-dynamic-translation.md)
+

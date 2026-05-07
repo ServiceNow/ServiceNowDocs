@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Understanding Punchout, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Understanding punchout, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Punchout configuration in SPO

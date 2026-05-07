@@ -161,7 +161,7 @@ Select DLP incident field to consolidate the incidents when having the same valu
 
 [Create repeat offender identification rules](repeat-offender-identification-rules.md)
 
-[Create Additional Incident Data Fields](create-custom-fields-dlp.md)
+[Create additional incident data fields](create-custom-fields-dlp.md)
 
 [DLP SLA Definition form](../reference/dlp-sla-def-properties.md)
 

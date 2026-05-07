@@ -29,7 +29,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |------|-----------|
     |Asset|Asset for the claim.|
     |Requested by|Logged in user or member of the logged in user's service organization.|
-    |Consumer|Consumer tagged to install base.|
+    |Consumer|Consumer is associated with the install base.|
     |Dealer|Business location.|
     |Sales price|Sale price of the product sold. Select the required currency from the list|
 
@@ -51,6 +51,10 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
     |**Review and approve**|Review the claim and approve. Enter the amount that you want to approve.|
     |**Claim summary**|View the summary of the sales promotion claims.|
 
+
+## Result
+
+Sales promotion claim case is created.
 
 **Parent Topic:**[Sales promotion claim management](../concept/mco-sls-pro-clm-mgmt.md)
 

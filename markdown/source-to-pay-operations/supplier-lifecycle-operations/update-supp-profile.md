@@ -37,7 +37,7 @@ Role required: sn\_slm.contact
 
     For more information about the form fields and descriptions, see [Update profile details form](../reference/update-supp-profile-form.md).
 
-5.  Select **Submit**.![Selected button for submitting updated company profile details.](../image/update-company-profile-supplier-collaboration-portal.png)
+5.  Select **Submit**.
 
 
 ## Result

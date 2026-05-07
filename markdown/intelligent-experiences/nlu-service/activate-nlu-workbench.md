@@ -114,5 +114,3 @@ Delivers the Model Performance, Multi-model Batch Testing, Cross-model Conflict 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
 
 
-**Parent Topic:**[Exploring Natural Language Understanding](../concept/nlu-explore.md)
-

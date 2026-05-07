@@ -39,15 +39,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d100376e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d102715e92">
 
 Action
 
-</th><th align="left" id="d100376e95">
+</th><th align="left" id="d102715e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d100376e101">
+</th></tr></thead><tbody><tr><td id="d102715e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -57,7 +57,7 @@ Select **Import**, navigate to the file, and then select **Open**.
 
  ![Import SIG questionnaire widget.](../image/import-sig.png)
 
-</td></tr><tr><td id="d100376e135">
+</td></tr><tr><td id="d102715e135">
 
 **Complete the questionnaire**
 

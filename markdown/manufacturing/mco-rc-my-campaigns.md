@@ -34,7 +34,7 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
     The following actions are displayed:
 
     -   Import Impacted Assets: To import impacted assets, refer [Importing impacted assets](../task/mco_importing_impacted_assets.md)
-    -   Initiate Recall Campaign: To change the recall campaign state from draft to in-progress, you must have atleast one corrective action marked as In use. Only then can the campaign progress beyond the draft stage.
+    -   Initiate Recall Campaign: To change the recall campaign state from draft to in-progress, you must have at least one corrective action marked as In use. Only then can the campaign progress beyond the draft stage.
     -   Cancel Campaign: To cancel the recall campaign.
     .
 

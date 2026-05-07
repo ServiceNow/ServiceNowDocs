@@ -9,7 +9,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Procurement product recommendation AI agent, agentic AI, AI agent, AI agents]
-breadcrumb: [Submit a purchase request using the Now Assist AI agent, Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Submit purchase request using Now, Use agentic workflows, Now Assist for SPO, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Upload a quote to request a purchase using the Now Assist AI agent

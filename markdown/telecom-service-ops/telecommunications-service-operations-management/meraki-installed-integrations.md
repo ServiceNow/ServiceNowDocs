@@ -5,10 +5,10 @@ locale: en-US
 release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
-topic_type: concept
+topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Reference, Telecommunications Service Operations Management]
 ---
 
 # Cisco Meraki installed integrations
@@ -26,4 +26,6 @@ Predefined system integrations use Meraki REST APIs to pull metric data into you
 |Uplink Usage by Network|Collects uplink bandwidth usage data aggregated by network for MX and Z series devices.|
 |Uplink Loss and Latency|Monitors packet loss and latency for WAN uplinks on MX appliances.|
 |VPN Stats|Monitors site-to-site VPN tunnel status for MX appliances.|
+
+**Parent Topic:**[Telecommunications Service Operations Management reference](../reference/components-installed-with-tsom.md)
 

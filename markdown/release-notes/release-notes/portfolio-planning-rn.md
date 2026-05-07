@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Portfolio Planning release notes
@@ -25,6 +25,12 @@ See [Portfolio Planning](https://www.servicenow.com/docs/access?context=portfoli
 **Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
+
+-   **[AI-generated insights for portfolio plans](https://www.servicenow.com/docs/access?context=view-portfolio-insights&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+    Gain AI-generated insights into planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
+
+    Users with the sn\_align\_core.apw\_admin role assigned can configure severity scoring for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
 -   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
@@ -48,6 +54,9 @@ See [Portfolio Planning](https://www.servicenow.com/docs/access?context=portfoli
     -   Access the Hierarchy tab directly from the Planning page, located next to the Prioritization tab. This new placement replaces the previous access point within the Prioritization tab, providing a more efficient way to view and manage planning items.
     -   Save filter views specific to the Hierarchy tab without affecting views in the Prioritization tab.
     -   View planning items in the new Hierarchy tab on the Planning page, now sorted using global rank when available. Drag and drop is supported for lowest‑level items, enabling you to rerank them within their groups.
+    -   Share a portfolio plan using the Copy link option. This provides access to existing users who have access to the portfolio plan.
+    -   Expand or collapse portfolio plan header to maximize screen space while planning.
+    -   Edit the default view within a portfolio plan and save changes using the Save view option.
 -   **[Financials for planning items](https://www.servicenow.com/docs/access?context=using-financials-spw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
     View the financial baselines in investment currency and project currency after migrating them from Classic to Next Experience. Migrated financial baselines include actuals, costs, benefits, and budget values from the project currency to the investment currency.

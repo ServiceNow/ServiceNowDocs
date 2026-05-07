@@ -41,7 +41,7 @@ Configure the Virtual Agent \(VA\) topics for ITSM Success Dashboard indicators 
 -   **[Update the live agent script include](../task/update-live-agent-script-include.md)**  
 Live agent configuration is used in the self-solved deflections \(Deflection using KB articles, Deflection using QnA AIS, Deflection using QnA LLM, and Deflection using ITSM VA\). While we configure these deflections, we need to update the live agent script include. Update the SSADeflectionHelper script to override the *checkInteraction* function.
 -   **[Set fulfillment automation level of catalog item for the Success Dashboard indicators](../task/set-fulfillment-automation-level-sdb.md)**  
-Set the fulfillment automation level of catalog items from any Service group that are fulfilled without any manual intervention to Fully-automated tracking of the requested items with an end-to-end automated fulfilment.
+Set the fulfillment automation level of catalog items from manual to fully-automate to reduce manual effort and accelerate the turn around time.
 -   **[Activate Performance Analytics jobs for ITSM Success Dashboard indicators](../task/activae-pa-indicator-jobs-sdb.md)**  
 Activate the Performance Analytics \(PA\) jobs to collect daily and historical data for the ITSM Success Dashboard indicators.
 -   **[Configure Success Dashboard indicators KPIs](../task/config-kpis-sdb.md)**  

@@ -7,7 +7,7 @@ product: UI Builder
 classification: ui-builder
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
 ---
 
@@ -20,17 +20,24 @@ UI interactions are reusable flows that combine UI elements and logic into a sin
 ## Why use UI interactions
 
 -   **Reduced duplication**: Instead of creating separate actions for every component, you define the flow once and reuse it.
--   **Improve consistency**: Interactions ensure the same behavior across multiple pages or experiences.
+-   **Improve consistency**: Interactions apply the same behavior across multiple pages or experiences.
 -   **Simplify maintenance**: Changes to an interaction automatically apply wherever it’s used.
 
-**Note:** If you want record-based, sequential UI and desire a long-running process, consider using Playbook.
+**Note:** For record-based, sequential UI with a long-running process, consider using Playbook.
 
 ## Practical uses for UI interactions
 
 -   Trigger a confirmation dialog when a user selects a button
 -   Show an alert message after a record is saved
 -   Show a form view inside a modal when validation fails
--   Chain multiple steps together such as updating data followed by displaying a success message
+-   Chain multiple steps together, such as updating data and displaying a success message
+
+## Accessing UI interactions
+
+-   To view list of all existing UI interactions from within UI Builder: select the **UI interactions** tab from the UI Builder home page.
+-   To create UI interactions from within UI Builder: select **Create** &gt; **UI interactions** from the UI Builder home page.
+-   To view a list of all existing UI interactions from the platform, navigate to **All** &gt; **Now Experience Framework** &gt; **UI interactions** &gt; **All**. The UI Builder home page opens with the UI interactions list displayed.
+-   To create UI interactions from the platform, navigate to **All** &gt; **Now Experience Framework** &gt; **UI interactions** &gt; **Create new**. The creation modal opens in UI Builder where you define the interaction name, type, and description.
 
 ## UI interaction workflow
 
@@ -46,14 +53,14 @@ A UI interaction defines a reusable flow of user and system actions. At a high l
 
 ## How UI interactions differ from declarative actions
 
-Declarative actions determine where and when an action appears, most commonly on a form or list. UI interactions encapsulate what happens and can be triggered by any page event or declarative action. Here’s a list of key differences:
+Declarative actions determine where and when an action appears, most commonly on a form or list. UI interactions encapsulate what happens and can be triggered by any page event or declarative action. Key differences include:
 
 -   Declarative actions place buttons on lists and forms without requiring modifications of the page.
 -   UI interactions define the end‑to‑end behavior of UI, logic, and script when triggered.
 -   Declarative actions can trigger UI interactions.
--   Declarative actions could be implemented as UI interactions instead of UXF client actions, since they work without page ownership or modification, even when triggering UI like modals.
+-   Declarative actions can be implemented as UI interactions instead of UXF client actions, since they work without page ownership or modification, even when triggering UI like modals.
 
-## Triggers for UI Interactions
+## Triggers for UI interactions
 
 You can run a UI interaction from several entry points, depending on the use case:
 
@@ -85,6 +92,10 @@ The toolbox provides all building blocks available inside the UI interaction edi
 
 -   **[Create a UI interaction](../task/create-ui-interaction-show-alert.md)**  
 Create a UI interaction and attach it to a component event in UI Builder. UI interactions are reusable flows that combine UI, logic, and scripts into a single unit, including custom UI built with Component Builder, and can be triggered from any component event on a page.
+-   **[Edit an existing UI interaction](../task/edit-ui-interaction.md)**  
+Edit or modify an existing UI interaction by inserting new steps, swapping or deleting events, removing steps, or updating step configurations in the diagram editor.
+-   **[Duplicate a UI interaction](../task/duplicate-ui-interaction.md)**  
+Create an independent copy of an existing UI interaction to use as a starting point for a new interaction or to safely experiment with changes.
 -   **[Trigger a UI interaction from a page event](../task/trigger-ui-interaction-from-page-event.md)**  
 Attach a UI interaction to a UI Builder page event so the interaction runs when a user performs an action on a component.
 -   **[Delete a UI interaction](../task/delete-ui-interaction.md)**  
@@ -92,7 +103,7 @@ Delete a UI interaction when it’s no longer needed or when you must replace it
 -   **[UI interaction toolbox steps](../reference/uib-ui-interaction-steps.md)**  
 Find details about UI interaction toolbox steps, organized by interaction type, with step descriptions and any available outgoing events. Steps are added to a UI interaction using the toolbox in the UI interaction editor. The available steps depend on the type you selected when you created the UI interaction, whether Generic, Form, or List.
 -   **[Working with UI interaction demo data](working-with-demo-interactions.md)**  
-Demo UI interactions give you simple, ready‑made examples that demonstrate common UI Interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
+Demo UI interactions give you simple, ready‑made examples that demonstrate common UI interaction patterns. You can duplicate these samples to explore how interactions work, experiment safely, and use them as starting points when building your own experiences.
 
 **Parent Topic:**[Manage actions in UI Builder pages](work-events.md)
 

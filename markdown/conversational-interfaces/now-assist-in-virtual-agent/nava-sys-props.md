@@ -6,7 +6,7 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Now Assist in Virtual Agent reference, Now Assist in Virtual Agent, Conversational Interfaces]
 ---
@@ -49,19 +49,19 @@ Open an interactive side panel view next to the chat window. The default value i
 
 </td></tr><tr><td>
 
-sn\_ai\_websearch.perplexity\_model\_name
-
-</td><td>
-
-Specify the Perplexity model to use for web search. The default value is `sonar`.
-
-</td></tr><tr><td>
-
 now\_assist\_va\_search\_results\_output\_type.list
 
 </td><td>
 
 Turn off regular results and only have Genius Results shown within Virtual Agent. Use the system property to access the Now Assist Search Results Output Types table. By default, regular results and Genius Results are shown for all channels \(Android device, iOS, Web Client,Now Assist Panel, and Microsoft Teams\). In the Search Results Type column, select **Genius Search Result**.![Now Assist Search Results Output table.](../image/NAinVA-results-output-table.png)
+
+</td></tr><tr><td>
+
+sn\_ai\_websearch.perplexity\_model\_name
+
+</td><td>
+
+Specify the Perplexity model to use for web search. The default value is `sonar`.
 
 </td></tr><tr><td>
 
@@ -80,6 +80,14 @@ sn\_nowassist\_va.display\_default\_catalog\_image
 Show or don't show the default cart image if a catalog item doesn't have an image set in its record. **Value** = `true` shows the default cart image. This is the default value. **Value** = `false` removes the default cart image.
 
 **Note:** A catalog item that is associated with an image continues to be displayed irrespective of the system property.
+
+</td></tr><tr><td>
+
+sn\_nowassist\_va.enable\_nap\_aix\_experience
+
+</td><td>
+
+Turn premium chat on or off for Now Assist panel – Platform assistant. The default value is set to `false`.Premium chat is only available if your instance meets all requirements.
 
 </td></tr><tr><td>
 

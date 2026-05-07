@@ -19,7 +19,7 @@ Export the status of goals, work items, roadmap, and key metrics of your portfol
 
 [Install Export to PowerPoint for Strategic Portfolio Management](../../export-to-ppt/task/install-export-to-ppt.md).
 
-**Important:** Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
+**Important:** Export to PowerPoint is available only in the GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data center environments.
 
 Role required: admin
 
@@ -41,15 +41,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d286098e152">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d276007e155">
 
 For exporting this data
 
-</th><th align="left" id="d286098e155">
+</th><th align="left" id="d276007e158">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d286098e161">
+</th></tr></thead><tbody><tr><td id="d276007e164">
 
 **Portfolio plan, goals, or roadmap with default settings**
 
@@ -66,7 +66,7 @@ Perform these steps
 
 **Note:** The **Roadmap Template - default** option appears only when you select **Export to PowerPoint** from the Scoring or Planning page.
 
-</td></tr><tr><td id="d286098e226">
+</td></tr><tr><td id="d276007e229">
 
 **Roadmap or free-form roadmap with customized settings**
 

@@ -259,17 +259,6 @@ When the number of the questions exceed this limit, conversational catalog recom
 -   **Type:** integer
 -   **Default value:** 10
 
-</td></tr><tr><td>
-
-sn\_now\_assist\_cr.enable\_question\_grouping
-
-</td><td>
-
-Determines whether to enable question grouping feature. By default, it is false to turn off question grouping. Setting it to true enables this feature which brings the benefit of grouping semanticly related questions together, reducing conversation turns and improving requester productivity.
-
--   **Type:** true/false
--   **Default value:** false
-
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Order Guides

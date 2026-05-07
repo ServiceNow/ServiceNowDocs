@@ -1,6 +1,6 @@
 ---
 title: Outbound message errors tab fields
-description: The outbound message error tab in Zero Copy Connector for ERP contains information about any errors that have occurred and links to relevant knowledge base articles for troubleshooting.
+description: The outbound message error tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about any errors that have occurred and links to relevant knowledge base articles for troubleshooting.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, error]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Outbound message errors tab fields
 
-The outbound message error tab in Zero Copy Connector for ERP contains information about any errors that have occurred and links to relevant knowledge base articles for troubleshooting.
+The outbound message error tab in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information about any errors that have occurred and links to relevant knowledge base articles for troubleshooting.
 
 For process details, see [View and troubleshoot IDoc messages](../task/view-and-troubleshoot-idoc-messages.md).
 

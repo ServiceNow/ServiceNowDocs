@@ -107,7 +107,7 @@ Employee document to upload.Click **Choose File** to upload an employee document
 
  The **Enable "Document Viewer" to preview pdf documents** in the Employee Documents property must be checked **Yes** to view .pdf documents.
 
-**Note:** Viewing documents is not supported for FedRAMP, on-premise customers, mobile devices, customers using edge encryption, or encryption support.
+**Note:** Viewing documents is not supported for mobile devices, customers using edge encryption, or encryption support.
 
 </td></tr><tr><td>
 

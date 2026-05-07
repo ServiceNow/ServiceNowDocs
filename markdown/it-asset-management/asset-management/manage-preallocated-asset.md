@@ -41,7 +41,5 @@ You can split a pre-allocated asset to create a group that can be moved to a dif
 
 [Manage transfer order](../../asset-management/concept/manage-transfer-orders.md)
 
-[Example Asset Management process](../../asset-management/task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../../asset-management/reference/org-mgmt.md#)
 

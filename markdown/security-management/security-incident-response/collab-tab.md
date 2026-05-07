@@ -164,14 +164,11 @@ If you want to view any specific activity or search the collaboration activity d
 
 Folders and chat conversations shared with Major Security Incident Management reflect as breadcrumbs with the structure:
 
-connector application name \(&lt;incident number – category &gt; &lt;folder name&gt;\).![Activity details as per the selected filters](../image/activity-stream-breadcrumbs.png)
+connector application name \(&lt;incident number – category &gt; &lt;folder name&gt;\).
 
 **Label the activities**:
 
 1.  Select the **Label** icon.
-2.  Select the respective incident activity label check box as shown in the below screen shot.
-
-    ![Assigning labels to incident activities.](../image/collab-labels.png)
-
+2.  Select the respective incident activity label check box.
 3.  The labeled activities are color coded and depicted as progress trend graph on the **External Collaboration** section of the workspace.
 

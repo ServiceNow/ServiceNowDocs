@@ -4,7 +4,7 @@ description: The Australia release includes new features and improvements built 
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-05-05"
 reading_time_minutes: 1
 breadcrumb: [Australia release notes]
 ---
@@ -16,7 +16,7 @@ The Australia release includes new features and improvements built on the Servic
 ## Release dates
 
 -   Early availability: March 12, 2026
--   General availability: Q2 2026
+-   General availability: May 5, 2026
 
 ## Release notes for upgrades
 

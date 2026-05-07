@@ -203,15 +203,15 @@ After sourcing the new assets, the asset refresh is completed through the follow
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d270713e741">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d273063e741">
 
 Interface
 
-</th><th align="left" id="d270713e744">
+</th><th align="left" id="d273063e744">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d270713e750">
+</th></tr></thead><tbody><tr><td id="d273063e750">
 
 **Core UI**
 
@@ -221,7 +221,7 @@ Action
 2.  Select the request number of the hardware asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d270713e783">
+</td></tr><tr><td id="d273063e783">
 
 **Hardware Asset Workspace**
 

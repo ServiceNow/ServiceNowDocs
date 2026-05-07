@@ -25,5 +25,5 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
     -   [AI Control Tower](../task/add-an-mcp-server-via-ai-contol-tower.md)
     -   [MCP Catalog](../task/add-an-mcp-server-from-mcp-catalog.md)
 2.  [MCP server approval workflow](../task/playbook-workflow-of-mcp-server-approval-request.md)
-3.  [AI Gateway setup and Client Registration](../task/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
+3.  [Set up AI Gateway and Client Registration](../task/mcp-client-integration-of-copilot-studio-via-ai-gateway.md)
 

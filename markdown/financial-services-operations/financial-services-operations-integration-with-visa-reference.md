@@ -13,7 +13,7 @@ breadcrumb: [Reference, Visa, Integrate, Financial Services Operations \(FSO\)]
 
 Reference topics provide additional information on the installed components and subflows that you use to configure and administer Financial Services Operations Integration with Visa application.
 
-**Important:** Set the `sn_bom_credit_card.is_visa_integration_enabled` property to `True` to enable Financial Services Operations Integration with Visa. By default, this property is set to `False`, so you need to update it manually. Financial Services Operations Integration with Visa will not function until this property is enabled.
+**Important:** Set the `sn_bom_credit_card.is_visa_integration_enabled` property to `True` to enable Financial Services Operations Integration with Visa. By default, this property is set to `False`, so it requires to be updated manually. Financial Services Operations Integration with Visa will not function until this property is enabled.
 
 ## Plugins installed
 

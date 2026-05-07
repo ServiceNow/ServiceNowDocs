@@ -29,7 +29,7 @@ Data from these input fields in the change request input table is used to explai
 -   Assignment group
 -   Risk
 -   Description
--   Blackout plan
+-   Backout plan
 -   Model type
 
 Additional inputs include:
@@ -63,15 +63,15 @@ You can generate the explanation of the calculated risk rating for a change requ
     -   To shorten the generated response, select **Refine** &gt; **Shorten**.
 4.  When you're finished generating the explanation for a change request risk rating, you can provide feedback, copy it, or view information about it.
 
-<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d259982e245">
+<table id="choicetable_c2n_fsz_xbc"><thead><tr><th align="left" id="d262005e245">
 
 Option
 
-</th><th align="left" id="d259982e248">
+</th><th align="left" id="d262005e248">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d259982e254">
+</th></tr></thead><tbody><tr><td id="d262005e254">
 
 **Provide feedback for the change request risk explanation**
 
@@ -79,7 +79,7 @@ Procedure
 
 If you think that the change request risk explanation was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the change request risk explanation wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d259982e277">
+</td></tr><tr><td id="d262005e277">
 
 **Copy the change request risk explanation**
 
@@ -87,7 +87,7 @@ If you think that the change request risk explanation was helpful, select the he
 
 If you want to reuse the change request risk explanation, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
 
-</td></tr><tr><td id="d259982e292">
+</td></tr><tr><td id="d262005e292">
 
 **View the information about the change request risk explanation**
 

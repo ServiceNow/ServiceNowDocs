@@ -56,7 +56,7 @@ Install Customer Success Management by requesting it from the ServiceNow Store. 
     The Customer Service Management application enables you to automate your onboarding and case monitoring processes and provides service agents with visibility into the customer systems and tools that you need to deliver proactive services to your customers.
 
 
--   **[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US)**
+-   **[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
 
     ServiceNow® Service Exchange connects multiple ServiceNow instances to provide seamless support and service experiences across the ecosystem, from enterprise customers to suppliers and system integrators. Service Exchange provides a frictionless experience that enables efficient collaboration and request processing while giving users the convenience of working in their own ServiceNow instance.
 

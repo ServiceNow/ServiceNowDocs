@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Business and Consumer Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Business and Consumer Portal, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Limit access to product model data on the Business and Consumer Portal

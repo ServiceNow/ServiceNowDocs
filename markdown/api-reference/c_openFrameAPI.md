@@ -7,7 +7,7 @@ product: API Reference
 classification: api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 38
+reading_time_minutes: 39
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -657,7 +657,7 @@ openFrameAPI.setHeight(100);
 
 Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.
 
-For additional information on interactive controls, see .
+For additional information on interactive controls, see [Interaction Controls Component \(ICC\) for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
 For additional information on interaction records, see [CSM voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
@@ -674,23 +674,6 @@ Type
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-Type
-
-</td><td>
-
-String
-
-</td><td>
-
-Type of context data to set. Valid values:
-
--   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]`**Context** parameter.
--   idleState: Sets the idle state capabilities for the current user. When this type is set, the idle state UI \(dial pad\) appears in OpenFrame. When you pass this context type, you must also pass the `<idleState>{}` JSON as the **Context** parameter.
--   offerContext: Sets the current participant's offer context for resiliency. When you pass this context type, you must also pass the `offerContext{}` JSON as the **Context** parameter.
--   searchTargetList: Sets the telephone directory context. When this type is set, it enables **Transfer call** on the Active call component. When you pass this context type, you must also pass the `searchTargetList[]` JSON as the **Context** parameter.
-
-</td></tr><tr><td>
 
 &lt;Context&gt;
 
@@ -1097,23 +1080,6 @@ Default: false
 
 </td></tr><tr><td>
 
-activeCall.currentParticipant.​capabilities.​resumeRecording
-
-</td><td>
-
-Boolean
-
-</td><td>
-
-Flag that indicates whether the participant can resume recording the call.Valid values:
-
--   true: Participant can resume recording the call. The pause recording button is enabled in the UI.
--   false: Participant can't resume recording the call. The pause recording button is disabled in the UI.
-
-Default: false
-
-</td></tr><tr><td>
-
 activeCall.currentParticipant.​capabilities.​pauseRecording
 
 </td><td>
@@ -1126,6 +1092,23 @@ Flag that indicates whether the participant can pause recording the call.Valid v
 
 -   true: Participant can pause recording the call. The pause recording button is enabled in the UI.
 -   false: Participant can't pause recording the call. The pause recording button is disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.​capabilities.​resumeRecording
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the participant can resume recording the call.Valid values:
+
+-   true: Participant can resume recording the call. The pause recording button is enabled in the UI.
+-   false: Participant can't resume recording the call. The pause recording button is disabled in the UI.
 
 Default: false
 
@@ -1445,18 +1428,6 @@ Type of actor for the associated participant. For example:
 
 </td></tr><tr><td>
 
-activeCall.​participants.​ani
-
-</td><td>
-
- 
-
-</td><td>
-
-Automatic number identification. Telephone number to display to the receiver of the phone call.
-
-</td></tr><tr><td>
-
 activeCall.​participants.​address
 
 </td><td>
@@ -1466,6 +1437,18 @@ String
 </td><td>
 
 Participant's telephone number.
+
+</td></tr><tr><td>
+
+activeCall.​participants.​ani
+
+</td><td>
+
+ 
+
+</td><td>
+
+Automatic number identification. Telephone number to display to the receiver of the phone call.
 
 </td></tr><tr><td>
 
@@ -2271,7 +2254,9 @@ Context details of the transfer related data for a ServiceNow table.```
     "nowRecordId": "String",
     "nowRecordTable": "String",
     "participantID": "String",
-    "targets": [Array]
+    "quickStats": [Array],
+    "targets": [Array],
+    "targetTypes": [Array]
   }
 ]
 ```
@@ -2326,6 +2311,51 @@ Unique identifier for the participant from the CCaaS system.
 
 </td></tr><tr><td>
 
+searchTargetList.quickStats
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Optional. Applies only to agent entries. A list of status descriptors displayed inline in the agent row for providing agent status information.```
+"quickStats": [
+  {
+    "label": "String",
+    "value": "String"
+  }
+]
+```
+
+Example rendering: `Available | On Call 1`
+
+</td></tr><tr><td>
+
+searchTargetList.quickStats.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Status label displayed in the agent row.
+
+</td></tr><tr><td>
+
+searchTargetList.quickStats.value
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional value appended to the label.
+
+</td></tr><tr><td>
+
 searchTargetList.​targets
 
 </td><td>
@@ -2364,7 +2394,7 @@ Details about the information to display in the transfer call control.The follow
 }
 ```
 
-This example shows an agent payload \(`"searchTargetList.targets.type" : "agent"`\).
+This example shows an agent payload \(`"searchTargetList.targets.type": "agent"`\).
 
 ```
 "payload": {
@@ -2372,7 +2402,7 @@ This example shows an agent payload \(`"searchTargetList.targets.type" : "agent"
     {
       "name": "Alice Anderson",
       "id": "agent1Id",
-      "hasStats": "true",
+      "hasStats": true,
       "presence": "available",
       "moreInfo": [
         {
@@ -2385,7 +2415,7 @@ This example shows an agent payload \(`"searchTargetList.targets.type" : "agent"
 }
 ```
 
-The following shows an example of a queue payload \(`"searchTargetList.targets.type" : "queue"`\).
+The following shows an example of a queue payload \(`"searchTargetList.targets.type": "queue"`\).
 
 ```
 "payload": {
@@ -2393,7 +2423,7 @@ The following shows an example of a queue payload \(`"searchTargetList.targets.t
     {
       "name": "Product Support Queue",
       "id": "queue1Id",
-      "hasStats": "true",
+      "hasStats": true,
       "moreInfo": [
         {
           "label": "Skill",
@@ -2408,7 +2438,7 @@ The following shows an example of a queue payload \(`"searchTargetList.targets.t
     {
       "name": "Billing Queue",
       "id": "queue2Id",
-      "hasStats": "true",
+      "hasStats": true,
       "moreInfo": [
         {
            "label": "Skill",
@@ -2617,6 +2647,45 @@ Type of target.Valid values:
 -   agent
 -   external
 -   queue
+
+</td></tr><tr><td>
+
+searchTargetList.targetTypes
+
+</td><td>
+
+Array of Strings
+
+</td><td>
+
+Optional. Specifies which tabs to display in the Phone Directory component based on the given interaction.```
+targetTypes: ["String", "String", "String"]
+```
+
+Accepted values:
+
+-   agent
+-   queue
+-   external
+
+Default: All three tabs are displayed.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of context data to set. Valid values:
+
+-   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]`**Context** parameter.
+-   idleState: Sets the idle state capabilities for the current user. When this type is set, the idle state UI \(dial pad\) appears in OpenFrame. When you pass this context type, you must also pass the `<idleState>{}` JSON as the **Context** parameter.
+-   offerContext: Sets the current participant's offer context for resiliency. When you pass this context type, you must also pass the `offerContext{}` JSON as the **Context** parameter.
+-   searchTargetList: Sets the telephone directory context. When this type is set, it enables **Transfer call** on the Active call component. When you pass this context type, you must also pass the `searchTargetList[]` JSON as the **Context** parameter.
 
 </td></tr></tbody>
 </table><table id="table_ylq_rhg_zdc" class="returns"><thead><tr><th>
@@ -2828,7 +2897,7 @@ openFrameAPI.setICContext("activeCall", {
           "connectedTime": "Fri, 12 Jul 2024 20:24:41 GMT",
           "muted": true,
           "held": true,
-          "heldaAtTime": "Fri, 12 Jul 2024 20:24:41 GMT”,
+          "heldAtTime": "Fri, 12 Jul 2024 20:24:41 GMT”,
           "capabilities": {
             "mute": true,
             "endCall": true,
@@ -2873,7 +2942,8 @@ openFrameAPI.setICContext("searchTargetList",
         "nowRecordTable": "interaction",
         "nowRecordId": "1234",
         "externalId": "5678",
-        "participantID": "participant1",
+        "participantID": "participant1”,
+        “targetTypes”: [“agent”, “queue”],
         "targets": [
           {
             "type": "agent",
@@ -2892,7 +2962,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "John Jason",
                   "id": "agent1Id",
-                  "hasStats": "true",
+                  "hasStats": true,
                   "presence": "away",
                   "moreInfo": [
                     {
@@ -2921,7 +2991,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "Product Support Queue",
                   "id": "queue1Id",
-                  "hasStats": "true",
+                  "hasStats": true,
                   "moreInfo": [
                     {
                       "label": "Skill",
@@ -2936,7 +3006,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "Billing Queue",
                   "id": "queue2Id",
-                  "hasStats": "true",
+                  "hasStats": true,
                   "moreInfo": [
                     {
                       "label": "Skill",
@@ -2970,10 +3040,10 @@ var callbackContext = {
       "currentParticipant": {
         "id": "agent1",
         "capabilities": {
-          "initiateCall": "true",
-          "closeCallback": "true",
-          "transfer": "true",
-          "cancelCallbackTransferEligible": "false",
+          "initiateCall": true,
+          "closeCallback": true,
+          "transfer": true,
+          "cancelCallbackTransferEligible": false,
           "callbackTransferStatus": ""
         }
       },
@@ -2982,7 +3052,7 @@ var callbackContext = {
         "callbackNumbers": [
           "8665551234"
         ],
-        "callAttemptedByAgent": "true",
+        "callAttemptedByAgent": true,
         "closeInEndTime": "Mon, 05 Dec 2024 09:25:08 GMT",
         "dialInEndTime": ""
       }
@@ -3457,7 +3527,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -3497,7 +3567,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.

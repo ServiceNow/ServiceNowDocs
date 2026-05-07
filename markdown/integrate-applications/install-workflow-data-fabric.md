@@ -37,7 +37,7 @@ Roles are installed with the Workflow Data Fabric Home store applications. For m
     |WDF Unified Hub|sn\_wdf\_unified\_hub|
     |Now Assist for Workflow Data Fabric \(WDF\)|sn\_nowassist\_wdf|
 
-    A list of the versions available to you are displayed.
+    A list of the versions available to you is displayed.
 
 3.  Select a version from the list and select **Install**.
 

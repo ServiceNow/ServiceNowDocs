@@ -34,8 +34,7 @@ Role required: admin
     The following disclaimer appears on the page:
 
     ```
-    The customer is responsible for ensuring compliance with applicable laws, regulations, directives, and/or standards, 
-    and for ensuring that any content provided in the product is accurate and up to date.
+    The customer is responsible for ensuring compliance with applicable laws, regulations, directives, and/or standards, and for ensuring that any content provided in the product is accurate and up to date.
     The content provided with the product is for ease of use. It is the customer's responsibility to replace it with the applicable laws, regulations, directives, and/or standards at their own discretion. 
     This content has been generated with the help of artificial intelligence (AI) and should be reviewed and validated before use.
     ```

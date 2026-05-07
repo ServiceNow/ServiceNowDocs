@@ -57,15 +57,15 @@ If there’s enough data, the Case summary component displays the **Summarize** 
 
 3.  When you're finished summarizing a case, you can perform additional actions.
 
-<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d32709e235">
+<table id="choicetable_ybr_pjr_mbc"><thead><tr><th align="left" id="d34857e235">
 
 Option
 
-</th><th align="left" id="d32709e238">
+</th><th align="left" id="d34857e238">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d32709e244">
+</th></tr></thead><tbody><tr><td id="d34857e244">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -76,7 +76,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d32709e271">
+</td></tr><tr><td id="d34857e271">
 
 **Expand or collapse the summary**
 
@@ -84,7 +84,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../../customer-service-management/image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../../customer-service-management/image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d32709e292">
+</td></tr><tr><td id="d34857e292">
 
 **Provide feedback for the summary**
 
@@ -92,7 +92,7 @@ Select the expand card icon \(![Expand card icon.](../../customer-service-manage
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../customer-service-management/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../customer-service-management/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d32709e315">
+</td></tr><tr><td id="d34857e315">
 
 **Copy the case summary**
 
@@ -100,7 +100,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../customer-service-management/image/icon-copy.png)\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d32709e331">
+</td></tr><tr><td id="d34857e331">
 
 **Refresh the case summary**
 
@@ -108,7 +108,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../../customer-se
 
 Select the refresh icon \(![Refresh icon.](../image/icon-refresh.png)\) to reload the case summary with any new information that was added to the case.
 
-</td></tr><tr><td id="d32709e346">
+</td></tr><tr><td id="d34857e346">
 
 **View the information about the case summary**
 

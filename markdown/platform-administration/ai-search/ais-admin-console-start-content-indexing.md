@@ -40,15 +40,15 @@ You can also index the content from an indexed source for external documents. Fo
 
 5.  Start indexing.
 
-<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d158317e222">
+<table id="choicetable_wty_414_tdc"><thead><tr><th align="left" id="d161403e222">
 
 Option
 
-</th><th align="left" id="d158317e225">
+</th><th align="left" id="d161403e225">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d158317e231">
+</th></tr></thead><tbody><tr><td id="d161403e231">
 
 **Enable AI Search indexing content from internal indexed sources, including both parent table and its child tables**
 
@@ -58,7 +58,7 @@ Procedure
 2.  Select **Start**.
 
 
-</td></tr><tr><td id="d158317e256">
+</td></tr><tr><td id="d161403e256">
 
 **Enable AI Search indexing content from the source tables, including only the selected child tables**
 

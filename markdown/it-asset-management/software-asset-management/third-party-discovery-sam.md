@@ -19,7 +19,7 @@ The discovery process is an integral part of the Software Asset Management appli
 
 The CMDB application enables other business applications to use the discovered information to support various business needs.
 
-![Third-party discovery sources](../image/third-party-sources.png "Discovery with Software Asset Management")
+![Third-party discovery sources](../image/mmasset0021840-third-party-sources.svg "Discovery with Software Asset Management")
 
 ServiceNow platform's identification and reconciliation engine \(IRE\) framework enables all third-party data integrations with the CMDB application.
 

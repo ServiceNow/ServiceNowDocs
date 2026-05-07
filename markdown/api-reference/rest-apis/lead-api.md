@@ -3536,7 +3536,7 @@ Description
 
 account
 
-</td><td id="d3349e67">
+</td><td id="d3360e67">
 
 Account linked to the lead.Data type: Object
 
@@ -3559,7 +3559,7 @@ Name of the account.Data type: String
 
 account.sys\_id
 
-</td><td id="d3349e91">
+</td><td id="d3360e91">
 
 Sys\_id of the associated account record.
 
@@ -3571,7 +3571,7 @@ Data type: String
 
 business\_phone
 
-</td><td id="d3349e108">
+</td><td id="d3360e108">
 
 Lead's business phone number.Data type: String
 
@@ -3579,7 +3579,7 @@ Lead's business phone number.Data type: String
 
 city
 
-</td><td id="d3349e119">
+</td><td id="d3360e119">
 
 City in which the lead resides.Data type: String
 
@@ -3622,7 +3622,7 @@ Format: UTC
 
 company
 
-</td><td id="d3349e171">
+</td><td id="d3360e171">
 
 Lead's company name.Data type: String
 
@@ -3653,7 +3653,7 @@ Name of the associated consumer.Data type: String
 
 consumer.sys\_id
 
-</td><td id="d3349e208">
+</td><td id="d3360e208">
 
 Sys\_id of the associated consumer record.
 
@@ -3688,7 +3688,7 @@ Contact's name.Data type: String
 
 contact.sys\_id
 
-</td><td id="d3349e250">
+</td><td id="d3360e250">
 
 Sys\_id of the associated contact record.
 
@@ -3700,7 +3700,7 @@ Data type: String
 
 country
 
-</td><td id="d3349e267">
+</td><td id="d3360e267">
 
 Country in which the lead resides.Data type: String
 
@@ -3708,7 +3708,7 @@ Country in which the lead resides.Data type: String
 
 do\_not\_call
 
-</td><td id="d3349e278">
+</td><td id="d3360e278">
 
 Flag that indicates whether the mode of communication is by phone.
 
@@ -3723,7 +3723,7 @@ Data type: Boolean
 
 do\_not\_email
 
-</td><td id="d3349e303">
+</td><td id="d3360e303">
 
 Flag that indicates whether the mode of communication is by email.
 
@@ -3738,7 +3738,7 @@ Data type: Boolean
 
 do\_not\_share
 
-</td><td id="d3349e327">
+</td><td id="d3360e327">
 
 Flag that indicates whether the lead details can be shared.
 
@@ -3753,7 +3753,7 @@ Data type: Boolean
 
 email
 
-</td><td id="d3349e351">
+</td><td id="d3360e351">
 
 Lead's email address.Data type: String
 
@@ -3761,7 +3761,7 @@ Lead's email address.Data type: String
 
 external\_id
 
-</td><td id="d3349e362">
+</td><td id="d3360e362">
 
 ID used by the system that generated the lead to identify the lead in the associated system.Data type: String
 
@@ -3769,7 +3769,7 @@ ID used by the system that generated the lead to identify the lead in the associ
 
 external\_system
 
-</td><td id="d3349e373">
+</td><td id="d3360e373">
 
 Name of the external system associated with the lead, such as HubSpot or pipedrive.Data type: String
 
@@ -3777,7 +3777,7 @@ Name of the external system associated with the lead, such as HubSpot or pipedri
 
 first\_name
 
-</td><td id="d3349e384">
+</td><td id="d3360e384">
 
 First name of the contact associated with the lead.Data type: String
 
@@ -3785,7 +3785,7 @@ First name of the contact associated with the lead.Data type: String
 
 industry
 
-</td><td id="d3349e396">
+</td><td id="d3360e396">
 
 Industry to which the lead belongs.Data type: String
 
@@ -3830,7 +3830,7 @@ Lead group's name.Data type: String
 
 lead\_group.sys\_id
 
-</td><td id="d3349e454">
+</td><td id="d3360e454">
 
 Sys\_id of the lead group record.Data type: String
 
@@ -3872,7 +3872,7 @@ Details of the lead line items associated with the lead.Data type: Array of Obje
 
 lead\_line\_items.​external\_id
 
-</td><td id="d3349e481">
+</td><td id="d3360e481">
 
 ID used by the system that generated the lead line item to identify the line item in the associated system.Data type: String
 
@@ -3880,7 +3880,7 @@ ID used by the system that generated the lead line item to identify the line ite
 
 lead\_line\_items.​external\_system
 
-</td><td id="d3349e492">
+</td><td id="d3360e492">
 
 Name of the external system associated with the lead line item, such as HubSpot or pipedrive.Data type: String
 
@@ -4184,7 +4184,7 @@ Date that the note was created.Data type: String
 
 lead\_line\_items.​work\_notes.​text
 
-</td><td id="d3349e862">
+</td><td id="d3360e862">
 
 Text of the note made by the author.Data type: String
 
@@ -4192,7 +4192,7 @@ Text of the note made by the author.Data type: String
 
 lead\_rating
 
-</td><td id="d3349e873">
+</td><td id="d3360e873">
 
 Rating for the lead such as, 100\_cold, 200\_warm, 300\_hot, or 400\_super\_hot.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_rating field of the Leads table.
 
@@ -4202,7 +4202,7 @@ Data type: String
 
 lead\_score
 
-</td><td id="d3349e886">
+</td><td id="d3360e886">
 
 Score for the lead.Data type: Decimal
 
@@ -4212,7 +4212,7 @@ Range: 1 to 100
 
 lead\_source
 
-</td><td id="d3349e899">
+</td><td id="d3360e899">
 
 Originator of the lead.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_source field of the Leads table.
 
@@ -4222,7 +4222,7 @@ Data type: String
 
 lead\_type
 
-</td><td id="d3349e912">
+</td><td id="d3360e912">
 
 Type of lead, such as New Business or Existing Business.
 
@@ -4234,7 +4234,7 @@ Type of lead, such as New Business or Existing Business.
 
 middle\_name
 
-</td><td id="d3349e930">
+</td><td id="d3360e930">
 
 Middle name of the contact for the lead.Data type: String
 
@@ -4242,7 +4242,7 @@ Middle name of the contact for the lead.Data type: String
 
 mobile\_phone
 
-</td><td id="d3349e942">
+</td><td id="d3360e942">
 
 Phone number of the contact for the lead.Data type: String
 
@@ -4258,7 +4258,7 @@ Unique system-generated number of the lead record.Data type: String
 
 other\_reason
 
-</td><td id="d3349e964">
+</td><td id="d3360e964">
 
 Additional reason for the lead disqualification.Data type: String
 
@@ -4293,7 +4293,7 @@ Name of the person that owns the lead.Data type: String
 
 owner.sys\_id
 
-</td><td id="d3349e1005">
+</td><td id="d3360e1005">
 
 Sys\_id of the user record of the person that owns the lead.Data type: String
 
@@ -4303,7 +4303,7 @@ Table: User \[sys\_user\]
 
 reason
 
-</td><td id="d3349e1019">
+</td><td id="d3360e1019">
 
 Reason for the lead disqualification such as, Disqualify.Data type: String
 
@@ -4313,7 +4313,7 @@ Max length: 40 characters
 
 short\_description
 
-</td><td id="d3349e1032">
+</td><td id="d3360e1032">
 
 Short description of the lead.Data type: String
 
@@ -4348,7 +4348,7 @@ Name of the duplicate lead.Data type: String
 
 similar\_lead.sys\_id
 
-</td><td id="d3349e1073">
+</td><td id="d3360e1073">
 
 Sys\_id of the lead record that is a possible duplicate lead.Data type: String
 
@@ -4358,7 +4358,7 @@ Table: Lead \[sn\_lead\_mgmt\_core\_lead\]
 
 stage
 
-</td><td id="d3349e1086">
+</td><td id="d3360e1086">
 
 Stage of the lead such as, 100\_new.
 
@@ -4370,7 +4370,7 @@ Data type: String
 
 state
 
-</td><td id="d3349e1103">
+</td><td id="d3360e1103">
 
 State in which the lead resides.Data type: String
 
@@ -4378,7 +4378,7 @@ State in which the lead resides.Data type: String
 
 street
 
-</td><td id="d3349e1114">
+</td><td id="d3360e1114">
 
 Street on which the lead resides.Data type: String
 
@@ -4526,7 +4526,7 @@ Format: UTC
 
 title
 
-</td><td id="d3349e1299">
+</td><td id="d3360e1299">
 
 Lead's title.Data type: String
 
@@ -4534,7 +4534,7 @@ Lead's title.Data type: String
 
 website
 
-</td><td id="d3349e1310">
+</td><td id="d3360e1310">
 
 Lead's website URL.Data type: String
 
@@ -4578,7 +4578,7 @@ Date that the note was created.Data type: String
 
 work\_notes.​text
 
-</td><td id="d3349e1361">
+</td><td id="d3360e1361">
 
 Text of the note made by the author.Data type: String
 
@@ -4586,7 +4586,7 @@ Text of the note made by the author.Data type: String
 
 zip
 
-</td><td id="d3349e1372">
+</td><td id="d3360e1372">
 
 Zip code of the associated lead.Data type: String
 
@@ -5497,7 +5497,7 @@ Description
 
 account
 
-</td><td id="d3349e67">
+</td><td id="d3360e67">
 
 Account linked to the lead.Data type: Object
 
@@ -5520,7 +5520,7 @@ Name of the account.Data type: String
 
 account.sys\_id
 
-</td><td id="d3349e91">
+</td><td id="d3360e91">
 
 Sys\_id of the associated account record.
 
@@ -5532,7 +5532,7 @@ Data type: String
 
 business\_phone
 
-</td><td id="d3349e108">
+</td><td id="d3360e108">
 
 Lead's business phone number.Data type: String
 
@@ -5540,7 +5540,7 @@ Lead's business phone number.Data type: String
 
 city
 
-</td><td id="d3349e119">
+</td><td id="d3360e119">
 
 City in which the lead resides.Data type: String
 
@@ -5583,7 +5583,7 @@ Format: UTC
 
 company
 
-</td><td id="d3349e171">
+</td><td id="d3360e171">
 
 Lead's company name.Data type: String
 
@@ -5614,7 +5614,7 @@ Name of the associated consumer.Data type: String
 
 consumer.sys\_id
 
-</td><td id="d3349e208">
+</td><td id="d3360e208">
 
 Sys\_id of the associated consumer record.
 
@@ -5649,7 +5649,7 @@ Contact's name.Data type: String
 
 contact.sys\_id
 
-</td><td id="d3349e250">
+</td><td id="d3360e250">
 
 Sys\_id of the associated contact record.
 
@@ -5661,7 +5661,7 @@ Data type: String
 
 country
 
-</td><td id="d3349e267">
+</td><td id="d3360e267">
 
 Country in which the lead resides.Data type: String
 
@@ -5714,7 +5714,7 @@ Data type: Boolean
 
 email
 
-</td><td id="d3349e351">
+</td><td id="d3360e351">
 
 Lead's email address.Data type: String
 
@@ -5722,7 +5722,7 @@ Lead's email address.Data type: String
 
 external\_id
 
-</td><td id="d3349e362">
+</td><td id="d3360e362">
 
 ID used by the system that generated the lead to identify the lead in the associated system.Data type: String
 
@@ -5730,7 +5730,7 @@ ID used by the system that generated the lead to identify the lead in the associ
 
 external\_system
 
-</td><td id="d3349e373">
+</td><td id="d3360e373">
 
 Name of the external system associated with the lead, such as HubSpot or pipedrive.Data type: String
 
@@ -5738,7 +5738,7 @@ Name of the external system associated with the lead, such as HubSpot or pipedri
 
 first\_name
 
-</td><td id="d3349e384">
+</td><td id="d3360e384">
 
 First name of the contact associated with the lead.Data type: String
 
@@ -5746,7 +5746,7 @@ First name of the contact associated with the lead.Data type: String
 
 industry
 
-</td><td id="d3349e396">
+</td><td id="d3360e396">
 
 Industry to which the lead belongs.Data type: String
 
@@ -5791,7 +5791,7 @@ Lead group's name.Data type: String
 
 lead\_group.sys\_id
 
-</td><td id="d3349e454">
+</td><td id="d3360e454">
 
 Sys\_id of the lead group record.Data type: String
 
@@ -5833,7 +5833,7 @@ Details of the lead line items associated with the lead.Data type: Array of Obje
 
 lead\_line\_items.​external\_id
 
-</td><td id="d3349e481">
+</td><td id="d3360e481">
 
 ID used by the system that generated the lead line item to identify the line item in the associated system.Data type: String
 
@@ -5841,7 +5841,7 @@ ID used by the system that generated the lead line item to identify the line ite
 
 lead\_line\_items.​external\_system
 
-</td><td id="d3349e492">
+</td><td id="d3360e492">
 
 Name of the external system associated with the lead line item, such as HubSpot or pipedrive.Data type: String
 
@@ -6099,7 +6099,7 @@ Name of the measuring unit such as, each or cubic foot.Data type: String
 
 lead\_line\_items.​unit\_of\_measurement.​sys\_id
 
-</td><td id="d3349e809">
+</td><td id="d3360e809">
 
 Sys\_id of the record that describes the measuring unit.Data type: String
 
@@ -6145,7 +6145,7 @@ Date that the note was created.Data type: String
 
 lead\_line\_items.​work\_notes.​text
 
-</td><td id="d3349e862">
+</td><td id="d3360e862">
 
 Text of the note made by the author.Data type: String
 
@@ -6153,7 +6153,7 @@ Text of the note made by the author.Data type: String
 
 lead\_rating
 
-</td><td id="d3349e873">
+</td><td id="d3360e873">
 
 Rating for the lead such as, 100\_cold, 200\_warm, 300\_hot, or 400\_super\_hot.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_rating field of the Leads table.
 
@@ -6163,7 +6163,7 @@ Data type: String
 
 lead\_score
 
-</td><td id="d3349e886">
+</td><td id="d3360e886">
 
 Score for the lead.Data type: Decimal
 
@@ -6173,7 +6173,7 @@ Range: 1 to 100
 
 lead\_source
 
-</td><td id="d3349e899">
+</td><td id="d3360e899">
 
 Originator of the lead.**Note:** This is a choice field. It must contain one of the choice items defined in the lead\_source field of the Leads table.
 
@@ -6183,7 +6183,7 @@ Data type: String
 
 lead\_type
 
-</td><td id="d3349e912">
+</td><td id="d3360e912">
 
 Type of lead, such as New Business or Existing Business.
 
@@ -6195,7 +6195,7 @@ Type of lead, such as New Business or Existing Business.
 
 middle\_name
 
-</td><td id="d3349e930">
+</td><td id="d3360e930">
 
 Middle name of the contact for the lead.Data type: String
 
@@ -6203,7 +6203,7 @@ Middle name of the contact for the lead.Data type: String
 
 mobile\_phone
 
-</td><td id="d3349e942">
+</td><td id="d3360e942">
 
 Phone number of the contact for the lead.Data type: String
 
@@ -6219,7 +6219,7 @@ Unique system-generated number of the lead record.Data type: String
 
 other\_reason
 
-</td><td id="d3349e964">
+</td><td id="d3360e964">
 
 Additional reason for the lead disqualification.Data type: String
 
@@ -6254,7 +6254,7 @@ Name of the person that owns the lead.Data type: String
 
 owner.sys\_id
 
-</td><td id="d3349e1005">
+</td><td id="d3360e1005">
 
 Sys\_id of the user record of the person that owns the lead.Data type: String
 
@@ -6264,7 +6264,7 @@ Table: User \[sys\_user\]
 
 reason
 
-</td><td id="d3349e1019">
+</td><td id="d3360e1019">
 
 Reason for the lead disqualification such as, Disqualify.Data type: String
 
@@ -6274,7 +6274,7 @@ Max length: 40 characters
 
 short\_description
 
-</td><td id="d3349e1032">
+</td><td id="d3360e1032">
 
 Short description of the lead.Data type: String
 
@@ -6309,7 +6309,7 @@ Name of the duplicate lead.Data type: String
 
 similar\_lead.sys\_id
 
-</td><td id="d3349e1073">
+</td><td id="d3360e1073">
 
 Sys\_id of the lead record that is a possible duplicate lead.Data type: String
 
@@ -6331,7 +6331,7 @@ Data type: String
 
 state
 
-</td><td id="d3349e1103">
+</td><td id="d3360e1103">
 
 State in which the lead resides.Data type: String
 
@@ -6339,7 +6339,7 @@ State in which the lead resides.Data type: String
 
 street
 
-</td><td id="d3349e1114">
+</td><td id="d3360e1114">
 
 Street on which the lead resides.Data type: String
 
@@ -6487,7 +6487,7 @@ Format: UTC
 
 title
 
-</td><td id="d3349e1299">
+</td><td id="d3360e1299">
 
 Lead's title.Data type: String
 
@@ -6495,7 +6495,7 @@ Lead's title.Data type: String
 
 website
 
-</td><td id="d3349e1310">
+</td><td id="d3360e1310">
 
 Lead's website URL.Data type: String
 
@@ -6539,7 +6539,7 @@ Date that the note was created.Data type: String
 
 work\_notes.​text
 
-</td><td id="d3349e1361">
+</td><td id="d3360e1361">
 
 Text of the note made by the author.Data type: String
 
@@ -6547,7 +6547,7 @@ Text of the note made by the author.Data type: String
 
 zip
 
-</td><td id="d3349e1372">
+</td><td id="d3360e1372">
 
 Zip code of the associated lead.Data type: String
 

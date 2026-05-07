@@ -217,7 +217,7 @@ This parameter is optional.
 
 </td><td>
 
-Used to display items for guest users or not logged in users. Map the view you wish to display for the guest users.To make the items available to guest users, you must set these to public:
+Used to display items for guest users or not logged in users. Map the view you want to display for the guest users.To make the items available to guest users, you must set these to public:
 
 -   Portal Data List widget.
 -   Page containing widget \(For example, Cases and Tasks\)

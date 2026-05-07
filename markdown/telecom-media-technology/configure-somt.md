@@ -1,15 +1,41 @@
 ---
-title: Configuring Sales and Order Management for Telecommunications \(SOMT\)
-description: Set up the Sales and Order Management for Telecommunications \(SOMT\) application so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
+title: Configuring Sales CRM for Telecommunications
+description: Set up the Sales CRM for Telecommunications application so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+reading_time_minutes: 4
+breadcrumb: [Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Configuring Sales and Order Management for Telecommunications \(SOMT\)
+# Configuring Sales CRM for Telecommunications
 
-Set up the Sales and Order Management for Telecommunications \(SOMT\) application so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
+Set up the Sales CRM for Telecommunications application so that your agents can work on various stages of the product sales life cycle, such as sales opportunities, quotes, order capture and fulfillment, contracts and entitlements, and also the basic product catalog and pricing features used by each application.
+
+To learn about how to install and configure a set of Sales CRM for Telecommunications applications, see the following:
+
+|Applications|Description|
+|------------|-----------|
+|[Activate Sales CRM for Telecommunications](../task/activate-somt.md)|Activate the Sales CRM for Telecommunications plugin for Sales CRM for Telecommunications if you have the admin role. The application includes demo data and activate related ServiceNow® Store applications and plugins if they aren't already installed.|
+|[Install and configure Lead Management](https://www.servicenow.com/docs/access?context=configure-lead-management&version=australia&pubname=australia-order-management&ft:locale=en-US)|It enables sales agents and sales development representatives to create leads and provide pre-sales product recommendations based on customer needs.|
+|[Install and configure Opportunity Management](https://www.servicenow.com/docs/access?context=configure-opportunity-mgmt&version=australia&pubname=australia-order-management&ft:locale=en-US)|It enables sales agents and account executives to get pre-sales product recommendations based on customer needs. You then assign the user roles and configure related features, such as needs analysis, used in Opportunity Management.|
+|[Configure Sales Forecasting](https://www.servicenow.com/docs/access?context=configure-sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US)|Use the Sales Forecasting application to project your future sales volumes and revenue based data from opportunities and pipeline analysis.|
+|[Configuring product offerings and catalogs](configuring-product-offerings-catalog.md)|Create product offerings and the associated product catalogs that can be used by Sales Customer Relationship Management agents for pre-sales activities, order capture, and post-sales engagement.|
+|[Configuring product pricing](https://www.servicenow.com/docs/access?context=som-managing-product-pricing&version=australia&pubname=australia-order-management&ft:locale=en-US)|Use the Pricing Management application to create the price lists and price list lines, define pricing adjustments, and manage other features that control pricing for product offerings.|
+|[Configuring location-based product transactions](https://www.servicenow.com/docs/access?context=config-location-transaction&version=australia&pubname=australia-order-management&ft:locale=en-US)|In Sales Customer Relationship Management, agents can create opportunities, quotes, and orders tailored to customer location. These transactions are called location-based product transactions.|
+|[Configuring CPQ Configurator](https://www.servicenow.com/docs/access?context=configuring-servicenow-cpq&version=australia&pubname=australia-order-management&ft:locale=en-US)|Plan and configure your implementation of the CPQ Configurator. Product catalog admins and agents run CPQ Configurator in the CSM Configurable Workspace, while customers using self-service features use it in the Business Portal.|
+|[Configuring Quote Management](https://www.servicenow.com/docs/access?context=configure-quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US)|Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.|
+|[Configure Sales Agreement Management](https://www.servicenow.com/docs/access?context=configure-sales-agreement-mgmt&version=australia&pubname=australia-order-management&ft:locale=en-US)|Use the Sales Agreement Management application to create sales agreements between a buyer and a seller for future transactions.|
+|[Install and configure Lead to Cash Core](https://www.servicenow.com/docs/access?context=install-and-configure-lead-to-cash&version=australia&pubname=australia-order-management&ft:locale=en-US)|It enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.|
+|[Configuring Customer Engagement Sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&version=australia&pubname=australia-order-management&ft:locale=en-US)|Plan and configure your implementation of Customer Engagement Sequences.|
+|[Configure order fulfillment](https://www.servicenow.com/docs/access?context=configure-order-fulfillment&version=australia&pubname=australia-order-management&ft:locale=en-US)|Order fulfillment is the process for fulfilling customer orders by using Workflow Studio. Order fulfillment, also referred as order orchestration, defines how to coordinate the fulfillment of orders.|
+|[Configure order enrichment flows using Decision Tables](https://www.servicenow.com/docs/access?context=configure-order-enrichment&version=australia&pubname=australia-order-management&ft:locale=en-US)|Associate enrichment subflows with the product or service specifications by using the Order Enrichment Flow Policy in Decision Tables.|
+|[Configuring Jeopardy Management](https://www.servicenow.com/docs/access?context=configuring-jeopardy-management&version=australia&pubname=australia-order-management&ft:locale=en-US)|You can configure Jeopardy Management to monitor tasks in a fulfillment plan and alert managers about the jeopardy levels.|
+|[Configuring Fallout Management](https://www.servicenow.com/docs/access?context=configure-fallout-management&version=australia&pubname=australia-order-management&ft:locale=en-US)|As a provider, you can use Fallout Management to identify, investigate, and resolve order processing issues so that orders can continue processing through to completion.|
+|[Configuring Order Management for customers using Service Bridge](order-mgt-configuring-customers.md)|As a customer, you must complete some configuration tasks so that you can set up the Order Management application.|
+|[Managing post-fulfillment order changes](https://www.servicenow.com/docs/access?context=managing-orders&version=australia&pubname=australia-order-management&ft:locale=en-US)|Efficiently handle a variety of post-fulfillment changes to maintain service quality and operational accuracy after initial order fulfillment. These changes include canceling, suspending, resuming, disconnecting, and modifying orders. Each change type has distinct workflows, dependencies, and impacts on inventory and service states.|
+|[Asynchronous order processing for large customer and consumer orders](https://www.servicenow.com/docs/access?context=asynchronous-order-processing&version=australia&pubname=australia-order-management&ft:locale=en-US)|Asynchronous order processing handles high-volume enterprise and consumer orders without waiting for immediate processing, improving system performance for communications service providers \(CSP\) using Order Management.|
+|[Configuring order priority and routing](order-mgt-priority-management.md)|As a provider, you can configure various parameters to prioritize and route orders to ensure that they are fulfilled on time.|
+|[Integrating Order Management with southbound external systems](order-mgt-integrate-southbound.md)|If you have a Telecommunications Service Management subscription, you can submit outbound service order requests to various external systems by integrating the Order Management application with the external southbound systems.|
 

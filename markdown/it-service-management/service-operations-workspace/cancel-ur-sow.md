@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-You can cancel a universal request only if there are no active or closed primary tickets attached to it. You can cancel a universal request in **New** or **In Progress** state's only. When the universal request is canceled, email notifications are sent to the stakeholders associated with the request.
+You can cancel a universal request only if there are no active or closed primary tickets attached to it. You can cancel a universal request in **New** or **In Progress** states only. When the universal request is canceled, email notifications are sent to the stakeholders associated with the request.
 
 ## Procedure
 

@@ -1,17 +1,17 @@
 ---
-title: Assign a library import task for approval
+title: Assign a library import task for compliance approval
 description: Assign a library import task to the compliance managers assignment group by using the library import task form in the GRC: Policy and Compliance integrator application.
 locale: en-US
 release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Assign a library import task for approval
+# Assign a library import task for compliance approval
 
 Assign a library import task to the compliance managers assignment group by using the library import task form in the GRC: Policy and Compliance integrator application.
 
@@ -27,7 +27,7 @@ Role required: sn\_compliance.admin
 
     The library import task is displayed in the New state as shown in the following example.
 
-    ![Library import task.](../image/lib-import-task-new-related-list.png "Library import task in the New state")
+
 
 2.  On the form, fill in the fields.
 

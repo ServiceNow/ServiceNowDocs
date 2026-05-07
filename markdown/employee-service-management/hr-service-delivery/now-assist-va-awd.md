@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday
@@ -215,7 +215,7 @@ The Get Holiday Calendar Virtual Agent topic enables you to view your holiday ca
 
 ![Holiday Calendar 1](../image/awd-calendar1.png) ![Holiday Calendar 2](../image/awd-calendar2.png)
 
-**Parent Topic:**[Using](using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

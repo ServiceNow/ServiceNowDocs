@@ -20,7 +20,7 @@ The ServiceNow® Advanced Risk application enables you to identify, analyze, eva
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
-AI native experience with three licensing tiers is available.
+Review the updated AI experience with three licensing tiers.
 
 See [Advanced Risk Assessment](https://www.servicenow.com/docs/access?context=advanced-risk-assessment&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
 

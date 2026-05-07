@@ -204,7 +204,7 @@ Iterative prompts for variables and flows
 
 </td><td>
 
-Automatic Automated Test Framework \(ATF\) test generation
+Automatic Automated Test Framework \(ATF\) test creation, editing, and running
 
 </td><td>
 

@@ -176,8 +176,6 @@ Designate what types of tasks display and get counted in the map.
 
 [Change the layout of Dependency Views map](t_ChangeLayoutNGBSMMap.md)
 
-[View metrics for CIs in a Dependency Views map](view-ci-metrics.md)
-
 [Perform actions on nodes in a Dependency Views map](t_PerformActionsOnNGBSMMap.md)
 
 [Export a Dependency Views map](t_ExportAnNGBSMMap.md)

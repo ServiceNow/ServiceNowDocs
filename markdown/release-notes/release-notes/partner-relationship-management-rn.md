@@ -36,5 +36,5 @@ Install Partner Relationship Management by requesting it from the ServiceNow Sto
     Learn how the Customer Service Management \(CSM\) application can help your organization resolve customer issues and requests for your customers. By adopting a proactive customer service approach, you can increase your customer satisfaction and retention.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

@@ -4,8 +4,8 @@ description: The Australia family includes patches and hotfixes.
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-03"
-reading_time_minutes: 1
+last_updated: "2026-05-05"
+reading_time_minutes: 2
 breadcrumb: [Learn about the Australia release, Australia release notes]
 ---
 
@@ -17,7 +17,7 @@ The Australia family includes patches and hotfixes.
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
-**Note:** This version is being evaluated for use in the ServiceNow Government Community Cloud \(GCC\) environment.
+**Note:** This ServiceNow AI Platform® major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
 
 ## Q2 2026 Patching Program Targets
 
@@ -25,9 +25,8 @@ Targets are subject to change prior to patching. Target versions change only if 
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Zurich|[Zurich Patch 7](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-7.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 12 Hotfix 1](https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-patch-12-hf-1.html)|[Yokohama](https://servicenow.com/docs/bundle/yokohama-release-notes/page/release-notes/available-versions.html)|
-|Xanadu|[Xanadu Patch 11 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2711346)|[Xanadu](https://servicenow.com/docs/bundle/xanadu-release-notes/page/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 7a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2935961)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 12 Hotfix 1a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2935652)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -50,6 +49,24 @@ Released on
 Availability
 
 </th></tr></thead><tbody><tr><td>
+
+[Australia Patch 2](quality/australia-patch-2.md)
+
+ [Australia Patch 2 security fixes](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2977251)
+
+</td><td>
+
+Patch
+
+</td><td>
+
+2026/05/05
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
 
 [Australia Patch 1](quality/australia-patch-1.md)
 
@@ -103,6 +120,8 @@ For the latest MetricBase on-premise release notes, refer to [KB0748185](https:/
 
 For information about latest Password Reset Windows Application, ODBC driver, and all other ancillary software available for download from the ServiceNow Store, see [ServiceNow Store release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
+-   **[Australia Patch 2](quality/australia-patch-2.md)**  
+The Australia Patch 2 release contains important problem fixes.
 -   **[Australia Patch 1](quality/australia-patch-1.md)**  
 The Australia Patch 1 release contains important problem fixes.
 -   **[Australia EA Hotfix 1](quality/australia-patch-0-hf-1-PO.md)**  

@@ -7,7 +7,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
@@ -24,6 +24,16 @@ You can use this pattern on the ServiceNow AI Platform using Kingston, London, o
 ## Request apps on the Store
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+
+## Oracle Golden Gate data model
+
+The Oracle Golden Gate pattern introduces the following CI classes that extend an existing CMDB class.
+
+|CI class|Extends from|
+|--------|------------|
+|Oracle Golden Gate \[cmdb\_ci\_appl\_oracle\_golden\_gate\]|Application \[cmdb\_ci\_appl\]|
+|Oracle Golden Gate Replicat Process \[cmdb\_ci\_appl\_ora\_gg\_replicat\]|Application \[cmdb\_ci\_appl\]|
+|Oracle Golden Gate Extract Process \[cmdb\_ci\_appl\_ora\_gg\_extract\]|Application \[cmdb\_ci\_appl\]|
 
 ## Prerequisites
 
@@ -125,7 +135,7 @@ List all parameter files under the Oracle Golden Gate parameter base directory.
     Use the following EVAL closure function to extract the version from the installation directory path if it is empty.
 
     ```
-    inst_dir = ${install_directory}if(inst_dir.isEmpty()){return ${version}}if(inst_dir.startsWith('/')){return inst_dir.replaceAll('/.*/','')}if(!inst_dir.startsWith('/') && !inst_dir.isEmpty()){return inst_dir.replaceAll('.*\\\\',’’)}
+    inst_dir = ${install_directory}if(inst_dir.isEmpty()){return ${version}}if(inst_dir.startsWith('/')){return inst_dir.replaceAll('/.*/','')}if(!inst_dir.startsWith('/') && !inst_dir.isEmpty()){return inst_dir.replaceAll('.*\\\\','')}
     ```
 
 
@@ -216,434 +226,70 @@ CI type for which this credential is used: Storage Server \[cmdb\_ci\_storage\_s
 
 ## Data collected by Discovery during horizontal discovery
 
-Discovery uses the Oracle Golden Gate pattern to collect the data described in the following table.
-
-<table id="table_j52_1bh_vgb"><thead><tr><th>
-
-Table and field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
-
-Main CI cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td></tr><tr><td>
-
-Name\[name\]
-
-</td><td>
-
-Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).
-
-</td></tr><tr><td>
-
-Version\[version\]
-
-</td><td>
-
-Version of the Oracle Golden Gate installation.
-
-</td></tr><tr><td>
-
-Source DB\[source\_db\]
-
-</td><td>
-
-Manager process source database system identifier \(SID\).
-
-</td></tr><tr><td>
-
-Replicats count\[count\_replicat\]
-
-</td><td>
-
-Counter of replicat processes that are managed by the Oracle Golden Gate manager instance.
-
-</td></tr><tr><td>
-
-Extracts count\[count\_extract\]
-
-</td><td>
-
-Counter of extract processes that are managed by the Oracle Golden Gate manager instance.
-
-</td></tr><tr><td>
-
-Configuration file\[config\_file\]
-
-</td><td>
-
-Parameter file of the Oracle Golden Gate process. Specify the path to the configuration file and the file name, &lt;name&gt;.prm
-
-</td></tr><tr><td>
-
-Report File\[report\_file\]
-
-</td><td>
-
-Report file of the Oracle Golden Gate process. Specify the path to the report file and the file name, &lt;name&gt;.rpt
-
-</td></tr><tr><td>
-
-Type\[type\]
-
-</td><td>
-
-Type of the Oracle Golden Gate installation. Specify the Oracle Golden Gate for Oracle technologies.
-
-</td></tr><tr><td>
-
-Installation directory\[install\_directory\]
-
-</td><td>
-
-Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Related CI cmdb\_ci\_appl\_ora\_gg\_replicat
-
-</td></tr><tr><td>
-
-Name\[name\]
-
-</td><td>
-
-Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).
-
-</td></tr><tr><td>
-
-Report file\[report\_file\]
-
-</td><td>
-
-Replicat process report file. Specify the path to the report file and the file name &lt;name&gt;.rpt
-
-</td></tr><tr><td>
-
-Configuration file\[config\_file\]
-
-</td><td>
-
-Parameter file of the replicat process. Specify the path to the configuration file and the file name &lt;name&gt;.prm
-
-</td></tr><tr><td>
-
-Installation directory\[install\_directory\]
-
-</td><td>
-
-Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.
-
-</td></tr><tr><td>
-
-Version\[version\]
-
-</td><td>
-
-Version of the Oracle Golden Gate installation.
-
-</td></tr><tr><td>
-
-Source DB\[source\_db\]
-
-</td><td>
-
-Manager process source database SID.
-
-</td></tr><tr><td>
-
-Operational status\[operational\_status\]
-
-</td><td>
-
-Operational status of the CI. Select **Operational**.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Related CI cmdb\_ci\_appl\_ora\_gg\_extract
-
-</td></tr><tr><td>
-
-Name\[name\]
-
-</td><td>
-
-Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).
-
-</td></tr><tr><td>
-
-Report File\[report\_file\]
-
-</td><td>
-
-Report file of the replicat process.
-
-</td></tr><tr><td>
-
-Configuration file\[config\_file\]
-
-</td><td>
-
-Parameter file of the extract process.
-
-</td></tr><tr><td>
-
-Version\[version\]
-
-</td><td>
-
-Version of the Oracle Golden Gate installation.
-
-</td></tr><tr><td>
-
-Installation directory\[install\_directory\]
-
-</td><td>
-
-Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.
-
-</td></tr><tr><td>
-
-Source DB\[source\_db\]
-
-</td><td>
-
-Manager process source database SID.
-
-</td></tr><tr><td>
-
-Operation status\[operational\_status\]
-
-</td><td>
-
-Operational status of the CI. Select **Operational**.
-
-</td></tr></tbody>
-</table>The Dependency Views map shows discovered load balancer CIs and the relationships between them.
+Discovery uses the Oracle Golden Gate pattern to collect the data described in the following tables.
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).|
+|Version \[version\]|Version of the Oracle Golden Gate installation.|
+|Source DB SID \[source\_db\]|Manager process source database system identifier \(SID\).|
+|Counter for replicat processes \[count\_replicat\]|Counter of replicat processes that are managed by the Oracle Golden Gate manager instance.|
+|Counter for extract processes \[count\_extract\]|Counter of extract processes that are managed by the Oracle Golden Gate manager instance.|
+|Configuration file \[config\_file\]|Parameter file of the Oracle Golden Gate process. Specify the path to the configuration file and the file name, &lt;name&gt;.prm|
+|Replicat File \[report\_file\]|Report file of the Oracle Golden Gate process. Specify the path to the report file and the file name, &lt;name&gt;.rpt|
+|Type \[type\]|Type of the Oracle Golden Gate installation. Specify the Oracle Golden Gate for Oracle technologies.|
+|Installation directory \[install\_directory\]|Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).|
+|Replicat File \[report\_file\]|Replicat process report file. Specify the path to the report file and the file name &lt;name&gt;.rpt|
+|Configuration file \[config\_file\]|Parameter file of the replicat process. Specify the path to the configuration file and the file name &lt;name&gt;.prm|
+|Installation directory \[install\_directory\]|Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.|
+|Version \[version\]|Version of the Oracle Golden Gate installation.|
+|Source DB SID \[source\_db\]|Manager process source database SID.|
+|Operational status \[operational\_status\]|Operational status of the CI. Select **Operational**.|
+
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).|
+|Replicat File \[report\_file\]|Report file of the extract process. Specify the path to the report file and the file name &lt;name&gt;.rpt|
+|Configuration file \[config\_file\]|Parameter file of the extract process.|
+|Version \[version\]|Version of the Oracle Golden Gate installation.|
+|Installation directory \[install\_directory\]|Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.|
+|Source DB SID \[source\_db\]|Manager process source database SID.|
+|Operational status \[operational\_status\]|Operational status of the CI. Select **Operational**.|
+
+The Dependency Views map shows discovered load balancer CIs and the relationships between them.
 
 ![CIs and connections on a Dependency Views map](../image/GoldenGateRelations.png)
 
 ## CI relationships
 
-These relationships are created to support Oracle Golden Gate discovery.
-
-<table id="table_vkt_ywd_rdb"><thead><tr><th>
-
-CI
-
-</th><th>
-
-Relationship
-
-</th><th>
-
-CI
-
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="3">
-
-Main cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td><td>
-
-Manages::Managed by
-
-</td><td>
-
-cmdb\_ci\_appl\_ora\_gg\_replicatcmdb\_ci\_appl\_ora\_gg\_extract
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td><td>
-
-Runs on::Runs
-
-</td><td>
-
-cmdb\_ci\_hardware
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td><td>
-
-Extends from
-
-</td><td>
-
-cmdb\_ci\_appl
-
-</td></tr><tr><td class="sub-head" colspan="3">
-
-Related CI cmdb\_ci\_appl\_ora\_gg\_replicat
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_ora\_gg\_replicat
-
-</td><td>
-
-Managed by::Manages
-
-</td><td>
-
-cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_ora\_gg\_replicat
-
-</td><td>
-
-Runs on::Runs
-
-</td><td>
-
-cmdb\_ci\_hardware
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_ora\_gg\_replicat
-
-</td><td>
-
-Extends from
-
-</td><td>
-
-cmdb\_ci\_appl
-
-</td></tr><tr><td class="sub-head" colspan="3">
-
-Related CI cmdb\_ci\_appl\_ora\_gg\_extract
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_ora\_gg\_extract
-
-</td><td>
-
-Managed by::Manages
-
-</td><td>
-
-cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_ora\_gg\_extract
-
-</td><td>
-
-Runs on::Runs
-
-</td><td>
-
-cmdb\_ci\_hardware
-
-</td></tr><tr><td>
-
-cmdb\_ci\_appl\_ora\_gg\_extract
-
-</td><td>
-
-Extends from
-
-</td><td>
-
-cmdb\_ci\_appl
-
-</td></tr></tbody>
-</table>## Data collected by Service Mapping during top-down discovery
+The Oracle Golden Gate pattern creates the following relationships to support Oracle Golden Gate discovery.
+
+|CI|Relationship|CI|
+|---|------------|---|
+|Oracle Golden Gate \[cmdb\_ci\_appl\_oracle\_golden\_gate\]|Managed by::Manages|Oracle Golden Gate Replicat Process \[cmdb\_ci\_appl\_ora\_gg\_replicat\]|
+|Oracle Golden Gate \[cmdb\_ci\_appl\_oracle\_golden\_gate\]|Managed by::Manages|Oracle Golden Gate Extract Process \[cmdb\_ci\_appl\_ora\_gg\_extract\]|
+|Oracle Golden Gate \[cmdb\_ci\_appl\_oracle\_golden\_gate\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
+|Oracle Golden Gate Replicat Process \[cmdb\_ci\_appl\_ora\_gg\_replicat\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
+|Oracle Golden Gate Extract Process \[cmdb\_ci\_appl\_ora\_gg\_extract\]|Runs on::Runs|Hardware \[cmdb\_ci\_hardware\]|
+
+## Data collected by Service Mapping during top-down discovery
 
 To discover the Oracle Golden Gate process, use the TCP entry point with the proper host and port of the Oracle Golden Gate process.
 
-<table id="table_i4v_1l4_vgb"><thead><tr><th>
+|Field|Description|
+|-----|-----------|
+|Name \[name\]|Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).|
+|Version \[version\]|Version of the Oracle Golden Gate installation.|
+|Installation directory \[install\_directory\]|Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.|
+|Configuration file \[config\_file\]|Parameter file of the Oracle Golden Gate process.|
+|Replicat File \[report\_file\]|Report file of the Oracle Golden Gate replicat process.|
+|Source DB SID \[source\_db\]|Manager process source database SID.|
+|Counter for extract processes \[count\_extract\]|Counter of extract processes that are managed by the Oracle Golden Gate manager instance.|
+|Counter for replicat processes \[count\_replicat\]|Counter of replicat processes that are managed by the Oracle Golden Gate manager instance.|
 
-Table and field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
-
-Main CI cmdb\_ci\_appl\_oracle\_golden\_gate
-
-</td></tr><tr><td>
-
-Name\[name\]
-
-</td><td>
-
-Name of the CI in the CMDB \(&lt;process name&gt;@&lt;source db&gt;\).
-
-</td></tr><tr><td>
-
-Version\[version\]
-
-</td><td>
-
-Version of the Oracle Golden Gate installation.
-
-</td></tr><tr><td>
-
-Installation directory\[install\_directory\]
-
-</td><td>
-
-Folder that contains all the Oracle Golden Gate setup, configuration, libraries, and executable files.
-
-</td></tr><tr><td>
-
-Configuration file\[config\_file\]
-
-</td><td>
-
-Parameter file of the Oracle Golden Gate process.
-
-</td></tr><tr><td>
-
-Report file\[report\_file\]
-
-</td><td>
-
-Report file of the Oracle Golden Gate replicat process.
-
-</td></tr><tr><td>
-
-Source database\[source\_db\]
-
-</td><td>
-
-Manager process source database SID.
-
-</td></tr><tr><td>
-
-Extract process count\[count\_extract\]
-
-</td><td>
-
-Counter of extract processes that are managed by the Oracle Golden Gate manager instance.
-
-</td></tr><tr><td>
-
-Replicat process count\[count\_replicat\]
-
-</td><td>
-
-Counter of replicat processes that are managed by the Oracle Golden Gate manager instance.
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](available-patterns.md)
 

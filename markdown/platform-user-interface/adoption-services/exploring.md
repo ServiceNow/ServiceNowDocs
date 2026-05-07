@@ -1,6 +1,6 @@
 ---
 title: Explore
-description: Dynamic Guidance provides an assistance that is proactive and fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
+description: Dynamic Guidance provides an assistance that is fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
 locale: en-US
 release: australia
 product: Adoption Services
@@ -13,7 +13,7 @@ breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
 
 # Explore
 
-Dynamic Guidance provides an assistance that is proactive and fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
+Dynamic Guidance provides an assistance that is fully embedded within the product, enabling users to access relevant information without navigating away from their Workflow.
 
 Explore various features of Dynamic Guidance:
 
@@ -21,9 +21,9 @@ Explore various features of Dynamic Guidance:
 
     **Note:** User voice or screen share data is not stored. The transcript however, gets logged in the database.
 
--   Responses are based on ServiceNow® documents from the same family release as that of the instance you're on
+-   Responses are based on ServiceNow® product documentation from the same family release as that of the instance you're on
 -   Front-end component to invoke Dynamic Guidance and end a conversation
--   Option for an unlimited number of users running this simultaneously
+-   Option for multiple users running this simultaneously
 -   Enabled to work across the ecosystem of ServiceNow
 -   Near real-time experience and minimized latency
 -   Browser support: In Firefox, while the entire screen or the app gets shared with screen share, you can choose to share only the desired tab in Google Chrome
@@ -36,7 +36,7 @@ Explore various features of Dynamic Guidance:
 
 -   Pause and resume conversation at your pace
 -   Cross-tab control on pausing and ending the conversation although, the transcript can only be accessed from the launching tab of Dynamic Guidance
--   The floating chat window has a floating feature due to which, you can control the conversation from any other open instance window
+-   The chat window has a floating feature which makes it visible on any other open instance across browser tabs. You can control the conversation from the other open instance via floating chat window.
 
 ## How Dynamic Guidance works
 

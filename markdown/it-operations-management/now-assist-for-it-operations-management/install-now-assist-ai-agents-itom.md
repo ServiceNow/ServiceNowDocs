@@ -18,7 +18,7 @@ Activate Now Assist AI agents associated with the Triage and analyze alerts agen
 
 ## Before you begin
 
-Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
+Before activating the Now Assist AI agents, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
 
 To get started with AI agents, you must have:
 

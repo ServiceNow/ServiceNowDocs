@@ -20,7 +20,7 @@ The ServiceNow® Vault application provides a set of data security tools that pr
 -   Enhance your security posture by securing the data in your custom applications with Ask Now Assist.
 -   Surface sensitive data access by users automatically by leveraging Now Assist to configure, audit, and summarize your Access Observer logs.
 
-Early Availability
+[Early availability](../quality/australia-all-other-fixes.md)
 
 -   Identify potential threats and data leaks using the new AI Insights section within the ServiceNow Vault console dashboard.
 -   Use guided setup to begin autoclassifying sensitive data within your custom applications.
@@ -49,7 +49,7 @@ ServiceNow Vault is a bundle of the following products:
 
     Use Ask Now Assist to enhance your security posture autonomously by identifying, classifying, and protecting sensitive data in your custom applications.
 
--   **[Securing custom apps with Vault agents agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-securing-custom-apps-agents&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **[Securing custom apps with the Vault agents agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-securing-custom-apps-agents&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
 
     Propose data classifications and available protections for a custom application. When you install Now Assist for Vault, this agentic workflow is turned on by default.
 
@@ -63,7 +63,7 @@ ServiceNow Vault is a bundle of the following products:
 
 -   **[Field encryption with Vault module agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-field-encryption-module&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
 
-    Encrypt specific fields and configure secure access to users with designated roles using the field encryption with Vault module agentic workflow. When you install Now Assist for Vault, this agentic workflow is turned on by default.
+    Encrypt specific fields and configure secure access to users with designated roles using the field encryption with vault module agentic workflow. When you install Now Assist for Vault, this agentic workflow is turned on by default.
 
 
 -   **[Sensitive data monitoring in AI Insights](https://www.servicenow.com/docs/access?context=vault-tools&version=australia&pubname=australia-platform-security&ft:locale=en-US)**

@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
 # Register a business application by using the conversational experience
@@ -38,15 +38,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Register a business application** or an elaborate instruction that includes the business application's information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d110931e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d96306e162">
 
 Instruction
 
-</th><th align="left" id="d110931e165">
+</th><th align="left" id="d96306e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110931e171">
+</th></tr></thead><tbody><tr><td id="d96306e171">
 
 **Short: Register a business application**
 
@@ -62,7 +62,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   What type of application is this?
  The information you provide is used to fill in the fields of the business application form. You can skip answering a question that is related to non-required fields by entering **skip**.![Screenshot showing Now AssistVirtual Agent chat window showing a request for the registration of a business application.](../image/register-ba-virtual-agent.png)
 
-</td></tr><tr><td id="d110931e221">
+</td></tr><tr><td id="d96306e221">
 
 **Elaborate: Register the new business application XYZ, which is used for capturing application metrics. Specify Abel Tuter as both the business application owner and IT owner. Also, category of the business application is Business Intelligence – Reports and type of application is SaaS.**
 

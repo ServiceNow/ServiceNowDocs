@@ -17,7 +17,7 @@ Import users from consumer system of records into a provider instance.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_mii\_base.admin, sn\_hr\_mii\_provider.admin
 
 **Note:** Set up the required ServiceNow integrations on your provider instance.
 

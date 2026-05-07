@@ -29,15 +29,15 @@ Role required: sn\_imt\_core.admin, sn\_imt\_checkin.checkin\_admin, or admin
 
 3.  Indicate the users who should receive notifications.
 
-<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d742686e96">
+<table id="choicetable_dwh_wnh_j4b"><thead><tr><th align="left" id="d753540e96">
 
 Method
 
-</th><th align="left" id="d742686e99">
+</th><th align="left" id="d753540e99">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d742686e105">
+</th></tr></thead><tbody><tr><td id="d753540e105">
 
 **Add users manually**
 
@@ -45,7 +45,7 @@ Action
 
 Select the users that you want to add to the audience in the **Users** field.
 
-</td></tr><tr><td id="d742686e120">
+</td></tr><tr><td id="d753540e120">
 
 **Upload a spreadsheet of users**
 
@@ -57,7 +57,7 @@ Select the link to add a file in the **Upload file** field.
 
  **Note:** If you have more than 500 entries, split the spreadsheet into multiple files.
 
-</td></tr><tr><td id="d742686e147">
+</td></tr><tr><td id="d753540e147">
 
 **Use additional criteria based on common User \[sys\_user\] table fields**
 
@@ -69,7 +69,7 @@ Select the link to add a file in the **Upload file** field.
     -   Include only users who fulfill all selected criteria by selecting **All the criteria \(AND\)**. Any users listed in the **Users** field are included in the audience only if they also fulfill all the additional criteria.
 
 
-</td></tr><tr><td id="d742686e200">
+</td></tr><tr><td id="d753540e200">
 
 **Enter conditions in the condition builder**
 

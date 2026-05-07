@@ -52,15 +52,15 @@ As a data owner, you have to provide data or responses for multiple metric data 
 
 8.  To provide any evidence for the data that you’ve entered, select the **Attachments and links** tab on the Contextual side panel and add the links and attachments as required.
 
-<table id="choicetable_erk_rkh_pdc"><thead><tr><th align="left" id="d36036e194">
+<table id="choicetable_erk_rkh_pdc"><thead><tr><th align="left" id="d38364e194">
 
 Operating system
 
-</th><th align="left" id="d36036e197">
+</th><th align="left" id="d38364e197">
 
 Keys
 
-</th></tr></thead><tbody><tr><td id="d36036e203">
+</th></tr></thead><tbody><tr><td id="d38364e203">
 
 **After selecting the cell, press the Control key and then and then the I key to open the side panel.
 
@@ -74,7 +74,7 @@ After selecting the cell, press the Command key and then the I key to open the s
 
  Press the Escape key to close the side panel.
 
-</td></tr><tr><td id="d36036e224">
+</td></tr><tr><td id="d38364e224">
 
 **If you’re a Windows user**
 
@@ -89,15 +89,15 @@ After selecting the cell, press the Command key and then the I key to open the s
 
 10. Select the check boxes that you want and then select **Submit**.
 
-<table id="choicetable_swd_hjh_pdc"><thead><tr><th align="left" id="d36036e263">
+<table id="choicetable_swd_hjh_pdc"><thead><tr><th align="left" id="d38364e263">
 
 Operating system
 
-</th><th align="left" id="d36036e266">
+</th><th align="left" id="d38364e266">
 
 Keys
 
-</th></tr></thead><tbody><tr><td id="d36036e272">
+</th></tr></thead><tbody><tr><td id="d38364e272">
 
 **If you’re a macOS user**
 
@@ -107,7 +107,7 @@ Press the Tab key to get the focus on to the select all check box. Press the Ent
 
  If you don’t want to use the select all check box, press the Tab key again to get focus on to the table body. After getting focus on to the body, you can use the arrow keys to navigate between the cells. Press enter to select each check box.
 
-</td></tr><tr><td id="d36036e290">
+</td></tr><tr><td id="d38364e290">
 
 **If you’re a Windows user**
 

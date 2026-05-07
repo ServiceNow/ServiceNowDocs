@@ -1,5 +1,5 @@
 ---
-title: Configure state model transitions
+title: Legacy: Configure state model transitions
 description: You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 locale: en-US
 release: australia
@@ -8,14 +8,16 @@ classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [State model and transitions, Configure, Change Management, IT Service Management]
+breadcrumb: [Legacy: State model and transitions, Configure, Change Management, IT Service Management]
 ---
 
-# Configure state model transitions
+# Legacy: Configure state model transitions
 
 You can use script includes or UI policies to configure state models and the criteria for moving change requests from one state to another.
 
 ## Before you begin
+
+**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](create-a-change-model.md).
 
 Role required: script\_include\_admin, ui\_policy\_admin, or admin
 
@@ -58,5 +60,5 @@ Role required: script\_include\_admin, ui\_policy\_admin, or admin
     3.  Complete and save the UI policy.
 
 
-**Parent Topic:**[State model and transitions](../concept/c_ChangeStateModel.md)
+**Parent Topic:**[Legacy: State model and transitions](../concept/c_ChangeStateModel.md)
 

@@ -1,6 +1,6 @@
 ---
 title: View Zero Copy Connector for ERP system heartbeat information
-description: In Zero Copy Connector for ERP, the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
+description: In Zero Copy Connector for ERP \(Enterprise Resource Planning\), the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, heartbeat, connection, error, status]
-breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Working with ERP systems, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # View Zero Copy Connector for ERP system heartbeat information
 
-In Zero Copy Connector for ERP, the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
+In Zero Copy Connector for ERP \(Enterprise Resource Planning\), the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
 
 ## Before you begin
 

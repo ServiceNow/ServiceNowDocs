@@ -23,7 +23,7 @@ Role required: sn\_ap\_apm.admin
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Administration** &gt; **Invoice exception definition**.
 
-    ![image.apo-invoice-exp-nav]For more information on configuring **invoice exception definition**, see [Invoice exception definition form](../reference/invoice-exception-definition-form.md).
+    ![Navigate to Invoice exception definition](../image/apo-invoice-exp-nav.png)For more information on configuring **invoice exception definition**, see [Invoice exception definition form](../reference/invoice-exception-definition-form.md).
 
 2.  Populate the tolerance type on the invoice exception definition form.
 

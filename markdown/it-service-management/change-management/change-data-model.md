@@ -1,5 +1,5 @@
 ---
-title: Enhanced Change data model
+title: Enhanced change data model
 description: The enhanced Change data model supports better categorization, change model linkage, and role-based access to change templates. This new data model does not impact the existing standard change catalog and no migration of existing standard changes is required.
 locale: en-US
 release: australia
@@ -11,11 +11,11 @@ reading_time_minutes: 2
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
-# Enhanced Change data model
+# Enhanced change data model
 
 The enhanced Change data model supports better categorization, change model linkage, and role-based access to change templates. This new data model does not impact the existing standard change catalog and no migration of existing standard changes is required.
 
-Standard changes are preapproved changes available through the standard change catalog. The catalog properties define the change category and default and required change request values. The data model controls the properties of the standard change catalog and the standard change template. The data model is coupled with standard change and the properties are defined at the outset.
+Standard changes are preapproved changes available through the standard change catalog. The catalog properties define the change category and default and required change request values. The existing data model controls the properties of the standard change catalog and the standard change template.
 
 The enhanced data model adds more customization and precision to the change creation process. It supports a separate template taxonomy, which enables Change managers to organize templates for different types of change models other than standard change catalog categories.
 

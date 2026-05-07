@@ -13,8 +13,6 @@ breadcrumb: [Australia release notes]
 
 Enhance your upgrade experience with configurable release notes that fit your unique upgrade scenario. Assemble product information, fixes included in your targeted release version, and upgrade tasks to streamline your upgrade preparation, even when you skip a family release.
 
-![Build your own release notes process](../image/build-your-own-rn.gif)
-
 <table id="table_uw5_lxw_sjb"><tbody><tr><td>
 
 ![Release notes summaries.](../image/notes-icon.png)

@@ -52,15 +52,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d41076e150">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d43534e150">
 
 Option
 
-</th><th align="left" id="d41076e153">
+</th><th align="left" id="d43534e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41076e159">
+</th></tr></thead><tbody><tr><td id="d43534e159">
 
 **To assign a task manually**
 
@@ -70,7 +70,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d41076e183">
+</td></tr><tr><td id="d43534e183">
 
 **To auto-assign a task**
 

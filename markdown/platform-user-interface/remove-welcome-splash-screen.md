@@ -21,8 +21,6 @@ Role required: admin
 
 A Next Experience welcome splash screen appears in the Core UI when you upgrade your instance but haven't turned on the Next Experience UI on the instance.
 
-![Next Experience UI welcome splash screen.](../image/next-exp-ui-welcome-splash-screen.png "Next Experience welcome screen")
-
 This welcome splash screen appears for admins only. It informs you about the Next Experience UI so you can enable it. After the welcome splash screen has notified you about the Next Experience UI, you can use the following steps to turn off the splash screen.
 
 ## Procedure
@@ -33,7 +31,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 3.  Enter the following values.
 
-<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d136897e128">
+<table id="choicetable_h1c_4hh_jw"><tbody><tr><td id="d137446e114">
 
 **Description**
 
@@ -41,7 +39,7 @@ This welcome splash screen appears for admins only. It informs you about the Nex
 
 A description of the user preference. For example, `Remove the welcome splash screen.`
 
-</td></tr><tr><td id="d136897e140">
+</td></tr><tr><td id="d137446e126">
 
 **User**
 
@@ -53,7 +51,7 @@ The user that the splash screen is turned off for.
 
  To turn off the splash screen for specific users, user the search icon \(![Search image.](../image/SearchIcon.png)\) to find the user and select them in the search results.
 
-</td></tr><tr><td id="d136897e164">
+</td></tr><tr><td id="d137446e150">
 
 **Name**
 
@@ -63,7 +61,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
  `overview_help.visited.NextExperience`
 
-</td></tr><tr><td id="d136897e180">
+</td></tr><tr><td id="d137446e166">
 
 **Value**
 
@@ -71,7 +69,7 @@ User preference name. To turn off the welcome splash screen, enter the following
 
 Enter `true` to enable this user preference, which turns off the welcome splash screen.
 
-</td></tr><tr><td id="d136897e192">
+</td></tr><tr><td id="d137446e178">
 
 **Type**
 
@@ -79,7 +77,7 @@ Enter `true` to enable this user preference, which turns off the welcome splash 
 
 Select **string**.
 
-</td></tr><tr><td id="d136897e205">
+</td></tr><tr><td id="d137446e191">
 
 **System**
 

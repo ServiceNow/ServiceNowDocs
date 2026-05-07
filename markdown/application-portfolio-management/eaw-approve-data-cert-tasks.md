@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 2
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Review and certify data certification tasks
@@ -17,7 +17,7 @@ You can review and complete data certification tasks to confirm that records mee
 
 You must be assigned a certification task as a user or as a member of an assigned user group.
 
-Role required:  sn\_apm.apm\_user
+Role required: sn\_apm.apm\_analyst
 
 ## About this task
 

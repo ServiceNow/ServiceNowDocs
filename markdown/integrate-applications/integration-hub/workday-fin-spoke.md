@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday Financials spoke v2.1.0 is the latest version.
+Workday Financials spoke v2.1.1 is the latest version.
 
 ## Supported versions
 

@@ -230,13 +230,9 @@ Role required: sn\_si.basic or security\_admin
 
 ### Procedure
 
-1.  With the playbook open, click **Add Task**.
-
-    ![Click the Add Task button](../image/add-task-button.png)
+1.  With the playbook open, select **Add Task**.
 
     The Add Custom Task screen opens.
-
-    ![Add a custom playbook task](../image/add-playbook-task.png)
 
 2.  Fill in the fields, as needed.
 
@@ -302,7 +298,7 @@ Outcome type
 
 </td><td>
 
-If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://www.servicenow.com/docs/access?context=t_ViewChoiceListDefinitions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://www.servicenow.com/docs/access?context=t_ViewChoiceListDefinitions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -337,7 +333,7 @@ Description
 Enter a description for the selected task.
 
 </td></tr></tbody>
-</table>3.  When you have completed your entries, click **Add Task**.
+</table>3.  When you have completed your entries, select **Add Task**.
 
     The task is inserted in the playbook following the current task.
 

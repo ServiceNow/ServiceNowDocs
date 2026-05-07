@@ -28,8 +28,6 @@ Roles required:
 
 2.  Choose Security Incident Explorer from the reports list.
 
-    ![Security Incident Response Explorer](../image/SIRExplorerToolBar.png)
-
 
 ## Result
 

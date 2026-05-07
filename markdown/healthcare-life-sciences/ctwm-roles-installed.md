@@ -59,7 +59,7 @@ Contains:
 
  sn\_hco.loc\_support\_agent
 
- wm\_read \(if Field Service Management is installed\)
+ wm\_location\_agent \(if Field Service Management is installed\)
 
 </td><td>
 
@@ -188,6 +188,38 @@ Support Agent Department Manager
 </td><td>
 
 Tracks and manages all the tasks and cases for support departments.
+
+</td></tr><tr><td>
+
+**sn\_hco\_orc.loc\_contributor**
+
+</td><td>
+
+Healthcare Orchestration Location Contributor
+
+</td><td>
+
+ 
+
+</td><td>
+
+Provides create access for orchestration cases. Reports, views, tracks, and responds to orchestration cases.
+
+</td></tr><tr><td>
+
+**sn\_hco\_orc.loc\_manager**
+
+</td><td>
+
+Healthcare Orchestration Location Manager
+
+</td><td>
+
+ 
+
+</td><td>
+
+Responsible for assigning and overseeing tasks, tracking their completion status, and ensuring compliance.
 
 </td></tr><tr><td>
 

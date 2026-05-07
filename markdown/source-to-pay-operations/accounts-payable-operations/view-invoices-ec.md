@@ -23,7 +23,7 @@ Role required: sn\_shop.invoice\_owner
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    ![image.apo-navigate-emp-center]
+    ![Navigate to Employee Center](../image/apo-navigate-emp-center.png)
 
 2.  In the My active items widget, select **Invoices**.
 

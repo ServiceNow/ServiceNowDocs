@@ -13,7 +13,7 @@ breadcrumb: [Configure, Core Business Suite]
 
 Configure Core Business Suite business units using guided setup in the configuration console.
 
-To move your Core Business Suite configurations to a new instance using an update set, see [Manage update set for Setup Hub](https://www.servicenow.com/docs/access?context=ia-update-set&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To move your Core Business Suite configurations to a new instance using an update set, see [Manage update set for Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-update-set&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 **Note:** Some instance-specific tasks might require manual configuration after moving to the new instance.
 

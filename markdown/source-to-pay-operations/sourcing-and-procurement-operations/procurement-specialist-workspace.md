@@ -72,6 +72,8 @@ canvas\_admin
 **Related topics**  
 
 
+[Shopping Hub](shopping-hub-overview.md)
+
 [My purchases on Shopping Hub](my-purchases.md)
 
 [Shopping Hub Mobile](shoppinghub-mobile.md)

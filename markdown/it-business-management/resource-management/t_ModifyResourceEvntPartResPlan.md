@@ -31,8 +31,6 @@ Role required: resource\_manager
 
     For a description of the field names, see [Resource Event form](../reference/rsrc-event-form.md).
 
-    ![Resource event](../image/resource_event.png "A resource event")
-
 
 **Parent Topic:**[Resource event modifications](../concept/c_ModifyAResourceEvent.md)
 

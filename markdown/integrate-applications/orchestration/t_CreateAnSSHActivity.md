@@ -31,7 +31,7 @@ For instructions on using the activity template process flow, see [create custom
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the SSH Execution Command.
 
-<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d656566e120">
+<table id="choicetable_j2l_k2s_d1b"><tbody><tr><td id="d383897e120">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d656566e136">
+</td></tr><tr><td id="d383897e136">
 
 **Target host**
 
@@ -47,7 +47,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d656566e145">
+</td></tr><tr><td id="d383897e145">
 
 **Command**
 
@@ -55,7 +55,7 @@ Host name or IP address of the target server for this activity.
 
 Command this activity runs on the target host. You can invoke a MID Server script from this field using any script type that the SSH command line supports. For more information, see **Advanced SSH script options** below the table.
 
-</td></tr><tr><td id="d656566e157">
+</td></tr><tr><td id="d383897e157">
 
 **Directory**
 
@@ -63,7 +63,7 @@ Command this activity runs on the target host. You can invoke a MID Server scrip
 
 Directory on the target host where the command is run.
 
-</td></tr><tr><td id="d656566e166">
+</td></tr><tr><td id="d383897e166">
 
 **Credential tag**
 
@@ -71,7 +71,7 @@ Directory on the target host where the command is run.
 
 The Orchestration credential tag to use when running the command.
 
-</td></tr><tr><td id="d656566e176">
+</td></tr><tr><td id="d383897e176">
 
 **Required MID Server capabilities**
 
@@ -79,7 +79,7 @@ The Orchestration credential tag to use when running the command.
 
 MID Server with the appropriate capabilities for connecting to the host. By default, the system selects a MID Server with SSH capabilities.
 
-</td></tr><tr><td id="d656566e185">
+</td></tr><tr><td id="d383897e185">
 
 **Long running**
 
@@ -87,7 +87,7 @@ MID Server with the appropriate capabilities for connecting to the host. By defa
 
 If checked, disables the SSH connection timeout for commands that might take longer to run than the default 60 seconds. Orchestration periodically checks the running process to determine its status until it is finished.
 
-</td></tr><tr><td id="d656566e194">
+</td></tr><tr><td id="d383897e194">
 
 **Must Sudo**
 

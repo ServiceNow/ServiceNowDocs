@@ -34,6 +34,6 @@ To configure the Public Sector Digital Services application integration with the
 3.  Add the Work orders related list to the PSDS case type tables for all relevant views on Classic UI and or Workspace.
 4.  If you're an FSM field agent, you can view the relevant PSDS customer data from the work orders by being assigned with the right customer data viewer roles.
 
-    **Note:** An administrator must assign the appropriate PSDS customer data viewer roles to FSM field agents so that they can view the relevant PSDS customer data from work orders. For more information on roles, see [Roles installed with graPublic Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md).
+    **Note:** An administrator must assign the appropriate PSDS customer data viewer roles to FSM field agents so that they can view the relevant PSDS customer data from work orders. For more information on roles, see [Roles installed with Public Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md).
 
 

@@ -23,9 +23,9 @@ Consider creating and printing a PDF of this checklist topic. You can then check
 
 ## Procedure
 
-1.  To generate a PDF, click the save as PDF icon \(![Save as PDF icon.](../image/pdf.png)\) at the top of the topic.
+1.  To generate a PDF, select the save as PDF icon \(![Save as PDF icon.](../image/pdf.png)\) at the top of the topic.
 
-2.  Click the **Selected topic**.
+2.  Select the **Selected topic**.
 
 <table id="table_lqq_1qt_rhb"><thead><tr><th>
 

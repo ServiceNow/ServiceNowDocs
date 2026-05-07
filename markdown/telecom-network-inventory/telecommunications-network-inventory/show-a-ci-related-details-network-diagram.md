@@ -42,15 +42,15 @@ With the use of a network diagram, you can do the following:
 
     On the network diagram you can do the following actions:
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d28943e129">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d31756e129">
 
 Option
 
-</th><th align="left" id="d28943e132">
+</th><th align="left" id="d31756e132">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d28943e138">
+</th></tr></thead><tbody><tr><td id="d31756e138">
 
 **Expand the network diagram and view the underlying elements**
 
@@ -60,7 +60,7 @@ Details
 2.  Expand further by selecting the add icon \(![Add Icon](../image/icon-add-circuit.png)\) of the underlying connection nodes.
  **Note:** When there are underlying connection elements in a logical connection, the connection node appears as a stacked pill shape. After expansion, it transforms into a box shape.
 
-</td></tr><tr><td id="d28943e171">
+</td></tr><tr><td id="d31756e171">
 
 **View the revision of the logical connection**
 
@@ -73,7 +73,7 @@ Details
 2.  Select **Current view** to view the original logical connection.
  You can toggle the view between the original logical connection and revision of the logical connection to compare the differences.
 
-</td></tr><tr><td id="d28943e212">
+</td></tr><tr><td id="d31756e212">
 
 **View the protection path**
 
@@ -85,7 +85,7 @@ You can’t expand the underlying connection elements of a protection path. To v
 
 To learn more about to create a protection path, see [Create a protection path](create-a-protection-path.md).
 
-</td></tr><tr><td id="d28943e252">
+</td></tr><tr><td id="d31756e252">
 
 **View the details of a connection node**
 

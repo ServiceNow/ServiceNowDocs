@@ -17,7 +17,7 @@ In reports on service catalog data, stack and group by variables, use variables 
 
 ## Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 Users with the report\_admin role can report on service catalog variables. Add the report\_admin role to the ACLs for the Options \[sc\_item\_option\], Variable Ownership \[sc\_item\_option\_mtom\], and Variables \[item\_option\_new\] tables.
 
@@ -42,7 +42,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 2.  Do one of the following.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d200691e123">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d206503e123">
 
 **Add as a column in a list report**
 
@@ -50,7 +50,7 @@ Use a variable as an extra **Group by**, as a column in a list report, or as a c
 
 On the **Configure** tab, move **Variables+** to the **Selected** column.
 
-</td></tr><tr><td id="d200691e141">
+</td></tr><tr><td id="d206503e141">
 
 **Add as an extra __Group by__**
 
@@ -58,7 +58,7 @@ On the **Configure** tab, move **Variables+** to the **Selected** column.
 
 On the **Configure** tab, click **Additional group by**, then move **Variables+** at the bottom of the **Selected** of the **Additional group by** list.
 
-</td></tr><tr><td id="d200691e168">
+</td></tr><tr><td id="d206503e168">
 
 **Add as a column or row in a multilevel pivot table**
 

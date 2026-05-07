@@ -31,7 +31,7 @@ The following table lists the features and skills that you can access from the N
 
 1.  Install the OT Manager Foundation plugin \(sn\_otm\_gen\_ai\).
 
-    -   For information about the application dependencies, see [Supporting information for the OT Manager Foundation](../concept/supporting-information-for-now-assist-otm.md).
+    -   For information about the application dependencies, see [Supporting information for OT Manager Foundation](../concept/supporting-information-for-now-assist-otm.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 2.  Navigate to **All** &gt; **Now Assist Admin**.
 

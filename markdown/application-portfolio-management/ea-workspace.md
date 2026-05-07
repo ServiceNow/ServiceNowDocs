@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture]
 ---
 
 # Enterprise Architecture Workspace
@@ -19,27 +19,27 @@ Enterprise Architecture Workspace Overview
 
 <table id="table_wt1_s3q_ffc" class="nav-card"><tbody><tr><td>
 
-[Explore![Key features](../../../common/image/icon-explore.png) Learn the key features and business value that Enterprise Architecture Workspace offers](explore-eaw.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn the key features and business value that Enterprise Architecture Workspace offers](explore-eaw.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Configure Enterprise Architecture Workspace](eaw-concept/configure-eaw.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configure Enterprise Architecture Workspace](eaw-concept/configure-eaw.md)
 
 </td><td>
 
-[Integrate ![Integrate](../../../common/image/icon-integrate.png) Integrate Enterprise Architecture Workspace with other applications](eaw-concept/eaw-integrate-eaw-with-other-apps.md)
+[Integrate ![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg) Integrate Enterprise Architecture Workspace with other applications](eaw-concept/eaw-integrate-eaw-with-other-apps.md)
 
 </td></tr><tr><td>
 
 [Use](eaw-concept/eaw-managing-ea-workspace.md)
 
- [![Using](../../../reuse/images/request.png)](eaw-concept/eaw-managing-ea-workspace.md)
+ [![](../../../reuse/icons/brand-icons/bus-manage.svg)](eaw-concept/eaw-managing-ea-workspace.md)
 
  [Learn how to use Enterprise Architecture Workspace](eaw-concept/eaw-managing-ea-workspace.md)
 
 </td><td>
 
-[Reference ![Reference](../image/icon-reference-2.png) Get details about components, form fields, and general guidelines of Enterprise Architecture](../reference/eaw-reference/eaw-reference.md)
+[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components, form fields, and general guidelines of Enterprise Architecture](../reference/eaw-reference/eaw-reference.md)
 
 </td><td>
 
@@ -64,5 +64,5 @@ Understand the process required to set up Enterprise Architecture Workspace to w
 -   **[Enterprise Architecture Workspace reference](../reference/eaw-reference/eaw-reference.md)**  
 Reference topics that provide additional details about Enterprise Architecture Workspace such as the field descriptions, user roles, tables, guidelines, and domain separation information.
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\)](application-portfolio-management-landing-page.md)
+**Parent Topic:**[Enterprise Architecture](application-portfolio-management-landing-page.md)
 

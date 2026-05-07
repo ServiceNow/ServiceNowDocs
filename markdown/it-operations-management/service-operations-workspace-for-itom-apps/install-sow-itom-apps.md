@@ -55,3 +55,5 @@ For more information, see [Components installed with AIOps Experience](../refere
 6.  Select **Install**.
 
 
+**Parent Topic:**[Configuring Service Operations Workspace for ITOM](../concept/configure-sow-itom.md)
+

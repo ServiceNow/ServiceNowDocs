@@ -63,8 +63,7 @@ Version
 Version of the product or service that is included in the release.The list of available versions is filtered based on the **Release validates a new product version** field.
 
 -   If selected, the list displays only versions that have not been used in a previous release.
--   If clear, the list displays all versions, including those with active releases.
--   If you enter a new version, it will be created and associated with the release.
+-   If cleared, the list displays all versions of the product or service, including those with active releases.
 
 </td></tr><tr><td>
 

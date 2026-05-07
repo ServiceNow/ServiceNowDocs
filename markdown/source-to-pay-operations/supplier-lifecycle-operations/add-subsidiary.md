@@ -31,8 +31,6 @@ Role required: sn\_slm.owner or sn\_slm.admin
 
 4.  Select the **Subsidiaries** tab and then select **Add**.
 
-    ![Selected Add button for adding a subsidiary.](../image/add-subsidiary.png)
-
 5.  In the **Select subsidiary** field of the Add subsidiary dialog box, search for and select a subsidiary.
 
 6.  Select **Add**.

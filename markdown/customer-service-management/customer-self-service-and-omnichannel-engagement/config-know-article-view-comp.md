@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Knowledge article view component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Knowledge article view component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Knowledge article view component instance

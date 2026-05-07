@@ -6,9 +6,9 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Import Models and Templates, Use, Telecommunications Network Inventory]
+breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
 
 # Import a model
@@ -76,9 +76,7 @@ Select **Attach File** to attach the import model file.**Note:**
 </td></tr></tbody>
 </table>6.  Download the demo data and model template by selecting **Create Excel Template**.
 
-    ![Downloaded excel template to import models.](../image/Import_template.png)
-
-    -   The excel template is created based on the Import model template \[sn\_ni\_adv\_import\_model\_template\] table. An admin can customize the template and update it as required.
+    -   The [Import model excel template](../reference/import-model-excel-template.md) is created based on the Import model template \[sn\_ni\_adv\_import\_model\_template\] table. An admin can customize the template and update it as required.
     -   The following relationship types are supported for import models.
         -   Equipment to slot
         -   Slot to card
@@ -107,5 +105,5 @@ The **Import Results** tab appears next to the **Details** tab where you can vie
 -   Redirect to the generated model from **Import Results** tab.
 -   Delete a record. To learn more, see [Delete a record](delete-inventory-record.md).
 
-**Parent Topic:**[Import Models and Templates](../concept/import-models-and-templates.md)
+**Parent Topic:**[Import models and templates](../concept/import-models-and-templates.md)
 

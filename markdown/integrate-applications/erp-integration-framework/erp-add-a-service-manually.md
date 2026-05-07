@@ -1,24 +1,24 @@
 ---
 title: Add an OData service manually in Zero Copy Connector for ERP
-description: When adding an entity to a model using OData, if the service you need isn't listed, add the service manually.
+description: When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, service, manually, metadata, url, file, xml]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData service manually in Zero Copy Connector for ERP
 
-When adding an entity to a model using OData, if the service you need isn't listed, add the service manually.
+When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_erp\_integration.erp\_admin
 
 You can connect to an ERP system based on a metadata URL or an uploaded metadata file \(xml\). The file option enables you to, for example, access data from SuccessFactors. For more information, see [Obtain data from SAP SuccessFactors using OData v2 APIs](../concept/obtain-data-from-successfactors-using-odata-v2-apis.md).
 
@@ -27,12 +27,7 @@ Before you can add a service manually, you must do the following:
 -   Confirm that you have an SAP system that has been enabled to make an OData connection.
 -   Enable the **sn\_erp\_integration.enableModelModification** property. For more information, see [Install Zero Copy Connector for ERP](install-erp-integration.md).
 -   Create a connection and credential alias, specifying HTTP as the **Connection type**. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   Create an HTTP connection for the service. Add the connection alias that you created, the connection URL, and the odata\_ping\_url.
-
-    ![Http connection record with key fields highlighted.](../image/erp-add-system-manually1.png)
-
-    For more information, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
-
+-   Create an HTTP connection for the service. Add the connection alias that you created and the connection URL.
 -   Create a system that uses the HTTP connection. For more information, see [Create an ERP system in Zero Copy Connector for ERP](create-an-erp-system.md). On the system record, confirm that the heartbeats are successful and the retrieval status is complete. If any have failed, select **Restart data retrieval**.
 -   If you're going to connect using a URL, copy the metadata URL from the ERP system to which you're linking. Use the relative URL containing only the path following the domain, for example, v2/northwind/northwind.svc/$metadata.
 
@@ -55,8 +50,6 @@ Before you can add a service manually, you must do the following:
 7.  Select **Select entity** on the **Manage entities** tab.
 
 8.  In **Select type**, select **OData**.
-
-    The drop-down list in the **Select type** field only displays the types supported by the ERP system's software version specified on the model record. For example, if **SAP SuccessFactors Cloud** is set in the **ERP software** field for the model, the only entity type available is OData.
 
 9.  Select **+ Add service manually**.
 

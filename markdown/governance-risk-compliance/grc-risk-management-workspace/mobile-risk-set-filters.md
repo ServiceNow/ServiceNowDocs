@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,10 +18,6 @@ Set additional filters to limit the number of records that are displayed on a sc
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-Time to complete this task: 5 minutes.
 
 ## Procedure
 

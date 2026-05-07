@@ -37,7 +37,7 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
     |Description|Brief description of the KPI performance domain.|
     |Active|Indicates whether the KPI performance domain record is active. This option is enabled by default.|
 
-5.  Select **Submit**.![Selected button for saving the new performance domain.](../image/create-kpi-performance-domain.png)
+5.  Select **Submit**.
 
     A record is created for the new performance domain.
 

@@ -24,7 +24,7 @@ Request the Now Assist for Order Management application from the [ServiceNow Sto
 
 ## Configuring order summarization skill
 
-The Now Assist skills for SOM:
+The Now Assist skills for Sales CRM:
 
 -   Order summarization for order capture
 -   Order summarization for order fulfillment
@@ -52,6 +52,8 @@ Business-to-business \(B2B\) customers can submit invoice cases using Now Assist
 -   [Make the invoice dispute assist workflow available in the Now Assist panel](../task/enable-invoice-dispute-assist-agentic-workflow.md)
 
 Enable AI voice agent support on your phone channels by installing the Now Assist Voice \[sn\_voice\_aia\] plugin. For more information, see [Deploy AI voice agents](https://www.servicenow.com/docs/access?context=deploy-ai-agents-for-voice&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+
+Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://www.servicenow.com/docs/access?context=configure-chat-summarization-in-now-assist_0&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
 
 **Related topics**  
 

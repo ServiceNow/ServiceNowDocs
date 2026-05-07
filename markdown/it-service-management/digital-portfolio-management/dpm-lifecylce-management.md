@@ -17,9 +17,7 @@ The Digital Portfolio Management \(DPM\) Workspace enables you to work in the pl
 
 The DPM plan-build-run life cycle surfaces data from other ServiceNow® products in a central location. To view data and take basic actions in the DPM experience, you must install the plugins and roles. For more information, see [Digital Portfolio Management related applications and data sources](../reference/dpm-related-products.md).
 
-Listen to an overview of the DPM team, the application, and how it works for solution owners in the plan-build-run life cycle.
-
-Digital Portfolio Management overview.
+Listen to an overview of the DPM team, the application, and how it works for solution owners in the plan-build-run life cycle: [TechBytes, Episode 63](https://www.youtube.com/watch?v=73J2e5FuRwc&t=153s).
 
 The life-cycle management phases come standard with DPM but all records are fully configurable to match how you work. For information on how Admins can control the configuration in DPM, see [Configure the Digital Portfolio Management experience](../task/dpm-configure-experience.md). For information about other configurations, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
 

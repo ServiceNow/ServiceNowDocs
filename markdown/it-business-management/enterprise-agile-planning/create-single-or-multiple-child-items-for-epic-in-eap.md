@@ -7,7 +7,7 @@ product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -37,15 +37,15 @@ This task details the procedure of creating stories for work items such as Epic,
 
 5.  From the work item details page, create stories manually or with Now Assist.
 
-<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d181200e131">
+<table id="choicetable_bq5_qnc_tcc"><thead><tr><th align="left" id="d177243e131">
 
 Choice
 
-</th><th align="left" id="d181200e134">
+</th><th align="left" id="d177243e134">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d181200e140">
+</th></tr></thead><tbody><tr><td id="d177243e140">
 
 **Creating manually**
 
@@ -58,7 +58,7 @@ Action
 
 The full details page of the created story is displayed.
 
-</td></tr><tr><td id="d181200e172">
+</td></tr><tr><td id="d177243e172">
 
 **Using Now Assist**
 
@@ -68,7 +68,7 @@ See [Create stories agentic workflow using Now Assist for Strategic Portfolio Ma
 
  For epics and features, you can use the generative AI skills of Now Assist to automatically generate stories, saving time and reducing manual effort. See [Generate multiple stories at once in EAP using Now Assist for SPM](../../now-assist-spm/task/generate-stories-from-epics-now-assist-eap.md).
 
-**Note:** This feature requires activating the Agile story generation skill of Now Assist for SPM. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+**Note:** This feature requires activating the Agile story generation skill of Now Assist for SPM. For more information, see .
 
 </td></tr></tbody>
 </table>    The newly created stories are listed in the Stories tab of the work item details page.
@@ -81,7 +81,7 @@ See [Create stories agentic workflow using Now Assist for Strategic Portfolio Ma
 
     -   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill with Now Assist Context Menu \(NACM\)](../../now-assist-spm/task/refine-text-with-write-planning-item-skill.md).
 
-        This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+        This feature requires activating the Write planning item skill of Now Assist for SPM. For more information, see .
 
     -   Update other fields of the story.
     -   Add dependencies or scrum tasks to the story.

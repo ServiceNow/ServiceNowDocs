@@ -23,7 +23,7 @@ Use the ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) appli
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the application to get started with Now Assist for SPM](../task/configure-now-assist-for-spm.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure the application to get started with Now Assist for SPM](configuring-na-spm.md)
 
 </td><td>
 

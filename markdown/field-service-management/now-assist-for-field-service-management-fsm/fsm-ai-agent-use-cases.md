@@ -7,7 +7,7 @@ product: Now Assist for Field Service Management \(FSM\)
 classification: now-assist-for-field-service-management-fsm
 topic_type: concept
 last_updated: "2026-03-27"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Field Service Management, AI agent, Parts Manager]
 breadcrumb: [Now Assist for FSM]
 ---
@@ -21,6 +21,7 @@ Use the AI agent collection for Field Service Management to create work orders a
 |AI agents|Description|
 |---------|-----------|
 |Create work order|Creates a work order using text or an image. The AI agent can be accessed on the platform or on the ServiceNow Agent mobile application.|
+|Parts Manager|Tracks and validates parts usage when closing work order tasks. The AI agent analyzes activity notes to update parts statuses and automatically adjusts inventory. The AI agent can be accessed on the platform or on the ServiceNow Agent mobile application.|
 
 To install and set up AI agents on your instance, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Set up Now Assist AI agents](https://www.servicenow.com/docs/access?context=set-up-na-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 

@@ -1,6 +1,6 @@
 ---
 title: Create and propose a change template
-description: Create, customize, and then propose for publication a change template aligned to a change model to standardize common change requests and not have to create them manually.
+description: Create, customize, and then propose for publication a change template aligned to a change model to make change creation faster, and promote data quality and consistency.
 locale: en-US
 release: australia
 product: Change Management
@@ -13,13 +13,13 @@ breadcrumb: [Create a Change model, Configure, Change Management, IT Service Man
 
 # Create and propose a change template
 
-Create, customize, and then propose for publication a change template aligned to a change model to standardize common change requests and not have to create them manually.
+Create, customize, and then propose for publication a change template aligned to a change model to make change creation faster, and promote data quality and consistency.
 
 ## Before you begin
 
 Role required: change\_manager
 
-You must have a role with the following access with regard to the change model to modify or retire a change template:
+You must have a role with the following access with regard to the change model to create and propose a change template:
 
 -   Access to read
 -   Access to modify
@@ -28,15 +28,15 @@ You must have a role with the following access with regard to the change model t
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d409019e65">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d411024e65">
 
 Source
 
-</th><th align="left" id="d409019e68">
+</th><th align="left" id="d411024e68">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d409019e74">
+</th></tr></thead><tbody><tr><td id="d411024e74">
 
 **Change Model**
 
@@ -48,7 +48,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d409019e111">
+</td></tr><tr><td id="d411024e111">
 
 **Create a change request page**
 
@@ -68,7 +68,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d409019e168">
+</td></tr><tr><td id="d411024e168">
 
 **Templates tab**
 
@@ -148,7 +148,7 @@ A change template is created and sent for approval to the approvers configured i
 To view the review status of all the templates proposed by you, navigate to **All** &gt; **Models** &gt; **My Template Proposals**.
 
 -   **[Configure template categories](configure-template-categories.md)**  
-Create template categories and child categories to classify templates based on a change model, template usage, and requirements.
+Create template categories and child categories to classify templates based on a change model, template usage, and organizational areas like software or security.
 -   **[Modify a template](modify-or-retire-template.md)**  
 Copy and modify change templates.
 -   **[Review a change template](review-change-template.md)**  

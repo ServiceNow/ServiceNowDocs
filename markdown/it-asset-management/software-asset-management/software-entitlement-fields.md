@@ -283,7 +283,7 @@ Owned by
 
 </td><td>
 
-User or department with financial ownership of the asset. The asset owner can be different than the manager.
+Department with financial ownership of the asset. The asset owner can be different than the manager.
 
 </td></tr><tr><td>
 

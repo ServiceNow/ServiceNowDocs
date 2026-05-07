@@ -53,8 +53,8 @@ Role required: itil, rota\_manager, rota\_admin
 
 -   **[Edit On-call team preference using Teams menu](oncall-team-preference-tab-in-teams.md)**  
 Use the **Teams** menu to edit the on-call preferences for a selected team.
--   **[Edit delivery channel](work-on-a-notification-preference-rule-in-sow.md)**  
-Edit rules and delivery channels.
+-   **[Manage delivery channel](work-on-a-notification-preference-rule-in-sow.md)**  
+Add, edit, and delete delivery channels for notification preference rules in .
 
 **Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](configuring-oncall-scheduling-sow.md)
 

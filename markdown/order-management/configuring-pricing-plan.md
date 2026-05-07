@@ -1,0 +1,180 @@
+---
+title: Configurable pricing plans
+description: Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices.
+locale: en-US
+release: australia
+topic_type: concept
+last_updated: "2025-07-31"
+reading_time_minutes: 5
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+---
+
+# Configurable pricing plans
+
+Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices.
+
+## How the pricing plan works
+
+The default pricing plan is an active, published plan that is automatically implemented with Pricing Management. You can use the default plan. Or you can copy the default plan and customize it by adding or changing the pricing steps to tailor it for your organization. Only one active pricing plan per domain is supported.
+
+**Note:** The Pricing Management v15.0.0 release provides a default pricing plan that includes new steps to support pricing strategies introduced in this release. If you're using a custom pricing plan from an earlier release, review the default pricing plan, which is in a Retired state after you upgrade. Determine whether you want to publish the default plan or customize the default pricing plan for your needs. If you're customizing the plan:
+
+-   Review the new steps for calculating net pricing in quotes and orders: Net Price Calculation, Line Rollup, and Header Rollup. The rollup steps calculate the roll-up values for configurable products and the header-level values in quotes and orders. This pricing functionality for quotes and orders existed in previous releases, but was not included in the default pricing plan.
+-   To maintain the net pricing and rollup functionality for quotes and orders, retain the Net Price Calculation, Line Rollup, and Header Rollup steps in your custom pricing plan.
+
+![Sequence of steps in the default pricing plan, described in the following table](../image/default-pricing-plan-q42025.png "Default Pricing Plan steps")
+
+The default plan consists of basic pricing steps in which certain actions are run to calculate product offering prices.
+
+<table id="table_nrc_vpm_ddc"><thead><tr><th>
+
+Step
+
+</th><th>
+
+Action
+
+</th></tr></thead><tbody><tr><td>
+
+Initialize Pricing Context
+
+</td><td>
+
+Starts the pricing engine context. The system gathers basic data required for subsequent calculation steps. For example, the system resolves context variable values, initializes the pricing cache, and performs basic validation of request payloads.
+
+</td></tr><tr><td>
+
+Analyze Line Changes
+
+</td><td>
+
+Reviews price line changes to determine whether adjustments to sold products and contracts require new pricing, as defined in the Delta Price Treatment Matrix.
+
+</td></tr><tr><td>
+
+Fetch Base Cost
+
+</td><td>
+
+Get costs from a [cost book](../task/create-cost-books.md), if your organization is using cost books in Quote Management.
+
+</td></tr><tr><td>
+
+Apply Attribute based Cost Adjustments
+
+</td><td>
+
+Apply adjustments to the cost based on product offering characteristics.
+
+</td></tr><tr><td>
+
+Fetch Base List Price
+
+</td><td>
+
+Get the list price for all requested products based on the [price list](../task/som-create-price-list.md), unit of measurement, and data provided to the pricing API.
+
+</td></tr><tr><td>
+
+Apply Attribute Adjustments
+
+</td><td>
+
+Apply attribute adjustments based on product characteristics selected.
+
+</td></tr><tr><td>
+
+Apply Renewal Adjustment
+
+</td><td>
+
+Apply a renewal adjustment for contracts. This step determines whether a markup or markdown value, either a percentage or specific amount, such as a pricing uplift for contract renewals, is to be calculated and applied. **Note:**
+
+-   Subsequent pricing adjustment steps in the pricing plan aren’t applied after this renewal adjustment step.
+-   You can change or remove this step in a custom pricing plan. You can also change the conditions for running subsequent steps after the renewal adjustment step. For details on changing conditions for a particular step, see [Add or change a pricing plan step](../task/add-pricing-step.md).
+
+</td></tr><tr><td>
+
+Annual Price Increase Adjustments for Ramps
+
+</td><td>
+
+Applies the percentage Annual Price Increase to the list price of products that have price ramps. Sales agents specify the percentage increase when they create price ramps for quote line items.
+
+</td></tr><tr><td>
+
+Apply configuration component adjustments
+
+</td><td>
+
+Apply adjustments as defined in the Configuration Component Price Adjustment Matrix for child product offerings that are bundled under a parent product offering.
+
+</td></tr><tr><td>
+
+Apply contextual adjustments
+
+</td><td>
+
+Apply adjustments as defined in the Standard Price Adjustment Matrix for product offerings based on non-product characteristics, such as billing state or shipping zip code.
+
+</td></tr><tr><td>
+
+Custom adjustments
+
+</td><td>
+
+Apply custom adjustments if implemented using the PricingAdjustmentExtensionPoint to fetch adjustments from another system or for adjustments that can't be supported via a pricing matrix.
+
+</td></tr><tr><td>
+
+Net Price Calculation
+
+</td><td>
+
+Calculates the net price for products using any automatic and manual adjustments made in quotes or orders.
+
+</td></tr><tr><td>
+
+Line Rollup
+
+</td><td>
+
+Calculates the cumulative pricing fields in quote and order lines that are rolled up to the parent line of bundled products.
+
+</td></tr><tr><td>
+
+Derived Price Calculation
+
+</td><td>
+
+Calculates the line prices using the Derived Pricing Matrix, which defines the pricing source and the unit base list price for the price list line.
+
+</td></tr><tr><td>
+
+Calculate Delta Prices
+
+</td><td>
+
+Calculates the difference in net pricing for sold products and contracts after adjustments are made.
+
+</td></tr><tr><td>
+
+Header Rollup
+
+</td><td>
+
+Calculates total pricing values, such as total annual or total monthly amounts, displayed at the header level
+
+</td></tr></tbody>
+</table>## Customizing a pricing plan
+
+The default pricing plan is fixed, to preserve the default pricing logic. You can copy the default plan, and add or change steps as needed for your organization. When you finish your changes, you publish the copy so that it becomes the active plan. If needed, you can revert to the default plan at any time by publishing the default plan.
+
+As a pricing admin or manager, follow these steps to define a custom pricing plan:
+
+-   [Create a configurable pricing plan](../task/create-custom-pricing-plan.md) \(copy the default plan\).
+-   [Add or change a pricing plan step](../task/add-pricing-step.md). In your configurable pricing plan, you can add one or more pricing steps for pricing adjustments, including any conditions for running the step. If needed, you can also change the sequence of the adjustment step.
+-   [Delete a pricing plan step](../task/delete-pricing-plan-step.md), if needed.
+
+As you add or change pricing steps, the system validates your entries, such as the sequence number, price point, and calculation type. When you finish adding or changing steps, publish the configurable pricing plan to make it active. The former active plan is retired.
+

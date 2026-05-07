@@ -6,7 +6,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 2
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -15,7 +15,7 @@ breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Rep
 
 Use properties to fine-tune dashboard behavior and appearance.
 
-Navigate to **System Properties** &gt; **Dashboard Properties** to configure the main responsive dashboard properties.
+Navigate to **System Properties** &gt; **Dashboard Properties** to configure the main responsive dashboard properties. In the Filter navigator, enter `sys_properties.list` to configure other reporting properties.
 
 ## Responsive Dashboard properties
 
@@ -29,7 +29,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable the unified analytics workspace experience, which shows all responsive dashboards and Next Experience dashboards in the same overview in the Analytics Center. Upon upgrade to Australia, this property is set to true by default.
+Enables unified navigation under Platform Analytics and Platform Analytics Administration menu sections and common library pages for both Core UI and Next Experience analytics artifacts. Upon upgrade to Australia, this property is set to true by default.
 
 com.glide.par.unified\_analytics.enabled
 
@@ -37,9 +37,19 @@ com.glide.par.unified\_analytics.enabled
 
 -   Type: true \| false
 -   Default value: true
--   Location: **System Properties** &gt; **Dashboard Properties**
+-   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
 
- When enabled, users see both Platform Analytics and core UI \(responsive\) dashboards in the Analytics Center. Users can still drill down to KPI details from responsive dashboard indicator visualizations.
+ When enabled, users see both Platform Analytics and Core UI \(responsive\) dashboards in the library. Users can still drill down to KPI details from responsive dashboard indicator visualizations.
+
+</td></tr><tr><td>
+
+Enable fulfiller creation of Core UI dashboardscom.snc.par.coreui.dashboard\_create.enabled
+
+</td><td>
+
+Allows fulfiller users to create Core UI dashboards after upgrade to Australia. There is a **Create new** button available in the Dashboards library with the option to create Core UI dashboards in the modal.-   Type: true \| false
+-   Default value: true
+-   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -124,7 +134,7 @@ glide.cms.dashboards.sharing.search.maxRecords
 
 -   Type: integer
 -   Default value: 100
--   Location: sys\_properties.list
+-   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
 
  Setting the value too low can cause the expected results not to be found. The minimum value is 5. Setting the value too high can cause performance issues.
 

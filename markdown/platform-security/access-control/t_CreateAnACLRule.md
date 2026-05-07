@@ -140,11 +140,19 @@ Use this list to specify the roles a user must have to access the object. If you
 
 </td></tr><tr><td>
 
+Security Attribute Condition
+
+</td><td>
+
+Use this section to define what the user can access based on user and environment criteria. For more information, see [Security Attributes Fundamentals](../concept/security-attribute-fundamentals.md).**Note:** The Condition field is case-sensitive.
+
+</td></tr><tr><td>
+
 Data Condition
 
 </td><td>
 
-Use this [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive
+Use this [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to select the fields and values that must be true for users to access the object.**Note:** The Condition field is case-sensitive.
 
 </td></tr></tbody>
 </table>6.  If the **Advanced** box is checked, fill in the **Advanced Conditions** fields as necessary.

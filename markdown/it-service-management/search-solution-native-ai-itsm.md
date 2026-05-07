@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Employee experience, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Employee experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Search for a solution in Employee Center
@@ -36,5 +36,5 @@ Role required: none
 5.  If the solutions aren’t relevant, proceed with incident creation or checking the request status.
 
 
-**Parent Topic:**[Employee experience in AI-native IT Service Management](../concept/employee-experience-native-ai-itsm.md)
+**Parent Topic:**[Employee experience in Simplified IT Service Management](../concept/employee-experience-native-ai-itsm.md)
 

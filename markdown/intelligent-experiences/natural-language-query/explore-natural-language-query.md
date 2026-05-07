@@ -6,7 +6,7 @@ release: australia
 product: Natural Language Query
 classification: natural-language-query
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-23"
 reading_time_minutes: 1
 breadcrumb: [Natural Language Query, Enable AI experiences]
 ---
@@ -14,8 +14,6 @@ breadcrumb: [Natural Language Query, Enable AI experiences]
 # Exploring Natural Language Query
 
 NLQ is a ServiceNow AI Platform feature that is active by default. Use NLQ to query the data in your instance by entering plain language requests into the user interface.
-
-![This image shows the NLQ data flow for user input and processing.](../images/nlq-architecture.png "NLQ data flow for user input and processing")
 
 ServiceNow® NLQ translates natural language user input into glide record queries. The queries are rendered into an executable structured format, such as a JavaScript Object Notation \(JSON\) file or a visual definition. The output, in whichever format, is the response to the user's request.
 
@@ -40,7 +38,7 @@ NLQ doesn't support domain separation. It also doesn't support on-premise instan
 
 NLQ supports American English by default. For all applications and features except CMDB, NLQ also supports queries in Spanish, French, French Canadian, German, and Japanese.
 
-Note that you must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 ## Using NLQ in other applications and features
 

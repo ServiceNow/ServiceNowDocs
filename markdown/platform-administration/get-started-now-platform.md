@@ -55,7 +55,7 @@ Admin Center provides a central hub for platform owners and admins to access pla
 -   **[Administering applications](../../../build/applications/reference/administering-applications.md)**  
 You can install, update, and remove applications without leaving your instance.
 -   **[Now Assist for Setup](../../implementation-agent/concept/ia-landing.md)**  
-Now Assist for Setup centralizes your instance management with a modular, personalized Admin Home UI dashboard, resolving current administrative ambiguity and slow task completion caused by fragmented starting points.
+Now Assist for Setup provides a guided experience to install, configure, and deploy ServiceNow products. It automates installation, applies best-practice configurations, tracks progress, and packages changes for production, which reduces complexity, minimizes manual effort, and significantly shortens time to deployment.
 -   **[Subscription Management](../../subscription-management/reference/subscription-management-landing-page-v2.md)**  
 Subscription Management enables you to proactively manage your subscriptions and monitor subscription usage on your instances.
 -   **[Now Support administration](now-support-administration.md)**  

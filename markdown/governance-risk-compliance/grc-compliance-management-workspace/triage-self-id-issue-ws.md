@@ -1,17 +1,17 @@
 ---
-title: Triage a self-identified issue using the Compliance Workspace
+title: Triage self-identified issues using the Compliance Workspace
 description: After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution in the Compliance Workspace.
 locale: en-US
 release: australia
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Triage a self-identified issue using the Compliance Workspace
+# Triage self-identified issues using the Compliance Workspace
 
 After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution in the Compliance Workspace.
 
@@ -34,7 +34,7 @@ The assigned triage teams identify whether the self-identified issues are actual
 
 The end-to-end flow of the issue triage life cycle is illustrated and described here.
 
-![Issue triage](../image/issue-triage_lifecycle-ws.png "Issue triage life cycle")
+
 
 <table id="table_exh_nm3_b4b"><thead><tr><th>
 

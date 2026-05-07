@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Availability
@@ -40,5 +40,5 @@ A problem or defect of an instance that requires proactive mitigation is listed 
 -   **[Cloud availability](../reference/cloud-availability.md)**  
 Check specific ServiceNow data center availability, service degradation, or for interruption.
 
-**Parent Topic:**[Instance Observer](io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](io-overview.md)
 

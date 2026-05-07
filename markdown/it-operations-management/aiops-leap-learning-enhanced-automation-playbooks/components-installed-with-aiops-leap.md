@@ -1,5 +1,5 @@
 ---
-title: Components installed with AIOps LEAP
+title: Components installed with LEAP
 description: Several types of components are installed with activation of the plugin, including tables, user roles, and scheduled jobs.
 locale: en-US
 release: australia
@@ -8,10 +8,10 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AIOps LEAP reference, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Components installed with AIOps LEAP
+# Components installed with LEAP
 
 Several types of components are installed with activation of the  plugin, including tables, user roles, and scheduled jobs.
 
@@ -27,33 +27,33 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-AIOps LEAP admin \[sn\_itom\_leap.leap\_admin\]
+LEAP admin \[sn\_itom\_leap.leap\_admin\]
 
 </td><td>
 
-You have full control over AIOps LEAP capabilities, including the following:
+You have full control over LEAP capabilities, including the following:
 
 -   Turn features on and off
 -   Execute scheduled jobs
--   Manage AIOps LEAP tables and the AIOps LEAP Workspace
+-   Manage LEAP tables and the LEAP Workspace
 -   Generate and update resolution steps
--   Create and view problems and generate AIOps LEAP playbooks from automation opportunities \(AO\)
+-   Create and view problems and generate LEAP playbooks from automation opportunities \(AO\)
 
 </td></tr><tr><td>
 
-AIOps LEAP viewer \[sn\_itom\_leap.leap\_viewer\]
+LEAP viewer \[sn\_itom\_leap.leap\_viewer\]
 
 </td><td>
 
-You can access and view data related to AIOps LEAP, including tables, the workspace, and problems originating from AOs.
+You can access and view data related to LEAP, including tables, the workspace, and problems originating from AOs.
 
 </td></tr><tr><td>
 
-AIOps LEAP agent \[sn\_itom\_leap.leap\_agent\]
+LEAP agent \[sn\_itom\_leap.leap\_agent\]
 
 </td><td>
 
-You can access the AIOps LEAP menu from the Service Operations Workspace \(SOW\) and trigger AIOps LEAP executions directly from within SOW.
+You can access the LEAP menu from the Service Operations Workspace \(SOW\) and trigger LEAP executions directly from within SOW.
 
 </td></tr></tbody>
 </table>## Scheduled jobs installed
@@ -73,6 +73,6 @@ You can access the AIOps LEAP menu from the Service Operations Workspace \(SOW\)
 |LEAP GAF mapping|Maintains a map between the GAF groups and the published LEAPs to retain information in the subsequent GAF clustering runs.|
 |LEAP group|Stores the LEAP group details, like group description, resolution steps, and whether the LEAP is automated or not.|
 |LEAP group ranking|Maintains data, like business impact, projected cost savings, problem record, and status, that is used in the Automation Opportunities page of the workspace.|
-|LEAP properties|Sets custom values to the properties that are used in AIOps LEAP.|
+|LEAP properties|Sets custom values to the properties that are used in LEAP.|
 |LEAP record metrics|Maintains data that's used in Published LEAP page in the workspace. It contains calculated data, like time saved, tickets resolved, and rating trend.|
 

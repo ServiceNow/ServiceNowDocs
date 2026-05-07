@@ -1,6 +1,6 @@
 ---
-title: Install AIOps LEAP
-description: You can install the AIOps LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
+title: Install LEAP
+description: You can install the LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plug-ins if they aren’t already installed.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,29 +8,29 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Install AIOps LEAP
+# Install LEAP
 
-You can install the AIOps LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. The application installs related ServiceNow® Store applications and plug-ins if they aren’t already installed.
+You can install the LEAP application using Now Assist for IT Operations Management \(ITOM\) \(sn\_itom\_gen\_ai\) if you have the admin role. The application installs related ServiceNow® Store applications and plug-ins if they aren’t already installed.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the [AIOps LEAP](https://store.servicenow.com/sn_appstore_store.do#!/store/application/48aef5523e8541099799ccab14872eae/2.0.0) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [LEAP](https://store.servicenow.com/sn_appstore_store.do#!/store/application/48aef5523e8541099799ccab14872eae/2.0.0) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: System admin
 
 ## About this task
 
-The following items are installed with AIOps LEAP:
+The following items are installed with LEAP:
 
 -   Roles
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Components installed with AIOps LEAP](../reference/components-installed-with-aiops-leap.md).
+For more information, see [Components installed with LEAP](../reference/components-installed-with-aiops-leap.md).
 
 ## Procedure
 

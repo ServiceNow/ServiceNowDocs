@@ -25,7 +25,7 @@ Role required: sn\_audit.admin or sn\_audit.manager
 
 2.  Open the test template record.
 
-3.  Select a control objective and click **Update**.
+3.  Select a control objective and select **Update**.
 
     ![Test template control objectives update.](../image/audit-test-template-c-b.png)
 

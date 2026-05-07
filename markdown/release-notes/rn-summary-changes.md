@@ -4,8 +4,8 @@ description: Cumulative release notes summary on changes to Australia features a
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 65
+last_updated: "2026-05-04"
+reading_time_minutes: 72
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -33,6 +33,21 @@ Not applicable.
 
 </td></tr><tr><td>
 
+AI Desktop Actions
+
+</td><td>
+
+-   **[Optional Application name field](https://www.servicenow.com/docs/access?context=add-details-desktop-action-ad&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+The Application field in the Details tab is now optional, enabling you to save and run desktop actions without entering an application name.
+
+-   **[Improved connectors descriptions for non-UI block desktop actions](https://www.servicenow.com/docs/access?context=desktop-actions-designer-workspace-ad&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+Descriptions for Excel, Word, PDF, and System Actions connectors are enhanced to improve accuracy and selection.
+
+
+</td></tr><tr><td>
+
 AI Search
 
 </td><td>
@@ -56,69 +71,7 @@ API
 
 </td><td>
 
-<table id="table_omt_fmc_tcc"><thead><tr><th>
-
-Class
-
-</th><th>
-
-Methods
-
-</th></tr></thead><tbody><tr><td>
-
-[GlideForm \(g\_form\) - Client](https://www.servicenow.com/docs/access?context=c_GlideFormAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
-
-</td><td>
-
-On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:-   clearValue\(\)
--   setValue\(\)
-
-For more information, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-
-</td></tr><tr><td>
-
-[GlideForm \(Next Experience\) - Client](https://www.servicenow.com/docs/access?context=GlideFormAPINX&version=australia&pubname=australia-api-reference&ft:locale=en-US)
-
-</td><td>
-
-On fields set to strict read only, the following methods do nothing and log a warning in the browser's console if used:-   clearValue\(\)
--   setValue\(\)
-
-For more information, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-
-</td></tr></tbody>
-</table><table id="table_lcz_gmc_tcc"><thead><tr><th>
-
-API
-
-</th><th>
-
-Endpoints
-
-</th></tr></thead><tbody><tr><td>
-
-[Party Management Open API](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
-
-</td><td>
-
-Previously, all GET endpoints didn't return results for Account records as expected due to a hardcoded flag. As a fix, users are now required to install the plugin Customer Service Base Entities \(com.snc.cs\_base\), which adds the Active field to Customer \[customer\_account\] and Core Company \[core\_company\] tables.-   [Party Management – GET /api/sn\_tmf\_api/v1/party/individual](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&version=australia&pubname=australia-api-reference&section=partymgmt-GET-individual&ft:locale=en-US)
--   [Party Management - GET /api/sn\_tmf\_api/v1/party/individual/\{id\}](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&version=australia&pubname=australia-api-reference&section=partymgmt-GET-individual-id&ft:locale=en-US)
--   [Party Management – GET/api/ sn\_tmf\_api/v1/party/organization/\{id\}](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&version=australia&pubname=australia-api-reference&section=partymgmt-GET-organization-id&ft:locale=en-US)
--   [Party Management - GET /api/sn\_tmf\_api/v1/party/organization](https://www.servicenow.com/docs/access?context=tmf-party-management-open-api&version=australia&pubname=australia-api-reference&section=partymgmt-GET-organization&ft:locale=en-US)
-
-</td></tr><tr><td>
-
-[Wrap Up API](https://www.servicenow.com/docs/access?context=wrap-up-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
-
-</td><td>
-
-Added support for AI-generated wrap‑up codes and notes.-   [Wrap Up - GET /now/wrapup/segment/\{segment\_id\}](https://www.servicenow.com/docs/access?context=wrap-up-api&version=australia&pubname=australia-api-reference&section=wrap-up-GET-segment&ft:locale=en-US)
--   [Wrap Up - GET /now/wrapup/segment/agent/\{agent\_id\}/interaction/\{interaction\_id\}](https://www.servicenow.com/docs/access?context=wrap-up-api&version=australia&pubname=australia-api-reference&section=wrap-up-GET-segment-agent-int&ft:locale=en-US)
--   [Wrap Up - POST /now/wrapup/segment/create](https://www.servicenow.com/docs/access?context=wrap-up-api&version=australia&pubname=australia-api-reference&section=wrap-up-POST-segment-create&ft:locale=en-US)
--   [Wrap Up - PUT /now/wrapup/segment/update/ai](https://www.servicenow.com/docs/access?context=wrap-up-api&version=australia&pubname=australia-api-reference&section=wrap-up-PUT-segment-update-ai&ft:locale=en-US)
-
-</td></tr></tbody>
-</table>
+The following tables lists changed API classes and methods in Australia and ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -155,6 +108,17 @@ Accounts Payable Operations
 -   **[Configure Document Intelligence using Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=configure-di-using-now-assis&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
 
 The Document classification skill auto-classifies supplier email attachments as invoice, credit memo, or supporting documents with an AI-recommended confidence score. After the classification, separate invoice processing cases are created for invoices and credit memo with supporting documents linked to both the cases. The playbook allows you to configure the confidence threshold for auto-approval or involve AP specialists to manually review them.
+
+
+</td></tr><tr><td>
+
+Activity Management
+
+</td><td>
+
+-   **[Account and Contact field auto-population](https://www.servicenow.com/docs/access?context=create-crm-touchpoint&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+
+Reduce manual data entry when creating touchpoints by automatically populating the Account and Contact fields when you select an Associated Entity and Associated Record of type Contact, Account, Lead, or Opportunity. Associated Entity and Associated Record fields become read-only after the touchpoint record is created.
 
 
 </td></tr><tr><td>
@@ -258,7 +222,23 @@ Build Agent
 
 </td><td>
 
- 
+-   **[Build Agent version parity for PDIs](https://www.servicenow.com/docs/access?context=exploring-build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+Personal Development Instances \(PDIs\) are now updated to match the latest Build Agent version, delivering a consistent experience across both personal and production-track instances. Developers testing and building on PDIs have access to the same capabilities available in production environments.
+
+-   **[Updated interaction limits](https://www.servicenow.com/docs/access?context=exploring-build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+To provide developers more room to iterate, the following Build Agent limits have been increased:
+
+    -   Build Agent \(Trial\): 100 prompts per instance per 30-day cycle
+    -   PDIs: 25 prompts per instance per cycle
+**Note:** Limits are per-instance, not per-user. Only submitted prompts, which doesn't include plan approvals, contribute to the limit.
+
+
+-   **[Support for global scope](https://www.servicenow.com/docs/access?context=exploring-build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+Build apps and metadata in the global scope.
+
 
 </td></tr><tr><td>
 
@@ -331,6 +311,10 @@ Create an additional clone request even if there’s already a future clone for 
 -   **[Clone summary](https://www.servicenow.com/docs/access?context=t_StartAClone&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
 
 Help prevent clone conflicts with the Clone summary, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
+
+-   **[Updated authentication model](https://www.servicenow.com/docs/access?context=configure-target-instance&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+
+Clone Admin Console now uses JWT certificate-based authentication instead of username and password authentication, improving security and simplifying cross-instance authentication.
 
 
 </td></tr><tr><td>
@@ -589,6 +573,12 @@ Added a system property \(sn\_customerservice.consumer.allowed\_user\_types\) to
 
 Added core primitives to support price and quantity ramps, enabling flexible, time‑based changes across the sold product lifecycle. The feature delivers scalable pricing aligned with usage, simplifies post-sale workflows, and improves revenue forecasting without custom scripts.
 
+-   **[Install base data model enhancements](https://www.servicenow.com/docs/access?context=create-install-base-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
+
+Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
+
 -   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
 Create future‑dated subscription products in a **Pending Activation** state to improve the Add‑Order‑to‑Sold‑Product process. It also ensures lifecycle accuracy, predictable billing, and fair access for customers while improving revenue recognition for businesses.
@@ -597,6 +587,8 @@ Create future‑dated subscription products in a **Pending Activation** state to
 -   **[Service Model Foundation renamed Entities](https://www.servicenow.com/docs/access?context=renamed-entities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 
 Renamed Service Model Foundation entities to improve clarity and maintain consistency across the platform. Review your existing configurations, scripts, or integrations that reference these entities and update them accordingly.
+
+**Note:** The entity name changes are available in the Business Location 5.2.0 store app.
 
 
 </td></tr><tr><td>
@@ -649,10 +641,6 @@ Developer Sandboxes
 
 After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
--   **[Cloning enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&version=australia&pubname=australia-application-development&ft:locale=en-US)**
-
-After a clone, sandboxes on an instance are automatically re-created with the same name, but without the previous work.
-
 -   **[Queuing for successive sandbox creation](https://www.servicenow.com/docs/access?context=allocating-sandboxes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
 To improve performance, Developer Sandboxes has implemented queuing when multiple sandboxes are created in succession.
@@ -693,9 +681,22 @@ Dispute Rules Content Pack for Mastercard
 
 Determine the eligibility of a selected transaction for chargeback through chargeback eligibility rules transformed into technical formulas.
 
+New ineligibility conditions have been added across all five existing RC 4808 Authorization sub-categories:
+
+    -   Required Authorization Not Obtained \(RANO\)
+    -   Expired Chargeback Protection Period \(ECPP\)
+    -   Stand-in or X-Code Approval after Issuer Decline \(SIXCAID\)
+    -   CAT 3 Devices \(CAT3D\)
+    -   Transit First Ride Risk Framework Claims \(TFRR\)
+Expanded eligibility rules for the following fraud dispute reason codes:
+
+    -   RC 4837 \(No Cardholder Authorization\)
+    -   RC 4849 \(Questionable Merchant Activity\)
+    -   RC 4870 \(Chip Liability Shift\)
+    -   RC 4871 \(Chip Liability Shift – Lost/Stolen/NRI Fraud\)
 -   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
 
-Benefit from the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard with some modified questions and added hard stop alerts.
+Benefit from the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard with some modified questions and added hard stop alerts. Questionnaire questions include RC 4853 Failed Travel Merchant – Intra-EEA and Domestic European Transactions Only as an additional display condition.
 
 
 </td></tr><tr><td>
@@ -704,18 +705,30 @@ Dispute Rules Content Pack for Visa
 
 </td><td>
 
--   ****
+-   **[Updated questions for the dispute questionnaire](https://www.servicenow.com/docs/access?context=exploring-the-dispute-rules-content-pack-for-visa&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
 
-Added four new agent-facing questions to the dispute questionnaire under the authorization \(11\) and consumer disputes \(13\) categories. These questions map to the following reasons codes:
+Added four new agent-facing questions to the dispute questionnaire under the authorization \(11\) and consumer disputes \(13\) categories. These questions map to the following reason codes:
 
     -   11.1 - Card recovery bulletin or exception file
     -   11.2 - Declined authorization
     -   11.3 - No authorization or late presentment
     -   13.6 - Credit not processed
-    -   13.7 - Cancelled merchandize or services
+    -   13.7 - Cancelled merchandise or services
 -   **[Visa Resolve Online \(VROL\) version 26.1 updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
 
 Updated the dispute questionnaire provided through the Dispute Rules Content Pack for Visa to align with Visa Resolve Online \(VROL\) release 26.1 revision changes.
+
+-   **[Updated chargeback eligibility rules for Visa reason codes 10.1, 10.2, 10.3, 10.4, 13.1, 13.2, 13.3, and 13.4](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+
+The chargeback eligibility rules for eight Visa reason codes have been updated to reflect Visa Chargeback Guide v1.1. The rules engine evaluates disputes automatically against the updated criteria; no manual configuration is required. Disputes that do not meet the updated eligibility criteria are flagged as ineligible before submission.
+
+-   **[Updated dispute intake questionnaire for fraud disputes involving non-fiat currency and NFTs](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+
+The fraud dispute intake questionnaire now includes a conditional question for disputes involving non-fiat currency or NFT transactions, such as cryptocurrency and digital token purchases. When the transaction is identified as a digital asset purchase, dispute agents and cardholders are asked to confirm whether the cardholder claims they were deceived into sending the asset to a fraudulent recipient. The question is shown only when relevant and is cleared automatically when it does not apply. This supports accurate eligibility evaluation without requiring agents to manually identify digital asset transaction types.
+
+-   **[Updated dispute intake questionnaire for RC 13.3 \(Not as Described\) disputes involving non-fiat currency and NFTs](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+
+The consumer dispute intake questionnaire for RC 13.3 now includes an additional question for disputes involving non-fiat currency or NFT purchases. After confirming whether the asset received matched the description at the time of purchase, dispute agents and cardholders are asked whether there is evidence that the merchant guaranteed or promised the asset would increase in value. This question determines whether a specific dispute right applies, and appears only after the preceding NFT description question is answered.
 
 
 </td></tr><tr><td>
@@ -749,9 +762,9 @@ Added the granular level admin role \(sn\_apm.apm\_admin\) to the following syst
     -   **glide.ui.sn\_apm\_trm\_product\_lifecycle\_request\_activity.fields**: TRM Product Lifecycle Request activity formatter fields.
     -   **sn\_apm.noOfSoftwareModelsPerTPMPage**: The number of software models to show per page. This property is used for client-side pagination.
     -   **sn\_apm.discoveryModelProductTypesForTPMSuggestions**: Product types of discovery models to consider for TPM software suggestions.
-    -   **sn\_apm.noOfSDLCComponentPerTPMPage**: The number of SDLC components to show per page.
+    -   **sn\_apm.noOfSDLCComponentPerTPMPage**: The number of Agile Development components to show per page.
     -   **glide.ui.cmdb\_ci\_business\_app\_activity.fields**: Business application activity formatter fields.
-    -   **sn\_apm.startRangeOfTPMLifecycle**: The number of years prior to the current date is included when displaying software model lifecycle phases in the TPM timeline.
+    -   **sn\_apm.startRangeOfTPMLifecycle**: The number of years before the current date is included when displaying software model lifecycle phases in the TPM timeline.
     -   **sn\_apm.endRangeOfTPMLifecycle**: The number of years beyond the current date is included when displaying software model lifecycle phases in the TPM timeline.
     -   **noOfBusinessAppsPerTPMPage**: The number of business applications to show per page.
 
@@ -786,6 +799,29 @@ When a calibration work order is created for multiple assets or an asset group, 
 -   **[Multiple condition lines](https://www.servicenow.com/docs/access?context=perform-condition-assessment-webui&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
 
 When an asset condition work order is created for multiple assets or an asset group, the system generates a separate condition line for each asset in the Affected assets list. All condition lines must be evaluated before the work order can be completed.
+
+
+</td></tr><tr><td>
+
+External Content Connectors
+
+</td><td>
+
+-   **[Sitemap support in the Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+
+Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector. A content crawl only retrieves sitemap URLs that include the crawl's starting point URL.
+
+-   **[Start point links for scheduled partial content crawls](https://www.servicenow.com/docs/access?context=create-content-crawl-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+
+View the start point for a scheduled partial content crawl via a link in its entry in the the external content connector's list of crawls.
+
+-   **[Start point links in partial content crawl history entries](https://www.servicenow.com/docs/access?context=review-crawl-ext-cont-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+
+View the start point for a scheduled partial content crawl via a link in its crawl history entries.
+
+-   **[Limited Role-Based Access Control \(RBAC\) support in the Atlassian](https://www.servicenow.com/docs/access?context=atlassian-confluence-cloud-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US) Confluence Cloud external content connector**
+
+Map source system user and group permissions assigned via RBAC roles to users in your ServiceNow AI Platform instance.
 
 
 </td></tr><tr><td>
@@ -982,18 +1018,6 @@ Use the streamlined workflow designed for faster, easier creation of cryptograph
 
 The SecurityUtils API has been enhanced to help prevent cross-site scripting attacks, including methods to sanitize and escape input.
 
-
-</td></tr><tr><td>
-
-Knowledge Graph
-
-</td><td>
-
--   **New  experience**
-
-The new  provides a more efficient, streamlined way for you to work. For information about how to upgrade, see . Note that  is still supported in this release.
-
--   ****
 
 </td></tr><tr><td>
 
@@ -1540,6 +1564,17 @@ Build Agent is the default setting for app generation in ServiceNow Studio. To c
 
 </td></tr><tr><td>
 
+Now Assist for FSM
+
+</td><td>
+
+-   **Create Work Order AI agent performance improvements**
+
+The Create Work Order AI agent was optimized to reduce latency and improve response times. Inter-agent communication was streamlined to minimize redundant processing during work order creation.
+
+
+</td></tr><tr><td>
+
 Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
@@ -1552,7 +1587,7 @@ The new default behavior works as follows:
     -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Renaming the Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
-The Incident assist skill has been renamed to **\[DEPRECATED\] Incident assist**.
+The incident assist skill has been renamed to **\[DEPRECATED\] Incident assist**.
 
 -   **[Renaming demo voice AI agents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-voice&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
 
@@ -1583,17 +1618,17 @@ The Virtual Agent topics listed in this table have been renamed and are now avai
 
     |Existing name|Updated name|
     |-------------|------------|
-    |Add Comment To Incident|\(DEMO\) Add Comment To Incident-LLM|
+    |Add Comment To incident|\(DEMO\) Add Comment To incident-LLM|
     |Approve Sysapproval Approver|\(DEMO\) Approve Sysapproval Approver-LLM|
     |Change Password|\(DEMO\) Change Password \(Template\) - LLM|
     |Check IT Ticket Status|\(DEMO\) Check IT Ticket Status \(Template\)|
-    |Close Incident|\(DEMO\) Close Incident-LLM|
+    |Close incident|\(DEMO\) Close incident-LLM|
     |Explain change risk|\(DEMO\) Explain change risk|
-    |Mark Incident Unresolved|\(DEMO\) Mark Incident Unresolved-LLM|
+    |Mark incident Unresolved|\(DEMO\) Mark incident Unresolved-LLM|
     |Open IT Ticket|\(DEMO\) Open IT Ticket \(Template\)-LLM|
     |Reject Sysapproval Approver|\(DEMO\) Reject Sysapproval Approver-LLM|
     |Reset Password|\(DEMO\) Reset Password \(Template\) - LLM|
-    |Resolve Incident|\(DEMO\) Resolve Incident-LLM|
+    |Resolve incident|\(DEMO\) Resolve incident-LLM|
     |Unlock Account|\(DEMO\) Unlock Account \(Template\) - LLM|
     |View And Add Comments|\(DEMO\) View And Add Comments-LLM|
 
@@ -1608,19 +1643,6 @@ Now Assist for Legal Service Delivery \(LSD\)
 
 Summarization now includes data from extended practice area tables, providing context‑rich summaries for your legal requests and matters.
 
-
-</td></tr><tr><td>
-
-Now Assist for Operational Sustainability Management
-
-</td><td>
-
--   **[Some Now Assist skills, agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
-
-The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills and agentic workflows are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 
 </td></tr><tr><td>
 
@@ -1669,15 +1691,50 @@ Document and visual intelligence capabilities used to leverage extraction, quest
 
 </td></tr><tr><td>
 
+Now Assist in Platform Analytics
+
+</td><td>
+
+-   **[Explore data from protected scopes](https://www.servicenow.com/docs/access?context=enable-aide-secure-scope-apps&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+
+Provide access to protected application scopes to AI Data Explorer and Query Generation, and you can use data from those application tables in explorations. \(Query Generation bundle 5.2\)
+
+-   **[Improvements to how segments are handled](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+
+    -   Manual segments are re-ranked to take priority over automatically generated segments.
+    -   Prompt changes made to better support manual segments.
+    -   More segments are passed to the LLM to increase the chance of the correct segment getting selected. Twelve segments are passed instead of three.
+    -   Segments longer than 2000 characters are dropped to prevent context window bloat.
+\(Query Generation bundle 5.2\)
+
+-   **[Customize semantic metadata in configuration tables](https://www.servicenow.com/docs/access?context=customize-semantic-metadata&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+
+Customize semantic descriptions and usage instructions in the table and column configuration tables. Unlike the previous method of editing Entity and Dimension records, these changes can be transferred between instances through update sets.
+
+-   **[View recommended actions](https://www.servicenow.com/docs/access?context=expl-view-recommended-actions&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+
+AI Data Explorer can suggest actions based on the insights that it generates in an exploration.
+
+-   **[Ask questions about FX currency data](https://www.servicenow.com/docs/access?context=qg-supported-query-operations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+
+Query Generation now supports the FXCurrency \(Currency 2\) data type. This means that you can use AI Data Explorer to explore financial operations data, including those within Source-to-Pay Operations.
+
+-   **[Benefit from improvements to segments](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+
+Segments are reusable definitions in Query Generation that provide non-obvious context to assist the semantic layer or LLM to select the correct dimension and values. Users can create manual segments via a new form. A scheduled job synchronizes manual and autogenerated segments. This job also cleans up segments to help surface the correct segments and reduce noise.
+
+Manual segments are re-ranked to take priority over automatically generated segments.
+
+Domain separation is also now supported, with a Domain field on the Segments table. Segments based on reports and filters inherit the source domain. Manual segments have domains that are passed up to the Segments table on synchronization. Segments are not supported for indicator sources or modules on domain-separated instances.
+
+
+</td></tr><tr><td>
+
 Now Assist in Virtual Agent
 
 </td><td>
 
--   **New  experience**
-
-The new  provides a more efficient, streamlined way for you to work. For information about how to upgrade, see . Note that  is still supported in this release.
-
--   ****
+ 
 
 </td></tr><tr><td>
 
@@ -1870,6 +1927,15 @@ Playbook
 
 Any tasks that previously required only the admin role now require the playbook.admin role instead.
 
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
 
 </td></tr><tr><td>
 
@@ -1924,6 +1990,12 @@ Project Portfolio Management
 
 </td><td>
 
+[Australia Patch 2](../quality/australia-patch-1.md)
+
+-   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
+
 -   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
 The new Next Experience for Demand Management provides a unified layout, guided stages, improved navigation, and enhanced capabilities such as Playbooks and Docs integration. As you move to Next Experience for Demand Management, you’ll find it easier to create, review, and manage demands with a cleaner layout and guided actions. The classic UI is still available, but new improvements will appear in the workspace.
@@ -1970,7 +2042,7 @@ Build on existing quote approval workflows with greater control and flexibility
     -   Add ad-hoc approvers to an approval request outside the configured approval workflow when additional review is needed.
     -   Override an approval to advance a quote when permitted by your organization's approval configuration.
 
-See [Advanced Approval Management release notes](../sales-order-management/advanced-approval-management-for-sales-rn.md)for more information.
+See [Advanced Approval Management release notes](../sales-order-management/advanced-approval-management-for-sales-rn.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2038,6 +2110,14 @@ Use the Reference field auto-load behavior option from the SOW Properties sectio
 
 Selecting the Recent incidents, Recent interaction, or Recent tasks links from the Record information side panel of a SOW record displays the 10 most recent records irrespective of their timeline instead of showing the records from last seven days. You can select the **View All** option to view additional records as well.
 
+
+</td></tr><tr><td>
+
+ServiceNow AI Lens
+
+</td><td>
+
+No changes in this release.
 
 </td></tr><tr><td>
 
@@ -2124,6 +2204,11 @@ ServiceNow Studio
 
 </td><td>
 
+-   **[Preview an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=preview-app-file&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+
+Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
+
+
 -   **[Integrated tab groupings](https://www.servicenow.com/docs/access?context=qs-open-apps-files-across-scopes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
 
 Integrated tabs are no longer color-coded or grouped by scope. You can see a list of the open files by selecting the more actions icon and selecting **Show Opened Editors**.
@@ -2174,6 +2259,19 @@ Source-to-Pay Operations Integrations
 
 </td></tr><tr><td>
 
+Strategic Planning
+
+</td><td>
+
+[Australia Patch 2](../quality/australia-patch-1.md)
+
+-   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
+
+
+</td></tr><tr><td>
+
 Subscription Management
 
 </td><td>
@@ -2193,6 +2291,20 @@ To simplify the Subscription Management experience, the manual allocation workfl
 -   **[Hidden user-based subscription allocations](https://www.servicenow.com/docs/access?context=subscriptions-overview-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
 
 To help prevent inaccuracy when allocations aren't complete, allocation details for user-based subscriptions are now hidden from the Subscription Management overview. Contact your account executive for user-based subscription allocation details.
+
+
+</td></tr><tr><td>
+
+Telecommunications Customer 360
+
+</td><td>
+
+-   **[Products](https://www.servicenow.com/docs/access?context=c360-products-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+    -   Filter the list of sold products displayed by product characteristic values.
+    -   Modify configurations, suspend, resume, or disconnect one or more sold products and their services.
+-   **[Customer history](https://www.servicenow.com/docs/access?context=c360-inter-history-card&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+
+The **Interaction history** card has been renamed to **Customer history**. Phone interactions, chat messages, cases, contracts, work orders, and other activity types that have been configured are displayed.
 
 
 </td></tr><tr><td>
@@ -2300,18 +2412,26 @@ Updated the following Visa Spoke actions to align with VROL release 26.1 revisio
     -   Submit Exception Request Builder
     -   Submit Fraud Bundle Dispute Questionnaire
     -   Look up Dispute Financial Details Request Builder
-    -   Submit Exception Request Builder
+    -   Look up Dispute Financial Details Response Parser
     -   Submit Fraud Report Request Builder
+    -   Look up Fraud Report Details Response Parser
     -   Look up Fraud Report Details Request Builder
     -   Look up Transaction Details Request Builder
     -   Look up Dispute Details Request Builder
+    -   Look up Dispute Details Response Parser
+    -   Look up Dispute Filing Details Response Parser
+    -   Look up Transaction Details Response Parser
+    -   Look up Transaction Details from Case Response Parser
+    -   Look up All Transaction Details Response Parser
     -   Create Dispute Pre Arbitration Response
     -   Look up Dispute Pre Arbitration Details Request Builder
     -   Look up Dispute Pre Arbitration Response Details Request Builder
+    -   Look up Dispute Pre Arbitration Details Response Parser
     -   Look up Dispute Response Details Request Builder
     -   Submit Dispute Questionnaire
-    -   Look up Dispute Response Details Request Builder
-    -   Initiate Dispute from Transaction or Case
+    -   Look up Dispute Pre Arbitration Response Details Response Parser
+    -   Look up Dispute Response Details Response Parser
+    -       -   Initiate Dispute from Transaction or Case
     -   Create Dispute Pre Arbitration
 
 </td></tr><tr><td>
@@ -2339,6 +2459,25 @@ When new vulnerable items are ingested and associated with a remediation task th
 
 </td></tr><tr><td>
 
+Zero Copy Connector for ERP
+
+</td><td>
+
+-   **[Improved ETL data extractions](https://www.servicenow.com/docs/access?context=set-up-erp-integration-connection&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+
+The ETL process was refactored from Flow Designer to script includes for better performance and reliability.
+
+-   **[Zero Copy Connector for ERP Data Products renamed to Content Packs](https://www.servicenow.com/docs/access?context=erp-canvas-available-content-packs&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+
+All ERP Data Products, such as Enterprise Data Foundation, Quote to Cash, and Source to Settle are renamed to Content Packs.
+
+-   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://www.servicenow.com/docs/access?context=erp-canvas-enterprise-data-foundation-content-pack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+
+Additional models, including Vendor Bank Details, Vendor Location Details, and Vendor Contact Details are added to the content pack for use when interacting with an SAP system.
+
+
+</td></tr><tr><td>
+
 Zero Copy Connectors
 
 </td><td>
@@ -2351,13 +2490,29 @@ The Apache Iceberg connector is now certified as a primary connector.
 
 Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®.
 
--   **[Australia Patch 1](../quality/australia-patch-1.md)[Amazon S3 Tables connector — Preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Australia Patch 1](../quality/australia-patch-1.md)**
+
+[Amazon S3 Tables connector — Preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
 
 The Amazon S3 Tables connector is now available with a Preview label, indicating that enhancements are ongoing. This connector is fully supported by ServiceNow®.
 
--   **[Australia Patch 1](../quality/australia-patch-1.md)[Apache Iceberg connector — Preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **[Australia Patch 1](../quality/australia-patch-1.md)**
+
+[Apache Iceberg connector — Preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
 
 The Apache Iceberg connector is now available with a Preview label, indicating that enhancements are ongoing. This connector is fully supported by ServiceNow®.
+
+-   **[Australia Patch 2](../quality/australia-patch-2.md)**
+
+[Teradata](https://www.servicenow.com/docs/access?context=teradata-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+
+The Teradata connector now supports Bearer Token and OAuth authentication methods.
+
+-   **[Australia Patch 2](../quality/australia-patch-2.md)**
+
+[Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+
+The Apache Iceberg connector now supports S3-compatible object storage systems.
 
 
 </td></tr></tbody>

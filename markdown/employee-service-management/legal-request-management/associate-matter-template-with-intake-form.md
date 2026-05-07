@@ -35,15 +35,15 @@ When [an existing matter template is updated and published](../../legal-matter-m
 
 4.  In the Matter Template related list, associate an existing matter template or create and associate a new matter template.
 
-<table id="choicetable_tbn_1k5_t4b"><thead><tr><th align="left" id="d289886e111">
+<table id="choicetable_tbn_1k5_t4b"><thead><tr><th align="left" id="d295500e111">
 
 Option
 
-</th><th align="left" id="d289886e114">
+</th><th align="left" id="d295500e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d289886e120">
+</th></tr></thead><tbody><tr><td id="d295500e120">
 
 **Associate an existing matter template**
 
@@ -54,7 +54,7 @@ Steps
 3.  Click **Save**.
 
 
-</td></tr><tr><td id="d289886e153">
+</td></tr><tr><td id="d295500e153">
 
 **Create a template and associate it with the intake form**
 

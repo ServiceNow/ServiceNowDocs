@@ -17,7 +17,7 @@ You can configure a report to let users adjust its grouping and stacking.
 
 ## Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ## About this task
 

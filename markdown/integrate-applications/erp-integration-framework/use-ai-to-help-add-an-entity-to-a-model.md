@@ -9,7 +9,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, entity, entities, ai, generative, now assist]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use generative AI to help add an entity to a model
@@ -22,7 +22,7 @@ Role required: sn\_erp\_integration.erp\_admin and sn\_erp\_integration.erp\_ai\
 
 ## About this task
 
-When adding an entity to a model operation, use the **Ask AI** button to receive suggestions for relevant data entities, including tables, BAPIs, OData services, and RFCs. Generative AI can simplify the process of getting information, potentially increasing efficiency.
+When adding an entity to a model operation in Zero Copy Connector for ERP \(Enterprise Resource Planning\), use the **Ask AI** button to receive suggestions for relevant data entities, including tables, BAPIs, OData services, and RFCs. Generative AI can simplify the process of getting information, potentially increasing efficiency.
 
 ## Procedure
 

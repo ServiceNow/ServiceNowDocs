@@ -110,5 +110,5 @@ Number of items that already needed to be returned.
 </table>**Related topics**  
 
 
-[Transfer assets using transfer orders](../task/t_TransferAssetsUsingTransferOrders.md)
+[t_TransferAssetsUsingTransferOrders]
 

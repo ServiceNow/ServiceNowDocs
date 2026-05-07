@@ -29,15 +29,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 2.  View or search for the knowledge article.
 
-<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d128937e124">
+<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d131524e124">
 
 To
 
-</th><th align="left" id="d128937e127">
+</th><th align="left" id="d131524e127">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d128937e133">
+</th></tr></thead><tbody><tr><td id="d131524e133">
 
 **View knowledge articles for a work order task assigned to you**
 
@@ -49,7 +49,7 @@ Do this
 4.  Tap the More actions \(![More actions icon](../image/OverflowIcon.png)\) icon and then select **View Knowledge**.
  The application uses the task short description to search all knowledge bases and returns articles based on that search.
 
-</td></tr><tr><td id="d128937e179">
+</td></tr><tr><td id="d131524e179">
 
 **Search knowledge articles**
 
@@ -92,15 +92,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Connect with a team member.
 
-<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d128937e327">
+<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d131524e327">
 
 To
 
-</th><th align="left" id="d128937e330">
+</th><th align="left" id="d131524e330">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d128937e336">
+</th></tr></thead><tbody><tr><td id="d131524e336">
 
 **Place a call**
 
@@ -111,7 +111,7 @@ Do one of the following:-   Tap the **Phone** icon and tap **Dial number**to imm
 -   Open the member profile, tap the mobile number, and select **Dial number**.
 
 
-</td></tr><tr><td id="d128937e369">
+</td></tr><tr><td id="d131524e369">
 
 **Send a text message**
 
@@ -124,7 +124,7 @@ Tap the **Phone** icon and tap **Send SMS** to send a text message to the team m
 3.  Select **Send SMS** and send your message through one of the available messaging options.
 
 
-</td></tr><tr><td id="d128937e402">
+</td></tr><tr><td id="d131524e402">
 
 **View the member's location on the map**
 
@@ -199,15 +199,15 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 3.  Provide feedback for the article by marking it as helpful or not helpful, rating it, or leaving a comment.
 
-<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d128937e695">
+<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d131524e695">
 
 To
 
-</th><th align="left" id="d128937e698">
+</th><th align="left" id="d131524e698">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d128937e704">
+</th></tr></thead><tbody><tr><td id="d131524e704">
 
 **Mark an article as helpful or unhelpful**
 
@@ -215,7 +215,7 @@ Do this
 
 Tap the helpful icon \(![Helpful icon.](../image/KnowledgeHelpful.png)\) or the not helpful icon \(![Not helpful icon.](../image/KnowledgeNotHelpful.png)\).
 
-</td></tr><tr><td id="d128937e725">
+</td></tr><tr><td id="d131524e725">
 
 **Rate the article**
 
@@ -223,7 +223,7 @@ Tap the helpful icon \(![Helpful icon.](../image/KnowledgeHelpful.png)\) or the 
 
 Tap the star icons displayed on the article to indicate its effectiveness on a scale of 1 to 5.
 
-</td></tr><tr><td id="d128937e734">
+</td></tr><tr><td id="d131524e734">
 
 **Enter your comment \[available only in online mode\]**
 
@@ -233,7 +233,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Enter the comment and click **Submit**.
 
 
-</td></tr><tr><td id="d128937e758">
+</td></tr><tr><td id="d131524e758">
 
 **View all comments and replies posted for the article \[available only in online mode\]**
 
@@ -243,7 +243,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Scroll down to see the comments.
 
 
-</td></tr><tr><td id="d128937e780">
+</td></tr><tr><td id="d131524e780">
 
 **Like a comment on the article \[available only in online mode\]**
 
@@ -253,7 +253,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Underneath a comment, tap the like icon \(![Like icon.](../image/like-comment-now-mobile.png)\).
 
 
-</td></tr><tr><td id="d128937e807">
+</td></tr><tr><td id="d131524e807">
 
 **Reply to a comment on the article \[available only in online mode\]**
 

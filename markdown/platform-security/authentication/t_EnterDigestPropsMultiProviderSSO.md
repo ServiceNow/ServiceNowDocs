@@ -29,7 +29,7 @@ If you are not using multi-provider single sign-on, configure standard single si
 
 2.  Fill in the fields of Digest Properties form.
 
-<table id="choicetable_sf3_clr_xkb"><tbody><tr><td id="d43597e81">
+<table id="choicetable_sf3_clr_xkb"><tbody><tr><td id="d47185e81">
 
 **__Name__**
 
@@ -37,7 +37,7 @@ If you are not using multi-provider single sign-on, configure standard single si
 
 Enter the name of the digest token.
 
-</td></tr><tr><td id="d43597e93">
+</td></tr><tr><td id="d47185e93">
 
 **__User__**
 
@@ -45,7 +45,7 @@ Enter the name of the digest token.
 
 Enter the sys\_user field that contains the matching data for the incoming header.
 
-</td></tr><tr><td id="d43597e105">
+</td></tr><tr><td id="d47185e105">
 
 **__HTTP Digest header name__**
 
@@ -53,7 +53,7 @@ Enter the sys\_user field that contains the matching data for the incoming heade
 
 Enter the HTTP header you generated. For example, `DE_USER`.
 
-</td></tr><tr><td id="d43597e120">
+</td></tr><tr><td id="d47185e120">
 
 **__HTTP header name__**
 
@@ -61,7 +61,7 @@ Enter the HTTP header you generated. For example, `DE_USER`.
 
 Enter the HTTP header you generated for your created digested token. For example, `SM_USER`.
 
-</td></tr><tr><td id="d43597e135">
+</td></tr><tr><td id="d47185e135">
 
 **__Secret Passphrase__**
 
@@ -69,7 +69,7 @@ Enter the HTTP header you generated for your created digested token. For example
 
 Enter the secret key to use for encoding digest keys. For example, `32 or more characters`.
 
-</td></tr><tr><td id="d43597e151">
+</td></tr><tr><td id="d47185e151">
 
 **__Failed SSO Redirect field__**
 
@@ -77,7 +77,7 @@ Enter the secret key to use for encoding digest keys. For example, `32 or more c
 
 Enter the URL to redirect users after a failed authentication.
 
-</td></tr><tr><td id="d43597e163">
+</td></tr><tr><td id="d47185e163">
 
 **__External logout redirect__**
 
@@ -85,7 +85,7 @@ Enter the URL to redirect users after a failed authentication.
 
 Enter the URL to redirect users after a logout.
 
-</td></tr><tr><td id="d43597e175">
+</td></tr><tr><td id="d47185e175">
 
 **__Single Sign-on Script__**
 
@@ -93,7 +93,7 @@ Enter the URL to redirect users after a logout.
 
 Select **MultiSSO\_DigestedToken**.
 
-</td></tr><tr><td id="d43597e190">
+</td></tr><tr><td id="d47185e190">
 
 **__Client Type__**
 

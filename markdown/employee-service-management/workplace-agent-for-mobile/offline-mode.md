@@ -37,8 +37,6 @@ To turn on offline mode, perform the following steps:
 
 [Manage workplace cases and tasks](manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)
 
-[Assign an unassigned case or task](assign-an-unassigned-case-or-task-agentmobile.md)
-
 [Edit or view case details on the Workplace Agent for mobile app](edit-or-view-case-details-agentmobile.md)
 
 [Print workplace cases](print-workplace-cases-mobile.md)

@@ -75,6 +75,14 @@ Category of this planning item. Choose from **Strategic** or **Operational**.
 
 </td></tr><tr><td>
 
+Execution URL
+
+</td><td>
+
+Link to the demand's execution record in Next Experience for Demand Management.
+
+</td></tr><tr><td>
+
 MoSCoW
 
 </td><td>

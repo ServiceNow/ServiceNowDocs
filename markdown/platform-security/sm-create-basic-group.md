@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Secrets management dashboard, Secrets Management, Platform Security]
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
 # Create a basic secret group
@@ -25,7 +25,7 @@ Basic secret groups can contain any secret you add to them, regardless of their 
 
 2.  Select **New**.
 
-3.  At the **What type of Secret Group would you like to create?** select **Basic Secret Group**.
+3.  For the **What type of Secret Group would you like to create?** option, select **Basic Secret Group**.
 
 4.  In the **Secret Group** form, fill in the fields.
 
@@ -91,5 +91,5 @@ Select the cryptographic module to use with this group. This module encrypts and
     **Note:** When created, a secret group is inactive by default. Return to the group record and select **Active** to activate the group.
 
 
-**Parent Topic:**[Secrets management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
 

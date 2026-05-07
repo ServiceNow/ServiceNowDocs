@@ -1,6 +1,6 @@
 ---
-title: Add an MCP server from AI Control Tower
-description: Add an MCP server from the AI Control Tower.
+title: Add an MCP server from the AI Control Tower
+description: Add an Model Context Protocol \(MCP\) server from the AI Control Tower.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -11,9 +11,9 @@ reading_time_minutes: 1
 breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Add an MCP server from AI Control Tower
+# Add an MCP server from the AI Control Tower
 
-Add an MCP server from the AI Control Tower.
+Add an Model Context Protocol \(MCP\) server from the AI Control Tower.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: sn\_ai\_governance.ai\_steward
 -   \(AIG admin\) aig\_admin
 -   \(MCP Client admin\) sn\_mcp\_client.admin
 
-For more information on the AI steward role and its responsibilities, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md)
+For more information on the AI steward role and its responsibilities, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md).
 
 ## Procedure
 
@@ -41,15 +41,15 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
 6.  Select the Client registration type.
 
-    **Note:** Selecting Dynamic client Registration, AI Control Tower automatically receives the Client ID and Client Secret. Selecting Manual registration, the client must be created externally on the MCP provider side while the client ID and secret must be entered manually.
+    **Note:** If you select Dynamic client Registration, the AI Control Tower automatically receives the Client ID and Client Secret. If you select Manual registration, the client must be created externally on the MCP provider side while the client ID and secret must be entered manually.
 
-7.  Review all the other details such as Grant type, and Token authentication method.
+7.  Review all the other details such as the Grant type, and Token authentication method.
 
     **Note:** There are three sections for the URL:
 
-    -   Authorization URL: Where the user authenticates and grants access token\\
-    -   Token URL: Where the system exchanges and authorization code for an access token
-    -   Token revocation URL: Used to invalidate issued tokens if supported.
+    -   Authorization URL: Where the user authenticates and grants the access token
+    -   Token URL: Where the system exchanges an authorization code for an access token
+    -   Token revocation URL: Used to invalidate issued tokens if supported
 8.  Select **Submit**.
 
 

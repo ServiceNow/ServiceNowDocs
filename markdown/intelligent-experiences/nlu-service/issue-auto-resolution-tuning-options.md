@@ -60,5 +60,3 @@ Note that the intents are grouped into mapped and unmapped intents, depending on
 
 When you have decided the optimum tuning option for your requirements, select the **Save choice** button in the **Learn about tuning goals** window. Then, select the **Tune and publish model** button to advance to the next step.
 
-**Parent Topic:**[Issue Auto Resolution Tuning in NLU](issue-auto-resolution-tuning-nlu.md)
-

@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Quick start tests for Leader Hub, Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Quick start tests, Install and configure, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Run quick start tests for Leader Hub

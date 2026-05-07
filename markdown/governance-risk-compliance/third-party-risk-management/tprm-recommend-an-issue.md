@@ -48,7 +48,7 @@ To generate meaningful recommendations, data must be available from completed pr
 
 6.  Review and confirm that the recommendation skill meets your requirements.
 
-    1.  Select **Define access** review or update the conditions when the skill is accessible to users.
+    1.  Select **Define access** to review or update the conditions when the skill is accessible to users.
 
         |Field|Description|
         |-----|-----------|

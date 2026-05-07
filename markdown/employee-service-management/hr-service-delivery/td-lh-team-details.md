@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Org talent page, Exploring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
+breadcrumb: [Org talent page, Explore, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Team details page

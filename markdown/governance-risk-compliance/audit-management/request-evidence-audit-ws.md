@@ -23,7 +23,7 @@ Role required: sn\_audit.user
 
 1.  Navigate to **All** &gt; **Audit Workspace**.
 
-2.  In the Audit Workspace select the List icon \(![List](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  In the Audit Workspace select the List icon \(![List](../../grc-cam-workspace/image/ws-list-icon.png)\).
 
 3.  Navigate to **Evidence requests** &gt; **My request**.
 

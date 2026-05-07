@@ -19,7 +19,7 @@ As an administrator or search administrator, you can configure settings to contr
 -   **[Enable Now Assist Genius Results in AI Search portals and mobile applications](../task/enable-now-assist-gr-ais-apps.md)**  
 Specify the Now Assist Genius Result types you want to make available in each of your AI Search portals and mobile applications.
 -   **[Now Assist Multi-Content Response Genius Results](now-assist-multi-content-qna-genius-results.md)**  
-Now Assist Multi-Content Response Genius Results use an LLM to generate search and chat responses that synthesize information from knowledge articles, Service Catalog items, and other available content types.
+Now Assist Multi-Content Response Genius Results enhance search and chat experiences by providing comprehensive answers from multiple sources.
 -   **[Now Assist Q&amp;A Genius Results](now-assist-qna-genius-results.md)**  
 Now Assist Q&amp;A Genius Results use the Now LLM Service to generate concise, actionable answers from knowledge article results in Service Portal, Virtual Agent, Employee Center, and global searches.
 -   **[External Content Q&amp;A Genius Results](external-content-qna.md)**  

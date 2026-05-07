@@ -7,7 +7,7 @@ product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -79,7 +79,13 @@ You can determine the time range of the displayed alerts. The default time range
 -   Last 15 minutes
 -   Custom - Enables you to select a date and time range from the pop-up calendar.
 
-Default time ranges can be defined by your administrator using the system property sn\_sow\_em.evt\_mgmt.express\_list.all\_time\_days.
+The **Default Time Range** field is introduced on the Express List view in the following versions:
+
+-   Service Operations Workspace Express List 26.6.1
+-   Service Operations Workspace Express List App 26.4.0
+-   Service Operations Workspace ITOM Apps 26.9.0
+
+Default time ranges can be defined by your administrator using the system property **evt\_mgmt.express\_list.all\_time\_days**. This property specify the time range \(in days\) of displayed alerts.
 
 **Related topics**  
 

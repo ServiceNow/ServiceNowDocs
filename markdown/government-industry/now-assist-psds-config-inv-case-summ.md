@@ -34,8 +34,6 @@ Activate and customize the Investigative case summarization skill in the Now Ass
     -   The asset was previously turned on, and then turned off again.
     -   An admin has adjusted roles for the asset.
 
-For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-
 -   Confirm that the following applications and plugins are installed:
 
     -   Now Assist for Public Sector Digital Services \(PSDS\)

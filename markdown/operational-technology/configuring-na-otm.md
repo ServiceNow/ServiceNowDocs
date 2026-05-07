@@ -13,7 +13,7 @@ breadcrumb: [OT Manager Foundation, Operational Technology]
 
 Configure the features and agentic workflows available for the Operational Technology \(OT\) Manager Foundation.
 
--   **[Supporting information for the OT Manager Foundation](supporting-information-for-now-assist-otm.md)**  
+-   **[Supporting information for OT Manager Foundation](supporting-information-for-now-assist-otm.md)**  
 Get a quick overview of the important information that is related to the Operational Technology \(OT\) Manager Foundation.
 -   **[Activate the OT CMDB Search feature](../task/activate-ot-cmdb-search.md)**  
 If you have the admin role, you can configure the Operational Technology \(OT\) Manager Foundation so that teams can use the OT Configuration Management Database \(CMDB\) search feature in the Industrial Workspace.
@@ -22,5 +22,5 @@ You must activate the agentic workflow from the AI Agent Studio. The Operational
 -   **[Edit trigger words for OT CMDB search](../task/edit-trigger-words-for-ot-cmdb-search.md)**  
 Edit the trigger words used in the Operational Technology \(OT\) Configuration Management Database \(CMDB\) search feature to optimize search results specific to OT.
 
-**Parent Topic:**[OT Manager Foundation](now-assist-for-otm-landing.md)
+**Parent Topic:**[Operational Technology \(OT\) Manager Foundation](now-assist-for-otm-landing.md)
 

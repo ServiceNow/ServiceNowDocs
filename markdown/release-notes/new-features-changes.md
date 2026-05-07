@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -51,7 +51,7 @@ The Australia release includes new products.
 
 
 
--   **Sales and Order Management**
+-   **Sales Customer Relationship Management**
 
     [Activity Management release notes](sales-order-management/activity-management-rn.md)
 
@@ -59,7 +59,7 @@ The Australia release includes new products.
 
     [Buying Group release notes](sales-order-management/buying-group-rn.md)
 
-
+    [Quote Management release notes](sales-order-management/quote-management-rn.md)
 
 -   **ServiceNow AI Platform Capabilities**
 
@@ -132,8 +132,8 @@ Platform Analytics has new and updated features in the Australia release.
 The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Australia release.
 -   **[Retail release notes](retail-rn.md)**  
 The ServiceNow® retail applications streamline frontline operations and customer experiences. Retail applications were enhanced and updated in the Australia release.
--   **[Sales and Order Management release notes](sales-order-management/sales-order-management-rn-landing.md)**  
-ServiceNow®Sales and Order Management is a set of new and updated applications and features in the Australia release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+-   **[Sales Customer Relationship Management release notes](sales-order-management/sales-order-management-rn-landing.md)**  
+ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Australia release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 -   **[Security Operations release notes](security-operations/security-operations-rn-landing.md)**  
 Security Operations has new and updated features in the Australia release.
 -   **[ServiceNow AI Platform administration release notes](now-platform-administration/now-platform-admin-rn-landing.md)**  

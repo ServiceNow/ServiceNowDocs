@@ -1,6 +1,6 @@
 ---
-title: Add an MCP server from ServiceNow AI Agent studio
-description: Add an external MCP server from ServiceNow AI Agent studio.
+title: Add an MCP server from AI Agent studio
+description: Add an external MCP server from AI Agent Studio.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -11,9 +11,9 @@ reading_time_minutes: 2
 breadcrumb: [Process flow of MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Add an MCP server from ServiceNow AI Agent studio
+# Add an MCP server from AI Agent studio
 
-Add an external MCP server from ServiceNow AI Agent studio.
+Add an external MCP server from AI Agent Studio.
 
 ## Before you begin
 
@@ -33,7 +33,7 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
 2.  Select **New**.
 
-    **Note:** In the Create and manage tab of the AI Agent studio, you can add only those MCP servers that have been approved in the AI Control Tower. To view these approvals, go to the Approvals tab on the MCP server record. For more information on Approvals tab and MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md)
+    **Note:** In the Create and manage tab of the AI Agent Studio, you can add only those MCP servers that have been approved in the AI Control Tower. To view these approvals, go to the Approvals tab on the MCP server record. For more information on Approvals tab and MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md)
 
 3.  Enter the Name.
 
@@ -57,7 +57,7 @@ For more information on the AI steward role and its responsibilities, see [AI Co
 
 9.  Select **Authenticate** to authenticate the server with your credentials.
 
-    **Note:** To view the approval request record for every MCP server in the AI Agent studio, click **View Approval record**. This action will direct you to the Related Variants tab of the respective MCP server
+    **Note:** To view the approval request record for every MCP server in the AI Agent studio, select **View Approval record**. This action will direct you to the Related Variants tab of the respective MCP server
 
     To know more about Related Variants tab in the MCP server record, see [MCP server record](../concept/view-the-mcp-server-record.md)
 

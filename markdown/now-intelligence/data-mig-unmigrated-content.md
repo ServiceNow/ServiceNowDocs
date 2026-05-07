@@ -4,7 +4,7 @@ description: Most dashboard content is migrated to the new Platform Analytics ex
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-15"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -24,6 +24,7 @@ Filters that are not migrated
 -   Debug filter
 -   Filter user preferences from dashboards
 -   Cascading filters that support the Choice &gt; Choice configuration
+-   Filtered list content. For more information on List filters, see [Create a filter in List](https://www.servicenow.com/docs/access?context=t_CreatingFilters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
 
 Visualization configurations that are not migrated:
 

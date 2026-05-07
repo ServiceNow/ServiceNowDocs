@@ -51,15 +51,15 @@ Barcode inputs are available [offline](../concept/mobile-offline-mode.md). [Mobi
 
 6.  Depending on the type of barcode scan input you want to configure.
 
-<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d46449e249">
+<table id="choicetable_dwz_qrl_zvb"><thead><tr><th align="left" id="d49208e249">
 
 Option
 
-</th><th align="left" id="d46449e252">
+</th><th align="left" id="d49208e252">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46449e258">
+</th></tr></thead><tbody><tr><td id="d49208e258">
 
 **Single scan barcode inputs**
 
@@ -67,7 +67,7 @@ Description
 
 When you finish configuring all the fields you want, select **Update**.
 
-</td></tr><tr><td id="d46449e270">
+</td></tr><tr><td id="d49208e270">
 
 **Multi-scan barcode inputs**
 

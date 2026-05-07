@@ -35,15 +35,15 @@ You can define report components to your report templates and provide additional
 
 4.  On the Report template form, fill the fields.
 
-<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d39038e102">
+<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d41468e102">
 
 Field
 
-</th><th align="left" id="d39038e105">
+</th><th align="left" id="d41468e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d39038e111">
+</th></tr></thead><tbody><tr><td id="d41468e111">
 
 **Name**
 
@@ -51,7 +51,7 @@ Description
 
 Name of the report template.
 
-</td></tr><tr><td id="d39038e120">
+</td></tr><tr><td id="d41468e120">
 
 **Branding information**
 
@@ -59,7 +59,7 @@ Name of the report template.
 
 Select the branding information of your report template such as logo, header, and footer text. For example, Default branding record.
 
-</td></tr><tr><td id="d39038e129">
+</td></tr><tr><td id="d41468e129">
 
 **Report Type**
 
@@ -69,7 +69,7 @@ Type of status report. The status report can be in one of the following types:- 
 -   Email
 
 
-</td></tr><tr><td id="d39038e146">
+</td></tr><tr><td id="d41468e146">
 
 **Table**
 
@@ -77,7 +77,7 @@ Type of status report. The status report can be in one of the following types:- 
 
 Name of the report template table.
 
-</td></tr><tr><td id="d39038e156">
+</td></tr><tr><td id="d41468e156">
 
 **Top/Bottom Margin**
 
@@ -85,7 +85,7 @@ Name of the report template table.
 
 Define the top and bottom margin indentations required while generating the report.
 
-</td></tr><tr><td id="d39038e165">
+</td></tr><tr><td id="d41468e165">
 
 **Left/Right Margin**
 
@@ -93,7 +93,7 @@ Define the top and bottom margin indentations required while generating the repo
 
 Define the left and right margin indentations required while generating the report.
 
-</td></tr><tr><td id="d39038e174">
+</td></tr><tr><td id="d41468e174">
 
 **Page Size**
 
@@ -101,7 +101,7 @@ Define the left and right margin indentations required while generating the repo
 
 The page size of your report template. For example, the default size is A4.
 
-</td></tr><tr><td id="d39038e183">
+</td></tr><tr><td id="d41468e183">
 
 **Active**
 
@@ -109,7 +109,7 @@ The page size of your report template. For example, the default size is A4.
 
 Select the check box for the MSI Manager to generate a report from the template that was created from the **Reports Template** section.**Note:** If the check box is cleared, then the MSI Manager can't create a report for that specific report template type in the MSIM workspace.
 
-</td></tr><tr><td id="d39038e198">
+</td></tr><tr><td id="d41468e198">
 
 **First page header editor**
 

@@ -7,7 +7,7 @@ product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -19,6 +19,29 @@ Create an AI connection for Azure Foundry in AI Control Tower using the  AI Se
 
 Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
+Account &amp; Resource Hierarchy
+
+The connector supports three Azure service variants, each with its own resource hierarchy:
+
+-   ML Services \(AI Hub\) Subscriptions → Resource Groups → ML Workspaces → Agents
+-   AI Services/Old Foundry \(Cognitive Services\) Subscriptions → Resource Groups → Cognitive Services Accounts → Projects → Agents
+-   New Foundry Subscriptions → Resource Groups → Accounts → Projects → Agents → Agent Versions
+
+The key distinction with New Foundry is that each agent version is treated as a distinct entity, which the other two variants don't support.
+
+Discovered per agent
+
+For each agent discovered across all three variants, the connector collects:
+
+-   **AI Agents \(assistants\)**- The primary entity.
+-   **AI Models**- Deployed models \(GPT-4o, Llama, Claude, etc.\) via deployment enrichment.
+-   **AI Prompts**- System instructions attached to agents.
+-   **AI Tools**- With type coverage varying by variant:
+    -   ML &amp; AI Services: `functions`, `connected_agent`, others
+    -   New Foundry adds: `mcp`, `openapi`, `a2a_preview`
+-   **Sub-component Relationships**- M2M links between agents and their sub agents/tools
+-   **Usage/Execution Metrics**- Aggregated run counts by agent, date, and session.
+
 ## Procedure
 
 1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
@@ -27,7 +50,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **AI connector for Microsoft** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
 5.  Select Azure Foundry check box.
 
@@ -35,7 +58,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     **Note:** Verify to follow all the prerequisite steps.
 
-7.  Click **Continue**.
+7.  Select **Continue**.
 
 8.  Setup page appears
 
@@ -55,9 +78,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         The tenant id can be found in the URL of every page. It’s abbreviated as tid.
 
-    6.  Click **Update and test connection**
+    6.  Select **Update and test connection**
 
-    7.  Click **Continue**.
+    7.  Select **Continue**.
 
 10. **Configure and test AI services connection**
 
@@ -77,20 +100,20 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 11. **Configure import schedule**
 
-    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
+    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
 
-        Ensure to execute the Discovery-scheduled job first.
+        verify to execute the Discovery-scheduled job first.
 
     2.  Select **Execute now** to run.
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    3.  Click **Continue**.
+    3.  Select **Continue**.
 
-    4.  Click **View all connections** to view the newly created connection.
+    4.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-AI connection is created for Azure Foundry.
+An AI connection is created for Azure Foundry.
 

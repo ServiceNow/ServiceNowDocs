@@ -6,7 +6,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Using Shopping Hub, Use, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Configure template categories
-description: Create template categories and child categories to classify templates based on a change model, template usage, and requirements.
+description: Create template categories and child categories to classify templates based on a change model, template usage, and organizational areas like software or security.
 locale: en-US
 release: australia
 product: Change Management
@@ -13,9 +13,11 @@ breadcrumb: [Create and propose a change template, Create a Change model, Config
 
 # Configure template categories
 
-Create template categories and child categories to classify templates based on a change model, template usage, and requirements.
+Create template categories and child categories to classify templates based on a change model, template usage, and organizational areas like software or security.
 
 ## Before you begin
+
+The change template for which you want to create categories should already exist. For more information, see [Create and propose a change template](create-change-template.md).
 
 Role required: change\_manager
 
@@ -31,7 +33,7 @@ You must have a role configured with access to approve the templates for the cha
 
 4.  Select **New**.
 
-5.  Fill in the template name and description fields.
+5.  Provide the template name and a description.
 
 6.  Create a child category by selecting a parent template in the **Parent** field.
 

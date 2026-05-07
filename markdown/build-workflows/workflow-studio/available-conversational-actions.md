@@ -8,7 +8,7 @@ classification: workflow-studio
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Conversational actions, Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
+breadcrumb: [Conversational actions, Explore actions, Flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Available conversational actions

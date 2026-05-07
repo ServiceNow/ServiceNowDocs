@@ -41,7 +41,7 @@ The **Remove Contact** option is available only to the primary supplier contact 
 
     **Note:** The **Supplier** drop-down list is available after the Xanadu December 2024 release.
 
-4.  In the **Delegate tasks to** field, search for and select a contact to whom you want to reassign the tasks that are currently assigned to the contact being removed.![Dialog box for delegating tasks of the removed supplier contact.](../image/remove-supplier-contact-supplier-portal.png)
+4.  In the **Delegate tasks to** field, search for and select a contact to whom you want to reassign the tasks that are currently assigned to the contact being removed.
 
 5.  In the **Comments** field, enter the reason for removing the contact.
 

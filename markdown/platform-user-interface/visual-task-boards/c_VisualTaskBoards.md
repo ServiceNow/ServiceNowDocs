@@ -8,7 +8,7 @@ classification: visual-task-boards
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Personalize your experience, Configure user experiences]
+breadcrumb: [Configure UIs and portals, Configure user experiences]
 ---
 
 # Visual Task Boards

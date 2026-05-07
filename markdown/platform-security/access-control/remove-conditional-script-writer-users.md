@@ -35,7 +35,7 @@ Role required: security\_admin
 
     Only users added to this field are retained in the group after the removal job runs. All other group members are removed. Search and select users by name.
 
-    ![image.sgt-manage-user]
+    ![Manage users](../image/sgt-manage-user.png)
 
 4.  Select **Next**.
 
@@ -43,7 +43,7 @@ Role required: security\_admin
 
 5.  Review the keep list to confirm it is correct, then select **Schedule removal**.
 
-    ![image.sgt-schedule-removal]
+    ![Schedule removal](../image/sgt-schedule-removal.png)
 
     The **Schedule removal** dialog opens and displays a summary of the pending changes:
 

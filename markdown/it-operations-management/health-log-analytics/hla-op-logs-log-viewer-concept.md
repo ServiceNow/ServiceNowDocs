@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [Log Viewer, alert logs, anomaly frequency, root cause analysis, time filtering, log data visualization, search queries, log analysis, alert investigation, log filtering]
 breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -49,5 +50,5 @@ If you discover an important metric in the log data, you can use it to define a 
 **Related topics**  
 
 
-[Analyzing the logs around an anomaly to help find the alert's root cause](hla-op-surrounding-logs-view-concept.md)
+[Review logs surrounding the anomaly to help find the root cause in Health Log Analytics](hla-op-surrounding-logs-view-concept.md)
 

@@ -6,7 +6,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Add a target for goal, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -33,15 +33,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user
 
 3.  Update the target for your goal using one of the following methods depending on your board type.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d328260e76">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d313822e76">
 
 Option
 
-</th><th align="left" id="d328260e79">
+</th><th align="left" id="d313822e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d328260e85">
+</th></tr></thead><tbody><tr><td id="d313822e85">
 
 **From the Goals page**
 
@@ -61,7 +61,7 @@ In the Actual to date column, double click the cell for the target.
 
  Alternatively, you can select the row context menu icon \(![Row context menu icon.](../../alignment-planner-workspace/images/action-menu-icon.png)\) next to the target that you want to update and then select **Check in actuals**.
 
-</td></tr><tr><td id="d328260e126">
+</td></tr><tr><td id="d313822e126">
 
 **From the Strategy page**
 

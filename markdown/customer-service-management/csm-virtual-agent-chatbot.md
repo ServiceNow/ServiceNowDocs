@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Activate Virtual Agent, Chat channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Activate Virtual Agent, Chat channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Customer Service Virtual Agent conversations

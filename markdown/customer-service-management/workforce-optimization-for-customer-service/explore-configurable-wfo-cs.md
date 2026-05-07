@@ -17,7 +17,7 @@ Use Workforce Optimization for Customer Service to optimize your workforce and m
 
 Manage and monitor the real-time work being done by your agents across different channels and queues. Provide timely help to your team members to solve cases faster and help with complex customer issues. Coach your teams so that they gain the skills that let you address the demands from your customers. Efficiently schedule your teams to provide better coverage with integrated channel management.
 
-![Infographic displaying manager workflow for Workforce Optimization for Customer Service using modules like Channels, Coaching, Teams, and Scheduling.](../image/manager-wfo-workflow.png)
+![manager workflow process](../image/manager-wfo-workflow.png "Manager workflow")
 
 As a manager, you can monitor the demand for agents and skills in your organization to resolve issues. Assess agent skills, identify areas where they need improvement, and provide training to enhance their skills set. Track your teams performance, and manage the schedule of all agents in your assignment group—all from a unified location.
 
@@ -29,7 +29,7 @@ The landing page offers a real-time view of key performance metrics, team update
 
 ## Channel management
 
-Monitor your teams in real time and jump in their chat conversations to help when there’s a need.
+Monitor your teams in real-time and jump in their chat conversations to help when there’s a need.
 
 Using Channels, you can also:
 

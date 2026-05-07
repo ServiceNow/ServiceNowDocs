@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows, Use, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -37,7 +37,7 @@ Role required:
 
     **Important:** Perform this step only if you plan to customize or make specific changes to the flow.
 
-    ![Copy of a Create non-purchase order flow](../image/sap-integration-copy-flow.png "Copy of a Create non-purchase order flow")
+    ![Copy of a Create non-purchase order flow](../../source-to-pay-operations/image/sap-integration-copy-flow.png "Copy of a Create non-purchase order flow")
 
 5.  Activate the flow or subflow.
 
@@ -52,11 +52,11 @@ Role required:
     -   **Status** is **Pending Submission**
     **Note:** Don’t modify the trigger condition.
 
-    ![Trigger conditions for Creating a non-purchase order invoice flow](../image/sap-integration-flow-trigger.png "Trigger conditions for Creating a non-purchase order invoice flow")
+    ![Trigger conditions for Creating a non-purchase order invoice flow](../../source-to-pay-operations/image/sap-integration-flow-trigger.png "Trigger conditions for Creating a non-purchase order invoice flow")
 
     **Note:**
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md).
 
     You have successfully copied and executed the flow.
 

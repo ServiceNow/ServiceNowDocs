@@ -39,7 +39,7 @@ Install Public Sector Digital Services Core \(sn\_gsm\) from the ServiceNow® St
 
 </td><td>
 
-Assign public sector roles to users or groups that have been configured in the ServiceNow AI Platform®. For additional role information, see [Roles installed with graPublic Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md).
+Assign public sector roles to users or groups that have been configured in the ServiceNow AI Platform®. For additional role information, see [Roles installed with Public Sector Digital Services](../reference/roles-installed-with-public-sector-digital-services.md).
 
 </td></tr><tr><td>
 

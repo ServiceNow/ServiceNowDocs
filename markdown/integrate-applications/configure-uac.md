@@ -91,15 +91,15 @@ Role required: None
 
 4.  Do any of the following options for a desired action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d268463e431">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d186009e431">
 
 Option
 
-</th><th align="left" id="d268463e434">
+</th><th align="left" id="d186009e434">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d268463e440">
+</th></tr></thead><tbody><tr><td id="d186009e440">
 
 **To rename __UniversalApplication__**
 
@@ -107,7 +107,7 @@ Action
 
 Navigate to **Global Objects** in the Project Explorer pane, right-click the **UniversalApplication** and select **Rename**.![From Global objects, right-click the UniversalApplication and select Rename.](../image/uac-rename-right-click.png "Rename UniversalApplication")
 
-</td></tr><tr><td id="d268463e480">
+</td></tr><tr><td id="d186009e480">
 
 **To change the name of the screen while configuring the screens and elements**
 
@@ -123,7 +123,7 @@ The name of the application is updated in the Screens and elements pane.
 
  ![Update the application screen name in the Properties section.](../image/uac-update-screen-name.png "Update the application screen name")
 
-</td></tr><tr><td id="d268463e523">
+</td></tr><tr><td id="d186009e523">
 
 **To identify the screen uniquely**
 
@@ -137,7 +137,7 @@ The image below shows an example of multiple elements that match the same criter
 
 ![Multiple instances of captured element.](../image/uac-connector-multiple-instances.png)
 
-</td></tr><tr><td id="d268463e554">
+</td></tr><tr><td id="d186009e554">
 
 **To identify an element uniquely**
 
@@ -149,7 +149,7 @@ The image shows the match rules of an element captured.
 
 ![Element and its match rules.](../image/uac-connector-child-element-match-rules.png)
 
-</td></tr><tr><td id="d268463e586">
+</td></tr><tr><td id="d186009e586">
 
 **To find the elements on the application screen**
 
@@ -157,7 +157,7 @@ The image shows the match rules of an element captured.
 
 Use the locators of the captured elements.For more information, see [Find the elements on the application screen](find-elements-screen-uac.md).
 
-</td></tr><tr><td id="d268463e607">
+</td></tr><tr><td id="d186009e607">
 
 **To view the path to an iframe, if any, in a captured element**
 

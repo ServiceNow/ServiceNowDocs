@@ -65,7 +65,7 @@ The file picker provides a unified view of documents across multiple sources and
 
 
 -   **[Add documents in Workspace](../task/attach-document-workspace.md)**  
-Use the file picker to select and add documents from the documents repository, an external cloud storage provider, or a local desktop to a ticket or a record.
+Use the file picker to add documents from the documents repository, external cloud storage providers, or your local desktop to records.
 -   **[Manage document files and folders in Workspace](../task/manage-folders-documents-workspace.md)**  
 Manage folders and documents from the Documents component to download, rename, manage permissions, track versions, add reviewers and approvers directly in the record within the workspace.
 -   **[Manage document versions in external cloud](../task/manage-documents-external-cloud.md)**  

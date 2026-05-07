@@ -21,9 +21,9 @@ This tables shows the mapping used to move the existing metric types to the sect
 
 |Existing metric type|Mapped to|
 |--------------------|---------|
-|Name \(Translated text\) \(Max length 255\)|**Name** \(Translated text\) field in the Assessment Template table.|
-|Description \(Translated text\) \(Max length 1000\)|**Description** \(Translated html\) field in the Assessment Template table.|
-|Table \(Table Name\)|**Table** \(Table Name\) field in the Context Item table.|
+|Name \(Translated text\) \(Max length 255\)|**Name** \(Translated text\) field in the Assessment Template table \(\(sn\_smart\_asmt\_template\) \).|
+|Description \(Translated text\) \(Max length 1000\)|**Description** \(Translated html\) field in the Assessment Template table \(\(sn\_smart\_asmt\_template\) \).|
+|Table \(Table Name\)|**Table** \(Table Name\) field in the Context Item table \(sn\_smart\_asmt\_context\_item\).|
 
 ## How metric categories are mapped
 
@@ -85,7 +85,7 @@ This tables shows the mapping used to move the existing metric definitions to th
 
 |Metric definition in the existing table|Mapped to the Choice table|
 |---------------------------------------|--------------------------|
-|Display|**Text label** field in the Choice table|
+|Display|**Text label** field in the Choice table \(sn\_smart\_asmt\_response\_option\)|
 |Order|**Integer** data type is mapped to the **Order** field in the Choice table that is based on the same ascending sequence of the template-definition records in the **Value** field that is associated with a particular template.|
 
 ## How assessment metric templates are mapped
@@ -98,8 +98,13 @@ Metrics whose data type is template are migrated as questions of the type Radio 
 
 This tables shows the mapping used to move the existing template definitions to the choice table in the assessment templates.
 
-|Assessment template definition in the existing table|Mapped to the Choice table|
-|----------------------------------------------------|--------------------------|
+|Assessment template definition in the existing table|Mapped to the Choice table \(sn\_smart\_asmt\_response\_option\)|
+|----------------------------------------------------|----------------------------------------------------------------|
 |Display|**Text label** field.|
 |Value|Integer data type is mapped to the **Order** field in the Choice table, based on the same ascending sequence of the template-definition records in the **Value** field that is associated with a particular template.|
+
+**Related topics**  
+
+
+[tables-installed-in-smart-assessment-engine.md](tables-installed-in-smart-assessment-engine.md)
 

@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SuccessFactors spoke v4.10.0 is the latest version.
+SuccessFactors spoke v4.10.1 is the latest version.
 
 ## Supported versions
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Intelligence for CSM release notes
@@ -13,6 +13,11 @@ reading_time_minutes: 4
 The ServiceNow® Intelligence for Customer Service Management \(CSM\) applications enable customer service organizations and service operations to configure and implement Guided Decisions, Recommended Actions, and Task Intelligence features. The Intelligence for CSM applications were enhanced and updated in the Australia release.
 
 ## Intelligence for CSM highlights for the Australia release
+
+[Australia Patch 2](../quality/australia-patch-2.md)
+
+-   Automatically evaluate post-interaction customer conversations using AI models that score against a configurable quality rubric, eliminating manual effort.
+-   Receive intelligent email reply recommendations on extended table record pages in Now Assist for CSM, helping agents respond faster with less manual effort.
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
@@ -35,6 +40,15 @@ For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
+-   **[Quality assurance management skill](https://www.servicenow.com/docs/access?context=quality-assurance-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    Automatically evaluate agent activity on closed cases using AI models that score each interaction against a configurable quality rubric, eliminating manual sampling and ensuring consistent, objective assessments at scale.
+
+-   **[Extended table support for email reply recommendation skill](https://www.servicenow.com/docs/access?context=configure-extended-table-support-for-the-email-reply-recommendation-skill&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    Automatically receive email reply recommendations on extended table record pages in Now Assist for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
+
+
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
@@ -52,6 +66,18 @@ For details, see the "Activation information" section of these release notes.
 
     Availability of filter controls for CSM in the Now Assist Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
 
+
+-   **[Guided Decisions - UI Layout tab for the Guided Decision with inputs/outputs activity](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    Configure the display of knowledge articles directly from the UI Layout tab by setting a default article height and choosing whether articles appear collapsed by default in the playbook.
+
+-   **[Guided Decisions - Restart option for the Guided Decision with inputs and outputs activity](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    As an agent, you can restart a Guided Decision with inputs and outputs activity in a playbook by selecting the **Restart Activity** option when the activity is in a complete, skipped, or error state and the stage is still in progress.
+
+-   **[Recommended Actions - Hybrid search in AI search](https://www.servicenow.com/docs/access?context=ra-hybrid-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+
+    Recommended Actions in CSM Configurable Workspace now uses hybrid search, combining keyword and semantic matching to surface more relevant KB articles and guided actions in the AI search tab, even when agent queries do not match article content exactly.
 
 -   **[Recommended Actions - View the relevancy score on the Case resolution guidance](https://www.servicenow.com/docs/access?context=nba-use-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
 

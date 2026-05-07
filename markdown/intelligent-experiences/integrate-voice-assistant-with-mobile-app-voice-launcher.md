@@ -36,7 +36,7 @@ Role required: virtual\_agent\_admin or admin
 
 6.  In Prominent action button override, select from the **Add tab override** drop-down to allow a prominent action button to launch the assistant.
 
-    The prominent action button overrides what’s been defined in the chat launcher and voice launcher functions. See  for more information on configuring the prominent action button.
+    The prominent action button overrides what’s been defined in the chat launcher and voice launcher functions. See [Configuring a prominent action button](https://www.servicenow.com/docs/access?context=configuring-prominent-action-button&version=australia&pubname=australia-mobile&ft:locale=en-US) for more information on configuring the prominent action button.
 
 7.  Select **Save** to save the configuration.
 

@@ -7,7 +7,7 @@ product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Start remediation of a Log Analytics alert, Log Analytics in SOW for ITOM, Using SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
 
@@ -67,5 +67,5 @@ For a detailed description of Log Analytics groups, see [Types of Health Log Ana
 -   **[View the Log Analytics alerts in a Log Analytics group in Health Log Analytics](../task/hla-op-alerts-in-group-sow.md)**  
 View a list of all Log Analytics alerts in a Log Analytics group on the **Related records** tab.
 
-**Parent Topic:**[Take action on a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
+**Parent Topic:**[Start remediation of a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
 

@@ -19,7 +19,7 @@ Create action plan for KPIs.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kpi.admin
 
 ## Procedure
 

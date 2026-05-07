@@ -73,7 +73,7 @@ Add theme-able empty state images to customize empty states and improve the user
 -   **[Configuring Next Experience themes and preferences](../task/config-next-experience-themes-prefs.md)**  
 Theming in Next Experience applies to individual experiences. As an admin user, you can configure the variables for colors, shapes, fonts, and other aspects of the user experience.
 -   **[Configure login theming in Next Experience](../task/edit-login-features-u-n.md)**  
-Customize Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
+Configure Next Experience login illustrations and welcome text to provide a login experience that reflects your branding.
 -   **[Customize the Next Experience login background illustration](../task/customize-login-background.md)**  
 Customize and change the background illustration applied to your Next Experience login page.
 -   **[Customize the Next Experience login background color](../task/customize-ne-login-background-color.md)**  

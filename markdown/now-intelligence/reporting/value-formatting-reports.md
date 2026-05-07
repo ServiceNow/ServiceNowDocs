@@ -125,7 +125,7 @@ In existing reports, you can configure formatted values on the **Configure** tab
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### Procedure
 

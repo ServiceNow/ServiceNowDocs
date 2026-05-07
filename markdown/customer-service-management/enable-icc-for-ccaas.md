@@ -7,7 +7,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [ICC for contact center integration, ICC for CCaaS, NVC for CCaaS integration]
-breadcrumb: [Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Phone channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations

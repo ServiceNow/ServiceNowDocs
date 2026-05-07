@@ -56,7 +56,7 @@ Each ERP instance requires a unique ERP source configuration. For example, 10 ER
         |Active|Option to activate the ERP source.|
         |Amount Precisions|Amount precision of the ERP source. For example, 2.|
 
-        ![Define a new ERP source configuration for Coupa](../image/coupa-new-erp-source.png "Define a new ERP source configuration for Coupa")
+        ![Define a new ERP source configuration for Coupa](../../source-to-pay-operations/image/coupa-new-erp-source.png "Define a new ERP source configuration for Coupa")
 
     6.  Select **Submit**.
 

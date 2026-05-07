@@ -57,7 +57,7 @@ Set record level restrictions in DLP incidents to protect sensitive records from
 
 [Create repeat offender identification rules](../task/repeat-offender-identification-rules.md)
 
-[Create Additional Incident Data Fields](../task/create-custom-fields-dlp.md)
+[Create additional incident data fields](../task/create-custom-fields-dlp.md)
 
 [DLP SLA Definition form](../reference/dlp-sla-def-properties.md)
 

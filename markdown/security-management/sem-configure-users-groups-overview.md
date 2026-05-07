@@ -57,8 +57,3 @@ Assign groups to product-specific roles in the Security Exposure Management Work
 -   **[Add users to a role](sem-add-users-to-role.md)**  
 Assign users to product-specific roles using the interface in the Security Exposure Management Workspace.
 
-**Related topics**  
-
-
-[Supported products and roles in](../reference/sem-supported-products-roles.md)
-

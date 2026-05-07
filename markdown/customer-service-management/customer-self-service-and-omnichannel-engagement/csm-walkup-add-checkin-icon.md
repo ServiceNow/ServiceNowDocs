@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [System properties for configuring Walk-up Experience for guest users, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [System properties for configuring Walk-up Experience for guest users, Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add a Walk-up Experience online check-in link on the Service Portal home page

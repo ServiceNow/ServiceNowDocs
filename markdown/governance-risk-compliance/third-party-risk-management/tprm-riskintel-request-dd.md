@@ -31,7 +31,7 @@ You can order different types of risk intelligence reports such as credit risk r
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
+2.  Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Due diligence requests** &gt; **All requests**.
 
 3.  Navigate to the Due diligence request record page by selecting the relevant **DDR** number.
 

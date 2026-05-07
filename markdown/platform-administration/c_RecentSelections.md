@@ -20,7 +20,7 @@ By default, the system stores up to 15 selections from a reference field for eac
 -   The system doesn't store recent selections for Service Catalog reference variables.
 -   Recent selections aren't available in the Service Portal or mobile user interfaces.
 
-![An empty reference field to the User table displaying a list of two recent user selections: Beth Anglin and Elmo Gabouer.](../image/RecentSelections.png "Recent selections")
+![An empty reference field to the User table displaying a list of two recent user selections: Beth Anglin and Eric Shroeder.](../image/RecentSelections.png "Recent selections")
 
 The system uses auto-complete to filter the list of recent selections to match the values that you enter.
 

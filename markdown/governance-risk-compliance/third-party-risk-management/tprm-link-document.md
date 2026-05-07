@@ -24,7 +24,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 Linking documents ensures reusability and traceability across the TPRM life cycle. A single document can be referenced by multiple records such as assessments, engagements, issues, and tasks. Duplicate references aren’t allowed.
 
-If you want to link a document directly to a third-party, engagement, or assessment record instead of the document record, navigate to that specific record and add the document reference to the **Documents** related list. For example, **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third-parties** &gt; **All Engagements** select the engagement record you want, open the **Documents** related list, and select **Link documents**.
+If you want to link a document directly to a third-party, engagement, or assessment record instead of the document record, navigate to that specific record and add the document reference to the **Documents** related list. For example, **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Third-parties** &gt; **All Engagements** select the engagement record you want, open the **Documents** related list, and select **Link documents**.
 
 **Note:**
 
@@ -33,7 +33,7 @@ If you want to link a document directly to a third-party, engagement, or assessm
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Documents** &gt; **All Documents**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Documents** &gt; **All Documents**.
 
 2.  Select the document record that you want to add a document reference link to.
 

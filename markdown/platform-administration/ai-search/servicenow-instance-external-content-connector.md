@@ -24,8 +24,6 @@ In your destination instance, the indexed content and metadata are stored as rec
 
 **Important:** Your source and destination instances must be distinct from one another. The ServiceNow® instance external content connector is not designed to feed an instance's content back into itself.
 
-You can only create one ServiceNow® instance external content connector on a given destination instance.
-
 ## User permissions
 
 To view search results from the source instance, a user on the destination instance must satisfy the following conditions:

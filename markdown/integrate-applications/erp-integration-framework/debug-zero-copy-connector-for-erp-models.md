@@ -1,6 +1,6 @@
 ---
 title: Debug Zero Copy Connector for ERP models
-description: Use the debug models option in Zero Copy Connector for ERP to see a log capturing the probe payload, payload response, status, and other information.
+description: Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, model, log, payload, status]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Debug Zero Copy Connector for ERP models
 
-Use the debug models option in Zero Copy Connector for ERP to see a log capturing the probe payload, payload response, status, and other information.
+Use the debug models option in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to see a log capturing the probe payload, payload response, status, and other information.
 
 ## Before you begin
 

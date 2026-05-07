@@ -1,15 +1,15 @@
 ---
-title: Screen, anchor, and step properties in Agentic Desktop
+title: Screen, anchor, and step properties in AI Desktop Actions
 description: Learn about the properties of screens, anchors, and steps. There are multiple types of steps and each step type has distinct properties. You can update the properties to modify the behavior of the steps.
 locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2025-11-11"
 reading_time_minutes: 3
-breadcrumb: [Design desktop actions, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Screen, anchor, and step properties in Agentic Desktop
+# Screen, anchor, and step properties in AI Desktop Actions
 
 Learn about the properties of screens, anchors, and steps. There are multiple types of steps and each step type has distinct properties. You can update the properties to modify the behavior of the steps.
 

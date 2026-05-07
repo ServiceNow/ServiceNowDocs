@@ -36,7 +36,7 @@ You can't modify the trigger type and the table.
 
 5.  Update any of the trigger conditions or the advanced options.
 
-    **Note:** If a user has modified the advanced options while using the trigger, any modifications that you make to these options doesn't affect the user's modified settings. To view the field descriptions for the trigger forms, see [Create a saved record based trigger](create-saved-trigger.md).
+    **Note:** If a user has modified the advanced options while using the trigger, any modifications that you make to these options doesn't affect the user's modified settings. To view the field descriptions for the trigger forms, see [Create a saved record-based trigger](create-saved-trigger.md).
 
 6.  Select **Publish**.
 

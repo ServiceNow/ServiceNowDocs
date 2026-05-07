@@ -24,9 +24,12 @@ Jumpstart Your AI Agents for ITSM provides  Impact customers with an overview 
 ## What you get
 
 -   **Session preparation**
-    -   Provision a temporary instance
-    -   Activate related plug-ins
-    -   Activate AI Agent use cases
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates related plug-ins
+    -   Activates AI Agent use cases
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:

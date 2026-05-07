@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a product non-conformance case, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a correction action
@@ -38,7 +38,12 @@ Role required: Quality Issue Management Admin or product non-conformance submitt
 6.  Select **Save**.
 
 
-**Parent Topic:**[Related lists for Non-conformance](mco-related-lists-product-non-conformance.md)
+-   **[Create a CoPQ expense line](mco-copq-expense-line.md)**  
+Create CoPQ \(Cost of Poor Quality\) expense line enables you to capture the actual costs incurred due to poor quality. These costs include rework, scrap, warranty claims, or customer returns.
+-   **[Impacted asset action](mco-impacted-asset-action.md)**  
+Create the list of assets that are impacted under non-conformance cases.
+
+**Parent Topic:**[Product Non-conformance without playbook](mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

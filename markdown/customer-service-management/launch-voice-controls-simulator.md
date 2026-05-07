@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Set up the Voice Controls Simulator tool, Voice Controls Simulator tool, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Launching the simulator

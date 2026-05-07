@@ -36,4 +36,8 @@ Role required: wm\_qualifier or wm\_dispatcher or wm\_agent
 
     The work order is created.
 
+4.  Upload a photo of the issue instead of providing a text description.
+
+    The AI agent extracts relevant information from the image to populate work order fields.
+
 

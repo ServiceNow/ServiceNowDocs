@@ -7,7 +7,7 @@ product: Discovery
 classification: discovery
 topic_type: task
 last_updated: "2026-03-27"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -112,8 +112,9 @@ Name
 
 </td><td>
 
-The name in the criteria is the variable that passes the following information:-   `mid_server`: MID Server that processes the results from the Shazzam probe.
--   `win_domain`: Windows domain of the target device.
+The name in the criteria is the variable that passes the following information:-   `mid_server`: MID Server that processes the results from the Shazzam probe. Enter the actual name of the MID Server in the Value field.
+-   `win_domain`: Windows domain of the target device. Enter the actual name of the Windows domain in the Value field.
+-   `mid_win_domain` Windows domain of the MID Server that is processing the Shazaam results. Enter the actual domain name in the Value field.
 
 
 </td></tr><tr><td>

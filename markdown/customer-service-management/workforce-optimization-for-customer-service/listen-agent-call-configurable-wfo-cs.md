@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Voice, Channel Management, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Using Voice, Channel Management, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Listen, Monitor or Barge in to an agent call

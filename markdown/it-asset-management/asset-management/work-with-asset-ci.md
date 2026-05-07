@@ -47,7 +47,5 @@ Map the asset **State** and **Substate** fields to the **CI Hardware Status** fi
 
 [Manage transfer order](../../asset-management/concept/manage-transfer-orders.md)
 
-[Example Asset Management process](../../asset-management/task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../../asset-management/reference/org-mgmt.md#)
 

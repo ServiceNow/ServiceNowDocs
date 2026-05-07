@@ -6,7 +6,7 @@ release: australia
 product: Financial Services Credit Operations
 classification: financial-services-credit-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Common applications, Financial Services Operations \(FSO\)]
 ---
@@ -23,11 +23,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Reference ![](../../../common/image/icon-reference.png) Get details about components such as fields, tables, and properties.](../../fso-common/reference/installed-with-credit-assessment.md)
+[Reference Get details about components such as fields, tables, and properties.](../../fso-common/reference/installed-with-credit-assessment.md)
 
 </td><td>
 
-[Use cases ![](../../../common/image/icon-workspace.png) Learn how to work on a credit task for a loan service case.](../../fso-loan-operations/task/work-credit-task.md)
+[Use cases Learn how to work on a credit task for a loan service case.](../../fso-loan-operations/task/work-credit-task.md)
 
 </td></tr></tbody>
 </table>

@@ -16,23 +16,29 @@ With the Now Assist for Zero Copy Connector application, you can obtain informat
 
 ## Now Assist for ZCC overview
 
+The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for ZCC.
+
+## Now Assist for ZCC agentic workflows
+
 Use the Explore ERP models agentic workflow to obtain information about working with ERP database tables and models.
 
-The sn\_erp\_integration.erp\_ai\_user role is required to work with generative AI and agentic AI in Now Assist for ZCC.
+## Now Assist for ZCC AI agents
+
+Use the OData Service Recommender AI agent to connect to SAP OData services without manually identifying endpoints or configuring data models. You can also have the agent create a data model if an appropriate one does not already exist.
 
 ## Now Assist for ZCC skills
 
-The Now Assist for ZCC application includes the generative AI skills and features that enable you to find information about ERP software, models, data products, and more.
+The Now Assist for ZCC application includes generative AI skills and features that enable you to find information about ERP software, models, data products, and more.
 
 -   **ERP data discovery**
 
-    Gives you the ability to query SAP standard database tables for data and transactional records based upon natural language queries.
+    This skill gives you the ability to query SAP standard database tables for data and transactional records based upon natural language queries.
 
     ![Now Assist panel with entered question highlighted.](../images/erp-data-discovery-skill1.png)
 
 -   **ERP data query**
 
-    Helps you identify SAP objects that can then be used to query the required data. For example, use ERP data query to fetch routing operations for a specific material in work center.
+    This skill helps you identify SAP objects that can then be used to query the required data. For example, use ERP data query to fetch routing operations for a specific material in work center.
 
     ![Now Assist panel with entered question highlighted.](../images/erp-data-query-skill1.png)
 

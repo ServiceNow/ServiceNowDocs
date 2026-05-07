@@ -49,15 +49,15 @@ The entitlements with the following license types are carried over to the new co
 
 3.  Update the existing entitlements for the draft contract.
 
-<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d299804e137">
+<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d302328e137">
 
 Interface
 
-</th><th align="left" id="d299804e140">
+</th><th align="left" id="d302328e140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d299804e146">
+</th></tr></thead><tbody><tr><td id="d302328e146">
 
 **Core UI**
 
@@ -67,7 +67,7 @@ Action
 2.  Indicate the entitlements that you want to cover by moving them to the **Planned Entitlements** or removing them.
 
 
-</td></tr><tr><td id="d299804e170">
+</td></tr><tr><td id="d302328e170">
 
 **Hardware Asset Workspace**
 

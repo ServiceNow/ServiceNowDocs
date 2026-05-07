@@ -160,7 +160,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 7.  Complete any additional actions on the list.
 
-<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d263133e590">
+<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d266007e590">
 
 **Edit a list category**
 
@@ -171,7 +171,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d263133e617">
+</td></tr><tr><td id="d266007e617">
 
 **Change how the filtered list appears by selecting the list in the navigation panel**
 
@@ -182,7 +182,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Refresh the canvas preview by selecting the refresh icon \(![Refresh icon on preview canvas](../image/workspace-list-refresh-icon-purple.png)\) in the canvas header.
 
 
-</td></tr><tr><td id="d263133e656">
+</td></tr><tr><td id="d266007e656">
 
 **Delete a list category**
 
@@ -193,7 +193,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  In the confirmation dialog, select **Delete**.
 
 
-</td></tr><tr><td id="d263133e683">
+</td></tr><tr><td id="d266007e683">
 
 **Delete a filtered list**
 

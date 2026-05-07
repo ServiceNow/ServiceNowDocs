@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 2
 breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -51,21 +51,4 @@ When you create an entity, you can choose to make the entity available for reuse
 On the Model details page, select **Entities**. Select the name of the entity to bring up the entity details page. Then, select the **Settings** tab.
 
 ![Settings tab of the Entity details page. Check the Model Availability box to make it available to all intents in the model.](../images/entities02.png "Entity settings page")
-
--   **[Create a simple entity](../task/create-nlu-entities.md)**  
-Create one or more simple entities from words in your utterance examples. An entity is an object of, or context for, an action.
--   **[Create a mapped entity](../task/create-mapped-entity-lookup-source.md)**  
-Create an entity mapped to a vocabulary source, or to a list of values you manually create for the entity. Mapped entities can help provide multiple values the model can use as context when interpreting utterances.
--   **[Create a pattern entity](../task/create-pattern-entity.md)**  
-Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
--   **[Create a system-derived entity](../task/create-system-derived-entity.md)**  
-Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
--   **[Create an open-ended entity](../task/create-open-ended-entity.md)**  
-Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
--   **[Import entities](../task/import-common-entities-nlu.md)**  
-Reuse entities that you have created across your other Natural Language Understanding \(NLU\) models. Importing entities saves time and helps improve the intents in your model.
--   **[Using regular expressions in entities](using-regular-expressions-nlu.md)**  
-Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
-
-**Parent Topic:**[Build and train your model](managing-model-content.md)
 

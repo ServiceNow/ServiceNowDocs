@@ -1,17 +1,18 @@
 ---
 title: Build Agent workflow
-description: The Build Agent workflow automates the process of building, testing, and deploying applications on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+description: The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Build Agent workflow
 
-The Build Agent workflow automates the process of building, testing, and deploying applications on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
 
 A general workflow for using Build Agent in either ServiceNow Studio or the ServiceNow IDE is the following:
 

@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Time off request to Workday
@@ -42,7 +42,7 @@ Pull holiday calendars from Workday into the ServiceNow application. Display the
 -   **[Request a time off](../task/request-timeoff.md)**  
 Request a time off to Workday from Employee Center.
 
-**Parent Topic:**[Using](using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

@@ -34,8 +34,6 @@ You can also use the GRC Approval Configurator to configure policy exception rul
 
 2.  Click **New**.
 
-    ![Verification rule](../image/verification-rule-new.png)
-
 3.  On the form, fill in the fields.
 
     |Field|Description|

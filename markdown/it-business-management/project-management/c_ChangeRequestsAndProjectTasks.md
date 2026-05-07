@@ -25,8 +25,6 @@ When you link a project task to a change request record, a new project task link
 
 The project task link record is read only. You can view the project task links from a related list on the Project Task form.
 
-![Project Tasks Links related list](../image/Project_task_links_related_list.png "Project Tasks Links related list")
-
 You can also link multiple change requests to a single project task. In this case, a project task link record is created for each link and all the project task link records become child tasks of the project task.
 
 ![Project tasks links](../image/Project_change2.png "Project tasks links")

@@ -29,15 +29,15 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Contract locations** related list, either select an existing location or add a new location.
 
-<table id="choicetable_ctc_x4q_gwb"><thead><tr><th align="left" id="d628758e88">
+<table id="choicetable_ctc_x4q_gwb"><thead><tr><th align="left" id="d638775e88">
 
 Location source
 
-</th><th align="left" id="d628758e91">
+</th><th align="left" id="d638775e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d628758e97">
+</th></tr></thead><tbody><tr><td id="d638775e97">
 
 **Existing location**
 
@@ -48,7 +48,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d628758e124">
+</td></tr><tr><td id="d638775e124">
 
 **New location**
 

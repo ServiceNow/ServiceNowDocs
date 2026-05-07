@@ -42,7 +42,7 @@ Read only roles for PPM Standard \(com.snc.pmo\_read\_roles\) plugin
 
 </td><td>
 
--   The plugin provides the Read only roles for Financial Management \(sn\_itfm\_read\). Users with this role can access Financial Management dashboards. For more information on the list of dashboards and the levels of accessibility on the underlying tables, see [Read only roles for Financial Management](../../it-finance/reference/user-roles-fm-apm.md).
+-   The plugin provides the Read only roles for Financial Management \(sn\_itfm\_read\). Users with this role can access Financial Management dashboards. For more information on the list of dashboards and the levels of accessibility on the underlying tables, see Read only roles for Financial Management.
 -   The plugin provides the Read only roles for Project Portfolio Management \(PPM\) and Timecard \(sn\_ppm\_read\). Users with this role can access Portfolio, Program, and Timecard dashboards along with the Resources report. For more information on the list of dashboards and the levels of accessibility on the underlying tables, see [Read only roles for PPM](../../project-portfolio-suite-with-financials/reference/business-stakeholder-role-ppm.md).
 
 </td></tr><tr><td>

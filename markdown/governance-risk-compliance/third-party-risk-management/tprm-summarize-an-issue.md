@@ -32,7 +32,7 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
 1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
 
-2.  On the Now Assist **Features** tab, select **Now Assist Features** &gt; **Technology** &gt; **Risk &amp; Sustainability**.
+2.  Navigate to the Now Assist **Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
 
 3.  Under the **TPRM issue summarization** skill, select **Activate skill**.
 

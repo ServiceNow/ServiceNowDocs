@@ -1,19 +1,19 @@
 ---
 title: Help Center
-description: Help Center is the next-generation Embedded Help product for configurable workspaces. Help Center provides targeted help content to users in a UI page, based on the user's role.
+description: Help Center is the next-generation Embedded Help product for configurable workspace. Help Center provides targeted help content to users in a UI page, based on the user's role.
 locale: en-US
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [In-product help, Adoption services, Configure user experiences]
 ---
 
 # Help Center
 
-Help Center is the next-generation Embedded Help product for configurable workspaces. Help Center provides targeted help content to users in a UI page, based on the user's role.
+Help Center is the next-generation Embedded Help product for configurable workspace. Help Center provides targeted help content to users in a UI page, based on the user's role.
 
 **Note:** Help Center is a ServiceNow AI Platform feature that is active by default.
 

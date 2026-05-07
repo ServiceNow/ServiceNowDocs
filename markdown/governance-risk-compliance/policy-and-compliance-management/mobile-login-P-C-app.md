@@ -19,8 +19,6 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 
 Verify that you have completed the setup steps described in [Setup checklist for the GRC Mobile application](mobile-setup-plcy_cmply-app.md).
 
-![Policy and Compliance navigation map.](../image/mobile_Policy_and_Compliance_overview-app_rd.png "GRC Mobile application")
-
 Role required: GRC Compliance manager \(sn\_compliance.manager\)
 
 ## About this task
@@ -30,8 +28,6 @@ Time to complete this task: 5-7 minutes.
 ## Procedure
 
 1.  On your mobile device, tap the **ServiceNow Agent** app.
-
-    ![Now Agent app icon.](../../grc-common/image/mobile-agentapp-NY.png)
 
     If you are not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 

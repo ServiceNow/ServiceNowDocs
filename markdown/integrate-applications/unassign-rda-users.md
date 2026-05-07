@@ -31,15 +31,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_support\_us
 
 5.  On the **Attended Users/Groups** tab, do one of the following actions.
 
-<table id="choicetable_wh5_mgl_frb"><thead><tr><th align="left" id="d175922e147">
+<table id="choicetable_wh5_mgl_frb"><thead><tr><th align="left" id="d135681e147">
 
 Option
 
-</th><th align="left" id="d175922e150">
+</th><th align="left" id="d135681e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d175922e156">
+</th></tr></thead><tbody><tr><td id="d135681e156">
 
 **To delete a user**
 
@@ -49,7 +49,7 @@ Action
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d175922e177">
+</td></tr><tr><td id="d135681e177">
 
 **To delete a group**
 

@@ -8,7 +8,7 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # Install ERP Semantic Mining

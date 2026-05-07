@@ -20,7 +20,7 @@ The Threat Intelligence Security Center base system does not include any pre-con
 -   **[TISC Security Tools integrations](tisc-edr-integrations.md)**  
 TISC Endpoint Detection and Response \(EDR\) integrations focuses on identifying and addressing security threats at an endpoint level.
 
-**Parent Topic:**[Integrating Threat Intelligence Security Center](integrating-threat-intelligence-security-center.md)
+**Parent Topic:**[Integrate](integrating-threat-intelligence-security-center.md)
 
 **Related topics**  
 

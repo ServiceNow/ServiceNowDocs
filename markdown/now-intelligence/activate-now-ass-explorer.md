@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
 ---
 
@@ -61,11 +61,17 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
     ![Tile for the Analytics exploration skill showing the Edit button.](../image/ai-data-expl-edit-skill.png)
 
-7.  To enable users to generate summaries of explorations, turn on the exploration summarization skill.
+7.  To enable users to generate recommendations based on the findings in their exploration, turn on the exploration action recommendation skill.
+
+    You can set the roles that can generate recommendations. The default role is now\_assist\_explorer\_user. This role contains sn\_query\_gen.user, granting necessary access to Query Generation.
+
+    Requires Australia Patch 1 and the associated application upgrade.
+
+8.  To enable users to generate summaries of explorations, turn on the exploration summarization skill.
 
     You can set the roles that can generate summaries. Again, the default role is now\_assist\_explorer\_user. This role contains sn\_query\_gen.user, granting necessary access to Query Generation.
 
-8.  To enable users to use AI to help refine text that they write in explorations, activate the refine text in explorations skill.
+9.  To enable users to use AI to help refine text that they write in explorations, activate the refine text in explorations skill.
 
     A dialog opens asking you where you want to display the refine text option.
 

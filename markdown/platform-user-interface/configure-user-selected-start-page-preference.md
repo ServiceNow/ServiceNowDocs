@@ -1,6 +1,6 @@
 ---
 title: Configure a user-selected start page
-description: Configure a user-selected start page, other than the default landing page, to appear when you log in to ServiceNow.
+description: Configure a user-selected start page to override the administrator‑configured default landing page to appear when you log in to ServiceNow.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and por
 
 # Configure a user-selected start page
 
-Configure a user-selected start page, other than the default landing page, to appear when you log in to ServiceNow.
+Configure a user-selected start page to override the administrator‑configured default landing page to appear when you log in to ServiceNow.
 
 ## Before you begin
 

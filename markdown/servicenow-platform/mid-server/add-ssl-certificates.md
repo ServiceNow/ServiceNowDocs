@@ -1,13 +1,13 @@
 ---
 title: Add SSL certificates for the MID Server
-description: Configure the MID Server to connect to a source over SSL.The MID Server JVM can utilize a TrustStore external to the MID installation directory so any certificates added to the TrustStore are not overwritten during an upgrade. It is important that this TrustStore file reside outside of the MID installation directory, and the Truststore location can be specified by adding additional parameters to the MID Server's wrapper-override.conf file.
+description: Configure the MID Server to connect to a source over SSL.
 locale: en-US
 release: australia
 product: MID Server
 classification: mid-server
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -29,7 +29,7 @@ Role required: admin
 You can add certificates to the MID Server to communicate over SSL/TLS in one of two ways:
 
 -   Add certificates directly to the bundled JRE TrustStore file, using the following procedure.
--   Specify a different TrustStore file for the MID Server to use. For more information, see [Specify an external TrustStore for the MID Server](add-ssl-certificates.md#).
+-   Specify a different TrustStore file for the MID Server to use. For more information, see [Specify an external TrustStore for the MID Server](mid-external-truststore.md).
 
 Review both methods to evaluate which best meets your needs.
 
@@ -42,7 +42,7 @@ During MID upgrade the bundled TrustStore is overwritten. The MID Server attempt
     -   X.509 certificates
     -   Any certificate present in the source, but not the destination TrustStore
 
-Certificates that do not meet the criteria are overwritten. Alternatively, you can specify an external TrustStore file which is unaffected by MID Server upgrades. For more information, see [Specify an external TrustStore for the MID Server](add-ssl-certificates.md#)
+Certificates that do not meet the criteria are overwritten. Alternatively, you can specify an external TrustStore file which is unaffected by MID Server upgrades. For more information, see [Specify an external TrustStore for the MID Server](mid-external-truststore.md)
 
 In Rome and later families, the migration strategy utilized during upgrade is configurable via the MID Server configuration parameter **mid.truststore.migration.strategy**. It can take the following values:
 
@@ -56,13 +56,13 @@ During this migration process, a backup of the original and upgrade TrustStores 
 
 1.  Open a command prompt and navigate to the folder containing the JRE [keytool](https://docs.oracle.com/javase/6/docs/technotes/tools/solaris/keytool.html).
 
-    This is the location of the JRE you installed. An example path might be: `C:\Program Files\Java\jre1.8.0_161\bin`
+    This is the location of the JRE bundled with the MID Server. An example path might be: `C:\Mid Server\agent\jre\bin`
 
 2.  Import a certificate into the MID Server's cacerts keystore, using this command:
 
-    `keytool -import -alias <certificate alias> -file "<path to certificate>" -keystore "<path to the JRE>\lib\security\cacerts"`
+    `keytool -import -alias <certificate alias> -file "<path to certificate>" -keystore "<path to the MID Server bundled JRE>\lib\security\cacerts"`
 
-    For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Program Files\Java\jre1.8.0_161\lib\security\cacerts"`
+    For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
     **Note:** The keytool prompts you for a certificate password. If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
@@ -92,6 +92,8 @@ During this migration process, a backup of the original and upgrade TrustStores 
 
 [Rekey a MID Server](t_RekeyAMIDServer.md)
 
+[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
+
 [MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
 
 [Attach a script file to a file synchronized MID Server](mid-server-script-attach.md#)
@@ -99,31 +101,4 @@ During this migration process, a backup of the original and upgrade TrustStores 
 [MID Server FIPS Enforced Mode](../concept/mid-fips-enforced.md#)
 
 [MID Server Governance](../concept/mid-timeout.md)
-
-## Specify an external TrustStore for the MID Server
-
-The MID Server JVM can utilize a TrustStore external to the MID installation directory so any certificates added to the TrustStore are not overwritten during an upgrade. It is important that this TrustStore file reside outside of the MID installation directory, and the Truststore location can be specified by adding additional parameters to the MID Server's `wrapper-override.conf` file.
-
-### Before you begin
-
-Role required: admin
-
-### Procedure
-
-1.  In the MID Server host, navigate to the `wrapper-override.conf` file.
-
-2.  Specify an external TrustStore by appending a custom parameter to the end of your MID’s `wrapper-override.conf` file.
-
-    For example, on a Windows MID with an external TrustStore found at `C:\external_truststore\cacerts`, the end of the file would appear similar to:
-
-    ```
-    # Add additional custom parameters below
-    
-    wrapper.java.additional.3=-Djavax.net.ssl.trustStore=C:\external_truststore\cacerts
-    
-    wrapper.java.additional.4=-Djavax.net.ssl.trustStorePassword=<truststore’s password>
-    ```
-
-    **Note:** If you have specified other additional parameters in this file then the numerical identifier, in this case 3 and 4, may differ.
-
 

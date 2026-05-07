@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Portal Banner widget, Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure localization for Portal Banner heading

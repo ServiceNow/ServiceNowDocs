@@ -4,7 +4,7 @@ description: Upload your public/private keypair to your MID Server. This keypair
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 2
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -17,7 +17,7 @@ Upload your public/private keypair to your MID Server. This keypair enables the 
 
 Role required: none
 
-Since ServiceNow lacks access to the private key, it can't pair it with the public key to decrypt the symmetric key, and then decrypt the credential. If the MID Server tries to use this encrypted credential, it's unable to decrypt the credential for authentication without access to the private key.
+Since ServiceNow lacks access to the private key, it can't pair it with the public key to decrypt the symmetric key and then decrypt the credential. If the MID Server tries to use this encrypted credential, it's unable to decrypt the credential for authentication without access to the private key.
 
 In these steps, you upload the private key to the MID Server to complete the Public/Private keychain. This upload grants the MID Server access without giving ServiceNow access.
 
@@ -39,7 +39,7 @@ Ensure that the system you perform these steps on has access to both the MID Ser
     C:\Users\<your_user_account>\Documents\SM_Implementation\mid.utah-07-08-2022__patch4b01-31-2023_02-07-2023_1702.windows.x86-64\sm_ig_MIDS\bin\scripts\manage-certificates.bat
     ```
 
-3.  Create a text file, and paste the path into the file.
+3.  Create a text file and paste the path into the file.
 
 4.  In the text file, add the following after the path:
 

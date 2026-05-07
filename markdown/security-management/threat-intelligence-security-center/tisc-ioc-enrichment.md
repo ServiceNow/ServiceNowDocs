@@ -7,8 +7,8 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Working with automated flows, Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+reading_time_minutes: 2
+breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Automated IOC Enrichment
@@ -75,6 +75,12 @@ Automate enrichment of IOC’s triggers only when:
 
 **Related topics**  
 
+
+[Automated sharing of high-risk IOC's with trusted partners](tisc-automated-sharing-flow.md)
+
+[Automatically add threat intelligence to a TAXII collection](tisc-taxii-automated-flow.md)
+
+[Create vulnerability assessment for zero day](tisc-create-vul-assess.md)
 
 [Analyze, assess, and disseminate observables](tisc-disseminate-observables.md)
 

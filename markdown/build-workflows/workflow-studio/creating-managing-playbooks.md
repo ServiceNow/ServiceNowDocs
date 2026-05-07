@@ -92,7 +92,7 @@ Enable playbook owners to configure and organize multiple instances of Workflow 
 -   **[Test a playbook](../task/test-process.md)**  
 Verify that your playbook works as expected by running the playbook with test trigger data. Identify and resolve all errors before activating your playbook.
 -   **[Enabling playbook restart](restart.md)**  
-Give agents and fulfillers the ability to restart a playbook, stage, or activity.
+Learn how playbook restart during runtime works and how restart rules control the behavior of stages and activities during a restarted run.
 -   **[Duplicate a playbook](../task/duplicate-process.md)**  
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 -   **[Add translations for Playbooks](../task/add-translations-playbooks.md)**  

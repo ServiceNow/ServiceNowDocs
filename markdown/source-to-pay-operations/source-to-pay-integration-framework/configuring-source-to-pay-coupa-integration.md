@@ -19,7 +19,7 @@ Integrate your ServiceNow instance and Coupa by creating a custom OAuth applicat
 
 -   Activate the Source-to-Pay integration with Coupa application from the ServiceNow Store to activate the Coupa Spoke automatically.
 -   Set up [Coupa Spoke](https://www.servicenow.com/docs/csh?topicname=setup-coupa-spoke-v4&version=yokohama&pubname=yokohama-integrate-applications).
--   Activate the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Coupa uses the Source-to-Pay integration framework to pull tasks from Coupa into your ServiceNow instance.For more information on Source-to-Pay integration framework, see [Source-to-Pay integration framework](source-to-pay-integration-framework.md).
+-   Activate the Source-to-Pay integration framework from ServiceNow Store. Source-to-Pay integration with Coupa uses the Source-to-Pay integration framework to pull tasks from Coupa into your ServiceNow instance.For more information on Source-to-Pay integration framework, see [Source-to-Pay integration framework](../../source-to-pay-operations/concept/source-to-pay-integration-framework.md).
 
 
 ## Primary Data Integration Dependencies with Coupa

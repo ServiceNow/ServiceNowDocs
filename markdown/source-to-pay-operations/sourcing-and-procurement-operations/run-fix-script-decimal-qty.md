@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Decimal quantity support for service-based purchases in Shopping Hub, My purchases on Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Decimal quantity support service-based purchases, My purchases on Shopping Hub, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Run the fix script to enable decimal quantities for services

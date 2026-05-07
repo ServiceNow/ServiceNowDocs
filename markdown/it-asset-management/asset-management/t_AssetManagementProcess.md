@@ -7,8 +7,8 @@ product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+reading_time_minutes: 1
+breadcrumb: [Exploring Asset Management Workspace, Asset Management, IT Asset Management]
 ---
 
 # Example Asset Management process
@@ -47,27 +47,4 @@ These steps are one possible process for getting started with Asset Management.
 
 6.  Manage assets by counting software licenses, viewing assets that are in stock, setting asset states and substates, and analyzing unallocated software.
 
-
-**Parent Topic:**[Using Asset Management](../concept/using-asset-management.md)
-
-**Related topics**  
-
-
-[Mobile app for Hardware Asset Management](../../../administer/mobile-my-asset/concept/mobile-my-asset.md)
-
-[Work with Asset and CI](../../hardware-asset-management/concept/work-with-asset-ci.md)
-
-[Manage various assets through asset classes](../concept/c_AssetClasses.md)
-
-[Create fixed assets](../concept/c_CreatingFixedAssets.md#)
-
-[Consumables life cycle](../concept/c_FollowLifeCycleConsumbl.md)
-
-[Stockrooms](../concept/c_Stockrooms.md)
-
-[Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
-
-[Manage transfer order](../concept/manage-transfer-orders.md)
-
-[Use Organization Management](../reference/org-mgmt.md#)
 

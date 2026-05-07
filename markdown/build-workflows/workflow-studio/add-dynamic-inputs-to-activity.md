@@ -85,6 +85,8 @@ When a user requests catalog items, you can dynamically present a list of catalo
 
 [Add and configure an activity in a playbook](add-configure-activity.md)
 
+[Use AI agent as an activity](ai-agent-as-activity.md)
+
 [Automation Assets](../concept/automation-assets.md)
 
 [Start with delay input properties](../reference/start-with-delay-properties.md)

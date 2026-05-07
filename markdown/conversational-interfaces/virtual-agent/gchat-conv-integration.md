@@ -23,19 +23,19 @@ Enable requesters to chat with Google chat or live agents using the Google chat 
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Install Conversational integration with Google chat.](../task/installing-ci-google-chat.md)
+[Install![](../../../reuse/icons/brand-icons/bus-root-cause-issue-resolution.svg)Install Conversational integration with Google chat.](install-ci-google-chat.md)
 
 </td><td>
 
-[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Integrate Conversational Integration with Google chat.](../task/integrating-va-google-chat.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Configure your Conversational Integration with Google chat.](../task/integrating-va-google-chat.md)
 
 </td></tr></tbody>
 </table>-   **[Exploring Conversational Integration with Google chat](exploring-ci-google-chat.md)**  
 Use the Conversational Integration with Google chat application to connect your end users with Virtual Agent or live agents through your Google chat account.
--   **[Installing Conversational Integration with Google chat](../task/installing-ci-google-chat.md)**  
-Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google chat users can interact with each other.
--   **[Integrating Virtual Agent with Google chat](../task/integrating-va-google-chat.md)**  
-Add either the Now Virtual Agent bot or self-configured bot to your ServiceNow instance to integrate with Google chat.
+-   **[Install Conversational Integration with Google chat](install-ci-google-chat.md)**  
+Activate the necessary plugins and Now Assist in Virtual Agent for Google chat
+-   **[Configuring your Conversational Integration with Google chat](configure-va-google-chat.md)**  
+Integrate the Now Virtual Agent bot or self-configured bot with Google chat.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](va-integration-messaging-apps.md)
 

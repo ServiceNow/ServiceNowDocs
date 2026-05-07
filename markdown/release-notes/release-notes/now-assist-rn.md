@@ -33,6 +33,11 @@ The existing access control lists \(ACLs\) have been updated to replace the admi
 
 ## New in the Australia release
 
+-   **[Using Now Assist Admin](https://www.servicenow.com/docs/access?context=using-now-assist-admin_0&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    Explore the archive option from navigation pane within Now Assist Admin and archive custom and copies of Now Assist skills.
+
+
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
 
     The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
@@ -51,6 +56,12 @@ The existing access control lists \(ACLs\) have been updated to replace the admi
 
     The discovery of Conversational Help Skills from Now Assist panel is no longer configured as auto-enabled.
 
+
+## Deprecated features
+
+[Australia Patch 1](../quality/australia-patch-1.md)
+
+-   Starting with [Australia Patch 1](../quality/australia-patch-1.md) release, Conversational Help Skills is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Activation information
 

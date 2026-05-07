@@ -35,7 +35,7 @@ Ensure that you add at least two active thresholds to activate a KPI template. Y
 
 3.  In the Name column, select the link to the KPI template.
 
-4.  Select the **Thresholds** tab and select **New**.![Selected option to create a new KPI threshold.](../image/create-kpi-thresholds.png)
+4.  Select the **Thresholds** tab and select **New**.
 
 5.  On the form, fill in the fields.
 

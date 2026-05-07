@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -21,21 +21,17 @@ Role required: GRC Risk manager \(sn\_risk.manager\)
 
 ## About this task
 
-Edit or assign an unassigned remediation task directly from the list of records. Alternatively, view the details of the record prior to assignment or add a work note. Time to complete this task: 5-10 minutes.
+Edit or assign an unassigned remediation task directly from the list of records. Alternatively, view the details of the record before assignment or add a work note. Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
+1.  If you're not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, under the `Team's Unassigned Work` section, tap **Remediation Tasks**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Remediation tasks applet highlighted.](../image/mobile_Risk_overview-app-redo.png)
-
     The Remediation Tasks screen is displayed with a list of records.
-
-    ![Remediation tasks records list.](../image/mobile_risk_remd_task_list.jpg)
 
 3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
@@ -43,19 +39,17 @@ Edit or assign an unassigned remediation task directly from the list of records.
 
 4.  To edit or assign a task directly from the list of records displayed on the Remediation Tasks screen, swipe left on a record to open the menu.
 
-    ![Swipe action on remediation task record.](../image/mobile-risk-remd-task-swipe.jpg)
-
 5.  In the menu that is displayed, choose one to continue.
 
-<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d89341e175">
+<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d91674e142">
 
 Option
 
-</th><th align="left" id="d89341e178">
+</th><th align="left" id="d91674e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89341e184">
+</th></tr></thead><tbody><tr><td id="d91674e151">
 
 **Edit**
 
@@ -65,7 +59,7 @@ In the Extend by days field on the Edit Remediation Task screen that is displaye
 
 Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d89341e208">
+</td></tr><tr><td id="d91674e175">
 
 **Assign**
 
@@ -78,17 +72,15 @@ On the Issue Assignment screen that is displayed, tap the **Assignment Group** a
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-    ![Remediation task record.](../image/mobile-remediation-task-record.jpg)
-
-<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d89341e251">
+<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d91674e206">
 
 Option
 
-</th><th align="left" id="d89341e254">
+</th><th align="left" id="d91674e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89341e260">
+</th></tr></thead><tbody><tr><td id="d91674e215">
 
 **Details tab**
 
@@ -101,7 +93,7 @@ Tap the **Issue** field to expand it. On the Issue screen, a list of records is 
 -   Navigate back to the Remediation Task record and tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the remediation task. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d89341e289">
+</td></tr><tr><td id="d91674e244">
 
 **Activity Stream tab**
 
@@ -111,7 +103,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the remediation task. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d89341e319">
+</td></tr><tr><td id="d91674e274">
 
 **Tap a screen icon at the bottom of the screen.**
 

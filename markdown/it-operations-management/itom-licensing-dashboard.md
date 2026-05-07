@@ -76,7 +76,7 @@ ITOM Licensing CI Counts \[itom\_lu\_ci\_counts\] and UsageAnalytics Counts for 
 
 The first area displays the daily raw resource counts that include all the detected resources before sorting them into specific CIs. Hover over the bars to see the table of resource types. Each type is shown with an absolute number of resources and a share that it takes among others.
 
-The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per ITOM application. The dashboard also displays the brown line that represents the Usage Analytics counts table. This count is based on average consumption of subscription units for the last 90 days using SU ratios where one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
+The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per ITOM application. The dashboard also displays the brown line that represents the Usage Analytics counts table. This count is based on average consumption of subscription units for the last 90 days using SU ratios.
 
 Hover over the vertical bar in the Subscription units area for the desired day to open the Available CIs list. The table shows each CI category included in the daily CI count, along with the absolute number of resources and the share that it takes among others.
 

@@ -13,11 +13,11 @@ breadcrumb: [Knowing about History sets, Auditing]
 
 The history list displays each change as its own row in the change list.
 
-![](../image/ViewHistoryList.png "View History List")
+![View History List](../image/ViewHistoryList.png "View History List")
 
 Click on a row item to view additional details about the change.
 
-![](../image/ViewListChange.png "View List Change")
+![View List Change record](../image/ViewListChange.png "View List Change")
 
 ## Requirements
 

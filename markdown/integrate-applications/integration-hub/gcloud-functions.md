@@ -39,9 +39,9 @@ The Google Cloud Functions spoke requires a custom app that you create in Google
 
 If you’re having trouble installing the app, ensure that these dependent plugins are installed:
 
--   [Google Identity and Access Spoke](gidentityaccess-spoke.md)
--   [Google Cloud VPC Access Spoke](gcloud-vpc-access.md)
--   [Google Cloud Storage Spoke](gcloudstorage-spoke.md)
+-   [Google Identity and Access Spoke](gidentityaccess-spoke-1.md)
+-   [Google Cloud VPC Access Spoke](gcloud-vpc-access-1.md)
+-   [Google Cloud Storage Spoke](gcloudstorage-spoke-1.md)
 -   ServiceNow Flow Designer - Dynamic Inputs \(com.glide.hub.dynamic\_inputs\)
 -   ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow IntegrationHub Runtime \(com.glide.hub.integration.runtime\)

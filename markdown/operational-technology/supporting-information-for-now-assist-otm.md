@@ -1,5 +1,5 @@
 ---
-title: Supporting information for the OT Manager Foundation
+title: Supporting information for OT Manager Foundation
 description: Get a quick overview of the important information that is related to the Operational Technology \(OT\) Manager Foundation.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 1
 breadcrumb: [Configure, OT Manager Foundation, Operational Technology]
 ---
 
-# Supporting information for the OT Manager Foundation
+# Supporting information for OT Manager Foundation
 
 Get a quick overview of the important information that is related to the Operational Technology \(OT\) Manager Foundation.
 

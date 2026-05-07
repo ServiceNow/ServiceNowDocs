@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 7
 breadcrumb: [Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -56,21 +56,7 @@ ref\_ac\_order\_by
 Specifies the reference table column that sorts the auto-completion choices. For example, **ref\_ac\_order\_by=name** sorts the auto-completion choices alphabetically by name.
 
 </td></tr></tbody>
-</table>## Auto-complete UI features
-
-The AJAX table completer class has a number of UI improvements.
-
--   The table completer always displays the number of records the auto-complete query finds.
--   The table completer highlights the entire selected row by changing the color of the background and text.
--   The table completer lists a value for every column.
-    -   The first time a value appears in a column, the table completer displays it in black text.
-    -   The table completer displays subsequent duplicate values in grey text. Previously, the table completer displayed an empty cell in a column containing a duplicate value.
-
-![](../image/Autocomplete_highlighting.png "Selected row highlight")
-
-Set the **ref\_auto\_completer=AJAXTableCompleter** dictionary attribute to use these improvements.
-
-## Define auto-complete attributes for all references to a table
+</table>## Define auto-complete attributes for all references to a table
 
 A field inherits and uses the reference table's auto-complete attributes unless the field has its own value for the same attributes. You can define the attributes for references to a table, and it affects every form that references that table.
 
@@ -219,9 +205,9 @@ You can add the **ref\_ac\_columns\_search** attribute to enable auto-complete t
 
 ### Procedure
 
-1.  Right-click the label of a reference field.
+1.  Select and hold \(or right-click\) the label of a reference field.
 
-2.  Select **Configure Dictionary** from the choice list.
+2.  Select **Configure Dictionary** from the list.
 
 3.  Under **Related Links**, click **Advanced view**.
 
@@ -232,8 +218,6 @@ You can add the **ref\_ac\_columns\_search** attribute to enable auto-complete t
     ```
     ref_auto_completer=AJAXTableCompleter,ref_ac_columns=department,ref_ac_order_by=department,ref_ac_columns_search=true 
     ```
-
-    ![Caller list with name and department](../image/AutoCompleteAttribute.png "Auto-complete attribute")
 
 5.  Click **Update**.
 
@@ -247,8 +231,6 @@ ref_auto_completer=AJAXTableCompleter ,ref_ac_columns =sys_class_name ,ref_ac_or
 ```
 
 **Note:** The **ref\_contributions** attribute controls the icons that appear next to the reference field.
-
-![Additional CI attributes](../image/AdditionalCiAttributes.png)
 
 ## Enable contains auto-complete searches
 
@@ -272,9 +254,7 @@ Role required: admin
 
 4.  Set the **value** field to **true**.
 
-    ![Autocomplete user preference set to true](../image/AutocompleteContains1.png)
-
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 ### What to do next

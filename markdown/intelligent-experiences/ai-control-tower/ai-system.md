@@ -1,6 +1,6 @@
 ---
 title: AI systems
-description: Explore AI systems in detail with examples.
+description: Explore the AI systems in detail with examples.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enabl
 
 # AI systems
 
-Explore AI systems in detail with examples.
+Explore the AI systems in detail with examples.
 
 -   **AI system**
 

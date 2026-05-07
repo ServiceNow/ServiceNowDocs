@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery Integration with Workday Learning todos staging
+title: HR Service Delivery Integration with Workday Learning to-dos staging
 description: Import workday learning todos.
 locale: en-US
 release: australia
@@ -8,10 +8,10 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Import set tables in HR Service Delivery Integration with Workday Learning, Using HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Import set tables, Use, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery Integration with Workday Learning todos staging
+# HR Service Delivery Integration with Workday Learning to-dos staging
 
 Import workday learning todos.
 
@@ -27,7 +27,7 @@ Role required: admin
 
 3.  On the form, edit the fields.
 
-    For a description of the field values, see [HR Service Delivery Integration with Workday Learning todos staging](wdl-todos.md).
+    For a description of the field values, see [HR Service Delivery Integration with Workday Learning to-dos staging](wdl-todos.md).
 
 4.  Select **Submit**.
 

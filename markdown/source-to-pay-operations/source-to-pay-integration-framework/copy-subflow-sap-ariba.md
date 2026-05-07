@@ -47,11 +47,11 @@ Role required: sn\_fcms\_intg.admin, sn\_shop.procurement\_specialist, connectio
 
     **Note:** Do not modify the trigger condition.
 
-    ![Trigger conditions to create or update in SAP Ariba](../image/sap-ariba-trigger-conditions.png "Trigger condition to create or update sourcing even in SAP Ariba")
+    ![Trigger conditions to create or update in SAP Ariba](../../source-to-pay-operations/image/sap-ariba-trigger-conditions.png "Trigger condition to create or update sourcing even in SAP Ariba")
 
     **Note:**
 
-    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../../sourcing-procurement-operations/concept/s2p-transform-maps-flows.md).
+    Once data is pulled into staging tables, transform maps move data into target tables. For more details, refer to [Source-to-Pay integration framework transform maps and subflows](../concept/s2p-transform-maps-flows.md).
 
     You have successfully copied and executed the flow.
 

@@ -7,7 +7,7 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 14
+reading_time_minutes: 13
 breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
 ---
 
@@ -178,15 +178,7 @@ Location
 
 Current physical location of the asset.
 
- **Note:**
-
-If you set the location to a specific building, floor, or place, and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, the Enterprise Asset Management application automatically populates a corresponding location hierarchy of up to three levels, including the campus, building or structure, and floor that the asset is currently located in. The location hierarchy depicts the hierarchical relationship between the specified location and the corresponding parent locations. You can view the location hierarchy in the Location Hierarchy section of the asset record, which is generated after you fill in all fields and save the form.
-
- **Note:**
-
-If you set the location to a specific place and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, the asset record, which is generated after you fill in all fields and save the form, includes an interactive map that shows the real-time location of the asset. This map is still included in the asset record when you open the record from an associated work order task or stockroom record.
-
-The map does not display by default. To display the map, select the Location map icon \(![Location map icon.](../image/asset-indoor-location-icon.png)\) on the sidebar of the asset record.
+ **Note:** If you set the location to a specific building, floor, or place, the Enterprise Asset Management application automatically populates a corresponding location hierarchy of up to three levels, including the campus, building or structure, and floor that the asset is currently located in. The location hierarchy depicts the hierarchical relationship between the specified location and the corresponding parent locations. You can view the location hierarchy in the Location Hierarchy section of the asset record, which is generated after you fill in all fields and save the form.
 
 </td></tr><tr><td>
 

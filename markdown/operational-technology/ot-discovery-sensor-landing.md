@@ -1,5 +1,5 @@
 ---
-title: Discovery Sensor for Operational Technology \(OT\)
+title: Discovery Sensor for OT
 description: Use the Discovery Sensor for Operational Technology \(OT\) application to discover and query devices in the Operational Technology environment.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 1
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Discovery Sensor for Operational Technology \(OT\)
+# Discovery Sensor for OT
 
 Use the Discovery Sensor for Operational Technology \(OT\) application to discover and query devices in the Operational Technology environment.
 
@@ -19,13 +19,13 @@ Use the links to explore and configure the Discovery Sensor for OT.
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)
+Explore![](../images/BUS_64px_Explore_YG.png)
 
  [Explore the Discovery Sensor for OT](explore-ot-sensor.md)
 
 </td><td>
 
-Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)
+Configure![](../images/BUS_64px_SDLC_YG.png)
 
  [Configure the Discovery Sensor for OT](../task/configure-ot-discovery-sensor.md)
 

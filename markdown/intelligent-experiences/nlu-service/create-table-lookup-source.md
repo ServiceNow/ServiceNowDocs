@@ -87,5 +87,3 @@ In this example procedure, you want your models to be able to interpret utteranc
 
 Add a vocabulary source to a model by annotating an utterance. Use the @ symbol when adding an example utterance to an intent.
 
-**Parent Topic:**[NLU vocabulary](../concept/using-nlu-vocabulary.md)
-

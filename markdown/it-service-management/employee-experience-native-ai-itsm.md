@@ -1,17 +1,17 @@
 ---
-title: Employee experience in AI-native IT Service Management
-description: AI-native IT Service Management provides a comprehensive employee or requester experience with an AI chat first approach to find answers, request items, check status, and create incidents.
+title: Employee experience in Simplified IT Service Management
+description: Simplified IT Service Management provides a comprehensive employee or requester experience with an AI chat first approach to find answers, request items, check status, and create incidents.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI-native IT Service Management, IT Service Management]
+breadcrumb: [Simplified IT Service Management, IT Service Management]
 ---
 
-# Employee experience in AI-native IT Service Management
+# Employee experience in Simplified IT Service Management
 
-AI-native IT Service Management provides a comprehensive employee or requester experience with an AI chat first approach to find answers, request items, check status, and create incidents.
+Simplified IT Service Management provides a comprehensive employee or requester experience with an AI chat first approach to find answers, request items, check status, and create incidents.
 
 ## Overview and key features of the Employee Center portal
 
@@ -46,5 +46,5 @@ Resolve a user's issue by searching for a relevant solution.
 -   **[Get chat support in Employee Center](../task/get-support-using-chat.md)**  
 Resolve user issues by requesting for support using chat.
 
-**Parent Topic:**[AI-native IT Service Management](../reference/ai-native-it-service-desk-landing-page.md)
+**Parent Topic:**[Simplified IT Service Management](../reference/ai-native-it-service-desk-landing-page.md)
 

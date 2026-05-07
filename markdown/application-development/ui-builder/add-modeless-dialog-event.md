@@ -55,15 +55,15 @@ Role required: ui\_builder\_admin
 
     **Note:** For any of the event handlers, select **Script** in the **Mode** drop-down if you prefer to work in the script editor.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d48640e211">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d51368e211">
 
 To add a modeless dialog event handler
 
-</th><th align="left" id="d48640e214">
+</th><th align="left" id="d51368e214">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d48640e220">
+</th></tr></thead><tbody><tr><td id="d51368e220">
 
 **Open Modeless Dialog**
 
@@ -78,7 +78,7 @@ Opens a modeless dialog. For example, add a button labeled Compose email and con
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always open the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](add-components.md#).
 
 
-</td></tr><tr><td id="d48640e298">
+</td></tr><tr><td id="d51368e298">
 
 **Close Modeless Dialog**
 
@@ -88,7 +88,7 @@ Closes a modeless dialog. Use this option if you want to configure a component, 
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always close the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](add-components.md#).
 
 
-</td></tr><tr><td id="d48640e335">
+</td></tr><tr><td id="d51368e335">
 
 **Minimize Modeless Dialog**
 
@@ -98,7 +98,7 @@ Minimizes an open modeless dialog. Use this option if you want to configure a co
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always minimize the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](add-components.md#).
 
 
-</td></tr><tr><td id="d48640e372">
+</td></tr><tr><td id="d51368e372">
 
 **Update Modeless Dialog**
 
@@ -113,7 +113,7 @@ Updates the specified fields on a modeless dialog. For example, add a button lab
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always update the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](add-components.md#).
 
 
-</td></tr><tr><td id="d48640e436">
+</td></tr><tr><td id="d51368e436">
 
 **Dirty Modeless Dialog**
 

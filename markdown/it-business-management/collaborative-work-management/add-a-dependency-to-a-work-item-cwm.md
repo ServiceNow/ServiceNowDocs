@@ -45,7 +45,7 @@ Relationships are added from the **Relationships** tab on the work item form in 
 
 ## What to do next
 
-After adding a relationship, a relationships indicator icon appears on the work item's Kanban card. Select the icon to view all relationships for that work item from the board.![A Kanban card showing the relationships indicator, and the right side panel open listing the related work items and their relationship types.](../images/cwm-relationships-kanban.png)
+After adding a relationship, a relationships indicator icon appears on the work item's Kanban card. Select the icon to view all relationships for that work item from the board.![A Kanban card showing the relationships indicator, and the side panel open listing the related work items and their relationship types.](../images/cwm-relationships-kanban.png)
 
 If a relationship doesn't apply to your task anymore, you can remove it. For more information, see [Remove a dependency from a work item in CWM](remove-a-dependency-from-a-work-item-cwm.md).
 

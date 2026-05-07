@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Rationalization of business applications, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Rationalization of business applications, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Tech debt indicator score for application rationalization
@@ -70,17 +70,17 @@ You must run the following scheduled jobs to populate the TPM and TRM data in EA
 
 ## Regenerate indicator score
 
-Update application indicator scores on-demand, to assess the application for a technical risk, and gather real-time insights, regenerate indicator score for the Technical Debt indicator from the **Setup** page.![image.eaw-setup-app-ndicators]
+Update application indicator scores on-demand, to assess the application for a technical risk, and gather real-time insights, regenerate indicator score for the Technical Debt indicator from the **Setup** page.![Navigate to the Application indicators page from the Setup section](../../image/eaw-image/eaw-setup-app-ndicators.png)
 
-Select the Technical Debt indicator from the list, then select the Regenerate indicator score.![image.eaw-regenerate-ind-score]
+Select the Technical Debt indicator from the list, then select the Regenerate indicator score.![Regenerate indicator score for Technical Debt indicator](../../image/eaw-image/eaw-regenerate-ind-score.png)
 
 ## Technical Debt indicator score on the Application Rationalization List view page
 
-The Technical Debt indicator score is available as a column on the Application Rationalization List page. You can sort the applications by their score from highest to lowest debt.![image.eaw-tech-debt-on-app-rat-list]
+The Technical Debt indicator score is available as a column on the Application Rationalization List page. You can sort the applications by their score from highest to lowest debt.![Technical Debt column in the Application Rationalization page](../../image/eaw-image/eaw-tech-debt-on-app-rat-list.png)
 
 ## Technical Debt indicator as bubble size on the Application Rationalization Bubble Chart page
 
-The Technical Debt indicator is listed in the Bubble Size list under the Settings of the Bubble Chart page. You can select the indicator to from the Bubble Size list to see its score for business applications in the X and Y axes and specify the bubble sizes.![image.eaw-tech-debt-indicator-bubble-chart]
+The Technical Debt indicator is listed in the Bubble Size list under the Settings of the Bubble Chart page. You can select the indicator to from the Bubble Size list to see its score for business applications in the X and Y axes and specify the bubble sizes.![Selecting Technical Debt score as a bubble size on the Bubble Chart page of the Application Rationalization](../../image/eaw-image/eaw-tech-debt-indicator-bubble-chart.png)
 
 **Parent Topic:**[Rationalization of business applications](../../concept/eaw-concept/eaw-rationalize-business-applications.md)
 

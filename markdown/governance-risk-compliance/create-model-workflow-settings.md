@@ -32,7 +32,7 @@ To manually schedule assessment and validation tasks from the model risk record,
 
 2.  Users with sn\_model\_risk\_mgmt.model\_governance role, navigate to **All** &gt; **Model Risk Workspace** and do the following:
 
-    1.  Select the list ![](../../assessment-engine/image/list-icon.png) icon.
+    1.  Select the list ![](../image/list-icon-mrm.png) icon.
 
     2.  From the list, navigate to **Model risk configurations** &gt; **Model workflow settings**.
 

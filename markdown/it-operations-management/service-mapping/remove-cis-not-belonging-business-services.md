@@ -48,15 +48,15 @@ Depending on why Service Mapping mapped an unwanted CI, you can remove it by the
 
 2.  Remove CIs that do not belong to this service instance by completing the following actions.
 
-<table id="choicetable_rsk_cnk_hnb"><thead><tr><th align="left" id="d322772e172">
+<table id="choicetable_rsk_cnk_hnb"><thead><tr><th align="left" id="d328421e172">
 
 Action
 
-</th><th align="left" id="d322772e175">
+</th><th align="left" id="d328421e175">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d322772e181">
+</th></tr></thead><tbody><tr><td id="d328421e181">
 
 **Add mapping boundaries**
 
@@ -69,7 +69,7 @@ The CI is marked as boundary on the map \(![The boundary icon](../image/MapBound
 
  **Note:** Ensure that you are looking at the map in Edit view.
 
-</td></tr><tr><td id="d322772e213">
+</td></tr><tr><td id="d328421e213">
 
 **\(If the connection suggestions feature is disabled\) Remove CIs discovered using traffic-based connections**
 
@@ -88,7 +88,7 @@ The Traffic Based Connections List opens. See [Traffic-based connections list](.
 5.  Click **Close**.
 
 
-</td></tr><tr><td id="d322772e269">
+</td></tr><tr><td id="d328421e269">
 
 **\(If the connection suggestions feature is enabled\) Remove CIs discovered using traffic-based connections**
 

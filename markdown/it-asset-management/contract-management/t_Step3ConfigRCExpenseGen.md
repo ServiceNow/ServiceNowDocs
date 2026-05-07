@@ -29,7 +29,7 @@ Role required: financial\_mgmt\_user, asset, or contract\_manager
 
 4.  In **Distribute cost**, select one of the following options to distribute the amount listed in **Base cost**.
 
-<table id="choicetable_wxv_wxp_35"><tbody><tr><td id="d151982e99">
+<table id="choicetable_wxv_wxp_35"><tbody><tr><td id="d154325e99">
 
 **Split expense lines evenly across assets**
 
@@ -37,7 +37,7 @@ Role required: financial\_mgmt\_user, asset, or contract\_manager
 
 Select **Allocate and distribute cost per asset**.For example, with a $100 **Base cost** and two assets, two expense lines for $50 are created.
 
-</td></tr><tr><td id="d151982e117">
+</td></tr><tr><td id="d154325e117">
 
 **Split expense lines across assets based on asset value**
 
@@ -47,7 +47,7 @@ Select **Allocate and distribute cost based on value:**.The **Value** field disp
 
  For example, if you select the **Cost** option with a $100.00 **Base cost**, one asset worth $70, and one asset worth $30, two expense lines are created, one for $70 and one for $30.
 
-</td></tr><tr><td id="d151982e156">
+</td></tr><tr><td id="d154325e156">
 
 **Split expense lines evenly across users**
 
@@ -55,7 +55,7 @@ Select **Allocate and distribute cost based on value:**.The **Value** field disp
 
 Select **Allocate and distribute cost per user**.For example, with a $100 **Base cost** and two users on the contract, two expense lines for $50 are created.
 
-</td></tr><tr><td id="d151982e174">
+</td></tr><tr><td id="d154325e174">
 
 **Allocate the cost to the contract instead of the individual assets**
 

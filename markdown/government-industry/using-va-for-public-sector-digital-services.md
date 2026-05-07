@@ -4,7 +4,7 @@ description: As an admin, you can use Virtual Agent to create chatbot conversati
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
@@ -44,13 +44,13 @@ Before creating Virtual Agent conversations, review the following prerequisites 
 
 Use this topic block in a conversation to ask constituents to select a service from a list of available government services, for example permits or licenses. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
 
-![Virtual agent conversation window showing the available prompts that can be used with the virtual agent Constituent topic block.](../image/prompt-service-example.png "Example of prompt for services")
+
 
 ## Create Public Sector Additional Members topic block
 
 Use this topic block to let your constituents specify other people, such as family members or other authorized individuals, who can view a case or issue. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
 
-![Now Support chat showing the workflow for adding members to a government service case using Virtual Agent chat prompts.](../image/additional-members-example.png "Example prompts for adding members to a government service case")
+
 
 When you use this topic block in a conversation, you specify the input parameters from the originating \(calling\) topic to the topic block.
 

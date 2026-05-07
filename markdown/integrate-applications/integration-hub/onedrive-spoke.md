@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft OneDrive spoke v2.8.1 is the latest version.
+Microsoft OneDrive spoke v2.8.2 is the latest version.
 
 ## Spoke dependencies
 

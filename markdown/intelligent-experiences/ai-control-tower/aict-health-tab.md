@@ -67,7 +67,7 @@ Apply the filters on the dashboard to view guardrail activity for skills in a da
 
 -   **Categories of offensive content**
 
-    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see [Now Assist Guardian](../../now-assist-platform/concept/now-assist-guardian.md).
+    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see .
 
     ![Visualization showing the categories of offensive content.](../image/aict-health-categories-offensive-content.png "Categories of offensive content")
 

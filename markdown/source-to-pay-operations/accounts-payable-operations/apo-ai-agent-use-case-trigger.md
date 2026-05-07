@@ -18,7 +18,7 @@ Use the Inquiry resolution provider agent to generate resolutions to invoice inq
 
 ## Before you begin
 
-Verify that the scope is set to Now Assist for Accounts Payable Operations.
+Set the scope to Now Assist for Accounts Payable Operations.
 
 Role required: now\_assist\_panel\_user, admin
 
@@ -32,7 +32,7 @@ Role required: now\_assist\_panel\_user, admin
 
 3.  Use the search icon ![Search icon](../../../common/image/List_SearchIcon.png) and select **Inquiry resolution provider**.
 
-    If you want to modify this AI agent, you can refer to [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Adjust the settings for your specific needs, and activate the duplicated version of the agentic workflow.![Invoice resolution provider](../image/apo-agent-ai.png)
+    To modify this AI agent, refer to [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Adjust the settings for your specific needs and activate the duplicated version of the agentic workflow after you duplicate it.![Invoice resolution provider](../image/apo-agent-ai.png)
 
 4.  Review the information in the **Define the specialty** page, and then select **Continue**.
 
@@ -44,15 +44,23 @@ Role required: now\_assist\_panel\_user, admin
 
 6.  Select **Define trigger** &gt;**Resolution provider trigger** &gt; **Status** &gt; **Active**.
 
-    The Define trigger page is shown below.![Define trigger](../image/apo-define-trigger.png)
+    The Define trigger page appears.![Define trigger](../image/apo-define-trigger.png)
 
 7.  Select **Continue**.
 
-8.  In the **Toggle display** page, optionally you can enable the **Display** option to display AI agent output in the Now Assist panel.![Toggle display](../image/apo-toggle.png)
+8.  In the **Toggle display** page, enable the **Display** option to display AI agent output in the Now Assist panel.![Toggle display](../image/apo-toggle.png)
 
 9.  Select **Save and test**.
 
-10. Navigate to **Test AI reasoning** page to begin testing your agent.
+    **Note:**
+
+    If you're upgrading from previous versions to the latest version of APO, the flow name updates to Invoice case - AI agent: Inquiry resolution provider - SysID.
+
+10. In the Inquiry resolution provider flow, select the trigger and set the **Run trigger** to run once.
+
+11. Select **Done** and **Activate** the flow.
+
+12. Navigate to **Test AI reasoning** page to begin testing your agent.
 
     The agent executes the testing in AI Agent Studio.
 
@@ -61,7 +69,7 @@ Role required: now\_assist\_panel\_user, admin
 
 ## Example
 
-Enter the objective of the task as Help me resolve invoice inquiry INVC0001001 and start test. The AI agent starts to execute and provides the resolution plan as shown below. ![Resolution provider agent](../image/apo-invoice-agent.png)
+Enter the objective of the task as `Help me resolve invoice inquiry INVC0001001` and start test. The AI agent starts to execute and provides the resolution plan. ![Resolution provider agent](../image/apo-invoice-agent.png)
 
 **Related topics**  
 

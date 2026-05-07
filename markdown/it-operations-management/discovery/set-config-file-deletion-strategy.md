@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ You can specify what you want to do with tracked configuration file CI records w
 
 A pattern that specifies [tracked configuration files](track-configuration-files.md).
 
-Role required: discovery\_admin, service\_mapping\_admin, or admin
+Role required: discovery\_admin, service\_mapping\_admin, or admin. Starting from Visibility Content version 6.30.0, pd\_admin and pd\_mid are also supported.
 
 ## About this task
 

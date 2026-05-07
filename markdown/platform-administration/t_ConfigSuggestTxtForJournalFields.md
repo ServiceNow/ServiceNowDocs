@@ -19,18 +19,14 @@ Role required: personalize\_responses
 
 ## Procedure
 
-1.  Right-click the field label and select **Configure Responses**.
+1.  Select and hold \(or right-click\) the field label and select **Configure Responses**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Enter a label, or brief description, for the option.
 
 4.  Enter the complete text in **Response text**.
 
-5.  Click **Save**.
+5.  Select **Save**.
 
-
-## Example
-
-![Configure responses](../image/PersonalizeResponses.png)
 

@@ -61,15 +61,15 @@ Text in the **Details** field.
 </td></tr></tbody>
 </table>4.  Work on the feedback task.
 
-<table id="choicetable_s2y_yck_4db"><thead><tr><th align="left" id="d470475e162">
+<table id="choicetable_s2y_yck_4db"><thead><tr><th align="left" id="d474080e162">
 
 Change the feedback task state to
 
-</th><th align="left" id="d470475e165">
+</th><th align="left" id="d474080e165">
 
 If you want to
 
-</th></tr></thead><tbody><tr><td id="d470475e171">
+</th></tr></thead><tbody><tr><td id="d474080e171">
 
 **Work in progress**
 
@@ -77,7 +77,7 @@ If you want to
 
 Start working on the feedback task. You can save the feedback task and edit the article or [create a new article](create-knowledge-article.md) if the information in the existing article is irrelevant or obsolete.
 
-</td></tr><tr><td id="d470475e190">
+</td></tr><tr><td id="d474080e190">
 
 **Awaiting information**
 
@@ -85,7 +85,7 @@ Start working on the feedback task. You can save the feedback task and edit the 
 
 Request clarification from the feedback submitter. In the **Additional Comments** field, enter information you need from the submitter and select **Update**. This triggers an email notification for the feedback task submitter. Use **Work notes** field, to track any work about the feedback task internally with the knowledge team.
 
-</td></tr><tr><td id="d470475e211">
+</td></tr><tr><td id="d474080e211">
 
 **Resolved**
 
@@ -100,7 +100,7 @@ Resolve the feedback task. In the **Resolution Code** field, select the code for
 -   Others
 In the **Resolution notes** field, enter the reason for the resolution and select **Update**. An email notification is sent to the feedback submitter. The email notification includes the portal URL for the article from where the feedback submitter can accept or reject the feedback.
 
-</td></tr><tr><td id="d470475e250">
+</td></tr><tr><td id="d474080e250">
 
 **Closed**
 

@@ -40,7 +40,7 @@ The Health Log Analytics guided setup provides a sequence of tasks to help you c
 -   **[Set up data inputs in Health Log Analytics manually](../task/hla-data-input-setup-manual.md)**  
 Set up your Health Log Analytics data inputs for Health Log Analytics manually. Data input configuration is an essential step in setting up the Health Log Analytics application.
 -   **[Edit raw log data before processing in Health Log Analytics](../task/hla-data-input-preprocess.md)**  
-You can modify raw log data and drop or break up log messages before they are treated in the MID Server, and therefore before Health Log Analytics maps and structures them.
+Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 -   **[Log data auto-mapping and mapping in Health Log Analytics](hla-data-input-automapping.md)**  
 By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
 -   **[Source type structure adjustment in Health Log Analytics](hla-source-type-structure-adjustment.md)**  

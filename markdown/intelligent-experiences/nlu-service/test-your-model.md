@@ -70,5 +70,3 @@ You can see previous test results by clicking **view the test history** on **Tes
 
 Use the results to edit and improve your model's content. When you are satisfied with the results, publish your model to make it available to consuming applications such as Virtual Agent.
 
-**Parent Topic:**[Test and publish your model](../concept/testing-your-model.md)
-

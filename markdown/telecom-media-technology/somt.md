@@ -1,6 +1,6 @@
 ---
-title: Sales and Order Management for Telecommunications \(SOMT\)
-description: The ServiceNow Sales and Order Management for Telecommunications \(SOMT\) enables to unify your sales, fulfillment, and service operations on one platform.
+title: Sales Customer Relationship Management for Telecommunications
+description: The ServiceNow Sales CRM for Telecommunications enables to unify your sales, fulfillment, and service operations on one platform.
 locale: en-US
 release: australia
 topic_type: concept
@@ -9,13 +9,13 @@ reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Sales and Order Management for Telecommunications \(SOMT\)
+# Sales Customer Relationship Management for Telecommunications
 
-The ServiceNow® Sales and Order Management for Telecommunications \(SOMT\) enables to unify your sales, fulfillment, and service operations on one platform.
+The ServiceNow® Sales CRM for Telecommunications enables to unify your sales, fulfillment, and service operations on one platform.
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Sales and Order Management for Telecommunications \(SOMT\)](sales-order-management-telecommunications.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about Sales CRM for Telecommunications](sales-order-management-telecommunications.md)
 
 </td><td>
 
@@ -24,8 +24,9 @@ The ServiceNow® Sales and Order Management for Telecommunications \(SOMT\) enab
 </td></tr></tbody>
 </table>## Additional resources
 
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales and Order Management for Telecommunications \(SOMT\) features at [Now Create](https://learning.servicenow.com/nowcreate).
+-   Learn more about what's new and changed, see the [Sales CRM for Telecommunications release notes](https://www.servicenow.com/docs/access?context=sales-order-management-telecommunications-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM for Telecommunications features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).
--   Connect with other Sales and Order Management for Telecommunications \(SOMT\) users at [Now Community](https://www.servicenow.com/community/).
+-   Connect with other Sales CRM for Telecommunications users at [Now Community](https://www.servicenow.com/community/).
 

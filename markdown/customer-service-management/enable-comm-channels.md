@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Customer Service Management]
 ---
 
@@ -15,36 +15,42 @@ Set up multiple communication channels so that customers can contact you through
 
 <table id="table_mhz_4gb_l1c" class="nav-card"><tbody><tr><td>
 
-[Communication channels![](../../../reuse/icons/brand-icons/bus-customer-service.svg)Configure communication channels, such as email, call, chat, or social media.](../task/set-up-communication-channels.md)
+[Consumer messaging apps![](../../../reuse/icons/brand-icons/bus-customer-service.svg)Integrate Customer Service Management with consumer messaging apps to deliver a conversational mobile messaging experience for consumers and customer contacts.](consumer-messaging-apps.md)
 
 </td><td>
 
-[Chat Zoom Connector![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Use Chat Zoom Connector to enable customers to engage better using video and screen sharing options.](../task/config-chat-zoom-connector.md)
+[Chat![](../../../reuse/icons/brand-icons/bus-chat.svg)Configure Chat to enable and use Virtual Agent to create or use predefined chatbot topics \(conversations\) for your users, and give them the option to switch to a live agent at any time.](c_ChatFeature.md)
 
 </td></tr><tr><td>
 
-[Omnichannel Callback![](../../../reuse/icons/brand-icons/bus-customer-service-agent.svg)Set up Omnichannel Callback for Customer Service Management to enable your customers to request a voice or video callback.](configure-omni-callback.md)
+[Email![](../../../reuse/icons/brand-icons/bus-email.svg)Configure an email channel to either create interactions or cases from incoming emails.](c_CustomerServiceEmailCommunication.md)
 
 </td><td>
 
-[Engagement Messenger![](../../../reuse/icons/brand-icons/bus-chat.svg)Set up Engagement Messenger to enable your users to find the information or service that they need from third-party web applications.](setting-up-engagement-messenger.md)
+[Phone![](../../../reuse/icons/brand-icons/bus-customer-service-agent.svg)Configure Computer Telephony Integration \(CTI\)- based phone support for customers using OpenFrame and ServiceNow native voice controls via Interaction Controls Component \(ICC\). Integrate with a third-party telephony system via CCaaS integration, and use the call capability within your Workspace.](c_PhoneCommunication.md)
 
 </td></tr></tbody>
-</table>![overview of communication channels topics and how they relate to each other](../image/workflow-communication-channels.png "Communication channels overview")
+</table>## Communication channels overview
 
--   **[Communication channels](../task/set-up-communication-channels.md)**
+Configure communication channels for users to email, call, or chat, and integrate social media channels. This ensures users can reach your team through their preferred method for assistance.
 
-    Configure communication channels for users to email, call, or chat, and integrate social media channels. This ensures users can reach your team through their preferred method for assistance.
+-   **[Consumer messaging apps](../task/messg-integrate-channels.md)**
 
--   **[Chat Zoom connector](../task/config-chat-zoom-connector.md)**
+    Integrate Customer Service Management with consumer messaging apps to deliver a conversational mobile messaging experience for consumers and customer contacts. Customers can message your company using their preferred app to start a conversation with a virtual or live agent. The following consumer messaging apps can be integrated with Customer Service Management: WhatsApp, LINE, Facebook Messenger, and Apple Messages for Business.
 
-    Install and set up the Chat Zoom Connector to enhance customer engagement with video and screen sharing options. This application enables you to start Zoom meetings directly from a chat for more effective communication.
+-   **[Chat channel](c_ChatFeature.md)**
 
--   **[Engagement Messenger](setting-up-engagement-messenger.md)**
+    The chat communication channel uses the Connect Support feature to provide chat capability from the Customer Service and Consumer Service Portals. You can also enable Virtual Agent to create or use predefined chatbot topics \(conversations\) for your users.
 
-    Learn about the stages to set up Engagement Messenger, then install and configure it to access information and services from third-party web applications via your customer portal. This setup helps streamline your workflow and enhance your experience.
+-   **[Email channel](c_CustomerServiceEmailCommunication.md)**
 
--   **[Omnichannel Callback](configure-omni-callback.md)**
+    Customers can send emails to create cases and update current cases, and receive email updates from agents as cases progress. Customer Service Management uses the ServiceNow email accounts feature to create and maintain email accounts.
+
+-   **[Phone channel](c_PhoneCommunication.md)**
+
+    Computer Telephony Integration \(CTI\) helps integrate a third-party telephony system to your ServiceNow Workspace via OpenFrame and Interaction Controls Component \(ICC\). Any third-party Contact Center as a Service \(CCaaS\) platform \(like Amazon Connect or Genesys\) can integrate to the ServiceNow CRM Platform. CCaaS can integrate their voice call controls and workflows into their provisioned instance to enable agents to handle phone calls directly within their Workspace.
+
+    [Omnichannel Callback](configure-omni-callback.md)
 
     Set up and configure Omnichannel Callback for Customer Service Management to enable customers to request voice or video callbacks. Customize the feature to meet your organization’s needs, enhancing customer experience and optimizing case resolution efficiency.
 

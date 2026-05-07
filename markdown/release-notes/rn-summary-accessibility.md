@@ -4,7 +4,7 @@ description: Cumulative release notes summary on accessibility information for A
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
+last_updated: "2026-05-04"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -29,11 +29,19 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Agent Advisor
+
+</td><td>
+
+The AI Agent Advisor application supports all platform accessibility features.
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
-The AI Control Tower application supports all the platform accessibility features.
+The AI Control Tower application supports all platform accessibility features.
 
 </td></tr><tr><td>
 
@@ -125,6 +133,14 @@ Improve accessibility by allowing admins to configure widget heading levels \(H1
 
 </td></tr><tr><td>
 
+Employee Slate
+
+</td><td>
+
+Employee Slate includes built-in accessibility compliance through the AI widget builder. Custom widgets automatically meet accessibility standards when created through the prompt-driven interface with design components that include accessibility features by default.
+
+</td></tr><tr><td>
+
 Enterprise Architecture
 
 </td><td>
@@ -166,6 +182,10 @@ Next Experience
 
 When enabled, this preference automatically moves your keyboard focus to important alerts so you don't miss critical messages while navigating with a keyboard or screen reader.
 
+-   **[Learn about accessibility preferences with a guided tour](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+
+Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
+
 
 </td></tr><tr><td>
 
@@ -192,11 +212,19 @@ Voice-to-text input can help users with mobility impairments access generative A
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+The Now Assist Center application supports all the platform accessibility features.
+
+</td></tr><tr><td>
+
 Now Assist in Virtual Agent
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 

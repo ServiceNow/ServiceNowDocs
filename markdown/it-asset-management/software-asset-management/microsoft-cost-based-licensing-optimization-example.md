@@ -24,7 +24,7 @@ In this example, a software asset manager is managing the following Microsoft SQ
 
 The following infrastructure is a VMware cluster that consists of three physical hosts. Each physical host contains virtual machines \(VMs\) that are running various versions and editions of Microsoft SQL Server. These VMs may potentially be moving across all physical hosts within the cluster.
 
-![Microsoft SQL Server cluster infrastructure.](../image/microsoft-sql-server-cluster-example.png)
+![Microsoft SQL Server cluster infrastructure](../image/mmasset0021885-microsoft-sql-server-cluster-example.svg)
 
 Based on the available entitlements and the cluster infrastructure, the software asset manager can license the cluster using one of the following options:
 

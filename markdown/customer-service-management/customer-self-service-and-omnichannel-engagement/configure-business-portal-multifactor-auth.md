@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Business and Consumer Portal, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Business and Consumer Portal, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Multi-factor authentication for Business and Consumer Portal

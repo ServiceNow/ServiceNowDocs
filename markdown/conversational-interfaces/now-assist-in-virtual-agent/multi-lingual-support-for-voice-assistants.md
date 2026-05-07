@@ -32,6 +32,8 @@ Voice assistants support the following languages for user interactions:
 -   Canadian French
 -   British English
 -   Mexican Spanish
+-   Thai
+-   Hindi
 
 ## Japanese language considerations
 

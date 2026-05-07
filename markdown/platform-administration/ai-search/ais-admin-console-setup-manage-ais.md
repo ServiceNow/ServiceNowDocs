@@ -7,7 +7,7 @@ product: AI Search
 classification: ai-search
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 10
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using AI Search Admin console, AI Search Admin console, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,9 +24,23 @@ Role required: ais\_admin
 
 You can modify existing search application configurations, or create and configure your own search application configurations with AI Search when you specify it as the search engine. By configuring the AI Search settings for a search application, you can customize the search experience for your specific needs. To set up the AI Search configuration, you do the following tasks from the search application configuration landing page:
 
-1.  Assign a search profile. Create a search profile and set the search sources as a priority to define the behavior of your search application. For more information, see [Search profiles in AI Search](../concept/defining-search-profiles-ais.md).
-2.  Define the search application configuration. Configure the search profile to customize the user interface of your search application. For more information, see [Search application configurations](../concept/defining-search-app-cfgs-ais.md).
-3.  Test and turn on AI Search. Display the options to test and verify AI Search in your search profile, turn on, or turn off AI Search based on its configuration status. For more information, see [AI Search Admin console Applications page](../reference/ais-admin-console-applications.md).
+1.  Assign a search profile.
+
+    -   Create a search profile.
+    -   Set the search sources as a priority to define the behavior of your search application.
+    For more information, see [Search profiles in AI Search](../concept/defining-search-profiles-ais.md).
+
+2.  Define the search app configuration.
+
+    -   Configure the search profile to customize the user interface of your search application.
+    For more information, see [Search application configurations](../concept/defining-search-app-cfgs-ais.md).
+
+3.  Test and turn on AI Search.
+
+    -   Display the options to test and verify AI Search in your search profile.
+    -   Activate or deactivate AI Search based on its configuration status.
+    For more information, see [AI Search Admin console Applications page](../reference/ais-admin-console-applications.md).
+
 
 ![Search application configuration landing page where you can configure the AI Search settings in the search application.](../image/ais-app-config1.png "Search application configuration landing page")
 
@@ -34,19 +48,19 @@ You can modify existing search application configurations, or create and configu
 
 1.  Navigate to **All** &gt; **AI Search Admin** &gt; **AI Search Admin Home**.
 
-2.  In the Set up and Manage AI Search in your applications section, select a supported search application that you want to configure the AI Search settings for.
+2.  In Set up and Manage AI Search in your applications section, select a supported search application that you want to configure the AI Search settings for.
 
 3.  In the application configuration landing page, assign a search profile.
 
-<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d359819e250">
+<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d362805e298">
 
 Option
 
-</th><th align="left" id="d359819e253">
+</th><th align="left" id="d362805e301">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d359819e259">
+</th></tr></thead><tbody><tr><td id="d362805e307">
 
 **Create a new search profile**
 
@@ -54,7 +68,7 @@ Procedure
 
 Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin console Applications page](../reference/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](../reference/search-profile-form-ais.md).
 
-</td></tr><tr><td id="d359819e299">
+</td></tr><tr><td id="d362805e347">
 
 **Link an existing search profile**
 
@@ -115,9 +129,9 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
     4.  Populate one or more Genius Result cards with concise, actionable answers that are derived from the relevant search results by linking AI Search Genius results configurations to your search profile.
 
-        A search profile can include multiple Genius Result configuration links. ![AI Search Admin console Genius Results view in basic configuration.](../image/ais-admin-02g1.png)
+        A search profile can include multiple Genius Result configuration links.
 
-        1.  On the **Genius Results Configuration** tab, enable base system genius results for your search profile from the list of genius result configuration options.
+        1.  On the **Genius Results Configuration** tab, activate base system genius results for your search profile from the list of genius result configuration options.
         2.  Select **Save**.
         For more information, see [Genius Result configurations in the base system](../concept/default-genius-result-configs-ais.md).
 
@@ -130,15 +144,15 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
 4.  Define the search application configuration.
 
-<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d359819e717">
+<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d362805e758">
 
 Option
 
-</th><th align="left" id="d359819e720">
+</th><th align="left" id="d362805e761">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d359819e726">
+</th></tr></thead><tbody><tr><td id="d362805e767">
 
 **Create a new search application configuration**
 
@@ -146,7 +160,7 @@ Procedure
 
 Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin console Applications page](../reference/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](../reference/search-app-config-form-ais.md).
 
-</td></tr><tr><td id="d359819e766">
+</td></tr><tr><td id="d362805e807">
 
 **Link an existing search application configuration**
 
@@ -244,7 +258,7 @@ Add a new result-card interface for your search application
 
 5.  Go back to the application configuration landing page and select **Test search profile** to verify that the search application works as intended.
 
-6.  Enable AI Search in the search application by selecting **Go to turn on**.
+6.  Activate AI Search in the search application by selecting **Go to turn on**.
 
 
 ## Result

@@ -23,17 +23,15 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Overview**.
 
-2.  Click **Add content** in the top left corner of the page to open the widget selection control.
+2.  Select **Add content** in the top left corner of the page to open the widget selection control.
 
-3.  In the first selection box, click **Reports**.
+3.  In the first selection box, select **Reports**.
 
-4.  In the second selection box, click **Security Incident**.
+4.  In the second selection box, select **Security Incident**.
 
-5.  In the third selection box, click **Security Incident map**.
+5.  In the third selection box, select **Security Incident map**.
 
-    ![Security Incident Response map.](../image/SecurityIncidentGeoHeatmap.png)
-
-6.  At the bottom of the screen, click the location on the screen you want to add to the report.
+6.  At the bottom of the screen, select the location on the screen you want to add to the report.
 
 7.  Close the **Add content** box.
 

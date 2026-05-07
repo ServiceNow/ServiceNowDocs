@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Financial Services Operations \(FSO\)
 classification: now-assist-for-financial-services-operations-fso
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Submit a dispute case with Disputes intake via Virtual Agent, Use generative AI, Now Assist for FSO, Financial Services Operations \(FSO\)]
 ---
@@ -28,8 +28,6 @@ Role required: none
     An incomplete case may be in a New state.
 
 3.  Complete the remaining activities in the playbook.
-
-    ![A customer can resume an incomplete card dispute case from a Virtual Agent chat by opening the case in the portal.](../image/disputes-va-resume-cust.png)
 
 4.  At the Submit dispute activity, select **Submit**.
 

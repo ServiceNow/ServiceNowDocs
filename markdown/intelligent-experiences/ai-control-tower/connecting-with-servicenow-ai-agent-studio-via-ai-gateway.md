@@ -1,6 +1,6 @@
 ---
-title: Connecting with ServiceNow AI Agent Studio Via AI Gateway
-description: Connecting with ServiceNow AI Agent Studio via AI Gateway.
+title: Connecting with AI Agent Studio Via AI Gateway
+description: Connecting with AI Agent Studio via AI Gateway.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -11,9 +11,9 @@ reading_time_minutes: 1
 breadcrumb: [Connect to MCP servers Via AI Gateway, AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# Connecting with ServiceNow AI Agent Studio Via AI Gateway
+# Connecting with AI Agent Studio Via AI Gateway
 
-Connecting with ServiceNow AI Agent Studio via AI Gateway.
+Connecting with AI Agent Studio via AI Gateway.
 
 ## Before you begin
 

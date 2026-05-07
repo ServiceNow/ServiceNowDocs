@@ -64,8 +64,8 @@ Script includes are used to store JavaScript that runs on the server.
 Processors provide a customizable URL endpoint that can execute arbitrary server-side JavaScript code and produce output such as TEXT or JSON. Creating custom processors is deprecated.
 -   **[Scripts - Background module](c_ScriptsBackground.md)**  
 Administrators can use the Scripts - Background module to run arbitrary JavaScript code from the server.
--   **[Script sandbox](script-sandbox.md)**  
-The script sandbox is an environment with restricted rights in which client-generated scripts run when they’re made available to the script sandbox.
+-   **[Script sandbox environment](script-sandbox-environment.md)**  
+The script sandbox environment is a restricted execution context in which untrusted, client-generated scripts run on the server using one of two evaluators: the guarded script evaluator or the script sandbox evaluator.
 -   **[Installation settings](c_InstallationSettings.md)**  
 Installation settings are global business rules with calculated names. Installation settings are calculated just before a record is displayed and facilitate dynamic determination of access and roles. Installation Settings permit the programmatic determination of a setting.
 -   **[Using DurationCalculator to calculate a due date](c_DrtnClDueDate.md#)**  

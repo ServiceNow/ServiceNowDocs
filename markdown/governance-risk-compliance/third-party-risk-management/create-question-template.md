@@ -59,7 +59,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 1.  Navigate to one of the following locations:
 
     -   **All** &gt; **Third-party Risk Management** &gt; **Assessment setup** &gt; **Questionnaire Templates** or **Third-party Risk Management** &gt; **Assessment Setup** &gt; **Document Request Templates**.
-    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
+    -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
 2.  Select **New \(Designer\)**.
 
     |Tab|Description|
@@ -92,7 +92,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 4.  Select the form context menu to select one of the following options.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d87592e528">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d89925e528">
 
 **Save**
 
@@ -100,7 +100,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 Save the current questionnaire or document request.
 
-</td></tr><tr><td id="d87592e537">
+</td></tr><tr><td id="d89925e537">
 
 **Preview**
 
@@ -108,7 +108,7 @@ Save the current questionnaire or document request.
 
 Display a preview of the questionnaire or document request with its current settings.
 
-</td></tr><tr><td id="d87592e546">
+</td></tr><tr><td id="d89925e546">
 
 **New Assessment**
 
@@ -116,7 +116,7 @@ Display a preview of the questionnaire or document request with its current sett
 
 Open a fresh canvas for a new questionnaire or document request.
 
-</td></tr><tr><td id="d87592e555">
+</td></tr><tr><td id="d89925e555">
 
 **Load Assessment**
 
@@ -124,7 +124,7 @@ Open a fresh canvas for a new questionnaire or document request.
 
 Open the list of existing questionnaires or document requests that are available for use.
 
-</td></tr><tr><td id="d87592e564">
+</td></tr><tr><td id="d89925e564">
 
 **Copy Assessment**
 

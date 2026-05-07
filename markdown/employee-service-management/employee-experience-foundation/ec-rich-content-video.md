@@ -59,23 +59,26 @@ The **Rich Content Editor** supports the following types of video:
 
     Provider "Other"
 
-5.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
 
-6.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
+## Procedure
 
-7.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
+1.  Navigate to **Content Publishing** and select **Content Provider** and confirm that **Other** provider is listed.
 
-8.  Create [Create rich content](ec-content-library-portal-rich-content.md) or [Create a news article](ec-content-library-news-article.md) and open the Rich Content Editor.
+2.  Open Other and confirm that it's mapped to a**News Article** or **Rich Content**.
 
-9.  Add a **video component** and set **Provider** to **Other**.
+3.  Update **glide.html.enable\_media\_sites** to add the video platform domain you’re testing.
 
-10. Paste your public video URL from an allowed domain.
+4.  Create [Create rich content](ec-content-library-portal-rich-content.md) or [Create a news article](ec-content-library-news-article.md) and open the Rich Content Editor.
 
-11. Save video.
+5.  Add a **video component** and set **Provider** to **Other**.
 
-12. Confirm that the video renders in **Rich Content Editor**.
+6.  Paste your public video URL from an allowed domain.
 
-13. Follow the additional setting options to configure video settings, as needed.
+7.  Save video.
+
+8.  Confirm that the video renders in **Rich Content Editor**.
+
+9.  Follow the additional setting options to configure video settings, as needed.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -166,7 +169,7 @@ Show controls \(Youtube and HTML5 Source\)
 Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
-</table>14. Select **Save** or **Save and Finish**.
+</table>10. Select **Save** or **Save and Finish**.
 
     Selecting **Save** saves your content and you remain on the **Rich Content Editor** canvas. Selecting **Save and Finish** saves your record and returns you to the **New content** form.
 

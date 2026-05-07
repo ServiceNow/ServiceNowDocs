@@ -39,7 +39,7 @@ The system provides the following session debugging options.
 |Debug SQL|Displays debugging messages for SQL queries.|
 |Debug SQL \(Detailed\)|Displays debugging messages for SQL statements and any changes made by SQL statements.|
 |Debug Text Search|Displays debugging messages for search result relevance and indexing.|
-|Debug UI Policies|Displays debugging messages for UI policies.|
+|Debug UI Policies|Displays debugging messages for UI policies in your browser's developer console.|
 |Debug UI Macro|Displays the start and end of the UI Macro in the DOM as HTML comments. The comments consist of table name and UI macro name.|
 |Debug Upgrade|Displays detailed information logged for records processed during the last family-to-family or patch version upgrade session.|
 |Enable All|Displays all available debugging messages.|

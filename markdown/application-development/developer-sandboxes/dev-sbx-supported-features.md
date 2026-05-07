@@ -38,7 +38,9 @@ Supported features include the following:
 
 ## Sandbox considerations and limitations
 
-Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. After a clone, sandboxes on an instance are automatically re-created with the same name, but without the previous work. For details, see [Cloning and upgrading considerations for Developer Sandboxes](dev-sbx-clone-upgrade-info.md).
+Upgrading an instance automatically backs up update sets to the base instance and recreates the sandboxes on that instance. Sandboxes are recreated in a base state, so you must restore backed up update sets. For details, see [Cloning and upgrading considerations for Developer Sandboxes](dev-sbx-clone-upgrade-info.md).
+
+**Note:** Sandboxes are not automatically recreated after a clone. You should save your work from a sandbox before the clone so you can recreate it.
 
 You can have up to 30 sandboxes per instance.
 

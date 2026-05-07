@@ -29,13 +29,5 @@ Amy Jones can manage all of these actions by doing the following:
 2.  Assess agents' skills and assign training.
 3.  Add skills to agent profile when they complete training or using recommendations from Predictive Intelligence.
 
-Get an overview on coaching, creating assessments, taking surveys, assigning training, and adding skills.
-
-Workforce Optimization for Customer Service Coaching Overview
-
-Get an overview of how you can add skills manually or the ones recommended using Predictive Intelligence and the Skill Recommendation application.
-
-Workforce Optimization for Customer Service Skill Recommendation
-
 For detailed instructions to use Coaching in Workforce Optimization for Customer Service, see [Coaching](coaching-configurable-wfo-cs.md#).
 

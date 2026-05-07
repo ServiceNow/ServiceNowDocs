@@ -49,6 +49,8 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   string
 -   string\_full\_utf8
 -   url
+-   reference
+-   glide\_list
 
 For more information about these fields, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 

@@ -47,7 +47,7 @@ An ignored local change always points to the current version for the record. You
 
     This step is a recommended best practice.
 
-<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d225985e201">
+<table id="choicetable_nvm_53c_bq"><tbody><tr><td id="d228229e201">
 
 **To stop ignoring changes**
 
@@ -55,7 +55,7 @@ An ignored local change always points to the current version for the record. You
 
 Select the check boxes beside the rows and select **Do Not Ignore** from the Actions choice list.
 
-</td></tr><tr><td id="d225985e216">
+</td></tr><tr><td id="d228229e216">
 
 **To stop ignoring changes and add them to the queue instead**
 

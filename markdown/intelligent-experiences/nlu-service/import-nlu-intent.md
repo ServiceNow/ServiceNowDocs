@@ -78,5 +78,3 @@ If there are any secondary language models associated to your target model, cons
 
 For information about prebuilt Virtual Agent models that you can import from, see [Reusing intents from prebuilt NLU models](../concept/reusing-predefined-nlu-intents.md).
 
-**Parent Topic:**[NLU intents](../concept/intents.md)
-

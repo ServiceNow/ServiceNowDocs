@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Lens launcher button, Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configure a Lens launcher button, Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
 ---
 
 # Configure Lens launcher using scripted screen
@@ -51,5 +51,5 @@ In this example, `a719743e0f703210e83019e800d1b29d` is the sys\_id of the **sys\
 
 The third parameter in `ButtonInstanceBuilder()` is the location. The location can be either `top_icon` or `top`.
 
-**Parent Topic:**[Configure Lens launcher button](configure-lens-launcher-button.md)
+**Parent Topic:**[Configure a Lens launcher button](configure-lens-launcher-button.md)
 

@@ -19,19 +19,19 @@ Workplace Maintenance Management provides preventive maintenance plans for enter
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about Workplace Maintenance Management concepts and features](explore-wmm.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Maintenance Management concepts and features](explore-wmm.md)
 
 </td><td>
 
-[Configure ![Configure.](../../../common/image/icon-configure.png) Install and Configure Workplace Maintenance Management](configure-maintenance-mgmt.md)
+[Configure ![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and Configure Workplace Maintenance Management](configure-maintenance-mgmt.md)
 
 </td></tr><tr><td>
 
-[Manage ![Manage](../../../common/image/icon-managing.png) Manage Workplace Maintenance Management location records](manage-maintenance-plans.md)
+[Manage ![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage Workplace Maintenance Management location records](manage-maintenance-plans.md)
 
 </td><td>
 
-[References ![References](../../../common/image/icon-reference.png) Learn about Workplace Maintenance Management roles, properties, and components](workplace-maintenance-mgmt-references.md) 
+[References ![](../../../reuse/icons/brand-icons/bus-learn.svg) Learn about Workplace Maintenance Management roles, properties, and components](workplace-maintenance-mgmt-references.md) 
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -1,17 +1,18 @@
 ---
-title: Installing Conversational Integration with Google chat
+title: Integrate Virtual Agent with Google chat using the self-configured bot
 description: Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google chat users can interact with each other.
 locale: en-US
 release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-21"
 reading_time_minutes: 2
-breadcrumb: [Conversational Integration with Google chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
+keywords: [Integrate, Now, Virtual, Agent, Google, Chat, Self-configured bot]
+breadcrumb: [Configuring your Conversational Integration with Google chat, Conversational Integration with Google chat, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
 
-# Installing Conversational Integration with Google chat
+# Integrate Virtual Agent with Google chat using the self-configured bot
 
 Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual Agent and Google chat users can interact with each other.
 
@@ -87,7 +88,7 @@ Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 25. Select **Done**.
 
-26. On the Service Accounts screenn,navigate to the Manage Keys page and select your new outbound service account.
+26. On the Service Accounts screen, navigate to the Manage Keys page and select your new outbound service account.
 
 27. Select the Keys tab.
 
@@ -102,7 +103,7 @@ Install the Google chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 ## What to do next
 
-[Integrating Virtual Agent with Google chat](integrating-va-google-chat.md)
+[Integrate Virtual Agent with Google chat](integrating-va-google-chat.md)
 
-**Parent Topic:**[Conversational Integration with Google chat](../concept/gchat-conv-integration.md)
+**Parent Topic:**[Configuring your Conversational Integration with Google chat](../concept/configure-va-google-chat.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Preview read table entities in Zero Copy Connector for ERP
-description: Preview read table entities in Zero Copy Connector for ERP to examine and verify the entity before adding it to a model.
+description: Preview read table entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to examine and verify the entity before adding it to a model.
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, entity, preview, see, model]
-breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Add an entity to a model, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Preview read table entities in Zero Copy Connector for ERP
 
-Preview read table entities in Zero Copy Connector for ERP to examine and verify the entity before adding it to a model.
+Preview read table entities in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to examine and verify the entity before adding it to a model.
 
 ## Before you begin
 
@@ -35,8 +35,6 @@ Role required: sn\_erp\_integration.erp\_admin
 5.  Select **Add model operation**.
 
 6.  In **Select type**, select **Read**.
-
-    The drop-down list in the **Select type** field only displays the types supported by the ERP system's software version specified on the model record. For example, if **SAP SuccessFactors Cloud** is set in the **ERP software** field for the model, the only entity type available is OData.
 
 7.  Select **Save and continue**.
 

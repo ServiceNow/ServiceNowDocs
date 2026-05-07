@@ -7,7 +7,7 @@ product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -16,6 +16,8 @@ breadcrumb: [Use generative AI skills, Now Assist for HR Service Delivery \(HRSD
 Generate a summary of the Sidebar discussions between agents, requesters, and subject matter experts by using the chat summarization skill in the Now Assist for HR Service Delivery \(HRSD\) application.
 
 ## Before you begin
+
+[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
 
 Role required: sn\_hr\_core.case\_writer
 
@@ -51,15 +53,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d562951e218">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d572455e236">
 
 Option
 
-</th><th align="left" id="d562951e221">
+</th><th align="left" id="d572455e239">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d562951e227">
+</th></tr></thead><tbody><tr><td id="d572455e245">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -70,7 +72,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d562951e254">
+</td></tr><tr><td id="d572455e272">
 
 **Provide feedback for the summary**
 

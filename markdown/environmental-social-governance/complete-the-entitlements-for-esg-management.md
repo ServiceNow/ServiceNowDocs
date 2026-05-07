@@ -35,7 +35,7 @@ Role required: admin
 
 6.  To entitle all instances to the applications, select **Opt-in**.
 
-    The eligible list displays all the application dependencies you are licensed for.
+    The eligible list displays all the application dependencies you're licensed for.
 
 7.  Select the option to agree to the ServiceNow® terms and conditions.
 
@@ -43,7 +43,7 @@ Role required: admin
 
     A checkmark appears next to the product name, and the **Manage Entitlements** button appears.
 
-9.  Select **Manage Entitlements** to change the instances affected by the applications to which you are entitled.
+9.  Select **Manage Entitlements** to change the instances affected by the applications to which you're entitled.
 
 10. After you agree to the ServiceNow® terms and conditions and manage the entitlements, you can entitle the other products with a single click.
 

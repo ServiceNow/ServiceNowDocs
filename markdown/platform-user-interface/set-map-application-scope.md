@@ -19,15 +19,11 @@ Role required: admin
 
 ## Procedure
 
-1.  In the banner, click the gear icon \(![Settings](../image/SettingsIcon.png)\).
+1.  In the banner, select the Application scope icon \(![Scope selector icon.](../image/polaris-scope-selector-icon.png)\).
 
-2.  From the System Settings list, select **Developer**.
+2.  Select **Application scope: Global**.
 
-3.  From the Application list, select the application.
-
-4.  Toggle **Show application picker in header**.
-
-    An application picker appears in the header, enabling you to choose applications.
+3.  From the Application list, select the required application.
 
 
 **Parent Topic:**[Map pages](../concept/c_MapPages.md)

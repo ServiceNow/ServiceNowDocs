@@ -18,7 +18,7 @@ Retrieve security principals from your source system with a user permission craw
 
 ## Before you begin
 
-To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is enabled for your instance](verify-adcv2-inbound-mtls-enabled.md).
+To run crawls for external content connectors, your instance must have inbound mTLS support enabled. For details on verifying that this feature is enabled on your instance, see [Verify whether inbound mTLS support is activated for your instance](verify-adcv2-inbound-mtls-enabled.md).
 
 Role required: sn\_ext\_conn.xcc\_admin
 

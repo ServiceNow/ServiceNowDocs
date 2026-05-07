@@ -37,7 +37,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d261348e132">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d264541e132">
 
 **Approve**
 
@@ -45,7 +45,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 The review state changes to **Approved** on the Approvals list and the publication stage is set to **Ready To Publish**.For other approvers of this article, the review state changes to **No Longer Required**.
 
-</td></tr><tr><td id="d261348e153">
+</td></tr><tr><td id="d264541e153">
 
 **Reject**
 

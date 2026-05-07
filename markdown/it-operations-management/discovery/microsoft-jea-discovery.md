@@ -17,8 +17,6 @@ Using Microsoft JEA with Discovery improves security by forcing the MID Server t
 
 Microsoft JEA enables role-based administration through PowerShell Remoting, which uses Windows Remote Management \(WinRM\) to manage communication and authentication. This framework provides a secure and reliable method for managing computers that use the HTTP protocol. PowerShell Remoting uses two total ports \(5985, 5986\) for HTTP and HTTPS, which is easier to secure than the multiple ports used in WMI dynamic port mapping. For more information about Microsoft JEA, see [Just Enough Administration](https://docs.microsoft.com/en-us/powershell/scripting/learn/remoting/jea/overview).
 
-![Overview of the connection between the ServiceNow Instance, the MID Server, and the JEA Endpoint and Windows Server being discovered.](../image/jea-discovery-overview.png)
-
 ## Requirements for Discovery with JEA
 
 -   A ServiceNow instance running on the Rome release or later.

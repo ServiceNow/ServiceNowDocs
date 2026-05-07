@@ -79,5 +79,5 @@ If you would like to integrate your ServiceNow® instance with another Microsoft
 
 For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](configure-va-teams.md).
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](../concept/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](va-integ-msteams.md)
 

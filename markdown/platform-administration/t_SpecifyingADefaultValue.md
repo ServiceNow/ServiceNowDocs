@@ -42,7 +42,7 @@ Review the following examples about specifying default field values.
 
 Here is an example that sets a default value for the **Priority** field.
 
-![](../image/DefaultValueConstant.png "Default value constant")
+![The dictionary entry for the Priority field has a default value of 4.](../image/DefaultValueConstant.png "Default value constant")
 
 ### Javascript default values
 

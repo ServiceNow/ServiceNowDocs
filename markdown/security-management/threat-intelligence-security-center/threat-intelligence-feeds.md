@@ -1,6 +1,6 @@
 ---
 title: Threat Intelligence Feeds
-description: Use Threat Intelligence Feeds to add, edit, or remove Threat Intelligence feed data source.
+description: Configure threat intelligence data sources to automatically import security indicators into your ServiceNow instance. Use feeds to keep threat data current and enhance security monitoring capabilities.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -13,23 +13,23 @@ breadcrumb: [Integrate, Threat Intelligence Security Center, Security Operations
 
 # Threat Intelligence Feeds
 
-Use Threat Intelligence Feeds to add, edit, or remove Threat Intelligence feed data source.
+Configure threat intelligence data sources to automatically import security indicators into your ServiceNow instance. Use feeds to keep threat data current and enhance security monitoring capabilities.
 
-The data source feeds are available from the Threat Intel Catalog under Integrations section.
+Use Threat Intelligence Feeds to add, edit, or remove threat intelligence feed data sources. Access data source feeds from the Threat Intel Catalog under the Integrations section.
 
-The catalog for threat intelligence feeds is built to show the available feed data sources in the form of tiles and has the ability to filter, search, and navigate to the details of the source configuration and perform various actions.
+The catalog for threat intelligence feeds displays available feed data sources as tiles. You can filter, search, and navigate to source configuration details to perform various actions.
 
 ## All Feeds
 
-The base system includes a series of cards for each of the feeds that you can enable and use.
+You can enable and use feeds displayed as cards in the base system.
 
-The Feeds can be viewed by navigating to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Integrations** &gt; **Threat Intel Feeds** &gt; **All Feeds**.
+To view feeds, navigate to **Workspaces** &gt; **Threat Intelligence Security Center** &gt; **Integrations** &gt; **Threat Intel Feeds** &gt; **All Feeds**.
 
 ![Threat Intelligence Feeds](../image/tisc-all-feeds.png)
 
 ## Actions on the All Feeds view
 
-The All Feeds section enables you to perform the following actions.
+You can perform the following actions in the All Feeds section.
 
 <table id="table_ols_yx1_nzb"><thead><tr><th>
 
@@ -45,9 +45,9 @@ All
 
 </td><td>
 
-Use this drop-down menu to filter feeds based on their current state. You can filter based on the following states:-   **All**: Displays all the feeds on the page. This is the default option.
+Filter feeds by current state using this drop-down menu. Available filter states:-   **All**: Displays all the feeds on the page. This is the default option.
 -   **Enabled**: Displays all the feeds that are in an enabled state.
--   **Disabled**: Displays all the feeds that are in a disabled state.
+-   **Disabled**: Displays all the feeds that are in a inactive state.
 -   **Draft**: Displays all the feeds that are in a draft state.
 
 </td></tr><tr><td>
@@ -56,7 +56,7 @@ Use this drop-down menu to filter feeds based on their current state. You can fi
 
 </td><td>
 
-Use this action to view all the feeds in the form of cards.
+View all feeds as cards.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Use this action to view all the feeds in the form of cards.
 
 </td><td>
 
-Use this action to view all the feeds in the form of a list view.
+View all feeds as a list.
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Use this action to view all the feeds in the form of a list view.
 
 </td><td>
 
-Use this action to refresh the page.
+Refresh the page.
 
 </td></tr><tr><td>
 
@@ -80,7 +80,7 @@ Use this action to refresh the page.
 
 </td><td>
 
-Use this action to sort all the integrations based on the following:-   **Last Modified \(recent\)**
+Sort integrations by:-   **Last Modified \(recent\)**
 -   **Last Modified \(oldest\)**
 -   **Name \(A-Z\)**
 -   **Name \(Z-A\)**
@@ -91,7 +91,7 @@ All items
 
 </td><td>
 
-Use this action to filter and list the threat intelligence feed tiles by source type or feed type.**Source Type**:
+Filter threat intelligence feed tiles by source type or feed type.**Source Type**:
 
 -   Open Source
 -   Other Source
@@ -113,12 +113,12 @@ Search in catalog
 
 </td><td>
 
-Use this action to search for feeds based on the name and description within the catalog.
+Search for feeds by name and description within the catalog.
 
 </td></tr></tbody>
-</table>## Types of Threat Intel Feeds
+</table>## Threat Intelligence feed types
 
-The following are the types of threat intelligence feeds which can be configured and enabled:
+You can configure and enable the following threat intelligence feed types:
 
 <table id="table_y2y_rnd_pyb"><thead><tr><th>
 
@@ -134,7 +134,7 @@ TAXII Feeds
 
 </td><td>
 
-Feeds that are available as STIX/TAXII Collections format.
+Feeds in STIX/TAXII Collections format.
 
 </td></tr><tr><td>
 
@@ -142,7 +142,7 @@ STIX HTTPS
 
 </td><td>
 
-Threat Intelligence feeds in STIX format that can be accessed through REST APIs on HTTPS protocol.
+Threat intelligence feeds in STIX format accessible through REST APIs on HTTPS protocol.
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ MISP
 
 </td><td>
 
-Feeds that are in the MISP Format Feeds.
+Feeds in MISP Format Feeds.
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Text
 
 </td><td>
 
-Feeds that are available as hosted files in text format.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
+Feeds hosted as text files.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ CSV
 
 </td><td>
 
-Feeds that are available as hosted files in CSV format.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
+Feeds hosted as CSV files.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
 
 </td></tr><tr><td>
 
@@ -174,7 +174,7 @@ JSON
 
 </td><td>
 
-Feeds that are available as hosted files in JSON format.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
+Feeds hosted as JSON files.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ RSS
 
 </td><td>
 
-Feeds that are available in RSS format. The application will store the data as RSS Feed Records.
+Feeds in RSS format. The application will store the data as RSS Feed Records.
 
 </td></tr><tr><td>
 
@@ -190,23 +190,23 @@ Custom
 
 </td><td>
 
-Feeds that are configured using custom parsers.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
+Feeds configured with custom parsers.**Note:** Only URLs, domains, file names, hashes, and IP addresses are extracted.
 
 </td></tr></tbody>
-</table>For the next steps in the procedure, refer to the respective section for configuring a each specific feed type. [Threat Intelligence Feeds](threat-intelligence-feeds.md).
+</table>For configuration steps, refer to the respective topic for your feed type.
 
 -   **[Configure a new threat intelligence feed](../task/tisc-new-data-source.md)**  
-Configure a new threat intelligence feed.
+Add external threat intelligence sources to your TISC environment. Configure feed parameters, authentication, scheduling, and data processing to automatically ingest threat indicators from various sources.
 -   **[Configure Custom Field Mapping](../task/tisc-field-mapping.md)**  
 Field Mapping allows you to configure how each field in a data feed such as Text, CSV or JSON is interpreted and assigned to the corresponding observable.
 -   **[View Threat Intel Feeds](base-system-threat-intel-feeds.md)**  
-This section provides you the threat intel feeds that are configured in the base system.
--   **[Understanding STIX TAXII](threat-intelligence-security-center-feeds.md)**  
-Structured Threat Information Expression \(STIX\) is a language and serialization format used to exchange cyber threat intelligence \(CTI\). Trusted Automated Exchange of Intelligence Information \(TAXII\) is a protocol used to exchange cyber threat intelligence \(CTI\) over HTTPS.
+View threat intelligence feeds that automatically imports security data into your TISC ServiceNow instance. This enables real-time threat detection and response capabilities.
+-   **[About STIX TAXII](threat-intelligence-security-center-feeds.md)**  
+Structured Threat Information Expression \(STIX\) is a language and serialization format used to exchange cyberthreat intelligence \(CTI\). Trusted Automated Exchange of Intelligence Information \(TAXII\) is a protocol used to exchange cyberthreat intelligence \(CTI\) over HTTPS.
 -   **[Duplicate threat intelligence feeds](../task/tisc-duplicate-feeds.md)**  
-Duplicating a threat feed allows you to create an exact copy of an existing feed, including all associated observables, indicators, actors, and so on.
+Duplicate a threat feed to create an exact copy with all associated observables, indicators, and actors when you want to modify settings without affecting the original feed.
 
-**Parent Topic:**[Integrating Threat Intelligence Security Center](integrating-threat-intelligence-security-center.md)
+**Parent Topic:**[Integrate](integrating-threat-intelligence-security-center.md)
 
 **Related topics**  
 

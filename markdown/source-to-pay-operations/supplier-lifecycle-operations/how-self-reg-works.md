@@ -17,10 +17,6 @@ The process of self-registering to the Supplier Collaboration Portal involves a 
 
 ## Workflow of the self-registration process
 
-The following figure shows the workflow of the supplier contact self-registration process.
-
-![Supplier contact self-registration flow.](../image/self-reg-workflow.png)
-
 In this workflow:
 
 1.  The supplier contact starts the self-registration process by selecting **Register** on the Supplier Collaboration Portal home page. For more information, see [Self-register to the Supplier Collaboration Portal](../task/self-reg-to-supp-central.md).

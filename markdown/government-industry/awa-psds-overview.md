@@ -86,15 +86,15 @@ You can modify the context and attributes for [service channels](https://www.ser
 
 1.  Configure the Social Benefit Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32229e456">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34504e456">
 
 Options
 
-</th><th align="left" id="d32229e459">
+</th><th align="left" id="d34504e459">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d32229e465">
+</th></tr></thead><tbody><tr><td id="d34504e465">
 
 **Enable the Social Benefit Request service channel**
 
@@ -107,7 +107,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d32229e522">
+</td></tr><tr><td id="d34504e522">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -127,7 +127,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d32229e604">
+</td></tr><tr><td id="d34504e604">
 
 **Configure the Social Benefit Requests queue**
 
@@ -141,7 +141,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-</td></tr><tr><td id="d32229e656">
+</td></tr><tr><td id="d34504e656">
 
 **Change Inbox card layouts for Social Benefit request items in CSM Configurable Workspace**
 
@@ -190,15 +190,15 @@ You can modify the context and attributes for [service channels](https://www.ser
 
 1.  Configure the License and Permits Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32229e915">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34504e915">
 
 Options
 
-</th><th align="left" id="d32229e918">
+</th><th align="left" id="d34504e918">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d32229e924">
+</th></tr></thead><tbody><tr><td id="d34504e924">
 
 **Enable the License and Permit Request service channel**
 
@@ -211,7 +211,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d32229e981">
+</td></tr><tr><td id="d34504e981">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -231,7 +231,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d32229e1063">
+</td></tr><tr><td id="d34504e1063">
 
 **Configure the License and Permit Requests queue**
 
@@ -245,7 +245,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-</td></tr><tr><td id="d32229e1115">
+</td></tr><tr><td id="d34504e1115">
 
 **Change Inbox card layouts for License and Permits request items in CSM Configurable Workspace**
 
@@ -295,15 +295,15 @@ You can modify the context and attributes for [service channels](https://www.ser
 
 1.  Configure the Information Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32229e1383">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34504e1383">
 
 Options
 
-</th><th align="left" id="d32229e1386">
+</th><th align="left" id="d34504e1386">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d32229e1392">
+</th></tr></thead><tbody><tr><td id="d34504e1392">
 
 **Enable the Information Request service channel**
 
@@ -316,7 +316,7 @@ Steps
 5.  Select **Update**.
 
 
-</td></tr><tr><td id="d32229e1449">
+</td></tr><tr><td id="d34504e1449">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -336,7 +336,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d32229e1527">
+</td></tr><tr><td id="d34504e1527">
 
 **Configure the Information Requests queue**
 
@@ -350,7 +350,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-</td></tr><tr><td id="d32229e1575">
+</td></tr><tr><td id="d34504e1575">
 
 **Change Inbox card layouts for information request items in CSM Configurable Workspace**
 
@@ -400,15 +400,15 @@ You can modify the context and attributes for [service channels](https://www.ser
 
 1.  Configure the Service Requests service channel by modifying the default attributes as needed.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d32229e1844">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34504e1844">
 
 Options
 
-</th><th align="left" id="d32229e1847">
+</th><th align="left" id="d34504e1847">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d32229e1853">
+</th></tr></thead><tbody><tr><td id="d34504e1853">
 
 **Enable the Service Request service channel**
 
@@ -420,7 +420,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d32229e1904">
+</td></tr><tr><td id="d34504e1904">
 
 **Add members \(agents\) to the Public Sector Requests assignment group**
 
@@ -440,7 +440,7 @@ Use the examples to determine the government agents, managers, and their associa
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d32229e1982">
+</td></tr><tr><td id="d34504e1982">
 
 **Configure the Public Service Requests queue**
 
@@ -454,7 +454,7 @@ Use the examples to determine the government agents, managers, and their associa
 4.  Select **Update**.
 For more information on queue settings, see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
 
-</td></tr><tr><td id="d32229e2030">
+</td></tr><tr><td id="d34504e2030">
 
 **Change Inbox card layouts for service request items in CSM Configurable Workspace**
 

@@ -24,6 +24,8 @@ Role required: ais\_admin
 
 1.  Navigate to **All** &gt; **AI Search Admin** &gt; **AI Search Admin Home**.
 
+2.  Select the relevant resource link.
+
 
 **Parent Topic:**[Using AI Search Admin console](../concept/using-ais-admin-console.md)
 

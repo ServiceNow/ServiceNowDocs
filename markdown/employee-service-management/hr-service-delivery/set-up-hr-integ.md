@@ -1,5 +1,5 @@
 ---
-title: Setting up Enterprise Service Management Integrations Framework
+title: Configure Enterprise Service Management Integrations Framework
 description: Understand how to set up Enterprise Service Management Integrations Framework to use for integration with third-party systems.
 locale: en-US
 release: australia
@@ -11,7 +11,7 @@ reading_time_minutes: 1
 breadcrumb: [Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Setting up Enterprise Service Management Integrations Framework
+# Configure Enterprise Service Management Integrations Framework
 
 Understand how to set up Enterprise Service Management Integrations Framework to use for integration with third-party systems.
 
@@ -19,7 +19,7 @@ Understand how to set up Enterprise Service Management Integrations Framework to
 
 Role required: sn\_hr\_integr\_fw.admin
 
-To set up Enterprise Service Management Integrations Framework, you must first activate the Enterprise Service Management Integrations Framework application from ServiceNow Store. Next, you must [Setting up Enterprise Service Management Integrations Framework](set-up-hr-integ.md).
+To set up Enterprise Service Management Integrations Framework, you must first activate the Enterprise Service Management Integrations Framework application from ServiceNow Store. Next, you must [Configure Enterprise Service Management Integrations Framework](set-up-hr-integ.md).
 
 ## Procedure
 

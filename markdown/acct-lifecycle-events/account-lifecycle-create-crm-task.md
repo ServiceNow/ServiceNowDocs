@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Configure, Customer Success Management]
+breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Create a task in Microsoft Dynamics CRM

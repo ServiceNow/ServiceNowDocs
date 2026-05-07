@@ -1,6 +1,6 @@
 ---
 title: Choose output parameters for a model
-description: Specify output parameters for a read or update operation in Zero Copy Connector for ERP to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
+description: Specify output parameters for a create, read, or update operation in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, output, parameter, read, update, model, operation, map]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Choose output parameters for a model
 
-Specify output parameters for a read or update operation in Zero Copy Connector for ERP to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
+Specify output parameters for a create, read, or update operation in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to define how fields and parameters are mapped from the ERP system to the ServiceNow AI Platform. Output parameters also define how returned data is stored on the ServiceNow AI Platform.
 
 ## Before you begin
 
@@ -54,7 +54,7 @@ If you're already in the process of managing a model and ready to specify output
 
     In the Table/Functioncall section, define the parameters the operation uses. The Table section appears for read operations, and the Functioncall section appears for BAPI operations.
 
-    Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed.
+    Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP semantic mapping](../reference/erp-semantic-mapping.md).
 
     **Note:** Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](erp-edit-mapped-value-name-in-model-manager.md).
 
@@ -71,6 +71,8 @@ If you're already in the process of managing a model and ready to specify output
     3.  Enter the corresponding value in the **Mapped value** field.
 
     If you're adding a complex, nested parameter, such as an address that includes other parameters \(for street, for city, etc.\), Zero Copy Connector for ERP automatically identifies that it needs additional related parameters. Zero Copy Connector for ERP creates new, nested parameter rows that you must then populate with the related values. You can nest only parameters with **Object** or **Array** as the **Data type**.
+
+    The following example shows outputs and nested outputs for a BAPI.
 
     ![Table expanded to show outputs with a nested output highlighted.](../image/erpc-output-parameters-nested.png)
 

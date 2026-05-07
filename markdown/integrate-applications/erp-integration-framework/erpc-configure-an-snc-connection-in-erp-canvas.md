@@ -1,6 +1,6 @@
 ---
 title: Configure an SNC connection in Zero Copy Connector for ERP
-description: Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
+description: Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, snc, configure, test, connection, kerberos, security, sn\_erp\_integration.ERP\_Canvas\_RFC]
-breadcrumb: [Use an SNC connection, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Use an SNC connection, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Configure an SNC connection in Zero Copy Connector for ERP
 
-Learn how to set up SNC, including preparing the environment, configuring the SAP system, and testing the configuration.
+Learn how to set up an SNC connection, including preparing the environment, configuring the SAP system, and testing the configuration.
 
 ## Before you begin
 

@@ -18,6 +18,14 @@ Use Now Assist for App Engine to supercharge custom applications with AI agents 
 
 ## Get started
 
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
+
+For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
 [Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Now Assist for App Engine concepts and features.](exploring-now-assist-for-app-generation-enterprise.md)

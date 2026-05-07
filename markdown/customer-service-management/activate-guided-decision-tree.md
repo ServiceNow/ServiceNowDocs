@@ -1,6 +1,6 @@
 ---
 title: Activate a decision tree
-description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Customer Service, or in Service Portal.
+description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring gu
 
 # Activate a decision tree
 
-Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Customer Service, or in Service Portal.
+Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 
 ## Before you begin
 

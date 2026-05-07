@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 144
+reading_time_minutes: 147
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -4479,6 +4479,78 @@ Some properties are available on a system properties form, but some lesser-used 
 
     -   Type: true \| false
     -   Default value: true
+    -   Location: System Property \[sys\_properties\] table
+-   **sn\_query\_gen.hidden\_insights.groupby.min\_fields**
+
+    The target number of group-by fields for extended analysis in AI Data Explorer. These group-by fields are taken from the default list view of the relevant table. When this list view contains fewer eligible fields than the property value, the system looks for more eligible fields on the table to try to reach this count.
+
+    -   Type: Integer
+    -   Default value: 5
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Extended analysis](https://www.servicenow.com/docs/access?context=hidden-insights&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.disable.filter**
+
+    When set to true, excludes all segments from sys\_filter from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
+
+    -   Type: Boolean \(true/false\)
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.disable.manual\_segment**
+
+    When set to true, excludes all segments from sn\_query\_gen\_segment\_table\_config \(manual segments\) from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
+
+    **Important:** The ability to disable manual segments is intended for testing and troubleshooting purposes only.
+
+    -   Type: Boolean \(true/false\)
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.disable.report\_sources**
+
+    When set to true, excludes all segments from sys\_report\_source from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
+
+    -   Type: Boolean \(true/false\)
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.disable.sys\_app\_module**
+
+    When set to true, excludes all segments from sys\_app\_module from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
+
+    -   Type: Boolean \(true/false\)
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.disable.pa\_cubes**
+
+    When set to true, excludes all segments from indicator sources \(pa\_cubes\) from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
+
+    -   Type: Boolean \(true/false\)
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.disable.report**
+
+    When set to true, excludes all segments from sys\_report from AI Data Explorer search results. During the next Sync Segments Job, all segments of that type are deactivated in the Segment table.
+
+    -   Type: Boolean \(true/false\)
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   **sn\_query\_gen.segments.indicator.inactivity\_threshold\_multiplier**
+
+    Applies a multiplier to how long ago an indicator value can have changed for that indicator to be "recently changed." The \[Query Generation\] Sync Segments job deactivates segments based on indicators that have not recently changed. The value that is multiplied differs by indicator frequency \(see [Segments in the Query Generation semantic layer](https://www.servicenow.com/docs/access?context=querygen-segments&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)\).
+
+    -   Type: Integer
+    -   Default value: 1
+    -   Location: System Property \[sys\_properties\] table
+-   **sn\_query\_gen.segments.reports.last\_viewed\_threshold\_days**
+
+    Defines how many days ago a report can have run for that report to be considered "recently run." The \[Query Generation\] Sync Segments job deactivates segments based on reports that have not run recently. It also deactivates report sources whose reports have not run recently.
+
+    -   Type: Integer
+    -   Default value: 180
     -   Location: System Property \[sys\_properties\] table
 -   **sn\_vad\_genai.com.glide.small\_talk.closure.prompt\_enabled**
 

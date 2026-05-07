@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [features list, feature settings, feature descriptions, feature state, activate features, deactivate features, Health Log Analytics Administration, features form, system operations, feature configuration]
 breadcrumb: [Viewing system features and health alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -21,7 +22,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Health Administration** &gt; **Features**.
+1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Health Log Analytics Administration** &gt; **Features**.
 
     A full definition of each feature appears in its **Description** field.
 

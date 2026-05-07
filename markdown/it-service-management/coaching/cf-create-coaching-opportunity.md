@@ -27,15 +27,15 @@ When the triggered conditions defined in a coaching opportunity are met, an asse
 
 1.  Create a coaching opportunity using the guided setup or by using the application navigator.
 
-<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d399848e68">
+<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d401858e68">
 
 To create using
 
-</th><th align="left" id="d399848e71">
+</th><th align="left" id="d401858e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d399848e77">
+</th></tr></thead><tbody><tr><td id="d401858e77">
 
 **Guided setup**
 
@@ -45,7 +45,7 @@ Do this
 2.  Go to the **Add a Coaching Opportunity** section and select **Configure**.
 
 
-</td></tr><tr><td id="d399848e113">
+</td></tr><tr><td id="d401858e113">
 
 **The Application navigator**
 

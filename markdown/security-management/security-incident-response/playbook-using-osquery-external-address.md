@@ -30,8 +30,6 @@ Role required:
 
 3.  In Action 3, check whether this IP address belongs to the internal organization's public/private IP range or not.
 
-    ![Response task to check whether this IP address belongs to the internal organization's public/private IP range.](../image/playbook-osquery-overview.png "OSquery of External Address in /etc/hosts file playbook")
-
 4.  In Action 4, if the IP address belongs to the internal organization's public/private IP range, perform the following steps:
 
     1.  In Action 5, document the findings so far.
@@ -68,8 +66,6 @@ Role required:
         2.  In Action 19, initiate a post incident review.
 
             In Action 20, after the post incident review, the flow ends.
-
-        ![Response task to check whether the owner or team information is available.](../image/playbook-osquery-investigate.png "Using the OSquery of External Address in /etc/hosts file playbook")
 
 12. In Action 21, if the owner or team information is unavailable, isolate the host system.
 

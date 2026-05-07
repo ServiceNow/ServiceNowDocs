@@ -105,6 +105,10 @@ For more information about creating an event source, see [Create an external eve
     **Note:** Once the trigger is published, you can edit only the output **Label** fields.
 
 
+## Result
+
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](use-saved-trigger.md).
+
 -   **[Managing external event sources](manage-external-event-sources.md#)**  
 Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance.
 

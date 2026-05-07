@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure the Discovery Console for OT, Discovery Console for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Configure the Discovery Console for OT, Discovery Console for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Generate a certificate
@@ -33,15 +33,15 @@ After the Discovery Console for OT is installed, there are default, preloaded ce
 
     **Note:** You are not obligated to use the ServiceNow provided certificates and you may choose to use your own.
 
-<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d27029e110">
+<table id="choicetable_pp4_qnb_ghc"><thead><tr><th align="left" id="d29335e110">
 
 Option
 
-</th><th align="left" id="d27029e113">
+</th><th align="left" id="d29335e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d27029e119">
+</th></tr></thead><tbody><tr><td id="d29335e119">
 
 **Generate a new bundle**
 
@@ -51,7 +51,7 @@ Description
 2.  Select the **Generate Bundle** button.
 
 
-</td></tr><tr><td id="d27029e146">
+</td></tr><tr><td id="d29335e146">
 
 **Upload an existing bundle**
 

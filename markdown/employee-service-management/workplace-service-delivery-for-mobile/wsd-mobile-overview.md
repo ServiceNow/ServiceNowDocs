@@ -19,19 +19,19 @@ Access your workplace-related services and other information on your mobile devi
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore Learn about Workplace Service Delivery for Mobile concepts and features.](explore-wsd-mobile.md)
+[Explore ![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about Workplace Service Delivery for Mobile concepts and features.](explore-wsd-mobile.md)
 
 </td><td>
 
-[Configure Configuration required for Workplace Service Delivery for Mobile.](configure-wsd-mobile.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Configuration required for Workplace Service Delivery for Mobile.](configure-wsd-mobile.md)
 
 </td></tr><tr><td>
 
-[Using Use Workplace Service Delivery for Mobile to make a reservation, get directions to a workplace and more.](using-wsd-mobile.md)
+[Using![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg) Use Workplace Service Delivery for Mobile to make a reservation, get directions to a workplace and more.](using-wsd-mobile.md)
 
 </td><td>
 
-[Reference Get details about components like fields, tables, and properties.](wsd-mobile-references.md)
+[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg) Get details about components like fields, tables, and properties.](wsd-mobile-references.md)
 
 </td></tr></tbody>
 </table>

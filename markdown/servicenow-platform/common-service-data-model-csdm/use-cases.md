@@ -46,9 +46,9 @@ The topics do not address the following information:
 
     [Apply the CSDM guidelines to Digital Portfolio Management](https://www.servicenow.com/docs/access?context=dpm-csdm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
 
--   **Enterprise Architecture \(EA\) \[formerly Application Portfolio Management\]**
+-   **Enterprise Architecture**
 
-    [Applying the CSDM guidelines to Enterprise Architecture](https://www.servicenow.com/docs/access?context=apm-use-case-product-view&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)
+    [Enterprise Architecture \(EA\) and the CSDM framework](https://www.servicenow.com/docs/access?context=apm-use-case-product-view&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)
 
 -   **HR Service Delivery for Healthcare**
 

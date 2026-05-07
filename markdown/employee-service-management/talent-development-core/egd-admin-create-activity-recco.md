@@ -17,7 +17,7 @@ As an Talent admin you create **Activity Template Recommendations** that are use
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

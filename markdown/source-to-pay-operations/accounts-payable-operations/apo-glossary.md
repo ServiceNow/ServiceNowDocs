@@ -243,10 +243,6 @@ System-generated error task recording integration issues when invoices fail to p
 
 Auto-generated record logging any supplier or employee request for assistance via email, chat, or phone; can be associated with existing cases or used to create new cases.
 
-### Invoice
-
-A document issued by a seller to a buyer, indicating the products, quantities, and agreed prices for products or services provided.
-
 ### Invoice approval
 
 The process of verifying and authorizing an invoice for payment.

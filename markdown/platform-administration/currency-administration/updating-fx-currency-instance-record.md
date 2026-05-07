@@ -23,15 +23,15 @@ Role required: currency\_instance\_admin, with ACL access to the FX Currency fie
 
 1.  Access the Currency Instance record using one of the following methods.
 
-<table id="choicetable_wfb_pcw_5jb"><thead><tr><th align="left" id="d64742e73">
+<table id="choicetable_wfb_pcw_5jb"><thead><tr><th align="left" id="d67417e73">
 
 Access method
 
-</th><th align="left" id="d64742e76">
+</th><th align="left" id="d67417e76">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64742e82">
+</th></tr></thead><tbody><tr><td id="d67417e82">
 
 **Direct access from an FX Currency field**
 
@@ -39,7 +39,7 @@ Description
 
 Select the edit icon \(![Edit icon](../images/currency-edit.png)\) that appears next to the FX Currency field in a transaction record.
 
-</td></tr><tr><td id="d64742e101">
+</td></tr><tr><td id="d67417e101">
 
 **From the navigator bar**
 

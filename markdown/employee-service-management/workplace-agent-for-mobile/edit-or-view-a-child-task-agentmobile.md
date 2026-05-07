@@ -69,7 +69,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
     5.  To take a photo or video, select ![Attach photo or video icon.](../images/wsdagentmob-uploadpic.png).
 
-8.  To perform other actions, select the ![More options icon.](../images/wsdagentmob-actions.png) icon on the top-right of the header and do the following:
+8.  To perform other actions, select the ![](../images/actions.png) icon on the top-right of the header and do the following:
 
     1.  To update the checklist of the task, select **Update checklist**.
 
@@ -107,8 +107,6 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 
 [Manage workplace cases and tasks](manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)
-
-[Assign an unassigned case or task](assign-an-unassigned-case-or-task-agentmobile.md)
 
 [Edit or view case details on the Workplace Agent for mobile app](edit-or-view-case-details-agentmobile.md)
 

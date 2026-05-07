@@ -1,24 +1,24 @@
 ---
-title: Automate repetitive tasks by manually capturing steps in Agentic Desktop
-description: Create desktop actions by manually capturing steps to automate repetitive tasks in Agentic Desktop. The steps that you define on one or more application screens are saved as a reusable desktop action of type UI block.
+title: Automate repetitive tasks by manually capturing steps in AI Desktop Actions
+description: Create desktop actions by manually capturing steps to automate repetitive tasks in AI Desktop Actions. The steps that you define on one or more application screens are saved as a reusable desktop action of type on-screen task.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2025-11-10"
 reading_time_minutes: 9
-breadcrumb: [Design desktop actions, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Automate repetitive tasks by manually capturing steps in Agentic Desktop
+# Automate repetitive tasks by manually capturing steps in AI Desktop Actions
 
-Create desktop actions by manually capturing steps to automate repetitive tasks in Agentic Desktop. The steps that you define on one or more application screens are saved as a reusable desktop action of type UI block.
+Create desktop actions by manually capturing steps to automate repetitive tasks in AI Desktop Actions. The steps that you define on one or more application screens are saved as a reusable desktop action of type on-screen task.
 
 ## Before you begin
 
-To access the Agentic Desktop functionality, perform the following steps:
+To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable Agentic Desktop on your ServiceNow instance. For more information, see [Configure Agentic Desktop](configure-agentic-desktop.md).
--   Download the Agentic Desktop installer to automate repetitive tasks across applications and systems. For more information, see [Download Agentic Desktop installer](download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -26,9 +26,9 @@ Confirm that the following system requirements are met:
 -   A .NET 9.0 runtime v9.0.10 and .NET 9 Desktop Runtime v9.0.10 is installed.
 -   No extended monitors are connected.
 -   Theme must match between the systems used for recording and execution.
--   Remote Desktop must be enabled on your machine and your account must be granted Remote Desktop access permissions before you start using the Agentic Desktop Execution workspace.
+-   Remote Desktop must be enabled on your machine and your account must be granted Remote Desktop access permissions before you start using the AI Desktop Actions Execution workspace.
 
-Familiarize yourself with the Design workspace and Action recorder. For more information, see [Agentic Desktop Design workspace](../concept/agentic-desktop-overview.md) and [Action recorder in Agentic Desktop](../concept/action-recorder-ad.md).
+Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](../concept/agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](../concept/action-recorder-ad.md).
 
 Role required: sn\_aia.admin
 
@@ -45,47 +45,53 @@ Using the controls in the window, you can capture an area of an application wind
 
 ## Procedure
 
-1.  From your Windows system, launch the Agentic Desktop application.
+1.  From your Windows system, launch the AI Desktop Actions application.
 
 2.  On the login page, in the **Add ServiceNow URL** field, enter the ServiceNow instance URL.
 
     For example, `https://<instance name>.service-now.com`.
 
-    ![Agentic Desktop login screen for entering ServiceNow instance URL.](../image/ad-login-screen.png)
+    ![AI Desktop Actions login screen for entering ServiceNow instance URL.](../image/ad-login-screen.png)
 
 3.  Select **Proceed**.
 
 4.  Log in to your ServiceNow account by entering your user name and password.
 
-    Your account must have the sn\_aia.admin role.
+    Your must have the sn\_aia.admin role.
 
     ![Login window for entering your ServiceNow account username and password.](../image/ad-login-screen-cred.png)
 
-5.  On the Agentic Desktop home page, select **Create desktop action**.
+5.  On the onboarding journey wizard, complete the onboarding and select **Get started**.
 
-    ![Agentic Desktop home page displaying the Create desktop action UI action, search and select options, and cards of existing desktop actions.](../image/home-page-actions-ad.png)
+    ![Onboarding journey widget with five pages to show you the highlights of the application.](../image/onboarding-widget-ad.png)
 
-6.  In the New desktop action dialog box, select **Manual capture steps**.
+    If you launch the AI Desktop Actions for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch AI Desktop Actions or **Skip intro** to skip the onboarding.
+
+6.  On the AI Desktop Actions home page, select **Create desktop action**.
+
+    ![AI Desktop Actions home page displaying the Create desktop action UI action, search and select options, and cards of existing desktop actions.](../image/home-page-actions-ad.png)
+
+7.  In the New desktop action dialog box, select **Manual capture steps**.
 
     ![New desktop action window with manual capture option selected and fields to enter name and description for the desktop action.](../image/create-desktop-action-manual-ad.png)
 
-7.  Enter a name and description for the desktop action.
+8.  Enter a name and description for the desktop action.
 
-8.  Select **Start capturing**.
+9.  Select **Start capturing**.
 
     The Design workspace is displayed.
 
     ![Design workspace in a state when no screenshot is captured.](../image/design-workspace-ad.png)
 
-9.  Capture screens.
+10. Capture screens.
 
     1.  In the Design tab, select the **Capture Options** icon ![](../image/capture-options-icon.png).
 
-    2.  Select **Manual capture screens**.
+    2.  Select **Manual capture**.
 
-        ![Design workspace displaying two options: Auto-capture steps and Manual capture screens.](../image/design-tab-manual-ad.png)
+        ![Design workspace displaying two options: Auto-capture with recorder and Manual capture screens.](../image/design-tab-manual-ad.png)
 
-        The Agentic Desktop window is minimized and the Capture panel is launched.
+        The AI Desktop Actions window is minimized and the Capture panel is launched.
 
         ![Manual capture floating panel with Select and Cancel UI actions.](../image/manual-select-screen-ad.png)
 
@@ -103,7 +109,7 @@ Using the controls in the window, you can capture an area of an application wind
 
         If you are not satisfied with the captured screen, you can recapture the screen area by selecting the **Capture image** icon ![](../image/ad-capture-image-icon.png).
 
-10. Insert anchors.
+11. Insert anchors.
 
     1.  Insert an anchor on the captured screen by selecting the **Add anchor** icon ![](../image/ad-add-anchor-icon.png).
 
@@ -121,7 +127,7 @@ Using the controls in the window, you can capture an area of an application wind
 
         You can add multiple anchors on each screen. Multiple anchors let you define the geographical relationship between anchor and target with greater accuracy when targeting different locations in the image.
 
-11. Configure the steps.
+12. Configure the steps.
 
     1.  From the Anchor control menu, select the **Add step** icon ![](../../../reuse/icons/product-icons/circle-plus-outline-24.svg).
 
@@ -260,13 +266,13 @@ Recognize text from images and return it in the standard text format.
 </td></tr></tbody>
 </table>        You can add multiple steps representing your automation steps.
 
-12. Configure the properties for added screens, anchors, and steps.
+13. Configure the properties for added screens, anchors, and steps in the Properties panel.
 
-    For more information, see [Screen, anchor, and step properties in Agentic Desktop](../reference/screen-anchor-and-action-properties-ad.md).
+    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](../reference/screen-anchor-and-action-properties-ad.md).
 
-13. Provide names for all added screens, anchors, and steps.
+14. Modify the auto-generated names for all added screens, anchors, and steps.
 
-    When you create these elements, you can edit the auto-generated name, but follow these naming guidelines.
+    You can modify the auto-generated names following these naming guidelines.
 
     -   Name fields must not be empty.
     -   Name fields must contain only alphanumeric characters. Spaces and special characters are not permitted.
@@ -277,18 +283,18 @@ Recognize text from images and return it in the standard text format.
 
 ## What to do next
 
-1.  Configure the details of your desktop action. For more information, see [Add details to desktop actions in Agentic Desktop](add-details-desktop-action-ad.md).
-2.  Test and activate the desktop action so that it can be added as a tool to AI agents. For more information, see [Test and activate a desktop action in Agentic Desktop](test-activate-desktop-action-ad.md).
+1.  Configure the details of your desktop action. For more information, see [Add details to desktop actions in AI Desktop Actions](add-details-desktop-action-ad.md).
+2.  Test and activate the desktop action so that it can be added as a tool to AI agents. For more information, see [Test and activate a desktop action in AI Desktop Actions](test-activate-desktop-action-ad.md).
 3.  Add the desktop action as a tool to AI agents in AI Agent Studio. For more information, see [Add a desktop action to an AI agent](../../../administer/now-assist-ai-agents/task/add-desktop-action-ai-agent.md).
 
 **Related topics**  
 
 
-[Agentic Desktop Design workspace](../concept/agentic-desktop-overview.md)
+[AI Desktop Actions Design workspace](../concept/agentic-desktop-overview.md)
 
-[Screen, anchor, and step properties in Agentic Desktop](../reference/screen-anchor-and-action-properties-ad.md)
+[Screen, anchor, and step properties in AI Desktop Actions](../reference/screen-anchor-and-action-properties-ad.md)
 
-[Automate repetitive tasks by auto-capturing steps in Agentic Desktop](auto-create-desktop-action-ad.md)
+[Automate repetitive tasks by auto-capturing steps in AI Desktop Actions](auto-create-desktop-action-ad.md)
 
 [Add a desktop action to an AI agent](../../../administer/now-assist-ai-agents/task/add-desktop-action-ai-agent.md)
 

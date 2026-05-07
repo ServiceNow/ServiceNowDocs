@@ -4,7 +4,7 @@ description: Activate the Now Assist in AI Search application to extract actiona
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Activate Now Assist skills, Configure, Now Assist for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
@@ -30,7 +30,5 @@ Role required: admin
 2.  If the screen says you do not have AI search on the instance, select **Request AI Search**.
 
 3.  Wait until AI Search is displayed as activated and ready for use.
-
-    ![Modal displaying AIS as activated and ready.](../image/ais-activated-na-psds.png)
 
 

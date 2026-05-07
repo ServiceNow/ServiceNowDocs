@@ -39,15 +39,15 @@ This procedure explains how you can assign a multi-day task to an agent using Se
 
 4.  Assign the task.
 
-<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d119837e139">
+<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d122388e139">
 
 Option
 
-</th><th align="left" id="d119837e142">
+</th><th align="left" id="d122388e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d119837e148">
+</th></tr></thead><tbody><tr><td id="d122388e148">
 
 **To assign a task manually**
 
@@ -57,7 +57,7 @@ Description
 2.  Click **Update**.
 
 
-</td></tr><tr><td id="d119837e172">
+</td></tr><tr><td id="d122388e172">
 
 **To auto-assign a task**
 

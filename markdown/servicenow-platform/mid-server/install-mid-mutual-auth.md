@@ -40,6 +40,8 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
 1.  Contact ServiceNow support to request mutual authentication on the MID Server.
 
+    For additional technical details and troubleshooting information, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1116112](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1116112).
+
 2.  Obtain a certificate and private key from a respected certificate authority.
 
     MID Server mutual authentication only supports the PEM bundle format and private key in PCKS\#8 format. The bundle must have both the private key and certificate. Open the certificate using a text editor and see if it is in text format. The header and footer of the PEM syntax is the following:
@@ -107,19 +109,19 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
     -   **Enable mutual authentication​**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -m`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -m`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -m`
 
     -   **Remove mutual authentication and restore back basic authentication**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -b <myUserName myPassword>`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -b <myUserName myPassword>`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -b <myUserName myPassword>`
 
     -   **Add new certificates and certificate chains with a specified alias​**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -a <alias> <fileName>`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -a <alias> <fileName>`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -a <alias> <fileName>`
 
@@ -149,7 +151,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
     -   **Display certificate details for the specified alias**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -g <alias> ​`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -g <alias> ​`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -g <alias> ​`
 
@@ -157,7 +159,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
     -   **List all existing aliases**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -l`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -l`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -l`
 
@@ -165,7 +167,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
     -   **Delete certificates using an alias​**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -d <alias>`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -d <alias>`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -d <alias>`
 
@@ -173,7 +175,7 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 
     -   **Remove all entries from the keystore**
 
-        For Windows, use the command: `bin/scripts/manage-certificates.bat -r ​`
+        For Windows, use the command: `bin\scripts\manage-certificates.bat -r ​`
 
         For Linux, use the command: `./bin/scripts/manage-certificates.sh -r ​`
 
@@ -204,6 +206,8 @@ In the Quebec release, a MID Server using the Health Log Analytic application ca
 [Rekey a MID Server](t_RekeyAMIDServer.md)
 
 [Add SSL certificates for the MID Server](add-ssl-certificates.md#)
+
+[Specify an external TrustStore for the MID Server](mid-external-truststore.md)
 
 [MID Server SSH cryptographic algorithms](../reference/mid-ssh-algorithms.md)
 

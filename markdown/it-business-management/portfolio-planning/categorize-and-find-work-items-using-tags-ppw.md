@@ -35,15 +35,15 @@ Any tagging additions or removals made to a planning item are automatically sync
 
 3.  From the List view of Prioritization, add a tag for a planning item using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d50174e122">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d52024e122">
 
 Option
 
-</th><th align="left" id="d50174e125">
+</th><th align="left" id="d52024e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d50174e131">
+</th></tr></thead><tbody><tr><td id="d52024e131">
 
 **From the List view of Prioritization**
 
@@ -58,7 +58,7 @@ You can add more tags.
 
  ![Add tags to a planning item from the grid view.](../../spw-prioritization/images/add-tags-to-planning-items-from-grid.gif)
 
-</td></tr><tr><td id="d50174e166">
+</td></tr><tr><td id="d52024e166">
 
 **From the Details page of a planning item**
 
@@ -85,7 +85,7 @@ You can add more tags.
 
     ![Edit tag in Portfolio Planning.](../../spw-prioritization/images/edit-tag-in-spw.png)
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d50174e243">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d52024e243">
 
 **Me**
 
@@ -93,7 +93,7 @@ You can add more tags.
 
 Tag is visible only to the person who created the tag. Only the user who created the tag can use the tag to search for planning items labeled with that tag. This setting is the default.
 
-</td></tr><tr><td id="d50174e252">
+</td></tr><tr><td id="d52024e252">
 
 **Groups and Users**
 
@@ -101,7 +101,7 @@ Tag is visible only to the person who created the tag. Only the user who created
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d50174e261">
+</td></tr><tr><td id="d52024e261">
 
 **Everyone**
 

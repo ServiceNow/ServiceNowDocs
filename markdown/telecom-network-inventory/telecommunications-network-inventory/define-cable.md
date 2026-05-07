@@ -75,5 +75,5 @@ Optical fiber cables are installed between sites with open endpoints, indicating
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

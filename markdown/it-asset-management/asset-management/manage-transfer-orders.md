@@ -7,7 +7,7 @@ product: Asset Management
 classification: asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
 ---
 
@@ -55,24 +55,12 @@ To further add granularity and efficiency to the process, you can also create su
 
 -   **[Transfer order flow](transfer-order-flows.md)**  
 Use the Transfer Order flow to track asset movement from one stockroom to the other and the Transfer Order Line flow to handle the processing of transfer order lines. You can edit the existing flow or create a flow in the graphical Workflow Studio to meet your organization's asset transfer process.
--   **[Transfer assets using transfer orders](../task/t_TransferAssetsUsingTransferOrders.md)**  
+-   **[Transfer order tasks](work-with-transfer-orders.md)**  
 Transfer assets from one location to the other by moving the assets through the transfer order process. Transfer order lines specify the exact items that comprise a transfer order.
--   **[Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md)**  
-As assets move through the transfer process, the stage of a transfer order is updated based on the individual transfer order lines tasks.
--   **[Delete a transfer order](../task/t_DeleteATransferOrder.md)**  
-You can delete a transfer order only if the transfer order is still in the draft stage.
--   **[Delete a transfer order line](../task/t_DeleteATransferOrderLine.md)**  
-You can delete a transfer order line only if it's still in the draft stage.
--   **[Return items received in a transfer order](../task/t_ReturnItemsRecInXferOrder.md)**  
-When you receive a transfer order and if there’s a problem with all or some of the items, you can return the transfer order.
--   **[Create a customized template task](../task/create-customized-template-task.md)**  
-Create customized template tasks to configure your specific task workflow for transfer order lines. Default template tasks are available with the Asset Management application. You can’t modify or delete a default template task.
--   **[Create a template subtask](../task/create-template-subtask.md)**  
-Create template subtasks to add granularity to the transfer order line tasks. For example, before preparing for shipment, for a computer, you may want to create sub tasks for imaging the computer or adding additional software.
+-   **[Customize transfer order line tasks](customize-transfer-order-line-tasks.md)**  
+Understand how transfer order line tasks are structured and when to create customized template tasks or subtasks for your organization's asset transfer process.
 -   **[Transfer order line asset tracking](../reference/r_TransferOrderLineAssetTracking.md)**  
-As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
--   **[Perform bulk updates for transfer order lines](../task/create-bulk-transfer.md)**  
-Update tasks for multiple transfer order lines at one go to streamline the transfer order process.
+Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
 
 **Parent Topic:**[Using Asset Management](using-asset-management.md)
 
@@ -93,9 +81,9 @@ Update tasks for multiple transfer order lines at one go to streamline the trans
 
 [Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
 
-[Example Asset Management process](../task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../reference/org-mgmt.md#)
 
 [Transfer order flow](transfer-order-flows.md)
+
+[Transfer order tasks](work-with-transfer-orders.md)
 

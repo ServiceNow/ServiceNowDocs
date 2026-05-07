@@ -13,7 +13,7 @@ breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform
 
 Learn how to reconfigure secrets groups and client secrets groups after a clone.
 
-After you clone an instance, your secrets groups and client secrets groups may need to be reconfigured to operate as expected.
+After you clone an instance, your secrets groups and client secrets groups may require reconfiguration to operate as expected.
 
 |Secrets group origin|Behavior after a clone|
 |--------------------|----------------------|

@@ -6,7 +6,7 @@ release: australia
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 4
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -78,7 +78,7 @@ Use the Archive Related Records related list for DLP incidents to add the relate
 
 [Create repeat offender identification rules](repeat-offender-identification-rules.md)
 
-[Create Additional Incident Data Fields](create-custom-fields-dlp.md)
+[Create additional incident data fields](create-custom-fields-dlp.md)
 
 [DLP SLA Definition form](../reference/dlp-sla-def-properties.md)
 

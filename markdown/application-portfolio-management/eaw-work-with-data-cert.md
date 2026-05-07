@@ -5,8 +5,8 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+reading_time_minutes: 1
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with data certification
@@ -17,23 +17,23 @@ In the Enterprise Architecture Workspace, enterprise architects can manage certi
 
 ## Action and required role mapping for certification policies in the Enterprise Architecture Workspace
 
-|Action|System admin|cmdb admin + analyst|com.snc\_apm\_analyst|
-|------|------------|--------------------|---------------------|
-|View list of policies|Yes|Yes|Yes|
-|View track progress|Yes|Yes|Yes|
-|View policy by clicking a link to the policy|Yes|Yes|No|
-|Create policy|Yes|Yes|No|
-|Edit policy|Yes|Yes|No|
-|Delete policy|Yes|Yes|Yes|
-|Activate policy|Yes|Yes|Yes|
-|Deactivate policy|Yes|Yes|Yes|
-|Run certification|Yes|Yes|Yes|
-|Complete certification through Track progress page|Yes|Yes|No|
+|Action||cmdb admin + sn\_apm.apm\_analyst|sn\_apm.apm\_analyst|
+|------|---|---------------------------------|--------------------|
+|View list of policies||Yes|Yes|
+|View track progress||Yes|Yes|
+|View policy by clicking a link to the policy||Yes|No|
+|Create policy||Yes|No|
+|Edit policy||Yes|No|
+|Delete policy||Yes|Yes|
+|Activate policy||Yes|Yes|
+|Deactivate policy||Yes|Yes|
+|Run certification||Yes|Yes|
+|Complete certification through Track progress page||Yes|No|
 
 -   **[Create a certification policy](../../task/eaw-task/eaw-create-policy.md)**  
 Creating a data certification policy serves as a governance mechanism to ensure that the data used in enterprise architecture models and visualizations is accurate, complete, and trustworthy.
 -   **[Edit a certification policy](../../task/eaw-task/eaw-data-cert-edit-policy.md)**  
-Update an certification existing policy details. You can edit the draft or inactive certification policies.
+Update an existing certification policy details.
 -   **[View certification policy](../../task/eaw-task/eaw-data-cert-view-policy.md)**  
 View details of a published policy.
 -   **[Publish a certification policy](../../task/eaw-task/eaw-data-cert-publish-policy.md)**  

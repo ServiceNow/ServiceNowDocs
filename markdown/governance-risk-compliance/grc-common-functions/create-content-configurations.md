@@ -27,8 +27,6 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 3.  On the Content configurations related list, select **New**.
 
-    ![](../image/template-configuration.png)
-
 4.  On the form, fill in the fields.
 
     |Field|Description|

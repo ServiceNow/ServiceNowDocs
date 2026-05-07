@@ -98,8 +98,6 @@ When you leave the Expert Feedback Loop application and return to NLU Model Perf
 
 Click **Run analysis** or **Rerun analysis**, whichever is available. Each time you run an analysis, the system pulls the most recent VA utterances into the analysis.
 
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
-
 **Related topics**  
 
 

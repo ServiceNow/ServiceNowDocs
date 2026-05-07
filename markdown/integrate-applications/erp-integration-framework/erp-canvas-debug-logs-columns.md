@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP debug logs field descriptions
-description: The Zero Copy Connector for ERP debug logs contain information about probe payloads, payload responses, and status.
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) debug logs contain information about probe payloads, payload responses, and status.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, debug, log]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP debug logs field descriptions
 
-The Zero Copy Connector for ERP debug logs contain information about probe payloads, payload responses, and status.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) debug logs contain information about probe payloads, payload responses, and status.
 
 For process details, see [Debug Zero Copy Connector for ERP models](../task/debug-zero-copy-connector-for-erp-models.md).
 

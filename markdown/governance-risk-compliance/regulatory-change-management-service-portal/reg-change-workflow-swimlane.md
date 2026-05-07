@@ -27,6 +27,10 @@ The Regulatory Change Management application has the following user roles:
 
 For more information about the roles, see [User roles in Regulatory Change Management](../reference/roles-installed-rcm.md).
 
+The following infographic shows the Regulatory Change Management process flow.
+
+![Illustration of the RCM flow and tasks. For a description of the entire workflow, refer to the steps that follow.](../image/regulatory-change-management-process-flow.png "Regulatory Change Management process flow and tasks performed by different users")
+
 ## Regulatory Change Management process flow
 
 The steps to complete the Regulatory Change Management process flow are:

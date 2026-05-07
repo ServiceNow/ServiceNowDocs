@@ -25,7 +25,7 @@ Integrate the ServiceNow instance with your SuccessFactors instance using OAuth 
     -   **com.glide.transform.json.max-partial-length**: The maximum value is, `65536`.
 -   Role required: admin.
 
-**Note:** This procedure is applicable if you are setting up the SuccessFactors spoke v4.10.0 for the first time. If you are using an earlier version of the SuccessFactors spoke, see [Migrate to SuccessFactors spoke v4.10.0](migrate-successfactors.md) for the migration procedure.
+**Note:** This procedure is applicable if you are setting up the SuccessFactors spoke v4.10.1 for the first time. If you are using an earlier version of the SuccessFactors spoke, see [Migrate to SuccessFactors spoke v4.10.1](migrate-successfactors.md) for the migration procedure.
 
 For more information about setting up the spoke, see [SAP SuccessFactors Spoke - OAuth Setup &amp; Migration - Pre-Tokyo, Tokyo and beyond](https://www.servicenow.com/community/knowledge-managers/sap-successfactors-spoke-oauth-setup-amp-migration-pre-tokyo/ta-p/2468046) in [ServiceNow Community](https://www.servicenow.com/community/).
 

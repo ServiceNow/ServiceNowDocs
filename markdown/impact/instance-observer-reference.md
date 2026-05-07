@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-11"
 reading_time_minutes: 1
-breadcrumb: [Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Instance Observer reference
@@ -18,5 +18,5 @@ Several types of components are installed with activation of the Impact plugin, 
 -   **[Overview of Instance Observer metrics](../concept/instance-observer-ovr-metric.md)**  
 Instance Observer \(IO\) metrics are real-time and historical telemetry data points used to monitor, triage, and troubleshoot ServiceNow instance performance.
 
-**Parent Topic:**[Instance Observer](../concept/io-overview.md)
+**Parent Topic:**[Monitoring instance health with Instance Observer](../concept/io-overview.md)
 

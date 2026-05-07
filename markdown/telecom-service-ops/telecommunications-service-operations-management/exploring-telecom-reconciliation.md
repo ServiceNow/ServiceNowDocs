@@ -27,8 +27,6 @@ This solution uses:
 
 ## Telecom Discrepancy Identification &amp; Reconciliation architecture
 
-![Telecom discrepancy identification and reconciliation framework.](../images/telecom-discrepancy-identification-reconciliation.png)
-
 ## Key features
 
 |Feature|Description|

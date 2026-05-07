@@ -77,6 +77,10 @@ The inventory number allocation fields enables you to describe the details for L
 The Inventory Numbers form enables you to create, review, and modify the inventory details for a network inventory.
 -   **[IP address inventory management data model](../reference/data_model_of_ip_address_inventory_management.md)**  
 By using the IP address inventory management data model, you can understand how the tables that are used for the IP pools, IP subnetworks, allocated IP addresses, and IP addresses all relate to each other.
+-   **[Import model excel template](../reference/import-model-excel-template.md)**  
+Learn about the fields and structure of the Excel template used to define network element models and their hierarchical relationships for bulk import.
+-   **[Import template excel](../reference/import-template-excel.md)**  
+Learn about the fields and structure of the Excel template used to define inventory template hierarchies and their relationships for bulk import.
 -   **[Location forms](../reference/tni-location-forms.md#)**  
 The Location forms enable you to create locations hierarchy to track and manage your network assets.
 -   **[Logical Connection form](../reference/tni-logical-connection-forms.md#)**  

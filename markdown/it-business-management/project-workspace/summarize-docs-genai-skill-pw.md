@@ -23,7 +23,7 @@ Role required: it\_project\_user
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles.
 
-The Project doc generation and insights skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+The Project doc generation and insights skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../../now-assist-spm/concept/configuring-na-spm.md).
 
 ## About this task
 
@@ -35,15 +35,15 @@ Minimize the time that you spend reading documents, meeting notes, project repor
 
 2.  From the Docs, perform one of these action according to your requirements.
 
-<table id="choicetable_oq5_fqw_1dc"><thead><tr><th align="left" id="d320122e135">
+<table id="choicetable_oq5_fqw_1dc"><thead><tr><th align="left" id="d306048e119">
 
 Gen AI actions
 
-</th><th align="left" id="d320122e138">
+</th><th align="left" id="d306048e122">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d320122e144">
+</th></tr></thead><tbody><tr><td id="d306048e128">
 
 **Summarize**
 
@@ -59,7 +59,7 @@ Summarize the entire page or complete content from the **Docs** tab:
 2.  Select **Summarize**.
 
 
-</td></tr><tr><td id="d320122e193">
+</td></tr><tr><td id="d306048e177">
 
 **Elaborate**
 
@@ -67,7 +67,7 @@ Summarize the entire page or complete content from the **Docs** tab:
 
 Elaborate the selected text by selecting **Elaborate**.
 
-</td></tr><tr><td id="d320122e205">
+</td></tr><tr><td id="d306048e189">
 
 **Shorten**
 
@@ -75,7 +75,7 @@ Elaborate the selected text by selecting **Elaborate**.
 
 Shorten the selected text by selecting **Shorten**.
 
-</td></tr><tr><td id="d320122e217">
+</td></tr><tr><td id="d306048e201">
 
 **Insert below**
 
@@ -88,15 +88,15 @@ Add the generated summary after the selected content by selecting **Insert below
 
 3.  When you're finished summarizing the page in Docs, you can provide feedback, copy, or view information about it.
 
-<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d320122e244">
+<table id="choicetable_nly_n5h_1dc"><thead><tr><th align="left" id="d306048e228">
 
 Option
 
-</th><th align="left" id="d320122e247">
+</th><th align="left" id="d306048e231">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d320122e253">
+</th></tr></thead><tbody><tr><td id="d306048e237">
 
 **Provide feedback for the summary**
 
@@ -104,7 +104,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../now-assist-spm/images/icon-helpful-feedback.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../now-assist-spm/images/icon-nt-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d320122e276">
+</td></tr><tr><td id="d306048e260">
 
 **More information on summary**
 
@@ -112,7 +112,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 If you want to check some details about the summary, select the more info icon \(![More information icon.](../../now-assist-spm/images/icon-more-information-spm.png)\).
 
-</td></tr><tr><td id="d320122e291">
+</td></tr><tr><td id="d306048e275">
 
 **Copy the Docs summary**
 
@@ -123,7 +123,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../../now-assist-
 </td></tr></tbody>
 </table>    **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 
-    Only an administrator can activate the Now Assist skills. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/task/configure-now-assist-for-spm.md).
+    Only an administrator can activate the Now Assist skills. For more information, see [Configure Now Assist Admin features](../../now-assist-spm/concept/configuring-na-spm.md).
 
     The Project doc generation and insights skill checks the doc content to determine if enough information is available to generate a summary. If there isn't enough content to summarize, you can add more content and retry.
 

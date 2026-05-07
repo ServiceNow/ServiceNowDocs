@@ -65,8 +65,8 @@ Knowledge Graphs enhance the performance of AI agents using the structured and u
 
 Agentic Contact Center for Banking contains two Knowledge Graph tags records that list the tables referenced in the Knowledge Graph:
 
--   FSO CSR Personal
--   FSO CSR Business
+-   FSO Core Personal
+-   FSO Core Business
 
 For more information, see the following:
 

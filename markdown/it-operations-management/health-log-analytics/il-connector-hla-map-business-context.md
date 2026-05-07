@@ -18,6 +18,8 @@ Map your logs to service instances, components, and source types so that Health 
 
 ## Before you begin
 
+For an overview of this feature, see [Mapping logs for contextual alerts in Health Log Analytics](../concept/il-connector-hla-log-context-mapping.md).
+
 Configure and activate an integration before you perform this procedure. For more information, see [Set up integrations for Health Log Analytics from the Integrations Launchpad](../concept/hla-data-input-setup-integrations.md).
 
 Role required: evt\_mgmt\_admin

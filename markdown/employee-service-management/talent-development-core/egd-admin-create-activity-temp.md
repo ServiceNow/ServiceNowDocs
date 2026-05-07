@@ -17,7 +17,7 @@ As a Talent Development Core admin you create **Activity Templates** that are us
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in Dynatrace data into your Configuration M
 
 ## Before you begin
 
-Install Service Graph Connector for Observability - Dynatrace version 1.11.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install Service Graph Connector for Observability - Dynatrace version 1.11.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 

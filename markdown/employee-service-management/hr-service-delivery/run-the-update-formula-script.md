@@ -1,6 +1,6 @@
 ---
 title: Run Update formula script for HR Success Dashboard indicators
-description: Run the update formula script to recalculate all the formulae in the HR Success Dashboard indicators, in case there is outdated data in the dashboard.
+description: Run the update formula script to recalculate all the formulas in the HR Success Dashboard indicators, if you see outdated data in the dashboard.
 locale: en-US
 release: australia
 product: HR Service Delivery
@@ -13,17 +13,15 @@ breadcrumb: [Configure HR Success Dashboard indicators, HR Success Dashboard ind
 
 # Run Update formula script for HR Success Dashboard indicators
 
-Run the update formula script to recalculate all the formulae in the HR Success Dashboard indicators, in case there is outdated data in the dashboard.
+Run the update formula script to recalculate all the formulas in the HR Success Dashboard indicators, if you see outdated data in the dashboard.
 
 ## Before you begin
 
 Role required: admin
 
-**Note:** This action is only required for custom changes.
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Scheduled Script Executions**.
+1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
 2.  Open the `UpdateFormulasSD` list from the list.
 

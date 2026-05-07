@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP and security
-description: In addition to role-based security and access control, Zero Copy Connector for ERP protects personally identifiable data in other ways.
+description: In addition to role-based security and access control, Zero Copy Connector for ERP \(Enterprise Resource Planning\) protects personally identifiable data in other ways.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, integration, canvas, data hub, zero, copy, connector, sap, security]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP and security
 
-In addition to role-based security and access control, Zero Copy Connector for ERP protects personally identifiable data in other ways.
+In addition to role-based security and access control, Zero Copy Connector for ERP \(Enterprise Resource Planning\) protects personally identifiable data in other ways.
 
 Personally identifiable data is secured with Zero Copy Connector for ERP in several ways.
 

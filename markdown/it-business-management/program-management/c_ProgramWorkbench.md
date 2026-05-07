@@ -34,7 +34,7 @@ You can:
 
 -   configure the colors of the program items in Gantt chart with [Dashboard Configuration](../task/t_AccessTheProgramWorkbench.md) settings.
 -   select the zoom level in Gantt chart calender to **Auto Fit**. The Gantt view fits in one page to view entire timeline in one go without using the scrollbar.
--   review the external dependencies between projects in a program. For more information on reviewing external dependencies, see Review external dependencies between projects in a portfolio.
+-   Review the external dependencies between projects in a program.
 -   click the show/hide icon \(![Show or hide columns in Gantt](../image/cogwheel-icon.png)\) to show or hide columns.
 
 **Note:**

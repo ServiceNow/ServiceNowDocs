@@ -9,7 +9,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, remote, table, standard]
-breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Standard tables, fields, and models, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Standard Zero Copy Connector for ERP fields within remote tables

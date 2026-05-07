@@ -4,7 +4,7 @@ description: Identify and block offensive messages that are sent by human agents
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---
@@ -25,7 +25,7 @@ For example, let's say that Now Assist Guardian detects an offensive message in 
 
 ![Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.](../image/aia-offnsv-msg-dtctn-exction-trmntn.png)
 
-For more information about the different guardrails, see [Now Assist Guardian](../../now-assist-platform/concept/now-assist-guardian.md).
+For more information about the different guardrails, see Now Assist Guardian.
 
 ## Procedure
 
@@ -64,7 +64,7 @@ For more information about the different guardrails, see [Now Assist Guardian](.
 
         ![Prompt Injection page in AI Agent Studio.](../image/aia-prompt-injection-new.png)
 
-        **Note:** For more information about configuring the Prompt Injection, see [Configure prompt injection attack protection](../../now-assist-admin/task/configure-prompt-injection-attack-protection.md).
+        **Note:** For more information about configuring the Prompt Injection, see .
 
         When you configure the Prompt Injection for an agentic workflow by using the required instructions, the system is designed to detect harmful content and block the conversation.
 

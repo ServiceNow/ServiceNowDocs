@@ -23,7 +23,7 @@ Entitlements can be stacked, supporting up to 30 sandboxes per instance.
 
 **Note:** The number of sandboxes does not impact the instance performance.
 
-Users can be signed into the base instance and multiple sandboxes at the same time. Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you allow it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](dev-sbx-installing.md).
+Users can be signed into the base instance and multiple sandboxes at the same time. Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\) for login, when you enable it to connect to your account on the base instance, Developer Sandboxes authenticates using the same mechanism and credentials as the base instance. For information on enabling SSO, see [Installing Developer Sandboxes](dev-sbx-installing.md).
 
 **Note:** Instances with vanity URLs support SSO.
 

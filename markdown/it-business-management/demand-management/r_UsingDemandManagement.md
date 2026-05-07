@@ -186,7 +186,7 @@ Use a guided template that walks you through training the Similar Demands soluti
 -   **[Identify similar records using Now Assist for Strategic Portfolio Management \(SPM\)](../task/identify-similar-demands.md)**  
 Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
 -   **[Summarize demands with demand summarization skill](../task/demand-summary-demand-classic.md)**  
-Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 -   **[Associate AI systems with demands](../task/associate-ai-systems-with-demands.md)**  
 Add and manage AI system associations directly from the **AI Associations** tab in Demand Management.
 

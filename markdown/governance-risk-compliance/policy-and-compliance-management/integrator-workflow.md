@@ -21,6 +21,6 @@ The GRC: Policy and Compliance integrator application workflow consists of the f
 2.  Log in with the sn\_compliance.admin role into an instance and assign the sn\_grc\_cim.admin role to a user.
 3.  Use the APIs and staging tables that are supported with the applications and move the data from the staging tables into the GRC: Policy and Compliance Management application.
 
-    For more information about how to integrate batch records and assign library import tasks with the GRC: Policy and Compliance Management application, see [Using the GRC: Policy and Compliance integrator to display batch records and import tasks](integrator-in-classic-ui.md), [Content integration batch table](api-batch.md), and [Assign a library import task for approval](../task/assign-lib-import-task.md).
+    For more information about how to integrate batch records and assign library import tasks with the GRC: Policy and Compliance Management application, see [Using the GRC: Policy and Compliance integrator to display batch records and import tasks](integrator-in-classic-ui.md), [Content integration batch table](api-batch.md), and [Assign a library import task for compliance approval](../task/assign-lib-import-task.md).
 
 

@@ -71,7 +71,7 @@ Use generative AI to streamline your tasks in ServiceNow Vault. For example, you
 
 </td></tr><tr><td>
 
-[Guided Vault](guided-vault.md)
+Guided Vault
 
 </td><td>
 
@@ -107,9 +107,7 @@ Tool metrics
 Select the dropdown to review various metrics and graphs about a tool. **Note:** Find out more information about the metrics by reviewing the respective tools home page.
 
 </td></tr></tbody>
-</table>-   **[Guided Vault](guided-vault.md)**  
-The guided vault setup offers a step by step process to assess and protect sensitive data for an application.
--   **[Vault tools and metrics](vault-tools.md)**  
+</table>-   **[Vault tools and metrics](vault-tools.md)**  
 Learn about the tools and metrics ServiceNow Vault uses to protect and discover sensitive data.
 
 **Parent Topic:**[ServiceNow Vault](../reference/servicenow-vault-landing.md)

@@ -13,7 +13,7 @@ breadcrumb: [Decorations, Reference field type, Reference, Field administration,
 
 On forms, the reference icon \(![Core UI reference icon](../image/IconReferenceUI15.png)\) appears by populated reference fields. Clicking the icon opens a read-only preview of the referenced record.
 
-![Pointing to the reference icon, which looks like the letter I in a circle, opens a preview of the record over the form](../image/ReferencedRecordUI15.png "Referenced record preview on a form")
+![image.referenced-record-b20]
 
 The preview remains open until you click somewhere else on the form.
 
@@ -84,6 +84,4 @@ Role required: admin
 ### What to do next
 
 If this system value is set to **false**, you can override the setting for a specific read-only reference field. Configure the dictionary entry and add the **readonly\_clickthrough=true** attribute.
-
-![Read-only clickthrough attribute in dictionary entry](../image/ClickThroughAttribute.png "Dictionary entry showing the clickthrough attribute")
 

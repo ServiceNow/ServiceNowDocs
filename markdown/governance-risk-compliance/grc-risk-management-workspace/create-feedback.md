@@ -23,7 +23,7 @@ Role required: sn\_rvw\_feedback.reviewer
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  Select the list ![list icon.](../../grc-workspace-audit/image/ListsIcon.jpg) icon.
+2.  Select the list ![list icon.](../image/list-icon-risk-workspace.png) icon.
 
 3.  From the list, navigate to **Parallel Review and Feedback** and select **Feedback**.
 

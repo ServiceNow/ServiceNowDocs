@@ -25,7 +25,7 @@ Role required: admin, change\_manager, sn\_change\_write or itil
 
 2.  Select the template you want to modify or retire and perform one of the following steps.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d113206e73">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d115591e73">
 
 **Modify a standard change template**
 
@@ -36,7 +36,7 @@ Role required: admin, change\_manager, sn\_change\_write or itil
 
 **Note:** You can modify any field in the standard change template, and send for approval. After the modifications are saved and approved, a new version of the standard change template is created. Change requests created from the modified standard change template reflects the modifications made.
 
-</td></tr><tr><td id="d113206e105">
+</td></tr><tr><td id="d115591e105">
 
 **Retire a standard change template**
 

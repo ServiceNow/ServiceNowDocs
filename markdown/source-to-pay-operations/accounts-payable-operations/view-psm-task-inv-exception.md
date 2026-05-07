@@ -31,7 +31,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
     -   Navigate to **Lists** &gt; **All Work** &gt; **All open invoice exceptions**.
 4.  In the Number column, select the link to an Insufficient Goods Receipt invoice exception to open it.
 
-    ![image.apo-exceptions]
+    ![Select insufficient goods receipt exception](../image/apo-exceptions.png)
 
 5.  Select the **Related tasks** tab.
 

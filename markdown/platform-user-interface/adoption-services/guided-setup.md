@@ -15,6 +15,8 @@ breadcrumb: [Adoption services, Configure user experiences]
 
 Guided Setup is the product support that organizes configuration activities into categories. Use Guided Setup to step through the initial configuration of any product or application that provides a Guided Setup module.
 
+**Important:** Starting with the Australia release, Guided Setup is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Guided Setup organizes configuration activities into categories. Each category provides information, such as planning guidance, pre-setup steps, and links to useful help content. Categories also provide a set of links to the pages in your instance where you perform the configuration.
 
 ## Guided Setup home page

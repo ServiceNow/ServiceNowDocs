@@ -23,6 +23,12 @@ Enhanced Chat on mobile offers a dynamic conversational support experience that 
 Web search mode for Now Assist lets you perform an internet search from within Now Assist, showing external results from outside your organization.
 -   **[Generate a record summary on mobile](generate-a-record-summary-on-mobile.md)**  
 Generate a summary of a record in your Now mobile app using Now Assist.
+-   **[Using the prominent action button](using-prominent-action-button.md)**  
+stub topic.
+-   **[Using Voice Input for mobile](na-using-voice-to-text.md)**  
+The Voice Input feature allows users to easily transcribe spoken words into written text. Voice-to-text can be accessed directly from the search bar or Now Assist chat.
+-   **[Using People Genius results on mobile](using-people-genius-results.md)**  
+Search for people in your organization and view their profiles by entering their name into your search bar.
 -   **[Using Mobile AI Voice Agent](using-mobile-ai-voice-agent.md)**  
 Use Mobile AI Voice Agent to start voice conversations with an intelligent, AI-powered voice assistant.
 

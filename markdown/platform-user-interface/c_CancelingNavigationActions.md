@@ -25,7 +25,7 @@ One of the following conditions must be true for the Request Manager to cancel a
 
 The Request Manager uses the following workflow to determine whether to cancel a transaction.
 
-![](../image/Cancelation_workflow.png "Cancel navigation actions")
+![Workflow diagram of the cancellation flow](../image/Cancelation_workflow.png "Cancel navigation actions")
 
 <table id="table_fn3_kkq_n4"><thead><tr><th>
 

@@ -34,7 +34,7 @@ When the change moves to the Implement state, the required update for each CI re
 
 [Associate multiple CIs with a change request](c_AffectedCIsAndImpactedServices.md#)
 
-[State model and transitions](c_ChangeStateModel.md)
+[Legacy: State model and transitions](c_ChangeStateModel.md)
 
 [Configure a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
 

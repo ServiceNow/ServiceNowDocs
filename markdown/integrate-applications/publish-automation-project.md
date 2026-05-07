@@ -50,15 +50,15 @@ Publishing an automation project as a template makes it the framework for creati
     -   When you enable the **sn\_rpa\_fdn.code\_signing\_required** system property on the instance, it impacts the existing bot processes that are associated with the packages on the same instance because you didn't enable code signing on them earlier while you were publishing from RPA Desktop Design Studio to RPA Hub. As a result, the automations that corresponded to these bot processes failed. To run the failed automation successfully, you must publish the package again with the code signing from RPA Desktop Design Studio to RPA Hub.
 3.  Publish an automation project as a package or template.
 
-<table><thead><tr><th align="left" id="d314801e251">
+<table><thead><tr><th align="left" id="d208578e251">
 
 Option
 
-</th><th align="left" id="d314801e254">
+</th><th align="left" id="d208578e254">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d314801e260">
+</th></tr></thead><tbody><tr><td id="d208578e260">
 
 **Publish the automation project as a package**
 
@@ -84,7 +84,7 @@ Action
 7.  Select **OK**.
 
 
-</td></tr><tr><td id="d314801e342">
+</td></tr><tr><td id="d208578e342">
 
 **Publish the automation project as a template**
 

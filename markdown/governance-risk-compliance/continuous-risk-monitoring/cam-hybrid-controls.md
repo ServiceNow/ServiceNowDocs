@@ -97,7 +97,7 @@ In CAM there are two ways to inherit controls from the control objectives source
 
     1.  Select **Inherit from Multiple Providers**.
 
-    2.  Select the requirements from the different providers and select **Add**.
+    2.  Select the requirements and then select **Add**.
 
     Unlike inherited controls from a single provider, fully inherited controls generate a control instance and test templates, so Security Control Assessors \(SCAs\) can test the controls within their engagements. All requirements are inherited from provider packages.
 

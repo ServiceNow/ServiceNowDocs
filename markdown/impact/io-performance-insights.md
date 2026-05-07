@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Performance insights, User configurable dashboard]
-breadcrumb: [User configurable dashboard, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [User configurable dashboard, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Performance insights in user-configurable dashboard

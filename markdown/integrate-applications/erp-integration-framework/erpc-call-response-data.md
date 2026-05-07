@@ -1,6 +1,6 @@
 ---
 title: Specifying where ERP system data is saved
-description: Data that Zero Copy Connector for ERP retrieves from ERP \(Enterprise Resource Planning\) systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
+description: Data that Zero Copy Connector for ERP \(Enterprise Resource Planning\) retrieves from ERP systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, content, pack, model, integration, data hub, zero, copy, connector, sap, system, data, store]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Specifying where ERP system data is saved
 
-Data that Zero Copy Connector for ERP retrieves from ERP \(Enterprise Resource Planning\) systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
+Data that Zero Copy Connector for ERP \(Enterprise Resource Planning\) retrieves from ERP systems can be used in remote tables, extraction tables, and added to flows as data pills in Workflow Studio.
 
 ## Adding retrieved data to remote tables and extraction tables
 

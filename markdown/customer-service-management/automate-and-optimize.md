@@ -56,7 +56,7 @@ Guided Decisions
 
 </td></tr><tr><td>
 
-Recommended Actions for Customer Service
+Recommended Actions for Service
 
 </td><td>
 

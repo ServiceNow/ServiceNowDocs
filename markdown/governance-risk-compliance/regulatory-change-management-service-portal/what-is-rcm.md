@@ -7,7 +7,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -18,6 +18,10 @@ The Regulatory Change Management application provides a framework that your orga
 ## Regulatory Change Management overview
 
 The Regulatory Change Management application enables you to manage your upcoming regulatory changes efficiently. The application provides the structured workflows that help your organization to assess the applicability of the regulatory changes, assess their impact, and implement risk and compliance-related changes.
+
+The following infographic shows the process flow of the Regulatory Change Management application.
+
+![Regulatory Change Management process flow.](../image/rcm-process-flow.png "Process flow of the Regulatory Change Management application")
 
 The Regulatory Change Management application works with the following types of components:
 
@@ -43,6 +47,10 @@ The Regulatory Change Management application consists of the following workflow:
     -   Update the existing citations or import the new citations from the providers in the regulatory library.
 6.  View reports and dashboards: Assess the state of the regulatory compliance by using reports and dashboards. You can maintain an audit trail of the compliance activities.
 
+The following diagram shows the workflow of the Regulatory Change Management application.
+
+![Regulatory Change Management workflow. For a text description, refer to the text that precedes this diagram.](../image/Regulatory_Change_Management_key_components.png "Workflow of the Regulatory Change Management application")
+
 ## Key product innovations
 
 The steps to complete the Regulatory Change Management process flow to innovate key products are:
@@ -60,6 +68,10 @@ The steps to complete the Regulatory Change Management process flow to innovate 
 ## A day in the life of a regulatory change manager
 
 A user with the sn\_grc\_reg\_change.manager role \(RCM manager\) monitors, manages, decides, and verifies the regulatory changes on a daily basis.
+
+The following infographic depicts a typical day for a regulatory change management.
+
+![A user with the regulatory change manage role passes through various phases on a daily-basis.](../image/day-in-the-life-of-a-regulatory-change-manager.png "Typical day of a regulatory change manager")
 
 -   **[Regulatory Change Management application in the Compliance Workspace](rcm-workspace-overview.md)**  
 Starting with GRC: Regulatory Change Management, version 13.0.1, the Regulatory Change Management application is available in Compliance Workspace. Compliance Workspace provides your users with a single-pane view so that they can check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes for the organization.

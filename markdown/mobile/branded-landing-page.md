@@ -1,6 +1,6 @@
 ---
 title: Branded landing page for a single instance
-description: A branded landing page is a public web page displayed to users before they log in to their  ServiceNow mobile app. This pre-login page contains a login button in the header or a deep link that navigates users to a specified area of a  ServiceNow mobile app, bypassing the need to select an instance. The login button can be in the header of the mobile app, an integral part of the web page or both.
+description: A branded landing page is a public web page displayed to users before they log in to their  ServiceNow mobile app. This pre-login page contains a login button in the header or a deep link that navigates users to a specified area of a  ServiceNow mobile app, bypassing the need to select an instance. The login button can be in the header of the mobile app, an integral part of the web page or both. The login button can either be in the header of the mobile app or an integral part of the web page.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Mobile instances, Configuring the Mobile Platform, Mobile Platform]
 
 # Branded landing page for a single instance
 
-A branded landing page is a public web page displayed to users before they log in to their  ServiceNow mobile app. This pre-login page contains a login button in the header or a deep link that navigates users to a specified area of a  ServiceNow mobile app, bypassing the need to select an instance. The login button can be in the header of the mobile app, an integral part of the web page or both.
+A branded landing page is a public web page displayed to users before they log in to their  ServiceNow mobile app. This pre-login page contains a login button in the header or a deep link that navigates users to a specified area of a  ServiceNow mobile app, bypassing the need to select an instance. The login button can be in the header of the mobile app, an integral part of the web page or both. The login button can either be in the header of the mobile app or an integral part of the web page.
 
 **Note:** Branded landing pages are available only when working with a single instance.
 

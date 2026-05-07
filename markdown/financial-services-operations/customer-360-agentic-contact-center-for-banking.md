@@ -48,7 +48,7 @@ Recent transactions display for the selected customer account, showing descripti
 
 ## Cases
 
-The **Cases** section shows all cases associated with the customer. The list displays with case number, date and time, service definition, status, and assigned agent. Cases are sorted by date and time by default, with the most recent first.
+The **Cases** section shows all cases associated with the customer, including cases created by other agents or submitted by customers through the self-service portal. The list displays with case number, date and time, service definition, status, and assigned agent. Cases are sorted by date and time by default, with the most recent first.
 
 CSRs can filter cases by case number, financial account, state, and case owner, and can sort cases by case number, date and time, case type, case status, and assigned agent. Selecting a case number opens the case record.
 

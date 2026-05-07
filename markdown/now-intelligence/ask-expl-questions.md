@@ -18,15 +18,14 @@ To ask a question in an exploration, launch AI Data Explorer from a data visuali
 **Note:**
 
 -   The question you ask has to be about data in one of the tables listed in the Query Generation Semantic Table Configuration table. These tables can include database views and Workflow Data Fabric tables. For more information, see [Add a table to the semantic data layer](../task/add-table-semantic-layer.md#).
--   AI Data Explorer cannot access data from secure scopes.
--   If the data is from a protected application scope, access to that scope must be configured for AI Data Explorer. For more information, see .
+-   If the data is from a protected application scope, access to that scope must be configured for AI Data Explorer. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](enable-aide-secure-scope-apps.md).
 -   When you have submitted a question, you cannot submit another question or do other work in the exploration until your question is processed. You can cancel the processing of your question.
 
 When you write a question in an exploration, the AI converts the question to a database query. The AI returns the following items:
 
 -   ![Area 1](../image/callout-1.png) Your original question. You can edit this question to generate new output.
 -   ![Area 2](../image/callout-2.png) The title of the response and a summarization of the AI findings.
--   ![Area 3](../image/callout-3.png) A list or data visualization. This response can be an existing visualization instead of a generated one. For more information, see [Launch AI Data Explorer](../task/launch-now-assist-explorer.md).
+-   ![Area 3](../image/callout-3.png) A list or data visualization. This response can be an existing visualization instead of a generated one. For more information, see [Launch AI Data Explorer](../task/launch-now-assist-explorer.md).You can change the height of the list or visualization by interacting with the double arrow icon in its corner. You can also drag a visualization to other places in the exploration.
 -   ![Area 4](../image/callout-4.png) Suggestions for follow-up questions.
 
 You can select and drag these sections of the response to change their order.

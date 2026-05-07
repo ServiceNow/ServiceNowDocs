@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Advanced Work Assignment for Source-to-Pay Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Advanced Work Assignment Source-to-Pay Operations, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Setting up Advanced Work Assignment for Source-to-Pay Operations

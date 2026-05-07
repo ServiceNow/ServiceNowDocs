@@ -15,7 +15,7 @@ breadcrumb: [Conflict detection, Configure, Change Management, IT Service Manage
 
 The conflict calendar graphically represents the potential scheduling conflicts for a change request. Conflicts are identified as active change requests, blackout schedules, and changes scheduled outside maintenance schedules. Use the **Scheduling Assistant** to resolve any schedule conflicts.
 
-![](../image/change-req-conflict-calendar.png "Conflict calendar")
+![Conflict Calendar page with highlighted callouts. For the text descriptions, refer to the table that follows.](../image/change-req-conflict-calendar.png "Conflict calendar")
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 

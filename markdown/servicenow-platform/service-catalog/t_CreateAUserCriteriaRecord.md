@@ -147,7 +147,18 @@ With **Match All** selected, only users meeting all these conditions are matched
 **Note:** If you select **Match All**, ensure that you do not create contradictory conditions which can never be met. For example, if all users in location A work for company G, then the conditions in this example can never be met.
 
 </td></tr></tbody>
-</table>
+</table>    A User Criteria record is considered empty if none of the following attributes are defined:
+
+    -   Roles
+    -   Groups
+    -   Departments
+    -   Location
+    -   Company
+    -   Script \(or any other user attribute conditions\)
+
+        **Note:** An empty User Criteria matches only authenticated users. Unauthenticated users are no longer matched by an empty User Criteria. Note that this behavior applies only to the Australia release.
+
+
 **Parent Topic:**[Set security for items and categories](../concept/c_ServiceCatalogAccessControls.md)
 
 ## Implementing user criteria

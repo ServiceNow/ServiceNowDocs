@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -63,6 +63,4 @@ In this example procedure, you're building an NLU model to help Virtual Agent un
 Your new model contains no content. Select **Add content** to begin adding intents, entities, and vocabulary. For more information, see [Build and train your model](../concept/managing-model-content.md).
 
 Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](../concept/nlu-test-set-creation-management.md).
-
-**Parent Topic:**[Creating models](../concept/creating-models.md)
 

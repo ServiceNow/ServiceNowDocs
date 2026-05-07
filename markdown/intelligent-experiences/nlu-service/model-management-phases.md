@@ -6,16 +6,14 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-04-16"
+reading_time_minutes: 4
 breadcrumb: [Natural Language Understanding, Enable AI experiences]
 ---
 
 # Model management
 
 Manage your NLU model's life cycle in the NLU Workbench. Model management phases guide you through the iterative process of building, testing, and publishing your model.
-
-![Model management life-cycle.](../images/model-management-5.png)
 
 Bringing your NLU model from creation to deployment requires multiple steps, separated into phases. You can return to earlier phases when you want to adjust and maintain your model.
 
@@ -85,19 +83,4 @@ If your model is created for Issue Auto Resolution, you will be taken to IAR Tun
 Use the **Settings** page of the model overview to change the name and description of the model. You can also modify the confidence threshold of the model. The confidence threshold determines how confident the model must be to predict an intent.
 
 For more information, see [NLU model settings](nlu-model-settings.md).
-
--   **[Creating models](creating-models.md)**  
-Creating models is the first step to taking advantage of Natural Language Understanding \(NLU\) in your instances. Create models for Virtual Agent and AI Search in the NLU Workbench.
--   **[Build and train your model](managing-model-content.md)**  
-After creating a model, build the model's content by adding intents, entities, vocabulary, and test set utterances. Your NLU model content determines how the model responds to user inputs.
--   **[Test and publish your model](testing-your-model.md)**  
-Assess the performance of your NLU model to identify areas for improvement. Then publish your model to make it available to other applications such as Virtual Agent.
--   **[Irrelevance detection in NLU](irrelevance-detection-nlu.md)**  
-Keep Virtual Agent chats focused with Irrelevance detection. Use the Irrelevance detection feature to train your NLU model to avoid making predictions for utterances that are not relevant.
--   **[Tune your model](nlu-tune-your-model.md)**  
-On your model's overview in NLU Workbench, open the **Tune your model** phase to review and incorporate user utterances from the Expert Feedback Loop.
--   **[NLU model settings](nlu-model-settings.md)**  
-Change your NLU model's name, description, or confidence threshold on the **Settings** page of the model overview.
-
-**Parent Topic:**[Natural Language Understanding](nlu-landing.md)
 

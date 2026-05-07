@@ -7,7 +7,7 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Discovery, DAW, Discovery Admin Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,6 +22,7 @@ To access the Discovery Admin Workspace Insights page, navigate to **Workspaces*
 
 You can access the following information through the Insights page:
 
+-   [Discovery Operations Monitor dashboard](disco-operations-monitor.md)
 -   [Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../../service-mapping/reference/oracle-glas-discovery.md)
 -   [Kubernetes Explorer](../../../use/dashboards/application-content-packs/cloud-operations-workspace-kubernetes-dashboard.md)
 -   [Nutanix Dashboard](../../service-mapping/reference/nutanix-pattern.md)

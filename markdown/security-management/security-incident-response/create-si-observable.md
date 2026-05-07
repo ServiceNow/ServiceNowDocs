@@ -29,9 +29,9 @@ Role required:
 
 2.  Choose an incident.
 
-3.  Click **Security Incident Observables** related list tab.
+3.  Select the **Security Incident Observables** related list tab.
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  Fill in the fields on the form, as appropriate.
 
@@ -152,8 +152,6 @@ Enter any additional notes about the observable.
 7.  Returning to the security incident the following information is available.
 
     **Note:** When you add an observable to the security incident, the system checks for any other configuration items or users associated with it. The **Related Configuration Items** and **Related Users** related list tabs are updated accordingly.
-
-    ![Security incident observables example](../image/SI_Observable.png)
 
 <table id="table_bmj_3ky_gv"><thead><tr><th>
 

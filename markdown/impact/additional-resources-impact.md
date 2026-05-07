@@ -90,6 +90,18 @@ Getting started
 
 </td></tr><tr><td>
 
+Applicable Impact Descriptions
+
+</td><td>
+
+Terms and Conditions
+
+</td><td>
+
+[Impact legal](https://www.servicenow.com/legal/servicenow-impact.html)
+
+</td></tr><tr><td>
+
 Access Control List Rules
 
 </td><td>

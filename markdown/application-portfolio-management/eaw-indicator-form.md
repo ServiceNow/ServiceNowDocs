@@ -5,8 +5,8 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+reading_time_minutes: 4
+breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # New Indicator form
@@ -145,8 +145,6 @@ Consider Absolute Values
 
 Option to consider values from the **Target maximum** and **Target minimum** fields. This field is available only when values are entered in the **Target maximum** and **Target minimum** fields.
 
- When the check box is cleared, values for target maximum and target minimum are considered based on the [intelligent logic](../../concept/application-assessment.md#).
-
 </td></tr></tbody>
 </table><table id="table_xmb_fst_ncc"><thead><tr><th>
 
@@ -167,7 +165,7 @@ Defines the location from which the indicator receives data.
  -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See [Performance Analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
 -   **Custom Script**: Allows you to write a script that collects data from another application. Beneath the **Data Source** field, a sample script appears. Customize the script as needed.
 -   **Query Condition**: Allows you to select a table to run filters on to obtain data.
--   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://www.servicenow.com/docs/access?context=t_CreatMetricTypesAndGenAssessRecs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). To view results of survey assessments within Enterprise Architecture, see [Generate survey assessments and view results within APM](../../task/generate-survey-assessments-results-apm.md).
+-   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://www.servicenow.com/docs/access?context=t_CreatMetricTypesAndGenAssessRecs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 -   **Indicators**: Allows you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
 
 For example, if the parent indicator is number of issues, the dependent indicators can be number of incident counts, number of problems, and changes. These dependent indicators are child indicators and the number of incidents, problems, and changes recorded are consolidated up to the parent indicator as the number of issues.
@@ -181,7 +179,7 @@ Indicator
 
 The **Indicator** field appears when **Performance Analytics** is selected from the **Data source** list.Indicators are statistics that are used to measure current conditions and forecast trends.
 
- **Note:** If the collection frequency of the application indicator is not greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`. For more information, see [Collection of PA indicator score data](../../concept/application-assessment.md#CollectionPAIndicators).
+ **Note:** If the collection frequency of the application indicator is not greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`.
 
 </td></tr><tr><td>
 

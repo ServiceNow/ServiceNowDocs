@@ -108,7 +108,7 @@ The workflow for Recommended Actions for ITSM includes the following:
 
 [Service Operations Workspace for ITSM user interface](service-operations-workspace-ui.md)
 
-[Service Operations Workspace for ITSM for ITSM landing page](sow-ui-landing-page.md)
+[Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md)
 
 [Exploring On-call Scheduling in Service Operations Workspace](../task/on-call-scheduling-in-service-operations-workspace.md)
 

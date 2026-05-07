@@ -4,7 +4,7 @@ description: The Warranty Claims SOAP API handles incoming repair orders from de
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 10
 breadcrumb: [MCO Integration APIs, Reference, Manufacturing Commercial Operations]
 ---
@@ -15,7 +15,7 @@ The Warranty Claims SOAP API handles incoming repair orders from dealer systems 
 
 This API follows [SOAP 1.1 conventions](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/) and uses [Standards for Technology in Automotive Retail \(STAR\) XML schemas](https://https://schemas.liquid-technologies.com/star/5.3.4/repairorder_xsd.html/star/5.3.4/?page=processsaleslead_xsd.html) for interoperability across automotive service systems.
 
-This API enables the exchange of warranty and repair claim information between ServiceNow Manufacturing Connected Operations \(MCO\) and a Dealer Management System \(DMS\). Specifically, it allows users to:
+This API enables the exchange of warranty and repair claim information between ServiceNow Manufacturing Commercial Operations \(MCO\) and a Dealer Management System \(DMS\). Specifically, it allows users to:
 
 -   Create and validate warranty claims in the DMS directly from ServiceNow MCO.
 -   Query the status of submitted claims, including adjudication and approval outcomes, and retrieve those results back into ServiceNow.
@@ -126,7 +126,7 @@ activity\_status
 
 </td><td>
 
-Required. Indicates the current lifecycle status of the repair claim case line and drives playbook execution.Table: Repair Claim Case Line \[sn\_repair\_claim\_mgmt\_case\_line\]
+Required. Indicates the current life-cycle status of the repair claim case line and drives playbook execution.Table: Repair Claim Case Line \[sn\_repair\_claim\_mgmt\_case\_line\]
 
 Valid values:
 

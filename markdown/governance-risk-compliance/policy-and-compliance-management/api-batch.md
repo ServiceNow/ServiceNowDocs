@@ -6,7 +6,7 @@ release: australia
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ The content integration batch table displays the details that are shown in the f
 -   Domain of the content integration batch. In the example, the domain is Global.
 -   Content type of the content integration batch. In the example, the type is Compliance.
 
-![Content integration batch records table.](../image/cib-records.png "Content integration batch records table")
+
 
 To learn how you can use the user roles to access the APIs and batch records, see [User roles for the integration process](../../grc-integrations-with-third-party-content/reference/int-integrator-user-roles.md).
 
@@ -37,13 +37,13 @@ Select a record in the table to display the content integration batch record for
 
 **Note:** The fields in the form and the related lists are auto-populated.
 
-![Content integration batch record form.](../image/cib-record-staging-related-lists.png "Content integration batch record form")
+
 
 ## Using the Compliance staging processor flow
 
 You can use the new Compliance staging processor flow that is provided with the GRC: Policy and Compliance integrator application. See the following example. The flow is used to process the compliance staging data and it runs in the background on a weekly basis. It searches for the content integration batch records where the state is Ready and the content type is Compliance. For each record in the content integration batch, it creates a library import task and it updates the content integration batch status automatically.
 
-![Compliance staging processor flow.](../image/compliance-staging-processor-flow.png "Compliance staging processor flow")
+
 
 **Note:** You can update the flow to change its setting. For example, you can update the start time of the flow.
 
@@ -69,7 +69,7 @@ The Update batch status to ready API and the Compliance staging processor flow p
 
 1.  The Update batch status to ready API updates the content integration batch status to Ready as shown in the figure.
 
-    ![Batch status Ready in the content integration batch.](../image/batch-status-cib-module.png "Batch status Ready in the content integration batch")
+
 
 2.  The Compliance staging processor flow picks up the content integration batch and its records. When the Update batch status to Ready API sets the content integration batch status to Ready, the Compliance staging processor flow acknowledges the content integration batch.
 3.  When the state of the content integration batch is updated to Ready, the Compliance staging processor flow starts importing the records from staging to the GRC: Policy and Compliance integrator application.
@@ -83,5 +83,5 @@ The Update batch status to ready API and the Compliance staging processor flow p
     ![Staging recommendations.](../image/staging-recommendations.png "Staging recommendations")
 
 
-The library import task is used to import the staging records in the Policy and Compliance Management tables. The library import task and staging recommendations for each record are displayed for the content integration batch table in the GRC: Policy and Compliance integrator module. A user with the sn\_compliance.admin role can assign the library import task to the compliance managers assignment group. To learn how to assign a library import task, see [Assign a library import task for approval](../task/assign-lib-import-task.md).
+The library import task is used to import the staging records in the Policy and Compliance Management tables. The library import task and staging recommendations for each record are displayed for the content integration batch table in the GRC: Policy and Compliance integrator module. A user with the sn\_compliance.admin role can assign the library import task to the compliance managers assignment group. To learn how to assign a library import task, see [Assign a library import task for compliance approval](../task/assign-lib-import-task.md).
 

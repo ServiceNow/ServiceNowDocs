@@ -51,7 +51,7 @@ Within the Source-to-Pay Workspace, Procurement Specialists can create contract 
 
 The following figure shows an example workflow of how a procurement specialist and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the procurement workflow. It also provides procurement professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-![SPO - CM Pro workflow](../image/SPO-CMPro-solution-workflow.png "The Sourcing and Procurement Operations and Contract Management Pro workflow")
+![SPO - CM Pro workflow](../image/mmassest0021243-SPO-CMPro-workflow.png "The Sourcing and Procurement Operations and Contract Management Pro workflow")
 
 In this workflow:
 

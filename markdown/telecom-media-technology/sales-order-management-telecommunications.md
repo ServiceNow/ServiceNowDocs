@@ -1,25 +1,25 @@
 ---
-title: Exploring Sales and Order Management for Telecommunications
-description: Learn how the ServiceNow Sales and Order Management for Telecommunications \(SOMT\) application can help your organization manage the sales-to-fulfillment cycle for your customers. By adopting an integrated approach to quoting, ordering, and service delivery, you can increase operational efficiency and improve your customer experience.
+title: Exploring Sales CRM for Telecommunications
+description: Learn how the ServiceNow Sales CRM for Telecommunications application can help your organization manage the sales-to-fulfillment cycle for your customers. By adopting an integrated approach to quoting, ordering, and service delivery, you can increase operational efficiency and improve your customer experience.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Exploring Sales and Order Management for Telecommunications
+# Exploring Sales CRM for Telecommunications
 
-Learn how the ServiceNow® Sales and Order Management for Telecommunications \(SOMT\) application can help your organization manage the sales-to-fulfillment cycle for your customers. By adopting an integrated approach to quoting, ordering, and service delivery, you can increase operational efficiency and improve your customer experience.
+Learn how the ServiceNow® Sales CRM for Telecommunications application can help your organization manage the sales-to-fulfillment cycle for your customers. By adopting an integrated approach to quoting, ordering, and service delivery, you can increase operational efficiency and improve your customer experience.
 
-## Sales and Order Management for Telecommunications \(SOMT\) overview
+## Sales CRM for Telecommunications overview
 
-With the Sales and Order Management for Telecommunications \(SOMT\) application, you can unify your sales, fulfillment, and service operations on one platform. You can streamline quoting and pricing, orchestrate orders from sale to activation, and provide your teams with visibility into customer systems and tools that they need to deliver services. You can unify your sales, fulfillment, and service operations on one AI-powered platform and streamline quoting and pricing, configure complex bundles with guided workflows, and orchestrate orders seamlessly from sale to activation. Your teams can track orders with real-time visibility, proactively monitor issues, identify expansion and renewal opportunities, and prevent revenue loss while driving customer loyalty.
+With the Sales CRM for Telecommunications application, you can unify your sales, fulfillment, and service operations on one platform. You can streamline quoting and pricing, orchestrate orders from sale to activation, and provide your teams with visibility into customer systems and tools that they need to deliver services. You can unify your sales, fulfillment, and service operations on one AI-powered platform and streamline quoting and pricing, configure complex bundles with guided workflows, and orchestrate orders seamlessly from sale to activation. Your teams can track orders with real-time visibility, proactively monitor issues, identify expansion and renewal opportunities, and prevent revenue loss while driving customer loyalty.
 
 ## Key benefits
 
-With Sales and Order Management for Telecommunications \(SOMT\), you can:
+With Sales CRM for Telecommunications, you can:
 
 -   Scale sales productivity: Automate configuration, pricing, and approvals with AI-powered workflows, freeing agents to focus on customer relationships and closing deals.
 -   Reduce revenue leakage: Track orders from quote to activation on one platform, while AI agents detect and resolve issues before they impact service delivery.
@@ -29,9 +29,9 @@ With Sales and Order Management for Telecommunications \(SOMT\), you can:
 -   Improve lead management: Score and prioritize leads with AI while speeding up quoting to help teams achieve targets.
 -   Accelerate implementation: Deploy faster using industry-aligned data models and built-in APIs without replacing existing systems.
 
-## Key Sales and Order Management for Telecommunications \(SOMT\) capabilities
+## Key Sales CRM for Telecommunications capabilities
 
-The Sales and Order Management for Telecommunications \(SOMT\) application includes the following capabilities:
+The Sales CRM for Telecommunications application includes the following capabilities:
 
 |Capability|Description|
 |----------|-----------|

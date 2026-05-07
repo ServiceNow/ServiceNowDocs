@@ -1,6 +1,6 @@
 ---
 title: Task Plan Templates
-description: Use a task plan template to define the repeatable tasks and records that need to be created for a business process. When the template is applied, these tasks and records are automatically created.
+description: Use a task plan template to define the repeatable tasks and records that must be created for a business process. When the template is applied, these tasks and records are automatically created.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Ser
 
 # Task Plan Templates
 
-Use a task plan template to define the repeatable tasks and records that need to be created for a business process. When the template is applied, these tasks and records are automatically created.
+Use a task plan template to define the repeatable tasks and records that must be created for a business process. When the template is applied, these tasks and records are automatically created.
 
 ![The template items list includes a hierarchical list of the tasks, child, cases, records, and other items that are part of the template.](../image/task-plan-template-items-list.png "Template items list for a task plan template")
 
@@ -30,7 +30,7 @@ Business users can define how a business process should be handled by using a ta
 -   The task plan template and the conditions for when the template applies.
 -   The template items to be generated. This can include tasks, child cases, child case tasks, and other records such as work order tasks. Template items can also include attachments. These attachments are available on the tasks created from the template items.
 -   The task order.
--   Conditions that specify when tasks need to be created.
+-   Conditions that specify when tasks must be created.
 
 ## Benefits of task plan templates
 
@@ -194,7 +194,7 @@ Task plan template
 
 </td><td>
 
-A reusable framework that you can use to define and generate a sequence of tasks.Use a task plan template to define tasks and the conditions under which those tasks need to be created.
+A reusable framework that you can use to define and generate a sequence of tasks.Use a task plan template to define tasks and the conditions under which those tasks must be created.
 
 </td><td>
 

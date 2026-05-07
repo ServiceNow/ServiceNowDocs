@@ -17,6 +17,10 @@ Complete the answers to questions associated with a work order task and store th
 
 ## About this task
 
+-   You can view, answer, and submit questionnaires even while offline. For more information on enabling the offline mode, see [Run ServiceNow Agent in offline mode](../concept/work-offline-fieldservice-mobile.md#). Saving the questionnaire responses in the offline mode stores them in your device's local cache. Once the responses are submitted in the offline mode, tap **Sync All** to update them in the related work order task.
+-   You can edit responses submitted in a questionnaire even after it is submitted. However, this functionality is limited to questionnaires associated with work order tasks moved under **Needs Information** and will also work in the offline mode.
+-   Agents can’t view each others completed questionnaire even if the agent impersonates the other agent’s profile.
+
 Agents can’t view each others completed questionnaire even if the agent impersonates the other agent’s profile.
 
 ## Before you begin
@@ -24,11 +28,6 @@ Agents can’t view each others completed questionnaire even if the agent impers
 A questionnaire must be connected to the work order task. For more information on creating questionnaires and associating them with work order tasks, see [Work order questionnaires](../concept/work-order-questionnaire.md).
 
 Role required: wm\_agent or wm\_dispatcher
-
-## About this task
-
--   You can view, answer, and submit questionnaires even while offline. For more information on enabling the offline mode, see [Run ServiceNow Agent in offline mode](../concept/work-offline-fieldservice-mobile.md#). Saving the questionnaire responses in the offline mode stores them in your device's local cache. Once the responses are submitted in the offline mode, tap **Sync All** to update them in the related work order task.
--   You can edit responses submitted in a questionnaire even after it is submitted. However, this functionality is limited to questionnaires associated with work order tasks moved under **Needs Information** and will also work in the offline mode.
 
 ## Procedure
 

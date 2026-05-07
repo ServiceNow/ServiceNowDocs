@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -31,19 +31,13 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Indicator tasks applet highlighted.](../image/mobile_Risk_overview-app-redo.png)
-
     The Indicator Tasks screen is displayed with a list of records.
-
-    ![Indicator tasks record list.](../image/mobile-risk-indatask-list.jpg)
 
 3.  If you want to reduce the number of records that are displayed on the screen, see [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To assign a task directly from the list of records displayed on the Indicator Tasks screen, swipe left on a record to open the menu.
-
-    ![Swipe action on indicator task record.](../image/mobile-risk-indic-tasks-swipe.jpg)
 
 5.  Tap **Assign**.
 
@@ -61,17 +55,15 @@ Assign an Indicator Task from the list of records. Alternatively, view the detai
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-    ![Indicator task record details.](../image/mobile-risk-indc-task-record.jpg)
-
-<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d374813e233">
+<table id="choicetable_qrs_kqz_13b"><thead><tr><th align="left" id="d377122e191">
 
 Option
 
-</th><th align="left" id="d374813e236">
+</th><th align="left" id="d377122e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d374813e242">
+</th></tr></thead><tbody><tr><td id="d377122e200">
 
 **Details tab**
 
@@ -79,7 +71,7 @@ Description
 
 With the Details tab selected, to assign the record, at the top right of the screen, tap the menu icon \(![Menu icon](../../grc-common/image/mobile-top-menu.png)\). Follow the steps described in the preceding table.
 
-</td></tr><tr><td id="d374813e257">
+</td></tr><tr><td id="d377122e215">
 
 **Activity Stream tab**
 
@@ -89,7 +81,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\). Tap Assign. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d374813e296">
+</td></tr><tr><td id="d377122e254">
 
 **Tap a screen icon at the bottom of the screen.**
 

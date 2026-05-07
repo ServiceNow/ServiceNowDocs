@@ -34,6 +34,8 @@ For more information on editing a contract template, see [Edit a contract templa
 -   The metadata of the type Field mapping gets its value from the table that the contract template is associated with.
 -   The metadata of type Variables gets its value from the record producer.
 
+The following video walks you through the process of adding metadata for fields, variables, and variables sets using Microsoft Word add-in for ServiceNow Contracts.The video walks you through the process of adding metadata for fields, variables, and variables sets using Microsoft Word add-in for ServiceNow Contracts 
+
 ## Procedure
 
 1.  Open the document in which you want to mark the content controls in Microsoft Word.
@@ -56,15 +58,15 @@ For more information on editing a contract template, see [Edit a contract templa
 
 7.  On the Create mapping form in the **Type** field, select either field mapping or variables.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d209394e270">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d213963e300">
 
 Type of metadata
 
-</th><th align="left" id="d209394e273">
+</th><th align="left" id="d213963e303">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d209394e279">
+</th></tr></thead><tbody><tr><td id="d213963e309">
 
 **Field mapping**
 
@@ -74,7 +76,7 @@ Fields available
 -   **Field Name**- The field is automatically set to the value of the **Mapping Field**. You can also modify the value.
 
 
-</td></tr><tr><td id="d209394e304">
+</td></tr><tr><td id="d213963e334">
 
 **Variables**
 

@@ -19,8 +19,6 @@ A default help page is provided in the base system that displays help documents 
 
 **Note:** The default help page can be used as a template for your own help content. To personalize pages, sections, or documents in the User Guide, simply edit the ServiceNow® records to suit your needs. Remember that any records you customize are not updated when you upgrade your instance to a new version. Review any changes on a development system first and then decide whether to accept the updated content into your customized User Guide.
 
-![Basic user guide help page](../image/UserGuideBasicPage.png "Basic user guide help page")
-
 -   **[Create user guide help](../task/t_CreateUserGuideHelpDocuments.md)**  
 User guide help documents are grouped in appropriate sections on the page and listed in a configurable order. Add your sections to a help page.
 -   **[User guide help URLs](../reference/r_UserGuidePageEntryPoints.md)**  

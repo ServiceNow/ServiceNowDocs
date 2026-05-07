@@ -1,6 +1,6 @@
 ---
 title: Using Zero Copy Connector for ERP content packs
-description: Learn how to use Zero Copy Connector for ERP content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
+description: Learn how to use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, sample, example, model, application]
-breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using Zero Copy Connector for ERP content packs
 
-Learn how to use Zero Copy Connector for ERP content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
+Learn how to use Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs, from cloning a model to working within a scope. Content pack models and process extensions are examples.
 
 ## Before you begin
 

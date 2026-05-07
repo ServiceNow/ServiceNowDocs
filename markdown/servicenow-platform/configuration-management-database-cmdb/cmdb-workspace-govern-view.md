@@ -35,7 +35,7 @@ The **Certification tasks** tab in the My tasks section lists any Data Certifica
 
 ## Attestation tasks
 
-The **Attestation tasks** tab in the My tasks section lists any attestation tasks assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies.For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included. Review and process these attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks. For information about reviewing and processing attestation tasks, see [Review CMDB Data Manager attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md).
+The **Attestation tasks** tab in the My tasks section lists any attestation tasks assigned to you or to an assignment group that you belong to in accordance with CMDB Data Manager Attestation policies.For managers, tasks of direct reports are included, and for user group managers, tasks of members in the group are also included. Review and process these attestation tasks by checking the physical existence of IT infrastructure or applications associated with the CIs in the tasks. For information about reviewing and processing attestation tasks, see [Review attestation tasks in CMDB Workspace or in Service Graph Workspace](../task/review-data-manager-attes-task.md).
 
 The **Overdue tasks** tab lists those tasks that are overdue so you can review those tasks at a higher priority.
 

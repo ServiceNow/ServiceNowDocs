@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Configure, Customer Success Management]
+breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Create an opportunity in Microsoft Dynamics CRM

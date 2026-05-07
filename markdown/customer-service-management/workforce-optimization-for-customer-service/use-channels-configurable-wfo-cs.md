@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 13
-breadcrumb: [Channel Management, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Channel Management, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Using Channel Management in Workforce Optimization for Customer Service
@@ -128,15 +128,15 @@ The active work items remain in the queue and are pending manual allocation for 
 
 3.  Select the work item using one of the following actions.
 
-<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d296652e679">
+<table id="choicetable_pjv_3lx_ft"><thead><tr><th align="left" id="d300100e673">
 
 Navigate To
 
-</th><th align="left" id="d296652e682">
+</th><th align="left" id="d300100e676">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d296652e688">
+</th></tr></thead><tbody><tr><td id="d300100e682">
 
 **Queued Work tab**
 
@@ -144,7 +144,7 @@ Do this
 
 Select the work item.
 
-</td></tr><tr><td id="d296652e697">
+</td></tr><tr><td id="d300100e691">
 
 **Service Channel page**
 
@@ -155,7 +155,7 @@ Select the work item.
 3.  Select the work item.
 
 
-</td></tr><tr><td id="d296652e721">
+</td></tr><tr><td id="d300100e715">
 
 **All Queues**
 
@@ -320,15 +320,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile page.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d296652e1179">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d300100e1173">
 
 To set the override capacity
 
-</th><th align="left" id="d296652e1182">
+</th><th align="left" id="d300100e1176">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d296652e1188">
+</th></tr></thead><tbody><tr><td id="d300100e1182">
 
 **From Channels**
 
@@ -339,7 +339,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d296652e1218">
+</td></tr><tr><td id="d300100e1212">
 
 **From Teams**
 

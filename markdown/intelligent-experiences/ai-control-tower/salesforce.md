@@ -1,6 +1,6 @@
 ---
-title: AI Service Graph connector for Salesforce
-description: Use the  AI Service Graph Connector for Salesforce to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
+title: AI Service Graph Connector for Salesforce
+description: Use the  AI Service Graph Connector for Salesforce to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -11,9 +11,9 @@ reading_time_minutes: 1
 breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Explore, AI Control Tower, Enable AI experiences]
 ---
 
-# AI Service Graph connector for Salesforce
+# AI Service Graph Connector for Salesforce
 
-Use the  AI Service Graph Connector for Salesforce to discover AI assets such as AI systems, agents, models, tools, and prompts and well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
+Use the  AI Service Graph Connector for Salesforce to create AI connections to discover and import AI assets such as AI systems, agents, models, prompts, tools, and datasets as well as usage data for these AI assets into AI Control Tower. This usage information is consumed by the AI Control Tower's value dashboard.
 
 ## Download apps from the Store
 

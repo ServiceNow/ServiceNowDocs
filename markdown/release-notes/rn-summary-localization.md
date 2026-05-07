@@ -4,8 +4,8 @@ description: Cumulative release notes summary on new Australia features and prod
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-08"
-reading_time_minutes: 1
+last_updated: "2026-05-04"
+reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -24,6 +24,14 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
+
+AI Agent Advisor
+
+</td><td>
+
+AI Agent Advisor supports Dynamic Translation for Australia. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
+
+</td></tr><tr><td>
 
 AI Control Tower
 
@@ -89,11 +97,19 @@ The Now Assist AI agents application is built on the GPT-4o-based framework and 
 
 </td></tr><tr><td>
 
+Now Assist Center
+
+</td><td>
+
+Now Assist Center supports Dynamic Translation for Australia. Localization is applicable to Now Assist Center in all languages supported by the ServiceNow AI Platform.
+
+</td></tr><tr><td>
+
 Now Assist in Virtual Agent
 
 </td><td>
 
-
+ 
 
 </td></tr><tr><td>
 

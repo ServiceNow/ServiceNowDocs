@@ -17,23 +17,23 @@ The ServiceNow® Workplace Move Management application enables your employees to
 
 <table id="table_sdw_cwc_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore Learn about Workplace Move Management concepts and features.](explore-move-mgmt.md)
+[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about Workplace Move Management concepts and features.](explore-move-mgmt.md)
 
 </td><td>
 
-[Configure Install and Configure Workplace Move Management.](configure-workplace-move-mgmt.md)
+[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg) Install and Configure Workplace Move Management.](configure-workplace-move-mgmt.md)
 
 </td></tr><tr><td>
 
-[Manage Manage Workplace Move Management location records.](workplace-mov-mgmt-setup.md)
+[Manage![](../../../reuse/icons/brand-icons/bus-headset.svg) Manage Workplace Move Management location records.](workplace-mov-mgmt-setup.md)
 
 </td><td>
 
-[References Work with Workplace Move Management roles, properties, and components.](workplace-move-mgmt-references.md)
+[References![](../../../reuse/icons/brand-icons/bus-learn.svg) Work with Workplace Move Management roles, properties, and components.](workplace-move-mgmt-references.md)
 
 </td></tr><tr><td>
 
-[Analytics and Reporting Solutions Coordinate work and improve processes with dashboards and reports.](analytics-reporting-solution.md)
+[Analytics and Reporting Solutions![](../../../reuse/icons/brand-icons/bus-elevate.svg) Coordinate work and improve processes with dashboards and reports.](analytics-reporting-solution.md)
 
 </td><td>
 

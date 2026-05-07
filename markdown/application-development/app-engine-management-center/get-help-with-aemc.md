@@ -29,8 +29,4 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [ServiceNow Community](https://www.servicenow.com/community/app-governance/ct-p/app-governance)
 
--   **![](../../../reuse/icons/dcx-icons/dcx-icon-support.svg) Support**
-
-
-
 

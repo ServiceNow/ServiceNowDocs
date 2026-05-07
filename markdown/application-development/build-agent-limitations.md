@@ -1,24 +1,25 @@
 ---
 title: Build Agent limitations
-description: Plan deployments and troubleshoot issues by understanding Build Agent constraints that affect deployment capabilities and performance.
+description: Plan deployments and troubleshoot issues by learning about Build Agent constraints that affect deployment capabilities and performance.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-01"
+last_updated: "2026-04-30"
 reading_time_minutes: 2
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
 # Build Agent limitations
 
-Plan deployments and troubleshoot issues by understanding Build Agent constraints that affect deployment capabilities and performance.
+Plan deployments and troubleshoot issues by learning about Build Agent constraints that affect deployment capabilities and performance.
 
 ## General limitations of Build Agent
 
 Be aware of the following limitations when using Build Agent:
 
 -   AI-generated code requires human review for ACL correctness, security, platform conventions, and governance compliance. Put peer-review gates, static checks, and validation steps in place.
--   You still need to work with builders in ServiceNow Studio for app files and metadata types not yet supported in Build Agent, such as certain tables, UIs, or advanced features.
+-   You still must work with builders in ServiceNow Studio for app files and metadata types not yet supported in Build Agent, such as certain tables, UIs, or advanced features.
 
     **Note:** Build Agent can work on existing applications. You can use Build Agent to enhance base workflows, such as creating business rules on existing tables.
 
@@ -29,7 +30,7 @@ Build Agent can generate data models and business rules. You should understand w
 
 ## Build Agent and ServiceNow Fluent
 
-To understand the upper limit of what Build Agent can do, review the ServiceNow Fluent documentation. If you are not familiar with the ServiceNow AI Platform, the ServiceNow Fluent documentation can help you determine what Build Agent can do. For more information, see the following topics:
+To understand the upper limit of what Build Agent can do, review the ServiceNow Fluent documentation. If you're not familiar with the ServiceNow AI Platform, the ServiceNow Fluent documentation can help you determine what Build Agent can do. For more information, see the following topics:
 
 -   [ServiceNow Fluent API reference](../../servicenow-sdk/reference/servicenow-fluent-api-reference.md)
 -   [ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md)

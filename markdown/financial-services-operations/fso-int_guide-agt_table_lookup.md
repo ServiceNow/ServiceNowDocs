@@ -4,7 +4,7 @@ description: This use case illustrates how to use a REST API call to lookup fina
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
 breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
@@ -19,17 +19,13 @@ Using the consumer and financial account information, a script within the Servic
 
 **Note:** This use case assumes the bank application exposes the REST endpoint GET /api/getTransactions that returns the requested consumer details and their associated financial account.
 
-![Workflow that shows how to lookup financial transaction details on a remote banking system of record.](../image/fso-remote_look_sys_record.png)
-
 The following is an example of what the financial transaction details received from the remote bank application might look like when they appear on the FSO case form:
-
-![FSO case form that shows the transaction details received from the remote bank application.](../image/fso-remote_look_trans_detail.png)
 
 The following diagram shows the application flow for this use case scenario and provides brief remarks on any required processing. In this implementation, the data obtained from the remote bank application is store in remote tables. [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) are only cached in memory, they are never stored in the ServiceNow database tables. You can also implement this scenario by writing the remote data to the corresponding ServiceNow database tables. The [s](fso-int_guide-agt_submit_case.md) scenario illustrates how to store data in the ServiceNow database tables using the [GlideRecord](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API.
 
 <table id="table_rmq_ywq_bpb"><tbody><tr><td>
 
-![Workflow that shows a case, where the agent enters the required information and uses the REST API calls to lookup financial transaction details on a remote banking system.](../image/fso-remote_table_sys_record.png)
+ 
 
 </td><td>
 

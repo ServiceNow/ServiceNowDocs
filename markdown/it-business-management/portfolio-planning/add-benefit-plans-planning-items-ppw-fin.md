@@ -34,11 +34,11 @@ Add the monetary benefit plans and non-monetary benefit plans related lists for 
 
 6.  Change the record page view to **EAP Default**.
 
-    To change the view, select **Additional actions** menu \(![Three small black horizontal parallel lines.](../../agile-development/image/hamburger-icon.png)\), select **View**, and select the **EAP Default** view.
+    To change the view, select **Additional actions** menu \(![](../../agile-development/image/hamburger-icon.png)\), select **View**, and select the **EAP Default** view.
 
     ![Additional options menu to select the EAP Default view to enable benefit plans.](../../spw-financials/images/fin-select-eap-default-view.png)
 
-7.  Select **Additional actions** menu \(![Three small black horizontal parallel lines.](../../agile-development/image/hamburger-icon.png)\), select **Configure**, and select the **Related Lists** option.
+7.  Select **Additional actions** menu \(![](../../agile-development/image/hamburger-icon.png)\), select **Configure**, and select the **Related Lists** option.
 
     ![Additional options menu to configure related lists for your planning items.](../../spw-financials/images/fin-config-related-lists.png)
 

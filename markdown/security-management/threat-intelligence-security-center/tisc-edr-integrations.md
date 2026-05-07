@@ -20,7 +20,7 @@ EDR network solutions predicts and preempt the emerging threats and helps in enh
 By integrating with other security tools such as EDR, TISC enables proactive threat monitoring on endpoints and thereby enhances the overall security posture and resilience against evolving threats.
 
 -   **[CrowdStrike Falcon EDR integration](crowdstrike-edr-integration.md)**  
-Integration with CrowdStrike Falcon EDR enables continuous monitoring and real-time alerting based on intelligence from TISC.
+Configure CrowdStrike Falcon EDR integration to enable continuous endpoint monitoring and receive real-time security alerts based on Threat Intelligence data from TISC.
 -   **[Microsoft Defender for EDR integration](tisc-ms-defender-integration.md)**  
 Integration with the Microsoft Defender for EDR allows Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs to Microsoft Defender for continuous monitoring and real-time alerting.
 -   **[Firewall integration](tisc-security-tools.md)**  

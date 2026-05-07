@@ -15,7 +15,7 @@ View a purchase order exception task record to take action on your assigned task
 
 ## Before you begin
 
-Users who have been assigned the sn\_poem\_core.collaborator role do not have access to the Source-to-Pay Workspace.
+The Source-to-Pay Workspace is not accessible to users who have the sn\_poem\_core.collaborator role.
 
 Role required: sn\_poem\_core.collaborator
 
@@ -24,7 +24,7 @@ Role required: sn\_poem\_core.collaborator
 1.  Navigate to either of the following:
 
     -   **All** &gt; **Employee Center** &gt; **My active items** &gt; **Tasks**.
-    -   Review your work section in the home page.
+    -   The Review your work section on the home page.
 2.  Select a task.
 
 

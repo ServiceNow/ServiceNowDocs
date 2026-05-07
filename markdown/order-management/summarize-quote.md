@@ -33,15 +33,15 @@ Role required: sn\_sales\_common.sales\_agent
 
 4.  When you're finished summarizing a quote, you can save it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d116589e122">
+<table id="choicetable_z3p_sn2_3hc"><thead><tr><th align="left" id="d120598e122">
 
 Option
 
-</th><th align="left" id="d116589e125">
+</th><th align="left" id="d120598e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d116589e131">
+</th></tr></thead><tbody><tr><td id="d120598e131">
 
 **Save the summary information by adding it to the work notes**
 
@@ -52,7 +52,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d116589e158">
+</td></tr><tr><td id="d120598e158">
 
 **Expand or collapse the summary**
 
@@ -60,7 +60,7 @@ Procedure
 
 Select the expand card icon ![](../../now-assist-order-mgmt/image/icon-expand.png) or the collapse card icon ![](../../now-assist-order-mgmt/image/icon-collapse.png) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d116589e173">
+</td></tr><tr><td id="d120598e173">
 
 **Provide feedback for the summary**
 
@@ -68,7 +68,7 @@ Select the expand card icon ![](../../now-assist-order-mgmt/image/icon-expand.pn
 
 If you think that the summary was helpful, select the helpful icon ![](../../now-assist-order-mgmt/image/icon-helpful.png). If you think that the summary wasn’t helpful, select the not helpful icon ![](../../now-assist-order-mgmt/image/icon-not-helpful.png).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d116589e190">
+</td></tr><tr><td id="d120598e190">
 
 **Copy the quote summary**
 
@@ -76,7 +76,7 @@ If you think that the summary was helpful, select the helpful icon ![](../../now
 
 Select the copy to clipboard icon ![](../../now-assist-order-mgmt/image/icon-copy.png) to use the quote summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d116589e203">
+</td></tr><tr><td id="d120598e203">
 
 **View the information about the quote summary**
 

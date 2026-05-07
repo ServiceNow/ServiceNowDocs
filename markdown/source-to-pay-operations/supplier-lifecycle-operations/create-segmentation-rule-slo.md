@@ -29,8 +29,6 @@ Role required: sn\_kpi.admin or sn\_slm.manager or sn\_slm.admin
     -   Select the list icon \(![List icon.](../image/cases-list-icon.png)\), navigate to **Lists** &gt; **Performance management** &gt; **Segmentation rules**, and then select **New**.
 3.  On the form, fill in the fields.
 
-    ![Create new segmentation rule form](../image/create-seg-rule.png)
-
 <table><thead><tr><th>
 
 Field

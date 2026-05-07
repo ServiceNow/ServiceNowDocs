@@ -38,13 +38,13 @@ When a customer is transferred from the Virtual Assistant, the interaction recor
 
     3.  Join the chat by selecting **Accept**.
 
-        The Active Chat panel opens with the full conversation history between the AI agent and the customer, including the disputed invoice number and the issue described by the customer. The associated interaction record opens alongside.
+        The Active Chat panel opens with an AI-generated summary of the conversation between the AI agent and the customer, including the disputed invoice number and the issue described by the customer. The associated interaction record opens alongside.
 
     4.  Access the invoice case details by selecting the **Related Tasks** tab.
 
         The case number, priority, state, and short description details are displayed for the associated invoice case.
 
-3.  Open the Now Assist panel by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
+3.  Launch the Now Assist panel by selecting the Now Assist icon ![](../../../common/image/icon-ai-sparkle.png).
 
     The Now Assist panel is context-aware. When you launch it from an open interaction record or invoice case record, it tailors its responses to that record.
 
@@ -56,7 +56,7 @@ When a customer is transferred from the Virtual Assistant, the interaction recor
 
 5.  If the invoice case fetched by the AI agent is correct, select **Yes**.
 
-    Else, enter the invoice case you need help with.
+    Otherwise, enter the invoice case you need help with.
 
     The AI agent validates the invoice case and then provides you the options for resolving the case.
 

@@ -25,15 +25,15 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d131999e108">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d134481e108">
 
 Option
 
-</th><th align="left" id="d131999e111">
+</th><th align="left" id="d134481e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d131999e117">
+</th></tr></thead><tbody><tr><td id="d134481e117">
 
 **Select Use Now Assist**
 
@@ -41,7 +41,7 @@ Description
 
 See [Create an API connector with a generative AI skill](../../now-assist-vulnerability-response/task/select-api-template.md) for the steps for using Now Assist.
 
-</td></tr><tr><td id="d131999e139">
+</td></tr><tr><td id="d134481e139">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

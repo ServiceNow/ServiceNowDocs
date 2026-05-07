@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -89,6 +89,4 @@ In this example procedure, you're reviewing the intents in a model one at a time
 ## What to do next
 
 Repeat Steps 1 through 6 for the four remaining intents in the list. As each intent review completes and is marked with the Reviewed state, the running count in the intents reviewed box increases toward 5 of 5.
-
-**Parent Topic:**[Multilingual model management](../concept/multilingual-model-managent.md)
 

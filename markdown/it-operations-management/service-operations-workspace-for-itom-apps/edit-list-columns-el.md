@@ -46,7 +46,8 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
     |**Column sort**|Select the column header and then select the arrow. The arrow direction indicates the sort order. Each selection of the arrow changes the sort direction.|
 
 
-## Result
+## What to do next
 
-The layout is automatically saved in the User preference \[sys\_user\_preference\] table. When you reopen the list, the same columns and order are displayed.
+-   [Filter the Express List display by adding or removing fields](filter-express-list-fields.md)
+-   [Save a custom filter in Express List](filter-saving-deleting-default.md)
 

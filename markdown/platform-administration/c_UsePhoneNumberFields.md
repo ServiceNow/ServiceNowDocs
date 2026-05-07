@@ -22,5 +22,5 @@ An E.164 phone number field displays:
 -   \[By Default\] A red underline when a phone number does not match the format for the selected phone territory and cannot be saved.
 -   \[Optional\] A green underline when a phone number does not match the format for the selected phone territory but can be saved with **Other / Unknown** as the territory.
 
-![](../image/PhoneE164.png "Phone e164")
+![A Caller Phone Number field with a drop-down menu for phone number territory and an input box for entering the phone number.](../image/PhoneE164.png "Phone e164")
 

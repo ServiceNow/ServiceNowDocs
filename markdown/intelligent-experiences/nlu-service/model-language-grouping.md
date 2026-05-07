@@ -38,5 +38,3 @@ The **Group** function opens the page titled **Group what's in these models**. Y
 
 **Note:** The time it takes the system to group your models depends on the number and size of your models.
 
-**Parent Topic:**[Multilingual model management](../concept/multilingual-model-managent.md)
-

@@ -25,15 +25,15 @@ Role required: major\_incident\_manager
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
 
-<table id="choicetable_mzp_swn_gdb"><thead><tr><th align="left" id="d205945e78">
+<table id="choicetable_mzp_swn_gdb"><thead><tr><th align="left" id="d208182e78">
 
 Option
 
-</th><th align="left" id="d205945e81">
+</th><th align="left" id="d208182e81">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d205945e87">
+</th></tr></thead><tbody><tr><td id="d208182e87">
 
 **Promote an incident to a major incident manually**
 
@@ -46,7 +46,7 @@ On the context menu, click **Promote to Major Incident**. The incident directly 
 
 To get this behavior, you need to set the major incident management property **Create major incident from candidate – A new incident is created from a candidate as a major incident. The candidate is associated with the new incident as a child.** \(**sn\_major\_inc\_mgmt.com.snc.incident.mim.major\_incident\_creation**\) to **Promote candidate to a major incident**.
 
-</td></tr><tr><td id="d205945e125">
+</td></tr><tr><td id="d208182e125">
 
 **Create a major incident from application navigation**
 

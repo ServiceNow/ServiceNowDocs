@@ -31,8 +31,6 @@ Use the demo data of the Cost Management plugin to understand how to check all e
 
 3.  View the business service map by selecting the dependency views icon \(![Dependency views.](../image/dependency-views.png)\).
 
-    ![Retail business service map.](../image/CostDemoRetailBsm.jpg "Example business service map")
-
     This view shows that the dbaix901nyc server is a dependency of the Retail Adding Points, Retail POS, and Retail business services. So whenever the dbaix901nyc server incurs a cost, it would be represented at each of the business services.
 
     The dbaix901nyc server is a member of the Sun E20K Servers NY CI rate card, so the expenses can be verified from this CI rate card.
@@ -48,7 +46,7 @@ Use the demo data of the Cost Management plugin to understand how to check all e
     4.  Filter the related list for **short description contains dbaix901nyc**.
     The server's expenses are now visible:
 
-    ![Cost Demo Server Expense](../image/CostDemoServerexp.jpg "Example server expenses")
+    ![Cost Demo Server Expense](../image/CostDemoServerexp.png "Example server expenses")
 
     This example contains one direct expense \(**inherited = false**\), and three inherited expenses that have been generated from other direct expenses. These inherited expenses are based on CI relationships, which allow for reporting at any business service level.
 

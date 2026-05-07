@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Intent Discovery, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -54,9 +54,4 @@ For more information, see [Components installed with Intent Discovery](../refere
 
 4.  Select **Install**.
 
-
--   **[Components installed with Intent Discovery](../reference/installed-with-intent-discovery.md)**  
-Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
-
-**Parent Topic:**[Intent Discovery](../concept/intent-discovery.md)
 

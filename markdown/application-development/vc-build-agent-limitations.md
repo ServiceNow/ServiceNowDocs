@@ -18,7 +18,7 @@ Build Agent accelerates AI-assisted app development, but it also has some limita
 Be aware of the following limitations when using Build Agent:
 
 -   AI-generated code requires human review for ACL correctness, security, platform conventions, and governance compliance. Put peer-review gates, static checks, and validation steps in place.
--   You still need to work with builders in ServiceNow Studio for app files and metadata types not yet supported in Build Agent, such as certain tables, UIs, or advanced features.
+-   You still must work with builders in ServiceNow Studio for app files and metadata types not yet supported in Build Agent, such as certain tables, UIs, or advanced features.
 
     **Note:** Build Agent can work on existing applications. You can use Build Agent to enhance base workflows, such as creating business rules on existing tables.
 
@@ -29,7 +29,7 @@ Build Agent can generate data models and business rules. You should understand w
 
 ## Build Agent and ServiceNow Fluent
 
-To understand the upper limit of what Build Agent can do, review the ServiceNow Fluent documentation. If you are not familiar with the ServiceNow AI Platform, the ServiceNow Fluent documentation can help you determine what Build Agent can do. For more information, see the following topics:
+To understand the upper limit of what Build Agent can do, review the ServiceNow Fluent documentation. If you're not familiar with the ServiceNow AI Platform, the ServiceNow Fluent documentation can help you determine what Build Agent can do. For more information, see the following topics:
 
 -   [ServiceNow Fluent API reference](../../servicenow-sdk/reference/servicenow-fluent-api-reference.md)
 -   [ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md)

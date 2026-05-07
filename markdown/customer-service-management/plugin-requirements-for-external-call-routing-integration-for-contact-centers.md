@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Plugins for CCaaS, contact center plugins for nvc, contact center plugins for Interaction Controls Component \(ICC\)]
-breadcrumb: [Enable ICC for CCaaS calls and callbacks, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Phone channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Plugin requirements for voiceand callbackintegrations with contact centers

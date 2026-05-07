@@ -47,5 +47,3 @@ Exporting an NLU model creates a CSV file. The file contains a table of the utte
 
 You can use the CSV file to share the model or edit the utterances. You can also create a model by importing the CSV file. For more information, see [Create an NLU model from a CSV file](create-nlu-model-csv.md).
 
-**Parent Topic:**[Creating models](../concept/creating-models.md)
-

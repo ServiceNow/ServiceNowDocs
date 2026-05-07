@@ -17,7 +17,7 @@ View achievement credential templates in Achievements and Credentials.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_lep.achievement\_manager
 
 ## Procedure
 

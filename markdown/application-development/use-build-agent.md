@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 2
-keywords: [Use]
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -33,8 +33,12 @@ Build custom ServiceNow applications by describing your requirements in plain la
 Modify existing ServiceNow applications using natural language prompts with Build Agent.
 -   **[Creating or updating an app file with Build Agent](../concept/creating-or-updating-an-app-file.md)**  
 Use Build Agent to add new files or modify existing files in ServiceNow applications to assist with ongoing metadata and app development and maintenance.
+-   **[Create agentic workflows, agents, and skills](create-custom-ai-agent.md)**  
+Build custom agentic workflows, AI agents, and skills for your applications using automated generation tools with Build Agent. You can streamline development by creating the necessary instructions, tools, and access controls based on your requirements.
 -   **[Revert app changes with Build Agent](revert-app-changes-using-build-agent.md)**  
-Restore your development to a previous state when you need to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
+Restore your development to a previous state when you want to undo recent changes. Use checkpoints created during Build Agent conversations to revert both code and chat history.
+-   **[Testing what you built](../concept/build-agent-testing.md)**  
+Test Agent generates test coverage for code created by Build Agent, executes tests, and performs root cause analysis on failures. Prompt Test Agent to complete build-to-test workflows in a single development session without manual test authoring or failure investigation.
 -   **[Build Agent conversation change log](../concept/ba-conversational-change-log.md)**  
 After Build Agent completes the changes you request, you can find information about the updates in the change log that automatically appears in an integrated tab in ServiceNow Studio.
 -   **[Troubleshooting in Build Agent](../reference/build-agent-troubleshooting.md)**  

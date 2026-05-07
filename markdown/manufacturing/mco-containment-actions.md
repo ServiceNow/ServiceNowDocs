@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Related lists for Non-conformance, Create a product non-conformance case, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
+breadcrumb: [Product Non-conformance without playbook, Product non-conformance, Agent management, Use, Manufacturing Commercial Operations]
 ---
 
 # Create a containment action
@@ -29,10 +29,10 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
 4.  Select **Save**.
 
-    The [Create a CoPQ expense line](mco-copq-expense-line.md) and [Impacted asset action](mco-impacted-asset-action.md) forms are displayed.
+    The [Create a CoPQ expense line](mco-copq-expense-line.md), [Impacted asset action](mco-impacted-asset-action.md), and [Work order form](../reference/work-order-form.md) forms are displayed.
 
 
-**Parent Topic:**[Related lists for Non-conformance](mco-related-lists-product-non-conformance.md)
+**Parent Topic:**[Product Non-conformance without playbook](mco-related-lists-product-non-conformance.md)
 
 **Related topics**  
 

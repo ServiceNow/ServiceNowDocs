@@ -1,6 +1,6 @@
 ---
 title: AI Search
-description: The ServiceNow AI Search application provides a consumer-grade search engine for ServiceNow Service Portal, ServiceNow Now Mobile, and ServiceNow Virtual Agent . Intelligent query features help you quickly find the answers you need.
+description: The ServiceNow AI Search application provides a consumer-grade search engine for ServiceNow Service Portal, ServiceNow Now Mobile, and ServiceNow Virtual Agent. Intelligent query features help you quickly find the answers you need.
 locale: en-US
 release: australia
 product: AI Search

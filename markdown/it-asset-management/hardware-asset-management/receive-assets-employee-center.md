@@ -68,15 +68,15 @@ Select **My Assets** in the global header navigation bar of the Employee Center 
 
 2.  Acknowledge after you receive the asset.
 
-<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d92934e214">
+<table id="choicetable_rv3_cx5_jfc"><thead><tr><th align="left" id="d95241e214">
 
 Asset
 
-</th><th align="left" id="d92934e217">
+</th><th align="left" id="d95241e217">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d92934e223">
+</th></tr></thead><tbody><tr><td id="d95241e223">
 
 **Hardware**
 
@@ -96,7 +96,7 @@ Action
     -   Any receive task associated with that asset is automatically closed.
  **Note:** If the details of the asset that you received don't match the information shown in the Receive Asset dialog box, you can raise an issue by selecting the **Raise issue** option. For more details, see [Raise issue related to your asset on the Employee Center portal](report-asset-issue-attestation.md).
 
-</td></tr><tr><td id="d92934e336">
+</td></tr><tr><td id="d95241e336">
 
 **Consumables**
 

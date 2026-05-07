@@ -6,7 +6,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Carbon Black integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,7 +31,7 @@ Role required: sn\_si\_admin
 
 4.  In the Carbon Black card, click **New**.
 
-    ![Carbon Black Configuration](../../secops-integration-carbonblack-inc-enrichment/image/carbonblack-config.png)
+    ![Configure Carbon Black integration](../image/carbonblack-config.png)
 
 5.  Fill in the fields, as needed.
 
@@ -46,7 +46,7 @@ Role required: sn\_si\_admin
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The integration configuration card displays.
 

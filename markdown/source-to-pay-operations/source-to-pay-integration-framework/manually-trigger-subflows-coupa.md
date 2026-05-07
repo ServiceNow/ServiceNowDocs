@@ -27,7 +27,7 @@ Role required: sn\_fcms\_intg.integration\_user
 
 3.  In the Integration Services list, select the subflows that you want to trigger manually.
 
-    ![Manually trigger flows or subflows in Coupa](../image/manual-trigger-flow-coupa.png "Manually trigger flows or subflows in Coupa")
+    ![Manually trigger flows or subflows in Coupa](../../source-to-pay-operations/image/manual-trigger-flow-coupa.png "Manually trigger flows or subflows in Coupa")
 
 4.  Trigger the flow or subflow by selecting **Run job**.
 

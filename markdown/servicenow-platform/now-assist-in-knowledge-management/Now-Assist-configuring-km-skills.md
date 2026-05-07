@@ -21,7 +21,7 @@ Before configuring the KB generation skill, the following applications and their
 
 -   The latest Now Assist in Knowledge Management and Knowledge Capabilities in UI Builder store apps must be installed prior to the following configuration steps.
 
--   For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
     **Note:** You can access knowledge articles created with TinyMCE by enabling KB generation skill, see [Configuring the KB generation skill](Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, please activate the knowledge content recommendation skill, see [Edit an article using the Now Assist context menu](Now-Assist-generate-article-using-context-menu.md#).
 
@@ -30,13 +30,13 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
 2.  Select the application that you want to configure the KB generation skills for.
 
-3.  On the **Knowledge** feature card, select **View details**.
+3.  Select the Knowledge feature from the features drop-down.
 
-4.  In the Activate Skills section, select the more actions icon \(![More actions icon.](../../../administer/conversational-interfaces/image/more-options-icon.png)\), then select **Edit** to open the skill configuration window for KB generation.
+4.  Select **Activate skill** on the feature card.
 
 5.  Review the values in the Choose input window, then select **Save and Continue**.
 
@@ -59,7 +59,7 @@ Role required: admin
 
 8.  Select **Save and continue** to go to the next step.
 
-9.  Review your choices and select **Activate** to complete the configuration. ![Review your configuration choices to activate the KB generation skill.](../image/NAConfig_Review.png)
+9.  Review your choices and select **Activate** to complete the configuration.
 
 
 ## Result

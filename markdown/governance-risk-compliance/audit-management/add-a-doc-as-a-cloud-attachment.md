@@ -29,7 +29,7 @@ Beginning with the Washington DC release, cloud file integration is enabled on t
 
 1.  Navigate to **All** &gt; **Audit** &gt; **Audit Workspace**.
 
-2.  Select the tasks icon \(![Tasks icon](../../grc-workspace-audit/image/TasksIcon.jpg)\).
+2.  Select the tasks icon \(![Tasks icon](../image/new-task-icon.png)\).
 
     The list displays the engagements that are assigned to you.
 

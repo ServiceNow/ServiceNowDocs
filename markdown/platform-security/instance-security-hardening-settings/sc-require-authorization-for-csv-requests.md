@@ -15,8 +15,6 @@ breadcrumb: [API and web service, Hardening settings, Platform Security]
 
 Use the **glide.basicauth.required.csv** property to designate if incoming CSV \(Comma-Separated Values\) requests should require basic authentication.
 
-## More information
-
 If the **glide.basicauth.required.csv** system property isn't set to the recommended value of **true**, then Basic Authentication for CSV format export processor is disabled. This also happens when combined with a wrong role within the guest\_user related property \(Ex: high privileged role\). This will lead to unauthenticated access to instance data.
 
 Ensure the property **glide.basicauth.required.csv** exists in the System Properties \[sys\_properties\] table and is set to **true**.

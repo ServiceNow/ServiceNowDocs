@@ -1,6 +1,6 @@
 ---
 title: Obtaining Zero Copy Connector for ERP metrics and statistics
-description: Use the Zero Copy Connector for ERP home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
+description: Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,18 +9,18 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, metrics, statistic, kpi, dashboard, log]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtaining Zero Copy Connector for ERP metrics and statistics
 
-Use the Zero Copy Connector for ERP home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
+Use the Zero Copy Connector for ERP \(Enterprise Resource Planning\) home page dashboard to obtain statistics about transactions and information to help you troubleshoot.
 
 View statistics, metrics, and debug information for Zero Copy Connector for ERP on the dashboard. Open links to related Zero Copy Connector for ERP properties, logs, events, and editors.
 
 You must have the sn\_erp\_mining.erp\_admin or sn\_erp\_mining.erp\_user role to view the dashboard.
 
-To view the dashboard, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**..
+To view the dashboard, navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
 
 Select areas or items in the charts, graphs, and lists on the dashboard to view the underlying records. For example, select a section of a donut chart to see a list of the records for that section.
 

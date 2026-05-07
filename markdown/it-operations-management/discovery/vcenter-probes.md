@@ -25,8 +25,6 @@ vCenter probe parameters enable you to disable the probes for the objects you're
 
 **Important:** Before disabling a probe, be aware of any dependencies the probe might have. If the probe you disable triggers another probe, the dependent probe is also disabled, and cannot collect data.
 
-![Relationship of vCenter elements to probe parameters](../image/vCenterProbeParametersDiagram.png "Relationship of vCenter elements to probe parameters")
-
 These parameters are available for vCenter probes.
 
 **Note:** By default, these parameters are not set in the platform, except where noted.

@@ -7,8 +7,8 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Virtual Agent for Sourcing and Procurement Operations, Sourcing and Procurement Operations integration with Employee Center, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+reading_time_minutes: 2
+breadcrumb: [Virtual Agent Sourcing Procurement Operations, Sourcing Procurement Operations integration Employee, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Set up NLU for Sourcing and Procurement Operations Virtual Agent

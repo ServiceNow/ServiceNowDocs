@@ -127,11 +127,11 @@ Blocks
 
 </td><td>
 
-![TinyMCE v6 Blocks](../image/TinyMCEV6-blocks_icon.png)
+![TinyMCE Block style](../image/ParaStylesHTML.png)
 
 </td><td>
 
-Toggles the visibility of block level elements in the editable area. It’s similar to WYSIWYG hidden character functionality, but at block level.
+Applies the selected header or paragraph style to the current word or selected text.
 
 </td></tr><tr><td>
 

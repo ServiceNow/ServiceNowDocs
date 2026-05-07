@@ -27,11 +27,9 @@ This procedure describes options that are available with Field Encryption with t
 
 2.  Enter the module name and select the algorithm.
 
-    ![image.fe-create-crypto-module]
-
 3.  Select **Create**.
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     After submitting successfully, your cryptographic module is listed in the Field Encryption modules overview.
 
@@ -45,9 +43,9 @@ This procedure describes options that are available with Field Encryption with t
 
     A default cryptographic specification is created with the crypto purpose set to Symmetric Data Encryption/Decryption and the algorithm as AES 256 CBC. Select the algorithm for updates.
 
-5.  To open the configuration options, click the newly created cryptographic module.
+5.  To open the configuration options, select the newly created cryptographic module.
 
-    **Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. An error message displays and you are prevented from adding additional cryptographic modules. ![Error message for maximum modules created in FEE.](../../encryption/image/cle_limits-modules.png)
+    **Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. An error message displays and you're prevented from adding additional cryptographic modules. ![Error message for maximum modules created in FEE.](../../encryption/image/cle_limits-modules.png)
 
 
 ## Result
@@ -67,7 +65,7 @@ After submitting successfully, your cryptographic module is listed on the Field 
 
 To open the configuration options, click the newly created cryptographic module.
 
-**Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. A message displays at the top stating the allowance and the number of encrypted fields that you currently have is listed. Once that maximum allowance is met, the **Create new** button is grayed out and you are prevented from adding additional cryptographic modules. ![image.fe-efc-limit]
+**Note:** A maximum of five Field Encryption fields are allowed before upgrading to Field Encryption Enterprise. A message displays at the top stating the allowance and the number of encrypted fields that you currently have is listed. Once that maximum allowance is met, the **Create new** button is grayed out and you're prevented from adding additional cryptographic modules.
 
 [Create a cryptographic specification for Field Encryption](create-crypto-spec-pe.md).
 

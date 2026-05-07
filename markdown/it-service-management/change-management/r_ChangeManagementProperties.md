@@ -162,7 +162,7 @@ com.snc.change\_request.event.state\_updated.states
 
 </td><td>
 
-Enter the change request state field values, each separated by a comma to generate the **sn\_change.state.updated** event. This happens when any of the state value changes, for example, -5, -3, 0. You can leave the property empty to generate the **sn\_change.state.updated** event for all state changes. For more information on the state values, see [State model and transitions](../concept/c_ChangeStateModel.md).**Note:** For this property to take effect, property **com.snc.change\_request.event.state\_updated.enabled** must be set to true.
+Enter the change request state field values, each separated by a comma to generate the **sn\_change.state.updated** event. This happens when any of the state value changes, for example, -5, -3, 0. You can leave the property empty to generate the **sn\_change.state.updated** event for all state changes. For more information on the state values, see [Legacy: State model and transitions](../concept/c_ChangeStateModel.md).**Note:** For this property to take effect, property **com.snc.change\_request.event.state\_updated.enabled** must be set to true.
 
 </td></tr></tbody>
 </table>## Change Management properties for Discovery integration

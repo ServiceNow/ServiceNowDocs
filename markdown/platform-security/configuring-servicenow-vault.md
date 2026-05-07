@@ -27,10 +27,14 @@ Learn how to install and configure ServiceNow Vault.
 
     Install and verify the plug-ins needed to make the most of ServiceNow Vault.
 
+-   [Install Now Assist for Vault](../../now-assist-vault/task/configuring-now-assist-vault.md)
+
+    Install Now Assist for Vault to make use of generative and agentic AI capabilities within ServiceNow Vault.
+
 
 ## Using guided setup to implement ServiceNow Vault
 
 Guided setup provides a sequence of tasks that help you configure ServiceNow Vault on your ServiceNow instance. To open guided setup for ServiceNow Vault, navigate to **All** &gt; **Vault** &gt; **Vault console**.
 
-For more information, see [Guided Vault](guided-vault.md).
+For more information, see [Use guided setup for ServiceNow Vault](../task/use-vault-guided-setup.md).
 

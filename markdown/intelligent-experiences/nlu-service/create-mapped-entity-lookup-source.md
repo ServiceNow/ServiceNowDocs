@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -129,22 +129,8 @@ Values used to provide context for the model.
 
 You can create a mapped entity using a vocabulary source to use the values in the source as the mapped entity.
 
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
 **Related topics**  
 
-
-[Create a simple entity](create-nlu-entities.md)
-
-[Create a pattern entity](create-pattern-entity.md)
-
-[Create a system-derived entity](create-system-derived-entity.md)
-
-[Create an open-ended entity](create-open-ended-entity.md)
-
-[Import entities](import-common-entities-nlu.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
 
 [Create a table vocabulary source](create-table-lookup-source.md)
 

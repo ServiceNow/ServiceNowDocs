@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
 ---
 
@@ -54,7 +54,7 @@ Navigate in AI Agent Studio
  ![AI agents window showing the drop-down list used to create an AI voice agent.](../image/voice-agent-select-agent-type-voice.png)
 
 </td></tr></tbody>
-</table>2.  On the New AI Agent page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
+</table>2.  On the Define the specialty page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
 
     Select **Generate details** to generate a description and instructions with Now Assist. If you provide the description of what you want the agent to do, you can select **Generate** to write the name, description, AI agent role, and instructions fields for you. You can change those fields after the text has been generated or try again with new instructions.
 
@@ -208,18 +208,31 @@ Necessary steps to be followed by the AI agent while carrying out its role.
         -   **Any authenticated user**: A user who is logged in can access the AI agent.
         -   **Users with specific roles**: Users that are assigned specific roles can access the AI agent. Selecting this option enables you to select the roles in the Role drop-down list.
         -   **Public**: Anyone can access the AI agent, even without logging in.
-    2.  Define the user identity of the AI agents to determine what data it has access to.
+    2.  If you selected **Public**, select **Require caller identification** to have the AI voice agent identify the caller before the conversation begins.
+
+        When selected, the agent uses the caller identification methods configured in the Caller Identification section of the voice assistant to match the caller to a name. Identification does not authenticate the caller or grant additional access. The session continues with public user permissions.
+
+        **Note:** This option is available only for voice agents configured with **Public** access.
+
+    3.  Define the user identity of the AI agents to determine what data it has access to.
 
         The default selection is Dynamic user, in which the user passes their roles to the AI agent which allows the AI agent to run as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
 
-5.  Define the availability of your AI voice agent.
+5.  Select channels and activation status for your AI voice agent.
 
     1.  Select **Allow** to enable users to use phone calls to invoke the AI agent.
 
-    2.  In the Voice assistants field, select **Now Assist Voice Deployment** or if you configured a custom provider, select that.
+    2.  In the **Voice assistants** field, select **Now Assist Voice Deployment** or a custom provider.
+
+        Voice assistants are created in Assistant Designer. See [Create a voice assistant](https://www.servicenow.com/docs/access?context=configure-voice-assistants&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
 
     3.  Activate the AI agent by toggling the **Status**.
 
+    4.  Select **Test in assistant** to test your AI voice agent in the voice testing experience.
+
+        -   If one voice assistant is linked, the voice testing panel opens directly.
+        -   If multiple voice assistants are linked, select the voice assistant you want to use for testing.
+        -   If no voice assistants are linked, **Test in assistant** is disabled. Link a voice assistant first.
 6.  Select **Done** to save the configuration.
 
 

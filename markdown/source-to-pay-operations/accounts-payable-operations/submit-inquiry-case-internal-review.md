@@ -33,7 +33,7 @@ Role required: sn\_ap\_cm.agent or sn\_ap\_cm.admin
 
 5.  Select the down arrow icon \(![Down arrow icon](../image/down-arrow-icon.png)\) and then select **Request internal review**.
 
-    The application automatically creates a task in the New state and opens it. ![image.apo-request-internal-review]The application automatically creates a task in the New state and opens it.
+    The application automatically creates a task in the New state and opens it. ![Request internal review](../image/apo-request-internal-review.png).
 
 6.  In the **Assigned to** field, assign the task to the users who must complete the review.
 

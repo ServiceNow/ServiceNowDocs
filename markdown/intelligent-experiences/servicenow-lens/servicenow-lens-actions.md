@@ -1,13 +1,13 @@
 ---
 title: Define ServiceNow AI Lens behavior with Lens actions
-description: As a Lens admin, you can create Lens actions in ServiceNow AI Lens to customize Lens behavior by providing default instructions, configuring context, and more.Create a Lens action to define custom context, trigger options, and default instructions for the ServiceNow AI Lens execution.Enable customers to scan documents related to car accident on their desktop to auto-fill the Insurance Request form on the ServiceNow instance.Enable compliance analysts to digitize and review several vendor agreements. Instead of manually entering details, they can launch ServiceNow AI Lens directly from the desktop, scan agreements, and adjust extracted values in the preview window before saving.Enable service agents to create user records by extracting specific information from identity documents using ServiceNow AI Lens, directly from the ServiceNow instance.
+description: As a Lens admin, you can create Lens actions in ServiceNow AI Lens to customize Lens behavior by providing default instructions, configuring context, and more.Create a Lens action to define custom context, trigger options, and default instructions for the ServiceNow AI Lens execution.Enable customers to scan documents related to car accident on their desktop to auto-fill the Insurance Request form on the ServiceNow instance.Enable compliance analysts to digitize and review several vendor agreements. Instead of manually entering details, they can launch ServiceNow AI Lens directly from the desktop, scan agreements, and adjust extracted values in the preview window before saving.Enable service agents to create user records by extracting specific information from identity documents using ServiceNow AI Lens, directly from the ServiceNow instance.Use ServiceNow AI Lens to map the column headers of an Excel sheet that you specify with ServiceNow table columns and then insert the Excel sheet data into the table.
 locale: en-US
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 17
+reading_time_minutes: 22
 breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
 ---
 
@@ -23,14 +23,16 @@ Use Lens actions to define default instructions, trigger options, custom context
 -   Trigger flows, subflows, or actions after Lens execution
 -   Invoke AI agents
 -   Run ServiceNow AI Lens as a back-end service
+-   Auto-map the column headers of an Excel sheet with the columns of a ServiceNow table, and then insert the Excel sheet data into the ServiceNow table.
 
-Whenever ServiceNow AI Lens is launched from an instance, it checks if any active Lens action is available for the table. If available, it uses the logic defined in Lens action during execution. The Lens action can only be used by the users or groups that are assigned to the Lens Actions record.
+Whenever ServiceNow AI Lens is launched from an instance, it checks if any active Lens action is available for the table. If available, it uses the logic defined in Lens action during execution. The Lens action can only be used by the users or groups or roles that are assigned to the Lens Actions record.
 
 Refer to the following examples to understand the different use cases of setting up the Lens actions.
 
 -   [Example: Scan documents to auto-fill the Insurance Request form](servicenow-lens-actions.md#)
 -   [Example: Extract structured data from vendor agreements](servicenow-lens-actions.md#)
 -   [Example: Auto-fill user records on a user table](servicenow-lens-actions.md#)
+-   [Auto-map Excel sheet column headers with ServiceNow table columns](servicenow-lens-actions.md#)
 
 ## Customize ServiceNow AI Lens behavior by creating a Lens action
 
@@ -81,6 +83,18 @@ Desktop
 </td><td>
 
 Form
+
+</td></tr><tr><td>
+
+Auto-map the column headers of an Excel sheet with the columns of a specified table, and then insert the Excel sheet data into the table.To view the procedure to auto-map the column headers of an Excel sheet with the columns of a table, and insert Excel data into the table, see [Auto-map Excel sheet column headers with table columns.](servicenow-lens-actions.md#)
+
+</td><td>
+
+Desktop
+
+</td><td>
+
+Excel Mapping
 
 </td></tr><tr><td>
 
@@ -153,6 +167,12 @@ This option is available when you select **Desktop** or **Instance** from the Tr
 This option is available when you select **Instance** from the Trigger From list.
 
 -   **Others** - Lens action is used when ServiceNow AI Lens is triggered to display a preview of extracted data and perform post processing steps, if applicable.
+
+This option is available when you select **Desktop** from the Trigger From list.
+
+-   **Excel Mapping** -
+
+Option to specify that you can use this Lens action to attach an Excel sheet and let ServiceNow AI Lens auto-map its column headers with the columns of a table. After the auto-mapping is done, you can view and change the mapping, and insert the Excel sheet data to the table.
 
 This option is available when you select **Desktop** from the Trigger From list.
 
@@ -347,18 +367,19 @@ Post Processing Script
 Script that is run asynchronously after Lens execution to further process the Lens response, such as triggering a flow, subflow, actions, or AI Agent.This field appears only when the **Enable Post Processing** option is selected.
 
 ```
-function postProcessResponse(lensActionRecord, lensResponse, ) {
+function postProcessResponse(lensActionRecord, lensResponse, lensExecutionRecord) {
     
     //Add your code here
 
 }
-postProcessResponse(lensActionRecord, lensResponse, );
+postProcessResponse(lensActionRecord, lensResponse, lensExecutionRecord);
 ```
 
 Parameters accepted by the `postProcessResponse` method:
 
 -   **lensActionRecord** \(Input\) - GlideRecord of the Lens action that is executed.
 -   **lensResponse** \(Input\) - JSON object of the Lens response provided after Lens execution.
+-   **lensExecutionRecord** \(Input\) - GlideRecord of the Lens execution record.
 
 
 </td></tr><tr><td>
@@ -386,17 +407,31 @@ Attach Captured Images To Record
 Option to attach the captured images to the record that is auto-filled using ServiceNow AI Lens.This option is enabled by default.
 
 </td></tr></tbody>
-</table>7.  To assign users or groups to the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
+</table>7.  To assign users or groups or rolesto the Lens action, under the Assigned Users and Groups or Roles heading, select **New**, and then use any one of the following methods.
 
-<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d37594e868">
+<table id="choicetable_hnt_fq4_13c"><thead><tr><th align="left" id="d40474e951">
 
 Method
 
-</th><th align="left" id="d37594e871">
+</th><th align="left" id="d40474e954">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="assign-users-to-lens-action">
+</th></tr></thead><tbody><tr><td id="assign-roles-to-lens-action">
+
+**Assign one or more roles to the Lens action**
+
+</td><td>
+
+Select **Enable Roles** and perform the following steps.1.  Select the Unlock Roles \(![Roles Unlock icon.](../image/lens-lock-icon.png)\) icon.
+2.  Select the Look up icon \(![Lookup Roles icon.](../image/lens-magnify-icon.png)\) and then select a role.
+
+Repeat the step to add more roles.
+
+3.  Select the Lock Roles icon \(![Lock Roles icon.](../image/lens-lock-roles-icon.png)\).
+
+
+</td></tr><tr><td id="assign-users-to-lens-action">
 
 **Assign one or more users to the Lens action**
 
@@ -427,45 +462,57 @@ Repeat the step to add more groups.
 </td></tr></tbody>
 </table>    You can assign any one of the following combinations to the Lens action:
 
+    -   Assign roles to the Lens action.
     -   Assign yourself and one or more groups to the Lens action.
     -   Assign one or more users and groups to the Lens action
 8.  Select **Submit**.
 
-    The users or groups are assigned to the Lens action.
+    The users or groups, or roles are assigned to the Lens action.
 
-    ![Users, groups, or roles assigned to Lens action](../image/lens-action-form.png "Users, groups assigned to Lens action")
+    ![Users, groups, or roles assigned to Lens action](../image/lens-action-form.png "Users, groups, or roles assigned to Lens action")
 
 9.  Select **Update**.
 
-10. Update the assignment of users or groups to the Lens action.
+10. Update the assignment of users or groups or roles to the Lens action.
 
-<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d37594e1026">
+<table id="choicetable_ugv_m32_33c"><thead><tr><th align="left" id="d40474e1164">
 
 Assignment type
 
-</th><th align="left" id="d37594e1029">
+</th><th align="left" id="d40474e1167">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d37594e1035">
+</th></tr></thead><tbody><tr><td id="d40474e1173">
+
+**Roles**
+
+</td><td>
+
+1.  Under the heading **Assigned Users and Groups or Roles**, select the role.
+2.  To remove a role, select a role and then select \(![Remove role icon.](../image/lens-file-attch-remove.png)\)
+3.  Assign one or more new roles. For more information, see [servicenow-lens-actions.md\#assign-roles-to-lens-action](servicenow-lens-actions.md#assign-roles-to-lens-action)
+
+
+</td></tr><tr><td id="d40474e1207">
 
 **Users**
 
 </td><td>
 
 1.  Under the heading Assigned Users and Groups or Roles, select the user.
-2.  To remove a user, select a user and then select \(\)
+2.  To remove a user, select a user and then select \(![Remove role icon.](../image/lens-file-attch-remove.png)\)
 3.  Assign one or more new users. For more information, see [servicenow-lens-actions.md\#assign-users-to-lens-action](servicenow-lens-actions.md#assign-users-to-lens-action)
 
 
-</td></tr><tr><td id="d37594e1058">
+</td></tr><tr><td id="d40474e1236">
 
 **Groups**
 
 </td><td>
 
 1.  Under the heading Assigned Users and Groups or Roles, select the group.
-2.  To remove a group, select a group and then select \(\)
+2.  To remove a group, select a group and then select \(![Remove role icon.](../image/lens-file-attch-remove.png)\)
 3.  Assign one or more new groups. For more information, see [servicenow-lens-actions.md\#assign-groups-to-lens-action](servicenow-lens-actions.md#assign-groups-to-lens-action)
 
 
@@ -722,5 +769,115 @@ You can define in the Lens action that ServiceNow AI Lens must be triggered from
 13. Select **Update**.
 
 14. Select **Activate** for activating the Lens action.
+
+
+## Auto-map Excel sheet column headers with ServiceNow table columns
+
+Use ServiceNow AI Lens to map the column headers of an Excel sheet that you specify with ServiceNow® table columns and then insert the Excel sheet data into the table.
+
+### Before you begin
+
+Role required: lens\_user
+
+Ensure that the Lens action for this purpose is already defined. To view the steps to define a Lens action, see [Define a Lens action](servicenow-lens-actions.md#). Ensure that the values in the Lens action form are exactly as specified in the following table.
+
+|Field|Option you must select|
+|-----|----------------------|
+|Trigger From|Desktop|
+|Trigger For|Excel Mapping|
+|Table|Name of the table with which the Lens action will auto-map the Excel sheet column headers.|
+|Request context|Supported Fields|
+|Fields|Columns of the table|
+
+**Tip:** A preconfigured Lens action that is designed to auto-map Excel sheet column headers with table columns is available by default on your instance. The name of the Lens action is `Import Excel Sheet data to custom table`. To use the Lens action, create a copy of this Lens action, and customize to create your own Lens action for this purpose.
+
+### Procedure
+
+1.  From your system, launch the ServiceNow AI Lens desktop application.
+
+2.  On the login page, in the **Instance URL** field, enter the ServiceNow instance URL.
+
+    For example, `https://<instance name>.service-now.com`.
+
+3.  Select **Proceed**.
+
+4.  Log in to your ServiceNow account by entering your username and password.
+
+5.  On the onboarding journey widget, complete the onboarding and select **Got it**.
+
+    ![Onboarding journey widget with three pages to show you the highlights of the application.](../image/onboarding-widget-lens.png)
+
+    If you launch the ServiceNow AI Lens for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch ServiceNow AI Lens.
+
+6.  Select the Lens action that you have defined for Excel mapping.
+
+    ![Excel mapping Lens action selected.](../image/lens-sel-excel-map-action.png)
+
+    The **Proceed with Lens** button is disabled.
+
+    **Note:** The **Proceed with Lens** button is disabled because to auto-map Excel sheet column headers with the table columns, ServiceNow AI Lens requires you to only attach an Excel sheet.
+
+7.  Attach an Excel sheet by selecting **Upload** and then perform any one of the following file upload methods on the Upload file window.
+
+    ![Excel file upload window.](../image/lens-excel-mapping-file-upload-window.png "File upload window")
+
+<table id="choicetable_qnd_psb_13c"><thead><tr><th align="left" id="d40474e2351">
+
+File upload method
+
+</th><th align="left" id="d40474e2354">
+
+File upload procedure
+
+</th></tr></thead><tbody><tr><td id="d40474e2360">
+
+**Add file**
+
+</td><td>
+
+1.  Select **+Add file**,
+2.  Navigate to the location on your system and select the Excel sheet that you want to upload.
+
+**Note:**
+
+    -   You can upload only one Excel sheet.
+    -   **Tip:** To remove an Excel sheet that you attached, select the Remove file icon \(![Remove file](../image/lens-file-attch-remove.png)\).
+
+    -   The data only in the first worksheet of the Excel sheet will be analyzed.
+
+
+</td></tr><tr><td id="d40474e2407">
+
+**Drag and drop files**
+
+</td><td>
+
+1.  Navigate to the location on your system and select the Excel sheet that you want to upload.
+2.  Drag the selected Excel sheet to the Drag and drop section \(![Drag and drop section.](../image/lens-drag-and-drop.png)\), and release the pointer to drop them.
+
+**Note:**
+
+    -   You can drag and drop only one Excel sheet.
+    -   **Tip:** To remove an Excel sheet that you've attached, select the Remove file icon \(![Remove file](../image/lens-file-attch-remove.png)\).
+
+    -   The data only in the first worksheet of the Excel sheet will be analyzed.
+
+
+</td></tr></tbody>
+</table>8.  Select **Next**.
+
+9.  Select **Analyze**.
+
+    ![Analyze button.](../image/lens-excel-map-analyze.png)
+
+    ServiceNow AI Lens auto-maps the column headers of the attached Excel sheet and the table columns.
+
+    ![Lens Excel and table column mapping.](../image/lens-excel-table-mapping.png)
+
+    **Tip:** You can change the mapping by selecting one or more different table columns under the Imported as field heading.
+
+10. Select **Submit**.
+
+    The Excel sheet data is inserted into the table.
 
 

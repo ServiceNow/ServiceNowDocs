@@ -48,15 +48,15 @@ The internal play summarization skill checks the record to determine if there is
 
 3.  After you're finished summarizing the internal play, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d30440e147">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d35637e147">
 
 Option
 
-</th><th align="left" id="d30440e150">
+</th><th align="left" id="d35637e150">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d30440e156">
+</th></tr></thead><tbody><tr><td id="d35637e156">
 
 **View more or less summary details**
 
@@ -66,7 +66,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
 
 
-</td></tr><tr><td id="d30440e186">
+</td></tr><tr><td id="d35637e186">
 
 **Provide feedback for the summary**
 
@@ -76,7 +76,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d30440e219">
+</td></tr><tr><td id="d35637e219">
 
 **Copy the summary**
 
@@ -84,7 +84,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d30440e234">
+</td></tr><tr><td id="d35637e234">
 
 **View the information about the summary**
 

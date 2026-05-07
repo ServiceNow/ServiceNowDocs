@@ -22,21 +22,21 @@ Multi-instance setup uses the multi-instance framework, which helps the user to 
 
 Multi-instance setup synchronizes rules for the sub-prod instances from the prod instance.
 
-**Note:** Starting with the February 2026 release, ensure that both the prod and sub-prod instances are running the same AI Control Tower core version \(5.1.1\), which is the minimum supported version.
+**Note:** Starting with the May 2026 release, confirm that both the prod and sub-prod instances are running the same AI Control Tower core version \(6.2.4\), which is the minimum supported version.
 
-If there’s any upgrade to version 5.1.1 in a sub-prod, then it’s advisable to upgrade the prod instance to 5.1.1 to ensure Multi-instance framework functions correctly.
+If there’s any upgrade to version 6.2.4 in a sub-prod, then it’s advisable to upgrade the prod instance to 6.2.4 to confirm Multi-instance framework functions correctly.
 
 -   **AI inventory information**
 
     You can include the sub-prod instances that you want to synchronize with the prod instance. This synchronizes AI inventory information between the instances.
 
-    When configured, the scheduled job starts syncing AI systems, AI models, prompts, and datasets. From the September \(2025\) release, the job has been enhanced to include syncing AI agents as well.
+    When configured, the scheduled job starts synchronizing AI systems, AI models, prompts, and datasets. From the September \(2025\) release, the job has been enhanced to include synchronizing AI agents as well.
 
     **Note:** State of the assets while configuring Multi-instance management.
 
     The AI inventory in production reflects the true state of your assets like models, datasets, or skills from a production standpoint. Even if a model or dataset is active in a sub prod \(lower\) environment, it's still considered as under development from a prod perspective, since it's being tested and not yet live.
 
-    For this reason, you don’t synchronize asset states across environments. An asset’s state changes to **deployed** only when the asset and its related records are activated in the production system.
+    For this reason, you don’t synchronize asset states across environments. An asset’s state changes to deployed only when the asset and its related records are activated in the production system.
 
     In summary, the state represents the overall lifecycle of the asset, not its local status in a specific environment.
 

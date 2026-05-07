@@ -27,7 +27,7 @@ Role required: admin
 
 2.  Navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
-3.  Search for the CrowdStrike Falcon Insight for Security Operations integration tile, and click **Configure**.
+3.  Search for the CrowdStrike Falcon Insight for Security Operations integration tile, and select **Configure**.
 
 4.  On the form, fill in the fields to complete the configuration:
 
@@ -74,7 +74,7 @@ The client secret key that you obtain from the settings section of your account 
 </td></tr></tbody>
 </table>    ![CrowdStrike Falcon Insight configuration tile.](../image/falcon-insight-configuration-tile.png)
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 ## Result

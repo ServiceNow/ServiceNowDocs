@@ -1,6 +1,6 @@
 ---
 title: Edit input and output mapped value name in Zero Copy Connector for ERP
-description: Manually edit mapped value field names for input and output when managing models.
+description: Manually edit mapped value field names for input and output when managing models in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, input, output, value, map, name, edit, model]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Edit input and output mapped value name in Zero Copy Connector for ERP
 
-Manually edit mapped value field names for input and output when managing models.
+Manually edit mapped value field names for input and output when managing models in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 In ERP model manager, the mapped value name in inputs and outputs is system-generated automatically. Edit the value manually as needed. Specify a unique value. You can revert to the system-generated name at any time.
 
-Let's step through an example. In Zero Copy Connector for ERP, create a model. For more information, see [Create a new ERP model](erpc-add-new-data-model.md).
+Let's step through an example. In Zero Copy Connector for ERP, create a model. For more information, see [Create a model](erpc-add-new-data-model.md).
 
 ## Procedure
 

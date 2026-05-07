@@ -78,7 +78,7 @@ With Channel Support Operations for Manufacturing Commercial Operations, you can
 
 [Order management](https://www.servicenow.com/docs/access?context=explore-order-management&version=australia&pubname=australia-order-management&ft:locale=en-US)
 
-[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-bridge&ft:locale=en-US)
+[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
 
 [Components installed with additional plugins](../reference/mco-components-installed-with-other-product-workflows.md)
 

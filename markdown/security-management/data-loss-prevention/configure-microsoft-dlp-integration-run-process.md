@@ -68,7 +68,7 @@ The integration run contains the Source for which the integration profile and th
 
 [Create repeat offender identification rules](../../data-loss-prevention/task/repeat-offender-identification-rules.md)
 
-[Create Additional Incident Data Fields](../../data-loss-prevention/task/create-custom-fields-dlp.md)
+[Create additional incident data fields](../../data-loss-prevention/task/create-custom-fields-dlp.md)
 
 [DLP SLA Definition form](../../data-loss-prevention/reference/dlp-sla-def-properties.md)
 

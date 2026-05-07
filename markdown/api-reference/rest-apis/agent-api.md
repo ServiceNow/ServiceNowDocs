@@ -306,7 +306,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d3024e337">
+</td><td id="d3035e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -348,7 +348,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3024e405">
+</td><td id="d3035e405">
 
 Channel sys\_id. Data type: String
 
@@ -384,7 +384,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3024e467">
+</td><td id="d3035e467">
 
 Presence state sys\_id. Data type: String
 
@@ -496,7 +496,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1555,7 +1555,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3024e405">
+</td><td id="d3035e405">
 
 Channel sys\_id. Data type: String
 
@@ -1591,7 +1591,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3024e467">
+</td><td id="d3035e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1703,7 +1703,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see .Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't.Data type: Boolean
 
 </td></tr><tr><td>
 

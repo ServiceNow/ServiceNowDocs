@@ -1,5 +1,5 @@
 ---
-title: OT Manager Foundation
+title: Operational Technology \(OT\) Manager Foundation
 description: Use the Operational Technology \(OT\) Manager Foundation to help streamline processes in the Industrial Workspace related to your OT device data.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 3
 breadcrumb: [Operational Technology]
 ---
 
-# OT Manager Foundation
+# Operational Technology \(OT\) Manager Foundation
 
 Use the Operational Technology \(OT\) Manager Foundation to help streamline processes in the Industrial Workspace related to your OT device data.
 

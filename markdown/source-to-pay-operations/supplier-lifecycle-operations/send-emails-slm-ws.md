@@ -19,7 +19,7 @@ Compose and send emails directly from a supplier case or a supplier task in the 
 
 Ensure that you have configured access to the compose email feature. For more information, see [Configure access to the compose email feature](config-access-compose-email.md).
 
-Role required: admin
+Role required: sn\_slm.admin
 
 ## Procedure
 

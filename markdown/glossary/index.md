@@ -8,784 +8,784 @@ doc_type: toc
 
 # NOW Platform Glossary
 
-- [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Access Control List (ACL)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Access Control rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Accordion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Accounts Payable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action item parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action (mobile)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Action name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action parameter mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action.setRedirectURL()](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [action.setReturnURL()](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Activity Stream Compose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Activity Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [agent-intiated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [agentic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [agentic system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AI compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AI governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AI steward](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [AMB channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ancillary software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [API (Application Programming Interface)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [app shell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [applet launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [applet parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Application Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Application Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [assert type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [asynchronous chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Asynchronous Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Attachment Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [audit trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [auto responder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Automated Test Framework (ATF)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [automated workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [automation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Advanced work assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [B](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [BAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [base class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [board view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [bot process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [bot response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [branch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [breakdown mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [breakpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [breakpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [built on ServiceNow solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [built with ServiceNow offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [candidate case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [candidate score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [case routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [case synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Catalog Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [centralized database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [child case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [child case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [child case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [class (script)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [class (table)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [clause management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [clause mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [client state parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [client test runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Contract Lifecycle Management (CLM)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Cloud Contact Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [coalesce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [collaboration descriptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [collision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component playground](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [component (UI Builder)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [conditional breakpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Configurable Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [configuration item (CI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [conflict](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [connection attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [connection & credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Console Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [content item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Contextual sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [conversational integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [core action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Craft.io integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [cross-origin resource sharing rules (CORS)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [cross-scope privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [current update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [custom application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [custom fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [customer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [customer satisfaction (CSAT)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [customizable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data broker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data capture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data collector, data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data item parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data lookup definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data pill picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data resource instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [data stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Data Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [declarative action event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Desktop In Desktop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [developer pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [diagram view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [digital transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [document class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [E](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ECC (External Communication Channel) Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EDI (Electronic Data Interchange)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Embedded Help qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [embedded list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [entity view action mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ERP application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ERP module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Enterprise resource planning systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ERP table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EVAM Datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EVAM View Config Action Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EVAM View Config Bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EVAM View Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EVAM View Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event (UI Builder)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Exception management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [execution logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [export definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [export set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [export target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [extend a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [extension instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [external user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [extraction table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [F](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field status indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [filter navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [form record presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [form template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [G](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Git integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [glide list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Glide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [GlideForm (g_form)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [GlideRecord class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [GlideScriptable class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [global UI script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [GraphQL services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [guardrail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Guided Application Creator (GAC)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [H](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [handled event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [HashCode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [hello world](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [hermes kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [High density robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [import set web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [inbound staging tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [indicator score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [indicator (KPI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [innovation lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [install base characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [install base management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [installed products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [intellectual property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [interactive features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [interactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Internal User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Invoice ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Invoice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [item parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [J](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Java keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [JavaScript Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [JavaScript Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [JavaScript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [JS include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [JSON Web Token (JWT)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [K](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [keyword](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Knowledge Base - CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [L](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [large language model (LLM)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal counsel center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal matter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal practice apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal request management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [legal service delivery (LSD)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Lens structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [list control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [litigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [logpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [macroponent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [manual breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [manual indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [many to many definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [mapped value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [merge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Microsoft Word Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [MID (Management, Instrumentation, and Discovery) Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [middleware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [moderator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [MSP ready](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [native translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [sourcing event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [negotiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [News Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Natural Language Understanding for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [non-self-served request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [notify customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [now code editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Experience CLI (CLI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now Experience UI Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Now LLM Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [now mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [O](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [obligation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [obligation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Optical Character Recognition (OCR)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [odata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [OEM solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [offensive content detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [omnichannel experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [omni-channel support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [operations account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [outbound staging tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [outsourced service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [own-paper request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [package version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [parent case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [parent case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [parent case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [beta apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [performance analytics for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [personal developer instance (PDI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [playbooks for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [plug and play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [popover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [port](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Predicate Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [preview script usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [proactive case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [process job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [process parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [process plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Procurement Buyer Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Procurement Team Performance Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Procurement Strategy & Ops Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [procurement task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [product offer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [prompt injection detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [publish (application)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [pull request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [Q](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Q&A genius result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Qualitative target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Quantitative target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [quick start test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Receipt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Record List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [record watch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [reference-based question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [reference key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [related case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [related case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [related links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [reporting and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [repository configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [requestor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [resource generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [restricted caller access (RCA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Retrieval Augmented Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Rhino](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [RICE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Risk assessments integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Roadmap milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [robot file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [RPA plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [RPA plugins app (RPA plugin bundle)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Source-to-Pay (S2P)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [SAP ECC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scheduled data export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scheduled data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scheduled email of report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scheduled script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [screen UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [script action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [script tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [scripted web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Scripts - Background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [server script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [service level agreement (SLA) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [service level agreement (SLA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [service operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Service Portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ServiceNow AI Platform[var.now-plat]](now-platform-glossary.md)
-    - [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [session log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Settings tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Share](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [shared parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Shopping Hub catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [stash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [step configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [step result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [step variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier document management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Supplier Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier offboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Supplier Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [supplier task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [synchronous integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [sys_id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [system of record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [system property category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [3CLogic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [table column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [table row](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [table transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [test result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [TMF 621 rest API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [tolerance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [topic flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [topic properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [tracked customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [transaction quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [trouble ticket notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [U](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI Action Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI Builder (UIB)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [UI script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [unstructured document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [update set batch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [update set picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [update source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [validation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [version number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [virtual agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [virtual agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-  - [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [wet signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [Work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workflow context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workflow schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workflow studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workflow version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
-    - [WSGF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md)
+- [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [A](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Access Control List (ACL)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Access Control rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Accordion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Accounts Payable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Action Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action item parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action (mobile)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Action name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action parameter mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action.setRedirectURL()](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [action.setReturnURL()](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Activity Stream Compose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Activity Stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Agent chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [agent-intiated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [agentic conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [agentic system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AI compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AI governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AI steward](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [AMB channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ancillary software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [API (Application Programming Interface)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [app shell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [applet launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [applet parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Application Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Application menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Application Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Service instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Approval workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [assert type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [assignment workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [asynchronous chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Asynchronous Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Attachment Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Attended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [audit trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [auto responder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [automated breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Automated Test Framework (ATF)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [automated workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [automation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Advanced work assignment for Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Advanced Work Assignment for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [B](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [BAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [base class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [board view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [bot process configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [bot process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [bot response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [branch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [breakdown mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [breakdown source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [breakpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [breakpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [built on ServiceNow solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [built with ServiceNow offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [C](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [candidate case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [candidate score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [case routing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [case synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [case task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [catalog client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Catalog Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [catalog UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [centralized database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [child case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [child case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [child case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [class (script)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [class (table)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [clause management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [clause mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [client script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [client state parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [client test runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Contract Lifecycle Management (CLM)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Cloud Contact Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [coalesce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [collaboration descriptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [collision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [commit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component playground](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [component (UI Builder)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [conditional breakpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [confidence score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Configurable Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [configuration item (CI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [conflict](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [connection attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [connection & credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Console Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [content item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Contextual sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [contributing indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [conversational integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [core action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Craft.io integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [cross-origin resource sharing rules (CORS)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [cross-scope privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [current update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [custom application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [custom fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [customer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [customer satisfaction (CSAT)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [customizable record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [D](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data broker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data capture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data collector, data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data item parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data lookup definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data lookup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data pill picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data resource instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [data stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Data Synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Decision Tree Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [declarative action event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Desktop In Desktop](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Destination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [developer pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [diagram view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dictionary override](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [digital transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [document class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [document task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [domain hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dot-walking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dynamic behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [dynamic translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [E](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ECC (External Communication Channel) Queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EDI (Electronic Data Interchange)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [full email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [mini email composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Embedded Help qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Embedded Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [embedded list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [entity view action mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ERP application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ERP model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ERP module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Enterprise resource planning systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ERP table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EVAM Datasource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EVAM View Config Action Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EVAM View Config Bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EVAM View Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EVAM View Template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [EVAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event handler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event (UI Builder)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Exception management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [execution logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [execution plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [export definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [export set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [export target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [extend a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [extension instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [external storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [external user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [extraction table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [F](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field status indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field watcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [filter navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [form header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [form record presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [form template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [G](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Git integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [glide list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Glide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [GlideForm (g_form)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [GlideRecord class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [GlideScriptable class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [global UI script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [GraphQL services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [guardrail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Guided Application Creator (GAC)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Guided Tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [H](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [handled event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [HashCode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [hello world](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [hermes kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [High density robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [I](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [import set web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [import set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [inbound email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [inbound staging tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [indicator score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [indicator source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [indicator (KPI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [innovation lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [install base characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [install base management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [installed products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [intellectual property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [interactive features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [interactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Internal User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Invoice exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Invoice ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Invoice processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [item parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [J](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Java keystore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Java](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [JavaScript Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [JavaScript Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [JavaScript](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [JS include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [JSON Web Token (JWT)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [K](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [keyword](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Knowledge Base - CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [L](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [large language model (LLM)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal counsel center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal digital forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal matter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal practice apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal request management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [legal service delivery (LSD)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Lens structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [list control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [litigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [logpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [M](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [macroponent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [major case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [manual breakdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [manual indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [many to many definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [mapped value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [matching rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [merge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Microsoft Word Add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [MID (Management, Instrumentation, and Discovery) Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [middleware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [moderator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [MSP ready](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [multi-turn catalog ordering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [N](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [native translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [navigation bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [sourcing event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [negotiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [News Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Natural Language Understanding for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [node](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [non-self-served request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [notify customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [now code editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Experience CLI (CLI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now Experience UI Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Now LLM Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [now mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [O](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [obligation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [obligation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Optical Character Recognition (OCR)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [odata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [OEM solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [offensive content detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [omnichannel experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [omni-channel support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [open message bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [operation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [operations account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [outbound staging tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [outsourced service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [own-paper request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [P](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [package version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [page collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [parent case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [parent case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [parent case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [beta apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [performance analytics for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [personal developer instance (PDI)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [playbooks for SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [plug and play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [popover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [port](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Portal Browse Taxonomy widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Portal Catalog Quick Links widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Portal FAQ widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [post case review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Predicate Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [preview script usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [proactive case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [process job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [process parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [process plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Procurement Buyer Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [procurement case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Procurement Team Performance Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Procurement Strategy & Ops Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [procurement task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Product idea](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [product offer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [prompt injection detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [publish (application)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [pull request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [purchase order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [purchase requisition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [Q](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Q&A genius result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Qualitative target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Quantitative target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [quick start test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [R](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [RPA bot generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Receipt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Record List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [record watch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [reference-based question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [reference key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [related case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [related case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [related links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [remote table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [repeater](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [reporting and dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [repository configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [requester](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [requestor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [resource generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [restricted caller access (RCA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Retrieval Augmented Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Return](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Rhino](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ribbon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [RICE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Risk assessments integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Roadmap milestones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [robot file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [RPA Desktop Design Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [RPA plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [RPA plugins app (RPA plugin bundle)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [S](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Source-to-Pay (S2P)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [SAP ECC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scheduled data export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scheduled data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scheduled email of report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scheduled script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Supplier Collaboration Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [screen UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [script action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [script tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [scripted web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Scripts - Background](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [self-service portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [server script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Service Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [service level agreement (SLA) definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [service level agreement (SLA)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [service operations workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Service Portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow AI Platform glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow AI Platform[var.now-plat]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [session log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Settings tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Shopping Hub Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Share](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [shared parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Shopping Hub catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Shopping Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [slushbucket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [snapshot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [SOAP message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [source control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Sourcing and Purchasing Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [sourcing request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [stash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [step configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [step result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [step variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [strategic priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [style sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier document configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier document management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Supplier Relationship and Performance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Supplier Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier offboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Supplier Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [supplier task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [synchronous integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [sys_id](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [system of record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [system property category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [T](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [3CLogic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [table column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [table row](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [table transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [target table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [test result](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [test step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [test suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [third-party application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [TMF 621 rest API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [tolerance rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [topic flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [topic properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [tracked customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [transaction quota](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [trouble ticket notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [U](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI Action Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI Builder (UIB)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI formatter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [UI script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Unattended Robot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [unstructured document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [update set batch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [update set picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [update source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [V](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [validation script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [variable set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [version number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [virtual agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [virtual agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+  - [W](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [webhook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [wet signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget option schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [Work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [work plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workflow context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workflow schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workflow studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workflow version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.
+    - [WSGF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/glossary/now-platform-glossary.md) -- Learn about the terms and concepts related to the ServiceNow AI Platform.

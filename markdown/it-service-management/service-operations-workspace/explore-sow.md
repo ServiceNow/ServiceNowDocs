@@ -72,14 +72,14 @@ User who implements and sets up Service Operations Workspace for ITSM.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Tailored landing page for tier 1 and tier 2 agents. It provides an overview of outages, service announcements, and assignments to efficiently prioritize the work. Tier 1 agents can view and manage their performance and learning tasks assigned by their manager. |[Service Operations Workspace for ITSM for ITSM landing page](sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
+|Tailored landing page for tier 1 and tier 2 agents. It provides an overview of outages, service announcements, and assignments to efficiently prioritize the work. Tier 1 agents can view and manage their performance and learning tasks assigned by their manager. |[Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
 |Agents can manage incidents effectively with contextual information and targeted actions. Streamline investigations and accelerate incident resolution with the metrics data collected from Agent Client Collector \(ACC\).|[Incident Management in Service Operations Workspace](incident-sow.md)|Tier 1 and Tier 2 agents|
 |Agents can use information from similar incidents and knowledge articles to accelerate incident resolution.|[Recommended Actions for ITSM in Service Operations Workspace](recommended-actions-for-itsm-in-service-operations-workspace.md)|Tier 1 and Tier 2 agents|
 |Agents can reach out to experts on-call for high-priority tasks. |[On-Call Scheduling in Service Operations Workspace](on-call-scheduling-in-sow.md)|Tier 1 and Tier 2 agents|
 |Agents can collaborate with the requester and peers from the task using Microsoft Teams chat. |[ServiceNow integrations with Microsoft Teams in Service Operations Workspace](msteams-sow.md)|Tier 1 and Tier 2 agents|
 | Agents can create requests from incidents and interactions. Agents can also manage the entire life cycle of requests. |[Request Management in Service Operations Workspace](request-sow.md)|Tier 1 and Tier 2 agents|
 |Agents and administrators can review and manage walk-up interactions, appointments, stockrooms, and kiosks at the walk-up service location.  |[Walk-up Experience management in Service Operations Workspace](walkup-sow.md)|Tier 1 and Tier 2 agents|
-|All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM for ITSM landing page](sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
+|All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
 |Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|Administrator|
 |Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://www.servicenow.com/docs/access?context=service-operations&version=australia&pubname=australia-better-together&ft:locale=en-US)|Tier 1 agent, Tier 2 agent, and IT operator|
 
@@ -122,7 +122,7 @@ To learn more about configuring and using Service Operations Workspace for ITSM,
 Experience a unified and seamless experience when managing the life cycle of task records such as incidents and requests.
 -   **[Service Operations Workspace for ITSM user interface](service-operations-workspace-ui.md)**  
 You can navigate through the Service Operations Workspace to get an overview of how an agent can prioritize tasks and provide resolution.
--   **[Service Operations Workspace for ITSM for ITSM landing page](sow-ui-landing-page.md)**  
+-   **[Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md)**  
 An agent can get quick visibility into the work assigned, view announcements, and view upcoming tasks.
 -   **[Exploring Recommended Actions for ITSM in Service Operations Workspace](exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)**  
 Recommended Actions for ITSM lets you set up and apply real-time actionable recommendations for speeding up the triaging process. You can resolve issues quickly across various records in the Service Operations Workspace, including Incident, Incident task, Problem, Problem task, Change request, Change task, Interaction, and Request.

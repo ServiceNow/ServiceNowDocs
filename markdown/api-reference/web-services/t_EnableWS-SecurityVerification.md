@@ -25,8 +25,6 @@ Role required: web\_service\_admin or admin
 
 2.  For **Require WS-Security header verification for all incoming SOAP requests**, select **Yes**.
 
-    ![Require WS-Security header verification](../image/RequireWS-Security.png)
-
     **Note:** Selecting this option enables WS-Security for all inbound SOAP requests. It is not possible to enable WS-Security for only some requests.
 
 3.  Click **Save**.

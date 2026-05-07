@@ -34,7 +34,7 @@ Role required:
 
 1.  Navigate to **All** &gt; **CAM Workspace**.
 
-2.  To navigate to the Lists page, select the lists icon \(![Lists icon](../../grc-workspace-vrm/image/ws-list-icon.png)\).
+2.  To navigate to the Lists page, select the ![List icon](../image/ws-list-icon.png) icon.
 
 3.  From the Authorization packages in the RMF list, select an authorization package record.
 

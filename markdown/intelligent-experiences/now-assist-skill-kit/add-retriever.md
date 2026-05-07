@@ -29,9 +29,9 @@ A retriever enables the chatbot to access external knowledge by fetching relevan
 
 1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
 
-2.  Create a new skill or select the skill that you want to add a retriever to.
+2.  Create a skill or select the skill that you want to add a retriever to.
 
-3.  Select the **Tool editor** tab.
+3.  Select the **2. Add tools** tab.
 
 4.  Select \(+\) icon to add a node.
 

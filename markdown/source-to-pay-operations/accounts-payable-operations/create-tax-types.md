@@ -23,7 +23,7 @@ Role required: Tax manager
 
 1.  Navigate to **All** &gt; **Finance Common** &gt; **Tax types**.
 
-    ![image.apo-create-tax-type]
+    ![Navigate to Finance Common and Tax Types](../image/apo-create-tax-type.png)
 
 2.  Select **New** on the tax type page.
 

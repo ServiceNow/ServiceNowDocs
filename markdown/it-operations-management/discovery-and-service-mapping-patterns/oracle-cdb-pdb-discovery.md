@@ -1,6 +1,6 @@
 ---
-title: Oracle Database 12c discovery
-description: The ServiceNow Discovery application can discover pluggable databases \(PDBs\) and container databases \(CDBs\), which are features of Oracle Database 12c. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+title: Oracle pluggable database and container database discovery
+description: The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 release: australia
 product: Discovery and Service Mapping Patterns
@@ -11,9 +11,9 @@ reading_time_minutes: 2
 breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# Oracle Database 12c discovery
+# Oracle pluggable database and container database discovery
 
-The ServiceNow Discovery application can discover pluggable databases \(PDBs\) and container databases \(CDBs\), which are features of Oracle Database 12c. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery application can discover Oracle pluggable databases \(PDBs\) and container databases \(CDBs\). Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 A PDB is a portable collection of schemas, schema objects, and non-schema objects that appear to an Oracle Net client as a separate database. A collection of PDBs is called a container database \(CDB\).
 
@@ -68,4 +68,11 @@ The following is a dependency view of the relationship between PDBs, CDBs, and c
 ![Dependency view of relationship between PDBs, CDBs, and containers](../image/oracle-pdb-cdb.png)
 
 **Parent Topic:**[Available on-premise discovery patterns](../concept/available-patterns.md)
+
+**Related topics**  
+
+
+[Oracle Catalog discovery](oracle-catalog-discovery.md)
+
+[Oracle Global License Advisory Services \(GLAS\) data collection using patterns](oracle-glas-discovery.md)
 

@@ -31,7 +31,7 @@ The **Restrict access** option is available only to the primary supplier contact
 
 2.  In the Contacts widget, select a contact to open the contact's profile page.
 
-3.  Select **Restrict access**.![Selected button for restricting access.](../image/restrict-access-supplier-collaboration-portal.png)
+3.  Select **Restrict access**.
 
     The Restrict access dialog box is displayed.
 

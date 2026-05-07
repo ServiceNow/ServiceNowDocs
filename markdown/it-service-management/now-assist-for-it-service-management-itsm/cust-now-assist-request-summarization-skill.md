@@ -29,6 +29,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 -   Catalog task summarization
 -   Request activity response generation
 -   Requested item activity response generation
+-   Catalog task activity response generation
 
 The following procedure contains examples that are specific to the request summarization skill. The steps are broadly applicable to other Request Management skills.
 

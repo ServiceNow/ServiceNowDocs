@@ -29,15 +29,15 @@ An attended automation form is a container for all the elements that make up the
 
 2.  Choose an option and complete the action.
 
-<table id="choicetable_ehw_rzz_vrb"><thead><tr><th align="left" id="d457445e94">
+<table id="choicetable_ehw_rzz_vrb"><thead><tr><th align="left" id="d285378e94">
 
 Option
 
-</th><th align="left" id="d457445e97">
+</th><th align="left" id="d285378e97">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d457445e103">
+</th></tr></thead><tbody><tr><td id="d285378e103">
 
 **To create a new form**
 
@@ -45,7 +45,7 @@ Action
 
 Right-click **Forms** in the Project Explorer pane and select **New Form**.
 
-</td></tr><tr><td id="d457445e118">
+</td></tr><tr><td id="d285378e118">
 
 **To access the Form Designer**
 
@@ -66,15 +66,15 @@ Right-click a form in the Project Explorer pane and select **Design**.For more i
 
 5.  Choose an option and complete the action.
 
-<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d457445e199">
+<table id="choicetable_zm4_lwz_vrb"><thead><tr><th align="left" id="d285378e199">
 
 Option
 
-</th><th align="left" id="d457445e202">
+</th><th align="left" id="d285378e202">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d457445e208">
+</th></tr></thead><tbody><tr><td id="d285378e208">
 
 **To edit the properties of an element**
 
@@ -84,7 +84,7 @@ Select the desired element in the Outline pane or on the Design surface and edit
 
  ![Enter a name in the Text field in the Properties pane.](../image/form-designer-text-name-change.png "Enter a name in the Text field in the Properties pane")
 
-</td></tr><tr><td id="d457445e236">
+</td></tr><tr><td id="d285378e236">
 
 **To edit the properties of a window**
 
@@ -94,7 +94,7 @@ Select the window in the Outline pane and edit the required properties in the Pr
 
  ![Resize the window in the ResizeMode field in the Properties pane.](../image/form-designer-window-properties.png "Resize the window in the ResizeMode field in the Properties pane")
 
-</td></tr><tr><td id="d457445e264">
+</td></tr><tr><td id="d285378e264">
 
 **To arrange the elements**
 
@@ -102,7 +102,7 @@ Select the window in the Outline pane and edit the required properties in the Pr
 
 Move them as required in the Outline pane.
 
-</td></tr><tr><td id="d457445e273">
+</td></tr><tr><td id="d285378e273">
 
 **To view the added elements under the desired form**
 
@@ -113,7 +113,7 @@ Perform the following actions:1.  In the Project Explorer pane, close the form i
 
 ![Elements appear under the form.](../image/elements-form-appear.png "Elements appear under the form")
 
-</td></tr><tr><td id="d457445e304">
+</td></tr><tr><td id="d285378e304">
 
 **To delete an element on the Design surface**
 
@@ -121,7 +121,7 @@ Perform the following actions:1.  In the Project Explorer pane, close the form i
 
 In the Outline pane, right-click the element to be deleted and select **Delete**.
 
-</td></tr><tr><td id="d457445e316">
+</td></tr><tr><td id="d285378e316">
 
 **To view the methods and events for a form**
 
@@ -129,7 +129,7 @@ In the Outline pane, right-click the element to be deleted and select **Delete**
 
 Double-click the created form in the Project Explorer pane.The methods and events are displayed in the Object Explorer pane. For more information, see [Methods and events of an attended automation form](../reference/form-methods-events.md).
 
-</td></tr><tr><td id="d457445e338">
+</td></tr><tr><td id="d285378e338">
 
 **To view the methods and events for an element**
 
@@ -137,7 +137,7 @@ Double-click the created form in the Project Explorer pane.The methods and event
 
 Double-click the element in the Toolbox pane of the Form Designer.The methods and events are displayed in the Object Explorer pane. For more information, see [Methods and events of elements](../reference/form-control-methods-events.md).
 
-</td></tr><tr><td id="d457445e357">
+</td></tr><tr><td id="d285378e357">
 
 **To delete a form**
 
@@ -151,7 +151,7 @@ Use the **Find All References** option to do this step.
 3.  In the Confirmation dialog box, select **Yes**.
 
 
-</td></tr><tr><td id="d457445e389">
+</td></tr><tr><td id="d285378e389">
 
 **To find all the references of an element that are used in other activities**
 
@@ -159,7 +159,7 @@ Use the **Find All References** option to do this step.
 
 Right-click the desired form in the Project Explorer pane and select **Find All References**.Results are displayed in the Find All References dialog box.
 
-</td></tr><tr><td id="d457445e404">
+</td></tr><tr><td id="d285378e404">
 
 **To rename a form**
 

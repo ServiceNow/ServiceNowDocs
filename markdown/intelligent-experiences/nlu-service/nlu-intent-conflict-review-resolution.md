@@ -113,5 +113,3 @@ The Conflict Review list screen appears, showing your conflict review analysis i
 
 ![A confirmation that shows the user's conflict has been reviewed, and appears as such on the final Conflict Review screen](../images/nlu-intent-conflict-review12.png "Confirmation that a conflict has been reviewed")
 
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
-

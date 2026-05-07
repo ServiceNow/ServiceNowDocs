@@ -4,7 +4,7 @@ description: The Remediate Scan Engine findings with Now Assist feature accelera
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Platform Health, Platform Health, Using Impact, Impact]
 ---

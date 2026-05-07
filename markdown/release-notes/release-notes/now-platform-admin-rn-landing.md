@@ -22,6 +22,8 @@ The ServiceNow® Application Manager enables you to install, update, and manage 
 The ServiceNow® Clone Admin Console application copies data and metadata from one ServiceNow instance to another ServiceNow instance to easily synchronize your instances. Clone Admin Console was enhanced and updated in the Australia release.
 -   **[Data Management release notes](data-management-rn.md)**  
 The ServiceNow® Data Management capabilities enable you to manage the growth of data in your instance. Data Management capabilities were enhanced and updated in the Australia release.
+-   **[External Content Connectors release notes](external-content-connectors-rn.md)**  
+The ServiceNow® External Content Connectors application enables AI Search applications to search content and metadata from supported external source systems, such as Atlassian Confluence Cloud and Microsoft SharePoint Online. External Content Connectors was enhanced and updated in the Australia release.
 -   **[Instance Scan release notes](instance-scan-rn.md)**  
 The ServiceNow® Instance Scan engine is used to interrogate your instance for configurations that indicate health issues and identify opportunities to address ideal configurations. Instance Scan was enhanced and updated in the Australia release.
 -   **[Legacy Application Manager release notes](legacy-application-manager-rn.md)**  

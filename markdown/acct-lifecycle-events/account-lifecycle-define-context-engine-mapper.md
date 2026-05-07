@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Set up the Data Context Engine, Customer success, Configure, Customer Success Management]
+breadcrumb: [Set up the Data Context Engine, Customer success, Customer Success Management, Customer Success Management]
 ---
 
 # Configure the Context Engine Mapper

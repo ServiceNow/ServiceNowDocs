@@ -36,6 +36,7 @@ ServiceNow embeds security and governance directly into the vibe coding and AI-a
     -   Enforce ACLs and role-based access for generated apps, which Build Agent can do.
     -   Validate AI-generated scripts for security vulnerabilities.
     -   Apply code optimization and review before publishing.
+    -   While creating agents and skills, Build Agent asks which users and roles it should operate as, as well as which users are allowed to access the agents or skills.
 4.  Support for testing and validation:
     -   Use Automated Test Framework \(ATF\) for functional and regression testing.
 

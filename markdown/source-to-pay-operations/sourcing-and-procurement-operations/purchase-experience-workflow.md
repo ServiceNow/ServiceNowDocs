@@ -31,6 +31,8 @@ Purchase lines provide information of the individual lines under a purchase requ
 Purchase requisitions can be merged if certain criteria are met. This avoids multiple purchase orders from being created unnecessarily and also helps enforce approval rule limits.
 -   **[Purchasing tasks and procurement cases](purchasing-tasks.md)**  
 All automated purchasing tasks and procurement cases are created using flow designer from the Service Delivery Common \(SDC\) application. The flow designer uses the underlying task and case generation decision tables, and purchasing tasks and procurement cases are created based on the conditions defined in the decision tables.
+-   **[Purchase requisition auto-order](../concept/pr-auto-order.md)**  
+Auto-order automates the creation of a purchase order \(PO\) from an approved purchase requisition \(PR\) without requiring manual buyer intervention. Two system properties control whether the feature is active and the maximum PR value that qualifies for automatic processing.
 -   **[Purchase order](purchase-order.md)**  
 A purchase order is a binding contract between a buyer and a supplier that authorizes a purchasing transaction. It contains the descriptions, quantities, prices, applicable discounts, payment terms, delivery dates, and other associated terms and conditions with the supplier.
 -   **[Blanket purchase order workflow](blanket-purchase-order-workflow.md)**  
@@ -74,6 +76,8 @@ A framework to integrate tax calculations into Sourcing and Purchasing Automatio
 
 **Related topics**  
 
+
+[Shopping Hub](../concept/shopping-hub-overview.md)
 
 [My purchases on Shopping Hub](../concept/my-purchases.md)
 

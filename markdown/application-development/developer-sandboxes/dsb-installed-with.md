@@ -48,7 +48,10 @@ Request and view sandboxes.
 </td></tr></tbody>
 </table>## Tables installed with Developer Sandboxes
 
-**Note:** If you make a schema change, such as adding a column, to a shared table, the table becomes an isolated table on the sandbox that initiated the schema change.
+**Note:**
+
+-   Tables that aren't explicitly mentioned in table config are shared across all sandboxes instead of copied separately.
+-   If you make a schema change, such as adding a column, to a shared table, the table becomes an isolated table on the sandbox that initiated the schema change.
 
 <table id="table_tzh_zsb_xhc"><thead><tr><th>
 

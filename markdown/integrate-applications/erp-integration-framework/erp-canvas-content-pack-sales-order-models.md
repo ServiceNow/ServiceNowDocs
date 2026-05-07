@@ -1,20 +1,20 @@
 ---
 title: Zero Copy Connector for ERP Quote to Cash content pack models
-description: The Zero Copy Connector for ERP Quote to Cash content pack contains models that you may need when interacting with an SAP system.
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you may need when interacting with an SAP system.
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, content, pack, content pack, sales, order, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Quote to Cash content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Quote to Cash content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Quote to Cash content pack models
 
-The Zero Copy Connector for ERP Quote to Cash content pack contains models that you may need when interacting with an SAP system.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Quote to Cash content pack contains models that you may need when interacting with an SAP system.
 
 ## Quote to Cash content pack models
 
@@ -102,7 +102,23 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Customer Invoice - header
+Customer Invoice
+
+</td><td>
+
+Retrieve a list of customer invoices.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Customer Invoice - Header
 
 </td><td>
 
@@ -114,11 +130,27 @@ Platform
 
 </td><td>
 
-RFC/BAPI and OData V2
+OData V2
 
 </td></tr><tr><td>
 
-Customer Invoice - item
+Customer Invoice - Header
+
+</td><td>
+
+Retrieve an overview of a customer invoice based on a billing document number.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Customer Invoice - Item
 
 </td><td>
 
@@ -130,7 +162,23 @@ Platform
 
 </td><td>
 
-RFC/BAPI and OData V2
+OData V2
+
+</td></tr><tr><td>
+
+Customer Invoice - Item
+
+</td><td>
+
+Retrieve detailed information about a customer invoice based on a billing document number.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+RFC/BAPI
 
 </td></tr><tr><td>
 
@@ -167,7 +215,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders
+Sales Order
 
 </td><td>
 
@@ -185,7 +233,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders - Search by Customer
+Sales Order - Search by Customer
 
 </td><td>
 
@@ -201,7 +249,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders - Search by Status
+Sales Order - Search by Status
 
 </td><td>
 
@@ -217,7 +265,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Sales Orders - Search by Status
+Sales Order - Search by Status
 
 </td><td>
 
@@ -233,7 +281,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Service Notification \(Customer\) - List
+Service Notification - List
 
 </td><td>
 

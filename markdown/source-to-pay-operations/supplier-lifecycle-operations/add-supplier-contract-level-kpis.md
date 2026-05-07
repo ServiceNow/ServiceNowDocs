@@ -17,7 +17,7 @@ You can add supplier-level for a supplier from the **KPI management** tab of the
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kpi.admin
 
 ## Procedure
 

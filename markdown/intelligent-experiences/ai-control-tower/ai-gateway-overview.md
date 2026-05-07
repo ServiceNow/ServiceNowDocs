@@ -1,6 +1,6 @@
 ---
 title: AI Gateway
-description: Explore the AI Gateway, its value and learn how to use and configure it for your MCP \(Model context protocol\) transactions.
+description: Explore the AI Gateway, its value, and learn how to use and configure it for your Model Context Protocol \(MCP\) transactions.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,19 +13,19 @@ breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 
 # AI Gateway
 
-Explore the AI Gateway, its value and learn how to use and configure it for your MCP \(Model context protocol\) transactions.
+Explore the AI Gateway, its value, and learn how to use and configure it for your Model Context Protocol \(MCP\) transactions.
 
 ## Model Context Protocol
 
-The Model Context Protocol \(MCP\) is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and systems. MCP facilitates communication between an AI host application \(AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP servers that expose specific capabilities such as tools.
+The MCP is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and systems. MCP facilitates communication between an AI host application \(AI Agent Studio\), an MCP Client embedded in the host, and one or more MCP servers that expose specific capabilities such as tools.
 
-For more information on MCP, see [Model Context Protocol Client](https://www.servicenow.com/docs/bundle/zurich-intelligent-experiences/page/administer/model-context-protocol-client/reference/mcp-client.html)
+For more information on MCP, see [Model Context Protocol Client](https://www.servicenow.com/docs/bundle/zurich-intelligent-experiences/page/administer/model-context-protocol-client/reference/mcp-client.html).
 
 ## AI Gateway overview
 
-AI Gateway enables governance, observability, and security for your MCP transactions. AI Gateway is designed to be platform agnostic, delivering the above-mentioned benefits both within ServiceNow \(AI Agent studio\) and in external agentic studios and hosts.
+AI Gateway enables governance, observability, and security for your MCP transactions. AI Gateway is designed to be platform agnostic, delivering the before-mentioned benefits both within \( AI Agent Studio\) and in an external agentic studios and hosts.
 
-## Why Gateway
+## Why AI Gateway
 
 Enterprises are building unified AI across vendor boundaries. Their agentic workflows operate across platforms requiring governance.
 
@@ -37,9 +37,9 @@ AI Gateway offers:
 -   Secure authentication method \(OAuth 2.1\)
 -   Observability
 
-## Value of AI Gateway
+## AI Gateway value
 
-With the increasing need of interoperability across different AI solutions across enterprises. AI Gateway provides a way for interoperability governance, observability &amp; security.
+With the increasing need of interoperability across different AI solutions across enterprises. AI Gateway provides a way for interoperability governance, observability, and security.
 
 ## Features and benefits
 
@@ -67,12 +67,12 @@ Roles
 
 The AI Gateway application is automatically installed for customers who use AI Control Tower for Now Assist.
 
-If you're using any generative AI features, you already have access to AI Gateway. The AI Gateway is included with all types of pro plus licenses. To use the features in AI Gateway, ensure that both AI Agent Studio and AI Control Tower are available in your instance.
+If you're using any generative AI features, you already have access to AI Gateway. The AI Gateway is included with all types of pro plus licenses. To use the features in AI Gateway, promote that both AI Agent Studio and AI Control Tower are available in your instance.
 
 ## What to explore next
 
--   For information on the process flow of MCP servers, see [Process flow of MCP servers Via AI Gateway](process-flow-of-mcp-servers-via-ai-gateway.md)
--   For information on AI Gateway setup tab, see [MCP server record](view-the-mcp-server-record.md)
--   For information on AI Gateway in the configuration page, see [AI Gateway](ai-gateway.md)
--   For information on the roles in AI Control Tower and their role with AI Gateway, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md)
+-   For information on the process flow of MCP servers, see [Process flow of MCP servers Via AI Gateway](process-flow-of-mcp-servers-via-ai-gateway.md).
+-   For information on the **AI Gateway setup** tab, see [MCP server record](view-the-mcp-server-record.md)
+-   For information on AI Gateway in the configuration page, see [AI Gateway](ai-gateway.md).
+-   For information on the roles in AI Control Tower and their role with AI Gateway, see [AI Control Tower roles](../reference/roles-installed-with-ai-control-tower.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Indirect Discovery using Service Graph Connectors
-description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGCs\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
+description: ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
 locale: en-US
 release: australia
 product: Telecommunications Service Operations Management
@@ -8,12 +8,12 @@ classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Telecom Discovery, Explore, Telecommunications Service Operations Management]
 ---
 
 # Indirect Discovery using Service Graph Connectors
 
-ServiceNow Telecom Discovery using Service Graph Connectors \(SGCs\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
+ServiceNow Telecom Discovery using Service Graph Connectors \(SGC s\) enables you to seamlessly integrate network infrastructure data from external management systems, such as EMS, NMS, and SDN Controllers, into the Configuration Management Database \(CMDB\).
 
 This approach helps Communication Service Providers \(CSPs\) maintain a current and accurate view of their multivendor telecom network resources, services, and configurations.
 

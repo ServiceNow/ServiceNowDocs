@@ -6,9 +6,9 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
-breadcrumb: [Set up fault management, Configure, Telecommunications Service Operations Management]
+breadcrumb: [Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Configure an event pull connector
@@ -27,7 +27,7 @@ Role required: TSOM Assurance admin
 
 3.  Select the **Browse Integrations** tab
 
-4.  Search for the desired integration \(for example, Meraki, Fortinet, or VeloCloud\).
+4.  Search for the external management system integration \(for example, Meraki, Fortinet, or VeloCloud\).
 
 5.  Select the integration tile labeled **Metrics**.
 
@@ -52,7 +52,7 @@ Role required: TSOM Assurance admin
     The tiles appear under the **Installed Integrations** tab.
 
 
-**Parent Topic:**[Set up fault management](../concept/set-up-fault-management.md)
+**Parent Topic:**[Configure Telecom Assurance](../concept/set-up-fault-management.md)
 
 **Related topics**  
 

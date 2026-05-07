@@ -29,7 +29,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 4.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d40627e100">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d43101e100">
 
 **Users**
 
@@ -37,7 +37,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d40627e112">
+</td></tr><tr><td id="d43101e112">
 
 **Groups**
 
@@ -45,7 +45,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d40627e124">
+</td></tr><tr><td id="d43101e124">
 
 **User Filters**
 

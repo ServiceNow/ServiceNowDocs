@@ -96,3 +96,5 @@ Filter the information displayed on the dashboard ensuring you focus on relevant
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

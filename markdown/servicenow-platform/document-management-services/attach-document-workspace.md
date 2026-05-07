@@ -1,25 +1,26 @@
 ---
 title: Add documents in Workspace
-description: Use the file picker to select and add documents from the documents repository, an external cloud storage provider, or a local desktop to a ticket or a record.
+description: Use the file picker to add documents from the documents repository, external cloud storage providers, or your local desktop to records.
 locale: en-US
 release: australia
 product: Document Management Services
 classification: document-management-services
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
+keywords: [documents, attachments, cloud storage, file picker, workspace]
 breadcrumb: [Document Management in Workspace, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add documents in Workspace
 
-Use the file picker to select and add documents from the documents repository, an external cloud storage provider, or a local desktop to a ticket or a record.
+Use the file picker to add documents from the documents repository, external cloud storage providers, or your local desktop to records.
 
 ## Before you begin
 
 Role required: none
 
-To add a document from an external cloud storage provider, a connection to at least one external provider must be configured for your instance.
+To add documents from external cloud storage, verify that your administrator has configured connections to the required cloud storage providers.
 
 ## About this task
 
@@ -27,132 +28,76 @@ The file picker opens from within the Document Management component and provides
 
 ## Procedure
 
-1.  From the workspace, navigate to the required record \(for example, Incident\).
+1.  Open the record where you want to add documents \(for example, an incident\).
 
-2.  Select the documents icon from the left side components panel to display the list of all document files and folders.
+2.  In the left components panel, select the documents icon to display the Documents panel.
 
-3.  In the Documents panel, select the add icon ![Add new credentials icon.](../../../reuse/itom/image/workspace-icon-add.png) or drag and drop documents or folders to add a document or folder.
+3.  In the Documents panel, select the add icon ![Add icon](../../../reuse/itom/image/workspace-icon-add.png) or drag and drop documents or folders.
 
-4.  To select and attach documents or folders:
+4.  Choose how to add documents:
 
-    1.  Select **Select docs/folders** to select documents or folder.
+    -   To add documents directly, select **Select docs/folders**.
+    -   To create a folder first, select **Create Folder**, name the folder, select it, then select **Select docs/folders**.
+5.  Browse and select documents from your preferred source.
 
-    2.  Select the documents you want to attach.
+<table id="choicetable_yqn_nrf_m3c"><thead><tr><th align="left" id="d77945e126">
 
-<table id="choicetable_yqn_nrf_m3c"><thead><tr><th align="left" id="d75574e106">
+Source
 
-Options
+</th><th align="left" id="d77945e129">
 
-</th><th align="left" id="d75574e109">
+Description
 
-Descriptions
-
-</th></tr></thead><tbody><tr><td id="d75574e115">
+</th></tr></thead><tbody><tr><td id="d77945e135">
 
 **Search**
 
 </td><td>
 
-Search the document from the search bar.
+Use the search bar to find specific documents.
 
-</td></tr><tr><td id="d75574e124">
+</td></tr><tr><td id="d77945e144">
 
 **Workspace documents**
 
 </td><td>
 
-To filter the document list, select one of the following views:
+Filter the document list by selecting a view:
 
  -   **All documents**: All documents including owned and shared
--   **Owned by me**: Documents created or owned by you.
--   **Shared with me**: Documents others have shared with you.
- **Note:** This option does not appear when you are adding a document within a folder.
+-   **Owned by me**: Documents created or owned by you
+-   **Shared with me**: Documents others have shared with you
+ **Note:** This option does not appear when you're adding a document within a folder.
 
-</td></tr><tr><td id="d75574e157">
-
-**External drive**
-
-</td><td>
-
-Under External drive, select the cloud storage provider you want to browse:
-
--   Microsoft OneDrive
--   Google Drive
--   Microsoft SharePoint
-
-
-</td></tr><tr><td id="d75574e183">
-
-**Local drive**
-
-</td><td>
-
-Under Local drive, select **Browse documents**. Your system file browser opens. Navigate to and select the file you want to upload, then confirm the selection.
-
-</td></tr></tbody>
-</table>5.  Select the documents or folders that you want to add.
-
-6.  For external drives you can also select the **Link only URL of the external document to the record** check box to link URLs.
-
-7.  Select **Add**.
-
-    The file picker closes. The selected documents and folders are attached and appear in the Documents panel.
-
-8.  To create a folder and add documents:
-
-    1.  Select **Create Folder** and name the folder.
-
-    2.  Select the folder.
-
-    3.  Select **Select docs/folders** to select documents.
-
-    4.  Select the documents you want to attach.
-
-<table id="choicetable_kgq_yzg_m3c"><thead><tr><th align="left" id="d75574e271">
-
-Options
-
-</th><th align="left" id="d75574e274">
-
-Descriptions
-
-</th></tr></thead><tbody><tr><td id="d75574e280">
-
-**Search**
-
-</td><td>
-
-Search the document from the search bar.
-
-</td></tr><tr><td id="d75574e289">
+</td></tr><tr><td id="d77945e177">
 
 **External drive**
 
 </td><td>
 
-Under External drive, select the cloud storage provider you want to browse:
+Select the cloud storage provider you want to browse:
 
--   Microsoft OneDrive
+ -   Microsoft OneDrive
 -   Google Drive
 -   Microsoft SharePoint
 
 
-</td></tr><tr><td id="d75574e315">
+</td></tr><tr><td id="d77945e204">
 
 **Local drive**
 
 </td><td>
 
-Under Local drive, select **Browse documents**. Your system file browser opens. Navigate to and select the file you want to upload, then confirm the selection.
+Select **Browse documents**. Your system file browser opens. Navigate to and select the files you want to upload, then confirm the selection.
 
 </td></tr></tbody>
-</table>9.  Select the documents or folders that you want to add.
+</table>6.  Select the documents or folders you want to add.
 
-10. For external drives you can also select the **Link only URL of the external document to the record** check box to link URLs.
+7.  For external drives, select the **Link only URL of the external document to the record** check box to create links instead of copying files.
 
-11. Select **Add**.
+8.  Select **Add**.
 
-    The file picker closes. The selected documents are attached and appear in the Documents panel.
+    The file picker closes and the selected documents appear in the Documents panel.
 
 
 **Parent Topic:**[Document Management in Workspace](../concept/document-management-workspace.md)

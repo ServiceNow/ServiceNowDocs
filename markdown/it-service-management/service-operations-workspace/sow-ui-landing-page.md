@@ -1,17 +1,17 @@
 ---
-title: Service Operations Workspace for ITSM for ITSM landing page
+title: Service Operations Workspace for ITSM landing page
 description: An agent can get quick visibility into the work assigned, view announcements, and view upcoming tasks.
 locale: en-US
 release: australia
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-21"
 reading_time_minutes: 7
 breadcrumb: [Exploring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Service Operations Workspace for ITSM for ITSM landing page
+# Service Operations Workspace for ITSM landing page
 
 An agent can get quick visibility into the work assigned, view announcements, and view upcoming tasks.
 

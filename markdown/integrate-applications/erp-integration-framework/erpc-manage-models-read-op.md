@@ -1,6 +1,6 @@
 ---
 title: Add an operation to a model in Zero Copy Connector for ERP
-description: Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+description: Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, operation, create, update, read, crud]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an operation to a model in Zero Copy Connector for ERP
 
-Add an operation to an ERP model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
+Add an operation to an ERP \(Enterprise Resource Planning\) model in Zero Copy Connector for ERP to define how the model retrieves data, writes data, or creates a new instance of the business object.
 
 ## Before you begin
 

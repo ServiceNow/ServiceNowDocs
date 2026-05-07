@@ -7,7 +7,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -188,6 +188,8 @@ Create and insert a new questionnaire for agents to respond to.
 [Activity definitions](../concept/activity-definitions.md)
 
 [Add and configure an activity in a playbook](../task/add-configure-activity.md)
+
+[Use AI agent as an activity](../task/ai-agent-as-activity.md)
 
 [Automation Assets](../concept/automation-assets.md)
 

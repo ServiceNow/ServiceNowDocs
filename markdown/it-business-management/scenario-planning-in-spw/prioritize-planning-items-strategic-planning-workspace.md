@@ -35,15 +35,15 @@ Review and prioritize the items in the Prioritization, Kanban, or Hierarchy tab 
 
 3.  From the Prioritization tab or any other tab, mark a planning item as In Review or Prioritized.
 
-<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d75804e134">
+<table id="choicetable_knp_gs5_dwb"><thead><tr><th align="left" id="d75491e134">
 
 Tab
 
-</th><th align="left" id="d75804e137">
+</th><th align="left" id="d75491e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d75804e143">
+</th></tr></thead><tbody><tr><td id="d75491e143">
 
 **Prioritization**
 
@@ -53,7 +53,7 @@ Update the **Planning state** field of the item.
 
  ![Planning state update in Prioritization page.](../images/backlog-planning-state.png)
 
-</td></tr><tr><td id="d75804e165">
+</td></tr><tr><td id="d75491e165">
 
 **Kanban**
 
@@ -63,7 +63,7 @@ Move the item card into the **Prioritized** lane.
 
  ![Prioritize item in kanban view](../images/kanban-prioritize-item.png)
 
-</td></tr><tr><td id="d75804e187">
+</td></tr><tr><td id="d75491e187">
 
 **Hierarchy**
 

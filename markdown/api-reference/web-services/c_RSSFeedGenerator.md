@@ -37,9 +37,7 @@ If you want to query on a field that is a reference to another file then you nee
 https://<instance name>.service-now.com/incident.do?sysparm_query=assigned_to=javascript:GetIDValue('sys_user','ITIL%20User')&RSS
 ```
 
-**Note:** You can in most cases simply append "&amp;RSS" to a URL that you generate in the U.I. or that of your favorite module. The easiest way to get the URL is to simply click the last breadcrumb from the list view. After appending "&amp;RSS" then you can use this URL in your RSS feed reader
-
-![](../image/GetBreadURL.png "Get Bread URL")
+**Note:** You can in most cases simply append "&amp;RSS" to a URL that you generate in the U.I. or that of your favorite module. The easiest way to get the URL is to simply click the last breadcrumb from the list view. After appending "&amp;RSS" then you can use this URL in your RSS feed reader.
 
 -   **[Limiting results with a view](c_LimitingResultsWithAView.md)**  
 The description element in the returned RSS xml is constructed using the view as specified in the URL, when no view is specified, the default no-name view is used.

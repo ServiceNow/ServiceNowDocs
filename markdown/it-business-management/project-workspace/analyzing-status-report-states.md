@@ -33,6 +33,8 @@ In the published status:
 -   The published status indicates that the report has been finalized.
 -   If updates are required after publishing, the project manager can reset the report back to draft to make changes.
 
+A **AI Project health analysis** column has been added to the project list view. When you publish an AI status report, the health analysis rolls up to the project level and appears in this column. If you publish a standard status report \(non-AI\), the AI Project health analysis column is cleared. This ensures the column always reflects the latest status report only.
+
 ## Benefits
 
 The draft and published status provide clear value for both project managers and stakeholders:

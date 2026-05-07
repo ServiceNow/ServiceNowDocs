@@ -201,5 +201,3 @@ Here are some steps to use to get started.
 
 Detailed information about NLU's Active Learning job can be found in this KB article on the Support portal: [KB1633901](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1633901).
 
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
-

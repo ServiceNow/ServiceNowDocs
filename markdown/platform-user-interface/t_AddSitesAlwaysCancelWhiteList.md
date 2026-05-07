@@ -25,15 +25,13 @@ User actions can always cancel items on the list. You should only add items to t
 
 1.  Enter `sys_properties.list` in the navigation filter and press the Enter key.
 
-2.  In the **Go to** field, select **Name**, enter `glide.request_manager.always_cancel`, and click **Go**.
+2.  In the **Go to** field, select **Name**, enter `glide.request_manager.always_cancel`, and select **Go**.
 
-3.  Click the property name to open it.
+3.  Select the property name to open it.
 
 4.  In the **Value** field, add a comma-separated list of URIs you want to allow users to cancel.
 
-    ![](../image/600px-Always_cancel_white_list.png)
-
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Navigation action cancellation](../concept/c_CancelingNavigationActions.md)

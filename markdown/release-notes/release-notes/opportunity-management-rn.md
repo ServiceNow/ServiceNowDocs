@@ -59,5 +59,5 @@ Install Opportunity Management by requesting it from the ServiceNow Store. Visit
     ServiceNow®Activity Management applications help sales and service teams work more productively by capturing, organizing, and acting on customer interactions in one place, helping to ensure complete context and effective follow‑up across Customer Relationship Management \(CRM\) records.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

@@ -149,7 +149,7 @@ Salesforce Role required: admin
 
     You can also switch from the Lightning UI.
 
-2.  Select the setup icon ![Gear icon](../image/gear-icon.png) and then select **Setup**.
+2.  Select the setup icon ![Personalize list icon.](../image/gear-icon.png) and then select **Setup**.
 
 3.  Search for and select **App Manager** in the setup page search bar.
 
@@ -375,15 +375,15 @@ If you’re using Software Asset Workspace, use SaaS Playbook for integrating yo
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d332624e1208">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d334924e1206">
 
 Interface
 
-</th><th align="left" id="d332624e1211">
+</th><th align="left" id="d334924e1209">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d332624e1217">
+</th></tr></thead><tbody><tr><td id="d334924e1215">
 
 **Core UI**
 
@@ -394,7 +394,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d332624e1260">
+</td></tr><tr><td id="d334924e1258">
 
 **Software Asset Workspace**
 
@@ -622,15 +622,15 @@ If you’re using Software Asset Workspace, the option to create the Salesforce 
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d332624e2139">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d334924e2137">
 
 Interface
 
-</th><th align="left" id="d332624e2142">
+</th><th align="left" id="d334924e2140">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d332624e2148">
+</th></tr></thead><tbody><tr><td id="d334924e2146">
 
 **Core UI**
 
@@ -641,7 +641,7 @@ Action
 3.  Select **Salesforce CRM Integration Profile**.
 
 
-</td></tr><tr><td id="d332624e2191">
+</td></tr><tr><td id="d334924e2189">
 
 **Software Asset Workspace**
 

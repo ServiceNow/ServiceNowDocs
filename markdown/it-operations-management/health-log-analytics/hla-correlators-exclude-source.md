@@ -1,6 +1,6 @@
 ---
-title: Exclude a source from a log correlator
-description: Prevent the system from analyzing log lines from a specific source by excluding that source from the log correlator.
+title: Exclude a source from a log correlator in Health Log Analytics
+description: Prevent Health Log Analytics from analyzing log lines from a specific source by excluding that source from the log correlator.
 locale: en-US
 release: australia
 product: Health Log Analytics
@@ -8,12 +8,13 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [exclude correlator from source, log source, log correlator exclusion, source exclusion]
 breadcrumb: [Find correlations between alerts, Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Exclude a source from a log correlator
+# Exclude a source from a log correlator in Health Log Analytics
 
-Prevent the system from analyzing log lines from a specific source by excluding that source from the log correlator.
+Prevent Health Log Analytics from analyzing log lines from a specific source by excluding that source from the log correlator.
 
 ## Before you begin
 
@@ -30,5 +31,5 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 4.  In the Actions on selected items list, select **Exclude from this source**.
 
 
-**Parent Topic:**[Identifying related alerts in log data by using log correlators](../../health-log-analytics-operator/concept/hla-op-correlator-what-is-a.md)
+**Parent Topic:**[Identifying related alerts in log data by using log correlators in Health Log Analytics](../../health-log-analytics-operator/concept/hla-op-correlator-what-is-a.md)
 

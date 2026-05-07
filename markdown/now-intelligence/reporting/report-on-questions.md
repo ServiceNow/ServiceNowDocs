@@ -49,7 +49,7 @@ You can create reports grouped or stacked by questions, as well as create filter
 
 ### Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### About this task
 
@@ -59,7 +59,7 @@ You can apply these steps to any report type as long as the report source has qu
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
@@ -84,7 +84,7 @@ Create reports additionally grouped by selected questions. You can also create f
 
 ### Before you begin
 
-Roles required: report\_admin
+Roles required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### About this task
 
@@ -92,7 +92,7 @@ You can apply these steps to any report type as long as the report source has qu
 
 ### Procedure
 
-1.  Navigate to `sys_reports.list` and select **New**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **New**.
 
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 

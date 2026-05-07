@@ -6,8 +6,8 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-04-29"
+reading_time_minutes: 2
 breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -83,6 +83,10 @@ Indicates whether the content is in draft or published.
 </table>4.  Select **Open editor**.
 
     Selecting this button saves the information you entered above.
+
+    **Tip:**
+
+    With the Rich Content Editor, you can easily use your keyboard to select individual canvas components. You can add text and columns, create text sections within those columns, and update headings within each section to adjust the styling and fonts to your liking; It helps you customize your content in a simple and convenient way.
 
 
 ## What to do next

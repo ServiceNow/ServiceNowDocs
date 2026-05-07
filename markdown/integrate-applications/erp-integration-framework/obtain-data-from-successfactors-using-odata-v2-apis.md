@@ -9,7 +9,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, entity, model, successfactor, success factor, success, factor, talent, odata]
-breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Connect to SAP with OData and HTTP, Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Obtain data from SAP SuccessFactors using OData v2 APIs
@@ -18,7 +18,7 @@ Access talent management data from SAP SuccessFactors using OData V2 APIs.
 
 SAP SuccessFactors is a set of integrated applications for HR functions such as employee data management and talent management.
 
-To use SAP SuccessFactors data in Zero Copy Connector for ERP, upload an SAP SuccessFactors metadata \(xml\) file when adding an entity to a model using OData.
+To use SAP SuccessFactors data in Zero Copy Connector for ERP \(Enterprise Resource Planning\), upload an SAP SuccessFactors metadata \(xml\) file when adding an entity to a model using OData.
 
 ![Add service manually modal with xml file added.](../image/erp-successfac1.png)
 

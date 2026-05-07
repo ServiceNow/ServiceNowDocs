@@ -1,6 +1,6 @@
 ---
-title: Activate AIOps LEAP
-description: Activate the AIOps LEAP skill after installing the application to assemble and categorize incidents.
+title: Activate LEAP
+description: Activate the LEAP skill after installing the application to assemble and categorize incidents.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,41 +8,41 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Configuring LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Activate AIOps LEAP
+# Activate LEAP
 
-Activate the AIOps LEAP skill after installing the application to assemble and categorize incidents.
+Activate the LEAP skill after installing the application to assemble and categorize incidents.
 
 ## Before you begin
 
-Role required: System admin or AIOps LEAP admin
+Role required: System admin or LEAP admin
 
 ## Procedure
 
-1.  Activate **AIOps LEAP** with one of the following options.
+1.  Activate **LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d436175e98">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d443385e98">
 
 Options
 
-</th><th align="left" id="d436175e103">
+</th><th align="left" id="d443385e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d436175e110">
+</th></tr></thead><tbody><tr><td id="d443385e110">
 
 **Workspaces**
 
 </td><td>
 
-1.  Navigate to **Workspaces** &gt; **AIOps LEAP**.
+1.  Navigate to **Workspaces** &gt; **LEAP**.
 2.  Select **Now Assist Admin Workspace**.
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d436175e152">
+</td></tr><tr><td id="d443385e152">
 
 **Now Assist Admin**
 
@@ -54,7 +54,7 @@ Steps
 
 
 </td></tr></tbody>
-</table>2.  In the LEAP installer input section, enter the details for AIOps LEAP to run scans on existing records, and select **Save and continue**.
+</table>2.  In the LEAP installer input section, enter the details for LEAP to run scans on existing records, and select **Save and continue**.
 
     For details on installer fields, see [LEAP Installer fields](../reference/aiops-leap-installation-fields.md)
 

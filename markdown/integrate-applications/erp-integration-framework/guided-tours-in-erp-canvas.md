@@ -1,6 +1,6 @@
 ---
 title: Guided tours in Zero Copy Connector for ERP
-description: Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
+description: Learn about Zero Copy Connector for ERP o connect to an external ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,18 +9,18 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, learn, practice, guide, tour, adoption]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Guided tours in Zero Copy Connector for ERP
 
-Learn about Zero Copy Connector for ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
+Learn about Zero Copy Connector for ERP o connect to an external ERP guided tours, including how to access and take them to build your knowledge of Zero Copy Connector for ERP.
 
 ## What guided tours are
 
 Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://www.servicenow.com/docs/access?context=exploring-guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a home page. Other tours help complete a task, such as configuring a connection or working with candidate details. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://www.servicenow.com/docs/access?context=exploring-guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) .
 
 ## How to access and use Zero Copy Connector for ERP guided tours
 

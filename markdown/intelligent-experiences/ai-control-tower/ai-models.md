@@ -1,6 +1,6 @@
 ---
 title: AI models
-description: Explore AI models in detail with examples.
+description: Explore the AI models in detail with examples.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,7 +13,7 @@ breadcrumb: [Definitions of AI asset inventory, Explore, AI Control Tower, Enabl
 
 # AI models
 
-Explore AI models in detail with examples.
+Explore the AI models in detail with examples.
 
 An AI model acts as the "brain" of an AI system. It learns from previous data and applies that knowledge to make predictions, respond to questions, or identify patterns. Models are developed using various training techniques, such as:
 

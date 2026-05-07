@@ -17,7 +17,7 @@ You can configure a URL to open when you select a section of a report.
 
 ## Before you begin
 
-Role required: report\_admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ## About this task
 
@@ -27,11 +27,11 @@ See [Define a report drilldown](../concept/c_DrillingDownWithinReports.md#) for 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; ****.
+1.  Navigate to **All** &gt; **Reports**.
 
 2.  Select the report that you want to configure.
 
-3.  Select **View**.
+3.  Select **View Report**.
 
 4.  Select the **Show report structure** icon \(![Show report structure](../image/Form_ShowReportStructureIcon.png)\).
 

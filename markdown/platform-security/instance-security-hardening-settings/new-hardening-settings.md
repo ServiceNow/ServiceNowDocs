@@ -36,7 +36,6 @@ New hardening settings have been released with Security Center baseline version 
 -   [Log session audit events](../reference/sc-log-session-audit-events.md)
 -   [Require write access to access service catalog add item page](../reference/sc-require-write-access-to-access-service-catalog-add-item-page.md)
 -   [Define active session timeout exception roles](../reference/sc-define-active-session-timeout-exception-roles.md)
--   
 -   [Enforce scoped ACL access for information request playbooks \[New in Security Center 1.3 and updated in 1.5\]](../reference/sc-enforce-scoped-acl-access-for-information-request-playbooks.md)
 -   [Hide user comments on articles](../reference/sc-hide-user-comments-on-articles.md)
 -   [Ensure dashboards creation/deletion requires access check \[New in Security Center 1.3 and updated in 2.0\]](../reference/sc-ensure-dashboards-creation-deletion-requires-access-check.md)

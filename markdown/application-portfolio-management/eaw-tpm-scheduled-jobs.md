@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Activate the Technology Portfolio Management \(TPM\) plugin, Configure Technology Portfolio Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Activate the Technology Portfolio Management \(TPM\) plugin, Configure Technology Portfolio Management, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Scheduled jobs for TPM in the EA Workspace
@@ -55,7 +55,7 @@ Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table wi
 
 [Run a scheduled job to update TRM technical debt data in EA Workspace](../../task/eaw-task/eaw-run-job-trm-tech-debts.md)
 
-[Schedule a job to generate TPM lifecycle data](../../task/schedule-job-generate-tpm-data.md)
+[Update TPM data for a business application or application service](../../task/eaw-task/update-tpm-data.md)
 
-[Schedule a job to generate TPM technology risk](../../task/schedule-job-generate-tpm-risk.md)
+[Restart Populate TPM Discovered Technologies and Lifecycles scheduled job](../../task/eaw-task/eaw-restart-tpm-scheduled-job.md)
 

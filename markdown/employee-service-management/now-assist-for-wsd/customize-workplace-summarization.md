@@ -31,15 +31,15 @@ Role required: admin
 
 5.  Edit any of the following sections based on your requirement.
 
-<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d507430e102">
+<table id="choicetable_nxz_ynt_33c"><thead><tr><th align="left" id="d516173e102">
 
 Section
 
-</th><th align="left" id="d507430e105">
+</th><th align="left" id="d516173e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d507430e111">
+</th></tr></thead><tbody><tr><td id="d516173e111">
 
 **General details**
 
@@ -47,7 +47,7 @@ Description
 
 You can edit basic information about the skill like the name, workflow, LLM, and skill template.
 
-</td></tr><tr><td id="d507430e120">
+</td></tr><tr><td id="d516173e120">
 
 **Choose input**
 
@@ -57,7 +57,7 @@ You can select the fields to be included as an input for the summarization skill
 
 For more information about customizing the input fields, see [Configure case or incident summarization in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=configure-case-or-incident-summarization-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
-</td></tr><tr><td id="d507430e137">
+</td></tr><tr><td id="d516173e137">
 
 **Customize prompt**
 
@@ -65,7 +65,7 @@ For more information about customizing the input fields, see [Configure case or 
 
 You can add or remove sections that are included in the generated summary. You can customize the prompts for every state of the case like new, work in progress, or resolved.For more information about customizing the prompt output, see [Configure case or incident summarization in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=configure-case-or-incident-summarization-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
-</td></tr><tr><td id="d507430e152">
+</td></tr><tr><td id="d516173e152">
 
 **Role attribution**
 
@@ -73,7 +73,7 @@ You can add or remove sections that are included in the generated summary. You c
 
 You can select the table, fields for the requester and fulfiller, and fulfiller roles for the skill.
 
-</td></tr><tr><td id="d507430e162">
+</td></tr><tr><td id="d516173e162">
 
 **Define availability**
 
@@ -81,7 +81,7 @@ You can select the table, fields for the requester and fulfiller, and fulfiller 
 
 You can customize whether the skill is available by default, or only available based on the configured conditions. For more information about the availability, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
 
-</td></tr><tr><td id="d507430e174">
+</td></tr><tr><td id="d516173e174">
 
 **Define access**
 
@@ -89,7 +89,7 @@ You can customize whether the skill is available by default, or only available b
 
 You can add roles to provide access to summarize a case. For example, `sn_wsd_core.workplace_manager`.
 
-</td></tr><tr><td id="d507430e186">
+</td></tr><tr><td id="d516173e186">
 
 **Select display**
 

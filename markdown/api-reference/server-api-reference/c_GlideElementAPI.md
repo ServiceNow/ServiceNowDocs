@@ -1,13 +1,13 @@
 ---
 title: GlideElement - Global
-description: The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Determines whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Debugs the object and adds debug messages using setError\(String\).Returns the value of the specified attribute from the dictionary.Gets the base table of the field.Returns the Boolean value of the specified attribute from the dictionary.Generates a choice list for a field. Returns the choice values from the base table only, not from the extended table.Gets the choice label for the current choice value.Gets the number of debug messages logged by debug\(\).Returns the field \(element\) that a specified field is dependent on.Gets the table that the current table depends on.Returns the formatted display value of the field.Returns the formatted display value of a field, or a specified substitute value if the display value is null or empty.Gets the display value of the field in the language passed as a parameter.Returns a dynamic attribute definition for this GlideElement.Returns a dynamic namespace object that is configured for the GlideElement.Gets the name of the dynamic namespace configured for the GlideElement.Returns an element descriptor, which provides information about specific fields, rather than the data inside of those fields.Returns the value for the specified element.Returns any error message associated with the specified element.Gets the escaped value for the current element.Gets the CSS style for the field.Gets a glide object.Gets a glide record.Returns the HTML value of a field.Returns the HTML value of a field, or a specified substitute value if the HTML value is null or empty.Returns either the most recent journal entry or all journal entries.Returns the object's label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Returns a GlideRecord object for a given reference element.Get the CSS style for the value.Returns the name of the field's table.Retrieves the display value for the associated field and escapes the HTML.Returns the value of the field in the database.Retrieves the XHTML value of a field.Gets the XML value of a field as a string.Determines whether a field has a particular attribute.Determines if the user has the right to perform a particular operation.Determines if the field has a value.Determines whether the field is null.Sets the duration field to a number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Sets the display value of the field.Adds an error message to the associated field \(element\).Sets the initial value of a field.Adds a journal entry and author as a work note or comment field.Sets the value of a field.Converts the field's value to a string.
+description: The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Determines whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Debugs the object and adds debug messages using setError\(String\).Returns the value of the specified attribute from the dictionary.Gets the base table of the field.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Generates a choice list for a field. Returns the choice values from the base table only, not from the extended table.Gets the choice label for the current choice value.Gets the number of debug messages logged by debug\(\).Returns the field \(element\) that a specified field is dependent on.Returns the name of the table that a field is dependent on.Returns the formatted display value of the field.Returns the formatted display value of a field, or a specified substitute value if the display value is null or empty.Gets the display value of the field in the language passed as a parameter.Returns a dynamic attribute definition for this GlideElement.Returns a dynamic namespace object that is configured for the GlideElement.Gets the name of the dynamic namespace configured for the GlideElement.Returns an element descriptor, which provides information about specific fields, rather than the data inside of those fields.Returns the value for the specified element.Returns any error message associated with the specified element.Gets the escaped value for the current element.Gets the CSS style for the field.Retrieves the platform object associated with the field's value.Gets a glide record.Returns the HTML value of a field.Returns the HTML value of a field, or a specified substitute value if the HTML value is null or empty.Returns either the most recent journal entry or all journal entries.Returns the object's label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Returns a GlideRecord object for a given reference element.Get the CSS style for the value.Returns the name of the table that contains the field.Retrieves the display value for the associated field and escapes the HTML.Returns the value of the field in the database.Retrieves the XHTML value of a field.Gets the XML value of a field as a string.Determines if a field has a specified attribute.Determines if the user has the right to perform a particular operation.Determines if the field has a value.Determines whether the field is null.Sets the duration field to a number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Sets the display value of the field.Adds an error message to the associated field.Sets the initial value of a field.Adds a journal entry and author as a work note or comment field.Sets the value of a field.Converts the field's value to a string.
 locale: en-US
 release: australia
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 36
+reading_time_minutes: 38
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -306,33 +306,37 @@ Debugs the object and adds debug messages using setError\(String\).
 
 |Type|Description|
 |----|-----------|
-|void| |
+|None| |
 
 ## GlideElement - getAttribute\(String attributeName\)
 
 Returns the value of the specified attribute from the dictionary.
 
-If the attribute is a boolean attribute, use getBooleanAttribute\(String\) to get the value as a boolean rather than as a string.
+For Boolean attributes, you can use the getBooleanAttribute\(\) method to return the value as a Boolean instead of a string.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|Attribute name|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
 |Type|Description|
 |----|-----------|
-|String|Attribute value|
+|String|Value of the specified attribute.|
+
+The following example shows how to get the value of the **tree\_picker** attribute in the **location** column of the User \[sys\_user\] table as a string.
 
 ```
-doit();
-function doit() {
-  var now_GR = new GlideRecord('sys_user');
-  now_GR.query("user_name","admin");
-  if (now_GR.next()) {
-    gs.print("we got one");
-    gs.print(now_GR.location.getAttribute("tree_picker"));
-  }
- 
+var now_GR = new GlideRecord('sys_user');
+now_GR.query("user_name","admin");
+
+if (now_GR.next()) {
+   gs.info("The value of the tree_picker attribute in the location column is " + now_GR.location.getAttribute("tree_picker"));
 }
+```
+
+Output:
+
+```
+The value of the tree_picker attribute in the location column is true
 ```
 
 ### Scoped equivalent
@@ -378,17 +382,17 @@ The Base Table for the field Assignment Group is - task
 
 ## GlideElement - getBooleanAttribute\(String attributeName\)
 
-Returns the Boolean value of the specified attribute from the dictionary.
+Returns a specified Boolean-type attribute from the dictionary as a Boolean value.
 
-To get the value as a string, use getAttribute\(string\).
+To return the attribute value as a string, use the getAttribute\(\) method.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|Attribute name|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
 |Type|Description|
 |----|-----------|
-|Boolean|Boolean value of the attribute. Returns false if the attribute does not exist.|
+|Boolean|Specifies the value of the attribute as Boolean true or false.|
 
 The following example shows how to get Boolean values of the **ignore\_filter\_on\_new** attribute for two fields.
 
@@ -542,7 +546,7 @@ company
 
 ## GlideElement - getDependentTable\(\)
 
-Gets the table that the current table depends on.
+Returns the name of the table that a field is dependent on.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -550,7 +554,39 @@ Gets the table that the current table depends on.
 
 |Type|Description|
 |----|-----------|
-|String|The name of the table.|
+|String|Name of the table if a field has a dependent table; null otherwise.|
+
+The following example shows how to determine if a field named **model\_id** has a dependent table.
+
+```
+var gr = new GlideRecord('cmdb_ci_hardware');
+gr.setLimit(1);
+gr.query();
+
+if (gr.next()) {
+    var field_element = gr.getElement('model_id'); // Get the model_id field element
+    var dependent_table = field_element.getDependentTable(); // Get the table that drives filtering
+
+    gs.info("Field: " + field_element.getLabel());
+    gs.info("Dependent table: " + dependent_table); // cmdb_model_category
+
+    if (dependent_table) {
+        // Use the dependent table to query what's controlling the filter
+        var dep_gr = new GlideRecord(dependent_table);
+        if (dep_gr.get(gr.getValue('model_category'))) {
+            gs.info("Controlling record: " + dep_gr.getDisplayValue());
+            gs.info("Only models belonging to category '" + dep_gr.getDisplayValue() + "' are valid for this CI");
+        }
+    }
+}
+```
+
+Output:
+
+```
+Field: Model ID
+Dependent table: null
+```
 
 ## GlideElement - getDisplayValue\(Number maxChar\)
 
@@ -985,7 +1021,9 @@ for (var i = 0; i < fields.size(); i++) {
 
 ## GlideElement - getGlideObject\(\)
 
-Gets a glide object.
+Retrieves the platform object associated with the field's value.
+
+For a use case, see [Modify GlideDateTime field values](../../../../../script/useful-scripts/reference/r_UsefulFieldScripts.md#section_mod-gdt-fields).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -993,19 +1031,58 @@ Gets a glide object.
 
 |Type|Description|
 |----|-----------|
-|Object|A Glide object.|
+|Object|A platform object corresponding to the field's data type, such as GlideDateTime. You can use this object for type-specific operations on the value. For example, date arithmetic, formatting, and timezone conversions that are not available when accessing the field value as a plain string.|
+
+The following example shows how to calculate the duration between the opened date and Service Level Agreement \(SLA\) due date of an incident record.
 
 ```
-function calcDateDelta(start, end, calendar) {
-  var cal = GlideCalendar.getCalendar(calendar);
-  if (!cal.isValid())
-      return null;
-  var realStart = start.getGlideObject();
-  var realEnd = end.getGlideObject();  
-  var duration = cal.subtract(realStart, realEnd);
-  return duration;
+// Query an incident record with both opened_at and sla_due populated
+var incGr = new GlideRecord('incident');
+incGr.addQuery('opened_at', '!=', '');
+incGr.addQuery('sla_due', '!=', '');
+incGr.setLimit(1);
+incGr.query();
+
+if (incGr.next()) {
+    gs.info("Incident: " + incGr.getValue('number'));
+    gs.info("Opened at: " + incGr.getValue('opened_at'));
+    gs.info("SLA due: " + incGr.getValue('sla_due'));
+
+    var duration = calcDateDelta(incGr.opened_at, incGr.sla_due);
+    if (duration) {
+        gs.info("Duration in seconds: " + duration.getNumericValue() / 1000);
+        gs.info("Duration display value: " + duration.getDisplayValue());
+    }
+}
+
+function calcDateDelta(start, end) {
+    var realStart = start.getGlideObject();
+    var realEnd = end.getGlideObject();
+
+    // Use GlideDuration to calculate the difference between two GlideDateTime objects
+    var startMS = realStart.getNumericValue();
+    var endMS = realEnd.getNumericValue();
+    var deltaMS = endMS - startMS;
+
+    // Create a GlideDuration from the millisecond difference
+    var duration = new GlideDuration(deltaMS);
+    return duration;
 }
 ```
+
+Output:
+
+```
+Incident: INC0000031
+Opened at: 2025-03-06 00:18:03
+SLA due: 2025-03-06 08:18:03
+Duration in seconds: 28800
+Duration display value: 8 Hours
+```
+
+### Scoped equivalent
+
+To use the getGlideObject\(\) method in a scoped application, use the corresponding scoped method: [getGlideObject\(\)](../../glideElement/concept/c_GlideElementScopedAPI.md#).
 
 ## GlideElement - getGlideRecord\(\)
 
@@ -1349,7 +1426,7 @@ var cssStyle = now_GR.state.getStyle();
 
 ## GlideElement - getTableName\(\)
 
-Returns the name of the field's table.
+Returns the name of the table that contains the field.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1357,28 +1434,28 @@ Returns the name of the field's table.
 
 |Type|Description|
 |----|-----------|
-|String|Name of the table. This may be different from the table Class that the record is in. See Tables and Classes in the product documentation.|
+|String|Name of the table that contains the field that is called on. The returned value might be different from the table class that the record is in. For more information, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
 
 ```
 if (current.approver.getTableName() == "sysapproval_approver") {
-  if (current.approver == email.from_sys_id)  {
-     current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
- 
-   // if it's been cancelled, it's cancelled.
-  var doit = true;
-  if (current.state=='cancelled')
-      doit = false;
- 
-  if (email.body.state != undefined)
-     current.state= email.body.state;
- 
-   if (doit)
-      current.update();
-} else {
-   gs.log("Approval for task ("+current.sysapproval.getDisplayValue()+") rejected because user sending 
-           email( "+email.from+") does not match the approver ("+current.approver.getDisplayValue()+")");
-}
- 
+    if (current.approver == email.from_sys_id) {
+        current.comments = "reply from: " + email.from + "\n\n" + email.body_text;
+
+        // if it's been cancelled, it's cancelled.
+        var doit = true;
+        if (current.state == 'cancelled')
+            doit = false;
+
+        if (email.body.state != undefined)
+            current.state = email.body.state;
+
+        if (doit)
+            current.update();
+    } else {
+        gs.log("Approval for task " + current.sysapproval.getDisplayValue() +
+            " rejected because user sending email " + email.from +
+            " does not match the approver " + current.approver.getDisplayValue());
+    }
 }
 ```
 
@@ -1540,37 +1617,55 @@ Gets the XML value of a field as a string.
 
 ## GlideElement - hasAttribute\(String attributeName\)
 
-Determines whether a field has a particular attribute.
+Determines if a field has a specified attribute.
 
 |Name|Type|Description|
 |----|----|-----------|
-|attributeName|String|The attribute to check for|
+|attributeName|String|Name of the attribute. The attribute name is listed in the Dictionary Entries \[sys\_dictionary\] table.|
 
-|Type|Description|
-|----|-----------|
-|Boolean|True if the field has the attribute, false otherwise.|
+<table id="table_sbf_zrc_kt" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether a field has the specified attribute.Valid values:
+
+-   true: The field has the specified attribute.
+-   false: The field does not have the specified attribute.
+
+</td></tr></tbody>
+</table>The following example shows how to get fields from the User \[sys\_user\] table with the **edge\_encryption\_enabled** attribute.
 
 ```
-var totalCritical = 0;
- 
-var filledCritical = 0; var fields = current.getFields(); gs.print(fields); for (var num = 0; num &lt; fields.size(); num++) { 
- 
-    gs.print("RUNNING ARRAY VALUE " + num);
-   var ed = fields.get(num).getED();
-   if(ed.hasAttribute("tiaa_critical")) {
-       gs.print("CRITICAL FIELD FOUND");
-       totalCritical ++;
-       if (!fields.get(num).isNil()) {
-           filledCritical ++;
-       }
-   }
- 
-} var answer = 0; gs.print("TOTAL - " + totalCritical); gs.print("FILLED - " + filledCritical); if (filledCritical &gt; 0 &amp;&amp; totalCritical &gt; 0){ 
- 
-    var pcnt = (filledCritical/totalCritical)*100;
-   answer = pcnt.toFixed(2);;    
- 
-} answer;
+var fields = new GlideRecord('sys_user');
+
+fields.query();
+
+var userFields = fields.getFields();
+
+for (var num = 0; num < userFields.size(); num++) {
+    var ed = userFields.get(num).getED();
+
+    if (ed.hasAttribute("edge_encryption_enabled")) {
+        gs.info(userFields.get(num).getName());
+    }
+}
+```
+
+Output:
+
+```
+*** Script: hashed_user_id
+*** Script: federated_id
 ```
 
 ## GlideElement - hasRightsTo\(String operationName\)
@@ -1717,15 +1812,15 @@ Sets the display value of the field.
 
 To use the setDisplayValue\(\) method in a scoped application, use the corresponding scoped method: [setDisplayValue\(\)](../../glideElement/concept/c_GlideElementScopedAPI.md#).
 
-## GlideElement - setError\(String message\)
+## GlideElement - setError\(String errorMessage\)
 
-Adds an error message to the associated field \(element\).
+Adds an error message to the associated field.
 
 You can retrieve the error message using the [getError\(\)](c_GlideElementAPI.md#) method.
 
 |Name|Type|Description|
 |----|----|-----------|
-|None| | |
+|errorMessage|String|The error message.|
 
 |Type|Description|
 |----|-----------|

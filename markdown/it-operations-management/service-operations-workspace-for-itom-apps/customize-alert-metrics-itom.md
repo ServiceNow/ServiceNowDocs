@@ -75,3 +75,5 @@ Role required: evt\_mgmt\_admin
     4.  Select **Save**.
 
 
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

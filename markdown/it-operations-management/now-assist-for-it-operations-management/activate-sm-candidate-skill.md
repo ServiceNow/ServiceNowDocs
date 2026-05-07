@@ -27,7 +27,7 @@ The Service Mapping Candidate skill provides names for processes and application
 
 ## Before you begin
 
-Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install the Now Assist for IT Operations Management \(ITOM\) plugin](install-now-assist-itom.md).
+Before activating the Now Assist skills, you must install the Now Assist for IT Operations Management \(ITOM\) plugin. For more information, see [Install Now Assist for IT Operations Management](../../now-assist-setup-itom/task/install-now-assist-itom.md).
 
 You must configure the following settings:
 

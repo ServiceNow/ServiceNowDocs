@@ -4,7 +4,7 @@ description: You can share local sightings details or results that are associate
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [View Sightings Search Results, Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -29,17 +29,13 @@ Sharing can be automated using the following Security Incident Response **Proper
 
 1.  Navigate to a security incident.
 
-2.  Click the **Show IoC** related list and select the **Sightings Search Results** tab to view the list of sightings searches.
+2.  Select the **Show IoC** related list and select the **Sightings Search Results** tab to view the list of sightings searches.
 
-3.  Click on a sightings search result.
+3.  Select a sightings search result.
 
-    ![Share Sightings Search link](../image/ShareSightingsSearchLink.png)
-
-4.  On the **Sightings Search Result**form, click the **Share sighting search result** related link.
+4.  On the **Sightings Search Result**form, Select the **Share sighting search result** related link.
 
     The Sighting Search Result Share dialog box appears.
-
-    ![Sightings Search Result Share dialog box](../image/SightingSearchResultsShareDialog.png)
 
 5.  Enter a **Name** for this observable share record.
 
@@ -47,7 +43,7 @@ Sharing can be automated using the following Security Incident Response **Proper
 
 7.  Choose **Circles** to share the observables with.
 
-8.  Click **Submit**.
+8.  Select **Submit**.
 
     The observable\(s\) are shared with the specified Trusted Circle.
 

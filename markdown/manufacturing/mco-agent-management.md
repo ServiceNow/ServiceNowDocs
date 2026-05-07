@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, Manufacturing Commercial Operations]
 ---
 
@@ -28,7 +28,7 @@ The Agents workspace enables the OEMs to create, view, review, and approve the r
 -   **[Recall management](mco-recall-management.md)**  
 Recall management enables the OEMs to identify and remove or replace the faulty products sold to the customers.
 -   **[Sales promotion](mco-sales-promotion.md)**  
-To be updated
+Sales Promotion Management enables manufacturers to create, manage, and track promotional programs across their dealer and distributor networks. Use it to configure promotion types, define eligibility criteria, and set discount structures. Integration with dealer operations ensures promotions are visible and claimable at the point of sale.
 -   **[Pre-authorization requests](mco-agents-pre-auth-requests.md)**  
 Dealer Service advisors submit pre-authorization requests to verify warranty or service contract coverage for parts or charges. The Warranty Specialist reviews and either approves, rejects, returns, or partially approves the request. Approved requests are used by advisors to create repair claims or link them to relevant jobs.
 -   **[Product non-conformance](mco-product-non-conformances.md)**  

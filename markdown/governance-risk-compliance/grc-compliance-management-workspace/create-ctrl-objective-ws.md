@@ -23,9 +23,13 @@ Role required: sn\_compliance.admin, sn\_compliance.manager, sn\_compliance.user
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Click the **Create** list and select **Control objective**.
+2.  In the Compliance Workspace, click the ![List icon](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **Compliance library** &gt; **Control objectives**.
+
+4.  Click the **Create** list and select **Control objective**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -207,7 +211,7 @@ Description
 Description of the control objective.
 
 </td></tr></tbody>
-</table>4.  Click **Save**.
+</table>6.  Click **Save**.
 
     To view and manage the details of the control objective that you created, see [Manage a control objective from the overview page](../concept/co-overview-pc-ws.md).
 
@@ -215,7 +219,7 @@ Description of the control objective.
 
     -   A control is created for every control objective when a policy is associated with an entity.
     -   The control attributes default to the same attributes as the related control objective.
-5.  From the **Overview** page, click the **More** tabs and select **Issues** tab.
+7.  From the **Overview** page, click the **More** tabs and select **Issues** tab.
 
     You can add existing one or more related issues to the control objective that you created. By mapping the existing issues to the control objective, you can reduce the count of open issues on the control objective.
 

@@ -7,8 +7,8 @@ product: Asset Management
 classification: asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+reading_time_minutes: 1
+breadcrumb: [Customize transfer order line tasks, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Create a template subtask
@@ -38,26 +38,5 @@ The template subtasks that you create are stored in the Template Subtask \[alm\_
 3.  Click **Submit**.
 
 
-**Parent Topic:**[Manage transfer order](../concept/manage-transfer-orders.md)
-
-**Related topics**  
-
-
-[Transfer order flow](../concept/transfer-order-flows.md)
-
-[Transfer assets using transfer orders](t_TransferAssetsUsingTransferOrders.md)
-
-[Summary of transfer order line tasks](../reference/r_SummaryOfTransferOrderStages.md)
-
-[Delete a transfer order](t_DeleteATransferOrder.md)
-
-[Delete a transfer order line](t_DeleteATransferOrderLine.md)
-
-[Return items received in a transfer order](t_ReturnItemsRecInXferOrder.md)
-
-[Create a customized template task](create-customized-template-task.md)
-
-[Transfer order line asset tracking](../reference/r_TransferOrderLineAssetTracking.md)
-
-[Perform bulk updates for transfer order lines](create-bulk-transfer.md)
+**Parent Topic:**[Customize transfer order line tasks](../concept/customize-transfer-order-line-tasks.md)
 

@@ -17,7 +17,7 @@ The planning console is a centralized interface for the Project Management appli
 
 **Important:**
 
-Planning console is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](../../project-workspace/concept/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
+The Planning console is no longer deployed, enhanced, or supported. It will be hidden and no longer available for upgrades or installation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](../../project-workspace/concept/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
 
 The planning console gives project managers a comprehensive view of all aspects of a project, including a hierarchical list of sub-projects, if any, project tasks that appear in a work breakdown structure \(WBS\) list, and the project Gantt chart. The console also integrates with Live Feed so your users can collaborate on projects.
 

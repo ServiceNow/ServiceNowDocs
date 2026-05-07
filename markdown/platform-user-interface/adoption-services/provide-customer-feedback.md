@@ -6,7 +6,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
@@ -21,15 +21,15 @@ Role required: none
 
 ## Procedure
 
-1.  Open the Help Center by selecting the Help Center icon ![](../../../get-started/servicenow-overview/image/pol-nav-help.png).
+1.  Open the Help Center by selecting the Help Center icon ![Help Center icon](../../../get-started/servicenow-overview/image/pol-nav-help.png).
 
 2.  Scroll to the bottom of the Help Center menu and select **Provide feedback**.
 
-    ![](../image/ads-help-center.png)
+    ![Help Center](../image/ads-help-center.png)
 
 3.  Rate your experience and provide as much or as little detail in the entry boxes as you want.
 
-    ![Provide customer feedback to ServiceNow](../image/provide-feedback-modal.png)
+    ![Provide feedback modal](../image/provide-feedback-modal.png)
 
     Your feedback is important to us and we appreciate all comments, both positive and negative.
 

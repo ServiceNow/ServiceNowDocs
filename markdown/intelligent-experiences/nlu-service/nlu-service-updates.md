@@ -42,5 +42,3 @@ This service is updated independently of your instance upgrade, and without any 
 -   Improved the handling of punctuation in entities and special characters in vocabulary sources.
 -   Incorporated feedback provided on intent predictions by admin users in the NLU Workbench to improve model training data for Virtual Agent.
 
-**Parent Topic:**[Exploring Natural Language Understanding](nlu-explore.md)
-

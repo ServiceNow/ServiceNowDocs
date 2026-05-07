@@ -19,7 +19,7 @@ You can navigate through the Service Operations Workspace to get an overview of 
 
 In Service Operations Workspace, you can access the landing page by selecting the home icon \(![Home icon](../image/sow-home.png)\) from the left navigation pane.
 
-An agent can analyze assignments and view announcements and upcoming tasks. Tier 1 agents can also analyze the performance and view the assigned courses. For information about the landing page, see [Service Operations Workspace for ITSM for ITSM landing page](sow-ui-landing-page.md).
+An agent can analyze assignments and view announcements and upcoming tasks. Tier 1 agents can also analyze the performance and view the assigned courses. For information about the landing page, see [Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md).
 
 ## Lists
 
@@ -59,7 +59,7 @@ In Service Operations Workspace, you can open any task record from the landing p
 
 [Access Service Operations Workspace for ITSM](../task/access-sow-itsm.md)
 
-[Service Operations Workspace for ITSM for ITSM landing page](sow-ui-landing-page.md)
+[Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md)
 
 [Exploring Recommended Actions for ITSM in Service Operations Workspace](exploring-recommended-actions-for-itsm-in-service-operations-workspace.md)
 

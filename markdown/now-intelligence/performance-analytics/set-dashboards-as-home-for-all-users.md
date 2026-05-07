@@ -6,7 +6,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-16"
 reading_time_minutes: 1
 breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -35,7 +35,7 @@ Role required: admin
 
 6.  Set the **Type** to `string`.
 
-7.  Set the value to `$pa_dashboard.do`.
+7.  Set the value to `/now/platform-analytics-workspace/dashboards`.
 
 8.  Select **Submit**.
 

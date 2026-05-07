@@ -1,6 +1,6 @@
 ---
 title: View JSON Feeds
-description: View the JSON feeds configured in the base system.
+description: Display all JSON feeds configured in your ServiceNow instance to review their settings and status. Use this to monitor data integration endpoints and troubleshoot feed issues.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -13,7 +13,7 @@ breadcrumb: [View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Thre
 
 # View JSON Feeds
 
-View the JSON feeds configured in the base system.
+Display all JSON feeds configured in your ServiceNow instance to review their settings and status. Use this to monitor data integration endpoints and troubleshoot feed issues.
 
 ## Before you begin
 
@@ -23,18 +23,20 @@ Role required: sn\_sec\_tisc.admin
 
 1.  Navigate to **Workspaces** &gt; **Threat Intelligence Security Center**.
 
-2.  Click on **Integrations** icon.
+2.  Select the **Integrations** icon.
 
 3.  Select **JSON** option.
 
-    The following lists the configured JSON feeds within the base system.
+    The configured JSON feeds within the base system appear.
 
     |Threat Feed|Description|URL|
     |-----------|-----------|---|
     |Feodotracker C&amp;C Hosts|Data source to fetch Botnet C2 IP Blocklist from Feodotracker|[https://feodotracker.abuse.ch/downloads/ipblocklist\_recommended.json](https://feodotracker.abuse.ch/downloads/ipblocklist_recommended.json)|
     |Feodotracker|Data source to fetch Botnet C2 IP Blocklist from Feodotracker|[https://feodotracker.abuse.ch/downloads/ipblocklist.json](https://feodotracker.abuse.ch/downloads/ipblocklist.json)|
 
-4.  Click **Edit** to edit the feed.
+4.  Select **Edit** to edit the feed to make the necessary updates.
+
+5.  Select **Save** to apply the changes.
 
 
 **Parent Topic:**[View Threat Intel Feeds](../concept/base-system-threat-intel-feeds.md)

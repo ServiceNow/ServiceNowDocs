@@ -26,8 +26,11 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 ## What you get
 
 -   **Session Preparation**
-    -   Provisioning of a temporary instance
-    -   Install or update necessary CMDB related plugins
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Installs or updates necessary CMDB related plugins
 -   **Customer Coaching Session \#1 \(up to 90 min\)**
 
     Includes the following:

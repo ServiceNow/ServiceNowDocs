@@ -28,7 +28,7 @@ You can define multiple search sources that reference the same indexed source, s
 
 To limit the set of indexed source table records that AI Search returns as search results, you can apply filter conditions to your search source.
 
-**Note:** Search source filter conditions can only operate on source record fields that are indexed. Fields on referenced records aren't indexed by default. To use a referenced record field in a search source filter condition, you must first configure indexing for the field in the indexed source. For details on this procedure, see [Enable indexing of referenced table fields for an AI Search indexed source](field-settings-ais.md#).
+**Note:** Search source filter conditions can only operate on source record fields that are indexed. Fields on referenced records aren't indexed by default. To use a referenced record field in a search source filter condition, you must first configure indexing for the field in the indexed source. For details on this procedure, see [Enable indexing of referenced table fields for an AI Search indexed source](../task/enable-ref-table-field-index-ais.md).
 
 You can use static and dynamic filter conditions to filter search source records. As an example, you could apply a dynamic **\[Assigned to\] \[is \(dynamic\)\] \[Me\]** user filter to make your search source only return results corresponding to indexed source table records assigned to the search user.
 

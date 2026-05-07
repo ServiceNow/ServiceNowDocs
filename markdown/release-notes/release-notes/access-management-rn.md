@@ -18,6 +18,8 @@ Early Availability
 
 -   Use ServiceNow® Access Analyzer v6.1, a self-service tool designed for AI administrators or creators to validate the access controls configured within agentic assets \(agentic workflows and AI agents\).
 -   Use new preconfigured query ACLs for most platform plugins, as part of ongoing security risk mitigation. These base system ACLs significantly reduce the need to run the QueryRangeACLAuditor tool.
+-   Access Findings is the proactive detection and remediation layer within Access Management Console. It runs eight out-of-box access checks against your instance on a daily schedule, surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow including AI-powered guidance.
+
 
 See [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
 

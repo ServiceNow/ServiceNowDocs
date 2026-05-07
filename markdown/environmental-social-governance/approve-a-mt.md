@@ -30,7 +30,7 @@ Role required: sn\_esg.program\_manager
     |**To approve**|To approve the topic.|
     |**To reject**|To reject the topic.|
 
-4.  Click **Save**.
+4.  Select **Save**.
 
 
 ## Result

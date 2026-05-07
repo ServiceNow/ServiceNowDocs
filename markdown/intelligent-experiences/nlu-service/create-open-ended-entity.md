@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -90,21 +90,4 @@ For this example, you can test your model with a different merchandise item.
 ![Utterances tab of the Intent details page with the Try model panel open. Try your model after training it to see if your new entity works.](../images/create-open4.png)
 
 The model predicts the intent and shows that it used the merch entity for the a polo value.
-
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity](create-nlu-entities.md)
-
-[Create a mapped entity](create-mapped-entity-lookup-source.md)
-
-[Create a pattern entity](create-pattern-entity.md)
-
-[Create a system-derived entity](create-system-derived-entity.md)
-
-[Import entities](import-common-entities-nlu.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
 

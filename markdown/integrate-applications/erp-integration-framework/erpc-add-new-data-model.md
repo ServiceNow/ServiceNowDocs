@@ -1,6 +1,6 @@
 ---
-title: Create a new ERP model
-description: Add a model in Zero Copy Connector for ERP to create a dataset containing ERP tables from the system of record to read and send updates to the ERP system.
+title: Create a model
+description: Add a model in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create a dataset containing ERP tables from the system of record to read and send updates to the ERP system.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, create, new, build]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Create a new ERP model
+# Create a model
 
-Add a model in Zero Copy Connector for ERP to create a dataset containing ERP tables from the system of record to read and send updates to the ERP system.
+Add a model in Zero Copy Connector for ERP \(Enterprise Resource Planning\) to create a dataset containing ERP tables from the system of record to read and send updates to the ERP system.
 
 ## Before you begin
 

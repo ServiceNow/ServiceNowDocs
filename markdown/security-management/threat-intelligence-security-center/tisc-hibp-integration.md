@@ -15,7 +15,7 @@ breadcrumb: [Configure Observable Enrichment, TISC Enrichment integrations, TISC
 
 The Have I Been Pwned \(HIBP\) integration enables you to enrich email address and domain observables with breach data directly within the TISC.
 
-This integration helps identify compromised credentials and assess organizational exposure to known data breaches.
+This integration identifies compromised credentials and assesses organizational exposure to known data breaches.
 
 During an investigation, email addresses or domains can be submitted to Have I Been Pwned for breach identification, either through the observables form or using case artifacts.
 

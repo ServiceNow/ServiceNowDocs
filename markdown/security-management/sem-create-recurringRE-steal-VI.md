@@ -66,15 +66,15 @@ Starting with version 18.0, because you can’t create a recurring remediation e
 
 9.  In step 3, Recurrence, select the frequency.
 
-<table id="choicetable_q1j_wyh_yxb"><thead><tr><th align="left" id="d432113e242">
+<table id="choicetable_q1j_wyh_yxb"><thead><tr><th align="left" id="d439505e242">
 
 Option
 
-</th><th align="left" id="d432113e245">
+</th><th align="left" id="d439505e245">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d432113e251">
+</th></tr></thead><tbody><tr><td id="d439505e251">
 
 **Quarterly \(Every 3 months\)**
 
@@ -84,7 +84,7 @@ Schedules Remediation Effort once in every three month.**Note:**
 
 If the month you select has only 30 days, the remediation effort is created on that last date of the month.
 
-</td></tr><tr><td id="d432113e265">
+</td></tr><tr><td id="d439505e265">
 
 **Monthly**
 
@@ -92,7 +92,7 @@ If the month you select has only 30 days, the remediation effort is created on t
 
 Schedules Remediation Effort once in every month.
 
-</td></tr><tr><td id="d432113e274">
+</td></tr><tr><td id="d439505e274">
 
 **Weekly**
 
@@ -100,7 +100,7 @@ Schedules Remediation Effort once in every month.
 
 Schedules Remediation Effort once in every week.**Note:** This option is available starting from the version 19.0 of Vulnerability Response.
 
-</td></tr><tr><td id="d432113e288">
+</td></tr><tr><td id="d439505e288">
 
 **Daily**
 

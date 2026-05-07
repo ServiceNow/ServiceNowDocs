@@ -1,5 +1,5 @@
 ---
-title: Generate AIOps LEAP knowledge base
+title: Generate LEAP knowledge base
 description: Resolution steps from automation opportunities are used to create knowledge base articles, enabling quicker resolution to similar issues in future.
 locale: en-US
 release: australia
@@ -8,10 +8,10 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Generate AIOps LEAP knowledge base
+# Generate LEAP knowledge base
 
 Resolution steps from automation opportunities are used to create knowledge base articles, enabling quicker resolution to similar issues in future.
 
@@ -21,13 +21,13 @@ Role required: admin
 
 ## About this task
 
-AIOps LEAP automates the generation of knowledge base articles using the **Actions** or **Explore** button.
+LEAP automates the generation of knowledge base articles using the **Actions** or **Explore** button.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **AIOps LEAP**.
+1.  Navigate to **Workspaces** &gt; **LEAP**.
 
-2.  On the AIOps LEAP landing page, select the required automation opportunity.
+2.  On the LEAP landing page, select the required automation opportunity.
 
 3.  If resolution steps are unavailable in the Overview section, select **Generate resolution steps**.
 

@@ -8,7 +8,7 @@ classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
 # Publish the VA topic template for legal name change
@@ -32,7 +32,7 @@ Role required: sn\_hr\_workday.admin
 4.  Click **Publish**.
 
 
-**Parent Topic:**[Using](../concept/using-hr-service-delivery-advanced-integration-with-workday.md)
+**Parent Topic:**[Using HR Service Delivery Advanced Integration with Workday](../concept/using-hr-service-delivery-advanced-integration-with-workday.md)
 
 **Related topics**  
 

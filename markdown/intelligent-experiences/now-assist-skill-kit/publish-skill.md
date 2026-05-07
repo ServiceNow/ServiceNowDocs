@@ -1,23 +1,30 @@
 ---
 title: Finalize and publish a skill
-description: When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Now Assist admin to activate it.
+description: When you're satisfied with your skill's prompts and configuration, finalize the prompt and publish the skill to make it available for a Now Assist admin to activate.
 locale: en-US
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-04-21"
+reading_time_minutes: 3
+keywords: [publish, finalize, Now Assist Skill Kit]
 breadcrumb: [Using Now Assist Skill Kit, Now Assist Skill Kit, Enable AI experiences]
 ---
 
 # Finalize and publish a skill
 
-When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Now Assist admin to activate it.
+When you're satisfied with your skill's prompts and configuration, finalize the prompt and publish the skill to make it available for a Now Assist admin to activate.
 
 ## Before you begin
 
 Role required: sn\_skill\_builder.admin
+
+## About this task
+
+Publishing a skill is a two-part process. First, you must finalize at least one prompt. Finalizing a prompt marks it as ready for use and is required before the skill can be published. Then you publish the skill, it's state changes from **Draft** to **Published**. It also makes it visible to a Now Assist admin for activation in Now Assist Admin.
+
+**Tip:** Confirm that your deployment settings are configured before publishing. Once published, the skill appears in Now Assist Admin under the workflow category you selected. To learn more, see [Configure skill deployment settings](configure-skill-settings.md).
 
 ## Procedure
 
@@ -27,16 +34,24 @@ Role required: sn\_skill\_builder.admin
 
 3.  Make any necessary changes to the prompt.
 
-4.  If you have changed the prompt, test it.
+    Always test after making changes to your prompts. Learn more about testing your prompt at [Test a prompt](test-prompt-template.md).
 
-5.  When you're satisfied with your prompt, select **Finalize prompt**.
+4.  In the **Skill contents** sidebar, select the prompt that you want to finalize.
 
-6.  Select **Publish**.
+5.  Select the lock icon \(**Finalize prompt**\) next to the prompt name to finalize the prompt.
+
+    The lock icon is located in the prompt editor header, adjacent to the **Manage prompt** button. Select the icon to mark the prompt as finalized, and removes the lock icon from view. You must finalize at least one prompt before you can publish the skill.
+
+    **Note:** If you edit a finalized prompt, you must finalize it again before republishing.
+
+6.  Select **Publish skill**.
+
+    The skill status changes from **Draft** to **Published**. The skill is now visible in Now Assist Admin and ready for an admin to activate.
 
 
 ## What to do next
 
-A Now Assist admin must activate the skill. To learn more about how to activate a skill, see [Activate a skill](activate-skill.md).
+A Now Assist admin must activate the skill before users can trigger it. To learn more about activating a skill, see [Activate a skill](activate-skill.md).
 
 **Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Reassign a purchase order exception
-description: Reassign an open purchase order exception to another operational buyer or team member when the original assignee is unavailable, lacks the necessary authority, or when workload balancing is required. This ensures exceptions continue progressing toward resolution without delays.
+description: Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
 locale: en-US
 release: australia
 topic_type: task
@@ -11,7 +11,7 @@ breadcrumb: [Resolving purchase order exceptions, Use, Purchase Order Management
 
 # Reassign a purchase order exception
 
-Reassign an open purchase order exception to another operational buyer or team member when the original assignee is unavailable, lacks the necessary authority, or when workload balancing is required. This ensures exceptions continue progressing toward resolution without delays.
+Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: sn\_poem\_core.operational\_buyer
 
 3.  Select an exception that you want to work on.
 
-4.  Select the More Actions icon ![](../image/pom-more-actions-icon.png).
+4.  Select the More Actions icon \(![](../image/pom-more-actions-icon.png)\).
 
 5.  Select **Reassign exception**.
 

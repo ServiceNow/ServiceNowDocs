@@ -1,12 +1,12 @@
 ---
 title: Exploring ServiceNow AI Lens
-description: ServiceNow AI Lens is a ServiceNow Now Assist application that uses generative AI to scan images, extract information, understand visual data, and help improve your workflows.
+description: ServiceNow AI Lens is a ServiceNow Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and help improve your workflows.
 locale: en-US
 release: australia
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-03-20"
 reading_time_minutes: 5
 keywords: [ServiceNow Lens, ServiceNow Lens overview, ServiceNow Lens benefits]
 breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
@@ -14,11 +14,15 @@ breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
 
 # Exploring ServiceNow AI Lens
 
-ServiceNow AI Lens is a ServiceNow® Now Assist application that uses generative AI to scan images, extract information, understand visual data, and help improve your workflows.
+ServiceNow AI Lens is a ServiceNow® Now Assist application that uses generative AI to scan images and screens, extract information, understand visual data, and help improve your workflows.
 
 ## ServiceNow AI Lens overview
 
-The ServiceNow AI Lens application extracts and analyzes data from the screenshots of documents such as a scanned handwritten note or an email that you capture . ServiceNow AI Lens is integrated with the ServiceNow® forms so that you can create or update forms on the ServiceNow instance by auto-filling data.
+Get an overview of the capabilities and a few use cases of ServiceNow AI Lens.
+
+Overview of the ServiceNow AI Lens capabilities and use cases 
+
+The ServiceNow AI Lens application extracts and analyzes data from screens or the screenshots of documents such as a scanned handwritten note or an email that you capture or files that you upload. ServiceNow AI Lens is integrated with the ServiceNow® forms so that you can create or update forms on the ServiceNow instance by auto-filling data.
 
 By connecting to a ServiceNow instance, you can also use ServiceNow AI Lens in a standalone mode to see a preview of the extracted data or get insights about your use cases. For more information, see [ServiceNow AI Lens features](servicenow-lens-features.md).
 
@@ -28,7 +32,7 @@ Extract data from documents such as an image, a scanned handwritten note, web pa
 
 Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see [Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&version=australia&pubname=australia-mobile&ft:locale=en-US)
 
-ServiceNow AI Lens is a desktop application that you can download for both Windows and macOS operating systems.
+Get started with ServiceNow AI Lens directly from your browser - no downloading or installation required orby downloading and installing the desktop application for Windows and macOS
 
 ## Benefits of ServiceNow AI Lens
 
@@ -37,7 +41,7 @@ ServiceNow AI Lens can do the following tasks automatically for you:
 -   Fill in a form without having to do it manually. ServiceNow AI Lens can scan and extract the visual data to auto-fill in your forms. For example, it can scan the invoice receipt to auto-fill the fields on the expense submission form.
 -   Scan and identify the information from handwritten notes or images. For example, ServiceNow AI Lens can scan a sequence diagram to generate a script.
 -   Search for specific information from images. For example, ServiceNow AI Lens can look for a specific clause in a scanned legal contract.
--   Process the screenshots of multiple images at once. For example, ServiceNow AI Lens can extract the data from multiple screenshots of an error to get insights on the data at one time.
+-   Process the screenshots of multiple images or files at once. For example, ServiceNow AI Lens can extract the data from multiple screenshots of an error or a Microsoft Excel file to get insights on the data at one time.
 
 ## ServiceNow AI Lens skill
 

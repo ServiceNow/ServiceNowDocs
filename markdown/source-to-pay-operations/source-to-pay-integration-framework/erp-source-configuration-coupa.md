@@ -42,7 +42,7 @@ To perform the ERP Source configuration for Coupa, perform the following steps:
 
 5.  Configure service maps for the required entities. For more information, see [Configure integration services for Coupa](../task/configure-integration-services-coupa.md).
 
-    ![ERP Source Configuration of Coupa](../image/coupa-source-config.png "ERP Source Configuration of Coupa")
+    ![ERP Source Configuration of Coupa](../../source-to-pay-operations/image/coupa-source-config.png "ERP Source Configuration of Coupa")
 
 
 You have configured the ERP source for Coupa.

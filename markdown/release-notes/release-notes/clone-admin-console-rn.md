@@ -33,6 +33,10 @@ See [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone
 
     Help prevent clone conflicts with the Clone summary, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
 
+-   **[Updated authentication model](https://www.servicenow.com/docs/access?context=configure-target-instance&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+
+    Clone Admin Console now uses JWT certificate-based authentication instead of username and password authentication, improving security and simplifying cross-instance authentication.
+
 
 ## Deprecated Features
 

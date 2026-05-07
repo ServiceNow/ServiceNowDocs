@@ -16,11 +16,11 @@ The ServiceNow® Regulatory Change Management application enables you to check u
 
 [Early availability](../quality/australia-all-other-fixes.md)
 
-The skill family name **Regulatory change management** has been updated to **Regulatory change**.
+Review the updated skill family name for Regulatory change management Now Assist skills.
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
-AI native experience with three licensing tiers is available.
+Review the updated AI experience with three licensing tiers.
 
 See [Regulatory Change Management](https://www.servicenow.com/docs/access?context=reg-change-mgmt-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
 
@@ -30,7 +30,7 @@ See [Regulatory Change Management](https://www.servicenow.com/docs/access?contex
 
 -   **Now Assist skills for Risk &amp; Sustainability**
 
-    The skill family name **Regulatory change management** has been updated to **Regulatory change** to improve naming clarity and consistency within Now Assist skills for Risk &amp; Sustainability under the Technology workflow module in the Now Assist Admin Center.
+    The skill family name Regulatory change management has been updated to Regulatory change to improve naming clarity and consistency within Now Assist skills for Risk &amp; Sustainability under the Technology workflow module in the Now Assist Admin Center.
 
 
 ## Activation information

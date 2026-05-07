@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use agentic AI in the OTM application, OT Manager Foundation, Operational Technology]
+breadcrumb: [Use agentic AI, OT Manager Foundation, Operational Technology]
 ---
 
 # Import the OT device spreadsheet into OT CMDB agentic workflow

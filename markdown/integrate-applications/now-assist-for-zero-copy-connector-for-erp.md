@@ -32,15 +32,15 @@ For more information, see [ServiceNow product tiers](https://www.servicenow.com/
 
 </td><td>
 
-[Use generative AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use generative AI capabilities offered by Now Assist for ZCC](now-assist-for-zero-copy-connectors-skills.md)
+ 
 
 </td></tr><tr><td>
 
-[Use agentic AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic AI workflows offered by Now Assist for ZCC](zero-copy-connector-for-erp-ai-agents-use-cases.md)
+[Use generative AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use generative AI capabilities offered by Now Assist for ZCC](now-assist-for-zero-copy-connectors-skills.md)
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Review reference topics to obtain information about configuring and administering Now Assist for ZCC](../reference/now-assist-for-zero-copy-connector-reference.md)
+[Use agentic AI![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use agentic AI workflows offered by Now Assist for ZCC](zero-copy-connector-for-erp-ai-agents-use-cases.md)
 
 </td><td>
 

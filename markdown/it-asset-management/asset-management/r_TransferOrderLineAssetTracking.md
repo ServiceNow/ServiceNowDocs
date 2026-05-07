@@ -1,19 +1,19 @@
 ---
 title: Transfer order line asset tracking
-description: As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
+description: Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
 locale: en-US
 release: australia
 product: Asset Management
 classification: asset-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
 ---
 
 # Transfer order line asset tracking
 
-As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
+Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
 
 When an asset is included in a transfer order line, the following takes place:
 
@@ -33,21 +33,9 @@ When a consumable is added to a transfer order line, the stock for the consumabl
 
 [Transfer order flow](../concept/transfer-order-flows.md)
 
-[Transfer assets using transfer orders](../task/t_TransferAssetsUsingTransferOrders.md)
+[Transfer order tasks](../concept/work-with-transfer-orders.md)
 
-[Summary of transfer order line tasks](r_SummaryOfTransferOrderStages.md)
-
-[Delete a transfer order](../task/t_DeleteATransferOrder.md)
-
-[Delete a transfer order line](../task/t_DeleteATransferOrderLine.md)
-
-[Return items received in a transfer order](../task/t_ReturnItemsRecInXferOrder.md)
-
-[Create a customized template task](../task/create-customized-template-task.md)
-
-[Create a template subtask](../task/create-template-subtask.md)
-
-[Perform bulk updates for transfer order lines](../task/create-bulk-transfer.md)
+[Customize transfer order line tasks](../concept/customize-transfer-order-line-tasks.md)
 
 [Delete a transfer order](../task/t_DeleteATransferOrder.md)
 

@@ -27,7 +27,7 @@ When a control objective and risk statement are associated and the control entit
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace**.
 
-2.  In the Risk Workspace, select the list ![List.](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  In the Risk Workspace, select the list ![List.](../image/list-icon-risk-workspace.png) icon.
 
 3.  Navigate to **Library** &gt; **Control objectives**.
 

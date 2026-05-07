@@ -19,7 +19,7 @@ Role required: sn\_gd\_guidance.guidance\_manager
 
 ## About this task
 
-The detail information appears in playbooks, or in a contextual side panel or in a subtab for Recommended Actions for Customer Service.
+The detail information appears in playbooks, or in a contextual side panel or in a subtab for Recommended Actions for Service.
 
 ## Procedure
 
@@ -43,5 +43,5 @@ The detail information appears in playbooks, or in a contextual side panel or in
 -   [Customize a guidance preview experience in the UI Builder](customize-ra-preview-experience.md)
 -   [Customize a guidance detail experience in the UI Builder](customize-ra-detail-experience.md)
 
-The process for configuring a guidance is the same in the Guided Decisions Experience application and the Recommended Actions for Customer Service application.
+The process for configuring a guidance is the same in the Guided Decisions Experience application and the Recommended Actions for Service application.
 

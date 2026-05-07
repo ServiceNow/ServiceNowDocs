@@ -44,11 +44,11 @@ The ServiceNow® Retail product empowers managers and associates to manage daily
 
 </td><td>
 
-[Now assist for Retail![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](rahi-retail-now-assist-for-retail.md)
+[Track and monitor store plans![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Track and monitor store plans from the workspace.](track-monitor-store-plans.md)
 
 </td><td>
 
- 
+[Now assist for Retail![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Use Now Assist for Retail to enhance user productivity and efficiency through proactive experiences using generative AI.](rahi-retail-now-assist-for-retail.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

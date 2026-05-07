@@ -25,9 +25,9 @@ If a supplier's inability to fulfill an order creates a shortfall, find an alter
 -   **[Confirm a resolution for a purchase order exception](../task/confirm-resolution.md)**  
 Confirm a resolution for a purchase order exception. You can close the purchase order exception when all necessary actions are complete.
 -   **[Reassign a purchase order exception](../task/reassign-a-purchase-order-exception.md)**  
-Reassign an open purchase order exception to another operational buyer or team member when the original assignee is unavailable, lacks the necessary authority, or when workload balancing is required. This ensures exceptions continue progressing toward resolution without delays.
+Reassign an open purchase order exception to another operational buyer or team member. Reassign the exception when the original assignee is unavailable, when the original assignee lacks the necessary authority, or when the workload must be balanced. This ensures exceptions continue progressing toward resolution without delays.
 -   **[Change the priority level of a purchase order exception](../task/change-priority-of-poe.md)**  
-Adjust the priority level of a purchase order exception manually to reflect its urgency and business impact. This capability allows procurement teams to manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
+ Adjust the priority level of a purchase order exception to reflect its urgency and business impact. You can manage exceptions effectively by ensuring high-impact disruptions receive immediate attention while lower-risk issues are handled in appropriate sequence.
 -   **[Cancel a purchase order exception](../task/cancel-purchase-orders.md)**  
 Cancel a purchase order exception that is incorrectly filled or no longer required.
 -   **[Create and assign a purchase order exception task](../task/assign-a-poe-task-to-a-collaborator.md)**  

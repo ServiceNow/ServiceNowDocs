@@ -6,7 +6,7 @@ release: australia
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Audit Workspace Overview, Audit Management, Governance, Risk, and Compliance]
 ---
@@ -21,7 +21,7 @@ An auditor analyses the operational and financial processes of a company to ensu
 
 Using the auditor workspace, auditors can perform fieldwork such as control tests, activities, interviews, and walkthroughs. They can document their work and findings, and resolve or follow up the audit findings.
 
-![Workspace for auditor.](../image/AuditorWS.jpg "Workspace for auditor")
+
 
 ## Tasks of an Auditor
 

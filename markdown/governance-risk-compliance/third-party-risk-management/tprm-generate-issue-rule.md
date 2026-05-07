@@ -25,7 +25,7 @@ In an iterative process, before the TPR manager closes an assessment, the TPR ma
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Third-party Risk Management** &gt; **Issues** &gt; **Issue Generation Rules** or **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png), and then navigate to **Assessment setup** &gt; **Issue Generation Rules**.
+1.  Navigate to **All** &gt; **Third-party Risk Management** &gt; **Issues** &gt; **Issue Generation Rules** or **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png), and then navigate to **Assessment setup** &gt; **Issue Generation Rules**.
 
 2.  Create an issue generation rule by selecting **New** and fill in the form.
 

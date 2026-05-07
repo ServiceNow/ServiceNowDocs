@@ -7,7 +7,7 @@ topic_type: reference
 last_updated: "2026-03-30"
 reading_time_minutes: 4
 keywords: [Anomaly details]
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Anomaly insights

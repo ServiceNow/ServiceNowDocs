@@ -15,15 +15,15 @@ breadcrumb: [Performance management: Metric collection, Telecom Assurance, Explo
 
 The SD-WAN Inventory Dashboard provides a visual summary of your SD-WAN network inventory, including total customers, sites, devices, and models, with breakdowns by device model and class.
 
-## Accessing the SD-WAN Inventory dashboard
+## Accessing the SD-WAN Inventory Dashboard
 
-If you are a user with the tsom\_assurance\_admin role, you can access the SD-WAN Inventory Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for and selecting SD-WAN Inventory Dashboard.
+If you're a user with the tsom\_assurance\_admin role, you can access the SD-WAN Inventory Dashboard by navigating to **All** &gt; **Platform Analytics &gt; Dashboards** and searching for and selecting SD-WAN Inventory Dashboard.
 
-![SD-WAN Inventory Dashboard: Network overview](../images/Dashboard.png)
+![SD-WAN Inventory Dashboard: Network Overview tab](../images/Dashboard.png)
 
 ## Network Overview
 
-The Network Overview provides a high-level summary of all discovered SD-WAN network inventory in the CMDB.
+The **Network Overview** tab provides a high-level summary of all discovered SD-WAN network inventory in the CMDB.
 
 The following breakdowns are available in the SD-WAN Inventory Dashboard:
 
@@ -41,9 +41,9 @@ The following breakdowns are available in the SD-WAN Inventory Dashboard:
 
 ## Filtered View
 
-The Filtered View displays the same inventory data filtered by customer, manufacturer, model, or discovery source. Use the Apply and Clear buttons to update or reset the dashboard.
+The **Filtered View** tab provides the ability to filter inventory data by customer, manufacturer, model, or discovery source.
 
-![SD-WAN Inventory Dashboard: Filtered view](../images/sd-wan-inventory-dashboard-fv.png)
+![SD-WAN Inventory Dashboard: Filtered View tab](../images/sd-wan-inventory-dashboard-fv.png)
 
 |Title|Type|Description|
 |-----|----|-----------|

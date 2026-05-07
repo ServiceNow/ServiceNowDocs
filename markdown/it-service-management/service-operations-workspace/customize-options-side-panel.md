@@ -23,7 +23,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin
 
 By default, all record pages such as an incident and interaction record page have a contextual side panel with multiple tabs in Service Operations Workspace. From these tabs, you can perform multiple tasks such as viewing the record information, collaborating through Microsoft Teams, viewing recommendations and so on.
 
-![Contextual side panel in Service Operations Workspace](../image/sow-contextual-side-panel.png "Contextual side panel in Service Operations Workspace")
+![Contextual side panel in SOW](../image/contextual-side-panel-coral-theme.png "Contextual side panel in Service Operations Workspace")
 
 ## Procedure
 

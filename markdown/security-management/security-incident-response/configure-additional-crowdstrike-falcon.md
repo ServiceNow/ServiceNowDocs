@@ -6,7 +6,7 @@ release: australia
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **All** &gt; **CrowdStrike Falcon Insight Integration** &gt; **CrowdStrike Additional Actions**.
 
-2.  Click **New** to create your own additional action or select an existing action that comes with the base system.
+2.  Select **New** to create your own additional action or select an existing action that comes with the base system.
 
     For example, let's create a new additional action.
 
@@ -115,7 +115,7 @@ Configuration
 </td></tr></tbody>
 </table>    ![CrowdStrike Falcon Insight Additional Actions](../image/falcon-insight-additional-action.png "CrowdStrike Falcon Insight Additional Actions")
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 5.  You can also choose from the following existing additional actions.
 
@@ -129,11 +129,11 @@ Configuration
 
 7.  Select the security incident that you want to review with the run additional actions on Endpoint.
 
-    1.  In the related links section, click **Run Additional Actions on Endpoint**.
+    1.  In the related links section, select **Run Additional Actions on Endpoint**.
 
     2.  Browse and select the required capability.
 
-        For example, click **reg set** capability.
+        For example, select **reg set** capability.
 
     3.  Select **Include Related CI** to run the additional actions on all the related CIs of the Endpoint.
 

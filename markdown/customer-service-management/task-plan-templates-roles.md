@@ -135,7 +135,7 @@ Can view the task plan template reports.
 
 </td><td>
 
- 
+sn\_task\_plan.viewer
 
 </td></tr><tr><td>
 

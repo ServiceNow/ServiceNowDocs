@@ -57,4 +57,8 @@ The Now Assist for FSM application includes AI agents that automate field servic
 
     Creates a work order using text or an image. The AI agent can be accessed on the platform or on the ServiceNow Agent mobile application.
 
+-   **Parts Manager**
+
+    Tracks and validates parts usage when closing work order tasks. The AI agent analyzes activity notes to update parts statuses and automatically adjusts inventory.
+
 

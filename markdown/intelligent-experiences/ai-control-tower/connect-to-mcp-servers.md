@@ -1,6 +1,6 @@
 ---
 title: Connect to MCP servers Via AI Gateway
-description: Explore an example of connecting to an MCP servers via AI Gateway.
+description: Explore examples of connecting to an MCP servers via AI Gateway.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -13,5 +13,5 @@ breadcrumb: [AI Gateway, Explore, AI Control Tower, Enable AI experiences]
 
 # Connect to MCP servers Via AI Gateway
 
-Explore an example of connecting to an MCP servers via AI Gateway.
+Explore examples of connecting to an MCP servers via AI Gateway.
 

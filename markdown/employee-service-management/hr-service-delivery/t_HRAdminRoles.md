@@ -17,7 +17,7 @@ For an HR Administrator \[sn\_hr\_core.admin\] to perform some platform duties, 
 
 ## Before you begin
 
-Role required: admin with sn\_hr\_core.admin
+Role required: sn\_hr\_core.admin
 
 -   **HR Administrator with Delegated Developer role**
 

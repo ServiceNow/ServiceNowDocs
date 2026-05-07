@@ -35,11 +35,7 @@ For users familiar with the classic Event Management experience, this feature of
 
     The ITOM AIOps configuration center page appears. The configuration center is a centralized workspace. Use it to configure and manage AIOps features from a single place.
 
-3.  On the ITOM AIOps configuration center page, under the Optimize section, select **Group alerts**.
-
-    The Group alerts page is displayed.
-
-    ![Group alerts page opens.](../image/group-automation-page.png)
+3.  On the ITOM AIOps configuration center page, under the Optimize section, select **Group alerts**
 
 4.  Select **Create automation**.
 
@@ -150,5 +146,5 @@ For users familiar with the classic Event Management experience, this feature of
 
 ## What to do next
 
-You can escalate alerts needing quicker responses from teams or individuals by implementing [respond automation](esc-notify-alert-sow-itom.md).
+You can escalate alerts needing quicker responses from teams or individuals by implementing [Create Respond automation](respond-alert-sow-itom.md).
 

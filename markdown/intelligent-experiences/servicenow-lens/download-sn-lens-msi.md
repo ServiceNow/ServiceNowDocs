@@ -29,7 +29,7 @@ Role required: admin
     -   Select the copy link \(![Copy Link icon.](../../rpa-hub/image/rpa-hub-copyurl-icon.png)\). In a browser, right-click and select the **paste and go** option.
     PORT TO AUSTRALIA
 
-
+    ![Installers on ServiceNow AI Lens Downloads page.](../image/sn-lens-download-msi.png "ServiceNow AI Lens Downloads")
 
     A dialog box might prompt you to save or open the file.
 

@@ -30,7 +30,7 @@ OSCAL Assessment Plan export generates files containing engagement and testing d
 -   Reviewed controls \(which controls and requirements are in scope for testing\)
 -   Reference to parent System Security Plan \(SSP\)
 
-Custom properties are used for CAM-specific fields not natively supported by OSCAL standards. These properties use the ServiceNow namespace and are documented on the ServiceNow product documentation site.
+Custom properties are used for CAM-specific fields not natively supported by OSCAL standards. These properties use the ServiceNow namespace.
 
 ## What gets imported
 
@@ -64,13 +64,6 @@ CAM exports engagement data to OSCAL Assessment Plan format using the following 
 -   Assessment procedures: Map to steps within activities, containing step identifiers, descriptions, and labels for control requirements
 -   Reviewed controls: Identifies which controls and requirements are in scope for testing
 -   SSP reference: Links the assessment plan to its parent package using the package UUID in the import-ssp section
-
--   **[Export an OSCAL Assessment Plan](../task/export-oscal-assessment-plan.md)**  
-Export engagement data as OSCAL Assessment Plan files to share testing plans with auditors or import into external systems.
--   **[Import an OSCAL Assessment Plan](../task/import-oscal-assessment-plan.md)**  
-Import OSCAL Assessment Plan files to automatically create engagements, control tests, and assessment procedures in your authorization package.
--   **[OSCAL Assessment Plan field mapping](oscal-ap-field-mapping.md)**  
-CAM exports engagement and control test data to OSCAL Assessment Plan format using the following field mappings.
 
 **Parent Topic:**[CAM OSCAL](../../grc-cam-workspace/concept/oscal-cam-ws.md)
 

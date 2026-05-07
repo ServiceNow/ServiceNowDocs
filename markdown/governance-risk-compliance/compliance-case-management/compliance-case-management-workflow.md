@@ -15,6 +15,10 @@ breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Complian
 
 The workflow in the Compliance Case Management application is a process that enables you to report and manage cases that need the compliance team's attention.
 
+The following diagram shows the workflow of the GRC: Compliance Case Management application.
+
+![Workflow of a compliance case.](../image/compliance-case-workflow.png "GRC: Compliance Case Management workflow")
+
 The different stages of the workflow are described as follows:
 
 -   Report a compliance case

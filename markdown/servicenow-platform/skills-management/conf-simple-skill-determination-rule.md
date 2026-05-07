@@ -79,15 +79,15 @@ Adds skills to work items using a script.
 
 7.  Create the rule.
 
-<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d178546e204">
+<table id="choicetable_vx5_gc1_wgb"><thead><tr><th align="left" id="d181131e204">
 
 Rule type
 
-</th><th align="left" id="d178546e207">
+</th><th align="left" id="d181131e207">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d178546e213">
+</th></tr></thead><tbody><tr><td id="d181131e213">
 
 **Create a simple rule**
 
@@ -100,7 +100,7 @@ Steps
 
 For information about defining skill levels, see [Define a skill level type](../../skills-management/task/define-skill-level-type.md).
 
-</td></tr><tr><td id="d178546e265">
+</td></tr><tr><td id="d181131e265">
 
 **Create a lookup rule**
 
@@ -119,7 +119,7 @@ The **Skills Field** that connects the source and reference tables is automatica
 8.  From the **Lookup table field** drop-down menu, select an attribute to map to the source table.
 
 
-</td></tr><tr><td id="d178546e337">
+</td></tr><tr><td id="d181131e337">
 
 **Create an advanced rule**
 

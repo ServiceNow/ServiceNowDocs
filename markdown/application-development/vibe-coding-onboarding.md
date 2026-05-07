@@ -24,7 +24,7 @@ The following checklist helps to ensure your environment is properly configured,
 3.  Confirm that the plugins for the tools that you want to use are installed and activated. For more information, see the following topics:
     -   [Install Build Agent](../../build-agent/tasks/install-build-agent.md)
 
-        **Note:** You can also connect a Figma MCP server to Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [Connect Figma MCP server to Build Agent](../../build-agent/tasks/connect-figma-mcp-server-to-build-agent.md#).
+        **Note:** You can also connect a Figma MCP server to Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications. For more information, see [Connect Build Agent to a Figma MCP server](../../build-agent/tasks/connect-figma-mcp-server-to-build-agent.md#).
 
     -   [Install Now Assist for Creator](../../../administer/flow-designer/task/install-now-assist-for-creator.md)
 4.  Install Developer Sandboxes, which is not required for vibe coding and AI-assisted development but provides a helpful instance to experiment with development. For more information, see [Developer Sandboxes](../../developer-sandboxes/concept/sandboxes-landing.md).

@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Sourcing and Purchasing Automation, Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -357,6 +357,9 @@ Associated email communication that has been sent.
 -   sn\_shop.atf.threshold.days
 -   sn\_shop.spend.requisition.autoorder
 -   sn\_shop.spend.requisition.autoorder.threshold
+
+    For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](../concept/pr-auto-order.md).
+
 -   sn\_shop.approval.reassessment.resend
 
 For the list of all purchasing properties, see [Purchasing properties](installed-with-FSC.md#section_fls_xdt_flb). If you have the role of a procurement administrator, you can access the Purchasing Properties module by navigating to **Sourcing and Purchasing Automation** &gt; **Administration**.
@@ -374,6 +377,8 @@ The default states that are available for a purchase requisition are listed.
 -   Pending Cancellation
 -   Pending Revision
 -   Pending Supplier Confirmation
+
+For a list of all purchase requisition states and the conditions that trigger each state change, see [Purchase requisition, purchase order, and sourcing request states](pr-po-sr-states.md).
 
 -   **[Handling fees](../concept/handling-fees.md)**  
 As an administrator, you can configure the conditions of a purchase request, which when met, adds a handling fee to that purchase request. Any field on the Purchase Request table can be used as part of the conditions to determine if a handling fee is to be applied for a purchase.

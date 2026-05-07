@@ -36,6 +36,7 @@ Each skill is configured separately, and tailored to support agents across vario
 |Activity response generation|Automatically generate recommendations for resolution notes, work notes and comments, helping agents add informative updates to case records For more info, see[Configure activity response generation](../task/configure-activity-response-generation.md).|
 |Trending topics dashboard|View trending topics across cases with insights and visualizations, helping track trend progression, regional impact, and drill down into specific trends using customizable filters. For more info see, [Configure trending topics dashboard](../task/configure-trending-topics-dashboard.md).|
 |Sentiment analysis dashboard|Gain a complete picture of customer sentiment across all cases. This dashboard leverages LLM-powered analysis to explain sentiment trends and their underlying drivers. Drill down into specific patterns to identify root causes and access real-time insights that enable managers to take precise, informed action. For more info, see [Use sentiment analysis dashboard](use-sentiment-analysis-dashboard.md)|
+|Automated quality assurance|Use generative AI to automatically score agent performance across customer interactions- eliminating manual review by evaluating every conversation against configurable quality criteria. For more info, see [Automated quality assurance](quality-assurance-management.md).|
 
 ## General Configuration Steps
 

@@ -1,5 +1,5 @@
 ---
-title: Instance Observer
+title: Monitoring instance health with Instance Observer
 description: Instance Observer \(IO\) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real time, while also providing historical insights.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 7
 breadcrumb: [Platform Health, Using Impact, Impact]
 ---
 
-# Instance Observer
+# Monitoring instance health with Instance Observer
 
 Instance Observer \(IO\) is an observability and performance monitoring tool that empowers you to track your instance health and performance in near real time, while also providing historical insights.
 

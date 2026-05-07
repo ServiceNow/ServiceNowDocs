@@ -19,9 +19,5 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 **Note:** When you use patterns for Discovery, the identity probe isn’t used. Discovery uses the appropriate identifier rules based on the CI type that you’re trying to discover as specified in the pattern operations. The operations in the pattern along with these identifier rules perform the identification and exploration phases of discovery.
 
-This diagram shows the processing flow for classifying and probing devices with identifiers configured.
-
-![Discovery identifiers](../image/DiscoveryIdentifiersDiagram.png "Discovery identifiers")
-
 **Parent Topic:**[Discovery identifiers](c_DiscoveryIdentifiers.md)
 

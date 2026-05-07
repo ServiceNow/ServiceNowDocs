@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Sourcing checkout, Setting up primary data for ShoppingHub, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing checkout, Setting up primary data Shopping, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Create sourcing checkout record

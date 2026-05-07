@@ -250,7 +250,7 @@ Manage collaboration with dealers to submit and resolve claims for repairs perfo
 
 </td><td>
 
-[Repair claims](mco-warranty-clms.md)
+[Repair claim](mco-warranty-clms.md)
 
 </td></tr><tr><td>
 

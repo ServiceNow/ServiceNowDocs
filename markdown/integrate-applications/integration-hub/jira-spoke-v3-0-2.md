@@ -656,7 +656,7 @@ Update Story
 
 Updates a set number of fields of a story in Jira Cloud with the provided input values.
 
-</td></tr><tr><td rowspan="6">
+</td></tr><tr><td rowspan="7">
 
 User Management
 
@@ -707,6 +707,14 @@ Remove User
 </td><td>
 
 Removes a user from Jira.
+
+</td></tr><tr><td>
+
+Report Personal Data
+
+</td><td>
+
+Reports personal data for given accounts to the Jira app.
 
 </td></tr><tr><td rowspan="6">
 

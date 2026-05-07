@@ -31,7 +31,7 @@ Conflict detection uses blackout and maintenance schedules to find potential sch
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d333602e97">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d335466e97">
 
 **Create a blackout schedule**
 
@@ -41,7 +41,7 @@ Conflict detection uses blackout and maintenance schedules to find potential sch
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d333602e130">
+</td></tr><tr><td id="d335466e130">
 
 **Create a maintenance schedule**
 

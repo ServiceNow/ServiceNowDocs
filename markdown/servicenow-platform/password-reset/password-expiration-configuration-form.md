@@ -1,19 +1,23 @@
 ---
 title: Password Expiration Configuration form
-description: Description of the fields on the Password Expiration Configuration form.
+description: The Password Expiration Configuration form allows you to define how frequently users must update their passwords and receive reminder notifications before expiration.
 locale: en-US
 release: australia
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2025-01-30"
 reading_time_minutes: 1
 breadcrumb: [Password Reset reference, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Password Expiration Configuration form
 
-Description of the fields on the Password Expiration Configuration form.
+The Password Expiration Configuration form allows you to define how frequently users must update their passwords and receive reminder notifications before expiration.
+
+## Access the Password Expiration Configuration form
+
+To access the **Password Expiration Configuration** form, navigate to **All** &gt; **System Properties** &gt; **Password Expiration**.
 
 <table id="table_gr2_vhw_rsb"><thead><tr><th>
 
@@ -88,8 +92,4 @@ Start time
 The time when you want a notification reminder to be started.
 
 </td></tr></tbody>
-</table>**Related topics**  
-
-
-[Password Expiration Configuration form](password-expiration-configuration-form.md)
-
+</table>

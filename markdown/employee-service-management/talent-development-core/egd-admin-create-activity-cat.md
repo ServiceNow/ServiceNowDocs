@@ -17,7 +17,7 @@ As an Talent Development Core admin you create **Activity Categories** that are 
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

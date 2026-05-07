@@ -1,6 +1,6 @@
 ---
-title: Now Assist for IT Operations Management \(ITOM\)
-description: Use the ServiceNow Now Assist for IT Operations Management \(ITOM\) application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+title: Now Assist for ITOM
+description: Use the ServiceNow Now Assist for ITOM application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 locale: en-US
 release: australia
 product: Now Assist for IT Operations Management
@@ -12,9 +12,9 @@ keywords: [generative AI for IT Operations Management, generative AI for ITOM, a
 breadcrumb: [IT Operations Management]
 ---
 
-# Now Assist for IT Operations Management \(ITOM\)
+# Now Assist for ITOM
 
-Use the ServiceNow® Now Assist for IT Operations Management \(ITOM\) application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
+Use the ServiceNow® Now Assist for ITOM application to analyze alerts in Event Management. Alert analyses include a human-readable brief of the alert and technical information to help you investigate the alert more effectively.
 
 ## Get started
 
@@ -65,11 +65,11 @@ For information about AI assets that are available on the ServiceNow AI Platform
 
 You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
-**Note:** Currently, Now Assist for ITOM only analyzes tag-based, rule-based, and Log Analytics alert groups. For all other alert group types, it only analyzes the parent alert.
+**Note:** Currently, Otto for ITOM only analyzes tag-based, rule-based, and Log Analytics alert groups. For all other alert group types, it only analyzes the parent alert.
 
 ## Dependencies
 
-For a list of Now Assist for IT Operations Management \(ITOM\) plugin dependencies, see [Applications installed with Now Assist for ITOM](../reference/app-now-assist-itom.md).
+For a list of Otto for ITOM plugin dependencies, see [Applications installed with Now Assist for ITOM](../reference/app-now-assist-itom.md).
 
 ## Troubleshoot and get help
 

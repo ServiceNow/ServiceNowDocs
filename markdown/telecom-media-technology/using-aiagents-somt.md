@@ -1,17 +1,17 @@
 ---
-title: Using agentic workflows in Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
-description: Use the Now Assist for Sales and Order Management for Telecommunications \(SOMT\) to complete tasks autonomously.
+title: Using agentic workflows in Now Assist for Sales CRM for Telecommunications
+description: Use the Now Assist for Sales CRM for Telecommunications to complete tasks autonomously.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Now Assist for Sales CRM for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Using agentic workflows in Now Assist for Sales and Order Management for Telecommunications \(SOMT\)
+# Using agentic workflows in Now Assist for Sales CRM for Telecommunications
 
-Use the Now Assist for Sales and Order Management for Telecommunications \(SOMT\) to complete tasks autonomously.
+Use the Now Assist for Sales CRM for Telecommunications to complete tasks autonomously.
 
 Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 

@@ -45,7 +45,7 @@ This feature is available for packages such as Impact Advanced and Impact Total 
 
 -   **Session Preparation**
 
-    ServiceNow   Impact Accelerator consultant evaluates the request and may gather additional information and assets based on the question submission.
+    ServiceNow   Impact Technical Accelerator consultant evaluates the request and may gather additional information and assets based on the question submission.
 
 -   **Access to Experts Customer Session \(variable time allotment based on request\)**
 

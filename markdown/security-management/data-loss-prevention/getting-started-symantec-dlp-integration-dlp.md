@@ -47,11 +47,11 @@ Review the Symantec DLP integration roles and permissions.
 
 </td></tr><tr><td>
 
-Verify you are using Symantec DLP 15.8
+Verify the Symantec DLP version
 
 </td><td>
 
-The Symantec DLP integration for Data Loss Prevention is tested with 15.8 version of Symantec Data Loss Prevention.**Note:** Ensure that you are using Symantec DLP 15.8
+Ensure that you're using Symantec DLP version 15.8 or higher.
 
 </td></tr><tr><td>
 

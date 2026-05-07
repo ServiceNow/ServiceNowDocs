@@ -38,7 +38,7 @@ Table data is shared in the following ways:
 
 ## Developer Sandboxes and data templates
 
-When a sandbox is allocated, it inherits the baseline data configuration of scoped apps, unless there is data that can't be copied. For more information on templates, see [Create a sandbox template](../task/create-sandbox-template.md).
+When a sandbox is allocated, it inherits the baseline data configuration of scoped apps, unless there is data that can't be copied. For more information on templates, see [Using sandbox templates](../task/create-sandbox-template.md).
 
 ## Developer Sandboxes and business rules
 

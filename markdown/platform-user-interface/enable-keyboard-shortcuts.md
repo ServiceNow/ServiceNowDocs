@@ -21,11 +21,13 @@ For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](../
 
 ## Procedure
 
-1.  Select the gear icon \(![Gear icon](../../../administer/navigation-and-ui/image/IconUI16Gear.png)\) in the banner frame to open the System Settings window.
+1.  Select the user menu, and then select **Preferences**.
 
-2.  In the General tab, select or clear the **Keyboard shortcuts enabled** option.
+2.  Select **Accessibility**.
 
-3.  Close the system settings window.
+3.  Select or clear the **Enable keyboard shortcuts** option.
+
+4.  Close the Preferences window.
 
 
 **Parent Topic:**[Core UI keyboard shortcuts](../reference/r_KeyboardShortcuts.md)

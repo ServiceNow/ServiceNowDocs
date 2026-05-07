@@ -25,6 +25,8 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user
 
 The Goal insights skill analyzes the goal, its targets, subgoals, and aligned work, then delivers concise, data‑driven insights—including AI forecasted status, confidence of achieving the goal, targets at risk, delayed or stalled aligned work and recommendations.
 
+**Note:** When you generate insights for a goal, insights are also generated individually for each of its targets.
+
 The skill analyzes the real-time data — including check-in patterns, comments, and planned versus actual progress — to forecast goal status and surface proactive recommendations.
 
 **Tip:** For better reviews and recommendations, use the Goal insights skill with the AWS Claude model.
@@ -32,6 +34,8 @@ The skill analyzes the real-time data — including check-in patterns, comments,
 **Note:** Only the owner or contributors of the goal can generate insights for the goal.
 
 ![Generate goal insights in Strategic Planning Workspace using Goal insights skill.](../images/generate-goal-insights.gif)
+
+**Note:** If the Goal insights generation job is enabled, it automatically generates insights for each goal based on the job's run frequency. Before manually regenerating, check the timestamp on the goal insights summary card to confirm when insights were last generated — regenerating unnecessarily increases token consumption. You can also view the last generated insights in the **AI rationale** column of the goal list. If goal or target data has changed since the last run, select the refresh icon on the goal insights summary card to regenerate the insights.
 
 ## Procedure
 

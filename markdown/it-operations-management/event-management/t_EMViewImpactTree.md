@@ -52,7 +52,7 @@ Event Management Part 2 \| Impact Tree
     -   **OK \(green\)**: An alert is created. The resource is still functional.
 6.  Do one or more of the following.
 
-<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d285729e217">
+<table id="choicetable_rdg_w1m_35"><tbody><tr><td id="d290980e217">
 
 **Adjust impact rules**
 
@@ -62,7 +62,7 @@ Event Management Part 2 \| Impact Tree
 2.  Review and adjust the impact rules as necessary.
 
 
-</td></tr><tr><td id="d285729e238">
+</td></tr><tr><td id="d290980e238">
 
 **Remediate an alert**
 

@@ -21,16 +21,11 @@ Activating the GRC: CAM plugin adds or modifies several tables, user roles, and 
 
 Default properties are set with activation of CAM plug-in.
 
-To configure the CAM report properties, navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** &gt; **System Properties**.
-
--   Enter the days in the **Days before Next Authorization to create engagement** field to automatically create the next engagement in the authorization package. The days entered in this field in System Properties are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package.
-
-    For more information, see [View package details in CAM Workspace](../../grc-cam-workspace/task/auth-package-overview-ws.md).
-
--   In the **Homepage Title** field, you can customize the homepage title. Enter your organization-specific terminology. The default value is Continuous Authorization Monitoring. The homepage title updates immediately after saving.
--   In the **Days Before Next Authorization** field, you can configure authorization timing. Enter the number of days before reauthorization that the system should display a warning.
+To configure the CAM system properties, navigate to **All** &gt; **Continuous Authorization and Monitoring** &gt; **Administration** &gt; **System Properties**.
 
 ![ATO Artifacts System Properties.](../../grc-cam-workspace/image/cam-ato-artifacts-system-properties.png)
+
+### Report template configuration properties
 
 <table id="table_wxn_rh3_ydc"><thead><tr><th>
 
@@ -157,4 +152,13 @@ Specifies the type of template to be used for Executive Summary report. By defau
 -   Word: a533486e47711250ce3ab9b4416d4303
 
 </td></tr></tbody>
-</table>
+</table>### Other system properties
+
+-   **Days before Next Authorization to create engagement**: Enter the days in the field to automatically create the next engagement in the authorization package. The days entered in this field are subtracted from the next authorization date to determine the next engagement date, which is recorded in the authorization package.
+
+    For more information, see [View package details in CAM Workspace](../../grc-cam-workspace/task/auth-package-overview-ws.md).
+
+-   **Homepage Title**: You can customize the homepage title using this field. Enter your organization-specific terminology. The default value is Continuous Authorization Monitoring. The homepage title updates immediately after saving.
+-   **Days before next authorization to set boundary to re-authorize**: You can configure authorization period in this field. Specify how many days before the authorization due date the system should display a re-authorization warning.
+-   **Overlay execution**: You can configure the execution mode of the overlay operation that's applied to an authorization package. When set to Sync, the operation runs synchronously and the Overlay screen \(Add, Edit, or Remove\) remains open until the operation completes. When set to Async, the operation runs asynchronously in the background and the pop-up closes immediately on submission.
+

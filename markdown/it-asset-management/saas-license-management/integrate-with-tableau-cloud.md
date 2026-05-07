@@ -70,7 +70,7 @@ Register a Tableau Cloud application through the Tableau Cloud admin portal.
 
             The Connected App that you created gets displayed on the Connected Apps page. By default, the Connected App is inactive.
 
-        8.  To enable the Connected App, select the ellipsis icon \(![Ellipsis icon.](../../../reuse/icons/product-icons/ellipsis-horizontal-outline-24.svg)\) next to the Connected App name and then select **Enable**.
+        8.  To enable the Connected App, select the ellipsis icon ![](../../../reuse/icons/product-icons/ellipsis-horizontal-outline-24.svg) next to the Connected App name and then select **Enable**.
 
             The status of the Connected App shows as enabled.
 
@@ -103,15 +103,15 @@ If you’re using the Software Asset Workspace, the option to create the integra
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d39155e495">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41452e487">
 
 Interface
 
-</th><th align="left" id="d39155e498">
+</th><th align="left" id="d41452e490">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39155e504">
+</th></tr></thead><tbody><tr><td id="d41452e496">
 
 **Core UI**
 
@@ -122,7 +122,7 @@ Action
 3.  Select **Tableau Cloud**.
 
 
-</td></tr><tr><td id="d39155e546">
+</td></tr><tr><td id="d41452e538">
 
 **Software Asset Workspace**
 

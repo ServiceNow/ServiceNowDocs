@@ -75,5 +75,5 @@ A strand refers to an individual conductor or wire within the cable. Cables are 
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

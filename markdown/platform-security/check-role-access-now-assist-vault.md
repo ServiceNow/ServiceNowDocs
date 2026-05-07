@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, Now Assist for Vault]
+breadcrumb: [Use generative AI skills, ServiceNow Vault]
 ---
 
 # Check role access for an encrypted column with Now Assist for Vault

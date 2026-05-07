@@ -21,7 +21,7 @@ Role required: sn\_grc\_pdr.pdr\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Personal Data Rights Workspace** &gt; ****
+1.  Navigate to **All** &gt; **Personal Data Rights Workspace**
 
 2.  On the PDR Workspace, navigate to **Lists** &gt; **Personal data rights** &gt; **All requests**.
 
@@ -30,6 +30,8 @@ Role required: sn\_grc\_pdr.pdr\_agent
 4.  On the Action tasks related list, select the action task that you want to accept.
 
 5.  Select **Accept work**.
+
+    **Note:** You can only accept work on action tasks that are in the Assigned state. If the task is not yet assigned, select **Update state**, then change the state to Assigned.
 
 6.  Provide your notes and select **Accept work**.![Accept work on an assigned action task.](../image/accept-work-on-action-task.png)
 
@@ -44,4 +46,11 @@ Role required: sn\_grc\_pdr.pdr\_agent
 
 
 **Parent Topic:**[Using Personal Data Rights](../concept/using-personal-data-right.md)
+
+**Related topics**  
+
+
+[Workflow of Personal Data Rights](../concept/workflow-of-personal-data-rights.md)
+
+[Add action tasks to a Personal Data Rights request](add-action-tasks-to-a-personal-data-rights-request.md)
 

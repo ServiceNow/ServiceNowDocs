@@ -49,15 +49,15 @@ After the automation request is moved to the following states, the option to cre
 
 7.  Fill details in the Details form.
 
-<table id="choicetable_qpb_b1t_zfc"><thead><tr><th align="left" id="d281237e165">
+<table id="choicetable_qpb_b1t_zfc"><thead><tr><th align="left" id="d192966e165">
 
 Field
 
-</th><th align="left" id="d281237e168">
+</th><th align="left" id="d192966e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d281237e174">
+</th></tr></thead><tbody><tr><td id="d192966e174">
 
 **Name**
 
@@ -65,7 +65,7 @@ Description
 
 Provide a name for the checklist.This is a mandatory field.
 
-</td></tr><tr><td id="d281237e185">
+</td></tr><tr><td id="d192966e185">
 
 **Description**
 
@@ -73,7 +73,7 @@ Provide a name for the checklist.This is a mandatory field.
 
 Provide a description.
 
-</td></tr><tr><td id="d281237e194">
+</td></tr><tr><td id="d192966e194">
 
 **State**
 
@@ -81,7 +81,7 @@ Provide a description.
 
 Provide a state.When a checklist is first created, the state is New. If you’re updating an existing checklist, you can change the state manually.
 
-</td></tr><tr><td id="d281237e205">
+</td></tr><tr><td id="d192966e205">
 
 **Assignment group**
 
@@ -89,7 +89,7 @@ Provide a state.When a checklist is first created, the state is New. If you’re
 
 Select an appropriate assignment group from the list.
 
-</td></tr><tr><td id="d281237e215">
+</td></tr><tr><td id="d192966e215">
 
 **Assigned to**
 
@@ -97,7 +97,7 @@ Select an appropriate assignment group from the list.
 
 Select a user who you want to view and review the checklist.**Note:** The user must have the sn\_ac.automation\_technical\_user role. Based on your choice in the **Assignment group** field, this filed is populated.
 
-</td></tr><tr><td id="d281237e229">
+</td></tr><tr><td id="d192966e229">
 
 **Due date**
 

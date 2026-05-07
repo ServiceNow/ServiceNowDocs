@@ -59,7 +59,7 @@ Overview of assessments, surveys, and quizzes
 -   **[Exploring Assessments and Surveys](assessments-and-surveys.md)**  
 The Assessments and Surveys application helps you create, send, and collect responses for surveys. The application also helps you evaluate, score, and rank records from any table in the system. Create questionnaires that you can assign to one or more users to assess their knowledge of any subject.
 -   **[Surveys](../../survey-administration/reference/r_SurveyManagementLandingPage.md)**  
-With Surveys, you can create, send, and collect responses for basic surveys. If installed, you can also use the Survey widget to set up a survey within Service Portal.
+
 -   **[Assessments](../reference/r_Assessments.md)**  
 Use assessments to evaluate, score, and rank records from any table in the system.
 -   **[Installed with Assessments and Surveys](../reference/r_InstalledWithAssessments.md)**  

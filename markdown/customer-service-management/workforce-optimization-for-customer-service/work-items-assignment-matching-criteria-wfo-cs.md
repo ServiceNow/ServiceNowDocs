@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Create a criteria for a matching rule in Work scheduler, Assigning work, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Create a criteria for a matching rule in Work scheduler, Assigning work, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Matching criteria for work items in Work scheduler

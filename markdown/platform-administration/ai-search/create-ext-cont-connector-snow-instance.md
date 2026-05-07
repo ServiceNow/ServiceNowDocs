@@ -26,8 +26,6 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 Create a ServiceNow® instance external content connector to retrieve content and metadata from a remote source instance and make it searchable on the destination instance where the connector runs.
 
-You can only create one ServiceNow® instance external content connector on a given destination instance.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.

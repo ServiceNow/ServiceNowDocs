@@ -107,7 +107,7 @@ You can configure notifications to be sent to specific recipients when selected 
 3.  From **Recipients**, select one or more recipients.
 4.  If you select **a specific user** or **a specific group**, you are prompted to select a user or group.
 5.  To define more notifications using other fields or recipients, repeat the preceding steps for the next set of notification settings.
-6.  To remove a notification, click the ![delete notification symbol](../../threat-intelligence/image/DeleteNotification.png) icon to the right of the notification.
+6.  To remove a notification, select the ![delete notification symbol](../../threat-intelligence/image/DeleteNotification.png) icon to the right of the notification.
 
 
 </td></tr></tbody>

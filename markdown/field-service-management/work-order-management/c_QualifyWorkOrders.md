@@ -40,5 +40,13 @@ Depending on how the [Qualification is required for new requests](../task/t_Conf
 
 ## Filtering available dispatch groups
 
-The **work.management.limit.location** property controls whether the choice list of available dispatch groups is filtered by proximity to the task location.
+The following table describes the properties that control whether the choice-list of available dispatch groups is filtered by proximity to the task location.
+
+|Mechanism|Name|Purpose|
+|---------|----|-------|
+|SM Config setting|**use\_location**|Master toggle in the local Service Management configuration that controls whether location/proximity is used in agent recommendations|
+|Property|**autodispatch.geolocation**|Enables geolocation-based distance calculations for auto-dispatch|
+|Property|**travel.calculation.auto\_assignment**|Controls map provider for manual/auto assignment \(defaults to Google Maps API\)|
+|Property|**travel.calculation.dynamic\_scheduling**|Controls map provider for dynamic scheduling \(defaults to straight-line estimate\)|
+|Property|**work.spacing**|Task spacing in hours, affects travel time calculations between tasks|
 

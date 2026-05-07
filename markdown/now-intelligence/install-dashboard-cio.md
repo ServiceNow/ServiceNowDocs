@@ -40,6 +40,8 @@ Plugins:
 -   com.snc.pa.premium.sam
 -   com.snc.pa.pmo\_dashboards
 -   com.snc.pa.self\_service\_analytics
+-   com.sn\_communities
+-   com.snc.pa.request2
 
 Applications:
 
@@ -68,7 +70,7 @@ Applications:
 
         Assign the role sn\_ciodashboard.ciodashboard\_admin to users or groups who require configuration privileges on the dashboard.
 
-        **Note:** Only users with this role are able to configure the CIO Dashboard.
+        **Note:** Only users with this role can configure the CIO Dashboard.
 
     -   **CIO Dashboard end users**
 

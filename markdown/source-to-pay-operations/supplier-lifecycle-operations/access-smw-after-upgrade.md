@@ -27,7 +27,7 @@ After upgrading to the Australia release, you can see both the Source-to-Pay Wor
 
 At any time, you can revert to using the Source-to-Pay Workspace by running the **fixscript\_migrate\_workspace\_to\_s2p.xml** fix script.
 
-You can download the fix script XML files from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do).![Download fix script from Supporting Links and Docs section.](../image/smw-script-store.jpg)
+You can download the fix script XML files from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do).
 
 ## Procedure
 

@@ -20,3 +20,8 @@ Some key components of ServiceNow AI Platform® Telecommunications Service Opera
 -   Alert management: Managing, escalating, and resolving alerts
 -   Performance management: Analyzing network performance data to optimize service delivery
 
+**Related topics**  
+
+
+[Configure Telecom Assurance](set-up-fault-management.md)
+

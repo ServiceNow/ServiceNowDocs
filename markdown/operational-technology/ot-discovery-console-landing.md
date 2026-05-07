@@ -1,5 +1,5 @@
 ---
-title: Discovery Console for Operational Technology \(OT\)
+title: Discovery Console for OT
 description: Use the Discovery Console for OT component to discover, monitor, and query devices in your Operational Technology environment.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 1
 breadcrumb: [Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
-# Discovery Console for Operational Technology \(OT\)
+# Discovery Console for OT
 
 Use the Discovery Console for OT component to discover, monitor, and query devices in your Operational Technology environment.
 
@@ -19,13 +19,13 @@ Use the links to explore, configure, and learn more about the ServiceNow Discove
 
 <table id="table_iht_hgl_5yb" class="nav-card"><tbody><tr><td>
 
-Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)
+Explore
 
- [Explore the Discovery Console for OT](explore-ot-console.md)
+![](../images/BUS_64px_Explore_YG.png)[Explore the Discovery Console for OT](explore-ot-console.md)
 
 </td><td>
 
-Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)
+Configure![](../images/BUS_64px_SDLC_YG.png)
 
  [Configure the Discovery Console for OT](../task/configure-ot-console-steps.md)
 

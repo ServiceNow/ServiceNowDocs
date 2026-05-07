@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Fulfiller experience, AI-native IT Service Management, IT Service Management]
+breadcrumb: [Fulfiller experience, Simplified IT Service Management, IT Service Management]
 ---
 
 # Accept a live chat from a requester
@@ -23,7 +23,7 @@ Role required: sn\_service\_desk\_agent
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Service Operations Workspace**.
 
-    The AI-native IT Service Management landing page is displayed.
+    The Simplified IT Service Management landing page is displayed.
 
 2.  Select the **Inbox** icon and then select **Available** to set your availability.
 
@@ -56,5 +56,5 @@ Role required: sn\_service\_desk\_agent
 
 ![Ai native incident form with no chat panel.](../image/incident-ai-native-itsm.png)
 
-**Parent Topic:**[Fulfiller experience in AI-native IT Service Management](../concept/fulfiller-experience-ai-native-itsm.md)
+**Parent Topic:**[Fulfiller experience in Simplified IT Service Management](../concept/fulfiller-experience-ai-native-itsm.md)
 

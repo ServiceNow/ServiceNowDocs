@@ -1,6 +1,6 @@
 ---
 title: Edit raw log data before processing in Health Log Analytics
-description: You can modify raw log data and drop or break up log messages before they are treated in the MID Server, and therefore before Health Log Analytics maps and structures them.
+description: Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 locale: en-US
 release: australia
 product: Health Log Analytics
@@ -14,7 +14,7 @@ breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITO
 
 # Edit raw log data before processing in Health Log Analytics
 
-You can modify raw log data and drop or break up log messages before they are treated in the MID Server, and therefore before Health Log Analytics maps and structures them.
+Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Role required: evt\_mgmt\_admin
 
     3.  Note how the JavaScript function affects the log lines.
 
-5.  In the **Raw input samples** field, choose a log sample that will show the effect of your new JavaScript function on log lines when you test it.
+5.  In the **Raw input samples** field, choose a log sample that will show the effect of the new JavaScript function you're going to define on log lines when you test it.
 
 6.  Define a JavaScript function that modifies your raw log data before Health Log Analytics maps and structures it.
 
@@ -95,7 +95,7 @@ Object that contains the event stream. To access the event stream, call the meta
             |splitEvents|Array of log messages after the JavaScript function has divided the original message.|
 
         -   To discard a log message, call `return drop()`.
-    2.  Test the JavaScript function by selecting **Test** and viewing the outcome on your log sample in related lists.
+    2.  Test your JavaScript function by selecting **Test** and viewing the outcome on the log sample in related lists.
 
         |Tab|Description|
         |---|-----------|

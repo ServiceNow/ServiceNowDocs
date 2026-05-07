@@ -23,11 +23,11 @@ The show workflow icon \(![Core UI show workflow icon](../image/IconRelatedincid
 
 ## Procedure
 
-1.  In the form, right-click the label for the workflow field and select **Configure** &gt; **Configure Dictionary**.
+1.  In the form, select and hold \(or right-click\) the label for the workflow field and select **Configure** &gt; **Configure Dictionary**.
 
 2.  Add the **ref\_contributions=show\_workflow** dictionary attribute in the **Attributes** field.
 
-3.  Click **Update**.
+3.  Select **Update**.
 
     The form reopens and the show workflow icon appears beside the field on the right.
 

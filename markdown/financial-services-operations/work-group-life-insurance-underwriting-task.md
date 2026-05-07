@@ -29,7 +29,7 @@ The configured workflow automatically generates an underwriting task for an unde
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d53162e88">
+<table><tbody><tr><td id="d54675e88">
 
 **From the Group Life Underwriting task list**
 
@@ -50,15 +50,15 @@ The configured workflow automatically generates an underwriting task for an unde
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d53162e169">
+<table><thead><tr><th align="left" id="d54675e169">
 
 Underwriting task
 
-</th><th align="left" id="d53162e172">
+</th><th align="left" id="d54675e172">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d53162e178">
+</th></tr></thead><tbody><tr><td id="d54675e178">
 
 **To review coverage change**
 
@@ -68,7 +68,7 @@ To close the task:-   In the case playbook, click **Mark complete**.
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d53162e205">
+</td></tr><tr><td id="d54675e205">
 
 **To submit a review**
 

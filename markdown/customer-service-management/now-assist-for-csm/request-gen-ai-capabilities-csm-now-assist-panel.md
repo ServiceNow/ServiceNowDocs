@@ -42,15 +42,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 4.  After you request the generative AI capabilities, you can summarize a chat for an interaction, summarize a chat for a case created from an interaction, summarize a case, generate the resolution notes for a case, summarize a call, generate a knowledge article, ask questions about a case, use AI agents to complete cases, and complete tasks with conversational subflows and actions.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d38293e203">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d40760e203">
 
 Option
 
-</th><th align="left" id="d38293e206">
+</th><th align="left" id="d40760e206">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d38293e212">
+</th></tr></thead><tbody><tr><td id="d40760e212">
 
 **Summarize the chat for an interaction**
 
@@ -61,7 +61,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d38293e248">
+</td></tr><tr><td id="d40760e248">
 
 **Summarize the chat for a case that is created from an interaction**
 
@@ -72,7 +72,7 @@ Description
 3.  In the Now Assist panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the case was created is displayed.
 
 
-</td></tr><tr><td id="d38293e284">
+</td></tr><tr><td id="d40760e284">
 
 **Summarize a case**
 
@@ -83,7 +83,7 @@ Description
 3.  In the Now Assist panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d38293e320">
+</td></tr><tr><td id="d40760e320">
 
 **Generate case resolution notes**
 
@@ -94,7 +94,7 @@ Description
 3.  In the Now Assist panel, select **Generate resolution notes**.
 
 
-</td></tr><tr><td id="d38293e357">
+</td></tr><tr><td id="d40760e357">
 
 **Summarize a call**
 
@@ -105,7 +105,7 @@ Description
 3.  In the Now Assist panel, select **Summarize conversation**. A call summary of the conversation with the live agent is generated on the details page.
 
 
-</td></tr><tr><td id="d38293e393">
+</td></tr><tr><td id="d40760e393">
 
 **Generate a knowledge article**
 
@@ -116,7 +116,7 @@ Description
 3.  In the Now Assist panel, select **Generate Article**. A knowledge article is drafted for the case using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d38293e429">
+</td></tr><tr><td id="d40760e429">
 
 **Ask questions about a case**
 
@@ -127,7 +127,7 @@ Description
 3.  In the Now Assist panel, enter a case assist topic question and select a case assist topic. Information requested about the case is shown.
 
 
-</td></tr><tr><td id="d38293e462">
+</td></tr><tr><td id="d40760e462">
 
 **Use AI agents to complete cases**
 

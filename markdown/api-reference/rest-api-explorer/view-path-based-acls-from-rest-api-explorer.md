@@ -25,16 +25,15 @@ Role required: admin
 
 2.  Locate your API and expand the methods.
 
-3.  Select the menu icon next to the method that you want to check.
+3.  Select the menu icon \(![](../image/menu-icon.png)\).
 
 4.  Select **View Resource ACLs**.
 
 5.  Review the list of path-based ACLs protecting that endpoint.
 
-    ACL interaction rules:
+    ACL interaction rules include:
 
     -   **No Overriding:** Path-based ACLs do override operation-referenced ACLs or other path-based ACLs.
-    -   **All Must Pass:** All applicable ACLs must evaluate to true for access to be granted.
     -   **Owner Control:** If the API owner has restrictive ACLs, your path-based ACLs can’t bypass them.
 
 **Parent Topic:**[View path-based ACLs](view-path-based-acls.md)

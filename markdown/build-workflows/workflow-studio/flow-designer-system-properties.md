@@ -155,7 +155,7 @@ The maximum number of records to return when fetching datasn\_flow\_designer.tri
 Specify the maximum number of records a look up triggers query can return. Workflow Studio ignores triggers that exceed this limit. -   Type: integer
 -   Default value: 1000
 -   Location: **Process Automation** &gt; **Properties**
--   More information: [Create a saved record based trigger](../task/create-saved-trigger.md)
+-   More information: [Create a saved record-based trigger](../task/create-saved-trigger.md)
 
 </td></tr><tr><td>
 

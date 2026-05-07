@@ -34,15 +34,15 @@ Role required: itil, sn\_service\_desk\_agent
     -   All - List of all incidents.
 4.  Perform any of the following actions on the incident list page.
 
-<table id="choicetable_l1y_yhz_ydc"><thead><tr><th align="left" id="d182892e128">
+<table id="choicetable_l1y_yhz_ydc"><thead><tr><th align="left" id="d185245e128">
 
 Option
 
-</th><th align="left" id="d182892e131">
+</th><th align="left" id="d185245e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d182892e137">
+</th></tr></thead><tbody><tr><td id="d185245e137">
 
 **Assign to me**
 
@@ -50,7 +50,7 @@ Description
 
 Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-more-actions-v.png)\) icon corresponding to the incident record, and then select **Assign to me** to assign the incident record to yourself.
 
-</td></tr><tr><td id="d182892e155">
+</td></tr><tr><td id="d185245e155">
 
 **Reassign**
 
@@ -58,7 +58,7 @@ Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-m
 
 Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-more-actions-v.png)\) icon corresponding to the incident record, and then select **Reassign** to reassign the incident record to other agents.
 
-</td></tr><tr><td id="d182892e172">
+</td></tr><tr><td id="d185245e172">
 
 **Copy URL**
 
@@ -66,7 +66,7 @@ Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-m
 
 Select the **More actions** icon \(![](../../digital-product-release/image/dpr-icon-more-actions-v.png)\) icon corresponding to the incident record, and then select **Copy URL** to copy the URL of the incident record. You can then share the URL with other agents.
 
-</td></tr><tr><td id="d182892e189">
+</td></tr><tr><td id="d185245e189">
 
 **Copy sys\_id**
 
@@ -74,7 +74,7 @@ Select the **More actions** icon \(![](../../digital-product-release/image/dpr-i
 
 Select the **More actions** icon \(![](../../digital-product-release/image/dpr-icon-more-actions-v.png)\) icon corresponding to the incident record, and then select **Copy sys\_id** to copy the sys\_id of the incident record. You can then share the sys\_id with other agents.
 
-</td></tr><tr><td id="d182892e207">
+</td></tr><tr><td id="d185245e207">
 
 **Edit form**
 
@@ -86,7 +86,7 @@ Select the **Edit** \(![Edit](../../configuration-data-management/image/icon-edi
 -   Activity: Includes all the incident record activity information.
 
 
-</td></tr><tr><td id="d182892e239">
+</td></tr><tr><td id="d185245e239">
 
 **New**
 
@@ -94,7 +94,7 @@ Select the **Edit** \(![Edit](../../configuration-data-management/image/icon-edi
 
 Select **New** to create an incident.
 
-</td></tr><tr><td id="d182892e251">
+</td></tr><tr><td id="d185245e251">
 
 **Export**
 
@@ -102,7 +102,7 @@ Select **New** to create an incident.
 
 Select **Export** to export the list of incidents in excel \(.csv\), pdf or html.
 
-</td></tr><tr><td id="d182892e276">
+</td></tr><tr><td id="d185245e276">
 
 **Filter**
 
@@ -110,7 +110,7 @@ Select **Export** to export the list of incidents in excel \(.csv\), pdf or html
 
 Select the **Filter** \(![Filter](../../devops-config/image/pace-filter-icon.jpg)\) icon to filter the incident list based on specific conditions. You can set up these conditions to customize your filter. The animated number on the **Filter** \(![Filter](../../devops-config/image/pace-filter-icon.jpg)\) icon shows how many filters are currently applied to the incident list.
 
-</td></tr><tr><td id="d182892e311">
+</td></tr><tr><td id="d185245e311">
 
 **Refresh**
 
@@ -118,7 +118,7 @@ Select the **Filter** \(![Filter](../../devops-config/image/pace-filter-icon.jpg
 
 Select the **Refresh** \(![](../../digital-portfolio-management/image/refresh-list-icon.png)\) icon to refresh the list of incidents.
 
-</td></tr><tr><td id="d182892e325">
+</td></tr><tr><td id="d185245e325">
 
 **Search**
 
@@ -126,7 +126,7 @@ Select the **Refresh** \(![](../../digital-portfolio-management/image/refresh-li
 
 Select the **Search** \(![Search](../../configurable-workforce-optimization-itsm/image/search_icon.png)\) icon to search an incident using any incident information as variable.
 
-</td></tr><tr><td id="d182892e348">
+</td></tr><tr><td id="d185245e348">
 
 **Edit column \(Personalize list\)**
 
@@ -134,7 +134,7 @@ Select the **Search** \(![Search](../../configurable-workforce-optimization-itsm
 
 Select the **Edit column** \(![Edit column](../../itsm-workspace/image/toggle-compose-setting.png)\) icon to configure the view of the columns for the incident. The column represents the fields of the incident record. You can add or remove the columns from the incident list. An animated dot symbol on the **Edit column** option indicates whether the columns in the list are edited or personalized.
 
-</td></tr><tr><td id="d182892e375">
+</td></tr><tr><td id="d185245e375">
 
 **Group by**
 
@@ -142,7 +142,7 @@ Select the **Edit column** \(![Edit column](../../itsm-workspace/image/toggle-co
 
 Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-more-actions-v.png)\) icon corresponding to the column name, and then select **Group by** to group the incident list by the column name. The column name is the name of the field in the incident record.
 
-</td></tr><tr><td id="d182892e395">
+</td></tr><tr><td id="d185245e395">
 
 **Show matching**
 
@@ -150,7 +150,7 @@ Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-m
 
 Select the **More actions** \(![](../../digital-product-release/image/dpr-icon-more-actions-v.png)\) icon corresponding to the incident record row, and then select **Show Matching** to show the incident with matching details.
 
-</td></tr><tr><td id="d182892e412">
+</td></tr><tr><td id="d185245e412">
 
 **Filter out**
 

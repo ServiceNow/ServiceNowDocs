@@ -18,6 +18,8 @@ Set Health Log Analytics to extract specified terms from logs and map them to sp
 
 ## Before you begin
 
+For an overview of mapping, see [Log data auto-mapping and mapping in Health Log Analytics](../concept/hla-data-input-automapping.md).
+
 Role required: evt\_mgmt\_admin
 
 ## Procedure

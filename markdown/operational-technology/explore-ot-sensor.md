@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Discovery Sensor for Operational Technology \(OT\), Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+breadcrumb: [Discovery Sensor for OT, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
 ---
 
 # Explore the Discovery Sensor for OT
@@ -15,7 +15,7 @@ The Discovery Sensor for OT provides you with enhanced scanning and query functi
 
 ## Discovery Sensor for Operational Technology \(OT\) overview
 
-This section provides an overview of the Discovery Sensor for OT and its integration with the Discovery Console for OT. For detailed functionality and configuration, refer to [Discovery Console for Operational Technology \(OT\)](ot-discovery-console-landing.md).
+This section provides an overview of the Discovery Sensor for OT and its integration with the Discovery Console for OT. For detailed functionality and configuration, refer to [Discovery Console for OT](ot-discovery-console-landing.md).
 
 ## Sensors page on the Discovery Console for OT
 

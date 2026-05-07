@@ -25,15 +25,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Access the third-party review intake form either from the Legal Service Portal or from Employee Center.
 
-<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d562146e59">
+<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d571560e59">
 
 Method
 
-</th><th align="left" id="d562146e62">
+</th><th align="left" id="d571560e62">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d562146e68">
+</th></tr></thead><tbody><tr><td id="d571560e68">
 
 **Legal Service Portal**
 
@@ -44,7 +44,7 @@ Action
 3.  Search for and open the **Third-party review** request item.
 
 
-</td></tr><tr><td id="d562146e107">
+</td></tr><tr><td id="d571560e107">
 
 **Employee Center**
 
@@ -64,15 +64,15 @@ Action
 
     1.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d562146e188">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d571560e188">
 
 Method
 
-</th><th align="left" id="d562146e191">
+</th><th align="left" id="d571560e191">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d562146e197">
+</th></tr></thead><tbody><tr><td id="d571560e197">
 
 **__Choose the file__**
 
@@ -82,7 +82,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d562146e222">
+</td></tr><tr><td id="d571560e222">
 
 **__Drag the file__**
 
@@ -93,15 +93,15 @@ Drag files from your local computer into your browser window to attach them to t
 </td></tr></tbody>
 </table>4.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d562146e241">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d571560e241">
 
 Classification
 
-</th><th align="left" id="d562146e244">
+</th><th align="left" id="d571560e244">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d562146e250">
+</th></tr></thead><tbody><tr><td id="d571560e250">
 
 **Contract document**
 
@@ -113,7 +113,7 @@ In the **Document type** list, select the contract type that is relevant to the 
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d562146e274">
+</td></tr><tr><td id="d571560e274">
 
 **Supporting document**
 

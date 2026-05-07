@@ -17,7 +17,7 @@ An Talent admin can manage **Aspirations** that employees create and share.
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

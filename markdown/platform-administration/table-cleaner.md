@@ -1,6 +1,6 @@
 ---
 title: Table cleaner
-description: Prevent tables from growing to an unmanageable size by deleting records automatically.
+description: Table cleaner rules enable you to manage data growth in tables and prevent them from growing to an unmanageable size by deleting records automatically.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Explore, Data Management, Tables and data, Configure core features,
 
 # Table cleaner
 
-Prevent tables from growing to an unmanageable size by deleting records automatically.
+Table cleaner rules enable you to manage data growth in tables and prevent them from growing to an unmanageable size by deleting records automatically.
 
 ## Key benefits
 

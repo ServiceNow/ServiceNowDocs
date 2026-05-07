@@ -18,6 +18,8 @@ Fine-tune how Health Log Analytics reads your inner log messages and detects ano
 
 ## Before you begin
 
+For an overview, see [Source type structure adjustment in Health Log Analytics](../concept/hla-source-type-structure-adjustment.md).
+
 Role required: evt\_mgmt\_admin
 
 ## Procedure

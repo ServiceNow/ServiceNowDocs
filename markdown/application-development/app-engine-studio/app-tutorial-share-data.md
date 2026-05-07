@@ -92,11 +92,11 @@ Fourth video in the app creation tutorial series.
 
     1.  Select the airport table from your application dashboard in App Engine Studio.
 
-    2.  On the table landing page, select the More actions icon \(![More actions icon](../../../administer/ui-builder/image/three-dot-icon.png)\) next to **Data** in the top ribbon, then select **Fields**.
+    2.  On the table landing page, select the More actions icon \(![](../../../administer/ui-builder/image/three-dot-icon.png)\) next to **Data** in the top ribbon, then select **Fields**.
 
         ![Choose theFields data view to add and configure fields in your table.](../image/app-tutorial-connect-tables-data-fields.png)
 
-    3.  On the **Fields** page, in the **Name** field, toggle on the **Display** switch \(![Toggle on.](../../../administer/form-builder/image/toggle-on.png)\) to enable other tables to reference airport names.
+    3.  On the **Fields** page, in the **Name** field, toggle on the **Display** switch \(![](../../../administer/form-builder/image/toggle-on.png)\) to enable other tables to reference airport names.
 
         **Important:** You can select only one field to be referenced by other tables. If you attempt to select multiple fields, Table Builder keeps only one of your selections when you save your changes.
 
@@ -106,7 +106,7 @@ Fourth video in the app creation tutorial series.
 
 4.  Select the employee travel request table, where you’ll create the reference fields that pull data from the airport table.
 
-5.  On the table landing page, select the More actions icon \(![More actions icon](../../../administer/ui-builder/image/three-dot-icon.png)\) next to **Data**, then select **Fields**.
+5.  On the table landing page, select the More actions icon \(![](../../../administer/ui-builder/image/three-dot-icon.png)\) next to **Data**, then select **Fields**.
 
 6.  Create the reference fields.
 

@@ -52,7 +52,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Instance Observer](io-overview.md)
+-   [Monitoring instance health with Instance Observer](io-overview.md)
 
 </td></tr><tr><td>
 

@@ -69,8 +69,6 @@ If the position value starts with /regex/, everything after that is a regular ex
 
     The script references the variable in the form variables.odd\_even.
 
-    ![Column named referenced in variable](../image/ColumnNameReferencedInVariable.png)
-
 3.  Update the record to complete the configuration.
 
     The Odd/Even transform definition is now ready to use in a field transformation.

@@ -484,7 +484,7 @@ Boolean
 
 false
 
-</td></tr><tr><td rowspan="4">
+</td></tr><tr><td rowspan="5">
 
 MID Server
 
@@ -553,6 +553,22 @@ When the property is set to **True**, the data for Kubernetes Volume \[cmdb\_ci\
 </td><td>
 
 String
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+sn\_itom\_pattern.k8s\_add\_workload\_to\_image\_relation
+
+</td><td>
+
+Starting from Discovery and Service Mapping Patterns version 1.30.2, the Kubernetes patterns create an indirect-only relationship between Docker Image and workload CIs through Kubernetes Pods. Setting the property to true also creates direct relationships between Docker Image and the following workload CI types: Deployment, DaemonSet, ReplicaSet, StatefulSet, and ReplicationController.
+
+</td><td>
+
+Boolean
 
 </td><td>
 

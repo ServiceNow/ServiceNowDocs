@@ -1,19 +1,19 @@
 ---
 title: In-product help
-description: There are two kinds of in-product help to assist users in understanding the UI that they are using: Embedded Help and Help Center.
+description: There are two kinds of in-product help to assist users understand the UI that they are using: Embedded Help and Help Center.
 locale: en-US
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Adoption services, Configure user experiences]
 ---
 
 # In-product help
 
-There are two kinds of in-product help to assist users in understanding the UI that they are using: Embedded Help and Help Center.
+There are two kinds of in-product help to assist users understand the UI that they are using: Embedded Help and Help Center.
 
 ## In-product help overview
 
@@ -23,9 +23,9 @@ Embedded Help provides targeted help content to a user in a page in the classic 
 
 ![Catalog task page with embedded help.](../image/embedded-help.png "Embedded Help for a Catalog task page")
 
-The Help Center is the next-generation Embedded Help product for configurable workspaces. The Help Center provides targeted help content to users based on their role and specific to their location in a configurable workspace or page built with the Next Experience UI Framework.
+The Help Center is the next-generation Embedded Help product for configurable workspace. The Help Center provides targeted help content to users based on their role and specific to their location in a configurable workspace or page built with the Next Experience UI Framework.
 
-Help Center will display Embedded Help content, so you do not need to rewrite any content you previously created for Embedded Help. For more information, see [Help Center](help-center.md).
+Help Center will display Embedded Help content, so you don't have to rewrite any content you previously created for Embedded Help. For more information, see [Help Center](help-center.md).
 
 ![Workspace dashboard with help view.](../image/help-center-icon-view.png "Help Center within the Service Operations Workspace")
 

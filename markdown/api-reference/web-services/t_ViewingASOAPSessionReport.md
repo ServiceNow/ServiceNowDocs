@@ -23,8 +23,6 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Logged in users**.
 
-    ![Logged In Users](../image/LoggedInUsers.png)
-
 2.  Open an active SOAP session to see the transactions log.
 
     The SOAP session is marked as inactive within 60 seconds of the last transaction.

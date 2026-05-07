@@ -17,7 +17,7 @@ After you reassign an agent to an HR case, you can send an email to notify the a
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_core.case\_writer
 
 ## Procedure
 

@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AI Search Assist for authenticated external users, Configure the Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [AI Search Assist for authenticated external users, Customer and Consumer Service Portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search Assist Actions for authenticated external users

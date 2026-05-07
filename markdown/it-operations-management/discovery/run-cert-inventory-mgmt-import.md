@@ -17,11 +17,9 @@ In Certificate Inventory and Management, you can discover certificates by import
 
 ## Before you begin
 
-Ensure that **TLS\_keepOriginalCertificate** is set to **False**.
-
-Ensure the certificate is in one of the following formats: .cert, .pem, .txt, .der.
-
-Role required: discovery\_admin or admin
+-   Ensure that **TLS\_keepOriginalCertificate** is set to **False**.
+-   Ensure the certificate is in one of the following formats: .cert, .pem, .txt, .der, and .cer.
+-   Role required: discovery\_admin or admin
 
 ## About this task
 

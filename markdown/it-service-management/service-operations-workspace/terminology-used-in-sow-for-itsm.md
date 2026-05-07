@@ -1,6 +1,6 @@
 ---
 title: Terminology in Service Operations Workspace for ITSM
-description: You can familiarize yourself with the most used terms in Service Operations Workspace for ITSM.
+description: 
 locale: en-US
 release: australia
 product: Service Operations Workspace
@@ -12,8 +12,6 @@ breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations
 ---
 
 # Terminology in Service Operations Workspace for ITSM
-
-You can familiarize yourself with the most used terms in Service Operations Workspace for ITSM.
 
 |SOW terms|Description|
 |---------|-----------|

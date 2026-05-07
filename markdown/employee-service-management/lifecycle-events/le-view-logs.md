@@ -17,7 +17,7 @@ View the log entries associated with a Lifecycle Events case to acquire pertinen
 
 ## Before you begin
 
-Role required: admin \[sn\_hr\_le.admin\]
+Role required: sn\_hr\_le.admin
 
 ## Procedure
 

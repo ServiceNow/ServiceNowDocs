@@ -34,3 +34,5 @@ Role required: evt\_mgmt\_admin
     ![Option to delete a view](../image/sow-delete-view.png)
 
 
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

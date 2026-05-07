@@ -43,5 +43,5 @@ Use the Service Model Foundation framework to model the service organization str
 
 [Service Model Foundation business locations](../reference/industry-data-model-locations.md)
 
-[Integration with Sales and Order Management](integration-with-sales-and-order-management.md)
+[Integration with Sales Customer Relationship Management](integration-with-sales-and-order-management.md)
 

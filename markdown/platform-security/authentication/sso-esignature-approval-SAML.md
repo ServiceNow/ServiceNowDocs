@@ -6,7 +6,7 @@ release: australia
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
@@ -35,7 +35,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 4.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d240548e113">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d246333e113">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -43,7 +43,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d240548e122">
+</td></tr><tr><td id="d246333e122">
 
 **Assertion Consumer Index for eSignature authentication**
 
@@ -51,7 +51,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 If your Service Provider has more than one URL set for the AssertionConsumerURL, you can set the index to use for eSignature, starting with index 1 or more.
 
-</td></tr><tr><td id="d240548e134">
+</td></tr><tr><td id="d246333e134">
 
 **AuthnRequest URL for eSignature Authentication**
 
@@ -59,7 +59,7 @@ If your Service Provider has more than one URL set for the AssertionConsumerURL,
 
 You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSignature authentication. If the URL is the same as the Assertion Consumer URL, you can leave this setting empty.
 
-</td></tr><tr><td id="d240548e143">
+</td></tr><tr><td id="d246333e143">
 
 **Authentication pop-up Dialog Width**
 
@@ -67,7 +67,7 @@ You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSign
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 500.
 
-</td></tr><tr><td id="d240548e152">
+</td></tr><tr><td id="d246333e152">
 
 **Authentication pop-up Dialog Height**
 

@@ -1,17 +1,17 @@
 ---
-title: Module generation using Now Assist
+title: Module generation
 description: Now Assist generates application modules in UI Builder workspaces using natural-language prompts.
 locale: en-US
 release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Explore, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
-# Module generation using Now Assist
+# Module generation
 
 Now Assist generates application modules in UI Builder workspaces using natural-language prompts.
 
@@ -38,4 +38,11 @@ The Now Assist agent supports creating the following module types:
 For more information about the module types, see [Application Navigator category](../../auto-test-framework/reference/test-steps-app-navigator-category.md#).
 
 **Parent Topic:**[Exploring UI generation](exploring-ui-generation.md)
+
+**Related topics**  
+
+
+[Generate modules using Now Assist](../task/generate-ai-modules.md)
+
+[Use case: Generate modules using Now Assist](use-case-module-generation.md)
 

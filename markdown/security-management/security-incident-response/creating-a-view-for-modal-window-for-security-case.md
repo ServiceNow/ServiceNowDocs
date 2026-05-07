@@ -29,19 +29,19 @@ Role required: admin
 
 ## Procedure
 
-1.  Go to the source table and click **Configure** &gt; **List Layout**.
+1.  Go to the source table and select **Configure** &gt; **List Layout**.
 
     ![Configuring list layout and creating a new view name.](../image/configure-list-layout-view-name.png)
 
 2.  Go to **List view** &gt; **View name**.
 
-3.  Click **New** in the View name drop-down list and create a new view, for example, msim\_sn\_ti\_case\_modal\_view.
+3.  Select **New** in the View name drop-down list and create view, for example, msim\_sn\_ti\_case\_modal\_view.
 
 4.  Select the newly created view.
 
     Once selected, you can choose the required fields from the Available list.
 
-5.  Click **Save**.
+5.  Select **Save**.
 
 6.  Navigate to **Menu** &gt; **Views** to verify if the view has rendered properly.
 

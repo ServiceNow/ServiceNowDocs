@@ -63,11 +63,9 @@ See [Field Service Management](https://www.servicenow.com/docs/access?context=fs
     -   Manage integrations more easily by configuring options to enable or disable third-party map providers beyond the default provider.
     -   Leverage all available trainers to reduce processing time and accelerate end-to-end scheduling for high-volume scenarios by splitting qualifiers into non-overlapping sets and running multiple optimization jobs in parallel.
     -   Improve scheduling accuracy by introducing a **Window End Buffer Duration** field on the Work Order task record that enables you to configure a buffer duration that extends optimization beyond the defined window end so tasks are retained in the schedule.
-    -   Ensure that only specified technicians can be assigned to the task, overriding all other assignment preferences, by marking technicians as **Required** when creating work order tasks.
-    -   Maintain consistency by removing intraday events that do not meet the defined condition for both scheduled and prioritized optimization runs. When an event is removed from prioritized optimization, it's also removed from the scheduled intraday run.
+    -   Ensure only relevant tasks are processed by removing intraday events that don't meet specified criteria from both scheduled and prioritized optimization runs.
     -   Improve optimization control by applying matching rules to intraday events by accessing them in the **Table** field on Matching Rules.
-    -   View how qualifiers are grouped for efficient creation of multiple ML jobs using the **Job Distribution** column in both batch and intraday runs.
-    -   Control how tasks are released to technicians by configuring drip feed settings. Choose between drip mode for gradual task distribution or bulk mode for immediate assignment.
+    -   Reduce processing time for high-volume scheduling by splitting qualifiers into non-overlapping groups to run multiple optimization jobs in parallel across available trainers. View how qualifiers are grouped using the **Job Distribution** column in both batch and intraday runs.
 -   **[Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&version=australia&pubname=australia-field-service-management&ft:locale=en-US)**
 
     Use [Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&version=australia&pubname=australia-field-service-management&ft:locale=en-US) to perform the following tasks:
@@ -189,6 +187,9 @@ Field Service Management is a ServiceNow AI Platform feature that is active by d
 
     ServiceNow® Workspace is a graphical user interface that provides multiple tools on one page, including the tools that agents use to find, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are Customer Service-specific implementations that provide tier-1 agents with the tools needed to respond to customers and resolve cases.
 
+
+-   **[Now Assist for FSM release notes](now-assist-for-fsm-rn.md)**  
+The ServiceNow® Now Assist for FSM application brings generative AI to Field Service Management. Now Assist for FSM was enhanced and updated in the Australia release.
 
 **Parent Topic:**[Features and changes by product](../new-features-changes.md)
 

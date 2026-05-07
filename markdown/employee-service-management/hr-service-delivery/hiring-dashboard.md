@@ -17,7 +17,7 @@ The hiring tab works as the source of truth for the hiring manager.
 
 The hiring tab helps the hiring managers track the requests raised by them from the My job requests section.
 
-
+![Hiring tab shows number of my job requests by state and paginated details](../images/hiring-dashboard.png "Hiring tab")
 
 It provides information about the number of open requisitions by state.
 

@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Vault]
+breadcrumb: [ServiceNow Vault]
 ---
 
 # Use generative AI skills in Now Assist for Vault
@@ -28,5 +28,5 @@ Use the check role access for encrypted column skill to identify user roles that
 -   **[Schedule a Data Discovery job with Now Assist for Vault](../task/schedule-data-discovery-job-now-assist-vault.md)**  
 Use the schedule data discovery job skill to schedule one-time or recurring Data Discovery jobs with Now Assist. Data Discovery jobs can detect sensitive data such as PII or PHI provided as input to the Now LLM.
 
-**Parent Topic:**[Now Assist for Vault](now-assist-vault-landing.md)
+**Parent Topic:**[ServiceNow Vault](../../vault/reference/servicenow-vault-landing.md)
 

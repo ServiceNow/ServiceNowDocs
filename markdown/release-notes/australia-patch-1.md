@@ -21,7 +21,7 @@ The Australia Patch 1 release contains important problem fixes.
 
 For more information about the release cycle, see the [ServiceNow Release Cycle](https://support.servicenow.com/kb_view.do?sysparm_article=KB0547244).
 
-**Note:** This version is being evaluated for use in the ServiceNow Government Community Cloud \(GCC\) environment.
+**Note:** This ServiceNow AI Platform® major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
 
 For a downloadable, sortable version of the fixed problems in this release, click [here](https://downloads.docs.servicenow.com/enus/australia/rn/patches/PRBs-A01.00.xlsx).
 
@@ -43,13 +43,13 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 -   **[Associate a request header with a resource](https://www.servicenow.com/docs/access?context=associate-header-api-resource&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
-    \[Target &lt;context&gt; was unhandled by content reference generator.\]
+    The following procedure describes the process for manually associating a REST API request header with a resource. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
-    \[Target &lt;result&gt; was unhandled by content reference generator.\]
+    The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see [Export to OpenAPI specification](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/export-openapi-specification.html)
 
 -   **[Associate query parameters with a resource](https://www.servicenow.com/docs/access?context=AssocQueryParmResource&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
-    \[Target &lt;context&gt; was unhandled by content reference generator.\]
+    The following procedure describes the process for manually associating a query parameter with a resource. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
 -   **[Automatically generate API request definitions](https://www.servicenow.com/docs/access?context=autogenerate-api-request-definitions&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
@@ -117,7 +117,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
     Add a schema to a REST request record to define the request's expected data structure.
 
-    \[Target &lt;context&gt; was unhandled by content reference generator.\]
+    The following procedure describes the process for manually adding a request schema to a resource. For details about automatically generating request schema definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html)
 
 -   **[Define an API resource response structure](https://www.servicenow.com/docs/access?context=add-schema-rest-api-response&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
@@ -125,19 +125,13 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 -   **[Define available query parameters](https://www.servicenow.com/docs/access?context=t_DefineAvailableQueryParameters&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
-    \[Target &lt;context&gt; was unhandled by content reference generator.\]
+    The following procedure describes the process for manually defining query parameters for a scripted REST API service. For details about automatically generating query parameters for requests in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
 -   **[Define a scripted REST API request header](https://www.servicenow.com/docs/access?context=t_DefineRESTServiceHeaders&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
     a scripted REST API request header
 
-    \[Target &lt;titlealts&gt; was unhandled by content reference generator.\]
-
-    request
-
-    request
-
-    \[Target &lt;context&gt; was unhandled by content reference generator.\]
+    The following procedure describes the process for manual definition of a scripted REST API request header. For details about automatically generating request header definitions in non-production instances, see [Automatically generate API request definitions](https://www.servicenow.com/docs/r/api-reference/rest-api-explorer/autogenerate-api-request-definitions.html).
 
 -   **[Enhanced Requests Experience](https://www.servicenow.com/docs/access?context=my-requests-update-intro&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
 
@@ -167,7 +161,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 -   **[Manage connected content from topic pages](https://www.servicenow.com/docs/access?context=mnge-content-topics&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
 
-    \[Target &lt;info&gt; was unhandled by content reference generator.\]
+    Link your desired categories to the topics and track the additions and removals to have easier management of unconnected content.
 
 -   **[Minimum requirements and supported software for SQL API](https://www.servicenow.com/docs/access?context=minimum-requirements-and-supported-softwares&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
 
@@ -211,7 +205,7 @@ Australia Patch 1 includes fixes for security-related problems that affected cer
 
 -   **[Use Now Assist to search the CMDB](https://www.servicenow.com/docs/access?context=na-cmdb-awf-search&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
 
-    Starting with Now Assist for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs, for example, "Search for servers that depend on databases".
+    Starting with Now Assist for CMDB v3.0, searches can include parent-child nodes spanning multiple tables and can traverse relationship graphs \(searches that traverse the cmdb\_rel\_ci\), for example, "Search for servers that depend on databases".
 
 
 ## Notable fixes

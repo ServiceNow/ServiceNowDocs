@@ -63,7 +63,7 @@ Post Actionable Message
 
 </td><td>
 
-Posts an actionable message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an actionable message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Post Approval Message
 
 </td><td>
 
-Posts an approval message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an approval message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -226,7 +226,7 @@ Post Actionable Message
 
 </td><td>
 
-Posts an actionable message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an actionable message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Post Approval Message
 
 </td><td>
 
-Posts an approval message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack-1.md).
+Posts an approval message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](../../integrationhub-store-spokes/task/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -558,5 +558,5 @@ Slack Modal Configuration \[sn\_slack\_ah\_v2\_slack\_modal\_configuration\]
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Slack spoke](../../integrationhub-store-spokes/task/set-up-slack-1.md).
+For information about setting up the spoke, see [Set up Slack spoke](../../integrationhub-store-spokes/task/set-up-slack.md).
 

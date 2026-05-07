@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-21"
 reading_time_minutes: 5
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,7 +17,7 @@ Widgets are what define the content of your portal pages. You can use the base s
 
 Using widgets with Service Portal 
 
-When you create or update a page in the Service Portal Designer, you easily add widgets by searching in the widget filter and dragging a widget onto the page. You can also access all widget records from the platform at **All** &gt; **Service Portal** &gt; **Widgets**.
+When you create or update a page in the Service Portal Designer, add widgets by searching in the widget filter and dragging a widget onto the page. You can also access all widget records from the platform at **All** &gt; **Service Portal** &gt; **Widgets**.
 
 ## Base system widgets
 
@@ -35,7 +35,7 @@ For example, the following image includes four instances of the base system [Ico
 
 ![Icon link widgets from the Service Portal homepage with different icons and titles for each instance](../image/IconLinkInstances.png "Icon link widgets")
 
-**Note:** For widgets that do not contain any information by default, you must configure the options for their widget instances before they will appear on a portal page.
+**Note:** For widgets that do not include any information by default, you must configure the options for their widget instances before they will display on a portal page.
 
 ## Widget context menu
 
@@ -45,14 +45,14 @@ For example, navigate to **Service Portal** &gt; **Service Portal Home** to open
 
 ![Icon Link widget context menu](../image/WidgetContextMenu.png "Widget context menu")
 
-**Note:** You must have the admin or sp\_admin role to see the widget context menu. When you impersonate a user without one of those roles, you can still see the menu. However, a regular user signed in without those roles can’t see the menu.
+**Note:** You must have the admin or sp\_admin role to see the widget context menu. When you impersonate a user without one of those roles, you can see the menu. However, a regular user signed in without those roles can’t see the menu.
 
 |Option|Description|
 |------|-----------|
 |Widget performance|How long it takes for a widget to load|
-|Instance options|Specify an [instance of a widget](c_ConfigureWidgetInstances.md). Widgets instance options vary depending on the widget that you select. For example, the instance options for the cool clock widget include different time zones for each instance, so you can have the same clock four times on a page, but with all different time zones.|
+|Instance options|Specify an [instance of a widget](c_ConfigureWidgetInstances.md). Widget instance options vary depending on the widget that you select. For example, the instance options for the cool clock widget include different time zones for each instance, so you can have the same clock four times on a page, but with all different time zones.|
 |Instance in Page Editor|Opens that instance of the widget in the Page Editor|
-|Page Designer|Opens the widget in the [Service Portal Designer](../task/t_ConfigureAPage.md#), which lets you add containers, columns, and widgets. You can add styling from the Service Portal Designer to the widget or to the page the widget lives on.|
+|Page Designer|Opens the widget in the [Service Portal Designer](../task/t_ConfigureAPage.md#), which enables you to add containers, columns, and widgets. You can add styling from the Service Portal Designer to the widget or to the page the widget lives on.|
 |Show Widget Customizations|Shows customization levels of widgets on the page so that you can diagnose page issues. For more information, see [Widget diagnostics](sp-diagnostic-tool.md).|
 |Edit Container Background|Edit the layout in which the widget is located.|
 |Widget Options Schema|Define the options that you can select for an instance of a widget. For more information on configuring your own instance options, see [Widget option schema](c_WidgetInstanceOptions.md#).|
@@ -63,7 +63,7 @@ For example, navigate to **Service Portal** &gt; **Service Portal Home** to open
 
 ## Custom widgets
 
-Base system widgets are read-only so you can benefit from future updates. To make changes, you can clone base system widgets. However, cloned widgets are considered custom and don't benefit from future updates to the widgets they were cloned from. You can also create widgets from scratch. To learn more about cloning or creating widgets, see [Developing custom widgets](widget-dev-guide.md).
+Base system widgets are read-only so you can benefit from future updates. To make changes, you can copy base system widgets. However, copied widgets are considered custom and don't benefit from future updates to the widgets they were copied from. You can also create widgets from scratch. To learn more about copying or creating widgets, see [Developing custom widgets](widget-dev-guide.md).
 
 -   **[Configure widget instances](c_ConfigureWidgetInstances.md)**  
 Create unique instances of widgets by configuring the options for each instance.

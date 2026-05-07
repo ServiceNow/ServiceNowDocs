@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Object list component, Configure web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Object list component, Configure web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Object list component instance

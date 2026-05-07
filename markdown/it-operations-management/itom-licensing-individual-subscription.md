@@ -13,7 +13,7 @@ breadcrumb: [ITOM/OT SU Licensing subscription types, Exploring ITOM/OT SU Licen
 
 You can purchase subscriptions for individual ITOM applications \(ala carte\).
 
-The ITOM/OT SU Licensing application calculates and displays subscription consumption for ITOM applications purchased individually \(ala carte\). If your organization exceeds the number of subscription units, the Subscriptions window shows the relevant a la carte subscription as overdrawn. You cannot use unconsumed subscriptions for overdrawn subscriptions of another application.
+The ITOM/OT SU Licensing application calculates and displays subscription consumption for ITOM applications purchased individually \(a la carte\). If your organization exceeds the number of subscription units, the Subscriptions window shows the relevant a la carte subscription as overdrawn. You cannot use unconsumed subscriptions for overdrawn subscriptions of another application.
 
 The Subscriptions window displays information about the purchased and allocated subscriptions for ITOM applications.
 

@@ -38,21 +38,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Elasticsearch](../task/il-connector-hla-elasticsearch.md)
+[Amazon CloudWatch](../task/hla-data-input-cloudwatch.md)
 
 </td><td>
 
-Streams log data from Elasticsearch indices to your instance.
+Streams log data from Amazon CloudWatch to your instance.
 
 </td></tr><tr><td>
 
-[ServiceNow System Logs Retriever](../task/il-connector-hla-glide-syslog.md)
+[Amazon S3](../task/il-connector-hla-aws-s3.md)
 
 </td><td>
 
-Sends log data from the ServiceNow System Log table to the Health Log Analytics AI engine.This integration doesn't run on a MID Server.
-
-**Note:** Only a single ServiceNow System Logs Retriever data input can exist in the system, and only users with the admin role can create and configure it.
+Streams log data from Amazon S3 \(Simple Storage Service\) buckets to your instance.
 
 </td></tr><tr><td>
 
@@ -64,19 +62,11 @@ Streams log data from Apache Kafka to your instance.
 
 </td></tr><tr><td>
 
-[Splunk Poller](../task/il-connector-hla-splunk-polling.md)
+[Elasticsearch](../task/il-connector-hla-elasticsearch.md)
 
 </td><td>
 
-Pulls log data from Splunk to your ServiceNow instance periodically by query.
-
-</td></tr><tr><td>
-
-[Microsoft Azure Log Analytics](../task/il-connector-hla-azure-la.md)
-
-</td><td>
-
-Streams log data from Microsoft Azure Log Analytics to your instance. The connector points the Health Log Analytics AI engine to a data source in your Microsoft Azure Log Analytics account.
+Streams log data from Elasticsearch indices to your instance.
 
 </td></tr><tr><td>
 
@@ -96,11 +86,37 @@ Streams events from Microsoft Azure Event Hubs to your instance without a MID Se
 
 </td></tr><tr><td>
 
+[Microsoft Azure Log Analytics](../task/il-connector-hla-azure-la.md)
+
+</td><td>
+
+Streams log data from Microsoft Azure Log Analytics to your instance. The connector points the Health Log Analytics AI engine to a data source in your Microsoft Azure Log Analytics account.
+
+</td></tr><tr><td>
+
 [MID Server](../task/il-connector-hla-mid.md)
 
 </td><td>
 
 Collects log messages from the MID Server and streams them to your instance.
+
+</td></tr><tr><td>
+
+[ServiceNow System Logs Retriever](../task/il-connector-hla-glide-syslog.md)
+
+</td><td>
+
+Sends log data from the ServiceNow System Log table to the Health Log Analytics AI engine.This integration doesn't run on a MID Server.
+
+**Note:** Only a single ServiceNow System Logs Retriever data input can exist in the system, and only users with the admin role can create and configure it.
+
+</td></tr><tr><td>
+
+[Splunk Poller](../task/il-connector-hla-splunk-polling.md)
+
+</td><td>
+
+Pulls log data from Splunk to your ServiceNow instance periodically by query.
 
 </td></tr></tbody>
 </table>-   **Push integrations**
@@ -116,54 +132,6 @@ Integration
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-[UDP](../task/il-connector-hla-udp.md)
-
-</td><td>
-
-Sends raw log messages to your instance directly over a UDP socket.
-
-</td></tr><tr><td>
-
-[TCP](../task/il-connector-hla-tcp.md)
-
-</td><td>
-
-Sends raw log messages to your instance directly over a TCP/SSL socket.
-
-</td></tr><tr><td>
-
-[REST API](../task/il-connector-hla-rest-api.md)
-
-</td><td>
-
-Streams log data to your instance in JSON format.
-
-</td></tr><tr><td>
-
-[GCP PubSub](../task/il-connector-hla-gcp-pubsub.md)
-
-</td><td>
-
-Receives log messages that were published to a Google Cloud Pub/Sub topic and streams them to your instance.
-
-</td></tr><tr><td>
-
-[Splunk UDP](../task/il-connector-hla-splunkudp.md)
-
-</td><td>
-
-Streams log messages to your ServiceNow instance over the UDP transport protocol using a Splunk heavy forwarder.
-
-</td></tr><tr><td>
-
-[Splunk TCP](../task/il-connector-hla-splunktcp.md)
-
-</td><td>
-
-Streams log messages to your ServiceNow instance over the TCP transport protocol using a Splunk heavy forwarder.
-
-</td></tr><tr><td>
 
 [Amazon Data Firehose](../task/il-connector-hla-firehose.md)
 
@@ -185,7 +153,7 @@ Enables Health Log Analytics to process Cribl log messages streaming into the Se
 
 </td><td>
 
-Enable Health Log Analytics to process logs it receives from Edge Delta in a distinct format. These logs stream into the ServiceNow instance via REST.
+Enables Health Log Analytics to process logs it receives from Edge Delta in a distinct format. These logs stream into the ServiceNow instance via REST.
 
 </td></tr><tr><td>
 
@@ -193,7 +161,55 @@ Enable Health Log Analytics to process logs it receives from Edge Delta in a dis
 
 </td><td>
 
-Enable Health Log Analytics to process logs it receives from Edge Delta in a distinct format. These logs stream into the ServiceNow instance over the TCP transport protocol.
+Enables Health Log Analytics to process logs it receives from Edge Delta in a distinct format. These logs stream into the ServiceNow instance over the TCP transport protocol.
+
+</td></tr><tr><td>
+
+[GCP PubSub](../task/il-connector-hla-gcp-pubsub.md)
+
+</td><td>
+
+Receives log messages that were published to a Google Cloud Pub/Sub topic and streams them to your instance.
+
+</td></tr><tr><td>
+
+[REST API](../task/il-connector-hla-rest-api.md)
+
+</td><td>
+
+Streams log data to your instance in JSON format.
+
+</td></tr><tr><td>
+
+[Splunk TCP](../task/il-connector-hla-splunktcp.md)
+
+</td><td>
+
+Streams log messages to your ServiceNow instance over the TCP transport protocol using a Splunk heavy forwarder.
+
+</td></tr><tr><td>
+
+[Splunk UDP](../task/il-connector-hla-splunkudp.md)
+
+</td><td>
+
+Streams log messages to your ServiceNow instance over the UDP transport protocol using a Splunk heavy forwarder.
+
+</td></tr><tr><td>
+
+[TCP](../task/il-connector-hla-tcp.md)
+
+</td><td>
+
+Sends raw log messages to your instance directly over a TCP/SSL socket.
+
+</td></tr><tr><td>
+
+[UDP](../task/il-connector-hla-udp.md)
+
+</td><td>
+
+Sends raw log messages to your instance directly over a UDP socket.
 
 </td></tr><tr><td>
 
@@ -201,7 +217,7 @@ Enable Health Log Analytics to process logs it receives from Edge Delta in a dis
 
 </td><td>
 
-Enable Health Log Analytics to process log messages that are streaming into the ServiceNow instance via a Vector Agent.
+Enables Health Log Analytics to process log messages that are streaming into the ServiceNow instance via a Vector Agent.
 
 </td></tr></tbody>
 </table>

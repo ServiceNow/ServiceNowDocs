@@ -19,7 +19,7 @@ With the Sustainable IT application, hardware asset managers can make informed d
 
 Using this application, you can monitor your data center's emission performance and identify your most sustainable or greenest data centers.
 
-To collect data of the hardware asset emissions, consumption, e-waste, and energy star assets, by default, 27 metric definitions such as Energy from solar power, Energy from biomass, and so on are provided. You must activate those metric definitions for which you want to collect data and configure your entities appropriately so that the correct data is collected and displayed. The data is always collected on a monthly basis and is only displayed for the completed metric data.
+To collect data of the hardware asset emissions, consumption, e-waste, and energy star assets, by default, 27 metric definitions such as Energy from solar power, Energy from biomass, and so on are provided. You must activate those metric definitions for which you want to collect data and configure your entities appropriately so that the correct data is collected and displayed. The data is collected on a monthly basis and is only displayed for the completed metric data.
 
 For the Digital End-User Experience \(DEX\), data on energy emissions from laptops and desktops is collected using 10 metrics definitions by default. These include metric definitions such as Real-Time CO2e Emissions by Model and Real-Time Energy Consumption by Asset Location, all grouped under Dex-Real Time Emissions. Data collection occurs monthly.
 

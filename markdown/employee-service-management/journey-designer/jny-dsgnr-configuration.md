@@ -98,6 +98,8 @@ Create and manage plan configurations that are based on a plan type. Plan config
 ServiceNow administrators configure the Journey designer plan configuration feature and process.
 -   **[Enable the Now Assist Journey generation skill](../task/enable-jny-gen.md)**  
 Enable the Journey generation skill in Now Assist for HRSD using the Now Assist Admin console.
+-   **[Enable team tasks](../task/enable-team-tasks.md)**  
+Enable team tasks to allow managers to add tasks to the Lifecycle Events activity sets that appear in the Skills widget on the Journey detail page. Enabling this feature gives managers and AI agents the flexibility to tailor journeys to individual employee needs.
 -   **[Create and manage stages](../task/jny-create-manage-stages.md)**  
 Create and manage stages that are contained inside a plan. Stages contain tasks or to-do lists for managers, mentors, or employees to complete.
 -   **[Add stage configurations](../task/jny-create-stage-configuration.md)**  

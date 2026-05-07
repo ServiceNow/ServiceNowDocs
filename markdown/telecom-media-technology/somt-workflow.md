@@ -1,21 +1,21 @@
 ---
-title: Sales and Order Management for Telecommunications \(SOMT\) workflow
-description: The Sales and Order Management for Telecommunications \(SOMT\) workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
+title: Sales CRM for Telecommunications workflow
+description: The Sales CRM for Telecommunications workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 5
-breadcrumb: [Explore, Sales and Order Management for Telecommunications \(SOMT\), Telecommunications, Media, and Technology \(TMT\)]
+breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Sales and Order Management for Telecommunications \(SOMT\) workflow
+# Sales CRM for Telecommunications workflow
 
-The Sales and Order Management for Telecommunications \(SOMT\) workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
+The Sales CRM for Telecommunications workflow shows the end-to-end process for managing sales orders, from initial prospect identification through order closure.
 
-![Sales and Order Management for Telecommunications workflow](../image/somt-flow.png)
+![Flowchart showing Sales CRM for Telecommunications workflow stages](../image/mmasset0021736-telecom-workflow-vertical.svg)
 
-## Sales and Order Management for Telecommunications \(SOMT\) lifecycle stages
+## Sales CRM for Telecommunications lifecycle stages
 
 This diagram showcases the following key stages in the lifecycle including lead qualification, contract creation, order processing, and fulfillment activities:
 
@@ -41,5 +41,5 @@ This diagram showcases the following key stages in the lifecycle including lead 
     -   **Fall out management**: This path handles exception management and resolution. When orders encounter issues, errors, or require special intervention, this path ensures proper tracking, escalation, and resolution without blocking the main fulfillment flow. Problematic orders are managed separately while successful orders continue processing normally.
 9.  **Order closure**: The final stage consolidates fulfillment by progressively closing tasks at each level, from sub flows to domain orders to the complete order. Once all tasks are complete, the order closes and services are activated. Integration with the Configuration Management Database \(CMDB\) is established, enabling lifecycle management including monitoring, change control, and incident management.
 
-The Sales and Order Management for Telecommunications \(SOMT\) workflow, upon completion, results in activated services ready for customer use, a fulfilled order completing the transaction, CMDB integration for lifecycle management and monitoring, service contracts with defined entitlements, a complete audit trail ensuring compliance, and integrated systems providing end-to-end visibility.
+The Sales CRM for Telecommunications workflow, upon completion, results in activated services ready for customer use, a fulfilled order completing the transaction, CMDB integration for lifecycle management and monitoring, service contracts with defined entitlements, a complete audit trail ensuring compliance, and integrated systems providing end-to-end visibility.
 

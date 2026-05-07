@@ -42,7 +42,7 @@ In the workspace, while responding to factors, you can quickly view the guidance
 
 ## Reassign assessments
 
-If you are assigned a risk assessment that must be assessed by another user, you can reassign the assessment from the risk assessment home page. In case there are two users with the same name, you have the ability to view their email addresses while reassigning the assessment. This ability prevents users from assigning the assessment to the wrong users.![Reassign assessment to another user.](../image/reassign-assessment.jpg)
+If you are assigned a risk assessment that must be assessed by another user, you can reassign the assessment from the risk assessment home page. In case there are two users with the same name, you have the ability to view their email addresses while reassigning the assessment. This ability prevents users from assigning the assessment to the wrong users.
 
 ## View factor weighting information
 

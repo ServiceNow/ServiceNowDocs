@@ -8,7 +8,7 @@ classification: source-to-pay-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
+breadcrumb: [Configure, Source-to-Pay integration with Oracle Financial Cloud, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 
 # Define ERP source configuration for Oracle Financial Cloud
@@ -50,7 +50,7 @@ Each ERP instance requires a unique ERP source configuration. Therefore, 10 ERP 
         |Active|Option to activate the ERP source.|
         |Amount Precisions|Amount precision of the ERP source. For example, 2.|
 
-        ![Define a new ERP source configuration](../image/oracle-fin-new-erp-source.png "Define a new ERP source configuration")
+        ![Define a new ERP source configuration](../../source-to-pay-operations/image/oracle-fin-new-erp-source.png "Define a new ERP source configuration")
 
     3.  Select **Submit**.
 

@@ -1,6 +1,6 @@
 ---
 title: Requirements for installing Zero Copy Connector for ERP
-description: Before you install Zero Copy Connector for ERP, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
+description: Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\), you must complete several configurations, on both the ERP system and on the ServiceNow AI Platform.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, install, require, prerequisite, mid-server, midserver, rfc]
-breadcrumb: [Configure, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Configure, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Requirements for installing Zero Copy Connector for ERP
 
-Before you install Zero Copy Connector for ERP, you must complete several configurations, on both the ERP \(Enterprise Resource Planning\) system and on the ServiceNow AI Platform.
+Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\), you must complete several configurations, on both the ERP system and on the ServiceNow AI Platform.
 
 ## Licensing
 
@@ -39,8 +39,8 @@ Zero Copy Connector for ERP and ERP Semantic Mining currently support ECC \(mini
 
 Navigate to **All** &gt; **MID Server** &gt; **Servers**, select a MID Server, and add the following:
 
-1.  In the **Supported applications** tab, edit the list to include Zero Copy Connector for ERP.
-2.  In the **Capabilities** tab, in addition to **ALL**, edit the list to include Zero Copy Connector for ERP.
+-   In the **Supported applications** tab, edit the list to include Zero Copy Connector for ERP.
+-   In the **Capabilities** tab, in addition to **ALL**, edit the list to include Zero Copy Connector for ERP.
 
     ![MID server record related lists with capabilities tab displayed showing Zero Copy Connector for ERP.](../image/erpc-mid-server-capabilities.png)
 

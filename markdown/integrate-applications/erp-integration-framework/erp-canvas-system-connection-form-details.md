@@ -1,6 +1,6 @@
 ---
 title: Zero Copy Connector for ERP connection and credentials field descriptions
-description: The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP connects to the ERP \(Enterprise Resource Planning\) system.
+description: The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP \(Enterprise Resource Planning\) connects to the ERP system.
 locale: en-US
 release: australia
 product: ERP Integration Framework
@@ -9,12 +9,12 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, connection, credential, alias]
-breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Zero Copy Connector for ERP field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP connection and credentials field descriptions
 
-The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP connects to the ERP \(Enterprise Resource Planning\) system.
+The Connection and Credential Alias modal contains connection and credential details that specify how Zero Copy Connector for ERP \(Enterprise Resource Planning\) connects to the ERP system.
 
 For process details, see [Configure an SNC connection in Zero Copy Connector for ERP](../task/erpc-configure-an-snc-connection-in-erp-canvas.md).
 

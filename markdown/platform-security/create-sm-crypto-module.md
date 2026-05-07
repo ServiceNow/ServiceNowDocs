@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Secrets management dashboard, Secrets Management, Platform Security]
+breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---
 
 # Create a secret group cryptographic module
@@ -27,12 +27,12 @@ Role required:
 
 1.  Navigate to **All** &gt; **Secrets Management** &gt; **Create Secret Group Crypto Module**.
 
-2.  Select the type of group crypto module would you like to create.
+2.  Select the type of group crypto module you would like to create.
 
     |Cryptographic module type|Description|
     |-------------------------|-----------|
     |Create an instance accessible secret crypto module|Create instance accessible secrets that can be decrypted by your instance.|
-    |Createn a client accessible secret crypto module|Create client accessible secrets that are encrypted using your own key, which ServiceNow can’t access.|
+    |Create a client accessible secret crypto module|Create client accessible secrets that are encrypted using your own key, which ServiceNow can’t access.|
 
 3.  In the **Cryptographic Module** form, fill in the fields.
 
@@ -117,5 +117,5 @@ The parent cryptographic module, which is determined by the cryptographic module
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Secrets management dashboard](../concept/secrets-dashboard.md)
+**Parent Topic:**[Secrets Management dashboard](../concept/secrets-dashboard.md)
 

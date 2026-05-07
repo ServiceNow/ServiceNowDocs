@@ -8,7 +8,7 @@ classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Sourcing and Procurement Operations integration with third-party sourcing solutions, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
+breadcrumb: [Sourcing Procurement Operations integration third-party, Integrate, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Decision configuration for third-party sourcing

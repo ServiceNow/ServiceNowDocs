@@ -494,6 +494,12 @@ References the Load Balancer Pool \[cmdb\_ci\_lb\_pool\] table.
 
 -   **Resources discovered using the Amazon AWS - SSM Cloud Agents \(LP\) pattern**
 
+    The Amazon AWS - SSM Cloud Agents \(LP\) pattern introduces the following CI class that extends an existing CMDB class.
+
+    |CI class|Extends from|
+    |--------|------------|
+    |Cloud System Management Agent \[cmdb\_ci\_cloud\_system\_management\_agent\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+
 <table id="table_dnd_xpy_1fc"><thead><tr><th>
 
 Field
@@ -638,6 +644,12 @@ Version of the SSM agent.
 
 -   **Resources discovered using the Amazon AWS - Web ACL \(LP\) pattern**
 
+    The Amazon AWS - Web ACL \(LP\) pattern introduces the following CI class that extends an existing CMDB class.
+
+    |CI class|Extends from|
+    |--------|------------|
+    |Web ACL \[cmdb\_ci\_web\_acl\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
+
 <table id="table_il1_nbb_y2c"><thead><tr><th>
 
 Field
@@ -712,6 +724,8 @@ Discovery uses patterns to find events created for Amazon AWS Cloud components. 
 
 ## CI relationships
 
+The AWS patterns create the following relationships and references to support AWS discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
+
 -   **Relationships discovered using the Amazon AWS - ACL \(LP\) pattern**
 
     |CI|Relationship|CI|
@@ -756,7 +770,10 @@ Discovery uses patterns to find events created for Amazon AWS Cloud components. 
     |CI|Relationship|CI|
     |---|------------|---|
     |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Owns::Owned by|Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|
-    |Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|References|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
+
+    |CI|Field|Referenced CI|
+    |---|-----|-------------|
+    |Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|Pool \[pool\]|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
 
     **Note:** By default, the Amazon AWS - LB Pool Member\(LP\) pattern doesn't execute discovery. To enable the discovery of AWS Application Load Balancer targets, set the **sn\_itom\_pattern.discover\_aws\_app\_pool\_members** MID Server property to **true**. For more information, see [Enable AWS Application Load Balancer target discovery](../../service-mapping/task/enable-aws-app-lb-discovery.md).
 
@@ -836,7 +853,10 @@ Discovery uses patterns to find events created for Amazon AWS Cloud components. 
     |---|------------|---|
     |Cloud Organization \[cmdb\_ci\_cloud\_org\]|Contains::Contained by|AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|
     |AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|Contains::Contained by|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
-    |Key Value \[cmdb\_key\_value\]|Reference only|AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|
+
+    |CI|Field|Referenced CI|
+    |---|-----|-------------|
+    |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|
 
 -   **Relationships discovered using the Amazon AWS - Public IP Address \(LP\) pattern**
 
@@ -863,7 +883,6 @@ Discovery uses patterns to find events created for Amazon AWS Cloud components. 
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |Cloud System Management Agent \[cmdb\_ci\_cloud\_system\_management\_agent\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
     |Cloud System Management Agent \[cmdb\_ci\_cloud\_system\_management\_agent\]|Runs on::Runs|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
 
 -   **Relationships discovered using the Amazon AWS - Storage \(LP\) pattern**
@@ -902,7 +921,6 @@ Discovery uses patterns to find events created for Amazon AWS Cloud components. 
 
     |CI|Relationship|CI|
     |---|------------|---|
-    |Web ACL \[cmdb\_ci\_web\_acl\]|Extends from|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
     |Web ACL \[cmdb\_ci\_web\_acl\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
 
     **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://www.servicenow.com/docs/access?context=spc-install-config-aws-waf&version=australia&pubname=australia-security-management&ft:locale=en-US).

@@ -7,7 +7,7 @@ product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---
 
@@ -40,25 +40,34 @@ Despite this shared architecture, the scope, use cases, and data models they ser
 |Vendor Data Ingestion|Primarily via discovery patterns|Strong emphasis on northbound API integrations using SGCs \(EMS/NMS/controllers\)|
 |Network Types Supported|Enterprise networks, datacenters, cloud|Multi-vendor, multi-domain telecom networks \(RAN, Core, Transport, Access\)|
 
-## Infographic
+## IT Discovery vs Telecom Discovery
 
-The following infographic helps you understand the differences between TSOM and ITOM Visibility.
+The following table helps you understand the differences between ITOM Visibility and TSOM Discovery.
+
+|ITOM Discovery|Telecom Discovery|
+|--------------|-----------------|
+|Flat, simple or no hierarchy|Hierarchical, alignment to telecom models|
+|Basic attributes|Advanced attributes|
+|The network is the trusted source of truth|Inventory/CMDB design is the trusted source of truth|
+|Simple CI identification and reconciliation|Complex telecom CI identification and reconciliation|
+|Populates the CMDB with the CIs found in the network \(everything found is written into the CMDB\)|Validates that the network implementation is in sync with CMDB/TNI records as designed/planned|
+|Never miss a new CI for monitoring|Start monitoring new CIs after they have been validated|
 
 ## Key benefits
 
 Use ITOM Visibility when:
 
--   You’re discovering IT infrastructure components \(for example, Windows servers, cloud VMs, databases, load balancers\).
--   Your primary goals include service mapping, operational resilience, or cloud optimization.
--   You’re focusing on ITSM, ITOM, or DevOps use cases.
+-   Discover IT infrastructure components \(for example, Windows servers, cloud VMs, databases, load balancers\).
+-   Primary goals include service mapping, operational resilience, or cloud optimization.
+-   Focus on ITSM, ITOM, or DevOps use cases.
 
 Use Telecom Visibility when:
 
--   You’re discovering telecom network infrastructure, including devices not managed by traditional IT systems.
--   You are dealing with telecom-specific network hierarchies like cards, ports, subslots, and LAGs.
--   You rely on EMS/NMS/controllers as authoritative data sources.
--   You need discrepancy detection and reconciliation tailored for telecom inventory models.
--   You are aligning with TM Forum standards, supporting autonomous network operations, or enabling closed-loop assurance.
+-   Discovering telecom network infrastructure, including devices not managed by traditional IT systems.
+-   Dealing with telecom-specific network hierarchies like cards, ports, subslots, and LAGs.
+-   Relying on EMS/NMS/controllers as authoritative data sources.
+-   Need discrepancy detection and reconciliation tailored for telecom inventory models.
+-   Aligning with TM Forum standards, supporting autonomous network operations, or enabling closed-loop assurance.
 
 ## Examples
 

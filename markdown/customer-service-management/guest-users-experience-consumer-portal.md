@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Consumer Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Guest users experience on Consumer Portal

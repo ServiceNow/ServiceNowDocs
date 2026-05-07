@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows, Use, Source-to-Pay integration with SAP, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -40,7 +40,7 @@ Use an Outbound flow or subflow in SAP
 
     For example, select **Create non-purchase order invoice** flow.
 
-    ![Overview of the Create non purchase order invoice flow](../image/sap-integration-invoice-flow.png "Create non-purchase order invoice flow")
+    ![Overview of the Create non purchase order invoice flow](../../source-to-pay-operations/image/sap-integration-invoice-flow.png "Create non-purchase order invoice flow")
 
 5.  In the Trigger field, specify the time and interval at which you want to run the scheduled flow automatically.
 

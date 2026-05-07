@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use Now Assist, Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
 # Register a digital integration by using the conversational experience
@@ -38,15 +38,15 @@ In the application that supports Virtual Agent, for example Employee Service Cen
 
     You can start with a basic instruction such as **Request a business application** or an elaborate instruction that includes the digital integration information. The following examples show how each instruction is handled in the chat.
 
-<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d37249e162">
+<table id="choicetable_ttr_fll_b2c"><thead><tr><th align="left" id="d35243e162">
 
 Instruction
 
-</th><th align="left" id="d37249e165">
+</th><th align="left" id="d35243e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37249e171">
+</th></tr></thead><tbody><tr><td id="d35243e171">
 
 **Short: Request a digital integration**
 
@@ -64,7 +64,7 @@ Virtual Agent starts a conversation to ask more information from you about the b
 -   Can you please describe the digital integration you would like to enter?
  The information you provide is used to fill in the fields of the digital integration form. You can skip answering a question that is related to non-required fields by entering **skip**.![Screenshot showing Now AssistVirtual Agent chat window showing a request for the requesting a digital integration.](../image/register-digital-integration.png)
 
-</td></tr><tr><td id="d37249e227">
+</td></tr><tr><td id="d35243e227">
 
 **Elaborate: Request the new digital integration for the subscriber business application BuyIt and provider business application is Case Management.**
 

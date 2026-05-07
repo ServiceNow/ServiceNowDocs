@@ -8,7 +8,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-01-27"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Install Moveworks for Employee Center app from store
@@ -25,7 +25,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **Applications**.
 
-2.  Find the **Moveworks for Employee Center** application using the filters and search bar.
+2.  Find the Moveworks for Employee Center application using the filters and search bar.
 
 3.  Check for dependencies, if any, in the Review Installation Details dialog box.
 

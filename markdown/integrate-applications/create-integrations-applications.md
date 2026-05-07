@@ -87,15 +87,11 @@ Unify data from different systems into one consistent, governed layer. Package t
 
 </td></tr><tr><td>
 
-[Data Catalog](https://docs.data.world/en/375262-data-catalog.html)
+[Data Catalog](../../../administer/workflow-data-fabric/concept/data-catalog.md)
 
 </td><td>
 
-The Data Catalog is a centralized and searchable inventory of all data assets across an organization. It’s enriched with metadata, context, lineage, and governance policies to make data more discoverable, understandable, and usable by both technical and business users.Its core capabilities—such as metadata harvesting, search and discovery, business glossary, data and business lineage visualization, metadata governance and stewardship—are delivered through the data.world cloud-native platform, powered by a knowledge graph architecture.
-
-To get started, please refer to [KB2445501](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2445501), which provides details on entitlements, the required billing applications available on the ServiceNow Store.
-
-See [data.world documentation](https://docs.data.world/en/375262-data-catalog.html) for more information.
+The Data Catalog is a centralized and searchable inventory of all data assets across an organization. It’s enriched with metadata, context, lineage, and governance policies to make data more discoverable, understandable, and usable by both technical and business users.
 
 </td></tr><tr><td>
 

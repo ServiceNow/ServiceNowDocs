@@ -46,7 +46,7 @@ This infographic depicts how an administrator uses a data management policy to c
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Monitor data usage on your instance over time|[Analyzing data usage on your instance](viewing-data-usage.md)|Instance admin|
-|Archive older records|[Data archiving](../../database-rotation/concept/c_ArchiveData.md)|Instance admin|
+|Archive older records|[System Archive](../../database-rotation/concept/c_ArchiveData.md)|Instance admin|
 |Delete older or unwanted records automatically|[Table cleaner](table-cleaner.md)|Instance admin|
 |Preview and update records safely|[Updating records safely in Core UI](updating-records-safely.md)|Instance admin|
 |Preview and delete records safely|[Deleting records safely in Core UI](deleting-records-safely.md)|Instance admin|

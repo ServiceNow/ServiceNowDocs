@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Conversational Appointment Booking, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Conversational Appointment Booking, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Conversational Appointment Booking

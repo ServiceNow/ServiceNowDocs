@@ -21,7 +21,7 @@ Make sure that the Advanced Risk application is installed. You don't need to ins
 
 If the **Migrate to Advanced Risk Assessments** property is already enabled, AI Control Tower uses the same configuration, and no further setup is required.
 
-Role required: AI Risk and Compliance Admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\]
+Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin
 
 ## About this task
 

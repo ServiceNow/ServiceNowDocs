@@ -65,13 +65,13 @@ Sourcing and Procurement Operations \(SPO\) supports the following integrations:
 
     With this application, provide your customers with the ability to fetch entity data like legal entity, cost center, material, supplier, and so on, from SAP ECC and SAP HANA into ServiceNow.
 
-    For more information on this, see [Source-to-Pay integration with SAP](../../source-to-pay-operations/concept/source-to-pay-sap-integration.md).
+    For more information on this, see [Source-to-Pay integration with SAP](../../source-to-pay-integrations/concept/source-to-pay-sap-integration.md).
 
 -   **Sourcing and Procurement Operations Integration with SAP**
 
     With this application, provide your customers with the ability to send purchase orders, receipts, and returns created in Sourcing and Procurement Operations to SAP ECC and SAP S4 HANA.
 
-    For more information on this, see [Source-to-Pay integration with SAP](../../source-to-pay-operations/concept/source-to-pay-sap-integration.md).
+    For more information on this, see [Source-to-Pay integration with SAP](../../source-to-pay-integrations/concept/source-to-pay-sap-integration.md).
 
 -   **Procurement for Field Service Management**
 

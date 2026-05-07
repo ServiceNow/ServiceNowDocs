@@ -156,8 +156,3 @@ When the run is complete, a new banner appears that states you have a new versio
 
 ![The new time stamp of the Intent Discovery report](../images/intent-discovery17.png "View the new time stamp of the Intent Discovery report")
 
--   **[Install Intent Discovery](../task/install-intent-discovery.md)**  
-You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](nlu-workbench-advanced-features.md)
-

@@ -6,7 +6,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-15"
 reading_time_minutes: 2
 breadcrumb: [Cross-channel favorites, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
@@ -27,7 +27,9 @@ You can set up the favorite card details and use the default favorite icon ![def
 
 1.  Navigate to **All** &gt; **Favorites** &gt; **Favorite content configuration**.
 
-2.  Click **New** or update an existing configuration.
+2.  Select **New** or update an existing configuration.
+
+    **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
 3.  On the form, fill in the fields.
 

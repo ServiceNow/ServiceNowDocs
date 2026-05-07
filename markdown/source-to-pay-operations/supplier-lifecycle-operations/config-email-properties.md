@@ -17,7 +17,7 @@ The supplier administrator can set this property to create a supplier case autom
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_slm.admin
 
 ## About this task
 

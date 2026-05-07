@@ -19,9 +19,18 @@ Manage the scheduling for your organization from a central location. Scheduling 
 
 Managers can use demand forecasting feature to view their agent staffing forecast at 15-, 30-, and 60-minute intervals on the team calendar. Managers can monitor real-time schedule adherence of the agents using clock-in and clock-out events.
 
-The image below provides a high-level overview of the Scheduling application.
+Scheduling provides the following capabilities based on your role:
 
-![Infographic displaying managers scheduling and forecasting agent requirements from a central location. For more information, refer to the text description that follows.](../image/scheduling-overview.png)
+|Personas|Capability|Description|
+|--------|----------|-----------|
+|Scheduler \(`sn_shift_planning.admin`\)|Plan|Create shift plans that stagger breaks to support coverage.|
+|Schedule|Create schedule plans, view them, and publish the schedule for the next time period.|
+|Manage|Create time-off requests and swap shifts for your agents.|
+|Forecast|Model demand scenarios to analyze agent forecast and view updated demand on the calendar.|
+|Agent \(`sn_shift_planning.agent`\)|View team schedule|View when your peers are working and when they are taking time off.|
+|Add events|Create events such as a meeting, training, or an ad hoc work shift.|
+|Request time off|Send a request for the span of time you want to take off.|
+|Swap shifts|Trade shifts with your peers.|
 
 The image below provides a high-level overview of the tasks schedulers and agents can perform on the calendar.
 
@@ -52,5 +61,5 @@ As an agent, you can:
 
 [Setting up Scheduling in Workforce Optimization for Customer Service](setup-scheduling-configurable-wfo-cs.md#)
 
-[Scheduling in Workforce Optimization for Customer Service](scheduling-configurable-wfo-cs.md)
+[Schedule in Workforce Optimization for Customer Service](scheduling-configurable-wfo-cs.md)
 

@@ -23,7 +23,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Accounts Payable Operations** &gt; **Administration** &gt; **Approval rules**.
 
-    ![image.apo-approval-rules]
+    ![Navigate to Approval rules](../image/apo-approval-rules.png)
 
 2.  Select **New**.
 

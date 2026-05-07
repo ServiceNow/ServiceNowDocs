@@ -1,5 +1,5 @@
 ---
-title: Omnichannel customers
+title: Omnichannel
 description: Meet customers where they feel most comfortable by providing omnichannel support. Customers can use chat on the Customer Service Management portal, chat via consumer messaging apps, use email, or place a phone call.From the Customer Service Portal and Consumer Service Portal, customers can start a chat with a virtual or live agent for help.Email queries from customers can be managed either as interactions or cases. Interactions handle simple queries that can be resolved promptly, while cases are for more complex issues requiring investigation. Use interactions for simple questions and as a staging object for case categorization. Use cases for complex issues requiring investigation by the back office to facilitate proper resolution.External customers can reach out to customer service agents by phone. The Customer Service Management application uses both Computer Telephony Integration \(CTI\) and OpenFrame to provide phone support for customers.
 locale: en-US
 release: australia
@@ -10,9 +10,11 @@ keywords: [Email Interaction for CSM]
 breadcrumb: [Explore, Customer Service Management]
 ---
 
-# Omnichannel customers
+# Omnichannel
 
 Meet customers where they feel most comfortable by providing omnichannel support. Customers can use chat on the Customer Service Management portal, chat via consumer messaging apps, use email, or place a phone call.
+
+For enabling the communication channels, see [Enable communication channels](enable-comm-channels.md).
 
 Customers can use the following consumer messaging apps to message you.
 

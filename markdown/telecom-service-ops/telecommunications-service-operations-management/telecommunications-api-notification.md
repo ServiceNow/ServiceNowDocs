@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 2
 breadcrumb: [Explore, Telecommunications Service Operations Management]
 ---
@@ -17,15 +17,11 @@ Use the Telecommunications API notification to receive the external events that 
 
 ## Introduction to Telecommunications API notification
 
-Telecommunications API notification is a feature available in the Telecommunications Alarm Management Open API application. The Telecommunications API notification enables ServiceNow to receive the incoming notifications that occurring in the external network system and responds to them in a timely manner. It enables the broadcasting of events to the external systems through platform capabilities by eliminating the need for point to point connections.
+Telecommunications API notification is a feature available in the Telecommunications Alarm Management Open API application. The Telecommunications API notification enables ServiceNow to receive the incoming notifications that occurring in the external network system and responds to them in a timely manner. It enables the broadcasting of events to the external systems through platform capabilities by eliminating the need for point connections.
 
 Telecommunications API notification receives incoming notifications from the external systems that are subscribed on your network. When the notifications are received from the external system, you can create the events for the responses by using the Event Management application. Based on the collected information, the Event Management provides dashboards showing a consolidated view of all service-impact events.
 
 ## Telecommunications API notification data model
-
-The following diagram shows the components in the data model for the Telecommunications API notification.
-
-![Infographic showing the components in the Telecommunications API notification data model. For the description, see the following texts.](../images/telcomm-api-notification-data-model.png "API notification data model")
 
 The Telecommunications API notification enables ServiceNow to receive incoming notifications through the event-driven architectures such as the Publisher/Subscriber \(Pub/Sub\) subscription model, Hermes, and Kafka Stream Connect. While cloud customers have the flexibility to select between both architectures, on-premise customers are limited to using their own Kafka or Pub/Sub subscription model.
 

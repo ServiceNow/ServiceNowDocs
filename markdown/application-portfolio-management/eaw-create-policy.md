@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a certification policy
@@ -15,7 +15,7 @@ Creating a data certification policy serves as a governance mechanism to ensure 
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst
+Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
 
 ## Procedure
 

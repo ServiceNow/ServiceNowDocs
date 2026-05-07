@@ -8,7 +8,7 @@ classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Moveworks for Employee Center, Employee Center Integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
 # Moveworks for Employee Center reference

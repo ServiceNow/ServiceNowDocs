@@ -39,7 +39,5 @@ Use the Now Mobile app to view the assets that are assigned to you, to report an
 
 [Manage transfer order](../../../product/asset-management/concept/manage-transfer-orders.md)
 
-[Example Asset Management process](../../../product/asset-management/task/t_AssetManagementProcess.md)
-
 [Use Organization Management](../../../product/asset-management/reference/org-mgmt.md#)
 

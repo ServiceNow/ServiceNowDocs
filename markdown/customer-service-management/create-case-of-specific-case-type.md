@@ -35,6 +35,8 @@ In CSM Configurable Workspace, agents use the [Case type selector](../concept/cs
 
     The case type selector appears by default with the options the agent has for creating a case in the context of the record.
 
+    **Note:** The `sn_csm_case_types.enable_service_selector` property which enables the case type selector is set to true for zBoot customers, and can be enabled for upgrade customers.
+
 <table id="table_ulq_m3j_yxb"><thead><tr><th>
 
 Agent action

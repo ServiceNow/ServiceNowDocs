@@ -24,7 +24,7 @@ After you install the plugin, there are two parts to configuring a skill in Now 
 -   **[Configure a skill prompt](../task/configure-skill-prompt.md)**  
 Configure your skill prompt to set the model that is used and the randomness and creativity of the response.
 -   **[Configure skill deployment settings](../task/configure-skill-settings.md)**  
-Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
+Configure the deployment settings for the skill that you have created. The deployment settings enable you to choose where the admin can find the skill in Now Assist Admin.
 -   **[Configure security controls for a skill](../task/nask-access-control.md)**  
 You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
 

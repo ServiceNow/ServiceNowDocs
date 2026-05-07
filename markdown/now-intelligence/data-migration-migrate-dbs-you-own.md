@@ -24,7 +24,7 @@ To learn about migration and its benefits, see [Platform Analytics Migration Cen
 
 **Note:** If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
-This task is only applicable on instances that are upgraded to releases Xanadu or later. Net new instances from Xanadu onward do not have the **Ready to migrate** column or the **Switch to Next UI** button.
+This task is only applicable on instances that are upgraded to releases Australia or later. Net new instances from Australia onward do not have the **Ready to migrate** column or the **Switch to Next UI** button.
 
 ## Procedure
 

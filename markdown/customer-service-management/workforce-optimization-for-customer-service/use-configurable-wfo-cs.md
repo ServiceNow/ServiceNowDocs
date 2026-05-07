@@ -17,13 +17,15 @@ Enhance the quality and efficiency of your teams using channel management capabi
 
 -   **[Workforce Optimization for Customer Service manager workspace landing page](../../../use/dashboards/application-content-packs/wfo-cs-manager-landing-page-new.md)**  
 Monitor your teams' work and organizational performance using Workforce Optimization for Customer Service.
+-   **[Manager dashboard for operational Insights](manager-dashboard-for-operational-insights.md)**  
+The Manager Dashboard can be installed and configured independently. This change allows you to use the dashboard without installing the full Workforce Optimization suite and keeps dashboard packaging consistent with Channel Management.
 -   **[Channel Management in Workforce Optimization for Customer Service](configurable-channels-wfo-cs.md)**  
 Use Channel Management to keep a track of the real-time performance of work done by your team members through channels and queues views. You can also drill down into specific cases and chats and collaborate with your team members to achieve better results.
 -   **[Assigning work using Work Scheduler in Workforce Optimization for Customer Service](work-scheduler-wfo-cs.md)**  
 Manage your teams' work assignments easily by customizing your work queue to display the most relevant work items.
--   **[Scheduling in Workforce Optimization for Customer Service](scheduling-configurable-wfo-cs.md)**  
+-   **[Schedule in Workforce Optimization for Customer Service](scheduling-configurable-wfo-cs.md)**  
 By using Scheduling, you can manage your workforce resources efficiently by planning and managing schedules, staffing, and shifts across your teams all from one location. You can also integrate with on-call scheduling and create shifts and schedule for on-call rotations.
--   **[Understanding user criteria for event types in Workforce Optimization for Customer Service](und-user-criteria-event-types.md#)**  
+-   **[Managing user criteria for event types in Workforce Optimization for Customer Service](und-user-criteria-event-types.md#)**  
 Manage user access for any event type such as meeting, training, and time-off requests in the team calendar.
 -   **[Teams in Workforce Optimization for Customer Service](teams-configurable-wfo-cs.md#)**  
 Use Teams to track and analyze performance trends for your teams from a single location. You can monitor the trends for each agent within your team and compare your agents or team members with one another.

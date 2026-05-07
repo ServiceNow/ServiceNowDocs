@@ -122,8 +122,8 @@ This AI agent helps map admins configure the map during bulk updates to Indoor M
 Workplace Advisor is an AI-powered solution designed to help Space Planners and Facilities Managers optimize workplace management through intelligent insights and conversational support.
 -   **[Workplace Concierge agentic workflow](workplace-concierge-ai-agent.md)**  
 Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
--   **[Overview of Autonomous L1 Agent for Workplace Cases](implement-autonomous-l1-agent-for-workplace.md)**  
-Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
+-   **[implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)**  
+
 
 **Parent Topic:**[Now Assist for Workplace Service Delivery \(WSD\)](now-assist-wsd-landing.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Platform Analyze task trends agentic workflow
-description: Use the Platform Analyze task trends AI agents agentic workflow to detect recurring task patterns so that you can flag and resolve them before they escalate.
+description: Use the Platform Analyze task trends AI agents agentic workflow to detect recurring task patterns of closed tickets so that you can understand the root cause and get recommendations to prevent them from happening in future.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Platform agentic workflows, Now Assist agentic workflows, Now Assis
 
 # Platform Analyze task trends agentic workflow
 
-Use the Platform Analyze task trends AI agents agentic workflow to detect recurring task patterns so that you can flag and resolve them before they escalate.
+Use the Platform Analyze task trends AI agents agentic workflow to detect recurring task patterns of closed tickets so that you can understand the root cause and get recommendations to prevent them from happening in future.
 
 ## Analyze task trends overview
 
@@ -20,7 +20,7 @@ The Analyze task trends agentic workflow enhances task management by detecting r
 -   Get a summary of each group analysis. You have to specify which group you would like to get a summary of.
 -   Download the analysis as a PDF or Word document.
 -   Get more information by asking follow-up questions. For example, you can ask why certain suggestions were generated.
--   Analyze the next ten groups. Each analysis is done for ten groups at a time. You can continue analyzing more groups within the same conversation, but the other actions for the previous group are no longer available.
+-   Analyze the next ten groups. Each analysis is done for ten groups at a time. You can continue analyzing more groups with the same filters within the same conversation, but the other actions for the previous group are no longer available.
 
 The exact options for follow-up actions available can be configured.
 
@@ -34,7 +34,7 @@ To access this workflow, you must have Now Assist for Platform installed on your
 
 For this agentic workflow to behave as expected, you should have at least 500 records on your task table.
 
-You must also configure Group Action Framework \(GAF\). See [Group Action Framework](group-action-framework.md) for more information on what GAF is and how to set it up. The Incident table is the default table for this workflow, but you can configure GAF for other task tables such as Case or HR Case.
+You must also configure Group Action Framework \(GAF\). See [Group Action Framework](group-action-framework.md) for more information on what GAF is and how to set it up. The Incident, Case and HR Case tables use the default GAF records, but you can configure GAF for other task tables.
 
 ## Role masking
 

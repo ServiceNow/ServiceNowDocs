@@ -35,7 +35,7 @@ The following workflow describes the logical sequence of actions when an incomin
 
 ## CTI call interactions operations
 
-CTI integration with IMS and OF uses the `OpenframeInteractionUtility` script. You can use the`createOrUpdateInteractionForOpenframe` method from the utility script to create an interaction. For more information about creating interaction using APIs, see [Interaction Management API](https://www.servicenow.com/docs/access?context=interaction-management-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+CTI integration with IMS and OF uses the `OpenframeInteractionUtility` script. You can use the`createOrUpdateInteractionForOpenframe` method from the utility script to create an interaction. For more information about creating interaction using APIs, see Interaction Management API.
 
 ![FMS and CTI integration legend.](../image/cti-legend.png)
 

@@ -7,7 +7,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -465,6 +465,10 @@ Use Project Workspace to create a project and start planning for your project ta
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
 -   **[Generate and track project details from AI insights page](../task/generate-ai-project-insights-pw.md)**  
 Generate and monitor project insights directly from AI insights page in Project Workspace.
+-   **[Generate a project plan using project plan generation skill](../task/generate-project-using-ai-pw.md)**  
+Use Project plan generation skill to generate a project plan from natural language input, uploaded files, or both.
+-   **[Generate tasks for a project using project plan generation skill](../task/generate-tasks-using-ai-pw.md)**  
+Use project plan generation skill to populate an empty project with tasks by providing text input, uploading files, or both.
 -   **[Create an Asset Project Request from Project Workspace](../task/create-asset-project-requests-pw.md)**  
 Create a new asset project request directly from Project Workspace and associate it to a project for tracking and reporting purpose.
 -   **[Use Playbooks in Project Workspace](../task/use-playbooks-pw.md)**  
@@ -505,6 +509,8 @@ Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your 
 Link existing RIDAC records to one another for your project in Project Workspace. A RIDAC record stands for Risks, Issues, Actions, Decisions, and Request Changes. Keep a record of risks or issues and their outcome for analysis at project closure and planning.
 -   **[Convert one RIDAC record to another for a project in Project Workspace](../task/convert-ridac-project-workspace.md)**  
 Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a project in the Project Workspace. Keep a record of risks or issues and their outcome for analysis at project closure and planning. Track the risks and issues throughout the project life cycle.
+-   **[Generate, accept, and reject risks using risk generation skill](../task/generate-risks-using-ai-pw.md)**  
+Use generative AI to identify, generate, and manage potential risks in your project based on insights, resources, financials, and milestones.
 -   **[Export a project status report to Microsoft PowerPoint from Project Workspace](../task/export-project-status-report-to-powerpoint-from-project-workspace.md)**  
 Generate a status report of your project and export it as a Microsoft PowerPoint file from Project Workspace. You can use this file to present the project status to stakeholders or to collaborate with them over risks and next steps. Save time by generating a Microsoft PowerPoint file with the latest information and avoid copying information into slides.
 -   **[Export a project from Project Workspace](../task/export-project-to-powerpoint-from-project-workspace.md)**  

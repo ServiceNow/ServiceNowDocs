@@ -33,15 +33,15 @@ You can create goal or target relationships with a custom planning item from the
 
 1.  Open the Goal/Target Relationship form using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d145869e80">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d143213e80">
 
 Option
 
-</th><th align="left" id="d145869e83">
+</th><th align="left" id="d143213e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d145869e89">
+</th></tr></thead><tbody><tr><td id="d143213e89">
 
 **From the Align work window**
 
@@ -64,7 +64,7 @@ You can search for the required planning items by applying filter on the Name co
 
 For a description of the field values, see [Goal/Target Relationship form](../reference/goal-relationship-form-egm.md).
 
-</td></tr><tr><td id="d145869e184">
+</td></tr><tr><td id="d143213e184">
 
 **From the Planning items or Other items tab**
 

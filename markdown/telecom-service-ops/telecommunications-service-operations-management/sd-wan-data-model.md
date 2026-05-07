@@ -6,9 +6,9 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
-breadcrumb: [Telecom data model, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Telecom data model, Explore, Telecommunications Service Operations Management]
 ---
 
 # SD-WAN data model

@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Create recurring meetings
@@ -39,15 +39,15 @@ Role required: sn\_shift\_planning.admin
 
 9.  Select one of the following options from the Repeats list.
 
-<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d228109e148">
+<table id="choicetable_mk5_vhk_bcc"><thead><tr><th align="left" id="d231263e148">
 
 Option
 
-</th><th align="left" id="d228109e151">
+</th><th align="left" id="d231263e151">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d228109e157">
+</th></tr></thead><tbody><tr><td id="d231263e157">
 
 **Does not repeat**
 
@@ -55,7 +55,7 @@ Steps
 
 It is a one-time meeting only.
 
-</td></tr><tr><td id="d228109e166">
+</td></tr><tr><td id="d231263e166">
 
 **Daily**
 
@@ -65,7 +65,7 @@ It is a one-time meeting only.
 2.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d228109e190">
+</td></tr><tr><td id="d231263e190">
 
 **Weekly**
 
@@ -76,7 +76,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d228109e217">
+</td></tr><tr><td id="d231263e217">
 
 **Monthly**
 
@@ -90,7 +90,7 @@ It is a one-time meeting only.
 3.  Select a date in **Repeat until** field to select the date when the meeting series will end.
 
 
-</td></tr><tr><td id="d228109e265">
+</td></tr><tr><td id="d231263e265">
 
 **Yearly**
 
@@ -112,5 +112,5 @@ It is a one-time meeting only.
 
 You can view the meeting series on your team calendar. You can select the meeting invite on the team calendar and edit the whole meeting series or a particular meeting in the whole series.
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

@@ -27,7 +27,7 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 3.  Select **n8n** from all the available connectors.
 
-4.  Click **Create connection**.
+4.  Select **Create connection**.
 
     Setup page appears
 
@@ -39,9 +39,9 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     3.  Enter the **API Key**.
 
-    4.  Click **Create and test connection**.
+    4.  Select **Create and test connection**.
 
-    5.  Click **Continue**.
+    5.  Select **Continue**.
 
         Setup page appears
 
@@ -55,9 +55,9 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     4.  Select all the additional settings if necessary.
 
-    5.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
+    5.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
 
-        **Note:** Ensure to execute the Discovery-scheduled job first.
+        **Note:** Verify to execute the Discovery-scheduled job first.
 
     6.  To run frequency by demand, select **Execute now**
 
@@ -65,12 +65,12 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
     7.  Select **Save**.
 
-    8.  Click **Continue**.
+    8.  Select **Continue**.
 
 7.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-AI connection is created for n8n.
+An AI connection is created for n8n.
 

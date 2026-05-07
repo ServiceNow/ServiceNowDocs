@@ -6,7 +6,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-17"
 reading_time_minutes: 4
-breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Instance Observer, Platform Health, Using Impact, Impact]
+breadcrumb: [Overview of Instance Observer metrics, Instance Observer reference, Monitoring instance health with Instance Observer, Platform Health, Using Impact, Impact]
 ---
 
 # Instance Observer reports overview

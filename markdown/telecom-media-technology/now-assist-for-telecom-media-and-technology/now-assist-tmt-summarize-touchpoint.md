@@ -56,15 +56,15 @@ If there is enough data, the Touchpoint summary component displays the **Summari
 
 4.  After you're finished summarizing an engagement, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d32546e171">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d37837e171">
 
 Option
 
-</th><th align="left" id="d32546e174">
+</th><th align="left" id="d37837e174">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d32546e180">
+</th></tr></thead><tbody><tr><td id="d37837e180">
 
 **View more or less summary details**
 
@@ -74,7 +74,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
 
 
-</td></tr><tr><td id="d32546e210">
+</td></tr><tr><td id="d37837e210">
 
 **Provide feedback for the summary**
 
@@ -84,7 +84,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d32546e243">
+</td></tr><tr><td id="d37837e243">
 
 **Copy the summary**
 
@@ -92,7 +92,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d32546e258">
+</td></tr><tr><td id="d37837e258">
 
 **View the information about the summary**
 

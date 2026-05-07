@@ -1,6 +1,6 @@
 ---
-title: Generate AIOps LEAP playbooks
-description: Create standard, dynamic, and automated playbooks using AIOps LEAP to promote fast incident resolution and response time.
+title: Generate LEAP playbooks
+description: Create standard, dynamic, and automated playbooks using LEAP to promote fast incident resolution and response time.
 locale: en-US
 release: australia
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
@@ -8,36 +8,36 @@ classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
+breadcrumb: [Using LEAP, Learning Enhanced Automation Platform \(LEAP\), Now Assist for ITOM, IT Operations Management]
 ---
 
-# Generate AIOps LEAP playbooks
+# Generate LEAP playbooks
 
-Create standard, dynamic, and automated playbooks using AIOps LEAP to promote fast incident resolution and response time.
+Create standard, dynamic, and automated playbooks using LEAP to promote fast incident resolution and response time.
 
 ## Before you begin
 
-Role required: AIOps LEAP admin
+Role required: LEAP admin
 
 ## Procedure
 
-1.  Select **Workspaces** &gt; **AIOps LEAP**.
+1.  Select **Workspaces** &gt; **LEAP**.
 
-2.  On the AIOps LEAP landing page, select the required automation opportunity to create a playbook.
+2.  On the LEAP landing page, select the required automation opportunity to create a playbook.
 
 3.  If resolution steps are unavailable in the Overview section, select **Generate resolution steps**.
 
 4.  Select one of the following options to create playbook.
 
-<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d690642e105">
+<table id="choicetable_qgv_1wb_xhc"><thead><tr><th align="left" id="d700328e105">
 
 UI option
 
-</th><th align="left" id="d690642e108">
+</th><th align="left" id="d700328e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d690642e114">
+</th></tr></thead><tbody><tr><td id="d700328e114">
 
 **Actions**
 
@@ -45,7 +45,7 @@ Steps
 
 Select Actions button ![Actions button](../images/actions-icon.png), and select **Create Playbook**.
 
-</td></tr><tr><td id="d690642e132">
+</td></tr><tr><td id="d700328e132">
 
 **Explore**
 

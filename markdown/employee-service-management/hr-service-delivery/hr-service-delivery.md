@@ -7,7 +7,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Employee Service Management]
 ---
 
@@ -16,6 +16,19 @@ breadcrumb: [Employee Service Management]
 HR Service Delivery is a suite of applications that drive employee productivity from hire to retire by connecting the systems and experiences across HR and the enterprise.
 
 ![HR Service Delivery applications support employees at each stage: hiring, self-service during employment, growth, and departure.](../image/hr-service-delivery-landing-page.svg)
+
+-   **Employees**
+
+    Employees access HR services and self-service features through the Employee Center. HR Service Delivery applications power the features employees use to manage their careers and get help when they need it.
+
+-   **Managers**
+
+    Managers access HR tools through the Employee Center to support their teams and act on HR tasks.
+
+-   **HR agents**
+
+    HR agents handle employee inquiries and resolve cases through the Agent Workspace, a unified interface for managing agent-employee interactions.
+
 
 ## HR Service Delivery applications
 
@@ -61,8 +74,8 @@ HR Service Delivery is a suite of applications that drive employee productivity 
 </table>## Additional resources
 
 -   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying HR Service Delivery features at [HR Service Delivery best practices](https://mynow.servicenow.com/now/best-practices/collections/hr-service-delivery).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+-   Connect with other HR Service Delivery users at [Now Community](https://www.servicenow.com/community/).
 

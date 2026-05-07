@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-29"
 reading_time_minutes: 5
 keywords: [Virtual Agent, file picker, user input]
 breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
@@ -278,6 +278,18 @@ None
 </td></tr><tr><td>
 
 Microsoft Teams
+
+</td><td>
+
+Supported
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Google chat
 
 </td><td>
 

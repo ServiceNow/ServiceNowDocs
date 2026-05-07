@@ -27,25 +27,21 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 1.  Navigate to a security incident.
 
-2.  Click the **Show IoC** related link.
+2.  Select the **Show IoC** related link.
 
 3.  Select **Observables** from the Related List tab.
 
 4.  Select the observables you want to perform a sightings search on.
 
-5.  Click **Run Sightings Search** in the **Actions on selected rows...** drop-down menu.
-
-    ![Observables](../image/RunSightingsSearch.png)
+5.  Select **Run Sightings Search** in the **Actions on selected rows...** drop-down menu.
 
     The Run Sightings Search dialog box opens.
-
-    ![Run Sighting Search dialog box](../image/SightingsSearchDialogBox.png)
 
     **Note:** Values entered in the dialog box overwrite capability configuration values for this run.
 
 6.  Choose the number of days or a date range to search for data.
 
-<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d427317e155">
+<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d434716e134">
 
 **Last**
 
@@ -53,7 +49,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 The number of hours or days prior to the creation of the incident to search. The default is 7 days. The limit is 99 hours or days.
 
-</td></tr><tr><td id="d427317e167">
+</td></tr><tr><td id="d434716e146">
 
 **between**
 
@@ -66,7 +62,7 @@ Range of dates to search. Default dates are:-   The date and time the incident w
 </td></tr></tbody>
 </table>    **Note:** **Last** is the number of hours or days prior to the creation of the incident to search. The default is 7 days. The limit is 99 hours or days.
 
-7.  Click **Search**.
+7.  Select **Search**.
 
     A Sightings Search record is created. Aggregate and associated sightings data are displayed in the security incident under the **Sightings Search Results** and **Sightings Search Details** tabs.
 
@@ -83,7 +79,7 @@ Range of dates to search. Default dates are:-   The date and time the incident w
     |End date range|Time to stop looking for sightings.|
     |Updated|Date and time of the last modification.|
 
-    Note: If the implementation used for the sightings search is configured to include raw data, and at least one sighting is found, an attachment containing raw data samples appears at the top of the security incident.
+    **Note:** If the implementation used for the sightings search is configured to include raw data, and at least one sighting is found, an attachment containing raw data samples appears at the top of the security incident.
 
     |Detail|Description|
     |------|-----------|

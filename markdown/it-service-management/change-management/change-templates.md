@@ -34,5 +34,5 @@ View template metrics to analyze the usage and efficiency of the templates creat
 
 [Configure template categories](../task/configure-template-categories.md)
 
-[Enhanced Change data model](change-data-model.md)
+[Enhanced change data model](change-data-model.md)
 

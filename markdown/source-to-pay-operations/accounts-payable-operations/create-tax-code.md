@@ -23,7 +23,7 @@ Role required: Tax manager
 
 1.  Navigate to **All** &gt; **Finance Common** &gt; **Tax codes**.
 
-    ![image.apo-create-tax-code]
+    ![Navigate to Finance Common and Tax Codes](../image/apo-create-tax-code.png)
 
 2.  Select **New**.
 

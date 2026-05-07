@@ -35,38 +35,30 @@ Task employees to get additional information needed to fulfill the employee’s 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore ![Explore](../../../common/image/icon-explore.png) Learn about how employees, agents, and managers use Universal Request.](explore-universal-request.md)
+[Explore ![Explore](../../../reuse/icons/brand-icons/bus-explore.svg) Learn about how employees, agents, and managers use Universal Request.](explore-universal-request.md)
 
 </td><td>
 
-[Configure ![Configure](../../../common/image/icon-set-up.png) Plan and configure your implementation.](setup-configure-ur.md)
+[Configure ![Configure](../../../reuse/icons/brand-icons/bus-sdlc.svg) Plan and configure your implementation.](setup-configure-ur.md)
 
 </td><td>
 
-[Integrate![Integrate](../../../common/image/icon-integrate.png)Extend Universal Request capabilities by integrating with other applications.](ur-integration-with-uni-task.md)
+[Integrate![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Extend Universal Request capabilities by integrating with other applications.](ur-integration-with-uni-task.md)
 
 </td></tr><tr><td>
 
-[Use ![Use](../../../common/image/icon-workspace.png) Work on universal requests, and manage security and transfers.](using-ur.md)
+[Use ![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Work on universal requests, and manage security and transfers.](using-ur.md)
 
 </td><td>
 
-[Analytics and Reporting Solutions ![Reports](../../human-resources/image/icon-report.png) Coordinate work and improve processes with dashboards and reports.](reporting-soln-for-ur.md)
+[Analytics and Reporting Solutions ![](../../../reuse/icons/brand-icons/bus-performance-forecasting-2.svg)Coordinate work and improve processes with dashboards and reports.](reporting-soln-for-ur.md)
 
 </td><td>
 
-[Reference ![Reference](../../../common/image/icon-reference.png) Get details about components like fields, tables, and properties.](../reference/ur-reference-topic.md)
+[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get details about components like fields, tables, and properties.](../reference/ur-reference-topic.md)
 
 </td></tr></tbody>
-</table>## Additional resources
-
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
--   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
--   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
--   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
-
--   **[Exploring Universal Request](explore-universal-request.md)**  
+</table>-   **[Exploring Universal Request](explore-universal-request.md)**  
 The ServiceNow Universal Request application enables cross-departmental reporting from the time of an initial employee request through the final issue resolution. You can map various departmental ticket states and activity streams into a unified and simplified experience for your employees and agents.
 -   **[Setting up and configuring Universal Request](setup-configure-ur.md)**  
 Set up and configure Universal Request to enable agents to create universal requests and work on them to resolve employee issues.

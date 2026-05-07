@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [NLU intents, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -88,6 +88,4 @@ Train your model to save your updates. For issues with intents, see [Resolve int
 To improve your utterances, add entities to provide context. See [NLU entities](../concept/entities.md).
 
 The available [Intent Discovery](../concept/intent-discovery.md) feature can help identify intents that would be possible to add, based on your historical data.
-
-**Parent Topic:**[NLU intents](../concept/intents.md)
 

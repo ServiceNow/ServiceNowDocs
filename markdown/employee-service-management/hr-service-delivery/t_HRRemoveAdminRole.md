@@ -17,7 +17,7 @@ After system configuration, remove the HR Administrator role \(sn\_hr\_core.admi
 
 ## Before you begin
 
-Role required: admin with sn\_hr\_core.admin
+Role required: sn\_hr\_core.admin
 
 Make sure that you have at least two users with the HR Administrator role. If you assign only one person with the role and that person is deactivated, you will not have a user to perform the HR admin duties.
 

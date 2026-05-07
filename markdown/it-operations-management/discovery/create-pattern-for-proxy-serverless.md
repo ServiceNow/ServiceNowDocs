@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ Role required: cloud\_admin, service\_mapping\_admin, or admin
 
 1.  Navigate to **All** &gt; **Pattern Designer** &gt; **Discovery Patterns**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Specify an **Infrastructure** type pattern with the correct CI type that applies to the CIs you want to discover.
 
@@ -31,9 +31,15 @@ Role required: cloud\_admin, service\_mapping\_admin, or admin
 
 4.  Create an identification section and save the pattern.
 
-5.  Add operations to the pattern to discover the CI that you can access via the host.
+5.  In the **Input Parameters** tab, add at least one input parameter and value.
 
-6.  To test the pattern, click **Debug Mode** and enter the IP address of the host.
+    For example:
+
+    -   Parameter: `ip_address`
+    -   Value: IP address of the host
+6.  Add operations to the pattern to discover the CI that you can access via the host.
+
+7.  To test the pattern, select **Debug Mode** and enter the IP address of the host.
 
 
 ## Create a schedule for host-based serverless Discovery

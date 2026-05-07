@@ -80,5 +80,5 @@ If you want to establish relationships with the other network assets, enter the 
 **Related topics**  
 
 
-[Model your workflow](../concept/telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](../concept/telecommunications-network-inventory-workflow.md)
 

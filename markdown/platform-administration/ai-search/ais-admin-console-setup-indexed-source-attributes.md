@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-An indexed source attribute defines how records from an indexed source table are indexed in AI Search. For example, with indexed source attributes, you can control which records to index, how to handle specific data types, such as attachments or tags, and whether to include translated fields in the index. These attributes help customize the indexing process to your needs. For more information, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md#).
+An indexed source attribute defines how records from an indexed source table are indexed in AI Search. For example, with indexed source attributes, you can control which records to index, how to handle specific data types, such as attachments or tags, and whether to include translated fields in the index. These attributes help customize the indexing process to your needs. For more information, see [Indexed source attributes for AI Search](../concept/indexed-source-attributes-ais.md).
 
 ## Procedure
 

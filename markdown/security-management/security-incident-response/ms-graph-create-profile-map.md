@@ -37,7 +37,7 @@ As a user with the sn\_si.admin role, use the fields from the Sample Alerts sect
     1.  To manually enter a value in the Input Expression field, enter it in the format $\{fieldname\}$. The alert field will be mapped to the security incident field.
     2.  You cannot map ingested alerts to the MITRE-ATT&amp;CK Framework fields in the security incident mapping section. If you still map the fields, the information will not be available as part of the MITRE-ATT&amp;CK card in the MITRE-ATT&amp;CK framework section in the security incident form. To associate the MITRE-ATT&amp;CK Techniques, use the [Auto Extraction Feature](../../../threat-intelligence/concept/auto-extract-technique-rules.md#) available as part of the MITRE-ATT&amp;CK Framework in the Threat Intelligence Module.
 3.  To add fields to the default fields displayed on the security incident on the right side of the form, follow these steps.
-    1.  On the right of the form in the SIR Incident Field Mapping section, at the bottom of the grid, click the plus \(+\) icon. A new field is displayed.
+    1.  On the right of the form in the SIR Incident Field Mapping section, at the bottom of the grid, select the plus \(+\) icon. A new field is displayed.
     2.  In the Security Incident column, expand the choice list that is displayed, and select a field.
 
         In the expanded choice list for the new field, some fields are shaded. In the following figure, Category has a gray background, because it has been mapped in the security incident. Similar to the color-coding for the alert fields on the left side of the form, this color-coding for the security incident fields on the right helps you track the already mapped SIR incident fields.
@@ -65,17 +65,15 @@ Once the mapping section is complete, you can set filter conditions so that you 
 
 1.  Scroll to the Incident Generation Conditions section on the form and select the Filter based on conditions option. The Filter conditions builder is displayed. Use these filters to create security incidents that match the specific conditions described by the fields.
 
-    The options in the choice lists for the first field in the Filter conditions builder match the fields that are displayed on the Alert Sample Ingestion section for the alert you ingested. These fields are dynamic and change depending on the alert that you ingest Criteria that you enter are case-sensitive, and they must match exactly the values of the alert. If you are not sure about the values to enter in the filter fields, you may prefer to return to your Microsoft Azure tenant and review your alerts for the keywords.
+    The options in the choice lists for the first field in the Filter conditions builder match the fields that are displayed on the Alert Sample Ingestion section for the alert you ingested. These fields are dynamic and change depending on the alert that you ingest Criteria that you enter are case-sensitive, and they must match exactly the values of the alert. If you're not sure about the values to enter in the filter fields, you may prefer to return to your Microsoft Azure tenant and review your alerts for the keywords.
 
 2.  Using the choice lists and fields of the conditions builder, set filters for the first row.
-3.  To add more conditions, to the right of the fields, click **AND** or **OR**.
+3.  To add more conditions, to the right of the fields, select **AND** or **OR**.
     -   If **AND**is selected, all conditions must be matched.
     -   If **OR**is selected, either condition can be matched.
 4.  In the second row, set a second filter condition
 
     The following image is an example with two conditions that must be matched before security incidents are created.
-
-    ![Microsoft Graph Security API: incident generation conditions](../image/ms-graph-create-profile-3c.png)
 
     You have set the triggering conditions so that security incidents are created only when both of the filtering conditions that you entered are matched.
 
@@ -89,9 +87,7 @@ Define additional alert aggregation criteria that aggregates an incoming alert t
 1.  Scroll to the Alert Aggregation Criteria section on the form and select the Aggregation Conditions option. The Incident Field Matching Values columns are displayed. These field names are the fields on the security incident that include any custom fields that are configured on the SIR security incident.
 2.  From the Available list, select the field values that you want to match on existing security incidents in your ServiceNow AI Platform and move them to the Selected list. All the field values that you select must be matched to append this incoming alert to an existing security incident. This includes fields, such as Observables and Configuration Items, that may have multiple alert field values mapped to them. All values must match. If only a subset of the values are matched, the alert aggregation conditions will not be met and a new security incident will be created. See screen shot below for multi-value field mapping.
 
-    ![Microsoft Graph Security API: Alert Aggregation Criteria](../image/ms-graph-create-profile-3d.png)
-
-    If a new alert matches all the values that are selected in the aggregation field conditions in the mapping step, the alert is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregate alerts on a related list on a security incident. All of the aggregated alerts on a security incident are displayed on the Aggregated Microsoft Graph Alerts related list. This list details associated time stamps and aggregated field values. This information helps you understand why alerts are added to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and click the **Show All Related Lists** link.
+    If a new alert matches all the values that are selected in the aggregation field conditions in the mapping step, the alert is automatically added to the most recently opened security incident with the same field values. As a user with the sn\_si.analyst role working with security incidents, you can view all the added aggregate alerts on a related list on a security incident. All of the aggregated alerts on a security incident are displayed on the Aggregated Microsoft Graph Alerts related list. This list details associated time stamps and aggregated field values. This information helps you understand why alerts are added to existing security incidents. If this tab is not displayed, scroll to the left side of the record under Related Links and select the **Show All Related Lists** link.
 
 3.  \(Optional\) To log a work note for a new alert that is recently added on the security incident, select the check box to enable this option. The work note logs that a new alert has been added along with a link to the alert details and any other details that may have been added to the work note field in your mapping section.
 

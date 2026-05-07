@@ -29,7 +29,7 @@ For example, Company A is pursuing a new project and needs to conduct due dilige
 
 1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**.
 
-2.  Select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All fourth parties**.
+2.  Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Third parties** &gt; **All fourth parties**.
 
 3.  Select the desired fourth-nth party.
 

@@ -60,15 +60,15 @@ If an agent is part of more than one assignment group or territory, then dispatc
 
 3.  Assign the work order task to agents.
 
-<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d25293e309">
+<table id="choicetable_sbq_vhp_b4b"><thead><tr><th align="left" id="d27599e309">
 
 To
 
-</th><th align="left" id="d25293e312">
+</th><th align="left" id="d27599e312">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d25293e318">
+</th></tr></thead><tbody><tr><td id="d27599e318">
 
 **Assign a task manually from the task panel**
 
@@ -79,7 +79,7 @@ Do this
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d25293e342">
+</td></tr><tr><td id="d27599e342">
 
 **Assign a task manually from the contextual side panel**
 
@@ -92,7 +92,7 @@ Do this
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d25293e390">
+</td></tr><tr><td id="d27599e390">
 
 **Assign a task manually from the map**
 
@@ -104,7 +104,7 @@ Do this
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d25293e423">
+</td></tr><tr><td id="d27599e423">
 
 **Auto-assign a task from the task panel**
 
@@ -115,7 +115,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d25293e457">
+</td></tr><tr><td id="d27599e457">
 
 **Auto-assign a task from the contextual side panel**
 
@@ -127,7 +127,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d25293e499">
+</td></tr><tr><td id="d27599e499">
 
 **Auto-assign from the task record**
 
@@ -138,7 +138,7 @@ Do this
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d25293e526">
+</td></tr><tr><td id="d27599e526">
 
 **Auto-assign a task from a list**
 
@@ -150,7 +150,7 @@ Do this
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d25293e565">
+</td></tr><tr><td id="d27599e565">
 
 **Auto-assign a task from the map**
 
@@ -192,6 +192,7 @@ Intelligent Task Recommendations identifies and recommends the best available ta
 
 -   Start and end time of the task.
 -   Excludes the work order tasks that are schedule locked.
+-   Agent's territory and task's territory if Field Service Territory Planning plugin \(com.snc.fsm\_territory\_planning\) is enabled.
 -   Considers the agent's start and end locations from the **Resource Schedule Attributes** table for the given day.
 -   Integrates agent's schedule and events from the Workforce Optimization for Field Service application if the **Enable Shift Scheduling for FSM to Determine Availability** configuration is enabled. For more information, see [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md) and [Activate Workforce Optimization for Field Service](../task/activate-wfo-fsm.md).
 

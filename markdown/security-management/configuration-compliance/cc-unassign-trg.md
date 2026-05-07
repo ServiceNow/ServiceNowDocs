@@ -36,7 +36,7 @@ The **Unassign** button is displayed on remediation task records in any state ot
     -   The work notes that you provided are displayed in the Notes section.
     -   On the **State Change Approval** tab, the state change approval record \(CA\#\) displays the In Review state, which helps you to track the approval workflow.
     -   On the **Requested Approvals** tab, your request for the removal of you or your assignment group is displayed as the Requested state.
-4.  Alternatively, select **Unassign** in the More options menu \(![The three dots of the More options menu](../../secops-analyst-workspace/image/more-actions-icon.png)\) to clear the assignment fields.
+4.  Alternatively, select **Unassign** in the More options menu \(![The three dots of the More options menu](../../security-incident-response/image/more-actions-icon.png)\) to clear the assignment fields.
 
 
 ## Result

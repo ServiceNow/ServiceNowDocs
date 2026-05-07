@@ -43,15 +43,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Free Form tab, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d413342e146">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d420740e146">
 
 Field
 
-</th><th align="left" id="d413342e149">
+</th><th align="left" id="d420740e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d413342e155">
+</th></tr></thead><tbody><tr><td id="d420740e155">
 
 **Field title**
 
@@ -59,7 +59,7 @@ Description
 
 Name of the field title. For example, Overview.
 
-</td></tr><tr><td id="d413342e164">
+</td></tr><tr><td id="d420740e164">
 
 **Field value \(Placeholder\)**
 

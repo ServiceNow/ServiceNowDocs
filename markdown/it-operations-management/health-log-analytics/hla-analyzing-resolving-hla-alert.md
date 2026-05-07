@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
+keywords: [alert analysis, alert resolution, health log analytics, log anomaly detection, troubleshooting alerts, log investigation, anomaly analysis, alert remediation, log viewer, root cause analysis, log correlators, alert monitoring, operator workflow, log data analysis, incident response]
 breadcrumb: [Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -17,7 +18,7 @@ Analyze and resolve Log Analytics alerts by investigating log data and taking ac
 
 ## Overview of analyzing and resolving a Log Analytics alert
 
-As an Operator, you are responsible for analyzing and resolving the alerts that Health Log Analytics generates. When HLA creates an alert, you review the alert's severity, the affected Configuration Item \(CI\), the log data associated with the anomaly, and the impacted services. You try to identify the root cause by investigating the logs that surround the anomaly.
+As an Operator, you're responsible for analyzing and resolving the alerts that Health Log Analytics generates. When HLA creates an alert, you review the alert's severity, the affected configuration item \(CI\), the log data associated with the anomaly, and the impacted services. You try to identify the root cause by investigating the logs that surround the anomaly.
 
 In the Express List, review alert details and use Now Assist to get an in-depth analysis of the alert and potential resolutions in straightforward, human-readable language. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it before it affects your users.
 
@@ -25,11 +26,11 @@ Using the Log Viewer, you can browse the alert logs by timestamp or range for fu
 
 More detailed information on tasks and procedures for analyzing and resolving Log Analytics is available via the following links.
 
--   [Start remediation of a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view.md)
+-   [Start remediation of a Log Analytics alert from the Overview tab](../task/hla-op-overview-tab-view-sow.md)
 
     Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
--   [Analyze the logs that surround the anomaly](hla-op-surrounding-logs-view-concept.md)
+-   [Analyze log lines that surround an anomaly in Health Log Analytics](../task/hla-op-surrounding-logs-view-sow.md)[Analyze the logs that surround the anomaly](hla-op-surrounding-logs-view-concept.md)
 
     Review the log lines surrounding the anomaly for clues about the state of faulting systems. This information can help you narrow down the root cause of the alert.
 
@@ -37,17 +38,14 @@ More detailed information on tasks and procedures for analyzing and resolving Lo
 
     Identify relationships between alerts to help you determine whether an alert is part of a larger issue.
 
--   Navigate to the [Express List](../../service-operations-workspace-itom/concept/express-list.md) and select an alert from the Alerts list.
-
-    Use Now Assist to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
-
+-   Navigate to the [Express List](../../service-operations-workspace-itom/concept/express-list.md) and select an alert from the Alerts list.Use Now Assist to get an in-depth analysis of the alert and potential resolutions. By drilling down into the alert, you can quickly identify the issue and proceed to resolve it.
 -   [Review the logs for an alert on the Log viewer](hla-op-logs-log-viewer-concept.md)
 
     For further investigation you can navigate to the **Log Viewer** to browse the alert logs by timestamp or time range, and visualize anomaly frequency within a time period for a comprehensive view of log data over a specified time range.
 
--   [Add a KB article to a Log Analytics alert](../task/hla-op-alert-add-kb.md)
+-   [Add a KB article to a Log Analytics alert](../task/hla-op-alert-add-kb-sow.md)
 
-    When you have resolved an alert that Health Log Analytics generated, you can add a knowledge base \(KB\) article to it. For example, provide information that might help others resolve similar issues.
+    When you have resolved an alert that Health Log Analytics generated, you can add a knowledge base \(KB\) article to it. For example, you can provide information that might help others resolve similar issues.
 
 
 For a brief explanation of key terms and concepts used in HLA, see the [Health Log Analytics terminology](../../health-log-analytics-admin/reference/hla-glossary.md).

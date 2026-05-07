@@ -7,7 +7,7 @@ topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # System properties for configuring Email Interaction

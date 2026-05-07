@@ -22,7 +22,7 @@ Depending on the selected skill, you can configure inputs. These settings determ
 
 ## Demand summarization skill inputs
 
-The demand summarization skill includes the inputs that identify the table and fields that are used to generate the demand summary. The following table provides more details on the input data.
+The demand summarization skill includes the inputs that identify the table along with the fields and related lists that are used to generate the demand summary. The following table provides more details on the input data.
 
 <table id="table_gnt_m1l_g3c"><thead><tr><th>
 
@@ -85,6 +85,19 @@ Fields
 -   Approved start date
 -   Approved end date
 -   Business case
+
+</td></tr><tr><td>
+
+Related lists
+
+</td><td>
+
+-   Work notes
+-   Demand tasks
+-   Cost plans
+-   Monetary benefit plans
+-   Non-monetary benefit plans
+-   Resource assignments
 
 </td></tr></tbody>
 </table>## Feedback summarization skill inputs
@@ -240,11 +253,11 @@ Product idea \[sn\_align\_core\_product\_idea\]
 </table>**Related topics**  
 
 
-[Configure Now Assist Admin features](../task/configure-now-assist-for-spm.md)
+[Configure Now Assist Admin features](../concept/configuring-na-spm.md)
 
 [Exploring Now Assist for Strategic Portfolio Management \(SPM\)](../concept/exploring-now-assist-for-spm.md)
 
-[Using AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
+[Use AI agent or agentic workflows in Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-na-spm-ai-agents.md)
 
 [Using Now Assist for Strategic Portfolio Management \(SPM\)](../concept/using-now-assist-for-spm.md)
 

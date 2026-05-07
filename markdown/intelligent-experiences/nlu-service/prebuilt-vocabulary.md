@@ -6,7 +6,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
@@ -33,6 +33,4 @@ If you select the first option and click **Confirm**, the system uses the pre-bu
 If you select the second option, enter a synonym for the word, and click **Confirm**, the word and the synonym are added to the model vocabulary.
 
 If you select either of the two options and click **Ignore**, the blue line disappears and the word remains as it was previously.
-
-**Parent Topic:**[NLU vocabulary](using-nlu-vocabulary.md)
 

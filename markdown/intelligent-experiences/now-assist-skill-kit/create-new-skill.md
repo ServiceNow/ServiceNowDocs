@@ -138,8 +138,8 @@ After you create the skill, you must configure it. To learn more about configuri
 
 If you don't need to set any configurations for your skill, you can create your skill prompt and tools. To learn more, see [Create a prompt](create-prompt-template.md) and [Add a tool](../concept/add-a-tool.md).
 
--   **[Clone and edit a ServiceNow skill](clone-and-edit-servicenow-skill.md)**  
-Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
+-   **[Clone a skill](clone-and-edit-servicenow-skill.md)**  
+Clone an existing skill to use it as a starting point for a new one. You can clone both base system ServiceNow skills and custom skills you have created.
 
 **Parent Topic:**[Using Now Assist Skill Kit](../concept/using-now-assist-skill-kit.md)
 

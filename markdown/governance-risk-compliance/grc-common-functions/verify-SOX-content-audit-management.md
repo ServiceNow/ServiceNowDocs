@@ -17,7 +17,7 @@ After importing the SOX Content Pack, verify and edit the entity types, entities
 
 ## Before you begin
 
-Role required: Audit Admin \(sn\_audit.admin\)
+Role required: Audit admin \(sn\_audit.admin\)
 
 ## Procedure
 
@@ -45,9 +45,7 @@ Role required: Audit Admin \(sn\_audit.admin\)
     -   Tax
     -   Travel and Expense
     -   Treasury
-    ![Profiles](../image/SOX-profile-type.png)
-
-2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.![Profile Types](../image/SOX-profile-filter.png)
+2.  Under the Profile filters related list, a filter is added to query the SOX processes table for the generation of SOX profiles.
 
 3.  Navigate to **Audit** &gt; **All Engagements**.
 
@@ -56,8 +54,6 @@ Role required: Audit Admin \(sn\_audit.admin\)
     -   **Assigned to**
     -   **Auditor**
     -   **Approver**
-    ![Engagement](../image/SOX-audit-engagement.png)
-
 4.  Navigate to **Audit** &gt; **All Audit Tasks**.
 
 5.  In the search bar, enter `SOX` in the **Name** field.
@@ -69,19 +65,13 @@ Role required: Audit Admin \(sn\_audit.admin\)
     -   **Type** is interview or walkthrough
     -   **Assigned to** is empty
     -   **Assigned parent \(engagement\)** is SOX Audit
-    ![Audit Tasks](../image/SOX-audit-tasks.png)
-
 6.  Navigate to **Audit** &gt; **Audit Testing** &gt; **Test Templates**.
 
     The SOX test templates have been added and assigned to policy statements.
 
-    ![Test Templates](../image/SOX-test-templates.png)
-
 7.  Navigate to **Audit** &gt; **Audit Testing** &gt; **Test Plans**.
 
     The SOX test plans have been generated for controls based on the test templates.
-
-    ![Test Plans](../image/SOX-test-plans.png)
 
 
 ## Result

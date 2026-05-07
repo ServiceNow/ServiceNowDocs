@@ -31,15 +31,15 @@ Scheduling permits you to modify the scheduling and the types of alarms selected
 
 2.  Choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d128529e87">
+<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d131014e87">
 
 Option
 
-</th><th align="left" id="d128529e90">
+</th><th align="left" id="d131014e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128529e96">
+</th></tr></thead><tbody><tr><td id="d131014e96">
 
 **Enable incremental alarm retrieval**
 
@@ -47,7 +47,7 @@ Description
 
 Default is selected. Select this option to retrieve incremental alarms.
 
-</td></tr><tr><td id="d128529e105">
+</td></tr><tr><td id="d131014e105">
 
 **Polling interval \(in minutes\)**
 
@@ -57,7 +57,7 @@ The ServiceNow AI Platform instance pulls from the LogRhythm Client Console for 
 
  This setting can be changed, however, the default setting balances alarm ingestion against server load and retrieves the most current data.
 
-</td></tr><tr><td id="d128529e126">
+</td></tr><tr><td id="d131014e126">
 
 **Next Alarm ingestion time \(estimated\)**
 
@@ -65,7 +65,7 @@ The ServiceNow AI Platform instance pulls from the LogRhythm Client Console for 
 
 Displays when the next scheduled ingestion would occur for the current alarm profile. This is only an estimated time.
 
-</td></tr><tr><td id="d128529e135">
+</td></tr><tr><td id="d131014e135">
 
 **Enable historical alarm retrieval**
 

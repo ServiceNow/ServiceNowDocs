@@ -6,9 +6,9 @@ release: australia
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-04-29"
-reading_time_minutes: 2
-breadcrumb: [Configure Fortinet SGC, Set up Telecom Visibility, Configure, Telecommunications Service Operations Management]
+last_updated: "2026-05-06"
+reading_time_minutes: 3
+breadcrumb: [Configure Fortinet SGC, Configure Telecom Visibility, Configure, Telecommunications Service Operations Management]
 ---
 
 # Map Fortinet CIs and relationships
@@ -214,4 +214,17 @@ Represents discovered IP addresses for CIs.
 Owned by the corresponding CI.
 
 </td></tr></tbody>
-</table>
+</table>## Discovered license expiration dates
+
+When the Fortinet SGC discovers an IP router, it also retrieves license expiration dates for all services associated with that device. Because individual devices can have multiple active services — such as anti-spam, firmware updates, and hardware updates — each service has its own expiration date. By default, these dates are stored as additional attributes on the CI and are visible in the **Key Value** section of the CI record, using the naming convention `license_expiration_date_*SERVICE\_CODE*`.
+
+A default implementation is provided default. To override the default storage behavior, use the provided scripted extension point. For example, instead of storing a separate attribute per service, you can store a single attribute representing the earliest expiration date across all services.
+
+To override the default behavior:
+
+1.  Navigate to **All &gt; System Scripted Extension Points &gt; Scripted Extension Points**.
+2.  Open the **\[TBD: extension point name\]** extension point.
+3.  Create a new implementation.
+4.  Set the **Order** field to a value less than `100`. The default implementation has an order of 100; implementations with a lower order number execute first and take precedence.
+5.  Implement your custom logic in the provided method. The input is the contract items returned by the FortiManager API, which contains the license data for all services. Your implementation should return the attributes you want to store on the CI.
+

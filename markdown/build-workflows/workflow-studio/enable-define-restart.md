@@ -1,6 +1,6 @@
 ---
 title: Configure restart for Playbooks
-description: Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
+description: Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 locale: en-US
 release: australia
 product: Workflow Studio
@@ -13,19 +13,13 @@ breadcrumb: [Enabling playbook restart, Creating and managing Playbooks, Build P
 
 # Configure restart for Playbooks
 
-Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
+Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 
 ## Before you begin
 
 Role required: pd\_author
 
-When you open an existing playbook in Workflow Studio for the first time after upgrading to the Process Automation Designer 25.1.2 ServiceNow Store app, a banner message notifies you to enable restart for your playbook. You must enable the restart feature before you can perform the task below.
-
-![Restart notification in Workflow Studio](../images/restart-enable-message.png)
-
-This message only displays for existing playbooks. Restart is automatically enabled for new playbooks and does not change any other features and functions.
-
-**Note:** Once enabled, restart cannot be disabled. If you don't want agents to be able to restart a playbook or the activities and stages in a playbook, do not perform the following task.
+**Note:** Once restart is enabled for a playbook, it cannot be disabled. If you don't want agents to be able to restart a playbook or its activities and stages, do not perform the following task.
 
 ## Procedure
 
@@ -43,7 +37,7 @@ This message only displays for existing playbooks. Restart is automatically enab
 
         The **Additional Properties** modal displays.
 
-    4.  At the bottom of the **General** tab, check the **Allow this process to be restarted during runtime** box.
+    4.  At the bottom of the **General** tab, select the **Allow this process to be restarted during runtime** box.
 
         ![](../images/restart-playbook-setting.png)
 
@@ -55,29 +49,21 @@ This message only displays for existing playbooks. Restart is automatically enab
 
     **Note:** Restart settings for a stage do not apply to its activities. Each activity also has its own restart settings.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**.
+    1.  In the Playbooks builder, open the stage or activity you want to configure restart settings for.
 
-        The Playbooks list displays.
-
-    2.  Open the playbook you want to configure stage or activity restart settings for.
-
-        The Playbooks builder displays.
-
-    3.  Open the stage or activity you want to configure restart settings for.
+    2.  Under **Restart rules**, select what you want the stage or activity to do when restarted.
 
         ![Activity and stage restart rules in the side panel](../images/playbooks-restart-rules.png)
 
-    4.  Select what you want the stage or activity to do when restarted.
-
-<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d111095e284">
+<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d113657e202">
 
 Rule
 
-</th><th align="left" id="d111095e287">
+</th><th align="left" id="d113657e205">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111095e293">
+</th></tr></thead><tbody><tr><td id="d113657e211">
 
 **Skip on restart**
 
@@ -85,7 +71,7 @@ Description
 
 The stage or activity only runs during a playbook's initial run. It never runs during a restarted run.**Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-</td></tr><tr><td id="d111095e307">
+</td></tr><tr><td id="d113657e225">
 
 **Run always**
 
@@ -93,7 +79,7 @@ The stage or activity only runs during a playbook's initial run. It never runs d
 
 The stage or activity always runs, whether during an initial or restarted run.
 
-</td></tr><tr><td id="d111095e316">
+</td></tr><tr><td id="d113657e234">
 
 **Skip on first run**
 

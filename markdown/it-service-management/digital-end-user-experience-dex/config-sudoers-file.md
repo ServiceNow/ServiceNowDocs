@@ -23,7 +23,7 @@ Role required: admin
 
 1.  Open Terminal with Root Access by running `sudo -i`.
 
-2.  Create and edit the drop-in sudoers file by running `visudo -f /etc/sudoers.d/servicenow`.
+2.  Create and edit the drop-in sudoers file by running `visudo -f /etc/sudoers.d/_servicenow`.
 
 3.  Paste the following content into the editor:
 
@@ -65,14 +65,14 @@ Role required: admin
 
 4.  Save and exit.
 
-5.  Validate the file syntax by running `visudo -c -f /etc/sudoers.d/servicenow`.
+5.  Validate the file syntax by running `visudo -c -f /etc/sudoers.d/_servicenow`.
 
-    Expected output: `/etc/sudoers.d/servicenow: parsed OK`.
+    Expected output: `/etc/sudoers.d/_servicenow: parsed OK`.
 
 6.  Set the file permissions:
 
-    -   chown root:wheel /etc/sudoers.d/servicenow
-    -   chmod 440 /etc/sudoers.d/servicenow
+    -   chown root:wheel /etc/sudoers.d/\_servicenow
+    -   chmod 440 /etc/sudoers.d/\_servicenow
 7.  Confirm the drop-in directory is included in the sudoers file by running `grep -i includedir /etc/sudoers`.
 
     Expected output: `#includedir /etc/sudoers.d`.

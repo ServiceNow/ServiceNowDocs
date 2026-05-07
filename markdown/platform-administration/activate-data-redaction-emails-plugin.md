@@ -42,7 +42,7 @@ Role required: admin
 
 **Data Discovery patterns**
 
-[Default data patterns](https://www.servicenow.com/docs/access?context=default-data-patterns&version=australia&pubname=australia-platform-security&ft:locale=en-US) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+[Default regular expression data patterns](https://www.servicenow.com/docs/access?context=default-data-patterns&version=australia&pubname=australia-platform-security&ft:locale=en-US) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
 **Parent Topic:**[Sensitive data redaction](../concept/sensitive-data-redaction.md)
 

@@ -30,8 +30,6 @@ The graphs show important statistics about the software being tracked. In the Ov
 
 The source for overview data is the Product Result \[samp\_product\_result\] table.
 
-![Software Asset Management dashboard](../image/dashboard-sam-overview.png "Overview tab")
-
 <table id="table_vgl_c3y_tz"><thead><tr><th>
 
 Report
@@ -92,8 +90,6 @@ Top 10 products graphed in order of potential savings.
 </table>## Optimization
 
 The source for optimization data is the Reclamation Candidate \[samp\_sw\_reclamation\_candidate\] table.
-
-![Optimization tab in the Software Asset Management dashboard](../image/dashboard-sam-optimization.png "Optimization tab")
 
 <table id="table_y3q_r3y_tz"><thead><tr><th>
 
@@ -170,8 +166,6 @@ State is Closed Complete AND Closed in Last 12 Months
 ## Compliance Analysis
 
 Compliance analysis consists of time-series data using Performance Analytics to show the compliance trends over time. The for compliance analysis data is the Product Result \[samp\_product\_result\] table.
-
-![Compliance Analysis tab in the Software Asset Management dashboard](../image/SAMCompliance.png "Compliance Analysis tab")
 
 |Report|Description|
 |------|-----------|

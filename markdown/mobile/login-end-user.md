@@ -19,9 +19,9 @@ Role required: user
 
 ## About this task
 
-After you add ServiceNow mobile apps to your mobile device, you must connect them to the web-based UI instance that you work with. When working with the Now Mobile app and the Mobile Agent, you must add the same instance to both apps.
+After you add ServiceNow mobile apps to your mobile device, you must connect them to the web-based UI instance that you work with. To enable connectivity between the Now Mobile app and Mobile Agent® app, for example, for deep linking, you must add the same account to both apps.
 
-**Note:** For more information about working with more than one instance on your mobile device, see [Working with multiple ServiceNow instances on a single mobile device](instance-multiple.md).
+**Note:** For more information about working with multiple ServiceNow accounts within a mobile app, see [Working with multiple ServiceNow instances on a single mobile device](instance-multiple.md).
 
 If you download the mobile app from an enterprise mobility management \(EMM\) suite, enter your user credentials as prompted. For more details on EMM, see [Enterprise mobility management \(EMM\)](../concept/enterprise-mobility-management.md). If you didn't download the mobile app from an EMM suite, follow the steps in this topic.
 
@@ -29,21 +29,23 @@ If you download the mobile app from an enterprise mobility management \(EMM\) su
 
 1.  Tap the icon for one of the ServiceNow mobile apps.
 
-    The mobile instance login screen displays.
+    The mobile account login screen displays.
+
+    **Note:** An account is your ServiceNow environment — it includes your company's URL address \(aka instance\), a nickname, and your sign-in credentials.
 
     ![The mobile instance log in screen.](../image/log-in-screen.png)
 
 2.  In the instance address field, enter the instance address in one of two ways.
 
-<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d42945e115">
+<table id="choicetable_dvq_y41_fwb"><thead><tr><th align="left" id="d45613e121">
 
 Option
 
-</th><th align="left" id="d42945e118">
+</th><th align="left" id="d45613e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42945e124">
+</th></tr></thead><tbody><tr><td id="d45613e130">
 
 **Manual entry**
 
@@ -53,7 +55,7 @@ Type the instance address in the instance address field.
 
 **Note:** You don't need to include  `.service-now.com ` at the end of the instance name.
 
-</td></tr><tr><td id="d42945e141">
+</td></tr><tr><td id="d45613e147">
 
 **Scan QR code**
 

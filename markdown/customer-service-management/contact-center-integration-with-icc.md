@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integrating with contact centers, Integrate, Customer Service Management]
+breadcrumb: [Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Interaction Controls Component \(ICC\) for voice calls

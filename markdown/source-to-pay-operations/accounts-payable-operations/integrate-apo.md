@@ -15,7 +15,7 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 
 Extend the capabilities of Accounts Payable Operations by integrating with other applications.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   [Accounts Payable Operations integration framework](using-integration-to-create-invoice.md)
 -   [IT Asset Management purchase order invoice processing](apo-integration-with-itam.md)

@@ -26,6 +26,7 @@ Service Observability supports the following observability vendors:
 -   Cisco ThousandEyes synthetic tests
 -   Datadog
 -   DynatraceSaaS and on-premise \(both Classic and Grail environments\)
+-   LogicMonitor
 -   Microsoft Azure Monitor
 -   New Relic
 -   Prometheus on-premise

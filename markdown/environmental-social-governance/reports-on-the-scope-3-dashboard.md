@@ -13,7 +13,7 @@ breadcrumb: [Scope 3 dashboard, Explore, Operational Sustainability Management \
 
 The Scope 3 dashboard displays a variety of reports to easily gauge the sustainability impact of the scope 3 emissions of an organization. All the reports on this dashboard can be drilled down for detailed metric definitions and the entities that provide the data for each report.
 
-
+![](../images/scope3dashboard.png "Scope 3 dashboard")
 
 The following section explains each of the reports that are displayed.
 

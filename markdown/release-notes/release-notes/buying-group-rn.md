@@ -55,5 +55,5 @@ Install Buying Group by requesting it from the ServiceNow Store. Visit the [Serv
     The Opportunity Management application helps enable your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
 
 
-**Parent Topic:**[Sales and Order Management release notes](sales-order-management-rn-landing.md)
+**Parent Topic:**[Sales Customer Relationship Management release notes](sales-order-management-rn-landing.md)
 

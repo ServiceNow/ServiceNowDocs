@@ -37,7 +37,7 @@ Role required: sn\_wsd\_case.workplace\_agent
 
     The case details page of the selected case opens separately.
 
-4.  Select the ![Menu](../images/wsdagentmob-actions.png) icon on the top right of the header.
+4.  Select the ![](../images/actions.png) icon on the top right of the header.
 
 5.  Select **Create task**.
 
@@ -82,8 +82,6 @@ The child task is created. After creation, the child task details are displayed 
 
 
 [Manage workplace cases and tasks](manage-workplace-cases-and-tasks-assigned-to-you-agentmobile.md)
-
-[Assign an unassigned case or task](assign-an-unassigned-case-or-task-agentmobile.md)
 
 [Edit or view case details on the Workplace Agent for mobile app](edit-or-view-case-details-agentmobile.md)
 

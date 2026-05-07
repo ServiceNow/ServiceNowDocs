@@ -46,7 +46,7 @@ The following metadata-driven tools are available for using AI to develop apps:
 
 ## Now Assist for Creator and AI-assisted development on the ServiceNow AI Platform
 
-Now Assist for Creator is the ServiceNow AI Platform native toolkit for using AI to generate and refine apps. Instead of switching between generic IDEs and separate agents, Now Assist for Creator provides embedded skills aligned to platform constructs \(such as tables, ACLs, flows, and catalog items\). You can describe a solution through conversation, then inspect and test it with platform tools \(such as ATF, ACLs, and the Metadata Explorer\).
+Now Assist for Creator is the ServiceNow AI Platform toolkit for using AI to generate and refine apps. Instead of switching between generic IDEs and separate agents, Now Assist for Creator provides embedded skills aligned to platform constructs \(such as tables, ACLs, flows, and catalog items\). You can describe a solution through conversation, then inspect and test it with platform tools \(such as ATF, ACLs, and the Metadata Explorer\).
 
 ## General Now Assist for Creator workflow
 

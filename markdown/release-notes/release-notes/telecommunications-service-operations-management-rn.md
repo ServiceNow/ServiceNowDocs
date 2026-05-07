@@ -16,7 +16,7 @@ The ServiceNow® Telecommunications Service Operations Management \(TSOM\) appli
 
 -   Gain comprehensive SD-WAN visibility with new Telecom Discovery connectors for Cisco Meraki and Fortinet FortiManager.
 -   Extend discovery pattern capabilities with support for switch stacks, card models, lifecycle attributes, and improved error handling.
--   Monitor SD-WAN health in real time with new Telecom Event and Metric connectors that enable intelligent event categorization, correlation, and KPI aggregation.
+-   Monitor SD-WAN health in real-time with new Telecom Event and Metric connectors that enable intelligent event categorization, correlation, and KPI aggregation.
 
 See [Telecommunications Service Operations Management](https://www.servicenow.com/docs/access?context=telecommunications-service-operations-management&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US) for more information.
 
@@ -27,6 +27,16 @@ See [Telecommunications Service Operations Management](https://www.servicenow.co
 -   ****
 
     Gain full visibility into your SD-WAN landscape with automated discovery and mapping for Cisco Meraki and Fortinet FortiManager.
+
+
+-   ** Customize Fortinet license expiration date storage using scripted extension points**
+
+    By default, the Fortinet SD-WAN connector stores license expiration dates as separate CI key value pairs per device. You can override this behavior using a scripted extension point to implement alternative storage logic.
+
+
+-   **Configure allowlists to scope connector polling**
+
+    Connector instances for Cisco Meraki and Fortinet now support allowlists to limit polling to specific organizations or ADOMs. When configured, the connector polls only the listed entities, allowing large deployments to distribute collection across multiple connector instances and MID Servers.
 
 
 ## Changed in this release
@@ -54,6 +64,12 @@ Install Telecommunications Service Operations Management applications and plugin
     -   TSOM Event Management Connectors \(sn\_tsom\_em\_connectors\): TSOM Assurance Connectors for events and metrics
 
     -   TSOM Event Management Core \(sn\_tsom\_em\_core\): TSOM AssuranceCore features
+
+-   **[Renamed or changed plugins](https://www.servicenow.com/docs/access?context=configuring-tsom&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)**
+
+    The following plugins were renamed or changed in Australia:
+
+    Service Graph Connector for Meraki \(sn\_tsom\_meraki\_connector\):The application has been renamed to Service Graph Connector for Meraki Telco SD-WAN.
 
 
 ## Related ServiceNow applications and features

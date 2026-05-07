@@ -57,13 +57,11 @@ Tune the semantic layer when:
 
 -   **[Query Generation Health page](../../par-for-workspace/reference/querygen-health-page.md)**  
 The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.
--   **[Semantic descriptions and labels](semantic-layer-descriptions-labels.md)**  
-Semantic descriptions and labels are the primary fields that AI search uses to select the right table or field. Edit these fields when the system selects incorrect tables or fields.
--   **[Semantic usage instructions](semantic-usage-instructions.md)**  
-Semantic usage instructions teach the system how to query data by defining matching strategies, expansion logic, and data conventions. Use these instructions when the right table or field is selected but the query is constructed incorrectly.
+-   **[Customizing semantic metadata](customize-semantic-metadata.md)**  
+Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 -   **[Database views for cross-table data](database-views-cross-table-data.md)**  
 Database views combine fields from multiple tables into a single queryable entity. Add views to the semantic layer to answer cross-table questions in one query instead of requiring separate questions.
--   **[Segments in the Query Generation semantic layer](../../par-for-workspace/concept/querygen-segments.md#)**  
+-   **[Segments in the Query Generation semantic layer](../../par-for-workspace/concept/querygen-segments.md)**  
 Segments are predefined filter conditions that map business terminology to specific query filters, helping the semantic layer translate natural language questions into accurate database queries.
 
 **Parent Topic:**[Configuring Query Generation](../../par-for-workspace/concept/configuring-query-generation.md)

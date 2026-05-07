@@ -15,8 +15,21 @@ breadcrumb: [Threat Intelligence Security Center, Security Operations]
 
 Reference topics provide additional information about the Threat Intelligence Security Center.
 
-|Reference information|Links to topics|
-|---------------------|---------------|
+|Reference|Reference link|
+|---------|--------------|
 |Domain Separation and Threat Intelligence Security Center|[Domain separation and Threat Intelligence Security Center](../task/tisc-domain-separation.md)|
-|Components installed with Threat Intelligence Security Center application|[Components installed with Threat Intelligence Security Center](tisc-components-installed.md)|
+|Components installed with Threat Intelligence Security Center application|[Set Threat Intelligence Security Center properties](tisc-set-properties.md)|
+
+**Related topics**  
+
+
+[Explore](threat-intelligence-security-center-overview.md)
+
+[Configuring Threat Intelligence Security Center](../concept/tisc-configure.md)
+
+[Integrate](../concept/integrating-threat-intelligence-security-center.md)
+
+[Administer](tisc-data-administration.md)
+
+[Using Threat Intelligence Security Center](using-tisc.md)
 

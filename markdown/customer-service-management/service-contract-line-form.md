@@ -103,7 +103,7 @@ The current state of the contract line:-   Draft
 **Note:**
 
 -   The state of the customer contract line is inherited from its parent customer contract.
--   Suspended state is only applicable when the contract line item is created via the Sales and Order Management workflow.
+-   Suspended state is only applicable when the contract line item is created via the Sales Customer Relationship Management workflow.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Sold product
 
 The name of the sold product that is added to the contract line.**Note:**
 
--   When the customer contract line item is created via the Sales and Order Management workflow, this field displays the sold product name from which the contract line is generated.
+-   When the customer contract line item is created via the Sales Customer Relationship Management workflow, this field displays the sold product name from which the contract line is generated.
 -   When customer contract lines are created via integration, the field becomes invalid.
 
 </td></tr><tr><td>
@@ -288,5 +288,5 @@ Cumulative net price
 Represents the total price of the contract line by calculating the roll-up amount of all root lines.
 
 </td></tr></tbody>
-</table>**Note:** When a customer contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales and Order Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child customer contract line must be in between the start and end date of the associated parent customer contract line.
+</table>**Note:** When a customer contract line item is created manually, the **Pricing method**, **Unit net price**, and **Periodicity** fields are invalid. They’re only applicable when the contract line is created by the Sales Customer Relationship Management workflow or by integration. In that case, these fields are auto-populated with the details from the related sold product. The start and end dates of a child customer contract line must be in between the start and end date of the associated parent customer contract line.
 

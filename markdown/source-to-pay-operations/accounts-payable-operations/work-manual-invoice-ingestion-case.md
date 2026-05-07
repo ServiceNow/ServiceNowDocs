@@ -37,7 +37,7 @@ For a description of the field values and information about the available tabs o
 
     -   Navigate to **Lists** &gt; **My Work** &gt; **My open invoice processing cases**.
     -   Navigate to **Lists** &gt; **All Work** &gt; **All open invoice processing cases**.
-    ![image.apo-list-view]
+    ![List view](../image/apo-list-view.png)
 
 4.  Open an invoice processing case.
 

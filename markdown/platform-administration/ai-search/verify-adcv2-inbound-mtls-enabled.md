@@ -1,20 +1,20 @@
 ---
-title: Verify whether inbound mTLS support is enabled for your instance
-description: Check whether inbound mTLS support is enabled for your ServiceNow AI Platform instance. You need this feature enabled in order to run crawls for external content connectors.
+title: Verify whether inbound mTLS support is activated for your instance
+description: Check whether inbound mTLS support is activated for your ServiceNow AI Platform instance. You need this feature activated to run crawls for external content connectors.
 locale: en-US
 release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-09"
 reading_time_minutes: 1
 keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Install, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Verify whether inbound mTLS support is enabled for your instance
+# Verify whether inbound mTLS support is activated for your instance
 
-Check whether inbound mTLS support is enabled for your ServiceNow AI Platform® instance. You need this feature enabled in order to run crawls for external content connectors.
+Check whether inbound mTLS support is activated for your ServiceNow AI Platform® instance. You need this feature activated to run crawls for external content connectors.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: none
 
 ## About this task
 
-To run crawls for external content connectors, your ServiceNow AI Platform instance must have inbound mTLS support enabled. You can check the enablement status for this feature on your instance from a web browser or the curl command-line tool.
+To run crawls for external content connectors, your ServiceNow AI Platform instance must have inbound mTLS support activated. You can check the activation status for this feature on your instance from a web browser or the curl command-line tool.
 
-If inbound mTLS support isn't enabled on your instance, you can open a service request case to ask Customer Service and Support to enable it for you.
+If inbound mTLS support isn't activated on your instance, you can open a service request case to ask Customer Service and Support to activate it for you.
 
 ## Procedure
 
@@ -41,9 +41,9 @@ If inbound mTLS support isn't enabled on your instance, you can open a service r
 
 ## What to do next
 
-If the response from the `adcv2/supports_tls` request is `true`, inbound mTLS support is enabled on your instance. You don't need to do anything else.
+If the response from the `adcv2/supports_tls` request is `true`, inbound mTLS support is activated on your instance. You don't need to do anything else.
 
-If the response from the `adcv2/supports_tls` request is anything other than `true`, inbound mTLS support isn't enabled on your instance. Open a service request case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to ask Customer Service and Support to enable inbound mTLS support on your instance.
+If the response from the `adcv2/supports_tls` request is anything other than `true`, inbound mTLS support isn't activated on your instance. Open a service request case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to ask Customer Service and Support to activate inbound mTLS support on your instance.
 
 **Parent Topic:**[Install External Content Connectors](install-ext-cont-connectors.md)
 

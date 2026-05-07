@@ -1,19 +1,19 @@
 ---
 title: Disable feedback
-description: You can disable the Provide feedback mechanism by creating a system property and disabling it.
+description: You can disable the feedback providing mechanism by creating a system property and disabling it.
 locale: en-US
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Provide feedback to ServiceNow, Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
 
 # Disable feedback
 
-You can disable the Provide feedback mechanism by creating a system property and disabling it.
+You can disable the feedback providing mechanism by creating a system property and disabling it.
 
 ## Before you begin
 

@@ -4,8 +4,9 @@ description: Explore example prompts for building apps, as well as adding govern
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-04-02"
-reading_time_minutes: 3
+last_updated: "2026-04-30"
+reading_time_minutes: 4
+keywords: [Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -15,7 +16,7 @@ Explore example prompts for building apps, as well as adding governance, UI and 
 
 **Tip:**
 
--   You can craft a prompt and then feed it to an LLM, such as Claude, and ask for it to be made more specific for ServiceNow.
+-   You can craft a prompt and then feed it to an LLM, such as Claude, and ask for it to be made more specific for ServiceNow. To learn more about prompting, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544).
 -   If you're using Build Agent, include as much context as possible in your first prompt to enable more robust development. Include roles, data requirements, and success criteria.
 -   If you're using Build Agent, ask it to create an overview of the app in a file, such as Markdown. Then ask Build Agent to use the file as context for its work.
 -   You can use ESLint on the ServiceNow AI Platform to define your preferred coding style, and ask Build Agent to manage and enforce the ESLint configuration, for example using snake case for variables.
@@ -71,7 +72,7 @@ After you have the foundation of an app created, save your session and keep prom
 
 Prompting with governance requirements helps produce secure and compliant applications on the ServiceNow AI Platform. By embedding governance requirements directly into your prompts, you help the AI produce results aligned with your organizational standards for security, compliance, and quality.
 
-For more information on governance, see [Governance for vibe coding and AI-assisted app development](../../vibe-coding/concept/vc-governance.md).
+For more information on governance, see [Build Agent governance](../concept/build-agent-governance.md).
 
 **Tip:** If you have explicit security requirements, include them in your initial prompt.
 

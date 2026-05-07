@@ -37,7 +37,7 @@ You can create a part requirement to request a part with or without the context 
 
 4.  Do one of the following.
 
-<table><tbody><tr><td id="d45171e188">
+<table><tbody><tr><td id="d47690e188">
 
 **Click __Source__.**
 
@@ -45,7 +45,7 @@ You can create a part requirement to request a part with or without the context 
 
 All tasks and part requirements are listed on the left. Point to any task or part requirement icon to obtain more information. Right-click a work order task and select **Create Part Requirement**. This method is useful if you are sourcing multiple parts for a work order task.
 
-</td></tr><tr><td id="d45171e203">
+</td></tr><tr><td id="d47690e203">
 
 **In the __Part Requirements__ related list, click __New__.**
 

@@ -55,7 +55,7 @@ To determine if you must self-declare the license usage for a given engine, see 
 
     4.  In the **Name** field of the Client Access form, enter a name for the client access record.
 
-    5.  Select the Lookup using list icon \(![Lookup using list icon.](../image/search-icon.png)\) next in the **Software model** field to locate and select the software model for the SAP engine.
+    5.  Select the Lookup using list icon ![Search icon.](../image/search-icon.png) next in the **Software model** field to locate and select the software model for the SAP engine.
 
         **Note:** Select the same software model that you created in [step 1](self-declare-sap-products.md#create-software-model).
 

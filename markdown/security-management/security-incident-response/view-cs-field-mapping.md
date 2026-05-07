@@ -23,12 +23,10 @@ Role required: sn\_sec\_cmn.read
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Field Mapping**.
 
-2.  Click **Security Incident to CSM Case Field Mapping** to view the default map.
-
-    ![Default security incident to Case Management case](../image/cs-mapping.png)
+2.  Select **Security Incident to CSM Case Field Mapping** to view the default map.
 
 3.  You can edit the mapping, as needed.
 
-4.  When you have completed your changes, click **Update**.
+4.  When you have completed your changes, select **Update**.
 
 

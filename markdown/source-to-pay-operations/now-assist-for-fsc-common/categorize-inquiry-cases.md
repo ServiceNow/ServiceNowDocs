@@ -8,7 +8,7 @@ classification: now-assist-for-fsc-common
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Features, Now Assist for Finance and Supply Chain, Finance and Supply Chain]
+breadcrumb: [Use, Features, Now Assist Finance Supply Chain, Finance and Supply Chain]
 ---
 
 # Categorize inquiry cases

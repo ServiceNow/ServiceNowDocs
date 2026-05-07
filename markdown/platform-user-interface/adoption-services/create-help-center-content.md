@@ -1,29 +1,29 @@
 ---
-title: Create Help Center content for configurable workspaces
+title: Create Help Center content for configurable workspace
 description: Create Help Center content to provide your users with helpful information about the page that they are working on within a configurable workspace.
 locale: en-US
 release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 4
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
 
-# Create Help Center content for configurable workspaces
+# Create Help Center content for configurable workspace
 
 Create Help Center content to provide your users with helpful information about the page that they are working on within a configurable workspace.
 
 ## Before you begin
 
-Create or edit an embedded help record prior to creating a guidance record by following the steps in [Add custom Embedded Help content](../../help-guided-tours/task/add-custom-help-topic.md) to create new content or [Add custom Embedded Help from a copy](../../help-guided-tours/task/add-custom-help-copy.md) to modify existing content.
+Create or edit an embedded help record before creating a guidance record by following the steps in [Add custom Embedded Help content](../../help-guided-tours/task/add-custom-help-topic.md) to create content or [Add custom Embedded Help from a copy](../../help-guided-tours/task/add-custom-help-copy.md) to modify existing content.
 
 Role required: admin
 
 ## About this task
 
-To create Help Center content, you will create or modify two record types: guidance records and embedded help records. The guidance record enables your content, which is in an embedded help record, to display in the Help Center. This procedure explains how to enable displaying existing embedded help content in the Help Center.
+To create Help Center content, you will create or modify two record types: guidance records and embedded help records. The guidance record enables your content, which is in an Embedded Help record, to display in the Help Center. This procedure explains how to enable displaying existing embedded help content in the Help Center.
 
 ## Procedure
 
@@ -91,7 +91,7 @@ Embedded help content
 
 </td><td>
 
-The content of your guidance, which is displayed to users in the Help Center. Select an existing embedded help record, or create a new embedded help record as described in [Add custom Embedded Help content](../../help-guided-tours/task/add-custom-help-topic.md).
+The content of your guidance, which is displayed to users in the Help Center. Select an existing embedded help record, or create an embedded help record as described in [Add custom Embedded Help content](../../help-guided-tours/task/add-custom-help-topic.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Description
 
 </td><td>
 
-The description of your guidance, which displays in the Help Center as a short description below the title provided in the Name field.
+The description of your guidance, which displays in the Help Center as a short description under the title provided in the Name field.
 
 </td></tr><tr><td>
 
@@ -153,15 +153,15 @@ Active
 
 </td><td>
 
-Indicates that the guidance is active. Ensure this is checked when the guidance is published.
+Indicates that the guidance is active. Keep this option checked when the guidance is published.
 
 </td></tr><tr><td>
 
-ServiceNow created
+ServiceNow® created
 
 </td><td>
 
-Indicates that the guidance was created by ServiceNow. Reserved for ServiceNow use only.
+Indicates that the guidance was created by ServiceNow®. Reserved for ServiceNow® use only.
 
 </td></tr><tr><td>
 

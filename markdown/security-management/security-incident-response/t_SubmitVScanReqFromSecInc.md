@@ -27,13 +27,13 @@ Role required: sn\_si.write
 
     You can also open an existing incident that has configuration items.
 
-2.  When you have completed your entries on the form, right-click the form header and click **Save**.
+2.  When you have completed your entries on the form, select and hold \(or right-click\) the form header and select **Save**.
 
     After the record has been saved, a **Scan for Vulnerabilities** related link appears.
 
     **Note:** If the **Scan for Vulnerabilities** related list is not shown, you must navigate to **Vulnerability** &gt; **Scanners**, set up at least one scanner, and set its default to **true**.
 
-3.  Click **Scan for Vulnerabilities**.
+3.  Select **Scan for Vulnerabilities**.
 
     **Note:**
 
@@ -41,7 +41,7 @@ Role required: sn\_si.write
 
     ![Scan request with link](../image/ScanRequest.png)
 
-4.  You can click the scan request number to view the scan record.
+4.  You can Select the scan request number to view the scan record.
 
     The incident details show the results of the scan in the Security Scan Request record.
 

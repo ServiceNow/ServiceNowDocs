@@ -91,15 +91,15 @@ If you’re using Software Asset Workspace, the option to create the Workplace f
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d166280e259">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d168622e259">
 
 Interface
 
-</th><th align="left" id="d166280e262">
+</th><th align="left" id="d168622e262">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d166280e268">
+</th></tr></thead><tbody><tr><td id="d168622e268">
 
 **Core UI**
 
@@ -110,7 +110,7 @@ Action
 3.  Select **Workplace from Facebook Integration Profile**.
 
 
-</td></tr><tr><td id="d166280e310">
+</td></tr><tr><td id="d168622e310">
 
 **Software Asset Workspace**
 

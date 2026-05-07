@@ -24,7 +24,7 @@ Use generative AI to recommend TPRM issues for reviewer validation.
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
-AI native experience with three licensing tiers is available.
+Review the updated AI experience with three licensing tiers.
 
 See [Third-party Risk Management](https://www.servicenow.com/docs/access?context=third-party-risk-mgt-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
 

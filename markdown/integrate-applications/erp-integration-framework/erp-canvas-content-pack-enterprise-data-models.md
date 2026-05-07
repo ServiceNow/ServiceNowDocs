@@ -1,20 +1,20 @@
 ---
 title: Zero Copy Connector for ERP Enterprise Data Foundation content pack models
-description: The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains models that you may need when interacting with an SAP system.
+description: The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Enterprise Data Foundation content pack contains models that you might need when interacting with an SAP system.
 locale: en-US
 release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, content, pack, content pack, enterprise, data, model, integration, data hub, zero, copy, connector, sap]
-breadcrumb: [Enterprise Data Foundation content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Enterprise Data Foundation content pack, Available content packs, Content packs, Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Zero Copy Connector for ERP Enterprise Data Foundation content pack models
 
-The Zero Copy Connector for ERP Enterprise Data Foundation content pack contains models that you may need when interacting with an SAP system.
+The Zero Copy Connector for ERP \(Enterprise Resource Planning\) Enterprise Data Foundation content pack contains models that you might need when interacting with an SAP system.
 
 ## Enterprise Data Foundation content pack models
 
@@ -36,7 +36,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-Bank Master Data - Display
+Bank Master Data
 
 </td><td>
 
@@ -68,13 +68,11 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Business Partner
+Business Partner - Address
 
 </td><td>
 
--   Create: Create a business partner.
--   Update: Update business partner information.
--   Read: Retrieve details about a specific business partner.
+Retrieve all addresses for a business partner, including street, city, and country.
 
 </td><td>
 
@@ -82,16 +80,32 @@ ERP
 
 </td><td>
 
-OData V2
+RFC/BAPI
 
 </td></tr><tr><td>
 
-Business Partner - Bank Details
+Business Partner - Bank Data
 
 </td><td>
 
--   Create: Create bank information for a business partner.
--   Update: Update bank information, such as the account number and address, for a business partner.
+Retrieve general bank data for a business partner, including account number and bank key.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Business Partner - Bank details
+
+</td><td>
+
+-   Create: Create detailed bank information for a business partner.
+-   Update: Update detailed bank information, such as the bank account ID and payment methods, for a business partner.
 -   Read: Retrieve detailed bank information for a business partner.
 
 </td><td>
@@ -122,6 +136,24 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
+Business Partner - General Data
+
+</td><td>
+
+-   Create: Create business partner general data.
+-   Update: Update business partner general data.
+-   Read: Retrieve general data about a specific business partner.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+OData V2
+
+</td></tr><tr><td>
+
 Business Partner - List
 
 </td><td>
@@ -138,7 +170,25 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Business Partner - Roles
+Business Partner - Role
+
+</td><td>
+
+-   Create: Create a business partner role.
+-   Update: Update an existing business partner role, such as changing the required validity data.
+-   Read: Retrieve details about business partner roles.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+OData V2
+
+</td></tr><tr><td>
+
+Business Partner - Role
 
 </td><td>
 
@@ -156,11 +206,11 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-Chart of Account
+Chart of Accounts
 
 </td><td>
 
-Retrieve a chart of account list.
+Retrieve a chart of accounts list.
 
 </td><td>
 
@@ -192,6 +242,22 @@ Cost Center
 
 </td><td>
 
+Retrieve details about a specific cost center.
+
+</td><td>
+
+ERP
+
+</td><td>
+
+OData V2
+
+</td></tr><tr><td>
+
+Cost Center
+
+</td><td>
+
 -   Create: Create a cost center.
 -   Update: Update cost center information, such as description and category.
 -   Read: Retrieve details about a specific cost center.
@@ -203,22 +269,6 @@ ERP
 </td><td>
 
 RFC/BAPI
-
-</td></tr><tr><td>
-
-Cost Center
-
-</td><td>
-
-Retrieve details about a specific cost center.
-
-</td><td>
-
-ERP
-
-</td><td>
-
-OData V2
 
 </td></tr><tr><td>
 
@@ -254,7 +304,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-General Ledger \(G/L\) Accounts
+General Ledger Accounts
 
 </td><td>
 
@@ -270,7 +320,7 @@ OData V2
 
 </td></tr><tr><td>
 
-General Ledger \(G/L\) Accounts
+General Ledger Accounts
 
 </td><td>
 
@@ -286,7 +336,7 @@ RFC/BAPI
 
 </td></tr><tr><td>
 
-General Ledger \(G/L\) Accounts - List
+General Ledger Accounts - List
 
 </td><td>
 
@@ -360,8 +410,8 @@ Material Master - Sales Org Data
 
 </td><td>
 
--   Create:
--   Update:
+-   Create: Create sales org data
+-   Update: Update sales org data
 -   Read: Retrieve sales org data, such as tax classification and item category group.
 
 </td><td>
@@ -438,6 +488,38 @@ OData V2
 
 </td></tr><tr><td>
 
+Vendor Bank Details
+
+</td><td>
+
+Retrieve a list of vendor bank information.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Vendor Bank Details
+
+</td><td>
+
+Retrieve a list of vendor bank information.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+OData V2
+
+</td></tr><tr><td>
+
 Vendor - List
 
 </td><td>
@@ -451,6 +533,38 @@ Platform
 </td><td>
 
 RFC/BAPI
+
+</td></tr><tr><td>
+
+Vendor Location Details
+
+</td><td>
+
+Retrieve a list of vendor location information.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+RFC/BAPI
+
+</td></tr><tr><td>
+
+Vendor Location Details
+
+</td><td>
+
+Retrieve a list of vendor location information.
+
+</td><td>
+
+Platform
+
+</td><td>
+
+OData V2
 
 </td></tr><tr><td>
 

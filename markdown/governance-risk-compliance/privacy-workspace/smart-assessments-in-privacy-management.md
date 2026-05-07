@@ -43,6 +43,8 @@ To perform the screening and the impact assessments, you require assessment temp
 
 Starting with the Zurich release, two assessment templates, **Privacy Screening Assessment \[V4\]** and **Privacy Impact Assessment \[V4\]** are provided to perform smart assessments. **Privacy Screening Assessment \[V3\]** and **Privacy Impact Assessment \[V3\]** templates are also available. Some important differences between these templates and the additional configurations are explained as follows.
 
+**Note:** \[V4\] templates are the recommended starting point for new implementations.
+
 -   **Privacy screening assessment**
 
     Starting with the Zurich release, a new template for Privacy screening assessment \(Privacy Screening Assessment \[V4\]\) is available.

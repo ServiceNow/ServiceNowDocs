@@ -6,7 +6,7 @@ release: australia
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 5
 breadcrumb: [Integrate, Telecommunications Network Inventory]
 ---
@@ -18,10 +18,6 @@ With the Order Management for Telecommunications and Media \(OMT\) application, 
 ## Introduction to OMT integration
 
 The order workflow generates the order tasks that fulfill the customer-facing service order \(CFS\) and resource-facing service order \(RFS\). Network-related tasks that involve the inventory configuration items \(CIs\), models, and templates, may interact with the Telecommunications Network Inventory application to create network CIs. For all network-related order tasks, you must create a change request in the Telecommunications Network Inventory application.
-
-The following diagram shows the high-level process of managing a service request and detailed workflow of the Telecommunications Network Inventory and Order Management for Telecommunications applications.
-
-![Workflow explaining how TNI and OMT interact with each other to create a network CI.](../image/mmasset0020486-omt-integration.png)
 
 Following are the stages of the workflow:
 

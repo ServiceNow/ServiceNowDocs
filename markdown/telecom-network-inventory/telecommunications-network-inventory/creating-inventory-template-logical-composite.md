@@ -49,7 +49,7 @@ Use a this template to instantiate logical composites and related equipment and 
 
 **Previous topic:**[Create an inventory template for cable models](create-inventory-tenplate-cable-models.md)
 
-**Next topic:**[Import Models and Templates](import-models-and-templates.md)
+**Next topic:**[Import models and templates](import-models-and-templates.md)
 
 **Related topics**  
 

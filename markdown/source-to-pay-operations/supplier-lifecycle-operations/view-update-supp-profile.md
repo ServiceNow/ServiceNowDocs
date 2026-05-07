@@ -43,7 +43,7 @@ Keep your personal information accurate and up to date so that a supplier manage
 
 5.  Turn on the **Accessibility enabled** toggle switch to enable accessibility.
 
-6.  From the Time zone drop-down list, select a time zone.![User profile form to update user details.](../image/update-user-profile-supplier-collaboration-portal.png)
+6.  From the Time zone drop-down list, select a time zone.
 
 7.  Select **Refresh to see changes**.
 

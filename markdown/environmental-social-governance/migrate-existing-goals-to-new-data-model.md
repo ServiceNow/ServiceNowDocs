@@ -19,7 +19,7 @@ Role required: sys\_admin
 
 ## About this task
 
-If you are an existing user of IT Business Management, then you must migrate your existing goals to the Goal Framework. New customers automatically have the new framework and they do not need to run the job mentioned in this procedure.
+If you're an existing user of IT Business Management, then you must migrate your existing goals to the Goal Framework. New customers automatically have the new framework and they do not need to run the job mentioned in this procedure.
 
 ## Procedure
 
@@ -81,7 +81,7 @@ migrateStrategyWorkItemRelData
 **Note:** The name of the dummy goal will be prefixed with `Goal:`, followed by the strategy name.
 
 </td></tr></tbody>
-</table>4.  Click **Execute Now**.
+</table>4.  Select **Execute Now**.
 
 
 **Parent Topic:**[Create an Operational Sustainability Management \(formerly ESG Management\) goal](create-esg-goal.md)

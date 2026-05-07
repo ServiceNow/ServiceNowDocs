@@ -1,15 +1,15 @@
 ---
-title: Enterprise Architecture \(formerly Application Portfolio Management\) considerations
+title: Enterprise Architecture considerations
 description: Consider these points while implementing the CSDM framework.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework, Configuring Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture and CSDM framework, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Architecture \(formerly Application Portfolio Management\) considerations
+# Enterprise Architecture considerations
 
 Consider these points while implementing the CSDM framework.
 
@@ -37,5 +37,5 @@ Consider these points while implementing the CSDM framework.
 
 For additional information about Enterprise Architecture, see [APM: Application Inventory - Most common questions.](https://www.servicenow.com/community/apm-forum/apm-application-inventory-most-common-questions/m-p/1034443#M202)
 
-**Parent Topic:**[Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework](apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](apm-use-case-product-view.md)
 

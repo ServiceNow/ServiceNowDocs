@@ -6,7 +6,7 @@ release: australia
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -31,7 +31,7 @@ Configure the Event Management environment for the collection of events from Dyn
 
 1.  In your Dynatrace console, define Host Naming rules:
 
-    1.  Navigate to **Settings** &gt; **Monitoring** &gt; **Host Naming**.
+    1.  Navigate to **Settings** &gt; **Process and contextualize** &gt; **Naming** &gt; **Host Naming**.
 
     2.  Define the Host Naming rules for each cloud provider \(Azure/AWS/GCP\) to uniquely identify a CI from ServiceNow.
 
@@ -41,13 +41,13 @@ Configure the Event Management environment for the collection of events from Dyn
 
 2.  Define anomaly detection rules:
 
-    1.  Navigate to **Settings** &gt; **Anomaly Detection** &gt; **Infrastructure**.
+    1.  Navigate to **Settings** &gt; **Analyze and alert** &gt; **Alerts** &gt; **Hosts**.
 
     2.  In the **Hosts** tab, define rules on when to create alerts on the managed hosts.
 
 3.  Define the integration settings:
 
-    1.  Navigate to **Settings** &gt; **Integration** &gt; **Problem notifications** &gt; **Add notifications**.
+    1.  Navigate to **Settings** &gt; **Analyze and alert** &gt; **Notifications** &gt; **Problem notifications**.
 
     2.  In the Set up custom integration form, add the Webhook URL: `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=dynatrace`
 

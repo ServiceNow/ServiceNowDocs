@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP S4 HANA OData spoke v1.11.0 is the latest version.
+SAP S4 HANA OData spoke v1.11.2 is the latest version.
 
 ## Supported versions
 

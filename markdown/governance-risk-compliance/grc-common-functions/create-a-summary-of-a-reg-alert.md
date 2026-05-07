@@ -40,7 +40,7 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 1.  Navigate to one of the following locations:
 
-    -   **Workspaces** &gt; **Compliance Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Regulatory alerts**.
+    -   **Workspaces** &gt; **Compliance Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Regulatory alerts**.
     -   **Workspaces** &gt; **Compliance Workspace** select the Regulatory Change Management dashboard icon ![](../../grc-rcm/image/reg-change-icon.png) and then in the Activity overview, Tracking, or Trends section, select any segment or value in an Alerts related widget to open the list of regulatory alerts with that state.
 2.  Select a regulatory alert in any state except Closed or Cancelled.
 
@@ -50,15 +50,15 @@ By default, all skills exist in the global domain. When you use Now Assist in a 
 
 4.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d268946e214">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d271265e214">
 
 Option
 
-</th><th align="left" id="d268946e217">
+</th><th align="left" id="d271265e217">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d268946e223">
+</th></tr></thead><tbody><tr><td id="d271265e223">
 
 **Share to additional comments**
 
@@ -66,7 +66,7 @@ Description
 
 Select the **Share to additional comments** button to launch the Summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d268946e238">
+</td></tr><tr><td id="d271265e238">
 
 **View more**
 
@@ -74,7 +74,7 @@ Select the **Share to additional comments** button to launch the Summarized resu
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d268946e247">
+</td></tr><tr><td id="d271265e247">
 
 **View less**
 
@@ -82,7 +82,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d268946e256">
+</td></tr><tr><td id="d271265e256">
 
 **Provide feedback**
 
@@ -92,7 +92,7 @@ Select the helpful icon ![](328ef1e6ae5fbd285e9f69401ad973e953894858.png) for po
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d268946e282">
+</td></tr><tr><td id="d271265e282">
 
 **Copy the summary**
 
@@ -100,7 +100,7 @@ Select the helpful icon ![](328ef1e6ae5fbd285e9f69401ad973e953894858.png) for po
 
 Select the copy icon ![](d766411fa2cda51fca6d8b46dc674db6e0bfa2dc.png) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d268946e299">
+</td></tr><tr><td id="d271265e299">
 
 **Regenerate the summary**
 

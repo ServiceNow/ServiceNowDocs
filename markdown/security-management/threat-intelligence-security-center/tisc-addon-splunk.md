@@ -1,6 +1,6 @@
 ---
 title: TISC add-on for Splunk overview
-description: The Threat Intelligence Security Center \(TISC\) for Splunk app offers integration between TISC and Splunk that enables users to seamlessly import the latest threat intelligence from TISC into Splunk for monitoring and enriching alerts. Users can configure indicator collections, perform searches and utilize dashboards to analyse search matches and indicator collections effectively.
+description: Configure the Threat Intelligence Security Center \(TISC\) integration with Splunk to import threat intelligence data, set up indicator collections, and analyze search matches using dashboards.
 locale: en-US
 release: australia
 product: Threat Intelligence Security Center
@@ -8,19 +8,21 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Sighting Search, Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
+breadcrumb: [Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 
 # TISC add-on for Splunk overview
 
-The Threat Intelligence Security Center \(TISC\) for Splunk app offers integration between TISC and Splunk that enables users to seamlessly import the latest threat intelligence from TISC into Splunk for monitoring and enriching alerts. Users can configure indicator collections, perform searches and utilize dashboards to analyse search matches and indicator collections effectively.
+Configure the Threat Intelligence Security Center \(TISC\) integration with Splunk to import threat intelligence data, set up indicator collections, and analyze search matches using dashboards.
 
 -   **[TISC integration with Splunk](splunk-observables-enrichment-integration.md)**  
-The integration between the Threat Intelligence Security Center \(TISC\) and Splunk enables users to filter and pull in relevant threat intelligence observables data into Splunk. Within the Splunk, the users can use this data to generate security alerts.
--   **[Creating users in ServiceNow TISC instance](../task/tisc-create-users.md)**  
-You can create users in the ServiceNow TISC instance with any valid user role: sn\_sec\_tisc.api\_obs\_read\_access.
--   **[Configuring TISC add-on in Splunk](../task/tisc-configure-splunk.md)**  
-Follow this below procedure to configure the application.
+The integration between the Threat Intelligence Security Center \(TISC\) and Splunk lets you filter and pull relevant threat intelligence observables data into Splunk.In Splunk, you can use this data to generate security alerts.
+-   **[Create users in TISC instance](../task/tisc-create-users.md)**  
+Users can be created in the ServiceNow TISC instance with any valid user role \[`sn_sec_tisc.api_obs_read_access]`.
+-   **[Configure TISC add-on in Splunk](../task/tisc-configure-splunk.md)**  
+Configure the TISC add-on in Splunk to connect your account, define data inputs, and pull observable records into the KV store for search and analysis.
+-   **[Data storage in Splunk](tisc-storage-splunk.md)**  
+Configure and retrieve Key-Value store lookups used by TISC during its integration with Splunk.
 
 **Parent Topic:**[Configure Sighting Search](../task/configure-sighting-search.md)
 

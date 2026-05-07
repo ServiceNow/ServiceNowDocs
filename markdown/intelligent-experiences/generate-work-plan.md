@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-04-01"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Platform agentic workflows, Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
 ---
 
@@ -90,7 +90,7 @@ Predict estimates
 
 </td><td>
 
-Suggest estimated time to complete work per record.
+Predict estimated time to complete work per record.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Exclude task table
 
 </td><td>
 
-By default, certain fields are used for prioritizing work on the Task table. You can configure what fields to use on individual tables, such as the Incident table. Enable this to only use the table-specific configurations and not use the default fields.
+By default, certain fields are used for prioritizing work on the Task table. You can configure what fields to use on individual tables, such as the Incident table. Enable this to only plan for tables configured and not other records which are task or extension of task tables.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Conditions
 
 </td><td>
 
-Conditions for what kind of records someone can work on
+Filter criteria for determining eligible tasks
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Record fields
 
 </td><td>
 
-Fields used to judge how much work a task will take
+Fields passed to the workflow for analysis
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ AIS Search Profile
 
 </td><td>
 
-Specific AI Search profile to use to determine what work a user has
+Specific AI Search profile
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ AIS Search Fields
 
 </td><td>
 
-Fields used by AI Search to determine what work a user has
+Fields AI Search looks at for determining similarity
 
 </td></tr><tr><td>
 
@@ -185,7 +185,7 @@ GAF Config
 
 </td><td>
 
-Group Action Framework grouping configuration record, which is a collection of groups of records to make searching easier. By default, the agentic workflow uses the **GAF ITSM grouping**.
+Group Action Framework grouping configuration record, which is a collection of groups of records to make searching easier.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Order by
 
 </td><td>
 
-JSON object containing the ordering information for how work records are selected for the work plan. For example, if there are 20 tasks assigned to an itil agent, but you only want to generate work plans with 5 tasks at a time, set the order to decide which 5 tasks are considered first. By default, the agentic workflow uses priority as its first ordering. Higher priority items are looked at first, then how soon work items are due, then how escalated the cases are, then oldest records first.
+JSON object containing the ordering information for how work records are prioritized.
 
 </td></tr></tbody>
 </table>By default, the Generate my work plan agentic workflow relies on the User \[sys\_user\] record's Schedule field. If there is no schedule defined on the User record, the workflow consults the Schedule \[chm\_schedule\] table for the user. If neither are present, the assumed schedule is a weekday schedule from 8:00 a.m. to 5:00 p.m.

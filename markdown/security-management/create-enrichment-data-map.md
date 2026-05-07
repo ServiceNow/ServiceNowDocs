@@ -25,7 +25,7 @@ Existing enrichment data maps are used by workflows provided within Security Ope
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Enrichment Data Mapping**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields, as appropriate.
 
@@ -118,11 +118,11 @@ Description
 Enter a description of the enrichment data map.
 
 </td></tr></tbody>
-</table>4.  Click **Submit.**
+</table>4.  Select **Submit.**
 
     The Enrichment Data Mapping Fields tab appears.
 
-5.  Click **New**.
+5.  Select **New**.
 
 6.  Fill in the fields on the form, as appropriate.
 
@@ -203,11 +203,7 @@ Destination table
 The table to which the fields to map are going.
 
 </td></tr></tbody>
-</table>7.  Click **Submit**.
-
-    The following is an example of an enrichment data map.
-
-    ![Enrichment Data Mapping example](../image/EnrichmentDataMapForm.png)
+</table>7.  Select **Submit**.
 
 
 **Parent Topic:**[Security Operations enrichment data mapping](../concept/enrichment-data-mapping.md)

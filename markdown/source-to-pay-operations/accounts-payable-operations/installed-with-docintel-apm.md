@@ -1,6 +1,6 @@
 ---
 title: Components installed with Accounts Payable Operations integration with Document Intelligence
-description: Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
+description: Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
 locale: en-US
 release: australia
 product: Accounts Payable Operations
@@ -13,7 +13,7 @@ breadcrumb: [Install Accounts Payable Operations integration with Document Intel
 
 # Components installed with Accounts Payable Operations integration with Document Intelligence
 
-Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
+Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin, including user roles, flows, and tables.
 
 ## Roles required
 

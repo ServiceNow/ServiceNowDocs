@@ -66,6 +66,10 @@ The Australia release doesn't support Internet Explorer 11. The iOS version of F
 
     When enabled, this preference automatically moves your keyboard focus to important alerts so you don't miss critical messages while navigating with a keyboard or screen reader.
 
+-   **[Learn about accessibility preferences with a guided tour](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+
+    Explore accessibility preferences with a guided tour that shows how to customize navigation, keyboard behavior, and visual themes in Next Experience.
+
 
 **Parent Topic:**[ServiceNow AI Platform user interface release notes](now-platform-ui-rn-landing.md)
 

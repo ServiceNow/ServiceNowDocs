@@ -6,7 +6,7 @@ release: australia
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-17"
 reading_time_minutes: 5
 breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
 ---
@@ -43,7 +43,9 @@ If the model contains records from multiple scopes, such as vocabulary tables, i
 
 When models \(either Global or scoped\) are moved using update sets, their training and publishing state remains the same after transfer. So a model that is trained and published before it is added to an update set does not require retraining or republishing on the target instance.
 
-For information about parent-child update sets, see [Working with batched update sets](https://www.servicenow.com/docs/access?context=us-hier-overview&version=australia&pubname=australia-application-development&ft:locale=en-US). The following video provides a demonstration of this process. A video walkthrough of migrating NLU models by update sets in the Vancouver release.
+For information about parent-child update sets, see [Working with batched update sets](https://www.servicenow.com/docs/access?context=us-hier-overview&version=australia&pubname=australia-application-development&ft:locale=en-US). The following video provides a demonstration of this process.
+
+A video walkthrough of migrating NLU models by update sets in the Vancouver release.
 
 ## Procedure
 
@@ -94,8 +96,6 @@ For information about parent-child update sets, see [Working with batched update
     -   The parent update set has the value **\(empty\)** in the Parent column.
     -   Child update sets have the name of the parent in the Parent column, and **Global** in the Application column.
     -   Both parent and child update sets contain the same value in the Batch Base column.
-    ![In the Update Sets table, a parent-child update set with the parent row highlighted.](../images/add-model-update7V.png)
-
 9.  Open the parent's record in sys\_update\_set and set the **State** field to `Complete`.
 
     A Confirmation dialog box pops up. Select `Yes` to confirm. This sets the parent and all child update sets to Complete.
@@ -109,7 +109,5 @@ For information about parent-child update sets, see [Working with batched update
 
 In the target instance, navigate to **Retrieved Update Sets** and select **Import Update Sets from XML**. When unpackaged, the parent and all children will be listed in the Retrieved Update Sets table. Open the parent and select **Preview Update Set Batch**.
 
-If a referenced record in the source instance is not present on the target instance, you may encounter errors while applying the update set. For example, the origin field on sys\_nlu\_intent could refer to an intent from a different model that doesn't exist on the target instance. You can click **Accept remote update** on the failed records to commit the update set anyway.
-
-**Parent Topic:**[Creating models](../concept/creating-models.md)
+If a referenced record in the source instance is not present on the target instance, you may encounter errors while applying the update set. For example, the origin field on sys\_nlu\_intent could refer to an intent from a different model that doesn't exist on the target instance. You can select **Accept remote update** on the failed records to commit the update set anyway.
 

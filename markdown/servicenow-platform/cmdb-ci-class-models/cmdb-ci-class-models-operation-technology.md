@@ -6,7 +6,7 @@ release: australia
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-16"
 reading_time_minutes: 30
 breadcrumb: [CMDB CI class models, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,12 +26,12 @@ The Operational Technology \(OT\) data model was created to enable management of
 1.  A CI class record. This can be an IT or an OT class CI.
 2.  An OT Device details record. This describes the OT Device type \(function\) and other OT-specific attributes.
 
-Each OT Device in the CMDB can be distinguished as having an “OT Device Details” reference \[cmdb\_ot\_entity reference field\] to a specific OT Device details \[cmdb\_ot\_entity table\] record. This is a bi-directional reference; the ot\_device reference on the cmdb\_ot\_entity table references the CI record. If the cmdb\_ot\_entity reference of a given CI record is **not** empty, the CI is considered to be an OT Device.
+    Each OT Device in the CMDB can be distinguished as having an “OT Device Details” reference \[cmdb\_ot\_entity reference field\] to a specific OT Device details \[cmdb\_ot\_entity table\] record. This is a bi-directional reference; the ot\_device reference on the cmdb\_ot\_entity table references the CI record. If the cmdb\_ot\_entity reference of a given CI record is **not** empty, the CI is considered to be an OT Device. A record in any Cl class can be designated as an OT Device. All OT Device records include a record in the OT Entity table \[cmdb\_ot\_entity\] to store OT-specific metadata.
 
-For example, an HMI \(Human Machine Interface\) OT Device could be composed in at least two different ways.
+    In the following example, HMI might be software installed on an IT class Cl or might be a proprietary appliance similar to a POS device.
 
-1.  A computer CI with an OT Device detail record describing its “OT Device type” as HMI.
-2.  An HMI CI with an OT Device detail record describing its “OT Device type” also as HMI.
+    -   An HMI CI with an OT Device detail record describing its “OT Device type” also as HMI.
+    -   A computer CI with an OT Device detail record describing its “OT Device type” as HMI.
 
 ![OT Device records include a record in the cmdb_ot_entity table.](../image/ot-asset-ci-class.png)
 

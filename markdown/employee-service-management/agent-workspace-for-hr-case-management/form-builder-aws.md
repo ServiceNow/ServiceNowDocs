@@ -17,7 +17,7 @@ Add and arrange fields within a form layout to match form requirements using For
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_agent\_ws.admin
 
 ## Procedure
 
@@ -33,15 +33,15 @@ Role required: admin
 
 6.  Customize the fields by performing one of the following actions.
 
-<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d509460e124">
+<table id="choicetable_p52_lhs_5zb"><thead><tr><th align="left" id="d518203e124">
 
 Option
 
-</th><th align="left" id="d509460e127">
+</th><th align="left" id="d518203e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d509460e133">
+</th></tr></thead><tbody><tr><td id="d518203e133">
 
 **Add an existing field to a form**
 
@@ -52,7 +52,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d509460e160">
+</td></tr><tr><td id="d518203e160">
 
 **Add a new field to a form**
 
@@ -73,7 +73,7 @@ A confirmation dialog displays. You can click **Done** to close it or click **Ad
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d509460e225">
+</td></tr><tr><td id="d518203e225">
 
 **Delete a field in the form**
 

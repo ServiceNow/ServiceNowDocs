@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-27"
 reading_time_minutes: 4
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -15,15 +15,13 @@ breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Managem
 
 The Operational Risk Management dashboard enables an entity owner, with the role sn\_risk.user, to view the complete risk posture for the enterprise in a single consolidated report. This dashboard makes it easy to analyze the risk posture efficiently and take necessary corrective actions to ensure that there are no losses.
 
-![Tabs of the operational risk dashboard](../../../product/grc-risk/image/operational-risk-dashboard.png "Operational risk dashboard")
-
 **Important:** Starting with version 18.1.0 of the Advanced Risk application, the Operational Risk Management dashboard is available in the Next Experience UI Framework.
 
 If you are on Vancouver or Washington DC, you can view the dashboard in the Next Experience UI Framework.
 
 To open the dashboard, navigate to **All** &gt; **Advanced Risk Assessment** &gt; **Analytics Operational Risk Dashboard**.
 
-![Operational Risk Management dashboard in the Next Experience](../image/operational-risk-management-dashboard-nextgen.gif "Operational Risk Management dashboard in the Next Experience")
+![Operational Risk Management dashboard in the Next Experience](../image/operational-risk-management-dashboard-nextgen-coral.jpg "Operational Risk Management dashboard in the Next Experience")
 
 ## End user and roles
 
@@ -88,27 +86,27 @@ Organization \(Entity\)
 
 ## Data visualizations
 
-|Title|Type|Description|
-|-----|----|-----------|
-|Risk Response by Residual Risk Rating|Heatmap ![Heatmap icon](../../reporting/image/icon-heatmap-report.png)|Heatmap which shows the number of different risk response tasks for each residual risks.|
-|Controls by owner|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|Controls distributed on the basis of their owners.|
-|Risks by owner|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|Risks distributed on the basis of their owners.|
-|Inherent risks by category|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|Number of risk assessments with different inherent risk levels grouped by risk statement categories such as credit, market and so on.|
-|Residual risks by category|Horizontal bar ![Horizontal bar icon](../../performance-analytics/image/horizontal-bar.png)|Number of risk assessments with different residual risk levels grouped by risk statement categories such as credit, market, and so on.|
-|Control Test|List ![Score card icon](../../performance-analytics/image/scorecard-icon.png)|List of all controls.|
-|Control Indicators|List ![Score card icon](../../performance-analytics/image/scorecard-icon.png)|Indicators associated with each control.|
-|Risk Indicators|List ![Score card icon](../../performance-analytics/image/scorecard-icon.png)|Indicators associated with each risk.|
-|Controls by classifications|Pie chart ![Pie icon](../../performance-analytics/image/pie-icon.png)|Controls distribution on the basis of its classification like preventive or detective.|
-|Controls by attestation frequency|Pie chart ![Pie icon](../../performance-analytics/image/pie-icon.png)|Controls distributed on the basis of attestation frequency.|
-|Risks by category|Pie chart ![Pie icon](../../performance-analytics/image/pie-icon.png)|Risk distribution on the basis of category.|
-|Overdue issues|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of open issues that are past their planned end date.|
-|Active risk events|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of active risk events.|
-|Pending attestations|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of controls awaiting attestation.|
-|Overdue assessment task|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of risk assessments with the substate as Overdue.|
-|Upcoming acceptance expiry|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of risk acceptance tasks with acceptance end date in next 10 days.|
-|Open mitigation tasks|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of open mitigation tasks.|
-|Open indicator tasks|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of open indicator tasks.|
-|Overdue control tests|Single score ![Single-score icon](../../performance-analytics/image/single-score.png)|Number of open control tests that are past their planned end date.|
+|Title|Description|
+|-----|-----------|
+|Risk Response by Residual Risk Rating|Heatmap which shows the number of different risk response tasks for each residual risks.|
+|Controls by owner|Controls distributed on the basis of their owners.|
+|Risks by owner|Risks distributed on the basis of their owners.|
+|Inherent risks by category|Number of risk assessments with different inherent risk levels grouped by risk statement categories such as credit, market and so on.|
+|Residual risks by category|Number of risk assessments with different residual risk levels grouped by risk statement categories such as credit, market, and so on.|
+|Control Test|List of all controls.|
+|Control Indicators|Indicators associated with each control.|
+|Risk Indicators|Indicators associated with each risk.|
+|Controls by classifications|Controls distribution on the basis of its classification like preventive or detective.|
+|Controls by attestation frequency|Controls distributed on the basis of attestation frequency.|
+|Risks by category|Risk distribution on the basis of category.|
+|Overdue issues|Number of open issues that are past their planned end date.|
+|Active risk events|Number of active risk events.|
+|Pending attestations|Number of controls awaiting attestation.|
+|Overdue assessment task|Number of risk assessments with the substate as Overdue.|
+|Upcoming acceptance expiry|Number of risk acceptance tasks with acceptance end date in next 10 days.|
+|Open mitigation tasks|Number of open mitigation tasks.|
+|Open indicator tasks|Number of open indicator tasks.|
+|Overdue control tests|Number of open control tests that are past their planned end date.|
 
 -   **[GRC Advanced Risk plugin indicators](indicators-advanced-risk.md)**  
 The GRC Advanced Risk plugin contains various indicators.

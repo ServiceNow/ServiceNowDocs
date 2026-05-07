@@ -58,7 +58,7 @@ Test payload
 Select to verify that the webhook is functioning correctly and that the receiving system can process the data as expected.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create Respond automation](../task/esc-notify-alert-sow-itom.md).
+</table>To return to the procedure, see [Create Respond automation](../task/respond-alert-sow-itom.md).
 
 **Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
 

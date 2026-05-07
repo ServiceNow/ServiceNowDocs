@@ -19,7 +19,7 @@ The SAM Cluster 360° feature simplifies the process of analyzing a cluster, whi
 
 ## Cluster overview
 
-![Software Asset Management support for cluster](../image/MMASSET0020510.png)
+![Software Asset Management support for cluster](../image/mmasset0020510.svg)
 
 A cluster is a type of virtualization where hosts are grouped and share resources. This technology provides high availability, resource pooling, and load balancing for virtual machines that run on it. This technology provides the foundation for building highly resilient, scalable, and efficient virtualized environments.
 
@@ -28,8 +28,6 @@ Each host has the capacity to run multiple virtual machines \(VMs\) and can be c
 The VMs can move across the hosts depending on certain settings such as High availability or Distributed Resource Scheduler \(DRS\). Settings such as Host affinity can lock VMs to certain hosts.
 
 Factors such as the number of VMs, movement of VMs, hosts, and VM cores in a cluster can affect your license compliance.
-
-![Cluster setup](../image/cluster-details.png "Cluster setup")
 
 ## Benefits of SAM Cluster 360°
 

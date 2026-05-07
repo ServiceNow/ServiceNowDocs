@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Rally.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d420837e95">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d422873e95">
 
 Option
 
-</th><th align="left" id="d420837e98">
+</th><th align="left" id="d422873e98">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d420837e104">
+</th></tr></thead><tbody><tr><td id="d422873e104">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d420837e128">
+</td></tr><tr><td id="d422873e128">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Rally from the Plan category.
 
 
-</td></tr><tr><td id="d420837e177">
+</td></tr><tr><td id="d422873e177">
 
 **Tools module**
 

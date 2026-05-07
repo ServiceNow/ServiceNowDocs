@@ -23,7 +23,7 @@ Updates that you perform on the pallet as part of the transfer order workflow ar
 
 If there's a problem with all or some of the assets you receive as part of a transfer order, you can return the pallet along with its assets. You can't return individual assets contained in the pallet.
 
-For more information, see [Transfer assets using transfer orders](../../asset-management/task/t_TransferAssetsUsingTransferOrders.md).
+For more information, see .
 
 ## Disposing of pallets
 

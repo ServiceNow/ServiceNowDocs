@@ -59,8 +59,6 @@ Proceed to train your model. For more information on model training, see [Train 
 
 For information about errors when syncing a table vocabulary source, see article [KB1588239](https://support.servicenow.com/kb_view.do?sysparm_article=KB1588239) in the Now Support Knowledge Base.
 
-**Parent Topic:**[NLU vocabulary](../concept/using-nlu-vocabulary.md)
-
 **Related topics**  
 
 

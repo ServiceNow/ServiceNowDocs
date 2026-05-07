@@ -6,7 +6,7 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-10-25"
 reading_time_minutes: 2
 keywords: [Obligation extraction, Configure obligation extraction]
 breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -28,17 +28,21 @@ Complete the following steps to configure Conversational contract search and ins
 
     Index the data for conversational search.
 
+-   **[Configure conversational search tables](cmpro-na-kg-table.md)**
+
+    Configure Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
+
 -   **[Configuring user access and data permissions for agentic workflows](../concept/cmpro-conf-users-agentic-wf.md)**
 
-    Set the data access permissions for the agentic workflow- `Conversational Contract Search`.
+    Set the data access permissions for the agentic workflow- Conversational Contract Search.
 
 -   **[Configuring user access and data permissions for AI agents](../concept/cmpro-conf-users-ai-agents.md)**
 
-    Set the data access permissions for the Agent- `Search contracts AI`.
+    Set the data access permissions for the Agent- Search contracts AI.
 
 -   **[Configure data permissions for Now Assist skills](cmpro-conf-roles-skills.md)**
 
-    Set the data access permissions for the Now Assist skills- `Contracts query enhancer`, `Contracts query classifier` and `Search contract with contextual input`.
+    Set the data access permissions for the Now Assist skills- Contracts query enhancer, Contracts query classifier and Search contract with contextual input.
 
 
 ## Accessing the Agentic Workflow

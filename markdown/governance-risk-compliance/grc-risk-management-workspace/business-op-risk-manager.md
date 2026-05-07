@@ -27,7 +27,7 @@ A business operational risk manager has the role sn\_risk\_workspace.business\_o
 -   View the control status, the number of new controls, and the number of controls not attested.
 -   View the number of overdue issues and the number of new issues.
 
-The following image shows the operational risk manager's view of the Risk Workspace ![Workspace for the business operational risk manager.](../image/risk-business-op-risk.gif).
+The following image shows the operational risk manager's view of the Risk Workspace ![Workspace for the business operational risk manager.](../image/risk-business-op-risk-new.png).
 
 To view the risk assessments for the top risks for your entities, click the **Top risks** card.
 

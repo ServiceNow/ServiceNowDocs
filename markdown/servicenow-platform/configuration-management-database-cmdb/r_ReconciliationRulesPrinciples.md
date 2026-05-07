@@ -73,7 +73,7 @@ As you create reconciliation rules, keep in mind the following principles which 
 
 -   **Child class rules overrides parent class rules**
 
-    Any reconciliation rules defined for a child class override the rules defined for its parent class. This rule applies also when the child's reconciliation rule is static and the parent's rule is dynamic \(dynamic reconciliation rules have precedence over static reconciliation rules when they are for same level class\).
+    Any reconciliation rules defined for a child class override the rules defined for its parent class. So if an attribute of a derived rule is overridden by a child's class rule for a specific class, then the derived rule has no effect on that attribute. This behavior applies also when the child's reconciliation rule is static and the parent's rule is dynamic \(dynamic reconciliation rules have precedence over static reconciliation rules when they are for same level class\).
 
     For example, rule \#1 above lets Discovery update the **name** attribute in the **cmdb\_ci\_computer** class and all of its child classes. However, rule \#2 for the **cmdb\_ci\_linux\_server** child class, which overrides rule \#1 for the parent class, explicitly authorizes ServiceWatch to update this attribute in the child class.
 
@@ -92,7 +92,7 @@ As you create reconciliation rules, keep in mind the following principles which 
     Like example rule \#1 above, this new rule applies to the **name** attribute in the **cmdb\_ci\_computer** class so both Discovery and ServiceWatch can update the attribute. Any reconciliation rules are enforced to prevent the discovery sources from overwriting each other's updates.
 
 
-For more information about reconciliation rules, see the [CMDB - Data Precedence Rules Understanding the CMDB data precedence rules and troubleshooting \[KB0756709\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0756709) knowledge base article \(Starting with the Paris release, reconciliation and data precedence rules are merged\).
+For more information about reconciliation rules, see the [CMDB - Data Precedence Rules Understanding the CMDB data precedence rules and troubleshooting \[KB0756709\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB0756709) knowledge base article.
 
 ## Domain separation
 

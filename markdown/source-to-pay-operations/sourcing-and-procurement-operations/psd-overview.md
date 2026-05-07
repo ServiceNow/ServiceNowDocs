@@ -7,7 +7,7 @@ product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
@@ -48,6 +48,8 @@ You can configure the following roles and tasks:
 -   sn\_spend\_psd.procurement\_task\_owner: Access and complete task assignments to fulfill the requests.
 -   sn\_spend\_psd.requestor: Create procurement cases.
 
+-   **[Procurement case types](procurement-case-types.md)**  
+Procurement case types classify and route procurement work items to the appropriate team, and can block order or sourcing processing until the required review or action is complete.
 -   **[Work prioritization](../reference/work-prioritization.md)**  
 Work prioritization automatically assigns a priority level to purchase requisitions, sourcing requests, and procurement cases so that procurement specialists can work the most urgent items first.
 -   **[Supplier qualification](../reference/supplier-qualification.md)**  
@@ -69,6 +71,8 @@ The Procurement Case Management Dashboard helps you to track, analyze, and manag
 
 **Related topics**  
 
+
+[Shopping Hub](shopping-hub-overview.md)
 
 [My purchases on Shopping Hub](my-purchases.md)
 

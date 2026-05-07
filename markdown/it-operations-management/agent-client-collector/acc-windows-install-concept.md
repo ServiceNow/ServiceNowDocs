@@ -18,7 +18,7 @@ When installing the Agent Client Collector on a Windows machine, either download
 -   **[Install the Agent Client Collector on a Windows machine manually](../task/acc-install-windows.md)**  
 Install the Agent Client Collector on a Windows machine manually when you want to test the agent on a single system.
 -   **[Install the Agent Client Collector on a Windows machine using silent installation](../task/acc-windows-install-silent.md)**  
-Install the Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
+Install Agent Client Collector on a Windows machine using silent installation when you want to deploy the agent at scale.
 
 **Parent Topic:**[Deploying Agent Client Collector on servers](acc-server-deployment.md)
 

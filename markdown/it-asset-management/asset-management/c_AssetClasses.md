@@ -6,7 +6,7 @@ release: australia
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
 ---
@@ -46,8 +46,6 @@ Depreciation is the reduction in the value of an asset over time.
 [Manage pre-allocated assets](../../hardware-asset-management/concept/manage-preallocated-asset.md)
 
 [Manage transfer order](manage-transfer-orders.md)
-
-[Example Asset Management process](../task/t_AssetManagementProcess.md)
 
 [Use Organization Management](../reference/org-mgmt.md#)
 

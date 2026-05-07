@@ -27,7 +27,7 @@ You can add multiple causes to a privacy case and define a primary cause. Any pr
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list icon ![List](../../grc-workspace-vrm/image/ws-list-icon.png).
+2.  Select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png).
 
 3.  Select **All Cases**.
 

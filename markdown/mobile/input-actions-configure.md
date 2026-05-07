@@ -184,15 +184,15 @@ Determine where or how the action handles the generated data.**Note:** Unless ot
 
 12. Do the following for input actions that you want to include to the input field area.
 
-<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d66714e487">
+<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d69507e487">
 
 Input action type
 
-</th><th align="left" id="d66714e490">
+</th><th align="left" id="d69507e490">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d66714e496">
+</th></tr></thead><tbody><tr><td id="d69507e496">
 
 **Attachment**
 
@@ -203,7 +203,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d66714e532">
+</td></tr><tr><td id="d69507e532">
 
 **Comment**
 
@@ -214,7 +214,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d66714e568">
+</td></tr><tr><td id="d69507e568">
 
 **Navigation button**
 

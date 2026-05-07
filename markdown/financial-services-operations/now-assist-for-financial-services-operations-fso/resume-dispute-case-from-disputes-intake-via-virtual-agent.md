@@ -37,7 +37,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d111298e161">
+<table id="choicetable_egp_gdn_wdc"><tbody><tr><td id="d112447e161">
 
 **Customer has identified a disputed transaction**
 
@@ -45,7 +45,7 @@ When a customer initiates a dispute intake by selecting **Report a dispute** in 
 
 Review the disputed transaction details.
 
-</td></tr><tr><td id="d111298e170">
+</td></tr><tr><td id="d112447e170">
 
 **Customer hasn’t identified a disputed transaction**
 

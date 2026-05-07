@@ -25,12 +25,6 @@ The Offboard a Supplier playbook is displayed only for the cases of type Offboar
 
 ![Offboard a Supplier playbook tab.](../image/slo-offboard-playbook.png)
 
-## Offboard a Supplier playbook flow
-
-The following diagram illustrates the flow of the activities in each stage of the Offboard a Supplier playbook.
-
-![Offboard a Supplier playbook flow.](../image/slo-offboard-supplier.png "Offboard a Supplier playbook")
-
 ## Offboard a Supplier playbook stages and activities
 
 The following table lists the stages and activities that supplier managers and owners can use to offboard suppliers.

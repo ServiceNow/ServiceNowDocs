@@ -21,7 +21,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
 
-2.  In the **Customer** workflow group, view the skills for Now Assist for CPQ under SOM.
+2.  In the **Customer** workflow group, view the skills for Now Assist for CPQ under Sales CRM.
 
 3.  Make a copy of an active quote summarization skill by selecting the More actions icon ![](../../tmt-order-mgt/image/more-options.png) and then select **Make a copy** to create a version that you can customize.
 

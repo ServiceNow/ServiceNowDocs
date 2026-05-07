@@ -15,7 +15,7 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 
 Accounts Payable Specialists and agents can use Accounts Payable Operations to manage cases, invoices, route cases to agents, invoice exceptions and integrate with other applications.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 -   **[Create a knowledge base article about invoice](../task/create-knowledge-base-articles-for-invoices.md)**  
 Create a knowledge base article to share invoice information and policies with your employees and suppliers.

@@ -16,6 +16,8 @@ breadcrumb: [Now Assist for IT Service Management \(ITSM\), IT Service Managemen
 
 Use the ITSM Virtual Agent analytics dashboard to analyze chats from customer interactions, what ITSM Virtual Agent topics users are interested in, and measure customer satisfaction using AI transcripts and user feedback.
 
+Access the ITSM Virtual Agent analytics dashboard from SOW or Assistant Designer with the appropriate roles.
+
 **Important:** You can access the Virtual Agent analytics dashboard from the Service Operations Workspace \(SOW\) or the Assistant Designer.
 
 -   You must have the itil and the sn\_na\_analytics.ai\_engmt\_viewer roles to access it from SOW.
@@ -64,13 +66,7 @@ The ITSM Virtual Agent analytics dashboard displays.
 ![ITSM Virtual Agent analytics Assistant Designer](../image/now-assist-itsm-assistant-designer-analytics.png)
 
 </td></tr></tbody>
-</table>-   **[ITSM Virtual Agent chat analytics](now-assist-itsm-conversational-dashboard-chat-analytics.md)**  
-Track all closed chats, ITSM Virtual Agent chat resolutions, and the chat resolution rate to measure overall demand and ITSM Virtual Agent effectiveness.
--   **[ITSM Virtual Agent topics analytics](now-assist-itsm-conversational-dashboard-topics.md)**  
-As a business stakeholder or a service desk manager, you can analyze the pattern of interactions when users ask questions using the ITSM Virtual Agent.
--   **[ITSM Virtual Agent Customer satisfaction analytics](now-assist-itsm-conversational-dashboard-customer-satisfaction.md)**  
-Track customer satisfaction through AI interaction transcript analysis and user feedback to gauge experience quality.
--   **[ITSM Virtual Agent Analytics reference](../reference/now-assist-itsm-va-analytics-reference.md)**  
+</table>-   **[ITSM Virtual Agent Analytics reference](../reference/now-assist-itsm-va-analytics-reference.md)**  
 As an admin, you can refer to the indicators, schedule jobs, and scripts used in the ITSM Virtual Agent analytics.
 
 **Parent Topic:**[Now Assist for IT Service Management \(ITSM\)](now-assist-itsm.md)

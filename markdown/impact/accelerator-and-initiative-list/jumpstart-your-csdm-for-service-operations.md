@@ -32,7 +32,7 @@ Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accele
 
 -   **Session Preparation**
 
-    Provision of a temporary instance
+    The Technical Accelerator Consultant provisions a temporary instance
 
 -   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 

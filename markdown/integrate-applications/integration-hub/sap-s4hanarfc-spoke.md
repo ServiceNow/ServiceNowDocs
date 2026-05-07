@@ -25,7 +25,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP S4 HANA RFC spoke v2.5.1 is the latest version.
+SAP S4 HANA RFC spoke v2.6.1 is the latest version.
 
 ## Supported versions
 

@@ -31,11 +31,7 @@ Role required: sn\_ap\_apm.accounts\_payable\_specialist or sn\_ap\_apm.admin
 
 5.  Select **View invoice processing case**.
 
-    ![image.apo-view-inv-process-case]
-
-    The invoice processing case opens and displays the following notification at the top:
-
-    `Required information for invoice has one or more errors. Review required fields and currency in "Details" tab to continue processing.`
+    ![View invoice processing case](../image/apo-view-inv-process-case.png)
 
     The invoice processing case opens and displays the following notification at the top:
 

@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Now Assist panel, Now Assist Experiences, Exploring Now Assist Admin, Now Assist, Enable AI experiences]
 ---
 
@@ -186,7 +186,15 @@ Core UI
 ![Now Assist panel on a Core UI incident form.](../images/now-assist-panel-overview-ui16-example.png)
 
 </td></tr></tbody>
-</table>## Agentic conversations
+</table>## Response feedback
+
+Each Virtual Agent response includes a feedback icons panel. The feedback icons panel appears on the latest Virtual Agent response and whenever you hover over any Virtual Agent response. You can indicate if the response was helpful by selecting the like thumbs up icon \(![image.llm-thumbs-up-like]\). If the response wasn't helpful, select the dislike thumbs down icon \(![image.llm-thumbs-down-dislike]\). When you select the thumbs up or thumbs down icon, you are prompted to provide detailed feedback by selecting one or more reason check boxes. You can also select **Other** to add comments or suggestions \(up to 300 characters\). After making your selection, select **Submit** to submit your feedback or select **X** to close the dialog without submitting feedback. All submitted feedback is captured, stored, and made available through analytic dashboards.
+
+![Thumbs down granular feedback dialog.](../../now-assist-in-va/image/feedback-panel-granular.png "Example of additional feedback panel from thumbs down icon")
+
+Depending on the context of the response, an additional go to search results icon \(![Go to search results icon.](../../now-assist-in-va/image/nass-search-result-icon.png)\) may appear in the feedback icons panel. This icon appears alongside synthesized responses in Virtual Agent, clarifying questions in Virtual Agent, and regular search results or Virtual Agent fallback topics whenever a synthesized response is unavailable. Selecting the go to search results icon \(![Go to search results icon.](../../now-assist-in-va/image/nass-search-result-icon.png)\) redirects you to the search results page and begins a search query using the last five chat utterances you entered.Additionally, a copy message icon \(![](../../now-assist-in-va/image/dw-feedback-copy-message-icon.png)\) appears on received Virtual Agent responses.
+
+## Agentic conversations
 
 **Note:** Admins must first enable AI agents before end users can experience agentic conversations. Now Assist panel discovers and executes agentic workflows. For more information on agentic workflows, see [Now Assist agentic workflows](../../now-assist-ai-agents/concept/sn-aia-use-cases-list.md) and [Multiple conversations in Now Assist AI agents](../../now-assist-ai-agents/concept/multiple-conversations-aia.md).
 

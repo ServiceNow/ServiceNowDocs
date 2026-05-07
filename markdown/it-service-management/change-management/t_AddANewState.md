@@ -1,5 +1,5 @@
 ---
-title: Add a state to the state model
+title: Legacy: Add a state to the state model
 description: You can add a new state to the existing state model for different change types based on the requirements of your organization.Any modification to the state model may impact the default workflows for change requests.
 locale: en-US
 release: australia
@@ -7,21 +7,23 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
-breadcrumb: [State model and transitions, Configure, Change Management, IT Service Management]
+reading_time_minutes: 6
+breadcrumb: [Legacy: State model and transitions, Configure, Change Management, IT Service Management]
 ---
 
-# Add a state to the state model
+# Legacy: Add a state to the state model
 
 You can add a new state to the existing state model for different change types based on the requirements of your organization.
 
 ## Before you begin
 
+**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](create-a-change-model.md).
+
 Role required: script\_include\_admin, ui\_policy\_admin, ui\_action\_admin, or admin
 
 ## About this task
 
-The [State model](t_ActivateStateModel.md) plugin is activated by default. For more information about base system states for change requests, see [State model and transitions](../concept/c_ChangeStateModel.md).
+The [State model](t_ActivateStateModel.md) plugin is activated by default. For more information about base system states for change requests, see [Legacy: State model and transitions](../concept/c_ChangeStateModel.md).
 
 ## Procedure
 
@@ -174,13 +176,15 @@ Script
 
 To ensure that the new state works as expected, review the default workflows. Add the new state to the workflow as necessary.
 
-**Parent Topic:**[State model and transitions](../concept/c_ChangeStateModel.md)
+**Parent Topic:**[Legacy: State model and transitions](../concept/c_ChangeStateModel.md)
 
-## Review default workflows
+## Legacy: Review default workflows
 
 Any modification to the state model may impact the default workflows for change requests.
 
 ### Before you begin
+
+**Note:** The change states functionality has been replaced with change models since the Quebec release. For more information, see [Create a Change model](create-a-change-model.md).
 
 Role required: admin
 

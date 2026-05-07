@@ -1,12 +1,12 @@
 ---
 title: Now Assist for Employee Center Pro
-description: Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omni-channel delivery to meet modern productivity needs.
+description: Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omnichannel delivery to meet modern productivity needs.
 locale: en-US
 release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 1
 keywords: [esc, servicenow esc, Now Assist, AI Agents, Agentic AI]
 breadcrumb: [Unified Employee Experience, Employee Service Management]
@@ -14,7 +14,7 @@ breadcrumb: [Unified Employee Experience, Employee Service Management]
 
 # Now Assist for Employee Center Pro
 
-Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omni-channel delivery to meet modern productivity needs.
+Now Assist for Employee Center Pro expands across AI-powered capabilities, enterprise search, and omnichannel delivery to meet modern productivity needs.
 
 Now Assist for Employee Center Pro offers the portal experience with all the employee communications and engagement tools. Now Assist employee experience with seamless conversational interactions, and AI search, which provides a consumer-grade search engine for Service Portal, Now Mobile, and Virtual Agent.
 
@@ -28,7 +28,9 @@ Now Assist for Employee Center Pro offers the portal experience with all the emp
 
 </td><td>
 
-[Configure](na-emp-cente-pro-configuring.md)![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set-up the Now Assist Employee Center Pro applications and features.
+[Configure](na-emp-cente-pro-configuring.md)
+
+![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Set-up the Now Assist for Employee Center Pro applications and features.
 
 </td></tr></tbody>
 </table>

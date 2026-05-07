@@ -25,20 +25,6 @@ The Accounts Payable Specialist can view the invoices by doing the following:
 2.  Select the list icon \(![List icon](../../supplier-lifecycle-operations/image/cases-list-icon.png)\).
 3.  Navigate to **Lists** &gt; **Invoices**.
 
-## Invoice life cycle
-
-The following figure illustrates the various statuses and sub-statuses that the invoice goes through during its life cycle, from its creation to approval.
-
-![Invoice life cycle](../image/invoice-lifecycle-apm.png "Invoice life cycle")
-
-The following figure illustrates the various statuses and sub-statuses that the non-PO invoice goes through during its life cycle, from its creation to approval.
-
-![Non-PO invoice lifecycle](../image/non-po-invoice.png "Non-PO invoice life cycle")
-
-The following figure illustrates the various statuses and sub-statuses that the credit memo invoice goes through during its life cycle, from its creation to approval.
-
-![Credit memo life cycle](../image/credit-memo-lifecycle.png "Credit memo invoice life cycle")
-
 -   **[Create an invoice manually](../task/create-invoice.md)**  
 As an Accounts Payable Specialist, you can create an invoice manually from the Source-to-Pay Workspace when the automated invoice creation process is encountering issues or not available.
 -   **[Update the purchase order on an invoice](../task/change-invoice-po-number.md)**  

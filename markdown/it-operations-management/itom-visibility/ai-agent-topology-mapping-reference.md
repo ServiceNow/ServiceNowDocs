@@ -7,7 +7,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [reference]
 breadcrumb: [AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
 ---

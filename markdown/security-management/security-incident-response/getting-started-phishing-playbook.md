@@ -33,13 +33,13 @@ The flows provided with the base system are in an inactive state. Activate these
 
     ![Security Incident Management Spokes](../image/cj-sir-flow-phishing.png)Notice that the flows have a published status and are inactive.
 
-3.  For example, if you want to activate the Automated Malware Playbook flow, click the **Security Incident - Automated Phishing Playbook - Template V1** link to view the flow.
+3.  For example, if you want to activate the Automated Malware Playbook flow, select the **Security Incident - Automated Phishing Playbook - Template V1** link to view the flow.
 
     ![Automated Phishing Playbook Template](../image/cj-sir-flow-auto.png)
 
     **Note:** You cannot edit the flows provided with the base system as they are read-only flows. You can use these flows as they are or make a copy and modify them as required.
 
-4.  Click **Activate** to activate the flow.
+4.  Select **Activate** to activate the flow.
 
 
 ## Result

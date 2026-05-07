@@ -175,7 +175,7 @@ The case details page provides you with the following action options:
     The **Assign to me** option enables you to assign the case to yourself if the case is unassigned and if the case belongs to the assignment group to which you belong. The option is displayed only if the case is unassigned.
 
 
-Select the action menu \(![Menu icon](../images/wsdagentmob-actions.png)\) on the top-right header of the case details page to view further actions listed below:
+Select the action menu \(![](../images/actions.png)\) on the top-right header of the case details page to view further actions listed below:
 
 -   **Add comments**
 

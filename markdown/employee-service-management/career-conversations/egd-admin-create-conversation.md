@@ -17,7 +17,7 @@ As an Career Conversations admin you can add or manage conversations that are as
 
 ## Before you begin
 
-Role required: sn\_egd\_act.admin or admin
+Role required: sn\_egd\_act.admin
 
 ## Procedure
 

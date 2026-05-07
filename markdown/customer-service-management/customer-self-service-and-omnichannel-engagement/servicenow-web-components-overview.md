@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Update or create web components, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Update or create web components, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # ServiceNow components

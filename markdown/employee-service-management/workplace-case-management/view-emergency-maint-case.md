@@ -48,8 +48,6 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 
     ![Comments and Work notes section showing the emergency maintenance case activity log and resolution notes.](../image/wsd-case-comments-notes.png)
 
-    ![Emergency Maintenance request showing the agent activity notes in the Activity tab.](../image/wsd-new-emergency-maintenance-case-notes-ai.png)
-
 4.  Navigate to **All** &gt; **Workplace Reservation Management** &gt; **All Reservations** &gt; **Workplace Reservations**.
 
     -   Review the multi-building or single building reservation that was canceled from a location for workplace maintenance.

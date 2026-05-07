@@ -53,7 +53,7 @@ Role required: admin or mid\_server
 
 ### About this task
 
-The MID Server guided native Windows installer will configure the MID Server with provided settings. The installer creates the MID Server Service and assigns it to the provided user. The installer sets the file permissions on the MID Server Install folder. The installer allows for the configuration of proxy settings. Optionally, the installer can start the MID Server automatically.
+The MID Server guided native Windows installer configures the MID Server with provided settings. The installer creates the MID Server Service and assigns it to the provided user. The installer sets the file permissions on the MID Server Install folder. The installer allows for the configuration of proxy settings. Optionally, the installer can start the MID Server automatically.
 
 ### Procedure
 
@@ -141,7 +141,7 @@ The MID Server can bypass proxy servers whose DNS/IP address is listed in the co
 
 </td></tr><tr><td>
 
-Proxy host
+Proxy Host
 
 </td><td>
 
@@ -149,7 +149,7 @@ Enter the proxy server host name or IP address. Do not include the protocol in t
 
 </td></tr><tr><td>
 
-Proxy port
+Proxy Port
 
 </td><td>
 
@@ -157,26 +157,28 @@ Enter the port through which the proxy server communicates. If you leave this fi
 
 </td></tr><tr><td>
 
-Proxy username
+Proxy Username
 
 </td><td>
 
-Enter the user name that has administrator rights to the proxy server.
+Enter the username for the proxy server.
 
 </td></tr><tr><td>
 
-Proxy password
+Proxy Password
 
 </td><td>
 
 Enter the password for the user name.
 
 </td></tr></tbody>
-</table>6.  Click **Test your connection** to validate the credentials and instance information.
+</table>    **Note:** If your proxy server doesn't require authentication, leave the **Proxy Username** and **Proxy Password** fields blank.
+
+6.  Select **Test your connection** to validate the credentials and instance information.
 
     If you encounter any errors, verify the information that you input.
 
-7.  Click **Next**.
+7.  Select **Next**.
 
 8.  Configure the MID Server name and Service Account parameters \(see table\).
 
@@ -206,13 +208,13 @@ Service Account Name
 
 Username of the service account that will be used to run the MID Server service. For information on creating service accounts, see [Create a Windows service account with "Log on as Service" \[KB0867669\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867669).
 
- Service Account Name field is an editable drop-down menu. Either select a value from the drop-down or type a new value in the text field. Only the accounts with **log on as service** policy are displayed in the drop-down. Group Managed Service Accounts \(gMSA\) that inherit the **log on as service** policy from their groups are not displayed in the drop-down. However, you can install the MID Server service using those accounts by manually entering the service account name in the editable drop-down. The name can follow three formats.
+ The Service Account Name field is an editable drop-down menu. Either select a value from the drop-down or type a new value in the text field. Only the accounts with **log on as service** policy are displayed in the drop-down. Group Managed Service Accounts \(gMSA\) that inherit the **log on as service** policy from their groups are not displayed in the drop-down. However, you can install the MID Server service using those accounts by manually entering the service account name in the editable drop-down. The name can follow three formats.
 
  1.  If the service account is local to the computer, you can give just the name.
 
 Example: My\_Local\_Service\_Account
 
-2.  If the service account is local to the computer, you can provide “.” as the domain name for the account.
+2.  If the service account is local to the computer, you can provide "." as the domain name for the account.
 
 Example: .\\My\_Local\_Service\_Account
 
@@ -270,19 +272,19 @@ MID Server wrapper display name
 Modify this field if necessary. It is populated automatically by prefixing `ServiceNow MID Server_` to the MID Server name. In most cases, you do not need to modify this.
 
 </td></tr></tbody>
-</table>9.  Click **Next** and select a destination folder for the installation.
+</table>9.  Select **Next** and select a destination folder for the installation.
 
     Users can manually enter an existing, valid file path, or use the “Change” button to open up a browsing page where they can choose the install location.
 
-10. Click **Next** to view the summary.
+10. Select **Next** to view the summary.
 
     ![Starting the MID Server.](../image/MIDServerInstallerStartMIDServer.png)
 
-    Select **Start MID Server after installation** if you want to start the MID Server immediately after installation. If you wish to make additional configuration changes, before starting the MID server, leave this box unchecked. If mutual authentication was selected, the MID Server username and password fields are removed.
+    Select **Start MID Server after installation** if you want to start the MID Server immediately after installation. If you want to make additional configuration changes, before starting the MID server, leave this box unchecked. If mutual authentication was selected, the MID Server username and password fields are removed.
 
     **Note:** If the MID Server fails to start, the cause might be a duplicate name or multiple services that point to the same executable path. This can happen when you have MID servers previously not installed through the installer. See [MID Server fails to start](../reference/mid-startup-fails.md) for details.
 
-11. Click **Mid Servers List Page**.
+11. Select **Mid Servers List Page**.
 
     The installer opens the MID Server list from your instance.
 
@@ -292,7 +294,7 @@ Modify this field if necessary. It is populated automatically by prefixing `Serv
 
     The system displays the MID Server record.
 
-13. From **Related Links**, click **Validate**.
+13. From **Related Links**, select **Validate**.
 
     The MID Server **Validated** changes to **Yes**.
 
@@ -403,8 +405,8 @@ The following parameters are optional:
 -   **USE\_PROXY**: enables the use of a proxy. If you choose this command, the following parameters become mandatory.
     -   **PROXY\_HOST**: the name of the proxy host.
     -   **PROXY\_PORT**: the port number of the proxy.
-    -   **PROXY\_USERNAME**: the proxy username. If there is no username, input **‘’**.
-    -   **PROXY\_PASSWORD**: the proxy password. If there is no password, input **‘’**.
+    -   **PROXY\_USERNAME**: the proxy username. If there is no username, input `' '`.
+    -   **PROXY\_PASSWORD**: the proxy password. If there is no password, input `' '`.
 -   **MANUAL\_SERVICE\_NAME**: the service name. If you choose this command, the following parameters become mandatory:
     -   **SERVICE\_NAME**: the service name.
     -   **SERVICE\_DISPLAY\_NAME**: the service display name.

@@ -57,5 +57,5 @@ Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
 
 ## What to do next
 
-If you need to activate any skill from Now Assist Admin, an approval request is now required. The AI Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist Admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
+If you want to activate any skill from Now Assist admin, an approval request is now required. The AI Control Tower approvals are integrated with both the builder team on the Skill Kit and Now Assist admin. You may only use models, skills, or AI systems that have been approved. Approval is granted when the "AI steward approval required" option is enabled.
 

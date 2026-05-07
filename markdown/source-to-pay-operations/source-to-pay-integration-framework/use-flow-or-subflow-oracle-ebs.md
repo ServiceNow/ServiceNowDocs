@@ -6,7 +6,7 @@ release: australia
 product: Source-to-Pay Integration Framework
 classification: source-to-pay-integration-framework
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Use schedule flows in Oracle EBS, Use, Source-to-Pay integration with Oracle EBS, Integration with third-party applications, Integrations, Source-to-Pay Operations, Finance and Supply Chain]
 ---
@@ -35,7 +35,7 @@ Use an Outbound flow or subflow in Oracle EBS
 
     For example, select **Create or update or cancel purchase order** flow.
 
-    ![Overview of the Create or update purchase order flow](../image/oracle-ebs-create-po-flow.png "Create or update or cancel purchase order flow")
+    ![Overview of the Create or update purchase order flow](../../source-to-pay-operations/image/oracle-ebs-create-po-flow.png "Create or update or cancel purchase order flow")
 
 5.  In the Trigger field, specify the time and interval at which you want to run the scheduled flow automatically.
 

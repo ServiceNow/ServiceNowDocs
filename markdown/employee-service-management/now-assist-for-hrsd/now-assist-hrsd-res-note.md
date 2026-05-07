@@ -37,15 +37,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  Select one of the following in the **Add resolution notes** window.
 
-<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d346319e130">
+<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d352581e130">
 
 Option
 
-</th><th align="left" id="d346319e133">
+</th><th align="left" id="d352581e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d346319e139">
+</th></tr></thead><tbody><tr><td id="d352581e139">
 
 **Save notes**
 
@@ -53,7 +53,7 @@ Description
 
 Add resolution notes to the **Close notes** field.**Note:** Review the generated text and make sure it's accurate. You may edit the notes or delete them to provide your own.
 
-</td></tr><tr><td id="d346319e153">
+</td></tr><tr><td id="d352581e153">
 
 **Skip notes**
 

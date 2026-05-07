@@ -21,7 +21,7 @@ Role required: sn\_model\_risk\_mgmt.model\_validator
 
 1.  Navigate to **All** &gt; **Model Risk Workspace**.
 
-2.  Select the list icon ![](../../assessment-engine/image/list-icon.png).
+2.  Select the list icon ![](../image/list-icon-mrm.png).
 
 3.  From the list, navigate to **Models** &gt; **Pre-deployment**.
 

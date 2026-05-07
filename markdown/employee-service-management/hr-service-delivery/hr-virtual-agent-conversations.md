@@ -1,6 +1,6 @@
 ---
 title: Virtual Agent for HR Service Delivery
-description: HR Service Delivery and Virtual Agent provide an automated chat with an employee requesting HR services. You can program Virtual Agent to understand the intent of an employee to handle repeatable requests.Activate Virtual Agent for HR Service Delivery to provide user assistance through a conversational messaging interface. You can also activate Virtual Agent for HR Service Delivery with ServiceNow Natural Language Understanding \(NLU\).Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.Define a custom HR Service Delivery greeting experience for a specific context in which your users run Virtual Agent. Configure your greeting experience to initiate the virtual agent automatically or immediately transfer to a live agent.HR Service Delivery Virtual Agent provides pre-built patterns that enable you to track whether Virtual Agent conversations helped the end user.
+description: HR Service Delivery and Virtual Agent provide an automated chat with an employee requesting HR services. You can program Virtual Agent to understand the intent of an employee to handle repeatable requests.Activate Virtual Agent for HR Service Delivery to provide user assistance through a conversational messaging interface. You can also activate Virtual Agent for HR Service Delivery with ServiceNow Natural Language Understanding \(NLU\).Configuring Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.Define a custom HR Service Delivery greeting experience for a specific context in which your users run Virtual Agent. Configure your greeting experience to initiate the virtual agent automatically or immediately transfer to a live agent.HR Service Delivery Virtual Agent provides pre-built patterns that enable you to track whether Virtual Agent conversations helped the end user.
 locale: en-US
 release: australia
 product: HR Service Delivery
@@ -179,9 +179,9 @@ When an employee opens an HR case using Virtual Agent for HR Service Delivery, t
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
 
 
-## Set up Virtual Agent for HR
+## Configure Virtual Agent for HR
 
-Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.
+Configuring Virtual Agent or Virtual Agent with NLU for HR Service Delivery requires multiple steps.
 
 ### Before you begin
 

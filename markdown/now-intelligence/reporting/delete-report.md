@@ -1,23 +1,23 @@
 ---
 title: Delete a report
-description: Delete reports that are no longer used.Delete multiple reports that are no longer used.
+description: Delete Core UI reports that are no longer used.Delete multiple Core UI reports that are no longer used.
 locale: en-US
 release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-17"
 reading_time_minutes: 1
 breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Delete a report
 
-Delete reports that are no longer used.
+Delete Core UI reports that are no longer used.
 
 ## Before you begin
 
-Role required: report\_admin
+Role required: report\_admin, or be the owner of the report
 
 This topic refers to Reporting in the Core UI. For instances migrated to Platform Analytics experience and new Australia instances, see [Delete a visualization in the Visualization Designer](../../dashboards/task/delete-visualization-vd.md).
 
@@ -25,7 +25,7 @@ This topic refers to Reporting in the Core UI. For instances migrated to Platfor
 
 1.  Navigate to **sys\_report.list**.
 
-    On instances with Unified Analytics enabled, and on new Australia instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](../../dashboards/reference/differences-between-core-ui-ne-dbs.md).
+    On instances upgraded to Australia, Core UI reports are listed in the Platform AnalyticsData Visualizations library with the UI version Core. [Delete a visualization in the Visualization Designer](../../dashboards/task/delete-visualization-vd.md)
 
 2.  Select the report to delete.
 
@@ -49,7 +49,7 @@ The selected report is removed, and is no longer available to share, publish, or
 
 ## Delete multiple reports
 
-Delete multiple reports that are no longer used.
+Delete multiple Core UI reports that are no longer used.
 
 ### Before you begin
 
@@ -57,15 +57,15 @@ Role required: report\_admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Core UI** &gt; **Reports**.
+1.  Navigate to **Platform Analytics** &gt; **Library** &gt; **Data visualizations**.
 
-2.  Select the boxes next to the reports that you want to delete.
+2.  Select the boxes next to the Core UI reports that you want to delete.
 
-3.  From the Action on selected rows menu, select **Delete**.
+3.  Select **Delete**.
 
-    If you select reports that you aren’t allowed to delete, the menu indicates that a smaller number will be deleted.
+4.  Confirm that you want to delete the reports.
 
-4.  Confirm that you want to delete the report.
+    This action is not reversible.
 
 
 ### Result

@@ -7,7 +7,7 @@ product: NLU Service
 classification: nlu-service
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
 ---
 
@@ -102,21 +102,4 @@ For this example, you can test your model with a different departure and arrival
 ![Intents details page with the test panel open. Train and try your model to assess your new entities.](../images/create-derived6.png "Intents details page with the test panel")
 
 The model predicts the intent, showing the entities it used to determine the values. Notice how it uses both the system entity and system-derived entity when predicting.
-
-**Parent Topic:**[NLU entities](../concept/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity](create-nlu-entities.md)
-
-[Create a mapped entity](create-mapped-entity-lookup-source.md)
-
-[Create a pattern entity](create-pattern-entity.md)
-
-[Create an open-ended entity](create-open-ended-entity.md)
-
-[Import entities](import-common-entities-nlu.md)
-
-[Using regular expressions in entities](../concept/using-regular-expressions-nlu.md)
 

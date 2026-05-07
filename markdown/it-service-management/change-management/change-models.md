@@ -15,7 +15,7 @@ breadcrumb: [Explore, Change Management, IT Service Management]
 
 Change managers can use the Change models feature to conveniently tailor change activities and flows for specific use cases.
 
-This feature is an extension to the existing IT Infrastructure Library \(ITIL\) OOB Change types and workflows. You can use it to transit to fit-for-purpose models and ServiceNow® Workflow Studio without compromising on existing capabilities.
+This feature is an extension to the existing IT Infrastructure Library \(ITIL\) Change types and workflows. You can use it to transit to fit-for-purpose models and ServiceNow® Workflow Studio without compromising on existing capabilities.
 
 Change models enable you to define:
 

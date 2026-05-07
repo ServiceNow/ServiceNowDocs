@@ -79,5 +79,5 @@ Decommission an inventory record that you want to remove from Telecommunications
 **Related topics**  
 
 
-[Model your workflow](telecommunications-network-inventory-workflow.md)
+[Modeling your workflow](telecommunications-network-inventory-workflow.md)
 

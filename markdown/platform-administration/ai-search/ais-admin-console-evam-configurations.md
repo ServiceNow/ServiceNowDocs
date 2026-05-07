@@ -1,6 +1,6 @@
 ---
 title: Create or edit an EVAM view definition
-description: Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results are displayed in the portal or workspace.
+description: Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results appear in the portal or workspace.
 locale: en-US
 release: australia
 product: AI Search
@@ -14,7 +14,7 @@ breadcrumb: [Customizing the result-card, Using AI Search Admin console, AI Sear
 
 # Create or edit an EVAM view definition
 
-Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results are displayed in the portal or workspace.
+Create or edit an Entity View Action Mapper \(EVAM\) view definition in the AI Search Admin console to customize how your AI Search results appear in the portal or workspace.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin or ais\_admin
 
 ## About this task
 
-An EVAM is a data source type tool that helps standardize how data is displayed in lists and cards. An EVAM enables users to combine data from multiple sources, configure views for each source, and navigate through large data sets. By creating or editing an EVAM definition, you can combine the conditions, fields, and declarative actions with an associated view template to customize the result-card interface to your needs.
+An EVAM is a data source type tool that helps standardize how data appears in lists and cards. An EVAM allows users to combine data from multiple sources, configure views for each source, and navigate through large data sets. By creating or editing an EVAM definition, you can combine the conditions, fields, and declarative actions with an associated view template to customize the result-card interface to your needs.
 
 ## Procedure
 
@@ -75,19 +75,19 @@ Add a new result-card interface for your search application
 
     You can link more bundles to the selected EVAM definition by selecting **Advanced configuration**. For more information, see [Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
-    The list of view configurations that are associated with the selected bundle are displayed.
+    The list of view configurations that are associated with the selected bundle appear.
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d360575e328">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d363580e352">
 
 Option
 
-</th><th align="left" id="d360575e331">
+</th><th align="left" id="d363580e355">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d360575e337">
+</th></tr></thead><tbody><tr><td id="d363580e361">
 
 **Create an EVAM view configuration**
 
@@ -97,7 +97,7 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d360575e365">
+</td></tr><tr><td id="d363580e389">
 
 **Edit the existing EVAM view configuration**
 
@@ -113,10 +113,6 @@ Procedure
     For a description of the field values, see [Edit view config form](../reference/ais-edit-view-config-form.md).
 
 8.  In the Preview Card section, review the auto-generated JSON to verify the edits that you made to the view configuration.
-
-    The following example shows the Edit view config form that helps you review the layout of your result-card interface in the Preview Card section.
-
-    ![Edit view config form showing the preview card.](../image/edit-view-config1.png "Edit view config form") ![]( "Edit view config form")
 
 9.  Select **Save**.
 

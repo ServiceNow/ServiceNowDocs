@@ -32,7 +32,7 @@ Subscription Management gives you an accurate, consolidated view of your entitle
 
 This infographic shows a sample end-to-end workflow of how different users in an organization work together to purchase, allocate, and manage subscriptions.
 
-![Different users in an organization work together to purchase, allocate, and manage subscriptions. View the steps after the infographic for details.](../image/MMASSET0020642-subscription-management-workflow-vertical.png "Managing subscriptions")
+![Different users in an organization work together to purchase, allocate, and manage subscriptions. Refer to the following steps for details.](../image/MMASSET0021656.png "Managing subscriptions")
 
 In this workflow:
 

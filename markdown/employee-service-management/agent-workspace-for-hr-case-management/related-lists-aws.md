@@ -17,7 +17,7 @@ Customize which related lists are visible to users in Agent Workspace for HR Cas
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_agent\_ws.admin
 
 ## Procedure
 

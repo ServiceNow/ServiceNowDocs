@@ -57,15 +57,15 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     ![Attestation record.](../image/mobile-attest-record.jpg)
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d238928e224">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d241293e224">
 
 Option
 
-</th><th align="left" id="d238928e227">
+</th><th align="left" id="d241293e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d238928e233">
+</th></tr></thead><tbody><tr><td id="d241293e233">
 
 **Tap the top menu icon**
 
@@ -73,7 +73,7 @@ Description
 
 Tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to reassign the attestation.
 
-</td></tr><tr><td id="d238928e248">
+</td></tr><tr><td id="d241293e248">
 
 **Screen icons at the bottom of the screen.**
 

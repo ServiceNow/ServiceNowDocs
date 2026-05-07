@@ -23,13 +23,13 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Click the list ![](../image/listview-icon.png) icon.
+2.  Select the list ![](../image/listview-icon.png) icon.
 
-3.  Click **Lists**.
+3.  Select **Lists**.
 
 4.  Go to **Security Incidents or Response Tasks** &gt; **All Open**.
 
-5.  View the list and click **Export**.
+5.  View the list and select **Export**.
 
     ![Export list](../image/export-list.png)
 
@@ -37,9 +37,9 @@ Role required: sn\_si.analyst
 
     For example, **Excel** and either **Download** or **Email** the list.
 
-7.  Click **Export**.
+7.  Select **Export**.
 
-    The file will be downloaded or emailed as per the option chosen.
+    The file will be downloaded or emailed according to the option chosen.
 
 
 **Parent Topic:**[List view in SIR Workspace](setting-up-list-view-in-analyst-workspace.md)

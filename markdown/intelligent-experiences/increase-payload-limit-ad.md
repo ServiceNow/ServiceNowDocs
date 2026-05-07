@@ -1,15 +1,15 @@
 ---
-title: Increase payload limit through system properties in Agentic Desktop
+title: Increase payload limit through system properties in AI Desktop Actions
 description: By default, maximum 10 MB of file size is allowed in a scripted REST API request payload. Increase the payload limit to 15 MB by creating system properties in the global scope.
 locale: en-US
 release: australia
 topic_type: task
 last_updated: "2026-02-02"
 reading_time_minutes: 1
-breadcrumb: [Design desktop actions, Agentic Desktop, Enable AI experiences]
+breadcrumb: [Design defined-path desktop actions, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Increase payload limit through system properties in Agentic Desktop
+# Increase payload limit through system properties in AI Desktop Actions
 
 By default, maximum 10 MB of file size is allowed in a scripted REST API request payload. Increase the payload limit to 15 MB by creating system properties in the global scope.
 

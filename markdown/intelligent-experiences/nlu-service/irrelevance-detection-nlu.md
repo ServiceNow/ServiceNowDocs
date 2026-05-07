@@ -100,5 +100,3 @@ Note that irrelevant utterances cannot be edited or deleted on the conflict page
 -   Utterances can be deleted or edited in the Irrelevance detection table.
 -   Irrelevant utterances should have content that is different from utterances associated to an intent.
 
-**Parent Topic:**[Model management](model-management-phases.md)
-

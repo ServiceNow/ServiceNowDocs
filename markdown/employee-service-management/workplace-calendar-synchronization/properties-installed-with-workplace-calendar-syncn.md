@@ -71,8 +71,8 @@ sn\_wsd\_rsvsync.use\_default\_tz
 
 </td><td>
 
-This property enables you to use the default time zones during the reservation synchronization.-   Type: true/false
--   Default type: **true**
+This property enables you to use the default time zones during the reservation synchronization.-   Type: String
+-   Default value: **building**
 
 </td></tr><tr><td>
 

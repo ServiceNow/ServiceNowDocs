@@ -1101,26 +1101,144 @@ Stores the mapping of a user and a shopping control.
 
 The following list contains the purchasing properties that are used by Sourcing and Procurement Operations.
 
-|Property|Description|
-|--------|-----------|
-|sn\_shop.atf.threshold.days|Number of days before an expected delivery date for goods, or a start date for services and blankets, in which time a purchase requisition would be considered after the fact.|
-|sn\_shop.credit.allocation.batchsize|Total number of employee records that are processed in a batch, during credit allocation.|
-|sn\_shop.default.contract.model.type|Default contract model when creating contracts.|
-|sn\_shop.default.purchasing.time|Initial value of the purchasing time in days.|
-|sn\_shop.default.shipping.estimate|Default shipping estimate, in percentage.|
-|sn\_shop.default.sourcing.time|Initial sourcing time in days.|
-|sn\_shop.default.supplier.onboard.time|Initial supplier onboarding time in days.|
-|sn\_shop.non.pricing.contract|List of non-pricing contracts. The default is NDA.|
-|sn\_shop.shipping.estimate.inclusion|Shipping estimate included in purchase request approvals.|
-|sn\_shop.approval.reassessment.resend|Approvals that must be reassessed during a revision if the same approval rule is triggered. It applies to both purchase requisition and purchase order revisions.|
-|sn\_shop.log.property|Logging level for Sourcing and Purchasing Automation.|
-|sn\_shop.spend.requisition.autoorder|Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.|
-|sn\_shop.spend.requisition.autoorder.threshold|Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.|
-|sn\_shop.spend.sla.due.days|Minimum due date for SLA calculation.|
-|sn\_shop.supported.artifact.formats|Formats that are supported for supplier product artifacts.|
-|sn\_shop.tax.estimate.inclusion|Includes generated tax estimate in purchase requests for the approval process.|
+<table id="table_g42_qmr_flb"><thead><tr><th>
 
-## Watchlist properties
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_shop.atf.threshold.days
+
+</td><td>
+
+Number of days before an expected delivery date for goods, or a start date for services and blankets, in which time a purchase requisition would be considered after the fact.
+
+</td></tr><tr><td>
+
+sn\_shop.credit.allocation.batchsize
+
+</td><td>
+
+Total number of employee records that are processed in a batch, during credit allocation.
+
+</td></tr><tr><td>
+
+sn\_shop.default.contract.model.type
+
+</td><td>
+
+Default contract model when creating contracts.
+
+</td></tr><tr><td>
+
+sn\_shop.default.purchasing.time
+
+</td><td>
+
+Initial value of the purchasing time in days.
+
+</td></tr><tr><td>
+
+sn\_shop.default.shipping.estimate
+
+</td><td>
+
+Default shipping estimate, in percentage.
+
+</td></tr><tr><td>
+
+sn\_shop.default.sourcing.time
+
+</td><td>
+
+Initial sourcing time in days.
+
+</td></tr><tr><td>
+
+sn\_shop.default.supplier.onboard.time
+
+</td><td>
+
+Initial supplier onboarding time in days.
+
+</td></tr><tr><td>
+
+sn\_shop.non.pricing.contract
+
+</td><td>
+
+List of non-pricing contracts. The default is NDA.
+
+</td></tr><tr><td>
+
+sn\_shop.shipping.estimate.inclusion
+
+</td><td>
+
+Shipping estimate included in purchase request approvals.
+
+</td></tr><tr><td>
+
+sn\_shop.approval.reassessment.resend
+
+</td><td>
+
+Approvals that must be reassessed during a revision if the same approval rule is triggered. It applies to both purchase requisition and purchase order revisions.
+
+</td></tr><tr><td>
+
+sn\_shop.log.property
+
+</td><td>
+
+Logging level for Sourcing and Purchasing Automation.
+
+</td></tr><tr><td>
+
+sn\_shop.spend.requisition.autoorder
+
+</td><td>
+
+Purchase order that can be automatically created on completion of purchasing tasks without having to undergo a manual final review.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](../concept/pr-auto-order.md).
+
+</td></tr><tr><td>
+
+sn\_shop.spend.requisition.autoorder.threshold
+
+</td><td>
+
+Dollar amount threshold above which a final review is required before a purchase order is created even when the automatic creation of purchase orders property is set to Yes.For more information on how the auto-order properties affect purchase order creation, see [Purchase requisition auto-order](../concept/pr-auto-order.md).
+
+</td></tr><tr><td>
+
+sn\_shop.spend.sla.due.days
+
+</td><td>
+
+Minimum due date for SLA calculation.
+
+</td></tr><tr><td>
+
+sn\_shop.supported.artifact.formats
+
+</td><td>
+
+Formats that are supported for supplier product artifacts.
+
+</td></tr><tr><td>
+
+sn\_shop.tax.estimate.inclusion
+
+</td><td>
+
+Includes generated tax estimate in purchase requests for the approval process.
+
+</td></tr></tbody>
+</table>## Watchlist properties
 
 Set the `sn_shop.watchlist.user.limit` system property to restrict the maximum number of users in the watchlist to 20.
 

@@ -43,15 +43,15 @@ Role required: sn\_msi.workspace\_manager
 
 9.  On the Custom content form, fill in the fields.
 
-<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d401001e146">
+<table id="choicetable_dyq_gmn_ysb"><thead><tr><th align="left" id="d408295e146">
 
 Field
 
-</th><th align="left" id="d401001e149">
+</th><th align="left" id="d408295e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d401001e155">
+</th></tr></thead><tbody><tr><td id="d408295e155">
 
 **Dynamic content**
 
@@ -59,7 +59,7 @@ Description
 
 Enter the dynamic content such as the template scripts.
 
-</td></tr><tr><td id="d401001e164">
+</td></tr><tr><td id="d408295e164">
 
 **Run time configurable**
 
@@ -67,7 +67,7 @@ Enter the dynamic content such as the template scripts.
 
 Select this check box if the custom element type is run time configurable.
 
-</td></tr><tr><td id="d401001e173">
+</td></tr><tr><td id="d408295e173">
 
 **Runtime config UX App Route**
 
@@ -77,9 +77,5 @@ Enter the Runtime configuration UX App Route value when a UIB page is created wi
 
 </td></tr></tbody>
 </table>
-## The following is an example of the report template subsection element type for a Technical Status Report
-
-![Report template subsection element type for a Technical Status Report](../image/custom-element-type.png "Report subsection element type")
-
 **Parent Topic:**[Create Report Subsection Element template](create-report-subsection-element-template.md)
 

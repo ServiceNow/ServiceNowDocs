@@ -39,8 +39,6 @@ The Project time card exceptions report lists the users who did not submit their
 
 The report is generated from the project\_timecard\_exception table. It requires the schedule job **Project Time Card Exceptions** to be running to get the up-to-date information.
 
-![Screenshot for Project Time Card Exceptions report](../image/ProjectTimeCardExceptions.png "Project time card exceptions report")
-
 ## Total approved hours for project\(s\)
 
 It displays the total approved hours in all project categories displayed in **Time by Project Time Category** report.
@@ -50,8 +48,6 @@ It displays the total approved hours in all project categories displayed in **Ti
 ## Time by Project Time Category report
 
 The bar chart report displays the time approved against each project category for the users allocated to the selected project.
-
-![Screenshot for Time by Project Time Category report](../image/TimeByProjectTimeCategory.png "Time by Project Time Category report")
 
 -   **[Use the Analytics Project manager](../task/use-project-manager-dashboard.md)**  
 The Analytics Project manager shows the time card reports for the selected projects.

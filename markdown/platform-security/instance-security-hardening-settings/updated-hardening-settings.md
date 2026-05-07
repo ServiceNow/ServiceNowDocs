@@ -613,7 +613,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-
+Convert Inbound Email Images to Attachments \[Updated in Security Center 1.3 and removed in 1.5\]
 
 </td><td>
 
@@ -631,7 +631,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-
+Enable Updated Version of Multi SSO Plugin \(Plugin Applicability: Multiple Provider Single Sign-On\)
 
 </td><td>
 

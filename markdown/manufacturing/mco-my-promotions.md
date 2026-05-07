@@ -35,7 +35,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 6.  Select **Publish**.
 
-    Changes to the promotion aren’t allowed after published.
+    Published promotions cannot be modified.
 
 7.  To reuse the sales promotion details, select **Copy**.
 

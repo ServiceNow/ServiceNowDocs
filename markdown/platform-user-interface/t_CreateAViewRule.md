@@ -27,7 +27,7 @@ View rules do not always apply if there are existing user preference entries on 
 
 1.  Navigate to **All** &gt; **System UI** &gt; **View Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Complete the form, using the fields in the table.
 
@@ -41,10 +41,10 @@ View rules do not always apply if there are existing user preference entries on 
     |Application|Displays the application to which the View Rule record belongs.|
     |Table|Select the table on which this view rule will be applied. The list shows only tables and database views that are in the same scope as the view rule|
     |Device type|Select which interface this view rule applies to.|
-    |View|Enter the name of the View you are creating a rule for. The system hides this field when you create an advanced View Rule. This field is case-sensitive and must match exactly the view name.|
+    |View|Enter the name of the View you're creating a rule for. The system hides this field when you create an advanced View Rule. This field is case-sensitive and must match exactly the view name.|
     |Script|Enter a script to determine when to display a particular view. The system only displays this field when you create an advanced View Rule.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 **Parent Topic:**[View management](../concept/view-management-overview.md)

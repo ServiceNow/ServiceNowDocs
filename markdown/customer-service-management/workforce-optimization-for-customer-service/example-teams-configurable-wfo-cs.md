@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Team, Explore, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Teams, Explore, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Example - Teams using Workforce Optimization for Customer Service
@@ -32,14 +32,6 @@ Managers can set up and use Teams by performing the following steps:
 3.  Add managers to assignment groups
 4.  Add assignment groups to the KPI group
 5.  Drill down into a KPI, agent, or an incident to analyze performance
-
-Get an overview of how you can set up team performance and how KPI aggregates are calculated.
-
-Workforce Optimization for Customer Service Set Up Team Performance
-
-Get an overview of how you can analyze team performance in this video.
-
-Workforce Optimization for Customer Service Analyze Team Performance
 
 For detailed information on how to setup and use Teams, see [teams](setting-teams-configurable-wfo-cs.md#).
 

@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 2
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,10 +49,6 @@ For more information, see [Application risk assessment using advanced risk asses
 The following figures show the workflow stages and actions:
 
 ![Stages of risk identification workflow.](../image/playbook-stages.jpg "Workflow stages")
-
-![Moving back to a stage.](../image/moving-back-in-stages.jpg "Moving back to a stage")
-
-![Restarting an activity.](../image/restarting-an-activity.jpg "Restarting an activity")
 
 **Parent Topic:**[Using the Risk Workspace](using-risk-workspace.md)
 

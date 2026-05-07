@@ -7,8 +7,8 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Administer Threat Intelligence Security Center, Threat Intelligence Security Center, Security Operations]
+reading_time_minutes: 4
+breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
 # Add to TAXII Collections from Library List View
@@ -35,7 +35,7 @@ Following is the procedure that shows how to add TAXII collections to an observa
 
 4.  Select the TAXII Collections sample template.
 
-    All the templates configured on the Outbound Intel Sharing page appear here, allowing you to select the one you need. For more information, see .
+    All the templates configured on the Outbound Intel Sharing page appear here, allowing you to select the one you need. For more information, see [Configuring Outbound Intel Sharing Templates](tisc-intel-sharing-templates.md).
 
     ![Add to TAXII collections dialog showing template selection drop down with available collection options.](../image/tisc-add-taxii-collection-lib.png)
 
@@ -67,14 +67,14 @@ Following is the procedure that shows how to add TAXII collections to an observa
 
     Any records that match the criteria defined in these rules are excluded and cannot be shared. For example, if a global exclusion rule is configured to block domains with a specific status, such as red or clear, any record matching that condition will be automatically excluded.
 
-    When you attempt to add such records to a TAXII Collection, the application will indicate that they have been excluded \(see the screenshot below\), ensuring that only the intended and allowed intelligence is shared. For more information on the exclusion rules, see .
+    When you attempt to add such records to a TAXII Collection, the application will indicate that they have been excluded \(see the screenshot below\), ensuring that only the intended and allowed intelligence is shared. For more information on the exclusion rules, see [Configuring Outbound Intel Data Exclusion Rule](tisc-outbound-data-exclusion.md).
 
     ![Dialog box showing excluded records notification when adding to TAXII collections.](../image/tisc-excluded-records-taxii-collect.png)
 
 
 ## What to do next
 
-Once you add the records to the TAXII collections, navigate to **Administration** &gt; **TAXII Outbound Server** &gt; **TAXII Collections** to view the added records under the **TAXII Collection Records** section. For more information, see  and .
+Once you add the records to the TAXII collections, navigate to **Administration** &gt; **TAXII Outbound Server** &gt; **TAXII Collections** to view the added records under the **TAXII Collection Records** section. For more information, see [Exploring TAXII Outbound Server](../concept/tisc-taxii-outbound-server.md) and [Viewing TAXII Collection Records](../concept/tisc-view-taxii-collection.md).
 
 **Marking Definitions for Records Added to TAXII Collections**
 
@@ -99,5 +99,5 @@ When you attempt to add records to a TAXII collection:
 -   If all selected records match the exclusion rules, the application prevents any records from being added.
 -   If some records from the selection are valid, then those records are added to the TAXII collection, while the excluded records are automatically filtered out.
 
-For more information on the exclusion rules, see .
+For more information on the exclusion rules, see [Configuring Outbound Intel Data Exclusion Rule](tisc-outbound-data-exclusion.md).
 

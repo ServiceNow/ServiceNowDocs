@@ -7,7 +7,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -66,6 +66,8 @@ User permissions must be assigned to allow agents to complete or skip activities
 [Activity definitions](../../process-automation-designer/concept/activity-definitions.md)
 
 [Add and configure an activity in a playbook](../../process-automation-designer/task/add-configure-activity.md)
+
+[Use AI agent as an activity](../../process-automation-designer/task/ai-agent-as-activity.md)
 
 [Automation Assets](../../process-automation-designer/concept/automation-assets.md)
 

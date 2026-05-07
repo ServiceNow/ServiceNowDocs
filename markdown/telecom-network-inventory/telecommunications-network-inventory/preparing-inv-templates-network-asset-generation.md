@@ -19,7 +19,7 @@ An inventory template includes the rules on the proper way to configure the equi
 
 Your network inventory templates represent a unique configuration of a network entity that a network service provider would instantiate based on their business guidance. If you properly define your templates and their relationships, the instantiation process uses the configuration rules from the vendor and you do not generate unsupported network asset instances.
 
-**Note:** To learn more about creating templates and generating network assets from your model and template records, see [Model your workflow](telecommunications-network-inventory-workflow.md).
+**Note:** To learn more about creating templates and generating network assets from your model and template records, see [Modeling your workflow](telecommunications-network-inventory-workflow.md).
 
 -   **[Create an inventory template](../task/create-inventory-templates.md)**  
 Create an inventory template in the Telecommunications Network Inventory application to represent a configuration of the created inventory model.

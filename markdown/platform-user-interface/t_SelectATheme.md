@@ -21,7 +21,7 @@ Role required: admin
 
 Themes are user-specific. Each user can select a different theme and the selection is stored as a [user preference](../concept/c_UserPreferences.md).
 
-This topic applies to the Core UI. For information about selecting a theme with Next Experience, see [Select a theme in Next Experience](select-a-theme-in-next-experience.md).
+This topic applies only when the Next Experience is not enabled. For information about selecting a theme with Next Experience, see [Select a theme in Next Experience](select-a-theme-in-next-experience.md).
 
 ## Procedure
 

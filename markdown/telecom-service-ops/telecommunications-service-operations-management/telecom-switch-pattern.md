@@ -8,7 +8,7 @@ classification: telecommunications-service-operations-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Direct Discovery with Discovery Patterns, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
+breadcrumb: [Direct Discovery with Discovery Patterns, Telecom Discovery, Explore, Telecommunications Service Operations Management]
 ---
 
 # Telecom Switch Pattern

@@ -1,6 +1,6 @@
 ---
 title: Summarize demands with demand summarization skill
-description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+description: Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 locale: en-US
 release: australia
 product: Demand Management
@@ -14,7 +14,7 @@ breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Por
 
 # Summarize demands with demand summarization skill
 
-Summarize demand records using the demand summarization skill. The skill reviews the demand fields and helps create a clear summary of the demand.
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 
 ## Before you begin
 

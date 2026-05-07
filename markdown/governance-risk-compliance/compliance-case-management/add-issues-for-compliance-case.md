@@ -23,21 +23,21 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list ![List](../../grc-workspace-vrm/image/ws-list-icon.png) icon.
+2.  Select the list ![](../../grc-cam-workspace/image/ws-list-icon.png) icon.
 
 3.  From the list, select **All Cases**.
 
 4.  Open the case that you want to add an issue to and then select one of the following options.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d370416e99">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d372724e97">
 
 Option
 
-</th><th align="left" id="d370416e102">
+</th><th align="left" id="d372724e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d370416e108">
+</th></tr></thead><tbody><tr><td id="d372724e106">
 
 **To add an existing issue**
 
@@ -48,7 +48,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d370416e134">
+</td></tr><tr><td id="d372724e132">
 
 **To create an issue**
 

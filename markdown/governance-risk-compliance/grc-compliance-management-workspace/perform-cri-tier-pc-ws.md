@@ -46,7 +46,7 @@ The CRI assessment is done in two steps:
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the lists \(![List icon.](../../grc-workspace-vrm/image/ws-list-icon.png)\) icon.
+2.  Select the lists \(![List icon.](../../grc-cam-workspace/image/ws-list-icon.png)\) icon.
 
 3.  From the Compliance library of Authority documents list on the left pane, select an authority document based on CRI Profile v2.0.
 

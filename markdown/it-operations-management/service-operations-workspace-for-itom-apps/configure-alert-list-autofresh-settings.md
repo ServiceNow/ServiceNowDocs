@@ -6,7 +6,7 @@ release: australia
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Service Operations Workspace, Configuring SOW for ITOM, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -43,4 +43,6 @@ To update the alert list manually, you can switch the live updates toggle to off
 
     -   When live updates are turned on, the setting is saved for future logins by the same user.
     -   When live updates are off, the refresh button displays a counter to show the number of changes since the last refresh. You can select the refresh button anytime to update the list manually.
+
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
 

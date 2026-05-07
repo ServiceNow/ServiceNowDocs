@@ -25,6 +25,8 @@ Reduce cost by identifying the unused resources and scheduling jobs to power-off
 Improve resource usage and reduce your cloud spend by running resources during the specified business hours.
 -   **[Manage cloud budgets](manage-cloud-budgets.md#)**  
 Define and monitor custom budget plans for managing your cloud spend by using the Budget view in the Cloud Cost Management Workspace.
+-   **[Manage Cloud Cost Management subscriptions](managing-ccm-subscriptions.md)**  
+Reduce your licensing costs by choosing only the Cloud Cost Management Resource Categories that you use.
 -   **[Assign service accounts to an insights\_owner](../task/insights-owner-new-cloudin.md)**  
 Assign ownership of one or more service accounts and, optionally, the related CIs to users that have the insights\_owner role. An insights\_owner can define jobs and policies and can view data for owned service accounts.
 -   **[Exclude a resource from all Cloud Cost Management reports](../task/exclusion-list-add-to-cloudin.md)**  

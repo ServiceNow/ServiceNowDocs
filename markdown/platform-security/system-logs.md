@@ -23,7 +23,6 @@ Access the following logs from the System Logs module:
 |[Import](../../time/reference/r_ImportLogs.md)|Data import activity within the platform.|
 |Table Changes|Changes made to all tables in the system.|
 |[Outbound web services logging](https://www.servicenow.com/docs/access?context=outbound-request-logging&version=australia&pubname=australia-api-reference&ft:locale=en-US)|All outbound web services requests such as REST and SOAP requests.|
-|Signature Images|Electronic signatures for the HR signature pad.|
 |[System](../../time/reference/r_SystemLogs.md)|Warnings and errors for instance processes, records, and non-critical events, such as memory usage on the server machine.|
 
 Use the [Log File Browser](../../time/reference/r_LogUtilities.md) to search and download logs. You can also search archived logs in the [log history](../../time/reference/r_LogHistory.md).

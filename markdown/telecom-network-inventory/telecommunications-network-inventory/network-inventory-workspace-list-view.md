@@ -97,7 +97,7 @@ Import
 
 </td><td>
 
-Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import Models and Templates](import-models-and-templates.md).
+Import your models an templates using Import in the Telecommunications Network Inventory application. To learn more, see [Import models and templates](import-models-and-templates.md).
 
 </td></tr><tr><td>
 

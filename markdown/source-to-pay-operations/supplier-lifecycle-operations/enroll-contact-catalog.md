@@ -37,7 +37,7 @@ Only primary contacts can enroll a new user from the supplier catalog.
 
     The **Supplier** field is auto-populated with the supplier you have currently selected. This field is available from the Xanadu December 2024 release onwards.
 
-5.  Select **Add**.![Selected button for adding a new row that contains details of the supplier contact.](../image/add-supplier-contact-supplier-collaboration-portal.png)
+5.  Select **Add**.
 
     The Add Row dialog box is displayed.
 

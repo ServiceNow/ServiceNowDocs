@@ -1,6 +1,6 @@
 ---
 title: Product Owner portal
-description: Explore the product owner view and navigate through the accessible tabs on AI Control Tower to ensure a comprehensive understanding of the features.
+description: Explore the product owner view and navigate through the accessible tabs in the AI Control Tower.
 locale: en-US
 release: australia
 product: AI Control Tower
@@ -14,7 +14,7 @@ breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 
 # Product Owner portal
 
-Explore the product owner view and navigate through the accessible tabs on AI Control Tower to ensure a comprehensive understanding of the features.
+Explore the product owner view and navigate through the accessible tabs in the AI Control Tower.
 
 ## Product owner view
 

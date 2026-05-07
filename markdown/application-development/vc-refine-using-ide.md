@@ -42,10 +42,7 @@ To refine your vibe-coded app in the ServiceNow IDE, follow these steps:
 6.  Validate security and roles.
     -   Review ACLs to confirm that the correct roles and conditions are applied.
     -   Tighten permissions and remove any overly permissive logic introduced during scaffolding.
-7.  Inspect the Automated Test Framework \(ATF\) that Build Agent created.
-    -   Build Agent creates tests to verify end-to-end behavior. Run the tests yourself to confirm the results.
-    -   Organize test suites as needed.
-    -   Use the ServiceNow IDE deploy to test and refine your app.
+7.  Use Build Agent to generate and run Automated Test Framework. For more information, see [Testing what you built](../../build-agent/concept/build-agent-testing.md).
 8.  Move to local development with the ServiceNow SDK for deeper refactoring.
     -   Use the ServiceNow SDK command line interface \(CLI\) for build, deploy, and fetch operations, version control, and CI integration.
     -   Use the Source Control extension within the ServiceNow IDE to move changes between local versions and the ServiceNow IDE. For more information, see [Using source control in the ServiceNow IDE](../../servicenow-ide/concept/using-source-control-servicenow-ide.md).
@@ -72,7 +69,7 @@ With ServiceNow Fluent, you can:
 
 ServiceNow Fluent works with vibe coding and Build Agent. You can generate an app or flow using conversational prompts, then refine, extend, and harden it using the ServiceNow Fluent code-centric tools. Both pro-code and low-code developers can collaborate and iterate, using the strengths of AI-assisted and modern development.
 
-For more information on ServiceNow Fluent, see [ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md).
+**Important:** Build Agent only creates metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](../../servicenow-sdk/concept/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
 
 ## When to choose the ServiceNow IDE or ServiceNow Studio
 

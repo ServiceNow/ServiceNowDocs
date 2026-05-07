@@ -1,19 +1,19 @@
 ---
-title: Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework
-description: Use Enterprise Architecture \(formerly APM\) to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
+title: Enterprise Architecture \(EA\) and the CSDM framework
+description: Use Enterprise Architecture to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Configuring Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework
+# Enterprise Architecture \(EA\) and the CSDM framework
 
-Use Enterprise Architecture \(formerly APM\) to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
+Use Enterprise Architecture to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
 
-**Note:** If you do not use CSDM 4.0 or later versions, see the Rome documentation for CSDM. For implementing CSDM framework, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** If you do not use CSDM 5.0 or later versions, see the Rome documentation for CSDM. For implementing CSDM framework, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
 ## Enterprise Architecture home page
 
@@ -21,7 +21,7 @@ Use Enterprise Architecture \(formerly APM\) to gain a comprehensive understandi
 
 Starting with the Xanadu release, the legacy Enterprise Architecture \(formerly Application Portfolio Management\) Home page has been deprecated. However, if you are an existing user of Enterprise Architecture \(formerly Application Portfolio Management\), you can still view the legacy Home page. If you are a new activation user, the legacy Home page is not available.
 
-You can leverage the same features provided by the Application Portfolio Management Home page by using the Enterprise Architecture Workspace Home page. To learn more about Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](ea-workspace.md).
+You can leverage the same features provided by the Application Portfolio Management Home page by using the Enterprise Architecture Workspace Home page. To learn more about Enterprise Architecture Workspace, see [Enterprise Architecture Workspace](../ea-workspace.md).
 
 The Enterprise Architecture home page organizes many of the CSDM tables used by Enterprise Architecture.
 
@@ -29,7 +29,7 @@ The Enterprise Architecture home page organizes many of the CSDM tables used by 
 
     View the number of defined business capabilities that have been or will be assessed, and the number of business applications that support capabilities but are at-risk.
 
-    For more information about using capability mapping to establish a configuration item \(CI\) relationship between the business capability and the business applications, see \[product\].
+    For more information about using capability mapping to establish a configuration item \(CI\) relationship between the business capability and the business applications, see [Exploring a business portfolio](../manage-business-portfolio.md).
 
 -   **Information Portfolio**
 
@@ -53,15 +53,20 @@ The Enterprise Architecture home page organizes many of the CSDM tables used by 
 
     Use metrics to measure the usability, cost, quality, performance, and risk of applications.
 
-    For more information about technology portfolio management and how it relates to business applications, see [Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](eaw-concept/eaw-tpm.md).
+    For more information about technology portfolio management and how it relates to business applications, see [Manage the Technology Portfolio Management \(TPM\) in Enterprise Architecture Workspace](eaw-tpm.md).
 
 
--   **[Enterprise Architecture \(formerly Application Portfolio Management\) and CSDM tables](../reference/apm-use-case.md)**  
+-   **[Enterprise Architecture and CSDM tables](../../reference/eaw-reference/apm-use-case.md)**  
 Enterprise Architecture manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Enterprise Architecture.
--   **[Enterprise Architecture \(formerly Application Portfolio Management\) use case](apm-use-case-example.md)**  
+-   **[Enterprise Architecture use case](apm-use-case-example.md)**  
 Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
--   **[Enterprise Architecture \(formerly Application Portfolio Management\) considerations](apm-use-case-trouble.md)**  
+-   **[Enterprise Architecture considerations](apm-use-case-trouble.md)**  
 Consider these points while implementing the CSDM framework.
 
-**Parent Topic:**[Configuring Enterprise Architecture \(formerly Application Portfolio Management\)](configure-apm.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](configure-eaw.md)
+
+**Related topics**  
+
+
+[Exploring the CSDM model](https://www.servicenow.com/docs/access?context=csdm-content-frame-exploring&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 

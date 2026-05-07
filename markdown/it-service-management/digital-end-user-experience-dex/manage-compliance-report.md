@@ -31,15 +31,15 @@ Role required: admin
 
 4.  Choose one or more of the following options to configure how you want to monitor the compliance of your organization's IT devices.
 
-<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d173331e101">
+<table id="choicetable_l2j_bvc_fdc"><thead><tr><th align="left" id="d175919e101">
 
 Option
 
-</th><th align="left" id="d173331e104">
+</th><th align="left" id="d175919e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d173331e110">
+</th></tr></thead><tbody><tr><td id="d175919e110">
 
 **Manage compliance policy**
 
@@ -49,7 +49,7 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
 
 
-</td></tr><tr><td id="d173331e134">
+</td></tr><tr><td id="d175919e134">
 
 **Manage applications**
 
@@ -59,13 +59,13 @@ Steps
 2.  In the **Actions** drop-down list, select **Turn on monitoring**.
  **Note:** To learn more about adding or editing an application to monitor, see [Add an application for monitoring](add-new-application.md) or [New web or installed application form](../reference/admin-new-app-form.md).
 
-</td></tr><tr><td id="d173331e175">
+</td></tr><tr><td id="d175919e175">
 
 **Manage metric rules**
 
 </td><td>
 
-Select a metric rule name to customize. The rules trigger actions based on specific metric thresholds.**Note:** To edit or add a metric rule, see [Create metric rules](../concept/create-metric-rules.md).
+Select a metric rule name to customize. The rules trigger actions based on specific metric thresholds.**Note:** To edit or add a metric rule, see [Creating a metric rule](../concept/create-metric-rules.md).
 
 </td></tr></tbody>
 </table>    **Note:** You can enable multiple compliance policy values simultaneously by selecting a check box next to **Metric name**. Adjust your selection as needed by selecting individual check boxes for each value.

@@ -9,7 +9,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [Track metrics, Use ITSM Virtual Agent analytics dashboard, Now Assist for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # ITSM Virtual Agent chat analytics
@@ -24,13 +24,13 @@ Analyze chat metrics when you use ITSM Virtual Agent or a live agent to chat wit
 
 |Example of chat metrics|Description|
 |-----------------------|-----------|
-|Monitor the Virtual Agent chat resolution rate|Track automation effectiveness and identify improvement opportunities. This metric is measured as a percentage of chats closed by ITSM Virtual Agents.|
-|Segment performance analysis on different dimensions|Analyze data for the desired date range based on the caller company, user's department, user's location, whether it was handled by a live or virtual agent, and the type of communication channels.|
+|Monitor the Virtual Agent chat resolution rate|Track automation effectiveness and identify improvement opportunities. This metric is measured as a percentage of chats closed by the ITSM Virtual Agent.|
+|Segment performance analysis on different dimensions|Analyze data for the desired date range based on the caller company, user's department, user's location, whether it was handled by a live or ITSM Virtual Agent, and the type of communication channels.|
 |Analyze engagement patterns in time-series charts|Identify peak usage periods and plan staffing or infrastructure capacity accordingly.|
 |Compare daily chat volume to unique user counts|Understand if high volumes represent many users with issues or repeated interactions from fewer users.|
 |Review the chats by state distribution|Assess conversation chat completion quality based on the state of the chat such as Closed Complete and identify potential user experience issues such a users abandoning a chat.|
 |View departmental and geographical distribution|Ensure that the ITSM Virtual Agent capabilities align with actual demand patterns across your organization.|
-|Track trends over time|Measure the impact of Virtual Agent enhancements, topic additions, or process improvements over a given time period.|
+|Track trends over time|Measure the impact of ITSM Virtual Agent enhancements, topic additions, or process improvements over a given time period.|
 |Select specific data points in the visualizations|Drill down to underlying conversation details for deeper analysis.|
 
 ## Conditional filters to view the Chat analytics
@@ -156,5 +156,4 @@ Chats by user's location
 The distribution of chat interactions based on the geographical location of the users initiating them. This visualization shows support demand by location, which could be valuable for understanding global support patterns, planning regional coverage and language support, identifying location-specific issues, and ensuring that the ITSM Virtual Agent content addresses regional needs.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use ITSM Virtual Agent Analytics dashboard](using-itsm-conversational-analytics-dashboard.md)
-
+</table>

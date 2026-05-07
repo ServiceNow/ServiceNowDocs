@@ -17,7 +17,7 @@ Configure document attributes such as grace period, lead time, and reminder freq
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_slm.admin
 
 ## Procedure
 
@@ -59,8 +59,6 @@ The number of days before the document expiry date when a document upload task i
 
 </td></tr></tbody>
 </table>2.  In the decision table, go to the document attribute that you want to configure and set the time period in terms of days.
-
-    ![Decision table for configuring attributes.](../image/document-expiration-attributes.png)
 
 3.  Select **Save**.
 

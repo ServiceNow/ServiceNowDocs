@@ -18,7 +18,7 @@ You can install the Cloud Services Catalog Terraform Connector application \(com
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the [Cloud Provisioning and Governance: Terraform Connector](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9b04ffc20b1323002530a387b6673a1d/) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [Cloud Services Catalog: Terraform Connector](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9b04ffc20b1323002530a387b6673a1d/) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Ensure that Cloud Provisioning and Governance \(com.snc.cloud.mgmt\) application is installed and activated in the ServiceNow AI Platform. For more information, see [Request the Cloud Provisioning and Governance application](../../cloud-management-v2-setup/task/request-plugin-cloud-mgt.md).
 
 Role required: admin

@@ -53,8 +53,6 @@ You can select the document ID type when creating a new field.
 
 12. [Configure the form](../../form-administration/concept/configure-form-layout.md#) to remove the table reference field.
 
-    ![Document ID](../image/DocumentID1.png)
-
 
 **Related topics**  
 

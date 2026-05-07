@@ -6,7 +6,7 @@ release: australia
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 3
 breadcrumb: [Posting announcements to portal users, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -29,7 +29,7 @@ The title and summary of an announcement can be localized in the Translated Text
 
     The Announcements \[announcement\] table displays all announcements.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -47,7 +47,7 @@ Name
 
 </td><td>
 
-Internal title that doesn't display in the announcement.
+Internal title that does not display in the announcement.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ To
 
 </td><td>
 
-Date and time that the announcement ends. If left empty, the announcement continues to appear until it's deactivated.
+Date and time that the announcement ends. If left empty, the announcement continues to appear until it is deactivated.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Public
 
 </td><td>
 
-Option to display the announcement to users before and after they've logged in.
+Option to display the announcement to users before and after they have logged in.
 
 </td></tr><tr><td>
 
@@ -157,15 +157,15 @@ Unauthenticated only
 
 </td><td>
 
-Option to display the announcement only to users who haven't logged in.This option appears only if **Public** is selected.
+Option to display the announcement only to users who have not logged in.This option appears only if **Public** is selected.
 
 </td></tr><tr><td>
 
-Click target
+**Click target**
 
 </td><td>
 
-Creates a link below the announcement body that opens to a target page or URL. -   **None**: Announcement doesn't include a link.
+Creates a link below the announcement body that opens to a target page or URL. -   **None**: Announcement does not include a link.
 -   **Page**: Opens a Service Portal page in the current browser tab.
 -   **URL in current browser tab**: Opens a URL in the current browser tab.
 -   **URL in new browser tab**: Opens a URL in a new browser tab.
@@ -193,7 +193,7 @@ Details link text
 
 </td><td>
 
-Link text for the page or URL click target. If you leave this field empty and define a click target, the title of the announcement is "Learn More".
+Link text for the page or URL **Click target**. If you leave this field empty and define a **Click target**, the title of the announcement is "Learn More".
 
 </td></tr><tr><td>
 

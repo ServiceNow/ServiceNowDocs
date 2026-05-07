@@ -26,7 +26,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-workspace-vrm/image/ws-list-icon.png) and then navigate to **Questionnaire requests** &gt; **All**.
+1.  Navigate to **Workspaces** &gt; **Vendor Management Workspace**, select the list icon ![](../../grc-cam-workspace/image/ws-list-icon.png) and then navigate to **Questionnaire requests** &gt; **All**.
 
 2.  Select an **Assessment instance** in the Responses received, Generating responses, or Completed state that you want to view generated issues for.
 
@@ -52,15 +52,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d40415e243">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d42742e243">
 
 Option
 
-</th><th align="left" id="d40415e246">
+</th><th align="left" id="d42742e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40415e252">
+</th></tr></thead><tbody><tr><td id="d42742e252">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -70,7 +70,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d40415e276">
+</td></tr><tr><td id="d42742e276">
 
 **Create issues or dismiss issues from the Predicted issues list**
 

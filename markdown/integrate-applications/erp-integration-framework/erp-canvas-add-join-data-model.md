@@ -9,7 +9,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, join, table, read, operation]
-breadcrumb: [Building models, Use, Zero Copy Connector for ERP overview, Workflow Data Fabric]
+breadcrumb: [Building models, Use, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add joins between ERP tables
@@ -97,7 +97,7 @@ Join fields defines the common attribute or key used to connect records in a chi
 After you're done creating table joins, you can specify where the returned ERP data goes, and build flows that retrieve and output the data. For more information, see the following topics:
 
 -   [Specifying where ERP system data is saved](../concept/erpc-call-response-data.md)
--   
+-   [Building flows to read or update the ERP system](../concept/erp-canvas-build-flow-operation.md)
 
 **Parent Topic:**[Building and managing models to work with ERP data](../concept/work-with-erp-data-models.md)
 

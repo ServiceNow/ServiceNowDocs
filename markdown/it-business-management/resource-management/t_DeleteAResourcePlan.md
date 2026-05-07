@@ -29,7 +29,7 @@ Role required: resource\_user or resource\_manager
 
     ![screenshot for Delete confirmation message](../image/DeleteConfirmationMessage.png "Delete confirmation message")
 
-3.  Select **OK**.
+3.  Select **Delete**.
 
     The resource plan and all the associated allocations are removed.
 

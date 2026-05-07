@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with an application portfolio
@@ -29,6 +29,12 @@ Create a diagram for your business application hierarchy and associate it with a
 Create a diagram Lucidchart for your business application hierarchy and associate it with an architectural artifact.
 -   **[Open business application form in Core UI from EA Workspace](../../task/eaw-task/view-ba-form-in-coreui.md)**  
 Open the business application form in Core UI from the EA Workspace to view and edit the business application form in the Enterprise Architecture view.
+-   **[Add an existing AI system to a business application](../../task/eaw-task/eaw-add-ai-system-to-ba.md)**  
+Associate an existing AI Control Tower AI system with a business application from the Enterprise Architecture Workspace.
+-   **[View AI system details from a business application](../../task/eaw-task/eaw-view-ai-system-in-aict-from-ba.md)**  
+You can open an AI system record in the AI Control Tower Workspace directly from the **AI Systems** tab on a business application record in the Enterprise Architecture Workspace.
+-   **[Remove an AI system from a business application](../../task/eaw-task/eaw-unassign-ai-system-from-ba.md)**  
+You can remove an AI system from a business application record in the Enterprise Architecture Workspace.
 -   **[View a unified map for a business application](../../task/eaw-task/eaw-open-map-ba.md)**  
 View a unified map for your business applications in the Enterprise Architecture Workspace to understand the current architecture and associated references.
 -   **[View roadmap of a business application](../../task/eaw-task/eaw-view-roadmap-ba.md)**  
@@ -59,10 +65,6 @@ You can create a Technology Reference Model \(TRM\) products and associate it wi
 You can add existing Technology Reference Model \(TRM\) product to business applications in the Enterprise Architecture Workspace.
 -   **[Remove Technology Reference Model products associated with a business application](../../task/eaw-task/eaw-remove-trm-products-assoc-with-ba.md)**  
 You can remove the Technology Reference Model \(TRM\) products associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current TRM products are associated with the business application.
--   **[Add AI systems to business applications](../../task/eaw-task/eaw-add-ai-systems.md)**  
-You can add AI system product models to business applications in the Enterprise Architecture Workspace. Associating AI system product models to business applications enables enterprise architects to monitor AI usage along with your business applications, enabling better lifecycle visibility and tracking, and improving compliance and decision making.
--   **[Remove AI systems associated with business applications](../../task/eaw-task/eaw-remove-ai-systems-assoc-ba.md)**  
-You can remove the AI systems product models associated with business applications in the Enterprise Architecture Workspace, confirming only the relevant and current AI system product models are associated with the business application. You can remove multiple AI system product models simultaneously.
 -   **[Working with product capabilities](eaw-working-with-product-capabilities.md)**  
 Add or edit product capabilities in the Enterprise Architecture Workspace.
 -   **[View all application services](../../task/eaw-task/eaw-view-all-app-services.md)**  

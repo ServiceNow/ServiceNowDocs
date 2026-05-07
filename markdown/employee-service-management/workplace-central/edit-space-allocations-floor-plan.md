@@ -49,15 +49,15 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 6.  Edit the space allocations based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d197374e161">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d201676e161">
 
 Action
 
-</th><th align="left" id="d197374e164">
+</th><th align="left" id="d201676e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d197374e170">
+</th></tr></thead><tbody><tr><td id="d201676e170">
 
 **Edit space allocation**
 
@@ -72,7 +72,7 @@ Steps
 5.  Select **Apply**.
 
 
-</td></tr><tr><td id="d197374e215">
+</td></tr><tr><td id="d201676e215">
 
 **Remove allocations**
 

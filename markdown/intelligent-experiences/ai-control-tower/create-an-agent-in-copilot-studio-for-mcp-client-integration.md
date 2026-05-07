@@ -35,7 +35,7 @@ Role required: Workspace user
 
     5.  Enter the description.
 
-    6.  Click **Create**.
+    6.  Select **Create**.
 
         An agent is created.
 
@@ -43,7 +43,7 @@ Role required: Workspace user
 
     1.  Open the Agent and navigate to **Tools** tab.
 
-    2.  Click **+Add a tool**.
+    2.  Select **+Add a tool**.
 
     3.  Select **Model Context Protocol** icon.
 
@@ -71,19 +71,19 @@ Role required: Workspace user
 
     11. Enter the Refresh URL.
 
-        The Refresh URL is the same as the Token URL.
+        The Refresh URL is same as the Token URL.
 
-    12. Click **Create**.
+    12. Select **Create**.
 
         Your tool gets created successfully and generates a Redirect URL.
 
 4.  Copy the Redirect URL and paste in the Redirect URL field in the MCP server record.
 
-5.  Click **Save** to save the MCP server record.
+5.  Select **Save** to save the MCP server record.
 
 6.  Navigate to **ALL** &gt; **Application registry** and look for the Copilot MCP server record.
 
-7.  Ensure to change the values of **Always use PKCE** and **Public Client** from **True** to **False** of the server record.
+7.  Verify to change the values of **Always use PKCE** and **Public Client** from **True** to **False** of the server record.
 
     This step is only applicable for Microsoft Copilot Studio.
 
@@ -103,8 +103,8 @@ Role required: Workspace user
 
     This step is only applicable for Microsoft Copilot Studio.
 
-15. Click **Connect**.
+15. Select **Connect**.
 
-16. Click **Submit**.
+16. Select **Submit**.
 
 

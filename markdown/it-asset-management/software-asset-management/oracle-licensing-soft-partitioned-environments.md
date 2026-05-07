@@ -41,7 +41,5 @@ The AHV is a virtualization platform from Nutanix using which you can install an
 
 Additionally, if the physical host is part of a Nutanix Cluster, you must license all the physical cores in that cluster. The Oracle publisher pack supports licensing at both the cluster level and the host level, provided there’s no Nutanix cluster.
 
-In the following example, the license consumption for deploying a database on Virtual Machine VM1 is calculated at the cluster level. This calculation implies that all physical cores across all hosts in Cluster1 are counted for licensing.
-
 **Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](oracle-licensing-partitioned-environments.md)
 

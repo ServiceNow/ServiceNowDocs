@@ -103,3 +103,5 @@ Displays metrics on entry points that relate to the service that the CI is impac
     ![Alert indicator on graph](../image/alert-on-CI.png)
 
 
+**Parent Topic:**[Service Operations Workspace](../concept/workspace-dashboard-use.md)
+

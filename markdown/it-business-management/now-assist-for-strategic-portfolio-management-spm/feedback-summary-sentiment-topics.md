@@ -22,7 +22,7 @@ Multi feedback summarization video.
 
 If you have users with custom roles that need access to this skill, you must update ACLs for those roles and also add those custom roles to the In product role.
 
-The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](configure-now-assist-for-spm.md).
+The Feedback or Multi feedback summarization skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](../concept/configuring-na-spm.md).
 
 Role required: pf\_user
 
@@ -62,15 +62,15 @@ With the feedback or multi feedback summarization skill, you can get enough deta
 
 5.  When you're finished summarizing the feedback, you can expand or collapse the summary, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d190558e190">
+<table id="choicetable_mzf_fyg_y1c"><thead><tr><th align="left" id="d186484e174">
 
 Option
 
-</th><th align="left" id="d190558e193">
+</th><th align="left" id="d186484e177">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d190558e199">
+</th></tr></thead><tbody><tr><td id="d186484e183">
 
 **Expand or collapse the summary**
 
@@ -78,7 +78,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../images/icon-expand-spm.png)\) or the collapse card icon \(![Collapse card icon.](../images/icon-collapse-spm.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d190558e220">
+</td></tr><tr><td id="d186484e204">
 
 **More information on summary**
 
@@ -86,7 +86,7 @@ Select the expand card icon \(![Expand card icon.](../images/icon-expand-spm.png
 
 If you want to check some details about the summary, select the more info icon \(![More information icon.](../images/icon-more-information-spm.png)\).
 
-</td></tr><tr><td id="d190558e235">
+</td></tr><tr><td id="d186484e219">
 
 **View more or less summary**
 
@@ -94,7 +94,7 @@ If you want to check some details about the summary, select the more info icon \
 
 Select **View more** or **View less** to see more or less summary information.
 
-</td></tr><tr><td id="d190558e250">
+</td></tr><tr><td id="d186484e234">
 
 **Provide feedback for the summary**
 
@@ -102,7 +102,7 @@ Select **View more** or **View less** to see more or less summary information.
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../images/icon-helpful-feedback.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../images/icon-nt-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d190558e274">
+</td></tr><tr><td id="d186484e258">
 
 **Copy the feedback summary**
 
@@ -110,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../images/icon-copy-spm.png)\) to use the feedback summary information for another purpose, such as pasting it into an email.
 
-</td></tr><tr><td id="d190558e289">
+</td></tr><tr><td id="d186484e273">
 
 **Refresh the summary**
 
@@ -118,7 +118,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../images/icon-co
 
 Select **Refresh** to reload the feedback summary.
 
-</td></tr><tr><td id="d190558e301">
+</td></tr><tr><td id="d186484e285">
 
 **Copy and create epic from summary**
 

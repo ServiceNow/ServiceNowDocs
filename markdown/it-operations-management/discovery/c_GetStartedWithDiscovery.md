@@ -74,8 +74,6 @@ The MID Server starts all communications, using SOAP on HTTPS, which means that 
 
 Because Discovery is agentless, meaning that it does not require any permanent software to be installed on any computer or device to be discovered, the MID Server uses several techniques to probe devices without using agents. For example, the MID Server uses SSH to connect to a Unix or Linux computer, and then it can run a standard command, as specified in the probe, to gather information. Similarly, it uses the Simple Network Management Protocol \(SNMP\) to gather information from a network switch or a printer.
 
-![Discovery communications](../image/DiscoveryCommunicationsDiagram.png)
-
 ## Types of discovery
 
 The types of horizontal discovery that the Discovery application can perform are explained in the following table:

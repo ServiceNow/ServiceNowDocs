@@ -7,7 +7,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
-breadcrumb: [Configure flows for incoming emails, Email Interaction, Email channel, Configure, Enable communication channels, Configure, Customer Service Management]
+breadcrumb: [Configure flows for incoming emails, Email Interaction, Email channel, Enable communication channels, Configure, Customer Service Management]
 ---
 
 # Define a custom flow to create or update email interactions

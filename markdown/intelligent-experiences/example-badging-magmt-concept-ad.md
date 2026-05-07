@@ -1,32 +1,32 @@
 ---
-title: Example: Automate badge request management using Agentic Desktop
-description: Automate various tasks related to badge requests through desktop actions using Agentic Desktop and AI agents.Automate various badge-related tasks through desktop actions in Agentic Desktop.Create an AI agent in AI Agent Studio and add desktop action tools for automating badge-related requests.
+title: Example: Automate badge request management using AI Desktop Actions
+description: Automate various tasks related to badge requests through desktop actions using AI Desktop Actions and AI agents.Automate various badge-related tasks through desktop actions in AI Desktop Actions.Create an AI agent in AI Agent Studio and add desktop action tools for automating badge-related requests.
 locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2025-11-21"
-reading_time_minutes: 9
-breadcrumb: [Desktop action examples, Agentic Desktop, Enable AI experiences]
+reading_time_minutes: 10
+breadcrumb: [Desktop action examples, AI Desktop Actions, Enable AI experiences]
 ---
 
-# Example: Automate badge request management using Agentic Desktop
+# Example: Automate badge request management using AI Desktop Actions
 
-Automate various tasks related to badge requests through desktop actions using Agentic Desktop and AI agents.
+Automate various tasks related to badge requests through desktop actions using AI Desktop Actions and AI agents.
 
 Your HR representatives manage repetitive badge-related tasks. For example, issuing new badges, distributing temporary badges, replacing lost badges, and disabling badges during offboarding. To streamline and automate this work, you can create a desktop action for each task and assign these actions to an AI Agent in AI Agent Studio.
 
 When new requests come in, HR representatives can trigger the AI agent from the Now Assist panel. The AI Agent automatically selects and runs the appropriate desktop action. This automation reduces manual effort and enables them to focus on higher-value work.
 
-## Create badge desktop action in Agentic Desktop
+## Create badge desktop action in AI Desktop Actions
 
-Automate various badge-related tasks through desktop actions in Agentic Desktop.
+Automate various badge-related tasks through desktop actions in AI Desktop Actions.
 
 ### Before you begin
 
-To access the Agentic Desktop functionality, perform the following steps:
+To access the AI Desktop Actions functionality, perform the following steps:
 
--   Enable Agentic Desktop on your ServiceNow instance. For more information, see [Configure Agentic Desktop](../task/configure-agentic-desktop.md).
--   Download the Agentic Desktop installer to automate repetitive tasks across applications and systems. For more information, see [Download Agentic Desktop installer](../task/download-agentic-desktop-installer.md).
+-   Enable AI Desktop Actions on your ServiceNow instance. For more information, see [Configure AI Desktop Actions](../task/configure-agentic-desktop.md).
+-   Download the AI Desktop Actions installer to automate repetitive tasks across applications and systems. For more information, see [Download AI Desktop Actions installer](../task/download-agentic-desktop-installer.md).
 
 Confirm that the following system requirements are met:
 
@@ -35,55 +35,61 @@ Confirm that the following system requirements are met:
 -   No extended monitors are connected.
 -   Theme must match between the systems used for recording and execution.
 
-Familiarize yourself with the Design workspace and Action recorder. For more information, see [Agentic Desktop Design workspace](agentic-desktop-overview.md) and [Action recorder in Agentic Desktop](action-recorder-ad.md).
+Familiarize yourself with the Design workspace and Action recorder. For more information, see [AI Desktop Actions Design workspace](agentic-desktop-overview.md) and [Action recorder in AI Desktop Actions](action-recorder-ad.md).
 
 Role required: sn\_aia.admin
 
 ### Procedure
 
-1.  From your Windows system, launch the Agentic Desktop application.
+1.  From your Windows system, launch the AI Desktop Actions application.
 
 2.  On the login page, in the **Add ServiceNow URL** field, enter the ServiceNow instance URL.
 
     For example, `https://<instance name>.service-now.com`.
 
-    ![Agentic Desktop login screen for entering ServiceNow instance URL.](../image/ad-login-screen.png)
+    ![AI Desktop Actions login screen for entering ServiceNow instance URL.](../image/ad-login-screen.png)
 
 3.  Select **Proceed**.
 
 4.  Log in to your ServiceNow account by entering your user name and password.
 
-    Your account must have the sn\_aia.admin role.
+    Your must have the sn\_aia.admin role.
 
     ![Login window for entering your ServiceNow account username and password.](../image/ad-login-screen-cred.png)
 
-5.  On the Agentic Desktop home page, select **Create desktop action**.
+5.  On the onboarding journey wizard, complete the onboarding and select **Get started**.
 
-    ![Agentic Desktop home page displaying the Create desktop action UI action, search and select options, and cards of existing desktop actions.](../image/home-page-actions-ad.png)
+    ![Onboarding journey widget with five pages to show you the highlights of the application.](../image/onboarding-widget-ad.png)
 
-6.  In the New desktop action dialog box, select **Auto-capture steps \(recommended\)**.
+    If you launch the AI Desktop Actions for the first time, the onboarding journey widget appears. You can select **Don't show me again** to hide the widget the next time you launch AI Desktop Actions or **Skip intro** to skip the onboarding.
+
+6.  On the AI Desktop Actions home page, select **Create desktop action**.
+
+    ![AI Desktop Actions home page displaying the Create desktop action UI action, search and select options, and cards of existing desktop actions.](../image/home-page-actions-ad.png)
+
+7.  In the New desktop action dialog box, select **Auto-capture steps \(recommended\)**.
 
     ![New desktop action window with auto-capture option selected and fields to enter name and description for the desktop action.](../image/new-desktop-action-window-ad.png)
 
-7.  In the **Name** field, enter `Create new badge`.
+8.  In the **Name** field, enter `Create new badge`.
 
-8.  In the **Description** field, enter `Desktop action for issuing a badge to a new employee.`
+9.  In the **Description** field, enter `Desktop action for issuing a badge to a new employee.`
 
-9.  Select **Start capturing**.
+10. Select **Start capturing**.
 
-    The Agentic Desktop window is minimized and the Action recorder panel is launched. You can freely drag and reposition the Action recorder panel anywhere on your desktop screen.
+    The AI Desktop Actions window is minimized and the Action recorder panel is launched. You can freely drag and reposition the Action recorder panel anywhere on your desktop screen.
 
     ![Floating recorder panel that has Discard, Pause, and Start recording UI actions.](../image/recorder-auto-capture-ad.png)
 
-10. Open the **Employee Badge Management** application on your desktop.
+11. Open the **Employee Badge Management** application on your desktop.
 
-11. From the Action recorder panel, select **Start**.
+12. From the Action recorder panel, select **Start**.
 
     You see that a "Recording started" message on the Action recorder panel.
 
     -   Pause recording: You can skip recording steps by selecting **Pause**.
     -   Discard recording: You can discard the recording if it doesn’t meet your needs by selecting **Discard**.
-12. On the **Employee Badge Management** application, perform the following steps for creating a badge.
+13. On the **Employee Badge Management** application, perform the following steps for creating a badge.
 
     The recorder feature records the steps that you perform for creating a badge.
 
@@ -95,7 +101,7 @@ Role required: sn\_aia.admin
 
         You see the success message that the new badge is created.
 
-13. After you’re done with all the steps, select **Stop** on the Action recorder panel.
+14. After you’re done with all the steps, select **Stop** on the Action recorder panel.
 
     You see a "Drafting recorded action\(s\)" message on the Action recorder panel.
 
@@ -111,7 +117,7 @@ Role required: sn\_aia.admin
 
     ![Success message indicating new badge is successfully created.](../image/ex-employee-badge-5.png "Screen5")
 
-14. Configure the following properties for the captured steps.
+15. Configure the following properties for the captured steps.
 
     |Screen &gt; Step|Property|Value|
     |----------------|--------|-----|
@@ -121,11 +127,11 @@ Role required: sn\_aia.admin
     |Screen2 &gt; Click2|Delay after|5|
     |Screen3 &gt; Click2|Delay after|10|
 
-    For more information, see [Screen, anchor, and step properties in Agentic Desktop](../reference/screen-anchor-and-action-properties-ad.md).
+    For more information, see [Screen, anchor, and step properties in AI Desktop Actions](../reference/screen-anchor-and-action-properties-ad.md).
 
-15. Provide names for all added screens, anchors, and steps.
+16. Modify the auto-generated names for all added screens, anchors, and steps.
 
-    When you create these elements, you can edit the auto-generated name, but follow these naming guidelines.
+    You can modify the auto-generated names following these naming guidelines.
 
     -   Name fields must not be empty.
     -   Name fields must contain only alphanumeric characters. Spaces and special characters are not permitted.
@@ -133,17 +139,17 @@ Role required: sn\_aia.admin
         -   Each screen must have a unique name at the desktop-action level.
         -   Each anchor must have a unique name at the screen level.
         -   Each step must have a unique name at the anchor level.
-16. Select the Details tab.
+17. Select the Details tab.
 
-17. In the Applications list, add Badge Management Application.
+18. In the Applications list, add Badge Management Application.
 
-18. Select **Save**.
+19. Select **Save**.
 
-19. Test and activate the desktop action.
+20. Test and activate the desktop action.
 
-    For more information, see [Test and activate a desktop action in Agentic Desktop](../task/test-activate-desktop-action-ad.md).
+    For more information, see [Test and activate a desktop action in AI Desktop Actions](../task/test-activate-desktop-action-ad.md).
 
-20. Similarly, create and activate the following desktop actions.
+21. Similarly, create and activate the following desktop actions.
 
     -   Badge application login
     -   Badge application logout
@@ -236,25 +242,23 @@ List of steps
 
     1.  In the Add tool drop-down list, select **Desktop action**.
 
-    2.  In the **Select a type of desktop action** field, select **UI block**
-
-    3.  In the **Select a desktop action** drop-down list, select **Create new badge** desktop action.
+    2.  In the **Select a desktop action** drop-down list, select **Create new badge** desktop action.
 
         This desktop action enables AI agents to create a badge in the Employee Badge Management application.
 
-    4.  Provide a name and tool description for this desktop action configuration.
+    3.  Provide a name and tool description for this desktop action configuration.
 
         Tool description of the desktop action helps with what it’s going to do to assist your AI agent.
 
         **Note:** This description is sent to the large language model \(LLM\).
 
-    5.  In the **Execution mode** field, select **Autonomous**.
+    4.  In the **Execution mode** field, select **Autonomous**.
 
-    6.  Select **Add**.
+    5.  Select **Add**.
 
         The desktop action is added in the Desktop actions list on the Add tools and information page.
 
-    7.  Similarly, add the following desktop actions related to the badge management to this AI agent.
+    6.  Similarly, add the following desktop actions related to the badge management to this AI agent.
 
         -   Badge application login
         -   Badge application logout

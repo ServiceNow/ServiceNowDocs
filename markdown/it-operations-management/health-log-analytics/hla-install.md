@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [activate content pack, install application, ServiceNow Store, sn.occ, Analytics and Reporting Solutions, entitlements verification, HI account, Performance Analytics Premium, com.snc.pa.premium, application installation, store application, content pack activation, admin role required, system applications, additional fee, plugin activation]
 breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -17,7 +18,7 @@ Activate the content pack ServiceNow Store application for the Platform Analytic
 
 ## Before you begin
 
-Activate the full, subscription version of Performance Analytics on the instance where you are activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
 
 Role required: admin
 
@@ -27,7 +28,7 @@ Role required: admin
 
 2.  Browse for Health Log Analytics and verify that you have the necessary valid entitlements.
 
-    You need a HI account and permission to request applications for the instances under consideration. The HI account and the instance need to be part of the same company. For more information, see [Install a ServiceNow Product](https://store.servicenow.com/sn_appstore_store.do#!/store/help?article=KB0030186) on the ServiceNow Store.
+    You need a HI account and permission to request applications for the instances under consideration. The HI account and the instance must be part of the same company. For more information, see [Install a ServiceNow Product](https://store.servicenow.com/sn_appstore_store.do#!/store/help?article=KB0030186) on the ServiceNow Store.
 
 3.  Search for `Health Log Analytics (sn.occ)`.
 

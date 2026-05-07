@@ -14,6 +14,8 @@ breadcrumb: [Customer communication, Use, Customer Service Management]
 
 Email Interaction for CSM application enables agents to create interactions from customer emails, helping them resolve simple customer queries through these interactions. They can create a case from an interaction when further investigation is needed for resolving the customer query. This process provides clarity of the effort needed for customer query intake and actual investigation needed for query resolution.
 
+![Workflow overview](../image/email-interaction-for-CSM-workflow-overview.png "Email Interaction for CSM- workflow overview")
+
 The Email Interaction for CSM application offers several key benefits:
 
 -   Streamlines operations by helping to prevent the creation of duplicate or unnecessary cases.
@@ -85,7 +87,7 @@ For CCaaS-routed email interactions, agents can transfer the interaction to anot
 **Related topics**  
 
 
-[Omnichannel customers](omnichannels-communicating-customers.md#)
+[Omnichannel](omnichannels-communicating-customers.md#)
 
 [System properties for configuring Email Interaction](../reference/system-properties-for-configuring-email-as-an-interaction.md)
 

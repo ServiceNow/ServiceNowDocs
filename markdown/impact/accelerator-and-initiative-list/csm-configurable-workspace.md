@@ -28,8 +28,11 @@ Offered pursuant to the applicable Impact Accelerator Description available atâ€
 ## What you get
 
 -   **Session preparation**
-    -   Provision a temporary instance
-    -   Activate related plugins
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates related plugins
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:

@@ -56,8 +56,6 @@ See [Using regular expressions in entities](../concept/using-regular-expressions
     **Result:** Your pattern vocabulary item appears in the Vocabulary section of your Model screen. Each time a user's utterance contains one of the spelling variations, the system recognizes the meaning as multi-factor authentication, in this example.
 
 
-**Parent Topic:**[NLU vocabulary](../concept/using-nlu-vocabulary.md)
-
 **Related topics**  
 
 

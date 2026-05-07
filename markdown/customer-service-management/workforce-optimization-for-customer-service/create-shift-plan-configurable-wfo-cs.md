@@ -8,7 +8,7 @@ classification: workforce-optimization-for-customer-service
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Scheduling in Workforce Optimization, Using, Workforce Optimization for Customer Service, Customer Service Management]
+breadcrumb: [Schedule, Use, Workforce Optimization for Customer Service, Customer Service Management]
 ---
 
 # Create a shift plan
@@ -35,15 +35,15 @@ In the **Shifts** tab, the shifts are grouped by active and inactive shifts. The
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d210928e111">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d214091e111">
 
 To
 
-</th><th align="left" id="d210928e114">
+</th><th align="left" id="d214091e114">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d210928e120">
+</th></tr></thead><tbody><tr><td id="d214091e120">
 
 **Create a work shift**
 
@@ -76,7 +76,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d210928e238">
+</td></tr><tr><td id="d214091e238">
 
 **Create an on-call shift**
 
@@ -114,5 +114,5 @@ You can view the name of the primary agent for each on-call shift on the shift c
 </table>6.  Click **Submit**.
 
 
-**Parent Topic:**[Scheduling in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
+**Parent Topic:**[Schedule in Workforce Optimization for Customer Service](../concept/scheduling-configurable-wfo-cs.md)
 

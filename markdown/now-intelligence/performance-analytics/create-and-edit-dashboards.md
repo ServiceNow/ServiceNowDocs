@@ -23,7 +23,7 @@ Use dashboards to share reports and other data visualizations, filters, and othe
 
 ## Dashboards overview
 
-To create a responsive dashboard, see [Create or configure a responsive dashboard](../../performance-analytics/task/t_CreateADashboard.md).
+To create a responsive dashboard, see [Create or configure a responsive dashboard in Core UI](../../performance-analytics/task/t_CreateADashboard.md).
 
 -   **[Edit a responsive dashboard](../task/t_EditADashboard.md)**  
 You can edit the contents of a dashboard, including Performance Analytics widgets, reports, and tabs. Because dashboards are shared, any modifications you make are applied globally.

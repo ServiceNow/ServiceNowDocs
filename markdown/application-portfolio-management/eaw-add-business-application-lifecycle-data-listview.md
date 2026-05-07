@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use list view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use list view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add business application lifecycle data using the list view
@@ -15,7 +15,7 @@ Create or edit the life cycle of a business application to better manage the bus
 
 ## Before you begin
 
-The application model \(field name: Model ID\) is required to create application model life cycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Run a scheduled job to generate an application model for business applications](../run-job-gen-model-id-ba.md).
+The application model \(field name: Model ID\) is required to create application model life cycle for a business application. The application model ID can either be entered manually or can be automatically created and added to the business application by executing or scheduling the **CSDM Product Model Assignment** script. For details on how to run the **CSDM Product Model Assignment** script, see [Auto-generate product models for logical CIs](https://www.servicenow.com/docs/access?context=csdm-auto-create-prod-model-for-ci&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
 
 Role required: sn\_apm.apm\_analyst
 

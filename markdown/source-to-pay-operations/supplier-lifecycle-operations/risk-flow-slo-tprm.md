@@ -15,8 +15,6 @@ breadcrumb: [Use the risk assessment playbook, Create a supplier, Using Source-t
 
 If you have installed both the Risk Assessments Integration for Supplier Lifecycle Operations \[com.snc.sn\_supplier\_tprm\] and GRC: Third-party Risk Due Diligence \[com.sn\_tprm\_onboarding\] plugins, the Perform risk assessment playbook triggers the flow that includes activities to create a due diligence request, complete Inherent Risk Questionnaire \(IRQ\) assessments, and conduct risk assessments for a third-party and an engagement.
 
-![Risk assessment flow with due diligence.](../image/risk-flow-slo-tprmdd.png "Risk assessment flow when Third-party Risk Due Diligence is installed")
-
 In this flow, the following occurs:
 
 1.  The supplier manager receives a supplier onboarding request.

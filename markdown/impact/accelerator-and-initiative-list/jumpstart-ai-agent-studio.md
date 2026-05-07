@@ -24,9 +24,12 @@ Jumpstart Your AI Agent Studio highlights how AI agents empower customers to bui
 ## What you get
 
 -   **Session preparation**
-    -   Provision a temporary instance 
-    -   Activate and configure related plug-ins
-    -   Configure a custom AI agent
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance 
+    -   Activates and configures related plug-ins
+    -   Configures a custom AI agent
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:

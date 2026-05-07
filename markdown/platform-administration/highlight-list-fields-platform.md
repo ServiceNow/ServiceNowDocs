@@ -25,11 +25,7 @@ Highlighted fields in lists appear colored and optionally, have a leading bullet
 
 The set up involves specifying the fields that gets highlighted and the conditions that trigger the highlighting.
 
-![Highlighting reasoning](../image/highlight-reasoning.png)
-
-Available highlighting colors are:
-
-![Highlight colors](../image/highlighting-colors.png)
+![When records are listed from the selected Table, the selected Field is highlighted based on the conditions added in the Highlighted Value Conditions tab.](../image/highlight-reasoning.png)
 
 You cannot highlight the following field types:
 

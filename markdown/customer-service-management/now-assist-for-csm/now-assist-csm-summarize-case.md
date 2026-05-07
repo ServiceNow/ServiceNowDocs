@@ -58,15 +58,15 @@ If there’s enough data the Case summary component displays the **Summarize** b
 
 3.  After summarizing a case, you can add it to the case work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d150519e207">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d153368e207">
 
 Option
 
-</th><th align="left" id="d150519e210">
+</th><th align="left" id="d153368e210">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d150519e216">
+</th></tr></thead><tbody><tr><td id="d153368e216">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -77,7 +77,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d150519e243">
+</td></tr><tr><td id="d153368e243">
 
 **Expand or collapse the summary**
 
@@ -85,7 +85,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d150519e264">
+</td></tr><tr><td id="d153368e264">
 
 **Provide feedback for the summary**
 
@@ -93,7 +93,7 @@ Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) o
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d150519e287">
+</td></tr><tr><td id="d153368e287">
 
 **Copy the case summary**
 
@@ -101,7 +101,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d150519e303">
+</td></tr><tr><td id="d153368e303">
 
 **View the information about the case summary**
 

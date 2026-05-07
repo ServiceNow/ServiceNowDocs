@@ -21,10 +21,6 @@ The identity probe in the base Discovery system can be configured to ask the dev
 
 **Important:** Serial numbers are necessary for accurate asset tracking. If you modified baseline probes, sensors, or patterns, verify that they still discover serial numbers. In addition, do not configure sensors or patterns to modify the serial number syntax, such as adding a custom prefix. Non-standard serial numbers can lead to inaccurate asset tracking.
 
-This diagram shows the processing flow for classifying and probing devices with identifiers configured.
-
-![Discovery identifiers](../image/DiscoveryIdentifiersDiagram.png)
-
 ## CMDB identifier tables
 
 |Table|Description|

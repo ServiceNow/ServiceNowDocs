@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 2
 breadcrumb: [CI deletion strategies for pattern discovery, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Set a deletion strategy when you want to take action on a related configuration 
 ## Before you begin
 
 -   CIs: a main CI and related CIs that the discovery process found through pattern discovery
--   Role required: cloud\_admin, service\_mapping\_admin, discovery\_admin, or admin
+-   Role required: cloud\_admin, service\_mapping\_admin, discovery\_admin, or admin. Starting from Visibility Content version 6.30.0, pd\_admin and pd\_mid are also supported.
 
 ## About this task
 

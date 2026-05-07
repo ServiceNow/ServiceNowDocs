@@ -29,11 +29,11 @@ The following table lists the mandatory fields for the Organization tax details 
 **Related topics**  
 
 
-[Invoice import inbound staging table](../../sourcing-procurement-operations/reference/inbound-invoice-import-staging-table.md)
+[Invoice import inbound staging table](inbound-invoice-import-staging-table.md)
 
 [Import error staging table](../../accounts-payable-operations/reference/import-error-staging-table.md)
 
-[Invoice line import inbound staging table](../../sourcing-procurement-operations/reference/inbound-invoice-line-staging-table.md)
+[Invoice line import inbound staging table](inbound-invoice-line-staging-table.md)
 
 [Invoice payment detail import inbound table](../../accounts-payable-operations/reference/invoice-payment-detail-staging-table.md)
 

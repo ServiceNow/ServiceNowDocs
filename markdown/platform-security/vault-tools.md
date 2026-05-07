@@ -199,7 +199,7 @@ Number of classes protected with continuous authentication, categorized by class
 </td></tr></tbody>
 </table>## Monitor your data
 
-The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks using charts created by Now Assist. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
+The AI Insights section within ServiceNow Vault helps you keep track of activities that may indicate potential threats or data leaks.These activities are generated from channels such as Now Assist and Virtual Agent, as well as database tables configured with real-time discovery. This insight can help you prioritize your data protection strategies more effectively. Select **View tool metrics** to see the underlying metrics.
 
 |Metric|Chart Component|Description|
 |------|---------------|-----------|

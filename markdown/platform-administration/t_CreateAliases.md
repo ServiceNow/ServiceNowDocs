@@ -35,8 +35,6 @@ The list of potential aliases is the contents of the **Pending Values** related 
 
 6.  Select aliases for this normal value from the available \(pending\) values that appear in the slushbucket, and then click **OK**.
 
-    ![Normalization alias slush](../image/NormalizationAliasSlush.png)
-
     The aliases for this normal value now appear in the **Aliases** related list.
 
 

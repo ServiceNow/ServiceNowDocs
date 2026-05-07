@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Now Assist for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
 # Configure Now Assist for Enterprise Architecture \(EA\)
@@ -57,15 +57,15 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 
 5.  Activate and configure the skill for Now Assist for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d35664e339">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d33996e339">
 
 Skill
 
-</th><th align="left" id="d35664e342">
+</th><th align="left" id="d33996e342">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d35664e348">
+</th></tr></thead><tbody><tr><td id="d33996e348">
 
 **ADR Doc Summarization and Actions**
 
@@ -76,7 +76,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d35664e379">
+</td></tr><tr><td id="d33996e379">
 
 **Business application insights**
 
@@ -123,7 +123,7 @@ The You are making a copy of a skill dialog box appears.
     6.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d35664e593">
+</td></tr><tr><td id="d33996e593">
 
 **Diagram change analysis**
 
@@ -148,7 +148,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d35664e682">
+</td></tr><tr><td id="d33996e682">
 
 **Refine text**
 
@@ -184,6 +184,8 @@ The diagram change analysis skill is activated.
     The skill is configured and activated.
 
 
+-   **[Now Assist for Enterprise Architecture \(EA\) access roles](../reference/sn-otto-access-roles.md)**  
+The following roles help you to configure and use each Now Assist for Enterprise Architecture \(EA\) skill.
 -   **[Configure AI Data Explorer and Query Generation skills](configure-ai-data-explr-qry-genr-skills.md)**  
 You can configure the AI Data Explorer and Query Generation skills to provide AI-assisted data exploration features and generate insights in Enterprise Architecture Workspace.
 

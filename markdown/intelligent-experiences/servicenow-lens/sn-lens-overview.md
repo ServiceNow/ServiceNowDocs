@@ -16,6 +16,8 @@ breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
 
 Learn about the ServiceNow AI Lens desktop application landing page.
 
+![ServiceNow AI Lens landing page overview](../image/sn-lens-home-page-overview.png "ServiceNow AI Lens landing page")
+
 <table id="table_drt_5s5_xfc"><thead><tr><th>
 
 No.
@@ -54,6 +56,19 @@ Preconfigured Lens actions that define behavior of ServiceNow AI Lens. Only the 
 
 </td></tr><tr><td>
 
+3
+
+</td><td>
+
+Call-to-action buttons
+
+</td><td>
+
+-   **Upload** - Button to upload one or more files for analysis.
+-   **Capture** - Button to capture one or more screenshots for analysis.
+
+</td></tr><tr><td>
+
 4
 
 </td><td>
@@ -66,4 +81,11 @@ Action card options
 -   Details - Shows Lens action details, such as Name, Description, Default additional directions, and Table.
 
 </td></tr></tbody>
-</table>
+</table>![ServiceNow AI Lens preview page overview.](../image/lens-images-captured.png "ServiceNow AI Lens preview")
+
+|No.|Feature|Description|
+|---|-------|-----------|
+|5|Image and file cards|Cards of the screenshots that you captured and the files that you uploaded. You can click a card and view the preview of a screenshot or file in its default application.|
+|6|Additional screenshot capture or file upload buttons|Buttons to capture or upload additional screenshots or files.|
+|7|Additional directions|Option to provide instructions to Now Assist to analyze the data in the screenshots or files in a specific way.|
+

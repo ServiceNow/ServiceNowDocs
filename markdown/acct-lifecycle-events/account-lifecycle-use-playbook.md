@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Account onboarding, Configure, Customer Success Management]
+breadcrumb: [Account onboarding, Customer Success Management, Customer Success Management]
 ---
 
 # Set up the account onboarding playbook

@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Working with the publishing center
@@ -49,6 +49,8 @@ View publishing run logs to monitor publishing activity and review the publishin
 Access the published TRM catalog to view approved technology standards and lifecycle information in the knowledge base.
 -   **[Understanding the publishing results and knowledge base output](../../reference/eaw-reference/understand-publishing-output.md)**  
 Understand what happens after you publish or republish a TRM catalog and how to interpret the results in the Publishing Center and the knowledge base.
+-   **[AI Search on the TRM catalog](ai-search-trm-cat.md)**  
+Use the Now Assist panel to search published Technology Reference Model \(TRM\) catalog records using natural language queries.
 -   **[Retire or archive a published TRM catalog](../../task/eaw-task/retire-archive-pub-trm-cat.md)**  
 Use the Knowledge Base management controls to retire or archive the content generated from a published Technology Reference Model \(TRM\) catalog.
 

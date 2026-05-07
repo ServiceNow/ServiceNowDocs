@@ -6,7 +6,7 @@ release: australia
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 24
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -308,15 +308,6 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 -   New description: GlideRecord provided cross scope create/update access to tables that were not configured with that level of access. In order to prevent customers from having applications broken when this scoped access behavior was patched, the property **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** was created. When true, cross scope access falls back onto legacy behavior \(insecure\). This property disables scope fencing, allowing scoped apps to access global script interfaces. It is best security practice to have scope fencing restrictions in place. Scoping ensures applications can only access resources with explicit access or within their scope, following the principle of least privilege. Disabiling this feature could lead to confidentiality, availability, and integrity impacts.
 -   Old description: Legacy behavior provided create/update access to tables that did not allow so. In order to prevent legacy customers from having applications broken when this scoped access behavior was patched, the property **glide.record.legacy\_cross\_scope\_access\_policy\_in\_script** was created. When true, cross scope access falls back onto legacy behavior \(insecure\). This property disables scope fencing, allowing scoped apps to access global script interfaces. It is best security practice to have scope fencing restrictions in place. Scoping ensures applications can only access resources with explicit access or within their scope, following the principle of least privilege. Disabiling this feature could lead to confidentiality, availability, and integrity impacts.
-
-</td></tr><tr><td>
-
-
-
-</td><td>
-
--   New short description: Enable Updated Version of Multi SSO Plugin
--   Old short description: Enable Updated Version of Multi SSO Plugin \(Plugin Applicability: Multiple Provider Single Sign-On\)
 
 </td></tr><tr><td>
 

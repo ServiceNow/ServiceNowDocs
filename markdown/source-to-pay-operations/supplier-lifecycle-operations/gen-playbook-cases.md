@@ -27,13 +27,9 @@ The case playbook is displayed only for these case types:
 -   Supplier support request
 -   General inquiry
 
-![Case playbook.](../image/gen-playbook.png "Case playbook on the Playbook tab")
-
 ## Case playbook flow
 
 The following diagram illustrates the flow of the activities in each stage of the Case playbook.
-
-![Case playbook for supplier cases.](../image/case-playbook-flow.png "Case playbook flow")
 
 ## Case playbook stages and activities
 

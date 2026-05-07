@@ -6,7 +6,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-05-06"
 reading_time_minutes: 1
 breadcrumb: [Explore, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -17,5 +17,5 @@ In Strategy and Goals, you start by creating a strategic plan that captures your
 
 The following illustration provides an example of a strategic plan, including its strategic priorities, goals, and targets.
 
-![Example of a an enterprise strategy map.](../image/stratey-map-example.png)
+![Enterprise strategy map example.](../image/stratey-map-example.png)
 

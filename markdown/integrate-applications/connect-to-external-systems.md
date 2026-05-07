@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
@@ -48,4 +48,8 @@ Connect Hub distinguishes between two fundamental integration concepts: connecto
 
 
 The relationship between connectors and connections follows a one-to-many pattern. A single connector supports multiple connection instances, enabling you to reuse integration logic across different environments or system instances while maintaining separate credentials and configurations for each. For example, you can have one Jira spoke connector but have three different connections: one each for development, staging, and production respectively.
+
+## Application version
+
+Connect Hub v2.0.0 is th latest application version.
 

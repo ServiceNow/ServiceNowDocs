@@ -23,6 +23,8 @@ Steps that show **None** in the Events column connect directly to the End node o
 
 Steps that show **Success and/or Error** events allow you to define what happens next depending on the outcome, giving you full control over the interaction flow.
 
+When you insert a step before an existing step, the toolbox displays an Unavailable section. This section shows items that cannot be inserted at that location and includes a contextual message that changes depending on why the items are unavailable.
+
 <table id="table_rgp_lhl_m3c"><thead><tr><th>
 
 Step

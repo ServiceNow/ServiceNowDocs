@@ -7,7 +7,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Engage via email interactions, Use emails, Customer communication, Use, Customer Service Management]
+breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Verify a contact, consumer, or guest user

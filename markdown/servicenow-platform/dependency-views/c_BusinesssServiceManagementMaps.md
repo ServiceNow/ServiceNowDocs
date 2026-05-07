@@ -62,7 +62,7 @@ Develop
 
 Integration
 
- [View metrics for CIs in a Dependency Views map](../task/view-ci-metrics.md)
+ 
 
 </td><td>
 

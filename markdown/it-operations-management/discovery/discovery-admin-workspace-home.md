@@ -6,8 +6,8 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-04-29"
-reading_time_minutes: 4
+last_updated: "2026-05-06"
+reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -43,6 +43,12 @@ The following data counts display in the Quick overview section:
     Displays the number of Discovery schedules with anomalies detected over a certain time period. This count only displays when anomaly detection is enabled. If anomaly detection is inactive, select **Turn on** to access the [Settings](discovery-admin-workspace-setup.md) page.
 
     Selecting this number redirects you to the Anomaly detection tab on the [Diagnostics](discovery-admin-workspace-diagnostics.md) page, where you can view details about the type and severity of anomalies.
+
+-   **Discovery Operations Monitor**
+
+    Monitor discovery performance across your IT environment. Select **View dashboard** to open the dashboard and view performance metrics for transactions, sensor jobs, MID Server queue load, and probe processing times. For more information, see [Discovery Operations Monitor dashboard](disco-operations-monitor.md).
+
+    **Note:** This feature is available starting in Discovery Admin Workspace v1.15.0.
 
 
 ## Discovery admin tasks

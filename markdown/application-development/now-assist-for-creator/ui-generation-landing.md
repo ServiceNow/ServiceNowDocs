@@ -1,6 +1,6 @@
 ---
 title: UI generation
-description: Use ServiceNow Now Assist for UI generation to quickly create experiences by describing what you want using natural language.
+description: UI generation in Now Assist for Creator uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform using natural language.
 locale: en-US
 release: australia
 product: Now Assist for Creator
@@ -13,7 +13,7 @@ breadcrumb: [Use generative AI, Now Assist for Creator, Vibe coding and AI app d
 
 # UI generation
 
-Use ServiceNow® Now Assist for UI generation to quickly create experiences by describing what you want using natural language.
+UI generation in Now Assist for Creator uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
 
 ## Get started
 
@@ -62,11 +62,11 @@ ServiceNow collects and uses the inputs, outputs, and edits to outputs of this a
 For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
 
 -   **[Exploring UI generation](exploring-ui-generation.md)**  
-Learn how AI-generated UI experiences can empower developers building on the ServiceNow AI Platform.
+Learn how UI generation uses AI-powered skills to help app developers, UI Builder admins, and low-code developers build experiences on the ServiceNow AI Platform® using natural language.
 -   **[Configuring UI generation](configuring-ui-generation.md)**  
 Configure and install UI generation.
 -   **[Using UI generation](using-ui-generation.md)**  
-Quickly generate multi-page experiences using natural language with Now Assist.
+UI generation in Now Assist for Creator enables developers to build ServiceNow portal experiences faster using natural language. Instead of manually configuring each page, module, or data binding, you describe what you need, and Now Assist for Creator it for you.
 -   **[UI generation reference](ui-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 

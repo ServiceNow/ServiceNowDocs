@@ -6,7 +6,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-04-22"
 reading_time_minutes: 8
 breadcrumb: [Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -15,9 +15,7 @@ breadcrumb: [Reporting reference, Reporting, Reporting, dashboards, and Performa
 
 Use properties to fine-tune report behavior and appearance.
 
-## Introduction
-
-Navigate to **Reports** &gt; **Administration** &gt; **Properties** to configure the main reporting properties. In the Filter navigator, enter `sys_properties.list` to configure other reporting properties.
+Navigate to **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties** to configure the main reporting properties. In the Filter navigator, enter `sys_properties.list` to configure other reporting properties.
 
 ## Reporting properties
 
@@ -31,15 +29,23 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable Natural Language Queries \(NLQ\) in Report Designer
+Enable fulfiller creation of Core UI reportscom.snc.par.coreui.report\_create.enabled
 
- com.snc.par.nlq.report\_designer.enabled
+</td><td>
+
+Allows fulfiller users to create Core UI reports after upgrade to Australia. **Create new** button available in the Data Visualizations library with the option to create Core UI reports in the modal.-   Type: true \| false
+-   Default value: true
+-   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to the System Property \[sys\_properties\] table.
+
+</td></tr><tr><td>
+
+Enable Natural Language Queries \(NLQ\) in Report Designercom.snc.par.nlq.report\_designer.enabled
 
 </td><td>
 
 -   Type: true \| false
 -   Default value: true
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
 </td></tr><tr><td>
 
@@ -51,7 +57,7 @@ glide.chart.truncate.x\_axis\_labels
 
 -   Type: true \| false
 -   Default value: true
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
 </td></tr><tr><td>
 
@@ -75,7 +81,7 @@ Enables animations for reports and Performance Analytics visualizations that sup
 
  -   Type: true \| false
 -   Default value: true
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
 </td></tr><tr><td>
 
@@ -87,7 +93,7 @@ glide.chart.data\_labels.remove\_leading
 
 When enabled, the default truncation is left side. When disabled, the default is right side truncation. -   Type: string
 -   Default value: false
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property is applicable only if glide.chart.truncate.data\_labels is set.
 
@@ -101,7 +107,7 @@ glide.chart.histogram.bins
 
 Determines the number of sections that appear on the Y axis of the histogram.-   Type: integer
 -   Default value: 10 \(Allowed range of values 1–20\)
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property applies to histogram reports.
 
@@ -115,7 +121,7 @@ glide.chart.box.mean.color
 
 Sets the color of the 'mean' value dot in a box or trendbox report. -   Type: string
 -   Default value: \#2f7ed8
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property applies to box and trendbox reports.
 
@@ -127,7 +133,7 @@ glide.chart.drill.open\_new\_win
 
 If enabled, opens the default list drilldown in a new tab if no drilldown is defined. Applies only for non-list type reports.-   Type: true \| false
 -   Default value: false
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
 </td></tr><tr><td>
 
@@ -139,7 +145,7 @@ glide.chart.box.color
 
 Sets the color of the box report. -   Type: string
 -   Default value: \#FF0000
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property applies to box reports.
 
@@ -157,7 +163,7 @@ Sets the default colors to use when adding multiple data sets to a single chart.
 
  -   Type: string
 -   Default value: Default Color
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
 </td></tr><tr><td>
 
@@ -173,7 +179,7 @@ Sets the default palette to use when adding multiple data sets to a single chart
 
  -   Type: string
 -   Default value: Default UI14
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property applies to pie, bar, horizontal bar, donut, and semi-donut reports.
 
@@ -187,7 +193,7 @@ glide.ui.report.map.default\_map
 
 Specifies the default map to use when creating Map-type reports.-   Type: string
 -   Default value: world
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property applies to Map reports.
 
@@ -209,7 +215,7 @@ glide.ui.chart.use\_full\_color\_palette
 
 Enable this property to generate bars in bar and Pareto charts with different colors for each bar.-   Type: true \| false
 -   Default value: \#false
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  This property applies to bar, horizontal bar, and Pareto reports.
 
@@ -438,7 +444,7 @@ glide.homepage\_interactivity.ui\_ctrls\_max\_display\_options
 
 Maximum number of choices for radio button and check box interactive filters.-   Type: integer
 -   Default value: 25
--   Location: **Reports** &gt; **Administration** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **Reporting Properties**
 
  Category: Choice list, Reference field, Date, Group
 

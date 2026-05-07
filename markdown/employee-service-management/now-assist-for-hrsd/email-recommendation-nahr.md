@@ -17,6 +17,8 @@ Generate an email reply that is based on the case and email context by using the
 
 ## Before you begin
 
+[Configure Now Assist for HR Service Delivery \(HRSD\)](configure-now-assist-hr.md).
+
 Role required: admin
 
 ## About this task
@@ -40,15 +42,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d194317e136">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d198614e154">
 
 Method
 
-</th><th align="left" id="d194317e139">
+</th><th align="left" id="d198614e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d194317e145">
+</th></tr></thead><tbody><tr><td id="d198614e163">
 
 **Compose email from More actions**
 
@@ -61,7 +63,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d194317e196">
+</td></tr><tr><td id="d198614e214">
 
 **Compose an email from Activity stream**
 
@@ -75,15 +77,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d194317e247">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d198614e265">
 
 Email message window
 
-</th><th align="left" id="d194317e250">
+</th><th align="left" id="d198614e268">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d194317e259">
+</th></tr></thead><tbody><tr><td id="d198614e277">
 
 **Typed response**
 
@@ -93,7 +95,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d194317e276">
+</td></tr><tr><td id="d198614e294">
 
 **Left blank**
 
@@ -101,7 +103,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d194317e285">
+</td></tr><tr><td id="d198614e303">
 
 **Use template**
 

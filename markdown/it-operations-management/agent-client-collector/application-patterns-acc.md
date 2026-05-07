@@ -24,6 +24,8 @@ To enable application patterns on the Agent Client Collector, install the follow
 -   Agent Client Collector for Visibility - Content
 -   Discovery
 
+Ensure that the agent is connected to a MID Server to enable pattern execution. The MID Server runs the pattern, and each command step is evaluated against the agent as an ad-hoc check who's name begins with **PatternOnTheFlyCheck**.
+
 Set the **sn\_agent.appl\_classification\_behavior** property to **full**, and restart any MID Servers connected to the agent.
 
 When working in a Windows environment, ensure that you're working with Powershell 3.0 or higher.
@@ -46,7 +48,7 @@ You can view the application patterns that were executed on a given agent.
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agents**.
 2.  Select an agent.
-3.  Select **View** &gt; **Discovery** from the context menu \(hamburger\).
+3.  Select **View** &gt; **Discovery** from the context menu \(hamburger icon\).
 4.  Open the agent.
 5.  Select the **Application Pattern logs** tab on the bottom of the page.
 
@@ -148,11 +150,6 @@ For information on the collected data, see [Data collected during Agent Client C
 Application patterns support Oracle GLAS data collection in a Linux environment. For details on using patterns, see [Oracle Global License Advisory Services \(GLAS\) data collection using patterns](../../service-mapping/reference/oracle-glas-discovery.md).
 
 Although Oracle GLAS supports Put file operations, the related files are deployed using Agent Client Collector plugins instead of SSH or WMI.
-
--   **[Discover java installation data using Agent Client Collector for Visibility - Content file-based discovery](../task/acc-file-based-discovery.md)**  
-Discovering java installation data using Agent Client Collector for Visibility - Content file-based discovery enables you to discover file information in your system.
-
-**Parent Topic:**[Agent Client Collector Discovery](acc-discovery.md)
 
 **Related topics**  
 

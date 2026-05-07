@@ -8,7 +8,7 @@ classification: telecommunications-network-inventory
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Telecommunications Network Inventory]
+breadcrumb: [Import models and templates, Use, Telecommunications Network Inventory]
 ---
 
 # Export hierarchy of models and templates
@@ -18,6 +18,10 @@ Export a hierarchy of models, inventory templates, and all related records effic
 ## Before you begin
 
 Role required: sn\_ni\_core.inventory\_admin
+
+## About this task
+
+Export selected related records of a model or inventory template in your chosen format \(Excel, CSV, JSON, PDF, or Export Set\).
 
 ## Procedure
 
@@ -60,5 +64,5 @@ Role required: sn\_ni\_core.inventory\_admin
 
 The selected model or inventory template with all related records is downloaded in the selected format.
 
-**Parent Topic:**[Using Telecommunications Network Inventory](../concept/using-telecom-network-inventory.md)
+**Parent Topic:**[Import models and templates](../concept/import-models-and-templates.md)
 

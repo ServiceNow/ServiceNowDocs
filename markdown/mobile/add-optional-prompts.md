@@ -6,7 +6,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Lens launcher button, Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
+breadcrumb: [Configure a Lens launcher button, Configuring Now Assist, Now Assist for Mobile, Mobile Platform]
 ---
 
 # Add optional prompts to the ServiceNow AI Lens Launcher
@@ -30,5 +30,5 @@ Role required: admin
 5.  Select **Submit** to save your progress.
 
 
-**Parent Topic:**[Configure Lens launcher button](configure-lens-launcher-button.md)
+**Parent Topic:**[Configure a Lens launcher button](configure-lens-launcher-button.md)
 

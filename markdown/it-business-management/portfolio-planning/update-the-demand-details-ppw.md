@@ -25,15 +25,15 @@ Role required: it\_demand\_user, it\_demand\_manager
 
 2.  Update the demand record details in any of the following ways.
 
-<table id="choicetable_pmm_441_j3c"><thead><tr><th align="left" id="d125469e80">
+<table id="choicetable_pmm_441_j3c"><thead><tr><th align="left" id="d123733e80">
 
 Option
 
-</th><th align="left" id="d125469e83">
+</th><th align="left" id="d123733e83">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d125469e89">
+</th></tr></thead><tbody><tr><td id="d123733e89">
 
 **From Playbooks**
 
@@ -43,7 +43,7 @@ Process
 2.  Update the demand details in the required playbook activity. For more information,see [Use Playbooks](use-playbooks-in-ppw.md).![Update demand details from playbook stage.](../../spw-demand/images/playbook-details-tab.png)
 
 
-</td></tr><tr><td id="d125469e122">
+</td></tr><tr><td id="d123733e122">
 
 **From Details tab**
 
@@ -55,7 +55,7 @@ Process
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d125469e163">
+</td></tr><tr><td id="d123733e163">
 
 **From All Demands page**
 

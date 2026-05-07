@@ -17,7 +17,7 @@ You can add contract-level KPIs for a supplier from the **KPI management** tab o
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kpi.admin
 
 You can add contract-level KPIs only if you have installed the Sourcing and Purchasing Automation \(com.snc.sn\_pr\) and Source-to-Pay Common Architecture \(com.snc.sn\_shop\) plugins.
 
@@ -34,8 +34,6 @@ You can add contract-level KPIs only if you have installed the Sourcing and Purc
 5.  Select **Add**.
 
 6.  Select the collection level as **Contract level**.
-
-    ![Select collection level dialog box](../image/contract-level.png)
 
 7.  Select the applicable contracts from the list of available contracts.
 

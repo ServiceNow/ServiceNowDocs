@@ -50,7 +50,7 @@ Value that will be set in the alert field:-   If you select **Same as** in the M
 -   If you select **To** in the Map field column, enter the alert field value that you want to appear in the specified incident field.
 
 </td></tr></tbody>
-</table>To return to the procedure, see [Create Respond automation](../task/esc-notify-alert-sow-itom.md).
+</table>To return to the procedure, see [Create Respond automation](../task/respond-alert-sow-itom.md).
 
 **Parent Topic:**[Service Operations Workspace for ITOM reference](../concept/sow-reference-itom.md)
 

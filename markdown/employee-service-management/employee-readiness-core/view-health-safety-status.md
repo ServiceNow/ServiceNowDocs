@@ -6,7 +6,7 @@ release: australia
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Employee Health and Safety Status, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -30,8 +30,6 @@ Your status page lists all the requirements that you must fulfill before you can
 1.  Navigate to **All** &gt; **Employee Health and Safety Status** &gt; **My Status**.
 
     **Note:** To view your status page on the Now Mobile app, navigate to **Health** &gt; **Prepare for arrival** &gt; **My readiness checklist**.
-
-    ![My Health and Safety Status page.](../image/my-status-links-32.png)
 
 2.  Select one of your upcoming reservations and travel requests to review your eligibility for a reservation or travel request.
 

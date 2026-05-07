@@ -39,7 +39,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 The document intelligence for utility invoices skill is active and is available to be used in the Operational Sustainability Workspace.
 
 -   **[Setup metric definition and entity-mapping records](../task/setup-metric-definition-and-entity-mapping-records.md)**  
-Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill are mapped to the correct Environmental, Social, and Governance metrics and entities. This eliminates manual data entry and improves accuracy.
+Configure your environment so that values extracted using the Document Intelligence for Utility Invoices skill map to the correct Environmental, Social, and Governance metrics and entities. This eliminates manual data entry and improves accuracy.
 
 **Parent Topic:**[Configure Now Assist for Operational Sustainability \(formerly ESG\)](configure-now-assist-for-esg.md)
 

@@ -8,6 +8,7 @@ classification: health-log-analytics
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Analytics and Reporting, content pack, prepackaged content, Performance Analytics, reporting content, IT issues predicted, critical outages prevented, cost savings analysis, user impact prevention, solution installation, solution activation, indicators and breakdowns, widgets and dashboards, data collection setup, dashboard sharing, stakeholder access]
 breadcrumb: [Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
@@ -27,7 +28,7 @@ Activate the content pack ServiceNow Store application for the Platform Analytic
 -   **[Configure the Platform Analytics Solution for Health Log Analytics](hla-config.md)**  
 Run diagnostics, review and customize components, and start collecting data.
 -   **[Health Log Analytics Overview dashboard](hla-overview-dashboard.md)**  
-The Health Log Analytics Overview dashboard uses Performance Analytics to provide a trend of historical data as well as regular reports.
+The Health Log Analytics Overview dashboard has been replaced with the HLA Operational dashboard.
 
 **Parent Topic:**[Analytics and Reporting in Health Log Analytics](../../../product/health-log-analytics-operator/concept/hla-analytics-reporting.md)
 

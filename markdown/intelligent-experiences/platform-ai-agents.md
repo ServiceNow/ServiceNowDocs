@@ -24,6 +24,8 @@ The Approval assistance AI agent is an AI agent that enables you to see your lis
 The Issue Readiness AI agent analyzes the current state of a task to assess and determines whether it is ready to be worked on.
 -   **[Platform Request status AI agent](ticket-status-aia.md)**  
 The Request status AI agent is an AI agent that enables you to view tickets and make updates to them from Now Assist in Virtual Agent, the Now Assist panel, or Microsoft Teams.
+-   **[Domain Separation AI agent](domain-sep-aia.md)**  
+The Domain Visibility AI agent enables Domain Admins to manage user domain visibility using guided, conversational workflows in the Now Assist panel.
 
 **Parent Topic:**[Now Assist AI assets](../../now-assist-skills/concept/platform-ai-assets-section.md)
 

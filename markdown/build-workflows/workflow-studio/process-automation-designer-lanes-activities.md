@@ -113,6 +113,8 @@ Add and configure a stage in your playbook.
 Activity definitions describe how the activities in your playbook get the data that they need when your playbook runs.
 -   **[Add and configure an activity in a playbook](../task/add-configure-activity.md)**  
 Add and configure an activity in your playbook.
+-   **[Use AI agent as an activity](../task/ai-agent-as-activity.md)**  
+Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
 -   **[Automation Assets](automation-assets.md)**  
 Include all automation assets in the activity picker to add a subflow, flow, or action directly to your playbook without having to create an activity definition.
 -   **[Start with delay input properties](../reference/start-with-delay-properties.md)**  

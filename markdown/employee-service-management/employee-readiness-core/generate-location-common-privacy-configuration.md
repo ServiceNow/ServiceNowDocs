@@ -35,15 +35,15 @@ You can generate a location-based, default privacy configuration for each countr
 
 4.  Configure the privacy consent text if necessary.
 
-<table id="choicetable_kwk_52b_ynb"><thead><tr><th align="left" id="d510835e99">
+<table id="choicetable_kwk_52b_ynb"><thead><tr><th align="left" id="d519595e99">
 
 Privacy consent status
 
-</th><th align="left" id="d510835e102">
+</th><th align="left" id="d519595e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d510835e108">
+</th></tr></thead><tbody><tr><td id="d519595e108">
 
 **Consent is not required for the location**
 
@@ -51,7 +51,7 @@ Action
 
 Clear the **Needs privacy consent** check box.
 
-</td></tr><tr><td id="d510835e120">
+</td></tr><tr><td id="d519595e120">
 
 **Consent is required for the location**
 

@@ -8,7 +8,7 @@ classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up Web EmbeddablesWeb Embeddable, Configure Web Embeddables, Set up self-service, Configure, Customer Service Management]
+breadcrumb: [Set up Web Embeddables, Web Embeddables, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Set up a custom URL as the instance URL

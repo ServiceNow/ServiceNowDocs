@@ -6,7 +6,7 @@ release: australia
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-30"
 reading_time_minutes: 4
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -21,29 +21,23 @@ Role required: GRC Risk manager \(sn\_risk.manager\)
 
 ## About this task
 
-Edit or reassign a task directly from the list of records. Alternatively, add a work note or navigate through the record to view more details about the Risk Statement, the Risk record, and associated Remediation Tasks prior to reassignment. If an issue is not assigned to your assignment group, it is not displayed on this list. Time to complete this task: 5-10 minutes.
+Edit or reassign a task directly from the list of records. Alternatively, add a work note or navigate through the record to view more details about the Risk Statement, the Risk record, and associated Remediation Tasks before reassignment. If an issue is not assigned to your assignment group, it is not displayed on this list. Time to complete this task: 5-10 minutes.
 
 ## Procedure
 
-1.  If you are not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
+1.  If you're not logged in to your ServiceNow AI Platform instance on your mobile device, for more information see [Log in to the GRC Mobile application](mobile-login-risk-mobileapp.md).
 
 2.  With the Risk landing screen displayed, under the `Team's Overdue Work` section, tap **Issues**.
 
     If you navigate away from the GRC Mobile application after you have logged in, tap the Now Agent app at any time to return to the last screen you had displayed.
 
-    ![Overdue issues applet highlighted.](../image/mobile_Risk_overview-app-redo.png)
-
     The Issues screen is displayed with a list of records.
-
-    ![Overdue issues list of records.](../image/mobile_risk_OW_list.png)
 
 3.  See [Filter records with the GRC Mobile application](mobile-risk-set-filters.md) to search for records that match specific search criteria.
 
     Filtering records on screens in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform. Setting filters can reduce the number of records that are displayed on screens.
 
 4.  To edit or reassign a task directly from the list of records displayed on the Issues screen, swipe left on a record to open the menu.
-
-    ![Swipe action on overdue issues list.](../image/mobile_risk_OD_swipe.jpg)
 
 5.  In the menu that is displayed, choose one to continue.
 
@@ -56,17 +50,15 @@ Edit or reassign a task directly from the list of records. Alternatively, add a 
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-    ![Overdue issue record details.](../image/mobile_risk_OD_issue_record.jpg)
-
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d67215e248">
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d69572e206">
 
 Option
 
-</th><th align="left" id="d67215e251">
+</th><th align="left" id="d69572e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67215e257">
+</th></tr></thead><tbody><tr><td id="d69572e215">
 
 **Details tab**
 
@@ -80,7 +72,7 @@ Tap the **Control Objective/Risk Statement** field to expand it. A list of recor
 -   At the top right of the screen with the Issue record displayed, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d67215e298">
+</td></tr><tr><td id="d69572e256">
 
 **Activity Stream tab**
 
@@ -90,7 +82,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d67215e328">
+</td></tr><tr><td id="d69572e286">
 
 **Tap the Related List tab.**
 
@@ -102,7 +94,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the open record on the Issue screen and tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to reassign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d67215e358">
+</td></tr><tr><td id="d69572e316">
 
 **Tap a screen icon at the bottom of the screen.**
 

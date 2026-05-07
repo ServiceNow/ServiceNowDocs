@@ -27,7 +27,7 @@ Before you begin, confirm that you have the required roles:
 -   To use Now Assist, you must have the now\_assist\_panel\_user role.
 -   To create an application with the Now Assist for Creator app generation skill, you must have the admin role or the sn\_g\_app\_creator.app\_creator role.
 -   To edit \(not create\) an application with app generation, you must have the delegated developer role and be assigned to the application.
--   To add a workspace to an application created using app generation, enable the Now Assist for Creator experience generation skill. For more information, see [Experience generation](../../../administer/ui-generation/task/generate-ui.md).
+-   To add a workspace to an application created using app generation, enable the Now Assist for Creator experience generation skill. For more information, see [Create an AI-generated experience](../../../administer/ui-generation/task/generate-ui.md#).
 -   To add a flow to an application created using app generation, enable the Now Assist for Creator flow generation skill and confirm that you have a flow\_designer role. For more information, see [Flow generation](../../../administer/flow-designer/reference/flow-generation-landing.md).
 
 ![Infographic that shows the four phases to using app generation, with a fifth on verifying the app in ServiceNow Studio.](../images/app-generation-workflow-infographic-asset-0020323v2.png "App generation workflow")

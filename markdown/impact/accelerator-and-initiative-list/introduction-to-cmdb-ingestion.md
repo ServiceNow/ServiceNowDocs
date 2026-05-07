@@ -27,8 +27,10 @@ The focus of this session is on Service Graph Connectors. Additional methods of 
 
 -   **Session Preparation**
 
-    -   Provision a ServiceNow demonstration instance
-    -   Activate and configure related plug-ins
+    The Technical Accelerator Consultant:
+
+    -   Provisions a ServiceNow demonstration instance
+    -   Activates and configures related plug-ins
     ​
 
 -   **Customer Coaching Session \#1 \(Up to 90 minutes\)**

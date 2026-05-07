@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 ---
 
 # Project Portfolio Management release notes
@@ -22,10 +22,18 @@ See [Explore Project Portfolio Management](https://www.servicenow.com/docs/acces
 
 ## New in the Australia release
 
--   **[Admin role enhancements in Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
-    -   Enabling all users to create ideas with a minimum read role added to the **com.snc.idea.universal\_request.copy\_fields** system property.
-    -   The **com.snc.idea.universal\_request.copy\_fields** system property can be updated only by users with the idea\_admin or pps\_admin roles.
-    -   Help ensure that only authenticated users have access to the bubble chart workbench through the UserIsAuthenticated condition added to the bubble chart workbench ACL \(access control list\).
+[Australia Patch 1](../quality/australia-patch-1.md)
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+
+    The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+    Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
 -   **[Associate AI systems with demands in Demand Management](https://www.servicenow.com/docs/access?context=associate-ai-systems-with-demands&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
     Add and manage AI system associations directly from the **AI Associations** tab in Demand Management. You can select impacted AI systems or create AI systems using related links directly within the demand workflow.
@@ -34,6 +42,10 @@ See [Explore Project Portfolio Management](https://www.servicenow.com/docs/acces
 
     Generate a concise, structured summary of any demand using the demand summarization skill through the **Summarize** button in the demand form. The skill reviews the demand fields and helps create a clear summary of the demand.
 
+-   **[Admin role enhancements in Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+    -   Enabling all users to create ideas with a minimum read role added to the **com.snc.idea.universal\_request.copy\_fields** system property.
+    -   The **com.snc.idea.universal\_request.copy\_fields** system property can be updated only by users with the idea\_admin or pps\_admin roles.
+    -   Help ensure that only authenticated users have access to the bubble chart workbench through the UserIsAuthenticated condition added to the bubble chart workbench ACL \(access control list\).
 -   **[Admin role enhancements in Project Management](https://www.servicenow.com/docs/access?context=r_InstalledWithProjectManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 
     The Project properties can be edited only by users with the pps\_admin role.
@@ -53,6 +65,12 @@ See [Explore Project Portfolio Management](https://www.servicenow.com/docs/acces
         -   An option to create an AI system under Related Links in the Demand form is available for users with the sn\_ai\_steward role.
 
 ## Changed in this release
+
+[Australia Patch 2](../quality/australia-patch-1.md)
+
+-   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+
+    The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
 
 -   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
 

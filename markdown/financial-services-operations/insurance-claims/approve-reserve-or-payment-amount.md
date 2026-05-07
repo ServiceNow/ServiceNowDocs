@@ -31,7 +31,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 3.  On the **Lists** tab, under Individual death claims approvals, select the item that you need to approve.
 
-<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d37293e114">
+<table id="choicetable_sbb_pcs_dcc"><tbody><tr><td id="d39441e114">
 
 **List name**
 
@@ -39,7 +39,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Description
 
-</td></tr><tr><td id="d37293e123">
+</td></tr><tr><td id="d39441e123">
 
 **My approvals - Reserves**
 
@@ -47,7 +47,7 @@ Description
 
 Presents a list of approval tasks for reserve requests.
 
-</td></tr><tr><td id="d37293e132">
+</td></tr><tr><td id="d39441e132">
 
 **My approvals - Payments**
 
@@ -60,15 +60,15 @@ Presents a list of approval tasks for payment requests.
 
 5.  Submit your decision from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d37293e156">
+<table id="choicetable_dhz_trz_pbc"><thead><tr><th align="left" id="d39441e156">
 
 Approval task
 
-</th><th align="left" id="d37293e159">
+</th><th align="left" id="d39441e159">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d37293e165">
+</th></tr></thead><tbody><tr><td id="d39441e165">
 
 **To approve an amount**
 
@@ -76,7 +76,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d37293e177">
+</td></tr><tr><td id="d39441e177">
 
 **To reject an amount**
 

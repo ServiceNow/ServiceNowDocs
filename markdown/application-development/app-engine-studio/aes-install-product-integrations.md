@@ -1,19 +1,19 @@
 ---
 title: Install the AES product and integrations
-description: Install the App Engine Studio \(AES\) product to ensure you get all the dependencies, integrations, and tools, such as templates and builders.
+description: Install the App Engine Studio \(AES\) product to verify that you get all the dependencies, integrations, and tools, such as templates and builders.
 locale: en-US
 release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-04-28"
 reading_time_minutes: 1
 breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Building low-code applications, Developing your application, Building applications]
 ---
 
 # Install the AES product and integrations
 
-Install the App Engine Studio \(AES\) product to ensure you get all the dependencies, integrations, and tools, such as templates and builders.
+Install the App Engine Studio \(AES\) product to verify that you get all the dependencies, integrations, and tools, such as templates and builders.
 
 ## Before you begin
 
@@ -31,11 +31,13 @@ Role required: admin
 
     **Note:** You must select the AES product, not the application.
 
+    ![App Engine Studio card highlighted in the Application Manager interface.](../image/aes-activate-plugin-as1.png)
+
 3.  On the App Engine Studio product page, select **Install**.
 
 4.  In the Review Installation Details modal, review the list of applications and dependencies to install.
 
-    Dependent plugins and applications are listed if they will be installed, are currently installed, or need to be installed. If any plugins or applications must be installed, you must install them before you can install App Engine Studio.
+    The system lists dependent plugins and applications that will be installed, are currently installed, or need installation. If any plugins or applications must be installed, you must install them before you can install App Engine Studio.
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 

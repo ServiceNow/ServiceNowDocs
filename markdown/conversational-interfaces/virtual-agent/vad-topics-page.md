@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-03-10"
+last_updated: "2026-04-20"
 reading_time_minutes: 8
 keywords: [Virtual Agent, Designer, home page, topics, AI agents, Agentic workflows, custom skills, topics, conversational assets, subflows, actions, LLM, NLU, Large langauge model, Natural Language Understanding, Asset library, assets]
 breadcrumb: [Assistant Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
@@ -65,6 +65,10 @@ Controls for filtering, managing, testing, creating, and deleting Virtual Agent 
 **Note:** Hover over the tooltip icon \(![Tooltip icon.](../images/i-tooltip.png)\) to see information about the assistant you have selected from the drop-down menu.
 
         -   **Test Assistant**: Opens the testing window for the topics that are associated with the assistant you selected.
+
+You can use three testing options: Standard Chat, Enhanced Chat, or Premium chat.  If you configured either Enhanced Chat or Premium Chat for your instance, you can use that test option.  If you configured both Enhanced and Premium chat, you can choose between the two.  If you configured Standard Chat, you can choose from all three options.
+
+You can see which chat experiences an assistant has by checking **Display experiences** under the assistant's **Settings** tab. For more information on assistants and testing options, see [Testing assistants](../concept/testing-enhanced-chat-conversations.md) and [Display your chat assistant on a portal, channel, or mobile app](../../now-assist-in-va/task/display-assistant-portal-channel.md)
 
 **Note:** If you have not filtered topics with **Select assistant**, the option **Test in Now Assist panel** appears in this drop-down menu. For more information on associating an LLM assistant with a topic, see [Creating a Virtual Agent topic](../task/create-virtual-agent-topic.md).
 

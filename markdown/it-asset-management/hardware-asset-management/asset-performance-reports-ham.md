@@ -6,8 +6,9 @@ release: australia
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-04-20"
 reading_time_minutes: 7
+keywords: [asset performance reports, hardware assets efficiency]
 breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -26,7 +27,7 @@ Asset performance involves assessing how effectively and efficiently assets fulf
 
 -   **Reduce unplanned downtime**
 
-    Monitoring asset health in real-time help prevent and predict issues before they cause downtime.
+    Real-time asset health monitoring can prevent and predict issues before they cause downtime.
 
 -   **Improve maintenance efficiency**
 
@@ -38,18 +39,20 @@ Asset performance involves assessing how effectively and efficiently assets fulf
 
 -   **Enhance financial planning**
 
-    Insights into performance help identify models or locations that aren't performing well or have ongoing problems, guiding better investment choices.
+    Performance insights help identify models or locations with poor performance or ongoing problems, guiding better investment choices.
 
 -   **Align operations with service levels**
 
-    Tracking availability helps assets meet the required uptime targets set by service level agreements \(SLAs\), compliance standards, or production schedules.
+    Tracking availability ensures that assets achieve the required uptime targets set by service level agreements \(SLAs\), compliance standards, or production schedules.
 
 
 ## Considerations, requirements, and limitations
 
+-   To track additional hardware model categories in KPIs, [opt in the relevant HAM resource categories](../task/optin-optout-ham-license-resource-categories.md). Otherwise, newly added model categories do not appear in performance metrics or dashboards.
+-   The **First Used** field on HAM assets must contain a valid timestamp for accurate asset performance tracking. Assets with missing or invalid First Used values are excluded from performance calculations, creating gaps in lifecycle and utilization reporting.
 -   Asset key performance indicators \(KPIs\) aren't calculated for pallets, consumable, and bundle assets.
 -   Asset KPIs aren't calculated by default.
--   To track the asset KPIs that include Asset availability, MTBF, and MTTR, you must perform the following configurations:
+-   To track asset KPIs including Asset availability, MTBF, and MTTR, complete these configurations:
     1.  [Opt in to the model categories of the assets for which you want to monitor the KPIs](../task/opt-in-kpi-tracking-ham.md).
 
         **Note:** If a model category has child categories, selecting the parent category for performance tracking doesn’t automatically include the child categories. You need to opt in to the specific child categories you want to track.
