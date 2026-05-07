@@ -7,7 +7,6 @@ Important notes:
 - Repository organized by ServiceNow AI Platform release version ("family").
 - Each release is a separate git branch named for the family.
 - Family-to-branch mapping is:
-    - "latest" : "latest" -- Latest monthly release
     - "australia" : "australia" -- Australia family
     - "zurich" : "zurich" -- Zurich family
     - "yokohama" : "yokohama" -- Yokohama family
