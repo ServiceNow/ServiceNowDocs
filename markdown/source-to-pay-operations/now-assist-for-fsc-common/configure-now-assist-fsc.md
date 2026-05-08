@@ -62,15 +62,15 @@ The following table lists the Now Assist for Common Finance and Supply Chain fea
 
 10. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d116182e358">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d116186e358">
 
 Option
 
-</th><th align="left" id="d116182e361">
+</th><th align="left" id="d116186e361">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116182e367">
+</th></tr></thead><tbody><tr><td id="d116186e367">
 
 **Skill is always available**
 
@@ -78,7 +78,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d116182e376">
+</td></tr><tr><td id="d116186e376">
 
 **Customize skill availability**
 
@@ -91,15 +91,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d116182e412">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d116186e412">
 
 Option
 
-</th><th align="left" id="d116182e415">
+</th><th align="left" id="d116186e415">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116182e421">
+</th></tr></thead><tbody><tr><td id="d116186e421">
 
 **In-product desktop**
 
@@ -107,7 +107,7 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d116182e442">
+</td></tr><tr><td id="d116186e442">
 
 **Now Assist panel**
 

@@ -26,15 +26,15 @@ Set the system properties for the Operational Technology Incident Management app
 
 2.  Enable the following properties as needed for your organization.
 
-<table id="choicetable_xc5_cxy_wvb"><thead><tr><th align="left" id="d49391e99">
+<table id="choicetable_xc5_cxy_wvb"><thead><tr><th align="left" id="d49395e99">
 
 Property
 
-</th><th align="left" id="d49391e102">
+</th><th align="left" id="d49395e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d49391e108">
+</th></tr></thead><tbody><tr><td id="d49395e108">
 
 **com.sn\_ot\_inc\_mgmt.sn\_ot\_incident\_task.closure**
 
@@ -42,7 +42,7 @@ Description
 
 Property to close the open OT incident tasks when the related incident is closed or canceled.If you want to close the open incident tasks when the related incident is closed or canceled, set this field to **Yes**.
 
-</td></tr><tr><td id="d49391e122">
+</td></tr><tr><td id="d49395e122">
 
 **com.snc.sn\_ot\_incident.create.child.enable**
 
@@ -50,7 +50,7 @@ Property to close the open OT incident tasks when the related incident is closed
 
 Property to create a child incident feature for the OT incident records.If you want to create a child incident for inciden records, set this field to **Yes**.
 
-</td></tr><tr><td id="d49391e136">
+</td></tr><tr><td id="d49395e136">
 
 **com.snc.sn\_ot\_incident.copy.attributes**
 
@@ -58,7 +58,7 @@ Property to create a child incident feature for the OT incident records.If you w
 
 Property to list the attributes that you want to copy from the parent incident to the child incident.Add any additional attributes needed in the comma-separated list.
 
-</td></tr><tr><td id="d49391e147">
+</td></tr><tr><td id="d49395e147">
 
 **glide.ui.sn\_ot\_incident\_activity.fields**
 

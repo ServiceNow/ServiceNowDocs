@@ -68,15 +68,15 @@ Dispute agents can also use the Help resolve friendly fraud disputes agentic wor
 
 9.  Select one of the following options.
 
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d106788e249">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d107015e249">
 
 Action
 
-</th><th align="left" id="d106788e252">
+</th><th align="left" id="d107015e252">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d106788e258">
+</th></tr></thead><tbody><tr><td id="d107015e258">
 
 **Decline dispute transaction**
 
@@ -86,7 +86,7 @@ Result
 2.  The next activity **Customer communication** is displayed. See [Manage customer communication](resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d106788e288">
+</td></tr><tr><td id="d107015e288">
 
 **Issue credit and write-off**
 
@@ -100,7 +100,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 .
 
-</td></tr><tr><td id="d106788e324">
+</td></tr><tr><td id="d107015e324">
 
 **Proceed with dispute**
 

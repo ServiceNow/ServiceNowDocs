@@ -64,15 +64,15 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 3.  When you're finished summarizing an incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d121547e230">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d121551e230">
 
 Option
 
-</th><th align="left" id="d121547e233">
+</th><th align="left" id="d121551e233">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d121547e239">
+</th></tr></thead><tbody><tr><td id="d121551e239">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -83,7 +83,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d121547e266">
+</td></tr><tr><td id="d121551e266">
 
 **Expand or collapse the summary**
 
@@ -91,7 +91,7 @@ Procedure
 
 Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) to view the complete summary or the collapse card icon \(![collapse card icon.](../image/icon-collapse.png)\) to view a collapsed summary.
 
-</td></tr><tr><td id="d121547e287">
+</td></tr><tr><td id="d121551e287">
 
 **Provide feedback for the summary**
 
@@ -99,7 +99,7 @@ Select the expand card icon \(![expand card icon.](../image/icon-expand.png)\) t
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d121547e310">
+</td></tr><tr><td id="d121551e310">
 
 **Copy the incident summary**
 
@@ -107,7 +107,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 If you want to reuse the summary, select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\).
 
-</td></tr><tr><td id="d121547e326">
+</td></tr><tr><td id="d121551e326">
 
 **View the information about the incident summary**
 

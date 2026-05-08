@@ -29,15 +29,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim case and task in one of the following ways.
 
-<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d31593e89">
+<table id="choicetable_qdb_ln1_vcc"><thead><tr><th align="left" id="d31597e89">
 
 Option
 
-</th><th align="left" id="d31593e92">
+</th><th align="left" id="d31597e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d31593e98">
+</th></tr></thead><tbody><tr><td id="d31597e98">
 
 **From the landing page**
 
@@ -45,7 +45,7 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d31593e107">
+</td></tr><tr><td id="d31597e107">
 
 **From the case playbook**
 
@@ -59,7 +59,7 @@ Select an active case from the My pending tasks or My open claims list.
 -   Under one of the following stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d31593e156">
+</td></tr><tr><td id="d31597e156">
 
 **From an insurance claim case**
 
@@ -72,7 +72,7 @@ Select an active case from the My pending tasks or My open claims list.
 -   In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d31593e204">
+</td></tr><tr><td id="d31597e204">
 
 **From the Insurance claim case tasks list**
 

@@ -4,7 +4,7 @@ description: The Domain Visibility AI agent enables Domain Admins to manage user
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 3
 breadcrumb: [Platform AI agents, Now Assist AI assets, Enable AI experiences]
 ---

@@ -49,15 +49,15 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 4.  When you're finished summarizing an incident, you can add it to the incident work notes, expand or collapse it, provide feedback, copy it, or view information about the incident.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d300589e232">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d304011e232">
 
 Option
 
-</th><th align="left" id="d300589e235">
+</th><th align="left" id="d304011e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d300589e241">
+</th></tr></thead><tbody><tr><td id="d304011e241">
 
 **Save the summary information by adding it to the work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d300589e268">
+</td></tr><tr><td id="d304011e268">
 
 **Expand or collapse the summary**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../../human-resources/image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../../human-resources/image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d300589e289">
+</td></tr><tr><td id="d304011e289">
 
 **Provide feedback for the summary**
 
@@ -84,7 +84,7 @@ Select the expand card icon \(![Expand card icon.](../../human-resources/image/i
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../../human-resources/image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../../human-resources/image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d300589e312">
+</td></tr><tr><td id="d304011e312">
 
 **Copy the case summary**
 
@@ -92,7 +92,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../human-resources/image/icon-copy.png)\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d300589e328">
+</td></tr><tr><td id="d304011e328">
 
 **Refresh the summary**
 
@@ -100,7 +100,7 @@ Select the copy to clipboard icon \(![Copy to clipboard icon.](../../human-resou
 
 Select the refresh icon \(![Refresh icon.](../../legal-matter-management/image/refresh-list-icon.png)\) to summarize the request again.
 
-</td></tr><tr><td id="d300589e343">
+</td></tr><tr><td id="d304011e343">
 
 **View the information about the case summary**
 

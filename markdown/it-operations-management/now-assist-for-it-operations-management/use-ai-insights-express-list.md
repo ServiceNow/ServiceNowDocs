@@ -51,15 +51,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d123145e213">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d123231e213">
 
 Review AI insights
 
-</th><th align="left" id="d123145e216">
+</th><th align="left" id="d123231e216">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d123145e222">
+</th></tr></thead><tbody><tr><td id="d123231e222">
 
 **Check for the AI Insights badge for alert status**
 
@@ -69,7 +69,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d123145e245">
+</td></tr><tr><td id="d123231e245">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -77,7 +77,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](../../service-operations-workspace-itom/task/el-free-text-search.md).
 
-</td></tr><tr><td id="d123145e261">
+</td></tr><tr><td id="d123231e261">
 
 **Filter using AI Insights filter attribute**
 
@@ -85,7 +85,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](../../service-operations-workspace-itom/concept/filter-express-list.md).
 
-</td></tr><tr><td id="d123145e280">
+</td></tr><tr><td id="d123231e280">
 
 **Review AI insights in the preview panel**
 
@@ -96,7 +96,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If data isn’t available for this alert, you can initiate the process by selecting **Generate**.
 
 
-</td></tr><tr><td id="d123145e323">
+</td></tr><tr><td id="d123231e323">
 
 **Review AI Insights in the alert record overview**
 

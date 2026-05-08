@@ -168,7 +168,7 @@ Role required: admin.
 
 4.  In the line you added, make the following substitutions.
 
-<table id="choicetable_qnn_gnq_bvb"><tbody><tr><td id="d42921e466">
+<table id="choicetable_qnn_gnq_bvb"><tbody><tr><td id="d42925e466">
 
 **&lt;Time\_Period\_Name&gt;**
 
@@ -176,7 +176,7 @@ Role required: admin.
 
 A unique name for the time period selected. This string is used internally by the system to identify the option and is set to something that can be descriptive of the time period described.Enter the value `112_Last Fortnight`.
 
-</td></tr><tr><td id="d42921e481">
+</td></tr><tr><td id="d42925e481">
 
 **&lt;Beginning\_Time\_Period&gt;**
 
@@ -184,7 +184,7 @@ A unique name for the time period selected. This string is used internally by th
 
 The specific date and time on which this filter starts. This value can use absolute or relative values. It’s much more common to use a relative value that uses the JavaScript URL syntax.Enter the value `gs.daysAgoStart(14)` to indicate that the time interval for this selection should be exactly two weeks ago.
 
-</td></tr><tr><td id="d42921e496">
+</td></tr><tr><td id="d42925e496">
 
 **&lt;Ending\_Time\_Period&gt;**
 
@@ -192,7 +192,7 @@ The specific date and time on which this filter starts. This value can use absol
 
 The specific date and time on which the time period for this filter option should end. This value can also use absolute or relative values. Similar to the **Beginning\_Time\_Period** this value is usually a relative time period to use the JavaScript URL syntax.Enter the value `gs.daysAgoStart(0)` to indicate that the time period ends at the current date and time.
 
-</td></tr><tr><td id="d42921e514">
+</td></tr><tr><td id="d42925e514">
 
 **&lt;Textual\_Representation\_Of\_Time\_Period&gt;**
 

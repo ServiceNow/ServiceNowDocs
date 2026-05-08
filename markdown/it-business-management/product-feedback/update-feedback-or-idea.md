@@ -33,15 +33,15 @@ Modify feedback or product idea records within the list view or side panel using
 
 3.  Update the record details, attach files, or delete the feedback or product idea record.
 
-<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d252117e88">
+<table id="choicetable_yky_q3f_tzb"><thead><tr><th align="left" id="d253009e88">
 
 Choice
 
-</th><th align="left" id="d252117e91">
+</th><th align="left" id="d253009e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d252117e97">
+</th></tr></thead><tbody><tr><td id="d253009e97">
 
 **Update feedback or product idea record**
 
@@ -51,7 +51,7 @@ Double-click on the feedback or product idea field on the grid to make inline ed
 
  **Note:** You can’t make inline edits for read-only fields.
 
-</td></tr><tr><td id="d252117e135">
+</td></tr><tr><td id="d253009e135">
 
 **Add worknotes or attachments**
 
@@ -63,7 +63,7 @@ From the full details page:
 -   Compose work notes and select **Post Work notes**.
 
 
-</td></tr><tr><td id="d252117e161">
+</td></tr><tr><td id="d253009e161">
 
 **Delete feedback or product idea record**
 

@@ -57,15 +57,15 @@ The following procedure is applicable to the use of Emergency Outreach as a stan
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d445795e238">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d450151e238">
 
 Option
 
-</th><th align="left" id="d445795e241">
+</th><th align="left" id="d450151e241">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d445795e247">
+</th></tr></thead><tbody><tr><td id="d450151e247">
 
 **To send the notification on demand**
 
@@ -73,7 +73,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d445795e265">
+</td></tr><tr><td id="d450151e265">
 
 **To schedule the notification**
 
@@ -98,15 +98,15 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  To identify who will receive the outreach, perform one of the following actions.
 
-<table id="choicetable_cfs_ms2_jmb"><thead><tr><th align="left" id="d445795e366">
+<table id="choicetable_cfs_ms2_jmb"><thead><tr><th align="left" id="d450151e366">
 
 Installed apps
 
-</th><th align="left" id="d445795e369">
+</th><th align="left" id="d450151e369">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d445795e375">
+</th></tr></thead><tbody><tr><td id="d450151e375">
 
 **Emergency Outreach standalone**
 
@@ -114,7 +114,7 @@ Action
 
 On the **Select targeted audience** tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.For more information, see [Add a Safe Workplace audience](../../employee-readiness-core/task/add-safe-workplace-audience.md).
 
-</td></tr><tr><td id="d445795e405">
+</td></tr><tr><td id="d450151e405">
 
 **With Safe Workplace**
 
@@ -131,15 +131,15 @@ On the Safe Workplace Audience tab, select the name of the audience to send the 
 
 8.  On the **Content configuration** tab, specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d445795e457">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d450151e457">
 
 Option
 
-</th><th align="left" id="d445795e460">
+</th><th align="left" id="d450151e460">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d445795e466">
+</th></tr></thead><tbody><tr><td id="d450151e466">
 
 **Disable the email notification**
 
@@ -147,7 +147,7 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d445795e478">
+</td></tr><tr><td id="d450151e478">
 
 **Select a different notification**
 
@@ -155,7 +155,7 @@ Clear the **Email** check box.
 
 Click the lookup icon \(![Click icon to look up a notification](../../contact-tracing/image/icon-lookup.png)\) and select the notification to use.
 
-</td></tr><tr><td id="d445795e493">
+</td></tr><tr><td id="d450151e493">
 
 **Review and edit the introductory message**
 
@@ -163,7 +163,7 @@ Click the lookup icon \(![Click icon to look up a notification](../../contact-tr
 
 Modify the subject and body as desired. The default message template asks users to submit their health status regarding infectious diseases, such as COVID-19. The user selects a response from a list of possible responses.
 
-</td></tr><tr><td id="d445795e505">
+</td></tr><tr><td id="d450151e505">
 
 **Send a mobile push notification**
 
@@ -176,7 +176,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d445795e535">
+</td></tr><tr><td id="d450151e535">
 
 **Send an SMS notification**
 
@@ -190,7 +190,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 3.  Click **Save**.
  SMS reply options are dynamically populated from the Response Options \[sn\_imt\_checkin\_response\_option\] table.
 
-</td></tr><tr><td id="d445795e573">
+</td></tr><tr><td id="d450151e573">
 
 **Use a custom notification channel**
 

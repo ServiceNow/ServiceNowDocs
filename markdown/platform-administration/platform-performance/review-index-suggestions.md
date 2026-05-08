@@ -6,7 +6,7 @@ release: australia
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -35,7 +35,7 @@ Access index suggestions from the Application Navigator or the Performance homep
 
 4.  Choose the next processing step for the index suggestion.
 
-<table id="choicetable_msd_x4k_tz"><tbody><tr><td id="d177912e106">
+<table id="choicetable_msd_x4k_tz"><tbody><tr><td id="d179414e106">
 
 **Export**
 
@@ -43,7 +43,7 @@ Access index suggestions from the Application Navigator or the Performance homep
 
 Downloads the index suggestion as an .xml file, which can be [exported to a non-production instance for testing and evaluation](export-index-suggestion.md).
 
-</td></tr><tr><td id="d177912e132">
+</td></tr><tr><td id="d179414e132">
 
 **Ignore**
 
@@ -51,7 +51,7 @@ Downloads the index suggestion as an .xml file, which can be [exported to a non-
 
 Changes the index suggestion state to ignore, which indicates the index suggestion is no longer active and available for index creation. Index suggestions with an Ignore state are listed in the **Index Suggestions &gt; Done** view of the Index Suggestion table.
 
-</td></tr><tr><td id="d177912e144">
+</td></tr><tr><td id="d179414e144">
 
 **Schedule creation**
 

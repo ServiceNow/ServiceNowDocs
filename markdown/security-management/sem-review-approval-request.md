@@ -4,7 +4,7 @@ description: Review an approval request form to perform the required action acco
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---

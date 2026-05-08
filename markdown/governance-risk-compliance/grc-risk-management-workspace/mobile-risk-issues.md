@@ -50,15 +50,15 @@ Edit or assign an issue from the list of records. Alternatively, add or work not
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d333971e200">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d338139e200">
 
 Option
 
-</th><th align="left" id="d333971e203">
+</th><th align="left" id="d338139e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d333971e209">
+</th></tr></thead><tbody><tr><td id="d338139e209">
 
 **Details tab**
 
@@ -73,7 +73,7 @@ Tap the **Control/Risk** field to expand it. A list of Risk records is displayed
 -   At the top right of the screen with the Issue screen displayed, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d333971e250">
+</td></tr><tr><td id="d338139e250">
 
 **Activity Stream tab**
 
@@ -83,7 +83,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d333971e280">
+</td></tr><tr><td id="d338139e280">
 
 **Related List tab**
 
@@ -94,7 +94,7 @@ With the Related List tab selected, follow these steps.1.  Tap **Remediation Tas
 3.  After your review, with navigate back to the issue record and tap the menu \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d333971e310">
+</td></tr><tr><td id="d338139e310">
 
 **Tap a screen icon at the bottom of the screen.**
 

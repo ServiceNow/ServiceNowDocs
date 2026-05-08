@@ -31,15 +31,15 @@ Setting the planned disposition of a business application results in better data
 
 4.  Select the bubble for the relevant application that you want to set the planned disposition for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d45471e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d45475e92">
 
 Bubble type
 
-</th><th align="left" id="d45471e95">
+</th><th align="left" id="d45475e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d45471e101">
+</th></tr></thead><tbody><tr><td id="d45475e101">
 
 **Single bubble**
 
@@ -50,7 +50,7 @@ Action
 
 ![Set planned disposition button highlighted.](../../image/eaw-image/bubble-chart-menu-set-planned-disposition.png)
 
-</td></tr><tr><td id="d45471e139">
+</td></tr><tr><td id="d45475e139">
 
 **Grouped bubble**
 

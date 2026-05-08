@@ -23,15 +23,15 @@ Role required: admin
 
 1.  Access Upgrade Console in one of the following ways.
 
-<table id="choicetable_psc_rtj_qfc"><thead><tr><th align="left" id="d174872e57">
+<table id="choicetable_psc_rtj_qfc"><thead><tr><th align="left" id="d176374e57">
 
 Option
 
-</th><th align="left" id="d174872e60">
+</th><th align="left" id="d176374e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d174872e66">
+</th></tr></thead><tbody><tr><td id="d176374e66">
 
 **Using the application navigator**
 
@@ -39,7 +39,7 @@ Navigation
 
 Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d174872e87">
+</td></tr><tr><td id="d176374e87">
 
 **Using Admin tab option**
 
@@ -47,7 +47,7 @@ Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console**.
 
 Navigate to **Admin** &gt; **Upgrade Console**.
 
-</td></tr><tr><td id="d174872e105">
+</td></tr><tr><td id="d176374e105">
 
 **Using Admin tab and Admin Home option**
 
@@ -64,15 +64,15 @@ Navigate to **Admin** &gt; **Upgrade Console**.
 
 2.  Access the guided upgrade in one of the following ways.
 
-<table id="choicetable_rsc_rtj_qfc"><thead><tr><th align="left" id="d174872e156">
+<table id="choicetable_rsc_rtj_qfc"><thead><tr><th align="left" id="d176374e156">
 
 Option
 
-</th><th align="left" id="d174872e159">
+</th><th align="left" id="d176374e159">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d174872e165">
+</th></tr></thead><tbody><tr><td id="d176374e165">
 
 **Using Get started button__Note:__ This option is available only when you haven't started the upgrade yet.
 
@@ -84,7 +84,7 @@ Steps
 2.  Select the Guided upgrade version that you want to implement on your instance.
 
 
-</td></tr><tr><td id="d174872e188">
+</td></tr><tr><td id="d176374e188">
 
 **Using Guided upgrade tab option__Note:__ This tab is visible only if there’s an ongoing upgrade in the instance.
 

@@ -32,15 +32,15 @@ Update the details of a planning item using the Prioritization and Hierarchy tab
 
 3.  Update item details, attach files to the item, or delete the item.
 
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d200027e113">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d200650e113">
 
 Choice
 
-</th><th align="left" id="d200027e116">
+</th><th align="left" id="d200650e116">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d200027e122">
+</th></tr></thead><tbody><tr><td id="d200650e122">
 
 **Update planning item details**
 
@@ -54,7 +54,7 @@ Edit using one of the following ways:
 
  For field information, see [Planning item form](../../alignment-planner-workspace/reference/planning-item-form.md).
 
-</td></tr><tr><td id="d200027e159">
+</td></tr><tr><td id="d200650e159">
 
 **Attach files to planning item**
 
@@ -62,7 +62,7 @@ Edit using one of the following ways:
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d200027e174">
+</td></tr><tr><td id="d200650e174">
 
 **Delete planning item**
 

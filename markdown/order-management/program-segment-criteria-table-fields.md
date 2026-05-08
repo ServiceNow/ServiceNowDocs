@@ -4,7 +4,7 @@ description: You can establish a mapping between the program segment mapping tab
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---

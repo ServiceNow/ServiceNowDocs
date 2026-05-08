@@ -53,15 +53,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d572455e236">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d577918e236">
 
 Option
 
-</th><th align="left" id="d572455e239">
+</th><th align="left" id="d577918e239">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d572455e245">
+</th></tr></thead><tbody><tr><td id="d577918e245">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -72,7 +72,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d572455e272">
+</td></tr><tr><td id="d577918e272">
 
 **Provide feedback for the summary**
 

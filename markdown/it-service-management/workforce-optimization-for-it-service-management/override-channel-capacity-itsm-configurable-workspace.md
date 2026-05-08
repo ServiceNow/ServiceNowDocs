@@ -31,15 +31,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d221280e87">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d221462e87">
 
 To set the override capacity
 
-</th><th align="left" id="d221280e90">
+</th><th align="left" id="d221462e90">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d221280e96">
+</th></tr></thead><tbody><tr><td id="d221462e96">
 
 **From Channels**
 
@@ -50,7 +50,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d221280e120">
+</td></tr><tr><td id="d221462e120">
 
 **From Teams**
 

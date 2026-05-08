@@ -886,7 +886,7 @@ ServiceNow AI Platform
     -   [RenderProperties - Scoped](../../../app-store/dev_portal/API_reference/RenderPropertiesScoped/concept/RenderProperties-Scoped-API.md#)
     -   [RequestAuthAPI - Scoped](../../../app-store/dev_portal/API_reference/RequestAuthAPI/concept/RequestAuthAPI.md#)
     -   [ResponseTemplate - Scoped, Global](../../../app-store/dev_portal/API_reference/ResponseTemplate/concept/ResponseTemplateAPI.md#)
-    -   [../../../Chunk13151134.md\#](../../../Chunk13151134.md#)
+    -   [../../../Chunk544291124.md\#](../../../Chunk544291124.md#)
     -   [RESTAPIRequestBody - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceRequestBody/concept/c_ScriptableServiceRequestBody.md#)
     -   [RESTAPIResponse - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceResponseBuilder/concept/c_ScriptableServiceResponseBuilder.md#)
     -   [RESTAPIResponseStream - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceResponseStreamWriter/concept/c_ScriptableServiceRespStreamWriter.md#)

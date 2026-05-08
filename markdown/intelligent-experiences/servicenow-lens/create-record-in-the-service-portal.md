@@ -57,15 +57,15 @@ Role required: lens\_user
 
 9.  Perform any one of the set of steps given below.
 
-<table id="choicetable_eml_wsz_33c"><thead><tr><th align="left" id="d55873e181">
+<table id="choicetable_eml_wsz_33c"><thead><tr><th align="left" id="d56223e181">
 
 Method
 
-</th><th align="left" id="d55873e184">
+</th><th align="left" id="d56223e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d55873e190">
+</th></tr></thead><tbody><tr><td id="d56223e190">
 
 **Extract data from a single screenshot and auto-fill the form**
 
@@ -83,7 +83,7 @@ ServiceNow AI Lens confirms that the catalog item form is filled.
 
 ![New vendor registration form filled.](../image/lens-new-vendor-reg-form-filled.png "New Vendor Registration form fields auto-filled")
 
-</td></tr><tr><td id="d55873e254">
+</td></tr><tr><td id="d56223e254">
 
 **Extract data from multiple screenshots and auto-fill the form**
 
@@ -134,15 +134,15 @@ The catalog item form is auto-filled.
 
     Only the field types that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If the form doesn't have field types that are supported, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](../reference/field-types-supported.md).
 
-<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d55873e461">
+<table id="choicetable_g1q_l32_2hc"><thead><tr><th align="left" id="d56223e461">
 
 Option
 
-</th><th align="left" id="d55873e464">
+</th><th align="left" id="d56223e464">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d55873e470">
+</th></tr></thead><tbody><tr><td id="d56223e470">
 
 **If the auto-filled text looks good**
 
@@ -150,7 +150,7 @@ Action
 
 Save the record by selecting **Submit**.
 
-</td></tr><tr><td id="d55873e482">
+</td></tr><tr><td id="d56223e482">
 
 **If the auto-filled text requires changes**
 

@@ -4,7 +4,7 @@ description: Suspend sold products to create a suspend order or quote on the CSM
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 4
 breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---

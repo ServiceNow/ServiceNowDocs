@@ -51,7 +51,7 @@ This task refers to the Australia release using Core UI.
 
 4.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d212976e292">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d213047e292">
 
 **Data source**
 
@@ -59,7 +59,7 @@ This task refers to the Australia release using Core UI.
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d212976e311">
+</td></tr><tr><td id="d213047e311">
 
 **Table**
 
@@ -67,7 +67,7 @@ Also called a report source, a data source is a table with filters applied to pr
 
 The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
 
-</td></tr><tr><td id="d212976e330">
+</td></tr><tr><td id="d213047e330">
 
 **External import**
 
@@ -75,7 +75,7 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d212976e355">
+</td></tr><tr><td id="d213047e355">
 
 **MetricBase**
 

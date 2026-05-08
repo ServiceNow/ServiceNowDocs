@@ -51,15 +51,15 @@ For more information on Now Assist Guardian, see [Now Assist Guardian](https://w
 
     Now Assist Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d166762e226">
+<table id="choicetable_bs2_qzh_w3c"><thead><tr><th align="left" id="d167112e226">
 
 Guardrail
 
-</th><th align="left" id="d166762e229">
+</th><th align="left" id="d167112e229">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166762e235">
+</th></tr></thead><tbody><tr><td id="d167112e235">
 
 **Prompt injection detection**
 
@@ -71,7 +71,7 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://www.servicenow.com/docs/access?context=configure-prompt-injection-attack-protection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-</td></tr><tr><td id="d166762e260">
+</td></tr><tr><td id="d167112e260">
 
 **Offensiveness detection**
 
@@ -83,7 +83,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://www.servicenow.com/docs/access?context=activate-offensiveness-protection-for-generative-ai&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-</td></tr><tr><td id="d166762e288">
+</td></tr><tr><td id="d167112e288">
 
 **Sensitive topic filters**
 

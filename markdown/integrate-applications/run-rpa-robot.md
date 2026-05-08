@@ -54,15 +54,15 @@ In this task, you can run an unattended robot in two ways.
 
 1.  To run an unattended robot, do any one of the following actions.
 
-<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d226965e264">
+<table id="choicetable_ag1_lyx_jrb"><thead><tr><th align="left" id="d227361e264">
 
 Option
 
-</th><th align="left" id="d226965e267">
+</th><th align="left" id="d227361e267">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d226965e273">
+</th></tr></thead><tbody><tr><td id="d227361e273">
 
 **Based on the schedule you define in the bot process**
 
@@ -75,7 +75,7 @@ The Unattended Robot runs the execution based on the schedule defined.
 
  For more information about the scheduled and manual triggers, see [Execution priority of bot processes in RPA Hub](../../rpa-hub/concept/bot-process-prioritization-order-rpa-hub.md).
 
-</td></tr><tr><td id="d226965e332">
+</td></tr><tr><td id="d227361e332">
 
 **Based on the API via Start Process subflow**
 

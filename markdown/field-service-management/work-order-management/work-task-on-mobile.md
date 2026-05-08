@@ -39,15 +39,15 @@ Administrators can enable push notifications in Studio. For information on setti
 
 5.  Perform any of the following actions.
 
-<table id="choicetable_jsf_24s_4fb"><thead><tr><th align="left" id="d148860e130">
+<table id="choicetable_jsf_24s_4fb"><thead><tr><th align="left" id="d148864e130">
 
 Option
 
-</th><th align="left" id="d148860e133">
+</th><th align="left" id="d148864e133">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d148860e139">
+</th></tr></thead><tbody><tr><td id="d148864e139">
 
 **To start traveling to the job site**
 
@@ -65,7 +65,7 @@ Perform one of the following actions:-   To record your travel start time using 
     -   The **Start Travel** button transforms into**Check-In** before initiating check-in actions. The **Check-In** option is visible only when the `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md).
 
 
-</td></tr><tr><td id="d148860e213">
+</td></tr><tr><td id="d148864e213">
 
 **To check-in at job site before starting work**
 
@@ -78,7 +78,7 @@ Tap **Check-In** after reaching the destination.**Note:**
 -   A notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](../concept/Configuring-cust-exp.md#).
 
 
-</td></tr><tr><td id="d148860e254">
+</td></tr><tr><td id="d148864e254">
 
 **To start directly working on the task with automatic check-in**
 
@@ -98,7 +98,7 @@ Perform one of the following actions:-   To record the work start time using the
 -   Tap **Quick Actions** and update your status to **On break** if you want to take a break from the task or **Off Shift** if you are out of your shift time.
 
 
-</td></tr><tr><td id="d148860e318">
+</td></tr><tr><td id="d148864e318">
 
 **To change the expected start or estimated end time for the task**
 

@@ -25,15 +25,15 @@ Role required: sn\_eam\_provider.provider\_asset\_manager
 
 2.  Open the RMA response order lines list.
 
-<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d209053e78">
+<table id="choicetable_my1_vjg_bhc"><thead><tr><th align="left" id="d209167e78">
 
 Navigation option
 
-</th><th align="left" id="d209053e81">
+</th><th align="left" id="d209167e81">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d209053e87">
+</th></tr></thead><tbody><tr><td id="d209167e87">
 
 **Provider RMA response order**
 
@@ -44,7 +44,7 @@ Procedure
 3.  On the RMA response order record, select the **RMA response order lines** tab.
 
 
-</td></tr><tr><td id="d209053e120">
+</td></tr><tr><td id="d209167e120">
 
 **Provider RMA response order line**
 

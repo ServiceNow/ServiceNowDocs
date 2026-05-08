@@ -4,7 +4,7 @@ description: Duplicate existing line items to another location using Copy on the
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Location-based transactions, Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---
@@ -29,15 +29,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d128131e99">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d128163e99">
 
 Option
 
-</th><th align="left" id="d128131e102">
+</th><th align="left" id="d128163e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128131e108">
+</th></tr></thead><tbody><tr><td id="d128163e108">
 
 **Keep original location**
 
@@ -45,7 +45,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d128131e117">
+</td></tr><tr><td id="d128163e117">
 
 **Choose new location**
 

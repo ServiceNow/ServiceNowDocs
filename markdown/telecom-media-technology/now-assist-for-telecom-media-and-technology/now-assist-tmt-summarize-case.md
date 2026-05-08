@@ -54,15 +54,15 @@ If there is enough data, the Service Problem Case summary component displays the
 
 4.  After you're finished summarizing a service problem case, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d35461e168">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d35465e168">
 
 Option
 
-</th><th align="left" id="d35461e171">
+</th><th align="left" id="d35465e171">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d35461e177">
+</th></tr></thead><tbody><tr><td id="d35465e177">
 
 **View more or less summary details**
 
@@ -72,7 +72,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
 
 
-</td></tr><tr><td id="d35461e207">
+</td></tr><tr><td id="d35465e207">
 
 **Provide feedback for the summary**
 
@@ -82,7 +82,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d35461e240">
+</td></tr><tr><td id="d35465e240">
 
 **Copy the case summary**
 
@@ -90,7 +90,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the service problem case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d35461e255">
+</td></tr><tr><td id="d35465e255">
 
 **View the information about the case summary**
 

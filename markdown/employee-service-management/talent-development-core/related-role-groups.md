@@ -35,15 +35,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 6.  Either create your related role group manually or by selecting from the recommendations.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d213293e118">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d215434e118">
 
 Method
 
-</th><th align="left" id="d213293e121">
+</th><th align="left" id="d215434e121">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d213293e127">
+</th></tr></thead><tbody><tr><td id="d215434e127">
 
 **Add from recommendations**
 
@@ -58,7 +58,7 @@ After linking, the role groups are not displayed in the recommendations list.
 
 **Note:** The recommendation panel is only displayed if data is available in the sn\_skills\_int\_role\_level\_m2m\_ind\_title table.
 
-</td></tr><tr><td id="d213293e163">
+</td></tr><tr><td id="d215434e163">
 
 **Manually**
 

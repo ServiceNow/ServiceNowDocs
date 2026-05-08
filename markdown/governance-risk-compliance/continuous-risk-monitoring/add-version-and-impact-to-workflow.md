@@ -6,7 +6,7 @@ release: australia
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Workflow configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---

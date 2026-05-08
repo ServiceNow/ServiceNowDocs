@@ -31,15 +31,15 @@ This video shows you how to add a step, section, or question to a catalog item w
 
 3.  Add steps, sections, or questions to the Catalog Builder wizard.
 
-<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d581508e93">
+<table id="choicetable_stn_4yc_vtb"><thead><tr><th align="left" id="d585034e93">
 
 Option
 
-</th><th align="left" id="d581508e96">
+</th><th align="left" id="d585034e96">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d581508e102">
+</th></tr></thead><tbody><tr><td id="d585034e102">
 
 **Create a step**
 
@@ -53,7 +53,7 @@ For a description of the field values, see [Fields in Service Catalog Wizard for
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d581508e140">
+</td></tr><tr><td id="d585034e140">
 
 **Create a section**
 

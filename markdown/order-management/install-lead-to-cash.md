@@ -4,7 +4,7 @@ description: If you have the admin role, you can install the Lead to Cash Core a
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Install and configure Lead to Cash Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
@@ -46,15 +46,15 @@ The following items are installed with Lead to cash core application:
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d57410e154">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d57442e154">
 
 Demo data install task
 
-</th><th align="left" id="d57410e157">
+</th><th align="left" id="d57442e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d57410e163">
+</th></tr></thead><tbody><tr><td id="d57442e163">
 
 **If demo data is available and you want to install it**
 
@@ -64,7 +64,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d57410e193">
+</td></tr><tr><td id="d57442e193">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

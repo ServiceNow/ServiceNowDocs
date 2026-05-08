@@ -4,7 +4,7 @@ description: Configure the Partner program deal type relationship \(sn\_prm\_dr\
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Configure Deal Registration Type table, Data model for Deal Registration Management, Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

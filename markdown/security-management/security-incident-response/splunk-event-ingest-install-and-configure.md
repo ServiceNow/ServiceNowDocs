@@ -31,15 +31,15 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d238690e135">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d240045e135">
 
 Field
 
-</th><th align="left" id="d238690e138">
+</th><th align="left" id="d240045e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d238690e144">
+</th></tr></thead><tbody><tr><td id="d240045e144">
 
 **Name**
 
@@ -47,7 +47,7 @@ Description
 
 Name of the Splunk Enterprise console or Splunk Cloud instance used for the integration.Spaces are supported for names, but parentheses are not supported. For example, enter `HQ-USA`, or `HQ USA`.
 
-</td></tr><tr><td id="d238690e168">
+</td></tr><tr><td id="d240045e168">
 
 **Splunk API Base URL**
 
@@ -55,7 +55,7 @@ Name of the Splunk Enterprise console or Splunk Cloud instance used for the inte
 
 URL for your Splunk Enterprise console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d238690e183">
+</td></tr><tr><td id="d240045e183">
 
 **Basic Authentication**
 
@@ -63,7 +63,7 @@ URL for your Splunk Enterprise console or Splunk Cloud instance.
 
 Default is disabled.If you are using API Account User Name and API Password for configuration, enable the check box.
 
-</td></tr><tr><td id="d238690e195">
+</td></tr><tr><td id="d240045e195">
 
 **API Account User Name**
 
@@ -71,7 +71,7 @@ Default is disabled.If you are using API Account User Name and API Password for 
 
 User name that you created for your individual user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d238690e208">
+</td></tr><tr><td id="d240045e208">
 
 **API Password**
 
@@ -79,7 +79,7 @@ User name that you created for your individual user account on the Splunk Enterp
 
 Password that you created for your individual user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d238690e220">
+</td></tr><tr><td id="d240045e220">
 
 **Token Based \(available from version 12.0.0\)**
 
@@ -87,7 +87,7 @@ Password that you created for your individual user account on the Splunk Enterpr
 
 Token based authentication that you created for your API user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d238690e235">
+</td></tr><tr><td id="d240045e235">
 
 **Token**
 
@@ -95,7 +95,7 @@ Token based authentication that you created for your API user account on the Spl
 
 Token that you created for your API user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d238690e247">
+</td></tr><tr><td id="d240045e247">
 
 **MID Server**
 
@@ -103,7 +103,7 @@ Token that you created for your API user account on the Splunk Enterprise consol
 
 Specific MID Server that is set up in your environment. Only MID Servers that are active and validated are available from this choice list.
 
-</td></tr><tr><td id="d238690e256">
+</td></tr><tr><td id="d240045e256">
 
 **On Premises Deployment**
 

@@ -47,15 +47,15 @@ Role required: admin
     -   You don’t need to add the header and footer of the sitemap XML. These are added automatically when the sitemap is generated.
 6.  In the **Type** field of the UX Sitemap Definition form, select one of the following options to define the contents of the sitemap either with a script or by specifying static URL elements.
 
-<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d117896e211">
+<table id="choicetable_fff_fps_gtb"><thead><tr><th align="left" id="d126519e211">
 
 Type
 
-</th><th align="left" id="d117896e214">
+</th><th align="left" id="d126519e214">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117896e220">
+</th></tr></thead><tbody><tr><td id="d126519e220">
 
 **Script**
 
@@ -65,7 +65,7 @@ Dynamically generate the content from a script.
 
  **Note:** If special characters such as &lt;,&gt;, &amp;, or " are included in URLs, you must replace them with their equivalent escape characters.
 
-</td></tr><tr><td id="d117896e235">
+</td></tr><tr><td id="d126519e235">
 
 **Static**
 

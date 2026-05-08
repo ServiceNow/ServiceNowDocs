@@ -6,7 +6,7 @@ release: australia
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 2
 breadcrumb: [Agile Development use cases, Exploring Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---

@@ -59,15 +59,15 @@ You can fix errors in individual application services at any time. When you perf
 
     Error resolution options vary, because they depend on the specific discovery error associated with the selected CI.
 
-<table id="choicetable_phf_4qd_41b"><thead><tr><th align="left" id="d452781e244">
+<table id="choicetable_phf_4qd_41b"><thead><tr><th align="left" id="d459141e244">
 
 Use this option
 
-</th><th align="left" id="d452781e247">
+</th><th align="left" id="d459141e247">
 
 To do this
 
-</th></tr></thead><tbody><tr><td id="d452781e253">
+</th></tr></thead><tbody><tr><td id="d459141e253">
 
 **Add Management IP**
 
@@ -75,7 +75,7 @@ To do this
 
 Enter the management IP to trigger discovery on the host resources and connections. Typically, you need this solution for application services that have undiscovered devices like load balancers as their entry points. The management IP address of a network device is the address that you use to reach the device using the SNMP or any other management protocol.**Note:** The system does not save the management IP you configure.
 
-</td></tr><tr><td id="d452781e265">
+</td></tr><tr><td id="d459141e265">
 
 **Create new WMI credentials**
 
@@ -83,7 +83,7 @@ Enter the management IP to trigger discovery on the host resources and connectio
 
 Open the Windows Credentials form and configure missing Windows credentials for the selected CI. See [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-</td></tr><tr><td id="d452781e278">
+</td></tr><tr><td id="d459141e278">
 
 **Create new SSH credentials**
 
@@ -91,7 +91,7 @@ Open the Windows Credentials form and configure missing Windows credentials for 
 
 Open the SSH Credentials form and configure missing SSH credentials for the selected CI. See [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-</td></tr><tr><td id="d452781e291">
+</td></tr><tr><td id="d459141e291">
 
 **Create new SSH private key**
 
@@ -99,7 +99,7 @@ Open the SSH Credentials form and configure missing SSH credentials for the sele
 
 Open the SSH private keys form and configure missing credentials for the selected CI. See [SSH private key credential type](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-</td></tr><tr><td id="d452781e305">
+</td></tr><tr><td id="d459141e305">
 
 **Create new SNMP credentials**
 
@@ -107,7 +107,7 @@ Open the SSH private keys form and configure missing credentials for the selecte
 
 Open the SNMP credentials form and configure missing SNMP credentials for the selected CI. See [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
 
-</td></tr><tr><td id="d452781e318">
+</td></tr><tr><td id="d459141e318">
 
 **Show Discovery Log**
 
@@ -115,7 +115,7 @@ Open the SNMP credentials form and configure missing SNMP credentials for the se
 
 See the log to understand at what stage an error occurred and what caused it.
 
-</td></tr><tr><td id="d452781e327">
+</td></tr><tr><td id="d459141e327">
 
 **Skip and resume**
 
@@ -123,7 +123,7 @@ See the log to understand at what stage an error occurred and what caused it.
 
 Manually add the CI whose discovery failed and configure attributes of the entry point from which Service Mapping continues discovery. For more information, see [Skip errors to continue discovering an application service](skip-errors-continue-discovery-individual-services.md).
 
-</td></tr><tr><td id="d452781e350">
+</td></tr><tr><td id="d459141e350">
 
 **Retry discovery**
 
@@ -131,7 +131,7 @@ Manually add the CI whose discovery failed and configure attributes of the entry
 
 Run the discovery process for the selected CI after trying to resolve a discovery error associated with it.
 
-</td></tr><tr><td id="d452781e359">
+</td></tr><tr><td id="d459141e359">
 
 **View affected services**
 

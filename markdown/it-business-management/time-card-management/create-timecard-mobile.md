@@ -33,15 +33,15 @@ The **Allow time card reporting on** field on the [project form](../../project-m
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d251684e101">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d252576e101">
 
 Time card type
 
-</th><th align="left" id="d251684e104">
+</th><th align="left" id="d252576e104">
 
 Option
 
-</th></tr></thead><tbody><tr><td id="d251684e110">
+</th></tr></thead><tbody><tr><td id="d252576e110">
 
 **All time cards for project and non-project tasks from a selected time sheet**
 
@@ -49,7 +49,7 @@ Option
 
 Tap Copy from previous time sheet
 
-</td></tr><tr><td id="d251684e119">
+</td></tr><tr><td id="d252576e119">
 
 **Time cards for all project tasks assigned to the user for the time sheet week that are in progress or planned in that week**
 
@@ -57,7 +57,7 @@ Tap Copy from previous time sheet
 
 Tap Generate time cards
 
-</td></tr><tr><td id="d251684e128">
+</td></tr><tr><td id="d252576e128">
 
 **Time card for assigned task**
 
@@ -68,7 +68,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d251684e152">
+</td></tr><tr><td id="d252576e152">
 
 **Time card for unassigned task**
 
@@ -79,7 +79,7 @@ Tap Generate time cards
 -   Tap **Add**.
 
 
-</td></tr><tr><td id="d251684e177">
+</td></tr><tr><td id="d252576e177">
 
 **Time card for operational work, such as administration, meeting, and KTLO**
 

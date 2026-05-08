@@ -29,15 +29,15 @@ When you select an event in the calendar or a specific data row, the contextual 
 
 2.  View territory or demand channel summary.
 
-<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d60660e88">
+<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d60664e88">
 
 To
 
-</th><th align="left" id="d60660e91">
+</th><th align="left" id="d60664e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d60660e97">
+</th></tr></thead><tbody><tr><td id="d60664e97">
 
 **View territory summary grouping by territory**
 
@@ -51,7 +51,7 @@ Do this
 3.  Select an event in the calendar to view the territory summary in the CSP.
 
 
-</td></tr><tr><td id="d60660e137">
+</td></tr><tr><td id="d60664e137">
 
 **View territory summary grouping by demand channel**
 
@@ -61,7 +61,7 @@ Do this
 2.  Select an event under the demand channel associated with the selected territory.
 
 
-</td></tr><tr><td id="d60660e161">
+</td></tr><tr><td id="d60664e161">
 
 **View each demand channel details by territory**
 

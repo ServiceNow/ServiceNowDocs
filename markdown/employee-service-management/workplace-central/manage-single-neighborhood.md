@@ -39,15 +39,15 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 6.  Manage the neighborhood based on your requirement.
 
-<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d160772e109">
+<table id="choicetable_d2c_yt5_g3c"><thead><tr><th align="left" id="d161933e109">
 
 Action
 
-</th><th align="left" id="d160772e112">
+</th><th align="left" id="d161933e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d160772e118">
+</th></tr></thead><tbody><tr><td id="d161933e118">
 
 **Add a space**
 
@@ -59,7 +59,7 @@ Steps
 4.  Select **Save**.
  **Important:** If you have Workplace Space Management installed, the Create New Space form contains fields from the `Space` form. For more information about the Space form, see [Add a space using Workplace Space Management](../../workplace-space-management/task/add-a-space.md).
 
-</td></tr><tr><td id="d160772e173">
+</td></tr><tr><td id="d161933e173">
 
 **Remove a space**
 
@@ -70,7 +70,7 @@ Steps
 3.  On the confirmation pop-up, select **Delete all**.
 
 
-</td></tr><tr><td id="d160772e203">
+</td></tr><tr><td id="d161933e203">
 
 **Export space details**
 
@@ -96,7 +96,7 @@ If you select email, you must enter the email address of the recipient.
 6.  Select **Export**.
 
 
-</td></tr><tr><td id="d160772e275">
+</td></tr><tr><td id="d161933e275">
 
 **Assign a workplace profile**
 
@@ -108,7 +108,7 @@ If you select email, you must enter the email address of the recipient.
 
 For a description of the field values, see [Workplace Profile Location Assignment form](../../workplace-service-delivery/reference/wsd-location-assignment-form.md).
 
-</td></tr><tr><td id="d160772e312">
+</td></tr><tr><td id="d161933e312">
 
 **Remove a workplace profile**
 
@@ -119,7 +119,7 @@ For a description of the field values, see [Workplace Profile Location Assignmen
 3.  On the confirmation pop-up, select **Delete all**.
 
 
-</td></tr><tr><td id="d160772e342">
+</td></tr><tr><td id="d161933e342">
 
 **Create a space assignment task**
 
@@ -134,7 +134,7 @@ For a description of the field values, see [Workplace Task form - Space Assignme
 4.  Select **Save**.
  **Note:** Assigning spaces based on the task can take several minutes.
 
-</td></tr><tr><td id="d160772e390">
+</td></tr><tr><td id="d161933e390">
 
 **Create a user assignment rule**
 

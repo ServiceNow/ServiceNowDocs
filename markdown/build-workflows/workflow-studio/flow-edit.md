@@ -41,7 +41,7 @@ As of the Washington DC release, flows open in a read-only state to protect them
 
     While editing a flow, your changes are automatically saved each time you select **Done** to close the configuration options. Each time the flow is saved, the Save indicator icon is updated.
 
-<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d79194e116">
+<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d79198e116">
 
 **Change the flow name, description, or roles**
 
@@ -49,7 +49,7 @@ As of the Washington DC release, flows open in a read-only state to protect them
 
 In the main header, select **Properties,** enter the values you want into the appropriate fields, then select **Update**.**Note:** You can’t change the application scope of a flow after you’ve saved it.
 
-</td></tr><tr><td id="d79194e134">
+</td></tr><tr><td id="d79198e134">
 
 **To edit the trigger**
 
@@ -57,7 +57,7 @@ In the main header, select **Properties,** enter the values you want into the ap
 
 In your flow, select the trigger description, fill in the fields as desired, then select **Done**.**Note:** Modifying triggers can result in the deletion of referenced action configurations.
 
-</td></tr><tr><td id="d79194e149">
+</td></tr><tr><td id="d79198e149">
 
 **To edit an existing action**
 
@@ -65,7 +65,7 @@ In your flow, select the trigger description, fill in the fields as desired, the
 
 In your flow, select the action description, fill in the fields as desired, then select **Done**.
 
-</td></tr><tr><td id="d79194e161">
+</td></tr><tr><td id="d79198e161">
 
 **To add a new action**
 
@@ -77,7 +77,7 @@ To add an action at the end of a flow, select the plus icon in the ACTION sectio
 
  **Important:** Workflow Studio displays an asterisks character beside any action, flow logic, or subflow that is missing any required field values. Open the action, flow logic, or subflow to add the required field values.
 
-</td></tr><tr><td id="d79194e182">
+</td></tr><tr><td id="d79198e182">
 
 **To undo the last edit**
 
@@ -89,7 +89,7 @@ Select **Undo last action** to revert your last change. ![UNdo last action icon.
 
 **Important:** The undo option is only available during your current user session. Closing the flow tab or the Workflow Studio browser tab ends your current user session and clears out your undo history.
 
-</td></tr><tr><td id="d79194e216">
+</td></tr><tr><td id="d79198e216">
 
 **To redo the last undo**
 

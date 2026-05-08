@@ -4,7 +4,7 @@ description: Track the status of Sales CRM workflows and enable agents to trac
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 3
 breadcrumb: [Sales and Service API Core, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

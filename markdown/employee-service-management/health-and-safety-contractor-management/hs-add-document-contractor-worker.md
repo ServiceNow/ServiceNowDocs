@@ -25,15 +25,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator or sn\_ohs\_im.document\_writ
 
 2.  Open a contractor worker record to add the document to.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d432688e73">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d437044e73">
 
 Option
 
-</th><th align="left" id="d432688e76">
+</th><th align="left" id="d437044e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d432688e82">
+</th></tr></thead><tbody><tr><td id="d437044e82">
 
 **From a contractor company record**
 
@@ -45,7 +45,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to add the document to.
 
 
-</td></tr><tr><td id="d432688e127">
+</td></tr><tr><td id="d437044e127">
 
 **From Health and Safety user profile list**
 

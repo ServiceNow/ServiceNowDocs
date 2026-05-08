@@ -29,15 +29,15 @@ Role required: admin
 
 4.  Configure the add-in.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d323147e100">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d326569e100">
 
 System
 
-</th><th align="left" id="d323147e103">
+</th><th align="left" id="d326569e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d323147e109">
+</th></tr></thead><tbody><tr><td id="d326569e109">
 
 **macOS**
 
@@ -51,7 +51,7 @@ Steps
 6.  Navigate to the menu **Home**.
 
 
-</td></tr><tr><td id="d323147e162">
+</td></tr><tr><td id="d326569e162">
 
 **Windows**
 
@@ -65,7 +65,7 @@ Steps
 6.  Navigate to the **Home** menu.
 
 
-</td></tr><tr><td id="d323147e219">
+</td></tr><tr><td id="d326569e219">
 
 **Microsoft Word Online**
 

@@ -92,15 +92,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d329042e257">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d332464e257">
 
 Option
 
-</th><th align="left" id="d329042e260">
+</th><th align="left" id="d332464e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d329042e266">
+</th></tr></thead><tbody><tr><td id="d332464e266">
 
 **Create another planned task definition**
 
@@ -108,7 +108,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d329042e278">
+</td></tr><tr><td id="d332464e278">
 
 **Generate planned tasks immediately**
 

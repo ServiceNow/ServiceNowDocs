@@ -38,15 +38,15 @@ Role required: The dashboard\_admin role is required to create or edit Core UI R
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d230621e213">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d230692e213">
 
 Action
 
-</th><th align="left" id="d230621e216">
+</th><th align="left" id="d230692e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d230621e222">
+</th></tr></thead><tbody><tr><td id="d230692e222">
 
 **Add a widget**
 
@@ -59,7 +59,7 @@ Steps
 5.  Drag to move the widget or resize it.
  **Note:** Data visualization titles are not automatically translated on localized ServiceNow instances.
 
-</td></tr><tr><td id="d230621e264">
+</td></tr><tr><td id="d230692e264">
 
 **Delete a widget from the dashboard**
 
@@ -69,7 +69,7 @@ Steps
 2.  Point to the top of the widget, then click the X icon \(![X icon](../image/RemoveWidgetButton.png)\) that appears.
  **Note:** There is no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d230621e298">
+</td></tr><tr><td id="d230692e298">
 
 **Configure widget layouts**
 
@@ -77,7 +77,7 @@ Steps
 
 To change widget appearance and layouts, and show and hide widget headers, see [Configure the layout of a responsive dashboard](configure-widget-layouts.md).
 
-</td></tr><tr><td id="d230621e314">
+</td></tr><tr><td id="d230692e314">
 
 **Edit a widget**
 
@@ -90,7 +90,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
  The widget opens in the tool where it was created. For example, when you edit a report widget, the source report opens in the Report Designer.
 
-</td></tr><tr><td id="d230621e354">
+</td></tr><tr><td id="d230692e354">
 
 **Apply a quick layout to a dashboard**
 
@@ -98,7 +98,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
 Click the configuration icon \(![Configuration icon](../image/ConfigurationPaneButton.png)\) to open the Configuration pane, then click a layout to snap the widgets against. Modify the layout as desired.
 
-</td></tr><tr><td id="d230621e369">
+</td></tr><tr><td id="d230692e369">
 
 **Add a tab to a dashboard**
 
@@ -106,7 +106,7 @@ Click the configuration icon \(![Configuration icon](../image/ConfigurationPaneB
 
 Click the configuration icon \(![Configuration icon](../image/ConfigurationPaneButton.png)\) to open the Configuration pane, then click **Create Tab**. The panel created with the dashboard becomes the dashboard's first tab. The default names of the tabs are the name of the dashboard followed by New Tab and New Tab 2. To change the default names, see Rename a tab in this table.**Note:** You cannot link an existing tab into a dashboard.
 
-</td></tr><tr><td id="d230621e390">
+</td></tr><tr><td id="d230692e390">
 
 **Reorder a dashboard tab**
 
@@ -120,7 +120,7 @@ Click the configuration icon \(![Configuration icon](../image/ConfigurationPaneB
 2.  On the **Dashboard Tabs** related list, enter numbers in the **Order** column to specify the tab order. Tabs display from left to right with lower numbers appearing first.
 
 
-</td></tr><tr><td id="d230621e441">
+</td></tr><tr><td id="d230692e441">
 
 **Delete a dashboard tab**
 
@@ -128,7 +128,7 @@ Click the configuration icon \(![Configuration icon](../image/ConfigurationPaneB
 
 Click the tab to make it active. Point to the tab name and click the trash icon that appears.**Note:** The dashboard tab no longer appears on any dashboards where it appeared. Dashboards may have tabs that appear in multiple dashboards.
 
-</td></tr><tr><td id="d230621e453">
+</td></tr><tr><td id="d230692e453">
 
 **Rename a tab**
 
@@ -144,7 +144,7 @@ Click the tab to make it active. Point to the tab name and click the trash icon 
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d230621e500">
+</td></tr><tr><td id="d230692e500">
 
 **Enable filtering of data for report widgets**
 
@@ -156,7 +156,7 @@ Interactive filters let users filter data for all report widgets on a dashboard 
 4.  Click **Add**.
 For more information, see [Interactive Filters](../concept/c_HomepagePublishers.md).
 
-</td></tr><tr><td id="d230621e545">
+</td></tr><tr><td id="d230692e545">
 
 **Configure a report widget to follow interactive filters**
 
@@ -167,7 +167,7 @@ For more information, see [Interactive Filters](../concept/c_HomepagePublishers.
 3.  To show a filter icon \(![Filter icon](../image/InteractiveFilterFilteringIcon.png)\) on the report when it is following an interactive filter, select the **Show when following** check box.
  **Note:** Performance Analytics widgets cannot follow interactive filters.
 
-</td></tr><tr><td id="d230621e587">
+</td></tr><tr><td id="d230692e587">
 
 **Enable filtering of data for Performance Analytics widgets**
 
@@ -177,7 +177,7 @@ For more information, see [Interactive Filters](../concept/c_HomepagePublishers.
 2.  Add a breakdown to a dashboard so that users can filter data for all Performance Analytics widgets on that dashboard. Only users with the pa\_admin or pa\_power user roles can work with breakdowns.
  See [Add breakdown sources to a dashboard](t_ExistingBreakdownDashboard.md).
 
-</td></tr><tr><td id="d230621e621">
+</td></tr><tr><td id="d230692e621">
 
 **View the description of a widget**
 

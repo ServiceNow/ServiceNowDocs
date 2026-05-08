@@ -4,7 +4,7 @@ description: Enable customers to automatically classify sensitive data for their
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Reference, Customer Service Management]
 ---

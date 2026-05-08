@@ -34,15 +34,15 @@ A clause is a section in a contract document that outlines the guidelines of the
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d260711e150">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d263446e150">
 
 Method
 
-</th><th align="left" id="d260711e153">
+</th><th align="left" id="d263446e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d260711e159">
+</th></tr></thead><tbody><tr><td id="d263446e159">
 
 **Contract Workspace listing**
 
@@ -54,7 +54,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d260711e206">
+</td></tr><tr><td id="d263446e206">
 
 **Workspace used by your application**
 
@@ -161,15 +161,15 @@ Lists all the standard clauses that are active for the contract type that the do
             -   Thumbs up ![](../../../reuse/icons/product-icons/thumbs-up-outline-24.svg) and Thumbs down ![](../../../reuse/icons/product-icons/thumbs-down-outline-24.svg) icons to capture the feedback.
     2.  Accept or ignore the Now Assist suggestion.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d260711e570">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d263446e570">
 
 Action
 
-</th><th align="left" id="d260711e573">
+</th><th align="left" id="d263446e573">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d260711e579">
+</th></tr></thead><tbody><tr><td id="d263446e579">
 
 **Replace the non-standard clause**
 
@@ -179,7 +179,7 @@ Steps
 -   Select **Use this clause**.
 
 
-</td></tr><tr><td id="d260711e600">
+</td></tr><tr><td id="d263446e600">
 
 **Ignore suggestion**
 

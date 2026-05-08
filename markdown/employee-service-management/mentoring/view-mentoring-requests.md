@@ -27,15 +27,15 @@ Role required: none
 
 2.  In the **Mentoring requests** section, you can choose to view information from the following information.
 
-<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d636294e88">
+<table id="choicetable_r4r_sx1_d1c"><thead><tr><th align="left" id="d642420e88">
 
 Option
 
-</th><th align="left" id="d636294e91">
+</th><th align="left" id="d642420e91">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d636294e97">
+</th></tr></thead><tbody><tr><td id="d642420e97">
 
 **Requests from others**
 
@@ -48,7 +48,7 @@ View a list of requests you have received from others. You can use the **Viewing
 -   All
 
 
-</td></tr><tr><td id="d636294e126">
+</td></tr><tr><td id="d642420e126">
 
 **Your requests**
 

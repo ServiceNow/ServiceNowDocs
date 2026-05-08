@@ -41,15 +41,15 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
 
 4.  Use the **Permission type** list in the Administration section to select one of the following options for provisioning groups to this application.
 
-<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d66083e220">
+<table id="choicetable_ok3_pfq_vbc"><thead><tr><th align="left" id="d66087e220">
 
 Permission type
 
-</th><th align="left" id="d66083e223">
+</th><th align="left" id="d66087e223">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d66083e229">
+</th></tr></thead><tbody><tr><td id="d66087e229">
 
 **Select group\(s\)**
 
@@ -61,7 +61,7 @@ Option to give one or more of the following groups permission to develop this ap
 -   Creator Studio Users
 For more information about how to control which groups show up in this list, see [Manage user groups for Application Intake](manage-app-intake-user-groups.md).
 
-</td></tr><tr><td id="d66083e278">
+</td></tr><tr><td id="d66087e278">
 
 **I will manually provision user**
 
@@ -69,7 +69,7 @@ For more information about how to control which groups show up in this list, see
 
 Option to add groups to the application manually.
 
-</td></tr><tr><td id="d66083e287">
+</td></tr><tr><td id="d66087e287">
 
 **Do not give requestor permissions**
 

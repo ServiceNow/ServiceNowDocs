@@ -35,15 +35,15 @@ Ensure that both the Now Assist for Setup and IT Service Management applications
 
 4.  From the Configure IT Service Management page, perform any of the following tasks.
 
-<table><thead><tr><th align="left" id="d460004e156">
+<table><thead><tr><th align="left" id="d460421e156">
 
 Choice
 
-</th><th align="left" id="d460004e159">
+</th><th align="left" id="d460421e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d460004e165">
+</th></tr></thead><tbody><tr><td id="d460421e165">
 
 **Configuration summary in the left navigation pane**
 
@@ -51,7 +51,7 @@ Description
 
 Provides the summary of configuration activity and progress.
 
-</td></tr><tr><td id="d460004e174">
+</td></tr><tr><td id="d460421e174">
 
 **Configure with Now Assist**
 
@@ -59,7 +59,7 @@ Provides the summary of configuration activity and progress.
 
 Configures Simplified IT Service Management using the Now Assist agent. It also displays all available AI agents in IT Service Management.
 
-</td></tr><tr><td id="d460004e192">
+</td></tr><tr><td id="d460421e192">
 
 **Configurations for Platform setup, employee, and fulfiller experiences in the left navigation pane**
 
@@ -72,7 +72,7 @@ For information about configuration page options, see [Understand the Configurat
 
 **Important:** For each configuration, use the guided configuration experience or the conversation AI agent \(if available\). You can use the conversation AI agent by selecting **Configure with Now Assist** on that configuration UI page. For information about AI agents for configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
-</td></tr><tr><td id="d460004e260">
+</td></tr><tr><td id="d460421e260">
 
 **Package and download**
 

@@ -54,15 +54,15 @@ Role required: it\_demand\_manager
 
     Depending on the category and type of the demand, links related to the artifact you can create become available.
 
-<table id="choicetable_plg_zcm_plb"><thead><tr><th align="left" id="d89391e293">
+<table id="choicetable_plg_zcm_plb"><thead><tr><th align="left" id="d89676e293">
 
 Related link
 
-</th><th align="left" id="d89391e296">
+</th><th align="left" id="d89676e296">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89391e302">
+</th></tr></thead><tbody><tr><td id="d89676e302">
 
 **Create Project**
 
@@ -70,7 +70,7 @@ Description
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Project**. Creates a project that is associated with this demand. The number of the project record is displayed in the **Project** field. For more information, see [Data migrated from a demand to a created project](../reference/data-copied-from-demand-to-project.md).
 
-</td></tr><tr><td id="d89391e334">
+</td></tr><tr><td id="d89676e334">
 
 **Create Enhancement**
 
@@ -78,7 +78,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Enhancement**. Creates an enhancement associated with this demand. Use enhancements to request improvements or new capabilities for existing features or services, for example, a request to add new UI elements. The number of the enhancement record is displayed in the **Enhancement** field.
 
-</td></tr><tr><td id="d89391e358">
+</td></tr><tr><td id="d89676e358">
 
 **Create Epic**
 
@@ -86,7 +86,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Epic**. Creates an Agile Development 2.0 epic that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Epic form.
 
-</td></tr><tr><td id="d89391e389">
+</td></tr><tr><td id="d89676e389">
 
 **Create Story**
 
@@ -94,7 +94,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Story**. Creates an Agile Development 2.0 story that is associated with this demand. A **Demand** reference field is created in the Agile Development 2.0 Story form.
 
-</td></tr><tr><td id="d89391e423">
+</td></tr><tr><td id="d89676e423">
 
 **Create EAP Epic**
 
@@ -102,7 +102,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Epic**. Creates an Enterprise Agile Planning \(EAP\) epic that is associated with this demand. A **Converted from** reference field is created in the EAP epic form.
 
-</td></tr><tr><td id="d89391e464">
+</td></tr><tr><td id="d89676e464">
 
 **Create EAP Feature**
 
@@ -110,7 +110,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Feature**. Creates an EAP feature that is associated with this demand. A **Converted from** reference field is created in the EAP feature form.
 
-</td></tr><tr><td id="d89391e499">
+</td></tr><tr><td id="d89676e499">
 
 **Create EAP Capability**
 
@@ -118,7 +118,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **EAP Capability**. Creates an EAP capability that is associated with this demand. A **Converted from** reference field is created in the EAP capability form.
 
-</td></tr><tr><td id="d89391e532">
+</td></tr><tr><td id="d89676e532">
 
 **Create SAFe Story**
 
@@ -126,7 +126,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to SAFe **Story**. Creates a Scaled Agile Framework \(SAFe\) story that is associated with this demand. A **Demand** reference field is created in the SAFe Story form.
 
-</td></tr><tr><td id="d89391e563">
+</td></tr><tr><td id="d89676e563">
 
 **Create SAFe Epic**
 
@@ -134,7 +134,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **SAFe Epic**. Creates an SAFe epic that is associated with this demand. A **Demand** reference field is created in the SAFe Epic form.
 
-</td></tr><tr><td id="d89391e594">
+</td></tr><tr><td id="d89676e594">
 
 **Create SAFe Feature**
 
@@ -142,7 +142,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **SAFe Feature**. Creates a SAFe feature that is associated with this demand. A **Demand** reference field is created in the SAFe Feature form.
 
-</td></tr><tr><td id="d89391e626">
+</td></tr><tr><td id="d89676e626">
 
 **Create Improvement Initiative**
 
@@ -150,7 +150,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Strategic** and the **Type** field is set to **Continual Improvement Management**. Creates an improvement initiative that is associated with this demand. Demand record to which the improvement initiative is linked is added to the **Source/Parent** field in the Details tab.**Note:** When the improvement is closed, the demand record is set to complete.
 
-</td></tr><tr><td id="d89391e653">
+</td></tr><tr><td id="d89676e653">
 
 **Create Change**
 
@@ -158,7 +158,7 @@ This link appears if the **Category** field is set to **Strategic** and the **Ty
 
 This link appears if the **Category** field is set to **Operational** and the **Type** field is set to **Change**. Creates a change that is associated with this demand. The number of the change record is displayed in the **Change** field.
 
-</td></tr><tr><td id="d89391e677">
+</td></tr><tr><td id="d89676e677">
 
 **Create Defect**
 

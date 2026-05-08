@@ -87,15 +87,15 @@ Refreshes recommendations for all the active agent, when set to true. By default
 </td></tr></tbody>
 </table>7.  In the **When to trigger** drop-down, select one of the following.
 
-<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d82397e231">
+<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d82401e231">
 
 Option
 
-</th><th align="left" id="d82397e234">
+</th><th align="left" id="d82401e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82397e240">
+</th></tr></thead><tbody><tr><td id="d82401e240">
 
 **Always**
 
@@ -103,7 +103,7 @@ Description
 
 Triggers the refresh every time there’s an update.
 
-</td></tr><tr><td id="d82397e249">
+</td></tr><tr><td id="d82401e249">
 
 **Conditional**
 

@@ -70,7 +70,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
     **Note:** If any of the pipelines you selected in step 8 has any data policy, which doesn’t allow the pipeline steps to be updated, the same is updated as an error in the worknotes of the corresponding request.
 
-<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d90460e271">
+<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d90464e271">
 
 **Approved and successful**
 
@@ -81,7 +81,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 -   An email notification is sent to the requester specifying that the migration request has been successful.
 
 
-</td></tr><tr><td id="d90460e302">
+</td></tr><tr><td id="d90464e302">
 
 **Rejected and unsuccessful**
 

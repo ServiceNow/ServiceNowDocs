@@ -29,7 +29,7 @@ Role required: sales\_agent
 
 4.  On the **Details** tab, go to **Quote Document Details** and fill in the fields.
 
-<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d92758e102">
+<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d92790e102">
 
 **Document template**
 
@@ -37,7 +37,7 @@ Role required: sales\_agent
 
 A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
 
-</td></tr><tr><td id="d92758e121">
+</td></tr><tr><td id="d92790e121">
 
 **External signer**
 
@@ -45,7 +45,7 @@ A document template is required to create a quote document PDF. A standardized t
 
 Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
 
-</td></tr><tr><td id="d92758e148">
+</td></tr><tr><td id="d92790e148">
 
 **Internal signer**
 

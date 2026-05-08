@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 2
 breadcrumb: [IPAM Discovery integration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

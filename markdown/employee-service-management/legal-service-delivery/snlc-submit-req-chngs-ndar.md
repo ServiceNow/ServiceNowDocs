@@ -29,15 +29,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d156820e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d157981e71">
 
 Method
 
-</th><th align="left" id="d156820e74">
+</th><th align="left" id="d157981e74">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d156820e80">
+</th></tr></thead><tbody><tr><td id="d157981e80">
 
 **__Employee Center__**
 
@@ -48,7 +48,7 @@ Actions
 3.  Open your non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d156820e113">
+</td></tr><tr><td id="d157981e113">
 
 **__Legal Service Portal__**
 
@@ -65,15 +65,15 @@ Actions
 
 3.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d156820e176">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d157981e176">
 
 Location
 
-</th><th align="left" id="d156820e179">
+</th><th align="left" id="d157981e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d156820e185">
+</th></tr></thead><tbody><tr><td id="d157981e185">
 
 **From internal storage**
 
@@ -84,7 +84,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d156820e212">
+</td></tr><tr><td id="d157981e212">
 
 **From external storage**
 
@@ -95,15 +95,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>4.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d156820e235">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d157981e235">
 
 Review result
 
-</th><th align="left" id="d156820e238">
+</th><th align="left" id="d157981e238">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d156820e244">
+</th></tr></thead><tbody><tr><td id="d157981e244">
 
 **No change is required**
 
@@ -111,7 +111,7 @@ Action
 
 Send the document for signature. For more information, see [Send a non-disclosure agreement document for signature](snlc-send-doc-sign-nda.md).
 
-</td></tr><tr><td id="d156820e262">
+</td></tr><tr><td id="d157981e262">
 
 **Changes are required**
 

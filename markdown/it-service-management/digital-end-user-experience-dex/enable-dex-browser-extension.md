@@ -6,7 +6,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Installing DEX on your local machine, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -31,15 +31,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d303920e81">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d304171e81">
 
 Browser
 
-</th><th align="left" id="d303920e84">
+</th><th align="left" id="d304171e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d303920e90">
+</th></tr></thead><tbody><tr><td id="d304171e90">
 
 **Google Chrome**
 
@@ -50,7 +50,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d303920e124">
+</td></tr><tr><td id="d304171e124">
 
 **Microsoft Edge**
 

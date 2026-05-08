@@ -6,7 +6,7 @@ release: australia
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,15 +36,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d102952e109">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d103237e109">
 
 Field
 
-</th><th align="left" id="d102952e112">
+</th><th align="left" id="d103237e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d102952e118">
+</th></tr></thead><tbody><tr><td id="d103237e118">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d102952e127">
+</td></tr><tr><td id="d103237e127">
 
 **Description**
 
@@ -60,7 +60,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d102952e136">
+</td></tr><tr><td id="d103237e136">
 
 **Active**
 

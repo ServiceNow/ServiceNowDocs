@@ -23,15 +23,15 @@ Role required: web\_service\_admin
 
 1.  Create a REST response header in one of the following ways.
 
-<table id="choicetable_rv3_mwc_j3c"><thead><tr><th align="left" id="d234118e60">
+<table id="choicetable_rv3_mwc_j3c"><thead><tr><th align="left" id="d234126e60">
 
 Option
 
-</th><th align="left" id="d234118e63">
+</th><th align="left" id="d234126e63">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d234118e69">
+</th></tr></thead><tbody><tr><td id="d234126e69">
 
 **Create a response header from a REST API**
 
@@ -42,7 +42,7 @@ Procedure
 3.  In the **Response Headers** related list, select **New**.
 
 
-</td></tr><tr><td id="d234118e108">
+</td></tr><tr><td id="d234126e108">
 
 **Create a response header and associate it with a REST API**
 

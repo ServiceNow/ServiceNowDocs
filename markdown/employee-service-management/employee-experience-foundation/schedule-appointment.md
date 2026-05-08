@@ -25,15 +25,15 @@ Role required: none
 
     Some entry points might not be available based on the configuration set by the admin.
 
-<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d267355e57">
+<table id="choicetable_jch_n5z_mdc"><thead><tr><th align="left" id="d270090e57">
 
 Entry Point
 
-</th><th align="left" id="d267355e60">
+</th><th align="left" id="d270090e60">
 
 Steps to schedule appointment
 
-</th></tr></thead><tbody><tr><td id="d267355e66">
+</th></tr></thead><tbody><tr><td id="d270090e66">
 
 **Employee Center**
 
@@ -44,7 +44,7 @@ Steps to schedule appointment
 -   In the **Human resources** menu, in the **Quick links** section, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d267355e109">
+</td></tr><tr><td id="d270090e109">
 
 **Employee Center Pro Kiosk**
 
@@ -52,7 +52,7 @@ Steps to schedule appointment
 
 In the **Get support** section, select **Schedule appointment**.
 
-</td></tr><tr><td id="d267355e126">
+</td></tr><tr><td id="d270090e126">
 
 **Knowledge Base article**
 
@@ -60,7 +60,7 @@ In the **Get support** section, select **Schedule appointment**.
 
 At the end of the article, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d267355e138">
+</td></tr><tr><td id="d270090e138">
 
 **Request details**
 
@@ -68,7 +68,7 @@ At the end of the article, select **Schedule an appointment**.
 
 From the Actions menu, select **Schedule an appointment**.
 
-</td></tr><tr><td id="d267355e151">
+</td></tr><tr><td id="d270090e151">
 
 **My tasks page**
 
@@ -78,7 +78,7 @@ From the Actions menu, select **Schedule an appointment**.
 2.  In the task details pane, select **Schedule appointment**.
 
 
-</td></tr><tr><td id="d267355e172">
+</td></tr><tr><td id="d270090e172">
 
 **ITSM Walk-up Experience**
 

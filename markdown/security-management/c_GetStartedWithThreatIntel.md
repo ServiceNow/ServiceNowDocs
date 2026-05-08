@@ -1282,15 +1282,15 @@ Role required: sn\_ti.admin
 
 5.  Fill in the fields in the **Collection Service Configuration** section, as appropriate.
 
-<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d72325e2686">
+<table id="choicetable_fn4_l4l_wmb"><thead><tr><th align="left" id="d72558e2686">
 
 Field
 
-</th><th align="left" id="d72325e2689">
+</th><th align="left" id="d72558e2689">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d72325e2695">
+</th></tr></thead><tbody><tr><td id="d72558e2695">
 
 **Collection Info Service endpoint**
 
@@ -1298,7 +1298,7 @@ Description
 
 A TAXII Collection is an interface to a logical repository of CTI objects provided by a TAXII Server and is used by TAXII Clients to send information to the TAXII Server or request information from the TAXII Server. A TAXII Server can host multiple Collections per API Root, and Collections are used to exchange information in a request–response manner.
 
-</td></tr><tr><td id="d72325e2707">
+</td></tr><tr><td id="d72558e2707">
 
 **Use REST message**
 
@@ -1306,7 +1306,7 @@ A TAXII Collection is an interface to a logical repository of CTI objects provid
 
 Select this option if you require a REST message to access the TAXII profile. The **Collection Info Service REST message** and **Collection Info Service REST method** fields become required.
 
-</td></tr><tr><td id="d72325e2722">
+</td></tr><tr><td id="d72558e2722">
 
 **Collection Info Service REST message**
 
@@ -1314,7 +1314,7 @@ Select this option if you require a REST message to access the TAXII profile. Th
 
 Click the lookup icon, and select the REST message from the list or click **New** to define a new REST message.
 
-</td></tr><tr><td id="d72325e2734">
+</td></tr><tr><td id="d72558e2734">
 
 **Collection Info Service REST method**
 

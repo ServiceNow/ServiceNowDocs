@@ -4,7 +4,7 @@ description: Assign a team member to a household by selecting an employee. You c
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---

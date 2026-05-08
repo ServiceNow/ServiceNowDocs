@@ -4,7 +4,7 @@ description: Install the Lead to Cash Core application, which enables you to com
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

@@ -43,15 +43,15 @@ Automatic exemptions are created for incompatible scripts sent by authenticated 
 
     **Note:** Scripts with the same logic are normalized into a single row in the list.
 
-<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d191550e136">
+<table id="choicetable_jkt_gpt_v3c"><thead><tr><th align="left" id="d191558e136">
 
 Option
 
-</th><th align="left" id="d191550e139">
+</th><th align="left" id="d191558e139">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d191550e145">
+</th></tr></thead><tbody><tr><td id="d191558e145">
 
 **Move complex logic to a script include**
 
@@ -63,7 +63,7 @@ For scripts that contain complex logic and can be rewritten, move the logic to a
 4.  Update the original script to call the new script include using a simple function call, such as `MyScriptInclude.function()`.
 For more information about creating script includes, see [Script includes](../concept/c_ScriptIncludes.md#). You can test updated scripts by running them from the Scripts - Background module with **Execute in sandbox?** selected. For more information, see [Scripts - Background module](../concept/c_ScriptsBackground.md).
 
-</td></tr><tr><td id="d191550e193">
+</td></tr><tr><td id="d191558e193">
 
 **Create an exemption**
 

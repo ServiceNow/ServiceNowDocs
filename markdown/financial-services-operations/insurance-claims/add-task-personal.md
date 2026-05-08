@@ -27,15 +27,15 @@ Role required: sn\_ins\_claim\_pers.auto\_processor, sn\_ins\_claim\_pers.auto\_
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d110971e83">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d111309e83">
 
 Option
 
-</th><th align="left" id="d110971e86">
+</th><th align="left" id="d111309e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d110971e93">
+</th></tr></thead><tbody><tr><td id="d111309e93">
 
 **From the landing page**
 
@@ -43,7 +43,7 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d110971e105">
+</td></tr><tr><td id="d111309e105">
 
 **From the applicable case/tasks list**
 

@@ -4,7 +4,7 @@ description: The Security Annotations report presents details stored in the Secu
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---

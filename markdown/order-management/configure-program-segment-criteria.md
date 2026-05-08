@@ -4,7 +4,7 @@ description: Create records in the program segment criteria \(sn\_prm\_program\_
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Data model for PRM, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

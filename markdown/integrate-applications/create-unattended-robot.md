@@ -37,15 +37,15 @@ You can map multiple unattended robots as high density robots to one virtual mac
 
 2.  Create an unattended robot from either the list icon or from the plus icon.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d656650e134">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d659887e134">
 
 Option
 
-</th><th align="left" id="d656650e137">
+</th><th align="left" id="d659887e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d656650e143">
+</th></tr></thead><tbody><tr><td id="d659887e143">
 
 **Create an unattended robot from the list icon**
 
@@ -56,7 +56,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d656650e182">
+</td></tr><tr><td id="d659887e182">
 
 **Create an unattended robot from the plus icon**
 

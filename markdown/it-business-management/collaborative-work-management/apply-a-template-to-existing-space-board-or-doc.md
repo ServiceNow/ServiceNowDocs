@@ -30,15 +30,15 @@ Role required: sn\_cwm.cwm\_user
 
 3.  You can apply template to a Board, Doc, or a single page in a Doc.
 
-<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d232642e110">
+<table id="choicetable_mfv_yn1_ddc"><thead><tr><th align="left" id="d233534e110">
 
 Choice
 
-</th><th align="left" id="d232642e113">
+</th><th align="left" id="d233534e113">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d232642e119">
+</th></tr></thead><tbody><tr><td id="d233534e119">
 
 **Apply template to Board**
 
@@ -48,7 +48,7 @@ From the Board header, select the More options icon \(![More options icon.](../i
 
 The Template Center shows only the Board templates.
 
-</td></tr><tr><td id="d232642e145">
+</td></tr><tr><td id="d233534e145">
 
 **Apply template to Doc**
 
@@ -58,7 +58,7 @@ From the Doc header, select the More actions icon \(![More actions icon.](../ima
 
 The Template Center shows only the Doc templates.
 
-</td></tr><tr><td id="d232642e171">
+</td></tr><tr><td id="d233534e171">
 
 **Apply template to a Doc page**
 

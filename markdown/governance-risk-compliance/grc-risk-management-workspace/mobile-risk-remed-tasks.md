@@ -41,15 +41,15 @@ Edit or assign an unassigned remediation task directly from the list of records.
 
 5.  In the menu that is displayed, choose one to continue.
 
-<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d91674e142">
+<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d93868e142">
 
 Option
 
-</th><th align="left" id="d91674e145">
+</th><th align="left" id="d93868e145">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91674e151">
+</th></tr></thead><tbody><tr><td id="d93868e151">
 
 **Edit**
 
@@ -59,7 +59,7 @@ In the Extend by days field on the Edit Remediation Task screen that is displaye
 
 Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d91674e175">
+</td></tr><tr><td id="d93868e175">
 
 **Assign**
 
@@ -72,15 +72,15 @@ On the Issue Assignment screen that is displayed, tap the **Assignment Group** a
 
 7.  With the fields on the issue record displayed, choose one in the following table to continue.
 
-<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d91674e206">
+<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d93868e206">
 
 Option
 
-</th><th align="left" id="d91674e209">
+</th><th align="left" id="d93868e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d91674e215">
+</th></tr></thead><tbody><tr><td id="d93868e215">
 
 **Details tab**
 
@@ -93,7 +93,7 @@ Tap the **Issue** field to expand it. On the Issue screen, a list of records is 
 -   Navigate back to the Remediation Task record and tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the remediation task. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d91674e244">
+</td></tr><tr><td id="d93868e244">
 
 **Activity Stream tab**
 
@@ -103,7 +103,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the remediation task. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d91674e274">
+</td></tr><tr><td id="d93868e274">
 
 **Tap a screen icon at the bottom of the screen.**
 

@@ -45,15 +45,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
     -   Sourcing event summarization for fulfillers
 4.  After you request the generative AI capabilities, you can summarize procurement-related records.
 
-<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d88211e192">
+<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d88215e192">
 
 Option
 
-</th><th align="left" id="d88211e195">
+</th><th align="left" id="d88215e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88211e201">
+</th></tr></thead><tbody><tr><td id="d88215e201">
 
 **Summarize a record**
 

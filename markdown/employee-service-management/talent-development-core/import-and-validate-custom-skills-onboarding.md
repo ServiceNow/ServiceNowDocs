@@ -39,15 +39,15 @@ Skills import
 
 7.  In the Select a source section, choose how you want to import the skills.
 
-<table id="choicetable_nlp_zwn_4dc"><thead><tr><th align="left" id="d335833e143">
+<table id="choicetable_nlp_zwn_4dc"><thead><tr><th align="left" id="d339255e143">
 
 Option
 
-</th><th align="left" id="d335833e146">
+</th><th align="left" id="d339255e146">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d335833e152">
+</th></tr></thead><tbody><tr><td id="d339255e152">
 
 **File upload**
 
@@ -55,7 +55,7 @@ Process
 
 Access the predefined skills import template so you can import your skills data in the required format. For more information, see [Import skills through file upload](file-upload-skills-import.md).
 
-</td></tr><tr><td id="d335833e171">
+</td></tr><tr><td id="d339255e171">
 
 **Integration**
 
@@ -69,7 +69,7 @@ For more information, see [Workday spoke integration in Skills Foundation](../co
 
 For more information, see [SAP SuccessFactors integration Skills Foundation](../concept/sap-successfactors-with-skills-foundation.md).
 
-</td></tr><tr><td id="d335833e226">
+</td></tr><tr><td id="d339255e226">
 
 **Custom import**
 

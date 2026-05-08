@@ -4,7 +4,7 @@ description: Connect the Figma Model Context Protocol Server Console \(MCP\) ser
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 8
 keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
@@ -63,15 +63,15 @@ The Figma MCP \(Model Context Protocol\) server uses OAuth for authentication an
 
 4.  Enter the following information in the form.
 
-<table id="choicetable_pbb_nhf_dhc"><thead><tr><th align="left" id="d71515e335">
+<table id="choicetable_pbb_nhf_dhc"><thead><tr><th align="left" id="d71519e335">
 
 Field
 
-</th><th align="left" id="d71515e338">
+</th><th align="left" id="d71519e338">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d71515e344">
+</th></tr></thead><tbody><tr><td id="d71519e344">
 
 **Name**
 
@@ -79,7 +79,7 @@ Description
 
 Name for your application; for example, ServiceNow Integration.
 
-</td></tr><tr><td id="d71515e353">
+</td></tr><tr><td id="d71519e353">
 
 **Choose an owner for your app**
 

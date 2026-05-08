@@ -4,7 +4,7 @@ description: The Execution Tracking - Begin \(CIs\) flow action starts the audit
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integrations - Get Network Statistics flow, Security Operations Integration- Get Network Statistics capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---

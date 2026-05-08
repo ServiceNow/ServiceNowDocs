@@ -6,7 +6,7 @@ release: australia
 product: Data Discovery
 classification: data-discovery
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 3
 breadcrumb: [Configure patterns, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---

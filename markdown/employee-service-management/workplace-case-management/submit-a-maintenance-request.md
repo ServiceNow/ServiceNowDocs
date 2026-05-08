@@ -23,15 +23,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d457098e57">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d461758e57">
 
 Location
 
-</th><th align="left" id="d457098e60">
+</th><th align="left" id="d461758e60">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d457098e66">
+</th></tr></thead><tbody><tr><td id="d461758e66">
 
 **Workplace Service Portal**
 
@@ -51,7 +51,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d457098e136">
+</td></tr><tr><td id="d461758e136">
 
 **Employee Center**
 

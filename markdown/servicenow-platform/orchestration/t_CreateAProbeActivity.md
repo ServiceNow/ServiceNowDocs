@@ -31,7 +31,7 @@ For instructions on using the activity template process flow, see [create custom
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the Probe Execution Command.
 
-<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d385134e117">
+<table id="choicetable_bf3_bpv_vz"><tbody><tr><td id="d387410e117">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ For instructions on using the activity template process flow, see [create custom
 
 Use the variables you created to configure the command that Orchestration executes.
 
-</td></tr><tr><td id="d385134e133">
+</td></tr><tr><td id="d387410e133">
 
 **Probe**
 
@@ -47,7 +47,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Probe to run with this activity, from the list of probes in the system
 
-</td></tr><tr><td id="d385134e142">
+</td></tr><tr><td id="d387410e142">
 
 **Target host**
 
@@ -55,7 +55,7 @@ Probe to run with this activity, from the list of probes in the system
 
 Host name or IP address of the target server for this activity.
 
-</td></tr><tr><td id="d385134e151">
+</td></tr><tr><td id="d387410e151">
 
 **Parameters**
 
@@ -63,7 +63,7 @@ Host name or IP address of the target server for this activity.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d385134e160">
+</td></tr><tr><td id="d387410e160">
 
 **Required MID Server capabilities**
 

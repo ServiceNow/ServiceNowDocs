@@ -50,15 +50,15 @@ The customer play summarization skill checks the record to determine if there is
 
 3.  After you're finished summarizing the customer play, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d27213e149">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d27217e149">
 
 Option
 
-</th><th align="left" id="d27213e152">
+</th><th align="left" id="d27217e152">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d27213e158">
+</th></tr></thead><tbody><tr><td id="d27217e158">
 
 **View more or less summary details**
 
@@ -68,7 +68,7 @@ Procedure
 -   To see fewer summary details, select the View less icon \(![Collapse card icon.](../image/icon-collapse.png)\).
 
 
-</td></tr><tr><td id="d27213e188">
+</td></tr><tr><td id="d27217e188">
 
 **Provide feedback for the summary**
 
@@ -78,7 +78,7 @@ Procedure
 -   If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d27213e221">
+</td></tr><tr><td id="d27217e221">
 
 **Copy the summary**
 
@@ -86,7 +86,7 @@ Procedure
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../image/icon-copy.png)\) to use the summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d27213e236">
+</td></tr><tr><td id="d27217e236">
 
 **View the information about the summary**
 

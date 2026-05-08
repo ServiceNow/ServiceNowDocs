@@ -42,15 +42,15 @@ To learn more, see [Using the order orchestration UI](../concept/orchestration-p
 
 5.  Access the order orchestration UI for a selected order, order line item, or domain order by performing the respective task from the following table.
 
-<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d45840e133">
+<table id="choicetable_u3t_rjd_54b"><thead><tr><th align="left" id="d45872e133">
 
 Task
 
-</th><th align="left" id="d45840e136">
+</th><th align="left" id="d45872e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45840e142">
+</th></tr></thead><tbody><tr><td id="d45872e142">
 
 **Review the orchestration plan for an entire customer order**
 
@@ -58,7 +58,7 @@ Description
 
 In the Customer Order form, under Order breakdowns, select **View order orchestration**.
 
-</td></tr><tr><td id="d45840e154">
+</td></tr><tr><td id="d45872e154">
 
 **Review the orchestration plan for a customer order line item**
 
@@ -68,7 +68,7 @@ In the Customer Order form, under Order breakdowns, select **View order orchestr
 2.  Select the **Order Orchestration** tab.
 
 
-</td></tr><tr><td id="d45840e178">
+</td></tr><tr><td id="d45872e178">
 
 **Review the orchestration plan for a domain order associated with a customer order line item**
 

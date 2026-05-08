@@ -31,15 +31,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the task in one of the following ways.
 
-<table id="choicetable_kfd_jfb_vcc"><thead><tr><th align="left" id="d87749e93">
+<table id="choicetable_kfd_jfb_vcc"><thead><tr><th align="left" id="d87976e93">
 
 Option
 
-</th><th align="left" id="d87749e96">
+</th><th align="left" id="d87976e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87749e102">
+</th></tr></thead><tbody><tr><td id="d87976e102">
 
 **From the landing page**
 
@@ -47,7 +47,7 @@ Steps
 
 From the All open claims list, select a task.
 
-</td></tr><tr><td id="d87749e111">
+</td></tr><tr><td id="d87976e111">
 
 **From the Insurance claim adjuster task list**
 
@@ -61,15 +61,15 @@ From the All open claims list, select a task.
 </td></tr></tbody>
 </table>3.  Work on the adjuster task by completing actions from the claim workspace.
 
-<table id="choicetable_ozd_rgb_vcc"><thead><tr><th align="left" id="d87749e156">
+<table id="choicetable_ozd_rgb_vcc"><thead><tr><th align="left" id="d87976e156">
 
 Claim task
 
-</th><th align="left" id="d87749e159">
+</th><th align="left" id="d87976e159">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d87749e165">
+</th></tr></thead><tbody><tr><td id="d87976e165">
 
 **Add a document verification task**
 
@@ -80,7 +80,7 @@ Claim workspace actions
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d87749e192">
+</td></tr><tr><td id="d87976e192">
 
 **Verify a document**
 
@@ -88,7 +88,7 @@ Claim workspace actions
 
 In a Submitted document task, select **Verify** to verify the submitted document.
 
-</td></tr><tr><td id="d87749e204">
+</td></tr><tr><td id="d87976e204">
 
 **Reject a document**
 
@@ -96,7 +96,7 @@ In a Submitted document task, select **Verify** to verify the submitted document
 
 In a Submitted document task, select **Reject** to reject the submitted document.
 
-</td></tr><tr><td id="d87749e216">
+</td></tr><tr><td id="d87976e216">
 
 **Add claim coverage**
 
@@ -107,7 +107,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d87749e244">
+</td></tr><tr><td id="d87976e244">
 
 **Add a reserve or payment**
 
@@ -120,7 +120,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d87749e278">
+</td></tr><tr><td id="d87976e278">
 
 **Add an ad-hoc claim task**
 
@@ -131,7 +131,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 -   Select **Save**.
 
 
-</td></tr><tr><td id="d87749e305">
+</td></tr><tr><td id="d87976e305">
 
 **Submit a reserve or payment amount for approval**
 
@@ -139,7 +139,7 @@ In a Submitted document task, select **Reject** to reject the submitted document
 
 If the reserve or payment amount is above your approval threshold, an approval task is created and assigned to your manager when you submit the amount.
 
-</td></tr><tr><td id="d87749e317">
+</td></tr><tr><td id="d87976e317">
 
 **Submit a claim settlement decision**
 

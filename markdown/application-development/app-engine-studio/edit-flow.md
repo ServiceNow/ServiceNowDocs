@@ -35,7 +35,7 @@ Add logic and automation to your application. If you created an application usin
 
 4.  Take the appropriate actions to edit the flow.
 
-<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d256566e187">
+<table id="choicetable_opd_n4h_x1b"><tbody><tr><td id="d256570e187">
 
 **Change the flow name, description, or roles**
 
@@ -43,7 +43,7 @@ Add logic and automation to your application. If you created an application usin
 
 In the main header, select **Properties**, enter the values you want into the appropriate fields, and then select **Update**.
 
-</td></tr><tr><td id="d256566e202">
+</td></tr><tr><td id="d256570e202">
 
 **To edit the trigger**
 
@@ -51,7 +51,7 @@ In the main header, select **Properties**, enter the values you want into the ap
 
 In your flow, select the trigger description, fill in the fields as desired, and then select **Done**.**Note:** Modifying triggers can result in the deletion of referenced action configurations.
 
-</td></tr><tr><td id="d256566e217">
+</td></tr><tr><td id="d256570e217">
 
 **To edit an existing action**
 
@@ -59,7 +59,7 @@ In your flow, select the trigger description, fill in the fields as desired, and
 
 In your flow, select the action description, fill in the fields as desired, and then select **Done**.
 
-</td></tr><tr><td id="d256566e229">
+</td></tr><tr><td id="d256570e229">
 
 **To add a new action**
 

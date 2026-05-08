@@ -38,7 +38,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 3.  Take one of the following actions.
 
-<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d768028e149">
+<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d775669e149">
 
 **If you agree to all statements**
 
@@ -46,7 +46,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 Select the **I acknowledge that I meet all the above criteria** check box.
 
-</td></tr><tr><td id="d768028e161">
+</td></tr><tr><td id="d775669e161">
 
 **If you can't agree to one or more of the statements**
 

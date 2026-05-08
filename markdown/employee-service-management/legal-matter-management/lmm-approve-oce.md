@@ -23,15 +23,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open the outside counsel engagement approval request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d611843e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d617803e51">
 
 Method
 
-</th><th align="left" id="d611843e54">
+</th><th align="left" id="d617803e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d611843e60">
+</th></tr></thead><tbody><tr><td id="d617803e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,7 +42,7 @@ Action
 3.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d611843e98">
+</td></tr><tr><td id="d617803e98">
 
 **Using Legal Counsel Center lists**
 
@@ -54,7 +54,7 @@ Action
 4.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d611843e151">
+</td></tr><tr><td id="d617803e151">
 
 **Using platform view**
 

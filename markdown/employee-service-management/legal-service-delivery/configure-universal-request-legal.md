@@ -36,15 +36,15 @@ Legal Request Management version 6.1 installs the service set, service set assig
 
 2.  Review and configure the following settings as per your business needs.
 
-<table id="choicetable_bnc_s4k_c5b"><thead><tr><th align="left" id="d575285e105">
+<table id="choicetable_bnc_s4k_c5b"><thead><tr><th align="left" id="d580748e105">
 
 Setting
 
-</th><th align="left" id="d575285e108">
+</th><th align="left" id="d580748e108">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d575285e114">
+</th></tr></thead><tbody><tr><td id="d580748e114">
 
 **Service set**
 
@@ -54,7 +54,7 @@ A service set represents a department in your organization. The service set conf
 
  For more information, see [Create a service set](../../universal-request/task/ur-create-service-set.md).
 
-</td></tr><tr><td id="d575285e144">
+</td></tr><tr><td id="d580748e144">
 
 **Service for Universal Request**
 
@@ -62,7 +62,7 @@ A service set represents a department in your organization. The service set conf
 
 Register your service name for your service specific table and associate it with a service set \(department\) to use the Universal Request capabilities for a specific service in your organization.For more information, see [Create your service for Universal Request](../../universal-request/task/ur-register-service.md)
 
-</td></tr><tr><td id="d575285e169">
+</td></tr><tr><td id="d580748e169">
 
 **Mapping configuration**
 
@@ -72,7 +72,7 @@ The mapping configuration enables you to configure a target table from the servi
 
  You can update the `LegalUniversalRequest` script include to map additional legal request and universal request fields in addition to the default mapped fields.
 
-</td></tr><tr><td id="d575285e194">
+</td></tr><tr><td id="d580748e194">
 
 **Service set assignment group**
 
@@ -82,7 +82,7 @@ A service set must be assigned an assignment group for automatically routing uni
 
  For more information, see [Assign assignment group to your service](../../universal-request/task/assign-group-to-service.md).
 
-</td></tr><tr><td id="d575285e219">
+</td></tr><tr><td id="d580748e219">
 
 **State mapping**
 
@@ -92,7 +92,7 @@ The state mapping enables you to map the states of the legal request and the uni
 
  For more information, see [Universal Request state mapping](../../universal-request/task/ur-state-mapping.md).
 
-</td></tr><tr><td id="d575285e241">
+</td></tr><tr><td id="d580748e241">
 
 **Transfer Configuration**
 

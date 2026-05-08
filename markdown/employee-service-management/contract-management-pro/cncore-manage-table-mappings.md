@@ -39,15 +39,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 6.  Either modify or delete the table mapping.
 
-<table id="choicetable_rvj_4rw_bcc"><thead><tr><th align="left" id="d136182e140">
+<table id="choicetable_rvj_4rw_bcc"><thead><tr><th align="left" id="d136836e140">
 
 Action
 
-</th><th align="left" id="d136182e143">
+</th><th align="left" id="d136836e143">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d136182e149">
+</th></tr></thead><tbody><tr><td id="d136836e149">
 
 **Delete the table mapping**
 
@@ -58,7 +58,7 @@ Steps
 
 The content controls related to the table mapping are removed from the Microsoft Word document.
 
-</td></tr><tr><td id="d136182e181">
+</td></tr><tr><td id="d136836e181">
 
 **Modify the table mapping**
 

@@ -41,7 +41,7 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
 4.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the JDBC Execution Command.
 
-<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d586464e163">
+<table id="choicetable_py3_zmj_4y"><tbody><tr><td id="d588709e163">
 
 **[JDBC Connection](t_CreateAJDBCActivity.md#)**
 
@@ -53,7 +53,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 -   Database instance name
 
 
-</td></tr><tr><td id="d586464e194">
+</td></tr><tr><td id="d588709e194">
 
 **Credential**
 
@@ -61,7 +61,7 @@ Configure or reference the appropriate JDBC Connection for the database. The con
 
 JDBC credential to use for your JDBC connection.
 
-</td></tr><tr><td id="d586464e203">
+</td></tr><tr><td id="d588709e203">
 
 **SQL statement**
 
@@ -78,7 +78,7 @@ Input the ANSI SQL to execute on the JDBC target database. **Note:** This field 
 -   describe
 For added security measure, a MID Server property controls the operations that this JDBCOrchestrationProbe executes, which restricts the SQL commands used. This property protects against potentially destructive commands, such as drop database. The mid.property.jdbc\_operations contains the MID Server property controls.**Note:** You cannot run multiple statements of different types. For example, you cannot run a select statement and an update statement together, but you can run two insert statements. However, you cannot run multiple select statements in this activity.
 
-</td></tr><tr><td id="d586464e250">
+</td></tr><tr><td id="d588709e250">
 
 **Maximum rows**
 
@@ -86,7 +86,7 @@ For added security measure, a MID Server property controls the operations that t
 
 Maximum number of records to retrieve from database. The default is 1000.
 
-</td></tr><tr><td id="d586464e259">
+</td></tr><tr><td id="d588709e259">
 
 **Maximum payload size \(KB\)**
 
@@ -94,7 +94,7 @@ Maximum number of records to retrieve from database. The default is 1000.
 
 You can set a limit on the maximum payload size of data retrieved from the database. The default is 64 kilobytes.
 
-</td></tr><tr><td id="d586464e269">
+</td></tr><tr><td id="d588709e269">
 
 **Connection timeout**
 
@@ -102,7 +102,7 @@ You can set a limit on the maximum payload size of data retrieved from the datab
 
 How long the activity waits to make the connection. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d586464e278">
+</td></tr><tr><td id="d588709e278">
 
 **Query timeout**
 
@@ -110,7 +110,7 @@ How long the activity waits to make the connection. This field is populated auto
 
 Elapsed time to wait after running the query until the data is returned. This field is populated automatically from the data source, but can be changed for this activity.
 
-</td></tr><tr><td id="d586464e287">
+</td></tr><tr><td id="d588709e287">
 
 **Required MID Server capabilities**
 
@@ -118,7 +118,7 @@ Elapsed time to wait after running the query until the data is returned. This fi
 
 MID Server to use for querying JDBC, by capabilities. By default, the system selects a MID Server that has JDBC capability.
 
-</td></tr><tr><td id="d586464e296">
+</td></tr><tr><td id="d588709e296">
 
 **Use stored procedure**
 

@@ -42,15 +42,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d198614e154">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d200549e154">
 
 Method
 
-</th><th align="left" id="d198614e157">
+</th><th align="left" id="d200549e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198614e163">
+</th></tr></thead><tbody><tr><td id="d200549e163">
 
 **Compose email from More actions**
 
@@ -63,7 +63,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d198614e214">
+</td></tr><tr><td id="d200549e214">
 
 **Compose an email from Activity stream**
 
@@ -77,15 +77,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the Now Assist ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png).
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d198614e265">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d200549e265">
 
 Email message window
 
-</th><th align="left" id="d198614e268">
+</th><th align="left" id="d200549e268">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d198614e277">
+</th></tr></thead><tbody><tr><td id="d200549e277">
 
 **Typed response**
 
@@ -95,7 +95,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d198614e294">
+</td></tr><tr><td id="d200549e294">
 
 **Left blank**
 
@@ -103,7 +103,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d198614e303">
+</td></tr><tr><td id="d200549e303">
 
 **Use template**
 

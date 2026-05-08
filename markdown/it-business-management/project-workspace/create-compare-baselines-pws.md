@@ -29,15 +29,15 @@ Role required: it\_project\_manager
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d215157e95">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d215933e95">
 
 Option
 
-</th><th align="left" id="d215157e98">
+</th><th align="left" id="d215933e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d215157e104">
+</th></tr></thead><tbody><tr><td id="d215933e104">
 
 **Create a baseline**
 
@@ -54,7 +54,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
  **Note:** You can [activate a scheduled job](../../spw-financials/task/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d215157e155">
+</td></tr><tr><td id="d215933e155">
 
 **Compare baselines**
 

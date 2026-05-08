@@ -32,15 +32,15 @@ Assessing a problem involves analyzing the scale and extent of the problem, as w
 
     After assessing the problem, you can perform any one of the following actions:
 
-<table id="choicetable_fnv_jzj_wfb"><thead><tr><th align="left" id="d111426e93">
+<table id="choicetable_fnv_jzj_wfb"><thead><tr><th align="left" id="d111430e93">
 
 Option
 
-</th><th align="left" id="d111426e96">
+</th><th align="left" id="d111430e96">
 
 Action to be taken
 
-</th></tr></thead><tbody><tr><td id="d111426e102">
+</th></tr></thead><tbody><tr><td id="d111430e102">
 
 **If the problem is valid and requires a resolution**
 
@@ -48,7 +48,7 @@ Action to be taken
 
 Click **Confirm**.
 
-</td></tr><tr><td id="d111426e114">
+</td></tr><tr><td id="d111430e114">
 
 **If there is an existing problem with similar issue**
 
@@ -60,7 +60,7 @@ Click **Mark Duplicate**.**Note:**
 -   The **List of related task records \(comma-separated\) to move over when a problem is marked as a duplicate of another** \(**problem.duplicate.records\_to\_move**\) problem management property controls the related records that are copied from the existing to the original problem.
 
 
-</td></tr><tr><td id="d111426e142">
+</td></tr><tr><td id="d111430e142">
 
 **If the problem is not a valid problem**
 

@@ -6,7 +6,7 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conversational Interfaces]
 ---

@@ -72,15 +72,15 @@ Starting with version 19.0 of Vulnerability Response, you can create change requ
 
     1.  From the list of the **Applies to** field, choose one to continue.
 
-<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d419248e247">
+<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d423909e247">
 
 Option
 
-</th><th align="left" id="d419248e250">
+</th><th align="left" id="d423909e250">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d419248e256">
+</th></tr></thead><tbody><tr><td id="d423909e256">
 
 **All active test results in this group**
 
@@ -88,7 +88,7 @@ Description
 
 If selected, all active test results from this remediation task with a state other than **Closed** are added automatically to the change request after you click **Create Change**.
 
-</td></tr><tr><td id="d419248e271">
+</td></tr><tr><td id="d423909e271">
 
 **All active test results in this group matching a set of conditions**
 
@@ -108,15 +108,15 @@ State is **Open** and Risk Score is greater than **50**.
 
 6.  From the list for the **Change type** field, choose one to continue.
 
-<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d419248e344">
+<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d423909e344">
 
 Option
 
-</th><th align="left" id="d419248e347">
+</th><th align="left" id="d423909e347">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d419248e353">
+</th></tr></thead><tbody><tr><td id="d423909e353">
 
 **Emergency**
 
@@ -124,7 +124,7 @@ Description
 
 A change to resolve a major incident.
 
-</td></tr><tr><td id="d419248e362">
+</td></tr><tr><td id="d423909e362">
 
 **Normal**
 
@@ -132,7 +132,7 @@ A change to resolve a major incident.
 
 A change type that is used to implement any change to a service that is not a standard or emergency change.
 
-</td></tr><tr><td id="d419248e371">
+</td></tr><tr><td id="d423909e371">
 
 **Standard**
 

@@ -57,15 +57,15 @@ If the **Summarize** option isn’t visible, an admin has to activate the skill 
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d97895e228">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d100089e228">
 
 Option
 
-</th><th align="left" id="d97895e231">
+</th><th align="left" id="d100089e231">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d97895e237">
+</th></tr></thead><tbody><tr><td id="d100089e237">
 
 **Edit or save the summary**
 
@@ -77,7 +77,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d97895e275">
+</td></tr><tr><td id="d100089e275">
 
 **View information about the summary**
 
@@ -87,7 +87,7 @@ Select the information icon \(![Info icon](../../grc-common/image/icon-more-info
 
  **"AI summarized this using the record details. Check it for accuracy.**
 
-</td></tr><tr><td id="d97895e300">
+</td></tr><tr><td id="d100089e300">
 
 **Expand or collapse the summary card**
 
@@ -97,7 +97,7 @@ Select **View less** to partially collapse the summary, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(![Expand icon.](5e6d873f6db60bae022cf9fcb303bf89a63a7304.png)\) or **Collapse card** icon \(![Collapse icon.](80d47af69a337958ed1e05bed9e9686dc905b6cf.png)\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d97895e342">
+</td></tr><tr><td id="d100089e342">
 
 **Provide feedback**
 
@@ -107,7 +107,7 @@ Select the helpful icon \(![Helpful icon.](328ef1e6ae5fbd285e9f69401ad973e953894
 
  **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d97895e374">
+</td></tr><tr><td id="d100089e374">
 
 **Copy the summary**
 
@@ -115,7 +115,7 @@ Select the helpful icon \(![Helpful icon.](328ef1e6ae5fbd285e9f69401ad973e953894
 
 Select the copy icon \(![Copy icon.](d766411fa2cda51fca6d8b46dc674db6e0bfa2dc.png)\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d97895e392">
+</td></tr><tr><td id="d100089e392">
 
 **Regenerate the summary**
 

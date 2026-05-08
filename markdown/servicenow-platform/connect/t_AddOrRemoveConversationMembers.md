@@ -27,7 +27,7 @@ Role required: none
 
 3.  Do one of the following actions.
 
-<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d153179e81">
+<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d154457e81">
 
 **Add a member**
 
@@ -37,7 +37,7 @@ Role required: none
 2.  Use the search field to find and select a user.
 
 
-</td></tr><tr><td id="d153179e102">
+</td></tr><tr><td id="d154457e102">
 
 **Remove a member**
 

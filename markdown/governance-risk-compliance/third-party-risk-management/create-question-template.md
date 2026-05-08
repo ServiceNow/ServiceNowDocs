@@ -92,7 +92,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 4.  Select the form context menu to select one of the following options.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d89925e528">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d92119e528">
 
 **Save**
 
@@ -100,7 +100,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 Save the current questionnaire or document request.
 
-</td></tr><tr><td id="d89925e537">
+</td></tr><tr><td id="d92119e537">
 
 **Preview**
 
@@ -108,7 +108,7 @@ Save the current questionnaire or document request.
 
 Display a preview of the questionnaire or document request with its current settings.
 
-</td></tr><tr><td id="d89925e546">
+</td></tr><tr><td id="d92119e546">
 
 **New Assessment**
 
@@ -116,7 +116,7 @@ Display a preview of the questionnaire or document request with its current sett
 
 Open a fresh canvas for a new questionnaire or document request.
 
-</td></tr><tr><td id="d89925e555">
+</td></tr><tr><td id="d92119e555">
 
 **Load Assessment**
 
@@ -124,7 +124,7 @@ Open a fresh canvas for a new questionnaire or document request.
 
 Open the list of existing questionnaires or document requests that are available for use.
 
-</td></tr><tr><td id="d89925e564">
+</td></tr><tr><td id="d92119e564">
 
 **Copy Assessment**
 

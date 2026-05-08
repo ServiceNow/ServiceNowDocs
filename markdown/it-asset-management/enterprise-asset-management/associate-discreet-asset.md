@@ -31,15 +31,15 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 5.  On the form, fill in the fields.
 
-<table id="choicetable_ql4_db4_sxb"><thead><tr><th align="left" id="d279730e89">
+<table id="choicetable_ql4_db4_sxb"><thead><tr><th align="left" id="d279844e89">
 
 Field
 
-</th><th align="left" id="d279730e92">
+</th><th align="left" id="d279844e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d279730e98">
+</th></tr></thead><tbody><tr><td id="d279844e98">
 
 **Discrete asset**
 
@@ -47,7 +47,7 @@ Description
 
 Name of the discrete asset.
 
-</td></tr><tr><td id="d279730e107">
+</td></tr><tr><td id="d279844e107">
 
 **Linear asset**
 
@@ -55,7 +55,7 @@ Name of the discrete asset.
 
 Name of the linear asset that the discrete asset is associated to.
 
-</td></tr><tr><td id="d279730e116">
+</td></tr><tr><td id="d279844e116">
 
 **Marker**
 
@@ -63,7 +63,7 @@ Name of the linear asset that the discrete asset is associated to.
 
 Marker of the discrete asset. You can either select an existing marker or select the location picker to create a marker. Marker must be within the linear asset boundary, which is defined by the boundary width of the linear asset.
 
-</td></tr><tr><td id="d279730e127">
+</td></tr><tr><td id="d279844e127">
 
 **Description**
 

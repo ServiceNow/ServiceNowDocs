@@ -51,15 +51,15 @@ Role required: user must have contributor access to the knowledge base.
     -   If there are knowledge blocks you cannot find, make sure that the blocks are published, in the same language, and in the same knowledge base as an article.![Insert knowledge blocks into article, as well as search for and create blocks.](../image/knowledge-blocks-insert-blocks-into-article.png)
 6.  Rearrange knowledge block in the article body.
 
-<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d418230e217">
+<table id="choicetable_fph_h4t_rhb"><thead><tr><th align="left" id="d420680e217">
 
 Option
 
-</th><th align="left" id="d418230e220">
+</th><th align="left" id="d420680e220">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d418230e226">
+</th></tr></thead><tbody><tr><td id="d420680e226">
 
 **If you are using a mouse**
 
@@ -69,7 +69,7 @@ Steps
 2.  Drag and drop the block within the article.
 
 
-</td></tr><tr><td id="d418230e244">
+</td></tr><tr><td id="d420680e244">
 
 **If you are using a keyboard**
 

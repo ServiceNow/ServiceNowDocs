@@ -46,15 +46,15 @@ You can do these actions by using the Now Assist icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the Now Assist icon ![Sparkle icon for Now Assist.](../../../common/image/icon-ai-sparkle.png)
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d392791e189">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d396944e189">
 
 Chat message window
 
-</th><th align="left" id="d392791e192">
+</th><th align="left" id="d396944e192">
 
 Now Assist icon
 
-</th></tr></thead><tbody><tr><td id="d392791e200">
+</th></tr></thead><tbody><tr><td id="d396944e200">
 
 **Typed response**
 
@@ -66,7 +66,7 @@ Provides the option to refine your response:
 -   Shorten
 
 
-</td></tr><tr><td id="d392791e220">
+</td></tr><tr><td id="d396944e220">
 
 **Left blank**
 

@@ -66,15 +66,15 @@ To create an automation project manually, see [Create an automation project manu
 
     ![Build with Now Assist window displays options to regenerate a preview, clear the workflow, stop creating an automation, or select next if you like the automation preview.](../image/text-bot-preview-options.png "Build with Now Assist options")
 
-<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d208137e337">
+<table id="choicetable_tkm_2nn_4dc"><thead><tr><th align="left" id="d208193e337">
 
 Option
 
-</th><th align="left" id="d208137e340">
+</th><th align="left" id="d208193e340">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d208137e346">
+</th></tr></thead><tbody><tr><td id="d208193e346">
 
 **Regenerate preview**
 
@@ -82,7 +82,7 @@ Procedure
 
 If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
 
-</td></tr><tr><td id="d208137e373">
+</td></tr><tr><td id="d208193e373">
 
 **Clear**
 
@@ -90,7 +90,7 @@ If the generated automation preview doesn’t meet your needs, you can update th
 
 If you want to clear the workflow that was created by Now Assist and the instruction in Now Assist, select **Clear** and then select **Yes** in the Confirm clear automation window.
 
-</td></tr><tr><td id="d208137e394">
+</td></tr><tr><td id="d208193e394">
 
 **Cancel**
 
@@ -98,7 +98,7 @@ If you want to clear the workflow that was created by Now Assist and the instruc
 
 If you want to stop creating an automation and return to the RPA Desktop Design Studio home page, select **Cancel**. In the Confirm cancel window, select **Yes** to return to the previous screen.The generated automation workflows, if any, aren’t saved.
 
-</td></tr><tr><td id="d208137e414">
+</td></tr><tr><td id="d208193e414">
 
 **Next**
 

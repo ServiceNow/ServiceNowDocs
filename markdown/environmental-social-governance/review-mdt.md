@@ -29,15 +29,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d32441e86">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d32445e86">
 
 Choice
 
-</th><th align="left" id="d32441e89">
+</th><th align="left" id="d32445e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d32441e95">
+</th></tr></thead><tbody><tr><td id="d32445e95">
 
 **Reject**
 
@@ -47,7 +47,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d32441e116">
+</td></tr><tr><td id="d32445e116">
 
 **Approve**
 

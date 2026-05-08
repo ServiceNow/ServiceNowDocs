@@ -29,15 +29,15 @@ Copy the suitable talent profiles to associate them to your pool from another ta
 
 2.  Go to the **Talent pool** tab.
 
-<table id="choicetable_m2k_wlt_zbc"><thead><tr><th align="left" id="d268464e79">
+<table id="choicetable_m2k_wlt_zbc"><thead><tr><th align="left" id="d271199e79">
 
 Selection
 
-</th><th align="left" id="d268464e82">
+</th><th align="left" id="d271199e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d268464e88">
+</th></tr></thead><tbody><tr><td id="d271199e88">
 
 **Copy talent from one pool to another pool**
 
@@ -45,7 +45,7 @@ Action
 
 Copy talent from one pool to the other from the **Talent pool** tab. Go to the talent pool and in the **Talent** tab, select the profiles to view the **Copy to another pool** button and select it.
 
-</td></tr><tr><td id="d268464e108">
+</td></tr><tr><td id="d271199e108">
 
 **Copy talent profile to a pool**
 

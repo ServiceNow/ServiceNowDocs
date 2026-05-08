@@ -31,15 +31,15 @@ In the Field Service Management application, the work order task assignments don
 
 1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d59541e84">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d59545e84">
 
 Option
 
-</th><th align="left" id="d59541e87">
+</th><th align="left" id="d59545e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d59541e93">
+</th></tr></thead><tbody><tr><td id="d59545e93">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -51,7 +51,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d59541e118">
+</td></tr><tr><td id="d59545e118">
 
 **Create a system property for a table in the Field Service Management application.**
 

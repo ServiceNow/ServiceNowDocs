@@ -6,7 +6,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 4
 breadcrumb: [Use dashboards, Portfolio Planning, Strategic Portfolio Management]
 ---

@@ -63,15 +63,15 @@ The base system offers several guided tours for specific applications, such as P
 
 5.  You can perform any of the following tasks in the GTD.
 
-<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d136554e257">
+<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d146323e257">
 
 Task
 
-</th><th align="left" id="d136554e260">
+</th><th align="left" id="d146323e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d136554e266">
+</th></tr></thead><tbody><tr><td id="d146323e266">
 
 **Edit the text in a step**
 
@@ -85,7 +85,7 @@ Action
 3.  Edit the text and select **Save**.
 
 
-</td></tr><tr><td id="d136554e301">
+</td></tr><tr><td id="d146323e301">
 
 **Edit trigger in a step**
 
@@ -96,7 +96,7 @@ Action
 3.  From the Choose action list, select a trigger, and then select **Save**.
 
 
-</td></tr><tr><td id="d136554e331">
+</td></tr><tr><td id="d146323e331">
 
 **Delete an introduction, step, or conclusion**
 
@@ -104,7 +104,7 @@ Action
 
 In the Tour Steps list, hover over the step you want to remove and then select the Delete icon **⊝**.
 
-</td></tr><tr><td id="d136554e343">
+</td></tr><tr><td id="d146323e343">
 
 **Place the callout on a different page element**
 
@@ -115,7 +115,7 @@ In the Tour Steps list, hover over the step you want to remove and then select t
 3.  Enter a message in the **Text** field, select a trigger from the Choose action list, and then select **Save**.
 
 
-</td></tr><tr><td id="d136554e374">
+</td></tr><tr><td id="d146323e374">
 
 **Apply text formatting in the step instructions**
 
@@ -133,7 +133,7 @@ Don’t add images or video to the text. These media types aren’t supported in
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d136554e408">
+</td></tr><tr><td id="d146323e408">
 
 **Rearrange steps**
 
@@ -141,7 +141,7 @@ Don’t add images or video to the text. These media types aren’t supported in
 
 Drag the steps to the desired order.
 
-</td></tr><tr><td id="d136554e417">
+</td></tr><tr><td id="d146323e417">
 
 **Test the tour**
 
@@ -153,7 +153,7 @@ Select **Preview** if the tour is in draft status.
 
  The page opens in a new window or tab. You can test each step. Note the steps that need corrections.
 
-</td></tr><tr><td id="d136554e441">
+</td></tr><tr><td id="d146323e441">
 
 **Change the guided tour status**
 

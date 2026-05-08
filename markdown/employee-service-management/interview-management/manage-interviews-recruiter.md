@@ -35,15 +35,15 @@ You must activate the Interview Management plugin to have access to this functio
 
 6.  From the interview record page, perform any of the following actions.
 
-<table id="choicetable_j1m_phc_bdc"><thead><tr><th align="left" id="d509816e104">
+<table id="choicetable_j1m_phc_bdc"><thead><tr><th align="left" id="d514812e104">
 
 Option
 
-</th><th align="left" id="d509816e107">
+</th><th align="left" id="d514812e107">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d509816e113">
+</th></tr></thead><tbody><tr><td id="d514812e113">
 
 **Update the state**
 
@@ -51,7 +51,7 @@ Action
 
 On the **Details** tab, update the **State** field.
 
-</td></tr><tr><td id="d509816e128">
+</td></tr><tr><td id="d514812e128">
 
 **View the attendee details**
 
@@ -59,7 +59,7 @@ On the **Details** tab, update the **State** field.
 
 On the **Attendees** tab, view the attendee details such as name, role, acceptance status, job title, and type.
 
-</td></tr><tr><td id="d509816e140">
+</td></tr><tr><td id="d514812e140">
 
 **View the interview feedback details**
 
@@ -67,7 +67,7 @@ On the **Attendees** tab, view the attendee details such as name, role, acceptan
 
 On the **Feedback** tab, view the feedback details such as number, state, rating, review comments, interviewer, and interview type.
 
-</td></tr><tr><td id="d509816e152">
+</td></tr><tr><td id="d514812e152">
 
 **Add a feedback record manually, when an interview has happened off the system**
 
@@ -79,7 +79,7 @@ On the **Feedback** tab, select **Add feedback** and then select the **Interview
 -   The due date on the feedback record created is set as seven days from the interview start date by default. An admin can update the **sn\_ta\_hiring\_core.due\_date\_for\_interview\_feedback** property to change the default value.
 
 
-</td></tr><tr><td id="d509816e185">
+</td></tr><tr><td id="d514812e185">
 
 **Send reminder to interviewer to submit feedback**
 
@@ -87,7 +87,7 @@ On the **Feedback** tab, select **Add feedback** and then select the **Interview
 
 From the **Feedback** tab, open the feedback record and select **Send reminder**.**Note:** Feedback reminders are also configured to be sent automatically for one week \(on alternate days\) from the feedback creation date, by default. This default value can be updated using the **sn\_ta\_hiring\_core.due\_date\_for\_interview\_feedback** property.
 
-</td></tr><tr><td id="d509816e205">
+</td></tr><tr><td id="d514812e205">
 
 **Provide interview feedback**
 
@@ -98,7 +98,7 @@ From the **Feedback** tab:-   To provide interview feedback, open the feedback r
 -   To indicate that an interview assigned to you didn't happen, open the feedback record and select **Interview incomplete** to enter the corresponding reason and comments.
 
 
-</td></tr><tr><td id="d509816e244">
+</td></tr><tr><td id="d514812e244">
 
 **Reschedule an interview**
 
@@ -116,7 +116,7 @@ For a description of the field values, see [Schedule interview form](../referenc
 
  **Note:** The reschedule count of an interview, and the reason and notes entered during rescheduling are saved in the activity stream of the interview record.
 
-</td></tr><tr><td id="d509816e297">
+</td></tr><tr><td id="d514812e297">
 
 **Complete an interview**
 
@@ -124,7 +124,7 @@ For a description of the field values, see [Schedule interview form](../referenc
 
 Select **Mark as complete**.
 
-</td></tr><tr><td id="d509816e309">
+</td></tr><tr><td id="d514812e309">
 
 **Mark an interview as no show**
 
@@ -132,7 +132,7 @@ Select **Mark as complete**.
 
 From the Mark as complete list, select **No show**.
 
-</td></tr><tr><td id="d509816e321">
+</td></tr><tr><td id="d514812e321">
 
 **Cancel an interview**
 

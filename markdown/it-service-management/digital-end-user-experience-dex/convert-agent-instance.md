@@ -6,7 +6,7 @@ release: australia
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Advanced configuration, Configure, Digital End-User Experience, IT Service Management]
 ---

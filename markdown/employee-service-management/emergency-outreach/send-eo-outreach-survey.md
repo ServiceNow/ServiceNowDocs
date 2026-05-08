@@ -35,15 +35,15 @@ Role required: sn\_imt\_checkin.checkin\_admin or admin
 
 4.  On the **When to run** tab, specify when the outreach should be sent.
 
-<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d116745e118">
+<table id="eo-table-when-to-run"><thead><tr><th align="left" id="d117188e118">
 
 Option
 
-</th><th align="left" id="d116745e121">
+</th><th align="left" id="d117188e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116745e127">
+</th></tr></thead><tbody><tr><td id="d117188e127">
 
 **To send the notification on demand**
 
@@ -51,7 +51,7 @@ Action
 
 Keep the default **Mode** value of **None**. The outreach is sent when you select **Send Notification**.
 
-</td></tr><tr><td id="d116745e145">
+</td></tr><tr><td id="d117188e145">
 
 **To schedule the notification**
 
@@ -76,15 +76,15 @@ The outreach messages reference a send time based on the time zone of the user s
 
 5.  Identify who will receive the outreach notification through either the Emergency Outreach or Safe Workplace application.
 
-<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d116745e252">
+<table id="choicetable_mxq_4sk_jmb"><thead><tr><th align="left" id="d117188e252">
 
 App
 
-</th><th align="left" id="d116745e255">
+</th><th align="left" id="d117188e255">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116745e261">
+</th></tr></thead><tbody><tr><td id="d117188e261">
 
 **Emergency Outreach standalone**
 
@@ -92,7 +92,7 @@ Action
 
 On the Select targeted audience tab, select the combination of users to send the outreach notification to. Choose from user lists, groups, departments, locations, or other search filters such as building, cost center, or country code.
 
-</td></tr><tr><td id="d116745e276">
+</td></tr><tr><td id="d117188e276">
 
 **Safe Workplace**
 
@@ -117,15 +117,15 @@ On the Safe Workplace **Audience** tab, select the name of the audience to send 
 
 10. Specify how to send the outreach notification.
 
-<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d116745e370">
+<table id="choicetable_frh_152_jmb"><thead><tr><th align="left" id="d117188e370">
 
 Option
 
-</th><th align="left" id="d116745e373">
+</th><th align="left" id="d117188e373">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d116745e379">
+</th></tr></thead><tbody><tr><td id="d117188e379">
 
 **Disable the email notification**
 
@@ -133,7 +133,7 @@ Action
 
 Clear the **Email** check box.
 
-</td></tr><tr><td id="d116745e391">
+</td></tr><tr><td id="d117188e391">
 
 **Select the survey**
 
@@ -141,7 +141,7 @@ Clear the **Email** check box.
 
 Select the survey to use or keep the default **Employee workplace readiness survey**.
 
-</td></tr><tr><td id="d116745e403">
+</td></tr><tr><td id="d117188e403">
 
 **Select a different notification**
 
@@ -149,7 +149,7 @@ Select the survey to use or keep the default **Employee workplace readiness surv
 
 Click the lookup icon \(![Click icon to look up a notification](../../contact-tracing/image/icon-lookup.png)\) and select the notification to use.
 
-</td></tr><tr><td id="d116745e418">
+</td></tr><tr><td id="d117188e418">
 
 **Review and edit the introductory message**
 
@@ -157,7 +157,7 @@ Click the lookup icon \(![Click icon to look up a notification](../../contact-tr
 
 Modify the subject and body as desired. The notification includes the survey link that the employee can take in the instance or mobile app.
 
-</td></tr><tr><td id="d116745e431">
+</td></tr><tr><td id="d117188e431">
 
 **Send a mobile push notification**
 
@@ -170,7 +170,7 @@ The check box is active if the ServiceNow NowMobile App Screens and Applet Launc
 2.  Modify the push message text as desired.
  Push notifications use the ServiceNow Request Application notification device. When mobile application is registered to an instance, this notification device is automatically created in the user's notification preferences. Ensure that this device is active for the users that you want to receive the push notification.
 
-</td></tr><tr><td id="d116745e460">
+</td></tr><tr><td id="d117188e460">
 
 **Use a custom notification channel**
 

@@ -37,7 +37,7 @@ Role required: none
 
 3.  Accept a conversation in one of the following ways.
 
-<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d94529e124">
+<table id="choicetable_rtc_4wl_wt"><tbody><tr><td id="d95042e124">
 
 **Accept a conversation from a queue**
 
@@ -45,7 +45,7 @@ Role required: none
 
 Under **Queues**, click **Accept** by the queue.The conversation opens in the conversation pane and an entry appears in the **Cases** section of the sidebar.
 
-</td></tr><tr><td id="d94529e145">
+</td></tr><tr><td id="d95042e145">
 
 **Accept a transfer request**
 

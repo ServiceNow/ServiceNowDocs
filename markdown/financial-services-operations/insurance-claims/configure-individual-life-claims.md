@@ -33,15 +33,15 @@ Individual Life Claims includes a death benefit claim workflow that demonstrates
 
 2.  Review the installed components and modify them, or add new ones as applicable.
 
-<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d52530e128">
+<table id="choicetable_oxg_nxp_4bc"><thead><tr><th align="left" id="d52687e128">
 
 Task
 
-</th><th align="left" id="d52530e131">
+</th><th align="left" id="d52687e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52530e137">
+</th></tr></thead><tbody><tr><td id="d52687e137">
 
 **Configure roles and user groups**
 
@@ -58,7 +58,7 @@ Determine the roles of the individuals that you need to work on the claim cases 
 -   Admin: Included in Individual Life Claims and inherits the service definition admin core role. This role performs the configurations that are required for the application. This role is shared across all your lines of business. You may not need to make any changes to this role.
  Next, configure the user groups for the assignment of cases and tasks. You can also assign roles to groups. For more information, see [Configure user groups](../../fso-common/task/configure-groups-fso.md).
 
-</td></tr><tr><td id="d52530e217">
+</td></tr><tr><td id="d52687e217">
 
 **Set up script includes**
 
@@ -74,7 +74,7 @@ Modify the ClaimConstants script include to reuse the object names across functi
 
 For more information, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
 
-</td></tr><tr><td id="d52530e250">
+</td></tr><tr><td id="d52687e250">
 
 **Configure tables and ACLs**
 
@@ -86,7 +86,7 @@ Configure the tables by reviewing the existing tables that were provided in Insu
 
 For more information, see [Data Models](../../fso-common/reference/data-models.md) and [Components installed with Individual Life Claims](../reference/components-installed-individual-life-claims.md).
 
-</td></tr><tr><td id="d52530e282">
+</td></tr><tr><td id="d52687e282">
 
 **Configure form views**
 
@@ -94,7 +94,7 @@ For more information, see [Data Models](../../fso-common/reference/data-models.m
 
 Set up any required views for any new tables according to your business requirements.You can use the included case views and task views in this application for reference.
 
-</td></tr><tr><td id="d52530e294">
+</td></tr><tr><td id="d52687e294">
 
 **Configure service definitions**
 
@@ -106,7 +106,7 @@ You can also define the services for task tables to create different flows for y
 
 For more information, see [Configure service definitions](../../fso-common/task/configure-service-definitions.md).
 
-</td></tr><tr><td id="d52530e318">
+</td></tr><tr><td id="d52687e318">
 
 **Set up UI actions**
 
@@ -118,7 +118,7 @@ Override or hide the actions according to your business requirements.
 
 For more information, see [Defining UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [FSO Core Banking tables](../../fso-common/reference/fso-core-banking-tables.md).
 
-</td></tr><tr><td id="d52530e353">
+</td></tr><tr><td id="d52687e353">
 
 **Configure workspaces**
 
@@ -130,7 +130,7 @@ For more information, see [Enable the claim workspace for Individual Life Claims
 
 For more information, see [Configure CSM Configurable Workspace](../../fso-common/task/configure-csm-workspace-fso-apps.md) and [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
 
-</td></tr><tr><td id="d52530e402">
+</td></tr><tr><td id="d52687e402">
 
 **Configure decision tables**
 
@@ -142,7 +142,7 @@ Set up the decision tables that are specific to your business requirements.Refer
 
 For more information, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
 
-</td></tr><tr><td id="d52530e422">
+</td></tr><tr><td id="d52687e422">
 
 **Configure the approval engine**
 
@@ -152,7 +152,7 @@ Update the approval engine properties as required at **Insurance claim operation
 
 For more information, see [Insurance claims core properties](../../fso-common/reference/insurance-claims-core-roles-and-properties.md#section_agw_r1z_kjb).
 
-</td></tr><tr><td id="d52530e450">
+</td></tr><tr><td id="d52687e450">
 
 **Configure assignment rules**
 
@@ -160,7 +160,7 @@ For more information, see [Insurance claims core properties](../../fso-common/re
 
 Configure the assignment rules to identify the cases that meet certain conditions and then route those cases to agents. For more information, see [Configure assignment rules](../../fso-common/task/configure-assignment-rules-fso-applications.md).
 
-</td></tr><tr><td id="d52530e467">
+</td></tr><tr><td id="d52687e467">
 
 **Edit or create flows**
 

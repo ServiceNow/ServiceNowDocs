@@ -4,7 +4,7 @@ description: Use reference topics to gain valuable insights on the components in
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---

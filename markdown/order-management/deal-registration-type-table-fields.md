@@ -4,7 +4,7 @@ description: Configure the deal registration type table to define how a channel 
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management reference, Reference, Sales Customer Relationship Management]
 ---

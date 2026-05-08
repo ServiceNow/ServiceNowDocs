@@ -29,15 +29,15 @@ The following plugins are not active by default, and you must install them to us
 
 1.  Integrate your ServiceNow instance with the third-party learning source account that you plan to use.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d80905e92">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d81036e92">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d80905e95">
+</th><th align="left" id="d81036e95">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d80905e101">
+</th></tr></thead><tbody><tr><td id="d81036e101">
 
 **Pluralsight Skills account**
 
@@ -45,7 +45,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://www.servicenow.com/docs/access?context=setup-pluralsight-spk&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
 
-</td></tr><tr><td id="d80905e116">
+</td></tr><tr><td id="d81036e116">
 
 **Cornerstone OnDemand application**
 
@@ -53,7 +53,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in [Set up the Cornerstone spoke](https://www.servicenow.com/docs/access?context=setup-cornerstone&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
 
-</td></tr><tr><td id="d80905e134">
+</td></tr><tr><td id="d81036e134">
 
 **Udemy application**
 
@@ -63,7 +63,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
  **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d80905e155">
+</td></tr><tr><td id="d81036e155">
 
 **Sumtotal application**
 
@@ -71,7 +71,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
 Integrate your Sumtotal application with your ServiceNow instance. For more information, see [Set up the Sumtotal spoke](https://www.servicenow.com/docs/access?context=setup-sumtotal&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
 
-</td></tr><tr><td id="d80905e177">
+</td></tr><tr><td id="d81036e177">
 
 **Saba application**
 
@@ -79,7 +79,7 @@ Integrate your Sumtotal application with your ServiceNow instance. For more info
 
 Integrate your Saba application with your ServiceNow instance. For more information, see [Set up Saba spoke](https://www.servicenow.com/docs/access?context=saba-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) .
 
-</td></tr><tr><td id="d80905e197">
+</td></tr><tr><td id="d81036e197">
 
 **Workday Learning**
 
@@ -87,7 +87,7 @@ Integrate your Saba application with your ServiceNow instance. For more informat
 
 Integrate your Workday Learning application with your ServiceNow instance. For more information, see [Set up Workday spoke](https://www.servicenow.com/docs/access?context=saba-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) .
 
-</td></tr><tr><td id="d80905e217">
+</td></tr><tr><td id="d81036e217">
 
 **SuccessFactors Learning**
 

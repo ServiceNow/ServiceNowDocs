@@ -42,15 +42,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
 
 4.  After you request the generative AI capabilities, you can summarize a case.
 
-<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28782e224">
+<table id="choicetable_zrx_zlr_mbc"><thead><tr><th align="left" id="d28786e224">
 
 Option
 
-</th><th align="left" id="d28782e227">
+</th><th align="left" id="d28786e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28782e233">
+</th></tr></thead><tbody><tr><td id="d28786e233">
 
 **Summarize a case**
 

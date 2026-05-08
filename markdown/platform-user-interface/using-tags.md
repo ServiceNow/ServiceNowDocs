@@ -29,7 +29,7 @@ Role required: none
 
 1.  Filter records by tag in any of the following ways.
 
-<table id="choicetable_fnf_gvq_fs"><tbody><tr><td id="d56277e113">
+<table id="choicetable_fnf_gvq_fs"><tbody><tr><td id="d59855e113">
 
 **Filter from the form view**
 
@@ -37,7 +37,7 @@ Role required: none
 
 Select the more options icon \(![More options icon.](../../using-forms/image/IconUI16MoreOptions.png)\), and then select the tag in the menu that opens. A new tab or window opens and displays a list of records that contain the tag.
 
-</td></tr><tr><td id="d56277e131">
+</td></tr><tr><td id="d59855e131">
 
 **Filter from the list view using the __Tags__ column**
 
@@ -45,7 +45,7 @@ Select the more options icon \(![More options icon.](../../using-forms/image/Ico
 
 With the **Tags** column visible, select the tag name. Selecting two or more tags filters the tags together with the AND operator and shows records containing all the selected tags.
 
-</td></tr><tr><td id="d56277e146">
+</td></tr><tr><td id="d59855e146">
 
 **Filter from the list view using the list filter**
 
@@ -75,7 +75,7 @@ An administrator can configure the fields that appear on the tagged document car
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_gmj_pjw_fs"><tbody><tr><td id="d56277e257">
+<table id="choicetable_gmj_pjw_fs"><tbody><tr><td id="d59855e257">
 
 **Display most recently viewed documents**
 
@@ -83,7 +83,7 @@ An administrator can configure the fields that appear on the tagged document car
 
 Select **Most Recent** in the sidebar.
 
-</td></tr><tr><td id="d56277e269">
+</td></tr><tr><td id="d59855e269">
 
 **Display documents associated with a tag**
 
@@ -91,7 +91,7 @@ Select **Most Recent** in the sidebar.
 
 Select the tag name in the sidebar.
 
-</td></tr><tr><td id="d56277e278">
+</td></tr><tr><td id="d59855e278">
 
 **Remove a tag from a record**
 
@@ -99,7 +99,7 @@ Select the tag name in the sidebar.
 
 Select the **x** in the corner of the document preview.
 
-</td></tr><tr><td id="d56277e290">
+</td></tr><tr><td id="d59855e290">
 
 **Open the form for a tagged document**
 
@@ -123,7 +123,7 @@ Role required: none
 
 1.  Perform any of the following actions.
 
-<table id="choicetable_as5_vkw_fs"><tbody><tr><td id="d56277e353">
+<table id="choicetable_as5_vkw_fs"><tbody><tr><td id="d59855e353">
 
 **Remove a tag from a record in the list view using the __Tags__ column**
 
@@ -131,7 +131,7 @@ Role required: none
 
 Confirm that the **Tags** column is visible and select the remove tag icon \(**x**\) beside the tag name.
 
-</td></tr><tr><td id="d56277e371">
+</td></tr><tr><td id="d59855e371">
 
 **Remove a tag from one or more records in the list view using the action menu**
 
@@ -139,7 +139,7 @@ Confirm that the **Tags** column is visible and select the remove tag icon \(**x
 
 Select the check box for one or more records, then select **Actions on selected rows** &gt; **Remove Tag:** &gt; **\[Tag name\]**.
 
-</td></tr><tr><td id="d56277e392">
+</td></tr><tr><td id="d59855e392">
 
 **Remove a tag from a record in the form view**
 
@@ -147,7 +147,7 @@ Select the check box for one or more records, then select **Actions on selected 
 
 Select the more options icon \(![More options icon.](../../using-forms/image/IconUI16MoreOptions.png)\) in the form header, then select the remove tag icon \(**x**\).
 
-</td></tr><tr><td id="d56277e410">
+</td></tr><tr><td id="d59855e410">
 
 **Remove a tag from a record in the Tagged Documents page**
 

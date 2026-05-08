@@ -53,7 +53,7 @@ Messages appear to inform you of the domain situation when you create Spotlight 
 
 3.  Select the **Criteria Type** to determine which records are assigned the specified weight.
 
-<table id="choicetable_gw3_tvp_bx"><tbody><tr><td id="d117000e157">
+<table id="choicetable_gw3_tvp_bx"><tbody><tr><td id="d117004e157">
 
 **Indicator**
 
@@ -61,7 +61,7 @@ Messages appear to inform you of the domain situation when you create Spotlight 
 
 Select an **Indicator** to assign the weight to all records included in that indicator. Optionally, select one or two breakdowns and elements to limit the records to only those records with the specified breakdown element values.
 
-</td></tr><tr><td id="d117000e169">
+</td></tr><tr><td id="d117004e169">
 
 **Query**
 

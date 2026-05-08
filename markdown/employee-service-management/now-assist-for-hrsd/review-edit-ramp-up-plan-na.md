@@ -54,15 +54,15 @@ A manager receives a notification from Now Assist in Virtual Agent after they ac
 
 4.  Converse with Now Assist in Virtual Agent to convey the changes you want made to the ramp-up plan.
 
-<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d202817e234">
+<table id="choicetable_m1q_hjj_cfc"><thead><tr><th align="left" id="d204752e234">
 
 Option
 
-</th><th align="left" id="d202817e237">
+</th><th align="left" id="d204752e237">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d202817e243">
+</th></tr></thead><tbody><tr><td id="d204752e243">
 
 **Create a stage**
 
@@ -70,7 +70,7 @@ Description
 
 Tell Now Assist in Virtual Agent to add a stage with a title of your choice. You can also add courses or tasks to the stage you’re creating in a single request. For example, type `Create a stage named Data Science` to create a stage titled, "Data Science."
 
-</td></tr><tr><td id="d202817e263">
+</td></tr><tr><td id="d204752e263">
 
 **Delete a stage**
 
@@ -78,7 +78,7 @@ Tell Now Assist in Virtual Agent to add a stage with a title of your choice. You
 
 Tell Now Assist in Virtual Agent to delete a stage that you want removed from the ramp-up plan. Deleting a stage also deletes the courses or tasks that are nested in that stage.
 
-</td></tr><tr><td id="d202817e278">
+</td></tr><tr><td id="d204752e278">
 
 **Add a course or task**
 
@@ -86,7 +86,7 @@ Tell Now Assist in Virtual Agent to delete a stage that you want removed from th
 
 Tell Now Assist in Virtual Agent to add a course or task to an existing or new stage. For example, type `Add a task named "Knowledge transfer from Adam Clark" to the Data Science stage` to add a task to the new hire's onboarding journey that appears in the Data Science stage.
 
-</td></tr><tr><td id="d202817e298">
+</td></tr><tr><td id="d204752e298">
 
 **Delete a course or task**
 
@@ -94,7 +94,7 @@ Tell Now Assist in Virtual Agent to add a course or task to an existing or new s
 
 Tell Now Assist in Virtual Agent to delete a course or task that you want removed from a stage in the ramp-up plan.
 
-</td></tr><tr><td id="d202817e316">
+</td></tr><tr><td id="d204752e316">
 
 **Create a one-on-one meeting**
 
@@ -102,7 +102,7 @@ Tell Now Assist in Virtual Agent to delete a course or task that you want remove
 
 Tell Now Assist in Virtual Agent to create a one-on-one meeting for the new hire with the employee you specify.For example, type `Add 1:1 meeting with Abel Tuter` to schedule a one-on-one meeting between the new hire and Abel Tuter as part of the ramp-up plan.
 
-</td></tr><tr><td id="d202817e336">
+</td></tr><tr><td id="d204752e336">
 
 **Delete a one-on-one meeting**
 
@@ -110,7 +110,7 @@ Tell Now Assist in Virtual Agent to create a one-on-one meeting for the new hire
 
 Tell Now Assist in Virtual Agent to delete a one-on-one meeting that you want removed from the ramp-up plan.For example, type `Delete 1:1 meeting with Abel Tuter` to remove a scheduled one-on-one meeting between the new hire and Abel Tuter from the ramp-up plan.
 
-</td></tr><tr><td id="d202817e358">
+</td></tr><tr><td id="d204752e358">
 
 **Update a field in the Journey Accelerator Plan record**
 
@@ -118,7 +118,7 @@ Tell Now Assist in Virtual Agent to delete a one-on-one meeting that you want re
 
 Tell Now Assist in Virtual Agent to update a field in the Journey Accelerator Plan record to a value that you specify.
 
-</td></tr><tr><td id="d202817e379">
+</td></tr><tr><td id="d204752e379">
 
 **Create a task**
 

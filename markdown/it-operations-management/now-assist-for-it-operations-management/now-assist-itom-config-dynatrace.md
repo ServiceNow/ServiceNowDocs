@@ -39,15 +39,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d490362e167">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d497397e167">
 
 Field
 
-</th><th align="left" id="d490362e170">
+</th><th align="left" id="d497397e170">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d490362e176">
+</th></tr></thead><tbody><tr><td id="d497397e176">
 
 **Connection Name**
 
@@ -55,7 +55,7 @@ Description
 
 Name of your Dynatrace connection. This name helps you identify it later. For example, `Dynatrace analysis AI agent connection`.
 
-</td></tr><tr><td id="d490362e193">
+</td></tr><tr><td id="d497397e193">
 
 **Connection URL**
 
@@ -63,7 +63,7 @@ Name of your Dynatrace connection. This name helps you identify it later. For ex
 
 URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<your-resource-name>.live.dynatrace.com`.
 
-</td></tr><tr><td id="d490362e211">
+</td></tr><tr><td id="d497397e211">
 
 **Access token or personal access token \(must prefix with 'Api-Token '\)**
 
@@ -71,7 +71,7 @@ URL of your Dynatrace instance. Dynatrace URLs follow this format: `https://<you
 
 Dynatrace access token or personal access token. The token must begin with `Api-Token`, for example, `Api-Token dt0s01.STABCDEF12345.G3HIJKLMNOP`.
 
-</td></tr><tr><td id="d490362e228">
+</td></tr><tr><td id="d497397e228">
 
 **Header Name**
 

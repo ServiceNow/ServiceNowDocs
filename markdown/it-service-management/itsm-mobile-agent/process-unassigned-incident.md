@@ -45,15 +45,15 @@ Role required: group manager
 
     ![Unassigned incident process](../image/unassigned-process.png)
 
-<table id="choicetable_jl2_m2v_5jb"><thead><tr><th align="left" id="d450988e196">
+<table id="choicetable_jl2_m2v_5jb"><thead><tr><th align="left" id="d451405e196">
 
 Option
 
-</th><th align="left" id="d450988e199">
+</th><th align="left" id="d451405e199">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d450988e205">
+</th></tr></thead><tbody><tr><td id="d451405e205">
 
 **Details tab**
 
@@ -66,7 +66,7 @@ Choose one to continue. -   View the fields for details about the incident. The 
 -   Once assigned to you, resolve the incident after adding a resolution code and notes using the **Resolve** button.
 
 
-</td></tr><tr><td id="d450988e247">
+</td></tr><tr><td id="d451405e247">
 
 **Activity tab**
 
@@ -83,7 +83,7 @@ View the activity on the incident like field changes or assignment changes. Tap 
 6.  **Add Work Notes**: Add your work notes on the incident.
 
 
-</td></tr><tr><td id="d450988e301">
+</td></tr><tr><td id="d451405e301">
 
 **Related tab**
 
@@ -91,7 +91,7 @@ View the activity on the incident like field changes or assignment changes. Tap 
 
 View the related lists of the incident, such as, child incidents, task SLAs, impacted services and affected CIs. Tap on the arrow to view more details of these related items.
 
-</td></tr><tr><td id="d450988e310">
+</td></tr><tr><td id="d451405e310">
 
 **Calls**
 

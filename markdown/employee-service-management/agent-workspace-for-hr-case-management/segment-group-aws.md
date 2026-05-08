@@ -70,15 +70,15 @@ Further details about the user segment.
 
 8.  Indicate how you will indicate which users the bulk case request will create cases for in the **Filter by** field.
 
-<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d428030e192">
+<table id="choicetable_nwr_13z_bbc"><thead><tr><th align="left" id="d432386e192">
 
 Data source
 
-</th><th align="left" id="d428030e195">
+</th><th align="left" id="d432386e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d428030e201">
+</th></tr></thead><tbody><tr><td id="d432386e201">
 
 **File**
 
@@ -92,7 +92,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 4.  Select **Process file**.
 
 
-</td></tr><tr><td id="d428030e252">
+</td></tr><tr><td id="d432386e252">
 
 **HR criteria**
 
@@ -100,7 +100,7 @@ Upload a file with user names or email addresses.1.  Select the file type in the
 
 Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\] or User \[sys\_user\] tables.
 
-</td></tr><tr><td id="d428030e261">
+</td></tr><tr><td id="d432386e261">
 
 **User criteria**
 
@@ -108,7 +108,7 @@ Criteria based on conditions defined by the HR Profile \[sn\_hr\_core\_profile\]
 
 Criteria based on role, department, group, location, or company.
 
-</td></tr><tr><td id="d428030e270">
+</td></tr><tr><td id="d432386e270">
 
 **HR profile**
 
@@ -116,7 +116,7 @@ Criteria based on role, department, group, location, or company.
 
 Condition based on the HR profile \[sn\_hr\_core\_profile\] table.
 
-</td></tr><tr><td id="d428030e280">
+</td></tr><tr><td id="d432386e280">
 
 **Users**
 

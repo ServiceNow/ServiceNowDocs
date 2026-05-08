@@ -4,7 +4,7 @@ description: Administrators can configure Discovery settings, assign roles, mana
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 3
 breadcrumb: [ITOM Configuration Console for Discovery, Now Assist for Setup \(ITOM Visibility\), Now Assist for Setup \(ITOM\), IT Operations Management]
 ---

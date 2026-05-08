@@ -40,15 +40,15 @@ Role required: sn\_test\_management.tester
 
 4.  In the Test Execution pop-up, mark a step as passed, failed, or blocked using the following icons.
 
-<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d277915e123">
+<table id="choicetable_p33_dsw_dcb"><thead><tr><th align="left" id="d278807e123">
 
 Icon
 
-</th><th align="left" id="d277915e126">
+</th><th align="left" id="d278807e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d277915e132">
+</th></tr></thead><tbody><tr><td id="d278807e132">
 
 **![Icon to indicate a step as passed](../../sdlc-scrum/image/passedtest.png)**
 
@@ -56,7 +56,7 @@ Description
 
 Passed.
 
-</td></tr><tr><td id="d277915e147">
+</td></tr><tr><td id="d278807e147">
 
 **![Icon to indicate a step as failed](../../sdlc-scrum/image/failedtest.png)**
 
@@ -66,7 +66,7 @@ Failed. In this state, options to add comments and attachments are available. **
 
 To log a defect in Test Management 2.0, create a defect record manually and include the test name and step number in the defect description.
 
-</td></tr><tr><td id="d277915e171">
+</td></tr><tr><td id="d278807e171">
 
 **![Icon to indicate a step as blocked](../../sdlc-scrum/image/blockedtest.png)**
 

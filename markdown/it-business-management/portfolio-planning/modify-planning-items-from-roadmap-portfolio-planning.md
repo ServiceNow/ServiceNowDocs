@@ -28,15 +28,15 @@ Edit the details of planning items from a side panel view, or the full details v
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d206955e99">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d207578e99">
 
 Roadmap type
 
-</th><th align="left" id="d206955e102">
+</th><th align="left" id="d207578e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d206955e108">
+</th></tr></thead><tbody><tr><td id="d207578e108">
 
 **Portfolio plan roadmap**
 
@@ -46,7 +46,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d206955e129">
+</td></tr><tr><td id="d207578e129">
 
 **Free-form roadmap**
 

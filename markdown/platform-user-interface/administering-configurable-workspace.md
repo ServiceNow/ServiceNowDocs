@@ -4,7 +4,7 @@ description: Admins can enable additional features and make changes that affect 
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

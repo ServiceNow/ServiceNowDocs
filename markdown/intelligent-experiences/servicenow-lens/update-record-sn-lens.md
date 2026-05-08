@@ -54,11 +54,11 @@ You can update a record in the ServiceNow instance in two ways:
 
 1.  Update a record in the ServiceNow instance by performing any of the following methods.
 
-<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d62377e241">
+<table id="choicetable_cyz_stv_v3c"><thead><tr><th align="left" id="d62727e241">
 
 Method
 
-</th><th align="left" id="d62377e244">
+</th><th align="left" id="d62727e244">
 
 Steps
 
@@ -217,15 +217,15 @@ The form is auto-filled.
 
     Only the fields that are supported by ServiceNow AI Lens get auto-populated with the extracted data. If you don’t have any supported fields in your form, then ServiceNow AI Lens won’t update the record. For more information about the supported fields, see [Field types supported](../reference/field-types-supported.md).
 
-<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d62377e883">
+<table id="choicetable_jjf_zx2_s2c"><thead><tr><th align="left" id="d62727e883">
 
 Option
 
-</th><th align="left" id="d62377e886">
+</th><th align="left" id="d62727e886">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d62377e892">
+</th></tr></thead><tbody><tr><td id="d62727e892">
 
 **If the auto-filled text looks good**
 
@@ -233,7 +233,7 @@ Action
 
 Save the record by selecting **Save**.
 
-</td></tr><tr><td id="d62377e904">
+</td></tr><tr><td id="d62727e904">
 
 **If the auto-filled text requires changes**
 

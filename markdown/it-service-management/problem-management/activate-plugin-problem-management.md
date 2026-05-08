@@ -33,7 +33,7 @@ New York Patch 9 or Orlando Patch 3 or later are required before the administrat
 
     If you have the required patch level, you have access to the plugin and can activate it. If you do not have the patch level, you must request it.
 
-<table id="choicetable_zxl_xhm_plb"><tbody><tr><td id="d376734e92">
+<table id="choicetable_zxl_xhm_plb"><tbody><tr><td id="d377151e92">
 
 **Activate the plugin \(required patch level is installed\)**
 
@@ -46,7 +46,7 @@ New York Patch 9 or Orlando Patch 3 or later are required before the administrat
 
 The plugin status changes to **Activated**. You can return to the Migration Utility and continue with the migration.
 
-</td></tr><tr><td id="d376734e130">
+</td></tr><tr><td id="d377151e130">
 
 **Request the plugin**
 

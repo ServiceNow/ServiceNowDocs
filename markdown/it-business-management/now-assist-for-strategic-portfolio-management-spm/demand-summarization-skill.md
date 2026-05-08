@@ -30,15 +30,15 @@ If you have custom roles that require access to this skill, update the ACLs \(ac
 
 1.  Access a demand record in one of the following ways.
 
-<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d181852e120">
+<table id="choicetable_vkp_mtx_mhc"><thead><tr><th align="left" id="d182475e120">
 
 Option
 
-</th><th align="left" id="d181852e123">
+</th><th align="left" id="d182475e123">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d181852e129">
+</th></tr></thead><tbody><tr><td id="d182475e129">
 
 **Demand in Next Experience for Demand Management**
 
@@ -49,7 +49,7 @@ Steps
 3.  Navigate to the **Details** tab.
 
 
-</td></tr><tr><td id="d181852e170">
+</td></tr><tr><td id="d182475e170">
 
 **Demand in classic Demand Management**
 

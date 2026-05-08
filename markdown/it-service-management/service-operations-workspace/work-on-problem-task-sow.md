@@ -33,15 +33,15 @@ Role required: itil or problem\_task\_analyst \(for changing the state of the pr
 
 3.  Perform any of the following actions on the problem task record page.
 
-<table id="choicetable_sj2_3wq_cbc"><thead><tr><th align="left" id="d382839e102">
+<table id="choicetable_sj2_3wq_cbc"><thead><tr><th align="left" id="d383256e102">
 
 Option
 
-</th><th align="left" id="d382839e105">
+</th><th align="left" id="d383256e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d382839e111">
+</th></tr></thead><tbody><tr><td id="d383256e111">
 
 **Assign a problem task to yourself**
 
@@ -49,7 +49,7 @@ Description
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d382839e123">
+</td></tr><tr><td id="d383256e123">
 
 **Assess a problem task**
 
@@ -57,7 +57,7 @@ Select **Assign to me**.
 
 Select **Assess** and fill the mandatory fields.
 
-</td></tr><tr><td id="d382839e135">
+</td></tr><tr><td id="d383256e135">
 
 **Start work on a problem task**
 
@@ -65,7 +65,7 @@ Select **Assess** and fill the mandatory fields.
 
 Select **Start work**.
 
-</td></tr><tr><td id="d382839e147">
+</td></tr><tr><td id="d383256e147">
 
 **Cancel a problem task**
 
@@ -73,7 +73,7 @@ Select **Start work**.
 
 Select **Cancel task** and fill the mandatory fields.
 
-</td></tr><tr><td id="d382839e160">
+</td></tr><tr><td id="d383256e160">
 
 **Delete a problem task**
 
@@ -81,7 +81,7 @@ Select **Cancel task** and fill the mandatory fields.
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Delete**.
 
-</td></tr><tr><td id="d382839e178">
+</td></tr><tr><td id="d383256e178">
 
 **Attach knowledge articles or records that help a quick resolution of a problem task**
 
@@ -91,7 +91,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 2.  Search for a resource and perform the required action.
 The knowledge articles attached here are displayed in the **Related records** tab.
 
-</td></tr><tr><td id="d382839e204">
+</td></tr><tr><td id="d383256e204">
 
 **Add an attachment to a problem task**
 
@@ -99,7 +99,7 @@ The knowledge articles attached here are displayed in the **Related records** ta
 
 From the contextual side panel, select the attachments icon \(![attachments icon](../../itsm-workspace/image/attachment-icon.png)\).
 
-</td></tr><tr><td id="d382839e219">
+</td></tr><tr><td id="d383256e219">
 
 **Copy the record page URL to easily access the record**
 
@@ -107,7 +107,7 @@ From the contextual side panel, select the attachments icon \(![attachments icon
 
 Select the more actions icon \(![more actions icon](../../itsm-workspace/image/more-actions-icon.png)\) and select **Copy URL**.
 
-</td></tr><tr><td id="d382839e237">
+</td></tr><tr><td id="d383256e237">
 
 **Complete a problem task**
 
@@ -115,7 +115,7 @@ Select the more actions icon \(![more actions icon](../../itsm-workspace/image/m
 
 Select **Complete** and fill the mandatory fields.
 
-</td></tr><tr><td id="d382839e249">
+</td></tr><tr><td id="d383256e249">
 
 **Create templates for reuse**
 
@@ -123,7 +123,7 @@ Select **Complete** and fill the mandatory fields.
 
 From the contextual side panel, select the templates icon \(![templates icon.](../image/template-icon.png)\).
 
-</td></tr><tr><td id="d382839e265">
+</td></tr><tr><td id="d383256e265">
 
 **Re-assess a problem task**
 

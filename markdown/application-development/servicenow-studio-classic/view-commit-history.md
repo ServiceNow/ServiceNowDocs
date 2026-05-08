@@ -34,7 +34,7 @@ Try building and editing apps in the current version of ServiceNow Studio instea
 
 2.  Select the commit sort order type.
 
-<table id="choicetable_hz1_hmh_jx"><tbody><tr><td id="d253471e140">
+<table id="choicetable_hz1_hmh_jx"><tbody><tr><td id="d253475e140">
 
 **Date**
 
@@ -42,7 +42,7 @@ Try building and editing apps in the current version of ServiceNow Studio instea
 
 Sort by commit date.
 
-</td></tr><tr><td id="d253471e149">
+</td></tr><tr><td id="d253475e149">
 
 **Committer**
 
@@ -53,7 +53,7 @@ Sort by user name.
 </td></tr></tbody>
 </table>3.  Select the sort order direction.
 
-<table id="choicetable_xvp_4mh_jx"><tbody><tr><td id="d253471e167">
+<table id="choicetable_xvp_4mh_jx"><tbody><tr><td id="d253475e167">
 
 **Descending**
 
@@ -61,7 +61,7 @@ Sort by user name.
 
 Sort dates from the most recent to oldest date. Sort user names reverse-alphabetically from Z to A.
 
-</td></tr><tr><td id="d253471e176">
+</td></tr><tr><td id="d253475e176">
 
 **Ascending**
 

@@ -31,15 +31,15 @@ Role required: admin
 
 5.  Select the Data Pill Picker icon ![data pill picker](../image/data-pill-pick.png) for the field you want to change the recipients of intraday schedule automation notifications.
 
-<table id="choicetable_u45_d4c_vgc"><thead><tr><th align="left" id="d74534e99">
+<table id="choicetable_u45_d4c_vgc"><thead><tr><th align="left" id="d74538e99">
 
 Action input
 
-</th><th align="left" id="d74534e102">
+</th><th align="left" id="d74538e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d74534e108">
+</th></tr></thead><tbody><tr><td id="d74538e108">
 
 **Recipient user field**
 
@@ -47,7 +47,7 @@ Description
 
 Determine the recipient of the notification by choosing a sys\_user field.
 
-</td></tr><tr><td id="d74534e120">
+</td></tr><tr><td id="d74538e120">
 
 **Recipient group fields**
 
@@ -55,7 +55,7 @@ Determine the recipient of the notification by choosing a sys\_user field.
 
 Choose a different group to receive notifications.
 
-</td></tr><tr><td id="d74534e129">
+</td></tr><tr><td id="d74538e129">
 
 **Scripted recipients**
 

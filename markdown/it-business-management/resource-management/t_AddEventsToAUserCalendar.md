@@ -25,7 +25,7 @@ Role required: resource\_manager
 
 2.  Do one of the following.
 
-<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d126938e80">
+<table id="choicetable_g3t_jz2_zs"><tbody><tr><td id="d127441e80">
 
 **From the User list**
 
@@ -33,7 +33,7 @@ Role required: resource\_manager
 
 Right-click a user name in the Users list and select **View Calendar**.
 
-</td></tr><tr><td id="d126938e92">
+</td></tr><tr><td id="d127441e92">
 
 **From the User form**
 

@@ -53,15 +53,15 @@ Role required: itil or admin
 
 10. To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d277866e240">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d278117e240">
 
 Option
 
-</th><th align="left" id="d277866e243">
+</th><th align="left" id="d278117e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d277866e249">
+</th></tr></thead><tbody><tr><td id="d278117e249">
 
 **Import a chat from any conversation**
 
@@ -72,7 +72,7 @@ Description
 3.  Select the chat and click **Import**.
 
 
-</td></tr><tr><td id="d277866e279">
+</td></tr><tr><td id="d278117e279">
 
 **Import a chat from a conversation in which you are a member**
 

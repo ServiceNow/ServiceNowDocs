@@ -29,15 +29,15 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d106971e98">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d115137e98">
 
 Option
 
-</th><th align="left" id="d106971e101">
+</th><th align="left" id="d115137e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d106971e107">
+</th></tr></thead><tbody><tr><td id="d115137e107">
 
 **From Accessibility inspector**
 
@@ -49,7 +49,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d106971e146">
+</td></tr><tr><td id="d115137e146">
 
 **From the Component styles menu**
 

@@ -46,15 +46,15 @@ The following procedure involves downloading an Excel Workbook \(.xlsx\) spreads
 
 4.  Using one row for a source term and its translations, and using drop-down selections where applicable, fill in the spreadsheet according to the following guidance.
 
-<table id="choicetable_i4m_5rp_g3c"><thead><tr><th align="left" id="d310460e168">
+<table id="choicetable_i4m_5rp_g3c"><thead><tr><th align="left" id="d313574e168">
 
 Column
 
-</th><th align="left" id="d310460e171">
+</th><th align="left" id="d313574e171">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d310460e177">
+</th></tr></thead><tbody><tr><td id="d313574e177">
 
 **glossary\_name**
 
@@ -62,7 +62,7 @@ Value
 
 This is displayed as **Glossary Name** in the UI. Each row should have a value in the glossary\_name column.
 
-</td></tr><tr><td id="d310460e189">
+</td></tr><tr><td id="d313574e189">
 
 **glossary\_description**
 
@@ -70,7 +70,7 @@ This is displayed as **Glossary Name** in the UI. Each row should have a value i
 
 \(Optional\). Enter a description of the glossary. This value is displayed as **Glossary Description** in the UI.
 
-</td></tr><tr><td id="d310460e201">
+</td></tr><tr><td id="d313574e201">
 
 **product\_service**
 
@@ -78,7 +78,7 @@ This is displayed as **Glossary Name** in the UI. Each row should have a value i
 
 This is displayed as **Product/Service** in the UI, and is a way to filter or subdivide a glossary. Use this if a source term has different translations depending on the Product/Service. **Note:** The same source term can be listed multiple times in one glossary when associated to different product\_service values.
 
-</td></tr><tr><td id="d310460e215">
+</td></tr><tr><td id="d313574e215">
 
 **term**
 
@@ -88,7 +88,7 @@ Enter the source term \(the original word or phrase\). Terms can contain spaces,
 
 You can enter the same source term multiple times, but each variation must be assigned to either a different Part of Speech or a different Product/Service category.
 
-</td></tr><tr><td id="d310460e232">
+</td></tr><tr><td id="d313574e232">
 
 **definition**
 
@@ -96,7 +96,7 @@ You can enter the same source term multiple times, but each variation must be as
 
 The definition for the source term.
 
-</td></tr><tr><td id="d310460e241">
+</td></tr><tr><td id="d313574e241">
 
 **part\_of\_speech**
 
@@ -104,7 +104,7 @@ The definition for the source term.
 
 This is a drop-down selection in the template. Choose from noun, verb, and so forth.**Note:** The same source term can be listed multiple times in one glossary when associated to different part\_of\_speech values.
 
-</td></tr><tr><td id="d310460e252">
+</td></tr><tr><td id="d313574e252">
 
 **do\_not\_translate**
 
@@ -112,7 +112,7 @@ This is a drop-down selection in the template. Choose from noun, verb, and so fo
 
 This is a boolean drop-down selection in the template. Choose TRUE when terms shouldn't be translated.
 
-</td></tr><tr><td id="d310460e261">
+</td></tr><tr><td id="d313574e261">
 
 **source\_language**
 
@@ -120,7 +120,7 @@ This is a boolean drop-down selection in the template. Choose TRUE when terms sh
 
 This is a drop-down selection in the template. Choose the language ID of the source term.
 
-</td></tr><tr><td id="d310460e270">
+</td></tr><tr><td id="d313574e270">
 
 **\(language ID codes\)**
 

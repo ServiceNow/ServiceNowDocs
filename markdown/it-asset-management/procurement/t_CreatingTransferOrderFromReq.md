@@ -25,15 +25,15 @@ Role required: procurement\_admin or procurement\_user
 
 1.  View procurement requests.
 
-<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d196177e68">
+<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d196291e68">
 
 UI
 
-</th><th align="left" id="d196177e71">
+</th><th align="left" id="d196291e71">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d196177e77">
+</th></tr></thead><tbody><tr><td id="d196291e77">
 
 **Core UI**
 
@@ -41,7 +41,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
-</td></tr><tr><td id="d196177e101">
+</td></tr><tr><td id="d196291e101">
 
 **Hardware Asset Workspace**
 

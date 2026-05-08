@@ -6,7 +6,7 @@ release: australia
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 keywords: [Explore experiences with onboarding modals, Overview, Trigger modals]
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]

@@ -48,15 +48,15 @@ Use the **Modify signatories** option to pause the signature process when you wa
 
 6.  Modify signatories.
 
-<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d532108e160">
+<table id="choicetable_pq3_jkd_wfc"><thead><tr><th align="left" id="d537290e160">
 
 Action
 
-</th><th align="left" id="d532108e163">
+</th><th align="left" id="d537290e163">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d532108e169">
+</th></tr></thead><tbody><tr><td id="d537290e169">
 
 **Add signatories**
 
@@ -68,7 +68,7 @@ Steps
 4.  Select **Add**.
  **Note:** The **Add** option is not available for self-served contract requests using contract templates with participant-based signatories.
 
-</td></tr><tr><td id="d532108e211">
+</td></tr><tr><td id="d537290e211">
 
 **Edit signatory**
 
@@ -82,7 +82,7 @@ Signatory details page is displayed.
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d532108e237">
+</td></tr><tr><td id="d537290e237">
 
 **Reorder signatories**
 
@@ -97,7 +97,7 @@ Reorder pop-up is displayed.
 4.  Select **Reorder**.
 
 
-</td></tr><tr><td id="d532108e275">
+</td></tr><tr><td id="d537290e275">
 
 **Remove signatories**
 

@@ -4,7 +4,7 @@ description: Install the plugin \(com.snc.deal\_registration\_management\), alon
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Deal Registration, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -44,15 +44,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d158110e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d158142e134">
 
 Demo data install task
 
-</th><th align="left" id="d158110e137">
+</th><th align="left" id="d158142e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d158110e143">
+</th></tr></thead><tbody><tr><td id="d158142e143">
 
 **If demo data is available and you want to install it**
 
@@ -62,7 +62,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d158110e173">
+</td></tr><tr><td id="d158142e173">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

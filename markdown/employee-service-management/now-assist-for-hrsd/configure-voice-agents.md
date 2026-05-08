@@ -39,15 +39,15 @@ Install the following plugins:
 
 3.  For the following AI voice agents, perform these additional configuration steps.
 
-<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d603126e125">
+<table id="choicetable_skr_2cp_3hc"><thead><tr><th align="left" id="d609086e125">
 
 AI agent
 
-</th><th align="left" id="d603126e128">
+</th><th align="left" id="d609086e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d603126e134">
+</th></tr></thead><tbody><tr><td id="d609086e134">
 
 **HR Case assistant**
 
@@ -58,7 +58,7 @@ Steps
 3.  Select **Index selected tables**.
 
 
-</td></tr><tr><td id="d603126e176">
+</td></tr><tr><td id="d609086e176">
 
 **Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Requester**
 

@@ -4,7 +4,7 @@ description: Scan Engine security definitions measure implementation of protocol
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 38
 breadcrumb: [View and modify Scan Engine definitions, Scan Engine definitions, Scan Engine, Platform Health, Using Impact, Impact]
 ---

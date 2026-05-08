@@ -4,7 +4,7 @@ description: Install the Partner Relationship Management plugin \(com.snc.partne
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---

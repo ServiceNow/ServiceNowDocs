@@ -269,15 +269,15 @@ Versions
 </td></tr></tbody>
 </table>6.  When you are finished creating the specification version, do one of the following actions.
 
-<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d26169e514">
+<table id="choicetable_zw3_3sc_dtb"><thead><tr><th align="left" id="d26173e514">
 
 Action
 
-</th><th align="left" id="d26169e517">
+</th><th align="left" id="d26173e517">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26169e523">
+</th></tr></thead><tbody><tr><td id="d26173e523">
 
 **Publish**
 
@@ -287,7 +287,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 -   After you publish a specification, you can't change or delete it, unless you create a version for it.
 
 
-</td></tr><tr><td id="d26169e541">
+</td></tr><tr><td id="d26173e541">
 
 **Update**
 
@@ -295,7 +295,7 @@ Publish the draft specification so that you can use it in a product offering. - 
 
 Update the specification with the new data that you added, but do not publish it for use in a product offering.
 
-</td></tr><tr><td id="d26169e550">
+</td></tr><tr><td id="d26173e550">
 
 **Copy**
 

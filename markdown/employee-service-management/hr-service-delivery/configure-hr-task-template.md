@@ -23,15 +23,15 @@ Role required: sn\_hr\_core.admin
 
 1.  Choose one of the following.
 
-<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d779374e51">
+<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d787015e51">
 
 Option
 
-</th><th align="left" id="d779374e54">
+</th><th align="left" id="d787015e54">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d779374e60">
+</th></tr></thead><tbody><tr><td id="d787015e60">
 
 **HR service activity**
 
@@ -48,7 +48,7 @@ Description
 3.  In the **Child task template** field, click the Lookup icon.
 
 
-</td></tr><tr><td id="d779374e115">
+</td></tr><tr><td id="d787015e115">
 
 **\( Enterprise Onboarding and Transitions only\) Lifecycle event activity**
 

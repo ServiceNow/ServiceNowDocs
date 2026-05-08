@@ -29,15 +29,15 @@ Update and close the adjuster tasks of the claim case.
 
 2.  Open the task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d115000e81">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d115462e81">
 
 Option
 
-</th><th align="left" id="d115000e84">
+</th><th align="left" id="d115462e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d115000e90">
+</th></tr></thead><tbody><tr><td id="d115462e90">
 
 **From the landing page**
 
@@ -45,7 +45,7 @@ Steps
 
 Select a task from the All open claims list.
 
-</td></tr><tr><td id="d115000e99">
+</td></tr><tr><td id="d115462e99">
 
 **From the Personal auto claim adjuster tasks list**
 
@@ -61,15 +61,15 @@ Select a task from the All open claims list.
 
 4.  Work on the adjuster task by completing various actions from the claim workspace.
 
-<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d115000e150">
+<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d115462e150">
 
 Claim task
 
-</th><th align="left" id="d115000e153">
+</th><th align="left" id="d115462e153">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d115000e162">
+</th></tr></thead><tbody><tr><td id="d115462e162">
 
 **To add a document verification task**
 
@@ -80,7 +80,7 @@ Claim workspace actions
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d115000e192">
+</td></tr><tr><td id="d115462e192">
 
 **To verify a document**
 
@@ -88,7 +88,7 @@ Claim workspace actions
 
 Select **Verify** to verify the document or **Reject** to reject the submitted document for verification.
 
-</td></tr><tr><td id="d115000e207">
+</td></tr><tr><td id="d115462e207">
 
 **To add claim coverage**
 
@@ -101,7 +101,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d115000e243">
+</td></tr><tr><td id="d115462e243">
 
 **To add a reserve or payment**
 
@@ -114,7 +114,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d115000e277">
+</td></tr><tr><td id="d115462e277">
 
 **To add an ad-hoc claim task**
 
@@ -125,7 +125,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d115000e304">
+</td></tr><tr><td id="d115462e304">
 
 **To submit a reserve or payment amount for approval**
 
@@ -135,7 +135,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d115000e333">
+</td></tr><tr><td id="d115462e333">
 
 **To refer a claim for fraud evaluation**
 
@@ -143,7 +143,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 
 Select **Send to SIU**.
 
-</td></tr><tr><td id="d115000e345">
+</td></tr><tr><td id="d115462e345">
 
 **To submit a claim settlement decision**
 

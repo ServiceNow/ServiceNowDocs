@@ -4,7 +4,7 @@ description: Group entities effectively based on value, performance, or relevanc
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Explore, Sales Customer Relationship Management]
 ---

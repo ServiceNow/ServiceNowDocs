@@ -27,15 +27,15 @@ Role required: it\_project\_manager
 
 1.  To compare the schedule baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d212212e64">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d212988e64">
 
 Option
 
-</th><th align="left" id="d212212e67">
+</th><th align="left" id="d212988e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d212212e73">
+</th></tr></thead><tbody><tr><td id="d212988e73">
 
 **From the Planning Console**
 
@@ -47,7 +47,7 @@ Steps
 4.  On the Planning Console, select the more actions icon \(![More actions icon](../../planning-and-policy/image/gannt_chart_icon.png)\) and then from the Baselines list, select a baseline.
 
 
-</td></tr><tr><td id="d212212e121">
+</td></tr><tr><td id="d212988e121">
 
 **From the Baseline form**
 

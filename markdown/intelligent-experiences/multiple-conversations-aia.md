@@ -4,7 +4,7 @@ description: Multiple active conversations enable live agents to maintain separa
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist AI agents, Enable AI experiences]
 ---

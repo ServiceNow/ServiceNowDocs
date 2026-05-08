@@ -40,15 +40,15 @@ To view more robot events, add the appropriate **Life Cycle Stage Status** filte
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d505485e157">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d507539e157">
 
 Option
 
-</th><th align="left" id="d505485e160">
+</th><th align="left" id="d507539e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d505485e166">
+</th></tr></thead><tbody><tr><td id="d507539e166">
 
 **View a robot calendar from a robot**
 
@@ -59,7 +59,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d505485e199">
+</td></tr><tr><td id="d507539e199">
 
 **View a robot calendar from a bot process**
 
@@ -75,15 +75,15 @@ Action
 </td></tr></tbody>
 </table>4.  On the **Robot Calendar** tab, perform any of the following actions.
 
-<table id="choicetable_jxq_nft_v5b"><thead><tr><th align="left" id="d505485e256">
+<table id="choicetable_jxq_nft_v5b"><thead><tr><th align="left" id="d507539e256">
 
 Option
 
-</th><th align="left" id="d505485e259">
+</th><th align="left" id="d507539e259">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d505485e265">
+</th></tr></thead><tbody><tr><td id="d507539e265">
 
 **Today**
 
@@ -91,7 +91,7 @@ Action
 
 Highlights the current date.
 
-</td></tr><tr><td id="d505485e274">
+</td></tr><tr><td id="d507539e274">
 
 **Date range \(&lt;, &gt;\)**
 
@@ -99,7 +99,7 @@ Highlights the current date.
 
 Select the arrow buttons \(**&lt;**, **&gt;**\) to view the next calendar view that is based on the defined date range.
 
-</td></tr><tr><td id="d505485e289">
+</td></tr><tr><td id="d507539e289">
 
 **Schedule Timezones**
 
@@ -127,7 +127,7 @@ View the time zones that are defined for the robot, such as, the robot time zone
 
  If the robot is associated with a bot process whose schedule has to be triggered based on workstation time zone, then those workstation time zones are displayed in the time zone list.
 
-</td></tr><tr><td id="d505485e341">
+</td></tr><tr><td id="d507539e341">
 
 **Day**
 
@@ -135,7 +135,7 @@ View the time zones that are defined for the robot, such as, the robot time zone
 
 View events in the calendar for a particular day. See the following example for a snapshot of the Robot calendar view.![Example: Snapshot of the Robot Calendar view for a day, October 20, 2022.](../image/day-rc-rpa.png "Example: Snapshot of the Robot calendar view for a day (October 20, 2022)")
 
-</td></tr><tr><td id="d505485e363">
+</td></tr><tr><td id="d507539e363">
 
 **Week**
 
@@ -151,7 +151,7 @@ View events in the calendar for a particular week. The week view starts from Sun
 
  ![Example: Snapshot of the Robot Calendar view for a week, November 13 to 19, 2022.](../image/week-rc-rpa.png "Example: Snapshot of the Robot calendar view for a week (November 13 to 19, 2022)")
 
-</td></tr><tr><td id="d505485e409">
+</td></tr><tr><td id="d507539e409">
 
 **Month**
 
@@ -159,7 +159,7 @@ View events in the calendar for a particular week. The week view starts from Sun
 
 View events in the calendar for a particular month. See the following example for a snapshot of the Robot calendar view.![Example: Snapshot of the Robot Calendar view for a month, November 2022.](../image/month-rc-rpa.png "Example: Snapshot of the Robot calendar view for a month (November 2022)")
 
-</td></tr><tr><td id="d505485e430">
+</td></tr><tr><td id="d507539e430">
 
 **New Schedule**
 
@@ -167,7 +167,7 @@ View events in the calendar for a particular month. See the following example fo
 
 Create a schedule on the **Robot Calendar** tab by selecting the **New Schedule** button, to execute unattended robots.You can also create a schedule by right-clicking or double-clicking an empty slot of the robot calendar. For more information about creating a schedule, see [Create a schedule on the robot calendar in RPA Hub](create-robot-schedule.md#).
 
-</td></tr><tr><td id="d505485e463">
+</td></tr><tr><td id="d507539e463">
 
 **Refresh**
 
@@ -175,7 +175,7 @@ Create a schedule on the **Robot Calendar** tab by selecting the **New Schedule*
 
 View new or updated schedules on the robot calendar by selecting the refresh icon \(![Refresh icon.](../image/refresh-rc-icon.png)\).
 
-</td></tr><tr><td id="d505485e478">
+</td></tr><tr><td id="d507539e478">
 
 **Show or hide agenda view**
 
@@ -183,7 +183,7 @@ View new or updated schedules on the robot calendar by selecting the refresh ico
 
 Show or hide events for the particular day, week, or month by selecting the agenda icon \(![Agenda icon.](../image/agenda-rc-rpa-icon.png)\). See the following example for a snapshot of the show or hide agenda filter view.![Show or hide the agenda view filter.](../image/agenda-view-rc-rpa.gif "Show or hide agenda view filter")
 
-</td></tr><tr><td id="d505485e505">
+</td></tr><tr><td id="d507539e505">
 
 **Show Filter**
 
@@ -199,7 +199,7 @@ Select the filter icon \(![Filter icon.](../image/filter-rc-rpa.png)\) to view t
 -   To remove items from the selection, double-click the item on the right, or select the item and select the remove icon \(**&lt;**\). Then, select **Apply**.
 
 
-</td></tr><tr><td id="d505485e560">
+</td></tr><tr><td id="d507539e560">
 
 **Event cards**
 
@@ -209,7 +209,7 @@ View the event cards in the Scheduled events section.Limited information about t
 
  ![Example: Snapshot of the event cards on the robot landing page.](../image/event-card-rc-rpa.png "Example: Snapshot of the event cards")
 
-</td></tr><tr><td id="d505485e584">
+</td></tr><tr><td id="d507539e584">
 
 **Event details**
 
@@ -221,7 +221,7 @@ To view more event details of the bot process and its schedule, double-click an 
 
  ![Event details snapshot of the associated bot process whose interval type is Weekly.](../image/event-card-weekly.png "Event details snapshot of the associated bot process whose interval type is Weekly")
 
-</td></tr><tr><td id="d505485e629">
+</td></tr><tr><td id="d507539e629">
 
 **Event pop-up windows**
 

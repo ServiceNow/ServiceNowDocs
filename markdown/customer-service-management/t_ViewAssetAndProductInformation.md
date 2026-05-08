@@ -25,7 +25,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 2.  Click one of the following to view more information.
 
-<table id="choicetable_jwd_kgq_ft"><tbody><tr><td id="d80355e93">
+<table id="choicetable_jwd_kgq_ft"><tbody><tr><td id="d80359e93">
 
 **__Display name__**
 
@@ -33,7 +33,7 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 
 Displays the asset information.
 
-</td></tr><tr><td id="d80355e105">
+</td></tr><tr><td id="d80359e105">
 
 **__Account__**
 
@@ -41,7 +41,7 @@ Displays the asset information.
 
 Displays the account information.
 
-</td></tr><tr><td id="d80355e117">
+</td></tr><tr><td id="d80359e117">
 
 **__Model category__**
 

@@ -35,7 +35,7 @@ You can also create a knowledge article when adding a knowledge block. For more 
 
 4.  Create the knowledge article by either selecting an article template or using the default template.
 
-<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d532983e117">
+<table id="choicetable_ajx_szw_hkb"><tbody><tr><td id="d536509e117">
 
 **Selected article template**
 
@@ -51,7 +51,7 @@ Select an article template to create a knowledge article using defined fields an
 3.  Select **Create Article**.
  The Create Article dialog box is available if the article versioning and the Knowledge Article Templates features are enabled. For more information, see [Article versioning](../concept/article-versioning.md) and [Knowledge article templates](../concept/knowledge-article-templates.md).
 
-</td></tr><tr><td id="d532983e162">
+</td></tr><tr><td id="d536509e162">
 
 **Default Standard template**
 

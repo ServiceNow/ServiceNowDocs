@@ -129,7 +129,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d161882e562">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d163106e562">
 
 **Reorder by changing the Rank number**
 
@@ -141,7 +141,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d161882e595">
+</td></tr><tr><td id="d163106e595">
 
 **Reorder by dragging and dropping a row**
 

@@ -35,15 +35,15 @@ Roles required: sn\_kmf.admin
 
 4.  Fill in the fields to complete the form.
 
-<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d105513e104">
+<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d105725e104">
 
 Field
 
-</th><th align="left" id="d105513e107">
+</th><th align="left" id="d105725e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d105513e113">
+</th></tr></thead><tbody><tr><td id="d105725e113">
 
 **Approvers**
 
@@ -51,7 +51,7 @@ Description
 
 Designate the members of the quorum from the list of users. Select the lock icon ![Lock icon.](../../key-management-framework/image/lock-icon.png) to open the user directory. There is no limit to the number of approvers that can be selected.
 
-</td></tr><tr><td id="d105513e128">
+</td></tr><tr><td id="d105725e128">
 
 **Minimum number of approvers to achieve quorum**
 
@@ -59,7 +59,7 @@ Designate the members of the quorum from the list of users. Select the lock icon
 
 Designate the minimum number of approvers required to achieve quorum. For example, if there are nine approvers selected, a minimum of five may be configured for quorum. When five approvals are received in the system, quorum is reached and the withdraw operation starts.**Note:** The minimum number of required approvers is two.
 
-</td></tr><tr><td id="d105513e140">
+</td></tr><tr><td id="d105725e140">
 
 **Requests expire after the specified duration \(hours\)**
 

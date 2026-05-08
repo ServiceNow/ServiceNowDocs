@@ -27,15 +27,15 @@ Role required: none
 
 3.  Set global notification preferences.
 
-<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d126502e91">
+<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d127813e91">
 
 Option
 
-</th><th align="left" id="d126502e94">
+</th><th align="left" id="d127813e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d126502e100">
+</th></tr></thead><tbody><tr><td id="d127813e100">
 
 **Allow Notifications**
 
@@ -43,7 +43,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d126502e109">
+</td></tr><tr><td id="d127813e109">
 
 **Advanced Preferences**
 
@@ -51,7 +51,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d126502e118">
+</td></tr><tr><td id="d127813e118">
 
 **System notifications**
 
@@ -59,7 +59,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d126502e130">
+</td></tr><tr><td id="d127813e130">
 
 **Custom notifications**
 
@@ -67,7 +67,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d126502e140">
+</td></tr><tr><td id="d127813e140">
 
 **Delivery Channels**
 

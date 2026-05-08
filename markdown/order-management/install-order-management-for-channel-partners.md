@@ -4,7 +4,7 @@ description: Install the Order Management for Channel Partners plugin \(com.snc.
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -46,15 +46,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d47506e134">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d47538e134">
 
 Demo data install task
 
-</th><th align="left" id="d47506e137">
+</th><th align="left" id="d47538e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47506e143">
+</th></tr></thead><tbody><tr><td id="d47538e143">
 
 **If demo data is available and you want to install it**
 
@@ -64,7 +64,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d47506e173">
+</td></tr><tr><td id="d47538e173">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 

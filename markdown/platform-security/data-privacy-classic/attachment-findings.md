@@ -6,7 +6,7 @@ release: australia
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Real time protection, Data privacy, Data Privacy, Platform Privacy]
 ---

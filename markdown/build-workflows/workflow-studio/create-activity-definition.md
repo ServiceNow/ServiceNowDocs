@@ -31,15 +31,15 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d175240e170">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d176464e170">
 
 Field
 
-</th><th align="left" id="d175240e173">
+</th><th align="left" id="d176464e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d175240e179">
+</th></tr></thead><tbody><tr><td id="d176464e179">
 
 **Label**
 
@@ -49,7 +49,7 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d175240e206">
+</td></tr><tr><td id="d176464e206">
 
 **Table**
 
@@ -59,7 +59,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
  **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](../concept/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d175240e250">
+</td></tr><tr><td id="d176464e250">
 
 **Description**
 
@@ -67,7 +67,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d175240e259">
+</td></tr><tr><td id="d176464e259">
 
 **Accessible From**
 
@@ -77,7 +77,7 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d175240e288">
+</td></tr><tr><td id="d176464e288">
 
 **Required Roles**
 

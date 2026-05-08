@@ -35,15 +35,15 @@ A risk analysis can be associated with job steps in a job and have their inheren
 
 5.  In the **Risk analyses** tab, add risk analysis records.
 
-<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d375837e114">
+<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d379426e114">
 
 Option
 
-</th><th align="left" id="d375837e117">
+</th><th align="left" id="d379426e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d375837e123">
+</th></tr></thead><tbody><tr><td id="d379426e123">
 
 **Import from predefined job**
 
@@ -51,7 +51,7 @@ Steps
 
 To create risk analyses by importing hazards and controls from a predefined job, see [Create a risk analysis from a job](import-hazards-and-controls.md).
 
-</td></tr><tr><td id="d375837e139">
+</td></tr><tr><td id="d379426e139">
 
 **Create in Risk analyses tab**
 

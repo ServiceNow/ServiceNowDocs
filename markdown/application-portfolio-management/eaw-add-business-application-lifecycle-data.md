@@ -29,15 +29,15 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the bubble for the relevant application that you want to add business application life-cycle data for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d72889e111">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d72893e111">
 
 Bubble type
 
-</th><th align="left" id="d72889e114">
+</th><th align="left" id="d72893e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d72889e120">
+</th></tr></thead><tbody><tr><td id="d72893e120">
 
 **Single bubble**
 
@@ -48,7 +48,7 @@ Action
 
 ![Add lifecycle data button highlighted.](../../image/eaw-image/bubble-chart-menu-add-lifecycle-data.png)
 
-</td></tr><tr><td id="d72889e158">
+</td></tr><tr><td id="d72893e158">
 
 **Grouped bubble**
 

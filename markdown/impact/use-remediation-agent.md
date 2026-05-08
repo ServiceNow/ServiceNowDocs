@@ -4,7 +4,7 @@ description: Navigate the AI-Eligible Findings dashboard, generate an AI fix for
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 2
 breadcrumb: [Real-time prevention monitoring for Scan Engine, Scan Engine, Platform Health, Using Impact, Impact]
 ---

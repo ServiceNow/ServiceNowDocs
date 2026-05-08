@@ -31,15 +31,15 @@ The Portal Playbook widget uses a system property **ux\_portal\_theme\_to\_uib\_
 
 3.  Enter values for the following fields.
 
-<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d129515e101">
+<table id="choicetable_aw3_gbw_ybc"><thead><tr><th align="left" id="d129519e101">
 
 Field
 
-</th><th align="left" id="d129515e104">
+</th><th align="left" id="d129519e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d129515e110">
+</th></tr></thead><tbody><tr><td id="d129519e110">
 
 **Name**
 
@@ -47,7 +47,7 @@ Description
 
 Specify your Service Portal property in the name. Give your system property the name **ux\_portal\_theme\_to\_uib\_theme\_mapping.\[the sys ID of your service portal theme\]**. For example, if you use the La Jolla theme for your Service Portal, it has a sys ID of a7a6e78277002300a6e592718a10617a​. You would enter **ux\_portal\_theme\_to\_uib\_theme\_mapping.a7a6e78277002300a6e592718a10617a​** as the name.​
 
-</td></tr><tr><td id="d129515e131">
+</td></tr><tr><td id="d129519e131">
 
 **Value**
 

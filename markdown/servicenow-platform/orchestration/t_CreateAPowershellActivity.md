@@ -31,7 +31,7 @@ ServiceNow supports PowerShell 3.0 to 5.1.
 
 2.  After setting up [general properties](../reference/General-Flds-Templates.md) and [creating input variables](CreateInputVariables.md#), configure the PowerShell Execution Command.
 
-<table id="choicetable_asj_mzp_vz"><tbody><tr><td id="d548841e113">
+<table id="choicetable_asj_mzp_vz"><tbody><tr><td id="d552367e113">
 
 **[Map the input variables](CreateInputVariables.md#)**
 
@@ -39,7 +39,7 @@ ServiceNow supports PowerShell 3.0 to 5.1.
 
 Use the variables you created to configure the command that Orchestration executes on the MID Server.
 
-</td></tr><tr><td id="d548841e129">
+</td></tr><tr><td id="d552367e129">
 
 **Target host**
 
@@ -47,7 +47,7 @@ Use the variables you created to configure the command that Orchestration execut
 
 Host name or IP address of the target server for this PowerShell activity.
 
-</td></tr><tr><td id="d548841e138">
+</td></tr><tr><td id="d552367e138">
 
 **Script type**
 
@@ -57,7 +57,7 @@ Type of PowerShell script to run on the PowerShell host. Available options are:-
 -   MID Server script file
 
 
-</td></tr><tr><td id="d548841e156">
+</td></tr><tr><td id="d552367e156">
 
 **MID Server script file**
 
@@ -65,7 +65,7 @@ Type of PowerShell script to run on the PowerShell host. Available options are:-
 
 The MID Server script file contains the PowerShell scripts. This field is available when the **Script type** selected is MID Server script file.
 
-</td></tr><tr><td id="d548841e168">
+</td></tr><tr><td id="d552367e168">
 
 **Command**
 
@@ -73,7 +73,7 @@ The MID Server script file contains the PowerShell scripts. This field is availa
 
 PowerShell command the activity executes. This field is available when the **Script type** selected is Custom PowerShell command. You can create your commands by dragging and dropping input variables from the variable builder into this field.
 
-</td></tr><tr><td id="d548841e184">
+</td></tr><tr><td id="d552367e184">
 
 **PowerShell variables**
 
@@ -81,7 +81,7 @@ PowerShell command the activity executes. This field is available when the **Scr
 
 Name-value pairs to pass to the host with PowerShell. You can create these variables manually, or drag input variables into the **Value** field. Encrypted input variables retain their encryption, regardless of the data type settings in this field. If you type in a value and select the **Encrypted** data type, your value appears in plain text. It is only encrypted when it passes to the ECC Queue.
 
-</td></tr><tr><td id="d548841e199">
+</td></tr><tr><td id="d552367e199">
 
 **Use MID Service Account**
 
@@ -89,7 +89,7 @@ Name-value pairs to pass to the host with PowerShell. You can create these varia
 
 If checked, this activity authenticates on the target host using the credentials of the MID Server service account only, without trying any other credentials. **Note:** The **Credential tag** field is not available.
 
-</td></tr><tr><td id="d548841e214">
+</td></tr><tr><td id="d552367e214">
 
 **Credential tag**
 
@@ -97,7 +97,7 @@ If checked, this activity authenticates on the target host using the credentials
 
 Credential tag this activity must use to run PowerShell commands on the host. If this field is left blank, the MID Server tries all the available credentials until it finds a valid one, ending with the MID Server service account. If a credential tag is defined, the MID Server tries the credentials with that tag specified only and does not try the MID Server service account. **Note:** This field is not available when the **Use MID service account** check box is selected.
 
-</td></tr><tr><td id="d548841e229">
+</td></tr><tr><td id="d552367e229">
 
 **Required MID Server capabilities**
 

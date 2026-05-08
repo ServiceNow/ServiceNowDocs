@@ -34,15 +34,15 @@ Create notifications to send messages directly to your employees through campaig
 
 2.  Either use an existing content record or create a notification.
 
-<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d357093e122">
+<table id="choicetable_yc5_yht_h5b"><thead><tr><th align="left" id="d360515e122">
 
 Record source
 
-</th><th align="left" id="d357093e125">
+</th><th align="left" id="d360515e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d357093e131">
+</th></tr></thead><tbody><tr><td id="d360515e131">
 
 **Existing content record**
 
@@ -50,7 +50,7 @@ Action
 
 Select the content record from the list.
 
-</td></tr><tr><td id="d357093e140">
+</td></tr><tr><td id="d360515e140">
 
 **New content**
 

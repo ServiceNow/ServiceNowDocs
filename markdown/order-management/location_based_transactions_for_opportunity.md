@@ -4,7 +4,7 @@ description: Agents can create opportunities and support product configurations 
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Opportunity Management, Lead and opportunity apps, Use, Sales Customer Relationship Management]
 ---

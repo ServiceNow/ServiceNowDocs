@@ -27,15 +27,15 @@ Use the **Tech support** workplace service to request technical assistance for m
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d210817e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d212958e70">
 
 Location
 
-</th><th align="left" id="d210817e73">
+</th><th align="left" id="d212958e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d210817e79">
+</th></tr></thead><tbody><tr><td id="d212958e79">
 
 **Workplace Service Portal**
 
@@ -55,7 +55,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d210817e149">
+</td></tr><tr><td id="d212958e149">
 
 **Employee Center**
 

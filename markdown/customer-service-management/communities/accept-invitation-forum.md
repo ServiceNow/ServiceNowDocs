@@ -27,7 +27,7 @@ Role required: none
     -   If you are a registered community user but have not accepted the community Terms &amp; Conditions, a message appears to accept the Terms &amp; Conditions. The forum opens after you accept the Term &amp; Conditions.
 2.  If the login page appears, take one of the following actions.
 
-<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d62008e78">
+<table id="choicetable_d4c_x3c_t1b"><tbody><tr><td id="d62012e78">
 
 **If you are a registered user and not logged in.**
 
@@ -35,7 +35,7 @@ Role required: none
 
 Enter your login credentials to access the forum.
 
-</td></tr><tr><td id="d62008e87">
+</td></tr><tr><td id="d62012e87">
 
 **If you are not a registered user.**
 

@@ -56,15 +56,15 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 6.  Perform any of the following actions based on your requirement.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d482774e183">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d487609e183">
 
 Action
 
-</th><th align="left" id="d482774e186">
+</th><th align="left" id="d487609e186">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d482774e192">
+</th></tr></thead><tbody><tr><td id="d487609e192">
 
 **Zoom in or out on the map**
 
@@ -72,7 +72,7 @@ Steps
 
 Use the zoom options \(![Zoom options.](../images/zoom-options.png)\) on the map.
 
-</td></tr><tr><td id="d482774e207">
+</td></tr><tr><td id="d487609e207">
 
 **Change the map to a different floor and building**
 
@@ -80,7 +80,7 @@ Use the zoom options \(![Zoom options.](../images/zoom-options.png)\) on the map
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d482774e222">
+</td></tr><tr><td id="d487609e222">
 
 **Search for a user or space**
 
@@ -95,7 +95,7 @@ For more information, see either of the following topics:
     -   [Edit space allocations on the floor plan](edit-space-allocations-floor-plan.md)
 
 
-</td></tr><tr><td id="d482774e260">
+</td></tr><tr><td id="d487609e260">
 
 **Select spaces**
 
@@ -114,7 +114,7 @@ For example, `Department is Finance`. For more information about conditions, see
 
  The details panel displays information about the selected spaces and their assigned users.
 
-</td></tr><tr><td id="d482774e302">
+</td></tr><tr><td id="d487609e302">
 
 **Select a neighborhood**
 
@@ -129,7 +129,7 @@ The Select neighborhood pop-up opens.
 
 All spaces on the floor that are allocated to the neighborhood are selected.
 
-</td></tr><tr><td id="d482774e336">
+</td></tr><tr><td id="d487609e336">
 
 **Select Users**
 
@@ -146,7 +146,7 @@ For example, `Workplace profile is Active`. For more information about condition
 3.  Select the users from the list.
  The details panel displays information about the selected users and their assigned spaces.
 
-</td></tr><tr><td id="d482774e374">
+</td></tr><tr><td id="d487609e374">
 
 **Edit space details**
 
@@ -157,7 +157,7 @@ For example, `Workplace profile is Active`. For more information about condition
 3.  On the Spaces list, edit the details based on your requirement.
 
 
-</td></tr><tr><td id="d482774e398">
+</td></tr><tr><td id="d487609e398">
 
 **Display user assignments on the map**
 
@@ -174,7 +174,7 @@ This option is switched on by default.
 4.  Select **Apply**.
 
 
-</td></tr><tr><td id="d482774e449">
+</td></tr><tr><td id="d487609e449">
 
 **View the map as defined in the Map Studio**
 

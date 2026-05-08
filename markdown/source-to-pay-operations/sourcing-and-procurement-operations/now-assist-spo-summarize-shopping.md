@@ -83,15 +83,15 @@ Select a purchase order record to view it.
     -   Your next steps: Lists the actions that the shoppers need to take next.
 6.  When you finish summarizing a record, you can add it to the activity, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d153625e242">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d153629e242">
 
 Option
 
-</th><th align="left" id="d153625e245">
+</th><th align="left" id="d153629e245">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d153625e251">
+</th></tr></thead><tbody><tr><td id="d153629e251">
 
 **Expand or collapse the summary**
 
@@ -99,7 +99,7 @@ Procedure
 
 Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) or the collapse card icon \(![Collapse card icon.](../image/icon-collapse.png)\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d153625e272">
+</td></tr><tr><td id="d153629e272">
 
 **Provide feedback for the summary**
 
@@ -107,7 +107,7 @@ Select the expand card icon \(![Expand card icon.](../image/icon-expand.png)\) o
 
 If you think that the summary was helpful, select the helpful icon \(![Helpful icon.](../image/icon-helpful.png)\). If you think that the summary wasn’t helpful, select the not helpful icon \(![Not helpful icon.](../image/icon-not-helpful.png)\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d153625e295">
+</td></tr><tr><td id="d153629e295">
 
 **Copy the record summary**
 
@@ -115,7 +115,7 @@ If you think that the summary was helpful, select the helpful icon \(![Helpful i
 
 Select the copy to clipboard icon \(![Copy to clipboard icon.](../../supplier-lifecycle-operations/image/icon-copy.png)\) to use the record summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d153625e310">
+</td></tr><tr><td id="d153629e310">
 
 **View the information about the record summary**
 

@@ -4,7 +4,7 @@ description: In preparation for your upgrade, review the upgrade and migration t
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-08"
 reading_time_minutes: 118
 breadcrumb: [Prepare your upgrade, Australia release notes]
 ---

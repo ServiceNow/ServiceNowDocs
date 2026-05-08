@@ -25,15 +25,15 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 1.  Navigate to the ServiceNow AI Platform interface or the CSM Configurable Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d158291e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d158323e63">
 
 Interface
 
-</th><th align="left" id="d158291e66">
+</th><th align="left" id="d158323e66">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d158291e72">
+</th></tr></thead><tbody><tr><td id="d158323e72">
 
 **Platform interface**
 
@@ -41,7 +41,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-</td></tr><tr><td id="d158291e96">
+</td></tr><tr><td id="d158323e96">
 
 **CSM Configurable Workspace**
 
@@ -54,15 +54,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d158291e148">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d158323e148">
 
 From
 
-</th><th align="left" id="d158291e151">
+</th><th align="left" id="d158323e151">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d158291e157">
+</th></tr></thead><tbody><tr><td id="d158323e157">
 
 **Customer Contracts**
 
@@ -74,7 +74,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d158291e181">
+</td></tr><tr><td id="d158323e181">
 
 **Entitlements**
 

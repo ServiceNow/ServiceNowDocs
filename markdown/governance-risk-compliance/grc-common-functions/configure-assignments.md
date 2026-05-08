@@ -6,7 +6,7 @@ release: australia
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Assignment Configurator for non-regulatory alerts, Common GRC features, Governance, Risk, and Compliance]
 ---

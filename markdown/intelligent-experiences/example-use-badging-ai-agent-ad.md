@@ -106,15 +106,15 @@ The AI agent performs the tasks same as a human would. The Execution workspace s
 
 6.  Use the smart sizing options to enable your desktop executions automatically adapt to your display.
 
-<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d61185e412">
+<table id="choicetable_tbg_qwv_23c"><thead><tr><th align="left" id="d61535e412">
 
 Option
 
-</th><th align="left" id="d61185e415">
+</th><th align="left" id="d61535e415">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61185e421">
+</th></tr></thead><tbody><tr><td id="d61535e421">
 
 **Fit to window**
 
@@ -122,7 +122,7 @@ Description
 
 Scales the execution screen to fit within the display area of the Execution workspace. The entire screen is visible without scrolling.Shortcut: `ctrl+shift+w`
 
-</td></tr><tr><td id="d61185e434">
+</td></tr><tr><td id="d61535e434">
 
 **Original resolution**
 

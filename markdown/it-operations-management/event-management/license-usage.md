@@ -29,15 +29,15 @@ The **Event Management - Node Count Store** job calculates the number of unique 
 
     The table is filled automatically based on the alerts in the system. The user has no permission to edit the table. It is used to calculate the usage of the Event Management licensing.
 
-<table id="choicetable_vkj_tnb_dbb"><thead><tr><th align="left" id="d630471e110">
+<table id="choicetable_vkj_tnb_dbb"><thead><tr><th align="left" id="d637727e110">
 
 Column
 
-</th><th align="left" id="d630471e113">
+</th><th align="left" id="d637727e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d630471e119">
+</th></tr></thead><tbody><tr><td id="d637727e119">
 
 **CMDB CI**
 
@@ -45,7 +45,7 @@ Description
 
 The CI that is bound to the alert that is generated from the event. If there is a value for this field, the **Node** field is empty.
 
-</td></tr><tr><td id="d630471e131">
+</td></tr><tr><td id="d637727e131">
 
 **Node**
 
@@ -53,7 +53,7 @@ The CI that is bound to the alert that is generated from the event. If there is 
 
 The string value of the **Node** field of the event. If there is a value for this field, the **CMDB CI** field is empty.
 
-</td></tr><tr><td id="d630471e146">
+</td></tr><tr><td id="d637727e146">
 
 **Type**
 
@@ -64,7 +64,7 @@ One of these values:-   Unknown - A CI has not bound to the generated alert.
 -   PaaS - The source of the event was Platform as a Service.
 
 
-</td></tr><tr><td id="d630471e167">
+</td></tr><tr><td id="d637727e167">
 
 **Is licensable**
 

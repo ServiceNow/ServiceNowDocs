@@ -27,15 +27,15 @@ You can [create](t_CreateAProjectBaseline.md) multiple baselines at various stag
 
 1.  To compare the financial baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d203963e78">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d204586e78">
 
 Option
 
-</th><th align="left" id="d203963e81">
+</th><th align="left" id="d204586e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d203963e87">
+</th></tr></thead><tbody><tr><td id="d204586e87">
 
 **From the Project Workspace**
 
@@ -47,7 +47,7 @@ Steps
 4.  Select the **Baselines** from header and then select **Compare baselines**.
 
 
-</td></tr><tr><td id="d203963e135">
+</td></tr><tr><td id="d204586e135">
 
 **From the Project form**
 
@@ -60,7 +60,7 @@ Steps
 5.  On the **Financials** tab, select the baseline information icon \(![Baseline information icon](../../planning-and-policy/image/gannt_chart_icon.png)\) and then select **Compare Baselines**.
 
 
-</td></tr><tr><td id="d203963e198">
+</td></tr><tr><td id="d204586e198">
 
 **From the Baseline form**
 

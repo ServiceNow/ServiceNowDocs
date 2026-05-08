@@ -25,15 +25,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d196583e61">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d197744e61">
 
 Method
 
-</th><th align="left" id="d196583e64">
+</th><th align="left" id="d197744e64">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d196583e70">
+</th></tr></thead><tbody><tr><td id="d197744e70">
 
 **Using Legal Counsel Center homepage**
 
@@ -45,7 +45,7 @@ Action
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d196583e114">
+</td></tr><tr><td id="d197744e114">
 
 **Using Legal Counsel Center lists**
 
@@ -58,7 +58,7 @@ Action
 5.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d196583e173">
+</td></tr><tr><td id="d197744e173">
 
 **Using platform view**
 

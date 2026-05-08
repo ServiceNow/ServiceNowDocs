@@ -4,7 +4,7 @@ description: List of responsibilities that are provided with the base system.
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-05-07"
 reading_time_minutes: 1
 breadcrumb: [Create a responsibility definition, Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
