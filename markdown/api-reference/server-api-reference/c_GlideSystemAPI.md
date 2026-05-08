@@ -1741,7 +1741,7 @@ Retrieves translated messages from the Message \[sys\_ui\_message\] table to dis
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message. If the specified message identifier does not exist for the current language, the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information about the Message table, see Message table.
 
 **Note:** If the UI message has a tick \('\), there may be issues with the message in the script; to escape the ticks \('\), use getMessageS\(String, Object\).
 
@@ -1842,7 +1842,7 @@ Retrieves translated messages to display in the UI and escapes all ticks \('\).
 
 If the specified message identifier \(key\) exists in the Message \[sys\_ui\_message\] table for the current language, the method returns the translated message. If the specified message identifier does not exist for the current language, the method returns the English version of the message. If the message identifier does not exist in the table, then it returns the message ID.
 
-For additional information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information about the Message table, see Message table.
 
 Useful if you are inserting into a JavaScript expression from Jelly.
 
@@ -3613,7 +3613,7 @@ Returns the current date and time in the user-defined format.
 
 |Type|Description|
 |----|-----------|
-|String|Current date and time in the user-defined format. For more information on setting the system date and time format, see [Date and Date/Time fields](https://www.servicenow.com/docs/access?context=r_UseDateAndTimeFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
+|String|Current date and time in the user-defined format. For more information on setting the system date and time format, see Date and Date/Time fields.|
 
 ```
 var currentDateTime = gs.nowDateTime();

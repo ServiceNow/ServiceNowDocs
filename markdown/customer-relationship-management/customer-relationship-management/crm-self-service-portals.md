@@ -68,7 +68,7 @@ Self-service portals provide benefits to internal and external users across an o
 **Related topics**  
 
 
-[Configure the Customer and Consumer Service Portals](https://www.servicenow.com/docs/access?context=configure-csm-service-portals&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.configure-csm-service-portals]
 
-[Configure Business and Consumer Portal](https://www.servicenow.com/docs/access?context=configure-business-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.configure-business-portal]
 

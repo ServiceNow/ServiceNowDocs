@@ -41,7 +41,7 @@ After the scores have been collected, you can explore them more deeply in the An
 
 As a Performance Analytics expert, you do not set up the reference currency. Someone with a currency administrator role performs this task. However, you may still want to know how reference currencies work on the ServiceNow AI Platform. A brief summary with links follows.
 
-For a Price or Currency field, the system reference currency is the value of **glide.system.locale** as set in the localization properties. If this property is not set, the system default based on physical location is used. For more information about setting the reference currency for these fields, see [Setting up and operating standard currency fields](https://www.servicenow.com/docs/access?context=configure-and-use-default-currency-fields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a Price or Currency field, the system reference currency is the value of **glide.system.locale** as set in the localization properties. If this property is not set, the system default based on physical location is used. For more information about setting the reference currency for these fields, see Setting up and operating standard currency fields.
 
 **Note:** Performance Analytics indicators do not use session currency values.
 
@@ -52,5 +52,5 @@ For an FX Currency field, the indicator scores are based on this hierarchy of co
 3.  The setting in **glide.system.locale** is used. If no value is set in this property...
 4.  The system default is used.
 
-For more information about configuring FX Currency fields, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about configuring FX Currency fields, see Setting up and operating FX Currency fields.
 

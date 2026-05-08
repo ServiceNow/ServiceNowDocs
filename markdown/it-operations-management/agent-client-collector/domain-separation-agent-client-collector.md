@@ -31,5 +31,5 @@ Domain separation in ACC allows the isolation of data collected by the Agent Cli
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

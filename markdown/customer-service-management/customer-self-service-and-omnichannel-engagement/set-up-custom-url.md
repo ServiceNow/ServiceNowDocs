@@ -17,7 +17,7 @@ Add a custom URL to your instance configuration to use instead of your ServiceNo
 
 ## Before you begin
 
--   You must Activate the custom URL plugin. For more information, see [Activate custom URLs](https://www.servicenow.com/docs/access?context=activate-custom-url-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   You must Activate the custom URL plugin. For more information, see Activate custom URLs.
 -   You must purchase or register a URL before adding the custom URL to your instance.
 
 Role required: admin

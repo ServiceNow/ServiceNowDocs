@@ -73,7 +73,7 @@ Jira Cloud
 Pre-requisites:
 
     -   
-    -   [Obtain the value of Cloud ID](https://www.servicenow.com/docs/access?context=setup-jira-serv-mgmt&version=australia&pubname=australia-integrate-applications&section=jira-cloud-id&ft:locale=en-US)
+    -   Obtain the value of Cloud ID
     -   
     -   Create credential record for Jira Cloud
 In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.
@@ -85,7 +85,7 @@ In the **Tool credential** field, select an existing OAuth 2.0 tool credential r
 
     3.  If your Jira instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+        For more information about MID server, see MID Server selection
 
     4.  Select **Submit**.
 

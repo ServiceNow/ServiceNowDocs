@@ -17,7 +17,7 @@ The Scripted REST API defines the endpoints, query parameters, and headers for a
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about scripted REST services, see [Scripted REST APIs](https://www.servicenow.com/docs/access?context=c_CustomWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For general information about scripted REST services, see Scripted REST APIs.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 

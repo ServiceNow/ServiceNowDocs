@@ -29,9 +29,9 @@ Note the following scenarios:
 -   When Supplier Lifecycle Operations is installed, but the supplier is old and already onboarded, the DDR is created as a procurement case.
 -   When Supplier Lifecycle Operations is not installed, irrespective of whether the supplier is old or new, the DDR is created in Sourcing and Procurement Operations as a procurement case.
 
-For information on how Supplier Lifecycle Operations similarly assesses suppliers during the onboarding process, see [Minimize risk by assessing suppliers during the onboarding process](https://www.servicenow.com/docs/access?context=better-tprm-slo&version=australia&pubname=australia-better-together&ft:locale=en-US). For detailed information on the supplier onboarding playbook, see [Use the supplier onboarding playbook to onboard suppliers](../../supplier-lifecycle-operations/concept/use-playbooks-onboard-supp.md#).
+For information on how Supplier Lifecycle Operations similarly assesses suppliers during the onboarding process, see Minimize risk by assessing suppliers during the onboarding process. For detailed information on the supplier onboarding playbook, see [Use the supplier onboarding playbook to onboard suppliers](../../supplier-lifecycle-operations/concept/use-playbooks-onboard-supp.md#).
 
-For information on how to configure TPRM, see [Configuring Third-party Risk Management](https://www.servicenow.com/docs/access?context=tprm-configuring&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US). For detailed information on the due diligence workflow, see [Due diligence workflow](https://www.servicenow.com/docs/access?context=tprm-workflow-in-workspace&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For information on how to configure TPRM, see Configuring Third-party Risk Management. For detailed information on the due diligence workflow, see Due diligence workflow.
 
 -   **[Track risk assessments from the due diligence playbook](../task/track-risk-assess-due-diligence-playbook.md)**  
 As procurement specialists, use the due diligence playbook to track supplier risk assessments and complete the associated tasks.

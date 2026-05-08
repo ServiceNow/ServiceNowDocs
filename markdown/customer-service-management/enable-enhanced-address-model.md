@@ -27,7 +27,7 @@ Role required: sn\_crm\_foundation\_admin, script\_include\_admin, and script\_f
 
     -   **Type**
     -   **primary**
-    These relationship fields are created in the Account Address \[account\_address\_relationship\] table. For more information on creating fields within a table, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    These relationship fields are created in the Account Address \[account\_address\_relationship\] table. For more information on creating fields within a table, see Add and customize a field in a table.
 
 3.  Update the custom code that references the Account Address table.
 

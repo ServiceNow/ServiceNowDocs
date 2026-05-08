@@ -35,7 +35,7 @@ The Password Reset application enforces strong and secure passwords by enabling 
 
 -   **Homepages with a dashboard view**
 
-    Password Reset has a new, modernized look and feel. For more information, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Password Reset has a new, modernized look and feel. For more information, see Next Experience UI.
 
 
 ## Password Reset processes

@@ -18,7 +18,7 @@ Workflow Studio supports decision tables that were created in the classic enviro
 The first time you open a decision table that was created in the classic environment, Workflow Studio automatically creates condition columns for all unique fields evaluated in the condition criteria.
 
 -   If the table contains table-compatible decision rules, one condition per cell is displayed.
--   If a decision rule contains unsupported field types or complex logic, all the conditions in the condition columns are merged into a single condition expression. This expression is a hyperlink to Condition Builder that you can use to modify the conditions for the decision rule. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   If a decision rule contains unsupported field types or complex logic, all the conditions in the condition columns are merged into a single condition expression. This expression is a hyperlink to Condition Builder that you can use to modify the conditions for the decision rule. For more information, see Condition builder.
 -   If you remove the aspects of the condition expression that define the decision as complex, the decision is displayed in the supported format.
 
 The following sections provide summaries of complex types of conditional logic.

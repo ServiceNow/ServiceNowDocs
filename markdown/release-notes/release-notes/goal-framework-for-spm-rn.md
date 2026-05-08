@@ -16,20 +16,20 @@ The ServiceNow® Goal Framework for SPM application enables you to automate the 
 
 Define targets across multiple organizational levels with the **Assigned entity** field in the target form.
 
-See [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See Goal Framework for SPM for more information.
 
-**Important:** [Goal Framework for SPM](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Goal Framework for SPM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Define targets at multiple organizational levels](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Define targets at multiple organizational levels**
 
     Define targets across multiple organizational levels with the **Assigned entity type** and **Assigned entity** fields in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
 
 
 ## UI changes
 
--   **[Changes to Target form](https://www.servicenow.com/docs/access?context=target-form&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Changes to Target form**
 
     The **Assigned entity type** and **Assigned entity** fields have been added to the Target form to support defining targets at multiple organizational levels.
 
@@ -40,13 +40,13 @@ Install Goal Framework for SPM by requesting it from the ServiceNow Store. Visit
 
 ## Related ServiceNow applications and features
 
--   **[Strategic Planning](https://www.servicenow.com/docs/access?context=goal-management-in-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Strategic Planning**
 
     Use the Goal Framework for SPM application in the ServiceNow® Strategic Planning application to automate the progress of your targets.
 
     **Important:** You can install Goal Framework for SPM only when you own the ServiceNow® Strategic Portfolio Management \(SPM\) Pro license. When you own the SPM Pro license and install Strategic Planning, the Goal Framework for SPM application is installed automatically.
 
--   **[Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Goal Framework**
 
     The ServiceNow® Goal Framework application helps you create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes.
 

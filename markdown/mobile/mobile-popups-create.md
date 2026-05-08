@@ -166,7 +166,7 @@ Condition type
 
 The conditions applied to this mobile event action.
 
- -   Declarative: Adds a condition builder to the form. For more information, see [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ -   Declarative: Adds a condition builder to the form. For more information, see condition builder.
 -   Script: Adds a script condition field to the form.
 
 

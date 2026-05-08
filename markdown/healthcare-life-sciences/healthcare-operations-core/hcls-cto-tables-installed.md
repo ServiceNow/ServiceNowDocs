@@ -15,7 +15,7 @@ breadcrumb: [Data model, Reference, Healthcare Operations Core, Healthcare Opera
 
 The Healthcare Operations Core Case enables streamlined support for operational healthcare use cases.
 
-It extends the Case \[sn\_customerservice\_case\] table to store all healthcare cases associated with a patient. For more information, see [Tables installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_TIWCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+It extends the Case \[sn\_customerservice\_case\] table to store all healthcare cases associated with a patient. For more information, see Tables installed with Customer Service Management.
 
 It includes the Healthcare Location field, which references the Healthcare Location table in the Healthcare and Life Sciences data model.
 

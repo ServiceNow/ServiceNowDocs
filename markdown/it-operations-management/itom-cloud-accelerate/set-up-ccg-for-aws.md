@@ -198,15 +198,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d147565e635">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d147558e635">
 
 Option
 
-</th><th align="left" id="d147565e638">
+</th><th align="left" id="d147558e638">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d147565e644">
+</th></tr></thead><tbody><tr><td id="d147558e644">
 
 **Create an assume role configuration for the management account**
 
@@ -224,7 +224,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](../../it-operations-management/task/create-assume-role-config.md).
 
-</td></tr><tr><td id="d147565e701">
+</td></tr><tr><td id="d147558e701">
 
 **Configure the trusting account for Cloud Configuration Governance**
 

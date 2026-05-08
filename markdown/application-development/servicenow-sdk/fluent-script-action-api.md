@@ -17,7 +17,7 @@ The Script Action API defines script actions \[sysevent\_script\_action\] that r
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about scheduled script executions, see [Script actions](https://www.servicenow.com/docs/access?context=r_ScriptActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about scheduled script executions, see Script actions.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -92,7 +92,7 @@ String
 
 </td><td>
 
-Required. The event that triggers the script action to run. For information about creating events, see [Create an event](https://www.servicenow.com/docs/access?context=t_CreateYourOwnEvent&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Required. The event that triggers the script action to run. For information about creating events, see Create an event.
 
 </td></tr><tr><td>
 

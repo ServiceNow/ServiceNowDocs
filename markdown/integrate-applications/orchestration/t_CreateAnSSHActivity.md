@@ -93,7 +93,7 @@ If checked, disables the SSH connection timeout for commands that might take lon
 
 </td><td>
 
-If checked, enables the use of [sudo](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to run commands.
+If checked, enables the use of sudo to run commands.
 
 </td></tr></tbody>
 </table>    **Note:** You can map parameter values in a test payload to variables in the **Outputs** tab automatically. See [automap output variables](automap-output-variable-inputs.md).
@@ -257,7 +257,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see MID Server capabilities. If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```
@@ -292,7 +292,7 @@ Boolean
 
 </td><td>
 
-Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that [sudo](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) must be used.
+Indicates whether or not this activity must use sudo to run root commands. A value of true indicates that sudo SSH credentials must be used.
 
 </td></tr></tbody>
 </table>## SSH post-processing parameters and payload parsing
@@ -466,7 +466,7 @@ Credential tag
 
 </td><td>
 
-The [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) to use when running the command.
+The Credential aliases for Orchestration activities to use when running the command.
 
 </td></tr><tr><td>
 
@@ -490,7 +490,7 @@ Must Sudo
 
 </td><td>
 
-Check box to allow the use of [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to run commands.
+Check box to allow the use of SSH credentials to run commands.
 
 </td></tr></tbody>
 </table>3.  Click **Save**.

@@ -21,7 +21,7 @@ Role required: sn\_privacy.analyst
 
 ## About this task
 
-Because privacy cases are time-sensitive, they sometimes need quick collaborations. The Discuss button facilitates these collaborations and the chats are stored making it simpler for the privacy teams to refer to them when working on a task. Apart from processing activities, the Discuss feature is available for privacy cases, and personal data rights requests. For more information, refer to [Sidebar and Microsoft Teams](https://www.servicenow.com/docs/access?context=sidebar-teams-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Because privacy cases are time-sensitive, they sometimes need quick collaborations. The Discuss button facilitates these collaborations and the chats are stored making it simpler for the privacy teams to refer to them when working on a task. Apart from processing activities, the Discuss feature is available for privacy cases, and personal data rights requests. For more information, refer to Sidebar and Microsoft Teams.
 
 ## Procedure
 

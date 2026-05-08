@@ -165,7 +165,7 @@ A full description of the Service Contract.
 </td></tr></tbody>
 </table>## Add contract field to task form
 
-Depending on how the contract is used, the **Contract** field can be added to any task form by configuring the form. For information about how to configure a form, see [Form configuration](https://www.servicenow.com/docs/access?context=basic-form-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US) . As the **Caller**, **Assignment Group**, **Location**, and **Configuration item** fields are populated, the **Contract** field filters appropriately, helping the support desk to associate the ticket to the correct contract.
+Depending on how the contract is used, the **Contract** field can be added to any task form by configuring the form. For information about how to configure a form, see Form configuration . As the **Caller**, **Assignment Group**, **Location**, and **Configuration item** fields are populated, the **Contract** field filters appropriately, helping the support desk to associate the ticket to the correct contract.
 
 **Note:** Do not add the same field to different sections of a form unless the field displays read-only data. Having two or more instances of an editable field can cause data loss and prevent the proper functioning of UI and data policies.
 

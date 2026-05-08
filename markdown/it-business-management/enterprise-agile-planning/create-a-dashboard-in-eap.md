@@ -27,14 +27,14 @@ Role required: sn\_apw\_advanced.eap\_admin
 
 2.  Create a dashboard or modify one of the default dashboards for your Agile configuration.
 
-    -   To create a dashboard, select **Create new dashboard**. For more information, see [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
-    -   To modify an existing dashboard, create a copy of it so that you can the widgets that you need. For more information, see [Duplicate a Platform Analytics dashboard](https://www.servicenow.com/docs/access?context=duplicate-db&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    -   To create a dashboard, select **Create new dashboard**. For more information, see Create a dashboard with the in-line editor.
+    -   To modify an existing dashboard, create a copy of it so that you can the widgets that you need. For more information, see Duplicate a Platform Analytics dashboard.
 
         **Note:** The **Duplicate** option is available only for an Inline dashboard.
 
 3.  Add visualizations and widgets.
 
-    For more information, see step 6 through 10 in [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For more information, see step 6 through 10 in Create a dashboard with the in-line editor.
 
     For information about the default indicators, see [Enterprise Agile Planning Indicators](../reference/eap-indicators.md).
 

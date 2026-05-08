@@ -17,13 +17,13 @@ Share assessments between ServiceNow instances by importing a previously exporte
 
 Role required: admin
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see System update sets.
 
 ## Procedure
 
 1.  Ensure that the target instance has assessments enabled.
 
-2.  Follow the procedure detailed in [Import data from XML](https://www.servicenow.com/docs/access?context=import-xml-file&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+2.  Follow the procedure detailed in Import data from XML.
 
 
 **Parent Topic:**[Metric types and assessable records](../concept/c_MetricTypesAndAssessableRecords.md)

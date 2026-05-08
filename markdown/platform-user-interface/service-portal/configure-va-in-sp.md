@@ -22,7 +22,7 @@ Role required: admin
 
 -   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) or the Agent Chat \(com.glide.interaction.awa\) plugin. The Glide Virtual Agent plugin requires a subscription.
 
-    **Note:** For information about using Now Assist in Virtual Agent in portals, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    **Note:** For information about using Now Assist in Virtual Agent in portals, see Configuring assistants overview.
 
 
 ## Procedure
@@ -105,7 +105,7 @@ Server script
 
 </td><td>
 
-Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the [GlideSPScriptable](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API.
+Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the GlideSPScriptable API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
@@ -149,7 +149,7 @@ You can configure the following elements of the Agent Chat button:
 -   The image to indicate that the chat window is closed
 -   The button background color
 
-These elements are determined in the portal theme. To customize the Agent Chat button, update the relevant SCSS variables in the portal theme record. For more information, see [Set up your bot's branding](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+These elements are determined in the portal theme. To customize the Agent Chat button, update the relevant SCSS variables in the portal theme record. For more information, see Set up your bot's branding.
 
 **Note:** If you change the web client Virtual Agent button icon while the system property \[sys\_property\] table value **com.glide.cs.advanced-chat-popover** is set to `true`, set the web client Virtual Agent chat button to the same size as the original button icon, otherwise the icon is displayed oversize.
 
@@ -280,7 +280,7 @@ Use the spContextManager class in a widget client script to pass dynamic page da
 
 Role required: admin
 
-Examine the widget to understand how data is passed to the widget client script. To make data available to Agent Chat, you must pass it to the spContextManager service. You can then access the data in a Virtual Agent topic using the `vaContext` object. For more information about using context variables in Virtual Agent scripts, see [Virtual Agent scripts](https://www.servicenow.com/docs/access?context=virtual-agent-scripts&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Examine the widget to understand how data is passed to the widget client script. To make data available to Agent Chat, you must pass it to the spContextManager service. You can then access the data in a Virtual Agent topic using the `vaContext` object. For more information about using context variables in Virtual Agent scripts, see Virtual Agent scripts.
 
 ### Procedure
 
@@ -303,7 +303,7 @@ Examine the widget to understand how data is passed to the widget client script.
     };
     ```
 
-    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see [spContextManager](https://www.servicenow.com/docs/access?context=spContextManagerAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see spContextManager.
 
 3.  Click **Save.**
 
@@ -317,7 +317,7 @@ Examine the widget to understand how data is passed to the widget client script.
 
         In a script field, use the `vaContext` object to access the context variable passed from the Service Portal.
 
-        For more information about creating a Virtual Agent topic, see [Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+        For more information about creating a Virtual Agent topic, see Create a Virtual Agent topic.
 
         For example, this script accesses the value of the `approval_count` variable in the Approvals widget.
 

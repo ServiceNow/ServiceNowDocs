@@ -17,7 +17,7 @@ The ServiceNow® Next Experience Components application provides the components 
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://www.servicenow.com/docs/access?context=presets&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://www.servicenow.com/docs/access?context=controllers&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see Automatically configure components using presets and Bind data to UI Builder pages using controllers \(advanced feature\).
 
 ## New in the Australia release
 
@@ -428,11 +428,11 @@ To view Next Experience Components accessibility conformance information, refer 
 
 ## Related ServiceNow applications and features
 
--   **[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **UI Builder**
 
     UI Builder is a low-code tool that helps enable you to build pages for workspace and portal web-based experiences.
 
--   **[Configurable Workspace UI](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Configurable Workspace UI**
 
     Use components to build custom workspace experiences for agents who solve internal or external customer issues.
 

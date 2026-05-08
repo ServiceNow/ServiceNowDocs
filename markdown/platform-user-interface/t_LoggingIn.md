@@ -19,7 +19,7 @@ Role required: none
 
 ## About this task
 
-Users log in to the instance from a web browser. Administrators can [associate a custom URL](https://www.servicenow.com/docs/access?context=custom-url&version=australia&pubname=australia-platform-security&ft:locale=en-US), such as support.myurl.com, that resolves to point to instancename.service-now.com.
+Users log in to the instance from a web browser. Administrators can associate a custom URL, such as support.myurl.com, that resolves to point to instancename.service-now.com.
 
 **Note:** ServiceNow does not support any other methodologies to associate a custom or vanity URL. If you have a custom or vanity URL associated with an instance prior to the Madrid release, contact Support.
 
@@ -33,7 +33,7 @@ Users log in to the instance from a web browser. Administrators can [associate a
 
 3.  Select the **Remember Me** check box to remain logged in until you manually log out.
 
-    The administrator can enable or disable this option. For more information, see [Change settings for the Remember me check box and cookie](https://www.servicenow.com/docs/access?context=c_ChSetRemMeChkbxCookie&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    The administrator can enable or disable this option. For more information, see Change settings for the Remember me check box and cookie.
 
 4.  Press the Enter key or click **Login**.
 

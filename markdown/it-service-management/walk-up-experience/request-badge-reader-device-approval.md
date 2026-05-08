@@ -23,7 +23,7 @@ Role required: sn\_badge.badge\_admin
 
 When you request activation approval, via the Badge Reader record, you initiate the device registration flow. Activation requests are routed to a badge reader approvers group. System approvals require the itil role. Ensure users with the itil role are added to the badge reader approvers group.
 
-If there are no people in the approval group, the flow will skip past the approval group requirement, and activate the badge reader. For detailed information about approvals, groups, and adding users to groups, refer to [Approvals](https://www.servicenow.com/docs/access?context=r_Approvals&version=australia&pubname=australia-build-workflows&ft:locale=en-US) [Creating groups](https://www.servicenow.com/docs/access?context=ua-creating-groups&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If there are no people in the approval group, the flow will skip past the approval group requirement, and activate the badge reader. For detailed information about approvals, groups, and adding users to groups, refer to Approvals Creating groups and Add a user to a group.
 
 **Note:** Badge Reader record required fields are read only when the badge reader device is activated. Badge reader devices can be deactivated by de-selecting the **Active** field on the Badge Reader record. Reactivation of a badge reader requires going through the approval process again.
 

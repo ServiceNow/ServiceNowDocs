@@ -55,12 +55,12 @@ You can:
 
 For more details about using NLQ with Intelligent Search, see [Intelligent Search for CMDB](intelligent-search-cmdb.md).
 
-Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) functionality where you can specify conditions to search for CIs of a specific class.
+Alternatively, you can select **Use conditional search instead** to use a basic condition builder functionality where you can specify conditions to search for CIs of a specific class.
 
 You can:
 
 -   Select **New condition set** to add a condition phrase.
--   Select **Related List Condition** to [add a condition phrase for related lists](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Select **Related List Condition** to add a condition phrase for related lists.
 -   Select **Search** to search through the CMDB.
 -   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with CMDB Workspace](../reference/installed-with-cmdb-workspace.md).
 
@@ -218,7 +218,7 @@ The following tabs provide summaries about CIs:
 
     A scheduled job that can't complete for 3 \(default\) consecutive days is automatically disabled for future runs. You can manage the disabling of scheduled jobs, in the following ways:
 
-    -   Modify the default number of consecutive days that are counted by adding the **sn\_cmdb\_ws.insight.category.disable\_after\_failure** system property to the System Properties \[sys\_properties\] table and then setting its value. For more details, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    -   Modify the default number of consecutive days that are counted by adding the **sn\_cmdb\_ws.insight.category.disable\_after\_failure** system property to the System Properties \[sys\_properties\] table and then setting its value. For more details, see Add a system property.
     -   [Resume a disabled scheduled job](../task/cmdb-workspace-resume-cloud-job.md).
 
 <table id="table_jkk_2ln_x5b"><thead><tr><th>

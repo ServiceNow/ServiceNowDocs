@@ -44,7 +44,7 @@ The knowledge article view page displays the Related Articles section when an ar
     |Title|Title that appears on the widget header. The default title is Related Articles.|
     |Bootstrap color|Color scheme of the widget header. Select a color for your widget from a list of common bootstrap colors.|
     |Glyph|Icon that appears beside each list item displayed in the widget. To skip this field, select the empty glyph.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
     |Use Full Width|Option for displaying the widget in a 12-column grid at 100% of the available width. If you clear the check box, the widget displays at 75% of the available width.|
     |Table|The table that contains the knowledge articles associated with the **Display Fields** and **Secondary Fields**. By default, the table is Knowledge \(kb\_knowledge\).|
     |Display Field|The title displayed for each article in the related articles list. The display field specified in the base system is the article short description.|

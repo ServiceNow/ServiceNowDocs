@@ -80,7 +80,7 @@ Role required: sn\_wfo\_admin or admin
 
 ### About this task
 
-You can associate a user with a primary assignment group by selecting the group in the user record. For more information, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can associate a user with a primary assignment group by selecting the group in the user record. For more information, see Create a user.
 
 ### Procedure
 

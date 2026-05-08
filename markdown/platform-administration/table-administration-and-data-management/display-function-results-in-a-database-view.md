@@ -29,7 +29,7 @@ Role required: admin
 
 4.  Add the function field to the database view output.
 
-    See [Configure items on forms or in lists using a list collector](https://www.servicenow.com/docs/access?context=t_UseSlushbuckets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    See Configure items on forms or in lists using a list collector.
 
 5.  Review the function definition if the expected value is not returned or a returned value indicates the function definition is invalid.
 

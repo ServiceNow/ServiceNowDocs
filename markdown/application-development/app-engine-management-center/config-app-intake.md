@@ -25,7 +25,7 @@ Role required: admin
 
 Application Intake guided setup provides a sequence of tasks that help you configure the Application Intake app on the ServiceNow AI Platform. For more information on each task, see [Application Intake configuration tasks](../reference/app-intake-config-tasks.md).
 
-For general information about guided setup, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For general information about guided setup, see Guided Setup.
 
 ## Procedure
 

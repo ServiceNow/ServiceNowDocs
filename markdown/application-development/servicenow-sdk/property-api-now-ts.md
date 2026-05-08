@@ -17,7 +17,7 @@ The Property API defines system properties \[sys\_properties\] that control inst
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+For general information about system properties, see Add a system property.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 

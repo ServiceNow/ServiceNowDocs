@@ -29,9 +29,9 @@ In a Virtual Agent conversation, when a requester chooses to connect to a live a
 
 The chat summarization admin configuration for ITSM and HR are similar. If at least one of them is enabled, you can generate a chat summary from both workspaces.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see Make a copy of a Now Assist skill.
 
 ## Procedure
 

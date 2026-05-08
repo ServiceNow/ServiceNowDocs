@@ -59,7 +59,7 @@ If you installed the Citrix publisher pack, see [Record software rights for Citr
 
     For more information, see [Downgrade Rights](../concept/downgrade-rights.md).
 
-7.  To track the cost of your software over its lifecycle, configure [expense lines](https://www.servicenow.com/docs/access?context=c_ExpenseLine&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+7.  To track the cost of your software over its lifecycle, configure expense lines.
 
 8.  To manage license keys, select the [License Keys related list](../reference/software-entitlement-fields.md#section_iqv_dcm_43b) and specify which licenses keys are allocated to entitlements.
 

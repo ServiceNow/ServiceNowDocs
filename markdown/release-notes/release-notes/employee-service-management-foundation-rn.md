@@ -18,13 +18,13 @@ The ServiceNow® Enterprise Service Management \(ESM\) Foundation unifies IT, HR
 -   Deploy with AI-driven guided setup, preset configurations, and a centralized implementation console that eliminates the need for complex configuration procedures.
 -   Deliver cross-functional workflows that route employee queries across departments.
 
-See [Enterprise Service Management Foundation](https://www.servicenow.com/docs/access?context=esm-foundation&version=australia&pubname=australia-better-together&ft:locale=en-US) for more information.
+See Enterprise Service Management Foundation for more information.
 
 **Important:** Enterprise Service Management Foundation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Enterprise Service Management Foundation features
 
--   **[Enterprise Service Management Foundation](https://www.servicenow.com/docs/access?context=esm-foundation&version=australia&pubname=australia-better-together&ft:locale=en-US)**
+-   **Enterprise Service Management Foundation**
 
     Enterprise Service Management Foundation brings together Core Business Suite and Simplified IT Service Management to create a comprehensive, AI-enabled service delivery platform.
 
@@ -51,20 +51,20 @@ Enterprise Service Management Foundation is available in the ServiceNow Store. V
             -   Foundation: AI basics to deliver insights
             -   Advanced: AI to boost productivity across relevant use cases
             -   Prime: Act autonomously with all AI assets, and create your own
-            For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            For more information, see ServiceNow product tiers.
 
 
 ## Related ServiceNow applications and features
 
--   **[Simplified IT Service Management](https://www.servicenow.com/docs/access?context=ai-native-it-service-desk-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Simplified IT Service Management**
 
     Provides the Simplified IT Service Management foundation with incident management, request management, catalog items, service channels, and AI-powered fulfiller experience. When combined with Core Business Suite, it extends the unified Employee Center and AI capabilities across all business service domains.
 
--   **[Core Business Suite](https://www.servicenow.com/docs/access?context=cbs-landing&version=australia&pubname=australia-core-business-suite&ft:locale=en-US)**
+-   **Core Business Suite**
 
     Provides case and knowledge management for core business functions including Human Resources, Finance, Health and Safety, Legal, Source-to-Pay, and Workplace Services. When combined with Simplified IT Service Management, it delivers a unified employee experience where IT and business requests are handled through a single portal with cross-functional AI routing.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     Powers the generative AI capabilities embedded throughout ESM Foundation, including chat summarization, resolution notes generation, knowledge base article generation, and email drafting. It also provides agentic workflows for both IT and business service teams.
 

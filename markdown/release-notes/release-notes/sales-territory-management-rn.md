@@ -16,13 +16,13 @@ The ServiceNow® Sales Territory Management​ application structures and optimi
 
 Sales Territory Member role gets access to view the sales territory associated on the CRM entities like Lead, Opportunity, Account, or Consumer.
 
-See [Sales Territory Management​](https://www.servicenow.com/docs/access?context=explore-sales-territory-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See Sales Territory Management​ for more information.
 
 **Important:** Sales Territory Management​ is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Sales Territory Management​ features
 
--   **[Sales Territory Management​ users](https://www.servicenow.com/docs/access?context=components-installed-sales-territory-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Sales Territory Management​ users**
 
     Activate the Sales Territory Management plugin to install the Sales Territory Member role for sales execution within assigned territories, with defined ownership, accountability, and territory‑based CRM record assignment.
 

@@ -39,7 +39,7 @@ An existing workflow already contains two input variables.
 
 When editing workflows, particularly when deleting input variables, be sure to use a single update set for all variable editing and workflow publishing.
 
-If necessary, merge the update set into a more general set targeted for deployment after the workflow is published. For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+If necessary, merge the update set into a more general set targeted for deployment after the workflow is published. For information about update sets, see System update sets.
 
 **Note:** If a workflow version is already running on a production system and input variables are deleted from a newer version, those deletions could affect transactions already running against the earlier version. Use extreme caution when deleting workflow input variables and plan the migration carefully.
 

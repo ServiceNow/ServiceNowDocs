@@ -18,42 +18,42 @@ The ServiceNow® Hermes Messaging Service application enables you to integrate y
 -   View granular usage metrics in the Hermes Usage Dashboard.
 -   Restrict access to the Hermes cluster based on the client IP address.
 
-See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See Hermes Messaging Service for more information.
 
 ## New in the Australia release
 
--   **[Expanded topic limits in Hermes](https://www.servicenow.com/docs/access?context=exploring-hermes-messaging-service&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Expanded topic limits in Hermes**
 
     Create more topics in Hermes with an increased topic limit. The total number of partitions across all topics can't exceed 960.
 
--   **[Hermes Usage Dashboard improvements](https://www.servicenow.com/docs/access?context=monitoring-data-usage-hermes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Hermes Usage Dashboard improvements**
 
     View Hermes data usage by source, including the total number of bytes received and bytes sent over time, in the Hermes Usage Dashboard.
 
--   **[Access restrictions by IP address](https://www.servicenow.com/docs/access?context=restricting-access-hermes-topics&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Access restrictions by IP address**
 
     Restrict access to Hermes by enabling IP address access control rules.
 
--   **[View-only role](https://www.servicenow.com/docs/access?context=hermes-messaging-service-roles&version=australia&pubname=australia-servicenow-platform&section=hermes-messaging-service-roles-4&ft:locale=en-US)**
+-   **View-only role**
 
     Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
 
 
 ## Activation information
 
-Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application. For details, see [Activating the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Hermes Messaging Service is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application. For details, see Activating the Hermes Messaging Service.
 
 ## Related ServiceNow applications and features
 
--   **[Using Stream Connect for Apache Kafka](https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Using Stream Connect for Apache Kafka**
 
     Produce Apache Kafka messages from your ServiceNow instance using Workflow Studio and then consume the messages in an external application. You can also produce Apache Kafka messages from an external application and then consume the messages in your ServiceNow instance using a variety of consumers with Stream Connect.
 
--   **[Exploring Log Export Service \(LES\)](https://www.servicenow.com/docs/access?context=les-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Exploring Log Export Service \(LES\)**
 
     Export log data securely to your external data lake for reporting, auditing, or regulatory purposes using Hermes Messaging Service with the Log Export Service.
 
--   **[Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Instance Data Replication**
 
     Improve the performance and processing efficiency of Instance Data Replication by upgrading the replication sets that you created before the Washington DC release to use Hermes Messaging Service.
 

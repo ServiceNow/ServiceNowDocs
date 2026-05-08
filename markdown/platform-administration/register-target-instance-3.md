@@ -23,7 +23,7 @@ The IP address for the target instance is outside of the IP range.
 
 ## Remedy
 
-If the target instance uses IP range based authentication, it must enable the IP range `10.0.0.0/10.255.255.255` to communicate on a local network. See [IP range based authentication](https://www.servicenow.com/docs/access?context=c_IPRangeBasedAuthentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+If the target instance uses IP range based authentication, it must enable the IP range `10.0.0.0/10.255.255.255` to communicate on a local network. See IP range based authentication.
 
 **Parent Topic:**[Troubleshooting for registering target instance](register-target-instance-troubleshooting.md)
 

@@ -18,7 +18,7 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 ## Before you begin
 
 -   Create a Workflow Studio [subflow](../../flow-designer/task/create-subflow.md) or [action](../../flow-designer/task/create-action.md) that you want to use as the automation plan for your activity. For example, see [Create an action as an activity automation plan](create-automation-plan.md).
--   Make sure to set your current application to the application that you want your activity to run in. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Make sure to set your current application to the application that you want your activity to run in. For more information, see Application picker.
 -   Role required: admin, playbook.admin, or pd\_content\_author
 
 ## Procedure
@@ -31,15 +31,15 @@ Specify the action or subflow you want an activity to run. Configure the inputs 
 
 2.  Fill in the Activity Definition form fields.
 
-<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d176464e170">
+<table id="choicetable_ndc_pgy_5lb"><thead><tr><th align="left" id="d176456e170">
 
 Field
 
-</th><th align="left" id="d176464e173">
+</th><th align="left" id="d176456e173">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d176464e179">
+</th></tr></thead><tbody><tr><td id="d176456e179">
 
 **Label**
 
@@ -49,17 +49,17 @@ Enter a unique name for your activity.
 
  This name appears in the playbook in both the Workflow Studio Playbooks builder as well as during playbook runtime.
 
-</td></tr><tr><td id="d176464e206">
+</td></tr><tr><td id="d176456e206">
 
 **Table**
 
 </td><td>
 
-Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Select a table whose records the activity can access as inputs. When adding inputs to your activity in the Workflow Studio Playbooks builder, you can dot-walk to dynamic record data from this table. See Dot-walking to data in related tables.
 
  **Note:** The table specified for a playbook's triggering input record overrides the activity definition table at design time. See [Triggers](../concept/process-automation-designer-triggers.md)
 
-</td></tr><tr><td id="d176464e250">
+</td></tr><tr><td id="d176456e250">
 
 **Description**
 
@@ -67,7 +67,7 @@ Select a table whose records the activity can access as inputs. When adding inpu
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d176464e259">
+</td></tr><tr><td id="d176456e259">
 
 **Accessible From**
 
@@ -77,7 +77,7 @@ Choose one of the following options:-   **All application scopes** - You can add
 -   **This application scope only** - You can only add this activity to playbooks within the same application scope specified in the **Application** field.
 
 
-</td></tr><tr><td id="d176464e288">
+</td></tr><tr><td id="d176456e288">
 
 **Required Roles**
 

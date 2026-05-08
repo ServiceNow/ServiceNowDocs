@@ -17,7 +17,7 @@ The GlideCurrencySymbol API provides methods to retrieve currency symbols.
 
 Symbol information is also available in the Currency \[fx\_currency\] table, but this API has built-in caching that minimizes the queries issued to fx\_currency.
 
-This API allows you to work with currency symbols anywhere on the ServiceNow AI Platform, not just in [Currency](https://www.servicenow.com/docs/access?context=configure-and-use-default-currency-fields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [FX Currency](https://www.servicenow.com/docs/access?context=fx-currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US) fields.
+This API allows you to work with currency symbols anywhere on the ServiceNow AI Platform, not just in Currency and FX Currency fields.
 
 This API requires the FX Currency \(com.glide.currency2\) plugin, which is available by default. This API is provided within the `sn_currency` namespace.
 

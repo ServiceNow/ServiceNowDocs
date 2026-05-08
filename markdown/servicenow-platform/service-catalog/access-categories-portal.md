@@ -33,7 +33,7 @@ Role required: requester
 
 3.  In the **Catalogs** section, select the required catalog from the list.
 
-    For information on how you can configure a catalog, see [Configure a catalog in Service Portal](https://www.servicenow.com/docs/access?context=associate-portal-catalog&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For information on how you can configure a catalog, see Configure a catalog in Service Portal.
 
     **Note:**
 
@@ -69,5 +69,5 @@ Role required: requester
 
 [Request an order guide from Service Portal](request-order-guide-portal.md)
 
-[SC Categories widget](https://www.servicenow.com/docs/access?context=sc-categories-widget&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.sc-categories-widget]
 

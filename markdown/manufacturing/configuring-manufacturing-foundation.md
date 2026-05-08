@@ -75,7 +75,7 @@ Install the Install Base Management application from the ServiceNow Store store.
 
 </td><td>
 
-See [Install Service Exchange for Providers](https://www.servicenow.com/docs/access?context=install-service-bridge-v2-provider&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See Install Service Exchange for Providers.
 
 </td></tr></tbody>
 </table>-   Work with an implementation specialist to streamline your manufacturing setup process. To learn more, see the [Customer Success Center](https://www.servicenow.com/success.html).

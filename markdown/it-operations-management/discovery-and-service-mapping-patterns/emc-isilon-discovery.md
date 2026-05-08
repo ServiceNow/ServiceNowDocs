@@ -49,7 +49,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   ISI\_PRIV\_SMB
 -   **Create basic authentication credentials**
 
-    In the Credentials module of the ServiceNow platform, create a basic authentication credential for the same Dell EMC Isilon user. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    In the Credentials module of the ServiceNow platform, create a basic authentication credential for the same Dell EMC Isilon user. For more information, see Basic authentication credentials.
 
 
 ## Data collected by Discovery for Dell EMC Isilon

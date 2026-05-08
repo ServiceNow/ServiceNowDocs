@@ -51,7 +51,7 @@ Build apps smarter and deliver them faster with the new ServiceNow Studio. Servi
 
     Before building your first application, you may want to learn some basic information about application development. This phase is optional, and you can complete it at any time while you work on other phases.
 
-    -   How [ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=now-platform-landing&version=australia&pubname=australia-now-platform&ft:locale=en-US) is made up of tables and records. Learn how to convert a spreadsheet into record data.
+    -   How ServiceNow AI Platform is made up of tables and records. Learn how to convert a spreadsheet into record data.
     -   How to [Get a development instance](../task/get-dev-instance.md) to practice creating applications.
     -   How to find out [Licensing](../reference/licensing.md) for which application features require a subscription.
     -   How to contact [Support for developers](../../applications/reference/r_support-servicenow-developers.md) to ask questions about application development.
@@ -92,7 +92,7 @@ Build apps smarter and deliver them faster with the new ServiceNow Studio. Servi
     Choose a builder that matches the type of user experience that your application provides.
 
     -   See [Build apps using App Engine Studio](../../app-engine-studio/concept/aes-overview.md) to learn about low-code development.
-    -   See [Build workflows](https://www.servicenow.com/docs/access?context=build-workflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US) to learn about creating automation with Workflow Studio or Playbooks.
+    -   See Build workflows to learn about creating automation with Workflow Studio or Playbooks.
     -   See [Builder library](builder-library-table.md) to learn about specialized application resources.
 -   **![](../../../reuse/icons/brand-icons/bus-automated-testing-framework.svg) [Phase 3: Testing and debugging your application](testing-and-debugging-applications.md)**
 

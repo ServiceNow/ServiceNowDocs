@@ -19,8 +19,8 @@ User criteria records define conditions that are evaluated against user records.
 
 User criteria is a platform feature used in Service Portal. Learn more about user criteria in the ServiceNow AI Platform:
 
--   Service Catalog: [Set security for items and categories](https://www.servicenow.com/docs/access?context=c_ServiceCatalogAccessControls&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
--   Knowledge Management: [Control access at the knowledge base level through user criteria](https://www.servicenow.com/docs/access?context=t_SelectUserCriteria&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Service Catalog: Set security for items and categories.
+-   Knowledge Management: Control access at the knowledge base level through user criteria.
 
 **Important:** After making user criteria additions or changes, you may need to log out and log back in to clear the prior configuration.
 

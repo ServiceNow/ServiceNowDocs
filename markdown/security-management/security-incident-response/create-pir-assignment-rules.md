@@ -69,7 +69,7 @@ Condition
 
 </td><td>
 
-Option to configure the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
+Option to configure the condition builder to define the conditions that must be met in the security incident for this rule to be executed. For more information, see the example below.
 
 </td></tr><tr><td>
 

@@ -23,7 +23,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 Administrators can configure the **wm\_notification.upcoming.task.reminder.minutes.before** system property to set the number of minutes before which a task reminder is sent. By default, you receive a notification 45 minutes before the work start time.
 
-Administrators can enable push notifications in Studio. For information on setting up push notifications, see [Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Administrators can enable push notifications in Studio. For information on setting up push notifications, see Mobile push notifications.
 
 ## Procedure
 
@@ -130,7 +130,7 @@ The following fields are updated in the work order task:
 **Related topics**  
 
 
-[Manage notifications from your mobile device](https://www.servicenow.com/docs/access?context=notification-preference-settings&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[bundle-mobile.notification-preference-settings]
 
 [Complete a questionnaire for a work order task](complete-questionnaire-mobile-app.md)
 

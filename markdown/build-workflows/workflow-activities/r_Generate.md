@@ -21,7 +21,7 @@ By default, the workflow does not create any tasks or approvals until it reaches
 
 The **Generate** activity follows all transitions through the workflow to each activity. For each activity:
 
--   If it is a [task activity](https://www.servicenow.com/docs/access?context=r_TaskActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), creates the task and sets:
+-   If it is a task activity, creates the task and sets:
 
     -   The **State** to **Pending**
     -   The **Expected Start Date**

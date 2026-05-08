@@ -15,7 +15,7 @@ breadcrumb: [Workplace Reservation Management references, Workplace Reservation 
 
 As a workplace admin, you can configure push notifications that you want to send to an employee on their mobile devices to alert them about important events and enable them to perform an action.
 
-To configure mobile push notifications, refer to [Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US).
+To configure mobile push notifications, refer to Mobile push notifications.
 
 As an employee, to receive push notifications, you must have the following:
 

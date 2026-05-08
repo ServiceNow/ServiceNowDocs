@@ -39,7 +39,7 @@ Patterns unify the Identification and Exploration phases of discovery.
 
     **Note:** Patterns need applicative credentials to find applications running on host machines. Make sure you have applicative credentials configured along with the credentials required to access the host machine itself.
 
-2.  The operations in the pattern specify the actions that Discovery needs to take for both the identification and exploration phases. Discovery knows which [identification rules](https://www.servicenow.com/docs/access?context=c_IdentificationRules&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to use based on the CI type in the pattern, and Discovery makes inserts or updates to the CMDB based on these rules. Only the Horizontal Discovery Sensor is used. Other probes and sensors are not used.
+2.  The operations in the pattern specify the actions that Discovery needs to take for both the identification and exploration phases. Discovery knows which identification rules to use based on the CI type in the pattern, and Discovery makes inserts or updates to the CMDB based on these rules. Only the Horizontal Discovery Sensor is used. Other probes and sensors are not used.
 
 **Parent Topic:**[Exploring Discovery](c_GetStartedWithDiscovery.md)
 

@@ -15,7 +15,7 @@ breadcrumb: [User roles, Configure, Delegated Development, Planning your applica
 
 Although system admins can still manually assign and remove the user roles, they are encouraged to let the system manage the following delegated developer roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 <table id="table_wp4_wjx_hv"><thead><tr><th>
 

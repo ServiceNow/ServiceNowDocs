@@ -52,7 +52,7 @@ Role required: sn\_lg\_cnt.contract\_config, admin
 
         1.  In the Variables related list, select **New**.
 
-            For more information on creating variables, see [Create a service catalog variable](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+            For more information on creating variables, see Create a service catalog variable.
 
         2.  Map the variable to the corresponding column in the Legal Contract Request \[sn\_lg\_ops\_contract\_request\] table.
     3.  If the intake form requires user input for the type of contract, in the Variables related list, select **New**, and then add a variable of type Reference.
@@ -63,7 +63,7 @@ Role required: sn\_lg\_cnt.contract\_config, admin
 
     5.  If you want to validate the state of contract type and restrict creation of a legal request for the inactive contract type on submission of the legal request, add the **Verify if Contract type is active** script from the base system non-disclosure agreement record producer to the new record producer.
 
-        For more information on adding a catalog client script, see [Create a Service Catalog client script](https://www.servicenow.com/docs/access?context=t_CreateACatalogClientScript&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information on adding a catalog client script, see Create a Service Catalog client script.
 
         **Note:** If you don't add this script in the new record producer, the legal request with the corresponding record producer will be created in the Cancelled state and the contract request won't be created.
 
@@ -111,6 +111,6 @@ Role required: sn\_lg\_cnt.contract\_config, admin
 
     6.  Repeat steps for the **Preview** tab configuration.
 
-    For more information, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Configure the standard ticket page.
 
 

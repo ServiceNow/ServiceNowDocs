@@ -26,7 +26,7 @@ For alert notifications in Slack channels, verify that the plugin Slack Webhooks
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 2.  Find the plugin using the filter criteria and search bar.
 
-    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see Request a plugin.
 
 
 Role required: evt\_mgmt\_operator or evt\_mgmt\_admin

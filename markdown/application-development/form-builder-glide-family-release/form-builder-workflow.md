@@ -150,8 +150,8 @@ Advanced table properties menu \(![Advanced table properties menu.](../image/fb-
 
 Choose an option:
 
--   **Advanced view** to manage the advanced properties in the selected table. For more information, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   **Form designer** to launch the selected table in Form Designer. For more information, see [Using the Form Designer](https://www.servicenow.com/docs/access?context=c_FormDesign&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   **Advanced view** to manage the advanced properties in the selected table. For more information, see Table administration.
+-   **Form designer** to launch the selected table in Form Designer. For more information, see Using the Form Designer.
 -   **Delete table** to delete the selected table.
 
 **Note:** This option only appears on the Data tab.

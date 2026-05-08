@@ -35,15 +35,15 @@ For example, if you delete a user record that is referenced in the **Caller ID**
 
     **Note:** The option for this field have no effect for tables with m2m relationships, meaning that in this example, if the tables have an m2m relationship, the user record is deleted.
 
-<table id="choicetable_vwv_kpx_rt"><thead><tr><th align="left" id="d356978e114">
+<table id="choicetable_vwv_kpx_rt"><thead><tr><th align="left" id="d356956e114">
 
 Option
 
-</th><th align="left" id="d356978e117">
+</th><th align="left" id="d356956e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d356978e123">
+</th></tr></thead><tbody><tr><td id="d356956e123">
 
 **__Clear__ or __-- None --__**
 
@@ -51,7 +51,7 @@ Description
 
 Deleting a record clears references \(default option\).
 
-</td></tr><tr><td id="d356978e138">
+</td></tr><tr><td id="d356956e138">
 
 **__Delete__ or __Cascade__**
 
@@ -61,7 +61,7 @@ Deleting a record also deletes all referencing records. For example, when a user
 
 Use this method with caution.
 
-</td></tr><tr><td id="d356978e156">
+</td></tr><tr><td id="d356956e156">
 
 **__Restrict__**
 
@@ -69,7 +69,7 @@ Use this method with caution.
 
 Deleting a record is restricted unless there are no references to the record. For example, prevent the user record from being deleted if any incident includes a reference to the user.
 
-</td></tr><tr><td id="d356978e168">
+</td></tr><tr><td id="d356956e168">
 
 **__None__**
 

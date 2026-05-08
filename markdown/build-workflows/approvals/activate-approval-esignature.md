@@ -6,7 +6,7 @@ release: australia
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Approval with e-signature, Classic approvals, Build workflows]
 ---

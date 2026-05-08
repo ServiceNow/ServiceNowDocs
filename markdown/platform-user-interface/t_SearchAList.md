@@ -121,7 +121,7 @@ Search for values that start end with search-term.
 Search for values that don't equal search-term.
 
 </td></tr></tbody>
-</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see [Auto-complete for reference fields](https://www.servicenow.com/docs/access?context=c_AutoCompleteForReferenceFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see Auto-complete for reference fields.
 
 ## Configure the default search behavior
 
@@ -180,7 +180,7 @@ Changes the default search behavior for a list to a starts with search.-   Type:
 **Related topics**  
 
 
-[Add a property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 
 ### Configure default search behavior using a dictionary attribute
 

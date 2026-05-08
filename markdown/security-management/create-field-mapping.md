@@ -120,9 +120,9 @@ Select where to find the value. Choices include:-   Add new value into a field i
 
 When **Store value in a field or related list** is set to **Add new value into a field in the record** this field specifies the field to fill in.**Note:**
 
-For choice fields, matches are made to existing choices using the underlying choice label or value. If no match is found, the field is set, but no new entry is added to the choice list. For more information, see [Choice lists](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For choice fields, matches are made to existing choices using the underlying choice label or value. If no match is found, the field is set, but no new entry is added to the choice list. For more information, see Choice lists.
 
-For reference fields, an entry is set only when a value matching the display name of the record, or valid`sys_id` is found. For more information, see [Reference fields](https://www.servicenow.com/docs/access?context=c_ReferenceField&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For reference fields, an entry is set only when a value matching the display name of the record, or valid`sys_id` is found. For more information, see Reference fields.
 
 </td></tr><tr><td id="d148427e315">
 

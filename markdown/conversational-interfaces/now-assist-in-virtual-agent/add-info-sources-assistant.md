@@ -77,12 +77,12 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
     **Note:** If you have any external search sources created on your instance, the external search sources are shown in the **Add search sources** drop-down list.
 
-    The External Content Connectors application adds support for indexing content and metadata from documents in external repositories to make those documents searchable in AI Search applications. The External Content Connectors application ships with a default search source for each connector. Connector admins can link the default search source for a connector to a search profile as part of the connector creation process, or after the connector is created. For more information, see [Create a GitHub Enterprise Cloud external content connector](https://www.servicenow.com/docs/access?context=create-ext-cont-connector-github-enterprise-cloud&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Connect an external content connector to a search profile](https://www.servicenow.com/docs/access?context=connect-external-content-connector-search-profile&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For information about creating search sources and linking them to search profiles, see [Search sources in AI Search](https://www.servicenow.com/docs/access?context=search-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    The External Content Connectors application adds support for indexing content and metadata from documents in external repositories to make those documents searchable in AI Search applications. The External Content Connectors application ships with a default search source for each connector. Connector admins can link the default search source for a connector to a search profile as part of the connector creation process, or after the connector is created. For more information, see Create a GitHub Enterprise Cloud external content connector and Connect an external content connector to a search profile. For information about creating search sources and linking them to search profiles, see Search sources in AI Search.
 
 9.  Select the **Add search sources** drop-down list to select or deselect search sources and save them into the assistant search profile.
 
     -   An internal search source refers to all knowledge base search sources on the instance and all catalog search sources on the instance.
-    -   An external search source refers to all external content search sources on an instance. Examples of external search sources include Microsoft SharePoint or Confluence. For a complete list of external search sources, see [Exploring External Content Connectors](https://www.servicenow.com/docs/access?context=exploring-ext-cont-connectors&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   An external search source refers to all external content search sources on an instance. Examples of external search sources include Microsoft SharePoint or Confluence. For a complete list of external search sources, see Exploring External Content Connectors.
     Search sources that aren't a knowledge base, external content, or catalog won't be used for the LLM-generated responses, but they are used for query-based search results shown in the assistant. Tool tips are shown for non-LLM eligible search sources.
 
 10. Select **Restore default search sources** if you want to revert to the default search sources of Now Assist Multi-Turn Catalog Ordering and Now Assist Q&amp;A.
@@ -93,11 +93,11 @@ Each assistant has its own search configuration. If you have configured AI Searc
 
     A new browser tab opens with your assistant's search profile page from the AI Search Admin console page.
 
-    You must first complete the build of your search profile in the AI Search Admin console, and then publish your profile for it to be saved. For more information, see [Configure and manage AI Search in search applications](https://www.servicenow.com/docs/access?context=ais-admin-console-setup-manage-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    You must first complete the build of your search profile in the AI Search Admin console, and then publish your profile for it to be saved. For more information, see Configure and manage AI Search in search applications.
 
     ![Review and publish profile in AI Search Admin console](../image/NAinVA-publish-profile.png "Publish profile in AI Search Admin console")
 
-    When navigating back to your assistant admin configuration in Assistant Designer, refresh your browser page to reflect published updates from the AI Search Admin console. For more information about the AI Search Admin console, see [Using AI Search Admin console](https://www.servicenow.com/docs/access?context=using-ais-admin-console&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    When navigating back to your assistant admin configuration in Assistant Designer, refresh your browser page to reflect published updates from the AI Search Admin console. For more information about the AI Search Admin console, see Using AI Search Admin console.
 
     **Note:** If you rename an assistant, the assistant's search profile name is automatically renamed to match the latest assistant's name.
 

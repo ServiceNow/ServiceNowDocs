@@ -4,7 +4,7 @@ description: Admins can create configurations for task plan templates that pre-f
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

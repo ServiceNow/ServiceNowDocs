@@ -31,7 +31,7 @@ Inferred CSAT is a numerical score from 1 \(least satisfied\) to 5 \(most satisf
 
 Inferred CSAT scores and factors are calculated for each conversation. Conversational analytics applications can leverage the scores written to the Conversation Insights \[sn\_aci\_insights\] table to create custom dashboards and workflows. The [AI Agent Analytics dashboard](../../now-assist-ai-agents/concept/ai-agent-dashboard.md) includes visualizations with Inferred CSAT scores and factors by default.
 
-The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see [Create a dashboard with the in-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) and [Select a table data source for a data visualization](https://www.servicenow.com/docs/access?context=select-table-data-source&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The data retention period for the Conversation Insights \[sn\_aci\_insights\] table is two years. For more information on creating custom dashboards, see Create a dashboard with the in-line editor and Select a table data source for a data visualization.
 
 Conversation Insights are also supported by Voice Agents, Now Assist Panel and Now Assist Virtual Agent.
 

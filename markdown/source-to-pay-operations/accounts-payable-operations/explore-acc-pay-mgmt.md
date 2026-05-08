@@ -15,7 +15,7 @@ breadcrumb: [Accounts Payable Operations, Finance and Supply Chain]
 
 Learn about the key features and capabilities of Accounts Payable Operations.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Key features
 

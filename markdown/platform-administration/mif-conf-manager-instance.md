@@ -35,15 +35,15 @@ Role required: admin or sn\_mif.mif\_admin.
 
 4.  On the Manager Instances form, fill up the following.
 
-<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d292143e94">
+<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d292121e94">
 
 Entry
 
-</th><th align="left" id="d292143e97">
+</th><th align="left" id="d292121e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d292143e103">
+</th></tr></thead><tbody><tr><td id="d292121e103">
 
 **Manager Instance**
 
@@ -51,7 +51,7 @@ Description
 
 Select a manager instance from the list of instance names using the lookup option.**Note:** Only production instances should be designated as the primary managers for both production and sub-production instances. Sub-production instances may manage other sub-production instances under specific, defined conditions.
 
-</td></tr><tr><td id="d292143e114">
+</td></tr><tr><td id="d292121e114">
 
 **Application**
 

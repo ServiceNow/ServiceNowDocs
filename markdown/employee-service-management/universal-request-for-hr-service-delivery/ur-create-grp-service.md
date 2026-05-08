@@ -34,7 +34,7 @@ Here are a few good practices for creating groups:
 
 3.  On the form, fill in the fields.
 
-    For more information, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Create a user group.
 
 4.  Click the lock icon beside the **Type** field.
 

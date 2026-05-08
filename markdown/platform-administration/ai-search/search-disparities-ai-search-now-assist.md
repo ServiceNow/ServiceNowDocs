@@ -38,7 +38,7 @@ The Now Assist Genius Result configurations offered in Now Assist in AI Search u
 
 The most relevant matching results are merged into a prompt that's sent to a Large Language Model \(LLM\) for answer generation. Because LLMs are not deterministic, they don't always produce the same output even when given the same input. As a result of the non-deterministic behavior of the LLM, Now Assist Genius Results are likely to return varying results for the same search, even when submitted at the same time.
 
-**Note:** For more information on how LLMs introduce variations into their results, see [Discrepancies when using different AI search tools](https://www.servicenow.com/docs/access?context=aisearch-differences&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** For more information on how LLMs introduce variations into their results, see Discrepancies when using different AI search tools.
 
 Between the non-deterministic LLM behavior and the difference in search matching modes, Now Assist Genius Result answers can be expected to vary significantly from results returned by AI Search for the same search terms, even when using the same search configuration in both tools. This variance is expected because the two search tools take such different approaches when finding and generating answers for your search.
 
@@ -50,7 +50,7 @@ Unlike those Genius Result configurations, however, Now Assist in Virtual Agent 
 
 Because of this architectural difference, results from Now Assist in Virtual Agent searches can vary from those returned by Now Assist Genius Results, even when processing the same search and using the same search configuration. Similarly, Now Assist in Virtual Agent results may vary from the results returned by AI Search keyword searches.
 
-**Note:** If you're seeing different results for the same search in Now Assist in Virtual Agent than you are in AI Search and Now Assist Genius Results, it's worth checking that your Now Assist in Virtual Agent chat assistant uses the same search configuration as your portal's search field does. For details on copying an existing search configuration to a chat assistant, see [Assign search sources to a chat assistant](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** If you're seeing different results for the same search in Now Assist in Virtual Agent than you are in AI Search and Now Assist Genius Results, it's worth checking that your Now Assist in Virtual Agent chat assistant uses the same search configuration as your portal's search field does. For details on copying an existing search configuration to a chat assistant, see Assign search sources to a chat assistant.
 
 As previously described, using the same search configuration in the portal and your chat assistant doesn't guarantee that you will see exactly the same search results in Now Assist in Virtual Agent as you see in the portal using AI Search, but it does remove one possible source of difference.
 
@@ -89,5 +89,5 @@ The following table summarizes some of the key differences between AI Search, No
 
 [Now Assist Actions Genius Results](now-assist-catalog-ordering-gr.md)
 
-[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.now-assist-in-va-landing]
 

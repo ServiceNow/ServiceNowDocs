@@ -276,7 +276,7 @@ contextData
 
 </td><td>
 
-Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see [Live agent chat context variables](https://www.servicenow.com/docs/access?context=live-agent-chat-context-vars&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Optional. Dictionary containing chat context variables that are passed into the chat session.For additional information on chat context variables, see Live agent chat context variables.
 
 </td></tr><tr><td>
 

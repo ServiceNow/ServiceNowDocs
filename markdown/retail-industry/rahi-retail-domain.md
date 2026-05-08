@@ -19,7 +19,7 @@ Domain separation is supported for Retail Core. Domain separation enables you to
 -   The application supports domain separation at run time. The domain separation includes separation from the user interface, cache keys, reporting, rollups, and aggregations.
 -   The owner of the instance must set up the application to function across multiple tenants.
 
-Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response. For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response. For more information on support levels, see Application support for domain separation.
 
 ## Retail use case
 

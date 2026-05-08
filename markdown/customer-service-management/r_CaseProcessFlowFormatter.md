@@ -29,5 +29,5 @@ By default, the process flow formatter displays the following states:
 **Related topics**  
 
 
-[Process flow formatter](https://www.servicenow.com/docs/access?context=r_ProcessFlowFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.r_ProcessFlowFormatter]
 

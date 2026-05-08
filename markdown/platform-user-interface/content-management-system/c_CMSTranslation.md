@@ -17,8 +17,8 @@ You can translate CMS sites by activating internationalization plugins and manua
 
 Two tables support the translation of a CMS site into other languages.
 
--   Translated Name / Field \[sys\_translated\]: Stores strings that are shared or commonly used within a site. These include menu section names, menu item names, site breadcrumb names, link names, and footer menu links. Internationalization plugins typically provide translations for these strings. See[System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Translated Text \[sys\_translated\_text\]: Stores unique string translations which you create when you manually translate interface elements. See [Export and edit translation records](https://www.servicenow.com/docs/access?context=t_TranslateTheInterface&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Translated Name / Field \[sys\_translated\]: Stores strings that are shared or commonly used within a site. These include menu section names, menu item names, site breadcrumb names, link names, and footer menu links. Internationalization plugins typically provide translations for these strings. SeeSystem Localization.
+-   Translated Text \[sys\_translated\_text\]: Stores unique string translations which you create when you manually translate interface elements. See Export and edit translation records.
 
 **Parent Topic:**[Content Management System](c_ContentManagementSystem.md)
 
@@ -71,5 +71,5 @@ This example explains how to view a translated site in Japanese.
 **Related topics**  
 
 
-[Language internationalization support](https://www.servicenow.com/docs/access?context=c_LangInternationalizationSupport&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_LangInternationalizationSupport]
 

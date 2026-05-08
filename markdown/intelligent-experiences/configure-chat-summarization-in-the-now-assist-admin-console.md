@@ -93,7 +93,7 @@ Chat recommendation or reply recommendation for the workflow is active on the in
 
 ## What to do next
 
-Analyze your skill performance and usage on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Analyze your skill performance and usage on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at Monitoring Now Assist usage in Subscription Management.
 
 **Parent Topic:**[Activate a Now Assist skill](configure-a-now-assist-skill.md)
 

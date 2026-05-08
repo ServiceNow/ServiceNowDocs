@@ -73,11 +73,11 @@ For more context regarding this example and the general usage of Machine Learnin
 **Related topics**  
 
 
-[DatasetDefinition - Global](https://www.servicenow.com/docs/access?context=DatasetDefinitionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.DatasetDefinitionAPI]
 
-[ClassificationSolution - Global](https://www.servicenow.com/docs/access?context=ClassificationSolutionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.ClassificationSolutionAPI]
 
-[ClassificationSolutionStore - Global](https://www.servicenow.com/docs/access?context=ClassificationSolutionStoreAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.ClassificationSolutionStoreAPI]
 
-[ClassificationSolutionVersion - Global](https://www.servicenow.com/docs/access?context=ClassificationSolutionVersionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.ClassificationSolutionVersionAPI]
 

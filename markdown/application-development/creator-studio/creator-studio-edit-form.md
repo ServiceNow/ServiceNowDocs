@@ -110,7 +110,7 @@ Select the value field
 
 </td><td>
 
-Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(![](../../../administer/ui-builder/image/crs-edit-pencil-icon-purple.png)\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Field in the source table for the record choices question that contains the value you want to use as the answer to the current question.You must select the edit icon \(![](../../../administer/ui-builder/image/crs-edit-pencil-icon-purple.png)\), navigate to the field in the source table that contains the auto-populated answer, and select to **Apply** it. For more info on selecting fields in a table, see Dot-walking to data in related tables.
 
 </td></tr></tbody>
 </table>    6.  Select **Save and close** when you finish modifying the question.

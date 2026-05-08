@@ -22,7 +22,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
 Confirm that the application scope for the custom model exists on the instance to which you're importing it.
 
-The **glide.attachment.extensions** system property restricts the file types that can be downloaded. This property is empty by default. Check that the XML file extension hasn't been added to this property. For more information, see [Security settings properties](https://www.servicenow.com/docs/access?context=r_GeneralSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The **glide.attachment.extensions** system property restricts the file types that can be downloaded. This property is empty by default. Check that the XML file extension hasn't been added to this property. For more information, see Security settings properties.
 
 ## About this task
 
@@ -63,7 +63,7 @@ Note the following rules when exporting and importing custom ERP models:
 
 6.  Open the instance to which you're importing the custom model.
 
-    The following steps use update sets. For general information, see [Exploring System Update Sets](https://www.servicenow.com/docs/access?context=exploring-system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The following steps use update sets. For general information, see Exploring System Update Sets.
 
     1.  Navigate to **All** &gt; **System Update Sets** &gt; **Retrieved Update Sets**.
 
@@ -81,13 +81,13 @@ Note the following rules when exporting and importing custom ERP models:
 
     6.  Select **Preview Update Set** and check for any errors, such as a collision.
 
-        For detailed information about previewing and resolving issues, see [Preview a remote update set](https://www.servicenow.com/docs/access?context=t_PreviewARemoteUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US) .
+        For detailed information about previewing and resolving issues, see Preview a remote update set .
 
     7.  When you're finished previewing and have resolved any errors, select **Close**.
 
     8.  Select **Commit update set** to create a local copy.
 
-        For detailed information about the update set commit process, see [Commit an update set](https://www.servicenow.com/docs/access?context=t_CommitAnUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US) .
+        For detailed information about the update set commit process, see Commit an update set .
 
     9.  When the local copy is created, select **Close**.
 

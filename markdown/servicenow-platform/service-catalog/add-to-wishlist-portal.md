@@ -37,7 +37,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d264985e122">
+<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d264981e122">
 
 **Remove Item**
 
@@ -45,7 +45,7 @@ Role required: requester
 
 To remove an item from the wish list, click the Remove Item icon \( ![Icon to remove item](../image/RemoveIcn.png)\).
 
-</td></tr><tr><td id="d264985e137">
+</td></tr><tr><td id="d264981e137">
 
 **Clear Wish List**
 
@@ -53,7 +53,7 @@ To remove an item from the wish list, click the Remove Item icon \( ![Icon to re
 
 To clear the wish list, click **Clear Wish List**.
 
-</td></tr><tr><td id="d264985e149">
+</td></tr><tr><td id="d264981e149">
 
 **View the Catalog**
 
@@ -80,5 +80,5 @@ To navigate to the Service Catalog landing page, click **View the Catalog**.
 
 [Request an order guide from Service Portal](request-order-guide-portal.md)
 
-[SC Wish List Cart widget](https://www.servicenow.com/docs/access?context=sc-wish-list&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.sc-wish-list]
 

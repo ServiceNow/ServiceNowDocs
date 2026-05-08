@@ -39,7 +39,7 @@ You can access the ECC queue from either of these locations:
 -   **Discovery** &gt; **Output and Artifacts** &gt; **ECC Queue**
 -   **ECC** &gt; **Queue**
 
-The following image is an example of a record in the ECC queue. This record shows that a ConnectorProbe was instructed to run and has been processed. Note the XML payload it returned as the discovery task collected data. See [The MID Server ECC queue](https://www.servicenow.com/docs/access?context=ecc-queue-mid-server&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for a description of each field.
+The following image is an example of a record in the ECC queue. This record shows that a ConnectorProbe was instructed to run and has been processed. Note the XML payload it returned as the discovery task collected data. See The MID Server ECC queue for a description of each field.
 
 ![An example ECC Queue](../image/ECCQueue.png "An example ECC queue record")
 
@@ -89,5 +89,5 @@ The normal behavior for Discovery sensors is to delete attachments to ECC queue 
 **Related topics**  
 
 
-[Manage ECC Queue content for a MID Server](https://www.servicenow.com/docs/access?context=ecc-queue-mid-server&version=australia&pubname=australia-servicenow-platform&section=manage-ecc-queue-content&ft:locale=en-US)
+[bundle-platcap.manage-ecc-queue-content]
 

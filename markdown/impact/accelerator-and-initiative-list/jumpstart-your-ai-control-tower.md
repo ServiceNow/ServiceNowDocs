@@ -6,7 +6,7 @@ release: australia
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, View the Initiatives and Accelerators catalog, Initiatives and Accelerators, Using Impact, Impact]
 ---

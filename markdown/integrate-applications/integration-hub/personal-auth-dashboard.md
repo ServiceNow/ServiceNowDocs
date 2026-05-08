@@ -54,7 +54,7 @@ The integrations on the dashboard all come from the Connection &amp; Credential 
 -   If the credential currently has a valid token, it's listed in the My Integrations section of the dashboard.
 -   If the credential doesn't currently have a valid token, it's listed in the Integrations I can use section of the dashboard.
 
-If you're not already using the personal authentication credential type, you can configure one by creating a Connection &amp; Credential Alias that uses an OAuth 2.0 credential with the **Integration Type** of **Personal**. For more details and instructions, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+If you're not already using the personal authentication credential type, you can configure one by creating a Connection &amp; Credential Alias that uses an OAuth 2.0 credential with the **Integration Type** of **Personal**. For more details and instructions, see Create a Connection &amp; Credential alias.
 
 ## Token revocation URL
 

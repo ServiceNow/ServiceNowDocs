@@ -16,13 +16,13 @@ The ServiceNow® Customer Service Problem Management application helps customer 
 
 Use Alternative Dispute Resolution \(ADR\) feature to acknowledge and register customer disputes, complaints, or ADRs, conduct investigations, and deliver timely resolutions.
 
-See [Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See Customer Service Problem Management for more information.
 
 **Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Alternative dispute resolution management](https://www.servicenow.com/docs/access?context=alternative-dispute-resolution&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Alternative dispute resolution management**
 
     Use the ADR case type to capture complete case details and manage investigations and resolutions while enforcing Service Level Agreement \(SLA\) compliance. You can also maintain audit and Root Cause Analysis \(RCA\) history and generate deadlock letters for customer or partner communication.
 
@@ -46,7 +46,7 @@ You must install Case Playbook for Complaints \(sn\_complaint\) plugin to use th
 
 ## Related ServiceNow applications and features
 
--   **[Customer service case types](https://www.servicenow.com/docs/access?context=customer-service-case-types&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Customer service case types**
 
     A case type represents the processes and the data that are needed to resolve a specific type of customer issue. Use the case types feature to create and configure the different types of customer service cases that your organization needs.
 

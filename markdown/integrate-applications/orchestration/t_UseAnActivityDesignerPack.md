@@ -21,7 +21,7 @@ Roles required: admin, activity\_admin, activity\_creator
 
 ## About this task
 
-You can organize custom activities into packs and upload them to the ServiceNow Store. Your custom packs do not appear in the tree until at least one activity in the pack is published. Activities added to an existing pack are not displayed until they are published. Activity packs from any [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US) can appear in the **Packs** tab, regardless of the current scope setting for the instance.
+You can organize custom activities into packs and upload them to the ServiceNow Store. Your custom packs do not appear in the tree until at least one activity in the pack is published. Activities added to an existing pack are not displayed until they are published. Activity packs from any Application scope can appear in the **Packs** tab, regardless of the current scope setting for the instance.
 
 ## Procedure
 

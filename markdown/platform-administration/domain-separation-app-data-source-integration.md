@@ -38,5 +38,5 @@ Team should define a few examples with data-driven properties. There should be t
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

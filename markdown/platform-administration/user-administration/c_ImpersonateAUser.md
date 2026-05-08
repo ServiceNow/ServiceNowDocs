@@ -21,7 +21,7 @@ This function enables the administrator to access the system exactly as the impe
 
 ## Impersonation limitations
 
-When you impersonate a user, all scope-protected roles and encryption module roles are supported if the **Impersonation** option is configured in the module access policy. See [Create a module access policy](https://www.servicenow.com/docs/access?context=create-module-access-policy&version=australia&pubname=australia-platform-security&ft:locale=en-US) for details.
+When you impersonate a user, all scope-protected roles and encryption module roles are supported if the **Impersonation** option is configured in the module access policy. See Create a module access policy for details.
 
 Impersonating a user enables access to scope-protected and encryption roles, as defined in the access policy. However, if impersonating a user with an admin role, access to certain features and modules is limited unless the impersonator already possesses those roles.
 
@@ -51,7 +51,7 @@ More logins may be required to adequately test the system.
 
 ## Mobile impersonation
 
-Mobile impersonation is available on ServiceNow mobile apps. For information on mobile impersonations, see [Mobile impersonation](https://www.servicenow.com/docs/access?context=mobile-impersonation&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Mobile impersonation is available on ServiceNow mobile apps. For information on mobile impersonations, see Mobile impersonation.
 
 -   **[Manage the visibility of the impersonation feature](manage-the-visibility-of-the-impersonation-feature.md)**  
 Before users can impersonate another user, an administrator must make the feature visible.

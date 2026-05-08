@@ -38,7 +38,7 @@ After upgrading to Zurich and setting the Smart Assessment Engine enabled \(**sn
     -   Smart Assessment Response Automation plugin \[com.sn\_smart\_resp\_auto\]
     -   Smart Assessment Scoring plugin \[com.sn\_smart\_scoring\]
 
-**Note:** For more information on these plugins, see [Configuring Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-assessment-engine-cf-config&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Smart assessment configuration](https://www.servicenow.com/docs/access?context=tprm-sae-assessment-config&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+**Note:** For more information on these plugins, see Configuring Smart Assessment Engine and Smart assessment configuration.
 
 ## Migrating to Smart Assessment Engine
 
@@ -59,7 +59,7 @@ The following diagram shows the questionnaire to TPRM SAE template migration wor
 
 4.  Review each assessment template to confirm it’s marked as Supports smart assessment. If an assessment template isn’t marked as Supports smart assessment, manually adding a new TPRM SAE questionnaire template to it updates its status.
 
-For more information, see [Migrate a template to an SAE template](https://www.servicenow.com/docs/access?context=tprm-asmnt-tmplt-migrate-metrics-to&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [Create a TPRM SAE questionnaire or document request template](https://www.servicenow.com/docs/access?context=create-sae-q-template&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [Create an external assessment template](https://www.servicenow.com/docs/access?context=create-vendor-risk-assess-temp&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), and [Create an issue generation rule](https://www.servicenow.com/docs/access?context=tprm-generate-issue-rule&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information, see Migrate a template to an SAE template, Create a TPRM SAE questionnaire or document request template, Create an external assessment template, and Create an issue generation rule.
 
 ## Classic assessment engine to Smart Assessment Engine comparison
 
@@ -109,11 +109,11 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
-    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://www.servicenow.com/docs/access?context=tprm-migrate-asmnt-template-result&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Create a TPRM SAE questionnaire or document request template](https://www.servicenow.com/docs/access?context=create-sae-q-template&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see Results of migrating a template to a TPRM SAE template and Create a TPRM SAE questionnaire or document request template.
 
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 
-    For more information, see [Configure scoring for an assessment](https://www.servicenow.com/docs/access?context=configure-scoring-for-assessments&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Normalization in assessment](https://www.servicenow.com/docs/access?context=normalization-in-assessment&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information, see Configure scoring for an assessment and Normalization in assessment.
 
 -   Event-driven management rules are the default option for scheduling assessments and replaces Repeating assessments.
 
@@ -134,7 +134,7 @@ VRM
 -   Activate the Vendor Risk Management application \[com.sn\_vdr\_risk\_asmt\].
 -   Activate the Vendor Risk Management Workspace application \[sn\_vrm\_ws\] if you want to use the Vendor Risk Management workspace.
 
-For more information on licensing or metering, see [Tracking a managed activity](https://www.servicenow.com/docs/access?context=tprm-managed-activity&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US), [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
+For more information on licensing or metering, see Tracking a managed activity, [Third-party Risk Management \(TPRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1431058), and [Vendor Risk Management \(VRM\) Licensing](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1362674).
 
 ## VRM to TPRM changes
 

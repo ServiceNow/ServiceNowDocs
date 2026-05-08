@@ -19,5 +19,5 @@ Account level data syncs from IDI to the Impact Store App and instance level dat
 
 ![Impact multi-instance configuration showing instance level data and account level data syncing with IDI.](../image/multi-instance.png)
 
-For additional information about multi-instance support, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information about multi-instance support, see Cross-instance application trust configuration.
 

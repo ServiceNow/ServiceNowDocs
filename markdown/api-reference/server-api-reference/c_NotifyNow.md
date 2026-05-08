@@ -608,7 +608,7 @@ Sends an SMS message to an E.164-compliant mobile phone number.
 
 Notify supports international numbers. Using this method with a number that does not support sending SMS messages results in an error being logged.
 
-See also: [Advanced configuration for SMS](https://www.servicenow.com/docs/access?context=t_ConfigureNotifyforVoiceandSMS&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+See also: Advanced configuration for SMS.
 
 |Name|Type|Description|
 |----|----|-----------|

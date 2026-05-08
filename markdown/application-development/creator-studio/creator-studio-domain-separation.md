@@ -19,12 +19,12 @@ Domain separation is not supported in Creator Studio. This means that you can't 
 
 Though there may be a domain specified on data tables that Creator Studio uses, Creator Studio doesn't provide any special handling of data based on domains.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 **Parent Topic:**[Configuring Creator Studio](configuring-creator-studio.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

@@ -91,16 +91,16 @@ This component displays within UI Builder views. To make changes to the preconfi
 
 For more information about adding this component to a workspace, see the following resources:
 
--   [Customize UI Builder pages using components](https://www.servicenow.com/docs/access?context=work-components&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   Customize UI Builder pages using components
 -   [Components documentation for Card Data Security](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/sn-card-data-security-container/overview)
 -   [UI Builder setup documentation for Card Data Security](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/sn-card-data-security-container/uib-setup)
 
 **Related topics**  
 
 
-[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.ui-builder-overview]
 
-[Page collections](https://www.servicenow.com/docs/access?context=page-collections&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.page-collections]
 
-[Extend your UI experience with viewport components](https://www.servicenow.com/docs/access?context=viewports-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.viewports-overview]
 

@@ -31,7 +31,7 @@ If you have the Sourcing and Procurement Operations \(SPO\) application along wi
     -   Shopping Hub \(com.snc.uib.sn\_spend\_uib\)
 -   Required Roles: The procurement manager has the asset manager role \(sn\_spend\_asset.spo\_shopper\) and other roles depending on the IT Asset Management applications.
 
-For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see [Sourcing and Procurement Operations integration with IT Asset Management](https://www.servicenow.com/docs/access?context=spo-itam-better-together&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+For more information about the Asset Management Integration for Sourcing and Procurement Operations \(com.snc.sn\_spend\_asset\) plugin, see Sourcing and Procurement Operations integration with IT Asset Management.
 
 ## Procedure
 
@@ -53,7 +53,7 @@ For more information about the Asset Management Integration for Sourcing and Pro
 
     -   Required plugins are installed to enable the procurement manager to work on assigned requests by using the SPO's Shopping Hub workflows.
     -   The procurement manager has the correct role.
-    After successful validation, you're directed to a new Source Request page. The SPO's Shopping Hub workflow guides you through the steps to complete the checkout of the requested items, and you don't need to follow steps 6 through 11 on this page for purchase order creation. Depending on whether the requested items have contractual pricing or not, a purchasing or sourcing flow is triggered, and you need to provide the details for completing the order. For more information about creating sourcing request or purchase requisition, see [Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace](https://www.servicenow.com/docs/access?context=spo-itam-submit-requests&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+    After successful validation, you're directed to a new Source Request page. The SPO's Shopping Hub workflow guides you through the steps to complete the checkout of the requested items, and you don't need to follow steps 6 through 11 on this page for purchase order creation. Depending on whether the requested items have contractual pricing or not, a purchasing or sourcing flow is triggered, and you need to provide the details for completing the order. For more information about creating sourcing request or purchase requisition, see Create Sourcing Request or Purchase Requisition in SPO via ITAM Workspace.
 
 6.  In the **Vendor** list, select the vendor from which the requested item or items should be delivered.
 

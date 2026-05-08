@@ -57,8 +57,8 @@ Branding and theming
 
 </td><td>
 
-A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   [View the brand and theme setting in your workspace experience](https://www.servicenow.com/docs/access?context=workspace-view-theme-setting&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+A theme sets the visual style of a configurable workspace experience and provides a consistent look and feel across all pages.-   View the brand and theme setting in your workspace experience
+-   Working with themes in Next Experience
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Forms
 
 </td><td>
 
-Configure the way forms appear for your agents or workers in a configurable workspace. You can also configure the fields that appear on the form to be different depending on the record type and user roles. For more information, see [Administering forms for Configurable Workspace](https://www.servicenow.com/docs/access?context=administer-forms-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Configure the way forms appear for your agents or workers in a configurable workspace. You can also configure the fields that appear on the form to be different depending on the record type and user roles. For more information, see Administering forms for Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Additional Forms Configuration
 
 </td><td>
 
-Configure templates that agents can use to pre-populate fields and UI actions to make a configurable workspace more interactive. For more information, see [Administering forms for Configurable Workspace](https://www.servicenow.com/docs/access?context=administer-forms-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Configure templates that agents can use to pre-populate fields and UI actions to make a configurable workspace more interactive. For more information, see Administering forms for Configurable Workspace.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Search
 
 </td><td>
 
-Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   [Configuring search in Next Experience](https://www.servicenow.com/docs/access?context=using-search-next-experience&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Define search sources that your agents can query in a configurable workspace. Agents can use these keywords to search for specific records or knowledge articles.-   Configuring search in Next Experience
 -   [AI search in Recommended Actions](ra-csm-ai-search.md)
 
 </td></tr><tr><td>
@@ -117,7 +117,7 @@ Advanced Work Assignment \(AWA\)
 
 </td><td>
 
-Set up [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to automatically route tasks and interactions to the right agents.
+Set up Advanced Work Assignment to automatically route tasks and interactions to the right agents.
 
 </td></tr><tr><td>
 
@@ -125,7 +125,7 @@ Configurable Workspace Agent Chat
 
 </td><td>
 
-Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. For more information, see [Setting up Agent Chat](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Configure Agent Chat to enable live agents to chat with customers and manage various conversation features for agents and end users. For more information, see Setting up Agent Chat.
 
 </td></tr><tr><td>
 
@@ -133,7 +133,7 @@ Playbook
 
 </td><td>
 
-Playbooks display business process workflows in a simple task-oriented view. These step-by-step procedures guide users through workflows that address commonly encountered situations. For more information, see [Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Playbooks display business process workflows in a simple task-oriented view. These step-by-step procedures guide users through workflows that address commonly encountered situations. For more information, see Building Playbooks.
 
 </td></tr></tbody>
 </table>## Configuring workspace pages in UI Builder
@@ -144,11 +144,11 @@ You can use UI Builder to configure the pages and components that display inform
 -   [Record pages](csm-config-workspace-record-pages.md)
 -   [Customer Central – Customer Information tab](../task/cust-central-configure-info-tab.md)
 
-For more information, see the [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US) topic in the [UI Builder](https://www.servicenow.com/docs/access?context=create-custom-experience&version=australia&pubname=australia-application-development&ft:locale=en-US) documentation.
+For more information, see the Manage UI Builder pages and page variants topic in the UI Builder documentation.
 
 ## Set up communication channels and routing
 
-Enable agents to chat with customers or to receive and place customer calls. You can also set up routing that automatically directs chats to the appropriate agents. For more information, see [Setting up Agent Chat](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Enable agents to chat with customers or to receive and place customer calls. You can also set up routing that automatically directs chats to the appropriate agents. For more information, see Setting up Agent Chat.
 
 ## Set up additional CSM Configurable Workspace components
 

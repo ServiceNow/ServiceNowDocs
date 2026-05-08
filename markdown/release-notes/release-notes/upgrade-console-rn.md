@@ -17,17 +17,17 @@ The ServiceNow® Upgrade Console application guides you for a comprehensive and 
 -   Access the ATF troubleshooting agent directly from the Upgrade console.
 -   Manage your application version compatibility by updating the Now Assist suite.
 
-See [Upgrade Console](https://www.servicenow.com/docs/access?context=um-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See Upgrade Console for more information.
 
 **Important:** Upgrade Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[App version compatibility support](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **App version compatibility support**
 
     Update the Now Assist suite to manage application version compatibility by automatically updating all related applications to compatible versions when you upgrade an application in the compatibility matrix.
 
--   **[ATF Troubleshooting agent access](https://www.servicenow.com/docs/access?context=um-post-upgrade-activities&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **ATF Troubleshooting agent access**
 
     You can now troubleshoot failed tests by accessing the ATF troubleshooting agent from the Conduct post-testing step in the post-upgrade activities of a non-production instance.
 

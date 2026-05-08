@@ -36,7 +36,7 @@ Deploy the inactive topic to save it and make it available to users on Virtual A
 
     If you're using NLU discovery, the Choose what to publish dialog box appears. Select the available items to publish with the topic, such as the NLU model and language mappings, and then click **Publish**.
 
-    **Note:** If the **Publish Model** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from NLU Workbench. For more information, see [Model management](https://www.servicenow.com/docs/access?context=model-management-phases&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    **Note:** If the **Publish Model** option is unavailable, the model may need some work. For example, the model may not have enough intents or may need more utterances for some intents. Fix these issues before proceeding. Also, if a model language is unavailable, the language-specific model has never been published. Publish it from NLU Workbench. For more information, see Model management.
 
     For topics, the topic state is Active and the Published state changes to **just now**.
 

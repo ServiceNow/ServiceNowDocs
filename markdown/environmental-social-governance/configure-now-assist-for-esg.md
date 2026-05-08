@@ -33,7 +33,7 @@ You can install the Now Assist for Operational Sustainability plugin \(com.sn\_e
 
 For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-admin/task/install-now-assist-feature-plugins.html).
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [User data usage policy for Now Assist](https://www.servicenow.com/docs/access?context=user-data-usage-policy-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see Indexed sources in AI Search and User data usage policy for Now Assist.
 
 -   **[Activate the document intelligence for utility invoices skill](activate-the-document-intelligence-for-utility-invoices-skill.md)**  
 Activate and then configure document intelligence for utility invoices skill from Now Assist to automate the extraction of metrics data from utility invoices. Once activated, map the extracted data to the correct metric definitions and entities.

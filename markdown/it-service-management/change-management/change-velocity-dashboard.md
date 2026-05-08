@@ -25,7 +25,7 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 
     ![Change Velocity dashboard view.](../image/change-velocity-dashboard.gif "Change Velocity dashboard view")
 
--   The **Process Optimization** tab provides change activity assessments that are based on the state model. This capability is available only with an ITSM Enterprise subscription. For more information, see [Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   The **Process Optimization** tab provides change activity assessments that are based on the state model. This capability is available only with an ITSM Enterprise subscription. For more information, see Process Mining.
 
     ![Process Optimization view.](../image/PO.gif "Process Optimization view")
 
@@ -42,7 +42,7 @@ The Change Velocity dashboard is divided into the following tabs for effective u
 
 -   **Change Velocity**
 
-    Average amount of time that changes have been waiting for approval in the last 30 days. To generate this data on the dashboard, you must run the Change velocity historical data collection job. For information on how to run this job see, [Collect historical data](https://www.servicenow.com/docs/access?context=t_RunHistoricalDataCollection&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    Average amount of time that changes have been waiting for approval in the last 30 days. To generate this data on the dashboard, you must run the Change velocity historical data collection job. For information on how to run this job see, Collect historical data.
 
 -   **Top Change Success Performers**
 

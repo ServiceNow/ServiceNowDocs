@@ -23,7 +23,7 @@ Role required: sn\_cd.content\_admin
 
 You can assign a content request to a user with the sn\_cd.content\_manager or an assignment group.
 
-An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see [Configure assignment group types](https://www.servicenow.com/docs/access?context=c_ConfigGroupTypesForAssignGroups&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+An assignment group is a group of users that receive the content request. Content Governance includes two assignment groups out of the box: Content Admin and Content Manager, which contain the users with those roles. To configure a new assignment group, see Configure assignment group types
 
 ## Procedure
 

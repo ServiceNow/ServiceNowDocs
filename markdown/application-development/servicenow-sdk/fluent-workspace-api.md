@@ -22,7 +22,7 @@ The Workspace API creates application metadata in the following tables depending
 
 Dashboards can be used as the home page of a workspace by referring to one or more workspaces from the visibilities array of the Dashboard object. To create a dashboard, see [Dashboard API - ServiceNow Fluent](fluent-dashboard-api.md#).
 
-For general information about workspaces, see [Configurable Workspace UI](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For general information about workspaces, see Configurable Workspace UI.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 

@@ -30,7 +30,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of the Java KeyStore credentials**
 
-    In the **Discovery Credentials** module, select **jks credentials**. Make sure you configured the Discovery IP Affinity. In the **Type** field, insert `java_keystore`. For more information, see [Get started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+    In the **Discovery Credentials** module, select **jks credentials**. Make sure you configured the Discovery IP Affinity. In the **Type** field, insert `java_keystore`. For more information, see Get started with credentials
 
 -   **Verify the configuration of the Discovery schedule**
 

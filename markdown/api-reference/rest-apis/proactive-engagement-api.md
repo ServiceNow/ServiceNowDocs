@@ -27,7 +27,7 @@ To use this API, ensure the following tables are populated with records:
 -   Notification Content \[sn\_pren\_notification\_content\]
 -   Provider \[sn\_pren\_provider\]
 
-For more information, see [Proactive Engagement](https://www.servicenow.com/docs/access?context=proactive-engagement-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+For more information, see Proactive Engagement
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

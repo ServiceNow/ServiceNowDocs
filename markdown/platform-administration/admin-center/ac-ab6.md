@@ -43,7 +43,7 @@ Enhance the experience
 
 </td><td>
 
-[Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+Advanced Work Assignment
 
 </td><td>
 
@@ -51,7 +51,7 @@ Use Advanced Work Assignment to automatically assign work items to your qualifie
 
 </td><td>
 
-[Roles installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-roles&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+Roles installed with Advanced Work Assignment
 
 </td><td>
 
@@ -63,7 +63,7 @@ Enhance the experience
 
 </td><td>
 
-[Agent Forecast](https://www.servicenow.com/docs/access?context=define-number-of-agents-configurable-wfo-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Agent Forecast
 
 </td><td>
 
@@ -103,7 +103,7 @@ Build a foundation
 
 </td><td>
 
-[Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Continual Improvement Management
 
 </td><td>
 
@@ -111,11 +111,11 @@ Use Continual Improvement Management to request improvement opportunities, and i
 
 </td><td>
 
-[Roles installed with Continual Improvement Management \(CIM\)](https://www.servicenow.com/docs/access?context=cim-roles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Roles installed with Continual Improvement Management \(CIM\)
 
 </td><td>
 
-[Continual Improvement Management \(CIM\) support](https://www.servicenow.com/docs/access?context=cim-domain-separation&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Continual Improvement Management \(CIM\) support
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Build a foundation
 
 </td><td>
 
-[Skill Determination](https://www.servicenow.com/docs/access?context=add-skills-automatic-itsm-manager-workspace-configurable-workspace&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Skill Determination
 
 </td><td>
 
@@ -164,7 +164,7 @@ Enhance the experience
 
 </td><td>
 
-[Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Skills Management
 
 </td><td>
 
@@ -172,7 +172,7 @@ Use Skills Management to associate skills with individual users or groups and as
 
 </td><td>
 
-[Roles installed with Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Roles installed with Skills Management
 
 </td><td>
 
@@ -184,7 +184,7 @@ Add advanced features
 
 </td><td>
 
-[Getting started with Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=getting-started-workforce-optimization-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Getting started with Workforce Optimization for ITSM
 
 </td><td>
 
@@ -192,7 +192,7 @@ Use Workforce Optimization for ITSM to manage and maintain the productivity of y
 
 </td><td>
 
-[Roles installed with Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=configurable-itsm-manager-workspace-reference&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Roles installed with Workforce Optimization for ITSM
 
 </td><td>
 

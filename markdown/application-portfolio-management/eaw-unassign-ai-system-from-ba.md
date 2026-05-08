@@ -57,7 +57,7 @@ Removing an AI system from a business application removes only the association. 
 
 [AI Control Tower integration with Enterprise Architecture](../../concept/eaw-concept/eaw-aict.md)
 
-[AI Control Tower Home](https://www.servicenow.com/docs/access?context=ai-control-tower-home-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-control-tower-home-page]
 
 [View AI system details from a business application](eaw-view-ai-system-in-aict-from-ba.md)
 

@@ -130,9 +130,9 @@ File attachments for the fallout record. Select **Browse** to add the file as an
 
 [Creating automated fallout records](creating-automated-manual-fallout-records.md)
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 
-[Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 
-[Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.create-flow]
 

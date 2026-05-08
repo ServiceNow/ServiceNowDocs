@@ -28,7 +28,7 @@ If you are a new customer, the AI Search application is configured with your bas
 
 If you are an existing customer, you have to configure Contract Workspace to use the AI Search application.
 
-For more information on the AI Search application, and how to use most effectively use it, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For information about how to associate the AI Search application with Contract Workspace, see [Create a search application configuration for AI Search](https://www.servicenow.com/docs/access?context=create-search-app-config-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on the AI Search application, and how to use most effectively use it, see AI Search. For information about how to associate the AI Search application with Contract Workspace, see Create a search application configuration for AI Search.
 
 ## Procedure
 

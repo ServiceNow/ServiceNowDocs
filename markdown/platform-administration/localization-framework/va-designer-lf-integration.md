@@ -35,7 +35,7 @@ The integration of Virtual Agent Designer with Localization Framework enables yo
 -   Approve and publish the translated content.
 -   Monitor the overall localization health of the Virtual Agent topics from the [Localization Insights dashboard](../../../use/dashboards/application-content-packs/localization-insights-dashboard.md).
 
-For more information about localizing the Virtual Agent topics in the Virtual Agent Designer, see [Virtual Agent Localization](https://www.servicenow.com/docs/access?context=localize-va-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information about localizing the Virtual Agent topics in the Virtual Agent Designer, see Virtual Agent Localization.
 
 **Parent Topic:**[Explore Localization Framework](exploring-localization-framework.md)
 

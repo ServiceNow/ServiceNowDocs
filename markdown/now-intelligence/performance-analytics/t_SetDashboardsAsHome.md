@@ -20,9 +20,9 @@ You can set dashboards as your **Home**. With this setting, the last dashboard y
 
 **Note:** If Next Experience is enabled, the instructions on this page do not apply. For more information on Next Experience landing pages, see
 
--   [Exploring your default landing page](https://www.servicenow.com/docs/access?context=exploring-your-next-experience-homepage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Configuring Next Experience start page options](https://www.servicenow.com/docs/access?context=next-experience-start-option&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Configure a user-selected start page](https://www.servicenow.com/docs/access?context=configure-user-selected-start-page-preference&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Exploring your default landing page
+-   Configuring Next Experience start page options
+-   Configure a user-selected start page
 
 Role required: user.
 

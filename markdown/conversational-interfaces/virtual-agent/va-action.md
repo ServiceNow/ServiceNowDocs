@@ -54,7 +54,7 @@ Spoke
 
 Name of the scoped application that contains Workflow Studio content that is dedicated to a particular application or record type.
 
- For a list of default spokes, see [Spokes](https://www.servicenow.com/docs/access?context=spokes&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ For a list of default spokes, see Spokes.
 
 </td></tr><tr><td>
 

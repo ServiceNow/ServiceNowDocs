@@ -313,7 +313,7 @@ To use the getRoles\(\) method in a scoped application, use the corresponding sc
 
 Returns the current user's time zone label in the current user's preferred language.
 
-For more information about setting a user's preferred language, see [User specific language](https://www.servicenow.com/docs/access?context=r_UserSpecificLanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about setting a user's preferred language, see User specific language.
 
 |Name|Type|Description|
 |----|----|-----------|

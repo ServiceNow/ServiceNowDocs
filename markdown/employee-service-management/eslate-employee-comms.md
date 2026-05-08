@@ -5,7 +5,7 @@ locale: en-US
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [employee communications, announcements, content library, Employee Slate, chat promotion]
 breadcrumb: [Working with Employee Slate capabilities, Employee Slate, Employee Service Management]
 ---
@@ -35,6 +35,8 @@ The content library allows filtering, sorting, and viewing announcements in grid
 -   Filter the content by state such as published or draft
 -   Sort by the newest, oldest, and alphabetical order.
 -   Create announcements
+
+**Note:** Content Library/Editor are only available in desktop resolution,
 
 ![Create employee communication and engagement](../images/es-content-library.png "Employee communications")
 

@@ -38,7 +38,7 @@ The following restrictions apply to imported data:
 
 ## About this task
 
-Importing report data in this way is useful when you have information that is maintained outside of your instance, for example, recurring third-party data. To import an external data set into your instance permanently, see [Importing data using import sets](https://www.servicenow.com/docs/access?context=c_ImportDataUsingImportSets&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Importing report data in this way is useful when you have information that is maintained outside of your instance, for example, recurring third-party data. To import an external data set into your instance permanently, see Importing data using import sets.
 
 ## Procedure
 

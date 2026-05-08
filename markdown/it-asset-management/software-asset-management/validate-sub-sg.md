@@ -32,7 +32,7 @@ Role required: sam\_admin, sam\_user
 
     2.  Review the data in the User Subscription table by verifying the number of Microsoft 365 subscription records.
 
-        For more information about personalizing and filtering data, see [Configure user experiences](https://www.servicenow.com/docs/access?context=c_NavigationAndTheUserInterface&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For more information about personalizing and filtering data, see Configure user experiences.
 
         -   If the number of Microsoft 365 subscriptions records isn't accurate, verify that the **SAM - Import M365 User Subscriptions** scheduled job in the SAMP job log \[samp\_job\_log\] has completed successfully to pull the subscriptions.
             -   Confirm that the existing integrations are working properly.

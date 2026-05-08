@@ -28,7 +28,7 @@ Add a system property to prevent users from migrating their own dashboards.
 
 2.  Add the system property **com.glide.par.coreui\_single\_migration.enabled** if it does not already exist.
 
-    For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Available system properties.
 
 3.  Set **com.glide.par.coreui\_single\_migration.enabled** to `false`.
 

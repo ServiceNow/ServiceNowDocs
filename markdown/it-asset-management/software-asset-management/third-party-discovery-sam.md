@@ -28,7 +28,7 @@ IRE provides a centralized framework where you can perform reconciliations and d
 -   Independent: If the **Independent** check box is selected on a CI identifier, it means that the CI is not dependent on any other CI.
 -   Dependent: If the **Independent** check box is not selected on a CI identifier, it implies that this CI is dependent on other CIs.
 
-For more information on IRE, see [Identification and Reconciliation Engine](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on IRE, see Identification and Reconciliation Engine.
 
 You should have already configured loading the CIs in the ServiceNow instance. For each CI in your environment, the Hardware \[cmdb\_ci\_hardware\] table has a corresponding CI identifier rule. When the third-party discovery application runs, the software is identified on CIs. The third-party application constructs a payload and sends the payload via the IRE REST API endpoint to the ServiceNow instance to insert or update data into the Software Asset Management tables.
 

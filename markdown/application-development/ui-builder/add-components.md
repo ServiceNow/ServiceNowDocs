@@ -43,15 +43,15 @@ Components are the building blocks used to create custom pages in UI Builder. Le
 
     UI Builder comes with a library of components to choose from. You add components as the building blocks of your page. For example, you can add a heading, data visualizations, and so on. The following table shows you the different ways you can add a component to a page.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d274853e196">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d274835e196">
 
 To add a component
 
-</th><th align="left" id="d274853e199">
+</th><th align="left" id="d274835e199">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d274853e205">
+</th></tr></thead><tbody><tr><td id="d274835e205">
 
 **Directly from your page**
 
@@ -59,7 +59,7 @@ Do the following
 
 From your page, select **+** and choose a component from the toolbox. You can search for a component or scroll through the list.![Add content icon selected on the stage showing the toolbox window with Components tab selected.](../image/component-add-from-stage.png)
 
-</td></tr><tr><td id="d274853e225">
+</td></tr><tr><td id="d274835e225">
 
 **Floating menu above page**
 
@@ -69,7 +69,7 @@ Select the floating menu above your component. -   Select **Add before** or **Ad
 -   Choose a component from the toolbox.
 
 
-</td></tr><tr><td id="d274853e251">
+</td></tr><tr><td id="d274835e251">
 
 **Content tree**
 

@@ -29,7 +29,7 @@ For chat assistants, a primary assistant can be linked to one or more secondary 
 
 Each assistant can have more than one display experience, using either the standard chat or enhanced chat experience, depending on the display experience that's configured. Enhanced chat offers a conversational search experience that seamlessly integrates Virtual Agent chat with search results. For more information, see [Standard chat](../concept/nava-standard-chat.md) or [Enhanced chat](../concept/nava-enhanced-chat.md). For a comparison of the two, see [Using Now Assist in Virtual Agent](../concept/using-now-assist-in-va.md).
 
-**Note:** For new and upgrading customers, Now Assist panel - Platform assistant comes with the option to opt into premium chat if your instance meets certain criteria. For more information, see [Premium chat](https://www.servicenow.com/docs/access?context=now-assist-panel-premium&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Display your assistant on Platform or ServiceNow Studio](display-nap-assistant.md).
+**Note:** For new and upgrading customers, Now Assist panel - Platform assistant comes with the option to opt into premium chat if your instance meets certain criteria. For more information, see Premium chat and [Display your assistant on Platform or ServiceNow Studio](display-nap-assistant.md).
 
 When configuring a chat assistant, notes throughout the procedures show where there are differences between the setup for Now Assist in Virtual Agent assistants and the setup for Now Assist panel assistants. You can't create additional Now Assist panel assistants.
 

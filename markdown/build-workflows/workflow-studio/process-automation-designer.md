@@ -91,21 +91,21 @@ To learn about activating Playbook other applications, see [Activate Playbooks](
 
 |Integration|Content available|
 |-----------|-----------------|
-|[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)|Build playbooks from App Engine Studio.|
-|[Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)|Create basic request and fulfillment apps without code.|
-|[Configure Playbooks for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-playbooks-configuring&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Create playbooks for Customer Service Management.|
-|[Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US)|Create playbooks for Field Service Management.|
-|[HR Service Delivery Playbook](https://www.servicenow.com/docs/access?context=playbook-hr&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Create playbooks for HR services.|
-|[Software Asset Management Guided Experiences](https://www.servicenow.com/docs/access?context=playbook-entitlementsetup-workspace&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)|Create playbooks for Software Asset Management.|
-|[Healthcare and Life Sciences](https://www.servicenow.com/docs/access?context=hcls-overview&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)|Create playbooks for Healthcare and Life Science processes.|
-|[Playbooks for Financial Services Operations applications](https://www.servicenow.com/docs/access?context=playbooks-fso-apps&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)|Create playbooks for Financial Services Operations.|
-|[Playbooks for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=playbooks-psds-exploring&version=australia&pubname=australia-government-industry&ft:locale=en-US)|Create playbooks for Public Sector Digital Services.|
-|[Run actions to resolve alert issues in Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=run-alert-remediation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)|Create playbooks for IT Operations Management.|
-|[Account onboarding](https://www.servicenow.com/docs/access?context=account-lifecycle-playbook-overview&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)|Create playbooks for Account Lifecycle Events.|
-|[Onboard Jira to DevOps Change Velocity — Workspace](https://www.servicenow.com/docs/access?context=create-jira-tool-dev-ops&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|Create playbooks for IT Service Management.|
-|[Security Incident Response playbooks](https://www.servicenow.com/docs/access?context=cj-sir-about-flows&version=australia&pubname=australia-security-management&ft:locale=en-US)|Create playbooks for Security Operations.|
-|[Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=work-playbooks-spo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)|Create playbooks for Procurement Service Management.|
-|[Complete publishing checklist and request policy approval](https://www.servicenow.com/docs/access?context=complete-publishing-checklist-redlining&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)|Create playbooks for Governance, Risk, and Compliance processes.|
+|App Engine Studio|Build playbooks from App Engine Studio.|
+|Creator Studio|Create basic request and fulfillment apps without code.|
+|Configure Playbooks for Customer Service Management|Create playbooks for Customer Service Management.|
+|Field Service Management|Create playbooks for Field Service Management.|
+|HR Service Delivery Playbook|Create playbooks for HR services.|
+|Software Asset Management Guided Experiences|Create playbooks for Software Asset Management.|
+|Healthcare and Life Sciences|Create playbooks for Healthcare and Life Science processes.|
+|Playbooks for Financial Services Operations applications|Create playbooks for Financial Services Operations.|
+|Playbooks for Public Sector Digital Services|Create playbooks for Public Sector Digital Services.|
+|Run actions to resolve alert issues in Service Operations Workspace for ITOM|Create playbooks for IT Operations Management.|
+|Account onboarding|Create playbooks for Account Lifecycle Events.|
+|Onboard Jira to DevOps Change Velocity — Workspace|Create playbooks for IT Service Management.|
+|Security Incident Response playbooks|Create playbooks for Security Operations.|
+|Working with Sourcing and Procurement Operations playbooks in the Source-to-Pay Workspace|Create playbooks for Procurement Service Management.|
+|Complete publishing checklist and request policy approval|Create playbooks for Governance, Risk, and Compliance processes.|
 
 -   **[Playbook builder](exploring-process-automation-designer.md)**  
 Playbooks is a component in Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor playbooks, flows, subflows, actions, and decision tables in one place.

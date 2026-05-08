@@ -41,11 +41,11 @@ Role required: admin
 
 8.  Complete the remaining steps to create the page.
 
-    For more information, see [Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Create a page in UI Builder.
 
 9.  Add a viewport component for the page.
 
-    For more information on adding a viewport, see [Add a viewport component to your page](https://www.servicenow.com/docs/access?context=work-with-viewport-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information on adding a viewport, see Add a viewport component to your page.
 
     1.  In the configuration panel, select **+ Add** to attach the **Now Assist in Contract Management** page collection.
 
@@ -53,7 +53,7 @@ Role required: admin
 
 10. Create a client script for the page.
 
-    For more information on adding a client script, see [Define and bind client scripts to components](https://www.servicenow.com/docs/access?context=define-client-scripts&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information on adding a client script, see Define and bind client scripts to components.
 
     1.  Select **+** next to **Client scripts**.
 
@@ -105,7 +105,7 @@ Role required: admin
 
 13. Navigate to the **General** tab under **Settings** and verify that **table**, **sysId**, and **diTaskSysId** are available under the **Required parameters**.
 
-    If the parameters are not available, add them manually. For more information on modifying the page settings, see [Edit page variant settings](https://www.servicenow.com/docs/access?context=edit-variant-settings&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    If the parameters are not available, add them manually. For more information on modifying the page settings, see Edit page variant settings.
 
 
 **Parent Topic:**[Configuring the Playbook tab on contract repository records](cmpro-config-playbook-tab.md)

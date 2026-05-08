@@ -27,7 +27,7 @@ The JDBC activity template allows you to execute ANSI SQL statements or stored p
 
 ## Procedure
 
-1.  Create or verify your [JDBC credential](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+1.  Create or verify your JDBC credential.
 
     Your JDBC credentials must have permission for the target database and proper configuration for the corresponding JDBC connection. Credentials must be set up before you can create a JDBC activity.
 
@@ -157,7 +157,7 @@ Role required: activity\_admin, activity\_creator
 
 ### About this task
 
-[JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) [JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) are retrieved separately by the activity designer template and support external credential storage, such as [CyberArk](https://www.servicenow.com/docs/access?context=c_CyberArkCredStorageIntegrate&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+JDBC credentials JDBC credentials are retrieved separately by the activity designer template and support external credential storage, such as CyberArk.
 
 ### Procedure
 
@@ -360,7 +360,7 @@ The JDBC driver to use for this connection when it is not a default database. **
 **Related topics**  
 
 
-[JDBC credentials](https://www.servicenow.com/docs/access?context=r_JDBCCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.r_JDBCCredentialsForm]
 
 ## Auto-map JDBC activity output variables
 
@@ -416,7 +416,7 @@ There is support of multiple data types, with the following limitations:
 -   ResultSet is the first result set coming back from database server.
 -   MS-SQL does not support INOUT parameters. If you use INOUT parameters, the Activity Template transparently maps them to OUT parameters.
 
-**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+**Note:** If you do not want to do a validation of data types in stored procedure parameters, like the legacy behavior, you set the glide.stored\_proc.data\_type.validation as false. See MID Server properties for more information.
 
 <table id="table_vry_jqc_cz"><thead><tr><th>
 

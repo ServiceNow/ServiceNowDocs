@@ -107,7 +107,7 @@ Engagement Filter
 
 Criteria for selecting engagements.
 
- Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the criteria.
+ Use the condition builder to define the criteria.
 
  For example, you can perform assessments for third parties with whom you do considerable business: `Annual spend is greater than $40,000` or third parties within a particular category: `Category is software`.
 

@@ -23,7 +23,7 @@ The VA NLU Languages \[sys\_cs\_nlu\_language\] table lists the languages that a
 
 For unsupported language codes, you can specify a fallback language for NLU prediction. For example, if a user's language detected language is Mexican Spanish \(es-mx\), you can specify Spanish \(es\) as the fallback language, if it is enabled on your instance. For more information, see [Specify a fallback language for locale-specific languages and NLU prediction](../task/specify-fallback-language-nlu-prediction.md). You can also enable Dynamic Translation for Virtual Agent. For details, see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](../concept/dynamic-lang-detection-translation-enhanced-chat.md).
 
-**Note:** This content focuses specifically on NLU language support. For more information on LLM language support for Now Assist in Virtual Agent, see [Multilingual service for Now Assist](https://www.servicenow.com/docs/access?context=translation-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** This content focuses specifically on NLU language support. For more information on LLM language support for Now Assist in Virtual Agent, see Multilingual service for Now Assist.
 
 <table id="table_tkk_ymg_fpb"><thead><tr><th>
 

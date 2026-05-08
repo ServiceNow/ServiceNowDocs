@@ -43,7 +43,7 @@ Role required: admin or sp\_admin
 
     Make changes to the HTML Template, CSS, client script, server script, or the link function.
 
-    **Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://www.servicenow.com/docs/access?context=set-es12-mode-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    **Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see Turn on ECMAScript 2021 \(ES12\) mode for a script.
 
     ![Hello World 2 widget cloned and edited to say "Hola, mundo"](../image/CalculatorCodeExample.png "Hello World 2 clone")
 

@@ -21,7 +21,7 @@ Domain controllers are identified by the IP address of the host machine. To use 
 
 Your instance must have access to a MID Server configured to use PowerShell to run these activities.
 
-**Note:** All Active Directory activities pass through error messages returned from Active Directory. To view these error messages, point to the failed activity in the workflow canvas or select the **Workflow Log** tab in a [Workflow Context](https://www.servicenow.com/docs/access?context=r_AdministeringWorkflowContexts&version=australia&pubname=australia-build-workflows&ft:locale=en-US) record.
+**Note:** All Active Directory activities pass through error messages returned from Active Directory. To view these error messages, point to the failed activity in the workflow canvas or select the **Workflow Log** tab in a Workflow Context record.
 
 ## Custom Active Directory activities
 
@@ -31,7 +31,7 @@ Orchestration provides custom Active Directory activities that were created with
 
 ## Active Directory credentials with LDAP
 
-If you are using an LDAP Server with MID Servers, note that Orchestration and Active Directory activities do not use the user name and password configured on LDAP Servers. You must create a [Windows type orchestration credential record](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). The username and password in the credentials record is used for LDAP queries that Orchestration and workflow activities perform.
+If you are using an LDAP Server with MID Servers, note that Orchestration and Active Directory activities do not use the user name and password configured on LDAP Servers. You must create a Windows type orchestration credential record Windows credentials. The username and password in the credentials record is used for LDAP queries that Orchestration and workflow activities perform.
 
 ## Connection port used by AD Orchestration activities
 

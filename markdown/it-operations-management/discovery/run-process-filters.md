@@ -101,7 +101,7 @@ Any process matching the filter will not be added to the Running Processes \[cmd
 
  -   name is svchost.exe
 -   parameters does not contain iissvcs
- For information on setting filter conditions see: [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+ For information on setting filter conditions see: Condition builder
 
 </td></tr><tr><td>
 

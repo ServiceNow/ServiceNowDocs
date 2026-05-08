@@ -42,7 +42,7 @@ Role required: sam\_user or sam\_admin
     |Import type|Type of document that you are importing entitlements from. Set this field to **Microsoft license statement \(MLS\)**.|
     |File|File that you want to import entitlements from. Search for and select the MLS Excel file that you requested from Microsoft.|
     |Description|Description of the entitlement import. This field populates automatically based on the file that you selected in the **File** field.|
-    |Automatic creation of contracts|Option to enable automatic creation of both parent and child contracts for the selected MLS. Refer to [Contracts](https://www.servicenow.com/docs/access?context=c_Contracts&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information about contracts.|
+    |Automatic creation of contracts|Option to enable automatic creation of both parent and child contracts for the selected MLS. Refer to Contracts for more information about contracts.|
     |Import status|Status of the import. This field populates automatically.|
 
 5.  Select **Import**.

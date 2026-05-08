@@ -108,5 +108,5 @@ This field should be left empty, as it’s no longer used.
 **Related topics**  
 
 
-[Add help to a field label on a form](https://www.servicenow.com/docs/access?context=t_FieldLabelForm&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.t_FieldLabelForm]
 

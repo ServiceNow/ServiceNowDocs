@@ -33,7 +33,7 @@ When a change request is in the **Implement** state, the proposed asset action t
 
 **Note:** If the asset action is not selected, then the change request will not progress to the **Review** state.
 
-For more information, see [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+For more information, see Hardware Asset Management
 
 **Parent Topic:**[Change management integrations](change-mgmt-integrations.md)
 

@@ -79,7 +79,7 @@ Select the date and time to activate the plugin.
 
 ## Result
 
-You can create triggers in Playbooks for [custom tables that you create](https://www.servicenow.com/docs/access?context=t_CreateATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Enabling the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin lets you create playbooks for these tables and their [extensions](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US):
+You can create triggers in Playbooks for custom tables that you create. Enabling the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin lets you create playbooks for these tables and their extensions:
 
 -   Affected CIs \[cmdb\_outage\_ci\_mtom\]
 -   Agent Capacity \[awa\_agent\_capacity\]

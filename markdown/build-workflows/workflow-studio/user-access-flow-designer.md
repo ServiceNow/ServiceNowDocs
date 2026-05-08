@@ -200,7 +200,7 @@ Application developers can access Workflow Studio functionality through APIs for
 
 ## Delegated development access
 
-Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the [delegated development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US) permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see [Developer permissions](https://www.servicenow.com/docs/access?context=developer-permissions&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the delegated development permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see Developer permissions.
 
 ## Role-based content filtering
 

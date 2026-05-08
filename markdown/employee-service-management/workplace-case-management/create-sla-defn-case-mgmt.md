@@ -21,7 +21,7 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
 
 ## About this task
 
-Create an SLA definition and use it in Workplace cases. An SLA definition record defines the timings, conditions, workflows, and other information required to create and progress task SLAs. For more information, refer to [Service Level Agreement \(SLA\) definition](https://www.servicenow.com/docs/access?context=c_SLADefinitions&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Create an SLA definition and use it in Workplace cases. An SLA definition record defines the timings, conditions, workflows, and other information required to create and progress task SLAs. For more information, refer to Service Level Agreement \(SLA\) definition.
 
 ## Procedure
 
@@ -31,7 +31,7 @@ Create an SLA definition and use it in Workplace cases. An SLA definition record
 
     -   If you are creating an SLA Definition, click **New**.
     -   If you are modifying an existing SLA Definition, open the desired SLA Definition.
-    For information about the template form fields, see [Create an SLA Defintion](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For information about the template form fields, see Create an SLA Defintion.
 
 3.  In the **Table** field, select the **Workplace Case \[sn\_wsd\_case\_workplace\_case\]** table.
 

@@ -20,7 +20,7 @@ Domain separation is unsupported for Localization Workspace. Domain separation e
 -   The domain field may exist on data tables but there is no business logic to manage the data.
 -   This level is not considered domain-separated.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 **Parent Topic:**[Localization Workspace reference](localization-workspace-reference.md)
 

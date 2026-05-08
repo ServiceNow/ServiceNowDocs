@@ -17,7 +17,7 @@ Asset Management Hardware Model Normalization enables users to normalize the det
 
 The Normalization Data Services Client \(com.glide.data\_services\_canonicalization.client\) plugin is also activated when you activate the Hardware Model Normalization plugin.
 
-**Note:** This documentation is for Hardware Model Normalization. For additional information on Asset Management, see the [Asset Management documentation](https://www.servicenow.com/docs/access?context=c_AssetManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+**Note:** This documentation is for Hardware Model Normalization. For additional information on Asset Management, see the Asset Management documentation.
 
 ## Scheduled jobs
 

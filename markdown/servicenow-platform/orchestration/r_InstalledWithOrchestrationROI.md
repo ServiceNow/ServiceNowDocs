@@ -106,7 +106,7 @@ Cost Management\[com.snc.cost\_management\]
 
 </td><td>
 
-Provides the labor rate cards Orchestration ROI uses to determine the savings for each automated task. See [Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+Provides the labor rate cards Orchestration ROI uses to determine the savings for each automated task. See Cost Management for more information.
 
 </td></tr></tbody>
 </table>## Roles installed with Orchestration ROI

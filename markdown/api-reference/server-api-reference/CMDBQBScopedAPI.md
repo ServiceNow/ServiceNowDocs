@@ -19,7 +19,7 @@ This API is the scoped equivalent of [CMDBQueryBuilderAPI - Global](../../CMDBQu
 
 This API requires the Configuration Management for Scoped Apps plugin \(com.snc.cmdb.scoped\) and is provided within the `sn_cmdb` namespace.
 
-For more information about CMDB Query Builder, see [CMDB Query Builder](https://www.servicenow.com/docs/access?context=cmdb-query-builder-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about CMDB Query Builder, see CMDB Query Builder.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -119,7 +119,7 @@ Message containing details about the success or failure of the report creation.P
 -   `Invalid queryId. Please provide a valid saved query ID`
 -   `Query must have a schedule with at least one run to create a report.`
 
-See also [Schedule a CMDB query](https://www.servicenow.com/docs/access?context=create-cmdb-query-schedule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+See also Schedule a CMDB query.
 
 Data type: String
 
@@ -315,7 +315,7 @@ Returns the execution details for a Configuration Management Database \(CMDB\) Q
 
 Optionally, you can execute the query in order to return current execution details.
 
-If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see [Batch size for Query Builder saved queries](https://www.servicenow.com/docs/access?context=batch-size-query&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If a timeout or memory issue occurs while executing the query, you can fine tune the query batch size to help alleviate these problems. For more information, see Batch size for Query Builder saved queries.
 
 <table id="id_ezv_4vz_pbc" class="parameters"><thead><tr><th>
 
@@ -419,7 +419,7 @@ Data type: String
 
 </td><td>
 
-Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also [Batch size for CMDB Query Builder queries](https://www.servicenow.com/docs/access?context=batch-size-query&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Number
+Batch size of 100 allocated for the query run. This value only returns if the **executeQuery** parameter is true. See also Batch size for CMDB Query Builder queries.Data type: Number
 
 </td></tr><tr><td>
 

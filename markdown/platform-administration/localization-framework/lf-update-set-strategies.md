@@ -15,7 +15,7 @@ breadcrumb: [Localization Framework settings, Configure the Localization Framewo
 
 Use update sets to migrate your translations to another instance. Configure properties for update sets according to your business requirements.
 
-Update sets enable you to transfer your artifact translations to other instances. For background information on update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Update sets enable you to transfer your artifact translations to other instances. For background information on update sets, see System update sets.
 
 For localization tasks, the default has been to create a dedicated update set per task in the scope of the artifact. In the Australia release, you can specify your update set strategy to control whether translations are bundled into one update set, or distributed into granular update sets.
 

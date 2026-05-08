@@ -101,10 +101,10 @@ References
 
 [https://support.servicenow.com/kb\_view.do?sysparm\_article=KB0550107](https://support.servicenow.com/kb_view.do?sysparm_article=KB0550107)
 
- [Welcome pages](https://www.servicenow.com/docs/access?context=c_WelcomePageContent&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+ Welcome pages
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Authentication](sc-authentication.md)
 

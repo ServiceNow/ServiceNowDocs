@@ -50,11 +50,11 @@ The stakeholders are notified when you add them to a discussion. They can join t
 
 ## What to do next
 
-For more information on the sidebar, see [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on the sidebar, see Sidebar.
 
-To learn more about using the sidebar, see [Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To learn more about using the sidebar, see Using Sidebar.
 
-For information on the activity stream in the sidebar is, see [Activity stream in Sidebar](https://www.servicenow.com/docs/access?context=activity-stream-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For information on the activity stream in the sidebar is, see Activity stream in Sidebar.
 
 **Parent Topic:**[Using the Finance Operations Workspace](../concept/using-fin-case-mgmt-workspace.md)
 

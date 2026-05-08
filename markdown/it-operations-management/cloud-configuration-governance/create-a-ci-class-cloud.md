@@ -59,7 +59,7 @@ This topic provides general instructions for extending an existing cloud provide
 
     3.  Fill out the rest of the fields in the row.
 
-        See [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for a description of all the fields.
+        See Dictionary entry form for a description of all the fields.
 
 10. Click **Next**.
 

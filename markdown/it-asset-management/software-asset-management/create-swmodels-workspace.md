@@ -61,7 +61,7 @@ You must manually create a software model if a publisher part number isn’t ava
 
     When you add an attribute value, entitlements with this publisher information associated with them automatically have the **Metric Group** field populated. Based on the metric group, only license metrics related to the publisher are available.
 
-11. Associate your software model with a vendor by selecting [Vendor Catalog Items](https://www.servicenow.com/docs/access?context=t_CreateAVendorCatalogItem&version=australia&pubname=australia-it-service-management&ft:locale=en-US) and complete the form.
+11. Associate your software model with a vendor by selecting Vendor Catalog Items and complete the form.
 
 12. Specify the number of devices or users that are accessing the software by selecting [Client Access](../reference/software-model-fields.md#section_yhc_y3q_l3b) and complete the form.
 

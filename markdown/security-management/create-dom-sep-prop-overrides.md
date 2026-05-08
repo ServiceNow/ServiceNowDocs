@@ -15,7 +15,7 @@ When you use domain separation, you can create overrides to existing Security Op
 
 ## Before you begin
 
-Requires that [Domain Support - Domain Extensions](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US) be activated. You can also learn about the [Domain Override Viewer](https://www.servicenow.com/docs/access?context=domain-sep-override-viewer&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Requires that Domain Support - Domain Extensions be activated. You can also learn about the Domain Override Viewer.
 
 Role required: admin
 
@@ -50,5 +50,5 @@ Role required: admin
 **Related topics**  
 
 
-[Understanding domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_DomainSeparation]
 

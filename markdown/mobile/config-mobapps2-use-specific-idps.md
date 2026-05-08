@@ -71,7 +71,7 @@ Admins can define the login experience for mobile users by associating app-speci
 
     If a valid IdP sys\_id isn’t provided, the OAuth client login URL value can't be saved.
 
-    For information about configuring an external IdP on your instance, see [Create an external identity provider](https://www.servicenow.com/docs/access?context=t_CreateUpdateIdentityProvider&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For information about configuring an external IdP on your instance, see Create an external identity provider.
 
 4.  Select **Update** to save the entry.
 

@@ -49,7 +49,7 @@ Stashing changes removes them from the current application and saves them for a 
 -   Close dialog
 -   [Manage stashes](source-control-manage-stashes.md)
 
-To learn more, see [Getting started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+To learn more, see Getting started with credentials
 
 **Parent Topic:**[Stash changes](../concept/stash-changes.md)
 

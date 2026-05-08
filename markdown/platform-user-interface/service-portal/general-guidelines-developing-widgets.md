@@ -43,8 +43,8 @@ When developing custom widgets, keep these general guidelines in mind for optima
     Learn more:
 
     -   [Six common performance pitfalls in Service Portal and how to avoid them \[KB0634588\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0634588)
-    -   [spUtil - recordWatch](https://www.servicenow.com/docs/access?context=spUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
-    -   [GlideRecord setLimit Function](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+    -   spUtil - recordWatch
+    -   GlideRecord setLimit Function
 -   **Create a directive instead of embedding a complex widget**
 
     When an embedded widget is called from the server, all the scripts associated with that widget are returned. If you only need a subsection of a widget, embedding the entire widget creates unnecessary overhead. Instead, use directives to share lightweight code between widgets. Directives are useful, for example, when building UI components. Complex components with server-side and client-side functionality are best left as widgets. Use a directive instead of an embedded widget to:

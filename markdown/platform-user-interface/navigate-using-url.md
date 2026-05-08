@@ -28,7 +28,7 @@ Role required: admin
 
 1.  To access the unique, secure web address for each instance, enter the default format: `https://<instancename>.service-now.com`.
 
-    **Note:** To display a custom base URL in email notifications, set the **glide.email.override.url** property. For more information, see [Advanced email properties](https://www.servicenow.com/docs/access?context=r_AdditionalProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** To display a custom base URL in email notifications, set the **glide.email.override.url** property. For more information, see Advanced email properties.
 
 2.  For other URL displays, enter one of the following schemas:
 

@@ -281,7 +281,7 @@ Triggers the system to send an email notification to users when they are designa
 </table>**Related topics**  
 
 
-[Connect Chat](https://www.servicenow.com/docs/access?context=c_Collaboration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_Collaboration]
 
 ## Notifications installed with Visual Task Boards
 

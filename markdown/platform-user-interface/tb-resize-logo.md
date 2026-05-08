@@ -17,7 +17,7 @@ After you have uploaded a logo for your login screen, you can resize the logo by
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see Granular admin roles.
 
 ## Procedure
 
@@ -27,7 +27,7 @@ For information on granular roles, see [Granular admin roles](https://www.servic
 
     The entire list of properties in the System Properties \[sys\_properties\] table appears.
 
-2.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) called glide.ui.polaris.login.logo.height.
+2.  Add a system property called glide.ui.polaris.login.logo.height.
 
 3.  Set the system property **Value** to the maximum CSS height value for your logo.
 

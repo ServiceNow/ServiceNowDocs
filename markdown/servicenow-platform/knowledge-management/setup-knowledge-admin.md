@@ -45,11 +45,11 @@ Role required: admin.
 
 -   **Assign knowledge roles to users and groups**
 
-    Determine which [Knowledge Management roles](r_KnowledgeRoles.md#) are appropriate for each user, and then [assign those roles](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+    Determine which [Knowledge Management roles](r_KnowledgeRoles.md#) are appropriate for each user, and then assign those roles .
 
 -   **Create custom Knowledge workflows**
 
-    If the default [knowledge workflows](r_KnowledgeWorkflows.md#) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom [workflows](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for those knowledge bases.
+    If the default [knowledge workflows](r_KnowledgeWorkflows.md#) for publishing and retiring knowledge articles are not appropriate for your knowledge bases, create custom workflows for those knowledge bases.
 
 -   **Configure Knowledge properties**
 
@@ -72,7 +72,7 @@ Depending on any other requirements for the knowledge bases, you may be asked to
 
 Knowledge Management guided setup provides a sequence of tasks that help you configure Knowledge Management on your instance. To open Knowledge Management guided setup, navigate to **Knowledge** &gt; **Administration** &gt; **Guided Setup**.
 
-For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about using the guided setup interface, see Using guided setup.
 
 **Parent Topic:**[Configuring Knowledge Management](../concept/configuring-knowledge-management.md)
 

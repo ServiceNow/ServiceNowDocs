@@ -19,13 +19,13 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) spoke v2.5.1 or later version**
+-   **Adobe Sign spoke spoke v2.5.1 or later version**
 
-    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://www.servicenow.com/docs/access?context=setup-adobe-sign&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on the setup and synchronizing the Adobe Acrobat Sign group, see Synchronize Adobe Acrobat Sign group with ServiceNow.
 
--   **[DocuSign spoke](https://www.servicenow.com/docs/access?context=docusign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) spoke v2.2.0 or later version**
+-   **DocuSign spoke spoke v2.2.0 or later version**
 
-    For more information on the setup and creating the Docusign account, see [Set up Docusign eSignature spoke using authorization code grant](https://www.servicenow.com/docs/access?context=setup-docusign-authorization-code&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Docusign account, see Set up Docusign eSignature spoke using authorization code grant.
 
 
 Role required: sn\_lg\_ops.request\_config or sn\_lg\_contracts.contracts\_config or sn\_lg\_matter.matter\_config

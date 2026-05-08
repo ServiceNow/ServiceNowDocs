@@ -29,6 +29,6 @@ Role required: admin
 
     The form view of sys\_upgrade\_history record shows up.
 
-    **Note:** To learn more about importing from Source Control, see [ServiceNow Studio](https://www.servicenow.com/docs/access?context=c_ServiceNowStudio&version=australia&pubname=australia-application-development&ft:locale=en-US). Once the importing is done, use the **My Application Import History** module to view the import history.
+    **Note:** To learn more about importing from Source Control, see ServiceNow Studio. Once the importing is done, use the **My Application Import History** module to view the import history.
 
 

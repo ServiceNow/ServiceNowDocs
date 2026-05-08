@@ -62,6 +62,6 @@ View details of the EMR data associated with a ServiceNow service request.
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-    -   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

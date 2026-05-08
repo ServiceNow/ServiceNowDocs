@@ -15,7 +15,7 @@ breadcrumb: [Additional features, AWS, Service Graph Connectors, Integrating thi
 
 Manage the data source failure when importing resources from AWS.
 
-When importing large AWS resources, the data sources in the Service Graph Connector for AWS might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+When importing large AWS resources, the data sources in the Service Graph Connector for AWS might fail because of a Direct REST response exceeding the 1024-MB limit. For more information, see REST step.
 
 You can save the response as an attachment to handle the REST response size limitation error in the Service Graph Connector for AWS.
 

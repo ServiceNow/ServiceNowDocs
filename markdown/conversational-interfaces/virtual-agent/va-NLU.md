@@ -23,7 +23,7 @@ The following elements work together to identify what the user wants to do so th
 
 -   **Model groups**
 
-    A model group supports a given application, user roles, and languages. For example, you may have a model that supports the Search feature and another model that supports . Typically, a model group contains multiple intents. For more information, see [Model management](https://www.servicenow.com/docs/access?context=model-management-phases&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    A model group supports a given application, user roles, and languages. For example, you may have a model that supports the Search feature and another model that supports . Typically, a model group contains multiple intents. For more information, see Model management.
 
 -   **Intents**
 
@@ -34,7 +34,7 @@ The following elements work together to identify what the user wants to do so th
     -   Customers, such as the US Army, Wells Fargo, or Boeing.
     In Virtual Agent, a single intent is mapped to one conversation topic.
 
-    For more information, see [NLU intents](https://www.servicenow.com/docs/access?context=intents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see NLU intents.
 
 -   **Utterances**
 
@@ -52,7 +52,7 @@ The following elements work together to identify what the user wants to do so th
     -   Common or system entities, such as date, time, currency, location, quantity, people, or organization.
     -   Entities based on ServiceNow records, such as a case number.
     -   Company- or domain-specific entities, such as meeting rooms, company policies, and so forth.
-    For more information, see [NLU entities](https://www.servicenow.com/docs/access?context=entities&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see NLU entities.
 
 
 ## How NLU models work in Virtual Agent
@@ -132,7 +132,7 @@ Another example is when a user might ask a casual question or engage in small ta
 
 If you're using ServiceNow NLU, you can map an NLU model group and an associated intent to a topic. You can also update, train, and test the associated NLU model from within Virtual Agent Designer. As you work on a topic, you can also improve or modify the utterances and the associated entities for an intent without leaving the interface.
 
-ServiceNow NLU model groups contain a primary language and secondary languages. Use the primary language to author your topic, which can then be translated into the secondary languages within the group. For more information, see [Multilingual model management](https://www.servicenow.com/docs/access?context=multilingual-model-managent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow NLU model groups contain a primary language and secondary languages. Use the primary language to author your topic, which can then be translated into the secondary languages within the group. For more information, see Multilingual model management.
 
 As you work on your topics, Virtual Agent Designer provides language-mapping views for previewing and testing topics with their associated language-specific models. For more information, see [Localizing Virtual Agent conversations](localize-va-topic.md).
 

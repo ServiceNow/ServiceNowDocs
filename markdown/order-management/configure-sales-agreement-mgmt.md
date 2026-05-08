@@ -15,7 +15,7 @@ Use the Sales Agreement Management application to create sales agreements betwee
 
 ## Activate Sales Agreement Management
 
-As an admin, you can activate the following plugins to enable users to create and manage sales agreements. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to create and manage sales agreements. For more information, see Activate a plugin.
 
 <table id="table_dz4_d2c_wbc"><thead><tr><th>
 

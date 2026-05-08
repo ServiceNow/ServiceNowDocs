@@ -25,7 +25,7 @@ Administrators can compare field-level changes between two versions, apply chang
 
 ## Accessibility Functions
 
-The platform includes accessibility features that support [Web Content Accessibility Guidelines \(WCAG\) 2.0 level A](https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize&levels=aa%2Caaa) and make the interface accessible to users with disabilities. These features improve the user experience when accessing platform functions with [Using accessibility features](https://www.servicenow.com/docs/access?context=keyboard-accessibility&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The platform includes accessibility features that support [Web Content Accessibility Guidelines \(WCAG\) 2.0 level A](https://www.w3.org/WAI/WCAG20/quickref/?currentsidebar=%23col_customize&levels=aa%2Caaa) and make the interface accessible to users with disabilities. These features improve the user experience when accessing platform functions with Using accessibility features.
 
 In general, you can use the following set of standard keyboard navigation functions:
 
@@ -54,9 +54,9 @@ To enable accessibility functions, administrators should set these sys\_properti
 
 [Compare a pushed version to a local version](../task/t_ComparePushedVerLocalVer.md)
 
-[Compare two versions of an article](https://www.servicenow.com/docs/access?context=compare-two-article-versions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.compare-two-article-versions]
 
-[Resolve conflicts for an individual record](https://www.servicenow.com/docs/access?context=um-resolve-conflict&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.um-resolve-conflict]
 
 [Resolve a collision in Team Development](../task/t_ResolveACollision.md)
 

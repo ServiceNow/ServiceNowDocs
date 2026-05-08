@@ -22,7 +22,7 @@ Administrators can manage this feature by using the following options. Some of t
 -   Configure contextual security rules
 -   Manage user preferences \(List v2 only\)
 
-**Warning:** In List v2, the list editor does not enforce client scripts or UI policies. In List v3, the list editor enforces UI policies and mandatory dictionary attributes, but not client scripts. Allowing list editing with client scripts running on fields in a form can result in incorrect data being saved to the record. For systems in which client scripts or UI policies apply to forms, consider disabling list editing or creating appropriate business rules or access control to control the setting of values in the list editor. See [Use business rules and client scripts to control field values](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&section=r_BsnsRlClntScptsCntrlFldVl&ft:locale=en-US) for information on managing form and list editing.
+**Warning:** In List v2, the list editor does not enforce client scripts or UI policies. In List v3, the list editor enforces UI policies and mandatory dictionary attributes, but not client scripts. Allowing list editing with client scripts running on fields in a form can result in incorrect data being saved to the record. For systems in which client scripts or UI policies apply to forms, consider disabling list editing or creating appropriate business rules or access control to control the setting of values in the list editor. See Use business rules and client scripts to control field values for information on managing form and list editing.
 
 **Warning:** You cannot edit state fields that are extended from the Task \[task\] table from a list of task records. Examples include:
 
@@ -36,5 +36,5 @@ While these fields are visible from the task list, they must be edited from the 
 **Related topics**  
 
 
-[Use the list editor](https://www.servicenow.com/docs/access?context=t_UseTheListEditor&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.t_UseTheListEditor]
 

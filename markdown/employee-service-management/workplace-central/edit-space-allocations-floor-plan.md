@@ -43,21 +43,21 @@ Role required: sn\_wsd\_core.workplace\_manager
 
     2.  Add conditions to filter the spaces.
 
-        For example, `Department is Finance`. For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For example, `Department is Finance`. For more information about conditions, see Condition builder.
 
     3.  Select the spaces from the list, then select **Select**.
 
 6.  Edit the space allocations based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d203611e161">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d203615e161">
 
 Action
 
-</th><th align="left" id="d203611e164">
+</th><th align="left" id="d203615e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d203611e170">
+</th></tr></thead><tbody><tr><td id="d203615e170">
 
 **Edit space allocation**
 
@@ -72,7 +72,7 @@ Steps
 5.  Select **Apply**.
 
 
-</td></tr><tr><td id="d203611e215">
+</td></tr><tr><td id="d203615e215">
 
 **Remove allocations**
 

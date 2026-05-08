@@ -15,7 +15,7 @@ Customize the theme of the decision tree component to match the Service Portal t
 
 ## Before you begin
 
-A variant UX theme to match the theme of the decision tree component with the Service Portal theme must exist. For more information, see [Manage the visual style of UI Builder experiences](https://www.servicenow.com/docs/access?context=manage-the-visual-style-of-ui-builder-experiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+A variant UX theme to match the theme of the decision tree component with the Service Portal theme must exist. For more information, see Manage the visual style of UI Builder experiences.
 
 Role required: sp\_admin or admin
 

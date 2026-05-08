@@ -131,7 +131,7 @@ Role required: admin.
 
 1.  In Workflow Studio, create a flow and include the Create Topic spoke action.
 
-    For information about creating flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about creating flows in Workflow Studio, see Building flows.
 
 2.  Customize flow to provide these values as inputs to the Create Topic spoke action:
 
@@ -155,7 +155,7 @@ Role required: admin.
 
 1.  In Workflow Studio, create a flow and include the Create Subscription spoke action.
 
-    For information about creating flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about creating flows in Workflow Studio, see Building flows.
 
 2.  Customize flow to provide these values as inputs to the Create Subscription spoke action:
 
@@ -235,11 +235,11 @@ Role required: admin.
 
 1.  In Workflow Studio, create a copy of the default Amazon SNS Subscription subflow.
 
-    For information about using subflows in Workflow Studio, see [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about using subflows in Workflow Studio, see Building subflows.
 
 2.  In Workflow Studio, create a flow that includes the copy of the default subflow.
 
-    For information about creating flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For information about creating flows in Workflow Studio, see Building flows.
 
 3.  Customize the subflow to include the Confirm Subscription spoke action.
 

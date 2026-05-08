@@ -25,7 +25,7 @@ Role required: sp\_admin or admin
 
 2.  Edit the portal to suit your needs.
 
-    For more information on the portal form fields and description, see [Create a portal](https://www.servicenow.com/docs/access?context=create-a-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information on the portal form fields and description, see Create a portal.
 
 3.  Map the **Taxonomy** that you created or use the default **Employee** taxonomy at the portal level.
 

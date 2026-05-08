@@ -15,7 +15,7 @@ breadcrumb: [Condition Workflow activities, Workflow activities reference, Workf
 
 The **Wait for condition** activity causes the workflow to wait at this activity until the current record matches the specified condition.
 
-The workflow evaluates the **Wait for condition** activity each time the current record is updated. Use this activity to pause a workflow indefinitely until a particular criteria is met by a record update. To pause a workflow for a timed duration see [Timer workflow activities](https://www.servicenow.com/docs/access?context=c_TimerActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The workflow evaluates the **Wait for condition** activity each time the current record is updated. Use this activity to pause a workflow indefinitely until a particular criteria is met by a record update. To pause a workflow for a timed duration see Timer workflow activities.
 
 For workflow to consider the condition met, all conditions specified – whether in the builder or in a script – must be true.
 

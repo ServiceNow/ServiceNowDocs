@@ -92,7 +92,7 @@ Move your tests to the production system to clone the most updated instances for
 
 ## Domain separation testing
 
-When testing domain separation, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see [Domain separation recommended practices for service providers](https://www.servicenow.com/docs/access?context=bp-domain-sep-recommended&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+When testing domain separation, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see Domain separation recommended practices for service providers.
 
 **Parent Topic:**[Automated Test Framework \(ATF\) reference](atf-ref-overview.md)
 

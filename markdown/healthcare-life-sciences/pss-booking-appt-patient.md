@@ -21,7 +21,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 As a patient, you can view available appointment windows, make a selection, and book an appointment for a training request from your patient portal.
 
-Your administrator can configure the appointment window available for selecting appointments. You can use the appointment window available within your patient portal to view available appointment time slots, select the desired day and time, and submit the appointment request. For an example use of the appointment booking feature, see [Book an appointment from the portal](https://www.servicenow.com/docs/access?context=appointment-booking-book-appt-UI&version=australia&pubname=australia-field-service-management&ft:locale=en-US) and [Select the Appointment window](https://www.servicenow.com/docs/access?context=appt-booking-select-appt-window&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+Your administrator can configure the appointment window available for selecting appointments. You can use the appointment window available within your patient portal to view available appointment time slots, select the desired day and time, and submit the appointment request. For an example use of the appointment booking feature, see Book an appointment from the portal and Select the Appointment window.
 
 After you book an appointment, a training task is created for the nurse educator and the appointment confirmation email notification is sent to you.
 

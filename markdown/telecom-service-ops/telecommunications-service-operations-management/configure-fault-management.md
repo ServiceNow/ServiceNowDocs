@@ -81,5 +81,5 @@ Role required: TSOM Assurance admin
 **Related topics**  
 
 
-[Exploring Event Management](https://www.servicenow.com/docs/access?context=exploring-event-management&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.exploring-event-management]
 

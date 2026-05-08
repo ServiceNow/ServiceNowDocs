@@ -87,7 +87,7 @@ Download the employee appDisplays on the lower half of the Welcome screen after 
     -   Image or video
     -   Function instance
 
-        **Note:** You can personalize the label and configure the associated function. To learn more about how to configure functions, see [Functions in ServiceNow mobile](https://www.servicenow.com/docs/access?context=sg-studio-mobile-button-types&version=australia&pubname=australia-mobile&ft:locale=en-US).
+        **Note:** You can personalize the label and configure the associated function. To learn more about how to configure functions, see Functions in ServiceNow mobile.
 
 5.  Click **Update**.
 

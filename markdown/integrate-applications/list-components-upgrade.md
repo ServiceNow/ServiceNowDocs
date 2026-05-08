@@ -19,7 +19,7 @@ Robotic Process Automation \(RPA\) solution is built with backward compatibility
 
 An automation built using the earlier plugin versions are compatible with a latest version. For example, if an automation is built using an earlier version of a plugin, 1.0, the RPA Desktop Design Studio, Attended Robot, and Unattended Robot applications run the automation by loading the plugin version 1.0.
 
-If any newer version of a component is no longer compatible with its older versions, they’re documented in the release notes. For more information, see [RPA Hub release notes](https://www.servicenow.com/docs/access?context=rpa-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US) and [RPA Plugin Bundle release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-rpa-plugin-bundle.html).
+If any newer version of a component is no longer compatible with its older versions, they’re documented in the release notes. For more information, see RPA Hub release notes and [RPA Plugin Bundle release notes](https://servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/platform-app-engine/store-rn-plat-app-rpa-plugin-bundle.html).
 
 Additionally, any automation component interacting with RPA Hub APIs are only compatible with its own RPA Hub version. For example, if the component is released as part of Utah 4.1, then it’s compatible only for that version.
 

@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The CMDBTransformUtil script include uses the Identification and Reconciliation \(IRE\) framework to minimize the creation of duplicate configuration items \(CI\).
 
-The IRE framework also reconciles CI attributes by only accepting information from authorized sources when updating the CMDB in `onBefore` transform map scripts. You can't use this class in other scripts. For additional information on how the IRE framework operates, see [CMDB Identification and Reconciliation](https://www.servicenow.com/docs/access?context=c_CMDBIdentifyandReconcile&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The IRE framework also reconciles CI attributes by only accepting information from authorized sources when updating the CMDB in `onBefore` transform map scripts. You can't use this class in other scripts. For additional information on how the IRE framework operates, see CMDB Identification and Reconciliation.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -424,7 +424,7 @@ Index values for CIs from the request body **items** array that correspond to th
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr><td>
 
@@ -1442,7 +1442,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr id="row_return_item_operation"><td>
 
@@ -1989,7 +1989,7 @@ There is no scoped equivalent for this method.
 
 Inserts or updates a configuration item \(CI\) in the Configuration Management Database \(CMDB\).
 
-Use this method in onBefore transform map scripts. Using this method instead of relying on the transform to insert or update the configuration item record reduces duplicate entries in the CMDB. For additional information, see [Apply CI Identification and Reconciliation to Import Sets](https://www.servicenow.com/docs/access?context=identification-import-sets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Use this method in onBefore transform map scripts. Using this method instead of relying on the transform to insert or update the configuration item record reduces duplicate entries in the CMDB. For additional information, see Apply CI Identification and Reconciliation to Import Sets.
 
 To prevent the transform from adding or updating the record a second time, set `ignore = true`.
 
@@ -2024,7 +2024,7 @@ In addition to providing the functionality of the CMDBTransformUtil.identifyAndR
 -   Removing duplicate items within a payload
 -   Generating output summaries
 
-For additional information on Identification and Reconciliation and more detailed explanations of the data used by this method, see [Identification and Reconciliation \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on Identification and Reconciliation and more detailed explanations of the data used by this method, see Identification and Reconciliation \(IRE\).
 
 |Name|Type|Description|
 |----|----|-----------|

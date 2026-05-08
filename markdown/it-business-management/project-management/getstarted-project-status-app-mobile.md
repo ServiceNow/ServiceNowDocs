@@ -38,5 +38,5 @@ Role required: admin
 **Related topics**  
 
 
-[Agent mobile app](https://www.servicenow.com/docs/access?context=mobile-experience&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[bundle-mobile.mobile-experience]
 

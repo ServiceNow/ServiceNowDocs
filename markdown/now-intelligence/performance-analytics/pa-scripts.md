@@ -20,7 +20,7 @@ Performance Analytics provides several script objects for use in scripts and API
 -   In general, use scripts only to support indicators like Age with date processing, using the `score_start` and `score_end` variables.
 -   Limit unnecessary fields. Every time you include an extra dot-walked field, you add an extra join to the query.
 -   Try to replace manual breakdowns with [database views](performance-analytics-glossary.md#) for better performance.
--   Try to use script includes for common functions. For more information, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Try to use script includes for common functions. For more information, see Script includes.
 -   If the data is not structured in a way you need for reporting, try adding 'reporting fields' to the operational tables instead of creating scripts. For more information, see this [Community post](https://community.servicenow.com/community?id=community_blog&sys_id=2f99990fdbee5b00fece0b55ca9619fb).
 -   If you are running a background script that queries the Performance Analytics scores or snapshots tables, you cannot access data about a scoped application unless you have an appropriate role for that application.
 

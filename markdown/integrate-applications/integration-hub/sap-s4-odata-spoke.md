@@ -36,7 +36,7 @@ This spoke was tested with SAP S/4HANA version 2023.
 -   SAP S4 HANA OData account
 -   Configure the value of this system property:
 
-    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see [Workflow Studio system properties](https://www.servicenow.com/docs/access?context=flow-designer-system-properties&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    **com.snc.process\_flow.reporting.serialized.val\_size\_limit**: This property serializes JSON objects and ensures that the data is in the required format. Specify the number of bytes as per your requirement. For more information, see Workflow Studio system properties.
 
 
 ## Spoke dependencies

@@ -17,7 +17,7 @@ The GlideCurrencyConfig API provides methods to retrieve various configuration i
 
 You can acquire information for a specific FX Currency field by calling the [GlideCurrencyConfig\(Object ed\)](GlideCurrencyConfigScopedAPI.md#) constructor, which associates a specific FX Currency field to the instantiated object. When calling the various GlideCurrencyConfig\(\) methods, if a record exists in the FX Currency Configuration \[fx\_configuration\] table for the FX Currency field, the requested value is passed back. If a record or field is not available, the default value is passed back. You can also acquire the default FX Currency configuration values by calling the [GlideCurrencyConfig\(\)](GlideCurrencyConfigScopedAPI.md#) constructor.
 
-For additional information on FX Currency configuration, see [Setting up and operating FX Currency fields](https://www.servicenow.com/docs/access?context=fx-currency&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information on FX Currency configuration, see Setting up and operating FX Currency fields.
 
 This class runs is in the `sn_currency` namespace.
 
@@ -31,7 +31,7 @@ When calling the available methods on this type of GlideCurrencyConfig object, t
 
 This object does not provide configuration information for a specific FX Currency field. To retrieve specific FX Currency field information, use the [GlideCurrencyConfig\(Object ed\)](GlideCurrencyConfigScopedAPI.md#) constructor.
 
-For more information, see [Configuring FX Currency global settings](https://www.servicenow.com/docs/access?context=fx-currency-configure&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Configuring FX Currency global settings.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -47,7 +47,7 @@ Instantiates a GlideCurrencyConfig object that enables the retrieval of the conf
 
 When calling the available methods on this type of GlideCurrencyConfig object, the return values are from the FX Currency Configuration \[fx\_configuration\] record associated with the FX Currency field, if a record exists. If a record does not exist, default values are returned.
 
-For more information, see [Configuring FX Currency global settings](https://www.servicenow.com/docs/access?context=fx-currency-configure&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Configuring FX Currency global settings.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -66,7 +66,7 @@ Returns the aggregation source value for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Aggregation Source \(aggregation\_source\) field. Otherwise, if a new record, returns a default value.
 
-For more information on aggregation source, see [Specify the table field and its currency display parameters](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on aggregation source, see Specify the table field and its currency display parameters.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -119,7 +119,7 @@ Returns the field used as the source of the date and time for the currency conve
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Conversion Date Source \(conversion\_date\_source\) field. Otherwise, if a new record, returns "null".
 
-For more information on the Conversion Date Source field, see [Identify the rate table and date source for currency conversions](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on the Conversion Date Source field, see Identify the rate table and date source for currency conversions.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -256,7 +256,7 @@ Returns the rate table field used as a rate table filter for an FX Currency fiel
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Rate Table Field \(rate\_filter\_rate\_table\_field\). Otherwise, if a new record, returns a default value.
 
-For more information on rate table filters, see [Select the rate and target table fields used for filtering](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on rate table filters, see Select the rate and target table fields used for filtering.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -296,7 +296,7 @@ Returns the target table field used to filter the rate table records for an FX C
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Target Table Field \(rate\_filter\_target\_table\_field\). Otherwise, if a new record, returns a default value.
 
-For more information on rate table filters, see [Select the rate and target table fields used for filtering](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on rate table filters, see Select the rate and target table fields used for filtering.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -343,7 +343,7 @@ Returns the rate table used to convert currency for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Rate Table Field \(rate\_filter\_rate\_table\_field\). Otherwise, if a new record, returns a default value.
 
-For more information on FX Currency rate tables, see [Identify the rate table and date source for currency conversions](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on FX Currency rate tables, see Identify the rate table and date source for currency conversions.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -390,7 +390,7 @@ Returns the reference currency for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value of the Reference Currency \(reference\_currency\) field. Otherwise, if a new record, returns a default value.
 
-For more information on reference currency, see [Set the reference currency](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on reference currency, see Set the reference currency.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -440,7 +440,7 @@ Returns the reference currency source for an FX Currency field.
 
 If called on an existing FX Currency field that has a corresponding FX Currency Configuration \[fx\_configuration\] record, returns the value \(dot-walk path\) of the Reference Currency Source \(reference\_currency\_source\) field. Otherwise, if a new record, returns a default value.
 
-For more information on reference currency source, see [Set the reference currency](https://www.servicenow.com/docs/access?context=configure-fx-currency-field-behavior&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on reference currency source, see Set the reference currency.
 
 |Name|Type|Description|
 |----|----|-----------|

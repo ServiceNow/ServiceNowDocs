@@ -17,7 +17,7 @@ Create a plan for the scheduled creation of standard tasks.
 
 ## Before you begin
 
-To create a template schedule, you must define a schedule first. For more information about defining schedules, see [Define a schedule](https://www.servicenow.com/docs/access?context=t_DefineASchedule&version=australia&pubname=australia-platform-administration&ft:locale=en-US). To create a custom template that is based on shifts, refer to [Define a shift](define-shifts.md) to configure shifts.
+To create a template schedule, you must define a schedule first. For more information about defining schedules, see Define a schedule. To create a custom template that is based on shifts, refer to [Define a shift](define-shifts.md) to configure shifts.
 
 Role required: sn\_icw\_std.standard\_author
 

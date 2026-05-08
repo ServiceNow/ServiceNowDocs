@@ -63,7 +63,7 @@ Use MID Server
 
 </td><td>
 
-MID Server is optional. Select MID Server for an on-premises tool that is attached to a MID Server. The Application value is automatically set to DevOps and the Capability value is set to REST. For more information, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+MID Server is optional. Select MID Server for an on-premises tool that is attached to a MID Server. The Application value is automatically set to DevOps and the Capability value is set to REST. For more information, see MID Server selection.
 
 </td></tr></tbody>
 </table>3.  Click **Submit** to connect to your Rally instance.

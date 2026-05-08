@@ -75,7 +75,7 @@ Flow
 
 </td><td>
 
-Creates a flow on the parent lifecycle event case.**Note:** A flow automates a process with a sequence of reusable actions. See [Flow designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+Creates a flow on the parent lifecycle event case.**Note:** A flow automates a process with a sequence of reusable actions. See Flow designer for more information.
 
 </td></tr><tr><td>
 

@@ -74,7 +74,7 @@ Select a default rule in the Proactive Triggers rules list to see how the defaul
 
     You can create additional rules and actions as needed. For information about using multiple rules and actions, see [Multiple Proactive Triggers rules and actions](../concept/multiple-rules-and-actions.md).
 
-    You can localize the language for end users by making entries to the Translated Text table. For more information about making entries to the Translated Text table, see [Translating text fields](https://www.servicenow.com/docs/access?context=c_UseTranslatedText&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    You can localize the language for end users by making entries to the Translated Text table. For more information about making entries to the Translated Text table, see Translating text fields.
 
 
 ## Result

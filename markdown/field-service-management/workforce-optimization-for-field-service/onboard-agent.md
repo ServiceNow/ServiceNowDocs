@@ -23,7 +23,7 @@ Role required: wm\_admin, wm\_contractor\_manager\_int
 
 Internal manager of the company can onboard field service agents for the third-party contractor companies. These onboarded agents are known as external agents and responsible for performing the assigned work order tasks at the customer location.
 
-You can also do the initial configuration of onboarding an external manager through **Field Service** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can also do the initial configuration of onboarding an external manager through **Field Service** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 ## Procedure
 

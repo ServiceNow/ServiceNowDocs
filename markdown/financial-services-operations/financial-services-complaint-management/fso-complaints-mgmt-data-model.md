@@ -29,7 +29,7 @@ This data model uses a combination of tables to store data:
     -   Extends the Sold Product \[sn\_install\_base\_sold\_product\] table for financial account and financial transaction tables.
     -   Uses these CSM tables to support customers: Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\]
 
-        For more information on these CSM tables that store customer records, see [Accounts and contacts](https://www.servicenow.com/docs/access?context=configure-csm-accounts-contacts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) and [Consumers](https://www.servicenow.com/docs/access?context=configure-csm-consumers&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+        For more information on these CSM tables that store customer records, see Accounts and contacts and Consumers.
 
 -   ServiceNow AI Platform tables.
 

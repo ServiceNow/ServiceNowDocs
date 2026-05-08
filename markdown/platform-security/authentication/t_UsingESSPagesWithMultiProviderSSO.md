@@ -25,8 +25,8 @@ If you are using the system property to automatically redirect to your primary I
 
 ## Procedure
 
-1.  [Configure the Service Portal login page](https://www.servicenow.com/docs/access?context=c_SPSSOLoginAndRedirects&version=australia&pubname=australia-platform-user-interface&section=c_SPLoginPage&ft:locale=en-US)
+1.  Configure the Service Portal login page
 
-2.  [Redirect to Service Portal after login](https://www.servicenow.com/docs/access?context=c_SPSSOLoginAndRedirects&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+2.  Redirect to Service Portal after login
 
 

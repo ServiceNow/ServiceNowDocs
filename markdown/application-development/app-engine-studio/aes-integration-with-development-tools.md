@@ -31,7 +31,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-[Access Control](https://www.servicenow.com/docs/access?context=c_SNCAccessControl&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Access Control
 
 </td><td>
 
@@ -43,7 +43,7 @@ See [Add application security](add-security.md).
 
 </td></tr><tr><td>
 
-[Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Catalog Builder
 
 </td><td>
 
@@ -55,7 +55,7 @@ See [Add a standard catalog item](../task/add-standard-catalog-item.md).
 
 </td></tr><tr><td>
 
-[Decision tables in Workflow Studio](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Decision tables in Workflow Studio
 
 </td><td>
 
@@ -67,7 +67,7 @@ See [Add a decision](../task/add-decision.md).
 
 </td></tr><tr><td>
 
-[Email notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Email notifications
 
 </td><td>
 
@@ -79,7 +79,7 @@ See [Add an email notification](../task/add-notification.md).
 
 </td></tr><tr><td>
 
-[Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context=erp-integration-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Zero Copy Connector for ERP
 
 </td><td>
 
@@ -87,11 +87,11 @@ Build an ERP \(Enterprise Resource Planning\) data model and extract data from y
 
 </td><td>
 
-See [Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context=erp-integration-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+See Zero Copy Connector for ERP.
 
 </td></tr><tr><td>
 
-[ERP Semantic Mining](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+ERP Semantic Mining
 
 </td><td>
 
@@ -99,11 +99,11 @@ Identify all of the customizations in your ERP system.
 
 </td><td>
 
-See [ERP Semantic Mining](https://www.servicenow.com/docs/access?context=erp-customization-mining-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+See ERP Semantic Mining.
 
 </td></tr><tr><td>
 
-[Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Flows in Workflow Studio
 
 </td><td>
 
@@ -115,7 +115,7 @@ See [Add a flow from scratch](../task/create-scratch-flow.md).
 
 </td></tr><tr><td>
 
-[Integration Hub - Import](https://www.servicenow.com/docs/access?context=integrationhub-imports&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Integration Hub - Import
 
 </td><td>
 
@@ -127,7 +127,7 @@ See [Create a data integration](../task/import-map-data-existing-table.md).
 
 </td></tr><tr><td>
 
-[Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US)
+Mobile App Builder
 
 </td><td>
 
@@ -139,7 +139,7 @@ See [Add a mobile experience](../task/add-mobile.md).
 
 </td></tr><tr><td>
 
-[Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Process Automation Designer
 
 </td><td>
 

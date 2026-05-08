@@ -36,7 +36,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Credentials**
 
-    On the ServiceNow AI Platform, create OpenStack credentials for the ServiceNow cloud service account. Enter the Domain ID, User Name, Project Name, and Password values you've configured in OpenStack requirements. For more information, see [Create and test your credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    On the ServiceNow AI Platform, create OpenStack credentials for the ServiceNow cloud service account. Enter the Domain ID, User Name, Project Name, and Password values you've configured in OpenStack requirements. For more information, see Create and test your credentials.
 
 -   **Service account**
 

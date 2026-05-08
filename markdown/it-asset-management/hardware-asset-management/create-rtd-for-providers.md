@@ -17,7 +17,7 @@ As an asset provider, create remote task definitions that trigger the assignment
 
 ## Before you begin
 
-As a provider, you must have created a provider record. For more details, see [Set up a Service Exchange provider record](https://www.servicenow.com/docs/access?context=service-bridge-v2-new-provider&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+As a provider, you must have created a provider record. For more details, see Set up a Service Exchange provider record.
 
 Role required: admin
 
@@ -33,7 +33,7 @@ You receive the details of a Zero Touch Refresh Fulfillment Request from your cu
 
 3.  On the form, fill in the fields.
 
-    For the description of field values, see [Remote task definition form](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+    For the description of field values, see Remote task definition form.
 
 4.  Set the **Provider table** and **Customer table** field values to the Zero Touch Refresh Fulfillment Request \[sn\_itam\_ztr\_fulfillment\_req\] table.
 

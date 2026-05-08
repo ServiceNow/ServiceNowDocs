@@ -18,9 +18,9 @@ Request the contextual generative AI capabilities, such as a chat summary, case 
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Make sure that Next Experience is enabled in the instance. For more information, see Next Experience UI.
 
-Make sure that [AI search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=turn-on-the-subflows-and-actions-skill&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) are enabled in the instance for the conversational subflows and actions to work.
+Make sure that AI search and Now Assist in Virtual Agent are enabled in the instance for the conversational subflows and actions to work.
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
@@ -28,7 +28,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 You can use the Now Assist panel in CSM Configurable Workspace to request a chat, call or case summary, generate case resolution notes and knowledge article, ask a question about a case, Use AI agents to complete cases and use conversational subflows and actions.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about the Now Assist panel, see Now Assist panel. For information about activating the Now Assist panel, see Activate the Now Assist panel standard chat.
 
 ## Procedure
 

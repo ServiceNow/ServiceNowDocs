@@ -46,7 +46,7 @@ The homepage uses the Knowledge Homepage Search widget and the search results pa
     |Alternate URL Parameters for Language|Search result page|Alternate parameters that appear in the URL denoting the selected language.|
     |Minimum Number of Characters for Search|Both|The minimum number of characters required to generate a search.|
     |Glyph|Both|An icon that appears in the search bar.|
-    |CSS|Both|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
+    |CSS|Both|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
 
 5.  Click **Save**.
 

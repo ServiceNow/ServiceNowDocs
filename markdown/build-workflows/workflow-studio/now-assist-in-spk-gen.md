@@ -39,12 +39,12 @@ Now Assist for Spoke Generation v1.5.12 is the latest version.
 
 The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [Now Assist for Creator feature](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) from the Now Assist Admin console.
+After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the Now Assist for Creator feature from the Now Assist Admin console.
 
 ![Spoke Generation skill in Now Assist Admin console.](../images/creator-skill-now-assist.png "Spoke Generation skill in Now Assist Admin console")
 
--   For information about the Now Assist Admin console, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
--   For steps to activate the required skill, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   For information about the Now Assist Admin console, see Overview tab in Now Assist Admin.
+-   For steps to activate the required skill, see Activate a Now Assist skill.
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
@@ -60,7 +60,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

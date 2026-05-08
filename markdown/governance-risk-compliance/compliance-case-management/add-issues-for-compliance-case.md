@@ -29,15 +29,15 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 4.  Open the case that you want to add an issue to and then select one of the following options.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d377266e97">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d377259e97">
 
 Option
 
-</th><th align="left" id="d377266e100">
+</th><th align="left" id="d377259e100">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d377266e106">
+</th></tr></thead><tbody><tr><td id="d377259e106">
 
 **To add an existing issue**
 
@@ -48,7 +48,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d377266e132">
+</td></tr><tr><td id="d377259e132">
 
 **To create an issue**
 

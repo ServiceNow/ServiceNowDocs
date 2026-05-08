@@ -38,7 +38,7 @@ The skill uses the CustomerInsightsDataProvider scripted extension point to retr
 -   CustomerHealthDataProvider: Retrieves cases, interactions, and sentiment data to generate customer health insights.
 -   RecentCustomerIssuesData Provider: Retrieves cases and service problem cases to generate recent customer issue insights.
 
-You can modify the existing implementation to retrieve data from additional sources or create your custom implementation. For more details on configuring extension points, see [Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can modify the existing implementation to retrieve data from additional sources or create your custom implementation. For more details on configuring extension points, see Using extension points to extend application functionality.
 
 **Parent Topic:**[Using Now Assist for Telecommunications, Media and Technology \(TMT\)](now-assist-spm-using.md)
 

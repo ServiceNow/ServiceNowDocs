@@ -21,21 +21,21 @@ The ServiceNow® Quote Management enables your sales agents to generate and mana
 -   Enhance quote approval workflows with automated reminders, escalations, override capabilities, and ad-hoc approvals for greater control and accountability throughout the approval process.
 -   [Australia Patch 1](../quality/australia-patch-1.md)Summarize a quote with Now Assist for immediate, comprehensive insights into quote details \(product, pricing, and terms\) to improve quote accuracy, help teams align, reduce manual review, catch issues early, and accelerate quote turnaround.
 
-See [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See Quote Management for more information.
 
 **Important:** Quote Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 ## New in the Australia release
 
--   **[Consolidate quotes](https://www.servicenow.com/docs/access?context=consolidate-quotes&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Consolidate quotes**
 
     Maintain traceability from orders to all originating contract lines when creating orders from consolidated quotes. Additional calculated fields on order lines provide visibility into uplift values derived from consolidation rules.
 
--   **[Add price ramps on a quote line item](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Add price ramps on a quote line item**
 
     Enable agents to create and manage custom ramp structures with flexible segment durations. Make ramp changes across the quote life cycle, including amendments and renewals, while maintaining pricing and quantity consistency across ramp segments.
 
--   **[Quote approvals](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Quote approvals**
 
     Use the Advanced Approval Management to create approval workflows for end-to-end visibility and control of quote approvals.
 
@@ -45,12 +45,12 @@ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-mana
     -   Configure approval conditions and sequencing across quotes, quote lines, and related entities using serial, parallel, or hybrid flows driven by business and compliance rules
     -   Preserve approval history across submissions and quote versions for a complete audit trail
 
--   **[Customer entities on Quote](https://www.servicenow.com/docs/access?context=quote-detail-form-fields&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Customer entities on Quote**
 
     Capture the deal type \(Direct or Indirect deals\) and align it with different routes to market for consistency, compliance, and operational efficiency across systems and teams.
 
 
--   **[Australia Patch 1](../quality/australia-patch-1.md)[Summarize a quote using quote summarization with Now Assist](https://www.servicenow.com/docs/access?context=summarize-quote&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **[Australia Patch 1](../quality/australia-patch-1.md)Summarize a quote using quote summarization with Now Assist**
 
     Generate a summary of a quote to:
 
@@ -63,7 +63,7 @@ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-mana
 
 ## Changed in this release
 
--   **[Enhancements to price ramps on quote lines](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Enhancements to price ramps on quote lines**
 
     Modify active ramp segments on amendment quotes to better manage pricing changes over time.
 
@@ -71,7 +71,7 @@ See [Quote Management](https://www.servicenow.com/docs/access?context=quote-mana
     -   Merge split segments back into the original ramp while the quote is in draft state.
     -   Remove segments that are no longer needed.
     -   Edit the quantity in the product configurator. The quantity field for the last ramp segment of configurable and bundled products is read-only.
--   **[Quote approvals](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Quote approvals**
 
     Build on existing quote approval workflows with greater control and flexibility
 
@@ -88,19 +88,19 @@ Install Quote Management by requesting it from the ServiceNow Store. Visit the [
 
 ## Related ServiceNow applications and features
 
--   **[Advanced Approval Management](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Advanced Approval Management**
 
     Submit customer quotes for approval and track approval status using approval workflows created in Advanced Approval Management.
 
--   **[CPQ Configurator](https://www.servicenow.com/docs/access?context=explore-servicenowcpq&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **CPQ Configurator**
 
     The CPQ Configurator interface streamlines the process of configuring and pricing customizable products in Sales Customer Relationship Management transactions, such as quotes and orders.
 
--   **[Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Pricing Management**
 
-    The [Pricing Management](https://www.servicenow.com/docs/access?context=pricing-management&version=australia&pubname=australia-order-management&ft:locale=en-US) application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales Customer Relationship Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
+    The Pricing Management application enables your pricing organization to set, manage, and optimize pricing strategies for any Sales Customer Relationship Management solution. These pricing strategies enable your sales teams to generate opportunities, quotes, and orders with accurate and competitive pricing quickly.
 
--   **[Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Sales Agreement Management**
 
     The Sales Agreement application captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.
 

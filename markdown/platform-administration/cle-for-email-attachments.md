@@ -13,7 +13,7 @@ breadcrumb: [Explore, Inbound email, Notifications, Configure core features, Adm
 
 Secure attachments in inbound and outbound emails using Column Level Encryption.
 
-Using Column Level Encryption for email attachments requires you to have Column Level Encryption configured on your instance. For more information, see [Column Level Encryption](https://www.servicenow.com/docs/access?context=column-level-encryption-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Using Column Level Encryption for email attachments requires you to have Column Level Encryption configured on your instance. For more information, see Column Level Encryption.
 
 For each inbound email action, when an email includes attachments and the target record table is Column Level Encryption-enabled, the attachments added to the target record are encrypted.
 

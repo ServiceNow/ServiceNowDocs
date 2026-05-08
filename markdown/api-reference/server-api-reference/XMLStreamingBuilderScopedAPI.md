@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 Creates a builder object to build a large XML payload for use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as an XML string for a non-streaming option.
 
-Use these methods in a Workflow Studio Script step with the `sn_ih` namespace identifier. For example, you can use this API to create an XML payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Use these methods in a Workflow Studio Script step with the `sn_ih` namespace identifier. For example, you can use this API to create an XML payload in the Workflow Studio Script step and pass the returned value to the REST step to send the request to a third-party service. For more information, see the Workflow Studio Script step.
 
 **Note:** You can only use this API within the Workflow Studio environment.
 

@@ -18,7 +18,7 @@ The Semantic Index Configuration form contains information about semantic indexi
 
 For details on defining and modifying semantic indexing settings for an indexed source, see [Configure semantic indexing settings for an indexed source](../task/configure-semantic-indexing-ais.md).
 
-**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) installed.
+**Note:** This form is only available when the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) is active on your instance. To activate this plugin, your instance must have at least one Now Assist application installed.
 
 <table id="table_t1b_wjh_xcc"><thead><tr><th>
 

@@ -19,7 +19,7 @@ Changes to user roles are automatically tracked in the Audit Roles \[sys\_audit\
 
 Role required: admin
 
-**Note:** If the [Prevent duplicate entries with Contextual Security: Role Management V2](https://www.servicenow.com/docs/access?context=Role-Mgmt-V2&version=australia&pubname=australia-platform-security&ft:locale=en-US) plugin is installed, you must [Enable role auditing with Contextual Security: Role Management V2](https://www.servicenow.com/docs/access?context=enable-audit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** If the Prevent duplicate entries with Contextual Security: Role Management V2 plugin is installed, you must Enable role auditing with Contextual Security: Role Management V2.
 
 ## Procedure
 

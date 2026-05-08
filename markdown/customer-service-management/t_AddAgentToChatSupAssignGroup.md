@@ -33,5 +33,5 @@ Role required: sn\_customerservice\_manager or admin
 **Related topics**  
 
 
-[Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_ConnectSupport]
 

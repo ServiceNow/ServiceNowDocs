@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-[Connect Chat](https://www.servicenow.com/docs/access?context=c_Collaboration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Connect Chat
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)

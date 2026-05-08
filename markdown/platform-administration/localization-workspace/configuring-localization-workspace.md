@@ -19,7 +19,7 @@ Before using Localization Workspace, configure prerequisites, dependencies, and 
 
 Localization Workspace builds upon the functionality of other ServiceNow AI Platform applications related to localization. These applications are activated with Localization Workspace if they are not already installed. You must complete the configuration of these applications before configuring Localization Workspace.
 
-**Note:** From version 2.0.2, the Localization Workspace interface provides two [Guided Setups](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to lead admins through the process of configuration, as follows.
+**Note:** From version 2.0.2, the Localization Workspace interface provides two Guided Setups to lead admins through the process of configuration, as follows.
 
 -   With the admin role, navigate to **Localization Workspace** &gt; **Localization Framework Guided Setup** for the prerequisite application.
 -   Next, navigate to **Localization Workspace** &gt; **Localization Workspace Guided Setup**.

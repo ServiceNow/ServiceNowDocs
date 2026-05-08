@@ -38,7 +38,7 @@ CustomerWorkflowsEPsn\_l2c\_cust.flows.CustomerWorkflowEP
 Overrides the existing flows and configurations.This extension can be used for any one of these two reasons:
 
 -   If you want to execute custom flows that are extensions of the current sold product \(sn\_install\_base\_sold\_product\) table. To learn more about existing flows, see [Customer Life Cycle Management Workflows](customer-life-cycle-management-workflows.md).
--   If you want to execute custom Lead to Cash Core configurations. To learn more about existing Lead to Cash configurations, see [Entity configuration and mapping](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&version=australia&pubname=australia-order-management&ft:locale=en-US).
+-   If you want to execute custom Lead to Cash Core configurations. To learn more about existing Lead to Cash configurations, see Entity configuration and mapping.
 
 </td></tr><tr><td>
 

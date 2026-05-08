@@ -17,7 +17,7 @@ Manage your workforce efficiently by planning shifts for each day and assigning 
 
 You can add meeting, training, time-off request, or an ad hoc work shift using the team calendar. You can also filter agents in the team calendar based on their location, region, assignment groups, schedule plan, list of team members, or any field in the agent's record.
 
-**Important:** You must index new tables to see them in Work Scheduling. For more information on indexing tables, see [Configure a table for indexing and searching](https://www.servicenow.com/docs/access?context=configure-single-table-for-indexing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** You must index new tables to see them in Work Scheduling. For more information on indexing tables, see Configure a table for indexing and searching.
 
 -   **[Create a shift plan](../task/manage-team-shifts-configurable-wfo-itsm.md)**  
 Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.

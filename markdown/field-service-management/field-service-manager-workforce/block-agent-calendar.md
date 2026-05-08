@@ -21,7 +21,7 @@ Role required: wm\_manager
 
 ## About this task
 
-As the Field Service manager, you can view a diagnostic report and take appropriate action to mitigate the spread of infection. You can promote agent safety by blocking the availability of the affected and potentially exposed agents for future dates on the calendar. For more information about the agent calendar, see [Configure the agent calendar](https://www.servicenow.com/docs/access?context=configure-agent-calendar&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+As the Field Service manager, you can view a diagnostic report and take appropriate action to mitigate the spread of infection. You can promote agent safety by blocking the availability of the affected and potentially exposed agents for future dates on the calendar. For more information about the agent calendar, see Configure the agent calendar.
 
 ## Procedure
 
@@ -63,7 +63,7 @@ Type
 
 </td><td>
 
-Type of event scheduled for the agent.**Note:** The event type configurations are inactive by default. For information about activating them, see [Create an event configuration for the agent calendar](https://www.servicenow.com/docs/access?context=create-agent-calendar-event-config&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Type of event scheduled for the agent.**Note:** The event type configurations are inactive by default. For information about activating them, see Create an event configuration for the agent calendar.
 
  The event types are:
 

@@ -18,14 +18,14 @@ Before you install Zero Copy Connector for ERP \(Enterprise Resource Planning\),
 
 ## Licensing
 
-You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see [Licensing](https://www.servicenow.com/docs/access?context=licensing&version=australia&pubname=australia-application-development&ft:locale=en-US).
+You must have a license and get entitlement to Zero Copy Connector for ERP for installation. For more information, see Licensing.
 
 ## ServiceNow AI Platform plugins
 
 The following plugins and servers are required for installing Zero Copy Connector for ERP:
 
 -   Integration Hub plugin \(for more information, see [Request Integration Hub](../../../administer/flow-designer/concept/request-ih-overview.md)\)
--   Financial Services Remote Tables plugin \(for more information, see [Activate the remote tables plugin](https://www.servicenow.com/docs/access?context=activate-remote-tables-plugin&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)\)
+-   Financial Services Remote Tables plugin \(for more information, see Activate the remote tables plugin\)
 
 ## MID Server requirements
 
@@ -45,9 +45,9 @@ Navigate to **All** &gt; **MID Server** &gt; **Servers**, select a MID Server, a
     ![MID server record related lists with capabilities tab displayed showing Zero Copy Connector for ERP.](../image/erpc-mid-server-capabilities.png)
 
 
-For more information, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information, see MID Server.
 
-Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The role enables the [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to use the ImportSet API to send data to the ServiceNow instance.
+Assign the mid\_user user the sn\_erp\_integration.erp\_mid\_server role. The role enables the MID Server to use the ImportSet API to send data to the ServiceNow instance.
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Users**
 2.  Find and select the **mid\_user**.
@@ -99,7 +99,7 @@ Contact the admin of your SAP ECC RFC account to obtain the following SAP propri
 -   Create a record called "SAP Jco so" and attach `libsapjco3.so`. Use this file if your MID Server is installed on a Linux server.
 -   Create a record called "SAP Eco Jar" and attach `sapjco3.jar`. Use this file for both Windows and Linux.
 
-**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see [Synchronize a JAR file to MID Servers](https://www.servicenow.com/docs/access?context=t_SynchronizeAJARFiletoMIDServers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** Create the records at **All** &gt; **MID Server** &gt; **JAR Files**. For more information about creating JAR files and adding attachments, see Synchronize a JAR file to MID Servers.
 
 The MID Server restarts multiple times during this process.
 

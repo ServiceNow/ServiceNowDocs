@@ -4,7 +4,7 @@ description: Install all required ITOM Visibility applications and plugins from 
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Setup \(ITOM Visibility\), Now Assist for Setup \(ITOM\), IT Operations Management]
 ---
@@ -22,15 +22,15 @@ Verify the following:
 -   You have installed the Generative AI Controller plugin \(sn\_generative\_ai\).
 -   You have installed the Now Assist Skill Kit plugin \(sn\_skill\_builder\).
 -   You have installed the Now Assist for ITOM plugin. For more information, see [Install Now Assist for IT Operations Management](install-now-assist-itom.md).
--   You have activated the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   You have activated the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
 -   You have activated the following assistants:
 
     -   Now Assist - Platform assistant
     -   Now Assist in Virtual Agent
-    For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see Configuring assistants overview.
 
--   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
--   You have set up AI Search. For more information, see [AI Search readiness for Now Assist on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=sn-ai-impl-ai-search&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   You have activated Now LLM Service as a provider. For more information, see Manage AI models.
+-   You have set up AI Search. For more information, see AI Search readiness for Now Assist on the ServiceNow AI Platform.
 -   You have installed the following Now Assist for Setup applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
 
     -   Now Assist for Setup \(sn\_ia\)

@@ -100,7 +100,7 @@ Administrators enable the approval flow that comes with the base system by updat
 
 Administrators can also create a customized approval flow that best meets the organization's needs. See the following for more information about these tasks in Workflow Studio:
 
--   [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Ask for Approval action](https://www.servicenow.com/docs/access?context=ask-approval-flow-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Edit a flow
+-   Ask for Approval action
+-   Create a flow in Workflow Studio
 

@@ -20,9 +20,9 @@ Use the HTML bot response control to display static HTML text in the Virtual Age
 
 ## Security considerations for HTML markup
 
-For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see [HTML sanitizer](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer&version=australia&pubname=australia-platform-security&ft:locale=en-US). For examples of adding markup items to the exclusion or inclusion lists, see [Configure HTML sanitizer](https://www.servicenow.com/docs/access?context=t_ConfigureHTMLSanitizer&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For security reasons, an HTML sanitizer script runs automatically and checks all HTML markup used in the instance, including Virtual Agent conversations. The sanitizer script removes elements or attributes that might enable cross-site scripting attacks. You can edit the HTML sanitizer script to change the list of markup items to be preserved or removed. For details, see HTML sanitizer. For examples of adding markup items to the exclusion or inclusion lists, see Configure HTML sanitizer.
 
-To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To disable the HTML sanitizer script only for Virtual Agent conversations, add the **com.glide.cs.html.sanitizer.enabled** system property and set the value to false. For details about creating a system property, see Add a system property.
 
 ## HTML bot response control properties
 

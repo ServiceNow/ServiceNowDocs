@@ -49,7 +49,7 @@ With a subscription to Performance Analytics, your features should be activated 
 
 Starting in Tokyo, Subscription Management applies to Performance Analytics. If you use Subscription Management, you should not need to activate a Performance Analytics plugin manually. The remainder of this page describes the older, manual system of activating a subscription.
 
-This feature is available only on hosted instances. On self-hosted and non-production instances, you still have to activate the appropriate Performance Analytics plugin manually. For more information, see [Subscription Management](https://www.servicenow.com/docs/access?context=subscription-management-landing-page-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+This feature is available only on hosted instances. On self-hosted and non-production instances, you still have to activate the appropriate Performance Analytics plugin manually. For more information, see Subscription Management.
 
 ## Identify your entitlement to Performance Analytics on an on-premises instance
 

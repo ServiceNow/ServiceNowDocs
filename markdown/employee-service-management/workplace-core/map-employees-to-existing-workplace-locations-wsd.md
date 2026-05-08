@@ -30,7 +30,7 @@ Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
 ## About this task
 
-Create a mapping for all employees and their designated workplaces. You can also perform an easy import of your employee workplace data. For more information, see [Easy import](https://www.servicenow.com/docs/access?context=c_EasyImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Create a mapping for all employees and their designated workplaces. You can also perform an easy import of your employee workplace data. For more information, see Easy import.
 
 ## Procedure
 

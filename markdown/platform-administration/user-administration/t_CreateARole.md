@@ -85,7 +85,7 @@ Elevated privilege
 
 </td><td>
 
-A role that requires elevated privilege can’t be assigned to a user at login by the system. Instead, a user must manually elevate privileges to receive the elevated role. Select this option to mark this role as required to elevate it to high security. See [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+A role that requires elevated privilege can’t be assigned to a user at login by the system. Instead, a user must manually elevate privileges to receive the elevated role. Select this option to mark this role as required to elevate it to high security. See Elevated privilege roles for more information.
 
 </td></tr><tr><td>
 

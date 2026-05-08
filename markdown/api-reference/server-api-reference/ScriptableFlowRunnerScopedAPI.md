@@ -227,7 +227,7 @@ These errors may occur while using the asUser\(\) method:
 
 Identifies the scope and name of the data stream action to execute.
 
-To learn more about data stream actions, see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+To learn more about data stream actions, see Data Stream actions and pagination.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -773,7 +773,7 @@ Output count: 0
 
 Overrides the Connections and Credentials alias associated with the flow, action, or subflow. You can override the default parent alias with any of its child aliases.
 
-To learn more about overriding a Connections and Credentials alias, see [Supporting multiple connections](https://www.servicenow.com/docs/access?context=support-multiple-connections&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+To learn more about overriding a Connections and Credentials alias, see Supporting multiple connections.
 
 |Name|Type|Description|
 |----|----|-----------|

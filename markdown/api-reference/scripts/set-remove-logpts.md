@@ -17,7 +17,7 @@ Set breakpoints or conditional logpoints to log messages to the console at speci
 
 ## Before you begin
 
--   Set the **glide.debug.log\_point** system property to `true`. See [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+-   Set the **glide.debug.log\_point** system property to `true`. See Available system properties for more information.
 -   Role required: admin or script\_debugger
 
 ## About this task

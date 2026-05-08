@@ -19,7 +19,7 @@ Create and mine a project using the Project Builder to analyze and optimize your
 
 Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
-To mine a project, ensure that you have enabled [Audit Log](https://www.servicenow.com/docs/access?context=t_EnableAuditingForATable&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the parent table of the project.
+To mine a project, ensure that you have enabled Audit Log for the parent table of the project.
 
 ## Procedure
 

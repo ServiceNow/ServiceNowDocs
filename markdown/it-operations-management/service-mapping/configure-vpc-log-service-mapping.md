@@ -17,7 +17,7 @@ Enable Service Mapping to perform discovery based on data collected using Virtua
 
 ## Before you begin
 
-Verify that credentials for the AWS account are configured in the Credentials module of the platform by navigating to **Service Mapping** &gt; **Credentials** &gt; **AWS Credentials**. For more information about AWS credentials, see [Cloud credentials](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Verify that credentials for the AWS account are configured in the Credentials module of the platform by navigating to **Service Mapping** &gt; **Credentials** &gt; **AWS Credentials**. For more information about AWS credentials, see Cloud credentials.
 
 Role required: admin or service\_mapping\_admin
 

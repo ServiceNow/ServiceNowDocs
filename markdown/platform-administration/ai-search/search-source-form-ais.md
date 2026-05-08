@@ -47,7 +47,7 @@ Conditions
 
 </td><td>
 
-Set of filter conditions that documents from the indexed source must meet to be included in the search source. For more details on filter conditions, see [Filters](https://www.servicenow.com/docs/access?context=c_Filters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Set of filter conditions that documents from the indexed source must meet to be included in the search source. For more details on filter conditions, see Filters.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Search reference](../concept/reference-ais.md)

@@ -137,7 +137,7 @@ Manage AI systems, models, and datasets across their entire life-cycle with cons
 
 </td><td>
 
-[AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+AI asset lifecycle
 
 </td><td>
 
@@ -189,7 +189,7 @@ Build a compliance-ready AI asset inventory aligned with regulatory requirements
 
 </td><td>
 
--   [AI assets](https://www.servicenow.com/docs/access?context=ai-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   AI assets
 -   [Create control attestations for AI asset](../task/attest-controls-for-ai-systems.md)
 
 </td><td>

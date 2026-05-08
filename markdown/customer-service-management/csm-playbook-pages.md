@@ -15,7 +15,7 @@ Use playbook pages in CSM Configurable Workspace so that your agents can view th
 
 ## Overview of templates, pages, and page variants
 
-Pages provide the base structure for how the system displays record information in CSM Configurable Workspace. You can create and customize pages with [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US), a web user interface builder.
+Pages provide the base structure for how the system displays record information in CSM Configurable Workspace. You can create and customize pages with UI Builder, a web user interface builder.
 
 A page template is a pre-defined page configuration. When you create a page in UI Builder, you can select a page template as a starting point. You can also create a page from scratch or by copying another page and then customizing the page to meet your needs.
 
@@ -136,7 +136,7 @@ Create a record for a case type as the first step in a playbook by using a playb
 
 </td></tr><tr><td>
 
-[Configure an email template](https://www.servicenow.com/docs/access?context=configure-email-templates&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Configure an email template
 
 </td><td>
 
@@ -185,7 +185,7 @@ Opening a case takes the agent to the first open assigned activity. An agent can
 
 </td></tr><tr><td>
 
-[Add an activity to a playbook](https://www.servicenow.com/docs/access?context=playbook-add-optional-activity&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Add an activity to a playbook
 
 </td><td>
 

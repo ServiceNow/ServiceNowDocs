@@ -33,7 +33,7 @@ To enable these roles effectively:
 
 Based on your business needs, you can assign CSM industry data model roles or contributor user roles to your users with FSO roles to get the desired level of access for a given user, such as to control access to cases, case tasks, and other case-related information.
 
-For more information, see [Industry data model roles](https://www.servicenow.com/docs/access?context=csm-data-model-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) and [Contributor user roles](https://www.servicenow.com/docs/access?context=csm-contributor-user-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Industry data model roles and Contributor user roles.
 
 ## Visual overview
 

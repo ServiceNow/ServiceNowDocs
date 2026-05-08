@@ -45,7 +45,7 @@ Applies to
 
 </td><td>
 
-The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(![Lookup using list con.](../image/look-up-icon.png)\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see [Create a user criteria record for Service Portal](https://www.servicenow.com/docs/access?context=create-user-criteria-record&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The set of end users to which this action applies. For example, you can apply an action to any **Any Users** or **Guest Users** user criteria. Use the lookup using list icon \(![Lookup using list con.](../image/look-up-icon.png)\) to select the user. The **Applies to** settings must be unique for the actions for each rule. To create a user criteria record, see Create a user criteria record for Service Portal.
 
  **Note:** If you don't specify a user, this rule is applied to all users.
 

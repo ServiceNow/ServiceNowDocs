@@ -37,7 +37,7 @@ Role required: sn\_oper\_res.admin
 
 7.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d375903e149">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d375896e149">
 
 **To add an existing document block to the template**
 
@@ -45,7 +45,7 @@ Role required: sn\_oper\_res.admin
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d375903e161">
+</td></tr><tr><td id="d375896e161">
 
 **To add a new document block to the template**
 

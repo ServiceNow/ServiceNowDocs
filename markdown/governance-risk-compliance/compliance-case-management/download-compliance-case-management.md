@@ -27,7 +27,7 @@ The ServiceNow Store application enables you to download the core products and a
 
 1.  In the ServiceNow Store application, you must ensure that you have entitlements, or licenses, to the application and its dependent applications.
 
-    **Note:** This process applies only to the applications that are downloaded to the production instances. If you’re downloading the applications to your non-production or development instances, it isn’t necessary to get entitlements. Proceed to [Activate a ServiceNow Store application](https://www.servicenow.com/docs/access?context=activate-entitled-store-app&version=australia&pubname=australia-security-management&ft:locale=en-US).
+    **Note:** This process applies only to the applications that are downloaded to the production instances. If you’re downloading the applications to your non-production or development instances, it isn’t necessary to get entitlements. Proceed to Activate a ServiceNow Store application.
 
 2.  Activate the application and run it on your instance.
 

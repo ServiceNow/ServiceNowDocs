@@ -102,7 +102,7 @@ Question set
 
 </td><td>
 
-Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see [Service catalog variable sets](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariableSets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Preconfigured questions that you can't change.Admins create question sets in Service Catalog. For more information, see Service catalog variable sets.
 
 **Note:**
 
@@ -330,7 +330,7 @@ Filter conditions
 
 </td><td>
 
-Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Conditions that must be met to view certain choices. Select **Add condition** and use the condition builder to create the filter. For more information, see Condition builder.
 
 </td><td>
 

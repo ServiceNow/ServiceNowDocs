@@ -17,7 +17,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
 -   You can now selectively define which actions \(components\) are handled within a Try-Catch block and which are handled outside it.
 -   Versions of model provider are now supported for RPA bot generation skill.
 
-See [Learn about RPA suite of applications](https://www.servicenow.com/docs/access?context=rpa-explore&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See Learn about RPA suite of applications for more information.
 
 **Important:** RPA Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -30,13 +30,13 @@ Upgrade any of these currently installed Microsoft Software Installers \(MSIs\) 
 -   Unattended Robot
 -   Unattended Robot Login Agent
 
-For more information, see [Download the RPA applications from RPA Hub](https://www.servicenow.com/docs/access?context=download-installer-rpa&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information, see Download the RPA applications from RPA Hub.
 
 The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Australia.
 
 Based on the number of records in the application file table, you may experience a delay while upgrading the RPA Hub applications from Tokyo or earlier releases to Australia.
 
-Before upgrading RPA Hub to Australia, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Before upgrading RPA Hub to Australia, you must set the value of the **glide.rollback.blacklist.TableParentChange.change** system property to **false**. If this property doesn't exist in the System Property \[sys\_properties\] table, add the property and set its value to false. For more information on how to add a property, see Add a system property.
 
 After you upgrade to Australia, the bot process definitions change to the new structure, which is the bot process configuration.
 
@@ -44,7 +44,7 @@ Although the bot process configuration doesn't replace the bot process completel
 
 ## New in the Australia release
 
--   **[Try catch component enhancement](https://www.servicenow.com/docs/access?context=use-general-try-catch&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Try catch component enhancement**
 
     You can now precisely control the scope of Try-Catch blocks by selecting which actions \(components\) to include within exception handling and which to manage outside it. This enhancement provides better control over error handling logic and improves workflow reliability.
 
@@ -130,11 +130,11 @@ ServiceNow workspaces don’t support mobile devices. For more information about
 
 ## Localization information
 
-RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://www.servicenow.com/docs/access?context=rpa-hub-international-language-support&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
 
 ## Related ServiceNow applications and features
 
--   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Workflow Studio**
 
     ServiceNow® Workflow Studio integrates with RPA Hub for a seamless robot execution. You can use the Workflow Studio design environment to author flows and actions, as well as view the results they produce.
 

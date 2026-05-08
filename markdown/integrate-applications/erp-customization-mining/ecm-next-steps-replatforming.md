@@ -41,12 +41,12 @@ After you identify ERP data to replatform, citizen developers can use ServiceNow
 
 Use any of the following ServiceNow builders to create apps using custom data:
 
--   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   ServiceNow Studio
+-   Workflow Studio flows, subflows, and actions
+-   Workflow Studio playbooks
+-   Table Builder
+-   UI Builder
+-   Workspace Builder
 
 For example, use in ServiceNow Studio, use a template \(or build the app from the ground up\) and incorporate remote tables using ERP models and remote tables. You can combine legacy data from the ERP models and remote tables with other ServiceNow data in tables.
 

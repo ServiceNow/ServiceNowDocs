@@ -151,7 +151,7 @@ Role required: admin
 
 -   Configure the Source system \[sn\_hcls\_source\_system\] table to send data to an external Redox healthcare system by using the Redox Inbound Integration application.
 
-    For more information, see [Configure an external Redox healthcare system as a source system for a custom integration](https://www.servicenow.com/docs/access?context=hcls-config-source-system&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+    For more information, see Configure an external Redox healthcare system as a source system for a custom integration.
 
 -   Specify the destination ID used in the Source system \[sn\_hcls\_source\_system\] table for each spoke action in your flow.
 

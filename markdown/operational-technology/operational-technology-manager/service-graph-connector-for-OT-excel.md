@@ -15,7 +15,7 @@ breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 
 The Service Graph Connector for Microsoft Excel function enables you to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet. You use it in the Integration Hub Extract Transform Load \(ETL\) to upload this data to the Configuration Management Database \(CMDB\).
 
-Before you can run the import process, you must populate the Microsoft Excel spreadsheet with your existing Operational Technology data. When you import your Microsoft Excel spreadsheet using the Integration Hub ETL, it creates the correct configuration item \(CI\) records in the Configuration Management Database \(CMDB\). To learn more, see [Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Before you can run the import process, you must populate the Microsoft Excel spreadsheet with your existing Operational Technology data. When you import your Microsoft Excel spreadsheet using the Integration Hub ETL, it creates the correct configuration item \(CI\) records in the Configuration Management Database \(CMDB\). To learn more, see Operation Technology \(OT\) extension classes.
 
 -   **[Configuring the Service Graph Connector for Microsoft Excel](configuring-service-graph-connector-for-excel.md)**  
 Configure the Service Graph Connector for Microsoft Excel to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet.
@@ -27,7 +27,7 @@ With the Service Graph Connector for Microsoft Excel, you can create import task
 **Related topics**  
 
 
-[IntegrationHub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[bundle-crint.integrationhub]
 
-[IntegrationHub ETL](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.integrationhub-etl]
 

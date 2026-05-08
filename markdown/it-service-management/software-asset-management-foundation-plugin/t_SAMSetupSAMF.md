@@ -34,7 +34,7 @@ Once you have [requested](t_RequSoftwareAssetMgmtSAMF.md) Software Asset Managem
         This step automatically converts and adds new tables, forms and lists, fields and values, and disables deprecated functionality. It also contains manual procedures for you to complete for successful migration.
 
     -   If not, proceed to the next step.
-2.  Determine whether Discovery is activated \(see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)\).
+2.  Determine whether Discovery is activated \(see Request Discovery\).
 
     Check the list of plugins to see if the Discovery plugin is active.
 
@@ -44,7 +44,7 @@ Once you have [requested](t_RequSoftwareAssetMgmtSAMF.md) Software Asset Managem
 
     -   If not, activate and configure Discovery.
 
-        For more information, see [Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+        For more information, see Discovery.
 
 3.  Proceed to [Get started with Software Asset Management Foundation plugin](t_SAMGetStartedSAMF.md) to begin using the Software Asset Management Foundation plugin in your environment.
 

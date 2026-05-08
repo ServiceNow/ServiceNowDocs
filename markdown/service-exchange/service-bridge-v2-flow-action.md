@@ -15,7 +15,7 @@ breadcrumb: [Explore, Service Exchange]
 
 Workflow Studio predefined actions help you preserve mapped variable integrity and maintain flow compatibility across configuration revisions.
 
-Service Exchange provides a set of predefined Workflow Studio actions that you can use in your flows or subflows to retrieve variable values from remote tasks and provider tasks. For details on flows, see [Getting started with flows](https://www.servicenow.com/docs/access?context=getting-started-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Service Exchange provides a set of predefined Workflow Studio actions that you can use in your flows or subflows to retrieve variable values from remote tasks and provider tasks. For details on flows, see Getting started with flows.
 
 Service Exchange provides the following actions in Workflow Studio:
 

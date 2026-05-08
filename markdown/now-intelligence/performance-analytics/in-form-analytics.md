@@ -35,5 +35,5 @@ Preconfigured in-form analytics are available as plugins for several application
 
 [Using breakdowns on dashboards](c_SpecialDashboards.md)
 
-[UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UIActions]
 

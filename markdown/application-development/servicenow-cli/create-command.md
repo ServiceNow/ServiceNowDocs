@@ -33,7 +33,7 @@ A ServiceNow CLI command maps to a scripted REST endpoint in the End Point \[sn\
 
         |Field|Description|
         |-----|-----------|
-        |Resource Path|Required. Path to the endpoint on the instance to map a command to. Can be the path to an inbound REST API, or a scripted REST API. For example, `api/now/table/{table}/{sysid}`. For more information, see [Available REST APIs](https://www.servicenow.com/docs/access?context=api-rest&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [Scripted REST APIs](https://www.servicenow.com/docs/access?context=c_CustomWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US).|
+        |Resource Path|Required. Path to the endpoint on the instance to map a command to. Can be the path to an inbound REST API, or a scripted REST API. For example, `api/now/table/{table}/{sysid}`. For more information, see Available REST APIs and Scripted REST APIs.|
         |HTTP Method|Required. HTTP method to use when the user runs the associated command.|
         |Application|Read-only application scope for the endpoint.|
 

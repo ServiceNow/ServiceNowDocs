@@ -17,7 +17,7 @@ Source-to-Pay Workspace includes a generic case playbook to complete supplier ca
 
 ## Case playbook for supplier cases
 
-The case playbook provides step-by-step guidance for completing specific types of supplier cases. The case playbook includes a generic supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The case playbook provides step-by-step guidance for completing specific types of supplier cases. The case playbook includes a generic supplier case flow containing various stages and activities that you must complete to close the supplier case. For more information, see Interact with Playbook.
 
 When a supplier contact submits a request using the supplier catalog item from the Supplier Collaboration Portal or when a supplier manager or fulfiller creates a case from the Source-to-Pay Workspace, the application opens the case on the **Playbook** tab on the Details page.
 

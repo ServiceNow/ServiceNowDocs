@@ -27,7 +27,7 @@ Mobile analytics admin \[mobile\_analytics\_admin\] is included in the Mobile an
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-For more information, see [Usage Insights for mobile applications](https://www.servicenow.com/docs/access?context=mobile-analytics&version=australia&pubname=australia-mobile&ft:locale=en-US).
+For more information, see Usage Insights for mobile applications.
 
 **Parent Topic:**[Roles installed with Usage Insights](components-installed-user-exp-analytics.md)
 

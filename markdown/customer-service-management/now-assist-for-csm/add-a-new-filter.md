@@ -49,7 +49,7 @@ Filters allow users to refine dashboard data by specific fields. This procedure 
 
 3.  Select a **Filter Carousel Item 2** in the component tree.
 
-4.  [Duplicate the component](https://www.servicenow.com/docs/access?context=duplicate-components&version=australia&pubname=australia-application-development&ft:locale=en-US) from the context menu.
+4.  Duplicate the component from the context menu.
 
     Drag the duplicated filter to reorder it as needed within the carousel.
 

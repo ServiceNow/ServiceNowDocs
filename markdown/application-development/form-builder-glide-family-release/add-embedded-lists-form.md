@@ -43,7 +43,7 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** Embedded lists in forms are only supported in Core UI and earlier interfaces.
 
-    For information on how you can add an embedded list to a form, see [Embed a list within a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information on how you can add an embedded list to a form, see Embed a list within a form.
 
 5.  Select **Save**.
 

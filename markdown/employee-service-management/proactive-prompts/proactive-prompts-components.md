@@ -69,9 +69,9 @@ sn\_pp.reader
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://www.servicenow.com/docs/access?context=t_AddARoleToAnExistingRole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   To assign a role to another role, see Add a role to an existing role.
+-   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see Assign a role to a user.
 
 ## Tables installed
 

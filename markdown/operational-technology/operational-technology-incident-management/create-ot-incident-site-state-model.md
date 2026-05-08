@@ -24,7 +24,7 @@ Create an Operational Technology \(OT\) incident state model for your sites. By 
 
 By using state management, you can configure a state model for OT incident sites and their incident life cycles. You can create one model per site.
 
-For more information about state management and state models, see [State Management](https://www.servicenow.com/docs/access?context=state-model&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about state management and state models, see State Management.
 
 For more information about the incident life cycles, see [Operational Technology Incident Management](../concept/operational-technology-incident-management.md).
 

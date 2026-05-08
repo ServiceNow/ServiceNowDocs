@@ -20,7 +20,7 @@ Survey administration includes the following procedures.
 -   Define trigger conditions for when surveys are sent to users, such as when an incident closes.
 -   Maintain surveys and survey questions as the organization's needs change.
 
-To set up surveys in [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), you must first install Service Portal and then [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) on the page. The base system includes the Survey widget.
+To set up surveys in Service Portal, you must first install Service Portal and then Create and edit a page using the Service Portal Designer on the page. The base system includes the Survey widget.
 
 -   **[View survey reports](../task/view-survey-overview.md)**  
 Use the Survey Overview dashboard to view various survey reports, such as Surveys by Metric Type and State.

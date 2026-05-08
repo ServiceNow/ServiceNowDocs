@@ -52,7 +52,7 @@ You can connect to a live agent by selecting **Accounts payable team**.
 
 ## Additional Information
 
-Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes fulfillers more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Now Assist in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes fulfillers more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see Using Now Assist in Virtual Agent.
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of Now Assist in Virtual Agent as a self-service deflection tool. Now Assist in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 

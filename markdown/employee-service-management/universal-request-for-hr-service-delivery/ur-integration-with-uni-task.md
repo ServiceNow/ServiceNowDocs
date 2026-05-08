@@ -17,7 +17,7 @@ Extend the capabilities of Universal Request and connect with other departments 
 
 ## Integrate with IT Service Management
 
-Universal Request provides an integration with the Incident Management application after you install [Universal Request integration- Incident Management](https://www.servicenow.com/docs/access?context=inci-mgmt-integ-with-univ-req&version=australia&pubname=australia-it-service-management&ft:locale=en-US). With this integration, employees and agents can create incident records from universal request. IT routing agents can view these records from the Universal Request application. To modify the integration with the Incident Management application, use the Universal Request guided setup. The guided setup takes you through the setup and configuration process.
+Universal Request provides an integration with the Incident Management application after you install Universal Request integration- Incident Management. With this integration, employees and agents can create incident records from universal request. IT routing agents can view these records from the Universal Request application. To modify the integration with the Incident Management application, use the Universal Request guided setup. The guided setup takes you through the setup and configuration process.
 
 ## Integrate with HR Service Delivery
 
@@ -25,11 +25,11 @@ Universal Request provides an integration with the HR Service Delivery applicati
 
 ## Integrate with Request Management
 
-Integrate Request Management with the Universal Request application to create a universal request when a request is submitted from a catalog item or record producer. To use this capability, enable the **sn\_uni\_req.com.snc.ur.request\_integration** property under [Universal Request properties](../reference/ur-properties.md). For more information on the integration and capabilities, see [Request Management integration with Universal Request](https://www.servicenow.com/docs/access?context=request-mgmt-integration-ur&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Integrate Request Management with the Universal Request application to create a universal request when a request is submitted from a catalog item or record producer. To use this capability, enable the **sn\_uni\_req.com.snc.ur.request\_integration** property under [Universal Request properties](../reference/ur-properties.md). For more information on the integration and capabilities, see Request Management integration with Universal Request.
 
 ## Integrate with Innovation Management
 
-Integrate Innovation Management with the Universal Request application to enable your employee and agents to create an idea from a universal request \(UR\). This integration also provides the capability to transfer the idea to another department with or without resolution. For more information, see [Innovation Management Integration with Universal Request](https://www.servicenow.com/docs/access?context=universal-req-idea-mgmt&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+Integrate Innovation Management with the Universal Request application to enable your employee and agents to create an idea from a universal request \(UR\). This integration also provides the capability to transfer the idea to another department with or without resolution. For more information, see Innovation Management Integration with Universal Request.
 
 ## Integrate with Workplace Service Delivery
 

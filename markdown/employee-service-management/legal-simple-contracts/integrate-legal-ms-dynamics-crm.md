@@ -19,9 +19,9 @@ Configure Microsoft Dynamics CRM to import the sales representatives, sales acco
 
 Ensure that the administrator has installed and set up spokes for the CRM app you want to configure.
 
--   **[Microsoft Dynamics CRM spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) v1.3.0 or later version**
+-   **Microsoft Dynamics CRM spoke v1.3.0 or later version**
 
-    For more information on the setup and creating the Microsoft Dynamics CRM account, see [Set up Microsoft Dynamics CRM spoke](https://www.servicenow.com/docs/access?context=setup-ms-dynamics-crm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Microsoft Dynamics CRM account, see Set up Microsoft Dynamics CRM spoke.
 
 
 Role required: sn\_lg\_ops.request\_config, sn\_lg\_contracts.contracts\_config, or sn\_lg\_matter.matter\_config

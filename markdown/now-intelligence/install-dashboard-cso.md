@@ -65,6 +65,6 @@ Applications:
 
         Assign the pa\_viewer role to those who need to view Performance Analytics scores.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see Exploring user administration.
 
 

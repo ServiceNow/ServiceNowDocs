@@ -45,7 +45,7 @@ Refer to a base system configuration collector as an example for creating the co
 
         For more information on the available CAL actions, see [Cloud Action Library actions reference](../reference/ccg-cal-actions.md).
 
-        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub REST step to implement the custom action. For more information, see [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub REST step to implement the custom action. For more information, see REST step.
 
     4.  Add the **CCG – Insert Configuration Settings** action to insert the configuration data to the Configuration Management Database \(CMDB\).
 

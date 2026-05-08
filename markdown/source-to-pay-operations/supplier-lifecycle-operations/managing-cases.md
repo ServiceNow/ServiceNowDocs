@@ -50,7 +50,7 @@ If you've not installed Third-party Risk Management, the playbook creates suppli
 
 -   **Approvals** tab: Lists the approval records, their approval status, and the persons who need to approve this case.
 
-**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see Add a user to a group.
 
 -   **Risk Assessments** tab: Displays the risk assessments for a supplier.
 
@@ -103,7 +103,7 @@ Depending on the risk score of the supplier, the following risk ratings are disp
         -   3 - Moderate
         -   4 - Low
         -   5 - Very Low
-For more information about risk ratings and risk scores, see [Set up risk rating scales for scoring](https://www.servicenow.com/docs/access?context=tprm-risk-rating-scales-config&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information about risk ratings and risk scores, see Set up risk rating scales for scoring.
 
     -   **Onboarded**: Status of whether the supplier is onboarded into the ERP system. The options are Yes or No.
     -   **DUNS number**: Unique, 9-digit identifier for a supplier.

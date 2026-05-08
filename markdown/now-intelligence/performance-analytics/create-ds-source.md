@@ -24,7 +24,7 @@ Role required: pa\_data\_collector or higher
 
 1.  Select the application scope.
 
-    The Data snapshots source inherits your application scope. With this Data snapshots source, you can only create indicators in that application scope. You can only create one Data snapshots source for a fact table, so the choice of application scope is important. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The Data snapshots source inherits your application scope. With this Data snapshots source, you can only create indicators in that application scope. You can only create one Data snapshots source for a fact table, so the choice of application scope is important. For more information, see Application scope.
 
 2.  Navigate to **All** &gt; **Data Snapshots** &gt; **Sources**.
 
@@ -36,7 +36,7 @@ Role required: pa\_data\_collector or higher
 
 5.  Select either a Daily data frequency or All Activity.
 
-    The Daily frequency supports only the standard calendar and the Daily indicator frequency. All Activity includes the standard calendar and all business calendars for which a Business Calendar Group is defined. It supports all indicator frequencies defined in those business calendars including intraday frequencies such as Work Shift. All Activity also supports showing data from incomplete periods in data visualizations and KPI Details. For more information, see [Creating business calendars](https://www.servicenow.com/docs/access?context=business-calendars&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    The Daily frequency supports only the standard calendar and the Daily indicator frequency. All Activity includes the standard calendar and all business calendars for which a Business Calendar Group is defined. It supports all indicator frequencies defined in those business calendars including intraday frequencies such as Work Shift. All Activity also supports showing data from incomplete periods in data visualizations and KPI Details. For more information, see Creating business calendars.
 
 6.  Select which **Fields** of the fact table to include in the Data snapshots source.
 

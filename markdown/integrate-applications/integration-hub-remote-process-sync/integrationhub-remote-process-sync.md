@@ -57,7 +57,7 @@ You can use Remote Process Sync to synchronize process flows among multiple doma
 
 ## Getting started
 
-Before deciding to move forward with Remote Process Sync as your integration framework, consider how this framework compares to other multi-instance ServiceNow AI Platform® integrations. While solutions such as [Instance Data Replication](https://www.servicenow.com/docs/access?context=instance-data-replication&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and the [Remote Instance spoke](../../integrationhub-store-spokes/concept/remote-instance-spoke-1.md) support simple multi-instance integrations, Remote Process Sync supports more complex multi-instance integration use cases, focusing on integrating instances by high-level business processes.
+Before deciding to move forward with Remote Process Sync as your integration framework, consider how this framework compares to other multi-instance ServiceNow AI Platform® integrations. While solutions such as Instance Data Replication and the [Remote Instance spoke](../../integrationhub-store-spokes/concept/remote-instance-spoke-1.md) support simple multi-instance integrations, Remote Process Sync supports more complex multi-instance integration use cases, focusing on integrating instances by high-level business processes.
 
 **Note:** Remote Process Sync replaces the eBonding spoke for integrating instances.
 

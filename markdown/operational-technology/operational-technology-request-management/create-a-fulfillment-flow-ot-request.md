@@ -33,17 +33,17 @@ You can link a fulfillment flow to your catalog item. Fulfillment flows trigger 
 
 4.  On the **Properties** form, fill out the fields.
 
-    For more information about the **Properties** form, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information about the **Properties** form, see Create a flow in Workflow Studio.
 
 5.  Select **Build Flow**.
 
 6.  Add a trigger to your flow.
 
-    For more information, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see Create a flow in Workflow Studio.
 
 7.  Add actions, flows, subflows, or glow logic.
 
-    For more information, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see Create a flow in Workflow Studio.
 
 8.  Select **Save**.
 

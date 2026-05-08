@@ -19,7 +19,7 @@ When your applications are placed in the Custom Applications table \[sys\_app\],
 
 Role required: admin
 
-When you start with Update Sets, all your applications in all your instances are placed in the Custom Applications table \[sys\_app\]. However, if you decide to use the recommended ServiceNow® [Continuous Integration/Continuous Delivery API/Spoke](https://www.servicenow.com/docs/access?context=cicd-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) guidance for using the Application Repository in your CI/CD pipelines, the system doesn't allow the upgrades because the applications already exist in Custom Applications table. They are moving to the ServiceNow Store table \[sys\_store\_app\] so they can be installed from the application repository, which is why they can no longer be developed on that instance.
+When you start with Update Sets, all your applications in all your instances are placed in the Custom Applications table \[sys\_app\]. However, if you decide to use the recommended ServiceNow® Continuous Integration/Continuous Delivery API/Spoke guidance for using the Application Repository in your CI/CD pipelines, the system doesn't allow the upgrades because the applications already exist in Custom Applications table. They are moving to the ServiceNow Store table \[sys\_store\_app\] so they can be installed from the application repository, which is why they can no longer be developed on that instance.
 
 After you convert the application, it is no longer enabled for development on the instance where the conversion is performed. For a scoped custom application, all associated records in the Customer Updates table are deleted for this application.
 

@@ -17,7 +17,7 @@ The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator pr
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see [Common Service Data Model](https://www.servicenow.com/docs/access?context=csdm-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see Common Service Data Model.
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages
 

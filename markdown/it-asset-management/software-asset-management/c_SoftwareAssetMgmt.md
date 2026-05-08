@@ -21,7 +21,7 @@ Introduction to the Software Asset Workspace
 
 **Note:** Beginning with the ServiceNow AI Platform Australia release, limited support is provided for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, you're encouraged to move to the new workspace experience.
 
-For the ITSM Software Asset Management feature of Asset Management, see [ITSM Software Asset Management](https://www.servicenow.com/docs/access?context=itsm-sam&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For the ITSM Software Asset Management feature of Asset Management, see ITSM Software Asset Management.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 

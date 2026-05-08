@@ -23,7 +23,7 @@ Role required: sn\_ac.automation\_technical\_user and sn\_ac.automation\_admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-    For detailed information, see [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For detailed information, see Create a flow in Workflow Studio.
 
     **Important:** The flow, subflow, or action that you create must be client-callible. Create an ACL that can call this flow. This flow must be published.
 

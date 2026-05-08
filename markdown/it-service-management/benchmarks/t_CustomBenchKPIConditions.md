@@ -38,7 +38,7 @@ For further analysis, you can link a Performance Analytics indicator that you're
 
 For example, link **Number of resolved incidents by first assigned group** to **Benchmark: Number of incidents resolved on first assignment** to view breakdown values by priority, assignment group, and category.
 
-**Note:** Individual scores are shown by default but you must have [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) to use linking to show breakdowns.
+**Note:** Individual scores are shown by default but you must have Performance Analytics to use linking to show breakdowns.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ For example, link **Number of resolved incidents by first assigned group** to **
 
 2.  Change the conditions, as appropriate.
 
-3.  To link a Performance Analytics indicator to a Benchmarks indicator, follow the procedure in [Link an automated indicator to a benchmark](https://www.servicenow.com/docs/access?context=link-automated-indicator-benchmark&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+3.  To link a Performance Analytics indicator to a Benchmarks indicator, follow the procedure in Link an automated indicator to a benchmark.
 
 <table id="table_aqj_hjl_tfb"><thead><tr><th>
 

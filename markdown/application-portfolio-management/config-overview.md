@@ -79,7 +79,7 @@ Saved Visualization
 
 </td><td>
 
-Name of the configuration. Select the lookup icon \(![Lookup icon](../image/icon-lookup.png)\) to select a configuration from the PAR Visualizations list.**Note:** You can create and save a visualization configuration using the Platform Analytics Workspace. For instructions, see [Create a single score visualization in the Visualization Designer](https://www.servicenow.com/docs/access?context=create-dv-sing-sc-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Name of the configuration. Select the lookup icon \(![Lookup icon](../image/icon-lookup.png)\) to select a configuration from the PAR Visualizations list.**Note:** You can create and save a visualization configuration using the Platform Analytics Workspace. For instructions, see Create a single score visualization in the Visualization Designer.
 
 </td></tr><tr><td>
 

@@ -31,15 +31,15 @@ Triggers, by themselves, execute nothing. After defining a trigger in MetricBase
 
 3.  Fill in the fields.
 
-<table id="choicetable_hsk_2zm_pgb"><thead><tr><th align="left" id="d449631e95">
+<table id="choicetable_hsk_2zm_pgb"><thead><tr><th align="left" id="d449410e95">
 
 Field
 
-</th><th align="left" id="d449631e98">
+</th><th align="left" id="d449410e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d449631e104">
+</th></tr></thead><tbody><tr><td id="d449410e104">
 
 **Flow name**
 
@@ -47,7 +47,7 @@ Description
 
 Name of the flow to execute.
 
-</td></tr><tr><td id="d449631e113">
+</td></tr><tr><td id="d449410e113">
 
 **Description**
 
@@ -55,7 +55,7 @@ Name of the flow to execute.
 
 Explanation of what the flow does and why you are associating this flow with the trigger.
 
-</td></tr><tr><td id="d449631e122">
+</td></tr><tr><td id="d449410e122">
 
 **Application**
 
@@ -63,7 +63,7 @@ Explanation of what the flow does and why you are associating this flow with the
 
 Application scope to create your flow in. The value, **Global**, is the default.
 
-</td></tr><tr><td id="d449631e134">
+</td></tr><tr><td id="d449410e134">
 
 **Protection**
 
@@ -71,7 +71,7 @@ Application scope to create your flow in. The value, **Global**, is the default.
 
 Option to make the flow read-only. Selecting read-only prevents users who do not own the application scope from changing the flow. You can only select a value when you create the flow in an application scope you own.
 
-</td></tr><tr><td id="d449631e144">
+</td></tr><tr><td id="d449410e144">
 
 **Run As**
 
@@ -81,7 +81,7 @@ Choose whether the flow runs as **System User** or **User who initiates the sess
 
 **Note:** If you select **User who initiates the session**, ensure that security restrictions \(ACLs\) do not prevent the users who trigger the flow from performing the flow actions.
 
-</td></tr><tr><td id="d449631e170">
+</td></tr><tr><td id="d449410e170">
 
 **Run with roles**
 
@@ -128,7 +128,7 @@ Select the roles can run the flow. This option is only available when **Run as**
 
         Different triggers may execute different flows. ![Test the flow.](../image/test-flow.png)
 
-        **Note:** When you test a flow, the system does not execute the trigger, and therefore does not create a record. By selecting a record in the Test flow dialog box, the system acts as if that record was just created. For more information, see [Test a flow](https://www.servicenow.com/docs/access?context=flow-test&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        **Note:** When you test a flow, the system does not execute the trigger, and therefore does not create a record. By selecting a record in the Test flow dialog box, the system acts as if that record was just created. For more information, see Test a flow.
 
     3.  Select **Submit**.
 

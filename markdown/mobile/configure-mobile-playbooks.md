@@ -21,17 +21,17 @@ Role required: admin
 
 This task is an example of embedding a seismic page, which contains the playbook experience, within a mobile app by using Mobile App Bridge.
 
-Configure mobile web screens to leverage the ServiceNow platform playbook feature on mobile devices. A playbook guides technicians when troubleshooting issues or helps them learn to install new parts. For more information about the playbook feature, see [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Configure mobile web screens to leverage the ServiceNow platform playbook feature on mobile devices. A playbook guides technicians when troubleshooting issues or helps them learn to install new parts. For more information about the playbook feature, see About Playbook Experience.
 
 Configuring seismic pages with Mobile App Bridge involves the following tools and tasks:
 
--   Create a Now Experience Framework page in [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) by leveraging the Mobile App Bridge.
+-   Create a Now Experience Framework page in UI Builder by leveraging the Mobile App Bridge.
 -   Create a mobile web screen using Mobile App Builder \(MAB\).
 -   Add the Now Experience Framework page to mobile devices by specifying the page URL in the **URL** field of the MAB mobile web screen configuration form.
 
-For detailed information about adding a playbook to Mobile App Bridge so that you can configure a playbook on mobile devices on the ServiceNow Mobile Platform, see [Embed a playbook in ServiceNow® mobile](https://www.servicenow.com/docs/access?context=embed-playbook-mobile&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For detailed information about adding a playbook to Mobile App Bridge so that you can configure a playbook on mobile devices on the ServiceNow Mobile Platform, see Embed a playbook in ServiceNow® mobile.
 
-**Important:** The Cabrillo JS API support that leverages Mobile App Bridge exists for classic web pages, service portal pages, and seismic pages. For more information about the Cabrillo JS APIs, see [Client mobile API reference](https://www.servicenow.com/docs/access?context=api-client-mobile&version=australia&pubname=australia-api-reference&ft:locale=en-US)+
+**Important:** The Cabrillo JS API support that leverages Mobile App Bridge exists for classic web pages, service portal pages, and seismic pages. For more information about the Cabrillo JS APIs, see Client mobile API reference+
 
 ## Procedure
 

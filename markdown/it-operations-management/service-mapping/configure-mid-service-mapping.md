@@ -26,9 +26,9 @@ The Management, Instrumentation, and Discovery \(MID\) Server is a Java applicat
 Most environments require multiple MID Servers, with Service Mapping using the relevant MID Server for discovery. MID Servers have the following selection criteria that Service Mapping can use to choose the relevant MID Server:
 
 -   Application — defines what application a MID Server works with. Set it to Service Mapping to reserve this MID Server exclusively to Service Mapping discovery requests. Alternatively, set it to ALL to allow any ServiceNow application to use this MID Server.
--   Capability — defines the network capability. For Service Mapping, set this parameter to ALL or any combination of SSH, WMI, SNMP, and Cloud Provisioning and Governance . See [Configure MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Capability — defines the network capability. For Service Mapping, set this parameter to ALL or any combination of SSH, WMI, SNMP, and Cloud Provisioning and Governance . See Configure MID Server capabilities.
 
--   IP range — limits operation of this MID Server to this IP range. Service Mapping does not choose this MID Server for a discovery request whose endpoint is outside this IP range. See [Configure an IP address range for the MID Server](https://www.servicenow.com/docs/access?context=t_ConfigureMIDIPRange&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   IP range — limits operation of this MID Server to this IP range. Service Mapping does not choose this MID Server for a discovery request whose endpoint is outside this IP range. See Configure an IP address range for the MID Server.
 
     **Note:** For information on how to bypass MID Server configuration based on IP range, see [Fine-tune Service Mapping with MID affinity and IP reuse](network-location-mid-affinity-td-discovery.md).
 
@@ -43,7 +43,7 @@ While by default Service Mapping uses this algorithm in all deployments upgraded
 
 ## Default MID Servers for Service Mapping
 
-In addition to selection criteria, you can configure one of the MID Servers as the default server that Service Mapping uses. If there are no MID Servers with matching application, capability, or IP range, Service Mapping uses the default MID Server. See [Configure a default MID Server for each application](https://www.servicenow.com/docs/access?context=t_SpecifyMIDServerApplications&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+In addition to selection criteria, you can configure one of the MID Servers as the default server that Service Mapping uses. If there are no MID Servers with matching application, capability, or IP range, Service Mapping uses the default MID Server. See Configure a default MID Server for each application.
 
 ## Using PowerShell for discovery
 
@@ -55,7 +55,7 @@ ServiceNow now supports PowerShell 3.0 up to 5.1.
 
 ## MID Server credential-less discovery with Nmap
 
-If the MID Server does not have sufficient credentials to access a device or application, it can run Network Mapper \(Nmap\) commands to collect basic information without using credentials. Credential-less discovery with Nmap requires additional configuration as described in [Install and uninstall Nmap on a MID Server](https://www.servicenow.com/docs/access?context=install-nmap-on-mid-server&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If the MID Server does not have sufficient credentials to access a device or application, it can run Network Mapper \(Nmap\) commands to collect basic information without using credentials. Credential-less discovery with Nmap requires additional configuration as described in Install and uninstall Nmap on a MID Server.
 
 ServiceNow applications refer to devices and applications that comprise a service instance as configuration items \(CIs\).
 
@@ -87,15 +87,15 @@ In deployments upgraded to Istanbul or earlier, Service Mapping uses the default
 
 [Pattern-based discovery in Service Mapping](pattern-based-discovery.md)
 
-[MID Server connection prerequisites](https://www.servicenow.com/docs/access?context=c_MIDServerConnectionPrerequisites&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConnectionPrerequisites]
 
 [Credential-less Discovery with Nmap](../../discovery/concept/nmap-credential-less-discovery.md)
 
 [Credential-less Application Discovery](../../discovery/reference/credential-less-app-discovery.md)
 
-[Multiple MID Server deployments](https://www.servicenow.com/docs/access?context=t_InstallMultplMIDSvrOnASingleSys&version=australia&pubname=australia-servicenow-platform&section=c_DeployMultipleMIDServers&ft:locale=en-US)
+[bundle-platcap.c_DeployMultipleMIDServers]
 
-[MID Server installation](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-installation]
 
 [MID Server properties used by Service Mapping](../reference/mid-server-properties-service-mapping.md)
 

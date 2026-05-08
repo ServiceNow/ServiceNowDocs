@@ -17,7 +17,7 @@ These system properties control the behavior of Performance Analytics.
 
 To configure properties, navigate to **Performance Analytics** &gt; **System** &gt; **Properties** or to `sys_properties_list.do`.
 
-**Note:** Only the properties on the Performance Analytics Properties page are described here. The `sys_properties.list` page contains other properties that affect Performance Analytics. For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Only the properties on the Performance Analytics Properties page are described here. The `sys_properties.list` page contains other properties that affect Performance Analytics. For more information, see Available system properties.
 
 -   **[Collection cleanup Performance Analytics properties](pa-collection-cleanup-props.md)**  
 Several properties determine how long Performance Analytics scores and snapshots are maintained before the scheduled cleanup job deletes them.

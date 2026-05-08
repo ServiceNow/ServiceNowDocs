@@ -82,5 +82,5 @@ Reference topics provide additional information about the forms, fields, and pro
 
 [Surveys in Service Portal and the Now Mobile app](../concept/c_SurveyServicePortal.md)
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_ServicePortal]
 

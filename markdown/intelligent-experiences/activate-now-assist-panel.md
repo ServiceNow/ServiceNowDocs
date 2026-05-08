@@ -51,10 +51,10 @@ To learn more about the Now Assist panel, and how it can assist your agents, see
 
 For examples of the Now Assist panel in action for Now Assist applications, see the following topics:
 
--   [Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm-summarize-chat&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Summarize a Sidebar discussion by using Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm-sidebar-discussion&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Summarize an issue using Now Assist for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=summarize-an-issue&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](https://www.servicenow.com/docs/access?context=gen-kb-now-assisthr&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Summarize a chat conversation by using Now Assist for Customer Service Management \(CSM\)
+-   Summarize a Sidebar discussion by using Now Assist for IT Service Management \(ITSM\)
+-   Summarize an issue using Now Assist for Integrated Risk Management \(IRM\)
+-   Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD
 
 **Parent Topic:**[Configuring Now Assist Admin features](../concept/configuring-na-landing.md)
 

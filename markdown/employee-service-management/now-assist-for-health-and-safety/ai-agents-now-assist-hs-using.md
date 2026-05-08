@@ -69,8 +69,8 @@ Health and safety pattern intelligence orchestrator
 
 To run the AI agents autonomously, duplicate the agentic workflow if needed and then do the following steps:
 
--   Activate the agentic workflow. For more information, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   Activate the agentic workflow. For more information, see Activate an agentic workflow template.
 -   Activate the trigger to invoke the agentic workflow automatically.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 

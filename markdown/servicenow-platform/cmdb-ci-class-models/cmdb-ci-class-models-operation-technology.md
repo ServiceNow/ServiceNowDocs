@@ -37,12 +37,12 @@ The Operational Technology \(OT\) data model was created to enable management of
 
 In this way, a list of HMIs can be derived and a list of all computers in an enterprise can also be derived.
 
-For more details on the OT data model, see [Implementing the CSDM framework for Operational Technology](https://www.servicenow.com/docs/access?context=ot-use-case-product-view&version=australia&pubname=australia-operational-technology&ft:locale=en-US).
+For more details on the OT data model, see Implementing the CSDM framework for Operational Technology.
 
 You can use the added classes as any other CMDB class. Applications such as Discovery for Operational Technology, and Service Graph Connector for Operational Technology \(Excel\) use these class extensions to populate CIs and discover various technologies and software. To learn more, see:
 
--   [Service Graph Connector for Microsoft Excel](https://www.servicenow.com/docs/access?context=service-graph-connector-for-OT-excel&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
--   [IT Discovery for Operational Technology \(OT\) Networks](https://www.servicenow.com/docs/access?context=discovery-for-operational-technology&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+-   Service Graph Connector for Microsoft Excel
+-   IT Discovery for Operational Technology \(OT\) Networks
 
 **Note:** In Operational Technology, CIs used on an OT network to automate an industrial process are often referred to as  OT Devices. This term shouldn’t be confused with an Device record commonly used in the practice of Asset Management.
 
@@ -176,7 +176,7 @@ All Operational Technology \(OT\) extension classes have a "Default view" form v
 |IP Switch \[cmdb\_ci\_ip\_switch\]|Specialization of the Network Gear \[cmdb\_ci\_netgear\] table.|
 |Protocol Converter \[cmdb\_ci\_protocol\_converter\]|Device used to convert standard or proprietary protocol of one device to the protocol suitable for the other device or tools to achieve the interoperability.|
 
-Classes not included in the table do not have the Operational Technology \(OT\) view by default. For any additional classes required, you can add the Operational Technology \(OT\) view to the form context menu. For more information about form context menu options, see [Form context menu](https://www.servicenow.com/docs/access?context=c_FormContextMenu&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Classes not included in the table do not have the Operational Technology \(OT\) view by default. For any additional classes required, you can add the Operational Technology \(OT\) view to the form context menu. For more information about form context menu options, see Form context menu.
 
 ## Roles and Access Control Logic \(ACLs\)
 
@@ -291,12 +291,12 @@ Each SGC can extend the OT Class Mapping Template table and create a child class
 
 **Note:** The OT Class Mapping Template doesn't store any classification detail records. The child tables specific to each SGC store the classification records for an SGC to use.
 
-With the template, you can also use the OT device naming strategy. An extension point is created in the Industrial Core plugin with the default device naming strategy, which is the device name and site name. For more information about the Industrial Core plugin, see [Industrial Core plugin](https://www.servicenow.com/docs/access?context=industrial-core-plugin&version=australia&pubname=australia-operational-technology&ft:locale=en-US). To implement the device naming strategy, you must do the following.
+With the template, you can also use the OT device naming strategy. An extension point is created in the Industrial Core plugin with the default device naming strategy, which is the device name and site name. For more information about the Industrial Core plugin, see Industrial Core plugin. To implement the device naming strategy, you must do the following.
 
 -   Identify the required naming strategies per device class and the available data for naming.
 -   Implement naming strategies by creating script includes that implement the extension point's function.
 
-For more information about how to implement the device naming strategy, see the **Creating and using the OT device naming strategy** section in [Industrial Core plugin](https://www.servicenow.com/docs/access?context=industrial-core-plugin&version=australia&pubname=australia-operational-technology&ft:locale=en-US).
+For more information about how to implement the device naming strategy, see the **Creating and using the OT device naming strategy** section in Industrial Core plugin.
 
 The OT Class Mapping Template table attributes include:
 
@@ -444,7 +444,7 @@ Use the Backup Job Execution History \[cmdb\_backup\_job\_execution\_history\] c
 |Completion Status|The current completion status of the backup job.|
 |Mark for Archival|Select to archive backup job execution history after 90 days.|
 
-For more information, see [Operational Technology Backup Management data model](https://www.servicenow.com/docs/access?context=ot-backup-management-data-model&version=australia&pubname=australia-operational-technology&ft:locale=en-US).
+For more information, see Operational Technology Backup Management data model.
 
 ## Key reference structures
 
@@ -519,7 +519,7 @@ The OT Control Module \[cmdb\_ci\_ot\_control\_module\] rule contains the follow
 
 The OT Device Network Connection data model leverages the OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table to identify source CIs and destination CIs. Identifying this data allows you to identify the device-to-device connections in your OT environment.
 
-**Note:** The OT Device Network Connection table is available with the Industrial Core plugin. For more information about the Industrial Core plugin, see [Industrial Core plugin](https://www.servicenow.com/docs/access?context=industrial-core-plugin&version=australia&pubname=australia-operational-technology&ft:locale=en-US).
+**Note:** The OT Device Network Connection table is available with the Industrial Core plugin. For more information about the Industrial Core plugin, see Industrial Core plugin.
 
 The OT Device Network Connection \[sn\_ot\_device\_network\_connection\] table references the CI relationships \[cmdb\_rel\_ci\] table with the Connects to :: Connected by relationship type. The device-to-device connections in CI relationships and the metadata of how the source and destination communicate are stored.
 

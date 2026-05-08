@@ -52,7 +52,7 @@ Role required: password\_reset\_admin
     |Password|Enter your Active Directory domain user password.|
     |Applies to|Select the MID Server that you use to access the Active Directory server.|
 
-    **Note:** If you are using Integration Hub, from the Microsoft AD Credential store, click **Microsoft AD Connection Alias** to create a new connection. To learn more, see [Set up the Microsoft AD v2 spoke](https://www.servicenow.com/docs/access?context=setup-ms-ad-v2&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    **Note:** If you are using Integration Hub, from the Microsoft AD Credential store, click **Microsoft AD Connection Alias** to create a new connection. To learn more, see Set up the Microsoft AD v2 spoke.
 
 
 ## What to do next

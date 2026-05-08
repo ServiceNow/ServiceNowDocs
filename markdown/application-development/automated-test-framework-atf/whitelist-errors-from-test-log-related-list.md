@@ -36,7 +36,7 @@ You can allow multiple or individual client errors. For each client error, you m
 
 3.  Select the client errors to be allowed.
 
-<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d198114e109">
+<table id="choicetable_pd5_3d2_1db"><tbody><tr><td id="d198102e109">
 
 **Specific test log from the Test Log related list**
 
@@ -48,7 +48,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add client error to warning list**: Allow the client error with a report level of Warning.
 
 
-</td></tr><tr><td id="d198114e143">
+</td></tr><tr><td id="d198102e143">
 
 **Multiple test logs from the Test Log related list**
 
@@ -60,7 +60,7 @@ You can allow multiple or individual client errors. For each client error, you m
     -   **Add client error to warning list**: Allow the client error with a report level of Warning.
 
 
-</td></tr><tr><td id="d198114e180">
+</td></tr><tr><td id="d198102e180">
 
 **Specific test log from Test Result Item record**
 

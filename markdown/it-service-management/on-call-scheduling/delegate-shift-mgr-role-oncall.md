@@ -23,7 +23,7 @@ Role required: rota\_manager or admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Delegate Roles in Group**.
 
-2.  Follow the instructions to [Delegating roles](https://www.servicenow.com/docs/access?context=c_DelegateRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US) the shift manager role to a member of your shift.
+2.  Follow the instructions to Delegating roles the shift manager role to a member of your shift.
 
     **Note:** Ensure that you select the shift group where you want to delegate the shift manager role.
 

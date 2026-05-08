@@ -15,7 +15,7 @@ breadcrumb: [Reference, Service Exchange]
 
 Several types of components are installed with activation of the Service Exchange for Consumers application including tables, user roles, and business rules.
 
-**Note:** The Application Files \[sys\_metadata\] table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files \[sys\_metadata\] table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 

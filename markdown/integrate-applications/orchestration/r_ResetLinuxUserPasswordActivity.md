@@ -15,7 +15,7 @@ breadcrumb: [SSH activity pack, Orchestration activity packs, Classic Orchestrat
 
 The Reset Linux User Password activity resets the password for a given user on a Linux computer.
 
-This activity requires that the user executing the command be able to run the **chpasswd** command and, if expiring the password immediately, to run **chage** with [MID Server privileged commands](https://www.servicenow.com/docs/access?context=c_PrivilegedCommandsForMIDServer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This activity requires that the user executing the command be able to run the **chpasswd** command and, if expiring the password immediately, to run **chage** with MID Server privileged commands.
 
 This activity replaces an SSH activity by the same name available in releases prior to Istanbul. If you have a workflow created in a previous version that uses the deprecated activity, your workflow will continue to work normally after upgrading to Istanbul. However, all new workflows must use the custom version of this activity. This activity was built with the [SSH activity template](../../orchestration-activity-designer/task/t_CreateAnSSHActivity.md#), which gives workflow administrators the ability to store input and output variables in the [databus](../../orchestration-activity-designer/concept/c_OrchestrationDatabus.md#).
 

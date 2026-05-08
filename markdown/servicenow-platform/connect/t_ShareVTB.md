@@ -33,5 +33,5 @@ Role required: none
 
 [Connect](../concept/c_Connect.md)
 
-[Visual Task Boards](https://www.servicenow.com/docs/access?context=c_VisualTaskBoards&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_VisualTaskBoards]
 

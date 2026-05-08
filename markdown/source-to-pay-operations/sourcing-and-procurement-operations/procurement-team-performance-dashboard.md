@@ -152,9 +152,9 @@ View the list of buyers across the organization along with their corresponding y
  Some of the possible negotiation outcomes are contract renewal, quote, RFx, and so on. Negotiation types can be cost avoidance, standard savings, contract terms negotiations, or unsuccessful negotiations.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+</table>For information on how to work with dashboards in configurable workspaces, see Dashboards in Platform Analytics.
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For information on how to work with widgets and data visualizations in configurable workspaces, see Data visualizations in Platform Analytics.
 
 **Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
 

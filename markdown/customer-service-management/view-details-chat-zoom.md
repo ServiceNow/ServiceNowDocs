@@ -92,7 +92,7 @@ Parent
 
 Number of the chat interaction record from which this Zoom meeting was initiated. This field is automatically set to the number of the chat interaction record.
 
- You may need to configure the form to add this field. For more information, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ You may need to configure the form to add this field. For more information, see Configure the form layout.
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Number of the Notify conference call. This field is automatically set to a confe
 
  **Note:** To view more details such as the meeting URL and participant details, click the preview this record icon \(![Preview this record icon.](../image/preview-record.png)\) for this field.
 
- You may need to configure the form to add this field. For more information, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ You may need to configure the form to add this field. For more information, see Configure the form layout.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Channel Metadata Table
 
 Table containing a list of conference calls started using Notify. This field is automatically set to **Notify Conference Calls \[notify\_conference\_call\]**.
 
- You may need to configure the form to add this field. For more information, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ You may need to configure the form to add this field. For more information, see Configure the form layout.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Consumer
 
 </td><td>
 
-Consumer’s account automatically set to the **Consumer** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Consumer’s account automatically set to the **Consumer** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see Configure the form layout.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Contact
 
 </td><td>
 
-Customer contact automatically set to the **Contact** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Customer contact automatically set to the **Contact** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see Configure the form layout.
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Account
 
 </td><td>
 
-User's account automatically set to the **Account** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+User's account automatically set to the **Account** field value from the chat interaction record from which the Zoom meeting was initiated. You may need to configure the form to add this field. For more information, see Configure the form layout.
 
 </td></tr><tr><td>
 

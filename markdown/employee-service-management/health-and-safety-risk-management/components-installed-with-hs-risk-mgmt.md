@@ -57,7 +57,7 @@ Smart Assessment Engine
 
 </td><td>
 
-Enables creating smart assessments for safety inspection or audits. For more information, see [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+Enables creating smart assessments for safety inspection or audits. For more information, see Smart Assessment Engine.
 
 </td></tr></tbody>
 </table>## Roles installed

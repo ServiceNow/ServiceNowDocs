@@ -125,7 +125,7 @@ Configuration API
 
 </td><td>
 
-Script required to process the inbound request.To learn more about the configuration API, see [IBQConfigBase API - Scoped](https://www.servicenow.com/docs/access?context=IBQConfigBaseAPIBoth&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Script required to process the inbound request.To learn more about the configuration API, see IBQConfigBase API - Scoped.
 
 </td><td>
 
@@ -152,10 +152,10 @@ The security roles for the Inbound Request Configuration table \(sn\_tmt\_core\_
 |----|------|
 |sn\_tmt\_core.inbound\_queue\_admin|Create, read, update, delete, report\_view, report\_on|
 
-**Note:** Add a user with the roles sn\_tmt\_core.admin or sn\_tmt\_core.inbound\_queue\_admin, who is responsible for configuring the Inbound Request Configuration table, as a delegated developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** Add a user with the roles sn\_tmt\_core.admin or sn\_tmt\_core.inbound\_queue\_admin, who is responsible for configuring the Inbound Request Configuration table, as a delegated developer for the application where the configuration is being created. Assign the permission “Manage Update Set” \(added under Manage Developers for the respective application\). This ensures that all changes are captured in the correct scope and update sets. For details, see Delegated development and deployment.
 
 **Related topics**  
 
 
-[IBQConfigBase API - Scoped](https://www.servicenow.com/docs/access?context=IBQConfigBaseAPIBoth&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.IBQConfigBaseAPIBoth]
 

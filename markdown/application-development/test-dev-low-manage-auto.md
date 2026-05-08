@@ -15,23 +15,23 @@ Automate your ServiceNow apps.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Automation Discovery ![Automation Discovery.](../image/icon-discovery.png) Identify automation opportunities for your workflows on the ServiceNow platform.](https://www.servicenow.com/docs/access?context=automation-discovery&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+Automation Discovery ![Automation Discovery.](../image/icon-discovery.png) Identify automation opportunities for your workflows on the ServiceNow platform.
 
 </td><td>
 
-[Flows in Workflow Studio ![Flow Designer.](../image/icon-flow-designer.png) Enables process owners to automate work with the ServiceNow platform.](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Flows in Workflow Studio ![Flow Designer.](../image/icon-flow-designer.png) Enables process owners to automate work with the ServiceNow platform.
 
 </td><td>
 
-[Decision Builder ![Decision Builder.](../image/icon-decision-builder.png) Enable developers to decouple decision logic from their code by creating and maintaining decision rules.](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Decision Builder ![Decision Builder.](../image/icon-decision-builder.png) Enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
 </td></tr><tr><td>
 
-[Playbooks ![Process Automation Designer.](../image/icon-app-journey.png) Enable process owners to author cross-enterprise workflows and create a single, unified process.](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Playbooks ![Process Automation Designer.](../image/icon-app-journey.png) Enable process owners to author cross-enterprise workflows and create a single, unified process.
 
 </td><td>
 
-[Business rules ![Business rules.](../image/icon-log.png) Use business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Business rules ![Business rules.](../image/icon-log.png) Use business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.
 
 </td><td>
 

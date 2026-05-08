@@ -165,7 +165,7 @@ Non-Host CI Duplicate
 
 </td><td>
 
-Use the [Duplicate CI Remediator](https://www.servicenow.com/docs/access?context=de-duplication-tasks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to remediate the duplication.
+Use the Duplicate CI Remediator to remediate the duplication.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Dependent CI Duplicate
 
 </td><td>
 
-Use the [Duplicate CI Remediator](https://www.servicenow.com/docs/access?context=de-duplication-tasks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to remediate the duplication.
+Use the Duplicate CI Remediator to remediate the duplication.
 
 </td></tr><tr><td>
 

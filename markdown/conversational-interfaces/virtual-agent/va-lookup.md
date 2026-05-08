@@ -94,7 +94,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 ```
 
-In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see [Querying tables in script](https://www.servicenow.com/docs/access?context=c_UsingGlideRecordToQueryTables&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
+In this example, a table is queried for the first active record. The table to be queried is defined in the **Table** property found in the lookup utility control. The `setLimit()` method ensures that only a single record is returned from the database. If a record is found, it is returned. For more information on GlideRecord queries, see Querying tables in script .
 
 **Parent Topic:**[Assistant Designer utilities](va-utilities.md)
 

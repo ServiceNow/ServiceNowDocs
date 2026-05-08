@@ -16,21 +16,21 @@ The ServiceNow® Buying Group application provides information on the key  dec
 
 Buying Group provides information on the customer stakeholders involved in a purchase decision for a product or solution, supporting multiple roles and persisting before, during, and after an opportunity.
 
-See [Buying Group](https://www.servicenow.com/docs/access?context=explore-buying-group&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See Buying Group for more information.
 
 **Important:** Buying Group is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Buying Group features
 
--   **[Create separate buying groups for each product family or solution within an account](https://www.servicenow.com/docs/access?context=create-new-buying-groups&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Create separate buying groups for each product family or solution within an account**
 
     Avoid confusion or overlap and efficiently map the right stakeholders involved in different purchase decision for an account by creating separate buying groups for each product family or solution, which helps account for differing decision‑makers, influencers, and users.
 
--   **[Add buying group members with different roles](https://www.servicenow.com/docs/access?context=add-buying-group-member&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Add buying group members with different roles**
 
     Enable role‑specific engagement, and improve alignment throughout the buying process by adding buying group members with defined roles.
 
--   **[Associate multiple buying groups against an opportunity](https://www.servicenow.com/docs/access?context=associate-buying-groups-to-an-opportunity&version=australia&pubname=australia-order-management&ft:locale=en-US)​**
+-   **Associate multiple buying groups against an opportunity​**
 
     Improve stakeholder visibility, support complex deal management, and enable more targeted engagement across solutions by associating multiple buying groups with an opportunity.
 
@@ -50,7 +50,7 @@ Install Buying Group by requesting it from the ServiceNow Store. Visit the [Serv
 
 ## Related ServiceNow applications and features
 
--   **[Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Opportunity Management**
 
     The Opportunity Management application helps enable your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
 

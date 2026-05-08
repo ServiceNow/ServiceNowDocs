@@ -37,7 +37,7 @@ The Discovery Operations Monitor dashboard displays visuals for discovery perfor
 
 **Note:** Metrics are collected for the most recently completed 15-minute window. Data may not reflect activity from the current interval until collection has run. For more information, see [Configure the time interval for a Discovery Operations Monitor visualization](../task/config-interval-disco-op-mon.md).
 
-Select the info icon \(![](../image/daw-info-icon.png)\) to view dashboard details, such as the owner and usage. Select the **More options** icon \(![](../../health-log-analytics-admin/image/more-options.png)\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see [Common dashboard tasks in the in-line editor](https://www.servicenow.com/docs/access?context=common-dashboard-tasks&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Select the info icon \(![](../image/daw-info-icon.png)\) to view dashboard details, such as the owner and usage. Select the **More options** icon \(![](../../health-log-analytics-admin/image/more-options.png)\) to duplicate, share, export, schedule, or print the dashboard. Select **Edit** to access editing mode, where you can update the data source and visualization settings. For more information about editing dashboards, see Common dashboard tasks in the in-line editor.
 
 Select the **More options** icon \(![More options icon](../../health-log-analytics-operator/image/icon-menu-sow.png)\) on a visualization to export it in CSV, JPEG, PNG, or Excel format.
 

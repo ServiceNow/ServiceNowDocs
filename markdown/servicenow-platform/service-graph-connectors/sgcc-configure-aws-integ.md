@@ -17,7 +17,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
--   Install Service Graph Connector for AWS version 2.7.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Install Service Graph Connector for AWS version 2.7.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 -   Verify that you’ve completed the prerequisites for setting up AWS. See [Configure the AWS environment](../../configuration-management/task/sgc-cmdb-aws-task-overview.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
@@ -31,7 +31,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 ## Procedure
 
@@ -282,7 +282,7 @@ Region where the aggregator resource type resides. This field is available only 
         2.  Expand the Parent scheduled data import within the Import schedules list to select the **SG-AWS-Organization** import schedule.
         3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see Schedule a data import.
 
         4.  Select **Save**.
 

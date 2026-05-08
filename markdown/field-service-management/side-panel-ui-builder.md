@@ -19,5 +19,5 @@ In the following image you can see the Dispatcher Workspace contextual side pane
 
 ![Dispatcher workspace configurable components in UI Builder](../image/dispatcher-workspace-uib.png "Dispatcher Workspace in UI Builder")
 
-For more information on using tabs in UI Builder, see [Tabs Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/now-tabs/usage). For information on adding tabs, see [Add tabbed content to UI Builder pages](https://www.servicenow.com/docs/access?context=tabs-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on using tabs in UI Builder, see [Tabs Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/now-tabs/usage). For information on adding tabs, see Add tabbed content to UI Builder pages.
 

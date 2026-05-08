@@ -25,7 +25,7 @@ Role required: admin.
 -   Enable Security Operations spoke to access flows \[com.snc.secops.spoke\].
 -   Enterprise Security Case Management PAD Commons.
 
-Make sure that you have read the platform documentation on [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) before you start with this guide.
+Make sure that you have read the platform documentation on Exploring Playbook and Process Automation Designer before you start with this guide.
 
 **Parent Topic:**[Using SIR Workspace](../../secops-analyst-workspace/reference/using-sir-workspace.md)
 

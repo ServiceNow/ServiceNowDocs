@@ -33,5 +33,5 @@ The **On-Call: Assign by Acknowledgement** workflow is provided with Notify.
 
 [Key differences between on-call scheduling with NotifyNow and with Notify](../reference/r_OnCallNotifyNowNotifyDifferences.md)
 
-[Subscription-based notifications](https://www.servicenow.com/docs/access?context=c_SubscriptionBasedNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_SubscriptionBasedNotifications]
 

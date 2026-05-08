@@ -69,7 +69,7 @@ Each Normal value record specifies how to identify variations of a normal value 
 
 ## Normalized queries
 
-An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, [Filters and breadcrumbs](https://www.servicenow.com/docs/access?context=c_UsingFiltersAndBreadcrumbs&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) using the original \(raw\) value for the normalized field in the query condition.
+An administrator can configure normalization to apply to queries issued against normalized fields in lists. Select the **Normalize query** check box on the Normalization form to enable this functionality. In a list containing normalized values, Filters and breadcrumbs using the original \(raw\) value for the normalized field in the query condition.
 
 The filtered list returns records with the normal value substituted for the raw value. However, the breadcrumbs for the filter display the original query conditions.
 
@@ -80,5 +80,5 @@ Scripts that update or insert records into the database \(GlideRecord\) are norm
 **Related topics**  
 
 
-[GlideRecord](https://www.servicenow.com/docs/access?context=p_GlideServerAPIs&version=australia&pubname=australia-api-reference&section=c_GlideRecord&ft:locale=en-US)
+[bundle-crapiref.c_GlideRecord]
 

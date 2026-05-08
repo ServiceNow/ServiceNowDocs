@@ -13,7 +13,7 @@ breadcrumb: [JavaScript modules and third-party libraries, Building applications
 
 Review which common third-party libraries are supported, partially supported, or unsupported by the ServiceNow IDE and ServiceNow SDK.
 
-The following third-party libraries have been tested in the Australia release. Libraries with partial support or no support are limited by server-side scripting features that aren't currently supported by the JavaScript engine. For more information about feature support for server-side scripts, see [JavaScript engine feature support](https://www.servicenow.com/docs/access?context=javascript-engine-feature-support&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The following third-party libraries have been tested in the Australia release. Libraries with partial support or no support are limited by server-side scripting features that aren't currently supported by the JavaScript engine. For more information about feature support for server-side scripts, see JavaScript engine feature support.
 
 **Note:** The libraries tested were prioritized based on their number of Node Package Manager \(npm\) downloads, applicability to the ServiceNow AI Platform, and user interest. For questions or requests to test additional third-party libraries, see the [ServiceNow IDE, SDK, and Fluent forum](https://www.servicenow.com/community/servicenow-ide-sdk-and-fluent/bd-p/ide-sdk-fluent-forum) in the ServiceNow Community.
 

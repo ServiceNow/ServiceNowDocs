@@ -60,7 +60,7 @@ Steps
 1.  In the **Lists** tab, under **Interactions**, select **My Interactions**.
 2.  Open the required interaction record for the customer.
 3.  Select **Create Case**.
- For information on how to create an interaction, see [Create an interaction](https://www.servicenow.com/docs/access?context=create-interactions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ For information on how to create an interaction, see Create an interaction.
 
 </td></tr></tbody>
 </table>4.  In the **Create a new case** dialog box, select **Card disputes services** from the category list.

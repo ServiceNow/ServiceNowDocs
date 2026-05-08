@@ -17,7 +17,7 @@ Validate the Network IDS \(NIDS\) sensors once they're imported to prepare for t
 
 ## Before you begin
 
-It's recommended that you have the CSDM plugin installed. The Service Graph Connector aligns with the life cycle data models as per the CMDB standards. For more information, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+It's recommended that you have the CSDM plugin installed. The Service Graph Connector aligns with the life cycle data models as per the CMDB standards. For more information, see Implementing the CSDM framework in stages.
 
 Role required: cmdb\_nids\_admin
 

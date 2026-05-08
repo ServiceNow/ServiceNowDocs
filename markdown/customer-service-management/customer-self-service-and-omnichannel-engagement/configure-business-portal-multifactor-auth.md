@@ -15,7 +15,7 @@ breadcrumb: [Business and Consumer Portal, Set up self-service, Configure, Custo
 
 Enable multi-factor authentication for Business and Consumer portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
 
-Multi-factor authentication, also known as two-step verification, is a security requirement that asserts a user enter more than one set of credentials. For more information, see [Multi-factor authentication](https://www.servicenow.com/docs/access?context=mfa-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Multi-factor authentication, also known as two-step verification, is a security requirement that asserts a user enter more than one set of credentials. For more information, see Multi-factor authentication.
 
 ## Multi-factor authentication properties
 
@@ -55,7 +55,7 @@ The time in minutes, the one time code sent to user's email address is valid for
 
 </td><td>
 
-Enter a number in minutes that specifies how long the reset code is valid. See [Log on with multi-factor authentication](https://www.servicenow.com/docs/access?context=t_LogOnWithMultifactorAuth&version=australia&pubname=australia-platform-security&ft:locale=en-US).-   Type: string
+Enter a number in minutes that specifies how long the reset code is valid. See Log on with multi-factor authentication.-   Type: string
 -   Default value: 10
 -   Location: **Multi-factor Authentication** &gt; **Properties**
 
@@ -74,10 +74,10 @@ The property's value is used in the following calculation: `current time - x/2` 
 
 Add the external role sn\_customerservice.customer to the multi-factor roles.
 
-Users with this role is required to use multi-factor authentication. For more information, see [Configure user-based multi-factor criteria](https://www.servicenow.com/docs/access?context=t_RequireMultifactorAuthForAUser&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Users with this role is required to use multi-factor authentication. For more information, see Configure user-based multi-factor criteria.
 
 **Related topics**  
 
 
-[Multi-factor authentication](https://www.servicenow.com/docs/access?context=mfa-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.mfa-landing]
 

@@ -19,7 +19,7 @@ Lifecycle event activity sets represent different stages in the lifecycle event 
 
 The hr\_ActivitySet API requires the HR Lifecycle Events plugin \(com.sn\_hr\_lifecycle\_events\) and runs in the `sn_hr_le` namespace.
 
-For additional information, see [Understanding Enterprise Onboarding and Transitions](https://www.servicenow.com/docs/access?context=understanding-enterprise-onboarding-and-transitions&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information, see Understanding Enterprise Onboarding and Transitions.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

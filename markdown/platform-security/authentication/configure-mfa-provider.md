@@ -64,7 +64,7 @@ Provider
 
 </td><td>
 
-Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see [Configure Notify with Twilio](https://www.servicenow.com/docs/access?context=t_ConfigureNotifyWithTwilio&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Choose **Twilio** or **Custom**.**Note:** To configure Twilio, see Configure Notify with Twilio.
 
  When choosing **Custom**, you need to specify the following fields:
 

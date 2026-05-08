@@ -31,7 +31,7 @@ Search sources have simple and advanced configurations.
 
     Define a table within your ServiceNow instance as a source of searchable data. To learn more, see [Define a search source](../task/add-table-search-source.md).
 
-    When you create a simple search source, Service Portal uses the search engine settings configured on your instance. To learn more, see [Zing text indexing and search engine](https://www.servicenow.com/docs/access?context=c_ZingTextSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    When you create a simple search source, Service Portal uses the search engine settings configured on your instance. To learn more, see Zing text indexing and search engine.
 
 -   **Advanced**
 
@@ -42,7 +42,7 @@ Search sources have simple and advanced configurations.
 
 ## Text index groups
 
-A text index group defines how users see search results. For example, combine search results from several sources, or set the weight of certain fields. Text index groups are a ServiceNow AI Platform feature. To learn more, see [Configure multiple tables for indexing and searching](https://www.servicenow.com/docs/access?context=index-multiple-tables&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A text index group defines how users see search results. For example, combine search results from several sources, or set the weight of certain fields. Text index groups are a ServiceNow AI Platform feature. To learn more, see Configure multiple tables for indexing and searching.
 
 Associate a portal with a text index group to create common search rules and to combine search results from all search sources in the group. If you have a custom search source or portal, consider whether you want to use the base system **portal\_index\_group** text index group, or create your own text index group. The base system text index group includes the Catalog items and Knowledge tables. When a user searches for an item in Service Portal, they see combined results from these tables. To add an index group to a portal, see [Add a text index group to a portal](../task/create-text-index-group.md).
 
@@ -50,7 +50,7 @@ Associate a portal with a text index group to create common search rules and to 
 
 ## Search suggestions and typeahead search
 
-Search suggestions replaces typeahead search in Service Portal. Update the **glide.service\_portal.search\_as\_you\_type\_behavior** system property to change this behavior. For more information, see [Enable and disable search suggestions](https://www.servicenow.com/docs/access?context=enable-search-suggestions&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Service Portal search widgets automatically use whichever feature you enable.
+Search suggestions replaces typeahead search in Service Portal. Update the **glide.service\_portal.search\_as\_you\_type\_behavior** system property to change this behavior. For more information, see Enable and disable search suggestions. Service Portal search widgets automatically use whichever feature you enable.
 
 ## Search facets
 
@@ -59,7 +59,7 @@ Enable your end users to filter search results for a more meaningful result set.
 -   Fields in a table such as **Active** or **Author**.
 -   Query conditions such as **\[Updated\]\[After\]\[Last week\]**.
 
-**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://www.servicenow.com/docs/access?context=configure-single-table-for-indexing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: Configure a table for indexing and searching.
 
 Search facets render in the Faceted Search widget on the sp\_search page. In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](../task/enable-facets.md).
 
@@ -73,8 +73,8 @@ Search facets render in the Faceted Search widget on the sp\_search page. In new
 
     |API|Use|
     |---|---|
-    |[SPScriptedFacetService - Scoped](https://www.servicenow.com/docs/access?context=SPScriptedFacetServiceScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Creates a single or multi choice facet.|
-    |[SPScriptedFacet - Scoped](https://www.servicenow.com/docs/access?context=SPScriptedFacetScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Defines facet items, filters, or mapped queries for the facet.|
+    |SPScriptedFacetService - Scoped|Creates a single or multi choice facet.|
+    |SPScriptedFacet - Scoped|Defines facet items, filters, or mapped queries for the facet.|
 
 
 -   **[Define a search source](../task/add-table-search-source.md)**  

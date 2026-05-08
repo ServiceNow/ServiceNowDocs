@@ -185,11 +185,11 @@ Steps
 
 ### What to do next
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
 
-Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
 
 Install the generated client authentication and code signing certificate. For more information, see [Install the user-generated certificates](use-user-certificates-rpa.md#).
 
@@ -201,11 +201,11 @@ Install the user generated \(client authentication and code signing\) certificat
 
 Generate a client authentication and a code signing certificate. For more information, see [Generate a user certificate from KeyStore Explorer](use-user-certificates-rpa.md#).
 
-Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see [Activate the certificate-based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Activate the certificate-based authentication plugin, if you have the admin role. It is a prerequisite for registering the certificates on the instance. For more information, see Activate the certificate-based authentication.
 
-Register user-generated client authentication certificate to make it available for authentication. For more information, see [Register the CA certificate](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Register user-generated client authentication certificate to make it available for authentication. For more information, see Register the CA certificate.
 
-Map the user-generated client authentication certificate to the user. For more information, see [Map the PEM certificate to user](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Map the user-generated client authentication certificate to the user. For more information, see Map the PEM certificate to user.
 
 Role required: admin
 

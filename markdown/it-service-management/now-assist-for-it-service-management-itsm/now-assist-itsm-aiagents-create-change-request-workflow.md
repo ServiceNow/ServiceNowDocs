@@ -30,7 +30,7 @@ To access the agentic workflow:
 
 **Note:** The workflow can be accessed by the sn\_change\_write and itil role.
 
-To modify the create standard change request agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements. The create standard change request agentic workflow doesn’t have a trigger and is invoked manually.
+To modify the create standard change request agentic workflow, duplicate it, and adjust the settings according to your requirements. The create standard change request agentic workflow doesn’t have a trigger and is invoked manually.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 

@@ -37,7 +37,7 @@ Role required: api\_service\_admin, adaptive\_auth\_policy\_admin
 
 5.  From the Policy Inputs tab, select **Edit** to add the existing Filter Criteria.
 
-    You can also create a new Policy Input. For more information, see [Create policy inputs](https://www.servicenow.com/docs/access?context=create-policy-input&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    You can also create a new Policy Input. For more information, see Create policy inputs.
 
 6.  Move one or more filter criteria from the Collections list to the Policy Inputs List.![Adding one or more filter criteria to an authentication policy.](../images/authentication-filter-criteria.png)
 

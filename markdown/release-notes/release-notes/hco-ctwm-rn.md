@@ -18,13 +18,13 @@ The ServiceNow® Care Team Work Management application enables clinicians to cre
 -   Use the unified workspace landing page for managing cases and tasks.
 -   Streamline rounding workflows and reduce administrative burden by leveraging the Operational Rounding playbook.
 
-See [Care Team Work Management](https://www.servicenow.com/docs/access?context=ctwm-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See Care Team Work Management for more information.
 
 **Important:** Care Team Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Care Team Work Management features
 
--   **[Create a care team task plan](https://www.servicenow.com/docs/access?context=ctwm-create-care-team-work-plan&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Create a care team task plan**
 
     Create single or multi‑unit task plans for care teams to support ad hoc or recurring tasks. Multi‑unit work plans can include orchestration cases and tasks, while single‑unit work plans use care team cases and tasks. This feature helps teams coordinate work more efficiently across units and within their own teams.
 
@@ -52,11 +52,11 @@ Install Care Team Work Management by requesting it from the ServiceNow Store. Vi
 
 ## Related ServiceNow applications and features
 
--   **[Healthcare Operations Core](https://www.servicenow.com/docs/access?context=hcls-cto-app&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Healthcare Operations Core**
 
     ServiceNow® Healthcare Operations Core provides the foundation for Care Team Operations and enables hospitals to streamline and automate their operations by integrating with supporting service departments.
 
--   **[Care Team Mobile](https://www.servicenow.com/docs/access?context=care-team-mobile-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Mobile**
 
     ServiceNow® Care Team Mobile provides a mobile experience for hospital care teams to report issues to support departments.
 

@@ -42,8 +42,8 @@ The ServiceNow® Usage Insights application enables you to monitor how users int
 
 ## Additional references
 
--   [Usage Insights for mobile applications](https://www.servicenow.com/docs/access?context=mobile-analytics&version=australia&pubname=australia-mobile&ft:locale=en-US)
--   [Usage Insights for Service Portal](https://www.servicenow.com/docs/access?context=sp-analytics&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Usage Insights for mobile applications
+-   Usage Insights for Service Portal
 
 -   **[Exploring Usage Insights](../concept/exploring-user-exp-analytics.md)**  
 The ServiceNow® Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.

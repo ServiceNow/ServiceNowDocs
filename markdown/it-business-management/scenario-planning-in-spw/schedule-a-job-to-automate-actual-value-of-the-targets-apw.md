@@ -35,7 +35,7 @@ By default, the scheduled job runs daily at 00:00:00 AM \(System Time Zone\).
 
 5.  Click **Update**.
 
-    To learn more about scheduled jobs, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    To learn more about scheduled jobs, see Scheduled jobs.
 
 
 **Parent Topic:**[Configuring goals in Strategic Planning](../concept/configuring-goal-framework-apw.md)

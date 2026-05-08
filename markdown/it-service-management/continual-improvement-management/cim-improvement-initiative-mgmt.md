@@ -128,7 +128,7 @@ Any state other than Closed Complete
 </td></tr></tbody>
 </table>## Alignment with company strategic objectives
 
-You can verify alignment with company goals by setting the **Strategies** field on the Improvement Initiative form to one or more company [enterprise strategies](https://www.servicenow.com/docs/access?context=overview-business-planning&version=australia&pubname=australia-it-business-management&ft:locale=en-US) from the Strategic Objectives lookup list so they are linked.
+You can verify alignment with company goals by setting the **Strategies** field on the Improvement Initiative form to one or more company enterprise strategies from the Strategic Objectives lookup list so they are linked.
 
 **Note:** Only the Improvement Manager can create a strategy.
 
@@ -144,7 +144,7 @@ You can access the Improvement Register by navigating to **All** &gt; **Continua
 
 ## Embedded Performance Analytics scorecard
 
-Use the [Analytics Hub](https://www.servicenow.com/docs/access?context=c_UsePerformanceAnalyticsScorecards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) embedded in the Improvement Initiative form for continuous KPI monitoring and to track the progress of the KPI improvement during the lifecycle of the improvement. The KPI scorecard is useful so you can monitor the incremental benefits of the KPI or adjust CIM tasks and assignments to meet your improvement goal, if needed. Toggling **Show Records** displays the list of records that contribute to the KPI values shown on the scorecard. ![CIM scorecard](../image/cim-scorecard.png)
+Use the Analytics Hub embedded in the Improvement Initiative form for continuous KPI monitoring and to track the progress of the KPI improvement during the lifecycle of the improvement. The KPI scorecard is useful so you can monitor the incremental benefits of the KPI or adjust CIM tasks and assignments to meet your improvement goal, if needed. Toggling **Show Records** displays the list of records that contribute to the KPI values shown on the scorecard. ![CIM scorecard](../image/cim-scorecard.png)
 
 Scorecards are also shown for any KPIs listed in Impacted KPIs related list on the Improvement Initiative form.
 

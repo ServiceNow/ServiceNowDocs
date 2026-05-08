@@ -41,7 +41,7 @@ Role required: admin
 
 2.  Navigate to **System Definition** &gt; **Certificates**.
 
-3.  Click **New** and [create a new record](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the integration.
+3.  Click **New** and create a new record for the integration.
 
 4.  In **PEM Certificate**, paste in the certificate you downloaded and copied into the clipboard earlier.
 

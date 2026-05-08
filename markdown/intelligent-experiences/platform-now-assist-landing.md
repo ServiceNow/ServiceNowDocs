@@ -78,21 +78,21 @@ The Technology workflow includes IT applications, such as IT services and operat
 
 </td><td>
 
--   [Now Assist for Collaborative Work Management \(CWM\)](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
--   [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)
--   [Now Assist for Operational Sustainability \(formerly ESG\)](https://www.servicenow.com/docs/access?context=now-assist-for-esg&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
--   [Now Assist for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Now Assist for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=now-assist-for-irm&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Now Assist for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Operational Technology \(OT\) Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
--   [Now Assist for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
--   [Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&version=australia&pubname=australia-security-management&ft:locale=en-US)
--   [Now Assist for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
--   [Now Assist for Third-party Risk Management \(TPRM\)](https://www.servicenow.com/docs/access?context=now-assist-tprm&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Now Assist for Vulnerability Response](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&version=australia&pubname=australia-security-management&ft:locale=en-US)
+-   Now Assist for Collaborative Work Management \(CWM\)
+-   Now Assist for Configuration Management Database \(CMDB\)
+-   Now Assist for Enterprise Architecture \(EA\)
+-   Now Assist for Operational Sustainability \(formerly ESG\)
+-   Now Assist for Hardware Asset Management \(HAM\)
+-   Now Assist for Integrated Risk Management \(IRM\)
+-   Now Assist for ITOM
+-   Now Assist for IT Service Management \(ITSM\)
+-   Operational Technology \(OT\) Manager Foundation
+-   Now Assist for Operational Technology Service Management \(OTSM\)
+-   Now Assist for Security Incident Response
+-   Now Assist for Software Asset Management \(SAM\)
+-   Now Assist for Strategic Portfolio Management \(SPM\)
+-   Now Assist for Third-party Risk Management \(TPRM\)
+-   Now Assist for Vulnerability Response
 
 </td></tr><tr><td>
 
@@ -104,13 +104,13 @@ The Customer workflow includes applications that support customer service, inclu
 
 </td><td>
 
--   [Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
--   [Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
--   [Now Assist for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&version=australia&pubname=australia-order-management&ft:locale=en-US)
--   [Now Assist for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-for-psds&version=australia&pubname=australia-government-industry&ft:locale=en-US)
--   [Now Assist for Sales Force Automation \(SFA\)](https://www.servicenow.com/docs/access?context=now-assist-for-sales-and-order-management-som&version=australia&pubname=australia-order-management&ft:locale=en-US)
--   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
+-   Now Assist for Customer Service Management \(CSM\)
+-   Now Assist for Field Service Management \(FSM\)
+-   Now Assist for Financial Services Operations \(FSO\)
+-   Now Assist for Order Management
+-   Now Assist for Public Sector Digital Services \(PSDS\)
+-   Now Assist for Sales Force Automation \(SFA\)
+-   Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td></tr><tr><td>
 
@@ -122,11 +122,11 @@ The Employee workflow supports HR Service Delivery and Employee Experience featu
 
 </td><td>
 
--   [Now Assist for Employee Experience](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Now Assist for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Now Assist for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Now Assist for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Now Assist for Employee Experience
+-   Now Assist for Health and Safety
+-   Now Assist for HR Service Delivery \(HRSD\)
+-   Now Assist for Legal Service Delivery \(LSD\)
+-   Now Assist for Workplace Service Delivery \(WSD\)
 
 </td></tr><tr><td>
 
@@ -156,9 +156,9 @@ The Finance &amp; Supply Chain workflow supports purchase requisitions, sourcing
 
 </td><td>
 
--   [Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
--   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
--   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+-   Now Assist for Accounts Payable Operations \(APO\)
+-   Now Assist for Supplier Lifecycle Operations \(SLO\)
+-   Now Assist for Sourcing and Procurement Operations \(SPO\)
 
 </td></tr><tr><td>
 
@@ -170,7 +170,7 @@ The App Engine workflow supports App Engine products and offerings so that you c
 
 </td><td>
 
-[Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Now Assist for App Engine
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ The Vault workflow supports generating custom data patterns from text descriptio
 
 </td><td>
 
-[Now Assist for Vault](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Now Assist for Vault
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ The Other workflow accommodates additional plugins and skills that don't fit int
 
 </td><td>
 
-[Now Assist for Zero Copy Connector](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Now Assist for Zero Copy Connector
 
 </td></tr></tbody>
 </table>For a complete list of Now Assist skills and their workflows, see [Now Assist skills](../../now-assist-skills/concept/now-assist-skills.md).

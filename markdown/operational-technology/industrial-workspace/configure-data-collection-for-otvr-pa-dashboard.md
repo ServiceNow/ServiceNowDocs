@@ -31,7 +31,7 @@ Role required: admin
 
     -   \[PA OT VR\] Historical Vulnerability Data Collection
 
-        **Note:** The \[PA OT VR\] Historical Vulnerability Data Collection job is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information about historical data, see [Collect historical data](https://www.servicenow.com/docs/access?context=t_RunHistoricalDataCollection&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        **Note:** The \[PA OT VR\] Historical Vulnerability Data Collection job is an on-demand job that you only need to execute once. After the historical data is collected, the daily data collection jobs run on a scheduled time every day. For more information about historical data, see Collect historical data.
 
     -   \[PA OT VR\] Daily Collection for Remediation Tasks
     -   \[PA OT VR\] Daily Collection for Vulnerable Items 1

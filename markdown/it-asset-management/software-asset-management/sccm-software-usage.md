@@ -22,11 +22,11 @@ One of the following Microsoft SCCM Software Usage plugins must be installed to 
 
 The Integration — Microsoft SCCM 2016 plugin is compatible with SCCM version 1606, 1906, 1910, and 2002.
 
-**Important:** Both Microsoft SCCM plugins will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the[ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated one of the Microsoft SCCM plugins on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration from the Microsoft SCCM plugin to the Service Graph connector. See [Service Graph connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information on the Service Graph connector.
+**Important:** Both Microsoft SCCM plugins will be deprecated in the Tokyo release. If you are integrating with SCCM for the first time, request and install the Service Graph connector for Microsoft SCCM application from the[ServiceNow Store](https://store.servicenow.com/) instead. If you have already activated one of the Microsoft SCCM plugins on your ServiceNow instance, use the Migration Readiness Tool for Service Graph Connector for SCCM store application to prepare your instance for migration from the Microsoft SCCM plugin to the Service Graph connector. See Service Graph connector for Microsoft SCCM for more information on the Service Graph connector.
 
 The SCCM integration plugin installs [several components](../reference/sccm-sam-components.md).
 
-After the SCCM usage plugin is [activated and configured](../task/configure-sccm-sam.md), a scheduled import runs monthly to [bring SCCM software usage data into your instance](https://www.servicenow.com/docs/access?context=c_MicrosoftSCCMIntegration&version=australia&pubname=australia-platform-administration&ft:locale=en-US). The usage data is then mapped to Software Usage table. During the scheduled job, a SQL query is executed.
+After the SCCM usage plugin is [activated and configured](../task/configure-sccm-sam.md), a scheduled import runs monthly to bring SCCM software usage data into your instance. The usage data is then mapped to Software Usage table. During the scheduled job, a SQL query is executed.
 
 The scheduled import runs once a month, but you can run the import on demand by clearing the **Conditional** option on the Scheduled Data Import form. However, the data is always pulled from the previous month, so there won't be a change in the data until the following scheduled import.
 
@@ -51,7 +51,7 @@ You can also pull in user data from SCCM. User data is compared to the user\_nam
 
 Duplicate usage information cannot be created for the same CI, user, product, or publisher values in the same month and year.
 
-You can also import usage information using ServiceNow [import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) feature.
+You can also import usage information using ServiceNow import sets feature.
 
 **Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
 

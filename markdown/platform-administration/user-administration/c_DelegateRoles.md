@@ -19,7 +19,7 @@ Role delegators are users responsible for assigning roles to other users within 
 
 The **Group Manager Change** business rule, which is disabled by default, automatically grants the role\_delegator role to a user who is designated manager of a group in the **Manager** field on the **Group** form. The role is removed when the user is no longer the manager of the group.
 
-Activate the business rule to take advantage of it. For more information on **Business rules**, see [Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Activate the business rule to take advantage of it. For more information on **Business rules**, see Classic Business rules.
 
 ## Reviewing Roles and Role Changes
 

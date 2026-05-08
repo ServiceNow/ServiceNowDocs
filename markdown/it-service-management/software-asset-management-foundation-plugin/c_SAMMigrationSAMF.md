@@ -15,7 +15,7 @@ breadcrumb: [Software Asset Management Foundation plugin Administration, Softwar
 
 Migrate from the Software Asset Management plugin to the Software Asset Management Foundation plugin to take advantage of more powerful features. Manual actions by the customer are required after plugin activation.
 
-After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Foundation \(com.snc.sams\) plugin requires a [Overwrite customizations for Software Asset Management migration](https://www.servicenow.com/docs/access?context=t_MigrateSAMCustom&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) to be performed by the customer.
+After automatic changes are performed during plugin activation, successful migration from the Software Asset Management \(com.snc.software\_asset\_management\) plugin to the Software Asset Management Foundation \(com.snc.sams\) plugin requires a Overwrite customizations for Software Asset Management migration to be performed by the customer.
 
 Customizations to forms and lists may need to be manually overwritten by the customer after plugin activation. In addition, certain fields in software models, software entitlements, user/device allocations forms require manual configuration by the customer after plugin activation.
 

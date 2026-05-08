@@ -25,7 +25,7 @@ Role required: portal admin and sp\_admin
 
 2.  Edit the mobile UI rules to suit your needs.
 
-    See [Mobile UI Rules](https://www.servicenow.com/docs/access?context=create-mobile-ui-rule&version=australia&pubname=australia-mobile&ft:locale=en-US) and configure the following field values.
+    See Mobile UI Rules and configure the following field values.
 
     **Note:** The my **Favorites** widget syncs instantly with other widgets in real-time on the web. However, when adding favorites items across devices \(example: mobile to the web\), a manual refresh is required to reflect the latest changes — **Reload the page** on web or **Pull to refresh** on mobile.
 
@@ -64,5 +64,5 @@ The content type display is configured for Mobile.
 
 [Now Mobile app](../../../administer/mobile-employee/concept/mobile-employee-experience.md)
 
-[Mobile plugins](https://www.servicenow.com/docs/access?context=sg-mobile-plugins&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[bundle-mobile.sg-mobile-plugins]
 

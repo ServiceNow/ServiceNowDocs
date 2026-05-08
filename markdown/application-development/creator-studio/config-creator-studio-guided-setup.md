@@ -219,7 +219,7 @@ Role required: admin
     1.  **When to send**
     2.  **Who will receive**
     3.  **What it will contain**
-    For more information on editing notifications on the ServiceNow AI Platform, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on editing notifications on the ServiceNow AI Platform, see Create an email notification.
 
 5.  Update the record to save your changes.
 
@@ -303,7 +303,7 @@ The app must already be created before you can change the table for it.
 
 For more information on changing an app's table, see [Changing the table for an app](../concept/creator-studio-admin-app-table-about.md).
 
-Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Role required: admin, app configurator \(sn\_creatorstudio.app\_configurator\), or Creator Studio configuration admin \(sn\_creatorstudio.configuration\_admin\). For more information on working with granular roles, see Granular admin roles.
 
 ### Procedure
 

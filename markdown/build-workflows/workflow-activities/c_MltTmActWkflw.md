@@ -26,5 +26,5 @@ Timer scratchpads entries hold these values:
 **Related topics**  
 
 
-[Timer workflow activities](https://www.servicenow.com/docs/access?context=c_TimerActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_TimerActivities]
 

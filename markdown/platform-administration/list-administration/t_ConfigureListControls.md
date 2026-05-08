@@ -166,7 +166,7 @@ Disable Natural Language Query \(NLQ\)
 
 </td><td>
 
-Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://www.servicenow.com/docs/access?context=natural-language-query&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).**Note:** When the system property **com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
+Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see Natural Language Query.**Note:** When the system property **com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
 
 </td></tr><tr><td>
 

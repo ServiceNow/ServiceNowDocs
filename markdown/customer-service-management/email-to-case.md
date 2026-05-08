@@ -13,7 +13,7 @@ breadcrumb: [Email channel, Enable communication channels, Configure, Customer S
 
 Set up email addresses that customers can use to submit cases to your team. To help direct cases to specific teams, you can designate email addresses to specific products. While agents work on the cases, they can also email customers with updates and proposed solutions.
 
-Customer Service Management uses the [Email Accounts application](https://www.servicenow.com/docs/access?context=c_EmailAccounts&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to create and maintain email accounts. The system administrator can create multiple incoming email addresses that customers can use to communicate with customer service agents. The system administrator can also create one outgoing email address.
+Customer Service Management uses the Email Accounts application to create and maintain email accounts. The system administrator can create multiple incoming email addresses that customers can use to communicate with customer service agents. The system administrator can also create one outgoing email address.
 
 After the incoming and outgoing email addresses are created, the system administrator can set the following properties for the email communication channel:
 
@@ -28,5 +28,5 @@ The system administrator can also create a channel configuration to associate an
 
 [Configure an email address for a product](../task/t_ConfigureEmailCommunication.md)
 
-[Email accounts](https://www.servicenow.com/docs/access?context=c_EmailAccounts&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_EmailAccounts]
 

@@ -47,15 +47,15 @@ Edit or assign an unassigned remediation task directly from the list of records.
 
 5.  In the menu that is displayed, choose one to continue.
 
-<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d110471e175">
+<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d110467e175">
 
 Option
 
-</th><th align="left" id="d110471e178">
+</th><th align="left" id="d110467e178">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110471e184">
+</th></tr></thead><tbody><tr><td id="d110467e184">
 
 **Edit**
 
@@ -65,7 +65,7 @@ In the Extend by days field on the Edit Remediation Task screen that is displaye
 
 Tap the Send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d110471e208">
+</td></tr><tr><td id="d110467e208">
 
 **Assign**
 
@@ -80,15 +80,15 @@ On the Issue Assignment screen that is displayed, tap the **Assignment Group** a
 
     ![Remediation task record.](../image/mobile-remed-task-record.jpg)
 
-<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d110471e251">
+<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d110467e251">
 
 Option
 
-</th><th align="left" id="d110471e254">
+</th><th align="left" id="d110467e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110471e260">
+</th></tr></thead><tbody><tr><td id="d110467e260">
 
 **Details tab**
 
@@ -103,7 +103,7 @@ Tap the Issue field to expand it. On the Issue screen, a list of records is disp
 -   Navigate back to the record on the Remediation Task screen and tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d110471e289">
+</td></tr><tr><td id="d110467e289">
 
 **Activity Stream tab**
 
@@ -113,7 +113,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( ![Menu icon.](../../grc-common/image/mobile-top-menu.png)\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d110471e319">
+</td></tr><tr><td id="d110467e319">
 
 **Screen icons at the bottom of the screen.**
 

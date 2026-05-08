@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---

@@ -765,9 +765,9 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must add this system property to set the desired value. For more information, see [Add this system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+You must add this system property to set the desired value. For more information, see Add this system property.
 
-When you synchronize third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail. For more information, see [Integrate Coaching With Learning with third-party learning management systems](https://www.servicenow.com/docs/access?context=integrate-learning-third-party-configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+When you synchronize third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail. For more information, see Integrate Coaching With Learning with third-party learning management systems.
 
 </td></tr><tr><td>
 
@@ -778,7 +778,7 @@ com.snc.process\_flow.reporting.serialized.val\_size\_limit
 Specify the number of bytes allowed for runtime values in each step in the flow execution details. To prevent truncation, set the value to an integer equal to or less than zero.-   **Type:** integer
 -   **Default value:** 16384
 
- **Note:** When you synchronize third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail. For more information, see [synchronize](https://www.servicenow.com/docs/access?context=integrate-learning-third-party-configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ **Note:** When you synchronize third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization will fail. For more information, see synchronize.
 
 </td></tr></tbody>
 </table>**Important:** This feature is available with the Workforce Optimization for Field Service \(com.snc.app\_fsm\_wfo\) from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for Field Service](../task/activate-wfo-fsm.md).

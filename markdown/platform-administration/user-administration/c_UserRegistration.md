@@ -65,5 +65,5 @@ Role required: admin
 
 ### What to do next
 
-Request activation of the [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) \(`com.glide.explicit_roles`\) plugin. The Explicit Roles plugin creates two roles to differentiate between internal and external users.
+Request activation of the Explicit Roles \(`com.glide.explicit_roles`\) plugin. The Explicit Roles plugin creates two roles to differentiate between internal and external users.
 

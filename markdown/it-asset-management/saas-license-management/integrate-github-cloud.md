@@ -145,7 +145,7 @@ To create a GitHub Enterprise Cloud integration profile, request the Software As
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **GitHub Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **GitHub Spoke** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 If you're upgrading from Yokohama or Zurich release, then you must reconfigure your GitHub Enterprise Cloud integration profile.
 
@@ -298,7 +298,7 @@ Use MID Server
 
 Option that enables your ServiceNow instance to use a MID Server for communication with your GitHub Enterprise Cloud applications.-   If your instance requires a MID Server, set this field to `true`.
 -   If your instance doesn’t require a MID Server, leave this field empty.
-**Important:** To enable this option, you must already have a MID Server set up on your instance. See [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for detailed instructions.
+**Important:** To enable this option, you must already have a MID Server set up on your instance. See MID Server for detailed instructions.
 
 </td></tr><tr><td>
 

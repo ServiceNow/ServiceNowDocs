@@ -15,7 +15,7 @@ Configure the Manage Documents activity UI in Information Request Playbook to al
 
 ## Before you begin
 
-This task requires the Document Management \[com.snc.platform\_document\_management\] plugin to be active on your instance. If Document Management \[com.snc.platform\_document\_management\] is not active on your instance, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for instructions.
+This task requires the Document Management \[com.snc.platform\_document\_management\] plugin to be active on your instance. If Document Management \[com.snc.platform\_document\_management\] is not active on your instance, see Activate a plugin for instructions.
 
 Role required: admin
 

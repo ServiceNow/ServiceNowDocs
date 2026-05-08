@@ -26,7 +26,7 @@ There are two conditions to create a CI relationship in DPM.
 1.  The business capability must be created.
 2.  The business capability must be related to a service.
 
-You can create a business capability by navigating to **All** &gt; **CSDM** &gt; **Design** &gt; **Business Capability**. For information about configuration item \(CI\) relationships, see [Create or edit a CI relationship](https://www.servicenow.com/docs/access?context=t_CreateCIRelationship&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You can create a business capability by navigating to **All** &gt; **CSDM** &gt; **Design** &gt; **Business Capability**. For information about configuration item \(CI\) relationships, see Create or edit a CI relationship.
 
 ## Procedure
 

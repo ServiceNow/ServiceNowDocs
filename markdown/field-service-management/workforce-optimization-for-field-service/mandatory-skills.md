@@ -27,5 +27,5 @@ Mandatory skills are an optional feature. Mandatory skills can be identified on 
 **Related topics**  
 
 
-[Use the assignment workbench](https://www.servicenow.com/docs/access?context=case-assignment-workbench&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.case-assignment-workbench]
 

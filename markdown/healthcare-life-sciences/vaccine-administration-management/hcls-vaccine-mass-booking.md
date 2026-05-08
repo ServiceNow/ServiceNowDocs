@@ -85,7 +85,7 @@ If there’s no appointment slot available at the user’s preferred location, i
     -   Long-term health problem with heart disease, lung disease, asthma, kidney disease, metabolic disease like diabetes, anemia, or other blood disorder \(Yes/No\)
     **Note:** This data is required to book appointments for users. If users book the appointments in the self-service portal, the users provide this information at the time of booking. When a user with the admin role mass-books appointments for users, the data must be imported instead.
 
-    For more information about importing data, see [Import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information about importing data, see Import sets.
 
 3.  Navigate to **Vaccine Administration Management** &gt; **Administration** &gt; **Mass Booking Configurations** and click **New**.
 

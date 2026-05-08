@@ -15,7 +15,7 @@ breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic
 
 Several types of components are installed with activation of the Microsoft Azure DevOps integration for Agile Development application, including user roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 

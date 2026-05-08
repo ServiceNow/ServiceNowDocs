@@ -74,9 +74,9 @@ After a successful configuration, the system generates a link, and then shares t
 
     1.  Navigate to **Roles** and create a role. For example: remote\_worker.
 
-    2.  Create a user with a valid email id and mobile number. To know how to create a user see, [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    2.  Create a user with a valid email id and mobile number. To know how to create a user see, Create a user.
 
-    3.  Assign the role to the user. To know how to assign the role to the user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    3.  Assign the role to the user. To know how to assign the role to the user, see Assign a role to a user.
 
     4.  To create a role filter criteria, navigate to **All** &gt; **Adaptive Authentication** &gt; **Role Filter Criteria**, create a new filter **remoteworkerrole** and condition **Role is remote\_worker**.
 

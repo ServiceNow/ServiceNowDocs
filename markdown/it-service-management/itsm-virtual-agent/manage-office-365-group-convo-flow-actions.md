@@ -17,7 +17,7 @@ ITSM Virtual Agent helps you manage Microsoft Office 365 Groups using actions in
 
 Natural Language Understanding \(NLU\) is used to identify and trigger the Microsoft Office 365 Group action that a user wants to perform.
 
-Requirement: [Microsoft Azure AD spoke](https://www.servicenow.com/docs/access?context=set-up-azure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.sn.azure\_ad.spoke\) plugin
+Requirement: Microsoft Azure AD spoke \(com.sn.azure\_ad.spoke\) plugin
 
 **Note:** If the Microsoft Office 365 topics are duplicated in a different scope than ITSM VA Conversations, script logic can be affected and cause errors.
 

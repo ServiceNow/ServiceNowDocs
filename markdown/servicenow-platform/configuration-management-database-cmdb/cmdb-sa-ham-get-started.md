@@ -29,7 +29,7 @@ Role required: sn\_cmdb\_admin
 
 Selecting model categories defines which hardware asset types CMDB success advisor monitors for HAM data quality. The selected categories determine the scope of the HAM advisor dashboard, including the KPIs, data integrations, and settings that are tracked.
 
-**Important:** To determine which model categories to select, review the count of operational assets under each category in the Hardware Asset Workspace, or consult with your IT Asset Management \(ITAM\) or HAM administrator for guidance. See [Hardware Asset Workspace](https://www.servicenow.com/docs/access?context=using-ham-workspace&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+**Important:** To determine which model categories to select, review the count of operational assets under each category in the Hardware Asset Workspace, or consult with your IT Asset Management \(ITAM\) or HAM administrator for guidance. See Hardware Asset Workspace.
 
 ## Procedure
 

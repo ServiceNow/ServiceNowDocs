@@ -17,7 +17,7 @@ Define the approval group, such as a contract or finance group, and the associat
 
 [Define the approval rule](create-approval-rules.md) associated with this approval group.
 
-Groups are set up in the Group \[sys\_user\] table. For more information on creating groups, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Groups are set up in the Group \[sys\_user\] table. For more information on creating groups, see Create a user group.
 
 Role required: sn\_adv\_appr\_mgmt.approval\_rule\_admin, sn\_adv\_appr\_mgmt.approval\_rule\_writer
 

@@ -15,7 +15,7 @@ breadcrumb: [Explore, Virtual Agent API, Build and deploy, Virtual Agent, Conver
 
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the store app version number of the Virtual Agent API.
 
-For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see [Virtual Agent Bot Integration API](https://www.servicenow.com/docs/access?context=bot-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see Virtual Agent Bot Integration API.
 
 ## Version 4.3.0
 
@@ -340,7 +340,7 @@ For information about the request and response templates for Virtual Agent API, 
 -   Virtual Agent API supports file uploads up to 1 GB in size from a private URL. The primary bot must pass the user ID, optional provider application ID, and the name of the file. Observe the following guidelines:
     -   Provider application ID is optional.
     -   The user ID and provider application ID should be sent before the file name in the payload.
-    -   The end user must have a role specified in the **glide.attachment.role** property. For more information, see [Require a role to attach files](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   The end user must have a role specified in the **glide.attachment.role** property. For more information, see Require a role to attach files.
     -   Basic or OAuth authentication is supported, but Message Authentication is not.
 -   Example message payload from the primary bot:   
 

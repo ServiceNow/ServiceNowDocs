@@ -23,7 +23,7 @@ In Workflow Studio, decisions are executed as part of the **Make a decision** fl
 
 ## Decision tables in APIs
 
-In scripts, decision tables are executed using API calls to the decision table with the GetDecision\(\) or GetDecisions\(\) methods from the DecisionTableAPI. For more information, see [DecisionTableAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=DecisionTableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+In scripts, decision tables are executed using API calls to the decision table with the GetDecision\(\) or GetDecisions\(\) methods from the DecisionTableAPI. For more information, see DecisionTableAPI - Scoped, Global.
 
 **Parent Topic:**[Using decision tables](using-decision-builder.md)
 

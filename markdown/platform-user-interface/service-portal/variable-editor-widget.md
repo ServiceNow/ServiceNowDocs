@@ -17,7 +17,7 @@ The Variable Editor widget allows you to change the specifications you chose for
 
 You can embed the variable editor widget in the shopping cart widget, to allow users to edit and make changes to their cart items. The options included in the widget are determined by the specific catalog item and the variables that have been configured for it.
 
-For more information on the service catalog variables that are available in Service Portal, see [service catalog variable types](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on the service catalog variables that are available in Service Portal, see service catalog variable types.
 
 ![Variable Editor widget](../image/WidgetVariableEditor.png "Variable Editor widget")
 

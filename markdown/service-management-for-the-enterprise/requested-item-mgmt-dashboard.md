@@ -15,7 +15,7 @@ Track the progress of purchase orders, transfer orders, and software assignments
 
 **Important:**
 
-Starting in Xanadu release, the Request Management Platform Analytics Solutions dashboards are deprecated. Users can use the [Request dashboard](https://www.servicenow.com/docs/access?context=request&version=australia&pubname=australia-it-service-management&ft:locale=en-US) to view the actionable data visualizations that help in improving the business processes and practices.
+Starting in Xanadu release, the Request Management Platform Analytics Solutions dashboards are deprecated. Users can use the Request dashboard to view the actionable data visualizations that help in improving the business processes and practices.
 
 ![Animated tour through the tabs of the Requested Item Management dashboard](../image/requested-item-mgmt-dashboard.gif "Request Management - Requested Item dashboard")
 

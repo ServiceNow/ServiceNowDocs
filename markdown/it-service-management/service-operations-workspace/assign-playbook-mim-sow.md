@@ -42,7 +42,7 @@ Role required: admin
     -   **Available Playbooks**: List of playbooks that are available to be assigned to Major Incident Management.
 4.  On the configuration page, you can use the following options to assign a playbook to Major Incident Management.
 
-<table id="choicetable_ttg_gsk_gbc"><tbody><tr><td id="d351549e188">
+<table id="choicetable_ttg_gsk_gbc"><tbody><tr><td id="d351524e188">
 
 **Recommended playbooks**
 
@@ -56,7 +56,7 @@ You can assign and use any or both playbooks with Major Incident Management base
 
 Select **View details** to view the playbook information and then select **Assign to MIM** to assign the playbook to Major Incident Management.
 
-</td></tr><tr><td id="d351549e262">
+</td></tr><tr><td id="d351524e262">
 
 **Available playbooks**
 
@@ -64,7 +64,7 @@ Select **View details** to view the playbook information and then select **Assig
 
 Select the **Available playbooks** tab, then select **Playbook** and then select **Assign**. The selected playbook is assigned to Major Incident Management and is added to the list of assigned playbooks.
 
-</td></tr><tr><td id="d351549e283">
+</td></tr><tr><td id="d351524e283">
 
 **Create new playbook**
 

@@ -130,7 +130,7 @@ Log mapping
 Indicates that you want to write debug statements to the system log during the staging phase. Log mapping provides an easier debugging of mapping. Recommended when first configuring bulk imports during the testing phase.
 
 </td></tr></tbody>
-</table>    **Note:** For more information on credentials and aliases, see [Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+</table>    **Note:** For more information on credentials and aliases, see Introduction to credentials, connections, and aliases.
 
     For more information on domain separation, see [Domain Separation and HR Service Delivery](../concept/hr-domain-separation.md).
 
@@ -357,10 +357,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>
@@ -457,10 +457,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>
@@ -547,10 +547,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>
@@ -651,10 +651,10 @@ Import type
 
 </td><td>
 
-The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See [Workflows used as subflows](https://www.servicenow.com/docs/access?context=workflows-as-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Flow action: The Flow Designer action that drives the import step. See [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Workflow: An automated way to provide a multi-step process. See [Workflow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
--   Script: Use to automate the import step. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The import type that drives the source step. You can select the method that drives the source step. -   Sub flow: A workflow launched by another workflow to drive the import step. See Workflows used as subflows.
+-   Flow action: The Flow Designer action that drives the import step. See Flow Designer.
+-   Workflow: An automated way to provide a multi-step process. See Workflow.
+-   Script: Use to automate the import step. See Scripts.
 
 
 </td></tr><tr><td>

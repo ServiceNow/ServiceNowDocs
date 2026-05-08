@@ -75,11 +75,11 @@ Recommended Actions is available across the CRM solution, with each product cont
 **Related topics**  
 
 
-[Recommended Actions](https://www.servicenow.com/docs/access?context=configure-nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.configure-nba]
 
-[Configuring the Recommended Actions application](https://www.servicenow.com/docs/access?context=configure-recommended-actions&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.configure-recommended-actions]
 
-[Configuring AI search in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-configuring-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.ra-configuring-ai-search]
 
-[Example configurations of recommended actions](https://www.servicenow.com/docs/access?context=recommended-actions-use-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.recommended-actions-use-case]
 

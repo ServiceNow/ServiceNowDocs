@@ -122,5 +122,5 @@ When you activate all the Hardware Asset Management solutions along with the OT 
 
 [Hardware Asset Management integration with Zero Touch Mobility](ham-for-ztm.md)
 
-[Telecommunications Network Inventory integration with Hardware Asset Management](https://www.servicenow.com/docs/access?context=integration-with-hardware-asset-management&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US)
+[bundle-telninv.integration-with-hardware-asset-management]
 

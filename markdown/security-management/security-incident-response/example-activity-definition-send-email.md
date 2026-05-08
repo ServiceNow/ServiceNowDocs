@@ -31,7 +31,7 @@ All the input fields are shown within the automation plan section. Each input fi
 
 -   **Admin visibility only**: when set to admin, only admin can view it.
 -   **Include in standard model**: when set to view in the standard modal, it appears only in the properties modal.
--   **Include in standard model and configuration panel**: when set to view in the standard modal and the configuration panel, it appears in the PAD configuration panel as well as in the properties modal. For more information, see [Activity definitions](https://www.servicenow.com/docs/access?context=activity-definitions&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   **Include in standard model and configuration panel**: when set to view in the standard modal and the configuration panel, it appears in the PAD configuration panel as well as in the properties modal. For more information, see Activity definitions
 
 You can define the input fields at the time of activity definition itself, provided you don't have any need to change these values at the time of configuration. This helps the business process owner save time while configuring an activity within a process.
 

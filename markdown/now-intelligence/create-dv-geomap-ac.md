@@ -203,7 +203,7 @@ Set color type
 
 Type of color scheme to apply to the component. The choices are:
 
--   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Default: A color or set of colors that come from the UX Theme that is applied to the instance. For more information, see Working with themes in Next Experience.
 -   Color range: A spectrum of colors between a color for the lowest value and a color for the highest value. You can select these colors from a set of icons, from a list of colors including their icons, or by searching for the color name or hexadecimal value. The colors are taken from the Color Definition \[sys\_report\_color\] table.
 
 

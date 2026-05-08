@@ -74,11 +74,11 @@ With Channel Support Operations for Manufacturing Commercial Operations, you can
 </table>**Related topics**  
 
 
-[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.c_CustomerServiceManagement]
 
-[Order management](https://www.servicenow.com/docs/access?context=explore-order-management&version=australia&pubname=australia-order-management&ft:locale=en-US)
+[bundle-omgmt.explore-order-management]
 
-[Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
+[bundle-sebrdg.tmt-service-bridge-both-landing-page]
 
 [Components installed with additional plugins](../reference/mco-components-installed-with-other-product-workflows.md)
 

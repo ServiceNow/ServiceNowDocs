@@ -19,7 +19,7 @@ Discovery identifies and classifies information about ACE load balancers.
 
 ## Credentials
 
-Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure SNMP credentials and SSH credentials.
 
 ## Classifier, pattern, and probe
 

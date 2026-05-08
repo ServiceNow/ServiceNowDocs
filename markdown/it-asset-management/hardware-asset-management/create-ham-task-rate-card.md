@@ -19,7 +19,7 @@ Create a task rate card to define the type of task and the method of calculating
 
 Role required: asset\_admin
 
-Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see [Activate Cost Management](https://www.servicenow.com/docs/access?context=t_ActivatingCostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+Activate the ServiceNow® Cost Management \(com.snc.cost\_management\) plugin. For more information, see Activate Cost Management.
 
 ## Procedure
 
@@ -109,7 +109,7 @@ Filter to run on the table selected to determine whether this rate card applies 
 
 ## Result
 
-After a task rate card is defined for a task, expense lines are created by the **Use time worked** value. When you select the Use time worked field for a task rate card, the time worked records created against users and labor rate are used to calculate expense lines. For more information, see [Process task rate cards](https://www.servicenow.com/docs/access?context=r_ProcessTaskRateCards&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+After a task rate card is defined for a task, expense lines are created by the **Use time worked** value. When you select the Use time worked field for a task rate card, the time worked records created against users and labor rate are used to calculate expense lines. For more information, see Process task rate cards.
 
 **Parent Topic:**[Configure the Total Cost of Ownership of assets](../concept/configure-ham-tco.md)
 

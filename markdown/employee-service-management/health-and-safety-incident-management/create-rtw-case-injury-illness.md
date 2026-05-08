@@ -33,15 +33,15 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 3.  Open an injury and illness record to add the return to work case to.
 
-<table id="choicetable_case"><thead><tr><th align="left" id="d138467e145">
+<table id="choicetable_case"><thead><tr><th align="left" id="d138471e145">
 
 Option
 
-</th><th align="left" id="d138467e148">
+</th><th align="left" id="d138471e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d138467e154">
+</th></tr></thead><tbody><tr><td id="d138471e154">
 
 **From a safety incident**
 
@@ -53,7 +53,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to add the case to.
 
 
-</td></tr><tr><td id="d138467e190">
+</td></tr><tr><td id="d138471e190">
 
 **From an injury and illness list**
 

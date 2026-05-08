@@ -29,9 +29,9 @@ HR Service Delivery is used by the enterprise HR department. An enterprise HR de
 HR Service Delivery enhances and supports your enterprise. The relationships between your employees, IT, and the HR department are supported in numerous ways:
 
 -   Employees can use the HR Service Portal or catalog to submit questions and other requests to the HR department.
--   If you use the Connect Support feature, employees can chat with an HR agent who is monitoring the HR chat queue. See [Connect Support](https://www.servicenow.com/docs/access?context=c_ConnectSupport&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   If you use the Connect Support feature, employees can chat with an HR agent who is monitoring the HR chat queue. See Connect Support.
 
-    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 -   HR staff can create, manage, and view HR cases to answer questions and process the requests that employees submit.
 -   HR managers can run reports and view overview information to monitor and manage work done by the HR department.

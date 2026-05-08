@@ -61,7 +61,7 @@ This integration has been tested with:
 
 ## MID Server
 
-This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service when the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. See [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information about MID Servers.
+This integration requires an installed and configured MID Server in your ServiceNow AI Platform® instance to connect to the Splunk service when the Splunk server is deployed within your corporate network. If you are using the Splunk Cloud service, a MID Server is not required. See MID Server for more information about MID Servers.
 
 ## References
 

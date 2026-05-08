@@ -59,7 +59,7 @@ Use this procedure to enable the system property required to configure live upda
 
 2.  Add a system property named **glide.lists.live\_list\_enabled**.
 
-    For more information on adding a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding a system property, see Add a system property.
 
 3.  Set the Value to **true**.
 

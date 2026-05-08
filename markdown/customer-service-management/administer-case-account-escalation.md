@@ -68,7 +68,7 @@ The CSM Agent Workspace case list shows these escalation details:
 -   Action status: Indicates the status of the case.
 -   Contact: Shows the contact person for the case.
 
-In addition to defining the field indicator and field highlight of an escalated case or account, the severity can be used when configuring SLAs. To configure additional escalation severity definitions, the system administrator must configure a new style with the desired color. For more information, see [Highlight list fields](https://www.servicenow.com/docs/access?context=highlight-list-fields-platform&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+In addition to defining the field indicator and field highlight of an escalated case or account, the severity can be used when configuring SLAs. To configure additional escalation severity definitions, the system administrator must configure a new style with the desired color. For more information, see Highlight list fields.
 
 ## Escalation SLAs
 

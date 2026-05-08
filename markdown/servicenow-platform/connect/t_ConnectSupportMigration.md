@@ -35,6 +35,6 @@ If you do not close out existing help desk chats, your metrics and chat queue wi
 
 2.  Hide the Social IT application.
 
-    Activating Connect Support does not completely eliminate the legacy chat module. To prevent users from using the legacy chat, hide the Social IT application menu. For more information, see [Enable or disable an application menu or module](https://www.servicenow.com/docs/access?context=t_EnDisableAppMenuOrMod&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) .
+    Activating Connect Support does not completely eliminate the legacy chat module. To prevent users from using the legacy chat, hide the Social IT application menu. For more information, see Enable or disable an application menu or module .
 
 

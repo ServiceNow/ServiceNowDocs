@@ -26,7 +26,7 @@ A user with the admin role can create assignment groups of the type **Agile Team
 -   New customers: After an agile group is created, you can request your admin to [add](../task/add-group-members-to-group.md) members to the group.
 -   Existing customers: If you upgraded to the Australia release, a user with the scrum\_admin role or the scrum\_master role can add members to your agile group.
 
-    **Note:** You can restrict this function just to the admin by creating the **scrum.disallow\_scrum\_add\_group\_member** property and setting it to **true**. For information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    **Note:** You can restrict this function just to the admin by creating the **scrum.disallow\_scrum\_add\_group\_member** property and setting it to **true**. For information on how to create a property, see Add a system property.
 
 
 For information on the procedure to add members to groups, see [Add members to an assignment group in Agile Development 2.0](../task/add-group-members-to-group.md)

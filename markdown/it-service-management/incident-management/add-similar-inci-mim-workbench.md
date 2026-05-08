@@ -20,7 +20,7 @@ Add similar incidents to a major incident so that the support teams can work on 
 Role required: itil, major\_incident\_manager, communication\_manager, incident\_manager, or admin
 
 -   Activate the Predictive Intelligence plugin \(com.glide.platform\_ml\).
-    -   Configure Predictive Intelligence and train the solution definition with the name **ml\_sn\_global\_similar\_incidents\_mim**. For more information on how to train a solution definition, refer to [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   Configure Predictive Intelligence and train the solution definition with the name **ml\_sn\_global\_similar\_incidents\_mim**. For more information on how to train a solution definition, refer to Create and train a similarity solution.
 -   Ensure that there is an active ML solution at **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions** with the solution name **ml\_sn\_global\_similar\_incidents\_mim**.
 
 ## Procedure

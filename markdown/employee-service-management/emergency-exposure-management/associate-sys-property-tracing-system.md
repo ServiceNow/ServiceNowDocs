@@ -31,7 +31,7 @@ For a list of system properties associated with various tracing systems, see [Sy
 
     To associate a new system property with the tracing system, create it by clicking **New** in the System Properties related list and filling in the System Property form.
 
-    For more information about the System Property form fields, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information about the System Property form fields, see Add a system property.
 
 3.  Associate a system property with the tracing system.
 

@@ -22,7 +22,7 @@ The ServiceNow® Industrial Connected Workforce \(ICW\) Core is the foundational
 -   Improve system responsiveness with performance optimizations that reduce load times and increase record processing throughput.
 -   Enhance interoperability across the ICW suite applications with improved integration capabilities for downstream applications.
 
-See, [ICW Core](https://www.servicenow.com/docs/access?context=industrial-connected-workforce-core-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US) for more information.
+See, ICW Core for more information.
 
 **Important:** ICW Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -41,15 +41,15 @@ ICW Core is automatically installed when you install Industrial Connected Workfo
 
 ## Related ServiceNow applications and features
 
--   **[Exploring Industrial Standards](https://www.servicenow.com/docs/access?context=industrial-standards-landing-page&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **Exploring Industrial Standards**
 
     Industrial Standards help define and govern Standard Operating Procedures \(SOPs\). Standards rely on ICW Core’s shared data and workflow structures to generate and manage operational tasks. In addition, Industrial Standards provide common functions for every standard type within ICW. For example, scheduling, the standard hub, approvals, and data model.
 
--   **[Exploring Industrial Guided Tasks](https://www.servicenow.com/docs/access?context=exploring-industrial-guided-tasks&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **Exploring Industrial Guided Tasks**
 
     Industrial Guided Tasks \(IGT\) creates structured, step‑by‑step workflows used for critical industrial activities. ICW Core standardizes equipment, functional locations, calendars, worker profiles, and industrial task records. IGT requires this data for task authoring, assignment, and execution.
 
--   **[Exploring Industrial Connected Workforce Mobile Experience](https://www.servicenow.com/docs/access?context=exploring-icw-mobile-experience&version=australia&pubname=australia-industrial-connected-workforce&ft:locale=en-US)**
+-   **Exploring Industrial Connected Workforce Mobile Experience**
 
     Delivers ICW capabilities to frontline workers through a mobile‑first interface. Mobile apps rely on ICW Core for data integrity, user profiles, work assignments, and task execution records.
 

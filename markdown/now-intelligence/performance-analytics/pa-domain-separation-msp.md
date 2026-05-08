@@ -15,7 +15,7 @@ breadcrumb: [Domain separation, Configure advanced features, Performance Analyti
 
 Instead of configuring Performance Analytics for the domains of a specific user, create a reusable domain configuration. Select domains that are visible to a group of users, or filter domains directly. Domain configurations let you define hierarchical relationships and aggregate scores across multiple domains.
 
-**Note:** Performance Analytics domain configurations are enabled with the Performance Analytics – Domain Separation Support plugin. For more information about plugins, see [Activate a Plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Performance Analytics domain configurations are enabled with the Performance Analytics – Domain Separation Support plugin. For more information about plugins, see Activate a Plugin.
 
 Associate these domain configurations with specific data collection jobs and dashboards to provide relevant scores to users. At the same time, maintain your Performance Analytics records, such as indicators, breakdowns, and their sources, in the global domain.
 

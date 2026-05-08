@@ -68,7 +68,7 @@ Discovery follows these phases:
 
 ## Discovery communication through MID Servers
 
-A [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), which constantly queries the instance for probes to run, executes the instructions in the probe or in the pattern that the probe specifies. The MID Server then returns the results to the instance, where sensors process it. The MID Server does not retain any discovery information.
+A MID Server, which constantly queries the instance for probes to run, executes the instructions in the probe or in the pattern that the probe specifies. The MID Server then returns the results to the instance, where sensors process it. The MID Server does not retain any discovery information.
 
 The MID Server starts all communications, using SOAP on HTTPS, which means that all communications are secure, and all communications are initiated inside the enterprise's firewall. No special firewall rules or VPNs are required.
 

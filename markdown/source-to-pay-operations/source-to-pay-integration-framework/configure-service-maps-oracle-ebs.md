@@ -20,7 +20,7 @@ Configure integration services for Oracle EBS.
 ## Before you begin
 
 -   Verify that the application scope is set to Oracle EBS spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see Installing the MID Server.
 
     **Note:** The MID Server integration is required only for an Oracle EBS ERP integration using SOAP services.
 

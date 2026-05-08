@@ -49,7 +49,7 @@ Once the required applications are installed, assign the following roles to the 
     Required to make data sharing decisions and configure privacy policies. Assign this role before configuring data protection settings in [Configure security controls](naai-tutorial-configure-security.md).
 
 
-For a full list of roles installed with Now Assist, see [Now Assist Admin roles](https://www.servicenow.com/docs/access?context=roles-installed-with-now-assist-admin&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For a full list of roles installed with Now Assist, see Now Assist Admin roles.
 
 ## Classify user identity types
 

@@ -21,7 +21,7 @@ Agents and requesters can do the following:
 -   A live agent can accept Apple Messages for Business chat conversations as work items from their Agent Workspace Inbox to converse with a requester.
 -   A live agent can continue to interact with a customer conversation in Apple Messages for Business for as long as the customer would like.
 
-For more information, see [Integrating Apple Messages for Business with Customer Service Management](https://www.servicenow.com/docs/access?context=integrate-amb-with-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Integrating Apple Messages for Business with Customer Service Management.
 
 ## Accepting Apple Messages for Business chat conversations
 

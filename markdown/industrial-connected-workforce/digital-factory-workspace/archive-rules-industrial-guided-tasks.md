@@ -21,7 +21,7 @@ By default, the archiving rule is active in the ICW. You can manage the rule by 
 
 The archiving rules support data hygiene and system usability by making sure that outdated records don’t interfere with active workflows.
 
-For more information on archive rules, see [Create an archive rule in Core UI](https://www.servicenow.com/docs/access?context=t_CreateAnArchiveRule&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on archive rules, see Create an archive rule in Core UI.
 
 **Parent Topic:**[Configuring Industrial Guided Tasks](configuring-industrial-guided-tasks.md)
 

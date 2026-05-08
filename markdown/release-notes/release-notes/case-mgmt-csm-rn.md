@@ -18,29 +18,29 @@ The ServiceNow® Case management for CSM application enables customer service or
 -   Enhancements to task plan templates to support task dependency, and to support document attachments in task plan template items.
 -   Migrating several applications from family to store.
 
-See [Case management for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-case-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See Case management for Customer Service Management for more information.
 
 ## New in the Australia release
 
--   **[Task Dependencies for Task Plan Templates](https://www.servicenow.com/docs/access?context=task-dependencies-for-task-plan-templates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Task Dependencies for Task Plan Templates**
 
     Define dependency relationships between template items in the \[sn\_task\_plan\_template\_dependency\] table, and upon applying the template, create and store the resulting task dependencies in the \[sn\_task\_dependency\_m2m\] table to ensure controlled task sequencing through predecessor–successor relationships.
 
--   **[Document References in Task Plan Templates](https://www.servicenow.com/docs/access?context=adding-and-managing-document-references-in-task-plan-templates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Document References in Task Plan Templates**
 
     Add documents to Task Plan Template items, storing document references in the \[sn\_task\_plan\_template\_document\] table and making them accessible through form views and related lists based on template state and user permissions, ensuring secure and controlled document access aligned with template‑level permissions
 
 
 ## Changed in this release
 
--   **[Major Issue Management](https://www.servicenow.com/docs/access?context=major-issue-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Major Issue Management**
 
     Case Type consistency improvements: This update ensures case type consistency when creating and managing major cases and their related child cases, improving accuracy and reducing manual correction.
 
     -   Create major cases automatically upon approval, and major cases now inherit the same case type as the originating case.
     -   Promote the proposed case directly to a major case I-if no account or consumer or partner exists on the originating major case.
     -   Use the major case's case type and inherit the fields defined in \(sn\_customerservice.case\_fields\_to\_sync\) property or defined through extension point for child cases.
--   **[Task plan templates](https://www.servicenow.com/docs/access?context=task-plan-templates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Task plan templates**
 
     Add flexible task dependency management to task plan templates, and support for attachments.
 
@@ -49,7 +49,7 @@ See [Case management for Customer Service Management](https://www.servicenow.com
     -   Built‑in validations prevent circular dependencies, ensuring task plans remain accurate and reliable.
     -   Ability to attach documents to tasks or cases.
     -   Select **Apply Template** for any published task plan templates to automatically add all document references from the original template items to the newly created tasks, ensuring seamless access for task owners to all required documents.
--   **[Case type selector for creating cases](https://www.servicenow.com/docs/access?context=create-case-of-specific-case-type&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Case type selector for creating cases**
 
     The case type selector is now activated by default when creating cases of these types:
 
@@ -69,23 +69,23 @@ See [Case management for Customer Service Management](https://www.servicenow.com
 
     The following plugin is new in Australia:
 
-    [Assignment Workbench](https://www.servicenow.com/docs/access?context=case-assignment-workbench&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(sn\_assign\_wb\_host\): This plugin enables managers to assign tasks to agents efficiently and intelligently.
+    Assignment Workbench \(sn\_assign\_wb\_host\): This plugin enables managers to assign tasks to agents efficiently and intelligently.
 
 -   **Plugins planned for deprecation**
 
     These plugins are planned for deprecation in the C release. Beginning with the Australia release these plugins will be migrated to store applications. Upgrade your instance to Australia or later release versions and the store applications will be automatically installed:
 
-    -   [Action Status Automation](https://www.servicenow.com/docs/access?context=activate-case-action-status&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_action\_status\)
-    -   [Customer Service Case Action Status](https://www.servicenow.com/docs/access?context=activate-case-action-status&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.snc.csm\_action\_status\)
-    -   [Case Digests](https://www.servicenow.com/docs/access?context=customer-service-case-digests&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_csm\_case\_digest\)
-    -   [Customer Service Document Template](https://www.servicenow.com/docs/access?context=activate-case-digests&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_csm\_doc\_template\)
-    -   [Customer Project Management](https://www.servicenow.com/docs/access?context=csm-ppm-integration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.snc.csm\_ppm\)
+    -   Action Status Automation \(com.sn\_action\_status\)
+    -   Customer Service Case Action Status \(com.snc.csm\_action\_status\)
+    -   Case Digests \(com.sn\_csm\_case\_digest\)
+    -   Customer Service Document Template \(com.sn\_csm\_doc\_template\)
+    -   Customer Project Management \(com.snc.csm\_ppm\)
     -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
     -   Customer Service with Service Management \(com.sn\_cs\_sm\)
-    -   [Major Issue Management](https://www.servicenow.com/docs/access?context=major-issue-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_majorissue\_mgt\)
-    -   [Proxy contacts](https://www.servicenow.com/docs/access?context=employee-create-case-for-customer&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.snc.csm\_proxy\_contacts\)
-    -   [Targeted communications](https://www.servicenow.com/docs/access?context=c_TargetedCommunications&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_publications\)
-    -   [Case Assignment Workbench Demo](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.snc.case\_assignment\_workbench\_demo\): Beginning with the Australia release this plugin will be deprecated. The demo data will be migrated to the Case Assignment Workbench store application.
+    -   Major Issue Management \(com.sn\_majorissue\_mgt\)
+    -   Proxy contacts \(com.snc.csm\_proxy\_contacts\)
+    -   Targeted communications \(com.sn\_publications\)
+    -   Case Assignment Workbench Demo \(com.snc.case\_assignment\_workbench\_demo\): Beginning with the Australia release this plugin will be deprecated. The demo data will be migrated to the Case Assignment Workbench store application.
 
 **Parent Topic:**[Customer Service Management release notes](customer-service-mgmt-rn-landing.md)
 

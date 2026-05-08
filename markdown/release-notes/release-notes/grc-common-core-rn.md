@@ -17,13 +17,13 @@ The ServiceNow® Integrated Risk Management \(IRM\) application helps enable you
 -   Automatic redirection from GRC notification links to the appropriate workspace view based on the recipient's persona and access permissions.
 -   The Tasks page now loads faster by showing an instant overview of task counts and progressively loading detailed tasks.
 
-See [Common Governance, Risk, and Compliance features](https://www.servicenow.com/docs/access?context=common-grc-features&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See Common Governance, Risk, and Compliance features for more information.
 
 **Important:** Integrated Risk Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -32,18 +32,18 @@ See [Common Governance, Risk, and Compliance features](https://www.servicenow.co
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[GRC notification redirection](https://www.servicenow.com/docs/access?context=email-notification-redirection&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **GRC notification redirection**
 
     After upgrading GRC to version 22.0.x, notification links in GRC applications automatically route you to the appropriate workspace view based on your persona and access permissions. If you don't have workspace access, links default to the classic view.
 
--   **[Monitor my tasks in the Tasks page in the workspace](https://www.servicenow.com/docs/access?context=configure-my-tasks-in-ws&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **Monitor my tasks in the Tasks page in the workspace**
 
     After upgrading GRC to version 22.0.1, the Tasks page loads faster with performance improvements. Task counts display first as an at-a-glance summary, followed by detailed task lists that load progressively. Task data refreshes at regular intervals to keep information current. These improvements provide better scalability for users with high task volumes across multiple task sources.
 
 
 ## UI changes
 
--   **[Monitor my tasks in the Tasks page in the workspace](https://www.servicenow.com/docs/access?context=configure-my-tasks-in-ws&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **Monitor my tasks in the Tasks page in the workspace**
 
     The Task page now includes a timestamp showing when the task data was last refreshed. Additionally, a notification now displays when the page is refreshing data in the background.
 

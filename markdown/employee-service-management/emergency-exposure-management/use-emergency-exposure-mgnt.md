@@ -31,7 +31,7 @@ To query through multiple data sources, the Emergency Exposure Management requir
 
     Scans visitor data.
 
--   **[Field Service Management](https://www.servicenow.com/docs/access?context=t_ActivateFieldServiceManagement&version=australia&pubname=australia-field-service-management&ft:locale=en-US) \(com.snc.work\_management\)**
+-   **Field Service Management \(com.snc.work\_management\)**
 
     Scans field service task data.
 
@@ -266,7 +266,7 @@ Depending on the applications and plugins installed, you can take the following 
     The button is available only when you have selected the **Visitor log** tracing system.
 
 -   The case manager can create a case for the affected user and add potentially impacted users from the related list to the case to follow up on their health status. For more information, see [Create a case for an affected employee](../../contact-tracing/task/create-exposure-case.md).
--   The manager of the affected field agents can take further actions such as blocking their future work order assignments. For more information, see [Emergency Exposure Management for field service agents](https://www.servicenow.com/docs/access?context=monitoring-analytics-fsm&version=australia&pubname=australia-field-service-management&section=exposure-management-for-agents&ft:locale=en-US) .
+-   The manager of the affected field agents can take further actions such as blocking their future work order assignments. For more information, see Emergency Exposure Management for field service agents .
 
 
 -   **[Fetch potentially exposed user data from a data source](work-on-diagnostic-req-task.md#)**  

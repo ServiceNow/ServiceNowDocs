@@ -35,19 +35,19 @@ This procedure describes how to dig deeply into the details of CI information on
 
 2.  Select **Ask a follow-up** to learn more about the attribute.
 
-    The Now Assist panel opens. Select one of the suggested questions or enter a different question about any field or section of the form. Now Assist responds to your follow-up question. For more information, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    The Now Assist panel opens. Select one of the suggested questions or enter a different question about any field or section of the form. Now Assist responds to your follow-up question. For more information, see Working in the Now Assist panel.
 
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d313189e163">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d313185e163">
 
 Option
 
-</th><th align="left" id="d313189e166">
+</th><th align="left" id="d313185e166">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d313189e172">
+</th></tr></thead><tbody><tr><td id="d313185e172">
 
 **Provide feedback for the summary**
 
@@ -55,7 +55,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up ![](../../configuration-management/image/icon-thumbs-up.png). If you think that it wasn’t helpful, select thumbs-down ![](../../configuration-management/image/icon-thumbs-down.png).This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d313189e187">
+</td></tr><tr><td id="d313185e187">
 
 **Copy the summary**
 
@@ -63,7 +63,7 @@ If you think that the response was helpful, select thumbs-up ![](../../configura
 
 Select the copy to clipboard icon ![](../../configuration-management/image/icon-clipboard.png) to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d313189e198">
+</td></tr><tr><td id="d313185e198">
 
 **Refresh the summary**
 

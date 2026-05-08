@@ -15,7 +15,7 @@ breadcrumb: [Orchestration ROI reports, Orchestration ROI, Orchestration applica
 
 The premium dashboard provides detailed reports on calculated savings over time.
 
-The ROI premium reports require the Orchestration - ROI Premium plugin and are built using [Performance Analytics](https://www.servicenow.com/docs/access?context=c_PerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US). The Orchestration - ROI Premium plugin is dependent on the [Performance Analytics - Premium](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) plugin which requires a separate subscription.
+The ROI premium reports require the Orchestration - ROI Premium plugin and are built using Performance Analytics. The Orchestration - ROI Premium plugin is dependent on the Performance Analytics - Premium plugin which requires a separate subscription.
 
 **Important:** You must activate the Performance Analytics [scheduled collection job](r_OrchestrationROIPremiumDashboard.md#) before Orchestration ROI premium can display data.
 
@@ -104,7 +104,7 @@ To view the Orchestration ROI premium reports, you must request activation of th
 
 ### Before you begin
 
-The Orchestration - ROI Premium plugin requires the [Performance Analytics - Premium](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) plugin, which must be purchased separately.
+The Orchestration - ROI Premium plugin requires the Performance Analytics - Premium plugin, which must be purchased separately.
 
 Role required: admin
 
@@ -180,7 +180,7 @@ The scheduled job required to calculate premium ROI reports is called \[PA ROI\]
 
 4.  The scheduling options appear for the value selected in the **Run** field.
 
-    For instructions on creating a schedule, see [Create or schedule a data collection job](https://www.servicenow.com/docs/access?context=t_CreatASchedDataCollJob&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For instructions on creating a schedule, see Create or schedule a data collection job.
 
 5.  To execute the schedule directly from the job definition, click **Execute Now**.
 

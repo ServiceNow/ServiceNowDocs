@@ -43,7 +43,7 @@ Notify\[com.snc.notify\]
 
 </td><td>
 
-Provides platform features for workflow-driven voice calls, conference calls, and SMS messages. Requires the Twilio Direct Driver and a separate contract with Twilio for SMS and Voice capabilities.**Note:** Existing users already using Twilio Driver need to [migrate](https://www.servicenow.com/docs/access?context=t_MigrateToTwilioDirectDriver&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to Twilio Direct Driver.
+Provides platform features for workflow-driven voice calls, conference calls, and SMS messages. Requires the Twilio Direct Driver and a separate contract with Twilio for SMS and Voice capabilities.**Note:** Existing users already using Twilio Driver need to migrate to Twilio Direct Driver.
 
 </td></tr><tr><td>
 
@@ -85,5 +85,5 @@ Slack notifications are added with activation of Incident Management – Major I
 
 [Major incident workbench](../concept/major-incident-workbench.md)
 
-[List of Australia plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

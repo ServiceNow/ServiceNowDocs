@@ -29,7 +29,7 @@ Register a Tableau Cloud application through the Tableau Cloud admin portal.
 
 ### Before you begin
 
--   Activate the Tableau spoke. For more information, see [Tableau spoke](https://www.servicenow.com/docs/access?context=tableau-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Activate the Tableau spoke. For more information, see Tableau spoke.
 -   Tableau Cloud Role required: site administrator
 
 ### Procedure
@@ -93,7 +93,7 @@ To create a Tableau Cloud integration profile, request the Software Asset Manage
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with Tableau** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Tableau** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

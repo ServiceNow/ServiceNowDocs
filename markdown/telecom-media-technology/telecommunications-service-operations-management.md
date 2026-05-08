@@ -17,19 +17,19 @@ Learn how Telecommunications Service Operations Management \(TSOM\) empowers com
 
 <table id="table_acr_hnj_wfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how telecom service providers use Telecommunications Service Operations Management.](https://www.servicenow.com/docs/access?context=exploring-tsom&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)
+Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about how telecom service providers use Telecommunications Service Operations Management.
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your Telecommunications Service Operations Management.](https://www.servicenow.com/docs/access?context=configuring-tsom&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)
+Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and configure your Telecommunications Service Operations Management.
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Telecommunications Service Operations Management to track comprehensive telecom service operations.](https://www.servicenow.com/docs/access?context=using-tsom&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)
+Use![](../../../reuse/icons/brand-icons/bus-agent-workspace-1.svg)Use Telecommunications Service Operations Management to track comprehensive telecom service operations.
 
 </td><td>
 
-[Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get Telecommunications Service Operations Management reference information.](https://www.servicenow.com/docs/access?context=components-installed-with-tsom&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)
+Reference![](../../../reuse/icons/brand-icons/bus-learn.svg)Get Telecommunications Service Operations Management reference information.
 
 </td></tr></tbody>
 </table>## Additional resources
@@ -38,7 +38,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-impact.svg) Release Notes**
 
-    Learn more about what's new and changed in this release at [Telecommunications Service Operations Management \(TSOM\) release notes](https://www.servicenow.com/docs/access?context=telecommunications-service-operations-management-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+    Learn more about what's new and changed in this release at Telecommunications Service Operations Management \(TSOM\) release notes
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
 

@@ -49,5 +49,5 @@ After you've completed the setup tasks, you and your topic authors can explore t
 **Related topics**  
 
 
-[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.guided-setup]
 

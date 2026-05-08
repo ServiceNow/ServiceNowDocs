@@ -29,7 +29,7 @@ Role required: pps\_admin or it\_project\_manager
 
 3.  Create an employee profile.
 
-    For more information, see [Activate Employee Profile](https://www.servicenow.com/docs/access?context=activate-employee-profile&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information, see Activate Employee Profile.
 
 4.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 

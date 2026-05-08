@@ -24,7 +24,7 @@ ITOM AIOps consists of two main capabilities that use the CSDM framework.
     Proactively analyzes your IT infrastructure to spot issues and prevent service outages. Using advanced machine learning to analyze information about your IT infrastructure, the application automatically determines dynamic thresholds and identifies anomalies that may indicate potential service outages.
 
 
-For CSDM set-up information, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For CSDM set-up information, see Implementing the CSDM framework in stages.
 
-For more information on CSDM framework, see [Exploring the CSDM model](https://www.servicenow.com/docs/access?context=csdm-content-frame-exploring&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on CSDM framework, see Exploring the CSDM model.
 

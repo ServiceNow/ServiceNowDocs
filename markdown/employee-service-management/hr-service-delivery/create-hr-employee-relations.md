@@ -94,7 +94,7 @@ Work notes
 
 Information specific to the case that can help other HR agents. **Work Notes** are not visible to the **Opened for** subject.The sn\_hr\_core.restrict\_guest\_email system property allows a user to send an email from a personal email account referencing an HR case. When the property has a value of false \(default\), the text from the email appears in the Work notes field. To access system properties, enter `sys_properties.list` in the navigation filter.
 
- **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
 </td></tr></tbody>
 </table>3.  Click **Create Case** and the **Employee Relations Case** form appears with additional information about the case.
@@ -330,7 +330,7 @@ A longer, detailed description after the ER case is created. Use the Rich Text F
 
         Comments or work notes that provide details about the case. **Work notes** are not visible to the **Subject person**.
 
-        **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
     -   **Related Links**
 

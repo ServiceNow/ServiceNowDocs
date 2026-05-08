@@ -31,7 +31,7 @@ By default, the notification is sent to the user who originally requested the ch
 
 3.  On the form, modify information in the following form sections: **When to send**, **Who will receive**, **What it will contain**.
 
-    For more information about email notifications and the fields in the form, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information about email notifications and the fields in the form, see Create an email notification.
 
 4.  Click **Update**.
 

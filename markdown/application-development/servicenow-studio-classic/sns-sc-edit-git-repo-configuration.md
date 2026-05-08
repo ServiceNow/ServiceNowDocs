@@ -87,7 +87,7 @@ Credential
 
 </td><td>
 
-Saved credentials to use for the source control connection. All application developers on the instance share a single set of credentials per repository. For information on working with credentials, see [Get started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Saved credentials to use for the source control connection. All application developers on the instance share a single set of credentials per repository. For information on working with credentials, see Get started with credentials.
 
 </td></tr></tbody>
 </table>    ![View and edit application repository configurations](../../app-engine-studio/image/aes-app-properties-repo-purple.png)

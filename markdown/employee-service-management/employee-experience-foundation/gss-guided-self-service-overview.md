@@ -56,13 +56,13 @@ Playbook provides a visual representation of step-by-step process involved in se
 
 Understand the basics of playbooks and workflow studio. Ensure you have working knowledge of the following processes:
 
--   [Exploring Playbook](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Playbook builder](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Exploring Playbook
+-   Playbook builder
 -   
--   [Building your first playbook](https://www.servicenow.com/docs/access?context=getting-started-processes&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Create a flow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Create a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Building your first playbook
+-   Create a flow in Workflow Studio
+-   Create a playbook
+-   Building Playbooks
 
 **Related topics**  
 

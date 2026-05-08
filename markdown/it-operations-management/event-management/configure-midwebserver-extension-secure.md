@@ -52,7 +52,7 @@ Description
 1.  Select the **Use MID Unified Keystore** check box
 2.  Enter an alias name in the **Keystore Certificate Alias** field or leave the field empty to use the keystore's default alias.
 
-For more information, see the **Install custom certificates in the MID Server unified key store** section in [MID Server unified key store](https://www.servicenow.com/docs/access?context=mid-unified-keystore&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information, see the **Install custom certificates in the MID Server unified key store** section in MID Server unified key store.
 
 **Important:** Leaving the **Keystore Certificate Alias** field empty causes connecting clients to skip certificate verification. Instead, the MID Server uses its own self-signed certificate.
 

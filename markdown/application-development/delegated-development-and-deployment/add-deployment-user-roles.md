@@ -23,7 +23,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Users** and then open a user record.
 
-    **Note:** For details on how to assign a role to a user, refer to [Assign a user role](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For details on how to assign a role to a user, refer to Assign a user role.
 
 2.  In the **Roles** related list, select **Edit**.
 

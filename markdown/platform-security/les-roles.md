@@ -15,7 +15,7 @@ Log Export Service is installed with these roles.
 
 ## Application admin \[sn\_logstoanalytics.admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 This role is installed along with the LES application and allows a non-admin to use the application.
 
@@ -44,7 +44,7 @@ This role is installed along with the LES application and allows a non-admin to 
 
 ## System administrator \[admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 Admin role is required for the setup of the LES store application.
 

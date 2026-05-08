@@ -19,8 +19,8 @@ The GlideURI API provides methods to handle URI parameters in a scoped applicati
 
 For more information on using URIs:
 
--   [Navigate by URL](https://www.servicenow.com/docs/access?context=navigate-using-url&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Navigation stack](https://www.servicenow.com/docs/access?context=c_NavigationStack&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Navigate by URL
+-   Navigation stack
 
 See also: [GlideURI - Global](../../GlideURIGlobal/concept/GlideURIGlobalAPI.md#) .
 

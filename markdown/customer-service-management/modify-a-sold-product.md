@@ -39,7 +39,7 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 6.  On the Configurator UI, modify the existing configurations for the sold product.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    To learn more about the Configurator UI, see Exploring Sales Customer Relationship Management.
 
 7.  Select **Update**.
 

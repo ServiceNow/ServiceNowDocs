@@ -18,7 +18,7 @@ Complete the registration process to establish a connection to the provider inst
 ## Before you begin
 
 -   Role required: admin
--   Run the **Key Management** &gt; **Health \(Diagnostics\)** to ensure that the Key Management Framework health check has passed. Your administrator must have the sn\_kmf.admin and sn\_kmf.cryptographic\_manager roles to access the health diagnostics. If your administrator does not have access, follow the instructions in [Assign Key Management Framework roles](https://www.servicenow.com/docs/access?context=assign-kmf-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) to grant the required roles.
+-   Run the **Key Management** &gt; **Health \(Diagnostics\)** to ensure that the Key Management Framework health check has passed. Your administrator must have the sn\_kmf.admin and sn\_kmf.cryptographic\_manager roles to access the health diagnostics. If your administrator does not have access, follow the instructions in Assign Key Management Framework roles to grant the required roles.
 
 ## About this task
 

@@ -60,7 +60,7 @@ Create system-wide or global user preferences to set a default preference for yo
 
 ## User preferences and update sets
 
-User preference records for system-wide values, also called the default or global values, are stored in update sets. Any changes are implemented when you import the update set and affect all users who have not customized the feature. User preference records for specific users aren’t stored in update sets, so user customizations are retained when you import an update set. For more information, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+User preference records for system-wide values, also called the default or global values, are stored in update sets. Any changes are implemented when you import the update set and affect all users who have not customized the feature. User preference records for specific users aren’t stored in update sets, so user customizations are retained when you import an update set. For more information, see System update sets.
 
 -   **[User preference settings](../reference/r_UserPreferenceSettings.md)**  
 User preferences primarily track the way individual users interact with various features so that new sessions activate the user's last settings. For example, user preferences track whether the user activates the tabbed or scrolling interface for multi-section forms. Other user preference records enable users with the admin role to adjust certain feature settings.

@@ -31,15 +31,15 @@ For example, assume that you allocated 100 hours for 2 months, 50 hours for each
 
 2.  Extend the resource assignment using one of the following options.
 
-<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d278423e77">
+<table id="choicetable_t2q_fkv_1fc"><thead><tr><th align="left" id="d278419e77">
 
 Option
 
-</th><th align="left" id="d278423e80">
+</th><th align="left" id="d278419e80">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d278423e86">
+</th></tr></thead><tbody><tr><td id="d278419e86">
 
 **From resource assignment pane**
 
@@ -50,7 +50,7 @@ Procedure
 3.  Select **Extend** to extend the resource assignment.
 
 
-</td></tr><tr><td id="d278423e127">
+</td></tr><tr><td id="d278419e127">
 
 **From resource assignment form**
 

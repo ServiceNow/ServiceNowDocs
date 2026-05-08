@@ -25,11 +25,11 @@ Role required: security\_admin
 
 1.  Create an encryption module for the article template field to be encrypted.
 
-    See [Create a cryptographic module](https://www.servicenow.com/docs/access?context=create-cryptographic-module&version=australia&pubname=australia-platform-security&ft:locale=en-US) for details.
+    See Create a cryptographic module for details.
 
 2.  Associate the article template field with the encryption module.
 
-    See [Encrypting fields and attachments](https://www.servicenow.com/docs/access?context=field-encryption-key-management&version=australia&pubname=australia-platform-security&ft:locale=en-US) for details.
+    See Encrypting fields and attachments for details.
 
     1.  Navigate to **System Security** &gt; **Field Encryption** &gt; **Encryption Field Configurations** and click **New**.
 
@@ -108,5 +108,5 @@ Depending on their role permissions defined for the encrypted field, users can v
 **Related topics**  
 
 
-[Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.field-encryption]
 

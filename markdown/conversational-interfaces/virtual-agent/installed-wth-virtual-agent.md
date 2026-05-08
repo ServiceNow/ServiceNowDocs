@@ -15,7 +15,7 @@ breadcrumb: [Activate Virtual Agent, Activate and get started, Virtual Agent, Co
 
 Various types of components are installed with activation of the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Plugins installed
 
@@ -111,7 +111,7 @@ With the Virtual Agent Administrator \[virtual\_agent\_admin\] role, users can c
 -   If using Natural Language Understanding, the NLU admin role is included.
 -   If the Virtual Agent admin is granted access to AI Search-related tables, the search application administrator role \[search\_application\_admin\] is included.
 -   If the Virtual Agent admin is granted access to Entity View Action Mapper tables, the EVAM admin role \[evam\_admin\] is included.
--   For multilanguage support, the localization\_requestor role is included by default. For more information, see [Localization Framework roles](https://www.servicenow.com/docs/access?context=roles-localization-framework&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+-   For multilanguage support, the localization\_requestor role is included by default. For more information, see Localization Framework roles .
 -   For more information on the roles contained in virtual\_agent\_admin, see [Virtual Agent roles](VA-roles.md#).
 
 ## Users installed

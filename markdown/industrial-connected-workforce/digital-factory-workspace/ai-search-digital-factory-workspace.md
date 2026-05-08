@@ -48,7 +48,7 @@ For knowledge articles, two additional options are available:
 
 While synonym matching is predefined, you can also configure custom keywords, synonyms, and related words for better accuracy.
 
-To learn more about the AI Search capability, see [Searching in AI Search](https://www.servicenow.com/docs/access?context=use-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US). The following image shows an example of AI Search results for a query run in the Digital Factory Workspace.
+To learn more about the AI Search capability, see Searching in AI Search. The following image shows an example of AI Search results for a query run in the Digital Factory Workspace.
 
 ![AI search all results page for the word 'brew' with the Deviations tab selected](../image/ai-search-workspace.png)
 

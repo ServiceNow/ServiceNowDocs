@@ -21,7 +21,7 @@ If the base system Now Assist skills don't fit your needs, you can use Now Assis
 
 ## Get Now Assist Skill Kit
 
-To use Now Assist Skill Kit, you must update your Now Assist plugins in the [Application Manager](https://www.servicenow.com/docs/access?context=exploring-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For example, update your Now Assist for ITSM plugin to the Xanadu release.
+To use Now Assist Skill Kit, you must update your Now Assist plugins in the Application Manager. For example, update your Now Assist for ITSM plugin to the Xanadu release.
 
 You must also assign the sn\_skill\_builder.admin role to anyone who uses Now Assist Skill Kit.
 

@@ -25,7 +25,7 @@ To secure custom apps, install the Now Assist for Vault application and make sur
 
 2.  In the Guided vault section, select **Get started** for your application within the **ServiceNow apps** tab.
 
-    To begin the guided setup for your custom applications, go to the **Custom apps** tab. Select the **+ Add custom app** button, choose the app that you want to secure from the drop-down list, and then select **Get started**. Or you can use Ask Now Assist to secure your custom applications through conversational prompts. For example, select **Ask Now Assist**. In the Now Assist panel, start the conversation with `Find and secure my custom apps`. See [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+    To begin the guided setup for your custom applications, go to the **Custom apps** tab. Select the **+ Add custom app** button, choose the app that you want to secure from the drop-down list, and then select **Get started**. Or you can use Ask Now Assist to secure your custom applications through conversational prompts. For example, select **Ask Now Assist**. In the Now Assist panel, start the conversation with `Find and secure my custom apps`. See Now Assist panel for more information.
 
 3.  In **Select app data**, use the table to select the application data to be used with ServiceNow Vault and select **Review selection** when finished.
 

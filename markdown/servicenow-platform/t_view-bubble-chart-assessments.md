@@ -25,7 +25,7 @@ Role required: assessment\_admin or admin
 
 3.  Under **Related Links**, click **View Bubble Chart**.
 
-    **Note:** Demand managers and vendor managers can view bubble charts through the Demand Management and Vendor Performance applications. See [Project Portfolio Suite](https://www.servicenow.com/docs/access?context=c_ProjectPortfolioSuite&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+    **Note:** Demand managers and vendor managers can view bubble charts through the Demand Management and Vendor Performance applications. See Project Portfolio Suite for more information.
 
 
 -   **[Bubble charts for assessments](../concept/c_bubble-chart-assessments.md)**  

@@ -19,7 +19,7 @@ Link your Alexa account with your ServiceNow instance to retrieve information fr
 
 1.  Configure your ServiceNow instance to link it with your Alexa account.
 
-    For more information, see [Create an OAuth API endpoint for external clients](https://www.servicenow.com/docs/access?context=t_CreateEndpointforExternalClients&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see Create an OAuth API endpoint for external clients.
 
 2.  To configure your Alexa account for account linking, see [Configure your Alexa account](../task/configure-alexa-console.md).
 3.  To link the Alexa events with your ServiceNow instance using your macOS Terminal, see [Link Alexa events using the macOS Terminal](../task/link-alexa-mac-terminal.md).

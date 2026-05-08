@@ -23,7 +23,7 @@ Roles required: localization\_admin and flow\_designer
 
 The Localization Framework provides a default email subflow that you can customize.
 
-Copy the existing email subflow configured for the Localization Framework and then customize it. Publish the customized subflow so that it is available for selection when setting up the translation preference for a language. For more information, see [Create a subflow](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Copy the existing email subflow configured for the Localization Framework and then customize it. Publish the customized subflow so that it is available for selection when setting up the translation preference for a language. For more information, see Create a subflow.
 
 ## Procedure
 

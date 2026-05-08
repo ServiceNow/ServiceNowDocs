@@ -100,7 +100,7 @@ Metric group
 </td><td>
 
 Select the metric group for the software. Each metric group has a set of license metrics that are specific to the publisher. -   Common
--   [Add a custom license metric](https://www.servicenow.com/docs/access?context=add-custom-license-metric&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+-   Add a custom license metric
 
 
 </td></tr><tr><td>

@@ -148,7 +148,7 @@ Activating the Customer Service plugin \(com.sn\_customerservice\) provides the 
 
 The Special Handling Notes application supports domain separation as a process-separated table.
 
-When inserting or updating a special handling note, the picker domain scope takes precedence by design with the Overrides \[sys\_overrides\] field on process-separated tables. For more information, see [Process administration](https://www.servicenow.com/docs/access?context=c_DelegatedAdministration&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+When inserting or updating a special handling note, the picker domain scope takes precedence by design with the Overrides \[sys\_overrides\] field on process-separated tables. For more information, see Process administration.
 
 **Parent Topic:**[Customer Service Management](c_CustomerServiceManagement.md)
 

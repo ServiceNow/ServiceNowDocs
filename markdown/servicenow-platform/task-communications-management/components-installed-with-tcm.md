@@ -15,7 +15,7 @@ breadcrumb: [Activate Task Communications Management, Task Communications Manage
 
 Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -234,7 +234,7 @@ Configure all Task Communications Management features including communication pl
 -   sn\_comm\_management.comm\_plan\_mgr
 
 </td></tr></tbody>
-</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+</table>To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 **Parent Topic:**[Activate Task Communications Management](../task/activate-tcm-plugin.md)
 

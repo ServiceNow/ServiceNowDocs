@@ -19,7 +19,7 @@ Topic authors can add this topic block to larger conversation flows. With the us
 
 For example, you may need to send a technician to a customer site to resolve an incident. To quickly respond to the customer, you need to know which technicians are located nearby so you can dispatch the appropriate technician for the customer's location.
 
-For general information about how geolocation is used on the ServiceNow platform, see [Geolocation](https://www.servicenow.com/docs/access?context=c_Geolocation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For general information about how geolocation is used on the ServiceNow platform, see Geolocation.
 
 ## Share location details
 

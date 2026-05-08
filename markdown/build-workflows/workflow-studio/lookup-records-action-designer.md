@@ -33,7 +33,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Conditions**
 
-    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See [GlideRecord - Global](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [GlideQueryCondition - Global](https://www.servicenow.com/docs/access?context=c_GlideQueryConditionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    Field names and field values that you want to use to search for records. To use an inline script to specify conditions, consider using the GlideRecord and GlideQueryCondition classes to build your query. See GlideRecord - Global and GlideQueryCondition - Global.
 
 -   **Order by**
 

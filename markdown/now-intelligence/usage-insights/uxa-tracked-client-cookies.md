@@ -19,7 +19,7 @@ The SNAnalytics SDK uses a combination of session storage and local storage vari
 
 For more information on session storage and local storage, refer to the [JavaScript.Info](https://javascript.info/localstorage) documentation.
 
-For more information on SNAnalytics SDK, see [SNAnalytics - Client](https://www.servicenow.com/docs/access?context=SNAnalyticsClientAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)  and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
+For more information on SNAnalytics SDK, see SNAnalytics - Client  and [SNAnalytics ](https://developer.servicenow.com/dev.do#!/reference/api/xanadu/client/SNAnalyticsClientAPI)– in the Developer community.
 
 ## Key structure
 

@@ -43,13 +43,13 @@ As an administrator, review the installed components and modify them or add new 
 
     For chat response templates, you can specify a short name that can be used as a shortcut to present the response message to a user quickly.
 
--   **[Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Create an email notification**
 
     Create or modify email notifications that are sent when specific events occur for example, when a request is assigned, closed, or canceled, or a message has been posted to request additional information.
 
--   **[Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Configuring the form layout**
 
-    To track dispositions from Legal Content Review requests, add the Legal Disposition \[sn\_lg\_ops\_legal\_disposition\] table as a related list to any Legal Content Review Request form. For more information on adding a related list on a form, see [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    To track dispositions from Legal Content Review requests, add the Legal Disposition \[sn\_lg\_ops\_legal\_disposition\] table as a related list to any Legal Content Review Request form. For more information on adding a related list on a form, see Add a related list to a form.
 
 
 -   **[Install Legal Content Review](../task/install-legal-content-review.md)**  

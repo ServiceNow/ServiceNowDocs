@@ -20,17 +20,17 @@ The ServiceNow® Now Assist for Telecommunications, Media and Technology \(TMT\)
 -   Generate customized product adoption roadmaps by analyzing customer characteristics, goals, and similar product adoption patterns.
 -   Analyze call, chat, billing, and interaction data with sentiment analysis for proactive service recommendations and faster issue resolution.
 
-See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See Now Assist for Telecommunications, Media and Technology \(TMT\) for more information.
 
 **Important:** Now Assist for Telecommunications, Media and Technology \(TMT\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Now Assist for Telecommunications, Media and Technology \(TMT\) features
 
--   **[Squad resource identifier](https://www.servicenow.com/docs/access?context=now-assist-squad-resource-identifier&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Squad resource identifier**
 
     Recommend internal experts based on engagement context, skill set, region, and real-time availability. Assist customer success teams to quickly identify and connect with the right individuals to support success plays, initiatives, or critical escalations, helping to ensure faster and more effective collaboration across engagements.
 
--   **[Product release email communication](https://www.servicenow.com/docs/access?context=now-assist-product-release-email-communication&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Product release email communication**
 
     Automatically draft, refine, and publish release announcement emails. It identifies the right stakeholders, helps to ensure consistent messaging, and streamlines distribution.
 
@@ -54,42 +54,42 @@ See [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://ww
 
     Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to help ensure reliable, efficient integrations with minimal manual effort.
 
--   **[Analyze the sentiment of a service problem case using Now Assist for TMT](https://www.servicenow.com/docs/access?context=now-assist-tmt-analyze-sentiment-spc-adr&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Analyze the sentiment of a service problem case using Now Assist for TMT**
 
     Generates the customer's sentiment and the reasoning behind it on the complaint cases. Make informed decisions on complaint cases based on sentiment and link them to the Alternative Dispute Resolution \(ADR\) case record.
 
--   **[Summarize the linked records using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-linked-record&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Summarize the linked records using Now Assist for Telecommunications, Media and Technology \(TMT\)**
 
     Generate a comprehensive summary of the service problem case records that you have linked on the ADR case.
 
--   **[Generate resolution notes for Alternative Dispute Resolution case using Now Assist for TMT](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution-notes-ad&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Generate resolution notes for Alternative Dispute Resolution case using Now Assist for TMT**
 
     Enables you to generate resolution for the customer dispute in the ADR case record. You can propose this resolution to the customer and get the customer feedback.
 
--   **[Generate a deadlock letter using Now Assist for TMT](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-deadlock-letter&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Generate a deadlock letter using Now Assist for TMT**
 
     Generate details of a deadlock letter for an ADR case. If the customer doesn't agree with the ADR case resolution, then you can use this skill to generate the deadlock letter and share with the customer.
 
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for TMT plugin. For more information, see Install Now Assist plugins.
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Overview tab in Now Assist Admin**
 
     The Now Assist Admin console provides you with quick and effortless access to the important information that you must set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist panel**
 
     Use this conversational interface in CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://www.servicenow.com/docs/access?context=now-assist-skills&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist skills**
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

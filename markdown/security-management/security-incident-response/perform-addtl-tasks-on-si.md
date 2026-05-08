@@ -25,7 +25,7 @@ Role required: sn\_si.basic
 
 2.  Within **Related Links**, you can perform the following tasks,
 
-<table id="choicetable_k4s_q45_c5"><tbody><tr><td id="d215246e60">
+<table id="choicetable_k4s_q45_c5"><tbody><tr><td id="d215242e60">
 
 **[View Manual Runbook](../reference/setup-assistant-reference.md#)**
 
@@ -33,7 +33,7 @@ Role required: sn\_si.basic
 
 View a list of runbooks available for this security incident.
 
-</td></tr><tr><td id="d215246e76">
+</td></tr><tr><td id="d215242e76">
 
 **Response Workflow**
 
@@ -41,7 +41,7 @@ View a list of runbooks available for this security incident.
 
 View any workflow associated with this incident.
 
-</td></tr><tr><td id="d215246e85">
+</td></tr><tr><td id="d215242e85">
 
 **[Add Multiple Observables](add-multiple-si-observables.md)**
 
@@ -49,7 +49,7 @@ View any workflow associated with this incident.
 
 Adds a list of observables in comma, new line, tab, or pipe delimited formats.
 
-</td></tr><tr><td id="d215246e101">
+</td></tr><tr><td id="d215242e101">
 
 **[Add to Security Case](../../threat-intelligence-case-management/concept/case-mgmt.md)**
 
@@ -57,7 +57,7 @@ Adds a list of observables in comma, new line, tab, or pipe delimited formats.
 
 Adds the security incident to one or more security cases. You can also create a new security case and add this security incident to it.
 
-</td></tr><tr><td id="d215246e119">
+</td></tr><tr><td id="d215242e119">
 
 **Get QRadar IP Summaries**
 
@@ -65,7 +65,7 @@ Adds the security incident to one or more security cases. You can also create a 
 
 If a QRadar integration is available, and contains valid CIs, source, and destination IP addresses, it triggers the QRadar workflows and displays the results in work notes.
 
-</td></tr><tr><td id="d215246e129">
+</td></tr><tr><td id="d215242e129">
 
 **Run Orchestration**
 
@@ -73,15 +73,15 @@ If a QRadar integration is available, and contains valid CIs, source, and destin
 
 Choose and run a Security Operations workflow.
 
-</td></tr><tr><td id="d215246e138">
+</td></tr><tr><td id="d215242e138">
 
-**[View SLA timeline](https://www.servicenow.com/docs/access?context=t_ViewSLATimeline&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+**View SLA timeline**
 
 </td><td>
 
 You can view an SLA timeline from a Task SLA record or from an SLA definition.
 
-</td></tr><tr><td id="d215246e152">
+</td></tr><tr><td id="d215242e152">
 
 **Show All Related Lists**
 
@@ -89,7 +89,7 @@ You can view an SLA timeline from a Task SLA record or from an SLA definition.
 
 Displays all standard related lists and any lists added manually. **Note:** Manually added items are available only in this view.
 
-</td></tr><tr><td id="d215246e164">
+</td></tr><tr><td id="d215242e164">
 
 **[Show Affected Items](show-affected-items-for-si.md)**
 
@@ -97,7 +97,7 @@ Displays all standard related lists and any lists added manually. **Note:** Manu
 
 Displays the lists of CIs, users, and services directly affected by this incident
 
-</td></tr><tr><td id="d215246e180">
+</td></tr><tr><td id="d215242e180">
 
 **[Show Related Items](show-related-items-for-si.md)**
 
@@ -105,7 +105,7 @@ Displays the lists of CIs, users, and services directly affected by this inciden
 
 Displays the lists of related incidents, CIs, users, and groups affected by this incident.
 
-</td></tr><tr><td id="d215246e196">
+</td></tr><tr><td id="d215242e196">
 
 **[Show IoC](show-ioc-info-for-si.md)**
 
@@ -113,7 +113,7 @@ Displays the lists of related incidents, CIs, users, and groups affected by this
 
 Displays the lists of observables, indicators, malware, modes and methods, and security scan requests associated with this incident.
 
-</td></tr><tr><td id="d215246e213">
+</td></tr><tr><td id="d215242e213">
 
 **[Show Enrichment Data](show-enrich-data-for-si.md)**
 
@@ -121,7 +121,7 @@ Displays the lists of observables, indicators, malware, modes and methods, and s
 
 Displays the lists of enrichment data, processes, services, statistics, lookups, firewall logs, and compromised user information associated with this incident.
 
-</td></tr><tr><td id="d215246e229">
+</td></tr><tr><td id="d215242e229">
 
 **[Show Response Tasks](show-response-tasks-for-si.md)**
 
@@ -129,7 +129,7 @@ Displays the lists of enrichment data, processes, services, statistics, lookups,
 
 Displays the lists of tasks, SLAs, risk score audits, outages, and Exchange searches associated with this incident.
 
-</td></tr><tr><td id="d215246e245">
+</td></tr><tr><td id="d215242e245">
 
 **View Details in External System**
 
@@ -137,7 +137,7 @@ Displays the lists of tasks, SLAs, risk score audits, outages, and Exchange sear
 
 If this security incident was generated from an external application, directly or by events, and a link to the originating data was provided, the **View Details in External System** action opens the URL. You can view and search through the logs that generated this incident.
 
-</td></tr><tr><td id="d215246e260">
+</td></tr><tr><td id="d215242e260">
 
 **[Scan for Vulnerabilities](t_SubmitThrtReqFromSecInc.md)**
 

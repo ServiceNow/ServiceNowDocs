@@ -55,13 +55,13 @@ When you run an OT discovery schedule, it performs the following processing:
 **Related topics**  
 
 
-[Operation Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models-operation-technology]
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.r-discovery]
 
-[Horizontal discovery process flow with probes and sensors](https://www.servicenow.com/docs/access?context=c_DiscoProcessFlows&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.c_DiscoProcessFlows]
 
-[Schedule a horizontal discovery](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.t_CreateADiscoverySchedule]
 

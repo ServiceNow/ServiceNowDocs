@@ -205,5 +205,5 @@ You can configure specific actions to be directly available on the standard tick
 
 [Configure actions for standard ticket page](configure-actions-for-standard-ticket-page.md)
 
-[Now Assist in Standard Ticket Page](https://www.servicenow.com/docs/access?context=now-assist-in-standard-ticket-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.now-assist-in-standard-ticket-page]
 

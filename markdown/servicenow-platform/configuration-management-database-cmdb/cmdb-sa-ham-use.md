@@ -40,5 +40,5 @@ As a CMDB administrator, you can use the Hardware Asset Management \(HAM\) dashb
 **Related topics**  
 
 
-[Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+[bundle-itam.ham-landing-page]
 

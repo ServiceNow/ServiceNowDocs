@@ -21,7 +21,7 @@ Available as an Workflow Studio action step. Users with the action\_designer rol
 
 -   **Now Assist Skill Kit requirements**
 
-    This step requires the Now Assist Skill Kit. For more information, see [Exploring Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=exploring-now-assist-skill-kit&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    This step requires the Now Assist Skill Kit. For more information, see Exploring Now Assist Skill Kit.
 
 -   **Role requirements**
 

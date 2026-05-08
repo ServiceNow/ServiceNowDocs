@@ -15,7 +15,7 @@ breadcrumb: [Event Management reference, Event Management, ITOM AIOps, IT Operat
 
 Activating the Event Management \(com.glideapp.itom.snac\) plugin adds several roles, scheduled jobs, and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 **Parent Topic:**[Event Management reference](event-management-reference.md)
 

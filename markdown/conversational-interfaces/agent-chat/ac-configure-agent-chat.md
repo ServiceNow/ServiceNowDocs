@@ -26,8 +26,8 @@ Configure the following before starting this task:
     -   Configure [service channels](../../advanced-work-assignment/concept/awa-service-channels.md).
     -   Define [work item queues](../../advanced-work-assignment/reference/awa-queues.md).
     -   Set up [work assignments](../../advanced-work-assignment/concept/awa-assignment.md).
--   [Update your Live Feed profile](https://www.servicenow.com/docs/access?context=t_UpdateYourProfile&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to display agent names and avatars in the chat client.
--   [Configure Agent Chat in Service Portal](https://www.servicenow.com/docs/access?context=configure-va-in-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Update your Live Feed profile to display agent names and avatars in the chat client.
+-   Configure Agent Chat in Service Portal
 
 Role required: workspace\_admin
 

@@ -116,7 +116,7 @@ User Profile
 
 </td><td>
 
-Display user profile information. To learn more about user profile, see [User Profile widget](https://www.servicenow.com/docs/access?context=user-profile-widget&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Display user profile information. To learn more about user profile, see User Profile widget.
 
 </td></tr></tbody>
 </table>**Related topics**  

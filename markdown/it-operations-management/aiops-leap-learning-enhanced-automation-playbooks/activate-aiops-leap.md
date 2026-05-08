@@ -23,15 +23,15 @@ Role required: System admin or LEAP admin
 
 1.  Activate **LEAP** with one of the following options.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d449513e98">
+<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d449494e98">
 
 Options
 
-</th><th align="left" id="d449513e103">
+</th><th align="left" id="d449494e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d449513e110">
+</th></tr></thead><tbody><tr><td id="d449494e110">
 
 **Workspaces**
 
@@ -42,7 +42,7 @@ Steps
 3.  On the LEAP installer card, select **Activate skill**.
 
 
-</td></tr><tr><td id="d449513e152">
+</td></tr><tr><td id="d449494e152">
 
 **Now Assist Admin**
 

@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Technical Service Qualification Open API provides endpoints to check the availability of resources and services before submitting orders for fulfillment.
 
-This API is a ServiceNow implementation of the TMF645 Service Qualification API REST Specification. For more information about service qualification requests, see [Service qualification requests](https://www.servicenow.com/docs/access?context=order-mgt-tsq-about&version=australia&pubname=australia-order-management&ft:locale=en-US).
+This API is a ServiceNow implementation of the TMF645 Service Qualification API REST Specification. For more information about service qualification requests, see Service qualification requests.
 
 The Technical Service Qualification Open API is provided within the `sn_ord_qual_mgmt` namespace and requires the following plugins:
 

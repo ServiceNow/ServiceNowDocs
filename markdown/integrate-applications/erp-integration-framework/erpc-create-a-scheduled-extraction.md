@@ -20,7 +20,7 @@ Schedule extraction of information for an ERP \(Enterprise Resource Planning\) e
 
 **Important:**
 
-If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see [Run fix scripts](https://www.servicenow.com/docs/access?context=t_RunFixScripts&version=australia&pubname=australia-application-development&ft:locale=en-US).
+If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see Run fix scripts.
 
 You must have a standard or custom ERP extraction table in place to use. For more information, see [Add a new ERP extraction table in Zero Copy Connector for ERP](erp-canvas-add-new-extraction-table.md).
 

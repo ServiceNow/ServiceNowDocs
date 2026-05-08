@@ -64,5 +64,5 @@ Role required: image\_admin or content\_admin
 
 [Restrict file extensions](restrict-file-extensions.md)
 
-[System log](https://www.servicenow.com/docs/access?context=r_SystemLogs&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.r_SystemLogs]
 

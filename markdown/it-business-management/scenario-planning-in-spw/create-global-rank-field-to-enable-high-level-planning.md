@@ -90,7 +90,7 @@ Application
 Application scope of the table.This field is populated automatically based on the table that you selected.
 
 </td></tr></tbody>
-</table>    For complete details of the Dictionary Entry form fields, see [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>    For complete details of the Dictionary Entry form fields, see Dictionary entry form.
 
 5.  Save the form.
 

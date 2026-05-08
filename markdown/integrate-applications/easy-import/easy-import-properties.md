@@ -21,21 +21,21 @@ Several properties control the behavior of easy import.
 
     -   Type: Integer
     -   Default value: 10,000
-    -   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+    -   Location: Add a system property
 -   **glide.easy\_import.run\_business\_rules**
 
     When true, business rules, workflows, approval engines, auditing, and field normalization apply when easy import inserts or updates data. This functionality is equivalent to setting GlideRecord.setWorkflow\(\) to true or false.
 
     -   Type: true \| false
     -   Default value: true
-    -   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+    -   Location: Add a system property
 -   **glide.import\_template.field\_types\_to\_ignore**
 
     A list of fields that will be ignored when a record is imported with easy import feature.
 
     -   Type: String
     -   Default value: table\_name, order\_index, collection, user\_image, video, timer, translated\_field, conditions, field\_name, sys\_class\_name, journal, journal\_input, due\_date, user\_input, image, workflow, template\_value, domain\_id, documentation\_field, user\_roles, glide\_list
-    -   Location: [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+    -   Location: Add a system property
 
 **Parent Topic:**[Easy import](../concept/c_EasyImport.md)
 

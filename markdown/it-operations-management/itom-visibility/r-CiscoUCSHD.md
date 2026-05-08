@@ -25,11 +25,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create SNMP credentials**
 
-    For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see SNMP credentials.
 
 -   **Create applicative credentials**
 
-    Create applicative credentials for the **Cisco UCS Equipment \[cmdb\_ci\_ucs\_equipment\]** CI type. For more information, see [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Create applicative credentials for the **Cisco UCS Equipment \[cmdb\_ci\_ucs\_equipment\]** CI type. For more information, see Applicative credentials.
 
 -   **Classifier, pattern, and OIDs**
 

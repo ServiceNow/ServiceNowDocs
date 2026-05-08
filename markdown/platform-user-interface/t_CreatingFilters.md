@@ -84,7 +84,7 @@ Click **x** beside the condition.
 
 [Dot-walking to data in related tables](../../navigation/concept/c_DotWalking.md)
 
-[Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.r_FieldTypes]
 
 [Operators available for filters and queries](../../common-ui-elements/reference/r_OpAvailableFiltersQueries.md)
 

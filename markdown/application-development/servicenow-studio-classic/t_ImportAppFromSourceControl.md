@@ -84,7 +84,7 @@ Credential
 
 </td><td>
 
-Select the credential for your Git repository. \(See [Getting started with Credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US).\)**Note:** If you select the ssh network protocol, enter a valid credential of the SSH Private Key type. If you select the https protocol, enter a valid credential of the Basic Auth Credentials type.
+Select the credential for your Git repository. \(See Getting started with Credentials.\)**Note:** If you select the ssh network protocol, enter a valid credential of the SSH Private Key type. If you select the https protocol, enter a valid credential of the Basic Auth Credentials type.
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ The committer email address is defined by the sys\_user record if available. But
 **Related topics**  
 
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Getting started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.credentials-getting-started]
 

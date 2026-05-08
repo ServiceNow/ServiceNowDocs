@@ -25,7 +25,7 @@ Role required: localization\_admin or localization\_requestor
 
     The dashboard provides **Catalog Items Translations** report and **Virtual Agent Topic Translations** report by default using which you can request translations.
 
-    If you have created a report for your custom artifact to display in the dashboard, you can also request translations for the custom artifacts. For more information, see [Create a report for custom artifact](https://www.servicenow.com/docs/access?context=t_CreateYourOwnReport&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    If you have created a report for your custom artifact to display in the dashboard, you can also request translations for the custom artifacts. For more information, see Create a report for custom artifact.
 
 2.  In the **Catalog Items Translations** report or **Virtual Agent Topic Translations** report, click the vertical bar of the language into which you want to request translations.
 

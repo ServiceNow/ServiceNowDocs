@@ -33,17 +33,17 @@ Role required: Any user with an internal role can create dashboards.
 
 4.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(users with either the admin or the ui\_builder\_admin role. If you have any other role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://www.servicenow.com/docs/access?context=technical-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(users with either the admin or the ui\_builder\_admin role. If you have any other role, go to step 6. For more information about the technical editor, see Technical dashboards.
 
 5.  Select **Create new dashboard**.
 
 6.  Choose **In-line editor**.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Create a technical dashboard in UI Builder](https://www.servicenow.com/docs/access?context=create-tech-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see UI Builder and Create a technical dashboard in UI Builder.
 
 7.  Select **Add new element** to add content to the dashboard.
 
-    See [Exploring Platform Analytics dashboards](https://www.servicenow.com/docs/access?context=ac-elements&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for information about what you can add to a dashboard.
+    See Exploring Platform Analytics dashboards for information about what you can add to a dashboard.
 
     When you add a data visualization, select **New data visualization** to create a new visualization or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without pre-configured data or **Saved filter** to reuse an existing filter.
 

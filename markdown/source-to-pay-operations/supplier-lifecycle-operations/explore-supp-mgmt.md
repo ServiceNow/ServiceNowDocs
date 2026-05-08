@@ -116,7 +116,7 @@ Automatically assign supplier cases to agents based on availability and capacity
 
 </td></tr><tr><td>
 
-[Risk Assessments Integration for Supplier Lifecycle Operations](https://www.servicenow.com/docs/access?context=better-tprm-slo&version=australia&pubname=australia-better-together&ft:locale=en-US)
+Risk Assessments Integration for Supplier Lifecycle Operations
 
 </td><td>
 
@@ -159,7 +159,7 @@ Here are some additional ServiceNow resources that can help you:
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-docs.svg) Release Notes**
 
-    Learn more about what's new and changed. See the [Supplier Lifecycle Operations release notes](https://www.servicenow.com/docs/access?context=supplier-lifecycle-operations-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+    Learn more about what's new and changed. See the Supplier Lifecycle Operations release notes.
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-learning.svg) ServiceNow University**
 

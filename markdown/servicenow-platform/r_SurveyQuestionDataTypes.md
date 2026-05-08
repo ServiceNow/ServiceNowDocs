@@ -32,7 +32,7 @@ Any type of file supported by the platform can be attached to a question. One or
 
 The assessment administrator can see the attachments associated with an individual question as well as those associated with the survey.
 
-See [Administering attachments](https://www.servicenow.com/docs/access?context=r_AdministeringAttachments&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+See Administering attachments for more information.
 
 ## Boolean data type
 

@@ -138,7 +138,7 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 -   sn\_smart\_asmt.assessment\_reader
 -   sn\_risk\_advanced.risk\_asmt\_project\_reader
 
-**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://www.servicenow.com/docs/access?context=roles-installed-with-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** For more information on AI Control Tower roles, see AI Control Tower roles.
 
 </td></tr><tr><td>
 

@@ -23,9 +23,9 @@ Access to install base items requires the Customer Service Install Base Manageme
 
 See also:
 
--   [Model categories](https://www.servicenow.com/docs/access?context=c_ModelCategories&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Product Instance feature in Hardware Asset Management](https://www.servicenow.com/docs/access?context=product-instance-for-assets&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Create an install base item](https://www.servicenow.com/docs/access?context=create-install-base-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Model categories
+-   Product Instance feature in Hardware Asset Management
+-   Create an install base item
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -42,7 +42,7 @@ A PID is generated based on the following items defined in the Product Instance 
 -   PID configurations \(read only\)
 -   Order assigned to each configuration
 
-See also [Product Instance feature in Hardware Asset Management](https://www.servicenow.com/docs/access?context=product-instance-for-assets&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+See also Product Instance feature in Hardware Asset Management.
 
 <table id="table_mxt_n4d_tzb" class="parameters"><thead><tr><th>
 
@@ -78,7 +78,7 @@ String
 
 </td><td>
 
-The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see [Model categories](https://www.servicenow.com/docs/access?context=c_ModelCategories&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see Model categories.
 
 </td></tr><tr><td>
 
@@ -183,7 +183,7 @@ This method scans all the hierarchies for the model category and returns the PID
 |Name|Type|Description|
 |----|----|-----------|
 |className|String|Table name for the PID to be generated.|
-|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see [Model categories](https://www.servicenow.com/docs/access?context=c_ModelCategories&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).|
+|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see Model categories.|
 
 <table id="table_nxt_n4d_tzb" class="returns"><thead><tr><th>
 
@@ -352,7 +352,7 @@ This method can be used in business rules before invoking the generatePID\(\) me
 
 |Name|Type|Description|
 |----|----|-----------|
-|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see [Model categories](https://www.servicenow.com/docs/access?context=c_ModelCategories&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).|
+|modelCategorySysId|String|The sys\_id of the model category in the Model Categories \[cmdb\_model\_category\] table. For information, see Model categories.|
 
 <table id="table_nxt_n4d_tzb" class="returns"><thead><tr><th>
 

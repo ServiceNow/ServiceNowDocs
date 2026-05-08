@@ -27,15 +27,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
     -   Service Catalog: Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintatin Items** &gt; **Create DevOps Application** &gt; **Try It**.
 2.  On the Create DevOps Application form, choose whether to create a new application and new application model or to base the application on an existing application model.
 
-<table id="choicetable_ddn_pxv_2tb"><thead><tr><th align="left" id="d450306e105">
+<table id="choicetable_ddn_pxv_2tb"><thead><tr><th align="left" id="d450275e105">
 
 Choice
 
-</th><th align="left" id="d450306e108">
+</th><th align="left" id="d450275e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d450306e114">
+</th></tr></thead><tbody><tr><td id="d450275e114">
 
 **New application**
 
@@ -48,7 +48,7 @@ Enter a name for the new application.
 -   If the DevOps Config application is installed, then DevOps associates the application to the CDM application.
 
 
-</td></tr><tr><td id="d450306e150">
+</td></tr><tr><td id="d450275e150">
 
 **Existing application model**
 

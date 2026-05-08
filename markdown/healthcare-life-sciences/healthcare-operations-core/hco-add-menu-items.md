@@ -33,7 +33,7 @@ Role required: admin
 
 6.  On the form, fill in the fields.
 
-    For more information about the form fields and descriptions, see [Menu Item form](https://www.servicenow.com/docs/access?context=menu-item-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information about the form fields and descriptions, see Menu Item form.
 
 7.  Select **Submit**.
 

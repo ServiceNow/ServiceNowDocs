@@ -111,7 +111,7 @@ There are several ways to search for information in the user interface.
 -   List views include a **Go to** search field in the list title bar. Using the \* wildcard character in the search text allows you to perform a **contains** search rather than a **starts with** search. This type of query may take longer to run but can save keystrokes. You can also use several other wildcards with list searches.
 -   The navigation filter in the application navigator filters the applications and modules that appear in the navigator based on the entered text. Tab through or use skip links to navigate directly to the navigation filter. To open a module, click the module name, or press the Down Arrow to highlight the module name, and then press Enter.
 
-See [Available search options](https://www.servicenow.com/docs/access?context=c_IntroductionToSearching&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information about these search methods.
+See Available search options for more information about these search methods.
 
 ## View card details in a Visual Task Board
 

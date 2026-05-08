@@ -17,7 +17,7 @@ Use the script include for Scripted Extension Point to update the custom fields 
 
 The processes below explain how to implement the script include for Scripted Extension Point.
 
--   On the script include form, the script field is auto populated with the structure of expected function definitions. For more information on script include form, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   On the script include form, the script field is auto populated with the structure of expected function definitions. For more information on script include form, see Script includes.
 -   In the script include, the function have inputs that is available when the implementation is called.
 -   In case of iManage Extension Point \(sn\_lg\_ops.iManageCustomFieldHelperExtension\), following are the function definition, expectation and possible outputs:
 

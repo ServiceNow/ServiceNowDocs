@@ -18,7 +18,7 @@ Data Modification API method summaries and descriptions.
 |Method Summary|Description|
 |--------------|-----------|
 |[insert](r_Insert.md)|Creates a new record for the table targeted in the URL.|
-|[insertMultiple](r_InsertMultiple.md)|Creates multiple new records for the table targeted in the URL. To enable multiple inserts, activate the [Web service import sets](https://www.servicenow.com/docs/access?context=c_WebServiceImportSets&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).|
+|[insertMultiple](r_InsertMultiple.md)|Creates multiple new records for the table targeted in the URL. To enable multiple inserts, activate the Web service import sets.|
 |[update](r_Update.md)|Updates a existing record in the targeted table in the URL, identified by the mandatory **sys\_id** field.|
 |[deleteRecord](r_DeleteRecord.md)|Deletes a record from the targeted table by supplying its `sys_id`.|
 |[deleteMultiple](r_DeleteMultiple.md)|Delete multiple records from the targeted table by example values.|

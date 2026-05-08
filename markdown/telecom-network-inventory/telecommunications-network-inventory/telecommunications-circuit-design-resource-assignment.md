@@ -54,9 +54,9 @@ You can create a set of network inventory records to fulfill an order request fo
 **Related topics**  
 
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ITILChangeManagement]
 
 [Network inventory models](using-inventory-models-tni.md)
 

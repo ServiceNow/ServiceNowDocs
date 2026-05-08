@@ -15,7 +15,7 @@ You can use the conversational interface provided by AI Data Explorer Now Assist
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 AI Data Explorer, Query Generation Now Assist skills must be activated. Also, AI Search must be configured. For information, see [Configure AI Data Explorer and Query Generation skills](configure-ai-data-explr-qry-genr-skills.md).
 

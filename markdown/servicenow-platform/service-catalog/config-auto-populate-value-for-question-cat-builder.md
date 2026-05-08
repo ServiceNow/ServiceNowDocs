@@ -61,7 +61,7 @@ In a catalog item, for example, you can set up the value of the “Name of the m
 
         **Note:** To search any value, enter what you're looking for, for example, `manager` or dot-walk to get the required value.
 
-        For more information about dot-walking, see [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For more information about dot-walking, see Dot-walking to data in related tables.
 
 8.  Select **Insert question**.
 

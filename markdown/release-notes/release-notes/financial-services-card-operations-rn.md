@@ -16,17 +16,17 @@ The ServiceNow® Financial Services Card Operations application enables dispute 
 
 Streamline dispute document submission to Mastercard with the document attachment and validation enhancement.
 
-See [Financial Services Card Operations](https://www.servicenow.com/docs/access?context=card-ops-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See Financial Services Card Operations for more information.
 
 **Important:** Financial Services Card Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in this release
 
--   **[Automated document submission in Mastercard transaction dispute process](https://www.servicenow.com/docs/access?context=chargeback-stage-mastercard&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Automated document submission in Mastercard transaction dispute process**
 
     Streamline the submission of supporting documents to Mastercard in the Mastercard Dispute Management workflow through document attachment and validation. Attached files are automatically checked against Mastercard requirements for file type and size. This update reduces the need for manual intervention, minimizes rework, and helps avoid rejection risk.
 
--   **[New subflow and action to support Card data security](https://www.servicenow.com/docs/access?context=card-data-security&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **New subflow and action to support Card data security**
 
     Support attaching documents to a specified table record using the following subflow and action in Card data security:
 
@@ -39,11 +39,11 @@ Install Financial Services Card Operations by requesting it from the ServiceNow 
 
 ## Related ServiceNow applications and features
 
--   **[Financial Services Operations Integration with Mastercard](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Financial Services Operations Integration with Mastercard**
 
     The ServiceNow® Financial Services Operations Integration with Mastercard application enables financial institutions to manage the complete Mastercard dispute process from start to closure, including automated document submission.
 
--   **[Card Data Security](https://www.servicenow.com/docs/access?context=card-data-security&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Card Data Security**
 
     Card data security provides a tokenizer service to tokenize and detokenize data for Dispute Cases and Dispute Transactions to meet Payment Card Industry \(PCI\) requirements.
 

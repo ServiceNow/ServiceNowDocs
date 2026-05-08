@@ -15,7 +15,7 @@ breadcrumb: [Policy and Compliance Management reference, Policy and Compliance M
 
 Reference topics provide additional information about components that are installed with the activation of the Policy and Compliance Management plugin. These components include tables, user roles, and properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 

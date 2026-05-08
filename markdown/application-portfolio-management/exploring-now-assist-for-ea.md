@@ -17,7 +17,7 @@ With the Now Assist for Enterprise Architecture \(EA\) application, you can gene
 
 The Now Assist for EA application includes the skills and features of generative AI that enable you to summarize text in Architectural Decision Records \(ADR\) or help gather insights into business applications.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Skills
 
@@ -40,7 +40,7 @@ The Now Assist for Enterprise Architecture \(EA\) application includes the gener
     Elaborate or shorten text in the description or reasoning fields in forms. You can also use prompts to generate content for the **Reasoning** field found in **Planned Disposition** section of a business application form.
 
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see Large language models on the ServiceNow AI Platform®.
 
 -   **[Supporting information for Now Assist for Enterprise Architecture \(EA\)](supporting-info-now-assist-ea.md)**  
 Get a quick overview of the important information that is related to the Now Assist for Enterprise Architecture \(EA\) application.

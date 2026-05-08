@@ -35,7 +35,7 @@ Before you begin with the application, ensure that you have the required depende
 
 </td><td>
 
-As a first step, install:-   [ServiceNow IntegrationHub Installer](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(com.glide.hub.integrations\)
+As a first step, install:-   ServiceNow IntegrationHub Installer \(com.glide.hub.integrations\)
 -   ServiceNow® Integration Hub Runtime \(com.glide.hub.integration.runtime\).
 -   ServiceNow® Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow® Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)

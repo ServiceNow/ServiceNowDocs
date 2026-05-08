@@ -32,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Verify the configuration of credentials**
 
-    On the ServiceNow AI Platform®, verify the configuration of the Windows credentials. For more information, see [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+    On the ServiceNow AI Platform®, verify the configuration of the Windows credentials. For more information, see Windows credentials
 
 
 ## Data collected during horizontal discovery

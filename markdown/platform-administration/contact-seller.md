@@ -28,15 +28,15 @@ If you have questions about an app offered by ServiceNow, contact your account e
 
 2.  On the contact form, fill in the fields, which depend on whether you're logged in with your Now Support credentials.
 
-<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d303101e149">
+<table id="choicetable_z3s_bpn_bdc"><thead><tr><th align="left" id="d303079e149">
 
 Logged in status
 
-</th><th align="left" id="d303101e152">
+</th><th align="left" id="d303079e152">
 
 Fields displayed
 
-</th></tr></thead><tbody><tr><td id="d303101e158">
+</th></tr></thead><tbody><tr><td id="d303079e158">
 
 **Logged in**
 
@@ -44,7 +44,7 @@ Fields displayed
 
 Provide the reason for contacting the seller and your message.
 
-</td></tr><tr><td id="d303101e170">
+</td></tr><tr><td id="d303079e170">
 
 **Not Logged in**
 

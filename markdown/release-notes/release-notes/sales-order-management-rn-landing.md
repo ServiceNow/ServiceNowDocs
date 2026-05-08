@@ -18,7 +18,7 @@ Sales and Order Management \(SOM\) is now known as Sales Customer Relationship M
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 

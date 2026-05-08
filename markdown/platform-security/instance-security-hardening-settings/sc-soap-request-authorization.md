@@ -110,7 +110,7 @@ This remediation enforces a combination of authentication methods, in the form o
 -   It restricts any guest users who are currently accessing this data.
 -   Create an account for a user who needs access to this content, with the necessary access control permissions.
 
- To learn more, see [SOAP web service](https://www.servicenow.com/docs/access?context=c_SOAPWebService&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [MID Server authentication credentials and SOAP requests](https://www.servicenow.com/docs/access?context=mid-authentication-soap-requests&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ To learn more, see SOAP web service and MID Server authentication credentials and SOAP requests.
 
 </td></tr><tr><td>
 

@@ -15,7 +15,7 @@ breadcrumb: [Configure, Field Service Management]
 
 Inventory and asset management in Field Service Management refers to the process of efficiently organizing, tracking, and controlling resources such as equipment, parts, stockrooms, and other assets used in field service operations.
 
-Assets and model categories are created as needed, using Enterprise Asset Management. For more information, see [Create enterprise assets](https://www.servicenow.com/docs/access?context=create-asset-eam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+Assets and model categories are created as needed, using Enterprise Asset Management. For more information, see Create enterprise assets.
 
 ## Configuration overview
 

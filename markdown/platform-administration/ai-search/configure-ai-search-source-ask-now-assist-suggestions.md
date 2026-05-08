@@ -28,7 +28,7 @@ By default, Ask Now Assist suggestions are generated using a prefix-based GlideA
 
 Admins can configure the system to use AI Search as the source for Ask Now Assist suggestions in enhanced chat. Making this change activates suggestion term highlighting in Ask Now Assist and provides improvements such as wildcard searching and lemmatization for suggestions.
 
-For more information on Ask Now Assist suggestions in enhanced chat, see [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on Ask Now Assist suggestions in enhanced chat, see Enhanced chat.
 
 ## Procedure
 

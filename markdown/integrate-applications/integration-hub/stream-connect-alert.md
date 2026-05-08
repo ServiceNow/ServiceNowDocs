@@ -59,7 +59,7 @@ Administrators can configure notification settings based on alert types, user pr
 -   Stream Connect Alert - WARNING
 -   Stream Connect Alert - CRITICAL
 
-You can opt in to different levels using the standard system notification capabilities on the platform. Administrators can also configure notification debounce settings, including the time interval and criteria for consolidating alerts. For notification details, see [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can opt in to different levels using the standard system notification capabilities on the platform. Administrators can also configure notification debounce settings, including the time interval and criteria for consolidating alerts. For notification details, see Notifications.
 
 Notifications are sent to users who are members of the Stream Connect Alert Notifications group. The Stream Connect Alert Notifications group members inherit the Stream Connect Alert Viewer role so that everyone who receives notifications can use the link in the notification to see the alert record.
 
@@ -74,7 +74,7 @@ To view Stream Connect Alerts, you must have the Kafka Admin role or the Stream 
 
 ACLs on the Stream Connect Alerts table enable a user with the Stream Connect Alert Viewer role to view the alerts table and the reports on that table. Users without that role can’t read or report on that table. Only users with the Kafka Admin role can insert and update records on that table. ACLs make the Stream Connect Alerting properties page available only to Kafka Admins.
 
-On a domain-separated instance, the properties that govern alerts can be overridden on a per-domain basis. See [Domain separation application properties](https://www.servicenow.com/docs/access?context=ds-application-properties&version=australia&pubname=australia-platform-security&ft:locale=en-US) for details.
+On a domain-separated instance, the properties that govern alerts can be overridden on a per-domain basis. See Domain separation application properties for details.
 
 The domain used to look up properties is the domain of the topic or consumer. The Stream Connect Alerting properties UI for setting properties sets the global properties, not domain-specific overrides. There's no UI for setting domain-specific overrides. The sys\_domain of the Stream Connect Alerts table should be the same as the domain of the consumer that triggered it, for consumer alerts, or the domain for the sys\_kafka\_topic record for producer alerts. For alerts where a consumer or topic isn't known, the sys\_sc\_alert domain is set to global.
 

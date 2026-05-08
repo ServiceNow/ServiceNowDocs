@@ -22,8 +22,8 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## Prerequisites
 
 -   Ensure you are using the latest version of Discovery and Service Mapping Patterns.
--   Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   Set the SSH credentials for the enclosure’s Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure’s bays, so it can gather the blade servers' information. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Set SNMP credentials for the enclosure \(to be used by the Classifier\). For more information, see SNMP credentials.
+-   Set the SSH credentials for the enclosure’s Onboard Administrator \(to be used by the Discovery pattern\). The account used for accessing the Onboard Administrator must have permissions to view all of the enclosure’s bays, so it can gather the blade servers' information. For more information, see SSH credentials.
 -   Verify the Onboard Administrator’s IP address, which Discovery runs against.
 -   Ensure that the host machine is reachable from the MID Server.
 

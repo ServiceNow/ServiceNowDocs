@@ -15,7 +15,7 @@ breadcrumb: [Content Management and Service Portal, Understanding Service Portal
 
 Your CMS may include complex forms and customizations that do not render as expected in Service Portal. Use this guide to understand how best to modify your CMS and Service Catalog implementation for Service Portal adoption, and to understand how a conversion may affect your users.
 
-If you are considering transitioning from CMS to Service Portal, make sure that you understand the impact of moving to a mobile environment. Review the [Mobile client GlideForm \(g form\) scripting and migration](https://www.servicenow.com/docs/access?context=r_MobilePlatformMigrationImpacts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+If you are considering transitioning from CMS to Service Portal, make sure that you understand the impact of moving to a mobile environment. Review the Mobile client GlideForm \(g form\) scripting and migration.
 
 **Note:** For information about redirecting CMS users to Service Portal, see the [How to automatically redirect users who navigate to any CMS pages to Service Portal \[KB0722455\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0722455) article in the Now Support Knowledge Base.
 
@@ -102,9 +102,9 @@ Only UI Type options **Mobile / Service Portal** and **All** are supported. UI t
 -   getXML\(Function callback\)
 -   getXMLAnswer\(Function callback\)
 
-For additional information on GlideAjax, refer to [GlideAjax](https://www.servicenow.com/docs/access?context=c_GlideAjaxAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For additional information on GlideAjax, refer to GlideAjax.
 
- To understand the impact of updating your CMS to work in a mobile environment, review [Mobile client GlideForm \(g form\) scripting and migration](https://www.servicenow.com/docs/access?context=r_MobilePlatformMigrationImpacts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ To understand the impact of updating your CMS to work in a mobile environment, review Mobile client GlideForm \(g form\) scripting and migration.
 
 </td><td>
 

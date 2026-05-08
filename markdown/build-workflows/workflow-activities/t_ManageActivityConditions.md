@@ -83,7 +83,7 @@ Skip during generate
 
 </td><td>
 
-If selected, the [**Generate** activity](https://www.servicenow.com/docs/access?context=r_Generate&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) does not follow this transition to generate approvals or tasks.
+If selected, the **Generate** activity does not follow this transition to generate approvals or tasks.
 
 </td></tr></tbody>
 </table>3.  Click **Submit**.

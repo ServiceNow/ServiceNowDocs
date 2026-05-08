@@ -23,7 +23,7 @@ Modify an input by changing the label, modifying the type and associated propert
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -152,7 +152,7 @@ Delete inputs that are no longer necessary from your decision table in Workflow 
 
 Deleting an input from a decision table can break a flow, playbook, or script passing data through the input. Because of this possibility, you should know where the decision table is used before deleting anything from it.
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -173,7 +173,7 @@ Modify a condition column by renaming the label, editing the description, or upd
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 
@@ -198,7 +198,7 @@ Change the data that a decision evaluates by changing the source table for that 
 
 ### Before you begin
 
-Role required: admin, decision\_table\_admin, delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ### Procedure
 

@@ -20,14 +20,14 @@ When an inbound email is received, the sensitive data is masked. The sensitive d
 Redact sensitive data option is available in inbound email actions once the following is activated:
 
 -   [Sensitive Data Redaction for Inbound Emails plugin](../task/activate-data-redaction-emails-plugin.md)
--   [Data Discovery application](https://www.servicenow.com/docs/access?context=activate-data-discovery&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Data Discovery application
 
     **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
 
 
 To create inbound email actions, see [Create an inbound email action](../task/t_CreatingAnInboundEmailAction.md).
 
-Redaction time for the record can be viewed by checking the **Email Log**. For more information, see [System email log and mailboxes](https://www.servicenow.com/docs/access?context=r_EmailLogs&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Redaction time for the record can be viewed by checking the **Email Log**. For more information, see System email log and mailboxes.
 
 -   **[Activate sensitive data redaction for inbound emails plugin](../task/activate-data-redaction-emails-plugin.md)**  
 You can activate the Sensitive Data Redaction for Inbound Emails plugin \(com.glide.email\_inbound.redaction\) for Notifications if you have the admin role. The application installs related plugins if they are not already installed.

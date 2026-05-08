@@ -31,7 +31,7 @@ Role required: admin
 
     Use the information in the description to determine a value for the property.
 
-    **Note:** For more detail on creating system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+    **Note:** For more detail on creating system properties, see Add a system property
 
 <table id="table_myv_c2n_vnb"><thead><tr><th>
 

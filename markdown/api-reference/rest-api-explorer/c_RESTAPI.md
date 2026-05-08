@@ -76,7 +76,7 @@ The following describes some of the data handling nuances within the REST API.
 
     For example, if a user in the UK locale queries records with currency values in USD, the returned values are converted to GBP. However, if this user adds a new record with the currency field value in GBP, the value is stored in GBP without being converted to USD. This GBP value appears in USD if queried by a user in the US locale.
 
--   UI data display versus values passed in a REST endpoint: The UI shows the database [display value](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=australia&pubname=australia-platform-administration&ft:locale=en-US), which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](c_RESTAPI.md#REST-sysparm_input_display_value-row) request parameter to true.
+-   UI data display versus values passed in a REST endpoint: The UI shows the database display value, which is manipulated data. A REST endpoint, by default, inserts and updates the actual values, which can be different from the display value. You can force a REST endpoint to treat passed values as display values by setting the [sysparm\_input\_display\_value](c_RESTAPI.md#REST-sysparm_input_display_value-row) request parameter to true.
 
 ## Custom query parameters
 
@@ -129,7 +129,7 @@ Data type: Boolean
 
 Default: false - This matches the data type that is returned during data retrieval \(GET methods\), which is the actual values.
 
-**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see [Encryption](https://www.servicenow.com/docs/access?context=encryption-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** To set the value of an encrypted field, you must set this parameter to `true`. If this parameter is not set to true, values submitted to encrypted fields are not saved. Additionally, the requesting user must have the appropriate encryption context prior to submitting the request. Encrypted fields are hidden for users without the appropriate encryption context. For more information on field encryption see Encryption.
 
 </td></tr><tr><td>
 
@@ -149,7 +149,7 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-[Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
+Encoded query used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
 -   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
@@ -162,7 +162,7 @@ sysparm\_query
     -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
 -   &lt;value&gt;: Value to filter on.
 
-For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information about operators, see Operators available for filters and queries.
 
 Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
@@ -275,9 +275,9 @@ The user ID that you specify in a REST endpoint call is subject to access contro
 
 ServiceNow REST APIs also support cookies that enable binding to the existing session.
 
-To use the certificate to call the API and information on mutual authentication, see [Certificate-based authentication](https://www.servicenow.com/docs/access?context=certificate-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To use the certificate to call the API and information on mutual authentication, see Certificate-based authentication.
 
-REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the [REST API Auth Scope](https://www.servicenow.com/docs/access?context=rest-api-auth-scope&version=australia&pubname=australia-platform-security&ft:locale=en-US). To know more about REST API access policy, see [REST API access policies](https://www.servicenow.com/docs/access?context=inbound-authentication-profile&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+REST API access policies with the filter criterias such as IP, role, group and restrict the scope of API you can use the REST API Auth Scope. To know more about REST API access policy, see REST API access policies.
 
 You can craft one single policy to block the incoming request, at a global REST API level by using the REST API Access policy from outside trusted network and at a basic REST authentication levels.
 
@@ -296,7 +296,7 @@ The following ServiceNow REST API ACLs are available in the base system but are 
 -   Import Set API
 -   Attachment API
 
-For additional information on ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For additional information on ACLs, see Access control list rules.
 
 **Important:** You should never modify the names of REST API ACLs.
 

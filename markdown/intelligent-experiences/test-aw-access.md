@@ -41,7 +41,7 @@ To see instructions for performing manual tests to evaluate performance, see [Te
 
     The invoking user can be the user that triggers the agentic workflow or it can be the invoking user of an upstream component, such as an agentic workflow. For more information about how the invoking user works, see [Security for AI agents](../concept/aia-security-implementation.md).
 
-    When you select an invoking user, the user roles are populated in the **Invoking user roles** field. The field is read-only. If you want to change a user's roles, you must change the user's User record. See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    When you select an invoking user, the user roles are populated in the **Invoking user roles** field. The field is read-only. If you want to change a user's roles, you must change the user's User record. See Assign a role to a user.
 
 6.  Select **Test access**.
 

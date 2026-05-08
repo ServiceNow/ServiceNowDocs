@@ -17,7 +17,7 @@ Initiate a Sidebar chat to work towards the resolution of an incident.
 
 ## About this task
 
-You can integrate Slack and Microsoft Teams with Sidebar To know more about configuring Sidebar, refer [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+You can integrate Slack and Microsoft Teams with Sidebar To know more about configuring Sidebar, refer Sidebar.
 
 ## Before you begin
 

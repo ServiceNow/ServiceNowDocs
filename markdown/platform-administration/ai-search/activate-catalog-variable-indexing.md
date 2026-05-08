@@ -75,7 +75,7 @@ For details on the catalog variable types that AI Search can index content from,
 
     2.  In the **Value** field, enter an encoded query string to restrict the set of Catalog Item records that AI Search indexes catalog variables from.
 
-        As an example, enter **active=true** if you only want AI Search to index catalog variables from active Catalog Item records. For details on creating encoded query strings, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        As an example, enter **active=true** if you only want AI Search to index catalog variables from active Catalog Item records. For details on creating encoded query strings, see Encoded query strings.
 
     3.  Select **Update**.
 

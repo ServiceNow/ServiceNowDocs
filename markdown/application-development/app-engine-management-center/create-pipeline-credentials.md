@@ -24,7 +24,7 @@ You must use a functional user account with admin permissions to create the cred
 -   It should be controlled by your administrator.
 -   It should have admin privileges on all instances in the pipeline.
 
-You can create a new functional user account specifically for pipeline credentials, or use one that you have previously created with these characteristics. Either way, this user account must be created before you can create the pipeline credentials. For more information about creating this user, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can create a new functional user account specifically for pipeline credentials, or use one that you have previously created with these characteristics. Either way, this user account must be created before you can create the pipeline credentials. For more information about creating this user, see Create a user.
 
 Role required: admin
 

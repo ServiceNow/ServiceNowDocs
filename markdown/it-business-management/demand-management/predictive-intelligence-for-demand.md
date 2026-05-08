@@ -35,7 +35,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definition for Predictive Intelligence for Demand Management
 
-The solution definition for Predictive Intelligence for Demand Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Contextual search](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The solution definition for Predictive Intelligence for Demand Management capability is available in the Predictive Intelligence for PPM plugin \(com.snc.ppm\_ml\). For more information about Predictive Intelligence, see Predictive Intelligence and Contextual search.
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -71,7 +71,7 @@ View similar demands based on the **Demand Name** and **Description** fields. Yo
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.predictive-intelligence]
 
 [Train the similarity solution for Demand Management to find similar demands](../task/train-similarity-solution-dm.md)
 

@@ -36,7 +36,7 @@ You follow this general process to prepare an application to accept the upload o
 
     Starting with Configuration Data Management version 4.2, you can define a node using any UTF-8 character, including the forward slash \(`/`\).
 
-4.  Now that the structure is in place, you use the REST APIs or the CDM code editing panel to upload your existing configuration data into the changeset. The process is described in [Uploading your config data](cdm-upload-process.md). For more information, see [CdmApplicationsAPI](https://www.servicenow.com/docs/access?context=applications-api&version=australia&pubname=australia-api-reference&ft:locale=en-US), [CdmChangesetsAPI](https://www.servicenow.com/docs/access?context=changesets-api&version=australia&pubname=australia-api-reference&ft:locale=en-US), and [CdmSnapshoAPI](https://www.servicenow.com/docs/access?context=snapshot-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+4.  Now that the structure is in place, you use the REST APIs or the CDM code editing panel to upload your existing configuration data into the changeset. The process is described in [Uploading your config data](cdm-upload-process.md). For more information, see CdmApplicationsAPI, CdmChangesetsAPI, and CdmSnapshoAPI.
 
     **Note:** If you're uploading an XML or CSV file to import your existing config data into CDM, the CDM parser parses the data in a specific way. For more information, see [Parsing of XML files in CDM](cdm-parsing-xml-file.md) and [Parsing of CSV files in CDM](cdm-parsing-csv-file.md).
 

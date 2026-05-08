@@ -16,11 +16,11 @@ Configure AI Enhanced recommended actions for ICW to contextualize external sour
 
 ## Configuration overview
 
-1.  [Create a Microsoft SharePoint Online external content connector](https://www.servicenow.com/docs/access?context=create-ext-cont-connector-mspo&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+1.  Create a Microsoft SharePoint Online external content connector
 
     Create a Microsoft SharePoint Online external content connector to use as the external source.
 
-2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://www.servicenow.com/docs/access?context=configure-crawl-settings-spo-ext-cont-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+2.  Configure crawl settings for a Microsoft SharePoint Online external content connector
 
     Configure the crawl settings to specify the sites you want your Microsoft SharePoint Online external content connector to crawl.
 

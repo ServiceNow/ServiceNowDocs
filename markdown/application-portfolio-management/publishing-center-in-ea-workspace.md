@@ -42,7 +42,7 @@ Publishing status and indicators- Each publishing configuration displays a statu
 
 ## Required plugin
 
-To use this feature in the Enterprise Architecture Workspace, you must install the Knowledge Management Advanced Installer \[com.snc.knowledge\_advanced.installer\] plugin. For more information, see [Activate the Knowledge Management Advanced plugin](https://www.servicenow.com/docs/access?context=activate-knowledge-advanced-plugin&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). Activating this plugin activates the features such as article versioning, article subscriptions, and article templates.
+To use this feature in the Enterprise Architecture Workspace, you must install the Knowledge Management Advanced Installer \[com.snc.knowledge\_advanced.installer\] plugin. For more information, see Activate the Knowledge Management Advanced plugin. Activating this plugin activates the features such as article versioning, article subscriptions, and article templates.
 
 **Note:** Starting with the Xanadu release, the Knowledge Management Advanced plugin is automatically activated for new customers. If you are upgrading from a previous version, you must activate the plugin manually.
 

@@ -26,7 +26,7 @@ The primary \(active\) replica is automatically licensed by the Microsoft SQL Se
 
 You can use the ServiceNow® Discovery application to automatically locate and identify the Microsoft SQL Server Always On availability groups across your deployment. As part of this discovery process, the application identifies the infrastructure and attributes of each availability group, including the Role \(active or passive replica\), Availability Mode \(synchronous or asynchronous\), Failover Mode \(automatic or manual\), and Readable Secondary \(yes or no\). The Software Asset Management application then uses this information and the applicable licensing rules to calculate your license compliance position for Microsoft SQL Server.
 
-For more information on Microsoft SQL Server licensing, see [Microsoft Per Core licensing rules](microsoft-sw-license-metrics.md). For more information on Always On availability group discovery, see [Microsoft SQL Server and Cluster discovery](https://www.servicenow.com/docs/access?context=mssql-data-collected-pattern&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information on Microsoft SQL Server licensing, see [Microsoft Per Core licensing rules](microsoft-sw-license-metrics.md). For more information on Always On availability group discovery, see Microsoft SQL Server and Cluster discovery.
 
 **Parent Topic:**[Software Asset Management publisher pack for Microsoft](microsoft-publisher-pack.md)
 

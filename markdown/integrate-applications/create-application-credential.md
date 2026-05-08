@@ -137,5 +137,5 @@ This field doesn't appear to an RPA business user.
 **Related topics**  
 
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_HistorySets]
 

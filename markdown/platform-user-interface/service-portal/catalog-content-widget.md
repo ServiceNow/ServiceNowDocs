@@ -15,7 +15,7 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 The Catalog Content widget is part of the Service Catalog and includes a tiled list of all the content items available in the catalog. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-The items that appear on the page are grouped by category alphabetically. Catalog items and categories are defined in the Service Catalog application in the platform. For more information on creating catalog items to appear in the catalog, see [Create a catalog item](https://www.servicenow.com/docs/access?context=t_DefineACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The items that appear on the page are grouped by category alphabetically. Catalog items and categories are defined in the Service Catalog application in the platform. For more information on creating catalog items to appear in the catalog, see Create a catalog item.
 
 ![Catalog Content widget containing example catalog content such as Password Reset and New Hire Order Guide](../image/WidgetCatalogContent.png "Catalog Content widget")
 

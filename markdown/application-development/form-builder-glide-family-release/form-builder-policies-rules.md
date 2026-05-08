@@ -91,7 +91,7 @@ You can create and edit UI policies only for applications that you own. For more
 
 ### Result
 
-After you add the UI policy, you can configure scripts and the related list actions for it. For more information on client scripts and UI policies, see [Client scripts for UI policies](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+After you add the UI policy, you can configure scripts and the related list actions for it. For more information on client scripts and UI policies, see Client scripts for UI policies.
 
 ## Modify a UI policy in Table Builder
 

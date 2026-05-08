@@ -25,7 +25,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 3.  Select the desired page collection.
 
-    A [page collection](https://www.servicenow.com/docs/access?context=page-collections&version=australia&pubname=australia-application-development&ft:locale=en-US) is a group of pages that you can use in multiple experiences.
+    A page collection is a group of pages that you can use in multiple experiences.
 
 4.  In the Pages and variants section, select the Create new page icon \(**+**\) to create a new page or add a variant to a page.
 
@@ -55,5 +55,5 @@ The added component gets displayed on the UI. The location depends on where you 
 
 [Set record page order](config-csm-ws-set-record-page-order.md)
 
-[Customize UI Builder pages using components](https://www.servicenow.com/docs/access?context=work-components&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.work-components]
 

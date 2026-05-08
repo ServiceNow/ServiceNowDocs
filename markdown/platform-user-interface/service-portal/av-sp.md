@@ -15,7 +15,7 @@ breadcrumb: [Supported features in Service Portal, Exploring Service Portal, Ser
 
 View the health status of file attachments in Service Portal. Antivirus Scanning scans files in the Attachments \[sys\_attachments\] table by default. When viewed from a Service Portal page, attachments may not be available for download depending on their health status.
 
-**Note:** Antivirus Scanning is a ServiceNow AI Platform feature. For more information, see [Antivirus Scanning](https://www.servicenow.com/docs/access?context=antivirus-protection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** Antivirus Scanning is a ServiceNow AI Platform feature. For more information, see Antivirus Scanning.
 
 ## Scanning scenarios
 

@@ -40,7 +40,7 @@ You can query the system of record to create an ERP model for your ERP processes
 
     For example, you can select and hold \(or right-click\) on a column, such as **Storage location**, and select **Show Matching** records.
 
-    The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    The SAP data is accessible for you to work with using standard ServiceNow AI Platform searching, sorting, and filtering, such as the condition builder. For more information, see Condition builder.
 
 
 **Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](../concept/erp-canvas-work-with-remote-tables.md)

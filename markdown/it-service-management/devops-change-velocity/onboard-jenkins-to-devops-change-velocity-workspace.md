@@ -88,7 +88,7 @@ Steps
 
     3.  If your Jenkins instance is attached to a MID Server, select the MID Server option and enter its details.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection
 
 4.  Select **Connect**.
 

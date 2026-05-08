@@ -19,7 +19,7 @@ Role required: admin
 
 ## About this task
 
-**Important:** Service providers such as AT&amp;T and Verizon may soon be deprecating the **email-to-text** functionality. See [Using Notify with SMS](https://www.servicenow.com/docs/access?context=c_NotifySMS&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for SMS delivery.
+**Important:** Service providers such as AT&amp;T and Verizon may soon be deprecating the **email-to-text** functionality. See Using Notify with SMS for SMS delivery.
 
 Administrators also have the option of configuring how a device's service provider affects the construction of the device's email address.
 

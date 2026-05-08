@@ -35,7 +35,7 @@ Activate the following plugins before using the Predictive Intelligence Workbenc
 
 ## Solution definitions for Predictive Intelligence for Innovation Management
 
-The solution definitions for Predictive Intelligence for Innovation Management capability are available in the Predictive Intelligence for Ideation plugin \(com.snc.innovation\_management\_ml\). For more information about Predictive Intelligence, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+The solution definitions for Predictive Intelligence for Innovation Management capability are available in the Predictive Intelligence for Ideation plugin \(com.snc.innovation\_management\_ml\). For more information about Predictive Intelligence, see Predictive Intelligence.
 
 <table id="table_bdh_nzs_kbc"><thead><tr><th>
 
@@ -72,11 +72,11 @@ Suggests related ideas based on the **Title** and **Description** fields. You ca
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.predictive-intelligence]
 
 [Train the similarity solution for Innovation Management to find similar ideas](../task/train-similarity-solution-im.md)
 
-[Submit an idea using the supplier catalog](https://www.servicenow.com/docs/access?context=submit-idea&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+[bundle-stpop.submit-idea]
 
 [PPM PIWB template - Find similar ideas](../../itbm-PI-workbench/task/ppm-piwb-idea.md)
 

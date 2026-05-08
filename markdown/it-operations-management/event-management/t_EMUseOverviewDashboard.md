@@ -30,5 +30,5 @@ The AIOps dashboards offer comprehensive visualizations of critical operational 
 **Related topics**  
 
 
-[Performance Analytics and Reporting](https://www.servicenow.com/docs/access?context=c_performanceAnalyticsAndReporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.c_performanceAnalyticsAndReporting]
 

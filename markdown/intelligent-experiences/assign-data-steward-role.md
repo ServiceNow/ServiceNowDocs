@@ -24,7 +24,7 @@ A data steward is responsible for determining whether prompts, inputs, and respo
 
 The ServiceNow customer data sharing program allows you to provide data to improve ServiceNow AI products. This data helps improve prediction accuracy, enhance user experience, tailor products to your business needs, and reduce hallucinations for your activated Now Assist skills.
 
-The following steps explain how to assign a role to a specific user. Another option is to make a group, such as "AI Data Stewards," assign the role to the group, and then put the user in that group. See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+The following steps explain how to assign a role to a specific user. Another option is to make a group, such as "AI Data Stewards," assign the role to the group, and then put the user in that group. See Assign a role to a group for more information.
 
 ## Procedure
 

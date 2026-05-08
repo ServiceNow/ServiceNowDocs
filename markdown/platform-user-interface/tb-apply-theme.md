@@ -17,13 +17,13 @@ Publish multiple themes to your web instance or a single theme to your mobile in
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see Granular admin roles.
 
 ## About this task
 
 Currently, mobile instances can only accommodate one published theme at a time.
 
-If you want to publish a theme to specific mobile applications, you can use [Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US). Any themes that are created using Theme Builder are available for publishing in [Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US).
+If you want to publish a theme to specific mobile applications, you can use Mobile App Builder. Any themes that are created using Theme Builder are available for publishing in Mobile App Builder.
 
 Next Experience Polaris and Coral themes are available for publishing from Theme Builder.
 
@@ -90,7 +90,7 @@ From the Unpublished section, hover over the theme you want published, and drag 
 
     **Note:** Only themes that are created in Theme Builder can be edited and published using Theme Builder. Web and mobile themes you may have created outside of Next Experience \(for example, in the mobile legacy UI or Core UI\) can’t be viewed or edited within Theme Builder. To reuse these legacy themes, you must re-create them in Theme Builder.
 
-    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using [Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US).
+    Additionally, if you created and published themes outside of Theme Builder, and you want to revert them, you must navigate to the tables that they’re stored in and reapply them. If, however, you want to change themes in individual mobile applications, you can do so using Mobile App Builder.
 
 
 -   **[Set the default theme](set-the-default-theme.md)**  

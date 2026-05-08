@@ -41,7 +41,7 @@ Updated
 
 </td><td>
 
-Starts a flow when a record is updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-[system field](https://www.servicenow.com/docs/access?context=r_GlobalDefaultFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) even if the flow is currently running.
+Starts a flow when a record is updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-system field even if the flow is currently running.
 
 **Note:** The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the flow can run. However, if the **State** field then changes back to In Progress, the flow can't run.
 
@@ -57,7 +57,7 @@ Created or Updated
 
 </td><td>
 
-Starts a flow when a record is either created or updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-[system field](https://www.servicenow.com/docs/access?context=r_GlobalDefaultFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) even if the flow is currently running.
+Starts a flow when a record is either created or updated in a specific non-system table. Requires selecting when to run the flow.-   **For each unique change**: Triggers the flow for every unique update to a non-system field even if the flow is currently running.
 
 **Note:** The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the flow can run. However, if the **State** field then changes back to In Progress, the flow can't run.
 
@@ -74,11 +74,11 @@ Starts a flow when a record is either created or updated in a specific non-syste
 
 Use REST triggers to start a flow after a specific REST API request.
 
-**Note:** This feature requires an Integration Hub Enterprise subscription. For more information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Note:** This feature requires an Integration Hub Enterprise subscription. For more information, see Request Integration Hub.
 
 |Trigger|Description|
 |-------|-----------|
-|REST API - Asynchronous|Start a flow from an inbound API call or webhook from an external system. Configure the trigger start conditions without having to write or maintain custom code. For more information, see [REST API trigger](https://www.servicenow.com/docs/access?context=rest-trigger&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).|
+|REST API - Asynchronous|Start a flow from an inbound API call or webhook from an external system. Configure the trigger start conditions without having to write or maintain custom code. For more information, see REST API trigger.|
 
 ## Scheduled triggers
 
@@ -155,7 +155,7 @@ Inbound email flows take priority over inbound email actions. If you create flow
 
 With inbound email actions, you don't have full control over email attachment handling or assigning the target record of an email. When you create a flow with an inbound email trigger, you can perform these actions with the [Move Email Attachments to Record action](move-email-attachments-action.md) and the [Associate Record to Email action](associate-to-email-action.md). For greater control over email attachments, you can also use the [Look up email attachments action](lookup-email-attachment.md) to access a specific attachment as a data pill.
 
-Although you can process an inbound email with multiple inbound email actions, you can't process an inbound email with multiple flows by default. Additional configuration is required. For information on how to stop processing in inbound email actions, see [Specifying the inbound email processing order](https://www.servicenow.com/docs/access?context=r_OrderedEmailProcessingPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Although you can process an inbound email with multiple inbound email actions, you can't process an inbound email with multiple flows by default. Additional configuration is required. For information on how to stop processing in inbound email actions, see Specifying the inbound email processing order.
 
 For more information on running multiple flows on an inbound email, see [Allow multiple triggers to process an inbound email](../../notification/task/deactivate-stop-processing.md).
 
@@ -169,8 +169,8 @@ The following diagram shows how inbound emails are processed by inbound email tr
 
 Spokes can have conditional and event-driven external triggers or webhooks that start from third-party applications. The webhooks act as the triggers that provide the data to a flow. For example, when you create a P1-level issue in a third-party issue-tracking application, it updates the incident database record in the ServiceNow instance. To implement this flow, follow these steps:
 
-1.  [Set up a flow](https://www.servicenow.com/docs/access?context=set-up-flow-ihub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
-2.  [Set up external trigger endpoints](https://www.servicenow.com/docs/access?context=set-up-external-webhook-endpoints&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  Set up a flow
+2.  Set up external trigger endpoints.
 
 ## Advanced options
 
@@ -182,7 +182,7 @@ Specify the user session requirements needed to start a flow in the **Advanced O
 
     |Option|Description|
     |------|-----------|
-    |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See [Non-interactive sessions](https://www.servicenow.com/docs/access?context=c_NonInteractiveSessions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
+    |Only Run for Non-Interactive Session|Flow that is triggered only in non-interactive sessions. See Non-interactive sessions.|
     |Only Run for User Interactive Session|Flow that is triggered only in interactive sessions.|
     |Run for Both Interactive and Non-Interactive Sessions|Flow that is triggered in all sessions.|
 

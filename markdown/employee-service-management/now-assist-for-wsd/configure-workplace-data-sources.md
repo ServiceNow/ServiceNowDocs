@@ -113,7 +113,7 @@ The **Indicator** field appears when **Indicator** is selected from the Source l
 -   **Step**
 -   **Breakdown**
 -   **Aggregator**
-For more information about the fields, see [Performance Analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information about the fields, see Performance Analytics indicators.
 
 **Note:** The PA admin role \(pa\_admin\) must be explicitly assigned to users for them to run historic indicator jobs and edit indicators.
 

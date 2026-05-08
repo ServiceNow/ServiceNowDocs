@@ -19,7 +19,7 @@ The following diagram shows how the application helps bank agents resolve a comp
 
 ![Workflow that shows how a complaint request is resolved using the Complaint management application. For the text description, refer to the workflow steps that follow.](../image/fso-complaints-workflow-example.png "Complaint management workflow")
 
-**Note:** This workflow is built using [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US). The complaint admin can review and customize this predefined flow based on the business needs of your organization.
+**Note:** This workflow is built using Process Automation Designer and Flow Designer. The complaint admin can review and customize this predefined flow based on the business needs of your organization.
 
 The following workflow routes the case and tasks for a complaint request to agents in different departments. The agents log in to CSM Configurable Workspace to work on the case and tasks in their queue. The case playbook guides agents through the steps that are needed to resolve customer complaints.
 

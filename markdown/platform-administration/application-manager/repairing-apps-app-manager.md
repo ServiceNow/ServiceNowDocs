@@ -25,7 +25,7 @@ When you repair an application with a customization, the customization is also r
 
 It’s assumed the complete set of customizations for an application is within the application customization. When repairing, installing, or upgrading the underlying application or plugin that has an associated app customization, changes made outside of that application customization are overwritten.
 
-For more information about customizations, see [Customization vs. configuration with Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-custom-vs-config&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about customizations, see Customization vs. configuration with Creator Studio.
 
 -   **[Repair an application or plugin](../task/repair-application-app-mgr.md)**  
 Repair an application procured through the ServiceNow Store or a plugin included in your instance. Repairing apps or plugins can resolve issues caused by unintentional modifications, corrupted files, or partial deletion.

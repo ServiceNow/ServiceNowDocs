@@ -272,7 +272,7 @@ Steps
 
 </td></tr><tr><td>
 
-[Quick start tests for Dashboards](https://www.servicenow.com/docs/access?context=quick-start-tests-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+Quick start tests for Dashboards
 
 </td><td>
 

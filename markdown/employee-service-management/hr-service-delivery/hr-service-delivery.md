@@ -73,7 +73,7 @@ HR Service Delivery is a suite of applications that drive employee productivity 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the HR Service Delivery release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying HR Service Delivery features at [HR Service Delivery best practices](https://mynow.servicenow.com/now/best-practices/collections/hr-service-delivery).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

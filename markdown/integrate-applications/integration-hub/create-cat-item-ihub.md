@@ -82,7 +82,7 @@ SCCM configuration
 
 </td><td>
 
-Name of the [Define an SCCM configuration](https://www.servicenow.com/docs/access?context=t_ConfigureSCCMCollections&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for this application. This record defines the collection and uninstall collection for this application. This configuration is required for all deployments, revocations, and leases performed by the SCCM server.
+Name of the Define an SCCM configuration for this application. This record defines the collection and uninstall collection for this application. This configuration is required for all deployments, revocations, and leases performed by the SCCM server.
 
 </td></tr></tbody>
 </table>5.  If the catalog item requires approval because of cost, be sure to configure an approval group in the**Approved By Group** related list.

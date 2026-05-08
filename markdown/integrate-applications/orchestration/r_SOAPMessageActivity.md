@@ -105,7 +105,7 @@ midserver
 
 </td><td>
 
-Name of the MID Server to use. This field appears when you select the **Use MID Server** check box. The workflow ignores this parameter if the **use\_midserver** parameter is disabled.**Note:** You can only select a specific MID Server in the legacy SOAP message activity and REST messages. These legacy activities do not use the [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) available starting with the Istanbul release.
+Name of the MID Server to use. This field appears when you select the **Use MID Server** check box. The workflow ignores this parameter if the **use\_midserver** parameter is disabled.**Note:** You can only select a specific MID Server in the legacy SOAP message activity and REST messages. These legacy activities do not use the MID Server selection available starting with the Istanbul release.
 
 </td></tr><tr><td>
 

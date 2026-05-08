@@ -53,15 +53,15 @@ Use these applications right away, or customize them to suit your business needs
 
 -   **Mobile experience for Customer Service Management**
 
-    Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly. For more detail, see [Mobile experience for Customer Service Management](https://www.servicenow.com/docs/access?context=customer-service-mobile-interface&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly. For more detail, see Mobile experience for Customer Service Management.
 
 -   **Mobile experience for Employee Experience Suite**
 
-    Approve catalog requests, requested items, or change requests from anywhere using the ITSM Mobile Agent app. For more detail, see [ITSM Mobile agent](https://www.servicenow.com/docs/access?context=itsm-mobile-agent&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    Approve catalog requests, requested items, or change requests from anywhere using the ITSM Mobile Agent app. For more detail, see ITSM Mobile agent.
 
 -   **Mobile experience for Field Service Management**
 
-    Manage your field service tasks anywhere using the Field Service Management mobile application. With this application, you stay connected with your mobile device, can access important information, and complete your tasks quickly. For more detail, see [Mobile experience for Field Service Management](https://www.servicenow.com/docs/access?context=mobile-experience-fsm&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+    Manage your field service tasks anywhere using the Field Service Management mobile application. With this application, you stay connected with your mobile device, can access important information, and complete your tasks quickly. For more detail, see Mobile experience for Field Service Management.
 
 
 ## Create your own applications

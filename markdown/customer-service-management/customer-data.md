@@ -52,5 +52,5 @@ Implemented new administrative roles that provide fine-grained access control ac
 -   Updated "Before you begin" sections across all Customer Data Foundation configuration topics with role prerequisites.
 -   Enhanced security compliance through role-based access segregation.
 
-For detailed information on the granular admin roles in CDF and their associated privileges, see [Platform security granular admin roles](https://www.servicenow.com/docs/access?context=platsec-granular-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For detailed information on the granular admin roles in CDF and their associated privileges, see Platform security granular admin roles.
 

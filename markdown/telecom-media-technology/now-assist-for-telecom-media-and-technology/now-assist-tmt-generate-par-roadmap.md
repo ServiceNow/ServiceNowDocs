@@ -74,7 +74,7 @@ Use Now Assist to generate a roadmap by analyzing the engagement's details inclu
 **Related topics**  
 
 
-[Create a product adoption roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-create-par-roadmap&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+[bundle-actle.account-lifecycle-create-par-roadmap]
 
-[View a product adoption roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-view-par-roadmap&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+[bundle-actle.account-lifecycle-view-par-roadmap]
 

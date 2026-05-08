@@ -20,64 +20,64 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 -   Renamed Service Model Foundation entities for clarity and consistency. Update any configurations, scripts, or integrations that reference these entities.
 -   Enable billing account support on Sold Products to give agents instant financial context, accelerate billing case resolution, and improve billing accuracy and transparency.
 
-See [Data management for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-data-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) feature for more information.
+See Data management for Customer Service Management feature for more information.
 
 **Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Configuring a contact as a consumer](https://www.servicenow.com/docs/access?context=configuring-a-contact-as-a-unified-consumer&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Configuring a contact as a consumer**
 
     Model a single user who functions as both a contact and a consumer within your customer data structure. This capability improves administrative efficiency by reducing the overhead of creating and maintaining multiple user records for the same individual. It also provides a unified experience, eliminating the need to switch logins across different personas.
 
--   **[Granular administrative roles for Customer Data Foundation](https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Granular administrative roles for Customer Data Foundation**
 
     Implemented administrative roles that provide fine-grained access control across CDF. These roles can be assigned to administrators and other personas based on job functions and security requirements. It includes the following capabilities:
 
     -   Added 25 admin roles with specific read, write, create, and delete permissions.
     -   Updated Before you begin sections across all Customer Data Foundation configuration topics with role prerequisites.
     -   Improved security compliance through role-based access segregation.
--   **[New fields in the Customer Account table](https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **New fields in the Customer Account table**
 
     Added the following fields to the Customer Account \(customer\_account\) table to improve business identification and record management:
 
     -   DUNS Number: Store the Data Universal Numbering System \(DUNS\) identifier for business accounts to support data enrichment and third-party integrations.
     -   Active: Indicates whether an account record is active for filtering and workflow purposes.
--   **[Description field added Customer Data Foundation configuration tables](https://www.servicenow.com/docs/access?context=csm-cust-access-mgmt-tables&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Description field added Customer Data Foundation configuration tables**
 
     Added a Description field to the following Customer Data Foundation \(CDF\) configuration tables to capture additional details about each record:
 
     -   Related Party Configuration \[sn\_customerservice\_related\_party\_configuration\] table
     -   Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table
     -   Responsibility Access Configuration \[sn\_customerservice\_responsibility\_access\_config\] table
--   **[Billing accounts data model enhancements](https://www.servicenow.com/docs/access?context=add-related-parties-to-a-billing-account&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Billing accounts data model enhancements**
 
     Grant contacts and consumers access to billing accounts through the related parties data model, using out of base system responsibilities and roles.
 
--   **[Service Model Foundation Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Service Model Foundation Granular admin roles**
 
     Added new granular admin roles to enable targeted permission assignments based on functional responsibilities, replacing broad admin access.
 
--   **[Add related parties to an install base item](https://www.servicenow.com/docs/access?context=add-related-party-install-base&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Add related parties to an install base item**
 
     The Sold product is enhanced to support Related pricing.
 
--   **[Adding related parties to a sold product](https://www.servicenow.com/docs/access?context=add-related-parties-to-sp&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Adding related parties to a sold product**
 
     Use flexible price and quantity ramps that adapt over a product’s lifecycle, enabling time-based pricing, segment modifications during post-sale workflows, and accurate calculations across multi-year contracts.
 
--   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Sold product form**
 
     Use scheduled jobs to update the state of the Sold product based on start and end dates. Ensure that sold products follow clear start and end dates with automatic state updates, giving customers fair access, predictable billing, and reducing errors through accurate lifecycle management and delta pricing.
 
--   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Sold product form**
 
     Billing Account support on Sold Products to give agents immediate financial context, streamline billing‑related case resolution, and improve billing accuracy and transparency for customers and enterprises.
 
 
 ## Changed in this release
 
--   **[Enhanced Customer Data Viewer role](https://www.servicenow.com/docs/access?context=business-stakeholder-for-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Enhanced Customer Data Viewer role**
 
     The Customer Data Viewer \(sn\_customerservice.customer\_data\_viewer\) role includes expanded access to additional data tables and menu items. These enhancements enable users to view a broader range of customer data while maintaining read-only access restrictions. With this enhancement, you can:
 
@@ -85,46 +85,46 @@ See [Data management for Customer Service Management](https://www.servicenow.com
         -   Inherit household role in customer data viewer role
     -   Explore additional menu items now accessible to the customer data viewer role.
 
--   **[Household plugin migration to ServiceNow Store](https://www.servicenow.com/docs/access?context=activate-customer-service-household&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Household plugin migration to ServiceNow Store**
 
     Starting with the Australia release, the Household family plugin \(com.snc.household\) has been migrated to the ServiceNow Store as a standalone application. Any new enhancements to this application are delivered through the Household store app. This change provides improved packaging, versioning, and deployment flexibility for B2C implementations that require household relationship management.
 
 
--   **[Guided setup access for granular admin roles](https://www.servicenow.com/docs/access?context=import-csm-accounts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Guided setup access for granular admin roles**
 
     Access to foundation data steps in guided setup now aligns with CDF admin roles. This access change enables administrators to delegate specific configuration tasks to users based on their assigned roles, providing greater flexibility in managing setup responsibilities.
 
--   **[Extensible account code support](https://www.servicenow.com/docs/access?context=csm-account-code-account-path&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Extensible account code support**
 
     Updated the account code generation logic to support dynamic length scalability. Account codes now automatically expand from 4 digits to 5 or more as needed, ensuring unlimited account growth without manual intervention. Administrators can resolve invalid insert errors by clearing the system property to regenerate codes based on the maximum existing code.
 
--   **[Declarative Responsibility Framework enhancements](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Declarative Responsibility Framework enhancements**
 
     Introduced usability and functional enhancements to the Customer Access Management \(CAM\) Declarative Responsibility Framework. These updates streamline access configuration management and improve flexibility for responsibility definitions. With this enhancement, you can now:
 
     -   Import or copy access configurations from one responsibility definition to another.
     -   Manage CAM-related assets through improved cleanup capabilities.
     -   Reference any field name in the Responsibility Definition field configuration.
--   **[Unified User configuration enhancements](https://www.servicenow.com/docs/access?context=configuring-unified-user&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Unified User configuration enhancements**
 
     Added a system property \(sn\_customerservice.consumer.allowed\_user\_types\) to enhance unified user management. This property specifies which user types \(classes\) can be associated with consumers.
 
--   **[Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Customer Life Cycle Management Workflows**
 
     Added core primitives to support price and quantity ramps, enabling flexible, time‑based changes across the sold product lifecycle. The feature delivers scalable pricing aligned with usage, simplifies post-sale workflows, and improves revenue forecasting without custom scripts.
 
--   **[Install base data model enhancements](https://www.servicenow.com/docs/access?context=create-install-base-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Install base data model enhancements**
 
     Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
 
     Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
 
--   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Sold product form**
 
     Create future‑dated subscription products in a **Pending Activation** state to improve the Add‑Order‑to‑Sold‑Product process. It also ensures lifecycle accuracy, predictable billing, and fair access for customers while improving revenue recognition for businesses.
 
 
--   **[Service Model Foundation renamed Entities](https://www.servicenow.com/docs/access?context=renamed-entities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Service Model Foundation renamed Entities**
 
     Renamed Service Model Foundation entities to improve clarity and maintain consistency across the platform. Review your existing configurations, scripts, or integrations that reference these entities and update them accordingly.
 
@@ -140,11 +140,11 @@ See [Data management for Customer Service Management](https://www.servicenow.com
 
 ## Activation information
 
-CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management \(CSM\) plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management \(CSM\) plugin \(com.sn\_customerservice\). For details, see Activate Customer Service Management.
 
-Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Additional CSM features are available with the activation of other plugins. For details, see Additional plugins for Customer Service Management.
 
-Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&version=australia&pubname=australia-order-management&ft:locale=en-US).
+Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see Exploring Sales Customer Relationship Management.
 
 ## Plugin information
 
@@ -175,26 +175,26 @@ Starting with the Australia release, data management for Customer Service Manage
 
 ## Related ServiceNow applications and features
 
--   **[Communities](https://www.servicenow.com/docs/access?context=servicenow-communities&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Communities**
 
     From the Customer Service Portal and Consumer Service Portal, you can enable your customers to connect, engage, and collaborate by using the ServiceNow® Communities application. Customer Service agents can create cases from community discussion threads and resolve cases with the community content.
 
--   **[Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US)**
+-   **Field Service Management**
 
     Customer Service Management includes an integration with the ServiceNow® Field Service Management application. With this integration, your technicians, agents, consumers, and customers can perform the following tasks:
 
     -   Field service technicians can view customer account and contact information on work orders and work order tasks in the Field Service Management application.
     -   Customer service agents can create work orders from cases in the Customer Service Management application.
     -   Customers and consumers can view the case-related work orders from the Customer Service Portal and Consumer Service Portal.
--   **[Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Workforce Optimization for Customer Service**
 
     Manage and maintain the productivity of your workforce from a single application by using ServiceNow® Workforce Optimization for Customer Service. With this application, you can efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.
 
--   **[Workspace](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Workspace**
 
     ServiceNow® Workspace is a graphical user interface that puts multiple tools on one page, including the tools that agents use to identify, research, and resolve issues. CSM Configurable Workspace and CSM Agent Workspace are customer service implementations that provide tier-1 agents with the tools that they use to respond to customers and to resolve cases.
 
--   **[Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Sales Customer Relationship Management**
 
     The Sales Customer Relationship Management applications enable you to manage the product sales and order fulfillment life cycles in your organization. It includes pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
 

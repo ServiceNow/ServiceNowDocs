@@ -23,7 +23,7 @@ After upgrading synthetic monitoring, if the monitor is hosted on a MID Server, 
 
 ## Remedy
 
-Restart the MID Server. See [Manually start, stop, and restart a MID Server](https://www.servicenow.com/docs/access?context=t_InstallMIDServerAsWinService&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Restart the MID Server. See Manually start, stop, and restart a MID Server.
 
 **Parent Topic:**[Troubleshoot synthetic monitors](troubleshoot-synthetic-monitors.md)
 

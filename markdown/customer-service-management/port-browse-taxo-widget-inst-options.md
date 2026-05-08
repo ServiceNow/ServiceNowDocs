@@ -120,7 +120,7 @@ Catalog Order Guide Page
 
 </td><td>
 
-The Catalog Order Guide page that opens when the catalog order guide is accessed. For details, see [Order guides](https://www.servicenow.com/docs/access?context=c_ServiceCatalogOrderGuides&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)By default, this field is set to the Order guide \[sc\_cat\_item\_guide\] table.
+The Catalog Order Guide page that opens when the catalog order guide is accessed. For details, see Order guidesBy default, this field is set to the Order guide \[sc\_cat\_item\_guide\] table.
 
 </td></tr></tbody>
 </table>**Related topics**  

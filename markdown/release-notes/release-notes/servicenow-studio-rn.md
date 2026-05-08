@@ -19,7 +19,7 @@ The ServiceNowÂ® ServiceNow Studio application provides a unified experience for
 -   Create and edit full-stack applications conversationally with Build Agent, an autonomous AI agent.
 -   Build pages for workspaces or custom web experiences in your applications by adding UI Builder files to your application in ServiceNow Studio.
 
-See [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See ServiceNow Studio for more information.
 
 ## Important information for upgrading ServiceNow Studio to Australia
 
@@ -27,7 +27,7 @@ ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. Itâ€
 
 ## New in the Australia release
 
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Build Agent in ServiceNow Studio**
 
     Use Build Agent in ServiceNow Studio to create and edit full-stack applications conversationally.
 
@@ -35,34 +35,34 @@ ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. Itâ€
 
     Begin a chat with Build Agent directly from the app creation workflow. This setting can be configured in user preferences.
 
--   **[Add UI Builder files to your apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-file-navigator-taxonomy&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Add UI Builder files to your apps in ServiceNow Studio**
 
     Add UI Builder components, controllers, experiences, page collections, and UI interactions into your ServiceNow Studio apps.
 
--   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **New vibe coding documentation**
 
     Explore vibe coding, which is a natural language approach to application development in ServiceNow, with new documentation, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
 
 
 ## UI changes
 
--   **[ServiceNow Studio user interface](https://www.servicenow.com/docs/access?context=servicenow-studio-user-interface&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **ServiceNow Studio user interface**
 
     The Navigator panel icons in ServiceNow Studio have changed slightly in size and appearance, but not in function.
 
 
 ## Changed in this release
 
--   **[Preview an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=preview-app-file&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Preview an app file in ServiceNow Studio**
 
     Files with preview capabilities open directly in preview mode in ServiceNow Studio, bypassing the record view. This change reduces the number of steps required to view file content and keeps developers focused on their work without manual mode switching.
 
 
--   **[Integrated tab groupings](https://www.servicenow.com/docs/access?context=qs-open-apps-files-across-scopes&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Integrated tab groupings**
 
     Integrated tabs are no longer color-coded or grouped by scope. You can see a list of the open files by selecting the more actions icon and selecting **Show Opened Editors**.
 
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Build Agent in ServiceNow Studio**
 
     Build Agent is the default setting for AI-assisted app generation in ServiceNow Studio. You can change this setting in the ServiceNow Studio user preferences menu.
 
@@ -77,67 +77,67 @@ ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
 ## Related ServiceNow applications and features
 
--   **[Access control](https://www.servicenow.com/docs/access?context=c_SNCAccessControl&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Access control**
 
     Work with access controls and roles for apps and files in ServiceNow Studio.
 
--   **[App generation](https://www.servicenow.com/docs/access?context=sns-now-assist-app-gen-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **App generation**
 
     Create applications through a conversation with generative AI.
 
--   **[Build Agent](https://www.servicenow.com/docs/access?context=build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Build Agent**
 
     Use Build Agent, an autonomous AI agent, for creating and updating ServiceNowÂ® applications.
 
--   **[Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Creator Studio**
 
     Use Creator Studio to create an application without writing code.
 
--   **[Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Catalog Builder**
 
     Create and edit catalog items directly in ServiceNow Studio.
 
--   **[Decision tables in Workflow Studio](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Decision tables in Workflow Studio**
 
     Add decision rules and use decision tables to decouple decision logic from code.
 
--   **[Email notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Email notifications**
 
     Create and edit email notifications that are automatically sent when a record is created or updated. Email notifications are also used as a reference in flows or can be triggered by an event.
 
--   **[Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Flows in Workflow Studio**
 
     Create and edit flows, subflows, and actions directly in a Workflow Studio tab within ServiceNow Studio.
 
--   **[Integration Hub - Import](https://www.servicenow.com/docs/access?context=integrationhub-imports&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Integration Hub - Import**
 
     Import data into existing tables in ServiceNow Studio.
 
--   **[Mobile App Builder](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US)**
+-   **Mobile App Builder**
 
     Add mobile experiences in a Mobile App Builder within ServiceNow Studio.
 
--   **[Playbooks in Workflow Studio](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Playbooks in Workflow Studio**
 
     Edit cross-functional processes and consolidate them into automated task-oriented views.
 
--   **[ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **ReleaseOps**
 
     ReleaseOps automates deployment of changes across your pipeline, which helps increase predictability and reliability of deployments and helps reduce the risk of releasing changes to production.
 
--   **[Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Table Builder**
 
     Work with data models in a tabular format in a tab within ServiceNow Studio.
 
--   **[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **UI Builder**
 
     Create and edit experiences in a tab within ServiceNow Studio.
 
--   **[Vibe coding and AI-assisted development on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=vibe-coding-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Vibe coding and AI-assisted development on the ServiceNow AI Platform**
 
     Use vibe coding and ServiceNow agentic-assisted app building tools to describe your goals in natural language, and have the ServiceNow AI Platform generate full-stack applications, workflows, and integrations.
 
--   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Workflow Studio**
 
     Integrate workflow authoring, configuring, and monitoring into a single-page experience within ServiceNow Studio.
 

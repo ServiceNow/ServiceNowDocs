@@ -15,11 +15,11 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The DevOpsOrchestrationToolIntegrationHandler API enables processing of payloads from custom DevOps tools.
 
-A custom DevOps tool is any tool that doesn't have an integration with DevOps. For a list of tools that have DevOps integrations, see [DevOps Change Velocity integrations](https://www.servicenow.com/docs/access?context=dev-ops-overview&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+A custom DevOps tool is any tool that doesn't have an integration with DevOps. For a list of tools that have DevOps integrations, see DevOps Change Velocity integrations.
 
 This API enables the processing of payloads that are used by the REST endpoint [DevOps - POST /devops/tool/\{capability\}](../../../../../integrate/inbound-rest/concept/devops-api.md#). You must implement the methods of this API in a script include before calling the POST /devops/tool/\{capability\} endpoint.
 
-This API executes in the `sn_devops` namespace. For more information about DevOps, see [DevOps Config](https://www.servicenow.com/docs/access?context=devops-config-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+This API executes in the `sn_devops` namespace. For more information about DevOps, see DevOps Config.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

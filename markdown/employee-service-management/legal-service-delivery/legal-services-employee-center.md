@@ -42,7 +42,7 @@ Complete the following tasks to enable legal services on the Employee Center por
 
 2.  Create intake forms and knowledge base articles for legal services and support.
 
-    For more information on creating a legal request intake form, see [intake forms for legal requests](../task/create-record-producer-legal-request.md); and for more information on creating a knowledge base article, see [knowledge base articles](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on creating a legal request intake form, see [intake forms for legal requests](../task/create-record-producer-legal-request.md); and for more information on creating a knowledge base article, see knowledge base articles.
 
 3.  Associate the content with a topic in the taxonomy.
 

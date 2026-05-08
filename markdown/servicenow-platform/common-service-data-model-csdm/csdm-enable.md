@@ -23,7 +23,7 @@ Activate the CSDM plugin so you can begin implementing the CSDM data model.
 
 ## Procedure
 
-1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  Activate the `com.snc.cmdb.csdm.activation` plugin as described in Activate a plugin.
 
     For information about the components installed with a plugin, see [Find components installed with an application](https://www.servicenow.com/docs/bundle/australia-platform-administration/page/administer/plugins/task/find-components.html).
 

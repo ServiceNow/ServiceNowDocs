@@ -23,7 +23,7 @@ The ART level includes the following tabs:
 
 ## Board
 
-The **Board** tab enables you to track all the features of your agile release train in a single view. Board is built on visual task boards, which transform the navigation of the Classic Environment into an interactive graphical experience. The visual task board interface provides a graphic-rich environment for managing and collaborating. To learn more about the actions that can be performed in the board, see [Visual Task Boards](https://www.servicenow.com/docs/access?context=c_VisualTaskBoards&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The **Board** tab enables you to track all the features of your agile release train in a single view. Board is built on visual task boards, which transform the navigation of the Classic Environment into an interactive graphical experience. The visual task board interface provides a graphic-rich environment for managing and collaborating. To learn more about the actions that can be performed in the board, see Visual Task Boards.
 
 You can move a feature from one lane to another, which in turn updates the state of the feature. For example, when you move a feature from the Analysis lane to the Backlog lane, the state of the feature updates to Backlog.
 

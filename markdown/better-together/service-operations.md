@@ -259,7 +259,7 @@ In this workflow:
     3.  Install Service Operations Workspace ITSM Applications from the ServiceNow® Store. For information about installing this application, see Install Service Operations Workspace ITSM Applications.
 2.  Ensure that the following conditions are met for Service Operations Workspace for ITOM.
     1.  Procure the ITOM Professional license or later for ServiceNow® IT Operations Management applications. Contact your ServiceNow account manager or sales representative.
-    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see [Install Service Operations Workspace for ITOM Applications](https://www.servicenow.com/docs/access?context=install-sow-itom-apps&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    2.  Install Service Operations Workspace ITOM Applications from the ServiceNow® Store. For information about installing this application, see Install Service Operations Workspace for ITOM Applications.
 
 ## Get started with Service Operations Workspace for ITSM and ITOM
 
@@ -270,7 +270,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: admin.
 
-    2.  Set up Investigation Framework. See [Setting up Investigation Framework in Service Operations Workspace](https://www.servicenow.com/docs/access?context=set-up-investigate&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    2.  Set up Investigation Framework. See Setting up Investigation Framework in Service Operations Workspace.
 
         Role: admin.
 
@@ -283,7 +283,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_operator.
 
-    2.  Configure alert metrics. See [Configure alert metrics](https://www.servicenow.com/docs/access?context=configure-alert-metrics-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    2.  Configure alert metrics. See Configure alert metrics.
 
         Role: evt\_mgmt\_operator.
 
@@ -295,7 +295,7 @@ To get started with Service Operations Workspace for ITSM and ITOM, follow these
 
         Role: evt\_mgmt\_admin.
 
-    5.  Customize Service Operations Workspace lists. See [Customize lists in Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=create-list-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    5.  Customize Service Operations Workspace lists. See Customize lists in Service Operations Workspace for ITOM.
 
         Role: itil.
 

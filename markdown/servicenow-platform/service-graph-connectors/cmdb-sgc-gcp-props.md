@@ -269,7 +269,7 @@ Set the value to `true` to add new resource types to the Service Graph Resource 
 
 You can create these custom system properties for the Service Graph Connector for GCP. These properties must be created in the Service Graph Connector for GCP application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table.
 
-For more information about creating custom system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+For more information about creating custom system properties, see Add a system property.
 
 <table id="table_ohm_3jm_yhc"><thead><tr><th>
 

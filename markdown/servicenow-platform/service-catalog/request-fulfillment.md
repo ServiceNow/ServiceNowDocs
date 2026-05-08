@@ -23,7 +23,7 @@ Preparing to fulfill catalog item requests involves the following activities.
 
 ## Using Workflow Studio flows
 
-The Workflow Studio application enables process owners to automate work, such as approvals, tasks, and notifications, without having to code. Build multi-step flows from reusable components. For more information, see [Exploring Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The Workflow Studio application enables process owners to automate work, such as approvals, tasks, and notifications, without having to code. Build multi-step flows from reusable components. For more information, see Exploring Workflow Studio.
 
 ## Using workflows
 

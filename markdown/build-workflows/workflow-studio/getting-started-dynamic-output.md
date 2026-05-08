@@ -118,7 +118,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of JSON name-value pairs, where there is an entry for each field in the table.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://www.servicenow.com/docs/access?context=request-integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for your instance.
+**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
 
 ### Procedure
 
@@ -149,7 +149,7 @@ In this task, you create a data gathering action that collects the schema for a 
     |Field|Value|
     |-----|-----|
     |Connection|Leave the **Use Connection Alias** option selected.|
-    |Connection Alias|select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see [Getting started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Getting started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US).|
+    |Connection Alias|select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new Create an HTTP\(s\) connection, or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end. For more information on connections and credentials, see Getting started with connections and Getting started with credentials.|
     |Build Request|Leave the **Manually** option selected.|
     |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Inputs** &gt; **Table**. Next, enter `/schema`.|
     |HTTP Method|Enter `GET`|
@@ -267,7 +267,7 @@ In this task, you create a data gathering action that collects the schema for a 
 -   A script step to transform the REST step's JSON Response Body into a dynamic object. The dynamic object consists of a JSON array of objects, where each source record is converted into one object of the array.
 -   An output variable named `output` of type JSON to store the dynamic object.
 
-**Note:** This task re-creates the demo actions that are installed when you [Request an Integration Hub plugin](https://www.servicenow.com/docs/access?context=request-integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for your instance.
+**Note:** This task re-creates the demo actions that are installed when you Request an Integration Hub plugin for your instance.
 
 ### Procedure
 
@@ -298,7 +298,7 @@ In this task, you create a data gathering action that collects the schema for a 
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new Create an HTTP\(s\) connection, or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected.|
     |Resource Path|Enter `api/now/processflow/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Inputs** &gt; **Table**. Finally, enter `/schema`|
     |HTTP Method|Enter `GET`|
@@ -453,7 +453,7 @@ This custom action uses two data gathering actions to populate dynamic outputs.
     |Field|Value|
     |-----|-----|
     |Connection|Leave **Use Connection Alias** selected.|
-    |Connection Alias|Select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US), or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
+    |Connection Alias|Select the create new record icon \(![Create new record icon](../images/create-new-record-icon.png)\) to create a new Create an HTTP\(s\) connection, or use an existing connection for your instance. The **Credential** for the HTTP\(s\) connection must use Basic authentication credentials. Additionally, the **Connection URL** must be the base URL for your instance, including the forward slash at the end.|
     |Build Request|Leave **Manually** selected|
     |Resource Path|Enter `api/now/table/` and then select the data pill picker \(![Data pill picker](../images/data_pill_picker.png)\). Select **Inputs** &gt; **Table**.|
     |HTTP Method|Enter `GET`|

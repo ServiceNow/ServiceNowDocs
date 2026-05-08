@@ -74,7 +74,7 @@ Alpha-numeric profile identifier of the medical device.
 
  The value is auto-generated and is incremented every time you add a new medical device to your ServiceNow instance. The initial value for the **Number** field is IBITM0001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 

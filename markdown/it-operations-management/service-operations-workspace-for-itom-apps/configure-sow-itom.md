@@ -23,7 +23,7 @@ If you want information regarding subscriptions for ITOM SOW, check the ITOM AIO
 
 When setting up the Service Operations Workspace, it's crucial to configure both IT Operations Management \(ITOM\) for managing alerts and IT Service Management \(ITSM\) for resolving incidents and delivering services. This integrated setup ensures access to the full range of features, facilitating comprehensive management of IT operations and service quality.
 
-To know about the ITSM configurations, see [Configuring Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=configure-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+To know about the ITSM configurations, see Configuring Service Operations Workspace for ITSM.
 
 ## Configuration overview
 

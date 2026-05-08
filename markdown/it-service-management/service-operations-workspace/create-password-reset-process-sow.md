@@ -181,7 +181,7 @@ Option to send an email or SMS the new password to the user.
 
 14. Right-click on the form header, and select **Save**.
 
-    For more information on password reset process, see [Configure your Password Reset process](https://www.servicenow.com/docs/access?context=t_CreateAPasswordResetProcess&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on password reset process, see Configure your Password Reset process.
 
 
 **Parent Topic:**[Setting up Service Desk assisted Password Reset in Service Operations Workspace](../concept/setup-password-reset-sow.md)

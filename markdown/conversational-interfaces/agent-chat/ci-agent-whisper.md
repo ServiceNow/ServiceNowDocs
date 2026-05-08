@@ -36,7 +36,7 @@ Chat managers can view the conversations with help requested from different view
     ![Help Requested selected in Conversation Monitoring options in Lists view.](../image/agent-whisper-help-list-view.png)
 
 
-To learn more about Workforce Optimization for CSM, see [Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To learn more about Workforce Optimization for CSM, see Workforce Optimization for Customer Service.
 
 ## Sending and receiving messages in Private Chat
 

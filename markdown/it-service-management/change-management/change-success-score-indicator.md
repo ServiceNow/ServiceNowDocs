@@ -46,7 +46,7 @@ The following are the Change Success Score indicators that are used to collect d
     The total number of P3 incidents that were reported as caused by one of the changes completed by the team.
 
 
-For more information on the PA indicators, see [Performance Analytics indicators](https://www.servicenow.com/docs/access?context=c_Indicators&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+For more information on the PA indicators, see Performance Analytics indicators
 
 **Parent Topic:**[Change success score](change-success-score.md)
 

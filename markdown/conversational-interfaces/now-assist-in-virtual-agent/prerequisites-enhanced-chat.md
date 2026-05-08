@@ -17,9 +17,9 @@ Now Assist in Virtual Agent provides users with a content-driven and search-driv
 
 Standard chat or enhanced chat offers different experiences. Enhanced chat provides users with a resizable chat window and search experience. To understand the differences between standard chat, enhanced chat, and enhanced chat with an additional full-page experience option, see [Using Now Assist in Virtual Agent](using-now-assist-in-va.md). If you only want a chat experience, there's no dependency on a portal's search configuration. However, ensure that your portal has the default chat widget button.
 
-To benefit from enhanced chat's search capabilities, your portal should have AI Search enabled. To configure AI Search for your portal, navigate to **All** &gt; **AI Search Admin Home**. For more information, see [Enable and configure AI Search in Service Portal](https://www.servicenow.com/docs/access?context=enable-ais-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To benefit from enhanced chat's search capabilities, your portal should have AI Search enabled. To configure AI Search for your portal, navigate to **All** &gt; **AI Search Admin Home**. For more information, see Enable and configure AI Search in Service Portal.
 
-**Note:** When you activate enhanced chat in a portal, that portal uses the VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** When you activate enhanced chat in a portal, that portal uses the VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see Search profiles in AI Search.
 
 Within the enhanced chat experience, the full-page experience is an additional option.
 

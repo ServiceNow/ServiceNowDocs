@@ -150,7 +150,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://www.servicenow.com/docs/access?context=currency-properties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](../concept/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
+Currency that is obtained from the **glide.system.locale** property.For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](../concept/c_BudgetReferenceRates.md) is used to calculate the total planned cost, planned capital, planned operating of the project.
 
  **Note:** If budget reference rates are not defined, then exchange rate is considered as 1. For example, if functional currency is USD, entered cost is EUR, and no exchange rate is defined, then 1000 USD equals to 1000 EUR.
 

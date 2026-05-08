@@ -60,7 +60,7 @@ Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissio
 
 8.  Based on what you would like to do with your spreadsheet data, navigate to one of the following procedures to continue.
 
-<table id="choicetable_f24_f5g_vvb"><tbody><tr><td id="d103071e224">
+<table id="choicetable_f24_f5g_vvb"><tbody><tr><td id="d103065e224">
 
 **Create a new table directly from the spreadsheet import**
 
@@ -68,7 +68,7 @@ Role required: admin, sn\_app\_eng\_studio.user or delegated developer permissio
 
 Refer to [Create new table from spreadsheet import](spreadsheet-create-new-table.md) for next steps.
 
-</td></tr><tr><td id="d103071e243">
+</td></tr><tr><td id="d103065e243">
 
 **Create a new table by extending an existing table, and then using the spreadsheet import to update it**
 
@@ -76,7 +76,7 @@ Refer to [Create new table from spreadsheet import](spreadsheet-create-new-table
 
 Refer to [Create new table from extensible table and spreadsheet import](spreadsheet-create-new-ext-table.md) for next steps.
 
-</td></tr><tr><td id="d103071e262">
+</td></tr><tr><td id="d103065e262">
 
 **Use spreadsheet import to update an existing application table**
 

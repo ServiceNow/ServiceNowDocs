@@ -37,7 +37,7 @@ In a Playbook content item, the admin specifies the URL that points to the porta
     |Catalogs|Enter the catalog that you want this playbook to be added to. There is no default, but the playbook is not searchable if you don't add it to a catalog.|
     |Category|Enter the catalog category that you want this playbook to be in. There is no default, but the playbook is not searchable if you don't pick a category for the playbook.|
     |Icon|Upload a small image that appears next to the name when the item is displayed in the service catalog. Supported file types are jpg, png, bmp, gif, and jpeg.|
-    |Application|Choose an application scope that you want your Service Portal playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).|
+    |Application|Choose an application scope that you want your Service Portal playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
     |Picture|Upload an image showing the item. Supported file types are jpg, png, bmp, gif, and jpeg.|
     |Short description|Enter some descriptive details about your playbook.|
     |Table|Enter the parent table that the playbook opens on. If not specified, defaults to the Incident table.|

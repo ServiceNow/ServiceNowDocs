@@ -156,6 +156,6 @@ The read-only payload the step produces.
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://www.servicenow.com/docs/access?context=action-error-evaluation&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see Action error evaluation.
 
 

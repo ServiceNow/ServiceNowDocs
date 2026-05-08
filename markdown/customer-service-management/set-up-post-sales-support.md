@@ -33,7 +33,7 @@ Create a characteristic to add to an entitlement. A characteristic refers to the
 
 </td></tr><tr><td>
 
-[Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Create a user
 
 </td><td>
 
@@ -41,7 +41,7 @@ Add a user to your instance to enable them to log in and use designated applicat
 
 </td></tr><tr><td>
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Assign a role to a user
 
 </td><td>
 

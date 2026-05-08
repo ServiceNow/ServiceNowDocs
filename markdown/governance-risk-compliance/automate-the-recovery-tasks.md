@@ -19,7 +19,7 @@ Role required: admin for the Workflow Studio, sn\_bcm.admin, sn\_bcm.program\_ma
 
 ## About this task
 
-Administrators or low-code developers are responsible for building the automation flow. Users with the BCM planner or above role then attach the automation flow to the recovery task. The Workflow Studio is used for this purpose, requiring a local developer persona due to permission restrictions. The Workflow Studio role does not require any extra licensing. However, it requires some special roles. For more information on the Workflow Studio roles and permissions, see [User access to Workflow Studio flows](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Administrators or low-code developers are responsible for building the automation flow. Users with the BCM planner or above role then attach the automation flow to the recovery task. The Workflow Studio is used for this purpose, requiring a local developer persona due to permission restrictions. The Workflow Studio role does not require any extra licensing. However, it requires some special roles. For more information on the Workflow Studio roles and permissions, see User access to Workflow Studio flows.
 
 The flow setup involves these steps:
 
@@ -43,7 +43,7 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
     For more information on creating a customized subflow for automating the tasks in the BCM application, see [Create a subflow form](../reference/create-new-subflow-for-bcm.md).
 
-    For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information on creating a subflow, see Create a subflow in Workflow Studio.
 
     The properties for the subflow are filled in.
 
@@ -71,11 +71,11 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
     4.  To mark the input as mandatory, select the **Mandatory** option.
 
-        For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For information on creating subflow inputs and outputs, see Create a subflow in Workflow Studio.
 
     5.  Select **+** to add a new input.
 
-    Once you create the flow variables, you can access them on Workflow Studio. For information on creating subflow inputs and outputs, see [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Once you create the flow variables, you can access them on Workflow Studio. For information on creating subflow inputs and outputs, see Create a subflow in Workflow Studio.
 
 7.  In the Actions section, select **Send Email**.
 

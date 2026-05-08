@@ -21,11 +21,11 @@ Role required: admin
 
 ## About this task
 
-By default, Workflow Studio generates approvals for all group members who can access the parent request regardless of domain visibility. This configuration allows requests from members of a child domain to generate approvals for members of a parent domain who are not otherwise visible from lower in the domain hierarchy. You can use this procedure to restrict the generation of approvals to only those group members who are visible from the domain of the parent request. For information about domain hierarchies, see [Understanding domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US). For more information about visibility and contains domains, see [Visibility domains and contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+By default, Workflow Studio generates approvals for all group members who can access the parent request regardless of domain visibility. This configuration allows requests from members of a child domain to generate approvals for members of a parent domain who are not otherwise visible from lower in the domain hierarchy. You can use this procedure to restrict the generation of approvals to only those group members who are visible from the domain of the parent request. For information about domain hierarchies, see Understanding domain separation. For more information about visibility and contains domains, see Visibility domains and contains domains.
 
 ## Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+1.  Add a system property.
 
 2.  For the system property name, enter `com.glide.hub.flow.approval.group_member.use_query_no_domain`.
 

@@ -43,5 +43,5 @@ To configure the integration with Service Portfolio Management, use the Customer
 **Related topics**  
 
 
-[Service Portfolio Management](https://www.servicenow.com/docs/access?context=c_ServicePortfolioManagementv2&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ServicePortfolioManagementv2]
 

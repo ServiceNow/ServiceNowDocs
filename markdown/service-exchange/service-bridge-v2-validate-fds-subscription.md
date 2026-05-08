@@ -56,7 +56,7 @@ Description
 A message is displayed stating that you’re about to navigate to the ETL Transform Map Assistant guided setup.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see [IntegrationHub ETL](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+3.  Use the guided setup to complete the mapping to integrate third-party data into CMDB. For details, see IntegrationHub ETL.
 
 **Note:** Since FDS provides display values for reference fields, if you want to use reference data, you must create a table lookup transform mapping to retrieve the Sys ID from the reference table. For more details, see [Foundation Data Sync :: Known issues and workarounds \[KB2299760\]](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=8a2b463c873aaadc57288519dabb354b)
 
@@ -74,7 +74,7 @@ A message is displayed stating that you’re about to navigate to the ETL Transf
 A message is displayed stating that you’re about to navigate to the Transform Map to complete the configuration.
 
 2.  Confirm your choice by selecting **OK**.
-3.  Complete the configuration. For details, see [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+3.  Complete the configuration. For details, see Create a transform map.
 4.  Close the browser tab to return to the Subscription Item page.
 
 

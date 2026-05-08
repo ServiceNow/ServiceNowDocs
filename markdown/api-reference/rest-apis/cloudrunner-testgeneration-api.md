@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Manages test job generation to be executed in a cloud runner for Automated Test Framework \(ATF\).
 
-The Cloud Runner Test Generation API requires the [ATF Test Generator and Cloud Runner](https://www.servicenow.com/docs/access?context=atf-tg-cr-intro&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) \(sn\_atf\_tg\) plugin. The methods available with this API run in the **now** namespace and can be called using API Name, **One-click regression testing for ATF**, in the REST API Explorer. The admin role is required to access this API.
+The Cloud Runner Test Generation API requires the ATF Test Generator and Cloud Runner \(sn\_atf\_tg\) plugin. The methods available with this API run in the **now** namespace and can be called using API Name, **One-click regression testing for ATF**, in the REST API Explorer. The admin role is required to access this API.
 
 You can use this API for the following tasks:
 
@@ -518,7 +518,7 @@ catalogEncodedQuery
 
 </td><td>
 
-Encoded query specifying which catalog items to generate tests on. An empty string defaults to all catalog items. For more information about forming encoded queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).Data type: String
+Encoded query specifying which catalog items to generate tests on. An empty string defaults to all catalog items. For more information about forming encoded queries, see Encoded query strings.Data type: String
 
 </td></tr><tr><td>
 
@@ -603,7 +603,7 @@ tableEncodedQuery
 
 </td><td>
 
-Encoded query specifying the tables on which to generate tests. An empty string defaults to all tables. For more information about forming encoded queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).Data type: String
+Encoded query specifying the tables on which to generate tests. An empty string defaults to all tables. For more information about forming encoded queries, see Encoded query strings.Data type: String
 
 </td></tr><tr><td>
 
@@ -611,7 +611,7 @@ userEncodedQuery
 
 </td><td>
 
-Encoded query specifying which users to generate tests on. An empty string input defaults to all tables. For more information about forming encoded queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).Data type: String
+Encoded query specifying which users to generate tests on. An empty string input defaults to all tables. For more information about forming encoded queries, see Encoded query strings.Data type: String
 
 </td></tr></tbody>
 </table>### Headers

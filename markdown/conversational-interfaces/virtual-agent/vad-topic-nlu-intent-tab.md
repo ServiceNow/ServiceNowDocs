@@ -81,7 +81,7 @@ Define a new entity
 1.  Select a word in an utterance to use as an entity.
 2.  In the Create New Entity picker, select the type of entity to be created, such as a simple or system-derived entity.
 
-For information about the types of entities that you can define, see [NLU entities](https://www.servicenow.com/docs/access?context=entities&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information about system entities, see [NLU system entities](nlu-system-entities.md). When you add an entity, it is also displayed in the **Associated Entities** tab.
+For information about the types of entities that you can define, see NLU entities. For information about system entities, see [NLU system entities](nlu-system-entities.md). When you add an entity, it is also displayed in the **Associated Entities** tab.
 
 
 </td></tr></tbody>

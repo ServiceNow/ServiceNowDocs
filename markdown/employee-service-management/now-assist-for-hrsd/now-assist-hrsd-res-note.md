@@ -23,9 +23,9 @@ Role required: sn\_hr\_core.case\_writer
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see Make a copy of a Now Assist skill.
 
 ## Procedure
 
@@ -37,15 +37,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  Select one of the following in the **Add resolution notes** window.
 
-<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d356003e130">
+<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d356011e130">
 
 Option
 
-</th><th align="left" id="d356003e133">
+</th><th align="left" id="d356011e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d356003e139">
+</th></tr></thead><tbody><tr><td id="d356011e139">
 
 **Save notes**
 
@@ -53,7 +53,7 @@ Description
 
 Add resolution notes to the **Close notes** field.**Note:** Review the generated text and make sure it's accurate. You may edit the notes or delete them to provide your own.
 
-</td></tr><tr><td id="d356003e153">
+</td></tr><tr><td id="d356011e153">
 
 **Skip notes**
 

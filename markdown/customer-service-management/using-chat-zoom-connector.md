@@ -21,7 +21,7 @@ As an agent manager, you can access the details of Zoom meetings initiated from 
 
 **Note:** The conference call details of a Zoom meeting are stored in the Notify Conference Calls \[notify\_conference\_call\] table.
 
-As a user in the notify\_admin or notify\_view role, you can access the details of a Zoom meeting by navigating to **Notify** &gt; **Recordings**, and selecting the corresponding conference call number. For more information, see [Notify conference calls](https://www.servicenow.com/docs/access?context=c_NotifyConferenceCalls&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+As a user in the notify\_admin or notify\_view role, you can access the details of a Zoom meeting by navigating to **Notify** &gt; **Recordings**, and selecting the corresponding conference call number. For more information, see Notify conference calls.
 
 ## Chat Zoom Connector user roles
 

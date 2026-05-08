@@ -15,7 +15,7 @@ Configure preferences for the types of notifications you want to receive for occ
 
 ## Before you begin
 
-To enable third party messaging applications to send security event notifications, you must activate the Messaging Notification \(com.glide.notification.messaging\) plugin. Individual users must configure their own settings. For details, see [Notifications in messaging applications](https://www.servicenow.com/docs/access?context=messaging-integration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To enable third party messaging applications to send security event notifications, you must activate the Messaging Notification \(com.glide.notification.messaging\) plugin. Individual users must configure their own settings. For details, see Notifications in messaging applications.
 
 Role required: admin.
 
@@ -69,7 +69,7 @@ Impersonation
 
 </td><td>
 
-Send the selected type of notification whenever another user is impersonating you.To learn more about impersonating users, see [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Send the selected type of notification whenever another user is impersonating you.To learn more about impersonating users, see Impersonate a user.
 
 </td></tr><tr><td>
 

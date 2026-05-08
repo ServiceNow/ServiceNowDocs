@@ -21,7 +21,7 @@ Role required: sam\_user
 
 ## About this task
 
-You can view License Metric Results, Remediation Options, Licensed Installs, Unlicensed Installs, and Removal Candidates related lists for a software model result from a Product Result record. When the [Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) application \(com.snc.procurement\) is active, you can also create and view purchase orders directly from the Remediation Options form. More remediation options include automatically create and remove allocations, remove unallocated installs, and remove unlicensed installs.
+You can view License Metric Results, Remediation Options, Licensed Installs, Unlicensed Installs, and Removal Candidates related lists for a software model result from a Product Result record. When the Procurement application \(com.snc.procurement\) is active, you can also create and view purchase orders directly from the Remediation Options form. More remediation options include automatically create and remove allocations, remove unallocated installs, and remove unlicensed installs.
 
 For example, if the status of a product result shows that it isn’t compliant, you can drill down on the product result to view software model details. These details can include the number of unlicensed installs and the true-up cost to become compliant. Further, you can drill down on the software model result to view the license metric result, which is based on the entitlements for the product.
 
@@ -633,7 +633,7 @@ Purchase Rights
 
 </td><td>
 
-**Create Purchase Order** **Note:** The **Create Purchase Order** button creates a [purchase order](https://www.servicenow.com/docs/access?context=t_CreateAPurchaseOrderLineItem&version=australia&pubname=australia-it-service-management&ft:locale=en-US) but is only shown when rights needed is greater than 0, and Procurement is active.
+**Create Purchase Order** **Note:** The **Create Purchase Order** button creates a purchase order but is only shown when rights needed is greater than 0, and Procurement is active.
 
 The **Create Purchase Order** button remains active until the purchase order has finished processing. Therefore, to avoid the creating a duplicate purchase order for the same item, wait to run reconciliation again until after the purchase order has finished processing.
 

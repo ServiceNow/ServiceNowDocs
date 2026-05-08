@@ -53,11 +53,11 @@ Now Assist in Virtual Agent provides the following benefits.
 |Benefit|Feature|User|
 |-------|-------|----|
 |Configure Now Assist in Virtual Agent in a few minutes, from either the Conversational Interfaces console or the Now Assist Admin console.|[Guided setup experience](../task/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
-|Now Assist skills can be turned on within the guided setup.|[Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|virtual\_agent\_admin or admin|
+|Now Assist skills can be turned on within the guided setup.|Activate a Now Assist skill|virtual\_agent\_admin or admin|
 |Deploy Now Assist in Virtual Agent on multiple portals using the chat widget, the mobile app, and Microsoft Teams.|[Configuring assistants overview](../task/configure-now-assist-va.md)|virtual\_agent\_admin or admin|
 |Generative AI enhances the user search experience with the ability to generate answers and enabling the user to select the **Show more results** option for a new search.|[Now Assist Q&amp;A Genius Results skill](using-now-assist-in-va.md)|requesters|
 |Give users in-chat access to available options in the Service Catalog.|[Now Assist Multi-Turn Catalog Ordering skill](using-now-assist-in-va.md)|requesters|
 |Now Assist lets Virtual Agent switch easily between requests, using plain language when new queries are made in the same conversation.|[Mid-topic switching during Now Assist in Virtual Agent conversations](intent-switching-na-va.md)|requesters|
 |Monitor performance metrics for Now Assist in Virtual Agent from the Conversational Interfaces console.|[Conversational Interfaces console](../../conversational-interfaces/concept/exploring-ci.md)|virtual\_agent\_admin or admin|
-|Monitor value metrics \(Now Assist usage versus Now Assist in Virtual Agent\) from the Now Assist Admin console.|[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|virtual\_agent\_admin or admin|
+|Monitor value metrics \(Now Assist usage versus Now Assist in Virtual Agent\) from the Now Assist Admin console.|Overview tab in Now Assist Admin|virtual\_agent\_admin or admin|
 

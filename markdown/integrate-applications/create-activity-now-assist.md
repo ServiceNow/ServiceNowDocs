@@ -92,7 +92,7 @@ Procedure
 
 </td><td>
 
-If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If the generated automation preview doesn’t meet your needs, you can update the Now Assist instructions, and select **Regenerate preview**.Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management.
 
 </td></tr><tr><td id="d358905e394">
 

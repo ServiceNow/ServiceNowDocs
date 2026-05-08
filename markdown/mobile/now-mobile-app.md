@@ -17,7 +17,7 @@ Introductory video to ServiceNow mobile apps.
 
 This video highlights some of the capabilities of ServiceNow® mobile apps.
 
-For the full range of Now Mobile app documentation, see [Now Mobile app](https://www.servicenow.com/docs/access?context=mobile-employee-experience&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) in the Employee Service Management business unit.
+For the full range of Now Mobile app documentation, see Now Mobile app in the Employee Service Management business unit.
 
 -   **Features of the Now Mobile app**
 
@@ -38,7 +38,7 @@ For the full range of Now Mobile app documentation, see [Now Mobile app](https:/
 
 -   **Access the demo**
 
-    Try the Now Mobile app demo. The demo is a curated experience designed to show how your employees can work from anywhere. For more information on the app, see [Now Mobile app demo](https://www.servicenow.com/docs/access?context=sg-mobile-demo&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    Try the Now Mobile app demo. The demo is a curated experience designed to show how your employees can work from anywhere. For more information on the app, see Now Mobile app demo.
 
 
 ## Base system experience with the Now Mobile app
@@ -79,7 +79,7 @@ Use the **Settings** to set preferences and review information about the app. Th
         -   Use the **Notifications** section to enabled or disable notifications from the app.
         -   Use the **Security** section to create or change the PIN to access the app. If allowed by your administrator, you can also allow the app to be unlocked with your device's biometric sensors.
         -   Use the **Theme** option to enable the dark theme or the default theme on your mobile app.
-        -   Use the **Analytics** section to enabled or disable analytics from the app. Enabling this option allows analytics tracking of your user journey. For more details, see [Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        -   Use the **Analytics** section to enabled or disable analytics from the app. Enabling this option allows analytics tracking of your user journey. For more details, see Usage Insights.
     -   Use the **Legal** section review ServiceNow's privacy policy, open-source disclosure, and end user license agreement.
     -   Use the Give feedback option to provide feedback on your ServiceNow mobile app experience.
 For more details on setting in your mobile apps, see [Mobile app settings](manager-user-settings.md).

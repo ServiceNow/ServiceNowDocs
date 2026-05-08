@@ -4,7 +4,7 @@ description: Some HealthScan definitions are deprecated or updated between relea
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 8
 breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Platform Health, Using Impact, Impact]
 ---

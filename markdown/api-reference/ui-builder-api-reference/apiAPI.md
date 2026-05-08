@@ -120,7 +120,7 @@ The system property glide.awa.enabled that indicates whether the auto assignment
 -   true: AWA is enabled for the user.
 -   false: AWA is not enabled for the user.
 
- For additional information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For additional information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ The property glide.ui.forgetme that indicates whether to remove the **Remember M
 -   true: Remove the **Remember Me** check box.
 -   false: Display the **Remember Me** check box.
 
- For additional information, see [Remove remember me](https://www.servicenow.com/docs/access?context=sc-remove-remember-me&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ For additional information, see Remove remember me.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ StringNumber coerced to string
 
 The system property glide.ui.session\_timeout that determines the initial session time out value.Unit: Minutes - Values greater than 1440 minutes are treated as one day.
 
- For additional information, see [Session activity timeout](https://www.servicenow.com/docs/access?context=sc-session-activity-timeout&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+ For additional information, see Session activity timeout
 
 </td></tr><tr><td>
 
@@ -274,7 +274,7 @@ Array of objects
 
 </td><td>
 
-Name-value pairs that describe the user preferences. These user preferences are stored as records in the User Preference \[sys\_user\_preference\] table, and are updated each time the user changes their settings.For additional information, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Name-value pairs that describe the user preferences. These user preferences are stored as records in the User Preference \[sys\_user\_preference\] table, and are updated each time the user changes their settings.For additional information, see Exploring user administration.
 
 </td></tr><tr><td>
 
@@ -1088,7 +1088,7 @@ Triggers a refresh operation for the specified non-mutating data resource instan
 
 Call this method if the underlying data being fetched by the data resource changes. A data resource is considered non-mutating if the **mutates\_server\_data** field on the record is set to false.
 
-This method is asynchronous and emits an internal event to trigger the refresh of the specified data resource instance. The UI Builder allows you to trigger client scripts in response to data resource lifecycle events, such as DATA\_FETCH\_SUCCEEDED and DATA\_FETCH\_FAILED. For additional information on these events, see [Event mapping](https://www.servicenow.com/docs/access?context=event-mapping&version=australia&pubname=australia-application-development&ft:locale=en-US).
+This method is asynchronous and emits an internal event to trigger the refresh of the specified data resource instance. The UI Builder allows you to trigger client scripts in response to data resource lifecycle events, such as DATA\_FETCH\_SUCCEEDED and DATA\_FETCH\_FAILED. For additional information on these events, see Event mapping.
 
 This method is only available if the data resource is one of the following types:
 
@@ -1901,7 +1901,7 @@ Emits an event with the specified name and payload.
 
 The event name being emitted must be part of the associated page definition's dispatched events list, which is stored in the UX Macroponent Definition \[sys\_ux\_macroponent\] table. Any api.emit call that dispatches events not declared in this table are ignored.
 
-For additional information on events, see [Work with events](https://www.servicenow.com/docs/access?context=work-events&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For additional information on events, see Work with events.
 
 <table id="table_yyz_njj_n4b" class="parameters"><thead><tr><th>
 
@@ -1999,7 +1999,7 @@ String
 
 </td><td id="stateParm-entry-api">
 
-Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see [Work with client state parameters](https://www.servicenow.com/docs/access?context=state-parameters&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see Work with client state parameters.
 
 </td></tr><tr><td>
 
@@ -2058,7 +2058,7 @@ String
 
 </td><td id="stateParm-entry-api">
 
-Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see [Work with client state parameters](https://www.servicenow.com/docs/access?context=state-parameters&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Name of the client state parameter to update. This name must be declared in the client state parameters of the associated page. For additional information on declaring client state parameters, see Work with client state parameters.
 
 </td></tr><tr><td>
 

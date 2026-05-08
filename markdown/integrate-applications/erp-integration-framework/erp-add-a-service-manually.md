@@ -26,7 +26,7 @@ Before you can add a service manually, you must do the following:
 
 -   Confirm that you have an SAP system that has been enabled to make an OData connection.
 -   Enable the **sn\_erp\_integration.enableModelModification** property. For more information, see [Install Zero Copy Connector for ERP](install-erp-integration.md).
--   Create a connection and credential alias, specifying HTTP as the **Connection type**. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Create a connection and credential alias, specifying HTTP as the **Connection type**. For more information, see Create a Connection &amp; Credential alias.
 -   Create an HTTP connection for the service. Add the connection alias that you created and the connection URL.
 -   Create a system that uses the HTTP connection. For more information, see [Create an ERP system in Zero Copy Connector for ERP](create-an-erp-system.md). On the system record, confirm that the heartbeats are successful and the retrieval status is complete. If any have failed, select **Restart data retrieval**.
 -   If you're going to connect using a URL, copy the metadata URL from the ERP system to which you're linking. Use the relative URL containing only the path following the domain, for example, v2/northwind/northwind.svc/$metadata.

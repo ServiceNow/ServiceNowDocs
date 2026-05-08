@@ -63,7 +63,7 @@ For more information about OT change requests, see [Create a change request](cre
 
 Incident was resolved with a problem that identified the cause of the incident.
 
-For more information about problems, see [Managing Problems](https://www.servicenow.com/docs/access?context=problem-mgmt-lifecycle&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information about problems, see Managing Problems.
 
 -   **Resolved by request**
 

@@ -39,7 +39,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Install Nutanix end-point SSL certificates for the MID Server JRE**
     1.  Collect the certificates by browsing the Nutanix Prism console on internet Explorer.
-    2.  Add SSL certificates for the MID Server, as described in [Add SSL certificates for the MID Server](https://www.servicenow.com/docs/access?context=add-ssl-certificates&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    2.  Add SSL certificates for the MID Server, as described in Add SSL certificates for the MID Server.
     3.  Use the following JRE keytool command to import the SSL certificates in the MID Server's keystore: `<MID Installation>/jre/bin/keytool -import -v -keystore <MID Installation>jre/lib/security/cacerts`.
 
         If you must enter a password, enter the custom password or the default password- "changeit".
@@ -81,7 +81,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Configure basic authentication credentials**
 
-    For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see Basic authentication credentials.
 
 -   **Create a serverless discovery schedule**
 

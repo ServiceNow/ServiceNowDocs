@@ -340,7 +340,7 @@ The following fields are available only in the Server form in the Configuration 
 |Disk space \(GB\)|Amount of disk space, in gigabytes \(GB\).|
 |CPU core count|Number of cores per CPU​.|
 
-To learn about the Asset attribute fields, see [Asset and CI management](https://www.servicenow.com/docs/access?context=c_ManagingAssets&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+To learn about the Asset attribute fields, see Asset and CI management.
 
 To learn about the remaining configuration fields that are common to most of the Inventory menu forms, see [Commonly used network asset instance configuration fields](commonly-used-tni-configuration-fields.md).
 

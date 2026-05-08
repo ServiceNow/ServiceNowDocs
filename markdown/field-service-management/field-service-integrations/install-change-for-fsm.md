@@ -22,7 +22,7 @@ You can install the Change Management for Field Service application \(sn\_fsm\_c
     -   **Required ServiceNow plugins**
         -   **CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)**
 
-            Enable your agents to engage with customers, answer questions, create cases, and resolve issues. For more information, see [Set up CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-config-workspace-set-up&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+            Enable your agents to engage with customers, answer questions, create cases, and resolve issues. For more information, see Set up CSM Configurable Workspace.
 
 
 Role required: admin

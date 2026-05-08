@@ -20,7 +20,7 @@ Several business rules and one script include determines the dynamic calculation
 |Set actual work start value|Sets the Actual Start Date of the planned task when State is set to the default work state.|
 |Set close data on inactive|Sets the close data of the planned task when task becomes inactive.|
 |Recalculate|Recalculates the planned task schedule fields when one of the schedule fields changes.|
-|Planned task global events|Raises global event for every insert or update of planned task record. For more information, see [Global events](https://www.servicenow.com/docs/access?context=r_GlobalEvents&version=australia&pubname=australia-build-workflows&ft:locale=en-US).|
+|Planned task global events|Raises global event for every insert or update of planned task record. For more information, see Global events.|
 |Update parent actual effort|Rolls up actual effort from child task to parent task.|
 |Update parent effort|Rolls up planned effort from child task to parent task.|
 |Update parent percent complete|Rolls up percent complete from child task to parent task.|

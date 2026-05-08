@@ -36,7 +36,7 @@ Create a communication system and an inbound user to enable access to the SAP S/
 
 ### Before you begin
 
-The SAP S/4HANA Public Cloud Integration Hub spoke must be active. For more information, see [SAP S4 HANA Public Cloud Spoke](https://www.servicenow.com/docs/access?context=sap-s4-hana-cloud-spk&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+The SAP S/4HANA Public Cloud Integration Hub spoke must be active. For more information, see SAP S4 HANA Public Cloud Spoke.
 
 SAP S/4HANA Role required: Business user
 
@@ -132,7 +132,7 @@ For publishing the integration profile, change the application scope to **Global
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

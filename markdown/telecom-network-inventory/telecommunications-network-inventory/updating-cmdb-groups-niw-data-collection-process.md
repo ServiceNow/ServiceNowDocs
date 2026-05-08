@@ -21,7 +21,7 @@ Role required: admin, cmdb\_query\_builder, itil, sn\_cmdb\_editor
 
 ## About this task
 
-You must follow the standard CMDB group naming convention that is used for the Network Inventory Workspace widgets. To learn more, see the section called Standard CMDB groups and naming conventions for the Network Inventory Workspace widget data. To learn more about creating, updating, or naming CMDB groups, see [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You must follow the standard CMDB group naming convention that is used for the Network Inventory Workspace widgets. To learn more, see the section called Standard CMDB groups and naming conventions for the Network Inventory Workspace widget data. To learn more about creating, updating, or naming CMDB groups, see CMDB groups.
 
 ## Procedure
 

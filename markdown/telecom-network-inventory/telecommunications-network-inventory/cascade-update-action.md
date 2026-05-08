@@ -37,7 +37,7 @@ The following table lists the input fields in the Cascade Update function and th
 |CI|CI where you want to update the field.|Reference.Configuration Item|No|
 |Field|Attribute in the CI that you want to cascade.|String|No|
 
-To learn more about the variable data types, see [Flow Designer input and output data variables](https://www.servicenow.com/docs/access?context=action-inputs-outputs&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 

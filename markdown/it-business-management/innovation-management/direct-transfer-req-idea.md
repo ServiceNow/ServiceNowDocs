@@ -27,7 +27,7 @@ When an idea is created in the Idea Portal, it must be associated with at least 
 
 1.  Navigate to **All** &gt; **Universal Request** &gt; **Administration** &gt; **Direct Transfer Configuration**.
 
-2.  Follow the steps as described in [Direct transfer mapping](https://www.servicenow.com/docs/access?context=ur-transfer-map-config&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+2.  Follow the steps as described in Direct transfer mapping.
 
 3.  Select **Submit**.
 

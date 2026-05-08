@@ -6,7 +6,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---

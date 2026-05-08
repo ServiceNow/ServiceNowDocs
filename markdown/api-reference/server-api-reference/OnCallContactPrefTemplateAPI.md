@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The OnCallContactPrefTemplate script include provides methods to apply contact preference templates to escalation sets.
 
-For more information about the escalation process, see [Defining On-Call Scheduling escalation process](https://www.servicenow.com/docs/access?context=defining-escalation-process-and-template&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information about the escalation process, see Defining On-Call Scheduling escalation process.
 
 This script include requires the On-Call Scheduling plugin \(com.snc.on\_call\_rotation\).
 

@@ -61,7 +61,7 @@ Advanced
 
 </td><td>
 
-Enable to set advanced conditions. See [Scripts](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US) for more information on scripting.
+Enable to set advanced conditions. See Scripts for more information on scripting.
 
 </td></tr><tr><td>
 

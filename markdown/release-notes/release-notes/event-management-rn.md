@@ -29,17 +29,17 @@ The ServiceNow® Event Management application helps you to identify health issue
     -   [Alert Automation](https://store.servicenow.com/store/app/98e8672e1be06a50a85b16db234bcb52#releaseNotes)
     -   [Service Operations Workspace \(SOW\) for ITOM](https://store.servicenow.com/store/app/98e8672e1be06a50a85b16db234bcb52#releaseNotes)
 
-See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) or [Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=sow-landing-page-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
+See Event Management or Service Operations Workspace for ITOM for more information.
 
 **Important:** Event Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Unified alert grouping across Event Management and HLA](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Unified alert grouping across Event Management and HLA**
 
     Improve alert quality, reduce noise, and achieve higher compression to act faster on issues by grouping Health Log Analytics and Event Management alerts.
 
--   **[Explicit node-based control for CI binding](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Explicit node-based control for CI binding**
 
     Increase binding accuracy and reliability and improve alert-to-CI binding with explicit node-based control, configurable node-field usage, enhanced mapping logic, and backward-compatible updates.
 
@@ -63,13 +63,13 @@ See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&versi
 
 ## Activation information
 
-Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see Request Event Management.
 
 ## Related ServiceNow applications and features
 
--   **[Metric Explorer](https://www.servicenow.com/docs/access?context=agent-workspace-ops-intelligence&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Metric Explorer**
 
-    ServiceNow® Agent Workspace for [Metric Intelligence](https://www.servicenow.com/docs/access?context=operational-metrics&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) provides a central interface that enables you to view the health of a CI associated with an alert. Health details for a CI include various metric charts with control bounds and aggregations for single score charts.
+    ServiceNow® Agent Workspace for Metric Intelligence provides a central interface that enables you to view the health of a CI associated with an alert. Health details for a CI include various metric charts with control bounds and aggregations for single score charts.
 
 
 **Parent Topic:**[IT Operations Management release notes](it-operations-management-rn-landing.md)

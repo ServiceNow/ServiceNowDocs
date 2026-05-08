@@ -44,7 +44,7 @@ You can then restrict the COE with read and write capabilities.
 
 For more information, see [Create a COE security policy](../task/hr-create-coe-security-policy.md).
 
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 
 Collaborators and the COE for the HR case can conflict. The basic rules are:
 

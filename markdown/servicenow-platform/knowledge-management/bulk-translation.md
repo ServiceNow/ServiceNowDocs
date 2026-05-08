@@ -19,15 +19,15 @@ The Bulk Translations feature extends the localization service in Knowledge Mana
 
 ## Translation workflow
 
-You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://www.servicenow.com/docs/access?context=workflow-localization-framework&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+You can define a workflow to determine the actions required to complete a translation. For information, see Workflows in the Localization Framework .
 
 ## Preferences configuration
 
-Through preferences, define the translations, workflow, and project preferences to request translation for activated languages. For more information, see [Configure the Localization Framework preferences](https://www.servicenow.com/docs/access?context=define-translation-preferences&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Through preferences, define the translations, workflow, and project preferences to request translation for activated languages. For more information, see Configure the Localization Framework preferences.
 
 ## Artifact configuration
 
-The Knowledge artifact is included in the Artifact Configurations \[sn\_lf\_config\] table and is active by default. For more information, see [Localization Framework support for Knowledge Base](https://www.servicenow.com/docs/access?context=lf-support-for-kb-articles&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+The Knowledge artifact is included in the Artifact Configurations \[sn\_lf\_config\] table and is active by default. For more information, see Localization Framework support for Knowledge Base .
 
 ## Translation validations
 

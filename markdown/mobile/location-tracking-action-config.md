@@ -15,7 +15,7 @@ Configure action-based tracking location properties. This tracking option starts
 
 ## Before you begin
 
-Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see Activate a plugin.
 
 To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed.
 

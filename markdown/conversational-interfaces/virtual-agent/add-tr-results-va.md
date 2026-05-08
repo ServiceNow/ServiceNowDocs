@@ -50,7 +50,7 @@ When you add a recommended topic to Virtual Agent, the Topic Recommendations app
 
         ![Select Create new model and enter a name. Specify which language should be the primary language for the model.](../images/tr-create-model-add-va.png "Adding selected recommendations to a new model group")
 
-        For more information about model groups, see [Multilingual model management](https://www.servicenow.com/docs/access?context=multilingual-model-managent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For more information about model groups, see Multilingual model management.
 
     -   An existing model name
 

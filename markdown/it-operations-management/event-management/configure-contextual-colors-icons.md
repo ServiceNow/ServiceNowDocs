@@ -21,7 +21,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You can customize the colors or icons of elements in the **Contextual colors and icons** form to affect the displayed colors or icons of severities in related Event Management screens, either when accessibility mode is off or on. For more information about accessibility, see [Accessibility features](https://www.servicenow.com/docs/access?context=knowledge-management-service-portal&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) .
+You can customize the colors or icons of elements in the **Contextual colors and icons** form to affect the displayed colors or icons of severities in related Event Management screens, either when accessibility mode is off or on. For more information about accessibility, see Accessibility features .
 
 In each color selection field, you have the option of entering the value of the color as any of the following Cascading Style Sheet \(CSS\) formats that determine how HTML elements should be displayed:
 
@@ -149,7 +149,7 @@ Accessible Icon
 
 </td><td>
 
-Icon that is displayed when the context includes an icon and when accessibility mode is enabled. To add your own icon, or to see a list of available icons, see [Upload one or more images](https://www.servicenow.com/docs/access?context=upload-multiple-images&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Icon that is displayed when the context includes an icon and when accessibility mode is enabled. To add your own icon, or to see a list of available icons, see Upload one or more images.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

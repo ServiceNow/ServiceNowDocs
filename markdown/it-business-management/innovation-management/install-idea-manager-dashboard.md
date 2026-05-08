@@ -67,5 +67,5 @@ Run the following Performance Analytics data collector jobs before using the Ide
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

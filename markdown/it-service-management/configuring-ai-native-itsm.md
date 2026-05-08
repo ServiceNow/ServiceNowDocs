@@ -16,7 +16,7 @@ Configure your ITSM workflows using an AI-first, centralized, and intuitive admi
 
 ## Configuration overview
 
-1.  Ensure that the Now Assist for Setup application is installed on ServiceNow instance. See [Set up Now Assist with Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-setup-now-assist&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  Ensure that the Now Assist for Setup application is installed on ServiceNow instance. See Set up Now Assist with Now Assist for Setup.
 2.  Request for the entitlement of the IT Service Management application from ServiceNow Store and install it. See [Install IT Service Management](../task/install-native-ai-itsm.md).
 3.  Configure IT Service Management on your ServiceNow instance using a guided configuration experience or conversational AI agents \(wherever available\).
 

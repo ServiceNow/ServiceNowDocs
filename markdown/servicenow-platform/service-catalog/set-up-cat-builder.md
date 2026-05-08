@@ -69,7 +69,7 @@ Role required: admin
 
     1.  Create a pre-publish subflow by specifying the following input and output parameters.
 
-        You can also copy the Template: Catalog Builder - Item review subflow and then define your subflow. For information about subflows, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        You can also copy the Template: Catalog Builder - Item review subflow and then define your subflow. For information about subflows, see Subflows.
 
         |Parameter|Type|Description|
         |---------|----|-----------|
@@ -102,7 +102,7 @@ State of the pre-publish subflow. Possible values are:-   completed: Publishing 
  **Note:** The **completed** and **failed** values are case sensitive and must be selected the same way.
 
 </td></tr></tbody>
-</table>        For information about subflow field types, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>        For information about subflow field types, see Field types.
 
     2.  Create the **glide.sc.builder.item\_review\_flow** property.
 

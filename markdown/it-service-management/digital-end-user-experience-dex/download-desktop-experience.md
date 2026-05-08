@@ -30,15 +30,15 @@ Role required: admin, sn\_dex\_desktop.admin
 
 2.  Download and install Desktop Assistant by using installer commands, Desktop Assistant installers, or endpoint management solutions.
 
-<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d248474e134">
+<table id="choicetable_zv4_ylt_fgc"><thead><tr><th align="left" id="d248464e134">
 
 Option
 
-</th><th align="left" id="d248474e137">
+</th><th align="left" id="d248464e137">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d248474e143">
+</th></tr></thead><tbody><tr><td id="d248464e143">
 
 **OS-specific single-line installer commands**
 
@@ -52,7 +52,7 @@ Steps
 4.  When prompted for a password, enter your active directory password and press Enter.
  Desktop Assistant is installed, and the instance URL from the installer is automatically populated in the **Instance URL** field of the Desktop Assistant login page.
 
-</td></tr><tr><td id="d248474e192">
+</td></tr><tr><td id="d248464e192">
 
 **Desktop Assistant installer specific to your operating system**
 
@@ -62,7 +62,7 @@ Steps
 2.  For macOS devices, see [Download Desktop Assistant installer on macOS devices](download-desktop-exp-mac.md).
 
 
-</td></tr><tr><td id="d248474e250">
+</td></tr><tr><td id="d248464e250">
 
 **Endpoint management solutions like Jamf or Microsoft Endpoint Configuration Manager \(MECM\) to install on multiple devices**
 

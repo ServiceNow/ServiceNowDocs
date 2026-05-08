@@ -29,7 +29,7 @@ Role required: admin
 
 3.  On the form, fill in the fields.
 
-    For more information, see [UX List form](https://www.servicenow.com/docs/access?context=ux-list-form&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+    For more information, see UX List form.
 
 4.  Select **Submit**.
 

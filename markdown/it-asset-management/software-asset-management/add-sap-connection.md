@@ -17,7 +17,7 @@ After you have deployed the Advanced Business Application Programming \(ABAP\) p
 
 ## Before you begin
 
-Before establishing a connection between SAP and your ServiceNow instance, check if your SAP system network is accessible to external applications like ServiceNow. If external connections are blocked, you can install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Before establishing a connection between SAP and your ServiceNow instance, check if your SAP system network is accessible to external applications like ServiceNow. If external connections are blocked, you can install a MID Server. A MID Server enables communication and data movement between a ServiceNow instance and external applications or data sources. For instructions, see Installing the MID Server.
 
 If you already have a MID Server installed in the network and connected to your ServiceNow instance, this SAP connection automatically uses it.
 

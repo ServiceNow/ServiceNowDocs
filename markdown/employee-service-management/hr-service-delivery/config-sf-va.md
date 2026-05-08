@@ -23,7 +23,7 @@ Role required: flow\_designer, decision\_table\_admin, sn\_hr\_integr\_fw.admin,
 
 1.  Install the HR Service Delivery Integration with SuccessFactors, Now Assist for HRSD, and Enterprise Service Management Integrations Framework \(v3.6\) applications from ServiceNow Store.
 
-2.  Configure the [SuccessFactors Spoke](https://www.servicenow.com/docs/access?context=successfactors-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to pull data from SuccessFactors system.
+2.  Configure the SuccessFactors Spoke to pull data from SuccessFactors system.
 
 3.  Create subflows aligning with Template Integration Gateway.
 

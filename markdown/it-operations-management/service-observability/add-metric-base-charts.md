@@ -17,7 +17,7 @@ Add MetricBase data to charts on Service Observability dashboard templates when 
 
 ## About this task
 
-You can add metrics that are stored in the [MetricBase application](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to your Service Observability dashboards. These charts display with data scoped to the selected service.
+You can add metrics that are stored in the MetricBase application to your Service Observability dashboards. These charts display with data scoped to the selected service.
 
 ## Before you begin
 
@@ -45,7 +45,7 @@ Role required: sn\_sow\_svcobs.admin
 
     The new dashboard is titled with the words `- Copy` appended. Use the pencil icon to change the dashboard name.
 
-3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for [Edit in-line Platform Analytics dashboard elements](https://www.servicenow.com/docs/access?context=edit-db-elements-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for Edit in-line Platform Analytics dashboard elements.
 
 4.  To add a new chart with MetricBase data, follow these steps:
 

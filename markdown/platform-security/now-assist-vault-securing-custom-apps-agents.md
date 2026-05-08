@@ -18,7 +18,7 @@ Use the securing custom apps with Vault agents agentic workflow to get recommend
 
 When you install Now Assist for Vault, this agentic workflow is turned on by default.
 
-To modify the agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 ## Secure custom apps
 
@@ -53,7 +53,7 @@ Uses various tools to perform the following:-   Analyzes the table schema and it
 -   Proposes zero trust access and data privacy protection.
 
 </td></tr></tbody>
-</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Parent Topic:**[Use agentic AI in Now Assist for Vault](use-now-assist-vault-agentic-ai.md)
 

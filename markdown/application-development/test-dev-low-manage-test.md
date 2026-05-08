@@ -19,23 +19,23 @@ Test your ServiceNow apps.
 
 </td><td>
 
-[Test Management ![Test Management.](../image/icon-test.png) Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.](https://www.servicenow.com/docs/access?context=test-management-overview&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+Test Management ![Test Management.](../image/icon-test.png) Streamline the management of testing processes to help you deliver software products more efficiently and with fewer errors.
 
 </td><td>
 
-[Script Debugger ![Script Debugger.](../image/icon-debugger.png) Debug scripts using session logs and ServiceNow AI Platform debugging tools, such as a walk-through script debugger and error messages that display in the UI.](https://www.servicenow.com/docs/access?context=script-debugger&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Script Debugger ![Script Debugger.](../image/icon-debugger.png) Debug scripts using session logs and ServiceNow AI Platform debugging tools, such as a walk-through script debugger and error messages that display in the UI.
 
 </td></tr><tr><td>
 
-[Script Tracer ![Script tracer.](../image/icon-now-cli.png) Filter your debugging search to quickly narrow down script problems.](https://www.servicenow.com/docs/access?context=script-tracer&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Script Tracer ![Script tracer.](../image/icon-now-cli.png) Filter your debugging search to quickly narrow down script problems.
 
 </td><td>
 
-[Session Log ![Session Log.](../image/icon-log.png) View and download the session log for business rules, script includes, and a custom UI.](https://www.servicenow.com/docs/access?context=script-debugger&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Session Log ![Session Log.](../image/icon-log.png) View and download the session log for business rules, script includes, and a custom UI.
 
 </td><td>
 
-[User impersonation ![User impersonation.](../image/icon-user.png) Impersonate other authenticated users for testing purposes and view impersonation logs.](https://www.servicenow.com/docs/access?context=t_ImpersonateAUserInUI16&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+User impersonation ![User impersonation.](../image/icon-user.png) Impersonate other authenticated users for testing purposes and view impersonation logs.
 
 </td></tr><tr><td>
 

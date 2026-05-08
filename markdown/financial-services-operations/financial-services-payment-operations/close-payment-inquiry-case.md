@@ -27,7 +27,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or or sn\_bom\_payment.inquiry\_a
 
 If there's a Customer or Consumer Service Portal for customers, they get a notification for the proposed solution on the portal from where they can choose to accept or reject the proposed solution for a case. If the customer accepts the solution proposed by the agent, the case state automatically changes to Closed.
 
-For more information, see [Accept or reject a case solution from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=resolve-cases-consumer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Accept or reject a case solution from the Consumer Service Portal.
 
 **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 

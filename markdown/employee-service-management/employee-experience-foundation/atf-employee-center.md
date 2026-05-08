@@ -36,5 +36,5 @@ Role required: admin
 
 ## What to do next
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://www.servicenow.com/docs/access?context=atf-perf-prof&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See Performance profiling.
 

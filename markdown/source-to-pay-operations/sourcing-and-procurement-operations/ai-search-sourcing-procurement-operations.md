@@ -17,15 +17,15 @@ The AI Search application provides a modern consumer-grade search engine for the
 
 New customers automatically have the AI Search application configured with their base system for Sourcing and Procurement Operations. Existing customers can configure the PSM-specific Shopping Hub search application to use the AI Search application by following the configuration steps.
 
-For more information, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see AI Search.
 
 -   **Configuration**
 
-    For detailed information on configuring the AI Search application, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed information on configuring the AI Search application, see Configuring AI Search.
 
     Navigate to **AI Search** &gt; **Search Applications** &gt; **Search Application Configurations** to associate the AI Search engine with your Shopping Hub search application.
 
-    **Note:** For more information, see [Create a search application configuration for AI Search](https://www.servicenow.com/docs/access?context=create-search-app-config-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information, see Create a search application configuration for AI Search.
 
     In the **Search Application Configuration** form of your application, select a **Search Profile** to get started. A search profile determines the search sources, conditions, and criteria that power your search.
 
@@ -42,33 +42,33 @@ For more information, see [AI Search](https://www.servicenow.com/docs/access?con
     -   **Result Improvement Rules**
     **Note:**
 
-    For more information, see [Defining search profiles](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Defining search profiles.
 
     You cannot configure the UI of search results or change the available facets and filters from Shopping Hub. AI Search faceting is supported in Shopping Hub results in Employee Center and Service Portal.
 
 -   **Integration**
 
-    AI Search is automatically integrated with Shopping Hub. For detailed information on integrating AI Search with other applications, see [Integrating AI Search into your application](https://www.servicenow.com/docs/access?context=integrate-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    AI Search is automatically integrated with Shopping Hub. For detailed information on integrating AI Search with other applications, see Integrating AI Search into your application.
 
 -   **Administration**
 
-    To learn how the AI Search features and behavior affect indexing and search, see [Administering AI Search](https://www.servicenow.com/docs/access?context=administer-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    To learn how the AI Search features and behavior affect indexing and search, see Administering AI Search.
 
 -   **Using**
 
-    For information on how AI Search displays results, refinement filter options, and Genius Result answers, see [Using AI Search](https://www.servicenow.com/docs/access?context=use-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information on how AI Search displays results, refinement filter options, and Genius Result answers, see Using AI Search.
 
 -   **ServiceNow® Mobile**
 
-    To configure AI Search for the ServiceNow® Mobile, see [Advanced text search in mobile](https://www.servicenow.com/docs/access?context=text-search-advanced-now&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    To configure AI Search for the ServiceNow® Mobile, see Advanced text search in mobile.
 
 -   **Service Portal or Employee Center**
 
-    To configure AI Search for the Service Portal or EC so that your users can take advantage of this powerful search tool, see [AI Search in Service Portal](https://www.servicenow.com/docs/access?context=ai-search&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    To configure AI Search for the Service Portal or EC so that your users can take advantage of this powerful search tool, see AI Search in Service Portal.
 
 -   **Virtual Agent**
 
-    Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see [Virtual Agent integration with AI Search](https://www.servicenow.com/docs/access?context=va-ai-search&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see Virtual Agent integration with AI Search.
 
 
 **Parent Topic:**[Explore Sourcing and Procurement Operations](exploring-spo.md)

@@ -25,5 +25,5 @@ HR templates allow you to automatically populate fields on an HR case or task fo
 **Related topics**  
 
 
-[Form templates](https://www.servicenow.com/docs/access?context=c_Templates&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_Templates]
 

@@ -28,7 +28,7 @@ For example:
 **Related topics**  
 
 
-[Web service import sets](https://www.servicenow.com/docs/access?context=c_WebServiceImportSets&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[bundle-crint.c_WebServiceImportSets]
 
-[Import sets key concepts](https://www.servicenow.com/docs/access?context=c_ImportSetsKeyConcepts&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[bundle-crint.c_ImportSetsKeyConcepts]
 

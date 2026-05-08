@@ -19,7 +19,7 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role 
 
 This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://www.servicenow.com/docs/access?context=workplace-rsv-mgmt-feat&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on Workplace Reservation Management, see Workplace Reservation Management.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -2064,7 +2064,7 @@ result.reservation.reservable\_module.​reservable\_quantity\_field
 
 </td><td id="reservation_reservable_module_reservable_quantity_field-reserv-entry">
 
-Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see [Assign neighborhood spaces to an area](https://www.servicenow.com/docs/access?context=add-neighbourhood-spaces-to-an-area&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).Data type: String
+Reservable quantity of all the spaces. The quantity is used when assigning neighbourhood spaces to an area. For additional information, see Assign neighborhood spaces to an area.Data type: String
 
 </td></tr><tr><td>
 
@@ -3772,7 +3772,7 @@ reservation.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
 
 Valid values:
 
@@ -3801,7 +3801,7 @@ reservation.reservable\_module
 
 </td><td>
 
-Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) defines the workplace items needed for a reservation.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation.Data type: String
 
 Table: Reservable Module \[sn\_wsd\_rsv\_reservable\_module\]
 
@@ -3813,7 +3813,7 @@ reservation.shift
 
 Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: String
 

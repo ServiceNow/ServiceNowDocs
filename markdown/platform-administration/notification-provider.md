@@ -56,7 +56,7 @@ Enable provider admins to define an actionable notification and send it to users
 
 **Note:** A notification should either have Common Content or Provider Content in order to be delivered to the recipients.
 
-All the above-mentioned capabilities are applicable only for [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [Workspace](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) providers.
+All the above-mentioned capabilities are applicable only for Virtual Agent and Workspace providers.
 
 **Parent Topic:**[Exploring provider notification](../reference/exploring-provider-notification.md)
 

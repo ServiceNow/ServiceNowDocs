@@ -25,16 +25,16 @@ A problem can be associated with one or more incidents in the **Incidents** rela
 
 ## Investigate and update problems
 
-If the Problem Management team has a problem model process for dealing with certain problems, they can be added to the system with [workflows](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US) . Workflows standardize and automate a process.
+If the Problem Management team has a problem model process for dealing with certain problems, they can be added to the system with workflows . Workflows standardize and automate a process.
 
-As a problem is updated, [email notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) are sent to concerned parties. If inbound email actions are specified, the problem can be updated via email.
+As a problem is updated, email notifications are sent to concerned parties. If inbound email actions are specified, the problem can be updated via email.
 
 You can use the other active tasks icon next to **Configuration item** to look up active problem records. When you click the icon, it shows all active tasks linked to that configuration item.
 
 The platform provides escalations rules to ensure that problems are handled promptly. Two types of escalation rules are available in the system.
 
 -   [Service level agreements](../../service-level-management/concept/service-level-management-concepts.md): SLAs can be used to ensure that problems are highlighted. As investigating and fixing a problem could be a long-term effort, it is not recommended that you apply SLAs to an overall problem. SLAs are also used as a performance indicator for the Problem Management team.
--   [Inactivity monitors](https://www.servicenow.com/docs/access?context=t_SetAnInactivityMonitor&version=australia&pubname=australia-platform-administration&ft:locale=en-US) : The inactivity monitors prevent problems from being overlooked by generating an event. When a problem has not been updated within a certain amount of time, the event can create an email notification or trigger a script.
+-   Inactivity monitors : The inactivity monitors prevent problems from being overlooked by generating an event. When a problem has not been updated within a certain amount of time, the event can create an email notification or trigger a script.
 
 ## Resolve problems
 

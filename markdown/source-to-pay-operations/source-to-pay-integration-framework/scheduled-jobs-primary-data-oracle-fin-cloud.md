@@ -17,7 +17,7 @@ You can schedule on-demand jobs to be run at specific intervals of time to fetch
 
 Before you start the Oracle Financial Cloud ERP integration, you must configure the integration services record for target ERP source using the `sn_fcms_intg_service` table. The `sn_fcms_intg_service` table is a mapping table between sub flows and target ERP source. For more information on creating an integration service record, see [Create Integration Service record](../../accounts-payable-operations/task/create-integration-service-record.md).
 
-Scheduled jobs are configured for entities using scripts. Example: Fetch cost center from ERP systems. For more information on configuring scheduled jobs using scripts, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US). The script invokes a subflow, which is associated with an entity as shown in the following figure. The subflow queries the active entities or ERP source configuration \(optional\) listed in the integration service table.
+Scheduled jobs are configured for entities using scripts. Example: Fetch cost center from ERP systems. For more information on configuring scheduled jobs using scripts, see Automatically run a script of your choosing. The script invokes a subflow, which is associated with an entity as shown in the following figure. The subflow queries the active entities or ERP source configuration \(optional\) listed in the integration service table.
 
 ![](../../source-to-pay-operations/image/oracle-fin-scheduled-jobs-script.png "Look up primary data in Oracle Financial Cloud")
 

@@ -23,7 +23,7 @@ Role required: password\_reset\_admin or admin
 
 1.  Decide on the password reset process:
 
-    -   **Self-service process:** Users reset their password over the Internet using a browser on any supported interface, including mobile devices. To make the Password Reset application with Orchestration available to all users publicly, create a new Password Reset process only for this purpose and make it accessible to all users by setting the **Public access** property. See [Example: The default self-service Password Reset process](https://www.servicenow.com/docs/access?context=c_SelfServicePasswordReset&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   **Self-service process:** Users reset their password over the Internet using a browser on any supported interface, including mobile devices. To make the Password Reset application with Orchestration available to all users publicly, create a new Password Reset process only for this purpose and make it accessible to all users by setting the **Public access** property. See Example: The default self-service Password Reset process.
     -   **Service desk-assisted process:** Users reset passwords by requesting the assistance of a service desk agent, over the phone or in person. Only service desk agents with the password\_reset\_service\_desk role can reset user passwords. See the video to reset the password using service desk-assisted process [How to Set Up a Service Desk-Assisted Password Reset Process \(Video\)](https://www.youtube.com/watch?v=6VbPR7CWF0M).
 2.  Decide how groups and roles differ in access and security needs.
 

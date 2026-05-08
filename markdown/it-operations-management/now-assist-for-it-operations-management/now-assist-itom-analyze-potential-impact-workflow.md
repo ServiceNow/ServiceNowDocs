@@ -91,5 +91,5 @@ Based on the candidate number, and the analysis, the output summary is provided 
 -   Service candidate: "bird \[ASC000000015\]".
 -   Impact: "Network routing disruption affecting pod-to-pod communication across Kubernetes cluster nodes due to Calico Bird BGP routing daemon failure on p-kubenode1-2, potentially causing connectivity issues for workloads on connected nodes p-kubenode1-3, p-kubenode1-4, and p-kubenode1-5".
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 

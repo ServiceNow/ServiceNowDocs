@@ -19,7 +19,7 @@ Server-side Glide APIs \(Application Programming Interfaces\) provide classes an
 
 ## Immediately invoked function expressions
 
-The system uses immediately invoked function expressions when a script runs in a single context, such as in a [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US). Functions that run from multiple contexts use [Script includes](c_ScriptIncludes.md#) instead.
+The system uses immediately invoked function expressions when a script runs in a single context, such as in a Create a transform map. Functions that run from multiple contexts use [Script includes](c_ScriptIncludes.md#) instead.
 
 By enclosing a script in an immediately invoked function expression, you can:
 

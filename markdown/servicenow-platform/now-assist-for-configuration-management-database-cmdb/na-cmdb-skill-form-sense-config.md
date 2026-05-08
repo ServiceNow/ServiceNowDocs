@@ -27,15 +27,15 @@ To enable Now Assist to provide a detailed description, you must activate the Ex
 
 1.  Navigate to **All** &gt; **Application Manger** and then search for `external content connectors` on the **Available for you** or **Updates** tab.
 
-2.  Install the ServiceNow product documentation external content connector as described in [ServiceNow® product documentation external content connector](https://www.servicenow.com/docs/access?context=servicenow-product-documentation-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+2.  Install the ServiceNow product documentation external content connector as described in ServiceNow® product documentation external content connector.
 
-3.  Configure the crawl settings as described in [Configure crawl settings for a ServiceNow® product documentation external content connector](https://www.servicenow.com/docs/access?context=configure-crawl-settings-snowdoc-ext-cont-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+3.  Configure the crawl settings as described in Configure crawl settings for a ServiceNow® product documentation external content connector.
 
     On the **Settings** tab, select **Extend Now Platform Capabilities** and then select **Save**.
 
     **Note:** You can select additional settings, but, to enable the skill, you must at least select **Extend Now Platform Capabilities**.
 
-4.  On the **Crawl schedules** tab, select **Crawl content** and then follow the instructions in [Create a content crawl for an external content connector](https://www.servicenow.com/docs/access?context=create-content-crawl-external-content-connector&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to configure the crawl process.
+4.  On the **Crawl schedules** tab, select **Crawl content** and then follow the instructions in Create a content crawl for an external content connector to configure the crawl process.
 
 
 **Parent Topic:**[Configuring Now Assist for CMDB](../../configuration-management/concept/now-assist-cmdb-configuring.md)

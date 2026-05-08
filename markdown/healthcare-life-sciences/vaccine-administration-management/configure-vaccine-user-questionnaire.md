@@ -51,7 +51,7 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
 
     3.  In the Variables related list, create or update variables for the questionnaire.
 
-        For details on how to configure a variable, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For details on how to configure a variable, see Service catalog variables.
 
         **Important:** Don’t configure the *task\_id* and *is\_portal* variables.
 

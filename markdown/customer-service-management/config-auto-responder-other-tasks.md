@@ -19,10 +19,10 @@ Role required: admin
 
 Perform the following tasks.
 
--   Activate the Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Set the application scope to the scope of your task table using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
--   Verify that you have defined a search context for your task to include recommended resources in the Auto-Responder email notifications. For more information, see [Define a search context](https://www.servicenow.com/docs/access?context=t_DefineSearchContext&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Verify that you have configured a table for the search context associated with your task. For more information, see [Configure table for a contextual search](https://www.servicenow.com/docs/access?context=t_DefineContextualSearchForForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Activate the Email Notification Script for Contextual Search Results plugin \(com.snc.adv\_cxs\_results\_email\_script\). For more information, see Activate a plugin.
+-   Set the application scope to the scope of your task table using the application picker. For more information, see Application picker.
+-   Verify that you have defined a search context for your task to include recommended resources in the Auto-Responder email notifications. For more information, see Define a search context.
+-   Verify that you have configured a table for the search context associated with your task. For more information, see Configure table for a contextual search.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Perform the following tasks.
 
     4.  Verify that notifications aren’t sent if there are no search results by entering the `hasResults()` function in the **Advanced condition** field of the When to send related list.
 
-        The `hasResults()` function checks whether search results exist. You can use the return value of the function to avoid the system from sending an email notification if there are no search results. For more information, see [Advanced conditions for email notifications](https://www.servicenow.com/docs/access?context=c_OptSpecifyingAdvancedCond&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        The `hasResults()` function checks whether search results exist. You can use the return value of the function to avoid the system from sending an email notification if there are no search results. For more information, see Advanced conditions for email notifications.
 
         **Tip:** Refer to the Case auto-responder recommendations notification that uses the `hasResults()` function for returning the search results value. To view a notification, navigate to **System Notification** &gt; **Notifications**.
 

@@ -62,7 +62,7 @@ The current release includes these external content connectors:
 
 Connector administrators can schedule content and user permission crawls to suit your indexing requirements. If the need arises, connector administrators can also run either type of crawl on demand.
 
-**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see [Transaction reports in Integration Hub Usage Dashboard](https://www.servicenow.com/docs/access?context=use-the-integration-hub-usage-dashboard&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Important:** The External Content Connectors application consumes Integration Hub transactions when feeding crawled content to AI Search. You can monitor available and used transactions for your Integration Hub subscription packages in the Integration Hub Usage Dashboard. For details on transaction monitoring, see Transaction reports in Integration Hub Usage Dashboard.
 
 Each external content connector has its own indexed source for crawled content. You can configure search sources for an external content connector's indexed source and include those search sources in your search profiles, just as you would for any other indexed source. To learn more about indexed sources, see [Indexed sources in AI Search](indexed-sources-ais.md).
 

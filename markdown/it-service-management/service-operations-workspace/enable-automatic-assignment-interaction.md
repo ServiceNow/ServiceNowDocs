@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Select the Chat - Most Capacity assignment rule.
 
-    For information about AWA assignment rules, see [Configure agent assignment rules](https://www.servicenow.com/docs/access?context=awa-create-assignment-rule&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For information about AWA assignment rules, see Configure agent assignment rules.
 
 3.  In the Auto-assign handling related list, perform the following tasks.
 

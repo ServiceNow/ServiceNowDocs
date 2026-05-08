@@ -15,7 +15,7 @@ breadcrumb: [Reference, Case and Knowledge Management, HR Service Delivery, Empl
 
 Several types of components install with the activation of the Case and Knowledge Management plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -302,11 +302,11 @@ Grants access to write all HR cases, write basic user profile information, write
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://www.servicenow.com/docs/access?context=t_AddARoleToAnExistingRole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   To assign a role to another role, see Add a role to an existing role.
+-   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see Assign a role to a user.
 
-For further information on user administration and how to manage users, see [User administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For further information on user administration and how to manage users, see User administration.
 
 ## Scheduled jobs installed
 
@@ -359,7 +359,7 @@ Update Client Roles
 Updates role assignments for HR profiles that are beginning or ending their employment based on the HR condition table. This scheduled job runs daily.**Note:** The base system assigns the HR Admin \(hradmin\) user to this scheduled job. If you delete the HR Admin user, ensure that you assign another user with the HR admin \(sn\_hr\_core.admin\) role to this scheduled job.
 
 </td></tr></tbody>
-</table>For further information on scheduled jobs and how to use them, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For further information on scheduled jobs and how to use them, see Scheduled jobs.
 
 ## Tables installed
 
@@ -1088,5 +1088,5 @@ Who is covered\[sn\_hr\_core\_who\_is\_covered\]
 Who is covered table.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see Table administration.
 

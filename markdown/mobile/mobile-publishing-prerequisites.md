@@ -18,7 +18,7 @@ Before submitting your first branded app request with Mobile Publishing, it's im
 Regardless of the distribution method or app provider that you choose, your ServiceNow instance requires the following configurations to use Mobile Publishing:
 
 -   A cloud-connected production instance is required to request a Mobile Publishing build. Once you have the Mobile Publishing build, you can use the mobile app on any single instance.
--   The Mobile Publishing plugin \(com.glide.sn-mobile-whitelab\) must be installed on your production instance. The Mobile Publishing plugin is a paid plugin that can be installed from the ServiceNow® Store, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   The Mobile Publishing plugin \(com.glide.sn-mobile-whitelab\) must be installed on your production instance. The Mobile Publishing plugin is a paid plugin that can be installed from the ServiceNow® Store, see Install a ServiceNow Store application
 -   Instances must be able to download the following file types: zip, apk, p12, aab, xcarchive, svg, and png.
 
     To add file types that can be downloaded by your instance:

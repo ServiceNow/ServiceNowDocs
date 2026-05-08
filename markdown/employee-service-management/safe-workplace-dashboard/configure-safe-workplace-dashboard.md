@@ -25,7 +25,7 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 1.  Navigate to **All** &gt; **Workplace Core** &gt; **Space Administration** &gt; **Campuses** &gt; ****, and click **New**.
 
-2.  Follow the steps in [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to add the **Parent**, **Latitude**, and **Longitude** fields to the Campus form.
+2.  Follow the steps in Configuring the form layout to add the **Parent**, **Latitude**, and **Longitude** fields to the Campus form.
 
 3.  In the list of campuses, open a record and complete the following steps.
 

@@ -24,7 +24,7 @@ For Sourcing and Procurement Operations, Agent assist is configured for the foll
 -   Negotiation
 -   Sourcing event
 
-For information on how Agent assist is set up and configured on the ServiceNow AI Platform, see [Configure a record page for a workspace in Workspace Builder](https://www.servicenow.com/docs/access?context=configure-record-page-workspace&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For information on how Agent assist is set up and configured on the ServiceNow AI Platform, see Configure a record page for a workspace in Workspace Builder.
 
 **Parent Topic:**[Procurement Case Management](psd-overview.md)
 

@@ -74,7 +74,7 @@ Credential
 
 </td><td>
 
-The credential to be used with the selected protocol. See [Getting started with Credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US) to learn more about creating credentials.**Note:** If you select the SSH network protocol, enter a valid credential of the SSH private key type. If you select the https protocol, enter a valid credential of the Basic Auth credentials type.
+The credential to be used with the selected protocol. See Getting started with Credentials to learn more about creating credentials.**Note:** If you select the SSH network protocol, enter a valid credential of the SSH private key type. If you select the https protocol, enter a valid credential of the Basic Auth credentials type.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ The name of the existing MID Server to link through.**Note:** Use a separate MID
 
 Be sure that the MID server user can create files to the sys\_attachment table and that the table can accept files of the “bundle” type.
 
- Linking or [importing](t_ImportAppFromSourceControl.md) an application through a MID Server enables access to repositories behind a firewall. See the [Using MID Server with source control](../concept/tips-source-control-midserver.md) and [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) topics to learn more
+ Linking or [importing](t_ImportAppFromSourceControl.md) an application through a MID Server enables access to repositories behind a firewall. See the [Using MID Server with source control](../concept/tips-source-control-midserver.md) and MID Server topics to learn more
 
 </td></tr><tr><td>
 
@@ -130,5 +130,5 @@ The ServiceNow® MID Server enables communication and the movement of data betwe
 **Related topics**  
 
 
-[Getting started with credentials](https://www.servicenow.com/docs/access?context=credentials-getting-started&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.credentials-getting-started]
 

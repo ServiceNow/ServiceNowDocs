@@ -41,7 +41,7 @@ To add, view, or modify a variable:
 
 2.  Select a workflow activity, such as **Approval - User**.
 
-3.  In the **Activity Variables** section or tab, add, view, or modify the variables. Activity variables are defined using the same fields as [System dictionary](https://www.servicenow.com/docs/access?context=c_SystemDictionary&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+3.  In the **Activity Variables** section or tab, add, view, or modify the variables. Activity variables are defined using the same fields as System dictionary.
 
     **Note:** If defining a new activity variable that is dependent on another activity variable, put the prefix "vars." before the name of the parent activity variable. For example, if the child field is dependent on a field named **parent**, put the value `vars.parent` in the **Dependent** field.
 

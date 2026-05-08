@@ -21,7 +21,7 @@ Role required: role sn\_acct\_lc.customer\_success\_agent , sn\_acct\_lc.custome
 
 Success initiatives are a set of planned activities or tasks that a provider and a customer must complete achieving a primary success outcome. A success initiative can include one or more tasks that can be internal or external and can be defined with the Create Success Initiative playbook.
 
-**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See [Playbook builder](https://www.servicenow.com/docs/access?context=exploring-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for the details.
+**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See Playbook builder for the details.
 
 ## Procedure
 
@@ -189,7 +189,7 @@ Clear the check box to make Blocked by capability work.
     -   Close notes: Provide a description on which this initiative is being closed.
 9.  Select **Mark Complete** to complete this task.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see Response templates.
 
 
 ## What to do next

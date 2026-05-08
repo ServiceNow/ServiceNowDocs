@@ -40,7 +40,7 @@ Role required: sn\_wfo\_cfg\_ws.manager
 
 6.  Configure the survey based on your needs.
 
-    For information on configuring a survey, see [Configure a survey using Survey Designer](https://www.servicenow.com/docs/access?context=t_ConfigSurveyInSurveyDesgnr&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For information on configuring a survey, see Configure a survey using Survey Designer.
 
     **Note:** To share the survey with other managers, you must add managers of those teams as the owners of the survey.
 

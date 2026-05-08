@@ -25,5 +25,5 @@ Several of the additional contextual search resources used by the similar case/r
 **Related topics**  
 
 
-[Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.create-similarity-solution]
 

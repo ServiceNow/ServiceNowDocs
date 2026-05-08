@@ -513,7 +513,7 @@ Query parameters
 
 </td><td>
 
-Add any required query parameters for the page. For example, to open a record in the form page, enter the table and sys\_id parameters. For more information about Service Portal query parameters, see [Page navigation by URL](https://www.servicenow.com/docs/access?context=navigate-by-portal-url&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Add any required query parameters for the page. For example, to open a record in the form page, enter the table and sys\_id parameters. For more information about Service Portal query parameters, see Page navigation by URL.
 
 </td></tr></tbody>
 </table>

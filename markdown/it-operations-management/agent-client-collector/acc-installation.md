@@ -160,7 +160,7 @@ Not supported
 </td></tr></tbody>
 </table>If you completely reinstall the agent on a single host server, a second agent record registers on the instance. Delete the original agent on the **Agent Client Collectors** page \(**All** &gt; **Agent Client Collector** &gt; **Agents**\).
 
-Agents whose **Status = Down** or **Disconnected** which haven't been deleted are deleted automatically after 30 days. You can modify this setting on the Autoflush form page \(see [Autoflush form](https://www.servicenow.com/docs/access?context=atf-auto-flush&version=australia&pubname=australia-application-development&ft:locale=en-US)\).
+Agents whose **Status = Down** or **Disconnected** which haven't been deleted are deleted automatically after 30 days. You can modify this setting on the Autoflush form page \(see Autoflush form\).
 
 Use the Manual Transport Layer Security protocol \(mTLS\) for secure authentication between your MID Web Server and the agent \(the client\). For details, see [Connect the agent to the MID Server using mTLS](../task/enable-tls-agent.md).
 

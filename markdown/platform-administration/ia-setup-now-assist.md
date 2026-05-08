@@ -53,7 +53,7 @@ Role required: admin
 
 6.  Once you are done installing all the necessary applications and plugins, select **Go to Now Assist Admin** on the Product Hub page to boost your AI capabilities.
 
-    See [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information on configuration of Now Assist Admin module.
+    See Now Assist for more information on configuration of Now Assist Admin module.
 
 
 **Parent Topic:**[Administer Now Assist for Setup](../concept/ia-administer.md)

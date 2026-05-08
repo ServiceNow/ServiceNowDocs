@@ -21,7 +21,7 @@ Depending on the selected skill, you can configure the inputs or triggers. These
 
 The OT incident summarization skill includes the inputs that identify the table and fields that are used when an OT incident summary is generated.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 The following table lists the inputs for the OT incident summarization skill.
 
@@ -124,7 +124,7 @@ OT incident task
 
 The OT resolution notes generation skill includes the inputs that identify the table and fields that are used when the resolution notes are generated for an OT incident.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 The following table lists the inputs for the resolution notes generation skill.
 

@@ -124,7 +124,7 @@ Internal Integration User
 
 </td><td>
 
-Select this check box to [Mark service accounts as internal integration users](https://www.servicenow.com/docs/access?context=t_MarkSvcAcctsAsInternalIntegUsers&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Select this check box to Mark service accounts as internal integration users.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Select the user identity type based on the user:-   Human - Select this for a re
 -   Machine - Select this for a non-human system or device, such as a server, application, or service account that makes automated requests.
 -   AI - Select this for an autonomous AI-driven system. AI users should be used when an AI agent or agentic workflow needs permissions greater than that of the invoking user.
 
-See [Security for AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information on using AI type users.
+See Security for AI agents for more information on using AI type users.
 
 **Note:** The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI**.
 
@@ -206,7 +206,7 @@ Select the user's preferred format for dates. The following date formats are sup
 -   2026/08/19
 -   2026.08.19
 -   2026-08-19
-For more information, see [GlideDateTime - Global](https://www.servicenow.com/docs/access?context=c_GlideDateTimeAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information, see GlideDateTime - Global.
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ Select the user's preferred format for time. The following time formats are supp
 -   16.30
 -   04:30 PM
 -   04.30 PM
-For more information, see [GlideDateTime - Global](https://www.servicenow.com/docs/access?context=c_GlideDateTimeAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information, see GlideDateTime - Global.
 
 </td></tr><tr><td>
 

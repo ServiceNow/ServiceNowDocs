@@ -87,7 +87,7 @@ Sequence of table records by sys\_id. Select a ServiceNow table in the **Table**
 
  To limit the number of records that authors can specify, use the **Max Number of Rows** field.
 
- **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see [Action input and output data types](https://www.servicenow.com/docs/access?context=action-inputs-outputs&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ **Note:** The **Array.Reference** input data type in Virtual Agent Designer corresponds to the **List.\[Table\]** input data type in Workflow Studio. For more information, see Action input and output data types.
 
 </td></tr><tr><td>
 

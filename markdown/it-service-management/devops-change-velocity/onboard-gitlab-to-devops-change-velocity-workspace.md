@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitLab.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d332120e97">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d332095e97">
 
 Option
 
-</th><th align="left" id="d332120e100">
+</th><th align="left" id="d332095e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d332120e106">
+</th></tr></thead><tbody><tr><td id="d332095e106">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitLab as coding tool, you'd select GitLab under the **Code** category.
 
 
-</td></tr><tr><td id="d332120e136">
+</td></tr><tr><td id="d332095e136">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitLab as coding tool, you'd select GitLab under the **Code** category.
 
 
-</td></tr><tr><td id="d332120e191">
+</td></tr><tr><td id="d332095e191">
 
 **Tools module**
 
@@ -98,7 +98,7 @@ Steps
 
     4.  If your GitLab instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
-        For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+        For more information about MID server, see MID Server selection
 
     5.  Select **Connect**.
 

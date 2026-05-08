@@ -75,7 +75,7 @@ You can:
     -   [Get Records](../task/workspc-mltsrc-query-get-records.md): Creates a query that you can use to explore your CMDB 360 data. It queries your CMDB 360 for CIs matching your criteria that are reported by specified discovery sources.
     -   [Find Gap](../task/workspc-mltsrc-query-find-gap.md): Creates a query that you can use to analyze gaps in discovery sources reporting your CMDB 360 data. It queries discovery sources that report CIs against discovery sources that don't report those same CIs.
     -   [Compare Attribute Values](../task/workspc-mltsrc-query-comp-attr-value.md): Creates a query that you can use to identify CIs with attribute values that differ across multiple discovery sources or against the CMDB. It queries at least two discovery sources and/or the CMDB for CIs that match your criteria.
--   [Schedule a CMDB 360 query for a report](../task/workspc-mltsrc-query-schedule.md) to run that query on a regular basis. Scheduling a query enables you to create a CMDB 360 report that integrates the query results with the [platform Reporting feature](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   [Schedule a CMDB 360 query for a report](../task/workspc-mltsrc-query-schedule.md) to run that query on a regular basis. Scheduling a query enables you to create a CMDB 360 report that integrates the query results with the platform Reporting feature.
 
 ## Discovery sources
 

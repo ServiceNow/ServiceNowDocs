@@ -34,7 +34,7 @@ Some AI capabilities are available only when the required plugins are installed.
     This requirement applies only to AI intake request forms and does not apply to AI cases, inquiries, or the Anonymous Reporting Center. For more information on applicable requests, see [Request an AI use case](request-ai-system.md), [Request an AI model](request-ai-model.md), and [Request a dataset](request-dataset.md).
 
 
-For information about AI Control Tower setup and plugin dependencies, see [Activation and installation of AI Control Tower](https://www.servicenow.com/docs/access?context=activation-and-installation-of-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about AI Control Tower setup and plugin dependencies, see Activation and installation of AI Control Tower.
 
 Role required: admin
 

@@ -26,7 +26,7 @@ You can view order guides in the Service Catalog Popular Items widget as a stand
 |Field|Description|
 |-----|-----------|
 |Limit|Maximum number of popular items shown. The default number is 9.|
-|Include Record Producers|Includes requests made through [record producers](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
+|Include Record Producers|Includes requests made through record producers.|
 
 **Parent Topic:**[Service Catalog widgets](sc-widgets.md)
 

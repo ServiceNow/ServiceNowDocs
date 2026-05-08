@@ -59,7 +59,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Case playbook: horizontal stages page variant does not have an audience. This means everyone with access to the experience can see this page variant.For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The audience determines who can see the page variant. The Case playbook: horizontal stages page variant does not have an audience. This means everyone with access to the experience can see this page variant.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:
@@ -220,7 +220,7 @@ The contextual side panel component includes different tools that agents can use
 -   [Related Items](csm-playbook-related-items-component.md)
 -   Attachments
 -   Response Templates
--   [Email Templates](https://www.servicenow.com/docs/access?context=configure-email-templates&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Email Templates
 -   Templates
 -   Record Information
 

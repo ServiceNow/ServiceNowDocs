@@ -19,8 +19,8 @@ ServiceNow® Employee Center provides a single and unified portal experience for
 
 To enable Service Catalog on the Employee Center portal, ensure you've the following ServiceNow applications and plugins installed:
 
--   [Employee Center plugin \(sn\_ex\_sp\)](https://www.servicenow.com/docs/access?context=activate-ec&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Employee Experience Taxonomy plugin \(sn\_ect\)](https://www.servicenow.com/docs/access?context=config-taxonomy&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Employee Center plugin \(sn\_ex\_sp\)
+-   Employee Experience Taxonomy plugin \(sn\_ect\)
 
 ## IT taxonomy on Employee Center
 

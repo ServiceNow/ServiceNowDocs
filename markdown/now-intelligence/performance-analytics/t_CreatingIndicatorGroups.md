@@ -80,5 +80,5 @@ In this example, create an indicator group with all the indicators that refer to
 
 [Create an email notification for indicators](t_CreateEmailSummaries.md)
 
-[Create or update a treemap category \(Security Incident Analytics\)](https://www.servicenow.com/docs/access?context=t_DfnSvcImpctTmapDmn&version=australia&pubname=australia-security-management&ft:locale=en-US)
+[bundle-security.t_DfnSvcImpctTmapDmn]
 

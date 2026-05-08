@@ -58,7 +58,7 @@ MID Server
 
 </td><td>
 
-Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see [IntegrationHub ETL](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Acts as a secure bridge between your ServiceNow instance and the external network system. For more information, see IntegrationHub ETL.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ IntegrationHub ETL \(3.2\)
 
 </td><td>
 
-Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Provides a guided UI for creating, testing, and managing ETL transform maps.For more information, see MID Server.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Robust Transform Engine \(RTE\)
 
 </td><td>
 
-Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see [Create a robust import set transformer](https://www.servicenow.com/docs/access?context=create-robust-import-set-transformer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Transforms staged source data into CMDB-compliant records using defined ETL logic. For more information, see Create a robust import set transformer.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Identification and Reconciliation Engine \(IRE\)
 
 </td><td>
 
-Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the [CMDB Identification and Reconciliation \(IRE\)](https://www.servicenow.com/docs/access?context=c_CMDBIdentifyandReconcile&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Ensures data consistency and prevents duplicates by identifying and reconciling CIs.For more information, see the CMDB Identification and Reconciliation \(IRE\).
 
 </td></tr><tr><td>
 

@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 Several types of components install with the activation of the Employee Center Pro plugin, including user roles and tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -53,7 +53,7 @@ To-dos Widget Mapping\[sn\_hr\_sp\_todos\_widget\_mapping\]
 To-dos widget mapping table.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see Table administration.
 
 ## Widgets installed
 

@@ -69,5 +69,5 @@ This section shows cards with counts of the following services and offerings ass
 
 This section shows aggregations from the latest CMDB Health test results for the Completeness, Correctness, Compliance, and Relationship KPIs, and the aggregated state of attestation. Color codes are used to denote pass/fail scores.
 
-**Note:** For more information on each section, see [Manage CI details using CI Form in CMDB Workspace](https://www.servicenow.com/docs/access?context=ci-form-cmdb-workspace&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** For more information on each section, see Manage CI details using CI Form in CMDB Workspace.
 

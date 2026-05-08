@@ -17,13 +17,13 @@ The ServiceNow® Policy and Compliance Management application provides a central
 -   Manage control objective changes through a structured workflow without affecting the active published record.
 -   Rationalize UCF and non-UCF control objectives together in a single rationalization process.
 
-See [Policy and Compliance Management](https://www.servicenow.com/docs/access?context=r_PolicyComplianceMgmt&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See Policy and Compliance Management for more information.
 
 **Important:** Policy and Compliance Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Control objective workflow](https://www.servicenow.com/docs/access?context=concept_cob_workflow&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **Control objective workflow**
 
     After upgrading Policy and Compliance Management to 22.0.1, the new Control objective workflow feature introduces a structured lifecycle for managing control objective records. This feature is controlled by the Enable Control Objective Workflow property under Policy and Compliance &gt; Properties and is disabled by default.
 
@@ -34,7 +34,7 @@ See [Policy and Compliance Management](https://www.servicenow.com/docs/access?co
     -   Editing a published control objective creates a working draft, keeping the published record active until approved changes are published.
     -   Users must select a revision type: Major or Minor. A Major revision moves associated controls back to Draft. A Minor revision applies updates without moving controls back to Draft.
     -   The Owner and Owning Group fields control who can edit the control objective and perform workflow actions.
--   **[Rationalizing control objectives](https://www.servicenow.com/docs/access?context=take-actions-on-the-recommendations-for-similar-control-objectives&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **Rationalizing control objectives**
 
     After upgrading Policy and Compliance Management to 22.0.1, both Unified Compliance Framework \(UCF\) control objectives and non-UCF control objectives can be rationalized together. Key highlights include:
 

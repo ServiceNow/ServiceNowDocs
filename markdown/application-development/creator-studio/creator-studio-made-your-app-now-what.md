@@ -28,7 +28,7 @@ After deployment, your app lives as forms in the Service Catalog and categories 
 
 Users can access those forms directly in a Service Catalog, as well as Service Portal and an Employee Center.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in Associate a catalog item with a taxonomy topic in Employee Center, and more about taxonomy, which is a categorization method, in Unified Taxonomy for Employee Center.
 
 ## Where do fulfillers work on submitted forms?
 

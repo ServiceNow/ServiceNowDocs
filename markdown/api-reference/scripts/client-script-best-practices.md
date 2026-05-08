@@ -6,7 +6,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 11
 breadcrumb: [Client-side scripting, Scripting, API implementation, API implementation and reference]
 ---
@@ -206,7 +206,7 @@ Adding an order to the client script creates a processing sequence, ordered from
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Client Script** and open an existing client script or click **New**.
 
-2.  [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to include the **Order** field.
+2.  Configuring the form layout to include the **Order** field.
 
 3.  Add a number to the order field based on what order you want it to run in relation to other client scripts.
 

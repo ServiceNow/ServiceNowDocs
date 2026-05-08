@@ -21,7 +21,7 @@ Use the Generate SIR Shift Handover Report agentic workflow to add a security in
 
 The AI agent identifies if the analyst has access to a shift handover record, generates content from the security incident details for each section of the shift handover report. The analyst can provide feedback on the content, and the AI agent generates the updated content and saves the content to the shift handover report when the analyst approves.
 
-If you want to modify this agentic workflow, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+If you want to modify this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
 ## Agents used in the Generate SIR Shift Handover Report overview
 

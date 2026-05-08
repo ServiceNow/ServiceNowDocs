@@ -115,7 +115,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Default: false
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see Exploring user administration. Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -156,7 +156,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Explicit roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see Explicit roles.
 
 Default: false
 
@@ -223,7 +223,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Default: false
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see Exploring user administration. Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -264,7 +264,7 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Default: false
+Optional. Flag that indicates whether to include default roles, such as snc\_internal and snc\_external, in the request. For additional information on roles, see Exploring user administration. Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|

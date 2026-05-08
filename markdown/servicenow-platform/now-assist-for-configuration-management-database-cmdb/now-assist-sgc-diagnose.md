@@ -25,7 +25,7 @@ Role required: cmdb\_inst\_admin and now\_assist\_panel\_user
 
 This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
 
-When a Now Assist skill is enabled, the Now Assist icon ![](../../../administer/virtual-agent/images/icon-now-assist-sparkle.png) appears in the toolbar of the workspace. For more information, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+When a Now Assist skill is enabled, the Now Assist icon ![](../../../administer/virtual-agent/images/icon-now-assist-sparkle.png) appears in the toolbar of the workspace. For more information, see Working in the Now Assist panel.
 
 ## Procedure
 
@@ -99,7 +99,7 @@ For issues related to Identification and Reconciliation engine \(IRE\), the pane
 
 ![Import set diagnosis result with IRE issues.](../image/now-assist-sgc-diagnose-result-ire.png "Diagnosis results for the failed import set with IRE issues")
 
-**Tip:** To restart the conversation, select the reset icon \(![](../image/now-assist-reset-icon.png)\). If you reset the conversation, the existing messages are deleted, and a new conversation is started. You won't be able to access the previous messages after you reset the conversation. To learn more about how to use the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Tip:** To restart the conversation, select the reset icon \(![](../image/now-assist-reset-icon.png)\). If you reset the conversation, the existing messages are deleted, and a new conversation is started. You won't be able to access the previous messages after you reset the conversation. To learn more about how to use the Now Assist panel, see Now Assist panel.
 
 ## What to do next
 

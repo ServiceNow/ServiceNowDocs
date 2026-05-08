@@ -43,5 +43,5 @@ Disables automatic recovery of draft records for this table.
 **Related topics**  
 
 
-[Dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_DictionaryAttributes]
 

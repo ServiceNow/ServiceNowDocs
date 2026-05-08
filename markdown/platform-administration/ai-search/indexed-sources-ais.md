@@ -27,11 +27,11 @@ AI Search supports the following indexed source types.
 
     AI Search excludes some ServiceNow AI Platform tables from indexing. You can't define indexed sources for these excluded tables or their derived tables. For a list of excluded tables, see [ServiceNow AI Platform tables excluded from AI Search indexing](../reference/excluded-tables-ais.md).
 
-    You can't index [remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) with internal indexed sources. To index content from a remote table, create an external indexed source.
+    You can't index remote tables with internal indexed sources. To index content from a remote table, create an external indexed source.
 
 -   **External indexed source**
 
-    An external indexed source retrieves alphanumeric content and metadata from text and string fields of documents in an external repository or a [remote table](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). It includes a unique name and a reference to an external content schema table instead of a ServiceNow AI Platform table. For more details on configuring indexed sources for external content, see [Indexing and searching external content in AI Search](external-content-ais.md).
+    An external indexed source retrieves alphanumeric content and metadata from text and string fields of documents in an external repository or a remote table. It includes a unique name and a reference to an external content schema table instead of a ServiceNow AI Platform table. For more details on configuring indexed sources for external content, see [Indexing and searching external content in AI Search](external-content-ais.md).
 
 
 **Note:** AI Search doesn't index Unicode characters from the High Surrogate Area \(code units in the range U+D800 to U+DBFF\). Characters from this range are replaced with spaces during indexing.

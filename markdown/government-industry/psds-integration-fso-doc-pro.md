@@ -21,9 +21,9 @@ This application is automatically installed when you install the following Publi
 -   Social Benefits Playbook
 -   License and Permit Playbook
 
-An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://www.servicenow.com/docs/access?context=document-templates-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see Document Templates.
 
-Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://www.servicenow.com/docs/access?context=docusign-doc&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) or [Document Template integration with AdobeSign](https://www.servicenow.com/docs/access?context=adobe-sign-doc&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see Document Template integration with Docusign or Document Template integration with AdobeSign.
 
 The Document Processor plugin is the foundation for document activities, installed automatically when you install the above plugins or applications. All document activities, components, and flows created by Public Sector Digital Services are part of the Service Applicant Information plugin. For more information on the Service Applicant Information plugin, see [Plugins installed with Public Sector Digital Services Core](../reference/plugins-installed-with-psds.md).
 

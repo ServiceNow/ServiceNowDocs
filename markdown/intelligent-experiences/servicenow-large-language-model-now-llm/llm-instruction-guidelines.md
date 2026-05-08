@@ -231,9 +231,9 @@ For developers, the sources that a skill or AI agent can access may vary dependi
 
 For more information about configuring sources for skill or AI agent use, see the following topic areas:
 
--   [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Now Assist in AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   AI Search
+-   Now Assist in AI Search
+-   External Content Connectors
 -   [Overview tab in Now Assist Admin](configuring-now-assist.md)
 -   [Now Assist AI agents](../../now-assist-ai-agents/reference/na-ai-agents.md)
 
@@ -241,16 +241,16 @@ For more information about configuring sources for skill or AI agent use, see th
 
 |Skill|Reference|
 |-----|---------|
-|App generation|[General guidelines for using app generation](https://www.servicenow.com/docs/access?context=sns-app-gen-guidelines&version=australia&pubname=australia-application-development&ft:locale=en-US)|
-|Analytics generation|[Guidelines and example questions](https://www.servicenow.com/docs/access?context=example-questions-generating-dv&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)|
-|Catalog item generation|[Suggestions to describe catalog items](https://www.servicenow.com/docs/access?context=how-to-describe-catalog-item&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
-|Code generation|[General guidelines for code generation](https://www.servicenow.com/docs/access?context=general-guidelines-code-generation&version=australia&pubname=australia-api-reference&ft:locale=en-US)|
+|App generation|General guidelines for using app generation|
+|Analytics generation|Guidelines and example questions|
+|Catalog item generation|Suggestions to describe catalog items|
+|Code generation|General guidelines for code generation|
 |Flow generation||
-|LLM topic skill for Virtual Agent|[LLM description and instruction guidelines for Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-llm-description-guidelines&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|
+|LLM topic skill for Virtual Agent|LLM description and instruction guidelines for Virtual Agent topics|
 |Now Assist Skill Kit|[General guidelines for Now Assist Skill Kit](../../now-assist-skill-kit/reference/na-skill-kit-guidelines.md)|
-|RPA bot generation|[General guidelines for RPA bot generation](https://www.servicenow.com/docs/access?context=rpa-bot-generation&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|
-|Test generation|[Design considerations for prompting](https://www.servicenow.com/docs/access?context=tg-prompt-design-considerations&version=australia&pubname=australia-application-development&ft:locale=en-US)|
-|UI generation|[General guidelines UI generation](https://www.servicenow.com/docs/access?context=general-guidelines-ui-generation&version=australia&pubname=australia-application-development&ft:locale=en-US)|
+|RPA bot generation|General guidelines for RPA bot generation|
+|Test generation|Design considerations for prompting|
+|UI generation|General guidelines UI generation|
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](../../general/concept/exploring-large-language-models.md)
 

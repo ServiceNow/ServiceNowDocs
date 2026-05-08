@@ -29,15 +29,15 @@ Identify the HTML and JavaScript page components in your user interfaces that ar
 
     Note that some custom UI pages open in a new tab and can be inspected only manually.
 
-<table id="choicetable_vxj_kgv_5fb"><thead><tr><th align="left" id="d130712e61">
+<table id="choicetable_vxj_kgv_5fb"><thead><tr><th align="left" id="d130706e61">
 
 Option
 
-</th><th align="left" id="d130712e64">
+</th><th align="left" id="d130706e64">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d130712e70">
+</th></tr></thead><tbody><tr><td id="d130706e70">
 
 **Inspect page opening in the ServiceNow AI Platform.**
 
@@ -48,7 +48,7 @@ Procedure
 3.  Enable **Automated Test Framework Page Inspector**.
  The page opens in the Page Inspector and the inspect icon appears in the banner frame.
 
-</td></tr><tr><td id="d130712e101">
+</td></tr><tr><td id="d130706e101">
 
 **Inspect page opening in a new tab, such as a Service Portal page.**
 

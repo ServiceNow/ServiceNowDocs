@@ -104,7 +104,7 @@ Run with roles
 Roles that the subflow runs with. This option is only available when **Run as** is set to **User who initiates the session**. For example, a plan user should have the email\_api\_send role to send the email and the sn\_bcm.program\_manager role to read the BCM tasks.
 
 </td></tr></tbody>
-</table>For more information on creating a subflow, see [Create a subflow in Workflow Studio](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>For more information on creating a subflow, see Create a subflow in Workflow Studio.
 
 **Parent Topic:**[Automate recovery tasks](../task/automate-the-recovery-tasks.md)
 

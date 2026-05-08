@@ -33,15 +33,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d547589e102">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d547605e102">
 
 Option
 
-</th><th align="left" id="d547589e105">
+</th><th align="left" id="d547605e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d547589e111">
+</th></tr></thead><tbody><tr><td id="d547605e111">
 
 **As an assignee**
 
@@ -53,7 +53,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d547589e140">
+</td></tr><tr><td id="d547605e140">
 
 **As a collaborator**
 

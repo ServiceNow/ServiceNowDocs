@@ -27,7 +27,7 @@ You can only delete flows that are in the same application scope as the current 
 
 1.  If needed, change application scope to that of the flow you want to delete.
 
-    For more information about changing application scope, see [Exploring Next Experience pickers](https://www.servicenow.com/docs/access?context=next-experience-pickers&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about changing application scope, see Exploring Next Experience pickers.
 
 2.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 

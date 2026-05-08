@@ -35,7 +35,7 @@ Role required: sam\_admin and procurement\_integrator
 
 You can create a requisition on Coupa through the following ways:
 
--   When a user requests software through Service Catalog. For more information, see [Request a catalog item from Service Portal](https://www.servicenow.com/docs/access?context=request-cat-item-portal&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   When a user requests software through Service Catalog. For more information, see Request a catalog item from Service Portal.
 -   If a procurement\_user or sam\_admin directly creates a Purchase Order on the Procurement application. For more information, see [Create a Purchase Order](t_CreateAPurchaseOrder.md).
 -   When a sam\_user creates a Purchase Order directly from the Remediation Options form. For more information, see [View software model results](../../software-asset-management2/task/t_ViewSWModelResults.md).
 

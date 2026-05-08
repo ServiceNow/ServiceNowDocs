@@ -51,5 +51,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_CreateAUser]
 

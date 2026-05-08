@@ -94,7 +94,7 @@ Filter
 
 </td><td>
 
-Conditions used to filter users from the selected table. For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Conditions used to filter users from the selected table. For more information about conditions, see Condition builder.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Central reference](../concept/workplace-central-references.md)

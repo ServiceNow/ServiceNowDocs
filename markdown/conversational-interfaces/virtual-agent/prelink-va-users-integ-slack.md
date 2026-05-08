@@ -18,7 +18,7 @@ Pre-link your Virtual Agent requesters to a ServiceNow instance before they run 
 ## Before you begin
 
 -   [Manage the ServiceNow Virtual Agent integration with Slack](configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   [Set up Slack Spoke](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Set up Slack Spoke.
 
 Roles required:
 
@@ -51,7 +51,7 @@ Batch pre-linking happens automatically via the **Slack Daily Pre-Link Job** sch
 
 3.  In the **Run** field, change the run time to your desired time.
 
-4.  For a description of the other fields that you can change in this form, including **Time zone**, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+4.  For a description of the other fields that you can change in this form, including **Time zone**, see Automatically run a script of your choosing.
 
 5.  Click **Save**.
 

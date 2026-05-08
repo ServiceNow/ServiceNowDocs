@@ -19,10 +19,10 @@ Use the guided setup for Service Graph Connector Integration for Claroty CTD to 
 
 Dependencies and requirements:
 
--   The [Integration Commons for CMDB](https://www.servicenow.com/docs/access?context=integration-commons-for-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) store app, which is automatically installed.
--   The [CMDB CI Class Models app](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), which is automatically installed.
+-   The Integration Commons for CMDB store app, which is automatically installed.
+-   The CMDB CI Class Models app, which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   Review that **View** access is enabled in Claroty CTD for the following user permissions to collect data from Claroty CTD to ServiceNow:
     -   Visibility
@@ -40,7 +40,7 @@ Role required: admin
 
 1.  Ensure that the application is set to Service Graph Connector Integration for Claroty CTD by using the application picker.
 
-    For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **Service Graph Connector Claroty CTD** &gt; **Guided Setup**.
 
@@ -122,7 +122,7 @@ com.glide.communications.httpclient.verify\_revoked\_certificate
 
 </td><td>
 
-Set to **false**.If you need to add this system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Set to **false**.If you need to add this system property, see Add a system property.
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Set to **true**.
         |Hostname check|**false**|
         |Revocation check|**false**|
 
-        For more information, see [MID Server certificate check policies](https://www.servicenow.com/docs/access?context=mid-security-checks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information, see MID Server certificate check policies.
 
 8.  To set the system properties that configure the API resource paths, pagination sizes, and API key expiration times,complete the following:
 

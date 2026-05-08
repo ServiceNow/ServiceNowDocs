@@ -41,7 +41,7 @@ The following extraction tables are available through Zero Copy Connector for ER
 |SAP Vendor Invoice|Sales|
 |SAP Transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more details on working with remote tables, see Remote tables.
 
 **Parent Topic:**[Zero Copy Connector for ERP standard tables, fields, and models](erp-canvas-standard-tables-and-fields-landing.md)
 

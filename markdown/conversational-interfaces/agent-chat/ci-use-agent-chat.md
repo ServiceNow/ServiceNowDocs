@@ -18,12 +18,12 @@ Agent Chat provides features that streamline the agent and requester chat experi
 Provide your agents with a workspace that has built-in productivity features for engaging with customers. Your agents can do the following:
 
 -   Use shortcuts, known as [quick actions](ci-quick-actions-overview.md#), for common activities, such as transferring a chat to another queue or displaying contextual info related to the chat.
--   Reuse common responses, such as greetings or answers to frequent questions, with [response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
--   Get possible solutions for issues, derived from searches of related issues in Knowledge articles, Q&amp;A, and previous incidents or cases with [Agent assist](https://www.servicenow.com/docs/access?context=agent-assist-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   Reuse common responses, such as greetings or answers to frequent questions, with response templates.
+-   Get possible solutions for issues, derived from searches of related issues in Knowledge articles, Q&amp;A, and previous incidents or cases with Agent assist.
 -   Interact with customers in their native language using [Dynamic Translation for Agent Chat](ci-dtac-overview.md).
 -   Manage work assignments delivered to agents' inboxes, enabling them to set their availability and accept, reject, or transfer chats.
 -   Trigger a Virtual Agent self-service topic that walks end users through a task with [Conversation Autopilot](ci-agent-chat-using.md#).
--   Provide agents with the option to add work notes or updates after they finish a support session with [Interaction wrap up](https://www.servicenow.com/docs/access?context=interaction-wrap-up-state&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Provide agents with the option to add work notes or updates after they finish a support session with Interaction wrap up.
 
 ## Get started
 

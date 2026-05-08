@@ -15,7 +15,7 @@ breadcrumb: [Slack integration - Incident Management, Collaboration services, IT
 
 Slash commands provides a quick way to invoke your app to perform specific actions from Slack.
 
-You need to [configure slash commands](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to execute the commands. Only a user with the sn\_incident\_write, itil or admin role can execute the commands.
+You need to configure slash commands to execute the commands. Only a user with the sn\_incident\_write, itil or admin role can execute the commands.
 
 <table id="table_eg5_4td_jnb"><thead><tr><th>
 

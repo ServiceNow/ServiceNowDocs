@@ -18,7 +18,7 @@ Set up the Investigation Framework in Service Operations Workspace using Microso
 You must ensure that the following requirements are met:
 
 -   Service Operations Workspace for ITSM \(sn\_sow\_itsm\_cont\) application set up is complete and configured as per your requirement. For more information, see [Getting started with Service Operations Workspace for ITSM](getting-started-sow.md)
--   Install and configure Microsoft Endpoint Configuration Manager Spoke \(sn\_ms\_epcfgmgr\_spk\) application. For more information, see [Microsoft Endpoint Configuration Manager spoke](https://www.servicenow.com/docs/access?context=ms-endpoint&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [Microsoft SCCM integration](https://www.servicenow.com/docs/access?context=c_MicrosoftSCCMIntegration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Install and configure Microsoft Endpoint Configuration Manager Spoke \(sn\_ms\_epcfgmgr\_spk\) application. For more information, see Microsoft Endpoint Configuration Manager spoke and Microsoft SCCM integration.
 -   Install the Microsoft Endpoint Configuration Manager for Investigation application.
 
     For more information, see [Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation](../task/install-mecm-adapter.md).

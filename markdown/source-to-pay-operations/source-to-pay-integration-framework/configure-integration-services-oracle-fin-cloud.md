@@ -18,7 +18,7 @@ For configuring integration services, provide the connection end point and the O
 ## Before you begin
 
 -   Verify that the application scope is set to Oracle Financial Cloud spoke.
--   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Verify that the MID Server is installed and configured in your ServiceNow instance to connect to the ERP server. For more details, see Installing the MID Server.
 
     **Note:** The MID Server integration is required only for an Oracle Financial Cloud ERP integration using SOAP services.
 

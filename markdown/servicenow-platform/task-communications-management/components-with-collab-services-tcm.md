@@ -15,7 +15,7 @@ breadcrumb: [Install Collaboration Services for Task Communications Management, 
 
 Several types of components are installed with the Collaboration Services for Task Communications Management \(sn\_tcm\_collab\_hook\) plugin, including tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 
@@ -55,5 +55,5 @@ Stores Collaboration Service related data.
 </table>**Related topics**  
 
 
-[Configure Slack workspace](https://www.servicenow.com/docs/access?context=configure-slack-workspace&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[bundle-crint.configure-slack-workspace]
 

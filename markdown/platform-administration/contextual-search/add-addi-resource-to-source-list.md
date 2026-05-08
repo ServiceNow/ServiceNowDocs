@@ -57,7 +57,7 @@ Additional resources are pre-defined. An additional resource is either a searcha
 **Related topics**  
 
 
-[Additional search resources](https://www.servicenow.com/docs/access?context=similar-cases-additional-resources&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.similar-cases-additional-resources]
 
-[Similarity solution definitions](https://www.servicenow.com/docs/access?context=similar-cases-solution-definitions&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.similar-cases-solution-definitions]
 

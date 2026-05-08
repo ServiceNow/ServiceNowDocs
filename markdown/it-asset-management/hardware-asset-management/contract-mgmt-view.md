@@ -24,7 +24,7 @@ To create a contract, select **New contract**. For more details, see [Create a c
 **Related topics**  
 
 
-[Contract Management](https://www.servicenow.com/docs/access?context=c_ContractManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ContractManagement]
 
-[Contract renewal workflow](https://www.servicenow.com/docs/access?context=cont-renew-wf&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.cont-renew-wf]
 

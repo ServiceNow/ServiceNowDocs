@@ -31,7 +31,7 @@ Role required: virtual\_agent\_admin or admin
 
 3.  Select the **Languages** tab.
 
-    Only languages that are installed and activated are displayed. To learn how to activate localization plugins, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Only languages that are installed and activated are displayed. To learn how to activate localization plugins, see Activate a language.
 
     **Note:** The ServiceNow AI Platform provides translations for interface features and pre-built topics. So in some topics, languages may display as partially translated.
 
@@ -43,7 +43,7 @@ Role required: virtual\_agent\_admin or admin
         1.  Select the applicable check boxes, and then click **Request translations**.
         2.  When prompted, confirm your choice.
 
-            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see [Fulfill a localization task](https://www.servicenow.com/docs/access?context=fulfill-localization-task&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+            A translation record is created, and the translation status changes to **In progress**. The translation task is assigned to a user with the localization fulfiller role. For information about the fulfillment process in the Localization Framework, see Fulfill a localization task.
 
     -   [Edit translations directly in Virtual Agent Designer](edit-translations-va-topics.md).
 

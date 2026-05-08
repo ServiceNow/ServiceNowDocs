@@ -43,7 +43,7 @@ Use the Event Notification Management Open API to create, update, and delete eve
 
 </td></tr><tr><td>
 
-[Financial Services Operations developer guide](https://www.servicenow.com/docs/access?context=fso-int_guide-overview&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
+Financial Services Operations developer guide
 
 </td><td>
 

@@ -18,7 +18,7 @@ Workplace Connectors is a framework to integrate different types of badging, occ
 ## Key features
 
 -   Configure multiple hardware or sensor data providers \(for example multiple badging vendors, occupancy sensors, air quality and temperature sensors\).
--   Create extension points to transform data from workplace hardware or sensor to a vendor agnostic format. For more information, see [Creating and adding a scripted extension point](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Create extension points to transform data from workplace hardware or sensor to a vendor agnostic format. For more information, see Creating and adding a scripted extension point.
 -   Provide employee badging data analytics and metrics to optimize workplace space occupancy.
 -   Space Occupancy metrics dashboard to view analytics based on employee headcount and office space usage.
 -   Configure reservation automatic check-in based on the Space Occupancy data insights.

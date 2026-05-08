@@ -38,7 +38,7 @@ Setting up OAuth 2.0 for email requires you to obtain access and refresh tokens 
 
 6.  Use the information you obtained from your third-party email account to fill in the fields on the form.
 
-    See [Use a third-party OAuth provider](https://www.servicenow.com/docs/access?context=t_UseAThirdPartyOAuthProvider&version=australia&pubname=australia-api-reference&ft:locale=en-US) for instructions.
+    See Use a third-party OAuth provider for instructions.
 
 7.  Create the OAuth application registry record and its associated OAuth Entity Profile and OAuth Entity Scope records.
 

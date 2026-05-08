@@ -15,7 +15,7 @@ breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Cha
 
 Several types of components are installed with installation of the Agent-Initiated Messaging Interface application, including tables, plugins, and ServiceNow Store applications.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 

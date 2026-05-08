@@ -69,7 +69,7 @@ Provides APIs and workflow activities for applications to handle various notific
 
 -   **Notify**
 
-    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    Provides support for enabling and configuring customer SMS and email notifications For more information about activating Notify, see Notify.
 
 
 The following items are installed with Field Service Management Customer Experience:
@@ -95,7 +95,7 @@ Set up notification messages and emails to update customers about the status of 
 
 Customers can receive notifications about the work order tasks created for them. Customers can unsubscribe to stop receiving any notifications.
 
-Customer notifications for work order tasks use the Field Service Management - Customer Experience plugin to send both SMS and email notifications on the registered mobile number and email address. Users with the system administrator role can enable and configure customer SMS and email notifications. For more information, see [Notify Twilio Direct driver](https://www.servicenow.com/docs/access?context=Notify-TwilioDirectDriver&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Customer notifications for work order tasks use the Field Service Management - Customer Experience plugin to send both SMS and email notifications on the registered mobile number and email address. Users with the system administrator role can enable and configure customer SMS and email notifications. For more information, see Notify Twilio Direct driver.
 
 Customers are notified when one of the following activities is performed to the work order task:
 

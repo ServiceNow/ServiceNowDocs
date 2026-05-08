@@ -17,7 +17,7 @@ The Client Script API defines client-side scripts \[sys\_script\_client\] that r
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about client scripts, see [Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For general information about client scripts, see Client scripts.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -152,7 +152,7 @@ String
 
 </td><td>
 
-Text strings that are available to the client script as localized messages using getmessage\('\[message\]'\). For more information, see [Translate a client script message](https://www.servicenow.com/docs/access?context=t_TranslateAClientScriptMessage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Text strings that are available to the client script as localized messages using getmessage\('\[message\]'\). For more information, see Translate a client script message.
 
 </td></tr><tr><td>
 
@@ -225,7 +225,7 @@ String
 
 </td><td>
 
-The type of client script, which defines when it runs. For more information about the supported types, see [Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US).Valid values:
+The type of client script, which defines when it runs. For more information about the supported types, see Client scripts.Valid values:
 
 -   onCellEdit: Runs when the list editor changes a cell value.
 -   onChange: Runs when a particular field value changes on the form.

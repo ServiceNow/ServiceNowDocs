@@ -111,7 +111,7 @@ Release notes
 
 </td><td>
 
-[Mobile Platform release notes](https://www.servicenow.com/docs/access?context=mobile-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+Mobile Platform release notes
 
 </td></tr><tr><td>
 

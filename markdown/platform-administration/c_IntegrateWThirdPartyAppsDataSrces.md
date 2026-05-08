@@ -21,7 +21,7 @@ The ServiceNow platform is based on service-oriented architecture \(SOA\), in wh
 
 Additionally the platform offers a rich interface for loading external data using import sets. Using this feature, you can load from various data sources such as HTTPS, FTPS, and SCP using file formats such as XML, CSV, and Microsoft Excel XLS files. Information can also be pulled from a data source using a direct JDBC connection, provided the network connectivity allows.
 
-Information can be pulled from the platform to an external platform using an [ODBC driver](https://www.servicenow.com/docs/access?context=c_ODBCDriver&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Information can be pulled from the platform to an external platform using an ODBC driver.
 
 Forms, lists, and reports on the platform can be accessed directly using a URL, which facilitates integration on the UI level between two or more web applications.
 

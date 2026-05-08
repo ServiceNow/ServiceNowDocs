@@ -17,9 +17,9 @@ Provides endpoints for managing wrap-up functionality for external Contact Cente
 
 This API requires the Interactions Management \(com.glide.interaction.awa\) plugin. To call this API, you must have the interaction\_integration\_user role.
 
-When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see [Wrap up overview](https://www.servicenow.com/docs/access?context=wrap-up-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see Wrap up overview.
 
-To use this API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using [OpenFrame](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US), the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
+To use this API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using OpenFrame, the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
 
 -   **AI wrap-up recommendations**
 
@@ -2393,7 +2393,7 @@ segment\_id
 
 </td><td>
 
-Sys\_id of the interaction segment. Required if **external** and **segmented** are both `true`.**Note:** You must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table or use the [OpenFrame](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
+Sys\_id of the interaction segment. Required if **external** and **segmented** are both `true`.**Note:** You must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table or use the OpenFrame implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
 
 Data type: String
 

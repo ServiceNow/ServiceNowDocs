@@ -31,7 +31,7 @@ Use this option to view and manage customer phone interaction records.
     **Note:**
 
     -   The **Verify and open details** option is displayed only if the **Verified** check box has not been selected in the Interaction record page.
-    -   This page is a variant of the Customer Service Management voice interaction page. The Open Frame configuration with the Interaction Controls component must be active for this page to display. This configuration is shipped with demo data and is active by default. For setup prerequisites and configuration details, see [CSM voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    -   This page is a variant of the Customer Service Management voice interaction page. The Open Frame configuration with the Interaction Controls component must be active for this page to display. This configuration is shipped with demo data and is active by default. For setup prerequisites and configuration details, see CSM voice interaction record page.
 
 **Parent Topic:**[Use Telecommunications Customer 360](../concept/c360-use.md)
 
@@ -40,5 +40,5 @@ Use this option to view and manage customer phone interaction records.
 
 [Telecommunications Customer 360 home page](../concept/c360-home-page.md)
 
-[Creating pages and page variants](https://www.servicenow.com/docs/access?context=config-csm-ws-create-page-variant&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.config-csm-ws-create-page-variant]
 

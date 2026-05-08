@@ -37,7 +37,7 @@ By embedding workflow automation into customer success management, Customer Succ
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Customer Success Management release notes](https://www.servicenow.com/docs/access?context=account-lifecycle-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the Customer Success Management release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Success Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).

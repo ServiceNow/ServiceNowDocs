@@ -17,7 +17,7 @@ In Live Feed, you can post new messages and replies to existing messages for all
 
 **Important:**
 
-Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See Next Experience UI for more information.
 
 While Live Feed has been discontinued, we are always exploring new ways to enhance our services. Stay tuned for future updates and improvements.
 
@@ -25,7 +25,7 @@ While Live Feed has been discontinued, we are always exploring new ways to enhan
 
 In addition to entering text, you can attach files, such as images, documents, and spreadsheet files in any ServiceNow supported file type to Live Feed messages.
 
-Administrators can manage attachment file settings, such as supported file types and maximum attachment file size, by [editing system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Administrators can manage attachment file settings, such as supported file types and maximum attachment file size, by editing system properties.
 
 You can also include links to user-defined URLs and knowledge articles contained in your instance's knowledge base.
 

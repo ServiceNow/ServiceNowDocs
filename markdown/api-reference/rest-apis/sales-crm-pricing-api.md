@@ -50,7 +50,7 @@ With external ID resolution, you can use your own identifiers or codes for selec
 
 Context variable configuration and mapping
 
-As an admin, before submitting a REST API pricing request, create the context variables that define the reference fields for external IDs or codes that are participating in external ID resolution. You also add the external IDs or codes to the reference tables called by pricing requests. For details on defining context variables, see [External ID support in Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=external-ids-pricingapi&version=australia&pubname=australia-order-management&ft:locale=en-US).
+As an admin, before submitting a REST API pricing request, create the context variables that define the reference fields for external IDs or codes that are participating in external ID resolution. You also add the external IDs or codes to the reference tables called by pricing requests. For details on defining context variables, see External ID support in Sales CRM Pricing API.
 
 How external IDs work in pricing requests
 

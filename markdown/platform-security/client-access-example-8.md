@@ -17,7 +17,7 @@ Verify that your Windows Management Instrumentation \(WMI\) credential is encryp
 
 Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.cryptographic\_manager
 
--   Integration Hub Enterprise must be active on your instance. For details, see [Request an Integration Hub plugin](https://www.servicenow.com/docs/access?context=request-integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Integration Hub Enterprise must be active on your instance. For details, see Request an Integration Hub plugin.
 -   You must have a configured secrets group on your instance. See steps 1 through 3 listed in [Configuring client accessible secrets](../concept/client-access-secret-landing.md).
 -   You must have a configured credential encrypted with Secrets Management. See steps 1 through 9 listed in [Create credentials and test credential encryption](client-access-example-4.md).
 

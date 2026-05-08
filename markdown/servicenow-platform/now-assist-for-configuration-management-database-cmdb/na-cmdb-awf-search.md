@@ -17,7 +17,7 @@ The Search CMDB agentic workflow enables you to search for CIs by specifying any
 
 ## Before you begin
 
-Confirm that Query Generation skills are activated. For instructions, see [Configuring Query Generation](https://www.servicenow.com/docs/access?context=configuring-query-generation&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Confirm that Query Generation skills are activated. For instructions, see Configuring Query Generation.
 
 **Note:** Because activation configures a large amount of data, wait one day after activation to use the Search CMDB agentic workflow.
 
@@ -42,7 +42,7 @@ The Search CMDB agentic workflow can perform the following types of search:
 3.  Enter the information that describes the searched-for CIs.
 
     -   Provide as much as you know about the CIs. Ideally provide the class type followed by other search values and conditions. For example, name, IP address, serial number, MAC address, or asset tag.
-    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see [Query Generation logs](https://www.servicenow.com/docs/access?context=query-generation-logs&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    -   If a query fails, you can check query generation events to determine the cause. Select **All** &gt; **Query Generation** &gt; **Event Queue** to view events. In some cases, a log will exist for the query. Select **All** &gt; **Query Generation** &gt; **Logs** to view the logs. For more information, see Query Generation logs.
 4.  Refine the query if Now Assist does not return the CI that you're interested in.
 
     For example, you might have specified an IP address that is duplicated in multiple tables. In such cases, provide details that narrow the search.
@@ -87,7 +87,7 @@ If you think that data might have changed after you viewed the response, select 
 
 If fewer than five search results are returned, they are summarized. If more results are returned, they appear in a linked list \(limited to 100 records\).
 
-To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To learn more about using the Now Assist panel, see Working in the Now Assist panel.
 
 **Parent Topic:**[Using agentic workflows in Now Assist for CMDB](../../configuration-management/concept/now-assist-cmdb-using.md)
 

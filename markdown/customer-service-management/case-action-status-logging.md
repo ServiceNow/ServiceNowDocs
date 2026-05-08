@@ -32,8 +32,8 @@ The metrics include:
 
 To access the **Case Actor Duration** metric definition, navigate to **All** &gt; **Metrics** &gt; **Definitions** and select the definition from the list. For more information about metric definitions, see the following topics:
 
--   [Metrics](https://www.servicenow.com/docs/access?context=c_MetricDefinitionSupport&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Define a metric](https://www.servicenow.com/docs/access?context=create-metric&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Metrics
+-   Define a metric
 
 **Parent Topic:**[Administering case action status](../concept/customer-service-case-action-status.md)
 

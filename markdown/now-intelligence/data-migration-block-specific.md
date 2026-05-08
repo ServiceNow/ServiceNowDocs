@@ -34,7 +34,7 @@ Role required: admin.
 
 4.  In the column **Do not migrate in bulk**, change the flag from false to true for the artifacts you want to exclude.
 
-    You can select multiple consecutive or non-consecutive fields. For more information, see [Edit multiple records in a list using the list editor](https://www.servicenow.com/docs/access?context=t_EditMultRecUsingListEditor&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    You can select multiple consecutive or non-consecutive fields. For more information, see Edit multiple records in a list using the list editor.
 
 5.  If you can’t change the flag, edit the list control for the column.
 

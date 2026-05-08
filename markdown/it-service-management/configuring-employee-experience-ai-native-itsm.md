@@ -55,7 +55,7 @@ Live Agent chat is auto-configured post installation. It includes routing condit
 
 </td><td>
 
-Manage and configure the live agent chat experience. For information about configuring this channel, see [Create or configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Manage and configure the live agent chat experience. For information about configuring this channel, see Create or configure a service channel.
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Email actions are preconfigured with Simplified ITSM.
 
 </td><td>
 
-Review the email actions available in the base system and update them based on the business process and requirement. For information about inbound email actions, see [Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Review the email actions available in the base system and update them based on the business process and requirement. For information about inbound email actions, see Inbound email actions.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ None
 
 </td><td>
 
-For information about integrating ServiceNow Voice with Amazon Connect, see [Integrate ServiceNow Voice with Amazon Connect](https://www.servicenow.com/docs/access?context=integrate-ccc-amazonconnect&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about integrating ServiceNow voice assistant with Genesys, see [Integrate ServiceNow voice assistant with Genesys Cloud service](https://www.servicenow.com/docs/access?context=integrate-voice-service-with-genesys&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about integrating ServiceNow Voice with Amazon Connect, see Integrate ServiceNow Voice with Amazon Connect.For information about integrating ServiceNow voice assistant with Genesys, see Integrate ServiceNow voice assistant with Genesys Cloud service.
 
 </td></tr></tbody>
 </table>## Virtual Agent
@@ -96,21 +96,21 @@ The Virtual Agent platform provides user assistance through conversations within
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|VA configuration|Virtual Agent features, components, and integrations that are essential to provide support to your employees, IT teams, and customers.|ServiceNow Virtual Agent is preconfigured with default general settings and branding, live agent chat configuration, and Now Assist Virtual Agent configurations.|Review and configure settings to align the run-time experience of Virtual Agent with your requirements. For information about these configurations, see [Configuring Virtual Agent](https://www.servicenow.com/docs/access?context=configure-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).|
-|VA for MS Teams|Integrating Virtual Agent with Microsoft Teams to enable users create their requests from within Microsoft Teams.|None|For information about Microsoft Teams integration, see [Configure Virtual Agent for Microsoft Teams](https://www.servicenow.com/docs/access?context=configure-va-msteams-settings&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).|
-|VA for Slack|Integrating Virtual Agent with Slack to enable users create their requests from within Slack.|None|For information about Slack integration, see [Integrating ServiceNow Virtual Agent with Slack](https://www.servicenow.com/docs/access?context=va-integ-slack&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).|
+|VA configuration|Virtual Agent features, components, and integrations that are essential to provide support to your employees, IT teams, and customers.|ServiceNow Virtual Agent is preconfigured with default general settings and branding, live agent chat configuration, and Now Assist Virtual Agent configurations.|Review and configure settings to align the run-time experience of Virtual Agent with your requirements. For information about these configurations, see Configuring Virtual Agent.|
+|VA for MS Teams|Integrating Virtual Agent with Microsoft Teams to enable users create their requests from within Microsoft Teams.|None|For information about Microsoft Teams integration, see Configure Virtual Agent for Microsoft Teams.|
+|VA for Slack|Integrating Virtual Agent with Slack to enable users create their requests from within Slack.|None|For information about Slack integration, see Integrating ServiceNow Virtual Agent with Slack.|
 
 ## Taxonomy
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|Taxonomy|Taxonomy for employee content maps the content of your product or services to the taxonomy hierarchy.|Predefined set of taxonomies for easy discovery of catalog items and knowledge on Employee Center.|Review, edit, remove, or add taxonomies that align with the business hierarchy of your organization. For information about taxonomy, see [Create taxonomy](https://www.servicenow.com/docs/access?context=create-taxonomy-content&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).|
+|Taxonomy|Taxonomy for employee content maps the content of your product or services to the taxonomy hierarchy.|Predefined set of taxonomies for easy discovery of catalog items and knowledge on Employee Center.|Review, edit, remove, or add taxonomies that align with the business hierarchy of your organization. For information about taxonomy, see Create taxonomy.|
 
 ## Catalog items
 
 |Configuration|Description|Default configuration|Optional configurations|
 |-------------|-----------|---------------------|-----------------------|
-|Catalog items|Services or product offerings available for your users.|Prebuilt catalog items and record producer with fulfillment workflows covering common IT issues and requests are active. For information about prebuilt catalog items, see [Catalog items installed with Simplified IT Service Management](../reference/catalog-items-base-system.md).|Review and edit a catalog item or create a catalog item using the native catalog builder experience. For information about adding a catalog item using Catalog Builder, see [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
+|Catalog items|Services or product offerings available for your users.|Prebuilt catalog items and record producer with fulfillment workflows covering common IT issues and requests are active. For information about prebuilt catalog items, see [Catalog items installed with Simplified IT Service Management](../reference/catalog-items-base-system.md).|Review and edit a catalog item or create a catalog item using the native catalog builder experience. For information about adding a catalog item using Catalog Builder, see Create a catalog item using a template.|
 
 ## Surveys
 
@@ -144,7 +144,7 @@ Preconfigured employee satisfaction surveys to gather feedback post incident res
 
 </td><td>
 
-Create or edit an existing survey using Survey Designer. For information about configuring surveys, see [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for survey configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Create or edit an existing survey using Survey Designer. For information about configuring surveys, see Survey designer.For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for survey configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>

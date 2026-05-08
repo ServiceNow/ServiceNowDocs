@@ -21,7 +21,7 @@ Instead of using forms to collect information from your requesters, you can crea
 
 ![Web chat client with pre-chat surveys highlighted.](../image/pre-chat-survey-example.png "Example pre-chat survey conversation")
 
-Survey administrators and administrators use [Survey Designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to:
+Survey administrators and administrators use Survey Designer to:
 
 -   Build survey content: Survey Designer provides various controls for defining survey questions. The example above shows the choice list control, which displays a list of items that your users can choose from. Each survey question has corresponding properties that you can set to manage survey behavior. For instance, you can make a survey response mandatory. If you make a survey response optional, users can skip the question in the survey. You can also configure your survey so that an introductory note starts the survey and an end note displays after users finish the survey.
 -   \(Optional\) Save certain survey responses as chat context: When defining your survey, you can map a particular survey question to a chat context variable so that survey responses are stored in the context variable. You can then use these variables to route chats to live agents in certain queues, by specifying the chat context variables in routing conditions or to the virtual agent.

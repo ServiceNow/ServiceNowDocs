@@ -30,7 +30,7 @@ You can also use the workflow to rerun conflict detection.
 
 **Note:** The assess conflicts for a change request agentic workflow doesn’t have a trigger and is invoked manually.
 
-To modify the assess conflicts for a change request agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the assess conflicts for a change request agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 

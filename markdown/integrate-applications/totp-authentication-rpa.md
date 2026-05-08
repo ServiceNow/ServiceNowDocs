@@ -19,7 +19,7 @@ An authenticator application is third-party software that generates temporary pa
 
 TOTP authentication secures the seed storage of the authenticator at the instance level. The seed is the secret key of the authenticator that is used to generate the TOTP.
 
-Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://www.servicenow.com/docs/access?context=mfa-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see Multi-factor authentication.
 
 ## TOTP authentication architecture
 

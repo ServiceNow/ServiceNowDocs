@@ -17,7 +17,7 @@ You can configure any MID Server to use a proxy server for Cloud Cost Management
 
 ## Detailed instructions
 
-[Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance](https://www.servicenow.com/docs/access?context=mid-server-proxy&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance
 
 ## Proxy server limitations
 
@@ -49,9 +49,9 @@ You can configure any MID Server to use a proxy server for Cloud Cost Management
 **Related topics**  
 
 
-[MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

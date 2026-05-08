@@ -32,11 +32,11 @@ The interaction wrap up configuration includes the following information:
 -   Whether wrap up is automatically ended by the system and, if automatically ended the duration of the wrap up period.
 -   Whether a countdown timer that displays the wrap up duration is shown to agents in CSM Configurable Workspace.
 
-For more information, see [Create an interaction wrap-up configuration](https://www.servicenow.com/docs/access?context=create-interaction-wrap-up-config&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information, see Create an interaction wrap-up configuration.
 
 ## Starting and ending a wrap up
 
 The wrap up period begins when either the agent or the customer ends a conversation. Ending the wrap up period can be performed manually by the agent or automatically by the system.
 
-For more information, see [Interaction wrap up](https://www.servicenow.com/docs/access?context=interaction-wrap-up-state&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information, see Interaction wrap up.
 

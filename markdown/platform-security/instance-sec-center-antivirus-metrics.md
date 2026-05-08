@@ -135,9 +135,9 @@ Lists the infected files in the instance quarantined by Antivirus Scanning:
 
 [Review antivirus activity](../task/generate-log-report-of-quarantined-files.md)
 
-[Analytics Hub](https://www.servicenow.com/docs/access?context=c_UsePerformanceAnalyticsScorecards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.c_UsePerformanceAnalyticsScorecards]
 
-[Performance Analytics breakdowns](https://www.servicenow.com/docs/access?context=c_CreatingBreakdowns&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.c_CreatingBreakdowns]
 
-[Analytics, Intelligence, and Reporting](https://www.servicenow.com/docs/access?context=c_performanceAnalyticsAndReporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.c_performanceAnalyticsAndReporting]
 

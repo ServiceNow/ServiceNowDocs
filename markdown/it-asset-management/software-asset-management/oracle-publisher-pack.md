@@ -67,7 +67,7 @@ Oracle
 </td></tr></tbody>
 </table>**Important:** The Software Asset Management application supports Bring Your Own License \(BYOL\) for Oracle Database and WebLogic Server across hybrid infrastructures. With BYOL support, you can track licenses for your Oracle Database and WebLogic Server in both on-premise and public cloud environments. For more information about Oracle BYOL support, see [Bring your own license or subscription to the public cloud](byol-concepts.md).
 
-Additionally, you can use the Oracle Global License Advisory Services \(GLAS\) to manage licensing of your deployed Oracle software products. For more information, see [Oracle GLAS data collection](https://www.servicenow.com/docs/access?context=oracle-glas-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+Additionally, you can use the Oracle Global License Advisory Services \(GLAS\) to manage licensing of your deployed Oracle software products. For more information, see Oracle GLAS data collection.
 
 ## Oracle license metrics
 
@@ -147,9 +147,9 @@ During contract renewals and audits, Oracle requires you to provide specific usa
 
 The ServiceNow Discovery application uses Oracle-verified Discovery patterns and reporting to collect the same data that is provided in the script output. You can collect this data regularly to track your compliance and minimize unexpected audit results.
 
-For more information on Oracle discovery, see [Oracle Global License Advisory Services \(GLAS\) data collection](https://www.servicenow.com/docs/access?context=oracle-glas-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information on Oracle discovery, see Oracle Global License Advisory Services \(GLAS\) data collection.
 
-**Note:** To access all the benefits of ServiceNow Discovery, request and install the CMDB CI Class Models application from the ServiceNow Store. See [CMDB CI Class Models store app](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information on this application.
+**Note:** To access all the benefits of ServiceNow Discovery, request and install the CMDB CI Class Models application from the ServiceNow Store. See CMDB CI Class Models store app for more information on this application.
 
 -   **[Oracle Database and WebLogic Server licensing in partitioned environments](oracle-licensing-partitioned-environments.md)**  
 The Software Asset Management application supports Oracle licensing rules for Oracle Database and WebLogic Server in both soft- and hard-partitioned environments. You can use partitioning to help reduce the number of licenses that are required for your installations.

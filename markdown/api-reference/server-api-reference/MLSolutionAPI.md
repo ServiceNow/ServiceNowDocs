@@ -162,7 +162,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see Create and train a clustering solution.
 
 </td></tr><tr><td>
 
@@ -289,7 +289,7 @@ String
 
 </td><td>
 
-Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see [Create and train a clustering solution](https://www.servicenow.com/docs/access?context=create-clustering-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Optional. Identifies the segmentation field for which to retrieve cluster memberships, for example, assignment\_group.This field provides the same grouping as options provided in the **Use Group By** check box in the **Clustering Definition** form. The information provided varies based on the table selected in the **Table** field. For more information, see Create and train a clustering solution.
 
 </td></tr><tr><td>
 

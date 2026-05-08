@@ -127,7 +127,7 @@ When saving a new UI page, you are prompted to assign a role for access control.
 
 **Note:** An entry with the same name as the UI page is created in the Access Control table.
 
-For details on creating an ACL rule, see [Create an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For details on creating an ACL rule, see Create an ACL rule.
 
 ## High risk UI pages
 
@@ -178,7 +178,7 @@ A common practical example of this might be retrieving a database record for dis
 
 An exception to be careful of, though, is the reserved variable name sys\_id. This variable always contains the ID of the UI page itself, regardless of what is specified in the URL. A common substitute variable name is sysparm\_id.
 
-Do not use URL parameters to load client scripts in UI pages. The system no longer evaluates scripts that are passed by URL parameter. If your implementation depends on this behavior, you can [add the system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) \[glide.security.disable\_ui\_pages\_sysparm\_client\_script\] and set it to **false** to temporarily allow the evaluation of URL parameters passing scripts in UI pages.
+Do not use URL parameters to load client scripts in UI pages. The system no longer evaluates scripts that are passed by URL parameter. If your implementation depends on this behavior, you can add the system property \[glide.security.disable\_ui\_pages\_sysparm\_client\_script\] and set it to **false** to temporarily allow the evaluation of URL parameters passing scripts in UI pages.
 
 ## Use access controls on UI pages
 
@@ -194,7 +194,7 @@ Role required: security\_admin and admin
 
 1.  Elevate to the **security\_admin** role.
 
-    For details on role elevation, see [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For details on role elevation, see Elevate to a privileged role.
 
 2.  Navigate to **All** &gt; **System UI** &gt; **UI Pages**.
 
@@ -225,7 +225,7 @@ Role required: security\_admin and admin
 
 12. Complete the form and assign a role to the UI page.
 
-    For additional information on access control, see [Create an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For additional information on access control, see Create an ACL rule.
 
 13. Select **Submit** for a new access control or **Update** for edits.
 

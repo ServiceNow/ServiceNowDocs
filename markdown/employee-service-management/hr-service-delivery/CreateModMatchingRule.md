@@ -79,7 +79,7 @@ Conditions
 
 </td><td>
 
-Conditions in which the matching rule applies.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Conditions in which the matching rule applies.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

@@ -101,7 +101,7 @@ Vendor filter
 
 </td><td>
 
-Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
+Use the condition builder to define the rules for selecting third parties. For example, you can filter on third parties with whom you do considerable business \(Size is $1,000,000\) or third parties within a specific category \(Category is software\).
 
 </td></tr></tbody>
 </table>    ![New third-party risk scoring rule.](../image/new-vendor-risk-scoring-rule.png)

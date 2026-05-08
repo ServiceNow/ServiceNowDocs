@@ -85,7 +85,7 @@ The default routing policy in the GitLab WebHook Routing Policies modules trigge
 
 4.  Customize the required subflow as per your requirement and publish it.
 
-    See [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information about creating and using subflows and [GitLab spoke](../concept/gitlab-spoke.md) for information about the GitLab fields that the default routing policy supports and the GitLab events that the subflows support.
+    See Building subflows for more information about creating and using subflows and [GitLab spoke](../concept/gitlab-spoke.md) for information about the GitLab fields that the default routing policy supports and the GitLab events that the subflows support.
 
 5.  Navigate to **All** &gt; **GitLab Webhooks** &gt; **GitLab Webhook Routing Policies**.
 

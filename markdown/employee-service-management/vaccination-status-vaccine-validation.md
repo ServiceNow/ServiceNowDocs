@@ -34,7 +34,7 @@ Once the validation is completed, you can review the vaccine response record to 
 To automate the validation process, you must do the following:
 
 -   Obtain credentials to integrate with the validator service of your choice.
--   Create a connection and credentials alias for the validator service. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Create a connection and credentials alias for the validator service. For more information, see Create a Connection and Credential alias.
 -   Create a record for the validator service.
 -   Create a record for the attachment type the vaccine codes can be read from, such as a SMART health card.
 -   Create a subflow for the validator service. \(A sample Validate vaccine response attachment template is available\).

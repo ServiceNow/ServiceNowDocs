@@ -43,7 +43,7 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 5.  Fill in the playbook properties.
 
-<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d152733e215">
+<table id="choicetable_ndc_pgy_5lb"><tbody><tr><td id="d152725e215">
 
 **Label**
 
@@ -51,15 +51,15 @@ Make a copy of an existing playbook with the same trigger, stages, activities, a
 
 Enter a unique, user-facing name for your playbook. This name appears during playbook runtime.
 
-</td></tr><tr><td id="d152733e230">
+</td></tr><tr><td id="d152725e230">
 
 **Application**
 
 </td><td>
 
-Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.
 
-</td></tr><tr><td id="d152733e252">
+</td></tr><tr><td id="d152725e252">
 
 **Description**
 
@@ -67,7 +67,7 @@ Choose an application scope that you want your playbook to run in. Selecting **G
 
 Optionally, enter some descriptive details about your playbook.
 
-</td></tr><tr><td id="d152733e264">
+</td></tr><tr><td id="d152725e264">
 
 **Trigger type**
 
@@ -75,7 +75,7 @@ Optionally, enter some descriptive details about your playbook.
 
 Specify what causes your trigger to fire.
 
-</td></tr><tr><td id="d152733e273">
+</td></tr><tr><td id="d152725e273">
 
 **Table**
 

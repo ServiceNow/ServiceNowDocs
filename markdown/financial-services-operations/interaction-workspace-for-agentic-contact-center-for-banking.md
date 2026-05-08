@@ -86,8 +86,8 @@ The agent wraps up the interaction when it concludes. When wrap-up codes are set
 
 For more information, see the following topics:
 
--   [Interaction wrap up](https://www.servicenow.com/docs/access?context=interaction-wrap-up-state&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Use AI to generate wrap up code and notes summary](https://www.servicenow.com/docs/access?context=ai-generated-wrap-up-codes-and-notes-summary&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Interaction wrap up
+-   Use AI to generate wrap up code and notes summary
 
 **Parent Topic:**[Financial Services](../../fso-common/concept/fso-overview.md)
 
@@ -98,5 +98,5 @@ For more information, see the following topics:
 
 [Customer 360 page for Agentic Contact Center for Banking](customer-360-agentic-contact-center-for-banking.md)
 
-[CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.csm-workspaces-configure]
 

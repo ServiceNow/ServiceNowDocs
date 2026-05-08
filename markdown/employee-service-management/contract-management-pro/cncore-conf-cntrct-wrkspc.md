@@ -17,9 +17,9 @@ Configure and customize Contract Workspace by using the UI Builder web user inte
 
 ## Configuration overview
 
-For more information about this application, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about this application, see UI Builder.
 
 Access UI Builder to customize the Contract Workspace by navigating to **All** &gt; **UI Builder**, and then selecting **Contract Workspace**.
 
-For more information, see [Working in UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Configuring Configurable Workspace](https://www.servicenow.com/docs/access?context=c_set-up-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US#section_xqc_p2z_cjb).
+For more information, see Working in UI Builder and Configuring Configurable Workspace.
 

@@ -17,7 +17,7 @@ Display any Performance Analytics indicator that has the Assigned to and Assignm
 
 ## Before you begin
 
-Set the map application scope to **Coaching**. For more information, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching**. For more information, see Set map application scope.
 
 Role required: admin
 
@@ -67,7 +67,7 @@ Value
 
 </td><td>
 
-\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator. For more information, see [Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+\{"title": "&lt;name&gt;", "sys\_id": "&lt;sys id&gt;"\}where &lt;name&gt; is the name of the indicator that you want to display in the Coaching Overview tab and &lt;sys id&gt; is the unique record identifier \(sys\_id\) of the indicator. For more information, see Unique record identifier \(sys\_id\).
 
  For example:
 

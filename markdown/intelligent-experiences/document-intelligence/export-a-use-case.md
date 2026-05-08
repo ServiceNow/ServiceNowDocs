@@ -28,7 +28,7 @@ Follow these steps to add a document extraction use case to an update set along 
 
 The update set\(s\) are automatically created and set to "Completed" as a background process. This process takes several minutes. The resulting update set\(s\) should not be manually set to "Completed" or exported before the background job finishes.
 
-For more information, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information, see System update sets.
 
 ## Procedure
 

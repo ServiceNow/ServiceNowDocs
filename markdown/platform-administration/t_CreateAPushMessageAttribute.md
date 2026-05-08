@@ -22,7 +22,7 @@ Push message attribute definitions allow you to create reusable properties for p
 
 Role required: admin or push\_admin
 
-**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US)
+**Note:** This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at Mobile push notifications
 
 ## About this task
 

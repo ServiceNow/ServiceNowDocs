@@ -88,5 +88,5 @@ You can add custom fields to a planning tool integration by using record transfo
 **Related topics**  
 
 
-[Transformer - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerScriptedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.TransformerScriptedAPI]
 

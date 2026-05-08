@@ -23,7 +23,7 @@ Success Dashboard is available for IT Service Management and HR Service Delivery
 
 -   HR Service Delivery Success Dashboard indicators
 
-    The HR leaders can view the performance of the HR KPIs implemented. For more information on HR Success Dashboard indicators, visit [HR Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-dashboard-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    The HR leaders can view the performance of the HR KPIs implemented. For more information on HR Success Dashboard indicators, visit HR Success Dashboard indicators.
 
 
 Success Dashboard Overview

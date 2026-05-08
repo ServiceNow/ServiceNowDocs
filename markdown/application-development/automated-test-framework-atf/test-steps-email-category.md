@@ -381,7 +381,7 @@ output\_email\_record
 
 Record in the Email \[sys\_email\] table.
 
- The **Receive type** is **New** and the **Type** is **send - ready**. For more information on what these fields mean, see [System email log and mailboxes](https://www.servicenow.com/docs/access?context=r_EmailLogs&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ The **Receive type** is **New** and the **Type** is **send - ready**. For more information on what these fields mean, see System email log and mailboxes.
 
 </td></tr></tbody>
 </table>## Generate Inbound Reply email
@@ -509,7 +509,7 @@ output\_reply\_email\_record
 
 Record in the Email \[sys\_email\] table.
 
- The **Receive type** is **Reply** and the **Type** is **send - ready**. For more information on what these fields mean, see [System email log and mailboxes](https://www.servicenow.com/docs/access?context=r_EmailLogs&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ The **Receive type** is **Reply** and the **Type** is **send - ready**. For more information on what these fields mean, see System email log and mailboxes.
 
 </td></tr></tbody>
 </table>## Generate Random String

@@ -1385,7 +1385,7 @@ encryption\_context
 
 </td><td>
 
-Sys\_id of an encryption context record. Specify this parameter to allow only users with the specified encryption context to access the attachment. For additional information on encryption context records, see [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US).Data type: String
+Sys\_id of an encryption context record. Specify this parameter to allow only users with the specified encryption context to access the attachment. For additional information on encryption context records, see Field Encryption.Data type: String
 
  Default: File is encrypted using encryption context accessible to the user, otherwise the attached file is not encrypted with any encryption context.
 

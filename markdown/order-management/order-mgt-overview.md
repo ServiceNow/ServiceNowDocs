@@ -51,7 +51,7 @@ Learn how you can use the ServiceNow® Sales Customer Relationship Management \(
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Sales Customer Relationship Management release notes](https://www.servicenow.com/docs/access?context=sales-order-management-rn-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the Sales Customer Relationship Management release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

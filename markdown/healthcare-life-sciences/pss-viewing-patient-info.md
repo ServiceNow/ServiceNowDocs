@@ -21,7 +21,7 @@ For details, see the [Deprecation Process \[KB0867184\]](https://support.service
 
 The **Patient information** tab in Workspace provides several details about a patient enabling 360-degree view of the patient. The tab is displayed on the Workspace for enrollment cases.
 
-**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** Your administrator can configure the Workspace to modify the patient information by using UI Builder. This topic discusses the default view for the patient information. For information about UI Builder, see UI Builder.
 
 <table id="table_tjh_2r4_jjb"><thead><tr><th>
 

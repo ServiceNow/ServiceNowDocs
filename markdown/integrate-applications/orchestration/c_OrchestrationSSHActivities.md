@@ -40,7 +40,7 @@ The Run Command activity runs a command \(including shell scripts\) on a Linux o
 
 The Run SCP activity uses Secure Copy Protocol \(SCP\) to copy a file from one computer to another, including the directory in which the file resides.
 
-**Note:** This activity is deprecated in the Geneva release and is not available for use in new workflows. If you have a workflow created in a previous version that uses this activity, your workflow will continue to work normally after upgrading. The custom [Secure Copy activity](https://www.servicenow.com/docs/access?context=r_SecureCopyActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) replaces the Run SCP activity in the Geneva release.
+**Note:** This activity is deprecated in the Geneva release and is not available for use in new workflows. If you have a workflow created in a previous version that uses this activity, your workflow will continue to work normally after upgrading. The custom Secure Copy activity replaces the Run SCP activity in the Geneva release.
 
 ### Input variables
 

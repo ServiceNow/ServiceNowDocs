@@ -19,14 +19,14 @@ Set up scheduled import jobs to pull in data from ServiceNow Cloud Observability
 
 **Important:** Starting with the Australia release, Service Graph Connector for OpenTelemetry is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
 -   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
 -   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](../concept/cmdb-ci-class-models.md).
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 -   Observability Commons for CMDB \(sn\_observability\), which is only required for event ingestion. For Event Management to work, the Observability Commons for CMDB app must be installed prior to installing the connector. For more information, see [Observability Commons for CMDB](https://store.servicenow.com/sn_appstore_store.do#!/store/application/97e04562072020107add6a77c4a9351a) on the ServiceNow Store.
 
@@ -38,7 +38,7 @@ Role required: admin
 
 1.  Ensure that the application scope is set to Service Graph Connector for OpenTelemetry by using the application picker.
 
-    For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **OpenTelemetry** &gt; **Setup**.
 
@@ -130,7 +130,7 @@ Role required: admin
         1.  For the Configure the scheduled job for full import task, select **Configure**.
         2.  On the Scheduled Data Import form for the **OpenTelemetry Resources** scheduled job, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see Schedule a data import.
 
         3.  Select **Update**.
         4.  Set the Configure the scheduled job for full import task to complete by selecting **Mark as Complete** in the guided setup.
@@ -146,7 +146,7 @@ Role required: admin
         1.  For the Configure the scheduled job for delta import task, select **Configure**.
         2.  On the Scheduled Data Import form for the **OpenTelemetry Delta Resources** scheduled job, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see Schedule a data import.
 
         3.  Select **Update**.
         4.  Set the Configure the scheduled job for delta import task to complete by selecting **Mark as Complete** in the guided setup.

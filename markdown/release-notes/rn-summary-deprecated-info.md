@@ -13,7 +13,7 @@ breadcrumb: [Release notes summaries for Australia features, Release notes for u
 
 Cumulative release notes summary on deprecation information for Australia features and products.
 
-For information about deprecated plugins in Australia, refer to Plugin information[Plugin information for all features and productsPlugin information](https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html)
+For information about deprecated plugins in Australia, refer to
 
 <table id="rn-summary-accessibility-table" class="custom-rows"><thead><tr><th class="filter">
 
@@ -74,11 +74,11 @@ Container Vulnerability Response
 
 </td><td>
 
--   The Path Column in the Container Image Package \[sn\_vul\_container\_image\_package\] table for the Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute and [Vulnerability Response Integration with Wiz](https://www.servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&version=australia&pubname=australia-security-management&ft:locale=en-US) third-party integrations. Path tracking has been moved to the Path Column on the Container Image Finding \[sn\_vul\_container\_image\_findings\] table to support accurate and consistent path and image association.
+-   The Path Column in the Container Image Package \[sn\_vul\_container\_image\_package\] table for the Vulnerability Response Integration with Palo Alto Networks Prisma Cloud Compute and Vulnerability Response Integration with Wiz third-party integrations. Path tracking has been moved to the Path Column on the Container Image Finding \[sn\_vul\_container\_image\_findings\] table to support accurate and consistent path and image association.
 
 If you use these integrations you must refer to the Path column available on the Container Image Finding \[sn\_vul\_container\_image\_findings\] table.
 
--   The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the [Vulnerability Response Integration with Wiz](https://www.servicenow.com/docs/access?context=vr-wiz-exploring-host-cf&version=australia&pubname=australia-security-management&ft:locale=en-US) is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. See more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
+-   The Missing Assets \[sn\_vul\_wiz\_missing\_asset\] table used for storing assets imported by the backfill integrations for the Vulnerability Response Integration with Wiz is deprecated. If you're currently using the Vulnerability Response with Wiz integrations, after updating to version 1.1, you must backdate any of your existing Wiz primary integrations by three days and run them. See more information about the Wiz integration at [SecOps articles on the Security Operations Community](https://www.servicenow.com/community/secops-articles/announcement-wiz-integration-with-servicenow-secops/ta-p/3325055).
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Document Intelligence
 
 </td><td>
 
-Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see [Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Starting with the Zurich release, Document Intelligence is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base. Instead, you can extract information from documents using the Now Assist in Document Intelligence application. For more information, see Now Assist in Document Intelligence.
 
 </td></tr><tr><td>
 
@@ -146,12 +146,12 @@ Financial Services Operations Core
 
 </td><td>
 
--   The FSO tables `sn_bom_m2m_service_definition_user_criteria` and `sn_bom_m2m_service_definition_customer_condition` are deprecated. If you're on an upgraded instance, you can continue to reference these tables, but they're no longer maintained. Use `sn_csm_case_types_service_user_criteria` and `sn_csm_case_types_service_customer_criteria` instead. For more information, see [FSO Core Banking tables](https://www.servicenow.com/docs/access?context=fso-core-banking-tables&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US).
+-   The FSO tables `sn_bom_m2m_service_definition_user_criteria` and `sn_bom_m2m_service_definition_customer_condition` are deprecated. If you're on an upgraded instance, you can continue to reference these tables, but they're no longer maintained. Use `sn_csm_case_types_service_user_criteria` and `sn_csm_case_types_service_customer_criteria` instead. For more information, see FSO Core Banking tables.
 -   The **Show in Interceptor** field \(`show_in_interceptor`\) on the `sn_bom_service_definition` table is deprecated. Use agent criteria in the `sn_csm_case_types_service_user_criteria` table to control which service definitions appear in the case type selector.
 
 User criteria mappings control the visibility of new service definitions. To hide a service definition, map it to the **No User** user criteria. To make it visible, map it to the **Users with sn\_bom.service\_definition\_read** user criteria. Both user criteria records are predefined in Financial Services Operations Core.
 
-For more information, see [Components installed with case types](https://www.servicenow.com/docs/access?context=service-definitions-components&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Components installed with case types.
 
 
 </td></tr><tr><td>
@@ -176,7 +176,7 @@ Next Experience
 
 </td><td>
 
-Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements, defect fixes, and will no longer be supported. Certain system features may continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information activating Next Experience see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements, defect fixes, and will no longer be supported. Certain system features may continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information activating Next Experience see Considerations for activating Next Experience.
 
 </td></tr><tr><td>
 
@@ -214,7 +214,7 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
 
-Starting with the [Australia Patch 2](../quality/australia-patch-2.md) release, the [Incident assist skill](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist&version=australia&pubname=australia-it-service-management&ft:locale=en-US) is deprecated, moved to the **Archived** folder and is no longer available for use.
+Starting with the [Australia Patch 2](../quality/australia-patch-2.md) release, the Incident assist skill is deprecated, moved to the **Archived** folder and is no longer available for use.
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ Project Portfolio Management
 
 -   Starting with Australia release, Scenario Planning for PPM \(com.snc.ppm\_scenario\_planning\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Alternatively, Strategic Planning Workspace \(for SPM pro users\) or Portfolio Planning Workspace \(for SPM standard users\) provides the Scenario Planning capability. For details, see [Scenario planning in Strategic Planning](https://www.servicenow.com/docs/access?context=scenario-planning-in-strategic-planning&version=australia&pubname=australia-it-business-management&ft:locale=en-US) or [Scenario planning in Portfolio Planning](https://www.servicenow.com/docs/access?context=scenario-planning-in-portfolio-planning&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+Alternatively, Strategic Planning Workspace \(for SPM pro users\) or Portfolio Planning Workspace \(for SPM standard users\) provides the Scenario Planning capability. For details, see Scenario planning in Strategic Planning or Scenario planning in Portfolio Planning.
 
 -   Starting with Australia release, the Project Status Report \(com.sn\_store\_ppm.mobile\) is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Alternatively, Project Workspace provides the Status Report capability.
 -   Starting with Australia release, the PMO dashboard is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Alternatively, Execution dashboard provides the PMO dashboard capability.
@@ -298,7 +298,7 @@ ServiceNow AI Platform core feature
 
 </td><td>
 
-Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements or defect fixes, and will no longer be supported. Certain system features might continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information about activating the Next Experience UI, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Starting with the Australia release, the legacy user interfaces commonly referred to as UI11 and UI15 are deprecated. These legacy UIs no longer receive enhancements or defect fixes, and will no longer be supported. Certain system features might continue to display through legacy rendering paths \(for example, printer‑friendly views\) and will be addressed case by case as part of ongoing platform improvements. Use the Next Experience for a modern, accessible, unified interface. For information about activating the Next Experience UI, see Considerations for activating Next Experience.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](../release-notes-summaries.md)

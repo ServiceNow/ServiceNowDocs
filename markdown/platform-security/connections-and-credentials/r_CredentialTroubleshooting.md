@@ -19,7 +19,7 @@ Certain probes support credential debugging. Credential debugging inserts a `<cr
 
 The `<credentials_debug>` section appears in the payload if:
 
--   Credentials fail for [WMIRunner probe](https://www.servicenow.com/docs/access?context=r_WMIRunnerProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), [PowerShell probe](https://www.servicenow.com/docs/access?context=c_PowershellProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), [JMS](r_JMSCredentialsForm.md), or [SSHCommand probe](https://www.servicenow.com/docs/access?context=c_SSHCommandProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   Credentials fail for WMIRunner probe, PowerShell probe, [JMS](r_JMSCredentialsForm.md), or SSHCommand probe.
 -   You set the **credentials\_debug** parameter to **true** for the WMIRunner, PowerShell, or SSHCommand probes. If you set the parameter to true, the `<credentials_debug>` section appears even if the credential lookup is successful.
 
 The `<credentials_debug>` section shows:
@@ -34,7 +34,7 @@ Details appear for the PowerShell parameter:
 
 -   If the local MID Server credentials were used after all the Windows credentials failed.
 -   If the credentials were skipped because you are trying to discover the same machine that the MID Server is on.
--   If the [mid.powershell.use\_credentials](https://www.servicenow.com/docs/access?context=r_PowerShellForDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) parameter is set to `true`.
+-   If the mid.powershell.use\_credentials parameter is set to `true`.
 
 Details appear for the SSHCommand:
 

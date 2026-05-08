@@ -54,9 +54,9 @@ Create a Workday integration profile to track software subscriptions and optimiz
 
 Role required: admin, sam\_admin, sam\_integrator
 
-Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Install the latest Workday HR spoke. For more information about the latest version, see the **Spoke version** section in Workday HR Spoke.
 
-**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with Workday** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

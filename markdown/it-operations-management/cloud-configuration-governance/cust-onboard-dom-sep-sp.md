@@ -21,22 +21,22 @@ Domain separation for Cloud Provisioning and Governance is designed to give Serv
 
 ## Customer On-boarding by Service Providers
 
--   [Create the MID Server user and grant the role](https://www.servicenow.com/docs/access?context=t_SetupMIDServerRole&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Create the MID Server user and grant the role.
 
     Domain Separation in Cloud Provisioning and Governance is achieved by installing and configuring one or more dedicated MID Servers for each company/ domain that you are managing in your instance. Specifying a MID Server for each domain/company, ensures that Config Items \(CIs\) are assigned to the intended domain. Each domain has one or more MID Servers setup for cloud discovery, provisioning, and other orchestration.
 
-    **Note:** Create a MID Server in the global domain so that you can explore targets in other domains. For more information, see [Set up domain separation for MID servers](https://www.servicenow.com/docs/access?context=c_MIDServerDomainSeparation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    **Note:** Create a MID Server in the global domain so that you can explore targets in other domains. For more information, see Set up domain separation for MID servers
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The MID Server enables communication and the movement of data between a ServiceNow® instance and external applications, data sources, and services.
 
     To communicate with the instance, MID Servers need a user ID and the appropriate role. Create the user ID for a MID Server and grant the ID the **mid\_server** role. To prevent MID Server validation failure, the system runs business rules to monitor the settings selected for MID Server users.
 
--   [Setting up the MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Setting up the MID Server.
 
     For more information on setting up the MID Server, see:
 
-    -   [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    -   Installing the MID Server
+    -   Configuring MID Servers
 -   [Resource Blocks in Cloud Provisioning and Governance](../concept/resource-blocks.md)
 
     Create Resource Blocks in global domain as there is a 1:1 relationship between CI and resource block. Do not create resource blocks in any of the child or leaf domains. Resource blocks act as a process record, so any template of a parent domain is visible and works in the child domain.

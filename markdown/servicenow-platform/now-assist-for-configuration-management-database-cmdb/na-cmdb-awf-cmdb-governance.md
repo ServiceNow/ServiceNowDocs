@@ -21,7 +21,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-To learn more about using the Now Assist panel, see [Working in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+To learn more about using the Now Assist panel, see Working in the Now Assist panel.
 
 ## Procedure
 

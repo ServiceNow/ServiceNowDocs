@@ -19,7 +19,7 @@ Review a claim to verify the documents, evaluate the claim coverages, determine 
 
 Role required: sn\_ins\_gen\_claim.adjuster
 
-**Important:** To access the Claim workspace, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) .
+**Important:** To access the Claim workspace, and Summary adjuster workspace related tabs, you must activate the CSM default record page. By default, the page is set to inactive. To determine the default page for displaying records in CSM Configurable Workspace, see CSM Configurable Workspace record pages .
 
 ## About this task
 

@@ -45,5 +45,5 @@ The document is linked in the model risk record.
 **Related topics**  
 
 
-[Document Services](https://www.servicenow.com/docs/access?context=document-services-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.document-services-landing-page]
 

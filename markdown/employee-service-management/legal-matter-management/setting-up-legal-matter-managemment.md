@@ -21,7 +21,7 @@ Configure the foundation data for legal matters through Legal Matter Management 
 
     Create legal matter templates to standardize legal procedures​ for handling legal matters.
 
--   [Email notifications](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Email notifications
 
     Configure email notifications to be sent when specific events occur, such as when a legal matter is assigned to a matter owner or when a matter is closed or canceled.
 

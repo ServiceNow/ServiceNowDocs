@@ -113,11 +113,11 @@ User roles to limit who can access the workspace. -   You must specify at least 
 
     2.  If the workspace is missing an Access Control List \(ACL\), enter the roles that should have access in the Add user roles to continue modal and select the **Add roles** button.
 
-        For more information, see [Configure workspace settings in Workspace Builder](configure-workspace-settings.md) and [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        For more information, see [Configure workspace settings in Workspace Builder](configure-workspace-settings.md) and Access Control List Rules.
 
     3.  Adjust the home page elements and widgets by resizing, reorganizing, or reconfiguring them.
 
-        Editing your workspace home page works similarly to editing a dashboard on your workspace. For more information, see [Edit Platform Analytics dashboards](https://www.servicenow.com/docs/access?context=edit-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        Editing your workspace home page works similarly to editing a dashboard on your workspace. For more information, see Edit Platform Analytics dashboards.
 
         **Note:** If the workspace was created before Tokyo, you must edit it in UI Builder. See [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md) for more information.
 

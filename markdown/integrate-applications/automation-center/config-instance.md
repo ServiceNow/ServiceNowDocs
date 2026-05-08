@@ -33,7 +33,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
 5.  Select **Create New Connection &amp; Credentials**.
 
-    For more information about OAuth authorization in connections and credentials, see [Set up OAuth integration via MID Server](https://www.servicenow.com/docs/access?context=create-conn-alias-oauth-integration-via-mid-server&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information about OAuth authorization in connections and credentials, see Set up OAuth integration via MID Server.
 
 
 **Parent Topic:**[Migrate automations to ServiceNow RPA Hub](../concept/migrate-automations.md)

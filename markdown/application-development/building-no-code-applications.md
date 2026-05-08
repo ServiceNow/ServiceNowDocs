@@ -100,7 +100,7 @@ A Creator Studio app uses forms and automation to enable users to request someth
 
     Open Creator Studio apps in AES to build more custom experiences, such as email notifications and additional security.
 
--   **[Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Catalog Builder**
 
     Create or edit a catalog item using a visual and guided experience.
 
@@ -108,11 +108,11 @@ A Creator Studio app uses forms and automation to enable users to request someth
 
     Visually create, configure, and customize the different form views for your users using the form editor in Form Builder.
 
--   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Workflow Studio**
 
     Integrate workflow authoring, configuring, and monitoring into a single-page experience.
 
--   **[Workspace](https://www.servicenow.com/docs/access?context=workspace-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Workspace**
 
     Address customer requests and issues in a workspace, which provides a suite of tools where agents, case managers, help desk professionals, and managers work with tools to resolve customer needs.
 

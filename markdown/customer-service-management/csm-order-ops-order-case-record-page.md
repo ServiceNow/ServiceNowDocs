@@ -160,7 +160,7 @@ The contextual side panel component includes different tools that agents can use
 
  For more information about related lists, see the [Order case record page related lists](csm-order-ops-order-case-record-page.md#section_ksh_pp3_lcc) section below.
 
- **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see Create or modify a response template.
 
 </td></tr></tbody>
 </table>## Order case record page settings
@@ -205,7 +205,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The audience determines who can see a record page. The Order case record page does not have a specified audience.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

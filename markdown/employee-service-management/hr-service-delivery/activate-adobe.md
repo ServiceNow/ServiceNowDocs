@@ -35,7 +35,7 @@ Role required: admin
 
     You will receive an email with detailed installation instructions.
 
-6.  Log in to the instance and set up the [Adobe Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+6.  Log in to the instance and set up the Adobe Sign spoke.
 
 
 **Parent Topic:**[Integrating with the Adobe Sign service](../concept/integrating-with-adobe-sign-service.md)

@@ -20,21 +20,21 @@ The ServiceNow® Data Catalog application is the self-service discovery layer wi
 -   Collect and synchronize metadata from 14 or more external platforms using automated collectors.
 -   Organize assets with tags and domains to improve discoverability and governance.
 
-See [Explore Data Catalog](https://www.servicenow.com/docs/access?context=explore-data-catalog&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See Explore Data Catalog for more information.
 
 **Important:** Data Catalog is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Data Catalog features
 
--   **[Search and discovery](https://www.servicenow.com/docs/access?context=explore-data-assets-in-data-catalog&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Search and discovery**
 
     Find data assets across your organization using keyword search, filters, and faceted browsing in a unified self-service interface. Browse assets by type, domain, tag, or owner, and preview schema and sample data directly from search results to evaluate assets without opening each record.
 
--   **[Asset details and relationships](https://www.servicenow.com/docs/access?context=view-data-asset-details&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Asset details and relationships**
 
     View comprehensive details for each data asset including schema, field descriptions, ownership, data classifications, and data relationships, including lineage.
 
--   **[Business glossary](https://www.servicenow.com/docs/access?context=create-glossary-term&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Business glossary**
 
     Define and manage business terms and associate them with data assets to establish a shared vocabulary across teams. Link glossary terms to catalog assets so that business and technical users understand the meaning and context of data using consistent, organization-approved definitions.
 
@@ -42,7 +42,7 @@ See [Explore Data Catalog](https://www.servicenow.com/docs/access?context=explor
 
     Automatically collect and synchronize metadata from external data platforms using metadata collectors. Collectors support 14+ platforms including Snowflake, BigQuery, Databricks, dbt Cloud, Tableau, Power BI, and Fivetran. Schedule collection runs or trigger them on demand to keep catalog content current as source systems evolve.
 
--   **[Tags and domains](https://www.servicenow.com/docs/access?context=create-tags-dc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Tags and domains**
 
     Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
 
@@ -65,15 +65,15 @@ Install Data Catalog by requesting it from the ServiceNow Store. Visit the [Serv
 
 ## Related ServiceNow applications and features
 
--   **[Workflow data fabric](https://www.servicenow.com/docs/access?context=create-integrations-applications&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Workflow data fabric**
 
     The ServiceNow® Workflow Data Fabric application provides the foundational platform for creating and managing data interfaces and products. Data Catalog is installed as part of the Workflow Data Fabric application and surfaces assets created and published through it.
 
--   **[Data Products](https://www.servicenow.com/docs/access?context=data-products&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Data Products**
 
     The ServiceNow® Data Products application enables teams to define, publish, and share governed data products. Published data products are discoverable in Data Catalog, where consumers can find, evaluate, and request access to organizational data.
 
--   **[Mid server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Mid server**
 
     The ServiceNow® MID Server provides secure bidirectional communication between your ServiceNow instance and external platforms. Metadata collectors use the MID Server to reach data sources in on-premises or private cloud environments not directly accessible from your instance.
 

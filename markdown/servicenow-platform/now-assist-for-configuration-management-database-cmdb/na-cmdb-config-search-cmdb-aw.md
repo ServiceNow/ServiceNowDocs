@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Activate the Query Generation skills as described in [Query Generation skills](https://www.servicenow.com/docs/access?context=enable-query-generation&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+1.  Activate the Query Generation skills as described in Query Generation skills.
 
 2.  Index the CI data.
 

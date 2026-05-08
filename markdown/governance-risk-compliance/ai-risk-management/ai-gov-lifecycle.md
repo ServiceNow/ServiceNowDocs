@@ -38,12 +38,12 @@ In summary, you can use each application as follows:
 
 -   AICT manages the AI life cycle and serves as the system of record.
 
-    For more information, see [AI Control Tower Home](https://www.servicenow.com/docs/access?context=ai-control-tower-home-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [AI asset lifecycle](https://www.servicenow.com/docs/access?context=ai-asset-lifecycle&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and [Exploring AI Control Tower](https://www.servicenow.com/docs/access?context=exploring-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see AI Control Tower Home, AI asset lifecycle, and Exploring AI Control Tower.
 
 -   AIRC performs independent risk, regulatory, and control governance.
 -   Life cycle progression in AICT depends on risk and compliance decisions made in AIRC.
 
-    For more information about how this information is shown in AICT, see [Risk and compliance tab in AI Control Tower](https://www.servicenow.com/docs/access?context=risk-compliance-tab-aict&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information about how this information is shown in AICT, see Risk and compliance tab in AI Control Tower.
 
 -   Neither application replaces the other; together they support a coordinated governance framework.
 
@@ -63,7 +63,7 @@ AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_complian
 
 Other governance stakeholders, such as security, legal, privacy, or data governance teams, participate as needed. They contribute expertise during assessment, review, and investigation activities. These stakeholders don’t own life cycle decisions.
 
-For more information about roles in AICT and AIRC, see [Roles installed with AI Risk and Compliance](../reference/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://www.servicenow.com/docs/access?context=roles-installed-with-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about roles in AICT and AIRC, see [Roles installed with AI Risk and Compliance](../reference/roles-installed-with-ai-risk-and-compliance.md) and AI Control Tower roles.
 
 ## AI governance life cycle phases and processes
 
@@ -83,9 +83,9 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     AIRC doesn’t own AI use-case intake. If you have AIRC, you can participate after intake by contributing risk and compliance governance context, such as impact assessments and regulatory evaluation, once an AI use case has been registered in AICT.
 
-    Use the Employee Center to request an AI use case for review, or use AICT to add an AI asset directly as part of approved onboarding by a fulfiller. For more information, see [Create AI system assets](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [Create an AI case in the AI Control Tower](https://www.servicenow.com/docs/access?context=create-ai-case-in-the-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [Create AI model assets](https://www.servicenow.com/docs/access?context=create-ai-model-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [Create prompt assets](https://www.servicenow.com/docs/access?context=create-prompt-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and [Create dataset assets](https://www.servicenow.com/docs/access?context=create-dataset-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    Use the Employee Center to request an AI use case for review, or use AICT to add an AI asset directly as part of approved onboarding by a fulfiller. For more information, see Create AI system assets, Create an AI case in the AI Control Tower, Create AI model assets, Create prompt assets, and Create dataset assets.
 
-    Enhancement requests, ideas, and feedback can be submitted and managed if Strategic Portfolio Management is installed. Enhancement requests, ideas, and feedback don’t enter the AI governance life cycle through AICT or AIRC. For more information about Strategic Portfolio Management, see [Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=r_ITBusinessManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+    Enhancement requests, ideas, and feedback can be submitted and managed if Strategic Portfolio Management is installed. Enhancement requests, ideas, and feedback don’t enter the AI governance life cycle through AICT or AIRC. For more information about Strategic Portfolio Management, see Strategic Portfolio Management.
 
     **Note:**
 
@@ -101,7 +101,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     **Note:**
 
-    Automated discovery requires configuration of supported integrations. For more information about enterprise AI discovery and automated inventory ingestion, see [Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](https://www.servicenow.com/docs/access?context=enterprise-ai-discovery&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [AI connections](https://www.servicenow.com/docs/access?context=ai-discovery-setup&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    Automated discovery requires configuration of supported integrations. For more information about enterprise AI discovery and automated inventory ingestion, see Enterprise AI discovery: Unlock Visibility, Governance &amp; Value and AI connections.
 
 -   **Build and validate: Assess**
 
@@ -121,7 +121,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     During assessment, the following are created or updated: impact assessment results, risk classification, identified risks, and recommended controls. These outcomes determine whether the AI system can proceed to the next life cycle phase.
 
-    For more information, see [Playbooks](https://www.servicenow.com/docs/access?context=playbooks&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [Perform impact assessment on an AI use case](../task/perform-impact-assessment-of-ai-use-case.md), and [Perform risk assessments on AI systems](../task/perform-risk-assessments-on-ai-systems.md).
+    For more information, see Playbooks, [Perform impact assessment on an AI use case](../task/perform-impact-assessment-of-ai-use-case.md), and [Perform risk assessments on AI systems](../task/perform-risk-assessments-on-ai-systems.md).
 
 -   **Build and validate: Build and test**
 
@@ -153,7 +153,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     Governance decisions are made in AIRC, while life cycle state changes are recorded and enforced in AICT.
 
-    For more information, see [Overview tab in AI Control Tower](https://www.servicenow.com/docs/access?context=overview-tab-in-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Risk &amp; compliance tab](risk-and-compliance-tab-airc.md).
+    For more information, see Overview tab in AI Control Tower and [Risk &amp; compliance tab](risk-and-compliance-tab-airc.md).
 
 -   **Deploy, monitor, and assess value: Monitor**
 
@@ -167,7 +167,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     AIRC managers determine whether changes, reassessments, or intervention are required based on operational or governance signals. Cases and inquiries are a normal part of ongoing AI governance and don’t necessarily indicate failure or non‑compliance.
 
-    For more information, see [AI cases tab in AI Control Tower](https://www.servicenow.com/docs/access?context=ai-cases-tab-aict&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [AI cases and inquiries](airc-cases-inquiries.md), and [Operations tab](operations-tab.md).
+    For more information, see AI cases tab in AI Control Tower, [AI cases and inquiries](airc-cases-inquiries.md), and [Operations tab](operations-tab.md).
 
 -   **Deploy, monitor, and assess value: Value**
 
@@ -183,7 +183,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     Governance actions identified during monitoring may result in reassessment, additional controls, or life cycle state updates managed through AICT.
 
-    For more information, see [Value tab in AI Control Tower](https://www.servicenow.com/docs/access?context=aict-value-tab&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), [Adoption tab in AI Control Tower](https://www.servicenow.com/docs/access?context=aict-adoption-tab&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and [AI risk heatmap workbench](ai-risk-heatmap-workbench.md).
+    For more information, see Value tab in AI Control Tower, Adoption tab in AI Control Tower, and [AI risk heatmap workbench](ai-risk-heatmap-workbench.md).
 
 -   **Life cycle closure: Retire and offboard**
 
@@ -195,7 +195,7 @@ These phases describe AI governance activities at a conceptual level and may spa
 
     During offboarding, the following are created or updated: updated life cycle state, retirement justification, and final governance record.
 
-    For more information, see [Complete AI asset lifecycle](https://www.servicenow.com/docs/access?context=complete-ai-asset-lifecycle&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Offboarding AI assets review](airc-offboarding-ai-assets.md).
+    For more information, see Complete AI asset lifecycle and [Offboarding AI assets review](airc-offboarding-ai-assets.md).
 
 
 **Note:** Features described in this life cycle may require additional configurations, supporting applications, or content packs. Availability and behavior depend on installed products, assigned roles, and configuration.

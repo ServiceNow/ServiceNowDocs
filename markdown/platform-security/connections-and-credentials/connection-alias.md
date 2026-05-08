@@ -76,8 +76,8 @@ Application
 
 Application scope against which the Connection &amp; Credentials alias is assigned. The current session scope you last selected in the application picker appears. -   For example, **Global** appears if it is the current scope for this session.
 -   You can change the scope in the application picker before creating an alias. To learn more application scopes and how to select them, see:
-    -   [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US)
-    -   [Select an application from the application picker](https://www.servicenow.com/docs/access?context=t_SelectAnAppFromTheAppPicker&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    -   Application scope
+    -   Select an application from the application picker
 
 
 </td></tr><tr><td>
@@ -102,7 +102,7 @@ Default Retry Policy
 
 </td><td>
 
-Retry policy for the alias. For more information, see [Retry policy](https://www.servicenow.com/docs/access?context=retry-policy&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Retry policy for the alias. For more information, see Retry policy.
 
 </td></tr><tr><td>
 

@@ -27,7 +27,7 @@ Role required: admin
 
 3.  Check the following items on your app if they've changed from your original request:
 
-    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see [Create a theme with Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    -   App has the correct name, icon, splash screen, branding, and theming. For more information, see Create a theme with Theme Builder.
     -   App uses the default instance you specified for login if you selected the instance pre-fill option when you requested the branded app.
     -   EULA and privacy policy listed in the mobile app **Settings** tab under **Legal** link to the policies you specified.
 4.  Once the status of your app is **Ready for testing**, you have 90 days to make sure the app meets your branding requirements if changed from your original request:

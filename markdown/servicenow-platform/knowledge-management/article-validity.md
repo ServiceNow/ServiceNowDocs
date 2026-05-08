@@ -19,7 +19,7 @@ Decide when to expire a knowledge article by using the **Valid to** field in the
 
 When you create or edit a knowledge article, a default value appears in the **Valid to** field. As an article author or editor, you can select whether to keep or change the default **Valid to** date.
 
-**Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your system administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see [Global date and time field format](https://www.servicenow.com/docs/access?context=r_FormatDateAndTimeFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Personalize the system date format](https://www.servicenow.com/docs/access?context=t_PersonalizeTheSystemDateFormat&version=australia&pubname=australia-platform-administration&ft:locale=en-US) topics.
+**Note:** If the system date format or user preferences is set to use `yy` year format, you might face issues when the **Valid to** date is set to the default date. Contact your system administrator or modify the user preferences to use a date format with the `yyyy` year format. For more information, see Global date and time field format and Personalize the system date format topics.
 
 ## Default article validity when creating a knowledge article
 

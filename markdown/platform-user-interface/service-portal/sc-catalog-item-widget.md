@@ -15,9 +15,9 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Use this widget \(widget-sc-cat-item-v2\) to view the information about a catalog item and order the item. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-Configure [catalog items](https://www.servicenow.com/docs/access?context=c_IntroductionToCatalogItems&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**.
+Configure catalog items using the Service Catalog in the platform UI by navigating to **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintain Items**.
 
-Catalog variables determine what information your users are allowed to select from, for example, color, size, or price. For more information on defining the variables for a catalog item, see [Create a service catalog variable](https://www.servicenow.com/docs/access?context=t_CreateAVariableForACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Catalog variables determine what information your users are allowed to select from, for example, color, size, or price. For more information on defining the variables for a catalog item, see Create a service catalog variable.
 
 ## Instance options
 
@@ -142,5 +142,5 @@ For example, if you want to change the label to **Request**, press Ctrl+click on
 
 [Clone a widget](../task/t_CloneAndEditAWidget.md)
 
-[Request a catalog item from Service Portal](https://www.servicenow.com/docs/access?context=request-cat-item-portal&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.request-cat-item-portal]
 

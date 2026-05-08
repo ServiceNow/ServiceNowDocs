@@ -27,7 +27,7 @@ ServiceNow® Finance and Supply Chain workflows unify processes, data, and techn
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Source-to-Pay Operations users at [Now Community](https://www.servicenow.com/community/)
--   Explore which other tools can optimize your Source-to-Pay Operations experience, like [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US), and [Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Explore which other tools can optimize your Source-to-Pay Operations experience, like Virtual Agent, and Knowledge Management.
 
 ## Products, features, and customer journeys
 

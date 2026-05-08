@@ -35,15 +35,15 @@ Role required: sn\_wsd\_core.workplace\_manager
 
 5.  Edit the user assignments based on your requirement.
 
-<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d493588e105">
+<table id="choicetable_vyl_2qc_f3c"><thead><tr><th align="left" id="d493602e105">
 
 Action
 
-</th><th align="left" id="d493588e108">
+</th><th align="left" id="d493602e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d493588e114">
+</th></tr></thead><tbody><tr><td id="d493602e114">
 
 **Assign a single user**
 
@@ -62,7 +62,7 @@ If you don't select any space, the user is assigned to the floor selected on the
 6.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d493588e165">
+</td></tr><tr><td id="d493602e165">
 
 **Assign multiple users**
 
@@ -85,12 +85,12 @@ For the **Neighborhood** assignment, you must select the neighborhood you want t
 
 5.  Add conditions to filter the users.
 
-For example, `Workplace profile is Active`. For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For example, `Workplace profile is Active`. For more information about conditions, see Condition builder.
 
 6.  Select the users that you want to assign, then select **Confirm**.
 
 
-</td></tr><tr><td id="d493588e238">
+</td></tr><tr><td id="d493602e238">
 
 **Unassign users**
 

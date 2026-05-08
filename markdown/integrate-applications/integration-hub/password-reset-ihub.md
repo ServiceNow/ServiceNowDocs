@@ -15,7 +15,7 @@ breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 
 Create subflows in Integration Hub to automate and customize the password reset process for users managed by third-party applications such as Okta or Microsoft Entra ID.
 
-Create subflows in Integration Hub to automate password reset processes. Use the [Password Reset](https://www.servicenow.com/docs/access?context=password-reset-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to enable an end user to use a self-service process to reset or change the password. Alternatively, your organization can implement a process that requires a service desk agent to reset passwords for end users. See [Customize password reset processes and integrate third-party credential services](https://www.servicenow.com/docs/access?context=setup-pwd-reset-ihub&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+Create subflows in Integration Hub to automate password reset processes. Use the Password Reset to enable an end user to use a self-service process to reset or change the password. Alternatively, your organization can implement a process that requires a service desk agent to reset passwords for end users. See Customize password reset processes and integrate third-party credential services for more information.
 
 ## Password reset Integration Hubusage overview
 

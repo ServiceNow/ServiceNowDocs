@@ -31,7 +31,7 @@ Use the manage contract repository agentic workflow to improve productivity by e
 
     If you have customized the manage contract repository agentic workflow, make sure to update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](../task/cmpro-script-includ-agenticAI.md).
 
--   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
 
 The manage contract repository agentic workflow uses an AI agent to do the following sequentially.
 
@@ -111,7 +111,7 @@ Contract fulfillers and assignment group managers with the now\_assist\_panel\_u
 
 Role required: sn\_aia.admin
 
-If your generative AI service provider isn’t Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://www.servicenow.com/docs/access?context=configuring-api-credentials-for-generative-ai-capabilities&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If your generative AI service provider isn’t Now LLM Service, ensure that the API connections and credentials are configured. For more information, see Configuring API credentials for generative AI capabilities.
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Manage contract repository**.

@@ -17,9 +17,9 @@ In this example, we create a script to insert an incident record into the extern
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://www.servicenow.com/docs/access?context=v_queryAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [v\_record - Scoped, Global](https://www.servicenow.com/docs/access?context=v_recordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [v\_table – Scoped, Global](https://www.servicenow.com/docs/access?context=v_tableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   v\_query – Scoped, Global
+-   v\_record - Scoped, Global
+-   v\_table – Scoped, Global
 
 ```javascript
 (function executeInsert(v_record) {

@@ -36,15 +36,15 @@ Role required: discovery\_admin
 
 2.  Indicate whether and what data you want to share with AI librarians.
 
-<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d413735e124">
+<table id="choicetable_fch_mpt_c1c"><thead><tr><th align="left" id="d413716e124">
 
 Option
 
-</th><th align="left" id="d413735e127">
+</th><th align="left" id="d413716e127">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d413735e133">
+</th></tr></thead><tbody><tr><td id="d413716e133">
 
 **Opt in to share your data**
 
@@ -67,7 +67,7 @@ Actions
 
 The **Content service suggestions** tile replaces the **Content service setup** tile. In the new **Content service setup** section, a green check-mark appears indicating that you have opted in to ITOM Content Service.
 
-</td></tr><tr><td id="d413735e236">
+</td></tr><tr><td id="d413716e236">
 
 **Set the data sharing permissions off**
 
@@ -79,7 +79,7 @@ The **Content service suggestions** tile replaces the **Content service setup** 
 4.  When the setting is complete, select **Home** to return to the workspace.
 
 
-</td></tr><tr><td id="d413735e281">
+</td></tr><tr><td id="d413716e281">
 
 **Opt out of sharing your data**
 

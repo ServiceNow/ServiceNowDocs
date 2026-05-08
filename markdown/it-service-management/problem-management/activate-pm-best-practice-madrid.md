@@ -54,5 +54,5 @@ Several types of components are installed with activation of the Problem Managem
 **Related topics**  
 
 
-[List of Australia plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

@@ -19,7 +19,7 @@ In deployments upgraded to Istanbul or earlier, Service Mapping uses the default
 
 Role required: service\_mapping\_admin
 
-Perform this procedure only for deployments upgraded to Istanbul or earlier. For fresh installs, perform [Configure a default MID Server for each application](https://www.servicenow.com/docs/access?context=t_SpecifyMIDServerApplications&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Perform this procedure only for deployments upgraded to Istanbul or earlier. For fresh installs, perform Configure a default MID Server for each application.
 
 Ensure that you know the name of the MID Server you want to configure as the default MID Server for Service Mapping.
 

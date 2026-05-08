@@ -55,7 +55,7 @@ The following screenshot can help you understand to fill the field values while 
 
 5.  On the form, fill in the fields
 
-    For more information, see [Create a Custom \(Load by Script\) type data source](https://www.servicenow.com/docs/access?context=create-custom-type-data-source&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see Create a Custom \(Load by Script\) type data source.
 
 6.  In the **Type** field, select **Custom \(Load by Script\)**.
 

@@ -73,7 +73,7 @@ Record the usage of an asset:
     1.  Select the part record.
     2.  Tap the more actions \(![More actions icon.](../image/OverflowIcon.png)\) icon and select **Scan Part** to scan a single part, or select **Scan Multiple Parts** to scan the barcodes of more than one part sequentially.
 
-**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see [Configure a grouped input for multiple scans](https://www.servicenow.com/docs/access?context=sg-configure-multiscan&version=australia&pubname=australia-mobile&ft:locale=en-US).
+**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see Configure a grouped input for multiple scans.
 
     3.  Select **Scan Asset Tag**.
     4.  Point the viewfinder rectangle on a bar code to scan the asset. The bar code digits are automatically recorded in the scanner.
@@ -101,7 +101,7 @@ Record the removal of an asset:
     2.  Select **Scan to remove**.
     3.  Tap the overflow icon \(![Overflow Icon.](../image/OverflowIcon.png)\) and then to scan a part, select **Scan to remove**.
 
-**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see [Configure a grouped input for multiple scans](https://www.servicenow.com/docs/access?context=sg-configure-multiscan&version=australia&pubname=australia-mobile&ft:locale=en-US).
+**Note:** You can scan a maximum of five parts sequentially. To change the limit for your requirements, see Configure a grouped input for multiple scans.
 
     4.  Tap the **Part to remove** field, and then select **Scan**.
     5.  Point the viewfinder rectangle on a bar code to scan the asset. The bar code digits are automatically recorded in the scanner.

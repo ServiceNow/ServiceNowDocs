@@ -17,7 +17,7 @@ Service data relates to each other using different applications and in different
 
 DPM enables you to organize service data in logical sequences that make sense for your business. You can see details about your own services as well as services that you don't own but may impact your business.
 
-**Tip:** For CSDM set-up information, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Tip:** For CSDM set-up information, see Implementing the CSDM framework in stages.
 
 ## Personal portfolios and CSDM
 
@@ -54,7 +54,7 @@ These fields also display when you use the Performance Analytics \(PA\) indicato
 
 To confirm that you see the data that you want in DPM, you must establish the correct CSDM relationships.
 
-How you establish relationships between your solutions and configuration items \(CIs\) varies depending on your situation. For more information, see [CI relationships in the CSDM](https://www.servicenow.com/docs/access?context=ci-relationships&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+How you establish relationships between your solutions and configuration items \(CIs\) varies depending on your situation. For more information, see CI relationships in the CSDM.
 
 -   **[CSDM terms for Digital Portfolio Management](dpm-common-terms.md)**  
 Because both ServiceNow® products of Digital Portfolio Management \(DPM\) and Service Portfolio Management closely align with the Common Service Data Model \(CSDM\), it's helpful to know the common terms when working in these applications.
@@ -66,5 +66,5 @@ Because both ServiceNow® products of Digital Portfolio Management \(DPM\) and S
 
 [CSDM terms for Digital Portfolio Management](dpm-common-terms.md)
 
-[Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.csdm-implementation-stages]
 

@@ -109,7 +109,7 @@ Type of change request to use. Unused Machines operations are directly integrate
     -   If a member of the change group rejects the request, the resource state is set to **Declined**, the resource remains listed on reports, and no action is taken.
 **Note:**
 
-The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see [Create a change request](https://www.servicenow.com/docs/access?context=t_CreateAChange&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see Create a change request.
 
 </td></tr><tr><td>
 
@@ -134,9 +134,9 @@ The Unused resources job is created and runs at the scheduled time.
 **Related topics**  
 
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ITILChangeManagement]
 
-[Standard change catalog](https://www.servicenow.com/docs/access?context=c_StandardChangeCatalogPlugin&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_StandardChangeCatalogPlugin]
 
 [bundle-itsm.create-a-change-request-template]
 

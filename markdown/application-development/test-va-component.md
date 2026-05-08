@@ -155,7 +155,7 @@ Host address to use if you want your local development server to be accessible e
 
 If your component is working as expected, deploy it to your instance. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/development-flow).
 
-After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://www.servicenow.com/docs/access?context=custom-controls&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see Virtual Agent custom controls.
 
 **Parent Topic:**[Develop a component for Virtual Agent](../concept/va-components.md)
 

@@ -82,7 +82,7 @@ If you intend to upgrade to a version that is compatible with Unified Security E
 
 </td><td>
 
-[Configuration Compliance release notes](https://www.servicenow.com/docs/access?context=secops-cc-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
+Configuration Compliance release notes.For compatibility information, see [KB0856498 Vulnerability Response Compatibility Matrix and Release Schema Changes](https://support.servicenow.com/kb_view.do?sysparm_article=KB0856498)
 
 See [Setting up, installing, and configuring the Configuration Compliance application](cc-configuring.md) for more information about activating the application.
 

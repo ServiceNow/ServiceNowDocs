@@ -17,7 +17,7 @@ Before you import content, create and configure the connection between the a Web
 
 ## Before you begin
 
-Define [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Getting started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US) to the external source.
+Define Basic authentication credentials and Getting started with connections to the external source.
 
 **Caution:**
 

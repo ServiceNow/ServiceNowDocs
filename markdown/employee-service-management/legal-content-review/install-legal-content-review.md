@@ -61,7 +61,7 @@ The following items are installed with Legal Content Review:
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 
-To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 **Parent Topic:**[Configure Legal Content Review](../concept/setting-up-legal-content-review.md)
 

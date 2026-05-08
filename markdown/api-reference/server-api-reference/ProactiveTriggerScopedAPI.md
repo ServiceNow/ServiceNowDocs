@@ -15,9 +15,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The ProactiveTriggerAPI enables you to create server-side triggers that send context-specific messages to a specified user.
 
-This API uses rules and related actions based on those rules to send messages to a user. These rules and actions are context-specific and are based on real-time data gathered as the user navigates across portal pages. For additional information, see [Proactive Triggers](https://www.servicenow.com/docs/access?context=proactive-triggers-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+This API uses rules and related actions based on those rules to send messages to a user. These rules and actions are context-specific and are based on real-time data gathered as the user navigates across portal pages. For additional information, see Proactive Triggers.
 
-Before using this API, the trigger types, rules, and actions must be configured on your instance. For information on how to configure Proactive Triggers, see [Configuring Proactive Triggers](https://www.servicenow.com/docs/access?context=configuring-proactive-triggers&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Before using this API, the trigger types, rules, and actions must be configured on your instance. For information on how to configure Proactive Triggers, see Configuring Proactive Triggers.
 
 Using this API you can send messages to a specific user or to a user in a specific session.
 
@@ -27,7 +27,7 @@ Similarly, if a user performs an AI Search from a Service Portal and no results 
 
 When calling the ProactiveTriggerAPI, there's a specific sequence in which you should call the methods. This API runs in the `sn_pt` namespace.
 
-First, you should call the [ProactiveTriggerAPI - createTrigger\(String triggerTypeId\)](ProactiveTriggerScopedAPI.md#) method to specify the type of trigger that you want to create. This call is required. For the list of available trigger types, see [How Proactive Triggers work](https://www.servicenow.com/docs/access?context=how-proactive-triggers-work&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+First, you should call the [ProactiveTriggerAPI - createTrigger\(String triggerTypeId\)](ProactiveTriggerScopedAPI.md#) method to specify the type of trigger that you want to create. This call is required. For the list of available trigger types, see How Proactive Triggers work.
 
 Next, you should call one of the methods that identifies the user to whom the messages should be sent. You can do this by calling one of the following methods:
 

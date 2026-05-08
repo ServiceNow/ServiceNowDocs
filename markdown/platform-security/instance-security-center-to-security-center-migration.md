@@ -149,7 +149,7 @@ Monitor sessions functionality
 
 </td><td>
 
--   Visualize session activities using the [Analytics Hub](https://www.servicenow.com/docs/access?context=c_UsePerformanceAnalyticsScorecards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Visualize session activities using the Analytics Hub.
 -   Monitor session activity by navigating to **Metrics** &gt; **Sessions**.
 
 </td></tr><tr><td>

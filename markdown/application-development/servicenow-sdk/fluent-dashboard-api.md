@@ -22,7 +22,7 @@ A dashboard consists of tabs, widgets, visibilities, and permissions. Each tab c
 
 Dashboards can be used as the home page of a workspace by referring to one or more workspaces from the visibilities array of the Dashboard object. To create a workspace, see [Workspace API - ServiceNow Fluent](fluent-workspace-api.md#).
 
-For general information about dashboards, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For general information about dashboards, see Dashboards in Platform Analytics.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 

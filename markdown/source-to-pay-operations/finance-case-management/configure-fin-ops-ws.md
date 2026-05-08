@@ -17,7 +17,7 @@ Configure the landing page of the Finance Operations Workspace
 
 Use UI Builder to configure the landing page, define different audiences for the landing page, and even add, remove, or modify the different content However, it’s recommended that you create a duplicate of the landing page before modifying it.
 
-For more information on how to configure using UI Builder, see [Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on how to configure using UI Builder, see Create a page in UI Builder.
 
 **Parent Topic:**[Configure Finance Operations Workspace](configuring-fin-ops-ws.md)
 

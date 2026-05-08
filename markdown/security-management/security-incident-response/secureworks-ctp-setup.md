@@ -49,7 +49,7 @@ The following roles are required for the installation, setup, and use of the int
     -   Assigns the security incident analyst \(sn\_si.analyst\) role.
     -   Users with the sn\_si.analyst work with security incidents.
 
- For more information about roles and assigning roles to users, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+ For more information about roles and assigning roles to users, see Managing roles
 
 </td></tr><tr><td>
 

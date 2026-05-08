@@ -27,7 +27,7 @@ To see which facets you've selected, view the pills in the Filters panel. If you
 
 You can initiate a new search by entering a new search term in the typeahead search box. After you enter the new search term, the system clears your facet filter selections from the previous search. You can refine your new search by selecting new facet filters.
 
-For more information on configuring the available facets, see [Create a facet in an AI Search application configuration](https://www.servicenow.com/docs/access?context=create-facet-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on configuring the available facets, see Create a facet in an AI Search application configuration.
 
 ## Instance options
 

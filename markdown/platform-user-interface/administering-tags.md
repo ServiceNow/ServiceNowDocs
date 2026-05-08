@@ -111,7 +111,7 @@ Configure the system to automatically assign a tag to records that match conditi
 
 ### Before you begin
 
-Role required: tags\_admin, however for users with the tags\_admin role to be able to create conditions for labels, you need to create the following ACLs. Creating ACLs requires the security\_admin elevated role. Include tags\_admin as a required role for each ACL. For more information on creating an ACL, see [Create an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Role required: tags\_admin, however for users with the tags\_admin role to be able to create conditions for labels, you need to create the following ACLs. Creating ACLs requires the security\_admin elevated role. Include tags\_admin as a required role for each ACL. For more information on creating an ACL, see Create an ACL rule.
 
 |Name|Operation|
 |----|---------|

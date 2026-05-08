@@ -27,7 +27,7 @@ Role required: rota\_manager
 
 2.  In the instance address field, enter the instance address in one of two ways.
 
-<table id="choicetable_qkh_sgb_qjb"><tbody><tr><td id="d342387e68">
+<table id="choicetable_qkh_sgb_qjb"><tbody><tr><td id="d342362e68">
 
 **Manual input**
 
@@ -35,7 +35,7 @@ Role required: rota\_manager
 
 Type the instance address in the instance address field.**Note:** You do not need to include `service-now.com` at the end of the instance name.
 
-</td></tr><tr><td id="d342387e83">
+</td></tr><tr><td id="d342362e83">
 
 **Scan QR code**
 

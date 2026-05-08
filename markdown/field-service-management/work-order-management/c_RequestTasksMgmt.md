@@ -46,11 +46,11 @@ Optionally, set up one or more additional request task management configurations
 **Related topics**  
 
 
-[Change the location of a request](https://www.servicenow.com/docs/access?context=t_ChangeTheLocationOfARequest&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[bundle-sm4e.t_ChangeTheLocationOfARequest]
 
-[Request approvals](https://www.servicenow.com/docs/access?context=c_RequestApprovals&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[bundle-sm4e.c_RequestApprovals]
 
-[Collaborate on a request](https://www.servicenow.com/docs/access?context=t_CollaborateOnARequest&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[bundle-sm4e.t_CollaborateOnARequest]
 
-[Close a request](https://www.servicenow.com/docs/access?context=t_CloseARequest&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US)
+[bundle-sm4e.t_CloseARequest]
 

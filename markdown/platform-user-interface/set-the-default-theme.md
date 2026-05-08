@@ -17,7 +17,7 @@ Set a preferred Theme Builder theme as the default for your web experiences when
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see Granular admin roles.
 
 ## About this task
 

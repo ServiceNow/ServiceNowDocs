@@ -18,32 +18,32 @@ The ServiceNow® Core Business Suite application lays the foundation to unify di
 -   Launch Core Business Suite applications from a new admin home configuration console. Set up each application from the entry point.
 -   Leverage the AI-native requester experience in CBS.
 
-See [Core Business Suite](https://www.servicenow.com/docs/access?context=cbs-landing&version=australia&pubname=australia-core-business-suite&ft:locale=en-US) for more information.
+See Core Business Suite for more information.
 
 **Important:** Core Business Suite is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Important information for upgrading Core Business Suite to Australia
 
--   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see Configuring read-only security options.
 -   The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
     -   Foundation: AI basics to deliver insights
     -   Advanced: AI to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI assets, and create your own
-    For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see ServiceNow product tiers.
 
 
 ## Core Business Suite features
 
--   **[Configure Core Business Suite using Now Assist](https://www.servicenow.com/docs/access?context=configure-cbs-using-now-assist&version=australia&pubname=australia-core-business-suite&ft:locale=en-US)**
+-   **Configure Core Business Suite using Now Assist**
 
     Use a guided flow to set up the Core Business Suite. Receive AI‑assisted resolutions to questions that might come up during setup for a faster installation and configuration experience.
 
--   **[Configure Core Business Suite using guided setup](https://www.servicenow.com/docs/access?context=config-cbs-using-guided-setup&version=australia&pubname=australia-core-business-suite&ft:locale=en-US)**
+-   **Configure Core Business Suite using guided setup**
 
     Leverage the new CBS home page to initiate installations of different applications across BUs in one place. Track setup progress and receive guided configuration support from a unified product console. You can install and configure applications according to your business requirements.
 
--   **[Now Assist requester experience](https://www.servicenow.com/docs/access?context=now-assist-configurations-requesters&version=australia&pubname=australia-core-business-suite&ft:locale=en-US)**
+-   **Now Assist requester experience**
 
     Provide your employees with the AI-native requester experience in Core Business Suite.
 
@@ -64,15 +64,15 @@ Install Core Business Suite by requesting it from the ServiceNow Store. Visit th
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Setup](https://www.servicenow.com/docs/access?context=ia-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Now Assist for Setup**
 
     Provides a modular and personalized admin home dashboard that helps centralize instance management and helps with faster completion of critical tasks. It supports context-aware insights and recommended next actions.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     Provides the generative AI capabilities embedded throughout Core Business Suite such as chat summarization, resolution notes generation, and agentic workflows.
 
--   **[Enterprise Service Management Foundation](https://www.servicenow.com/docs/access?context=esm-foundation&version=australia&pubname=australia-better-together&ft:locale=en-US)**
+-   **Enterprise Service Management Foundation**
 
     Unifies IT, HR, finance, procurement, legal, and workplace services on one AI platform, delivering a simplified and unified implementation, service delivery, and employee experience for growing organizations.
 

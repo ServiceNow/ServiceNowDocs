@@ -82,7 +82,7 @@ Select the basis for the external score change that should trigger the rule and 
 </td></tr></tbody>
 </table>3.  Select the **Apply to third parties** tab.
 
-    1.  Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to define conditions for identifying the third parties to be affected by the rule.
+    1.  Use the condition builder to define conditions for identifying the third parties to be affected by the rule.
 
     2.  Select **Submit**.
 

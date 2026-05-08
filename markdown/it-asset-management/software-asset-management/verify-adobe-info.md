@@ -31,7 +31,7 @@ Role required: sam\_admin
 
     After the validation is successful, look for system logs for any possible errors:
 
-    1.  **Enable debug logs and re-run the job**: This action helps in capturing detailed information about the process. For more information, see [Configure outbound logging](https://www.servicenow.com/docs/access?context=outbound-logging-configure&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    1.  **Enable debug logs and re-run the job**: This action helps in capturing detailed information about the process. For more information, see Configure outbound logging.
     2.  **Check outbound logs for API calls and responses**: If the API response isn't successful, check [Adobe documentation](https://helpx.adobe.com/in/support.html) for the specific error.
     3.  **If the APIs were successful, review system logs**: Look for any technical failures or issues within the code itself.
 

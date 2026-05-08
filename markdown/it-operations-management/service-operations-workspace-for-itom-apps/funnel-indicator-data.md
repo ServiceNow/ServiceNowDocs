@@ -133,7 +133,7 @@ Field
 
 Source field from the data set for the selected metric.**Note:** The data appears in a format that matches the field type. For example, an integer field like **Priority** is shown as a number. A duration field like **Business duration** from the \[Incident\] table is displayed in days, hours, and minutes.
 
-If function fields were created in Report Designer for the table, they are available in the drop-down list. For more information, see [Report on function fields](https://www.servicenow.com/docs/access?context=function-fields-reporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+If function fields were created in Report Designer for the table, they are available in the drop-down list. For more information, see Report on function fields.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Format values
 
 </td><td>
 
-Formatting style for displaying metric values. Select to open the Formatting values dialog.For more information, see [Value formatting in reports](https://www.servicenow.com/docs/access?context=value-formatting-reports&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Formatting style for displaying metric values. Select to open the Formatting values dialog.For more information, see Value formatting in reports.
 
 </td></tr><tr><td colspan="2">
 

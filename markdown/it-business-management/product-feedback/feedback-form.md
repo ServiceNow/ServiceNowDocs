@@ -15,7 +15,7 @@ breadcrumb: [Form field information for Feedback application, Feedback reference
 
 Learn about the fields of the feedback form. Use this form to create or edit the details of a feedback record in Feedback.
 
-**Note:** Operational Sustainability Workspace and Strategic Planning users can’t view the fields that aren’t added to the default/custom form layout in the workspace. Configure the default/custom form layout to view those fields. For information on how to configure the form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Operational Sustainability Workspace and Strategic Planning users can’t view the fields that aren’t added to the default/custom form layout in the workspace. Configure the default/custom form layout to view those fields. For information on how to configure the form layout, see Configuring the form layout.
 
 <table id="table_xnn_4lp_5xb"><thead><tr><th>
 

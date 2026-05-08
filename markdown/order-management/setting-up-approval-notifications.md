@@ -68,15 +68,15 @@ The notification framework handles various approval scenarios in the approval pr
 For successful delivery of advanced approval notifications to approvers and requesters, verify that certain notification properties and notification preferences are set.
 
 -   As an admin, do the following:
-    -   Enable the email sending \(Outbound Email Configuration\) and email receiving \(Inbound Email Configuration\) properties. For information on setting these properties, see [Email properties](https://www.servicenow.com/docs/access?context=c_EmailProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   Enable the email sending \(Outbound Email Configuration\) and email receiving \(Inbound Email Configuration\) properties. For information on setting these properties, see Email properties.
     -   Consider reviewing the default notifications for Advanced Approval Management by navigating to **All** &gt; **Notifications** &gt; **System Notifications** and filter the list by Advanced Approval Management.
 
-        For example, if you want to control conditions for sending a notification, review the conditions in the When to send related list for a notification. If you want to change content in a notification, review the associated email template for the notification. To learn more, see [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For example, if you want to control conditions for sending a notification, review the conditions in the When to send related list for a notification. If you want to change content in a notification, review the associated email template for the notification. To learn more, see Email and SMS notifications.
 
 -   As approvers and requesters, verify that you’re receiving the default system notifications in the Advanced Approvals notification category and that the notifications are being delivered using your preferred channels.
 
     For example, if you're an approver and you want Advanced Approval Request notifications to be delivered as push notifications on the ServiceNow Mobile application, verify that push notifications are set up as a channel preference for the Advanced Approval Request notification.
 
-    To learn more about managing notification categories and setting notification preferences and channels, see [Exploring preferences](https://www.servicenow.com/docs/access?context=exploring-preferences&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    To learn more about managing notification categories and setting notification preferences and channels, see Exploring preferences.
 
 

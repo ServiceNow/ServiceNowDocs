@@ -76,15 +76,15 @@ You can add or remove user assignments of a neighborhood in a building or a scen
 
     4.  Add or remove users from the neighborhood.
 
-<table id="choicetable_ebx_gdx_rfc"><thead><tr><th align="left" id="d198211e262">
+<table id="choicetable_ebx_gdx_rfc"><thead><tr><th align="left" id="d198215e262">
 
 Choice
 
-</th><th align="left" id="d198211e265">
+</th><th align="left" id="d198215e265">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d198211e271">
+</th></tr></thead><tbody><tr><td id="d198215e271">
 
 **Add users to the neighborhood**
 
@@ -98,7 +98,7 @@ Use the filter option to filter the users list. You can add up to 1000 users to 
 3.  Select **Add**.
  The users are added to the neighborhood. A new Workplace Profile Location Assignment is added to the user's workplace profile with the neighborhood assignment. The **Source** field of the user assignment is set as manual.
 
-</td></tr><tr><td id="d198211e309">
+</td></tr><tr><td id="d198215e309">
 
 **Remove users from the neighborhood**
 

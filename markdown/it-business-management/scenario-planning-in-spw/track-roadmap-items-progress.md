@@ -29,15 +29,15 @@ Use a toggle to switch your roadmap view from planning mode to tracking mode. Th
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d260695e80">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d260691e80">
 
 Roadmap type
 
-</th><th align="left" id="d260695e83">
+</th><th align="left" id="d260691e83">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d260695e89">
+</th></tr></thead><tbody><tr><td id="d260691e89">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d260695e110">
+</td></tr><tr><td id="d260691e110">
 
 **Free-form roadmap**
 

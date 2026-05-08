@@ -6,7 +6,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Add a target for goal, Manage enterprise goals, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---

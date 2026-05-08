@@ -128,5 +128,5 @@ Workspace that is associated with this form header.
 **Related topics**  
 
 
-[Configure a form header for a workspace](https://www.servicenow.com/docs/access?context=config-ws-form-header&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.config-ws-form-header]
 

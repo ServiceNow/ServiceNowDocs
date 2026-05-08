@@ -86,7 +86,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US) .
+    For instructions to upload the JKS certificate, see Upload a certificate to an instance .
 
     ![Upload JKS certificate.](../image/sapsf-cert.png)
 

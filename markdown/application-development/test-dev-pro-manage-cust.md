@@ -27,7 +27,7 @@ Customize your ServiceNow apps.
 
 </td><td>
 
-[Scripts ![Scripts.](../image/icon-now-cli.png) Use custom scripts with the ServiceNow platform.](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Scripts ![Scripts.](../image/icon-now-cli.png) Use custom scripts with the ServiceNow platform.
 
 </td></tr></tbody>
 </table>

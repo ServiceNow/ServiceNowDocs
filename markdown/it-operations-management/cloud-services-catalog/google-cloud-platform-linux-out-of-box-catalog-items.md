@@ -6,7 +6,7 @@ release: australia
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---

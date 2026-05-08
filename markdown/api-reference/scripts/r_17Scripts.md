@@ -77,7 +77,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-[Service Catalog UI policies](https://www.servicenow.com/docs/access?context=c_ServiceCatalogUIPolicy&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Service Catalog UI policies
 
 </td><td>
 
@@ -108,7 +108,7 @@ client
 
 </td></tr><tr><td>
 
-[Script actions](https://www.servicenow.com/docs/access?context=r_ScriptActions&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Script actions
 
 </td><td>
 
@@ -140,7 +140,7 @@ server
 
 </td></tr><tr><td>
 
-[Transform maps](https://www.servicenow.com/docs/access?context=c_CreatingNewTransformMaps&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Transform maps
 
 </td><td>
 
@@ -157,7 +157,7 @@ server
 
 </td></tr><tr><td>
 
-[UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+UI actions
 
 </td><td>
 
@@ -303,7 +303,7 @@ client
 
 </td></tr><tr><td>
 
-[Workflow editor](https://www.servicenow.com/docs/access?context=workflow-editor&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Workflow editor
 
 </td><td>
 

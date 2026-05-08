@@ -41,7 +41,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
         -   /api/4.0/edges
         -   /api/4.0/edges/&lt;edge\_id&gt;loadbalancer/config
     -   NSX-T: /api/v1/edge-clusters
-    For more information about basic authentication credentials, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information about basic authentication credentials, see Basic authentication credentials.
 
 -   **Verify HTTP discovery is triggered against the NSX Main Controller IP**
 

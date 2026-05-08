@@ -20,7 +20,7 @@ You can add secure inputs to Virtual Agent topics in two ways:
 -   [Create a secure custom input control](../task/create-custom-control.md) that uses a Workflow Studio action or subflow with secure \(password2 type\) inputs.
 -   Add an [Action utility node](../reference/va-action.md) to a topic that refers to a Workflow Studio action or subflow that has a single password2 field as an input.
 
-The [Key Management Framework](https://www.servicenow.com/docs/access?context=understanding-kmf&version=australia&pubname=australia-platform-security&ft:locale=en-US) \(KMF\) must be installed and configured for your instance. The scoped application that uses the secure fields must also have the following:
+The Key Management Framework \(KMF\) must be installed and configured for your instance. The scoped application that uses the secure fields must also have the following:
 
 -   A **sys\_kmf\_crypto\_module** record, with a related Symmetric Key Wrapping/Unwrapping **sys\_kmf\_module\_crypto\_spec** record
 -   A **sys\_kmf\_crypto\_caller\_policy** record with the following properties:
@@ -32,7 +32,7 @@ The [Key Management Framework](https://www.servicenow.com/docs/access?context=un
     -   Active: **true**
     -   Result: **Track**
 -   A Workflow Studio action or subflow that accepts one or more password2 input fields
--   A [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) in the Workflow Studio action that unwraps the password2/KMF passwords as follows:
+-   A Script step in the Workflow Studio action that unwraps the password2/KMF passwords as follows:
 
     ```
     var op = new 
@@ -43,7 +43,7 @@ The [Key Management Framework](https://www.servicenow.com/docs/access?context=un
     ```
 
 
-For more information about password2 encryption with KMF, see [Password2 encryption with KMF](https://www.servicenow.com/docs/access?context=password-2way-encrypted-fields&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information about password2 encryption with KMF, see Password2 encryption with KMF.
 
 **Parent Topic:**[Integrating Virtual Agent with Workflow Studio workflows](va-flow-designer-integration.md)
 

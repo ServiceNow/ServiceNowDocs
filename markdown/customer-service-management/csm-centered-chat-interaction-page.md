@@ -126,7 +126,7 @@ The audience determines who can see the page variant. The CSM centered chat inte
 
 By default, agents who belong to the **CSM - Front-line Agent** audience will see the CSM centered chat interaction record page in the CSM Configurable Workspace. This is the default for both new \(zboot\) and upgrade customers.
 
-For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

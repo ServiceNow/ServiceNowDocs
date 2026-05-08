@@ -145,7 +145,7 @@ Create a new role using one or more granular roles from the library for a specif
 
     3.  In the Role record, fill out the fields.
 
-        Create a name, select the application that contains this record, and enter a short description for your new role. For more information about the other fields on the form, see [Create a role](https://www.servicenow.com/docs/access?context=t_CreateARole&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+        Create a name, select the application that contains this record, and enter a short description for your new role. For more information about the other fields on the form, see Create a role
 
         **Note:** When creating a name for your new role, you may prefer to use a name that is easily recognized in the roles list and describes the functionality of the role. For this example, you may prefer a title such as, Compliance Auditor - GRC-VR.
 

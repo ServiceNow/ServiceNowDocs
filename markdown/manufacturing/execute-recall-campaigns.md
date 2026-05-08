@@ -47,9 +47,9 @@ Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 [Create a campaign](../../mftg-manufacturing/concept/mco-rc-my-campaigns.md)
 
-[Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.activate-aia-use-case]
 
-[Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.clone-aia-usecase]
 
-[Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.modify-aia-use-case]
 

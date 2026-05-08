@@ -25,7 +25,7 @@ Role required: admin
 
     The SMI-S Provider software is often part of the device management software. For more information, download the SMI-S Provider instructions from the storage provider manufacture.
 
-2.  For NetApp storage devices, [install the SMI-S agent](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) on the storage device host.
+2.  For NetApp storage devices, install the SMI-S agent on the storage device host.
 
     **Note:** Discovery can also perform native discovery of NetApp servers without accessing the SMI-S server. See [NetApp Server and Cluster discovery](../concept/netapp-discovery.md) for more information.
 
@@ -33,7 +33,7 @@ Role required: admin
 
 4.  In the SMI-S Provider or agent, configure the **Discovery Interval** with a synchronization rate that allows the wbem probe to receives the most current information during discovery.
 
-5.  On the ServiceNow instance, set up [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+5.  On the ServiceNow instance, set up CIM credentials.
 
 6.  Create a Discovery Schedule with the IP addresses of each SMI-S Provider.
 

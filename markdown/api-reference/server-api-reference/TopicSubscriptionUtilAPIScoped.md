@@ -19,7 +19,7 @@ These functions are called when the **Register** button is selected on the Topic
 
 Both script includes run in the `sn_api_notif_mgmt` namespace.
 
-For additional information on topic subscriptions, see [External event management via Telecommunications API notifications](https://www.servicenow.com/docs/access?context=telecommunications-api-notification&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US).
+For additional information on topic subscriptions, see External event management via Telecommunications API notifications.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

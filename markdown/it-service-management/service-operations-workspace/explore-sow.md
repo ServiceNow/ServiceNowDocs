@@ -80,10 +80,10 @@ User who implements and sets up Service Operations Workspace for ITSM.
 | Agents can create requests from incidents and interactions. Agents can also manage the entire life cycle of requests. |[Request Management in Service Operations Workspace](request-sow.md)|Tier 1 and Tier 2 agents|
 |Agents and administrators can review and manage walk-up interactions, appointments, stockrooms, and kiosks at the walk-up service location.  |[Walk-up Experience management in Service Operations Workspace](walkup-sow.md)|Tier 1 and Tier 2 agents|
 |All logged-in users can view key features to get started with Service Operations Workspace for ITSM.|[Service Operations Workspace for ITSM landing page](sow-ui-landing-page.md)|Tier 1 and Tier 2 agents|
-|Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|[Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|Administrator|
-|Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|[Automating and optimizing your services and operations using Service Operations Workspace](https://www.servicenow.com/docs/access?context=service-operations&version=australia&pubname=australia-better-together&ft:locale=en-US)|Tier 1 agent, Tier 2 agent, and IT operator|
+|Administrators can have a guided experience for initial configuration of Service Operations Workspace for ITSM.|Using guided setup|Administrator|
+|Agents can have a unified experience for services and operations on a single platform by integrating with Service Operations Workspace for ITOM.|Automating and optimizing your services and operations using Service Operations Workspace|Tier 1 agent, Tier 2 agent, and IT operator|
 
-For information about key features in Service Operations Workspace for ITOM, see [Exploring Service Operations Workspace for ITOM](https://www.servicenow.com/docs/access?context=explore-sow-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For information about key features in Service Operations Workspace for ITOM, see Exploring Service Operations Workspace for ITOM.
 
 ## Service Operations Workspace for ITSM workflow for an agent
 
@@ -102,12 +102,12 @@ Use a guided tour that is sequence of interactive steps to guide an agent throug
 
 **Important:**
 
--   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see [Edit Guided Tours](https://www.servicenow.com/docs/access?context=edit-guided-tour&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   A guided tour might break if you customize any of its associated UI elements in your instance, so ensure that you update your guided tours as well accordingly. For information on how to update guided tours, see Edit Guided Tours.
 -   The **Take a Tour** or **Select a Tour** option is available only when a guided tour is available for that UI page.
 
 ## Using guided setup to implement Service Operations Workspace for ITSM
 
-Service Operations Workspace for ITSM guided setup provides a sequence of tasks that help an administrator configure Service Operations Workspace for ITSM on your ServiceNow instance. To open Service Operations Workspace for ITSM guided setup, navigate to **All** &gt; **Adoption Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Service Operations Workspace for ITSM guided setup provides a sequence of tasks that help an administrator configure Service Operations Workspace for ITSM on your ServiceNow instance. To open Service Operations Workspace for ITSM guided setup, navigate to **All** &gt; **Adoption Services** &gt; **Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 ## What to explore next
 
@@ -134,5 +134,5 @@ On-Call Scheduling ensures that dedicated support team members are always availa
 **Related topics**  
 
 
-[List of workspaces](https://www.servicenow.com/docs/access?context=list-of-workspaces&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.list-of-workspaces]
 

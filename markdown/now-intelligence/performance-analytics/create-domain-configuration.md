@@ -49,7 +49,7 @@ Visibility group
 
 </td><td>
 
-When **Configuration type** is **Visibility group**, select or create a Group \[sys\_user\_group\] that has at least one visibility domain. All visibility domains available to this group are included in this domain configuration. For more information about visibility domains, see [Visibility domains and Contains domains](https://www.servicenow.com/docs/access?context=c_DomainVisibility&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+When **Configuration type** is **Visibility group**, select or create a Group \[sys\_user\_group\] that has at least one visibility domain. All visibility domains available to this group are included in this domain configuration. For more information about visibility domains, see Visibility domains and Contains domains.
 
 </td></tr><tr><td>
 
@@ -100,5 +100,5 @@ Select **All child domains** to roll up scores from the specified domains and al
 **Related topics**  
 
 
-[Domain separation setup and administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_DomainSeparationSetup]
 

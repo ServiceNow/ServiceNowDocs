@@ -62,7 +62,7 @@ Opportunity Role
 Role of the team member. Following member roles \(Related party types\) and responsibility are shipped by default: -   Account Executive
 -   Solution Sales Executive
 -   Price Band Approver
-However, more roles can be configured. Depending on the responsibility, access to the opportunity is provided to the opportunity team members. For more information, see [Create related party configurations](https://www.servicenow.com/docs/access?context=adding-related-party-config-to-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+However, more roles can be configured. Depending on the responsibility, access to the opportunity is provided to the opportunity team members. For more information, see Create related party configurations.
 
 </td></tr><tr><td>
 

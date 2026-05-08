@@ -32,9 +32,9 @@ If languages aren’t grouped, users can view all available languages as a full-
 **Related topics**  
 
 
-[Enable language selector widget](https://www.servicenow.com/docs/access?context=configure-header-menu&version=australia&pubname=australia-platform-user-interface&section=enable-lang-selector-widget&ft:locale=en-US)
+[bundle-platux.enable-lang-selector-widget]
 
-[Service Portal properties](https://www.servicenow.com/docs/access?context=properties-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.properties-service-portal]
 
-[Create regions for language selection in portals](https://www.servicenow.com/docs/access?context=create-regions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.create-regions]
 

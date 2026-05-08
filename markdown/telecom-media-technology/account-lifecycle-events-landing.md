@@ -21,24 +21,24 @@ By embedding workflow automation into customer success management, Customer Succ
 
 <table id="table_ggl_tml_ccc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the key features and benefits of Customer Success Management](https://www.servicenow.com/docs/access?context=account-lifecycle-explore&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+Explore![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn about the key features and benefits of Customer Success Management
 
 </td><td>
 
-[Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and customize Customer Success Management to meet your needs](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing-page&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+Configure![](../../../reuse/icons/brand-icons/bus-sdlc.svg)Plan and customize Customer Success Management to meet your needs
 
 </td></tr><tr><td>
 
-[Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Customer Success Management to manage the account lifecycle](https://www.servicenow.com/docs/access?context=account-lifecycle-customer-success-landing-page&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+Use![](../../../reuse/icons/brand-icons/bus-integration-and-apis.svg)Use Customer Success Management to manage the account lifecycle
 
 </td><td>
 
-[Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about the data model and installed components](https://www.servicenow.com/docs/access?context=account-lifecycle-reference&version=australia&pubname=australia-acct-lifecycle-events&ft:locale=en-US)
+Reference ![](../../../reuse/icons/brand-icons/bus-learn.svg)Get information about the data model and installed components
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Customer Success Management release notes](https://www.servicenow.com/docs/access?context=account-lifecycle-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the Customer Success Management release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Customer Success Management features at [Now Create](https://learning.servicenow.com/nowcreate).
 -   Access real time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [ServiceNow Impact](https://www.servicenow.com/industries/telecom.html).

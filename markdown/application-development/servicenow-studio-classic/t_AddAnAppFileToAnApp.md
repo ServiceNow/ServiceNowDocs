@@ -68,7 +68,7 @@ Windows: Control+Shift+C
 
 4.  Find the application file type you want to create.
 
-<table id="choicetable_fgn_dj2_2s"><tbody><tr><td id="d111247e237">
+<table id="choicetable_fgn_dj2_2s"><tbody><tr><td id="d111241e237">
 
 **Search by application file name**
 
@@ -76,7 +76,7 @@ Windows: Control+Shift+C
 
 In the **Filter** entry field, enter the name of the application file.
 
-</td></tr><tr><td id="d111247e249">
+</td></tr><tr><td id="d111241e249">
 
 **Search by category**
 

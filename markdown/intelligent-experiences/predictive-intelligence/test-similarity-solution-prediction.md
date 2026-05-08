@@ -121,7 +121,7 @@ This scenario illustrates a similarity solution prediction for a hypothetical ML
 **Related topics**  
 
 
-[Predictive Intelligence API](https://www.servicenow.com/docs/access?context=agent-intelligence-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.agent-intelligence-api]
 
-[MLPredictor - Global](https://www.servicenow.com/docs/access?context=c_MLPredictorAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_MLPredictorAPI]
 

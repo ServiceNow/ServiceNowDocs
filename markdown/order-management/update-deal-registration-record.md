@@ -57,7 +57,7 @@ After a deal is created on the Partner portal and is in the **Submitted** state,
 
     The deal registration is successfully converted to an opportunity.
 
-    All line items from the deal registration form are transferred to opportunity line items with the help of Primitives. To learn more about Primitives, see [LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    All line items from the deal registration form are transferred to opportunity line items with the help of Primitives. To learn more about Primitives, see LeadtoCashCore - Scoped.
 
 
 **Parent Topic:**[Partner Workspace](../concept/partner-workspace.md)

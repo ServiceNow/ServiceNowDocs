@@ -17,7 +17,7 @@ Associate a business application with a JFrog project in the JFrog tool record t
 
 ## Before you begin
 
-The required business applications must be created in ServiceNow. For more information, see [Business application form](https://www.servicenow.com/docs/access?context=eaw-business-application-form&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US).
+The required business applications must be created in ServiceNow. For more information, see Business application form.
 
 Role required: sn\_devops.admin or sn\_devops.tool\_owner
 

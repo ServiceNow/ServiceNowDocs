@@ -61,7 +61,7 @@ This option identifies and executes success plays that address an unaddressed ri
 
 5.  Provide the required inputs, such as the planned start date and planned end date, for each success play. Once all the inputs have been provided, the success plays are initiated and run in the background. Optionally, you can select additional plays from the success catalog.
 6.  After the plays have been completed, the solutions are automatically added to the Risk solutions related list on the risk signal record.
-7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See [Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=draft-risk-close-notes&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for details.
+7.  A scheduled job runs every day and automatically identifies risk signals that are eligible for closure and generates closure notes. See Draft close notes for a risk signal using Now Assist for Telecommunications, Media and Technology \(TMT\) for details.
 8.  When the risk is closed, closure notes are automatically generated and are visible in the Activity stream and Closure Notes in the risk record.
 
     **Note:** Closure notes are automatically generated only when the **Draft closure notes** skill is enabled, all associated risk solutions are closed, and no new risk occurrences exist for the risk signal.

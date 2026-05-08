@@ -118,7 +118,7 @@ To create a SurveyMonkey integration profile, request the Software Asset Managem
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **SurveyMonkey Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **SurveyMonkey Spoke** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

@@ -221,7 +221,7 @@ Role required: admin
 
 2.  Upload the JKS certificate to your ServiceNow instance.
 
-    For instructions to upload the JKS certificate, see [Upload a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US).![Uploading certificate to an instance](../image/saml-oauth-sf.png)
+    For instructions to upload the JKS certificate, see Upload a certificate to an instance.![Uploading certificate to an instance](../image/saml-oauth-sf.png)
 
 
 ## Register SuccessFactors as an OAuth provider
@@ -502,7 +502,7 @@ Change the application scope to **Global**.
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **Software Asset Management integration with SuccessFactors** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

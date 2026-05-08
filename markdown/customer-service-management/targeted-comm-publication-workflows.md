@@ -20,7 +20,7 @@ The application includes two publishing workflows:
 
 ## Migrating workflows to Workflow Studio flows
 
-Starting with the Zurich release, legacy workflows for the Targeted Communications application have been migrated to low-code flows in [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US). The functionality of the new flows remains the same.
+Starting with the Zurich release, legacy workflows for the Targeted Communications application have been migrated to low-code flows in Workflow Studio. The functionality of the new flows remains the same.
 
 During an upgrade, the logic checks if a publication workflow or its configuration has been customized.
 

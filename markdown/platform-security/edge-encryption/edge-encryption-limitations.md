@@ -46,7 +46,7 @@ Additional restrictions:
 -   Encrypted fields aren’t available in **Go to** and header filter boxes.
 -   When encrypting fields used as an index, you can use only order-preserving and equality-preserving encryption types. Indexed fields can’t be encrypted using the standard encryption type.
 
-For more information, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Field types.
 
 ## Filtering and searching restrictions
 

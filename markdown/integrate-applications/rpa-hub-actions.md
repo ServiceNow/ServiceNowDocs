@@ -15,7 +15,7 @@ Two-way integration of actions and subflows in Workflow Studio and RPA Hub for a
 
 ## Flows and actions overview
 
-The flows and actions are built using ServiceNow Workflow Studio, so make sure you’re familiar with the [Building actions in Workflow Studio](https://www.servicenow.com/docs/access?context=actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Building subflows in Workflow Studio](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US) basics.
+The flows and actions are built using ServiceNow Workflow Studio, so make sure you’re familiar with the Building actions in Workflow Studio and Building subflows in Workflow Studio basics.
 
 ## Invoke flows or subflow
 

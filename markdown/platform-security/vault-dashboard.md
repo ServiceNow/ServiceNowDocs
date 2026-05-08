@@ -67,7 +67,7 @@ Ask Now Assist
 
 </td><td>
 
-Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask Now Assist to schedule a data discovery job for you. Prerequisite: Enable skills in Now Assist Admin console. For more information, see [Activate a Now Assist skill](https://www.servicenow.com/docs/access?context=configure-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Use generative AI skills in Now Assist for Vault](../../now-assist-vault/concept/using-now-assist-vault.md).
+Use generative AI to streamline your tasks in ServiceNow Vault. For example, you can ask Now Assist to schedule a data discovery job for you. Prerequisite: Enable skills in Now Assist Admin console. For more information, see Activate a Now Assist skill and [Use generative AI skills in Now Assist for Vault](../../now-assist-vault/concept/using-now-assist-vault.md).
 
 </td></tr><tr><td>
 

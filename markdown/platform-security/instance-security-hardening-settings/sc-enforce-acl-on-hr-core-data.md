@@ -101,7 +101,7 @@ References
 
 </td><td>
 
-[Activate Case and Knowledge Management](https://www.servicenow.com/docs/access?context=activate-case-and-knowledge-management-scoped&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Activate Case and Knowledge Management
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](sc-access-control.md)

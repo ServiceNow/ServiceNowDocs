@@ -21,7 +21,7 @@ Use the Triage legal requests agentic workflow to predict the appropriate legal 
 **Important:**
 
 -   To run the Triage legal requests agentic workflow, ensure that you have completed all the configurations. For more information, see [Configure Triage legal requests agentic workflow](conf-transfer-legal-request-agent.md).
--   If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://www.servicenow.com/docs/access?context=configuring-api-credentials-for-generative-ai-capabilities&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   If your generative AI service provider is not Now LLM Service, ensure that the API connections and credentials are configured. For more information, see Configuring API credentials for generative AI capabilities.
 -   
 The agentic workflow is triggered under the following conditions:
 

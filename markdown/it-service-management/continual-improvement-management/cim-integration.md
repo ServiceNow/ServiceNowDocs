@@ -21,15 +21,15 @@ You can link multiple tasks from integrated applications to a single CIM task an
 
 -   [Benchmarks](../../benchmarks/reference/r_Benchmarks.md)
 -   [Coaching](../../cf-coaching/reference/cf-coaching-landing.md)
--   [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
--   [Governance, Risk, and Compliance \(GRC\)](https://www.servicenow.com/docs/access?context=r_WhatIsGRC&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Idea Portal](https://www.servicenow.com/docs/access?context=idea-portal&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+-   Configuration Management
+-   Customer Service Management
+-   Demand Management
+-   Governance, Risk, and Compliance \(GRC\)
+-   Idea Portal
 -   [Incident Management](../../incident-management/concept/c_IncidentManagement.md)
 -   [Problem Management](../../problem-management/concept/c_ProblemManagement.md)
--   [Process Mining](https://www.servicenow.com/docs/access?context=process-mining&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
--   [Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementLandingPage&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Process Mining
+-   Survey Management
 
 For more information, see [Create improvement initiatives from integrated applications](../task/create-improvmt-from-apps.md).
 
@@ -37,10 +37,10 @@ For more information, see [Create improvement initiatives from integrated applic
 
 -   Change record \([Change Management](../../change-management/concept/c_ITILChangeManagement.md)\)
 -   Coaching opportunity \([Coaching opportunity](../../cf-coaching/task/cf-create-coaching-opportunity.md)\)
--   Knowledge base article \([Create a knowledge article](https://www.servicenow.com/docs/access?context=create-knowledge-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)\)
--   Demand record \([Demand Management](https://www.servicenow.com/docs/access?context=c_DemandManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)\)
--   Project \([Project Management](https://www.servicenow.com/docs/access?context=c_ProjectApplicationOverview&version=australia&pubname=australia-it-business-management&ft:locale=en-US)\)
--   Story record \([Agile Development](https://www.servicenow.com/docs/access?context=agile-development&version=australia&pubname=australia-it-business-management&ft:locale=en-US)\)
+-   Knowledge base article \(Create a knowledge article\)
+-   Demand record \(Demand Management\)
+-   Project \(Project Management\)
+-   Story record \(Agile Development\)
 
 For more information, see [Create application records from improvement initiatives](../task/create-app-records.md).
 
@@ -75,11 +75,11 @@ Integrate CIM with other applications by using the CIMIntegrationAPI extension p
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

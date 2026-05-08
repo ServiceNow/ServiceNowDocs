@@ -31,15 +31,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d395820e97">
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d395816e97">
 
 Field
 
-</th><th align="left" id="d395820e100">
+</th><th align="left" id="d395816e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d395820e106">
+</th></tr></thead><tbody><tr><td id="d395816e106">
 
 **Name**
 
@@ -47,7 +47,7 @@ Description
 
 Enter a name for the expiration rule.
 
-</td></tr><tr><td id="d395820e115">
+</td></tr><tr><td id="d395816e115">
 
 **Description**
 
@@ -55,7 +55,7 @@ Enter a name for the expiration rule.
 
 Enter a description for the expiration rule.
 
-</td></tr><tr><td id="d395820e124">
+</td></tr><tr><td id="d395816e124">
 
 **Expiry period \(days\)**
 
@@ -65,7 +65,7 @@ Specify the time duration after which the data ingested should expire or conside
 
 **Note:** Whatever the data that is ingested from the source will be expired 100 days after the ingestion.
 
-</td></tr><tr><td id="d395820e137">
+</td></tr><tr><td id="d395816e137">
 
 **Data Sources**
 
@@ -77,7 +77,7 @@ If you want to select indicator as an object you must select the object and then
 
 **Note:** By default, a sample expiration rule sn\_sec\_tisc\_m2m\_entity\_rules is provisioned for the users within the base system. For Observables, this sample expiration rule will be in disabled state. You must enable and activate the rule. To apply the rule on the source records, you must enable the rule.
 
-</td></tr><tr><td id="d395820e159">
+</td></tr><tr><td id="d395816e159">
 
 **Category**
 
@@ -85,7 +85,7 @@ If you want to select indicator as an object you must select the object and then
 
 Indicates the expiration rule category type for the current data source. Select the category type from the drop-down list such as observable or object.
 
-</td></tr><tr><td id="d395820e168">
+</td></tr><tr><td id="d395816e168">
 
 **Type of Records**
 

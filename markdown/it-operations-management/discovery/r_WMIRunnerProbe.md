@@ -30,7 +30,7 @@ The following parameters may be passed to the WMI Probe:
 |debug|Enables debug logging.|false|
 |wmi\_timeout|Timeout for the actual WMI probe, in seconds. Use this parameter to change the timeout interval for individual Windows probes. This value overrides the value in the windows\_probe\_timeout MID Server parameter, which sets a timeout for all probes launched by a specific MID Server. Windows - Installed Software probe is configured with a timeout value of 15 minutes.|300 \(seconds\)|
 |process\_timeout|Timeout for the process running the script, in seconds. This parameter is for internal use only and is not supported.|wmi\_timeout + 10 \(seconds\)|
-|credentials\_debug|Displays a &lt;credentials\_debug&gt; section in the ECC queue, which can help you troubleshoot credentials. If you set this property to true, credential troubleshooting information is output to the ECC queue, even if the credentials succeed. See [Credentials troubleshooting](https://www.servicenow.com/docs/access?context=r_CredentialTroubleshooting&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.|false|
+|credentials\_debug|Displays a &lt;credentials\_debug&gt; section in the ECC queue, which can help you troubleshoot credentials. If you set this property to true, credential troubleshooting information is output to the ECC queue, even if the credentials succeed. See Credentials troubleshooting for more information.|false|
 
 **Note:** The default timeout for WMI/Powershell is 5 minutes, except for the Windows Installed Software probe, which has a default timeout value of 15 minutes. Adding **wmi\_timeout** to a probe parameter can change the default timeout of a Windows probe.
 

@@ -25,7 +25,7 @@ Email notifications that are available by default:
 -   Email reminder for guest
 -   Email reminder for contact
 
-You can customize the existing notification or create a notification. For more information, see [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can customize the existing notification or create a notification. For more information, see Email and SMS notifications.
 
 ## Procedure
 

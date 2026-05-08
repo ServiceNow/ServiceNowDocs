@@ -26,7 +26,7 @@ The Non-Interactive Sessions plugin creates a distinction between interactive an
     -   Use their credentials for other API connections such as WSDL, JSON, XML, or XSD without restriction.
 -   **Non-interactive users**
 
-    Non-interactive users can only use their credentials to authorize API connections such as JSON, SOAP, and WSDL. They can’t log in to the ServiceNow UI. The strict security high security setting determines if non-interactive users are subject to [Contextual Security Manager](https://www.servicenow.com/docs/access?context=r_ContextualSecurity&version=australia&pubname=australia-platform-security&ft:locale=en-US) requirements.
+    Non-interactive users can only use their credentials to authorize API connections such as JSON, SOAP, and WSDL. They can’t log in to the ServiceNow UI. The strict security high security setting determines if non-interactive users are subject to Contextual Security Manager requirements.
 
 
 Distinguishing between interactive and non-interactive users increases instance security by helping to ensure that users abide by the principle of least privilege.
@@ -67,7 +67,7 @@ Non-interactive users can't log in to an instance or a service portal or connect
 
     **Note:**
 
-    The ServiceNow platform uses any user name and password credentials supplied with a request even if the [High Security Settings](https://www.servicenow.com/docs/access?context=c_HighSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US) don’t require authorization for a given API protocol. For example, if a SOAP request supplies a user name and password, the instance verifies those credentials even if SOAP requests don’t require authorization. To avoid verifying user credentials, the request must not include them.
+    The ServiceNow platform uses any user name and password credentials supplied with a request even if the High Security Settings don’t require authorization for a given API protocol. For example, if a SOAP request supplies a user name and password, the instance verifies those credentials even if SOAP requests don’t require authorization. To avoid verifying user credentials, the request must not include them.
 
 
 ## Make a non-interactive user record interactive

@@ -15,7 +15,7 @@ breadcrumb: [Configure, Case and Knowledge Management, HR Service Delivery, Empl
 
 Administer the Case and Knowledge Management application to improve HR efficiency and make it easier for employees to get the services they need.
 
-**Note:** To use guided setup to help configure HR Service Delivery on your instance, navigate to **HR Administration** &gt; **Guided Setup**. For further information on how to use the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** To use guided setup to help configure HR Service Delivery on your instance, navigate to **HR Administration** &gt; **Guided Setup**. For further information on how to use the guided setup interface, see Using guided setup.
 
 -   **[HR properties](../task/t_HRProperties.md)**  
 HR properties control the behavior of HR Service Delivery.

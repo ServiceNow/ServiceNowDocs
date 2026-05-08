@@ -22,7 +22,7 @@ Review the updated skill family name for Regulatory change management Now Assist
 
 Review the updated AI experience with three licensing tiers.
 
-See [Regulatory Change Management](https://www.servicenow.com/docs/access?context=reg-change-mgmt-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See Regulatory Change Management for more information.
 
 **Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 

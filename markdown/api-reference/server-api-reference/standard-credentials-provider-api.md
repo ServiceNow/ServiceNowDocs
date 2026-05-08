@@ -125,7 +125,7 @@ JSONArray jsonArray = provider.getCredentials(types, "admin");
 
 Returns the credential record object through its credential alias \(sys\_alias\).
 
-This method is specifically for use with credential types. For information, see [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+This method is specifically for use with credential types. For information, see Credential aliases for Discovery.
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -98,7 +98,7 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
 
 -   **Configure SNMP community credentials**
 
-    Configure SNMP community credentials to classify the NetApp server. For more information, see [SNMP community credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Configure SNMP community credentials to classify the NetApp server. For more information, see SNMP community credentials.
 
 -   **Enable __read-only__ access to the ONTAP API**
 
@@ -149,7 +149,7 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
         -   `vserver-get-iter`
 -   **Configure basic authentication credentials**
 
-    Configure basic authentication credentials for the read-only user. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Configure basic authentication credentials for the read-only user. For more information, see Basic authentication credentials.
 
 
 ## REST-based discovery prerequisites
@@ -187,7 +187,7 @@ The Cluster-Mode patterns support chassis and disk shelf chassis discovery throu
     -   `/api/svm/svms?fields=subtype,name`
 -   **Configure basic authentication credentials**
 
-    Configure basic authentication credentials for the read-only user. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Configure basic authentication credentials for the read-only user. For more information, see Basic authentication credentials.
 
 
 ## General prerequisites

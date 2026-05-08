@@ -25,7 +25,7 @@ You can achieve the following using the ATF Test Generator and Cloud Runner stor
 -   AI-powered test generation minimizes human error and improves the reliability of test results.
 -   Streamlined workflows and efficient test execution optimize your testing process.
 
-See [ATF Test Generator and Cloud Runner](https://www.servicenow.com/docs/access?context=atf-tg-cr-intro&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See ATF Test Generator and Cloud Runner for more information.
 
 **Parent Topic:**[Upgrade Console tools](../reference/um-tools.md)
 

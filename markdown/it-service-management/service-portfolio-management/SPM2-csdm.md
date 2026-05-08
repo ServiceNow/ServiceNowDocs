@@ -17,13 +17,13 @@ Service data relates to each other using different applications in different way
 
 Since both ServiceNow® products of Service Portfolio Management and Digital Portfolio Management \(DPM\) closely align with the CSDM, it's helpful to know the common terms and life-cycle fields when working in these applications.
 
-**Tip:** For CSDM set-up information, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Tip:** For CSDM set-up information, see Implementing the CSDM framework in stages.
 
 ## CSDM life-cycle fields for business and technical services
 
 After the CSDM activation plugin is installed \[**com.snc.cmdb.csdm.activation**\], you can use the CSDM life-cycle fields in Service Portfolio Management. To see the field names, navigate to **All** &gt; **Service Portfolio Management** &gt; **Services**, and set the view to Service Portfolio.
 
-Using the CSDM life-cycle fields helps you manage the end-to-end life cycle of services and service offerings. The shared field names provide you with consistency and alignment as you use other ServiceNow applications. For more information about the CSDM, see [Enabling life-cycle synchronization from legacy to asset](https://www.servicenow.com/docs/access?context=csdm-life-cycle-standard-values&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Using the CSDM life-cycle fields helps you manage the end-to-end life cycle of services and service offerings. The shared field names provide you with consistency and alignment as you use other ServiceNow applications. For more information about the CSDM, see Enabling life-cycle synchronization from legacy to asset.
 
 **Important:** For the Australia release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Australia release, the labels are Technical Service and Technical Service Offering.
 
@@ -244,5 +244,5 @@ Typically represents the various elements of how an organization operates. It us
 **Related topics**  
 
 
-[Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.csdm-implementation-stages]
 

@@ -17,8 +17,8 @@ Transfer data from an existing Platform REST message into a REST step.
 
 ## Before you begin
 
--   This import is done from within a REST step in Workflow Studio. To create a REST step, [Create an action](https://www.servicenow.com/docs/access?context=create-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and add a [REST step](../reference/rest-request-action-designer.md) to it.
--   The REST step uses Connection and Credential aliases for authentication details. If your REST message stores authentication details, create a Connection and Credential alias for them. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   This import is done from within a REST step in Workflow Studio. To create a REST step, Create an action and add a [REST step](../reference/rest-request-action-designer.md) to it.
+-   The REST step uses Connection and Credential aliases for authentication details. If your REST message stores authentication details, create a Connection and Credential alias for them. For more information, see Create a Connection and Credential alias.
 -   Role required: admin
 
 ## Procedure

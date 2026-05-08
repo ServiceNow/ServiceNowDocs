@@ -16,9 +16,9 @@ Activate and associate the invoice dispute intake assistant AI agent on the Busi
 
 ## Before you begin
 
-Activate and enable a chat assistant such as Now Assist in Virtual Agent to use in the Business Portal. For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Activate and enable a chat assistant such as Now Assist in Virtual Agent to use in the Business Portal. For more information, see Configuring assistants overview.
 
-AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://www.servicenow.com/docs/access?context=define-sec-controls-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an AI agent.
 
 Role required: sn\_aia.admin
 
@@ -60,9 +60,9 @@ The chat assistant is activated in the Business Portal.
 **Related topics**  
 
 
-[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-agent-studio]
 
-[Promote or demote LLM conversational subflows, actions, and topics in Assistant Designer](https://www.servicenow.com/docs/access?context=promote-demote-va-topics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.promote-demote-va-topics]
 
-[Assistant Designer Asset library](https://www.servicenow.com/docs/access?context=vad-topics-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.vad-topics-page]
 

@@ -33,7 +33,7 @@ ServiceNow provides pre-defined additional resource or search sources to the use
 
 2.  Open the search result display configuration record that you want to modify.
 
-    **Note:** Search result display configuration records with the Platform UI type do not affect search for Knowledge articles, Catalog Items, or pinned articles. You can configure settings for platform Knowledge article searches using [Knowledge search properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** Search result display configuration records with the Platform UI type do not affect search for Knowledge articles, Catalog Items, or pinned articles. You can configure settings for platform Knowledge article searches using Knowledge search properties.
 
 3.  In the form, edit the fields.
 

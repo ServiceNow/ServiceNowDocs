@@ -48,7 +48,7 @@ The base system provides a large set of default questions in all supported langu
 
     2.  Create a record in the **sys\_translated** table for the non-English language question.
 
-        Details appear at [Translated Name / Field table](https://www.servicenow.com/docs/access?context=r_TranslatedNameFieldTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Languages table](https://www.servicenow.com/docs/access?context=r_LanguagesTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        Details appear at Translated Name / Field table and Languages table.
 
         |Field|Description|
         |-----|-----------|

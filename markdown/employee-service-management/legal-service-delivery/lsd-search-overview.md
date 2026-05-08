@@ -54,13 +54,13 @@ Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search 
 </td><td>
 
 -   Legal Counsel Center - Enabled by default when AI Search and Legal Service Delivery - Prime are activated.
--   Global search - Enable it manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=enabling-now-assist-qa-grs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Global search - Enable it manually. For more information, see Enabling Now Assist Q&amp;A Genius Results.
 -   Employee Center - Enable it manually. For more information, see [Enable Now Assist genius results](../../employee-center/task/na-qa-activate.md)
 
 </td></tr></tbody>
 </table>For more information, see:
 
--   [Zing text indexing and search engine](https://www.servicenow.com/docs/access?context=c_ZingTextSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Zing text indexing and search engine
+-   AI Search
 -   [Now Assist for Legal Service Delivery \(LSD\)](now-assist-lsd-landing.md)
 

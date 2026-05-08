@@ -23,7 +23,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure users and groups](https://www.servicenow.com/docs/access?context=configure-csm-users-groups&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Configure users and groups
 
 </td><td>
 
@@ -47,7 +47,7 @@ The FSO application includes agent connector and contributor roles. To set the r
 
 </td></tr><tr><td>
 
-[Create multiple consumer profiles for a user](https://www.servicenow.com/docs/access?context=consumer-profiles-configuration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Create multiple consumer profiles for a user
 
 </td><td>
 
@@ -55,7 +55,7 @@ Individual consumers can have multiple profiles for different needs. You can cre
 
 </td></tr><tr><td>
 
-[Configure a unified user](https://www.servicenow.com/docs/access?context=configuring-unified-user&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Configure a unified user
 
 </td><td>
 
@@ -63,7 +63,7 @@ Enable users to maintain multiple profiles within the Customer Service Managemen
 
 </td></tr><tr><td>
 
-[Create customer relationships](https://www.servicenow.com/docs/access?context=c_CustomerServiceRelationships&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Create customer relationships
 
 </td><td>
 
@@ -73,7 +73,7 @@ Establish different types of relationships between partners, customers, and cont
 
 </td></tr><tr><td>
 
-[Create account teams](https://www.servicenow.com/docs/access?context=configure-csm-account-teams&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Create account teams
 
 </td><td>
 
@@ -81,7 +81,7 @@ Create teams made up of employees and customer contacts who fulfill the roles an
 
 </td></tr><tr><td>
 
-[Configure Contributor Users](https://www.servicenow.com/docs/access?context=config-contributor-user&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Configure Contributor Users
 
 </td><td>
 
@@ -89,7 +89,7 @@ Configure contributor users to engage middle office teams in resolving customer 
 
 </td></tr><tr><td>
 
-[Configuring customer access management](https://www.servicenow.com/docs/access?context=configuring-cam&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Configuring customer access management
 
 </td><td>
 

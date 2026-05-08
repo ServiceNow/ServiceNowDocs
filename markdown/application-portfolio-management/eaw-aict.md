@@ -99,9 +99,9 @@ An AI system is associated with a business application in one of two ways:
 
 -   A user submits the **Request an AI Use Case** catalog item in the service portal and selects one or more business applications in the **Business Applications** field. This is the recommended intake path because it creates the AI system record in AI Control Tower and establishes the business application association in a single step.
 
-    For information on how to create an AI use case, see [Request an AI use case](https://www.servicenow.com/docs/access?context=request-ai-system&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For information on how to create an AI use case, see Request an AI use case.
 
-    For information on the **Request an AI use case** form fields, see [Request an AI use case form](https://www.servicenow.com/docs/access?context=request-ai-system-form&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For information on the **Request an AI use case** form fields, see Request an AI use case form.
 
 -   A user with the APM user \(sn\_apm.apm\_user\) role manually adds an AI system from the **AI systems** tab on a business application record in the Enterprise Architecture Workspace. This is useful for associating AI systems that were not submitted through the service portal intake form. For information, see [Add an existing AI system to a business application](../../task/eaw-task/eaw-add-ai-system-to-ba.md).
 
@@ -124,7 +124,7 @@ To view the **AI systems** tab on a business application record, you must have t
 **Related topics**  
 
 
-[AI Control Tower Home](https://www.servicenow.com/docs/access?context=ai-control-tower-home-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-control-tower-home-page]
 
 [eaw-exploring-the-ai-portfolio.md](eaw-exploring-the-ai-portfolio.md)
 

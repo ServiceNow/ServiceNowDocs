@@ -19,7 +19,7 @@ The case digests feature uses a configuration for case action summaries and post
 
 ## Case digests workflows
 
-Starting with the Zurich release, legacy approval workflows for the Case Digests \(com.sn\_csm\_case\_digest\) application have been migrated to low code flows in [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US). The functionality of the flows remains the same.
+Starting with the Zurich release, legacy approval workflows for the Case Digests \(com.sn\_csm\_case\_digest\) application have been migrated to low code flows in Workflow Studio. The functionality of the flows remains the same.
 
 Post case reviews can include optional approval workflows that trigger an approval process. These workflows are selected as part of the case digest configuration.
 

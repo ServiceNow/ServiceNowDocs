@@ -84,5 +84,5 @@ To learn more about creating and using TPRM dashboards, see:
 -   [Delete a TPRM dashboard](../task/tprm-delete-db.md)
 -   [TPRM Dashboards page](../../grc-workspace-vrm/concept/tprm-ws-dd-dashboards.md)
 
-For more information on dashboards, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information on dashboards, see Dashboards in Platform Analytics.
 

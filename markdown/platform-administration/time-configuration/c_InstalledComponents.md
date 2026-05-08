@@ -25,7 +25,7 @@ The plugin relies on the new script include AJAXClientTiming. This script gather
 
 ## Dependencies
 
-This plugin does not require any other plugins, but does not gather information unless the [Response Time Indicator](https://www.servicenow.com/docs/access?context=c_ResponseTimeIndicator&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) [Response Time Indicator](https://www.servicenow.com/docs/access?context=c_ResponseTimeIndicator&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) is enabled.
+This plugin does not require any other plugins, but does not gather information unless the Response Time Indicator Response Time Indicator is enabled.
 
 ## Activating the Plugin
 

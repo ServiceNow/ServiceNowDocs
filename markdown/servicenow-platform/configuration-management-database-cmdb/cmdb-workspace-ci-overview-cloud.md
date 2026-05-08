@@ -65,7 +65,7 @@ The scheduled jobs associated with the charts are set up with several hard-coded
 
 A scheduled job that can't complete for 3 \(default\) consecutive days is automatically disabled for future runs. You can manage the disabling of scheduled jobs, in the following ways:
 
--   Modify the default number of consecutive days that are counted by adding the **sn\_cmdb\_ws.insight.category.disable\_after\_failure** system property to the System Properties \[sys\_properties\] table and then setting its value. For more details, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   Modify the default number of consecutive days that are counted by adding the **sn\_cmdb\_ws.insight.category.disable\_after\_failure** system property to the System Properties \[sys\_properties\] table and then setting its value. For more details, see Add a system property.
 -   [Resume a disabled scheduled job](../task/cmdb-workspace-resume-cloud-job.md).
 
 **Parent Topic:**[Home view in CMDB Workspace](cmdb-workspace-home-view.md)

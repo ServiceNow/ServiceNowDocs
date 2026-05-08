@@ -17,7 +17,7 @@ The PlaybookExperience API provides methods for handling playbook executions.
 
 This API requires the Playbook Experience Core plugin \(com.glide.playbook\_experience.config\) and is provided within the `sn_playbook` namespace.
 
-This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+This API requires at least one playbook in the Process Definition \[sys\_pd\_process\_definition\] table. To use this API, you must have the roles required to view and cancel a running process in Process Automation Designer. For more information, see Process Automation Designer.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -71,7 +71,7 @@ String
 
 </td><td>
 
-Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See [Playbook activity state mapping](https://www.servicenow.com/docs/access?context=playbook-activity-state-mapping&version=australia&pubname=australia-build-workflows&ft:locale=en-US).Default: Sys\_id of the Global Playbook Experience record.
+Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See Playbook activity state mapping.Default: Sys\_id of the Global Playbook Experience record.
 
 </td></tr><tr><td>
 
@@ -481,7 +481,7 @@ String
 
 </td><td>
 
-Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. See[Playbook activity state mapping](https://www.servicenow.com/docs/access?context=playbook-activity-state-mapping&version=australia&pubname=australia-build-workflows&ft:locale=en-US).Default: Sys\_id of the Global Playbook Experience record.
+Optional. Sys\_id of the playbook experience record in the Playbook Experience \[sys\_playbook\_experience\] table to use for the cancellation. Use this parameter if you've defined custom activity state mappings. SeePlaybook activity state mapping.Default: Sys\_id of the Global Playbook Experience record.
 
 </td></tr></tbody>
 </table><table id="table_vdh_zjr_ypb" class="returns"><thead><tr><th>
@@ -1170,7 +1170,7 @@ String
 
 </td><td>
 
-Optional. The sys\_id of the playbook experience that you want to use for the restarted run. Use this parameter if you have defined custom activity state mappings. See [Playbook activity state mapping](https://www.servicenow.com/docs/access?context=playbook-activity-state-mapping&version=australia&pubname=australia-build-workflows&ft:locale=en-US).Default: Global Playbook Experience
+Optional. The sys\_id of the playbook experience that you want to use for the restarted run. Use this parameter if you have defined custom activity state mappings. See Playbook activity state mapping.Default: Global Playbook Experience
 
 Table: Playbook Experience \[sys\_playbook\_experience\]
 

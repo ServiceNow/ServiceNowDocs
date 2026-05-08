@@ -22,7 +22,7 @@ Role required: web\_service\_admin and oauth\_admin
 Before starting this procedure, ensure:
 
 -   There is a REST Message record that you want to configure to use OAuth.
--   There is an OAuth provider set up in the OAuth application registry with the OAuth client information to use. For more information, see [OAuth 2.0](https://www.servicenow.com/docs/access?context=c_OAuthApplications&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   There is an OAuth provider set up in the OAuth application registry with the OAuth client information to use. For more information, see OAuth 2.0.
 -   The OAuth provider has an associated OAuth 2.0 profile.
 -   The REST message HTTP Methods are not configured to use a MID Server.
 

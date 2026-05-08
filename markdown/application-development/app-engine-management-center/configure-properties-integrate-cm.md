@@ -25,7 +25,7 @@ Role required: admin
 
 ### About this task
 
-There are several change models you can use to tailor change activities and flows for specific use cases. For more information about each type of model, see [Change models](https://www.servicenow.com/docs/access?context=change-models&version=australia&pubname=australia-it-service-management&ft:locale=en-US). Use the steps below to select which change model you would like to use during app deployments.
+There are several change models you can use to tailor change activities and flows for specific use cases. For more information about each type of model, see Change models. Use the steps below to select which change model you would like to use during app deployments.
 
 This task can be completed within the Guided Setup system. This task opens within Guided Setup when you select **Configure**. If you prefer, you can follow the instructions below to access the same configuration task outside of the Guided Setup.
 

@@ -27,7 +27,7 @@ The ServiceNow® Intelligence for Customer Service Management \(CSM\) applicatio
 -   Use AI to populate interaction wrap-up codes and notes, saving agents time.
 -   Simplify metadata management by granting developer roles and privileges to your granular admin users.
 
-See [Intelligence for CSM](https://www.servicenow.com/docs/access?context=intelligence-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information.
+See Intelligence for CSM for more information.
 
 **Important:** The following applications are available in ServiceNow Store:
 
@@ -40,16 +40,16 @@ For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Quality assurance management skill](https://www.servicenow.com/docs/access?context=quality-assurance-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Quality assurance management skill**
 
     Automatically evaluate agent activity on closed cases using AI models that score each interaction against a configurable quality rubric, eliminating manual sampling and ensuring consistent, objective assessments at scale.
 
--   **[Extended table support for email reply recommendation skill](https://www.servicenow.com/docs/access?context=configure-extended-table-support-for-the-email-reply-recommendation-skill&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Extended table support for email reply recommendation skill**
 
     Automatically receive email reply recommendations on extended table record pages in Now Assist for CSM, allowing agents to quickly respond to customers, provide intelligent recommendations and reducing manual effort.
 
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -58,55 +58,55 @@ For details, see the "Activation information" section of these release notes.
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[AI workflow tab added in Core UI](https://www.servicenow.com/docs/access?context=ai-workflow-pattern-in-customer-service-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **AI workflow tab added in Core UI**
 
     Availability of AI Workflow tab within case view of case table records and email interaction view of interaction records in Core UI, showing agentic workflows and actionable AI-driven insights directly in the record UI.
 
--   **[Filter controls in Now Assist Guardian](https://www.servicenow.com/docs/access?context=now-assist-guardian-csm-filters&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Filter controls in Now Assist Guardian**
 
     Availability of filter controls for CSM in the Now Assist Guardian interface, allowing users to toggle the base system filters on and off. Filtered results display in a user-friendly format for quick case review and action.
 
 
--   **[Guided Decisions - UI Layout tab for the Guided Decision with inputs/outputs activity](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Guided Decisions - UI Layout tab for the Guided Decision with inputs/outputs activity**
 
     Configure the display of knowledge articles directly from the UI Layout tab by setting a default article height and choosing whether articles appear collapsed by default in the playbook.
 
--   **[Guided Decisions - Restart option for the Guided Decision with inputs and outputs activity](https://www.servicenow.com/docs/access?context=add-gd-input-output-playbook&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Guided Decisions - Restart option for the Guided Decision with inputs and outputs activity**
 
     As an agent, you can restart a Guided Decision with inputs and outputs activity in a playbook by selecting the **Restart Activity** option when the activity is in a complete, skipped, or error state and the stage is still in progress.
 
--   **[Recommended Actions - Hybrid search in AI search](https://www.servicenow.com/docs/access?context=ra-hybrid-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Recommended Actions - Hybrid search in AI search**
 
     Recommended Actions in CSM Configurable Workspace now uses hybrid search, combining keyword and semantic matching to surface more relevant KB articles and guided actions in the AI search tab, even when agent queries do not match article content exactly.
 
--   **[Recommended Actions - View the relevancy score on the Case resolution guidance](https://www.servicenow.com/docs/access?context=nba-use-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Recommended Actions - View the relevancy score on the Case resolution guidance**
 
     View the relevancy score, which indicates how well a search result matches the agent's query, on the search result recommendation cards in the Search tab of the Recommended Actions panel for the Case resolution guidance.
 
--   **[Recommended Actions – Configure contextual filtering of AI search results](https://www.servicenow.com/docs/access?context=ra-configure-contextual-filtering&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Recommended Actions – Configure contextual filtering of AI search results**
 
     Enhance search accuracy by ensuring results are contextually relevant to the record being viewed by the agent. Search results are dynamically filtered based on contextual information passed through additional context parameters. To configure the contextual filtering of the Search results, enable the dynamic filter for a search source in a Search profile and then create the AisDynamicFilter implementation for the source which holds the filtering conditions.
 
--   **[Recommended Actions – Support for mandatory Contextual Inputs](https://www.servicenow.com/docs/access?context=ra-csm-create-context-inputs&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Recommended Actions – Support for mandatory Contextual Inputs**
 
     As an RA author, you can mark specific context inputs as mandatory by selecting the Mandatory check box in the Context Inputs form. When one or more context inputs are configured as mandatory, you must set the values for these contextual inputs directly on Recommended Actions component on the record page in the UI Builder for the recommendations to be generated.
 
--   **[Recommended Actions - Manage and conﬁgure metadata with delegated developer approach](https://www.servicenow.com/docs/access?context=ra-csm-installed-components&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Recommended Actions - Manage and conﬁgure metadata with delegated developer approach**
 
     Grant granular admin users delegated developer privileges and required roles to manage and configure metadata. This includes the Manage update set permission, domain\_picker role, and metadata\_scope\_viewer role for viewing and modifying the application scope of metadata records.
 
--   **[AI interaction wrap-up](https://www.servicenow.com/docs/access?context=interaction-wrapup-ai-generated&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **AI interaction wrap-up**
 
     Provides agents with AI assistance during the interaction wrap-up period. This feature generates wrap-up content for interaction records, such as the wrap-up code and notes.
 
--   **[Process mining - Pre‑configured templates for CSM Process Mining Projects](https://www.servicenow.com/docs/access?context=process-opt-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Process mining - Pre‑configured templates for CSM Process Mining Projects**
 
     Select pre‑configured templates from the Process Mining Content Pack for CSM to quickly set up customer service case projects with default settings already applied. These templates help accelerate project creation by providing standardized configurations tailored for common Customer Service Management scenarios.
 
 
 ## Activation information
 
-Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see Activate Customer Service Management.
 
 ## Plugin information
 
@@ -119,11 +119,11 @@ Customer Service Management is available with activation of the Customer Service
 
 ## Browser requirements
 
-ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in Browser support.
 
 ## Related ServiceNow applications and features
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Customer Service Management**
 
     Provide the service and support that your external customers need with Customer Service Management.
 
@@ -131,11 +131,11 @@ ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Micr
 
     Summarize customer chat conversations on interactions, summarize case details, and generate case resolution notes with the ServiceNow® Now Assist for CSM application.
 
--   **[Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Document Intelligence**
 
     Extract the data from documents and integrate the data into automation workflows to save time and resources by using the Document Intelligence AI solution.
 
--   **[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Predictive Intelligence**
 
     Improve processes across the platform, such as automatically populating fields when a case is created, categorizing and routing work, and suggesting case resolutions through Predictive Intelligence AI.
 

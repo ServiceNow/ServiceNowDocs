@@ -25,7 +25,7 @@ AI Search includes content specified in your published knowledge blocks when it 
 
 Administrators can override this default behavior and exclude your knowledge block content from the search index by setting the value of the **glide.ais.disable\_kbb** system property. If this system property's value is set to **true**, AI Search ignores knowledge block content when indexing content and metadata from your knowledge articles.
 
-To learn more about creating and publishing knowledge blocks for reference in your knowledge articles, see [Using knowledge blocks](https://www.servicenow.com/docs/access?context=using-knowlege-blocks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To learn more about creating and publishing knowledge blocks for reference in your knowledge articles, see Using knowledge blocks.
 
 ## Procedure
 

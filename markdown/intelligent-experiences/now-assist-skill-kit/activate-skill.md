@@ -25,7 +25,7 @@ Published custom skills appear in Now Assist Admin under the **Now Assist Skills
 
 A published skill appears on the **Available** tab with a **Not started** state badge until it is activated. After activation it moves to the **Active** tab.
 
-**Important:** Make sure you are in the correct application scope before you activate the skill. To learn more about application scopes, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Important:** Make sure you are in the correct application scope before you activate the skill. To learn more about application scopes, see Application scope.
 
 **Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them.
 

@@ -40,11 +40,11 @@ Any page can have redirect rules as the page is loading to take the user to a di
     -   [Configure per-user landing pages in Next Experience](../task/configure-per-user-ui16-landing-page-in-next-experience.md)
 -   **Responsive dashboards**
 
-    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://www.servicenow.com/docs/access?context=t_SetDashboardsAsHome&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see Set responsive dashboards as your home.
 
 -   **Homepages**
 
-    Homepages are a deprecated feature. Homepages from earlier releases are read-only from the Tokyo release. For information on converting homepages to Responsive dashboards, see [Homepage deprecation](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    Homepages are a deprecated feature. Homepages from earlier releases are read-only from the Tokyo release. For information on converting homepages to Responsive dashboards, see Homepage deprecation.
 
 
 ## How to choose a start page
@@ -53,5 +53,5 @@ The different options for start pages serve different purposes. For example, cho
 
 ## Upgrade considerations
 
-When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see [Homepage deprecation](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see Homepage deprecation.
 

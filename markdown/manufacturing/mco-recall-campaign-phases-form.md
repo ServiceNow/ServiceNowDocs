@@ -95,7 +95,7 @@ Dealer visibility
 
 Service organization criteria to whom this recall campaign phase are visible.For sub-phase, dealer visibility criteria will be copied from the parent phase, and it can be modified.
 
-**Note:** For Dealer visibility setup information, see [Create the criteria for a service organization](https://www.servicenow.com/docs/access?context=create-service-organization-criteria&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+**Note:** For Dealer visibility setup information, see Create the criteria for a service organization.
 
 </td></tr><tr><td>
 

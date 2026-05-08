@@ -80,5 +80,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[List of Australia plugins](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

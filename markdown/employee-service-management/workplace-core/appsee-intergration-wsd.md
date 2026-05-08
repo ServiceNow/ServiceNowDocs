@@ -21,11 +21,11 @@ The Usage Insights application provides you with data as to how an employee uses
 
 You can log the events and get the analysis by enabling the analytics-related setting either on the Workplace Service Portal level, on the workplace service level, and anywhere throughout Workplace Core.
 
-For more information about Usage Insights, refer to [Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information about Usage Insights, refer to Usage Insights.
 
 ## System properties
 
-ServiceNow®, by default, provides a set of properties with Usage Insights that are common to all application using which you can specify how you want to enable analytics. As an admin, you can enable or disable the analytics for specific portals, specific users, or at the instance level. For detailed information about the system properties related to Usage Insights, refer to [Usage Insights related properties](https://www.servicenow.com/docs/access?context=all-analytics-properties&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+ServiceNow®, by default, provides a set of properties with Usage Insights that are common to all application using which you can specify how you want to enable analytics. As an admin, you can enable or disable the analytics for specific portals, specific users, or at the instance level. For detailed information about the system properties related to Usage Insights, refer to Usage Insights related properties.
 
 ## Settings
 

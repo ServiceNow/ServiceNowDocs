@@ -40,7 +40,7 @@ Role required: admin or ais\_admin
     |**Dictionaries**|[Dictionary and AI Search Dictionary forms](../reference/dictionary-form-ais.md)|
     |**Genius Results**|[AI Search Genius Result Configuration form](../reference/genius-result-cfg-form-ais.md)|
     |**Search application configurations**|[Search Application Configuration form](../reference/search-app-config-form-ais.md)|
-    |**Result-card interfaces**|[Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
+    |**Result-card interfaces**|Create an EVAM definition|
 
 6.  Select **Save**.
 

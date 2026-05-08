@@ -41,15 +41,15 @@ You can also use the HTML editor when creating or editing a knowledge article us
     -   To limit the search to text that matches one or more complete words only, select the **Whole words** check box.
 6.  Find or replace the search term.
 
-<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d616403e170">
+<table id="choicetable_sht_yjb_xlb"><thead><tr><th align="left" id="d616396e170">
 
 To
 
-</th><th align="left" id="d616403e173">
+</th><th align="left" id="d616396e173">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d616403e179">
+</th></tr></thead><tbody><tr><td id="d616396e179">
 
 **Find instances of the search text**
 
@@ -57,7 +57,7 @@ Do this
 
 Click **Find**.
 
-</td></tr><tr><td id="d616403e191">
+</td></tr><tr><td id="d616396e191">
 
 **Replace individual instances of the found text with the replacement text entered in the __Replace with__ field**
 
@@ -65,7 +65,7 @@ Click **Find**.
 
 Click **Replace**.Use the **Prev** and **Next** buttons to navigate to the previous and next instance of the search term, respectively.
 
-</td></tr><tr><td id="d616403e215">
+</td></tr><tr><td id="d616396e215">
 
 **Replace all instances of the search text automatically in the selected field**
 

@@ -48,7 +48,7 @@ Orchestration - Active Directory \[com.snc.orchestration.ad\]
 
 </td><td>
 
-Installs the [Active Directory](https://www.servicenow.com/docs/access?context=c_OrchActiveDirectoryActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) activity pack. These activities create, delete, and manage objects in Windows Active Directory.
+Installs the Active Directory activity pack. These activities create, delete, and manage objects in Windows Active Directory.
 
 </td><td>
 

@@ -17,7 +17,7 @@ As an agent or contributor, you can view Customer Central on customer records in
 
 ## Activate Customer Central for FSO
 
-To use Customer Central in FSO applications, activate the Customer Central plugin. For more information, see [Activate Customer Central](https://www.servicenow.com/docs/access?context=activate-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To use Customer Central in FSO applications, activate the Customer Central plugin. For more information, see Activate Customer Central.
 
 Agents or contributors can view Customer Central on the interaction, case, account, contact, or consumer records in the FSO workspace on the **Customer Information** tab.
 
@@ -29,5 +29,5 @@ The **Customer Information** tab displays key information about the customer and
 
 ## Configure Customer Central
 
-For more information, see [Configure Customer Central](https://www.servicenow.com/docs/access?context=configure-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Configure Customer Central.
 

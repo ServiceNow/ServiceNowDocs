@@ -23,7 +23,7 @@ You associate helper methods to a primary method using dot nomenclature such as 
 
 `new sn_chg_score.ChangeSuccess().withRatings().withIndicatorScores().getTeamScoreForGroupId("287ebd7da9fe198100f92cc8d1d2154e");`
 
-There are also methods that enable you to obtain the current values of specific Change Management system properties, such as com.snc.change\_management.success\_score.minimum\_score, com.snc.change\_management.success\_score.maximum\_score, and com.snc.change\_management.success\_score.entry\_level\_score. For a description of their functionality, see [Change Management properties](https://www.servicenow.com/docs/access?context=r_ChangeManagementProperties&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+There are also methods that enable you to obtain the current values of specific Change Management system properties, such as com.snc.change\_management.success\_score.minimum\_score, com.snc.change\_management.success\_score.maximum\_score, and com.snc.change\_management.success\_score.entry\_level\_score. For a description of their functionality, see Change Management properties.
 
 This API runs in the `sn_chg_score` namespace and the Change Management - Change Success Score \(com.snc.change\_management.change\_success\_score\) plugin must be activated.
 

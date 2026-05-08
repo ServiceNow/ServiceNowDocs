@@ -114,7 +114,7 @@ change.refresh\_impacted.include\_affected\_cis
 
 </td><td>
 
-Lists the impacted CIs or Services with any service supported by a configuration item identified in the Affected CI related list. **Note:** This requires any business services identified to be converted to an application service. For instructions, see [Convert business services to application services](https://www.servicenow.com/docs/access?context=convert-bus-to-app-svc-intro&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). For information about application services, see [Application services](https://www.servicenow.com/docs/access?context=application-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Lists the impacted CIs or Services with any service supported by a configuration item identified in the Affected CI related list. **Note:** This requires any business services identified to be converted to an application service. For instructions, see Convert business services to application services. For information about application services, see Application services.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ com.snc.change\_management.enforce\_data\_requirements
 
 </td><td>
 
-Enforce change request process data requirements, so that any data modification on the change request has the same data restrictions. This includes, updates made through the change request form, Workflow, REST/SOAP, JavaScript, and GlideRecord updates. For more information, see [Change Management API](https://www.servicenow.com/docs/access?context=change-management-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Enforce change request process data requirements, so that any data modification on the change request has the same data restrictions. This includes, updates made through the change request form, Workflow, REST/SOAP, JavaScript, and GlideRecord updates. For more information, see Change Management API
 
  In the User Interface, when this property is true, it enables additional server sided restrictions to the UI Policy and Client Script controls that already exist.
 

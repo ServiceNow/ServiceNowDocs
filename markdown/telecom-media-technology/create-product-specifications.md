@@ -15,8 +15,8 @@ Create and publish a base version of a product specification. A product specific
 
 ## Before you begin
 
--   [Create the product characteristics and characteristic options for your product offerings](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=australia&pubname=australia-order-management&ft:locale=en-US)
--   [Create and associate specification categories with model categories](https://www.servicenow.com/docs/access?context=create-associate-specification-categories&version=australia&pubname=australia-order-management&ft:locale=en-US)
+-   Create the product characteristics and characteristic options for your product offerings
+-   Create and associate specification categories with model categories
 
 Role required: sn\_prd\_pm.product\_catalog\_manager
 
@@ -225,13 +225,13 @@ You can't change this field.
 
     |Tab|Description|
     |---|-----------|
-    |Catalog Hierarchy|[View the complete hierarchy of a product offering and any associated specifications](https://www.servicenow.com/docs/access?context=som-catalog-hierarchy&version=australia&pubname=australia-order-management&ft:locale=en-US). Use the **Show specification** toggle to view the hierarchy of specifications.|
-    |Specification Characteristics|[Associate the characteristics and characteristic options with your specification](https://www.servicenow.com/docs/access?context=create-specification-characteristic&version=australia&pubname=australia-order-management&ft:locale=en-US).|
+    |Catalog Hierarchy|View the complete hierarchy of a product offering and any associated specifications. Use the **Show specification** toggle to view the hierarchy of specifications.|
+    |Specification Characteristics|Associate the characteristics and characteristic options with your specification.|
     |Specification Relationships|[Create specification relationships, quantity mapping, and decomposition rules for Sales CRM for Telecommunications](create-specification-relationships-somt.md)|
-    |Product Offerings|Create a product offering from the specification. For details, see [Create product offerings](https://www.servicenow.com/docs/access?context=som-create-product-offering&version=australia&pubname=australia-order-management&ft:locale=en-US).|
-    |Attribute Mappings|[Defining mappings for attribute value propagation to domain orders](https://www.servicenow.com/docs/access?context=order-mgt-define-propagate-domain-order-attributes&version=australia&pubname=australia-order-management&ft:locale=en-US).|
-    |Versions|[Create another version of the specification](https://www.servicenow.com/docs/access?context=creating-publishing-new-versions-specifications&version=australia&pubname=australia-order-management&ft:locale=en-US).|
-    |Compatibility Rules|[Configure compatibility rules for horizontal relationships](https://www.servicenow.com/docs/access?context=order-mgt-compatibility-management&version=australia&pubname=australia-order-management&ft:locale=en-US) between the specifications of multiple products, services, or resources.|
+    |Product Offerings|Create a product offering from the specification. For details, see Create product offerings.|
+    |Attribute Mappings|Defining mappings for attribute value propagation to domain orders.|
+    |Versions|Create another version of the specification.|
+    |Compatibility Rules|Configure compatibility rules for horizontal relationships between the specifications of multiple products, services, or resources.|
 
 5.  When you are finished creating the specification version, do one of the following actions.
 

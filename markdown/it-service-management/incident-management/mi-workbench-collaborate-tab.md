@@ -33,7 +33,7 @@ To initiate a call directly to the group members, click **Start a call**.
 
 To start a call, populate the **sn\_major\_inc\_mgmt.notify\_webrtc\_number** property with a valid notify number that has voice capability. For user who is already in an active conference call, **Start a call** is disabled. You can mute or unmute all the participants using the **Mute All** and **Unmute All** options. If you activate the Notify - Twilio Direct Driver plugin \(com.snc.notify.twilio\_direct\), the active participants are highlighted in green.
 
-For information on how to send a Microsoft Teams notification from major incident workbench, see [Send a notification from Major incident management workbench](https://www.servicenow.com/docs/access?context=send-mim-notification&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For information on how to send a Microsoft Teams notification from major incident workbench, see Send a notification from Major incident management workbench.
 
 For information on process flow for slack communication, see [Process flow for Slack communication](../../itsm-tcm/concept/process-flow-slack.md).
 

@@ -102,7 +102,7 @@ References
 </td><td>
 
 -   [https://docs.aws.amazon.com/sns/latest/dg/welcome.html](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
--   [Access control](https://www.servicenow.com/docs/access?context=access-control&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   Access control
 
 </td></tr><tr><td>
 

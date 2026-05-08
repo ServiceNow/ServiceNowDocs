@@ -6,7 +6,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Use Now Assist in VA conversations with Slack, Conversational Integration with Slack, Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -17,7 +17,7 @@ Enable the large language model \(LLM\)-based conversational experience with Now
 
 ## Before you begin
 
-Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://www.servicenow.com/docs/access?context=enable-ais-next-exp-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see Enable AI Search for Next Experience.
 
 Role required: admin
 

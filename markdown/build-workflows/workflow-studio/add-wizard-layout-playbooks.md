@@ -22,7 +22,7 @@ Role required: admin, playbook.admin
 Before you configure a wizard layout, ensure that you:
 
 -   Have an existing playbook with the activities you want end users to complete. For more information, see [Create a playbook](create-process-definition.md).
--   Have access to UI Builder and can edit or create a UI Builder page to host the playbook that you created. For more information, see [Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Have access to UI Builder and can edit or create a UI Builder page to host the playbook that you created. For more information, see Create a page in UI Builder.
 
 ## Procedure
 

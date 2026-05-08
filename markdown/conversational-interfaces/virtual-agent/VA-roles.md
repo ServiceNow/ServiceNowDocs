@@ -15,7 +15,7 @@ breadcrumb: [Installed with Virtual Agent, Activate Virtual Agent, Activate and 
 
 Virtual Agent adds several roles for users operating as Virtual Agent administrators.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 ## Role description
 
@@ -48,7 +48,7 @@ Roles that are installed with Virtual Agent are listed below with the following 
 
 Simplify user administration by creating groups that contain all the roles necessary for specific personas rather than to individual users. You can then assign individual users to those groups. When users transition to new roles, you can then re-assign their group memberships, and avoid scenarios where users retain unexpected roles.
 
-For details on the administration of users, groups, and roles, see [User Administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For details on the administration of users, groups, and roles, see User Administration.
 
 ## Issue auto resolution administrator \[iar\_admin\]
 

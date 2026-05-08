@@ -19,7 +19,7 @@ The Personal Lines Claims dashboard enables you to monitor the status of the cla
 
 To access the Personal Lines Claims dashboard, navigate to **Workspaces** &gt; **Financial Services Workspace** &gt; **Analytics Center** \(![Analytics center icon.](../../../product/fso-personal-lines-claims/image/analytics-center-icon.png)\).
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
 
 ## Required ServiceNow AI Platform roles
 

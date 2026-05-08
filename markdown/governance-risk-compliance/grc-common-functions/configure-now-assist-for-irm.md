@@ -20,13 +20,13 @@ If you have the admin role, you can configure Now Assist for IRM so that your ag
 
 **Important:** After installing Now Assist for IRM, all Now Assist for IRM skills and agentic workflows are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for IRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
 
-For earlier versions, go to [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to upgrade it to a later version.
+For earlier versions, go to Application Manager to upgrade it to a later version.
 
-For information about configuring generative AI skills and prompts, see [Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about configuring generative AI skills and prompts, see Configuring Now Assist Admin features.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Now Assist for IRM plugins
 
@@ -36,7 +36,7 @@ This store app has the following dependencies:
 
 -   Now Assist Platform
 
-    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see [Now Assist Platform](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    Integrates generative AI into ServiceNow workflows, enabling intelligent assistance through summarization, content creation, conversational AI, and agentic workflows for IT, HR, and compliance processes. For more information, see Now Assist Platform.
 
 -   GRC Common Generative AI
 
@@ -55,7 +55,7 @@ This store app has the following dependencies:
     Provides actionable, AI-powered insights seamlessly within the user interface. The framework offers rich contextual details about recommendations to enable users to make informed decisions and take necessary follow-up actions effortlessly. Admin users can set up contexts for recommendations, and compliance users can review the recommendations for implementation. For more information, see [Recommendation contexts and templates](../../grc-rcm/concept/recommendation-contexts.md).
 
 
-For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about the installation process, see Install Now Assist plugins.
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [User data usage policy for Now Assist](https://www.servicenow.com/docs/access?context=user-data-usage-policy-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see Indexed sources in AI Search and User data usage policy for Now Assist.
 

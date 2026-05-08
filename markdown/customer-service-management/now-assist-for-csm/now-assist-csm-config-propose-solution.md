@@ -41,7 +41,7 @@ To use the generative AI functionality, you must deactivate the Propose Solution
 
     2.  Configure the list to show the Application column.
 
-        For more information on how to configure a list, see [Configure the list layout](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For more information on how to configure a list, see Configure the list layout.
 
     3.  Filter the list to display **Propose Solution** in the **Name** field.
 

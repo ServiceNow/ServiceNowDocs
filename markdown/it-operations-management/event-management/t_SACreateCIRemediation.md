@@ -29,7 +29,7 @@ Then submit the workflow definition, and add the following conditions to the wor
     **\[Workflow\]\[is\]\[CI remediation\]**
 
 
-After you finish configuring the workflow, make sure that you publish it. For more details, see [Create a workflow](https://www.servicenow.com/docs/access?context=t_CreateAWorkflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+After you finish configuring the workflow, make sure that you publish it. For more details, see Create a workflow.
 
 Role required: evt\_mgmt\_admin
 

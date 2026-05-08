@@ -41,7 +41,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 6.  Choose the number of days or a date range to search for data.
 
-<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d442819e134">
+<table id="choicetable_cgw_qxn_qz"><tbody><tr><td id="d442815e134">
 
 **Last**
 
@@ -49,7 +49,7 @@ The Sightings Search capability has a flow, [Security Operations Integration - S
 
 The number of hours or days prior to the creation of the incident to search. The default is 7 days. The limit is 99 hours or days.
 
-</td></tr><tr><td id="d442819e146">
+</td></tr><tr><td id="d442815e146">
 
 **between**
 

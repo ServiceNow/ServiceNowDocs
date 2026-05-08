@@ -23,8 +23,8 @@ Here is the flow-diagram of the chat to call functionality:
 
 To enable the Chat to Call functionality you must install the Workspace Agent chat, Notify, and the Notify connector for Microsoft Teams plugins in your instance. You must also install ServiceNow for Teams installed with Virtual Agent or Virtual Agent Lite. For more information, refer the following topics:
 
--   [Set up Agent Chat](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Activate Notify](https://www.servicenow.com/docs/access?context=t_ActivateNotify&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Set up Agent Chat
+-   Activate Notify
 -   [Notify connector for Microsoft Teams](../../notify2/concept/notify-connector-ms-teams.md)
 
 For more information on the workflow for chat to call flow, refer [Promote chat to a call from workspace](../task/initiate-call-from-chat.md).

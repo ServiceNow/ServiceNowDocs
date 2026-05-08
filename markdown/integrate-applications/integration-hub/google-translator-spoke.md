@@ -34,7 +34,7 @@ Google Translate API version v3.
 
 ## Scope of the spoke in the Dynamic Translation framework
 
-To use Google Cloud Translator Service spoke in the Dynamic Translation framework, ensure that the spoke is installed in ServiceNow Store and the Dynamic Translation plugin is active. For more information, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To use Google Cloud Translator Service spoke in the Dynamic Translation framework, ensure that the spoke is installed in ServiceNow Store and the Dynamic Translation plugin is active. For more information, see Dynamic Translation.
 
 ## Spoke flows
 

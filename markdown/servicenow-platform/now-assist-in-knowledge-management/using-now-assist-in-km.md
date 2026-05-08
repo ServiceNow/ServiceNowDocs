@@ -19,10 +19,10 @@ Now Assist in Knowledge Management enhances the agent experience by using artifi
 
 You can generate knowledge articles in Now Assist for Customer Service Management \(CSM\), Now Assist for IT Service Management \(ITSM\), Now Assist for HR Service Delivery \(HRSD\), and Now Assist for Field Service Management \(FSM\). For more information, review the following.
 
--   [Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist](https://www.servicenow.com/docs/access?context=Now-Assist-generate-article-csm-workspace&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
--   [Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist](https://www.servicenow.com/docs/access?context=Now-Assist-generate-article-SOW-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
--   [Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD](https://www.servicenow.com/docs/access?context=gen-kb-now-assisthr&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
--   [Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist](https://www.servicenow.com/docs/access?context=na-fsm-generate-kb-article&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+-   Generate a knowledge article from the CSM Configurable Workspace and classic environment with Now Assist.
+-   Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist.
+-   Generate a knowledge article from HR Agent Workspace with Now Assist for HRSD.
+-   Generate a knowledge article from the CSM/FSM Configurable Workspace and classic environment with Now Assist
 -   To generate knowledge articles based on cases or incidents from the Now Assist panel, see [Generate a Knowledge article from the Now Assist panel](../task/Now-Assist-generate-article-NApanel.md).
 -   [Generate a Knowledge article from the classic environment with Now Assist](../task/Now-Assist-generate-article-coreui.md#).
 

@@ -35,7 +35,7 @@ Role required: sn\_map\_core.map\_admin
 
 6.  Attach CAD or PNG files to the record.
 
-    For more information about attaching files to a record, see [Manage attachments](https://www.servicenow.com/docs/access?context=t_ManagingAttachments&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about attaching files to a record, see Manage attachments.
 
 7.  Select **Start Import**.
 

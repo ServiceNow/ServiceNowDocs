@@ -50,13 +50,13 @@ Create condition templates before defining condition attributes on enterprise mo
 
 6.  Select **Enable scoring**
 
-    You must enable scoring to make results available for the condition attributes. For more details on scoring, see [Create Smart Assessment templates for BIA](https://www.servicenow.com/docs/access?context=conf-impact-asmt-template&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    You must enable scoring to make results available for the condition attributes. For more details on scoring, see Create Smart Assessment templates for BIA.
 
 7.  After entering the details in the **Scoring** tab, select **Save**.
 
 8.  Select the **Questions** tab to create sections and questions.
 
-    You can create sections and questions in this tab and enable scoring for any specific section and for individual questions. For more details on creating questions, sections, and scoring, see [Create Smart Assessment templates for BIA](https://www.servicenow.com/docs/access?context=conf-impact-asmt-template&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    You can create sections and questions in this tab and enable scoring for any specific section and for individual questions. For more details on creating questions, sections, and scoring, see Create Smart Assessment templates for BIA.
 
 9.  After entering all the details in the **Questions** tab, select **Save**.
 

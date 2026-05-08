@@ -50,7 +50,7 @@ Ensure that you are registered with XTM TMS and obtain the credential informatio
 
 ## Connection and Credential alias requirements
 
-The IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials Information](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see Connections and Credentials Information.
 
 To use the spoke connection aliases, use an associated connection record and a credential record created with the XTM TMS spoke installation.
 

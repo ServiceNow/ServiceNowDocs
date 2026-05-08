@@ -17,7 +17,7 @@ Set up a third-party discovery source for Software Asset Management to populate 
 
 ## Before you begin
 
-To use the features of the Software Asset Management application with any third-party discovery source, you must populate the CMDB application and the related tables that reside on the ServiceNow instance. The Software Asset Management application uses the IRE API to help you populate the Software asset management tables. As the IRE API relies on the configuration item \(CI\) identifiers, the SAM tables require a relationship to the CI for IRE support. For more information on the IRE API, see [Identification and Reconciliation Engine](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To use the features of the Software Asset Management application with any third-party discovery source, you must populate the CMDB application and the related tables that reside on the ServiceNow instance. The Software Asset Management application uses the IRE API to help you populate the Software asset management tables. As the IRE API relies on the configuration item \(CI\) identifiers, the SAM tables require a relationship to the CI for IRE support. For more information on the IRE API, see Identification and Reconciliation Engine.
 
 Role required: sam\_developer
 

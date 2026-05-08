@@ -25,11 +25,11 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to [Create a theme with Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+1.  Navigate to Create a theme with Theme Builder.
 
     Follow the instructions to create your theme.
 
-2.  Navigate to [Publish your themes with Theme Builder](https://www.servicenow.com/docs/access?context=tb-apply-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+2.  Navigate to Publish your themes with Theme Builder.
 
     Follow the instructions to publish your theme.
 

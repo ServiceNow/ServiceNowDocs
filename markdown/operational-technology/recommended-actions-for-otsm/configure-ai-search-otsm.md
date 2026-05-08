@@ -21,11 +21,11 @@ Role required: admin
 
 ## About this task
 
-For Operational Technology Service Management users, you must define the OT incident \[sn\_ot\_incident\] table as an indexed source in order to use AI Search for OT incident records. For more information about indexing, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For Operational Technology Service Management users, you must define the OT incident \[sn\_ot\_incident\] table as an indexed source in order to use AI Search for OT incident records. For more information about indexing, see Indexed sources in AI Search.
 
 **Note:** Knowledge \[kb\_knowledge\] is also used as an indexed source for Recommended Actions for OTSM, but Knowledge is already indexed.
 
-To define indexed sources, you can use the Guided Setup for AI Search. The following procedure describes how to access the **Define indexed sources** task. For more information about the Guided Setup for AI Search, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To define indexed sources, you can use the Guided Setup for AI Search. The following procedure describes how to access the **Define indexed sources** task. For more information about the Guided Setup for AI Search, see Configuring AI Search.
 
 ## Procedure
 

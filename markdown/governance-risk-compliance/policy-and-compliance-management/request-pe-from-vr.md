@@ -44,7 +44,7 @@ The following diagram illustrates the steps performed by the compliance manager 
     3.  \(optionally\) [Defines policy categories](../task/define-policy-categories.md) for filtering policies
     4.  \(optionally\) [Creates one or more questionnaires](../task/create-except-quest.md) to be sent to the requester to gather additional information about the policy exception request.
 2.  The compliance manager also defines optional [verification rules](../task/define-verification-rules.md) and [approval rules](../task/define-approval-rules.md) to automate the process of getting approvals for the policy exception.
-3.  In Vulnerability Response, the remediation owner [Request an exception using GRC: Policy and Compliance Management](https://www.servicenow.com/docs/access?context=integration-with-grc&version=australia&pubname=australia-security-management&ft:locale=en-US) .
+3.  In Vulnerability Response, the remediation owner Request an exception using GRC: Policy and Compliance Management .
 4.  If a verification rule was defined for the application, the designated approvers are notified that their approval is required. If any fields in the policy exception request were not filled in by the requester \(for example, the Policy or Control Objective\), those fields become mandatory for the approvers. When the approvers have reviewed, completed, and approved the request, it transitions to the Analyze state and is assigned to the compliance manager for further analysis and approval.
 5.  In Policy and Compliance Management, the compliance manager receives the approved request, and assigns a risk rating to the policy exception request on the **Risk assessment** tab.
 

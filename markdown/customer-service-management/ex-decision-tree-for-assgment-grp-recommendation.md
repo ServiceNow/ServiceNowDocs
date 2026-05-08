@@ -22,7 +22,7 @@ This decision table requires two inputs:
 
 For the result, create the Assignment group column with Result type selected as Reference and Result table selected as Group \[sys\_user\_group\].
 
-Configure the decision table conditions, results, and values as displayed in the following table. For more information, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Configure the decision table conditions, results, and values as displayed in the following table. For more information, see Decision Tables.
 
 |Condition columns|Result column|
 |Product|Problem|Assignment group|

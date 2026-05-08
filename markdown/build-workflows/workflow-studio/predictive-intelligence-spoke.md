@@ -17,7 +17,7 @@ With Predictive Intelligence for Flow Designer \(com.snc.ml\_flowdesigner\), you
 
 ## Predictive Intelligence activation
 
-This spoke requires Predictive Intelligence \(com.glide.platform\_ml\). For more information, see [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+This spoke requires Predictive Intelligence \(com.glide.platform\_ml\). For more information, see Install Predictive Intelligence.
 
 ## Key features
 
@@ -115,5 +115,5 @@ Predictive Intelligence for Flow Designer provides these user roles to control a
 **Related topics**  
 
 
-[Use Predictive Intelligence in Flow Designer with ML actions](https://www.servicenow.com/docs/access?context=use-predictive-intelligence-flow-designer-ml-actions&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.use-predictive-intelligence-flow-designer-ml-actions]
 

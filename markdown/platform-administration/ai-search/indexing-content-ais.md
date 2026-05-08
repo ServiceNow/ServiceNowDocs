@@ -28,7 +28,7 @@ To index additional fields from referenced tables, you can configure **dot\_walk
 
 You can create both **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings for the same reference field.
 
-For instructions on configuring **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](../task/enable-ref-table-field-index-ais.md). For more information on field settings, see [Field settings for AI Search](field-settings-ais.md). To learn about search source filters, see [Search sources in AI Search](search-sources-ais.md). For details on facet filters, see [Create a facet in an AI Search application configuration](../task/create-facet-ais.md). To understand EVAM configurations, see [Entity View Action Mapping](https://www.servicenow.com/docs/access?context=exploring-entity-view-action-mapper&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For instructions on configuring **dot\_walk\_fields** and **searchable\_dot\_walk\_fields** field settings, see [Enable indexing of referenced table fields for an AI Search indexed source](../task/enable-ref-table-field-index-ais.md). For more information on field settings, see [Field settings for AI Search](field-settings-ais.md). To learn about search source filters, see [Search sources in AI Search](search-sources-ais.md). For details on facet filters, see [Create a facet in an AI Search application configuration](../task/create-facet-ais.md). To understand EVAM configurations, see Entity View Action Mapping.
 
 ## Indexing content from source record attachments
 

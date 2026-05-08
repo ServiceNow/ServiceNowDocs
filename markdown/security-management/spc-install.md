@@ -67,9 +67,9 @@ Role required: admin for download, installation, and activation of all applicati
 
     For more information about downloading and installing applications from the ServiceNow Store:
 
-    -   To Opt in to ServiceNow products, follow the steps in [Opt in to the ServiceNow Store products](https://www.servicenow.com/docs/access?context=optin-optout-prod&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in [Manage entitlements from your ServiceNow instance](https://www.servicenow.com/docs/access?context=entite-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   To Opt in to ServiceNow products, follow the steps in Opt in to the ServiceNow Store products.
+    -   To install an application that you have purchased from the ServiceNow Store, follow the steps in Install a ServiceNow Store application.
+    -   Alternatively, if you want to manage your entitlement for the applications on other ServiceNow AI Platform instances, follow the steps in Manage entitlements from your ServiceNow instance.
 4.  After you have installed and activated the applications, assign users to the following Security Posture Control groups:
 
     These groups inherit all the roles necessary to read and edit SPC records.
@@ -103,6 +103,6 @@ Role required: admin for download, installation, and activation of all applicati
 
 7.  Modify reconcilation and recompute CMDB data sources to set the source of truth for attribute values.
 
-    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See [CMDB 360 view in CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb-workspace-cmdb360-view&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See CMDB 360 view in CMDB Workspace for more information.
 
 

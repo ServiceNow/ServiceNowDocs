@@ -30,11 +30,11 @@ Verify you’ve installed the following Integration Hub plugins on your ServiceN
 -   Notify Zoom \(sn\_notify\_zoom\)
 -   Notify UI Components for Configurable Workspaces
 
-For more information, see [Request IntegrationHub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information, see Request IntegrationHub.
 
 ## Configuration
 
-To configure the MSIM Conference Call Zoom integration using the Notify communication channel, see [Configure Notify Zoom connector in Notify](https://www.servicenow.com/docs/access?context=configure-notify-zoom-connector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To configure the MSIM Conference Call Zoom integration using the Notify communication channel, see Configure Notify Zoom connector in Notify.
 
 -   **[Use the MSIM Conference Call Zoom integration](../task/using-conf-call-zoom-integration.md)**  
 The following steps give you a walkthrough of how you can manage and initiate a Zoom conference call directly from a major security incident.

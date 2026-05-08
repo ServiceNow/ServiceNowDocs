@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Under Agentic workflows, select **Conversational intake for sourcing and procurement**.
 
-    If you want to modify this agentic workflow, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow.
+    If you want to modify this agentic workflow, you can duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow.
 
 3.  On the Describe and connect page, select **Continue**.
 

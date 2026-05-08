@@ -39,5 +39,5 @@ There are two mobile applications with the primary difference being the personas
 **Related topics**  
 
 
-[Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.user-exp-analytics-landing]
 

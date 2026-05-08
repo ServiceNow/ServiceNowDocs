@@ -15,7 +15,7 @@ breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Enable
 
 Predictive Intelligence is installed with these roles.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 **Parent Topic:**[Predictive Intelligence references](reference-predictive-intelligence.md)
 

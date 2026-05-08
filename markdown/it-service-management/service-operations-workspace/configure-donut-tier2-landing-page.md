@@ -33,7 +33,7 @@ You can customize header label, data source, metric, group by field, and viewAll
 
 4.  If the PAR dashboard is active on the landing page, do the following:
 
-    1.  [Configure the tier 2 dashboard configuration](https://www.servicenow.com/docs/access?context=edit-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    1.  Configure the tier 2 dashboard configuration.
 
         **Note:** If you’re creating a dashboard, you can use the saved visualizations to create a card for the dashboard. The data visualization is visible only to the users based on the respective roles.
 

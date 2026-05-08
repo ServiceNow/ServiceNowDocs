@@ -24,7 +24,7 @@ Australia Patch 0
 -   Streamlined Advanced Shipment \(ASN\) import process with support for users with specific functional roles.
 -   Save time and effort by copying a model from the Content lookup portal to create a record in your ServiceNow instance.
 
-See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=ham-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See Hardware Asset Management for more information.
 
 **Important:** Hardware Asset Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -40,11 +40,11 @@ See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=h
     -   contract\_system\_admin: Provides access to contract module, tables, and tasks.
     -   asset\_licensing\_admin: Provides access to the ITAM licensing module.
     -   asset\_recommendation\_admin: Provides access to recommendation actions.
--   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see Configuring read-only security options.
 
 ## New in the Australia release
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -53,16 +53,16 @@ See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=h
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Manage your assets with comprehensive and real-time data](https://www.servicenow.com/docs/access?context=generate-asset-analysis-now-assist-ham&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Manage your assets with comprehensive and real-time data**
 
     View consolidated asset information through AI-generated analysis summary on the asset record. The AI-generated summary dynamically updates based on the asset state and includes context from any active incidents or tasks. The summary displays the asset life cycle, current assignment and location, audit status, financial metrics, and identifies missing data to support asset management activities.
 
 
--   **[Gain visibility into approximated life cycle dates for hardware and consumable model](https://www.servicenow.com/docs/access?context=approximated-lifecycles-hardware-products&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Gain visibility into approximated life cycle dates for hardware and consumable model**
 
     Enhance the operational efficiency by gaining visibility into the estimated and approximate life- cycle dates for models when manufacturers haven’t explicitly published key dates, such as End of Life \(EoL\) and End of Service \(EoS\). This insight enables you to manage your asset portfolio strategically, reducing unexpected downtime and improve budgeting.
 
--   **[Enhanced and unified hardware asset inventory auditing experience](https://www.servicenow.com/docs/access?context=ham-inventory-audit&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Enhanced and unified hardware asset inventory auditing experience**
 
     Streamline and improve your inventory auditing experience with the enhanced and unified hardware asset inventory process:
 
@@ -71,22 +71,22 @@ See [Hardware Asset Management](https://www.servicenow.com/docs/access?context=h
     -   The ServiceNow Agent app features selectable audit results, enabling you to view a real-time list of all scanned assets.
     -   When new assets are identified during the single scan audit, essential information is collected in real time through the ServiceNow Agent app to initiate asset creation.
     -   Scanned asset locations are automatically updated to reflect their precise aisle, space, or sub location during the audit, supporting the accuracy and quality of inventory records.
--   **[Enhanced asset disposal workflow to streamline the management of retired assets](https://www.servicenow.com/docs/access?context=create-resale-order&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Enhanced asset disposal workflow to streamline the management of retired assets**
 
     Resell the retired assets that are no longer in use to reduce waste and receive credit. The extended asset disposal flow in the Documentation stage enables you to resell planned assets instead of disposing of them, enabling you to receive credit.
 
--   **[Enable your key functional roles or personas to directly manage Advanced Shipment Notification \(ASN\) imports](https://www.servicenow.com/docs/access?context=advanced-shipment-notification&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Enable your key functional roles or personas to directly manage Advanced Shipment Notification \(ASN\) imports**
 
     Upload ASN files and trigger the import process from the Procurement view within the Hardware Asset Workspace without requiring admin privileges. Users with the ham\_admin, ham\_user, procurement\_admin, or asset role can now initiate the ASN workflow themselves, creating asset records seamlessly.
 
--   **[Streamline model creation by copying a model directly from the Content lookup portal](https://www.servicenow.com/docs/access?context=copy-hardware-model&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Streamline model creation by copying a model directly from the Content lookup portal**
 
     Reduce manual effort by copying a model from the Content lookup portal to create a record in the Product Model \[cmdb\_model\] table. The copied model is automatically normalized, where applicable, and relevant fields are pre-populated with information from the content record.
 
 
 ## UI changes
 
--   **[Unified audit record storage](https://www.servicenow.com/docs/access?context=ham-inventory-audit&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Unified audit record storage**
 
     Starting with Hardware Asset Management version 15.0.0, the audit inventory has been enhanced to store audit records in the common Asset Audits \[sn\_itam\_common\_asset\_audit\] table. If you have enabled the audit enhancements and switched to the common Asset Audits \[sn\_itam\_common\_asset\_audit\] table, the following user interface changes have been made:
 
@@ -103,19 +103,19 @@ Install Hardware Asset Management by requesting it from the ServiceNow Store. Vi
 
 ## Related ServiceNow applications and features
 
--   **[Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Software Asset Management**
 
     The ServiceNow® Software Asset Management application enables you to track, evaluate, and manage the software licenses, software compliance, and software optimization. You can reclaim unused software rights, purchase new software rights, and manage allocations for entitlements.
 
--   **[Enterprise Asset Management](https://www.servicenow.com/docs/access?context=enterprise-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Enterprise Asset Management**
 
     The ServiceNow® Enterprise Asset Management application enables you to manage the entire life cycle of your connected and non-connected enterprise assets. It provides a comprehensive end-to-end solution for maintaining enterprise assets, minimizing costly downtime, and maximizing enterprise asset usability.
 
--   **[Contract Management](https://www.servicenow.com/docs/access?context=c_ContractManagement&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Contract Management**
 
     The ServiceNow® Contract Management application enables you to track and manage your contracts.
 
--   **[Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Procurement**
 
     The ServiceNow® Procurement application enables you to create purchase orders and obtain items for fulfilling service catalog requests.
 

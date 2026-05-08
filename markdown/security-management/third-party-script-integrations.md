@@ -19,11 +19,11 @@ The API is solely used to add data that was gathered outside of our system. For 
 
 ## Authentication
 
-All operations within the API definitions use platform authentication provided by the [Scripted REST APIs](https://www.servicenow.com/docs/access?context=c_CustomWebServices&version=australia&pubname=australia-api-reference&ft:locale=en-US) operation feature. To access, navigate to **System Web Services** &gt; **Scripted Web Services** &gt; **Scripted REST APIs** and locate the **SecOps Integration Capabilities** API.
+All operations within the API definitions use platform authentication provided by the Scripted REST APIs operation feature. To access, navigate to **System Web Services** &gt; **Scripted Web Services** &gt; **Scripted REST APIs** and locate the **SecOps Integration Capabilities** API.
 
 ![Scripted REST Service](../../../common/image/Scripted_REST_Service.png "Scripted REST Service")
 
-The user and the user’s domain are readily available within the context of the API. Records can be tied to a user, an audit path to be established, and domain separation accomplished. Also, since you are authenticated as a specific user, you can use [Using GlideRecordSecure](https://www.servicenow.com/docs/access?context=p_GlideServerAPIs&version=australia&pubname=australia-api-reference&section=c_UsingGlideRecordSecure&ft:locale=en-US) to prevent any unauthorized access to data.
+The user and the user’s domain are readily available within the context of the API. Records can be tied to a user, an audit path to be established, and domain separation accomplished. Also, since you are authenticated as a specific user, you can use Using GlideRecordSecure to prevent any unauthorized access to data.
 
 ## Authorization
 

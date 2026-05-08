@@ -19,7 +19,7 @@ Organize and guide project teams with Playbooks to maintain consistency, streaml
 
 A Playbook provides a guided framework that helps you follow a process step by step. It shows what to do, when to do it, and where to find the tools or information required to complete each task.
 
-Playbooks provide a structured way to manage work by guiding teams through predefined steps. You can apply a playbook to processes such as managing a project, resolving an issue, launching a product, onboarding new employees, or define key steps of a process. For more information on playbooks, see [Workflow studio playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Playbooks provide a structured way to manage work by guiding teams through predefined steps. You can apply a playbook to processes such as managing a project, resolving an issue, launching a product, onboarding new employees, or define key steps of a process. For more information on playbooks, see Workflow studio playbooks.
 
 ## Playbook benefits
 
@@ -45,7 +45,7 @@ In a Stage-gate playbook, the stages and tasks must be completed in a linear ord
 **Related topics**  
 
 
-[Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
 [Playbooks configuration](configure-playbooks-pw.md)
 

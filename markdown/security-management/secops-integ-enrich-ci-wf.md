@@ -26,7 +26,7 @@ This flow is triggered from Security Incident Response in two ways.
 
 Either method then allows you to specify which implementations to be used to enrich the selected CIs. The associated implementation flows are executed to perform the enrichment.
 
-**Note:** The base system does not include an implementation flow for this capability. To enrich CIs, you must create your own implementation [flow](https://www.servicenow.com/docs/access?context=c_WorkflowOverview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Note:** The base system does not include an implementation flow for this capability. To enrich CIs, you must create your own implementation flow.
 
 ![Security Operations Integration - CI Enrichment flow](../image/enrich-ci-flow.png "CI Enrichment")
 

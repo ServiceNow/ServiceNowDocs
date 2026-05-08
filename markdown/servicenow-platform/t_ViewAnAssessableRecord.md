@@ -41,7 +41,7 @@ Name
 
 </td><td>
 
-\[Read-Only\] Assessable record name based on the [Select a field as the table display value](https://www.servicenow.com/docs/access?context=t_SelectTheDisplayValue&version=australia&pubname=australia-platform-administration&ft:locale=en-US) of the source record. The name appears on assessment questionnaires.
+\[Read-Only\] Assessable record name based on the Select a field as the table display value of the source record. The name appears on assessment questionnaires.
 
 </td></tr><tr><td>
 

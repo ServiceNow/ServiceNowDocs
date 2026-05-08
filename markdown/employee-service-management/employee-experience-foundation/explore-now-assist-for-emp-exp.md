@@ -75,10 +75,10 @@ For more information about the AI agent, see [Company News &amp; Events AI Agent
 
 For more information about an agentic workflow and activating the required components, see the following topics:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   Duplicate an agentic workflow
+-   Activate an agentic workflow template
+-   Modify an AI agent
+-   Implement access control in Now Assist AI agents
 
 -   **[Supporting information for Now Assist for Employee Experience](supporting-info-for-now-assist-for-emp-expe.md)**  
 Get a quick overview of the key information related to the Now Assist for Employee Experience.
@@ -88,9 +88,9 @@ Get a quick overview of the key information related to the Now Assist for Employ
 **Related topics**  
 
 
-[Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.configuring-na-landing]
 
-[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.configuring-now-assist]
 
 [bundle-platai.now-assist-case-summary]
 

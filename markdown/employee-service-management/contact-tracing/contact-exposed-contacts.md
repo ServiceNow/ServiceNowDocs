@@ -23,7 +23,7 @@ Role required: sn\_imt\_tracing.contact\_tracer
 
 The case manager defines instructions for contact tracers to use when following up with potentially exposed users, such as the follow-up frequency. Contact tracers should follow these instructions to work on the assigned tasks.
 
-The Exposure Case Task Survey is available for contact tracers to use to assess the health status of the exposed contact. The administrator can review and modify the survey. For more information, see [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesignerElements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The Exposure Case Task Survey is available for contact tracers to use to assess the health status of the exposed contact. The administrator can review and modify the survey. For more information, see Survey designer.
 
 ## Procedure
 

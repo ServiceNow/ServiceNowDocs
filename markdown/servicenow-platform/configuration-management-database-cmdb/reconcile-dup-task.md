@@ -128,7 +128,7 @@ As you progress through the tabs of the Duplicate CI Remediator, CIs aren't upda
 
     -   **Delete**: Delete all duplicate CIs \(only the main CI remains\).
 
-        **Note:** Review [Roll back and delete recovery](https://www.servicenow.com/docs/access?context=rollback-delete-recovery&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for information about reverting the deletion of CIs and related records.
+        **Note:** Review Roll back and delete recovery for information about reverting the deletion of CIs and related records.
 
 10. On the **Review and Confirm** tab:
 

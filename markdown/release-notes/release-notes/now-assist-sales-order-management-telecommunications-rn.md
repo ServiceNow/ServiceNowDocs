@@ -20,7 +20,7 @@ The ServiceNow® Now Assist for Sales CRM for Telecommunications application enr
 
 -   Automate the customer move order capture journey to reduce the manual effort.
 
-See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com/docs/access?context=somt-now-assist&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.
+See Now Assist for Sales CRM for Telecommunications for more information.
 
 **Important:** Now Assist for Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -28,7 +28,7 @@ See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -37,34 +37,34 @@ See [Now Assist for Sales CRM for Telecommunications](https://www.servicenow.com
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Order fallout AI agent](https://www.servicenow.com/docs/access?context=now-assist-order-fallout-somt&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Order fallout AI agent**
 
     Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
 
--   **[Move Order Voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)**
+-   **Move Order Voice AI agent**
 
     Use this agent to help you create a move order capture journey by collecting details such as the customer’s name, current service location, product offering, and new service address.
 
 
 ## Activation information
 
-Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Now Assist features are available with activation of the Now Assist for Sales CRM for Telecommunications plugin. For more information, see Install Now Assist plugins.
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     Help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Overview tab in Now Assist Admin**
 
     The Now Assist Admin console provides you with quick and effortless access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist panel**
 
     Use this conversational interface in the CSM Configurable Workspace to summarize a chat, a case, or resolution notes so that you can get the context of this information more quickly.
 
--   **[Now Assist skills](https://www.servicenow.com/docs/access?context=now-assist-skills&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist skills**
 
     Use the Now Assist products to provide agentic AI skills to meet the needs of users in different workflows, including case or incident summarization, chat summarization, resolution notes generation, and code generation.
 

@@ -50,5 +50,5 @@ Confirm that the activation of Predictive Intelligence has successfully installe
 -   platform\_ml\_read
 -   platform\_ml\_write
 
-For more information see [Install Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) or article [KB1641602](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641602) on the Now Support Knowledge Base.
+For more information see Install Predictive Intelligence or article [KB1641602](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641602) on the Now Support Knowledge Base.
 

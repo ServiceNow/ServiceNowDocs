@@ -15,7 +15,7 @@ breadcrumb: [Now Assist for CSM, Customer Service Management]
 
 If you have the admin role, you can configure the Now Assist for Customer Service Management \(CSM\) application so that your agents can use the generative AI skills in CSM Configurable Workspace and in Core UI.
 
-Use the Now Assist Admin console to configure Now Assist for CSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for CSM. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -79,14 +79,14 @@ Call summarization
     -   CSM Configurable Workspace \(sn\_csm\_wrkspc\): 24.2.0.
 
 
-For earlier versions, go to [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to upgrade it to a later version.
+For earlier versions, go to Application Manager to upgrade it to a later version.
 
 **Related topics**  
 
 
-[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.configuring-now-assist]
 
-[Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.configuring-na-landing]
 
 [Using agentic AI in Now Assist for Customer Service Management \(CSM\)](csm-ai-agents-use-cases.md)
 

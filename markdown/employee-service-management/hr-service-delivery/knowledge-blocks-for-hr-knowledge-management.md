@@ -21,17 +21,17 @@ Knowledge blocks are reusable pieces of content secured by user criteria that yo
 
 To use knowledge blocks, a knowledge administrator or manager must enable the knowledge blocks feature for each knowledge base in which the blocks will be used.
 
-[Enable knowledge blocks for each knowledge base](https://www.servicenow.com/docs/access?context=enable-knowledge-blocks-for-knowledge-base&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Enable knowledge blocks for each knowledge base
 
 Knowledge contributors can create knowledge blocks and insert them into articles in a knowledge base:
 
 **Note:** Knowledge blocks are not supported in articles of type wiki. By default, knowledge block doesn't show files attached to it. However, you can see images and text are visible on KB's created from block files.
 
--   [Create a knowledge block](https://www.servicenow.com/docs/access?context=create-modify-knowledge-block&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Add knowledge blocks to a knowledge article](https://www.servicenow.com/docs/access?context=add-knowledge-block-to-knowledge-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Preview a knowledge article with knowledge blocks by user or date](https://www.servicenow.com/docs/access?context=preview-knowledge-article-with-knowledge-blocks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Create a knowledge block
+-   Add knowledge blocks to a knowledge article
+-   Preview a knowledge article with knowledge blocks by user or date
 
-Knowledge block content can be read or not read in an article or search based on user criteria set at the knowledge base and knowledge block level. See [Select user criteria for a knowledge block](https://www.servicenow.com/docs/access?context=select-user-criteria-for-knowledge-block&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+Knowledge block content can be read or not read in an article or search based on user criteria set at the knowledge base and knowledge block level. See Select user criteria for a knowledge block for more information.
 
 ## Holiday calendar with location-specific knowledge block content
 
@@ -53,18 +53,18 @@ With knowledge blocks, you can create a single knowledge article with location-s
 
 If you are using a custom search or knowledge article viewer with your application, you should integrate it with the appropriate knowledge or knowledge blocks API. \(Integration is only necessary if you are using a custom search or knowledge article viewer.\)
 
-[Integrating a custom search or knowledge article viewer with knowledge blocks](https://www.servicenow.com/docs/access?context=integrating-with-custom-search-or-knowledge-article-viewer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Integrating a custom search or knowledge article viewer with knowledge blocks
 
 ## Activation information
 
-To use knowledge blocks in your application, you must [activate knowledge blocks](https://www.servicenow.com/docs/access?context=activate-knowledge-blocks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). For information on what components are installed with the feature, see [Components installed with knowledge blocks](https://www.servicenow.com/docs/access?context=components-installed-with-knowledge-blocks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To use knowledge blocks in your application, you must activate knowledge blocks. For information on what components are installed with the feature, see Components installed with knowledge blocks.
 
-**Note:** Activating knowledge blocks automatically activates Knowledge Management Advanced, which enables advanced features such as article versioning. Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see [Disable the article versioning feature](https://www.servicenow.com/docs/access?context=article-versioning-disable-property&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** Activating knowledge blocks automatically activates Knowledge Management Advanced, which enables advanced features such as article versioning. Knowledge blocks can be used with or without the article versioning feature. To disable the feature, see Disable the article versioning feature.
 
 **Parent Topic:**[HR Knowledge Management](hr-knowledge-management.md)
 
 **Related topics**  
 
 
-[Knowledge blocks](https://www.servicenow.com/docs/access?context=knowledge-blocks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.knowledge-blocks]
 

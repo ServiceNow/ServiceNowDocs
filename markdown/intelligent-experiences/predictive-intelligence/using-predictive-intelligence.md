@@ -34,8 +34,8 @@ Predictive Intelligence enables you to train predictive models and machine-learn
 
 You can also extend Predictive Intelligence to other processes and applications, such as:
 
--   Incident categorization: Predicts the incident category based on the short description. See [Predictive Intelligence for Incident Management](https://www.servicenow.com/docs/access?context=predictive-intelligence-for-incident&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
--   CSM case assignment: Predicts the case record assignment group based on the short description. See [Predictive Intelligence for case management](https://www.servicenow.com/docs/access?context=agent-intelligence-case-mgmt&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   Incident categorization: Predicts the incident category based on the short description. See Predictive Intelligence for Incident Management.
+-   CSM case assignment: Predicts the case record assignment group based on the short description. See Predictive Intelligence for case management.
 
 For more information, see [ServiceNow apps and features that use Predictive Intelligence](servicenow-apps-features-use-predictive-intelligence.md).
 

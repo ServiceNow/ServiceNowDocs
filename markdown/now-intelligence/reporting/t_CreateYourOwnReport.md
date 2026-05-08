@@ -23,7 +23,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d198688e83">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d198676e83">
 
 **Create a report**
 
@@ -31,7 +31,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see .
 
-</td></tr><tr><td id="d198688e116">
+</td></tr><tr><td id="d198676e116">
 
 **Edit an existing report**
 
@@ -39,7 +39,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Report types](../reference/report-types-creation-details-rd.md).
 
-</td></tr><tr><td id="d198688e149">
+</td></tr><tr><td id="d198676e149">
 
 **Create a report on a Core UI dashboard**
 
@@ -47,7 +47,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard where you want to add the report, and select the Add Widgets icon \(![Plus sign button](../../dashboards/image/AddWidgetButton.png)\).
 
-</td></tr><tr><td id="d198688e182">
+</td></tr><tr><td id="d198676e182">
 
 **Edit a report on a Core UI dashboard**
 

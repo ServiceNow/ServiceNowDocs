@@ -17,13 +17,13 @@ Map handheld computing devices that are assigned to employees and running the Ze
 
 ## Before you begin
 
-Handheld computing device data is stored in the Handheld Computing Device \[cmdb\_ci\_handheld\_computing\] table. The table is installed with the CMDB CI Class Models application available on the ServiceNow Store. Ensure that you have that application installed and active. For more information, see [CMDB CI Class Models](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-iot&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Handheld computing device data is stored in the Handheld Computing Device \[cmdb\_ci\_handheld\_computing\] table. The table is installed with the CMDB CI Class Models application available on the ServiceNow Store. Ensure that you have that application installed and active. For more information, see CMDB CI Class Models.
 
 Role required: sn\_imt\_tracing.wearable\_manager
 
 ## About this task
 
-You can also import your handheld computing devices data from an Excel spreadsheet that you use with the Zebra MotionWorks software. For more information, see [Easy import data from a list](https://www.servicenow.com/docs/access?context=c_EasyImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+You can also import your handheld computing devices data from an Excel spreadsheet that you use with the Zebra MotionWorks software. For more information, see Easy import data from a list.
 
 ## Procedure
 

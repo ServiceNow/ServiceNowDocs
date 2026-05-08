@@ -269,7 +269,7 @@ Array of hashmap
 
 </td><td>
 
-Capability values used to select the MID Server. For more information, see [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US). If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
+Capability values used to select the MID Server. For more information, see MID Server capabilities. If there are additional capabilities that are assigned by value, use this example to customize the MID Server selection:```
 var valueCapability = {'NEW_MID_CAPABIILTY':'NEW_MID_CAPABILITY_VALUE'};
 executionParam.valueCapabilities.push(valueCapability);
 ```

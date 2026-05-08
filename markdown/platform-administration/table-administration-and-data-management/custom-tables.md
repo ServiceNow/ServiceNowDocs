@@ -17,7 +17,7 @@ Custom tables enable you to expand the functionality of the ServiceNow AI Platfo
 
 ## About custom tables
 
-Custom tables are tables that aren't part of the base ServiceNow AI Platform system, but are created by a ServiceNow AI Platform administrator and not otherwise exempt. Custom tables can be used to configure and extend base system workflows, and to add new functionality or custom applications to your ServiceNow AI Platform instance. For more information about building custom applications, see [Building applications](https://www.servicenow.com/docs/access?context=build-applications&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Custom tables are tables that aren't part of the base ServiceNow AI Platform system, but are created by a ServiceNow AI Platform administrator and not otherwise exempt. Custom tables can be used to configure and extend base system workflows, and to add new functionality or custom applications to your ServiceNow AI Platform instance. For more information about building custom applications, see Building applications.
 
 Entitlements for custom tables are included in certain subscription licenses based on the terms of the contract. If you don't have enough custom table entitlements, you can upgrade your license or purchase additional products that include custom table entitlements.
 

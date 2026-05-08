@@ -96,5 +96,5 @@ Notes and limitations:
 **Related topics**  
 
 
-[Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddARelatedList&ft:locale=en-US)
+[bundle-platadm.t_AddARelatedList]
 

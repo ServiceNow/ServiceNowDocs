@@ -13,13 +13,13 @@ breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Manageme
 
 Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
 
-Dictionary entries \[sys\_dictionary\] serve the purpose of providing additional details for each table and defining the columns on those tables. For more information on Dictionary entries, see [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Dictionary entries \[sys\_dictionary\] serve the purpose of providing additional details for each table and defining the columns on those tables. For more information on Dictionary entries, see Data dictionary tables.
 
-UI policies are used to dynamically alter the behavior of information on a form. Administrators can configure the UI policies to show or hide fields, make fields required or read-only based on specific conditions. For more information on UI policies, see [Using UI policies](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+UI policies are used to dynamically alter the behavior of information on a form. Administrators can configure the UI policies to show or hide fields, make fields required or read-only based on specific conditions. For more information on UI policies, see Using UI policies.
 
 Element variables are employed to define additional data for a record, allowing for more granular control over the behavior and attributes of that record. For more information on Element variables, see [Configure element variables for element definitions](../task/configure-element-variable-uib-ws.md).
 
-View rules are utilized to define the filter condition and execution order for a table, providing a way to customize the view and presentation of data within that table. For more information on View rules, see [Create a view rule](https://www.servicenow.com/docs/access?context=t_CreateAViewRule&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+View rules are utilized to define the filter condition and execution order for a table, providing a way to customize the view and presentation of data within that table. For more information on View rules, see Create a view rule.
 
 Administrators play a crucial role in configuring the Dictionary, UI policy, element variables, and UI view for a dependency by performing these tasks:
 
@@ -61,7 +61,7 @@ To properly update the state of the dependency, administrators must fill in the 
 
 If a dependency is in the **Pending** state, the BIA user must fill in the required fields associated with that dependency. Once the required fields are completed, the system automatically marks the overall dependency assessment as complete. Running the fix script after filling in the required fields updates the state of the dependency to **Complete**.
 
-For more information on the fix scripts, see [Fix scripts](https://www.servicenow.com/docs/access?context=c_FixScripts&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on the fix scripts, see Fix scripts.
 
 **Parent Topic:**[Structured workflows for BIAs](bia-tasks-performed-by-bia-owner.md)
 

@@ -230,7 +230,7 @@ Controls how many days the system waits before ignoring the software installatio
  -   **Not installed**: User has not installed requested software prior to the expiration of the configured time limit.
 -   **Installed**: Software was installed within the configured time limit.
 -   **Status check expired**: Time limit has expired for the user to install the requested software. The system no longer checks the status of this deployment.
--   **Revoked**: Software was [revoked](https://www.servicenow.com/docs/access?context=c_SCCMSoftwareRevocation&version=australia&pubname=australia-servicenow-platform&section=t_RevokeSoftwareInstalledFromSCCM&ft:locale=en-US) by the administrator.
+-   **Revoked**: Software was revoked by the administrator.
 
  -   **Type**: integer
 -   **Default value**: 30
@@ -303,11 +303,11 @@ These workflows are installed with the Orchestration - Client Software Distribut
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

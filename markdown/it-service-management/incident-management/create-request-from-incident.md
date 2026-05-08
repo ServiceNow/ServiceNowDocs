@@ -49,7 +49,7 @@ incRPUtil.linkRecordProducerToParentIncident(RP.getParameterValue('sysparm_req_p
 
 5.  Check out the required catalog item, order guide, or record producer.
 
-    For information on checkout models, see [Service Catalog checkout models](https://www.servicenow.com/docs/access?context=c_EnableATwoStepCheckout&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For information on checkout models, see Service Catalog checkout models.
 
     For a catalog item or order guide, a request is created and displayed under the **Requests** tab of the incident. For a record producer, the corresponding task is created and displayed under the **Problems** tab of the incident.
 

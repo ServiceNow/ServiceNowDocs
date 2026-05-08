@@ -30,7 +30,7 @@ Australia Early Availability
 -   Enable customers to view invoices and invoice details directly from the Business Portal, providing transparency into billing information.
 -   Provide customers with visibility into invoice case status, resolution steps, and associated invoice lines to track dispute progress.
 
-See [Customer self-service for Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-self-service-business-portal&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See Customer self-service for Sales Customer Relationship Management for more information.
 
 **Important:** Business Portal is included with Customer Service Portal, which is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -38,49 +38,49 @@ See [Customer self-service for Sales Customer Relationship Management](https://w
 
 [Australia Patch 2](../quality/australia-patch-2.md)
 
--   **[Resume and submit invoice cases in draft state](https://www.servicenow.com/docs/access?context=resume-invoice-case-creation&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Resume and submit invoice cases in draft state**
 
     Pick up an invoice case where you left off by resuming draft invoice cases from the Business Portal. Use the Process tab on the Standard Ticket page to continue editing invoice case and invoice case line disputes, then submit for further processing.
 
--   **[Context-aware invoice case line list view](https://www.servicenow.com/docs/access?context=invoice-case-header-list-view&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Context-aware invoice case line list view**
 
     Review invoice case line details that are relevant to how your case was created. The Business Portal displays request source-aware columns in the invoice case line list view, showing specific details when a case is raised for a single invoice or when it spans multiple invoices.
 
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[AI-powered invoice case management for customers](https://www.servicenow.com/docs/access?context=dispute-invoice-issues-now-assist&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **AI-powered invoice case management for customers**
 
     Enable customers to report invoice disputes through an AI-powered virtual assistant on the Business Portal. Customers can describe quantity-related discrepancies through natural conversation. The assistant validates details, creates cases, and autonomously resolves eligible disputes by issuing credit notes or replacement orders or connecting customers with a human agent when needed. Interaction channels include chat and voice options.
 
--   **[Invoice dispute intake with voice assistant](https://www.servicenow.com/docs/access?context=now-assist-invoice-mgmt-voice-aiagent&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Invoice dispute intake with voice assistant**
 
     Enable customers to report quantity-related invoice disputes using voice commands through an AI-powered voice assistant on the Business Portal. Customers can describe discrepancies through natural speech and the assistant captures dispute details to create invoice cases or connects customers with a human agent.
 
--   **[Human agent handoff with context transfer](https://www.servicenow.com/docs/access?context=resolve-invoice-case-now-assist-agent&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Human agent handoff with context transfer**
 
     Help customers to escalate complex disputes seamlessly to a live agent. The full conversation context, including invoice details, dispute reason, and prior AI actions are transferred to the CSM/FSM Configurable Workspace, enabling live agents to continue without asking customers to repeat information.
 
--   **[Now Assist for invoice case resolution](https://www.servicenow.com/docs/access?context=resolve-invoice-case-now-assist-agent&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Now Assist for invoice case resolution**
 
     Help accelerate invoice dispute resolution by surfacing similar cases and common resolution patterns in the Now Assist panel. Agents can request help with an invoice case to view how similar disputes were resolved, reducing research time and improving consistency.
 
--   **[Automated email notifications for invoice cases](https://www.servicenow.com/docs/access?context=now-assist-order-management-using&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Automated email notifications for invoice cases**
 
     Keep customers informed with automated email notifications at key points in the invoice case life cycle, including case creation confirmation, resolution details with credit note or replacement order information, and the next steps for cases requiring human review.
 
 
 Australia Early Availability
 
--   **[Invoice management on Business Portal](https://www.servicenow.com/docs/access?context=view-invoices-business-portal&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Invoice management on Business Portal**
 
     Enable your customers to view invoices and invoice line details directly on the Business Portal, providing transparency into quantity, billing location, shipping location, and sold product information.
 
--   **[Invoice case creation through playbook experience](https://www.servicenow.com/docs/access?context=order-mgt-business-portal&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Invoice case creation through playbook experience**
 
     Provide self-service capability to your customers to create invoice dispute cases directly from the Business Portal for quantity, pricing, or date discrepancies using a guided self-service experience, supporting both single invoice and multiple invoice scenarios.
 
--   **[Invoice case management on Business Portal](https://www.servicenow.com/docs/access?context=view-invoice-cases-business-portal&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Invoice case management on Business Portal**
 
     Enable your customers to view and track invoice cases on the Business Portal, reducing support inquiries and keeping them informed on dispute resolution progress.
 
@@ -107,11 +107,11 @@ The Business Portal application \(sn\_b2b\_portal\) is automatically installed w
 
 ## Related ServiceNow applications and features
 
--   **[Case Management for Invoice Operations](https://www.servicenow.com/docs/access?context=csm-invoice-operations&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Case Management for Invoice Operations**
 
     The Case Management for Invoice Operations application enables customer service agents to create and manage cases for specific lines from a single invoice or for multiple invoices.
 
--   **[Now Assist for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Now Assist for Order Management**
 
     Use the ServiceNow® Now Assist for Order Management application to improve agent and customer productivity and efficiency in their respective workflows.
 

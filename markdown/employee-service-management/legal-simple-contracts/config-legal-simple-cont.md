@@ -37,7 +37,7 @@ As an administrator, review the installed components and modify them or add new 
 
     Set up external app configurations for legal contracts to enable services for electronic signature of contract documents and saving the signed contract documents in an external storage.
 
--   **[Email notifications](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Email notifications**
 
     Configure email notifications to be sent when various events occur. Some possible event triggers might be when a signatory signs or declines to sign a contract document or all signatories have signed the contract document.
 

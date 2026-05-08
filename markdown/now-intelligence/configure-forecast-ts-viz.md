@@ -90,7 +90,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which data to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d55823e223">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d55817e223">
 
 **Visualization date range**
 
@@ -98,7 +98,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All data within the date range of the visualization
 
-</td></tr><tr><td id="d55823e232">
+</td></tr><tr><td id="d55817e232">
 
 **Previous periods**
 
@@ -106,7 +106,7 @@ All data within the date range of the visualization
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Period length**.If you select Previous periods, also specify the number of periods in the **Number of periods to consider** field.
 
-</td></tr><tr><td id="d55823e249">
+</td></tr><tr><td id="d55817e249">
 
 **Specific starting date**
 

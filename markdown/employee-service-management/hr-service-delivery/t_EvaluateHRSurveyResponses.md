@@ -46,7 +46,7 @@ Role required: sn\_hr\_core.manager, or sn\_hr\_core.admin
 
 [HR surveys](../concept/c_HRSurveysIst.md)
 
-[Survey responses and results](https://www.servicenow.com/docs/access?context=c_SurveyResults&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_SurveyResults]
 
-[View a survey scorecard](https://www.servicenow.com/docs/access?context=t_ViewAScorecard&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_ViewAScorecard]
 

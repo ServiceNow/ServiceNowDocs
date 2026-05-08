@@ -17,7 +17,7 @@ Add and manage AI system associations directly from the **AI Associations** tab 
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://www.servicenow.com/docs/access?context=activation-and-installation-of-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   The AI Control Tower plugin must be installed. For more information, see Activation and installation of AI Control Tower.
 -   The investment type of the demand is set to artificial intelligence.
 -   Role required: it\_demand\_user, it\_demand\_manager
 
@@ -46,7 +46,7 @@ You can select the impacted AI systems for the demand. If the required AI system
 
     **Note:** This related link is available for users with the sn\_ai\_steward role.
 
-    For more information on creating AI systems, see [Create AI system assets](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on creating AI systems, see Create AI system assets.
 
 
 **Parent Topic:**[Use Demand Management](../reference/r_UsingDemandManagement.md)

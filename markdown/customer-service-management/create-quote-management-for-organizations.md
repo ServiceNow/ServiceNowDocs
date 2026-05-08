@@ -31,7 +31,7 @@ The channel partners can view a detailed price breakdown for each quote line ite
 
 3.  On the Quote New record form, fill in the fields.
 
-    To learn more about the fields on the form, see [Quote Management](https://www.servicenow.com/docs/access?context=quote-management&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    To learn more about the fields on the form, see Quote Management.
 
 4.  Select **Submit**.
 

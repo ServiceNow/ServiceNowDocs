@@ -34,7 +34,7 @@ Provides flow and actions associated with ITSM. Requires the ITSM application su
 |Create Outage|Creates a cmdb\_ci outage record for a configuration item. The **Task** field is populated only if the source is a task record. If the source is non-task record such as an alert record, the **Task** field is empty.|
 |Create Problem from Incident|Creates a Problem record from an Incident record.|
 |Create Request|Creates a Request record.|
-|Create Standard Change Request|Creates a Change Request record of type Standard. For more information, see [IT Service Management](https://www.servicenow.com/docs/access?context=r_ITServiceManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US).|
+|Create Standard Change Request|Creates a Change Request record of type Standard. For more information, see IT Service Management.|
 |Create Task|Creates a child task record for a Task table record. For example, creates an Incident Task record for an Incident record.|
 |Create Task Outage Relationship|Creates a Task Outage Relationship record where cmdb\_ci outage record and task record are inputs to the action.|
 |Create Standard Change Request from Incident|Creates a Change Request record of type Standard from an Incident record.|

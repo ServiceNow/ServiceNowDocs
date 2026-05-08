@@ -42,7 +42,7 @@ Source
 </td><td>
 
 Select the source from which the data is to be collected from the list.-   **PA indicator**: Select this option to use a PA indicator to collect performance analytics data at regular intervals and create records in the Context Engine Data table.
--   **External**: Specify the external data source from which the data is to be collected. You must define how this data can be retrieved from the external source or use the [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) to save this information in the Context Engine data table.
+-   **External**: Specify the external data source from which the data is to be collected. You must define how this data can be retrieved from the external source or use the Table API to save this information in the Context Engine data table.
 -   **Calculated**: Select this option to calculate the metric values dynamically using formulas based on a combination of existing base metrics. For more details, see [Define a calculated metric data source](../task/account-lifecycle-define-data-source-calculate.md).
 -   **Table**: Select this data source type to retrieve and analyze data from internal and external tables. To retrieve data from external sources, you must install the Workflow Data Fabric Hub application and create data fabric tables. For more details, see [Define a table data source](../task/account-lifecycle-define-data-source-table.md).
 **Note:** The sequence in which the metrics are calculated is based on the Execution order that defines which metrics are evaluated first. The Execution order is defined as follows:

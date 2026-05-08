@@ -35,7 +35,7 @@ As an example, the steps for adding custom states for **Work in progress** state
 
 ## Procedure
 
-1.  [Define](https://www.servicenow.com/docs/access?context=t_DefineADictionaryOverride&version=australia&pubname=australia-platform-administration&ft:locale=en-US) a new dictionary override for `pm_project_task` table under `[Task - State](view-default-project-task-states.md)` dictionary.
+1.  Define a new dictionary override for `pm_project_task` table under `[Task - State](view-default-project-task-states.md)` dictionary.
 
 2.  Specify the override attributes for the dictionary override in **Attributes** field as follows:
 

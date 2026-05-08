@@ -61,7 +61,7 @@ Install the plugin according to the instructions from the email.
 
 Navigate to **All** &gt; **Admin Center** &gt; **Application Manager**. On the Application Manager page, search for and select **Software Asset Management - SaaS License Management**.
 
-After the application is installed and ready for use, you can choose the required SaaS applications that you need by selecting **Install optional features** on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page.
+After the application is installed and ready for use, you can choose the required SaaS applications that you need by selecting **Install optional features** on the Application Manager page.
 
 You can see the primary features and the list of optional features that you can select in the Review Installation Details dialog box. If you haven't selected any optional features, you would get the base system features of this application.
 

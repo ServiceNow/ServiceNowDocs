@@ -120,7 +120,7 @@ data-sn-macro-sys-id="${jvar_macro_sys_id}"
 **Related topics**  
 
 
-[UI macros](https://www.servicenow.com/docs/access?context=c_UIMacros&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_UIMacros]
 
 [bundle-platadm.c_UpgradeHistory]
 

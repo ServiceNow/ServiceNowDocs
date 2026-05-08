@@ -38,7 +38,7 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 ## What to do next
 
--   Share the `manifest.xml` file with Microsoft Office 365 account manager to [upload the manifest file for Microsoft Office 365 users](https://www.servicenow.com/docs/access?context=upload-the-manifest-file-office365&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) to enable the Export to PowerPoint add-in for Microsoft PowerPoint.
+-   Share the `manifest.xml` file with Microsoft Office 365 account manager to upload the manifest file for Microsoft Office 365 users to enable the Export to PowerPoint add-in for Microsoft PowerPoint.
 
     Alternatively, you can sideload the add-in for testing purposes using one of the following processes.
 

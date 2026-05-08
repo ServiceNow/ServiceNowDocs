@@ -15,7 +15,7 @@ breadcrumb: [JWT Bearer, OAuth Outbound, OAuth authentication, Authentication, A
 
 Create a JSON Web Token \(JWT\) for representing claims securely between two parties on the ServiceNow AI Platform.
 
-The [GlideJWT API](https://www.servicenow.com/docs/access?context=GlideJWTScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) is a scoped, scriptable API which generates a JWT. There are three arguments necessary before generating the JWT:
+The GlideJWT API is a scoped, scriptable API which generates a JWT. There are three arguments necessary before generating the JWT:
 
 -   Sys\_id of [JWT Provider](../task/JWT-Bearer-token-support.md#)
 -   JSON serialized header

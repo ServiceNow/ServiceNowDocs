@@ -159,7 +159,7 @@ In the Activity stream:-   You can summarize new attachments of type PNG, JPEG o
     -   German
     -   Portuguese
     -   Spanish
-When you use [translate with Dynamic Translation](https://www.servicenow.com/docs/access?context=using-dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=using-dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).**Note:**
+When you use translate with Dynamic Translation, you can also translate user-generated content live on your instance in additional languages. For more information, see Dynamic Translation.**Note:**
 
 -   Attachment summaries aren't available in child incident records and are only supported in the English language.
 -   If you have one or more existing attachments, you must add new attachments to the incident for the existing attachments to be summarized.
@@ -172,15 +172,15 @@ When you use [translate with Dynamic Translation](https://www.servicenow.com/doc
 
     **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d440769e568">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d440738e568">
 
 To
 
-</th><th align="left" id="d440769e571">
+</th><th align="left" id="d440738e571">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d440769e577">
+</th></tr></thead><tbody><tr><td id="d440738e577">
 
 **Evaluate a prompt for each input template**
 
@@ -194,7 +194,7 @@ Do this
 2.  Select **Run Test**.![Run test for the selected incident record](../image/now-assist-itsm-evaluate-prompt.png)
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d440769e616">
+</td></tr><tr><td id="d440738e616">
 
 **Edit the prompt in the Now Assist Skill Kit and test the prompt**
 
@@ -238,7 +238,7 @@ The prompt displays in the Test prompt screen where you can run the test.
 
         -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

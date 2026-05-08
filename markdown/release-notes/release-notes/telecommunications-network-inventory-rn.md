@@ -17,27 +17,27 @@ The ServiceNow® Telecommunications Network Inventory application enables networ
 -   Enable customers to request services for equipment housed in your facility using Remote Hands.
 -   View a concise summary of Remote Hands Request
 
-See [Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=telecom-network-inventory&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US) for more information.
+See Telecommunications Network Inventory for more information.
 
 **Important:** Telecommunications Network Inventory is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Remote Hands Request Management](https://www.servicenow.com/docs/access?context=remote-hands-request-management&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US)**
+-   **Remote Hands Request Management**
 
     Enable your customers to request services such as power usage enquiries, equipment installation, equipment restarts, and more by connecting with onsite operations agents at your facility. Securely store your customer requests in the Remote Hands Case table, with role-based access controls. View an auto-generated summary of your requests for quick reference.
 
 
 ## UI changes
 
--   **[Network topology](https://www.servicenow.com/docs/access?context=using-network-topology&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US)**
+-   **Network topology**
 
     Topology map icons updated to support dark theme colour contrast.
 
 
 ## Activation information
 
-Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see Install Telecommunications Network Inventory. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 ## Plugin information
 
@@ -58,11 +58,11 @@ Improved overall accessibility across Network Inventory application, focusing on
 
 ## Related ServiceNow applications and features
 
--   **[Using the Customer Service Portal](https://www.servicenow.com/docs/access?context=use-the-customer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Using the Customer Service Portal**
 
     Customer Service Management Service Portal activity usually begins on the homepage. Organizations usually customize their landing pages, and logged-in users often see different information than users who are not logged in.
 
--   **[Request an item or service from the Customer Service Portal](https://www.servicenow.com/docs/access?context=customer-request-from-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Request an item or service from the Customer Service Portal**
 
     Browse the catalog and create a request from the Customer or Consumer Service Portals.
 

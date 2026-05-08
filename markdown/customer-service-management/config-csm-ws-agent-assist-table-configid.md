@@ -144,5 +144,5 @@ Agent Assist and Response Template example:
 **Related topics**  
 
 
-[Configuring contextual search](https://www.servicenow.com/docs/access?context=configuring-contextual-search&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.configuring-contextual-search]
 

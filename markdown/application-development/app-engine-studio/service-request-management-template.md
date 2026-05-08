@@ -66,7 +66,7 @@ This template contains several important roles that correspond to individuals or
 
 ## Related concepts
 
-For information about how to set up a service for your Service Request Management application, see [Service catalog setup](https://www.servicenow.com/docs/access?context=p_ServiceCatalogs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For information about how to set up a service for your Service Request Management application, see Service catalog setup.
 
 **Parent Topic:**[Available templates](template-library.md)
 

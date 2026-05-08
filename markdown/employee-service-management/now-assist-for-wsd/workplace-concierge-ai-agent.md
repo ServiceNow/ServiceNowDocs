@@ -15,7 +15,7 @@ breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for Work
 
 Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Workplace Concierge workflow overview
 
@@ -80,9 +80,9 @@ Add the Workplace Concierge to an email thread or a calendar invite.
 
 [implement-autonomous-l1-agent-for-workplace.md](implement-autonomous-l1-agent-for-workplace.md)
 
-[Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.na-ai-agents]
 
-[Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.install-ai-agents-plugins]
 
-[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-agent-studio]
 

@@ -42,7 +42,7 @@ Every app in Creator Studio automatically creates a table where all opened recor
 -   If an app's associated table is changed to one that doesn't extend the Request Task table, automations won't work.
 -   You can change the **Request type** field, which specifies the form, on the Request Task table or a table that extends Request Task. To do so, you must be an admin or have the sn\_creatorstudio.configuration\_admin or sn\_creatorstudio.task\_admin role.
 
-[Extending](creator-studio-glossary.md#) a table means the new table inherits the parent \(extended\) table's columns, as well as its business logic. For more information on Task tables, see [Working with the Task table](https://www.servicenow.com/docs/access?context=c_TaskTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+[Extending](creator-studio-glossary.md#) a table means the new table inherits the parent \(extended\) table's columns, as well as its business logic. For more information on Task tables, see Working with the Task table.
 
 For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table, which contains the table that the app uses. Your admin can change the table for an app, see [Administering an app's associated table](creator-studio-admin-app-table.md) for more information. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 

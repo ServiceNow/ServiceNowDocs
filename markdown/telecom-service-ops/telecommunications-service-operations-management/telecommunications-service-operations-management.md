@@ -39,7 +39,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-impact.svg) Release Notes**
 
-    Learn more about what's new and changed in this release at [Telecommunications Service Operations Management \(TSOM\) release notes](https://www.servicenow.com/docs/access?context=telecommunications-service-operations-management-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+    Learn more about what's new and changed in this release at Telecommunications Service Operations Management \(TSOM\) release notes
 
 -   **![](../../../reuse/icons/dcx-icons/dcx-icon-community.svg)ServiceNow Community**
 

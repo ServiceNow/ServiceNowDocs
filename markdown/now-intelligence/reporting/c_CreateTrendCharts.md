@@ -39,7 +39,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 3.  Select the applicable source for the report.
 
-<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d106751e152">
+<table id="choicetable_t31_tst_1x"><tbody><tr><td id="d106745e152">
 
 **Data source**
 
@@ -47,15 +47,15 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 Also called a report source, a data source is a table with filters applied to provide a single source of information for all users. For more information, see [Report sources](c_ReportSources.md#).**Note:** If you select a data source used by existing reports, a notification prompts you to view them.
 
-</td></tr><tr><td id="d106751e171">
+</td></tr><tr><td id="d106745e171">
 
 **Table**
 
 </td><td>
 
-The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+The raw data from a table with no filters applied. When you select a table, its short description appears below the table name. For trend reporting, you can also select a remote table, which aggregates, in memory, data retrieved from an external source. Then select a **Trend by** field option to aggregate its data. To learn more about remote tables, see Retrieving external data using remote tables and scripts
 
-</td></tr><tr><td id="d106751e190">
+</td></tr><tr><td id="d106745e190">
 
 **External import**
 
@@ -63,13 +63,13 @@ The raw data from a table with no filters applied. When you select a table, its 
 
 Choose an existing imported report source, or select the Upload icon \(![Upload icon](../image/upload-icon.png)\) to import a new file. See [Create a Core UI report from an imported Microsoft Excel document](../task/create-report-with-imported-data-source.md).
 
-</td></tr><tr><td id="d106751e215">
+</td></tr><tr><td id="d106745e215">
 
 **MetricBase**
 
 </td><td>
 
-MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+MetricBase enables you to collect, retain, analyze, and visualize custom time series data on the ServiceNow AI Platform. For more information, see MetricBase.
 
 </td></tr></tbody>
 </table>4.  On the **Type** tab, enter **Trend** in the filter, select the Trend report type from the **Other** section, and click **Next**.
@@ -96,7 +96,7 @@ Group report data using the values of this field. For example, in an incident re
 
  **Note:**
 
--   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see [Database field type](https://www.servicenow.com/docs/access?context=r_DatabaseFieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   It is not possible to group or stack reports by the **Tags** field, or by certain MySQL database field types, such as MEDIUMTEXT. For more information, see Database field type.
 -   Grouping or stacking by Variables or Questions fields is not supported for reports based on [database views](../../performance-analytics/concept/performance-analytics-glossary.md#).
 
 
@@ -120,7 +120,7 @@ Display data table
 
 </td><td>
 
-Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the [glide.ui.section508](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US) system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
+Select this option to show report data in a list below the report. The list appears on dashboards where the report is added.All report visualizations show the report data when the glide.ui.section508 system property is set to **true**. The glide.ui.section508 property overrides the **Display data table** field.
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Trend by
 
 </td><td>
 
-Table field whose values you want to show in a time sequence. Select the info icon ![](../../par-for-workspace/image/icon-info.png) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Table field whose values you want to show in a time sequence. Select the info icon ![](../../par-for-workspace/image/icon-info.png) for a description of the selected field. **Note:** If you selected a remote table in the **Table** field, the option you select in this field aggregates the data that was retrieved from an external source and aggregated in memory. To learn more about remote tables, see Retrieving external data using remote tables and scripts.
 
 </td></tr><tr><td>
 
@@ -231,7 +231,7 @@ Check box to include the Other group in the report. The Other group contains dat
 
 7.  To limit the information displayed in the report, select the filter icon \(![Filter icon](../../../common/image/List_FilterIcon.png)\) and specify conditions to filter the report data.
 
-    To learn how to construct conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    To learn how to construct conditions, see Condition builder.
 
     **Note:** In aggregated and list reports, language-dependent filter conditions may return zero results on localized instances.
 
@@ -350,7 +350,7 @@ Drilldown view
 
 </td><td>
 
-List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See [Configure the list layout](https://www.servicenow.com/docs/access?context=t_ConfigureTheListLayout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](c_DrillingDownWithinReports.md#).
+List view to show when a user selects a segment of a report for which no drilldown report type is specified. This view is also used when the user reaches the lowest drilldown level of a report. See Configure the list layout . If you specify a **Report drilldown**, **Drilldown view** is ignored.For more information, see [Define a report drilldown](c_DrillingDownWithinReports.md#).
 
 </td></tr><tr><td>
 

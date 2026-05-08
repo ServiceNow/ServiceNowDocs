@@ -70,7 +70,7 @@ CI is created in this table if any of the following information is available in 
 **Related topics**  
 
 
-[CMDB CI Class Models store app](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models]
 
-[Identification and Reconciliation engine \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.ire]
 

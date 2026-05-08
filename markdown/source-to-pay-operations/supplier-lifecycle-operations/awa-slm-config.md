@@ -26,7 +26,7 @@ Setting up [Advanced Work Assignment for Supplier Lifecycle Operations](slo-glos
 -   Agent availability: States that indicate agent presence and whether the agent is available for work or is busy or offline. Advanced Work Assignment uses the agent availability state to determine if an agent is able to receive work.
 -   Inbox layout: A configuration tied to a service channel that defines which fields of a record representing a work item are shown in agent inboxes. A layout defines what the agent sees in the Source-to-Pay Workspace.
 
-For more information, see [Exploring Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information, see Exploring Advanced Work Assignment.
 
 -   **[Configure Advanced Work Assignment for Supplier Lifecycle Operations](../task/setup-awa-slm.md)**  
 Configure various components, such as service channels, work item queues, and assignment rules that determine how a chat interaction should be routed to an agent.

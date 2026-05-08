@@ -200,7 +200,7 @@ For more information, see [Email notifications in Digital Product Release](../re
 
     4.  Select **Request**.
 
-    The exception request is sent to the Compliance group. For more information about the review and approval of exception request, see [Review the policy exception and extension request](https://www.servicenow.com/docs/access?context=review-policy-ext-and-extension-req-ws&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) and [Manage policy exceptions and extensions](https://www.servicenow.com/docs/access?context=manage-policy-exceptions-ws&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    The exception request is sent to the Compliance group. For more information about the review and approval of exception request, see Review the policy exception and extension request and Manage policy exceptions and extensions.
 
     After the exception is approved, the policy status shows as Compliant with exception in subsequent executions. The phase can be completed if all other policies are compliant.
 

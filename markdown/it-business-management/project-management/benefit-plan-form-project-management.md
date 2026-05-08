@@ -200,7 +200,7 @@ Functional currency
 
 </td><td>
 
-Currency that is obtained from the [**glide.system.locale** property](https://www.servicenow.com/docs/access?context=currency-properties&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](../concept/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
+Currency that is obtained from the **glide.system.locale** property. For upgraded customers, if the selected currency is different from the functional currency configured in the Financial Management application, the corresponding [budget reference rate](../concept/c_BudgetReferenceRates.md) is used to calculate the **Total planned benefit** of the project.
 
 </td></tr><tr><td>
 

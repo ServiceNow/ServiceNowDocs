@@ -23,7 +23,7 @@ Explore
 -   [Notify Zoom connector](../concept/notify-zoom-connector.md)
 -   [Notify voice and SMS capabilities](../concept/notify-voice-SMS-capabilities.md)
 -   [Notify Cisco Webex Connector](../../cisco-webex-notify-connector/concept/cisco-webex-notify.md)
--   [Notify connector for Microsoft Teams](https://www.servicenow.com/docs/access?context=notify-connector-ms-teams&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Notify connector for Microsoft Teams
 
 </td><td>
 
@@ -35,7 +35,7 @@ Configure
 -   [Configure a provider in Notify](../task/configure-providers-for-provider-selectors.md)
 -   [Configure SMS opt-out preferences](../task/opt-out-requests.md)
 -   [Configure Notify Cisco Webex Connector](../../cisco-webex-notify-connector/concept/setup-cisco-webex-notify.md)
--   [Install Notify connector for Microsoft Teams](https://www.servicenow.com/docs/access?context=setup-notify-ms-teams&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Install Notify connector for Microsoft Teams
 
 </td></tr><tr><td>
 
@@ -47,7 +47,7 @@ Use
 -   [Using Notify with Incident Communications Management](../concept/c_NotifyWithIncidentAlert.md)
 -   [Using Notify with On-Call Scheduling](../concept/c_NotifyWithOnCall.md)
 -   [Using the Notify Cisco Webex Connector with a major incident](../../cisco-webex-notify-connector/concept/use-cisco-webex-notify-mi.md)
--   [Use Notify connector for Microsoft Teams](https://www.servicenow.com/docs/access?context=c-agent-ex-use-nc&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Use Notify connector for Microsoft Teams
 
 </td><td>
 

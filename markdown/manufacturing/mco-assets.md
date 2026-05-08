@@ -30,5 +30,5 @@ Select the filter icon or menu. Select **Advanced view**. .
 
 Select any field from the root table that you want to filter the data by.
 
-To learn how to configure assets, see [Configure assets](https://www.servicenow.com/docs/access?context=configure-csm-assets&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To learn how to configure assets, see Configure assets.
 

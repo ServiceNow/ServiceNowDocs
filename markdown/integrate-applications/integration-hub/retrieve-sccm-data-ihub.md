@@ -22,7 +22,7 @@ Retrieve the collections and the list of applications available for deployment f
 Before starting this procedure:
 
 -   Set up your Microsoft System Center Configuration Manager \(SCCM\) server, create the applications and collections, and configure the deployments you need. For information, see your SCCM documentation.
--   [Configure the Application Administrator role on the SCCM server](https://www.servicenow.com/docs/access?context=t-config-SCCM-deployment-manager&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) with the Application Deployment Manager role on the SCCM server.
+-   Configure the Application Administrator role on the SCCM server with the Application Deployment Manager role on the SCCM server.
 -   Set up the MID Server to communicate with the SCCM server.
 -   Add Powershell credentials to the ServiceNow Credentials \[discovery\_credentials\] table for the SCCM user who has the Application Deployment Manager role.
 

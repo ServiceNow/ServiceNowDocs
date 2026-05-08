@@ -26,7 +26,7 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 **Note:** If you have configured multiple IdPs on your instance and want to select a specific IdP for your Engagement Messenger module, do the following:
 
 -   [Enable Engagement Messenger on a website when third-party application cookies are blocked](../task/allowlist-em-third-party-website.md)
--   [Custom URL with Identity Provider](https://www.servicenow.com/docs/access?context=custom-url-with-multiple-identity-providers&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Custom URL with Identity Provider
 -   If you have multiple IdPs on your instance:
 
     -   In case of OIDC authentication type, the generated ID token should contain the client ID of a IdP record against which authentication is required.
@@ -42,8 +42,8 @@ If you previously configured an IdP, you can ignore this task and reuse the exis
 
 3.  Select either **OpenID Connect** or **SAML**.
 
-    -   If you select **OpenID Connect**, follow the procedure in [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://www.servicenow.com/docs/access?context=create-OIDC-configuration-SSO&version=australia&pubname=australia-platform-security&ft:locale=en-US).
-    -   If you select **SAML**, follow the procedure from step 3 in [Create and update identity providers](https://www.servicenow.com/docs/access?context=t_CreateUpdateIdentityProvider&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   If you select **OpenID Connect**, follow the procedure in Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\).
+    -   If you select **SAML**, follow the procedure from step 3 in Create and update identity providers.
 
 ## What to do next
 

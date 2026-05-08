@@ -51,7 +51,7 @@ Create an Remote Function Call \(RFC\) in the SAP Solution Manager and install a
 **Related topics**  
 
 
-[Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConfiguration]
 
 [Configure the MID Web Server extension](configure-mid-web-server-extension.md)
 

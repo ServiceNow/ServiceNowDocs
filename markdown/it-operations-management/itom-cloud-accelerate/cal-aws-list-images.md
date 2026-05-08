@@ -19,11 +19,11 @@ Action that describes the specified images \(AMIs, AKIs, and ARIs\) available to
 
 -   **Subscription requirements**
 
-    To use this action in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    To use this action in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 
-    This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Flow Designer](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    This action requires roles granted by delegated development or assigned to the user. For more information, see User access to Flow Designer.
 
 
 ## Cloud permission

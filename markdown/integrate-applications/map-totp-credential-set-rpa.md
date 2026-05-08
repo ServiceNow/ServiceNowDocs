@@ -16,7 +16,7 @@ Map a multi-factor authentication \(MFA\) authenticator record with a seed in a 
 
 ## Before you begin
 
-Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see [Multi-factor authentication](https://www.servicenow.com/docs/access?context=mfa-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Familiarize yourself with multi-factor authentication \(MFA\) concepts. For more information, see Multi-factor authentication.
 
 Familiarize yourself with the TOTP authentication in RPA Hub. For more information, see [TOTP authentication in RPA Hub](../concept/totp-authentication-rpa.md).
 

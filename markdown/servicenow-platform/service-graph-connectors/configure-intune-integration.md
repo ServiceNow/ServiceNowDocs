@@ -19,7 +19,7 @@ Set up authentication credentials and a scheduled job to import Microsoft Intune
 
 **Important:** The guided setup method is deprecated from version 2.7.0 of the Service Graph Connector for Microsoft Intune. Use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Obtain the following information from your Microsoft Intune administrator:
 
@@ -40,7 +40,7 @@ Dependencies and requirements:
 -   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
 -   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](../concept/cmdb-ci-class-models.md).
 -   Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 -   ServiceNow IntegrationHub Zip step \(com.glide.hub.action\_step.zip\), which is automatically installed.
 -   ServiceNow IntegrationHub JSON Parser step \(com.glide.hub.action\_step.jsonparser\), which is automatically installed.
 
@@ -441,7 +441,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see Schedule a data import.
 
     4.  Select **Update**.
 
@@ -464,7 +464,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         2.  In the Scheduled jobs list, select **SG-Intune Trigger Device Reports** job.
         3.  On the Scheduled Script Execution form, verify the field values for the scheduled job and select the **Active** check box.
 
-            For more information, see [Schedule script execution form](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US#t_ScheduleScriptExecution).
+            For more information, see Schedule script execution form.
 
         4.  Select **Update**.
         5.  To activate the scheduled job for the SG-Intune Software Reports data source, repeat steps [11.a.ii](configure-intune-integration.md#select-job) to [11.a.iv](configure-intune-integration.md#exe-job) by selecting the **SG-Intune Trigger Software Reports** scheduled job.
@@ -482,7 +482,7 @@ Enable retrieving the IP addresses of devices during import and populate the rec
         2.  In the Scheduled Data Imports list, select the **SG-Intune Device Reports** scheduled import.
         3.  On the Scheduled Data Import form, verify the field values for the scheduled data import and select the **Active** check box.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see Schedule a data import.
 
         4.  Select **Update**.
         5.  Return to the guided setup page and set the Configure the scheduled import for advanced data sources task to complete by selecting **Mark as Complete**.

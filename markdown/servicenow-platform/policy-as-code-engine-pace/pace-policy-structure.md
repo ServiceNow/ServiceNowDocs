@@ -19,7 +19,7 @@ When a policy is executed, a set of parameters is passed and the policy develope
 
 ![Sample script policy.](../image/pace-sample-script-new-names.jpg "Sample policy script")
 
-To debug the script, select the Debugger script icon ![Debugger icon](../image/pace-debug-icon.jpg). For more information, see [Script Debugger API](https://www.servicenow.com/docs/access?context=scriptdebugger-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+To debug the script, select the Debugger script icon ![Debugger icon](../image/pace-debug-icon.jpg). For more information, see Script Debugger API.
 
 The following table lists the policy function parameters and how can they be used in your policy script.
 

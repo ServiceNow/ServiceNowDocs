@@ -27,7 +27,7 @@ The assign logic provides you with the flexibility and control for users when as
 
 ## Before you begin
 
--   [Create an active employee definition](https://www.servicenow.com/docs/access?context=generate-profile-definition&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for resources to view their allocation details on the Resource Management Workspace.
+-   Create an active employee definition for resources to view their allocation details on the Resource Management Workspace.
 -   [Create a resource card](rmw-create-rsrc-card.md).
 -   Role required: resource\_user, resource\_manager
 
@@ -43,15 +43,15 @@ The assign logic provides you with the flexibility and control for users when as
 
 4.  You can assign work using one of the following ways.
 
-<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d264638e157">
+<table id="choicetable_qth_yqy_khc"><thead><tr><th align="left" id="d264634e157">
 
 Assign work choices
 
-</th><th align="left" id="d264638e160">
+</th><th align="left" id="d264634e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d264638e166">
+</th></tr></thead><tbody><tr><td id="d264634e166">
 
 **Manual Assign**
 
@@ -63,7 +63,7 @@ Enables you to choose specific resources and decide how much effort to allocate.
 2.  Partial Effort Equally: Assign only the entered efforts equally among the selected resources.
 
 
-</td></tr><tr><td id="d264638e197">
+</td></tr><tr><td id="d264634e197">
 
 **Auto Assign**
 
@@ -107,7 +107,7 @@ If no tasks appear in the Unassigned tasks tray, verify the following:
 
 1.  Verify the resource requests exist. Project Managers must create resource requests \(resource assignments with status Requested\) on project tasks. Navigate to the project and verify resource requests exist on the Resource Assignments related list.
 2.  Check if primary attributes match. The resource card filter must match the primary attributes \(Group, Skill, or Role\) defined in the resource requests. Open your resource card and verify the filter criteria aligns with existing requests.
-3.  Check if the employee profiles are generated. Verify [employee profile definitions](https://www.servicenow.com/docs/access?context=generate-profile-definition&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) have been generated for the resources in your view.
+3.  Check if the employee profiles are generated. Verify employee profile definitions have been generated for the resources in your view.
 4.  Request state is correct. Only resource requests in **Requested** state appear as unassigned. Requests that are already Assigned, Approved, or Cancelled don't show.
 5.  Check the date range. Verify the resource card's date range overlaps with the resource request dates. Requests outside the visible time frame will not display.
 6.  Confirm the permissions. Confirm you have the resource\_manager role, which is required to view and manage unassigned work.

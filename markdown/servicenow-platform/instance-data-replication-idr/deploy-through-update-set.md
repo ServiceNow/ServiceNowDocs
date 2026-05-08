@@ -21,7 +21,7 @@ Role required: idr\_admin or admin
 
 ## About this task
 
-You can copy a replication configuration from one instance to another using an update set. For details on using update sets, see [Get started with update sets](https://www.servicenow.com/docs/access?context=get-started-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+You can copy a replication configuration from one instance to another using an update set. For details on using update sets, see Get started with update sets.
 
 ## Procedure
 
@@ -44,15 +44,15 @@ You can copy a replication configuration from one instance to another using an u
     -   Producer replication \(one-way\)
     -   Producer replication with bi-directional replication
     -   Producer replication with discrete replication
-<table id="choicetable_ap2_cnm_3yb"><thead><tr><th align="left" id="d453960e143">
+<table id="choicetable_ap2_cnm_3yb"><thead><tr><th align="left" id="d453956e143">
 
 Option
 
-</th><th align="left" id="d453960e146">
+</th><th align="left" id="d453956e146">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d453960e152">
+</th></tr></thead><tbody><tr><td id="d453956e152">
 
 **Capture a producer replication configuration**
 
@@ -64,7 +64,7 @@ Steps
 4.  Capture the replication configuration by selecting **Track in Update Set**.
 
 
-</td></tr><tr><td id="d453960e194">
+</td></tr><tr><td id="d453956e194">
 
 **Capture a consumer replication configuration**
 
@@ -130,15 +130,15 @@ Steps
 
 6.  On the target instance, perform the following steps based on the type of replication set that you want to set up.
 
-<table id="choicetable_i5p_kyv_hyb"><thead><tr><th align="left" id="d453960e472">
+<table id="choicetable_i5p_kyv_hyb"><thead><tr><th align="left" id="d453956e472">
 
 Type of replication
 
-</th><th align="left" id="d453960e475">
+</th><th align="left" id="d453956e475">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d453960e481">
+</th></tr></thead><tbody><tr><td id="d453956e481">
 
 **Producer replication**
 
@@ -149,7 +149,7 @@ Steps
 3.  Select **Activate**.
 
 
-</td></tr><tr><td id="d453960e517">
+</td></tr><tr><td id="d453956e517">
 
 **Consumer replication**
 
@@ -161,7 +161,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d453960e562">
+</td></tr><tr><td id="d453956e562">
 
 **Bi-directional replication**
 
@@ -175,7 +175,7 @@ Steps
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d453960e620">
+</td></tr><tr><td id="d453956e620">
 
 **Discrete replication**
 

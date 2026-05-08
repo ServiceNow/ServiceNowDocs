@@ -15,11 +15,11 @@ breadcrumb: [Task Intelligence, Enable AI experiences]
 
 Create, edit, train, and assess machine learning models to make predictions for customer service cases and incidents.
 
--   **[Managing Task Intelligence for ITSM models](https://www.servicenow.com/docs/access?context=using-task-intelligence-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Managing Task Intelligence for ITSM models**
 
     Use the machine learning capabilities of Task Intelligence for ITSM to predict and recommend incident field information and help with incident categorization.
 
--   **[Use Task Intelligence for Customer Service](https://www.servicenow.com/docs/access?context=use-task-intelligence&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Use Task Intelligence for Customer Service**
 
     Use the Task Intelligence features to create field prediction and sentiment models for cases, and review Task Intelligence analytics and prediction history.
 

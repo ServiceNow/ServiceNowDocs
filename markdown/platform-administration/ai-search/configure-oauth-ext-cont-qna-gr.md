@@ -22,8 +22,8 @@ The Now Assist in AI Search ServiceNow® Store application must be installed on 
 
 You must have already completed the following tasks:
 
--   [Request installation](https://www.servicenow.com/docs/access?context=request-integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) of the ServiceNow IntegrationHub Enterprise Pack Installer \[com.glide.hub.integrations.enterprise\] plugin
--   [Configure OAuth application in Microsoft Azure](https://www.servicenow.com/docs/access?context=configure-oauth-application-in-microsoft-azure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   Request installation of the ServiceNow IntegrationHub Enterprise Pack Installer \[com.glide.hub.integrations.enterprise\] plugin
+-   Configure OAuth application in Microsoft Azure
 
 You will need read access to the following Microsoft Azure Portal configuration settings for your Microsoft SharePoint Online instance:
 

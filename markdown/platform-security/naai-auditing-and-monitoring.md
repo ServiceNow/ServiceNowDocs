@@ -23,7 +23,7 @@ The following topics describe how to monitor and export logs from Now Assist Gua
 
     Export logs from Now Assist Guardian to get insights into how often different guardrails are being detected and used.
 
--   **[Now Assist Guardian analytics](https://www.servicenow.com/docs/access?context=now-assist-guardian-analytics&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Guardian analytics**
 
     Monitor the performance of guardrails enabled through Now Assist Guardian.
 
@@ -32,11 +32,11 @@ The following topics describe how to monitor and export logs from Now Assist Gua
 
 The following topics describe how to use Now Assist Analytics and the AI Agent Analytics dashboard to monitor usage, performance, and adoption of Now Assist skills and AI agents across your instance.
 
--   **[Analyzing Now Assist performance](https://www.servicenow.com/docs/access?context=now-assist-analytics&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Analyzing Now Assist performance**
 
     Monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 
--   **[Analyzing Now Assist usage](https://www.servicenow.com/docs/access?context=now-assist-analytics-and-monitoring&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Analyzing Now Assist usage**
 
     Review summaries, skill usage information, and issues that need your attention from the Now Assist Overview page.
 
@@ -44,15 +44,15 @@ The following topics describe how to use Now Assist Analytics and the AI Agent A
 
     View key usage indicators that help you evaluate the performance of your Now Assist implementations.
 
--   **[Usage and adoption](https://www.servicenow.com/docs/access?context=usage-and-adoption&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Usage and adoption**
 
     View key usage and performance indicators that help you evaluate the adoption of Now Assist in your organization.
 
--   **[Skills performance](https://www.servicenow.com/docs/access?context=skill-usage&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Skills performance**
 
     View usage and performance indicators for one or more active Now Assist skills.
 
--   **[AI Agent Analytics dashboard](https://www.servicenow.com/docs/access?context=ai-agent-dashboard&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **AI Agent Analytics dashboard**
 
     Track AI agent use and efficiency gain on your instance. The dashboard reveals trends in how AI agents are used to improve time to resolution and the number of tasks closed.
 

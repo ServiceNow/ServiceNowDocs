@@ -28,7 +28,7 @@ These fields operate the same as normal text and HTML fields respectively, excep
 
 For translated text and HTML fields, the English language text is stored in the main table, but the values of other languages are stored in the Translated Text \[sys\_translated\_text\] table. Each translated field on every row has one or more entries in the Translated Text table: one per language for which ServiceNow provides a translation. For more information, see [Translated text table](../reference/r_TranslatedText.md).
 
-**Note:** Knowledge article translation uses a separate system that relies on the I18N: Knowledge Management Internationalization Plugin. If this plugin is not activated, knowledge article translation falls back on the system described here, with translations kept in the Translated Text \[sys\_translated\_text\] table. For more information about Knowledge Management internationalization, see [Translation management](https://www.servicenow.com/docs/access?context=translation-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) in the Knowledge Management documentation.
+**Note:** Knowledge article translation uses a separate system that relies on the I18N: Knowledge Management Internationalization Plugin. If this plugin is not activated, knowledge article translation falls back on the system described here, with translations kept in the Translated Text \[sys\_translated\_text\] table. For more information about Knowledge Management internationalization, see Translation management in the Knowledge Management documentation.
 
 ## Translate long text content
 

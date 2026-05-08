@@ -17,7 +17,7 @@ Use the Sentiment Analysis skill in Now Assist for Accounts Payable Operations \
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 Role required: sn\_slm.fulfiller, sn\_slm.owner, or sn\_slm.admin
 

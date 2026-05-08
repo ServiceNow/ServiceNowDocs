@@ -355,7 +355,7 @@ Credential tag for source
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) this activity must use to run SSH commands on the source host.
+Specific Credential aliases for Orchestration activities this activity must use to run SSH commands on the source host.
 
 </td><td>
 

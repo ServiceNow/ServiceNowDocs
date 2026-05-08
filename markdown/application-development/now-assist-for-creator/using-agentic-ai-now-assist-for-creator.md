@@ -55,7 +55,7 @@ Automated Test Framework \(ATF\)
 
 </td></tr><tr><td>
 
-[Theme generation agentic workflow](https://www.servicenow.com/docs/access?context=create-theme-now-assist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Theme generation agentic workflow
 
 </td><td>
 

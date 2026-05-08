@@ -38,7 +38,7 @@ You can view the following information for each CI:
 
 Each CI type \(CI class\) has different attributes. For example, the Linux Server type has different attributes than the SQL Instance type.
 
-If Service Mapping is deployed, the way CIs appear on the map depends on the [view you select for the map](https://www.servicenow.com/docs/access?context=modify-map-view&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). Attributes available for viewing also depend on the Service Mapping setup. For more information, see description of [components installed with Service Mapping](https://www.servicenow.com/docs/access?context=components-installed-with-service-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+If Service Mapping is deployed, the way CIs appear on the map depends on the view you select for the map. Attributes available for viewing also depend on the Service Mapping setup. For more information, see description of components installed with Service Mapping.
 
 ## Procedure
 

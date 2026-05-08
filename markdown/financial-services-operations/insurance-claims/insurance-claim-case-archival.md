@@ -23,7 +23,7 @@ Role required: admin
 
 The Archive Claim Case rule is that a case that is inactive and more than seven years old is automatically archived. This rule is the base system archiving rule for claim cases in the Claim Case \[sn\_ins\_gen\_claim\_case\] table and is active by default. You can modify the archiving rule if necessary.
 
-For more information on archive rules and archiving records, see [Archiving records in Core UI](https://www.servicenow.com/docs/access?context=archiving-older-records&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on archive rules and archiving records, see Archiving records in Core UI.
 
 ## Procedure
 
@@ -39,5 +39,5 @@ For more information on archive rules and archiving records, see [Archiving reco
 **Related topics**  
 
 
-[Archiving records in Core UI](https://www.servicenow.com/docs/access?context=archiving-older-records&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.archiving-older-records]
 

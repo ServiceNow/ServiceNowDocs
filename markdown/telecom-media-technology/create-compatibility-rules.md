@@ -101,5 +101,5 @@ Name of the compatibility rule based on the source configuration. Displays when 
 
 ## What to do next
 
-[Create compatible records in compatibility rules](https://www.servicenow.com/docs/access?context=order-mgt-create-compatibles&version=australia&pubname=australia-order-management&ft:locale=en-US).
+Create compatible records in compatibility rules.
 

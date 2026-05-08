@@ -15,7 +15,7 @@ breadcrumb: [Reference, Legal Hold Notification, Legal Service Delivery Practice
 
 Various components are installed with Legal Hold Notification.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles
 

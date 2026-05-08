@@ -6,7 +6,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Plan calendar, Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---

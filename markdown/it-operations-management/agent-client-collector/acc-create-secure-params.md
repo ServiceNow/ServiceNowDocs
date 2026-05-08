@@ -37,15 +37,15 @@ Role required: agent\_client\_collector\_admin
 
 5.  Configure the fields on the page.
 
-<table id="choicetable_jz2_g32_1mb"><thead><tr><th align="left" id="d659659e112">
+<table id="choicetable_jz2_g32_1mb"><thead><tr><th align="left" id="d659634e112">
 
 Field Name
 
-</th><th align="left" id="d659659e115">
+</th><th align="left" id="d659634e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d659659e121">
+</th></tr></thead><tbody><tr><td id="d659634e121">
 
 **Name**
 
@@ -53,7 +53,7 @@ Description
 
 The name of the parameter, formatted as a reference prefix. For example, `cred_` is a reference prefix for the credentials table.
 
-</td></tr><tr><td id="d659659e133">
+</td></tr><tr><td id="d659634e133">
 
 **Check Definition**
 
@@ -61,7 +61,7 @@ The name of the parameter, formatted as a reference prefix. For example, `cred_`
 
 The name of the check definition connected to the parameter.
 
-</td></tr><tr><td id="d659659e142">
+</td></tr><tr><td id="d659634e142">
 
 **Order**
 
@@ -73,7 +73,7 @@ A number indicating the order in which the parameter is sent to the check comman
 
  The `READ` command is performed first on the **username** parameter and then on the **password** parameter. You can then use **$username** and **$password** in your Bash script.
 
-</td></tr><tr><td id="d659659e202">
+</td></tr><tr><td id="d659634e202">
 
 **Active**
 

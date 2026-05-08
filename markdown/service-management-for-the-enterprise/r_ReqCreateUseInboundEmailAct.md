@@ -27,7 +27,7 @@ Requests can be automatically updated from the information in inbound email repl
 **Related topics**  
 
 
-[Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_EmailNotifications]
 
-[Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_InboundEmailActions]
 

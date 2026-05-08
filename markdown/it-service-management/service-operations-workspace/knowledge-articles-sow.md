@@ -15,11 +15,11 @@ breadcrumb: [Managing IT services in your organization, Service Operations Works
 
 Knowledge articles provide agents with information such as self-help, troubleshooting, and task resolution.
 
-An agent can work on the agent's published and unpublished articles, feedback tasks, flagged tasks, and translation tasks. For information about knowledge articles, see [Using Knowledge Management](https://www.servicenow.com/docs/access?context=using-knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+An agent can work on the agent's published and unpublished articles, feedback tasks, flagged tasks, and translation tasks. For information about knowledge articles, see Using Knowledge Management.
 
 **Note:** The list of agent's translation tasks is available only when the I18N: Knowledge Management Internationalization Plugin v2 plugin \(com.glideapp.knowledge.i18n2\) is activated.
 
-Agents can also use knowledge blocks to reuse content within knowledge articles. For information about knowledge blocks, see [Knowledge blocks](https://www.servicenow.com/docs/access?context=knowledge-blocks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Agents can also use knowledge blocks to reuse content within knowledge articles. For information about knowledge blocks, see Knowledge blocks.
 
 **Note:** The list of knowledge blocks is available only when the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\) is activated.
 

@@ -23,7 +23,7 @@ Role required: knowledge
 
 ## About this task
 
-The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see [Unified taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+The taxonomy feature enables you to link an article to one or more topics from multiple taxonomies. It helps you maintain a unified content categorization across content types such as catalog items, knowledge articles, and community posts. For more information, see Unified taxonomy for Employee Center
 
 **Note:** You can associate only articles in the Draft, Review, or Published state.
 

@@ -20,7 +20,7 @@ Use the Discovery Admin Workspace dashboard to create an Azure Discovery schedul
 
 Verify the following:
 
--   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://www.servicenow.com/docs/access?context=use-mid-server-guidedsetup&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using Use MID Server guided setup or by manually downloading and running the installer. For details, see the MID Server installation instructions for Linux and Windows.
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
 -   You have configured a service principal in the Azure Active Directory that has the necessary permissions so that the MID Server can access the cloud resources you plan to discover. For more information, see [Discovery for Microsoft Azure](../concept/azure-cloud-discovery.md).
 -   You have created suitable credentials in the ServiceNow AI Platform to connect with the service accounts on which you want to perform the discovery. For more information, see [Create Azure cloud credentials](create-azure-cloud-credentials.md).
@@ -44,7 +44,7 @@ Role required: discovery\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.|
+    |**Use a cluster of MID servers**|Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See Configure a MID Server cluster for more information.|
     |**Automatically select a MID server**|An available MID Server is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](../../agent-client-collector/concept/acc-auto-mid-selection.md) for more information.|
     |**Search for a MID server**|Choose a MID Server to run the Discovery schedule. Only MID Servers that are validated, up, and have the Cloud Management capability are displayed.|
 
@@ -52,15 +52,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d509088e328">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d509066e328">
 
 Option
 
-</th><th align="left" id="d509088e331">
+</th><th align="left" id="d509066e331">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d509088e337">
+</th></tr></thead><tbody><tr><td id="d509066e337">
 
 **Existing cloud account**
 
@@ -68,7 +68,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Subscription ID/Management Group ID** fields auto-populate.
 
-</td></tr><tr><td id="d509088e352">
+</td></tr><tr><td id="d509066e352">
 
 **New cloud account**
 

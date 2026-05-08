@@ -1104,12 +1104,12 @@ Install Now Assist for Integration Hub and start using the available AI agents. 
 
 This spoke provides standalone AI agents that mimic human-like intelligence to perform tasks in your ServiceNow instance.
 
--   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
+-   In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. See Create an agentic workflow for information about adding AI agents to create agentic workflows as per your requirement and provide the required trigger.
 
-    You can also search for other available AI agents and add them to your agentic workflow. See [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+    You can also search for other available AI agents and add them to your agentic workflow. See Find AI agents for more information.
 
--   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information about creating a clone.
--   See [Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for information about AI agents.
+-   You can create a clone of the required spoke AI agent and customize it as per your requirement. See Duplicate an AI agent for more information about creating a clone.
+-   See Now Assist AI agents for information about AI agents.
 
 |AI agent|Description|
 |--------|-----------|
@@ -1120,7 +1120,7 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 |SuccessFactors jobs management AI agent|Retrieves candidate information based on the ID.|
 |SuccessFactors employee management AI agent|Retrieves and manages employee-related information such as, benefit information and time off details.|
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
@@ -1128,7 +1128,7 @@ There might be AI agents installed with the Now Assist application that are not 
 
 Install Now Assist for Integration Hub and start using the available sample agentic workflows and AI agents. For more information, see [Now Assist for Integration Hub](../../integrationhub/concept/now-assist-spokes.md).
 
-In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+In the ServiceNow agentic system, you can create an agentic workflow that comprises of a set of large language model \(LLM\) instructions along with one or more standalone AI agents to execute an objective. Use the available sample agentic workflow in AI Agent Studio so that AI agents can coordinate to solve complex problems. To modify the available sample agentic workflow as per your requirement, see Modify an agentic workflow.
 
 <table id="table_jm1_mlv_c3c"><thead><tr><th>
 
@@ -1161,7 +1161,7 @@ Retrieves a worker’s profile information along with their time‑off balance a
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+No**Note:** To activate the workflow, see Activate an agentic workflow template.
 
 </td></tr><tr><td>
 
@@ -1178,7 +1178,7 @@ Retrieves an employee’s payroll information and benefit enrollment details fro
 
 </td><td>
 
-No**Note:** To activate the workflow, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+No**Note:** To activate the workflow, see Activate an agentic workflow template.
 
 </td></tr></tbody>
 </table>## Spoke modules
@@ -1348,7 +1348,7 @@ These user roles are available along with the spoke:
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see Connections and Credentials.
 
 Two connection and credential aliases are available with the SuccessFactors spoke. One for the SOAP API and the other for the OData API.
 

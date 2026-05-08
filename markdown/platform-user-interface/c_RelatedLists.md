@@ -13,7 +13,7 @@ breadcrumb: [Forms in the classic environment, Working in the classic environmen
 
 Related lists appear on forms and show records in tables that have relationships to the current record.
 
-Users can view and modify information in related lists like any other list. Administrators can configure related lists to appear on forms and in hierarchical lists by [configuring a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Related lists do not have a size limit.
+Users can view and modify information in related lists like any other list. Administrators can configure related lists to appear on forms and in hierarchical lists by configuring a form. Related lists do not have a size limit.
 
 **Note:**
 
@@ -39,7 +39,7 @@ You can set a default filter to restrict which related records users can select 
 **Related topics**  
 
 
-[Configure form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.configure-form-layout]
 
 [Lists in the classic environment](../../using-lists/concept/c_UseLists.md)
 

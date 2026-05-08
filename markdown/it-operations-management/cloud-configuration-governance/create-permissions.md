@@ -18,7 +18,7 @@ Assign a permission to refine the actions that are allowed or prohibited for use
 ## Before you begin
 
 -   Role required: sn\_cmp.cloud\_governor
--   The [user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to which you want the permission applied.
+-   The user group to which you want the permission applied.
 
 ## Procedure
 

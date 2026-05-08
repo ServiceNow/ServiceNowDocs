@@ -201,7 +201,7 @@ The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution
 The plugins com.snc.contextual\_search\_ml and com.snc.incident.mim.ml\_solution must be active.
 
 </td></tr></tbody>
-</table>For more information on classification and similarity solution, refer to [Create solution definition](https://www.servicenow.com/docs/access?context=create-solution-definition&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Create similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>For more information on classification and similarity solution, refer to Create solution definition and Create similarity solution.
 
 ## Business rule for classification solutions
 

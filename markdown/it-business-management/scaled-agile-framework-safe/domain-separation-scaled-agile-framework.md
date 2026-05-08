@@ -25,7 +25,7 @@ Domain separation is supported in the Scaled Agile Framework \(SAFe\) applicatio
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 **Parent Topic:**[Scaled Agile Framework \(SAFe\)](SAFeoverview.md)
 
@@ -44,5 +44,5 @@ For more information on support levels, see [Application support for domain sepa
 
 [Work Progress Status for SAFe](../../work-progress-status-safe/concept/work-progress-status-safe-overview.md)
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

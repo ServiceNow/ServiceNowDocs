@@ -21,7 +21,7 @@ Now Assist for Automation Center helps you create an automation request from Tas
 
 ## User Task Step Summarization skill
 
-Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see [Integration with Automation Center](https://www.servicenow.com/docs/access?context=integration-with-automation-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Now Assist for Automation Center includes the User task step summarization skill, which must be activated before you can create automation requests from the Task Mining Workspace. For information about creating an automation request from Task Mining workspace, see Integration with Automation Center.
 
 ## Saving Estimator skill
 

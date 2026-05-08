@@ -42,8 +42,8 @@ Walk-up Experience includes several base system notifications that you can use o
 
     For more information, refer to the following topics:
 
-    -   [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Create a push message](https://www.servicenow.com/docs/access?context=t_CreateAPushMessage&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    For complete information regarding using the System Notification application, refer to [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   Create an email notification
+    -   Create a push message
+    For complete information regarding using the System Notification application, refer to Notifications.
 
 

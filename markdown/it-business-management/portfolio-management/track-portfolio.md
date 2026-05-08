@@ -23,15 +23,15 @@ Role required: it\_portfolio\_manager
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d268253e71">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d268249e71">
 
 Location
 
-</th><th align="left" id="d268253e74">
+</th><th align="left" id="d268249e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d268253e80">
+</th></tr></thead><tbody><tr><td id="d268249e80">
 
 **From application navigator**
 
@@ -41,7 +41,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d268253e116">
+</td></tr><tr><td id="d268249e116">
 
 **From the portfolio list**
 

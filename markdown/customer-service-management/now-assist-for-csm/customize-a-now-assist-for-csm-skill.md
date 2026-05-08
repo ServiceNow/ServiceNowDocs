@@ -130,7 +130,7 @@ Description of the base input field value.
 
     Review and test the default prompt provided. The prompt is fixed and cannot be customized directly within this step or from the Now Assist Admin screen.
 
-    To customize or create new prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    To customize or create new prompts, select **Edit prompt in Now Assist Skill Kit**. This will redirect you to the Now Assist Skill Kit, where you can manage prompt configurations for the skill. For more info, see Now Assist Skill Kit
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 
@@ -170,7 +170,7 @@ Description of the base input field value.
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

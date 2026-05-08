@@ -86,7 +86,7 @@ The glide.attachment.extensions system property is empty by default. When custom
 -   png
 -   pdf
 
- For more information, see [Restrict attachment file extensions](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=australia&pubname=australia-platform-administration&section=t_RestrictingFileExtensions&ft:locale=en-US).
+ For more information, see Restrict attachment file extensions.
 
 </td></tr><tr><td>
 

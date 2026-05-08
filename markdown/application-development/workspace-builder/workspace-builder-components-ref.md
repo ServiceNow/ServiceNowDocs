@@ -23,8 +23,8 @@ The data visualization component is a container for available chart types for us
 
 For more information on data visualization components, see the following topics and sources:
 
--   [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
--   [Create a single score data visualization](https://www.servicenow.com/docs/access?context=create-dv-sing-sc-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   Data visualizations in Platform Analytics
+-   Create a single score data visualization
 -   [Developer site data visualization component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-par-visualization-base/overview)
 
 ![Data visualization element to be edited](../image/wb-data-viz-purple-new.png)
@@ -35,7 +35,7 @@ Filters enable you to filter data visualizations without modifying the visualiza
 
 For more information on using filters components to build a workspace, see the following topics and sources:
 
--   [Next Experience filters](https://www.servicenow.com/docs/access?context=interactive-filters-workspace&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   Next Experience filters
 -   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-component-filter/overview)
 
 ## Heading components

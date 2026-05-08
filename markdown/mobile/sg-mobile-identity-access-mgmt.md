@@ -28,9 +28,9 @@ The ServiceNow mobile apps use a new authentication methodology called AppAuth. 
 
 ServiceNow mobile apps require multi-provider single sign-on in order to use external authentication. The multi providers SSO plugin \[com.snc.integration.sso.multi.installer\] provides SAML authentication support. The login process \(AppAuth\) uses this plugin to redirect the user to the IDP \(SAML provider\) login page when using SAML.
 
-For more information on this plugin, see [External single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on this plugin, see External single sign-on \(SSO\).
 
-For more information on configuring multi provider SSO, see [Multi-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on configuring multi provider SSO, see Multi-Provider single sign-on \(SSO\).
 
 ## Multifactor authentication
 
@@ -38,11 +38,11 @@ Users can access the instance via Multifactor Authentication using the MFA plugi
 
 ![Multifactor login page in the Mobile Agent app.](../image/mobile-mfa-redirect.png "Multifactor login page in the Mobile Agent app")
 
-For details on configuring Multi-factor Authentication, see [Multifactor authentication system properties](https://www.servicenow.com/docs/access?context=mfa-properties&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+For details on configuring Multi-factor Authentication, see Multifactor authentication system properties
 
 ## LDAP
 
-Use LDAP authentication to access using LDAP credentials. The user sees the same login page as the local login \(DB based\) but the back end to the LDAP server deletes the authentication. For more information on LDAP configuration, see [Lightweight Directory Access Protocol integration](https://www.servicenow.com/docs/access?context=c_LDAPIntegration&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Use LDAP authentication to access using LDAP credentials. The user sees the same login page as the local login \(DB based\) but the back end to the LDAP server deletes the authentication. For more information on LDAP configuration, see Lightweight Directory Access Protocol integration.
 
 ## Local DB
 

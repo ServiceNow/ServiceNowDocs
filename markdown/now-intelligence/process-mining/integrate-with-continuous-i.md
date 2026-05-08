@@ -34,9 +34,9 @@ Integration with Continual Improvement Management doesn’t add any additional r
 
 [Example of Continual Improvement Management using Process Mining](integrate-with-continuous-i.md#)
 
-[Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.cim-landing-page]
 
-[Request Continual Improvement Management](https://www.servicenow.com/docs/access?context=request-cim&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.request-cim]
 
 ## Launch Process Mining from CIM
 
@@ -52,15 +52,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d103536e231">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d103530e233">
 
 From where
 
-</th><th align="left" id="d103536e234">
+</th><th align="left" id="d103530e236">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d103536e240">
+</th></tr></thead><tbody><tr><td id="d103530e242">
 
 **Continual Improvement Workbench**
 
@@ -72,7 +72,7 @@ Steps
 
 **Note:** For more information, refer to [Create a project or template using Project Builder](../task/define-workflow-model.md).
 
-</td></tr><tr><td id="d103536e291">
+</td></tr><tr><td id="d103530e293">
 
 **Improvement Initiative**
 

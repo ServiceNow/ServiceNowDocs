@@ -29,7 +29,7 @@ Create the content for a Virtual Agent notification delivered in a chat or messa
 You can personalize Virtual Agent notifications by using parameter substitution to add dynamic content to the message header and message. When adding dynamic content to your notifications, you specify the variables that identify the record values to be included in the content. You can add dynamic content to the following types of notifications:
 
 -   Record-based notifications - Use the `${<variable_name>}` format in your content to specify a variable that represents a record value from the table used for the notification. For example, if you want to customize the message heading for a notification that uses the Incident table and you want to include the incident **Priority** in the message, use the **Select variable** column to select the variable for incident priority.
--   Event-based notifications - Use the `${event.parm1}` and `${event.parm2}` format to specify event-specific parameters that pass record information in the notification content. To learn more about event parameters and how they work, see [Events](https://www.servicenow.com/docs/access?context=events&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+-   Event-based notifications - Use the `${event.parm1}` and `${event.parm2}` format to specify event-specific parameters that pass record information in the notification content. To learn more about event parameters and how they work, see Events.
 -   Advanced notifications - Modify a script provided for advanced notifications to specify dynamic content from different data sources and identify third-party services, such as URL shortening for streamlining links in the content.
 
 ## Procedure

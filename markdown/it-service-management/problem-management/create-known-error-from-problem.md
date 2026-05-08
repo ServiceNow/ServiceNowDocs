@@ -23,7 +23,7 @@ Activate the Problem Management Best Practice — Madrid \(com.snc.best\_practic
 
 ## About this task
 
-After you create a known error article from a problem, the article is saved in the knowledge base and maintained in the Knowledge Management application. The publishing and retirement processes for a knowledge article are controlled by workflows defined for the knowledge base that the article belongs to. For more information, see [Knowledge workflows](https://www.servicenow.com/docs/access?context=r_KnowledgeWorkflows&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+After you create a known error article from a problem, the article is saved in the knowledge base and maintained in the Knowledge Management application. The publishing and retirement processes for a knowledge article are controlled by workflows defined for the knowledge base that the article belongs to. For more information, see Knowledge workflows.
 
 ## Procedure
 

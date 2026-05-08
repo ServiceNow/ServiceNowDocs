@@ -59,7 +59,7 @@ You can set a case as a valid claim and create a claim for it only if it's an in
 -   The customer gets a pre-configured email notification about the new claim case.
 -   If there's a Customer or Consumer Service Portal available for customers, the new claim case appears on the portal.
 
-    For more information, see [View a case from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=view-cases-consumer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    For more information, see View a case from the Consumer Service Portal.
 
     **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 

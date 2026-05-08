@@ -15,7 +15,7 @@ breadcrumb: [Create custom opportunity types, Configure, Opportunity Marketplace
 
 Opportunity Marketplace user criteria are maintained in the Service Catalog under Catalog Definitions. There are several user criteria records to select from, or you can create your own user criteria.
 
-User criteria records are contained in the **Opportunity** \[sn\_opp\_market\_opportunity\] table. To create custom user criteria, see [Create a user criteria record in Service Catalog](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+User criteria records are contained in the **Opportunity** \[sn\_opp\_market\_opportunity\] table. To create custom user criteria, see Create a user criteria record in Service Catalog.
 
 **Note:** When you create user criteria records from an application, the **Application** field shows the associated app.
 

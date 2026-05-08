@@ -37,7 +37,7 @@ MetricBase triggers are not available on the base system. The MetricBase applica
 
     |Field|Description|
     |-----|-----------|
-    |MetricBase Trigger|Select or create a MetricBase trigger record to start the flow. For types of MetricBase triggers, see [MetricBase triggers](https://www.servicenow.com/docs/access?context=metricbase-triggers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).|
+    |MetricBase Trigger|Select or create a MetricBase trigger record to start the flow. For types of MetricBase triggers, see MetricBase triggers.|
     |Table|Read-only table that contains the metric.|
     |Condition|Click **Add filters** to set field-based conditions that determine when the flow runs.|
     |Condition Script|Define a script in the Additional MetricBase Trigger Filtering and Moderation table to prevent duplicate metric events from re-triggering a flow. For example, if a metric hovers at a defined trigger threshold, create a script that defines whether to run the flow once when the metric is met, or every time the triggering threshold is exceeded.|

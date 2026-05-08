@@ -15,13 +15,13 @@ The InvokeAction component returns the context ID of an action in Workflow Studi
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To understand more about flows in Workflow Studio, see Building flows.
 
 Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
 
 Enable the client callable option on an RPA Hub flow or subflow. For more information, see [Enable the client callable option on a flow or subflow in RPA Hub](enable-client-flow-rpa.md).
 
-Role required: fd\_read role. For more information on this role, see [User access to Workflow Studio flows](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Role required: fd\_read role. For more information on this role, see User access to Workflow Studio flows.
 
 ## About this task
 

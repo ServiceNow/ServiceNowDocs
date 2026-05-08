@@ -80,9 +80,9 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 
 |Benefit|Application|Users|
 |-------|-----------|-----|
-|Export data from your ServiceNow instance to an external application using the Hermes Messaging Service with Workflow Studio.|[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US)|Administrator|
-|Export log data securely from your instance to your external data lake for reporting, auditing, or regulatory purposes by using the Hermes Messaging Service with the Log Export Service.|[Exploring Log Export Service \(LES\)](https://www.servicenow.com/docs/access?context=les-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)|Administrator|
-|Trigger flows from incoming Kafka events and trigger outgoing messages to your Kafka environment using the Hermes Messaging Service with Stream Connect.|[Using Stream Connect for Apache Kafka](https://www.servicenow.com/docs/access?context=stream-connect-apache-kafka&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)|Administrator|
+|Export data from your ServiceNow instance to an external application using the Hermes Messaging Service with Workflow Studio.|Flow Designer|Administrator|
+|Export log data securely from your instance to your external data lake for reporting, auditing, or regulatory purposes by using the Hermes Messaging Service with the Log Export Service.|Exploring Log Export Service \(LES\)|Administrator|
+|Trigger flows from incoming Kafka events and trigger outgoing messages to your Kafka environment using the Hermes Messaging Service with Stream Connect.|Using Stream Connect for Apache Kafka|Administrator|
 |Improve the performance and processing efficiency of Instance Data Replication \(IDR\) by upgrading replication sets that you created prior to the Utah release to use the Hermes Messaging Service.|[Instance Data Replication](../../instance-data-replication/concept/instance-data-replication.md)|Administrator|
 
 ## Limitations

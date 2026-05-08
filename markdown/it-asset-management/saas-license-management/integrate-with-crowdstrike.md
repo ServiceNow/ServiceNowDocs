@@ -31,7 +31,7 @@ Register the CrowdStrike OAuth application to access the CrowdStrike API and to 
 
 ### Before you begin
 
-The CrowdStrike Integration Hub spoke must be active. For more information, see [CrowdStrike spoke](https://www.servicenow.com/docs/access?context=crowdstrike-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+The CrowdStrike Integration Hub spoke must be active. For more information, see CrowdStrike spoke.
 
 CrowdStrike Role required: Falcon administrator
 
@@ -73,7 +73,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 ServiceNow Role required: sam\_admin or sam\_integrator
 
-**Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

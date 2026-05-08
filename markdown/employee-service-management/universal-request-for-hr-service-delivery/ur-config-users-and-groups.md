@@ -31,9 +31,9 @@ Group information is used across most processes in the ServiceNow AI Platform fo
 
 -   You can create new users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Add a user to a group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    -   Create a user
+    -   Create a user group
+    -   Add a user to a group
 
 **Parent Topic:**[Configuring Universal Request](../concept/configure-ur.md)
 

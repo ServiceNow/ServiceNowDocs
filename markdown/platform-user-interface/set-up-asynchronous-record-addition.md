@@ -31,7 +31,7 @@ If background loading isn’t required for all modals, configure individual moda
 
 2.  Add the **glide.ui.mra.async** system property.
 
-    For more information on adding system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding system property, see Add a system property.
 
     1.  Set the Value to **true**.
 
@@ -39,7 +39,7 @@ If background loading isn’t required for all modals, configure individual moda
 
 3.  Add the **glide.ui.mra.threshold** system property.
 
-    For more information on adding system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding system property, see Add a system property.
 
     1.  Specify how many records can be added before asynchronous record addition occurs.
 

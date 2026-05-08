@@ -75,5 +75,5 @@ Orlando
 </table>**Related topics**  
 
 
-[Run an automated test](https://www.servicenow.com/docs/access?context=atf-run-test&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.atf-run-test]
 

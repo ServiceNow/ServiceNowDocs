@@ -36,32 +36,32 @@ The ServiceNow® ITOM Visibility application provides a unified, connected view 
     -   [Tag Governance](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-tag-governance.html)
     -   [AI Agent Topology Mapping](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-agent-topology-mapping.html)
 
-See [ITOM Visibility](https://www.servicenow.com/docs/access?context=itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information.
+See ITOM Visibility for more information.
 
 ## New in the Australia release
 
--   **[Install ITOM Visibility apps using Now Assist for Setup](https://www.servicenow.com/docs/access?context=nowassist-setup-itom-visibility-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Install ITOM Visibility apps using Now Assist for Setup**
 
     Now Assist for Setup provides a centralized, guided installation experience for ITOM Visibility. From a single interface, administrators can review what applications are included in the installation, review the installation status, and install all required applications and plugins.
 
 
--   **[PowerShell 7 support for Discovery](https://www.servicenow.com/docs/access?context=powershell-remoting&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **PowerShell 7 support for Discovery**
 
     Discovery now supports PowerShell 7, while maintaining backward compatibility with PowerShell 5.1. This update enhances security, accelerates onboarding, and reduces deployment blockers through improved runtime detection and comprehensive test coverage.
 
--   **[Discovery on Code Signing instances](https://www.servicenow.com/docs/access?context=code-sign-disco-probes&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Discovery on Code Signing instances**
 
     Discovery now enforces code signing for probes, parameters, and sensors to guarantee authenticity, integrity, and secure execution on MID Servers. This update blocks unsigned or tampered payloads, provides signature validation, and strengthens compliance by helping prevent audit gaps without impacting discovery performance.
 
--   **[Discovery generic attributes](https://www.servicenow.com/docs/access?context=disco-generic-attributes&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Discovery generic attributes**
 
     Enhance Configuration Management Database \(CMDB\) data accuracy with new Discovery capabilities that auto-populate non-discoverable attributes using a schedule-based mechanism. This update simplifies configuration item \(CI\) management by propagating generic attribute values across schedules and ranges, reducing manual effort and improving usability.
 
--   **[Use Kubernetes Visibility Agent \(KVA\) and Service Mapping to create service maps for extended services beyond Kubernetes](https://www.servicenow.com/docs/access?context=mapping-k8s-sm-kva&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Use Kubernetes Visibility Agent \(KVA\) and Service Mapping to create service maps for extended services beyond Kubernetes**
 
     Service Mapping complements Kubernetes Visibility Agent \(KVA\) capabilities to map services that include Kubernetes and all related service resources beyond the Kubernetes environment. Install the latest version of Kubernetes Visibility Agent \(KVA\) to detect the latest changes in your Kubernetes cluster and run Service Mapping to have an up to date visualization of your services across Kubernetes and related resources.
 
--   **[Quick start tests for Service Mapping](https://www.servicenow.com/docs/access?context=quick-start-tests-service-mapping&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Quick start tests for Service Mapping**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Service Mapping works as expected. If you customized Service Mapping, copy the quick start tests and configure them for your customizations.
 
@@ -72,7 +72,7 @@ See [ITOM Visibility](https://www.servicenow.com/docs/access?context=itom-visibi
 
 ## Activation information
 
-ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) and [Request Service Mapping](https://www.servicenow.com/docs/access?context=t_ActivateServiceMappingPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store..
+ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see Request Discovery and Request Service Mapping. For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store..
 
 ## Plugin information
 
@@ -98,7 +98,7 @@ ITOM Visibility is available with activation of the Discovery \(com.snc.discover
     -   Ensure that your infrastructure and its applications are running properly.
     Agent Client Collector collects events and metrics. It runs in either a Windows or Linux environment.
 
--   **[ITOM Cloud Accelerate](https://www.servicenow.com/docs/access?context=itom-cloud-accelerate-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **ITOM Cloud Accelerate**
 
     ITOM Cloud Accelerate workflows streamline cloud automation across the cloud adoption journey via self-service catalogs and controlled workflows. It expedites application migration by facilitating assessment, planning, and resource migration tracking.
 
@@ -108,7 +108,7 @@ ITOM Visibility is available with activation of the Discovery \(com.snc.discover
     -   Cloud Services Catalog
     -   Cloud Configuration Governance
     -   Cloud Action Library
--   **[Learning Enhanced Automation Playbook \(LEAP\)](https://www.servicenow.com/docs/access?context=aiops-leap&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)**
+-   **Learning Enhanced Automation Playbook \(LEAP\)**
 
     The Learning Enhanced Automation Playbook \(LEAP\) application uses AI to analyze incident data and facilitate the creation of automations that resolve high-impact issues for Service Operations teams. By leveraging data-driven analytics to accurately identify critical incidents, LEAP enables a more proactive problem management approach.
 

@@ -15,7 +15,7 @@ Define trigger conditions that start a sequence by configuring simple triggers, 
 
 ## Before you begin
 
-**Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see [Playbook release notes](https://www.servicenow.com/docs/access?context=process-automation-designer-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+**Note:** Multi-trigger capability is available only with Playbooks versions 28.1 and higher on the Zurich release. For more information, see Playbook release notes.
 
 Assign delegated developer roles to designated users. For more information, see [Grant delegated developer permissions for managing sequences](grant-delegated-developer-permissions.md).
 
@@ -46,7 +46,7 @@ Role required: sn\_crm\_sequence.admin, sn\_crm\_sequence.writer
 
     To trigger the sequence when a new record is created in the Lead \[sn\_lead\_mgmt\_core\_lead\] table, you would set the condition **\[State\]****\[is\]****\[New\]**.
 
-    For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Condition builder.
 
 8.  Select **Save and close**.
 
@@ -66,7 +66,7 @@ The triggers that you've created appear under the Record based triggers section 
 **Related topics**  
 
 
-[Triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.process-automation-designer-triggers]
 
-[Add and configure a trigger in a playbook](https://www.servicenow.com/docs/access?context=add-configure-trigger&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.add-configure-trigger]
 

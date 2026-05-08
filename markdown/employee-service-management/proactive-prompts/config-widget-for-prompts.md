@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Search and select a page to add the prompt widget.
 
-    You can also create a new page and then add the widget. For more information, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) and [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    You can also create a new page and then add the widget. For more information, see Create and edit a page using the Service Portal Designer and Service Portal widgets.
 
 3.  Select the **Open in Designer** related link.
 

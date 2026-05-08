@@ -52,7 +52,7 @@ The editor opens with the **Welcome** page, which displays a list of active, pub
     **Data**: Activities in the current workflow that output data. You can use these activities as data sources for other activities. Only visible if the orchestration plugin is installed.
 
 
-**Note:** If your workflow welcome page does not look like this example, you may have customized the workflow welcome page before upgrading to Australia. You can update the workflow welcome page to the latest version by editing the [UI pages](https://www.servicenow.com/docs/access?context=r_UIPages&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
+**Note:** If your workflow welcome page does not look like this example, you may have customized the workflow welcome page before upgrading to Australia. You can update the workflow welcome page to the latest version by editing the UI pages .
 
 Navigate to **System UI** &gt; **UI Pages** &gt; **Workflow Editor welcome**. In the UI page record for workflow\_editor\_welcome, scroll to the **Versions** related list. Select the row for the version corresponding to the upgrade to Australia, right-click and select **Revert to this version**.
 

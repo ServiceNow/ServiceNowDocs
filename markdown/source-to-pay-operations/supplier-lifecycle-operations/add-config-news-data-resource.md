@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-A data resource is the data that a page fetches to display the content in the components. For more information, see [Data resources in UI Builder](https://www.servicenow.com/docs/access?context=data-resources&version=australia&pubname=australia-application-development&ft:locale=en-US) .
+A data resource is the data that a page fetches to display the content in the components. For more information, see Data resources in UI Builder .
 
 ## Procedure
 

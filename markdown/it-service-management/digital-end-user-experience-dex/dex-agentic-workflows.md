@@ -28,7 +28,7 @@ To access the DEX issue diagnosis and resolution agentic workflow, make sure tha
 -   Before you begin, review these [Important considerations for using Now Assist for IT Service Management \(ITSM\) agentic AI](../../now-assist-itsm/concept/important-considerations-itsm-agentic-ai.md).
 -   For all available ITSM agentic AI applications, see [Use agentic AI in Now Assist for IT Service Management \(ITSM\)](../../now-assist-itsm/concept/now-assist-itsm-ai-agents-use-cases.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 The DEX issue diagnosis and resolution agentic workflow enables service desk agents to diagnose common issues based on real-time insights into device and application health and resolve these issues by providing targeted resolution plans that can be implemented directly from the workspace. It helps to reduce the resolution time for incidents and enhance overall service desk agent experience.
 

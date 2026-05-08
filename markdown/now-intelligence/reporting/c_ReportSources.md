@@ -94,8 +94,8 @@ Conditions for which table records to include in the report source. For example,
 Sorting on data fields is accessible from within reports for some report types. For information on how to access, search for the **Add Sort** field description in a [Report types](../reference/report-types-creation-details-rd.md) topic for the report type to sort the data on.
 
 -   If the report source is used for a report that includes OR conditions, only records that match both the report and the report source conditions are included.
--   If a report source specifies a [related list condition](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), a report that is based on the report source ignores any additional related list conditions specified from within the report.
--   A report generates errors if it’s based on a report source that specifies a [related list condition](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), and also includes additional related list conditions with dot-walk conditions.
+-   If a report source specifies a related list condition, a report that is based on the report source ignores any additional related list conditions specified from within the report.
+-   A report generates errors if it’s based on a report source that specifies a related list condition, and also includes additional related list conditions with dot-walk conditions.
 
 
 </td></tr></tbody>

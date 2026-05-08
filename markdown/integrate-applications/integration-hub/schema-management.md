@@ -70,9 +70,9 @@ Data, serialized in an Avro format.
 
 Stream Connect producers and consumers can be configured to use an Avro format.
 
-When configuring a producer, simply specify which schema you want to use. Then when you run the producer, the message payload is generated in JSON and automatically converted to an Avro format using the specified schema. For more information on producers, see the [Kafka Producer step](https://www.servicenow.com/docs/access?context=kafka-producer-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) or the [ProducerV2 API](https://www.servicenow.com/docs/access?context=ProducerV2ScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+When configuring a producer, simply specify which schema you want to use. Then when you run the producer, the message payload is generated in JSON and automatically converted to an Avro format using the specified schema. For more information on producers, see the Kafka Producer step or the ProducerV2 API.
 
-Configuring a consumer is similar. Specify the serialization format as **Encoded** and select a schema registry. When the consumer receives a message in an Avro format, it's automatically converted to JSON according to the schema for the schema ID received in the message. For more information, see the [Kafka Message trigger](https://www.servicenow.com/docs/access?context=create-flow-kafka&version=australia&pubname=australia-build-workflows&ft:locale=en-US) or the [ETL](../tasks/configure-etl-consumer.md), [Transform Map](../tasks/configure-transform-map-consumer.md), or [Script](../tasks/configure-script-consumer.md) consumers.
+Configuring a consumer is similar. Specify the serialization format as **Encoded** and select a schema registry. When the consumer receives a message in an Avro format, it's automatically converted to JSON according to the schema for the schema ID received in the message. For more information, see the Kafka Message trigger or the [ETL](../tasks/configure-etl-consumer.md), [Transform Map](../tasks/configure-transform-map-consumer.md), or [Script](../tasks/configure-script-consumer.md) consumers.
 
 ## Plugin
 

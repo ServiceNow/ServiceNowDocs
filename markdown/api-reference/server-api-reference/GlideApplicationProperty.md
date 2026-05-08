@@ -19,7 +19,7 @@ Application properties enable service providers to customize application functio
 
 To access this API you must activate the Domain Support - Domain Extensions Installer \(com.glide.domain.msp\_extensions.installer\) plugin.
 
-For additional information on domain-specific application properties, see [Domain-separated application properties](https://www.servicenow.com/docs/access?context=ds-application-properties&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For additional information on domain-specific application properties, see Domain-separated application properties.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

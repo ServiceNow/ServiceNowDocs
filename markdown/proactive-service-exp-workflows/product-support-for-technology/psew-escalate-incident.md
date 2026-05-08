@@ -40,7 +40,7 @@ Based on the defined conditions, such as current stage, category, and sub-catego
 
 ![Incident Escalation Policy decision table to configure incident escalation results in Service Operations Workspace](../image/psew-incident-dec-table.png)
 
-The decision table is provided with the Proactive Service Experience Workflows application. You can modify the conditions that have been defined, and the results to suit your requirements. For more details on updating decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The decision table is provided with the Proactive Service Experience Workflows application. You can modify the conditions that have been defined, and the results to suit your requirements. For more details on updating decision tables, see Decision Tables.
 
 When an incident is escalated, the status of the Needs attention field is updated to **True**. The status can be changed to **False** by the owner of the Assignment Group field.
 

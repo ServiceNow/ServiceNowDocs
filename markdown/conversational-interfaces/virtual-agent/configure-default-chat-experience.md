@@ -218,7 +218,7 @@ For example, **Anything Else topic**.
 
     3.  Select **Update**.
 
-    **Note:** Although you can change the **Search UI \(EVAM\) Configuration**, the Virtual Agent Search \(EVAM\) configuration provides the appropriate card views and lists of Virtual Agent search results. If you want to create your own EVAM configuration for use, see [Create an EVAM definition](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** Although you can change the **Search UI \(EVAM\) Configuration**, the Virtual Agent Search \(EVAM\) configuration provides the appropriate card views and lists of Virtual Agent search results. If you want to create your own EVAM configuration for use, see Create an EVAM definition.
 
 
 **Parent Topic:**[Customizing a Virtual Agent chat experience](../concept/va-conversation-settings.md)

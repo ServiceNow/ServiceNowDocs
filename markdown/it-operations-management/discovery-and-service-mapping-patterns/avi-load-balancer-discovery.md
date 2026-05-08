@@ -95,7 +95,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /api/gslbservice
     -   /api/tenant
 -   For the Avi Load Balancer VIP pattern:
-    -   [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    -   Create an service instance.
     -   Before using the Avi Load Balancer VIP pattern, use one of the horizontal Avi load balancer discovery patterns to find the Avi infrastructure.
 
 ## Data collected by Discovery during horizontal discovery

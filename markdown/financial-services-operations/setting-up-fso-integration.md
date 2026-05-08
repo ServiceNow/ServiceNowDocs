@@ -19,7 +19,7 @@ You can set up and configure the Socure integration in your flows for multiple u
 
 To set up your integration, do the following actions:
 
-1.  Request an Integration Hub subscription. To learn how, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+1.  Request an Integration Hub subscription. To learn how, see Request Integration Hub
 2.  Activate Financial Services Operations integration with Socure application from ServiceNow Store which automatically activates the Socure spoke.
-3.  Set up the Socure spoke. To learn how, see [Set up the Socure spoke](https://www.servicenow.com/docs/access?context=setup-socure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+3.  Set up the Socure spoke. To learn how, see Set up the Socure spoke.
 

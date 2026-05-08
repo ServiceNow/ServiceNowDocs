@@ -25,5 +25,5 @@ Access the following Field Service Management features using Section 508 complia
 **Related topics**  
 
 
-[Accessibility features](https://www.servicenow.com/docs/access?context=c_SetUpSect508ComplianceFeature&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_SetUpSect508ComplianceFeature]
 

@@ -15,7 +15,7 @@ breadcrumb: [Use, Virtual Agent API, Build and deploy, Virtual Agent, Conversati
 
 In bot-to-bot integrations \(Virtual Agent API\), abandoned conversations that are "idle" for more than an hour are automatically closed by the scheduled job, **Time Out Abandoned B2B Conversations**. This job runs hourly each day.
 
-The default timeout period for abandoned bot-to-bot conversations is one hour \(3600 seconds\). The **Time Out Abandoned B2B Conversations** job closes any bot-to-bot conversations that have been open longer than one hour \(3600 seconds\). You \(admins\) can change the default timeout period for idle bot-to-bot conversations by [adding the system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) **com.glide.cs.b2b\_conversation\_idle\_timeout**.
+The default timeout period for abandoned bot-to-bot conversations is one hour \(3600 seconds\). The **Time Out Abandoned B2B Conversations** job closes any bot-to-bot conversations that have been open longer than one hour \(3600 seconds\). You \(admins\) can change the default timeout period for idle bot-to-bot conversations by adding the system property **com.glide.cs.b2b\_conversation\_idle\_timeout**.
 
 The timeout value that you specify in this property applies to all bot-to-bot conversations involving the Virtual Agent.
 
@@ -77,7 +77,7 @@ To change the time that this hourly scheduled job runs or to make other adjustme
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and open the Time Out Abandoned B2B Conversations record.
 2.  In the Scheduled Script Execution form, change the Time at which the scheduled job runs. Or, depending on how you want to adjust the timing, change other fields in the form as needed.
 
-    For example, to change the interval at which the job runs, in the **Run** field, select **Periodically**. You then specify the **Repeat Interval** \(**Days** and **Hours**\) that the job runs and the **Starting** date for the interval. For a description of the other fields that you can change in this form, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For example, to change the interval at which the job runs, in the **Run** field, select **Periodically**. You then specify the **Repeat Interval** \(**Days** and **Hours**\) that the job runs and the **Starting** date for the interval. For a description of the other fields that you can change in this form, see Automatically run a script of your choosing.
 
 3.  Click **Update**.
 

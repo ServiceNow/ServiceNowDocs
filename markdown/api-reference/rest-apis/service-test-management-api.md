@@ -20,7 +20,7 @@ Use this API to manage service problem management information between external s
 
 This REST API is designed to manage and execute service tests within a telecommunications environment. It allows users to define, trigger, and monitor service tests, ensuring that services meet quality and performance standards. The API provides capabilities for test management, including creating and updating test definitions, executing tests, retrieving test results, and managing test schedules.
 
-The Service Test Management Open API requires the Customer Service Problem Management \(com.sn\_sprb\_mgmt\) application, which is available on the ServiceNow Store. For more information, see [Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+The Service Test Management Open API requires the Customer Service Problem Management \(com.sn\_sprb\_mgmt\) application, which is available on the ServiceNow Store. For more information, see Customer Service Problem Management.
 
 This API runs in the `sn_sprb_mgmt` namespace. The calling user must have the sn\_sprb\_mgmt.test\_integrator role.
 
@@ -2189,7 +2189,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://www.servicenow.com/docs/access?context=define-test-measure-spm&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see Define test measure definitions for a service test.Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -2317,7 +2317,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, Define threshold rules for a test measure definition.Data type: Array of Objects
 
 ```
 {
@@ -2411,7 +2411,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See Define threshold rules for a test measure definition for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -3239,7 +3239,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://www.servicenow.com/docs/access?context=define-test-measure-spm&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see Define test measure definitions for a service test.Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -3367,7 +3367,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, Define threshold rules for a test measure definition.Data type: Array of Objects
 
 ```
 {
@@ -3461,7 +3461,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See Define threshold rules for a test measure definition for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -5488,7 +5488,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://www.servicenow.com/docs/access?context=define-test-measure-spm&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see Define test measure definitions for a service test.Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -5616,7 +5616,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, Define threshold rules for a test measure definition.Data type: Array of Objects
 
 ```
 {
@@ -5710,7 +5710,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See Define threshold rules for a test measure definition for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -6185,7 +6185,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. See [Define test measure definitions for a service test](https://www.servicenow.com/docs/access?context=define-test-measure-spm&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more infomation.Data type: Array of Objects
+Test measure definitions for this service test definition. See Define test measure definitions for a service test for more infomation.Data type: Array of Objects
 
 ```
 "testMeasureDefinition": [
@@ -8569,7 +8569,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. For more information, see [Define test measure definitions for a service test](https://www.servicenow.com/docs/access?context=define-test-measure-spm&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of objects
+Test measure definitions for this service test definition. For more information, see Define test measure definitions for a service test.Data type: Array of objects
 
 ```
 "testMeasureDefinition": [
@@ -8697,7 +8697,7 @@ testMeasureDefinition.thresholdRule
 
 </td><td>
 
-Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).Data type: Array of Objects
+Rule that defines conditions to achieve before applying consequences when a threshold is crossed \(or not crossed\)​ in the test measure definition. For more information, Define threshold rules for a test measure definition.Data type: Array of Objects
 
 ```
 {
@@ -8791,7 +8791,7 @@ testMeasureDefinition.thresholdRule.consequence
 
 </td><td>
 
-Action \(prescribed action or notification\) to take when a threshold rule is crossed. See [Define threshold rules for a test measure definition](https://www.servicenow.com/docs/access?context=define-threshold-rules&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more information.Data type: Array of objects
+Action \(prescribed action or notification\) to take when a threshold rule is crossed. See Define threshold rules for a test measure definition for more information.Data type: Array of objects
 
 ```
 "consequence": [
@@ -9280,7 +9280,7 @@ testMeasureDefinition
 
 </td><td>
 
-Test measure definitions for this service test definition. See [Define test measure definitions for a service test](https://www.servicenow.com/docs/access?context=define-test-measure-spm&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US) for more infomation.Data type: Array of Objects
+Test measure definitions for this service test definition. See Define test measure definitions for a service test for more infomation.Data type: Array of Objects
 
 ```
 "testMeasureDefinition": [

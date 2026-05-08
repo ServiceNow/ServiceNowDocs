@@ -20,7 +20,7 @@ You can install the Conversational SMS service channel application \(sn\_awa\_sm
 -   Ensure that the application and all of its associated store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   The Conversational Messaging plugin \(com.glide.messaging.awa\) must be installed.
 
-    For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on activating plugins, see Activate a plugin.
 
 
 Role required: admin

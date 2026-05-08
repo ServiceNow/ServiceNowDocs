@@ -71,7 +71,7 @@ Conditions
 
 </td><td>
 
-Conditions that a task must meet to appear on the to-dos page in the Employee Center.The conditions available to use are dependent on the table you select. **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Conditions that a task must meet to appear on the to-dos page in the Employee Center.The conditions available to use are dependent on the table you select. **Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -245,7 +245,7 @@ Conditions
 
 </td><td>
 
-Conditions that a to-do must meet for it to display with the widget.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Conditions that a to-do must meet for it to display with the widget.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -261,7 +261,7 @@ Widget
 
 </td><td>
 
-Name of the widget that the to-dos configuration is associated with.**Note:** To learn more about widgets and how to configure them, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Name of the widget that the to-dos configuration is associated with.**Note:** To learn more about widgets and how to configure them, see Service Portal widgets
 
 </td></tr></tbody>
 </table>    3.  Click **Submit** or **Update**.
@@ -310,7 +310,7 @@ Conditions
 
 </td><td>
 
-Enter the Conditions that a to-do must meet for the configuration mapping.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Enter the Conditions that a to-do must meet for the configuration mapping.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 

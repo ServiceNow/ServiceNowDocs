@@ -20,7 +20,7 @@ Add an AWS service account to store the credential and access information.
 You must perform these tasks:
 
 -   Set up download jobs for billing and price sheet data for the service account.
--   [Configure the MID Server for AWS IAM role](https://www.servicenow.com/docs/access?context=config-mid-iam-roles&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   Configure the MID Server for AWS IAM role.
 -   Role required: sn\_clin\_core.insights\_admin
 
 ## About this task

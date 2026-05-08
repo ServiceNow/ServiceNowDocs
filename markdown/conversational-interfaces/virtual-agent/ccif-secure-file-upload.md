@@ -81,7 +81,7 @@ Comma-separated list of one or more trusted domains for the provider. For exampl
 
 **Note:** Subdomains under a trusted domain are also trusted. You do not need to specify subdomains in this list.
 
- If this field is not visible, you can [configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to show it.
+ If this field is not visible, you can configure the form layout to show it.
 
  For security reasons, Virtual Agent checks that the URLs for attachments in conversations are from trusted domains specified here. If the URL is not for a trusted domain, Virtual Agent doesn't upload the attachment.
 

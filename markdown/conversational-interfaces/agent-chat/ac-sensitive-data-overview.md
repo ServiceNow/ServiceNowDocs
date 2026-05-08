@@ -18,7 +18,7 @@ During an Agent Chat or Virtual Agent conversation, the agent or requester may a
 
 **Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Install the Data Privacy application as a replacement. For more information, see Data Privacy.
 
 Possible situations when the Sensitive Data Handler might detect and mask sensitive data include:
 

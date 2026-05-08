@@ -6,7 +6,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management]
 ---
@@ -29,7 +29,7 @@ If these lists and forms have been customized before the migration, they may hav
 -   Discovery Models
 -   Software Installations
 
-You can review plugin activation changes in the [Upgrade History module](https://www.servicenow.com/docs/access?context=uc-history-module&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to determine what changes have automatically been skipped so you can [Resolve a skipped update and set a resolution status](https://www.servicenow.com/docs/access?context=uc-resolve-skipped-update&version=australia&pubname=australia-platform-administration&ft:locale=en-US), if needed.
+You can review plugin activation changes in the Upgrade History module to determine what changes have automatically been skipped so you can Resolve a skipped update and set a resolution status, if needed.
 
 Certain fields added by the migration also must be configured to take advantage of the new features offered.
 
@@ -74,5 +74,5 @@ Certain fields added by the migration also must be configured to take advantage 
 **Related topics**  
 
 
-[plugin](https://www.servicenow.com/docs/access?context=c_SoftwareAssetManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_SoftwareAssetManagement]
 

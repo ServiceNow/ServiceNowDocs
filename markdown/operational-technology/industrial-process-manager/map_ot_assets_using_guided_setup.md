@@ -100,7 +100,7 @@ Activate the scheduled flows to run scheduled mapping of all OT devices regularl
 **Related topics**  
 
 
-[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.guided-setup]
 
 [Automated Mapping Across Zone-based IP Network Groups](automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

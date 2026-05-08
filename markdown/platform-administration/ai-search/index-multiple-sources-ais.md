@@ -35,7 +35,7 @@ If an indexed source contains unindexed records, the Indexed Sources list displa
 
 2.  Select the indexed sources with content that you want to make searchable.
 
-    To select all indexed sources on the page, follow the instructions for your list version in [Perform actions on selected items in a list](https://www.servicenow.com/docs/access?context=configure-use-list-functions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    To select all indexed sources on the page, follow the instructions for your list version in Perform actions on selected items in a list.
 
 3.  In the **Actions on selected rows…** menu, select **Index All Tables**.
 

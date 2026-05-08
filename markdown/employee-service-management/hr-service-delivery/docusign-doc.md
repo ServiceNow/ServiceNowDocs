@@ -28,7 +28,7 @@ The ServiceNow® Document Template integration with Docusign application enables
 
 First, activate the Document Template Integration with DocuSign \[sn\_dt\_docusign\] and Document Templates \[sn\_doc\] applications from ServiceNow Store. Activating the Document Template integration with Docusign application automatically activates the Docusign spoke.
 
-Next, set up the Docusign spoke. For more information, see [Docusign eSignature Spoke](https://www.servicenow.com/docs/access?context=docusign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Next, set up the Docusign spoke. For more information, see Docusign eSignature Spoke.
 
 ## Request apps on the Store
 

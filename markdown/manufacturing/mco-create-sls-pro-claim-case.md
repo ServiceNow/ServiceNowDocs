@@ -61,5 +61,5 @@ Sales promotion claim case is created.
 **Related topics**  
 
 
-[Use the Activity Stream](https://www.servicenow.com/docs/access?context=filter-activity-stream-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.filter-activity-stream-csm]
 

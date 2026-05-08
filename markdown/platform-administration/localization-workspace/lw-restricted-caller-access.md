@@ -78,9 +78,9 @@ Continue with setup of Localization Workspace. See [Configuring Localization Wor
 **Related topics**  
 
 
-[Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.c_ApplicationScope]
 
 [Artifact configurations](../../localization-framework/concept/framework-configuration.md)
 
-[Restricted caller access privilege settings](https://www.servicenow.com/docs/access?context=restricted-caller-access-privilege&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.restricted-caller-access-privilege]
 

@@ -34,7 +34,7 @@ There are two ways to create application-customizations.
 -   Create from ServiceNow Studio
 -   Create from the navigation pane
 
-**Important:** An App Customization package is intended to be authoritative and a full representation of the desired changes or customizations of the application that you're building on top of. Local customizations \(typically tied to the sys\_update\_xml\) are not honored because of this. If a specific field must be persisted \(for example a MID Server\) – consider using the Loader exempt attribute, see [Altering tables and fields using dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US). If a specific property must be set – consider making it ‘private’, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** An App Customization package is intended to be authoritative and a full representation of the desired changes or customizations of the application that you're building on top of. Local customizations \(typically tied to the sys\_update\_xml\) are not honored because of this. If a specific field must be persisted \(for example a MID Server\) – consider using the Loader exempt attribute, see Altering tables and fields using dictionary attributes. If a specific property must be set – consider making it ‘private’, see Available system properties.
 
 ## Procedure
 

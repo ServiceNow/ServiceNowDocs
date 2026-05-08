@@ -82,7 +82,7 @@ If the data on User Search Metrics page does not load due to an invalid configur
 
 If the number of search terms exceeds the limit specified in the com.snc.pa.dc.max\_breakdown\_elements\_limit property, the dashboard will not show any data. Be sure to set the value of com.snc.pa.dc.max\_breakdown\_elements\_limit or com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit property to be greater than or equal to sn\_ci\_analytics.max.search.threshold. The default value of these properties is 10000.
 
-See [Breakdown and indicator Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-limit-setting-props&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) and [Data collector Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-dc-props&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See Breakdown and indicator Performance Analytics properties and Data collector Performance Analytics properties for more information.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ If the data on User Search Metrics page does not load due to an invalid configur
 
 If the number of custom events exceeds the limit specified in the com.snc.pa.dc.max\_breakdown\_elements\_limit property, the dashboard will not show any data. Be sure to set the value of com.snc.pa.dc.max\_breakdown\_elements\_limit or com.snc.pa.dc.hsql.max\_breakdown\_elements\_limit property to be greater than or equal to sn\_ci\_analytics.max.search.threshold. The default value of these properties is 10000.
 
-See [Breakdown and indicator Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-limit-setting-props&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) and [Data collector Performance Analytics properties](https://www.servicenow.com/docs/access?context=pa-dc-props&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+See Breakdown and indicator Performance Analytics properties and Data collector Performance Analytics properties for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Conversational Analytics dashboard reference](conversational-analytics-dashboard-reference-pae.md)

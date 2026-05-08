@@ -15,7 +15,7 @@ breadcrumb: [Portal performance optimization, Admin configurations, Configuring 
 
 Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
 
-Employees see slow or unresponsive pages with clear message on the home page and widgets. With the lite mode, you can provide a portal experience that improves the usability with clear messaging.​ For more information, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). The key benefits are:
+Employees see slow or unresponsive pages with clear message on the home page and widgets. With the lite mode, you can provide a portal experience that improves the usability with clear messaging.​ For more information, see Create and edit a page using the Service Portal Designer. The key benefits are:
 
 -   Enhance the user experience with clear communication.
 -   Reduce visual complexity and resource usage for faster performance. T

@@ -20,7 +20,7 @@ Australia Patch 1
 -   Reduce handle time with automatic call summarization: when a call is transferred to a human agent, a contextual summary of the customer's issue is made available.
 -   Research and prepare for customer outreach with a customer profile summary skill and a customer insights AI agent, which answers natural-language queries about a customer by dynamically drawing on data from defined data sources.
 
-See [Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See Now Assist for Financial Services Operations \(FSO\) for more information.
 
 **Important:** Now Assist for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -28,23 +28,23 @@ See [Now Assist for Financial Services Operations \(FSO\)](https://www.serviceno
 
 Australia Patch 1
 
--   **[Banking CSR support AI agent](https://www.servicenow.com/docs/access?context=agentic-contact-center-for-banking-agents-overview&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Banking CSR support AI agent**
 
     Provides CSRs with AI-driven live assistance during voice calls. This AI agent monitors the transcript of the call. When prompted, the agent identifies customer intent, surfaces knowledge-based recommendations, and suggests next-best actions.
 
--   **[Customer interaction context summary skill](https://www.servicenow.com/docs/access?context=using-now-assist-for-financial-services-operations-fso&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Customer interaction context summary skill**
 
     Generates a call-contextual customer summary in the Interaction workspace in the Agentic Contact Center for Banking. This summary is scoped to the intent of the inbound call, providing the agent with a snapshot of the customer's situation when the call begins.
 
--   **[Banking CSR customer insights AI agent](https://www.servicenow.com/docs/access?context=agentic-contact-center-for-banking-agents-overview&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Banking CSR customer insights AI agent**
 
     Enables CSRs to ask natural-language questions about a customer directly from the Customer 360 workspace. The agent aggregates data from predefined sources, then uses the information to generate accurate, contextually relevant answers.
 
--   **[Customer profile summarization skill](https://www.servicenow.com/docs/access?context=using-now-assist-for-financial-services-operations-fso&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Customer profile summarization skill**
 
     Provides AI-generated summaries directly on the Customer 360 workspace in the Agentic Contact Center for Banking, reducing navigation across multiple systems.
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -60,7 +60,7 @@ Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the
 
 ## Related ServiceNow applications and features
 
--   **[Agentic Contact Center for Banking](https://www.servicenow.com/docs/access?context=agentic-contact-center-for-banking-landing&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Agentic Contact Center for Banking**
 
     Leverage the new skills and AI agents in the Customer 360 and Interaction pages in Agentic Contact Center for Banking.
 

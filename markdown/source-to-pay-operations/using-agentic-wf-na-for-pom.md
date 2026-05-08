@@ -13,7 +13,7 @@ breadcrumb: [Now Assist for POM, Purchase Order Management, Source-to-Pay Operat
 
 Use agentic workflows in Now Assist for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 Use the following agentic workflows that are available with Now Assist for Purchase Order Management \(POM\)
 
@@ -23,11 +23,11 @@ Use the following agentic workflows that are available with Now Assist for Purch
 
 **Important:** By default, all agentic workflows and AI agent records are read only.
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   Duplicate an agentic workflow
+-   Create an agentic workflow
+-   Modify an agentic workflow
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 -   **[Automated purchase order exception creation from emails](convert-emails-to-exceptions.md)**  
 Emails sent by a registered supplier contact are automatically converted to purchase order exceptions or universal requests by using the Email Intent to Action Agentic workflow.

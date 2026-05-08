@@ -195,7 +195,7 @@ View the examples of ETTR views across the journey of a case which indicates the
 **Related topics**  
 
 
-[Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.predictive-intelligence]
 
-[Get started with Predictive Intelligence](https://www.servicenow.com/docs/access?context=install-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&section=get-started-predictive-intelligence&ft:locale=en-US)
+[bundle-platai.get-started-predictive-intelligence]
 

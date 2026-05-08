@@ -20,7 +20,7 @@ All closed interactions associated with the account, consumer, or contact are gr
 -   Short description: A brief summary of the interaction, including the contact name and the agent assigned to the interaction.
 -   Relative timestamp: How long ago the interaction occurred \(for example, "about a month ago"\).
 
-**Note:** You can customize the interaction details that are displayed. See [Configuring the Customer History component](https://www.servicenow.com/docs/access?context=customer-central-configuration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for details.
+**Note:** You can customize the interaction details that are displayed. See Configuring the Customer History component for details.
 
 You can do the following:
 
@@ -29,7 +29,7 @@ You can do the following:
 -   Date range: Browse interactions by date.
 -   View more: 10 interactions are displayed by default. Select **View More** to view additional interactions.
 
-The information displayed in the customer history is based on the facets configured for the activity contexts in the [Customer Central](https://www.servicenow.com/docs/access?context=customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) module. For more details on configuring the information displayed, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The information displayed in the customer history is based on the facets configured for the activity contexts in the Customer Central module. For more details on configuring the information displayed, see Create facets for activity contexts.
 
 **Parent Topic:**[Telecommunications Customer 360 home page](c360-home-page.md)
 

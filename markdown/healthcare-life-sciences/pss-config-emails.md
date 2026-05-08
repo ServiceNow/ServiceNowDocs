@@ -94,5 +94,5 @@ A patient enrollment request for a program was accepted.
 Patient
 
 </td></tr></tbody>
-</table>As a user with the sn\_patientservice.admin role, you can configure the email notifications for the Patient Support Services application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>As a user with the sn\_patientservice.admin role, you can configure the email notifications for the Patient Support Services application, by navigating to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**. For more information on editing email notifications, see Create an email notification.
 

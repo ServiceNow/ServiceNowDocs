@@ -44,7 +44,7 @@ AI Agent Advisor section of the Now Assist Center home page, Automation opportun
 
 Assistant Designer, Asset Library
 
- See [Assistant Designer Asset library](https://www.servicenow.com/docs/access?context=vad-topics-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ See Assistant Designer Asset library.
 
 </td><td>
 
@@ -100,7 +100,7 @@ Admin page
 
 Now Assist Admin console, Now Assist Guardian
 
- See [Now Assist Guardian](https://www.servicenow.com/docs/access?context=now-assist-guardian&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ See Now Assist Guardian.
 
 </td><td>
 

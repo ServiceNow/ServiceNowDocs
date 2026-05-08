@@ -30,5 +30,5 @@ The Walk-up Experience application includes two base-system predefined surveys.
 
 Walk-up administrators and managers can modify these surveys and the associated trigger conditions. Managers and administrators can review responses by question and see a scorecard for each survey on the **Walk-up Experience Dashboard** module. User comments provide feedback that is used to improve the performance of walk-up interactions.
 
-For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see [Assessments and Surveys](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more detailed information about working with surveys, sentiment analysis, trigger conditions, and survey questions, see Assessments and Surveys.
 

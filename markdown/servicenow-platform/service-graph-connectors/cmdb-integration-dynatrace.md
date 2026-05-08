@@ -116,7 +116,7 @@ SGO-Dynatrace Processes \[sn\_dynatrace\_integ\_sg\_dynatrace\_processes\]
 
 </td><td>
 
-The target table is populated using Application Dependency Mapping \(ADM\). The ADM adapter analyzes the imported data and command-line arguments, identifies the appropriate table based on the conditions included in Discovery Process Classifications list, and inserts the data into the table, which extends the Application \[cmdb\_ci\_appl\] table. To learn about process classification, see [Discovery classifiers](https://www.servicenow.com/docs/access?context=discovery-classifiers&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+The target table is populated using Application Dependency Mapping \(ADM\). The ADM adapter analyzes the imported data and command-line arguments, identifies the appropriate table based on the conditions included in Discovery Process Classifications list, and inserts the data into the table, which extends the Application \[cmdb\_ci\_appl\] table. To learn about process classification, see Discovery classifiers.
 
  **Note:** The addition of unclassified processes to the Application \[cmdb\_ci\_appl\] table depends on the value of the **sn\_dynatrace\_integ.createUnmatchedApplicationCIs** system property. For more information, see [Service Graph Connector for Observability - Dynatrace properties](../reference/sgc-cmdb-dynatrace-props.md).
 

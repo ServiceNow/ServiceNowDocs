@@ -37,15 +37,15 @@ For more information about the file types available in the Navigator panel, see 
     -   To find an app file, select the File Categories icon ![file categories icon](../image/sn-studio-file-nav-icon.png).
 4.  Refine the list of apps or app files using the following options.
 
-<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d200943e179">
+<table id="choicetable_gjw_s5k_fdc"><thead><tr><th align="left" id="d200931e179">
 
 Choice
 
-</th><th align="left" id="d200943e182">
+</th><th align="left" id="d200931e182">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d200943e188">
+</th></tr></thead><tbody><tr><td id="d200931e188">
 
 **Filter icon ![filter icon](../../../reuse/icons/product-icons/filter-fill-24.svg)**
 
@@ -55,7 +55,7 @@ Description
 
 Select a filter to display applications within a specific scope.Available filters: **All**, **Custom**, **Store**, **Creator Studio**, and **Fluent**. The default filter is **Custom**.
 
-</td></tr><tr><td id="d200943e225">
+</td></tr><tr><td id="d200931e225">
 
 **Sort icon ![sort icon](../../../reuse/icons/product-icons/sort-ascending-outline-24.svg)**
 
@@ -63,7 +63,7 @@ Select a filter to display applications within a specific scope.Available filter
 
 Sort the list of apps or app files in alphabetical or reverse alphabetical order.
 
-</td></tr><tr><td id="d200943e239">
+</td></tr><tr><td id="d200931e239">
 
 **Filter list box![Enter the name of the app or app file in the Filter list box to refine the list items.](../image/sn-studio-filter-box-track.png)
 
@@ -73,7 +73,7 @@ Sort the list of apps or app files in alphabetical or reverse alphabetical order
 
 Enter an app or app file name in the Filter list box to display only matching results.
 
-</td></tr><tr><td id="d200943e254">
+</td></tr><tr><td id="d200931e254">
 
 **Expand the metadata section![Expand the metadata section, then select the file type that corresponds to the app file you are looking for](../image/sn-studio-metadata-section-flow.png)
 

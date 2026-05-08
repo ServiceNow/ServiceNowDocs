@@ -33,7 +33,7 @@ Activate the HR Service Delivery Integration with Ultimate Kronos Group \[sn\_hr
 
 1.  Integrate your Ultimate Kronos Group application with your ServiceNow instance.
 
-    Register an OAuth application in the Ultimate Kronos Group application and authenticate requests from ServiceNow. For more information, see [Set up the UKG spoke](https://www.servicenow.com/docs/access?context=setup-kronos&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Register an OAuth application in the Ultimate Kronos Group application and authenticate requests from ServiceNow. For more information, see Set up the UKG spoke.
 
 2.  Complete the one time set up of loading accrual codes from the Ultimate Kronos Group application into ServiceNow.
 

@@ -15,7 +15,7 @@ breadcrumb: [Models, Product Catalog, Asset Management, IT Service Management]
 
 Software models are created as part of the asset management process. You can create product models for software from the product catalog, but you cannot administer all aspects of the software models.
 
-Software models are used in software counters. For more information about creating software model, see [Create software models](https://www.servicenow.com/docs/access?context=record-terms-software-licenses&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+Software models are used in software counters. For more information about creating software model, see Create software models.
 
 **Parent Topic:**[Models](c_Models.md)
 

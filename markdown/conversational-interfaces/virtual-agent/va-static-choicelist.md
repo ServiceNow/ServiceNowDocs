@@ -24,7 +24,7 @@ The Static Choice control provides the option to add a header card that displays
 
 -   The header card can contain a large or small image or a YouTube video card, along with descriptive text. The choice list contains up to five items by default, but the search feature is suppressed. If there are more than five items, users can choose to show the additional items.
 
--   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items displayed in the choice list. For details about creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items displayed in the choice list. For details about creating a system property, see Add a system property.
 
 
 ## Static Choice user input control properties for LLM topic discovery

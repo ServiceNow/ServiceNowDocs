@@ -47,7 +47,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **AI capabilities**
 
-    [Exploring Now Assist Admin](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Exploring Now Assist Admin
 
     [Vibe coding and AI app development on the ServiceNow AI Platform](../../ai-capabilities/concept/use-ai-capabilities-in-custom-apps.md)
 
@@ -55,23 +55,23 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Agentic workflows**
 
-    [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Create an agentic workflow
 
-    [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Modify an agentic workflow
 
 -   **AI Agents**
 
-    [Explore Now Assist AI agents](https://www.servicenow.com/docs/access?context=exploring-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Explore Now Assist AI agents
 
-    [Create an AI agent](https://www.servicenow.com/docs/access?context=configure-next-best-action-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Create an AI agent
 
-    [Examples of using AI agents](https://www.servicenow.com/docs/access?context=ai-agent-examples&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Examples of using AI agents
 
 -   **Now Assist Skill Kit**
 
-    [Exploring Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=exploring-now-assist-skill-kit&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Exploring Now Assist Skill Kit
 
-    [Create a skill](https://www.servicenow.com/docs/access?context=create-new-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    Create a skill
 
 
 **Parent Topic:**[Using ServiceNow Studio](using-servicenow-studio.md)

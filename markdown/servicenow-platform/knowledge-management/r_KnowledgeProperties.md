@@ -231,7 +231,7 @@ This property contains the bots' name patterns, which are used to determine whet
 
 Knowledge search properties give you control over the search options available to users and the presentation of search results.
 
-**Note:** Knowledge search properties is only applicable to Zing search. To configure AI search implementation, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Knowledge search properties is only applicable to Zing search. To configure AI search implementation, see Configuring AI Search.
 
 <table id="table_cr4_tb3_54"><thead><tr><th>
 
@@ -611,7 +611,7 @@ Displays a read-only article view page when articles are viewed from contextual 
 Displays a read-only article view page when knowledge articles are viewed from contextual search.-   Type: true\|false
 -   Default value: true
 
- **Note:** The **glide.knowman.contextual\_search.show\_read\_only\_article** property is activated by default. If the property isn’t available, add it manually and set its value to **true** to display read-only knowledge articles accessed from the contextual search. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+ **Note:** The **glide.knowman.contextual\_search.show\_read\_only\_article** property is activated by default. If the property isn’t available, add it manually and set its value to **true** to display read-only knowledge articles accessed from the contextual search. For more information, see Add a system property.
 
 </td></tr><tr><td>
 

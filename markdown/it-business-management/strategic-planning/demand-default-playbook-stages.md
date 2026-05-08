@@ -284,7 +284,7 @@ Add AI systems to the demand by creating one or selecting from the existing syst
 -   To link existing systems, use the **Product** and **Impacted AI systems** fields.
 
 </td></tr></tbody>
-</table>For more information on creating AI systems, see [Create AI system assets](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>For more information on creating AI systems, see Create AI system assets.
 
 ## Confirm demand readiness for review
 

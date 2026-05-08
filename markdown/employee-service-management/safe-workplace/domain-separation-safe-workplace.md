@@ -30,7 +30,7 @@ ServiceNow applications that support domain separation might support the separat
     -   Business logic can be domain-separated by the instance owner per tenant.
 -   **Enhanced**: Data-driven process enables failsafe configuration by tenants through the UI to drive business logic.
 
-For more detail on the support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more detail on the support levels, see Application support for domain separation.
 
 ## How domain separation works in Safe Workplace applications
 
@@ -41,7 +41,7 @@ The following applications use the Safe Workplace domain table:
 -   Emergency Outreach \(Daily Contact Logs, Privacy Consent, and Privacy Consent \(common\)\)
 -   Emergency Exposure Management
 
-Admins must install the [Domain separation plugin](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US)before working with these application tables. Most of those tables contain a **sys\_domain** field so they are able to be domain-separated if they have data that needs to be partitioned by domain.
+Admins must install the Domain separation pluginbefore working with these application tables. Most of those tables contain a **sys\_domain** field so they are able to be domain-separated if they have data that needs to be partitioned by domain.
 
 -   Core domain table: Included in the [Safe Workplace plugin](../../human-resources/concept/safe-workplace.md) is an sn\_imt\_core\_domain table. Domains in this table are iterated when scheduled jobs run.
 -   Property table: The sn\_imt\_core\_property table extends the sys\_properties table and adds a sys\_domain field. Adding that field allows sys\_properties values to be overridden for a domain.
@@ -113,5 +113,5 @@ Learn more about how these properties function in the following topics:
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

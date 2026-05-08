@@ -29,13 +29,13 @@ Role required: sn\_prd\_pm.product-catalog\_manager
 
     The manner in which you create a version of a product offering is similar to how you created its initial version with the following exceptions.
 
-    **Note:** For information about the remaining field descriptions, see [Product Offering Versions form](https://www.servicenow.com/docs/access?context=field-descriptions-product-offering-form&version=australia&pubname=australia-order-management&ft:locale=en-US)
+    **Note:** For information about the remaining field descriptions, see Product Offering Versions form
 
 4.  To reflect the engineering changes that were made to the physical product, update the product offering version:
 
     1.  To update the characteristics that are associated with your product offering, use the Product Offering Characteristics related list.
     2.  To update the product visuals for your versioned product offering, use the Product Visuals related lists.
-    3.  **Note:** To learn more, see [Create and publish your product offerings to a catalog](https://www.servicenow.com/docs/access?context=order-mgt-product-offerings&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    3.  **Note:** To learn more, see Create and publish your product offerings to a catalog.
 
 5.  When you finish creating the product offering version, do one of the following actions.
 

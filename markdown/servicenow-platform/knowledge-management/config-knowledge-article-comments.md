@@ -55,7 +55,7 @@ CSS
 
 </td><td>
 
-Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.
 
 </td></tr><tr><td colspan="2">
 

@@ -81,7 +81,7 @@ As a user with the admin role, in your ServiceNow AI Platform instance verify th
 
  **Note:** If you have multiple users for the mobile application, you alternatively can assign the sn\_risk.manager role to a group. Each user you add to the group inherits this role.
 
- For more information on users and assigning roles to users and groups, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more information on users and assigning roles to users and groups, see Create a user.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ As a user with the sn\_risk.manager role, verify notifications are enabled on yo
 1.  Verify you have downloaded and installed the GRC Mobile application on your ServiceNow AI Platform instance.
 2.  In System Settings in your ServiceNow AI Platform instance, under Notifications, verify you have enabled the **ServiceNow Mobile Application**.
 
-For more information about setting notifications, see "User notification preferences in Core UI" on the [Setting notification preferences in Core UI](https://www.servicenow.com/docs/access?context=user-notification-preferences&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about setting notifications, see "User notification preferences in Core UI" on the Setting notification preferences in Core UI.
 
 
  ServiceNow AI Platform notifications are also displayed on the messages screen on your mobile device. Verify that notifications are also enabled in the settings of your mobile device.

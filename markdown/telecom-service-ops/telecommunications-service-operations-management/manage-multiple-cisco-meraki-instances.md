@@ -22,7 +22,7 @@ Verify the following:
 -   The active application scope is Service Graph Connector \(SGC\) for Meraki.
 -   The SGC for Cisco Meraki has been installed.
 -   The initial Cisco Meraki instance has been set up. For more information, see [Set up the Service Graph Connector for Cisco Meraki schedule](set-up-cisco-meraki.md).
--   The associated MID Server has been set up and validated. For more information, see [Configuring MID Server](https://www.servicenow.com/docs/access?context=configure-mid-server&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   The associated MID Server has been set up and validated. For more information, see Configuring MID Server.
 
 Role required: TSOM Visibility admin
 
@@ -47,7 +47,7 @@ You can configure additional Cisco Meraki instances or reuse the same Cisco Mera
     1.  Select **Configure**.
     2.  In the **API Key** field, enter the API key created in the dashboard.
 
-        **Note:** Other authentication fields might be required depending on the authentication methods used in your Cisco Meraki instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        **Note:** Other authentication fields might be required depending on the authentication methods used in your Cisco Meraki instance. By default, use basic authentication credentials as part of the Guided setup. For more information, see Basic authentication credentials.
 
     3.  In the **User name** field, specify your Cisco Meraki instance user name.
     4.  Retain the default values in the rest of the fields.

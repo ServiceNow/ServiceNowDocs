@@ -42,7 +42,7 @@ Add rows to the Resource Order Fulfillment Policy decision table to specify whic
 
 ## Result
 
-A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see [Decision Builder user interface](https://www.servicenow.com/docs/access?context=decision-builder-user-interface&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+A list of subflows appear in the results section. These sub flows create the fulfillment tasks for an order line item during the fulfillment process. For more information, see Decision Builder user interface.
 
 **Parent Topic:**[Configuring Order Management](../concept/order-mgt-configuring.md)
 

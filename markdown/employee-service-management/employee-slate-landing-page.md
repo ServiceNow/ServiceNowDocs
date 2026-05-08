@@ -47,11 +47,11 @@ Employee Slate is your AI-first employee experience that brings search, requests
 </td></tr></tbody>
 </table>**Note:**
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Additional resources
 
--   Learn what's new in the [Employee Slate release notes](https://www.servicenow.com/docs/access?context=employee-slate-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn what's new in the Employee Slate release notes.
 -   Access realtime courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
 -   Find useful resources related to your role at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other ServiceNow users at [Now Community](https://www.servicenow.com/community/).

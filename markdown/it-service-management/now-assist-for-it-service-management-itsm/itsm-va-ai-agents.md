@@ -18,7 +18,7 @@ Use AI agents in Virtual Agent to autonomously resolve tasks.
 
 ## Platform Requester AI agents
 
-View tickets and make updates to them from Now Assist in Virtual Agent, the Now Assist panel, or Microsoft Teams using the Request Status AI agent. For more information, see [Platform Request status AI agent](https://www.servicenow.com/docs/access?context=ticket-status-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+View tickets and make updates to them from Now Assist in Virtual Agent, the Now Assist panel, or Microsoft Teams using the Request Status AI agent. For more information, see Platform Request status AI agent.
 
 ## ITSM AI agents used in Virtual agent
 

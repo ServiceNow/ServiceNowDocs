@@ -41,7 +41,7 @@ You can read and respond to large emails easily in a full screen which opens up 
 **Related topics**  
 
 
-[Activity formatter](https://www.servicenow.com/docs/access?context=c_ActivityFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ActivityFormatter]
 
-[Email properties](https://www.servicenow.com/docs/access?context=c_EmailProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_EmailProperties]
 

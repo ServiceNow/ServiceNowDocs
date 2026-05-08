@@ -25,7 +25,7 @@ This section is an overview of domain separation as it pertains to the CSM Walk-
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -55,7 +55,7 @@ Elements of the Service Portal that are used as part of the walk-up experience a
 -   Theme \(Walk-up theme\)
 -   Widgets \(Online check-in experience, walk-up queue on site, walk-up check-in, walk-up exit survey, walk-up home, walk-up schedule\)
 
-To learn more, see [Domain separation and Service Portal](https://www.servicenow.com/docs/access?context=domain-separation-service-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To learn more, see Domain separation and Service Portal.
 
 For data separation, the CSM Walk-up Experience application uses the walk-up user \(Requester/Walkup login user\) domain to determine in which domain the requester data should be placed.
 

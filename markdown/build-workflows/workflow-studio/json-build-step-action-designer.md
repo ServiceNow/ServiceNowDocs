@@ -93,7 +93,7 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
     Data type: **String**
 
-    JSON payload as a string. If you want to use the payload as an object, you can use the [JSON parser step](https://www.servicenow.com/docs/access?context=json-parser-step-action-designer&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to parse the string.
+    JSON payload as a string. If you want to use the payload as an object, you can use the JSON parser step to parse the string.
 
 -   **Step Status**
 

@@ -28,7 +28,7 @@ Role required: admin
 
 Activate the Virtual Agent topics for Universal Request.
 
-You can also copy and modify the default topics or create your own topics to use during the chatbot conversations. For more information on creating a topic, see [Create a Virtual Agent topic](https://www.servicenow.com/docs/access?context=create-virtual-agent-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+You can also copy and modify the default topics or create your own topics to use during the chatbot conversations. For more information on creating a topic, see Create a Virtual Agent topic.
 
 ## Procedure
 

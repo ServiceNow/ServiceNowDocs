@@ -35,7 +35,7 @@ Role required: admin
 
 6.  Open the table record.
 
-7.  If the **Live feed** check box does not appear on the form, [configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to add the **Live feed** field.
+7.  If the **Live feed** check box does not appear on the form, configure the form layout to add the **Live feed** field.
 
 8.  On the form, select the **Live feed** check box.
 

@@ -39,7 +39,7 @@ OpenFrame includes these components:
 **Note:**
 
 -   To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
--   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US), and [Enable URL allow list for cross-origin iframe communication](https://www.servicenow.com/docs/access?context=sc-enable-url-allowlist-for-cross-origin-iframe-communication&version=australia&pubname=australia-platform-security&ft:locale=en-US) in Instance Security Hardening Settings.
+-   To integrate softphone into the ServiceNow AI Platform using OpenFrame, add the third-party URLs of telephony services in the following property: **glide.ui.concourse.onmessage\_enforce\_same\_origin\_whitelist**. For more information see, Available system properties, and Enable URL allow list for cross-origin iframe communication in Instance Security Hardening Settings.
 
 ## Using the OpenFrame window
 
@@ -124,5 +124,5 @@ With the admin role, you can create or modify an OpenFrame configuration. This c
 **Related topics**  
 
 
-[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_openFrameAPI]
 

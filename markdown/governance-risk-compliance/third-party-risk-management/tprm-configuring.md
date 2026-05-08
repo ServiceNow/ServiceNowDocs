@@ -65,11 +65,11 @@ Add an authentication policy to enable secure access for external third parties.
 
 </td><td>
 
-For more information, see [Add an authentication policy to enable secure access for external third parties](https://www.servicenow.com/docs/access?context=add-policy-to-context&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see Add an authentication policy to enable secure access for external third parties.
 
  Role required: admin
 
- Use the platform post-authentication policies to enable third parties to secure access to your instance. For background information on this feature, see [Post-authentication context](https://www.servicenow.com/docs/access?context=post-auth-context&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ Use the platform post-authentication policies to enable third parties to secure access to your instance. For background information on this feature, see Post-authentication context.
 
 </td></tr><tr><td>
 
@@ -171,7 +171,7 @@ Activate a language.
 
 This task is optional. The ServiceNow AI Platform uses American English by default. You can configure TPRM to use a different language.
 
- For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more information, see Activate a language.
 
  Role required: admin
 

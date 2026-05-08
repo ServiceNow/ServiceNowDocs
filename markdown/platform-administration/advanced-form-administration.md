@@ -129,7 +129,7 @@ When you organize fields in this manner and the user is viewing the form on a sm
 
 3.  Enter the following information.
 
-<table id="choicetable_qyc_wqq_pt"><tbody><tr><td id="d283852e556">
+<table id="choicetable_qyc_wqq_pt"><tbody><tr><td id="d283830e556">
 
 **Name**
 
@@ -137,7 +137,7 @@ When you organize fields in this manner and the user is viewing the form on a sm
 
 glide.ui.form\_multiple\_splits
 
-</td></tr><tr><td id="d283852e565">
+</td></tr><tr><td id="d283830e565">
 
 **Description**
 
@@ -145,7 +145,7 @@ glide.ui.form\_multiple\_splits
 
 Enable multiple form splits
 
-</td></tr><tr><td id="d283852e574">
+</td></tr><tr><td id="d283830e574">
 
 **Type**
 
@@ -153,7 +153,7 @@ Enable multiple form splits
 
 true \| false
 
-</td></tr><tr><td id="d283852e583">
+</td></tr><tr><td id="d283830e583">
 
 **Value**
 

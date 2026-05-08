@@ -27,7 +27,7 @@ The following applications are available under the **Administration** module of 
 |Intended Effects|This application is used for expressing the intended effect of a threat actor.|
 |Malware Capabilities|This module lists the possible capabilities of malware.|
 |Malware Types|This module lists the possible classifications of malware.|
-|Notifications|This module is used for creating [email notifications](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US). This involves specifying when they are sent, who receives them, and what they contain.|
+|Notifications|This module is used for creating email notifications. This involves specifying when they are sent, who receives them, and what they contain.|
 |Observable Types|This module lists the possible classifications of an observable, such as an IP address or file hash.|
 |Report Types|This module lists the possible classifications of threat reports.|
 |Threat Actor Roles|This module lists the roles the threat actors play.|

@@ -40,7 +40,7 @@ Role required: sn\_sec\_cmn.admin
     |Active|Select this check box to activate the operating system group.|
     |Use filter group|Select this check box to use a filter group for locating matching records in the selected table.|
     |Filter group|Select the filter group for locating matching records in the selected table. This field displays only if you selected the **Use filter group** check box.|
-    |Condition|The [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) fields display only if you did not select the **Use filter group** check box.|
+    |Condition|The condition builder fields display only if you did not select the **Use filter group** check box.|
 
 4.  Select and hold \(or right-click\) in the form header and select **Save**.
 
@@ -60,5 +60,5 @@ Role required: sn\_sec\_cmn.admin
 **Related topics**  
 
 
-[Attach a script file to a file synchronized MID Server](https://www.servicenow.com/docs/access?context=mid-server-script-attach&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-script-attach]
 

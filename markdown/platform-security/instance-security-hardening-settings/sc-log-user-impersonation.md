@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-[Impersonating users](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Impersonating users
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Error handling and logging](sc-error-handling-logging.md)

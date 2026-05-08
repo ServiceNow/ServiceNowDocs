@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -89,7 +89,7 @@ Mark as retired
 Marks the **Status** \[install\_status\] field of the configuration file CI record as **Retired**, meaning that Discovery no longer uses this configuration file. This status does not instruct the system to delete the actual CI or the relationship.
 
 </td></tr></tbody>
-</table>**Note:** Deletion strategies are not available for related entries, which are rules that are based on related CIs. For more information, see [Related entries](https://www.servicenow.com/docs/access?context=c_IdentificationRules&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US#section_ftc_tg4_j1b).
+</table>**Note:** Deletion strategies are not available for related entries, which are rules that are based on related CIs. For more information, see Related entries.
 
 -   **[Set a deletion strategy](../task/set-deletion-strategy.md)**  
 Set a deletion strategy when you want to take action on a related configuration item \(CI\) that Discovery can no longer find through pattern discovery. You can delete the main CI only when it is an Application or Cloud Resource pattern type.

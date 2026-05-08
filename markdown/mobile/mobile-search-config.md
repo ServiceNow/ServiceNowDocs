@@ -25,8 +25,8 @@ You can include a global search bar on your launcher screen. Use search to give 
 
  There are two search engines available to activate within launcher screens.
 
--   **Zing** - The default search engine used to search ServiceNow AI Platform® record data. For more information, see [Zing text indexing and search engine](https://www.servicenow.com/docs/access?context=c_ZingTextSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   **AI Search** - AI search engine available for Now Mobile, which offers visually intelligent query features to help users quickly find the answers they need. For more information see, [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   **Zing** - The default search engine used to search ServiceNow AI Platform® record data. For more information, see Zing text indexing and search engine.
+-   **AI Search** - AI search engine available for Now Mobile, which offers visually intelligent query features to help users quickly find the answers they need. For more information see, AI Search.
 
 </td></tr></tbody>
 </table>## Search criteria
@@ -34,7 +34,7 @@ You can include a global search bar on your launcher screen. Use search to give 
 Create search criteria for your launcher screen to help your users find related information quickly. You can configure which sources the search uses, as well as options like search result limits. For details on configuring custom search criteria:
 
 -   For Zing search engine, see [Configure search criteria](sg-create-custom-search.md).
--   For AI Search search engine, see the Now Mobile documentation [AI Search in mobile](https://www.servicenow.com/docs/access?context=text-search-advanced-now&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   For AI Search search engine, see the Now Mobile documentation AI Search in mobile.
 
 **Note:** AI Search utilizes the data sources of catalog items, KB articles and users. Use AI Search, wherever possible, when using these data sources. Use Zing in the launcher screen if you utilize other data sources not associated with AI Search, for example user tasks or requests.
 

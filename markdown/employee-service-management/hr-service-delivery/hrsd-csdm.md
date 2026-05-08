@@ -17,7 +17,7 @@ HR Service Delivery manages \(contributes data to\) CSDM tables. HR Service Deli
 
 ## Implementing the CSDM data framework
 
-See [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+See Implementing the CSDM framework in stages.
 
 ## CSDM tables used by HR Service Delivery
 

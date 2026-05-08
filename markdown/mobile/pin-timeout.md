@@ -105,7 +105,7 @@ Is Public
 
 Determines whether the **pre\_auth** property is included in the API response.
 
- By default, this option isn't selected. If you want this property included in the **/pre\_auth** API response, select this check box. For more information, see [Adaptive authentication events](https://www.servicenow.com/docs/access?context=adaptive-authentication-events&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ By default, this option isn't selected. If you want this property included in the **/pre\_auth** API response, select this check box. For more information, see Adaptive authentication events.
 
  Mobile properties with this check box enabled are excluded from the **/user\_client** API response.
 

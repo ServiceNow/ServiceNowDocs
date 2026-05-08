@@ -46,11 +46,11 @@ This procedure assumes you're in the process of creating or editing a data visua
 
 5.  Select **+Add custom conditions** and build a filter in the ServiceNow AI Platform Condition builder.
 
-    For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Condition builder.
 
 6.  With **+Add custom conditions** open, add a relationship with a field in another table by expanding **Related list condition**.
 
-    For information about building a related list condition, see [Add related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For information about building a related list condition, see Add related list conditions.
 
 7.  Run your filter query or save it as a predefined condition on the Report Sources table.
 

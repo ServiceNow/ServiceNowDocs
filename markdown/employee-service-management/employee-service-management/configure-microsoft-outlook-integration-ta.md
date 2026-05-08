@@ -20,7 +20,7 @@ Role required: admin
 
 1.  Set up the Microsoft Exchange Online spoke.
 
-    For more information, see [Microsoft Exchange Online Spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see Microsoft Exchange Online Spoke.
 
 2.  In the navigation filter, enter `sys_properties.list`.
 

@@ -21,7 +21,7 @@ Role required: sn\_adv\_appr\_mgmt.approval\_rule\_admin, sn\_adv\_appr\_mgmt.ap
 
 ## About this task
 
-An approval user is a [user of your instance](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US) as defined in the User \[sys\_user\] table. An approval user can be a dynamic approver, who can approve requests based on certain conditions that you set. For example, a dynamic user could be a user tied to a particular territory or a manager based on your organization's hierarchy.
+An approval user is a user of your instance as defined in the User \[sys\_user\] table. An approval user can be a dynamic approver, who can approve requests based on certain conditions that you set. For example, a dynamic user could be a user tied to a particular territory or a manager based on your organization's hierarchy.
 
 ## Procedure
 

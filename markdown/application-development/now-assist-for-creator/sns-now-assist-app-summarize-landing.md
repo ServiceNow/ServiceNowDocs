@@ -67,7 +67,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about applications \(and associated application files\) in which App generation was utilized. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
 -   **[Exploring Now Assist for app summary generation](sns-exploring-now-assist-app-summarize.md)**  
 With the Now Assist for Creator application, you can generate a summary of an app. You can then copy the summary to the description for the app, and use it to check for duplicate apps.

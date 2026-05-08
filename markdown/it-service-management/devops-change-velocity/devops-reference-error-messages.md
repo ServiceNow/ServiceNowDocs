@@ -256,7 +256,7 @@ Unexpected behaviour from remote host: Circular redirect to 'https://bitbucket.o
 
 </td><td>
 
-This error might occur if you try to connect to a BitBucket Cloud instance. BitBucket Cloud is not supported. You must use a BitBucket Server instance to connect to ServiceNow DevOps. Connect to your BitBucket instance via an MID server. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+This error might occur if you try to connect to a BitBucket Cloud instance. BitBucket Cloud is not supported. You must use a BitBucket Server instance to connect to ServiceNow DevOps. Connect to your BitBucket instance via an MID server. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection
 
 </td></tr><tr><td>
 

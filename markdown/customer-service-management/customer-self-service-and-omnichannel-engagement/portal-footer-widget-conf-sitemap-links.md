@@ -39,7 +39,7 @@ Role required: sp\_admin
 
 6.  On the Menu item form, fill in the fields.
 
-    For a description of the field values, see [Menu Item form](https://www.servicenow.com/docs/access?context=menu-item-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For a description of the field values, see Menu Item form.
 
     If a message appears about the application scope, select **here** to be able to edit the record.
 

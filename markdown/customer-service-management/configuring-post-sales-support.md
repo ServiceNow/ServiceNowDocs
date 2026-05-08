@@ -15,7 +15,7 @@ Use the Customer Contracts and Entitlements application to configure and display
 
 ## Activate Customer Contracts and Entitlements
 
-As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to create and manage Customer Contracts and Entitlements. For more information, see Activate a plugin.
 
 <table id="table_yct_wrv_4zb"><thead><tr><th>
 

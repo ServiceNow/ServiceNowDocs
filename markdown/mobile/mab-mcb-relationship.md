@@ -17,7 +17,7 @@ Access Mobile Card Builder without leaving Mobile App Builder. By selecting Open
 
 Role required: admin or delegated developer
 
-For more information about the delegated developer role, see [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information about the delegated developer role, see Delegated development and deployment.
 
 ## About this task
 

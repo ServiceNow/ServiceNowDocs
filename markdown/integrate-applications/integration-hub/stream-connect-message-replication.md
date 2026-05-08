@@ -21,7 +21,7 @@ Stream Connect Message Replication uses a MID Server or MID Server cluster to ru
 
 ## Enabling a MID Server to replicate data
 
-Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Stream Connect Message Replication uses a MID Server with a replicator extension to replicate data to and from your local Kafka. For instructions on how to configure the MID Server, see Configuring MID Servers.
 
 The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
@@ -35,7 +35,7 @@ You can use a MID Server cluster, instead of a single MID Server, for message re
 
 In a MID Server cluster, the topic partitions are distributed across all the available MID Servers in the cluster. If a MID Server becomes unavailable, the partitions are redistributed on the remaining MID Servers. If an additional MID Server becomes available in the cluster, then the partitions are distributed across the MID Servers again.
 
-For details on setting up a MID Server cluster, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For details on setting up a MID Server cluster, see Configure a MID Server cluster.
 
 **Note:** The MID Server cluster must have the **Load Balance** cluster type. The **Failover** cluster type is not supported.
 
@@ -45,7 +45,7 @@ Stream Connect Message Replication uses a Connection &amp; Credential alias to c
 
 1.  [Create Kafka credentials](../tasks/create-kafka-ssl-credentials.md) with the authentication data required for the connection.
 2.  [Configure a Kafka connection](../tasks/configure-kafka-connection.md) to connect to your Kafka environment.
-3.  [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US), to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
+3.  Create a Connection &amp; Credential alias, to associate the connection information and credential data. The Connection &amp; Credential alias should have a **Connection type** of **Kafka** and must be accessible from the MID Server.
 
 These steps are for configuring a Connection &amp; Credential alias for connecting to Kafka. You don't need to set up connections or credentials for connecting to Hermes, because the MID Server automatically handles the creation of the required keystore, truststore, and certificates.
 

@@ -20,7 +20,7 @@ Manage Concur expense approvals using Virtual Agent actionable notifications in 
 -   The Virtual Agent integration is supported only for users who have a user record in your ServiceNow instance. Users must link their accounts to Microsoft Teams and enable Virtual Agent notifications.
 -   Install the Approvals hub integration with the SAP Concur \(sn\_ex\_cnc\) plugin.
 
-For more information on receiving notifications, see [Conversational Integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=teams-conv-integration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [Enable Virtual Agent notifications](https://www.servicenow.com/docs/access?context=enable-va-notifications&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US). For more information on Virtual Agent, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on receiving notifications, see Conversational Integration with Microsoft Teams and Enable Virtual Agent notifications. For more information on Virtual Agent, see Virtual Agent.
 
 Role required: approver\_user
 
@@ -44,15 +44,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d236590e175">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d236594e175">
 
 Decision
 
-</th><th align="left" id="d236590e178">
+</th><th align="left" id="d236594e178">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d236590e184">
+</th></tr></thead><tbody><tr><td id="d236594e184">
 
 **Approve the report**
 
@@ -60,7 +60,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d236590e196">
+</td></tr><tr><td id="d236594e196">
 
 **Reject the report**
 

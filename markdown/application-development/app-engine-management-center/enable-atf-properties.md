@@ -23,7 +23,7 @@ Role required: admin
 
 The tests in the Application Deployment Test Suite can be run on production instances; however, the flows included in the base system run only on non-production \(Test\) instances. Additionally, the tests should run only on an instance defined with an **Instance Type** of **Testing**. For more information, see [Configure your pipeline environments](config-pipeline-environments.md).
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see [Create a clone preserver](https://www.servicenow.com/docs/access?context=create-new-clone-preserver&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see Create a clone preserver.
 
 ## Procedure
 

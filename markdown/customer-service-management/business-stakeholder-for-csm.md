@@ -495,9 +495,9 @@ Internal
 **Related topics**  
 
 
-[Business stakeholder role for PPM](https://www.servicenow.com/docs/access?context=business-stakeholder-role-ppm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+[bundle-itbm.business-stakeholder-role-ppm]
 
 [bundle-appportman.business-stakeholder-role-apm]
 
-[Installed with Business Stakeholder](https://www.servicenow.com/docs/access?context=installed-with-business-stakeholder&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.installed-with-business-stakeholder]
 

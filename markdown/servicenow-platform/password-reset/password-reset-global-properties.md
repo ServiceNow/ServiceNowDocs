@@ -482,7 +482,7 @@ You can add the `glide.pwd_reset.onetime.token.validity` property to the System 
 
 Properties accessible from the System Properties \[sys\_properties\] table:
 
--   For Password Reset on mobile devices, you can specify the URL that the user is taken to when user taps the **Forgot password?** button. See the `glide.security.password_reset.uri` property in [High Security Settings](https://www.servicenow.com/docs/access?context=c_HighSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US) . Default: **/$pwd\_reset.do?sysparm\_url=ss\_default**
+-   For Password Reset on mobile devices, you can specify the URL that the user is taken to when user taps the **Forgot password?** button. See the `glide.security.password_reset.uri` property in High Security Settings . Default: **/$pwd\_reset.do?sysparm\_url=ss\_default**
 -   If `glide.security.forgot_password.display.link` is set to **true**, displays the **Forgot Password?** link on the login page.
 
 **Related topics**  

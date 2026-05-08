@@ -31,7 +31,7 @@ Translated Text \[sys\_translated\_text\]
 
 Stores translations for fields with the field type translated\_text or translated\_html \(see the dictionary entry\).The \[sys\_cs\_topic\] table contains the English keywords and topic titles. It pulls translations from the \[sys\_translated\_text\] table.
 
- For details about translating text content into different languages, see [Translated text table](https://www.servicenow.com/docs/access?context=r_TranslatedText&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Translating text fields](https://www.servicenow.com/docs/access?context=c_UseTranslatedText&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For details about translating text content into different languages, see Translated text table and Translating text fields.
 
 </td></tr><tr><td>
 
@@ -39,7 +39,7 @@ Message \[sys\_ui\_message\]
 
 </td><td>
 
-Stores expert translations for messages in Virtual Agent topics.Pre-built topics have already been translated, but you must provide translations for any content you create for your instance. For more information about the Message table, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Stores expert translations for messages in Virtual Agent topics.Pre-built topics have already been translated, but you must provide translations for any content you create for your instance. For more information about the Message table, see Message table.
 
 </td></tr><tr><td>
 

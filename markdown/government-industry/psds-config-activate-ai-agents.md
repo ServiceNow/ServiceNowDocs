@@ -63,7 +63,7 @@ To access AI agents for use with Public Sector:
 
 4.  Select **Define the specialty**, review the fields, and confirm that the AI agent meets your requirements.
 
-    If it doesn't meet your requirements, you can edit the AI agent. To modify the AI agent, [Duplicate an AI agent](https://www.servicenow.com/docs/access?context=clone-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements. You can activate the AI agent template by making triggers active and setting the display settings to include the Now Assist panel.
+    If it doesn't meet your requirements, you can edit the AI agent. To modify the AI agent, Duplicate an AI agent, and adjust the settings according to your requirements. You can activate the AI agent template by making triggers active and setting the display settings to include the Now Assist panel.
 
     **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -77,11 +77,11 @@ To access AI agents for use with Public Sector:
 
     Triggers can include record conditions, schedules, or inbound email.
 
-    For more information, see [Add a trigger to an AI agent](https://www.servicenow.com/docs/access?context=add-trigger-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see Add a trigger to an AI agent.
 
 8.  Select **Channels and status** to choose the channels where this AI agent will be available for users to initiate interactions, and set its availability status.
 
-    For more information, see [Select channels and status for an AI agent](https://www.servicenow.com/docs/access?context=channels-access-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information, see Select channels and status for an AI agent.
 
 9.  Select **Save and test**.
 
@@ -92,7 +92,7 @@ To access AI agents for use with Public Sector:
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
-Use the Testing playground to [Manually test the execution of an AI agent](https://www.servicenow.com/docs/access?context=test-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) using example utterances.
+Use the Testing playground to Manually test the execution of an AI agent using example utterances.
 
 If activation fails, check roles and skill configuration.
 

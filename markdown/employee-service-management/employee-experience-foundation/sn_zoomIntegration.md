@@ -70,7 +70,7 @@ Pre-integrated with IT Service Management.
 
  Can also be integrated with HR Service Delivery and other Enterprise Service Management applications.
 
- Collaboration services. For information about Collaboration services, see [Collaboration services](https://www.servicenow.com/docs/access?context=collab-services-tcm&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+ Collaboration services. For information about Collaboration services, see Collaboration services.
 
 </td><td>
 
@@ -85,7 +85,7 @@ Enable agents to collaborate on tickets with Zoom Meetings
 
 Notify plugin
 
- To implement Notify connector for Zoom, see [Notify Zoom connector](https://www.servicenow.com/docs/access?context=notify-zoom-connector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ To implement Notify connector for Zoom, see Notify Zoom connector.
 
 </td><td>
 
@@ -97,7 +97,7 @@ Build custom integrations
 
 </td><td>
 
-For information about building custom integrations, see [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For information about building custom integrations, see Zoom spoke.
 
 </td><td>
 

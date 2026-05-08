@@ -15,7 +15,7 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 
 Use the My Requests widget \(my-requests-v2\) to enable requesters to view open or closed requests in Service Portal.
 
-Requests, incidents, and tasks are displayed in a single view that is based on the filter conditions and display settings in the My Request Filter module. For information about defining filters for this module, see [Define filters for My Requests](https://www.servicenow.com/docs/access?context=configure-my-requests&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Requests, incidents, and tasks are displayed in a single view that is based on the filter conditions and display settings in the My Request Filter module. For information about defining filters for this module, see Define filters for My Requests.
 
 ![Request records, a View filter, and a search bar displayed by the My Requests widget.](../image/my-requests-widget.png "My Requests widget")
 

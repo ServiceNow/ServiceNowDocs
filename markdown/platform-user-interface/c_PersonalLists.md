@@ -13,7 +13,7 @@ breadcrumb: [Lists in the classic environment, Working in the classic environmen
 
 You can create personal lists to customize which columns appear and the order in which they appear. Personal lists modify a specific list view according to your individual preferences.
 
-Personal list customizations don’t affect what other users see in their lists. Administrators can [manage](https://www.servicenow.com/docs/access?context=c_AdministeringPersonalLists&version=australia&pubname=australia-platform-administration&ft:locale=en-US) the personal lists function.
+Personal list customizations don’t affect what other users see in their lists. Administrators can manage the personal lists function.
 
 **Parent Topic:**[Lists in the classic environment](c_UseLists.md)
 

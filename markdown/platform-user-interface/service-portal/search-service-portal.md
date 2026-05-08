@@ -28,11 +28,11 @@ Service Portal displays search results data within a widget on the search page. 
 
 ## Search analytics and suggestions
 
-Generate relevant search suggestions for your users and monitor search analytics to understand what your users are searching for and whether they're finding what they need. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://www.servicenow.com/docs/access?context=search-suggestions-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Generate relevant search suggestions for your users and monitor search analytics to understand what your users are searching for and whether they're finding what they need. Search Suggestions is a ServiceNow AI Platform feature. For more information, see Search Suggestions.
 
 -   **Generate suggestions from custom widgets**
 
-    By default, the Search Events \[sys\_search\_event\] and Search Source Events \[sys\_search\_source\_event\] tables collect search data from base system search widgets. To generate search analytics from custom Service Portal search widgets, use the GlideSPSearchAnalytics API. For more information, see [GlideSPSearchAnalytics](https://www.servicenow.com/docs/access?context=GlideSPSearchAnalyticsAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    By default, the Search Events \[sys\_search\_event\] and Search Source Events \[sys\_search\_source\_event\] tables collect search data from base system search widgets. To generate search analytics from custom Service Portal search widgets, use the GlideSPSearchAnalytics API. For more information, see GlideSPSearchAnalytics.
 
 
 ## Performance guidelines

@@ -6,7 +6,7 @@ release: australia
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
@@ -27,15 +27,15 @@ The base system provides content types and content that you can use.
 
 2.  Click **New** or an existing content type to edit.
 
-<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d144732e77">
+<table id="choicetable_ztg_fx1_vbb"><thead><tr><th align="left" id="d144736e77">
 
 Field
 
-</th><th align="left" id="d144732e80">
+</th><th align="left" id="d144736e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d144732e86">
+</th></tr></thead><tbody><tr><td id="d144736e86">
 
 **Name**
 
@@ -43,7 +43,7 @@ Description
 
 Unique name that describes the content.
 
-</td></tr><tr><td id="d144732e95">
+</td></tr><tr><td id="d144736e95">
 
 **Category**
 
@@ -57,7 +57,7 @@ The content type category. The types are:-   Portal Content
 
 See [Portal content](../concept/ec-streamline-content.md).
 
-</td></tr><tr><td id="d144732e134">
+</td></tr><tr><td id="d144736e134">
 
 **Associated widgets**
 
@@ -65,7 +65,7 @@ See [Portal content](../concept/ec-streamline-content.md).
 
 Widgets that can show the type of content you are defining or editing.
 
-</td></tr><tr><td id="d144732e143">
+</td></tr><tr><td id="d144736e143">
 
 **Active**
 
@@ -73,7 +73,7 @@ Widgets that can show the type of content you are defining or editing.
 
 Indicates that the content type is active and available to use.
 
-</td></tr><tr><td id="d144732e153">
+</td></tr><tr><td id="d144736e153">
 
 **Value**
 

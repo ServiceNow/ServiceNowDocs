@@ -15,7 +15,7 @@ breadcrumb: [Know Your Customer, Common applications, Financial Services Operati
 
 Several types of components are installed with activation of the Financial Services Know Your Customer \(com.sn\_bom\_kyc\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 This application is automatically installed when you install any of the following Financial Services Operations \(KYC\) applications. Financial Services Know Your Customer manages the KYC tasks that are used in workflows across Financial Services Operations applications.
 

@@ -31,7 +31,7 @@ For information about using a custom NLU model and intents with Issue Auto Resol
 
 ## Issue Auto Resolution agentic workflows
 
-To learn more about the agentic workflows for Issue Auto Resolution for ITSM and HR Service Delivery, see [Issue Auto Resolution for ITSM Virtual Agent](https://www.servicenow.com/docs/access?context=itsm-va-auto-resolution&version=australia&pubname=australia-it-service-management&ft:locale=en-US) and [Issue Auto Resolution for HR Service Delivery](https://www.servicenow.com/docs/access?context=issue-auto-resolution-hr&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+To learn more about the agentic workflows for Issue Auto Resolution for ITSM and HR Service Delivery, see Issue Auto Resolution for ITSM Virtual Agent and Issue Auto Resolution for HR Service Delivery.
 
 -   **[Configure and run an Issue Auto Resolution simulation](../task/configure-ar-simulations.md)**  
 Use the incident data from your organization to run simulations from the matching intents that the Issue Auto Resolution application based its predictions on from the case descriptions.

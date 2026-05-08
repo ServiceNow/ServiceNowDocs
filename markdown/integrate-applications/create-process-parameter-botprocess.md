@@ -55,7 +55,7 @@ You cannot delete a process parameter that is associated to a published bot proc
 
 [Process parameter form in RPA Hub](create-process-parameter-botprocess.md#)
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_HistorySets]
 
 ## Process parameter form in RPA Hub
 

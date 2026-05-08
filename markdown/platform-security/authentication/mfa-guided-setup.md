@@ -32,5 +32,5 @@ Complete the following task to become familiar with the MFA configurations:
 -   User Communication and Onboarding
 -   Monitoring
 
-To know more about how to use the Guided Setup, see [Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To know more about how to use the Guided Setup, see Guided Setup.
 

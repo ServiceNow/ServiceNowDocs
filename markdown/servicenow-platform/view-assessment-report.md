@@ -27,7 +27,7 @@ The dashboard displays reports arranged in widgets. You can add new widgets to t
 
 2.  Click the elements within the reports to view more information.
 
-    For more information about working with dashboards, see [Dashboards](https://www.servicenow.com/docs/access?context=dashboards-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For more information about working with dashboards, see Dashboards.
 
 
 **Parent Topic:**[View a metric result](t_ViewAMetricResult.md)

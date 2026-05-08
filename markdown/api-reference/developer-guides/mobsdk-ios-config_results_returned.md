@@ -29,7 +29,7 @@ The [Filter](../../../../../app-store/dev_portal/API_reference/MobileSDKiOS/Filt
 
 You can initialize the Filter structure in four different ways depending on the desired filtering capabilities:
 
-1.  Filter by [encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)[encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). This type of filter enables you to pass an encoded query that is applied to the records within the specified table.
+1.  Filter by encoded queryencoded query. This type of filter enables you to pass an encoded query that is applied to the records within the specified table.
 
     For example, the following call only returns those records that are active and whose short description field contains the word "broken":
 

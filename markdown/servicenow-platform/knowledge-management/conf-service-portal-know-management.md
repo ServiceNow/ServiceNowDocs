@@ -22,7 +22,7 @@ The Knowledge Management Service Portal includes the following features:
 -   A Knowledge Management search results page with options to filter and sort search results
 -   A number of widgets to enable searches, display search results, display knowledge articles, and so on
 
-By default, all knowledge articles in the Service Portal are redirected to the Knowledge Management article view page using the **Knowledge Article View** page route map. If upgrading from a previous release, a system administrator can activate the **Knowledge Article View** page route map to take advantage of the features of the Knowledge Management article view page. For more information, see [Activate the Knowledge Article View page on upgrade](https://www.servicenow.com/docs/access?context=redirect-knowledge&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+By default, all knowledge articles in the Service Portal are redirected to the Knowledge Management article view page using the **Knowledge Article View** page route map. If upgrading from a previous release, a system administrator can activate the **Knowledge Article View** page route map to take advantage of the features of the Knowledge Management article view page. For more information, see Activate the Knowledge Article View page on upgrade.
 
 **Note:** The Knowledge Management Service Portal supports only Zing search and not AI search.
 
@@ -39,7 +39,7 @@ System administrators perform the following tasks to integrate the Knowledge Man
 **Related topics**  
 
 
-[Service Portal pages](https://www.servicenow.com/docs/access?context=c_Pages&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_Pages]
 
 [Knowledge Management Service Portal homepage features](knowledge-service-portal-pages.md)
 
@@ -142,7 +142,7 @@ The Knowledge Management search results page in the Knowledge Management Service
             })();
             ```
 
-        **Note:** For more information about these fields, see [Widget developer guide](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        **Note:** For more information about these fields, see Widget developer guide.
 
     7.  Click **Save**.
 

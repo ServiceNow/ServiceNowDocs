@@ -462,7 +462,7 @@ sn\_aws\_integ.windows\_TCP\_Listener\_Status
 </td></tr></tbody>
 </table>## Custom system properties
 
-You can create these custom system properties for the Service Graph Connector for AWS. These properties must be created in the Service Graph Connector for AWS application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+You can create these custom system properties for the Service Graph Connector for AWS. These properties must be created in the Service Graph Connector for AWS application scope. The custom properties that you create are listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see Add a system property.
 
 <table id="table_r43_g5k_c3c"><thead><tr><th>
 

@@ -19,7 +19,7 @@ Enable and configure specific pipelines in Azure DevOps that you want to track. 
 
 -   Connect DevOps to Azure DevOps tools.
 -   Ensure that you have modeled, configured, and associated Azure pipelines to DevOps.
--   Review how to configure form layouts. For more information, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Review how to configure form layouts. For more information, see Configuring the form layout
 
 Role required: admin, personalize\_form
 

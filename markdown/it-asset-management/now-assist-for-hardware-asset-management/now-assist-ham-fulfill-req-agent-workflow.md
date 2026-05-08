@@ -107,7 +107,7 @@ The AI agents in the Help manage hardware asset requests agentic workflow help t
 
 Refer to the information provided here on the AI agents related to the Help manage hardware asset requests agentic workflow.
 
-To modify the Help manage hardware asset request agentic workflow [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Help manage hardware asset request agentic workflow duplicate it, and adjust the settings according to your requirements.
 
 **Important:** In the Edit trigger form, make sure that the **Active** button is turned on to enable the AI agent to trigger autonomously.
 

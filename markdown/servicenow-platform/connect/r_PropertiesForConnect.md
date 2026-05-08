@@ -17,7 +17,7 @@ The Connect Properties page provides several configuration options for Connect.
 
 **Important:**
 
-Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+Core UI is required to use Connect Chat. Connect Chat is not supported in Next Experience. If you turn on Next Experience, Connect Chat will no longer work. See Next Experience UI for more information.
 
 Users with the admin role can access these properties by navigating to **Connect** &gt; **Administration** &gt; **Properties**.
 
@@ -40,7 +40,7 @@ Disable Presenceglide.ui.presence.disabled
 Turns off user presence globally when enabled. Enabling this property turns off user presence throughout the platform, not just in Connect.-   **Type**: true \| false
 -   Default value: false
 -   Location: **Connect** &gt; **Administration** &gt; **Properties**
--   Learn more: [User presence](https://www.servicenow.com/docs/access?context=c_UserPresence&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Learn more: User presence
 
 </td></tr><tr><td>
 

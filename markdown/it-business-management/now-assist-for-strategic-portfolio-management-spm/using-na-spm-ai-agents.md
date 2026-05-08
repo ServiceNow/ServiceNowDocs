@@ -55,7 +55,7 @@ Convert epics into actionable user stories quickly. Powered by an agentic workfl
 Validate the work item and generate stories
 
 </td></tr></tbody>
-</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Important:**
 
@@ -69,9 +69,9 @@ To run the AI agents autonomously, you must do the following steps:
 **Related topics**  
 
 
-[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-agent-studio]
 
-[Configure Now Assist AI agents](https://www.servicenow.com/docs/access?context=configuring-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.configuring-ai-agents]
 
 [Configure the Monitor project tasks AI agent in AI Agent Studio](../task/configure-agents-project-task-monitoring.md)
 

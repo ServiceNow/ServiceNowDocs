@@ -118,7 +118,7 @@ Configure my bot to detect sensitive data
 
 [Configuring Sensitive Data Handler](../../conversational-interfaces/task/ac-configure-sensitive-data-handling.md)**Note:** This feature is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Install the Data Privacy application as a replacement. For more information, see [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Install the Data Privacy application as a replacement. For more information, see Data Privacy.
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ Use Natural Language Understanding \(NLU\) for topic discovery
 
 [Configure Natural Language Understanding in Virtual Agent](../task/configure-nlu-settings.md)
 
- [Creating models](https://www.servicenow.com/docs/access?context=creating-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) \(using NLU Workbench\)
+ Creating models \(using NLU Workbench\)
 
 </td></tr><tr><td>
 
@@ -208,7 +208,7 @@ Detect and dynamically translate Virtual Agent topics into a different language
 </td></tr></tbody>
 </table>## Virtual Agent security
 
-Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see [Secure your instance](https://www.servicenow.com/docs/access?context=platsec-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Platform hardening for your instance is leveraged by Virtual Agent, so you should follow the overall platform hardening recommendations. For details, see Secure your instance.
 
 -   **[Customizing a Virtual Agent chat experience](va-conversation-settings.md)**  
 Create different chat experiences for your end users based on the context in which they initiate a conversation with Virtual Agent.

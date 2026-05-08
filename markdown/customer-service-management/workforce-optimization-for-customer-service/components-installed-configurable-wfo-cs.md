@@ -397,7 +397,7 @@ Duration for the channel capacity that is overridden.-   **Type**: Integer
 -   **Default value**: 12 hours
 
 </td></tr></tbody>
-</table>**Note:** Channel management properties are not visible by default in the \[sys\_properties\] table. To use any of the channel management properties, you must add the required property to the System Property \[sys\_properties\] table. For more information, refer to [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>**Note:** Channel management properties are not visible by default in the \[sys\_properties\] table. To use any of the channel management properties, you must add the required property to the System Property \[sys\_properties\] table. For more information, refer to Add a system property.
 
 ## Scheduling
 
@@ -611,7 +611,7 @@ Runs the job and collects historic data for all teams indicators.
 Runs the job weekly and collects data for all indicators in Manager Workspace.
 
 </td></tr></tbody>
-</table>**Setting the due date for time-off and shift-swap request approvals**: Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to [Build your first flow in Flow Designer](https://www.servicenow.com/docs/access?context=build-your-first-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>**Setting the due date for time-off and shift-swap request approvals**: Administrators can configure the due date logic for the Time Off Request and Shift Swap Request approval flows. The approval due date is set as the number of days before the request start date. The default is set to two days which means if the approval is not approved two days before the request start date, it will be auto-rejected. For information on configuring flows, refer to Build your first flow in Flow Designer.
 
 ## Demand forecast
 
@@ -1170,7 +1170,7 @@ Transforms JSON objects to internal objects and sets the word limit for records 
 
  **Note:**
 
-You must [Add this system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) to set the desired value.
+You must Add this system property to set the desired value.
 
 When you [synchronize](../task/integrate-learning-third-party-configurable-wfo-cs.md) third-party learning content with your ServiceNow instance, if the word count of the content being pulled into your instance exceeds the value set for this property, the synchronization fails.
 

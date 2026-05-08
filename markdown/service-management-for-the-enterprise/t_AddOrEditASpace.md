@@ -120,7 +120,7 @@ Cost center
 
 </td><td>
 
-Select the cost center for the space. Cost centers are defined in IT Cost Management and require activation of cost management. For more information, see [Activate Cost Management](https://www.servicenow.com/docs/access?context=t_ActivatingCostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US). This field is a reference to \[cmn\_cost\_center\] table for charge backs reasons.
+Select the cost center for the space. Cost centers are defined in IT Cost Management and require activation of cost management. For more information, see Activate Cost Management. This field is a reference to \[cmn\_cost\_center\] table for charge backs reasons.
 
 </td></tr><tr><td>
 

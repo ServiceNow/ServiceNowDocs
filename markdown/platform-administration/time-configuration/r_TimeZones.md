@@ -72,7 +72,7 @@ Some special considerations:
 
 ## Time zone in scripting
 
-When you create scripting on the server, the script uses several GlideSystem date and time functions to obtain time values. For more information about specific methods and to learn the format in which each returns the requested time, see the [GlideSystem API](https://www.servicenow.com/docs/access?context=c_GlideSystemScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+When you create scripting on the server, the script uses several GlideSystem date and time functions to obtain time values. For more information about specific methods and to learn the format in which each returns the requested time, see the GlideSystem API.
 
 ## Enhancements
 

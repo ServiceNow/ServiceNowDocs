@@ -15,7 +15,7 @@ breadcrumb: [Service Operations Workspace for ITOM reference, Service Operations
 
 Several types of components are installed with activation of the AIOps Experience \[sn\_sow\_aiops\] application, including user role and plugins.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 

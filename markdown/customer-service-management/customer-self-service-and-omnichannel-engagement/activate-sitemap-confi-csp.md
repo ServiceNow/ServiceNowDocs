@@ -17,7 +17,7 @@ Include knowledge articles and catalogs in your sitemap by activating the sitema
 
 ## Before you begin
 
--   [Activate Sitemap Generator](https://www.servicenow.com/docs/access?context=activate-sitemap-generator&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Activate Sitemap Generator
 -   Verify that an unauthenticated user can access the knowledge base article and catalogs by accessing it as a guest user.
 -   Verify that the Public option is selected on the Knowledge Article form or Service Catalog page form.
 

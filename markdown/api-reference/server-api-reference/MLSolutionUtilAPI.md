@@ -17,7 +17,7 @@ The MLSolutionUtil script include provides methods for getting Predictive Intell
 
 This script include requires the Predictive Intelligence plugin \(com.glide.platform\_ml\) and is provided within the `sn_ml` namespace.
 
-For more information, see [Using ML APIs](https://www.servicenow.com/docs/access?context=using-ml-apis&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see Using ML APIs.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

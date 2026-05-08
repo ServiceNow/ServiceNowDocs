@@ -119,7 +119,7 @@ This diagram illustrates the dependency of the credential selection behavior on 
 
 ## ActiveDirectory.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory](https://www.servicenow.com/docs/access?context=c_OrchActiveDirectoryActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the Active Directory activity pack.
 
 ## Exchange.psm1
 

@@ -36,7 +36,7 @@ These jobs are set for manual execution to import the [badge access data](import
 
 3.  Review and modify the settings as required.
 
-    For more information on configuring a scheduled data import, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on configuring a scheduled data import, see Schedule a data import.
 
 4.  Click **Update**.
 
@@ -46,5 +46,5 @@ These jobs are set for manual execution to import the [badge access data](import
 **Related topics**  
 
 
-[Importing data using import sets](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+[bundle-crint.t_ScheduleADataImport]
 

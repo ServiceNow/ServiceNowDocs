@@ -28,7 +28,7 @@ To provide sufficient permissions, configure one of the following UNIX and Linux
 -   Non-root user and password and using the ‘sudo’ utility to run selected commands as root
 -   Root user and password
 
-For information on commands requiring sudo-level rights, see [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md) and [Commands that require root privileges for Discovery and Orchestration](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on commands requiring sudo-level rights, see [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md) and Commands that require root privileges for Discovery and Orchestration.
 
 To access Unix-based hosts with non-root credentials, provide the read access to the following files and directories:
 
@@ -50,9 +50,9 @@ To provide sufficient permissions, configure one of the following Windows creden
     **Note:** You may need domain administrator credentials only in some cases. For example, when discovering domain controllers.
 
 
-Configure MID Server to use [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure MID Server to use Windows credentials.
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 ## Resolving credential-related issues
 

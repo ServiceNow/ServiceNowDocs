@@ -21,7 +21,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 A landing page is the page that an agent sees when they open their workspace. One landing page for CSM Configurable Workspace is included with the Customer Service plugin \(com.sn\_customerservice\). This page, the **CSM Landing Page**, gives agents an overview of their new, assigned and high priority cases, plus the cases assigned to their groups.
 
-You can create a variant of this page in [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US), a WYSIWYG web user interface builder, and modify it as needed.
+You can create a variant of this page in UI Builder, a WYSIWYG web user interface builder, and modify it as needed.
 
 **Note:** It is important to create a variant of the CSM Landing Page to prevent issues with upgrades.
 
@@ -37,27 +37,27 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Change the page layout](https://www.servicenow.com/docs/access?context=change-layout&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Change the page layout
 
 </td><td>
 
-The layout governs the slots that are available on a page, how the slots are positioned, and what CSS rules apply to them. For more information about layouts and layout systems, see [Work with layouts](https://www.servicenow.com/docs/access?context=work-layouts&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The layout governs the slots that are available on a page, how the slots are positioned, and what CSS rules apply to them. For more information about layouts and layout systems, see Work with layouts.
 
 </td></tr><tr><td>
 
-[Add components to the page](https://www.servicenow.com/docs/access?context=add-components&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Add components to the page
 
 </td><td>
 
-Components are the base elements of your page. Components range from core elements like buttons and labels to more complex experience components like lists and forms. For more information, see [Work with components](https://www.servicenow.com/docs/access?context=work-components&version=australia&pubname=australia-application-development&ft:locale=en-US).**Note:** You can also find information about UI Builder components on the ServiceNow developer site. For more information, see the component documentation on www.devportaldocs.service-now.com/.
+Components are the base elements of your page. Components range from core elements like buttons and labels to more complex experience components like lists and forms. For more information, see Work with components.**Note:** You can also find information about UI Builder components on the ServiceNow developer site. For more information, see the component documentation on www.devportaldocs.service-now.com/.
 
 </td></tr><tr><td>
 
-[Connect data resources to the components](https://www.servicenow.com/docs/access?context=connect-data&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Connect data resources to the components
 
 </td><td>
 
-Connect data resources to dynamically expose data from tables, records, or other elements on your page. For more information, see [Work with data resources](https://www.servicenow.com/docs/access?context=data-resources&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Connect data resources to dynamically expose data from tables, records, or other elements on your page. For more information, see Work with data resources.
 
 </td></tr></tbody>
 </table>## Procedure
@@ -80,7 +80,7 @@ Connect data resources to dynamically expose data from tables, records, or other
 
     4.  If desired, specify the audience and display conditions for the page variant.
 
-        The audience determines who can see the page. An audience is a collection of user roles. For more information, see [Understanding your audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+        The audience determines who can see the page. An audience is a collection of user roles. For more information, see Understanding your audiences.
 
         The **Order** field determines which page is displayed. The page with the lowest order number is displayed first.
 
@@ -90,9 +90,9 @@ Connect data resources to dynamically expose data from tables, records, or other
 
     See the UI Builder documentation for details about adding or modifying containers and components.
 
-    -   [Add components to a page](https://www.servicenow.com/docs/access?context=add-components&version=australia&pubname=australia-application-development&ft:locale=en-US): Beginning with step 4, use this task to add a component to a container and to configure the component properties and event handlers. This task also contains information about adding additional containers.
-    -   [Add styling to a component](https://www.servicenow.com/docs/access?context=add-styling-to-component&version=australia&pubname=australia-application-development&ft:locale=en-US): Beginning with step 3, set CSS styles for a component to change its default appearance.
-    -   [Add a modal to a component](https://www.servicenow.com/docs/access?context=modals-uib&version=australia&pubname=australia-application-development&ft:locale=en-US): Beginning with step 5, add a window that appears when a user clicks a component. For example, if you add a button component that deletes a record, you can add a modal that asks the user to confirm the record deletion.
+    -   Add components to a page: Beginning with step 4, use this task to add a component to a container and to configure the component properties and event handlers. This task also contains information about adding additional containers.
+    -   Add styling to a component: Beginning with step 3, set CSS styles for a component to change its default appearance.
+    -   Add a modal to a component: Beginning with step 5, add a window that appears when a user clicks a component. For example, if you add a button component that deletes a record, you can add a modal that asks the user to confirm the record deletion.
 7.  Click **Save** to save the page variant.
 
 

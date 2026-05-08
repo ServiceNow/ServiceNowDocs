@@ -19,21 +19,21 @@ You can create a transfer order directly from a request to source hardware items
 
 Role required: procurement\_admin or procurement\_user
 
-**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see [Move an asset through the transfer process](https://www.servicenow.com/docs/access?context=create-transfer-order-line-task&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+**Important:** If the Field Service Management application is also activated on your ServiceNow instance, then a workflow in this application processes the transfer orders. For more information, see Move an asset through the transfer process.
 
 ## Procedure
 
 1.  View procurement requests.
 
-<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d410514e68">
+<table id="choicetable_ugf_l3l_4xb"><thead><tr><th align="left" id="d410483e68">
 
 UI
 
-</th><th align="left" id="d410514e71">
+</th><th align="left" id="d410483e71">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d410514e77">
+</th></tr></thead><tbody><tr><td id="d410483e77">
 
 **Core UI**
 
@@ -41,7 +41,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
-</td></tr><tr><td id="d410514e101">
+</td></tr><tr><td id="d410483e101">
 
 **Hardware Asset Workspace**
 
@@ -75,7 +75,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
     You can associate the location of the requester as a service location with multiple stockrooms for better location coverage. Also, these stockrooms can be associated with multiple inbound stockrooms or distribution channels for optimized transfer of assets between the stockrooms. Distribution channels enable you to source the assets from the stockrooms that you prefer for sourcing based on the rank that you provide to the stockrooms.
 
-    For more information, see [Associate a stockroom with service locations](https://www.servicenow.com/docs/access?context=associate-stockroom-with-service-locations&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) and [Link stockrooms into a distribution channel](https://www.servicenow.com/docs/access?context=associate-stockroom-with-distribution-channels&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+    For more information, see Associate a stockroom with service locations and Link stockrooms into a distribution channel.
 
 7.  In the **Source stockroom** list, select a stockroom from which the hardware item should be sourced.
 
@@ -109,5 +109,5 @@ Navigate to **All** &gt; **Procurement** &gt; **Requests** &gt; **Requests**.
 
 [Add an assignment from a request](t_AddingAssignmentsFromReq.md)
 
-[Manage transfer orders](https://www.servicenow.com/docs/access?context=c_TransferOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[bundle-fsm.c_TransferOrders]
 

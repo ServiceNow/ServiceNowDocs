@@ -19,9 +19,9 @@ Learn how to customize your mobile experience further. Configure actionable noti
 
 ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage alerts, incidents, and on-call schedules from the same mobile app. Visit the following ITSM Mobile Agent documentation to learn about customizing mobile notifications.
 
--   [Configurable actionable notifications for ITSM Mobile Agent](https://www.servicenow.com/docs/access?context=actionable-notify-itsm-mobile&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Enable Push notification categories for ITSM Mobile Agent](https://www.servicenow.com/docs/access?context=enable-notifications-categories&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [ITSM Mobile email notification redirection via web](https://www.servicenow.com/docs/access?context=itsm-ma-email-notification-redirection&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Set custom alert tones in ITSM Mobile Agent for different incident priority](https://www.servicenow.com/docs/access?context=set-alert-tones-incident-priority&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Enable Override do not disturb to receive critical alerts](https://www.servicenow.com/docs/access?context=enable-override-do-not-disturb-to-receive-critical-alerts&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   Configurable actionable notifications for ITSM Mobile Agent
+-   Enable Push notification categories for ITSM Mobile Agent
+-   ITSM Mobile email notification redirection via web
+-   Set custom alert tones in ITSM Mobile Agent for different incident priority
+-   Enable Override do not disturb to receive critical alerts
 

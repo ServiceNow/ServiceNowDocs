@@ -35,15 +35,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
 3.  Customize the form layout that displays in the form editor by performing the following actions.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d290188e168">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d290170e168">
 
 Option
 
-</th><th align="left" id="d290188e171">
+</th><th align="left" id="d290170e171">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d290188e177">
+</th></tr></thead><tbody><tr><td id="d290170e177">
 
 **Add form sections**
 
@@ -54,7 +54,7 @@ Action
 3.  Enter a title for the section.
  **Note:** You can also add a new section from within the form editor by pointing to the **+** icon at the top of an existing section, and then selecting **+Add section** or by using the menu in the section header.
 
-</td></tr><tr><td id="d290188e213">
+</td></tr><tr><td id="d290170e213">
 
 **Configure section layout \(columns\)**
 
@@ -66,7 +66,7 @@ Change the layout of your section. Sections can consist of one column or be spli
     -   From the section header menu, select **One-column** or **Two-column**.
 
 
-</td></tr><tr><td id="d290188e251">
+</td></tr><tr><td id="d290170e251">
 
 **Merge section with the section above**
 
@@ -78,7 +78,7 @@ Merge two sections. Merging a section refers to combining two sections together 
     -   From the section panel, select **Merge with section above**.
 
 
-</td></tr><tr><td id="d290188e286">
+</td></tr><tr><td id="d290170e286">
 
 **Detach section**
 
@@ -90,7 +90,7 @@ Detach a section. You can split two previously merged sections apart into separa
     -   From the section panel, select **Detach from section above**.
 
 
-</td></tr><tr><td id="d290188e322">
+</td></tr><tr><td id="d290170e322">
 
 **Remove section from form**
 

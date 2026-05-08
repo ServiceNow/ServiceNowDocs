@@ -19,7 +19,7 @@ Connect integrates with Policy and Compliance Management providing an overlay to
 
 Role required: sn\_compliance.user or sn\_compliance.reader
 
-For more information about Connect, see [Connect](https://www.servicenow.com/docs/access?context=c_Connect&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about Connect, see Connect.
 
 ## Procedure
 

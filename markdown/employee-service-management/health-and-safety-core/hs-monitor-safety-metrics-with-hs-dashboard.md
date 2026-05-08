@@ -52,7 +52,7 @@ The dashboard features several tabs to enable you to navigate between different 
 
 ## Customizing widgets
 
-You can customize the widgets in the dashboard to display relevant metrics by using the UI Builder. For more information, see [UI Builder tutorial](https://www.servicenow.com/docs/access?context=uib-tutorial&version=australia&pubname=australia-application-development&ft:locale=en-US).
+You can customize the widgets in the dashboard to display relevant metrics by using the UI Builder. For more information, see UI Builder tutorial.
 
 ## Required roles
 

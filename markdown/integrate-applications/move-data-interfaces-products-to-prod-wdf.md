@@ -26,7 +26,7 @@ Before you begin, verify the following:
 
 Data interfaces and data products are captured in the active update set as you create and publish them. Exporting and installing the update set in production recreates the assets, including all data interface tables and column mappings. After installation, you must verify the connections again in production because connector names and credentials differ between instances.
 
-For detailed instructions on update sets, see [Working with update sets](https://www.servicenow.com/docs/access?context=using-system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For detailed instructions on update sets, see Working with update sets.
 
 ## Procedure
 

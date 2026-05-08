@@ -85,15 +85,15 @@ Use Workspace Builder and UI Builder to further enhance experiences in your appl
 
 </td><td>
 
-Use Decision Builder to easily manage business logic for your application.-   [Create decision tables in Workflow Studio](https://www.servicenow.com/docs/access?context=create-decision-table-in-decision-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Manage decision tables in Excel](https://www.servicenow.com/docs/access?context=manage-decision-tables-ms-excel&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Modify decision table structure in Workflow Studio](https://www.servicenow.com/docs/access?context=format-decision-table-in-decision-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Modify decision table rules in Workflow Studio](https://www.servicenow.com/docs/access?context=modify-decision-table-rules&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Use Decision Builder to easily manage business logic for your application.-   Create decision tables in Workflow Studio
+-   Manage decision tables in Excel
+-   Modify decision table structure in Workflow Studio
+-   Modify decision table rules in Workflow Studio
 
 </td><td>
 
 Configure and manage roles for your organization and application using the ServiceNow AI Platform and App Engine Management Center.-   [Configure AES personas and roles](../concept/aes-personas-roles.md)
--   [Configure users and groups](https://www.servicenow.com/docs/access?context=configure-csm-users-groups&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Configure users and groups
 -   [Add users to the App Engine Admin group](../task/add-users-to-admin-grp.md)
 -   [Delegate developers using AES](../concept/aes-app-dev-workflow.md)
 -   [Managing developers using AEMC](../concept/manage-developers-using-aemc.md)

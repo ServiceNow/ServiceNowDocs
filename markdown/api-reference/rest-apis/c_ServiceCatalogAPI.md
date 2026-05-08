@@ -4762,7 +4762,7 @@ parent\_id
 
 </td><td>
 
-If available, sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://www.servicenow.com/docs/access?context=configure-mapping-for-request&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: String
+If available, sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
 
 </td></tr><tr><td>
 
@@ -5567,7 +5567,7 @@ parent\_id
 
 </td><td>
 
-If available, the sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://www.servicenow.com/docs/access?context=configure-mapping-for-request&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: String
+If available, the sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
 
 </td></tr><tr><td>
 
@@ -6186,7 +6186,7 @@ parent\_id
 
 </td><td>
 
-If available, the sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://www.servicenow.com/docs/access?context=configure-mapping-for-request&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: String
+If available, the sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
 
 </td></tr><tr><td>
 
@@ -6396,7 +6396,7 @@ parent\_id
 
 </td><td>
 
-If available, sys\_id of the parent record from which the request is created. For more information, see [Configure a parent mapping for a request](https://www.servicenow.com/docs/access?context=configure-mapping-for-request&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: String
+If available, sys\_id of the parent record from which the request is created. For more information, see Configure a parent mapping for a request.Data type: String
 
 </td></tr><tr><td>
 

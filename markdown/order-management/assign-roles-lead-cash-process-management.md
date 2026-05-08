@@ -108,15 +108,15 @@ Sales process manager
 </td></tr></tbody>
 </table>You can assign roles to users and groups using either guided setup or through the following user administration features:
 
--   [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Assign a role to a user
+-   Assign a role to a group
 
 **Related topics**  
 
 
-[Creating users](https://www.servicenow.com/docs/access?context=ua-creating-users&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.ua-creating-users]
 
-[Creating groups](https://www.servicenow.com/docs/access?context=ua-creating-groups&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.ua-creating-groups]
 
 [Components installed with Lead-to-Cash Process Management](../reference/components-installed-lead-cash-process-management.md)
 

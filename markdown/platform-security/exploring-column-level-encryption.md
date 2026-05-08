@@ -21,7 +21,7 @@ Column Level Encryption enables you to encrypt selected database fields and stor
 
 After the context is created, you can associate it to a user role. Users assigned to this role, either directly of through a group, are able to access the encrypted data.
 
-Because Column Level Encryption bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Because Column Level Encryption bases access to data on role assignment, it’s important to be familiar with administering roles on your instance. For more information, see Managing roles.
 
 ## Column Level Encryption benefits
 

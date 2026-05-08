@@ -19,12 +19,12 @@ Performance Analytics uses a scheduled job to remove old scores and snapshots.
 
 The Clean PA collections scheduled job is active by default and has no impact on performance. By default, the job runs daily so it only has to delete a small amount of data.
 
-**Note:** The dictionary attributes nibble\_size and nibble\_sleep affect the behavior of the collection cleaner job if the attributes are defined for one of the Score \(pa\_scores, pa\_scores\_l1, pa\_scores\_l2\) tables or the Snapshot \(pa\_snapshots\) table. For more information, see [Altering tables and fields using dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The dictionary attributes nibble\_size and nibble\_sleep affect the behavior of the collection cleaner job if the attributes are defined for one of the Score \(pa\_scores, pa\_scores\_l1, pa\_scores\_l2\) tables or the Snapshot \(pa\_snapshots\) table. For more information, see Altering tables and fields using dictionary attributes.
 
 **Related topics**  
 
 
-[Altering tables and fields using dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_DictionaryAttributes]
 
 [KB0720725: Clearing Performance Analytics Score data](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0720725)
 
@@ -56,7 +56,7 @@ By default, the Clean PA collections job runs at 05:00 which is appropriate when
 **Related topics**  
 
 
-[Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScheduledJobs]
 
 [KB0721309: Configuring the Performance Analytics Table Cleaner](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0721309)
 

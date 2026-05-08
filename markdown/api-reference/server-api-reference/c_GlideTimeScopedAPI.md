@@ -80,7 +80,7 @@ Output:
 
 Returns the time in the specified format.
 
-For information on the time formats that you can pass into this method, see [Global date and time field format](https://www.servicenow.com/docs/access?context=r_FormatDateAndTimeFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US). You can pass these values in any order and add separators such as a dash, space, backslash, or colon. In addition, you can also pass the character "a" to return am/pm.
+For information on the time formats that you can pass into this method, see Global date and time field format. You can pass these values in any order and add separators such as a dash, space, backslash, or colon. In addition, you can also pass the character "a" to return am/pm.
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 

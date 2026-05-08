@@ -19,7 +19,7 @@ Role required: admin
 
 ## About this task
 
-To add a button to your mobile web screen, you must use UI Builder. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To add a button to your mobile web screen, you must use UI Builder. For more information, see UI Builder.
 
 ## Procedure
 

@@ -35,5 +35,5 @@ The application provides several global reports, both lists and charts, that sho
 **Related topics**  
 
 
-[Reporting](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.reporting-landing-page]
 

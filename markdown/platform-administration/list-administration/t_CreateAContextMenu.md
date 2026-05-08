@@ -59,7 +59,7 @@ Select the list context menu in which this option appears.
 
 -   List title menus
 -   Column headings
--   [List fields](https://www.servicenow.com/docs/access?context=r_Fields&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   List fields
 
 
 </td></tr><tr><td>

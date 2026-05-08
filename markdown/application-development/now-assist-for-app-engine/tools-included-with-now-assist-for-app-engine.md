@@ -24,11 +24,11 @@ The following table highlights some of the ServiceNow AI Platform tools and appl
 
 |Tool|Description|Resources for additional information|
 |----|-----------|------------------------------------|
-|AI Agent Studio|Create flexible, adaptive AI agents for App Engine use cases.|[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|
-|Now Assist Skill Kit|Develop custom skills that can be used in App Engine applications.|[Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|
-|Now Assist Data Kit|Build and maintain datasets to evaluate your custom skills.|[Now Assist Data Kit](https://www.servicenow.com/docs/access?context=now-assist-data-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|
-|Document Intelligence|Incorporate generative AI capabilities into your flows and playbooks.|[Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-nowassist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)|
-|Virtual Agent|Create generative AI-powered chatbots.|[Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)|
+|AI Agent Studio|Create flexible, adaptive AI agents for App Engine use cases.|AI Agent Studio|
+|Now Assist Skill Kit|Develop custom skills that can be used in App Engine applications.|Now Assist Skill Kit|
+|Now Assist Data Kit|Build and maintain datasets to evaluate your custom skills.|Now Assist Data Kit|
+|Document Intelligence|Incorporate generative AI capabilities into your flows and playbooks.|Now Assist in Document Intelligence|
+|Virtual Agent|Create generative AI-powered chatbots.|Now Assist in Virtual Agent|
 
 For a complete list of the tools and skills in Now Assist for App Engine, see the product listing in the [ServiceNow Store](https://store.servicenow.com/store/app/5d27eef41bd92a50396216db234bcb45).
 

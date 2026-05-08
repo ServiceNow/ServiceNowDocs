@@ -19,7 +19,7 @@ Enable Virtual Agent for Sourcing and Procurement Operations to start chatting w
 
 Role required: admin, virtual\_agent\_admin
 
-The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize, duplicate, and edit a topic, see [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize, duplicate, and edit a topic, see Virtual Agent Designer
 
 ## Procedure
 

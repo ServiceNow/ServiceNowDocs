@@ -43,7 +43,7 @@ Role required: sn\_wsd\_wc.admin
 
     **Note:** The extension point is used to process badging data from the provider and convert it to the standard format to be implemented by each provider. It's just an interface. Each provider must have a separate implementation.
 
-    For more information, see [Creating and adding a scripted extension point](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information, see Creating and adding a scripted extension point.
 
 7.  Select **Submit** to save the connector configuration.
 

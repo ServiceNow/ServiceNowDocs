@@ -29,7 +29,7 @@ Role required:
 
 ## About this task
 
-**Important:** This skill is turned on by default if you have Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This skill is turned on by default if you have Now Assist for Privacy Management installed. The skill is automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 Privacy cases can involve multiple coordinators, complex activity logs, and breach assessments. The GRC case summarization skill generates a concise AI summary of key case details, so assignees and approvers can quickly understand the context and support efficient decision-making.
 

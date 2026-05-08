@@ -17,7 +17,7 @@ Manage ServiceNow IT service requests from your EMR system by using either a sys
 
 ## Using a system support module for your EMR system
 
-Use the pre-built ServiceNow scripted REST APIs for submitting IT service requests within your EMR system. The Remote help request API is available for integrations with your EMR system. For more information, see [Remote help request API](https://www.servicenow.com/docs/access?context=remote_help_request-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Use the pre-built ServiceNow scripted REST APIs for submitting IT service requests within your EMR system. The Remote help request API is available for integrations with your EMR system. For more information, see Remote help request API.
 
 ## Using a dedicated service portal for your EMR system
 
@@ -35,7 +35,7 @@ As an administrator, you can use the EMR Help service portal for enabling clinic
 
 To use a dedicated service portal, you can create a record producer to define the fields for the help form in the record producer and then embed the form in your service portal. Clinicians can use this help form to submit IT service requests.
 
-By default, the **EMR Incident** record producer is available for submitting IT service requests associated with incidents. You can use the default record producer to add more variables or create your own record producer. For more information, see [Record Producer](https://www.servicenow.com/docs/access?context=c_RecordProducer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+By default, the **EMR Incident** record producer is available for submitting IT service requests associated with incidents. You can use the default record producer to add more variables or create your own record producer. For more information, see Record Producer.
 
 When embedding the form in your service portal, note the following points:
 

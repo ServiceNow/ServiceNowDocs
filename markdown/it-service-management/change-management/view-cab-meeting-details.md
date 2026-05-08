@@ -23,7 +23,7 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 
 1.  Use one of the following ways to navigate to the CAB meeting.
 
-<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d448792e52">
+<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d448761e52">
 
 **CAB meeting**
 
@@ -36,7 +36,7 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 2.  Click the **Go to this meeting in CAB workbench** related link.
 
 
-</td></tr><tr><td id="d448792e114">
+</td></tr><tr><td id="d448761e114">
 
 **CAB workbench**
 

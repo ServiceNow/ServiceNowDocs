@@ -107,7 +107,7 @@ The DHCP Delete IP Reservation activity deletes IP reservations in DHCP using ei
 An automation can obtain an Infoblox DHCP object to delete from either of these activities:
 
 -   [DHCP List IP Reservations](c_InfobloxDHCPActivities.md#)
--   [DHCP Reserve IPv4 Address Range](https://www.servicenow.com/docs/access?context=c_InfobloxDHCPActivities&version=australia&pubname=australia-servicenow-platform&section=r_DHCPReserveIPv4AddrRangeActivity&ft:locale=en-US)
+-   DHCP Reserve IPv4 Address Range
 
 The DHCP activities use the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#) to manage IP addresses using an Infoblox DDI Grid Server. These activities are configured to use a MID Server with REST capabilities.
 

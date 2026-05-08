@@ -55,6 +55,6 @@ To access the CI Class Manager, navigate to **All** &gt; **Configuration** &gt; 
 
 ## Service Mapping
 
--   [Entry point types for Service Mapping](https://www.servicenow.com/docs/access?context=t_CreateEntryPoint&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [CI types for Service Mapping and Discovery](https://www.servicenow.com/docs/access?context=t_CreateCITypeForSM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   Entry point types for Service Mapping
+-   CI types for Service Mapping and Discovery
 

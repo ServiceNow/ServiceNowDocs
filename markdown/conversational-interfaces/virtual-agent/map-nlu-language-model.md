@@ -21,7 +21,7 @@ Map a Virtual Agent topic to a secondary model in the model group or to a standa
 
 If you're using ServiceNow NLU, review [NLU model mapping in Virtual Agent Designer](../concept/nlu-model-binding-vad.md) for an understanding of NLU model groups.
 
-If necessary, add secondary languages to the model group in NLU Workbench to create language-specific versions of the model. For more information, see [Multilingual model management](https://www.servicenow.com/docs/access?context=multilingual-model-managent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If necessary, add secondary languages to the model group in NLU Workbench to create language-specific versions of the model. For more information, see Multilingual model management.
 
 Role required: virtual\_agent\_admin or admin
 

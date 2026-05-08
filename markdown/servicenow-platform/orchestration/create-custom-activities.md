@@ -37,11 +37,11 @@ The Activity Designer contains common steps which are applicable to all the acti
 
     ![Activity designer stage indicator](../image/ActivityDesignerStepIndicator.png "Activity designer stage indicator")
 
-3.  Add the [general properties](https://www.servicenow.com/docs/access?context=General-Flds-Templates&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+3.  Add the general properties.
 
     This information is standard for each custom activity, include a name, description, and other related information.
 
-4.  Create the template [Create input variables](https://www.servicenow.com/docs/access?context=CreateInputVariables&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for the template.
+4.  Create the template Create input variables for the template.
 
     Create the variables to pass into the activity in the Inputs form of the activity designer.
 
@@ -73,7 +73,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 9.  Use one of the options to assign values to Outputs.
 
-<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d568022e333">
+<table id="choicetable_lh4_h3j_4y"><tbody><tr><td id="d568015e333">
 
 **Parsing rule**
 
@@ -81,7 +81,7 @@ The Activity Designer contains common steps which are applicable to all the acti
 
 You can create a parsing rule and map them to the output fields by dragging and dropping the variables into the [parsing rules](t_CreateAParsingRule.md#) structure. The REST, SOAP, and JDBC templates provide auto-mapping to create the parsing rules automatically. If available from the test inputs form, auto-mapping should be used when possible.
 
-</td></tr><tr><td id="d568022e349">
+</td></tr><tr><td id="d568015e349">
 
 **[Post-processing](t_CreateAParsingRule.md#)**
 
@@ -90,7 +90,7 @@ You can create a parsing rule and map them to the output fields by dragging and 
 Post-processing scripts allow you to code your own output data validation, output parsing code, and related tasks. Post-processing executes after the execution command results have been returned and before the parsing rules and conditions are run. Click **Go to Post-Processing \(Advanced\)** to create a post-processing script. **Note:** If you create a script, this step reflects as a stage in the indicator.
 
 </td></tr></tbody>
-</table>10. Click **Continue** to open the [Conditions](https://www.servicenow.com/docs/access?context=conditions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) form to create exit condition rules for your activity and then click **Save**.
+</table>10. Click **Continue** to open the Conditions form to create exit condition rules for your activity and then click **Save**.
 
 
 -   **[General properties for activity designer templates](../reference/General-Flds-Templates.md)**  

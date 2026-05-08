@@ -15,7 +15,7 @@ breadcrumb: [Orchestration examples, Classic Orchestration, Workflow Data Fabric
 
 A set of six Orchestration Active Directory activities enables organizations to automate their on-boarding/off-boarding processes with auditable, self-documenting workflows that save time and eliminate mistakes.
 
-The activities in the [Active Directory activity pack](https://www.servicenow.com/docs/access?context=c_OrchActiveDirectoryActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) are designed to manage user accounts and reset user passwords. The following activities cover the most common use cases administrators encounter when managing Active Directory user accounts:
+The activities in the Active Directory activity pack are designed to manage user accounts and reset user passwords. The following activities cover the most common use cases administrators encounter when managing Active Directory user accounts:
 
 -   Create AD User Account
 -   Update AD User Account
@@ -132,7 +132,7 @@ Updates the user's account in Active Directory, if the user exists. In this exam
 
     At this point, the workflow takes a ServiceNow user record as input and updates the First Name, Last Name, and Title of the corresponding Active Directory account. If the account does not exist in Active Directory, the workflow fails.
 
-    **Note:** In a normal workflow, some type of alternate action is desirable upon failure. For example, you might send an [Email and SMS notifications](https://www.servicenow.com/docs/access?context=c_EmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US) if the workflow failed to update the record.
+    **Note:** In a normal workflow, some type of alternate action is desirable upon failure. For example, you might send an Email and SMS notifications if the workflow failed to update the record.
 
 12. To prevent the workflow from failing, add a Create AD Object activity to the transition lines between Begin and the Update AD Object activity.
 

@@ -117,7 +117,7 @@ You can add the item name to the URL so it is easier to understand the purpose o
 
 `https://instance_name.servicenow.com/sp/en/apple-iphone-13?id=sc_cat_item&sys_id=ec80c13297968d1021983d1e6253af32&sysparm_catgory=1e80c15697969f1032083d1e6253be15`
 
-Before you can use this method, you must define the dynamic page variables that are available for each of the Service Portal templates for which you want to include dynamic content in the URL. For details on adding these variables, see [Add human readable keywords to page URLs](https://www.servicenow.com/docs/access?context=add-human-readable-keywords-page-urls&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Before you can use this method, you must define the dynamic page variables that are available for each of the Service Portal templates for which you want to include dynamic content in the URL. For details on adding these variables, see Add human readable keywords to page URLs.
 
 <table id="table_dht_dpg_hvb" class="parameters"><thead><tr><th>
 

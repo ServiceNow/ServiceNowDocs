@@ -58,7 +58,7 @@ An enrollment case is based on a healthcare case that instead is based on a cust
 
 **Note:** The **Patient** field is mandatory for an enrollment request case.
 
-For more information on tabs available for a customer service case, see [Customer service case form](https://www.servicenow.com/docs/access?context=r_CustomerServiceCaseForm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information on tabs available for a customer service case, see Customer service case form.
 
 ## What to do next
 

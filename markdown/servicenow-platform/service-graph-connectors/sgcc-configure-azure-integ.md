@@ -17,7 +17,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Microsoft Azure version 1.9.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install Service Graph Connector for Microsoft Azure version 1.9.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
 **Important:** After the initial import of Azure data, the application performs a delta import of data. However, you can perform a full pull of data anytime later by disabling the delta synchronization and setting the **sn\_sg\_azure\_integ.is\_delta\_sync\_enabled** property to `false`. For more information, see [Configuring data synchronization in Service Graph Connector for Microsoft Azure](../../configuration-management/concept/sgc-cmdb-azure-data-sync.md#).
 
@@ -32,7 +32,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The playbook experience for onboarding connectors is activated with SGC Central in the Service Graph Workspace or CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 The connector uses the Azure Management APIs for the complete pull of data from Azure. However, to pull delta changes from Azure, the Azure Resource Graph APIs are used. The domain name system \(DNS\) is Microsoft Azure Management, but the path is a resource graph.
 
@@ -170,7 +170,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as no
 
     4.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see Schedule a data import.
 
     5.  Select **Save**.
 
@@ -287,7 +287,7 @@ Where *&lt;tenantid&gt;* is the tenant ID of your Azure client application as no
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see Schedule a data import.
 
     4.  Select **Save**.
 

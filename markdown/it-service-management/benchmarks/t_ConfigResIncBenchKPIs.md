@@ -17,7 +17,7 @@ The source for the KPIs containing resolved incident data is the **resolved\_at*
 
 ## Before you begin
 
-**Note:** If you have never tracked resolved incidents in your environment before, install the [Incident Resolution Fields](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US) \(com.snc.incident\_resolution\_fields\) plugin, which automatically adds the **resolved\_at** field to the Incident table. No further steps are required.
+**Note:** If you have never tracked resolved incidents in your environment before, install the Incident Resolution Fields \(com.snc.incident\_resolution\_fields\) plugin, which automatically adds the **resolved\_at** field to the Incident table. No further steps are required.
 
 Role required: sn\_bm\_client.benchmark\_admin
 
@@ -37,7 +37,7 @@ Configure the KPI conditions and script to use your custom field \(instead of th
 
 ## Procedure
 
-1.  Configure the Benchmark.Incidents.Resolved [indicator source](https://www.servicenow.com/docs/access?context=c_IndicatorSources&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) condition with your custom field.
+1.  Configure the Benchmark.Incidents.Resolved indicator source condition with your custom field.
 
     1.  Navigate to **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources**.
 

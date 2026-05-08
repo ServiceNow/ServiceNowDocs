@@ -17,7 +17,7 @@ A system property 'mid.property.probe.api.timeout.minutes' enables you to decide
 
 This Cloud Provisioning and Governance MID Server property with name and value parameters handles the timeout exception.
 
-See [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information on creating a MID Server property.
+See MID Server properties for more information on creating a MID Server property.
 
 **Parent Topic:**[ITOM Optimization reference](itom-optimization-reference.md)
 

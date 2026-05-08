@@ -31,7 +31,7 @@ You can create email templates for different types of email notifications. For m
 
 3.  Fill in the fields on the form, as appropriate.
 
-    For more information on the form fields, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on the form fields, see Create an email notification.
 
 4.  Select **Preview Notification** to view the message.
 

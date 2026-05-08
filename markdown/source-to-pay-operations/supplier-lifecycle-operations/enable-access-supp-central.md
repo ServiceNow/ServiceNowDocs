@@ -37,8 +37,8 @@ Configure the user criteria for the Service Portal.
 
 </td><td>
 
-Complete these steps:1.  [Activate the user criteria for Service Portal plugin](https://www.servicenow.com/docs/access?context=activate-user-criteria&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
-2.  [Set the user criteria for Service Portal system property](https://www.servicenow.com/docs/access?context=activate-user-crit&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Complete these steps:1.  Activate the user criteria for Service Portal plugin.
+2.  Set the user criteria for Service Portal system property.
 
 
 </td></tr><tr><td>

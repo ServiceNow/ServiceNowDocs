@@ -64,7 +64,7 @@ Reduce the application service size.-   For an application service mapped using 
     -   [Split the service into smaller services](add-segment-to-business-service-map.md).
 -   For an application service converted from an application service, perform the following actions:
     -   Review the converted service instance to identify CI relations irrelevant or redundant for this service. Remove such CI relations in the CMDB.
-    -   Decide how many levels of related CIs you must include into this service instance. If necessary, [change the number of levels used in conversion](https://www.servicenow.com/docs/access?context=update-services-from-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to reduce the service size.
+    -   Decide how many levels of related CIs you must include into this service instance. If necessary, change the number of levels used in conversion to reduce the service size.
 
 
 </td></tr><tr><td>

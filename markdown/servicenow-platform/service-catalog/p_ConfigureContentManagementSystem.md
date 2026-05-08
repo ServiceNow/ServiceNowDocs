@@ -15,7 +15,7 @@ breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Ser
 
 Use the content management system \(CMS\) to create a custom interface for the service catalog.
 
-**Important:** Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) and [Content Management and Service Portal](https://www.servicenow.com/docs/access?context=c_CMSAndSP&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Important:** Use Service Portal for new development instead of CMS. Service Portal is an alternative to CMS with a refined user experience, and is active by default in the base system. For more information, see Service Portal and Content Management and Service Portal.
 
 -   **[Manage catalogs in CMS sites](../task/t_ManageCatalogSites.md)**  
 When your organization uses the content management system \(CMS\) as well as Service Catalog, you can select which catalogs are supported within the CMS sites.

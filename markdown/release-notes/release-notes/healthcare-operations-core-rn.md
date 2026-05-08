@@ -20,30 +20,30 @@ The ServiceNow® Healthcare Operations Core application streamlines and optimize
 
 has received security enhancements in the Australia release.
 
-See [Healthcare Operations Core](https://www.servicenow.com/docs/access?context=hcls-cto-app&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) for more information.
+See Healthcare Operations Core for more information.
 
 **Important:** Healthcare Operations Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Important information for upgrading Healthcare Operations Core to Australia
 
-The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Australia release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see Configuring read-only security options.
 
 If you have the feature administrator role you can now complete tasks that were initially reserved for users with the broader administrator role.
 
 ## Healthcare Operations Core features
 
--   **[Create support requests using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=hcls-agentic-ai-use-cases&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Create support requests using Now Assist in Virtual Agent**
 
     Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case Creation AI agents and is available in Care Team Portal and Care Team Mobile.
 
--   **[Care Team Operations Case Creation Voice AI agent](https://www.servicenow.com/docs/access?context=hco-now-assist-voice-agent&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Operations Case Creation Voice AI agent**
 
     The Care Team Operations Case Creation Voice AI Agent enables care team members to create cases conversationally over the phone.
 
     **Note:** For the Care Team Operations Case Creation Voice AI Agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
 
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -59,27 +59,27 @@ Install Healthcare Operations Core by requesting it from the ServiceNow Store. V
 
 ## Related ServiceNow applications and features
 
--   **[Care Team Mobile](https://www.servicenow.com/docs/access?context=care-team-mobile-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Mobile**
 
     ServiceNow® Care Team Mobile provides a mobile experience for hospital care teams to report issues to support departments.
 
--   **[Care Team Operations for Biomed](https://www.servicenow.com/docs/access?context=care-team-operations-for-biomed&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Operations for Biomed**
 
     ServiceNow® Care Team Operations for Biomed contains the case types to report and fulfill healthcare biomed issues and uses the Healthcare Operations Core data model from the Healthcare Operations Core application.
 
--   **[Care Team Operations for Environmental Services](https://www.servicenow.com/docs/access?context=cto-evs-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Operations for Environmental Services**
 
     ServiceNow® Care Team Operations for Environmental Services contains the case types to report and fulfill environmental issues in healthcare spaces and uses the Healthcare Operations Core data model from the Healthcare Operations Core application.
 
--   **[Care Team Operations for Facilities](https://www.servicenow.com/docs/access?context=cto-facilities-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Operations for Facilities**
 
     ServiceNow® Care Team Operations for Facilities contains the case types to report and fulfill facilities issues in healthcare spaces and uses the Healthcare Operations Core data model from the Healthcare Operations Core application.
 
--   **[Care Team Operations for Healthcare IT](https://www.servicenow.com/docs/access?context=hcls-cto-it-app&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Operations for Healthcare IT**
 
     ServiceNow® Care Team Operations for Healthcare IT contains the case types to report and fulfill healthcare IT issues and uses the Healthcare Operations Core data model from the Healthcare Operations Core application.
 
--   **[Care Team Work Management](https://www.servicenow.com/docs/access?context=ctwm-landing&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US)**
+-   **Care Team Work Management**
 
     ServiceNow® Care Team Work Management streamlines task creation, assignment, and tracking with audit-ready documentation, reducing administrative burdens so care teams can focus on patient care while maintaining regulatory compliance.
 

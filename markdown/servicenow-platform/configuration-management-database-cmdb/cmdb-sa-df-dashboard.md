@@ -15,7 +15,7 @@ breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration M
 
 The CMDB success advisor for Data Foundations dashboard enables CMDB administrators to identify and address data quality issues specific to principal classes in the Configuration Management Database \(CMDB\).
 
-**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see [KPI Details](https://www.servicenow.com/docs/access?context=kpi-details&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) and [Improving CMDB data quality for Data Foundations](cmdb-sa-df-remediation.md).
+**Important:** When you select a segment or count on a chart from a CMDB success advisor dashboard, the KPI Details page opens. On the page, you can analyze how a specific metric trends over time. Additionally, the Remediation actions panel appears when remediation actions are available for that card. Use the panel to improve the quality of CMDB. To learn more, see KPI Details and [Improving CMDB data quality for Data Foundations](cmdb-sa-df-remediation.md).
 
 ![CMDB success advisor for Data Foundations dashboard overview.](../image/cmdb-sa-df-dashboard.png)
 

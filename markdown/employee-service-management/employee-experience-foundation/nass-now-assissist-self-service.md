@@ -39,7 +39,7 @@ To get started with the Now Assist in Virtual Agent enhanced chat:
 -   Ensure that the enhanced chat is configured for the Employee Center portal by virtual\_agent\_admin.
 -   Select Employee Center from the Portals tab and select the enhanced chat.
 
-    For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see Display your chat assistant on a portal, channel, or mobile app.
 
 
 **Important:** Pinning chat windows can create responsiveness issues on the following screen resolutions and pixel range.
@@ -53,12 +53,12 @@ Ensure you avoid pinning the chat window and resizing on these screen resolution
 
 Want to learn more? Visit these resources about Now Assist in Virtual Agent enhanced chat.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin needs to create a system property to enable pinning a chat window. For more information, see Now Assist in Virtual Agent system properties.
 
--   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Portal prerequisites for enhanced chat](https://www.servicenow.com/docs/access?context=prerequisites-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Exploring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Enhanced chat
+-   Now Assist in Virtual Agent
+-   Portal prerequisites for enhanced chat
+-   Configuring assistants overview
+-   Using Now Assist in Virtual Agent
+-   Exploring Now Assist in Virtual Agent
 

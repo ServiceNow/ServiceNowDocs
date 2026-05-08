@@ -40,7 +40,7 @@ Before integrating Employee Center with your Microsoft 365 tenant, ensure that t
 
 1.  Upgrade to IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 by installing the latest IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 plugin.
 
-    **Note:** For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information on activating plugins, see Activate a plugin.
 
 2.  Regenerate and download a new manifest file for Microsoft 365.
 
@@ -52,7 +52,7 @@ Before integrating Employee Center with your Microsoft 365 tenant, ensure that t
 
 1.  Upgrade to IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 by installing the latest IT Service Management for Microsoft 365 / HR Service Delivery with Microsoft 365 plugin.
 
-    **Note:** For more information on activating plugins, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information on activating plugins, see Activate a plugin.
 
 2.  Authenticate users to access Employee Center in Microsoft 365 applications by updating the client IDs in the Microsoft Azure application.
 

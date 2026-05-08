@@ -30,7 +30,7 @@ Before building a custom component, you must have the following:
 -   JavaScript knowledge to define component behavior and that of the custom control.
 -   Knowledge of the design process for creating custom components for use in Virtual Agent Designer.
 
-To learn more about developing custom components for Virtual Agent, see [Develop a component for Virtual Agent](https://www.servicenow.com/docs/access?context=va-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To learn more about developing custom components for Virtual Agent, see Develop a component for Virtual Agent.
 
 ## How custom controls work
 

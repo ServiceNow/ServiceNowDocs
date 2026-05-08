@@ -61,7 +61,7 @@ If your organization does not use job code hierarchy as the basis for sourcing p
 
     -   To set a condition, select the operator cell and choose an operator, then select the condition value cell and enter a value. To match on business owner job code, use the dot-walked field `business_owner.job_code`. Use the reference field lookup to select the correct job code records rather than entering values manually.
     -   To set the result, select the result value cell and choose the priority level to assign when the rule matches.
-    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see [Modify decision table rules in Workflow Studio](https://www.servicenow.com/docs/access?context=modify-decision-table-rules&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For detailed information about working with decision table cells, conditions, and results in Workflow Studio, see Modify decision table rules in Workflow Studio.
 
 7.  In the **Rank** column, set the evaluation sequence for each rule.
 

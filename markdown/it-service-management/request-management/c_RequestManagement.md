@@ -50,7 +50,7 @@ Reference topics for Request Management.
 **Related topics**  
 
 
-[Exploring Service Catalog](https://www.servicenow.com/docs/access?context=exploring-service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.exploring-service-catalog]
 
-[Catalog Builder](https://www.servicenow.com/docs/access?context=catalog-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.catalog-builder]
 

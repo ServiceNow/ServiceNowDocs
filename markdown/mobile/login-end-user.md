@@ -66,7 +66,7 @@ Tap the QR icon \(![Mobile QR scan code.](../image/mobile-qr-scan.png)\), and th
  The QR code automatically fills in the name of the instance.
 
 </td></tr></tbody>
-</table>    **Note:** For both the Now Mobile app and Mobile Agent app, there's an option to test with a demo account, where you can select a role that matches the demo you would like to see. For more information, see [Now Mobile app demo](https://www.servicenow.com/docs/access?context=sg-mobile-demo&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) and [Mobile Agent app demo](../concept/sg-agent-demo.md).
+</table>    **Note:** For both the Now Mobile app and Mobile Agent app, there's an option to test with a demo account, where you can select a role that matches the demo you would like to see. For more information, see Now Mobile app demo and [Mobile Agent app demo](../concept/sg-agent-demo.md).
 
 3.   Enter a nickname for this instance to help you easily locate changes you make within the instance.
 

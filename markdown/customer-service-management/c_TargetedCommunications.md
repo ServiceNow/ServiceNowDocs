@@ -84,7 +84,7 @@ Includes publications that have reached their **Expiry Date** or have been set t
 </td></tr></tbody>
 </table>## Targeted communications workflows
 
-Starting with the Zurich release, legacy publication workflows for the Targeted Communications \(com.sn\_publications\) application have been migrated to low code flows in [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US). The functionality of the flows remains the same.
+Starting with the Zurich release, legacy publication workflows for the Targeted Communications \(com.sn\_publications\) application have been migrated to low code flows in Workflow Studio. The functionality of the flows remains the same.
 
 If customers have customized the legacy workflows, a fix script deactivates the new flows and activates the legacy workflows during instance upgrade.
 

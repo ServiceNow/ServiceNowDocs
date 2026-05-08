@@ -15,7 +15,7 @@ breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Managem
 
 ServiceNow SLAs track the service level provided by groups and individuals.
 
-When you create a work order, the system automatically assigns it a default [Service Level Management concepts](https://www.servicenow.com/docs/access?context=service-level-management-concepts&version=australia&pubname=australia-it-service-management&ft:locale=en-US) based on priority level. If you change the priority of the work order, the system cancels the current SLA and applies the SLA appropriate for the new priority. The SLA timer continues to run even if the priority is changed. The three default SLAs used for work orders are:
+When you create a work order, the system automatically assigns it a default Service Level Management concepts based on priority level. If you change the priority of the work order, the system cancels the current SLA and applies the SLA appropriate for the new priority. The SLA timer continues to run even if the priority is changed. The three default SLAs used for work orders are:
 
 |SLA|Description|
 |---|-----------|

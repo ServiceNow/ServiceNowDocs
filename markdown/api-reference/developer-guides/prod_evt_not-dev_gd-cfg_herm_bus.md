@@ -19,7 +19,7 @@ If you are using the Hermes Messaging Service in your instance, you must configu
 
 Role required: admin
 
-The Hermes Messaging Service must be activated. For details, see [Activating the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service-activation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The Hermes Messaging Service must be activated. For details, see Activating the Hermes Messaging Service.
 
 The following code snippet shows the HermesEventPublisher methods that must be called to configure the elements needed to send a message to a topic using the Hermes Messaging Service. The [ProducerV2](../../../../app-store/dev_portal/API_reference/ProducerV2/concept/ProducerV2ScopedAPI.md#) API is then called to send the message.
 
@@ -54,7 +54,7 @@ publishMessageThroughProducerV2API: function(message) {
 
 1.  Set up a secure connection to the Hermes Messaging Service.
 
-    For details, see [Set up a secure connection to the Hermes Messaging Service](https://www.servicenow.com/docs/access?context=set-up-secure-connection-to-hermes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For details, see Set up a secure connection to the Hermes Messaging Service.
 
 2.  Override the default functionality in the [HermesEventPublisherOOB - fetchTopicsForMessage\(Object message\)](../../../../app-store/dev_portal/API_reference/HermesEventPublisherOOB/concept/HermesEventPublishOOBScopedAPI.md#) method with your custom topic picker logic when publishing a message to the Hermes Messaging Service.
 

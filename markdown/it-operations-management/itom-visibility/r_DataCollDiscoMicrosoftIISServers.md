@@ -23,8 +23,8 @@ Install IIS Management Scripts and Tools on a Microsoft IIS Server.
 
 Configure these credentials:
 
--   [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Applicative credentials
+-   Windows credentials
 
 ## Classifier, pattern, and probe
 

@@ -15,7 +15,7 @@ breadcrumb: [Reference, Service Exchange]
 
 Several types of components are installed when you activate the Service Exchange for Providers application, including tables, user roles, and business rules.
 
-The Application Files \[sys\_metadata\] table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Application Files \[sys\_metadata\] table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 

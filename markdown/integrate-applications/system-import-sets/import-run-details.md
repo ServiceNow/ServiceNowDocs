@@ -297,5 +297,5 @@ Text describing any errors encountered by the transform target row.
 </td></tr></tbody>
 </table>## Import Log
 
-The Import Log tab displays the logs for the import set. It shows when each log was created, its level, the log message, and the source of the log. For details, see [Import logs](https://www.servicenow.com/docs/access?context=r_ImportLogs&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The Import Log tab displays the logs for the import set. It shows when each log was created, its level, the log message, and the source of the log. For details, see Import logs.
 

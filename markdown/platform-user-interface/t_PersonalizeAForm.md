@@ -27,7 +27,7 @@ In contrast to configuring a form, personalizing a form does not enable users to
 -   Add fields that are not configured to appear on the form.
 -   Hide mandatory fields.
 
-**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must [configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Personalizing a form in this way modifies the form for you only. To make changes to a form that are visible to all users, you must configure the form.
 
 ## Procedure
 
@@ -59,5 +59,5 @@ In contrast to configuring a form, personalizing a form does not enable users to
 **Related topics**  
 
 
-[Administering form personalization](https://www.servicenow.com/docs/access?context=c_FormPersonalizationAdmin&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_FormPersonalizationAdmin]
 

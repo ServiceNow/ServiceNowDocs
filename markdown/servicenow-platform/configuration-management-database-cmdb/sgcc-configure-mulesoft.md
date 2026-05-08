@@ -17,7 +17,7 @@ Set up scheduled import jobs to pull in MuleSoft Anypoint Platform data into you
 
 ## Before you begin
 
-Install API Service Graph Connector for MuleSoft version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Install API Service Graph Connector for MuleSoft version 1.0.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
 Obtain the Connected App credentials from your MuleSoft Anypoint Platform administrator. Make a note of the following details:
 
@@ -38,7 +38,7 @@ Role required: The following table shows the roles required for each stage of th
 
 ## About this task
 
-The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The playbook experience for onboarding connectors is activated with SGC Central in the CMDB Workspace. To configure the SGC Central application, see [Configuring SGC Central](../concept/sgcc-configuring.md) and for more information on how to interact with a playbook, see Interact with Playbook.
 
 **Note:** Alternatively, you can configure a default connection already available from the installed or draft connections in SGC Central. Go to **All** &gt; **Service Graph Connectors**, then select **Setup** for the connector from the menu. To learn about installed and draft connections, see [Managing connections added for Service Graph Connectors in SGC Central](../concept/sgcc-managing-connection.md).
 
@@ -228,7 +228,7 @@ Separator for key and value in tags.
 
     3.  In the Configure import schedule dialog box, select the **Active** check box, and then fill in the run schedule and time details.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see Schedule a data import.
 
     4.  Select **Save**.
 

@@ -40,7 +40,7 @@ Under the **Type Specifications** tab, you can specify the price in different cu
 -   Fixed
 -   Multiple
 
-For information on the pricing models, see [Price fields](https://www.servicenow.com/docs/access?context=price-fields&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+For information on the pricing models, see Price fields .
 
 ![A check box variable](../image/VariableCheckBoxG.png "Example: check box variable")
 

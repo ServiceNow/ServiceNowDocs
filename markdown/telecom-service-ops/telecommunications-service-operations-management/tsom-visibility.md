@@ -107,5 +107,5 @@ CMDB 360 - Visualize:
 
 [Configure Telecom Visibility](../task/configuring-tsom-visibility.md)
 
-[Discovery Admin Workspace](https://www.servicenow.com/docs/access?context=discovery-admin-workspace&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.discovery-admin-workspace]
 

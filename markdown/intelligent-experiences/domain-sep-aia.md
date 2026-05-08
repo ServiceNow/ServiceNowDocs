@@ -29,7 +29,7 @@ Once enabled, the Domain Visibility agent exposes the following options to the a
 
 Ensure the following requirements are met before using the AI agent:
 
--   The Domain Separation plugin is installed on your instance and active. For more information, refer to [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   The Domain Separation plugin is installed on your instance and active. For more information, refer to Domain separation plugin.
 -   AI capabilities are enabled on the instance.
 -   You are signed in with a Domain Admin role.
 

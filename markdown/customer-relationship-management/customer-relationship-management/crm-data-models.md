@@ -148,13 +148,13 @@ This structural connection is what makes the sell, fulfill, and service story co
 **Related topics**  
 
 
-[Customer data](https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.customer-data]
 
-[User management](https://www.servicenow.com/docs/access?context=user-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.user-management]
 
-[Product data](https://www.servicenow.com/docs/access?context=product-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.product-data]
 
-[Data models](https://www.servicenow.com/docs/access?context=data-models&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.data-models]
 
-[Configure Service Model Foundation](https://www.servicenow.com/docs/access?context=configure-industry-data-model&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.configure-industry-data-model]
 

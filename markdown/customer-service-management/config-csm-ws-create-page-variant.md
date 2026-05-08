@@ -17,7 +17,7 @@ When you create a page in UI Builder, you have the option to create a page from 
 
 ## UI Builder terminology
 
-The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the [UI Builder glossary](https://www.servicenow.com/docs/access?context=ui-builder-glossary&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The following table describes the UI Builder terminology around workspace experiences, pages and page variants, and page templates. For more information about UI Builder terminology, see the UI Builder glossary.
 
 <table id="table_spj_stk_1bc"><thead><tr><th>
 
@@ -29,7 +29,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Workspace experience](https://www.servicenow.com/docs/access?context=ui-builder-workspace-settings&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Workspace experience
 
 </td><td>
 
@@ -39,7 +39,7 @@ A workspace experience resides at a specific URL. When an admin creates a worksp
 
 </td></tr><tr><td>
 
-[Page collection](https://www.servicenow.com/docs/access?context=page-collections&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Page collection
 
 </td><td>
 
@@ -91,7 +91,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Create a page from scratch](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Create a page from scratch
 
 </td><td>
 
@@ -99,7 +99,7 @@ When you create a page from scratch, you start with a blank page and select layo
 
 </td></tr><tr><td>
 
-[Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Create a page from a template
 
 </td><td>
 
@@ -113,7 +113,7 @@ For example, when you create a page from the Front-line case page template, the 
 
 </td></tr><tr><td>
 
-[Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Create a page variant
 
 </td><td>
 
@@ -125,7 +125,7 @@ By creating a page variant, you can target an experience for a specific audience
 -   The conditions determine when a page is shown. For example, you can add a condition for records from a specific table, such as the Case table.
 
 </td></tr></tbody>
-</table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US).
+</table>For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
 **Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
 
@@ -148,7 +148,7 @@ For more information, see [Set record page order](../task/config-csm-ws-set-reco
 **Related topics**  
 
 
-[Create a Configurable Workspace experience](https://www.servicenow.com/docs/access?context=create-configurable-workspace-experience-uib&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.create-configurable-workspace-experience-uib]
 
-[Create a Configurable Workspace page](https://www.servicenow.com/docs/access?context=create-configurable-workspace-page-uib&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.create-configurable-workspace-page-uib]
 

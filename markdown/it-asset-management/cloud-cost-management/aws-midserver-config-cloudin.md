@@ -23,7 +23,7 @@ AWS: There must be an internal network connection between the MID Servers and th
 
 ## Detailed instructions
 
-See [Setting up AWS service accounts](https://www.servicenow.com/docs/access?context=setup-aws-service-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+See Setting up AWS service accounts.
 
 ## MID Server settings for Cloud Cost Management
 
@@ -74,9 +74,9 @@ You can use a proxy server for the Cloud Cost Management MID Server. See [Proxy 
 **Related topics**  
 
 
-[MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_MIDServerConfiguration]
 
-[Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 

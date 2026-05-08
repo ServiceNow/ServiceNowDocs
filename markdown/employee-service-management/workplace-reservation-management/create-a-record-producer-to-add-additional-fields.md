@@ -35,7 +35,7 @@ If you want to add details that aren’t included in the Workplace Reservation \
 4.  Select **New**.
 5.  On the Dictionary Entry form, fill in the fields.
 
-    For more information on columns and fields, refer to [Exploring field administration](https://www.servicenow.com/docs/access?context=c_IntroductionToFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on columns and fields, refer to Exploring field administration.
 
 6.  Select **Submit**.
 
@@ -88,7 +88,7 @@ Reservation portal - Reservation form with the 'Related Information' section:
 
 5.  Select **Active** to activate the record producer.
 
-    For further form field descriptions, refer to [Record Producer form](https://www.servicenow.com/docs/access?context=record-producer-form&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For further form field descriptions, refer to Record Producer form.
 
 6.  Select and hold \(or right-click\) on the form header and select **Save**.
 
@@ -105,7 +105,7 @@ Reservation portal - Reservation form with the 'Related Information' section:
     -   Reference
     -   Select Box
     -   Single Line Text
-    To learn more about the different types of variables and how to configure them, see [Types of service catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) Types of service catalog variables.
+    To learn more about the different types of variables and how to configure them, see Types of service catalog variables Types of service catalog variables.
 
     1.  Select **New**.
 
@@ -141,11 +141,11 @@ Reservation portal - Reservation form with the 'Related Information' section:
 
 10. You can add **Catalog UI Policies**.
 
-    Refer to [Service catalog UI policy](https://www.servicenow.com/docs/access?context=c_ServiceCatalogUIPolicy&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    Refer to Service catalog UI policy
 
 11. You can add **Catalog Client Scripts**.
 
-    Refer to [Create a Service Catalog client script](https://www.servicenow.com/docs/access?context=t_CreateACatalogClientScript&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    Refer to Create a Service Catalog client script.
 
     **Note:** Only the following Client Scripts types are supported:
 

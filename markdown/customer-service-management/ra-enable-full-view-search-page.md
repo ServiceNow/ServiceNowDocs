@@ -45,7 +45,7 @@ Use the following steps to define the full view search page in a configurable wo
 
 2.  Create a new page with the following URL path: **ra-expanded-search**.
 
-    This is the path that you will use in the above script to open the full view search page. For more information, see [Create a blank page](https://www.servicenow.com/docs/access?context=learn-by-example-create-blank-page&version=australia&pubname=australia-application-development&ft:locale=en-US) in the UI Builder documentation.
+    This is the path that you will use in the above script to open the full view search page. For more information, see Create a blank page in the UI Builder documentation.
 
 3.  Select the following required parameters for the page.
 

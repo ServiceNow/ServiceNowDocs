@@ -46,15 +46,15 @@ After you publish a scenario, send the scenario for approval. The scenario will 
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d381621e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d381635e159">
 
 Path
 
-</th><th align="left" id="d381621e162">
+</th><th align="left" id="d381635e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d381621e168">
+</th></tr></thead><tbody><tr><td id="d381635e168">
 
 **From the Scenarios list section**
 
@@ -68,7 +68,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d381621e193">
+</td></tr><tr><td id="d381635e193">
 
 **From the Buildings list section**
 

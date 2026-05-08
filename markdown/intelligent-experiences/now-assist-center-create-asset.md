@@ -24,7 +24,7 @@ Follow these steps to create an AI asset.
 
 You can create agents and agentic workflows by opening AI Agent Studio from the asset library. For more information on AI Agent Studio, see [AI Agent Studio](../../now-assist-ai-agents/concept/ai-agent-studio.md).
 
-Other asset types are created using Virtual Agent Assistant Designer. Virtual Agent conversations are built using topics. Conversations can also include subflows and actions. For more information on Assistant Designer, see [Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Other asset types are created using Virtual Agent Assistant Designer. Virtual Agent conversations are built using topics. Conversations can also include subflows and actions. For more information on Assistant Designer, see Assistant Designer.
 
 ## Procedure
 
@@ -82,7 +82,7 @@ Opens the Create a topic form in Assistant Designer.
 
  A conversational topic is used to structure back-and-forth conversations between the virtual agent and the end user.
 
- For more information on creating an asset in Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information on creating an asset in Virtual Agent Designer, see Getting started with Virtual Agent Designer.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Opens the New Subflow form in Assistant Designer.
 
  A subflow is an automated process that is part of a larger automated process. It consists of reusable actions and flow logic, data inputs, and outputs.
 
- For more information on creating an asset in Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information on creating an asset in Virtual Agent Designer, see Getting started with Virtual Agent Designer.
 
 </td></tr><tr><td>
 
@@ -106,7 +106,7 @@ Opens the New Action form in Assistant Designer.
 
  An action is a single step or task performed by a an AI agent, a workflow, or a subflow.
 
- For more information on creating an asset in Virtual Agent Designer, see [Getting started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information on creating an asset in Virtual Agent Designer, see Getting started with Virtual Agent Designer.
 
 </td></tr></tbody>
 </table>4.  Select the type of asset you want to create.

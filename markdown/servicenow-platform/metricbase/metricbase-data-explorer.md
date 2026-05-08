@@ -21,13 +21,13 @@ Role required: clotho\_admin
 
 ## About this task
 
-Data Explorer is a playground where you can see and edit example scripts that visualize data included with the MetricBase Demo application. The example scripts use the MetricBase JavaScript APIs. For information on the MetricBase JavaScript APIs, see [Client](https://www.servicenow.com/docs/access?context=ClientScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), [Data](https://www.servicenow.com/docs/access?context=DataScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), [DataBuilder](https://www.servicenow.com/docs/access?context=DataBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), [Transformer](https://www.servicenow.com/docs/access?context=TransformerScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), [TransformPart](https://www.servicenow.com/docs/access?context=TransformPartScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US), [TransformResult](https://www.servicenow.com/docs/access?context=TransformResultScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Data Explorer is a playground where you can see and edit example scripts that visualize data included with the MetricBase Demo application. The example scripts use the MetricBase JavaScript APIs. For information on the MetricBase JavaScript APIs, see Client, Data, DataBuilder, Transformer, TransformPart, TransformResult.
 
 Note that the now/v1/clotho/transform/topic API endpoint is reserved for internal use only.
 
 Example scripts use either:
 
--   Transforms, which use the [Transformer](https://www.servicenow.com/docs/access?context=TransformerScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) method.
+-   Transforms, which use the Transformer method.
 -   Machine Language, trained models that predict expected behavior. All the scripts without "Transform" in their title use Machine Language.
 
 ## Procedure

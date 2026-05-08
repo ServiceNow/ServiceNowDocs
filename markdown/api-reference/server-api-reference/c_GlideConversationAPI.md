@@ -17,7 +17,7 @@ The GlideConversation API provides methods to access information in a Connect me
 
 **Important:**
 
-Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 Access GlideConversation properties through a global object \(conversation\) that is available only in Connect action conditions and scripts.
 

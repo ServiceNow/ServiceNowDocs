@@ -43,12 +43,12 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## What to do next
 
-[Configure an avatar component for Work scheduler](https://www.servicenow.com/docs/access?context=work-sched-avatar-component&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Configure an avatar component for Work scheduler
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
 
 **Related topics**  
 
 
-[Manage the visual style of UI Builder experiences](https://www.servicenow.com/docs/access?context=manage-the-visual-style-of-ui-builder-experiences&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.manage-the-visual-style-of-ui-builder-experiences]
 

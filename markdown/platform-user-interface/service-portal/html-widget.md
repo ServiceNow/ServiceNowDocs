@@ -24,7 +24,7 @@ Because the HTML widget can contain content of any kind, any example may just ap
 |Field|Description|
 |-----|-----------|
 |Title|Name for the HTML text. Users do not see this information.|
-|HTML|Text box for the HTML. Use the toolbar like most word processing tool bars. For more information on using the toolbar, see [Formatting icons for the HTML field editors](https://www.servicenow.com/docs/access?context=r_Formatting&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .|
+|HTML|Text box for the HTML. Use the toolbar like most word processing tool bars. For more information on using the toolbar, see Formatting icons for the HTML field editors .|
 
 **Parent Topic:**[Example widgets](sp-example-widgets.md)
 

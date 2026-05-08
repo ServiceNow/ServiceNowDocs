@@ -13,7 +13,7 @@ breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Cust
 
 Assist agents with case creation by requiring a minimum of information, such as the short description, and predicting values for the category, priority, and assignment group.
 
-From either Agent Workspace or the platform interface, agents can use this feature when creating cases by providing the short description. Based on the information entered in the **Short description** field, the [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) feature predicts the category, priority, and assignment group, and routes the case to the correct queue.
+From either Agent Workspace or the platform interface, agents can use this feature when creating cases by providing the short description. Based on the information entered in the **Short description** field, the Predictive Intelligence feature predicts the category, priority, and assignment group, and routes the case to the correct queue.
 
 ## Plugin
 

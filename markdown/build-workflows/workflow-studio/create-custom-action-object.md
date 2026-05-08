@@ -34,7 +34,7 @@ Use this example to see demonstrations of these operations and steps.
 
 1.  Create an application to store your work.
 
-    Use the [Guided Application Creator](https://www.servicenow.com/docs/access?context=guided-app-creator&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    Use the Guided Application Creator.
 
     For example, create `My Application`.
 

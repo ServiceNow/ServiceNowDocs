@@ -57,7 +57,7 @@ Authentication Type
 
 </td><td>
 
-Type of authentication to be used to connect to the external SCIM Provider. For more information see, [Outbound REST authentication](https://www.servicenow.com/docs/access?context=c_OutboundRESTAuth&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Type of authentication to be used to connect to the external SCIM Provider. For more information see, Outbound REST authentication.
 
 </td></tr><tr><td>
 
@@ -142,5 +142,5 @@ The REST message record is created.
 
 Use the REST message to create a SCIM Provider. For more information, see [Create a SCIM Provider](create-scim-provider.md).
 
-To learn more about how to create a REST message, see [Create a REST message](https://www.servicenow.com/docs/access?context=t_ConfiguringARESTMessage&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+To learn more about how to create a REST message, see Create a REST message.
 

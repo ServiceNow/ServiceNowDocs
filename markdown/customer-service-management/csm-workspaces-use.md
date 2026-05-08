@@ -164,7 +164,7 @@ Use the step-by-step guidance provided by playbooks to complete tasks and resolv
 
 </td><td>
 
-[Interact with playbooks](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+Interact with playbooks
 
 </td></tr><tr><td>
 

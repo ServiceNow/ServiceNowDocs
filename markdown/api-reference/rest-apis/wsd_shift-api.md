@@ -19,7 +19,7 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role 
 
 This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://www.servicenow.com/docs/access?context=workplace-rsv-mgmt-feat&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on Workplace Reservation Management, see Workplace Reservation Management.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -59,7 +59,7 @@ shift\_id
 
 </td><td>
 
-Sys\_id of the shift to retrieve the time span for.For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Sys\_id of the shift to retrieve the time span for.For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: String
 

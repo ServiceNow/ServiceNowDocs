@@ -54,7 +54,7 @@ Role required: sn\_hr\_core.admin
 
 ### About this task
 
-If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see [Registering custom script includes against the scripted extension points](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+If you are creating a transfer case configuration, you must also create a script include to implement the sn\_hr\_core HR case transfer extension point. For more information, see Registering custom script includes against the scripted extension points.
 
 Refer to the existing script includes as examples:
 
@@ -64,7 +64,7 @@ Refer to the existing script includes as examples:
 
 The hr\_TransferCase script include provides a list of fields ignored in the transfer and acts as a utility for the other two script includes.
 
-**Note:** Refer to [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** Refer to Script includes.
 
 ### Procedure
 
@@ -112,7 +112,7 @@ HR criteria
 
 Defines what HR agents can view and use this transfer type when performing an HR case transfer from the HR case form.See [HR criteria](hr-criteria.md#).
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 
@@ -164,6 +164,6 @@ You can also retain the details of the original case. For example, you can take 
 
     **Note:** If the sn\_hr\_core.restrict\_guest\_email system property is False \(default\), text from an email appears in the Work notes field when the employee is responding from a personal email account.
 
-    See [Email setup](https://www.servicenow.com/docs/access?context=c_EmailConfiguration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    See Email setup.
 
 

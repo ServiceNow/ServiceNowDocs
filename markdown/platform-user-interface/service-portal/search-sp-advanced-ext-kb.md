@@ -45,7 +45,7 @@ In this integration, you will:
 
     1.  Define the search function to be executed by the instance.
 
-        This example uses a [Recordless RESTMessageV2 example](https://www.servicenow.com/docs/access?context=r_RecordlessRESTMessageV2Example&version=australia&pubname=australia-api-reference&ft:locale=en-US), but you can modify this example to use a pre-configured [Outbound REST web service](https://www.servicenow.com/docs/access?context=c_OutboundRESTWebService&version=australia&pubname=australia-api-reference&ft:locale=en-US) if needed, or create a more secure authentication profile.
+        This example uses a Recordless RESTMessageV2 example, but you can modify this example to use a pre-configured Outbound REST web service if needed, or create a more secure authentication profile.
 
         ```
         (function(query) {  
@@ -63,7 +63,7 @@ In this integration, you will:
         })(query);
         ```
 
-        **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the remote instance. For more detail, see [RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&version=australia&pubname=australia-api-reference&ft:locale=en-US) .
+        **Note:** In the preceding example, `ws.setBasicAuth` requires a username and password for the remote instance. For more detail, see RESTMessageV2 - Scoped, Global .
 
     2.  Add an if statement to the data fetch script to decode the JSON object being returned, iterate over each result, and set expected fields.
 

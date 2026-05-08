@@ -144,7 +144,7 @@ The users with the roles listed in the following table can use the Conversationa
 
 [System properties for configuring WhatsApp \(WhatsApp Cloud API\)](direct-cloud-api-system-property-configuration.md)
 
-[Configure Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://www.servicenow.com/docs/access?context=messg-direct-whatsapp-configure&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.messg-direct-whatsapp-configure]
 
-[Using Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://www.servicenow.com/docs/access?context=messg-direct-whatsapp-using&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.messg-direct-whatsapp-using]
 

@@ -50,7 +50,7 @@ Only admins can see roles in the Sharing panel.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d113371e145">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d113367e145">
 
 **Add as viewer**
 
@@ -58,7 +58,7 @@ Only admins can see roles in the Sharing panel.
 
 Grant only viewing permissions to the users, groups, or roles you’re sharing the dashboard with. They can’t edit it.
 
-</td></tr><tr><td id="d113371e154">
+</td></tr><tr><td id="d113367e154">
 
 **Add as editor**
 

@@ -60,9 +60,9 @@ Select this option to receive and review notifications by AI agents in the Now A
 **Related topics**  
 
 
-[Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.na-ai-agents]
 
-[Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.install-ai-agents-plugins]
 
-[AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-agent-studio]
 

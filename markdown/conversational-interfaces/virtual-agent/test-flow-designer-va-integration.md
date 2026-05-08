@@ -31,7 +31,7 @@ When you test the subflow or action associated with the Action utility, you see 
 
 Topic authors can also see the test results in the Conversation Task FDIH Invocations \[sys\_cs\_fdih\_invocation\_list\] table.
 
-**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can work with conversational actions and subflows from the Assistant Designer home page. For each assistant, you can test topics, subflows, and actions by using the Assistant Designer home page **Test Assistant** button. Assistant Designer opens a Workflow Studio tab where you can test subflows and actions. For more information on conversational actions and subflows, see [Conversational actions](https://www.servicenow.com/docs/access?context=conversational-actions&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Conversational subflows](https://www.servicenow.com/docs/access?context=conversational-subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US). You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
+**Note:** If you have turned on and set up Now Assist in Virtual Agent, you can work with conversational actions and subflows from the Assistant Designer home page. For each assistant, you can test topics, subflows, and actions by using the Assistant Designer home page **Test Assistant** button. Assistant Designer opens a Workflow Studio tab where you can test subflows and actions. For more information on conversational actions and subflows, see Conversational actions and Conversational subflows. You can still integrate actions and subflows that are not conversational from Workflow Studio into Virtual Agent topics via Assistant Designer. The following content is only relevant to actions or subflows that can't be made conversational in Workflow Studio.
 
 ## Procedure
 
@@ -43,7 +43,7 @@ Topic authors can also see the test results in the Conversation Task FDIH Invoca
 
     If an action or subflow in the test window is slow to respond or appears to be waiting, you see a relevant error message.
 
-    By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    By default, a scheduled job checks the conversation flow every 120 seconds. For more information about scheduled jobs, see Scheduled jobs.
 
     You can change this interval, as needed. To change the interval, see [Specify the action workflow timeout](va-fdih-action-timeout.md).
 

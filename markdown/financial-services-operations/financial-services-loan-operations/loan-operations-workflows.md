@@ -100,7 +100,7 @@ Loan Drawdown
 Loan Rollover
 
 </td></tr></tbody>
-</table>These workflows are built using [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US). The loan admin can review and customize these predefined flows that are based on the business needs of an organization.
+</table>These workflows are built using Flow Designer. The loan admin can review and customize these predefined flows that are based on the business needs of an organization.
 
 ## General workflow for Loan Operations
 

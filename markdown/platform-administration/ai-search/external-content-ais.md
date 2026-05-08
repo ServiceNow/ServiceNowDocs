@@ -15,7 +15,7 @@ breadcrumb: [Configuring AI Search, AI Search, Search administration, Configure 
 
 With a subscription for the External Content for AI Search plugin, you can enable AI Search users to search content and metadata from documents in external repositories and remote tables.
 
-The External Content for AI Search plugin enables you to index documents located outside of your ServiceNow AI Platform® instance, such as those stored in SharePoint collections, Confluence sites, and [remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). Indexing these documents makes their content and metadata searchable in AI Search.
+The External Content for AI Search plugin enables you to index documents located outside of your ServiceNow AI Platform® instance, such as those stored in SharePoint collections, Confluence sites, and remote tables. Indexing these documents makes their content and metadata searchable in AI Search.
 
 AI Search displays search results for indexed external documents just as it does for indexed ServiceNow AI Platform records. Users don't need to perform any special searches to match content and metadata from external documents.
 
@@ -58,7 +58,7 @@ The Integration Hub AI Search spoke provides Workflow Studio actions that you ca
 
  You can specify security principal access permissions for documents ingested using these actions. To learn more about access permissions and security for external document content, see [External content security for AI Search](external-content-security-ais.md).
 
- For the full list of Workflow Studio actions provided by the AI Search spoke, see [AI Search spoke](https://www.servicenow.com/docs/access?context=ai-search-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+ For the full list of Workflow Studio actions provided by the AI Search spoke, see AI Search spoke.
 
  The Integration Hub AI Search spoke combines flexible configuration and handling with the simple drag-and-drop Workflow Studio interface.
 
@@ -75,7 +75,7 @@ The External Content REST API provides endpoints that you can use to index conte
 
  You can specify security principal access permissions for documents ingested using the ingestDocuments endpoint. To learn more about access permissions and security for external document content, see [External content security for AI Search](external-content-security-ais.md).
 
- For full descriptions of the External Content REST API endpoints, see [External Content Ingestion REST API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ For full descriptions of the External Content REST API endpoints, see External Content Ingestion REST API.
 
  The External Content REST API is the most complex tool for indexing content and metadata from your external documents, but it offers the most flexibility.
 

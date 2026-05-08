@@ -22,7 +22,7 @@ The following generative AI capabilities are available in Now Assist for TPRM:
 
 Learn the details of a third-party risk issue from AI-generated summaries, and use AI-driven recommendations to identify potential third-party risk issues based on assessment responses and historical data.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Now Assist for TPRM skills
 

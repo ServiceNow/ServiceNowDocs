@@ -18,7 +18,7 @@ Integrate Metrikus Spoke with Flow Designer Integration Hub to retrieve occupanc
 Metrikus Spoke provides the occupancy sensor data by mapping the workplace locations or spaces provided in Workplace Connectors.
 
 -   [Activate Metrikus Spoke](../task/install-metrikus-plugin.md).
--   Integrate [Metrikus spoke](https://www.servicenow.com/docs/access?context=metrikus-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) in Flow Designer Integration Hub.
+-   Integrate Metrikus spoke in Flow Designer Integration Hub.
 -   [Configure sensor data providers](../task/providers-occupancy.md) in Workplace Connectors
 
 **Parent Topic:**[Setup Workplace Connectors for occupancy data](setup-occupancy-connectors.md)

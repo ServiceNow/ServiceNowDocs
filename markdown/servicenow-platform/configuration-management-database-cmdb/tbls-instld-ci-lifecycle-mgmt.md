@@ -15,7 +15,7 @@ breadcrumb: [CMDB CI Lifecycle Management \(legacy\), Configuration Management D
 
 Several types of components are installed by CI Lifecycle Management \(included in the com.snc.cmdb plugin\), including tables, scheduled jobs, and properties.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Scheduled jobs installed
 

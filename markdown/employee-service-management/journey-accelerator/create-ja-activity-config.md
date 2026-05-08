@@ -17,7 +17,7 @@ Create or modify an activity configuration to define how the Employee Center han
 
 ## Before you begin
 
-Use the application picker to set the appropriate scope. Employee Center. See, [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Use the application picker to set the appropriate scope. Employee Center. See, Application picker
 
 The name of the activity to configure. Use the name of the activity created in the [Add a Journey Accelerator action plan link to My Active Items list](add-ja-action-plan-myitems-list.md) task example `Action plan items`.
 

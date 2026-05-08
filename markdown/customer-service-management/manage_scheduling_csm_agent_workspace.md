@@ -15,7 +15,7 @@ Look up your schedule, request time off, or swap your shift with your peers usin
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US). For more information see, [Workforce Optimization for Customer Service](../concept/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the UI Builder. For more information see, [Workforce Optimization for Customer Service](../concept/configurable-wfo-cs.md).
 
 Role required: sn\_shift\_planning.agent
 

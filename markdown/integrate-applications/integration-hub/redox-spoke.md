@@ -37,7 +37,7 @@ Redox Electronic Health Record Spoke v1.0.3 is the current version.
 
 The Redox Electronic Health Record Spoke enables a hospital, payer \(insurance\), or life sciences company to:
 
--   Enable interoperability with an electronic medical record \(EMR\) or another healthcare system by leveraging the ServiceNow Healthcare and Life Sciences data model that is based on the Health Insurance Portability and Accountability Act \(HIPAA\) and the Health Level Seven International \(HL7\) industry standards. For more information, see [Healthcare and Life Sciences data model](https://www.servicenow.com/docs/access?context=hcls-serv-mgmt-core&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+-   Enable interoperability with an electronic medical record \(EMR\) or another healthcare system by leveraging the ServiceNow Healthcare and Life Sciences data model that is based on the Health Insurance Portability and Accountability Act \(HIPAA\) and the Health Level Seven International \(HL7\) industry standards. For more information, see Healthcare and Life Sciences data model.
 -   Improve patient care and reduce cost by reducing data duplicity and entry.
 -   Connect to the healthcare ecosystem by enabling patient-centric workflows.
 
@@ -339,7 +339,7 @@ Queries and returns an existing patent record.
 </td></tr></tbody>
 </table>## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see Connections and Credentials.
 
 For information about setting up the spoke, see [Set up the Redox Electronic Health Record Spoke](../task/redox-setup.md#).
 

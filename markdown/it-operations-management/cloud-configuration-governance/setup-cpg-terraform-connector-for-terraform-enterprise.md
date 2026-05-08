@@ -29,7 +29,7 @@ Create Terraform Enterprise or Terraform Cloud config provider in Cloud Provisio
     -   **glide.http.proxy\_password**
     For more information, see the Knowledge Base article [KB0754247](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0754247).
 
--   Ensure that the MID Server has Terraform Enterprise and REST capabilities. For more information, see [Configure MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Ensure that the MID Server has Terraform Enterprise and REST capabilities. For more information, see Configure MID Server capabilities.
 -   Ensure that the MID Server can communicate with the VCS accounts provisioned in the Terraform Enterprise or Terraform Cloud organization.
 
 Role required: admin

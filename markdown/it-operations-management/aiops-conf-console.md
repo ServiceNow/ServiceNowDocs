@@ -4,7 +4,7 @@ description: The ITOM Configuration console gives administrators a single place 
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for Setup \(AIOps\), Now Assist for Setup \(ITOM\), IT Operations Management]
 ---

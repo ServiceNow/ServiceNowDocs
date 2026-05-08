@@ -17,7 +17,7 @@ Agents record time worked on tasks and activities. Time recorded entries automat
 
 The time recording feature extends the functionality of the Time card management application to Field Service Management. Agents can record time worked on tasks from the Work Order Task form and time spent on other activities, such as meetings or training, from the Time Worked form. Time worked entries automatically create time cards for each selected work category. Time cards are automatically included in a weekly time sheet.
 
-The time recording feature also extends the functionality of the [Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US) application to Field Service Management. Managers can view and create rate types and labor rate cards and also view expense lines. Time sheets use [labor rate cards](https://www.servicenow.com/docs/access?context=c_TaskAndLaborRateCards&version=australia&pubname=australia-it-business-management&ft:locale=en-US) to determine costs.
+The time recording feature also extends the functionality of the Cost Management application to Field Service Management. Managers can view and create rate types and labor rate cards and also view expense lines. Time sheets use labor rate cards to determine costs.
 
 Agents can modify the hours recorded on time cards. Once a time sheet is approved and a time card is processed, the agent can still go back and modify the time worked. The time sheet reverts to the **Pending** state and new time cards are created. If an agent adds more time worked records to an approved time sheet for the same week, a new time sheet record is created for the current week.
 

@@ -110,7 +110,7 @@ A pattern connection between an application service node and another node.
     -   Add filters to a class node: Apply filters to narrow down a class query to a specific set of CIs or to a single specific CI.
 
         1.  Point to the node to add a filter to, and then select the **Apply filters** icon that pops up above the node.
-        2.  In the Filters section, add attribute and [related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        2.  In the Filters section, add attribute and related list conditions.
         3.  Close the **Filters** section.
         For example: Add a filter for database location to query for databases located in Seattle.
 

@@ -15,7 +15,7 @@ breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Perfor
 
 The report\_view operation is a record type access control list \(ACL\) that restricts access to reports. Only users who have one of the required roles can view reports that contain the restricted resource.
 
-To create a report\_view ACL, follow the [general procedure for creating an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US), but bearing the following points in mind:
+To create a report\_view ACL, follow the general procedure for creating an ACL rule, but bearing the following points in mind:
 
 There are two kinds of report\_view access control lists \(ACLs\): report\_view table ACLs and report\_view field ACLs. Report\_view table ACLs prevent users from viewing report or data visualization content based on the table specified in the ACL. Report\_view field ACLs prevent users from viewing reports or data visualizations that use the field specified in the ACL in the group by, row, column or aggregation settings.
 
@@ -31,7 +31,7 @@ Use these guidelines when creating your own report\_view operation access contro
 
 -   **Restrict access to list reports with a read operation**
 
-    A list report uses regular record access controls to determine who can access data in a table or field. A report\_view access control cannot prevent users from viewing lists to which they have read access. To restrict access to record data in lists and forms, create a read operation access control. For more information about record access controls, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    A list report uses regular record access controls to determine who can access data in a table or field. A report\_view access control cannot prevent users from viewing lists to which they have read access. To restrict access to record data in lists and forms, create a read operation access control. For more information about record access controls, see Access control list rules.
 
 
 -   **[Report execution security](read-access-control.md)**  
@@ -42,7 +42,7 @@ When a report is run, report\_view access control lists \(ACLs\) are evaluated o
 **Related topics**  
 
 
-[ACL rule types](https://www.servicenow.com/docs/access?context=acl-rule-types&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.acl-rule-types]
 
-[Create an ACL Rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.t_CreateAnACLRule]
 

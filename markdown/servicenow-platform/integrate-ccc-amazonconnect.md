@@ -166,7 +166,7 @@ Import Contact Flows
 
 -   To enable Advanced Work Assignment \(AWA\) Voice Routing, check the checkbox under the **AWA Voice Routing** heading. Complete the steps specified in the setup guide:
 
-    -   Complete [AWS Lambda](https://www.servicenow.com/docs/access?context=aws-lambda-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and Oauth credential setup.
+    -   Complete AWS Lambda and Oauth credential setup.
     -   Download the recommended hold music using the link in the setup guide \(you can choose your own hold music, but it cannot be longer than 5 seconds\).
     -   Upload the hold music. See the [AWS documentation](https://docs.aws.amazon.com/connect/latest/adminguide/prompts.html#howto-prompts).
 -   Define a call tree for inbound and outbound calls between Amazon Connect and your ServiceNow instance. For more information on contact flows, see the Amazon [documentation](https://docs.aws.amazon.com/connect/latest/adminguide/connect-contact-flows.html).
@@ -177,7 +177,7 @@ Import Contact Flows
 
 -   Set up call transfer flows through Amazon Connect using Transfer to Agent Flow and Transfer to Queue Flow. The transfer flows are reusable and can also be applied to ServiceNow Voice for ITSM.
 
--   Amazon Connect \(Phone\) is a placeholder phone channel for Amazon Connect integration. For queues that you implement in your Amazon Connect instance, you can use this channel to create corresponding Advanced Work Assignment queues. For an example implementation, see [Associate Amazon Connect queues for ITSM to a ServiceNow instance](https://www.servicenow.com/docs/access?context=setup-cloudcallcenter-itsm-configurable-workspace&version=australia&pubname=australia-it-service-management&ft:locale=en-US) or [Associate Amazon Connect queues for CSM to a ServiceNow instance](https://www.servicenow.com/docs/access?context=setup-amazonconnect-configurable-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   Amazon Connect \(Phone\) is a placeholder phone channel for Amazon Connect integration. For queues that you implement in your Amazon Connect instance, you can use this channel to create corresponding Advanced Work Assignment queues. For an example implementation, see Associate Amazon Connect queues for ITSM to a ServiceNow instance or Associate Amazon Connect queues for CSM to a ServiceNow instance.
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ To use the native voice control in ServiceNow Workspace, follow the steps in the
 
 **Note:** If a queue with the same ServiceNow Voice External ID is already mapped to an Amazon Connect queue, update the Provider Queue ID field on the existing record instead of creating a duplicate queue.
 
-See [Use Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+See Use Interaction Controls Component \(ICC\) call controls with Amazon Connect.
 
 </td></tr></tbody>
 </table>

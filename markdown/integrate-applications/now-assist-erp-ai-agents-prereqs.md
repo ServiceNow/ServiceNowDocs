@@ -15,11 +15,11 @@ Before you use Now Assist for Zero Copy Connector agentic workflows, you must co
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Check status of assistants
 
-Now Assist in Virtual Agent and Now Assist panel must be on. For information about how to check the status of assistants, see [Manage LLM virtual agents on the Assistants screen](https://www.servicenow.com/docs/access?context=manage-llm-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+Now Assist in Virtual Agent and Now Assist panel must be on. For information about how to check the status of assistants, see Manage LLM virtual agents on the Assistants screen
 
 ## Activate conversational skills
 
@@ -33,7 +33,7 @@ In Now Assist in Virtual Agent, check that **Now Assist Q&amp;A**, **Now Assist 
 
 ## Set large language model \(LLM\) provider and check connection
 
-Set a large language model \(LLM\) provider and have at least one connection. For more information about available providers and setting a provider, see [Manage AI models](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Set a large language model \(LLM\) provider and have at least one connection. For more information about available providers and setting a provider, see Manage AI models.
 
 1.  To check for an active connection, navigate to **All** &gt; **Integration Hub** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
 2.  Select an alias, for example, **Azure OpenAI**.
@@ -42,6 +42,6 @@ Set a large language model \(LLM\) provider and have at least one connection. Fo
 
     ![Azure OpenAI connection and credential alias record with connections tab displayed showing one active connection.](../images/erp-data-explorer-workflow4.png)
 
-    **Note:** For more information about creating a connection and making it active, see [Get started with connections](https://www.servicenow.com/docs/access?context=connection-information&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** For more information about creating a connection and making it active, see Get started with connections.
 
 

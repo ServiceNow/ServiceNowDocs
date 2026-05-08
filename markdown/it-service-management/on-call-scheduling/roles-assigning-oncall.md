@@ -54,12 +54,12 @@ Shift manager \[rota\_manager\]
 
 The Shift manager role is for the manager of a group. The purpose of the role is to distinguish a member that has been delegated the role of managing shifts of a group. The role cannot be used to manage all groups on the instance.
 
- The role can be delegated to the members of a group. See [Delegating roles](https://www.servicenow.com/docs/access?context=c_DelegateRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+ The role can be delegated to the members of a group. See Delegating roles .
 
  A user with the Shift manager role that meets any of the following requirements can manage shifts for their group:
 
  -   The user is the manager of the group.
--   The user was delegated the rota\_manager role. For information on delegating the shift manager role, see [Delegate the shift manager \[rota\_admin\] role](../task/delegate-shift-mgr-role-oncall.md). For information on role delegation, see [Delegate roles](https://www.servicenow.com/docs/access?context=c_DelegateRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+-   The user was delegated the rota\_manager role. For information on delegating the shift manager role, see [Delegate the shift manager \[rota\_admin\] role](../task/delegate-shift-mgr-role-oncall.md). For information on role delegation, see Delegate roles .
 
 **Note:** When a user is delegated a role on behalf of a group, the user can manage the shifts only for that group.
 
@@ -95,11 +95,11 @@ DEPRECATED: roster\_admin
 **Related topics**  
 
 
-[System roles](https://www.servicenow.com/docs/access?context=base-system-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.base-system-roles]
 
-[Base system Roles](https://www.servicenow.com/docs/access?context=r_BaseSystemRoles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.r_BaseSystemRoles]
 
-[Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignRoleToGroup]
 
-[Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignARoleToAUser]
 

@@ -21,17 +21,17 @@ For more information about accessibility features supported in the analytics pre
 
 Data visualizations reporting charts display views of current state instance data. These charts display information such as the number of high priority work orders or the number of pending approvals over a defined period.
 
-The available score report in mobile is [single score](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The available score report in mobile is single score.
 
-The available bar report in mobile is [vertical bar](https://www.servicenow.com/docs/access?context=c_CreateBarCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The available bar report in mobile is vertical bar.
 
-The available donut report in mobile is [donut](https://www.servicenow.com/docs/access?context=c_CreateDonutCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The available donut report in mobile is donut.
 
-The available pie report in mobile is [Pie charts](https://www.servicenow.com/docs/access?context=c_CreatePieCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The available pie report in mobile is Pie charts.
 
 The available time series trend-by charts in mobile are:
 
--   [Line](https://www.servicenow.com/docs/access?context=c_CreateLineCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
--   [Spline](https://www.servicenow.com/docs/access?context=c_CreateAreaAndSplineCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
--   [Step line](https://www.servicenow.com/docs/access?context=step-reports&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   Line
+-   Spline
+-   Step line
 

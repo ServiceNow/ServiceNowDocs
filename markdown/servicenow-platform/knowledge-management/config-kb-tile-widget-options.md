@@ -37,7 +37,7 @@ The homepage uses the Knowledge Bases Browse widget to display knowledge base ti
     |---------------|-----------|
     |Title|The title that appears above the knowledge base tiles. The default is **Explore our Knowledge Bases**.|
     |Bootstrap color|The color of the widget.|
-    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see [Service Portal SCSS Primer](https://www.servicenow.com/docs/access?context=scss-primer&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
+    |CSS|Custom configurations that determine the look and feel of the elements in the widget. For more information, see Service Portal SCSS Primer.|
     |Order By|The order in which the knowledge base tiles appear on the homepage. Use any field on the Knowledge table. If this field is empty, tiles are displayed in alphabetical order. Other available options include article\_count.|
     |Reverse Order|Enable this check box to display knowledge base tiles in the reverse order.|
     |Post Question Label|The label on the button used to post a question. The default is **Ask a Question**.|

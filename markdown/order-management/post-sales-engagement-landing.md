@@ -19,7 +19,7 @@ Select a link from the following table to learn about key features and benefits 
 
 |Application|Description|
 |-----------|-----------|
-|[Customer Life Cycle Management Workflows](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|Manage the life cycle of your sold products.|
+|Customer Life Cycle Management Workflows|Manage the life cycle of your sold products.|
 
 ## Related links
 

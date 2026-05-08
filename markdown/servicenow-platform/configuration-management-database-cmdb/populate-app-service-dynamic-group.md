@@ -79,7 +79,7 @@ The alert impact on dynamic CI groups is calculated on the following CIs:
 -   Children of current CIs with a relationship of: **Runs on::Runs**
 -   CIs related to either the current CIs or their children, with a relationship of: **Virtualized by::Virtualizes**
 
-For more information, see [alert impact calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information, see alert impact calculation.
 
 ## What to do next
 

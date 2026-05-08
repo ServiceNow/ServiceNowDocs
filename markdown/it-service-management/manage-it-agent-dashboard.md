@@ -29,6 +29,6 @@ Role required: admin
 
 4.  Select the **Add new element** drop-down, and then select the element to be added to the dashboard.
 
-    For more information to edit a dashboard, see [Edit Platform Analytics dashboards](https://www.servicenow.com/docs/access?context=edit-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For more information to edit a dashboard, see Edit Platform Analytics dashboards.
 
 

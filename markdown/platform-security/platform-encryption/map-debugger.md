@@ -35,7 +35,7 @@ When you’re finished debugging, you can disable the logging messages by naviga
 
 After enabling debugging, navigate to a page that triggers a MAP evaluation to view the MAP debug logs. Debug messages appear at the bottom of the page.
 
-**Tip:** You can use impersonation to troubleshoot access for other users. For details on impersonation, see [Impersonating users](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US). To view the debug logs from the perspective of another user, make sure that your module access policies with the **role** type have the **Impersonation** field set as **true**.
+**Tip:** You can use impersonation to troubleshoot access for other users. For details on impersonation, see Impersonating users. To view the debug logs from the perspective of another user, make sure that your module access policies with the **role** type have the **Impersonation** field set as **true**.
 
 ![Example debug output](../image/map-debug-logging-1.png)
 

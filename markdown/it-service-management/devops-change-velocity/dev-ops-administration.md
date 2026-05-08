@@ -775,7 +775,7 @@ DevOps change request handler subflow
 
 </td><td>
 
-If you are using a custom subflow instead of the Default Change Handler subflow in Flow Designer \(which is used to populate the change request fields with default values\), then you must update this property value to the new subflow. You can copy the Default Change Handler subflow in Flow Designer and update it according to your organization's needs. For information on the Default Change Handler subflow, see [Customizing DevOps flows](using-dev-ops-model-change-flow.md).For information on copying a subflow, see [Copy a subflow](https://www.servicenow.com/docs/access?context=copy-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+If you are using a custom subflow instead of the Default Change Handler subflow in Flow Designer \(which is used to populate the change request fields with default values\), then you must update this property value to the new subflow. You can copy the Default Change Handler subflow in Flow Designer and update it according to your organization's needs. For information on the Default Change Handler subflow, see [Customizing DevOps flows](using-dev-ops-model-change-flow.md).For information on copying a subflow, see Copy a subflow.
 
 </td><td>
 

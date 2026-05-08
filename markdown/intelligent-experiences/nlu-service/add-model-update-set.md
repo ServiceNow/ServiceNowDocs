@@ -33,9 +33,9 @@ Adding a model to an update set includes the following resources:
 -   ML model artifacts
 -   ML solution and definition \(last three runs, provided one of them was successful\)
 
-For more information on update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on update sets, see System update sets.
 
-If you want to add the model to a different update set, you must make that update set the current one. See [Create and select an update set as the current set](https://www.servicenow.com/docs/access?context=create-select-update-set&version=australia&pubname=australia-application-development&ft:locale=en-US).
+If you want to add the model to a different update set, you must make that update set the current one. See Create and select an update set as the current set.
 
 For optimum portability, add your NLU model to a new, dedicated update set rather than to a system Default update set. To do this, a new update set must be manually created in the model's scope. An error is displayed if the current update set is the scope's Default. This error contains a link for manually creating a new update set.
 
@@ -43,7 +43,7 @@ If the model contains records from multiple scopes, such as vocabulary tables, i
 
 When models \(either Global or scoped\) are moved using update sets, their training and publishing state remains the same after transfer. So a model that is trained and published before it is added to an update set does not require retraining or republishing on the target instance.
 
-For information about parent-child update sets, see [Working with batched update sets](https://www.servicenow.com/docs/access?context=us-hier-overview&version=australia&pubname=australia-application-development&ft:locale=en-US). The following video provides a demonstration of this process.
+For information about parent-child update sets, see Working with batched update sets. The following video provides a demonstration of this process.
 
 A video walkthrough of migrating NLU models by update sets in the Vancouver release.
 

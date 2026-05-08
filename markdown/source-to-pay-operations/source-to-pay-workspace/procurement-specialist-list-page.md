@@ -104,15 +104,15 @@ As administrators, you can customize the look and feel or the information to be 
 
 ## Sidebar and Microsoft Teams for Source-to-Pay Workspace
 
-Sidebar enables stakeholders to collaborate with others by getting into discussions when working on task-based records. You can create a Sidebar discussion by selecting **Discuss** from your procurement object details page on the Source-to-Pay Workspace list page. Other stakeholders are notified when you add them to a discussion. They can join the discussion from the Sidebar discussions icon. For more information, see [Sidebar and Microsoft Teams](https://www.servicenow.com/docs/access?context=sidebar-teams-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Sidebar enables stakeholders to collaborate with others by getting into discussions when working on task-based records. You can create a Sidebar discussion by selecting **Discuss** from your procurement object details page on the Source-to-Pay Workspace list page. Other stakeholders are notified when you add them to a discussion. They can join the discussion from the Sidebar discussions icon. For more information, see Sidebar and Microsoft Teams.
 
-For more information on Sidebar, see [Sidebar](https://www.servicenow.com/docs/access?context=sidebar-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on Sidebar, see Sidebar.
 
-To learn more about how to use Sidebar, see [Using Sidebar](https://www.servicenow.com/docs/access?context=using-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To learn more about how to use Sidebar, see Using Sidebar.
 
-For information on activity stream in Sidebar, see [Activity stream in Sidebar](https://www.servicenow.com/docs/access?context=activity-stream-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For information on activity stream in Sidebar, see Activity stream in Sidebar.
 
-For detailed information on integrating and enabling Sidebar with Microsoft Teams, see [Integrate Sidebar and Microsoft Teams](https://www.servicenow.com/docs/access?context=integrating-sidebar-teams&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [Enable or configure the Microsoft Teams integration](https://www.servicenow.com/docs/access?context=enable-teams-integration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For detailed information on integrating and enabling Sidebar with Microsoft Teams, see Integrate Sidebar and Microsoft Teams and Enable or configure the Microsoft Teams integration.
 
 **Parent Topic:**[Source-to-Pay Workspace list page](../../source-to-pay-operations/concept/source-to-pay-list-page.md)
 

@@ -24,6 +24,6 @@ Role required: admin
     -   sn\_crm\_sequence.admin
     -   sn\_crm\_sequence.writer
     -   pd\_author or playbook.admin \(for version 1.0.0.\)
-    For more information, see [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Developer and deployment permissions](https://www.servicenow.com/docs/access?context=developer-permissions&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Delegated development and deployment and Developer and deployment permissions.
 
 

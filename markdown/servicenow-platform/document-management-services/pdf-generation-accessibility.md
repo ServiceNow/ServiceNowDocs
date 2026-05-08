@@ -19,9 +19,9 @@ PDF generation settings support accessibility features such as accessibility tag
 
 ## Accessible PDF
 
-To enable accessibility for PDF generation, add the accessibility property **com.snc.pdf.generation.accessibility** and set the value to `true`. Only users with admin roles can set the property. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To enable accessibility for PDF generation, add the accessibility property **com.snc.pdf.generation.accessibility** and set the value to `true`. Only users with admin roles can set the property. For more information, see Add a system property.
 
-For PDF generation API, see [PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+For PDF generation API, see PDFGenerationAPI - Scoped, Global
 
 ## Image retrieval timeout in HTML to PDF conversation
 

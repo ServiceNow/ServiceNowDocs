@@ -17,7 +17,7 @@ Create planned task definitions in Workplace Core to help workplace managers eas
 
 ## Before you begin
 
-**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see [Configure a catalog in Service Portal](https://www.servicenow.com/docs/access?context=associate-portal-catalog&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Important:** Starting with Workplace Core \(sn\_wsd\_core\) version 2.1, all updates and new features are available only on the Workplace Service Portal. The workplace services provided by ServiceNow® are removed from the Service Portal on Workplace Core \(sn\_wsd\_core\) beginning with version 2.1. To configure the Workplace service catalog in the Service Portal, see Configure a catalog in Service Portal.
 
 Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 
@@ -92,15 +92,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d332464e257">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d332471e257">
 
 Option
 
-</th><th align="left" id="d332464e260">
+</th><th align="left" id="d332471e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d332464e266">
+</th></tr></thead><tbody><tr><td id="d332471e266">
 
 **Create another planned task definition**
 
@@ -108,7 +108,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d332464e278">
+</td></tr><tr><td id="d332471e278">
 
 **Generate planned tasks immediately**
 

@@ -18,7 +18,7 @@ Create a sample playbook to standardize and automate how Service Desk agents han
 ## Before you begin
 
 -   Enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin with a subscription to the ServiceNow AI Platform App Engine. For more information, see [Activate Playbooks](../concept/activate-process-automation-designer.md).
--   Ensure that your current application is set to **Global**. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Ensure that your current application is set to **Global**. For more information, see Application picker.
 -   Role required: admin or playbook.admin
 
 ## About this task
@@ -58,7 +58,7 @@ The manual business process for this example consists of the following stages:
 
     8.  In the Table list, select **Interaction \[interaction\]**.
 
-    9.  Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to add the following condition to your trigger:
+    9.  Use the condition builder to add the following condition to your trigger:
 
         **\[Opened for-&gt;VIP\]** **\[is\]** **\[True\]**.
 
@@ -160,7 +160,7 @@ The manual business process for this example consists of the following stages:
 
     10. In the Table list, select **Incident \[incident\]**.
 
-    11. Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to add the following condition to your activity:
+    11. Use the condition builder to add the following condition to your activity:
 
         **\[Updated by\]** **\[is\]** **\[Activities** &gt; **1:1 - automated\_create\_record** &gt; **Outputs** &gt; **record** &gt; **Assigned to\]**.
 
@@ -214,7 +214,7 @@ The manual business process for this example consists of the following stages:
 
     10. In the **Table** field, select **Incident \[incident\]**.
 
-    11. Use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to add the following condition to your activity:
+    11. Use the condition builder to add the following condition to your activity:
 
         **\[State\]** **\[is\]** **\[Resolved\]**.
 

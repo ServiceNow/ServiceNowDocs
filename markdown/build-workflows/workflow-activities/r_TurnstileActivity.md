@@ -15,7 +15,7 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The **Turnstile** activity limits how many times a workflow can pass through the same point.
 
-Use this activity to prevent infinite loops. This activity is useful alongside the [Rollback To workflow activity](https://www.servicenow.com/docs/access?context=r_RollbackTo&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) activity.
+Use this activity to prevent infinite loops. This activity is useful alongside the Rollback To workflow activity activity.
 
 ## Results
 

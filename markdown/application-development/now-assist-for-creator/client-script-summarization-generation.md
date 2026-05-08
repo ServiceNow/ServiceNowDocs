@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Use, UI generation, Use generative AI, Now Assist for Creator, Vibe coding and AI app development on the ServiceNow AI Platform, Building applications]
 ---
@@ -67,7 +67,7 @@ A concise summary, information about where the client script is triggered, and a
 **Related topics**  
 
 
-[Client scripts](https://www.servicenow.com/docs/access?context=client-scripts&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-scripts]
 
 [Client script summarization](../concept/client-script-summarization.md)
 

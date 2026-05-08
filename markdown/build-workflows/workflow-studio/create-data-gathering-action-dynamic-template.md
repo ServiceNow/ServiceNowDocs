@@ -20,7 +20,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 -   Role required: action\_designer or admin
 -   Create credentials and connections for your REST endpoint
 
-**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://www.servicenow.com/docs/access?context=request-integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must Request an Integration Hub plugin.
 
 ## Procedure
 
@@ -60,7 +60,7 @@ Create a data gathering action to collect record field values for a dynamic temp
 
         -   **Parse the input variable as JSON**
 
-            You can use the [JSON - Global](https://www.servicenow.com/docs/access?context=c_JSONAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API to transform the input variable from a string to a JSON object.
+            You can use the JSON - Global API to transform the input variable from a string to a JSON object.
 
         -   **Create a new JSON object formatted for a dynamic template**
 

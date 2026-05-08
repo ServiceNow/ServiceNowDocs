@@ -98,7 +98,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://www.servicenow.com/docs/access?context=business-calendars&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Define business calendar entries](https://www.servicenow.com/docs/access?context=define-business-calendar-entries&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To learn more about creating and using business calendars and defining business calendar entries, see Creating business calendars and Define business calendar entries.
 
 </td></tr><tr><td>
 
@@ -140,6 +140,6 @@ Name of the script to run at the scheduled date and time. Two examples are copy 
 </td></tr></tbody>
 </table>4.  Click **Update**.
 
-    To learn more about scheduled jobs, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    To learn more about scheduled jobs, see Scheduled jobs.
 
 

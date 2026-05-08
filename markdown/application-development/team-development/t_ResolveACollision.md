@@ -63,9 +63,9 @@ The system saves the merged changes and resolves the collision.
 
 [Compare a pushed version to a local version](t_ComparePushedVerLocalVer.md)
 
-[Compare two versions of an article](https://www.servicenow.com/docs/access?context=compare-two-article-versions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.compare-two-article-versions]
 
-[Resolve conflicts for an individual record](https://www.servicenow.com/docs/access?context=um-resolve-conflict&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.um-resolve-conflict]
 
 [Revert a change](t_RevertAChange.md)
 

@@ -19,7 +19,7 @@ A choice list interactive filter enables users to filter report widgets based on
 
 Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
 
-Choice lists contain a limited number of specified values to choose from. Status and Priority are two examples of choice lists. User and location are not usually choice list selections. For more information, see [Choice list field type](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Choice lists contain a limited number of specified values to choose from. Status and Priority are two examples of choice lists. User and location are not usually choice list selections. For more information, see Choice list field type.
 
 When a user selects `All`, they do not see a report with all filter options applied, they see the unfiltered report.
 

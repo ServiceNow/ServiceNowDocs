@@ -40,7 +40,7 @@ Recurring obligation tasks are automatically created from the obligation record.
 
 6.  On the form, fill in the fields.
 
-    For a description of the field values, see [Obligation form](https://www.servicenow.com/docs/access?context=cncore-obligation-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For a description of the field values, see Obligation form.
 
 7.  Select **Save**.
 

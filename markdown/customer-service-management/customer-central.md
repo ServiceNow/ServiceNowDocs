@@ -57,7 +57,7 @@ The Customer History component is available on the following record pages in CSM
 -   [Front-line case page](csm-front-line-case-page.md): Appears in the contextual side panel.
 -   [CSM voice interaction record page](csm-native-voice-record-page.md): Appears in the left pane.
 
-Users with the system administrator role can add this component to a record page in [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) and [configure the component properties](customer-central-configuration.md).
+Users with the system administrator role can add this component to a record page in UI Builder and [configure the component properties](customer-central-configuration.md).
 
 The Customer History component can be configured to display a **Call Transcript** tab. This tab displays the text of the live call transcript when a conversation record is present for the interaction.
 

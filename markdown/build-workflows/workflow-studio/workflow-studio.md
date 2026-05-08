@@ -35,11 +35,11 @@ Integrate workflow authoring, configuring, and monitoring into a single page exp
 
 </td></tr><tr><td>
 
-[Flow Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate flows from text prompts or images using Now Assist](https://www.servicenow.com/docs/access?context=flow-generation-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Flow Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate flows from text prompts or images using Now Assist
 
 </td><td>
 
-[Playbook Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate Playbooks and playbook recommendations using Now Assist](https://www.servicenow.com/docs/access?context=playbook-assist-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Playbook Assist![](../../../reuse/icons/brand-icons/bus-ai-sparkle.svg)Generate Playbooks and playbook recommendations using Now Assist
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

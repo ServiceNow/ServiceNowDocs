@@ -91,7 +91,7 @@ Role required: admin or ih\_import.
         4.  Select **Done**.
     6.  Change or modify your data by applying transform functions.
 
-        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see [Transform functions](https://www.servicenow.com/docs/access?context=transform-functions&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        For example, you can use the Uppercase transform function to change an input string to all uppercase characters. For more information, see Transform functions.
 
         **Note:** Not all the transform functions available while creating flows and subflows are available in Integration Hub - Import.
 

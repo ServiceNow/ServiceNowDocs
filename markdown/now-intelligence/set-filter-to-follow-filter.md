@@ -23,7 +23,7 @@ In most cases, a filter follows another filter either in a one-to-one relationsh
 
 If the values on each filter can refer to multiple values on the other filter \(a many-to-many relationship\), you have to select a connecting table. This connecting table has a unique record for every possible reference between the two filters. The connecting tables between two tables are defined in the Collection \[sys\_collection\] and Many to Many Definition \[sys\_m2m\] tables. Only administrators can access these tables.
 
-Connection tables come predefined for any relevant tables included in the base system or in Platform Analytics Solutions. However, if you want to use a custom table in a many-to-many relationship, you must define that relationship in the Many to Many Definition table. For more information, see [Create a many-to-many table relationship](https://www.servicenow.com/docs/access?context=t_CreateAManyToManyRelationship&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Connection tables come predefined for any relevant tables included in the base system or in Platform Analytics Solutions. However, if you want to use a custom table in a many-to-many relationship, you must define that relationship in the Many to Many Definition table. For more information, see Create a many-to-many table relationship.
 
 ## Procedure
 

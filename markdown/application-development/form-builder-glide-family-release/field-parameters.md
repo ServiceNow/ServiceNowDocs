@@ -19,9 +19,9 @@ You can configure the basic field properties for any field within Table Builder.
 
 The Field details section lets you configure the basic field elements for the selected field in the form editor.
 
-To see field type descriptions and learn more about what field types you can use, see [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To see field type descriptions and learn more about what field types you can use, see Field types.
 
-To understand the basic field properties and learn more about adding and customizing a field in a table, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To understand the basic field properties and learn more about adding and customizing a field in a table, see Add and customize a field in a table.
 
 The following table shows field descriptions for the Field details section.
 
@@ -92,7 +92,7 @@ Properties for a field label:-   **Tooltip** property that is displayed when a u
 
 The default value automatically fills in the field on the empty form for a new record, or fills in the field later \(if the field is empty\) when your user submits the new record. You can specify the default values as either a constant or use a script to generate them.
 
-To learn how to define a default value for the fields, see [Specify a default field value](https://www.servicenow.com/docs/access?context=t_SpecifyingADefaultValue&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To learn how to define a default value for the fields, see Specify a default field value.
 
 The following table shows field descriptions for the Default value section.
 
@@ -108,7 +108,7 @@ A function field generates a value that is based on the simple computations of o
 
 This section is displayed in the editor when you are creating a field and you select **Function field** in the Advanced properties section.
 
-For information on defining function fields, see [Function field](https://www.servicenow.com/docs/access?context=platform-support-functions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information on defining function fields, see Function field.
 
 The following table shows field descriptions for the Function definition section.
 
@@ -120,7 +120,7 @@ The following table shows field descriptions for the Function definition section
 
 A reference qualifier restricts the records that are available for reference fields.
 
-For information on defining reference fields, see [Reference field type](https://www.servicenow.com/docs/access?context=c_ReferenceField&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information on defining reference fields, see Reference field type.
 
 The following table shows field descriptions for the Reference section.
 
@@ -173,7 +173,7 @@ A choice or reference field can be declared dependent on another field on the sa
 
 Using dependent fields turns on choices. The available choices for your field rely on the value that a user chooses for the dependent field.
 
-For information on defining field dependencies, see [Make a field dependent](https://www.servicenow.com/docs/access?context=t_MakingAFieldDependent&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information on defining field dependencies, see Make a field dependent.
 
 The following table shows field descriptions for the Dependent fields section.
 
@@ -184,7 +184,7 @@ The following table shows field descriptions for the Dependent fields section.
 
 ## Choices
 
-A choice list is a type of field that lets the user select from a pre-defined set of choices. You can define the available choices and customize the behavior and appearance of your choice lists. For information about the choice list configuration, see [Choice list field type](https://www.servicenow.com/docs/access?context=c_ChoiceLists&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A choice list is a type of field that lets the user select from a pre-defined set of choices. You can define the available choices and customize the behavior and appearance of your choice lists. For information about the choice list configuration, see Choice list field type.
 
 In the Choices section of the Config panel, select **Use choices**, and then select **Edit** or the **+Add** icon to customize the available choices for the selected field.
 
@@ -272,7 +272,7 @@ Option to filter the choice list. Select **Show inactive choices** to view all c
 </td></tr></tbody>
 </table>## Attributes
 
-A dictionary attribute alters the behavior of the table or element that the dictionary record describes. You can add or modify the dictionary attributes. For information about dictionary attributes, see [Dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A dictionary attribute alters the behavior of the table or element that the dictionary record describes. You can add or modify the dictionary attributes. For information about dictionary attributes, see Dictionary attributes.
 
 In the Attributes section of the Config panel, select **Edit** or **+Add** to customize the available attributes for the selected field.
 
@@ -294,7 +294,7 @@ Attribute
 
 Option list of available attributes. Select an option from the list of available attributes.
 
- To review the list of available attributes, see [Dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ To review the list of available attributes, see Dictionary attributes.
 
 </td></tr><tr><td>
 

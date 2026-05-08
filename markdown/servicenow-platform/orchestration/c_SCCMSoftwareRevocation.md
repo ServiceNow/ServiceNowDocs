@@ -49,11 +49,11 @@ An administrator can revoke software using Microsoft System Center Configuration
 
 ### Before you begin
 
-To revoke software using SCCM, you must create an [SCCM configuration record](../task/t_ConfigureSCCMCollections.md) for the application, in which the appropriate software Discovery model is defined. See [Software discovery models](https://www.servicenow.com/docs/access?context=c_DiscoveryModels&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+To revoke software using SCCM, you must create an [SCCM configuration record](../task/t_ConfigureSCCMCollections.md) for the application, in which the appropriate software Discovery model is defined. See Software discovery models.
 
 Role required: sn\_client\_sf\_dist.csd\_admin or admin
 
-Client Software Distribution \(CSD\) uses [Software Asset Management](https://www.servicenow.com/docs/access?context=c_SAMOverview&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) to identify unentitled software installations. Discovery detects the software on the user's machine, and SAM determines if the user or device is entitled to use that software. This might include software that was not installed through a catalog request or software that the user installed without approval. If the software installation's Discovery model is associated with an SCCM software configuration that has an uninstall collection defined, then an administrator can use CSD to revoke that software from the user's machine without involving the user.
+Client Software Distribution \(CSD\) uses Software Asset Management to identify unentitled software installations. Discovery detects the software on the user's machine, and SAM determines if the user or device is entitled to use that software. This might include software that was not installed through a catalog request or software that the user installed without approval. If the software installation's Discovery model is associated with an SCCM software configuration that has an uninstall collection defined, then an administrator can use CSD to revoke that software from the user's machine without involving the user.
 
 ### Procedure
 

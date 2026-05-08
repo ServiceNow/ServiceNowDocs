@@ -15,7 +15,7 @@ Create and publish a version of an existing specification in a Published state s
 
 ## Before you begin
 
-Before you can create a version of a specification, an initial base version of the specification must exist and already be published. The information that you supply for a new version is the same as what you entered for an initial base version, but with some important differences. To learn more, see [Create and publish product specifications](https://www.servicenow.com/docs/access?context=order-mgt-create-product-specification&version=australia&pubname=australia-order-management&ft:locale=en-US).
+Before you can create a version of a specification, an initial base version of the specification must exist and already be published. The information that you supply for a new version is the same as what you entered for an initial base version, but with some important differences. To learn more, see Create and publish product specifications.
 
 Role required: sn\_prd\_pm.product-catalog\_manager
 
@@ -95,13 +95,13 @@ Name of the previous version of the specification. For example:
 You can't change this field.
 
 </td></tr></tbody>
-</table>    **Note:** For information about the remaining field descriptions, see [Field descriptions for product catalog forms in Order Management for Telecommunications, Media, and Technology](https://www.servicenow.com/docs/access?context=field-descriptions-for-product-catalog-fields&version=australia&pubname=australia-order-management&section=fields-product-specifications-form&ft:locale=en-US).
+</table>    **Note:** For information about the remaining field descriptions, see Field descriptions for product catalog forms in Order Management for Telecommunications, Media, and Technology.
 
 4.  To reflect the engineering changes that were made to the physical product, update the specification relationships, decomposition rules, quantity mappings, and attribute propagation rules as follows:
 
-    1.  To update the characteristics and characteristic options that are associated with your specification, use the Specification Characteristics related list. To learn more, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-specification-rels&version=australia&pubname=australia-order-management&ft:locale=en-US).
-    2.  To update the specification relationships and accompanying decomposition rules, use the Specification Relationships related list. To learn more, see [Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-specification-rels&version=australia&pubname=australia-order-management&ft:locale=en-US).
-    3.  To update attribute mappings, use the Attribute Mappings related list. To learn more, see [Defining mappings for attribute value propagation to domain orders](https://www.servicenow.com/docs/access?context=order-mgt-define-propagate-domain-order-attributes&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    1.  To update the characteristics and characteristic options that are associated with your specification, use the Specification Characteristics related list. To learn more, see Create specification relationships, quantity mapping, and decomposition rules for Order Management.
+    2.  To update the specification relationships and accompanying decomposition rules, use the Specification Relationships related list. To learn more, see Create specification relationships, quantity mapping, and decomposition rules for Order Management.
+    3.  To update attribute mappings, use the Attribute Mappings related list. To learn more, see Defining mappings for attribute value propagation to domain orders.
     4.  To create a product offering from the specification, navigate to the Product Offerings related
 5.  When you finish creating the specification version, do one of the following actions.
 
@@ -151,7 +151,7 @@ Copy the data in this specification so that you can create a specification from 
 **Related topics**  
 
 
-[Technical product catalogs](https://www.servicenow.com/docs/access?context=order-mgt-product-data-model&version=australia&pubname=australia-order-management&ft:locale=en-US)
+[bundle-omgmt.order-mgt-product-data-model]
 
 [Create and publish product specifications](create-product-specifications.md)
 

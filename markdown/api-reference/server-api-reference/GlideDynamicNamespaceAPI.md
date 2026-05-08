@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideDynamicNamespace API provides access to dynamic namespace metadata.
 
-This API provides methods that enable you to get dynamic schema values defined in the Dynamic Namespace \[dynamic\_namespace\] table. For more details on dynamic namespaces, see [Dynamic Schema](https://www.servicenow.com/docs/access?context=dynamic-schema&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+This API provides methods that enable you to get dynamic schema values defined in the Dynamic Namespace \[dynamic\_namespace\] table. For more details on dynamic namespaces, see Dynamic Schema.
 
 See also:
 

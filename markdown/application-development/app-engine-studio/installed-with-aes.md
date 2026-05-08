@@ -15,7 +15,7 @@ breadcrumb: [Installing, Configure, App Engine Studio, Building low-code applica
 
 Several types of components are installed with activation of the App Engine Studio \(AES\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed
 
@@ -76,7 +76,7 @@ App Engine Studio admin
 
 </td><td>
 
-Granular admin role that grants access to App Engine Studio and enables administrative access to App Engine Studio tables. You can combine this role with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Granular admin role that grants access to App Engine Studio and enables administrative access to App Engine Studio tables. You can combine this role with other granular admin roles or delegated development for additional permissions. For more information about granular admin roles, see Granular admin roles.
 
 </td><td>
 
@@ -106,7 +106,7 @@ Builds applications in App Engine Studio.
 -   Collaboration request admin \[sn\_collab\_request.collaboration\_request\_admin\]
 -   AES Table Builder Wizard admin \[sn\_table\_bldr\_wzd.table\_bldr\_wzd\_admin\]
 
-You can combine these granular admin roles with other roles to provide the level of access needed for a user's function. For more information about roles in App Engine Studio, see [Configure AES personas and roles](../concept/aes-personas-roles.md). For more information about granular admin roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+You can combine these granular admin roles with other roles to provide the level of access needed for a user's function. For more information about roles in App Engine Studio, see [Configure AES personas and roles](../concept/aes-personas-roles.md). For more information about granular admin roles, see Granular admin roles.
 
 ## Tables installed
 
@@ -236,7 +236,7 @@ Details about application files that a developer creates in App Engine Studio. T
 -   Pipeline Environment Order
 -   Pipeline Types
 
-The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Create a clone preserver](https://www.servicenow.com/docs/access?context=create-new-clone-preserver&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see Create a clone preserver.
 
 **Parent Topic:**[Installing App Engine Studio](../task/install-aes.md)
 

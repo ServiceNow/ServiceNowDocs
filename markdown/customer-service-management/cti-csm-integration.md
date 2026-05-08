@@ -43,7 +43,7 @@ When using CTI the user must have the OpenFrame user \(sn\_openframe\_user\) rol
 
 For more information, see the following topics:
 
--   [Computer Telephony Integration](https://www.servicenow.com/docs/access?context=r_ComputerTelephonyIntegration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Computer Telephony Integration
 -   [Computer Telephony Integration workflows](../../../product/customer-service-management/concept/cti-workflows.md)
 -   [Interaction Controls Component \(ICC\) for voice calls](../../../product/customer-service-management/concept/contact-center-integration-with-icc.md)
 

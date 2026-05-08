@@ -33,6 +33,6 @@ Role required: admin
 
 2.  Embed the HR Portal Components widget in the main widget of your application by passing the source.
 
-    A source refers to the system of data for these widgets, for example, Oracle or Workday. The HR Service Delivery Portal UI Components application uses scripted extension points to provide an implementation to fetch data based on the source that is passed through outer widgets. For more information on how to embed widgets, see [Embedded widgets](https://www.servicenow.com/docs/access?context=c_NestedWidgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    A source refers to the system of data for these widgets, for example, Oracle or Workday. The HR Service Delivery Portal UI Components application uses scripted extension points to provide an implementation to fetch data based on the source that is passed through outer widgets. For more information on how to embed widgets, see Embedded widgets.
 
 

@@ -24,7 +24,7 @@ Install MID-less Agent Client Collector manually on a macOS machine to enable se
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://www.servicenow.com/docs/access?context=dex-architecture&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For details on sending data through the cloud in a MID-less deployment, see DEX Architecture.
 
 ## Procedure
 

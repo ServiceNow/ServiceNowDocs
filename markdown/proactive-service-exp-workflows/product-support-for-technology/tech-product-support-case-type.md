@@ -15,7 +15,7 @@ breadcrumb: [Technology Product Support Case, Explore, Product Support for Techn
 
 The Technology Product Support case type enables technology companies to provide support for digital products and services.
 
-A [case types](https://www.servicenow.com/docs/access?context=customer-service-case-types&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) represents the processes and the data that are needed to resolve a specific type of customer issue. The Technology Product Support case type includes the table, roles, SLAs, email notifications, and other items needed to resolve technology issues.
+A case types represents the processes and the data that are needed to resolve a specific type of customer issue. The Technology Product Support case type includes the table, roles, SLAs, email notifications, and other items needed to resolve technology issues.
 
 The Technology Product Support Case application \(sn\_tech\_product\_support\) includes the Technology Product Support case type. To view a list of available case types, navigate to **Customer Service** &gt; **Case Types** &gt; **Manage Case Types**.
 
@@ -314,7 +314,7 @@ Users with the major case manager role can:-   Create major cases
 -   Add or remove child cases from major cases
 -   Add or remove impacted accounts or consumers
 
-For more information, see [Major issue management overview](https://www.servicenow.com/docs/access?context=major-issue-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Major issue management overview.
 
 </td><td>
 
@@ -585,9 +585,9 @@ The Technology Product Support Case application includes a configuration for spe
 
 Users can create special handling notes by navigating to **Special Handling Notes** &gt; **Special Handling Notes** and selecting **New**. For more information, see the following topics:
 
--   [Special handling notes](https://www.servicenow.com/docs/access?context=c_OnScreenAlerts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Configure special handling notes](https://www.servicenow.com/docs/access?context=configure-special-handling-notes&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Create a special handling note](https://www.servicenow.com/docs/access?context=t_CreateAnOnScreenAlert&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Special handling notes
+-   Configure special handling notes
+-   Create a special handling note
 
 ## Service definitions
 
@@ -598,7 +598,7 @@ The Technology Product Support Case application includes the following service d
 -   Something is Broken
 -   Performance Issue
 
-For more information, see [Service definitions](https://www.servicenow.com/docs/access?context=csm-service-definitions&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) and Service definition categories.
+For more information, see Service definitions and Service definition categories.
 
 ## Email notifications and email templates
 
@@ -945,8 +945,8 @@ When a case is in the Awaiting Info state and the customer, or a customer contac
 
 For more information, see the following topics:
 
--   [Administering case action status](https://www.servicenow.com/docs/access?context=customer-service-case-action-status&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Case action status](https://www.servicenow.com/docs/access?context=case-action-status-csm-workspace&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(CSM Configurable Workspace\)
+-   Administering case action status
+-   Case action status \(CSM Configurable Workspace\)
 
 ## Field indicators and highlights
 
@@ -1009,7 +1009,7 @@ Field indicators and field highlights appear on the **Short description** field 
 -   Red: High severity
 -   Orange: Medium severity
 
- For more information, see [Administering case and account escalation](https://www.servicenow.com/docs/access?context=administer-case-account-escalation&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ For more information, see Administering case and account escalation.
 
 </td></tr></tbody>
 </table>## Automatically close technology product support cases
@@ -1026,7 +1026,7 @@ Customers receive the following notifications before a case is automatically clo
 -   Second notification: sent after 5 days
 -   Third notification: sent after 8 days
 
-For more information, see [Automatically close customer service cases](https://www.servicenow.com/docs/access?context=auto-close-customer-service-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Automatically close customer service cases.
 
 **Parent Topic:**[Exploring Technology Product Support Case](tech-product-support-case-app.md)
 

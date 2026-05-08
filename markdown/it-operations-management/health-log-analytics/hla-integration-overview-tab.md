@@ -35,7 +35,7 @@ For MID-less or OpenTelemetry Protocol \(OTLP\) integrations, such as Amazon Dat
 
 For these integrations, the **Overview** screen shows the average rate of logs per minute over the last 15 minutes passing through the ITOM Gateway and the HLA engine, similar to the metrics shown for MID-based ingestion.
 
-**Note:** The ITOM Gateway component is shown only if the MID Server property **mid.hla.itom\_gateway\_streaming.enabled** is set to true. For more information, see [MID Server properties](https://www.servicenow.com/docs/access?context=r_MIDServerProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** The ITOM Gateway component is shown only if the MID Server property **mid.hla.itom\_gateway\_streaming.enabled** is set to true. For more information, see MID Server properties.
 
 When the integration isn't streaming live data from the source, a warning message is displayed. There is a 4-hour interval between the last log source time and the current time before this message is generated. You can change the default time interval through the system property **sn\_itom\_integ\_app.overview\_page\_log\_source\_time\_threshold\_hours**.
 

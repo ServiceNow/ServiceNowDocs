@@ -15,7 +15,7 @@ Install the content pack for the Public Sector Digital Services Platform Analyti
 
 ## Before you begin
 
--   Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see [Activate your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Activate the full, subscription version of Performance Analytics on the instance where you're activating this Platform Analytics Solution. You can activate Performance Analytics on a non-production instance without purchasing a subscription. For more information, see Activate your Performance Analytics subscription.
 
 -   Install Public Sector Digital Services Core from the ServiceNow Store.
 

@@ -15,7 +15,7 @@ Learn how to enable location tracking for the Mobile Agent and select the locati
 
 ## Before you begin
 
-Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US). For more details, see [ServiceNow plugins](https://www.servicenow.com/docs/access?context=c_ServiceNowPlugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Enable geolocation features on your instance by activating the Geolocation plugin \[com.snc.geolocation\]. The Geolocation plugin gives you access to the manual tracking option. You must purchase a subscription before activating the plugin. For details on plugin activation, see Activate a plugin. For more details, see ServiceNow plugins.
 
 To enable the action-based location tracking option, ensure that you have the Mobile Location Tracking plugin \[com.glide.sg.location.tracking\] installed. For more information about action-based location tracking and its settings, see [Configuring action-based location tracking](location-tracking-action-config.md).
 

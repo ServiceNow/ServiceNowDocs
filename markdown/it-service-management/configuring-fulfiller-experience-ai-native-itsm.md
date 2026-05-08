@@ -54,7 +54,7 @@ Incident form is preconfigured.
 
 </td><td>
 
-Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](../../incident-management/concept/working-incident-record-form.md) and [Forms](https://www.servicenow.com/docs/access?context=form-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Review and update the form layout based on business requirement. For information about creating an incident using Form Builder, see [Working with incident record form](../../incident-management/concept/working-incident-record-form.md) and Forms.For information about the Implementation Plan Manager Agent that provides conversational AI-native experience for incident form configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Incident routing to fulfiller’s inbox is auto-configured post installation. Co
 
 </td><td>
 
-Manage and configure the incident routing experience. For information about configuring this channel, see [Create or configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Manage and configure the incident routing experience. For information about configuring this channel, see Create or configure a service channel.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ None
 
 For information about incident assignment rules, [Define assignment rules for incidents](../../incident-management/task/t_DefinAnAssignRuleIncidents.md).
 
- For information about business rules, see [Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ For information about business rules, see Classic Business rules.
 
  For information about the Incident routing configuration agent that provides conversational AI-native experience for incident routing configurations, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
@@ -154,7 +154,7 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating an incident notification, see Create an email notification.For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Request Management
@@ -221,7 +221,7 @@ Notifications align with the default Employee Center notification template.
 
 </td><td>
 
-Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating a request notification, see [View request notifications](https://www.servicenow.com/docs/access?context=view-request-notification&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
+Configure the notification template. Update notification details such as who receives it, when it is sent, and what \(content\), and so on. For information about creating a request notification, see View request notifications.For information about the Notification Agent that provides conversational AI-native experience for notification configuration, see [AI agents and agentic workflows in Simplified IT Service Management](../reference/agents-ai-native-it-service-desk.md).
 
 </td></tr></tbody>
 </table>## Analytics
@@ -263,7 +263,7 @@ Prebuilt AI agents for requesters such as for incident creation, status checks, 
 
 </td><td>
 
-Remove an agent that is part of the agentic workflow or manage \(edit, deactivate, activate, or create\) the triggers associated with the agentic workflows. For information about modifying agentic workflows, see [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Remove an agent that is part of the agentic workflow or manage \(edit, deactivate, activate, or create\) the triggers associated with the agentic workflows. For information about modifying agentic workflows, see Modify an agentic workflow.
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Now Assist skills such as KB generation, Incident summarization, Chat summarizat
 
 </td><td>
 
-Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit a Now Assist skill](https://www.servicenow.com/docs/access?context=edit-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see Edit a Now Assist skill.
 
 </td></tr></tbody>
 </table>

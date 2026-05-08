@@ -158,7 +158,7 @@ The parent Windows Servers table reflects the physical cores, while the Hyper-V 
 </td></tr></tbody>
 </table>## Credentials
 
-Configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) with Domain administrator rights. You should also [Enable PowerShell](r_PowerShellForDiscovery.md) for the MID Server used to discover Hyper-V servers and instances.
+Configure Windows credentials with Domain administrator rights. You should also [Enable PowerShell](r_PowerShellForDiscovery.md) for the MID Server used to discover Hyper-V servers and instances.
 
 ## Classifier, probes, and pattern
 

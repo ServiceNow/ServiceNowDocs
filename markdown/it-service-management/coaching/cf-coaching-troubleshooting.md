@@ -55,7 +55,7 @@ You want to override ACLs and trainings for the Assigned Training related list o
 
 </td><td>
 
-Implement Coaching [extension points](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US):-   CoachingExtensionPoint
+Implement Coaching extension points:-   CoachingExtensionPoint
 -   CoachingACLExtensionPoint
 
 </td></tr></tbody>
@@ -64,11 +64,11 @@ Implement Coaching [extension points](https://www.servicenow.com/docs/access?con
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Using scripted extension points in server-side scripts](https://www.servicenow.com/docs/access?context=scripted-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.scripted-extension-points]
 
-[Using UI extension points in server-side UI macros](https://www.servicenow.com/docs/access?context=ui-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.ui-extension-points]
 
-[Using client extension points in client-side UI scripting](https://www.servicenow.com/docs/access?context=client-extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.client-extension-points]
 

@@ -15,7 +15,7 @@ breadcrumb: [Integrate, Accounts Payable Operations, Finance and Supply Chain]
 
 Invoice integration facilitates inbound and outbound integration with third party applications or any external systems into the ServiceNow® application.
 
-The integration framework consists of inbound invoice and outbound invoice interface tables. Invoice integration involves the transfer of invoice and invoice line data by running transform maps through various sources or external systems. For more information on integration, see [Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+The integration framework consists of inbound invoice and outbound invoice interface tables. Invoice integration involves the transfer of invoice and invoice line data by running transform maps through various sources or external systems. For more information on integration, see Integration Hub.
 
 The integration framework enables the following use cases:
 

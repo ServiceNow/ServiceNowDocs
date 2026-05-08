@@ -17,7 +17,7 @@ Search uses tables to store details from user searches, search refinements, and 
 
 Search signals refer to user, query, and similar data stored in columns on search suggestion tables. For a guide to search suggestion tables and their columns, see [Search Suggestions tables](understanding-search-suggestion-tables.md).
 
-**Note:** Because the search signal tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see [Reporting on system tables](https://www.servicenow.com/docs/access?context=c_ReportOnSystemTables&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Note:** Because the search signal tables are system tables, they are excluded from the Reporting module by default. To learn about enabling reporting on system tables, see Reporting on system tables.
 
 ## Search Signal Event table
 

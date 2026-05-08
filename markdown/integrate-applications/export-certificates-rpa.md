@@ -78,7 +78,7 @@ Role required: admin
 
 ### What to do next
 
-Register the root certificate to make it available for authentication. For more information, see [Register the CA certificate](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Register the root certificate to make it available for authentication. For more information, see Register the CA certificate.
 
 ## Export an intermediate certificate
 
@@ -143,7 +143,7 @@ If your organization doesn't require an intermediate certificate, skip this task
 
 ### What to do next
 
-Register the intermediate certificate to make it available for authentication. For more information, see [Register the CA certificate](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Register the intermediate certificate to make it available for authentication. For more information, see Register the CA certificate.
 
 ## Export a client authentication \(active directory\) certificate
 
@@ -190,5 +190,5 @@ Role required: admin
 
 ### What to do next
 
-Map the PEM certificate to the user. For more information, see [Map the PEM certificate to user](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Map the PEM certificate to the user. For more information, see Map the PEM certificate to user.
 

@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-The overall process of importing data into your instance is discussed at [Import sets](https://www.servicenow.com/docs/access?context=import-sets-landing-page&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+The overall process of importing data into your instance is discussed at Import sets.
 
 You will find a learning module that takes you through the process of importing data at [https://developer.servicenow.com/dev.do\#!/learn/courses/sandiego/app\_store\_learnv2\_importingdata\_sandiego\_importing\_data\_into\_servicenow](https://developer.servicenow.com/dev.do#!/learn/courses/sandiego/app_store_learnv2_importingdata_sandiego_importing_data_into_servicenow).
 
@@ -33,7 +33,7 @@ An article on running transform maps appears at [https://developer.servicenow.co
 
 1.  Create a transform map.
 
-    See [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for instructions.
+    See Create a transform map for instructions.
 
     **Important:** Clear the **Run business rules** check box before you run the transform map.
 

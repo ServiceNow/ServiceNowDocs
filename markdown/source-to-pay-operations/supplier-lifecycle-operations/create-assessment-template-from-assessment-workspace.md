@@ -17,7 +17,7 @@ You can create smart assessment templates and add instructions, questions, and r
 
 ## Before you begin
 
-Smart assessments are built using the ServiceNow® Smart Assessment Engine \(SAE\) application. Familiarize yourself with the [Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+Smart assessments are built using the ServiceNow® Smart Assessment Engine \(SAE\) application. Familiarize yourself with the Smart Assessment Engine.
 
 Role required: sn\_slm.manager or sn\_slm.admin
 
@@ -25,7 +25,7 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 1.  Select the **Workspaces** tab and then select the **Assessment workspace**.
 
-    For more information on creating the smart assessment template, see [Create an assessment template](https://www.servicenow.com/docs/access?context=sae-asmnt-template-create&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information on creating the smart assessment template, see Create an assessment template.
 
 2.  In the **Purpose** field on the **Smart assessment template** form, select **Supplier management surveys**.
 
@@ -37,7 +37,7 @@ Role required: sn\_slm.manager or sn\_slm.admin
 
 5.  In the template designer, add instructions and questions.
 
-    For more information, see [Add instructions and questions to an assessment template](https://www.servicenow.com/docs/access?context=sae-asmnt-template-populate&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For more information, see Add instructions and questions to an assessment template.
 
 
 ## What to do next

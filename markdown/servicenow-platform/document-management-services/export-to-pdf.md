@@ -34,7 +34,7 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To export a PDF list, see [Export data from a list](https://www.servicenow.com/docs/access?context=export-list-data&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To export a PDF list, see Export data from a list.
 
 ## Export to PDF for a single record
 
@@ -51,7 +51,7 @@ To enable accessibility, select the **Accessible PDF** check box.
 
 **Note:** Adding accessibility tags to a PDF increases the file size.
 
-To generate a single PDF record, see [Export data from a record](https://www.servicenow.com/docs/access?context=export-form-data&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To generate a single PDF record, see Export data from a record.
 
 **Parent Topic:**[PDF generation and accessibility](pdf-generation-accessibility.md)
 

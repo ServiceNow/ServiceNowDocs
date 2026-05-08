@@ -92,7 +92,7 @@ Option to activate the case restriction configuration record.
 
     **Note:** Collaborators on an HR or ER case can override COE security. But, ER cases with restrictions override collaborators. For more information, see [Create COE security](../concept/configure-hr-coe-security.md).
 
-    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are ServiceNow ACLs.
 
 
 ## What to do next

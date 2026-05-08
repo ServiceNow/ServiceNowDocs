@@ -27,7 +27,7 @@ The category and type of a demand and the applications you have installed determ
 |Agile Development entities \(story or epic\)|[Agile Development 2.0](../../agile-development/reference/agile-landing-page.md)|
 |Scaled Agile Framework \(SAFe\)SAFe entities \(story, feature, or epic\)|[Essential SAFe](../../agile-SAFe/concept/essential-overview.md) or [Portfolio SAFe](../../agile-SAFe/concept/portfolio-overview.md)|
 |Enterprise Agile Planning \(EAP\) entities \(epic, feature, or capability\)|[Strategic Planning](../../alignment-planner-workspace/concept/alignment-planner-workspace-landing-page.md)|
-|Improvement initiatives|[Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|
+|Improvement initiatives|Continual Improvement Management|
 
 Role required: it\_demand\_manager
 

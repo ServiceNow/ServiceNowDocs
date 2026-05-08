@@ -20,14 +20,14 @@ Configure the following items to use Notify with On-Call Scheduling:
 -   You must add at least one Notify phone number to the On-Call Group number group. This group is configured by default to handle inbound SMS responses \(via On-Call: Check Assignment Response\) that accepts or rejects an on-call assignment and to handle outbound voice calls \(via On-Call: Assign by Acknowledgement Voice\) to accept or reject assignments.
 -   You must configure workflows, such as the On-Call: Assign by Acknowledgement to drive escalations via SMS and Voice.
 
-To set up SMS and voice message as contact methods, see [Set up Notify with On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_SetUpNotifyWithOnCall&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+To set up SMS and voice message as contact methods, see Set up Notify with On-Call Scheduling
 
 **Parent Topic:**[Configuring On-Call Scheduling](configuration.md)
 
 **Related topics**  
 
 
-[On-Call Assign by Acknowledgement workflow](https://www.servicenow.com/docs/access?context=c_OnCallAssignByAckWorkflow&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_OnCallAssignByAckWorkflow]
 
-[Controlling the on-call communication channel with Notify](https://www.servicenow.com/docs/access?context=c_OnCallNotifyForceCommChannel&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_OnCallNotifyForceCommChannel]
 

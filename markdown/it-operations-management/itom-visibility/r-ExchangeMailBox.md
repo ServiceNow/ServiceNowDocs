@@ -41,7 +41,7 @@ Additional notes
 
 </th></tr></thead><tbody><tr><td>
 
-[Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Applicative credentials
 
 </td><td>
 
@@ -51,7 +51,7 @@ The user must be able to run Powershell commands against the Exchange hosts. Use
 
 </td></tr><tr><td>
 
-[Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Windows credentials
 
 </td><td>
 

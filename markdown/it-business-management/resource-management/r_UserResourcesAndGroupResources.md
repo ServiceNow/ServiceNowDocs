@@ -17,7 +17,7 @@ When allocating resources, a resource manager might need to work with an adminis
 
 ## Resource Manager view
 
-The Resource Manager view in **Resource** &gt; **Resources** &gt; **Users** lists only the users who have the pps\_resource role. In addition to some of the fields displayed in the User Administration &gt; [Users](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US) form, the Resource Manager View &gt; Users form also displays the following fields, which are editable only by a user with resource\_manager role:
+The Resource Manager view in **Resource** &gt; **Resources** &gt; **Users** lists only the users who have the pps\_resource role. In addition to some of the fields displayed in the User Administration &gt; Users form, the Resource Manager View &gt; Users form also displays the following fields, which are editable only by a user with resource\_manager role:
 
 -   **Location**
 -   **Schedule**

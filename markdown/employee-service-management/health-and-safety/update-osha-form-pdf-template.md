@@ -39,7 +39,7 @@ The Health and Safety Incident Management OSHA Content Pack includes preconfigur
 
     4.  Select **Manage attachments** and delete the old PDF template file and upload the new PDF template file.
 
-        For more information on managing attachments, see [Manage attachments](https://www.servicenow.com/docs/access?context=t_ManagingAttachments&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For more information on managing attachments, see Manage attachments.
 
     5.  Select **Update**.
 

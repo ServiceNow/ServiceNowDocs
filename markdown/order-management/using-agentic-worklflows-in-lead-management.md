@@ -59,13 +59,13 @@ Help nurture new leads
 </td></tr></tbody>
 </table>**Important:** By default, all agent workflow and AI agent records are read-only.
 
-To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and then proceed with the following steps:
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and then proceed with the following steps:
 
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 -   **[Help nurture new leads agentic workflow](help-nurture-new-leads-agentic-workflow.md)**  
 Use the Help nurture new leads agentic workflow to process the entire lead record process.

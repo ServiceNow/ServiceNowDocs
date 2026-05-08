@@ -29,7 +29,7 @@ External Incoming Email
 
 </td><td>
 
-Number of incoming emails for the calendar day that were delivered to the instance from external email domains. **Note:** The external email domains are those domains that are not listed in the **security.list.internal.domains** system property, because this property tracks only your internal email domains. To learn more about this property, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Number of incoming emails for the calendar day that were delivered to the instance from external email domains. **Note:** The external email domains are those domains that are not listed in the **security.list.internal.domains** system property, because this property tracks only your internal email domains. To learn more about this property, see Available system properties.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Number of incoming emails to the instance for the calendar day from email domain
 |Records|Individual email records that compromise the daily count for the selected email type.|
 |More Info|Additional information for the selected email type.|
 
-**Note:** The email metrics apply only to your incoming emails to the instance. The metrics do not apply to the normal traffic that is processed through your enterprise-wide email servers. To learn about defining inbound actions and how they impact the processing of your inbound emails, see [Inbound email actions](https://www.servicenow.com/docs/access?context=c_InboundEmailActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The email metrics apply only to your incoming emails to the instance. The metrics do not apply to the normal traffic that is processed through your enterprise-wide email servers. To learn about defining inbound actions and how they impact the processing of your inbound emails, see Inbound email actions.
 
 -   **[Designate email domains as untrusted or trusted](../task/designate-untrusted-trusted-email-domains.md)**  
 Designate specific email domains as untrusted or trusted so that you can monitor the metrics for incoming emails from these sources in your instance.

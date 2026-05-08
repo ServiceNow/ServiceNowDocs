@@ -176,7 +176,7 @@ Not supported
 Latest version of iOS and SafariLatest version of Android and Chrome
 
 </td></tr></tbody>
-</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the [mobile UI](https://www.servicenow.com/docs/access?context=mobile-access-options&version=australia&pubname=australia-mobile&ft:locale=en-US).
+</table>\*Mobile phone browsers do not support the desktop version of the UI. Instead, mobile browsers use the mobile UI.
 
 ## Firefox
 

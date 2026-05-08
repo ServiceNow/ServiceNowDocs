@@ -19,13 +19,13 @@ Set up authentication credentials and scheduled jobs to import Jamf data into yo
 
 **Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
 -   The [Integration Commons for CMDB](../concept/integration-commons-for-cmdb.md) store app, which is automatically installed.
 -   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](../concept/cmdb-ci-class-models.md).
--   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see Request Discovery.
 -   Jamf Classic API version 10.x.
 
 When using client credentials for authentication, obtain the OAuth credentials from your Jamf administrator. Make a note of the following details:
@@ -391,7 +391,7 @@ Client Secret of your Jamf client application as noted in the [Before you begin]
 
     3.  On the Scheduled Data Import form, verify the field values for the scheduled job and select the **Active** check box to activate the scheduled job.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see Schedule a data import.
 
     4.  Select **Update**.
 

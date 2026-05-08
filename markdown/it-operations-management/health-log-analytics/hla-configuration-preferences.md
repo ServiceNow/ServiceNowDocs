@@ -41,7 +41,7 @@ The preferred MID Server settings for Health Log Analytics are:
     -   CPUs: 4
     -   RAM: 16 GB
     -   Java heap size for MID Server: 8 GB
-    For general information, see: [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For general information, see: MID Server system requirements.
 
 -   To increase log ingestion throughput, you can either increase the ulimit or the network bandwidth, or decrease the size of the logs being streamed. The ulimit setting can be configured on an individual MID Server. However, the correlation between the ulimit and the throughput can’t be modified.
 

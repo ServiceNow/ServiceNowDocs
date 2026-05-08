@@ -42,5 +42,5 @@ Select the down arrow next to the name of the dashboard to open the drop-down me
 
 [Delete a TPRM dashboard](../../grc-vendor-risk/task/tprm-delete-db.md)
 
-[Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.analytics-center-dashboards]
 

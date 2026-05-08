@@ -15,7 +15,7 @@ The application design and runtime settings determine whether an application can
 
 |Field|Description|
 |-----|-----------|
-|JavaScript Mode|The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://www.servicenow.com/docs/access?context=set-javascript-mode-application&version=australia&pubname=australia-api-reference&ft:locale=en-US).|
+|JavaScript Mode|The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see Set the JavaScript mode for an application.|
 |Runtime Access Tracking|The application's handling of script access requests to resources in other applications. Select **None** to authorize all access requests to cross-scope resources without logging them. Select **Tracking** to log and authorize all access requests to cross-scope resources. Select **Enforcing** to log access requests to cross-scope resources but require an administrator to authorize each request.|
 |Restrict Table Choices|The availability of cross-scope tables when designing the application. Clear the option to allow the application to see tables from other application scopes. Select the option to restrict design choices to only tables in the same application.|
 

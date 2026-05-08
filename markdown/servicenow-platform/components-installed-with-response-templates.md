@@ -13,7 +13,7 @@ breadcrumb: [Activate, Response templates, Manage content capabilities, Extend S
 
 Several types of components are installed with activation of the Templated Responses \(com.sn\_templated\_snip\) plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -74,11 +74,11 @@ None
 </td></tr></tbody>
 </table>You can assign these roles to the appropriate roles, groups, or users in your application.
 
--   To assign a role to another role, see [Add a role to an existing role](https://www.servicenow.com/docs/access?context=t_AddARoleToAnExistingRole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   To assign a role to another role, see Add a role to an existing role.
+-   To assign a role to a group, see Assign a role to a group.
+-   To assign a role to a user, see Assign a role to a user.
 
-For further information on user administration and how to manage users, see [User administration](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For further information on user administration and how to manage users, see User administration.
 
 ## Tables installed
 
@@ -123,7 +123,7 @@ Note Template for Table\[sn\_m2m\_note\_template\_for\_table\]
 Maps notes to response templates.
 
 </td></tr></tbody>
-</table>For further information on table administration and how to manage data, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>For further information on table administration and how to manage data, see Table administration.
 
 **Parent Topic:**[Activate response templates](../task/activate-templated-snippets.md)
 

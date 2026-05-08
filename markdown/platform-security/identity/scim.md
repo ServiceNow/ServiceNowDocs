@@ -30,5 +30,5 @@ The System for Cross-domain Identity Management \(SCIM\) API provides endpoints 
 </td></tr></tbody>
 </table>The SCIM protocol is an application-level HTTP-based protocol based on the HTTP \([RFC7230](https://datatracker.ietf.org/doc/html/rfc7230)\) standard. Use this API for provisioning and managing identity data, such as users and groups. Use the API on the web and in cross-domain environments, such as enterprise-to-cloud service providers or inter-cloud scenarios.
 
-To access this API, you must activate the SCIM v2 - ServiceNow® Cross-domain Identity Management \(com.snc.integration.scim2\) plugin. To know more about the SCIM API, see [System for Cross-domain Identity Management \(SCIM\) API](https://www.servicenow.com/docs/access?context=scim-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+To access this API, you must activate the SCIM v2 - ServiceNow® Cross-domain Identity Management \(com.snc.integration.scim2\) plugin. To know more about the SCIM API, see System for Cross-domain Identity Management \(SCIM\) API.
 

@@ -24,7 +24,7 @@ The Expiring Contracts Condition form is used to create a rule or update an exis
 |Compliant state|System field. Do not use.|
 |Order|Order in which the conditions are evaluated.|
 |Event name|Name of the event this condition triggers.|
-|Expiration Condition|Condition that must be true for the **Condition check** field to be set to this value. Add as many conditions as are needed. For more information on condition check, see [Define a condition check](https://www.servicenow.com/docs/access?context=t_DefineAConditionCheck&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).|
+|Expiration Condition|Condition that must be true for the **Condition check** field to be set to this value. Add as many conditions as are needed. For more information on condition check, see Define a condition check.|
 |Domain|Domain of the condition.|
 
 **Parent Topic:**[Contract Management Pro reference](../concept/cncore-ref.md)

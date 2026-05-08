@@ -94,7 +94,7 @@ Option to set the record to active.
 
     The **Apply if** field is only available if **Is initial requirement** is not selected.
 
-    For more information about conditions, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about conditions, see Condition builder.
 
     To include workplace locations within a parent location, you must add conditions to dot-walk from the nested locations to the parent location.
 

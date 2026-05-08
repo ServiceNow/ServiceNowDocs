@@ -317,14 +317,14 @@ Groups that contains a different set of fields. These groups are available as a 
             }
 ```
 
- For more information on how to use dot-walking, see [Dot-walking](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For more information on how to use dot-walking, see Dot-walking.
 
 </td></tr></tbody>
 </table>    **Tip:** If the pre-populated values are not appearing in the fields while editing a connection, navigate to **System Diagnostics** &gt; **Session Debug** &gt; **Debug Log** to diagnose the issue.
 
 9.  In the **Test Action** field, enter the name of the test action.
 
-    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see [Create a test action to test a connection alias from a configuration template](https://www.servicenow.com/docs/access?context=test-alias-configuration-template&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see Create a test action to test a connection alias from a configuration template.
 
 10. Add the template to a Connection &amp; Credential alias.
 

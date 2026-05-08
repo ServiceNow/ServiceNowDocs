@@ -19,7 +19,7 @@ You can access and visualize time-series data in the MetricBase database by usin
 
 -   Reporting application
 
-    You can generate reports and graphs from the time-series data that is stored in the MetricBase database. For more information, see [Create reports from MetricBase time-series data](https://www.servicenow.com/docs/access?context=create-report-with-metricbase-data&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    You can generate reports and graphs from the time-series data that is stored in the MetricBase database. For more information, see Create reports from MetricBase time-series data.
 
 -   Table lists using the `.list` command
 

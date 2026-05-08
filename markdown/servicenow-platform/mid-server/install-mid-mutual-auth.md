@@ -26,7 +26,7 @@ Role required: admin
 </td></tr></tbody>
 </table>## About this task
 
-MID Server mutual authentication removes the MID Server user name and password and provides a client certificate for authentication. Whenever a server requests authentication, this certificate is sent instead. To use mutual authentication, certificate based authentication must be enabled. See [Set up Certificate-based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the procedure.
+MID Server mutual authentication removes the MID Server user name and password and provides a client certificate for authentication. Whenever a server requests authentication, this certificate is sent instead. To use mutual authentication, certificate based authentication must be enabled. See Set up Certificate-based authentication for the procedure.
 
 If a new MID Server is created with mutual authentication, it does not add capabilities automatically. An administrator must add capabilities to its record on the instance. However, existing MID Servers using basic authentication with capabilities are preserved when switching to mutual authentication.
 

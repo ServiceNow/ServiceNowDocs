@@ -27,7 +27,7 @@ Knowledge Graph transforms search into an intelligent, predictive, and efficient
 
 **Note:** Knowledge Graph is not applicable to the Now Assist panel - Developer assistant.
 
-For more information about Knowledge Graph, see [Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel](https://www.servicenow.com/docs/access?context=example-use-case-for-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about Knowledge Graph, see Leverage Knowledge Graph prebuilt integration with Now Assist Virtual Agent and Now Assist Panel.
 
 **Note:** By default, search personalization is available with AI Search in the assistant, and delivers personalized, context-aware search experiences powered by Knowledge Graph. To disable the integration with Knowledge Graph for personalization, open support ticket.
 
@@ -49,7 +49,7 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
     **Note:** For Now Assist panel - Platform \(default\) assistant, if Enterprise Graph and Enterprise Graph \(Small\) are selected within the NLQ schema, tags can be selected for specific workspaces that are active on the instance.
 
-    For more information about Knowledge Graph tags, see [Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information about Knowledge Graph tags, see Tagging in Knowledge Graph Designer.
 
     ![Fields to add workspace tags.](../image/NAinVA-kg-workspace-tags2-122025.png "Select workspace tags")
 

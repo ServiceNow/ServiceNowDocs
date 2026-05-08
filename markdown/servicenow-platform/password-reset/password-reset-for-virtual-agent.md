@@ -15,7 +15,7 @@ breadcrumb: [Exploring Password Reset, Password Reset, Manage service capabiliti
 
 Augment an end-user experience with Password Reset for Virtual Agent that handles common support issues, using pre-built conversations.
 
-For more information about the Virtual Agent, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information about the Virtual Agent, see Virtual Agent.
 
 Your end users can perform the following actions through the Virtual Agent conversations:
 
@@ -29,5 +29,5 @@ The end users can reset passwords and unlock accounts even if they aren’t logg
 **Related topics**  
 
 
-[Password management topics for ITSM Virtual Agent](https://www.servicenow.com/docs/access?context=itsm-password-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.itsm-password-management]
 

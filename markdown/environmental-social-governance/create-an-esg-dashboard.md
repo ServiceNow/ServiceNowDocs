@@ -31,13 +31,13 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 4.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Create a technical dashboard in UI Builder](https://www.servicenow.com/docs/access?context=create-tech-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. For more information, see UI Builder and Create a technical dashboard in UI Builder.
 
 5.  Select **Create new dashboard**.
 
 6.  Select **Add new element** to add content to the dashboard.
 
-    See [Exploring Platform Analytics dashboards](https://www.servicenow.com/docs/access?context=ac-elements&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for information about what you can add to a dashboard.
+    See Exploring Platform Analytics dashboards for information about what you can add to a dashboard.
 
     When you add a data visualization, select **New data visualization** to create a new visualization or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without pre-configured data or **Saved filter** to reuse an existing filter.
 

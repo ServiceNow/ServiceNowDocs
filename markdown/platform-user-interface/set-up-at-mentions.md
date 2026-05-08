@@ -31,7 +31,7 @@ When you use @mentions, context-based suggestions display a list of recipients w
 
 2.  Add a system property named **glide.ui.mentions.check\_record\_visibility**.
 
-    For more information on adding system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding system property, see Add a system property.
 
 3.  Set the Value to **true**.
 

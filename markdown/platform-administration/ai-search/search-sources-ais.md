@@ -35,11 +35,11 @@ You can use static and dynamic filter conditions to filter search source records
 Search sources don't support any of the following filter options:
 
 -   Filters that reference fields from child tables of the indexed source table. As an example, if you create an indexed source for the Task \[task\] table, search sources for that indexed source can't use filters to reference fields from the Incident \[incident\] table because the Incident table is a child of the Task table.
--   Dynamic filters with scripts that use [the **current** keyword or global variable](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   Dynamic filters with scripts that reference any [global business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   Dynamic filters with scripts that use [script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   Dynamic filters with scripts that use the **current** keyword or global variable
+-   Dynamic filters with scripts that reference any global business rules
+-   Dynamic filters with scripts that use script includes
 
-For more information on filter conditions, see [Filters](https://www.servicenow.com/docs/access?context=c_Filters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). To learn about relationships between parent and child tables, see [Table extension and classes](../../table-administration/concept/table-extension-and-classes.md). For details on dynamic filter options and their associated scripts, see [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information on filter conditions, see Filters. To learn about relationships between parent and child tables, see [Table extension and classes](../../table-administration/concept/table-extension-and-classes.md). For details on dynamic filter options and their associated scripts, see Create a dynamic filter option.
 
 ## Linking search sources to search profiles
 

@@ -69,7 +69,7 @@ Requires approval
 
 </td><td>
 
-Option to enforce approval for the remediation action. For more information on approvals, see [Approvals](https://www.servicenow.com/docs/access?context=r_Approvals&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Option to enforce approval for the remediation action. For more information on approvals, see Approvals.
 
 </td></tr><tr><td>
 

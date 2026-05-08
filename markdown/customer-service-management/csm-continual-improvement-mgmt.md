@@ -18,20 +18,20 @@ You can use CIM for improvements to Performance Analytics \(PA\) indicators and 
 -   Reduce the open case backlog.
 -   Improve the average case response time.
 
-See [Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information about how CIM can help you with setting goals, organizing effort, and completing tasks.
+See Continual Improvement Management for more information about how CIM can help you with setting goals, organizing effort, and completing tasks.
 
 ## Use CIM with Customer Service Management
 
-To use CIM with Customer Service Management, you must request the Continual Improvement Management \(com.sn\_cim\) plugin. For more information, see [Request Continual Improvement Management](https://www.servicenow.com/docs/access?context=request-cim&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+To use CIM with Customer Service Management, you must request the Continual Improvement Management \(com.sn\_cim\) plugin. For more information, see Request Continual Improvement Management.
 
 **Related topics**  
 
 
-[Continual Improvement Management overview](https://www.servicenow.com/docs/access?context=get-started-cim&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.get-started-cim]
 
-[Continual Improvement Management roles](https://www.servicenow.com/docs/access?context=cim-roles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.cim-roles]
 
-[Requesting improvements](https://www.servicenow.com/docs/access?context=cim-improvement-request&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.cim-improvement-request]
 
-[Managing improvements](https://www.servicenow.com/docs/access?context=cim-improvement-initiative-mgmt&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.cim-improvement-initiative-mgmt]
 

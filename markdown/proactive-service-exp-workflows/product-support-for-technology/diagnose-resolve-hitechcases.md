@@ -65,9 +65,9 @@ The technology product support case progresses through several stages from start
 
     3.  Expand the cards in the **Available Test Suite**.
 
-        To set up test definitions, see [Setting up test definitions](https://www.servicenow.com/docs/access?context=settingup-test-specifications&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+        To set up test definitions, see Setting up test definitions.
 
-        To set up test group, see [Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+        To set up test group, see Setting up a test group.
 
     4.  In the manual test, select single/multiple tests.
 

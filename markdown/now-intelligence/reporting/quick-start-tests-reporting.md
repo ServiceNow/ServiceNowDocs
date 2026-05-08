@@ -28,7 +28,7 @@ The Reporting quick start test Automated Test Framework - Reporting plugin \(com
 **Related topics**  
 
 
-[Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.quick-start-tests]
 
 ## Report Visibility test steps
 

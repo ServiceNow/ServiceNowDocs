@@ -17,7 +17,7 @@ Create several connections to a single integration provider. View and configure 
 
 ## Connections and credentials in Integration Hub
 
-Integration Hub uses aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about [credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection information and credentials when integrating with external systems. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. Integration Hub only requires an alias, which then resolves to use the correct credentials and connection information during runtime. Learn more about credentials, connections, and aliases.
 
 ## Support for multiple connections
 

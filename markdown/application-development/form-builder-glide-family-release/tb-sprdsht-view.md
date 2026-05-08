@@ -216,15 +216,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 3.  Enter the following information for your new field column.
 
-<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d267433e1148">
+<table id="choicetable_bs2_1yy_5wb"><thead><tr><th align="left" id="d267415e1148">
 
 Field
 
-</th><th align="left" id="d267433e1151">
+</th><th align="left" id="d267415e1151">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d267433e1157">
+</th></tr></thead><tbody><tr><td id="d267415e1157">
 
 **Column label**
 
@@ -232,7 +232,7 @@ Description
 
 Unique label for the column.
 
-</td></tr><tr><td id="d267433e1166">
+</td></tr><tr><td id="d267415e1166">
 
 **Column name**
 
@@ -240,7 +240,7 @@ Unique label for the column.
 
 Database name for the column.
 
-</td></tr><tr><td id="d267433e1175">
+</td></tr><tr><td id="d267415e1175">
 
 **Type**
 
@@ -250,20 +250,20 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ See Field types.
 
 </td></tr></tbody>
 </table>4.  Select **Advanced settings** to expand it and enter any additional properties for your new field column.
 
-<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d267433e1218">
+<table id="choicetable_mjz_hbz_5wb"><thead><tr><th align="left" id="d267415e1218">
 
 Field
 
-</th><th align="left" id="d267433e1221">
+</th><th align="left" id="d267415e1221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d267433e1227">
+</th></tr></thead><tbody><tr><td id="d267415e1227">
 
 **Function field**
 
@@ -271,7 +271,7 @@ Description
 
 A function field generates a value based on simple computations of other fields and constants. The **Function definition** field then displays, where you define a function.
 
-</td></tr><tr><td id="d267433e1242">
+</td></tr><tr><td id="d267415e1242">
 
 **Mandatory**
 
@@ -279,7 +279,7 @@ A function field generates a value based on simple computations of other fields 
 
 Option that you can select so that the data that your users enter in the field is required before they can save their changes to the form.
 
-</td></tr><tr><td id="d267433e1254">
+</td></tr><tr><td id="d267415e1254">
 
 **Read only**
 
@@ -287,7 +287,7 @@ Option that you can select so that the data that your users enter in the field i
 
 Option that you can select so that the field is not editable by the form users.
 
-</td></tr><tr><td id="d267433e1266">
+</td></tr><tr><td id="d267415e1266">
 
 **Default value**
 
@@ -325,7 +325,7 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 5.  Edit the **Type** for the field column as desired.
 
-    See [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    See Field types.
 
 6.  Select **Duplicate**.
 
@@ -369,15 +369,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options.
 
-<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d267433e1682">
+<table id="choicetable_tm2_b3j_twb"><thead><tr><th align="left" id="d267415e1682">
 
 Action
 
-</th><th align="left" id="d267433e1685">
+</th><th align="left" id="d267415e1685">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d267433e1691">
+</th></tr></thead><tbody><tr><td id="d267415e1691">
 
 **Hide a column**
 
@@ -393,7 +393,7 @@ Using the **Manage columns** button:
 2.  Select **Hide** from the menu to hide the column from view.
 
 
-</td></tr><tr><td id="d267433e1740">
+</td></tr><tr><td id="d267415e1740">
 
 **Unhide a column**
 
@@ -425,15 +425,15 @@ Role required: personalize\_dictionary or AES user role and delegated developer 
 
 2.  Choose one of the following options to pin or unpin a field column.
 
-<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d267433e1875">
+<table id="choicetable_br1_bkj_twb"><thead><tr><th align="left" id="d267415e1875">
 
 Action
 
-</th><th align="left" id="d267433e1878">
+</th><th align="left" id="d267415e1878">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d267433e1884">
+</th></tr></thead><tbody><tr><td id="d267415e1884">
 
 **Pin a column**
 
@@ -443,7 +443,7 @@ Steps
 2.  Select **Pin** from the menu to pin the column to the left side of your view.
 
 
-</td></tr><tr><td id="d267433e1915">
+</td></tr><tr><td id="d267415e1915">
 
 **Unpin a column**
 

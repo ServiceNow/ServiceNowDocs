@@ -73,7 +73,7 @@ For an introduction to the dashboard, see [CSDM Data Foundations dashboard](../c
         -   **Location** and **Location.parent** is not empty
 4.  Select the tiles associated with the foundational metrics to access Performance Analytics widgets.
 
-    [Performance Analytics widgets](https://www.servicenow.com/docs/access?context=c_Widgets&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) are provided by the **CSDM PA Metric Collection** scheduled job. These widgets provide trending data over time for the non-conforming CIs associated with the metric.
+    Performance Analytics widgets are provided by the **CSDM PA Metric Collection** scheduled job. These widgets provide trending data over time for the non-conforming CIs associated with the metric.
 
     -   Verify that the **Real-time** option is selected \(![real-time option.](../../configuration-management/image/RealTimeFoundationsDashboard.png)\) and then select **Show Records** to view the list of CIs.
     -   Select the **Breakdowns** context menu to view available breakdowns.

@@ -25,7 +25,7 @@ By default, Zing doesn't index text from multi-row Service Catalog variable sets
 
 Administrators can override this default behavior by adding the **glide.ts.index.variableset**system property and setting its value to **true**. With this value set, Zing indexes text in multi-row variable sets, and global search returns results for that text.
 
-To learn more about variable sets, see [Service catalog variable sets](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariableSets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To learn more about variable sets, see Service catalog variable sets.
 
 ## Procedure
 

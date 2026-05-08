@@ -22,7 +22,7 @@ Now Assist for TPRM is supported starting from the Zurich patch 4 release.
 
 ## Supported language models
 
-You can use Now LLM Service, Azure OpenAI, Google Gemini, Anthropic Claude on AWS, or Now LLM LTS as the AI model provider for all Now Assist skills and AI agents. For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Azure OpenAI, Google Gemini, Anthropic Claude on AWS, or Now LLM LTS as the AI model provider for all Now Assist skills and AI agents. For more information, see Large language models on the ServiceNow AI Platform®.
 
 ## Supported user interfaces
 

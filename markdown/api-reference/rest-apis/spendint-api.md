@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Spendint API provides endpoints that push the catalog, price, availability, order, shipment, and invoice information from a third party to the ServiceNow instance. This API is part of the Source-to-Pay Integration Framework application.
 
-This API requires the Procurement Integration Framework \(com.glide.sn\_spend\_intg\) store application and is provided within the `sn_spend_intg` namespace. For information, see [Procurement File Transfer Framework](https://www.servicenow.com/docs/access?context=procurement-file-transfer-framework&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+This API requires the Procurement Integration Framework \(com.glide.sn\_spend\_intg\) store application and is provided within the `sn_spend_intg` namespace. For information, see Procurement File Transfer Framework.
 
 To access this API, you must have the sn\_spend\_intg.procurement\_integrator role.
 

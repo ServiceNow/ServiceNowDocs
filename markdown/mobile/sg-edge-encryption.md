@@ -19,7 +19,7 @@ The diagram shows an example of how Edge Encryption operates within the mobile p
 
 ![How a value in a field protected by Edge Encryption displays in a mobile device and in a database.](../image/mobile-edge-encrypt.png)
 
-For more information, see [Edge Encryption](https://www.servicenow.com/docs/access?context=edge-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, see Edge Encryption.
 
 **Parent Topic:**[Device security for ServiceNow Mobile apps](sg-mobile-security.md)
 

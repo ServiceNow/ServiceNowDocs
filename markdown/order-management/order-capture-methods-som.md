@@ -72,18 +72,18 @@ Alternate way to create an order for an account or a consumer with a different s
 </td></tr></tbody>
 </table>## Order creation using TM Forum \(TMF\) APIs
 
-Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Most of the service orders that you process are captured from third-party customer order management systems through the Service Order Open API. The Service Order Open API is a ServiceNow implementation of the TM Forum TMF641 Service Ordering Open API specification. To learn more, see Service Order Open API.
 
 Order creators and order integrators for a Communications Service Provider \(CSP\) company can use the following TMF APIs to create orders:
 
--   [TMF622: Product Ordering API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [TMF641: Service Ordering API](https://www.servicenow.com/docs/access?context=service-order-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   TMF622: Product Ordering API
+-   TMF641: Service Ordering API
 
 **Note:** You need a Telecommunications Service Management subscription to create orders using TMF APIs.
 
 ## Order creation using Service Exchange
 
-Your ServiceNow instances can be integrated with the instances of your customers by using Service Bridge. With this integration, you can create and publish product offerings to your customer's instances. Enterprise customers can then submit requests for products or services, which you can then fulfill using Order Management. For detailed benefits on using the Service Bridge applications, see [Exploring Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-exploring-service-bridge&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+Your ServiceNow instances can be integrated with the instances of your customers by using Service Bridge. With this integration, you can create and publish product offerings to your customer's instances. Enterprise customers can then submit requests for products or services, which you can then fulfill using Order Management. For detailed benefits on using the Service Bridge applications, see Exploring Service Exchange.
 
 ## Order creation by B2B customers
 

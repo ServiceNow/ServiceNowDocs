@@ -73,7 +73,7 @@ As an audit manager, create milestones that can be used to track the progress of
 
 </td><td>
 
-As a resource user, you can create a resource plan from the Resource Management application for any task such as demand, project, project task, incident, problem, or change. You can edit and adjust the plan until you submit it for approval. For details see, [Create a resource plan](https://www.servicenow.com/docs/access?context=t_CreateResourcePlanProjectTask&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+As a resource user, you can create a resource plan from the Resource Management application for any task such as demand, project, project task, incident, problem, or change. You can edit and adjust the plan until you submit it for approval. For details see, Create a resource plan
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ As a resource user, you can create a resource plan from the Resource Management 
 
 </td><td>
 
-As an IT project manager, create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects. For details see, [Create a cost plan](https://www.servicenow.com/docs/access?context=t_CreateAProjectCostPlan&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+As an IT project manager, create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects. For details see, Create a cost plan
 
 </td></tr><tr><td>
 

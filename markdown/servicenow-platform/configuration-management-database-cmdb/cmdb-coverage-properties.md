@@ -56,7 +56,7 @@ Records from the child tables \(table extensions\) of the parent tables that are
 </td></tr></tbody>
 </table>## Custom system property
 
-You can create the sn\_cmdb\_ip\_cov.log\_associated\_missing\_ip custom system property for the CMDB Coverage application. This property must be created in the CMDB Coverage application scope. The custom property that you create is listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+You can create the sn\_cmdb\_ip\_cov.log\_associated\_missing\_ip custom system property for the CMDB Coverage application. This property must be created in the CMDB Coverage application scope. The custom property that you create is listed in the System Properties \[sys\_properties\] table. For more information about creating custom system properties, see Add a system property.
 
 To populate data in the Discovery schedule gaps to allocated IP \[sn\_cmdb\_ip\_cov\_m2m\_discovery\_schedule\_gap\]​ table, create the sn\_cmdb\_ip\_cov.log\_associated\_missing\_ip custom system property, and set the value to `true`.
 

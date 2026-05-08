@@ -20,7 +20,7 @@ Registering a new consumer in Service Exchange establishes an instance-to-instan
 -   Role required: admin
 -   A provider record must have been created. See [Set up a Service Exchange provider record](service-bridge-v2-new-provider.md).
 -   A company or account must exist for the consumer in the provider’s instance, and a user or contact with the sn\_sb\_pro.consumer role must be associated with the company. If this is a production instance, the user must have a valid email address to receive the registration email.
--   Run the **Key Management** &gt; **Health \(Diagnostics\)** to ensure that the Key Management Framework health check has passed. Your administrator must have the sn\_kmf.admin and sn\_kmf.cryptographic\_manager roles to access the health diagnostics. If your administrator does not have access, follow the instructions in [Assign Key Management Framework roles](https://www.servicenow.com/docs/access?context=assign-kmf-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US) to grant the required roles.
+-   Run the **Key Management** &gt; **Health \(Diagnostics\)** to ensure that the Key Management Framework health check has passed. Your administrator must have the sn\_kmf.admin and sn\_kmf.cryptographic\_manager roles to access the health diagnostics. If your administrator does not have access, follow the instructions in Assign Key Management Framework roles to grant the required roles.
 
 ## About this task
 

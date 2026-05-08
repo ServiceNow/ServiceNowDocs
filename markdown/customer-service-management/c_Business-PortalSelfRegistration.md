@@ -26,5 +26,5 @@ The administrator creates a unique registration code for each account and stores
 **Related topics**  
 
 
-[Example: The default self-service Password Reset process](https://www.servicenow.com/docs/access?context=c_SelfServicePasswordReset&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_SelfServicePasswordReset]
 

@@ -24,7 +24,7 @@ Role required: admin
 The instance can track deletions on any table, and references on audited tables, with a few exceptions. Record deletions are not tracked in these circumstances:
 
 -   Record deletions are not tracked on tables with the `no_audit_delete=true` [dictionary attribute](../../reference-pages/concept/c_DictionaryAttributes.md).
--   Not all tables with a sys prefix track deletions by default. You can [Enable auditing for a system table](https://www.servicenow.com/docs/access?context=t_ConSysTablDelAud&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Not all tables with a sys prefix track deletions by default. You can Enable auditing for a system table.
 -   References are restored only if the reference field is on an audited table and the Restore Deleted Record plugin is activated.
 -   References that use an **Image** field type are not restored.
 
@@ -38,7 +38,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 3.  Do one of the following to restore the record.
 
-<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d248796e126">
+<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d248774e126">
 
 **Undelete With Related**
 
@@ -46,7 +46,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 Recovers the record and all cascaded deletes and other database actions that resulted from the delete.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d248796e138">
+</td></tr><tr><td id="d248774e138">
 
 **Recover entire operation**
 
@@ -54,7 +54,7 @@ Recovers the record and all cascaded deletes and other database actions that res
 
 If this record was deleted as part of another delete, all records from the parent delete are recovered including all cascaded deletes and other database actions that resulted from the parent delete. If this is the top level delete, then this is the same as **Undelete with Related**.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d248796e153">
+</td></tr><tr><td id="d248774e153">
 
 **Undelete Record**
 

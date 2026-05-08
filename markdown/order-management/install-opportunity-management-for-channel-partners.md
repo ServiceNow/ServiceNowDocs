@@ -31,7 +31,7 @@ The following items are installed with the Opportunity Management for Channel Pa
 -   Store applications
 -   Role like the sn\_prm\_opptym.oppty.parnter\_ui
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on viewing components that are installed with an application, see Find components installed with an application.
 
 ## Procedure
 

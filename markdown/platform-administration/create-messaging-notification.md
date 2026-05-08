@@ -96,7 +96,7 @@ Send when
 
 Select under what condition the notification is sent: -   When a record is inserted or updated
 -   When a particular event is fired
--   When [Notification step](https://www.servicenow.com/docs/access?context=trigger-notification-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) in Flow Designer
+-   When Notification step in Flow Designer
 
 
 </td></tr><tr><td>

@@ -35,7 +35,7 @@ If you are upgrading from a release earlier than the Australia release, you must
 
 4.  On the Knowledge Article View form, in the **Human readable url structure** field enter the `%short_descr` variable.
 
-    **Note:** You can also create a variable to add information from various data sources. For more information, see [Add human readable keywords to page URLs](https://www.servicenow.com/docs/access?context=add-human-readable-keywords-page-urls&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** You can also create a variable to add information from various data sources. For more information, see Add human readable keywords to page URLs.
 
 5.  Select **Update**.
 

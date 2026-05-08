@@ -18,7 +18,7 @@ The Service Catalog API defines catalog items \[sc\_cat\_item\], record producer
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about service catalogs, see [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For general information about service catalogs, see Service Catalog.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -260,7 +260,7 @@ variables: {
 }
 ```
 
-For general information about catalog variables, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For general information about catalog variables, see Service catalog variables.
 
 </td></tr><tr><td>
 
@@ -446,7 +446,7 @@ Array
 
 </td><td>
 
-A list of sys\_ids of existing taxonomy topics that control the visibility of the item in the Employee Center portal. For more information, see [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).**Note:** This property is available only when the Employee Experience Taxonomy plugin \(sn\_ect\) is active.
+A list of sys\_ids of existing taxonomy topics that control the visibility of the item in the Employee Center portal. For more information, see Associate a catalog item with a taxonomy topic in Employee Center.**Note:** This property is available only when the Employee Experience Taxonomy plugin \(sn\_ect\) is active.
 
 </td></tr><tr><td>
 
@@ -533,7 +533,7 @@ String
 The user access required to request the item.Valid values:
 
 -   restricted: Only users who have access to the item can request the item.
--   delegated: Users who don't have access to the item can request the item on behalf of someone else using the delegated request experience. For more information, see [Delegated request experience](https://www.servicenow.com/docs/access?context=delegated-request-exp&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   delegated: Users who don't have access to the item can request the item on behalf of someone else using the delegated request experience. For more information, see Delegated request experience.
 
 **Note:** This functionality is only applicable when the item has a Requested For variable.
 
@@ -698,7 +698,7 @@ Array
 
 </td><td>
 
-A list of sys\_ids of the categories \[sc\_category\] to which the item belongs. A catalog must be specified in the catalogs property before categories can be assigned.In the Service Portal, catalog searches find only items that are assigned to a category. In Employee Center, catalog searches find only items that are associated with a taxonomy topic. For more information, see [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+A list of sys\_ids of the categories \[sc\_category\] to which the item belongs. A catalog must be specified in the catalogs property before categories can be assigned.In the Service Portal, catalog searches find only items that are assigned to a category. In Employee Center, catalog searches find only items that are associated with a taxonomy topic. For more information, see Associate a catalog item with a taxonomy topic in Employee Center.
 
 </td></tr><tr><td>
 
@@ -1242,7 +1242,7 @@ variables: {
 }
 ```
 
-For general information about catalog variables, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For general information about catalog variables, see Service catalog variables.
 
 </td></tr><tr><td>
 
@@ -1336,7 +1336,7 @@ Array
 
 </td><td>
 
-A list of sys\_ids of existing taxonomy topics that control the visibility of the item in the Employee Center portal. For more information, see [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).**Note:** This property is available only when the Employee Experience Taxonomy plugin \(sn\_ect\) is active.
+A list of sys\_ids of existing taxonomy topics that control the visibility of the item in the Employee Center portal. For more information, see Associate a catalog item with a taxonomy topic in Employee Center.**Note:** This property is available only when the Employee Experience Taxonomy plugin \(sn\_ect\) is active.
 
 </td></tr><tr><td>
 
@@ -2717,7 +2717,7 @@ variables: {
 }
 ```
 
-For general information about catalog variables, see [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For general information about catalog variables, see Service catalog variables.
 
 </td></tr><tr><td>
 

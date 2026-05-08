@@ -23,7 +23,7 @@ Role required: admin
 
 2.  In the **Modules** related list, click the module you want to prevent users from canceling.
 
-3.  [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) layout and add the field **Uncancelable by Other Modules**.
+3.  Configuring the form layout layout and add the field **Uncancelable by Other Modules**.
 
 4.  Select the check box for **Uncancelable by Other Modules**.
 

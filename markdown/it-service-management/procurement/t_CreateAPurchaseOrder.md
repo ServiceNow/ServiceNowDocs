@@ -203,7 +203,7 @@ Expected delivery
 
 </td><td>
 
-The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, see[Purchase order expected delivery date](https://www.servicenow.com/docs/access?context=r_SetExpectDelDateOnPurchOrder&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).\)
+The date the items associated with the purchase order are expected to arrive in the stockroom identified in the **Ship to** field. This field can’t be edited when the purchase order has a **Status** of **Received** or **Canceled**. \(For more information about this field, seePurchase order expected delivery date.\)
 
 </td></tr><tr><td>
 
@@ -281,5 +281,5 @@ You can reorder a purchase order line item that was canceled.
 
 [Create an asset and reserve it for the requester](t_CreateAssetReserveForRequester.md)
 
-[Manage transfer orders](https://www.servicenow.com/docs/access?context=c_TransferOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[bundle-fsm.c_TransferOrders]
 

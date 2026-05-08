@@ -63,7 +63,7 @@ If only the Industrial Process Manager is installed, the following setup functio
 -   The Operational Technology Knowledge Management setup steps.
 -   The Operational Technology Request Management setup steps.
 
-To learn more about Guided Setups and their use, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To learn more about Guided Setups and their use, see Using guided setup.
 
 **Parent Topic:**[Configuring the Industrial Process Manager](../concept/configuring-manufacturing-process-mgr.md)
 

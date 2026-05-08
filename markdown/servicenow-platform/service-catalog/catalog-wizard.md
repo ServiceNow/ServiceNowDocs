@@ -141,7 +141,7 @@ Label of the Review and submit step.
 
 
 
-3.  Set up the Catalog Wizard component properties using the UI Builder \(UIB\) components, for more information see [Customize UI Builder pages using components](https://www.servicenow.com/docs/access?context=work-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+3.  Set up the Catalog Wizard component properties using the UI Builder \(UIB\) components, for more information see Customize UI Builder pages using components.
 
     ![Service Catalog Wizard component configuration in UI Builder](../image/uib-wizardconfig.png)
 

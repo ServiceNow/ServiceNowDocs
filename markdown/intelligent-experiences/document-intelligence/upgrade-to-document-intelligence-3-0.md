@@ -69,7 +69,7 @@ For any integrations with Document Intelligence, add cross-scope records for the
 
  See the Cross-scope records section for the list of records to be added.
 
- For more detail on cross-scope records, see [Cross-scope privilege record](https://www.servicenow.com/docs/access?context=c_CrossScopePrivilegeRecord&version=australia&pubname=australia-application-development&ft:locale=en-US).
+ For more detail on cross-scope records, see Cross-scope privilege record.
 
 </td></tr></tbody>
 </table>## During the upgrade

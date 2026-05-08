@@ -31,5 +31,5 @@ Approval summarizers are stored in the Macro \[sys\_ui\_macro\] table.
 **Related topics**  
 
 
-[Using formatters](https://www.servicenow.com/docs/access?context=c_Formatters&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_Formatters]
 

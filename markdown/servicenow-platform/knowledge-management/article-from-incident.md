@@ -15,7 +15,7 @@ breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content ca
 
 Enable users to quickly and easily reuse information from an incident in a knowledge article.
 
-Perform the following steps to enable creating a knowledge article from an incident. You can create a knowledge article from an incident using Incident KCS Article template. For more information, see [Create a knowledge article from an incident using an article template](https://www.servicenow.com/docs/access?context=create-a-knowledge-article&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+Perform the following steps to enable creating a knowledge article from an incident. You can create a knowledge article from an incident using Incident KCS Article template. For more information, see Create a knowledge article from an incident using an article template.
 
 -   **[Create field mapping from an incident to a knowledge article](../task/table-mapping-knowledge-incident.md)**  
 Copy information from an incident into a knowledge article by creating custom mapping between the Incident table and the KCS article table.

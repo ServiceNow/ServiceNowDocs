@@ -82,7 +82,7 @@ This application enables you to update the existing configurations and to modify
 
 </td></tr><tr><td>
 
-Create [Lead to Cash Core](https://www.servicenow.com/docs/access?context=lead-to-cash&version=australia&pubname=australia-order-management&ft:locale=en-US) for products and services
+Create Lead to Cash Core for products and services
 
 </td><td>
 

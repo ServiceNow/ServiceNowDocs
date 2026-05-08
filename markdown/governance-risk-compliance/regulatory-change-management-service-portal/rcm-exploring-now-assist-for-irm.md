@@ -26,7 +26,7 @@ The summarization skill enables you to generate summaries of a regulatory alert 
 
 The Get Regulatory Analysis agentic workflow analyzes and enriches regulatory alerts in any state except Closed or Cancelled by leveraging web search and organizational data. It provides additional context for each alert and recommends potential impacts on citations, control objectives, controls, and policies. The Generate Regulatory Action Plan agentic workflow generates regulatory action plans for regulatory alert in the In Progress state by analyzing impacted areas and referencing similar historical alerts. It creates change tasks and action items that help teams implement regulatory changes.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Now Assist in RCM benefits
 

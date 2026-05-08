@@ -65,5 +65,5 @@ Further configuration is required for CI creation, receipt of events, and alert 
 **Related topics**  
 
 
-[Domain separation setup and basic administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_DomainSeparationSetup]
 

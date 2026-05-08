@@ -19,7 +19,7 @@ Configure metric pull connectors that require a script, connector definition, an
 
 Role required: evt\_mgmt\_admin
 
-Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see [API key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure the Dynatrace API Key credential from **All** &gt; **Connections and Credentials** &gt; **Credentials**. For more information on how to configure Dynatrace API Key credential, see API key credentials.
 
 ## About this task
 

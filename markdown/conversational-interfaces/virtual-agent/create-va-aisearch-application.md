@@ -17,7 +17,7 @@ Define a custom AI Search experience in a conversation using the AI Search topic
 
 ## Before you begin
 
-[Create the search profile](https://www.servicenow.com/docs/access?context=create-search-profile-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) that defines the search experience to be used in the search application configuration. For details, see [Search profiles](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Create the search profile that defines the search experience to be used in the search application configuration. For details, see Search profiles and Search application configurations.
 
 Role required: virtual\_agent\_admin or admin with the search application administrator \[search\_application\_admin\] role
 
@@ -33,7 +33,7 @@ A search application configuration specifies the AI Search profile used by the R
 
 2.  On the form, fill in the fields.
 
-    For more information, see [Search Application Configuration form](https://www.servicenow.com/docs/access?context=search-app-config-form-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Search Application Configuration form.
 
 3.  Select **Submit**.
 

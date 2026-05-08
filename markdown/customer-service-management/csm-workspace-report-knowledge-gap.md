@@ -21,7 +21,7 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 You can search for and attach knowledge articles to a customer service case. If you cannot find any relevant articles, you can report a knowledge gap. If you have permission, you can also create a knowledge article.
 
-Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see [Demand Insights for Cases dashboard](https://www.servicenow.com/docs/access?context=demand-insights-cases-dashboard&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Customer service case managers can use the Demand Insights for Cases dashboard to identify which cases have no or insufficient knowledge coverage. For more information, see Demand Insights for Cases dashboard.
 
 ## Procedure
 

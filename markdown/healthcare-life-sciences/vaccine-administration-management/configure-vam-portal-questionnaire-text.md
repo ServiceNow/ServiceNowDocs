@@ -98,13 +98,13 @@ Your demographic info
 age\_group
 
 </td></tr></tbody>
-</table>    For details on how to configure a variable, see [Service Catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+</table>    For details on how to configure a variable, see Service Catalog variables.
 
     **Important:**
 
     -   Updating the questionnaire text updates that text in both the user and clinician portals.
     -   If you deactivate a variable, then the question will be hidden in both the user and clinician portals.
-    -   If you're creating a question, the new question isn’t displayed in the clinician portal by default. You must also update the pre-vaccine\_questionnaire widget by navigating to **All** &gt; **Service Portal** &gt; **Widgets**. For details on how to configure a widget, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    -   If you're creating a question, the new question isn’t displayed in the clinician portal by default. You must also update the pre-vaccine\_questionnaire widget by navigating to **All** &gt; **Service Portal** &gt; **Widgets**. For details on how to configure a widget, see Service Portal widgets.
 4.  Click **Update**.
 
 

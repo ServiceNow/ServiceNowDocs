@@ -25,7 +25,7 @@ In portal headers, the language selector displays the current language selection
 
 ![A list of languages grouped by regions in the language selector of a portal.](../../localization/image/lang-selector-regions.png "Languages grouped by region in a portal header")
 
-For more information about the language selector in portal headers, see [Enable a language selector in portal headers](https://www.servicenow.com/docs/access?context=configure-header-menu&version=australia&pubname=australia-platform-user-interface&section=enable-lang-selector-widget&ft:locale=en-US).
+For more information about the language selector in portal headers, see Enable a language selector in portal headers.
 
 ## Procedure
 

@@ -17,7 +17,7 @@ Configure a MID Server to use source control with the ServiceNow IDE if your Git
 
 ## Before you begin
 
-Install a MID Server with a REST capability. For more information, see [Installing the MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Configure MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Install a MID Server with a REST capability. For more information, see Installing the MID Server and Configure MID Server capabilities.
 
 Role required: admin
 
@@ -51,7 +51,7 @@ Role required: admin
 
 If you haven't already, configure basic or OAuth 2.0 authentication to connect to a Git domain or repository. For more information, see [Connect to a Git provider using basic authentication with the ServiceNow IDE](connect-git-provider-basic-auth.md) or [Connect to a Git provider using OAuth 2.0 with the ServiceNow IDE](../concept/connect-git-provider-oauth-2.md#).
 
-**Note:** The MID Server user must have the sn\_glider.ide\_git\_user role or admin role to perform Git operations in the ServiceNow IDE. For more information, see [Create the MID Server user and grant the role](https://www.servicenow.com/docs/access?context=t_SetupMIDServerRole&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](../reference/servicenow-ide-roles.md#).
+**Note:** The MID Server user must have the sn\_glider.ide\_git\_user role or admin role to perform Git operations in the ServiceNow IDE. For more information, see Create the MID Server user and grant the role and [ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]](../reference/servicenow-ide-roles.md#).
 
 **Parent Topic:**[Integrating source control with the ServiceNow IDE](../concept/integrating-source-control-servicenow-ide.md)
 

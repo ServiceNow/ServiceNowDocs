@@ -18,12 +18,12 @@ By default, records in the complete state are deleted from the Sales Cart \[sn\_
 -   Records older than six months
 -   Records that haven't been updated for more than six months
 
-Modify the data retention and table cleanup frequency depending on your expected load and volume. For more information, see [Modify data retention policy for ATF test results](https://www.servicenow.com/docs/access?context=atf-edit-table-cleanup&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Modify the data retention and table cleanup frequency depending on your expected load and volume. For more information, see Modify data retention policy for ATF test results.
 
 **Related topics**  
 
 
-[Table cleanup](https://www.servicenow.com/docs/access?context=table-cleanup&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.table-cleanup]
 
-[Autoflush form](https://www.servicenow.com/docs/access?context=atf-auto-flush&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.atf-auto-flush]
 

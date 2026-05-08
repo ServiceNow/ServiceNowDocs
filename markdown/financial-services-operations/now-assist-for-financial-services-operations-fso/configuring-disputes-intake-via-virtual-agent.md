@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
 
 **Note:**
 
@@ -34,7 +34,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 1.  Install the Now Assist for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](../../fso-common/concept/supporting-information-for-now-assist-for-financial-services-operations-fso.md#section_ng1_bdj_mbc).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   For information about the installation process, see Install Now Assist plugins.
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
 3.  Select the **Customer** &gt; **FSO** workflow group.
@@ -43,7 +43,7 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
 5.  In the Turn on skill window, define the roles permitted to use this skill.
 
-    ACLs are implemented to identify the users permitted to access the skill. See [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+    ACLs are implemented to identify the users permitted to access the skill. See Implement access control in Now Assist AI agents for more information.
 
 6.  Select **Turn on**.
 
@@ -54,5 +54,5 @@ A window displays confirming that the Disputes intake via Virtual Agent skill is
 
 ## What to do next
 
-You can choose which service provider to use for this skill [in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can choose which service provider to use for this skill in the Now Assist Admin console.
 

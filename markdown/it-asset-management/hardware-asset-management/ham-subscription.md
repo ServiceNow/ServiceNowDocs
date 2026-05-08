@@ -75,7 +75,7 @@ The following base system features of Core Asset Management are provided with Se
 -   Mobile asset receiving
 -   Mobile - My Assets
 
-For more information, see [Asset Management](https://www.servicenow.com/docs/access?context=c_AssetManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) and [Manage Hardware Asset Management subscriptions](managing-ham-subscriptions.md).
+For more information, see Asset Management and [Manage Hardware Asset Management subscriptions](managing-ham-subscriptions.md).
 
 -   **[Hardware Asset Management licensing](ham-licensing.md)**  
 Hardware Asset Management \(HAM\) licensing enables you to choose the Hardware Asset Management resource categories that you want to use. You can save money by paying only for those categories that you use, and not for categories that you don't use.

@@ -54,5 +54,5 @@ Virtual Agent can be used to quickly obtain information, decide, and perform com
 
 To interact with Virtual Agent, simply select the chat window icon on the bottom right-hand corner of the screen.
 
-For more information on Virtual Agent, see [Virtual Agent as an application design element](https://www.servicenow.com/docs/access?context=virtual-agent&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on Virtual Agent, see Virtual Agent as an application design element.
 

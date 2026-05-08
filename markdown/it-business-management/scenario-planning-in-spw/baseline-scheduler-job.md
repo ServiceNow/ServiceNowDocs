@@ -29,7 +29,7 @@ Role required: admin
 
 4.  Edit the fields on the Scheduled Script Execution form to customize the job and meet your requirements.
 
-    For more information about the field description and scripts, see [Automatically run a script of your choosing](https://www.servicenow.com/docs/access?context=t_ScheduleAScriptExecution&version=australia&pubname=australia-platform-administration&ft:locale=en-US#t_ScheduleScriptExecution).
+    For more information about the field description and scripts, see Automatically run a script of your choosing.
 
 5.  Select **Execute Now** to execute the scheduled job or select **Update** to save your changes.
 

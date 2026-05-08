@@ -19,7 +19,7 @@ When a user requests a password reset for a credential store for which the REST 
 
 In the asynchronous process, when a user requests a password reset for credential stores that don't provide REST APIs, you can configure such credential stores to reset passwords using an external system, such as Robotic Process Automation.
 
-For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-explore&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information about Robotic Process Automation, see Robotic Process Automation \(RPA\) Hub.
 
 When a user requests a password reset, the password doesn't get reset immediately. The user receives a message that shows the request has been submitted, and the request status is displayed as **Pending With External System** on the Password Reset Requests page for that request.
 

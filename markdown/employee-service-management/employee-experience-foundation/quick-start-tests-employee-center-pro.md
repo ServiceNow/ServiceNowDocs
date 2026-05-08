@@ -21,7 +21,7 @@ Quick start tests are disabled and read-only test templates. By default, they on
 
 To make quick start tests produce a pass result when you run them with your instance-specific data, copy and configure them to use your instance data.
 
-Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See [Performance profiling](https://www.servicenow.com/docs/access?context=atf-perf-prof&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Use Performance Profiling to compare tests to detect performance degradation when you upgrade your instance, so you can investigate and fix the issues. See Performance profiling.
 
 The Agile Development 2.0 \(com.snc.sdlc.agile.2.0\) and the Agile Development 2.0 - ATF Tests \(com.snc.sdlc.agile.2.0.atf\) plugins must be enabled.
 

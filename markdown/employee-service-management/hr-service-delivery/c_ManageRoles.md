@@ -27,7 +27,7 @@ After system configuration, ensure that only the HR Administrator \[sn\_hr\_core
 
 After granting access to a role, all the groups or users assigned to the role also have access. Roles can contain other roles, and grants access to any role that contains it.
 
-**Note:** IT System Administrators \(admin\) can still impersonate ServiceNow users. When impersonating a user with an HR scope-protected role, an admin cannot access features granted by that role unless the admin already possesses those HR scope-protected roles. For more information on impersonating a user, see [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** IT System Administrators \(admin\) can still impersonate ServiceNow users. When impersonating a user with an HR scope-protected role, an admin cannot access features granted by that role unless the admin already possesses those HR scope-protected roles. For more information on impersonating a user, see Impersonate a user.
 
 ## HR Performance Analytics
 
@@ -109,8 +109,8 @@ There are specific HR roles that allow users access to specific areas of the sys
 
         **Note:** Changing the user allows the scheduled jobs to run, but only a user with the System Admin role can view and run a scheduled job on demand.
 
-    -   Change the scope of the application to Human Resources: Core application. For information on changing the scope, see [Contextual development edit messages](https://www.servicenow.com/docs/access?context=c_WarningMessages&version=australia&pubname=australia-application-development&ft:locale=en-US).
-    -   Reveal the **Run as** field. For information on revealing hidden fields on a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   Change the scope of the application to Human Resources: Core application. For information on changing the scope, see Contextual development edit messages.
+    -   Reveal the **Run as** field. For information on revealing hidden fields on a form, see Configuring the form layout.
 -   Log out and log back in to ensure that the changes take effect.
 
     **Note:** Ensure that you have completed setup before removing the HR Administrator role.

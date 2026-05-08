@@ -69,7 +69,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see Configure a MID Server cluster.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Capabilities
 
 </td><td>
 
-The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected. Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The capabilities the MID Server must support to be eligible for selection. The system runs the action or activity from a MID Server that supports the selected capabilities. Only displays if **Use MID server** is selected. Required capabilities determine which MID Server is selected at runtime. To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 
@@ -87,7 +87,7 @@ MID Application
 
 </td><td>
 
-The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see MID Server selection.
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 

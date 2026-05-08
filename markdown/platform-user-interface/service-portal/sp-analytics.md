@@ -17,7 +17,7 @@ The Usage Insights application provides views for monitoring usage analytics of 
 
 Video showing how to navigate and use Usage Insights 
 
-You can view user analytics tracking for the portal in the Usage Insights application. For more information, see [Overview of the Usage Insights application](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can view user analytics tracking for the portal in the Usage Insights application. For more information, see Overview of the Usage Insights application.
 
 ![Usage Insights interface for Service Portal](../image/sp-analytics-dashboard.png)
 
@@ -32,11 +32,11 @@ For example, Usage Insights tracks when a user orders a catalog item or views a 
 
 ## Roles
 
-The portal\_analytics\_admin and portal\_analytics\_viewer roles are installed with the Service Portal Analytics plugin \(com.glide.service-portal.analytics\). For information on other roles associated with Usage Insights, see [Roles installed with Usage Insights](https://www.servicenow.com/docs/access?context=components-installed-user-exp-analytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The portal\_analytics\_admin and portal\_analytics\_viewer roles are installed with the Service Portal Analytics plugin \(com.glide.service-portal.analytics\). For information on other roles associated with Usage Insights, see Roles installed with Usage Insights.
 
 ## User consent notices
 
-User consent notices must conform to the ServiceNow Data Processing Addendum. Review your ServiceNow template user consent notices before they are presented to users. You can tailor the options for how these notices are presented to users, including the wording. For more information, see [Define texts for Notice and Explicit Opt-in messages](https://www.servicenow.com/docs/access?context=uxa-define-text-policies&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+User consent notices must conform to the ServiceNow Data Processing Addendum. Review your ServiceNow template user consent notices before they are presented to users. You can tailor the options for how these notices are presented to users, including the wording. For more information, see Define texts for Notice and Explicit Opt-in messages.
 
 -   **[Track Usage Insights in Service Portal](../task/create-sp-analytics-settings.md)**  
 Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
@@ -52,5 +52,5 @@ Use system properties to configure Usage Insights for Service Portal.
 **Related topics**  
 
 
-[Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.user-exp-analytics-landing]
 

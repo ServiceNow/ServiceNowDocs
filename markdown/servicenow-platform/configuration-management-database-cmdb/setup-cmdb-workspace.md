@@ -54,7 +54,7 @@ To populate CMDB Workspace dashboards with demo data:
     -   Required \(activated by default\):CMDB CSDM Support \(com.snc.cmdb.csdm\)
     -   Required \(activated by default\): CMDB Page Templates \(sn\_cmdb\_pg\_templts\)
     -   Required \(activated by default\): CMDB NLQ Search Connected \(sn-cmdb-nlq-search\)
-    For details about activating a plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For details about activating a plugin, see Activate a plugin.
 
 -   Roles: To access the CMDB Workspace, you must, at a minimum, have one of the following roles, which are essential for interacting with the CMDB Workspace. Depending on which of these roles is assigned to you, you might only have access to some of the features available in the CMDB Workspace:
 

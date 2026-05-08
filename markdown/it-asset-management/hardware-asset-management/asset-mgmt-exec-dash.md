@@ -343,7 +343,7 @@ Not applicable
 
 The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 
-You must install the Sustainable IT plugin \(sn\_esg\_sustain\) to view the Sustainable IT dashboard. For more information about the activating the Sustainable IT plugin, see [Activate the Sustainable IT plugin](https://www.servicenow.com/docs/access?context=activate-the-sustainable-it-plugin&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
+You must install the Sustainable IT plugin \(sn\_esg\_sustain\) to view the Sustainable IT dashboard. For more information about the activating the Sustainable IT plugin, see Activate the Sustainable IT plugin.
 
-To know more about the Sustainable IT dashboard data for your hardware assets, see [Sustainable IT dashboard](https://www.servicenow.com/docs/access?context=sustainable-it-dashboard&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
+To know more about the Sustainable IT dashboard data for your hardware assets, see Sustainable IT dashboard.
 

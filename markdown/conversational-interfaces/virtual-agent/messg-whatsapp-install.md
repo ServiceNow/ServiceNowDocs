@@ -29,7 +29,7 @@ The following applications or plugins are installed with Conversational Integrat
 
     Provides Integration Hub actions that may be used to create, update, delete, and look up records on the Twilio app.
 
-    For more information on activating this application, see [Twilio spoke](https://www.servicenow.com/docs/access?context=twilio-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on activating this application, see Twilio spoke.
 
 -   **Conversational Custom Chat Integration \(com.glide.cs.custom.adapter\)**
 

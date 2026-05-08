@@ -27,7 +27,7 @@ Add the [Channel Management reports](../reference/configurable-wfo-itsm-channel-
 -   Track progress against KPIs and drill down into agents, team, and individual performance.​
 -   Drill down into all queues and monitor ongoing incidents, interactions, and tasks.
 -   Jump in and support agents for help-requested work items using chat whisper or add work notes to a task.​
--   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see [Interactive Filters](https://www.servicenow.com/docs/access?context=c_HomepagePublishers&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see Interactive Filters.
 
 **Enable or disable KPI score auto-refresh**
 
@@ -51,7 +51,7 @@ For more information on the properties, see [Channel Management components in Wo
 
 3.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) if you do not see the **Reports** tab.
+    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
 
 4.  Add reports that are configured by default in Workforce Optimization for ITSM.
 
@@ -66,7 +66,7 @@ For more information on the properties, see [Channel Management components in Wo
 7.  To create a KPI report that explicitly apply to your teams, do the following:
 
     1.  Navigate to **Reports** &gt; **Create New** &gt; **.**
-    2.  Fill in the details on the form. For more information, see [Single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    2.  Fill in the details on the form. For more information, see Single score report.
     3.  Select **Save**.
 
         The KPI report is created.
@@ -77,7 +77,7 @@ For more information on the properties, see [Channel Management components in Wo
 
         The Interactive Filter Reference - Channel Management Groups Filter page appears.
 
-    7.  Select the KPI report's table name and field name. For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    7.  Select the KPI report's table name and field name. For more information, see Create a reference field interactive filter.
     8.  Select **Submit**.
 
         Repeat the steps above to add more reports.

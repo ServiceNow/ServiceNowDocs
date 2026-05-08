@@ -19,5 +19,5 @@ The Location table supports a hierarchical parent-child structure, so child loca
 
 When a critical event is assigned to a parent location, the system automatically includes all individuals associated with that location and any child locations. For example, selecting USA as the parent location \(Location1\) would include child locations such as California \(Location2\).
 
-To configure, see [Define a location hierarchy](https://www.servicenow.com/docs/access?context=define-tni-locations&version=australia&pubname=australia-telecom-network-inventory&ft:locale=en-US)
+To configure, see Define a location hierarchy
 

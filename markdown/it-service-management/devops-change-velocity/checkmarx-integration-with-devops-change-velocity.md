@@ -35,7 +35,7 @@ You can view the security scan results either in the related list of a Change Re
 
 ## Get started
 
-You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Checkmarx One Vulnerability Integration \(x\_chec3\_chexone\) or Checkmarx CxSAST Vulnerability Integration \(x\_chec3\_cxsast\) plugins before connecting your Checkmarx instance to ServiceNow. For more information on activating a plugin, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallApplications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Checkmarx One Vulnerability Integration \(x\_chec3\_chexone\) or Checkmarx CxSAST Vulnerability Integration \(x\_chec3\_cxsast\) plugins before connecting your Checkmarx instance to ServiceNow. For more information on activating a plugin, see Install a ServiceNow Store application.
 
 **Note:** The sn\_vul.app\_sec\_manager role is added to the DevOps Tool Owner \[sn\_devops.tool\_owner\] role when the DevOps Vulnerability Integrations plugin \(sn\_devops\_vul\_ints\) is installed.
 

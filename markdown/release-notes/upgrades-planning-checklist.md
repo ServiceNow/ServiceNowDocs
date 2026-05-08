@@ -622,7 +622,7 @@ Using the Upgrade Monitor, monitor the upgrade to your instance and validate tha
 
 </td><td>
 
-After the upgrade for your development instance is complete, [process the skipped records list](https://www.servicenow.com/docs/access?context=uc-process-skipped-records&version=australia&pubname=australia-platform-administration&ft:locale=en-US) in the Upgrade Monitor.
+After the upgrade for your development instance is complete, process the skipped records list in the Upgrade Monitor.
 
 </td><td>
 

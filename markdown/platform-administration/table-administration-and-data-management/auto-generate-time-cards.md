@@ -39,7 +39,7 @@ In addition to the manual option **Generate Time Cards**, a scheduled job can be
 
     -   If a time card exists for a project task for the time card week, a duplicate time card is not created.
     -   Time cards are generated only for those project tasks that are in progress or planned in that week.
-    -   The **Allow time card reporting on** field on the [project form](https://www.servicenow.com/docs/access?context=t_CreateAProject&version=australia&pubname=australia-it-business-management&ft:locale=en-US) determines the level that the time cards for the project tasks are created at.
+    -   The **Allow time card reporting on** field on the project form determines the level that the time cards for the project tasks are created at.
 
 ## Example
 

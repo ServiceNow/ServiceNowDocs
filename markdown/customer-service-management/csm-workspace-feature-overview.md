@@ -55,7 +55,7 @@ A landing page is an initial view of a user's workspace. For customer service ag
 
 </td></tr><tr><td>
 
-[List views](https://www.servicenow.com/docs/access?context=lists-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+List views
 
 </td><td>
 
@@ -87,7 +87,7 @@ The activity stream helps agents stay informed by displaying a chronological lis
 
 </td></tr><tr><td>
 
-[Compose](https://www.servicenow.com/docs/access?context=activity-stream-compose-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Compose
 
 </td><td>
 
@@ -115,7 +115,7 @@ Use form templates to populate fields on new records with selected values. Creat
 
 </td><td>
 
-Global search enables you to search multiple record types at once from the Next Experience Unified Navigation [search field](https://www.servicenow.com/docs/access?context=using-ais-next-experience-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Global search enables you to search multiple record types at once from the Next Experience Unified Navigation search field.
 
  The Recommended Actions tab in the contextual side panel includes [AI search](https://www.servicenow.com/docs/bundle/yokohama-customer-service-management/page/product/customer-service-management/concept/ra-csm-ai-search.html) functionality. This search feature displays an initial set of search results based on the text in the case short description, including knowledge articles. Agents can also enter different search keywords and repeat the search.
 

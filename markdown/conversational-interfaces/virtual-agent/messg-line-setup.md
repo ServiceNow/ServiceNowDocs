@@ -28,7 +28,7 @@ Before you begin, do the following:
 -   Install the following applications on your ServiceNow instance:
     -   Integration Hub
     -   Conversational Integration with LINE
--   Activate the IHUB Spoke Util Pack plugin \(com.snc.ihub\_spoke\_util\_pack\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Activate the IHUB Spoke Util Pack plugin \(com.snc.ihub\_spoke\_util\_pack\). For more information, see Activate a plugin.
 -   Get a developer account in the [LINE Developers console](https://developers.line.biz/console/).
 
 Role required: external\_app\_install\_admin or va\_admin

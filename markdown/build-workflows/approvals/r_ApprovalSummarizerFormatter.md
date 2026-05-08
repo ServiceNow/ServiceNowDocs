@@ -26,5 +26,5 @@ The **Reject** button allows the approver to deny one or more requested items in
 **Related topics**  
 
 
-[Using formatters](https://www.servicenow.com/docs/access?context=c_Formatters&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_Formatters]
 

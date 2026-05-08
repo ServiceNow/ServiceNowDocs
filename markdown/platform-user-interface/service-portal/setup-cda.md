@@ -18,7 +18,7 @@ Set up the Cloud Deployment Automation application by configuring the Service Po
 ## Before you begin
 
 -   Request Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
--   Activate and configure the [AWS CloudFormation spoke](https://www.servicenow.com/docs/access?context=aws-cloudformation&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Activate and configure the AWS CloudFormation spoke.
 -   Activate the Cloud Deployment Automation app
 -   Role required: admin
 

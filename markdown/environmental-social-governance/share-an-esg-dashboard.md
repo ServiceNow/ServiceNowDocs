@@ -4,7 +4,7 @@ description: Share a dashboard with other users, groups, or roles to create a sh
 locale: en-US
 release: australia
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

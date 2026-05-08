@@ -59,5 +59,5 @@ Starting with version 4.0 of SBOM Response, you can view components that are ide
 -   Determine if components are stale or abandoned with the **Run PaCE policies for SBOM Response** scheduled job. This scheduled job is deactivated by default.
 -   View components that are identified as stale or abandoned as Non-compliant in the PaCE interface that is available and viewed in the SBOM Workspace.
 
-See [Integrating PaCE with other applications](https://www.servicenow.com/docs/access?context=pace-integrate-other-apps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information about PaCE and PaCE policies.
+See Integrating PaCE with other applications for more information about PaCE and PaCE policies.
 

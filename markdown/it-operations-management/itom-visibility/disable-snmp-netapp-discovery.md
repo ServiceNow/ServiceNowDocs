@@ -34,7 +34,7 @@ Role required: discovery\_admin
 
 ## What to do next
 
-Configure basic authentication credentials for a user with a read-only role. For more information, see [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure basic authentication credentials for a user with a read-only role. For more information, see Basic authentication credentials.
 
 **Related topics**  
 

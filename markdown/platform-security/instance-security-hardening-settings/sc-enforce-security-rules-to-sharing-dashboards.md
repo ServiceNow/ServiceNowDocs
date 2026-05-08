@@ -109,7 +109,7 @@ References
 
 </td><td>
 
-[Access control](https://www.servicenow.com/docs/access?context=access-control&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+Access control
 
 </td></tr><tr><td>
 

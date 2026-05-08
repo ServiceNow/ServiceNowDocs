@@ -41,13 +41,13 @@ An admin or a user with the sn\_erp\_integration.erp\_admin role must enable the
 
     For more information, see:
 
-    -   [Basic authentication credentials](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
-    -   [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US)
-    -   [API key credentials](https://www.servicenow.com/docs/access?context=API-key-credential-form&version=australia&pubname=australia-platform-security&ft:locale=en-US)
-    -   [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+    -   Basic authentication credentials
+    -   OAuth 2.0 credentials
+    -   API key credentials
+    -   Create a Connection &amp; Credential alias
 3.  Create an HTTP connection and associate it with the new alias.
 
-    **Note:** For more information, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US). If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
+    **Note:** For more information, see Create an HTTP\(s\) connection. If you choose to use a MID Server, users with access to the services can use the same credential for RFC and HTTP.
 
 4.  Create a system with the HTTP connection.
 

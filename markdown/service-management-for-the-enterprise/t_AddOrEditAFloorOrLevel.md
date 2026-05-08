@@ -23,15 +23,15 @@ Role required: admin
 
 2.  Continue with one of the following options.
 
-<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d41270e124">
+<table id="choicetable_b35_kc4_ht"><thead><tr><th align="left" id="d41263e124">
 
 Option
 
-</th><th align="left" id="d41270e127">
+</th><th align="left" id="d41263e127">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41270e133">
+</th></tr></thead><tbody><tr><td id="d41263e133">
 
 **To add a floor or level**
 
@@ -40,7 +40,7 @@ Action
 -   Click **New**.
 
 
-</td></tr><tr><td id="d41270e151">
+</td></tr><tr><td id="d41263e151">
 
 **To edit the details of a floor or level**
 
@@ -181,15 +181,15 @@ Enter a number to define the maximum level of utilization for the floor or level
 
 6.  Continue with one of the following options.
 
-<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d41270e410">
+<table id="choicetable_pbs_zp4_ht"><thead><tr><th align="left" id="d41263e410">
 
 Option
 
-</th><th align="left" id="d41270e413">
+</th><th align="left" id="d41263e413">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d41270e419">
+</th></tr></thead><tbody><tr><td id="d41263e419">
 
 **To add the floor**
 
@@ -198,7 +198,7 @@ Action
 -   Click **Submit**.
 
 
-</td></tr><tr><td id="d41270e437">
+</td></tr><tr><td id="d41263e437">
 
 **To update the floor details**
 

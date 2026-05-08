@@ -63,15 +63,15 @@ Assign a task from the list of records. Alternatively, view the details of the r
 
 9.  With the fields on the record displayed, choose one in the following table to continue.
 
-<table id="choicetable_qsy_bdy_xhb"><thead><tr><th align="left" id="d182975e236">
+<table id="choicetable_qsy_bdy_xhb"><thead><tr><th align="left" id="d182971e236">
 
 Option
 
-</th><th align="left" id="d182975e239">
+</th><th align="left" id="d182971e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d182975e245">
+</th></tr></thead><tbody><tr><td id="d182971e245">
 
 **Details tab**
 
@@ -79,7 +79,7 @@ Description
 
 With the Details tab selected, view the details of the task. At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign the task. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d182975e269">
+</td></tr><tr><td id="d182971e269">
 
 **Activity Stream tab**
 
@@ -89,7 +89,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \(![Top menu icon.](../../grc-common/image/mobile-top-menu.png)\) to assign the task. On the screen that is displayed, tap a user. Alternatively, enter text in the Search field. Tap the send icon \(![Send icon.](../../grc-common/image/mobile_instances_send_droid.png)\) or **Submit** to save and submit your changes.
 
 
-</td></tr><tr><td id="d182975e308">
+</td></tr><tr><td id="d182971e308">
 
 **Screen icons at the bottom of the screen.**
 

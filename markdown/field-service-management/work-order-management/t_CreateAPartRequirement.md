@@ -60,7 +60,7 @@ This method is useful if you are sourcing a single part for a work order task.
     |-----|-----------|
     |Number|Auto-generated number for the part requirement.|
     |Work order task|Number assigned to the work order task.|
-    |Model|Description of the part [model](https://www.servicenow.com/docs/access?context=c_Models&version=australia&pubname=australia-it-service-management&ft:locale=en-US) needed to complete the work order task.|
+    |Model|Description of the part model needed to complete the work order task.|
     |Required by date|Date by which all parts should be delivered. The date is filled in automatically based on the task's expected travel start time. If necessary, change the date manually.|
     |Required quantity|Total quantity necessary to complete the part requirement. This field becomes read-only when the full number of required parts has been sourced.|
     |Reserved quantity|Total quantity that has been [sourced](t_SourceAPartAndAssignAnAgent.md) already.|

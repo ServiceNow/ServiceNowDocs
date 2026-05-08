@@ -30,7 +30,7 @@ Role required: sn\_change\_write
 
 Required role:
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## About this task
 
@@ -40,15 +40,15 @@ The agent verifies the prerequisites at the beginning of the agentic workflow. I
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d285365e154">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d285358e154">
 
 Situation
 
-</th><th align="left" id="d285365e157">
+</th><th align="left" id="d285358e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d285365e163">
+</th></tr></thead><tbody><tr><td id="d285358e163">
 
 **Change request number is known**
 
@@ -59,7 +59,7 @@ Steps
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d285365e195">
+</td></tr><tr><td id="d285358e195">
 
 **Open change request**
 

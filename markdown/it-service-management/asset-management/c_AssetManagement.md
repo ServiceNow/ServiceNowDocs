@@ -15,7 +15,7 @@ breadcrumb: [IT Service Management]
 
 The ServiceNow® Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
 
-**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), [Exploring Asset Management Workspace](https://www.servicenow.com/docs/access?context=exploring-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) and [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** Beginning with the ServiceNow AI Platform® Washington DC release, we will provide limited support for the Asset Management Core UI interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, we encourage you to move to the new workspace experience. For more information, see [KB1584548](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584548), Exploring Asset Management Workspace and Next Experience UI.
 
 Asset management business practices have a common set of goals.
 
@@ -45,5 +45,5 @@ The product catalog is a set of information about individual models. Models are 
 **Related topics**  
 
 
-[Domain separation and Asset Management](https://www.servicenow.com/docs/access?context=domain-separation-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+[bundle-itam.domain-separation-asset-management]
 

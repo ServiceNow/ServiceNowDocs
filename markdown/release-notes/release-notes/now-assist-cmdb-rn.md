@@ -23,17 +23,17 @@ The ServiceNow® Now Assist for Configuration Management Database \(CMDB\) appli
 -   Dive deeply into CI and class information while working in CI forms, dashboards, home pages, and other views on the workspace.
 -   Search the Service Graph database using natural language
 
-See [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+See Now Assist for Configuration Management Database \(CMDB\) for more information.
 
 **Important:** Now Assist for CMDB is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Important information for upgrading Now Assist for CMDB to Australia
 
-To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see [Configure the CI form contextual help skill](https://www.servicenow.com/docs/access?context=na-cmdb-skill-form-sense-config&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see Configure the CI form contextual help skill.
 
 ## New in the Australia release
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -43,22 +43,22 @@ To enable Now Assist to provide detailed descriptions of CIs and classes, you mu
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[View CI attribute descriptions on CI forms](https://www.servicenow.com/docs/access?context=na-cmdb-skill-ci-form-help&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **View CI attribute descriptions on CI forms**
 
     The skill answers your questions on CI classes and attributes to help you work in CI forms, dashboards, home pages, and other views on the workspace. You can submit similar queries on the Explore CI view.
 
--   **[CMDB searches can include relationships](https://www.servicenow.com/docs/access?context=na-cmdb-awf-search&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **CMDB searches can include relationships**
 
     Search queries can depend on relationships between CIs and can span multiple tables. For example, you might ask: "Search for servers that depend on databases - only Linux servers running Redhat".
 
--   **[Search the Service Graph database using natural language](https://www.servicenow.com/docs/access?context=na-cmdb-skill-search-result-classfy&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Search the Service Graph database using natural language**
 
     Now Assist for CMDB analyzes your search criteria, identifies implicit filters, determines the optimum search method \(keyword search or query generation\), queries Service Graph data, and then displays the results. You then have the option to refine the search using natural language in the Now Assist panel.
 
 
 ## Changed in this release
 
--   **[New role required for the Create configuration item agentic workflow](https://www.servicenow.com/docs/access?context=na-cmdb-awf-ci-creator&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **New role required for the Create configuration item agentic workflow**
 
     The sn\_cmdb\_admin role is now required to use the 'Create configuration item' agentic workflow \(was sn\_cmdb\_editor\).
 

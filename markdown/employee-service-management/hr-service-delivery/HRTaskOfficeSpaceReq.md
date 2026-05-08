@@ -31,15 +31,15 @@ Role required: sn\_hr\_core.basic or sn\_hr\_core.case\_writer
 
     These instructions describe the required fields for requesting an office space. For a complete listing of all HR task fields, refer to [Adding an HR task to an HR case](t_ViewAnHRTask.md).
 
-<table id="choicetable_x1q_p25_gz"><thead><tr><th align="left" id="d607977e89">
+<table id="choicetable_x1q_p25_gz"><thead><tr><th align="left" id="d607987e89">
 
 Location
 
-</th><th align="left" id="d607977e92">
+</th><th align="left" id="d607987e92">
 
 Select the building location the new hire is assigned to.
 
-</th></tr></thead><tbody><tr><td id="d607977e98">
+</th></tr></thead><tbody><tr><td id="d607987e98">
 
 **Template**
 
@@ -47,7 +47,7 @@ Select the building location the new hire is assigned to.
 
 Select the HR task template that corresponds to this type of task. The **Select Office/Desk Space** template is provided as a model.
 
-</td></tr><tr><td id="d607977e113">
+</td></tr><tr><td id="d607987e113">
 
 **Due date**
 
@@ -55,7 +55,7 @@ Select the HR task template that corresponds to this type of task. The **Select 
 
 Select a date the HR task is to be completed.
 
-</td></tr><tr><td id="d607977e122">
+</td></tr><tr><td id="d607987e122">
 
 **HR Task Type**
 
@@ -63,7 +63,7 @@ Select a date the HR task is to be completed.
 
 **Submit Catalog Item** appears from the HR task template.
 
-</td></tr><tr><td id="d607977e134">
+</td></tr><tr><td id="d607987e134">
 
 **Catalog Item**
 
@@ -71,7 +71,7 @@ Select a date the HR task is to be completed.
 
 **Select Office Space** appears from the HR task template.
 
-</td></tr><tr><td id="d607977e147">
+</td></tr><tr><td id="d607987e147">
 
 **Short Description**
 
@@ -79,7 +79,7 @@ Select a date the HR task is to be completed.
 
 Appears from the HR task template, but you can overwrite this entry.
 
-</td></tr><tr><td id="d607977e156">
+</td></tr><tr><td id="d607987e156">
 
 **Assignment group**
 
@@ -87,7 +87,7 @@ Appears from the HR task template, but you can overwrite this entry.
 
 Appears from the HR task template, but you can override it. If blank, select a group to be assigned to this task.
 
-</td></tr><tr><td id="d607977e165">
+</td></tr><tr><td id="d607987e165">
 
 **Assigned to**
 

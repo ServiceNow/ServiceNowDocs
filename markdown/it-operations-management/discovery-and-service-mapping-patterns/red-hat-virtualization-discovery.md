@@ -66,7 +66,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   /ovirt-engine/api/networks
 -   **Add CMDB CI Class Models**
 
-    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see [Red Hat Virtualization \(RHV\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-redhat-rhv&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    Add class models that extend the CMDB class hierarchy, using the CMDB CI Class Models application. The app is available from the ServiceNow Store. Discovery patterns use these class extensions to populate CIs. For more information, see Red Hat Virtualization \(RHV\) extension classes.
 
 -   **Create a cloud service account**
 

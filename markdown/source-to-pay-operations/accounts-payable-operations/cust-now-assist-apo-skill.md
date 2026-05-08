@@ -193,7 +193,7 @@ Closed
 
         A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill. If you complete the entire walk-through, the skill is activated.
 
-12. To create and configure the use case for invoice extraction, follow the steps of [Configuring Now Assist in Document Intelligence](https://www.servicenow.com/docs/access?context=docintel-configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+12. To create and configure the use case for invoice extraction, follow the steps of Configuring Now Assist in Document Intelligence.
 
 13. Review and activate the skill.
 

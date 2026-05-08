@@ -13,7 +13,7 @@ breadcrumb: [Create a success play, Basic setup, Customer success, Customer Succ
 
 Before you create a success play, you must define a subflow and add it to the Definition Records table.
 
-For instructions on creating a subflow, see [Create a flow, subflow, or action in Workflow Studio](https://www.servicenow.com/docs/access?context=create-acl-flowdesigner&version=australia&pubname=australia-integrate-applications&ft:locale=en-US). After you have created the subflow, follow these steps to add it to the Definition Records table.
+For instructions on creating a subflow, see Create a flow, subflow, or action in Workflow Studio. After you have created the subflow, follow these steps to add it to the Definition Records table.
 
 1.  Navigate to **All** and enter `sn_acct_lc_definition_record.list` in the Search filter.
 2.  In the Definition Records page, select **New**.

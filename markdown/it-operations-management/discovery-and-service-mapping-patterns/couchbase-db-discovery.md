@@ -27,7 +27,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   The Couchbase Database must be installed on a Linux Server: Red Hat 7.9 or Ubuntu 20.
 -   Ensure that CLI tools are installed on the servers.
--   On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Configure the credentials with the following permissions:
+-   On the ServiceNow AI Platform, configure SSH credentials. Configure the credentials with the following permissions:
     -   Discovery permissions
     -   Permissions to list files, such as VERSION.txt, in the Couchbase installation folders on the Linux Server.
     -   Permissions to execute the command, `systemctl status couchbase-server`, on the Linux Server.

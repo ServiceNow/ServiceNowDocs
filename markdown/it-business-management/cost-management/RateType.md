@@ -6,7 +6,7 @@ release: australia
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Manage a labor rate card, Task and labor rate cards, Cost Management, Strategic Portfolio Management]
 ---

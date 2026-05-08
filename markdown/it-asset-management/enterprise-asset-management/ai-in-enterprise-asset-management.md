@@ -22,7 +22,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see ServiceNow product tiers.
 
 For more information about AI capabilities in Enterprise Asset Management, see the following:
 
@@ -31,8 +31,8 @@ For more information about AI capabilities in Enterprise Asset Management, see t
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 
--   [Now Assist skills](https://www.servicenow.com/docs/access?context=now-assist-skills&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Now Assist agentic workflows](https://www.servicenow.com/docs/access?context=sn-aia-use-cases-list&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   Now Assist skills
+-   Now Assist agentic workflows
 
 **Important:**
 
@@ -51,7 +51,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 

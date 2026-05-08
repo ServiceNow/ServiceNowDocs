@@ -77,7 +77,7 @@ You can also create and easily access your custom list views from the **My Lists
 
 [Inventory view](inventory-view.md)
 
-[Request items source](https://www.servicenow.com/docs/access?context=c_SourcingRequestItems&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_SourcingRequestItems]
 
 [Work with hardware normalization](Work-with-hardware-normalization.md)
 

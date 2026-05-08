@@ -79,6 +79,6 @@ On the CMDB 360 Query Results page:
     -   Select **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](../reference/components-multisource-cmdb.md) system property \(10000 by default\).
     -   Select a CMDB 360 Source link to easily access preview data of a source and see more details.
 -   You can select **Create Schedule** to [set up a schedule](workspc-mltsrc-query-schedule.md) that runs your query on a regular basis. Scheduling your query enables you to use the query results in reports you create.
--   After creating a schedule, you can select **Create Report** to configure a report that you can manage using [Reporting capabilities](https://www.servicenow.com/docs/access?context=reporting-landing-page&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   After creating a schedule, you can select **Create Report** to configure a report that you can manage using Reporting capabilities.
 -   On the Query Results page, access a record to view further details.
 

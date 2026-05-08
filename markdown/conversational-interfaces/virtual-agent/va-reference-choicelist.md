@@ -29,7 +29,7 @@ The Dynamic Choice control also provides the option to add a header card that di
 
 -   The header card can contain a large or small image or a YouTube video card, along with descriptive text. The choice list contains up to five items by default, but the search feature is suppressed. If there are more than five items, users can choose to show the additional items.
 
--   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items in the choice list. For details about creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   To control the number of items displayed below a header card, add the **com.glide.cs.web\_header\_picker\_page\_limit** system property. Use the **Value** to specify the number of items in the choice list. For details about creating a system property, see Add a system property.
 
 
 **Note:**
@@ -128,7 +128,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about [GlideRecords](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and the additional information:
+For more information about the preceding scripting details, review information about GlideRecords and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.
@@ -381,7 +381,7 @@ return options;
 
     ```
 
-For more information about the preceding scripting details, review information about [GlideRecords](https://www.servicenow.com/docs/access?context=c_GlideRecordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and the additional information:
+For more information about the preceding scripting details, review information about GlideRecords and the additional information:
 
     -   **fieldName**: Field name is optional information. Pass with `null`.
     -   **table**: Table name to query for displaying the available options.

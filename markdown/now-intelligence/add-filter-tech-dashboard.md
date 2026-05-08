@@ -29,7 +29,7 @@ Role required: ui\_builder\_admin, admin
 
 3.  Select **Edit in UI Builder**.
 
-4.  Add layout elements and a filter component as described in [Add and configure components](https://www.servicenow.com/docs/access?context=add-components&version=australia&pubname=australia-application-development&ft:locale=en-US).
+4.  Add layout elements and a filter component as described in Add and configure components.
 
 5.  Configure the filter as described in the [Filter component reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-component-filter/overview) on the Developer Site.
 

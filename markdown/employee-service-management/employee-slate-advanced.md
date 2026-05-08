@@ -6,7 +6,7 @@ release: australia
 topic_type: concept
 last_updated: "2024-12-19"
 reading_time_minutes: 1
-breadcrumb: [Employee Slate for Now Assist, Employee Slate setup flow, Employee Slate, Employee Service Management]
+breadcrumb: [Employee Slate setup flow, Employee Slate, Employee Service Management]
 ---
 
 # Employee Slate Advanced
@@ -24,6 +24,6 @@ Employee Slate Advanced provides the following capabilities:
 -   Targeted homepage announcements based on location, department, or role to reach specific employee audiences
 -   Built-in content library for authoring, scheduling, and managing internal communications
 -   AI-powered communications authoring for drafting and publishing announcements conversationally \(Now Assist only\)
--   Communications analytics to track audience engagement including impressions and click-through rates
 -   Quick access to SSO apps \(Okta and Entra\)
+-   Upcoming meetings with direct join functionality displayed on My Calendar widget in Canvas.
 

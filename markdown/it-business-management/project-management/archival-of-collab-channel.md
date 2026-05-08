@@ -29,7 +29,7 @@ When the project manager moves the project to Closed Complete, Closed Incomplete
 
 ## Deletion of a project task
 
-When a project task is deleted, the members in the corresponding Slack channel or Microsoft team are not removed automatically. To remove the members on deletion of a project task, you must enable the **Remove Users From Slack/Teams Channel** business rule. This business rule is created on the Project Task table and is not enabled by default. For more information, see [Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+When a project task is deleted, the members in the corresponding Slack channel or Microsoft team are not removed automatically. To remove the members on deletion of a project task, you must enable the **Remove Users From Slack/Teams Channel** business rule. This business rule is created on the Project Task table and is not enabled by default. For more information, see Business rules.
 
 ## Deletion of the project channel or team
 

@@ -33,7 +33,7 @@ Role required: sn\_wfo\_cfg\_itsm.admin
 
 6.  Create a course catalog.
 
-    For more information, see [Create a course catalog](https://www.servicenow.com/docs/access?context=create-course-catalog&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information, see Create a course catalog.
 
 
 **Parent Topic:**[Learning in Workforce Optimization for ITSM](../concept/workforce-learning-configurable-wfo-itsm.md)

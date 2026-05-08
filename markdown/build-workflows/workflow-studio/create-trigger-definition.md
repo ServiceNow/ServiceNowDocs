@@ -17,7 +17,7 @@ Define the type of trigger that determines when to start running your playbook.
 
 ## Before you begin
 
--   Make sure to set your current application to the application that you want your playbook to run in. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Make sure to set your current application to the application that you want your playbook to run in. For more information, see Application picker.
 -   Role required: admin, playbook.admin, or pd\_trigger\_author
 
 ## Procedure
@@ -52,11 +52,11 @@ Define the type of trigger that determines when to start running your playbook.
 
 7.  In the Table list, select a table whose record operations you want to trigger your playbook.
 
-8.  Under Condition, use the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to add field conditions for when you want to trigger your playbook.
+8.  Under Condition, use the condition builder to add field conditions for when you want to trigger your playbook.
 
 9.  To trigger your playbook for tables that extend your selected table, select the **Run On Extended** check box.
 
-    For more information, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Table extension and classes.
 
 10. Click **Update** to finish creating your trigger definition.
 

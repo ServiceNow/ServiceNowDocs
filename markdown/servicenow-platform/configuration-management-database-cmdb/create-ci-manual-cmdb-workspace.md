@@ -45,7 +45,7 @@ If you want additional actions to be performed after creating a CI, such as crea
 -   In the getAppId\(\) function, add the sys\_id of the application containing the workspace from the UX Application \[sys\_ux\_page\_registry\] table.
 -   In the postInsertCI\(\) function, define the additional actions you want to perform.
 
-Your extension point implementation runs after a new CI is created in the application specified in getAppId\(\). You can create additional implementations as needed for additional applications. For more information about extension points, see [Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Your extension point implementation runs after a new CI is created in the application specified in getAppId\(\). You can create additional implementations as needed for additional applications. For more information about extension points, see Using extension points to extend application functionality.
 
 Role required: cmdb\_manual\_ci\_ire\_access \(contained in the sn\_cmdb\_editor role by default\)
 

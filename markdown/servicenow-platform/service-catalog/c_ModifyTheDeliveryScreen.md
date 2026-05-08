@@ -15,7 +15,7 @@ breadcrumb: [Legacy flexible checkout and delivery forms, Cart layout, Service C
 
 In the final checkout step, a summary screen provides a list of all items and services ordered.
 
-**Warning:** Modifying the Order Status or Summary screen requires advanced scripting and a knowledge of [Jelly](https://www.servicenow.com/docs/access?context=r_JellyTags&version=australia&pubname=australia-api-reference&ft:locale=en-US). Also, the upgrade process skips updates to the summary screen after a customization. With these constraints in mind, you can modify the summary screen by editing the **com.glideapp.servicecatalog\_checkout\_view** UI page.
+**Warning:** Modifying the Order Status or Summary screen requires advanced scripting and a knowledge of Jelly. Also, the upgrade process skips updates to the summary screen after a customization. With these constraints in mind, you can modify the summary screen by editing the **com.glideapp.servicecatalog\_checkout\_view** UI page.
 
 ![Summary of ordered items and link to the request](../image/CatalogOrderSummaryStatus.png "Catalog order summary status")
 

@@ -452,5 +452,5 @@ An engagement project is created in the background for the engagement. The Resou
 
 ## What to do next
 
-[Create a resource plan](https://www.servicenow.com/docs/access?context=t_CreateResourcePlanProjectTask&version=australia&pubname=australia-it-business-management&ft:locale=en-US) and [Create a cost plan](https://www.servicenow.com/docs/access?context=t_CreateAProjectCostPlan&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+Create a resource plan and Create a cost plan.
 

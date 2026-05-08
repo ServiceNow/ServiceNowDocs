@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Domain Separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ In domain-separated environments, the domain of the user who creates a Discovery
 
 3.  Double-click the **Run as** field to perform inline editing.
 
-    By default, the **Run as** column doesn’t display in the Discovery Schedules \[discovery\_schedule\] table. For information about customizing columns in tables, see [Personalize a list](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&section=t_PersonalizeAList&ft:locale=en-US).
+    By default, the **Run as** column doesn’t display in the Discovery Schedules \[discovery\_schedule\] table. For information about customizing columns in tables, see Personalize a list.
 
 4.  Enter the name of the user that you want the schedule to run as.
 

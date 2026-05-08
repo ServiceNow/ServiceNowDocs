@@ -21,7 +21,7 @@ Instance Security Center \(ISC\) has reached the end of sales as of September 20
 
 ServiceNow Security Center \(SSC\) is the recommended solution going forward. For more information, see [Instance Security Center to ServiceNow Security Center migration](../../security-center/concept/instance-security-center-to-security-center-migration.md).
 
-The Virtual Agent interface in the Instance Security Center is only available for users with paid Virtual Agent subscriptions, and who have activated the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin. To learn more, see [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+The Virtual Agent interface in the Instance Security Center is only available for users with paid Virtual Agent subscriptions, and who have activated the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin. To learn more, see Activate Virtual Agent.
 
 Role required: admin.
 

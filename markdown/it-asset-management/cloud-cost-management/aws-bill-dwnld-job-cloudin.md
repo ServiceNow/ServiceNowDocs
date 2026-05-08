@@ -6,7 +6,7 @@ release: australia
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 10
 breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
 ---
@@ -113,7 +113,7 @@ Notify users/groups
 
 The users or groups to be notified by email about the status of the job execution \(for example, download failure\). The system doesn’t send a notification for success.Users or groups with the Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integrations\_admin\] role are well suited to handle these issues.
 
-To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see [Create an email template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailTemplate&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To update the email template, navigate to **System Notification** &gt; **Email** &gt; **Notifications** and open the Notify on billing job execution error template. For information on configuring the email, see Create an email template.
 
 </td></tr><tr><td>
 

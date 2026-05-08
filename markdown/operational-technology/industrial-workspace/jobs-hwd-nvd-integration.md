@@ -25,8 +25,8 @@ Hardware Vulnerability Assessment is based on the vulnerability assessment featu
 
 To understand what are the different NVD integrations and how do the integrations work, see:
 
--   [Understanding the NVD integrations](https://www.servicenow.com/docs/access?context=nvd-vuln-integration&version=australia&pubname=australia-security-management&ft:locale=en-US)
--   [Install the Vulnerability Response Integration with the NIST National Vulnerability Database](https://www.servicenow.com/docs/access?context=install-nvd&version=australia&pubname=australia-security-management&ft:locale=en-US)
+-   Understanding the NVD integrations
+-   Install the Vulnerability Response Integration with the NIST National Vulnerability Database
 
 ## Procedure
 

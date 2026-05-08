@@ -23,7 +23,7 @@ Sending outbound webhook calls requires the following plugins.
 -   Workflow Studio Action Step - Payload Builder \(com.glide.hub.action\_step.payload\)
 -   ServiceNow Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 
-These plugins must be requested through the Now Support Service Catalog. For instructions, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+These plugins must be requested through the Now Support Service Catalog. For instructions, see Request a plugin.
 
 When you set up the webhook, the system automatically sends a REST request to a third-party endpoint every time an employee or visitor requests entry. Work with an administrator for the third-party system to determine the correct endpoint to provide.
 

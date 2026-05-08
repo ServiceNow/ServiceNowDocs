@@ -38,7 +38,7 @@ Refer to the following table and verify that you have completed all the listed t
         -   Enables notable event updates when a SIR incident is created and closed.
         -   Assigns the security incident analyst \(sn\_si.analyst\) role.
         -   Users with the sn\_si.analyst work with security incidents.
-    For more information, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Managing roles.
 
 2.  Assign the Splunk user role.
 
@@ -50,7 +50,7 @@ Refer to the following table and verify that you have completed all the listed t
 
 4.  Verify that you have installed and configured a MID Server.
 
-    A MID Server in your ServiceNow AI Platform® instance is required to connect to the Splunk service if the Splunk server is deployed within your corporate network. For information, see [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    A MID Server in your ServiceNow AI Platform® instance is required to connect to the Splunk service if the Splunk server is deployed within your corporate network. For information, see MID Server.
 
     If you are using the Splunk Enterprise Security Cloud service, a MID Server is not required.
 

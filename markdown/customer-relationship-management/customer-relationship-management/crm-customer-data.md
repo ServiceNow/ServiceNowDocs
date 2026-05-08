@@ -87,13 +87,13 @@ When enabled, asset visibility on the customer portal is limited to the assigned
 **Related topics**  
 
 
-[Data models](https://www.servicenow.com/docs/access?context=data-models&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.data-models]
 
-[User management](https://www.servicenow.com/docs/access?context=user-management&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.user-management]
 
-[Product data](https://www.servicenow.com/docs/access?context=product-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.product-data]
 
-[Customer data](https://www.servicenow.com/docs/access?context=customer-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.customer-data]
 
-[Configure Service Model Foundation](https://www.servicenow.com/docs/access?context=configure-industry-data-model&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.configure-industry-data-model]
 

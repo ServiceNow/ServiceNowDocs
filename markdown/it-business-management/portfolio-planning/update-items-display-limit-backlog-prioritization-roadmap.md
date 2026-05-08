@@ -81,7 +81,7 @@ Integer
 Desired display limit count
 
 </td></tr></tbody>
-</table>    For information on the other form fields, see the field description table in [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>    For information on the other form fields, see the field description table in Add a system property.
 
 4.  Select **Submit**.
 

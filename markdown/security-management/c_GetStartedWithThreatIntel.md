@@ -54,7 +54,7 @@ The following roles are required for installation, configuration, and verificati
 
 Several types of components are installed with activation of the Threat Intelligence plugin, including tables and user roles.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -1235,7 +1235,7 @@ If you selected the **Conditional** check box, enter the conditions here.
     |-----|-----------|
     |Endpoint|Enter the web service endpoint URL where the threat source is accessed by Threat Intelligence. Click the lock icon to lock the URL.|
     |Use REST Message|If you need a REST message to access the threat source, select this check box. The **REST message** and **REST method** fields become required.|
-    |REST message|Click the lookup icon, and select the REST message from the list or click **New** to [define a new REST message](https://www.servicenow.com/docs/access?context=t_ConfiguringARESTMessage&version=australia&pubname=australia-api-reference&ft:locale=en-US).|
+    |REST message|Click the lookup icon, and select the REST message from the list or click **New** to define a new REST message.|
     |REST method|Click the lookup icon, and select the REST method from the list or click **New** to define a new REST method.|
     |Integration script|The default integration script is **SimpleRESTSecurityDataIntegration**. It runs a simple REST call, saves the response as an attachment, and then returns the attachment to the processor. This script meets the needs of most organizations. But if you want, you can click the lookup icon, and select a different integration script or define a new one.|
     |Integration factory script|If the **Advanced** check box is selected, this field displays the actual script for constructing the integration script. You can edit the script as needed. This ability is useful for custom implementations. Integrations in the base system usually don’t need any custom constructor logic.|

@@ -19,7 +19,7 @@ With time sheets:
 
 -   Time card users can submit all the time for their work week in a single step by using a time sheet.
 -   Time card approvers can approve all the time cards in a time sheet for a user in a single step by approving the time sheet. They do not need to approve multiple time cards for a given user individually.
--   Track the activities of a time sheet, such as who submitted or approved a time sheet, in the Activities section on the Time Sheet form. This time sheet activity audit is useful for tracking when you delegate responsibility for your time card processing to another user. To track the activities, enable the **State** field of the Time Card \[time\_card\] table for auditing the time card activities, if it is not already enabled. For more information, see [Include a table field in auditing](https://www.servicenow.com/docs/access?context=security-whitelist-audit-field&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Track the activities of a time sheet, such as who submitted or approved a time sheet, in the Activities section on the Time Sheet form. This time sheet activity audit is useful for tracking when you delegate responsibility for your time card processing to another user. To track the activities, enable the **State** field of the Time Card \[time\_card\] table for auditing the time card activities, if it is not already enabled. For more information, see Include a table field in auditing.
 
 A time sheet can have any of the following states:
 

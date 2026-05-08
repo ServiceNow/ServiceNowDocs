@@ -116,9 +116,9 @@ Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance
 
 Ensure that you have configured the API for which you are defining the CORS rule.
 
--   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://www.servicenow.com/docs/access?context=knowledge-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Activate the Customer Service plugin \(com.sn\_customerservice\) to use the Case API endpoints for customer service cases. For more information, see [Case API](https://www.servicenow.com/docs/access?context=case-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Configure the **glide.rest.attachment\_csm\_api.allowed\_tables** system property and include the Case \[sn\_customerservice\_case\] table to use the CSM Attachment API end points for case attachments. For more information, see [CSM Attachment API](https://www.servicenow.com/docs/access?context=attachment_csm-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see Knowledge Management REST API.
+-   Activate the Customer Service plugin \(com.sn\_customerservice\) to use the Case API endpoints for customer service cases. For more information, see Case API.
+-   Configure the **glide.rest.attachment\_csm\_api.allowed\_tables** system property and include the Case \[sn\_customerservice\_case\] table to use the CSM Attachment API end points for case attachments. For more information, see CSM Attachment API.
 
 Role required: web\_service\_admin
 

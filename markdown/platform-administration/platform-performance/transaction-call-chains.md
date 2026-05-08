@@ -21,7 +21,7 @@ The following shows the workflow for enabling and using transaction call chain t
 
 1.  When you find a problematic transaction on the Transaction Log or Slow Transaction list that requires debugging, select it to view its detail record. To aid in debugging, filter and group these lists by application scope, limiting transactions that appear to only those transactions originating in specific scopes.
 
-    **Note:** To learn more about these lists, see [Transaction logs](https://www.servicenow.com/docs/access?context=r_TransactionLogs&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Slow transactions log record detail](../reference/slow-transactions-log-record-detail.md).
+    **Note:** To learn more about these lists, see Transaction logs and [Slow transactions log record detail](../reference/slow-transactions-log-record-detail.md).
 
 2.  In the record detail form, select **Record call chain of next occurrence**. Doing this designates that the next occurrence of the transaction URL should be persisted with all of its call chain information.
 

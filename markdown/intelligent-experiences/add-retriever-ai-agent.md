@@ -65,7 +65,7 @@ Search profile
 
 </td><td>
 
-Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Name of the search profile that you want to add to your RAG-based tool from the list. To learn more about a search profile, see Search profiles in AI Search.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Search sources
 
 </td><td>
 
-One or multiple sources that you want to add to your search profile. To learn more about the search sources, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+One or multiple sources that you want to add to your search profile. To learn more about the search sources, see Search profiles in AI Search.
 
 </td></tr><tr><td>
 

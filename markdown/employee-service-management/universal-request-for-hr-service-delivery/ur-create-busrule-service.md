@@ -57,7 +57,7 @@ You can create a business rule for your service for any of the following reasons
 
 9.  Click **Update**.
 
-    For more information on other fields of this form, see [Create a business rule](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-build-workflows&section=t_CreatingABusinessRule&ft:locale=en-US).
+    For more information on other fields of this form, see Create a business rule.
 
 
 **Parent Topic:**[Configure service to use Universal Request](../concept/config-service-for-ur.md)

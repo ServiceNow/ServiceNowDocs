@@ -296,9 +296,9 @@ View the average purchase requisition cycle time from when a purchase requisitio
  The report pulls all the purchase requisitions that went into Closed Complete, Closed Rejected, or Closed Canceled status for the month, and takes the cycle time from when they were opened. This data is retrieved from the **Duration** field on the purchase requisition.
 
 </td></tr></tbody>
-</table>For information on how to work with dashboards in configurable workspaces, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+</table>For information on how to work with dashboards in configurable workspaces, see Dashboards in Platform Analytics.
 
-For information on how to work with widgets and data visualizations in configurable workspaces, see [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For information on how to work with widgets and data visualizations in configurable workspaces, see Data visualizations in Platform Analytics.
 
 **Parent Topic:**[Performance Analytics for Sourcing and Procurement Operations](performance-analytics-for-spo.md)
 

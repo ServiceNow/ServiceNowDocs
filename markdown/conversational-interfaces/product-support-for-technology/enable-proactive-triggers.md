@@ -21,7 +21,7 @@ Use Proactive Triggers to create and view context-specific messages and use rele
 
 For conceptual information about Proactive Triggers, see [Exploring Proactive Triggers](../concept/proactive-triggers.md).
 
-The Proactive Triggers feature can be used with Domain Separation. For more information about Domain Separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The Proactive Triggers feature can be used with Domain Separation. For more information about Domain Separation, see Domain separation explained.
 
 Role required: admin
 
@@ -75,7 +75,7 @@ An admin first enables and then creates rules and actions as separate tasks.
 
     4.  Adjust any settings, as needed.
 
-        **Note:** Your organization may want to update the **Filter Conditions** on the **When to Run** related tab. For example, if your organization doesn’t use the Service Portal, update the default values in the Filter Conditions section to reflect your organization's preferred portal or site. Your organization may also want to adjust the Proactive Triggers API script in the **Advanced** related tab. For additional information on the Proactive Triggers API script, see [ProactiveTriggerAPI - Scoped](https://www.servicenow.com/docs/access?context=ProactiveTriggerScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+        **Note:** Your organization may want to update the **Filter Conditions** on the **When to Run** related tab. For example, if your organization doesn’t use the Service Portal, update the default values in the Filter Conditions section to reflect your organization's preferred portal or site. Your organization may also want to adjust the Proactive Triggers API script in the **Advanced** related tab. For additional information on the Proactive Triggers API script, see ProactiveTriggerAPI - Scoped.
 
     5.  Select **Update**.
 

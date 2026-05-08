@@ -25,7 +25,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 ## Procedure
 
-1.  Activate or upgrade to SAML 2.0 with the [Activate Multi-Provider SSO plugin](https://www.servicenow.com/docs/access?context=t_ActivateMultipleProviderSSO&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+1.  Activate or upgrade to SAML 2.0 with the Activate Multi-Provider SSO plugin.
 
 2.  Activate the [Approval with E-Signature plugin](activate-approval-esignature.md).
 
@@ -35,7 +35,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 4.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d621594e110">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d621584e110">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -43,7 +43,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d621594e119">
+</td></tr><tr><td id="d621584e119">
 
 **Assertion Consumer Index for eSignature authentication**
 
@@ -51,7 +51,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 If your Service Provider has more than one URL set for the AssertionConsumerURL, you can set the index to use for eSignature, starting with index 1 or more.
 
-</td></tr><tr><td id="d621594e131">
+</td></tr><tr><td id="d621584e131">
 
 **AuthnRequest URL for eSignature Authentication**
 
@@ -59,7 +59,7 @@ If your Service Provider has more than one URL set for the AssertionConsumerURL,
 
 You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSignature authentication. If the URL is the same as the Assertion Consumer URL, you can leave this setting empty.
 
-</td></tr><tr><td id="d621594e140">
+</td></tr><tr><td id="d621584e140">
 
 **Authentication pop-up Dialog Width**
 
@@ -67,7 +67,7 @@ You can enter the URL that points to the SAML 2.0 IdP AuthnRequest URL for eSign
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 500.
 
-</td></tr><tr><td id="d621594e149">
+</td></tr><tr><td id="d621584e149">
 
 **Authentication pop-up Dialog Height**
 

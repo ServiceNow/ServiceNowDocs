@@ -17,11 +17,11 @@ Most interaction creation takes place in other applications, to control channels
 
 For more information about how interaction are created in other applications, see:
 
--   [Interaction Management in Service Operations Workspace](https://www.servicenow.com/docs/access?context=interaction-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Interaction Management in Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=interaction-management-in-procurement-operations-workspace&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
--   [Interaction Management in Supplier Lifecycle Operations](https://www.servicenow.com/docs/access?context=interaction-mgmt-supplier-mgr-ws&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
--   [Interaction management in Accounts Payable Operations](https://www.servicenow.com/docs/access?context=interaction-record&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
--   [CSM Interaction record page](https://www.servicenow.com/docs/access?context=csm-interaction-record-page&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Interaction Management in Service Operations Workspace
+-   Interaction Management in Source-to-Pay Workspace
+-   Interaction Management in Supplier Lifecycle Operations
+-   Interaction management in Accounts Payable Operations
+-   CSM Interaction record page
 
 -   **[Create an interaction](../task/create-interactions.md)**  
 An interaction is a record of a conversation between a requester and a fulfiller \(real or virtual\). Though most interaction creation takes place in other applications, if needed, you can create an interaction directly from Interaction Management.

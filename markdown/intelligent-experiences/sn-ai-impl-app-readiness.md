@@ -29,7 +29,7 @@ After ensuring that your AI policy, your data, and your applications are ready, 
 
 2.  In the ServiceNow Store, check version compatibilities and dependencies for Now Assist apps.
 
-    For more information, see [Evaluating version requirements and dependencies](https://www.servicenow.com/docs/access?context=versions-dependencies&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Evaluating version requirements and dependencies.
 
 3.  Install Now Assist products from the Now Assist Admin console.
 

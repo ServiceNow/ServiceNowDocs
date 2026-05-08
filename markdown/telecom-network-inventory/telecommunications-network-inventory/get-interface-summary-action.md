@@ -155,7 +155,7 @@ Option to return the type of output when multiple records are found. You can sel
 Choice
 
 </td></tr></tbody>
-</table>To learn more about the variable data types, see [Flow Designer input and output data variables](https://www.servicenow.com/docs/access?context=action-inputs-outputs&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>To learn more about the variable data types, see Flow Designer input and output data variables.
 
 ## Output
 

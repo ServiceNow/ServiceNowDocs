@@ -40,7 +40,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
 -   **[Configure Now Assist in Conversational Catalog Request](../task/configure-gen-ai-catalog-item.md#)**  
 Speed up and provide a conversational and streamlined experience based on generative AI while submitting a catalog item request in Virtual Agent. Your organization can increase self-service and reduce operating costs.

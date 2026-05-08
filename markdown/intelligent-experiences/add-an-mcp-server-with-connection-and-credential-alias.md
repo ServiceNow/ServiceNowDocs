@@ -18,7 +18,7 @@ Add an MCP Server by selecting a Connection and Credential Alias record.
 -   Role required: sn\_mcp\_client.admin
 -   Verify that you have a Connection and Credential alias record created before adding an MCP Server with Others as the option.
 
-    For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information, see Create a Connection &amp; Credential alias.
 
 
 ## About this task

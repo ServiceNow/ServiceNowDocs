@@ -33,15 +33,15 @@ You can track the upcoming milestones in a matter in the **Home** tab of the Leg
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d634489e114">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d634499e114">
 
 Option
 
-</th><th align="left" id="d634489e117">
+</th><th align="left" id="d634499e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d634489e123">
+</th></tr></thead><tbody><tr><td id="d634499e123">
 
 **As an assignee**
 
@@ -53,7 +53,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d634489e152">
+</td></tr><tr><td id="d634499e152">
 
 **As a collaborator**
 

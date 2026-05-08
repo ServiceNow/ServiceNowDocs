@@ -24,7 +24,7 @@ A Now Assist Actions Genius Result answer card can display content from up to th
 
 ## Supported record types
 
-In Service Portal, Now Assist Actions Genius Results only operate on Catalog Items. In Virtual Agent, Now Assist Actions Genius Results operate on Virtual Agent topics as well as on Catalog Items. To learn more about Virtual Agent topics, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+In Service Portal, Now Assist Actions Genius Results only operate on Catalog Items. In Virtual Agent, Now Assist Actions Genius Results operate on Virtual Agent topics as well as on Catalog Items. To learn more about Virtual Agent topics, see Virtual Agent.
 
 In Virtual Agent, Now Assist Actions Genius Results rank Catalog Item and Virtual Agent topic records using a unified relevancy scoring scheme. As a result, Now Assist Actions Genius Result answers may display records of either type in any order.
 

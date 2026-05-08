@@ -28,7 +28,7 @@ To access the Financial Services Business Deposit Operations dashboard, navigate
 
 Alternatively, you can navigate to **All** &gt; **Deposit Operations** &gt; **Analytics**.
 
-You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see [Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can also access the dashboard from the Platform Analytics Workspace. For more information about the Platform Analytics Workspace, see Analytics Center.
 
 If you have upgraded from an earlier version, you can access the existing Core UI dashboard layout as usual by navigating to **All** &gt; **Deposit Operations** &gt; **Dashboard**.
 

@@ -76,7 +76,7 @@ You can create a MID Server in the global domain that can explore targets in oth
 Before configuring a multi-domain MID Server:
 
 -   Activate the Domain Support - Domain Extensions Installer \[com.glide.domain.msp\_extensions.installer\] plugin.
--   Ensure that your instance is [domain separated](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Ensure that your instance is domain separated.
 
 Role required: admin
 

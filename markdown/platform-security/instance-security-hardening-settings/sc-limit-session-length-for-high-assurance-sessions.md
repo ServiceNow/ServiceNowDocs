@@ -35,7 +35,7 @@ Use the **glide.zta.high\_assurance.session.timeout** system property to set a t
 |Fallback value|30|
 |Recommended value|30 or lower|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Session management](sc-session-management.md)
 

@@ -20,11 +20,11 @@ Learn how to use the analyze alert impact agentic workflow in the Now Assist pan
 
 Before using the analyze alert impact agentic workflow, you must have the following:
 
--   Now Assist for IT Operations Management \(ITOM\) installed on your instance. See [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   Now Assist for IT Operations Management \(ITOM\) installed on your instance. See Install Now Assist plugins.
 -   The analyze alert impact agentic workflow turned on in the Now Assist panel. See [Analyze alert impact agentic workflow](../concept/now-assist-itom-agentic-aia.md).
 -   AI agents configured and activated for the observability tools integrated with Event Management, such as Dynatrace, Kentik, or New Relic. See [Configuring agents for Now Assist for ITOM](../concept/itom-ai-agent-configuration.md).
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 Role required: evt\_mgmt\_operator
 

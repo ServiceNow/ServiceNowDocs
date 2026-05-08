@@ -17,7 +17,7 @@ Compose an SMS message from CSM Agent Workspace to interact with a customer cont
 
 Role required: agent\_workspace\_user
 
-Ensure that an administrator has configured the Conversational SMS Integration with Twilio application. For more information, see [Conversational SMS Integration with Twilio](https://www.servicenow.com/docs/access?context=sms-twilio-store-app&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Ensure that an administrator has configured the Conversational SMS Integration with Twilio application. For more information, see Conversational SMS Integration with Twilio.
 
 ## Procedure
 
@@ -33,7 +33,7 @@ Ensure that an administrator has configured the Conversational SMS Integration w
 
     For more information about the form, see [CSM workspace form features](../reference/csm-workspace-agent-actions.md).
 
-    **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see [Associate user profiles on messaging interactions](https://www.servicenow.com/docs/access?context=associate-user-profiles-messaging-interactions&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    **Note:** The user profile associated with an interaction is configured by an administrator by using the AgentInitiatedConversationUtil extension point. By default, the AgentInitiatedMessagingUtilExtPointImpl script include that implements the AgentInitiatedConversationUtil extension point is available for the Conversational SMS Integration with Twilio application. For more information, see Associate user profiles on messaging interactions.
 
 5.  Click **Compose SMS**.
 
@@ -67,7 +67,7 @@ Phone number of the consumer or customer contact. The phone number is in the E.1
 
  By default, the user profiles for consumers and customer contacts and the format of their phone numbers are validated for the SMS channel.
 
- If you select **Other** from the To list, you can manually enter a phone number of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see [Phone number fields](https://www.servicenow.com/docs/access?context=c_UsePhoneNumberFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ If you select **Other** from the To list, you can manually enter a phone number of the consumer or customer contact. Any manually entered phone number is automatically converted to the E.164 format. For more information, see Phone number fields.
 
 </td></tr><tr id="agent-init-message"><td>
 
@@ -85,7 +85,7 @@ Attachment
 
 File to be sent as an attachment. Click **Attach File** to browse and select a file.
 
- **Note:** By default, you can attach only images to the message. However, an administrator can configure the Attachment API to upload more file types. For more information, see [Attachment - POST /now/attachment/upload](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ **Note:** By default, you can attach only images to the message. However, an administrator can configure the Attachment API to upload more file types. For more information, see Attachment - POST /now/attachment/upload.
 
 </td></tr></tbody>
 </table>7.  Click **Send**.

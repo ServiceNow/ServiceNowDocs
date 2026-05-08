@@ -29,15 +29,15 @@ A major incident manager can accept or reject a major incident candidate.
 
     **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
 
-<table id="choicetable_fk2_2xn_gdb"><thead><tr><th align="left" id="d329352e84">
+<table id="choicetable_fk2_2xn_gdb"><thead><tr><th align="left" id="d329327e84">
 
 Option
 
-</th><th align="left" id="d329352e87">
+</th><th align="left" id="d329327e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d329352e93">
+</th></tr></thead><tbody><tr><td id="d329327e93">
 
 **Create major incident trigger rules**
 
@@ -45,7 +45,7 @@ Description
 
 An incident can be marked as a major incident candidate based on the major incident trigger rules. A major incident manager or an incident manager can [Create trigger rules for major incidents](major-incident-trigger-rules.md) to identify major incident candidates automatically.**Note:** The base system major incident trigger rules are disabled by default. A major incident manager or an incident manager needs to activate the trigger rules that define conditions under which an incident is automatically considered as a major incident candidate.
 
-</td></tr><tr><td id="d329352e113">
+</td></tr><tr><td id="d329327e113">
 
 **Propose an incident as a major incident candidate manually**
 
@@ -53,7 +53,7 @@ An incident can be marked as a major incident candidate based on the major incid
 
 Manually propose an existing incident to be a major incident candidate by clicking **Propose Major Incident** from the context menu. You are prompted to enter the reason for proposing the incident as a candidate, and specifying the business impact of the incident. **Note:** If an incident is in the resolved, closed, or canceled state, the **Propose Major Incident** option does not appear on the context menu.
 
-</td></tr><tr><td id="d329352e134">
+</td></tr><tr><td id="d329327e134">
 
 **Create a candidate from application navigation**
 

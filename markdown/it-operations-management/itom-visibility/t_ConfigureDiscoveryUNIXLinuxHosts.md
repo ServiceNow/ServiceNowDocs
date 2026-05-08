@@ -23,7 +23,7 @@ Role required: discovery\_admin
 
 1.  On the host, assign elevated privileges to the account that Discovery will use.
 
-2.  On the ServiceNow instance, [add credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=australia&pubname=australia-platform-security&ft:locale=en-US) to the Discovery Credentials table.
+2.  On the ServiceNow instance, add credentials to the Discovery Credentials table.
 
 3.  Create a Discovery Schedule for each host IP address.
 
@@ -31,7 +31,7 @@ Role required: discovery\_admin
 
 5.  Run network discovery.
 
-    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](t_ConfigDiscoForStandaloneStorage.md) and CIM credentials.
 
 
 **Parent Topic:**[Configure discovery of hosts with attached storage](../concept/configure-discovery-of-hosts-with-attached-storage.md)

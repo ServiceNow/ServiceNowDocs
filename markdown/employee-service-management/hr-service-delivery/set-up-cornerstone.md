@@ -25,7 +25,7 @@ Understand how to set up the HR Service Delivery Integration with Cornerstone On
 
 1.  Set up the Cornerstone spoke in IntegrationHub.
 
-    For more information, refer to the [Cornerstone spoke](https://www.servicenow.com/docs/access?context=cornerstone-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) documentation.
+    For more information, refer to the Cornerstone spoke documentation.
 
 2.  Configure the URL prefix in the Cornerstone source record in HR Service Delivery Integration with Cornerstone OnDemand.
 

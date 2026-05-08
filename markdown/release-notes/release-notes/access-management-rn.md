@@ -21,11 +21,11 @@ Early Availability
 -   Access Findings is the proactive detection and remediation layer within Access Management Console. It runs eight out-of-box access checks against your instance on a daily schedule, surfaces prioritized findings when misconfigurations are detected, and provides a complete remediation workflow including AI-powered guidance.
 
 
-See [Access Control List Rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US) for more information.
+See Access Control List Rules for more information.
 
 ## Changed in this release
 
--   **[Query ACLs](https://www.servicenow.com/docs/access?context=query-acl-rule&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Query ACLs**
 
     Query ACLs now load automatically during plugin installation for most platform plugins. These preconfigured ACLs reduce the need to run the QueryRangeACLAuditor tool to generate query ACLs. Store app query ACLs aren't included in preconfigured query ACLs. For more information about preconfigured query ACLs, see the [Maintenance Information \[KB2046494\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2046494) article in the Now Support Knowledge Base.
 
@@ -33,12 +33,12 @@ See [Access Control List Rules](https://www.servicenow.com/docs/access?context=a
 
     QueryRangeACLAuditor tool modifications are preserved.
 
--   **[ACL rule types](https://www.servicenow.com/docs/access?context=acl-rule-types&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **ACL rule types**
 
     Core field and datatype ACLs are replaced with more comprehensive rules to optimize ACL volume.
 
 
--   **[Access Analyzer](https://www.servicenow.com/docs/access?context=access-analyzer&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Access Analyzer**
 
     Use ServiceNow® Access Analyzer v6.1, a tool designed for AI administrators or creators to validate the access controls configured within agentic assets \(agentic workflows and AI agents\) on the ServiceNow AI Platform.
 

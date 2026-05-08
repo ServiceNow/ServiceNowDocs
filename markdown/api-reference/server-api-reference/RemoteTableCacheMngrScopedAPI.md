@@ -17,7 +17,7 @@ The RemoteTableCacheManager API provides a method to flush the cache for a speci
 
 Remote tables often cache query results for performance reasons, but when the data at the source changes the cached results become outdated. Scoped applications can invoke this API to flush the remote table cache so that subsequent queries fetch the latest data from the source system. Use this API to automate cache flushing based on custom logic, workflows, or triggers in scoped applications.
 
-The RemoteTableCacheManager API requires the Remote Tables plugin \(com.glide.script.vtable\) and is provided within the `sn_vtable` namespace. For more information, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The RemoteTableCacheManager API requires the Remote Tables plugin \(com.glide.script.vtable\) and is provided within the `sn_vtable` namespace. For more information, see Remote tables.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

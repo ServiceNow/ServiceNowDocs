@@ -30,7 +30,7 @@ Look up logic for reference fields is enhanced for invoices ingested via APIs an
 -   Line quantity
 -   Line unit price
 
-For more information on the AP invoice API, see [AP Invoice API Developer Guide](https://www.servicenow.com/docs/access?context=apInvoice-dev-guide&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information on the AP invoice API, see AP Invoice API Developer Guide.
 
 **Parent Topic:**[Using Accounts Payable Invoice Processing](use-ap-invoice-processing.md)
 

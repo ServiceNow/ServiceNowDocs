@@ -25,7 +25,7 @@ The Approval Configuration record controls two aspects of the approval experienc
 
 -   **Display experience**
 
-    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see [Platform Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and [Approval Info Record widget](../concept/approval-info-record-widget.md).
+    Defines which fields appear and in what order, both in the Approval Assistance AI agent and the Approval Info Record widget. For more information, see Platform Approval assistance AI agent and [Approval Info Record widget](../concept/approval-info-record-widget.md).
 
 -   **AI behavior**
 
@@ -140,7 +140,7 @@ KB search fields define which fields from the configured table are used to build
 
 ## Configuring search sources for checklist generation
 
-In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see [Defining search sources](https://www.servicenow.com/docs/access?context=search-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+In addition to KB articles, the approval checklist can draw from third-party sources such as Microsoft SharePoint, Google Drive, or a custom internal table. To enable third-party sources, configure the third-party application as a search source linked to your portal search profile. For more information, see Defining search sources.
 
 After the search source is configured, add the search profile and search source to the following system property: sn\_na\_req\_agent.approval\_checklist.search\_profile\_sources.
 

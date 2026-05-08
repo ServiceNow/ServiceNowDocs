@@ -64,7 +64,7 @@ To perform these steps, you must have the following:
     -   In the ServiceNow-App-1 directory, two records created: `sys_certificate.xml` and `sn_kmf_record_signature.xml`.
 5.  Import the updated application back into your instance by applying remote changes in Studio.
 
-    For more information, see [Legacy - Apply remote changes](https://www.servicenow.com/docs/access?context=t_ApplyRemoteChanges&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Legacy - Apply remote changes.
 
 
 **Parent Topic:**[Standalone signing tool](../concept/sa-code-signing-tool.md)

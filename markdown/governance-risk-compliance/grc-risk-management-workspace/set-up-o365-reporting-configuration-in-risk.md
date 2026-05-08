@@ -62,7 +62,7 @@ Source type
 </td><td>
 
 Source from which you want to fetch the data. The choices are as follows:-   **Table**: Select this option when you want to import data from a table.
--   **Report**: Select this option if you want to import data from a predefined report or chart. For more information on how to create a report, see [Create a report with Analytics Q&amp;A](https://www.servicenow.com/docs/access?context=t_CreateYourOwnReport&version=australia&pubname=australia-now-intelligence&section=create-report-nlq&ft:locale=en-US).
+-   **Report**: Select this option if you want to import data from a predefined report or chart. For more information on how to create a report, see Create a report with Analytics Q&amp;A.
  **Note:** Only list reports, pivot reports, multi-level pivot reports, horizontal and vertical bar charts, and pie charts are available for selection. Stacked bar charts and grouped bar charts aren’t supported.
 
 </td></tr><tr><td>

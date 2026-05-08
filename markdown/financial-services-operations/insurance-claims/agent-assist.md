@@ -58,6 +58,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon \(![Graduation cap icon for Agent assist.](../../../common/image/Form_AgentAssistIcon.png)\) to use the feature.
 
-    For more information about Agent assist, see [Agent assist](https://www.servicenow.com/docs/access?context=agent-assist-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about Agent assist, see Agent assist.
 
 

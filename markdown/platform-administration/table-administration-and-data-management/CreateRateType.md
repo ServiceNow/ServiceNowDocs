@@ -36,15 +36,15 @@ For example:
 
 2.  Click **New** and fill the form.
 
-<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d112983e107">
+<table id="choicetable_vbp_jpj_l1b"><thead><tr><th align="left" id="d112961e107">
 
 Field
 
-</th><th align="left" id="d112983e110">
+</th><th align="left" id="d112961e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112983e116">
+</th></tr></thead><tbody><tr><td id="d112961e116">
 
 **Name**
 
@@ -52,7 +52,7 @@ Description
 
 Provide a suitable name for the rate type.
 
-</td></tr><tr><td id="d112983e125">
+</td></tr><tr><td id="d112961e125">
 
 **Description**
 
@@ -60,7 +60,7 @@ Provide a suitable name for the rate type.
 
 \(Optional\) Summarize the purpose of the rate type.
 
-</td></tr><tr><td id="d112983e134">
+</td></tr><tr><td id="d112961e134">
 
 **Active**
 

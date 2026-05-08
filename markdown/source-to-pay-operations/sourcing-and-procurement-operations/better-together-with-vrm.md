@@ -46,7 +46,7 @@ When you create a new supplier record in the Supplier table, a new vendor record
 
 Tiering and risk assessments on a vendor can be created on the vendor record in the Third-party Risk Management application. These assessments are made visible in the Supplier table as related lists, to validate any supplier in Sourcing and Procurement Operations. A procurement specialist, containing the Vendor Assessment Reviewer role can read any vendor risk assessment data.
 
-For information, see [Third-party Risk Management](https://www.servicenow.com/docs/access?context=third-party-risk-mgt-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For information, see Third-party Risk Management.
 
 ## Valid supplier risk assessment
 

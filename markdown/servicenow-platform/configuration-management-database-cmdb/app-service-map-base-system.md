@@ -23,7 +23,7 @@ Role required: app\_service\_user to view the map in View mode, and app\_service
 
 When you create an application service, the system generates an associated application service map. The system then updates the map to reflect any changes to the application service. This map consists of icons representing CIs and arrows that represent the connections between them.
 
-If Service Mapping is deployed, see [Application service maps](https://www.servicenow.com/docs/access?context=c_UndestandMaps&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) and [View CI connection attributes in an application service map](https://www.servicenow.com/docs/access?context=view-connector-properties&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more details.
+If Service Mapping is deployed, see Application service maps and View CI connection attributes in an application service map for more details.
 
 To open an application service map, navigate to **CSDM** &gt; **Manage Technology Management Services** &gt; **Application Service**, select an application service, and then click **View map**.
 
@@ -39,7 +39,7 @@ Perform any of the following operations in the application service map.
 
 -   View changes: You can view changes and change records associated with the application service as a whole or with any of its CIs, within a time range.
 
-    For more information, see [View the change history of application services](https://www.servicenow.com/docs/access?context=t_ViewCIChanges&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+    For more information, see View the change history of application services.
 
     Records under the **Change** tab underneath the map, which are associated with a selected CI or connection, are highlighted. If you select a change record under the **Change** tab, then the associated CI icon appears yellow on the map.
 
@@ -80,7 +80,7 @@ Perform any of the following operations in the application service map.
 
 ## What to do next
 
-You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can change the details that appear in the Properties pane by updating the form view 'Form view and section', as described in Configuring the form layout.
 
 **Related topics**  
 

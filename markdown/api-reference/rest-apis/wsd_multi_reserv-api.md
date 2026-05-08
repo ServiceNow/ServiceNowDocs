@@ -19,7 +19,7 @@ To access this API, the caller must have the sn\_wsd\_core.workplace\_user role 
 
 This API runs in the `sn_wsd_rsv` namespace.
 
-For additional information on Workplace Reservation Management, see [Workplace Reservation Management](https://www.servicenow.com/docs/access?context=workplace-rsv-mgmt-feat&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on Workplace Reservation Management, see Workplace Reservation Management.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -435,7 +435,7 @@ reservables.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
 
 Valid values:
 
@@ -462,7 +462,7 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) defines the workplace items needed for a reservation.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation.Data type: String
 
 Table: Reservable Module \[sn\_wsd\_rsv\_reservable\_module\]
 
@@ -474,7 +474,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: String
 
@@ -1127,7 +1127,7 @@ reservables.is\_private
 
 </td><td>
 
-Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see [Location privacy settings and impact](https://www.servicenow.com/docs/access?context=location-privacy-settings-and-impact&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Flag that indicates whether the reservation is private. If private, the reservation doesn't appear to anyone except the owner.For additional information on these privacy settings, see Location privacy settings and impact.
 
 Valid values:
 
@@ -1154,7 +1154,7 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://www.servicenow.com/docs/access?context=config-reservable-module&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) defines the workplace items needed for a reservation.Data type: String
+Required. Sys\_id of the reservable module to associate with the reservation. A reservable module defines the workplace items needed for a reservation.Data type: String
 
 Table: Reservable Module \[sn\_wsd\_rsv\_reservable\_module\]
 
@@ -1166,7 +1166,7 @@ shift
 
 Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
-For additional information on shift-based reservations, see [Enable shift-based reservation](https://www.servicenow.com/docs/access?context=wsd-reservation-setup&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on shift-based reservations, see Enable shift-based reservation.
 
 Data type: String
 

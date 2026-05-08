@@ -25,15 +25,15 @@ Role required: sn\_si.admin
 
 2.  Complete the configuration for updating tickets when the security incident is created.
 
-<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d456950e75">
+<table id="choicetable_bsh_yxn_kjb"><thead><tr><th align="left" id="d456946e75">
 
 Option or Field
 
-</th><th align="left" id="d456950e78">
+</th><th align="left" id="d456946e78">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d456950e84">
+</th></tr></thead><tbody><tr><td id="d456946e84">
 
 **Update SIR worknotes with Secureworks worklogs**
 
@@ -47,7 +47,7 @@ Select this option to enable the Secureworks worklogs and SIR work notes synchro
 -   If the synchronization feature is enabled, only worklogs created or updated after a security incident has been created are retrieved.
 
 
-</td></tr><tr><td id="d456950e112">
+</td></tr><tr><td id="d456946e112">
 
 **Update Secureworks tickets upon SIR Incident Creation**
 
@@ -55,7 +55,7 @@ Select this option to enable the Secureworks worklogs and SIR work notes synchro
 
 Select this option to update the Secureworks CTP ticket and add additional comments when a security incident is created from the ticket. This can occur for both the initial triggering tickets that create the security incident, as well as aggregated tickets.
 
-</td></tr><tr><td id="d456950e124">
+</td></tr><tr><td id="d456946e124">
 
 **Initial comments posted back to Secureworks ticket**
 
@@ -63,7 +63,7 @@ Select this option to update the Secureworks CTP ticket and add additional comme
 
 When a security incident is created, the ticket is automatically updated in Secureworks CTP with comments. You can modify the default text and use the $\{field name\}$ format to add or modify any fields available in the security incident form.
 
-</td></tr><tr><td id="d456950e136">
+</td></tr><tr><td id="d456946e136">
 
 **Close Secureworks tickets upon SIR Incident Closure**
 
@@ -71,7 +71,7 @@ When a security incident is created, the ticket is automatically updated in Secu
 
 Select this option if you want to use the automated ticket closure option. This can occur for both the initial triggering tickets that create the security incident, as well as aggregated tickets. When a security incident is closed, the corresponding ticket is automatically closed in Secureworks CTP along with the same close code as the security incident and the default closure comments specified in the profile. **Note:** You cannot use this option to update the Master Ticket status.
 
-</td></tr><tr><td id="d456950e152">
+</td></tr><tr><td id="d456946e152">
 
 **Closure comments posted back to Secureworks ticket**
 

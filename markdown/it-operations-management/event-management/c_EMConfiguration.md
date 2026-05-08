@@ -19,7 +19,7 @@ After activating Event Management, set it up to receive and process events, and 
 
 Set up Event Management by completing these tasks in the following order:
 
-1.  Configure a [MID Server](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to receive and process events via the MID Server.
+1.  Configure a MID Server to receive and process events via the MID Server.
 2.  [Configure the MID Web Server extension](../task/configure-mid-web-server-extension.md).
 3.  Configure [Configure Event Management connectors](../reference/connectors-and-listeners.md).
 4.  Configure [event field mappings](c_EMEventFieldMapping.md) and [Binding alerts to CIs](ci-binding-alert.md) to manage alert generation.
@@ -34,5 +34,5 @@ Set up Event Management by completing these tasks in the following order:
 
 ## Event Management setup using guided setup
 
-Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 

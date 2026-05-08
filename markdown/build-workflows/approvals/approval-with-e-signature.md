@@ -72,7 +72,7 @@ Approval with e-signature supports these types of user credential sources.
 -   A set of local User \[sys\_user\] records.
 -   A remote identity provider service accessed by the Multi-Provider Single Sign-On \(SSO\) integration.
 
-User credentials must be set up before enabling Approvals with e-signature. See [Creating users](https://www.servicenow.com/docs/access?context=ua-creating-users&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to create local User records.
+User credentials must be set up before enabling Approvals with e-signature. See Creating users to create local User records.
 
-See [Multi-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
+See Multi-Provider single sign-on \(SSO\) to create an integration to a Security Assertion Markup Language \(SAML\) 2.0 identity provider.
 

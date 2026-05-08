@@ -54,5 +54,5 @@ Role required: workspace\_admin or ui\_builder\_admin​
 **Related topics**  
 
 
-[Configure UI Builder workspace experiences](https://www.servicenow.com/docs/access?context=ui-builder-workspace-settings&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.ui-builder-workspace-settings]
 

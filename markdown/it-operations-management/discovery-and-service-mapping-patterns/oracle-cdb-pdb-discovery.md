@@ -27,9 +27,9 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Set the user credentials and grant permissions:
 
--   Configure [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   For Windows, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   For Unix, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Configure Applicative credentials.
+-   For Windows, configure Windows credentials
+-   For Unix, configure SSH credentials
 -   For the Oracle database, configure [Oracle database discovery](../../discovery/concept/c_OracleDatabaseDiscovery.md)
 -   Provide a user with permissions to run queries on the following tables:
     -   V$DATAFILE

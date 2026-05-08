@@ -25,7 +25,7 @@ This API collects the following search data:
 -   Table names and record identifiers from the first page of search results
 -   Search results clicked, including browser and location
 
-Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://www.servicenow.com/docs/access?context=search-suggestions-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Search Suggestions is a ServiceNow AI Platform feature. For more information, see Search Suggestions.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

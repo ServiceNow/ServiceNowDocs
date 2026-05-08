@@ -20,9 +20,9 @@ Enable cost allocation for each Kubernetes cluster before you run a Google Cloud
 Role required: Google Cloud administrator
 
 -   You should be familiar with Google Cloud policies.
--   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see [Install Discovery and Service Mapping Patterns](https://www.servicenow.com/docs/access?context=install-discovery-service-mapping-patterns&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
--   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see [CMDB CI Class Models app](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
--   To set up Kubernetes discovery, see [Kubernetes discovery using patterns](https://www.servicenow.com/docs/access?context=kubernetes-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   Install Discovery and Service Mapping Patterns application \(sn\_itom\_pattern\) 1.10.2 or higher. For more information, see Install Discovery and Service Mapping Patterns.
+-   Install CMDB CI Class Models \(sn\_cmdb\_ci\_class\) version 1.53.1 or higher. For more information, see CMDB CI Class Models app.
+-   To set up Kubernetes discovery, see Kubernetes discovery using patterns.
 
 ## About this task
 

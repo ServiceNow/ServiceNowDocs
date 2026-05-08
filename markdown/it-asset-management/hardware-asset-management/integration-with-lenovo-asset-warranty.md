@@ -18,7 +18,7 @@ The Lenovo Asset Warranty Flow enables you to get the warranty information of ha
 Integration with Lenovo has the following requirements:
 
 -   The Hardware Asset Management application \(sn\_hamp\) must be activated.
--   The Lenovo Spoke \(sn\_lenovo\_spoke\) installed on your ServiceNow instance from the ServiceNow Store. For detailed information, see [Lenovo Spoke](https://www.servicenow.com/docs/access?context=lenovo-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   The Lenovo Spoke \(sn\_lenovo\_spoke\) installed on your ServiceNow instance from the ServiceNow Store. For detailed information, see Lenovo Spoke.
 -   The Client ID from Lenovo to connect to the Lenovo Warranty API.
 
     **Note:** If you don’t have a Client ID, contact your organization's Lenovo sales or service representative.

@@ -21,7 +21,7 @@ Your administrator must have completed the following tasks:
 
 -   [Install Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](messg-direct-whatsapp-install.md).
 -   [Activate Advanced Work Assignment](../../advanced-work-assignment/task/awa-activate.md).
--   Set the application scope to Conversational Integration with WhatsApp \(WhatsApp Cloud API\) using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Set the application scope to Conversational Integration with WhatsApp \(WhatsApp Cloud API\) using the application picker. For more information, see Application picker.
 -   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](activate-messaging-actions.md).
 
 Role required: admin

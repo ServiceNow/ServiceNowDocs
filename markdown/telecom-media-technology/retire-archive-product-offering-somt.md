@@ -36,7 +36,7 @@ You can maintain only one active version of the product offering. After a produc
 
 4.  To view the previous versions that are related to this product offering, select **More** &gt; **Versions \(n\)**, where n represents the number of base and previous product offering versions.
 
-    For detailed information about the field descriptions [Product Offering Versions form](https://www.servicenow.com/docs/access?context=field-descriptions-product-offering-form&version=australia&pubname=australia-order-management&ft:locale=en-US).
+    For detailed information about the field descriptions Product Offering Versions form.
 
 5.  From the Versions \(n\) tab, you can select one or more product offering versions to retire or archive.
 

@@ -75,7 +75,7 @@ Attach policy as PDF
 
 Attach the policy document as a PDF to the Knowledge Base article. Attaching a PDF is recommended if your Microsoft OneDrive, Microsoft SharePoint, or Google Drive document and the **Policy text** field aren’t in sync.1.  Select **Attach** to append the PDF to the policy.
 2.  Select **Mark Complete**.
-**Note:** Starting with the Xanadu release you can also generate accessible PDFs. In order to generate an accessible PDF you must set the property **com.snc.document.conversion.accessibility\_enabled** to true. To enable the property, see [Enable accessibility features for DOCX to PDF conversion](https://www.servicenow.com/docs/access?context=enable-accessibility-docx-to-pdf&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** Starting with the Xanadu release you can also generate accessible PDFs. In order to generate an accessible PDF you must set the property **com.snc.document.conversion.accessibility\_enabled** to true. To enable the property, see Enable accessibility features for DOCX to PDF conversion.
 
 </td></tr><tr><td>
 

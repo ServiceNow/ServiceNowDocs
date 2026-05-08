@@ -42,13 +42,13 @@ options="{ 'tracking_profile_name': '{PROFILE_NAME}', 'enable_logging': false}"
 
 3.  If necessary, clone the header.
 
-    For more information, see [Service Portal configuration page](https://www.servicenow.com/docs/access?context=service-portal-configuration-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). Or, you can use Angular Providers, see [Reuse components with Angular Providers](https://www.servicenow.com/docs/access?context=angular-providers&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Service Portal configuration page. Or, you can use Angular Providers, see Reuse components with Angular Providers.
 
 4.  If using a clone from the Content Publishing header, search for the cda-site-analytics widget tag in the **Body HTML template** field.
 
 5.  Then replace PROFILE\_NAME with the profile that you want to use for tracking.
 
-    For more information, see [Configure a portal header menu](https://www.servicenow.com/docs/access?context=configure-header-menu&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Configure a portal header menu.
 
 6.  If you’re using a different header, add the following to the Body HTML and replace PROFILE\_NAME:
 
@@ -63,7 +63,7 @@ options="{ 'tracking_profile_name': '{PROFILE_NAME}', 'enable_logging': false}"
 
     Track Employee Center events
 
-    To track Employee Center events, add the cdaAnalytics service to your custom widgets. See [Widget developer guide](https://www.servicenow.com/docs/access?context=widget-dev-guide&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    To track Employee Center events, add the cdaAnalytics service to your custom widgets. See Widget developer guide.
 
     For example:
 

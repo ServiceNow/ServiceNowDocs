@@ -17,9 +17,9 @@ These are examples of script definitions you might create for retrieval and cach
 
 For Remote Table API information, refer to:
 
--   [v\_query – Scoped, Global](https://www.servicenow.com/docs/access?context=v_queryAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [v\_record - Scoped, Global](https://www.servicenow.com/docs/access?context=v_recordAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [v\_table – Scoped, Global](https://www.servicenow.com/docs/access?context=v_tableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   v\_query – Scoped, Global
+-   v\_record - Scoped, Global
+-   v\_table – Scoped, Global
 
 ```javascript
 /**
@@ -120,7 +120,7 @@ function fetchAllIncidents(v_table, v_query) {
 
 You can create a RestMessage and directly use it in the script. In this example, it uses a RESTMessageV2 API with the name of `Remote Instance Incidents`, and the function `All Incidents`, which gets all incident data. Once a response is returned from the server, an error message appears if problems are encountered in the data retrieval.
 
-**Note:** To learn more about use of RESTMessageV2 and how to define a direct message, see [RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [Direct RESTMessageV2 example](https://www.servicenow.com/docs/access?context=r_DirectRESTMessageV2Example&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** To learn more about use of RESTMessageV2 and how to define a direct message, see RESTMessageV2 - Scoped, Global and Direct RESTMessageV2 example.
 
 If no problems are encountered in the data retrieval, it gets the data body for the records.
 
@@ -176,9 +176,9 @@ It then uses the Transformer API to perform any required data transformations, e
 
 [Debugging remote table script definitions](debugging-remote-table-scripts.md)
 
-[TransformerDefinition API - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerDefinitionAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.TransformerDefinitionAPI]
 
-[TransformerRuleList API - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerRuleListAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.TransformerRuleListAPI]
 
-[TransformerScripted API - Scoped, Global](https://www.servicenow.com/docs/access?context=TransformerScriptedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.TransformerScriptedAPI]
 

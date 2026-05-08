@@ -25,7 +25,7 @@ If you create a function field directly on the database view, you must use the v
 
 For example, if the variable prefix for the Incidents table is `inc2` and you want to return the length of the description field, the function definition would be `glidefunction:length(inc2_description)`. If the variable prefix for the Metric Instance table is `mi` and you want to concatenate the Definition and Value fields, the function definition would be `glidefunction:concat(mi_definition.name,' ',mi_value)`.
 
-For information on supported functions, see [Report on function fields](https://www.servicenow.com/docs/access?context=function-fields-reporting&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For information on supported functions, see Report on function fields.
 
 ## Procedure
 

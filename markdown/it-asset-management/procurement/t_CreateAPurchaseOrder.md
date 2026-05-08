@@ -281,5 +281,5 @@ You can reorder a purchase order line item that was canceled.
 
 [Create an asset and reserve it for the requester](t_CreateAssetReserveForRequester.md)
 
-[Manage transfer orders](https://www.servicenow.com/docs/access?context=c_TransferOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[bundle-fsm.c_TransferOrders]
 

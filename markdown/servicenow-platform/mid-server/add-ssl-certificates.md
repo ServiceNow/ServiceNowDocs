@@ -64,7 +64,7 @@ During this migration process, a backup of the original and upgrade TrustStores 
 
     For example, you might enter: `keytool -import -alias MyCA -file "C:\myca.cer" -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 
-    **Note:** The keytool prompts you for a certificate password. If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see [Upload a certificate to an instance](https://www.servicenow.com/docs/access?context=t_UploadACertificateToAnInstance&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** The keytool prompts you for a certificate password. If the certificate is for a CA, the keytool also asks whether to trust the certificate authority. To add a certificate to an instance, see Upload a certificate to an instance.
 
 3.  Display a list of the current certificates by running the command: `keytool.exe -list -keystore "C:\Mid Server\agent\jre\lib\security\cacerts"`
 

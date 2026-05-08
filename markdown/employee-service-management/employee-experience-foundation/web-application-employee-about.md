@@ -57,9 +57,9 @@ Understand how AI Search is integrated with App launcher for better application 
 
 Ensure you understand how to configure and enable AI search capabilities, see the following AI Search topics:
 
--   [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Configuring navigation tabs in AI Search](https://www.servicenow.com/docs/access?context=config-nav-tabs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Search sources](https://www.servicenow.com/docs/access?context=search-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Configuring AI Search
+-   Configuring navigation tabs in AI Search
+-   Search sources
 
 **Related topics**  
 

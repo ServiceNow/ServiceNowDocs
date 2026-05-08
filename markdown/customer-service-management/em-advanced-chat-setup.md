@@ -67,7 +67,7 @@ Agent Whisper
 
 </td><td>
 
-Option to enable Agent Whisper, which enables agents to message supervisors without the requester knowing.For more information, see [Agent Whisper](https://www.servicenow.com/docs/access?context=ci-agent-whisper&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Option to enable Agent Whisper, which enables agents to message supervisors without the requester knowing.For more information, see Agent Whisper.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Emoji Enabled
 
 </td><td>
 
-Option to enable the ability to include emojis in Agent Chat. For more information, see [Using emojis in Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&version=australia&pubname=australia-conversational-interfaces&section=ac-using-emojis-agent-chat&ft:locale=en-US).
+Option to enable the ability to include emojis in Agent Chat. For more information, see Using emojis in Agent Chat.
 
 </td></tr><tr><td>
 

@@ -112,7 +112,7 @@ Role required: admin
         -   Generated: States if it has been generated or recently created
         -   Start time: States the start time of testing of the test suite
         -   Duration: States the total duration for the testing of the test suite
-    -   ATF troubleshooting agent: Select ATF troubleshooting agent to identify the root cause of test failures on specific metadata. See [ATF troubleshooting agent](https://www.servicenow.com/docs/access?context=atf-troubleshooting-agent-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+    -   ATF troubleshooting agent: Select ATF troubleshooting agent to identify the root cause of test failures on specific metadata. See ATF troubleshooting agent for more information.
 4.  Prepare next environment.
 
     In this step, you can see the currently selected upgrade plan. You then prepare the update set and export it to the next production or non-production instance. This task is used to ensure that all necessary modifications are applied to the next production or non-production instance.

@@ -28,11 +28,11 @@ See for more information.
 
     Accept risk for hardening settings that are not applicable to your organization's security requirements. When accepting risk, provide a mandatory justification and review the projected security score impact before saving your decision. The compliance status updates to **Accepted Risk** and reflects in all security score calculations. Use the **Accept Risk Settings** filter to quickly identify and manage all accepted risk items across your instance.
 
--   **[Granular admin role for Security Center](https://www.servicenow.com/docs/access?context=granular-sc-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Granular admin role for Security Center**
 
     The granular admin role enables developers and administrators to complete administrative configuration tasks for Security Center without requiring the full admin role.
 
--   **[Explore Access management console](https://www.servicenow.com/docs/access?context=access-controls-console&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Explore Access management console**
 
     Use the new Access Controls console within Security Center to review and remediate access issues and misconfigurations. The Access Controls console provides enhanced visibility and control of your Access Analyzer findings, and streamlines remediation efforts by enabling you to track, prioritize, and resolve access issues by assigning tasks.
 
@@ -47,7 +47,7 @@ See for more information.
 
 ## Changed in this release
 
--   **[Security Hardening tool Updates](https://www.servicenow.com/docs/access?context=security-hardening-settings&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Security Hardening tool Updates**
 
     The security Hardening tool has been updated to the latest Instance Security Hardening Settings V7.
 

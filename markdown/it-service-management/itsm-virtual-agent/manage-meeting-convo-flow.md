@@ -21,11 +21,11 @@ Natural Language Understanding \(NLU\) is used to identify and trigger the meeti
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_ex\_online\_spke\)
+-   Microsoft Exchange Online spoke \(sn\_ex\_online\_spke\)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some actions can use the [Microsoft Teams Communication spoke](https://www.servicenow.com/docs/access?context=msteams-comm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
--   Some actions can use the [Cisco Webex Teams spoke](https://www.servicenow.com/docs/access?context=cisco-teams-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_cisco\_teams\_spk\)
--   Some actions can use the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)\(com.sn.zoom.spoke\) to add meeting links
+-   Some actions can use the Microsoft Teams Communication spoke \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
+-   Some actions can use the Cisco Webex Teams spoke \(sn\_cisco\_teams\_spk\)
+-   Some actions can use the Zoom spoke\(com.sn.zoom.spoke\) to add meeting links
 -   This topic uses the [Employee Experience VA topic blocks](employee-experience-va-topicblocks.md)
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
@@ -67,10 +67,10 @@ This topic is deprecated. Use Manage Meetings EXO v1.0 instead.
 
 Requirements:
 
--   [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=ms-exch-online-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   Microsoft Exchange Online spoke
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some actions can use the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)\(com.sn.zoom.spoke\) to add meeting links
--   Some actions can use the [Microsoft Teams Communication spoke](https://www.servicenow.com/docs/access?context=msteams-comm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
+-   Some actions can use the Zoom spoke\(com.sn.zoom.spoke\) to add meeting links
+-   Some actions can use the Microsoft Teams Communication spoke \(sn\_msteams\_com\_spk\) to send meeting links to Microsoft Teams
 
 **Note:** If this topic is duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 

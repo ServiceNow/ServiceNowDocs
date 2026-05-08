@@ -12,7 +12,7 @@ reading_time_minutes: 1
 
 Additional plugins are available for Connect Support. These plugins integrate Connect Support with other features and provide capabilities to track performance metrics.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin .
 
 <table id="table_gzd_yj1_4v"><thead><tr><th>
 

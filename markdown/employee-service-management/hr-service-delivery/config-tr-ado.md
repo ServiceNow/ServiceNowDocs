@@ -27,7 +27,7 @@ Role required: sn\_hr\_oracle\_adv.admin
 
 2.  Add the BI report path in the Oracle HCM system.
 
-    This is required for the Get Total Rewards Action to pull Oracle HCM total rewards information into the ServiceNow instance. For more information, see set up [Oracle HCM Cloud spoke](https://www.servicenow.com/docs/access?context=setup-oracle-hcm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    This is required for the Get Total Rewards Action to pull Oracle HCM total rewards information into the ServiceNow instance. For more information, see set up Oracle HCM Cloud spoke.
 
 3.  Click **Submit**.
 

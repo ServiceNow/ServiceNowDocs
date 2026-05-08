@@ -29,9 +29,9 @@ The Walk-up Experience service channel is viewed and configured through Advanced
 
 2.  Select **Walk-up** to open the Walk-up Experience service channel.
 
-3.  Refer to [Configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for detailed information regarding the Service Channel Walk-up form values and conditions.
+3.  Refer to Configure a service channel for detailed information regarding the Service Channel Walk-up form values and conditions.
 
-    For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to [Service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to Service channels.
 
 
 **Parent Topic:**[Configuring Walk-up Experience](../concept/walkup-experience-configuration.md)

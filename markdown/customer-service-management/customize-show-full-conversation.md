@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on UI Builder, see UI Builder.
 
 **Note:** By default, **Enable Email Show full conversation** is enabled for Email Interaction for CSM.
 

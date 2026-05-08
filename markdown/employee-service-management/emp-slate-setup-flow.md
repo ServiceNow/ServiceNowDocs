@@ -1,6 +1,6 @@
 ---
 title: Employee Slate setup flow
-description: Setting up Employee Slate requires configuration steps in two systems: theServiceNow Product Configuration console and the Moveworks setup experience.
+description: Setting up Employee Slate requires configuration steps in two systems: The ServiceNow Product Configuration console and the Moveworks setup experience.
 locale: en-US
 release: australia
 topic_type: concept
@@ -11,7 +11,7 @@ breadcrumb: [Employee Slate, Employee Service Management]
 
 # Employee Slate setup flow
 
-Setting up Employee Slate requires configuration steps in two systems: theServiceNow Product Configuration console and the Moveworks setup experience.
+Setting up Employee Slate requires configuration steps in two systems: The ServiceNow Product Configuration console and the Moveworks setup experience.
 
 You can install the following applications from store.
 

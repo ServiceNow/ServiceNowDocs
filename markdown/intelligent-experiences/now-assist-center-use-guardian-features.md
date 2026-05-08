@@ -37,7 +37,7 @@ Now Assist Guardian provides safety and governance controls for AI-generated con
 
 In Now Assist Center, the integration of Now Assist Guardian includes multi-tabbing support for working with safety and governance controls without leaving the application context.
 
-For more information on Now Assist Guardian, see [Now Assist Guardian](https://www.servicenow.com/docs/access?context=now-assist-guardian&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on Now Assist Guardian, see Now Assist Guardian.
 
 ## Procedure
 
@@ -69,7 +69,7 @@ This guardrail attempts to override LLM instructions or expose restricted inform
 
  Select **Prompt injection** to open the Prompt injection tab.
 
- For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://www.servicenow.com/docs/access?context=configure-prompt-injection-attack-protection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ For more information on how to configure this guardrail, see Configure prompt injection attack protection.
 
 </td></tr><tr><td id="d167112e260">
 
@@ -81,7 +81,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  Select **Offensiveness** to open the Offensiveness tab.
 
- For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://www.servicenow.com/docs/access?context=activate-offensiveness-protection-for-generative-ai&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ For more information on how to configure this guardrail, see Activate offensiveness protection for generative AI.
 
 </td></tr><tr><td id="d167112e288">
 
@@ -93,7 +93,7 @@ This guardrail filters subjects not suited for AI responses, such as workplace s
 
  Select **Sensitive Filters** to open the Filters tab.
 
- For more information on how to configure this guardrail, see [Configure sensitive topic filters](https://www.servicenow.com/docs/access?context=configure-sensitive-topic-filters&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ For more information on how to configure this guardrail, see Configure sensitive topic filters.
 
 </td></tr></tbody>
 </table>

@@ -64,7 +64,7 @@ Build the foundation
 
 </td><td>
 
-[ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-dashboard-indicator-landing&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+ITSM Success Dashboard indicators
 
 </td><td>
 
@@ -72,7 +72,7 @@ Use ITSM Success Dashboard to get an insight to the IT leadership team and proce
 
 </td><td>
 
-[Roles installed with ITSM Success Dashboard indicators](https://www.servicenow.com/docs/access?context=success-roles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Roles installed with ITSM Success Dashboard indicators
 
 </td><td>
 
@@ -84,7 +84,7 @@ Build the foundation
 
 </td><td>
 
-[Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Employee Center
 
 </td><td>
 
@@ -92,11 +92,11 @@ Use the Employee Center portal to experience a standard multi-department, dynami
 
 </td><td>
 
-[Roles installed with Employee Center](https://www.servicenow.com/docs/access?context=emp-center-personas&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Roles installed with Employee Center
 
 </td><td>
 
--   [Employee Center limitations and support](https://www.servicenow.com/docs/access?context=explore-emp-center&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Employee Center limitations and support
 -   [Employee Center \(ServiceNow Community](https://www.servicenow.com/community/employee-center/ct-p/employee-center)
 -   [Employee Center success story](https://www.servicenow.com/success/success-map/employee-center.html)
 -   [Employee Center implementation success story](https://www.servicenow.com/success/success-map/employee-center/implement.html)
@@ -107,7 +107,7 @@ Build the foundation
 
 </td><td>
 
-[Configure Walk-up Experience for Customer Service Management](https://www.servicenow.com/docs/access?context=configure-walk-up-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Configure Walk-up Experience for Customer Service Management
 
 </td><td>
 
@@ -115,11 +115,11 @@ Use the Walk-up Experience application to create and manage an on-site IT walk-u
 
 </td><td>
 
-[Roles installed with Walk-up Experience](https://www.servicenow.com/docs/access?context=csm-walkup-experience-dashboard&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Roles installed with Walk-up Experience
 
 </td><td>
 
-[Walk-up Experience limitations and support](https://www.servicenow.com/docs/access?context=walkup-experience-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Walk-up Experience limitations and support
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Build the foundation
 
 </td><td>
 
-[Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=sow-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Service Operations Workspace for ITSM
 
 </td><td>
 
@@ -135,11 +135,11 @@ Use the Service Operations Workspace interface to unify and configure your agent
 
 </td><td>
 
-[Roles installed with Service Operations Workspace for ITSM](https://www.servicenow.com/docs/access?context=components-installed-with-sow-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+Roles installed with Service Operations Workspace for ITSM
 
 </td><td>
 
--   [Service Operations Workspace limitations and support](https://www.servicenow.com/docs/access?context=explore-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   Service Operations Workspace limitations and support
 -   [Service Operations Workspace overview](https://www.servicenow.com/products/service-operations-workspace.html)
 
 </td></tr><tr><td>
@@ -148,7 +148,7 @@ Build the foundation
 
 </td><td>
 
-[Survey Management](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Survey Management
 
 </td><td>
 
@@ -156,11 +156,11 @@ Use the Assessments and Surveys application to create, send, and collect respons
 
 </td><td>
 
-[Roles installed with Survey Management](https://www.servicenow.com/docs/access?context=r_SurveyManagementRoles&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Roles installed with Survey Management
 
 </td><td>
 
--   [Survey Management limitations and support](https://www.servicenow.com/docs/access?context=c_SurveyServicePortal&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Survey Management limitations and support
 -   [Survey Management overview](https://www.servicenow.com/products/survey-assessment.html)
 
 </td></tr><tr><td>
@@ -169,7 +169,7 @@ Build the foundation
 
 </td><td>
 
-[Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Benchmarks
 
 </td><td>
 
@@ -177,11 +177,11 @@ Use the Benchmarks application to compare the performance of your organization w
 
 </td><td>
 
-[Roles installed with Benchmarks](https://www.servicenow.com/docs/access?context=c_BenchRoles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Roles installed with Benchmarks
 
 </td><td>
 
-[Benchmarks limitations and support](https://www.servicenow.com/docs/access?context=c_BenchOverview&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Benchmarks limitations and support
 
 </td></tr><tr><td>
 
@@ -189,7 +189,7 @@ Build the foundation
 
 </td><td>
 
-[Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Incident Management
 
 </td><td>
 
@@ -197,11 +197,11 @@ Use the Incident Management application to enrich IT experience by restoring nor
 
 </td><td>
 
-incident\_manager and [Roles installed with Incident Management](https://www.servicenow.com/docs/access?context=request-itsm-roles-rm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+incident\_manager and Roles installed with Incident Management
 
 </td><td>
 
--   [Incident Management limitations and support](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   Incident Management limitations and support
 -   [Automate change and incident management Playbook](https://www.servicenow.com/success/playbook/change-and-incident-management.html)
 -   [Incident Management Overview \(video\)](https://youtu.be/ryxjWBOq3sQ)
 
@@ -211,7 +211,7 @@ Build the foundation
 
 </td><td>
 
-[Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Knowledge Management
 
 </td><td>
 
@@ -219,12 +219,12 @@ Use the Knowledge Management application to share information in knowledge bases
 
 </td><td>
 
-[Roles installed with Knowledge Management](https://www.servicenow.com/docs/access?context=r_KnowledgeRoles&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Roles installed with Knowledge Management
 
 </td><td>
 
 -   [Knowledge Management \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management/ct-p/knowledge-management)
--   [Knowledge Management limitations and support](https://www.servicenow.com/docs/access?context=exploring-knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Knowledge Management limitations and support
 
 </td></tr><tr><td>
 
@@ -232,7 +232,7 @@ Build the foundation
 
 </td><td>
 
-[Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Service Catalog
 
 </td><td>
 
@@ -240,11 +240,11 @@ Use the Service Catalog application to self-create service catalogs contributing
 
 </td><td>
 
-[Roles installed with Service Catalog](https://www.servicenow.com/docs/access?context=r_ServiceCatalogManagementTermsandRoles&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Roles installed with Service Catalog
 
 </td><td>
 
--   [Service Catalog limitations and support](https://www.servicenow.com/docs/access?context=scoping-support-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Service Catalog limitations and support
 -   [Service Catalog success story](https://www.servicenow.com/success/playbook/service-catalog-design.html)
 
 </td></tr><tr><td>
@@ -274,7 +274,7 @@ Build the foundation
 
 </td><td>
 
-[Legacy: Performance Analytics ITSM Dashboards](https://www.servicenow.com/docs/access?context=itsm-dashboards-content-pack&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Legacy: Performance Analytics ITSM Dashboards
 
 </td><td>
 
@@ -282,7 +282,7 @@ Use the Performance Analytics ITSM Dashboards content pack to access the preconf
 
 </td><td>
 
-[Roles installed with Performance Analytics ITSM Dashboard](https://www.servicenow.com/docs/access?context=success-roles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Roles installed with Performance Analytics ITSM Dashboard
 
 </td><td>
 
@@ -294,7 +294,7 @@ Build the foundation
 
 </td><td>
 
-[Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Service Portal
 
 </td><td>
 
@@ -302,11 +302,11 @@ Use Service Portal to build a mobile-friendly self-service portal experience for
 
 </td><td>
 
-[Roles installed with Service Portal](https://www.servicenow.com/docs/access?context=r_CustomerServicePortalUserRoles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Roles installed with Service Portal
 
 </td><td>
 
--   [Service Portal limitations and support](https://www.servicenow.com/docs/access?context=unsupported-features-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Service Portal limitations and support
 -   [Service Portal \(ServiceNow Community\)](https://www.servicenow.com/community/service-portal/ct-p/service-portal)
 
 </td></tr><tr><td>
@@ -315,7 +315,7 @@ Enhance the experience
 
 </td><td>
 
-[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+Virtual Agent
 
 </td><td>
 
@@ -323,11 +323,11 @@ Unlock your enterprise productivity with ServiceNow® Virtual Agent. Provide you
 
 </td><td>
 
-[Roles installed with Virtual Agent](https://www.servicenow.com/docs/access?context=localization-roles-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+Roles installed with Virtual Agent
 
 </td><td>
 
--   [Virtual Agent limitations and support](https://www.servicenow.com/docs/access?context=exploring-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Virtual Agent limitations and support
 -   [Virtual Agent success story](https://www.servicenow.com/success/success-map/itsm-intelligent-automation/virtual-agent.html#csc-hub)
 
 </td></tr><tr><td>
@@ -336,7 +336,7 @@ Enhance the experience
 
 </td><td>
 
-[Predictive Intelligence Workbench ITSM content](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+Predictive Intelligence Workbench ITSM content
 
 </td><td>
 
@@ -377,7 +377,7 @@ Enhance the experience
 
 </td><td>
 
-[ITSM Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=manage-citrix-convo-flow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+ITSM Virtual Agent Conversations
 
 </td><td>
 
@@ -389,7 +389,7 @@ Uses bases system roles. See [Base system roles](../../roles/reference/r_BaseSys
 
 </td><td>
 
-[ITSM Virtual Agent Conversations support](https://www.servicenow.com/docs/access?context=va-conversation-settings&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+ITSM Virtual Agent Conversations support
 
 </td></tr><tr><td>
 
@@ -397,7 +397,7 @@ Optimize the functionality
 
 </td><td>
 
-[Implement NLU in Virtual Agent](https://www.servicenow.com/docs/access?context=implement-nlu-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+Implement NLU in Virtual Agent
 
 </td><td>
 
@@ -409,7 +409,7 @@ virtual\_agent\_admin
 
 </td><td>
 
-[NLU support](https://www.servicenow.com/docs/access?context=nlu-language-support&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+NLU support
 
 </td></tr><tr><td>
 
@@ -417,7 +417,7 @@ Add advanced features
 
 </td><td>
 
-[Discovery](https://www.servicenow.com/docs/access?context=r-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+Discovery
 
 </td><td>
 
@@ -429,7 +429,7 @@ discovery\_admin
 
 </td><td>
 
-[Discovery limitations and support](https://www.servicenow.com/docs/access?context=db-full-disk-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Discovery limitations and support
 
 </td></tr><tr><td>
 
@@ -437,7 +437,7 @@ Add advanced features
 
 </td><td>
 
-[Automation Discovery](https://www.servicenow.com/docs/access?context=automation-discovery&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+Automation Discovery
 
 </td><td>
 
@@ -445,11 +445,11 @@ Automation Discovery helps you identify automation opportunities for your workfl
 
 </td><td>
 
-[Roles installed with Automation Discovery](https://www.servicenow.com/docs/access?context=installed-with-automation-discovery&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) and nlu\_admin
+Roles installed with Automation Discovery and nlu\_admin
 
 </td><td>
 
--   [Automation Discovery limitations and support](https://www.servicenow.com/docs/access?context=automation-discovery&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+-   Automation Discovery limitations and support
 -   [Automation Discovery overview](https://www.servicenow.com/products/automation-discovery.html)
 
 </td></tr><tr><td>
@@ -458,7 +458,7 @@ Add advanced features
 
 </td><td>
 
-[Intent Discovery](https://www.servicenow.com/docs/access?context=intent-discovery&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+Intent Discovery
 
 </td><td>
 

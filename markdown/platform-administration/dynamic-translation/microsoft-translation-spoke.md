@@ -56,7 +56,7 @@ For information on Microsoft Translator Text API, see the [Microsoft](https://do
 
 ## Connection and credential alias requirements
 
-IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+IntegrationHub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see Credentials and connection information.
 
 To use the spoke connection aliases, create an associated connection record and a credential record for each alias.
 

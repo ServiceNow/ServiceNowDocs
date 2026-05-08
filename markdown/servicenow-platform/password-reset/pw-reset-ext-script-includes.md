@@ -445,5 +445,5 @@ SampleVerificationFormProcessor.prototype = {
 **Related topics**  
 
 
-[Extension points](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 

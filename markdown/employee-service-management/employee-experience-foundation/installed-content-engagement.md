@@ -15,9 +15,9 @@ breadcrumb: [Employee Center Pro reference, Employee Center Pro, Unified Employe
 
 Several types of components are installed with activation of the Content engagement plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
-For more information about tables, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about tables, see Table administration.
 
 ## Roles installed
 

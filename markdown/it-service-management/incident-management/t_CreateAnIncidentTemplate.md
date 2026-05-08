@@ -29,7 +29,7 @@ Let us consider an example where you want to create a template to log an inciden
 
     You can also [Create a template from the incident form](create-template-inci-form.md).
 
-2.  Complete the steps in [Create a template using the Template form](https://www.servicenow.com/docs/access?context=t_CreateATemplateUsingTheTmplForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US) using the following information:
+2.  Complete the steps in Create a template using the Template form using the following information:
 
     -   **Name**: `Bond Trading Access Denied`
     -   **Table**: Incident \[incident\]

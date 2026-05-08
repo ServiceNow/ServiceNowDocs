@@ -22,7 +22,7 @@ Some large companies must update the **com.snc.pa.dc.max\_row\_count\_indicator\
 
 Update the **com.snc.pa.dc.max\_row\_count\_indicator\_source** system property to be the greater value between your subscriptions for the two groups. For example, if you have 60,000 user subscriptions for [SaaS applications](create-integration-profile.md) combined and 25,000 user subscriptions for [Adobe Cloud](adobe-cloud-integration.md) and [Microsoft 365](integrate-with-microsoft.md) combined, update the property to be `60,000`.
 
-**Note:** For more information about how to use the **com.snc.pa.dc.max\_row\_count\_indicator\_source** property, see [Data collector properties](https://www.servicenow.com/docs/access?context=pa-properties&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Note:** For more information about how to use the **com.snc.pa.dc.max\_row\_count\_indicator\_source** property, see Data collector properties.
 
 **Parent Topic:**[SaaS License Management](sam-subscription-management.md)
 

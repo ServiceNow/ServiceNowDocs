@@ -20,9 +20,9 @@ Use the Triage and categorize ITSM incidents AI agent team to assign incident ca
 
 Using the Triage and categorize ITSM incidents agentic workflow, autonomously assign incident categories by assigning a category and a subcategory to incidents based on the incident short description. After categorizing the incident, assign the service, service offering, and configuration item \(CI\) related to the incident. Then, automatically link incidents to major incidents or known problems.
 
-To modify the Triage and categorize ITSM incidents agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the Triage and categorize ITSM incidents agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
-**Note:** You must enable the semantic indexing for the Problem table when you duplicate the agentic workflow. For more information, see [Semantic Index Field form](https://www.servicenow.com/docs/access?context=semantic-index-field-form&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** You must enable the semantic indexing for the Problem table when you duplicate the agentic workflow. For more information, see Semantic Index Field form.
 
 **Important:** When you modify an agentic workflow, AI agent, or a tool, make sure that you update all instructions accordingly.
 

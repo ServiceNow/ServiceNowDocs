@@ -31,7 +31,7 @@ Role required: admin
 ## What to do next
 
 -   Ensure that AI Search is installed and provisioned for your instance. Navigate to **All** &gt; **AI Search** &gt; **AI Search Status**
--   Set up Now Assist in Virtual Agent. See [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   Set up Now Assist in Virtual Agent. See Configuring assistants overview.
 -   You can add or modify the question prompts to be asked by Agent assist in Virtual Agent while creating a demand for the user. See [Configure the questions for demand creation in Now Assist for Strategic Portfolio Management \(SPM\)](configure-questions-for-demand-creation.md).
 
 

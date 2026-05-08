@@ -71,7 +71,7 @@ See the constituent drill-down views and their contextual descriptions for KPIs.
     ![Third level indicators of the HR Success Dashboard indicators displayed](../image/thrd-lvl-indtr.png "Third level breakdown indicators")
 
 
-This level drill-down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See [KPI details](https://www.servicenow.com/docs/access?context=kpi-details&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information.
+This level drill-down helps you view the record-level details of the indicator when you have the `sn_sd.success_dashboard_details_read` user permissions. See KPI details for more information.
 
 ## More Information panel in HR Success Dashboard indicators
 

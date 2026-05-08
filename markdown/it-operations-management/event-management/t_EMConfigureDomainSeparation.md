@@ -79,7 +79,7 @@ Remediation
 
 Supported. While editing alert management rules, users can only apply relevant workflows.
 
-For more information on domain separation in the Flow Designer, see [Domain separation and Flow Designer.](https://www.servicenow.com/docs/access?context=flow-designer-domain-separation&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+For more information on domain separation in the Flow Designer, see Domain separation and Flow Designer.
 
 </td></tr><tr><td>
 

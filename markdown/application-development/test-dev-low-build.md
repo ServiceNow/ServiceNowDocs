@@ -23,7 +23,7 @@ Use the ServiceNow platform to build apps.
 
 </td><td>
 
-[Mobile App Builder ![](../image/icon-mobile-app-builder.png) Build ServiceNow mobile applications.](https://www.servicenow.com/docs/access?context=mab-concept&version=australia&pubname=australia-mobile&ft:locale=en-US)
+Mobile App Builder ![](../image/icon-mobile-app-builder.png) Build ServiceNow mobile applications.
 
 </td></tr></tbody>
 </table>

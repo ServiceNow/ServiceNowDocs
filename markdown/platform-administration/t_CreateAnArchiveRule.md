@@ -23,15 +23,15 @@ Role required: admin
 
 1.  Access the new archive rule form in one of the following ways.
 
-<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d161834e66">
+<table id="choicetable_bxv_hjk_1bc"><thead><tr><th align="left" id="d161812e66">
 
 Option
 
-</th><th align="left" id="d161834e69">
+</th><th align="left" id="d161812e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d161834e75">
+</th></tr></thead><tbody><tr><td id="d161812e75">
 
 **Using the Data Management Console**
 
@@ -41,7 +41,7 @@ Steps
 2.  On the Overview tab, select **New archive rule**.
 
 
-</td></tr><tr><td id="d161834e110">
+</td></tr><tr><td id="d161812e110">
 
 **Using a data management policy**
 
@@ -52,7 +52,7 @@ Steps
 3.  In the Archive Rules related list, select **New**.
 
 
-</td></tr><tr><td id="d161834e146">
+</td></tr><tr><td id="d161812e146">
 
 **Using the Archive Rules module**
 
@@ -178,15 +178,15 @@ The sample archive rules are inactive by default.
 
 1.  Access the archive rule that you want to activate in one of the following ways.
 
-<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d161834e458">
+<table id="choicetable_cxh_nkk_1bc"><thead><tr><th align="left" id="d161812e458">
 
 Option
 
-</th><th align="left" id="d161834e461">
+</th><th align="left" id="d161812e461">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d161834e467">
+</th></tr></thead><tbody><tr><td id="d161812e467">
 
 **Using a data management policy**
 
@@ -197,7 +197,7 @@ Steps
 3.  In the Archive Rules related list, select the archive rule that you want to activate.
 
 
-</td></tr><tr><td id="d161834e500">
+</td></tr><tr><td id="d161812e500">
 
 **Using the Archive Rules module**
 

@@ -50,7 +50,7 @@ Role required: sn\_hr\_core.admin
     -   Number
     -   String
     -   Reference
-    For further details on the different question types, see [Survey designer elements](https://www.servicenow.com/docs/access?context=c_SurveyDesignerElements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For further details on the different question types, see Survey designer elements.
 
     **Note:** There are several limitations with native mobile screens, including custom and rating data types, validation scripts, read-only questions, and additional information fields. See this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2769842) for more details.
 
@@ -96,7 +96,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>    For example, you can map an employee form to the HR Profile \[sn\_hr\_core\_profile\] table with the following condition:

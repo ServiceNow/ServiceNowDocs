@@ -15,7 +15,7 @@ breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Conf
 
 Describes at what stage of the order a requested item is. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
-You can define different workflows for items directly within the Service Catalog module. For more information on Service Catalog workflows, see [Service Catalog request fulfillment](https://www.servicenow.com/docs/access?context=request-fulfillment&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You can define different workflows for items directly within the Service Catalog module. For more information on Service Catalog workflows, see Service Catalog request fulfillment.
 
 ![Requested Items widget](../image/WidgetRequestedItems.png "Requested Items widget")
 

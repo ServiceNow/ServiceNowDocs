@@ -38,15 +38,15 @@ Use the **MID SNMP Trap Listener** to listen for SNMP traps. In this configurati
 
 3.  Complete the SNMP Trap Collector Context form.
 
-<table><thead><tr><th align="left" id="d435715e126">
+<table><thead><tr><th align="left" id="d435696e126">
 
 Option
 
-</th><th align="left" id="d435715e129">
+</th><th align="left" id="d435696e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d435715e135">
+</th></tr></thead><tbody><tr><td id="d435696e135">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 Unique name for the SNMP Trap Collector.
 
-</td></tr><tr><td id="d435715e144">
+</td></tr><tr><td id="d435696e144">
 
 **Short description**
 
@@ -62,7 +62,7 @@ Unique name for the SNMP Trap Collector.
 
 Short description of the MID Server extension execution context.
 
-</td></tr><tr><td id="d435715e153">
+</td></tr><tr><td id="d435696e153">
 
 **SNMP version**
 
@@ -72,7 +72,7 @@ Specify the SNMP version:-   v1 and v2c
 -   v3
 
 
-</td></tr><tr><td id="d435715e171">
+</td></tr><tr><td id="d435696e171">
 
 **Minimum Security Level**
 
@@ -84,7 +84,7 @@ The valid security level values are: -   None - No security level value set.
 -   authPriv - Communication with authentication and privacy.
  **Note:** This field appears only when `v3` is selected in the **SNMP version** field.
 
-</td></tr><tr><td id="d435715e205">
+</td></tr><tr><td id="d435696e205">
 
 **UDP Port**
 
@@ -92,7 +92,7 @@ The valid security level values are: -   None - No security level value set.
 
 UDP port for SNMP Trap Collector to receive SNMP Traps. The default value is **1,162**. However, if the port is already in use, you can use any other free port instead.
 
-</td></tr><tr><td id="d435715e217">
+</td></tr><tr><td id="d435696e217">
 
 **Status**
 
@@ -106,7 +106,7 @@ The status of the trap listener. This field is blank until the listener is run. 
 -   **Error:** The listener failed with an error.
 
 
-</td></tr><tr><td id="d435715e252">
+</td></tr><tr><td id="d435696e252">
 
 **Execute on**
 
@@ -114,7 +114,7 @@ The status of the trap listener. This field is blank until the listener is run. 
 
 The MID Server location for running this listener. Select from specific MID Server. The recommended setting is **Specific MID Server**. Network hardware typically has to be configured to send to a specific IP address.
 
-</td></tr><tr><td id="d435715e264">
+</td></tr><tr><td id="d435696e264">
 
 **MID Server**
 
@@ -122,7 +122,7 @@ The MID Server location for running this listener. Select from specific MID Serv
 
 Specify the name of the designated MID Server when you select **Specific MID Server** in the **Execute on** field.
 
-</td></tr><tr><td id="d435715e279">
+</td></tr><tr><td id="d435696e279">
 
 **EngineID**
 
@@ -134,7 +134,7 @@ Displays only when **SNMP version=v3**.
 -   When sending an SNMP Trap message, include a value other than the default value of this field in the message.
 
 
-</td></tr><tr><td id="d435715e306">
+</td></tr><tr><td id="d435696e306">
 
 **Executing on**
 

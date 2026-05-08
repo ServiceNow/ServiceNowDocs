@@ -15,13 +15,13 @@ breadcrumb: [Advanced AI Search Management Tools, ServiceNow Store applications 
 
 The AI Search analytics dashboard displays key performance metrics, trends, and reports for AI Search usage. Analysts can apply interactive filters to view performance analytics for individual search applications and to select the time frame to analyze.
 
-To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage Insights**, select an application's **Launch Dashboard** link, then select the Search Analytics icon ![](../image/icon-appsee-ai-srch-analytics.png) or link in the modules menu. To learn more about the Usage Insights dashboard, see [Overview of the dashboard](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+To access the AI Search analytics dashboard, navigate to **All** &gt; **Usage Insights**, select an application's **Launch Dashboard** link, then select the Search Analytics icon ![](../image/icon-appsee-ai-srch-analytics.png) or link in the modules menu. To learn more about the Usage Insights dashboard, see Overview of the dashboard.
 
 **Note:** If the dashboard doesn't load, follow the steps from [Configure Service Portal to send analytics data](adv-ais-enable-sp-analytics-data.md) to enable it.
 
 In the **Queries** section of the dashboard, you can view the query lists on their own page by selecting **View all**. To return to the main dashboard from the sub-page, select **AI Search Analytics**.
 
-You can improve the visual experience by using the dark theme. For more information, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can improve the visual experience by using the dark theme. For more information, see Working with themes in Next Experience.
 
 ## Required ServiceNow AI Platform roles
 

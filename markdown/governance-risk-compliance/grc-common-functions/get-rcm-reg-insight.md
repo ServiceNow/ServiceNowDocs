@@ -18,13 +18,13 @@ Analyze and enrich regulatory alerts by using the get regulatory analysis agenti
 
 ## Before you begin
 
-**Important:** This agentic workflow is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This agentic workflow is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 Role required: sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
 The recommendations for regulatory alert skills are required for recommending impact areas. For more information, see [AI-generated recommendations for a regulatory alert skill](../../grc-rcm/concept/recommendations-for-a-regulatory-alert.md).
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## About this task
 
@@ -32,7 +32,7 @@ The get regulatory analysis agentic workflow helps regulatory change management 
 
 **Note:**
 
-When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly. To modify this workflow, duplicate it and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel. For more information, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly. To modify this workflow, duplicate it and adjust the settings according to your requirements. You can activate the workflow template by making the triggers active and setting the display settings to include the Now Assist panel. For more information, see Duplicate an agentic workflow.
 
 ## Procedure
 
@@ -54,15 +54,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d370091e255">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d370084e255">
 
 Option
 
-</th><th align="left" id="d370091e258">
+</th><th align="left" id="d370084e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d370091e264">
+</th></tr></thead><tbody><tr><td id="d370084e264">
 
 **Add enriched insights**
 
@@ -77,7 +77,7 @@ In the Now Assist panel, ask the agent to enrich a regulatory alert with web sou
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d370091e302">
+</td></tr><tr><td id="d370084e302">
 
 **Recommend impacted areas**
 

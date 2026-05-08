@@ -19,7 +19,7 @@ To set up the Microsoft Entra ID integration for new hire onboarding, you must f
 
 This integration requires subscriptions to the following:
 
--   [Microsoft Azure AD spoke](https://www.servicenow.com/docs/access?context=microsoft-azure-ad-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   Microsoft Azure AD spoke
 -   Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\] plugin
 
     **Note:** The lifecycle event for new hire onboarding is included as demo data with this plugin.
@@ -31,7 +31,7 @@ Role required: admin
 
 1.  Set up the Microsoft Entra ID spoke.
 
-    For instructions on how to set up the spoke, see [Set up Microsoft Azure AD spoke](https://www.servicenow.com/docs/access?context=set-up-azure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For instructions on how to set up the spoke, see Set up Microsoft Azure AD spoke.
 
 2.  Configure the remote directory sync to fetch the groups into your instance.
 

@@ -27,7 +27,7 @@ Users with \[sn\_poem\_core.operational\_buyer\] role and the Now Assist Fulfill
 
 This workflow uses the Now Assist agentic support to identify and execute mitigation strategies for purchase order exceptions.
 
-You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can add or remove AI agents from this workflow by making a copy and customizing it. For more information, about copying agentic workflows, see Duplicate an agentic workflow.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ You can add or remove AI agents from this workflow by making a copy and customiz
 
 3.  Open the workflow configuration page by selecting **Define PO exception mitigation strategy**.
 
-    If you want to modify this AI agent, you can refer to [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Adjust the settings for your specific needs, and activate the duplicated version of the agentic workflow.
+    If you want to modify this AI agent, you can refer to Modify an AI agent. Adjust the settings for your specific needs, and activate the duplicated version of the agentic workflow.
 
 4.  Select the **Define key requirements** page to review the following fields.
 

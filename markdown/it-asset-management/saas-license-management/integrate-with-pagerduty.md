@@ -77,7 +77,7 @@ Create a PagerDuty application to integrate with your ServiceNow instance.
 
 ### Before you begin
 
--   Activate the PagerDuty spoke. For more information, see [PagerDuty Spoke](https://www.servicenow.com/docs/access?context=pagerduty-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Activate the PagerDuty spoke. For more information, see PagerDuty Spoke.
 -   PagerDuty Role required: Refer to the [Minimal user permissions](integrate-with-pagerduty.md#) table.
 
 ### Procedure
@@ -151,7 +151,7 @@ To create a PagerDuty integration profile, request the Software Asset Management
 
 ServiceNow Role required: sam\_integrator
 
-**Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
+**Important:** You must select the **PagerDuty Spoke** check box for this integration while installing optional features on the Application Manager page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](../task/request-saas-license-management.md).
 
 ### About this task
 

@@ -41,15 +41,15 @@ You can request an immediate callback only for a voice channel. Use the **Call m
 
 6.  Select whether to receive an immediate voice callback from an agent or schedule a voice or video callback for later.
 
-<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d111975e164">
+<table id="choicetable_dlg_q4r_2wb"><thead><tr><th align="left" id="d111971e164">
 
 Type of callback
 
-</th><th align="left" id="d111975e167">
+</th><th align="left" id="d111971e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d111975e173">
+</th></tr></thead><tbody><tr><td id="d111971e173">
 
 **Immediate voice callback**
 
@@ -57,7 +57,7 @@ Action
 
 Select **Call me now**.
 
-</td></tr><tr><td id="d111975e185">
+</td></tr><tr><td id="d111971e185">
 
 **Scheduled voice or video callback**
 

@@ -58,7 +58,7 @@ Vaccine Appointment Rescheduled
 An email notification sent to the user when an appointment is rescheduled.
 
 </td></tr></tbody>
-</table>The email notifications are automatically sent to users once the appointment is created, canceled, or rescheduled. The notifications can be used without modifications. However, as a user with the sn\_vaccine\_sm.admin role, you can also choose to customize them for your organization. For more information about creating and editing email notifications, see [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>The email notifications are automatically sent to users once the appointment is created, canceled, or rescheduled. The notifications can be used without modifications. However, as a user with the sn\_vaccine\_sm.admin role, you can also choose to customize them for your organization. For more information about creating and editing email notifications, see Create an email notification.
 
 **Parent Topic:**[Configuring Vaccine Administration Management](vaccine-mgmt-config.md)
 

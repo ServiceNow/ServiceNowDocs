@@ -54,5 +54,5 @@ By default, the Workspace displays data in the following sections:
 
 **Note:**
 
-The Workspace landing page for healthcare-related cases is same as the CSM Configurable Workspace landing page. Therefore, you might see additional information based on the configuration set up by your administrator. For more information, see [CSM Configurable Workspace landing page](https://www.servicenow.com/docs/access?context=csm-workspace-landing-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+The Workspace landing page for healthcare-related cases is same as the CSM Configurable Workspace landing page. Therefore, you might see additional information based on the configuration set up by your administrator. For more information, see CSM Configurable Workspace landing page.
 

@@ -15,7 +15,7 @@ Use your instance records to build solutions to Field Service Management issues.
 
 ## Solution definitions
 
-Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). You can also create your own solution definition records.
+Solution definitions are available as templates on instances where both Predictive Intelligence and Field Service Management are active. For more information about solution definitions and their types, see Predictive Intelligence. You can also create your own solution definition records.
 
 |Solution Definition|Solution Type|Description|
 |-------------------|-------------|-----------|

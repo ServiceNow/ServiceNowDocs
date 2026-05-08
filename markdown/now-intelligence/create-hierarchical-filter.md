@@ -29,7 +29,7 @@ When you filter through a record hierarchy, you select one value of the referenc
 
 **Note:**
 
-Hierarchical filters support only the hierarchies defined in the Record Hierarchy \[sys\_record\_hierarchy\] table and not those defined in other tables, such as Governance, Risk, and Compliance \(GRC\) tables. Hierarchical filters generally follow the same logic as hierarchical queries, as described in [Building hierarchical queries](https://www.servicenow.com/docs/access?context=data-hierarchies&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Hierarchical filters support only the hierarchies defined in the Record Hierarchy \[sys\_record\_hierarchy\] table and not those defined in other tables, such as Governance, Risk, and Compliance \(GRC\) tables. Hierarchical filters generally follow the same logic as hierarchical queries, as described in Building hierarchical queries.
 
 To create a hierarchical dashboard filter, follow the procedure in [Configure a Single/Multiple select or cascading filter](../task/create-select-filter-workspace.md) to create a multi-select filter. When you reach the step where you define the filter source, specify the hierarchy.
 

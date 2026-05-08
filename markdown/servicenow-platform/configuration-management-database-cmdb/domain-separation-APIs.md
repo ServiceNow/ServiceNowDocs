@@ -19,11 +19,11 @@ Use CMDB APIs to create, update, and read operations on the CMDB. Domain separat
 
 Use the following CMDB APIs to create, update, and read operations on the CMDB:
 
--   [CMDBGroupAPI - Scoped](https://www.servicenow.com/docs/access?context=c_CMDBGroupAPIScoped&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [CMDBTransformUtil - Global](https://www.servicenow.com/docs/access?context=c_CMDBTransformUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [CMDBUtil - Global](https://www.servicenow.com/docs/access?context=c_CMDBUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [IdentificationEngineScriptableApi](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [IdentificationEngine - Scoped](https://www.servicenow.com/docs/access?context=IdentificationEngineScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   CMDBGroupAPI - Scoped
+-   CMDBTransformUtil - Global
+-   CMDBUtil - Global
+-   IdentificationEngineScriptableApi
+-   IdentificationEngine - Scoped
 
 ## Domain separation in CMDB APIs
 

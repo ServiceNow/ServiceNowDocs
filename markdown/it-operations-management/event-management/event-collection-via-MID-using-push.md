@@ -65,7 +65,7 @@ Options for authentication and data security:
 
 -   **Authentication type**, which can be set to either `API Key`, `mTLS`, or `Basic`.
 -   **Secure Connection**, which lets you choose whether incoming and outgoing data is secured when transmitted. If you choose the advanced secured option, it requires that you obtain a certificate from a well-known certificate authority, and then provide the **Keystore Certificate Alias** and the **Keystore Password**.
--   **Use MID Unified Keystore**, which provides encryption protection and enables you to install a custom certificate in the MID Server unified keystore. For details, see [Install custom certificates in the MID Server unified key store](https://www.servicenow.com/docs/access?context=mid-unified-keystore&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   **Use MID Unified Keystore**, which provides encryption protection and enables you to install a custom certificate in the MID Server unified keystore. For details, see Install custom certificates in the MID Server unified key store.
 -   Users must supply a script that receives the JSON, XML, or text formatted event messages in a text variable. The script must have a transform\(\) function that performs the transformation and prepares the return array of event objects. The `TransformEvents_xmlSample` include script that transforms events from XML format is provided as an example when the Event Management plugin is activated.
 
 For more information about authentication and data security, see [Configure the MID Web Server extension](../task/configure-mid-web-server-extension.md).

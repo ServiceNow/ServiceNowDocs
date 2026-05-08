@@ -53,7 +53,7 @@ Breakdowns divide information into different categories. To analyze data accordi
 -   Service Channel
 -   Queue
 
-For more information on analyzing data with breakdowns, see [Using breakdowns on dashboards](https://www.servicenow.com/docs/access?context=c_SpecialDashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information on analyzing data with breakdowns, see Using breakdowns on dashboards.
 
 ## Data visualizations
 

@@ -20,28 +20,28 @@ The ServiceNow® Service Portal application enables you to build mobile-friendly
 -   Use a Coral dark theme on a portal to improve focus, readability, and accessibility.
 -   Create theme variants for the Service Portal themes to tailor the visual experience for your users.
 
-See [Service Portal](https://www.servicenow.com/docs/access?context=c_ServicePortal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+See Service Portal for more information.
 
 **Important:** Service Portal is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Configure Service Portal Approval Configuration record**
 
     The Approval assistance AI agent allows checklist generation from documents that are stored in integrated third-party cloud providers such as Microsoft SharePoint, Google Drive, or a custom internal table.
 
--   **[New Organization Chart widget](https://www.servicenow.com/docs/access?context=new-organization-chart-widget&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **New Organization Chart widget**
 
     Use the Service Portal New Organization Chart widget to show additional display configurations, such as default and secondary field names, location, department, and so on, to gain visibility into employees within their organization.
 
--   **[Create a portal](https://www.servicenow.com/docs/access?context=create-a-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Create a portal**
 
     Configure and apply different authentication configurations for each portal to enable different login experiences for each portal. For example, you can set an authentication method like Okta for an internal employee portal or use Microsoft Azure for an external portal.
 
 
 ## UI changes
 
--   **[Create a portal theme](https://www.servicenow.com/docs/access?context=c_CustomCSS&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Create a portal theme**
 
     Create theme variants for Service Portal themes to tailor the visual experience for your users, which can help you match your brand.
 
@@ -52,7 +52,7 @@ Service Portal is a ServiceNow AI Platform feature that is active by default.
 
 ## Accessibility information
 
--   **[Enable dark theme](https://www.servicenow.com/docs/access?context=enable-dark-theme&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Enable dark theme**
 
     Use the Dark theme in Service Portal to improve focus and provide better accessibility support. This option is commonly used to alleviate eye strain and improve readability.
 
@@ -64,19 +64,19 @@ Service Portal is a ServiceNow AI Platform feature that is active by default.
 
 ## Related ServiceNow applications and features
 
--   **[Sitemap Generator](https://www.servicenow.com/docs/access?context=sitemap-generator&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Sitemap Generator**
 
     Define and automatically generate XML sitemaps to improve the search engine optimization \(SEO\) of your public portal pages.
 
--   **[Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist AI agents**
 
     AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 
--   **[AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **AI Search**
 
     The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users.
 
--   **[Authentication](https://www.servicenow.com/docs/access?context=c_Authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Authentication**
 
     Authentication in ServiceNow validates the identity of a user who accesses an instance, and then authorizes the user to features that match the user's role or job function.
 

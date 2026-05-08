@@ -18,7 +18,7 @@ Create a requirement for potentially exposed employees to meet to verify that th
 ## Before you begin
 
 -   Health and safety requirements are available in the ServiceNow® Employee Readiness Core application, which must be installed.
--   Health and safety requirements are built with ServiceNow® Workflow Studio, so make sure you're familiar with the [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US) basics.
+-   Health and safety requirements are built with ServiceNow® Workflow Studio, so make sure you're familiar with the Flow Designer basics.
 
 Role required: sn\_imt\_core.admin
 

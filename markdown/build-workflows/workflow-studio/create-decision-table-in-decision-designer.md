@@ -17,7 +17,7 @@ Create decision tables in Workflow Studio to embed business logic into a series 
 
 ## Before you begin
 
-Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see [Delegate developers using App Engine Studio](https://www.servicenow.com/docs/access?context=aes-app-dev-workflow&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Role required: admin, decision\_table\_admin, or delegated developer permissions. For more information, see Delegate developers using App Engine Studio.
 
 ## About this task
 
@@ -174,7 +174,7 @@ Default operator
 
 </td><td>
 
-How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+How every row in the condition column evaluates a user-specified value. A default operator is required for all input data types except for True or False.For more information about operators, see Operators available for filters and queries.
 
 </td></tr></tbody>
 </table>10. Select **Done**.
@@ -263,7 +263,7 @@ Option to filter the list of reference records in the result column when the res
 
     ![Decision table with empty cells](../image/populate-decision-table.png)
 
-    For more information about operators, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about operators, see Operators available for filters and queries.
 
 17. To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(![](../image/ellipses.png)\) to the left of the row number, and then select **Open in Decision rule view**.
 

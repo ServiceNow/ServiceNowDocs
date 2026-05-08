@@ -40,15 +40,15 @@ Consequently, these predefined jobs simplify the process of submitting JSAs and 
 
 4.  Create a job.
 
-<table id="choicetable_l1q_grs_dcc"><thead><tr><th align="left" id="d752870e115">
+<table id="choicetable_l1q_grs_dcc"><thead><tr><th align="left" id="d752883e115">
 
 Option
 
-</th><th align="left" id="d752870e118">
+</th><th align="left" id="d752883e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d752870e124">
+</th></tr></thead><tbody><tr><td id="d752883e124">
 
 **Using the New button**
 
@@ -58,7 +58,7 @@ To define a job from scratch, select **New** in the list.-   If the job has mult
 -   If the job is one step and you want to outline hazards and controls on the job level, select **Single step**.
 
 
-</td></tr><tr><td id="d752870e150">
+</td></tr><tr><td id="d752883e150">
 
 **Copying an existing job**
 
@@ -98,15 +98,15 @@ Use details from an existing job to create a new one in the job register. Copyin
 
 8.  Associate hazards and controls with the job.
 
-<table id="choicetable_k4d_sw3_dcc"><thead><tr><th align="left" id="d752870e330">
+<table id="choicetable_k4d_sw3_dcc"><thead><tr><th align="left" id="d752883e330">
 
 Job type
 
-</th><th align="left" id="d752870e333">
+</th><th align="left" id="d752883e333">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d752870e339">
+</th></tr></thead><tbody><tr><td id="d752883e339">
 
 **For multi-step job**
 
@@ -117,7 +117,7 @@ Add hazards and controls for each step.1.  Navigate to **Job steps** tab.
 3.  In the **Hazards and controls** tab, select **New**.
 
 
-</td></tr><tr><td id="d752870e368">
+</td></tr><tr><td id="d752883e368">
 
 **For single-step job**
 

@@ -27,7 +27,7 @@ Role required: admin
 
 3.  Define the key requirements.
 
-    For more information on defining key requirements, refer to [General guidelines for creating AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=gg-creating-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on defining key requirements, refer to General guidelines for creating AI agents and agentic workflows.
 
     1.  Write a clear description and list of steps.
 

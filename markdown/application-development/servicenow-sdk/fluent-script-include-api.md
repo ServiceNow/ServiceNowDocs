@@ -19,7 +19,7 @@ The Script Include API defines script includes \[sys\_script\_include\] that sto
 
 For new scripts, use JavaScript modules instead of script includes when possible to support code reuse and using third-party libraries within an application scope. For more information about JavaScript module support and limitations, see [JavaScript modules and third-party libraries](../concept/javascript-modules-third-party-libraries.md).
 
-For general information about script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For general information about script includes, see Script includes.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 

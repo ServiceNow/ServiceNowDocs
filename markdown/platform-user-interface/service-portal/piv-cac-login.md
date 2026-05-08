@@ -17,7 +17,7 @@ Register your Personal Identity Verification \(PIV\) or Common Access Card \(CAC
 
 ## Before you begin
 
-To register your PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see [Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication](https://www.servicenow.com/docs/access?context=certificate-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To register your PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication.
 
 The following task assumes that you have a card reader connected to your system.
 

@@ -25,8 +25,8 @@ IntegrationHub takes advantage of aliases to manage connection information and c
 
 For more information, see the following topics:
 
--   [Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [Create connection attributes for IntegrationHub](https://www.servicenow.com/docs/access?context=create-connection-attributes&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Introduction to credentials, connections, and aliases
+-   Create connection attributes for IntegrationHub
 
 ## Remote tables
 
@@ -34,7 +34,7 @@ The Tables \(sys\_db\_object\) table contains a record for each table in the dat
 
 The columns in a remote table are mapped to the columns in a third-party application table from which the data is being pulled. The remote table script definition stores this information. Table definitions for remote tables reside on the ServiceNow AI Platform. The table rows, or external records, are stored in memory while a user views the data in a list or form.
 
-For more information about remote tables, see [Create a remote table](https://www.servicenow.com/docs/access?context=create-remote-table&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about remote tables, see Create a remote table.
 
 When creating a remote table for use with IntegrationHub, pay special attention to the caching interval and choose an interval based on your workflow and the volatility of the third-party data. If the caching interval is too short, this can result in unnecessary connections to the third-party application. If the caching interval is too long, this can result in out-of-date third-party data being presented in Agent Workspace for CSM.
 
@@ -50,5 +50,5 @@ Use a script definition to retrieve and cache data for a remote table by running
 -   Domain
 -   Domain path
 
-For more information about script definitions, see [Create a script definition for a remote table](https://www.servicenow.com/docs/access?context=create-remote-table-script&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about script definitions, see Create a script definition for a remote table.
 

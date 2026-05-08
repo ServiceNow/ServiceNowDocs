@@ -43,7 +43,7 @@ This video walks you through the steps for creating a learning path.Create a lea
     1.  In the **Path name** field, enter a unique name for the learning path.
     2.  In the **Course Catalog** field, select the catalog to which you want to associate the learning path.
 
-        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see [Create a course catalog](https://www.servicenow.com/docs/access?context=create-course-catalog&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) and the [Course catalog form](https://www.servicenow.com/docs/access?context=course-catalog-table&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+        **Important:** You can customize the publish flow for any catalog other than the **Default Catalog**. For information on publish flow, see Create a course catalog and the Course catalog form.
 
     3.  Select **Next**.
     The learning path that is created is in **Draft** state. You can choose to complete it later.

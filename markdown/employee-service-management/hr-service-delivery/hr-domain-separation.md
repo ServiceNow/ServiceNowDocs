@@ -20,13 +20,13 @@ Domain separation separates data, processes, and administrative tasks into logic
 To learn more about domain separation, see:
 
 -   [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0715934)
--   [Understanding domain separation](https://www.servicenow.com/docs/access?context=c_DomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Understanding domain separation
 
 HR Service Delivery provides the basic level of domain separation support. Basic domain separation \(data separation \) implies that if the data and all the related configurations reside within a particular domain, HR Service Delivery will function as expected. Hierarchical domain structure, sharing of data/configurations and logic/process separation is not supported by default in HR Service Delivery as per the basic domain separation definition.
 
 ## Support level: Basic
 
-**Note:** To learn more about support levels, see [Domain separation levels of support](https://www.servicenow.com/docs/access?context=bp-domain-levels&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** To learn more about support levels, see Domain separation levels of support.
 
 -   There is business logic to ensure data goes into the proper domain for the application’s service provider use cases.
 -   In the application, the user interface, cache keys, reporting, rollups, aggregations, and so on, all consider domain at run time.

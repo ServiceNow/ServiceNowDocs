@@ -17,7 +17,7 @@ The Create Order Task action contains flow actions that you use to define the or
 
 To learn more about creating a flow and inflight order change processing, see:
 
--   [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Create a flow
 -   [Managing inflight order changes and cancellation requests](../concept/inflight-order-change-mgt-overview.md)
 
 To see a sample Create Flow action, see the sample Change Cisco Firepower Monitoring system flow, in your demo data, which is installed with the ServiceNow AI Platform.
@@ -102,7 +102,7 @@ Flow action to attach scripting that designates what undo actions, or cancellati
 **Related topics**  
 
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 
-[Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 

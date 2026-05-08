@@ -35,7 +35,7 @@ Role required: ham\_admin, ham\_user, procurement\_admin, asset, sn\_hamp.ham\_a
 
 If the asset records that you want to create belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you must provide details for at least one of these fields in the ASN template. Otherwise, the asset record isn't created. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields.
 
-The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://www.servicenow.com/docs/access?context=c_IdentificationRules&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Create a CI identification rule](https://www.servicenow.com/docs/access?context=t_CreateCIIdentificationRule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
+The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see Identification rules and Create a CI identification rule. These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 
 ## Procedure
 

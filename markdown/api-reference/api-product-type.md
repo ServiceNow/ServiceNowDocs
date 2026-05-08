@@ -763,7 +763,7 @@ Manufacturing Commercial Operations
 
 -   **SOAP**
 
-[Warranty Claims SOAP API](https://www.servicenow.com/docs/access?context=warranty-claims-SOAP-API&version=australia&pubname=australia-manufacturing&ft:locale=en-US)
+Warranty Claims SOAP API
 
 
 </td></tr><tr><td>
@@ -886,7 +886,7 @@ ServiceNow AI Platform
     -   [RenderProperties - Scoped](../../../app-store/dev_portal/API_reference/RenderPropertiesScoped/concept/RenderProperties-Scoped-API.md#)
     -   [RequestAuthAPI - Scoped](../../../app-store/dev_portal/API_reference/RequestAuthAPI/concept/RequestAuthAPI.md#)
     -   [ResponseTemplate - Scoped, Global](../../../app-store/dev_portal/API_reference/ResponseTemplate/concept/ResponseTemplateAPI.md#)
-    -   [../../../Chunk544291124.md\#](../../../Chunk544291124.md#)
+    -   [../../../Chunk798973582.md\#](../../../Chunk798973582.md#)
     -   [RESTAPIRequestBody - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceRequestBody/concept/c_ScriptableServiceRequestBody.md#)
     -   [RESTAPIResponse - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceResponseBuilder/concept/c_ScriptableServiceResponseBuilder.md#)
     -   [RESTAPIResponseStream - Scoped, Global](../../../app-store/dev_portal/API_reference/ScriptableServiceResponseStreamWriter/concept/c_ScriptableServiceRespStreamWriter.md#)

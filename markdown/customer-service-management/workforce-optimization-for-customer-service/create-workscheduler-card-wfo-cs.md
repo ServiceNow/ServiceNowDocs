@@ -43,7 +43,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
     A new card is created.
 
-    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see [Set up a work configuration](https://www.servicenow.com/docs/access?context=setup-work-scheduler&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    **Important:** After you create the work scheduler card, you must select the name of this card in the **UX app route** field in the work configuration you have created. For information on setting up a work configuration, see Set up a work configuration.
 
 10. Select **Done**.
 
@@ -74,5 +74,5 @@ Associate the work scheduler card that you've created to the work configuration 
 **Related topics**  
 
 
-[Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.create-page]
 

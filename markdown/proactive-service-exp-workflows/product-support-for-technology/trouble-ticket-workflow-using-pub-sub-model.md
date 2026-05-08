@@ -26,9 +26,9 @@ In the Australia release, the following events are supported for trouble ticket 
 
 ## Prerequisites
 
-Before producing outbound notifications, it’s necessary to create the egress topics on the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see [Create a topic](https://www.servicenow.com/docs/access?context=create-topic-API-notification&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US). The system synchronizes only the egress topic with the message bus in the external system. The **user\_created** field in the associated topic record is set to true.
+Before producing outbound notifications, it’s necessary to create the egress topics on the Topic \[sn\_api\_notif\_mgmt\_topic\] table in the ServiceNow instance. When you create an egress topic, the system runs a business rule and attempts to synchronize the topic to the message bus based on configuration. To learn more about manually creating a topic in the Topic table, see Create a topic. The system synchronizes only the egress topic with the message bus in the external system. The **user\_created** field in the associated topic record is set to true.
 
-Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow instance. The customers invoke the Event Management Topic Open API endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of ServiceNow instance. The **user\_created** field in the associated topic record is set to false. To learn more about the methods that are used when processing the Event Management Topic Open API endpoint, see [Event Management Topic Open API](https://www.servicenow.com/docs/access?context=event_management_topic-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Alternatively, you can create the topics on the message bus in your external system and push them into the Topic table in ServiceNow instance. The customers invoke the Event Management Topic Open API endpoint, which stores the topic in the Topic \[sn\_api\_notif\_mgmt\_topic\] table of ServiceNow instance. The **user\_created** field in the associated topic record is set to false. To learn more about the methods that are used when processing the Event Management Topic Open API endpoint, see Event Management Topic Open API.
 
 ## Workflow
 
@@ -36,7 +36,7 @@ The workflow for producing the outbound notification by using the open message b
 
 1.  On the trigger of the trouble ticket event, the system invokes the appropriate business rule, and stamps the event type.
 
-    To learn more about the business rule that you must add to your ServiceNow instance, see [Add a business rule for a new trouble ticket event](https://www.servicenow.com/docs/access?context=prd_evt_not-dev_gd-add_bus_rule&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    To learn more about the business rule that you must add to your ServiceNow instance, see Add a business rule for a new trouble ticket event.
 
 2.  The system pushes the Glide snapshot and event type in the staging table, which acts as a queue.
 3.  The producer framework picks the event and converts it to a TMF 688 complaint event payload.
@@ -47,21 +47,21 @@ The workflow for producing the outbound notification by using the open message b
 
     1.  The System scans the topics that have the **Type** field set as **Egress** in the topic table.
     2.  The system checks the header query and content query of all egress topics and matches the compatibility with the event payload.
-    To learn more details about how to customize the existing topic picker mechanism, see [OpenMessageBusEventPublisherOOB - Scoped](https://www.servicenow.com/docs/access?context=OpenMsgBusEvtPubScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    To learn more details about how to customize the existing topic picker mechanism, see OpenMessageBusEventPublisherOOB - Scoped.
 
 5.  The system sends the list of compatible topics and event payload to the spoke selector.
 6.  The spoke selector, which the customer has configured, invokes the REST step that is configured for each topic and sends to the message bus REST Proxy in the external system.
 
-    To learn more about the method for sending messages to the spoke selector, see [OpenMessageBusEventPublisherOOB - Scoped](https://www.servicenow.com/docs/access?context=OpenMsgBusEvtPubScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [Configure the Producer Event Notification Framework to use the Open Message Bus](https://www.servicenow.com/docs/access?context=prod_evt_not-dev_gd-cfg_open_bus&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    To learn more about the method for sending messages to the spoke selector, see OpenMessageBusEventPublisherOOB - Scoped and Configure the Producer Event Notification Framework to use the Open Message Bus.
 
 7.  The customers can consume the message in their message bus REST Proxy.
 
 **Related topics**  
 
 
-[EventProcessorUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=EventProcessorUtilOOBScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.EventProcessorUtilOOBScopedAPI]
 
-[EventQueueProcessorOOB - Scoped](https://www.servicenow.com/docs/access?context=EventQueueProcessorOOBScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.EventQueueProcessorOOBScopedAPI]
 
-[External event management via Telecommunications API notifications](https://www.servicenow.com/docs/access?context=telecommunications-api-notification&version=australia&pubname=australia-telecom-service-ops&ft:locale=en-US)
+[bundle-tsom.telecommunications-api-notification]
 

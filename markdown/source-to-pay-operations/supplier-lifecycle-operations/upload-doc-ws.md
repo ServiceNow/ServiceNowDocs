@@ -35,15 +35,15 @@ The **Documents** tab contains the **Link Documents** option, which enables you 
 
 3.  Select the **Documents** tab and do one of the following.
 
-<table id="choicetable_k4g_m1w_dvb"><thead><tr><th align="left" id="d146282e140">
+<table id="choicetable_k4g_m1w_dvb"><thead><tr><th align="left" id="d146287e140">
 
 To
 
-</th><th align="left" id="d146282e143">
+</th><th align="left" id="d146287e143">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d146282e149">
+</th></tr></thead><tbody><tr><td id="d146287e149">
 
 **Upload a document**
 
@@ -54,7 +54,7 @@ Do this
 3.  Select **Submit**.
 
 
-</td></tr><tr><td id="d146282e188">
+</td></tr><tr><td id="d146287e188">
 
 **Download a document**
 
@@ -64,7 +64,7 @@ Do this
 2.  Select **Download Document**.![Download a document](../image/download-doc.png)
 
 
-</td></tr><tr><td id="d146282e214">
+</td></tr><tr><td id="d146287e214">
 
 **Remove a document**
 
@@ -74,7 +74,7 @@ Do this
 2.  Select **Remove**.![Remove a document](../image/remove-doc.png)
 
 
-</td></tr><tr><td id="d146282e240">
+</td></tr><tr><td id="d146287e240">
 
 **Upload a new version of a document**
 

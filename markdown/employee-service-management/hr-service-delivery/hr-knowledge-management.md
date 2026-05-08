@@ -19,7 +19,7 @@ HR knowledge management allows the enterprise HR department to provide employees
 
 The Case and Knowledge Management application provides the following preconfigured HR knowledge base: Human Resources General Knowledge.
 
-A knowledge administrator can create additional HR knowledge bases. Each knowledge base can be assigned to a knowledge owner and managers, as well as have unique workflows, user criteria, and category structures. See [Create a knowledge base](https://www.servicenow.com/docs/access?context=create-a-knowledgebase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+A knowledge administrator can create additional HR knowledge bases. Each knowledge base can be assigned to a knowledge owner and managers, as well as have unique workflows, user criteria, and category structures. See Create a knowledge base for more information.
 
 ## HR knowledge articles
 
@@ -54,5 +54,5 @@ You can use knowledge blocks with HR Service Delivery to simplify knowledge auth
 **Related topics**  
 
 
-[Knowledge Management](https://www.servicenow.com/docs/access?context=knowledge-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.knowledge-management]
 

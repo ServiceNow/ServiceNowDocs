@@ -36,15 +36,15 @@ To compare a version to the current version of an object:
 
 2.  On the Compare to Current page, review the fields that differ.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d140702e134">
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d140690e134">
 
 Option
 
-</th><th align="left" id="d140702e137">
+</th><th align="left" id="d140690e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d140702e143">
+</th></tr></thead><tbody><tr><td id="d140690e143">
 
 **To resolve the differences by choosing the previous version**
 
@@ -54,7 +54,7 @@ Action
 -   For a version of an object: Click **Use Local Version** to maintain the local record as the current version. The pulled version is added to the version history for the record.
 
 
-</td></tr><tr><td id="d140702e167">
+</td></tr><tr><td id="d140690e167">
 
 **To resolve the differences by modifying the current version and saving the merged changes__Note:__ Some types of record do not support this method. See [Limitations on updating records](../reference/r_LimitationsOnResolvingCollisions.md) for more information.
 
@@ -80,9 +80,9 @@ You can either update the setting in the current record or move a setting from t
 
 [Compare a pushed version to a local version](t_ComparePushedVerLocalVer.md)
 
-[Compare two versions of an article](https://www.servicenow.com/docs/access?context=compare-two-article-versions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.compare-two-article-versions]
 
-[Resolve conflicts for an individual record](https://www.servicenow.com/docs/access?context=um-resolve-conflict&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.um-resolve-conflict]
 
 [Resolve a collision in Team Development](t_ResolveACollision.md)
 

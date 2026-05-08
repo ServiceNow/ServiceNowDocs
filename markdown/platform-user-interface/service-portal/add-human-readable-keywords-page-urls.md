@@ -112,8 +112,8 @@ For pages that have canonical URLs, you must include the human readable keywords
 
 For more information about including human readable keywords in canonical URLs, refer to the following resources:
 
--   [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://www.servicenow.com/docs/access?context=configure-seo-knowledge&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [SPSEOUtilsSNC - Global](https://www.servicenow.com/docs/access?context=SPSEOUtilsSNCAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   Configure custom SEO tags for canonical URLs and localized knowledge articles
+-   SPSEOUtilsSNC - Global
 
 **Parent Topic:**[Improving search engine optimization for portals](../concept/seo-sp.md)
 

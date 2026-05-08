@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Set up the [Microsoft Exchange Online spoke](https://www.servicenow.com/docs/access?context=setup-ms-exch-ol&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  Set up the Microsoft Exchange Online spoke.
 
     **Note:** Verify that the following Microsoft Graph permissions are set correctly in the Microsoft Azure portal:
 

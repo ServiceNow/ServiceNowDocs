@@ -21,7 +21,7 @@ The IdentificationEngineScriptableApi uses the Identification and Reconciliation
 
 Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.
 
-You must pass non-CMDB CIs as lookup or related items in the IRE payload. For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You must pass non-CMDB CIs as lookup or related items in the IRE payload. For additional information on non-CMDB table ingestion, see IRE support for non-CMDB tables.
 
 <table id="table_wf2_s2s_pyb" class="parameters"><thead><tr><th>
 
@@ -1128,7 +1128,7 @@ Index values for CIs from the request body **items** array that correspond to th
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr><td>
 
@@ -1968,7 +1968,7 @@ To use the createOrUpdateCI\(String source, String input\) method in a scoped ap
 
 Inserts or updates configuration items \(CI\) and non-Configuration Management Database \(CMDB\) CIs \(classes not extending from cmdb\_ci\) in the CMDB based on identification and reconciliation rules. Use this API instead of updating the CMDB directly.
 
-You must pass non-CMDB CIs as lookup or related items in the IRE payload. For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You must pass non-CMDB CIs as lookup or related items in the IRE payload. For additional information on non-CMDB table ingestion, see IRE support for non-CMDB tables.
 
 In addition to providing the functionality of the createOrUpdateCI\(\) method, this method also supports:
 
@@ -1977,9 +1977,9 @@ In addition to providing the functionality of the createOrUpdateCI\(\) method, t
 -   Removing duplicate items within a payload
 -   Generating output summaries
 
-For additional information on IRE and more detailed explanations of the data used by this method, see [Identification and Reconciliation \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on IRE and more detailed explanations of the data used by this method, see Identification and Reconciliation \(IRE\).
 
-For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on non-CMDB table ingestion, see IRE support for non-CMDB tables.
 
 <table id="table_lqf_msb_jlb" class="parameters"><thead><tr><th>
 
@@ -2792,7 +2792,7 @@ Boolean
 
 </td><td id="entry_options_partial_commits">
 
-Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see Enhanced IRE features.Valid values:
 
 -   true: Partial commit enabled.
 -   false: Partial commit disabled.
@@ -2809,7 +2809,7 @@ Boolean
 
 </td><td id="entry_options_partial_payloads">
 
-Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Create an IRE data source rule](https://www.servicenow.com/docs/access?context=create-ire-data-source-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see Enhanced IRE features and Create an IRE data source rule.Valid values:
 
 -   true: Partial payload enabled.
 -   false: Partial payload disabled.
@@ -3623,7 +3623,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr id="row_return_item_operation"><td>
 
@@ -4326,7 +4326,7 @@ Output:
 
 Determines the operation \(insert/update\) to perform with the specified payload without committing the operation in the database.
 
-**Note:** If your identification rules are configured to do so, this method can also ingest non-CMDB tables. For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** If your identification rules are configured to do so, this method can also ingest non-CMDB tables. For additional information on non-CMDB table ingestion, see IRE support for non-CMDB tables.
 
 This works just like createOrUpdateCI\(\), but does not commit the result.
 
@@ -4577,7 +4577,7 @@ To use the identifyCI\(String jsonString\) method in a scoped application, use t
 
 Determines the Configuration Management Database \(CMDB\) operation \(insert/update\) to perform with the specified payload \(request body\), without committing the operations in the database.
 
-**Note:** If your identification rules are configured to do so, this method can also ingest non-CMDB tables. For additional information on non-CMDB table ingestion, see [IRE support for non-CMDB tables](https://www.servicenow.com/docs/access?context=ire-support-non-cmdb-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** If your identification rules are configured to do so, this method can also ingest non-CMDB tables. For additional information on non-CMDB table ingestion, see IRE support for non-CMDB tables.
 
 Use this method to simulate submission of a payload.
 
@@ -5400,7 +5400,7 @@ Boolean
 
 </td><td id="entry_options_partial_commits">
 
-Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial commit support is enabled. For additional information on partial commits, see Enhanced IRE features.Valid values:
 
 -   true: Partial commit enabled.
 -   false: Partial commit disabled.
@@ -5417,7 +5417,7 @@ Boolean
 
 </td><td id="entry_options_partial_payloads">
 
-Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see [Enhanced IRE features](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Create an IRE data source rule](https://www.servicenow.com/docs/access?context=create-ire-data-source-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether partial payload support is enabled. For additional information on partial payloads, see Enhanced IRE features and Create an IRE data source rule.Valid values:
 
 -   true: Partial payload enabled.
 -   false: Partial payload disabled.
@@ -5851,7 +5851,7 @@ Indexes of the corresponding input CI. For top-level items, it is a list of inte
 
 </td><td id="entry_return_item_maskedAttributes">
 
-List of attributes whose update by a non-authoritative data source was skipped as defined by the [Reconciliation Rules](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Data type: Array
+List of attributes whose update by a non-authoritative data source was skipped as defined by the Reconciliation Rules.Data type: Array
 
 </td></tr><tr><td>
 

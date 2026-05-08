@@ -26,7 +26,7 @@ Domain separation is supported for Now Assist for Financial Services Operations 
 
 Sample use case: When a service provider \(SP\) uses chat to respond to a tenant-customer’s message, the customer must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Domain separation overview
 
@@ -40,7 +40,7 @@ Now Assist for Financial Services Operations \(FSO\) works with domain separatio
 
 If you're a service provider that hosts multiple clients in the same instance, you can set up domain separation to separate tenant data, processes, and administrative tasks. However, Now Assist for Financial Services Operations \(FSO\) consumption is tracked according to the instance without differentiating between tenants. You can track your Now Assist for Financial Services Operations \(FSO\) usage in the Subscription Management dashboard.
 
-If you want a domain to have a different version of an existing skill, you can reconfigure and activate the skill or create a variant in the preferred domain. See [Domain separation in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=domain-separation-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If you want a domain to have a different version of an existing skill, you can reconfigure and activate the skill or create a variant in the preferred domain. See Domain separation in the Now Assist Admin console.
 
 ## Use cases
 
@@ -53,5 +53,5 @@ For example, you can grant certain roles access to the Now Assist panel in one d
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

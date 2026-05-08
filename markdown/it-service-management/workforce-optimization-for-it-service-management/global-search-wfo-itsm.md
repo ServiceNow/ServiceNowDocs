@@ -17,7 +17,7 @@ Locate what you're looking for quickly using the global search in Workforce Opti
 
 As an agent or a manager, easily find the information you need by searching users, groups, shifts, schedules, or tasks using the search icon ![Search icon](../image/search-icon.png).
 
-**Note:** To search shifts and schedules, you must [generate the text index](https://www.servicenow.com/docs/access?context=index-multiple-tables&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for the following tables before you start performing the search for shifts and schedules:
+**Note:** To search shifts and schedules, you must generate the text index for the following tables before you start performing the search for shifts and schedules:
 
 -   Schedule \[sn\_shift\_planning\_schedule\_plan\]
 -   Shift Plan \[sn\_shift\_planning\_shift\_plan\]

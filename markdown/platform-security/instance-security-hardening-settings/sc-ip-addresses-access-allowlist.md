@@ -132,7 +132,7 @@ None
 </td></tr></tbody>
 </table>**Note:** A deny all rule is needed to be added into IP access control to restrict access from any IP's not added into IP access control. All required allowed IP's are then needed to be added into IP access control.
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
 

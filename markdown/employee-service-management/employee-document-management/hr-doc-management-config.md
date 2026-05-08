@@ -400,7 +400,7 @@ HR criteria
 
 Who the retention policy applies to. For example, you can select HR criteria based on a country. This criteria ensures everyone based in the selected country has the same retention policy.
 
-**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr><tr><td>
 

@@ -28,15 +28,15 @@ For information about the types and functions of log correlators, see [Identifyi
 
 1.  Use one of the following methods to add a log correlator.
 
-<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d330964e111">
+<table id="choicetable_aks_4jj_dpb"><thead><tr><th align="left" id="d330951e111">
 
 Option
 
-</th><th align="left" id="d330964e114">
+</th><th align="left" id="d330951e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d330964e120">
+</th></tr></thead><tbody><tr><td id="d330951e120">
 
 **Add a log correlator for a specific log source**
 
@@ -47,7 +47,7 @@ Procedure
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d330964e159">
+</td></tr><tr><td id="d330951e159">
 
 **Add a log correlator that applies either to all log sources or to only those log sources that become active after you define this log correlator**
 

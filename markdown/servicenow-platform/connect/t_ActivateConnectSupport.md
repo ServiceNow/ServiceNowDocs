@@ -19,7 +19,7 @@ The Connect Support plugin \(com.glide.connect.support\) is no longer available.
 
 **Important:**
 
-This plugin is no longer available. In Paris and future releases, Connect Support no longer receives enhancements or non-priority bug fixes. Consider migrating to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Migrate from Connect Support to Advanced Work Assignment and Agent Chat](https://www.servicenow.com/docs/access?context=migrate-from-connect-support&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+This plugin is no longer available. In Paris and future releases, Connect Support no longer receives enhancements or non-priority bug fixes. Consider migrating to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see Migrate from Connect Support to Advanced Work Assignment and Agent Chat.
 
 If you are currently using the legacy chat feature to provide help desk support, close any open help desk chats before activating Connect Support. Legacy chat and Connect Support should not be used concurrently. When you activate Connect Support, the system automatically sets the state of all Chat Queue Entry \[chat\_queue\_entry\] records to **Closed Complete**. This ends any open help desk chats. For more information, see [Migrate from legacy chat to Connect Support](t_ConnectSupportMigration.md).
 
@@ -127,7 +127,7 @@ Controls whether Connect Support reflects system messages in records created fro
 
 Additional plugins are available for Connect Support. These plugins integrate Connect Support with other features and provide capabilities to track performance metrics.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) .
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin .
 
 <table id="table_gzd_yj1_4v"><thead><tr><th>
 

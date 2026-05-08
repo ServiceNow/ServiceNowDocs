@@ -40,6 +40,6 @@ For every transformation, you must either create a transform map or select an ex
 
 3.  To create a transform map, click **New**.
 
-    For details of how to create a transform map, refer to the table in [Transformation scripts](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For details of how to create a transform map, refer to the table in Transformation scripts.
 
 

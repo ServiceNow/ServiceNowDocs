@@ -18,7 +18,7 @@ Configure Vaccination Status so that validator services can validate vaccine res
 Integrate with the validator service by doing the following:
 
 -   Obtain credentials for a validator service.
--   Create a connection and credentials alias. For more information, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Create a connection and credentials alias. For more information, see Create a Connection and Credential alias.
 
 If your organization is using an integration that is already supported, such as the CommonTrust Network, then you need only to add your organization's credentials to the validator service record.
 
@@ -58,7 +58,7 @@ Connection alias
 
 </td><td>
 
-The connection alias for your validator service. For more information on creating a connection alias, see [Create a Connection and Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The connection alias for your validator service. For more information on creating a connection alias, see Create a Connection and Credential alias.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Validation subflow
 
 </td><td>
 
-The subflow used to confirm whether a submitted attachment is valid. A template flow is provided by default or you may create a flow and add it to this field. For more information on creating flows, see [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).If you create your own subflow, it must have the same inputs and outputs as the template subflow.
+The subflow used to confirm whether a submitted attachment is valid. A template flow is provided by default or you may create a flow and add it to this field. For more information on creating flows, see Create a flow.If you create your own subflow, it must have the same inputs and outputs as the template subflow.
 
 </td></tr><tr><td>
 

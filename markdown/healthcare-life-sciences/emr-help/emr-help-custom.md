@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see [Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+By using extension points, you can easily integrate customizations without having to alter the base code. You can extend standard base functionality using customized scripts. For more information, see Using extension points to extend application functionality.
 
 ## Procedure
 
@@ -35,7 +35,7 @@ By using extension points, you can easily integrate customizations without havin
 
     -   Create and register a custom script include.
 
-        For more information, see [Registering custom script includes against the scripted extension points](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-custom-code&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+        For more information, see Registering custom script includes against the scripted extension points.
 
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column.
 

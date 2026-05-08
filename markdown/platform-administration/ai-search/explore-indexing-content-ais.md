@@ -27,7 +27,7 @@ To learn more about configuring and using indexed sources for ServiceNow AI Plat
 
 **Note:** AI Search doesn't index Unicode characters from the High Surrogate Area \(code units in the range U+D800 to U+DBFF\). Characters from this range are replaced with spaces during indexing.
 
-By activating the External Content for AI Search plugin \(com.glide.ais.external\_content\), you can enable indexing and search for record content from external sources. Supported sources include SharePoint collections, Confluence sites, and [remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). For more details, see [Indexing and searching external content in AI Search](external-content-ais.md).
+By activating the External Content for AI Search plugin \(com.glide.ais.external\_content\), you can enable indexing and search for record content from external sources. Supported sources include SharePoint collections, Confluence sites, and remote tables. For more details, see [Indexing and searching external content in AI Search](external-content-ais.md).
 
 **Parent Topic:**[Exploring AI Search](explore-ais.md)
 

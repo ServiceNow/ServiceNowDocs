@@ -45,7 +45,7 @@ You can create security incidents by selecting from categories of security threa
 
 </td></tr><tr><td>
 
-[Incident Management](https://www.servicenow.com/docs/access?context=c_IncidentManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Incident Management
 
 </td><td>
 
@@ -69,7 +69,7 @@ On the Event Management Alerts form, select **Create Security incident** to crea
 
 </td></tr><tr><td>
 
-[Manually created from an alert](https://www.servicenow.com/docs/access?context=t_CreateAnAlertFromAnIncident&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Manually created from an alert
 
 </td><td>
 
@@ -90,5 +90,5 @@ Generally, security administrators are responsible for setting up alert rules to
 
 |Method|Description|
 |------|-----------|
-|[Automatically created using alert rules](c_ScIncdUseAlrts.md)|Security incidents can be created based on alert rules defined in the [Event management in your data center](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) application.|
+|[Automatically created using alert rules](c_ScIncdUseAlrts.md)|Security incidents can be created based on alert rules defined in the Event management in your data center application.|
 

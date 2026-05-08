@@ -22,7 +22,7 @@ Alert types define the ServiceNow® Performance Analytics \(PA\) thresholds used
 |Screening Rejections Low|Uses Employee Health Screening entry requests to calculate the number of people denied entry.|
 |Active Contact Tracing Cases|Uses Contact Tracing cases to determine when the number of active cases is greater than the threshold.|
 
-A user with the pa\_admin role can define additional alert types. For information about using Performance Analytics, see [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+A user with the pa\_admin role can define additional alert types. For information about using Performance Analytics, see Performance Analytics.
 
 **Parent Topic:**[Safe Workplace Dashboard](../concept/safe-workplace-dashboard.md)
 

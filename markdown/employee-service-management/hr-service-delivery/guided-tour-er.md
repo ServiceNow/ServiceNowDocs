@@ -21,7 +21,7 @@ Role required: admin,sn\_hr\_er.case\_writer,sn\_hr\_er.case\_reader
 
 ## About this task
 
-Guided tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see [Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Guided tours help train and onboard users within the workspace. Each tour is designed to provide an overview, guide you through a task, or complete a process. If needed, administrators can create more tours. For more information, see Guided Tours.
 
 When you visit a page that has a guided tour for the first time, a welcome screen appears. You can choose to either begin the tour or skip the tour. The tour can be revisited from the Help Center menu.
 

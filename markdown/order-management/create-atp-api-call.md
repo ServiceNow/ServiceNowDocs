@@ -38,7 +38,7 @@ The demo data for the manage order operations agent includes a sample implementa
 
 6.  On the Script Include orderExpeditionCheckEP form, fill in the fields.
 
-    For a description of the Script Include form fields, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For a description of the Script Include form fields, see Script includes.
 
 7.  Edit the getAvailability function in the script to implement your own logic for checking product availability and delivery dates.
 
@@ -95,7 +95,7 @@ Input: The getAvailability function takes the order number of the Customer order
 **Related topics**  
 
 
-[Using extension points to extend application functionality](https://www.servicenow.com/docs/access?context=extension-points&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.extension-points]
 
-[Creating and adding a scripted extension point](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.impl-scripted-ext-pts-base-code]
 

@@ -21,12 +21,12 @@ See the following sample payload for importing and exporting procurement records
 
 |Name|Sample payload|
 |----|--------------|
-|Invoice Import|See [Spendint API - POST /sn\_spend\_intg/spendint/invoice](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&section=spendint-POST-invoice&ft:locale=en-US)|
-|Catalog Import|See [Spendint API - POST /sn\_spend\_intg/spendint/catalog](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&section=spendint-POST-catalog&ft:locale=en-US)|
-|Availability Import|See [Spendint API - POST /sn\_spend\_intg/spendint/availability](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&section=spendint-POST-availability&ft:locale=en-US)|
-|Shipment Import|See [Spendint API - POST /sn\_spend\_intg/spendint/shipment](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&section=spendint-POST-shipment&ft:locale=en-US)|
-|Order Acknowledgment|See [Spendint API - POST /sn\_spend\_intg/spendint/orderack](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&section=spendint-POST-orderack&ft:locale=en-US)|
-|Price Import|See [Spendint API - POST /sn\_spend\_intg/spendint/price](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&section=spendint-POST-price&ft:locale=en-US)|
+|Invoice Import|See Spendint API - POST /sn\_spend\_intg/spendint/invoice|
+|Catalog Import|See Spendint API - POST /sn\_spend\_intg/spendint/catalog|
+|Availability Import|See Spendint API - POST /sn\_spend\_intg/spendint/availability|
+|Shipment Import|See Spendint API - POST /sn\_spend\_intg/spendint/shipment|
+|Order Acknowledgment|See Spendint API - POST /sn\_spend\_intg/spendint/orderack|
+|Price Import|See Spendint API - POST /sn\_spend\_intg/spendint/price|
 
 ## Errors
 

@@ -39,7 +39,7 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 
 **Important:** To access data in the agentic workflow, the admin role must include the specified roles under **Contains roles**.
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 In the data access settings, you must also add the necessary roles to helps agents to resolve cases more efficiently and effectively. For example, you can add the csm role to the agentic workflow's list of approved roles so that it can access case records.
 
@@ -71,7 +71,7 @@ In the Now Assist panel, the agent receives a notification as soon as the intera
 
 ## Access Control lists \(ACLs\)
 
-Access Control Lists \(ACLs\) are preconfigured to support the Provide customer 360 insights use case, including AI agents and their associated flows and actions, such as the Customer insights Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, [Configure security controls for a skill](https://www.servicenow.com/docs/access?context=nask-access-control&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Access Control Lists \(ACLs\) are preconfigured to support the Provide customer 360 insights use case, including AI agents and their associated flows and actions, such as the Customer insights Agent. By default, ACLs are configured for the sn\_esm\_agent role. Customers can modify these ACLs to align with their specific business requirements and security policies. For more information, Configure security controls for a skill.
 
 When updating the agent role for the Provide customer 360 insights Agentic Workflow, it is important to also update the corresponding Access Control Lists \(ACLs\) to ensure proper permissions. To manually update ACLs for custom roles:
 

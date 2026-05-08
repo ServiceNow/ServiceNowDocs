@@ -13,7 +13,7 @@ breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architect
 
 Use Enterprise Architecture to gain a comprehensive understanding of your organization's applications so you can identify redundancies and decrease budgetary costs. The goal of this product view is to help you to understand how Enterprise Architecture key entities work with the core CSDM framework.
 
-**Note:** If you do not use CSDM 5.0 or later versions, see the Rome documentation for CSDM. For implementing CSDM framework, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** If you do not use CSDM 5.0 or later versions, see the Rome documentation for CSDM. For implementing CSDM framework, see Implementing the CSDM framework in stages.
 
 ## Enterprise Architecture home page
 
@@ -68,5 +68,5 @@ Consider these points while implementing the CSDM framework.
 **Related topics**  
 
 
-[Exploring the CSDM model](https://www.servicenow.com/docs/access?context=csdm-content-frame-exploring&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.csdm-content-frame-exploring]
 

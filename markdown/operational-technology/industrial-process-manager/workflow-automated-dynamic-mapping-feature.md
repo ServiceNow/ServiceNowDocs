@@ -17,7 +17,7 @@ The Industrial Process Manager includes an automated flow for the automated mapp
 
 A predefined flows is included with this feature that you can use to schedule the assignment of OT devices to equipment model entities.
 
-By using [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US), you can review and configure the predefined flow for your business needs.
+By using Flow Designer, you can review and configure the predefined flow for your business needs.
 
 ## Flow available for this feature
 
@@ -36,7 +36,7 @@ These use cases typically apply for the automated mapping feature:
 
 The following is a typical workflow for the automated mapping feature.
 
--   A system admin imports OT subnet data into the OT subnet mapping table from an Excel spreadsheet using [Easy Import](https://www.servicenow.com/docs/access?context=c_EasyImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   A system admin imports OT subnet data into the OT subnet mapping table from an Excel spreadsheet using Easy Import.
 -   Either the Amazing admin reviews the imported data records and associates \(maps\) OT subnet mapping records to a site and/or the Equipment Model Entity within that site.
 -   The Amazing admin activates or triggers the scheduled flow to automatically map OT devices for all sites on an instance.
 -   The Amazing editor can update the records that belong to the sites that they have editing access to.

@@ -45,15 +45,15 @@ From the list of records, assign an open, unassigned response task to yourself o
 
 5.  Choose one to continue.
 
-<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d271609e172">
+<table id="choicetable_er2_4pf_thb"><thead><tr><th align="left" id="d271605e172">
 
 Option
 
-</th><th align="left" id="d271609e175">
+</th><th align="left" id="d271605e175">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d271609e181">
+</th></tr></thead><tbody><tr><td id="d271605e181">
 
 **Assign to Me**
 
@@ -61,7 +61,7 @@ Description
 
 Assign the response task to yourself. If the task is already assigned to you, this option is not displayed.
 
-</td></tr><tr><td id="d271609e190">
+</td></tr><tr><td id="d271605e190">
 
 **Reassign**
 
@@ -84,15 +84,15 @@ To assign or reassign the assignment group:1.  Tap **Assignment group**
 
     ![Open Response Task record.](../image/mobile-sir-open-restasks.jpg)
 
-<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d271609e271">
+<table id="choicetable_yfw_cgw_lhb"><thead><tr><th align="left" id="d271605e271">
 
 Option
 
-</th><th align="left" id="d271609e274">
+</th><th align="left" id="d271605e274">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d271609e280">
+</th></tr></thead><tbody><tr><td id="d271605e280">
 
 **Details tab**
 
@@ -102,7 +102,7 @@ With the Details tab selected, review the fields on the response task. To edit f
 -   To reassign the task, tap **Reassign** or **Assign to Me**.
  After you complete your edits, tap the send icon \(![Send icon in Android.](../../vulnerability-response/image/mobile_instances_send_droid.png)\) or **Submit** to save your changes and update the record. The Security Incident Response Task on the parent security incident in your ServiceNow AI Platform instance is updated.
 
-</td></tr><tr><td id="d271609e328">
+</td></tr><tr><td id="d271605e328">
 
 **Activity Stream tab**
 
@@ -114,7 +114,7 @@ With the Activity Stream tab selected, choose one to continue.
 -   Tap the menu icon \(![Menu icon.](../../vulnerability-response/image/mobile-top-menu.png)\) to edit or reassign the task.
 
 
-</td></tr><tr><td id="d271609e361">
+</td></tr><tr><td id="d271605e361">
 
 **Screen icons at the bottom of the screen.**
 

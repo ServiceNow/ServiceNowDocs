@@ -47,7 +47,7 @@ High-volume upgrade does not support Agent Client Collector to MID Server commun
 
 When performing high-volume upgrade, all agents that aren't using the most up-to-date version are upgraded. No upgrade is performed on agents already using the upgraded version.
 
-No upgrade is performed on agents that are outside the application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+No upgrade is performed on agents that are outside the application scope. For more information, see Application scope.
 
 An agent is excluded from high-volume upgrade when you reach the failed upgrade limit for an agent. The failed upgrade limit is specified in the **sn\_agent.auto\_upgrade.retry\_limit** system property. The default value for this property is 3.
 

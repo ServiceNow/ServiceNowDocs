@@ -124,7 +124,7 @@ If you want to cancel the workflow generation or update the instruction, select 
 
 </td><td>
 
-If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If you aren’t satisfied with the automation preview, select **Reject**. Each time you build or rebuild an automation, the operation counts as an assist tracked by your Now Assist subscription. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management.
 
 </td></tr><tr><td id="d625506e452">
 

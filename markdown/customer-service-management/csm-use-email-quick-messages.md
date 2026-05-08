@@ -25,8 +25,8 @@ You can incorporate icons, business logos, pictures, HTML layout, and rich text 
 
 For more information, see the following topics:
 
--   [Composing emails with quick messages](https://www.servicenow.com/docs/access?context=quick-message&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Define a quick message](https://www.servicenow.com/docs/access?context=t_QuickMessages&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Composing emails with quick messages
+-   Define a quick message
 
 ## Procedure
 
@@ -46,7 +46,7 @@ For more information, see the following topics:
 **Related topics**  
 
 
-[Define a quick message](https://www.servicenow.com/docs/access?context=t_QuickMessages&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_QuickMessages]
 
-[Composing emails with quick messages](https://www.servicenow.com/docs/access?context=quick-message&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.quick-message]
 

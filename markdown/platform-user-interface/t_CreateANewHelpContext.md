@@ -71,7 +71,7 @@ Language
 
 </td><td>
 
-Select the language of the help page to which you are linking. The choices available depend on which I18n Translation plugins you have activated. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Select the language of the help page to which you are linking. The choices available depend on which I18n Translation plugins you have activated. For more information, see Activate a language.
 
  This field allows you to create multiple help contexts for the same form, list, or record, each directing to a help page in a different language. For example, you might have two help contexts for Form X: one for English and the other for Spanish. If a user whose language is set to Spanish clicks the help icon while viewing Form X, the help page defined in the Spanish help context opens.
 

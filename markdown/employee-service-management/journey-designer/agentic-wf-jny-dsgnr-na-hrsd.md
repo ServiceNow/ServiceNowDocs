@@ -58,11 +58,11 @@ To modify an agentic workflow, you must first duplicate the agentic workflow tha
 
 For more information about duplicating an agentic workflow and activating the required components, see the following topics:
 
--   [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   Duplicate an agentic workflow
+-   Activate an agentic workflow template
+-   Modify an AI agent
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Parent Topic:**[Using Journey designer](using-jny-dsnr.md)
 

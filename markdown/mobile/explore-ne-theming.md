@@ -23,7 +23,7 @@ Next Experience theming makes it easier than ever to present your unique company
 
  You can also use your Next Experience theme to inherit theme colors from your instance's existing web theme.
 
- For more information on Next Experience themes, see [Exploring themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ For more information on Next Experience themes, see Exploring themes in Next Experience.
 
 </td><td>
 
@@ -59,17 +59,17 @@ Whether your instance enables Next Experience theming depends on your existing c
 
     -   For versions Utah to Yokohama, Polaris is the applied default theme.
     -   For versions Zurich and above, Coral is the applied default theme.
-    These setting can be changed using a system property. For details see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+    These setting can be changed using a system property. For details see Considerations for activating Next Experience
 
 -   **Existing customers with no theme customizations**
 
-    Existing customers upgrading to Utah and later releases have Next Experience active by default unless they have opted-out of Next Experience in a previous release. If you've opted out, you can enable Next Experience theming manually. For details see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Existing customers upgrading to Utah and later releases have Next Experience active by default unless they have opted-out of Next Experience in a previous release. If you've opted out, you can enable Next Experience theming manually. For details see Considerations for activating Next Experience.
 
     **Note:** Existing customers upgrading to Zurich who use Polaris as their default Next Experience theme will retain Polaris as their mobile theme unless a different theme is selected. For configuration instruction to change the theme, see [Configure Next Experience theming for mobile](config-ne-theming.md).
 
 -   **Existing customers with custom themes**
 
-    Existing customers upgrading to Utah and later releases have Next Experience disable by default after the upgrade. Your custom themes from the last release remain unchanged. You can manually enable Next Experience themes when you're ready to implement the new features. For details see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Existing customers upgrading to Utah and later releases have Next Experience disable by default after the upgrade. Your custom themes from the last release remain unchanged. You can manually enable Next Experience themes when you're ready to implement the new features. For details see Considerations for activating Next Experience.
 
 -   **Existing customers using the Mobile Publishing application**
 

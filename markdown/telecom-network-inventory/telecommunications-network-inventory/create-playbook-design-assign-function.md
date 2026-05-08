@@ -52,7 +52,7 @@ Role required: admin, playbook.admin
 
 4.  Add and configure your trigger.
 
-    To learn more, see [Add and configure a trigger in a playbook](https://www.servicenow.com/docs/access?context=add-configure-trigger&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    To learn more, see Add and configure a trigger in a playbook.
 
     1.  Select the more options icon \(![More Options Icon](../../tmt-order-mgt/image/more-options.png) and select **Properties**.
 
@@ -69,7 +69,7 @@ Role required: admin, playbook.admin
 
 5.  Select **Add Stage** to add a stage.
 
-    You must add only one stage for the Design and Assign function. To learn more about the playbook stage, see [Add and configure a stage in a playbook](https://www.servicenow.com/docs/access?context=add-configure-stage&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    You must add only one stage for the Design and Assign function. To learn more about the playbook stage, see Add and configure a stage in a playbook.
 
 6.  Add and configure the activity.
 
@@ -77,7 +77,7 @@ Role required: admin, playbook.admin
 
     2.  Select the activity that you want to add in the playbook.
 
-        You can select an existing activity that is associated with the Network Inventory Advanced application and update them according to your requirement. You can also create and add new activity. To learn more about creating an activity, see [Add and configure an activity in a playbook](https://www.servicenow.com/docs/access?context=add-configure-activity&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        You can select an existing activity that is associated with the Network Inventory Advanced application and update them according to your requirement. You can also create and add new activity. To learn more about creating an activity, see Add and configure an activity in a playbook.
 
 <table id="table_kvj_1zg_sdc"><thead><tr><th>
 
@@ -118,7 +118,7 @@ Review and submit design assign
 This activity is used to review and submit a design and assign request. It automatically creates a change task​.
 
 </td></tr></tbody>
-</table>        You can also create an activity. To learn more, see [Add and configure an activity in a playbook](https://www.servicenow.com/docs/access?context=add-configure-activity&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>        You can also create an activity. To learn more, see Add and configure an activity in a playbook.
 
         Your new activity appears in the stage, and the Activity properties panel appears.
 

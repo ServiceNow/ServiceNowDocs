@@ -24,7 +24,7 @@ Domain separation is supported for UI Builder. Domain separation enables you to 
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview of Domain Separation in UI Builder
 
@@ -60,7 +60,7 @@ For items that are not domain separated, any change to the logic globally affect
 
 When designing a workspace, dashboard, or portal experience using the UI Builder \(including Dashboard Builder\), a system administrator or ui\_builder\_admin has access to a **Domain Selection** menu in UI Builder. A system administrator or ui\_builder\_admin should switch to the proper domain prior to creating, editing, or overriding a variant or dashboard page.
 
-By default, the ui\_builder\_admin role does not have access to the **Domain Selection** menu. The **Domain Selection** menu must be coupled with a role that grants access, such as ITIL, or it can be added via system property. For more information, see [Enable domain selection menus in Core UI](https://www.servicenow.com/docs/access?context=t_EnableDomainReferencePickerProperty&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+By default, the ui\_builder\_admin role does not have access to the **Domain Selection** menu. The **Domain Selection** menu must be coupled with a role that grants access, such as ITIL, or it can be added via system property. For more information, see Enable domain selection menus in Core UI.
 
 In addition, the **Domain Selection** menu also shows **Expand/Collapse Domain Scope**, that is displayed while the system administrator or ui\_builder\_admin is in Global. Select **Expand** to show any variant or dashboard that has been overridden, or exists as a standalone in a sub domain. Select **Collapse** to only show variants or dashboards created in Global.
 
@@ -103,5 +103,5 @@ Declarative Actions can be overridden per domain as well. A system administrator
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

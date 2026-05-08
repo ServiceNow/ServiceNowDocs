@@ -252,7 +252,7 @@ List of all projects assigned to the business location. Select a project to see 
 
 To learn more about project creation, see [Create customer projects](../task/create-customer-projects.md).
 
-To learn more about project task creation, see [Create a project task from a project](https://www.servicenow.com/docs/access?context=t_CreateATaskFromAProject&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+To learn more about project task creation, see Create a project task from a project.
 
 </td></tr><tr><td>
 

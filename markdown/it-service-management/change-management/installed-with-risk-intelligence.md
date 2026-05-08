@@ -15,7 +15,7 @@ breadcrumb: [Request Change Management - Risk Assessment, Change Management plug
 
 Several types of components are installed with activation of the Change Management - Risk Intelligence plugin, that includes tables.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 

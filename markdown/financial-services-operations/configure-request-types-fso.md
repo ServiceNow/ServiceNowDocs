@@ -21,6 +21,6 @@ When an agent creates a case for a request type, the Financial Services Operatio
 
 -   Product Service select version of the case type selector for creating a case from the Workspace UI.
 
-    In the Workspace UI, agents can use the Product Service select version of the case type selector to choose the suitable case type or service when creating a case. By selecting from a list of available case types or services, agents can efficiently create the appropriate case for a contact or consumer. For more information on how the case type selector empowers customer service agents, see [Product Service select version of the case type selector](https://www.servicenow.com/docs/access?context=csm-case-type-select-modals-product-service&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    In the Workspace UI, agents can use the Product Service select version of the case type selector to choose the suitable case type or service when creating a case. By selecting from a list of available case types or services, agents can efficiently create the appropriate case for a contact or consumer. For more information on how the case type selector empowers customer service agents, see Product Service select version of the case type selector.
 
 

@@ -200,7 +200,7 @@ Option to select when the recipients are from more than 2 tables. These are dyna
 **Related topics**  
 
 
-[Provider notifications](https://www.servicenow.com/docs/access?context=provider-notifications-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.provider-notifications-landing]
 
-[Create default content in a provider](https://www.servicenow.com/docs/access?context=create-default-content&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.create-default-content]
 

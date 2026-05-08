@@ -21,7 +21,7 @@ As an administrator or an impersonator, use impersonation to view a ServiceNow m
 
  While impersonating another user, the app displays a banner at the top of the screen with the name of user being impersonated.
 
- Impersonation logging and limitations for mobile are the same as those when using impersonation in the web-based UI. For details see [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ Impersonation logging and limitations for mobile are the same as those when using impersonation in the web-based UI. For details see Impersonate a user.
 
 </td><td>
 
@@ -30,7 +30,7 @@ As an administrator or an impersonator, use impersonation to view a ServiceNow m
 </td></tr></tbody>
 </table>## Limitations of mobile impersonation
 
-In addition to the limitations listed in [Impersonate a user](https://www.servicenow.com/docs/access?context=c_ImpersonateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US), the following are not supported when using impersonation in ServiceNow mobile:
+In addition to the limitations listed in Impersonate a user, the following are not supported when using impersonation in ServiceNow mobile:
 
 -   Virtual Agent
 -   Offline mode.

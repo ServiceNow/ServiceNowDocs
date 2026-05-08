@@ -127,7 +127,7 @@ Duration of the release in days. When you submit the form, this field auto-popul
 
 -   Attach documents such as release and deployment plans, installation manuals, and training documentation to a release.
 
-    For more information, see [Add and manage attachments](https://www.servicenow.com/docs/access?context=t_AddingAnAttachment&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Add and manage attachments.
 
 -   Releases can have child releases. So, you can group minor releases under major releases.
 

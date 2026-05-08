@@ -29,7 +29,7 @@ Trusted instance
 
 2.  Open the most recently created X.509 Certificate that was generated with the type **Trust Store Cert**.
 
-    You may need to add the **Created** field to the list to find the most recent record. See [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    You may need to add the **Created** field to the list to find the most recent record. See Personal lists.
 
 3.  Select **Export certificate to production**.
 
@@ -57,7 +57,7 @@ Trusted instance
 
 8.  Retrieve the update set in production.
 
-    See [Retrieve an update set](https://www.servicenow.com/docs/access?context=t_RetrieveAnUpdateSet&version=australia&pubname=australia-application-development&ft:locale=en-US) for details.
+    See Retrieve an update set for details.
 
     **Important:** Repeat these steps for your second key pair. Remember that there’s a key for both the cm\_code\_attest and cm\_code\_signing cryptographic modules.
 

@@ -17,7 +17,7 @@ Assign roles to specify what different users can see and do.
 
 ## Roles
 
-For more information about managing and assigning roles, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about managing and assigning roles, see Managing roles.
 
 <table id="table_u4x_zmk_qhc"><thead><tr><th>
 

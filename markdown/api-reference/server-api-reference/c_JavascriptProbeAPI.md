@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The JavascriptProbe script include provides methods for using the JavascriptProbe on the MID Server.
 
-Use these methods in server scripts to send a probe to the MID Server For more information, see [Create a JavaScript Probe activity](https://www.servicenow.com/docs/access?context=t_CreateAJavaScriptProbeActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Use these methods in server scripts to send a probe to the MID Server For more information, see Create a JavaScript Probe activity.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

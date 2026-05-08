@@ -20,7 +20,7 @@ Choose not to receive a specific prompt by opting out of the signal displayed in
 Role required: none
 
 -   Make sure that Manager Hub and Talent Development installed to access these tabs in the Employee Portal.
--   To access the prompts on any other portal page in the Employee Portal, the Prompt widget must be added. For information on configuring portal pages, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). For information on adding widgets to a page, see [Service Portal widgets](https://www.servicenow.com/docs/access?context=service-portal-widgets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+-   To access the prompts on any other portal page in the Employee Portal, the Prompt widget must be added. For information on configuring portal pages, see Create and edit a page using the Service Portal Designer. For information on adding widgets to a page, see Service Portal widgets.
 
 
 ## Procedure

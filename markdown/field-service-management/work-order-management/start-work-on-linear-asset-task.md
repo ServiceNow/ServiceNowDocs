@@ -20,7 +20,7 @@ Examine the linear asset specified in the work order task to pinpoint or select 
 Ensure the following setup:
 
 -   The work order task is either in the **Work In Progress** or **Accepted** state.
--   Enable location tracking from your mobile device to record your location in the geo history table. For more information, see [Using location tracking for mobile](https://www.servicenow.com/docs/access?context=mobile-location&version=australia&pubname=australia-mobile&ft:locale=en-US).
+-   Enable location tracking from your mobile device to record your location in the geo history table. For more information, see Using location tracking for mobile.
 
 Role required: wm\_agent
 

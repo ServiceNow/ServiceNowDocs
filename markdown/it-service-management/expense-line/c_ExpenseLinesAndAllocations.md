@@ -19,7 +19,7 @@ Expense lines are a key component of cost management because they can be generat
 
 Users with the financial\_mgmt\_admin and financial\_mgmt\_user roles can work with expense lines and expense allocation rules.
 
-To use expense allocation rules, activate the [Cost Management](https://www.servicenow.com/docs/access?context=r_CostManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US) application.
+To use expense allocation rules, activate the Cost Management application.
 
 -   **[Create an allocation rule](../task/t_CreateAnAllocationRule.md)**  
 Expense allocation rules enable you to associate expenses with an item, such as a user, group, or department.

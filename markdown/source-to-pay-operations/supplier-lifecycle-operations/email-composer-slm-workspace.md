@@ -28,7 +28,7 @@ By default, the following quick messages are provided for the following supplier
 
 **Note:** The quick message templates contain placeholder text that you must replace with the appropriate text.
 
-For more information on how to create a quick message, see [Define a quick message](https://www.servicenow.com/docs/access?context=t_QuickMessages&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on how to create a quick message, see Define a quick message.
 
 ## Using response templates
 
@@ -36,7 +36,7 @@ Resolve cases faster and more efficiently with response templates. Response temp
 
 Open the response template that you want to use for your email and select **Copy to clipboard**. You can now paste the contents of this template at the location of the cursor. It doesn't replace the content that you created before selecting the response template. To replace existing content with a response template content, highlight the text to replace and then select a response template.
 
-For more information on how to work with response templates, see [Create or modify a response template](https://www.servicenow.com/docs/access?context=create-modify-templated-snippet&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on how to work with response templates, see Create or modify a response template.
 
 ## Viewing draft emails
 

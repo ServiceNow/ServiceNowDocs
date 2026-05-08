@@ -13,9 +13,9 @@ breadcrumb: [Configure install base, Configure product data, Product data, Set u
 
 The Common Service Data Model \(CSDM\) framework is a standard set of terms and definitions that you can adopt across all ServiceNow® products on the ServiceNow AI Platform. By using this framework, you can effectively track assets through their lifecycle transitions.
 
-The CSDM is the data framework that you follow when you set up ServiceNow products and applications. You adhere to the CSDM guidelines when you define the configuration items \(CIs\) and the relationships between CIs in the CMDB. This process helps to ensure that your data resides in the appropriate CMDB tables so that you get the maximum value from your ServiceNow AI Platform applications. To learn about CSDM, see [Common Service Data Model](https://www.servicenow.com/docs/access?context=csdm-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The CSDM is the data framework that you follow when you set up ServiceNow products and applications. You adhere to the CSDM guidelines when you define the configuration items \(CIs\) and the relationships between CIs in the CMDB. This process helps to ensure that your data resides in the appropriate CMDB tables so that you get the maximum value from your ServiceNow AI Platform applications. To learn about CSDM, see Common Service Data Model.
 
-To set up a CSDM environment for Install Base Management, see [Activate the CSDM plugin](https://www.servicenow.com/docs/access?context=csdm-enable&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To set up a CSDM environment for Install Base Management, see Activate the CSDM plugin.
 
 **Note:** It's optional to adopt CSDM. You can either adopt the CSDM framework or continue using the existing model.
 

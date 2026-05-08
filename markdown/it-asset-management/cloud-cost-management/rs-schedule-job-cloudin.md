@@ -91,7 +91,7 @@ Type of change request to use.
 
 **Note:**
 
-The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see [Create a change request](https://www.servicenow.com/docs/access?context=t_CreateAChange&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+The **Short description**, **Description**, **Assignment group**, and **Affected CIs** fields are auto populated. For more information, see Create a change request.
 
 </td></tr><tr><td>
 
@@ -120,9 +120,9 @@ The Rightsizing job is created and will run at the scheduled time.
 **Related topics**  
 
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ITILChangeManagement]
 
-[Standard change catalog](https://www.servicenow.com/docs/access?context=c_StandardChangeCatalogPlugin&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_StandardChangeCatalogPlugin]
 
 [bundle-itsm.create-a-change-request-template]
 

@@ -19,7 +19,7 @@ Add a program for use within the Healthcare and Life Sciences Service Management
 
 Role required: sn.hcls\_manager or admin
 
-To associate an eligibility criteria checklist with the program, create a checklist. For more information, see [Create a checklist](https://www.servicenow.com/docs/access?context=t_CreateAChecklist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To associate an eligibility criteria checklist with the program, create a checklist. For more information, see Create a checklist.
 
 **Note:** By default, the application provides a few checklist templates that you can use as a reference when creating a checklist for a Healthcare and Life Sciences program.
 

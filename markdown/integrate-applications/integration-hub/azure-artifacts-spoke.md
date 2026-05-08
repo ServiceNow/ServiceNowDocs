@@ -70,7 +70,7 @@ The Microsoft Azure Artifacts spoke provides actions to automate Microsoft Azure
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see Connections and Credentials.
 
 For information about setting up the spoke, see [Set up the Microsoft Azure Artifacts spoke](../task/setup-azure-artifacts.md#).
 

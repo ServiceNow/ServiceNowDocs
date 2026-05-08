@@ -13,7 +13,7 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference for order operations applications.
 
-[Components installed with Order Operations Case Management](https://www.servicenow.com/docs/access?context=csm-case-mgmt-order-ops-install-comp&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Components installed with Order Operations Case Management
 
 Several types of components are installed with the Order Operations Case Management application, including tables, roles, and service definitions.
 

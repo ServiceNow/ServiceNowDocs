@@ -47,7 +47,7 @@ This task is applicable for product order, services, and resources.
 
 6.  Diagnose the domain order to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see Decision Tables.
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 

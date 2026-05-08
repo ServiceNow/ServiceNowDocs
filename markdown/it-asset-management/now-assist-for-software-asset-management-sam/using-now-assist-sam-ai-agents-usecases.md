@@ -67,13 +67,13 @@ Software removal candidate evaluation AI agent
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.
 
-You can run the agentic workflow as is by activating the workflow. Additionally, you can [duplicate](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) the workflow if you want to customize the workflow. If you duplicate the agentic workflow, adjust the settings according to your requirements and then activate the duplicated agentic workflow. You can also [test](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) the duplicated agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
+You can run the agentic workflow as is by activating the workflow. Additionally, you can duplicate the workflow if you want to customize the workflow. If you duplicate the agentic workflow, adjust the settings according to your requirements and then activate the duplicated agentic workflow. You can also test the duplicated agentic workflow to analyze its performance in the AI Agent Studio, while it executes the instructions that you defined.
 
 When you activate the agentic workflow, activate all agents within the agentic workflow.
 
 Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 -   **[Now Assist for Software Asset Management \(SAM\) AI agent collection to help manage software asset request agentic workflow](now-assist-sam-fulfill-sw-asset-requests-workflow.md)**  
 Use the Help manage software request agentic workflow to fulfill a software request by either allocating the available entitlements or generating a purchase order for the software model.

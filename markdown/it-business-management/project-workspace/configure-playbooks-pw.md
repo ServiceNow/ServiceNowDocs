@@ -17,7 +17,7 @@ Configure playbooks to organize project workflows, maintain consistency, and kee
 
 Define a trigger condition in Workflow Studio to use a Playbook, either by selecting an existing one or creating a Playbook.
 
-In Project Workspace, Playbooks are triggered by record creation, record update, or both. For example, a Playbook created for projects is associated with project records, and the Playbook tab appears when a project meets the trigger condition. For more information on how to configure a playbook, see [Configuring Playbooks](https://www.servicenow.com/docs/access?context=setting-up-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+In Project Workspace, Playbooks are triggered by record creation, record update, or both. For example, a Playbook created for projects is associated with project records, and the Playbook tab appears when a project meets the trigger condition. For more information on how to configure a playbook, see Configuring Playbooks.
 
 There are two pre-defined project management playbooks available in the Workflow studio:
 
@@ -27,10 +27,10 @@ There are two pre-defined project management playbooks available in the Workflow
 To configure playbooks, perform these tasks:
 
 1.  Navigate to **Workflow Studio** and select **Playbooks**.
-2.  Create and configure playbooks as per your requirement. For more information, see [Create and configure playbooks](https://www.servicenow.com/docs/access?context=setting-up-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
-3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see [Activate Playbooks](https://www.servicenow.com/docs/access?context=activate-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+2.  Create and configure playbooks as per your requirement. For more information, see Create and configure playbooks.
+3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see Activate Playbooks and Triggers.
 
-Multiple playbooks can be enabled at a time, and the trigger should be defined in such a way that each project is mapped to only one type of playbook. To activate a playbook, see [Activate Playbooks](https://www.servicenow.com/docs/access?context=activate-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Multiple playbooks can be enabled at a time, and the trigger should be defined in such a way that each project is mapped to only one type of playbook. To activate a playbook, see Activate Playbooks.
 
 **Note:**
 
@@ -41,9 +41,9 @@ When a project template is applied or project is created from a demand, the proj
 **Related topics**  
 
 
-[Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.building-a-process]
 
-[Designing Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-experience-admins&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.playbook-experience-admins]
 
 [Playbooks in Project Workspace](playbooks-in-pw.md)
 

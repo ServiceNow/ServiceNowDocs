@@ -15,9 +15,9 @@ breadcrumb: [HR Success Dashboard indicators, HR Service Delivery, Employee Serv
 
 Use the HR Success Dashboard indicators to measure the performance of your HR implementation using different KPIs.
 
-For more information on how to share the Dashboard with your leadership, see [Share the Success Dashboard indicators](https://www.servicenow.com/docs/access?context=share-itsm-success-dashboard&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information on how to share the Dashboard with your leadership, see Share the Success Dashboard indicators.
 
-For more information on how to view the benchmark KPIs of the Success Dashboard indicators, see [Success Dashboard indicators benchmark](https://www.servicenow.com/docs/access?context=success-dashboard-benchmark&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For more information on how to view the benchmark KPIs of the Success Dashboard indicators, see Success Dashboard indicators benchmark.
 
 ## Monitor the KPIs of the HR implementation
 

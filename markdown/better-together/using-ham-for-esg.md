@@ -189,11 +189,11 @@ In this workflow:
 
 Get started with Sustainable IT by completing these tasks:
 
-1.  [Activate the Sustainable IT plugin](https://www.servicenow.com/docs/access?context=activate-the-sustainable-it-plugin&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
-2.  [Filter and activate the Sustainable IT metric definitions](https://www.servicenow.com/docs/access?context=filter-sustainable-it-metric-definitions&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
-3.  [Create new entities for data centers](https://www.servicenow.com/docs/access?context=create-a-new-entity-for-data-centers&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
-4.  [Manually set up entities for Sustainable IT data centers](https://www.servicenow.com/docs/access?context=set-up-entities-for-sustainable-it&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
-5.  [Configure Sustainable IT](https://www.servicenow.com/docs/access?context=configure-sustainable-it&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
+1.  Activate the Sustainable IT plugin.
+2.  Filter and activate the Sustainable IT metric definitions.
+3.  Create new entities for data centers.
+4.  Manually set up entities for Sustainable IT data centers.
+5.  Configure Sustainable IT.
 
 **Parent Topic:**[Solutions](../reference/solutions-gallery.md)
 

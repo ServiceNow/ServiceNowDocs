@@ -54,7 +54,7 @@ Geo map component
 
 Provides access to enable the map component in the Health and Safety Workspace from the application properties.
 
- To install, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+ To install, see Activate a plugin
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Geolocation plugin
 
 Enables geolocation feature on the Now Mobile app and gives access to manual tracking options.
 
- For more information, see [Enabling and selecting location tracking options](https://www.servicenow.com/docs/access?context=location-tracking-enable&version=australia&pubname=australia-mobile&ft:locale=en-US)
+ For more information, see Enabling and selecting location tracking options
 
 </td></tr><tr><td>
 

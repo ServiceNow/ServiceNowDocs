@@ -17,11 +17,11 @@ Zing offers users several search interfaces and search operators to conduct text
 
 |Search interface|Description|
 |----------------|-----------|
-|[Global search](c_GlobalTextSearch.md)|Find records in multiple tables using the global search field in the [Next Experience Unified Navigation](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
-|[Search a list](https://www.servicenow.com/docs/access?context=t_SearchAList&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)|Find records in a list; search in a specific field \(Go to\), all fields \(Search\), or in a specific column.|
-|[Knowledge Base](https://www.servicenow.com/docs/access?context=r_KnowledgeSearch&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Find knowledge articles.|
-|[Live feed](https://www.servicenow.com/docs/access?context=c_UseLiveFeed&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|Filter, search, or sort messages in live feed.|
-|[UI pages](https://www.servicenow.com/docs/access?context=r_UIPages&version=australia&pubname=australia-api-reference&ft:locale=en-US)|Create a custom UI page to search for records in a table.|
+|[Global search](c_GlobalTextSearch.md)|Find records in multiple tables using the global search field in the Next Experience Unified Navigation.|
+|Search a list|Find records in a list; search in a specific field \(Go to\), all fields \(Search\), or in a specific column.|
+|Knowledge Base|Find knowledge articles.|
+|Live feed|Filter, search, or sort messages in live feed.|
+|UI pages|Create a custom UI page to search for records in a table.|
 
 |Search operator|Description|
 |---------------|-----------|

@@ -39,7 +39,7 @@ To access the agent in AI Agent Studio:
 2.  Select the **AI agents** tab.
 3.  Select **SLO Creator Agent**.
 
-The SLO Creator Agent page lets you manage the agent, including defining security controls. To modify the agent, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) and adjust the settings.
+The SLO Creator Agent page lets you manage the agent, including defining security controls. To modify the agent, duplicate it and adjust the settings.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
 
@@ -51,7 +51,7 @@ One agent is used to create SLOs in SRM.
 |--------|-------------|
 |SLO creator agent|Creates SLOs for SRM services and CIs by examining historical incidents, outages, and alerts.|
 
-**Important:** This agent is turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This agent is turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 -   **[Manage SLO creator agent settings](../task/now-assist-itom-manage-generated-slos.md)**  
 Activate or deactivate the service level objective \(SLO\) creator agent and configure the notification settings.

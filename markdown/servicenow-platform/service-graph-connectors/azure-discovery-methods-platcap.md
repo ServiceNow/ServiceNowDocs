@@ -38,12 +38,12 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+Discovery patterns used by ITOM Visibility
 
 </td><td>
 
 -   You must update your store apps to the latest release version.
--   You must provide ITOM Visibility with access permissions. For more information, see [Set up Azure service accounts](https://www.servicenow.com/docs/access?context=setup-azure-service-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   You must provide ITOM Visibility with access permissions. For more information, see Set up Azure service accounts
 
 </td></tr><tr><td>
 

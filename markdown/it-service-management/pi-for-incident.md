@@ -24,7 +24,7 @@ These solution definitions are available as templates on instances where both Pr
 |Similar Open Problems|Similarity|Recommends similar open problems that the current incident can be linked to. By default, the similarity is inactive.|
 |Similar Open Change Requests|Similarity|Recommends similar open change requests that the current incident can be linked to as a request for change. By default, the similarity is inactive.|
 
-For more information on similarity solution, refer [Create similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on similarity solution, refer Create similarity solution.
 
 **Parent Topic:**[Request Predictive Intelligence for Incident](../task/request-predictive-intelligence-for-im.md)
 

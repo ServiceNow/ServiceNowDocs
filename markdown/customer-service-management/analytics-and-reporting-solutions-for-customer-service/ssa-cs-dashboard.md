@@ -25,7 +25,7 @@ Measure and track the effectiveness of self-service content through user activit
 
 ![Virtual agent tab displaying different tab to analyse the engagements, success rates, and deflection activity.](../../../product/customer-service-management/image/self-service-dashboard-virtual-agent.png "Virtual agent tab")
 
-You can access this dashboard by navigating to **All** &gt; **Platform analytics** &gt; **Library** &gt; **Dashboards**, and search for Self-Service Analytics dashboard. To edit this dashboard, you must set the application scope to **Self-Service Analytics for Customer Service** using the [application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+You can access this dashboard by navigating to **All** &gt; **Platform analytics** &gt; **Library** &gt; **Dashboards**, and search for Self-Service Analytics dashboard. To edit this dashboard, you must set the application scope to **Self-Service Analytics for Customer Service** using the application picker.
 
 **Note:**
 
@@ -90,7 +90,7 @@ The Self-Service Analytics for Customer Service plugin includes the following in
 
     A monthly calculation of the cost saving for a deflection. The score is calculated according to the formula `([[Self-Service: Confirmed Deflections]] + [[Self-Service: Potential Deflections]]) * 20`.
 
-    **Note:** By default, the cost saved by each deflection is set to $20. However, you can modify the formula and set a different cost. To edit the formula, navigate to **Performance Analytics** &gt; **Formula Indicators**, search for and click the **Self-Service: Cost Saved** indicator, and edit the numeric value in the **Formula** field. For more information, see [Create a formula indicator](https://www.servicenow.com/docs/access?context=t_CreateAFormulaIndicator&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    **Note:** By default, the cost saved by each deflection is set to $20. However, you can modify the formula and set a different cost. To edit the formula, navigate to **Performance Analytics** &gt; **Formula Indicators**, search for and click the **Self-Service: Cost Saved** indicator, and edit the numeric value in the **Formula** field. For more information, see Create a formula indicator.
 
 -   **Self-Service: Potential Deflections**
 
@@ -216,5 +216,5 @@ This dashboard includes the following breakdowns:
 **Related topics**  
 
 
-[Self-Service Analytics](https://www.servicenow.com/docs/access?context=self-service-analytics&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.self-service-analytics]
 

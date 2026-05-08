@@ -25,7 +25,7 @@ To set up the integration, follow these steps:
 
 **Note:** Before you set the integration, you must configured the Recommended Actions application. See [Set up recommended actions for account onboarding](../task/account-lifecycle-setup-rec-action.md) for details.
 
-1.  Set up the Microsoft Dynamics CRM spoke. See [Microsoft Dynamics CRM Spoke](https://www.servicenow.com/docs/access?context=microsoft-dynamics-crm-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for details.
+1.  Set up the Microsoft Dynamics CRM spoke. See Microsoft Dynamics CRM Spoke for details.
 2.  On the Microsoft Dynamics CRM platform, you must do the following:
 
     -   Create an account with the same name as the account associated with your internal play task.

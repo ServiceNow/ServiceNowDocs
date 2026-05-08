@@ -6,7 +6,7 @@ release: australia
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Create an ad-hoc task on a claim, Use, Individual Life Claims, Claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

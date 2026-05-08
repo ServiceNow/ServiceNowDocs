@@ -13,7 +13,7 @@ breadcrumb: [Activate, Configure, Field Service Management]
 
 After Field Service Management is activated, you can activate additional plugins that provide demo data and enable a variety of features.
 
-You must have the admin role to activate these additional plugins. For details, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must have the admin role to activate these additional plugins. For details, see Activate a plugin.
 
 <table id="table_wp2_h15_2v"><thead><tr><th>
 

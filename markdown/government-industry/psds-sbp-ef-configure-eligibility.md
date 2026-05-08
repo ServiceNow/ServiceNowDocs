@@ -136,7 +136,7 @@ When you create a policy, a draft policy version is created, and must be publish
 -   Save the policy as a template
 -   Compare versions
 -   Duplicate policy versions
-For more details, see [Manage PaCE policy versions](https://www.servicenow.com/docs/access?context=pace-policy-versions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).**Note:** You must publish a policy version to make it current before it can be used.
+For more details, see Manage PaCE policy versions.**Note:** You must publish a policy version to make it current before it can be used.
 
 </td></tr><tr><td>
 
@@ -463,7 +463,7 @@ Date and time when the policy template was created.
 
 6.  Select the **Template Builder** tab and fill in the conditions in the Policy logic section, then select **Save**.
 
-    For more information about the parameters and condition fields, see [Passing parameters to PaCE policies](https://www.servicenow.com/docs/access?context=pace-passing-parameters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Policy logic condition fields](https://www.servicenow.com/docs/access?context=pace-policy-logic-fields&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information about the parameters and condition fields, see Passing parameters to PaCE policies and Policy logic condition fields.
 
 
 ### What to do next

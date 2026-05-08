@@ -17,7 +17,7 @@ Configure field settings for event categories. You can create or update field co
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Field Service application, transition to the Workforce Optimization for Field Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Field Service using the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US). For more information see, [Configuring Workforce Optimization for Field Service](../concept/configuring-wfo-fsm.md).
+**Important:** To access the next generation of the Workforce Optimization for Field Service application, transition to the Workforce Optimization for Field Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Field Service using the UI Builder. For more information see, [Configuring Workforce Optimization for Field Service](../concept/configuring-wfo-fsm.md).
 
 Role required: sn\_shift\_planning.admin
 

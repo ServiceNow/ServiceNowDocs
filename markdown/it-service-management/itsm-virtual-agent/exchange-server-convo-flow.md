@@ -21,9 +21,9 @@ Natural Language Understanding \(NLU\) is used to identify and trigger the meeti
 
 Requirements:
 
--   [Microsoft Exchange Server spoke](https://www.servicenow.com/docs/access?context=msexchangeserver-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) \(sn\_exchange\_spoke\)
+-   Microsoft Exchange Server spoke \(sn\_exchange\_spoke\)
 -   Email addresses for meeting attendees must be configured in the User \[sys\_user\] table to be added to meeting invites
--   Some topics can use the [Zoom spoke](https://www.servicenow.com/docs/access?context=zoom-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to add meeting links
+-   Some topics can use the Zoom spoke to add meeting links
 
 **Note:** If these topics are duplicated in a different scope than ITSM Virtual Agent Conversations, script logic can be affected and cause errors. This topic must be duplicated in the ITSM Virtual Agent Conversations scope.
 

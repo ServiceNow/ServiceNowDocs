@@ -65,7 +65,7 @@ When a purchase request is created, you can configure the Purchasing Details for
 
 As part of this integration, whenever a purchase is ordered as part of a demand or project, a cost plan is automatically created in association with that purchase order line. You can configure the Summary Details form layout on the purchase order line to display the new **Cost plan** field. A Purchase Order Lines related list is also added to the corresponding cost plan record. On the Cost Plan form, the **Total planned cost** field is auto-populated based on when the purchase order had been generated. The **Total actual cost** field is populated based on invoice and expense line creation.
 
-For information on how to configure a form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information on how to configure a form layout, see Configuring the form layout.
 
 ## Impact on invoice line and expense line tables
 

@@ -15,7 +15,7 @@ breadcrumb: [JavaScript debug window, Debugging scripts, Scripting, API implemen
 
 The field watcher tool tracks and displays all actions that the system performs on a selected form field.
 
-**Note:** Field watcher is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://www.servicenow.com/docs/access?context=next-experience-adoption-paths&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** Field watcher is not supported with Next Experience. For more information about supported features in Next Experience, see Considerations for activating Next Experience.
 
 Administrators can use the field watcher to figure out what happens to the field and how the value of the field changes when an event such as the firing of a business rule or enforcement of a data policy, takes place. Administrators can also impersonate non-admin users to debug what happens when those users make changes on an instance. Only one field can be watched at a time. Non-admin users with the impersonator role have access to the field watcher feature.
 

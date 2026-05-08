@@ -17,7 +17,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 ## Before you begin
 
--   The AI Control Tower plugin must be installed. For more information, see [Activation and installation of AI Control Tower](https://www.servicenow.com/docs/access?context=activation-and-installation-of-ai-control-tower&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   The AI Control Tower plugin must be installed. For more information, see Activation and installation of AI Control Tower.
 -   The investment type of the demand is set to artificial intelligence.
 -   Role required: sn\_ai\_steward
 
@@ -33,7 +33,7 @@ Create AI systems from directly within the demand workflow and associate them wi
 
 4.  Select the **Create AI System** button to create an AI system in the AI Control Tower workspace.
 
-    For more information on creating AI systems, see [Create AI system assets](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information on creating AI systems, see Create AI system assets.
 
 
 ## What to do next

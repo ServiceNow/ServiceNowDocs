@@ -22,7 +22,7 @@ The suggest configuration items for a change request agentic workflow lets users
 
 The user can also provide details such as class, location, and environment of the configuration item to refine the search.
 
-To modify the suggest configuration items for a change request agentic workflow, [duplicate it](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the suggest configuration items for a change request agentic workflow, duplicate it, and adjust the settings according to your requirements.
 
 **Note:** The workflow can be accessed by the itil role.
 

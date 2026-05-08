@@ -15,7 +15,7 @@ breadcrumb: [DevOps Change Velocity, IT Service Management]
 
 Learn about the setup process for DevOps Change Velocity that is required before configuring integrations with your toolchain.
 
-The DevOps playbooks provide a task-oriented view and guides you through the various steps while setting up your applications, tools, and discovering and configuring your pipelines. If you have not enabled the Next Experience UI, you can still perform the following tasks using the Classic UI. For more information about migrating to the Next Experience UI and configuring workspaces, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The DevOps playbooks provide a task-oriented view and guides you through the various steps while setting up your applications, tools, and discovering and configuring your pipelines. If you have not enabled the Next Experience UI, you can still perform the following tasks using the Classic UI. For more information about migrating to the Next Experience UI and configuring workspaces, see Next Experience UI.
 
 1.  [Install DevOps Change Velocity](../task/activate-dev-ops.md).
 

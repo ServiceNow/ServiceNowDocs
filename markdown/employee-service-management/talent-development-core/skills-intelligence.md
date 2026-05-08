@@ -15,7 +15,7 @@ breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Managemen
 
 The ServiceNow® Skills Foundation application is an AI-driven platform that you can use in your organization to develop a workforce that is based on skills.
 
-**Important:** Skills Foundation uses Artificial Intelligence \(AI\) to help your organization in talent management and employee development. Skills Management application enables you to manually create skills and skill categories, and also assign them to users manually. Activating the Skills Foundation plugin \(com.sn\_skills\_int\) will also activate the Skills Management plugin \(com.snc.skills\_management\). For information on Skills Management, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Important:** Skills Foundation uses Artificial Intelligence \(AI\) to help your organization in talent management and employee development. Skills Management application enables you to manually create skills and skill categories, and also assign them to users manually. Activating the Skills Foundation plugin \(com.sn\_skills\_int\) will also activate the Skills Management plugin \(com.snc.skills\_management\). For information on Skills Management, see Skills Management.
 
 Skills Foundation overview 
 
@@ -60,7 +60,7 @@ Build a complete profile of your talent with a comprehensive view of the skills 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the HR Service Delivery release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

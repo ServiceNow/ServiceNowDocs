@@ -17,9 +17,9 @@ Supplier owners and supplier managers can use the supplier onboarding playbook t
 
 ## Playbooks overview
 
-Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using [Process Automation Designer](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Playbooks provide step-by-step guidance for onboarding suppliers. A playbook visualizes a workflow in a simple, task-oriented view. The workflow for a playbook is typically created using Process Automation Designer.
 
-A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+A playbook takes a workflow and breaks it into multiple stages. Each stage in a playbook includes one or more activities or steps for a supplier owner or supplier manager to complete. Stages can also include automated activities, such as sending an email to a supplier contact when a stage or activity is complete. For more information, see Interact with Playbook.
 
 When using a playbook, a supplier owner or supplier manager can:
 
@@ -40,7 +40,7 @@ The Supplier onboarding playbook appears in the **Playbook** tab on the Case Det
 
 After you submit a supplier onboarding request, the application creates a new case of type Onboard a Supplier and opens the Case Details page. You can select the **Playbook** tab and start the supplier onboarding process using playbook. For more information on creating a supplier, see [Add a supplier](../../sourcing-procurement-operations/task/create-supplier.md).
 
-**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see [Add a user to a group](https://www.servicenow.com/docs/access?context=t_AddAUserToAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Important:** Supplier Lifecycle Operations creates an approval record if the "Ask For Approval" action is a part of any SLO flow. This approval record can be approved by the user who belongs to the Supplier Administrators group \(sys\_user\_group table\). For more information, see Add a user to a group.
 
 The Supplier onboarding playbook includes the following stages:
 

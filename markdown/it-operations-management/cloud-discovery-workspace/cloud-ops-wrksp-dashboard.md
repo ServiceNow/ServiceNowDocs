@@ -108,5 +108,5 @@ This report displays the trend of the cloud events received over the last 24 hou
 **Related topics**  
 
 
-[List of workspaces](https://www.servicenow.com/docs/access?context=list-of-workspaces&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.list-of-workspaces]
 

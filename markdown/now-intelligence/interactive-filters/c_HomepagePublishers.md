@@ -26,7 +26,7 @@ To create an interactive filter, see [Creating Interactive Filters of different 
 **Important:**
 
 -   Performance Analytics widgets on the dashboard do not follow interactive filters. Separately filter those widgets on the same [breakdown source](../../performance-analytics/concept/breakdown-sources.md) by using the breakdown dashboard controls. For more information, see [Using breakdowns on dashboards](../../performance-analytics/concept/c_SpecialDashboards.md) and [Make a breakdown act as an interactive filter](../task/make-breakdown-interactive-filter.md).
--   Interactive filters are not supported for reports that are based on a MetricBase source. For more information, see [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Interactive filters are not supported for reports that are based on a MetricBase source. For more information, see MetricBase.
 
 For information about unified filters in Platform Analytics, see [Filters in Platform Analytics](../../par-for-workspace/concept/interactive-filters-workspace.md).
 

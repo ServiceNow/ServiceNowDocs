@@ -18,7 +18,7 @@ Configure and activate the agentic workflows that you want to use in the Enterpr
 
 ## Before you begin
 
-Role required: sn.aia\_admin role or an appropriate role that is defined in your [security controls](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+Role required: sn.aia\_admin role or an appropriate role that is defined in your security controls
 
 ## Procedure
 
@@ -26,25 +26,25 @@ Role required: sn.aia\_admin role or an appropriate role that is defined in your
 
     -   Create a new workflow and configure the settings according to your requirements.
 
-        For detailed instructions, see [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For detailed instructions, see Create an agentic workflow.
 
     -   Duplicate an existing workflow and adjust the settings according to your requirements.
 
-        For detailed instructions, see [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For detailed instructions, see Duplicate an agentic workflow.
 
     -   Modify an existing workflow according to your requirements.
 
-        For detailed instructions, see [Modify an agentic workflow](https://www.servicenow.com/docs/access?context=modify-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+        For detailed instructions, see Modify an agentic workflow.
 
     **Note:** If you want to run an existing agentic workflow as is, skip this step and proceed directly to [step 3](configure-activate-agentic-workflows-eam.md#trigger).
 
 2.  Test the customized agentic workflow to analyze its performance while it executes the instructions that you have defined.
 
-    -   To test the agentic workflow manually, see [Manually test the execution of an agentic workflow](https://www.servicenow.com/docs/access?context=test-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
-    -   To test the agentic workflow automatically against various execution log datasets, see [Execute an agentic evaluation run](https://www.servicenow.com/docs/access?context=execute-aia-eval&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   To test the agentic workflow manually, see Manually test the execution of an agentic workflow.
+    -   To test the agentic workflow automatically against various execution log datasets, see Execute an agentic evaluation run.
 3.  Activate the trigger to invoke the agentic workflow automatically.
 
-    For detailed instructions, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For detailed instructions, see Activate an agentic workflow template.
 
     **Note:** If you do not activate the trigger, you must invoke the agentic workflow manually.
 

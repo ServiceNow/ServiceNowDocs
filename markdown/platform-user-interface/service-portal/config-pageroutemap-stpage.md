@@ -35,5 +35,5 @@ Role required: admin or sp\_admin
 **Related topics**  
 
 
-[Define filters for My Requests](https://www.servicenow.com/docs/access?context=configure-my-requests&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.configure-my-requests]
 

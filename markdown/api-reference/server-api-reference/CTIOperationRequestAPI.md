@@ -110,11 +110,11 @@ For example, the following operation handler script stores values that were set 
 })(request, response, ctx);
 ```
 
-For additional information on creating operation handlers, see [Configure a contact flow for an automated caller interaction](https://www.servicenow.com/docs/access?context=establish-automated-bot-interactions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on creating operation handlers, see Configure a contact flow for an automated caller interaction.
 
-This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice \(sn\_cti\_core\) plugin must be activated. For information on activating ServiceNow Voice, see [Install ServiceNow Voice applications](https://www.servicenow.com/docs/access?context=install-ccc-apps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This script include runs in the `sn_cti_core` namespace. Before you are able to access the CTIOperationRequest script include, the ServiceNow Voice \(sn\_cti\_core\) plugin must be activated. For information on activating ServiceNow Voice, see Install ServiceNow Voice applications.
 
-For additional information on the ServiceNow Voice, see [ServiceNow Voice](https://www.servicenow.com/docs/access?context=cloud-call-center-overview&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For additional information on the ServiceNow Voice, see ServiceNow Voice.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

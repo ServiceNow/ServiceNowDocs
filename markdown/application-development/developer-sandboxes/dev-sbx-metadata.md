@@ -44,5 +44,5 @@ When a sandbox is allocated, it inherits the baseline data configuration of scop
 
 Business rules are metadata inherited from the base instance. You can see business rules on a sandbox by navigating to **All** &gt; **Administration** &gt; **Business rules**.
 
-Business rules are copied, but isolated. They are inherited, but changes and additions are isolated on each sandbox. For more information on Business rules, see [Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Business rules are copied, but isolated. They are inherited, but changes and additions are isolated on each sandbox. For more information on Business rules, see Classic Business rules.
 

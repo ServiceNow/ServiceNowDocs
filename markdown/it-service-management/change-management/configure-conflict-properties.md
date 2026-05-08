@@ -145,7 +145,7 @@ Checks whether the change request falls within the scheduled maintenance defined
 
 </td><td>
 
-Checks whether a change request that falls within the maintenance or blackout windows affects other related application services, such as the services created that include the CI scheduled for change or any other CI within that service.**Note:** This action requires any business services identified to be converted to an application service. For more information, see [Convert business services to application services](https://www.servicenow.com/docs/access?context=convert-bus-to-app-svc-intro&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). For information about application services, see [Application services](https://www.servicenow.com/docs/access?context=application-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) [Application services](https://www.servicenow.com/docs/access?context=application-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Checks whether a change request that falls within the maintenance or blackout windows affects other related application services, such as the services created that include the CI scheduled for change or any other CI within that service.**Note:** This action requires any business services identified to be converted to an application service. For more information, see Convert business services to application services. For information about application services, see Application services Application services.
 
 </td></tr><tr><td>
 

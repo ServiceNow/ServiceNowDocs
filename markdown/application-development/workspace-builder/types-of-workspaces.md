@@ -59,10 +59,10 @@ The Analytics Overview includes the following components:
 
     A set of tiles for each dashboard on the instance that you are allowed to access. Selecting a tile opens that dashboard.
 
-    **Note:** You can create and edit dashboards in-line. For more information, see [Configure Platform Analytics dashboard details](https://www.servicenow.com/docs/access?context=config-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    **Note:** You can create and edit dashboards in-line. For more information, see Configure Platform Analytics dashboard details.
 
 
-For more information on Analytics Overview, see [Platform Analytics overview](https://www.servicenow.com/docs/access?context=analytics-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information on Analytics Overview, see Platform Analytics overview.
 
 ![Example Analytics Center for a workspace](../image/sample-worksapce-analytics-next-exp.png "Analytics Overview")
 

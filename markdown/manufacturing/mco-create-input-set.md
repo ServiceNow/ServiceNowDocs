@@ -47,7 +47,7 @@ Application
 
 </td><td>
 
-Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see [Application files](https://www.servicenow.com/docs/access?context=c_ApplicationFiles&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Configuration record details. You can’t edit the application.**Note:** To learn more about the Application file, see Application files.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

@@ -15,7 +15,7 @@ Use the GetOutputs component to get the output of a flow or a subflow in Workflo
 
 ## Before you begin
 
-To understand more about flows in Workflow Studio, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To understand more about flows in Workflow Studio, see Building flows.
 
 Before you use any Flow Designer component, use the Connection Manager to make sure that you're connected to the instance. For more information about how to connect to an instance, see [Connect to an RPA Hub instance from RPA Desktop Design Studio](connect-studio-instance-rpa.md).
 

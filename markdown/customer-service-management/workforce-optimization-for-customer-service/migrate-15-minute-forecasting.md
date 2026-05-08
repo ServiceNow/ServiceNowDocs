@@ -27,7 +27,7 @@ Starting with the Tokyo release, 15-minute forecasting is the default forecastin
 
 1.  Set the **sn\_agent\_forecast.forecast\_interval** system property value to `15`.
 
-    1.  Set the application scope to Agent Forecast using the [application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    1.  Set the application scope to Agent Forecast using the application picker.
 
     2.  Enter `sys_properties.list` in the navigation filter, and then open the **sn\_agent\_forecast.forecast\_interval** property.
 

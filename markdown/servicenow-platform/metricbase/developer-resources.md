@@ -17,22 +17,22 @@ Developers can use JavaScript or REST APIs to insert and retrieve time-series da
 
 ## REST APIs
 
-For information about the MetricBase REST APIs that return time-series data from the MetricBase database, see [MetricBase Time Series API](https://www.servicenow.com/docs/access?context=Clotho-Time-Series-API&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For information about the MetricBase REST APIs that return time-series data from the MetricBase database, see MetricBase Time Series API.
 
 ## JavaScript APIs
 
 For information about the MetricBase JavaScript APIs that return time-series data from the MetricBase database, see:
 
--   [Client](https://www.servicenow.com/docs/access?context=ClientScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Execute transforms on the MetricBase database and receive the results.
--   [Data](https://www.servicenow.com/docs/access?context=DataScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Return the object that contains the result of a transform.
--   [DataBuilder](https://www.servicenow.com/docs/access?context=DataBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Create a series of data points for a metric.
--   [Transformer](https://www.servicenow.com/docs/access?context=TransformerScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Manipulate time-series data to prepare the data for evaluation and analysis.
--   [TransformPart](https://www.servicenow.com/docs/access?context=TransformPartScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Specify details of the transform to be done.
--   [TransformResult](https://www.servicenow.com/docs/access?context=TransformResultScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) — Return the object that contains the result of the transformation.
+-   Client — Execute transforms on the MetricBase database and receive the results.
+-   Data — Return the object that contains the result of a transform.
+-   DataBuilder — Create a series of data points for a metric.
+-   Transformer — Manipulate time-series data to prepare the data for evaluation and analysis.
+-   TransformPart — Specify details of the transform to be done.
+-   TransformResult — Return the object that contains the result of the transformation.
 
 ## Transformations
 
-For more information about MetricBase time-series data transformations, see [MetricBase transforms](https://www.servicenow.com/docs/access?context=metricbase-transforms&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information about MetricBase time-series data transformations, see MetricBase transforms.
 
 ## Data Explorer
 

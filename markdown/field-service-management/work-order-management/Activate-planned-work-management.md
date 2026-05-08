@@ -27,7 +27,7 @@ You can install the Planned Work Management application \(com.snc.fsm\_planned\_
 
         -   **Planned Maintenance \(com.snc.planned\_maintenance\)**
 
-            Enables you to manage the regular preventive maintenance of assets. For more information, see [Activate Planned Maintenance](https://www.servicenow.com/docs/access?context=t_ActivatePlanMaint&version=australia&pubname=australia-service-management-for-the-enterprise&ft:locale=en-US).
+            Enables you to manage the regular preventive maintenance of assets. For more information, see Activate Planned Maintenance.
 
         -   **Field Service Management \(com.snc.work\_management\)**
 

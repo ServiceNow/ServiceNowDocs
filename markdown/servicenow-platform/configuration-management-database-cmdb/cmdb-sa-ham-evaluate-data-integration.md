@@ -42,15 +42,15 @@ Role required: sn\_cmdb\_admin
     -   List of attributes and whether each is supported by the selected data integration source
 8.  When installed version is lower than the suggested version, select the **View available version** link to open the Application manager.
 
-    **Note:** The **View available version** link is available only when applicable for a data integration source. Also, only users with the admin role can install or upgrade an application. See [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** The **View available version** link is available only when applicable for a data integration source. Also, only users with the admin role can install or upgrade an application. See Application Manager.
 
 9.  Determine which hardware asset attributes are being populated by the integration and whether an upgrade is needed to improve the data coverage.
 
     Available options for improving the data coverage are:
 
     -   For Discovery patterns, you can perform the following actions based on the applicable criteria:
-        -   If you have the pd\_user, you can select **View pattern** for a Discovery pattern to view the pattern. For more information, see [Patterns and horizontal discovery](https://www.servicenow.com/docs/access?context=c-UsingPatternsForHorizontalDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
-        -   If you have the pd\_admin role, you can select **View pattern** for a Discovery pattern to understand its contribution and modify the pattern to maximize the attribute coverage. For more information, see [Patterns and horizontal discovery](https://www.servicenow.com/docs/access?context=c-UsingPatternsForHorizontalDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+        -   If you have the pd\_user, you can select **View pattern** for a Discovery pattern to view the pattern. For more information, see Patterns and horizontal discovery.
+        -   If you have the pd\_admin role, you can select **View pattern** for a Discovery pattern to understand its contribution and modify the pattern to maximize the attribute coverage. For more information, see Patterns and horizontal discovery.
     -   For Service Graph Connectors, if you have the cmdb\_inst\_admin role, you can perform the following actions based on the applicable criteria:
         -   Select **Install connector** to add a connector from the ServiceNow Store.
         -   Select **Create connection** to configure a Service Graph Connector from SGC Central. For more information, see [Create a connection for a Service Graph Connector in SGC Central](../../sgc-central/task/sgcc-create-connection.md).

@@ -21,7 +21,7 @@ Role required: security\_dashboard\_user or admin
 
 When untrusted or trusted domains send emails to your instance, their daily counts appear on the **Untrusted Incoming Email** or **Trusted Incoming Email** metrics on the Email page. You can then track email activity from these domains and use email logs to view specific incoming emails. You can also specify a user, usually a manager, or a security analyst, to notify whenever activity occurs from the untrusted or trusted domain.
 
-**Note:** Designating an email domain as untrusted is for security tracking purposes only. Administrators can also set up a system address filter to ignore emails from untrusted domains. To learn about filtering emails to block their delivery, see [System address filters](https://www.servicenow.com/docs/access?context=system-address-filters&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Designating an email domain as untrusted is for security tracking purposes only. Administrators can also set up a system address filter to ignore emails from untrusted domains. To learn about filtering emails to block their delivery, see System address filters.
 
 ## Procedure
 

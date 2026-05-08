@@ -40,7 +40,7 @@ Refer to the [Hardening settings](../../security-center/reference/security-harde
 
 </td><td>
 
-Number of security configuration properties that comply with the compliance values in the Instance Security Hardening Settings.**Note:** You cannot change the settings for compliant security properties in the Hardening Compliance Configuration. If you want to do so, you must update them in System Properties. To learn more, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+Number of security configuration properties that comply with the compliance values in the Instance Security Hardening Settings.**Note:** You cannot change the settings for compliant security properties in the Hardening Compliance Configuration. If you want to do so, you must update them in System Properties. To learn more, see Add a system property.
 
 </td></tr><tr><td id="d92319e144">
 

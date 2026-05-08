@@ -31,9 +31,9 @@ Role required: web\_service\_admin or admin
 
 4.  Create a [WS-security profile](t_CreateANewWS-SecurityProfile.md).
 
-5.  Update the user record for the [Mid Server](https://www.servicenow.com/docs/access?context=t_SetupMIDServerRole&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [ODBC driver](../../odbc-driver/concept/c_ODBCDriver.md) to [mark these users as internal integration users](t_MarkSvcAcctsAsInternalIntegUsers.md).
+5.  Update the user record for the Mid Server and [ODBC driver](../../odbc-driver/concept/c_ODBCDriver.md) to [mark these users as internal integration users](t_MarkSvcAcctsAsInternalIntegUsers.md).
 
-6.  Download and install the latest [MID Server](https://www.servicenow.com/docs/access?context=mid-server-installation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [ODBC driver](../../odbc-driver/concept/c_ODBCDriver.md).
+6.  Download and install the latest MID Server and [ODBC driver](../../odbc-driver/concept/c_ODBCDriver.md).
 
 7.  To validate SOAP request signatures, upload the remote web service's certificate as a JKS and create the web service's WSS Username Token Profile.
 

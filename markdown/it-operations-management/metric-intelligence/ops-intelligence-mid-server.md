@@ -41,13 +41,13 @@ Each Metric Intelligence MID Server must be configured with the following settin
 
 **Note:** The Metric Intelligence MID Server does not support IPv6.
 
-The Metric Intelligence application that the Metric Intelligence MID Server is configured with enables you to add additional supported applications to the same MID Server. By default, Metric Intelligence is included in the definition of the MID Server ALL option. For information about modifying the behavior of the ALL option when selecting supported applications, see [Configure applications included in ALL Applications](https://www.servicenow.com/docs/access?context=t_SpecifyMIDServerApplications&version=australia&pubname=australia-servicenow-platform&section=t_ConfigureWhatAllIncludes&ft:locale=en-US).
+The Metric Intelligence application that the Metric Intelligence MID Server is configured with enables you to add additional supported applications to the same MID Server. By default, Metric Intelligence is included in the definition of the MID Server ALL option. For information about modifying the behavior of the ALL option when selecting supported applications, see Configure applications included in ALL Applications.
 
 If Domain Support - Domain Extensions Installer is activated, then you can configure a MID Server with the Metrics capability, per domain. In this case, metrics for a business service are processed on the MID Server that is in the same domain as the business service. Otherwise, a MID Server from the global domain is used.
 
 Ensure that the MID Server that you want to configure for Metric Intelligence:
 
--   Is validated. For more information, see [Validate a MID Server](https://www.servicenow.com/docs/access?context=t_ValidateAMIDServer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Is validated. For more information, see Validate a MID Server
 -   Is in running state
 -   Meets all software, hardware, and configuration requirements
 

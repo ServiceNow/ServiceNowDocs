@@ -37,7 +37,7 @@ By default, a standard ticket configuration is provided for UR. You can customiz
 
 6.  Click **New** to create your custom configuration.
 
-    For more information, see [Standard ticket page](https://www.servicenow.com/docs/access?context=standard-ticket-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Standard ticket page.
 
 
 **Parent Topic:**[Standard Ticket page for Universal Request](../concept/ur-std-ticket-page.md)

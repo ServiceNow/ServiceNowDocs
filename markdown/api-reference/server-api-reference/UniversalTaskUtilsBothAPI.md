@@ -17,13 +17,13 @@ The UniversalTaskUtils script include provides methods for managing universal ta
 
 With the ServiceNow Universal Task application, agents can create tasks for employees. For example, agents can ask for additional information or request an action to resolve a parent ticket or request. Universal tasks are available for any ticket type that extends the Task \[task\] table.
 
-Using this script include you can change the state of active universal tasks to "Complete" or "Cancelled", obtain all active universal tasks for a specified parent task, check whether a parent universal task has any children, and apply templates to a universal task record. You can use these methods in scripts and in the Visable condition builders on the **Tab configuration** form to manage the data that appears on the **Universal Task** tab. For additional information, see [Add a Task tab on the Standard Ticket page](https://www.servicenow.com/docs/access?context=config-stdtktpage-for-ut&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Using this script include you can change the state of active universal tasks to "Complete" or "Cancelled", obtain all active universal tasks for a specified parent task, check whether a parent universal task has any children, and apply templates to a universal task record. You can use these methods in scripts and in the Visable condition builders on the **Tab configuration** form to manage the data that appears on the **Universal Task** tab. For additional information, see Add a Task tab on the Standard Ticket page.
 
 ![Tab Configuration conditional builder example](../image/tab_config-method-imp.png)
 
 You can use this script include in both scoped and global applications. The Universal Task application \(sn\_uni\_task\) must be installed on the associated instance to have access to this script include. You must always specify the `sn_uni_task` namespace when calling methods in this API.
 
-For additional information on the Universal Task application, see [Universal Task](https://www.servicenow.com/docs/access?context=universal-task-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For additional information on the Universal Task application, see Universal Task.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 
@@ -31,7 +31,7 @@ For additional information on the Universal Task application, see [Universal Tas
 
 Applies the specified universal task template to the specified universal task record.
 
-Before you can use this method, there must be universal task templates configured in your instance. For details, see [Universal Task templates](https://www.servicenow.com/docs/access?context=ut-task-template-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Before you can use this method, there must be universal task templates configured in your instance. For details, see Universal Task templates.
 
 <table id="table_c3g_znf_hpb" class="parameters"><thead><tr><th>
 

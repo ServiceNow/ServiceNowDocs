@@ -24,7 +24,7 @@ Verify that the ACC registration key was set up and the ACC was installed. For m
 
 Role required: agent\_admin and agent\_client\_collector\_admin
 
-For more information, see [Agent Client Collector user roles](https://www.servicenow.com/docs/access?context=acc-users&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information, see Agent Client Collector user roles.
 
 ## Procedure
 

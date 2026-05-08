@@ -43,7 +43,7 @@ Follow these general guidelines:
 
 1.  Define a CMDB group with the required filter criteria that identifies the right IT CIs.
 
-    For more information, see [CMDB groups](https://www.servicenow.com/docs/access?context=cmdb-groups&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see CMDB groups.
 
 2.  Create an Automated IT to OT Bulk Contextualization \(sn\_automated\_it\_ot\_bulk\_contextualization\) record associated with the CMDB group.
 

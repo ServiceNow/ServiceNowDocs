@@ -19,7 +19,7 @@ After you clone your instance, you must reestablish the connection between the p
 
 Role required: admin
 
-The clone must be completed. For more information on cloning, see [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The clone must be completed. For more information on cloning, see Instance Clone.
 
 ## About this task
 

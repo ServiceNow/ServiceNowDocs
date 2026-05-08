@@ -282,7 +282,7 @@ Alpha-numeric profile identifier of the patient.
 
  The value is auto-generated and is incremented every time you add a new patient to an instance. The initial value for the **Number** field is PAT00001001.
 
-**Note:** To customize the number, define the auto-numbering format for the Patient \[sn\_hcls\_patient\] table. For more information, see [Add auto-numbering records in a table](https://www.servicenow.com/docs/access?context=t_AutoNumberingRecordsInATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** To customize the number, define the auto-numbering format for the Patient \[sn\_hcls\_patient\] table. For more information, see Add auto-numbering records in a table.
 
 </td></tr><tr><td>
 

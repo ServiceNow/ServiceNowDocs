@@ -17,7 +17,7 @@ The support for use of multiple currencies provides conversions for budget items
 
 ## Currency support
 
-The application can use a base currency, also called the reporting currency that you [specify with system properties](https://www.servicenow.com/docs/access?context=currency-properties&version=australia&pubname=australia-platform-administration&ft:locale=en-US). You can also specify other currencies for budgets and budget items.
+The application can use a base currency, also called the reporting currency that you specify with system properties. You can also specify other currencies for budgets and budget items.
 
 <table id="table_ygy_xz2_2t"><thead><tr><th>
 

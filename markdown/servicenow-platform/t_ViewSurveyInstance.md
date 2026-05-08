@@ -86,5 +86,5 @@ Role required: admin or survey\_admin
 
 [Schedule periods](../concept/c_SchedulePeriods.md)
 
-[Event scheduling](https://www.servicenow.com/docs/access?context=c_ScheduleEvents&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScheduleEvents]
 

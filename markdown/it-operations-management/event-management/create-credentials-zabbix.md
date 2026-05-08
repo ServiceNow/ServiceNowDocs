@@ -49,5 +49,5 @@ The Basic Auth credential for use with the Zabbix server connector is created.
 **Related topics**  
 
 
-[Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.r-credentials]
 

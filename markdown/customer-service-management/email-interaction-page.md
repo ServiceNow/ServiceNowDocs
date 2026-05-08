@@ -115,7 +115,7 @@ State
 
 </td><td>
 
-Current state of the interaction. For more information, see [Interaction states](https://www.servicenow.com/docs/access?context=interaction-states&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Current state of the interaction. For more information, see Interaction states.
 
 </td></tr><tr><td>
 

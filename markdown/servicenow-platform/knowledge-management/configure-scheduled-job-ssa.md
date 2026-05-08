@@ -137,7 +137,7 @@ Run this script
 
 </td><td>
 
-Script to run at the scheduled date and time.For a new scheduled script, copy the script from the existing script \(Deflection Analytics for Consumers or Deflection Analytics for Contacts\) and modify the `deflectionAnalyticsService.captureDeflectionAnalytics('*sys\_ID*')` field value to include the sys\_id of your deflection configuration record. For information about identifying the sys\_id, see [The unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Script to run at the scheduled date and time.For a new scheduled script, copy the script from the existing script \(Deflection Analytics for Consumers or Deflection Analytics for Contacts\) and modify the `deflectionAnalyticsService.captureDeflectionAnalytics('*sys\_ID*')` field value to include the sys\_id of your deflection configuration record. For information about identifying the sys\_id, see The unique record identifier \(sys\_id\).
 
 </td></tr></tbody>
 </table>4.  Click **Update** for consumers and customer contacts or **Submit** to save a custom configuration.

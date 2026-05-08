@@ -17,8 +17,8 @@ Create and publish a base version of a resource specification to define all the 
 
 Create characteristics, characteristic options, and specification categories. To learn more about characteristics, characteristic options, and specification categories, see:
 
--   [Create product characteristics and characteristic options](https://www.servicenow.com/docs/access?context=som-product-config-add-characteristics&version=australia&pubname=australia-order-management&ft:locale=en-US)
--   [Create and associate specification categories with model categories](https://www.servicenow.com/docs/access?context=create-associate-specification-categories&version=australia&pubname=australia-order-management&ft:locale=en-US)
+-   Create product characteristics and characteristic options
+-   Create and associate specification categories with model categories
 
 Role required: sn\_prd\_pm.product\_catalog\_manager
 
@@ -240,7 +240,7 @@ Catalog Hierarchy
 
 </td><td>
 
-[View the complete hierarchy of a product offering and any associated specifications](https://www.servicenow.com/docs/access?context=som-catalog-hierarchy&version=australia&pubname=australia-order-management&ft:locale=en-US).Use the **Show specification** toggle to view the hierarchy of specifications.
+View the complete hierarchy of a product offering and any associated specifications.Use the **Show specification** toggle to view the hierarchy of specifications.
 
 </td></tr><tr><td>
 
@@ -248,7 +248,7 @@ Specification Characteristics
 
 </td><td>
 
-[Associate the characteristics and characteristic options with your specification](https://www.servicenow.com/docs/access?context=create-specification-characteristic&version=australia&pubname=australia-order-management&ft:locale=en-US).
+Associate the characteristics and characteristic options with your specification.
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ Versions
 
 </td><td>
 
-[Create another version of the specification](https://www.servicenow.com/docs/access?context=creating-publishing-new-versions-specifications&version=australia&pubname=australia-order-management&ft:locale=en-US)
+Create another version of the specification
 
 </td></tr></tbody>
 </table>6.  When you are finished creating the specification version, do one of the following actions.

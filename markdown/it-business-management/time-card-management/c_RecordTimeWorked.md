@@ -26,7 +26,7 @@ When time worked is updated, a time card is created only if:
 
 The Time worked field has a counter that acts like a stopwatch for the duration of the time spent in the record. A button in the field can stop and start the counter. By default, the Time worked counter is enabled and begins recording the elapsed time when the record is opened. Stop the counter with the stop button and restart it with the play button.
 
-If you are creating time cards from time worked entries, you can ask your admin to add the **Time Worked** related list to display the time worked records on the time card form. You will also notice an informational message on the time card to let you know that changes to time worked records overrides values in the time card. This is displayed using a [Create a formatter and add it to a form](https://www.servicenow.com/docs/access?context=t_CreateAFormatter&version=australia&pubname=australia-platform-administration&ft:locale=en-US), which can be added or removed by configuring the form.
+If you are creating time cards from time worked entries, you can ask your admin to add the **Time Worked** related list to display the time worked records on the time card form. You will also notice an informational message on the time card to let you know that changes to time worked records overrides values in the time card. This is displayed using a Create a formatter and add it to a form, which can be added or removed by configuring the form.
 
 **Parent Topic:**[Time Card Management](time-card-management.md)
 

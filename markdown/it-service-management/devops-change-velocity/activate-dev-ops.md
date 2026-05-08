@@ -21,7 +21,7 @@ Role required: admin
 
 Ensure that the application and all of its associated store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 
-If you’re installing DevOps Change Velocity in your production instance for the first time, ensure that you opt-in to the following required products. For more information, see [Opt in to the ServiceNow Store products](https://www.servicenow.com/docs/access?context=optin-optout-prod&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If you’re installing DevOps Change Velocity in your production instance for the first time, ensure that you opt-in to the following required products. For more information, see Opt in to the ServiceNow Store products.
 
 <table id="table_ux3_lfg_cyb"><tbody><tr><td>
 

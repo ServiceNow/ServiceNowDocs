@@ -39,7 +39,7 @@ To configure a virtual meeting provider, you must have the following flows alrea
 -   Update meeting
 -   Get recording
 
-For more information on how to create a flow, refer to [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information on how to create a flow, refer to Create a flow.
 
 Role required: sn\_wsd\_rsv.admin
 

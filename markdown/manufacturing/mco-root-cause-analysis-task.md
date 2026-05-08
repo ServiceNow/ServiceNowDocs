@@ -33,7 +33,7 @@ Role required: Quality Issue Management Admin or product non-conformance resolve
 
     The Start a Sidebar discussion window is displayed.
 
-    For more information on the sidebar discussion window, see [Create a Sidebar discussion for a record](https://www.servicenow.com/docs/access?context=sidebar-discussions-record&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information on the sidebar discussion window, see Create a Sidebar discussion for a record.
 
 6.  Select **Save**.
 

@@ -23,7 +23,7 @@ Role required: portal\_analytics\_admin
 
 By default, tracking is not enabled for portals. You need to enable tracking for a specific portal only if you enabled tracking for some portals but not others in a previous version.
 
-Portals that have been configured for tracking are listed in the Usage Insights settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see [Configure Usage Insights Settings](https://www.servicenow.com/docs/access?context=config-analytics-settings&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Portals that have been configured for tracking are listed in the Usage Insights settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see Configure Usage Insights Settings.
 
 ## Procedure
 
@@ -46,12 +46,12 @@ Portals that have been configured for tracking are listed in the Usage Insights 
 
 ## Result
 
-You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**. For more information on using the Usage Insights application, see [Overview of the Usage Insights application](https://www.servicenow.com/docs/access?context=user-exp-analytics-dashboard&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**. For more information on using the Usage Insights application, see Overview of the Usage Insights application.
 
 **Parent Topic:**[Usage Insights for Service Portal](../concept/sp-analytics.md)
 
 **Related topics**  
 
 
-[Enable Usage Insights](https://www.servicenow.com/docs/access?context=enable-user-experience-analytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.enable-user-experience-analytics]
 

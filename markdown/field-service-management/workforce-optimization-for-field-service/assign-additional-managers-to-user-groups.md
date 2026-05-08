@@ -31,7 +31,7 @@ Role required: sn\_wfo.admin
 
 3.  In the **Assignment Group** field, use the lookup icon to select or create a user group.
 
-    Make sure that the user has the wm\_manager role. For more information on assigning roles to users, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Make sure that the user has the wm\_manager role. For more information on assigning roles to users, see Assign a role to a user.
 
 4.  In the **Manager** field, use the lookup icon to select or create a user.
 

@@ -39,7 +39,7 @@ Monitor the knowledge usage metrics to improve the overall effectiveness of the 
 
 4.  In the **Run** field, select **Periodically** as the frequency of the scheduled job.
 
-    See the [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US) topic for other frequency options.
+    See the Scheduled jobs topic for other frequency options.
 
 5.  In the **Repeat Interval** field, enter the repeated time interval at which the scheduled job should run.
 

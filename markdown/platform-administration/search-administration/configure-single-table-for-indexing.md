@@ -139,7 +139,7 @@ The list search for text option appears on the list views for the table and its 
 
 You can search records on the indexed table using list search in form view. To learn more about using list search, see [List search finds records from the current table](../concept/c_TextSearchesInRecordLists.md).
 
-You can also query the indexed table for string matches using the `GlideRecord.addQuery(name, value)` or `GlideRecord.addEncodedQuery(name, value)` methods with the `123TEXTQUERY321` reserved name. For more information about querying for string matches, see [Querying tables in script](https://www.servicenow.com/docs/access?context=c_UsingGlideRecordToQueryTables&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can also query the indexed table for string matches using the `GlideRecord.addQuery(name, value)` or `GlideRecord.addEncodedQuery(name, value)` methods with the `123TEXTQUERY321` reserved name. For more information about querying for string matches, see Querying tables in script.
 
 **Parent Topic:**[Zing indexes words](../concept/zing-indexes-words.md)
 
@@ -220,7 +220,7 @@ Field encryption
 
 </td><td>
 
-Text indexing excludes fields configured for Edge Encryption. For more information on configuring fields with Edge Encryption, see [Encrypt fields using encryption configurations](https://www.servicenow.com/docs/access?context=c_ConfigureCloudEdge&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Text indexing excludes fields configured for Edge Encryption. For more information on configuring fields with Edge Encryption, see Encrypt fields using encryption configurations.
 
 </td></tr></tbody>
 </table>

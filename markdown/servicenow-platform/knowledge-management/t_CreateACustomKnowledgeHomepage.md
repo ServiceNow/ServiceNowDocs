@@ -35,7 +35,7 @@ Role required: admin
 
 5.  In the **Arguments** field, append one or more of the following values to `$knowledge.do#/search?`.
 
-<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d436831e121">
+<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d436610e121">
 
 **sysparm\_kb=&lt;knowledge base sys\_id&gt;**
 
@@ -45,7 +45,7 @@ Enter the sys\_id of a knowledge base to show knowledge articles from that knowl
 
  If the specified knowledge base does not exist, the default knowledge homepage appears when accessing the custom homepage module.
 
-</td></tr><tr><td id="d436831e136">
+</td></tr><tr><td id="d436610e136">
 
 **sysparm\_category=&lt;knowledge category sys\_id&gt;**
 
@@ -57,7 +57,7 @@ Enter the sys\_id of a knowledge category to show knowledge articles from that c
 
 **Note:** The category passed in this parameter must belong to the knowledge base passed in the **sysparm\_kb** parameter.
 
-</td></tr><tr><td id="d436831e156">
+</td></tr><tr><td id="d436610e156">
 
 **sysparm\_order=&lt;view\_count, last\_modified, or relevancy&gt;**
 

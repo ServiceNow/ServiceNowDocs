@@ -140,7 +140,7 @@ Response time is the duration between when a user finishes their question or req
 
 -   **Executions by tool type**
 
-    This area of the dashboard shows the number of tool executions categorized by type, including scripts, flow actions, subflows, and RAG-based search. See [Add tools and information to an AI agent](https://www.servicenow.com/docs/access?context=add-tool-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for information on tool types. Use this metric to understand which tools are most frequently invoked during voice conversations and optimize tool performance.
+    This area of the dashboard shows the number of tool executions categorized by type, including scripts, flow actions, subflows, and RAG-based search. See Add tools and information to an AI agent for information on tool types. Use this metric to understand which tools are most frequently invoked during voice conversations and optimize tool performance.
 
     ![Executions by tool type.](../image/NAinVA-assistant-designer-analytics-voice-tool-executions.png "Executions by tool type")
 

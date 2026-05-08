@@ -27,7 +27,7 @@ Role required: admin
 
 3.  In CSM/CSM/FSM Configurable Workspace, enable the CSM default record page.
 
-    For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    For more information, see CSM Configurable Workspace record pages.
 
 4.  From the CSM default record page, set the page order.
 

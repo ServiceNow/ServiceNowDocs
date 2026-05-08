@@ -129,7 +129,7 @@ Exceeding Chat Target
 
 </td><td>
 
-Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see [Advanced Work Assignment service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see Advanced Work Assignment service channels **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Exceeding Case Target
 
 </td><td>
 
-Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see [Advanced Work Assignment service channels](https://www.servicenow.com/docs/access?context=awa-service-channels&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see Advanced Work Assignment service channels **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 

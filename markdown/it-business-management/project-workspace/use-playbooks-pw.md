@@ -37,7 +37,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 
 2.  Use an existing playbook or create a new one.
 
-    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see Triggers.
     -   To use an existing playbook:
 
         1.  From the menu, select **Playbooks**.
@@ -48,7 +48,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
         -   When you select **Mark Complete** or **Skip**, the activity becomes read-only.
         -   A stage is marked complete once all activities within it are either completed or skipped.
         -   Use the **Restart** option \(available at both the activity and stage levels\) to revisit or edit completed or skipped activities.
-    For more information on how to use playbooks, see [Building Playbooks](https://www.servicenow.com/docs/access?context=building-a-process&version=australia&pubname=australia-build-workflows&ft:locale=en-US) and [Designing Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-experience-admins&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information on how to use playbooks, see Building Playbooks and Designing Playbook Experience.
 
 
 **Parent Topic:**[Managing projects with Project Workspace](../concept/use-projects-pw.md)
@@ -56,9 +56,9 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 **Related topics**  
 
 
-[Running Playbooks](https://www.servicenow.com/docs/access?context=playbook-agents-and-fulfillers&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.playbook-agents-and-fulfillers]
 
-[Playbooks reference](https://www.servicenow.com/docs/access?context=process-automation-designer-reference&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.process-automation-designer-reference]
 
 [Playbooks configuration](../concept/configure-playbooks-pw.md)
 

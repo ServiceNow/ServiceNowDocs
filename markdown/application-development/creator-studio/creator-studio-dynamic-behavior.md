@@ -57,7 +57,7 @@ A different way that you can make a form change is to have questions automatical
 
         For example, you could select **Is** as the operator for the **Do you want a T-shirt?** field.
 
-        For more information, see [Condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For more information, see Condition builder.
 
     4.  Enter or select the value for the user's response to the trigger question.
 

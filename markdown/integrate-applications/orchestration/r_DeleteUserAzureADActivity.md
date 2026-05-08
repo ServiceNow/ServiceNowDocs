@@ -17,7 +17,7 @@ The Delete User activity deletes the named user's account from the Azure Active 
 
 To access this activity in the Workflow Editor, select the **Custom** tab, and then navigate to **Custom Activities** &gt; **Azure AD**. This activity was built with the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#).
 
-**Important:** The REST message used for this activity must be configured to use [OAuth 2.0](https://www.servicenow.com/docs/access?context=c_OAuthApplications&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Important:** The REST message used for this activity must be configured to use OAuth 2.0.
 
 ## Input variables
 

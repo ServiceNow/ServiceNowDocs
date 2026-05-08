@@ -29,7 +29,7 @@ The manager of all the teams can view the staffing forecast of the teams and at 
 
 ![Schedule page in Manager Workspace displaying the staffing forecast for all teams in the Demand Forecast application.](../image/wfo-demand-forecast2.png "Demand Forecast view for all teams")
 
-The Demand Forecast application uses [MetricBase](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to forecast the demand for teams.
+The Demand Forecast application uses MetricBase to forecast the demand for teams.
 
 When you create Demand Forecast configurations, the application creates these metrics:
 
@@ -73,7 +73,7 @@ Use the Data Collection Definitions module to define the data that you want to c
 
 -   Use the **Collect daily data for automated forecast configurations** scheduled job to gather data for the metrics defined in the data collection definitions. The scheduled job fetches the records from the previous day for every 15-minute interval for all assignment groups and stores it in the MetricBase.
 
-    You can access the time series for the collected data using the MetricBase `list` in the Group \[sys\_user\_group\] table. For more information on accessing MetricBase data, see [Access MetricBase data using the list command](https://www.servicenow.com/docs/access?context=view-time-series-data&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    You can access the time series for the collected data using the MetricBase `list` in the Group \[sys\_user\_group\] table. For more information on accessing MetricBase data, see Access MetricBase data using the list command.
 
 -   Use the **Collect historical data for automated forecast configurations** on-demand job to collect historical data at 15-minute intervals. This job collects data for the past three years.
 -   Use the **Forecast resources for future** scheduled job to forecast the resources based on the collected data and stores the data in the Agent Forecast metric in MetricBase. See [Forecast properties](../reference/components-installed-configurable-wfo-cs.md#forecast-properties) to set the collection frequency such as the number of days that you must collect the data to calculate the forecast or the time period that you want to store the data for.

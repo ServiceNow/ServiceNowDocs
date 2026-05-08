@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Deploy the pattern as follows:
 
-1.  Download and install the CMDB CI Class Models: Release 1.10.0 from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery. For more information, see [Firewall extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-fw&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+1.  Download and install the CMDB CI Class Models: Release 1.10.0 from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery. For more information, see Firewall extension classes.
 2.  Download and install the discovery pattern from the ServiceNow Store.
 3.  Sync the pattern with the appropriate MID Server.
 

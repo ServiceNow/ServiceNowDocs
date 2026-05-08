@@ -27,5 +27,5 @@ The following roles are associated with this solution:
 **Related topics**  
 
 
-[Platform Analytics solutions](https://www.servicenow.com/docs/access?context=content-packs-in-form-analytics-published&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.content-packs-in-form-analytics-published]
 

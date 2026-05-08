@@ -17,7 +17,7 @@ Modify or override the default banner illustrations with your own custom images 
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For information on granular roles, see Granular admin roles.
 
 Verify that your custom images use the desired colors and meet your branding requirements before uploading to Theme Builder.
 

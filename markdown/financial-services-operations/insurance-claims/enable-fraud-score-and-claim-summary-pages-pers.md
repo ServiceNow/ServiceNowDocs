@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Enable the CSM default record page under CSM/FSM Configurable Workspace.
 
-    For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    For more information, see CSM Configurable Workspace record pages.
 
 3.  From the CSM default record page, set the page order.
 
@@ -45,7 +45,7 @@ Navigation to page records
 
 </td><td>
 
-To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see [CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To access the record page for the adjuster task, navigate to: **CSM Configurable Workspace** &gt; **Record** &gt; **Claim Adjuster Record Page**.The record page for the adjuster task is a variant of CSM default record page. For more information, see CSM Configurable Workspace record pages.
 
 </td></tr><tr><td id="d53774e127">
 

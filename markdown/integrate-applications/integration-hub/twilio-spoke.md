@@ -88,7 +88,7 @@ The Twilio spoke provides actions to automate sending SMS, making voice calls, a
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see Connections and Credentials.
 
 **Note:** Three connection and credential alias records are needed for the Twilio spoke. One each for Twilio Base, Twilio Notify, and Twilio Messaging. Each alias should be associated with the respective Twilio API.
 

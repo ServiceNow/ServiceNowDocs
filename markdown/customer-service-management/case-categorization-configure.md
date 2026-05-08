@@ -27,7 +27,7 @@ Ensure that your instance is set up for Predictive Intelligence \(PI\).
 
 </td><td>
 
-Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Predictive Intelligence is a ServiceNow platform feature that provides a layer of artificial intelligence, which serves as a framework for machine learning models. For more information, see Predictive Intelligence.
 
 </td></tr><tr><td>
 

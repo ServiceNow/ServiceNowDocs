@@ -45,7 +45,7 @@ This procedure uses the Semantic Table Configuration table. Customizations made 
 
 ## Result
 
-The custom entity description is active and will be used by Query Generation when processing queries for this table. Because this customization is stored in the Semantic Table Configuration table, it can be included in an update set and transferred to other instances. For more information, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The custom entity description is active and will be used by Query Generation when processing queries for this table. Because this customization is stored in the Semantic Table Configuration table, it can be included in an update set and transferred to other instances. For more information, see System update sets.
 
 ## Entity descriptions
 

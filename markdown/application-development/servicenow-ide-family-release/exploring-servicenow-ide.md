@@ -23,7 +23,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
 In the ServiceNow IDE, you can create applications in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. To see a side-by-side visual representation of your changes in real time, you can open the application metadata in other ServiceNow AI Platform user interfaces embedded within the ServiceNow IDE.
 
-Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within an application scope. With Now Assist for Code, you can use the Code autocomplete skill to generate code suggestions for scripts in an application in the ServiceNow IDE. For more information, see [Generate code with autocomplete](https://www.servicenow.com/docs/access?context=generate-code-with-autocomplete&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within an application scope. With Now Assist for Code, you can use the Code autocomplete skill to generate code suggestions for scripts in an application in the ServiceNow IDE. For more information, see Generate code with autocomplete.
 
 In the background, this functionality is enabled by the ServiceNow SDK application packaging service, which builds applications in the ServiceNow IDE.
 

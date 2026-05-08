@@ -46,23 +46,23 @@ Initially, the default lists are:
 -   Switch Forwarding Rules:
 
     -   Source table: Switch Forwarding Rule \[dscy\_swtch\_fwd\_rule\]
-    -   More information: [Network switch and router discovery](https://www.servicenow.com/docs/access?context=r_DataCollDiscoNWRouteAndSwitch&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   More information: Network switch and router discovery
 -   Switch Partitions:
 
     -   Source table: Switch Partition \[dscy\_swtch\_partition\]
-    -   More information: [Network switch and router discovery](https://www.servicenow.com/docs/access?context=r_DataCollDiscoNWRouteAndSwitch&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   More information: Network switch and router discovery
 -   Switch Ports:
 
     -   Source table: Switch Port \[cmdb\_switch\_port\]
-    -   More information: [Layer 2 discovery](https://www.servicenow.com/docs/access?context=c_Layer2Discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   More information: Layer 2 discovery
 -   Switchports:
 
     -   Source table: Switchport \[dscy\_switchport\]
-    -   More information: [Network switch and router discovery](https://www.servicenow.com/docs/access?context=r_DataCollDiscoNWRouteAndSwitch&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   More information: Network switch and router discovery
 -   TCP Connections:
 
     -   Source table: TCP Connection \[cmdb\_tcp\]
-    -   More information: [TCP connection discovery](https://www.servicenow.com/docs/access?context=r_DataCollDiscoTCPConnections&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+    -   More information: TCP connection discovery
 
 Users with the sn\_cmdb\_editor or sn\_cmdb\_admin roles, can select **New** to add a record to the list table.
 

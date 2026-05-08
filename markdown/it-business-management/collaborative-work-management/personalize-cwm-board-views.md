@@ -31,15 +31,15 @@ Role required: sn\_cwm.cwm\_user
 
 4.  Update the display of the view on the Board or hide views.
 
-<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d292115e103">
+<table id="choicetable_tky_tqc_b1c"><thead><tr><th align="left" id="d292111e103">
 
 Choice
 
-</th><th align="left" id="d292115e106">
+</th><th align="left" id="d292111e106">
 
 Options
 
-</th></tr></thead><tbody><tr><td id="d292115e112">
+</th></tr></thead><tbody><tr><td id="d292111e112">
 
 **Personalize List and Gantt**
 
@@ -49,7 +49,7 @@ Options
 -   Show or hide the columns in the view.
 ![Personalize List and Gantt views.](../images/cwm-personalize-list.png)
 
-</td></tr><tr><td id="d292115e139">
+</td></tr><tr><td id="d292111e139">
 
 **Personalize Kanban**
 
@@ -59,7 +59,7 @@ Change the vertical categorization of task cards using the **Vertical lane** fie
 
  ![Personalize Kanban vertical lane.](../images/cwm-personalize-kanban.png)
 
-</td></tr><tr><td id="d292115e161">
+</td></tr><tr><td id="d292111e161">
 
 **Show or hide views**
 

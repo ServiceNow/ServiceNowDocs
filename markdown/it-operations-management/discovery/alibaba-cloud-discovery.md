@@ -100,7 +100,7 @@ admin
 
 </td><td>
 
-[Create the MID Server user and grant the role](https://www.servicenow.com/docs/access?context=t_SetupMIDServerRole&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Create the MID Server user and grant the role
 
 </td></tr><tr><td>
 
@@ -116,8 +116,8 @@ Install a MID Server.
 
 </td><td>
 
--   [Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Install a MID Server on Linux
+-   Install a MID Server on Windows
 -   [Install and configure MID Servers to access cloud environments](../../it-operations-management/task/mid-server-configuration-cloud.md)
 
 </td></tr><tr><td>
@@ -134,7 +134,7 @@ Validate that the MID Server is installed correctly.
 
 </td><td>
 
-[Validate the MID Server](https://www.servicenow.com/docs/access?context=t_ValidateAMIDServer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Validate the MID Server
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Assigning users with discovery\_admin roles and giving them permission for disco
 
 </td><td>
 
-[Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Managing roles
 
 </td></tr><tr><td>
 

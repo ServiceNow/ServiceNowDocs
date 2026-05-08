@@ -19,28 +19,28 @@ The ServiceNow® Service Exchange application, formerly known as Service Bridge,
 -   Get enhanced visibility into your instances with the Service Exchange center.
 -   Reduce onboarding complexity for consumers with auto-onboarding.
 
-See [Service Exchange](https://www.servicenow.com/docs/access?context=tmt-service-bridge-both-landing-page&version=australia&pubname=australia-service-exchange&ft:locale=en-US) for more information.
+See Service Exchange for more information.
 
 **Important:** Service Exchange is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Service Exchange features
 
--   **[Consumer outbound FDS](https://www.servicenow.com/docs/access?context=service-bridge-v2-explore-foundation-data-sync&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
+-   **Consumer outbound FDS**
 
     Reduce manual effort and eliminate the need to share data externally by sharing selected foundational data types with your provider on a scheduled cadence. This data transfer supports the service life cycle by providing foundational data context for operational workflows.
 
--   **[Service Exchange center](https://www.servicenow.com/docs/access?context=se-se-center&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
+-   **Service Exchange center**
 
     Detect problems early, understand connection status, and resolve issues efficiently with the Service Exchange center, a centralized interface that provides real-time visibility into scan check issues, connection health and statuses, and access to all Service Exchange scan suites. Service Exchange admins can access their respective centers through the Provider and Consumer center links in the navigation menu.
 
--   **[Auto-onboarding](https://www.servicenow.com/docs/access?context=service-bridge-v2-register&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
+-   **Auto-onboarding**
 
     Reduce onboarding complexity for consumers with automated onboarding. This feature autonomously manages onboarding workflows, establishes secure connections, synchronizes settings, and continuously monitors for errors to ensure reliable, efficient integrations with minimal manual effort.
 
 
 ## UI changes
 
--   **[Health dashboard](https://www.servicenow.com/docs/access?context=se-se-center&version=australia&pubname=australia-service-exchange&ft:locale=en-US)**
+-   **Health dashboard**
 
     The Health dashboard has been relocated to the Service Exchange Center. Access a more holistic view of system health that includes a resolution center, connection health, and built-in scan suites providing centralized visibility and faster troubleshooting of integration issues.
 
@@ -68,11 +68,11 @@ Install Service Exchange by requesting it from the ServiceNow Store. Visit the [
 
 ## Related ServiceNow applications and features
 
--   **[Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=order-mgt-overview&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Sales Customer Relationship Management**
 
     The Sales Customer Relationship Management applications enable you to manage the product sales life cycle in your organization, including pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales engagement.
 
--   **[Supporting information for HR Service Delivery](https://www.servicenow.com/docs/access?context=hr-service-delivery-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Supporting information for HR Service Delivery**
 
     Improve the employee service experience by automating HR interactions and providing a single platform for all HR services. Replace manual and siloed processes with cross-functional digital workflows for increased efficiency. Align business goals with employee needs, including onboarding, career growth, and other transitions.
 

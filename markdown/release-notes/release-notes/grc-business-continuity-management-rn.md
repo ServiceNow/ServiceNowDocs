@@ -16,13 +16,13 @@ The ServiceNow® Business Continuity Management application enables your organiz
 
 -   Use the AI native experience built into the product.
 
-See [Business Continuity Management](https://www.servicenow.com/docs/access?context=business-continuity-mangmt-overview&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for more information.
+See Business Continuity Management for more information.
 
 **Important:** Business Continuity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in the Australia release
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -32,7 +32,7 @@ See [Business Continuity Management](https://www.servicenow.com/docs/access?cont
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
-For more information, see [Business Continuity Management and ServiceNow Store](https://www.servicenow.com/docs/access?context=bcm-and-store&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+For more information, see Business Continuity Management and ServiceNow Store.
 
 ## Activation information
 

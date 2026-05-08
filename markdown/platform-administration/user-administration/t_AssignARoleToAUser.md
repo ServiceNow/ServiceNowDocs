@@ -23,7 +23,7 @@ When possible, simplify user administration by assigning roles to groups. Create
 
 ## About this task
 
-To grant the admin role to a user, you must also have the admin role. To grant the security\_admin role to a user, you must also have the security\_admin role. You must elevate to the security\_admin role before granting the security\_admin role to other users. See [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To grant the admin role to a user, you must also have the admin role. To grant the security\_admin role to a user, you must also have the security\_admin role. You must elevate to the security\_admin role before granting the security\_admin role to other users. See Elevate to a privileged role.
 
 **Note:**
 

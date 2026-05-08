@@ -105,7 +105,7 @@ At the end of the migration process, a confirmation message specifies if the mig
 
     4.  If the record isn’t found with the table, remove the table filter and search for `targetPayload contains route=mra or interceptor`.
 
-        For **List** and **Field** decorator, you must add the MRA and interceptor add-on event mappings manually. For more information, see [Create a UX add-on event mapping](https://www.servicenow.com/docs/access?context=create-a-ux-add-on-event-mapping&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        For **List** and **Field** decorator, you must add the MRA and interceptor add-on event mappings manually. For more information, see Create a UX add-on event mapping.
 
     **Note:**
 

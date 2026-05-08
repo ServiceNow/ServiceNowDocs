@@ -33,7 +33,7 @@ Role required: sn\_hr\_core.admin, sn\_hr\_le.admin
 
 6.  Ensure that the **Application** field displays the scope correctly.
 
-    For more information, see [System settings for the user interface \(UI\)](https://www.servicenow.com/docs/access?context=r_UI16BannerFrame&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see System settings for the user interface \(UI\).
 
 7.  Check **Active** to enable security on the COE.
 

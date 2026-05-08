@@ -33,7 +33,7 @@ This solution is available only if you enable the **Enable to view similar close
 
 3.  On the form, verify the default field values and customize the solution as required.
 
-    For more information about the Similarity Definition form fields, see [Create and train a similarity solution](https://www.servicenow.com/docs/access?context=create-similarity-solution&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For more information about the Similarity Definition form fields, see Create and train a similarity solution.
 
 
 **Parent Topic:**[Predictive Intelligence for Universal Request](../concept/predictive-intelligence-ur.md)

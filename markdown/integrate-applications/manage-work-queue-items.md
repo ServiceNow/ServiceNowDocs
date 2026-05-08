@@ -87,7 +87,7 @@ Roles required to reassign a failed or a success work item: RPA developer, RPA r
 
 [Queue implementation in RPA Hub](../concept/queues-implement-rpa.md)
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_HistorySets]
 
 ## Work item form in RPA Hub
 

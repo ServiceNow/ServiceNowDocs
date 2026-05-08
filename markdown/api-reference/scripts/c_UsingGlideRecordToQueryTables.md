@@ -76,7 +76,7 @@ gr.query();
 
 String search is case-insensitive. The system returns the same results whether you search for `email`, `Email`, or `EMAIL`.
 
-**Note:** Before you can query using a string search, you must configure text indexing \(and optionally search attributes\) for the table you want to search. For more information, see [Configure a single table for indexing and searching](https://www.servicenow.com/docs/access?context=configure-single-table-for-indexing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Before you can query using a string search, you must configure text indexing \(and optionally search attributes\) for the table you want to search. For more information, see Configure a single table for indexing and searching.
 
 ## Return records from multiple tables in a text index group that include a string
 
@@ -99,7 +99,7 @@ You can create a similar query for each additional table in the 'portal' index g
 
 Multi-table string search is case-insensitive. The system returns the same results whether you search for `email`, `Email`, or `EMAIL`.
 
-**Note:** Before you can query tables in an index group, you must configure text indexing and search attributes for those tables and include them in the index group. For more information, see [Configure multiple tables for indexing and searching](https://www.servicenow.com/docs/access?context=index-multiple-tables&version=australia&pubname=australia-platform-administration&ft:locale=en-US). All tables in the index group must use the V4 indexing format.
+**Note:** Before you can query tables in an index group, you must configure text indexing and search attributes for those tables and include them in the index group. For more information, see Configure multiple tables for indexing and searching. All tables in the index group must use the V4 indexing format.
 
 **Parent Topic:**[Server-side scripting](c_ServerScripting.md)
 
@@ -276,7 +276,7 @@ Special operator that retrieves only records of a specified "class" for extended
 addQuery\('sys\_class\_name', 'INSTANCEOF', 'cmdb\_ci\_computer'\);
 
 </td></tr></tbody>
-</table>For additional information on the operators that are available for filters and queries, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+</table>For additional information on the operators that are available for filters and queries, see Operators available for filters and queries.
 
 There are also some special methods that you can use to search for data that is NULL or NOT NULL. To search for all incidents where the *short\_description* field has not been supplied \(is null\), use the following query:
 

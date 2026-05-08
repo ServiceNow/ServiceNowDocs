@@ -43,5 +43,5 @@ Role required: admin
 **Related topics**  
 
 
-[CSM Configurable Workspace record pages](https://www.servicenow.com/docs/access?context=csm-config-workspace-record-pages&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.csm-config-workspace-record-pages]
 

@@ -127,7 +127,7 @@ Enable ATF properties on instances of type Testing.
 
 </td><td>
 
-Enable system properties that allow the ATF suite to run during the deployment process. If you do not enable these properties, a warning displays during the deployment process, but you can continue with the deployment.**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see [Create a clone preserver](https://www.servicenow.com/docs/access?context=create-new-clone-preserver&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Enable system properties that allow the ATF suite to run during the deployment process. If you do not enable these properties, a warning displays during the deployment process, but you can continue with the deployment.**Note:** If you plan on cloning your production instance to one or more non-production instances, you should either create a data preserver for these settings or enable these settings on your production instance. For more information, see Create a clone preserver.
 
 For more information, see [Enable Automated Test Framework \(ATF\) properties](../task/enable-atf-properties.md).
 
@@ -145,7 +145,7 @@ Configure Instance Scan suite
 
 </td><td>
 
-For more information, see [Configuring Instance Scan](https://www.servicenow.com/docs/access?context=hs-intro-scans&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Configuring Instance Scan.
 
 </td></tr><tr><td rowspan="2">
 

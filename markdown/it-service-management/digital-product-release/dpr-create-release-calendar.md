@@ -75,7 +75,7 @@ Exclusion schedules
 
 Schedules for blackouts, maintenance, or holidays are lists of dates for planned closures or business holidays.Add your organization's schedules to the release calendar to avoid having release targets scheduled on those dates.
 
-The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://www.servicenow.com/docs/access?context=t_DefineASchedule&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see Define a schedule.
 
 To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release properties](../reference/digital-product-release-properties.md).
 
@@ -108,5 +108,5 @@ You can perform the following tasks to manage and visualize your release activit
 **Related topics**  
 
 
-[Digital Product Release - POST /sn\_dpr/digital\_product\_release/release\_calendar](https://www.servicenow.com/docs/access?context=digital-product-release-api&version=australia&pubname=australia-api-reference&section=dpr-POST-release_calendar&ft:locale=en-US)
+[bundle-crapiref.dpr-POST-release_calendar]
 

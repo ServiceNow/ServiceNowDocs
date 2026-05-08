@@ -17,7 +17,7 @@ Install the Virtual Agent API app to integrate any chat interface or a bot with 
 
 ## Before you begin
 
-If you're upgrading from a version prior to version 2 and if authentication is required for your instance, you must revert the customization before upgrading. For these versions, the upgrade skips the Scripted REST Service when authentication is turned on. For more information, see [Revert a customization](https://www.servicenow.com/docs/access?context=uc-revert-customization&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+If you're upgrading from a version prior to version 2 and if authentication is required for your instance, you must revert the customization before upgrading. For these versions, the upgrade skips the Scripted REST Service when authentication is turned on. For more information, see Revert a customization.
 
 You must meet the following requirements:
 

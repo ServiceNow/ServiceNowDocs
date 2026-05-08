@@ -17,7 +17,7 @@ A record page provides the base structure for how a record is displayed in CSM C
 
 Record pages include elements such as layouts, containers, and components to display record information. Some record pages leverage additional logic using presets, controllers, and extension points. Pages with preset and controller logic benefit from reusability because they automatically inherit styling, events, and data binding. This reusability makes simplifies configuration and makes the pages upgrade friendly.
 
-Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Several record pages are included with CSM Configurable Workspace. You can use these record pages as is or you can customize them to suit your needs. For more information about customizing record pages, see Manage UI Builder pages and page variants.
 
 ## Record pages available with CSM Configurable Workspace
 
@@ -136,7 +136,7 @@ Components are the building blocks that you use to create pages. End users, such
 
 </td></tr><tr><td>
 
-[Presets](https://www.servicenow.com/docs/access?context=presets&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Presets
 
 </td><td>
 
@@ -144,7 +144,7 @@ A preset is a set of instructions that define configuration values for a specifi
 
 </td></tr><tr><td>
 
-[Controllers](https://www.servicenow.com/docs/access?context=controllers&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Controllers
 
 </td><td>
 

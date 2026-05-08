@@ -157,7 +157,7 @@ Recipient\(s\) listed in event parm1
 
 </td><td>
 
-Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see [Classic Events](https://www.servicenow.com/docs/access?context=events&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Option to select whether Parm 1 contains a list of comma-separated sys\_ids. For more information, see Classic Events.
 
 </td></tr><tr><td>
 

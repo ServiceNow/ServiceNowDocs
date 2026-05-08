@@ -28,18 +28,18 @@ A MID Protocol Profile enables you to use the mTLS protocol with a MID Server. W
 ### Before you begin
 
 -   Role required: admin or action\_designer.
--   Configure and start a MID Server. For more information, see [Configuring MID Servers](https://www.servicenow.com/docs/access?context=c_MIDServerConfiguration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Configure and start a MID Server. For more information, see Configuring MID Servers.
 
 ### About this task
 
 This task is divided into four steps.
 
-1.  Create a Connection &amp; Credential Alias. This task shows you how to create a basic Connection &amp; Credential alias. For detailed information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
-2.  Create a connection. This task shows you how to create a basic HTTP\(s\) connection. For more details, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+1.  Create a Connection &amp; Credential Alias. This task shows you how to create a basic Connection &amp; Credential alias. For detailed information, see Create a Connection &amp; Credential alias.
+2.  Create a connection. This task shows you how to create a basic HTTP\(s\) connection. For more details, see Create an HTTP\(s\) connection.
 3.  Create a MID Protocol Profile. The mTLS keystore and password may be stored on the instance \(in the MID Protocol Profile\), off the instance \(in the MID Server's `config.xml` file\), or in an external vault. ServiceNow supports CyberArk Password Vault for vault storage.
     -   If you're storing them on the instance, the keystore and password must also be on the MID Server.
-    -   If you're storing them in the config.xml file, make sure you add the mTLS protocol parameters to the file before you configure the MID Protocol Profile. The `config.xml` is in the `/agent` directory, in the MID Server installation directory. See [MID Server parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
-    -   If you’re storing them in an external vault, make sure you set up your [CyberArk integration configuration](https://www.servicenow.com/docs/access?context=c_CyberArkIntegrationConfiguration&version=australia&pubname=australia-platform-security&ft:locale=en-US) before creating a MID Protocol Profile.
+    -   If you're storing them in the config.xml file, make sure you add the mTLS protocol parameters to the file before you configure the MID Protocol Profile. The `config.xml` is in the `/agent` directory, in the MID Server installation directory. See MID Server parameters.
+    -   If you’re storing them in an external vault, make sure you set up your CyberArk integration configuration before creating a MID Protocol Profile.
 4.  Test your connection with a [REST step](../../flow-designer/reference/rest-request-action-designer.md). This step is optional.
 
 ### Procedure
@@ -132,7 +132,7 @@ Option to use an external credential storage system.
 
  Select this option only if you’re using CyberArk to store your credential information.
 
- You may need to [configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to view this option.
+ You may need to configure the form layout to view this option.
 
 </td></tr><tr><td>
 

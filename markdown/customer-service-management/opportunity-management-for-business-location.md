@@ -22,7 +22,7 @@ Use the Opportunity Management for Business Locations plugin \(com.snc.business\
 -   Track the end-to-end life cycle of opportunities
 -   Enable external channel partners to track opportunities.
 
-To create an opportunity for business location, see [Create an opportunity](https://www.servicenow.com/docs/access?context=create-new-opportunity&version=australia&pubname=australia-order-management&ft:locale=en-US).
+To create an opportunity for business location, see Create an opportunity.
 
 ## Data model
 

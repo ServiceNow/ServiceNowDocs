@@ -47,7 +47,7 @@ Fulfillment type
 
 Fulfillment type for the workplace service. You can select one of the following values:-   **Manual**: Select this option for manual fulfillment. This option enables you to fulfill the request with a human response.
 -   **Service activity**: Select this option to trigger activities to fulfill the workplace service. Save the form to create or update workplace service activities. For more information, see [Create a Workplace service activity](../task/create-workplace-service-activity.md)
--   **Flow**: Select this option to use an existing subflow from the application for fulfillment. For more information about Flows, see [Create a subflow](https://www.servicenow.com/docs/access?context=create-subflow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+-   **Flow**: Select this option to use an existing subflow from the application for fulfillment. For more information about Flows, see Create a subflow.
 
 **Note:** If you are creating a custom subflow, ensure that the input fields are set to following:
 

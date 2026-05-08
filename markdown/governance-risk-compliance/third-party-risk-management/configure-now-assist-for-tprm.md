@@ -20,17 +20,17 @@ If you have the admin role, you can configure the Now Assist for Third-party Ris
 
 **Important:** After installing Now Assist for TPRM, all Now Assist for TPRM skills are activated by default.
 
-Use the Now Assist Admin console to configure Now Assist for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
 
-For earlier versions, go to [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to upgrade it to a later version.
+For earlier versions, go to Application Manager to upgrade it to a later version.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
-For information about configuring generative AI skills and prompts, see [Configuring Now Assist Admin features](https://www.servicenow.com/docs/access?context=configuring-na-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about configuring generative AI skills and prompts, see Configuring Now Assist Admin features.
 
 Install the Now Assist for TPRM \(sn\_tprm\_gen\_ai\) application.
 
-For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information about the installation process, see Install Now Assist plugins.
 
-**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [User data usage policy for Now Assist](https://www.servicenow.com/docs/access?context=user-data-usage-policy-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see Indexed sources in AI Search and User data usage policy for Now Assist.
 

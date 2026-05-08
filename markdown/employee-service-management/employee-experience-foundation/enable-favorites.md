@@ -39,7 +39,7 @@ Use the following steps to disable the favorites option.
 
 2.  Edit the portal to suit your needs.
 
-    For more information on the portal form fields and description, see [Create a portal](https://www.servicenow.com/docs/access?context=create-a-portal&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information on the portal form fields and description, see Create a portal.
 
 3.  On the Employee Center portal, deselect the **Enable favorites** option to disable **My favorites** in the portal.
 

@@ -17,17 +17,17 @@ The ServiceNow® Now Assist for Collaborative Work Management \(CWM\) applicatio
 -   Generate formulas for your CWM tasks using a natural language description of a calculation.
 -   Generate scrum tasks for stories based on their context.
 
-See [Now Assist for Collaborative Work Management \(CWM\)](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See Now Assist for Collaborative Work Management \(CWM\) for more information.
 
 **Important:** Now Assist for Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Now Assist formula generation for CWM tasks](https://www.servicenow.com/docs/access?context=generate-formula-cwm-board-now-assist&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Now Assist formula generation for CWM tasks**
 
     Generate formula columns by describing a calculation in plain language. When adding a formula column to the List view, prompt Now Assist to generate a formula by entering what you want to calculate. For example, `days between start date and end date` or `sum of estimated hours for subtasks`.
 
--   **[Now Assist scrum task generation for stories](https://www.servicenow.com/docs/access?context=generate-scrum-tasks-for-stories-cwm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Now Assist scrum task generation for stories**
 
     Generate scrum tasks from user story descriptions and acceptance criteria using Now Assist. Trigger the scrum task generation from the story form or inline from the Sprint planning view, and receive a relevant set of tasks as a starting point for your sprint planning. You can then review, edit, and add the generated tasks to fit your team's workflow.
 
@@ -38,21 +38,21 @@ Install Now Assist for CWM by requesting it from the ServiceNow Store. Visit the
 
 ## Related ServiceNow applications and features
 
--   **[Collaborative Work Management](https://www.servicenow.com/docs/access?context=cwm-landing&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Collaborative Work Management**
 
     Collaborative Work Management \(CWM\) provides a central hub to plan, visualize, manage, and collaborate on work with your teams.
 
     The Now Assist for CWM application uses generative AI skills to help save time and improve efficiency for actions you perform within CWM.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     ServiceNow® Now Assist uses generative AI to help improve the productivity and efficiency in your organization, deliver better self-service, recommend actions, provide answers, and empower your users to search more effectively.
 
--   **[Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Overview tab in Now Assist Admin**
 
     The Now Assist Admin console provides you with quick and easy access to the important information that you need to set up, configure, and monitor Now Assist applications and features.
 
--   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist panel**
 
     Use the Now Assist panel conversational interface in CWM to generate tasks from Docs and add them to CWM Boards.
 

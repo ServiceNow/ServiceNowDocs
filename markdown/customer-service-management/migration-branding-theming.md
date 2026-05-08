@@ -17,7 +17,7 @@ Branding and theming enables you to customize your Configurable Workspace to you
 
 For more information about branding and theming, see the following topics:
 
--   [View the brand and theme setting in your workspace experience](https://www.servicenow.com/docs/access?context=workspace-view-theme-setting&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Configuring Next Experience with Theme Builder](https://www.servicenow.com/docs/access?context=configuring-next-experience-with-theme-builder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
--   [Configuring Next Experience themes and preferences](https://www.servicenow.com/docs/access?context=config-next-experience-themes-prefs&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   View the brand and theme setting in your workspace experience
+-   Configuring Next Experience with Theme Builder
+-   Configuring Next Experience themes and preferences
 

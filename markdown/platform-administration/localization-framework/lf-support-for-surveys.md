@@ -29,7 +29,7 @@ The extension of the Localization Framework capabilities to surveys enables you 
 -   Approve and publish the translated content.
 -   Monitor the overall localization health of the surveys from the [Localization Insights dashboard](../../../use/dashboards/application-content-packs/localization-insights-dashboard.md).
 
-For more information on requesting and editing translation for surveys, see [Request translations for surveys](https://www.servicenow.com/docs/access?context=request-translations-for-surveys&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Edit translations for surveys](https://www.servicenow.com/docs/access?context=edit-translations-for-surveys&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on requesting and editing translation for surveys, see Request translations for surveys and Edit translations for surveys.
 
 **Parent Topic:**[Explore Localization Framework](exploring-localization-framework.md)
 

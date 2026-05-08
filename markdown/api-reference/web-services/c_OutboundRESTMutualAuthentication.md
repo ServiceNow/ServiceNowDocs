@@ -17,7 +17,7 @@ Mutual authentication causes the web service provider and consumer to authentica
 
 Mutual authentication is not available for outbound web services that use a MID Server.
 
-**Note:** For information about mutual authentication for inbound web services, see [Certificate-based authentication](https://www.servicenow.com/docs/access?context=certificate-based-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** For information about mutual authentication for inbound web services, see Certificate-based authentication.
 
 For information about using a custom HTTPS protocol profile to enable mutual authentication, see [Create a protocol profile](../../outbound-web-services/task/t_CreateAProtocolProfile.md).
 

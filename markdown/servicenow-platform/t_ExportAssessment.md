@@ -17,7 +17,7 @@ You can share assessments between ServiceNow instances by exporting an assessmen
 
 Role required: assessment\_admin or admin
 
-**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** Update sets are available in the Helsinki release and should be used to move data from one instance to another. For information about update sets, see System update sets.
 
 ## About this task
 

@@ -42,7 +42,7 @@ To use the DEX issue diagnosis and resolution agentic workflow, you must have on
 
 The DEX issue diagnosis and resolution agentic workflow provides incident diagnosis and resolution only when the following requirements are met.
 
--   The agentic workflow must be activated. For more information, see [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   The agentic workflow must be activated. For more information, see Activate an agentic workflow template.
 -   The incident number must be valid.
 -   The incident record must be associated with a single, DEX monitored physical endpoint or device. Only one device configuration item \(CI\) must be configured either as the primary CI in the **Configuration item** field or in the **Affected CIs** list.
 -   The device associated with the incident must have a DEX compatible operating system. For more information, see [DEX system requirements](../../digital-end-user-experience/concept/dex-sys-requirements.md).
@@ -108,7 +108,7 @@ In the agentic workflow record:
 1.  Review the information in the Define key requirements screen, make updates if necessary, and then select **Continue**.
 2.  In the Define user access screen, review or add roles that can access the use case, and then select **Continue**.
 3.  In the Define data access screen, review the user identity for the AI agent, make updates if necessary, and then select **Continue**.
-4.  In the Define trigger screen, make updates if necessary, and then select **Continue**. For more information about defining triggers, see [Create an agentic workflow](https://www.servicenow.com/docs/access?context=configure-use-case-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+4.  In the Define trigger screen, make updates if necessary, and then select **Continue**. For more information about defining triggers, see Create an agentic workflow.
 5.  In the Select display screen, choose where you want the agentic workflow output to be displayed, and then select **Save and test**.
 6.  In the Test details screen, enter your prompt in the **Task** field, and then select **Continue to Test Chat Response**.
 

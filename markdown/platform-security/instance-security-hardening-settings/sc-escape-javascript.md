@@ -107,12 +107,12 @@ References
 
 </td><td>
 
-[Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Available system properties
 
  [High Security Settings](../../security/concept/c_HighSecuritySettings.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Validation, sanitization, and encoding](validation-sanitization-encoding.md)
 

@@ -147,5 +147,5 @@ After remediation:
 
 [Activate Telecom Discrepancy Identification and Reconciliation](configure-telecom-reconciliation.md)
 
-[Defining UI actions](https://www.servicenow.com/docs/access?context=c_UIActions&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UIActions]
 

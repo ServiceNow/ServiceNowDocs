@@ -79,7 +79,7 @@ Replace your tab or tabs with viewport-enabled tabs.
 
 15. Declare conditions for when to display the page or tab by either using the provided dropdown menus or writing an encoded query string.
 
-    For more information on writing encoded queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information on writing encoded queries, see Encoded query strings.
 
 16. Select **Open in editor**.
 

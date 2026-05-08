@@ -133,7 +133,7 @@ The customer timeline tracks and shows all the related activities of the engagem
 
 ![customer timeline.](../image/customer-timeline-engagement.png)
 
-To configure the activities in the engagement record, see [Configure activity types for the Customer History view](https://www.servicenow.com/docs/access?context=configure-activity-types-ca&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To configure the activities in the engagement record, see Configure activity types for the Customer History view.
 
 ## Contextual side panel component
 
@@ -153,7 +153,7 @@ Description
 
 </td><td>
 
-The Recommended Actions tab includes [AI search](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
+The Recommended Actions tab includes AI search functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
 From the list of search results, agents can do the following:
 
@@ -166,9 +166,9 @@ From the list of search results, agents can do the following:
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
-For more information, see [Use AI search in Recommended Actions to resolve cases](https://www.servicenow.com/docs/access?context=nba-use-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Use AI search in Recommended Actions to resolve cases.
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://www.servicenow.com/docs/access?context=nba&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the Recommended Actions application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
 
 </td></tr><tr><td>
 

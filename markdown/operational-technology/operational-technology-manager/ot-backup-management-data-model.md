@@ -62,5 +62,5 @@ Use the OT Backup Job Execution History \[ot\_backup\_history\_and\_comparision\
 **Related topics**  
 
 
-[Operational Technology \(OT\) extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-operation-technology&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models-operation-technology]
 

@@ -46,15 +46,15 @@ Roles required:
 
     See the following table for more information.
 
-<table id="choicetable_em4_cxs_xqb"><thead><tr><th align="left" id="d470337e231">
+<table id="choicetable_em4_cxs_xqb"><thead><tr><th align="left" id="d470333e231">
 
 Column
 
-</th><th align="left" id="d470337e234">
+</th><th align="left" id="d470333e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d470337e240">
+</th></tr></thead><tbody><tr><td id="d470333e240">
 
 **Name**
 
@@ -62,7 +62,7 @@ Description
 
 Choose the name of the credential\(s\) you want. Roll over the column title. Use the vertical three dots menu in the column title to filter the names of your credentials.
 
-</td></tr><tr><td id="d470337e249">
+</td></tr><tr><td id="d470333e249">
 
 **Integration instance**
 
@@ -74,7 +74,7 @@ Choose a Tenable.io or, if for Tenable.sc, the Tenable.sc integration instance t
 
  **Note:** If you choose to rescan VIs from a remediation task record for a single integration instance, only the active VIs that are associated with that remediation task, for that instance, using the credential\(s\) that you select are scanned.
 
-</td></tr><tr><td id="d470337e282">
+</td></tr><tr><td id="d470333e282">
 
 **Type**
 

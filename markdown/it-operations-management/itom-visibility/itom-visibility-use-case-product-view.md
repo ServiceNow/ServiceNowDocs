@@ -30,13 +30,13 @@ ITOM Visibility consists of two ServiceNow products: Discovery and Service Mappi
 
 ## Implementing CMDB data
 
-For details on implementing CMDB data to conform with the CSDM framework, see [Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For details on implementing CMDB data to conform with the CSDM framework, see Implementing the CSDM framework in stages.
 
 ## For more information
 
-[Exploring the CSDM model](https://www.servicenow.com/docs/access?context=csdm-content-frame-exploring&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Exploring the CSDM model.
 
-[Implementing the CSDM framework in stages](https://www.servicenow.com/docs/access?context=csdm-implementation-stages&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Implementing the CSDM framework in stages.
 
 [Discovery basics](../../discovery/concept/c_GetStartedWithDiscovery.md).
 

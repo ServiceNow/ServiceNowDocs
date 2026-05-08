@@ -19,7 +19,7 @@ A list displays a set of records from a table. You can export information from l
 
 Role required: none, though you must have rights to view the list.
 
-For more information, see [Lists in the classic environment](https://www.servicenow.com/docs/access?context=c_UseLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information, see Lists in the classic environment.
 
 ## Procedure
 

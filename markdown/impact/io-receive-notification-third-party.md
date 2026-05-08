@@ -91,7 +91,7 @@ Enter URL
 
 </td><td>
 
-Webhook URL as configured on your third-party \(external\) application.For more information, see [Create a scripted REST API](https://www.servicenow.com/docs/access?context=t_CreateAScriptedRESTService&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+Webhook URL as configured on your third-party \(external\) application.For more information, see Create a scripted REST API
 
 </td></tr></tbody>
 </table>    ![Create a webhook integration for a third-party application.](../image/io-webhook-third-party-integ.png)

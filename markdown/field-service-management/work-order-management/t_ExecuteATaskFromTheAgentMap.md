@@ -17,7 +17,7 @@ As an agent, you can accept or reject tasks assigned to you using features in th
 
 ## Before you begin
 
-The Service Management Geolocation plugin \(com.snc.service\_management.geolocation\) must be enabled and the Google Maps Platform key must be entered into the appropriate [Google Maps property](https://www.servicenow.com/docs/access?context=set-up-google-maps-api&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The Service Management Geolocation plugin \(com.snc.service\_management.geolocation\) must be enabled and the Google Maps Platform key must be entered into the appropriate Google Maps property.
 
 Role required: wm\_agent
 

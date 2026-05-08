@@ -17,7 +17,7 @@ Live Feed is a social IT application that provides a place to post and share con
 
 **Important:**
 
-Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for more information.
+Core UI is required to use Live Feed. Live Feed is not supported in Next Experience. If you turn on Next Experience, Live Feed is automatically disabled and will no longer work. See Next Experience UI for more information.
 
 While Live Feed has been discontinued, we are always exploring new ways to enhance our services. Stay tuned for future updates and improvements.
 

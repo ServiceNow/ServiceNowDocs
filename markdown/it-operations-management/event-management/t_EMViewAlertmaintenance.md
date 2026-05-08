@@ -40,7 +40,7 @@ The alert maintenance status can change due to any of these reasons:
 
     A value of **true** indicates that the CI is under maintenance.
 
-    **Note:** If the **Maintenance** field is not visible on the Alert form, personalize the list to add the field. For more information, see [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** If the **Maintenance** field is not visible on the Alert form, personalize the list to add the field. For more information, see Personal lists.
 
 
 **Parent Topic:**[View alert information](t_EMViewAlert.md)

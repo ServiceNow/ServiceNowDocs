@@ -13,7 +13,7 @@ breadcrumb: [Migrating to Configurable Workspace, CSM Configurable Workspace, Or
 
 Follow the instructions in this topic to migrate from CSM Agent Workspace to CSM Configurable Workspace.
 
-If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US) tool.
+If you are currently using CSM Agent Workspace and want to migrate to CSM Configurable Workspace, you can continue using most of your existing configurations. Some features, however, need to be configured specifically for CSM Configurable Workspace. You can migrate some of the configurations using lists and forms and others using the UI Builder tool.
 
 <table id="table_rrk_p52_v4b"><thead><tr><th>
 

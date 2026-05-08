@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Remote help request API provides endpoints to create, view, and fetch lists of IT service requests and their details from an electronic medical record \(EMR\) system. An IT service request is associated with a task type such as an incident in the ServiceNow instance.
 
-You can only use this API when the [EMR Help](https://www.servicenow.com/docs/access?context=emr-help&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) application \(sn\_ind\_rmt\_help\) is installed from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
+You can only use this API when the EMR Help application \(sn\_ind\_rmt\_help\) is installed from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
 Role required to access the endpoints of this API: sn\_ind\_rmt\_help.requester.
 
@@ -25,7 +25,7 @@ Role required to access the endpoints of this API: sn\_ind\_rmt\_help.requester.
 
 Inserts electronic medical record \(EMR\) system data into the corresponding ServiceNow tables.
 
-You need to specify a [request definition ID](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) in addition to the parameters for the task and additional data from the EMR system persisted in the request data table associated with the task. You pass two types of data into this endpoint. The first is the request data, which the endpoint inserts into the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table and its associated child tables. The second is the task parameters of the IT service request, which the endpoint inserts into the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. Only data or fields that are defined in the [request definitions](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US) are processed by the endpoint. For additional information on this data model, see [EMR Help data model](https://www.servicenow.com/docs/access?context=emr-data-model&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+You need to specify a request definition ID in addition to the parameters for the task and additional data from the EMR system persisted in the request data table associated with the task. You pass two types of data into this endpoint. The first is the request data, which the endpoint inserts into the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table and its associated child tables. The second is the task parameters of the IT service request, which the endpoint inserts into the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. Only data or fields that are defined in the request definitions are processed by the endpoint. For additional information on this data model, see EMR Help data model.
 
 Records are identified using the request definition ID.
 
@@ -101,7 +101,7 @@ Required. Name-value pairs of the request data from the EMR system to add in the
 } 
 ```
 
-**Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+**Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
 Data type: Object
 
@@ -136,7 +136,7 @@ Required. Name-value pairs that describe the task parameters of the IT service r
 }
 ```
 
-**Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+**Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
 Data type: Object
 
@@ -405,7 +405,7 @@ Required. Name-value pairs of the request data from the EMR system to update the
 
 ```
 
-**Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+**Note:** Only pass parameters configured in a request definition in the **request\_data** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
 Data type: Object
 
@@ -438,7 +438,7 @@ Required. Name-value pairs that describe the task parameters of the IT service r
 }
 ```
 
-**Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see [Configure request definitions for EMR systems](https://www.servicenow.com/docs/access?context=configure-emr-help-req-def&version=australia&pubname=australia-healthcare-life-sciences&ft:locale=en-US).
+**Note:** Only pass parameters configured in a request definition in the **task\_parameters** object. Any other parameters are ignored. To learn more, see Configure request definitions for EMR systems.
 
 Data type: Object
 
@@ -659,7 +659,7 @@ query
 
 </td><td>
 
-Required. [Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) used to filter the result set.Data type: String
+Required. Encoded query used to filter the result set.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|

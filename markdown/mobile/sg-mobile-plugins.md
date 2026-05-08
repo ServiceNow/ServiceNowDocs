@@ -38,7 +38,7 @@ These plugins are not required for ServiceNow mobile, but include extended funct
 
 ## Activating plugins on your instance
 
-Install a plugin by searching for the plugin name in you plugins list. For information on the plugin activation process, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Install a plugin by searching for the plugin name in you plugins list. For information on the plugin activation process, see Activate a plugin
 
 ## Request apps on the Store
 

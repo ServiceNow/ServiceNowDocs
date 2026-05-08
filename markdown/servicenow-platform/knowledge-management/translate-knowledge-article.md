@@ -24,9 +24,9 @@ Role required: admin, knowledge\_admin, or knowledge
 
 ## About this task
 
-**Note:** This procedure has been superseded by the Localization Framework. For more information see [Localization Framework support for Knowledge Base](https://www.servicenow.com/docs/access?context=lf-support-for-kb-articles&version=australia&pubname=australia-platform-administration&ft:locale=en-US). This information is provided for legacy context.
+**Note:** This procedure has been superseded by the Localization Framework. For more information see Localization Framework support for Knowledge Base. This information is provided for legacy context.
 
-For information about how administrators configure the translation API, see [DynamicTranslation API](https://www.servicenow.com/docs/access?context=dyn-translation-apis&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about how administrators configure the translation API, see DynamicTranslation API.
 
 ## Procedure
 

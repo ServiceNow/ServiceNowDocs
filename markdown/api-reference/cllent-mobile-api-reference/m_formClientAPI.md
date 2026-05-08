@@ -24,9 +24,9 @@ This API supports the following input types:
 -   Reference
 -   String
 
-This API can be used with the [MobileScriptIncludeCaller - Client](../../MobileScriptIncludeCaller/concept/MobileScriptInclCallerClientAPI.md#) API to auto-fill inputs on input form screens. For more information about input form screens, see [Input form screen](https://www.servicenow.com/docs/access?context=parameter-input-screen&version=australia&pubname=australia-mobile&ft:locale=en-US).
+This API can be used with the [MobileScriptIncludeCaller - Client](../../MobileScriptIncludeCaller/concept/MobileScriptInclCallerClientAPI.md#) API to auto-fill inputs on input form screens. For more information about input form screens, see Input form screen.
 
-Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see [Configure auto-fill inputs on input form screens](https://www.servicenow.com/docs/access?context=config-autofil-inputs-nptfrmscrn&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Use this API in the **Client script** field of a Mobile UI Rule Action. For instructions on configuring a Mobile UI Rule Action with the correct settings for this API, see Configure auto-fill inputs on input form screens.
 
 **Parent Topic:**[Client mobile API reference](../../../../../build/applications/concept/api-client-mobile.md)
 

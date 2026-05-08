@@ -15,9 +15,9 @@ breadcrumb: [Configure, Now Assist for Health and Safety, Health and Safety, Emp
 
 Learn how to configure Now Assist AI agents to execute agentic workflows with AI agents and mapped tools.
 
--   To learn more about configuring the Now Assist AI agents, see [Configure Now Assist AI agents](https://www.servicenow.com/docs/access?context=configuring-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
--   To learn about reducing the exposure of harmful content on your agentic workflow, see [Enable Now Assist Guardian for AI agents](https://www.servicenow.com/docs/access?context=enable-aia-na-guardian&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
--   To choose the large language model \(LLM\) service provider for Now Assist AI agents in AI Agent Studio, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   To learn more about configuring the Now Assist AI agents, see Configure Now Assist AI agents.
+-   To learn about reducing the exposure of harmful content on your agentic workflow, see Enable Now Assist Guardian for AI agents.
+-   To choose the large language model \(LLM\) service provider for Now Assist AI agents in AI Agent Studio, see Large language models on the ServiceNow AI Platform®.
 
 -   **[Install Now Assist AI agents for Health and Safety](../task/ai-agents-now-assist-hs-install.md)**  
 Install Now Assist AI agents on your ServiceNow instance to enable the agentic AI experience.

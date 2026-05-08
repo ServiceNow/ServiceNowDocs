@@ -15,7 +15,7 @@ breadcrumb: [Setting up integrations in Service Operations Workspace for ITSM, C
 
 The Password Reset application provides a mechanism for end users to either unlock the account or reset their password with the help of service desk support. This feature enables a secure and an efficient password management system. The users must reach out to the service desk agents to update their login credentials.
 
-Before you configure the password reset, you must define the password reset process. For more information, see [Plan your Password Reset processes](https://www.servicenow.com/docs/access?context=t_PlanPasswordReset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Before you configure the password reset, you must define the password reset process. For more information, see Plan your Password Reset processes.
 
 The password reset feature is available in the base system. Alternatively, you can customize the password reset process to meet your organization's needs.
 

@@ -162,16 +162,16 @@ Risk Flow Teams\[risk\_created\_teams\]
 Posts a message to the project channel or team whenever a Risk with probability **High** or **Absolute** is created or if the probability of an existing risk is updated to **High** or **Absolute**.
 
 </td></tr></tbody>
-</table>All the flows, except the subflows, are inactive by default. Enable the collaboration between PPM and Slack or Microsoft Teams for a specific action by activating these flows. You can view all these flows by navigating to **Flow Designer** &gt; **Designer** and filtering the flows by the PPM collaboration application. For more information, see [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+</table>All the flows, except the subflows, are inactive by default. Enable the collaboration between PPM and Slack or Microsoft Teams for a specific action by activating these flows. You can view all these flows by navigating to **Flow Designer** &gt; **Designer** and filtering the flows by the PPM collaboration application. For more information, see Activate a flow.
 
-If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see [Edit a flow](https://www.servicenow.com/docs/access?context=flow-edit&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+If you want to update the configuration for any of these flows, you can edit them. For example, if you want to update the time of daily status update from 8:00 AM to 9:00 AM, you can edit the Daily Project Status Slack \[daily\_project\_status\] or Daily Project Status Teams \[daily\_project\_status\_teams\] flow. For more information, see Edit a flow.
 
 **Parent Topic:**[Using Project Management](../../project-management/concept/using-project-management.md)
 
 **Related topics**  
 
 
-[Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.flow-designer]
 
-[Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.flows]
 

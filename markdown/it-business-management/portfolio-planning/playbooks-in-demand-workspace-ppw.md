@@ -17,7 +17,7 @@ Playbooks in Next Experience for Demand Management provide a guided, structured 
 
 ## Purpose of Playbooks in Demand Management
 
-Playbooks provide a structured way to manage work by guiding teams through predefined steps. It shows what to do, when to do it, and where to find the tools or information required to complete each task. You can apply a playbook to processes such as managing a demand, resolving an issue, launching a product, onboarding new employees, or define key steps of a process. For more information on playbooks and how to create them, see [Workflow studio playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Playbooks provide a structured way to manage work by guiding teams through predefined steps. It shows what to do, when to do it, and where to find the tools or information required to complete each task. You can apply a playbook to processes such as managing a demand, resolving an issue, launching a product, onboarding new employees, or define key steps of a process. For more information on playbooks and how to create them, see Workflow studio playbooks.
 
 In Next Experience for Demand Management, playbooks help demand managers and reviewers:
 
@@ -64,12 +64,12 @@ Playbooks add value to demand management by:
 **Note:**
 
 -   You can use the demand default playbook and customize it according to your organization's requirements. For more information about the stages and activities of this playbook, see [Demand default playbook stages and activities](../reference/demand-default-playbook-stages-activities-ppw.md).
--   You can also create a demand playbook according to your requirements. For more information, see [Create and configure playbooks](https://www.servicenow.com/docs/access?context=setting-up-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+-   You can also create a demand playbook according to your requirements. For more information, see Create and configure playbooks.
 
 **Related topics**  
 
 
-[Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
 [Create and customize playbooks](../task/create-and-customize-playbooks-ppw.md)
 

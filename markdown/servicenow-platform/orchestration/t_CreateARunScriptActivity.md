@@ -21,7 +21,7 @@ Role required: activity\_creator or workflow\_admin
 
 ## Procedure
 
-1.  Create a [custom activity](https://www.servicenow.com/docs/access?context=create-custom-activities&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  Create a custom activity.
 
     This action creates a custom activity using a template.
 

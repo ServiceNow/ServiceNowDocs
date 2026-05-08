@@ -43,15 +43,15 @@ The option to compose an email is available only when the State is Awaiting appr
 
 8.  Compose an email body.
 
-<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d716830e127">
+<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d716843e127">
 
 Action
 
-</th><th align="left" id="d716830e130">
+</th><th align="left" id="d716843e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d716830e136">
+</th></tr></thead><tbody><tr><td id="d716843e136">
 
 **Enter your own message.**
 
@@ -59,7 +59,7 @@ Steps
 
 Enter your message in the text box.
 
-</td></tr><tr><td id="d716830e145">
+</td></tr><tr><td id="d716843e145">
 
 **Use Response templates to insert predefined content into the email body**
 
@@ -71,7 +71,7 @@ Enter your message in the text box.
 -   Paste the content in the email body.
 
 
-</td></tr><tr><td id="d716830e178">
+</td></tr><tr><td id="d716843e178">
 
 **Use Email templates to use predefined template**
 
@@ -81,20 +81,20 @@ Enter your message in the text box.
 -   Select an appropriate response template based on the subject of your email.
 -   Select **Apply Template** to use the template.
 
-**Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** Only response templates configured for the email channel are available to use. For more information, see Response templates.
 
 </td></tr></tbody>
 </table>9.  Send the email immediately or later, or discard it.
 
-<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d716830e225">
+<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d716843e225">
 
 Action
 
-</th><th align="left" id="d716830e228">
+</th><th align="left" id="d716843e228">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d716830e234">
+</th></tr></thead><tbody><tr><td id="d716843e234">
 
 **Send the email immediately**
 
@@ -102,7 +102,7 @@ Steps
 
 To send the email immediately, select **Send email**.
 
-</td></tr><tr><td id="d716830e246">
+</td></tr><tr><td id="d716843e246">
 
 **Send the email later**
 
@@ -114,7 +114,7 @@ To send the email immediately, select **Send email**.
 -   To send the email, select **Send email**.
 .
 
-</td></tr><tr><td id="d716830e278">
+</td></tr><tr><td id="d716843e278">
 
 **Discard the email**
 

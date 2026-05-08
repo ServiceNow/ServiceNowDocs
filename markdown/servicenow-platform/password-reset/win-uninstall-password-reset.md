@@ -23,7 +23,7 @@ Role required: Windows Local Administrator
 
 1.  Follow either procedure.
 
-<table id="choicetable_or2_xw4_tx"><tbody><tr><td id="d369139e55">
+<table id="choicetable_or2_xw4_tx"><tbody><tr><td id="d368918e55">
 
 **Use an EXE file from the command line**
 
@@ -38,7 +38,7 @@ C:\Program Files\ServiceNow\uninstall\
 2.  Double-click the `unins000.exe` file.
 
 
-</td></tr><tr><td id="d369139e78">
+</td></tr><tr><td id="d368918e78">
 
 **Use an MSI file from the command line**
 

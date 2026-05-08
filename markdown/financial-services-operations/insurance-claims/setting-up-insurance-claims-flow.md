@@ -23,7 +23,7 @@ Before beginning the configuration steps, you should familiarize yourself with t
 -   [Insurance Claims Core](../../fso-common/reference/insurance-claims-core-data-model.md)
 -   [Integrating with Document Processor](../../fso-common/concept/integrating-with-document-processor.md)
 -   [Best practices for setting up an instance](https://www.servicenow.com/community/in-other-news/best-practices-for-general-planning-and-setup-of-your-instance/ba-p/2287790)
--   [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Table extension and classes
 
 ## Configuration overview
 

@@ -46,7 +46,7 @@ notifyUtil.getTelephonyProviers();
 
 Returns all of the Notify telephone numbers and related Notify information from a specified source record, such as an incident.
 
-You can use this information to initiate a call or send an SMS message on a particular source record. The information that is returned is based on the configuration of the Notify Provider Selector framework. For additional information, see [Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+You can use this information to initiate a call or send an SMS message on a particular source record. The information that is returned is based on the configuration of the Notify Provider Selector framework. For additional information, see Notify
 
 <table id="table_pmg_pyt_kmb" class="parameters"><thead><tr><th>
 

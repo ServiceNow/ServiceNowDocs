@@ -69,7 +69,7 @@ Run on extended
 
 </td><td>
 
-Option to trigger your playbook when record operations occur on tables that extend the input table. For example, if your selected table is the Task \[task\] table and you select this option, your playbook triggers when a Problem \[problem\] record is created or updated. For more information, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Option to trigger your playbook when record operations occur on tables that extend the input table. For example, if your selected table is the Task \[task\] table and you select this option, your playbook triggers when a Problem \[problem\] record is created or updated. For more information, see Table extension and classes.
 
 </td></tr></tbody>
 </table>**Note:** After you create a playbook, you can't change the trigger's input table or trigger type.

@@ -21,7 +21,7 @@ In the Knowledge Management Service Portal, the Knowledge Management homepage, s
 
 Starting with the Washington DC release, the Knowledge Management v3 homepage \(com.snc.knowledge3\) is being prepared for deprecation in the future Y release. It is replaced by the Knowledge Management Service Portal \(com.snc.knowledge\_serviceportal\), which is active by default for customers on Madrid and later releases. For more information about the new experience, see [Knowledge Management Service Portal homepage features](knowledge-service-portal-pages.md).
 
-Users with the knowledge\_admin or admin role can configure the widget instance options used on the Knowledge Management Service Portal pages. Use the control + right-click menu to access the widget instance options and configure a widget instance. For more information, see [Configure widget instance options](https://www.servicenow.com/docs/access?context=c_ConfigureWidgetInstances&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Users with the knowledge\_admin or admin role can configure the widget instance options used on the Knowledge Management Service Portal pages. Use the control + right-click menu to access the widget instance options and configure a widget instance. For more information, see Configure widget instance options.
 
 **Note:** Before configuring widget instance options, switch to the Knowledge Management - Service Portal scope.
 
@@ -50,7 +50,7 @@ Homepage widgets:
 
 Search results page widgets:
 
--   [Knowledge Breadcrumbs](https://www.servicenow.com/docs/access?context=knowledge-breadcrumbs&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Knowledge Breadcrumbs
 
     Displays navigation path to the current page and a search box for users to search the knowledge base.
 

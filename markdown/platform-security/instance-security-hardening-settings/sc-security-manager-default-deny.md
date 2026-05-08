@@ -97,7 +97,7 @@ References
 [Default deny property](../../security/concept/c_DefaultDenyProperty.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Architecture, design, and threat modeling](sc-architecture-design-threat-molding.md)
 

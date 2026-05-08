@@ -35,7 +35,7 @@ Draft
 
 </td><td>
 
-Service order that is still in the capture stage or the manual entry of the service order is not complete. The data capture phase is when your instance is capturing full service order details from the TMF641. **Note:** The Service Order Open API is a ServiceNow implementation of the TMForum TMF641 Service Ordering Open API specification. To learn more, see [Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Service order that is still in the capture stage or the manual entry of the service order is not complete. The data capture phase is when your instance is capturing full service order details from the TMF641. **Note:** The Service Order Open API is a ServiceNow implementation of the TMForum TMF641 Service Ordering Open API specification. To learn more, see Service Order Open API.
 
  In this case, Draft is a system-assigned state.
 

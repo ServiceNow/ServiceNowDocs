@@ -23,7 +23,7 @@ Role required: Must be a licensed OPM user and have the \[sn\_ppm\_read\] and \[
 
 ## About this task
 
-You must have Project Workspace installed and configured to create opportunities from project files. See, [Project Workspace](https://www.servicenow.com/docs/access?context=project-workspace-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+You must have Project Workspace installed and configured to create opportunities from project files. See, Project Workspace.
 
 ## Procedure
 
@@ -132,7 +132,7 @@ Attachments can include related information such department details of the team 
 
         User criteria control who can view opportunities. Leaving this field empty, enables everyone in your organization to see the opportunity. Select user groups to restrict access to the members of the selected groups.
 
-        For information about creating user groups, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For information about creating user groups, see Create a user group.
 
 8.  Select **Next**.
 

@@ -15,7 +15,7 @@ breadcrumb: [Using Supplier Payment Optimization, Use, Supplier Lifecycle Operat
 
 Source-to-Pay Workspace includes a playbook to complete the supplier cases for initiating credit card acceptance requests.
 
-The Supplier credit card enablement playbook provides step-by-step guidance for completing the request. The playbook includes a customized supplier case flow including reviewing the case by checking the propensity score, creating the credit card acceptance task for the supplier contact, and notifying the supplier through email. Once the supplier contact accepts the credit card as the payment method, the case can be closed. For more information, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The Supplier credit card enablement playbook provides step-by-step guidance for completing the request. The playbook includes a customized supplier case flow including reviewing the case by checking the propensity score, creating the credit card acceptance task for the supplier contact, and notifying the supplier through email. Once the supplier contact accepts the credit card as the payment method, the case can be closed. For more information, see Interact with Playbook.
 
 ## Supplier credit card enablement playbook stages and activities
 

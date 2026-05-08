@@ -4,7 +4,7 @@ description: The Service Model Foundation data model is vital for modeling the b
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 9
 breadcrumb: [Data model, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---

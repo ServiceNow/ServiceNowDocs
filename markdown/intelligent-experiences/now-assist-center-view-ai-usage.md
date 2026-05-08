@@ -202,7 +202,7 @@ Overview
 
 The Overview dashboard page provides high-level summary of assistant activity, assist usage, user engagement and overall customer satisfaction \(CSAT\) score.
 
- For more information, see [Overview page in Assistant analytics](https://www.servicenow.com/docs/access?context=overview-page-in-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information, see Overview page in Assistant analytics.
 
 </td></tr><tr><td>
 
@@ -212,7 +212,7 @@ Usage
 
 The Usage dashboard page aggregates key metrics related to assistant usage, including the total number of conversations by assistant, conversations by channel, citations associated with the results, and the flow of conversation states.
 
- For more information, see [Usage page in Assistant analytics](https://www.servicenow.com/docs/access?context=usage-page-in-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information, see Usage page in Assistant analytics.
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ Adoption &amp; Engagement
 
 The Adoption &amp; Engagement dashboard page aggregates metrics related to user adoption and engagement, including average active users, new user growth, conversation volume trends, assist-to-execution trend, and channel distribution.
 
- For more information, see [Adoption and Engagement page in Assistant analytics](https://www.servicenow.com/docs/access?context=adoption-and-engagement-page-in-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information, see Adoption and Engagement page in Assistant analytics.
 
 </td></tr><tr><td>
 
@@ -232,7 +232,7 @@ Sentiment
 
 The Sentiment dashboard page aggregates metrics related to user satisfaction, emotional feedback, empathy levels, and conversation outcomes. These metrics enable you to monitor inferred CSAT, track transfers and escalations, analyze empathy distribution, and review negative emotion trends.
 
- For more information, see [Sentiment page in Assistant analytics](https://www.servicenow.com/docs/access?context=sentiment-page-in-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information, see Sentiment page in Assistant analytics.
 
 </td></tr><tr><td>
 
@@ -242,7 +242,7 @@ Assists
 
 The Assists dashboard page aggregates metrics related to conversational assists, including total assists consumed, usage breakdown by assistant, usage trends, and features which used the most number of assists.
 
- For more information, see [Assists page in Assistant analytics](https://www.servicenow.com/docs/access?context=assists-page-in-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information, see Assists page in Assistant analytics.
 
 </td></tr><tr><td>
 
@@ -252,7 +252,7 @@ Voice
 
 The Voice dashboard page aggregates key metrics related to voice assistant usage and performance, including total conversations, deflection rate, conversation outcomes, satisfaction scores, response time, tool execution performance, and performance of AI agents invoked by voice assistants.
 
- For more information, see [Voice page in assistant analytics](https://www.servicenow.com/docs/access?context=voice-assistant-analytics&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For more information, see Voice page in assistant analytics.
 
 </td></tr><tr><td>
 

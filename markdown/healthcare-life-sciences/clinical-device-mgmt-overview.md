@@ -13,5 +13,5 @@ breadcrumb: [Healthcare and Life Sciences]
 
 ServiceNow® Clinical Device Management streamlines the management of medical devices.
 
-For information on maintenance and servicing, please see [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&version=australia&pubname=australia-field-service-management&ft:locale=en-US). For information on inventory and management, please see [Enterprise Asset Management for Healthcare](https://www.servicenow.com/docs/access?context=eam-for-healthcare&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+For information on maintenance and servicing, please see Field Service Management. For information on inventory and management, please see Enterprise Asset Management for Healthcare.
 

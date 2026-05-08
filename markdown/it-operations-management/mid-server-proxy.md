@@ -77,9 +77,9 @@ Set **mid.capi.skip\_proxy\_for\_ssh** to true to skip it. See [MID Server prope
 **Related topics**  
 
 
-[Install a MID Server on Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-install-prereqs]
 
-[Install a MID Server on Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_InstallAMIDServerOnLinux]
 
-[MID Server parameters](https://www.servicenow.com/docs/access?context=mid-server-parameters&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-parameters]
 

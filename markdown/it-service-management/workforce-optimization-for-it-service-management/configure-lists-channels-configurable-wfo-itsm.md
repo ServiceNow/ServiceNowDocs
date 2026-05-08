@@ -21,7 +21,7 @@ Role required: sn\_channel\_mgmt.admin
 
 ## About this task
 
-A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Incident table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see [Working with database views for reporting](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Incident table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see Working with database views for reporting.
 
 **Note:** You can configure three supervisor lists for each service channel. The first three lists with the lowest order number appear in Channel Management.
 
@@ -33,7 +33,7 @@ A database view that defines table joins is used for generating reports for a su
 
 3.  Click the **Supervisor Lists** tab.
 
-    **Note:** If you do not see the **Supervisor Lists** tab, you must [configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and the Reports related list.
+    **Note:** If you do not see the **Supervisor Lists** tab, you must configure the form layout and the Reports related list.
 
 4.  Click **New**.
 

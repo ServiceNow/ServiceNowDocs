@@ -21,27 +21,27 @@ Choose one of the following tiles to learn more about the different applications
 
 <table id="table_ktr_z4w_hgc" class="nav-card"><tbody><tr><td>
 
-[HR Service Delivery![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about HR Service Delivery to ensure delivery of timely employee assistance.](https://www.servicenow.com/docs/access?context=hr-service-delivery&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+HR Service Delivery![](../../../reuse/icons/brand-icons/bus-explore.svg)Learn more about HR Service Delivery to ensure delivery of timely employee assistance.
 
 </td><td>
 
-[Workplace Service Delivery![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Learn more about Workplace Service Delivery to manage workplace-related tasks and requests in one place.](https://www.servicenow.com/docs/access?context=workplace-service-delivery-suite-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Workplace Service Delivery![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg)Learn more about Workplace Service Delivery to manage workplace-related tasks and requests in one place.
 
 </td><td>
 
-[Legal Service Delivery![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn more about Legal Service Delivery that enables employees and legal support to manage legal requests.](https://www.servicenow.com/docs/access?context=legal-management-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Legal Service Delivery![](../../../reuse/icons/brand-icons/bus-learn.svg)Learn more about Legal Service Delivery that enables employees and legal support to manage legal requests.
 
 </td></tr><tr><td>
 
-[Health and Safety![](../../../reuse/icons/brand-icons/bus-handshake.svg)Learn more about creating safe and healthy working conditions for your employees.](https://www.servicenow.com/docs/access?context=health-safety-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Health and Safety![](../../../reuse/icons/brand-icons/bus-handshake.svg)Learn more about creating safe and healthy working conditions for your employees.
 
 </td><td>
 
-[Finance and Supply Chain applications![](../../../reuse/icons/brand-icons/bus-investor-relations-2.svg)Learn more about the finance and supply chain applications that enables employees and finance teams to manage finance-related requests.](https://www.servicenow.com/docs/access?context=fsc-common-apps-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Finance and Supply Chain applications![](../../../reuse/icons/brand-icons/bus-investor-relations-2.svg)Learn more about the finance and supply chain applications that enables employees and finance teams to manage finance-related requests.
 
 </td><td>
 
-[Sourcing and Procurement Operations![](../../../reuse/icons/brand-icons/bus-person.svg)Learn more about the sourcing and procurement operations to enable your employees to shop for goods and services at work with AI-assisted tools.](https://www.servicenow.com/docs/access?context=psm-overview&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Sourcing and Procurement Operations![](../../../reuse/icons/brand-icons/bus-person.svg)Learn more about the sourcing and procurement operations to enable your employees to shop for goods and services at work with AI-assisted tools.
 
 </td></tr></tbody>
 </table>Find a breakdown of the supported features in CBS within the mentioned applications.
@@ -70,7 +70,7 @@ Raise requests for issues that aren’t covered by current automated workflows.
 
 For more information on the Core Business Suite request form for workplace requests, see [Raise requests on the employee portal](../task/request-emp-rest.md).
 
-For more information on the Workplace Service Delivery inquiry form, if you're an existing user, see [Raise help request for a workplace inquiry](https://www.servicenow.com/docs/access?context=submit-gen-workplace-serv-req&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For more information on the Workplace Service Delivery inquiry form, if you're an existing user, see Raise help request for a workplace inquiry.
 
 ## Legal requests
 
@@ -80,7 +80,7 @@ Submit a request to the legal department in your organization for general legal 
 
 For more information on the Core Business Suite request form for legal requests, see [Raise requests on the employee portal](../task/request-emp-rest.md).
 
-For more information on the Legal Services request form, if you're an existing user, see [Submit a legal request](https://www.servicenow.com/docs/access?context=submit-legal-request&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For more information on the Legal Services request form, if you're an existing user, see Submit a legal request.
 
 ## Health and Safety requests
 
@@ -90,13 +90,13 @@ Ask a Health and Safety question to the safety department, and request informati
 
 For more information on the Core Business Suite request form for Health and Safety, see [Raise requests on the employee portal](../task/request-emp-rest.md).
 
-For more information on the Health and Safety request form, if you're an existing user, see [Ask a Health and Safety question from Employee Center](https://www.servicenow.com/docs/access?context=hs-ask-health-safety-question&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For more information on the Health and Safety request form, if you're an existing user, see Ask a Health and Safety question from Employee Center.
 
 ## Finance-related requests
 
 ![Image displays finance inquiry form.](../image/finance-req-form-dec.png)
 
-Ask a general finance-related question, as an employee, targeted to the finance department in your organization. For more information, see [Submit a finance request from Employee Center catalog](https://www.servicenow.com/docs/access?context=submit-fin-req&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+Ask a general finance-related question, as an employee, targeted to the finance department in your organization. For more information, see Submit a finance request from Employee Center catalog.
 
 ## Procurement requests
 
@@ -106,10 +106,10 @@ Raise an inquiry for any pre-existing purchase, as a buyer, or any other query r
 
 For more information on the Core Business Suite request form, see [Raise requests on the employee portal](../task/request-emp-rest.md).
 
-For more information on the procurement inquiry form, if you're an existing user, see [Raise a general inquiry for procurement](https://www.servicenow.com/docs/access?context=raise-general-inquiry-for-procurement&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+For more information on the procurement inquiry form, if you're an existing user, see Raise a general inquiry for procurement.
 
 ## Workflows and applications
 
--   [Employee Service Management](https://www.servicenow.com/docs/access?context=employee-service-management-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Finance and Supply Chain](https://www.servicenow.com/docs/access?context=finance-supply-chain-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+-   Employee Service Management
+-   Finance and Supply Chain
 

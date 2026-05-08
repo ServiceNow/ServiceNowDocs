@@ -33,7 +33,7 @@ Once the embeddable components are integrated into your website, you’re automa
 
     **Note:**
 
-    -   For more information, see [Multi-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   For more information, see Multi-Provider single sign-on \(SSO\).
     -   The OIDC IdP should match the IdP that you use to log in to the website.
 2.  Synchronize user records on the IdP with your ServiceNow instance.
 

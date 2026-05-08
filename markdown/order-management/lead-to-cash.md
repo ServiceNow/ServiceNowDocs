@@ -29,7 +29,7 @@ To learn how to create entity configurations, see [Create an entity configuratio
 
 ## Reconfiguration
 
-You can reconfigure an order or a quote that is in the **Draft** state to make customizations in the Configurator UI. After the configuration is complete, all the order line items associated with the order are also updated. To learn more about reconfiguration, see [LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+You can reconfigure an order or a quote that is in the **Draft** state to make customizations in the Configurator UI. After the configuration is complete, all the order line items associated with the order are also updated. To learn more about reconfiguration, see LeadtoCashCore - Scoped.
 
 ## Related links
 

@@ -15,7 +15,7 @@ breadcrumb: [Managing Incident Communications, Incident Communications Managemen
 
 An incident communication plan helps you to streamline a communication process with regards to an incident. It defines the stakeholders who should be informed, what information should be shared, when the information should be delivered, and the methods of communication.
 
-For information on how to create a communication plan definition, refer to [Create communication plan definition](https://www.servicenow.com/docs/access?context=create-comm-plan-definition&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For information on how to create a communication plan definition, refer to Create communication plan definition.
 
 **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths such as **My Communication Plans**, automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](../../service-operations-workspace/task/redirect-ui16-module-links-sow.md).
 

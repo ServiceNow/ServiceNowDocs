@@ -52,5 +52,5 @@ The **AI Systems** tab on a business application record shows a summary of each 
 
 [AI Control Tower integration with Enterprise Architecture](../../concept/eaw-concept/eaw-aict.md)
 
-[AI Control Tower Home](https://www.servicenow.com/docs/access?context=ai-control-tower-home-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.ai-control-tower-home-page]
 

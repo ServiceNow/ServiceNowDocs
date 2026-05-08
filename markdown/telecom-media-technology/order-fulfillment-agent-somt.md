@@ -19,11 +19,11 @@ The order fulfillment AI agent uses historic order tasks to create the order tas
 
 Based on the domain order, this agent retrieves a list of tasks that must be fulfilled. For each such domain order, the agent uses historical data from similar orders to find all such tasks.
 
-If the Product offering or Category fulfillment tasks defined in the decision table aren’t available to create the fulfillment tasks for product, service, and resource, the default flow Service order trigger fulfillment AI agent, resource order trigger fulfillment AI agent, and Product order trigger fulfillment AI agent are considered to create the fulfillment tasks for an order line item during the fulfillment process. For more information on configuring decision tables, see [Decision tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+If the Product offering or Category fulfillment tasks defined in the decision table aren’t available to create the fulfillment tasks for product, service, and resource, the default flow Service order trigger fulfillment AI agent, resource order trigger fulfillment AI agent, and Product order trigger fulfillment AI agent are considered to create the fulfillment tasks for an order line item during the fulfillment process. For more information on configuring decision tables, see Decision tables.
 
 When a domain order is created, if a fulfillment process isn’t defined for that domain order specification category, a place order task is created. When this task is assigned to an agent, it triggers the order fulfillment AI agent for this domain order.
 
-To modify the order fulfillment AI agent, [Duplicate an agentic workflow](https://www.servicenow.com/docs/access?context=clone-aia-usecase&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US), and adjust the settings according to your requirements.
+To modify the order fulfillment AI agent, Duplicate an agentic workflow, and adjust the settings according to your requirements.
 
 The order fulfillment AI agent adds tasks apart from the generated tasks from Group Action Framework \(GAF\). To activate the GAF, see [Activate Group Action Framework for Now Assist for Sales CRM for Telecommunications](../task/activate-group-action-framework-somt.md). The GAF and AI search are both used for order tasks.
 

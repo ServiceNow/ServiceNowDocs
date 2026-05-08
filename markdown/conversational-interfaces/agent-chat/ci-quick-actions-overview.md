@@ -82,7 +82,7 @@ r
 
 </td><td>
 
-Uses [Response templates](https://www.servicenow.com/docs/access?context=response-templates-templated-snippets&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to insert as text in a conversation.**Note:** Only response templates that have a condition of **\[Type\]\[is\]\[Chat\]** are available in Agent Chat.
+Uses Response templates to insert as text in a conversation.**Note:** Only response templates that have a condition of **\[Type\]\[is\]\[Chat\]** are available in Agent Chat.
 
 </td><td>
 

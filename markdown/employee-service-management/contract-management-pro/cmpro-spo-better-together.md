@@ -75,9 +75,9 @@ You can assign your procurement and contracting professionals to these roles as 
 
 ## Requirements for integrating Sourcing and Procurement Operations and Contract Management Pro
 
-1.  [Install Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=activate-finance-spend-central&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+1.  Install Sourcing and Procurement Operations.
 2.  [Install Contract Management Pro](../task/cncore-install-cmpro.md).
-3.  [Integrate with Contract Management Pro](https://www.servicenow.com/docs/access?context=integrate-spo-with-cmpro&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+3.  Integrate with Contract Management Pro.
 
     **Note:** To use this application, a license is required for both Contract Management Pro and Sourcing and Procurement Operations.
 
@@ -86,7 +86,7 @@ You can assign your procurement and contracting professionals to these roles as 
 
 Get started with initiating contract request by completing these tasks:
 
-1.  [Configure Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=configuring-spo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+1.  Configure Sourcing and Procurement Operations.
 2.  Configuring Contract Management Pro
     -   **[Create a contract type](../task/cncore-create-contract-type.md)**
 
@@ -118,5 +118,5 @@ Get started with initiating contract request by completing these tasks:
 
         Role:contract configurator.
 
-3.  [Initiate a contract request](https://www.servicenow.com/docs/access?context=initiate-contract-request&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US).
+3.  Initiate a contract request.
 

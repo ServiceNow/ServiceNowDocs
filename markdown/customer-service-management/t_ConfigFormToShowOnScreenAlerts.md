@@ -23,7 +23,7 @@ Role required: sn\_shn.admin
 
 2.  Right-click the form header and select **Configure** &gt; **Form Layout**.
 
-    The system displays a pop-up window that gives you the choice to use Form Builder or continue with the following steps. Selecting **Try Form Builder** opens the Form Builder tool in a new window. For more information, see [Accessing Form Builder](https://www.servicenow.com/docs/access?context=access-form-builder&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The system displays a pop-up window that gives you the choice to use Form Builder or continue with the following steps. Selecting **Try Form Builder** opens the Form Builder tool in a new window. For more information, see Accessing Form Builder.
 
 3.  Select **Not Now** on the pop-up window.
 

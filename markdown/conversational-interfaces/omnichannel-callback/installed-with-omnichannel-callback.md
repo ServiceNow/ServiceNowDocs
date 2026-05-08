@@ -86,7 +86,7 @@ Lists the callback tasks of type Scheduled and ASAP.
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 **Parent Topic:**[Omnichannel Callback reference](../concept/omnichannel-callback-reference.md)
 

@@ -17,7 +17,7 @@ As an employee, shopper, or requester, you can view all procurement case types a
 
 Ensure that your admin has installed Employee Center, which is available as a zBoot plugin, for you to enjoy the seamless unified employee portal experience. Further, they may choose to install the employee content taxonomy plugin to access a prebuilt taxonomy for your service catalog, including the Purchases and Expenses topic.
 
-**Note:** To know more about EC and how to set it up as an admin, visit the [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) home page.
+**Note:** To know more about EC and how to set it up as an admin, visit the Employee Center home page.
 
 ## Purchase and expense
 
@@ -43,7 +43,7 @@ From **Quick links**, you can directly go to the list of third-party supplier si
 
 As an approver, you can view your open and completed approval tasks, and also work on your open items, from **My tasks**. If you’re logged in as an employee or shopper instead, you can work on completing your procurement tasks.
 
-**Note:** Admins can create new to-do widgets to show up in Employee Center, or configure existing widgets from **Employee Center** &gt; **Activity Configurations**. For more information, see [Employee tasks page](https://www.servicenow.com/docs/access?context=employee-center-to-dos-page-configuration&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+**Note:** Admins can create new to-do widgets to show up in Employee Center, or configure existing widgets from **Employee Center** &gt; **Activity Configurations**. For more information, see Employee tasks page.
 
 In **My tasks**, you can filter your search by the following:
 
@@ -65,7 +65,7 @@ In **My tasks**, you can filter your search by the following:
 
 **Note:** These filters are inactive by default. You can enable them by navigating to **All** &gt; **Employee Center** &gt; **Administration** &gt; **To-do filter categories**.
 
-For detailed information on how to work with configurable task filters, see [Configurable task filters](https://www.servicenow.com/docs/access?context=configurable-filters-experience-employee&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For detailed information on how to work with configurable task filters, see Configurable task filters.
 
 ## My active items
 
@@ -77,7 +77,7 @@ As a shopper, you can view specific items from the widgets under the **My active
 
 Others include surveys, invoices, purchase orders, risk assessments, issues, shipments, and so on. Selecting these takes you to their details page on ShoppingHub, where you can work with them as required.
 
-**Note:** Admins can also configure these active items widgets in Employee Center. For more information, see [My active items widget configuration](https://www.servicenow.com/docs/access?context=my-activity-config&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+**Note:** Admins can also configure these active items widgets in Employee Center. For more information, see My active items widget configuration.
 
 -   **[Search for punchout products in Employee Center](../task/ec-search-punchout-products.md)**  
 You can search for punchout products directly in Employee Center using the AI search bar.

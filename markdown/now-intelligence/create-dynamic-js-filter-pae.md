@@ -19,7 +19,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## About this task
 
-JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+JavaScript filters can be single-line statements, or longer scripts. For longer JavaScript statements, create a script include that returns the correct format and data type, conforms to the specific data that the report should filter for, and is client callable. For more information, see Script includes.
 
 This table lists the operators supported by each field type that supports JavaScript filters. Field types that are not in this table do not support JavaScript filters and the **Value** field in the condition builder for those field types does not have the option to paste your own statements.
 

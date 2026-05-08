@@ -14,7 +14,7 @@ Generate and print a QR code for a single space or room, or for multiple spaces 
 
 ## Before you begin
 
-[Enable mobile universal linking](https://www.servicenow.com/docs/access?context=universal-linking-enable&version=australia&pubname=australia-mobile&ft:locale=en-US)
+Enable mobile universal linking
 
 Role required: sn\_wsd\_core.admin or sn\_wsd\_core.workplace\_manager
 

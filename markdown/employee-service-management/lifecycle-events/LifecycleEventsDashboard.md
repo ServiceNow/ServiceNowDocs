@@ -38,5 +38,5 @@ The Onboarding Executive View dashboard requires the Performance Analytics - Con
     -   The **Activity Analysis** tab shows bottlenecks in the onboarding process. Details on each activity set per week by fulfiller or employee. The time it takes to close activities and overdue activities by fulfiller and employee also appears.
     -   The **New Hire Experience** tab shows the results of the new hire survey that helps measure the new hire experience. Information on employees leaving within a year also appears.
 
-See, [Performance Analytics](https://www.servicenow.com/docs/access?context=pa-overview&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+See, Performance Analytics
 

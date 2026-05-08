@@ -50,7 +50,7 @@ Alternatively, you can define options in the widget server script.
 
 ## Embed a widget in a client script
 
-Use [spUtil.get\(\)](https://www.servicenow.com/docs/access?context=spUtilAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) to get a widget model in the client script.
+Use spUtil.get\(\) to get a widget model in the client script.
 
 ```
 spUtil.get("widget-sc-cat-item", {sys_id: "your_catalog_item_sys_id"}).then(function(response) {
@@ -80,7 +80,7 @@ When using the spUtil class in a widget client script, you must inject the class
 
 ## Embed a widget in a server script
 
-Use [$sp.getWidget\(\)](https://www.servicenow.com/docs/access?context=c_GlideSPScriptableScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) to get a widget model in the server script.
+Use $sp.getWidget\(\) to get a widget model in the server script.
 
 ```
 data.catalogItemWidget = $sp.getWidget("widget-sc-cat-item");

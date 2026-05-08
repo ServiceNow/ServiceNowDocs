@@ -142,7 +142,7 @@ This spoke uses the Jenkins v2 Connection &amp; Credential Alias record to autho
 
 ## MID Server requirements
 
-These actions use REST calls, which must run on a MID Server. Use the connection record associated with the Jenkins alias to configure where actions run as well as set MID Server selection attributes. For more information, see [MID server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+These actions use REST calls, which must run on a MID Server. Use the connection record associated with the Jenkins alias to configure where actions run as well as set MID Server selection attributes. For more information, see MID server.
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
 

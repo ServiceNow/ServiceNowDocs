@@ -19,7 +19,7 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Patient Support Services, the **Playbook** tab appears for an enrollment case. For more information on how to interact with a playbook, see [Interact with Playbook](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The playbook experience provides fulfillers with visibility into cross-business workflows and the actionable activities used to complete these workflows. When the playbook experience is activated with Workspace in Patient Support Services, the **Playbook** tab appears for an enrollment case. For more information on how to interact with a playbook, see Interact with Playbook.
 
 As a care coordinator with the sn\_patientservice.agent role, you can use the Patient Support Services playbook to complete all enrollment request activities for a patient. You can access the **Playbook** tab on your Workspace when an enrollment case is assigned to you. The Patient Support Services workflow populates the case data for all launched activities on the **Playbook** tab. You can select a stage in the playbook to complete the activities associated with the stage.
 

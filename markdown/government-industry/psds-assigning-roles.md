@@ -37,9 +37,9 @@ Create users and groups
 
 </td><td>
 
--   [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   [Add a user to a group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Create a user.
+-   Create a user group.
+-   Add a user to a group.
 
 </td></tr><tr><td>
 
@@ -47,8 +47,8 @@ Assign roles to users and groups
 
 </td><td>
 
--   [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Assign a role to a user.
+-   Assign a role to a group.
 
 </td></tr></tbody>
 </table>

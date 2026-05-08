@@ -21,7 +21,7 @@ The **glide.sys.date\_format** property defines the date format. An administrato
 
 **Note:** A user can override the global date or time format with a personal preference.
 
-Modifying the **glide.sys.date\_format** property changes the date or time format globally. When modifying the standard date format, also verify the format using a [Validate date and time](https://www.servicenow.com/docs/access?context=c_ValidateDateAndTime&version=australia&pubname=australia-api-reference&ft:locale=en-US) script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception:
+Modifying the **glide.sys.date\_format** property changes the date or time format globally. When modifying the standard date format, also verify the format using a Validate date and time script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception:
 
 -   You cannot append the 'z' character to include the time zone when adding it to a script.
 -   If the resulting time zone is not three characters, an Invalid Date appears error appears when you validate the script, because the Date/Time Validation Script \(sys\_script\_validator\) fails. This failure occurs even though the script debugger shows that the content of the value meets the requirement of 'g\_user\_date\_time\_format'.
@@ -41,7 +41,7 @@ Modifying the **glide.sys.date\_format** property changes the date or time forma
 
 ## Time format
 
-An administrator can modify the **glide.sys.time\_format** property by navigating to **System Properties** &gt; **System**. Modifying the property changes the date or time format globally. When modifying the standard time format, also verify the format using a [Validate date and time](https://www.servicenow.com/docs/access?context=c_ValidateDateAndTime&version=australia&pubname=australia-api-reference&ft:locale=en-US) script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception: Appending 'z' to include the time zone is not supported.
+An administrator can modify the **glide.sys.time\_format** property by navigating to **System Properties** &gt; **System**. Modifying the property changes the date or time format globally. When modifying the standard time format, also verify the format using a Validate date and time script. You can use the same pattern strings as the [java.text.SimpleDateFormat](https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html) class, with the following exception: Appending 'z' to include the time zone is not supported.
 
 The format string consists of the following abbreviations.
 

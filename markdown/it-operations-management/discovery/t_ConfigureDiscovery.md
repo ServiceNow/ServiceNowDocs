@@ -30,7 +30,7 @@ Discovery installation and configuration
 
 ## Procedure
 
-1.  Install one or more MID Servers on physical or virtual servers that meet the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and configure them to communicate with the appropriate ServiceNow instance.
+1.  Install one or more MID Servers on physical or virtual servers that meet the MID Server system requirements and configure them to communicate with the appropriate ServiceNow instance.
 
     Install at least two MID Servers at first and assign them to different schedules and IP ranges to help complete discoveries quicker. Starting with the Istanbul release, you must make sure that the MID Server is assigned the Discovery application or the **ALL** application.
 
@@ -48,7 +48,7 @@ Discovery installation and configuration
     -   If Basic Authentication is enabled, a user name and password must be provided.
     -   The MID Server might not have outbound access on port 443 \(SSL\) or a proxy server might be preventing TCP communication to the instance.
     -   Make sure that no firewalls are blocking communication between the MID Server and the instance.
-4.  [Set the credentials](https://www.servicenow.com/docs/access?context=t_CreateCredential&version=australia&pubname=australia-platform-security&ft:locale=en-US) on the instance for all the computers, printers, and network gear in your environment.
+4.  Set the credentials on the instance for all the computers, printers, and network gear in your environment.
 
     Credentials for Windows devices \(using the WMI protocol\) are provided by the login configured for the MID Server service on the Windows server host. Credentials for UNIX, vCenter, and SNMP must be configured on the instance. Discovery automatically determines which credentials work for a particular computer or device.
 

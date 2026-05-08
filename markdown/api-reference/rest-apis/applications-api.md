@@ -26,9 +26,9 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on Configuration Data Management and the DevOps Config Workspace UI, see [Uploading your config data](https://www.servicenow.com/docs/access?context=cdm-upload-process&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on Configuration Data Management and the DevOps Config Workspace UI, see Uploading your config data.
 
-For additional information on shared components and shared libraries, see [Sharing components among applications — Component libraries](https://www.servicenow.com/docs/access?context=cdm-component-libraries&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on shared components and shared libraries, see Sharing components among applications — Component libraries.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -1356,7 +1356,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -2178,7 +2178,7 @@ Submits a request to export the current snapshot for a specified application and
 
 This endpoint returns a unique identifier for the request, which you then use to call the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/status](applications-api.md#) endpoint to retrieve the status of the export. Once the export is complete, you can use the [CdmApplicationsApi - GET /sn\_cdm/applications/deployables/exports/\{export\_id\}/content](applications-api.md#) endpoint to retrieve the associated application's configuration data.
 
-A snapshot is the complete data model of a deployable at the time a configuration change is committed. This includes any included components, collections, and vars, as well as deployable-specific vars and overrides. For additional information on deployables, see [Create and update a deployable](https://www.servicenow.com/docs/access?context=cdm-deployable-define&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+A snapshot is the complete data model of a deployable at the time a configuration change is committed. This includes any included components, collections, and vars, as well as deployable-specific vars and overrides. For additional information on deployables, see Create and update a deployable.
 
 **Note:** Snapshots cannot exceed 10,000 configuration data items \(CDIs\) per deployable or 100,000 CDIs per application.
 
@@ -2303,7 +2303,7 @@ exporterName
 
 </td><td>
 
-Required. Name of the exporter to use to export the snapshot data. Exporters are custom to the implementer. For details on creating a custom exporter, see [Create a custom exporter](https://www.servicenow.com/docs/access?context=cdm-exporter-create-custom&version=australia&pubname=australia-it-service-management&ft:locale=en-US).Data type: String
+Required. Name of the exporter to use to export the snapshot data. Exporters are custom to the implementer. For details on creating a custom exporter, see Create a custom exporter.Data type: String
 
 </td></tr><tr><td>
 
@@ -3010,7 +3010,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -3040,7 +3040,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://www.servicenow.com/docs/access?context=cdm-parsing-csv-file&version=australia&pubname=australia-it-service-management&ft:locale=en-US).Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see Parsing of CSV files in CDM.Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -3487,7 +3487,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -3541,7 +3541,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -3842,7 +3842,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -4276,7 +4276,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -4318,7 +4318,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://www.servicenow.com/docs/access?context=cdm-parsing-csv-file&version=australia&pubname=australia-it-service-management&ft:locale=en-US).Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see Parsing of CSV files in CDM.Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -4703,7 +4703,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -4757,7 +4757,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -5061,7 +5061,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -5091,7 +5091,7 @@ dataFormatAttributes
 
 </td><td id="cdm_app-dataFormAtt-entry">
 
-Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see [Parsing of CSV files in CDM](https://www.servicenow.com/docs/access?context=cdm-parsing-csv-file&version=australia&pubname=australia-it-service-management&ft:locale=en-US).Data type: Object
+Only supported when the **dataFormat** parameter is set to `csv`. Attributes that define the CSV data format. For additional information, see Parsing of CSV files in CDM.Data type: Object
 
 ```
 "dataFormatAttributes" {
@@ -5266,7 +5266,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 
@@ -5539,7 +5539,7 @@ changesetNumber
 
 </td><td>
 
-String that uniquely identifies the [changeset](https://www.servicenow.com/docs/access?context=cdm-changesets-version-control&version=australia&pubname=australia-it-service-management&ft:locale=en-US) associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
+String that uniquely identifies the changeset associated with the application, such as Chset-102. This changeset must be in the "Open" state.Data type: String
 
 Default: Creates a changeset to use. The changeset details are returned as part of the [CdmApplicationsApi - GET /sn\_cdm/applications/upload-status/\{upload\_id\}](applications-api.md#) results.
 
@@ -5603,7 +5603,7 @@ Valid values:
 -   publish\_none: Don't publish any snapshots.
 -   publish\_valid: Publish only those snapshots that pass validation after the commit.
 
-For additional information on publishing snapshots, see [Publish or unpublish a snapshot](https://www.servicenow.com/docs/access?context=cdm-snapshot-publish&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on publishing snapshots, see Publish or unpublish a snapshot.
 
 Data type: String
 

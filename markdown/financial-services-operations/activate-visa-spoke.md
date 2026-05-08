@@ -23,7 +23,7 @@ Role required: admin
 
 2.  To customize the connection configuration, access the connection settings in **Flow Designer** &gt; **Connections** and select **Visa**.
 
-    For more information on how to update the connection configuration, see [Visa Spoke](https://www.servicenow.com/docs/access?context=visa-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on how to update the connection configuration, see Visa Spoke.
 
 
 **Parent Topic:**[Configuring Financial Services Operations Integration with Visa](configuring-financial-services-operations-integration-with-visa.md)

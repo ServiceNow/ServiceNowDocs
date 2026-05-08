@@ -21,7 +21,7 @@ Role required: sp\_admin and admin
 
 -   The App Launcher synchronization of applications from Azure is compatible only with the latest Microsoft Entra ID spoke version. Ensure that you upgrade the existing Azure AD spoke to sync the apps with your web applications.
 -   Azure AD integration enables your employees to access and manage pre-integrated apps.
--   Integrate Azure AD spoke with ServiceNow, create credential records, and create connection records as explained in [Azure AD spoke setup](https://www.servicenow.com/docs/access?context=set-up-azure&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   Integrate Azure AD spoke with ServiceNow, create credential records, and create connection records as explained in Azure AD spoke setup
 -   Understand the basics of [Azure](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/) spoke and service principals.
 -   Enable easier access to all active apps with valid entitlement in SSO without asking for login credentials.
 

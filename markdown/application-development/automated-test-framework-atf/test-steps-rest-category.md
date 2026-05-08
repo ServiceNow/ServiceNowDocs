@@ -27,7 +27,7 @@ No HTTP response validation is performed as part of this step. The step fails if
 
 You cannot use this step to send a request to another instance or third party/remote address.
 
-These inputs are for the REST API Explorer. The fields you see depend upon the API selected. For more information on using REST APIs on your instance, see [REST APIs](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+These inputs are for the REST API Explorer. The fields you see depend upon the API selected. For more information on using REST APIs on your instance, see REST APIs.
 
 <table id="table_bdv_bn1_xy"><thead><tr><th>
 
@@ -102,7 +102,7 @@ No HTTP response validation is performed as part of this step. The step fails if
 
 You cannot use this step to send a request to another instance or third party/remote address.
 
-For more information on using REST APIs, see the [REST APIs](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information on using REST APIs, see the REST APIs.
 
 <table id="table_gny_jkd_yy"><thead><tr><th>
 
@@ -192,7 +192,7 @@ Mutual authentication
 
 </td><td>
 
-An X.509 certificate for mutual authentication. You must create or select a client certificate to assign to test steps to avoid authentication issues when running the test. For more information, see [Set up Certificate-based authentication](https://www.servicenow.com/docs/access?context=set-up-mutual-auth&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+An X.509 certificate for mutual authentication. You must create or select a client certificate to assign to test steps to avoid authentication issues when running the test. For more information, see Set up Certificate-based authentication.
 
 </td></tr><tr><td>
 
@@ -941,7 +941,7 @@ SNC path to the element to be evaluated. For example, `/result/short_description
 }
 ```
 
- See [Importing JSON files](https://www.servicenow.com/docs/access?context=json-data-source-examples&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+ See Importing JSON files for more information.
 
 </td></tr><tr><td>
 

@@ -19,5 +19,5 @@ Alternative ports and resource pools aren't managed by ServiceNow ServiceNow dir
 
 In many environments, security teams block the standard ports, and vCenter/ESXi services run on custom ports. You must configure Discovery for these alternate ports, or it will fail. For more information, see [Configure an alternate port for vCenter](../task/t_ConfigureAlternatePortForVCenter.md) and [Configure ESXi resource pools](../task/t_ConfigureESXResourcePools.md)
 
-**Note:** Applications that access VMware cloud resources need access to VMware credentials. For more infomration, see [VMware credentials](https://www.servicenow.com/docs/access?context=r_VMwareCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** Applications that access VMware cloud resources need access to VMware credentials. For more infomration, see VMware credentials.
 

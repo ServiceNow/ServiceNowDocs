@@ -17,7 +17,7 @@ The ConnectionInfo API enables you to get connection attribute information throu
 
 You can use this API in scoped applications or within the global scope. In scoped scripts, use the `sn_cc` namespace identifier.
 
-For more information on connections and credentials, see [Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on connections and credentials, see Credentials and connection information.
 
 This function retrieves connection attribute information identified by the given connection and credential alias.
 

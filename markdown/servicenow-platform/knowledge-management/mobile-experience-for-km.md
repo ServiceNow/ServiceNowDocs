@@ -19,11 +19,11 @@ To access articles from the Information applet on the Now Mobile app, you must f
 
 ![Now Mobile Information applet](../image/km-articles.png "Now Mobile Information applet")
 
-Make sure your administrator has activated the Now Mobile app. For more information, see [Now Mobile app](https://www.servicenow.com/docs/access?context=mobile-employee-experience&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Make sure your administrator has activated the Now Mobile app. For more information, see Now Mobile app.
 
 After you access an article, you can view the author, published date, number of views, and the overall rating details of the article. In addition, you can respond to and evaluate articles and view related items, related articles, and attachments.
 
-Using Now Mobile app, even external users can access and provide feedback to the knowledge articles. For more information about external user functionalities and capabilities, see [Mobile external users](https://www.servicenow.com/docs/access?context=external-user-mobile&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Using Now Mobile app, even external users can access and provide feedback to the knowledge articles. For more information about external user functionalities and capabilities, see Mobile external users.
 
 ## Activation information
 
@@ -45,9 +45,9 @@ You can contribute to feedback on knowledge articles by rating an article, marki
 **Related topics**  
 
 
-[Configure knowledge bases](https://www.servicenow.com/docs/access?context=configure-kbs&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[bundle-emplsm.configure-kbs]
 
-[Now Mobile app](https://www.servicenow.com/docs/access?context=mobile-employee-experience&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[bundle-emplsm.mobile-employee-experience]
 
 [View the most popular or recently viewed articles in the Now Mobile Information applet](../task/access-articles-now-mobile.md)
 

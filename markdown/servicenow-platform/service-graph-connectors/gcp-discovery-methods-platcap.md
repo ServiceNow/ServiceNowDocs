@@ -38,12 +38,12 @@ Discovery and Service Mapping Patterns and Visibility Content
 
 </td><td>
 
-[Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+Discovery patterns used by ITOM Visibility
 
 </td><td>
 
 -   You must update your store apps to the latest release version.
--   You must provide ITOM Visibility with access permissions. For more information, see [Set up Google Cloud Platform service accounts](https://www.servicenow.com/docs/access?context=set-up-gcp-service-accounts&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   You must provide ITOM Visibility with access permissions. For more information, see Set up Google Cloud Platform service accounts
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Service Graph Connector for GCP
 
 The CI class, in most cases, is applicable to both solutions. If it's not applicable to one of the solutions, the solution is marked "N/A".
 
-If an entry is marked with one asterisk, the resource type is supported by Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://www.servicenow.com/docs/access?context=gcp-resource-inventory-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+If an entry is marked with one asterisk, the resource type is supported by Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see Google Cloud Platform \(GCP\) resource inventory discovery with Patterns.
 
 If an entry is marked with two asterisks, the resource type is supported by Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 
@@ -206,7 +206,7 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |storage.googleapis.com/Bucket|Yes|N/A|cmdb\_ci\_cmp\_resource|
 |storage.k8s.io/storageclass|Yes\*|Yes\*\*|cmdb\_ci\_cmp\_resource|
 
-\* These resource types are supported in Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://www.servicenow.com/docs/access?context=gcp-resource-inventory-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+\* These resource types are supported in Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see Google Cloud Platform \(GCP\) resource inventory discovery with Patterns.
 
 \*\* These resource types are supported in Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 

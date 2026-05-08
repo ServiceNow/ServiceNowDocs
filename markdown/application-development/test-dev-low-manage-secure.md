@@ -19,23 +19,23 @@ Secure your ServiceNow apps.
 
 </td><td>
 
-[Edge Encryption ![Edge Encryption.](../image/BUS_64px_Security_YG.png) Encrypt sensitive data on your company premises before sending it over the Internet.](https://www.servicenow.com/docs/access?context=edge-encryption&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Edge Encryption ![Edge Encryption.](../image/BUS_64px_Security_YG.png) Encrypt sensitive data on your company premises before sending it over the Internet.
 
 </td><td>
 
-[UI Policies ![UI Policies.](../image/icon-log.png) Dynamically change the behavior of information on a form and control custom process flows for tasks.](https://www.servicenow.com/docs/access?context=t_CreateAUIPolicy&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+UI Policies ![UI Policies.](../image/icon-log.png) Dynamically change the behavior of information on a form and control custom process flows for tasks.
 
 </td></tr><tr><td>
 
-[Roles ![Roles.](../image/icon-roles-screen.png) Control access to features and capabilities in applications and modules.](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Roles ![Roles.](../image/icon-roles-screen.png) Control access to features and capabilities in applications and modules.
 
 </td><td>
 
-[Access Control ![Access Control.](../image/icon-access-control.png) Control which Customer Service and Support employees can access your instance, and when.](https://www.servicenow.com/docs/access?context=c_SNCAccessControl&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Access Control ![Access Control.](../image/icon-access-control.png) Control which Customer Service and Support employees can access your instance, and when.
 
 </td><td>
 
-[Users and Groups ![Users and Groups.](../image/icon-users-groups.png) Manage the individuals who can access your instance by defining them as users in the system.](https://www.servicenow.com/docs/access?context=c_UserAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Users and Groups ![Users and Groups.](../image/icon-users-groups.png) Manage the individuals who can access your instance by defining them as users in the system.
 
 </td></tr></tbody>
 </table>

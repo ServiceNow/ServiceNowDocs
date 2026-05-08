@@ -136,7 +136,7 @@ v6.0, v5.0, v4.0
     -   Deps.dev is an open-source API that provides a version list for a given package or library and identifies components that are in **Stale** and **Abandoned** states.
 See [Configuring the Deps.dev, OSV.dev, and PaCE integrations for Software Bill of Materials](vr-sbom-config-osv-deps.md) for more information.
 
-See [Integrating PaCE with other applications](https://www.servicenow.com/docs/access?context=pace-integrate-other-apps&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information about PaCE and PaCE policies.
+See Integrating PaCE with other applications for more information about PaCE and PaCE policies.
 
 
 </td><td>

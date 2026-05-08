@@ -38,7 +38,7 @@ NLQ doesn't support domain separation. It also doesn't support on-premise instan
 
 NLQ supports American English by default. For all applications and features except CMDB, NLQ also supports queries in Spanish, French, French Canadian, German, and Japanese.
 
-You must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must first activate the languages on your instance for NLQ to parse queries in those languages. For more information, see Activate a language.
 
 ## Using NLQ in other applications and features
 
@@ -58,7 +58,7 @@ Analytics Q &amp; A
 
 </td><td>
 
-[Create a report with Analytics Q&amp;A](https://www.servicenow.com/docs/access?context=t_CreateYourOwnReport&version=australia&pubname=australia-now-intelligence&section=create-report-nlq&ft:locale=en-US)
+Create a report with Analytics Q&amp;A
 
 </td></tr><tr><td>
 
@@ -66,8 +66,8 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-Query your CMDB data without needing to know table relationships or data structures.-   [Querying the CMDB](https://www.servicenow.com/docs/access?context=querying-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Intelligent Search for CMDB](https://www.servicenow.com/docs/access?context=intelligent-search-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Query your CMDB data without needing to know table relationships or data structures.-   Querying the CMDB
+-   Intelligent Search for CMDB
 
 English is the only supported language for CMDB.
 
@@ -77,7 +77,7 @@ NLQ with AI Search in global search
 
 </td><td>
 
-[NLQ Genius Results](https://www.servicenow.com/docs/access?context=genius-result-nlq-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) in AI Search \(supports English only\)
+NLQ Genius Results in AI Search \(supports English only\)
 
 </td></tr><tr><td>
 

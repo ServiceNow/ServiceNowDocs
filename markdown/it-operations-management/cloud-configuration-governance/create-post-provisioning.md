@@ -59,7 +59,7 @@ Script: Enter the name of the script.
     -   Interface Operation
 -   Flow: Select a subflow. All active subflows in the instance are listed.
 
-**Note:** For more information, see [Subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+**Note:** For more information, see Subflows.
 
 </td></tr><tr><td>
 

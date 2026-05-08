@@ -16,11 +16,11 @@ The ServiceNow® Predictive Intelligence application enables you to create and t
 
 A new Predictive Intelligence Usage Analytics dashboard provides you with actionable insights into model performance, user engagement, adoption trends, and product health.
 
-See [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See Predictive Intelligence for more information.
 
 ## New in the Australia release
 
--   **[Predictive Intelligence Usage Analytics dashboard](https://www.servicenow.com/docs/access?context=predictive-intel-usage-analytics&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Predictive Intelligence Usage Analytics dashboard**
 
     Usage Analytics dashboard is a central location to understand the adoption, effectiveness, and overall value of all your Predictive Intelligence solutions. Dashboard widgets offer several metrics such as total monthly count of predictions per solution type.
 
@@ -31,15 +31,15 @@ Predictive Intelligence is a ServiceNow AI Platform feature that is active by de
 
 ## Related ServiceNow applications and features
 
--   **[Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Document Intelligence**
 
     Document Intelligence is an artificial intelligence solution that enables any organization to automate and accelerate the process of extracting data from documents.
 
--   **[Task Intelligence](https://www.servicenow.com/docs/access?context=task-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Task Intelligence**
 
     Task Intelligence uses machine learning to train solutions with your data and achieve important outcomes.
 
--   **[ServiceNow® apps and features that use Predictive Intelligence](https://www.servicenow.com/docs/access?context=servicenow-apps-features-use-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow® apps and features that use Predictive Intelligence**
 
     Prebuilt Predictive Intelligence solutions tailored to specific BUs are available in apps across the ServiceNow AI Platform.
 

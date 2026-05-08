@@ -93,7 +93,7 @@ Source of information when users perform a search in the workspace. You can reus
 -   Dark mode.
 **Note:** AI Search must be enabled for your instance to select an AI Search profile.
 
-For more information, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see AI Search.
 
 </td></tr><tr><td>
 

@@ -33,15 +33,15 @@ Role required: sn\_si.admin
 
 5.  In the dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d275693e158">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d275689e158">
 
 Field
 
-</th><th align="left" id="d275693e161">
+</th><th align="left" id="d275689e161">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d275693e167">
+</th></tr></thead><tbody><tr><td id="d275689e167">
 
 **Name**
 
@@ -49,7 +49,7 @@ Description
 
 Name of the Secureworks CTP instance used for the integration. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d275693e182">
+</td></tr><tr><td id="d275689e182">
 
 **Description**
 
@@ -57,7 +57,7 @@ Name of the Secureworks CTP instance used for the integration. You can enter onl
 
 Enter a description for the user account.
 
-</td></tr><tr><td id="d275693e191">
+</td></tr><tr><td id="d275689e191">
 
 **Username**
 
@@ -69,7 +69,7 @@ Enter the username for the Secureworks CTP API account. Note that the username i
 -   Navigate to **Account** &gt; **Account Management** &gt; **API Credentials**. The username is displayed on the API Credential page.
 
 
-</td></tr><tr><td id="d275693e229">
+</td></tr><tr><td id="d275689e229">
 
 **API Password**
 

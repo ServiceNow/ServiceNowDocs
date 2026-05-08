@@ -23,13 +23,13 @@ Role required: sn\_devops\_config.admin
 
 ## About this task
 
-You can use or customize default DevOps Config policies to validate that your config data content is compliant, or [write and test custom DevOps Config policies](https://www.servicenow.com/docs/access?context=pace-write-test-policies&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+You can use or customize default DevOps Config policies to validate that your config data content is compliant, or write and test custom DevOps Config policies.
 
 ## Procedure
 
 1.  In the **Admin** view, select the **Policies** tab.
 
-2.  Select a default policy or select **New** to [create a policy](https://www.servicenow.com/docs/access?context=pace-create-policy&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+2.  Select a default policy or select **New** to create a policy.
 
 3.  Enter the policy name, category, and a description for the policy and select **Save**.
 
@@ -41,5 +41,5 @@ You can use or customize default DevOps Config policies to validate that your co
 
 [Default DevOps Config policies](../reference/devops-config-default-policies.md)
 
-[How to write and test custom PaCE policies](https://www.servicenow.com/docs/access?context=pace-write-test-policies&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.pace-write-test-policies]
 

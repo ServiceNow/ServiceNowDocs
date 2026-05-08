@@ -54,7 +54,7 @@ Workflow is a legacy application that provided a drag-and-drop interface for aut
 
  -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Workflow API reference](https://www.servicenow.com/docs/access?context=c_WorkflowScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   Workflow API reference
 -   [Using variables in a workflow](../../using-workflows/concept/c_UsingVariablesInAWorkflow.md#)
 
 </td><td>

@@ -18,7 +18,7 @@ Request the contextual generative AI capabilities, such as a case summary, in th
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Make sure that Next Experience is enabled in the instance. For more information, see Next Experience UI.
 
 Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispute\_manager, sn\_bom\_credit\_card.dispute\_viewer, sn\_bom\_credit\_card.contributor, sn\_bom.b2c\_agent, sn\_bom.b2b\_agent, sn\_bom.adjuster, sn\_bom.fnol\_representative
 
@@ -28,7 +28,7 @@ Role required: sn\_bom\_credit\_card.dispute\_agent, sn\_bom\_credit\_card.dispu
 
 You can use the Now Assist panel in Financial Services Workspace to request a case summary.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about the Now Assist panel, see Now Assist panel. For information about activating the Now Assist panel, see Activate the Now Assist panel standard chat.
 
 ## Procedure
 

@@ -27,15 +27,15 @@ Use the **Chart options** button to specify what information to analyze and how 
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://www.servicenow.com/docs/access?context=pa-targets&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        Goals your organization wants to achieve. See Indicator targets.
 
     -   **Threshold**
 
-        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://www.servicenow.com/docs/access?context=pa-threshold&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See Indicator thresholds.
 
     -   **Forecast**
 
-        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://www.servicenow.com/docs/access?context=c_ForecastingData&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        Describes the ability to forecast future scores based on past behavior. See Performance Analytics scores forecasts.
 
     -   **Trend**
 
@@ -71,7 +71,7 @@ Use the **Chart options** button to specify what information to analyze and how 
 
 -   **Chart type**
 
-    Select a chart type to control how the information your selected is visualized. See [Use cases for different time series visualization types](https://www.servicenow.com/docs/access?context=time-series-visualization-types&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    Select a chart type to control how the information your selected is visualized. See Use cases for different time series visualization types.
 
 
 ## All Records table

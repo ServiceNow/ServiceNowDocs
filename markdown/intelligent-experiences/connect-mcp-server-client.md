@@ -51,7 +51,7 @@ For each client that you want to access servers on an instance, create an OAuth 
 
 6.  On the form, fill in the required fields.
 
-    For more information about this form, see [Configure an OAuth authorization code grant](https://www.servicenow.com/docs/access?context=configure-an-oauth-authorization-code-grant&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more information about this form, see Configure an OAuth authorization code grant.
 
 <table id="table_acq_zq2_hhc"><thead><tr><th>
 

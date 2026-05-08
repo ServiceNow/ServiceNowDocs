@@ -220,7 +220,7 @@ Size of a file, expressed in bytes. Field available on following command: Set fi
 
 </td><td>
 
-MID Server with the appropriate [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US) for connecting to the source and target servers.
+MID Server with the appropriate MID Server capabilities for connecting to the source and target servers.
 
 </td></tr></tbody>
 </table>    The system uses this logic to determine which files to move from the source host:
@@ -602,7 +602,7 @@ String
 
 </td><td>
 
-[Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) used to run the command on the source host.
+Credential aliases for Orchestration activities used to run the command on the source host.
 
 </td></tr><tr><td>
 
@@ -875,7 +875,7 @@ Credential tag for source
 
 </td><td>
 
-Specific [Credential aliases for Orchestration activities](https://www.servicenow.com/docs/access?context=c_AssignCredsOrchActivities&version=australia&pubname=australia-platform-security&ft:locale=en-US) this activity must use to run SFTP commands on the source host.
+Specific Credential aliases for Orchestration activities this activity must use to run SFTP commands on the source host.
 
 </td><td>
 
@@ -1045,7 +1045,7 @@ Required MID Server capabilities
 
 </td><td>
 
-MID Server with the appropriate [MID Server capabilities](https://www.servicenow.com/docs/access?context=t_ConfigureCapabilities&version=australia&pubname=australia-servicenow-platform&section=r_MIDServerCapabilities&ft:locale=en-US) for connecting to the source and target servers. By default, the system selects an SSH MID Server.
+MID Server with the appropriate MID Server capabilities for connecting to the source and target servers. By default, the system selects an SSH MID Server.
 
 </td><td>
 

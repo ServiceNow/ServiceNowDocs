@@ -19,7 +19,7 @@ Monitor aggregated catalog item data like fulfillment automation coverage, trans
 
 You can access the aggregated catalog item data graphs in the Service Catalog Overview dashboard by navigating to **All &gt; Service Catalog &gt; Service Catalog Overview** if you have the catalog\_admin role.
 
-The Catalog item translation coverage graph is displayed only if you have enabled the Localization framework. For more information, see [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The Catalog item translation coverage graph is displayed only if you have enabled the Localization framework. For more information, see Localization Framework.
 
 |Graph|Description|
 |-----|-----------|

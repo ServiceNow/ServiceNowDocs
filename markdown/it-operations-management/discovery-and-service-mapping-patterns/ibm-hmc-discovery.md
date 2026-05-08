@@ -50,7 +50,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Configure SSH credentials**
 
-    Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Configure SSH credentials on the ServiceNow AI Platform. For more information, see SSH credentials.
 
 -   **Run a horizontal discovery for HMC Server and LPARs**
 

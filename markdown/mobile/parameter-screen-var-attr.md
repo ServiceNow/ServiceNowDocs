@@ -629,7 +629,7 @@ Use ranking inputs to enable your users to sort the available choices in order o
 
 ## Reference inputs
 
-Use reference inputs for inputs that reference a field on a table. These inputs work like [reference fields](https://www.servicenow.com/docs/access?context=c_ReferenceField&version=australia&pubname=australia-platform-administration&ft:locale=en-US) in the forms on your instance. You can configure your reference input with conditions, reference qualifiers, and a search option to help your users find what they need quickly.
+Use reference inputs for inputs that reference a field on a table. These inputs work like reference fields in the forms on your instance. You can configure your reference input with conditions, reference qualifiers, and a search option to help your users find what they need quickly.
 
 The optional search option uses "For text" keyword searches and can search for elements within the mobile view.
 
@@ -649,7 +649,7 @@ The following additional attributes are optional:
 |**MobileViewId**|Mobile view ID \(View config\) to use for reference list items​.|
 |**EnableSearch**|Option to display the search bar. The value must be **true** or **false**.|
 |**SearchPlaceholder**|Text that appears in a search bar as a placeholder.|
-|**Conditions**|Enter an encoded query to apply conditions to your reference list. For details on creating these queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).|
+|**Conditions**|Enter an encoded query to apply conditions to your reference list. For details on creating these queries, see Encoded query strings.|
 |**SearchType**|Defines the query used for search. The value can be `starts_with` or `contains`. If this attribute isn’t configured, the instance uses **starts\_with** by default on the display label column.|
 
 This example creates an input form screen input for the **Assigned to** field on the Incident \[incident\] table. To create this input, you use the three required attributes: **TargetTable**, **SourceTable**, and **SourceFieldName**.

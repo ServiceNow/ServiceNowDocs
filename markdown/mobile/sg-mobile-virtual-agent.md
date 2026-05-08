@@ -17,7 +17,7 @@ Give your users the ability to chat with a virtual agent through a ServiceNow mo
 
 Role required: admin
 
-To include virtual agent functionality in your mobile applications, you first must activate and configure Virtual Agent. For details on this process see [Planning and configuring Virtual Agent](https://www.servicenow.com/docs/access?context=configure-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To include virtual agent functionality in your mobile applications, you first must activate and configure Virtual Agent. For details on this process see Planning and configuring Virtual Agent.
 
 ## Procedure
 

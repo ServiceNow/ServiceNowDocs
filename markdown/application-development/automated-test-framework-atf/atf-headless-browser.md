@@ -23,7 +23,7 @@ If you are an on-premise instance user, you must continue using the Headless Bro
 
 ServiceNow customers use Automated Test Framework \(ATF\) to test applications and instances. When developing in the ServiceNow platform, ATF ensures that your changes have both the desired behavior and don’t break existing features.
 
-Since the ServiceNow Orlando release, customers can automate the testing and deployment of their applications via the [Continuous Integration/Continuous Delivery \(CI/CD\) API](https://www.servicenow.com/docs/access?context=cicd-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Since the ServiceNow Orlando release, customers can automate the testing and deployment of their applications via the Continuous Integration/Continuous Delivery \(CI/CD\) API.
 
 ## Overview of Headless Browser
 

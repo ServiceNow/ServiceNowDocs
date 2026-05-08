@@ -50,7 +50,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 ## What to do next
 
--   Assess the risks that have been added. For more information, see [Assign project risks to stakeholders for assessment](https://www.servicenow.com/docs/access?context=assess-project-risk-using-ara&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+-   Assess the risks that have been added. For more information, see Assign project risks to stakeholders for assessment
 -   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) record to another for a project](convert-ridac-for-project.md).
 -   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC \(Risks, Issues, Actions, Decisions, and Request Changes\) records for a project](reassociate-ridac-project.md).
 

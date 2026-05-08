@@ -13,11 +13,11 @@ breadcrumb: [Set up CSM Configurable Workspace, CSM Configurable Workspace, Orga
 
 Use the ServiceNow® AI Search application with CSM Configurable Workspace.
 
-Starting with the Utah release, the [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) application replaces the Zing search application for CSM Configurable Workspace. To support this feature, the Zing search configurations have been migrated to AI Search.
+Starting with the Utah release, the AI Search application replaces the Zing search application for CSM Configurable Workspace. To support this feature, the Zing search configurations have been migrated to AI Search.
 
 Use the Unified Navigation search field in CSM Configurable Workspace to search for information. You can switch between global search results and results from the **CSM/FSM Configurable Workspace** workspace application. The different search configurations are based on different tables.
 
-For more information about using AI Search with CSM Configurable Workspace, see [AI Search for Next Experience](https://www.servicenow.com/docs/access?context=ais-next-experience-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about using AI Search with CSM Configurable Workspace, see AI Search for Next Experience.
 
 ## Search application configurations
 
@@ -50,7 +50,7 @@ Navigation tabs appear at the top of the search results page and are static filt
 -   Order Line Items
 -   Locations
 
-For information about creating navigation tabs, see [Configure navigation tabs in an AI Search application configuration](https://www.servicenow.com/docs/access?context=config-nav-tabs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about creating navigation tabs, see Configure navigation tabs in an AI Search application configuration.
 
 ## Facets
 
@@ -68,13 +68,13 @@ Facets are dynamic filter options that you can use to refine the search results 
 -   Channel
 -   Active Escalation
 
-For information about creating facets, see [Create a facet in an AI Search application configuration](https://www.servicenow.com/docs/access?context=create-facet-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For information about creating facets, see Create a facet in an AI Search application configuration.
 
 ## Guided setup
 
 Guided setup provides a sequence of tasks that helps you configure search application settings. To access guided setup, navigate to **All** &gt; **AI Search** &gt; **AI Search for Next Experience** &gt; **Guided Setup for Zing to AI Search Migration**.
 
-This guided setup tool assists with the migration of Next Experience applications from Zing to AI Search. For more information about using guided setup, see [Configuring AI Search for Next Experience](https://www.servicenow.com/docs/access?context=configuring-ais-next-experience&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+This guided setup tool assists with the migration of Next Experience applications from Zing to AI Search. For more information about using guided setup, see Configuring AI Search for Next Experience.
 
 Depending on your release, you may need to perform only some of the tasks within the guided setup to use AI Search with CSM Configurable Workspace. For Utah zBoot instances, AI Search is the default search application for global search and the CSM Configurable Workspace application.
 
@@ -118,7 +118,7 @@ After fuzzy matching is enabled, the system adminisrator needs to re-index the t
 **Related topics**  
 
 
-[Exploring AI Search](https://www.servicenow.com/docs/access?context=explore-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.explore-ais]
 
-[Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.configuring-ais]
 

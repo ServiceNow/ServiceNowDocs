@@ -64,5 +64,5 @@ If your organization is using HR skills to qualify HR case assignments, ensure t
 -   **HR Administration** &gt; **HR Services** &gt; **HR Templates**: Look at the template that corresponds to the assignment rule to see what skills, if any, are required.
 -   **HR Administration** &gt; **Manage Roles** &gt; **Manage HR Skills**: Find the HR user assigned to the case and click the **Skills: \#** button to see whether the required skill is assigned. If not, check the box to assign it, and click **Save**.
 
-Refer to [Create rules to route and assign customer service cases](https://www.servicenow.com/docs/access?context=c_CaseRouting&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for more information on matching and assignment rules.
+Refer to Create rules to route and assign customer service cases for more information on matching and assignment rules.
 

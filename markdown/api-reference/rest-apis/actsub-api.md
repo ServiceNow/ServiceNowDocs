@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The ActivitySubscriptions API provides endpoints to retrieve Activity entities from the Subscriptions and Activity Feed Framework.
 
-This API requires activation of the Subscriptions and Activity Feed Framework \(com.snc.activity\_subscriptions\) plugin. Activate the Customer Central \(com.sn\_csm\_customer\_central\) plugin to seed configuration in all required tables. For more information on customer central configuration settings, see [Configure customer central](https://www.servicenow.com/docs/access?context=configure-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+This API requires activation of the Subscriptions and Activity Feed Framework \(com.snc.activity\_subscriptions\) plugin. Activate the Customer Central \(com.sn\_csm\_customer\_central\) plugin to seed configuration in all required tables. For more information on customer central configuration settings, see Configure customer central.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -108,7 +108,7 @@ facets
 
 </td><td>
 
-Comma-separated list of sys\_ids of activity facet types to retrieve for the specified activity context.For more details on activity facets, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Comma-separated list of sys\_ids of activity facet types to retrieve for the specified activity context.For more details on activity facets, see Create facets for activity contexts.
 
 Data type: String
 
@@ -136,7 +136,7 @@ record\_id
 
 Sys\_id of a record to use when rendering dynamic facets. Located in the appropriate table for the activity type you want to retrieve.For example, if you want to fetch activities for a Case record, set this parameter to the sys\_id of the Case record in question.
 
-For more details on dynamic facets, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more details on dynamic facets, see Create facets for activity contexts.
 
 Data type: String
 
@@ -711,7 +711,7 @@ Retrieves facets configured for an activity context from the Subscriptions and A
 
 Users must have the actsub\_user or admin role to access this endpoint. Data returned is limited by user access settings.
 
-For more details on activity context facets, see [Create facets for activity contexts](https://www.servicenow.com/docs/access?context=create-facet-customer-central&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more details on activity context facets, see Create facets for activity contexts.
 
 ### URL format
 

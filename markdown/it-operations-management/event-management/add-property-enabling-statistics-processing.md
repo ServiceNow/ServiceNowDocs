@@ -41,5 +41,5 @@ Role required: evt\_mgmt\_admin
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 

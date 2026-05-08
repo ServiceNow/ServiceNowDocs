@@ -33,7 +33,7 @@ Administers Subscription Management. Allocates subscriptions, maps custom tables
 
 -   **Elevated**
 
-    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see [Elevate to a privileged role](https://www.servicenow.com/docs/access?context=t_ElevateToAPrivilegedRole&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Whether the role is an elevated role. Elevated roles aren’t assigned to users or groups, and must be used by elevation. For details, see Elevate to a privileged role.
 
     No
 

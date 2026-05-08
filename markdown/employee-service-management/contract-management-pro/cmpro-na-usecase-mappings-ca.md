@@ -104,7 +104,7 @@ Request conditions
 
 </td><td>
 
-Conditions under which the use case is applicable.For more information on using the condition builder, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Conditions under which the use case is applicable.For more information on using the condition builder, see Create a condition statement using the condition builder.
 
 </td></tr></tbody>
 </table>10. Select **Save**.

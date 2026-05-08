@@ -35,5 +35,5 @@ Role required: admin
 
 [Create security annotations for users](create-multi-sec-annotations-for-users.md)
 
-[View the Reports list](https://www.servicenow.com/docs/access?context=r_ViewTheReportsList&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.r_ViewTheReportsList]
 

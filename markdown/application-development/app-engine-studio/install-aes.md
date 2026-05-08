@@ -65,7 +65,7 @@ ServiceNow provides several additional resources on installing and administering
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) [App Engine Studio release notes](https://www.servicenow.com/docs/access?context=app-engine-studio-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) App Engine Studio release notes
 
 </td></tr><tr><td>
 

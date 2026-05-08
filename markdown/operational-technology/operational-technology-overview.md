@@ -117,9 +117,9 @@ See the [solution brief](https://www.servicenow.com/content/dam/servicenow-asset
 
     User interface that provides you with the tools you need to manage your OT data.
 
--   Service Management: [IT Service Management](https://www.servicenow.com/docs/access?context=r_ITServiceManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   Security: [Vulnerability Response](https://www.servicenow.com/docs/access?context=vuln-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US)
--   Visibility: [IT Operations Management](https://www.servicenow.com/docs/access?context=r_ITOMApplications&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   Service Management: IT Service Management
+-   Security: Vulnerability Response
+-   Visibility: IT Operations Management
 
 ## Get started
 

@@ -19,7 +19,7 @@ Use database views to join two or more tables as input for your Machine Learning
 
 Database views help expand the amount of fields your solution can use for training. By using more than one table in your ML solution definition form, you can access more input data to help enrich the solution outcome.
 
-Database views enable you to join two or more tables into one consolidated view. For this to work in an ML solution you must first create the database view. See [Database views](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Database views enable you to join two or more tables into one consolidated view. For this to work in an ML solution you must first create the database view. See Database views.
 
 Database views are supported in all four of the Predictive Intelligence capability frameworks: classification, similarity, clustering, and regression.
 

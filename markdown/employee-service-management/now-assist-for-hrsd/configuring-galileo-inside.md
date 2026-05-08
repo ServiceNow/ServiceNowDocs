@@ -25,7 +25,7 @@ Role required: admin
 
 1.  Install the Now Assist for HR - Galileo Inside \(sn\_hr\_na\_galileo\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    For information about the installation process, see Install Now Assist plugins.
 
 2.  Input your Josh Bersin credentials into your ServiceNow instance.
 

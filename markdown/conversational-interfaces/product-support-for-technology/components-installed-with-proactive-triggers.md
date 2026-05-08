@@ -15,7 +15,7 @@ breadcrumb: [Proactive Triggers reference, Proactive Triggers, Manage people and
 
 When the Proactive Triggers feature is installed, the feature includes required components, such as specific roles and tables. Admins can review these roles and tables to make sure that the feature has been installed correctly.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application Find components installed with an application.
 
 ## Roles installed with the Proactive Triggers feature
 

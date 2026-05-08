@@ -115,7 +115,7 @@ Security risk
 -   If an the instance does not have a CDN/proxy setup, either value should be fine.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+</table>To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Configuration](sc-configuration.md)
 

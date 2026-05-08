@@ -44,7 +44,7 @@ Role required: admin
 
 2.  Publish the **Employee Summary** Virtual Agent topic.
 
-    For more information, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see Publish a Virtual Agent topic.
 
 3.  View the Employee Summary reports topic.
 

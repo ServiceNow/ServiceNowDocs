@@ -31,7 +31,7 @@ Role required: admin or virtual\_agent\_admin
 
 2.  Activate Workflow Studio flows for specific actionable notifications ITSM Virtual Agent conversations.
 
-    These topics are inactive by default. For complete details about activating flows, refer to [Activate a flow](https://www.servicenow.com/docs/access?context=flow-activate&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    These topics are inactive by default. For complete details about activating flows, refer to Activate a flow.
 
     The following flows for actionable notifications must be activated if you want to use them with Actionable Notifications:
 
@@ -42,7 +42,7 @@ Role required: admin or virtual\_agent\_admin
 
     2.  Select **Activate**.
 
-3.  [Enable notifications in Virtual Agent.](https://www.servicenow.com/docs/access?context=enable-va-notifications&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+3.  Enable notifications in Virtual Agent.
 
 
 **Parent Topic:**[Setting up ITSM Virtual Agent](../concept/setting-up-itsm-va.md)

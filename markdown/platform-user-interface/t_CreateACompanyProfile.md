@@ -31,7 +31,7 @@ Much of the company information that you enter is reference information that adm
 
 3.  Select the **Primary** check box to indicate if this company is the primary company.
 
-    If needed, [configure the form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to add the **Primary** check box. Designate only one company in your system as the primary company.
+    If needed, configure the form to add the **Primary** check box. Designate only one company in your system as the primary company.
 
 4.  To upload your company logo, select **Click to add** or **Update** beside **UI16 Banner Image**.
 

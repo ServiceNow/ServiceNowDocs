@@ -65,7 +65,7 @@ Feedback definition provides you with the liberty to select how and at what poin
 
 7.  On the trigger condition form, fill in the fields.
 
-    For the description of the field values, see [Trigger Condition form for surveys](https://www.servicenow.com/docs/access?context=trigger-condition-form&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For the description of the field values, see Trigger Condition form for surveys.
 
     **Note:**
 

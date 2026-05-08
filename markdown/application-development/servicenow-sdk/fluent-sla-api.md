@@ -18,7 +18,7 @@ The Service Level Agreement API defines service level agreements \[contract\_sla
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about SLAs, see [Service Level Management](https://www.servicenow.com/docs/access?context=service-level-mgmt-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For general information about SLAs, see Service Level Management.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -230,7 +230,7 @@ Object
 
 </td><td>
 
-Encoded query conditions that control the timing of an SLA. For example, `'priority=1^state!=6'` matches tasks with a priority of 1 that aren’t in a closed state.For more information about SLA conditions, see [Create an SLA definition](https://www.servicenow.com/docs/access?context=t_CreateAnSLADefinition&version=australia&pubname=australia-it-service-management&ft:locale=en-US). For information about filter queries, see [Operators available for filters and queries](https://www.servicenow.com/docs/access?context=r_OpAvailableFiltersQueries&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Encoded query conditions that control the timing of an SLA. For example, `'priority=1^state!=6'` matches tasks with a priority of 1 that aren’t in a closed state.For more information about SLA conditions, see Create an SLA definition. For information about filter queries, see Operators available for filters and queries.
 
 Format:
 

@@ -19,7 +19,7 @@ Select the Dashboard icon ![Dashboard icon](../image/dashboard-icon-sow.png) to 
 
 Procure the ITSM Pro package subscription to get additional performance analytics features.
 
-For more information on performance analytics subscription, see [Activating your Performance Analytics subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+For more information on performance analytics subscription, see Activating your Performance Analytics subscription.
 
 You can monitor data by any of the following time aggregations.
 

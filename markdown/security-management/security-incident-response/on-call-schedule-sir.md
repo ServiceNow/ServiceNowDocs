@@ -35,7 +35,7 @@ With the On-Call Scheduling feature, you can view and manage shifts, approve or 
 
 ## Documentation for On-call Scheduling
 
-For detailed information on configuring and using On Call Scheduling features, refer to the IT Service Management [On-Call Scheduling](https://www.servicenow.com/docs/access?context=c_OnCallScheduling&version=australia&pubname=australia-it-service-management&ft:locale=en-US) documentation.
+For detailed information on configuring and using On Call Scheduling features, refer to the IT Service Management On-Call Scheduling documentation.
 
 **Parent Topic:**[Configuring SIR Workspace](../reference/configuring-security-incident-response-workspace.md)
 

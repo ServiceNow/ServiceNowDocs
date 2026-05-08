@@ -32,7 +32,7 @@ Search is available for the following:
 -   Success objectives
 -   Success outcomes
 
-For more details on how to enable AI search and create search contexts, see [Configuring AI search in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-configuring-ai-search&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more details on how to enable AI search and create search contexts, see Configuring AI search in Recommended Actions.
 
 **Parent Topic:**[Customer success](account-lifecycle-use-cust-success.md)
 

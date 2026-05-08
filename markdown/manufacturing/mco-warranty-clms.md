@@ -31,7 +31,7 @@ Use the following to configure, use, and manage recall campaigns in MCO.
 Review the entities and relationships within the [Repair claims data model](../reference/repair-claims.md), including tables added or modified by the repair claim plugin.
 
 1.  Configure repair claims: Complete the following tasks to set up the repair claims in your environment.
-    1.  Install Manufacturing repair claim management \[sn\_repr\_claim\_mgmt\]: [Installing applications, plugins, and products](https://www.servicenow.com/docs/access?context=installing-apps-app-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    1.  Install Manufacturing repair claim management \[sn\_repr\_claim\_mgmt\]: Installing applications, plugins, and products.
     2.  Set up product models and parts: [Configuring product models](mco-product-models.md).
     3.  Set up assets and install base items: [Configuring assets](mco-assets.md) and [Create an install base item](mco-create-install-base-item.md).
     4.  Set up dealer hierarchy: [Create a channel partner](../task/mco-create-channel-partner.md) and [Create an internal business location](../task/mco-create-internal-business-location.md).

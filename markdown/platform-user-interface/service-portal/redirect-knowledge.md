@@ -21,13 +21,13 @@ Role required: admin
 
 ## About this task
 
-The **Knowledge Article View** page route map routes the **kb\_article** page to the **kb\_article\_view** page. By default, users with the public role cannot access the **kb\_article\_view** page. However, your administrator can modify this behavior. For more information, see [Enable external or public users to view knowledge articles from the Knowledge Management Service Portal](https://www.servicenow.com/docs/access?context=make-knowledge-visible-to-public&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The **Knowledge Article View** page route map routes the **kb\_article** page to the **kb\_article\_view** page. By default, users with the public role cannot access the **kb\_article\_view** page. However, your administrator can modify this behavior. For more information, see Enable external or public users to view knowledge articles from the Knowledge Management Service Portal.
 
 After activating the **Knowledge Article View** page route map, you can:
 
--   [Comment on a knowledge article](https://www.servicenow.com/docs/access?context=comment-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Create an article version by importing a Word document](https://www.servicenow.com/docs/access?context=upload-new-version-article&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Create a version of a knowledge article from a managed document](https://www.servicenow.com/docs/access?context=t_ViewKnowledgeLinkedToADocument&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Comment on a knowledge article
+-   Create an article version by importing a Word document
+-   Create a version of a knowledge article from a managed document
 
 ## Procedure
 

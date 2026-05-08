@@ -17,7 +17,7 @@ You can find alerts similar to the alert currently being investigated. Save trou
 
 ## Before you begin
 
-Ensure that the Predictive Intelligence plugin is activated. To activate this plugin, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Ensure that the Predictive Intelligence plugin is activated. To activate this plugin, see Activate a plugin.
 
 Ensure that the `evt_mgmt.similarity_use_ml` property is set to `true`.
 

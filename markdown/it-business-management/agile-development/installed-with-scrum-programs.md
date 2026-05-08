@@ -15,7 +15,7 @@ breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strate
 
 Understand the roles, tables, business rules, and UI macros that are installed when you activate the Scrum Programs plugin.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Roles installed with Scrum Programs
 

@@ -166,9 +166,9 @@ Repeat steps 10–13 as needed for each reference field you want to filter on. A
 **Related topics**  
 
 
-[Reference field type](https://www.servicenow.com/docs/access?context=c_ReferenceField&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ReferenceField]
 
 [Creating Interactive Filters of different types](../reference/r_AvailableHomepagePublisherTypes.md)
 
-[Add related list conditions](https://www.servicenow.com/docs/access?context=create-related-list-query&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.create-related-list-query]
 

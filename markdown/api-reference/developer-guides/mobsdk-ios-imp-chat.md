@@ -47,7 +47,7 @@ func startChat() {
 }
 ```
 
-Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Before you can leverage the chat functionality within your application, you must configure Virtual Agent within your ServiceNow instance. For details, see Virtual Agent.
 
 ## Theme the chat user interface
 

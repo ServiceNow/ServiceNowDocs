@@ -35,7 +35,7 @@ Each inbound procurement scenario is handled by a dedicated SpendInt endpoint un
 |Shipment updates|Send shipping and delivery status for orders|`POST /sn_spend_intg/spendint/shipment`|
 |Invoice ingestion|Send invoice data generated in third-party external systems into ServiceNow|`POST /sn_spend_intg/spendint/invoice`|
 
-For details about individual APIs, request payloads, and field mappings, see [Spendint API](https://www.servicenow.com/docs/access?context=spendint-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For details about individual APIs, request payloads, and field mappings, see Spendint API.
 
 ## How SpendInt APIs process data
 

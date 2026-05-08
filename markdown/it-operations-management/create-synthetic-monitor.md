@@ -18,7 +18,7 @@ Create or edit a synthetic monitor to test the availability and performance of y
 -   A configuration item \(CI\) for the endpoint you want to test.
 -   If you're testing private endpoints or want to run the monitors from your environment, one or more locations must be created to host the monitor. To create a location, see [Create synthetic monitoring locations](create-synthetic-monitoring-locations.md).
 
-**Note:** For information about how to bulk create synthetic monitors, see the [Synthetic Monitoring Developer Guide](https://www.servicenow.com/docs/access?context=synth-monitor_dev-guide&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+**Note:** For information about how to bulk create synthetic monitors, see the Synthetic Monitoring Developer Guide.
 
 Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.synthetics\_admin
 

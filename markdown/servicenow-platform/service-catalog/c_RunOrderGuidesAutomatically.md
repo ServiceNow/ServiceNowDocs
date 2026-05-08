@@ -24,5 +24,5 @@ For example, you can run an order guide to fulfill HR onboarding requests, passi
 **Related topics**  
 
 
-[Service Catalog API](https://www.servicenow.com/docs/access?context=c_ServiceCatalogAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_ServiceCatalogAPI]
 

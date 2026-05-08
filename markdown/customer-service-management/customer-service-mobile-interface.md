@@ -19,7 +19,7 @@ Activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) to use the a
 
 **Note:** The Customer Service Management mobile application supports product cases.
 
-For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Activate a plugin.
 
 ![Customer service mobile launcher screen that displays the agent's cases needing attention and cases that are new, active, and active critical.](../image/csm-mobile-agent.png "Customer Service mobile application applet launcher for agent")
 
@@ -64,7 +64,7 @@ Once the Customer Service Management mobile application is activated and configu
 
 **Note:** You can activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) from the Customer Service Management guided setup.
 
-For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Activate a plugin.
 
 -   **[CSM application overview](../reference/customer-service-mobile-overview.md)**  
 Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
@@ -76,5 +76,5 @@ Use the ServiceNow Agent mobile app to access the Customer Service mobile applic
 **Related topics**  
 
 
-[Getting started with ServiceNow Agent](https://www.servicenow.com/docs/access?context=mobile-experience&version=australia&pubname=australia-mobile&ft:locale=en-US)
+[bundle-mobile.mobile-experience]
 

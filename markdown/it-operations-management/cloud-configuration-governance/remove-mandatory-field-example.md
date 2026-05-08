@@ -63,7 +63,7 @@ The goal of this example is to hide the Cost Center field on the catalog form wh
         |-----|------------------------|-----------|
         |Operand|UserGroup|This value is the User Group field that the user selects.|
         |Operator|--None--|Keep this value **--None--** because this condition is the only condition you need to configure. If you add more conditions, you can select another operator to determine how the system evaluates this condition in relation to the others.|
-        |Value|287ee6fea9fe198100ada7950d0b1b73|This value is the Sys ID of the Database user group, which is provided as part of the demo data in your instance. See [Sys ID](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.|
+        |Value|287ee6fea9fe198100ada7950d0b1b73|This value is the Sys ID of the Database user group, which is provided as part of the demo data in your instance. See Sys ID for more information.|
 
     3.  Click **Submit**.
 

@@ -53,7 +53,7 @@ Valid until
 
 </td><td>
 
-Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can't exceed the value in the **Maximum exception duration \(days\)** field that you set for the policy. For more information, see [Create a policy](https://www.servicenow.com/docs/access?context=t_DefineAPolicy&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+Date that the policy exception expires and the state of the vulnerable item or group changes from Deferred to Open.**Note:** The number of days that the policy exception is valid can't exceed the value in the **Maximum exception duration \(days\)** field that you set for the policy. For more information, see Create a policy.
 
 </td></tr><tr><td>
 

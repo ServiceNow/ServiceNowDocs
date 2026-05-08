@@ -18,7 +18,7 @@ Pull Workday learning tasks or to-dos on regular scheduled basis or on manual ba
 ## Application setup
 
 -   Activate the HR Service Delivery Integration with Workday Learning application from ServiceNow Store. This automatically activates the Workday HR Spoke.
--   Set up [Workday Learning Spoke](https://www.servicenow.com/docs/access?context=wd-learning-setup&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   Set up Workday Learning Spoke.
 -   Activate the HR Service Delivery Integrations Framework from ServiceNow Store. HR Service Delivery Integration with Workday Learning uses Enterprise Service Management Integrations Framework to pull tasks from Workday Learning into ServiceNow. For more information on HR Service Delivery Integrations Framework, see [Enterprise Service Management Integrations Framework](hr-integrations-framework.md).
 
 

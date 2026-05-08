@@ -37,7 +37,7 @@ Role required: Any user with an internal role can create dashboards with the inl
 
 5.  Choose **inline editor**.
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)and [Create a technical dashboard in UI Builder](create-tech-db-in-ac.md).
+    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. Creating dashboards in UI Builder is recommended for developers. For more information, see UI Builderand [Create a technical dashboard in UI Builder](create-tech-db-in-ac.md).
 
 6.  Give the dashboard a meaningful name and description.
 

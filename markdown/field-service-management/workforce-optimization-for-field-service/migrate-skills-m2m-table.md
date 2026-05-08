@@ -29,7 +29,7 @@ In the Field Service Management application, the work order task assignments don
 
 ## Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following settings.
+1.  Add a system property with the following settings.
 
 <table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d59545e84">
 

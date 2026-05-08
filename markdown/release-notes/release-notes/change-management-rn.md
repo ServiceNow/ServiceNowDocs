@@ -19,23 +19,23 @@ The ServiceNow® Change Management application provides a systematic approach to
 -   Configure change templates with a specific change model.
 -   Use change templates to manage the change request creation process.
 
-See [Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information.
+See Change Management for more information.
 
 ## New in the Australia release
 
--   **[Granular admin role](https://www.servicenow.com/docs/access?context=installed-with-cm-itsm-roles&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Granular admin role**
 
     Assign the single feature-specific granular sn\_change\_admin role to users to grant permission to configure Change Management features and system properties. This role replaces the previous general admin and ITIL roles. The sn\_change\_admin role includes the sn\_change\_writer, change\_manager, and sn\_change\_cab.cab\_manager roles.
 
--   **[Exclude change request records from conflict check](https://www.servicenow.com/docs/access?context=configure-conflict-properties&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Exclude change request records from conflict check**
 
     Exclude change requests from the conflict check process by setting the **Exclude from conflict detection** field to true. This setting also means that the change record is not displayed as a conflicting change when conflict checker is run on other change records.
 
--   **[Create change templates](https://www.servicenow.com/docs/access?context=create-change-template&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Create change templates**
 
     Control mandatory and read-only fields for change models by configuring change templates and defining template field policies. Change templates provide baseline standardization for common changes, making changes easier to create as well as driving a higher standard of change and compliance. Similar to the concepts used for existing standard change templates, templates used for change models can be proposed, reviewed, versioned, or retired.
 
--   **[Enhanced data model for change templates](https://www.servicenow.com/docs/access?context=change-data-model&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Enhanced data model for change templates**
 
     Use the enhanced data model that supports better categorization and role-based access for change templates for all change models automatically. This feature is optional for newly created standard changes.
 

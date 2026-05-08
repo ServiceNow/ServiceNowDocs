@@ -17,7 +17,7 @@ Specify the semantic indexing configuration settings you want to apply when AI S
 
 ## Before you begin
 
-The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) is installed on your instance.
+The AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) must be active on your instance. This plugin is automatically activated when any Now Assist application is installed on your instance.
 
 Role required: ais\_admin
 
@@ -35,7 +35,7 @@ As an AI Search admin, you can perform this task to choose the fields from and i
 
 3.  In the Semantic Index Configuration related list, select **New**.
 
-    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one [Now Assist application](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) installed. Installing any Now Assist application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
+    **Note:** If you don't see the Semantic Index Configuration related list on the Indexed Source form, check with your administrator to make sure that your instance has at least one Now Assist application installed. Installing any Now Assist application activates the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\), which is required for semantic index configuration.
 
 4.  On the Semantic Index Configuration form, fill in the fields.
 

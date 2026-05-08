@@ -21,7 +21,7 @@ Display a different message to end users based on the current activity state. Yo
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see Dot-walking examples.
 
 <table id="table_ajt_sr3_plb"><thead><tr><th>
 

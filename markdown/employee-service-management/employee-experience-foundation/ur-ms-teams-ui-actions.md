@@ -20,7 +20,7 @@ The following UI actions are available by default. You can customise them to sui
 -   Start Microsoft Teams Chat
 -   Import Messages from Microsoft Teams
 
-To customise the UI actions, you must modify the form fields. For a detailed understanding of the form fields, see [UI actions](https://www.servicenow.com/docs/access?context=t_EditingAUIAction&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+To customise the UI actions, you must modify the form fields. For a detailed understanding of the form fields, see UI actions
 
 **Parent Topic:**[Manage Microsoft Teams integration for Employee Experience](c_employee_ex_mng.md)
 

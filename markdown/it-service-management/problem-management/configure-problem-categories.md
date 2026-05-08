@@ -21,7 +21,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Follow the steps in [Define an option for a choice list](https://www.servicenow.com/docs/access?context=t_ViewChoiceListDefinitions&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to enter your problem categories.
+1.  Follow the steps in Define an option for a choice list to enter your problem categories.
 
 
 **Parent Topic:**[Configure the problem form](problem-configure-forms.md)

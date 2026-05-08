@@ -25,7 +25,7 @@ The support level is Basic but has some exceptions or special conditions.
 
 Sample use case: When an SP uses chat to respond to a tenant-customer’s message, the client must be able to see the SP's response.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 \*All components of Service Portfolio Management \(SPM\) and Service Owner Workspace \(SOW\) are domain-separated in releases of New York and forward. If using Financial Management for the SPM plugin for estimated spend, there can be only one fiscal calendar defined per instance. When this plugin is activated, there can be only one approach for service offering cost modeling per instance \(using either the Financial Management engine or local data. Different domains cannot choose their own spend model.
 
@@ -34,5 +34,5 @@ For more information on support levels, see [Application support for domain sepa
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

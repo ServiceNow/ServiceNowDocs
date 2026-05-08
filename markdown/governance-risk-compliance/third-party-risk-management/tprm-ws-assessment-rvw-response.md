@@ -116,15 +116,15 @@ Select the check box to add an **External comment** for the third party.
 </td></tr></tbody>
 </table>5.  After you review the assessment and add comments, perform one of the following steps.
 
-<table id="choicetable_yxv_pmr_5mb"><thead><tr><th align="left" id="d141862e267">
+<table id="choicetable_yxv_pmr_5mb"><thead><tr><th align="left" id="d141858e267">
 
 Choice
 
-</th><th align="left" id="d141862e270">
+</th><th align="left" id="d141858e270">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d141862e276">
+</th></tr></thead><tbody><tr><td id="d141858e276">
 
 **To generate issues associated with each question in the classic assessment engine**
 
@@ -134,7 +134,7 @@ Select **Create Issue**. A message with the issue number appears, and each quest
 
  **Note:** This is available when you’re using the Classic assessment engine.
 
-</td></tr><tr><td id="d141862e299">
+</td></tr><tr><td id="d141858e299">
 
 **To resubmit the assessment to the third party or engagement**
 
@@ -144,7 +144,7 @@ Select **Return to third party**.If the assessment schedule might be affected, y
 
 **Note:** After the assessment has been submitted, the third party or engagement can’t make edits to the assessment. You can return the assessment to the third party or engagement if changes are required.
 
-</td></tr><tr><td id="d141862e318">
+</td></tr><tr><td id="d141858e318">
 
 **To export a spreadsheet with responses, comments, and issues in the classic assessment engine**
 
@@ -154,7 +154,7 @@ Select **Export responses**.A Microsoft Excel spreadsheet is generated containin
 
 **Note:** This is available when you’re using the Classic assessment engine.
 
-</td></tr><tr><td id="d141862e337">
+</td></tr><tr><td id="d141858e337">
 
 **To add notes or comments and review questionnaire activity**
 

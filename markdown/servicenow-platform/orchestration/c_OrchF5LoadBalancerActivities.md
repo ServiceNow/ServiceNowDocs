@@ -15,7 +15,7 @@ breadcrumb: [Orchestration activity packs, Classic Orchestration, ServiceNow AI 
 
 Orchestration provides custom activities for configuring elements of an F5 load balancer, including pools, pool members, and the virtual servers contained in the pool.
 
-All F5 custom activities are in the F5 Network Management Application [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US) and are activated by the Orchestration - F5 network management plugin, which must be [activated by request](../task/t_ActivateAnActivityPack.md).
+All F5 custom activities are in the F5 Network Management Application Application scope and are activated by the Orchestration - F5 network management plugin, which must be [activated by request](../task/t_ActivateAnActivityPack.md).
 
 ServiceNow provides custom F5 activities, built from the [REST web service activity template](../../orchestration-activity-designer/task/t_CreateARESTWebServiceActivity.md#), that you can use to perform the following tasks:
 

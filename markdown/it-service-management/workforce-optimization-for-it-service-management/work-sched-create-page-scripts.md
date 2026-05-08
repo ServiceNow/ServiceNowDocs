@@ -150,5 +150,5 @@ Add the **Transform workItem to cardProps** page script to transform the **workI
 **Related topics**  
 
 
-[Define and bind client scripts to components](https://www.servicenow.com/docs/access?context=define-client-scripts&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.define-client-scripts]
 

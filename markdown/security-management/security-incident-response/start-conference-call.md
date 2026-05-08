@@ -25,7 +25,7 @@ Make sure you’ve done the following on the ServiceNow® instance:
 -   Installed the Notify UI Components for Configurable Workspaces app.
 -   Installed and activated the Visual Task Board plugin \(com.devsnc.snb\_vtb\).
 
-For more information, see [Request IntegrationHub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information, see Request IntegrationHub.
 
 ## About this task
 

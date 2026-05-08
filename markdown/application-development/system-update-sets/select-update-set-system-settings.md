@@ -40,7 +40,7 @@ When you change your application scope, the system automatically switches the cu
 
 ## What to do next
 
-The update set picker is part of the Next Experience picker. For more information, see [Exploring Next Experience pickers](https://www.servicenow.com/docs/access?context=next-experience-pickers&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The update set picker is part of the Next Experience picker. For more information, see Exploring Next Experience pickers.
 
 For more information about application scoping, see [Application scope](../../applications/concept/c_ApplicationScope.md).
 

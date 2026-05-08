@@ -194,7 +194,7 @@ Object
 
 </td><td>
 
-Key-value pairs of optional parameters to pass to other components. This must be a plain, flat object with only primitive values. Array or object references are ignored and not added to the URL. All specified keys  must be part of  the optional parameters  in the route configuration or they are also ignored. For additional information on optional parameters, see [Create a page in UI Builder.](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Key-value pairs of optional parameters to pass to other components. This must be a plain, flat object with only primitive values. Array or object references are ignored and not added to the URL. All specified keys  must be part of  the optional parameters  in the route configuration or they are also ignored. For additional information on optional parameters, see Create a page in UI Builder.
 
 </td></tr></tbody>
 </table>|Type|Description|

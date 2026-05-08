@@ -19,9 +19,9 @@ Assign user roles to service groups to grant users access to application service
 
 Make sure that you have performed the user provisioning tasks for the users you want to grant access:
 
-1.  [Add users to user groups](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-2.  [Create new roles](https://www.servicenow.com/docs/access?context=t_CreateARole&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-3.  [Assign roles to users or user groups](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+1.  Add users to user groups.
+2.  Create new roles.
+3.  Assign roles to users or user groups.
 
 Also, make sure that you have created service groups as described in [Group application services](organizing_services-into-groups.md).
 

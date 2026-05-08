@@ -31,7 +31,7 @@ As a contract configurator, use condition builders to define criteria for a tabl
 
 4.  In the **Condition** field, define a condition for the table mapping.
 
-    For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information, see Create a condition statement using the condition builder.
 
 5.  Select **Update**.
 

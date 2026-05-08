@@ -19,7 +19,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-To avoid timing out for very large surveys, you can disable the transaction quota. See [Transaction quotas](https://www.servicenow.com/docs/access?context=c_TransactionQuotas&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To avoid timing out for very large surveys, you can disable the transaction quota. See Transaction quotas.
 
 ## Procedure
 

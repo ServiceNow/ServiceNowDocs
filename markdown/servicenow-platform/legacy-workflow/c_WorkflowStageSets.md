@@ -26,7 +26,7 @@ During an upgrade, the system makes changes to the **Value** field of records in
 -   All entries are made lowercase.
 -   All spaces and special characters are replaced with underscores.
 
-These changes support [System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and enable workflows to display translated text in the **Stage** field.
+These changes support System Localization and enable workflows to display translated text in the **Stage** field.
 
 **Parent Topic:**[Workflow stages](c_WorkflowStages.md)
 

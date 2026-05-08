@@ -95,7 +95,7 @@ Show meta data on form contextual search results \[com.snc.contextual\_search.wi
 
 </td><td>
 
-When the value is set to true, each search result includes additional metadata below each result record. By default, the property is set to true. -   For Knowledge articles, you configure the metadata fields to display by modifying Knowledge search properties. As an example, you can display the article's author, article number, and knowledge base name. For details on Knowledge search properties, see [Knowledge Management properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+When the value is set to true, each search result includes additional metadata below each result record. By default, the property is set to true. -   For Knowledge articles, you configure the metadata fields to display by modifying Knowledge search properties. As an example, you can display the article's author, article number, and knowledge base name. For details on Knowledge search properties, see Knowledge Management properties.
 -   Configure the search result display fields for other resources by editing search result display configurations. For details on search result display configuration settings, see [Edit search resource display field record](../task/edit-addi-resources-field.md).
 
 </td></tr><tr><td>

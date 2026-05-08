@@ -21,35 +21,35 @@ The ServiceNow® Sales Forecasting application helps you project your future sal
 -   Support for submitting forecasts by primary and secondary hierarchies.
 -   Enable forecast owners to submit and adjust forecasts at base forecast source.
 
-See [Sales Forecasting](https://www.servicenow.com/docs/access?context=sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US) for more information.
+See Sales Forecasting for more information.
 
 **Important:** Sales Forecasting is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Real-time forecast rollup updates](https://www.servicenow.com/docs/access?context=using-sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Real-time forecast rollup updates**
 
     Enhance forecast accuracy, reduce latency in pipeline views, and support faster, more informed decision‑making by triggering on‑demand recalculation for your hierarchy without having to wait for scheduled jobs.
 
--   **[Configurable Forecast Owner and Rollup Owner](https://www.servicenow.com/docs/access?context=configure-sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Configurable Forecast Owner and Rollup Owner**
 
     Improve parallel forecasting across different product lines or business structures by configuring Forecast Owner and Rollup Owner in the Forecast Model to define ownership and roll‑up responsibility.
 
 
--   **[Support for multiple configurable forecast models](https://www.servicenow.com/docs/access?context=configure-forecast-model&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Support for multiple configurable forecast models**
 
     Define and manage forecasting rules beyond the default model by configuring up to ten forecast models to support different forecasting structures.
 
 
--   **[Multi-Period forecast rollups within a single Forecast Model](https://www.servicenow.com/docs/access?context=configure-forecast-model&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Multi-Period forecast rollups within a single Forecast Model**
 
     Achieve better planning and strategy by configuring and managing forecasting for multiple time periods \(weekly, monthly, quarterly\) within a single forecast model for flexible data reporting.
 
--   **[Product Family based forecasting](https://www.servicenow.com/docs/access?context=using-sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Product Family based forecasting**
 
     Enable forecast owners to configure forecasting with product family as a secondary hierarchy with the primary hierarchy as territory or sales team. This feature enables forecast managers to submit forecasts for the product families they own and provides real-time rollups by product family and the primary hierarchy.
 
--   **[Enable forecasting at base forecast source](https://www.servicenow.com/docs/access?context=using-sales-forecasting&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Enable forecasting at base forecast source**
 
     Provide forecast owners and managers with visibility into the opportunities and line items contributing to each forecast number, directly from the dashboard. Support forecast creation, submissions, and adjustments at the individual record level, such as opportunity and opportunity lines.
 
@@ -60,11 +60,11 @@ Install Sales Forecasting by requesting it from the ServiceNow Store. Visit the 
 
 ## Related ServiceNow applications and features
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=exploring-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Customer Service Management**
 
     The Customer Service Management \(CSM\) application can help your organization resolve customer issues and requests for your customers. Adopting a proactive customer service approach helps increase your customer satisfaction and retention.
 
--   **[Opportunity Management](https://www.servicenow.com/docs/access?context=opportunity-management&version=australia&pubname=australia-order-management&ft:locale=en-US)**
+-   **Opportunity Management**
 
     The Opportunity Management application provides sales agents and account executives with product recommendations for customers based on a needs analysis. Seamlessly convert sales opportunities to quotes when the customer is ready.
 

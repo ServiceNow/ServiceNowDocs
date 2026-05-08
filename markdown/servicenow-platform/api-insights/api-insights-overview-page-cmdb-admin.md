@@ -31,7 +31,7 @@ CMDB administrators can access the Overview tab within the API Insights workspac
 
 Access the various cards on the Overview tab to gain insights on the API data available in your organization.
 
-**Note:** Select a segment or count on a chart to open the KPI Details page and analyze how a specific metric trends over time. To learn more about the KPI Details feature, see [KPI Details](https://www.servicenow.com/docs/access?context=kpi-details&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+**Note:** Select a segment or count on a chart to open the KPI Details page and analyze how a specific metric trends over time. To learn more about the KPI Details feature, see KPI Details.
 
 <table id="table_cnz_34b_mfc"><thead><tr><th>
 

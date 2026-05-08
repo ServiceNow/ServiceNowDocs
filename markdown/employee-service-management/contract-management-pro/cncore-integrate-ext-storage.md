@@ -23,15 +23,15 @@ The following video walks you through the process of configuring external storag
 
 Ensure that the administrator has installed and set up spokes for the external storage system you want to configure.
 
--   **[Google Drive spoke](https://www.servicenow.com/docs/access?context=googledrive-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) v1.3.0 or later version**
+-   **Google Drive spoke v1.3.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Google Drive spoke](https://www.servicenow.com/docs/access?context=setup-gdrive&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Google Drive account, see Set up Google Drive spoke.
 
     **Note:** Word \(.docx\) files edited directly from Google Drive using Google Docs may become incompatible with Contract Management Pro causing failures during processing, signature operations, and document updates. To avoid these issues, download the .docx file from the Google Drive, edit it in Microsoft Word \(desktop or online\), and upload it into the system using the Create Revision option.
 
--   **[Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=onedrive-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) v2.1.0 or later version**
+-   **Microsoft OneDrive spoke v2.1.0 or later version**
 
-    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://www.servicenow.com/docs/access?context=setup-msonedrive&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on the setup and creating the Microsoft OneDrive account, see Set up Microsoft OneDrive spoke.
 
 
 Role required: sn\_cm\_core.contract\_config

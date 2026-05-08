@@ -17,7 +17,7 @@ This is a searchable version of the useful approval and assignment scripts.
 
 **Warning:** The customization described here was developed for use in specific instances, and is not supported by Now Support. This method is provided as-is and should be tested thoroughly before implementation. Post all questions and comments regarding this customization to our community [forum](http://community.service-now.com/).
 
-For see [Viewing my approvals](https://www.servicenow.com/docs/access?context=viewing-my-approvals&version=australia&pubname=australia-security-management&ft:locale=en-US).
+For see Viewing my approvals.
 
 -   **Assign a group for ESS requests**
 

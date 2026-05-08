@@ -81,7 +81,7 @@ Script
 
 </td><td>
 
-Script that runs when the condition you define evaluates to true. Two additional objects are available in this script:-   event: a [GlideRecord](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)- the sysevent that caused this to be invoked. If you want this first parameter on the event, use **event.parm1** or **event.parm2** for the second parameter. For the date/time of the event, use **event.sys\_created\_on**. To get the user ID that created the event \(if there was a user associated\), use **event.user\_id**.
+Script that runs when the condition you define evaluates to true. Two additional objects are available in this script:-   event: a GlideRecord- the sysevent that caused this to be invoked. If you want this first parameter on the event, use **event.parm1** or **event.parm2** for the second parameter. For the date/time of the event, use **event.sys\_created\_on**. To get the user ID that created the event \(if there was a user associated\), use **event.user\_id**.
 -   current: a GlideRecord- the event scheduled on behalf of \(incident for example\).
 
 </td></tr></tbody>

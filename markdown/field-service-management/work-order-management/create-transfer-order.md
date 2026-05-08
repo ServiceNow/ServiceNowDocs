@@ -31,7 +31,7 @@ Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifie
 
 5.  Click **Source Part**.
 
-    The system completes the **Model** field automatically with information from the part requirement. You can select a different model, but it must be a [substitute](https://www.servicenow.com/docs/access?context=t_AddingSubModelsToHrdwModel&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for the requested model. If you click the reference lookup icon \(![Lookup icon.](../image/SearchIcon.png)\) beside the **Model** field, only the selected model and any substitute models that are in stock are listed.
+    The system completes the **Model** field automatically with information from the part requirement. You can select a different model, but it must be a substitute for the requested model. If you click the reference lookup icon \(![Lookup icon.](../image/SearchIcon.png)\) beside the **Model** field, only the selected model and any substitute models that are in stock are listed.
 
 6.  Select a **From Stockroom**.
 

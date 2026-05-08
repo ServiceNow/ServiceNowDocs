@@ -21,7 +21,7 @@ A snippet is a short, typically paragraph-length, section of text that contains 
 
 Select **View Article** to view the full Knowledge article.
 
-**Note:** Knowledge search property settings don't affect Q&amp;A Genius Results. For more information on these settings, see [Knowledge search properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** Knowledge search property settings don't affect Q&amp;A Genius Results. For more information on these settings, see Knowledge search properties.
 
 Q&amp;A Genius Results only support English searches.
 
@@ -43,7 +43,7 @@ Q&amp;A topic and answer snippet extraction
 
 </th></tr></thead><tbody><tr><td>
 
-FAQ \[kb\_template\_faq\] table**Note:** This table is enabled when you activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\). For more information, see [Activate the Knowledge Management Advanced plugin](https://www.servicenow.com/docs/access?context=activate-knowledge-advanced-plugin&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+FAQ \[kb\_template\_faq\] table**Note:** This table is enabled when you activate the Knowledge Management Advanced plugin \(com.snc.knowledge\_advanced\). For more information, see Activate the Knowledge Management Advanced plugin
 
 </td><td>
 

@@ -37,15 +37,15 @@ Layouts control what containers and components are available on a page, and wher
 
 5.  Depending on the type of page, do one of the following to select a container to update.
 
-<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d254393e139">
+<table id="choicetable_cc5_jsb_dqb"><thead><tr><th align="left" id="d254375e139">
 
 Type of page
 
-</th><th align="left" id="d254393e142">
+</th><th align="left" id="d254375e142">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d254393e148">
+</th></tr></thead><tbody><tr><td id="d254375e148">
 
 **Existing page**
 
@@ -53,7 +53,7 @@ Instruction
 
 Select the container on your page for which you want to change the layout.**Note:** Alternately, you can select the container in the content tree to the left of the main page area. When the page structure is in the structured tree, you can more easily find the container you want to change. If you have many components and containers in the content tree, use the search bar to find a specific container.
 
-</td></tr><tr><td id="d254393e160">
+</td></tr><tr><td id="d254375e160">
 
 **New page**
 
@@ -96,15 +96,15 @@ In the content tree to the left of the main page area, select the **Body** of yo
 
     You can add components by using any of the following ways.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d254393e310">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d254375e310">
 
 To add a component
 
-</th><th align="left" id="d254393e313">
+</th><th align="left" id="d254375e313">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d254393e319">
+</th></tr></thead><tbody><tr><td id="d254375e319">
 
 **Directly from your page \(option 1\)**
 
@@ -112,7 +112,7 @@ Do the following
 
 Select the add content \(plus\) icon, select the **Components** tab, and then select a component.
 
-</td></tr><tr><td id="d254393e336">
+</td></tr><tr><td id="d254375e336">
 
 **Directly from your page \(option 2\)**
 
@@ -120,7 +120,7 @@ Select the add content \(plus\) icon, select the **Components** tab, and then se
 
 On a column layout or component, select the add before \(plus\) or add after \(plus\) icon, and then select a component.
 
-</td></tr><tr><td id="d254393e348">
+</td></tr><tr><td id="d254375e348">
 
 **From the content tree**
 
@@ -130,7 +130,7 @@ In the content tree, select **+ Add content** and then select a component.
 
  ![Black arrow pointing to + add content option in content tree next to the toolbox window with Components tab selected.](../image/component-add-from-content-tree.png)
 
-</td></tr><tr><td id="d254393e370">
+</td></tr><tr><td id="d254375e370">
 
 **From the floating menu above the page**
 
@@ -141,15 +141,15 @@ On a column layout or component, select the Menu icon, select **Add before** or 
 </td></tr></tbody>
 </table>8.  Modify the layout styling options in any of the following ways.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d254393e397">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d254375e397">
 
 Option
 
-</th><th align="left" id="d254393e400">
+</th><th align="left" id="d254375e400">
 
 Instruction
 
-</th></tr></thead><tbody><tr><td id="d254393e406">
+</th></tr></thead><tbody><tr><td id="d254375e406">
 
 **Change the layout styling**
 
@@ -166,7 +166,7 @@ You can click the container in the content tree, or you can click the container 
 3.  Choose to display your content as either Flex or Grid. For more information about flex or grid options, see [Using Flexbox layouts in UI Builder](../concept/flexbox-uib.md#) or [Using CSS Grid layouts to build a page](../concept/css-grid-uib.md#).
 
 
-</td></tr><tr><td id="d254393e460">
+</td></tr><tr><td id="d254375e460">
 
 **Choose Flex**
 
@@ -197,7 +197,7 @@ You can click the container in the content tree, or you can click the container 
     -   Padding: Set the padding for each side of your flexbox items.
 ![Flex style options.](../image/UIB-flexbox-styling.png)
 
-</td></tr><tr><td id="d254393e592">
+</td></tr><tr><td id="d254375e592">
 
 **Select Grid**
 

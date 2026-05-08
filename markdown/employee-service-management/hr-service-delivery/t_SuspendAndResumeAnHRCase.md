@@ -43,7 +43,7 @@ For example, to contact a vendor, such as the insurance administrator or payroll
 
 4.  In the **Work Note** field, enter information about why the case is suspended.
 
-    **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see [Dynamic translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** Translate the text in your preferred language using the **Translate** option. For configuring the dynamic translation framework, see Dynamic translation.
 
 5.  Click **Suspend**.
 

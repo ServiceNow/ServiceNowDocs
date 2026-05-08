@@ -6,7 +6,7 @@ release: australia
 product: Now Assist for Strategic Portfolio Management \(SPM\)
 classification: now-assist-for-strategic-portfolio-management-spm
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Using Now Assist for Strategic Portfolio Management \(SPM\), Now Assist for Strategic Portfolio Management \(SPM\), Strategic Portfolio Management]
 ---
@@ -17,7 +17,7 @@ View AI-generated insights for a portfolio plan in Strategic Planning Workspace 
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 Role required: sn\_align\_core.apw\_user
 

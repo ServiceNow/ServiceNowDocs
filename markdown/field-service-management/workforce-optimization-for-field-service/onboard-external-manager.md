@@ -21,7 +21,7 @@ Role required: wm\_admin and wm\_contractor\_manager\_int
 
 ## About this task
 
-You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see Using guided setup.
 
 ## Procedure
 

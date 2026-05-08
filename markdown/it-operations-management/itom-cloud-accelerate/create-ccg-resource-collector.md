@@ -35,7 +35,7 @@ The cloud resources are available under a service account or service account-dat
 
         For more information on the available CAL actions, see [Cloud Action Library actions reference](../reference/ccg-cal-actions.md).
 
-        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub datastream action to implement the custom action. Alternatively, you can also use the REST step. For more information, see [Data Stream actions and pagination](https://www.servicenow.com/docs/access?context=data-stream-actions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) and [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        If CAL doesn’t have the required action, you can refer to an existing CAL action and use the Integration Hub datastream action to implement the custom action. Alternatively, you can also use the REST step. For more information, see Data Stream actions and pagination and REST step.
 
     3.  Add the **CCG – Insert Resource Record** action, and then select the appropriate inputs to insert the configuration data to the Configuration Management Database \(CMDB\).
 

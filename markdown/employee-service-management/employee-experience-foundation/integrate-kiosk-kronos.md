@@ -35,12 +35,12 @@ If you don't plan to activate the HR Service Delivery with Ultimate Kronos Group
 
 1.  Set up the UKG spoke.
 
-    -   For more information on the setup, see [Set up the](https://www.servicenow.com/docs/access?context=setup-kronos&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    -   For more information on the setup, see Set up the.
     -   The schedule and time off data on the Employee Center Pro kiosk is enabled with the existing UKG spoke actions.
         -   **Look up Employee Schedule**: To get the shift schedule data.
         -   **Get Employee Accruals by Person Number**: To get the time off balance data.
 
-            For more information on creating requests, see [Create request as manager using the catalog item](https://www.servicenow.com/docs/access?context=kronos-serv-cat&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+            For more information on creating requests, see Create request as manager using the catalog item.
 
 
 -   **[Receive employee data from UKG to the Employee Center Pro Kiosk](user-map-kronos-kiosk.md)**  

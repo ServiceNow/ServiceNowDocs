@@ -27,15 +27,15 @@ If you have the Legal Virtual Agent Conversations application installed on your 
 
 1.  Access the Legal Content Review intake form.
 
-<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d332096e90">
+<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d332103e90">
 
 Option
 
-</th><th align="left" id="d332096e93">
+</th><th align="left" id="d332103e93">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d332096e99">
+</th></tr></thead><tbody><tr><td id="d332103e99">
 
 **Using __Employee Center__**
 
@@ -47,7 +47,7 @@ Description
 4.  Select **Legal Content Review**.
 
 
-</td></tr><tr><td id="d332096e142">
+</td></tr><tr><td id="d332103e142">
 
 **Using __Legal Service Portal__**
 

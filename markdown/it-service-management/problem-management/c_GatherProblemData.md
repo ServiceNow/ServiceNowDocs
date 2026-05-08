@@ -45,7 +45,7 @@ The map shows the upstream and downstream relationships of the CI. The storage d
 
 ## CMDB baseline history
 
-If a baseline is [generated](https://www.servicenow.com/docs/access?context=c_BaselineCMDB&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), planned or unplanned changes are tracked within the system. A common cause of problems is improperly executed changes, and reviewing the history of changes to a CI helps track problems caused by improper changes.
+If a baseline is generated, planned or unplanned changes are tracked within the system. A common cause of problems is improperly executed changes, and reviewing the history of changes to a CI helps track problems caused by improper changes.
 
 To check the CMDB Baseline, view the CI record and check **Baseline Differences** and **Scheduled Changes**. The administrator can use the form designer to add these formatters.
 

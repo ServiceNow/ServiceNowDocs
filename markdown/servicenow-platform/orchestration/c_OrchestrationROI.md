@@ -19,7 +19,7 @@ After you automate the tasks, you can track cost savings by associating Orchestr
 
 Orchestration ROI reports offer a number of views of the comparative data and allow you to access the associated records directly from the reports. The [standard reports](../reference/r_OrchestrationROIStandardDashboard.md#) included with the Orchestration - ROI plugin provide summaries, estimated costs, and calculated costs for automated processes. The [ROI premium dashboard](../reference/r_OrchestrationROIPremiumDashboard.md#) uses Performance Analytics to provide detailed reports on calculated savings over time. Performance Analytics requires a different plugin and subscription.
 
-**Note:** When Orchestration ROI is activated as a dependent plugin of Orchestration, demo data is not installed. If you want to use demo data as a template for your own ROI evaluation, [submit a request](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to ServiceNow® technical support for an Orchestration ROI plugin upgrade with demo data selected.
+**Note:** When Orchestration ROI is activated as a dependent plugin of Orchestration, demo data is not installed. If you want to use demo data as a template for your own ROI evaluation, submit a request to ServiceNow® technical support for an Orchestration ROI plugin upgrade with demo data selected.
 
 To set up Orchestration ROI, complete the configuration tasks in the order shown here.
 

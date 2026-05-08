@@ -17,7 +17,7 @@ By default, the Pipeline project creation rule decision table is used to create 
 
 **Note:** You must have the `sn_spend_pipeline.pipeline_management_admin` role to update the Pipeline project creation rule decision table configuration.
 
-The `sn_spend_pipeline.pipeline_management_admin` role contains the `decision_table_admin` role, which enables you to create, read, edit, and delete decision table inputs, columns, and values. For more information about configuring decision tables, see [Configuring decision tables](https://www.servicenow.com/docs/access?context=configuring-decision-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The `sn_spend_pipeline.pipeline_management_admin` role contains the `decision_table_admin` role, which enables you to create, read, edit, and delete decision table inputs, columns, and values. For more information about configuring decision tables, see Configuring decision tables.
 
 ![Pipeline project creation rule.](../image/pipeline-decision-table.png)
 

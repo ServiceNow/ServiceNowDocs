@@ -17,11 +17,11 @@ Configure the Legal Counsel Center Workspace to customize the dashboard and inte
 
 ## Configuration overview
 
-To configure and customize Legal Counsel Center Workspace along with the Home page, List page, and the Analytics Center page, get familiarized with the UI Builder basics. For more information, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To configure and customize Legal Counsel Center Workspace along with the Home page, List page, and the Analytics Center page, get familiarized with the UI Builder basics. For more information, see UI Builder.
 
-To work on the UI Builder, navigate to **UI Builder** from **All**. Then search and select **Legal Counsel Center** to configure. To configure the home page, select **Landing page default**. For more information on how to configure the list and analytics center pages, see [Working in UI Builder](https://www.servicenow.com/docs/access?context=using-ui-builder&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To work on the UI Builder, navigate to **UI Builder** from **All**. Then search and select **Legal Counsel Center** to configure. To configure the home page, select **Landing page default**. For more information on how to configure the list and analytics center pages, see Working in UI Builder.
 
-You must also understand additional Configurable Workspace components to configure Legal Counsel Center. For more information, see [Configuring Configurable Workspace](https://www.servicenow.com/docs/access?context=c_set-up-configurable-workspace&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US#section_xqc_p2z_cjb).
+You must also understand additional Configurable Workspace components to configure Legal Counsel Center. For more information, see Configuring Configurable Workspace.
 
 -   **[Install Legal Counsel Center Workspace](install-legal-counsel-center-workspace.md)**  
 You can install the Legal Counsel Center application \(sn\_lg\_cf\_workspace\) if you have the admin role. The application installs ServiceNow® Store applications and plugins if they are not already installed.

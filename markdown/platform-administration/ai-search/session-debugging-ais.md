@@ -29,7 +29,7 @@ When you enable session debugging for AI Search in a user session, the system re
 
 You can review these debug log messages to diagnose search issues or configure optimal search performance settings.
 
-Once enabled, session debugging remains active for the user session until you disable it. For more information on session debugging, see [Session debug](https://www.servicenow.com/docs/access?context=c_SessionDebug&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Once enabled, session debugging remains active for the user session until you disable it. For more information on session debugging, see Session debug.
 
 ## Procedure
 

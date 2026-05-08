@@ -54,15 +54,15 @@ Roles required:
 
     An option profile is required when you initiate a Qualys scan from your ServiceNow AI Platform®. Option profiles contain Qualys scan settings.
 
-<table id="choicetable_itr_bmq_yqb"><thead><tr><th align="left" id="d176532e260">
+<table id="choicetable_itr_bmq_yqb"><thead><tr><th align="left" id="d176528e260">
 
 Option
 
-</th><th align="left" id="d176532e263">
+</th><th align="left" id="d176528e263">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d176532e269">
+</th></tr></thead><tbody><tr><td id="d176528e269">
 
 **Use default option profile**
 
@@ -70,7 +70,7 @@ Description
 
 This is the option profile that is set as the default for the integration instance. You select this profile when you set up your Qualys scanner. See [Set up scanner appliances](../concept/advanced-modifications.md#) for more information.
 
-</td></tr><tr><td id="d176532e292">
+</td></tr><tr><td id="d176528e292">
 
 **Specify option profile**
 

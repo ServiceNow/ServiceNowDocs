@@ -209,15 +209,15 @@ The **Populate Service Account and LDC IN CMDB** scheduled job populates the Ser
 
 [Detailed information on products discovered by ITOM Visibility](../reference/r_SupportedApplications.md)
 
-[Class diagrams and class attributes for key CMDB classes](https://www.servicenow.com/docs/access?context=c_ConfigurationManagementDatabase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_ConfigurationManagementDatabase]
 
-[Description of key CMDB tables in the base system](https://www.servicenow.com/docs/access?context=cmdb-tables-details&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-tables-details]
 
-[CMDB CI Class Models: ServiceNow Store app that adds class models that extend the base CMDB class hierarchy](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-ci-class-models]
 
-[Information about the various options for populating the CMDB](https://www.servicenow.com/docs/access?context=c_OptionsToPopulateCMDB&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_OptionsToPopulateCMDB]
 
-[ServiceNow Store apps that provide pre-defined Service Graph connectors for importing and integrating common third-party data into CMDB classes](https://www.servicenow.com/docs/access?context=cmdb-third-party-integrations&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.cmdb-third-party-integrations]
 
 [KB0747679: Pre/Post Processing Scripts for patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0747679)
 

@@ -21,7 +21,7 @@ Use the Event API to add/update fields within an event. Use the SNEventSenderPro
 
 You must activate the Event Management \(com.glideapp.itom.snac\) plugin before attempting to access this API. The Event Management plugin requires a separate subscription and must be activated. This plugin includes demo data and activates related plugins if they are not already active.
 
-For additional information on event management, see [Event Management](https://www.servicenow.com/docs/access?context=c_EM&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For additional information on event management, see Event Management.
 
 **Parent Topic:**[Server API reference](../../../../../build/applications/concept/api-server.md)
 

@@ -18,5 +18,5 @@ Use the CSM Investment Portal to do the following:
 -   Add CSM-specific columns to investment boards
 -   Add filters to CSM-specific columns on investment boards
 
-You can view both customer projects and IT projects in the IT Investment Portal. For more information, see [Investment Portal](https://www.servicenow.com/docs/access?context=investment-portal&version=australia&pubname=australia-it-business-management&ft:locale=en-US) in the Project Management documentation.
+You can view both customer projects and IT projects in the IT Investment Portal. For more information, see Investment Portal in the Project Management documentation.
 

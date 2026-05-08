@@ -32,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances&amp;DBInstanceIdentifier=&lt;input\_object\_id&gt; for events discovery
     -   https://tagging.&lt;REGION&gt;.amazonaws.com/ for tags discovery
 -   For Cloud Discovery, download the Discovery and Service Mapping Patterns from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) published on the ServiceNow documentation site.
+-   When installing the MID Server, ensure that the host machine meets or exceeds the MID Server system requirements published on the ServiceNow documentation site.
 
 ## Verify the REST API Permissions
 

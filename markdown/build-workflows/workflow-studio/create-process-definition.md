@@ -41,7 +41,7 @@ Enable playbook owners to configure and organize multiple instances of Workflow 
     |-----|------|
     |**Playbook name**|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
     |**Description**|Optionally, enter some descriptive details about your playbook.|
-    |**Application**|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).|
+    |**Application**|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.|
 
     The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
 

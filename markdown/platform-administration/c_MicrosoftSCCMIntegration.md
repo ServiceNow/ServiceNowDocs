@@ -17,7 +17,7 @@ Scheduled imports bring relevant SCCM data into the ServiceNow instance from an 
 
 ## Supported versions
 
-The Microsoft SCCM legacy plugin is deprecated and no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base. Recommendation for all customers to migrate to the new [Service Graph connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The Microsoft SCCM legacy plugin is deprecated and no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base. Recommendation for all customers to migrate to the new Service Graph connector for Microsoft SCCM.
 
 These are the plugins for the currently supported SCCM versions, all of which support Asset Intelligence and Incremental Software Reconciliation:
 
@@ -31,17 +31,17 @@ The Integration - Microsoft SCCM 2016 \(com.snc.integration.sccm2016\) plugin is
 
 ## Service Graph connector for Microsoft SCCM
 
-To import SCCM data into the CMDB, you can use the [Service Graph connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) instead of using the legacy SCCM connector.
+To import SCCM data into the CMDB, you can use the Service Graph connector for Microsoft SCCM instead of using the legacy SCCM connector.
 
 Using the Service Graph SCCM connector provides these advantages:
 
--   Adherence to the [Common Service Data Model \(CSDM\)](https://www.servicenow.com/docs/access?context=csdm-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) data model.
--   Use of [Identification and Reconciliation engine \(IRE\)](https://www.servicenow.com/docs/access?context=ire&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to avoid duplicate records.
+-   Adherence to the Common Service Data Model \(CSDM\) data model.
+-   Use of Identification and Reconciliation engine \(IRE\) to avoid duplicate records.
 -   Support for removed software detection and delta detection.
--   Use of the [IntegrationHub ETL \(2.2.1\)](https://www.servicenow.com/docs/access?context=integrationhub-etl&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) which allows for easy data mapping and customizations.
+-   Use of the IntegrationHub ETL \(2.2.1\) which allows for easy data mapping and customizations.
 -   Higher performance during data processing.
 
-For information on how to update from using the Microsoft SCCM connector plugin to using the Service Graph connector for Microsoft SCCM, see [Update Microsoft SCCM 2016 plugin for Service Graph connector for Microsoft SCCM](https://www.servicenow.com/docs/access?context=cmdb-integration-sccm&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For information on how to update from using the Microsoft SCCM connector plugin to using the Service Graph connector for Microsoft SCCM, see Update Microsoft SCCM 2016 plugin for Service Graph connector for Microsoft SCCM.
 
 ## Available modules
 

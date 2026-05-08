@@ -26,7 +26,7 @@ The ServiceNow® Document Template integration with AdobeSign application enable
 
 ## Activation information
 
-First, activate the Document Template Integration with AdobeSign \[sn\_dt\_adobesign\] and Document Templates \[sn\_doc\] applications from ServiceNow Store. Activating the Document Template integration with AdobeSign application automatically activates the Adobe Acrobat Sign spoke. Next, set up the [Adobe Sign spoke](https://www.servicenow.com/docs/access?context=adobe-sign-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+First, activate the Document Template Integration with AdobeSign \[sn\_dt\_adobesign\] and Document Templates \[sn\_doc\] applications from ServiceNow Store. Activating the Document Template integration with AdobeSign application automatically activates the Adobe Acrobat Sign spoke. Next, set up the Adobe Sign spoke.
 
 ## Request apps on the Store
 

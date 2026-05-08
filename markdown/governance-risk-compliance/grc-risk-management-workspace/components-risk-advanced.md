@@ -15,7 +15,7 @@ breadcrumb: [Reference, Risk Management, Governance, Risk, and Compliance]
 
 Activating the GRC: Advanced Risk \(sn\_risk\_advanced\) plugin adds or modifies several tables, user roles, and other components. The Advanced Risk plugin enables you to perform advanced risk assessments and manage risk events.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 **Note:** Demo data is available for this feature.
 

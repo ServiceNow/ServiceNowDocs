@@ -96,7 +96,7 @@ Reference
 
 A reference field stores a reference to a field on another table. For example, the Caller field on the Incident table is a reference to the User \[sys\_user\] table.
 
- For more information, see [Reference field type](https://www.servicenow.com/docs/access?context=c_ReferenceField&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more information, see Reference field type.
 
  This field type is available for fields and tables defined in the use case setup.
 

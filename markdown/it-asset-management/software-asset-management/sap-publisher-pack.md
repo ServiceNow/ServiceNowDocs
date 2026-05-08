@@ -129,7 +129,7 @@ After the connection is established, data is pulled into your ServiceNow instanc
 
 SAP data is scheduled to be pulled weekly. User activity data, web activity data, and engine usage data are pulled monthly. All user and web activity is deleted after 90 days. Engine usage measurement records in the SAP License Metric Measurement table \[samp\_sap\_license\_metric\_measurement\] are deleted after one year.
 
-When SAP data enters the ServiceNow AI Platform, it’s initially stored in staging tables before it’s transferred to the final SAP tables. To edit the tables where data transfer takes place or to view the transfer logic, see [transform maps](https://www.servicenow.com/docs/access?context=c_CreatingNewTransformMaps&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+When SAP data enters the ServiceNow AI Platform, it’s initially stored in staging tables before it’s transferred to the final SAP tables. To edit the tables where data transfer takes place or to view the transfer logic, see transform maps.
 
 **Note:** The user activity and web activity transform maps aren't enabled by default because they may cause performance issues due to the large amount of data. However, you can manually enable these transform maps. To enable the activity transform maps, navigate to **All** &gt; **Software Asset** &gt; **SAP Compliance and Optimization** &gt; **SAP Connections** and select the connection. In the Configuration section, set the **Fetch activity** field to **True** and then select **Update**.
 

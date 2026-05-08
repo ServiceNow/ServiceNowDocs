@@ -12,7 +12,7 @@ reading_time_minutes: 5
 
 Several types of components install with the activation of the Content Analytics \[sn\_cda\] plugin, including tables, user roles, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 Demo data is available for this feature.
 
@@ -52,7 +52,7 @@ Content Experiences: Process SNC analytics
 Converts analytics from the Tracked Event \[sn\_cda\_tracked\_evt\_agg\] table into the Analytics Statistic \[sn\_ca\_analytics\_stat\] table. This fills in campaign, action, and content references.By default, runs daily.
 
 </td></tr></tbody>
-</table>**Note:** You can trigger or run a tracking profile scheduled job from the Tracking Profile list. You may have to add the **Trigger** field by using the Update Personalized List feature. See [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+</table>**Note:** You can trigger or run a tracking profile scheduled job from the Tracking Profile list. You may have to add the **Trigger** field by using the Update Personalized List feature. See Personal lists.
 
 ## Tables installed
 

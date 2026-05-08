@@ -21,6 +21,6 @@ These logs are available:
 
 -   **Slow Queries**
 
-    Provides insight into how queries affect platform performance. See [Use a slow query log](https://www.servicenow.com/docs/access?context=t_UseASlowQueryLog&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Provides insight into how queries affect platform performance. See Use a slow query log.
 
 

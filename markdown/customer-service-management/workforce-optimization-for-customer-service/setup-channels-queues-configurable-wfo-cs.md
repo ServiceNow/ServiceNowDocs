@@ -38,14 +38,14 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Click **New** and see [Create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to create the service channel.
+    2.  Click **New** and see Create a service channel to create the service channel.
     3.  Click **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **All** &gt; **Workforce Optimization for Customer Service** &gt; **Channel Management** &gt; **Queues** or select the service channel and click the **Queues** tab.
-    2.  Click **New** and see [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to create the queue.
+    2.  Click **New** and see Create a work item queue to create the queue.
     The queue is created in the service channel.
 
 
@@ -55,7 +55,7 @@ Define agent assignment rules and specify groups of agents who are eligible to r
 
 ### Before you begin
 
-You must first create a new assignment rule before you create a service channel. For more information, see [create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US). Use [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
+You must first create a new assignment rule before you create a service channel. For more information, see create a service channel. Use Advanced Work Assignment \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -112,7 +112,7 @@ Groups that are eligible for assignment. -   Click the lock \(![Lock icon.](../i
 
     The Queues \[awa\_queues\] table is updated with the eligible assignment group.
 
-    **Note:** For a new service channel, you must first create a new assignment rule and then [create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    **Note:** For a new service channel, you must first create a new assignment rule and then create a service channel.
 
 
 ## Configure KPIs for service channels
@@ -131,7 +131,7 @@ Add the [channel Management reports](../reference/components-installed-configura
 -   Track progress against KPIs and drill down into agents, team, and individual performance.​
 -   Drill down into all queues and monitor ongoing cases, interactions, and tasks.
 -   Jump in and support agents for help-requested work items using chat whisper or add work notes to a task.​
--   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see [Interactive Filters](https://www.servicenow.com/docs/access?context=c_HomepagePublishers&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Refine data in the dashboard using the Assignment Group interactive filter without modifying the reports. For more information, see Interactive Filters.
 
 The KPI scores are automatically refreshed at an interval of five seconds. However, you can modify the refresh interval by adding the **sn\_channel\_mgmt.kpi\_auto\_refresh.interval.seconds** [property](../reference/components-installed-configurable-wfo-cs.md) or choose to not automatically refresh using the **sn\_channel\_mgmt.channels\_card\_auto\_refresh.enable** [property](../reference/components-installed-configurable-wfo-cs.md). Also, the service channel cards refreshes automatically in 2 minutes as configured in the **sn\_channel\_mgmt.channel\_card\_auto\_refresh.interval.seconds** [system property](../reference/components-installed-configurable-wfo-cs.md) or you can manually refresh by clicking the Refresh \(![Refresh overview data icon](../image/refresh-sync-new.png)\) icon.
 
@@ -145,7 +145,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
 3.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) if you do not see the **Reports** tab.
+    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
 
 4.  Select and add the [Channel Management reports](../reference/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
@@ -159,7 +159,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see Create a single score report.
 
     3.  Click **Save**.
 
@@ -175,7 +175,7 @@ The KPI scores are automatically refreshed at an interval of five seconds. Howev
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see Create a reference field interactive filter.
 
     8.  Click **Submit**.
 
@@ -200,15 +200,15 @@ Role required: sn\_channel\_mgmt.admin
 
 1.  To add KPIs to a queue, do one of the following.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d229624e842">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d229617e842">
 
 To
 
-</th><th align="left" id="d229624e845">
+</th><th align="left" id="d229617e845">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d229624e851">
+</th></tr></thead><tbody><tr><td id="d229617e851">
 
 **Add from a service channel**
 
@@ -220,7 +220,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d229624e893">
+</td></tr><tr><td id="d229617e893">
 
 **Add from a queue**
 
@@ -233,7 +233,7 @@ Do This
 </td></tr></tbody>
 </table>2.  In the **Reports** tab, click **Edit**.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) if you do not see the **Reports** tab.
+    **Note:** You must add the Reports related list if you do not see the **Reports** tab.
 
 3.  Add the [Channel Management reports](../reference/components-installed-configurable-wfo-cs.md) that are by default configured with Workforce Optimization for Customer Service.
 
@@ -247,7 +247,7 @@ Do This
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see Create a single score report.
 
     3.  Click **Save**.
 
@@ -263,7 +263,7 @@ Do This
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see Create a reference field interactive filter.
 
     8.  Click **Submit**.
 
@@ -313,7 +313,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     2.  Fill in the details.
 
-        For more information, see [Create a single score report](https://www.servicenow.com/docs/access?context=c_SingleScoreCharts&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see Create a single score report.
 
     3.  Click **Save**.
 
@@ -329,7 +329,7 @@ The KPI scores are automatically refreshed at an interval of 30 seconds. However
 
     7.  Select the KPI report's table name and field name.
 
-        For more information, see [Create a reference field interactive filter](https://www.servicenow.com/docs/access?context=t_CreateAReferenceFieldPublisher&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+        For more information, see Create a reference field interactive filter.
 
     8.  Click **Submit**.
 
@@ -352,7 +352,7 @@ Role required: sn\_channel\_mgmt.admin
 
 ### About this task
 
-A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Case table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see [Database views](https://www.servicenow.com/docs/access?context=c_DatabaseViews&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A database view that defines table joins is used for generating reports for a supervisor list. For example, you can create a database view that can join the Case table to the Interaction and Metric tables. When you use this database view, and create a supervisor list to report on the active work items, you may include fields from any of these three tables. For more information, see Database views.
 
 **Note:** You can configure three supervisor lists for each service channel. The first three lists with the lowest order number appear in Channel Management.
 
@@ -364,7 +364,7 @@ A database view that defines table joins is used for generating reports for a su
 
 3.  Click the **Supervisor Lists** tab.
 
-    **Note:** You must [add the Reports related list](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) if you do not see the **Supervisor Lists** tab.
+    **Note:** You must add the Reports related list if you do not see the **Supervisor Lists** tab.
 
 4.  Click **New**.![Service channel chat displaying supervisor lists. For information about the supervisor lists components, refer to the Supervisor Lists form table.](../image/supervisor-lists.png)
 

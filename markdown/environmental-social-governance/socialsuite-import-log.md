@@ -4,7 +4,7 @@ description: The Socialsuite import log table \(sn\_osm\_ma\_import\_log\) track
 locale: en-US
 release: australia
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

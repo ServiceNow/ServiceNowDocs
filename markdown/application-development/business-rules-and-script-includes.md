@@ -37,13 +37,13 @@ Business Rules can be configured to run before or after a database operation. Th
 
 **Note:** current.update\(\)should not be used in any Business Rules. Using current.update\(\)triggers an additional database operation, which could cause duplicate notifications, recursive loops, etc.
 
-Use Script Includes to store JavaScript functions and classes for use by server scripts. Each Script Include defines either an object class or a function that can be reused among any server-side scripts. For more information, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Use Script Includes to store JavaScript functions and classes for use by server scripts. Each Script Include defines either an object class or a function that can be reused among any server-side scripts. For more information, see Script includes.
 
 Store any code that might need to be used elsewhere in a Script Include. Call the Script Include from a Business Rule, UI Action, workflow script, Scripted REST API, etc. Instead of calling a Business Rule from a UI Action or a UI Action from a Scripted REST API, put the code in a Script Include and call the Script Include from both places.
 
 Keeping functions in a Script Include allows testing of the function before deploying the function in other scripted areas, thus reducing overall development and testing time.
 
-For more information, see [Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information, see Classic Business rules.
 
 **Parent Topic:**[Build form and business logic](build-form-and-business-logic.md)
 

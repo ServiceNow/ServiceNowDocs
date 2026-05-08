@@ -15,7 +15,7 @@ breadcrumb: [Configure, Contractor Service Center, Health and Safety, Employee S
 
 Edit or configure the Contractor Service Center web interface and use layouts to organize the columns that house the widgets.
 
-For more information to perform the web interface customization, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+For more information to perform the web interface customization, see Create and edit a page using the Service Portal Designer
 
 **Parent Topic:**[Configuring Contractor Service Center](hs-configure-contractor-service-center.md)
 

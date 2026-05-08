@@ -21,7 +21,7 @@ Role required: admin or survey\_admin
 
 1.  Create an update set and use it to make changes on a development instance.
 
-    **Note:** For more information, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    **Note:** For more information, see System update sets.
 
     When developing surveys and assessments, use an update set to capture the changes and move them from a development instance to a production instance. Once an update set is created and marked current, all of the updates to the following tables are recorded in the update set.
 

@@ -37,18 +37,18 @@ Microsoft Azure OEM appears as a row in the Translator Configurations \(sn\_dt\_
 
 If you try to update this record in the Translator Configurations table, the following error is displayed: "The Microsoft Azure OEM translator configuration is used in Generative AI flows. It cannot be edited".
 
-With the Xanadu Patch 3 release, the Microsoft Azure OEM translator includes support for [Exclusion Framework in Dynamic Translation](https://www.servicenow.com/docs/access?context=dyn-translation-exclusion-framework&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Also the API used by flows and subflows is automatically updated to v4.
+With the Xanadu Patch 3 release, the Microsoft Azure OEM translator includes support for Exclusion Framework in Dynamic Translation. Also the API used by flows and subflows is automatically updated to v4.
 
 The application scope for Microsoft Azure OEM is sn\_ms\_oem.
 
-For more information, see [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Dynamic Translation.
 
 **Parent Topic:**[Configure multilingual service for Now Assist applications](../task/enable-dynamic-translation-for-now-assist-applications.md)
 
 **Related topics**  
 
 
-[Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.dynamic-translation-overview]
 
 [Generative AI Controller](../../generative-ai-controller/concept/generative-ai-controller.md)
 

@@ -15,7 +15,7 @@ breadcrumb: [Digital Experience Score, Digital End-User Experience, IT Service M
 
 Get insights into the digital experience of your employees using the Digital Experience Score​ dashboard. You can drill down into the device and application health data to create informed action plans if the employee experience needs improvement.
 
-You can create your own reports by following the Performance Analytics reporting guidelines using tables and filters in Digital Experience Score​ to get more detailed information. For more information, see [Using reporting](https://www.servicenow.com/docs/access?context=c_GenerateReports&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+You can create your own reports by following the Performance Analytics reporting guidelines using tables and filters in Digital Experience Score​ to get more detailed information. For more information, see Using reporting.
 
 For more information about DEX Score tables and filters, see the [DEX Score - Generate reports to fetch impacted devices \[KB1808487\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1808487) article in the Now Support Knowledge Base.
 

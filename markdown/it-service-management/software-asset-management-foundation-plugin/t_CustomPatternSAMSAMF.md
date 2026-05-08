@@ -21,11 +21,11 @@ Role required: sam\_admin
 
 ## About this task
 
-Discovery uses a series of scripts and operations \(probes, sensors, and patterns\) with the base system to collect data, process it, and update the CMDB. Although Software Asset Management Foundation plugin is already set up to utilize three common patterns \([MSSQL server discovery](https://www.servicenow.com/docs/access?context=mssql-data-collected-pattern&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), [Exchange MailBox discovery](https://www.servicenow.com/docs/access?context=r-ExchangeMailBox&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), and [Oracle database discovery](https://www.servicenow.com/docs/access?context=c_OracleDatabaseDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)\), you can perform a configuration procedure to include additional patterns.
+Discovery uses a series of scripts and operations \(probes, sensors, and patterns\) with the base system to collect data, process it, and update the CMDB. Although Software Asset Management Foundation plugin is already set up to utilize three common patterns \(MSSQL server discovery, Exchange MailBox discovery, and Oracle database discovery\), you can perform a configuration procedure to include additional patterns.
 
 This customization automatically copies the records from the discovered pattern to the Software Installation \[cmdb\_sam\_sw\_install\] table so Software Asset Management Foundation plugin can utilize this data for reconciliation.
 
-For more information on pattern customization, see [Discovery patterns used by ITOM Visibility](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+For more information on pattern customization, see Discovery patterns used by ITOM Visibility.
 
 ## Procedure
 

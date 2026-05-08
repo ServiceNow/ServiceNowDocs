@@ -21,5 +21,5 @@ The success case playbook consists of three stages:
 
 ![Success case playbook](../image/success-playbook.jpg)
 
-For more details on the playbook layout and the different cards, see [Playbook layout and features](https://www.servicenow.com/docs/access?context=csm-playbook-layout&version=australia&pubname=australia-customer-service-management&ft:locale=en-US). For instructions on how to create the success case playbook, see [Create a customer play](../task/account-lifecycle-create-success-case-playbook.md).
+For more details on the playbook layout and the different cards, see Playbook layout and features. For instructions on how to create the success case playbook, see [Create a customer play](../task/account-lifecycle-create-success-case-playbook.md).
 

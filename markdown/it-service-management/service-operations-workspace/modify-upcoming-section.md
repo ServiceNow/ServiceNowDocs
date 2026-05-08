@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see [Creating and adding a scripted extension point](https://www.servicenow.com/docs/access?context=impl-scripted-ext-pts-base-code&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Using an extension point, you can call the custom scripts to extend the functionality of the **Upcoming** section and also easily integrate customizations without having to alter the base code. For information about extension points, see Creating and adding a scripted extension point.
 
 |Extension point|Description|
 |---------------|-----------|

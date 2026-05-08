@@ -24,7 +24,7 @@ Knowledge bases house the information an organization wants to keep and share. T
 
 By default, most new articles are created as drafts and move through a review state before they are published. An exception to the standard workflow is posting news from the Problem form.
 
-If the administrator enables the optional knowledge submission workflow, articles created from incidents or problems become knowledge submissions, which are processed through a different path. For more information, see [Knowledge workflows](https://www.servicenow.com/docs/access?context=r_KnowledgeWorkflows&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If the administrator enables the optional knowledge submission workflow, articles created from incidents or problems become knowledge submissions, which are processed through a different path. For more information, see Knowledge workflows.
 
 -   **[Use the knowledge check box](../task/t_UseTheKnowledgeCheckBox.md)**  
 As with incidents, problems often generate information that may be needed in the future. The system can automatically submit a knowledge article when a problem is closed.

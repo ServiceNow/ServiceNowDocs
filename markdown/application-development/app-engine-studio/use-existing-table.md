@@ -31,7 +31,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 5.  Choose from the following choices.
 
-<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d147419e97">
+<table id="choicetable_qfr_n3p_tvb"><tbody><tr><td id="d147407e97">
 
 **Create new table**
 
@@ -41,7 +41,7 @@ Select this option to create a blank table from scratch.1.  Choose **Create new 
 2.  Click **Continue**.
 
 
-</td></tr><tr><td id="d147419e121">
+</td></tr><tr><td id="d147407e121">
 
 **Create from an extensible table**
 
@@ -183,7 +183,7 @@ Type of information that the column contains. For example, to contain plain text
 
  Depending on the type that you select, fill in the additional fields to further define the table column. For example, if you select **String**, define the character limit of the string input. Or, if you select **Choice**, define the choices that users can choose from.
 
- See [Field types](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ See Field types.
 
 </td></tr><tr><td>
 

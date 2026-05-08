@@ -23,7 +23,7 @@ Role required: customer project manager \(it\_project\_manager + sn\_customerser
 
 2.  Fill in the fields on the Demand form and click **Save**.
 
-    For more information about the fields on this form, see [Create a demand](https://www.servicenow.com/docs/access?context=t_CreatingDemands&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+    For more information about the fields on this form, see Create a demand.
 
 3.  Open the demand record and click the **Create Project** related link.
 

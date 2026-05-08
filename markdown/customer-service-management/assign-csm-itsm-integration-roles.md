@@ -16,7 +16,7 @@ To enable the Service Management integration features, assign the CSM/ITSM integ
 The Service Management integration plugins do not add any roles to the customer service agent role \(sn\_customerservice\_agent\). To enable the Service Management integration features, you must assign the CSM/ITSM integration roles included with the Incident Management application.
 
 -   Assign roles to agents using guided setup. For more information, see [Integrate with IT Service Management using Guided Setup](configure-csm-sm-integration.md).
--   Assign roles to agents using the ServiceNow AI Platform user administration feature. For more information, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Assign roles to agents using the ServiceNow AI Platform user administration feature. For more information, see Assign a role to a user.
 
 ## CSM/ITSM integration roles
 

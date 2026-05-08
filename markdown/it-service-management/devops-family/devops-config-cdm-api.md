@@ -19,18 +19,18 @@ You can use DevOps Config and CDM APIs to access your config data.
 
 ## DevOps Config
 
--   **[DevOps Config API](https://www.servicenow.com/docs/access?context=devops-config-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **DevOps Config API**
 
     Manage your application lifecycle, using delete, get, patch, and post operations.
 
 
 ## CDM
 
--   **[CdmApplicationsApi](https://www.servicenow.com/docs/access?context=applications-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmApplicationsApi**
 
     Upload configuration data to the component, collection, deployable, and component variable folders found in the DevOps Config Workspace UI. Export deployable configuration data to your DevOps pipeline and manage shared components and shared applications.
 
--   **[CdmChangesetsApi](https://www.servicenow.com/docs/access?context=changesets-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmChangesetsApi**
 
     Manage your changesets, including:
 
@@ -41,23 +41,23 @@ You can use DevOps Config and CDM APIs to access your config data.
     -   Retrieve a list of applications or deployables impacted by a changeset.
     -   Delete changesets.
     -   Return a list of shared components associated with a specified changeset.
--   **[CdmEditorApi](https://www.servicenow.com/docs/access?context=editor-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmEditorApi**
 
     Create nodes, update nodes, include existing nodes under other nodes, delete nodes, and retrieve nodes and node includes.
 
--   **[CdmPoliciesApi](https://www.servicenow.com/docs/access?context=policies-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmPoliciesApi**
 
     Manage policy mappings of deployables in CDM. Policies that are properly mapped to a deployable are executed when a snapshot of the deployable is validated.
 
--   **[CdmSharedLibraryApi](https://www.servicenow.com/docs/access?context=shared_libraries-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmSharedLibraryApi**
 
     Create and manage shared libraries and shared components. Upload and export the configuration data of a shared component.
 
--   **[CdmSnapshotApi](https://www.servicenow.com/docs/access?context=snapshot-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmSnapshotApi**
 
     Publish, unpublish, and revalidate snapshots in CDM.
 
--   **[CdmVersionApi](https://www.servicenow.com/docs/access?context=versions-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **CdmVersionApi**
 
     Publish, unpublish, and export versions \(snapshots\) in CDM for shared components under shared libraries.
 

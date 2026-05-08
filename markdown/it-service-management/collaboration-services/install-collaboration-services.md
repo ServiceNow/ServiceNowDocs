@@ -26,11 +26,11 @@ You can install the Collaboration services application \(sn\_tcm\_collab\_hook\)
 
         -   **ServiceNow for Microsoft Teams**
 
-            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see [ServiceNow for Microsoft Teams](https://www.servicenow.com/docs/access?context=c_ServiceNowForMSTeams&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+            If you want to integrate ServiceNow for Microsoft Teams, install the IT Service Management integration with Microsoft Teams or HR Service Delivery integration with Microsoft Teams applications as required. For more information on the integration, see ServiceNow for Microsoft Teams.
 
         -   **ServiceNow for Zoom**
 
-            If you want to integrate ServiceNow instance with Zoom, for complete information, see [ServiceNow for Zoom](https://www.servicenow.com/docs/access?context=sn_zoomIntegration&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+            If you want to integrate ServiceNow instance with Zoom, for complete information, see ServiceNow for Zoom.
 
 
 Role required: admin

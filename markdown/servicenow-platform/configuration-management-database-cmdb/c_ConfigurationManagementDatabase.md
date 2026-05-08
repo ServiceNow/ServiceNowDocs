@@ -20,7 +20,7 @@ Related ServiceNow® Store apps and reference information:
 -   [CMDB tables descriptions](../reference/cmdb-tables-details.md): Descriptions of key CMDB tables in the base system.
 -   [CMDB CI Class Models](cmdb-ci-class-models.md): A ServiceNow Store app that adds class models that extend the base CMDB class hierarchy. This includes class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can then use the added classes as any other CMDB base class.
 -   [Populating the CMDB](c_OptionsToPopulateCMDB.md): Information about the various options for populating the CMDB.
--   [Discovery patterns](https://www.servicenow.com/docs/access?context=c_MappingPatternsCustomization&version=australia&pubname=australia-it-operations-management&ft:locale=en-US): A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
+-   Discovery patterns: A ServiceNow Store app that provides a library of Discovery patterns for discovering specific devices and applications in the industry.
 -   [Getting started with Service Graph Connectors](cmdb-sgc-intro.md): ServiceNow Store apps that provide pre-defined integrations for importing and integrating common third-party data into CMDB classes. Also includes the [IntegrationHub ETL](integrationhub-etl.md) wizard for creating new ETL transform maps.
 
 CMDB tables contain information about computers and devices on the network, software contracts and licenses, business services, and so on. The IT desk can use the CMDB to better understand their network users' equipment, and the relationships between them. The CMDB can also be referenced by other processes within the system.
@@ -49,7 +49,7 @@ Key classes in the CMDB:
 
 The Configuration Item class is extended to other classes, such as Database \[cmdb\_ci\_database\] and Computer \[cmdb\_ci\_computer\]. The Computer class is extended to the Server \[cmdb\_ci\_server\] class, which is extended to the UNIX Server \[cmdb\_ci\_unix\_server\] class, and so on.
 
-**Note:** The Base Configuration Item \[cmdb\] class uses the table per partition extension model, which has different behaviors for replicating and deriving information than other extended tables. See [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Base Configuration Item \[cmdb\] class uses the table per partition extension model, which has different behaviors for replicating and deriving information than other extended tables. See Table extension and classes.
 
 You can use the schema map to view more details of tables and their relationships:
 

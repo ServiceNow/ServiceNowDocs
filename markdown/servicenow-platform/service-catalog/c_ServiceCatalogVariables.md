@@ -39,7 +39,7 @@ When catalog item requesters want to order items on portals or Next Experience U
 **Related topics**  
 
 
-[Scriptable service catalog variables](https://www.servicenow.com/docs/access?context=c_ScriptableServiceCatalogVariables&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+[bundle-crapiref.c_ScriptableServiceCatalogVariables]
 
-[Use service catalog variables in a report – Report Designer](https://www.servicenow.com/docs/access?context=use-service-catalog-variables-in-report&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.use-service-catalog-variables-in-report]
 

@@ -19,7 +19,7 @@ Connect integrates with Risk Management providing an overlay to the standard int
 
 Role required: sn\_risk.user
 
-For more information about Connect, see [Connect](https://www.servicenow.com/docs/access?context=c_Connect&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information about Connect, see Connect.
 
 ## Procedure
 

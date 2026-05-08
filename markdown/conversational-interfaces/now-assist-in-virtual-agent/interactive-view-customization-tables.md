@@ -19,7 +19,7 @@ Make your own user interface applicable to the interactive view with some custom
 
 You must first work with the Now Canvas Definition table \[sn\_now\_canvas\_definition.list\] before working with the Now Canvas Configuration table \[sn\_now\_canvas\_configuration.list\] because the configuration table relies upon data found in the definition table. The Now Canvas Definition table \[sn\_now\_canvas\_definition.list\] defines the user interfaces and the Now Canvas Configuration table \[sn\_now\_canvas\_configuration.list\] serves as the action of when to call the interactive view for the defined user interface. The Now Canvas Definition table \[sn\_now\_canvas\_definition.list\] only has one default definition: iframe.
 
-The following tables list the fields that you must work with to create those customized interactive views. Some of these fields may not be available upon default. For more information about how to add or remove fields from the form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The following tables list the fields that you must work with to create those customized interactive views. Some of these fields may not be available upon default. For more information about how to add or remove fields from the form layout, see Configuring the form layout.
 
 |Field|Description|
 |-----|-----------|

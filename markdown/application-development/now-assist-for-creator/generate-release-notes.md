@@ -31,7 +31,7 @@ Role required: sn\_aia.viewer, update\_set\_admin, and sn\_releaseops.release\_n
 
 3.  On the release record page, select **Generate release notes**.
 
-    **Important:** Each time you generate release notes using the release lifecycle documentation AI agent, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Important:** Each time you generate release notes using the release lifecycle documentation AI agent, the operation counts as an assist that is tracked by your Now Assist subscription. To track your Now Assist usage, see Monitoring Now Assist usage in Subscription Management.
 
     The release lifecycle documentation AI agent generates the release notes, which might take several minutes. Once release notes have been generated, you can view them in the **Release notes** tab of the release.
 

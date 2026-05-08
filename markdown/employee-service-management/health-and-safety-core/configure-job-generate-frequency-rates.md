@@ -17,7 +17,7 @@ Configure the scheduled job to load the safety frequency rates and ensure that t
 
 ## Before you begin
 
-Ensure that the application scope is selected as Health and Safety Incident Management PA Content Pack. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the application scope is selected as Health and Safety Incident Management PA Content Pack. For more information, see Application picker.
 
 Role required: sn\_ohs\_im.admin
 

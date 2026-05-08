@@ -78,7 +78,7 @@ Service instance
 
 </td><td>
 
-The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, [Create an service instance](https://www.servicenow.com/docs/access?context=create-it-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and add CIs to it. Set the status of the new service instance to Operational.
+The service instance to which to bind the log data. This field is required.**Note:** If no relevant service instance exists, Create an service instance and add CIs to it. Set the status of the new service instance to Operational.
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Use MID certificate policy check
 
 </td><td>
 
-Option to enable the MID certificate policy check.Select this option if you want to ship your logs encrypted using SSL TLS. Then navigate to **All** &gt; **MID Server** &gt; **MID Security Policy** and add the MID certificate policy check to the table. For more information, see [MID Server certificate check policies](https://www.servicenow.com/docs/access?context=mid-security-checks&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Option to enable the MID certificate policy check.Select this option if you want to ship your logs encrypted using SSL TLS. Then navigate to **All** &gt; **MID Server** &gt; **MID Security Policy** and add the MID certificate policy check to the table. For more information, see MID Server certificate check policies.
 
 </td></tr><tr><td>
 

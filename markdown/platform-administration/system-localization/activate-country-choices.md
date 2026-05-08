@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-By default, you can select from only a limited list of countries in the Next Experience language and region preferences or in a User record. To allow users to select from additional countries, administrators can activate choices for the Country code field on the User \[sys\_user\] table. For more information about the Country user preference, see [Configure Next Experience language and region preferences](https://www.servicenow.com/docs/access?context=next-experience-language-preferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+By default, you can select from only a limited list of countries in the Next Experience language and region preferences or in a User record. To allow users to select from additional countries, administrators can activate choices for the Country code field on the User \[sys\_user\] table. For more information about the Country user preference, see Configure Next Experience language and region preferences.
 
 ## Procedure
 

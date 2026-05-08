@@ -18,9 +18,9 @@ Request the contextual generative AI capabilities to summarize procurement-relat
 
 ## Before you begin
 
-Make sure that Next Experience is enabled in the instance. For more information, see [Next Experience UI](https://www.servicenow.com/docs/access?context=next-experience-landing-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Make sure that Next Experience is enabled in the instance. For more information, see Next Experience UI.
 
-Make sure that [AI search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and Now Assist panel are enabled in the instance.
+Make sure that AI search and Now Assist panel are enabled in the instance.
 
 Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
@@ -28,7 +28,7 @@ Role required: sn\_spend\_gen\_ai.now\_assist\_fulfiller
 
 You can use the Now Assist panel in Source-to-Pay Workspace to summarize procurement-related records.
 
-For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For information about activating the Now Assist panel, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about the Now Assist panel, see Now Assist panel. For information about activating the Now Assist panel, see Activate the Now Assist panel standard chat.
 
 ## Procedure
 
@@ -45,15 +45,15 @@ For more information about the Now Assist panel, see [Now Assist panel](https://
     -   Sourcing event summarization for fulfillers
 4.  After you request the generative AI capabilities, you can summarize procurement-related records.
 
-<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d88215e192">
+<table id="choicetable_zpy_5dx_dfc"><thead><tr><th align="left" id="d88220e192">
 
 Option
 
-</th><th align="left" id="d88215e195">
+</th><th align="left" id="d88220e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d88215e201">
+</th></tr></thead><tbody><tr><td id="d88220e201">
 
 **Summarize a record**
 

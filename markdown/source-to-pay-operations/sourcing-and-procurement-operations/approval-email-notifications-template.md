@@ -24,8 +24,8 @@ You may also reject the request, which redirects you to Employee Center to compl
 These email notifications are triggered for new, due soon, and overdue approval to-dos in templates that customers can easily configure to meet their specific business requirements.
 
 -   Customers can modify the email content in flow designer or email scripts, according to their requirements.
--   They can also choose to fetch and use other details that aren’t displayed in the email by default, such as order type for purchase requisitions, product type or request type for sourcing requests, and so on. For detailed information on email templates and how to work with them, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Customers can also configure the email layout, and change the background color or font color, for example. The html field in the email layout record must be modified to achieve this. For detailed information on email layouts and how to work with them, see [Email layouts](https://www.servicenow.com/docs/access?context=email-layouts&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   They can also choose to fetch and use other details that aren’t displayed in the email by default, such as order type for purchase requisitions, product type or request type for sourcing requests, and so on. For detailed information on email templates and how to work with them, see Email templates.
+-   Customers can also configure the email layout, and change the background color or font color, for example. The html field in the email layout record must be modified to achieve this. For detailed information on email layouts and how to work with them, see Email layouts.
 
 **Parent Topic:**[Approve a request from Employee Center](../task/approve-request-from-employee-center.md)
 

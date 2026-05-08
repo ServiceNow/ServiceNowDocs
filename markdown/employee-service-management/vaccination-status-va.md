@@ -17,7 +17,7 @@ A ServiceNow® Virtual Agent conversation topic defines the dialog between the V
 
 ## Installation and setup requirements
 
-To use Virtual Agent with SMS, your organization must have a Twilio account and phone number. You must also install the Virtual Agent plugin \(com.glide.cs.chatbot\) and set up the Conversational SMS Integration with Twilio application \(sn\_va\_sms\_twilio\). For more information, see [Set up the Conversational SMS Integration with Twilio](https://www.servicenow.com/docs/access?context=configure-twilio-adapter&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To use Virtual Agent with SMS, your organization must have a Twilio account and phone number. You must also install the Virtual Agent plugin \(com.glide.cs.chatbot\) and set up the Conversational SMS Integration with Twilio application \(sn\_va\_sms\_twilio\). For more information, see Set up the Conversational SMS Integration with Twilio.
 
 On-premise customers who install the Safe Workplace applications in the Rome release for the first time require a scoped admin role to create an approved scope-to-scope Restricted Caller Access \(RCA\) record in Vaccination Status. This cross-scoped access is required for Conversational SMS Integration with Twilio to function in the Vaccination Status application.
 
@@ -31,7 +31,7 @@ The RCA record should have the following values set:
 |Application|Vaccination Status|
 |Target Type|Scope|
 
-For more information on creating caller access records, see [Set application scope, application resource, and event access](https://www.servicenow.com/docs/access?context=scope-resource-access&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on creating caller access records, see Set application scope, application resource, and event access.
 
 ## Configuration
 
@@ -43,7 +43,7 @@ Privacy consent for Vaccination Status must be configured before users can repor
 
 Vaccination Status uses an SMS outreach to let users know that they can report their vaccination status via SMS. The outreach provides users with the information that they need to begin interacting with the Vaccine Virtual Agent conversation. To configure the outreach, add users to the placeholder Vaccination status request audience. For detailed instructions about adding users to an audience, see [Add a Safe Workplace audience](../../employee-readiness-core/task/add-safe-workplace-audience.md). Then, add the audience to the placeholder Vaccination status request outreach and make any modifications to the outreach if needed, such as scheduling a time to send.
 
-Once users receive the SMS outreach, they can report their vaccination status through the Vaccine Virtual Agent conversation. The Vaccine conversation topic is ready to use without modifications, but can be customized to meet your organization's requirements. To view or edit the Vaccine conversation topic, navigate to **Collaboration** &gt; **Virtual Agent** &gt; **Designer**. For more information about updating conversation topics, see [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Once users receive the SMS outreach, they can report their vaccination status through the Vaccine Virtual Agent conversation. The Vaccine conversation topic is ready to use without modifications, but can be customized to meet your organization's requirements. To view or edit the Vaccine conversation topic, navigate to **Collaboration** &gt; **Virtual Agent** &gt; **Designer**. For more information about updating conversation topics, see Virtual Agent Designer.
 
 The Vaccine conversation provides the user with options to select which type of vaccine they received. These options are pulled from the Vaccine response definition table \[sn\_imt\_vaccine\_vaccine\_response\_definition\]. To set the display name for a vaccine type, enter the name in the **SMS friendly name** field on the vaccine response definition record.
 

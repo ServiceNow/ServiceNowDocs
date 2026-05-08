@@ -63,13 +63,13 @@ The search results are sorted in the following order based on the frequency of t
 **Related topics**  
 
 
-[Search administration](https://www.servicenow.com/docs/access?context=search-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.search-administration]
 
 [Service Catalog for managers and end users](../concept/c_UsingTheServiceCatalog.md)
 
-[Regenerate a text index for a table](https://www.servicenow.com/docs/access?context=t_RegenerateATextIndexForATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_RegenerateATextIndexForATable]
 
-[Configure a "Did You Mean?" suggestion](https://www.servicenow.com/docs/access?context=t_ConfigureADidYouMeanSuggestion&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_ConfigureADidYouMeanSuggestion]
 
 [Create or edit a catalog item](t_DefineACatalogItem.md#)
 

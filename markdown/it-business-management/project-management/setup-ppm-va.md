@@ -19,7 +19,7 @@ Enable Virtual Agent for PPM to start chatting with the Virtual Agent.
 
 Role required: admin, virtual\_agent\_admin
 
-The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize a topic, duplicate it and then edit it. See [Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+The base system provides predefined Virtual Agent topics \(chatbot conversations\). To customize a topic, duplicate it and then edit it. See Virtual Agent Designer
 
 ## Procedure
 

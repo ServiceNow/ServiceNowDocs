@@ -23,7 +23,7 @@ See [Get advice on CMDB governance from Now Assist](../task/na-cmdb-awf-cmdb-gov
 
 This topic includes overviews of the actions of AI agents.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 ## Provide advice on CMDB governance agentic workflow
 
@@ -37,7 +37,7 @@ The Provide advice on CMDB governance agentic workflow supports admins and owner
 
 This section presents overviews of the actions of the AI agents that the CMDB governance agentic workflow uses.
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 -   **CMDB principal class manager AI agent**
 

@@ -23,7 +23,7 @@ Role required: sn\_imt\_core.reader
 
 1.  Send a GET request to the Table API on your instance.
 
-    For more information, see [Table API](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information, see Table API.
 
     1.  Construct the endpoint using the Health and Safety User \[sn\_imt\_core\_health\_and\_safety\_user\] table.
 

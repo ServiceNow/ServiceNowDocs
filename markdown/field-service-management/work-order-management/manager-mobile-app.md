@@ -19,7 +19,7 @@ Field Service Manager Mobile is available for any user who has the wm\_manager, 
 
 ## Using Now Assist on the Field Service Manager Mobile
 
-If your organization has Now Assist for Field Service Management \(FSM\) installed you can access your virtual agent by tapping the **More actions** icon in the top right, then selecting Ask Now Assist. For more information on using Now Assist on your mobile device, see [Mobile Now Assist display experience for Virtual Agent](https://www.servicenow.com/docs/access?context=mobile-na-display-experience-va&version=australia&pubname=australia-mobile&ft:locale=en-US). For more information on Now Assist for Field Service Management \(FSM\), see [Now Assist for Field Service Management \(FSM\)](../reference/now-assist-fsm.md).
+If your organization has Now Assist for Field Service Management \(FSM\) installed you can access your virtual agent by tapping the **More actions** icon in the top right, then selecting Ask Now Assist. For more information on using Now Assist on your mobile device, see Mobile Now Assist display experience for Virtual Agent. For more information on Now Assist for Field Service Management \(FSM\), see [Now Assist for Field Service Management \(FSM\)](../reference/now-assist-fsm.md).
 
 ## Offline mode
 

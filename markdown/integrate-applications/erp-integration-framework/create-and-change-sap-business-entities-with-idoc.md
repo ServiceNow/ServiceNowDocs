@@ -27,7 +27,7 @@ You must have the sn\_erp\_integration.erp\_admin role to create and edit models
 Complete the following steps to work with IDoc entities in Zero Copy Connector for ERP:
 
 1.  Manage partner profiles. For more information, see [View Zero Copy Connector for ERP partner profile information](../task/view-erp-system-partner-profile-information.md).
-2.  Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see [sn\_erp\_integration API - Scoped, Global](https://www.servicenow.com/docs/access?context=sn_erp_integrationBothAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+2.  Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples for using the API, see sn\_erp\_integration API - Scoped, Global.
 3.  Add an IDoc entity to a model. For more information, see [Add an IDoc entity to a model operation](../task/add-an-idoc-entity-to-a-model-operation.md).
 4.  Create an outbound message. For more information, see [Create an IDoc outbound message configuration in Zero Copy Connector for ERP](../task/create-an-idoc-outbound-message-configuration.md).
 5.  Manage IDoc outbound messages. For more information, see [View and troubleshoot IDoc messages](../task/view-and-troubleshoot-idoc-messages.md).

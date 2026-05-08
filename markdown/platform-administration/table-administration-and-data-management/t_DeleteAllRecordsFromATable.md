@@ -23,8 +23,8 @@ Role required: admin
 
 When you prepare to delete many records from a table, consider the following guidelines to minimize impact on performance.
 
--   Limit the number of records to be deleted in a single delete action to prevent the table from being locked. Use the setLimit\(\) method described at [setLimit](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Minimize triggering an excessive number of business rules as a result of this deletion. Use the setWorkflow\(Boolean e\) method described at [setWorkflow](https://www.servicenow.com/docs/access?context=c_GlideRecordScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Limit the number of records to be deleted in a single delete action to prevent the table from being locked. Use the setLimit\(\) method described at setLimit.
+-   Minimize triggering an excessive number of business rules as a result of this deletion. Use the setWorkflow\(Boolean e\) method described at setWorkflow.
 
 **Note:** Deleting all records for a table also deletes records from tables that extend the table.
 
@@ -38,7 +38,7 @@ There are several methods for deleting table records. Depending on the number of
 
     2.  Select the table for which to delete records.
 
-        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See [Restricted caller access privilege settings](https://www.servicenow.com/docs/access?context=restricted-caller-access-privilege&version=australia&pubname=australia-application-development&ft:locale=en-US).
+        **Note:** If the table you want to delete records from belongs to a scoped application, select that application in the scope picker. Alternatively, configure scope-to-scope access. See Restricted caller access privilege settings.
 
         ![Tables and Columns](../image/tables_and_columns.png)
 

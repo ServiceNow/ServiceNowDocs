@@ -17,7 +17,7 @@ Use the Target form to track and measure the progress of the goals.
 
 Some of the fields on the form is available when the Goal Framework for SPM application is installed.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields that aren't added to the default view or your custom form view on the form in the workspace, configure the default or custom form layout. For information on how to configure the form layout, see Configuring the form layout.
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 

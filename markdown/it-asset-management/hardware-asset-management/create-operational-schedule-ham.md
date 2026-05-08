@@ -57,7 +57,7 @@ Parent
 
 </td><td>
 
-Parent schedule that constraints the new schedule.For more details, see [Parent and child schedules](https://www.servicenow.com/docs/access?context=c_ParentAndChildSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Parent schedule that constraints the new schedule.For more details, see Parent and child schedules.
 
 </td></tr><tr><td>
 
@@ -88,7 +88,7 @@ Description of the operational schedule.
 
     3.  On the Schedule Entry New record, fill in the fields.
 
-        For details on Schedule Entry New record fields, see [Schedule entry fields](https://www.servicenow.com/docs/access?context=r_ScheduleEntryFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For details on Schedule Entry New record fields, see Schedule entry fields.
 
     4.  Select **Submit**.
 

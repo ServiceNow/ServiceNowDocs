@@ -19,15 +19,15 @@ New customers automatically have the ServiceNow® AI Search application configur
 
 If you are an existing customer, you can configure HR Service Delivery to use the ServiceNow® AI Search application.
 
-For more information, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see AI Search.
 
 -   **Configuration**
 
-    For detailed information on configuring the ServiceNow® AI Search application, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed information on configuring the ServiceNow® AI Search application, see Configuring AI Search.
 
     Use the **Search Application Configuration** form to associate the AI Search engine with an HR Service Delivery application.
 
-    **Note:** For more information, see [Create a search application configuration for AI Search](https://www.servicenow.com/docs/access?context=create-search-app-config-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information, see Create a search application configuration for AI Search.
 
     In the **Search Application Configuration** form, you must also choose a **Search Profile**. The search profile determines the search sources and conditions for people, articles, and services.
 
@@ -47,19 +47,19 @@ For more information, see [AI Search](https://www.servicenow.com/docs/access?con
     -   Typo Handling
     -   Genius Results
     -   Result Improvement Rules
-    **Note:** For more information, see [Defining search profiles](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** For more information, see Defining search profiles.
 
 -   **Integration**
 
-    For detailed information on integrating AI Search with HR Service Delivery, see [Integrating AI Search into your application](https://www.servicenow.com/docs/access?context=integrate-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For detailed information on integrating AI Search with HR Service Delivery, see Integrating AI Search into your application.
 
 -   **Administration**
 
-    Learn how the AI Search features and behavior affect indexing and search. For more information, see [Administering AI Search](https://www.servicenow.com/docs/access?context=administer-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Learn how the AI Search features and behavior affect indexing and search. For more information, see Administering AI Search.
 
 -   **Using**
 
-    See how AI Search displays results, how to use refinement filter options, and Genius Result answers. For more information, see [Using AI Search](https://www.servicenow.com/docs/access?context=use-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    See how AI Search displays results, how to use refinement filter options, and Genius Result answers. For more information, see Using AI Search.
 
 -   **ServiceNow® Mobile**
 
@@ -67,11 +67,11 @@ For more information, see [AI Search](https://www.servicenow.com/docs/access?con
 
 -   **Service Portal or Employee Center**
 
-    Configure AI Search for the Service Portal or Employee Center \(EC\) so your users can take advantage of this powerful search tool. For more information, see [AI Search in Service Portal](https://www.servicenow.com/docs/access?context=ai-search&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Configure AI Search for the Service Portal or Employee Center \(EC\) so your users can take advantage of this powerful search tool. For more information, see AI Search in Service Portal.
 
 -   **Virtual Agent**
 
-    Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see [Virtual Agent integration with AI Search](https://www.servicenow.com/docs/access?context=va-ai-search&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    Virtual Agent uses AI Search to return search results in bot conversations when there are no relevant topics to display. For more information, see Virtual Agent integration with AI Search.
 
 
 **Parent Topic:**[Integration of HR Service Delivery with ServiceNow applications](integrate-hr-platform-apps.md)

@@ -71,7 +71,7 @@ If you've installed the SAP publisher pack, see [Record publisher details for SA
 
     When you add an attribute value, entitlements with this publisher information associated with them automatically have the **Metric Group** field populated. Based on the metric group, only license metrics related to the publisher are available.
 
-10. To associate your software model with a vendor, select the [Vendor Catalog Item related list](https://www.servicenow.com/docs/access?context=t_CreateAVendorCatalogItem&version=australia&pubname=australia-it-service-management&ft:locale=en-US) and complete the form.
+10. To associate your software model with a vendor, select the Vendor Catalog Item related list and complete the form.
 
 11. To specify the number of devices or users that are accessing the software, select the [Client Access related list](../reference/software-model-fields.md#section_yhc_y3q_l3b) and complete the form.
 

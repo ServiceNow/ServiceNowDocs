@@ -17,13 +17,13 @@ The ServiceNow® Zero Copy Connector for ERP application lets you connect to the
 -   Use REST APIs to extend beyond SAP systems.
 -   Improved AI suggestions and interface for mapping fields in the Model Manager.
 
-See [Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context=erp-integration-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See Zero Copy Connector for ERP for more information.
 
 **Important:** Zero Copy Connector for ERP is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Support for REST APIs](https://www.servicenow.com/docs/access?context=erp-integration-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Support for REST APIs**
 
     Connect to ERPs using REST APIs for read and write operations.
 
@@ -31,15 +31,15 @@ See [Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context
 
     Discover relevant SAP OData v2 services for your models using the OData Services Recommender AI agent. This reduces missed integration opportunities and accelerates development by finding standard SAP capabilities that align with your use cases.
 
--   **[Implement and deploy faster with the ERP Hire to Retire content pack](https://www.servicenow.com/docs/access?context=erp-canvas-content-packs&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Implement and deploy faster with the ERP Hire to Retire content pack**
 
     Use the Hire to Retire content pack containing models to get Zero Copy Connector for ERP running on your instance faster.
 
--   **[Improved mapping visualization and review interface in the Model Manager](https://www.servicenow.com/docs/access?context=erpc-manage-model-inputs&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Improved mapping visualization and review interface in the Model Manager**
 
     View, review, and manage generated field mapping proposals through enhanced visualization tools in the Model Manager. Accept individual mapping suggestions or auto-apply entire mapping sets with a single action.
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -51,15 +51,15 @@ See [Zero Copy Connector for ERP](https://www.servicenow.com/docs/access?context
 
 ## Changed in this release
 
--   **[Improved ETL data extractions](https://www.servicenow.com/docs/access?context=set-up-erp-integration-connection&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Improved ETL data extractions**
 
     The ETL process was refactored from Flow Designer to script includes for better performance and reliability.
 
--   **[Zero Copy Connector for ERP Data Products renamed to Content Packs](https://www.servicenow.com/docs/access?context=erp-canvas-available-content-packs&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Zero Copy Connector for ERP Data Products renamed to Content Packs**
 
     All ERP Data Products, such as Enterprise Data Foundation, Quote to Cash, and Source to Settle are renamed to Content Packs.
 
--   **[Zero Copy Connector for ERP Enterprise Data Foundation content pack](https://www.servicenow.com/docs/access?context=erp-canvas-enterprise-data-foundation-content-pack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Zero Copy Connector for ERP Enterprise Data Foundation content pack**
 
     Additional models, including Vendor Bank Details, Vendor Location Details, and Vendor Contact Details are added to the content pack for use when interacting with an SAP system.
 
@@ -74,15 +74,15 @@ SAP ECC and SAP S/4 HANA are currently the only available systems that integrate
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Zero Copy Connector](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Now Assist for Zero Copy Connector**
 
     The Now Assist for Zero Copy Connector application includes generative AI skills and AI agents that can help you use Zero Copy Connectors efficiently.
 
--   **[ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **ServiceNow Studio**
 
     Use ServiceNow Studio to build apps and app files based on ERP data.
 
--   **[Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US)**
+-   **Workflow Studio**
 
     Integrate workflow authoring, configuring, and monitoring into a single-page experience. Consolidate Playbooks, Workflow Studio, Workflow Studio, Integration Hub integrations, and Decision Builder into one design environment.
 

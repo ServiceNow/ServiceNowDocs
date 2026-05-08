@@ -96,7 +96,7 @@ Connection &amp; Credential
     -   Connection Type: **HTTP**.
     -   Support Multiple Active Connections: Not selected.
     -   Default Retry Policy: **Default HTTP Retry Policy**.
-    -   Configuration Template: If you're using the OAuth authorization code grant type, **OAuth Authorization Code**. If you're using an API token, **Basic Auth with API Key**. If you're using another authentication method, create a configuration template. For more information, see [Create a configuration template](https://www.servicenow.com/docs/access?context=create-template&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Configure a template for OAuth JWT Bearer grant type](https://www.servicenow.com/docs/access?context=docusign-example&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   Configuration Template: If you're using the OAuth authorization code grant type, **OAuth Authorization Code**. If you're using an API token, **Basic Auth with API Key**. If you're using another authentication method, create a configuration template. For more information, see Create a configuration template and Configure a template for OAuth JWT Bearer grant type.
 4.  Select **Submit**.
 
 

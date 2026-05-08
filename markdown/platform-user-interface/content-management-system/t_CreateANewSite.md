@@ -21,7 +21,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-If you are creating a catalog site in CMS, see [Using the content management system with the service catalog](https://www.servicenow.com/docs/access?context=p_ConfigureContentManagementSystem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If you are creating a catalog site in CMS, see Using the content management system with the service catalog.
 
 ## Procedure
 

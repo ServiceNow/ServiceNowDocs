@@ -31,7 +31,7 @@ Now Assist Analytics supports domain separation only for indicators using the fo
 -   \[Now Assist Analytics\] Daily Data Collection
 -   \[Now Assist Analytics\] Historical Data Collection
 
-See [Approaches to Performance Analytics with domain separation](https://www.servicenow.com/docs/access?context=pa-domain-configurations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) for more information on applying domain separation configuration.
+See Approaches to Performance Analytics with domain separation for more information on applying domain separation configuration.
 
 **Note:** Be sure to check the Run as field in the data collection job records has a valid user.
 

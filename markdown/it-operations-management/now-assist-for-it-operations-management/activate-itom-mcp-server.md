@@ -52,7 +52,7 @@ To use the CI reliability and SLO tools described in [Review CI reliability with
 
 2.  Set up OAuth to securely authenticate the ITOM MCP Server with your ServiceNow instance.
 
-    Refer to the instructions in [Connecting to an MCP server from an MCP client](https://www.servicenow.com/docs/access?context=connect-mcp-server-client&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to setup the OAuth and connect to the MCP Server.
+    Refer to the instructions in Connecting to an MCP server from an MCP client to setup the OAuth and connect to the MCP Server.
 
     **Note:** To set up your own OAuth connection, you need either an oauth\_admin, or admin role to configure your OAuth client entry.
 
@@ -60,11 +60,11 @@ To use the CI reliability and SLO tools described in [Review CI reliability with
 **Related topics**  
 
 
-[MCP Server Console](https://www.servicenow.com/docs/access?context=mcp-platform-manager-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.mcp-server-console-landing]
 
-[Configuring MCP Server Console](https://www.servicenow.com/docs/access?context=configuring-mcp-server-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.configuring-mcp-server-console]
 
-[Connecting to an MCP server from an MCP client](https://www.servicenow.com/docs/access?context=connect-mcp-server-client&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.connect-mcp-server-client]
 
-[Install Model Context Protocol Client](https://www.servicenow.com/docs/access?context=install-mcp-client&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.install-mcp-client]
 

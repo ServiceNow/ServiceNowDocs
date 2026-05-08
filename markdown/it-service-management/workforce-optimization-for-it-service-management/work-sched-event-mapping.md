@@ -51,15 +51,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d139635e216">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d139631e216">
 
 To Attach
 
-</th><th align="left" id="d139635e219">
+</th><th align="left" id="d139631e219">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d139635e225">
+</th></tr></thead><tbody><tr><td id="d139631e225">
 
 **The __CARD\_CLICKED__ event**
 
@@ -71,7 +71,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d139635e272">
+</td></tr><tr><td id="d139631e272">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 
@@ -100,5 +100,5 @@ Do this
 **Related topics**  
 
 
-[Events in UI Builder](https://www.servicenow.com/docs/access?context=work-events&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.work-events]
 

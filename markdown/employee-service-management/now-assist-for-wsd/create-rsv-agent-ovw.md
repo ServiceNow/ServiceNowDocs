@@ -19,14 +19,14 @@ Employees can interact with the reservation agent and collaboration agent using 
 
 Visit these resources about Now Assist in Virtual Agent.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see [Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see Now Assist in Virtual Agent system properties.
 
--   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Portal prerequisites for enhanced chat](https://www.servicenow.com/docs/access?context=prerequisites-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Exploring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Enhanced chat
+-   Now Assist in Virtual Agent
+-   Portal prerequisites for enhanced chat
+-   Configuring assistants overview
+-   Using Now Assist in Virtual Agent
+-   Exploring Now Assist in Virtual Agent
 
 -   **[Making reservations using the Create a reservation agent](using-reservation-agent.md)**  
 The Create a reservation agent enables employees to find an available space and create workplace reservations quickly. Employees can interact with the reservation agent using the Now Assist in Virtual Agent enhanced chat interface in Employee Center. They can also use the Now Mobile® chat interface for interacting with the Virtual Agent.

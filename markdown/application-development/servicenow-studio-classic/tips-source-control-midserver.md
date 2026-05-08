@@ -37,8 +37,8 @@ On the MID Server, the bundle file is saved in the Import folder. This folder is
 
 **Note:** Source control operations can take more time for larger applications when using an MID server, as the entire app is bundled after an export and is dependant on the size of the app.
 
--   Avoid conflicts with Discovery and create files for the system attachment \[sys\_attachment\] table: [MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   Learn about system properties restrictions: [Configure attachment system properties](https://www.servicenow.com/docs/access?context=t_DisablingTheDragAndDropFeature&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Avoid conflicts with Discovery and create files for the system attachment \[sys\_attachment\] table: MID Server
+-   Learn about system properties restrictions: Configure attachment system properties
 
 **Parent Topic:**[Legacy - Link an application or application-customization to source control](../task/t_LinkAnApplicationToSourceControl.md)
 

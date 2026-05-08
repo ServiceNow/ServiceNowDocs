@@ -90,5 +90,5 @@ The credential for use with the Nagios XI server connector is created.
 **Related topics**  
 
 
-[Credentials and connection information](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.r-credentials]
 

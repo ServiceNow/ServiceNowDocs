@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-Now Assist skills use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine the data that the roles can access.
+Now Assist skills use role masking to determine the data that the roles can access.
 
 In Contract Management Pro - Prime, the following roles are configured with the base system to provide necessary data access to the Now Assist skills.
 

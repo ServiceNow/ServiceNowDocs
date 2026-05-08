@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.
 
-This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to Advanced Work Assignment.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -189,7 +189,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -545,9 +545,9 @@ Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](agent-api.md#)
 
 See also:
 
--   [Service channel capacity and utilization](https://www.servicenow.com/docs/access?context=awa-service-channel-capacity&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Create or configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Configure an agent's maximum universal capacity](https://www.servicenow.com/docs/access?context=awa-universal-capacity&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 
@@ -664,7 +664,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -947,7 +947,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1105,7 +1105,7 @@ Flag that indicates whether to check for inactivity of this presence state.Valid
 
  Default: false
 
- For information on how to modify this setting, see [Configure agent presence states](https://www.servicenow.com/docs/access?context=awa-configure-agent-presence&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+ For information on how to modify this setting, see Configure agent presence states.
 
 </td></tr><tr><td>
 
@@ -1398,7 +1398,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1757,9 +1757,9 @@ Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](agent-api.md#)
 
 See also:
 
--   [Service channel capacity and utilization](https://www.servicenow.com/docs/access?context=awa-service-channel-capacity&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Create or configure a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Configure an agent's maximum universal capacity](https://www.servicenow.com/docs/access?context=awa-universal-capacity&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 

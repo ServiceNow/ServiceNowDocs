@@ -20,7 +20,7 @@ A PDF document template originates from a fillable PDF or a standard PDF with in
 You can create a PDF document template either:
 
 -   uploading a fillable, editable PDF document into the form.
--   using a PDF from [Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   using a PDF from Managed Documents.
 
 The following flow describes how you can use a PDF document template from configuring the template until filling, signing, reviewing, and generating a PDF document.
 

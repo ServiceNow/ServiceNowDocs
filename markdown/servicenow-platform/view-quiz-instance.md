@@ -125,5 +125,5 @@ All instance question records that store user response values for each question 
 **Related topics**  
 
 
-[Event scheduling](https://www.servicenow.com/docs/access?context=c_ScheduleEvents&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScheduleEvents]
 

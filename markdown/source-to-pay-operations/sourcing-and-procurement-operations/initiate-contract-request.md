@@ -19,7 +19,7 @@ Initiate a contract request from the Source-to-Pay workspace.
 
 Role required: admin or fulfiller
 
-To initiate a contract request, you must have already added a contract template and created template rules. For more information on how to add a contract template, see [Configure templates for a contract and amendment request in Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-document-templates&version=australia&pubname=australia-employee-service-management&ft:locale=en-US). For more information on how to create template rules, see [Configure contract template rules](https://www.servicenow.com/docs/access?context=cncore-config-template-rules&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+To initiate a contract request, you must have already added a contract template and created template rules. For more information on how to add a contract template, see Configure templates for a contract and amendment request in Contract Management Pro. For more information on how to create template rules, see Configure contract template rules.
 
 You can initiate contract requests from the related work section, the Dynamic Related Records \(DRR\) contextual side panel, and the playbook.
 

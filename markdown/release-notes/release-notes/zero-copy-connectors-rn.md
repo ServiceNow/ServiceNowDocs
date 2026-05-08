@@ -21,75 +21,75 @@ The ServiceNow® Zero Copy Connectors application unifies data from across the e
 -   Include either primary connectors only both primary and community connectors.
 -   Connect to Teradata using Bearer Token and OAuth authentication.
 
-See [Zero Copy Connectors](https://www.servicenow.com/docs/access?context=zero-copy-connectors&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) for more information.
+See Zero Copy Connectors for more information.
 
 **Important:** The Zero Copy Connectors app is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Cloudera Impala](https://www.servicenow.com/docs/access?context=cloudera-impala-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Cloudera Impala**
 
     Retrieve data from Cloudera Impala in real time without copying or duplicating the data.
 
 -   **[Australia Patch 1](../quality/australia-patch-1.md)**
 
-    [Connect to Prometheus](https://www.servicenow.com/docs/access?context=prometheus-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    Connect to Prometheus
 
     Retrieve data from Prometheus in real time without copying or duplicating the data.
 
--   **[Connect to another ServiceNow® instance](https://www.servicenow.com/docs/access?context=servicenow-remote-instance-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Connect to another ServiceNow® instance**
 
     Retrieve data from another ServiceNow® instance in real time without copying or duplicating the data.
 
--   **[OAuth authentication](https://www.servicenow.com/docs/access?context=create-databricks-connection-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **OAuth authentication**
 
     Configure OAuth authentication in Databricks, Oracle, and Snowflake connectors.
 
 
 ## UI changes
 
--   **[New application name](https://www.servicenow.com/docs/access?context=zero-copy-connectors&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **New application name**
 
     Workflow Data Fabric Hub is now Zero Copy Connector Hub.
 
 -   **[Australia Patch 1](../quality/australia-patch-1.md)**
 
-    [New connector package options](https://www.servicenow.com/docs/access?context=zero-copy-connectors&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    New connector package options
 
     When installing Zero Copy Connectors, you can either include primary connectors only by selecting Zero Copy Connectors Primary \(sn\_zcc\_primary\), or include both primary and community connectors by selecting Zero Copy Connectors \(sn\_data\_fabric\_zcc\).
 
 
 ## Changed in this release
 
--   **[Apache Iceberg primary connector](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Apache Iceberg primary connector**
 
     The Apache Iceberg connector is now certified as a primary connector.
 
--   **[Primary connectors in preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)**
+-   **Primary connectors in preview**
 
     Primary connectors that are still being enhanced to include all planned functionality are now marked with a Preview label. These connectors are fully supported by ServiceNow®.
 
 -   **[Australia Patch 1](../quality/australia-patch-1.md)**
 
-    [Amazon S3 Tables connector — Preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    Amazon S3 Tables connector — Preview
 
     The Amazon S3 Tables connector is now available with a Preview label, indicating that enhancements are ongoing. This connector is fully supported by ServiceNow®.
 
 -   **[Australia Patch 1](../quality/australia-patch-1.md)**
 
-    [Apache Iceberg connector — Preview](https://www.servicenow.com/docs/access?context=primary-connectors-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    Apache Iceberg connector — Preview
 
     The Apache Iceberg connector is now available with a Preview label, indicating that enhancements are ongoing. This connector is fully supported by ServiceNow®.
 
 -   **[Australia Patch 2](../quality/australia-patch-2.md)**
 
-    [Teradata](https://www.servicenow.com/docs/access?context=teradata-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    Teradata
 
     The Teradata connector now supports Bearer Token and OAuth authentication methods.
 
 -   **[Australia Patch 2](../quality/australia-patch-2.md)**
 
-    [Apache Iceberg](https://www.servicenow.com/docs/access?context=apache-iceberg-primary-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    Apache Iceberg
 
     The Apache Iceberg connector now supports S3-compatible object storage systems.
 
@@ -98,7 +98,7 @@ See [Zero Copy Connectors](https://www.servicenow.com/docs/access?context=zero-c
 
 Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://docs.servicenow.com/bundle/store-release-notes/page/release-notes/store/sn-store-release-notes.html).
 
-Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://www.servicenow.com/docs/access?context=request-zcc&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see Request Zero Copy Connectors.
 
 ## Plugin information
 

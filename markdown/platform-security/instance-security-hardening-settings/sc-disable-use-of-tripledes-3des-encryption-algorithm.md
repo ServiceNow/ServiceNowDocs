@@ -37,7 +37,7 @@ The **glide.security.3des.encryption.allow** system property controls whether 3D
 |Fallback value|false|
 |Recommended value|false|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see Add a system property.
 
 **Parent Topic:**[Stored cryptography](sc-stored-cryptography.md)
 

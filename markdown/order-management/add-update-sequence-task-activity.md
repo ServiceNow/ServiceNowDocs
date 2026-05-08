@@ -37,7 +37,7 @@ Add the Update sequence task activity with other activities in a stage or in its
 
 5.  In the sequence diagram, create a stage to add the activity.
 
-    For more information, see [Add and configure a stage in a playbook](https://www.servicenow.com/docs/access?context=add-configure-stage&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see Add and configure a stage in a playbook.
 
 6.  Within the stage, select the Add icon ![](../../../reuse/icons/product-icons/circle-plus-fill-24.svg).
 

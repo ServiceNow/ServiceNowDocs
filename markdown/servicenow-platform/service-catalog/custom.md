@@ -21,7 +21,7 @@ This variable inserts a UI macro into the catalog item.
 
 UI macros in the service catalog do not support the following glide\_list functions: clickthrough, slushbucket editing, and email field.
 
--   Use [phase one](https://www.servicenow.com/docs/access?context=c_ExtensionsToJellySyntax&version=australia&pubname=australia-api-reference&ft:locale=en-US) Jelly only for any UI macros added as variables. Phase two Jelly within the macro is not processed and appears on the page as standard content.
+-   Use phase one Jelly only for any UI macros added as variables. Phase two Jelly within the macro is not processed and appears on the page as standard content.
 -   This variable is not yet supported on Classic Mobile devices.
 -   This variable is supported in Service Portal through widgets. Create a widget with the same functionality as that of a macro and link the widget with the variable.
 

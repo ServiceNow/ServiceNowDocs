@@ -29,11 +29,11 @@ Verify you’ve installed the following Integration Hub plugins on your ServiceN
 -   Cisco Webex Teams Spoke \(sn\_cisco\_teams\_spk\)
 -   Notify UI Components for Configurable Workspaces
 
-For more information, see [Request IntegrationHub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+For more information, see Request IntegrationHub.
 
 ## Configuration
 
-To configure the MSIM Conference Call Cisco Webex integration using the Notify communication channel, see [Configure Notify Cisco Webex Connector](https://www.servicenow.com/docs/access?context=setup-cisco-webex-notify&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To configure the MSIM Conference Call Cisco Webex integration using the Notify communication channel, see Configure Notify Cisco Webex Connector.
 
 -   **[Use the Conference Calls Cisco Webex integration](../task/using-conf-call-webex-integration.md)**  
 The following steps give you a walkthrough of how you can manage and initiate a Cisco Webex conference call directly from a major security incident.

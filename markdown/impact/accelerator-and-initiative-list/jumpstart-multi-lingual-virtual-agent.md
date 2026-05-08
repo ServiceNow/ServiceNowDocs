@@ -19,7 +19,7 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 Jumpstart Your Multi-lingual Virtual Agent Accelerator provides Impact customers with a demonstration of the possibilities and capabilities of Dynamic Translation. A demonstration of how Dynamic Translation works using Virtual Agent conversations, within AI Search via a temporary cloned instance, and hand-offs to Live Agent are included. Leading practices to get started are also incorporated.
 
-See [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for additional information on Virtual Agent.
+See Virtual Agent for additional information on Virtual Agent.
 
 **Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
 

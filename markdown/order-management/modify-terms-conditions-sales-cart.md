@@ -39,7 +39,7 @@ The CartTermsAndCo document template block in the Sales Cart Demo Template and S
 **Related topics**  
 
 
-[Document Templates](https://www.servicenow.com/docs/access?context=document-templates-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[bundle-emplsm.document-templates-overview]
 
-[Create block content in Document Templates](https://www.servicenow.com/docs/access?context=create-doc-blc-cnt&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[bundle-emplsm.create-doc-blc-cnt]
 

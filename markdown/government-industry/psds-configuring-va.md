@@ -24,9 +24,9 @@ As admins or topic authors \(users with the virtual\_agent\_admin role\), you ca
 
 Before you or your topic authors \(users with the virtual\_agent\_admin role\) create or modify Virtual Agent conversations, meet the following prerequisites for working with prebuilt topics and topic blocks in Virtual Agent Designer:
 
--   [Activate the Glide Virtual Agent plugin](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) \(com.glide.cs.chatbot\) to access platform topics and topic blocks and run Virtual Agent Designer.
--   [Activate the Customer Service Virtual Agent plugin](https://www.servicenow.com/docs/access?context=activate-virtual-agent-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) \(com.sn\_csm.virtualagent\) to access prebuilt Customer Service Management conversations and topic blocks.
--   [Become familiar with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to create and update conversation topics.
+-   Activate the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) to access platform topics and topic blocks and run Virtual Agent Designer.
+-   Activate the Customer Service Virtual Agent plugin \(com.sn\_csm.virtualagent\) to access prebuilt Customer Service Management conversations and topic blocks.
+-   Become familiar with Virtual Agent Designer to create and update conversation topics.
 -   [Install Public Sector Digital Services Core](../task/install-public-sector-digital-services-core.md) application to access public sector topic blocks that can be used in public sector conversations.
 -   [Install Service Request Playbook for Public Sector Digital Services](../task/install-psds-service-request-playbook.md) to access the prebuilt topic, **Create a Service Request**.
 -   [Install License and Permit Playbook for Public Sector Digital Services](../task/install-psds-license-permit-request-playbook.md) to access the prebuilt topic, **Start a License/Permit Application**.
@@ -43,9 +43,9 @@ These blocks are subflows that run conversational elements or common tasks in a 
 2.  In Virtual Agent Designer, search for the corresponding topic block.
     -   For Service Request Playbook requests, search for and select **Create a Service Request**.
     -   For License and Permit Playbook requests, search for and select **Start a License/Permit Application**. For more information, see [Configure Virtual Agent for License and Permit Playbook](psds-lpr-configure-va.md).
-3.  Select **Publish** to set the topic block to Active and make it available to your end users. For more information on creating and publishing Virtual Agent topics, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+3.  Select **Publish** to set the topic block to Active and make it available to your end users. For more information on creating and publishing Virtual Agent topics, see Publish a Virtual Agent topic.
 
-For more information on working with topics in Virtual Agent Designer, see [Getting Started with Virtual Agent Designer](https://www.servicenow.com/docs/access?context=conversation-designer-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on working with topics in Virtual Agent Designer, see Getting Started with Virtual Agent Designer.
 
 ## Example Virtual Agent topics
 
@@ -90,5 +90,5 @@ Extension of the base public sector service.
 
 </td></tr></tbody>
 </table>
-To learn more about topic blocks and how to use them in Virtual Agent conversations, see [Maximizing code reuse with topic blocks](https://www.servicenow.com/docs/access?context=topic-blocks-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+To learn more about topic blocks and how to use them in Virtual Agent conversations, see Maximizing code reuse with topic blocks
 

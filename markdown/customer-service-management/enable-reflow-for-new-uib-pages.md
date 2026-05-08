@@ -55,6 +55,6 @@ The reflow feature adjusts the properties of the components when you’re resizi
 
 7.  Select **Done**.
 
-    For more details, see [Reflow for playbook components](https://www.servicenow.com/docs/access?context=reflow-for-playbook-components&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more details, see Reflow for playbook components.
 
 

@@ -17,7 +17,7 @@ The ServiceNow® Now Assist for Strategic Portfolio Management \(SPM\) applicati
 -   Use the goal insights skill to generate insights for goals to gain predictive, actionable visibility into goal health.
 -   Generate a story for your epic using Now Assist.
 
-See [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See Now Assist for Strategic Portfolio Management \(SPM\) for more information.
 
 **Important:** Now Assist for SPM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -25,7 +25,7 @@ See [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicen
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[AI-generated insights for goals](https://www.servicenow.com/docs/access?context=generate-insights-for-goal&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **AI-generated insights for goals**
 
     Generate AI‑powered insights using the goal insights skill to gain predictive, actionable visibility into goal health. By analyzing the goal, goal targets, subgoals, and aligned work, the system delivers data‑driven insights that help goal owners and contributors manage risks proactively and improve goal outcomes. Insights include AI-forecasted status, confidence of achieving the goal, targets at risk, and aligned work or recommendations that have been delayed or stalled.
 

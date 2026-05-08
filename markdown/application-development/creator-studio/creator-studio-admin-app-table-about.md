@@ -45,11 +45,11 @@ A general guideline is to use a table that extends the Request Task table.
 -   The request\_type field for the new table should have the label **Request type**, and it should be a reference to the Record Producer table.
 -   If the new table isn’t in the same scope as the app, the scope of the table must allow updates from other scopes.
 
-For more information on the Task table, see [Working with the Task table](https://www.servicenow.com/docs/access?context=c_TaskTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on the Task table, see Working with the Task table.
 
 ## Role for changing the table for an app
 
-To change the associated table for an app, you must have either the admin role, the sn\_creatorstudio.app\_configurator role, or sn\_creatorstudio.configuration\_admin, which are granular admin roles. For more information, see [Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To change the associated table for an app, you must have either the admin role, the sn\_creatorstudio.app\_configurator role, or sn\_creatorstudio.configuration\_admin, which are granular admin roles. For more information, see Granular admin roles.
 
 ## Repercussions of changing an app's table
 

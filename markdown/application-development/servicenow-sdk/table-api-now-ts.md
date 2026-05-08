@@ -19,7 +19,7 @@ The Table API defines tables \[sys\_db\_object\] to store data in an application
 
 Create a table using the Table object. From the schema property, add Column objects, such as StringColumn or IntegerColumn, to define the columns.
 
-For general information about tables, see [Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information about tables, see Table administration.
 
 **Parent Topic:**[ServiceNow Fluent API reference](servicenow-fluent-api-reference.md)
 
@@ -349,7 +349,7 @@ attributes:
    }
 ```
 
-For more information, see [Dictionary Attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Dictionary Attributes.
 
 </td></tr><tr><td>
 
@@ -396,7 +396,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the table is a remote table that uses data retrieved from an external source. For more information, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).Valid values:
+Flag that indicates whether the table is a remote table that uses data retrieved from an external source. For more information, see Remote tables.Valid values:
 
 -   true: The table is a remote table.
 -   false: The table isn't a remote table.
@@ -507,7 +507,7 @@ Add a column \[sys\_dictionary\] to a table.
 
 Add Column objects in the schema property of the Table object.
 
-There are many types of columns based on the field type. Column objects use the format &lt;Type&gt;Column where *&lt;Type&gt;* is the field type. For information about field types, see [Field types reference](https://www.servicenow.com/docs/access?context=r_FieldTypes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+There are many types of columns based on the field type. Column objects use the format &lt;Type&gt;Column where *&lt;Type&gt;* is the field type. For information about field types, see Field types reference.
 
 The following types of columns are supported: ListColumn, RadioColumn, StringColumn, ChoiceColumn, ScriptColumn, BooleanColumn, ConditionsColumn, DecimalColumn, IntegerColumn, VersionColumn, DomainIdColumn, FieldNameColumn, ReferenceColumn, TableNameColumn, UserRolesColumn, BasicImageColumn, DocumentIdColumn, DomainPathColumn, TranslatedTextColumn, SystemClassNameColumn, TranslatedFieldColumn, GenericColumn, DateColumn, DateTimeColumn, CalendarDateTime, BasicDateTimeColumn, DueDateColumn, CalendarDateTime, IntegerDateColumn, ScheduleDateTimeColumn, OtherDateColumn, Password2Column, GuidColumn, JsonColumn, NameValuePairsColumn, UrlColumn, EmailColumn, HTMLColumn, FloatColumn, MultiLineTextColumn, DurationColumn, TimeColumn, FieldListColumn, SlushBucketColumn, TemplateValueColumn, and ApprovalRulesColumn.
 
@@ -619,7 +619,7 @@ Control the ability to edit read-only fields by configuring read-only options.Va
 -   client\_script\_modifiable: Displays the field as read-only in the UI, and allows changes to read-only fields through client scripts but not through background scripts or server-side APIs like TableAPI, GraphQL, and GlideRecordSecure\(\).
 -   strict\_read\_only: Displays the field as read-only in the UI, but prevents any changes from both client scripts and server-side APIs.
 
-For more information, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Configuring read-only security options.
 
 </td></tr><tr><td>
 
@@ -663,7 +663,7 @@ attributes:
    }
 ```
 
-For more information, see [Dictionary Attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information, see Dictionary Attributes.
 
 </td></tr><tr><td>
 
@@ -683,7 +683,7 @@ For example, the following function definition creates a field that shows the sh
 functionDefinition: 'glidefunction:concat(short_description, ' ', caller_id.name)'
 ```
 
-For more information about function definitions, see [Function field](https://www.servicenow.com/docs/access?context=platform-support-functions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about function definitions, see Function field.
 
 </td></tr><tr><td>
 
@@ -695,7 +695,7 @@ Object
 
 </td><td>
 
-Default values that are generated dynamically based on dynamic filters. Provide a combination of a type and a related behavior key to specify dynamic defaults. The following types are supported:-   dynamic\_default: Provide a function from the Dynamic Filter Options \[sys\_filter\_option\_dynamic\] table. For more information, see [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). For example:
+Default values that are generated dynamically based on dynamic filters. Provide a combination of a type and a related behavior key to specify dynamic defaults. The following types are supported:-   dynamic\_default: Provide a function from the Dynamic Filter Options \[sys\_filter\_option\_dynamic\] table. For more information, see Create a dynamic filter option. For example:
 
     ```javascript
 dynamicValueDefinitions: {

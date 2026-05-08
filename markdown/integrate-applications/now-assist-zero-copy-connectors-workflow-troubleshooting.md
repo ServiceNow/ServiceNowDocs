@@ -28,6 +28,6 @@ A second option is to enable a system property and use Workflow Studio. The com.
 
     ![Workflow studio operations tab, with two executions highlighted.](../images/erp-data-explorer-workflow6.png)
 
-    For more information, see [Workflow Studio](https://www.servicenow.com/docs/access?context=workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see Workflow Studio.
 
 

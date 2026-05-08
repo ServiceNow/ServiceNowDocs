@@ -54,5 +54,5 @@ The following table lists the values that you can set for the sn\_ind\_tmt\_orm.
 
 [Managing post-fulfillment order changes](../../tmt-order-mgt/concept/managing-orders.md)
 
-[Product data](https://www.servicenow.com/docs/access?context=product-data&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.product-data]
 

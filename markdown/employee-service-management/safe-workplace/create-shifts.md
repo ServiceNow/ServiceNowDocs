@@ -65,7 +65,7 @@ Schedule
 
 Schedule for the shift.For a general shift schedule, select **General shift**.
 
- For more information about how to create a shift schedule, see [Define a schedule](https://www.servicenow.com/docs/access?context=t_DefineASchedule&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more information about how to create a shift schedule, see Define a schedule.
 
 </td></tr><tr><td>
 

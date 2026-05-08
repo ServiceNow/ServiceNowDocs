@@ -59,7 +59,7 @@ MID Servers
 
 </td><td>
 
-MID Servers that have been validated are displayed. The MID Server status and the `Ecc_agent_issue` table are monitored. An event is triggered whenever this table is updated. The MID Server status is displayed, either **Up** or **Down**.For information about MID Server health, see [MID Server heartbeat](https://www.servicenow.com/docs/access?context=r_MIDServerHeartbeat&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+MID Servers that have been validated are displayed. The MID Server status and the `Ecc_agent_issue` table are monitored. An event is triggered whenever this table is updated. The MID Server status is displayed, either **Up** or **Down**.For information about MID Server health, see MID Server heartbeat
 
 </td></tr></tbody>
 </table>## Procedure

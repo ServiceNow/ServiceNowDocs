@@ -23,7 +23,7 @@ Domain separation is supported in Software Asset Management. Domain separation e
 
 Sample use case: Tenant-customers of a shared environment must be able to modify the impact, urgency, or priority matrix to set priority within their domain.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## Overview
 
@@ -41,7 +41,7 @@ In a domain-separated instance, the content data service \(CDS\) should populate
 
 **Note:**
 
-The [Recommended practice](https://www.servicenow.com/docs/access?context=bp-domain-sep-recommended&version=australia&pubname=australia-platform-security&ft:locale=en-US) is to avoid customizing the base system domain configuration record.
+The Recommended practice is to avoid customizing the base system domain configuration record.
 
 ## Required plugins
 
@@ -57,7 +57,7 @@ The [Recommended practice](https://www.servicenow.com/docs/access?context=bp-dom
 -   Cost Management \(com.snc.cost\_management\)
 -   Contract Management \(com.snc.contract\_management\)
 
-To learn more, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US), [Contains queries and domain access](https://www.servicenow.com/docs/access?context=bp-contains-domain-visibility&version=australia&pubname=australia-platform-security&ft:locale=en-US), and [Importance of Default domain](https://www.servicenow.com/docs/access?context=bp-default-domain&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To learn more, see Domain separation explained, Contains queries and domain access, and Importance of Default domain.
 
 -   **[Domain separation and lifecycle reports](domain-sep-sam-lifecycle.md)**  
 There are certain domain separation aspects to consider when running software lifecycle reports.
@@ -67,5 +67,5 @@ There are certain domain separation aspects to consider when running software li
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

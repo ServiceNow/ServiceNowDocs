@@ -31,7 +31,7 @@ Role required: admin
 
     When activation is complete, the status indicates that AI Search is ready.
 
-    For more information about the AI Search, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information about the AI Search, see AI Search.
 
 
 **Parent Topic:**[Configure Core Business Suite Foundation](../concept/configure-cbs.md)

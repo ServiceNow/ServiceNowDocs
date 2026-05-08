@@ -14,7 +14,7 @@ breadcrumb: [Using Now Assist, Now Assist for Mobile, Mobile Platform]
 
 Generate a summary of a record in your Now mobile app using Now Assist.
 
-Before you begin, make sure that Now Assist is enabled in your instance. For more information, see [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Before you begin, make sure that Now Assist is enabled in your instance. For more information, see Now Assist.
 
 You can generate record summary from within the record you want summarized, or search for the desired record by asking Now Assist from the home screen.
 

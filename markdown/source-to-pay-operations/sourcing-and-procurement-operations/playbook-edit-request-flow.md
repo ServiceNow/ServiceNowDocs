@@ -176,5 +176,5 @@ The request updates the purchase requisition or line item with revised quantity 
 
 [Purchase revision roles and responsibilities](../concept/purchase-revision-flows-roles.md)
 
-[Playbooks](https://www.servicenow.com/docs/access?context=process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.process-automation-designer]
 

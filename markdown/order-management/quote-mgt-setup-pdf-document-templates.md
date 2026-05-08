@@ -29,9 +29,9 @@ Role required: sales\_operation\_specialist
 
     |Link|Description|
     |----|-----------|
-    |[Document Templates](https://www.servicenow.com/docs/access?context=document-templates-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Explanation of document templates and how the work in ServiceNow.|
-    |[Configuring Document Templates](https://www.servicenow.com/docs/access?context=set-up-doc-temp&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Steps to configure documents templates.|
-    |[Reference for Document Templates](https://www.servicenow.com/docs/access?context=reference-doc-templates&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|Additional information about document templates.|
-    |[Using Document Templates](https://www.servicenow.com/docs/access?context=using-doc-templates&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)|How to use document templates.|
+    |Document Templates|Explanation of document templates and how the work in ServiceNow.|
+    |Configuring Document Templates|Steps to configure documents templates.|
+    |Reference for Document Templates|Additional information about document templates.|
+    |Using Document Templates|How to use document templates.|
 
 

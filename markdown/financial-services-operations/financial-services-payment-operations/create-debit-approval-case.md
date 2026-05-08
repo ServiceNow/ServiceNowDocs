@@ -53,8 +53,8 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 -   The debit customer gets a pre-configured email notification about the debit approval case.
 -   If there's a Customer or Consumer Service Portal available for customers, they get a notification for the debit approval case on the portal. Buttons for accepting or rejecting the debit approval appear in the section of the form that shows the customer actions on the portal. For more information, see:
 
-    -   [View a case from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=view-cases-consumer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
-    -   [Accept or reject a case solution from the Consumer Service Portal](https://www.servicenow.com/docs/access?context=resolve-cases-consumer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+    -   View a case from the Consumer Service Portal
+    -   Accept or reject a case solution from the Consumer Service Portal
     **Note:** To use the Consumer Service Portal, activate the Consumer Service Portal plugin \(com.glide.service-portal.consumer-portal\).
 
 

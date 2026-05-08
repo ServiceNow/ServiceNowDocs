@@ -46,7 +46,7 @@ By default, when sorting columns in lists, the field values are ordered accordin
 
 [System dictionary](../../data-dictionary-tables/concept/c_SystemDictionary.md)
 
-[User preferences](https://www.servicenow.com/docs/access?context=c_UserPreferences&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.c_UserPreferences]
 
 [Altering tables and fields using dictionary attributes](../../reference-pages/concept/c_DictionaryAttributes.md)
 

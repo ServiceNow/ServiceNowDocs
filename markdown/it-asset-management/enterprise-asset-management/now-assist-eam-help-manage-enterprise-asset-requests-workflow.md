@@ -16,7 +16,7 @@ breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Ent
 
 You can use the help manage enterprise asset requests agentic workflow to fulfill enterprise asset requests autonomously. The workflow uses a collection of AI agents to automatically source assets for these requests.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Help manage enterprise asset requests agentic workflow overview
 
@@ -83,13 +83,13 @@ The AI agent automatically generates a purchase order to obtain additional asset
  **Note:** For instructions on how to enable the **Auto-purchase** option, see [Create stockroom for enterprise assets](../../enterprise-asset-management/task/create-eamstockroom.md).
 
 </td></tr></tbody>
-</table>**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+</table>**Important:** You can enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. ACLs provide the Run As capability to let agents and agentic workflows execute actions either as a dynamic user or as an AI user. For more information, see Implement access control in Now Assist AI agents.
 
 **Important:** By default, all agentic workflows and AI agent records are read-only.
 
 ## Role masking
 
-Agentic workflows and their AI agents use [role masking](https://www.servicenow.com/docs/access?context=aia-role-masking&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://www.servicenow.com/docs/access?context=define-sec-controls-aw&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Agentic workflows and their AI agents use role masking to determine which users can access them. Ones installed with Now Assist applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see Define security controls for an agentic workflow.
 
 ## Validating enterprise asset requests
 
@@ -130,7 +130,7 @@ Enterprise asset request initiation
 
     -   If the total cost of the requested assets is less than the amount specified in the corresponding automatic approval rule, the request is approved automatically. By default, this amount is set to one thousand dollars.
     -   If the total cost of the requested assets is more than the amount specified in the corresponding automatic approval rule, the request must be reviewed and approved by an asset manager.
-For more information on automatic approval rules, see [Set automatic approval rules](https://www.servicenow.com/docs/access?context=r_SetAutomaticApprovalRules&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information on automatic approval rules, see Set automatic approval rules.
 
 
 </td></tr><tr><td>

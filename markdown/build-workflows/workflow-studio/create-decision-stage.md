@@ -129,7 +129,7 @@ For more information, see [Configure restart for Playbooks](enable-define-restar
 
     2.  Select the **Add Condition** button.
 
-        The [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) displays.
+        The condition builder displays.
 
     3.  Select or enter a field, operator, and value.
 

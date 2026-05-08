@@ -24,7 +24,7 @@ Workforce Optimization for ITSM installs roles and enables notifications when yo
 
 ## Notifications
 
-Navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications** to access the notifications below that are provided by default. For more information on adding notifications, see [Provider notification](https://www.servicenow.com/docs/access?context=notification-provider&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications** to access the notifications below that are provided by default. For more information on adding notifications, see Provider notification
 
 <table id="table_nhy_chs_35b"><thead><tr><th>
 

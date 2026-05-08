@@ -128,7 +128,7 @@ Procedure
     -   The state of the entity shouldn't be Expired or Canceled.
 3.  On the Sold Product Covered form, fill in the fields.
 
-    For a description of the field values, see [Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    For a description of the field values, see Sold product form.
 
 4.  Select **Submit**.
 

@@ -73,5 +73,5 @@ Status to indicate whether the push notification has been sent. The Type column 
 </table>**Related topics**  
 
 
-[Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScheduledJobs]
 

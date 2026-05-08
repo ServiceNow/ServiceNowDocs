@@ -21,7 +21,7 @@ The ServiceNow® Application Vulnerability Response application brings security 
 -   Reevaluate the risk score, assignments, remediation target date, exceptions, and remediation task for a specific set of application vulnerable items in the Vulnerability Manager Workspace.
 -   Compare application vulnerability-related data and determine if application vulnerabilities are found in an application.
 
-See [Application Vulnerability Response](https://www.servicenow.com/docs/access?context=app-vuln-mgmt&version=australia&pubname=australia-security-management&ft:locale=en-US) for more information.
+See Application Vulnerability Response for more information.
 
 **Important:** Application Vulnerability Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -33,7 +33,7 @@ See [Application Vulnerability Response](https://www.servicenow.com/docs/access?
 
 ## New in the Australia release
 
--   **[Wiz Application Vulnerability Response Integration](https://www.servicenow.com/docs/access?context=wiz-exploring-avr-sca-secrets&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **Wiz Application Vulnerability Response Integration**
 
     Import application, Software Composition Analysis \(SCA\), findings, Secrets \(passwords, tokens and keys\) data with the following Wiz Vulnerability integrations:
 
@@ -42,15 +42,15 @@ See [Application Vulnerability Response](https://www.servicenow.com/docs/access?
     -   Secret Findings Integration
     You can configure these integrations on the Wiz Vulnerability Integration configuration page along with the other Wiz Vulnerability integrations. View imported application list data such as Product Model and Source application ID from Wiz on the Discovered Applications \[sn\_vul\_app\_release\] table records, and SCA and Secrets data on the Application Vulnerable Items \[sn\_vul\_app\_vulnerable\_item\] table records.
 
--   **[GitHub Application Vulnerability Integration – Generic secrets support](https://www.servicenow.com/docs/access?context=configure-github-vulnerability&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **GitHub Application Vulnerability Integration – Generic secrets support**
 
     The GitHub Secret Scanning Integration supports imports of generic secrets in addition to standard secrets from your GitHub repositories. An enhanced Manage generic secrets in ServiceNow configuration option lets you control whether generic secrets are ingested. Imported secrets are mapped to Application Vulnerable Items \(AVITs\) with the scan type, Secret, while generic secrets are mapped with the scan type, Generic Secret.
 
--   **[Improved vulnerability assessment workflows](https://www.servicenow.com/docs/access?context=vr-ws-vuln-assessment&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **Improved vulnerability assessment workflows**
     -   CI filtering for vulnerability assessments: You can now filter which configuration items are included in a vulnerability assessment using a condition builder.
     -   Business Application population on AVITs: AVITs created from SBOM assessment results now include Business Application information, helping you understand application impact and prioritize remediation.
     -   Priority roll‑down from vulnerability assessments: Updates to the priority of a vulnerability assessment now automatically roll down to associated VITs and AVITs, ensuring consistent prioritization based on the highest severity.
--   **[Enhanced Compensatory controls](https://www.servicenow.com/docs/access?context=requesting-approving-risk-reduction&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **Enhanced Compensatory controls**
 
     When new vulnerable items are ingested and associated with a remediation task that already has an approved compensating control, the reduced risk rating is now automatically inherited by those new vulnerable items.
 

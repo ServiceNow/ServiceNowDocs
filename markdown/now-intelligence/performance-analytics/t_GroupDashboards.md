@@ -49,7 +49,7 @@ To show single groups in the dashboard picker, add the parameter `sysparm_group=
 
     Only view permissions can be set on dashboard groups.
 
-    Dashboard groups use standard platform permissions. For more information, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Dashboard groups use standard platform permissions. For more information, see Access control list rules.
 
 5.  Select **Update**.
 

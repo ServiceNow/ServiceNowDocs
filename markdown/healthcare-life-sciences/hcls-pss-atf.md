@@ -27,7 +27,7 @@ This test suite for Patient Support Services Enrollment Case ensures that enroll
 2.  PSS - Updating enrollment case: Update enrollment cases after adding additional comments.
 3.  PSS - Close enrollment case: Close enrollment cases after adding resolution details.
 
-For more information on the Automated Test Framework, see [Exploring Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on the Automated Test Framework, see Exploring Automated Test Framework.
 
 **Parent Topic:**[Patient Support Services reference](../reference/pss-reference.md)
 

@@ -17,7 +17,7 @@ Determine the survey field types that should display the **Create action** optio
 
 ## Before you begin
 
-Verify that the application scope is selected as Health and Safety Incident Management. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Verify that the application scope is selected as Health and Safety Incident Management. For more information, see Application picker.
 
 Role required: admin
 

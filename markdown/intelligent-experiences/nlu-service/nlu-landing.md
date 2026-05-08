@@ -74,7 +74,7 @@ The system uses an inference API to train NLU algorithms by using sample record 
 
 Other ServiceNow® applications consume NLU model output, such as Virtual Agent.
 
-For example, Virtual Agent administrators can configure a Virtual Agent Designer conversation flow to consume NLU models so that agent chatbots can better understand user statements in the conversation. For more information on how Virtual Agent consumes NLU models, see: [Natural Language Understanding \(NLU\) topic discovery in Virtual Agent](https://www.servicenow.com/docs/access?context=va-NLU&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For example, Virtual Agent administrators can configure a Virtual Agent Designer conversation flow to consume NLU models so that agent chatbots can better understand user statements in the conversation. For more information on how Virtual Agent consumes NLU models, see: Natural Language Understanding \(NLU\) topic discovery in Virtual Agent.
 
 ## Get started
 

@@ -47,13 +47,13 @@ Role required: none
 
 [Compare to the current version](t_CompareToCurrentVersion.md)
 
-[Compare two versions of an article](https://www.servicenow.com/docs/access?context=compare-two-article-versions&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.compare-two-article-versions]
 
 [Compare a pushed version to a local version](t_ComparePushedVerLocalVer.md)
 
 [Resolve a collision in Team Development](t_ResolveACollision.md)
 
-[Resolve conflicts for an individual record](https://www.servicenow.com/docs/access?context=um-resolve-conflict&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.um-resolve-conflict]
 
 [View customizations and compare with current version](../../system-update-sets/task/view-customer-update-records.md)
 

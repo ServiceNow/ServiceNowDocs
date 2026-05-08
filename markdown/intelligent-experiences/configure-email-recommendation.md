@@ -40,7 +40,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 5.  In the **Write with Now Assist** step, choose whether you want the Now Assist context menu to be active and then select the actions you want to be available.
 
-    After each step, select **Save and continue**. For more information about these choices, see [Skill inputs and triggers for Now Assist for HRSD](https://www.servicenow.com/docs/access?context=now-assist-hrsd-skill-inputs&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    After each step, select **Save and continue**. For more information about these choices, see Skill inputs and triggers for Now Assist for HRSD.
 
     ![Write With Now Assist step in guided setup for email recommendation](../image/na-email-rec-wwna.png)
 

@@ -51,5 +51,5 @@ In the service configuration, the appointment booking administrator can select a
 
 [Global domain configurations](../../planning-and-policy/task/t_ConfigureFieldService.md)
 
-[Schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UseSchedules]
 

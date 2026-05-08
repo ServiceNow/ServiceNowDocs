@@ -17,7 +17,7 @@ The **Create Event** activity adds an event to the event queue, but does not imm
 
 The event processor typically processes the event within one minute. This activity triggers any business rules or email notifications that would normally be triggered by the event.
 
-For more information about creating and using system events, see [System Events](https://www.servicenow.com/docs/access?context=events&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information about creating and using system events, see System Events.
 
 ## Results
 

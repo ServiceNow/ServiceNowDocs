@@ -31,7 +31,7 @@ The following plugins are activated with ITOM Content Service:
 -   Normalization Data Services Client \(com.glide.data\_services\_canonicalization.client\)
 -   File Based Discovery \(com.snc.discovery.file\_based\_discovery\)—starting with ITOM Content Service version 1.5.1
 
-**Note:** The ITOM Smart Content plugin \(com.snc.itom.smart.content\) is available starting with XP5. This plugin is optional and can be requested through ServiceNow personnel. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The ITOM Smart Content plugin \(com.snc.itom.smart.content\) is available starting with XP5. This plugin is optional and can be requested through ServiceNow personnel. For more information, see Request a plugin.
 
 ## Procedure
 

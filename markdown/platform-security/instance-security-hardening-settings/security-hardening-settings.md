@@ -140,7 +140,7 @@ To learn more about ensuring your instances meet hardening requirements, see [Se
 
 For user reference, the ServiceNow AI Platform maintains extensive configuration capabilities information in the product documentation. You access most of the security content using the links found in [Secure your instance](../../general/concept/platsec-landing.md). Also, see the following:
 
--   [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Available system properties
 -   General security settings properties
 -   [High Security Settings](../../security/concept/c_HighSecuritySettings.md)
 

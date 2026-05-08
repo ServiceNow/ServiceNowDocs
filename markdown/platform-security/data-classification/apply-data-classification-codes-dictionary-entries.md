@@ -35,6 +35,6 @@ Role required: data\_classification\_admin and admin
 
     You can select multiple data classifications as needed.
 
-    See [Data dictionary tables](https://www.servicenow.com/docs/access?context=c_DataDictionaryTables&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for additional information.
+    See Data dictionary tables for additional information.
 
 

@@ -115,5 +115,5 @@ Specify the time period \(in hours\) after which a reminder email is sent to cus
 </table>**Related topics**  
 
 
-[Display the most recent reply in the Activity stream](https://www.servicenow.com/docs/access?context=configure-last-viewed-timestamps-activity-stream&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.configure-last-viewed-timestamps-activity-stream]
 

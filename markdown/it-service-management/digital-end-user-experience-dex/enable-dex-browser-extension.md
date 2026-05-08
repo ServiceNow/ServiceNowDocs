@@ -31,15 +31,15 @@ Role required: sn\_dex.admin
 
 1.  Perform the following steps to install DEX Browser Extension based on your browser.
 
-<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d304171e81">
+<table id="choicetable_hcv_5qt_fgc"><thead><tr><th align="left" id="d304149e81">
 
 Browser
 
-</th><th align="left" id="d304171e84">
+</th><th align="left" id="d304149e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d304171e90">
+</th></tr></thead><tbody><tr><td id="d304149e90">
 
 **Google Chrome**
 
@@ -50,7 +50,7 @@ Steps
 3.  On the confirmation window, select **Add extension**.
 
 
-</td></tr><tr><td id="d304171e124">
+</td></tr><tr><td id="d304149e124">
 
 **Microsoft Edge**
 

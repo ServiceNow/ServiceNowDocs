@@ -23,7 +23,7 @@ Employee Readiness Core version 1.1.0 and later requires the following plugins.
 -   Workflow Studio Action Step - Payload Builder \(com.glide.hub.action\_step.payload\)
 -   ServiceNow Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 
-These plugins must be requested through the Now Support Service Catalog. For instructions, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+These plugins must be requested through the Now Support Service Catalog. For instructions, see Request a plugin.
 
 Role required: admin
 
@@ -95,7 +95,7 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 Several types of components are installed with Employee Readiness Core, including user roles, tables, and scheduled jobs.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ### Roles installed
 

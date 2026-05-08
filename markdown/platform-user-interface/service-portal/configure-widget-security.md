@@ -93,7 +93,7 @@ if(!new global.SPWidgetAccessControl().hasPublicAccess(options.table, $sp, optio
 	}
     ```
 
-The parameters passed with SPWidgetAccessControl should be the same as those passed with GlideRecord\(options.table\) and GlideRecordSecure\(options.table\). For details on the SPWidgetAccessControl API, see [SPWidgetAccessControl - Global](https://www.servicenow.com/docs/access?context=SPWidgetAccessControlGlobalAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+The parameters passed with SPWidgetAccessControl should be the same as those passed with GlideRecord\(options.table\) and GlideRecordSecure\(options.table\). For details on the SPWidgetAccessControl API, see SPWidgetAccessControl - Global.
 
 4.  Select **Save**.
 

@@ -18,46 +18,46 @@ The ServiceNow® Cloud Cost Management application \(formerly known as ServiceNo
 -   Gain financial clarity and reporting flexibility by choosing to view your cloud cost data in your preferred currency.
 -   Get centralized visibility into the Microsoft Partner Agreement \(MPA\) account spend when operating under a Managed Service Provider \(MSP\).
 
-See [Cloud Cost Management](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) for more information.
+See Cloud Cost Management for more information.
 
 **Important:** Cloud Cost Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Important information for upgrading Cloud Cost Management to Australia
 
-The Cloud Cost Management platform support is available beginning with the Xanadu release. For instructions on upgrading Cloud Cost Management to Australia, see [Upgrade Cloud Cost Management](https://www.servicenow.com/docs/access?context=upgrade-cloud-insights-to-version-3-0&version=australia&pubname=australia-it-asset-management&ft:locale=en-US).
+The Cloud Cost Management platform support is available beginning with the Xanadu release. For instructions on upgrading Cloud Cost Management to Australia, see Upgrade Cloud Cost Management.
 
 ## New in the Australia release
 
--   **[Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing**
 
     Enhance your ability to manage cloud costs using the FOCUS billing standard that enables better insights. This feature helps you make more informed decisions. Additionally, you experience seamless processing of billing data across multiple Azure billing models such as:
 
     -   Enterprise Agreement \(EA\)
     -   Microsoft Customer Agreement \(MCA\)
     -   Microsoft Partner Agreement \(MPA\)
--   **[View cloud cost data in your preferred currency for multiple cloud service providers](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **View cloud cost data in your preferred currency for multiple cloud service providers**
 
     View your cloud cost data in your preferred local currency for better clarity and reporting flexibility. This capability enables you to view cost and usage details from multiple cloud service providers, including AWS, Azure, and GCP, in your selected currency.
 
--   **[Get support for your Azure MPA model when operating under an MSP](https://www.servicenow.com/docs/access?context=azure-pricesht-sched-dwnld-cloudin&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Get support for your Azure MPA model when operating under an MSP**
 
     Gain full visibility into your cloud costs and actionable insights for your Azure cloud spend when operating under an MSP. Additionally, the feature provides a centralized view to monitor cloud spend and manage budgets.
 
 
 ## UI changes
 
--   **[Multi-currency setup on the Operations view](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Multi-currency setup on the Operations view**
 
     The **Multi-currency setup** operation is available on the Cloud Cost Management Workspace Operations view to enable setting up display currency options for cloud cost and usage data.
 
--   **[Currency preference option on the Operations view](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Currency preference option on the Operations view**
 
     The **Currency preference** operation is available on the Cloud Cost Management Workspace Operations view to enable selecting preferred currency options for cloud cost and usage data.
 
 
 ## Changed in this release
 
--   **[Granular instance operator role](https://www.servicenow.com/docs/access?context=cloud-insights-roles&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Granular instance operator role**
 
     Use the instance operator role to perform routine operational tasks without requiring the full admin role for basic operations. By using limited privileges in the instance operator role, you can help reduce security risks across your organization.
 
@@ -68,11 +68,11 @@ Install Cloud Cost Management by requesting it from the ServiceNow Store. Visit 
 
 ## Related ServiceNow applications and features
 
--   **[IT Asset Management](https://www.servicenow.com/docs/access?context=it-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **IT Asset Management**
 
     ServiceNow® IT Asset Management includes a family of products that work together to integrate the technological, contractual, and financial aspects of technology asset management through the complete asset life cycle.
 
--   **[Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Software Asset Management**
 
     The ServiceNow® Software Asset Management application enables you to track, evaluate, and manage software licenses, software compliance, and software optimization. You can reclaim unused software rights, purchase new software rights, and manage allocations for entitlements.
 

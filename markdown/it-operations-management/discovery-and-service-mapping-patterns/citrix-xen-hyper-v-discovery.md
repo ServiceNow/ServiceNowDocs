@@ -36,7 +36,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Create SSH credentials with access to the target Linux host**
 
-    For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+    For more information, see SSH credentials
 
 -   **Create an extension section after the Linux Server pattern**
 

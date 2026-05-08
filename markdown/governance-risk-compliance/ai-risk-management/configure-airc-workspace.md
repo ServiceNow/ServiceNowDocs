@@ -21,7 +21,7 @@ Role required: admin, ui\_builder\_admin
 
 ## About this task
 
-ServiceNow offers prebuilt Configurable Workspace experiences to target specific users. These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch. For a list of prebuilt workspaces ServiceNow offers, see [List of workspaces](https://www.servicenow.com/docs/access?context=list-of-workspaces&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). To update an existing Configurable Workspace experience, see [Open a Configurable Workspace experience in UI Builder](https://www.servicenow.com/docs/access?context=open-your-configurable-workspace-experience-in-ui-builder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+ServiceNow offers prebuilt Configurable Workspace experiences to target specific users. These prebuilt workspaces can be updated and modified in UI Builder instead of creating an experience from scratch. For a list of prebuilt workspaces ServiceNow offers, see List of workspaces. To update an existing Configurable Workspace experience, see Open a Configurable Workspace experience in UI Builder.
 
 ## Procedure
 
@@ -44,9 +44,9 @@ Your changes reflect in the AI Risk and Compliance Workspace under the correspon
 
 ## What to do next
 
-[Create a Configurable Workspace experience](https://www.servicenow.com/docs/access?context=create-configurable-workspace-experience-uib&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Create a Configurable Workspace experience
 
-[Create a Configurable Workspace page](https://www.servicenow.com/docs/access?context=create-configurable-workspace-page-uib&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Create a Configurable Workspace page
 
 [UI Builder](https://www.servicenow.com/docs/bundle/zurich-application-development/page/administer/ui-builder/concept/ui-builder-overview.html)
 

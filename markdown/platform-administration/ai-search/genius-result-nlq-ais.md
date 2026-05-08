@@ -19,12 +19,12 @@ NLQ Genius Results don't use indexed sources when finding tables that match your
 
 When computing NLQ Genius Result answers, AI Search identifies tables that match your search using the following NLQ query types:
 
--   Natural language queries similar to the ones made using Analytics Overview. To learn more about Analytics Overview table query capabilities, see [Platform Analytics overview](https://www.servicenow.com/docs/access?context=analytics-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
--   Natural language queries similar to the ones made using the Configuration Management Database \(CMDB\). These CMDB queries only match tables that aren't defined as indexed sources. For more information about CMDB table query capabilities, see [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Natural language queries similar to the ones made using Analytics Overview. To learn more about Analytics Overview table query capabilities, see Platform Analytics overview.
+-   Natural language queries similar to the ones made using the Configuration Management Database \(CMDB\). These CMDB queries only match tables that aren't defined as indexed sources. For more information about CMDB table query capabilities, see Configuration Management.
 
 AI Search combines the results from these query types when creating NLQ Genius Result answer cards. As a result, a single NLQ Genius Result answer card may contain tables returned by Analytics Overview queries, CMDB queries, or both.
 
-For more information about NLQ processing, see [Natural Language Query](https://www.servicenow.com/docs/access?context=natural-language-query&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about NLQ processing, see Natural Language Query.
 
 ## Answer card format
 
@@ -58,7 +58,7 @@ The NLQ Genius Result answer card shows different results depending on how many 
 When you select **View full table** in an NLQ Genius Result answer card, the action performed depends on how the matching table was found. The default actions are as follows.
 
 -   If the table was found by an Analytics Overview table query, the system displays it in list view.
--   If the table was found by a CMDB table query, the system displays it in the [CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb-workspace&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   If the table was found by a CMDB table query, the system displays it in the CMDB Workspace.
 
 Search administrators can customize these actions. For more information, see the [Configure navigation actions for NLQ Genius Result answer cards](../task/configure-nav-action-nlq-grs.md) section.
 

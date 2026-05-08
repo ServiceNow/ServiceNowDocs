@@ -6,7 +6,7 @@ release: australia
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Control Policy in AWS, Setting up AWS cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

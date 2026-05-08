@@ -22,12 +22,12 @@ Role required: admin
 
 **Note:** The OAuth authorization code flow can be used to call OData endpoints \(create, read, and update\). At this time, OAuth cannot be used for tables, BAPI, or RFC.
 
-To understand OAuth, see [Set up OAuth](https://www.servicenow.com/docs/access?context=t_SettingUpOAuth&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [OAuth Inbound](https://www.servicenow.com/docs/access?context=oauth-inbound&version=australia&pubname=australia-platform-security&ft:locale=en-US) .
+To understand OAuth, see Set up OAuth and OAuth Inbound .
 
 Consult with your SAP administrator:
 
 -   Obtain the client ID and client secret. You need this information for the application registry form.
--   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see [Manage OAuth tokens](https://www.servicenow.com/docs/access?context=t_ManageTokens&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Ask if the refresh token is a one-time usable token. A scheduled job that retrieves information from SAP runs once per day. If you need to run the scheduled job more often or on demand, discuss the access token and refresh token options. For more information, see Manage OAuth tokens.
 -   Ask them to enable the gateway services to expose the OData endpoints you want to use.
 -   Ask them to create a scope in SAP for the exposed OData endpoints and give you the name and OAuth scope. You need this to configure the scope on the application registry form.
 
@@ -41,7 +41,7 @@ Consult with your SAP administrator:
 
     2.  Select **Connect to a third party OAuth Provider**
 
-        Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see [Connect to a third-party OAuth provider](https://www.servicenow.com/docs/access?context=connect-3rd-party-oauth-provider&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        Use this form to set SAP as the OAuth provider and ServiceNow as the OAuth client. For detailed information about the fields on this form, see Connect to a third-party OAuth provider.
 
     3.  Enter a **Name**.
 
@@ -69,7 +69,7 @@ Consult with your SAP administrator:
 
     2.  Select **OAuth 2.0 credentials**.
 
-        For detailed information about the fields on this form, see [OAuth 2.0 credentials](https://www.servicenow.com/docs/access?context=oauth-2-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        For detailed information about the fields on this form, see OAuth 2.0 credentials.
 
     3.  Enter a **Name**.
 
@@ -89,7 +89,7 @@ Consult with your SAP administrator:
 
     2.  On the **Connections** tab, select **New**.
 
-        For detailed information about the fields on this form, see [Create an HTTP\(s\) connection](https://www.servicenow.com/docs/access?context=create-https-connection&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        For detailed information about the fields on this form, see Create an HTTP\(s\) connection.
 
     3.  Enter a **Name**.
 

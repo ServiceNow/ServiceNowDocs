@@ -19,13 +19,13 @@ If you have deployed or plan to deploy the Open Message Bus in your instance, yo
 
 Role required: admin
 
-For additional information on the publishing of messages using the open message bus, see [Producing outbound trouble ticket notifications using the open message bus](https://www.servicenow.com/docs/access?context=trouble-ticket-workflow-using-pub-sub-model&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US).
+For additional information on the publishing of messages using the open message bus, see Producing outbound trouble ticket notifications using the open message bus.
 
 ## Procedure
 
 1.  Synchronize the topics in your current message-bus with your ServiceNow instance.
 
-    For additional information on synchronizing topics, see [Producing outbound trouble ticket notifications using the open message bus](https://www.servicenow.com/docs/access?context=trouble-ticket-workflow-using-pub-sub-model&version=australia&pubname=australia-proactive-service-exp-workflows&ft:locale=en-US).
+    For additional information on synchronizing topics, see Producing outbound trouble ticket notifications using the open message bus.
 
 2.  Customize the [OpenMessageBusEventPublisherOOB - publishMessageToComptibleRestProxy\(Object tmfEventPayload, Array compatibleTopicArr\)](../../../../app-store/dev_portal/API_reference/OpenMessageBusEventPublisherOOB/concept/OpenMsgBusEvtPubScopedAPI.md#) method to send messages directly to a preconfigured REST action.
 

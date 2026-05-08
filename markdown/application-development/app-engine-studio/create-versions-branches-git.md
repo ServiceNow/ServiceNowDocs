@@ -135,7 +135,7 @@ Set a default branch when you want to use a branch other than main for new chang
 
 ### Procedure
 
-1.  Follow the steps to [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+1.  Follow the steps to Add a system property.
 
 2.  Add the **glide.source\_control.default\_branch\_name** property, and specify the default branch name of the Git source control repository to work from \(pull requests, code commits, etc.\).
 

@@ -41,5 +41,5 @@ Use the guided setup feature for the Service Graph Connector for Rapid7 to help 
 
 ## Configure the Service Graph Connector for Rapid7
 
-After you have followed the instructions provided to you to download and activate the Service Graph Connector for Rapid7 application, refer to [Download an application from the ServiceNow Store for the first time](https://www.servicenow.com/docs/access?context=download-app-first-time&version=australia&pubname=australia-security-management&ft:locale=en-US) and [Install a Security Operations integration](https://www.servicenow.com/docs/access?context=install-non-core-apps&version=australia&pubname=australia-security-management&ft:locale=en-US). There are a few steps you need to complete before you configure this integration.
+After you have followed the instructions provided to you to download and activate the Service Graph Connector for Rapid7 application, refer to Download an application from the ServiceNow Store for the first time and Install a Security Operations integration. There are a few steps you need to complete before you configure this integration.
 

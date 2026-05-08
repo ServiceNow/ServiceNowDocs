@@ -39,7 +39,7 @@ Notify must be set up before you can use Notify on task. Ensure there are Notify
 **Related topics**  
 
 
-[Start a conference call](https://www.servicenow.com/docs/access?context=start-a-conference-call&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.start-a-conference-call]
 
-[Start a conference call from a task](https://www.servicenow.com/docs/access?context=t_StartAConferenceCallFromATask&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_StartAConferenceCallFromATask]
 

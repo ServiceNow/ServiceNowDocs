@@ -27,15 +27,15 @@ The state of the contract request should be Awaiting signature.
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d715638e74">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d715651e74">
 
 Method
 
-</th><th align="left" id="d715638e77">
+</th><th align="left" id="d715651e77">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d715638e83">
+</th></tr></thead><tbody><tr><td id="d715651e83">
 
 **__Employee Center__**
 
@@ -46,7 +46,7 @@ Actions
 3.  Open the non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d715638e116">
+</td></tr><tr><td id="d715651e116">
 
 **__Legal Service Portal__**
 

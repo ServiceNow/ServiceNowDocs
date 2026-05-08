@@ -56,7 +56,7 @@ Customer satisfaction scores for incident resolved
 
 </td><td>
 
-The score for customer satisfaction surveys sent to users for resolved incidents. Scores are calculated only for those surveys that have been successfully submitted by users.Normalized values for surveys are considered and surveys with normalized values greater than zero are assigned weights on a scale of 0–100. For more information, see [Normalized value for an assessment](https://www.servicenow.com/docs/access?context=example-normalized-value-calc&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The score for customer satisfaction surveys sent to users for resolved incidents. Scores are calculated only for those surveys that have been successfully submitted by users.Normalized values for surveys are considered and surveys with normalized values greater than zero are assigned weights on a scale of 0–100. For more information, see Normalized value for an assessment.
 
 </td></tr><tr><td>
 

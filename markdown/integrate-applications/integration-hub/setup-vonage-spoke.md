@@ -209,7 +209,7 @@ Role required: admin
 
 4.  Customize the subflow as per your requirement and publish it.
 
-    See [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information about creating and using subflows and [Vonage Spoke](../concept/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
+    See Building subflows for more information about creating and using subflows and [Vonage Spoke](../concept/vonage-spoke.md) for information about the fields that the default routing policy and subflows support.
 
 5.  Navigate to **Vonage Spoke** &gt; **Vonage WebHook Routing Policy**.
 

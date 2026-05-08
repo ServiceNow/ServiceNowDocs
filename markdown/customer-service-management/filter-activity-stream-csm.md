@@ -61,5 +61,5 @@ Enhancements in the Activity Stream include the following:
 **Related topics**  
 
 
-[Configure Activity stream](https://www.servicenow.com/docs/access?context=configure-activity-stream-general&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.configure-activity-stream-general]
 

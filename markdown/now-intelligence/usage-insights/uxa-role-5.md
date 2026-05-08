@@ -31,7 +31,7 @@ None.
 
 None.
 
-For more information, see [Usage Insights for mobile applications](https://www.servicenow.com/docs/access?context=mobile-analytics&version=australia&pubname=australia-mobile&ft:locale=en-US).
+For more information, see Usage Insights for mobile applications.
 
 **Parent Topic:**[Roles installed with Usage Insights](components-installed-user-exp-analytics.md)
 

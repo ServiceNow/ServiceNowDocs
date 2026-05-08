@@ -83,7 +83,7 @@ Optimization
 
 </td><td>
 
-The reclamation process remediates non-compliance by uninstalling software from devices and reclaiming those software rights. The reclamation process can be automated using Client Software Distribution \(CSD\).Features include removal candidate and workflows, reclamation rule creation, software usage listing, and support for creating a purchase order directly using Procurement integration. For more information, see the [Procurement overview](https://www.servicenow.com/docs/access?context=c_Procurement&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+The reclamation process remediates non-compliance by uninstalling software from devices and reclaiming those software rights. The reclamation process can be automated using Client Software Distribution \(CSD\).Features include removal candidate and workflows, reclamation rule creation, software usage listing, and support for creating a purchase order directly using Procurement integration. For more information, see the Procurement overview.
 
 </td></tr><tr><td>
 

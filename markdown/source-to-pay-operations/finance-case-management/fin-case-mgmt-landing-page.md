@@ -38,7 +38,7 @@ As part of the Next Experience default theme provided by the ServiceNow platform
 
 The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings. The dark theme is supported for configurable workspaces, lists, forms, dashboards, and reports.
 
-For more information on customizing coral theme, see [Working with themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For more information on customizing coral theme, see Working with themes in Next Experience.
 
 Here is an example of the email notification template with coral theme:
 

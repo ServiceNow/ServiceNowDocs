@@ -48,7 +48,7 @@ Automatically apply cascading discounts to different products based on the incre
 </td><td>
 
 -   [Add a decision](../task/add-decision.md)
--   [Modify decision table structure in Workflow Studio](https://www.servicenow.com/docs/access?context=format-decision-table-in-decision-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Modify decision table structure in Workflow Studio
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Standardize and automate how agents handle chat interactions with VIP users.
 
 </td><td>
 
--   [Create a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Create a playbook
 -   [Edit a process](../task/edit-process.md)
 
 </td></tr></tbody>

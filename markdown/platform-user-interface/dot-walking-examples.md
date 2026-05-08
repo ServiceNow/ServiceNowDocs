@@ -126,7 +126,7 @@ The tree picker interface has an expandable, hierarchical view that you can use 
 -   Members of a certain group. For example, you would use a tree picker to look up a user in the Service Desk group.
 -   Reference elements for any hierarchical table. A hierarchical table is any table that has a parent field pointing back at itself. The Group \[sys\_user\_group\] table, for example, would be considered a hierarchical table because certain groups are children of parent groups.
 
-**Note:** You can configure the tree picker to pick up to 1,000 nodes when you configure the **glide.ui.group\_heirarchy.max\_nodes** property. To set the property, open the [Dictionary attributes](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for the field, and add `tree_picker=true` to the **Attributes** field. If there are multiple attributes, use a comma to separate them without any spaces between.
+**Note:** You can configure the tree picker to pick up to 1,000 nodes when you configure the **glide.ui.group\_heirarchy.max\_nodes** property. To set the property, open the Dictionary attributes for the field, and add `tree_picker=true` to the **Attributes** field. If there are multiple attributes, use a comma to separate them without any spaces between.
 
 **Parent Topic:**[Dot-walking to data in related tables](../concept/c_DotWalking.md)
 

@@ -37,7 +37,7 @@ When you select a [breakdown](../../performance-analytics/concept/performance-an
 
 5.  In the **Act as filter** field for each breakdown source, select the interactive filter you want to use that breakdown source for.
 
-    **Note:** If the **Breakdown sources** list does not have an **Act as filter** column, personalize the list to add one. For more information, see [Personal lists](https://www.servicenow.com/docs/access?context=c_PersonalLists&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    **Note:** If the **Breakdown sources** list does not have an **Act as filter** column, personalize the list to add one. For more information, see Personal lists.
 
     The breakdown source **Facts table** must match the table that the interactive filter is based on.
 

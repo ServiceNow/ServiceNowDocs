@@ -39,7 +39,7 @@ Role required: sn\_pace.admin
         -   When the request is approved, the sn\_compliance.admin can override the requested dates.
 4.  Click **Request** and navigate to the **Exceptions** tab to view the requested exceptions.
 
-    You can see that the exception status is **Pending**. The Compliance Manager assesses this exception request and can choose to approve or reject the request. See [Policy as Code Engine for Preventive compliance management](https://www.servicenow.com/docs/access?context=preventive-compliance-pace&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US) for details. For each exception request, the following details are displayed:
+    You can see that the exception status is **Pending**. The Compliance Manager assesses this exception request and can choose to approve or reject the request. See Policy as Code Engine for Preventive compliance management for details. For each exception request, the following details are displayed:
 
     -   Exception ID: Click the Exception ID to view detailed information about the exception request.
     -   Deployable: Click the link to view the details of the deployable mapped to the policy.

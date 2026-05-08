@@ -36,7 +36,7 @@ Perform database operations. For example, use a server-side script to update a r
     The global scope is a special application scope that identifies applications developed prior to application scoping, or applications intended to be accessible to all other global applications. Use global APIs when scripting in the global scope.
 
 
-To learn more about server-side scripting, see [Server-side scripting](../server-scripting/concept/c_ServerScripting.md). To learn more about application scope, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+To learn more about server-side scripting, see [Server-side scripting](../server-scripting/concept/c_ServerScripting.md). To learn more about application scope, see Application scope.
 
 ## Client-side scripts
 

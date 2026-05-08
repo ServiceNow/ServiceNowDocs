@@ -70,231 +70,231 @@ Available agentic workflows
 
 </th></tr></thead><tbody><tr><td>
 
-[Build Agent](https://www.servicenow.com/docs/access?context=build-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Build Agent
 
 </td><td>
 
-[Create in-app agents, skills, and workflows](https://www.servicenow.com/docs/access?context=create-custom-ai-agent&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Create in-app agents, skills, and workflows
 
 </td></tr><tr><td>
 
-[Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+Now Assist for Configuration Management Database \(CMDB\)
 
 </td><td>
 
--   [Create configuration item](https://www.servicenow.com/docs/access?context=na-cmdb-awf-ci-creator&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Provide advice on CMDB governance](https://www.servicenow.com/docs/access?context=na-cmdb-awf-governance&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Search CMDB](https://www.servicenow.com/docs/access?context=na-cmdb-awf-search&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Create configuration item
+-   Provide advice on CMDB governance
+-   Search CMDB
 
 </td></tr><tr><td>
 
-[Now Assist in Contract Management](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Now Assist in Contract Management
 
 </td><td>
 
--   [Conversational contract search and insights](https://www.servicenow.com/docs/access?context=cncore-conf-converse-skill&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Manage contract repository](https://www.servicenow.com/docs/access?context=cmpro-na-reminder-agentic-wf&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Conversational contract search and insights
+-   Manage contract repository
 
 </td></tr><tr><td>
 
-[Now Assist for Core Business Suite](https://www.servicenow.com/docs/access?context=now-assist-cbs&version=australia&pubname=australia-core-business-suite&ft:locale=en-US)
+Now Assist for Core Business Suite
 
 </td><td>
 
-[CBS setup](https://www.servicenow.com/docs/access?context=using-ai-agent-workflows-na-cbs&version=australia&pubname=australia-core-business-suite&ft:locale=en-US)
+CBS setup
 
 </td></tr><tr><td>
 
-[Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
+Now Assist for Creator
 
 </td><td>
 
-[Create a theme using Now Assist](https://www.servicenow.com/docs/access?context=create-theme-now-assist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Create a theme using Now Assist
 
 </td></tr><tr><td>
 
-[Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+Now Assist for Customer Service Management \(CSM\)
 
 </td><td>
 
--   [Accelerate complaint case handling](https://www.servicenow.com/docs/access?context=accelerate-complaint-case-handling&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Provide Customer 360 insights](https://www.servicenow.com/docs/access?context=customer-service-management-ai-agent-collection-customer-360&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
--   [Triage cases](https://www.servicenow.com/docs/access?context=case-resolving-use-case&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Accelerate complaint case handling
+-   Provide Customer 360 insights
+-   Triage cases
 
 </td></tr><tr><td>
 
-[Now Assist for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)
+Now Assist for Enterprise Architecture \(EA\)
 
 </td><td>
 
-[Generate enterprise architecture diagram](https://www.servicenow.com/docs/access?context=now-assist-aiagents-ea-diagramming-usecase&version=australia&pubname=australia-application-portfolio-management&ft:locale=en-US)
+Generate enterprise architecture diagram
 
 </td></tr><tr><td>
 
-[Enterprise Asset Management](https://www.servicenow.com/docs/access?context=enterprise-asset-management&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+Enterprise Asset Management
 
 </td><td>
 
--   [Help repair enterprise assets](https://www.servicenow.com/docs/access?context=now-assist-eam-help-repair-enterprise-assets-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Help manage enterprise asset requests](https://www.servicenow.com/docs/access?context=now-assist-eam-help-manage-enterprise-asset-requests-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+-   Help repair enterprise assets
+-   Help manage enterprise asset requests
 
 </td></tr><tr><td>
 
-[Now Assist for Operational Sustainability Management](https://www.servicenow.com/docs/access?context=now-assist-for-esg&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+Now Assist for Operational Sustainability Management
 
 </td><td>
 
-[Generate carbon calculations for metrics](https://www.servicenow.com/docs/access?context=generate-carbon-calculcations-for-metrics&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+Generate carbon calculations for metrics
 
 </td></tr><tr><td>
 
-[Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Now Assist for Field Service Management \(FSM\)
 
 </td><td>
 
-[Create a work order](https://www.servicenow.com/docs/access?context=create-work-order-now-assist-fsm&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Create a work order
 
 </td></tr><tr><td>
 
-[Now Assist for Finance and Supply Chain \(FSC\)](https://www.servicenow.com/docs/access?context=now-assist-fsc-common-landing&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Now Assist for Finance and Supply Chain \(FSC\)
 
 </td><td>
 
-[Conversational intake for sourcing and procurement](https://www.servicenow.com/docs/access?context=spo-help-fulfill-pr-agentic&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Conversational intake for sourcing and procurement
 
 </td></tr><tr><td>
 
-[Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
+Now Assist for Financial Services Operations \(FSO\)
 
 </td><td>
 
-[Help resolve friendly fraud disputes](https://www.servicenow.com/docs/access?context=friendly-fraud-agentic-ai-workflow&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
+Help resolve friendly fraud disputes
 
 </td></tr><tr><td>
 
-[Now Assist for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
--   [Help manage hardware asset requests](https://www.servicenow.com/docs/access?context=now-assist-ham-fulfill-req-agent-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Help repair hardware assets](https://www.servicenow.com/docs/access?context=now-assist-ham-repair-agent-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+-   Help manage hardware asset requests
+-   Help repair hardware assets
 
 </td></tr><tr><td>
 
-[Now Assist for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Now Assist for Health and Safety
 
 </td><td>
 
--   [Create actions for safety incidents](https://www.servicenow.com/docs/access?context=create-actions-safety-incidents&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Help resolve health and safety cases agentic workflow](https://www.servicenow.com/docs/access?context=help-resolve-safety-cases-agentic-workflow&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Health safety incident patterns assistant agentic workflow](https://www.servicenow.com/docs/access?context=hs-incident-pattern-analysis-agentic-workflow&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Create actions for safety incidents
+-   Help resolve health and safety cases agentic workflow
+-   Health safety incident patterns assistant agentic workflow
 
 </td></tr><tr><td>
 
-[Now Assist for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Now Assist for HR Service Delivery \(HRSD\)
 
 </td><td>
 
--   [Help resolve tuition requests](https://www.servicenow.com/docs/access?context=now-assist-hrsd-ai-agents-policy-resolving-tr-usecase&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Help resolve tuition reimbursement requests](https://www.servicenow.com/docs/access?context=resolve-tuition-reimbursement-requests&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Predict service and transfer HR cases](https://www.servicenow.com/docs/access?context=predict-transfer-hrcase&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Resolve noncritical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolver-na&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Resolve critical HR cases](https://www.servicenow.com/docs/access?context=employee-issue-resolve-critical&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Generate onboarding ramp-up plan](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Recommend catalog and order guide tasks in Onboarding Journey](https://www.servicenow.com/docs/access?context=onboarding-ramp-up-plan-agentic-wf&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Schedule interviews](https://www.servicenow.com/docs/access?context=use-ai-agents-to-schedule-interviews&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Help resolve tuition requests
+-   Help resolve tuition reimbursement requests
+-   Predict service and transfer HR cases
+-   Resolve noncritical HR cases
+-   Resolve critical HR cases
+-   Generate onboarding ramp-up plan
+-   Recommend catalog and order guide tasks in Onboarding Journey
+-   Schedule interviews
 
 </td></tr><tr><td>
 
-[Now Assist for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=now-assist-for-irm&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+Now Assist for Integrated Risk Management \(IRM\)
 
 </td><td>
 
--   [Generate regulatory action plans](https://www.servicenow.com/docs/access?context=generate_regulatory_action_plans&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Get regulatory analysis](https://www.servicenow.com/docs/access?context=get-rcm-reg-insight&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Identify risks for an entity](https://www.servicenow.com/docs/access?context=identify-risks-for-entity&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
--   [Optimize issue resolution](https://www.servicenow.com/docs/access?context=generate-grc-issue-resolution&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+-   Generate regulatory action plans
+-   Get regulatory analysis
+-   Identify risks for an entity
+-   Optimize issue resolution
 
 </td></tr><tr><td>
 
-[Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+Now Assist for IT Operations Management \(ITOM\)
 
 </td><td>
 
--   [Analyze alert impact](https://www.servicenow.com/docs/access?context=now-assist-itom-agentic-aia&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Agent Client Collector \(ACC\) diagnostic workflow](https://www.servicenow.com/docs/access?context=use-acc-diagnostic-workflow&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Analyze potential impact](https://www.servicenow.com/docs/access?context=now-assist-itom-analyze-potential-impact-workflow&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Manage alerts autonomously](https://www.servicenow.com/docs/access?context=itom-autonomous-operator-workflow&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Triage and analyze alerts](https://www.servicenow.com/docs/access?context=itom-alert-triage-agentic-workflow&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   Analyze alert impact
+-   Agent Client Collector \(ACC\) diagnostic workflow
+-   Analyze potential impact
+-   Manage alerts autonomously
+-   Triage and analyze alerts
 
 </td></tr><tr><td>
 
-[Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Now Assist for IT Service Management \(ITSM\)
 
 </td><td>
 
--   [Assess conflicts for a change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-assess-conflicts-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Assess quality of a change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-assess-quality-change-request-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Create outages for a change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-create-outages-for-a-change-request&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Create standard change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-create-change-request-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Create standard change template proposal](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-create-standard-change-template-proposal&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [DEX issue diagnosis and resolution](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Explain SLA](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-explain-sla-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Generate change request plans](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-change-planner-usecase&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Generate post incident reviews](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-mim-usecase&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Incident assist](https://www.servicenow.com/docs/access?context=now-assist-itsm-incident-assist-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Investigate and resolve ITSM incidents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-incident-resolver-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Manage Microsoft 365 group members](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-O365-groupmembers-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Notify users with Twilio](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-twilio-text-usecase&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Schedule a change](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-schedule-change-agentic-workflow&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Suggest configuration items for a change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-suggest-configuration-items-for-a-change-request&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Triage and categorize ITSM incidents](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-catincidents-usecase&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [Wrap-up and resolve ITSM incidents](https://www.servicenow.com/docs/access?context=now-assist-itsm-wrap-up-resolve-incident-aw&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   Assess conflicts for a change request
+-   Assess quality of a change request
+-   Create outages for a change request
+-   Create standard change request
+-   Create standard change template proposal
+-   DEX issue diagnosis and resolution
+-   Explain SLA
+-   Generate change request plans
+-   Generate post incident reviews
+-   Incident assist
+-   Investigate and resolve ITSM incidents
+-   Manage Microsoft 365 group members
+-   Notify users with Twilio
+-   Schedule a change
+-   Suggest configuration items for a change request
+-   Triage and categorize ITSM incidents
+-   Wrap-up and resolve ITSM incidents
 
 </td></tr><tr><td>
 
-[Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Now Assist for Legal Service Delivery \(LSD\)
 
 </td><td>
 
--   [Conversational contract search and insights](https://www.servicenow.com/docs/access?context=cmpro-agentic-use-conv-search&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Triage legal requests](https://www.servicenow.com/docs/access?context=trans-legal-request-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Conversational contract search and insights
+-   Triage legal requests
 
 </td></tr><tr><td>
 
-[Now Assist for Manufacturing Commercial Operations \(MCO\)](https://www.servicenow.com/docs/access?context=now-assist-for-MCO&version=australia&pubname=australia-manufacturing&ft:locale=en-US)
+Now Assist for Manufacturing Commercial Operations \(MCO\)
 
 </td><td>
 
-[Execute recall campaigns faster](https://www.servicenow.com/docs/access?context=execute-recall-campaigns&version=australia&pubname=australia-manufacturing&ft:locale=en-US)
+Execute recall campaigns faster
 
 </td></tr><tr><td>
 
-[Operational Technology \(OT\) Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+Operational Technology \(OT\) Manager Foundation
 
 </td><td>
 
-[Import the OT device spreadsheet into OT CMDB](https://www.servicenow.com/docs/access?context=now-assist-otm-aiagents-import-ot-device-workflow&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+Import the OT device spreadsheet into OT CMDB
 
 </td></tr><tr><td>
 
-[Now Assist for Operational Technology Service Management \(OTSM\)](https://www.servicenow.com/docs/access?context=now-assist-for-operational-technology-service-management&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+Now Assist for Operational Technology Service Management \(OTSM\)
 
 </td><td>
 
-[Generate OT KB articles agentic workflow](https://www.servicenow.com/docs/access?context=agent-ot-knowledge-generator&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+Generate OT KB articles agentic workflow
 
 </td></tr><tr><td>
 
-[Now Assist in Notifications](https://www.servicenow.com/docs/access?context=now-assist-notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Now Assist in Notifications
 
 </td><td>
 
-[Email Intent to Action](https://www.servicenow.com/docs/access?context=email-agentic-workflow&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+Email Intent to Action
 
 </td></tr><tr><td>
 
-[Now Assist for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-for-psds&version=australia&pubname=australia-government-industry&ft:locale=en-US)
+Now Assist for Public Sector Digital Services \(PSDS\)
 
 </td><td>
 
@@ -302,95 +302,95 @@ Help manage public information requests
 
 </td></tr><tr><td>
 
-[Now Assist for Sales Force Automation \(SFA\)](https://www.servicenow.com/docs/access?context=now-assist-for-sales-and-order-management-som&version=australia&pubname=australia-order-management&ft:locale=en-US)
+Now Assist for Sales Force Automation \(SFA\)
 
 </td><td>
 
-[Help nurture new leads](https://www.servicenow.com/docs/access?context=help-nurture-new-leads-agentic-workflow&version=australia&pubname=australia-order-management&ft:locale=en-US)
+Help nurture new leads
 
 </td></tr><tr><td>
 
-[Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&version=australia&pubname=australia-security-management&ft:locale=en-US)
+Now Assist for Security Incident Response
 
 </td><td>
 
--   [Analyze security operations metrics](https://www.servicenow.com/docs/access?context=now-assist-sir-soc-efficiency-usecase&version=australia&pubname=australia-security-management&ft:locale=en-US)
--   [Close security incident](https://www.servicenow.com/docs/access?context=now-assist-sir-close-incident-usecase&version=australia&pubname=australia-security-management&ft:locale=en-US)
--   [Generate SIR shift handover report](https://www.servicenow.com/docs/access?context=add-incidents-shifthandover-ai-agent&version=australia&pubname=australia-security-management&ft:locale=en-US)
--   [Resolve security incident](https://www.servicenow.com/docs/access?context=now-assist-sir-resolve-incident-ai-workflow&version=australia&pubname=australia-security-management&ft:locale=en-US)
+-   Analyze security operations metrics
+-   Close security incident
+-   Generate SIR shift handover report
+-   Resolve security incident
 
 </td></tr><tr><td>
 
-[Now Assist for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+Now Assist for Software Asset Management \(SAM\)
 
 </td><td>
 
--   [Create software reclamation rule](https://www.servicenow.com/docs/access?context=now-assist-sam-create-software-reclamation-rule-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Evaluate software removal candidate](https://www.servicenow.com/docs/access?context=now-assist-sam-evaluate-removal-candidate-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
--   [Help manage software asset requests](https://www.servicenow.com/docs/access?context=now-assist-sam-fulfill-sw-asset-requests-workflow&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)
+-   Create software reclamation rule
+-   Evaluate software removal candidate
+-   Help manage software asset requests
 
 </td></tr><tr><td>
 
-[Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+Now Assist for Strategic Portfolio Management \(SPM\)
 
 </td><td>
 
--   [Generate Agile stories](https://www.servicenow.com/docs/access?context=generate-agile-story-planning-items&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
--   [Monitor project tasks](https://www.servicenow.com/docs/access?context=na-spm-task-monitoring-usecase&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+-   Generate Agile stories
+-   Monitor project tasks
 
 </td></tr><tr><td>
 
-[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Now Assist for Supplier Lifecycle Operations \(SLO\)
 
 </td><td>
 
-[Email intent to action](https://www.servicenow.com/docs/access?context=automated-supplier-case-creation-from-emails&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)
+Email intent to action
 
 </td></tr><tr><td>
 
-[Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
+Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td><td>
 
--   [Help remediate bill issues](https://www.servicenow.com/docs/access?context=billissue-remediation-usecase&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Analyze network incident](https://www.servicenow.com/docs/access?context=network-incident-analysis-usecase&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Customer voice quality issue resolutions](https://www.servicenow.com/docs/access?context=now-assist-customer-voice&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Monitor engagement health](https://www.servicenow.com/docs/access?context=now-assist-tmt-monitor-health&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Recommend risk signal solutions agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-tmt-resolve-risk&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Trigger risk mitigation touchpoint](https://www.servicenow.com/docs/access?context=now-assist-tmt-touchpoint-meeting-scheduler&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Support renewals and expansions](https://www.servicenow.com/docs/access?context=now-assist-tmt-renewal-analyzer&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
--   [Service Exchange onboarding](https://www.servicenow.com/docs/access?context=now-assist-tmt-register-consumer-users-sb&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)
+-   Help remediate bill issues
+-   Analyze network incident
+-   Customer voice quality issue resolutions
+-   Monitor engagement health
+-   Recommend risk signal solutions agentic workflow
+-   Trigger risk mitigation touchpoint
+-   Support renewals and expansions
+-   Service Exchange onboarding
 
 </td></tr><tr><td>
 
-[Now Assist for Vault](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+Now Assist for Vault
 
 </td><td>
 
--   [Access observer configuration](https://www.servicenow.com/docs/access?context=now-assist-vault-access-observer-config&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [Field encryption with Vault module](https://www.servicenow.com/docs/access?context=now-assist-vault-field-encryption-module&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [Securing custom apps with Vault agents](https://www.servicenow.com/docs/access?context=now-assist-vault-securing-custom-apps-agents&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [Summarize access observer logs](https://www.servicenow.com/docs/access?context=now-assist-vault-access-observer-logs&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Access observer configuration
+-   Field encryption with Vault module
+-   Securing custom apps with Vault agents
+-   Summarize access observer logs
 
 </td></tr><tr><td>
 
-[Now Assist for Workplace Service Delivery \(WSD\)](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Now Assist for Workplace Service Delivery \(WSD\)
 
 </td><td>
 
--   [Automate map updates](https://www.servicenow.com/docs/access?context=automate-map-updates-agent-ai&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Help manage workplace reservations](https://www.servicenow.com/docs/access?context=manage-workplace-reservations-agent-ai&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Manage temporary space closures](https://www.servicenow.com/docs/access?context=maintenance-meeting-room-agent-ai&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Optimize cleaning activities](https://www.servicenow.com/docs/access?context=optimize-cleaning-activities-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Workplace Concierge](https://www.servicenow.com/docs/access?context=workplace-concierge-ai-agent&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Automate map updates
+-   Help manage workplace reservations
+-   Manage temporary space closures
+-   Optimize cleaning activities
+-   Workplace Concierge
 
 </td></tr><tr><td>
 
-[Now Assist for Zero Copy Connector](https://www.servicenow.com/docs/access?context=now-assist-for-zero-copy-connector-for-erp&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Now Assist for Zero Copy Connector
 
 </td><td>
 
-[Explore ERP models](https://www.servicenow.com/docs/access?context=now-assist-erp-aiagents-data-explorer-workflow&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Explore ERP models
 
 </td></tr><tr><td>
 
@@ -405,7 +405,7 @@ Help manage public information requests
 -   [Help optimize team productivity](help-optimize-productivity.md)
 -   [Identify ways to improve services](service-improvement.md)
 -   [Investigate IT problems](problem-investigation.md)
--   [Notification agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Notification agent
 -   [Process images for tasks](images-tasks.md)
 -   [Suggest survey responses](survey-suggest.md)
 

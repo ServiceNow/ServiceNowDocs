@@ -57,7 +57,7 @@ If multiple rights are assigned to a user in a user allocation, then the user ha
 
 Citrix **Note:** Citrix license metrics are visible only if the Citrix publisher pack is installed.
 
-A discovery process is required for Citrix data to be collected. Admin users must create a [Discovery schedule](https://www.servicenow.com/docs/access?context=t_CreateADiscoverySchedule&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) to run on the Citrix Delivery Controller for communication with the Citrix License Server.
+A discovery process is required for Citrix data to be collected. Admin users must create a Discovery schedule to run on the Citrix Delivery Controller for communication with the Citrix License Server.
 
 See for information on the Citrix discovery pattern and tables.
 

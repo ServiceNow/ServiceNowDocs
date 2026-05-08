@@ -24,7 +24,7 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     This plugin gives you access to the conversational catalog overview dashboard.
 
-    See: [Install an application or plugin](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    See: Install an application or plugin
 
 -   **2. Review your catalog inventory**
 
@@ -34,8 +34,8 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     See:
 
-    -   [Catalog Conversational Coverage](https://www.servicenow.com/docs/access?context=configure-gen-ai-catalog-item&version=australia&pubname=australia-servicenow-platform&section=using-catalog-conversational-experience&ft:locale=en-US)
-    -   [Conversational catalog overview dashboard](https://www.servicenow.com/docs/access?context=using-catalog-conversational-experience&version=australia&pubname=australia-servicenow-platform&section=conversational-coverage-overview-dashboard&ft:locale=en-US)
+    -   Catalog Conversational Coverage
+    -   Conversational catalog overview dashboard
 -   **3. Determine which catalogs can be made conversational**
 
     Identify catalog items with fewer than 15 variables. \(Items with more than 15 variables are better suited to be submitted as pop-up links to forms.\)
@@ -44,7 +44,7 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     Why? These are easier to convert and provide quick AI wins.
 
-    See: [Service catalog variables](https://www.servicenow.com/docs/access?context=c_ServiceCatalogVariables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    See: Service catalog variables
 
 -   **4. Analyze catalog item metadata**
 
@@ -54,9 +54,9 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     See:
 
-    -   [Service Catalog properties](https://www.servicenow.com/docs/access?context=r_ServiceCatalogProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [Edit a catalog item in Catalog Builder](https://www.servicenow.com/docs/access?context=edit-cat-item-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [Create a catalog item using a template](https://www.servicenow.com/docs/access?context=create-item-cat-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    -   Service Catalog properties
+    -   Edit a catalog item in Catalog Builder
+    -   Create a catalog item using a template
 -   **5. Review advanced configurations**
 
     Review UI policies, client scripts, and user criteria.
@@ -65,19 +65,19 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     See:
 
-    -   [Service catalog UI policy](https://www.servicenow.com/docs/access?context=c_ServiceCatalogUIPolicy&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [Set security for items and categories](https://www.servicenow.com/docs/access?context=c_ServiceCatalogAccessControls&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [Create a user criteria record in Service Catalog](https://www.servicenow.com/docs/access?context=t_CreateAUserCriteriaRecord&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
-    -   [Create a Service Catalog client script](https://www.servicenow.com/docs/access?context=t_CreateACatalogClientScript&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+    -   Service catalog UI policy
+    -   Set security for items and categories
+    -   Create a user criteria record in Service Catalog
+    -   Create a Service Catalog client script
 
 ## Tips
 
--   [Use Now Assist in Catalog Builder to generate catalog items](https://www.servicenow.com/docs/access?context=now-assist-for-catalog-generation&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   Use Now Assist in Catalog Builder to generate catalog items.
 -   Limit the number of variables. Fewer is better.
--   [For form-based requests, select the Make item non-conversational in VA check box.](https://www.servicenow.com/docs/access?context=using-catalog-conversational-experience&version=australia&pubname=australia-servicenow-platform&section=catalog-item-conv-details-page-overview&ft:locale=en-US)
+-   For form-based requests, select the Make item non-conversational in VA check box.
 -   Provide clear context for the LLM with distinct names, labels, and tooltips.
--   Minimize the use of custom variable types. [Use the service catalog variables included on the platform instead.](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Limit client-side scripting and use regular expressions for validation.](https://www.servicenow.com/docs/access?context=define-regex-vrble&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Minimize the use of custom variable types. Use the service catalog variables included on the platform instead.
+-   Limit client-side scripting and use regular expressions for validation.
 -   Avoid complex dependencies. Simplify variable relationships to ensure a smooth conversation flow.
 -   Test and iterate: make changes based on feedback.
 

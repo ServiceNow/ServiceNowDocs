@@ -116,7 +116,7 @@ getting-around-in-windows
 
 Returns the GlideRecord from the Pages \[sp\_page\] table whose ID field matches the passed ID parameter \(**pageId**\). Call this method prior to calling the getHumanReadableUrl\(\) method to obtain the desired sp\_pages GlideRecord.
 
-You can also request that the method use the page route maps information to return the GlideRecord of the final Service Portal page associated with the passed Service Portal page ID. For additional information on page route maps, see [Redirect a reference to a page ID](https://www.servicenow.com/docs/access?context=reroute-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You can also request that the method use the page route maps information to return the GlideRecord of the final Service Portal page associated with the passed Service Portal page ID. For additional information on page route maps, see Redirect a reference to a page ID.
 
 <table id="table_hhx_rzn_tvb" class="parameters"><thead><tr><th>
 

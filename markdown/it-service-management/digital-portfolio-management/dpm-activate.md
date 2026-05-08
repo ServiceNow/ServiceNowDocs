@@ -29,7 +29,7 @@ When you install the Digital Portfolio Management \(DPM\) application from the S
 
 2.  Find the plugin.
 
-    Use the filter criteria and search bar to search by name or by ID. If you can't find the plugin you want, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Use the filter criteria and search bar to search by name or by ID. If you can't find the plugin you want, see Request a plugin.
 
 3.  Select **Install**, and then in the Activate Plugin dialog box, select **Activate**.
 

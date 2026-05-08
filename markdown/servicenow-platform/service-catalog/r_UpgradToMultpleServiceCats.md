@@ -32,7 +32,7 @@ The following tables are provided with [multiple service catalogs](../concept/c_
 
 Catalog site records appear in the **Sites** related list on the Catalog form.
 
-The Catalog Site \[sc\_catalog\_site\] table associates catalogs with [CMS web sites](https://www.servicenow.com/docs/access?context=t_CreateANewSite&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+The Catalog Site \[sc\_catalog\_site\] table associates catalogs with CMS web sites.
 
 Several [service catalog system properties](r_ServiceCatalogProperties.md) are used to specify values for different sites used by different catalogs.
 

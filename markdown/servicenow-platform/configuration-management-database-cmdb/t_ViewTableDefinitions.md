@@ -23,7 +23,7 @@ Role required: Per item as specified
 
 The [CI Class Manager](../reference/ci-class-manager-landing-page.md) shows the entire CMDB class hierarchy in a tree-view format, consolidating class definitions into a central location. It lets you show metadata information for a class, such as reconciliation rules, mandatory and recommended fields, and audit templates. You can also select a specific class to view, to modify, or to extend its definition to create a derived class. For each class, you can directly access CMDB Health settings, identification and reconciliation rules, orphan scorecard, and certificate template, defined for the class.
 
-For more information about extending a class and how attributes are derived from a parent class in that process, see [Table extension and classes](https://www.servicenow.com/docs/access?context=table-extension-and-classes&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about extending a class and how attributes are derived from a parent class in that process, see Table extension and classes.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ For more information about extending a class and how attributes are derived from
 
             Role required: sn\_cmdb\_editor or itil for reading. sn\_cmdb\_admin or itil\_admin, and personalize\_dictionary for writing.
 
-        -   **Attributes**:Shows table attributes \(columns\). Lets you edit those attributes and add new ones. For description of the different attributes in the list view, see [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        -   **Attributes**:Shows table attributes \(columns\). Lets you edit those attributes and add new ones. For description of the different attributes in the list view, see Dictionary entry form.
 
             Role required: personalize\_dictionary for reading and writing
 

@@ -19,23 +19,23 @@ Encryption makes the email unreadable to anyone except the intended recipient. I
 
 ## Digital signature and encryption configuration
 
-To use digital signature or encryption for emails in Configurable Workspace, configure S/MIME for your instance. For information on S/MIME and instructions to configure S/MIME for emails, see [Setting up S/MIME for email](https://www.servicenow.com/docs/access?context=smime-for-email-signing-and-encryption&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To use digital signature or encryption for emails in Configurable Workspace, configure S/MIME for your instance. For information on S/MIME and instructions to configure S/MIME for emails, see Setting up S/MIME for email.
 
 Configuring S/MIME for emails requires the following steps:
 
--   **[Import an S/MIME key pair](https://www.servicenow.com/docs/access?context=import-smime-key-pair&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Import an S/MIME key pair**
 
     Import an S/MIME key pair consisting of the private key and certificate to sign outbound emails or decrypt emails.
 
--   **[Upload a CA certificate](https://www.servicenow.com/docs/access?context=upload-ca-certificate&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Upload a CA certificate**
 
     Upload a digital CA \(Certificate Authority\) certificate to validate email certificates for secure communication.
 
--   **[Upload an email certificate](https://www.servicenow.com/docs/access?context=upload-email-certificate&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Upload an email certificate**
 
     Upload an email certificate to validate a signature for inbound email or encrypt an outbound email or both for secure communication.
 
--   **[Enable S/MIME](https://www.servicenow.com/docs/access?context=enable-smime-for-outbound-and-inbound&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Enable S/MIME**
 
     Configure S/MIME settings for inbound and outbound email.
 

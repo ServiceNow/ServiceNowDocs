@@ -60,7 +60,7 @@ Audience
 
 </td><td>
 
-The audience determines who can see the page variant. The Email Interaction record page does not have a defined audience.For more information, see [Learn about audiences](https://www.servicenow.com/docs/access?context=add-audiences&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The audience determines who can see the page variant. The Email Interaction record page does not have a defined audience.For more information, see Learn about audiences.
 
 </td></tr></tbody>
 </table>To access the settings for this page variant:

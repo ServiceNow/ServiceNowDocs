@@ -84,7 +84,7 @@ For users familiar with the classic Event Management experience, this feature of
 
                 For example, if you have alerts from USA, CA, and USA, NY, and you want to group the alerts by country, you would set the **Source** field to the location. If the **Match Method for Grouping** is a fuzzy match and the **Similarity threshold \(percentage\)** is 50%, then alerts will be grouped if they are at least 50% similar, meaning they share the country "USA" as a common attribute.
 
-            -   When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see [Pattern matching](https://www.servicenow.com/docs/access?context=c_PatternMatching&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+            -   When you select a value for the pattern match method in the grouping field, the **Pattern matching** field becomes visible. Alerts are grouped when the specified pattern matches. For more information, see Pattern matching.
 
                 Use asterisks \(\*\) in the search string to match any number of characters or a question mark \(?\) to match any single character. Everything else in the search string matches itself. For example, use "HTTP Error 5??" to match all HTTP 500 errors.
 

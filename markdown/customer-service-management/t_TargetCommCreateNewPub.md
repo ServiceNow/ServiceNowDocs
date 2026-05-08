@@ -151,7 +151,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 </td></tr></tbody>
 </table>3.  Click one of the following options.
 
-<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d87496e332">
+<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d87492e332">
 
 **Submit**
 
@@ -159,7 +159,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 
 The stage is set to **Author** and the publication record is saved.
 
-</td></tr><tr><td id="d87496e344">
+</td></tr><tr><td id="d87492e344">
 
 **Send for Review**
 

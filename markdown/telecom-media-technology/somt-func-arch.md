@@ -73,17 +73,17 @@ During this phase, Sales CRM for Telecommunications coordinates with Field Servi
 
 The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open APIs throughout its architecture, ensuring standards-based integration with third-party systems. Key API integrations include:
 
--   Product catalog management API: Manage product catalog information from external systems. See [Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See [Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See [Service Catalog Open API](https://www.servicenow.com/docs/access?context=service-catalog-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Service order API: Service Order API: Customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager or when the decomposition and orchestration is handled by the marketplace owner and sends order to Sales CRM for Telecommunications for fulfillment. See [Service Order Open API](https://www.servicenow.com/docs/access?context=service-order-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See [Technical Service Qualification Open API](https://www.servicenow.com/docs/access?context=ts-qualification-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Quote management API: Based on the TMF 648 API. See [Quote Management API](https://www.servicenow.com/docs/access?context=quote-management-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Product catalog management API: Manage product catalog information from external systems. See Product Catalog Open API.
+-   Product inventory API: For ServiceNow applications or external CRM / CPQ submitting orders. See Product Inventory Open API.
+-   Service catalog API: For synching technical specifications with other network domain specific provisioning catalogs. See Service Catalog Open API.
+-   Service order API: Service Order API: Customer order is handled by another application and Sales CRM for Telecommunications acts as a service order manager or when the decomposition and orchestration is handled by the marketplace owner and sends order to Sales CRM for Telecommunications for fulfillment. See Service Order Open API.
+-   Technical service qualification API: Checks availability of resources and services before an order is submitted for fufillment. See Technical Service Qualification Open API.
+-   Quote management API: Based on the TMF 648 API. See Quote Management API.
 
 ## Non-TMF APIs
 
--   Entitlement API: Create and fetch entitlements. See [Entitlement API](https://www.servicenow.com/docs/access?context=entitlement-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://www.servicenow.com/docs/access?context=lead-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Order API: See [Order API](https://www.servicenow.com/docs/access?context=order_csm-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
--   Sales agreement API: See [Sales Agreement API](https://www.servicenow.com/docs/access?context=sales_agreement-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Entitlement API: Create and fetch entitlements. See Entitlement API.
+-   Lead management API: Mapping and certification as per TMF 699. See lead API.
+-   Order API: See Order API.
+-   Sales agreement API: See Sales Agreement API.
 

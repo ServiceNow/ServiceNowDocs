@@ -33,7 +33,7 @@ Entity classes can roll up to each other, leading to the development of the depe
 
 4.  Do one of the following actions.
 
-<table id="choicetable_klb_sq3_4w"><tbody><tr><td id="d139717e98">
+<table id="choicetable_klb_sq3_4w"><tbody><tr><td id="d139713e98">
 
 **If there are no relationships between entity classes**
 
@@ -41,7 +41,7 @@ Entity classes can roll up to each other, leading to the development of the depe
 
 Drag an entity class from the left to the center and drop it.
 
-</td></tr><tr><td id="d139717e107">
+</td></tr><tr><td id="d139713e107">
 
 **If there are relationships between entity classes**
 

@@ -66,6 +66,6 @@ These solutions consist of Platform Analytics indicators and associated data col
 
         Assign the user role sn\_cpro\_dashboard.user to users or groups who must view the dashboard.
 
-    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://www.servicenow.com/docs/access?context=exploring-user-administration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see Exploring user administration.
 
 

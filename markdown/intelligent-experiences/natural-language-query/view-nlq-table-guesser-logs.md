@@ -44,7 +44,7 @@ Review these logs to troubleshoot which CMDB tables were inferred by NLQ.
 
 ## What to do next
 
-For more information on CMDB queries, see [Exploring CMDB Query Builder](https://www.servicenow.com/docs/access?context=querying-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more information on CMDB queries, see Exploring CMDB Query Builder.
 
 **Parent Topic:**[Configuring NLQ](../concept/configuring-nlq.md)
 

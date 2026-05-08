@@ -254,7 +254,7 @@ Role required: admin, sn\_app\_eng\_studio.user, or delegated\_developer
 
 6.  Choose a **Field type**.
 
-    Field type refers to the type of data that the new column will store. For example, to store plain text in the column, select **String**. To understand the basic field properties, see [Add and customize a field in a table](https://www.servicenow.com/docs/access?context=t_CreatingNewFields&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Field type refers to the type of data that the new column will store. For example, to store plain text in the column, select **String**. To understand the basic field properties, see Add and customize a field in a table.
 
     Depending on the type that you select, you may need to fill in additional fields to further define the table column. For example, with Reference field types, search for and select the appropriate data table to reference.
 

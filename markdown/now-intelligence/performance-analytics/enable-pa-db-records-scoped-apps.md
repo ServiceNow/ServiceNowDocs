@@ -25,7 +25,7 @@ Scope required: the scope of your application.
 
 1.  Set the system property **glide.security.scoped\_administration.honor\_global\_acl** to true.
 
-    Often this property is already set to true, so additional update is not necessary. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    Often this property is already set to true, so additional update is not necessary. For more information, see Add a system property.
 
 2.  Switch the scope to the scope that the dashboard is created in.
 

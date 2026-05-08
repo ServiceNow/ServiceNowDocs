@@ -17,7 +17,7 @@ Set options to import custom and ServiceNow APIs from your instance into the CMD
 
 ## Before you begin
 
-Configure the **Import ServiceNow API to API Insights** scheduled job to automatically import configured APIs from your ServiceNow instance into the API Insights workspace at regular intervals. For more information, see [Scheduled jobs](https://www.servicenow.com/docs/access?context=c_ScheduledJobs&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Configure the **Import ServiceNow API to API Insights** scheduled job to automatically import configured APIs from your ServiceNow instance into the API Insights workspace at regular intervals. For more information, see Scheduled jobs.
 
 Role required: sn\_cmdb\_admin
 

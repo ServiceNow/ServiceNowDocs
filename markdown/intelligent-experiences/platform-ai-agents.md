@@ -16,7 +16,7 @@ Explore different AI agents available in platform Now Assist applications.
 
 There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](../task/find-ai-agents.md).
 
-AI agents are also provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as AI Agent Studio and Virtual Agent. For more information, see [Available AI agents for Integration Hub](https://www.servicenow.com/docs/access?context=available-spk-ai-agents&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+AI agents are also provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as AI Agent Studio and Virtual Agent. For more information, see Available AI agents for Integration Hub.
 
 -   **[Platform Approval assistance AI agent](platform-approval-aia.md)**  
 The Approval assistance AI agent is an AI agent that enables you to see your list of pending approvals, as well as see the details about your pending approvals. You can then approve or reject requests and tickets from Now Assist in Virtual Agent.

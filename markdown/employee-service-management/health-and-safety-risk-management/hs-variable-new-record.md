@@ -37,7 +37,7 @@ Type
 
 </td><td>
 
-The variable type that you want to create. For more information, see [Types of service catalog variables](https://www.servicenow.com/docs/access?context=r_VariableTypes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The variable type that you want to create. For more information, see Types of service catalog variables.
 
 </td></tr><tr><td>
 

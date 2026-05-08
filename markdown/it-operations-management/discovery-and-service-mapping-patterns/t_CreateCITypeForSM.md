@@ -35,7 +35,7 @@ A CI type \(or class\) contains several important definitions that apply to all 
 
 -   CI attributes are added as fields to the CMDB tables.
 -   Identifiers help Service Mapping and Discovery to differentiate between new and existing CIs. For example, if there is an Apache Web Server CI type defined in the CMDB, and Service Mapping and Discovery both discover an Apache Web Server CI, it processes it using identifiers. It then recognizes it as an updated version of the Apache Web Server CI that already exists in the system, not a new Apache Web Server CI.
--   There are [reconciliation rules](https://www.servicenow.com/docs/access?context=r_ReconciliationRulesPrinciples&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) that help the ServiceNow platform to consolidate CI attributes received from different applications correctly. These rules are necessary for organizations where more than one application participates in the discovery process. Reconciliation rules define how attributes of the same CI discovered by different discovery sources are merged. For example, Service Mapping discovers the version and home directory attributes of an Apache Web Server CI, while Discovery discovers the version and patch level attributes for the same Apache Web Server CI. The ServiceNow AI Platform applies the reconciliation rule and as a result Service Mapping does not overwrite the attributes found by Discovery.
+-   There are reconciliation rules that help the ServiceNow platform to consolidate CI attributes received from different applications correctly. These rules are necessary for organizations where more than one application participates in the discovery process. Reconciliation rules define how attributes of the same CI discovered by different discovery sources are merged. For example, Service Mapping discovers the version and home directory attributes of an Apache Web Server CI, while Discovery discovers the version and patch level attributes for the same Apache Web Server CI. The ServiceNow AI Platform applies the reconciliation rule and as a result Service Mapping does not overwrite the attributes found by Discovery.
 -   Related items, both CIs and non-CIs, serve as a reference and provide additional information about the CI. For example, you can define a serial number, a port and an network APR table as related items for a hardware server. The system does not use these items for identification. After you configure related items for the CI type, you can use horizontal discovery for CIs of this type together with their related items. For information, see [Discover related items together with the main CI](add-related-cis-to-the-main-ci-pattern.md).
 
     **Note:** Non-CIs are items that do not extend the Configuration Item \[cmdb\_ci\] table. Examples of non-CIs are ports, serial numbers, or Network ARP tables.
@@ -52,7 +52,7 @@ In addition to these CI type definitions, the horizontal discovery process uses 
 
 3.  Click the context menu for the required CI type and select **Add Child Class**.
 
-4.  [Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US)to store the CI type attributes:
+4.  Create a tableto store the CI type attributes:
 
 <table id="table_fcb_myv_dt"><thead><tr><th>
 
@@ -104,7 +104,7 @@ The table name of the parent CI type.All CI types are extensions of the Configur
 </td></tr></tbody>
 </table>5.  Configure how the instance determines if a discovered CI is an upgraded CI existing in the instance or a brand new CI.
 
-    See [Create or edit a CI identification rule](https://www.servicenow.com/docs/access?context=t_CreateCIIdentificationRule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for detailed procedure.
+    See Create or edit a CI identification rule for detailed procedure.
 
     **Warning:** If there is no CI identification rule for a CI type, Service Mapping discovers CIs belonging to this type, but cannot interpret the results of the discovery process. In this case, the ServiceNow AI Platform rejects the discovery results for these CIs and their information is not updated.
 
@@ -198,7 +198,7 @@ Add conditions to construct a filter to narrow the set of records that will be s
 </td></tr></tbody>
 </table>7.  Configure the instance to consolidate CI attributes received from different data sources correctly.
 
-    See [Create or edit a CI reconciliation rule](https://www.servicenow.com/docs/access?context=create-reconciliation-rule&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    See Create or edit a CI reconciliation rule.
 
     Configure the following Service Mapping related parameters correctly:
 
@@ -220,11 +220,11 @@ Add conditions to construct a filter to narrow the set of records that will be s
 
     Clear the **Reverse Relationship Direction** check box while performing this configuration.
 
-    See [Create dependent relationships](https://www.servicenow.com/docs/access?context=create-dependent-relationship&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    See Create dependent relationships.
 
 10. If necessary, customize icons that represent CIs in maps.
 
-    See [Create or modify map icons](https://www.servicenow.com/docs/access?context=t_CreateModifyNGBSMMapIcons&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    See Create or modify map icons.
 
 
 **Parent Topic:**[Discovery patterns used by ITOM Visibility](../concept/c_MappingPatternsCustomization.md)

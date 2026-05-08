@@ -63,7 +63,7 @@ An optional approval workflow is available for isolating host machines, restorin
 
  As a Security Administrator, you can set up approval while configuring the profiles and the default settings. An approval group must be available on the Groups list in your instance.
 
- To monitor and process requests submitted by the users with sn\_si.analyst role, each member of the approval group should navigate to My Approvals in the ServiceNow AI Platform®. Alternatively, the approvers can find the requests submitted exclusively for Microsoft Defender for Endpoint integration under the Approvals module. For more information on how to create a user group, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ To monitor and process requests submitted by the users with sn\_si.analyst role, each member of the approval group should navigate to My Approvals in the ServiceNow AI Platform®. Alternatively, the approvers can find the requests submitted exclusively for Microsoft Defender for Endpoint integration under the Approvals module. For more information on how to create a user group, see Create a user group.
 
 </td></tr></tbody>
 </table>## What to do next

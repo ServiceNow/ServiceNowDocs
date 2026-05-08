@@ -46,7 +46,7 @@ The following workflow explains the metadata extraction and contract reminder se
     -   Presence of auto-renewal clause
     -   Notice period for contract renewal or termination
 
-        **Note:** If renewal notice period and termination notice period aren’t available, it uses the configured default notice period. For more information, see [Set the default notice period for the Manage contract repository agentic workflow](https://www.servicenow.com/docs/access?context=conf-sys-prop-default-np&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+        **Note:** If renewal notice period and termination notice period aren’t available, it uses the configured default notice period. For more information, see Set the default notice period for the Manage contract repository agentic workflow.
 
 10. The Contract Manager sets the contract reminders in the playbook by reviewing the calculated date and configuring the recipient list for the reminders.
 

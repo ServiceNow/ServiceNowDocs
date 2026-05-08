@@ -194,7 +194,7 @@ By default, the notification uses a ServiceNow® banner and a placeholder signat
 
     **Tip:** The image must be added before the mail script so that it appears at the top of the email.
 
-    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see [Upload one or more images](https://www.servicenow.com/docs/access?context=upload-multiple-images&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see Upload one or more images.
 
 6.  Click the **Show Notification Scripts** related link.
 

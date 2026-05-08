@@ -47,5 +47,5 @@ Enable any indicator to display related records such as incidents or problems fo
 **Related topics**  
 
 
-[Dependency Views map indicators](https://www.servicenow.com/docs/access?context=t_CreateModifyNGBSMMapIndicators&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.t_CreateModifyNGBSMMapIndicators]
 

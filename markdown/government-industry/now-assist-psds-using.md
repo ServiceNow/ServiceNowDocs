@@ -72,7 +72,7 @@ The Now Assist for PSDS application includes the generative AI skills that enabl
 **Related topics**  
 
 
-[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.platform-now-assist-landing]
 
 [Configure Now Assist for Public Sector Digital Services \(PSDS\)](now-assist-psds-configuring.md)
 

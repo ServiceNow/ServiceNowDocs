@@ -20,7 +20,7 @@ Service Catalog forms are rendered within Service Portal widgets in a two-column
 Use the following recommendations as a guide to building scalable forms that can be used in both applications:
 
 -   Keep forms simple. Because forms with multiple containers, variable sets, and client scripts do not always display as expected in Service Portal, keep forms short to eliminate conversion and debugging issues.
--   Think in mobile. Any support for Catalog Client Scripts or Catalog UI Policies is the same as in mobile. Review the following resource: [Mobile client GlideForm \(g form\) scripting and migration](https://www.servicenow.com/docs/access?context=r_MobilePlatformMigrationImpacts&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Think in mobile. Any support for Catalog Client Scripts or Catalog UI Policies is the same as in mobile. Review the following resource: Mobile client GlideForm \(g form\) scripting and migration.
 
 ## Form rendering in Service Portal
 

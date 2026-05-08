@@ -48,7 +48,7 @@ Create a Credential record for the Microsoft Active Directory host. The Microsof
     |-----|--------------|
     |Name|Enter any name to uniquely identify the record. For example, enter `AD Credential`.|
     |Active|Enable|
-    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).|
+    |User name|Enter a user name with access to the target Windows host. For more information about Windows permissions, see Windows credentials.|
     |Password|Enter the password for the account.|
     |Applies to|Select the MID Servers that can use this credential. For example, select **All MID servers**.|
     |Order|Select the order to apply this credential. For example, enter `100`.|

@@ -31,8 +31,8 @@ The main elements of AI Search for product catalog include the following:
 
     -   The Product Offering Indexed source uses the Product Offering \[sn\_prd\_pm\_product\_offering\] table as the source. The**Configuration JSON** field in the Product Offering table provides the characteristic options and attributes for products, which are used by AI Search to find catalog items by characteristics and options.
     -   The Service Specification indexed source uses the Service Specification \[sn\_prd\_pm\_service\_specification\] table as the source.
-    -   Semantic Index Configuration settings define the embedding model, chunking configuration, and the semantic index fields used to control semantic indexing in AI Search. To learn more about semantic indexing, see [Semantic index configuration for indexed sources](https://www.servicenow.com/docs/access?context=semantic-index-cfg-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-    For more information on indexed sources, see [Indexed sources in AI Search](https://www.servicenow.com/docs/access?context=indexed-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   Semantic Index Configuration settings define the embedding model, chunking configuration, and the semantic index fields used to control semantic indexing in AI Search. To learn more about semantic indexing, see Semantic index configuration for indexed sources.
+    For more information on indexed sources, see Indexed sources in AI Search.
 
 -   **Search source**
 
@@ -42,15 +42,15 @@ The main elements of AI Search for product catalog include the following:
     -   \[Sellable\] \[is\] \[true\]
     The Service Specification Search source has one condition, \[State\] \[is\] \[published\], that a specification must meet so that it's returned as a search result.
 
-    For more information on search sources, see [Search sources in AI Search](https://www.servicenow.com/docs/access?context=search-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information on search sources, see Search sources in AI Search.
 
 -   **Search profiles**
 
-    Search profiles \(Product Offering Search Profile and Service Specification Search Profile\) manage the search experience offered to users and the data to be searched. You can fine tune the synonyms, stop words, typo handling rules used in auto-correction, and result improvement rules that control the product catalog search experience. To learn more about the features that can be changed in a search file, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Search profiles \(Product Offering Search Profile and Service Specification Search Profile\) manage the search experience offered to users and the data to be searched. You can fine tune the synonyms, stop words, typo handling rules used in auto-correction, and result improvement rules that control the product catalog search experience. To learn more about the features that can be changed in a search file, see Search profiles in AI Search.
 
 -   **Search application configurations**
 
-    Search application configurations define the search engine used, the search profile used, and also auto-complete suggestions. For details about these configurations, see [Search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Search application configurations define the search engine used, the search profile used, and also auto-complete suggestions. For details about these configurations, see Search application configurations.
 
 
 Product catalog admins inherit the ais\_admin role, which allows them to create, read, update, and delete content indexing and search settings for AI Search.
@@ -59,7 +59,7 @@ Product catalog admins inherit the ais\_admin role, which allows them to create,
 
 Users with the admin role perform the following steps to implement AI Search for the product catalog.
 
-1.  [Install AI Search for Next Experience](https://www.servicenow.com/docs/access?context=install-ais-next-experience-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US) only if you upgraded from Tokyo or a previous release.
+1.  Install AI Search for Next Experience only if you upgraded from Tokyo or a previous release.
 
     Skip this step if you're a new customer using the Australia release or if your instance was zBooted in the Australia release. AI Search for Next Experience is automatically installed.
 

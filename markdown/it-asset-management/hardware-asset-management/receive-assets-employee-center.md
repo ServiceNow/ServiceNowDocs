@@ -19,7 +19,7 @@ After receiving hardware or consumable assets that were in transit and reserved 
 
 Role required: Log in as an employee.
 
-To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see [Enable or disable global header options](https://www.servicenow.com/docs/access?context=config-global-header-components&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+To view the **My Assets** option on the global header navigation bar of the Employee Center portal, the value of the **enable\_assets** option must be set to **true** on the Additional options, JSON format field of the Employee Center menu record. For more details, see Enable or disable global header options.
 
 **Note:** The **My Assets** option requires the Hardware Asset Management application to be activated.
 

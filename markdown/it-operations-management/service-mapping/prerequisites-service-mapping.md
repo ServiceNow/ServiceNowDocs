@@ -54,7 +54,7 @@ Use the following guidelines to decide for which MID Server to create credential
 
 In addition to generic credentials, you configure on MID Servers, you must configure sudo-level credentials on all Unix-based hosts in your organization.
 
-If the MID Server does not have sufficient credentials to access a device or application, it can run Network Mapper \(Nmap\) commands to collect basic information without using credentials. Credential-less discovery with Nmap requires additional configuration as described in [Install and uninstall Nmap on a MID Server](https://www.servicenow.com/docs/access?context=install-nmap-on-mid-server&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If the MID Server does not have sufficient credentials to access a device or application, it can run Network Mapper \(Nmap\) commands to collect basic information without using credentials. Credential-less discovery with Nmap requires additional configuration as described in Install and uninstall Nmap on a MID Server.
 
 Review the list of credentials necessary to discover hosts and applications supported in the base system.
 
@@ -93,7 +93,7 @@ IBM zOS server Server \[cmdb\_ci\_ibm\_zos\_server\]
 </td><td>
 
 -   Run the USS service on the port 22 on the z/OS server.
--   On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   On the ServiceNow AI Platform, configure SSH credentials.
 -   Provide the user with the following permissions:
     -   To write into the /tmp directory.
     -   To see all user processes.
@@ -101,7 +101,7 @@ IBM zOS server Server \[cmdb\_ci\_ibm\_zos\_server\]
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -123,7 +123,7 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -139,7 +139,7 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Windows Server \[cmdb\_ci\_windows\_server\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
@@ -179,11 +179,11 @@ A10 Load Balancer \[cmdb\_ci\_lb\_A10\]
 
 </td><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure SNMP credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -195,11 +195,11 @@ Active Directory Domain Controller \[cmdb\_ci\_ad\_controller\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -224,7 +224,7 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
-Configure [Amazon Web Services](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials.
+Configure Amazon Web Services credentials.
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ Amazon Web Services \(AWS\) API Gateway
 
 </td><td>
 
-Configure [Amazon Web Services](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials.
+Configure Amazon Web Services credentials.
 
 </td></tr><tr><td>
 
@@ -264,11 +264,11 @@ Windows Server \[cmdb\_ci\_windows\_server\] or Linux Server \[cmdb\_ci\_linux\_
 
 </td><td>
 
-\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
@@ -288,7 +288,7 @@ Cloud DataBase \[cmdb\_ci\_cloud\_database\]
 
 </td><td>
 
-Configure [Amazon Web Services](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials.
+Configure Amazon Web Services credentials.
 
 </td></tr><tr><td>
 
@@ -308,7 +308,7 @@ Cloud Function \[cmdb\_ci\_cloud\_function\]
 
 </td><td>
 
-Configure [Amazon Web Services](https://www.servicenow.com/docs/access?context=r_CloudManagementCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials.
+Configure Amazon Web Services credentials.
 
 </td></tr><tr><td>
 
@@ -338,15 +338,15 @@ Give the user elevated rights to execute [Service Mapping commands requiring a p
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\), on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -362,11 +362,11 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-\(If hosted on UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on UNIX\), on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td rowspan="6">
 
@@ -390,15 +390,15 @@ On the server hosting the Apache Web Server, verify that the $APACHEHOME/bin/env
 
 </td></tr><tr><td>
 
-\(If hosted on UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on UNIX\), on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -414,11 +414,11 @@ Give the user elevated rights to run [Service Mapping commands requiring a privi
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux or UNIX\), on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux or UNIX\), on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -432,15 +432,15 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 -   To successfully discover the load balancer pool members, set the **display service names** option \(**bigpipe.displayservicenames**\) of the load balancer to **false** on the F5 load balancer.
 -   For F5 Load Balancer pattern:
-    -   Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US) on the ServiceNow AI Platform.
-    -   \(Optional\) If there are iRules or SNMP community credentials are not enough for discovering outgoing connections, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   Configure SNMP credentials on the ServiceNow AI Platform.
+    -   \(Optional\) If there are iRules or SNMP community credentials are not enough for discovering outgoing connections, configure SSH credentials.
 
 **Note:** If you do not want to use SSH credentials, you can use the REST API to create a connection to F5 BIG-IP devices.
 
 Service Mapping uses the SSH credentials to retrieve connections that are not from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
 -   For F5 Load Balancer SSH pattern:
-    -   Configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    -   Configure SSH credentials.
     -   Verify permissions for the following SSH commands:
         -   `list auth partition all`
         -   `list sys global-settings`
@@ -480,7 +480,7 @@ Service Mapping uses the SSH credentials to retrieve connections that are not fr
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
-    -   Create [basic authentication](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials.
+    -   Create basic authentication credentials.
 -   For F5 REST OAuth 2.0 authentication pattern:
     -   Verify read-only permission for the following APIs:
         -   `"https://" + $ipAddress + "/mgmt/shared/authn/login"`
@@ -498,15 +498,15 @@ Service Mapping uses the SSH credentials to retrieve connections that are not fr
         -   `"https://" + $ipAddress + "/mgmt/tm/gtm/wideip"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/traffic-group/"`
         -   `"https://" + $ipAddress + "/mgmt/tm/cm/device"`
-    -   Create [basic authentication](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials.
-    -   Create [a credential alias](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the basic authentication credential.
+    -   Create basic authentication credentials.
+    -   Create a credential alias for the basic authentication credential.
     -   Create a [serverless discovery schedule](../task/create-serverless-sched-f5-rest-oauth.md).
 -   For top-down discovery using Service Mapping, provide permissions to run the following APIs:
 
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/"get_attr {"irule"}`
     -   `https://" get_attr {"managementIP"}"/mgmt/tm/ltm/virtual/~Common~"get_attr {"vip_name"}`
     -   `https://" get_attr {"computer_system.managementIP"}"/mgmt/tm/ltm/pool/"get_attr {"pool_name"}"/members?`
--   \(Optional\) For top-down discovery with Service Mapping, configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   \(Optional\) For top-down discovery with Service Mapping, configure applicative credentials.
 -   \(Optional\) For top-down discovery with Service Mapping, provide a user with permissions to run the following commands:
     -   bigpipe commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 9\)
     -   bigpipe and Traffic Management Shell \(TMSH\) commands \(for BIG-IP LTM F5 or BIG-IP GTM F5 version 10\)
@@ -529,11 +529,11 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -549,7 +549,7 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
@@ -565,7 +565,7 @@ ITAM Asset Center \[cmdb\_ci\_appl\_itam\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a Windows OS user with permissions to access the ITAM registry as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a Windows OS user with permissions to access the ITAM registry as described in Windows credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -577,11 +577,11 @@ CA Identity Manager Provisioning Server \[cmdb\_ci\_appl\_ca\_id\_man\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -593,7 +593,7 @@ inter connect \[cmdb\_ci\_inter\_connect\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -605,7 +605,7 @@ Interconnect Instance \[cmdb\_ci\_interconnect\_instance\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -617,15 +617,15 @@ ACE \[cmdb\_ci\_lb\_ace\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure applicative credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure SNMP community credentials as described in [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SNMP community credentials as described in SNMP credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -637,11 +637,11 @@ Cisco CallManager \[cmdb\_ci\_appl\_cisco\_call\_man\]
 
 </td><td>
 
-\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -653,11 +653,11 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
-Configure SNMP community credentials as described in [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure SNMP community credentials as described in SNMP credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -673,12 +673,12 @@ Delivery Controller \[cmdb\_ci\_appl\_delivery\_controler\]
 
 </td><td>
 
--   Configure [Windows administrative credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to access the host machine.
+-   Configure Windows administrative credentials to access the host machine.
 -   Make sure that [PowerShell for Discovery](../../discovery/reference/r_PowerShellForDiscovery.md) is installed on your MID Servers. The patterns used for Citrix discovery require the ability to run PowerShell commands.
 -   For OS users, make sure you can execute “Get-XDSite.” The Citrix Studio Admin should provide permissions.
 -   \(Optional\) For top-down discovery with Service Mapping, on Citrix Delivery Controller, install the Citrix.Broker module.
 -   \(Optional\) For top-down discovery with Service Mapping, a user with permission to run PowerShell commands.
--   \(Optional\) \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   \(Optional\) \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -690,9 +690,9 @@ Citrix Collector \[cmdb\_ci\_appl\_citrix\_collector\]
 
 </td><td>
 
--   Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Configure applicative credentials.
 -   Configure a user with permissions to run PowerShell commands on the Citrix server.
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 **Note:** To use this credential later for XenAPP, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_xenapp. To use this credential later for Citrix, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_collector.
 
@@ -700,7 +700,7 @@ Citrix Collector \[cmdb\_ci\_appl\_citrix\_collector\]
 -   Provide a user with permissions to read and query the Citrix repository:
     -   For versions 4.5 and later, a PowerShell script from the XenApp server.
     -   For versions earlier than 4.5, a Microsoft Visual Basic Script \(VBScript\) from the Citrix Presentation Server
--   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 **Note:** To use this credential later for XenAPP, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_xenapp. To use this credential later for Citrix, set the **Credential alias** attribute to cmdb\_ci\_appl\_citrix\_collector.
 
@@ -715,8 +715,8 @@ Citrix XenAPP or Presentation Server \[cmdb\_ci\_appl\_citrix\_xenapp\]
 
 </td><td>
 
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   \(Optional\) To discover using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
+-   \(Optional\) To discover using the WinRM protocol, see Configure WinRM trusted hosts on MID Server
 
 </td></tr><tr><td>
 
@@ -728,12 +728,12 @@ Citrix Netscaler \[cmdb\_ci\_lb\_netscaler\]
 
 </td><td>
 
--   Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Configure SNMP credentials.
 
-**Note:** You also have the option of using [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). However, if the payload size of the data that is returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+**Note:** You also have the option of using SSH credentials. However, if the payload size of the data that is returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) Provide a user with the read access to the **NS.conf** configuration file if you do not want to provide SNMP or SSH credentials.
--   Use [basic authentication](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials for discovery via REST.
+-   Use basic authentication credentials for discovery via REST.
 
  Service Mapping uses the SSH credentials to retrieve connections that are not from CMDB. Discovering connections using the SSH protocol is a failover mechanism for the SNMP-based discovery.
 
@@ -747,12 +747,12 @@ Load Balancer Service \[cmdb\_ci\_lb\_service\]
 
 </td><td>
 
--   Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Configure SNMP credentials.
 
-**Note:** You also have the option of using [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). However, if the payload size of the data that is returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
+**Note:** You also have the option of using SSH credentials. However, if the payload size of the data that is returned to the instance is large, the discovery process can fail. In this case, use SNMP credentials instead.
 
 -   \(Optional\) Provide a user with the read access to the **NS.conf** configuration file if you do not want to provide SNMP or SSH credentials.
--   Use [basic authentication](https://www.servicenow.com/docs/access?context=r_BasicAuthCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) credentials for discovery via REST.
+-   Use basic authentication credentials for discovery via REST.
 
 </td></tr><tr><td rowspan="3">
 
@@ -764,15 +764,15 @@ Connect-It Service \[cmdb\_ci\_appl\_connectit\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or Unix server\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -784,11 +784,11 @@ Documentum DocBase \[cmdb\_ci\_appl\_doc\_docbroker\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -806,11 +806,11 @@ epicd app server \[cmdb\_ci\_epicd\_app\_server\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -826,11 +826,11 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix server\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -855,11 +855,11 @@ HAProxy Load Balancer \[cmdb\_ci\_lb\_haproxy\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -871,11 +871,11 @@ HP Operations Manager \[cmdb\_ci\_appl\_hp\_operations\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -887,15 +887,15 @@ HP Service Manager \[cmdb\_ci\_appl\_hp\_service\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or Unix server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -907,11 +907,11 @@ HP SM Index Server \[cmdb\_ci\_appl\_hp\_index\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux or Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux or Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -923,11 +923,11 @@ HP SM KnowledgeBase \[cmdb\_ci\_appl\_hp\_sm\_kb\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -939,7 +939,7 @@ HP Quality Center \[cmdb\_ci\_appl\_hp\_qc\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -951,7 +951,7 @@ HP uCMDB \[cmdb\_ci\_app\_server\_hp\_ucmdb\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -975,11 +975,11 @@ IBM WebSphere Message Broker \[cmdb\_ci\_appl\_ibm\_wmb\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
+\(If hosted on Unix server\) On the ServiceNow AI Platform, configure SSH credentials for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
 -   "echo $MQSI\_VERSION “
 -   $directory + "/mqsireportbroker " + $name
 -   $directory + "/mqsibrowse " + $name + " -t BROKERRESOURCES “
@@ -1000,7 +1000,7 @@ Control-M \[cmdb\_ci\_appl\_controlm\]
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1016,7 +1016,7 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1032,7 +1032,7 @@ IBM CICS \[cmdb\_ci\_appl\_ibm\_cics\]
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -1045,7 +1045,7 @@ DB2 Instance \[cmdb\_ci\_db\_db2\_instance\]**Note:** Starting with CMDB CI Clas
 </td><td>
 
 -   \(If hosted on Linux\) Give the user elevated rights to be able to run [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
--   \(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   \(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 Set the tag attribute to \[cmdb\_ci\_db\_db2\_instance\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
@@ -1058,7 +1058,7 @@ Set the tag attribute to \[cmdb\_ci\_db\_db2\_instance\]. Configuring this attri
     -   To see all user processes.
     -   To run REXX scripts.
     -   To read into the db2 folder.
--   \(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   \(If hosted on z/OS\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1074,11 +1074,11 @@ IBM J2EE EAR
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -1107,7 +1107,7 @@ Webseal \[cmdb\_ci\_app\_server\_webseal\]
 
 </td><td>
 
-\(For ISAM appliance only\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the user with permissions to run the following REST commands:-   /reverseproxy – for retrieving data about the reverse proxy and instances.
+\(For ISAM appliance only\) Configure applicative credentials for the user with permissions to run the following REST commands:-   /reverseproxy – for retrieving data about the reverse proxy and instances.
 -   /wga/reverseproxy/"+$\{junctionstable\[\].instance\}+"/junctions – for getting junctions per each instance.
 -   /wga/reverseproxy/" + $instance\_name + "/junctions?junctions\_id=" + $junction\_name – for getting forwarding URLs for the entry point junction.
 
@@ -1118,15 +1118,15 @@ Webseal \[cmdb\_ci\_app\_server\_webseal\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -1156,7 +1156,7 @@ An LPAR is virtual machine equivalent of IBM.
 
 **Note:** The `lparstat -i` command is in addition to the commands required for AIX server discovery. For more information on AIX server discovery, see [AIX server discovery](../../discovery/reference/r_DataCollDiscoAIXComputers.md). For a list of the AIX commands, see [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
 
--   Configure SSH credentials on the ServiceNow AI Platform. For more information, see [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   Configure SSH credentials on the ServiceNow AI Platform. For more information, see SSH credentials.
 
 </td></tr><tr><td rowspan="6">
 
@@ -1172,15 +1172,15 @@ IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on z/OS\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -1193,7 +1193,7 @@ IBM Websphere \[cmdb\_ci\_app\_server\_websphere\]
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -1205,7 +1205,7 @@ Data Power \[cmdb\_ci\_app\_server\_datapower\]
 
 </td><td>
 
--   **[SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **SNMP credentials**
 
 SNMP credentials are necessary for using the following SNMP queries:
 
@@ -1221,7 +1221,7 @@ SNMP credentials are necessary for using the following SNMP queries:
         -   1.3.6.1.2.1.1.1
         -   1.3.6.1.2.1.1.5
         -   1.3.6.1.4.1.14685.3.1.11.1
--   **[Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US)**
+-   **Applicative credentials**
 
 Together with SNMP credentials, applicative credentials are required to discover DataPower application domains, otherwise known as logical CIs.
 
@@ -1250,11 +1250,11 @@ Provide an IBM WebSphere Message Broker OS user with permissions to run the WebS
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials for a user with permissions to run the following commands: -   "source " + $directory + "/mqsiprofile”
 -   "echo $MQSI\_VERSION “
 -   $directory + "/mqsireportbroker " + $name
 -   $directory + "/mqsibrowse " + $name + " -t BROKERRESOURCES “
@@ -1275,11 +1275,11 @@ IBM WebSphere Message Broker \[cmdb\_ci\_appl\_ibm\_wmb\]
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Set the **Credential alias** attribute to \[cmdb\_ci\_appl\_ibm\_wmb\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials. Set the **Credential alias** attribute to \[cmdb\_ci\_appl\_ibm\_wmb\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -1299,7 +1299,7 @@ IBM MQ Manager \(formerly IBM WebSphere MQ\) \[cmdb\_ci\_appl\_ibm\_wmq\]
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US) for a user with permissions to run the following commands:-   \(If hosted on a Windows server\) "echo display QMSTATUS ALL \| runmqsc -e " + $queue\_manager – for getting the queue manager \(QM\) status.
+Configure applicative credentials for a user with permissions to run the following commands:-   \(If hosted on a Windows server\) "echo display QMSTATUS ALL \| runmqsc -e " + $queue\_manager – for getting the queue manager \(QM\) status.
 -   \(If hosted on a Windows server\) "echo display QMGR ALL \| runmqsc -e " + $queue\_manager – for getting the complete information about QM.
 -   \(If hosted on a Unix server\) "echo \\" display QMSTATUS ALL \\" \| runmqsc " + $queue\_manager – for getting the QM status.
 -   \(If hosted on a Unix server\) "echo \\" display QMGR ALL \\" \| runmqsc " + $queue\_manager – for getting the complete information about QM.
@@ -1307,11 +1307,11 @@ Configure [applicative credentials](https://www.servicenow.com/docs/access?conte
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).While configuring OS credentials, set the **Credential alias** attribute to cmdb\_ci\_appl\_ibm\_wmq. Configuring this attribute allows you later to use the credential for this CI in patterns.
+\(If hosted on a Unix server\) configure SSH credentials.While configuring OS credentials, set the **Credential alias** attribute to cmdb\_ci\_appl\_ibm\_wmq. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
  \(Optional\) To find IBM MQ connections, configure SSH credentials for a user with permissions to run the following commands:
 
@@ -1321,7 +1321,7 @@ Configure [applicative credentials](https://www.servicenow.com/docs/access?conte
 
 </td></tr><tr><td>
 
-\(If hosted on z/OS\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on z/OS\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -1345,14 +1345,14 @@ IBM MQ Queue \(formerly IBM WebSphere MQ Queue\) \[cmdb\_ci\_appl\_ibm\_wmq\_que
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US) for a user with permissions to run the following commands:-   dspmq – for getting information about the queue manager.
+Configure applicative credentials for a user with permissions to run the following commands:-   dspmq – for getting information about the queue manager.
 -   "echo \\" display queue\(" + $entry\_point.queue + "\) \\" \| runmqsc " + $queue\_manager – for getting the queue information.
 -   "echo \\" display clusqmgr\(\*\) conname \\" \| runmqsc " + $queue\_manager – for getting all cluster queue manager \(QM\) lines.
 -   "echo \\" display qstatus\(" + $entry\_point.queue + "\) TYPE\(HANDLE\) OPENTYPE\(INPUT\) CONNAME PID \\" \| runmqsc " + $queue\_manager – for getting the queue status information.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) for a user with permissions to run the following commands: -   dspmq
+\(If hosted on Unix server\) on the ServiceNow AI Platform, configure SSH credentials for a user with permissions to run the following commands: -   dspmq
 
 echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manager
 
@@ -1365,7 +1365,7 @@ echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manag
 
 </td></tr><tr><td>
 
-\(If hosted on Windows\), on the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) for a user with permissions to run the following commands: -   dspmq
+\(If hosted on Windows\), on the ServiceNow AI Platform, configure Windows credentials for a user with permissions to run the following commands: -   dspmq
 
 echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manager
 
@@ -1378,7 +1378,7 @@ echo \\" display queue\("+$entry\_point.queue+"\) \\" \| runmqsc "+$queue\_manag
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="4">
 
@@ -1394,15 +1394,15 @@ Websphere Portal \[cmdb\_ci\_appl\_websphere\_portal\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1414,11 +1414,11 @@ Inter connect \[cmdb\_ci\_inter\_connect\]
 
 </td><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="4">
 
@@ -1434,15 +1434,15 @@ Give the user elevated rights to be able to run [Service Mapping commands requir
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix server\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix server\) on the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1458,11 +1458,11 @@ Jboss module \[cmdb\_ci\_app\_server\_jb\_module\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="4">
 
@@ -1478,15 +1478,15 @@ Jrun \[cmdb\_ci\_app\_server\_jrun\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1502,11 +1502,11 @@ Jrun WAR \[cmdb\_ci\_app\_server\_jrun\_war\]
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -1554,11 +1554,11 @@ Dynamic CRM Component \[cmdb\_ci\_appl\_ms\_dynamic\_crm\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1570,11 +1570,11 @@ BizTalk Orchestration \[cmdb\_ci\_appl\_biztalk\_orch\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -1586,7 +1586,7 @@ BizTalk \[cmdb\_ci\_appl\_biztalk\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1598,7 +1598,7 @@ ExchangeBackEndServer \[cmdb\_ci\_exchange\_backend\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -1606,7 +1606,7 @@ Configure [credentials required for host discovery](r_Credentials4HostDiscovery.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1618,7 +1618,7 @@ ExchangeFrontEndServer \[cmdb\_ci\_exchange\_frontend\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -1626,7 +1626,7 @@ Configure [credentials required for host discovery](r_Credentials4HostDiscovery.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1643,7 +1643,7 @@ Create a user with the permission to read the following files: -   `install_dire
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -1659,11 +1659,11 @@ ExchangeHub \[cmdb\_ci\_exchange\_hub\]Exchange MailBox \[cmdb\_ci\_exchange\_ma
 
 </td><td>
 
--   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Use the Microsoft Exchange Server administrator's user name and password as Windows credentials. For example, user name: local\\administrator and password: Are1300.
+-   On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials. Use the Microsoft Exchange Server administrator's user name and password as Windows credentials. For example, user name: local\\administrator and password: Are1300.
 
 **Note:** If you configure Windows credentials for a user different from the Microsoft Exchange Server administrator, Service Mapping uses traffic-based discovery that results in mapping all Microsoft Exchange clients.
 
--   \(For Exchange CAS 2010 and 2013, 2016\) On the ServiceNow AI Platform, configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US), setting the CI type to Exchange Mailbox.
+-   \(For Exchange CAS 2010 and 2013, 2016\) On the ServiceNow AI Platform, configure applicative credentials, setting the CI type to Exchange Mailbox.
 
 **Warning:** Do not confuse the Exchange Mailbox CI type with the Exchange Mailbox Server CI type.
 
@@ -1681,9 +1681,9 @@ Service Mapping uses these applicative credentials to access the of/Servers/Serv
 -   \(For Microsoft Exchange CAS 2007, 2010\) On the ServiceNow AI Platform, upload the rctrlx tool for running PowerShell commands as described in [Upload the rctrlx.exe file to MID Servers](../task/upload-rctrlx-file.md).
 -   \(For Microsoft Exchange CAS 2007 and 2010\) Provide an Exchange Mailbox OS user with the rights to run Exchange services on Windows and has permission to query Exchange repository:
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+On the ServiceNow AI Platform, configure Windows credentials setting the **Credential alias** attribute to \[cmdb\_ci\_exchange\_mailbox\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 -   Verify that you know the entry point necessary for discovering the Microsoft Exchange Server. Use the URL for the Outlook web access in the following format:
 
 `http(s)://<hostname>:<port>/owa`
@@ -1701,7 +1701,7 @@ IIFP \[cmdb\_ci\_directory\_iifp\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1713,11 +1713,11 @@ Microsoft iis Web Server \[cmdb\_ci\_microsoft\_iis\_web\_server\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1729,8 +1729,8 @@ IIS Virtual Directory \[cmdb\_ci\_iisdirectory\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure the following credentials:-   [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+On the ServiceNow AI Platform, configure the following credentials:-   Windows credentials
+-   applicative credentials
 
 </td></tr><tr><td>
 
@@ -1740,7 +1740,7 @@ Verify read access to the following files:-   `web.config`: Possible locations `
 </td></tr><tr><td>
 
 -   \(Optional\) To find ADO.NET connections, set the **Credential alias** attribute to \[cmdb\_ci\_iisdirectory\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -1752,7 +1752,7 @@ MSMQ \[cmdb\_ci\_appl\_msmq\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="4">
 
@@ -1764,7 +1764,7 @@ Microsoft .NET Framework
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).\(Optional\) To find ADO.NET connections, set the **Credential alias** attribute to \[cmdb\_ci\_iisdirectory\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+On the ServiceNow AI Platform, configure Windows credentials.\(Optional\) To find ADO.NET connections, set the **Credential alias** attribute to \[cmdb\_ci\_iisdirectory\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
 </td></tr><tr><td>
 
@@ -1772,11 +1772,11 @@ Provide an IIS Virtual Directory OS user with the rights to run the IIS service 
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1788,7 +1788,7 @@ SharePoint \[cmdb\_ci\_appl\_sharepoint\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure the following credentials:-   [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+On the ServiceNow AI Platform, configure the following credentials:-   Windows credentials
 -   Set the **Credential alias** attribute to \[cmdb\_ci\_appl\_sharepoint\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 -   Configure WMI Query access to the remote Sharepoint server.
 -   \(Optional\) To find Windows SharePoint connections, configure Windows credentials for a user with permissions to run http get request to the SharePoint Central Administration URL.
@@ -1821,11 +1821,11 @@ Provide the following user or users:-   For discovering Microsoft Biztalk using 
 
 </td></tr><tr><td>
 
-Credentials for host discovery as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Credentials for host discovery as described in Windows credentials.
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1837,11 +1837,11 @@ Mongo Config Server \[cmdb\_ci\_appl\_mongo\_config\_serv\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -1861,7 +1861,7 @@ MySQLClusterMGMNode \[cmdb\_ci\_db\_mysql\_clustermgnode\]
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="4">
 
@@ -1877,15 +1877,15 @@ Nginx Web Server \[cmdb\_ci\_nginx\_web\_server\]
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -1897,11 +1897,11 @@ Documentum DocBase \[cmdb\_ci\_appl\_doc\_docbase\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1913,15 +1913,15 @@ Oracle iAS \[cmdb\_ci\_app\_server\_ora\_ias\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -1937,11 +1937,11 @@ Advanced Queue Queue \[cmdb\_ci\_appl\_ora\_queue\]
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -1969,15 +1969,15 @@ Oracle Concurrent Server \[cmdb\_ci\_appl\_ora\_conc\]
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="5">
 
@@ -1993,19 +1993,19 @@ Oracle Instance \[cmdb\_ci\_db\_ora\_instance\]
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -2017,9 +2017,9 @@ Oracle PDB Instance \[cmdb\_ci\_db\_ora\_pdb\_instance\]
 
 </td><td>
 
--   Configure [Applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   For Windows, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
--   For Unix, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+-   Configure Applicative credentials.
+-   For Windows, configure Windows credentials
+-   For Unix, configure SSH credentials
 -   For the Oracle database, configure [Oracle database discovery](../../discovery/concept/c_OracleDatabaseDiscovery.md)
 -   Provide a user with permissions to run queries on the following tables:
     -   V$DATAFILE
@@ -2040,11 +2040,11 @@ Advanced Queue Queue \[cmdb\_ci\_appl\_ora\_queue\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2064,19 +2064,19 @@ Oracle Discoverer Engine \[cmdb\_ci\_appl\_ora\_disc\]
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="5">
 
@@ -2092,11 +2092,11 @@ Oracle Discoverer UI \[cmdb\_ci\_appl\_ora\_disc\_ui\]
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2104,7 +2104,7 @@ On the ServiceNow AI Platform, configure a domain user for accessing the Windows
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="4">
 
@@ -2116,19 +2116,19 @@ Oracle ESB \[cmdb\_ci\_appl\_ora\_ebs\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2140,15 +2140,15 @@ Oracle Forms UI \[cmdb\_ci\_appl\_ora\_forms\_ui\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure a domain user for accessing the Windows OS as described in Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2160,11 +2160,11 @@ Oracle Fulfillment Server \[cmdb\_ci\_appl\_ora\_fs\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -2176,9 +2176,9 @@ GlassFish \[cmdb\_ci\_appl\_glassfish\] GlassFish WAR \[cmdb\_ci\_appl\_glassfis
 
 </td><td>
 
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
+-   \(If hosted on a Linux or UNIX server\) \(Optional\) on the ServiceNow AI Platform, configure SSH credentials.
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="4">
 
@@ -2190,19 +2190,19 @@ Oracle HTTP Server \[cmdb\_ci\_appl\_ora\_http\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2214,15 +2214,15 @@ Oracle iAS Web module \[cmdb\_ci\_app\_server\_ora\_ias\_m\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2234,15 +2234,15 @@ Oracle Metric Client \[cmdb\_ci\_appl\_ora\_metric\_client\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="4">
 
@@ -2254,19 +2254,19 @@ Oracle Metric Server \[cmdb\_ci\_appl\_ora\_metric\_svr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="6">
 
@@ -2283,7 +2283,7 @@ Provide the following user or users:-   For discovering Microsoft Biztalk using 
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
@@ -2291,15 +2291,15 @@ Configure [applicative credentials](https://www.servicenow.com/docs/access?conte
 
 </td></tr><tr><td>
 
-\(If hosted on a Linux server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Linux server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -2311,7 +2311,7 @@ Oracle Database Listener \[cmdb\_ci\_db\_ora\_listener\]
 
 </td><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2323,11 +2323,11 @@ Oracle Notification Server \[cmdb\_ci\_appl\_ora\_notif\_svr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2339,15 +2339,15 @@ Oracle OACORE Server \[cmdb\_ci\_appl\_ora\_oacore\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2359,15 +2359,15 @@ Oracle OAFM Server \[cmdb\_ci\_appl\_ora\_oafm\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Unix\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -2379,7 +2379,7 @@ Peoplesoft Application Server \[cmdb\_ci\_appl\_peoplesoft\]
 
 </td><td>
 
-\(If hosted on Unix\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2403,19 +2403,19 @@ Oracle Process Manager \[cmdb\_ci\_appl\_ora\_pm\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="4">
 
@@ -2427,19 +2427,19 @@ Oracle Report Server \[cmdb\_ci\_appl\_ora\_report\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2451,15 +2451,15 @@ Oracle TNS Listener Engine \[cmdb\_ci\_appl\_ora\_tnslsnr\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on Linux\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Linux\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -2471,8 +2471,8 @@ Tuxedo \[cmdb\_ci\_appl\_tuxedo\] and Tuxedo Portal \[cmdb\_ci\_appl\_tuxedo\_po
 
 </td><td>
 
--   On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   On the ServiceNow AI Platform, configure SSH credentials.
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 -   \(If hosted on Unix\) Provide a user with the elevated rights for running commands described in [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
 
 </td></tr><tr><td>
@@ -2485,7 +2485,7 @@ Oracle iAS Web module \[cmdb\_ci\_app\_server\_ora\_ias\_m\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td rowspan="4">
 
@@ -2497,19 +2497,19 @@ Weblogic \[cmdb\_ci\_app\_server\_weblogic\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2525,11 +2525,11 @@ Websphere ODR LB \[cmdb\_ci\_app\_server\_ws\_odr\]
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2541,7 +2541,7 @@ Alteon Load Balancer \[cmdb\_ci\_lb\_alteon\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SNMP credentials.
 
 </td></tr><tr><td>
 
@@ -2553,7 +2553,7 @@ Radware Load Balancer \[cmdb\_ci\_lb\_radware\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SNMP credentials.
 
 </td></tr><tr><td rowspan="3">
 
@@ -2571,7 +2571,7 @@ Cluster Virtual IPs \[cmdb\_ci\_cluster\_vip\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2592,15 +2592,15 @@ PostgreSQL Instance \[cmdb\_ci\_db\_postgresql\_instance\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2608,7 +2608,7 @@ PostgreSQL Instance \[cmdb\_ci\_db\_postgresql\_instance\]
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="4">
 
@@ -2620,19 +2620,19 @@ RabbitMQ Cluster \[cmdb\_ci\_appl\_rabbitmq\_cluster\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2644,11 +2644,11 @@ SAP BO BOXIScheduleRouter \[cmdb\_ci\_appl\_sap\_bo\_scheduler\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, seew [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, seew Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2660,11 +2660,11 @@ SAP Business Objects CMS server \[cmdb\_ci\_appl\_sap\_bo\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -2696,9 +2696,9 @@ SAP CI Application \[cmdb\_ci\_appl\_sap\_ci\]/SAP SCS Application \[cmdb\_ci\_a
 
 </td><td>
 
--   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to create connections from SAP CI to other applications and devices.
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   \(If hosted on a UNIX server\) On the ServiceNow AI Platform, configure applicative credentials and SSH credentials. The SSH credentials are used to create connections from SAP Central Instance \(CI\) to other applications and devices. In addition, provide the user elevated rights to be able to run commands requiring a privileged user: [Service Mapping commands requiring a privileged user](r_CommandsnCredentials.md).
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials to create connections from SAP CI to other applications and devices.
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 -   \(Optional for top-down discovery by Service Mapping\) Provide a user with permissions to run SOAP on RFC read table function.
 -   \(Optional for top-down discovery by Service Mapping\) If your organization deploys SAP Digital Business Services using web services and you want to map all connected services, perform the following actions:
     -   Configure applicative credentials for a user with permissions to access the following tables: CVERS, DBCONS, and RFCDES.
@@ -2714,15 +2714,15 @@ SAP Hana Db \[cmdb\_ci\_appl\_sap\_hana\_db\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="5">
 
@@ -2734,15 +2734,15 @@ Sybase Instance \[cmdb\_ci\_db\_syb\_instance\]
 
 </td><td>
 
-\(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on Unix\) Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2750,7 +2750,7 @@ Sybase Instance \[cmdb\_ci\_db\_syb\_instance\]
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td>
 
@@ -2762,7 +2762,7 @@ SQL Server Analysis Services \[cmdb\_ci\_db\_mssql\_analysis\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -2774,7 +2774,7 @@ SQL Server Integration Services Job \[cmdb\_ci\_db\_mssql\_int\_job\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2786,11 +2786,11 @@ SQL Server Integration Services \[cmdb\_ci\_db\_mssql\_integration\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="6">
 
@@ -2810,7 +2810,7 @@ Configure credentials for a user with permissions to run http get request to the
 
 </td></tr><tr><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US). Set the **Credential alias** attribute to \[cmdb\_ci\_db\_mssql\_reporting\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials. Set the **Credential alias** attribute to \[cmdb\_ci\_db\_mssql\_reporting\]. Configuring this attribute allows you later to use the credential for this CI in patterns.
 
 </td></tr><tr><td>
 
@@ -2818,11 +2818,11 @@ Configure credentials for a user with permissions to run http get request to the
 
 </td></tr><tr><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-\(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+\(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2834,11 +2834,11 @@ Iplanet Web Server \[cmdb\_ci\_iplanet\_web\_server\]
 
 </td><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2850,11 +2850,11 @@ Sun LDAP Server \[cmdb\_ci\_sun\_ldap\_dir\_server\]
 
 </td><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2866,11 +2866,11 @@ JES \[cmdb\_ci\_email\_server\_jes\]
 
 </td><td>
 
-Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure applicative credentials.
 
 </td></tr><tr><td>
 
-On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
@@ -2882,7 +2882,7 @@ Enterprise Vault \[cmdb\_ci\_email\_server\_ent\_vault\]
 
 </td><td>
 
-On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -2902,10 +2902,10 @@ ActiveMatrix Business Works \[cmdb\_ci\_appl\_tibco\_matrix\]/ActiveMatrix Busin
 
 </td><td>
 
--   \(If hosted on Unix\) Configure [applicative credentials](https://www.servicenow.com/docs/access?context=applicative-creds&version=australia&pubname=australia-platform-security&ft:locale=en-US) for the Tibco EMS.
--   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
--   \(Optional\) For discovering using the WinRM protocol, see [Configure WinRM trusted hosts on MID Server](https://www.servicenow.com/docs/access?context=enable-winRM-MID-servers&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   \(If hosted on Unix\) Configure applicative credentials for the Tibco EMS.
+-   \(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
+-   \(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
+-   \(Optional\) For discovering using the WinRM protocol, see Configure WinRM trusted hosts on MID Server.
 
 </td></tr><tr><td rowspan="2">
 
@@ -2917,11 +2917,11 @@ Tibco Adapter \[cmdb\_ci\_appl\_tibco\_adapter\]
 
 </td><td>
 
-\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Unix server\) On the ServiceNow AI Platform, configure SSH credentials.
 
 </td></tr><tr><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr><tr><td>
 
@@ -2933,7 +2933,7 @@ Enterprise Vault \[cmdb\_ci\_email\_server\_ent\_vault\]
 
 </td><td>
 
-\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure [Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+\(If hosted on a Windows server\) On the ServiceNow AI Platform, configure Windows credentials.
 
 </td></tr></tbody>
 </table>## Resolving credential-related issues

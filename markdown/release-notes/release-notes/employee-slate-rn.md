@@ -30,63 +30,63 @@ For more information, see  documentation.
 
 ## New in the Australia release
 
--   **[Conversation-first experience in Employee Slate](https://www.servicenow.com/docs/access?context=eslate-conversation-first&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Conversation-first experience in Employee Slate**
 
     Replaces traditional browse navigation with an AI-powered search bar and personalized canvas, supporting service delivery across departments.
 
--   **[Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Employee Slate home**
 
     Provides a homepage centered on an AI-powered search bar with five configurable widgets: To-dos, Employee Communications, Trending Content, Quick Links, and Holiday Calendar.
 
--   **Interactive split view [Employee Slate home](https://www.servicenow.com/docs/access?context=emp-slate-home-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Interactive split view**
 
     Displays content alongside the conversation for seamless interaction with forms, articles, and tasks.
 
--   **[Personalized canvas](https://www.servicenow.com/docs/access?context=eslate-personalized-canvas&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Personalized canvas**
 
     Employees can drag, drop, resize, and remove widgets; administrators can lock widgets to keep critical information visible.
 
--   **[Inbox](https://www.servicenow.com/docs/access?context=emp-slate-inbox&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Inbox**
 
     Consolidates tasks, requests, approvals, and to-dos from multiple departments and external applications, with AI summaries from Now Assist.
 
--   **[Employee Org chart](https://www.servicenow.com/docs/access?context=emp-slate-orgchart&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Employee Org chart**
 
     Displays organizational hierarchies with employee details and supports contextual AI questions through Now Assist.
 
--   **[Employee communications](https://www.servicenow.com/docs/access?context=eslate-employee-comms&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Employee communications**
 
     Displays targeted banner announcements on the homepage, linked to knowledge articles or other resources.
 
--   **[Visual content authoring](https://www.servicenow.com/docs/access?context=emp-slate-home-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Visual content authoring**
 
     Provides a content library accessible from the profile icon where authors can create, filter, and publish announcements, with Now Assist generating content from a prompt.
 
--   **[Employee Slate notifications](https://www.servicenow.com/docs/access?context=emp-slate-notifications&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Employee Slate notifications**
 
     Delivers 14 pre-configured notification types for approvals, tasks, and requests, with support for bulk actions and grouping.
 
--   **[Configure branding and theme](https://www.servicenow.com/docs/access?context=eslate-config-admin-console&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Configure branding and theme**
 
     Applies a logo, primary color, and accent color consistently across the portal, Moveworks, and Now Assist experiences, with a live preview panel.
 
--   **[AI-powered widget builder](https://www.servicenow.com/docs/access?context=eslate-ai-widget-builder&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **AI-powered widget builder**
 
     Builds custom widgets through a prompt-driven interface using a model context protocol \(MCP\) with built-in design components and accessibility support.
 
--   **[Analytics and reporting](https://www.servicenow.com/docs/access?context=eslate-analytics-reporting&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Analytics and reporting**
 
     Tracks session details, page visits, and widget interactions in a dedicated Employee Slate destination within User Experience Analytics. Measures announcement impressions, clicks, and top-performing content through the communications analytics dashboard in User Experience Analytics.
 
--   **Now Assist search and chat [Conversation-first catalog and knowledge](https://www.servicenow.com/docs/access?context=eslate-conversational-catalog&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Now AssistSearch and chat**
 
     Integrates search results directly into chat responses, with a side panel for filtering and exploration across all configured connectors. Chat pre-fills catalog form fields from conversation context and opens forms in split view for review and completion.
 
--   **Moveworks enterprise search [Employee Slate for Moveworks](https://www.servicenow.com/docs/access?context=employee-slate-moveworks&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Moveworks enterprise search Employee Slate for Moveworks**
 
     Searches documents across enterprise systems including SharePoint, OneDrive, Google Drive, Slack, and Outlook through the Moveworks assistant.
 
--   **[Calendar and schedule management](https://www.servicenow.com/docs/access?context=eslate-calendar-schedule&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)**
+-   **Calendar and schedule management**
 
     Provides time-aware information through calendar management with My Calendar widget in Canvas displaying the meetings from your schedule. And the Upcoming Holiday widget displays the next relevant holiday on the home page.
 
@@ -95,7 +95,7 @@ For more information, see  documentation.
 
 Access the Employee Slate setup experience through the profile icon to configure branding, data sources for search, and experience settings.
 
-For more information, see .
+For more information, see Employee Slate setup flow.
 
 ## Accessibility information
 
@@ -103,23 +103,23 @@ Employee Slate includes built-in accessibility compliance through the AI widget 
 
 ## Related ServiceNow applications and features
 
--   ****
+-   **Employee Center**
 
     Previous generation employee portal that remains supported for customers requiring advanced experiences like journeys, intranet, and indoor mapping not yet available in Employee Slate.
 
--   ****
+-   **Employee Center Pro**
 
     Enhanced employee portal with AI capabilities that continues as an option for customers needing features not yet migrated to Employee Slate, with coexistence options available for organizations requiring both portals.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     ServiceNow AI assistant providing contextual, bi-directional chat capabilities, agentic catalog experiences, and platform-native notifications when embedded in Employee Slate. Requires migration to off-Glide AI orchestrator for optimal performance.
 
--   ****
+-   **Moveworks overview**
 
     AI assistant platform providing enterprise search across multiple systems, specialized assistance apps like World Knowledge, cross-platform notifications, and over 100 language support when embedded in Employee Slate.
 
--   **[Usage Insights](https://www.servicenow.com/docs/access?context=user-exp-analytics-landing&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)**
+-   **Usage Insights**
 
     Analytics platform that includes dedicated Employee Slate destination for tracking sessions, events, page visits, and communications effectiveness with custom funnel building capabilities and integrated communications analytics dashboard.
 

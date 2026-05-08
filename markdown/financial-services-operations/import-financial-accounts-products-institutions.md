@@ -15,7 +15,7 @@ Import your financial accounts, financial products, financial institutions, and 
 
 ## Before you begin
 
-Ensure that the application scope is set to the Financial Services Operations Core. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Ensure that the application scope is set to the Financial Services Operations Core. For more information, see Application picker.
 
 Role required: sn\_bom.admin
 
@@ -31,15 +31,15 @@ Role required: sn\_bom.admin
 
     The imported data is now available in the new Import Set table.
 
-    For more information, see [Import sets key concepts](https://www.servicenow.com/docs/access?context=c_ImportSetsKeyConcepts&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see Import sets key concepts.
 
-5.  [Create a transform map](https://www.servicenow.com/docs/access?context=t_CreateATransformMap&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to define the field mapping between columns of the import set and columns of the target table.
+5.  Create a transform map to define the field mapping between columns of the import set and columns of the target table.
 
     For information on target tables, see the table topics in [Financial Services Operations Core](../reference/financial-services-operations-core-data-model.md).
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://www.servicenow.com/docs/access?context=t_RunImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see Run an import.
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

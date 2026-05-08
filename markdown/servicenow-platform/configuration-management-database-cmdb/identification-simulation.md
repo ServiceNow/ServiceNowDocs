@@ -70,7 +70,7 @@ The payload that is constructed during identification simulation is for the spec
 ### What to do next
 
 -   Click **Run Simulation** to simulate processing of the payload by IRE.
--   Examine the results of the simulation, fine-tune the payload as needed, and combine with other payloads for other classes as desired. After finalizing the payload, use the [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API to execute the payload by IRE which will result in actual updates to the CMDB.
+-   Examine the results of the simulation, fine-tune the payload as needed, and combine with other payloads for other classes as desired. After finalizing the payload, use the createOrUpdateCI\(\) API to execute the payload by IRE which will result in actual updates to the CMDB.
 -   Click **Copy Script** to copy the JSON script into the clipboard. You can then paste that script into a third party software or to another screen of the identification simulation.
 
 ## Simulate payload processing using identification simulation
@@ -91,7 +91,7 @@ Role required: admin
 
     2.  On the Insert JSON Payload page, select the **Data source** that is associated with this class update.
 
-    3.  Select **Use Enhanced Identification** to apply the [identifyCIEnhanced](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API for enhanced CI identification, instead of using the identifyCI API.
+    3.  Select **Use Enhanced Identification** to apply the identifyCIEnhanced API for enhanced CI identification, instead of using the identifyCI API.
 
     4.  Paste the JSON payload into the empty canvas.
 
@@ -110,7 +110,7 @@ Role required: admin
         -   **Input**: Displays the payload for the simulation.
         -   **Logs**: Displays all the logged messages that IRE generated while simulating processing of the payload, according to the specified logging level.
         -   **Output**: Displays the output payload returned by IRE.
-2.  After finalizing the payload, use the [createOrUpdateCI\(\)](https://www.servicenow.com/docs/access?context=c_IdentEngineScriptAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API to execute the payload by IRE which will result in actual updates to the CMDB.
+2.  After finalizing the payload, use the createOrUpdateCI\(\) API to execute the payload by IRE which will result in actual updates to the CMDB.
 
 ## Set logging level for identification simulation
 

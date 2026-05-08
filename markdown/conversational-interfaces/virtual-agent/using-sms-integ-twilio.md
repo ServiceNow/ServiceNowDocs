@@ -39,7 +39,7 @@ As a live agent interacting with a requester over the SMS service channel, you c
 
 ## Initiating SMS conversations
 
-As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see [Initiate messaging conversations from the CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=agent-init-messg-csm-cws&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) and [Initiate SMS conversations from CSM Agent Workspace](https://www.servicenow.com/docs/access?context=agent-init-sms-csm-ws&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see Initiate messaging conversations from the CSM Configurable Workspace and Initiate SMS conversations from CSM Agent Workspace.
 
 **Parent Topic:**[Conversational SMS Integration with Twilio](sms-twilio-store-app.md)
 

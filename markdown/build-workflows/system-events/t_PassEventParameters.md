@@ -59,5 +59,5 @@ if (gr.next()){
 **Related topics**  
 
 
-[Scripting for email notifications](https://www.servicenow.com/docs/access?context=c_ScriptingForEmailNotifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ScriptingForEmailNotifications]
 

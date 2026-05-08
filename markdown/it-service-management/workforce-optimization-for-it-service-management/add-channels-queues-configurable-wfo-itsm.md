@@ -28,14 +28,14 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Click **New** and refer to the information in the [Create a service channel](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to create the service channel.
+    2.  Click **New** and refer to the information in the Create a service channel to create the service channel.
     3.  Click **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Queues** or select the service channel and click the **Queues** tab.
-    2.  Click **New** and refer to the information in [Create a work item queue](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) to create the queue.
+    2.  Click **New** and refer to the information in Create a work item queue to create the queue.
     The queue is created in the service channel.
 
 

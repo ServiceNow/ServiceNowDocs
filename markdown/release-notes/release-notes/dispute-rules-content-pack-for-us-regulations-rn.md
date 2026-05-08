@@ -16,13 +16,13 @@ The ServiceNow® Dispute Content Pack for US Regulations application enables iss
 
 Improve compliance with US Regulation E \(Reg E\) and Regulation Z \(Reg Z\) through the Service Level Agreement \(SLA\) definitions enhancements.
 
-See [Dispute Content Pack for US Regulations](https://www.servicenow.com/docs/access?context=dispute-content-pack-for-us-regulation-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US) for more information.
+See Dispute Content Pack for US Regulations for more information.
 
 **Important:** Dispute Content Pack for US Regulations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Changed in this release
 
--   **[Enhanced SLA Definitions for Reg E and Reg Z](https://www.servicenow.com/docs/access?context=using-the-dispute-content-pack-for-us-regulation&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Enhanced SLA Definitions for Reg E and Reg Z**
 
     Improve regulatory adherence in your dispute workflow with the following enhancements to Reg E and Reg Z SLA definitions, ensuring timely dispute resolution and reducing regulatory risk exposure:
 
@@ -35,11 +35,11 @@ Install Dispute Content Pack for US Regulations by requesting it from the Servic
 
 ## Related ServiceNow applications and features
 
--   **[Dispute Rules Content Pack for Visa](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Dispute Rules Content Pack for Visa**
 
     Integrate with the ServiceNow® Dispute Rules Content Pack for Visa application to maximize success in managing card disputes efficiently and in compliance with regulatory standards.
 
--   **[Financial Services Card Operations](https://www.servicenow.com/docs/access?context=card-ops-landing-page&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)**
+-   **Financial Services Card Operations**
 
     Integrate with the ServiceNow® Financial Services Card Operations application to improve the efficiency and compliance of card operations in financial institutions.
 

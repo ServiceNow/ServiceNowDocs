@@ -48,7 +48,7 @@ By default, the system provides events covering a broad view of application acti
 
 For developer training, see [Scheduled Script Executions and Events Objectives](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_scheduled_script_executions_and_events/app_store_learnv2_automatingapps_xanadu_scheduled_script_executions_and_events_objectives) on the ServiceNow® Developer Site.
 
-Use the [System Events and Jobs Dashboard](https://www.servicenow.com/docs/access?context=track-events&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to monitor the system event processing system and the scheduled jobs processing system.
+Use the System Events and Jobs Dashboard to monitor the system event processing system and the scheduled jobs processing system.
 
 ## Event processing during platform upgrade
 

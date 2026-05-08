@@ -27,9 +27,9 @@ You can monitor data by any of the following time aggregations.
 
 Once the time aggregation is set, all the score-cards show the data for that period.
 
-For more information on the dashboard components, see [HR Success Dashboard indicators components](https://www.servicenow.com/docs/access?context=sdb-dasboard-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For more information on the dashboard components, see HR Success Dashboard indicators components.
 
-For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulae](https://www.servicenow.com/docs/access?context=sd-formulae&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For more information on the KPI definitions and formulas, see HR Success Dashboard indicators KPI definitions and formulae.
 
 **Parent Topic:**[Maximise the benefits of using the ITSM Success Dashboard indicators](../concept/measuring-performance-success-dashboard.md)
 

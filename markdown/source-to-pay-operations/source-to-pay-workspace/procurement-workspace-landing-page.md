@@ -188,7 +188,7 @@ Open a new tab with the ShoppingHub home page.
 </td></tr></tbody>
 </table>## Configure your workspace landing page
 
-You can configure the landing page using UI Builder, define different audiences for the landing page, and even add, remove, or modify the different content, if you want. However, it’s recommended that you create a duplicate of the landing page before modifying it. For detailed information on how to configure using UI Builder, see [Create a page in UI Builder](https://www.servicenow.com/docs/access?context=create-page&version=australia&pubname=australia-application-development&ft:locale=en-US).
+You can configure the landing page using UI Builder, define different audiences for the landing page, and even add, remove, or modify the different content, if you want. However, it’s recommended that you create a duplicate of the landing page before modifying it. For detailed information on how to configure using UI Builder, see Create a page in UI Builder.
 
 **Parent Topic:**[Source-to-Pay Workspace landing page](../../source-to-pay-operations/concept/source-to-pay-ws-landing-page.md)
 

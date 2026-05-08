@@ -27,7 +27,7 @@ Role required: sn\_icw\_igt.standard author
 
 3.  One the Assessment template form, fill in the fields.
 
-    For a description of the field values, see [Create assessment template form](https://www.servicenow.com/docs/access?context=create-assessment-template-form&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US). The Purpose field lets you select from the list of assessment template categories.
+    For a description of the field values, see Create assessment template form. The Purpose field lets you select from the list of assessment template categories.
 
     **Note:**
 
@@ -43,7 +43,7 @@ Role required: sn\_icw\_igt.standard author
 
 5.  In the **Questions** tab, fill in the template.
 
-    For a description of the field values, see [Add instructions and questions to an assessment template](https://www.servicenow.com/docs/access?context=sae-asmnt-template-populate&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    For a description of the field values, see Add instructions and questions to an assessment template.
 
     **Note:** The following controls are to be kept as is:
 

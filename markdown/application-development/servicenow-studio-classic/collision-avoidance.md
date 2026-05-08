@@ -31,11 +31,11 @@ User can make changes to the application file only after selecting the required 
 
 **Note:** This feature is applicable to only those applications that are linked to GIT.
 
-Enable or disable the collision avoidance feature using the **glide.ui.vcs.collision\_avoidance** property in the System Property \[sys\_properties\] table. By default, the feature is enabled. See [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information.
+Enable or disable the collision avoidance feature using the **glide.ui.vcs.collision\_avoidance** property in the System Property \[sys\_properties\] table. By default, the feature is enabled. See Available system properties for more information.
 
 When the feature is enabled, users can't work in the default update set of the application. If a user is assigned the default update set, a unique update set is created when the user logs in to the application for the first time after the collision avoidance feature is enabled. This new update set is specific to the user in current application.
 
-Name of the update set specific to the logged in user is, User ID or user name based on the value specified for the **glide.ui.vcs.updateset\_identifier** property in the System Property \[sys\_properties\] table. See [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US) for more information. By default, the update set name is set to user name of the logged in user. However, users can rename the update set.
+Name of the update set specific to the logged in user is, User ID or user name based on the value specified for the **glide.ui.vcs.updateset\_identifier** property in the System Property \[sys\_properties\] table. See Available system properties for more information. By default, the update set name is set to user name of the logged in user. However, users can rename the update set.
 
 **Parent Topic:**[Legacy - Source Control integration](../concept/c_SourceControlIntegration.md)
 

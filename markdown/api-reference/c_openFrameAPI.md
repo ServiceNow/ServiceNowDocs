@@ -17,7 +17,7 @@ The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an 
 
 One of the core requirements is the ability to connect and serve code from different domains that can connect seamlessly with partner subsystems. This cross domain connection is required to keep connections and callbacks registered into communication systems without any cross domain issues.
 
-OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the [OpenFrame](https://www.servicenow.com/docs/access?context=c_OpenFrameOverview&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+OpenFrame has two significant parts. One lives in the ServiceNow application \(referred to as TopFrame\) and this API that is sourced from the partner application. This API has the necessary methods to communicate with TopFrame and control the visual features of the OpenFrame.
 
 **Note:** To stay current with reference to the OpenFrame library, use the following resource URI: `https://[servicenow instance]/scripts/openframe/latest/openFrameAPI.min.js`.
 
@@ -262,7 +262,7 @@ function
 
 </td><td>
 
-Name of the callback function to use if the init method succeeds. The [OpenFrame configuration](https://www.servicenow.com/docs/access?context=t_CreateAnOpenFrameConfiguration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) stored in the system is passed as a parameter to the callback function.
+Name of the callback function to use if the init method succeeds. The OpenFrame configuration stored in the system is passed as a parameter to the callback function.
 
 </td></tr><tr><td>
 
@@ -580,7 +580,7 @@ Object
 Key value pairs that describe the content to use when opening the list URL.Valid values:
 
 -   entity: Table name
--   query: [Encoded query string](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   query: Encoded query string
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -657,9 +657,9 @@ openFrameAPI.setHeight(100);
 
 Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.
 
-For additional information on interactive controls, see [Interaction Controls Component \(ICC\) for voice calls](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For additional information on interactive controls, see Interaction Controls Component \(ICC\) for voice calls.
 
-For additional information on interaction records, see [CSM voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For additional information on interaction records, see CSM voice interaction record page.
 
 <table id="table_xlq_rhg_zdc" class="parameters"><thead><tr><th>
 
@@ -3137,7 +3137,7 @@ imageTitle:'hold', id:102}]);
 
 Sets the presence indicator to display agent availability in a workspace.
 
-For more information on configuring OpenFrame, refer to [Create an OpenFrame configuration](https://www.servicenow.com/docs/access?context=t_CreateAnOpenFrameConfiguration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+For more information on configuring OpenFrame, refer to Create an OpenFrame configuration
 
 <table id="table_o4l_p1c_jhb" class="parameters"><thead><tr><th>
 
@@ -3433,7 +3433,7 @@ The event to subscribe to:-   interaction\_control\_action: Receives the interac
 -   openframe\_icon\_clicked: Occurs when any icon other than the close icon is selected on the OpenFrame footer. The callback receives the icon object as a parameter.
 -   openframe\_shown: Occurs when the OpenFrame is shown.
 -   openframe\_title\_icon\_clicked: Occurs when the title icon is selected on the OpenFrame. The callback receives the titleIcon object as a parameter.
--   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the [wrap-up modeless dialog](https://www.servicenow.com/docs/access?context=interaction-wrapup-modeless-dialog&version=australia&pubname=australia-customer-service-management&ft:locale=en-US). The event is triggered only when the wrap up is external.
+-   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the wrap-up modeless dialog. The event is triggered only when the wrap up is external.
 
 </td></tr><tr><td>
 

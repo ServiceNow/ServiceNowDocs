@@ -23,13 +23,13 @@ Automate workflows with Virtual Agent. In this example, a user is notified that 
 
 Virtual Agent comes with a basic configuration that includes common greetings, NLU intents, reusable logic, and pre-built conversations. Using these building blocks, you can quickly put together workflows to handle some of the most common organizational needs, including the following:
 
--   [Resetting a password](https://www.servicenow.com/docs/access?context=itsm-password-management&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [IT Self-Service](https://www.servicenow.com/docs/access?context=itsm-va-self-service-topics&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [IT troubleshooting](https://www.servicenow.com/docs/access?context=itsm-va-it-issues-generic&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
--   [HR queries and employee profile updates](https://www.servicenow.com/docs/access?context=hr-virtual-agent-conversations&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
--   [Customer Service queries and requests](https://www.servicenow.com/docs/access?context=csm-virtual-agent-chatbot&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+-   Resetting a password
+-   IT Self-Service
+-   IT troubleshooting
+-   HR queries and employee profile updates
+-   Customer Service queries and requests
 
-To help you understand the possibilities, the Asset Refresh example uses pre-built topic blocks that are included in the [ITSM Virtual Agent Conversations](https://www.servicenow.com/docs/access?context=itsm-virtual-agent&version=australia&pubname=australia-it-service-management&ft:locale=en-US) plugin. These topic blocks do most of the "heavy lifting" in the topic.
+To help you understand the possibilities, the Asset Refresh example uses pre-built topic blocks that are included in the ITSM Virtual Agent Conversations plugin. These topic blocks do most of the "heavy lifting" in the topic.
 
 ## Asset Refresh workflow
 

@@ -15,7 +15,7 @@ breadcrumb: [Manage Predictive Intelligence for User Reported Phishing, Security
 
 This feature assists security analysts in triaging and prioritizing user reported phishing emails.
 
-The Predictive Intelligence framework provides solutions to train the system to predict, recommend, and organize data outcomes. For more details on predictive intelligence, see [Predictive Intelligence](https://www.servicenow.com/docs/access?context=predictive-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). Using this framework, you can build models to automatically predict whether a user reported phishing email is suspicious or legitimate.
+The Predictive Intelligence framework provides solutions to train the system to predict, recommend, and organize data outcomes. For more details on predictive intelligence, see Predictive Intelligence. Using this framework, you can build models to automatically predict whether a user reported phishing email is suspicious or legitimate.
 
 Using historical User Reported Phishing security incident data \(email headers, email body and triage results captured through the security incident close codes\), security analysts can train the system to classify the incoming user reported phishing submissions as ones that need to be further triaged \(likely suspicious\) and ones that are legitimate submissions.
 

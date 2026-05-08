@@ -42,7 +42,7 @@ Determines if and how to display the amount of time passed since a recorded date
 3.  YYYY-MM-DD 09:00:01
 4.  YYYY-MM-DD 09:00
 5.  5 min ago
-**Note:** If you select **YYYY-MM-DD 09:00 5 min ago** or **YYYY-MM-DD 09:00** for the current year, the current year \(YYYY\) will be omitted. The option **5 min ago** refers to a relative time format that displays how much time has passed since a specific event has occurred instead of showing the date and time. Options that show date and time adhere to Date format and Time format options selected in your User record. Open your User record by navigating to **User Menu** &gt; **Profile**. For more information about setting date and time format, see [The User record](https://www.servicenow.com/docs/access?context=user&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If you select **YYYY-MM-DD 09:00 5 min ago** or **YYYY-MM-DD 09:00** for the current year, the current year \(YYYY\) will be omitted. The option **5 min ago** refers to a relative time format that displays how much time has passed since a specific event has occurred instead of showing the date and time. Options that show date and time adhere to Date format and Time format options selected in your User record. Open your User record by navigating to **User Menu** &gt; **Profile**. For more information about setting date and time format, see The User record.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Determines the time zone or returns to the default time zone for the current ses
 
 </td><td>
 
-Sets the language used for your instance when you have access to more than one language. This preference displays only if the language plugin is installed. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Sets the language used for your instance when you have access to more than one language. This preference displays only if the language plugin is installed. For more information, see Activate a language.
 
 </td></tr><tr><td>
 
@@ -73,5 +73,5 @@ Sets the country code used for your instance. When combined with a language sele
 **Related topics**  
 
 
-[System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.system-localization-landing]
 

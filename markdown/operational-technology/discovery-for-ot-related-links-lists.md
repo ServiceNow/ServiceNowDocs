@@ -27,7 +27,7 @@ Quick Ranges
 
 </td><td>
 
-IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID server in use must be able to connect to the specified IP ranges.For more information, see [Create a Quick IP range for a Discovery schedule](https://www.servicenow.com/docs/access?context=discovery-ip-address-configuration&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+IP addresses and address ranges to scan when the OT discovery schedule runs. Enter IP addresses in multiple formats \(network, range, or list\) in a single, comma-delimited string. The MID server in use must be able to connect to the specified IP ranges.For more information, see Create a Quick IP range for a Discovery schedule.
 
 </td></tr><tr><td>
 
@@ -43,7 +43,7 @@ Run Point Scan
 
 </td><td>
 
-Access to the Execute Point Scan dialog. To learn more, see [Execute a point scan](https://www.servicenow.com/docs/access?context=hs-execute-point-scan&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Access to the Execute Point Scan dialog. To learn more, see Execute a point scan.
 
 </td></tr></tbody>
 </table><table id="related-lists"><thead><tr><th>
@@ -82,9 +82,9 @@ History of the results of the current and past OT discovery schedule runs.
 </table>**Related topics**  
 
 
-[MID Server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.mid-server-landing]
 
-[Shazzam probe, port probes, and protocols](https://www.servicenow.com/docs/access?context=r_DiscoveryPortsAndProtocols&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.r_DiscoveryPortsAndProtocols]
 
-[Create a Shazzam probe](https://www.servicenow.com/docs/access?context=t_ConfigureTheShazzamProbe&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.t_ConfigureTheShazzamProbe]
 

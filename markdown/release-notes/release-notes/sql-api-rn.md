@@ -20,24 +20,24 @@ The ServiceNow® SQL API enables RaptorDB Professional users to bring their Busi
 -   Merge your ServiceNow data with external datasets in your analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see [Access your ServiceNow data using SQL API](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information, see Access your ServiceNow data using SQL API.
 
 **Important:** SQL API is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Important upgrade information for SQL API
 
-ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST‑based SQL API client by completing the required configuration on both the server and client sides. For more information, see [Configuring SQL API](https://www.servicenow.com/docs/access?context=configuring-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+ServiceNow provided customers with a free SOAP‑based ODBC client. If you have an active RaptorDB Professional entitlement, you can migrate to the REST‑based SQL API client by completing the required configuration on both the server and client sides. For more information, see Configuring SQL API.
 
 ## SQL API features
 
--   **[Access your ServiceNow data using SQL API](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&version=australia&pubname=australia-api-reference&ft:locale=en-US)**
+-   **Access your ServiceNow data using SQL API**
 
     The ServiceNow Store SQL API enables you to access your ServiceNow Store instance data through ODBC and JDBC drivers. Using SQL API, you can directly access your instance data from third-party BI tools and other data analysis applications without exporting or replicating your data. The ServiceNow SQL API plugin uses ServiceNow web services support for a query-only interface.
 
 
 ## Activation information
 
-SQL API is a ServiceNow feature that is available with the activation of SQL API plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Professional entitlement to activate the SQL API server-side plugin. The SQL API drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the SQL API client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see [Install SQL API plugin on your ServiceNow instance](https://www.servicenow.com/docs/access?context=install-sql-api-plugin&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+SQL API is a ServiceNow feature that is available with the activation of SQL API plugin \(com.glide.rest.sqlapiserver\). The ServiceNow instance requires RaptorDB Professional entitlement to activate the SQL API server-side plugin. The SQL API drivers are freely available for download by anyone with a valid account to the ServiceNow Store. However, the SQL API client would not be able to connect to the ServiceNow instance until the server-side plugin is enabled. For more information, see Install SQL API plugin on your ServiceNow instance.
 
 ## Plugin information
 
@@ -54,7 +54,7 @@ You must download the SQL API ODBC and JDBC drivers on your client machine. Thes
 
 ## Related ServiceNow applications and features
 
--   **[RaptorDB](https://www.servicenow.com/docs/access?context=raptordb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **RaptorDB**
 
     RaptorDB Professional is a licensed database that supports ServiceNow AI Platform generative AI and machine-scale data use cases, user growth, applications, workloads, and analytics.
 

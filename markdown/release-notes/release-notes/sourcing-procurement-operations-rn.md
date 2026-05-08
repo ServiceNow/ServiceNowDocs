@@ -16,7 +16,7 @@ The ServiceNow® Sourcing and Procurement Operations application provides your e
 
 [Australia Patch 1](../quality/australia-patch-1.md)
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -34,25 +34,25 @@ Australia Early Availability
 -   Purchase on behalf of other users directly from Shopping Hub and track purchases using the business owner filter.
 -   Create a single sourcing request when a requester submits an intake request with multiple products or services.
 
-See [Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=psm-overview&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US) for more information.
+See Sourcing and Procurement Operations for more information.
 
 **Important:** Sourcing and Procurement Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Multi-currency support in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-multicurrency-overview&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **Multi-currency support in Shopping Hub**
 
     Enable multi-currency display across approval-related views, including To-Dos, tasks, email notifications, and the Bundles page. Currency values are shown in both the approver’s local currency and the original supplier currency where applicable. The local currency is displayed as the primary value, with the original currency shown as a secondary reference. This display format provides consistent currency visibility for approvers during review.
 
--   **[Decimal quantity support for service-based purchases in Shopping Hub](https://www.servicenow.com/docs/access?context=decimal-support-services&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **Decimal quantity support for service-based purchases in Shopping Hub**
 
     Enable requesters to enter and edit decimal quantities for service-based purchase requisitions and purchase orders without validation errors. Decimal quantities are supported only for services to maintain data integrity. Decimal quantities for goods are not supported and return a clear validation message. This validation logic is consistent across Shopping Hub and Employee Center.
 
--   **[Automatically assign categories during SR and PR creation](https://www.servicenow.com/docs/access?context=automatically-assign-categories&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **Automatically assign categories during SR and PR creation**
 
     Automatically classify service requests, purchase requisitions, and purchase orders into the correct spend categories using the Spend categorization agent. This classification process reduces manual classification effort and improves consistency across procurement workflows.
 
--   **[Purchase on behalf of another user in Shopping Hub](https://www.servicenow.com/docs/access?context=purchase-on-behalf-sh&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **Purchase on behalf of another user in Shopping Hub**
 
     Enable users to purchase on behalf of others without requiring delegate configuration in Shopping Hub. Users can manage individuals they are authorized to purchase for, directly within the buying experience. Purchases made on behalf of others are visible through filtering by business owner in the My Purchases view.
 
@@ -63,11 +63,11 @@ Install Sourcing and Procurement Operations by requesting it from the ServiceNow
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **Now Assist for Sourcing and Procurement Operations \(SPO\)**
 
     Use the ServiceNow® Now Assist for SPO application to simplify request creation with conversational intake and summarize records to help fulfillers act promptly.
 
--   **[Source-to-Pay Workspace](https://www.servicenow.com/docs/access?context=source-to-pay-ws-overview&version=australia&pubname=australia-source-to-pay-operations&ft:locale=en-US)**
+-   **Source-to-Pay Workspace**
 
     Provide experiences and tools to support key activities, such as procuring goods and services, onboarding high-performing suppliers, and processing invoices.
 

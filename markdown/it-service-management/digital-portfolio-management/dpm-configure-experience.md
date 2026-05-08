@@ -74,7 +74,7 @@ Configure DPM user views.
 **Related topics**  
 
 
-[Open a Configurable Workspace experience in UI Builder](https://www.servicenow.com/docs/access?context=open-your-configurable-workspace-experience-in-ui-builder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.open-your-configurable-workspace-experience-in-ui-builder]
 
-[UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.ui-builder-overview]
 

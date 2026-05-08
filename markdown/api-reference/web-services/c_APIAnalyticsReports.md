@@ -85,5 +85,5 @@ If the selected user has not made requests to the selected API, no data is shown
 
 [Use the REST API Explorer](../../inbound-rest/concept/use-REST-API-Explorer.md)
 
-[Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.analytics-center-dashboards]
 

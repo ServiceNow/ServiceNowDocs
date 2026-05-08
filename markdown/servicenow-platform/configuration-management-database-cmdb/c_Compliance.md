@@ -15,7 +15,7 @@ breadcrumb: [Configuration Management Database \(CMDB\), Configuration Managemen
 
 CMDB Compliance is a tool set that enables administrators to certify CMDB data for correctness and fix any discrepancies found in the data.
 
-**Note:** For compliance in the context of internal business goals and objectives, and external legislation and regulations, see [Exploring Policy and Compliance Management](https://www.servicenow.com/docs/access?context=policy-compliance&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+**Note:** For compliance in the context of internal business goals and objectives, and external legislation and regulations, see Exploring Policy and Compliance Management.
 
 ## Certification options
 

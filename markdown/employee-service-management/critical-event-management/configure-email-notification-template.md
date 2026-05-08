@@ -25,7 +25,7 @@ Role required: email\_client\_admin
 
 2.  Select **New** to add an email template or edit an existing email template.
 
-3.  Fill the form and draft the content for the template. For more information on email templates, see [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+3.  Fill the form and draft the content for the template. For more information on email templates, see Email templates.
 
 4.  Select **Submit**.
 

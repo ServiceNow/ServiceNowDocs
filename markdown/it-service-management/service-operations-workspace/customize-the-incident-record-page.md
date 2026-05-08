@@ -118,7 +118,7 @@ For advanced customization of the **Overview** tab with SRP record, use the foll
 
     2.  Edit the page by configuring components as required.
 
-    For more information on working with pages, see [Work with pages](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information on working with pages, see Work with pages.
 
 
 ## Customize the Investigation tab for an incident
@@ -207,7 +207,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     2.  Edit the page by configuring components as required.
 
-    For more information on working with pages, see [Work with pages](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information on working with pages, see Work with pages.
 
 
 ## Customize the Remedial action playbook for an incident
@@ -296,7 +296,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     2.  Edit the page by configuring components as required.
 
-    For information on working with pages, see [Work with pages](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For information on working with pages, see Work with pages.
 
 
 ## Customize the incident record information in the contextual side panel
@@ -385,7 +385,7 @@ Role required: workspace\_admin, ui\_builder\_admin, or admin
 
     2.  Edit the page by configuring components as required.
 
-    For information on working with pages, see [Work with pages](https://www.servicenow.com/docs/access?context=work-pages&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For information on working with pages, see Work with pages.
 
 
 ## Customize the display of service level agreements for an incident
@@ -524,7 +524,7 @@ Configure the collection rules and map the rules to the metric definitions in th
 
 Agent Client Collector for Investigation \(sn\_acc\_adapter\) and Investigation Framework \(sn\_invest\_fwk\) must be installed on the instance to view the Investigate Framework module. For more information, see [Install Agent Client Collector for Investigation](../task/install-acc-adapter.md).
 
-The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see  and [Agent Client Collector installation](https://www.servicenow.com/docs/access?context=acc-installation&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+The Agent Client Collector framework \(sn\_agent\) plugin must be installed on the instance, and Agent Client Collector must be installed to the affected CI. These installations are required to view the **Investigate** tab on the Incident record and the CI related metrics information displayed on the **Investigate** tab of the Incident record. For more information on the Agent Client Collector framework plugin and the installation, see  and Agent Client Collector installation.
 
 Role required: sn\_cimaf.sn\_cimaf\_admin or sn\_invest\_fwk.sn\_investigate\_admin
 

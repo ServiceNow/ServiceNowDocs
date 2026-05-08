@@ -46,7 +46,7 @@ These Core UI email client features aren’t available after enabling the Next E
 
 2.  Add a system property named **glide.ui.load\_seismic\_email\_client**.
 
-    For more information on adding system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on adding system property, see Add a system property.
 
 3.  Set the Value field to **true**.
 

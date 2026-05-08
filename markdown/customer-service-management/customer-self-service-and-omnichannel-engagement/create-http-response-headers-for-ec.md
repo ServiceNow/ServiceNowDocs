@@ -136,5 +136,5 @@ Detailed description for the HTTP response header.
 **Related topics**  
 
 
-[HTTP Response Headers](https://www.servicenow.com/docs/access?context=http-response-header&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.http-response-header]
 

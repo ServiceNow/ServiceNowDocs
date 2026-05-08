@@ -61,7 +61,7 @@ Application
 
 </td><td>
 
-Current [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US) set on the instance. To view the scope, click the gear icon on the right side of the title bar in any record or list and look at the value in the **Application** field. The activity runs in this scope within a workflow. You cannot view or change the scope for the instance in the Workflow Editor.
+Current Application scope set on the instance. To view the scope, click the gear icon on the right side of the title bar in any record or list and look at the value in the **Application** field. The activity runs in this scope within a workflow. You cannot view or change the scope for the instance in the Workflow Editor.
 
 </td></tr><tr><td>
 

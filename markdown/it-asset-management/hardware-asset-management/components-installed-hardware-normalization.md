@@ -15,7 +15,7 @@ breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT 
 
 Several types of components are installed with activation of the Hardware Model Normalization plugin, including tables.
 
-**Note:** To view all other components that are installed with this application, see the Application Files table. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** To view all other components that are installed with this application, see the Application Files table. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 

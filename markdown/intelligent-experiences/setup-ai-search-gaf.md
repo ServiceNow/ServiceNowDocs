@@ -34,7 +34,7 @@ You must index every table for each workflow or application you'd like to config
 
 2.  Install Now Assist for AI Search by installing a Now Assist application.
 
-    For more information, see [Install Now Assist in AI Search](https://www.servicenow.com/docs/access?context=install-now-assist-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Install Now Assist in AI Search.
 
 3.  Navigate to the Now Assist Skill Config \[sn\_nowassist\_skill\_config\] table by entering `sn_nowassist_skill_config.list` in the filter navigator.
 

@@ -71,18 +71,18 @@ The term application code refers to:
 
     |Application|Extension point topic|
     |-----------|---------------------|
-    |Coaching|[Resolve Coaching issues](https://www.servicenow.com/docs/access?context=cf-coaching-troubleshooting&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|
-    |Continual Improvement Management|[Improvement with other applications](https://www.servicenow.com/docs/access?context=cim-integration&version=australia&pubname=australia-it-service-management&ft:locale=en-US)|
-    |Customer Service Management|[Extension points in Customer Service Management](https://www.servicenow.com/docs/access?context=extension-points-customer-service&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
-    |[Creating custom user roles](https://www.servicenow.com/docs/access?context=creating-custom-csm-user-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
-    |[CSM integration with Change Management](https://www.servicenow.com/docs/access?context=csm-integration-sm-change&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
-    |[CSM integration with Incident Management](https://www.servicenow.com/docs/access?context=csm-integration-sm-incident&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
-    |[CSM integration with Problem Management](https://www.servicenow.com/docs/access?context=csm-integration-sm-problem&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
-    |[CSM integration with Request Management](https://www.servicenow.com/docs/access?context=csm-integration-sm-request&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)|
-    |Field Service Management|[Extension points in Field Service Management](https://www.servicenow.com/docs/access?context=extension-points-field-service&version=australia&pubname=australia-field-service-management&ft:locale=en-US)|
-    |Knowledge Management|[Use extension points for Knowledge Management](https://www.servicenow.com/docs/access?context=extension-points-km-plugins&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
-    |Orchestration|[Client software distribution extension network](https://www.servicenow.com/docs/access?context=c_CSDExtensionFramework&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) [Installed with client software distribution](https://www.servicenow.com/docs/access?context=r_IWClientSWDist&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
-    |Password Reset|[Password Reset script includes](https://www.servicenow.com/docs/access?context=c_InstalledPasswordResetScripts&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)|
+    |Coaching|Resolve Coaching issues|
+    |Continual Improvement Management|Improvement with other applications|
+    |Customer Service Management|Extension points in Customer Service Management|
+    |Creating custom user roles|
+    |CSM integration with Change Management|
+    |CSM integration with Incident Management|
+    |CSM integration with Problem Management|
+    |CSM integration with Request Management|
+    |Field Service Management|Extension points in Field Service Management|
+    |Knowledge Management|Use extension points for Knowledge Management|
+    |Orchestration|Client software distribution extension network Installed with client software distribution|
+    |Password Reset|Password Reset script includes|
 
 -   **Internally developed custom applications for your enterprise**
 

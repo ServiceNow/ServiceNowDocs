@@ -25,7 +25,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 -   As an assigned-to collaborator or group manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can initiate a Now Assist analysis for a contract document when the contract request is in the Work in progress state.
 -   The Now Assist analysis is run on the latest revision of the contract document.
--   Only documents in Microsoft Word \(.docx\) and PDF formats can be analyzed with the Now Assist application. For more information on the document limitations, see [Limitations in Document Intelligence](https://www.servicenow.com/docs/access?context=hard-limits-in-doc-intel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+-   Only documents in Microsoft Word \(.docx\) and PDF formats can be analyzed with the Now Assist application. For more information on the document limitations, see Limitations in Document Intelligence.
 -   For contract documents that are in a PDF format, you can run the Now Assist analysis but you can't act on a suggestion.
 
 **Note:** Be sure to review the AI-generated analysis for accuracy.
@@ -34,15 +34,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d526087e135">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d526101e135">
 
 Method
 
-</th><th align="left" id="d526087e138">
+</th><th align="left" id="d526101e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d526087e144">
+</th></tr></thead><tbody><tr><td id="d526101e144">
 
 **Contract Workspace listing**
 
@@ -54,7 +54,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d526087e191">
+</td></tr><tr><td id="d526101e191">
 
 **Workspace used by your application**
 
@@ -78,15 +78,15 @@ Steps
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d526087e266">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d526101e266">
 
 Method
 
-</th><th align="left" id="d526087e269">
+</th><th align="left" id="d526101e269">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d526087e275">
+</th></tr></thead><tbody><tr><td id="d526101e275">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -96,7 +96,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d526087e302">
+</td></tr><tr><td id="d526101e302">
 
 **Run Now Assist analysis on multiple contract documents**
 

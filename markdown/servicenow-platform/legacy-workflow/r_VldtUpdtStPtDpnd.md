@@ -77,7 +77,7 @@ Migrate the parent workflow and all dependent workflows to a new instance togeth
     **Note:** This action forces an entry into the current update set.
 
 3.  Complete the update set with all dependencies.
-4.  Follow standard procedures for migrating update sets to local instances. For information about update sets, see [System update sets](https://www.servicenow.com/docs/access?context=system-update-sets&version=australia&pubname=australia-application-development&ft:locale=en-US).
+4.  Follow standard procedures for migrating update sets to local instances. For information about update sets, see System update sets.
 
 Solution 2
 

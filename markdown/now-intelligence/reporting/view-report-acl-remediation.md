@@ -82,7 +82,7 @@ For reports that are blocked by a table-level read ACL, the assessment displays 
 
     4.  If no groups have at least one blocking role, select an appropriate group and add one of the blocking roles.
 
-        If no groups are appropriate for the users, create a group and assign one of the required roles to it outside of the application. Then within the application, grant access to the selected blocked users. For more information on creating groups, see [Create a user group](https://www.servicenow.com/docs/access?context=t_CreateAGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        If no groups are appropriate for the users, create a group and assign one of the required roles to it outside of the application. Then within the application, grant access to the selected blocked users. For more information on creating groups, see Create a user group.
 
     5.  Select **Submit**.
 
@@ -96,7 +96,7 @@ In the Affected Users list, the status of the assigned users changes to Processe
 **Related topics**  
 
 
-[Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_AssignRoleToGroup]
 
 ## Manage reports with ACLs on extended fields
 
@@ -110,7 +110,7 @@ Role required: admin and security\_admin.
 
 1.  Create the system property **sn\_report\_acl.com.par\_report\_acl\_assessment.collect\_dotwalk** and set it to `true`.
 
-    For more information on creating system properties, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+    For more information on creating system properties, see Add a system property.
 
 2.  [Perform the Report View assessment scan](perform-report-view-acl-assessment-scan.md).
 

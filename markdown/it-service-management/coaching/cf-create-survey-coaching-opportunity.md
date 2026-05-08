@@ -41,7 +41,7 @@ Role required: sn\_coaching.admin
 
     8.  Select **Save**.
 
-    For more information on configuring a survey, see [Survey Designer Configuration form](https://www.servicenow.com/docs/access?context=survey-design-config-form&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on configuring a survey, see Survey Designer Configuration form.
 
 2.  Create a question bank for the survey.
 
@@ -55,7 +55,7 @@ Role required: sn\_coaching.admin
 
     5.  In the Survey Question form, enter the name, question, and data type, and select **Submit**.
 
-    For more information on creating or updating a question bank, see [Survey questions](https://www.servicenow.com/docs/access?context=c_SurveyQuestion&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on creating or updating a question bank, see Survey questions.
 
 3.  Associate the question bank with the survey.
 

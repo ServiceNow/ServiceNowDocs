@@ -18,16 +18,16 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 -   [Create a Doc in EAP](create-a-doc-in-eap.md).
 -   Activate the EAP doc summarization Now Assist skill. See .
 
 Role required: sn\_apw\_advanced.eap\_user
 
-If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+If you have custom roles that require access to this skill, update the ACLs for those roles that require access. For more information, see Implement access control in Now Assist AI agents.
 
 ## Procedure
 

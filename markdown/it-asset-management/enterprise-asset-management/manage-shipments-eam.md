@@ -56,7 +56,7 @@ Before you can integrate the Enterprise Asset Management application with a thir
         If the shipping carrier invokes the processResponse function, they must return the response after the function completes.
 
 -   Create an integration profile with the appropriate name, carrier API details, and connection details. This integration profile enables you to connect to the third-party application so that you can retrieve shipment details.
--   If the third-party application uses the ServiceNow Credentials \[discovery\_credentials\] table or any other ServiceNow table with Password2 fields, provide a KMF access map policy to enable access to those tables. For more information on KMF access map policies, see [Password2 encryption with the Key Management Framework \(KMF\)](https://www.servicenow.com/docs/access?context=password-2way-encrypted-fields&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   If the third-party application uses the ServiceNow Credentials \[discovery\_credentials\] table or any other ServiceNow table with Password2 fields, provide a KMF access map policy to enable access to those tables. For more information on KMF access map policies, see Password2 encryption with the Key Management Framework \(KMF\).
 
 After the shipping carrier completes these prerequisites, you must complete these additional prerequisites:
 

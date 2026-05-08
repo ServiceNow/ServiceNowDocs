@@ -27,13 +27,13 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   [Enterprise Service Management Integrations Framework](https://www.servicenow.com/docs/access?context=hr-integrations-framework&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Enterprise Service Management Integrations Framework
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
--   ServiceNow University spoke. For more information on the ServiceNow University spoke, [ServiceNow University Spoke](https://www.servicenow.com/docs/access?context=now-learning-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+-   ServiceNow University spoke. For more information on the ServiceNow University spoke, ServiceNow University Spoke.
 
-For information on integrating with third-party learning sources, see [Integrating Learning Core with third-party learning management systems](https://www.servicenow.com/docs/access?context=setup-learning-third-party-1&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For information on integrating with third-party learning sources, see Integrating Learning Core with third-party learning management systems.
 
 ## Procedure
 
@@ -132,31 +132,31 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Update**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d163368e320">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d163364e320">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d163368e323">
+</th><th align="left" id="d163364e323">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d163368e329">
+</th></tr></thead><tbody><tr><td id="d163364e329">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://www.servicenow.com/docs/access?context=setup-pluralsight-spk&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
 
-</td></tr><tr><td id="d163368e345">
+</td></tr><tr><td id="d163364e345">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://www.servicenow.com/docs/access?context=setup-cornerstone&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in Set up the Cornerstone spoke to perform the integration.
 
-</td></tr><tr><td id="d163368e361">
+</td></tr><tr><td id="d163364e361">
 
 **Udemy application**
 
@@ -164,13 +164,13 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
 **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d163368e373">
+</td></tr><tr><td id="d163364e373">
 
 **ServiceNow University application**
 
 </td><td>
 
-Register an OAuth application and authenticate requests from ServiceNow. Follow the steps in [Setting up the ServiceNow University spoke](https://www.servicenow.com/docs/access?context=create-now-learning-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
+Register an OAuth application and authenticate requests from ServiceNow. Follow the steps in Setting up the ServiceNow University spoke to perform the integration.
 
 </td></tr></tbody>
 </table>    The records from the third-party content are pulled into your ServiceNow instance using and API call. To successfully run this API call, you must do the following:

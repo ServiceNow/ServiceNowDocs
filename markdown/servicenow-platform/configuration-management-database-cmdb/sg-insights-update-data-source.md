@@ -35,8 +35,8 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and import\_admin.
 
     For more information about data sources, see:
 
-    -   [Create a data source](https://www.servicenow.com/docs/access?context=c_CreateNewDataSource&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
-    -   [Data source fields](https://www.servicenow.com/docs/access?context=r_DataSourceFileTypeFields&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+    -   Create a data source
+    -   Data source fields
 7.  Select **Update**.
 
 

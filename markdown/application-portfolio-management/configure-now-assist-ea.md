@@ -15,15 +15,15 @@ If you have the admin role, you can configure the Now Assist for Enterprise Arch
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for EA. While all Now Assist for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for EA. While all Now Assist for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-model-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to define which options are available, then set the skill-level preferences in the [Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US). For more information, see [Large language models on the ServiceNow AI Platform®](https://www.servicenow.com/docs/access?context=exploring-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the Now Assist Admin console. For more information, see Large language models on the ServiceNow AI Platform®.
 
 The following table lists the features and skills that you can access from the Now Assist Admin console.
 
@@ -46,7 +46,7 @@ The Now Assist for Enterprise Architecture \(EA\) system requirements are as fol
 1.  Install the Now Assist for Enterprise Architecture \(EA\) plugin \(sn\_ea\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for Now Assist for Enterprise Architecture \(EA\)](../concept/supporting-info-now-assist-ea.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   For information about the installation process, see Install Now Assist plugins.
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
     If you’re already in the Now Assist Admin console, you can select the **Now Assist Skills** tab on the screen.
@@ -92,7 +92,7 @@ Action
 If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon ![](../image/edit-icon.png).
-    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://www.servicenow.com/docs/access?context=t_SelectAnAppFromTheAppPicker&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see Select an application from the application picker.
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
@@ -134,7 +134,7 @@ The You are making a copy of a skill dialog box appears.
 3.  If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon ![](../image/edit-icon.png).
-    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://www.servicenow.com/docs/access?context=t_SelectAnAppFromTheAppPicker&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    2.  Verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see Select an application from the application picker.
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
@@ -163,13 +163,13 @@ The diagram change analysis skill is activated.
 
     1.  Review the roles than can access the skill. If necessary, select the edit icon ![](../image/edit-icon.png) if you want to add access to more roles.
 
-        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://www.servicenow.com/docs/access?context=t_SelectAnAppFromTheAppPicker&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        You must verify that your application scope is set to Now Assist for Enterprise Architecture \(EA\). For information on how to change the application scope, see Select an application from the application picker.
 
         **Note:**
 
         -   For the ADR doc summarization and actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected by default.
 
-            To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see Implement access control in Now Assist AI agents.
 
         -   The **Role restrictions to skill** section displays the roles that have access to the skill, by default.
     2.  **Select display**: Review where the skill appears.

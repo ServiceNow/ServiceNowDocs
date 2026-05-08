@@ -17,7 +17,7 @@ Enable the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** system property
 
 ## Before you begin
 
-Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Set the application scope to Service Graph Connector for AWS using the application picker. For more information, see Application picker.
 
 Role required: admin
 

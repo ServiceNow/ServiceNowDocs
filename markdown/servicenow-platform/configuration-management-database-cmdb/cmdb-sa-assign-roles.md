@@ -17,7 +17,7 @@ Assign roles to control access to features, capabilities, and data in the CMDB s
 
 ## Before you begin
 
-Set the application scope to CMDB success advisor using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Set the application scope to CMDB success advisor using the application picker. For more information, see Application picker.
 
 Role required: admin
 
@@ -116,6 +116,6 @@ Data Foundations and HAM dashboards
 
 -   Assign roles to users and groups using the ServiceNow AI Platform user administration feature.
 
-    -   To assign a role to a user, see [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-    -   To assign a role to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   To assign a role to a user, see Assign a role to a user.
+    -   To assign a role to a group, see Assign a role to a group.
 

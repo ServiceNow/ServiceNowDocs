@@ -25,5 +25,5 @@ View SLAs for HR tasks from the Related Items menu.
 
 View SLAs for HR Playbook from the case card.
 
-**Note:** For more information on SLAs, see [Service Level Management](https://www.servicenow.com/docs/access?context=service-level-mgmt-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+**Note:** For more information on SLAs, see Service Level Management.
 

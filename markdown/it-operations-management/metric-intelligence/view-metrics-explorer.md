@@ -128,7 +128,7 @@ Modifications in the Insights Explorer remain during the session, and once the I
 7.  Click the cog **Settings** icon to open application settings:
 
     -   Enable, disable, or set the frequency for refreshing anomaly data on the Insights Explorer.
-    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see [Create or modify map indicators](https://www.servicenow.com/docs/access?context=t_CreateModifyNGBSMMapIndicators&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    -   Activate or deactivate the display of related lists such as All Alerts, Incidents, and Problems. For more information, see Create or modify map indicators.
 8.  Click the **Chart Settings** icon to toggle the display of statistics and aggregations on the chart.
 
     Enabling or disabling an item to add or to remove metrics from a chart, also updates the legend of the chart to reflect the change.

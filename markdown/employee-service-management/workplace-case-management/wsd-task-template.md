@@ -23,7 +23,7 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
 
 Create a task template for use when creating a workplace service.
 
-**Note:** Administrators may use task assignment rules to control the automatic assignment of workplace tasks as long as the task template is not already assigning a person or group to the task. For more information on assignment rules, see [Define assignment rules](https://www.servicenow.com/docs/access?context=c_DefineAssignmentRules&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** Administrators may use task assignment rules to control the automatic assignment of workplace tasks as long as the task template is not already assigning a person or group to the task. For more information on assignment rules, see Define assignment rules.
 
 ## Procedure
 
@@ -33,7 +33,7 @@ Create a task template for use when creating a workplace service.
 
     -   If you are creating a template, click **New**.
     -   If you are modifying an existing template, open that template.
-    For information about the template form fields, see [Create a template](https://www.servicenow.com/docs/access?context=t_CreateATemplateUsingTheTmplForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For information about the template form fields, see Create a template.
 
 3.  In the **Table** field, select the **Workplace Task \[sn\_wsd\_core\_workplace\_task\]** table.
 

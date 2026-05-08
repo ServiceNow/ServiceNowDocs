@@ -71,7 +71,7 @@ Search Application
 
 Defines search experience settings for the widget, such as the search engine, search results limit, and suggestions limit. By default, the widget uses the same search application configuration as the portal, but you can override this configuration at the widget level.
 
- For more information on defining a search application configuration, see [Defining search application configurations](https://www.servicenow.com/docs/access?context=defining-search-app-cfgs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more information on defining a search application configuration, see Defining search application configurations.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Search Results Configuration
 
 Defines how search results are displayed after using the widget. By default, the widget uses the same search results configuration as the portal, but you can override this configuration at the widget level.
 
- For more information on defining a search results configuration, see [Define a composite dataset](https://www.servicenow.com/docs/access?context=define-composite-dataset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+ For more information on defining a search results configuration, see Define a composite dataset.
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ AI Search Source Filter
 
 </td><td>
 
-Content that portal users can search on, including tables in your instance or external data sources. For more information, see [Defining search sources](https://www.servicenow.com/docs/access?context=search-sources-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Content that portal users can search on, including tables in your instance or external data sources. For more information, see Defining search sources.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Search widgets](search-widgets.md)

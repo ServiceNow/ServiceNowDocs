@@ -26,7 +26,7 @@ The Q&amp;A Genius Results capability enables request fulfillers and legal users
 
 For Legal Counsel Center, the Q&amp;A Genius Results feature is activated by default when you install and activate AI Search and the Legal Service Delivery - Prime plugin \(sn\_lg\_ai\_prime\) application.
 
-For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see [Enabling Now Assist Q&amp;A Genius Results](https://www.servicenow.com/docs/access?context=enabling-now-assist-qa-grs&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Enable Now Assist genius results](../../employee-center/task/na-qa-activate.md).
+For global search and Employee Center, you must enable Q&amp;A Genius Results manually. For more information, see Enabling Now Assist Q&amp;A Genius Results and [Enable Now Assist genius results](../../employee-center/task/na-qa-activate.md).
 
 For more information on the other supported search engines, see [Search in Legal Service Delivery](../concept/lsd-search-overview.md).
 

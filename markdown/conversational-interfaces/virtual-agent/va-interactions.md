@@ -34,7 +34,7 @@ These interaction records provide administrators, Virtual Agent administrators, 
 
 ## Key fields in the Interactions table
 
-To view the Interactions table, navigate to **All**, and then enter `interaction.list` in the navigation filter. You can configure the fields displayed in the table using the [list collector](https://www.servicenow.com/docs/access?context=t_UseSlushbuckets&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) \(slushbucket\).
+To view the Interactions table, navigate to **All**, and then enter `interaction.list` in the navigation filter. You can configure the fields displayed in the table using the list collector \(slushbucket\).
 
 <table id="table_xs3_3hy_yjb"><thead><tr><th>
 
@@ -385,7 +385,7 @@ Requester’s conversation was closed due to a runtime error.
 
 From the Interactions table, you can open a specific record to see additional details about the Virtual Agent interaction: a transcript of the conversation, related tasks, and interaction logs.
 
-**Note:** If a field is not visible, you can add it to the form view. For more information, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If a field is not visible, you can add it to the form view. For more information, see Configuring the form layout.
 
 -   **Conversation transcript**
 
@@ -408,7 +408,7 @@ From the Interactions table, you can open a specific record to see additional de
 
 ## Security considerations
 
-Information in conversation transcripts is viewable to all users. If you need to control access to records containing sensitive information, you can use scoped access control lists \(ACLs\) and lock scripted access to those records by using the Restricted Caller Access \(RCA\) feature. For details, see [Set application scope, application resource, and event access](https://www.servicenow.com/docs/access?context=scope-resource-access&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Manage Restricted Caller Access](https://www.servicenow.com/docs/access?context=t_ConfigureSIM&version=australia&pubname=australia-security-management&section=restricted-caller-access&ft:locale=en-US).
+Information in conversation transcripts is viewable to all users. If you need to control access to records containing sensitive information, you can use scoped access control lists \(ACLs\) and lock scripted access to those records by using the Restricted Caller Access \(RCA\) feature. For details, see Set application scope, application resource, and event access and Manage Restricted Caller Access.
 
 ## Topic design considerations
 

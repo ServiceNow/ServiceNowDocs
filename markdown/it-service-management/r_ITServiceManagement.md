@@ -69,7 +69,7 @@ Provide mobile connectivityEnable employees to find answers and get work done fr
 
 ![Employee Center home page](../../service-catalog-management/image/employee-center-home-page.png)
 
-Automate routine agent interactions and increase the speed of resolution from the Employee Center portal. With supervised machine learning, you can automate incident categorization and assignment and eliminate bottlenecks created by manual incident triaging. Meet increasing demands without further adding staff and empower existing IT staff to focus on more meaningful work. For more information on the Employee Center portal and the features, see [Employee Center for IT Service Management](https://www.servicenow.com/docs/access?context=itsm-n-ec-integration&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Automate routine agent interactions and increase the speed of resolution from the Employee Center portal. With supervised machine learning, you can automate incident categorization and assignment and eliminate bottlenecks created by manual incident triaging. Meet increasing demands without further adding staff and empower existing IT staff to focus on more meaningful work. For more information on the Employee Center portal and the features, see Employee Center for IT Service Management.
 
 ## Consolidate IT services
 
@@ -95,17 +95,17 @@ Stay connected and access information in real time using the ITSM mobile agent. 
 
 Edge encryption provides you with direct control over your data security. Encryption and key management are performed on your intranet between your browser and your ServiceNow instance.
 
-See [Understanding Edge Encryption](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionOverview&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+See Understanding Edge Encryption.
 
 Because edge encryption is enabled on a proxy server on your side of the network, there is significant planning, network administration and management, and setup required.
 
-See [Planning for Edge Encryption](https://www.servicenow.com/docs/access?context=c_EdgeEncryptionPlanning&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+See Planning for Edge Encryption.
 
-To install edge encryption, see [Edge Encryption installation](https://www.servicenow.com/docs/access?context=c_InstallEdgeEncryptionProxy&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To install edge encryption, see Edge Encryption installation.
 
-To configure edge encryption, see [Edge Encryption configuration](https://www.servicenow.com/docs/access?context=edge-config&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To configure edge encryption, see Edge Encryption configuration.
 
-**Note:** There are limitations when using edge encryption. See [Edge Encryption limitations](https://www.servicenow.com/docs/access?context=edge-encryption-limitations&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** There are limitations when using edge encryption. See Edge Encryption limitations.
 
 ## Get started
 
@@ -138,7 +138,7 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 -   [Digital End-User Experience](../../digital-end-user-experience/concept/dex-landing.md)
 -   [Digital Portfolio Management](../../digital-portfolio-management/reference/dpm-landing.md)
 -   [Expense Line](../../asset-and-configuration/concept/c_ExpenseLine.md)
--   [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Employee Center
 -   [Incident Management](../../incident-management/concept/c_IncidentManagement.md)
 -   [Incident Communications Management](../../incident-alert-management/concept/c_IncidentAlertManagement.md)
 -   [ITSM Virtual Agent](../../itsm-virtual-agent/concept/itsm-virtual-agent.md)
@@ -147,8 +147,8 @@ To configure edge encryption, see [Edge Encryption configuration](https://www.se
 -   [ITSM Platform Analytics Solutions](../../../use/dashboards/application-content-packs/itsm-dashboards-content-pack.md)
 -   ITSM Predictive Intelligence Workbench
 -   [On-call scheduling](../../../administer/on-call-scheduling/concept/c_OnCallScheduling.md)
--   [Operational Technology Incident Management](https://www.servicenow.com/docs/access?context=operational-technology-incident-management-landing-page&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
--   [Operational Technology Change Management](https://www.servicenow.com/docs/access?context=operational-technology-change-management-landing-page&version=australia&pubname=australia-operational-technology&ft:locale=en-US)
+-   Operational Technology Incident Management
+-   Operational Technology Change Management
 -   [Procurement](../../procurement/concept/c_Procurement.md)
 -   [Product Catalog](../../product-catalog/concept/c_ProductCatalog.md)
 -   [Problem Management](../../problem-management/concept/c_ProblemManagement.md)

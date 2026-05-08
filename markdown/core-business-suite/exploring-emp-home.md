@@ -18,7 +18,7 @@ Explore the home page for the employee requester persona along with the associat
 
 Core Business Suite application helps you set up an employee journey in your organization across departments. Raise a request with the CBS employee portal related to HR, finance, legal, procurement, and more in one place. For more information, see [Employee support areas](cbs-task-landing-emp.md).
 
-Apart from raising requests, you can track and manage your tasks and activities with different functionalities like, My active items, My favorites, My tasks, Requests, and Org charts. For more information on each of the functionality, see [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Apart from raising requests, you can track and manage your tasks and activities with different functionalities like, My active items, My favorites, My tasks, Requests, and Org charts. For more information on each of the functionality, see Employee Center.
 
 ## Core Business Suite employee users
 
@@ -79,7 +79,7 @@ Leverage an intuitive portal navigation with the Advanced Portal Navigation \(AP
 
 </td><td>
 
-[Advanced Portal Navigation](https://www.servicenow.com/docs/access?context=adv-portal-navigation-overview&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Advanced Portal Navigation
 
 </td><td>
 
@@ -91,7 +91,7 @@ Provide targeted content and communication for employees in CBS.
 
 </td><td>
 
-[Create campaign stages with Content Experience Builder](https://www.servicenow.com/docs/access?context=ecpro-campaign-builder&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Create campaign stages with Content Experience Builder
 
 </td><td>
 
@@ -118,7 +118,7 @@ CBS requester\[sn\_cbs.requestor\]
 
 </td><td>
 
-[Quick links](https://www.servicenow.com/docs/access?context=emp-center-quick-link-config&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+Quick links
 
 </td><td>
 

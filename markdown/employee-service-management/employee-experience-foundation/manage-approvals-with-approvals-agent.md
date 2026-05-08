@@ -77,12 +77,12 @@ Use the Now Assist Approval Assistance Agent to manage your assigned approvals. 
 
 Review how to set up and use the Approval Assistance AI agent. For more information about agentic workflow and activating the required components, see the following topics:
 
--   [Platform Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Activate an agentic workflow template](https://www.servicenow.com/docs/access?context=activate-aia-use-case&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Modify an AI agent](https://www.servicenow.com/docs/access?context=modify-ai-agent&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   [Implement access control in Now Assist AI agents](https://www.servicenow.com/docs/access?context=aia-security-implementation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   Platform Approval assistance AI agent
+-   Activate an agentic workflow template
+-   Modify an AI agent
+-   Implement access control in Now Assist AI agents
 
-There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://www.servicenow.com/docs/access?context=find-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
 
 **Parent Topic:**[Using Now Assist for Employee Experience](../concept/use-now-assist-for-emp-exp.md)
 

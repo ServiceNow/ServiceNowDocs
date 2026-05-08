@@ -15,7 +15,7 @@ Use the Sales Forecasting application to project your future sales volumes and r
 
 ## Activate Sales Forecasting
 
-As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As an admin, you can activate the following plugins to enable users to access Sales Forecasting. For more information, see Activate a plugin.
 
 <table id="table_o13_hpv_v2c"><thead><tr><th>
 

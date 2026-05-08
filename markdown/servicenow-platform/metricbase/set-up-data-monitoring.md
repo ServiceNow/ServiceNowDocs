@@ -82,7 +82,7 @@ Display value aggregator
 
 </td><td>
 
-The aggregation method in use when using `<table-name>.list` where &lt;table-name&gt; is a table in the MetricBase database. This value is unrelated to the retention policy. For a definition of the options, see [MetricBase transforms](https://www.servicenow.com/docs/access?context=metricbase-transforms&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+The aggregation method in use when using `<table-name>.list` where &lt;table-name&gt; is a table in the MetricBase database. This value is unrelated to the retention policy. For a definition of the options, see MetricBase transforms.
 
 </td></tr><tr><td>
 

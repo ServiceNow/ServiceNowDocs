@@ -27,7 +27,7 @@ The **Applicant interview feedback** is available by default that triggers the s
 
 1.  Create the applicant survey for the applicants.
 
-    For more information, see [Survey designer](https://www.servicenow.com/docs/access?context=c_SurveyDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information, see Survey designer.
 
     For more information on applicant survey in the Applicant Center, see [Applicant survey](../concept/applicant-feedback.md).
 

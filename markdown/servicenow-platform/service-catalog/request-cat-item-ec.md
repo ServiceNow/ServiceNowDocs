@@ -31,7 +31,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d298562e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d298558e96">
 
 **Add attachments**
 
@@ -39,7 +39,7 @@ Role required: requester
 
 To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d298562e108">
+</td></tr><tr><td id="d298558e108">
 
 **Add to Cart**
 
@@ -47,7 +47,7 @@ To add one or more attachments to the catalog item, select the choose a file lin
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d298562e120">
+</td></tr><tr><td id="d298558e120">
 
 **Add to Wish List**
 

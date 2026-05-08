@@ -95,9 +95,9 @@ Low-code app development streamlines the development process to build more apps 
 -   [UI Builder](../../../administer/ui-builder/concept/ui-builder-overview.md)
 -   [Guided Application Creator](../../guided-app-creator/concept/guided-app-creator.md)
 -   [Table Builder](../../../administer/form-builder/concept/tb-landing-page.md)
--   [Flows in Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Flows in Workflow Studio
 -   [Workspace Builder](../../app-engine-studio/task/configure-workspace-builder.md)
--   [Exploring Decision Tables](https://www.servicenow.com/docs/access?context=decision-designer-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+-   Exploring Decision Tables
 
 For more information on low-code development tools, see [Building low-code applications](../reference/building-low-code-applications-with-app-engine.md).
 
@@ -127,8 +127,8 @@ The advantage of pro-code development is being able to create custom apps withou
 
 -   [ServiceNow IDE](../../servicenow-ide/concept/servicenow-ide-landing.md)
 -   [ServiceNow SDK](../../servicenow-sdk/concept/servicenow-sdk-landing.md)
--   [Scripting](https://www.servicenow.com/docs/access?context=c_Script&version=australia&pubname=australia-api-reference&ft:locale=en-US)
--   [REST APIs](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+-   Scripting
+-   REST APIs
 -   [ServiceNow Extensions for Visual Studio Code](../../applications/concept/vs-code.md)
 
 For more information on pro-code development tools, see [Building pro-code applications](../reference/building-pro-code-applications.md).

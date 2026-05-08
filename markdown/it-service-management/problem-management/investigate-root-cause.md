@@ -29,15 +29,15 @@ Activate the Problem Management Best Practice — Madrid — State Model \(com.s
 
 1.  You can perform any one of the following tasks.
 
-<table id="choicetable_v1k_dbk_wfb"><thead><tr><th align="left" id="d214538e83">
+<table id="choicetable_v1k_dbk_wfb"><thead><tr><th align="left" id="d214534e83">
 
 Option
 
-</th><th align="left" id="d214538e86">
+</th><th align="left" id="d214534e86">
 
 Actions to be taken
 
-</th></tr></thead><tbody><tr><td id="d214538e92">
+</th></tr></thead><tbody><tr><td id="d214534e92">
 
 **Investigate the problem**
 
@@ -47,7 +47,7 @@ Actions to be taken
 -   If you are not the subject matter expert and you want help with the investigation, create a problem task of type root cause analysis and assign that to the relevant team. Once the subject matter expert has completed the problem task, then you can manually copy the cause notes and proposed fix from the problem task to this problem.
  For more information about creating a problem task, see [Create a problem task](create-problem-task.md).
 
-</td></tr><tr><td id="d214538e120">
+</td></tr><tr><td id="d214534e120">
 
 **If you can resolve the problem**
 
@@ -55,7 +55,7 @@ Actions to be taken
 
 Click **Fix**. The problem state changes to **Fix in Progress**. You can then create a new Change Request or link to an existing Change Request to apply a permanent fix to the problem. **Note:** Notification is sent to the problem coordinator, who is assigned to the Problem, when all the related Change Requests are completed or canceled.
 
-</td></tr><tr><td id="d214538e138">
+</td></tr><tr><td id="d214534e138">
 
 **If you acknowledge the problem but there is no permanent resolution to the problem**
 
@@ -63,7 +63,7 @@ Click **Fix**. The problem state changes to **Fix in Progress**. You can then cr
 
 Click **Accept Risk**. The problem directly enters the **Closed** or **Resolved** state with the **Resolution code** as **Risk accepted**.**Note:** Whether the problem enters the **Closed** state or the **Resolved** state, depends on the property **Accept Risk moves the Problem to Closed state instead of Resolved state** \(**problem.acceptrisk.move\_to\_closed**\).
 
-</td></tr><tr><td id="d214538e178">
+</td></tr><tr><td id="d214534e178">
 
 **If you decide to reanalyze the problem**
 

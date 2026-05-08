@@ -18,13 +18,13 @@ The ServiceNow® AI Agent Advisor application is an AI solution that automatical
 -   Let AI analyze your instance data and tell you exactly where automation will have the biggest impact.
 -   Match your automation opportunities to existing AI agents and automate the creation and deployment of new agents.
 
-See [AI Agent Advisor](https://www.servicenow.com/docs/access?context=ai-agent-advisor-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) for more information.
+See AI Agent Advisor for more information.
 
 **Important:** AI Agent Advisor is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## AI Agent Advisor features
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -33,18 +33,18 @@ See [AI Agent Advisor](https://www.servicenow.com/docs/access?context=ai-agent-a
     -   Prime: Act autonomously with all AI assets, and create your own
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
--   **[Automation discovery with AI Agent Advisor](https://www.servicenow.com/docs/access?context=now-assist-center-using-ai-agent-advisor&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Automation discovery with AI Agent Advisor**
 
     AI Agent Advisor analyzes actual instance data to identify automation opportunities and propose AI automations.
 
--   **[AI agent matching and automated deployment](https://www.servicenow.com/docs/access?context=activate-automation-opportunity-now-assist-center&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **AI agent matching and automated deployment**
 
     Find existing AI agents that support your identified automation opportunities, and automate the creation and deployment of new agents.
 
 
 ## Activation information
 
-AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see [Configuring AI Agent Advisor](https://www.servicenow.com/docs/access?context=configuring-ai-agent-advisor&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+AI Agent Advisor installs and runs automatically as part of the standard Now Assist setup. AI Agent Advisor is available from the ServiceNow Store. For more information about the installation of AI Agent Advisor, see Configuring AI Agent Advisor.
 
 ## Plugin information
 
@@ -69,19 +69,19 @@ AI Agent Advisor supports Dynamic Translation for Australia. Localization is app
 
 ## Related ServiceNow applications and features
 
--   **[ServiceNow® AI implementation](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow® AI implementation**
 
     Getting ready to implement Now Assist is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     Now Assist uses generative AI that is designed to enhance user productivity and efficiency through conversation and proactive experiences.
 
--   **[Now Assist Center](https://www.servicenow.com/docs/access?context=now-assist-center-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Center**
 
     The ServiceNow® Now Assist Center application is a single control hub that brings together other Now Assist assets and workspaces, making it fast and effortless for administrators to set up and manage generative‑AI solutions from a unified experience.
 
--   **[Now Assist AI agents](https://www.servicenow.com/docs/access?context=na-ai-agents&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)Now Assist AI agents**
+-   **Now Assist AI agentsNow Assist AI agents**
 
     The ServiceNow® Now Assist AI agents are entities that mimic human-like intelligence by using large language models \(LLMs\). AI agents can perform tasks that range from simple automated responses to complex problem solving. By using AI agents, you can reduce the workloads of your live agents and help increase their productivity.
 

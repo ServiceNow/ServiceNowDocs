@@ -21,7 +21,7 @@ To access the Action Plan Guided Tour from your ServiceNow instance, navigate to
 
 Guided tours help train role-based users on how to use an application's user interface \(UI\) and features. Tours contain a series of interactive steps a user completes in their browser window. Administrators can manage and modify guided tours. You can find more information about guided tours in these ServiceNow documentation topics.
 
--   [Guided tours](https://www.servicenow.com/docs/access?context=guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US): This overview covers many of the features administrators use to create and modify tours.
--   [Guided Tour Designer interface](https://www.servicenow.com/docs/access?context=guided-tour-designer-interface&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US): Learn about the Guided Tour Designer features and interface.
--   [Edit a guided tour](https://www.servicenow.com/docs/access?context=edit-guided-tour&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US): This task provides details about how to modify guided tours.
+-   Guided tours: This overview covers many of the features administrators use to create and modify tours.
+-   Guided Tour Designer interface: Learn about the Guided Tour Designer features and interface.
+-   Edit a guided tour: This task provides details about how to modify guided tours.
 

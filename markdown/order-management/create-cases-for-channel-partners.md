@@ -29,7 +29,7 @@ Role required: sn\_prm.enterprise\_partner\_rel\_manager or sn\_prm.enterprise\_
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the case form, see [Case form](https://www.servicenow.com/docs/access?context=r_CustomerServiceCaseForm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    To learn more about the fields on the case form, see Case form.
 
 5.  Select **Save**.
 

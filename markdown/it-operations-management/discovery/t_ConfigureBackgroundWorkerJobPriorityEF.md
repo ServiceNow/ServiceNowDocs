@@ -22,7 +22,7 @@ Confirm the following:
 -   Discovery Admin Workspace is using version 1.9.0 or later.
 -   ServiceNow AI Platform® is using version XP9, YP4, or later than YP4.
 -   The **discovery.use.event.processing** system property is turned on. For more information, see [Configure Discovery to use Event Framework](t_ConfigureDiscoveryEventFramework.md).
--   The **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties are configured. For more information, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   The **com.glide.queue.discovery.sensors.processing\_jobs.priority** and **com.glide.queue.discovery.cloud.sensors.processing\_jobs.priority** system properties are configured. For more information, see Add a system property.
 
 Role required: discovery\_admin
 

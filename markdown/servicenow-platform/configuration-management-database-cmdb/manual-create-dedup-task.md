@@ -17,7 +17,7 @@ Manually create a de-duplication task when it is not automatically created. You 
 
 In some situations, duplicate CIs are not automatically detected and de-duplication tasks are not automatically generated. Such situation happens with a class for which identification rules are not defined and the identification engine cannot be applied. However, you still want to reconcile these duplicate CIs by utilizing the [Duplicate CI Remediator](../task/reconcile-dup-task.md) or the [De-duplication Dashboard](dedup-ci-exp-cmdb-workspace.md) in CMDB Workspaceor in Service Graph Workspace.
 
-Use the [CMDBDuplicateTaskUtils](https://www.servicenow.com/docs/access?context=CMDBDuplicateTaskUtilsAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) API to manually create a de-duplication task in which all duplicate CIs are specified. The de-duplication tasks that you create manually and the automatically created tasks, are stored in the same table \(\[reconcile\_duplicate\_task\]\) and are processed in the same manner.
+Use the CMDBDuplicateTaskUtils API to manually create a de-duplication task in which all duplicate CIs are specified. The de-duplication tasks that you create manually and the automatically created tasks, are stored in the same table \(\[reconcile\_duplicate\_task\]\) and are processed in the same manner.
 
 **Note:** You can manually create a de-duplication task only for CMDB CIs and a CI can be specified as a duplicate CI only in a single de-duplication task.
 

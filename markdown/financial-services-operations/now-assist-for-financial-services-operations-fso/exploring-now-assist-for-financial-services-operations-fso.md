@@ -29,7 +29,7 @@ For more information on generative AI skills, including case and customer profil
 
 For more information on AI agents and agentic workflows, see [Agentic AI use cases for FSO](../../fso-now-assist/concept/usecase-now-assist.md).
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Now Assist panel in Financial Services Workspace
 
@@ -39,7 +39,7 @@ An agent can use the Now Assist panel in Financial Services Workspace for scenar
 -   Conversational interaction for dispute resolution
 -   Interacting with AI agents during interactions or customer analysis
 
-For more information about the Now Assist panel, see [Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information about the Now Assist panel, see Now Assist panel.
 
 ## Sensitive data handling
 

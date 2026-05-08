@@ -25,7 +25,7 @@ Role required: personalize\_form
 
 2.  In the problem form context menu, select **Configure** &gt; **Form Layout**.
 
-3.  Follow the steps in [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to perform any of the following layout modifications.
+3.  Follow the steps in Configuring the form layout to perform any of the following layout modifications.
 
     Some of these modifications are illustrated in the example.
 

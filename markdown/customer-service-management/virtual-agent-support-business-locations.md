@@ -19,7 +19,7 @@ Before your staff members can use a pre-chat survey to initiate a chat, your adm
 
 You must also assign the service organization contributor \(sn\_customerservice.service\_organization\_contributor\) and location manager \(sn\_customerservice.svc\_location\_manager\_core\) roles to the staff members using the pre-survey chat feature.
 
-Let's say that a staff member with the correct role fills out a pre-chat survey on the Business Location Service Portal \(BLSP\). The chat is then assigned to a customer service agent or Virtual Agent via the advanced work assignment \(AWA\) routing. To learn more about AWA, see [Exploring Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Let's say that a staff member with the correct role fills out a pre-chat survey on the Business Location Service Portal \(BLSP\). The chat is then assigned to a customer service agent or Virtual Agent via the advanced work assignment \(AWA\) routing. To learn more about AWA, see Exploring Advanced Work Assignment.
 
 Before entering into a chat conversation with the staff member, the assigned agent reviews the context of the case so that agents know how to handle the case.
 
@@ -31,7 +31,7 @@ The pre-chat survey isn't displayed for service organization contributors who ar
 
 The business locations that are listed in the pre-chat configuration are limited to the locations that are assigned to the business location manager. You can't select a child business location.
 
-To learn more about the configuration of the pre-chat surveys, see [Define pre-chat survey configurations](https://www.servicenow.com/docs/access?context=ac-configure-pre-chat-surveys&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To learn more about the configuration of the pre-chat surveys, see Define pre-chat survey configurations.
 
 **Related topics**  
 

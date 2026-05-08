@@ -29,7 +29,7 @@ You must have a subscription for Virtual Agent before you can activate the Glide
 
 2.  Find the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) using the filter criteria and search bar.
 
-    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see [Request a plugin](https://www.servicenow.com/docs/access?context=t_RequestAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel. For more information, see Request a plugin.
 
 3.  Select **Install**, and then in the Activate Plugin dialog box, select **Activate**.
 

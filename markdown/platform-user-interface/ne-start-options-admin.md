@@ -39,6 +39,6 @@ The start page that you configure should address your needs and the needs of you
     -   [Configure per-user landing pages in Next Experience](../task/configure-per-user-ui16-landing-page-in-next-experience.md)
 -   **Responsive dashboards**
 
-    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://www.servicenow.com/docs/access?context=t_SetDashboardsAsHome&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see Set responsive dashboards as your home.
 
 

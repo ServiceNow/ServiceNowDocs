@@ -48,7 +48,7 @@ To learn more about product data, see [Product Data](psds-config-product-data.md
 
 Service Model Foundation refers to a set of pre-designed business and technical data frameworks that helps set up and manage how services are delivered and supported. It provides a standardized way to configure, monitor, and support service requests, applications, cases, and workflows across various business locations or government service organizations.
 
-To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://www.servicenow.com/docs/access?context=csm-industry-data-model&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+To learn more about the Service Model Foundation, see Service Model Foundation overview.
 
 For more information on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the BLSP](psds-using-business-location-service-portal.md).
 

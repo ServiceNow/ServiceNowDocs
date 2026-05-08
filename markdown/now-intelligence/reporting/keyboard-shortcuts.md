@@ -29,5 +29,5 @@ You can use the following keyboard shortcuts.
 **Related topics**  
 
 
-[Keyboard shortcuts](https://www.servicenow.com/docs/access?context=r_KeyboardShortcuts&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.r_KeyboardShortcuts]
 

@@ -17,7 +17,7 @@ Activate the Care Team Operations Case Creation Voice AI Agent to enable care te
 
 Role required: admin
 
-For information on configuring and deploying AI Voice Agents, see [Deploy AI voice agents](https://www.servicenow.com/docs/access?context=deploy-ai-agents-for-voice&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information on configuring and deploying AI Voice Agents, see Deploy AI voice agents.
 
 ## Procedure
 

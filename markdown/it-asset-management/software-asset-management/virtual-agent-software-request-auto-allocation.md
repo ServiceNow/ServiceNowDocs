@@ -15,7 +15,7 @@ breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT 
 
 You can implement ServiceNow® Virtual Agent to enable your employees to request software through a predefined conversational interface that is powered by artificial intelligence. Virtual Agent helps address software requests automatically so that your IT fulfillment professionals can focus on more complex requests and incidents.
 
-For information on how to implement and use Virtual Agent, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For information on how to implement and use Virtual Agent, see Virtual Agent.
 
 ## Prerequisites
 
@@ -27,11 +27,11 @@ Before you can begin using Virtual Agent for your software requests, complete th
 
 -   Activate the Glide Virtual Agent \(com.glide.cs.chatbot\) plugin on your ServiceNow instance.
 
-    See [Activate Virtual Agent](https://www.servicenow.com/docs/access?context=activate-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information on how to activate this plugin.
+    See Activate Virtual Agent for more information on how to activate this plugin.
 
 -   Request and install the ITSM Virtual Agent Conversations application from the [ServiceNow Store](https://store.servicenow.com/).
 -   Request and install the ITSM NLU Model for Virtual Agent Conversations application from the [ServiceNow Store](https://store.servicenow.com/).
--   Enable automatic allocation of your software by setting the workflow of the corresponding software catalog items to **Procurement Process Flow - Auto allocation enabled**. See [Create or edit a catalog item](https://www.servicenow.com/docs/access?context=t_DefineACatalogItem&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information on how to set the workflow for a software catalog item.
+-   Enable automatic allocation of your software by setting the workflow of the corresponding software catalog items to **Procurement Process Flow - Auto allocation enabled**. See Create or edit a catalog item for more information on how to set the workflow for a software catalog item.
 
 ## Software request flow on Virtual Agent
 
@@ -48,7 +48,7 @@ If the corresponding software entitlements contain enough active rights and allo
 
 If the corresponding software entitlements do not contain enough active rights and allocations to fulfill the request, you must source the required rights manually. After you source those rights, Virtual Agent automatically allocates them to the specified user or device. The user is then provided with instructions to download and install the software.
 
-**Important:** Software can be requested and allocated using this same flow in the ServiceNow® Service Catalog and Employee Center. See [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information on the Service Catalog. See [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more information on the Employee Center.
+**Important:** Software can be requested and allocated using this same flow in the ServiceNow® Service Catalog and Employee Center. See Service Catalog for more information on the Service Catalog. See Employee Center for more information on the Employee Center.
 
 **Parent Topic:**[Exploring Software Asset Management](explore-sam-workspace.md)
 

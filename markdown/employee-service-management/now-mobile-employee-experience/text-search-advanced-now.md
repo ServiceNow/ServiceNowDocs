@@ -19,8 +19,8 @@ The mobile platform supports two search engines within applet launchers: AI Sear
 
 AI Search uses user data sources \(people\), catalog items \(services\), and knowledge articles. The Zing search engine uses additional data sources not associated with AI Search, for example, user tasks and requests.
 
--   For more information on AI Search configuration, see [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   For more information about Zing configuration, see [Global search for mobile](https://www.servicenow.com/docs/access?context=mobile-search-config&version=australia&pubname=australia-mobile&ft:locale=en-US).
+-   For more information on AI Search configuration, see AI Search.
+-   For more information about Zing configuration, see Global search for mobile.
 
 **Note:** You cannot simultaneously use both AI Search and Zing search engines within the same search field. However, you can configure individual applet launchers to host a different search engine per applet. For more information, see [Add AI Search to a launcher screen](../task/aisearch-add-applet-launcher.md).
 

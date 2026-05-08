@@ -19,7 +19,7 @@ Add list or list categories to modify the list menu for Coaching with Learning i
 
 **Important:** This feature is available with the Workforce Optimization for HR Configurable Workspace from the ServiceNow Store. To enable this feature, see [Activate Workforce Optimization for HR](../concept/activate-wfo-hr.md).
 
-Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see [Set map application scope](https://www.servicenow.com/docs/access?context=set-map-application-scope&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Set the map application scope to **Coaching With Learning**. For information on how to set the scope, see Set map application scope.
 
 Role required: sn\_hr\_wfo.admin
 

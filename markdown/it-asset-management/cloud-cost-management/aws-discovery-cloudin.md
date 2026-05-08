@@ -17,20 +17,20 @@ Select the service accounts to discover, the credentials for accessing the accou
 
 ## Initial set up from the home page
 
-**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. You skip this configuration operation if you use a different method such as Service Graph Connector to discover resources. For more information about this method, see [Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-available&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Important:** This configuration process applies only if you use the Discovery application to discover cloud resources. You skip this configuration operation if you use a different method such as Service Graph Connector to discover resources. For more information about this method, see Service Graph Connectors.
 
 During initial installation, on the home page, when you select the **Set up Discovery Schedule** button in the Configure and Run Discovery section, the Discover Schedules form opens. For detailed instructions for different cloud providers, see:
 
--   [AWS events-driven discovery](https://www.servicenow.com/docs/access?context=aws-events-driven-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) or [AWS SSM discovery](https://www.servicenow.com/docs/access?context=aws-ssm-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Azure Cloud Discovery](https://www.servicenow.com/docs/access?context=azure-cloud-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
--   [Google Cloud Platform Discovery](https://www.servicenow.com/docs/access?context=google-gcp-discovery-pattern&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+-   AWS events-driven discovery or AWS SSM discovery
+-   Azure Cloud Discovery
+-   Google Cloud Platform Discovery
 
 ## About Cloud Discovery
 
-The Cloud Discovery plugin includes the necessary components from Cloud Provisioning and Governance to perform Cloud Discovery. For more information, see [Cloud Discovery](https://www.servicenow.com/docs/access?context=cloud-discovery-wizard&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+The Cloud Discovery plugin includes the necessary components from Cloud Provisioning and Governance to perform Cloud Discovery. For more information, see Cloud Discovery.
 
 **Related topics**  
 
 
-[Discovery basics](https://www.servicenow.com/docs/access?context=c_GetStartedWithDiscovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.c_GetStartedWithDiscovery]
 

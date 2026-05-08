@@ -35,7 +35,7 @@ Discovery collects information about storage area networks \(SAN\) and network-a
 -   One or more CIM server per storage vendor.
 -   NAS and SAN systems from major vendors such as EMC, Hitachi, HP, and NetApp. SAN storage devices must use FC.
 -   FC switches from major vendors such as Brocade and Cisco.
--   The [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) must be available for SMI-S configuration. The CIM credentials can be different than the credentials for the system hosting the CIM server.
+-   The CIM credentials must be available for SMI-S configuration. The CIM credentials can be different than the credentials for the system hosting the CIM server.
 -   Ensure that SMI-S is enabled for your storage product.
 -   Ensure the connectivity between the MID Server and CIM server.
 -   New CIM credentials need to be configured in the instance. CIM server credentials could be different from the system hosting the prerequisite CIM server.

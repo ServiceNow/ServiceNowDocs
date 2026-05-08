@@ -22,7 +22,7 @@ Guide end users through a playbook, step-by-step.
 
 ## About this task
 
-Guide end users through a playbook, one activity at a time. If you have a lot of end users encountering issues in a particular area, and you want to walk them through a series of questions that lead to a particular Instruction activity to complete work \(or even KB activity for final instruction\), consider using the **Guided** activity view. There are out-of-the-box playbooks that use the **Guided** activity view for employee self-service requests, such as time off or benefit requests, available through the [Employee Center](https://www.servicenow.com/docs/access?context=employee-center-landing-page&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+Guide end users through a playbook, one activity at a time. If you have a lot of end users encountering issues in a particular area, and you want to walk them through a series of questions that lead to a particular Instruction activity to complete work \(or even KB activity for final instruction\), consider using the **Guided** activity view. There are out-of-the-box playbooks that use the **Guided** activity view for employee self-service requests, such as time off or benefit requests, available through the Employee Center.
 
 **Note:**
 

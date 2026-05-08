@@ -24,7 +24,7 @@ The Portfolio level includes the following tabs:
 
 The **Board** tab enables you to track all the epics of your portfolio in a single view. Board is built on visual task boards, which transform the navigation of lists and forms into an interactive graphical experience. The visual task board interface provides a graphic-rich environment for managing and collaborating.
 
-In addition, you can move an epic from one lane to another, which in turn updates the state of the epic. To learn more about the actions that can be performed in the board, see [Visual Task Boards](https://www.servicenow.com/docs/access?context=c_VisualTaskBoards&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+In addition, you can move an epic from one lane to another, which in turn updates the state of the epic. To learn more about the actions that can be performed in the board, see Visual Task Boards.
 
 ## Backlog
 

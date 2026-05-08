@@ -35,5 +35,5 @@ Ensure that the Customer Service with Service Portfolio Management \(SPM\) plugi
 **Related topics**  
 
 
-[Create a service offering](https://www.servicenow.com/docs/access?context=create-or-mod-SPM2-service-offerings&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.create-or-mod-SPM2-service-offerings]
 

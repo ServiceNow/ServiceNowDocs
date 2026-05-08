@@ -68,7 +68,7 @@ You need permission to upload custom apps in Microsoft Teams. To learn how to en
 
 ## What to do next
 
-You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see [these instructions for using a self-configured bot](https://www.servicenow.com/docs/access?context=download-manifest-file-mt&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) with ServiceNow for Microsoft Teams.
+You have successfully integrated Virtual Agent with Microsoft Teams using the self-configured method. If you are interested in getting additional ITSM and HR capabilities in Microsoft Teams, see these instructions for using a self-configured bot with ServiceNow for Microsoft Teams.
 
 **Parent Topic:**[Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](../concept/va-integ-msteams-gcch.md)
 

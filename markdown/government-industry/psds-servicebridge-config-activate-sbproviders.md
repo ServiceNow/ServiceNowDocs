@@ -43,7 +43,7 @@ Set up a new provider record.
 
 </td><td>
 
-See [Set up a Service Exchange provider record](https://www.servicenow.com/docs/access?context=service-bridge-v2-new-provider&version=australia&pubname=australia-service-exchange&ft:locale=en-US).**Note:** If a new Company record has not yet been created, navigate to **User Administration** &gt; **Companies** and select **New**. Enter the Company details, then select **Submit**.
+See Set up a Service Exchange provider record.**Note:** If a new Company record has not yet been created, navigate to **User Administration** &gt; **Companies** and select **New**. Enter the Company details, then select **Submit**.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Assign Service Exchange roles for providers.
 
 </td><td>
 
-See [User roles for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-personas&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See User roles for providers.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,7 @@ Create catalog personas.
 
 </td><td>
 
-See [Create catalog personas](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-catalog-persona&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See Create catalog personas.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Create remote choice definitions.
 
 </td><td>
 
-See [Create remote choice definitions in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-choice-fld-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US)
+See Create remote choice definitions in Service Exchange for Providers
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Create remote catalog items.
 
 </td><td>
 
-See [Create remote catalogs in Service Exchange for providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-remote-catalog&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See Create remote catalogs in Service Exchange for providers.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Create remote task definitions.
 
 </td><td>
 
-See [Create a remote task definition in Service Exchange for Providers](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-remote-tasks-defs&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See Create a remote task definition in Service Exchange for Providers.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Create transforms.
 
 </td><td>
 
-See [Create a transform in Service Exchange](https://www.servicenow.com/docs/access?context=service-bridge-v2-create-transform&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See Create a transform in Service Exchange.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Update Authorized Users settings.
 
 </td><td>
 
-See [Update settings for authorized users](https://www.servicenow.com/docs/access?context=service-bridge-v2-configure-settings&version=australia&pubname=australia-service-exchange&ft:locale=en-US).
+See Update settings for authorized users.
 
 </td></tr></tbody>
 </table>

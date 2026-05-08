@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Credentials**
 
-    Configure [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US) or \(optionally\) [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Configure SNMP credentials or \(optionally\) SSH credentials.
 
 -   **Discovery and Service Mapping Patterns application**
 

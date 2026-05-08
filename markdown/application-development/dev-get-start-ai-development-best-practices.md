@@ -42,7 +42,7 @@ Regardless of which AI tool you use, be sure to review AI-generated output befor
 
 See the following additional resources for more information about prompting AI.
 
--   [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://www.servicenow.com/docs/access?context=llm-instruction-guidelines&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+-   General guidelines for writing instructions for generative AI large language models \(LLMs\)
 -   [General guidelines for using app generation](../../now-assist-app-gen/concept/sns-app-gen-guidelines.md)
 -   [Now Assist for Creator skill and prompting guides](https://www.servicenow.com/community/now-assist-for-creator-articles/now-assist-for-creator-skill-and-prompting-guides/ta-p/3125858)
 

@@ -53,7 +53,7 @@ MID Server
 
 </td><td>
 
-Select a MID Server. **Warning:** Warning: Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to [Credential aliases for Discovery](https://www.servicenow.com/docs/access?context=discovery-credential-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Select a MID Server. **Warning:** Warning: Make sure that your IP address is accessible to the MID Server you’re using. If it doesn’t, you have to Credential aliases for Discovery.
 
 </td></tr><tr><td>
 

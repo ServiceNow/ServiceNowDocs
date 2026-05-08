@@ -25,7 +25,7 @@ Service delegation options are available, like limiting a delegation to specific
 -   Limiting records to only approvals.
 -   Limiting records to only task assignments.
 
-**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via Advanced Work Assignment.
 
 ## Terms
 
@@ -44,11 +44,11 @@ For more information on how user criteria filters delegations for delegators and
 For information on HR criteria and user criteria, see:
 
 -   [HR criteria](../../../human-resources/concept/hr-criteria.md#)
--   [User criteria for Service Portal](https://www.servicenow.com/docs/access?context=user-criteria&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   User criteria for Service Portal
 
 -   **Access control rules \(ACLs\)**
 
-    Access control rules \(ACLs\) in HR Service Delivery were modified to look for the Assigned to person on an HR task. Other domains that want to use Granular Delegation must modify their ACLs to use this feature. For more information about ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    Access control rules \(ACLs\) in HR Service Delivery were modified to look for the Assigned to person on an HR task. Other domains that want to use Granular Delegation must modify their ACLs to use this feature. For more information about ACLs, see Access control list rules.
 
 -   **Rule-based and ad-hoc delegations**
 
@@ -59,7 +59,7 @@ For information on HR criteria and user criteria, see:
 
 ## Additional resources
 
--   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://www.servicenow.com/docs/access?context=hr-service-delivery-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the HR Service Delivery release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

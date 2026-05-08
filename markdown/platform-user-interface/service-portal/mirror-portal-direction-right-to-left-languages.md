@@ -17,7 +17,7 @@ Mirror the direction of a portal's user interface for right-to-left languages by
 
 ## Before you begin
 
-Active a right-to-left language, such as Hebrew. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Active a right-to-left language, such as Hebrew. For more information, see Activate a language.
 
 Role required: sp\_admin or admin
 

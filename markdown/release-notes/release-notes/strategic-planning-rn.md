@@ -21,7 +21,7 @@ The ServiceNow® Strategic Planning application helps you accomplish end-to-end 
 -   Consistent financial reporting across all baselines by support of investment currency on migrated financial baselines.
 -   Simplified user experience and focus on investment level financials view on investment currency fields for new customers. Complete and accurate currency data in all financial baselines for existing customers are now upgraded to include investment currency values.
 
-See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See Strategic Planning for more information.
 
 **Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -31,39 +31,39 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
 
     Automatically evaluate epic health across six risk dimensions using the Epic status assessment skill in Enterprise Agile Planning. Now Assist analyzes story health, blocked stories, dependencies, progress, timeline, and ownership to return a red, yellow, or green status with plain-English reasoning. Portfolio managers can quickly assess epic risks without manually reviewing stories, timelines, and assignments by selecting the **Epic status** button on the epic record page.
 
--   **[AI-generated insights for portfolio plans](https://www.servicenow.com/docs/access?context=view-portfolio-insights&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **AI-generated insights for portfolio plans**
 
     Gain AI-generated insights for planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
 
     Users with the sn\_align\_core.apw\_admin role assigned can configure severity scoring for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
--   **[Story generation for epics in Agile Development 2.0 and EAP](https://www.servicenow.com/docs/access?context=generate-stories-quickly-for-eap-and-agile-2-0&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Story generation for epics in Agile Development 2.0 and EAP**
 
     Generate a complete user story, including title, description, and acceptance criteria, directly from an epic instead of creating one. By providing one or two lines of context, you can generate a story and edit inline before saving. This skill is available in both Agile Development 2.0 and EAP.
 
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Next Experience for Demand Management**
 
     Next Experience for Demand Management delivers a unified experience for managing strategic and operational demands in Strategic Planning. This Next Experience interface consolidates demand creation, assessment, collaboration, and conversion in one place, eliminating context switching and reducing reliance on the classic Demand Workbench.
 
--   **[Create and manage demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-demands-dmnd-wpc&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Create and manage demands in Next Experience for Demand Management**
     -   Create and manage a demand in Next Experience for Demand Management using guided tabs that help you define alignment, estimate costs, and confirm readiness as you build out the demand.
     -   Collaborate on demands through Docs, with execution and planning synced.
     -   View, add, and edit cost plans and budgeting details using related lists.
--   **[Use Playbooks in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-playbooks-in-dw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Use Playbooks in Next Experience for Demand Management**
 
     Help teams manage demands with greater structure and consistency using Playbook in Next Experience for Demand Management.
 
     Playbooks enable you to define multiple governance processes across the organization using a low‑code/no‑code configuration experience. Create clear stages and guided activities from demand intake to completion by using a default playbook or creating a custom playbook to support your organization’s multiple demand management processes.
 
--   **[Associate AI systems with demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-playbooks-in-dw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Associate AI systems with demands in Next Experience for Demand Management**
 
     Use a playbook activity in Next Experience for Demand Management to associate AI systems with a demand. You can link impacted systems and add new ones directly within the demand workflow.
 
--   **[Summarize demands with demand summarization skill](https://www.servicenow.com/docs/access?context=summarize-demand-in-demand-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Summarize demands with demand summarization skill**
 
     Generate a concise, structured summary of any demand using the demand summarization skill through the **Summarize** button in the demand form. The skill reviews the demand fields and helps create a clear summary of the demand.
 
--   **[Strategy and Goals](https://www.servicenow.com/docs/access?context=strategy-goals-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Strategy and Goals**
 
     Use boards in Strategy and Goals to organize and manage your organization’s strategic priorities and objectives. A board is a collection of strategic plans, priorities, objectives, and key results based on your selected filter criteria—helping you stay focused and manage them effectively.
 
@@ -78,31 +78,31 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
         -   As the goal or process owner, send notifications to target owners or contributors to ensure timely updates of target actuals.
         -   Target owners and contributors receive reminder notifications for check-in updates before the due date.
         -   With Now Assist for Strategic Portfolio Management \(SPM\), generate measurable targets for your goals to reduce the effort of defining clear success criteria, and gain actionable insights to identify at‑risk goals, assess forecasted status, and act on AI‑driven recommendations.
--   **[AI-generated insights for goals](https://www.servicenow.com/docs/access?context=generate-insights-for-goal&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **AI-generated insights for goals**
     -   Generate AI‑powered insights using the goal insights skill to gain predictive, actionable visibility into goal health. By analyzing the goal, goal targets, subgoals, and aligned work, the system delivers data‑driven insights that help goal owners and contributors manage risks proactively and improve goal outcomes. Insights include AI-forecasted status, confidence of achieving the goal, targets at risk, and aligned work or recommendations that have been delayed or stalled.
     -   View the AI-forecasted status for goals and targets in the grid, generated automatically via the Goal insights generation scheduled job, along with the rationale for the generated status.
     -   Configure run frequency and set of goals to run the Goal insights generation scheduled job as need. The job is inactive by default.
--   **[Portfolio plan goals enhancements](https://www.servicenow.com/docs/access?context=managing-goals-in-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Portfolio plan goals enhancements**
     -   Owners and contributors are notified when they’re mentioned in a goal, target, or when comments are added.
     -   Define targets across multiple organizational levels with the Assigned entity field in the target form. This enables targets created at higher levels \(for example, Company\) to be directly assigned to lower levels \(for example, Business Unit, Department\), eliminating redundant subgoal creation, and streamlining overall goal management.
--   **[Portfolio plan enhancements](https://www.servicenow.com/docs/access?context=create-portfolio-plans-in-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Portfolio plan enhancements**
     -   Visualize planning items in lanes with the new Kanban tab in the Planning page and access the Hierarchy tab directly from the same location. These tabs replace the previous access point in the Prioritization tab, offering a more streamlined way to view and manage planning items.
     -   Save filter views specific to the Kanban tab and the Hierarchy tab without affecting views in the Prioritization tab.
     -   View planning items in the new Hierarchy tab on the Planning page, now sorted using global rank when available. Drag and drop is supported for lowest‑level items, enabling you to rerank them within their groups.
     -   Share a portfolio plan using the Copy link option. This provides access to existing users who have access to the portfolio plan.
     -   Expand or collapse portfolio plan header to maximize screen space while planning.
     -   Edit the default view within a portfolio plan and save changes using the Save view option.
--   **[Hierarchy tab for EAP teams](https://www.servicenow.com/docs/access?context=eap-hierarchy-tab&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Hierarchy tab for EAP teams**
 
     Gain visibility into how your work connects to broader organizational goals by viewing the complete work item hierarchy directly in the EAP workspace. Expand any epic to see its capabilities, features, and stories across Solution Trains, ARTs, and Agile Teams without switching between multiple screens or running separate reports.
 
     Customize your view by selecting which columns appear in the hierarchy grid and adjusting column widths to match your workflow. Your column preferences persist across sessions, so your configured view is ready each time you return.
 
--   **[Open EAP work items in new browser tab](https://www.servicenow.com/docs/access?context=using-eap&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Open EAP work items in new browser tab**
 
     Open work items from the EAP Backlog and Hierarchy pages in a new browser tab, so you never lose your context. Right-click any work item, or use the item options menu, to open its full details in a separate tab. This feature lets you review and compare multiple work items side by side without losing your current view.
 
--   **[Admin role enhancements in Feedback](https://www.servicenow.com/docs/access?context=components-installed-with-product-feedback&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Admin role enhancements in Feedback**
 
     The read role sn\_align\_core.pf\_read and write role sn\_align\_core.apw\_admin are added to the following system properties in Feedback and Product idea:
 
@@ -110,7 +110,7 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
     -   sn\_apw\_advanced.product\_feedback\_product\_idea\_filters
     -   sn\_apw\_advanced.product\_feedback\_feedback\_filters
     -   sn\_apw\_advanced.feedback.idea\_feedback\_queue\_address
--   **[Financials for planning items](https://www.servicenow.com/docs/access?context=using-financials-spw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Financials for planning items**
     -   Migration of financial baselines:
         -   Migrate the financial baselines of projects, which includes investment currency support.
         -   While migration, financial baselines will now include actuals, costs, benefits, and budget values from the project currency to the investment currency.
@@ -120,7 +120,7 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
 
 ## UI changes
 
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Next Experience for Demand Management**
     -   The Demands icon ![](../../product/spw-demand/images/demands-icon.png) has been added to the Strategic Planning L1 menu to open the All Demands home page.
     -   The **State** field on the **All Demands** page has been color-coded for each state value.
     -   The **Playbook**, **Details**, and **Docs** tabs have been added to the L2 menu of each demand to clearly and consistently group information.
@@ -133,7 +133,7 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
             -   **Impacted AI systems**: Links the impacted AI systems with the demand. You can select existing AI systems from the list or remove systems that are no longer relevant.
         -   The **AI Checkpoint** stage is added to the demand default playbook. This stage includes the **Product** and **Impacted AI systems** fields.
         -   The **Create AI System** option is added to the **Details** page of a demand for users with the sn\_ai\_steward role.
--   **[Changes to Target form](https://www.servicenow.com/docs/access?context=target-form-egm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Changes to Target form**
 
     The following fields have been added to the Target form to support defining targets at multiple organizational levels.
 
@@ -146,11 +146,11 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
     -   **Value stream**
     -   **Initiative**
     -   **Strategic Program**
--   **[Changes to Strategic Priority form](https://www.servicenow.com/docs/access?context=strategic-priority-form&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Changes to Strategic Priority form**
 
     The **Status** field has been added to the Strategic Priority form, enabling you to set the status of a strategic priority as **None**, **Green**, **Yellow**, or **Red**.
 
--   **[Hierarchy and List views in Prioritization](https://www.servicenow.com/docs/access?context=managing-backlog-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Hierarchy and List views in Prioritization**
 
     The **Kanban** and **Hierarchy** views have been removed from the Prioritization page and are now available as separate tabs in the Planning page. This change improves navigation by consolidating all planning-related views in one place.
 
@@ -159,7 +159,7 @@ See [Strategic Planning](https://www.servicenow.com/docs/access?context=alignmen
 
 [Australia Patch 2](../quality/australia-patch-1.md)
 
--   **[Demand summarization skill enhancements](https://www.servicenow.com/docs/access?context=demand-summary-demand-classic&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Demand summarization skill enhancements**
 
     The demand summarization skill incorporates data from related entities when generating a summary. In addition to demand record fields, the summary includes insights from demand tasks, cost plans, monetary and non-monetary benefit plans, resource assignments, and work notes. The generated summary covers business requirements, timeline, risks, stakeholder comments, cost, effort, monetary and non-monetary benefits, and ROI.
 
@@ -170,15 +170,15 @@ Install Strategic Planning by requesting it from the ServiceNow Store. Visit the
 
 ## Related ServiceNow applications and features
 
--   **[AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **AI Control Tower**
 
     ServiceNow AI Control Tower enables you to track and monitor all your strategic priorities, goals, targets, planning items, and execution items—projects and demands categorized as Artificial Intelligence in the Strategic Planning Workspace.
 
--   **[Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Now Assist for Strategic Portfolio Management \(SPM\)**
 
     Now Assist enables you to use generative AI skills in multiple SPM apps. With Now Assist for SPM, summarize product feedback, create stories for epics, generate concise project summaries, rephrase content for docs, create demands through a conversational experience, and quickly gain insights into projects.
 
--   **[Digital Product Release Workspace](https://www.servicenow.com/docs/access?context=dpr-workspace&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **Digital Product Release Workspace**
 
     ServiceNow Digital Product Release Workspace helps product managers track the planning items associated with the product enhancements that are defined in the Strategic Planning Workspace using the Digital Product lens.
 

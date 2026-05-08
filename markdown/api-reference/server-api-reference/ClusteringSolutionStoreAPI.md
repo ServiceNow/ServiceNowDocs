@@ -168,7 +168,7 @@ String
 
 </td><td>
 
-Optional. Name of the domain for your solution object. Refer to [Domain separation and Predictive Intelligence](https://www.servicenow.com/docs/access?context=domain-separation-predictive-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Optional. Name of the domain for your solution object. Refer to Domain separation and Predictive Intelligence.
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ String
 
 </td><td>
 
-Optional. Name of an [application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US) for your solution object.
+Optional. Name of an application scope for your solution object.
 
 </td></tr></tbody>
 </table>|Type|Description|

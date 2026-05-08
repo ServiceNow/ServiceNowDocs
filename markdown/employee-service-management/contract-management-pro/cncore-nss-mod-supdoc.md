@@ -27,15 +27,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 3.  Modify the supporting documents.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d676710e67">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d676723e67">
 
 Action
 
-</th><th align="left" id="d676710e70">
+</th><th align="left" id="d676723e70">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d676710e76">
+</th></tr></thead><tbody><tr><td id="d676723e76">
 
 **Add supporting documents**
 
@@ -43,7 +43,7 @@ Steps
 
 [Add supporting documents to the contract request](cncore-ss-add-suprt-doc.md)
 
-</td></tr><tr><td id="d676710e90">
+</td></tr><tr><td id="d676723e90">
 
 **Reclassify supporting documents**
 
@@ -51,7 +51,7 @@ Steps
 
 [Reclassify supporting documents in the contract request](cncore-nss-reclassify-supdoc.md)
 
-</td></tr><tr><td id="d676710e104">
+</td></tr><tr><td id="d676723e104">
 
 **Remove the supporting document**
 

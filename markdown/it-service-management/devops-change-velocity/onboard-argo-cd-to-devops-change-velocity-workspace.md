@@ -25,15 +25,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Argo CD.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d440140e80">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d440109e80">
 
 Option
 
-</th><th align="left" id="d440140e83">
+</th><th align="left" id="d440109e83">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d440140e89">
+</th></tr></thead><tbody><tr><td id="d440109e89">
 
 **Homepage**
 
@@ -43,7 +43,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d440140e113">
+</td></tr><tr><td id="d440109e113">
 
 **Applications module**
 
@@ -55,7 +55,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Argo CD from the **Orchestration** category.
 
 
-</td></tr><tr><td id="d440140e159">
+</td></tr><tr><td id="d440109e159">
 
 **Tools module**
 
@@ -82,7 +82,7 @@ Steps
 
     3.  Select the MID Server option and enter its details if your Argo CD instance is attached to a MID Server.
 
-        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://www.servicenow.com/docs/access?context=c_MIDServerSelector&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see MID Server selection.
 
     ![Enter Argo CD instance details playbook activity](../image/argocd-6.png)
 

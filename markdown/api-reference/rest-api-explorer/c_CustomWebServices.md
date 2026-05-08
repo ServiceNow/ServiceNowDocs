@@ -35,7 +35,7 @@ Scripted REST API URIs have the following format:
 In this URI:
 
 -   **&lt;instance.service-now.com&gt;**: Path to the ServiceNow instance where users access the scripted REST API.
--   **&lt;name\_space&gt;**: For web services in the global scope, the name space is the value of the property **glide.appcreator.company.code**. For web services in a scoped application, the name space is the scope name, such as x\_company\_appname. For additional information on name spaces, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   **&lt;name\_space&gt;**: For web services in the global scope, the name space is the value of the property **glide.appcreator.company.code**. For web services in a scoped application, the name space is the scope name, such as x\_company\_appname. For additional information on name spaces, see Application scope.
 -   **&lt;version&gt;**: Optional. Version of the endpoint to access if the API uses versioning, such as **v1**. You can access the default version of a versioned API by specifying the URI without a version number.
 -   **&lt;api\_id&gt;**: Value of the **API ID** field on the Scripted REST Service form. By default this value is based on the service name.
 -   **&lt;relative\_path&gt;**: Relative path defined for the resource in the Scripted REST Service form. Specifying a relative resource path allows you to have multiple resources using the same HTTP method, such as GET, in one web service. For example, a resource may specify the path `/{id}` when the web service has only one GET resource, or `/user/{id}` and `/message/{id}` when the web service has different resources for requesting user and message records.
@@ -78,7 +78,7 @@ By default, all resources in an API support the following request and response f
 
 You can configure your scripted REST APIs with the necessary level of security. From public APIs/endpoints that don't require any security to highly secure APIs/endpoints that require user authentication with tight access control to all resources.
 
-Use the API access policy feature to control the authentication method for the APIs. For more information, see [API access policy](https://www.servicenow.com/docs/access?context=api-access-policy&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Use the API access policy feature to control the authentication method for the APIs. For more information, see API access policy.
 
 ## Scripted REST API access controls
 
@@ -86,7 +86,7 @@ Access control lists \(ACLs\) define criteria, such as the roles needed and cond
 
 When defining a scripted REST API ACL, it must have the **Type** value **REST\_Endpoint**.
 
-For additional information on ACLs, see [Access control list rules](https://www.servicenow.com/docs/access?context=access-control-rules&version=australia&pubname=australia-platform-security&ft:locale=en-US) and [Configure a scripted REST API resource to require an ACL](../task/t_WbSvcOpRqACL.md).
+For additional information on ACLs, see Access control list rules and [Configure a scripted REST API resource to require an ACL](../task/t_WbSvcOpRqACL.md).
 
 ## Scripted REST API security matrix
 
@@ -126,7 +126,7 @@ The numeric status code, such as 404, is included in the response Status code he
 
 ## Automated Test Framework support
 
-The [Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US) \(ATF\) supports Inbound REST test steps. You can create automated tests for custom Inbound REST APIs that you create. Creating tests for your custom REST APIs simplifies upgrade testing, and makes it possible to verify that modifications to a REST API are backward compatible. See [Administering REST test step configurations](https://www.servicenow.com/docs/access?context=atf-administer-rest&version=australia&pubname=australia-application-development&ft:locale=en-US) and [ATF REST test step configurations](https://www.servicenow.com/docs/access?context=rest-test-steps&version=australia&pubname=australia-application-development&ft:locale=en-US).
+The Automated Test Framework \(ATF\) supports Inbound REST test steps. You can create automated tests for custom Inbound REST APIs that you create. Creating tests for your custom REST APIs simplifies upgrade testing, and makes it possible to verify that modifications to a REST API are backward compatible. See Administering REST test step configurations and ATF REST test step configurations.
 
 ## Developer training
 

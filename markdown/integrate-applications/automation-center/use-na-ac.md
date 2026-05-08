@@ -15,7 +15,7 @@ breadcrumb: [Use, Now Assist for Automation Center, Use, Automation Center, Work
 
 Use Now Assist for Automation Center to create an automation request from the Task Mining workspace.
 
-With the Now Assist for Automation Center plugin, you can create automation requests directly from the Task Mining Workspace. To use this feature, you must also activate the User Task Summarization skill. For information about creating an automation request from Task Mining workspace, see [Integration with Automation Center](https://www.servicenow.com/docs/access?context=integration-with-automation-center&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+With the Now Assist for Automation Center plugin, you can create automation requests directly from the Task Mining Workspace. To use this feature, you must also activate the User Task Summarization skill. For information about creating an automation request from Task Mining workspace, see Integration with Automation Center.
 
 **Parent Topic:**[Using Now Assist for Automation Center](use-now-assist.md)
 

@@ -42,7 +42,7 @@ For more information, see:
 
 3.  Click **Activate/Repair**.
 
-    If the OAuth 2.0 plugin is not already active, the WebKit HTML To PDF plugin activates it as well. For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    If the OAuth 2.0 plugin is not already active, the WebKit HTML To PDF plugin activates it as well. For more information, see Activate a plugin.
 
 
 ## Result

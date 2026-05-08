@@ -524,7 +524,7 @@ Performs one or more activities on an active Notify phone call.
 
 Use this method to change the behavior of a call. For example, transferring a call, playing audio, or forcing a hangup.
 
-**Note:** The scoped implementation of this method only supports custom Notify activities. Unlike the global implementation, it does not provide a NotifyAction API. For details on how to create a custom Notify activity, see [Notify workflow activities](https://www.servicenow.com/docs/access?context=c_NotifyActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Note:** The scoped implementation of this method only supports custom Notify activities. Unlike the global implementation, it does not provide a NotifyAction API. For details on how to create a custom Notify activity, see Notify workflow activities.
 
 |Name|Type|Description|
 |----|----|-----------|

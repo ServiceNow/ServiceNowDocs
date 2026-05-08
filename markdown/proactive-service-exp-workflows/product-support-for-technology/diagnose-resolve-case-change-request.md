@@ -60,7 +60,7 @@ The change request progresses through several stages from start to closure. It b
 
 6.  Diagnose the change request to identify the root-cause of the problem.
 
-    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see [Decision Tables](https://www.servicenow.com/docs/access?context=decision-table&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    The decision table can be configured to control the visibility of the Diagnose and Run Diagnostics contextual panel tabs. For more information about decision tables, see Decision Tables.
 
     1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
@@ -68,11 +68,11 @@ The change request progresses through several stages from start to closure. It b
 
         The drop-down list shows the configuration item and Affected CIs.
 
-        To set up test definitions, see [Setting up test definitions](https://www.servicenow.com/docs/access?context=settingup-test-specifications&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+        To set up test definitions, see Setting up test definitions.
 
     3.  Expand the cards in the **Available test suite**.
 
-        To set up test group, see [Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US).
+        To set up test group, see Setting up a test group.
 
     4.  In the manual test, select single/multiple tests.
 

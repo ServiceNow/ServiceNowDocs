@@ -41,7 +41,7 @@ Configure the foundation data to provide legal request services to employees who
 
     Also, for chat response templates, you can specify a short name that can be used as a shortcut with the slash command to present the response message to a user quickly.
 
-6.  [Email notifications](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) Create or modify email notifications that are sent when specific events occur. Some possible event triggers might be: When a request is assigned to a legal department member to work on, a request is closed or canceled, or a message is posted to get additional information.
+6.  Email notifications Create or modify email notifications that are sent when specific events occur. Some possible event triggers might be: When a request is assigned to a legal department member to work on, a request is closed or canceled, or a message is posted to get additional information.
 
     New email notification templates are available for Legal Service Delivery applications from Legal Request Management 4.2.2 version onwards when you also have the Employee Center installed. You can differentiate them from the existing ones by the **EC:** prefix in their names.
 
@@ -61,7 +61,7 @@ Configure the foundation data to provide legal request services to employees who
         -   For legal fulfillers, the link in the email opens the record form in the Legal Counsel Center.
 7.  [Legal dispositions of legal request or legal matter](../reference/installed-with-legal-request-management.md)
 
-    Add the Legal Disposition \[sn\_lg\_ops\_legal\_disposition\] table, which stores dispositions from legal requests and legal matters, as a related list to any Legal Request or Legal Matter form. For more information on adding a related list on a form, see [Add a related list to a form](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    Add the Legal Disposition \[sn\_lg\_ops\_legal\_disposition\] table, which stores dispositions from legal requests and legal matters, as a related list to any Legal Request or Legal Matter form. For more information on adding a related list on a form, see Add a related list to a form.
 
 
 -   **[Install Legal Request Management](../task/install-legal-request-management.md)**  

@@ -38,7 +38,7 @@ The self-service process is a typical process that you might follow to reset you
 
 Some organizations auto-enroll users in a Password Reset program. Your organization could offer end users the option to enroll for one or more methods of verifying your identity when resetting the password. End users can enroll for most Password Reset programs on a mobile device.
 
-**Note:** By default, the dark theme doesn't apply to the Password Reset Enrollment form. Users can change the theme to the dark theme. For more information about the dark theme, see [Exploring themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+**Note:** By default, the dark theme doesn't apply to the Password Reset Enrollment form. Users can change the theme to the dark theme. For more information about the dark theme, see Exploring themes in Next Experience.
 
 End users might enroll for any combination of the following methods:
 

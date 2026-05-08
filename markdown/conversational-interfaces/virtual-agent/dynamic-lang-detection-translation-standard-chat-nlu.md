@@ -43,7 +43,7 @@ The default system language sets all users’ default session language. That us
 
 The following examples show how a conversational language can be impacted depending upon the language detection and dynamic translation settings:
 
-**Note:** If you create exclusion rules for Dynamic Translation, those excluded terms are honored during Dynamic Translation. For more information about the Exclusion Framework, see [Exclusion Framework in Dynamic Translation](https://www.servicenow.com/docs/access?context=dyn-translation-exclusion-framework&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If you create exclusion rules for Dynamic Translation, those excluded terms are honored during Dynamic Translation. For more information about the Exclusion Framework, see Exclusion Framework in Dynamic Translation.
 
 <table id="table_r24_xr4_ftb"><thead><tr><th>
 
@@ -103,7 +103,7 @@ The language detection and dynamic machine translation process operates accordin
 -   When the conversation has closed and restarted, the language used in the next conversation varies depending on how the user restarted the conversation. If the user restarted the conversation by reloading their browser, the preferred language is restored in the next conversation. If the user restarted the conversation by using the chat widget's restart feature, the previous conversational language is restored in the next conversation. Regardless of how a conversation has closed and restarted for NLU or LLM standard chat conversations, if a user did not accept to switch languages after a different language was detected in the previous conversation, the preferred language is restored in the next conversation.
 -   If a user's detected language is the same as the preferred language, the user is not asked to switch languages.
 -   If a user's detected language has no fallback language specified and dynamic translation is not enabled for it, the conversation continues in the preferred language.
--   If a user's detected language is not activated on the instance, the conversation continues in the preferred language. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   If a user's detected language is not activated on the instance, the conversation continues in the preferred language. For more information, see Activate a language.
 
 **Note:** AI Search results are not translated.
 
@@ -113,7 +113,7 @@ If Dynamic Translation is enabled on Virtual Agent but turned off for Agent Chat
 
 ## Supported languages
 
-For better results, install the ServiceNow language plugins for each language that uses dynamic translation. For a detailed list of language plugins, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For better results, install the ServiceNow language plugins for each language that uses dynamic translation. For a detailed list of language plugins, see Activate a language.
 
 You can enable dynamic translation for languages that are not currently supported on the ServiceNow platform. For details, see [Enable Dynamic Translation for an unsupported language](../task/enable-dt-unsupported-language.md).
 

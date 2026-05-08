@@ -24,7 +24,7 @@ Role required: virtual\_agent\_admin or admin
 
 ## About this task
 
-The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-built actionable notifications, and you can also create your own. For more information, see [Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-built actionable notifications, and you can also create your own. For more information, see Notifications.
 
 **Tip:** On the Notifications page, you can view only the actionable notifications that come with ITSM Virtual Agent Conversations by filtering the list on **Application is ITSM Virtual Agent Conversations**.
 
@@ -66,5 +66,5 @@ The ServiceNow AI Platform and ITSM Virtual Agent Conversations come with pre-bu
 **Related topics**  
 
 
-[ITSM Virtual Agent pre-built actionable notifications](https://www.servicenow.com/docs/access?context=itsm-actionable-notifications&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.itsm-actionable-notifications]
 

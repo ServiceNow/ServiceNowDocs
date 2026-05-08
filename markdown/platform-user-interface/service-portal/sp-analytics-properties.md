@@ -33,7 +33,7 @@ Use system properties to configure Usage Insights for Service Portal.
 **Related topics**  
 
 
-[Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US)
+[bundle-platadm.t_AddAPropertyUsingSysPropsList]
 
-[Unique record identifier \(sys\_id\)](https://www.servicenow.com/docs/access?context=c_UniqueRecordIdentifier&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UniqueRecordIdentifier]
 

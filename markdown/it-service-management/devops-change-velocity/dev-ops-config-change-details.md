@@ -72,7 +72,7 @@ If set to false, when the job or pipeline has completed, the change request isnâ
 Set change request field values within the pipeline for the change request template specified.
 
 -   Use the **attributes:** parameter to set field values.
--   Use the [DevOps - POST /devops/orchestration/changeControl](https://www.servicenow.com/docs/access?context=devops-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) endpoint of the DevOps API.
+-   Use the DevOps - POST /devops/orchestration/changeControl endpoint of the DevOps API.
 
 **Note:**
 

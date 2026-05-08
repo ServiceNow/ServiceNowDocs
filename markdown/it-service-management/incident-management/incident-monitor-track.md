@@ -29,13 +29,13 @@ Various incident reports are available in the base system, and you can modify th
 
 ## Incident metric definition
 
-A metric measures and evaluates the effectiveness of IT service management processes. The service desk can improve the incident management process using information gathered within the platform. You can activate the Metric Definition plugin \(com.glide.metrics\) and define the metrics to monitor within the system. With these metrics, and the information within the database, it is possible to [generate reports](https://www.servicenow.com/docs/access?context=t_CreateYourOwnReport&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) that can be [added to dashboards](https://www.servicenow.com/docs/access?context=add-report-to-dashboard&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) or [automatically generated and distributed](https://www.servicenow.com/docs/access?context=t_CreateAScheduledJob&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+A metric measures and evaluates the effectiveness of IT service management processes. The service desk can improve the incident management process using information gathered within the platform. You can activate the Metric Definition plugin \(com.glide.metrics\) and define the metrics to monitor within the system. With these metrics, and the information within the database, it is possible to generate reports that can be added to dashboards or automatically generated and distributed.
 
 Using this information, it is possible to refine automatic rules such as the assignment rules, service level agreements, or inactivity monitors to better suit the unique environment of the service desk. Unnecessary incidents can be avoided by encouraging users to consult the knowledge base before creating an incident. The related search results function in the Incident form assists with this strategy.
 
 ## Complimentary Performance Analytics for Incident Management
 
-Complimentary Performance Analytics for Incident Management and aggregates data over time, and is enabled by default for Incident Management. Complimentary Performance Analytics for Incident Management provides an Incident Management dashboard with 15 indicators to help you assess organizational performance. For more information, see [Performance Analytics for Incident Management](https://www.servicenow.com/docs/access?context=r_StUpPAInctMgmt&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Complimentary Performance Analytics for Incident Management and aggregates data over time, and is enabled by default for Incident Management. Complimentary Performance Analytics for Incident Management provides an Incident Management dashboard with 15 indicators to help you assess organizational performance. For more information, see Performance Analytics for Incident Management.
 
 A subscription to Performance Analytics also gives you access to In-form analytics. In-form analytics integrate performance insights into Incident records so that users can access important metrics in context and make better decisions.
 
@@ -49,5 +49,5 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 **Related topics**  
 
 
-[Creating reports](https://www.servicenow.com/docs/access?context=report-types-creation-details-rd&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.report-types-creation-details-rd]
 

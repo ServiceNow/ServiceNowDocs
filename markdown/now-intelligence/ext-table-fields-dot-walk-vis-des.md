@@ -28,5 +28,5 @@ Learn how to dot walk table fields in a data visualization of table data. See ho
 **Related topics**  
 
 
-[Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.dot-walking-examples]
 

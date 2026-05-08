@@ -49,7 +49,7 @@ You get the process insights and variation analysis for a parent or a child KPI.
 
 6.  Select the **Process analysis** tab and perform process insights and variation analysis.
 
-    You can analyze the process insights for the date range for which you’ve mined the data. For more information on business insights, see [View business insights](https://www.servicenow.com/docs/access?context=view-business-findings&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    You can analyze the process insights for the date range for which you’ve mined the data. For more information on business insights, see View business insights.
 
 
 **Parent Topic:**[Analyzing team performance using Teams in Workforce Optimization for ITSM](../concept/teams-workforce-optimization-configurable-wfo-itsm.md)
@@ -57,5 +57,5 @@ You get the process insights and variation analysis for a parent or a child KPI.
 **Related topics**  
 
 
-[Analyze and get process insights](https://www.servicenow.com/docs/access?context=analyze-get-process-insights&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+[bundle-par.analyze-get-process-insights]
 

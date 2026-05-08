@@ -78,7 +78,7 @@ Skills
 
 </td><td>
 
-Specific skill\(s\) that you want to associate with the plan. This field appears only when the **All members** option is selected in the **Members preference** field.For more information on skills management, see [Skills Management](https://www.servicenow.com/docs/access?context=skills-management&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Specific skill\(s\) that you want to associate with the plan. This field appears only when the **All members** option is selected in the **Members preference** field.For more information on skills management, see Skills Management.
 
 </td></tr><tr><td>
 

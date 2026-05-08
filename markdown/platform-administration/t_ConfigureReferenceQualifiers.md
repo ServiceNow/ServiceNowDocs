@@ -35,9 +35,9 @@ This task walks you through creating a reference qualifier in the [system dictio
 
 6.  Configure the qualifier based on the type of reference qualifier.
 
-    -   **Simple**: [Build the condition](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) using the choice lists.
-    -   **Dynamic**: Either select an existing dynamic filter option or [Create a dynamic filter option](https://www.servicenow.com/docs/access?context=t_DynamicFilterOptions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
-    -   **Advanced**: In the **Reference qual** field, enter an [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), JavaScript that returns a query string, or the name of a [script include](t_ExJSConstrainAssignmentGroupField.md) or [business rule](t_ExJavaScriptLimitAssignedToField.md) to run.
+    -   **Simple**: Build the condition using the choice lists.
+    -   **Dynamic**: Either select an existing dynamic filter option or Create a dynamic filter option.
+    -   **Advanced**: In the **Reference qual** field, enter an Encoded query strings, JavaScript that returns a query string, or the name of a [script include](t_ExJSConstrainAssignmentGroupField.md) or [business rule](t_ExJavaScriptLimitAssignedToField.md) to run.
 7.  Complete the **Reference Specification — Additional Customization** section, as appropriate.
 
 <table id="table_kt2_mhd_yz"><thead><tr><th>
@@ -76,7 +76,7 @@ Reference floats
 
 </td><td>
 
-Flag that determines whether to [Configure the edit option](https://www.servicenow.com/docs/access?context=t_ConfigureTheEditOption&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) for one-to-many relationships.
+Flag that determines whether to Configure the edit option for one-to-many relationships.
 
 </td></tr><tr><td>
 

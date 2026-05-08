@@ -33,5 +33,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create a knowledge base](https://www.servicenow.com/docs/access?context=create-a-knowledgebase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.create-a-knowledgebase]
 

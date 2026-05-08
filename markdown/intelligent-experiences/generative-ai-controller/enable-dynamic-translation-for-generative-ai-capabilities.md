@@ -17,7 +17,7 @@ Use Dynamic Translation to add multiple language support for generative AI capab
 
 ## Before you begin
 
-You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see [configuring Dynamic Translation](https://www.servicenow.com/docs/access?context=configuring-dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You must have the Dynamic Translation and Conversational Dynamic Translation plugins installed and enabled on your instance. For more information on setting up Dynamic Translation, see configuring Dynamic Translation.
 
 You must have a default Translation Configuration set in the Translation Configuration table \(sn\_dt\_translator\_configuration\).
 

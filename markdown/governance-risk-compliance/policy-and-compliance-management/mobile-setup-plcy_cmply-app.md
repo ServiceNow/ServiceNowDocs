@@ -86,7 +86,7 @@ As a user with the admin role, in your ServiceNow AI Platform instance verify th
 5.  Verify you have created any required assignment groups and assigned mobile users to these groups.
  **Note:** If you have multiple users for the mobile application, you alternatively can assign the sn\_compliance.manager role to a group. Each user you add to the group inherits this role.
 
- For more information on users and assigning roles to users and groups, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US), [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US), [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+ For more information on users and assigning roles to users and groups, see Create a user, Assign a role to a user, Assign a role to a group.
 
 </td></tr><tr><td>
 

@@ -148,5 +148,5 @@ Core Performance Analytics functionality
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

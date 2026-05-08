@@ -29,8 +29,6 @@ You can create announcements from scratch or from existing knowledge articles an
 
 1.  Navigate to your profile menu and select **Communications**.
 
-    Content library appears.
-
     **Note:** The Communications link appears only for users with the content manager or content administrator role.
 
 2.  Select **Create announcement** to go to the Editor page and fill in the following fields.
@@ -57,25 +55,25 @@ You can create announcements from scratch or from existing knowledge articles an
 
     2.  Create a new link.
 
-        -   Select **Create new link**.
-        -   Enter the link name and select the type: knowledge article, catalog item, or external URL.
-        -   Enter the target URL and specify whether to open in the current tab or a new tab.
-        -   Add a link label for accessibility and promotional contexts.
+        1.  Select **Create new link**.
+        2.  Enter the name and select the type: knowledge article, catalog item, or external URL.
+        3.  Enter the target URL and specify whether to open in the current tab or a new tab.
+        4.  Add a link label for accessibility and promotional contexts.
 4.  Set the **Content priority** level: Critical, High, Medium, or Low.
 
     Priority combines with content freshness to determine display order in the carousel. Higher priority values boost an announcement, but newer content with lower priority can still appear ahead of older high-priority content.
 
-5.  Configure the **Publishing** schedule by setting the start date and time and end date and time.
+5.  Set the start date and time and end date and to configure the Publishing schedule.
 
     The announcement is visible only during this time window.
 
 6.  Configure **Add audience** targeting if you need precise control beyond the user criteria from linked content.
 
-    When no audience is set, the system uses the user criteria from the linked knowledge article or catalog item.
+    **Note:** When no audience is set, the system uses the user criteria from the linked knowledge article or catalog item.
 
 7.  Select **Promote** to boost content in chat and share the announcement through the chat channels such as Microsoft Teams.
 
-    1.  Review and edit the promotional title and body text as needed.
+    1.  Review and edit the promotional title and body text.
 
     2.  Set the promotion schedule, which can be independent of the publishing window.
 

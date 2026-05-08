@@ -18,7 +18,7 @@ Turn on multilingual service for user-entered text with native translation or Dy
 
 To see a list of all available languages supported in Now Assist, see [Multilingual service for Now Assist](../../now-assist-platform/concept/translation-for-now-assist.md).
 
-To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://www.servicenow.com/docs/access?context=activate-dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see Activate Dynamic Translation and Activate a language.
 
 **Note:** Dynamic Translation is not supported in regulated markets.
 

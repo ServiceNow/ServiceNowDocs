@@ -135,7 +135,7 @@ Repeat the step to capture more screenshots, if required.
         |glide.rest.max\_content\_length|Integer|15|
         |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see [Configure system property](https://www.servicenow.com/docs/access?context=r_ControllingMaxRequestSize&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+For more information, see Configure system property
 
 **Note:** You must have the admin role to set the system properties.
 
@@ -182,7 +182,7 @@ Select **Upload** and perform any one of the following file upload methods.**Add
         |glide.rest.max\_content\_length|Integer|15|
         |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see [Configure system property](https://www.servicenow.com/docs/access?context=r_ControllingMaxRequestSize&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+For more information, see Configure system property
 
 **Note:** You must have the admin role to set the system properties.
 
@@ -201,7 +201,7 @@ For more information, see [Configure system property](https://www.servicenow.com
         |glide.rest.max\_content\_length|Integer|15|
         |glide.rest.scripted.max\_inbound\_content\_length\_mb|Integer|15|
 
-For more information, see [Configure system property](https://www.servicenow.com/docs/access?context=r_ControllingMaxRequestSize&version=australia&pubname=australia-api-reference&ft:locale=en-US)
+For more information, see Configure system property
 
 **Note:** You must have the admin role to set the system properties.
 

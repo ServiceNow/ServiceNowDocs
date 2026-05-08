@@ -78,7 +78,7 @@ When the asset state is **In stock**, the **Reserved for** field is maintained a
 
 [Create a purchase order](t_CreateAPurchaseOrder.md)
 
-[](https://www.servicenow.com/docs/access?context=workflow-editor&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.workflow-editor]
 
 [Set asset states and substates](../../asset-management/task/t_SettingAssetStatesAndSubstates.md)
 

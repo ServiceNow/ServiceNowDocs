@@ -67,15 +67,15 @@ Configure push notifications for task assignments
 
 </td><td>
 
-[Configuring push notifications for task assignment](https://www.servicenow.com/docs/access?context=push-notifications-tasks-slas&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Configuring push notifications for task assignment
 
 </td></tr><tr><td>
 
-Configure scheduled offline caching**Note:** In offline mode, reference fields are limited to a maximum of 1,000 records. If the referenced dataset exceeds this limit, only the first 1,000 records are available, which may impact data completeness and look-up functionality. For more details, see [Reference field attributes for input form screens in offline mode](https://www.servicenow.com/docs/access?context=reference-fields-offline-attributes&version=australia&pubname=australia-mobile&ft:locale=en-US).
+Configure scheduled offline caching**Note:** In offline mode, reference fields are limited to a maximum of 1,000 records. If the referenced dataset exceeds this limit, only the first 1,000 records are available, which may impact data completeness and look-up functionality. For more details, see Reference field attributes for input form screens in offline mode.
 
 </td><td>
 
-[Configure scheduled offline caching](https://www.servicenow.com/docs/access?context=configure-scheduled-offline-caching&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Configure scheduled offline caching
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Configure the recently closed work order tasks list
 
 </td><td>
 
-[Configure the recently closed work order tasks list](https://www.servicenow.com/docs/access?context=configure-recently-closed-di&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Configure the recently closed work order tasks list
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Configure special handling notes
 
 </td><td>
 
-[Configure special handling notes for the Now Mobile Agent application](https://www.servicenow.com/docs/access?context=configure-shn-fsm-mobile&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Configure special handling notes for the Now Mobile Agent application
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Enable chat
 
 </td><td>
 
-[Enable chat in the Now Mobile Agent application](https://www.servicenow.com/docs/access?context=enable-chat-in-fsm-mobile&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Enable chat in the Now Mobile Agent application
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Location tracking
 
 </td><td>
 
-[Location tracking for mobile](https://www.servicenow.com/docs/access?context=mobile-location-tracking&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Location tracking for mobile
 
 </td></tr><tr><td>
 
@@ -115,7 +115,7 @@ Enable dark theme
 
 </td><td>
 
-[Enable dark theme in the Now Mobile Agent application](https://www.servicenow.com/docs/access?context=dark-theme-mobile&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+Enable dark theme in the Now Mobile Agent application
 
 </td></tr></tbody>
 </table>

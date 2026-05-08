@@ -36,8 +36,8 @@ The Collaboration Services store app version 2.0.x is compatible with all the re
 
 -   Incident Management \(com.snc.incident\)
 -   Collaboration Services plugin \(sn\_tcm\_collab\_hook\) version 2.0.x
--   [Slack Spoke for ServiceNow IntegrationHub](https://www.servicenow.com/docs/access?context=slack-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) plugin \(com.sn.slack.ahv2\) version 1.3.x and the necessary Integration Hub license to use Slack as a collaboration channel.
+-   Slack Spoke for ServiceNow IntegrationHub plugin \(com.sn.slack.ahv2\) version 1.3.x and the necessary Integration Hub license to use Slack as a collaboration channel.
 
-    **Note:** The Slack spoke requires creating a custom app on your Slack account to generate OAuth 2.0 tokens for the Slack spoke. For more information, refer [Set up Slack spoke](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    **Note:** The Slack spoke requires creating a custom app on your Slack account to generate OAuth 2.0 tokens for the Slack spoke. For more information, refer Set up Slack spoke.
 
 

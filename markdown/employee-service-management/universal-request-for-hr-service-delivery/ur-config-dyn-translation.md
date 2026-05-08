@@ -21,23 +21,23 @@ Role required: admin
 
 ## About this task
 
-After activating the Dynamic Translation plugin, you can configure one of the translator service spokes available by default. You can also configure a custom translator service provider. For more information on translation service providers, see [Integration with other translation services](https://www.servicenow.com/docs/access?context=integration-with-other-translation-services&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+After activating the Dynamic Translation plugin, you can configure one of the translator service spokes available by default. You can also configure a custom translator service provider. For more information on translation service providers, see Integration with other translation services.
 
 ## Procedure
 
 1.  Activate the Dynamic Translation plugin.
 
-    For more information, see [Activate Dynamic Translation](https://www.servicenow.com/docs/access?context=activate-dynamic-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Activate Dynamic Translation.
 
 2.  Configure and activate the translator configuration for the spoke you are using.
 
     Available spokes include the following.
 
-    -   [Configure Microsoft Azure Translator Service spoke](https://www.servicenow.com/docs/access?context=microsoft-translation-spoke&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Configure Google Cloud Translator Service spoke](https://www.servicenow.com/docs/access?context=google-translator-spoke&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    -   Configure Microsoft Azure Translator Service spoke
+    -   Configure Google Cloud Translator Service spoke
 3.  Activate the I18N plugin for the specific language you want to translate to.
 
-    For a list of available languages, see [Activate a Language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For a list of available languages, see Activate a Language.
 
 
 **Parent Topic:**[Configuring Universal Request](../concept/configure-ur.md)

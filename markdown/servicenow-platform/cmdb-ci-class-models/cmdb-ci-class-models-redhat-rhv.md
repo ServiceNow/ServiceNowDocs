@@ -17,7 +17,7 @@ The CMDB CI Class Models app adds or updates classes for Red Hat Virtualization 
 
 CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://www.servicenow.com/docs/access?context=red-hat-virtualization-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). The RHV patterns, tables, and related items have been renamed to oVirt.
+Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. For more information, see Oracle Linux Virtualization Manager and Red Hat Virtualization discovery. The RHV patterns, tables, and related items have been renamed to oVirt.
 
 See the [full release notes for all CMDB CI Class Models](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-operations-management/store-rn-itom-cmdb-class-models.html?emcs_t=S2h8ZW1haWx8Ym9hcmRfc3Vic2NyaXB0aW9ufE1FMlVTSFREVDc3S0hTfDMzNDcxMjV8U1VCU0NSSVBUSU9OU3xoSw).
 
@@ -29,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 Red Hat Virtualization \(RHV\) is a virtualization product that is based on the Kernel-based Virtual Machine \(KVM\) hypervisor. RHV uses the SPICE protocol and Virtual Desktop Server Manager \(VDSM\) with an RHEL centralized management server. The RHV solution is based on two primary software components: Red Hat Virtualization Manager \(RHV-M\) and Red Hat Virtualization Hypervisors or hosts: Red Hat Enterprise Linux or RHV Host \(RHV-H\).
 
-**Note:** The Discovery application uses patterns to find RHV components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://www.servicenow.com/docs/access?context=red-hat-virtualization-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+**Note:** The Discovery application uses patterns to find RHV components. Discovering some of these resources may require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information, see Oracle Linux Virtualization Manager and Red Hat Virtualization discovery
 
 ![Red Hat Virtualization class model.](../image/CIClassModels1.5.0l.png "RHV classes integrated with the CMDB class hierarchy")
 
@@ -228,7 +228,7 @@ The following class was deleted in the CMDB CI Class Models 1.6.0 release.
 **Related topics**  
 
 
-[Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://www.servicenow.com/docs/access?context=red-hat-virtualization-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US)
+[bundle-itom.red-hat-virtualization-discovery]
 
 [CMDB schema model](c_ConfigurationManagementDatabase.md)
 

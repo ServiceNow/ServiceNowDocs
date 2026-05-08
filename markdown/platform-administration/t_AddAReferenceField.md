@@ -27,7 +27,7 @@ The related table also appears in the Available Tables list for future form cust
 
 2.  Right-click the header and select **Configure** &gt; **Form Layout**.
 
-3.  Use [dot-walking](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to locate and select the field in the referenced table that you want to add.
+3.  Use dot-walking to locate and select the field in the referenced table that you want to add.
 
     It appears as **Table name.Field**. For example, the caller's email address appears as **Caller.Email**.
 

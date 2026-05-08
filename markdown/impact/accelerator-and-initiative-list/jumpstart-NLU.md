@@ -19,7 +19,7 @@ The Jumpstart Your Natural Language Understanding \(NLU\) Accelerator provides a
 
 Jumpstart Your Natural Language Understanding provides Impact customers with a comprehensive overview of Natural Language Understanding, including many of the underlying features, such as, Planning, Building, Sizing, Training, Vocabulary, Testing, Entity, Deployment, and Monitoring. This offering aims to educate and help you increase your Virtual Agent adoption by laying the groundwork for a healthy foundation.
 
-For related information, see [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) or [Natural Language Understanding](https://www.servicenow.com/docs/access?context=nlu-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For related information, see Virtual Agent or Natural Language Understanding.
 
 **Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
 
@@ -30,7 +30,7 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
 -   **Session Preparation**
 
     -   Provision a temporary instance 
-    -   Activate and run [Intent Discovery](https://www.servicenow.com/docs/access?context=intent-discovery&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+    -   Activate and run Intent Discovery
     -   Assess current NLU models, if applicable
     ​
 

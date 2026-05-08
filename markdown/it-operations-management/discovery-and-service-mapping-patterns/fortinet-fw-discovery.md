@@ -36,7 +36,7 @@ To learn about Fortinet firewalls and their versions that you can discover, refe
 
 -   **Configure SNMP credentials**
 
-    On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    On the ServiceNow instance, configure SNMP credentials. For more information, see SNMP credentials.
 
 -   **Add SNMP system OID record to ServiceNow instance**
 

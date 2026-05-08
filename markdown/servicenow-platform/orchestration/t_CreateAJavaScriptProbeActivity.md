@@ -25,7 +25,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 ## Procedure
 
-1.  Create a [custom activity](https://www.servicenow.com/docs/access?context=create-custom-activities&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+1.  Create a custom activity.
 
     This action creates a custom activity using a template.
 
@@ -95,7 +95,7 @@ Name-value pairs to pass to the host with this probe. You can create these param
 
 ## What to do next
 
-Finish creating your JavaScript probe activity by [creating output variables](t_CreateAnOutputVariable.md#), [creating a parsing rule](t_CreateAParsingRule.md#), or [Conditions](https://www.servicenow.com/docs/access?context=conditions&version=australia&pubname=australia-integrate-applications&ft:locale=en-US). Refer to the [create custom activities](create-custom-activities.md) topic to know your template options.
+Finish creating your JavaScript probe activity by [creating output variables](t_CreateAnOutputVariable.md#), [creating a parsing rule](t_CreateAParsingRule.md#), or Conditions. Refer to the [create custom activities](create-custom-activities.md) topic to know your template options.
 
 **Parent Topic:**[Orchestration custom activity templates](../concept/c_ActivityDesignerComponents.md)
 

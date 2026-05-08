@@ -58,13 +58,13 @@ The spoke actions support a maximum payload of 10 MB from the SCCM server for th
 
 ## Connection and credential alias requirements
 
-Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://www.servicenow.com/docs/access?context=r-credentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see Connections and Credentials.
 
 For information about setting up the spoke, see [Set up the SCCM Usage Metering spoke](../task/setup-sccm-usage-metering-spoke.md#).
 
 ## MID Server requirements
 
-These actions use REST calls, which can run on an instance or MID Server. Use the connection record that is associated with the Microsoft SCCM Usage Metering alias to configure where actions run as well as to set MID Server selection attributes. For more information, see [MID server](https://www.servicenow.com/docs/access?context=mid-server-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+These actions use REST calls, which can run on an instance or MID Server. Use the connection record that is associated with the Microsoft SCCM Usage Metering alias to configure where actions run as well as to set MID Server selection attributes. For more information, see MID server.
 
 To set up the MID Server for this spoke, see [Set up MID Server for a spoke](../task/config-adv-mid-settings-for-oauth-on-mid.md).
 

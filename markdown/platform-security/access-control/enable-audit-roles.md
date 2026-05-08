@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-When enabled, the Audit Roles \[sys\_audit\_role\] table maintains changes to user records. For more information about role audits, see [Audit user roles](https://www.servicenow.com/docs/access?context=audit-user-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US). If the Contextual Security: Role Management V2 \[com.glide.role\_management.inh\_count\] plugin is installed, you must set a system property to **true** to enable role auditing.
+When enabled, the Audit Roles \[sys\_audit\_role\] table maintains changes to user records. For more information about role audits, see Audit user roles. If the Contextual Security: Role Management V2 \[com.glide.role\_management.inh\_count\] plugin is installed, you must set a system property to **true** to enable role auditing.
 
 ## Procedure
 

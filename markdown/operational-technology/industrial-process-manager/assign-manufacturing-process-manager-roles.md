@@ -105,8 +105,8 @@ Can view OT subnet records \(ot\_subnet\_mapping\) for all the equipment model e
 
     |Task|User administration feature|
     |----|---------------------------|
-    |**Assign a role to a user**|See [Assign a role to a user](https://www.servicenow.com/docs/access?context=t_AssignARoleToAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
-    |**Assign a role to a group**|See [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).|
+    |**Assign a role to a user**|See Assign a role to a user.|
+    |**Assign a role to a group**|See Assign a role to a group.|
 
 
 **Parent Topic:**[Configuring the Industrial Process Manager](../concept/configuring-manufacturing-process-mgr.md)

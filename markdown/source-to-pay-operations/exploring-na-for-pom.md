@@ -13,7 +13,7 @@ breadcrumb: [Now Assist for POM, Purchase Order Management, Source-to-Pay Operat
 
 With the ServiceNow® Now Assist for Purchase Order Management \(POM\) application, you can use generative AI to support purchase order management tasks such as converting unstructured supplier emails into a prioritized list of exceptions and providing a conversation-like experience to mitigate purchase order exceptions.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 ## Now Assist for POM overview
 

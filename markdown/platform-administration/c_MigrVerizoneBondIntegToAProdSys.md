@@ -31,7 +31,7 @@ Perform these tasks in order.
 -   Task 3: Configure the integration properties to work with the Production Verizon eBonding system. This is userID, password, and other properties provided by your Verizon representative.
 -   Task 4: Change all the Verizon eBroker SOAP Message functions to use Verizon's production SOAP Endpoint. In most cases, the endpoint URL will be: https://pubwebsvc.vzbi.com:443/Trouble\_Management\_v3r0. Verify this URL with the Verizon implementation specialist.
     -   In the **SOAP Message Functions** related list, click each function, clear the **Lock** check box, and enter the production endpoint.
-    -   Configure the **SOAP Message Functions** related list and add the **SOAP endpoint** column. In the **SOAP Message Functions** list view, unlock and update the endpoint for all records by [Edit multiple records in a list using the list editor](https://www.servicenow.com/docs/access?context=t_EditMultRecUsingListEditor&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    -   Configure the **SOAP Message Functions** related list and add the **SOAP endpoint** column. In the **SOAP Message Functions** list view, unlock and update the endpoint for all records by Edit multiple records in a list using the list editor.
 -   Task 5: Apply any customizations. If customizations to the integration on the Dev system were captured in an update set, apply that update set to the Production system.
 -   Task 6: Provide Verizon with the production SOAP Endpoint. The SOAP endpoint should look something like this: https://yourproductioninstance.service-now.com/ETMSPublish.do?WSDL.
 -   Task 7: Coordinate a Production turn up with your Verizon representative to do basic testing.

@@ -21,7 +21,7 @@ You must install the Explicit Roles \[com.glide.explicit\_roles\] plugin while i
 
 Before you install the Accounts Payable Operations plugin, you must perform comprehensive analysis of the Explicit Roles \[com.glide.explicit\_roles\] plugin configuration to avoid conflicts or adjustments; ensure seamless integration and operation of the plugins.
 
-The installation of the Accounts Payable Operations plugin may cause access issues to the existing functionality that are controlled by the Explicit Roles \[com.glide.explicit\_roles\] plugin. You may have to manage or reconfigure certain roles and permissions managed by the Explicit Roles \[com.glide.explicit\_roles\] plugin for seamless integration and operation of existing functionalities. For more information on explicit roles, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The installation of the Accounts Payable Operations plugin may cause access issues to the existing functionality that are controlled by the Explicit Roles \[com.glide.explicit\_roles\] plugin. You may have to manage or reconfigure certain roles and permissions managed by the Explicit Roles \[com.glide.explicit\_roles\] plugin for seamless integration and operation of existing functionalities. For more information on explicit roles, see Explicit Roles.
 
 **Parent Topic:**[Using Supplier Collaboration Portal in APO](using-supplier-collaboration-portal.md)
 

@@ -91,7 +91,7 @@ Role required: admin
 
 16. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
-    For more information on writing encoded queries, see [Encoded query strings](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information on writing encoded queries, see Encoded query strings.
 
 17. Select **Create** to create your blank page.
 

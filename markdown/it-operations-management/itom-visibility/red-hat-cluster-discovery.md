@@ -17,7 +17,7 @@ Discovery can find Linux Red Hat clusters that offer high availability and load 
 
 ## Required credentials
 
-Configure [SSH credentials](https://www.servicenow.com/docs/access?context=r_SSHCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Configure SSH credentials.
 
 ## Additional requirements
 

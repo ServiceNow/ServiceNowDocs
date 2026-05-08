@@ -17,7 +17,7 @@ Enables external systems to share threat intelligence data with the Threat Intel
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
-For additional information about TISC, see [Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US).
+For additional information about TISC, see Threat Intelligence Security Center.
 
 This API runs in the `sn_sec_tisc` namespace. The calling user must have the sn\_sec\_tisc.api\_post\_intel role.
 

@@ -82,7 +82,7 @@ Option to designate this table as a remote table. A remote table is a table to w
 
 6.  In the Application Access section, define the scope protection for the remote table like you do when you define additional table options for a normal table.
 
-    For more information, see [Application access settings](https://www.servicenow.com/docs/access?context=c_ApplicationAccessSettings&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Application access settings.
 
 7.  Select **Submit**.
 
@@ -92,5 +92,5 @@ Option to designate this table as a remote table. A remote table is a table to w
 **Related topics**  
 
 
-[Create a table](https://www.servicenow.com/docs/access?context=t_CreateATable&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_CreateATable]
 

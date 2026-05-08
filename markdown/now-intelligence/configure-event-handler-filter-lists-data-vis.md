@@ -32,7 +32,7 @@ Role required: ui\_builder\_admin, admin
 
 2.  Navigate to the UI Builder State section and add a state variable named *parFilters* of type JSON with a simple array initial value `[]`.
 
-    For more information, see [Create and bind a client state parameter to a component](https://www.servicenow.com/docs/access?context=state-parameters&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Create and bind a client state parameter to a component.
 
     ![Adding the parFilters client state parameter to a UIB page.](../../par-for-workspace/image/add-parFilters.png)
 

@@ -78,5 +78,5 @@ The CI from the specified **Class**, to be the entry point for the application s
 ## What to do next
 
 1.  Complete the generic procedure [Create an application service](../../service-mapping/task/create-it-services.md).
-2.  [Manually add CIs](https://www.servicenow.com/docs/access?context=manually-add-ci-to-business-service&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) to populate the application service.
+2.  Manually add CIs to populate the application service.
 

@@ -15,7 +15,7 @@ breadcrumb: [Change Management - Predictive Intelligence Core, Change Management
 
 Several types of components are installed with activation of the Change Management - Predictive Intelligence Core plugin that includes tables. These tables can be utilized only after the other Change Management Predictive Intelligence plugins are activated.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Tables installed
 

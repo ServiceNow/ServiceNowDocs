@@ -778,7 +778,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the activity is a [turnstile](https://www.servicenow.com/docs/access?context=r_TurnstileActivity&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Flag that indicates whether the activity is a turnstile.
 
  Valid values:
 
@@ -786,7 +786,7 @@ Flag that indicates whether the activity is a [turnstile](https://www.servicenow
 -   false: Activity is not a turnstile.
 
 </td></tr></tbody>
-</table>The following code example shows how to use this method to detect a turnstile. It is based on the workflow found in [Rollback To workflow activity](https://www.servicenow.com/docs/access?context=r_RollbackTo&version=australia&pubname=australia-build-workflows&ft:locale=en-US). You can confirm the output of this script by examining the **Workflow Activity History** tab when you **Show Workflow** on the requested items \(RITM\) form.
+</table>The following code example shows how to use this method to detect a turnstile. It is based on the workflow found in Rollback To workflow activity. You can confirm the output of this script by examining the **Workflow Activity History** tab when you **Show Workflow** on the requested items \(RITM\) form.
 
 ```
 var wfhGR = new GlideRecord ('wf_history');

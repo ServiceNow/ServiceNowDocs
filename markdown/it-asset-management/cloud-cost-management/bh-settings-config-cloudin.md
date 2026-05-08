@@ -170,5 +170,5 @@ Default value: 1000
 **Related topics**  
 
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ITILChangeManagement]
 

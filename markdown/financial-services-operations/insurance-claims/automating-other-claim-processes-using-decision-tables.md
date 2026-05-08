@@ -31,7 +31,7 @@ You can modify the included decision table in the Insurance claims application s
 **Related topics**  
 
 
-[Using decision tables](https://www.servicenow.com/docs/access?context=using-decision-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.using-decision-builder]
 
 [Configure flows](../../fso-common/task/configure-flow-designer-flows-fso-apps.md)
 

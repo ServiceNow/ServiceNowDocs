@@ -25,7 +25,7 @@ Role required: admin
 
 1.  Use the name and password that you created during the registration process to log in to the Customer Service Portal.
 
-    See [Using the Customer Service Portal](https://www.servicenow.com/docs/access?context=use-the-customer-portal&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) for the details.
+    See Using the Customer Service Portal for the details.
 
 2.  On the home page, select **My Lists** to view the customer success cases and case tasks.
 

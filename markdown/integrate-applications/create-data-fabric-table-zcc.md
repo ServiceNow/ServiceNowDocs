@@ -72,9 +72,9 @@ Note the following restrictions:
         -   Type: record
         -   Operation: data\_fabric
         -   Name: User \[sys\_user\]
-        For details on creating a record ACL rule, see [Configure an ACL rule](https://www.servicenow.com/docs/access?context=t_CreateAnACLRule&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+        For details on creating a record ACL rule, see Configure an ACL rule.
 
-    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See [Select a field as the table display value](https://www.servicenow.com/docs/access?context=t_SelectTheDisplayValue&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   To see values in a reference column when viewing records in the new data fabric table, you must set the Display attribute to true for the referenced column. You can manage this attribute in the referenced table's definition. See Select a field as the table display value.
     1.  Identify the column that represents the same records in both tables.
 
     2.  In the Type column, change the column type to **Reference**.

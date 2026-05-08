@@ -52,7 +52,7 @@ If the SP sets up software models for Cisco corporate as well as Cisco Mexico, e
 |Walmart USA|SQL Server 2012|2014|5| | |
 |Walmart Mexico|SQL Server 2012|2014|20| | |
 
-To learn more about software lifecycles, see [Create software models in Software Asset Management classic](../task/record-terms-software-licenses.md). To learn about domain separation path setup, see [Domain separation setup and administration](https://www.servicenow.com/docs/access?context=c_DomainSeparationSetup&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+To learn more about software lifecycles, see [Create software models in Software Asset Management classic](../task/record-terms-software-licenses.md). To learn about domain separation path setup, see Domain separation setup and administration
 
 **Parent Topic:**[Domain separation and Software Asset Management](domain-separation-software-asset-management.md)
 

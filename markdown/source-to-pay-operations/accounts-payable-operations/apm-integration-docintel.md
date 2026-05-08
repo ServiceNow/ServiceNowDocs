@@ -21,7 +21,7 @@ To use the flows for extracting data from the invoice document received as an em
 
 **Note:** Accounts Payable Operations integration with Document Intelligence supports Document Intelligence version 2.4.
 
-For more information, see [Install Document Intelligence](https://www.servicenow.com/docs/access?context=install-document-intelligence&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see Install Document Intelligence.
 
 -   **[Components installed with Accounts Payable Operations integration with Document Intelligence](../reference/installed-with-docintel-apm.md)**  
 Several types of components are installed with activation of the Accounts Payable Operations integration with Document Intelligence \(sn\_ap\_ic\) application plugin, including user roles, flows, and tables.

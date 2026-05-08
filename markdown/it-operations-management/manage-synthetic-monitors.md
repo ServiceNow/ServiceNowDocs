@@ -23,15 +23,15 @@ Role required: sn\_sow\_synthetics.synthetics\_editor
 
 2.  Follow these instructions to edit a monitor.
 
-<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d290665e81">
+<table id="choicetable_wmz_vv2_h2c"><thead><tr><th align="left" id="d290658e81">
 
 Option
 
-</th><th align="left" id="d290665e84">
+</th><th align="left" id="d290658e84">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d290665e90">
+</th></tr></thead><tbody><tr><td id="d290658e90">
 
 **Edit multiple monitor configurations**
 
@@ -41,7 +41,7 @@ From the synthetic monitoring landing page, select one or more monitors and sele
 
 If you want to edit properties other than credentials, location, or alert settings, you must edit a single monitor at a time from the **Details** tab.
 
-</td></tr><tr><td id="d290665e119">
+</td></tr><tr><td id="d290658e119">
 
 **Edit a single monitor configuration**
 
@@ -49,7 +49,7 @@ If you want to edit properties other than credentials, location, or alert settin
 
 From the synthetic monitoring landing page, select a monitor to open it and then select the **Details** tab to edit. See [Create and edit a synthetic monitor](create-synthetic-monitor.md) for more information.
 
-</td></tr><tr><td id="d290665e141">
+</td></tr><tr><td id="d290658e141">
 
 **Delete monitors**
 

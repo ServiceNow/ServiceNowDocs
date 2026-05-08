@@ -25,5 +25,5 @@ Configure phone support for customers with Computer Telephony Integration \(CTI\
 **Related topics**  
 
 
-[Notify](https://www.servicenow.com/docs/access?context=notify-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.notify-landing-page]
 

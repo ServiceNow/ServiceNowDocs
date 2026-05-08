@@ -212,7 +212,7 @@ The ServiceNow® Universal Task application is a tasking framework that enables 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Employee Service Management release notes](https://www.servicenow.com/docs/access?context=employee-service-management-rn-landing&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   Learn more about what's new and changed, see the Employee Service Management release notes.
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).

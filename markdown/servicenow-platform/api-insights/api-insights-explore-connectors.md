@@ -45,7 +45,7 @@ Role required: sn\_cmdb\_admin and cmdb\_inst\_admin
 
     -   Select a connector to access the connector in Application Manager and then install any updates.
     -   Select **Install updates** to open Application Manager, and then view and install updates for a connector from the **Updates** tab.
-    For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Application Manager.
 
 
 ## Install a Service Graph Connector with an available entitlement in API Insights
@@ -68,7 +68,7 @@ Role required: sn\_cmdb\_admin and cmdb\_inst\_admin
 
 5.  In Application Manager, review the entitlements and install a connector for API data.
 
-    For more information, see [Application Manager](https://www.servicenow.com/docs/access?context=application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Application Manager.
 
 
 ## Install a Service Graph Connector from ServiceNow Store within API Insights

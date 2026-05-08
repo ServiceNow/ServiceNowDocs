@@ -27,5 +27,5 @@ A limit of 1000 has been placed on the number of nodes returned to the tree pick
 **Related topics**  
 
 
-[Reference lookup](https://www.servicenow.com/docs/access?context=c_ReferenceLookup&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ReferenceLookup]
 

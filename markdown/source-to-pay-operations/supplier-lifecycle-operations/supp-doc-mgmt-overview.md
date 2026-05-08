@@ -17,7 +17,7 @@ Supplier Lifecycle Operations uses the ServiceNow® Document Management function
 
 **Important:** Check your entitlements to determine whether you have access to Document Management.
 
-Supplier Lifecycle Operations extends the Document Management plugin \(com.snc.platform\_document\_management\), which is installed along with the Supplier Operations \(com.snc.sn\_so\) application. For more information, see [Document Management](https://www.servicenow.com/docs/access?context=doc-management-landing&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Supplier Lifecycle Operations extends the Document Management plugin \(com.snc.platform\_document\_management\), which is installed along with the Supplier Operations \(com.snc.sn\_so\) application. For more information, see Document Management.
 
 You can create a supplier document configuration to configure various aspects of the document upload process. The document configuration determines when this configuration is run, who can view, update, and upload a document, and whether to send notifications when a document is uploaded or has expired. You can set run conditions to determine when the configuration should be run or you can run the configuration manually.
 

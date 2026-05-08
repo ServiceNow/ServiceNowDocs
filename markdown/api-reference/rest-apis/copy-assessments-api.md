@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Copy Assessments API provides an endpoint to create a copy of an assessment metric type or survey definition in the Assessment Metric Type \[asmt\_metric\_type\] table.
 
-This API is included in the [Assessments and Surveys](https://www.servicenow.com/docs/access?context=assessments-surveys-landing-page&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) application, which is available by default.
+This API is included in the Assessments and Surveys application, which is available by default.
 
 The calling user must have the assessment\_admin role.
 

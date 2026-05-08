@@ -75,7 +75,7 @@ Time pickers
 
 Provides time slots for users to choose for appointments, deliveries, and services.
 
- To use time pickers, you must have [Conversational Appointment Booking](https://www.servicenow.com/docs/access?context=conv_appt_booking&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) installed.
+ To use time pickers, you must have Conversational Appointment Booking installed.
 
 </td></tr><tr><td>
 

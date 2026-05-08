@@ -13,7 +13,7 @@ breadcrumb: [Reference, Zero Copy Connectors, Workflow Data Fabric]
 
 Zero Copy Connectors is installed with these roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 **Parent Topic:**[Zero Copy Connectors reference](reference-zcc.md)
 

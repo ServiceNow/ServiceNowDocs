@@ -21,9 +21,9 @@ Role required: Authenticated external users with snc\_external role
 
 [Activate Customer Service Management](t_ActivateCustomerService.md)
 
-You must configure AI Search for the Business and Consumer Portal. For more information, see [Enable and configure AI Search in Service Portal](https://www.servicenow.com/docs/access?context=enable-ais-sp&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You must configure AI Search for the Business and Consumer Portal. For more information, see Enable and configure AI Search in Service Portal.
 
-You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI Search feature. For more information on the widgets, see [Typeahead Search widget](https://www.servicenow.com/docs/access?context=typeahead-search-widget&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) and [AI Search Assist widget](https://www.servicenow.com/docs/access?context=ais-assist-widget&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI Search feature. For more information on the widgets, see Typeahead Search widget and AI Search Assist widget.
 
 Role required: admin
 

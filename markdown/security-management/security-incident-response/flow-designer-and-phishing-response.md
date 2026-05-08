@@ -22,7 +22,7 @@ The phishing response playbook includes the following flows and subflows:
 -   Security Incident - Automated Phishing Response Template: This template is designed to automate the phishing response tasks and contains a sequence of actions including a trigger.
 -   Security Incident - Phishing Manual Template: This template is the existing manual phishing response workflow. Set the category to Phishing to activate the flow.
 
-These templates contain a sequence of reusable actions designed to respond to phishing attacks. Each flow has a trigger \(condition\), a sequence of actions and subflows that you can annotate for readability. To access these flows, you must install the [Security Operations spoke](https://www.servicenow.com/docs/access?context=secops-spoke&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+These templates contain a sequence of reusable actions designed to respond to phishing attacks. Each flow has a trigger \(condition\), a sequence of actions and subflows that you can annotate for readability. To access these flows, you must install the Security Operations spoke.
 
 **Note:** Activate these templates before you can use them. See [Activate a Security Incident Response flow](../task/getting-started-phishing-playbook.md) for details.
 
@@ -35,7 +35,7 @@ These templates contain a sequence of reusable actions designed to respond to ph
 
 These subflows represent a set of reusable operations that you can use in multiple playbooks. You can use these subflows to define custom templates \(flows\) according to your requirements.
 
-To create custom templates \(flows\), follow the instructions in [Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To create custom templates \(flows\), follow the instructions in Flows.
 
 -   **[Run the automated phishing response playbook flow](../task/run-phishing-playbook.md)**  
 Using the flow designer, you can define and automate tasks in the playbook to analyze and resolve phishing attacks against your organization.

@@ -83,7 +83,7 @@ Application scope: Employee Center
 
 ### About this task
 
-Assign various topic templates based on the content after you create or clone a new topic page. For more information, see [Create and edit a page using the Service Portal Designer](https://www.servicenow.com/docs/access?context=t_ConfigureAPage&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Assign various topic templates based on the content after you create or clone a new topic page. For more information, see Create and edit a page using the Service Portal Designer.
 
 For design recommendations for the topic page templates, see [Curated Experiences – Topic Page Templates UX Guidance \[KB1002813\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1002813).
 

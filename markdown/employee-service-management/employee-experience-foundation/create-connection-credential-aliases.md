@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information, refer [Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information, refer Introduction to credentials, connections, and aliases.
 
 ## Procedure
 

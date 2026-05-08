@@ -13,7 +13,7 @@ breadcrumb: [Configure Customer Contracts and Entitlements, Product data, Set up
 
 Configure the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\) to generate and modify contracts using order management.
 
-As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As an admin, you can activate the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\). For more information, see Activate a plugin.
 
 The following plugins are prerequisites for activating the Contracts and Entitlement Workflows plugin \(com.sn\_contract\_ent\_wf\):
 

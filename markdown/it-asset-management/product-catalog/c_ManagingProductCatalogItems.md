@@ -15,7 +15,7 @@ breadcrumb: [Product Catalog, IT Asset Management]
 
 Product catalog items are hardware and software that you can track and offer in the service catalog.
 
-The product catalog is an extension of the [Service Catalog](https://www.servicenow.com/docs/access?context=service-catalog&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) that contains a list of available [Models](c_Models.md). Users with the catalog\_admin role can create, activate, and deactivate product catalog items.
+The product catalog is an extension of the Service Catalog that contains a list of available [Models](c_Models.md). Users with the catalog\_admin role can create, activate, and deactivate product catalog items.
 
 -   **[Create a product catalog item](../task/t_CreateAProductCatalogItem.md)**  
 Create hardware and software product catalog items to include in the product catalog and the service catalog.

@@ -62,7 +62,7 @@ The available detection policy providers are:
 
     **Note:** You can use the system property **glide.analytics.consent.script\_timeout** to define the run time of the script. For more information, see [Usage Insights related properties](../reference/all-analytics-properties.md).
 
-    For more information on using scripts, see [JavaScript syntax editor](https://www.servicenow.com/docs/access?context=c_SyntaxEditor&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information on using scripts, see JavaScript syntax editor.
 
 
 **Parent Topic:**[Types of tracking consent policies in Usage Insights](../reference/uxa-tracking-types.md)

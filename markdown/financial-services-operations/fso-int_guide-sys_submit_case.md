@@ -25,7 +25,7 @@ The following diagram shows the flow of the REST API calls for this scenario and
 
 </td><td>
 
-1.  In the bank application, define the information necessary to create the loan case record, and then call the [POST /now/table/\{table\_Name\}](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) REST endpoint on your ServiceNow instance.
+1.  In the bank application, define the information necessary to create the loan case record, and then call the POST /now/table/\{table\_Name\} REST endpoint on your ServiceNow instance.
 2.  The Table API attempts to write the posted information to the Loan Service Case \[sn\_bom\_loan\_service\] table.
 3.  The Table API returns the results of the POST request.
 

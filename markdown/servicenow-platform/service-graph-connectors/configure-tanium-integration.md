@@ -19,7 +19,7 @@ Set up scheduled import jobs to pull in data from Tanium into your Configuration
 
 **Important:** Unless there are configuration issues, use SGC Central to configure the connection. The guided setup method for configuration is being deprecated.
 
-To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://www.servicenow.com/docs/access?context=itom-license-module&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
+To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by ITOM Visibility or ITOM Discovery, these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
@@ -39,7 +39,7 @@ For more information on the Service Graph Connector for Tanium setup, see [How d
 
 1.  Ensure that the application scope is set to the Service Graph Connector for Tanium application by using the application picker.
 
-    For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Application picker.
 
 2.  Navigate to **All** &gt; **Service Graph Connectors** &gt; **Tanium** &gt; **Setup**.
 
@@ -182,7 +182,7 @@ Tanium base URL or IP address. **Note:** This field is automatically set to the 
 
         **Note:** When using a token-based authentication, the user you specify in the **Run as** field for a scheduled job must have the connection\_admin role.
 
-        For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+        For more information, see Schedule a data import.
 
     4.  Select **Update**.
 
@@ -293,7 +293,7 @@ Tanium base URL or IP address. **Note:** This field is automatically set to the 
 
             **Note:** When using a token-based authentication, the user you specify in the **Run as** field for a scheduled job must have the connection\_admin role.
 
-            For more information, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US#table_r53_5hm_xp).
+            For more information, see Schedule a data import.
 
         4.  Select **Update**.
         5.  Repeat steps [6.h.ii](configure-tanium-integration.md#select-job-2) to [6.h.iv](configure-tanium-integration.md#exe-job-2) for each scheduled job for data import.

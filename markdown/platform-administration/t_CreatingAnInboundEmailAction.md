@@ -172,7 +172,7 @@ Enter the script that the action runs. Typically, this script uses the validator
  The following objects are available:
 
 -   **current**: access the record referred to by the inbound email. For example, `current.assigned_to` accesses the person assigned to the task.
--   **event**: access one of the parameters of the originating event. For example, `event.parm1` accesses the first parameter of the event or `event.parm2` for the second parameter. See [Events](https://www.servicenow.com/docs/access?context=events&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information.
+-   **event**: access one of the parameters of the originating event. For example, `event.parm1` accesses the first parameter of the event or `event.parm2` for the second parameter. See Events for more information.
 -   **email**: access the inbound current email record. For example, `email.subject` accesses the content in the subject line of the email. See [Accessing email object variables](../reference/r_AccessingEmailObjsWithVars.md) for more information.
 -   **logger**: add a message to the log file with the source set to `email.<Sys ID of incoming email>`. For example: `logger.log ("Some information")`
 

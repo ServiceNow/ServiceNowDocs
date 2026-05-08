@@ -20,44 +20,44 @@ The ServiceNow® Portfolio Planning application helps you enhance traditional pr
 -   Review the financial records of your planning items in both project currency and investment currency when you migrate them from Classic to Next Experience.
 -   Create financial baselines with multicurrency to capture, view, and track the financial health of your planning item using project baselines and investment baselines.
 
-See [Portfolio Planning](https://www.servicenow.com/docs/access?context=portfolio-planning-app-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US) for more information.
+See Portfolio Planning for more information.
 
 **Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[AI-generated insights for portfolio plans](https://www.servicenow.com/docs/access?context=view-portfolio-insights&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **AI-generated insights for portfolio plans**
 
     Gain AI-generated insights into planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
 
     Users with the sn\_align\_core.apw\_admin role assigned can configure severity scoring for planning items to control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
 
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Next Experience for Demand Management**
 
     Manage strategic and operational demands in a unified experience in Portfolio Planning. This Next Experience interface consolidates demand creation, assessment, collaboration, and conversion in one place, eliminating context switching and reducing reliance on the classic Demand Workbench.
 
--   **[Create and manage demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=managing-demands-ppw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Create and manage demands in Next Experience for Demand Management**
     -   Create and manage a demand in Next Experience for Demand Management using guided tabs. These tabs help you define alignment, estimate costs, and confirm readiness as you build out the demand.
     -   Collaborate on demands through Docs, which syncs execution and planning.
     -   View, add, and edit cost plans and budgeting details using related lists.
--   **[Use Playbook in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-playbooks-in-ppw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Use Playbook in Next Experience for Demand Management**
 
     Help teams manage demands with greater structure and consistency using Playbook in Next Experience for Demand Management.
 
     Playbooks enable you to define multiple governance processes across the organization using a low‑code/no‑code configuration experience. Create clear stages and guided activities from demand intake to completion by using a default playbook or creating a custom playbook to support your organization’s multiple demand management processes.
 
--   **[Associate AI systems with demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=use-playbooks-in-ppw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Associate AI systems with demands in Next Experience for Demand Management**
 
     Use a playbook activity in Next Experience for Demand Management to associate AI systems with a demand. You can link impacted systems and add new ones directly within the demand workflow.
 
--   **[Portfolio plan enhancements](https://www.servicenow.com/docs/access?context=work-prioritization-portfolio-planning&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Portfolio plan enhancements**
     -   Access the Hierarchy tab directly from the Planning page, located next to the Prioritization tab. This new placement replaces the previous access point within the Prioritization tab, providing a more efficient way to view and manage planning items.
     -   Save filter views specific to the Hierarchy tab without affecting views in the Prioritization tab.
     -   View planning items in the new Hierarchy tab on the Planning page, now sorted using global rank when available. Drag and drop is supported for lowest‑level items, enabling you to rerank them within their groups.
     -   Share a portfolio plan using the Copy link option. This provides access to existing users who have access to the portfolio plan.
     -   Expand or collapse portfolio plan header to maximize screen space while planning.
     -   Edit the default view within a portfolio plan and save changes using the Save view option.
--   **[Financials for planning items](https://www.servicenow.com/docs/access?context=using-financials-spw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Financials for planning items**
 
     View the financial baselines in investment currency and project currency after migrating them from Classic to Next Experience. Migrated financial baselines include actuals, costs, benefits, and budget values from the project currency to the investment currency.
 
@@ -67,7 +67,7 @@ See [Portfolio Planning](https://www.servicenow.com/docs/access?context=portfoli
         -           -   
 ## UI changes
 
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Next Experience for Demand Management**
     -   The Demands icon ![](../../product/spw-demand/images/demands-icon.png) has been added to the Portfolio Planning L1 menu to open the All Demands home page.
     -   The **State** field on the All Demands home page has been color-coded for each state value.
     -   The **Playbook**, **Details**, and **Docs** tabs have been added to the L2 menu of each demand to clearly and consistently group information.
@@ -87,7 +87,7 @@ Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the
 
 ## Related ServiceNow applications and features
 
--   **[Strategic Planning](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Strategic Planning**
 
     Prioritize, roadmap, and track work when using traditional, agile, or hybrid methodologies with ServiceNow® Strategic Planning. Align strategy to execution by defining and tracking goals across your organization.
 

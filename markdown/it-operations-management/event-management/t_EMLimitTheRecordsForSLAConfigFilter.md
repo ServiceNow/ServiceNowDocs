@@ -21,7 +21,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-By default, the size of dynamic CI group records is limited to 10,000 elements. Exceeding this limit can affect system stability. If the filter configuration for a specified dynamic CI group returns too many records, you can limit the number of records that are returned by setting the value of the sa.qbs.max\_num\_of\_cis property. For more information, see [Create a Dynamic CI Group](https://www.servicenow.com/docs/access?context=create-it-services&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+By default, the size of dynamic CI group records is limited to 10,000 elements. Exceeding this limit can affect system stability. If the filter configuration for a specified dynamic CI group returns too many records, you can limit the number of records that are returned by setting the value of the sa.qbs.max\_num\_of\_cis property. For more information, see Create a Dynamic CI Group.
 
 ## Procedure
 

@@ -19,31 +19,31 @@ Responsible AI deployment requires more than configuring individual features. Yo
 
 The following topics describe how to use the Now Assist Readiness Evaluation app to evaluate whether your instance is prepared for generative AI and agentic AI deployment, and to identify and resolve any gaps before going live.
 
--   **[Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=now-assist-readiness-evaluation-landing-page&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist Readiness Evaluation**
 
     The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
 
--   **[Exploring Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=exploring-now-assist-readiness-evaluation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Exploring Now Assist Readiness Evaluation**
 
     Learn how the Now Assist Readiness Evaluation app automates assessment processes, evaluates data readiness, and provides actionable insights to help you adopt Now Assist quickly.
 
--   **[Configuring Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=configuring-now-assist-readiness-evaluation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Configuring Now Assist Readiness Evaluation**
 
     Run the scheduled jobs and complete the guided setup configuration steps before viewing generative AI and agentic AI assessment results.
 
--   **[Using Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=using-now-assist-readiness-evaluation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Using Now Assist Readiness Evaluation**
 
     Find actionable items in your implementation preparation and use direct hyperlinks to address identified gaps.
 
--   **[Agentic AI - Assessment dashboard tab](https://www.servicenow.com/docs/access?context=agentic-ai-assessment-dashboard&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Agentic AI - Assessment dashboard tab**
 
     Determine agentic AI readiness for IT Service Management \(ITSM\) and Customer Service Management \(CSM\) through automated, data-driven insights in the Agentic AI Assessment tab.
 
--   **[Reviewing your Agentic AI assessment](https://www.servicenow.com/docs/access?context=reviewing-agentic-ai-assesment&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Reviewing your Agentic AI assessment**
 
     Evaluate potential implementation impacts and get actionable insights for agentic AI in Now Assist for IT Service Management \(ITSM\) and Now Assist for Customer Service Management \(CSM\).
 
--   **[Reviewing your Now Assist assessment](https://www.servicenow.com/docs/access?context=reviewing-now-assist-assessment&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Reviewing your Now Assist assessment**
 
     Evaluate potential implementation impacts and get actionable insights for Now Assist products.
 
@@ -56,19 +56,19 @@ Domain separation lets you isolate data and processes across multiple business u
 
     Understand how domain separation works on the ServiceNow AI Platform and how to configure it to keep data isolated across your organization.
 
--   **[Domain separation in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=domain-separation-in-the-now-assist-admin-console&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Domain separation in the Now Assist Admin console**
 
     Domain separation is supported for the Now Assist Admin console. Learn how domain separation affects configuration and data visibility in the admin console.
 
--   **[Domain separation and Now Assist AI Agent Studio](https://www.servicenow.com/docs/access?context=aia-studio-domain-separation&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Domain separation and Now Assist AI Agent Studio**
 
     Domain separation is supported for Now AssistAI Agent Studio. Learn how domain separation affects AI agent and agentic workflow configuration and data visibility.
 
--   **[Domain separation and Now Assist Center](https://www.servicenow.com/docs/access?context=domain-separation-now-assist-center&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Domain separation and Now Assist Center**
 
     Domain separation is supported for Now Assist Center. Learn how domain separation affects AI configuration and data visibility in Now Assist Center.
 
--   **[Now Assist in Virtual Agent domain separation](https://www.servicenow.com/docs/access?context=na-in-va-domain-separation&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)**
+-   **Now Assist in Virtual Agent domain separation**
 
     Domain separation is supported for Now Assist in Virtual Agent. Learn how domain separation affects AI configuration and data visibility in the virtual agent.
 

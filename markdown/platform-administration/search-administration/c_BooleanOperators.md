@@ -81,5 +81,5 @@ Excludes documents that contain the search term after the NOT operator \(a diffe
 
 [Debug Zing](../task/t_DebugZing.md)
 
-[Knowledge properties](https://www.servicenow.com/docs/access?context=r_KnowledgeProperties&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.r_KnowledgeProperties]
 

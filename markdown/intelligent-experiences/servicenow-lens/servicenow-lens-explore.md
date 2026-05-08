@@ -30,7 +30,7 @@ You can leverage Lens actions to customize the Lens behavior by providing defaul
 
 Extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and autofill catalog item forms in the Service Portal. For example, autofill a new vendor onboarding form by extracting key details such as vendor name, address, contact email, and banking information from multiple artifacts, including Excel files, emails, images, and PDF documents. For more information, see [Autofill catalog item forms on Service Portal using ServiceNow AI Lens.](../task/create-record-in-the-service-portal.md)
 
-Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see [Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&version=australia&pubname=australia-mobile&ft:locale=en-US)
+Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from documents such as an image, a scanned handwritten note, web page, or a Microsoft Word document, and auto-fill fields in a form. For more information, see Trigger ServiceNow AI Lens from Now Mobile® and autofill forms.
 
 Get started with ServiceNow AI Lens directly from your browser - no downloading or installation required orby downloading and installing the desktop application for Windows and macOS
 

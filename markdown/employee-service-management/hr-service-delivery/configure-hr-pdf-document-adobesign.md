@@ -17,7 +17,7 @@ If you are using the Adobe Sign integration, configure an HR PDF document templa
 
 ## Before you begin
 
-Create the managed document that you want to make available for signing through the Adobe Sign system. See [Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+Create the managed document that you want to make available for signing through the Adobe Sign system. See Managed Documents for more information.
 
 Role required: sn\_hr\_core.admin
 
@@ -99,7 +99,7 @@ HR criteria
 
 </td><td>
 
-Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideFilterScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Defines the conditions that the subject person of an HR case must meet for an HR agent to be able to access the HR document template on their behalf.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
 
 </td></tr></tbody>
 </table>5.  Right-click on the form header and click **Save**.

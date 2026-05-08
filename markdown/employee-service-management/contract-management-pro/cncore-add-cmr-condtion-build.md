@@ -42,7 +42,7 @@ Role required: admin
 
     7.  On the Dictionary entry form, fill in the fields.
 
-        For more information, see [Dictionary entry form](https://www.servicenow.com/docs/access?context=r_DictionaryEntryForm&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        For more information, see Dictionary entry form.
 
     8.  Select **Submit**.
 

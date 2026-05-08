@@ -21,7 +21,7 @@ Dashboards have special granular view and edit permissions that are managed from
 -   Users with the dashboard\_admin or admin role can edit and manage users, groups, and roles for any dashboard. Admin and dashboard\_admin users can also change a dashboard owner at any time.
 -   Only a dashboard owner and users with the dashboard\_admin or admin role can delete that dashboard.
 -   The ability of users to share dashboards may be limited by the administrator. For more information, see [Responsive dashboard properties](../reference/dashboard-properties.md).
--   If Explicit Roles are activated, dashboards are treated as internal resources. Users with the snc\_external role cannot view dashboards by default. For more information, see [Explicit Roles](https://www.servicenow.com/docs/access?context=explicit-roles&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   If Explicit Roles are activated, dashboards are treated as internal resources. Users with the snc\_external role cannot view dashboards by default. For more information, see Explicit Roles.
 -   Domain separation can affect the ability of users to edit dashboards that have been shared with them. For more information, see [Domain separation and responsive dashboards](domain-separation-in-dashboards.md).
 
 | |View|Create|Edit|Share|Delete|

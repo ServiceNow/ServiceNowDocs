@@ -29,14 +29,14 @@ Role required: admin
 
     For detailed information, see the following topics:
 
-    -   [Create a credential for the MicrosoftTranslation alias](https://www.servicenow.com/docs/access?context=create-credential-ms-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Configure the credential for the GoogleTranslation alias](https://www.servicenow.com/docs/access?context=configure-credential-google&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    -   Create a credential for the MicrosoftTranslation alias
+    -   Configure the credential for the GoogleTranslation alias
 2.  Create a connection for the translator service alias.
 
     For detailed information, see the following topics:
 
-    -   [Create a connection for the MicrosoftTranslation alias](https://www.servicenow.com/docs/access?context=create-connection-ms-translation&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
-    -   [Configure the connection attributes for the GoogleTranslation alias](https://www.servicenow.com/docs/access?context=configure-connection-google&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+    -   Create a connection for the MicrosoftTranslation alias
+    -   Configure the connection attributes for the GoogleTranslation alias
 
 ## What to do next
 

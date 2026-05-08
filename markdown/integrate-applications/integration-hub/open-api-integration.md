@@ -29,7 +29,7 @@ OpenAPI support in the REST step offers these benefits.
 
 When you import an OpenAPI Specification, the system creates any required inputs and adds them to the REST step form where appropriate. At runtime, the system sends a REST request that contains input values provided to the action. For example, if an API requires a name parameter passed in the request, the system creates a **name** input and adds it to the REST step. When you add the action to the flow, name becomes an input to the action.
 
-The system maps OpenAPI data types to Workflow Studio data types. For example, if the OpenAPI Specification requires a user object, then the system creates a complex data object as input. For more information, see [Complex data](https://www.servicenow.com/docs/access?context=complex-data&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+The system maps OpenAPI data types to Workflow Studio data types. For example, if the OpenAPI Specification requires a user object, then the system creates a complex data object as input. For more information, see Complex data.
 
 ## Specification size limit
 

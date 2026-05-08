@@ -27,7 +27,7 @@ Role required: learning\_admin
 
 Activating the Coaching with Learning \(sn\_coach\_lrn\) plugin enables the following applications from the ServiceNow Store:
 
--   [Enterprise Service Management Integrations Framework](https://www.servicenow.com/docs/access?context=hr-integrations-framework&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+-   Enterprise Service Management Integrations Framework
 -   Cornerstone spoke
 -   Pluralsight spoke
 -   Udemy spoke
@@ -129,31 +129,31 @@ Configuration set to push a record if the last push fails.**Note:** This field a
 </table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d130943e302">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d130939e302">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d130943e305">
+</th><th align="left" id="d130939e305">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d130943e311">
+</th></tr></thead><tbody><tr><td id="d130939e311">
 
 **Pluralsight Skills account**
 
 </td><td>
 
-Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://www.servicenow.com/docs/access?context=setup-pluralsight-spk&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
+Use an API key to authenticate the ServiceNow requests. Follow the steps in Set up the Pluralsight spoke to perform the integration.
 
-</td></tr><tr><td id="d130943e324">
+</td></tr><tr><td id="d130939e324">
 
 **Cornerstone application**
 
 </td><td>
 
-Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://www.servicenow.com/docs/access?context=setup-cornerstone&version=australia&pubname=australia-integrate-applications&ft:locale=en-US) to perform the integration.
+Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in Set up the Cornerstone spoke to perform the integration.
 
-</td></tr><tr><td id="d130943e337">
+</td></tr><tr><td id="d130939e337">
 
 **Udemy application**
 

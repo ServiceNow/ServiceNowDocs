@@ -27,7 +27,7 @@ Role required: sp\_admin
 
 3.  On the Ticket Configuration form, fill in the fields.
 
-    For more information about the field descriptions, see [Configure the standard ticket page](https://www.servicenow.com/docs/access?context=configure-st-page&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    For more information about the field descriptions, see Configure the standard ticket page.
 
 4.  Right-click the header menu and select **Save**.
 

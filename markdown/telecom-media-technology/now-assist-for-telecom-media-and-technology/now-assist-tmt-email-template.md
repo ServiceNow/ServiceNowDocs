@@ -19,9 +19,9 @@ Send the email to instance to create the touchpoint and meeting records directly
 
 Role required: Success agent
 
-To enable the email sending, see [Outbound email configuration](https://www.servicenow.com/docs/access?context=r_OutboundMailConfiguration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To enable the email sending, see Outbound email configuration.
 
-To enable the email receiving, see [Inbound email configuration](https://www.servicenow.com/docs/access?context=r_InboundMailConfiguration&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To enable the email receiving, see Inbound email configuration.
 
 ## Procedure
 

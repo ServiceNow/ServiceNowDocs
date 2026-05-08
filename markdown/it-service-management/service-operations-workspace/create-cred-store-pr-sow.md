@@ -91,7 +91,7 @@ Enable password policy
 
 </td><td>
 
-See [Enable password policies on your instance](https://www.servicenow.com/docs/access?context=enable-password-policies&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+See Enable password policies on your instance
 
 </td></tr><tr><td>
 

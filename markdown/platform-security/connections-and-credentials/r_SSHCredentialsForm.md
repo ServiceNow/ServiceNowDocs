@@ -26,7 +26,7 @@ Use either of these approaches to allow users to run SSH commands with root priv
 
 ## Privileged commands
 
-The platform provides default privileged commands for the MID Server to use and the ability to add additional commands to the system. For details about using sudo and other privileged commands, see [MID Server privileged commands](https://www.servicenow.com/docs/access?context=c_PrivilegedCommandsForMIDServer&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+The platform provides default privileged commands for the MID Server to use and the ability to add additional commands to the system. For details about using sudo and other privileged commands, see MID Server privileged commands.
 
 ## SSH private key credential type
 
@@ -483,7 +483,7 @@ Lists running process. As an alternative to running with root access, add a proc
 -   **Used by**: Discovery
 
 </td></tr></tbody>
-</table>For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://www.servicenow.com/docs/access?context=r_CommandsnCredentials&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+</table>For a list of privileged commands that you need for Discovery and Service Mapping, see Service Mapping commands requiring a privileged user. This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Access Requirements for Non-Root Credentials
 

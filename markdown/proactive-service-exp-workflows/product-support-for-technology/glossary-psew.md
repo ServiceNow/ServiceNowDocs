@@ -136,7 +136,7 @@ Glossary terms are grouped alphabetically.
 
 ### TMF 621 rest API
 
-A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see [Trouble Ticket Open API](https://www.servicenow.com/docs/access?context=trouble-ticket-open-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+A standard API that is used to create incident records from external systems, enabling integration with network management systems. To learn more, see Trouble Ticket Open API.
 
 ### trouble ticket notification
 

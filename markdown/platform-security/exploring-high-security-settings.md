@@ -608,7 +608,7 @@ com.glide.communications.httpclient.verify\_hostname
 
 Verify the hostname and certificate chain presented by remote SSL hosts. Protect against Man-In-The-Middle \(MITM\) attacks.
 
- For more detail, see [Set up Kubernetes spoke](https://www.servicenow.com/docs/access?context=set-up-kubernetes&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+ For more detail, see Set up Kubernetes spoke
 
  **Note:** This property overrides the com.glide.communications.trustmanager\_trust\_all property.
 

@@ -28,7 +28,7 @@ The appearance and capabilities of the Zing and AI Search results differ. You ma
 ![Display of AI Search search results.](../image/launcher-ais-search.png "AI Search search results")
 
 </td></tr></tbody>
-</table>Both search engines provide search suggestions as you type. They also include navigation tab filters which streamline the results displayed to help you find your specific answer. Zing search engine is available for all mobile platforms and utilizes additional data sources not associated with AI Search, such as CMDB records. For a list of tables that AI Search doesn't support for indexing, see [ServiceNow AI Platform tables excluded from AI Search indexing](https://www.servicenow.com/docs/access?context=reference-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+</table>Both search engines provide search suggestions as you type. They also include navigation tab filters which streamline the results displayed to help you find your specific answer. Zing search engine is available for all mobile platforms and utilizes additional data sources not associated with AI Search, such as CMDB records. For a list of tables that AI Search doesn't support for indexing, see ServiceNow AI Platform tables excluded from AI Search indexing.
 
 AI Search has the following additional capabilities and behaviors to assist you in your search.
 

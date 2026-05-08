@@ -33,7 +33,7 @@ Role required: admin
     2.  To ensure accurate scores are collected for end of the month reporting, validate that **Run** field is configured
 5.  Select **Update**.
 
-    For more details on how completeness is calculated, see the **Completeness** section of [CMDB Health KPIs and metrics](https://www.servicenow.com/docs/access?context=r_CMDBHealthMetrics&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more details on how completeness is calculated, see the **Completeness** section of CMDB Health KPIs and metrics.
 
 
 **Parent Topic:**[Setting up the Operational Technology Progress Scorecard](../concept/setting-up-the-ot-progress-scorecard.md)

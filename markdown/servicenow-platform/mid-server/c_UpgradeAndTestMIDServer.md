@@ -46,7 +46,7 @@ Any MID Server with a version different from the instance version needs to upgra
 
     **Warning:** This property is not visible by default and should not be configured.
 
--   **mid.version.override**: Sets an override condition for the current version for all MID Servers in your environment. This action pins the MID Servers to a single version and disables the automatic upgrade feature. This property is not visible in the base system and must be added to the System Property \[sys\_properties\] table when it is set. For details, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+-   **mid.version.override**: Sets an override condition for the current version for all MID Servers in your environment. This action pins the MID Servers to a single version and disables the automatic upgrade feature. This property is not visible in the base system and must be added to the System Property \[sys\_properties\] table when it is set. For details, see Add a system property.
 
 When the MID Servers check the version each hour, they look at the **mid.version.override** property first. If this property is empty, the MID Servers get their version information from the **mid.buildstamp** property. If an override version is configured, the MID Servers use this value and ignore the version information in the **mid.buildstamp** property. This override value remains when the instance is restarted and is passed to the MID Servers. The value in the **mid.version.override** property is cleared during an upgrade, which forces the MID Server to reset itself to the version in the **mid.buildstamp** property.
 

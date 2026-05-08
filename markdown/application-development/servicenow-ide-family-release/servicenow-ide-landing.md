@@ -68,7 +68,7 @@ Creator Studio specializes in helping you craft request-fulfillment applications
 
 ## Troubleshoot and get help
 
--   To learn more about what's new in the Australia release, see the [ServiceNow IDE release notes](https://www.servicenow.com/docs/access?context=servicenow-ide-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   To learn more about what's new in the Australia release, see the ServiceNow IDE release notes.
 -   [Introduction to the ServiceNow IDE](https://learning.servicenow.com/lxp/en/app-engine/introduction-to-the-servicenow-ide?id=learning_course_prev&course_id=9b44e9a49340ead4d28b7e6badba1069) on ServiceNow University
 -   [ServiceNow IDE Demo](https://youtu.be/32cYYrBXJvk?si=tpOV1cKWCAhNND5E) video
 -   [ServiceNow IDE and Fluent Creator Toolbox](https://www.youtube.com/live/PHFZBsbTTtI?si=4eU7gkhiMSGo5yaN) video

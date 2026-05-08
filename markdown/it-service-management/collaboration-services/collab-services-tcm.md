@@ -30,10 +30,10 @@ Compatible with all the releases starting with the Madrid release.
     -   Initiate a chat using Microsoft Teams directly from tasks.
     -   Import message history into a task record from Microsoft Teams, manually or automated.
     -   Send individual notification and collaboration on Major Incident and Incident Communication Plan using Slack or Microsoft Teams.
-    -   For information about ServiceNow for Microsoft Teams integrations, see [ServiceNow for Microsoft Teams](https://www.servicenow.com/docs/access?context=c_ServiceNowForMSTeams&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    -   For information about ServiceNow for Microsoft Teams integrations, see ServiceNow for Microsoft Teams.
 -   ServiceNow for Zoom
     -   Initiate a chat using Zoom Team Chat directly from tasks.
     -   Import message history into a task record from Zoom Team Chat.
-    -   For information about ServiceNow for Zoom integrations, see [ServiceNow for Zoom](https://www.servicenow.com/docs/access?context=sn_zoomIntegration&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
-    -   Access ServiceNow Employee Center in the Zoom application. For information about ServiceNow Employee Center in Zoom, see [Make Employee Center capabilities available in Zoom](https://www.servicenow.com/docs/access?context=zoom-ec-create-app&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    -   For information about ServiceNow for Zoom integrations, see ServiceNow for Zoom.
+    -   Access ServiceNow Employee Center in the Zoom application. For information about ServiceNow Employee Center in Zoom, see Make Employee Center capabilities available in Zoom.
 

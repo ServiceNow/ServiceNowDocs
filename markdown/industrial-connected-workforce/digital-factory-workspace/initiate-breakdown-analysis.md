@@ -33,7 +33,7 @@ Role required: sn\_icw.deviation\_user or sn\_icw.deviation\_expert
 
 5.  Select **Save**.
 
-    The Playbook opens that helps you get to the root of the breakdown. To learn more about Playbook Experience, see [About Playbook Experience](https://www.servicenow.com/docs/access?context=playbook-ui&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    The Playbook opens that helps you get to the root of the breakdown. To learn more about Playbook Experience, see About Playbook Experience.
 
 6.  From the Recommendations sidebar, attach a standard related to the breakdown analysis.
 

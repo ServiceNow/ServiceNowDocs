@@ -17,8 +17,8 @@ Prompt an agent to complete all items in a task checklist.
 
 The key input for this activity is the **Checklist Template** field under the [Inputs](checklist-task-activity.md#table_cjj_sr3_plb) section. Before you can provide this input, you must:
 
--   [Create a checklist](https://www.servicenow.com/docs/access?context=t_CreateAChecklist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), and
--   [Create a checklist template for the target task table.](https://www.servicenow.com/docs/access?context=create-checklist-template&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+-   Create a checklist, and
+-   Create a checklist template for the target task table.
 
 ## Roles and availability
 
@@ -28,7 +28,7 @@ This activity is available as a common activity. Users with the admin, playbook.
 
 These properties are common to all to activities in Playbooks.
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see Dot-walking examples.
 
 <table id="table_sym_wlm_d2c"><thead><tr><th>
 
@@ -157,8 +157,8 @@ Reference.Checklist Template \[checklist\_template\]
 
 </td><td>
 
-Template for the checklist to create for each run. Before you can provide this input, you must:-   [Create a checklist](https://www.servicenow.com/docs/access?context=t_CreateAChecklist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), and
--   [Create a checklist template for Visual Task Board tasks](https://www.servicenow.com/docs/access?context=create-checklist-template&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+Template for the checklist to create for each run. Before you can provide this input, you must:-   Create a checklist, and
+-   Create a checklist template for Visual Task Board tasks
 
 </td></tr><tr><td>
 

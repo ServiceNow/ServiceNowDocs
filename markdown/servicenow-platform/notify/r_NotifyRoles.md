@@ -19,7 +19,7 @@ If you have created a new role, then you must add the new role to the correspond
 
 **Note:** Only the user with the Notify administrator \[notify\_admin\], and Notify viewer \[notify\_view\] roles can have access to Notify tables. The deny unless authenticated ACLs restrict access to the Notify tables for any unauthenticated role such as public role user.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 **Parent Topic:**[Components installed with Notify](installed-with-notify2.md)
 

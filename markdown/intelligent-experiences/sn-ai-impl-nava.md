@@ -32,7 +32,7 @@ Now Assist in Virtual Agent provides the following features:
 
     Users can request Service Catalog items using natural conversation. Virtual Agent asks clarifying questions and confirms the user's intent before completing the request.
 
-    **Note:** Service Catalog items must be marked as conversational to work with Virtual Agent. For details, see [Catalog item conversational details page overview](https://www.servicenow.com/docs/access?context=using-catalog-conversational-experience&version=australia&pubname=australia-servicenow-platform&section=catalog-item-conv-details-page-overview&ft:locale=en-US).
+    **Note:** Service Catalog items must be marked as conversational to work with Virtual Agent. For details, see Catalog item conversational details page overview.
 
 -   Multi-turn Q&amp;A
 
@@ -49,7 +49,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     To set up Now Assist in Virtual Agent, you configure an assistant.
 
-    See: [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    See: Configuring assistants overview
 
 -   **2. Review your Virtual Agent topic inventory**
 
@@ -59,8 +59,8 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     See:
 
-    -   [Conversational Analytics dashboard in Platform Analytics experience](https://www.servicenow.com/docs/access?context=VA-dashboard-landing-page-pae&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    -   [Create an Automation Discovery report](https://www.servicenow.com/docs/access?context=create-auto-discovry-report&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)
+    -   Conversational Analytics dashboard in Platform Analytics experience
+    -   Create an Automation Discovery report
 -   **Review your knowledge base**
 
     Identify KB articles that can self-serve any of the top intents you identified.
@@ -75,7 +75,7 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? Leverage existing Virtual Agent topics with minimal effort.
 
-    See: [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://www.servicenow.com/docs/access?context=llm-topic-migration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    See: Migrating NLU/keyword Virtual Agent topics to LLM topics
 
 -   **5. Review Service Catalog items**
 
@@ -91,25 +91,25 @@ Setting up Now Assist in Virtual Agent requires customizing or creating a new LL
 
     Why? New LLM versions of older NLU Virtual Agent topics reduce rework.
 
-    See: [ITSM Virtual Agent pre-built LLM topics](https://www.servicenow.com/docs/access?context=itsm-va-prebuilt-topics&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+    See: ITSM Virtual Agent pre-built LLM topics
 
 
 ## Tips
 
 -   When migrating legacy NLU topics, ensure that you optimize topic descriptions so that the topic is clearly described and aligned with the intent and expected results.
 
-    For details, see [LLM description and instruction guidelines for Virtual Agent topics](https://www.servicenow.com/docs/access?context=va-llm-description-guidelines&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For details, see LLM description and instruction guidelines for Virtual Agent topics.
 
 -   You can customize the look of your assistant and the chat experience during guided setup.
 
-    For details, see [Brand an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For details, see Brand an assistant.
 
 -   You can choose the chat experience you want for each assistant:
-    -   [Standard chat](https://www.servicenow.com/docs/access?context=nava-standard-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    -   [Enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    -   Standard chat
+    -   Enhanced chat
 -   You can integrate Now Assist in Virtual Agent with Microsoft Teams.
 
-    For details, see [Integrating Now Assist in Virtual Agent with Microsoft Teams](https://www.servicenow.com/docs/access?context=integrating-now-assist-va-msteams&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For details, see Integrating Now Assist in Virtual Agent with Microsoft Teams.
 
 
 For more information about conversational catalogs in AI, see the following information from ServiceNow Community and YouTube:

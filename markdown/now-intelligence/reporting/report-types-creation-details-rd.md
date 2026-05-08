@@ -23,7 +23,7 @@ You can generate the following types of reports, organized by category:
 
 -   [Bar reports](report-types-creation-details-rd.md#table_xwp_vqq_5x) enable you to compare scores across data dimensions.
 -   [Pie and Donut reports](report-types-creation-details-rd.md#table_lky_gfn_nhb) visualize the relationship between the parts and the whole of a data set using a single round shape.
--   [Time Series reports](report-types-creation-details-rd.md#table_e1q_xqq_5x) visualize data over time. In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series reports. For more information, see [MetricBase application](https://www.servicenow.com/docs/access?context=metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+-   [Time Series reports](report-types-creation-details-rd.md#table_e1q_xqq_5x) visualize data over time. In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series reports. For more information, see MetricBase application.
 -   [Multidimensional reports](report-types-creation-details-rd.md#table_i11_yqq_5x) visualize data across dimensions in a single table or graph.
 -   [Scores](report-types-creation-details-rd.md#table_sth_yqq_5x) visualize single data points either across ranges or as a single value.
 -   [Statistical reports](report-types-creation-details-rd.md#table_g3p_yqq_5x) visualize data with statistical values such as medians and means.

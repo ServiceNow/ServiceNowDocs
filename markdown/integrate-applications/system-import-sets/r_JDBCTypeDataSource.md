@@ -199,7 +199,7 @@ Role required: import\_admin
 
     ![JDBC Data Source](../image/JDBCDataSource.png)
 
-4.  [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and add the **Connection URL** field.
+4.  Configuring the form layout and add the **Connection URL** field.
 
 5.  Provide the connection URL to the JDBC data source, and then click **Submit**.
 

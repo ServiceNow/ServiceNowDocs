@@ -16,8 +16,6 @@ Set up Moveworks for Employee Slate by connecting the Moveworks AI Assistant and
 
 ## Before you begin
 
-Verify the following prerequisites:
-
 -   The Employee Slate for Moveworks foundational plugin is installed from the Product Hub page.
 -   The Employee Slate Advanced plugin is installed if the deployment requires the advanced experience.
 -   You have the Moveworks entitlement for the organization.

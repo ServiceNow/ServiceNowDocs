@@ -83,7 +83,7 @@ Schema
 
 </td><td>
 
-Reference to a schema table. Select a schema from the list. For information on schemas, see [Schema management in Stream Connect](https://www.servicenow.com/docs/access?context=schema-management&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
+Reference to a schema table. Select a schema from the list. For information on schemas, see Schema management in Stream Connect.**Note:** The message you're sending in the **Message** field must adhere to the structure of the selected schema.
 
 </td></tr><tr><td>
 

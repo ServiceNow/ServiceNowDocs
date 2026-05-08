@@ -30,7 +30,7 @@ The following items are installed with the Segment Management application \(com.
 -   Roles
 -   Tables
 
-For more information on viewing components that are installed with an application, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information on viewing components that are installed with an application, see Find components installed with an application.
 
 ## Procedure
 

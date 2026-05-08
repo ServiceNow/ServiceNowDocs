@@ -19,9 +19,9 @@ Database changes are captured for actions like jobs and scripts so that the chan
 
 -   Rollback is limited to a few days, per the configured expiry duration of the RollbackContext of the new RollbackType **REDACT**. After expiration of the RollbackContext associated with a data privacy job, the rollback function is no longer available for that job.
     -   A rollback context from de-anonymization is saved for three days by default.
-    -   The default expiry time can be set to a value greater than one by the data privacy administrator in the **RollbackContext** of the new **RollbackType** **REDACT.** Set the value in the Glide system property **glide.rollback.expiration\_days\_redact**. See [Roll back and delete recovery](https://www.servicenow.com/docs/access?context=rollback-delete-recovery&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    -   The default expiry time can be set to a value greater than one by the data privacy administrator in the **RollbackContext** of the new **RollbackType** **REDACT.** Set the value in the Glide system property **glide.rollback.expiration\_days\_redact**. See Roll back and delete recovery.
 
-        To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+        To learn more about adding or creating a system property, see Add a system property.
 
         for additional information.
 

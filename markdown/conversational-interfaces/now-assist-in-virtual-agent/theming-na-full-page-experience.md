@@ -15,7 +15,7 @@ breadcrumb: [Configuring assistants overview, Now Assist in Virtual Agent, Conve
 
 You can customize the look and feel of the Now Assist in Virtual Agent enhanced chat experience in your ServiceNow portal by updating the relevant Cascading Style Sheet \(CSS\) variables.
 
-As a Virtual Agent admin or admin, you can customize the default enhanced chat theming variables. Information on how to customize theming can be found in [Create a portal theme](https://www.servicenow.com/docs/access?context=c_CustomCSS&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US). Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
+As a Virtual Agent admin or admin, you can customize the default enhanced chat theming variables. Information on how to customize theming can be found in Create a portal theme. Edit these variables in the following table within the CSS variables field \(sp\_theme\) record. You can also configure these variables with a CSS Include associated with a portal's theme.
 
 **Note:**
 

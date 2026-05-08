@@ -19,7 +19,7 @@ As an administrator, you can use the Conversational Integration with Facebook Me
 
 ## Integrating with Customer Service Management
 
-Integrate the Conversational Integration with Facebook Messenger application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a Facebook Messenger chat conversation with a virtual agent or live agent. For more information, see [Integrate Facebook Messenger with Customer Service Management](https://www.servicenow.com/docs/access?context=messg-integrate-fbm-csm&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Integrate the Conversational Integration with Facebook Messenger application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a Facebook Messenger chat conversation with a virtual agent or live agent. For more information, see Integrate Facebook Messenger with Customer Service Management.
 
 **Parent Topic:**[Configure Conversational Integration with Facebook Messenger](../task/messg-fbm-configure.md)
 

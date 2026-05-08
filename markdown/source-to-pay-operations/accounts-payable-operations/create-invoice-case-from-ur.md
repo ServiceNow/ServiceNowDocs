@@ -46,11 +46,11 @@ Users can also create own groups. For more information on creating own service- 
 
     If a ticket is transferred to another team and the user who submitted the UR doesn't have the necessary permissions to access that team's case, updates to the UR will not be visible to them.
 
-    For more information on transferring a UR, see [Transfer a primary ticket](https://www.servicenow.com/docs/access?context=route-primarytask-to-ur&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).![Transfer UR](../image/transfer-ur.png)
+    For more information on transferring a UR, see Transfer a primary ticket.![Transfer UR](../image/transfer-ur.png)
 
 6.  Select **Create Associated Ticket** to request other departments for assistance in resolving a universal request \(UR\).
 
-    For more information on associated ticket, see [Create associated ticket for primary ticket of UR](https://www.servicenow.com/docs/access?context=create-associated-ticket&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information on associated ticket, see Create associated ticket for primary ticket of UR.
 
     If the ticket is assigned to another team, and the original user who submitted the UR doesn’t possess the necessary privileges or access to view that team's case, they’ll be unable to monitor updates on the UR.
 

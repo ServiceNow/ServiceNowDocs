@@ -25,7 +25,7 @@ Role required: sn\_erp\_mining.erp\_admin, sn\_erp\_mining.erp\_user
 
 ## About this task
 
-For general information on preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For general information on preferences, see System and custom notification and delivery channel preferences in Next Experience.
 
 ## Procedure
 

@@ -48,7 +48,7 @@ Role required: admin, workspace\_admin, or ui\_builder\_admin​
 
 ## What to do next
 
-[Define event mappings for Work scheduler](https://www.servicenow.com/docs/access?context=work-sched-event-mapping&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+Define event mappings for Work scheduler
 
 **Parent Topic:**[Create a Work scheduler card using the Next Experience UI Builder](create-workscheduler-card-wfo-cs.md)
 

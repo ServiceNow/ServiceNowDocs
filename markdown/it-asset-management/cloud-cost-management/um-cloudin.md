@@ -63,7 +63,7 @@ Cloud Cost Management uses an optimized process for each provider.
 
 [Schedule unused resources to be powered off or terminated](../task/um-schedule-job-cloudin.md)
 
-[Change Management](https://www.servicenow.com/docs/access?context=c_ITILChangeManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.c_ITILChangeManagement]
 
 [Exclude a resource from all Cloud Cost Management reports](../task/exclusion-list-add-to-cloudin.md)
 

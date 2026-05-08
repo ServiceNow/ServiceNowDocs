@@ -98,5 +98,5 @@ Multiple tables are enabled for global search in the base system. Each global se
 
 [Global text search suggestions](../reference/r_GlobalTextSearchSuggestions.md)
 
-[Create and delete views](https://www.servicenow.com/docs/access?context=create-delete-view&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.create-delete-view]
 

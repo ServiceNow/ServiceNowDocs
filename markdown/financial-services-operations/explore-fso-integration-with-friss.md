@@ -34,7 +34,7 @@ The following diagram is a workflow of the FRISS integration. The diagram shows 
 |-----|-----------|
 |Workflow Layer|Layer that contains the Commercial Lines Claims and Personal Lines Claims applications for triggering and storing fraud scores.|
 |Adapter/Integration Layer|Layer that contains the Financial Services Operations Integration with FRISS subflow to execute the FRISS spoke actions and to provide a fraud score. Additional tables are added to this service to store the fraud score.|
-|Spoke Layer|Layer that contains the FRISS spoke actions that use REST APIs to interact with FRISS. For more information on the FRISS spoke actions, see[FRISS Spoke](https://www.servicenow.com/docs/access?context=friss-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).|
+|Spoke Layer|Layer that contains the FRISS spoke actions that use REST APIs to interact with FRISS. For more information on the FRISS spoke actions, seeFRISS Spoke.|
 
 ## Financial Services Operations Integration with FRISS benefits
 

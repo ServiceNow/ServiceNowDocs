@@ -104,7 +104,7 @@ Option to choose a custom color for the conversations in Microsoft Teams as per 
 
 6.  Configure the Virtual Agent in your instance by selecting **Configure Virtual Agent**.
 
-    For more information, see [Conversational Integration with Microsoft Teams](https://www.servicenow.com/docs/access?context=teams-conv-integration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For more information, see Conversational Integration with Microsoft Teams.
 
     ![Configure Virtual Agent tab](../images/configure-va-tab-ms365.png)
 
@@ -115,7 +115,7 @@ Option to choose a custom color for the conversations in Microsoft Teams as per 
         The Virtual Agent Bot ID is auto-populated if you select this option.
 
     -   If you want to connect multiple ServiceNow instances to one Microsoft Teams tenant, select **Connect multiple ServiceNow instances to your Microsoft Teams tenant**.
-    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://www.servicenow.com/docs/access?context=va-integ-teams-self-configured-bot&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    To integrate Virtual Agent with Microsoft Teams by configuring your own bots, see Integrating Virtual Agent with Microsoft Teams using the self-configured bot.
 
 8.  In the Configure Tab section, fill in the following fields and select **Next**.
 

@@ -24,7 +24,7 @@ The agent calendar administrator has access to the Agent Schedule menu in the ap
 -   **Event Configuration**: create a configuration for each type of event or task displayed on the agent calendar.
 -   **Work Schedule**: create one or more work schedules for each calendar user.
 -   **Agent Personal Events**: create personal schedules for each agent and add events to those schedules.
--   **Schedule**: create or modify schedules. For more information, see [Schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   **Schedule**: create or modify schedules. For more information, see Schedules.
 
 ## Viewing the calendar
 
@@ -139,7 +139,7 @@ Allows customer service agents and field service technicians to access and updat
 </table>**Related topics**  
 
 
-[Creating and using schedules](https://www.servicenow.com/docs/access?context=c_UseSchedules&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_UseSchedules]
 
 [Configuring an agent calendar](configure-agent-calendar.md)
 

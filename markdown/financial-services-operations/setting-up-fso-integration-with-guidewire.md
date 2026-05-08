@@ -29,11 +29,11 @@ To set up your integration, complete the following application setup actions.
 
 2.  Request an Integration Hub subscription.
 
-    To learn how, see [Request Integration Hub](https://www.servicenow.com/docs/access?context=request-ih-overview&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    To learn how, see Request Integration Hub.
 
 3.  Install the Financial Services Operations Integration with Guidewire application from the ServiceNow Store, which automatically activates the Guidewire spoke.
 
-    For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see [Guidewire Spoke](https://www.servicenow.com/docs/access?context=guidewire-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information on how to integrate and set up a ServiceNow instance with your Guidewire account, see Guidewire Spoke.
 
 
 **Parent Topic:**[Financial Services Operations Integration with Guidewire](../concept/fso-integration-with-guidewire-landing-page.md)

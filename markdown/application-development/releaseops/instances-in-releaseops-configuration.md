@@ -19,7 +19,7 @@ Learn about the different types of instances in ReleaseOps configuration.
 
 The terms controller instance and managed instances are specific to multi-instance management. ReleaseOps uses multi-instance management to handle trust configurations across instances and orchestrate deployments from a single instance. The instance that manages the other instances and orchestrates deployments is the controller instance. The other instances that the controller instance manages are the managed instances. During ReleaseOps configuration, you must add managed instances and authorize your controller instance to manage those instances.
 
-For more information about multi-instance management, see [Cross-instance application trust configuration](https://www.servicenow.com/docs/access?context=grant-access-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US). To see a complete list of managed instances, you can navigate to **All** &gt; **Multi-instance management** &gt; **Managed instances**.
+For more information about multi-instance management, see Cross-instance application trust configuration. To see a complete list of managed instances, you can navigate to **All** &gt; **Multi-instance management** &gt; **Managed instances**.
 
 ## Deployment instances and pipeline instances
 

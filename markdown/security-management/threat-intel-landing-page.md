@@ -56,7 +56,7 @@ The ServiceNow® Threat Intelligence application enables you to find indicators 
 
 -   [Developer training](https://developer.servicenow.com/app.do#!/training/landing)
 -   [Developer documentation](https://developer.servicenow.com/app.do#!/documentation)
--   [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   Find components installed with an application
 
 ## Troubleshoot and get help
 

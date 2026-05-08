@@ -21,11 +21,11 @@ To be able to use indoor maps in Hardware Asset Workspace, make sure you fulfill
 
 -   You should explicitly install Indoor Mapping for Assets \(com.sn\_ima\) application from the ServiceNow® Store. When you install this application, Indoor Mapping \(sn\_map\_core\) and Indoor Mapping component \(sn\_map\_component\) are also installed.
 
-    **Note:** To be able to view demo data for indoor maps, you must reinstall demo data after you install the Indoor Mapping for Assets application. For more information, see [Add or repair demo data for applications and plugins](https://www.servicenow.com/docs/access?context=jny-dsgnr-install-repair-app-plugin&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    **Note:** To be able to view demo data for indoor maps, you must reinstall demo data after you install the Indoor Mapping for Assets application. For more information, see Add or repair demo data for applications and plugins.
 
 -   Set the **com.sn\_ham.indoormap.enabled** asset parameter to **true** on your ServiceNow instance.
 
--   Set up your indoor maps: You can design indoor maps using Map Studio. For more information, see [Configure Indoor Mapping](https://www.servicenow.com/docs/access?context=configure-ind-mapping&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+-   Set up your indoor maps: You can design indoor maps using Map Studio. For more information, see Configure Indoor Mapping.
 
     **Note:** When you install indoor maps using the entitlement to the Hardware Asset Management license, you can use only the PNG floor map files in the Map Studio. You can’t import the files that are in AutoCAD or Raster file format. To use AutoCAD or Raster files, you should have entitlement to Workplace Service Delivery.
 
@@ -39,7 +39,7 @@ To be able to use indoor maps in Hardware Asset Workspace, make sure you fulfill
 
     To view the newly created locations within the Hardware Asset Management application, make sure to synchronize the newly created locations from Map Studio to the Location \[cmn\_location\] table.
 
-    You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see [Synchronize Indoor Mapping map data with CMN location](https://www.servicenow.com/docs/access?context=sync-ind-mapping-cmn-location&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see Synchronize Indoor Mapping map data with CMN location.
 
 
 Role required: admin or asset

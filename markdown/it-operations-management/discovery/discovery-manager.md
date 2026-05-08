@@ -53,7 +53,7 @@ Specify your cloud provider and select the service account to discover. You can 
 
 ### Before you begin
 
-Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://www.servicenow.com/docs/access?context=use-mid-server-guidedsetup&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://www.servicenow.com/docs/access?context=t_InstallAMIDServerOnLinux&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Windows](https://www.servicenow.com/docs/access?context=mid-server-install-prereqs&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
+Before you attempt to configure Cloud Discovery, you must have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using Use MID Server guided setup or by manually downloading and running the installer. For details, see the MID Server installation instructions for Linux and Windows. Ensure to configure the MID Server used for Cloud Discovery with the Cloud Management capability.
 
 Role required: discovery\_admin
 
@@ -75,7 +75,7 @@ The default timeout value is 300000 milliseconds or 5 minutes.
 
     **Note:** The Welcome screen contains a link to the [Discovery Quick Start](discovery-quick-start.md#). This wizard is designed to quickly set up a basic Discovery. You can use Quick Start to evaluate Discovery or to explore new network devices, but the guide is not intended for discovering cloud resources.
 
-    If the system cannot detect an appropriate MID Server, you're prompted to install and configure a MID Server by using the [MID Server Guided Setup](https://www.servicenow.com/docs/access?context=use-mid-server-guidedsetup&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). This notification is also displayed if an existing MID Server is not available because it is upgrading.
+    If the system cannot detect an appropriate MID Server, you're prompted to install and configure a MID Server by using the MID Server Guided Setup. This notification is also displayed if an existing MID Server is not available because it is upgrading.
 
     ![MID Server setup link](../image/QS_NoMIDFound2.png)
 

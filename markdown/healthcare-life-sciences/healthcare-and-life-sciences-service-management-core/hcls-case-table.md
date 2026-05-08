@@ -17,7 +17,7 @@ The Healthcare case \[sn\_hcls\_case\] table is an abstract table and is extenda
 
 ## Key features
 
--   Extends the Case \[sn\_customerservice\_case\] table to store all healthcare cases associated with a patient. For more information, see, [Tables installed with Customer Service Management](https://www.servicenow.com/docs/access?context=r_TIWCustomerService&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+-   Extends the Case \[sn\_customerservice\_case\] table to store all healthcare cases associated with a patient. For more information, see, Tables installed with Customer Service Management.
 -   Includes the **Patient** field as an optional field anda reference to the Patient \[sn\_hcls\_patient\] table. For more information, see [Patient table](hcls-patient-table.md).
 -   Enables healthcare case types including drug program enrollment, clinical trial enrollment, billing inquiry, and patient appointment request.
 

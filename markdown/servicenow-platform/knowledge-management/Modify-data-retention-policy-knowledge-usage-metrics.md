@@ -33,7 +33,7 @@ Activating the data retention policy for the kb\_usage\_metrics table deletes re
 
 4.  Adjust the duration the system waits before deleting the records by modifying the value in the **Age in seconds** field.
 
-    By default, the **Age in seconds** field value is set to 2,592,000 seconds \(equivalent to 30 days\). For more information, see [Autoflush form](https://www.servicenow.com/docs/access?context=atf-auto-flush&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    By default, the **Age in seconds** field value is set to 2,592,000 seconds \(equivalent to 30 days\). For more information, see Autoflush form.
 
 5.  Click **Update**.
 

@@ -21,7 +21,7 @@ Actionable notifications are interactive messages that Virtual Agent sends to th
 
 Admin or Virtual Agent admin \(virtual\_agent\_admin\) users activate notifications and the ITSM Virtual Agent Conversation topics.
 
-To create your own custom notifications, see [Configuring Virtual Agent notifications](https://www.servicenow.com/docs/access?context=configuring-va-notifications&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To create your own custom notifications, see Configuring Virtual Agent notifications.
 
 ## Pre-built ITSM actionable notifications
 

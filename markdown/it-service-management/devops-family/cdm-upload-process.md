@@ -41,7 +41,7 @@ You first create a new CDM application structure and then upload the existing co
 
     **Note:** When you upload your existing config from an XML file and the **ignoreAttributes** is set to **false**, the CDM XML Parser retains the attributes in JSON using identifiers. For more information, see [Parsing of XML files in CDM](cdm-parsing-xml-file.md).
 
-    This example shows the REST API Explorer platform utility for clarity. This is an example of how you might construct an Upload to components REST POST request that creates a `dbProperties.json` node in the **PaymentSvc-1.0** component and then adds the source data to the new node. \(You specify the source data to upload in another field.\) The APIs are described in [CdmApplicationsApi](https://www.servicenow.com/docs/access?context=applications-api&version=australia&pubname=australia-api-reference&ft:locale=en-US), [CdmChangesetsApi](https://www.servicenow.com/docs/access?context=changesets-api&version=australia&pubname=australia-api-reference&ft:locale=en-US), and [CdmSnapshotApi](https://www.servicenow.com/docs/access?context=snapshot-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    This example shows the REST API Explorer platform utility for clarity. This is an example of how you might construct an Upload to components REST POST request that creates a `dbProperties.json` node in the **PaymentSvc-1.0** component and then adds the source data to the new node. \(You specify the source data to upload in another field.\) The APIs are described in CdmApplicationsApi, CdmChangesetsApi, and CdmSnapshotApi.
 
     ![REST API Explorer form.](../image/cdm-rest-explorer-components-2.png)
 

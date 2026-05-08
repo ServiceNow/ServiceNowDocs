@@ -32,7 +32,7 @@ In Contact Tracing version 1.29.4. and above, the navigation path is not availab
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
-    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    The Safe Workplace guided setup provides a sequence of tasks that help you configure the Safe Workplace and Emergency Response Management applications on your ServiceNow instance. To open the Safe Workplace guided setup, navigate to **Guided Setup** &gt; **Safe Workplace Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 
 ## Use with other ServiceNow® Safe Workplace suiteand applications
@@ -50,7 +50,7 @@ The Contact Tracing application provides enhanced capabilities and additional fe
 
 ## Domain separation for the Contact Tracing application
 
-The Contact Tracing application supports domain separation at the Standard\* level. For more information, see [Domain separation and Contact Tracing](contact-tracing-domain-separation.md). For a deeper understanding of the support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+The Contact Tracing application supports domain separation at the Standard\* level. For more information, see [Domain separation and Contact Tracing](contact-tracing-domain-separation.md). For a deeper understanding of the support levels, see Application support for domain separation.
 
 ## Notice regarding use by organizations
 

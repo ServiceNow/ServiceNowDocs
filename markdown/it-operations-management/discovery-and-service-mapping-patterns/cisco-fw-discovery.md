@@ -26,12 +26,12 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 ## Prerequisites
 
 -   Ensure that your network firewall device has SNMP access.
--   On the ServiceNow instance, configure SNMP credentials. For more information, see [SNMP credentials](https://www.servicenow.com/docs/access?context=c_SNMPCredentials&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   On the ServiceNow instance, configure SNMP credentials. For more information, see SNMP credentials.
 -   Add the SNMP system OID record for the Cisco device to the ServiceNow instance. Update the following:
     -   Classifier: Cisco Firewall
     -   Class: Cisco Firewall Device
 -   Deploy the pattern as follows:
-    1.  Download and install [Firewall extension classes](https://www.servicenow.com/docs/access?context=cmdb-ci-class-models-fw&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
+    1.  Download and install Firewall extension classes from the ServiceNow Store. The app adds the new CMDB classes required for network firewall discovery.
     2.  Download and install the Discovery and Service Mapping Patterns application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
     3.  Sync the pattern with the appropriate MID Server.
 

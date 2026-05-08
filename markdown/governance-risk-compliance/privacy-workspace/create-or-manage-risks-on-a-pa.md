@@ -38,15 +38,15 @@ You can add or manage risks to a processing activity in the following ways:
 
 4.  To add a risk to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d315414e107">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d315407e107">
 
 Option
 
-</th><th align="left" id="d315414e110">
+</th><th align="left" id="d315407e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d315414e116">
+</th></tr></thead><tbody><tr><td id="d315407e116">
 
 **To create a risk**
 
@@ -54,7 +54,7 @@ Description
 
 Click **New** and fill in the form.For details see, [Create a risk](../../grc-risk/task/t_CreateRisk.md).
 
-</td></tr><tr><td id="d315414e138">
+</td></tr><tr><td id="d315407e138">
 
 **To add a risk by using the existing risk statement**
 
@@ -65,7 +65,7 @@ Click **New** and fill in the form.For details see, [Create a risk](../../grc-ri
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d315414e165">
+</td></tr><tr><td id="d315407e165">
 
 **To select a risk from the list of recommended risks**
 

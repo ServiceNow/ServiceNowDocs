@@ -742,7 +742,7 @@ g_form.clearOptions('priority');
 
 Removes any value\(s\) from the specified field.
 
-**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see Configuring read-only security options.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1003,7 +1003,7 @@ function onSubmit() {
 
 Returns a list of all annotations on a form.
 
-[Annotations](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddAFormAnnotation&ft:locale=en-US) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm \(Next Experience\) - getAnnotationByName\(String name\)](GlideFormAPINX.md#) to return a specific annotation by its name.
+Annotations are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm \(Next Experience\) - getAnnotationByName\(String name\)](GlideFormAPINX.md#) to return a specific annotation by its name.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1093,7 +1093,7 @@ annotations.forEach(function(annotation) {
 
 Returns a form annotation of a given name.
 
-[Annotations](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddAFormAnnotation&ft:locale=en-US) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm \(Next Experience\) - getAnnotations\(\)](GlideFormAPINX.md#) to return all annotations in a form.
+Annotations are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm \(Next Experience\) - getAnnotations\(\)](GlideFormAPINX.md#) to return all annotations in a form.
 
 <table id="table_skr_c4l_rfc" class="parameters"><thead><tr><th>
 
@@ -1765,7 +1765,7 @@ String
 
 Hides an annotation with a given name on the form UI.
 
-[Annotations](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddAFormAnnotation&ft:locale=en-US) are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
+Annotations are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
 
 -   [GlideForm \(Next Experience\) - showAnnotation\(String name\)](GlideFormAPINX.md#) to display a specific annotation on the form.
 -   [GlideForm \(Next Experience\) - toggleAnnotations\(\)](GlideFormAPINX.md#) to toggle annotations on and off with greater flexibility.
@@ -1926,7 +1926,7 @@ This method is not available on the mobile platform. If this method is run on a 
 
 Returns true if the field is mandatory.
 
-Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see [Form fields](https://www.servicenow.com/docs/access?context=c_FormFields&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see Form fields.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2373,7 +2373,7 @@ if (g_user.hasRole('itil')) {
 
 Makes the specified field mandatory.
 
-Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see [Form fields](https://www.servicenow.com/docs/access?context=c_FormFields&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see Form fields.
 
 **Note:** Whenever possible, use a UI policy rather than this method.
 
@@ -2547,7 +2547,7 @@ To improve performance by preventing a round trip when setting the value for a r
 
 This method also supports setting values in a multi-row variable set \(MRVS\). You must first use `JSON.parse(getValue('<mrvs_field_name>'))` to obtain the MRVS array and then use indexing to update the fields within the row objects. Once all values are updated in the MRVS, use the setValue\(\) method to save the updated MRVS array. For more details, see the code example below.
 
-**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see Configuring read-only security options.
 
 **Note:** The method setValue\(\) can cause a stack overflow when used in an `onchange` client script. This is because every time the value is set, it will register as a change, which may re-trigger the OnChange client script. To prevent this, perform a check that will validate that the new value will be different from the old value. For example, before performing `setValue(shortDesc, newValue.toUpperCase());`, validate that the short description is not already uppercase. This will prevent the client script from applying the toUpperCase\(\) more than once.
 
@@ -2601,7 +2601,7 @@ String or Array
 
 Optional. Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
 
-For additional information on display values, see [Display value](https://www.servicenow.com/docs/access?context=c_DisplayValues&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For additional information on display values, see Display value.
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -2658,7 +2658,7 @@ Makes a Service Catalog variable editor read only.
 
 The method must be placed in the client script of the table in which the variable editor is added, such as Requested Item \[sc\_req\_item\], Incident \[incident\], and so on. To set variables to read only in other tables, use the [setReadOnly\(\)](GlideFormAPINX.md#) method.
 
-See also: [Service Catalog variable editors](https://www.servicenow.com/docs/access?context=service-catalog-variable-editor&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+See also: Service Catalog variable editors
 
 <table id="table_xdf_qpc_5s" class="parameters"><thead><tr><th>
 
@@ -2770,7 +2770,7 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
 Shows an annotation with a given name on the form UI.
 
-[Annotations](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddAFormAnnotation&ft:locale=en-US) are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
+Annotations are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
 
 -   [GlideForm \(Next Experience\) - hideAnnotation\(String name\)](GlideFormAPINX.md#) to hide a specific annotation on the form.
 -   [GlideForm \(Next Experience\) - toggleAnnotations\(\)](GlideFormAPINX.md#) to toggle annotations on and off with greater flexibility.
@@ -3106,7 +3106,7 @@ Performs the specified UI action.
 
 Hides or shows all annotations on the form.
 
-[Annotations](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&section=t_AddAFormAnnotation&ft:locale=en-US) are visual separators between form elements, or blocks of colored text used to highlight form elements. If annotations are visible on the form, calling toggleAnnotations\(\) hides them. Similarly if annotations are hidden on the form, calling this method displays them. See also:
+Annotations are visual separators between form elements, or blocks of colored text used to highlight form elements. If annotations are visible on the form, calling toggleAnnotations\(\) hides them. Similarly if annotations are hidden on the form, calling this method displays them. See also:
 
 -   [GlideForm \(Next Experience\) - hideAnnotation\(String name\)](GlideFormAPINX.md#)
 -   [GlideForm \(Next Experience\) - showAnnotation\(String name\)](GlideFormAPINX.md#)

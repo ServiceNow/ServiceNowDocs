@@ -27,7 +27,7 @@ Create a custom UI macro and code when you register it against a selected UI ext
 
 Role required: application-specific developer, application-specific admin, or admin
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://www.servicenow.com/docs/access?context=ACL-access-checks&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** To learn about application-specific administrator roles and delegated development, see Access control rules in application administration apps and Delegated development and deployment.
 
 ### Procedure
 
@@ -60,7 +60,7 @@ Review the listing of custom UI macros that are registered against a UI extensio
 
 Role required: admin or the specific role for the developer or administrator of the application
 
-**Note:** To learn about application-specific administrator roles and delegated development, see [Access control rules in application administration apps](https://www.servicenow.com/docs/access?context=ACL-access-checks&version=australia&pubname=australia-application-development&ft:locale=en-US) and [Delegated development and deployment](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US).
+**Note:** To learn about application-specific administrator roles and delegated development, see Access control rules in application administration apps and Delegated development and deployment.
 
 ### Procedure
 
@@ -76,7 +76,7 @@ Role required: admin or the specific role for the developer or administrator of 
     |-----|-----------|
     |Point|Unique name for the UI extension point. The name can have up to 100 alphanumeric characters, including special characters.|
     |Class|UI macro in the application code in which the UI extension point is implemented.|
-    |Application|Application scope against which the extension point is assigned. This is system-assigned and cannot be changed. For more information about the protections that are offered by the use of scoping, see [Application scope](https://www.servicenow.com/docs/access?context=c_ApplicationScope&version=australia&pubname=australia-application-development&ft:locale=en-US).|
+    |Application|Application scope against which the extension point is assigned. This is system-assigned and cannot be changed. For more information about the protections that are offered by the use of scoping, see Application scope.|
     |Active|Active extension point in the current instance. To inactivate an extension point, clear the check box.|
 
 4.  Click **Submit**.

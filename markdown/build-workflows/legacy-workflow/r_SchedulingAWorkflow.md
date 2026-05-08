@@ -111,5 +111,5 @@ For periodical workflows, the first date and time to run the workflow. For sched
 **Related topics**  
 
 
-[Create a scheduled job](https://www.servicenow.com/docs/access?context=t_CreateAScheduledJob&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.t_CreateAScheduledJob]
 

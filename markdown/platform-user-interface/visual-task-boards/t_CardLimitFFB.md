@@ -25,7 +25,7 @@ You can set card limit for both Freeform board and Flexible and Guided board in 
 
 ## Procedure
 
-1.  [Add a new system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following field values:
+1.  Add a new system property with the following field values:
 
     |Field|Value|
     |-----|-----|

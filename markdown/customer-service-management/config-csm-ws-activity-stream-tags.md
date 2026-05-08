@@ -17,7 +17,7 @@ Tags enable you to filter your activities in the activity stream by dynamic and 
 
 ![Filter the activity stream by selecting tags from the Tags dropdown menu](../image/filter-activity-stream-tags.png)
 
-Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see [Create tags for the activity stream](https://www.servicenow.com/docs/access?context=tags-activity-stream-admin&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Tags are enabled and created by your system administrator. To enable and add tags for agents as a system administrator, see Create tags for the activity stream.
 
-To use tags to filter activities in the activity stream, see [Filter activities with tags](https://www.servicenow.com/docs/access?context=tags-activity-stream-agent&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To use tags to filter activities in the activity stream, see Filter activities with tags.
 

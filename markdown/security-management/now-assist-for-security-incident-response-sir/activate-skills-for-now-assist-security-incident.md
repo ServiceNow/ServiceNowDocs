@@ -18,13 +18,13 @@ Configure and review the details for a skill in the Guided Setup. You can edit a
 
 ## Before you begin
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 Role required: sn\_si.admin
 
 ## About this task
 
-**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** Some Now Assist skills, agents, and agentic workflows are turned on by default. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 ## Procedure
 

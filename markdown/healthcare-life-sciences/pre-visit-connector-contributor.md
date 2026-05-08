@@ -30,9 +30,9 @@ The sn\_previsit.contributor and sn\_previsit.agent\_connector roles installed w
 
 An agent connector within the Pre-Visit Management application acts as a fulfiller who can create, update, and close procedure request cases and tasks.
 
-As a user with the admin role, you can determine who can act as an agent connector for the procedure request cases by assigning the sn\_previsit.agent\_connector role and other agent-specific roles to a group, and then assigning the group to the user with the agent connector profile. To assign roles to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As a user with the admin role, you can determine who can act as an agent connector for the procedure request cases by assigning the sn\_previsit.agent\_connector role and other agent-specific roles to a group, and then assigning the group to the user with the agent connector profile. To assign roles to a group, see Assign a role to a group.
 
-The following table describes the location agent profile within the Pre-Visit Management application scope that you can refer to as an example for combining the sn\_previsit.agent\_connector role with the [industry data model roles](https://www.servicenow.com/docs/access?context=csm-data-model-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) in the CSM application.
+The following table describes the location agent profile within the Pre-Visit Management application scope that you can refer to as an example for combining the sn\_previsit.agent\_connector role with the industry data model roles in the CSM application.
 
 <table id="table_n1p_spx_ztb"><thead><tr><th>
 
@@ -65,9 +65,9 @@ sn\_previsit.agent\_connector and sn\_customerservice.svc\_location\_consumer\_a
 
 A contributor within the Pre-Visit Management application acts as a requester who can create and read procedure request cases.
 
-As a user with the admin role, you can determine who can act as a contributor to the procedure request cases by assigning the sn\_previsit.contributor role and other contributor roles to a group, and then assigning the group to the user with the contributor profile. To assign roles to a group, see [Assign a role to a group](https://www.servicenow.com/docs/access?context=t_AssignRoleToGroup&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+As a user with the admin role, you can determine who can act as a contributor to the procedure request cases by assigning the sn\_previsit.contributor role and other contributor roles to a group, and then assigning the group to the user with the contributor profile. To assign roles to a group, see Assign a role to a group.
 
-The following table describes different contributor profiles within the Pre-Visit Management application scope that you can refer to as an example for combining the sn\_previsit.contributor role with the [contributor roles](https://www.servicenow.com/docs/access?context=csm-contributor-user-roles&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) in the CSM application.
+The following table describes different contributor profiles within the Pre-Visit Management application scope that you can refer to as an example for combining the sn\_previsit.contributor role with the contributor roles in the CSM application.
 
 <table id="table_uvh_kmw_ztb"><thead><tr><th>
 
@@ -87,7 +87,7 @@ Relationship contributor
 
 </td><td>
 
-Creates procedure request cases for only those patients with whom a relationship is established. For more information, see [Create relationships](https://www.servicenow.com/docs/access?context=configure-data-model-relationships&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Creates procedure request cases for only those patients with whom a relationship is established. For more information, see Create relationships.
 
 **Note:** To create procedure requests for a patient, a user with the relationship contributor profile must have a relationship with the patient included in the Consumer Team Member \[sn\_customer\_rel\_consumer\_to\_user\_list\] table and the **Relationship Manager** responsibility type.
 

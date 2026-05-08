@@ -23,7 +23,7 @@ You’ll need to establish your company's instance strategy for ServiceNow Studi
 
 A non-production instance that is similarly configured to your production instance may be the best candidate for your test environment. You can then more accurately find issues that may arise if the application is deployed to production.
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the ServiceNow Studio product on your production instance prior to cloning. For more information, see [Instance Clone](https://www.servicenow.com/docs/access?context=system-clone-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the ServiceNow Studio product on your production instance prior to cloning. For more information, see Instance Clone.
 
 After you have established your instance strategy, you must also complete the following tasks.
 

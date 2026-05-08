@@ -90,5 +90,5 @@ The Analytics Hub for a specific indicator has the Overview and Compare tabs, wh
 
 [Dependency Assessment](impact-analysis.md)
 
-[Continual Improvement Management](https://www.servicenow.com/docs/access?context=cim-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.cim-landing-page]
 

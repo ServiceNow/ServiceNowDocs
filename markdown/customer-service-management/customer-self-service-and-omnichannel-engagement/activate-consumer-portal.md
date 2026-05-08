@@ -25,15 +25,15 @@ Role required: admin
 
 2.  Install any one of the following plugins.
 
-<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d251764e76">
+<table id="choicetable_p4p_4dn_fwb"><thead><tr><th align="left" id="d251757e76">
 
 Plugin name
 
-</th><th align="left" id="d251764e79">
+</th><th align="left" id="d251757e79">
 
 Plugin.
 
-</th></tr></thead><tbody><tr><td id="d251764e88">
+</th></tr></thead><tbody><tr><td id="d251757e88">
 
 **Customer Service Portal**
 
@@ -41,7 +41,7 @@ Plugin.
 
 com.snc.customer\_service\_portal
 
-</td></tr><tr><td id="d251764e97">
+</td></tr><tr><td id="d251757e97">
 
 **Consumer Service Portal**
 

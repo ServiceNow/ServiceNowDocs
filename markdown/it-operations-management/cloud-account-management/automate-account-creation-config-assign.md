@@ -77,9 +77,9 @@ This procedure demonstrates how to assign account configuration using the assign
 
 ## What to do next
 
-To test the policy, see [Test updates to a PaCE policy version](https://www.servicenow.com/docs/access?context=pace-test-policy-version&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To test the policy, see Test updates to a PaCE policy version.
 
-To publish the policy, see [Publish a PaCE policy version](https://www.servicenow.com/docs/access?context=pace-publish-policy-version&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+To publish the policy, see Publish a PaCE policy version.
 
-To add a new approval step in the flow designer, see [Exploring Workflow Studio](https://www.servicenow.com/docs/access?context=exploring-workflow-studio&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+To add a new approval step in the flow designer, see Exploring Workflow Studio.
 

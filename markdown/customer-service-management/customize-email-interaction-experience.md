@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For more information on UI Builder, see [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US).
+For more information on UI Builder, see UI Builder.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ For more information on UI Builder, see [UI Builder](https://www.servicenow.com/
 
 6.  Select **Duplicate variant**.
 
-    For more information, see [Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US).
+    For more information, see Create a page variant.
 
 7.  On the Tell us about your variant screen, enter `Custom Email Interaction Page` in the **Name** field.
 

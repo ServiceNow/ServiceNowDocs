@@ -68,9 +68,9 @@ Define the procedure to build functional tools for your agentic workflow with th
 
 ## Invoke Conversations with AI Agent Background Channel
 
-The AI Agent Background Channel helps you to invoke AI Agent or agentic workflow execution from the Workspace. Use the AI Agent Background Channel associated with the AI Agent Background Provider to invoke conversations. The AI Agent Background Provider is based on the Custom Adapter Framework from Virtual Agent. For more information, see [Configure a provider for your custom chat integration](https://www.servicenow.com/docs/access?context=create-provider-va-cccif&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+The AI Agent Background Channel helps you to invoke AI Agent or agentic workflow execution from the Workspace. Use the AI Agent Background Channel associated with the AI Agent Background Provider to invoke conversations. The AI Agent Background Provider is based on the Custom Adapter Framework from Virtual Agent. For more information, see Configure a provider for your custom chat integration.
 
-Create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\] to add any additional conversational capabilities to your own provider application and get a new inbound ID that allows for customization. For more information, see [Create a channel identifier for your custom chat integration](https://www.servicenow.com/docs/access?context=create-channel-id-va-cccif&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\] to add any additional conversational capabilities to your own provider application and get a new inbound ID that allows for customization. For more information, see Create a channel identifier for your custom chat integration.
 
 To start a conversation, trigger the flow using the sn\_aia.AiAgentRunttimeUtil\(\).startAiAgentConversation\(request\) API in the Script Include \(sys\_script\_include\) of the AIAgentBackgroundProvider and select **Run Script**. When the Script execution status indicates Success, the conversation begins in the order of utterances defined in the Script.
 

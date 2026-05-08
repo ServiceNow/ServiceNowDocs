@@ -24,8 +24,8 @@ By default, your iOS users can use the following pre-configured shortcuts in the
 **Note:**
 
 -   To open a chat window in the Mobile Agent app, users can access Agent Chat if the following conditions are met:
-    -   The Agent Chat plugin \(com.glide.interaction.awa\) must be installed on your instance. For details on configuration, see [Setting up Agent Chat](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
-    -   The mobile app must have a chat launcher quick action enabled. For details on enabling chat launcher, see [Enable Live Agent in the Now Mobile app](https://www.servicenow.com/docs/access?context=va-in-me&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    -   The Agent Chat plugin \(com.glide.interaction.awa\) must be installed on your instance. For details on configuration, see Setting up Agent Chat.
+    -   The mobile app must have a chat launcher quick action enabled. For details on enabling chat launcher, see Enable Live Agent in the Now Mobile app.
 -   To search in the ServiceNow instance, the following conditions must be met:
     -   The instance must have global search set up. For details on configuration, see [Global search for mobile](mobile-search-config.md).
     -   The global search must be configured on the first tab in the mobile app.

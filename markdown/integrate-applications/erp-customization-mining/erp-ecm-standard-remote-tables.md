@@ -40,16 +40,16 @@ The following remote tables are available through Zero Copy Connector for ERP an
 |SAP Vendor Invoice|sn\_erp\_integration\_st\_sap\_vendor\_invoice|Sales|
 |SAP Transport|sn\_erp\_integration\_st\_sap\_transport|Transport|
 
-For more details on working with remote tables, see [Remote tables](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+For more details on working with remote tables, see Remote tables.
 
 You can use any of the standard remote tables as data sources when building apps in ServiceNow products, such as:
 
--   [ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Workflow Studio flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Workflow Studio playbooks](https://www.servicenow.com/docs/access?context=workflow-studio-playbooks-landing&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
--   [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [UI Builder](https://www.servicenow.com/docs/access?context=ui-builder-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
--   [Workspace Builder](https://www.servicenow.com/docs/access?context=workspace-builder-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)
+-   ServiceNow Studio
+-   Workflow Studio flows, subflows, and actions
+-   Workflow Studio playbooks
+-   Table Builder
+-   UI Builder
+-   Workspace Builder
 
 You can also access data from the system of record through the Glide API.
 

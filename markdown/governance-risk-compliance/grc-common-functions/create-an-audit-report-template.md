@@ -21,7 +21,7 @@ Install and activate the ServiceNow Document Designer with Word \(sn\_grc\_doc\_
 
 Confirm that you have the templates configured. For more information, see [Configure templates for Document Designer](configure-template-for-document-designer.md).
 
-If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, [Set up Microsoft 365 reporting configuration](https://www.servicenow.com/docs/access?context=configure-o365-reporting-configs&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US) and [Add additional reporting configuration filters for a Microsoft 365 configuration record](https://www.servicenow.com/docs/access?context=add-additional-reporting-filters&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US).
+If you want to insert and update reporting content, set up Microsoft 365 reporting. For more information see, Set up Microsoft 365 reporting configuration and Add additional reporting configuration filters for a Microsoft 365 configuration record.
 
 Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 
@@ -141,9 +141,9 @@ Role required: sn\_audit.manager and sn\_grc\_doc\_design.reader
 **Related topics**  
 
 
-[Set up Microsoft 365 reporting configuration](https://www.servicenow.com/docs/access?context=configure-o365-reporting-configs&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+[bundle-esgv.configure-o365-reporting-configs]
 
-[Add additional reporting configuration filters for a Microsoft 365 configuration record](https://www.servicenow.com/docs/access?context=add-additional-reporting-filters&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+[bundle-esgv.add-additional-reporting-filters]
 
-[Add related fields to a Microsoft 365 configuration record](https://www.servicenow.com/docs/access?context=add-related-fields-0365&version=australia&pubname=australia-environmental-social-governance&ft:locale=en-US)
+[bundle-esgv.add-related-fields-0365]
 

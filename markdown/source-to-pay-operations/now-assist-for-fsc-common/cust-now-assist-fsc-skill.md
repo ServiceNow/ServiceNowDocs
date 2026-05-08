@@ -175,9 +175,9 @@ Closed
 
         -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
 
-            Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see [Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+            Now Assist skills are available in the Now Assist panel. Turn on multi-language support for user-entered text with Dynamic Translation in Now Assist applications. For more information, see Configure multilingual service for Now Assist applications.
 
-            **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+            **Note:** If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
 
             For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 

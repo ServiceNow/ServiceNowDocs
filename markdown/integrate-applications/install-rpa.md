@@ -56,5 +56,5 @@ For more information, see [Components installed with RPA Hub](../../rpa-hub/refe
 
 Use the Robotic Process Automation \(RPA\) Guided Setup to configure the application on your instance.
 
-To access Robotic Process Automation \(RPA\) Guided Setup, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+To access Robotic Process Automation \(RPA\) Guided Setup, navigate to **All** &gt; **Robotic Process Automation** &gt; **Administration** &gt; **Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 

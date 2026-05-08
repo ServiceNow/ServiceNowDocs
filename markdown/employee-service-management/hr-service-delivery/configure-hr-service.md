@@ -119,7 +119,7 @@ Flow
 
 </td><td>
 
-A flow fulfills the HR service. In the **Flow** field, select a flow that will be invoked to fulfill the HR service. To link flow to the HR service, a flow condition needs to be created for the HR service. A flow is an automated process of sequential and reusable actions. For more information, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&version=australia&pubname=australia-application-development&ft:locale=en-US).
+A flow fulfills the HR service. In the **Flow** field, select a flow that will be invoked to fulfill the HR service. To link flow to the HR service, a flow condition needs to be created for the HR service. A flow is an automated process of sequential and reusable actions. For more information, see Flow Designer.
 
 </td></tr><tr><td>
 

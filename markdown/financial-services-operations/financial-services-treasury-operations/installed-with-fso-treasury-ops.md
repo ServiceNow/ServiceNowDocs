@@ -15,7 +15,7 @@ breadcrumb: [Reference, Treasury Operations, Banking applications, Financial Ser
 
 Several types of components are installed with installation of the Financial Services Treasury Operations application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they are not already installed.
 
-**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://www.servicenow.com/docs/access?context=find-components&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see Find components installed with an application.
 
 ## Plugins installed
 
@@ -42,8 +42,8 @@ Enables the extension of tables from the Customer Service Management application
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make treasury service requests. For more information, see [Financial Services Operations Core](../../fso-common/reference/financial-services-operations-core-data-model.md).|
 |Document Processor|Enables the management of document services tasks that are used in Financial Services Treasury Operations operations workflows. For more information, see [Integrating with Document Processor](../../fso-common/concept/integrating-with-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://www.servicenow.com/docs/access?context=customer-service-case-playbooks&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).|
-|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see [CSM Contributor User](https://www.servicenow.com/docs/access?context=config-contributor-user&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see Playbooks for Customer Service Management.|
+|CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see CSM Contributor User.|
 
 ## Roles installed
 

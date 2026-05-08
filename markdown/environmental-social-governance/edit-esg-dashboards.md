@@ -161,7 +161,7 @@ Specify Hex or RGBA values, or choose from the color picker.
 
 </td><td>
 
-Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see [Proactive analytics insights on dashboards](https://www.servicenow.com/docs/access?context=proactive-analytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+Choose whether and which analytics to show in the **Insights** section.When you select **Show insights panel**, an Insights button is added to the dashboard and the selected analytics options are shown. For more information, see Proactive analytics insights on dashboards.
 
 </td></tr></tbody>
 </table>    **Note:** If you aren’t able to edit, either you don’t have permission to edit the dashboard, or it is in edit lock.

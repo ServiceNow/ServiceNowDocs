@@ -25,7 +25,7 @@ For catalog items, RITM should be registered as a service in Universal Request.
 
 For record producers, the target table should be registered as a service in Universal Request.
 
-For information about service configurations, see [Service Configuration form](https://www.servicenow.com/docs/access?context=ur-service-config-form&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+For information about service configurations, see Service Configuration form.
 
 ## Procedure
 

@@ -71,7 +71,7 @@ Themeable color
 
 </td><td>
 
-Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_property\] table to use when a theme is applied. Colors in the UX Theme Properties table may have different values depending on which theme variant in the UX Themes \[sys\_ux\_theme\] table is applied to your instance. To learn more about theming, see [Themes in Next Experience](https://www.servicenow.com/docs/access?context=next-experience-theming&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_property\] table to use when a theme is applied. Colors in the UX Theme Properties table may have different values depending on which theme variant in the UX Themes \[sys\_ux\_theme\] table is applied to your instance. To learn more about theming, see Themes in Next Experience.
 
  When a theme is turned on, the system applies this color to classic reports and visualizations created by the data visualization component. If no themeable color is defined, the system uses the color defined in the **Color** field.
 

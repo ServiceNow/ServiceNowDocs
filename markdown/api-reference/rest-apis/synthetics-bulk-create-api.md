@@ -24,7 +24,7 @@ Use Cases:
 
 Use this API to create up to 50 monitors per request. To create more than 50 monitors per request, use the [SyntheticsAsyncBulkCreate](synth-async-api.md#) API.
 
-This API requires the [Synthetic monitoring](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. The calling user must have the x\_snc\_sow\_synthetics.synthetics\_editor role. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see [Create synthetic monitoring locations](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&version=australia&pubname=australia-it-operations-management&ft:locale=en-US). Additionally, configuration items \(CIs\) for the endpoints being monitored must exist in the [Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=c_ITILConfigurationManagement&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This API requires the Synthetic monitoring application \(com.snc.uib.sow\_synthetics\), which is available on the ServiceNow Store. The calling user must have the x\_snc\_sow\_synthetics.synthetics\_editor role. Before calling this API, at least one MID Server location must be configured for synthetic monitoring. For instructions, see Create synthetic monitoring locations. Additionally, configuration items \(CIs\) for the endpoints being monitored must exist in the Configuration Management Database \(CMDB\).
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

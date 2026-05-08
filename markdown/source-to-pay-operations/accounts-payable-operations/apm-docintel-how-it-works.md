@@ -72,7 +72,7 @@ You must collaborate with the administrator to resolve this issue.
 
 Accounts Payable Operations supports multiple languages. The current DocIntel model is trained to extract invoices in the English language only. If you want to process the invoice in multi-lingual languages supported by DocIntel, you must train the DocIntel model on your own.
 
-For more information on Document Intelligence, see [Document Intelligence](https://www.servicenow.com/docs/access?context=document-intelligence-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on Document Intelligence, see Document Intelligence.
 
 -   **[Required fields for creating an invoice](../reference/mandatory-fields-docintel.md)**  
 The Accounts Payable Operations integration with Document Intelligence application checks whether the required fields are populated on the invoice and invoice lines for creating the invoice.

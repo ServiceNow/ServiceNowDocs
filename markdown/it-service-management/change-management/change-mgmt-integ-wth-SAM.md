@@ -32,7 +32,7 @@ For a more detailed breakdown of the license change projections, a related list 
 **Related topics**  
 
 
-[Managing proposed changes](https://www.servicenow.com/docs/access?context=c_ProposedChanges&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_ProposedChanges]
 
 [Mass Update CI](bulk-ci-change.md)
 

@@ -100,7 +100,7 @@ This example follows your work to determine whether the recommended attribute me
 **Related topics**  
 
 
-[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
+[bundle-platai.now-assist-panel-overview]
 
 [Duplicate CIs remediation](../../configuration-management/concept/de-duplication-tasks.md)
 

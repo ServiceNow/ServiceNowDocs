@@ -36,7 +36,7 @@ Localization Insights
 
 </td><td>
 
-Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see [Localization Insights dashboard](https://www.servicenow.com/docs/access?context=localization-insights-dashboard&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Button that opens the Localization Insights dashboard. It shows reports of topics with their translation statuses. For more information, see Localization Insights dashboard.
 
 </td></tr><tr><td>
 

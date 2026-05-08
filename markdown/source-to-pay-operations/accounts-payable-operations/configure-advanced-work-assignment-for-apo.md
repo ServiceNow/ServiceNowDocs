@@ -25,7 +25,7 @@ Role required: admin
 
 2.  Create a service channel to automatically route incoming work to agents.
 
-    For more information about creating service channels, see [.](https://www.servicenow.com/docs/access?context=awa-create-service-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) Service channels specific to Accounts Payable Operations are:
+    For more information about creating service channels, see . Service channels specific to Accounts Payable Operations are:
 
     -   Invoice Inquiry Cases
     -   Chat
@@ -33,10 +33,10 @@ Role required: admin
 
     After you've created the service channel, do the following.
 
-    1.  Configure the agent capacity to determine the number of work items that can be assigned to agents belonging to a defined group. For more information, see [.](https://www.servicenow.com/docs/access?context=awa-change-agent-capacity&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    2.  Create or change an inbox layout to determine the information shown on work item cards displayed in an agent's inbox. For more information, see [.](https://www.servicenow.com/docs/access?context=awa-modify-inbox-layout&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    3.  Create a work item size override if you want to calculate an agent's workload using a work item size other than the default. For more information on work item, see [.](https://www.servicenow.com/docs/access?context=awa-modify-work-item-size&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
-    Define or modify a work item queue, which determines the work items to be routed automatically to agents assigned to a service channel. For more information on queues, see [.](https://www.servicenow.com/docs/access?context=awa-create-queue&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+    1.  Configure the agent capacity to determine the number of work items that can be assigned to agents belonging to a defined group. For more information, see .
+    2.  Create or change an inbox layout to determine the information shown on work item cards displayed in an agent's inbox. For more information, see .
+    3.  Create a work item size override if you want to calculate an agent's workload using a work item size other than the default. For more information on work item, see .
+    Define or modify a work item queue, which determines the work items to be routed automatically to agents assigned to a service channel. For more information on queues, see .
 
 3.  To assign queues, work items to agents, follow steps 3–5 from [Configure Advanced Work Assignment for Source-to-Pay Operations](../../sourcing-procurement-operations/task/configure-awa-spo.md).
 

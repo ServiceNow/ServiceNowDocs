@@ -21,8 +21,8 @@ Role required: Admin, ESC admin, and taxonomy manager.
 
 Ensure you configure and enable AI search capabilities, see the following AI Search topics:
 
--   [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
--   [Configuring navigation tabs in AI Search](https://www.servicenow.com/docs/access?context=config-nav-tabs-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and tag **ESC Portal Default Search Application**
+-   Configuring AI Search
+-   Configuring navigation tabs in AI Search and tag **ESC Portal Default Search Application**
 
 ## About this task
 

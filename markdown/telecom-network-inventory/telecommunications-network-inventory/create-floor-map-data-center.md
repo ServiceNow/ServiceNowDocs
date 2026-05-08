@@ -30,33 +30,33 @@ Each place is marked with a title, making it easy to identify on the map. Once t
 
 1.  Create a campus with buildings and floors.
 
-    To learn more, see [Create a campus with buildings and floors](https://www.servicenow.com/docs/access?context=create-a-campus-building-and-floor&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    To learn more, see Create a campus with buildings and floors.
 
     **Note:** Make sure the campus and datacenter names that you want to map are the same.
 
 2.  Use the boundary editor to map your campus on the global map.
 
-    You can adjust the boundaries to show the location of your campus and buildings. Boundaries are used to differentiate between outdoor maps and indoor mapped areas. To learn more, see [Working with boundary editor](https://www.servicenow.com/docs/access?context=working-with-boundary-editor&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    You can adjust the boundaries to show the location of your campus and buildings. Boundaries are used to differentiate between outdoor maps and indoor mapped areas. To learn more, see Working with boundary editor.
 
 3.  Upload your floor plan's CAD or raster file.
 
-    You can use the floor plan to make configuration changes and preview the CAD design layout. To learn more, see [Import CAD files to Map Studio](https://www.servicenow.com/docs/access?context=CAD-file-import&version=australia&pubname=australia-employee-service-management&ft:locale=en-US). If you're uploading a raster file, then see [Import Raster files](https://www.servicenow.com/docs/access?context=import-raster-files&version=australia&pubname=australia-employee-service-management&ft:locale=en-US) for more details.
+    You can use the floor plan to make configuration changes and preview the CAD design layout. To learn more, see Import CAD files to Map Studio. If you're uploading a raster file, then see Import Raster files for more details.
 
 4.  Import outdoor elements such as a logo or an outdoor cafeteria that you want to display on the indoor map.
 
-    To learn more, see [Import outdoor elements](https://www.servicenow.com/docs/access?context=import-outdoor-elements&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    To learn more, see Import outdoor elements.
 
 5.  Add places, icons, and place types to locate your network assets and facilities on a floor.
 
-    To learn more, see [Manage places](https://www.servicenow.com/docs/access?context=manage-buildings&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    To learn more, see Manage places.
 
-    To create a place type, see [Create Indoor Mapping icons and place types](https://www.servicenow.com/docs/access?context=place-icons-place-type&version=australia&pubname=australia-employee-service-management&ft:locale=en-US). To learn about available place types, see [Data center place types](../reference/place-types-floor-map.md).
+    To create a place type, see Create Indoor Mapping icons and place types. To learn about available place types, see [Data center place types](../reference/place-types-floor-map.md).
 
 6.  Use the **Map Preview** to display maps and test directions that you have created.
 
 7.  Export the updated CAD changes to your CAD file.
 
-    Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping. To learn more about, see [Export CAD configuration](https://www.servicenow.com/docs/access?context=export-cad-config&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    Exporting the updated changes creates a copy of the modified CAD file in Indoor Mapping. To learn more about, see Export CAD configuration.
 
 
 ## Result
@@ -78,5 +78,5 @@ After you create your Indoor Mapping campus record, do the following to view the
 **Related topics**  
 
 
-[Indoor Mapping](https://www.servicenow.com/docs/access?context=Indoor-mapping&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[bundle-emplsm.Indoor-mapping]
 

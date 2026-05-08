@@ -45,7 +45,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about work notes in Process Mining. Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
 -   **[Exploring Now Assist for Process Mining](exp-na-process-mining.md)**  
 Use ServiceNow Now Assist for Process Mining to minimize time, maximize effort, and reduce complexity in project setup, identifying bottlenecks and retrieving process inefficiencies.

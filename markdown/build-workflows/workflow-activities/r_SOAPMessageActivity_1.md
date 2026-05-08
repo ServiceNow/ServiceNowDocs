@@ -15,9 +15,9 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **SOAP Message** activity uses SOAP messages defined in the System Web Services plugin and can call the messages using a MID Server.
 
-This activity is deprecated in the Australia release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://www.servicenow.com/docs/access?context=r-orchestration&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) SOAP Activity templates instead.
+This activity is deprecated in the Australia release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the Orchestration SOAP Activity templates instead.
 
-Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://www.servicenow.com/docs/access?context=t_ReactivateDeprecatedActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must re-activate the activity.
 
 ## Input variables
 

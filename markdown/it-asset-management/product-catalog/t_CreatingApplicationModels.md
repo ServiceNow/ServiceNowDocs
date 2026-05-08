@@ -37,5 +37,5 @@ Role required: model\_manager
 **Related topics**  
 
 
-[Agile Development](https://www.servicenow.com/docs/access?context=agile-development&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+[bundle-itbm.agile-development]
 

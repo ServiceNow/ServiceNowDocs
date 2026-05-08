@@ -25,7 +25,7 @@ A custom connector script can make remote API calls for a new event source to se
 
 -   Connect to an event monitoring tool.
 -   Retrieve events from an event monitoring tool.
--   Send events to the Event \[em\_event\] table using a web service API. See [REST API](https://www.servicenow.com/docs/access?context=c_RESTAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Send events to the Event \[em\_event\] table using a web service API. See REST API.
 
 Each connector definition is specific to an event source vendor. The connector definition specifies the MID Server script include that pulls events from the external event source. In addition, the connector definition specifies what connector instance value parameters are needed to connect to the external event source host.
 

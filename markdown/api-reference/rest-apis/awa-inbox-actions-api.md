@@ -15,7 +15,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA Inbox Actions API provides endpoints to accept or reject a work item on behalf of an agent. This API also retrieves reject reasons for rejected work items.
 
-This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and awa\_integration\_user role. For more information, refer to [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-overview&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and awa\_integration\_user role. For more information, refer to Advanced Work Assignment.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 
@@ -138,7 +138,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -376,7 +376,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -647,7 +647,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://www.servicenow.com/docs/access?context=installed-with-awa&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 

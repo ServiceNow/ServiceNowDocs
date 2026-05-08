@@ -146,7 +146,7 @@ A tool for selecting data pills from input variables or script variables to use 
 
 </td><td>
 
-A tool for adding or editing JavaScript scripts used in a property. Provides scripting assistance, including a list of valid elements at the insertion point. Elements include function name, object names, and variable names available for the topic. For more information, see the [JavaScript syntax editor](https://www.servicenow.com/docs/access?context=c_SyntaxEditor&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+A tool for adding or editing JavaScript scripts used in a property. Provides scripting assistance, including a list of valid elements at the insertion point. Elements include function name, object names, and variable names available for the topic. For more information, see the JavaScript syntax editor.
 
 </td></tr><tr><td>
 

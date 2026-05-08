@@ -19,7 +19,7 @@ As an administrator, you can review the installed components and modify them or 
 
 -   Approver group for managing conflict of interest requests
 -   Flows for Legal Conflict of Interest
--   [Notifications](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to inform different stakeholders at different stages of a conflict of interest request
+-   Notifications to inform different stakeholders at different stages of a conflict of interest request
 -   To submit conflict of interest request using conversational intake from Now Assist in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
 
 -   **[Install Legal Conflict of Interest](../task/install-legal-conflict-of-interest.md)**  

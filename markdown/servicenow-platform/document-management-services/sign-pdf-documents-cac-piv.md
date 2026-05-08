@@ -29,7 +29,7 @@ Role required: none
 
 1.  Initiate the PDF document signing process with a custom implementation using script.
 
-    For more information, see [Using Document Templates: Custom use case](https://www.servicenow.com/docs/access?context=doc-temp-gen&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information, see Using Document Templates: Custom use case.
 
     **Note:** HR cases can skip this step as custom implementation using scripts is for cases related to non-HR applications.
 

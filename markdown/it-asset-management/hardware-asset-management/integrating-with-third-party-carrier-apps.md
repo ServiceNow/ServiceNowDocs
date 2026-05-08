@@ -25,7 +25,7 @@ You can check the status of your shipments in real time by integrating your Serv
 
 2.  If you’re using any credentials, then use the Credential table or any table with Password2 fields and provide the KMF access map policy to enable your customers to access your application.
 
-    For more details, see [Password2 encryption with the Key Management Framework \(KMF\)](https://www.servicenow.com/docs/access?context=password-2way-encrypted-fields&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    For more details, see Password2 encryption with the Key Management Framework \(KMF\).
 
 3.  Add the application name, API, and connection details to the Carrier integration profile \[sn\_itam\_carrier\_int\_profile\] table.
 

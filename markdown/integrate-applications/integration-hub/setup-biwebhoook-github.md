@@ -112,7 +112,7 @@ The default routing policy in the GitHub WebHook Routing Policies modules trigge
 
 4.  Customize the required subflow as per your requirement and publish it.
 
-    See [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for more information about creating and using subflows and [GitHub Spoke](../concept/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support.
+    See Building subflows for more information about creating and using subflows and [GitHub Spoke](../concept/github-spoke.md) for information about the GitHub fields that the default routing policy supports and the GitHub events that the subflows support.
 
 5.  Navigate to **GitHub Webhooks** &gt; **GitHub WebHook Routing Policies**.
 

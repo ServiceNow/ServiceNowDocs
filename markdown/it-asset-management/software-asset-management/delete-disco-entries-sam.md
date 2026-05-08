@@ -31,7 +31,7 @@ You can also delete software installation records for specific publishers like O
 
 1.  Use the REST Table API api/now/table/cmdb\_sam\_sw\_install?sysparm\_query=installed\_on%3D28c9c3b8c0a8000b009b2d941d7e3ee9 to query and identify the list of software installs on a specific CI.
 
-    For more information on the REST endpoint API, see [Table API-GET](https://www.servicenow.com/docs/access?context=c_TableAPI&version=australia&pubname=australia-api-reference&section=table-GET&ft:locale=en-US).
+    For more information on the REST endpoint API, see Table API-GET.
 
     1.  Specify the table name, Software Installation \[cmdb\_sam\_sw\_install\] table, and query parameters.
 

@@ -21,14 +21,14 @@ The Employee Goals app provides an integration with the following HCM systems:
 
 -   **Oracle Cloud HCM**
 
-    Integrate Oracle Cloud HCM with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Oracle Cloud HCM, refer to [Oracle HCM Cloud Spoke](https://www.servicenow.com/docs/access?context=oracle-hcm&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Integrate Oracle Cloud HCM with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Oracle Cloud HCM, refer to Oracle HCM Cloud Spoke.
 
 -   **SAP SuccessFactors**
 
-    Integrate SAP SuccessFactors with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with SAP SuccessFactors, refer to [SuccessFactors Spoke](https://www.servicenow.com/docs/access?context=successfactors-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Integrate SAP SuccessFactors with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with SAP SuccessFactors, refer to SuccessFactors Spoke.
 
 -   **Workday**
 
-    Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to [Workday HR Spoke](https://www.servicenow.com/docs/access?context=workday-hr-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to Workday HR Spoke.
 
 

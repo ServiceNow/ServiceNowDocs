@@ -15,7 +15,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The v\_table API provides methods to add rows to a remote table through a scriptable object.
 
-This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see [Retrieving external data using remote tables and scripts](https://www.servicenow.com/docs/access?context=remote-tables&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+This API requires the Remote Tables plugin \(com.glide.script.vtable\) to be activated. For additional information, see Retrieving external data using remote tables and scripts.
 
 Use the [v\_query](../../v_query/concept/v_queryAPI.md#) scriptable object to query remote tables.
 
@@ -27,9 +27,9 @@ Adds rows to the remote table.
 
 See also:
 
--   [Create a script definition for a remote table](https://www.servicenow.com/docs/access?context=create-remote-table-script&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Lookup remote information in the system of record](https://www.servicenow.com/docs/access?context=fso-int_guide-agt_table_lookup&version=australia&pubname=australia-financial-services-operations&ft:locale=en-US)
--   [Retrieving specific records from a third-party source](https://www.servicenow.com/docs/access?context=remote-table-script-def-example2&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Create a script definition for a remote table
+-   Lookup remote information in the system of record
+-   Retrieving specific records from a third-party source
 -   [v\_query API](../../v_query/concept/v_queryAPI.md#)
 
 <table id="table_udd_bdj_nlb" class="parameters"><thead><tr><th>

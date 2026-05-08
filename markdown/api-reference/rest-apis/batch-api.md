@@ -209,7 +209,7 @@ Accept
 
 </td><td>
 
-Data format of the response body. Supported types: **application/json** or **multipart/mixed**.To stream multipart responses, set the **glide.rest.serialize.disable\_response\_stream\_buffering** system property to true. For more information, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Data format of the response body. Supported types: **application/json** or **multipart/mixed**.To stream multipart responses, set the **glide.rest.serialize.disable\_response\_stream\_buffering** system property to true. For more information, see Available system properties.
 
 </td></tr><tr><td>
 

@@ -19,7 +19,7 @@ Plan, configure, and review your Proactive Triggers.
 
 [Activate](enable-proactive-triggers.md) the Proactive Triggers feature.
 
-**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the $sn-va-web-client-app and sn\_va\_web\_client\_app\_embed pages for public access. For more information, see [Make UI pages public or private](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** For new customers onboarding from Vancouver onward, the chat widget is only accessible to authenticated users by default. To allow unauthenticated users to access the chat widget, you must enable the $sn-va-web-client-app and sn\_va\_web\_client\_app\_embed pages for public access. For more information, see Make UI pages public or private.
 
 Role required: admin
 

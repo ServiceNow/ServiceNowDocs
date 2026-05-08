@@ -40,7 +40,7 @@ If you want to use the Cloud Runner browser option, you are required to complete
     ![Image showing cloud runner browser option](../image/atf-cloud-runner-browser.png "Use the cloud runner option")
 
 
-**Note:** See [ATF Test Generator and Cloud Runner](https://www.servicenow.com/docs/access?context=atf-tg-cr-intro&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) for more information.
+**Note:** See ATF Test Generator and Cloud Runner for more information.
 
 **Parent Topic:**[Pick a browser](../task/atf-pick-a-browser.md)
 

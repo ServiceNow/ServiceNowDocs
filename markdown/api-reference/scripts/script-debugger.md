@@ -36,14 +36,14 @@ Use the Session Log tab to retrieve the session log for business rules, script i
 -   View logs for Agent Workspace.
 -   Specify debug options to view or download only the required logs.
 
-By default, 100 transactions and 10,000 messages appear on the Session Log tab. If the transaction or message count exceeds the default value, the session log is cleared and the next transactions or messages appear. You can configure this transaction and message count using the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences respectively. For more information about the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences, see [User preference settings](https://www.servicenow.com/docs/access?context=r_UserPreferenceSettings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+By default, 100 transactions and 10,000 messages appear on the Session Log tab. If the transaction or message count exceeds the default value, the session log is cleared and the next transactions or messages appear. You can configure this transaction and message count using the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences respectively. For more information about the **glide.debugger.log.transaction.count** and **glide.debugger.log\_messages\_limit** user preferences, see User preference settings.
 
 **Note:** Enable Session Log as a separate tab with Script Debugger using the **glide.debugger.log.ui** system property.
 
 -   The **Page** option displays logs under forms and lists and on the **Session Log** tab.
 -   The **Session** option displays logs only on the **Session Log** tab.
 
-For more information about the **glide.debugger.log.ui** system property, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about the **glide.debugger.log.ui** system property, see Available system properties.
 
 When you execute a statement in the Console, the executed statement is stored in the browser cache. You can use the up arrow key to get the previous statement and down arrow key to get the next statement from the browser cache. The user preference setting,**glide.debugger.console.cached\_stmt\_limit**, defines the number of statements cached in a browser session. The default statement cache value is 20 and the maximum value is 100. You can configure the statement cache value from user preferences.
 

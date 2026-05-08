@@ -19,7 +19,7 @@ Define the triggers, inputs, and display location for project insights generatio
 
 Role required: admin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see Now Assist skills, agents, and agentic workflows on by default.
 
 ## Procedure
 
@@ -51,5 +51,5 @@ The skill is active on the instance.
 
 ## What to do next
 
-Analyze your skill performance and usage on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Analyze your skill performance and usage on the Now Assist Admin console to help determine the success of the skill. Learn more about tracking your Now Assist usage at Monitoring Now Assist usage in Subscription Management.
 

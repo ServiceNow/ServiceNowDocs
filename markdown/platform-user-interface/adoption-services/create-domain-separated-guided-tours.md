@@ -19,7 +19,7 @@ You can assign a domain to a guided tour during its creation or edit the domain 
 
 Role required: guided\_tour\_admin
 
-To use domain separation in Guided Tours, you must [request domain separation](https://www.servicenow.com/docs/access?context=t_ActivateDomainSeparation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To use domain separation in Guided Tours, you must request domain separation.
 
 **Note:** The Guided Tour Designer requires Core UI. For more information, see [Activate Core UI](../../../administer/navigation-and-ui/task/t_ActivateUI16.md).
 

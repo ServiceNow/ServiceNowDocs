@@ -19,9 +19,9 @@ You can activate the Sidebar for Field Service Management plugin \(sn\_fsm\_side
 
 Role required: admin
 
-**Note:** Sidebar is a ServiceNow AI Platform® capability. For more information on configuring Sidebar, see [Configuring Sidebar](https://www.servicenow.com/docs/access?context=configure-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+**Note:** Sidebar is a ServiceNow AI Platform® capability. For more information on configuring Sidebar, see Configuring Sidebar.
 
-For more information on how Sidebar works, see [Exploring Sidebar](https://www.servicenow.com/docs/access?context=exploring-sidebar&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information on how Sidebar works, see Exploring Sidebar.
 
 ## About this task
 

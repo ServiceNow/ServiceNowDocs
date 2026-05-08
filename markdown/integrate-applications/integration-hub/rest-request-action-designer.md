@@ -17,7 +17,7 @@ Send an outbound REST web service request to an external system.
 
 **Note:** REST step is not available in the base system and requires the ServiceNow® Integration Hub subscription. After the required plugin is activated, the step is visible under Integrations.
 
-[Outbound REST web service](https://www.servicenow.com/docs/access?context=c_OutboundRESTWebService&version=australia&pubname=australia-api-reference&ft:locale=en-US) is a platform feature that enables you to retrieve, create, update, or delete data on a web services server that supports the REST architecture.
+Outbound REST web service is a platform feature that enables you to retrieve, create, update, or delete data on a web services server that supports the REST architecture.
 
 ## Roles and availability
 
@@ -42,7 +42,7 @@ Connection
 Type of connection to use. -   **Define Connection Inline**: Define connection information within the action step.
 -   **Use Connection Alias**: Define connection information using the Connection Alias table. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action.
 
- To learn more about connections and credentials, see [Introduction to credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ To learn more about connections and credentials, see Introduction to credentials, connections, and aliases.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Connection Alias
 
 </td><td>
 
-Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
+Connection &amp; Credential alias record that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using an action in multiple environments. Likewise, if the connection information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
 
  **Note:** This field is available when **Use Connection Alias** is selected from the Connection list.
 
@@ -60,7 +60,7 @@ Credential Alias
 
 </td><td>
 
-Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see [credentials, connections, and aliases](https://www.servicenow.com/docs/access?context=credentials-connections-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US). The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
+Credential alias that the system uses to run the action step. Users with the flow\_designer or admin role can create or select an associated Connection record. Using an alias eliminates the need to configure multiple credentials when using an action in multiple environments. Likewise, if the credential information changes, you don't need to update your custom action. To learn more about connections and credentials, see credentials, connections, and aliases. The credential value is displayed as a Password \(2 Way Encrypted\) data pill on the data panel.
 
  **Note:** This field is available when **Define Connection Inline** is selected from the Connection list.
 
@@ -70,7 +70,7 @@ Use MID
 
 </td><td>
 
-Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that [Outbound web services logging](https://www.servicenow.com/docs/access?context=outbound-request-logging&version=australia&pubname=australia-api-reference&ft:locale=en-US) occurs. Instead, you can view this data in the [Flow execution details](https://www.servicenow.com/docs/access?context=flow-execution-details&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Option to use a ServiceNow® MID Server to run the REST step. Select this check box to display the **MID Application** and **Capabilities** fields.**Note:** The system doesn't log REST request, response, and parameter runtime data sent via a MID server in the same way that Outbound web services logging occurs. Instead, you can view this data in the Flow execution details.
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ Option to select a specific MID Server or MID Cluster. Choose any one of the fol
 -   **Specific MID Server**: Your ServiceNow instance uses MID Server that you specify.
 -   **Specific MID Cluster**: Your ServiceNow instance uses the MID Cluster that you specify.
 
-A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see [Configure a MID Server cluster](https://www.servicenow.com/docs/access?context=t_ConfigureAMIDServerCluster&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+A MID Cluster is a group of MID Servers that enables your ServiceNow instance to handle multiple integrations, and improve integration speed. For more information, see Configure a MID Server cluster.
 
 
  This field is available when **Define Connection Inline** is selected from the Connection list, and **Use MID** is checked.
@@ -271,7 +271,7 @@ Attachment
 
 </td><td>
 
-Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the [JSONStreamingBuilder](https://www.servicenow.com/docs/access?context=JSONStreamingBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) and [XMLStreamingBuilder](https://www.servicenow.com/docs/access?context=XMLStreamingBuilderScopedAPI&version=australia&pubname=australia-api-reference&ft:locale=en-US) APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
+Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the JSONStreamingBuilder and XMLStreamingBuilder APIs in the Script step. **Note:** This field is available when you select **Binary** from the Request Type list.
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Name, Part Type, Value
 
 </td><td>
 
-Content of a multipart request. For each part, specify its name, part type, and value either using the fields individually or using an inline script for all the parts. You can specify the multipart values by clicking the toggle scripting icon \(![Toggle inline scripting icon](../images/flow-designer-inline-script-icon.png)\) and editing the script. For more information about inline scripting, see [Inline scripts](https://www.servicenow.com/docs/access?context=inline-scripts&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Content of a multipart request. For each part, specify its name, part type, and value either using the fields individually or using an inline script for all the parts. You can specify the multipart values by clicking the toggle scripting icon \(![Toggle inline scripting icon](../images/flow-designer-inline-script-icon.png)\) and editing the script. For more information about inline scripting, see Inline scripts.
 
  -   **Name**:The name of the part. It can be any valid string.
 -   **Part Type**: The type of the part. Select either **Text** or **File**.
@@ -297,7 +297,7 @@ Name, Value
 
 </td><td>
 
-Content of a form URL-encoded request. Specify each part of the URL-encoded request with a name-value pair using the fields individually or using an inline script for all parts. You can specify the form URL-encoded values inline script by clicking the toggle scripting icon\(![Toggle inline scripting icon](../images/flow-designer-inline-script-icon.png)\) and editing the script. For more information about inline scripting, see [Inline scripts](https://www.servicenow.com/docs/access?context=inline-scripts&version=australia&pubname=australia-build-workflows&ft:locale=en-US).**Note:** This field is available when you select **Form URL-Encoded** from the Request Type list.
+Content of a form URL-encoded request. Specify each part of the URL-encoded request with a name-value pair using the fields individually or using an inline script for all parts. You can specify the form URL-encoded values inline script by clicking the toggle scripting icon\(![Toggle inline scripting icon](../images/flow-designer-inline-script-icon.png)\) and editing the script. For more information about inline scripting, see Inline scripts.**Note:** This field is available when you select **Form URL-Encoded** from the Request Type list.
 
 </td></tr><tr><td>
 
@@ -305,7 +305,7 @@ Enable Retry Policy
 
 </td><td>
 
-Option to enable the retry policy. For more information, see [Retry policy](https://www.servicenow.com/docs/access?context=retry-policy&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Option to enable the retry policy. For more information, see Retry policy.
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ Target record to which the attachment is associated. The target record must be a
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://www.servicenow.com/docs/access?context=action-error-evaluation&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see Action error evaluation.
 
 
 ## REST response size limits
@@ -363,7 +363,7 @@ By default, the system limits the size of REST responses that are not saved as a
 
 ## Parsing a REST response
 
-REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US) to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
+REST API calls return data in the Response Body. The response body data is usually structured in JSON or XML format. You can use a Script step to parse the structured data into variables to use elsewhere in the action or in a flow. There is also an [XML parser step](xml-parser-step-action-designer.md) to parse a response body that's in an XML format.
 
 The general strategy to get extracted data from the response is to do the following.
 

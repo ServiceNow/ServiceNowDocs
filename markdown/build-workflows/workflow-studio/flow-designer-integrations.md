@@ -29,7 +29,7 @@ Content available
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+App Engine Studio
 
 </td><td>
 
@@ -38,7 +38,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Integration Hub](https://www.servicenow.com/docs/access?context=integrationhub&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Integration Hub
 
 </td><td>
 
@@ -56,7 +56,7 @@ Content available
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://www.servicenow.com/docs/access?context=rpa-explore&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Robotic Process Automation \(RPA\) Hub
 
 </td><td>
 

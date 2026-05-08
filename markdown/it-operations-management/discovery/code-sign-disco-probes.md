@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 2
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -23,7 +23,7 @@ The instance validates signatures on probes and probe parameters. If a probe is 
 
 The MID Server validates signatures on patterns, MID script includes, and MID script files. If a pattern's signature is invalid, the MID Server won't download it. If the pattern was previously downloaded, it's deleted. Discovery can't run that pattern on any machine until it's re-signed.
 
-Signatures are included automatically with Discovery applications and plugins. When your platform and store apps meet the requirements, code signing for Discovery works without manual signing. For more information about how code signing works, see [Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Signatures are included automatically with Discovery applications and plugins. When your platform and store apps meet the requirements, code signing for Discovery works without manual signing. For more information about how code signing works, see Code Signing.
 
 ## Benefits
 
@@ -43,7 +43,7 @@ Code signing for Discovery requires the following dependencies:
     -   Discovery Admin Workspace v1.13.0
     -   Visibility Content v6.13.10
     -   Discovery and Service Mapping Patterns v1.30.2
--   You must have Code Signing enabled with the Circle of Trust established. For more information, see [Configuring Code Signing](https://www.servicenow.com/docs/access?context=config-code-signing&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+-   You must have Code Signing enabled with the Circle of Trust established. For more information, see Configuring Code Signing.
 
 ## Supported discovery types
 
@@ -66,5 +66,5 @@ Pattern debugger isn’t available on code-signed instances.
 **Related topics**  
 
 
-[Code Signing](https://www.servicenow.com/docs/access?context=code-signing-landing&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.code-signing-landing]
 

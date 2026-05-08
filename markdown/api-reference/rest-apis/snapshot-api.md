@@ -24,7 +24,7 @@ You must have one of the following roles to access this API:
 
 In addition, the Configuration Data Management \(CDM\) plugin must be activated for this API to be available in an instance.
 
-For additional information on snapshots, see [View snapshots](https://www.servicenow.com/docs/access?context=cdm-snapshots-view-list&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+For additional information on snapshots, see View snapshots.
 
 **Parent Topic:**[REST API reference](../../../build/applications/concept/api-rest.md)
 

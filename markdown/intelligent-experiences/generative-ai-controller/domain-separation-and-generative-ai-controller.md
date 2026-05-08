@@ -24,11 +24,11 @@ Domain separation is supported for Generative AI Controller. Domain separation e
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 Domain separation enables you to create partitions in the application data and administrative processes. Because the generative AI tables are domain separated, Generative AI Controller supports domain separation for OneExtend capabilities. The capabilities are the basic building blocks for Virtual Agent Designer topics, components, flows, and scripts that use generative AI. With domain separation, you can isolate the data and control access so that users in one domain don’t have access to the capabilities of another domain.
 
-For more details on domain separation and Virtual Agent, [check out the documentation](https://www.servicenow.com/docs/access?context=domain-separation-virtual-agent&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more details on domain separation and Virtual Agent, check out the documentation.
 
 ## How domain separation works in Generative AI Controller
 
@@ -57,5 +57,5 @@ With domain-separated capabilities, you can build different Virtual Agent topics
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

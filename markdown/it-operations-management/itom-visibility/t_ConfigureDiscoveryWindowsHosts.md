@@ -27,7 +27,7 @@ Role required: discovery\_admin
     2.  Set the environment path for the fcinfo executable and run the `fcinfo.exe` file.
     **Note:** For servers that are using newer operating systems, similar functionality is present with the operating system; this step is not required.
 
-2.  For all Windows hosts including Windows 2008, [add Windows credentials](https://www.servicenow.com/docs/access?context=r_WindowsCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US) to the Discovery Credentials table.
+2.  For all Windows hosts including Windows 2008, add Windows credentials to the Discovery Credentials table.
 
 3.  On the ServiceNow instance, create a Discovery Schedule for each host IP address.
 
@@ -35,7 +35,7 @@ Role required: discovery\_admin
 
 5.  Run network discovery.
 
-    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](t_ConfigDiscoForStandaloneStorage.md) and [CIM credentials](https://www.servicenow.com/docs/access?context=r_CIMCredentialsForm&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** If the host also connects to a NAS or SAN storage array, set up the [SMI-S Provider](t_ConfigDiscoForStandaloneStorage.md) and CIM credentials.
 
 
 **Parent Topic:**[Configure discovery of hosts with attached storage](../concept/configure-discovery-of-hosts-with-attached-storage.md)

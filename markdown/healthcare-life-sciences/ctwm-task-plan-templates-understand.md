@@ -15,15 +15,15 @@ Understand how task plan templates can be leveraged from Customer Service Manage
 
 Care Team Work Management enables for the creation of custom task plan templates to define the repeatable tasks and records that must be created for care team agents. When the template is applied, these tasks and records are automatically created.
 
-For information about how task plan templates work, see [Task Plan Templates](https://www.servicenow.com/docs/access?context=task-plan-templates&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For information about how task plan templates work, see Task Plan Templates.
 
 ## Creating task plans for Care Team Work Management
 
 When creating a task plan template, you must create a **Task plan configuration** for your task plans to pre-fill information into task plan template fields.
 
-For more information, see [Create a task plan template configuration](https://www.servicenow.com/docs/access?context=task_plan_template_configurations&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+For more information, see Create a task plan template configuration.
 
-You can create one or more template items, such as a task or record, for a task plan template. When the task plan template is applied, these records are automatically created. For more information, see [Create a template item](https://www.servicenow.com/docs/access?context=create-task-plan-template-item&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+You can create one or more template items, such as a task or record, for a task plan template. When the task plan template is applied, these records are automatically created. For more information, see Create a template item.
 
 Multiple template items can be created from the same configuration. For example, multiple Orchestration tasks can be generated from one single configuration. Or, a task plan for a medical device audit might be configured to generate Biomed cases as child cases to the parent Orchestration case.
 

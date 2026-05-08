@@ -27,7 +27,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configuring Order Management](https://www.servicenow.com/docs/access?context=order-mgt-configuring&version=australia&pubname=australia-order-management&ft:locale=en-US)
+Configuring Order Management
 
 </td><td>
 
@@ -35,7 +35,7 @@ Install the Order Management application from the ServiceNow Store. This applica
 
 </td></tr><tr><td>
 
-[Configuring product offerings and catalogs](https://www.servicenow.com/docs/access?context=som-managing-product-catalogs&version=australia&pubname=australia-order-management&ft:locale=en-US)
+Configuring product offerings and catalogs
 
 </td><td>
 
@@ -43,7 +43,7 @@ Create product offerings and the associated product catalogs that can be used by
 
 </td></tr><tr><td>
 
-[Configuring product pricing with Pricing Management application](https://www.servicenow.com/docs/access?context=som-managing-product-pricing&version=australia&pubname=australia-order-management&ft:locale=en-US)
+Configuring product pricing with Pricing Management application
 
 </td><td>
 

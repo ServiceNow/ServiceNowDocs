@@ -18,20 +18,20 @@ If you have a Now Assist for Creator subscription, you can leverage the release 
 
 Use the improved filter feature to sort requests based on specific criteria.
 
-See [App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&version=australia&pubname=australia-application-development&ft:locale=en-US) for more information.
+See App Engine Management Center for more information.
 
 **Important:** App Engine Management Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## New in the Australia release
 
--   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=release-lifecycle-documentation-agent-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Release lifecycle documentation AI agent**
 
     Improve transparency across your app development environment using the release lifecycle documentation AI agent, available with Now Assist for Creator, to generate update set descriptions and release notes seamlessly.
 
 
 ## UI changes
 
--   **[Filter and search for requests in AEMC](https://www.servicenow.com/docs/access?context=filter-search-aemc&version=australia&pubname=australia-application-development&ft:locale=en-US#section_kvc_43q_dtb)**
+-   **Filter and search for requests in AEMC**
 
     You can now filter by key fields such as status, owner, type, environment, and date, with the option to apply multiple filters simultaneously for the **Requests** tab. Filtered results update in real-time, and active filters are clearly indicated. You can easily remove individual filters or reset the list to its default state with a single action. Additionally, commonly used filter combinations can be saved and reused on the same list.
 
@@ -42,23 +42,23 @@ Install App Engine Management Center by requesting it from the ServiceNow Store.
 
 ## Related ServiceNow applications and features
 
--   **[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **App Engine Studio**
 
     Learn how you can use the low-code app development tool, App Engine Studio \(AES\), to build powerful applications using guided setup, predefined templates, and workflows.
 
--   **[Creator Studio](https://www.servicenow.com/docs/access?context=creator-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Creator Studio**
 
     The ServiceNow® Creator Studio application is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development.
 
--   **[Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **Now Assist for Creator**
 
     Now Assist for Creator includes generative and agentic AI capabilities, including the release lifecycle documentation agent, that can make developing on the ServiceNow AI Platform more efficient.
 
--   **[ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **ReleaseOps**
 
     ReleaseOps automates the deployment process, including moving changes between instances, running scans and tests, and releasing changes, by using update sets and customizable pipelines. ReleaseOps orchestrates the process while providing transparency into the process for release managers and teams.
 
--   **[ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)**
+-   **ServiceNow Studio**
 
     ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps.
 

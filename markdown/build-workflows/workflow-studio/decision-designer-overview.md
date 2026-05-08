@@ -23,7 +23,7 @@ For an in-depth review and demo of decision table features and benefits, see [De
 
 -   As of the Washington DC release, Decision Builder is now part of Workflow Studio. Workflow Studio gives you a streamlined way to author, configure, and monitor processes, flows, subflows, playbooks, actions, and decision tables in one place.
 -   The core Decision Builder feature is still available with the ServiceNow AI Platform® by default, but the latest updates are available for download through the Workflow Studio application in the ServiceNow® Store.
--   For more information about this update, see the [Washington DC Decision Builder release notes](https://www.servicenow.com/docs/access?context=decision-builder-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US).
+-   For more information about this update, see the Washington DC Decision Builder release notes.
 
 ## Get started
 
@@ -52,7 +52,7 @@ Workflow Studio provides an intuitive interface to create and manage decision ta
 
 Decision tables embed business logic into a series of if-then decision rules. Decision tables read data from inputs and evaluate the data according to specified conditions. When all the conditions for a decision rule are met, the decision table returns one or more results.
 
-Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see [Delegated development](https://www.servicenow.com/docs/access?context=c_DelegatedDevelopment&version=australia&pubname=australia-application-development&ft:locale=en-US).
+Administrators can use the delegated development capability to manage workload efficiently by assigning the delegated development role to developers or non-admin users. A delegated developer has more permissions than a user, but less than an admin. Non-admin designated users can create and manage decision tables at the application level. For more information, see Delegated development.
 
 Decision tables in Workflow Studio enable you to do the following:
 
@@ -87,7 +87,7 @@ Reference
 
 </th></tr></thead><tbody><tr><td>
 
-[App Engine Studio](https://www.servicenow.com/docs/access?context=aes-overview&version=australia&pubname=australia-application-development&ft:locale=en-US)
+App Engine Studio
 
 </td><td>
 
@@ -96,7 +96,7 @@ Reference
 
 </td><td>
 
-See [Add a decision](https://www.servicenow.com/docs/access?context=add-automation&version=australia&pubname=australia-application-development&ft:locale=en-US) in App Engine Studio.
+See Add a decision in App Engine Studio.
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

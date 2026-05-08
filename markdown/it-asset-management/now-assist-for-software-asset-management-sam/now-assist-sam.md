@@ -23,7 +23,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see ServiceNow product tiers.
 
 <table id="table_gs5_rtm_bdc" class="nav-card presentation"><tbody><tr><td>
 
@@ -61,9 +61,9 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about legal request and/or legal matter \(including related field information, comments, and work notes\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
 -   **[Exploring Now Assist for Software Asset Management \(SAM\)](exploring-now-assist-sam.md)**  
 With the Now Assist for Software Asset Management \(SAM\) application, Software Asset Management managers can use generative AI capabilities for tasks such as generating compliance summaries, optimization recommendations, and automating SaaS user resolution.

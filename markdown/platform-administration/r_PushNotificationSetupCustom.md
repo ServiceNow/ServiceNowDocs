@@ -17,7 +17,7 @@ Setting up a push notification infrastructure that uses a custom push app involv
 
 **Note:** These instructions are intended for users who develop their own customized push application. You do not need to configure the ServiceNow mobile push application.
 
-This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at [Mobile push notifications](https://www.servicenow.com/docs/access?context=sg-mobile-push-notifications&version=australia&pubname=australia-mobile&ft:locale=en-US)
+This process describes configuration used in the ServiceNow mobile app. Push Notification configuration for the current ServiceNow mobile UI can be found at Mobile push notifications
 
 ![Push notification setup tasks for a custom push app](../image/CustomPushAppSetup.png "Push notification setup tasks for a custom push app")
 
@@ -62,5 +62,5 @@ Create the push messages and push notifications: The administrator [creates the 
 
 ## Next steps
 
-Use the Push Installation API to opt users in to receive push notifications. For more information, see [Push Installation API](https://www.servicenow.com/docs/access?context=pushinstallation-api&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+Use the Push Installation API to opt users in to receive push notifications. For more information, see Push Installation API.
 

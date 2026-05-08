@@ -21,7 +21,7 @@ Role required: sys\_admin
 
 If you have preconfigured forms, you must do this configuration to make the new framework features and fields available.
 
-The same procedure can be performed on the Demand and Program forms as well. For more information, see [Goal framework](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US).
+The same procedure can be performed on the Demand and Program forms as well. For more information, see Goal framework.
 
 ## Procedure
 

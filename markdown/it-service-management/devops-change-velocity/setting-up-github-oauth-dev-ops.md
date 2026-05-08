@@ -22,7 +22,7 @@ If you want to use Basic Authentication credentials instead of OAuth 2.0, skip t
 
 **Note:** The OAuth Authorization Code &amp; JWT grant types are supported for GitHub &amp; GitHub Enterprise with MID server.
 
-**Note:** DevOps connection and credential aliases \(DevOpsAlias1 through DevOpsAlias10\) are used to connect automatically when you set up your GitHub instance using OAuth 2.0. To connect to more than 10 tools, or if you receive an error saying all DevOpsAlias connection and credential aliases are being used, an admin can create additional aliases in the sn\_devops application scope. For more information, see [Create a Connection &amp; Credential alias](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US). If necessary, you can reuse a DevOpsAlias alias that is no longer in use by inactivating the HTTP connection.
+**Note:** DevOps connection and credential aliases \(DevOpsAlias1 through DevOpsAlias10\) are used to connect automatically when you set up your GitHub instance using OAuth 2.0. To connect to more than 10 tools, or if you receive an error saying all DevOpsAlias connection and credential aliases are being used, an admin can create additional aliases in the sn\_devops application scope. For more information, see Create a Connection &amp; Credential alias. If necessary, you can reuse a DevOpsAlias alias that is no longer in use by inactivating the HTTP connection.
 
 -   **[OAuth 2.0 credentials for GitHub Apps - JWT](dev-ops-github-apps-oath-jwt.md#)**  
 Perform the following steps to integrate your GitHub Apps using the JWT bearer token.

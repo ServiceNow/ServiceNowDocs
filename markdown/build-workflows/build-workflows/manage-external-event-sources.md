@@ -167,7 +167,7 @@ HMAC Util Script
 
 </td><td>
 
-Option to specify the script that generates or validates the hash.To know more about HMAC, see [Configure HMAC - Token-based authentication](https://www.servicenow.com/docs/access?context=configure-hmac&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Option to specify the script that generates or validates the hash.To know more about HMAC, see Configure HMAC - Token-based authentication.
 
 </td></tr><tr><td rowspan="3">
 

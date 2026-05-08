@@ -48,7 +48,7 @@ Before setting this property:
 |Security risk|An attacker can use this vulnerability to expand data exponentially in an External Entities Expansion \(XXE\) attack, quickly consuming all system resources.|
 |Workaround|If the customization requires entity expansion, set this property to true and follow the steps documented in [Restrict XML external entities](sc-xml-entity-validation-url-allowlist.md).|
 
-To learn more about adding or creating a system property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+To learn more about adding or creating a system property, see Add a system property.
 
 For more information about OWASp resources, see [OWASp](https://owasp.org/www-project-top-ten/2017/A4_2017-XML_External_Entities_(XXE)).
 

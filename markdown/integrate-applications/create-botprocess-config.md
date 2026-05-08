@@ -132,7 +132,7 @@ You can add other details to the bot process, such as the business applications,
 
 [Retire a bot process in RPA Hub](retire-bot-process.md)
 
-[View Audit History](https://www.servicenow.com/docs/access?context=c_HistorySets&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_HistorySets]
 
 ## Bot process configuration form in RPA Hub
 

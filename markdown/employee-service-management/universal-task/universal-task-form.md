@@ -102,7 +102,7 @@ Checklist
 
 </td><td>
 
-In the **Checklist** section, add the checklist items. For detailed information, see [Create a checklist](https://www.servicenow.com/docs/access?context=t_CreateAChecklist&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+In the **Checklist** section, add the checklist items. For detailed information, see Create a checklist
 
 </td></tr><tr><td>
 

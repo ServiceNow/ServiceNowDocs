@@ -22,7 +22,7 @@ Enable agents and fulfillers to collect electronic signatures during a playbook 
 
 ## Inputs
 
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://www.servicenow.com/docs/access?context=dot-walking-examples&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see Dot-walking examples.
 
 <table id="table_esz_w4c_35b"><thead><tr><th>
 

@@ -32,42 +32,42 @@ The ServiceNow® AI Control Tower application provides a centralized workspace f
 -   AI Gateway offers Global MCP clients, which once created can be used across all MCP servers.
 -   A Gateway offers MCP Catalog to choose while adding MCP servers into AI Control Tower.
 
-For more information on AI Control Tower, see [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information on AI Control Tower, see AI Control Tower.
 
 **Important:** AI Control Tower is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
-## Important information for upgrading [AI Control Tower](https://www.servicenow.com/docs/access?context=ai-control-tower-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) to Australia
+## Important information for upgrading AI Control Tower to Australia
 
 Not applicable.
 
 ## New in the Australia release
 
--   **[Security &amp; privacy tab in AI Control Tower](https://www.servicenow.com/docs/access?context=security-privacy-tab&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Security &amp; privacy tab in AI Control Tower**
     -   Customize the AI asset security score by weighting LLM guardrail categories that comprise the score. The score formula was changed to an average across all AI assets. The score was renamed to the AI asset security score.
     -   Measure whether your model's output or behavior potentially violates predefined LLM guardrail policies using the Data integrity incident detection chart.
     -   Review potential threats in AI agent output in Agent goal deviation, output with PII detected, and Agentic output injection detection charts.
     -   Monitor MCP server access by AI Gateway with these new charts: Clients connecting to MCP servers, authorized access attempts, and failed access attempts.
     -   The Prompt injection, Offensive content, and Sensitive data tabs have been removed and replaced by the **Access** and **Guardrails** tabs. Metrics have been reorganized into those two tabs.
     -   In **Configurations**, under **Data**, the **Data privacy** tab was renamed to **Security &amp; privacy**. In that tab, the data leak detection and anonymization section was renamed to sensitive data input and anonymization.
--   **[Data section on Configurations page](https://www.servicenow.com/docs/access?context=data&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Data section on Configurations page**
 
     Enable and set up data integrity incident detection, agent goal deviation, and output screening metrics to measure the integrity of your data model and potential threats in LLM output.
 
--   **[Manage agentic AI system life cycles](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Manage agentic AI system life cycles**
 
     Create AI system assets to track and manage the complete life cycles of your agentic AI systems, from onboarding to deployment. Gain comprehensive insight into each agentic AI system and take any necessary actions to successfully complete each life-cycle stage. By managing the life cycles of your agentic AI systems, you can extend their lifespans, reduce downtime, and optimize licensing costs.
 
--   **[Define the use and purpose of an AI system](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Define the use and purpose of an AI system**
 
-    Specify the intended use and purpose of an AI system. Provide insight into who is using the AI system, what the AI system is being used for, and how the AI system works and provides value. This information can help you determine the benefits and risks that are associated with the AI system. For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [AI Risk and Compliance release notes](../governance-risk-compliance/grc-ai-risk-and-compliance-rn.md) and [Assessment templates and risk assessment methodologies](https://www.servicenow.com/docs/access?context=assessment-templates-rams&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+    Specify the intended use and purpose of an AI system. Provide insight into who is using the AI system, what the AI system is being used for, and how the AI system works and provides value. This information can help you determine the benefits and risks that are associated with the AI system. For more information on classifying AI systems based on regulatory risk at intake by applying a configured Risk Assessment Methodology \(RAM\), see [AI Risk and Compliance release notes](../governance-risk-compliance/grc-ai-risk-and-compliance-rn.md) and Assessment templates and risk assessment methodologies.
 
--   **[Associate additional related AI asset types with AI systems](https://www.servicenow.com/docs/access?context=create-ai-system-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Associate additional related AI asset types with AI systems**
 
     Associate the following additional related AI asset types with your AI systems:
 
     -   If an AI system has an Asset type of Generative AI or Agentic AI, you can associate it with any of its supported components or subsystems.
     -   If an AI system has an Asset type of Agentic AI, you can associate it with any of its integrated AI tools.
--   **[Create change and offboarding requests for additional AI asset types](https://www.servicenow.com/docs/access?context=creating-ai-asset-requests&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Create change and offboarding requests for additional AI asset types**
 
     Create change requests for the following additional AI asset types:
 
@@ -79,7 +79,7 @@ Not applicable.
     -   AI models
     -   Datasets
     -   MCP servers
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **ServiceNow product tiers**
 
     The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -89,23 +89,23 @@ Not applicable.
     Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
--   **[Enterprise AI discovery: Unlock Visibility, Governance &amp; Value](https://www.servicenow.com/docs/access?context=enterprise-ai-discovery&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Enterprise AI discovery: Unlock Visibility, Governance &amp; Value**
 
     AI connections are created using AI Service Graph Connectors. AI connections are a combination of hyperscalers, AI apps, and agentic AI frameworks.
 
     The AI Service Graph Connectors are available from March 2026
 
-    -   [AWS](https://www.servicenow.com/docs/access?context=aws_0&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
-    -   [Microsoft](https://www.servicenow.com/docs/access?context=microsoft&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)- Azure Foundry and Copilot
-    -   [Google Cloud Platform \(GCP\) Vertex AI](https://www.servicenow.com/docs/access?context=gcp-vertex-ai&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
-    -   [n8n](https://www.servicenow.com/docs/access?context=n8n&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
-    -   [LangGraph](https://www.servicenow.com/docs/access?context=langgraph&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
-    -   [Salesforce](https://www.servicenow.com/docs/access?context=salesforce&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)
--   **[Assets list managed and unmanaged assets](https://www.servicenow.com/docs/access?context=assets-list-managing-and-unmanaging-assets&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+    -   AWS
+    -   Microsoft- Azure Foundry and Copilot
+    -   Google Cloud Platform \(GCP\) Vertex AI
+    -   n8n
+    -   LangGraph
+    -   Salesforce
+-   **Assets list managed and unmanaged assets**
 
     Managed assets benefit from AI Control Tower features such as governance, lifecycle management, value assessment, risk classification, security, and privacy. Unmanaged assets, on the other hand, do not have access to these AI Control Tower capabilities.
 
--   **[AI Gateway](https://www.servicenow.com/docs/access?context=ai-gateway-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **AI Gateway**
 
     AI Gateway offers MCP Global Clients, which can be used across all servers.
 
@@ -116,15 +116,15 @@ Not applicable.
 
 ## UI changes
 
--   **[Drop-down menu for associating AI assets with related assets](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Drop-down menu for associating AI assets with related assets**
 
     In both the AI asset creation forms and AI asset records, the **Add new** button that previously enabled you to associate AI assets with other related assets has changed into an Add from inventory drop-down menu with the **Add from inventory** and **Create** options. The **Add from inventory** menu option enables you to associate AI assets with related assets that are currently available in your asset inventory. The **Create** menu option enables you to associate AI assets with related assets that are not currently available in your asset inventory.
 
--   **[Editable asset details fields on the Details tab of AI asset records](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Editable asset details fields on the Details tab of AI asset records**
 
     You can now modify asset details fields directly on the **Details** tab of your AI asset records.
 
--   **[Related asset lists in AI asset records](https://www.servicenow.com/docs/access?context=view-ai-assets-lifecycle-stage&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Related asset lists in AI asset records**
 
     The lists of related assets in each AI asset record has moved from the **Related assets** tab to the **Details** tab.
 
@@ -173,17 +173,17 @@ The AI Control Tower application is localized.
 
 ## Related ServiceNow applications and features
 
--   **[AI Risk and Compliance](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)**
+-   **AI Risk and Compliance**
 
     Enable risk and compliance managers to verify organizational compliance with regulations and policies governing AI systems by using the AI Risk and Compliance application, along with the AI Control Tower.
 
--   **[Strategic Planning](https://www.servicenow.com/docs/access?context=goal-management-in-alignment-planner-workspace&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Strategic Planning**
 
     Prioritize, roadmap, and track work when using traditional, agile, or hybrid methodologies with ServiceNow® Strategic Planning. Align strategy to execution by defining and tracking goals across your organization. When the Strategic Planning application is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, targets, costs of planning items, prioritized work, and RIDAC details.
 
     Strategic Planning is available with an SPM Professional license.
 
--   **[Goal Framework](https://www.servicenow.com/docs/access?context=goal-framework&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Goal Framework**
 
     Create goals, set targets for them, and evaluate the progress of the goals and targets to accomplish your organizational plans and drive business outcomes with the ServiceNow® Goal Framework application. When the Goal Framework application is installed, the **AI strategy** tab appears in the AI Control Tower workspace, featuring different widgets for AI strategies, goals, and targets.
 

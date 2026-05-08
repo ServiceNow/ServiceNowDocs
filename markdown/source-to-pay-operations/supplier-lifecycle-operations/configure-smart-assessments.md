@@ -58,7 +58,7 @@ This field is set to include the **Supplier** and **Segmentation rule assessment
 
     For more information, see [Create assessment template from Assessment Workspace](create-assessment-template-from-assessment-workspace.md).
 
-2.  Optional: **Scoring** option is enabled to initiate the calculation of the assessment-level scores, which can be grouped by sections or questions. For more information, see [Configure scoring for an assessment](https://www.servicenow.com/docs/access?context=configure-scoring-for-assessments&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US).
+2.  Optional: **Scoring** option is enabled to initiate the calculation of the assessment-level scores, which can be grouped by sections or questions. For more information, see Configure scoring for an assessment.
 
     **Note:** The smart assessment scoring plugin \[com.sn\_smart\_scoring\] must be installed for configuring scoring options.
 
@@ -121,7 +121,7 @@ After mapping the assessment templates with segmentation rules, supplier manager
 
 [Install Universal Request for SLO](../task/install-universal-request.md)
 
-[Smart Assessment Engine](https://www.servicenow.com/docs/access?context=smart-asmnt-engine-landing-page&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+[bundle-grc.smart-asmnt-engine-landing-page]
 
-[Create an assessment template](https://www.servicenow.com/docs/access?context=sae-asmnt-template-create&version=australia&pubname=australia-governance-risk-compliance&ft:locale=en-US)
+[bundle-grc.sae-asmnt-template-create]
 

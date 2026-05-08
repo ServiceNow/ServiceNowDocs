@@ -36,9 +36,9 @@ When a probe, such as a WMIRunner, runs a command with multiple WMI fields then 
 
 The command audit log reports the execution status as either a success or failure. The record entry is a success if the command was run, or a failure if it was unable to run. The command audit log does not consider the result of the command being run. For example, a command which runs but fails gather data is still listed in the execution status as a success.
 
-Discovery supports JEA profiles for WinRM. The MID Server command audit log records the JEA profile of the discovery command, if it is available. See [Microsoft Just Enough Administration \(JEA\) for Discovery](https://www.servicenow.com/docs/access?context=microsoft-jea-discovery&version=australia&pubname=australia-it-operations-management&ft:locale=en-US) for more information on JEA profiles.
+Discovery supports JEA profiles for WinRM. The MID Server command audit log records the JEA profile of the discovery command, if it is available. See Microsoft Just Enough Administration \(JEA\) for Discovery for more information on JEA profiles.
 
-By default, the table is rotated every seven days. For more information, see [Table Rotation](https://www.servicenow.com/docs/access?context=c_TableRotation&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+By default, the table is rotated every seven days. For more information, see Table Rotation.
 
 **Parent Topic:**[Securing and encrypting MID Server data](mid-server-security-encryption.md)
 

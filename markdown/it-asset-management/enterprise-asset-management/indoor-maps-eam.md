@@ -46,7 +46,7 @@ To use indoor maps in the Enterprise Asset Workspace, fulfill the following requ
 2.  Set the **com.sn\_eam.indoormap.enabled** asset parameter to **true** on your ServiceNow instance.
 3.  Set up your indoor maps using Map Studio.
 
-    For more information, see [Configure Indoor Mapping](https://www.servicenow.com/docs/access?context=configure-ind-mapping&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    For more information, see Configure Indoor Mapping.
 
     **Note:** When you install indoor maps using the entitlement to the Enterprise Asset Management license, you can use only PNG floor map files in Map Studio. You cannot import files in AutoCAD or Raster file format. To use AutoCAD or Raster files, you must have entitlement to the Workplace Service Delivery application.
 
@@ -58,7 +58,7 @@ To use indoor maps in the Enterprise Asset Workspace, fulfill the following requ
 
 5.  Synchronize location data.
 
-    **Note:** For indoor maps to show assets in the Enterprise Asset Workspace, assets must be assigned to a location of the type **place** or **room** in the Location \[cmn\_location\] table. To view newly created locations within the Enterprise Asset Management application, synchronize the locations from Map Studio to the Location \[cmn\_location\] table. You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see [Synchronize Indoor Mapping map data with CMN location](https://www.servicenow.com/docs/access?context=sync-ind-mapping-cmn-location&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    **Note:** For indoor maps to show assets in the Enterprise Asset Workspace, assets must be assigned to a location of the type **place** or **room** in the Location \[cmn\_location\] table. To view newly created locations within the Enterprise Asset Management application, synchronize the locations from Map Studio to the Location \[cmn\_location\] table. You can associate the locations created in Map Studio with pre-existing records or new records in the Location \[cmn\_location\] table. For more information, see Synchronize Indoor Mapping map data with CMN location.
 
 
 For more details on using indoor maps, see [Track assets using indoor maps in the Enterprise Asset Workspace](../task/track-enterprise-assets-indoor-maps.md).

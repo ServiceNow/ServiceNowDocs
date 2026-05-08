@@ -39,14 +39,14 @@ Role required: agent\_client\_collector\_admin
 
     ![Monitoring Technology Dashboard Configuration tab](../image/configuration-tab-monitor-tech-dashboard.png "Configuration tab")
 
-    For details on working with data visualizations, see [Data visualizations in the Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) [Data visualizations in the Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+    For details on working with data visualizations, see Data visualizations in the Analytics Center Data visualizations in the Analytics Center.
 
 8.  Select **Save and close**.
 
 
 ## Result
 
-Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see [Create a dashboard with the In-line editor](https://www.servicenow.com/docs/access?context=create-db-in-ac&version=australia&pubname=australia-now-intelligence&ft:locale=en-US)\).
+Your customized widgets are saved in the Data Visualizations library, and can be used to configure a customized dashboard \(see Create a dashboard with the In-line editor\).
 
 **Parent Topic:**[Understanding the Monitoring Technology Dashboard](../concept/monitor-tech-dashboard-concept.md)
 

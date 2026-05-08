@@ -27,7 +27,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-Review [Unified Map](https://www.servicenow.com/docs/access?context=cmdb-workspace-unified-map&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) to learn more about the Unified Map feature.
+Review Unified Map to learn more about the Unified Map feature.
 
 **Note:** The Unified Map feature offers limited Service Mapping functionality.
 
@@ -57,9 +57,9 @@ Review [Unified Map](https://www.servicenow.com/docs/access?context=cmdb-workspa
 **Related topics**  
 
 
-[View the attributes of a CI or a relationship](https://www.servicenow.com/docs/access?context=unified-map-show-attributes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.unified-map-show-attributes]
 
-[View service instances for a CI](https://www.servicenow.com/docs/access?context=unified-map-show-app-service&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.unified-map-show-app-service]
 
-[View historical changes for a CI](https://www.servicenow.com/docs/access?context=unified-map-show-ci-changes&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.unified-map-show-ci-changes]
 

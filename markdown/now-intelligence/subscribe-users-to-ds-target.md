@@ -49,5 +49,5 @@ Because responsible users cannot be configured for targets on Data snapshots ind
 
 [Responsibility for indicator targets](../concept/responsibiity-targets-kpi-details.md#)
 
-[Notifications](https://www.servicenow.com/docs/access?context=notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.notifications]
 

@@ -25,7 +25,7 @@ Role required: sn\_wsd\_indoor\_map.admin or sn\_wsd\_core.workplace\_manager
 
 2.  Filter the list to include the records that you want to process.
 
-    Only the records that are included in the filter are processed. For more information about filtering lists, see [Create a filter in List](https://www.servicenow.com/docs/access?context=t_CreatingFilters&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Only the records that are included in the filter are processed. For more information about filtering lists, see Create a filter in List.
 
     Review the pending operations, which include Workplace Space retirements or Indoor Mapping Place deactivations.
 

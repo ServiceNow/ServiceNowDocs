@@ -37,7 +37,7 @@ Role required: sn\_app\_eng\_notify.app\_engine\_admin
 
 3.  Return to the **Details** tab and review the request.
 
-    **Note:** The **Administration** section includes a **Development instance** field. Make sure that the development instance the developer intends to use has been selected. Also, if the user isn’t defined on that instance, a message displays and you must manually add the user to that instance. For more information, see [Create a user](https://www.servicenow.com/docs/access?context=t_CreateAUser&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    **Note:** The **Administration** section includes a **Development instance** field. Make sure that the development instance the developer intends to use has been selected. Also, if the user isn’t defined on that instance, a message displays and you must manually add the user to that instance. For more information, see Create a user.
 
 4.  Use the **Permission type** list in the Administration section to select one of the following options for provisioning groups to this application.
 

@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Use the Now Assist Admin console to configure Now Assist for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see [Overview tab in Now Assist Admin](https://www.servicenow.com/docs/access?context=configuring-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+Use the Now Assist Admin console to configure Now Assist for FSO. This console contains what you need to install the plugins and configure the generative AI skills. For additional information, see Overview tab in Now Assist Admin.
 
 The following table lists the FSO case summarization skills that you can access from the Now Assist Admin console.
 
@@ -36,7 +36,7 @@ The following table lists the FSO case summarization skills that you can access 
 1.  Install the Now Assist for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\).
 
     -   For information about the plugin dependencies and plugin activation order, see [Application information](../concept/supporting-information-for-now-assist-for-financial-services-operations-fso.md#section_ng1_bdj_mbc).
-    -   For information about the installation process, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   For information about the installation process, see Install Now Assist plugins.
 2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the Now Assist Admin console.
 
 3.  Select the **Customer** &gt; **FSO** workflow group.
@@ -59,7 +59,7 @@ The following table lists the FSO case summarization skills that you can access 
 
         For the skills that appear in-product, select the down arrow to define the roles that can use the skill.
 
-    -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the Now Assist panel standard chat](https://www.servicenow.com/docs/access?context=activate-now-assist-panel&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+    -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see Activate the Now Assist panel standard chat.
 
         For the skills that appear in the Now Assist panel, select the down arrow to define the roles that can use the skill.
 
@@ -74,5 +74,5 @@ A message appears confirming the summarization skill has been successfully activ
 
 ## What to do next
 
-You can choose which service provider to use for this skill [in the Now Assist Admin console](https://www.servicenow.com/docs/access?context=manage-large-language-models&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+You can choose which service provider to use for this skill in the Now Assist Admin console.
 

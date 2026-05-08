@@ -196,7 +196,7 @@ Update the value of the specified fields on the record that the form generates w
 
 11. Define any extra conditions that must be met for the activity to happen by selecting **+ Add conditions**.
 
-    Use the condition builder that appears to specify any other things that must happen for the activity to run. For more information, see [Create a condition statement using the condition builder](https://www.servicenow.com/docs/access?context=create-cond-state-using-cond-build&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    Use the condition builder that appears to specify any other things that must happen for the activity to run. For more information, see Create a condition statement using the condition builder.
 
     You can use the answer from the associated form to power the activity. For example, you can specify that if someone answers Yes to the question "Do you eat meat?" the Assign to activity is assigned to the Meat department to fulfill the gift box. To use the response from a form as a condition, do the following:
 

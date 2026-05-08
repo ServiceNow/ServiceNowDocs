@@ -206,7 +206,7 @@ Condition
 
 </td><td>
 
-Determines what conditions are required for menu items to show in the header. For example, the condition `gs.hasRole("sp_admin")` restricts access to menu items to users with the sp\_admin role. Hide a menu item by setting this value to **false**. For more information on what conditions to use in the **Condition** field, see [Create a UI Action](https://www.servicenow.com/docs/access?context=t_CreateNewUIAction&version=australia&pubname=australia-it-service-management&ft:locale=en-US) .
+Determines what conditions are required for menu items to show in the header. For example, the condition `gs.hasRole("sp_admin")` restricts access to menu items to users with the sp\_admin role. Hide a menu item by setting this value to **false**. For more information on what conditions to use in the **Condition** field, see Create a UI Action .
 
 </td></tr><tr><td>
 
@@ -238,7 +238,7 @@ Allow all users to select their language preferences by enabling the language se
 
 ### Before you begin
 
-Active the languages your portal users need and configure a portal header menu. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Configure a portal header menu](configure-header-menu.md#).
+Active the languages your portal users need and configure a portal header menu. For more information, see Activate a language and [Configure a portal header menu](configure-header-menu.md#).
 
 Role required: admin
 
@@ -246,7 +246,7 @@ Role required: admin
 
 For all portals except the Knowledge \(/kb\), Customer Support \(/csm\), and Customer Service \(/csp\) portals, the language selector is included but turned off by default. To display the language selector in the portal header for other portals, you must enable it according to this procedure.
 
-In portal headers, the language selector displays the current language selection of the user and a menu of languages that the user can choose from. If region grouping is enabled, languages are displayed according to the configured region groups. For more information about grouping languages, see [Create regions for language selection in portals](https://www.servicenow.com/docs/access?context=create-regions&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+In portal headers, the language selector displays the current language selection of the user and a menu of languages that the user can choose from. If region grouping is enabled, languages are displayed according to the configured region groups. For more information about grouping languages, see Create regions for language selection in portals.
 
 ### Procedure
 

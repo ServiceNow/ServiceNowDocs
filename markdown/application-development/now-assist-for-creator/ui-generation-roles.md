@@ -15,7 +15,7 @@ breadcrumb: [Reference, UI generation, Use generative AI, Now Assist for Creator
 
 The following roles are installed for use with UI generation.
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://www.servicenow.com/docs/access?context=managing-user-subscriptions-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and contact your account representative.
+To learn more about managing per-user subscriptions, see Managing per-user subscriptions in Subscription Management and contact your account representative.
 
 ## Now Assist Creator \[ui\_builder\_admin\]
 

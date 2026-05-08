@@ -58,7 +58,7 @@ You must configure at least one display experience for an assistant before activ
 
         If your portal has AI Search activated, enhanced chat includes the option to turn on the full-page chat experience. Select **Allow the search bar to open into a full-page chat experience**. For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](../concept/prerequisites-enhanced-chat.md).
 
-        **Note:** When you activate enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://www.servicenow.com/docs/access?context=defining-search-profiles-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+        **Note:** When you activate enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. VA Search Profile instead of the search profile specified in the portal's search application configuration. To learn more about search profiles and how they affect search behavior, see Search profiles in AI Search.
 
         For information about the enhanced chat experience option, see [Using Now Assist in Virtual Agent](../concept/using-now-assist-in-va.md).
 
@@ -70,7 +70,7 @@ You must configure at least one display experience for an assistant before activ
 
     3.  Select the **Allow public access for this assistant** check box to enable the assistant on public pages for all selected portals.
 
-        Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see [Make UI pages public or private](https://www.servicenow.com/docs/access?context=t_MakeAPagePublic&version=australia&pubname=australia-platform-security&ft:locale=en-US), [Configure page security by role](https://www.servicenow.com/docs/access?context=configure-page-security&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US), and [Configure widget security](https://www.servicenow.com/docs/access?context=configure-widget-security&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see Make UI pages public or private, Configure page security by role, and Configure widget security.
 
         For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**.
 
@@ -115,7 +115,7 @@ You must configure at least one display experience for an assistant before activ
 
         ![Prominent action button override.](../image/NAinVA-prominent-action-override-122025.png "Prominent action button override")
 
-        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see [Using the prominent action button](https://www.servicenow.com/docs/access?context=using-prominent-action-button&version=australia&pubname=australia-mobile&ft:locale=en-US) and [Configuring a prominent action button](https://www.servicenow.com/docs/access?context=configuring-prominent-action-button&version=australia&pubname=australia-mobile&ft:locale=en-US).
+        The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see Using the prominent action button and Configuring a prominent action button.
 
     5.  The **Custom apps section** is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
 

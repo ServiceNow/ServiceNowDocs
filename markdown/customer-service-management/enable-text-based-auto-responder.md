@@ -15,8 +15,8 @@ Configure the Auto-Responder feature to send recommendations that match a text s
 
 ## Before you begin
 
--   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Predictive Intelligence for CSM solution definitions](../concept/predictive-intelligence-for-csm.md).
--   Set the application scope to Email Notification Script for Contextual Search Results using the application picker. For more information, see [Application picker](https://www.servicenow.com/docs/access?context=c_ApplicationPicker&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Activate the Predictive Intelligence for Customer Service Management plugin \(com.snc.csm\_ml\). For more information, see Activate a plugin and [Predictive Intelligence for CSM solution definitions](../concept/predictive-intelligence-for-csm.md).
+-   Set the application scope to Email Notification Script for Contextual Search Results using the application picker. For more information, see Application picker.
 
 Role required: admin
 

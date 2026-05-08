@@ -30,7 +30,7 @@ Dependencies and Requirements:
 -   Telecom Visibility Core \(sn\_tsom\_core\)
 -   Discovery Core plugin \(com.snc.discovery.core\), which is automatically installed by Discovery.
 -   ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://www.servicenow.com/docs/access?context=t_ActivateTheDiscoveryPlugin&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
 
 Pattern execution logic: By default, when a TSOM pattern is run, it executes both the TSOM-specific and the corresponding ITOM pattern \(e.g., Telco Router runs Router\). This ensures shared ITOM libraries are reused when needed. To override this behavior:
 
@@ -41,7 +41,7 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
 
 1.  Install the Horizontal Discovery application.
 
-    See [Discovery setup](https://www.servicenow.com/docs/access?context=discovery-setup&version=australia&pubname=australia-it-operations-management&ft:locale=en-US), as it is foundational for running Telecommunications Discovery Patterns.
+    See Discovery setup, as it is foundational for running Telecommunications Discovery Patterns.
 
 2.  Obtain and install Telecommunications Discovery Patterns:
 
@@ -55,7 +55,7 @@ Pattern execution logic: By default, when a TSOM pattern is run, it executes bot
         2.  Select **Pattern Sync to Mid**.
         **Note:** This action synchronizes both TSOM and ITOM patterns.
 
-        For more information on how to configure a MID Server, see [Configuring MID Server](https://www.servicenow.com/docs/access?context=configure-mid-server&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+        For more information on how to configure a MID Server, see Configuring MID Server.
 
 4.  Configure TSOM System Properties:
 

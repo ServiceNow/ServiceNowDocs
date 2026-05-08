@@ -17,7 +17,7 @@ Configure a callback URL for communication between the Legal Matter Management a
 
 ## Before you begin
 
-Ensure you have installed and activated Legal Tracker spoke. For more information, see [Legal Tracker](https://www.servicenow.com/docs/access?context=legal-tracker-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Ensure you have installed and activated Legal Tracker spoke. For more information, see Legal Tracker.
 
 Role required: admin, sn\_lg\_ops.legal\_fulfiller
 

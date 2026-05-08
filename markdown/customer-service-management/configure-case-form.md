@@ -23,13 +23,13 @@ Role required: admin
 
 2.  Configure the form layout to add the fields you require.
 
-    For more information about adding fields to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information about adding fields to a form, see Configuring the form layout.
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Sold Product** field.
 
 3.  Configure the form layout to add the related lists you require.
 
-    For more information about adding a related list to a form, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information about adding a related list to a form, see Configuring the form layout.
 
     **Note:** If you are using Customer Service Install Base Management and Proactive Customer Service Operations, add the **Affected Install Base Items** related list.
 
@@ -39,5 +39,5 @@ Role required: admin
 **Related topics**  
 
 
-[Create and delete views](https://www.servicenow.com/docs/access?context=create-delete-view&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)
+[bundle-platux.create-delete-view]
 

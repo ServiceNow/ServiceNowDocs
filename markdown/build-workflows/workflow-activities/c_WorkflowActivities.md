@@ -23,14 +23,14 @@ For information about configuring different types of activities, click an activi
 
 ## Core activities provided in the base system
 
--   [Approval and rollback workflow activities](https://www.servicenow.com/docs/access?context=c_ApprovalAndRollbackActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Condition Workflow activities](https://www.servicenow.com/docs/access?context=r_ConditionActivites&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Notification workflow activity](https://www.servicenow.com/docs/access?context=r_NotificationActivity&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Notify workflow activities](https://www.servicenow.com/docs/access?context=c_NotifyActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Approval and rollback workflow activities
+-   Condition Workflow activities
+-   Notification workflow activity
+-   Notify workflow activities
 -   [Workflows used as subflows](../../workflow-activities/reference/workflows-as-subflows.md)
--   [Task workflow activities](https://www.servicenow.com/docs/access?context=r_TaskActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Timer workflow activities](https://www.servicenow.com/docs/access?context=c_TimerActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
--   [Utility workflow activities](https://www.servicenow.com/docs/access?context=c_UtilityActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+-   Task workflow activities
+-   Timer workflow activities
+-   Utility workflow activities
 
 ## Activities provided with Orchestration
 
@@ -43,5 +43,5 @@ The following activities are included with Orchestration.
 
 ## Templates provided for creating custom activities
 
-If Orchestration is active on your system, users with the proper roles can create custom activities using the ServiceNow [Orchestration activity designer](https://www.servicenow.com/docs/access?context=c_WorkflowActivityDesigner&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US). For information about the templates Orchestration provides for creating custom activities that you can upload to the ServiceNow Store, see [Activity designer components](https://www.servicenow.com/docs/access?context=c_ActivityDesignerComponents&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+If Orchestration is active on your system, users with the proper roles can create custom activities using the ServiceNow Orchestration activity designer. For information about the templates Orchestration provides for creating custom activities that you can upload to the ServiceNow Store, see Activity designer components.
 

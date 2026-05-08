@@ -30,7 +30,7 @@ The Workplace Reservation Management application provides the **Template** virtu
 |Get meeting details|`Get MS Teams Thread ID`|
 |Get recording|`Get Microsoft Teams Recording`|
 
-For more information on how to create a flow, refer to [Create a flow](https://www.servicenow.com/docs/access?context=create-flow&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+For more information on how to create a flow, refer to Create a flow.
 
 **Important:** The virtual meeting providers are deactivated by default. Change the **Active** status of the desired virtual meeting provider to **true** to start using.
 

@@ -21,7 +21,7 @@ Role required: sn\_cmp.cloud\_admin
 
 ## Procedure
 
-1.  Follow the instructions in [Add an Azure service account](https://www.servicenow.com/docs/access?context=azure-service-account-cloud-mgt&version=australia&pubname=australia-it-operations-management&ft:locale=en-US).
+1.  Follow the instructions in Add an Azure service account.
 
 
 **Related topics**  

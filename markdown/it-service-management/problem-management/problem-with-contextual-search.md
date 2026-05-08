@@ -28,5 +28,5 @@ You can:
 **Related topics**  
 
 
-[Contextual search overview](https://www.servicenow.com/docs/access?context=c_ContextualSearch&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.c_ContextualSearch]
 

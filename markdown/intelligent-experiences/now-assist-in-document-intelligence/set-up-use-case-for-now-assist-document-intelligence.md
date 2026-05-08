@@ -180,11 +180,11 @@ Upload from this device
 
     4.  Use the conditions to select certain fields as specific triggers for the integration.
 
-        Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see [OR conditions](https://www.servicenow.com/docs/access?context=c_UsingORConditions&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+        Conditions are available if you selected `Process task` in the previous step. For more information on conditions, see OR conditions.
 
     5.  Select the **Create Flow** option to create a flow for this integration in Workflow Studio.
 
-        **Tip:** This option should be selected, unless you are planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see [Building flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+        **Tip:** This option should be selected, unless you are planning to write your own custom script to set up the integration.Be sure the integration is activated on Workflow Studio. For more information, see Building flows.
 
     6.  Select **Save**.
 

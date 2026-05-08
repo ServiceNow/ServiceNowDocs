@@ -90,7 +90,7 @@ The system renders the text within code tags as HTML.
 **Related topics**  
 
 
-[General security settings properties](https://www.servicenow.com/docs/access?context=r_GeneralSecuritySettings&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.r_GeneralSecuritySettings]
 
-[HTML sanitizer](https://www.servicenow.com/docs/access?context=c_HTMLSanitizer&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.c_HTMLSanitizer]
 

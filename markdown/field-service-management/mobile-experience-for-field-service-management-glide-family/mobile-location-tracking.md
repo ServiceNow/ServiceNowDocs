@@ -21,8 +21,8 @@ There are two options available for location tracking. You can either select one
 
 The two location tracking options are:
 
--   Manual tracking – This option enables users to select whether to start location tracking for a defined period or for users ￼￼to be continuously tracked. This type of location tracking is only supported on the Mobile Agent app. For information about the manual tracking option, see [Configuring manual location tracking](https://www.servicenow.com/docs/access?context=location-tracking-manual-config&version=australia&pubname=australia-mobile&ft:locale=en-US).
--   Action-based tracking – You can use this option to configure functions to start or stop location tracking, based on actions a user performs. This type of location tracking is supported on both the Mobile Agent app and the Now Mobile app. For information about the action-based tracking option, see [Configuring action-based location tracking](https://www.servicenow.com/docs/access?context=location-tracking-action-config&version=australia&pubname=australia-mobile&ft:locale=en-US).
+-   Manual tracking – This option enables users to select whether to start location tracking for a defined period or for users ￼￼to be continuously tracked. This type of location tracking is only supported on the Mobile Agent app. For information about the manual tracking option, see Configuring manual location tracking.
+-   Action-based tracking – You can use this option to configure functions to start or stop location tracking, based on actions a user performs. This type of location tracking is supported on both the Mobile Agent app and the Now Mobile app. For information about the action-based tracking option, see Configuring action-based location tracking.
 
 ## Activating plugins
 
@@ -30,13 +30,13 @@ As an administrator, you must activate geolocation tracking for your  users by
 
 **Note:** To install the Mobile Location Tracking plugin \(com.glide.sg.location.tracking\), you must first install the Geolocation plugin \(com.snc.geolocation\).
 
-For details on plugin activation, see [Activate a plugin](https://www.servicenow.com/docs/access?context=t_ActivateAPlugin&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For details on plugin activation, see Activate a plugin.
 
 ## Location tracking and your users
 
-After activating the plugins and performing the various configurations, you must enable location tracking for users. For more information, see [Enabling location tracking for users](https://www.servicenow.com/docs/access?context=location-tracking-add-user&version=australia&pubname=australia-mobile&ft:locale=en-US).
+After activating the plugins and performing the various configurations, you must enable location tracking for users. For more information, see Enabling location tracking for users.
 
-On the users-side, after configuring the location tracking options, users will see the geolocation location tracking settings in the  **Settings**  tab of their mobile devices. Users can enable or disable location tracking on their device. For more information, see [Using location tracking for mobile](https://www.servicenow.com/docs/access?context=mobile-location&version=australia&pubname=australia-mobile&ft:locale=en-US).
+On the users-side, after configuring the location tracking options, users will see the geolocation location tracking settings in the  **Settings**  tab of their mobile devices. Users can enable or disable location tracking on their device. For more information, see Using location tracking for mobile.
 
 ## Location tracking in offline
 

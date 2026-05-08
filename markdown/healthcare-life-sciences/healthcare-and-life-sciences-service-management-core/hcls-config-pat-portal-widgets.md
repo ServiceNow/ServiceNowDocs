@@ -15,7 +15,7 @@ breadcrumb: [Configuring the Patient Portal, Configure, Healthcare and Life Scie
 
 The Patient Portal included within the Healthcare and Life Sciences Service Management Core application uses widgets to bring together healthcare data and information for the patient.
 
-Widgets on the Patient Portal are service portal widgets but available within the Healthcare and Life Sciences Service Management Core application scope. As a user with the sn\_hcls.admin or admin role, you can configure various options for a widget from the context menu. To view configuration options available for a Patient Portal widget, open the Patient Portal page, select the control key, and the right-click the widget. For more information, see [Configure widget instances](https://www.servicenow.com/docs/access?context=c_ConfigureWidgetInstances&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Widgets on the Patient Portal are service portal widgets but available within the Healthcare and Life Sciences Service Management Core application scope. As a user with the sn\_hcls.admin or admin role, you can configure various options for a widget from the context menu. To view configuration options available for a Patient Portal widget, open the Patient Portal page, select the control key, and the right-click the widget. For more information, see Configure widget instances.
 
 The following widgets are included in the Patient Portal.
 

@@ -19,7 +19,7 @@ Suppliers can switch between a virtual agent and a live agent to address their i
 
 Natural Language understanding \(NLU\) is integrated with the virtual agent chatbot to help suppliers with invoice and inquiry-related queries. NLU also helps suppliers to analyze, understand, and navigate to the right topic.
 
-For more information, see [Connect](https://www.servicenow.com/docs/access?context=c_Connect&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+For more information, see Connect and Virtual Agent.
 
 ## Accounts Payable Operations Virtual agent flows
 

@@ -160,7 +160,7 @@ Flow or workflow that you want to associate with this item. It defines how this 
 
  For information about defining service fulfillment steps, see [Define a service fulfillment step](create-sf-step.md).
 
- For information about Workflow Studio flows, see [Flows](https://www.servicenow.com/docs/access?context=flows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+ For information about Workflow Studio flows, see Flows.
 
 </td></tr><tr><td>
 

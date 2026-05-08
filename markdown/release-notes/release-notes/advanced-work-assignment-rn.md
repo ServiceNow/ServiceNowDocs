@@ -16,22 +16,22 @@ The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assi
 
 Use AWA with non-task and non-interaction tables such as leads, opportunities, orders, and quotes.
 
-See [Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) for more information.
+See Advanced Work Assignment for more information.
 
 ## New in the Australia release
 
--   **[Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)**
+-   **Advanced Work Assignment**
 
     Configure routing for non-task and non-interaction tables such as leads, opportunities, orders, and quotes in AWA.
 
--   **[Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-application-landing-page&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)**
+-   **Advanced Work Assignment**
 
     Use telephone-style transfer workflows in AWA to enable warm transfers where agents consult privately before merging calls with the customer.
 
 
 ## Activation information
 
-AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see Activate Advanced Work Assignment.
 
 ## Browser requirements
 
@@ -39,7 +39,7 @@ Advanced Work Assignment doesn’t support mobile devices or Microsoft Edge brow
 
 ## Related ServiceNow applications and features
 
--   **[Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US)**
+-   **Now Assist**
 
     The Now Assist application uses generative AI to enhance user productivity and efficiency through conversation and proactive experiences.
 

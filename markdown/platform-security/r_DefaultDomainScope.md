@@ -53,7 +53,7 @@ Restricts domain scope to the record's domain for all data.-   Type: true \| fal
 -   **glide.sys.domain.domain\_change\_notify**
 -   **glide.sys.domain.no\_change\_roles**
 
-For a full list of properties see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For a full list of properties see Available system properties.
 
 **Note:**
 

@@ -19,8 +19,8 @@ Now Assist enhances Playbook with generative AI and agentic capabilities that he
 
 |Feature|Description|Documentation|
 |-------|-----------|-------------|
-|Playbook generation|Generate a complete playbook automatically using a natural language prompt. Now Assist creates the playbook structure, stages, and activities based on your input.|[Playbook generation](https://www.servicenow.com/docs/access?context=playbook-assist-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)|
-|Playbook recommendation|Get AI-powered recommendations for existing playbooks based on the current context, such as a record or case, so the right playbook is surfaced at the right time.|[Playbook recommendations](https://www.servicenow.com/docs/access?context=playbook-recommendations-landing&version=australia&pubname=australia-application-development&ft:locale=en-US)|
+|Playbook generation|Generate a complete playbook automatically using a natural language prompt. Now Assist creates the playbook structure, stages, and activities based on your input.|Playbook generation|
+|Playbook recommendation|Get AI-powered recommendations for existing playbooks based on the current context, such as a record or case, so the right playbook is surfaced at the right time.|Playbook recommendations|
 |Agentic Playbooks|Enable AI agents to autonomously execute playbook actions and make decisions at runtime, reducing manual intervention for complex, multi-step processes.|[Agentic Playbooks](agentic-playbooks-landing.md)|
 
 **Parent Topic:**[Exploring Playbook](process-automation-designer.md)

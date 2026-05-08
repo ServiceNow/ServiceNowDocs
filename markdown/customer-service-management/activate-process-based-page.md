@@ -52,11 +52,11 @@ Some playbook pages and page variants are not active by default. You need to act
 **Related topics**  
 
 
-[Create a page from a template](https://www.servicenow.com/docs/access?context=reuse-page-definitions&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.reuse-page-definitions]
 
-[Edit a page](https://www.servicenow.com/docs/access?context=edit-page&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.edit-page]
 
-[Create a page variant](https://www.servicenow.com/docs/access?context=create-variant&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.create-variant]
 
-[Edit page variant settings](https://www.servicenow.com/docs/access?context=edit-variant-settings&version=australia&pubname=australia-application-development&ft:locale=en-US)
+[bundle-cadev.edit-variant-settings]
 

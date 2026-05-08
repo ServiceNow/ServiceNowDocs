@@ -96,7 +96,7 @@ Claim Case Line Charge\[sn\_claim\_cmn\_case\_line\_charge\]
 Stores the charges incurred for each repair job.
 
 </td></tr></tbody>
-</table>To learn more about the Case and Case Line, see [Case Lines and Workflows](https://www.servicenow.com/docs/access?context=csm-case-mgmt-case-lines&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+</table>To learn more about the Case and Case Line, see Case Lines and Workflows.
 
 **Parent Topic:**[Repair claims data model](repair-claims.md)
 

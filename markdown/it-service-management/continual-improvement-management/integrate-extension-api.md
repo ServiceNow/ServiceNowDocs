@@ -53,7 +53,7 @@ The CIMIntegrationAPI defines the inbound and outbound extension points for inte
 
 9.  For outbound integrations, configure related links on CIM task records to integrated applications.
 
-    For more information, see [Create a UI action](https://www.servicenow.com/docs/access?context=t_EditingAUIAction&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see Create a UI action.
 
 
 **Parent Topic:**[Applications integrated with Continual Improvement Management](../reference/cim-integration.md)

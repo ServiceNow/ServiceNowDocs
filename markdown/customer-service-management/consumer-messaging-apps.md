@@ -25,8 +25,8 @@ For details, see:
 
 -   [Integrating WhatsApp with Customer Service Management through Twilio](messg-integrate-whatsapp-csm.md)
 -   [Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](messg-integrating-whatsapp-with-csm-whatsapp-cloud.md)
--   [Conversational Integration with WhatsApp \(WhatsApp Cloud API\)](https://www.servicenow.com/docs/access?context=messg-direct-whatsapp&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
--   [Conversational Integration with WhatsApp \(powered by Twilio\)](https://www.servicenow.com/docs/access?context=messg-whatsapp-twilio&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Conversational Integration with WhatsApp \(WhatsApp Cloud API\)
+-   Conversational Integration with WhatsApp \(powered by Twilio\)
 
 ## Facebook Messenger
 
@@ -35,7 +35,7 @@ Facebook Messenger enables customers to reach support directly through your orga
 For details, see:
 
 -   [Integrating Facebook Messenger with Customer Service Management](messg-integrate-fbm-csm.md)
--   [Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/access?context=messg-fbm&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Conversational Integration with Facebook Messenger
 
 ## LINE
 
@@ -44,7 +44,7 @@ LINE supports customer conversations through your organization’s LINE account 
 For details, see:
 
 -   [Integrating LINE with Customer Service Management](messg-integrate-line-csm.md)
--   [Conversational Integration with LINE](https://www.servicenow.com/docs/access?context=messg-line&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Conversational Integration with LINE
 
 ## Apple Messages for Business
 
@@ -53,5 +53,5 @@ Apple Messages for Business lets customers initiate support conversations from t
 For details, see:
 
 -   [Integrating Apple Messages for Business with Customer Service Management](integrate-amb-with-csm.md)
--   [Conversational Integration with Apple Messages for Business](https://www.servicenow.com/docs/access?context=integration-apple-mssg&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+-   Conversational Integration with Apple Messages for Business
 

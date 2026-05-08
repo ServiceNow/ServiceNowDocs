@@ -87,12 +87,12 @@ Determines whether the Home module opens **Homepages** or **Dashboards**. **Impo
 
 The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
-Use the [Homepage deprecation help tool](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&version=australia&pubname=australia-now-intelligence&ft:locale=en-US) to convert the homepages on your instance to responsive dashboards.
+Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
 
 For more information, see:
 
--   [Dashboards in the Analytics Center](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
--   [Working with responsive dashboards](https://www.servicenow.com/docs/access?context=c_ResponsiveDashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+-   Dashboards in the Analytics Center.
+-   Working with responsive dashboards.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Language
 
 </td><td>
 
-Select a language or return to the default language \(![Return to default language](../image/IconUI16Reset.png)\). This setting is available if a language plugin has been activated. For more information, see [Activate a language](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Select a language or return to the default language \(![Return to default language](../image/IconUI16Reset.png)\). This setting is available if a language plugin has been activated. For more information, see Activate a language.
 
 </td></tr><tr><td>
 
@@ -216,8 +216,8 @@ Notification channels
 </td><td>
 
 List of your channels for receiving notifications. Use this section to:-   Enable or disable a channel by using its toggle switch. If you disable a channel, notifications are not delivered through that channel.
--   [Add channels](https://www.servicenow.com/docs/access?context=create-channel&version=australia&pubname=australia-platform-administration&ft:locale=en-US) using the **Create Channel** option.
--   [Modify channel information](https://www.servicenow.com/docs/access?context=modify-notif-channel&version=australia&pubname=australia-platform-administration&ft:locale=en-US). Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
+-   Add channels using the **Create Channel** option.
+-   Modify channel information. Click the channel row or the right arrow \(**&gt;**\) next to the appropriate channel to edit or delete it.
 
 </td></tr><tr><td>
 
@@ -229,8 +229,8 @@ List of notification categories that identify and group related notifications. E
 
  -   Edit settings for a notification:
     -   Enable or disable channels for the selected notification.
-    -   [Apply notification conditions](https://www.servicenow.com/docs/access?context=apply-notification-conditions&version=australia&pubname=australia-platform-administration&ft:locale=en-US), such as schedules and filters, that affect the delivery of the notification.
--   [Create personal notifications](https://www.servicenow.com/docs/access?context=create-personal-notifications&version=australia&pubname=australia-platform-administration&ft:locale=en-US), which are subscriptions to specific notifications that matter to you.
+    -   Apply notification conditions, such as schedules and filters, that affect the delivery of the notification.
+-   Create personal notifications, which are subscriptions to specific notifications that matter to you.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -274,7 +274,7 @@ JavaScript Log and Field Watcher
 
 </td><td>
 
-\(Administrators only\) Opens the client-side [JavaScript debug window](https://www.servicenow.com/docs/access?context=c_JavaScriptDebugWindow&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+\(Administrators only\) Opens the client-side JavaScript debug window.
 
 </td></tr><tr><td>
 

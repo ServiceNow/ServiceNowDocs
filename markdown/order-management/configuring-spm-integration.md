@@ -25,11 +25,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Activate PPM Standard \(Project Portfolio Management\)](https://www.servicenow.com/docs/access?context=t_ActivateProjectPortfolioSuiteWithFinancials&version=australia&pubname=australia-it-business-management&ft:locale=en-US)
+Activate PPM Standard \(Project Portfolio Management\)
 
 </td><td>
 
-Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're tracking customer projects, you must also activate the Customer Project Management \(com.snc.csm\_ppm\) plugin. For information on setting up Customer Project Management, see [Integrate with Customer Project Management using Guided Setup](https://www.servicenow.com/docs/access?context=csm-ppm-configuration&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+Install the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. If you're tracking customer projects, you must also activate the Customer Project Management \(com.snc.csm\_ppm\) plugin. For information on setting up Customer Project Management, see Integrate with Customer Project Management using Guided Setup.
 
 **Note:** If you installed the Order Management application before activating the PPM Standard or Customer Project Management plugins, you must repair the Order Management \(com.sn\_ind\_tmt\_orm\) plugin to get the plugin-dependent updates and demo data for the SPM integration.
 

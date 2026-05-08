@@ -37,7 +37,7 @@ Product Support for Technology deliver end-to-end support, while understanding c
 |Use five unique Workflow Studio flows that can be modified to suit your business needs.|[Proactive Service Experience Workflows architecture](architecture-assurance-workflows.md)|
 |Escalate incidents for faster action based on a preconfigured decision table.|[About escalating incidents](psew-escalate-incident.md)|
 |Create incident records from certain API clients based on TM Forum TMF621 Rest API standards.|[Create an incident in Proactive Service Experience Workflows](../task/create-an-incident-proactive.md)|
-|Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.|[Components installed with Customer Service Problem Management](https://www.servicenow.com/docs/access?context=spm-components&version=australia&pubname=australia-telecom-media-technology&ft:locale=en-US)|
+|Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.|Components installed with Customer Service Problem Management|
 |Use the Telecommunications API notification to inform third-party systems about the incidents or cases that are created in a reactive or proactive way in the ServiceNow instance.|[Handling API notifications](handling-trouble-ticket-notifications.md)|
 
 For information about the architectural components of the Proactive Service Experience Workflows application, see [Proactive Service Experience Workflows architecture](architecture-assurance-workflows.md).

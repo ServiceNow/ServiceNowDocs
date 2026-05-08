@@ -33,15 +33,15 @@ Role required: sn\_ta\_hiring\_core.hiring\_manager, sn\_ta\_hiring\_core.recuit
     -   Enter a request in the chat to open a new job requisition.
 4.  Select one of the following options and follow the Virtual Agent prompts.
 
-<table id="choicetable_qsl_dmg_21c"><thead><tr><th align="left" id="d413305e143">
+<table id="choicetable_qsl_dmg_21c"><thead><tr><th align="left" id="d413319e143">
 
 Option
 
-</th><th align="left" id="d413305e146">
+</th><th align="left" id="d413319e146">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d413305e152">
+</th></tr></thead><tbody><tr><td id="d413319e152">
 
 **Create a new job requisition**
 
@@ -49,7 +49,7 @@ Action
 
 Create a job requisition by answering the prompts, which are used to fill the Job requisition form.For a description of the field values, see [Job requisition form](../reference/new-job-form.md).
 
-</td></tr><tr><td id="d413305e170">
+</td></tr><tr><td id="d413319e170">
 
 **Duplicate a job requisition**
 

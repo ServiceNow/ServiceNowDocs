@@ -60,7 +60,7 @@ The following items are installed with Legal Simple Privacy:
 
 \(Optional\) Reconfigure the forms in the application to use the new privacy assessment record producer, catalog category, and content taxonomy. For more information, see [Reconfigure forms to use new components](reconfigure-post-install-privacy.md)
 
-Use the Legal Service Delivery Guided Setup to configure the application on your instance. To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Use the Legal Service Delivery Guided Setup to configure the application on your instance. To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 **Parent Topic:**[Configure Legal Simple Privacy](../concept/setting-up-legal-simple-privacy.md)
 

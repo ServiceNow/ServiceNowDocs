@@ -65,6 +65,6 @@ You can get started with AI search in upgraded instances by using the AI search 
 
     4.  Click **Update**.
 
-    **Note:** If you do not want to use the AI search configuration in the base system, migrate your search profiles and other configurations from zing search to AI search. Perform the steps mentioned in [Configure AI Search for mobile devices](https://www.servicenow.com/docs/access?context=advanced-text-search-config-now&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+    **Note:** If you do not want to use the AI search configuration in the base system, migrate your search profiles and other configurations from zing search to AI search. Perform the steps mentioned in Configure AI Search for mobile devices.
 
 

@@ -26,7 +26,7 @@ To define which alerts are grouped, the following parameters are used:
 -   **sa\_analytics.agg.query\_dynamic\_window**: By default, this is set to 10 minutes \(600 seconds\). It defines the maximum time difference allowed between the last event generation times of two alerts that can be grouped together.
 -   **sa\_analytics.agg.query\_max\_group\_lifetime**: This parameter specifies the maximum time period from the generation of the first alert to the last alert in a group, with a default of 30 minutes \(1800 seconds\). If events arrive with a delay exceeding this period, the **sa\_analytics.agg.group\_expiration\_time** parameter can be used to extend the grouping time beyond 30 minutes.
 
-**Note:** Some parameters, such as **sa\_analytics.agg.query\_dynamic\_window**, **sa\_analytics.agg.query\_max\_group\_lifetime**, and **sa\_analytics.agg.group\_expiration\_time**, are not provided out of the box. To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+**Note:** Some parameters, such as **sa\_analytics.agg.query\_dynamic\_window**, **sa\_analytics.agg.query\_max\_group\_lifetime**, and **sa\_analytics.agg.group\_expiration\_time**, are not provided out of the box. To use these properties, you need to create properties with the same names and assign the required values to them. For more information on how to create a property, see Add a system property.
 
 ## Example: How alerts are grouped
 

@@ -41,7 +41,7 @@ Slack spoke
 
 </td><td>
 
-Installing this plugin establishes a spoke connection with Slack. For more information, see [Slack Spoke](https://www.servicenow.com/docs/access?context=slack-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+Installing this plugin establishes a spoke connection with Slack. For more information, see Slack Spoke
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configure Slack chat connector for major security incidents](../concept/configure-slack-chat-connector-msi.md)

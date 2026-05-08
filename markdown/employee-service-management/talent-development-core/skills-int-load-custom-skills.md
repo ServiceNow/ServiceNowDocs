@@ -29,7 +29,7 @@ Role required: import\_admin, sn\_skills\_int.admin
 
 3.  Select the Skills Staging \[sn\_skills\_int\_skills\_staging\] table from the drop-down list.
 
-    **Note:** If no values appear in the table for the level types and proficiencies for a skill, the skill will be created without this information. For more information, see [Define a skill level type](https://www.servicenow.com/docs/access?context=define-skill-level-type&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    **Note:** If no values appear in the table for the level types and proficiencies for a skill, the skill will be created without this information. For more information, see Define a skill level type.
 
 4.  In the **Source of the import** field, select **File**.
 

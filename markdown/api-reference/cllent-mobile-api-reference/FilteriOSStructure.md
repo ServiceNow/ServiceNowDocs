@@ -171,7 +171,7 @@ Creates a filter using a specified encoded query.
 
 |Name|Type|Description|
 |----|----|-----------|
-|query|String|[Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)[Encoded query](https://www.servicenow.com/docs/access?context=c_EncodedQueryStrings&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) to use to filter the records to return from the table.|
+|query|String|Encoded queryEncoded query to use to filter the records to return from the table.|
 |queryCategory|String|Optional. Name of the query category to use for the query.|
 
 |Type|Description|

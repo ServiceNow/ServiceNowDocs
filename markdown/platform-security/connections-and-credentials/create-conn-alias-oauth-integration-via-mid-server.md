@@ -101,7 +101,7 @@ Default Retry Policy
 
 </td><td>
 
-Retry policy for the alias. For more information, see [Retry policy](https://www.servicenow.com/docs/access?context=retry-policy&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Retry policy for the alias. For more information, see Retry policy.
 
 </td></tr><tr><td>
 

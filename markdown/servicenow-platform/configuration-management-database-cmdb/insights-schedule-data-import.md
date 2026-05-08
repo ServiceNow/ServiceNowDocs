@@ -40,7 +40,7 @@ Role required: sn\_cmdb\_admin \(CMDB Admin\) and one of these roles:
 
     You may need to change your application scope to create or edit a scheduled data import from CMDB Workspace.
 
-    For more information about updating a scheduled data import, see [Schedule a data import](https://www.servicenow.com/docs/access?context=t_ScheduleADataImport&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information about updating a scheduled data import, see Schedule a data import.
 
 8.  Select **Update**.
 

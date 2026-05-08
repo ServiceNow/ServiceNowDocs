@@ -21,7 +21,7 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 -   Advanced: AI to boost productivity across relevant use cases
 -   Prime: Act autonomously with all AI assets, and create your own
 
-For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see ServiceNow product tiers.
 
 <table id="table_ojj_jjv_qdc" class="nav-card presentation"><tbody><tr><td>
 
@@ -70,9 +70,9 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the Now Assist Opt-Out page.
 
-For more information, see the [Now Assist documentation](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For more information, see the Now Assist documentation.
 
 -   **[Exploring Now Assist for Enterprise Architecture \(EA\)](exploring-now-assist-for-ea.md)**  
 With the Now Assist for Enterprise Architecture \(EA\) application, you can generate a summary of Architectural Decision Records \(ADR\) or gather insights into business applications in the Enterprise Architecture Workspace.

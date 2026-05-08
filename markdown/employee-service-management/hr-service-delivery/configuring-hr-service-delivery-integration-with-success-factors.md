@@ -28,13 +28,13 @@ After you install the HR Service Delivery Integration with SuccessFactors, the s
 
 2.  For better performance, index the employee number field in the HR Profile table and index coalesce fields in [Use transform maps](../reference/use-transform-maps-sf.md).
 
-    For more information, see [create a table index](https://www.servicenow.com/docs/access?context=t_CreateCustomIndex&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, see create a table index.
 
 3.  Set up SuccessFactors spoke.
 
     **Note:** To use HR Service Delivery Integration with SuccessFactors, ensure to set up the SuccessFactors spoke version 3.1.2
 
-    For more information, see set up [SuccessFactors Spoke](https://www.servicenow.com/docs/access?context=successfactors-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+    For more information, see set up SuccessFactors Spoke.
 
 4.  Configure integration source properties for [Source for HR Service Delivery Integration with SuccessFactors](../reference/source-for-hrsd-successfactors.md).
 

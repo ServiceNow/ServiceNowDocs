@@ -17,7 +17,7 @@ For Care Team Operations for Environmental Services to create work orders from H
 
 This plugin provides all roles and features needed for the healthcare environmental services case to synchronize with work orders.
 
-For information on fulfilling work orders, see [Manage work orders](https://www.servicenow.com/docs/access?context=c_ManageWorkOrders&version=australia&pubname=australia-field-service-management&ft:locale=en-US).
+For information on fulfilling work orders, see Manage work orders.
 
 **If the Field Service Management \[com.snc.work\_management\] plugin isn’t installed:**
 

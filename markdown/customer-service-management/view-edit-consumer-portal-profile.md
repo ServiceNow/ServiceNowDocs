@@ -37,5 +37,5 @@ Role required: sn\_customerservice.consumer
 **Related topics**  
 
 
-[SoftPIN authentication](https://www.servicenow.com/docs/access?context=softpin-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.softpin-authentication]
 

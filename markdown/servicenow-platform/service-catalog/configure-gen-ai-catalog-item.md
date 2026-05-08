@@ -41,7 +41,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 ## Procedure
 
-1.  To configure the Now Assist for Virtual Agent application that installs the Now Assist in Conversational Catalog Request application, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+1.  To configure the Now Assist for Virtual Agent application that installs the Now Assist in Conversational Catalog Request application, see Configuring assistants overview.
 
     With this configuration, the **sn\_now\_assist\_cr.llm.conversational.request.question.limit** system property value is set to 500 by default if that property wasn't edited earlier.
 
@@ -75,15 +75,15 @@ When the generative AI experience is configured for catalog item request submiss
 
     Additionally, you can customize the fallback process by configuring your own record producer or by building additional logic in a new subflow.
 
-<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d550963e322">
+<table id="choicetable_omj_3fl_lzb"><thead><tr><th align="left" id="d550956e322">
 
 Option
 
-</th><th align="left" id="d550963e325">
+</th><th align="left" id="d550956e325">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d550963e331">
+</th></tr></thead><tbody><tr><td id="d550956e331">
 
 **Configure your own record producer. For example, to change the inputs in a Virtual Agent conversation.**
 
@@ -95,13 +95,13 @@ Description
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d550963e370">
+</td></tr><tr><td id="d550956e370">
 
 **Build additional logic in a new subflow. For example, to refer to a new record producer for each business.**
 
 </td><td>
 
-1.  Create a subflow to return the sys\_id of a record producer. For information about Flow Designer subflows, see [Building subflows](https://www.servicenow.com/docs/access?context=subflows&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+1.  Create a subflow to return the sys\_id of a record producer. For information about Flow Designer subflows, see Building subflows.
 2.  Navigate to **sys\_properties.list**.
 3.  Select the **sn\_nowassist\_va.now.assist.generic.ticket.fallback.subflow** property.
 4.  In the **Value** field, enter the scope and internal name of the subflow. For example, **global.subflow\_name**. Locate the **Internal name** field in the list of Flow Designer subflows.
@@ -114,9 +114,9 @@ Description
 
 
 </td></tr></tbody>
-</table>4.  Configure URL navigation settings to specify where the generated ticket link in the Virtual Agent chat opens, see [Configure URL navigation for chat links](https://www.servicenow.com/docs/access?context=ac-configure-url-navigation&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+</table>4.  Configure URL navigation settings to specify where the generated ticket link in the Virtual Agent chat opens, see Configure URL navigation for chat links.
 
-    For information about URL navigation in Virtual Agent, see [URL navigation in Conversational Interfaces](https://www.servicenow.com/docs/access?context=url-navigation-ci&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US). For information about Virtual Agent scripts, see [Virtual Agent scripts](https://www.servicenow.com/docs/access?context=virtual-agent-scripts&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For information about URL navigation in Virtual Agent, see URL navigation in Conversational Interfaces. For information about Virtual Agent scripts, see Virtual Agent scripts.
 
     ![Generated ticket link in the Virtual Agent chat](../../../administer/now-assist-in-va/image/va-link-cat-item.png "Generated ticket link in the Virtual Agent chat")
 

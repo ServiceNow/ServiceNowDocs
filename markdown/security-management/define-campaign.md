@@ -25,15 +25,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d351707e84">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d351703e84">
 
 Field
 
-</th><th align="left" id="d351707e87">
+</th><th align="left" id="d351703e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d351707e93">
+</th></tr></thead><tbody><tr><td id="d351703e93">
 
 **Name**
 
@@ -41,7 +41,7 @@ Description
 
 Enter a descriptive name for this campaign.
 
-</td></tr><tr><td id="d351707e102">
+</td></tr><tr><td id="d351703e102">
 
 **Spec Version**
 
@@ -49,7 +49,7 @@ Enter a descriptive name for this campaign.
 
 The version of the STIX specification used to represent this object.The value of this property must be 2.1 for STIX Objects defined according to this specification.
 
-</td></tr><tr><td id="d351707e114">
+</td></tr><tr><td id="d351703e114">
 
 **Source**
 
@@ -57,7 +57,7 @@ The version of the STIX specification used to represent this object.The value of
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d351707e123">
+</td></tr><tr><td id="d351703e123">
 
 **Description**
 
@@ -65,7 +65,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the campaign. This includes its purpose and its key characteristics.
 
-</td></tr><tr><td id="d351707e133">
+</td></tr><tr><td id="d351703e133">
 
 **Aliases**
 
@@ -73,7 +73,7 @@ A description that provides more details and context about the campaign. This in
 
 Alternative names to identify this campaign.
 
-</td></tr><tr><td id="d351707e142">
+</td></tr><tr><td id="d351703e142">
 
 **Objective**
 
@@ -81,7 +81,7 @@ Alternative names to identify this campaign.
 
 The campaign’s primary goal, objective, desired outcome, or intended effect. What the threat actor or intrusion set hopes to accomplish with this campaign.
 
-</td></tr><tr><td id="d351707e151">
+</td></tr><tr><td id="d351703e151">
 
 **Source ID**
 
@@ -89,7 +89,7 @@ The campaign’s primary goal, objective, desired outcome, or intended effect. W
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d351707e160">
+</td></tr><tr><td id="d351703e160">
 
 **Created Time in Source**
 
@@ -97,7 +97,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d351707e169">
+</td></tr><tr><td id="d351703e169">
 
 **Modified Time in Source**
 

@@ -27,7 +27,7 @@ It is mandatory that you test the JDBC step before testing the action. Testing e
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  [Create an action](https://www.servicenow.com/docs/access?context=create-action&version=australia&pubname=australia-build-workflows&ft:locale=en-US) with a [JDBC step](../reference/jdbc-step.md).
+2.  Create an action with a [JDBC step](../reference/jdbc-step.md).
 
 3.  Click **Test JDBC Step**.
 
@@ -50,7 +50,7 @@ It is mandatory that you test the JDBC step before testing the action. Testing e
 
 ## Result
 
-When a SELECT query is executed in the JDBC step, **ResultSet** is displayed under **Outputs**. The relevant complex object output is populated. To learn more about complex objects, see [Complex data](https://www.servicenow.com/docs/access?context=complex-data&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+When a SELECT query is executed in the JDBC step, **ResultSet** is displayed under **Outputs**. The relevant complex object output is populated. To learn more about complex objects, see Complex data.
 
 ## What to do next
 

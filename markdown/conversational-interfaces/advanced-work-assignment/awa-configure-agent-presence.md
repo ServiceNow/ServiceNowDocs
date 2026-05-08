@@ -108,7 +108,7 @@ Disable agent inactivity check
 
 </td><td>
 
-If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the [AWA Agent API](https://www.servicenow.com/docs/access?context=agent-api&version=australia&pubname=australia-api-reference&ft:locale=en-US). You may need to configure the form to add this field.
+If this check box is selected, the agent's presence will not be automatically set to "offline" based on inactivity and it must be manually set by the AWA Agent API. You may need to configure the form to add this field.
 
 </td></tr><tr><td>
 

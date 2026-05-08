@@ -25,7 +25,7 @@ Role required: admin
 
 3.  Find the connector type you need:
 
-    -   **Spoke** - See [Building spokes using Spoke Generator](https://www.servicenow.com/docs/access?context=spoke-builder&version=australia&pubname=australia-build-workflows&ft:locale=en-US) for full build and configuration details.
+    -   **Spoke** - See Building spokes using Spoke Generator for full build and configuration details.
     -   **Model Context Protocol \(MCP\)** - See [MCP Integration Documentation](../../../administer/workflow-data-fabric/concept/model-context-protocol-connector.md) for full configuration details.
 4.  Find your connector in the list.
 

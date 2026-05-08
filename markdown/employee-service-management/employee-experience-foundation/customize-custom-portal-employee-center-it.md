@@ -39,7 +39,7 @@ If you’re using a custom portal rather than the Employee Center, you can repla
 
 6.  Create a custom header for the embedded portal after you configure your custom portal.
 
-    For more information on adding header configuration, see [Configure HTTP response headers](https://www.servicenow.com/docs/access?context=configure-http-response-header&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+    For more information on adding header configuration, see Configure HTTP response headers.
 
     1.  In the Navigator pane, type `sys_response_header.list`.
 

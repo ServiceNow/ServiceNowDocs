@@ -24,5 +24,5 @@ With the Procurement application, you can
 -   create and manage transfer orders,
 -   and receive assets.
 
-See [Procurement](https://www.servicenow.com/docs/access?context=c_Procurement&version=australia&pubname=australia-it-service-management&ft:locale=en-US) for more information on procuring assets.
+See Procurement for more information on procuring assets.
 

@@ -15,7 +15,7 @@ Learn about the Now Assist enhanced chat feature in the Self-service portals.
 
 Now Assist enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities.
 
-You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see [Display your chat assistant on a portal, channel, or mobile app](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+You can enable enhanced chat experience from the Now Assist in Virtual Agent guided setup. For details, see Display your chat assistant on a portal, channel, or mobile app.
 
 ## Enhanced chat experience on self-service portal
 

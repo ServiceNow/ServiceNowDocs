@@ -27,7 +27,7 @@ These concepts are explained in further detail in the App Engine Studio, Table B
 
     Add data to apps that you build in App Engine Studio.
 
--   **[Table administration](https://www.servicenow.com/docs/access?context=c_TableAdministration&version=australia&pubname=australia-platform-administration&ft:locale=en-US)**
+-   **Table administration**
 
     Table administration currently contains more comprehensive functionality and options for managing tables.
 

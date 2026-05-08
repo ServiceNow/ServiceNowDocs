@@ -23,13 +23,13 @@ Configure the Incident form in the base system to follow ITIL best practices. Th
 
 |Menu option|Description|
 |-----------|-----------|
-|[Form design](https://www.servicenow.com/docs/access?context=c_FormDesign&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Administrators or users with the personalize\_form role can use the form design feature to quickly create new or change existing form views. Form design is an alternative to configuring forms that combines several configuration options into one tool.|
-|[Form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Administrators or users with the personalize\_form role can configure a form to show or hide fields from a view. You can create new fields on the table associated with the form.|
-|[Related lists](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US)|Related lists display records in another table that have a relationship with the current record. Administrators or users with the personalize\_form role can configure related lists to appear on the form.|
+|Form design|Administrators or users with the personalize\_form role can use the form design feature to quickly create new or change existing form views. Form design is an alternative to configuring forms that combines several configuration options into one tool.|
+|Form layout|Administrators or users with the personalize\_form role can configure a form to show or hide fields from a view. You can create new fields on the table associated with the form.|
+|Related lists|Related lists display records in another table that have a relationship with the current record. Administrators or users with the personalize\_form role can configure related lists to appear on the form.|
 
 ## Using guided setup to implement Incident Management
 
-IT Service Management guided setup provides a sequence of tasks that help you configure Incident Management on your ServiceNow instance. To open ITSM guided setup, navigate to **Guided Setup** &gt; **ITSM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://www.servicenow.com/docs/access?context=guided-setup&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+IT Service Management guided setup provides a sequence of tasks that help you configure Incident Management on your ServiceNow instance. To open ITSM guided setup, navigate to **Guided Setup** &gt; **ITSM Guided Setup**. For more information about using the guided setup interface, see Using guided setup.
 
 -   **[Quick start tests for Incident Management](../../../administer/atf-quick-start-tests/reference/quick-start-tests-im.md)**  
 Validate that Incident Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.

@@ -61,7 +61,7 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 **Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://www.servicenow.com/docs/access?context=business-calendars&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Define business calendar entries](https://www.servicenow.com/docs/access?context=define-business-calendar-entries&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+To learn more about creating and using business calendars and defining business calendar entries, see Creating business calendars and Define business calendar entries.
 
 
 </td></tr><tr><td>

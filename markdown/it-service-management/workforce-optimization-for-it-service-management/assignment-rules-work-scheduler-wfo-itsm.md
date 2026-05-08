@@ -52,7 +52,7 @@ The following four criteria are available by default:
 
 4.  Fill in the fields on the form.
 
-    For information on creating a new matching criteria, see [Create assignment workbench matching criteria](https://www.servicenow.com/docs/access?context=create-assignment-wkbench-criteria&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+    For information on creating a new matching criteria, see Create assignment workbench matching criteria.
 
 5.  Select **Submit**.
 

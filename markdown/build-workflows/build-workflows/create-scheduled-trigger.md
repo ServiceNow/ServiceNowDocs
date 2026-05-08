@@ -78,7 +78,7 @@ Domain
 
 </td><td>
 
-Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://www.servicenow.com/docs/access?context=bp-what-is-domain-separation&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+Domain scope of the flow. For more information about domain separation, see Domain separation explained.
 
 </td></tr></tbody>
 </table>4.  Select **Show additional properties** and fill any additional properties.

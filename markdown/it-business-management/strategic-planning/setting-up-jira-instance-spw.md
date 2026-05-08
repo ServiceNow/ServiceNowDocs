@@ -21,7 +21,7 @@ Based on the type of your Jira instance, perform the following steps:
 
 -   For Jira Cloud:
     1.  [Create a child alias for the Jira Spoke alias](../task/create-child-alias-for-jira-spoke-alias.md).
-    2.  Integrate your ServiceNow instance with your Jira account using OAuth. See [Option 1: Using OAuth authentication \(Authorization Code grant type\)](https://www.servicenow.com/docs/access?context=setup-jira-spk-opt2&version=australia&pubname=australia-integrate-applications&section=setup-jira-spk-oauth&ft:locale=en-US)
+    2.  Integrate your ServiceNow instance with your Jira account using OAuth. See Option 1: Using OAuth authentication \(Authorization Code grant type\)
 
         **Note:** To create credential record and connection record in this task, use the child alias that you created earlier and not the parent Jira Spoke.
 

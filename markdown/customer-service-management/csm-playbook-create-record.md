@@ -36,7 +36,7 @@ To create cases in this way, the following configuration is required:
 
 -   Configure the playbook to use the playbook record generator.
 
-    For more information about configuring this feature, see [Playbook record generator](https://www.servicenow.com/docs/access?context=playbook-record-generator-overview&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information about configuring this feature, see Playbook record generator.
 
 
 ## Procedure

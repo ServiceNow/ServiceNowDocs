@@ -35,7 +35,7 @@ To turn approval engines off for the table, navigate to the **System Properties 
 **Related topics**  
 
 
-[Approval and rollback workflow activities](https://www.servicenow.com/docs/access?context=c_ApprovalAndRollbackActivities&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)
+[bundle-platcap.c_ApprovalAndRollbackActivities]
 
 [Classic approvals](../../service-administration/reference/r_Approvals.md)
 
@@ -53,7 +53,7 @@ An approval activity might skip for the following reasons:
 
 -   The approval user or group is missing or invalid \(for example, sys\_id\).
 -   The approval user or group became inactive after the approval record was created.
--   The activity is a [Dot-walking to data in related tables](https://www.servicenow.com/docs/access?context=c_DotWalking&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) field, such as `current.opened_by.department.manager`, and it has a missing or invalid approval user or group.
+-   The activity is a Dot-walking to data in related tables field, such as `current.opened_by.department.manager`, and it has a missing or invalid approval user or group.
 -   The business rule on the table that is associated with the workflow is invalid.
 
 To correct a missed approval activity:
@@ -68,7 +68,7 @@ To correct a missed approval activity:
 
 4.  Review the portion of the workflow that executed, and then do one or more of the following:
 
-    -   Verify that after approval, the workflow progressed to the next activity. If a workflow failed to progress, check the business rules. For more information, see [Debugging business rules](https://www.servicenow.com/docs/access?context=r_DebuggingBusinessRules&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    -   Verify that after approval, the workflow progressed to the next activity. If a workflow failed to progress, check the business rules. For more information, see Debugging business rules.
     -   Point to each processed approval activity to find activities where the **State** is **Finished** and **Result** is **Skipped**.
 5.  Navigate to **Workflow** &gt; **Workflow Editor** and open the workflow.
 

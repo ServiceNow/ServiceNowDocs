@@ -13,7 +13,7 @@ breadcrumb: [IT Operations Management]
 
 # ITOM Visibility
 
-The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](../../discovery/reference/r-discovery.md), [Firewall Audits and Reporting](../../discovery/reference/firewall-audit-reporting.md), [Certificate Inventory and Management](../../discovery/reference/cert-inventory-mgmt.md), [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md), [AI Agent Topology Mapping](../../ai-agent-topology-mapping/concept/ai-agent-topology-mapping-landing.md), [ITOM Content Service](../../discovery/concept/discovery-content-services.md), [Tag Governance](landing-page-tag-governance.md), [Cloud Discovery Workspace](../../cloud-operations-workspace/reference/cow-landing-page.md), and [Cloud License Estimator](../../cloud-license-estimator/Concept/cloud-license-estimator-landing.md) applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The [Service Graph Connectors](https://www.servicenow.com/docs/access?context=cmdb-sgc-available&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [CMDB 360](https://www.servicenow.com/docs/access?context=multisource-cmdb&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) applications provide data to ITOM Visibility.
+The ServiceNow® ITOM Visibility product consists of ServiceNow® [Discovery](../../discovery/reference/r-discovery.md), [Firewall Audits and Reporting](../../discovery/reference/firewall-audit-reporting.md), [Certificate Inventory and Management](../../discovery/reference/cert-inventory-mgmt.md), [Service Mapping](../../service-mapping/reference/c_ServiceMappingOverview.md), [AI Agent Topology Mapping](../../ai-agent-topology-mapping/concept/ai-agent-topology-mapping-landing.md), [ITOM Content Service](../../discovery/concept/discovery-content-services.md), [Tag Governance](landing-page-tag-governance.md), [Cloud Discovery Workspace](../../cloud-operations-workspace/reference/cow-landing-page.md), and [Cloud License Estimator](../../cloud-license-estimator/Concept/cloud-license-estimator-landing.md) applications. Discovery and Service Mapping give you a unified, connected view of your entire IT network and the services that it supports. The Service Graph Connectors and CMDB 360 applications provide data to ITOM Visibility.
 
 ## Who uses ITOM Visibility
 
@@ -31,25 +31,25 @@ Data collected by ITOM Visibility provides a foundation for operation of the fol
 
 -   **[ITOM Optimization](itom-optimization-landing-page.md)**
 
-    ITOM Optimization gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The [Cloud Insights](https://www.servicenow.com/docs/access?context=cloud-insights-landing-page&version=australia&pubname=australia-it-asset-management&ft:locale=en-US) application, available in the ServiceNow Store, helps you to analyze the full range of costs associated with cloud assets so you can identify and take action on opportunities to save money and optimize operations.
+    ITOM Optimization gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The Cloud Insights application, available in the ServiceNow Store, helps you to analyze the full range of costs associated with cloud assets so you can identify and take action on opportunities to save money and optimize operations.
 
--   **[Software Asset Management](https://www.servicenow.com/docs/access?context=c_SoftwareAssetMgmt&version=australia&pubname=australia-it-asset-management&ft:locale=en-US)**
+-   **Software Asset Management**
 
     Understand the software running in your IT environment. Software Asset Management works together with the CMDB powered up by ITOM Visibility. Use Software Asset Management to track configurations that impact software license consumption across your IT environments and datacenter.
 
--   **[Customer Service Management](https://www.servicenow.com/docs/access?context=c_CustomerServiceManagement&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)**
+-   **Customer Service Management**
 
     Efficiently diagnose and resolve issues related to the IT infrastructure by using near real-time data supplied by ITOM Visibility.
 
--   **[IT Service Management](https://www.servicenow.com/docs/access?context=r_ITServiceManagement&version=australia&pubname=australia-it-service-management&ft:locale=en-US)**
+-   **IT Service Management**
 
     Rely on the IT infrastructure discovered by ITOM Visibility to manage and deliver services to your users. See changes and incidents created and managed by IT Service Management applications in ITOM Visibility service maps.
 
--   **[Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=r_ITBusinessManagement&version=australia&pubname=australia-it-business-management&ft:locale=en-US)**
+-   **Strategic Portfolio Management**
 
     Use data collected by ITOM Visibility to gain a comprehensive understanding of the applications used in your organization.
 
--   **[Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&version=australia&pubname=australia-security-management&ft:locale=en-US)**
+-   **Security Operations**
 
     View security incidents in the context of ITOM Visibility to find out which application services are at risk. Use this information to prioritize and resolve threats based on the impact they pose to your organization.
 

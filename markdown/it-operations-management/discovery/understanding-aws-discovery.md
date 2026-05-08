@@ -44,7 +44,7 @@ There are several approaches for discovering AWS environments.
 3.  Event‑driven cloud discovery: Tracks changes in the life-cycle state or the configuration of AWS cloud resources. For more information, see [AWS events-driven discovery](../../it-operations-management/concept/aws-events-driven-discovery.md)
 4.  Collecting data with AWS Systems Manager: Provides a streamlined, agent-based approach to discovering Amazon Elastic Compute Cloud \(EC2\). For more information, see [AWS SSM discovery](aws-ssm-discovery.md)
 5.  Collecting data with Agent Client Collector \(ACC-VC\): Performs horizontal IP-based discovery for OS-related attributes such as system configurations, network interfaces, and running process. For more information, see [Agent Client Collector Discovery](../../agent-client-collector/concept/acc-discovery.md).
-6.  Collecting data with Service Graph Connectors: Imports and integrates AWS data into CMDB and non-CMDB tables. Specializes in collecting the data for AWS Organizations. For more information, see [AWS discovery solutions comparison](../../it-operations-management/reference/aws-discovery-methods.md) and [Service Graph Connector for AWS](https://www.servicenow.com/docs/access?context=cmdb-integration-aws-sg&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+6.  Collecting data with Service Graph Connectors: Imports and integrates AWS data into CMDB and non-CMDB tables. Specializes in collecting the data for AWS Organizations. For more information, see [AWS discovery solutions comparison](../../it-operations-management/reference/aws-discovery-methods.md) and Service Graph Connector for AWS.
 
 For comparison of AWS cloud discovery methods and requirements, see [AWS cloud discovery methods and use cases](../../it-operations-management/reference/aws-discovery-methods-use-case.md)
 
@@ -70,7 +70,7 @@ For more information, see [Access to cloud environments for ITOM products](../..
 
 In the ServiceNow AI Platform side, there are user configurations needed if you choose to use Discovery.
 
--   You must configure the discovery\_admin role for a user, to be able to run the discovery. For more information, see [Managing roles](https://www.servicenow.com/docs/access?context=ua-creating-roles&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+-   You must configure the discovery\_admin role for a user, to be able to run the discovery. For more information, see Managing roles
 -   Discovery runs commands and API queries to access and discover your AWS infrastructure. Before starting to configure Discovery roles and permissions, review the Cloud discovery spreadsheet and verify the REST API permissions.
 
 

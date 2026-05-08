@@ -300,7 +300,7 @@ This email is sent to an employee if they don't complete a health verification b
 
     **Tip:** The image must be added before the mail script so that it appears at the top of the email.
 
-    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see [Upload one or more images](https://www.servicenow.com/docs/access?context=upload-multiple-images&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+    If you don't already have an email banner image in your ServiceNow instance, you can upload an image to use. For instructions, see Upload one or more images.
 
 6.  Click the **Show Notification Scripts** related link.
 
@@ -312,7 +312,7 @@ This email is sent to an employee if they don't complete a health verification b
 
 9.  If you would like to make any other changes to the email notification, update the **Script** field as needed.
 
-    If you change any text used in calls to `gs.getMessage` or `gs.getMessageLang`, you must provide translations for your custom text in the Message table \[sys\_ui\_message\]. For more information, see [Message table](https://www.servicenow.com/docs/access?context=r_MessageTable&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    If you change any text used in calls to `gs.getMessage` or `gs.getMessageLang`, you must provide translations for your custom text in the Message table \[sys\_ui\_message\]. For more information, see Message table.
 
 10. Click **Update**.
 

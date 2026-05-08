@@ -21,7 +21,7 @@ Only users who understand SSO, URL redirects, and the ServiceNow platform should
 
 To use single sign-on with Service Portal, you must activate the Integration - Multiple Provider Single Sign-On Installer plugin \(com.snc.integration.sso.multi.installer\).
 
-If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see [Multiple-Provider single sign-on \(SSO\)](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see Multiple-Provider single sign-on \(SSO\).
 
 You can configure the **glide.service\_portal.sso.early\_redirect.portals** system property to redirect users to the SSO Identify Provider \(IdP\) login page. This bypasses the portal login page. For more information, see [Service Portal properties](properties-service-portal.md). If your portal uses a customized version of the Login widget, you must update the `sp_sso_early_redirection` UI macro as needed to redirect users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
 
@@ -48,7 +48,7 @@ Role required: admin
 
 ### Procedure
 
-1.  [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US) with the following settings:
+1.  Add a system property with the following settings:
 
     -   Name: glide.entry.page.script
     -   Type: string
@@ -165,7 +165,7 @@ Contains the call to the server script include method that determines where to l
 
 3.  Customize the after-login behavior in the **SPEntryPage** script include.
 
-    For more information about modifying script includes, see [Script includes](https://www.servicenow.com/docs/access?context=c_ScriptIncludes&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+    For more information about modifying script includes, see Script includes.
 
     For example, if you want users with certain roles to be redirected to Service Portal, you could modify `user.hasRoles()` in the following code.
 

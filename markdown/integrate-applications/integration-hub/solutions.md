@@ -21,7 +21,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Available solutions
 
--   **[Access Management Automation](https://www.servicenow.com/docs/access?context=access-management&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Access Management Automation**
 
     Automates access management request fulfilment using the Service Catalog or Service Portal. The catalog items and flows support requests in Okta, Microsoft Entra ID, and Microsoft Active Directory.
 
@@ -33,23 +33,23 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
     Client Software Distribution 2.0 application \(CSD 2.0\) application enables administrators to distribute software from the service catalog using third-party management systems.
 
--   **[Cloud Deployment Automation](https://www.servicenow.com/docs/access?context=cloud-dep-auto&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US)**
+-   **Cloud Deployment Automation**
 
     Automates the deployment and provisioning of the AWS CloudFormation services using Service Catalog or Service Portal.
 
--   **[Microsoft AD Spoke for Password Reset](https://www.servicenow.com/docs/access?context=setup-guide-ad&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Microsoft AD Spoke for Password Reset**
 
     The Microsoft AD Spoke for Password Reset extends the ServiceNow Password Reset solution to provide password management into Microsoft Active Directory environments.
 
--   **[Microsoft Azure AD Spoke for Password Reset](https://www.servicenow.com/docs/access?context=setup-guide-azure&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Microsoft Azure AD Spoke for Password Reset**
 
     The Microsoft Entra ID Spoke for Password Reset extends the ServiceNow Password Reset solution to provide password management into Microsoft Azure Active Directory environments.
 
--   **[Password Reset integration with Google Directory](https://www.servicenow.com/docs/access?context=google-doc-pwd-reset&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Password Reset integration with Google Directory**
 
     Enables end users to reset their Google passwords using Password Reset and Google Directory spoke.
 
--   **[Password Reset integration with Okta](https://www.servicenow.com/docs/access?context=okta-pwdreset-spoke&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US)**
+-   **Password Reset integration with Okta**
 
     Use Okta to manage users, passwords, and groups.
 

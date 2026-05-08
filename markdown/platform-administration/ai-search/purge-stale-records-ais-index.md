@@ -19,7 +19,7 @@ Execute a scheduled job to delete stale records from the AI Search index.
 
 Role required: admin
 
-**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see [Restrict access to background script](https://www.servicenow.com/docs/access?context=sc-restrict-access-to-background-script&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+**Note:** If the **glide.script\_processor.admin** system property's value has been changed from the default value, you need the role specified by that property value. For details on this property value and its effects, see Restrict access to background script.
 
 ## About this task
 
@@ -30,13 +30,13 @@ If either of these conditions is satisfied for a record in the AI Search index, 
 
 AI Search automatically purges stale records from the index daily. Administrators can purge records manually by running a background script.
 
-For more information on running background scripts, see [Scripts - Background module](https://www.servicenow.com/docs/access?context=c_ScriptsBackground&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+For more information on running background scripts, see Scripts - Background module.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scripts - Background**.
 
-    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see [Elevated privilege roles](https://www.servicenow.com/docs/access?context=c_ElevatedPrivilege&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+    **Note:** If the **glide.script\_processor.admin** system property's value is set to security\_admin, you must elevate to that privileged role to access this module. For more information on elevating privileges, see Elevated privilege roles.
 
 2.  In the **Run script \(JavaScript executed on server\)** text field, enter one of the following background scripts.
 

@@ -27,7 +27,7 @@ Role required: admin
 
 3.  Configure the Agent Chat Queue.
 
-    For example, to add agent groups who can handle the incoming chat conversations. For information about configuring queues, see [Work item queues](https://www.servicenow.com/docs/access?context=awa-queues&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [Set up Agent Chat](https://www.servicenow.com/docs/access?context=ac-configure-agent-chat&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+    For example, to add agent groups who can handle the incoming chat conversations. For information about configuring queues, see Work item queues and Set up Agent Chat.
 
 
 -   **[Enable automatic assignment of interactions to an agent](enable-automatic-assignment-interaction.md)**  

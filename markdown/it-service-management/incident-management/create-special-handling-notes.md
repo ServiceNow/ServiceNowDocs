@@ -41,5 +41,5 @@ Activate the Special Handling Notes plugin \(com.sn\_shn\) to add the **Create S
 **Related topics**  
 
 
-[Create a special handling note](https://www.servicenow.com/docs/access?context=t_CreateAnOnScreenAlert&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.t_CreateAnOnScreenAlert]
 

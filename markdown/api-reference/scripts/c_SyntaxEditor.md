@@ -34,7 +34,7 @@ The Syntax Editor plugin \(com.glide.syntax\_editor\) is required to use this fu
 -   **glide.ui.syntax\_editor.linter.eslint\_config.ecmascript2021**: View or modify the default linting configurations for scripts using the ECMAScript 2021 \(ES12\) JavaScript mode.
 -   **glide.ui.syntax\_editor.context\_menu**: Turn on or off showing the context menu for script includes, Glide APIs, and tables in the syntax editor.
 
-For more information about system properties, see [Available system properties](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+For more information about system properties, see Available system properties.
 
 -   **[Using the JavaScript syntax editor](../reference/r_EdtJvaScptWSyntxEdtr.md)**  
 The syntax editor provides editing functions to support editing JavaScript scripts.

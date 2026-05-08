@@ -59,9 +59,9 @@ Fires the notification event specified in the Workflow Activity \[wf\_activity\]
 
 1.  Navigate to **System Policy** &gt; **Events** &gt; **Registry**
 2.  Create an event.
-3.  Navigate to **System Policy** &gt; **Templates** and create an [Email templates](https://www.servicenow.com/docs/access?context=c_EmailTemplates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+3.  Navigate to **System Policy** &gt; **Templates** and create an Email templates.
 4.  Navigate to **System Policy** &gt; **Email** &gt; **Notifications**.
-5.  [Create an email notification](https://www.servicenow.com/docs/access?context=t_CreateANotification&version=australia&pubname=australia-platform-administration&ft:locale=en-US) that is triggered by the event you created and sends the template you created.
+5.  Create an email notification that is triggered by the event you created and sends the template you created.
 6.  On the workflow canvas, drag the **Create Event** activity onto the canvas and associate it with the newly registered event.
 
 When the workflow executes, the event is created and the email associated with the event is sent.

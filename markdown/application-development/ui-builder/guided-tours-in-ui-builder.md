@@ -19,7 +19,7 @@ Learn about UI Builder guided tours, including how to use them to build your kno
 
 Guided tours are part of the default ServiceNow platform. There are guided tours available to take and you can use the Guided Tours application to create custom tours yourself in your own instances.
 
-Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a homepage. Other tours help complete a task, such as creating an experience or previewing an experience page. For more information about what guided tours are and how to create them, see [Exploring Guided Tours](https://www.servicenow.com/docs/access?context=exploring-guided-tours&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+Tours contain interactive steps to help train and teach users. Some tours show various features in the user interface, such as an overview of a homepage. Other tours help complete a task, such as creating an experience or previewing an experience page. For more information about what guided tours are and how to create them, see Exploring Guided Tours.
 
 ## How to access and use UI Builder guided tours
 

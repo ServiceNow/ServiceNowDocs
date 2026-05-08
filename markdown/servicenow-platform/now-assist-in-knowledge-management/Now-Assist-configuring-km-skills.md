@@ -21,7 +21,7 @@ Before configuring the KB generation skill, the following applications and their
 
 -   The latest Now Assist in Knowledge Management and Knowledge Capabilities in UI Builder store apps must be installed prior to the following configuration steps.
 
--   For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://www.servicenow.com/docs/access?context=installing-applications-in-application-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   For ServiceNow Store installation steps, see Install a ServiceNow Store application.
 
     **Note:** You can access knowledge articles created with TinyMCE by enabling KB generation skill, see [Configuring the KB generation skill](Now-Assist-configuring-km-skills.md). To use articles created with custom instructions, please activate the knowledge content recommendation skill, see [Edit an article using the Now Assist context menu](Now-Assist-generate-article-using-context-menu.md#).
 
@@ -71,11 +71,11 @@ Your skill is configured.
 **Related topics**  
 
 
-[Additional skill input and trigger information](https://www.servicenow.com/docs/access?context=additional-skill-input-and-trigger-information-for-now-assist_0&version=australia&pubname=australia-customer-service-management&ft:locale=en-US)
+[bundle-csm.additional-skill-input-and-trigger-information-for-now-assist_0]
 
-[Skill inputs and triggers for Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm-skills&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+[bundle-itsm.now-assist-itsm-skills]
 
-[Skill inputs and triggers for Now Assist for HRSD](https://www.servicenow.com/docs/access?context=now-assist-hrsd-skill-inputs&version=australia&pubname=australia-employee-service-management&ft:locale=en-US)
+[bundle-emplsm.now-assist-hrsd-skill-inputs]
 
-[Skill inputs for Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm-skill-inputs&version=australia&pubname=australia-field-service-management&ft:locale=en-US)
+[bundle-fsm.now-assist-fsm-skill-inputs]
 

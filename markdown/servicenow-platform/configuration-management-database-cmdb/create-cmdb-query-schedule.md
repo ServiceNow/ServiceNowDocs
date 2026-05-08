@@ -153,7 +153,7 @@ Type
 
 </td><td>
 
-File format to use for the query results.**Note:** [Configure the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US) to add this field to the form.
+File format to use for the query results.**Note:** Configure the form layout to add this field to the form.
 
 </td></tr></tbody>
 </table>

@@ -23,7 +23,7 @@ Role required: ais\_admin
 
 An external content schema table doesn't store data in the database. Instead, its columns serve as a map of AI Search index fields to populate when you index content from external data sources.
 
-When you index or delete records associated with this content schema using endpoints from the [External Content Ingestion REST API](https://www.servicenow.com/docs/access?context=external-content-ingestion-api&version=australia&pubname=australia-api-reference&ft:locale=en-US), you must specify the schema table name as a path parameter.
+When you index or delete records associated with this content schema using endpoints from the External Content Ingestion REST API, you must specify the schema table name as a path parameter.
 
 ## Procedure
 

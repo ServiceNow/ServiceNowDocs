@@ -17,7 +17,7 @@ Add a schedule call activity in your sequences to support telesales workflows.
 
 Review feature support information in [Compatibility information for Customer Engagement Sequences](../reference/compatibility-matrix-upgrade-info.md).
 
-To support the ability for your agents to initiate outbound calls from the sequence task, your instance must be integrated with platforms such as Amazon Connect. The Omnichannel Callback application \(sn\_omni\_callback\) must also be installed. For more information, see [Install Omnichannel Callback](https://www.servicenow.com/docs/access?context=install-omnichannel-callback&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+To support the ability for your agents to initiate outbound calls from the sequence task, your instance must be integrated with platforms such as Amazon Connect. The Omnichannel Callback application \(sn\_omni\_callback\) must also be installed. For more information, see Install Omnichannel Callback.
 
 Delegated developer roles must be assigned to designated users. For more information, see [Grant delegated developer permissions for managing sequences](grant-delegated-developer-permissions.md).
 
@@ -39,7 +39,7 @@ You can add the Schedule call activity with other activities in a stage or in it
 
 5.  In the sequence diagram, create a stage to add the activity.
 
-    For more information, see [Add and configure a stage in a playbook](https://www.servicenow.com/docs/access?context=add-configure-stage&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    For more information, see Add and configure a stage in a playbook.
 
 6.  Within a stage, select the Add icon ![](../../../reuse/icons/product-icons/circle-plus-fill-24.svg).
 
@@ -65,9 +65,9 @@ You can add the Schedule call activity with other activities in a stage or in it
 **Related topics**  
 
 
-[Start with delay input properties](https://www.servicenow.com/docs/access?context=start-with-delay-properties&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.start-with-delay-properties]
 
 [Add decision nodes to a sequence](add-decision-nodes-sequences.md)
 
-[Omnichannel Callback](https://www.servicenow.com/docs/access?context=omnichannel-callback&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US)
+[bundle-convint.omnichannel-callback]
 

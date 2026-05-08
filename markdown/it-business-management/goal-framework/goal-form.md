@@ -15,7 +15,7 @@ breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Por
 
 Use the Goal form to create goals for your organizational strategic priorities.
 
-**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that aren’t added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see [Configuring the form layout](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+**Note:** For Operational Sustainability Workspace and Strategic Planning users, to view the other fields \(that aren’t added to the default or your custom form view\) on the form in the workspace, configure the default/custom form layout. For information on how to configure the form layout, see Configuring the form layout.
 
 <table id="table_demand_benefit_plan_form"><thead><tr><th>
 

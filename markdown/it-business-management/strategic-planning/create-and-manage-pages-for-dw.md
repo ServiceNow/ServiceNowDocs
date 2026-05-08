@@ -32,15 +32,15 @@ Role required:
 
 3.  Create or manage docs in any of the following ways.
 
-<table id="choicetable_gqz_hvb_j3c"><thead><tr><th align="left" id="d308574e112">
+<table id="choicetable_gqz_hvb_j3c"><thead><tr><th align="left" id="d308570e112">
 
 Action
 
-</th><th align="left" id="d308574e115">
+</th><th align="left" id="d308570e115">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d308574e121">
+</th></tr></thead><tbody><tr><td id="d308570e121">
 
 **Create a blank page**
 
@@ -48,7 +48,7 @@ Procedure
 
 Select **Create page**.The new page is created and added to your Doc with the name **Untitled**, which you can rename.
 
-</td></tr><tr><td id="d308574e138">
+</td></tr><tr><td id="d308570e138">
 
 **Create a page from templates**
 
@@ -62,7 +62,7 @@ Select **Create page**.The new page is created and added to your Doc with the na
 
 ![Doc templates list.](../../alignment-planner-workspace/images/spw-doc-templates-list.png)
 
-</td></tr><tr><td id="d308574e174">
+</td></tr><tr><td id="d308570e174">
 
 **Create a subpage**
 
@@ -70,7 +70,7 @@ Select **Create page**.The new page is created and added to your Doc with the na
 
 Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Create subpage**.![Create subpage for a Doc in Portfolio Planning.](../../spw-eap/images/eap-doc-create-subpage.png)
 
-</td></tr><tr><td id="d308574e201">
+</td></tr><tr><td id="d308570e201">
 
 **Delete a page or subpage**
 
@@ -78,7 +78,7 @@ Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/ea
 
 Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Delete**.
 
-</td></tr><tr><td id="d308574e223">
+</td></tr><tr><td id="d308570e223">
 
 **Duplicate a page**
 
@@ -86,7 +86,7 @@ Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/ea
 
 Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/eap-doc-page-actions-icon.png)\) and select **Duplicate page**.
 
-</td></tr><tr><td id="d308574e244">
+</td></tr><tr><td id="d308570e244">
 
 **Apply template to a page**
 
@@ -97,7 +97,7 @@ Select the **Page Actions** menu \(![Page Actions icon.](../../spw-eap/images/ea
 
 ![Doc templates list.](../../alignment-planner-workspace/images/spw-doc-templates-list.png)
 
-</td></tr><tr><td id="d308574e283">
+</td></tr><tr><td id="d308570e283">
 
 **Save a page as a template**
 

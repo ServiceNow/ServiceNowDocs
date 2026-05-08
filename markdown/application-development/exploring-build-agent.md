@@ -29,7 +29,7 @@ Build Agent can understand natural language prompts, autonomously generate full-
 
 You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts in Build Agent. This method enables you to convey the application design and functionality more effectively.
 
-**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see ServiceNow product tiers.
 
 While creating and updating applications is the primary use case for Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
 
@@ -40,7 +40,7 @@ Build Agent currently supports the following models:
 -   Opus 4.6
 -   Claude Sonnet 4.6
 
-For information on changing the model, see [Manage model providers](https://www.servicenow.com/docs/access?context=edit-model-providers&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US).
+For information on changing the model, see Manage model providers.
 
 Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other Now Assist products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences. For more information, see [Use the app generation skill to generate apps](../../now-assist-app-gen/task/sns-app-gen-use-app-gen-skill.md).
 
@@ -56,7 +56,7 @@ If you exceed the free interaction limit, you must wait 30 days for a reset, or 
 
 ## Localization and Build Agent
 
-Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see [Localization Framework](https://www.servicenow.com/docs/access?context=localization-framework-landing&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see Localization Framework.
 
 ## Build Agent and PDIs
 

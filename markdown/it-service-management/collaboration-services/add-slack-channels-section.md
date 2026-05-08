@@ -27,7 +27,7 @@ Role required: personalize\_form or admin
 
 3.  Click the Additional actions icon and select **Configure** &gt; **Form Layout**.
 
-    For more information, refer [Configuring form layouts](https://www.servicenow.com/docs/access?context=configure-form-layout&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    For more information, refer Configuring form layouts.
 
 4.  Under **Form view and section**, in the **Section** field, click **New**.
 

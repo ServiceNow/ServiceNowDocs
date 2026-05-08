@@ -6,7 +6,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 11
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -77,7 +77,7 @@ The Anomaly Detection settings control how Discovery identifies and surfaces irr
 
 The IPAM settings manage how Discovery integrates with your IPAM sources, controlling schedule creation and connection behavior within the workspace. For more information, see [IPAM Discovery integration](ipv6-ipam-disco-integration.md).
 
-**Important:** This feature requires the Australia, ZP8 or later, or YP13 or later version of the ServiceNow AI Platform. You must also install and configure Service Graph Connector Central \(SGC Central\) v2.4.0, as well as Service Graph Connector for Infoblox v1.5.0. For more information, see [Configuring SGC Central](https://www.servicenow.com/docs/access?context=sgcc-configuring&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US) and [Configure Service Graph Connector for Infoblox using SGC Central](https://www.servicenow.com/docs/access?context=sgcc-configure-infoblox-integ&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+**Important:** This feature requires the Australia, ZP8 or later, or YP13 or later version of the ServiceNow AI Platform. You must also install and configure Service Graph Connector Central \(SGC Central\) v2.4.0, as well as Service Graph Connector for Infoblox v1.5.0. For more information, see Configuring SGC Central and Configure Service Graph Connector for Infoblox using SGC Central.
 
 -   **Auto-create Discovery schedules**
 
@@ -120,7 +120,7 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures via Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
-**Important:** This feature requires the Australia, Zurich, or YP6 or later version of the ServiceNow AI Platform. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://www.servicenow.com/docs/access?context=set-up-msteams&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+**Important:** This feature requires the Australia, Zurich, or YP6 or later version of the ServiceNow AI Platform. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see Set up the.
 
 -   **Notification destinations**
 

@@ -23,7 +23,7 @@ To access this API, the Service Portal Analytics \(com.glide.service-portal.anal
 <client_script><![CDATA[function($rootScope, $scope, $window, $timeout, spUtil, $sce, spModal, $uibModal, $location, cabrillo, snAnalytics)
 ```
 
-For additional information, see [Usage Insights for Service Portal](https://www.servicenow.com/docs/access?context=sp-analytics&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US).
+For additional information, see Usage Insights for Service Portal.
 
 **Parent Topic:**[Client API reference](../../../../../build/applications/concept/api-client.md)
 
@@ -404,7 +404,7 @@ snAnalytics.setUserProperty('Company', "ABC Company")
 
 Saves the name and description of a page in the analytics data store.
 
-This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see [Exploring Usage Insights](https://www.servicenow.com/docs/access?context=exploring-user-exp-analytics&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see Exploring Usage Insights.
 
 **Note:** In general, portal pages are automatically tagged with this tracking capability. Use this method for custom scenarios, such as a single page custom widget in a wizard scenario.
 

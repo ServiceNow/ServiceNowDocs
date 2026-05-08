@@ -76,7 +76,7 @@ Analyze the tasks that your agents are assigned to and their actual shift plans.
 
     1.  Select a task that you want to assign to an agent.
 
-        When you enable the **Show suggested only** option, by default, you can choose to display team members based on their availability, skills, or time zone. The ranking of the team members are based on matching assignment rules set for each criteria. Work scheduler uses [Assignment workbench](https://www.servicenow.com/docs/access?context=case-assignment-matching-criteria&version=australia&pubname=australia-customer-service-management&ft:locale=en-US) to evaluate agents to work on tasks.
+        When you enable the **Show suggested only** option, by default, you can choose to display team members based on their availability, skills, or time zone. The ranking of the team members are based on matching assignment rules set for each criteria. Work scheduler uses Assignment workbench to evaluate agents to work on tasks.
 
         You can select one or more of these criteria and the ranking of the team members will be based on the selected criteria:
 

@@ -15,13 +15,13 @@ Configure mobile access to ServiceNow instances that use adaptive authentication
 
 ## Before you begin
 
-To configure mobile access for IP-restricted networks, adaptive authentication must be activated on your ServiceNow instance. For more information, see [Activate adaptive authentication](https://www.servicenow.com/docs/access?context=adaptive-authentication-plugin&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+To configure mobile access for IP-restricted networks, adaptive authentication must be activated on your ServiceNow instance. For more information, see Activate adaptive authentication.
 
 Role required: admin
 
 ## About this task
 
-For more information about adaptive authentication, see [Adaptive authentication](https://www.servicenow.com/docs/access?context=adaptive-authentication&version=australia&pubname=australia-platform-security&ft:locale=en-US), which describes this policy framework that is used to enforce authentication controls.
+For more information about adaptive authentication, see Adaptive authentication, which describes this policy framework that is used to enforce authentication controls.
 
 ## Procedure
 

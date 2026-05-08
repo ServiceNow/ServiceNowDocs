@@ -123,8 +123,8 @@ Test
 
 </td><td>
 
--   Use the ServiceNow [Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US) to assist you in testing your non-production instances.
--   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see [Quick start tests](https://www.servicenow.com/docs/access?context=quick-start-tests&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   Use the ServiceNow Automated Test Framework to assist you in testing your non-production instances.
+-   You can use Automated Test Framework quick start tests and product testing suites to help you jump start your testing before and after upgrades. For a list of available tests and activation information, see Quick start tests.
 -   For extra testing coverage, you can also conduct user acceptance testing \(UAT\) on your non-production instances.
 
 
@@ -134,7 +134,7 @@ Production
 
 </td><td>
 
-Conduct UAT.**Note:** The [Automated Test Framework](https://www.servicenow.com/docs/access?context=automated-test-framework&version=australia&pubname=australia-application-development&ft:locale=en-US) is intended for use on non-production instances. On your production instance, conduct UAT only.
+Conduct UAT.**Note:** The Automated Test Framework is intended for use on non-production instances. On your production instance, conduct UAT only.
 
 </td></tr></tbody>
 </table>

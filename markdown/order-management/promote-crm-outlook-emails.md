@@ -153,7 +153,7 @@ When an agent associates an email with a CRM record through the Microsoft Outloo
 **Related topics**  
 
 
-[Classic Business rules](https://www.servicenow.com/docs/access?context=c_BusinessRules&version=australia&pubname=australia-build-workflows&ft:locale=en-US)
+[bundle-crworkflow.c_BusinessRules]
 
 [Track emails linked from Microsoft Outlook](view-associated-emails-crm.md)
 

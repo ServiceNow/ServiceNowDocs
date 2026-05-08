@@ -60,11 +60,11 @@ Role required: import\_admin
 
     3.  Select **Script step** from the Action Outline.
 
-    4.  Configure the Script step as described in [Script step](https://www.servicenow.com/docs/access?context=javascript-step-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+    4.  Configure the Script step as described in Script step.
 
 9.  Select **REST step** from the Action Outline.
 
-10. Configure the REST step as described in [REST step](https://www.servicenow.com/docs/access?context=rest-request-action-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+10. Configure the REST step as described in REST step.
 
 11. Choose from the following:
 

@@ -28,7 +28,7 @@ You can create location consent records to configure the communication channels 
 **Note:** To configure the appointment booking feature, you must install Employee Center Pro and activate ITSM Walk-up Experience. For more information about the plugins, see the following topics:
 
 -   [Employee Center Pro](employee-center-pro-landing.md)
--   [Walk-up Experience](https://www.servicenow.com/docs/access?context=walkup-experience-landing-page&version=australia&pubname=australia-it-service-management&ft:locale=en-US)
+-   Walk-up Experience
 
 .
 
@@ -65,7 +65,7 @@ After an employees books their appointment. As an agent, you can check all the a
 
         You can also check the appointments from the **Default lists**. Go to **Default lists** &gt; **Walk-up** &gt; **Appointments**.
 
-    For more information, refer to [Walk-up Experience management in Service Operations Workspace](https://www.servicenow.com/docs/access?context=walkup-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US) and [Create an appointment through incident](https://www.servicenow.com/docs/access?context=create-walkup-appointment-incident-sow&version=australia&pubname=australia-it-service-management&ft:locale=en-US).
+    For more information, refer to Walk-up Experience management in Service Operations Workspace and Create an appointment through incident.
 
 -   To check the appointments in the Agent workspace, refer to . .
 

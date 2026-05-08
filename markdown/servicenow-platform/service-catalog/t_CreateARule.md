@@ -71,7 +71,7 @@ If this condition is true
 
 </td><td>
 
-Conditions that must be true for this rule to apply. Create conditions using the [condition builder](https://www.servicenow.com/docs/access?context=c_ConditionBuilder&version=australia&pubname=australia-platform-user-interface&ft:locale=en-US) . Conditions can be evaluated against Keywords, Requested By, Requested For, or any variables defined for that order guide.
+Conditions that must be true for this rule to apply. Create conditions using the condition builder . Conditions can be evaluated against Keywords, Requested By, Requested For, or any variables defined for that order guide.
 
 </td></tr><tr><td>
 

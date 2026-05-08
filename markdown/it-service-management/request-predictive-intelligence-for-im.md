@@ -96,5 +96,5 @@ Use your instance records to build Incident Management -specific solutions.
 **Related topics**  
 
 
-[List of plugins \(Australia\)](https://www.servicenow.com/docs/access?context=list-of-plugins&version=australia&pubname=australia-platform-administration&ft:locale=en-US)
+[bundle-platadm.list-of-plugins]
 

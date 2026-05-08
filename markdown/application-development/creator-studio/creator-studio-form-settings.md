@@ -106,7 +106,7 @@ Location settings define where the form appears in a catalog, how it's categoriz
 
 Select the catalog that represents the business area the app will use. For example, you could select a service catalog that contains software and laptop cables for an IT fulfillment app. Expand the caret for each catalog to see its sub-catalogs. Then select as many items in the catalogs as you need.
 
-If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in [Associate a catalog item with a taxonomy topic in Employee Center](https://www.servicenow.com/docs/access?context=associate-cat-item-taxonomy-ec&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US), and more about taxonomy, which is a categorization method, in [Unified Taxonomy for Employee Center](https://www.servicenow.com/docs/access?context=config-taxonomy&version=australia&pubname=australia-employee-service-management&ft:locale=en-US).
+If you associate the app's form with one or more topics, the form will appear in the relevant, dynamically created topic pages in Employee Center. Find out more about topics in Associate a catalog item with a taxonomy topic in Employee Center, and more about taxonomy, which is a categorization method, in Unified Taxonomy for Employee Center.
 
 ## User access form settings
 

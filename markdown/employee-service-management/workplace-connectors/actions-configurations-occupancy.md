@@ -53,7 +53,7 @@ Action Name
 
 </td><td>
 
-Actions are reusable operations to automate processes. Actions are defined in the Flow designer Metrikus spoke integration. For more information, see[Metrikus spoke](https://www.servicenow.com/docs/access?context=metrikus-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)Select **Query Space Occupancy**: The script for action configurations checks the workplace space for occupancy status. For example, **Occupied**, **Unoccupied**, **Invalid**, and so on.
+Actions are reusable operations to automate processes. Actions are defined in the Flow designer Metrikus spoke integration. For more information, seeMetrikus spokeSelect **Query Space Occupancy**: The script for action configurations checks the workplace space for occupancy status. For example, **Occupied**, **Unoccupied**, **Invalid**, and so on.
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Invoke
 
 </td><td>
 
-Invokes sub flows from the Flow designer for Metrikus spoke integration. For more information, see [Metrikus spoke](https://www.servicenow.com/docs/access?context=metrikus-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)Select **Subflow**.
+Invokes sub flows from the Flow designer for Metrikus spoke integration. For more information, see Metrikus spokeSelect **Subflow**.
 
 </td></tr><tr><td>
 

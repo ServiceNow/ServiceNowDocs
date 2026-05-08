@@ -29,11 +29,11 @@ Unified Admin Experience for GenAI Skills:
 
 There are 2 ways to clone Now Assist for CSM skills:
 
-1.  [Make a copy of a Now Assist skill](https://www.servicenow.com/docs/access?context=make-a-copy-of-a-now-assist-skill&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) from Now Assist Admin console.
+1.  Make a copy of a Now Assist skill from Now Assist Admin console.
 
     Prompt configurability in the Now Assist Admin console for setting up case/incident summarization skill copies 
 
-2.  [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&version=australia&pubname=australia-intelligent-experiences&ft:locale=en-US) Clone from Now Assist Skill Kit.
+2.  Now Assist Skill Kit Clone from Now Assist Skill Kit.
 
     Now Assist Skill Kit video that shows how to build a custom skill. 
 

@@ -17,8 +17,8 @@ Define the data that you want to collect for incidents, interactions, or any tab
 
 ## Before you begin
 
--   You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for ITSM. For more information, see [Requesting the MetricBase product](https://www.servicenow.com/docs/access?context=request-metricbase&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
--   You must be in the [Global scope](https://www.servicenow.com/docs/access?context=c_GlobalScope&version=australia&pubname=australia-application-development&ft:locale=en-US).
+-   You must have the MetricBase plugin \[com.snc.clotho\] enabled to use Demand Forecast in Workforce Optimization for ITSM. For more information, see Requesting the MetricBase product.
+-   You must be in the Global scope.
 
 Role required: sn\_agent\_forecast.admin
 
@@ -92,7 +92,7 @@ Data that you can add to forecast for the future.
 
         **Note:** A forecast parameter in **Published** state is automatically created.
 
-    5.  Create an index for the table that you have created using the date field and the conditions that you have added to the table. For information on creating a table index, see [Create a table index](https://www.servicenow.com/docs/access?context=t_CreateCustomIndex&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+    5.  Create an index for the table that you have created using the date field and the conditions that you have added to the table. For information on creating a table index, see Create a table index.
 3.  Add parameters for the formula to calculate how many agents you need per hour in a day.
 
     1.  Click **Formula Parameters**.

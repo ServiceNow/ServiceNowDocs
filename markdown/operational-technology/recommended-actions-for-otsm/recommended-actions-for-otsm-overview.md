@@ -17,7 +17,7 @@ Recommended Actions for Operational Technology Service Management \(OTSM\) inclu
 
 ## Contexts in Recommended Actions for OTSM
 
- A context enables you to see recommendations for a specific type of record when certain rules are met. These recommendations can help you by suggesting actions to take based on the record context.  For more information, see [Contexts in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-contexts&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+ A context enables you to see recommendations for a specific type of record when certain rules are met. These recommendations can help you by suggesting actions to take based on the record context.  For more information, see Contexts in Recommended Actions.
 
 The OTSM context ships the OT incident context described in the following table.
 
@@ -25,7 +25,7 @@ The OTSM context ships the OT incident context described in the following table.
 |-------|-----------|
 |OT incident context|This shows all valid recommendations on OT incidents based on the active recommendations in the Industrial Workspace.|
 
-**Note:** To create a context, see [Create a context in Recommended Actions](https://www.servicenow.com/docs/access?context=ra-csm-contexts-create&version=australia&pubname=australia-customer-service-management&ft:locale=en-US).
+**Note:** To create a context, see Create a context in Recommended Actions.
 
 ## Search result mappings
 

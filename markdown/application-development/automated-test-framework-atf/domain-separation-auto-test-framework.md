@@ -25,7 +25,7 @@ The support level is Standard but has some exceptions or special conditions.
 
 Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
 
-For more information on support levels, see [Application support for domain separation](https://www.servicenow.com/docs/access?context=domain-separated-apps&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+For more information on support levels, see Application support for domain separation.
 
 ## ATF use case
 
@@ -33,12 +33,12 @@ Automated test framework design and runtime access are solely for the owner of t
 
 ## Testing
 
-When testing domain separation during ATF test steps, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see [Domain separation recommended practices for service providers](https://www.servicenow.com/docs/access?context=bp-domain-sep-recommended&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+When testing domain separation during ATF test steps, you must set the domain first. This should be part of the first impersonation step of each of the ATF test steps when they are dependent on a domain being set. To learn more about domain separation recommended practices, see Domain separation recommended practices for service providers
 
 **Parent Topic:**[Getting started with the Automated Test Framework](atf-intro.md)
 
 **Related topics**  
 
 
-[Domain separation for service providers](https://www.servicenow.com/docs/access?context=domain-sep-landing-page&version=australia&pubname=australia-platform-security&ft:locale=en-US)
+[bundle-psec.domain-sep-landing-page]
 

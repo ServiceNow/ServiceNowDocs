@@ -4,7 +4,7 @@ description: Strategic Portfolio Management \(SPM\) includes several custom tabl
 locale: en-US
 release: australia
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-05-08"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---

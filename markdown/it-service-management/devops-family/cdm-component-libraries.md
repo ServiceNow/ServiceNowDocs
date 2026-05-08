@@ -19,7 +19,7 @@ Some applications may share the same basic structure and require nearly identica
 
 ## Component libraries
 
-Component libraries improve consistency and maintainability by ensuring a single source of truth for a component's config data across applications. You can use the unified view in the DevOps Config workspace or [CdmSharedLibraryApi](https://www.servicenow.com/docs/access?context=shared_libraries-api&version=australia&pubname=australia-api-reference&ft:locale=en-US) REST API to create and maintain these libraries.
+Component libraries improve consistency and maintainability by ensuring a single source of truth for a component's config data across applications. You can use the unified view in the DevOps Config workspace or CdmSharedLibraryApi REST API to create and maintain these libraries.
 
 In this example, an organization sells tea on its website. Both the **Shopping-Cart** and **Browsing-Pane** application services make use of config data for product prices and photo appearance. To ensure that the config data is identical in both DevOps applications, each application uses shared components from the **Tea-Service** component library. The components are managed in the library and the applications each use two of the components from the library.
 

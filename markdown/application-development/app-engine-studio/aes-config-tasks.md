@@ -47,7 +47,7 @@ Set up instance credentials.
 
 For each instance that you're using, create a Connections and Credentials alias. Verify that the alias type is **Credential**, not **Connection and Credential**.
 
- For detailed instructions, see [Set up instance credentials](https://www.servicenow.com/docs/access?context=connection-alias&version=australia&pubname=australia-platform-security&ft:locale=en-US).
+ For detailed instructions, see Set up instance credentials.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Activate Playbooks.
 
 </td><td>
 
-You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate Playbooks](https://www.servicenow.com/docs/access?context=activate-process-automation-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see Activate Playbooks.
 
 </td></tr><tr id="integrationhub-spokes"><td>
 
@@ -67,15 +67,15 @@ Activate spokes to enhance your Workflow Studio and App Engine Studio experience
 
  The following spokes are available for use with App Engine Studio.
 
--   [Gmail spoke](https://www.servicenow.com/docs/access?context=setup-gmail&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Google Sheets spoke](https://www.servicenow.com/docs/access?context=setup-gsheets&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Jira Spoke](https://www.servicenow.com/docs/access?context=jira-spoke-v3-0-2&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Microsoft 365 Excel spoke](https://www.servicenow.com/docs/access?context=setup-office-365-excel&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Microsoft Teams spoke](https://www.servicenow.com/docs/access?context=microsoft-teams-spoke&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Slack spoke](https://www.servicenow.com/docs/access?context=set-up-slack&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Twilio spoke](https://www.servicenow.com/docs/access?context=setup-twilio&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [X Spoke \(formerly Twitter Spoke\)](https://www.servicenow.com/docs/access?context=twitter-spoke-ol&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
--   [Zoom spoke](https://www.servicenow.com/docs/access?context=setup-zoom&version=australia&pubname=australia-integrate-applications&ft:locale=en-US)
+-   Gmail spoke
+-   Google Sheets spoke
+-   Jira Spoke
+-   Microsoft 365 Excel spoke
+-   Microsoft Teams spoke
+-   Slack spoke
+-   Twilio spoke
+-   X Spoke \(formerly Twitter Spoke\)
+-   Zoom spoke
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Review access settings for Workflow Studio in your development instance.
 
 </td><td>
 
-Enable your developers to use the editing capabilities that best suit them. For detailed instructions, see [Review Flow Designer access settings](https://www.servicenow.com/docs/access?context=user-access-flow-designer&version=australia&pubname=australia-build-workflows&ft:locale=en-US).
+Enable your developers to use the editing capabilities that best suit them. For detailed instructions, see Review Flow Designer access settings.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Review access settings for Catalog Builder.
 
 </td><td>
 
-Enable your developers to add items to the appropriate catalogs and categories.​For detailed instructions, see [Review Catalog Builder access settings](https://www.servicenow.com/docs/access?context=catalog-builder&version=australia&pubname=australia-servicenow-platform&ft:locale=en-US).
+Enable your developers to add items to the appropriate catalogs and categories.​For detailed instructions, see Review Catalog Builder access settings.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ Set up an instance scan cadence.
 
 </td><td>
 
-Schedule regular scans of your instance so that you can identify possible issues that arise from application development in App Engine Studio.For detailed instructions, see [Set up an instance scan cadence in Health Center](https://www.servicenow.com/docs/access?context=hs-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Schedule regular scans of your instance so that you can identify possible issues that arise from application development in App Engine Studio.For detailed instructions, see Set up an instance scan cadence in Health Center.
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ ServiceNow provides several additional resources on configuring and administerin
 
 </td><td>
 
-![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) [App Engine Studio release notes](https://www.servicenow.com/docs/access?context=app-engine-studio-rn&version=australia&pubname=australia-release-notes&ft:locale=en-US)
+![](../../../reuse/icons/brand-icons/bus-try-a-demo.svg) App Engine Studio release notes
 
 </td></tr><tr><td>
 

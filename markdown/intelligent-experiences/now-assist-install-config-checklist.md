@@ -36,7 +36,7 @@ I can't find agent spokes
 
 </td><td>
 
-Install the Now Assist for Spokes application from the ServiceNow Store. For details, see [Now Assist for Integration Hub](https://www.servicenow.com/docs/access?context=now-assist-spokes&version=australia&pubname=australia-integrate-applications&ft:locale=en-US).
+Install the Now Assist for Spokes application from the ServiceNow Store. For details, see Now Assist for Integration Hub.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ External content isn't included in search results
 
 </td><td>
 
-You can use External Content Connectors to include other sources in your search results. For details, see [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+You can use External Content Connectors to include other sources in your search results. For details, see External Content Connectors.
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Now Assist in AI Search Genius results don't appear
 </td><td>
 
 1.  Verify that AI Search and Now Assist in AI Search are installed and configured.
-2.  To use Now Assist Q&amp;A Genius Results in AI Search applications, link the Now Assist Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see [Link a Genius Result configuration to a search profile](https://www.servicenow.com/docs/access?context=link-gr-search-profile-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+2.  To use Now Assist Q&amp;A Genius Results in AI Search applications, link the Now Assist Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see Link a Genius Result configuration to a search profile.
 3.  Verify that all Now Assist plugins are up to date.
 4.  Try repairing the plugins.
 
@@ -114,7 +114,7 @@ I want to view my subscriptions
 
 </td><td>
 
-See [Product subscriptions overview](https://www.servicenow.com/docs/access?context=subscriptions-overview-v2&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+See Product subscriptions overview.
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Can't access skills in the Now Assist panel
 </td><td>
 
 -   Verify that the skill is configured to display in the Now Assist panel. For details, see [Edit a Now Assist skill](../task/edit-a-now-assist-skill.md).
--   If you are using Now Assist in Virtual Agent, verify that search sources were configured for the Now Assist panel. You can specify search sources for a Now Assist panel assistant when you set it up. Search sources are essential for the Now Assist panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [Assign search sources to a chat assistant](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   If you are using Now Assist in Virtual Agent, verify that search sources were configured for the Now Assist panel. You can specify search sources for a Now Assist panel assistant when you set it up. Search sources are essential for the Now Assist panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see Configuring assistants overview and Assign search sources to a chat assistant.
 
 If Now Assist in Virtual Agent is not installed, the Now Assist panel uses default search sources.
 
@@ -178,7 +178,7 @@ Errors after clone
 
 </td><td>
 
-Try repairing affected plugins. For details, see [Repair a ServiceNow application](https://www.servicenow.com/docs/access?context=repair-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Try repairing affected plugins. For details, see Repair a ServiceNow application.
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ The Q&amp;A results skill is not in the Now Assist Admin console
 
 </td><td>
 
-Set up AI Search. For details, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+Set up AI Search. For details, see Configuring AI Search.
 
 </td></tr><tr><td>
 
@@ -202,12 +202,12 @@ Features/skills are missing or generally not working
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallUpdates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Verify that version and dependency requirements are met. For details, see [Evaluating version requirements and dependencies](https://www.servicenow.com/docs/access?context=versions-dependencies&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Verify that all of your Now Assist plugins are up to date. For details, see Install an update to a ServiceNow Store application.
+-   Verify that version and dependency requirements are met. For details, see Evaluating version requirements and dependencies.
 -   For skills, verify that they are active in the Now Assist Admin console. For details, see [Activate a Now Assist skill](../task/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
--   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://www.servicenow.com/docs/access?context=repair-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Try repairing Generative AI Controller. For details, see Repair a ServiceNow application.
 
 </td></tr><tr><td>
 
@@ -233,9 +233,9 @@ Missing entries, fields, and errors
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallUpdates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Try repairing the application. For details, see [Repair a ServiceNow application](https://www.servicenow.com/docs/access?context=repair-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://www.servicenow.com/docs/access?context=repair-app&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   Verify that all of your Now Assist plugins are up to date. For details, see Install an update to a ServiceNow Store application.
+-   Try repairing the application. For details, see Repair a ServiceNow application.
+-   Try repairing Generative AI Controller. For details, see Repair a ServiceNow application.
 
 </td></tr><tr><td>
 
@@ -249,7 +249,7 @@ Problems upgrading Now Assist applications
 
 -   Verify that you have a license for the application.
 -   If the application was not previously installed, request it from the [ServiceNow Store](https://store.servicenow.com/store) \(Opt In\).
--   If the application was previously installed, you may need to procure it from the [ServiceNow Store](https://store.servicenow.com/store) again. For details, see [Updating applications](https://www.servicenow.com/docs/access?context=updating-apps-app-manager&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
+-   If the application was previously installed, you may need to procure it from the [ServiceNow Store](https://store.servicenow.com/store) again. For details, see Updating applications.
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ Don't see code suggestions
 
 -   Verify that the skill is active. For details, see [Activate a Now Assist skill](../task/configure-a-now-assist-skill.md).
 -   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
--   Verify that autocomplete is enabled. For details, see [Generate code with autocomplete](https://www.servicenow.com/docs/access?context=generate-code-with-autocomplete&version=australia&pubname=australia-api-reference&ft:locale=en-US).
+-   Verify that autocomplete is enabled. For details, see Generate code with autocomplete.
 
 </td></tr><tr><td>
 
@@ -325,8 +325,8 @@ Topic not returning as expected
 
 </td><td>
 
--   Verify that the Virtual Agent topic is in the Active state and is published. For details, see [Publish a Virtual Agent topic](https://www.servicenow.com/docs/access?context=publish-virtual-agent-topic&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
--   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using Now Assist in Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://www.servicenow.com/docs/access?context=llm-topic-migration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   Verify that the Virtual Agent topic is in the Active state and is published. For details, see Publish a Virtual Agent topic.
+-   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using Now Assist in Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see Migrating NLU/keyword Virtual Agent topics to LLM topics.
 
 </td></tr><tr><td>
 
@@ -338,7 +338,7 @@ Can't add topics to the portal
 
 </td><td>
 
-Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using Now Assist in Virtual Agent. You can migrate these topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://www.servicenow.com/docs/access?context=llm-topic-migration&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using Now Assist in Virtual Agent. You can migrate these topics to LLM, however. For details, see Migrating NLU/keyword Virtual Agent topics to LLM topics.
 
 </td></tr><tr><td>
 
@@ -350,8 +350,8 @@ Configuration issues
 
 </td><td>
 
-1.  Verify that the plugin is up to date. For details, see [Install an update to a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallUpdates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
-2.  Follow the guided setup to install and configure it. For details, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+1.  Verify that the plugin is up to date. For details, see Install an update to a ServiceNow Store application.
+2.  Follow the guided setup to install and configure it. For details, see Configuring assistants overview.
 
 </td></tr><tr><td>
 
@@ -375,9 +375,9 @@ Chat is not showing search results
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://www.servicenow.com/docs/access?context=t_InstallUpdates&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Verify that AI Search and Now Assist in AI Search are set up and configured. For details, see [Configuring AI Search](https://www.servicenow.com/docs/access?context=configuring-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US) and [Install Now Assist in AI Search](https://www.servicenow.com/docs/access?context=install-now-assist-ais&version=australia&pubname=australia-platform-administration&ft:locale=en-US).
--   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the Now Assist panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US) and [Assign search sources to a chat assistant](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+-   Verify that all of your Now Assist plugins are up to date. For details, see Install an update to a ServiceNow Store application.
+-   Verify that AI Search and Now Assist in AI Search are set up and configured. For details, see Configuring AI Search and Install Now Assist in AI Search.
+-   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the Now Assist panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see Configuring assistants overview and Assign search sources to a chat assistant.
 
 </td></tr><tr><td>
 
@@ -389,7 +389,7 @@ Error when attempting to migrate Virtual Agent NLU conversations to LLM
 
 </td><td>
 
-Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see [Migrate NLU topics to LLM topics](https://www.servicenow.com/docs/access?context=migrate-nlu-llm&version=australia&pubname=australia-conversational-interfaces&ft:locale=en-US).
+Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see Migrate NLU topics to LLM topics.
 
 </td></tr></tbody>
 </table>

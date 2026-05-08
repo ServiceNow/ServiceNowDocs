@@ -27,7 +27,7 @@ Select the **+Create task** button to create a Security Task related to a metric
 
 ## My metrics dashboard
 
-This is a customizable dashboard that displays information about metrics you care about most. Select **Edit** to customize your dashboard by adding visualizations, filters, headings, images, rich text, and lists. To learn about the various ways you can customize your dashboard, see [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&version=australia&pubname=australia-now-intelligence&ft:locale=en-US).
+This is a customizable dashboard that displays information about metrics you care about most. Select **Edit** to customize your dashboard by adding visualizations, filters, headings, images, rich text, and lists. To learn about the various ways you can customize your dashboard, see Dashboards in Platform Analytics.
 
 ## Metrics navigation pane
 

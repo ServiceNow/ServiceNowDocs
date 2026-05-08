@@ -52,7 +52,7 @@ Learn about the various SAFe entities that are used to successfully plan, track,
 
         You can restrict this function just to the system administrator by creating the **safe.disallow\_scrum\_add\_group\_member** property and setting it to **true**.
 
-        For information on how to create a property, see [Add a system property](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&version=australia&pubname=australia-platform-administration&section=t_AddAPropertyUsingSysPropsList&ft:locale=en-US).
+        For information on how to create a property, see Add a system property.
 
 -   **Sprint**
 

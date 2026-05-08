@@ -17,7 +17,7 @@ You can use the ServiceNow® Mobile Agent application to create, update, and vie
 
 The ServiceNow Mobile Agent application is supported on both iOS and Android devices. You can download the application from the [Apple App Store](https://apps.apple.com/us/app/servicenow-agent/id1446951408) or [Google Play Store](https://play.google.com/store/apps/details?id=com.servicenow.fulfiller&hl=en_US&gl=US&pli=1).
 
-See [Mobile Agent app](https://www.servicenow.com/docs/access?context=mobile-experience&version=australia&pubname=australia-mobile&ft:locale=en-US) for more information on the Mobile Agent application.
+See Mobile Agent app for more information on the Mobile Agent application.
 
 **Related topics**  
 

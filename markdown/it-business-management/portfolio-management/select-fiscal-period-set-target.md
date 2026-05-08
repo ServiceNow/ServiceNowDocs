@@ -35,15 +35,15 @@ For information on creating a top level investment and allocating funds, see the
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d310185e106">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d310181e106">
 
 Location
 
-</th><th align="left" id="d310185e109">
+</th><th align="left" id="d310181e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d310185e115">
+</th></tr></thead><tbody><tr><td id="d310181e115">
 
 **From application navigator**
 
@@ -53,7 +53,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d310185e148">
+</td></tr><tr><td id="d310181e148">
 
 **From the portfolio list**
 
